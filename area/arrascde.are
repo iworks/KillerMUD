@@ -1,0 +1,3133 @@
+#AREADATA
+Name +# Kontynuacje Arras~
+Builders City~
+VNUMs 2281 2327
+Credits Twórcy: Garloop, Tener, Iliand.
+Poprawki i spolszczenie: Nicodemus.
+~
+Locked ~
+Security 9
+ResetAge 30
+Region 101
+End
+
+
+
+#MOBILES
+#Vnum 2281
+Name medyk cz³owiek~
+Odmiana medyka~medykowi~medyka~medykiem~medyku~
+Short medyk~
+Long Stary medyk czeka tutaj na rannych.~
+Descr Widzisz niewysokiego cz³owieka, pe³ni±cego tu funkcjê medyka. Jak to na
+arenie, rannych jest du¿o, wiêc i zajêcia ma wiele. Widaæ, ¿e jest
+do¶wiadczony i niejedno ju¿ widzia³. Na mankietach jego togi zauwa¿asz
+niewielkie runy - najwyra¼niej jest on równie¿ kap³anem.
+~
+Race cz³owiek~
+ActExt 0|ABQb
+Affected 0 0 0 0
+AffectedExt 0
+Align 500
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 0
+HP 16d6+300
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 108 108 90 60 60 96
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments Doda³em dwa czarki ofensywne  - {RAthlar{x ({CFri May 16 16:21:13 2008{x)
+SCINAM I JESZCZE RAZ SCINAM - {RLaszlo{x ({CFri Mar 20 17:08:44 2009{x)
+~
+Spells 30 28 12 77
+Spells 272 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2282
+Name Stra¿nik ochroniarz~
+Odmiana ochroniarza~ochroniarzowi~ochroniarza~ochroniarzem~ochroniarzu~
+Short ochroniarz~
+Long Ochroniarz krêci siê tutaj wypatruj±c zagro¿enia.~
+Descr Potê¿nie zbudowany stra¿nik ma za zadanie chroniæ to miejsce. Wokó³ krêci
+siê wiele podobnych mu osób. Jego postawa i sposób w jaki siê porusza nie
+pozostawiaj± w±tpliwo¶ci - lepiej z nim nie zadzieraæ. 
+~
+Race cz³owiek~
+ActExt 0|AGTb
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 5d8+200
+Damage 1d10+0
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 8
+Stats 120 84 60 108 72 48 78
+Off CDHUV
+OffExt 0|CDHUV
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments zmniejszy³em poziom i odpowiednio statystyki, jak chcecie, podkrêcie to grupk±, ale nie poziomem, to zwyk³y ochroniarz - {RGurthg{x ({CWed Dec 29 10:09:05 2004{x)
+~
+MobprogNew onload ochroniarz_eq ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 90
+Mobend
+#Vnum 2283
+Name Zarz±dca areny~
+Odmiana zarz±dcy~zarz±dcy~zarz±dcê~zarz±dc±~zarz±dcy~
+Short zarz±dca areny~
+Long Zarz±dca areny stoi tu witaj±c go¶ci.~
+Descr Stoj±cy przed tob± mê¿czyzna wita przychodz±cych go¶ci. Z ka¿dym przyby³ym zamieni kilka s³ów. Konwersuje ze swobod± i lekko¶ci±, co przekonuje ciê, ¿e niew±tpliwie zna tu ka¿dego.~
+Race cz³owiek~
+ActExt 0|AB
+Affected 8 0 0 0
+AffectedExt 0|D
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 5
+HP 40d40+1000
+Damage 5d5+1
+Dammagic 2
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 168 168 168 168 168 168 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet 2283 FGI 100~
+MobprogNew onload zarzadca_3 ABCDEFGHI 100~
+MobprogNew greet zarzadca_1 FGI 100~
+MobprogNew precommand zarzadca_2 ABCDEFGHI sell~
+Skin 100
+ExpMultiplier 100
+Resist 12 90
+Mobend
+#Vnum 2284
+Name pracownik gildii ³owców g³ów cz³owiek~
+Odmiana barczystego pracownika Gildii~barczystemu pracownikowi Gildii~barczystego pracownika Gildii~barczystym pracownikiem Gildii~barczystym pracowniku Gildii~
+Short barczysty pracownik Gildii~
+Long Szeroki w barach pracownik Gildii notuje co¶ na kartce.~
+Descr Ogl±dasz tego ciekawego cz³owieka, który jest umiê¶niony w wyj±tkowy
+sposób - szerokie, rozwiniête barki i praktycznie zanik reszty miê¶ni.
+Jednak masz wra¿enie, ¿e i tak jest on niezmiernie silny i zmia¿dzy³by ciê
+jednym ciosem. Dlatego te¿ ciekawie wygl±da teraz, pilnie co¶ notuj±c, chyba
+licz±c. 
+~
+Race cz³owiek~
+ActExt 0|ABEK
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang AB
+Speaks 0
+Level 8
+Hitroll 0
+HP 7d7+100
+Damage 1d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 8 8 10
+Stats 66 96 102 90 90 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 7
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2285
+Name adept uczeñ m³ody ch³opak cz³owiek~
+Odmiana adepta najemnika~adeptowi najemnika~adepta najemnika~adeptem najemnika~adepcie najemnika~
+Short adept najemnika~
+Long Adept najemnika æwiczy tutaj pod okiem mistrza.~
+Descr M³ody ch³opak, który jeszcze nie ma na twarzy powa¿nego zarostu. Zapewne
+pochodzi z jednej z biednych rodzin Arras. Jego jedyn± mo¿liwo¶ci± zrobienia
+kariery jest wojsko. M³odzieniec o tym zapewne wie, bo widaæ po nim, i¿ nie
+szczêdzi czasu na æwiczenia - jest silnie umiê¶niony, a ka¿dy jego ruch
+wykonany jest z dziwn±, wystudiowan± gracj±. 
+~
+Race cz³owiek~
+ActExt 0|ABGTY
+Affected 0 0 0 0
+AffectedExt 0
+Align 200
+Group 2285
+Lang A
+Speaks 0
+Level 13
+Hitroll 0
+HP 6d10+210
+Damage 3d4+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 96 90 72 72 102 48 48
+Off EIKL
+OffExt 0|EIKL
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random najemnik_echo FGI 3~
+MobprogNew onload najemnik_wear ABCDEFGHI 100~
+MobprogNew kill najemnik_kill ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2286
+Name adept uczeñ m³ody ch³opak cz³owiek~
+Odmiana adepta najemnika~adeptowi najemnika~adepta najemnika~adeptem najemnika~adepcie najemnika~
+Short uczeñ najemnika~
+Long Jeden z uczniów trenuje jakie¶ techniki walki.~
+Descr To jaki¶ m³odzieniec, zapewne wywodz±cy siê z jakiego¶ rodu
+szlacheckiego. Od razu w oczy rzuca siê jego delikatna skóra i d³onie,
+nienawyk³e to w³adania orê¿em. Jednak pomimo tego, na jego twarzy widzisz
+dziwne skupienie. Ten typ osoby to przysz³y dowódca, a nie szeregowy
+¿o³nierz. 
+~
+Race cz³owiek~
+ActExt 0|ABGTY
+Affected 0 0 0 0
+AffectedExt 0
+Align 200
+Group 2285
+Lang A
+Speaks 0
+Level 13
+Hitroll 3
+HP 6d10+210
+Damage 3d4+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 8
+Stats 96 90 72 72 102 48 48
+Off EIKL
+OffExt 0|EIKL
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 26
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random najemnik_echo FGI 3~
+MobprogNew onload najemnik_wear ABCDEFGHI 100~
+MobprogNew kill najemnik_kill ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2287
+Name notariusz cechu~
+Odmiana notariusza cechu~notariuszowi cechu~notariusza cechu~notariuszem cechu~notariuszu cechu~
+Short notariusz miejski~
+Long Notariusz cechu co¶ skrobie na kartce papieru.~
+Descr Typowy skryba - zapewne wybitnie m±dry, lekko ³ysawy, siwawy cz³owieczek.
+Wiecznie zgarbiony nad swoim biurkiem, zastawionym stosami ksi±g
+rachunkowych, ró¿norakich papierów, piór i ka³amarzy. Wype³nia swoje
+niewdziêczne, nudne zadania z dnia na dzieñ. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang ABCG
+Speaks 0
+Level 6
+Hitroll 0
+HP 15d6+290
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 9 9 9 9
+Stats 108 102 102 96 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 600
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew precommand najemnik_buy ABCDEFGHI list~
+MobprogNew greet najemnik_witaj FGI 90~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2292
+Name Bibliotekarz~
+Odmiana bibliotekarza~bibliotekarzowi~bibliotekarza~bibliotekarzem~bibliotekarzu~
+Short bibliotekarz~
+Long Bibliotekarz stoi sobie tutaj czytaj±c jak±¶ star± ksi±¿kê.~
+Descr Wysoki, chudy mê¿czyzna w okularach przechadza siê po ca³ej bibliotece
+wci±¿ zaczytany w jakiej¶ ksi±¿ce. Ubrany jest w br±zowe, lniane spodnie,
+bia³± koszulê oraz skórzan± kamizelkê. Widaæ, ¿e jest to sympatyczny
+osobnik. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align 1
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 2
+HP 4d5+100
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walenie
+XAC 8 9 9 9
+Stats 90 120 120 90 120 108 60
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AEFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew kill zaatakowano ABCDEFGHI 100~
+MobprogNew greet 2292 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2293
+Name kantor stary~
+Odmiana starego kantora~staremu kantorowi~starego kantora~starym kantorem~starym kantorze~
+Short stary kantor~
+Long Stary kantor przechadza siê po bibliotece, prosz±c wszystkich by zachowali ciszê.~
+Descr Wysoki cz³owiek w okularach, przechadza siê po ca³ej bibliotece
+uspakajaj±c wszystkich. Widaæ, ¿e lubi swoj± pracê, poniewa¿ wykonuje j±
+bardzo entuzjastycznie. Dra¿ni go ka¿dy szum, szelest, a nawet powiew
+wiatru. Idealna cisza - to wszystko czego pragnie. 
+~
+Race cz³owiek~
+ActExt 0|AT
+Affected 67108864 0 0 0
+AffectedExt 0|a
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 4d5+120
+Damage 2d5+0
+Dammagic 3
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 9 9 9 9
+Stats 144 90 90 120 120 60 108
+Off U
+OffExt 0|U
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 12
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew kill zaatakowano ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2283
+Name niewielki magiczny kamieñ walcz±cych~
+Odmiana magicznego kamienia~magicznemu kamieniowi~magiczny kamieñ~magicznym kamieniem~magicznym kamieniu~
+Short niewielki magiczny kamieñ~
+Descr W powietrzu lewituje niewielki kamyczek.~
+Material kamieñ~
+Type gem
+ExtraExt 0|DNd
+Wear AQ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 100
+Objprog random kamien_zniszcz 50~
+Objprog fight kamien_walka 100~
+Objprog preremove kamien_zdejm 100~
+Objprog prewear kamien_zaloz 100~
+Itemdesc Widzisz przed sob± niepozorny, lecz jak¿e potê¿ny, magiczny przedmiot.
+Utworzony za pomoc± wyrafinowanej magii wygl±da z pozoru jak otoczak, lecz w
+odpowiednich warunkach ujawnia magiczn± naturê. Widzisz na nim niewielki run
+Arrasyjskiej Szko³y Magii. 
+~
+Comments ~
+Objend
+#Vnum 2295
+Name stara ksiêga~
+Odmiana {DStarej ksiêgi{x~{DStarej ksiêdze{x~{DStar± ksiêge{x~{DStar± ksiêg±{x~{DStarej ksiêdze{x~
+Short {Dstara ksiêga{x~
+Descr {DStara ksiega{x le¿y na ¶rodku pomieszczenia.~
+Material papier~
+Type board
+ExtraExt 0|T
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 14 1 2 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 2297
+Name ksi±¿ki~
+Odmiana ksi±¿ek~ksi±¿kom~ksi±¿ki~ksi±¿kami~ksi±¿kach~
+Short ksi±¿ki~
+Descr Przeró¿ne ksi±¿ki stoj± na regale.~
+Material papier~
+Type map
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 2298
+Name piêkny kolczyk z³oty~
+Odmiana z³otego kolczyka~z³otemu kolczykowi~z³oty kolczyk~z³otym kolczykiem~z³otym kolczyku~
+Short z³oty kolczyk~
+Descr Piêkny, z³oty kolczyk poniewiera siê na ziemi.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 3000
+Cond 75
+Itemdesc Jest to piêknie wykonany z³oty kolczyk.
+~
+Comments ~
+Objend
+#Vnum 2311
+Name pomnik pos±g kamienny paladyn~
+Odmiana pomnika~pomnikowi~pomnik~pomnikiem~pomniku~
+Short pomnik~
+Descr Na trawie stoi marmurowy pomnik przedstawiaj±cy paladyna.~
+Material kamieñ~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 0 73 105 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Spogl±dasz na ten wielki, bardzo solidnie wykonany pomnik wykonany ze
+starannie dobranego granitu. Nie mo¿esz siê oprzeæ wra¿eniu, ¿e osobê, która
+przedstawia pos±g, gdzie¶ ju¿ wcze¶niej widzia³e¶. Kiedy podchodzisz bli¿ej
+i przygl±dasz siê g³owie, która zosta³a wykonana z najdrobniejszymi
+szczegó³ami, dostrzegasz dwie bardzo charakterystyczne blizny na czole tego
+bohatera. Dociera do Ciebie, na czyj pomnik w³a¶nie patrzysz. Jest to sir
+Keman, jeden z najwiêkszych bohaterów ery ¦miertelników. Jego historia by³a
+tak bogata, ¿e nawet stu historyków, pracuj±cych sto godzin dziennie,
+zu¿ywaj±c setki piór i kartek pergaminu, nie by³oby jej w stanie ca³ej
+spisaæ. Jedynym okresem w jego ¿yciu, o którym wiemy bardzo ma³o jest jego
+dzieciñstwo. Historia jego lat m³odzieñczych pozostanie dla wszystkich
+wielk± tajemnic±, sir Keman napomnia³ o niej w swoim dzienniku. 
+~
+Comments ~
+Objend
+#Vnum 2312
+Name czarny klucz czarny_klucz_od_areny~
+Odmiana {Dczarnego klucza{x~{Dczarnemu kluczowi{x~{Dczarny klucz{x~{Dczarnym kluczem{x~{Dczarnym kluczu{x~
+Short {Dczarny klucz{x~
+Descr Du¿y, {Dczarny klucz{x le¿y na ziemi.~
+Material stal~
+Type key
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6
+Cost 1
+Cond 75
+Itemdesc Widzisz {Dklucz{x wykonany z jakiej¶ czarnej stali. Jest on strasznie du¿y,
+pewnie s³u¿y do otwierania jakiej¶ bramy. Ma on wyryte ma³± literkê "C".
+Mo¿e by³ on wykonany w Carrallak? 
+~
+Comments ~
+Objend
+#Vnum 2313
+Name ma³a podejrzana szafka~
+Odmiana ma³ej szafki~ma³ej szafce~ma³± szafkê~ma³± szafk±~ma³ej szafce~
+Short ma³a szafka~
+Descr Widzisz ma³±, podejrzanie wygl±daj±c± szafkê.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 15 0 0 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 60
+Cond 75
+Itemdesc Przygl±dasz siê uwa¿nie szafce. Jest ona bardzo stara, jednak ma solidnie
+wykonany zamek, najprawdopodobniej przez Gildiê Z³odzei, tak wiêc w³amanie
+siê do niej jest niemo¿liwe. Jednak wygl±da podejrzanie. Tak, jakby kto¶ j±
+czêsto przesuwa³. 
+~
+Comments ~
+Objend
+#Vnum 2315
+Name stary zniszczony manekin do æwiczenia szermierki~
+Odmiana zniszczonego manekina~zniszczonemu manekinowi~zniszczonego manekina~zniszczonym manekinem~zniszczonym manekinie~
+Short zniszczony manekin~
+Descr Stary, zniszczony manekin do æwiczenia szermierki.~
+Material trzcina~
+Type trash
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1200
+Cost 1
+Cond 75
+Itemdesc W k±cie stoi stary i zniszczony manekin do æwiczenia szermierki. Nawet
+nie chcesz my¶leæ ile osób æwiczy³o swoj± broñ i umiejêtno¶ci na tej kukle.
+Teraz ju¿ do niczego siê nie nadaje. Stoi tu zapewne jako ozdoba, tworz±c
+wojowniczy klimat Gildii Najemników. 
+~
+Comments ~
+Objend
+#Vnum 2316
+Name tablica drogowa drogowskaz~
+Odmiana {ytablicy{x~{ytablicy{x~{ytablicê{x~{ytablic±{x~{ytablicy{x~
+Short {ytablica drogowa{x~
+Descr Przy drodze stoi jaka¶ {ytablica{x.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Uwaga, uwaga! 
+ 
+Informuje siê wszystkich podró¿nych, ¿e przej¶cia na wschód nie ma!
+Ostatnimi czasy mia³y tu miejsce niewyja¶nione, najprawdopodobniej magiczne,
+ruchy tektoniczne, które zniszczy³y wiêksz± czê¶æ traktu. Trwaj± pracê
+nad przywróceniem u¿yteczno¶ci tego wa¿nego szlaku. 
+ 
+Podpisano:
+mer Arras
+~
+Comments ~
+Objend
+#Vnum 2318
+Name srebrny proszek komponent srebrnyproszek pojemnik~
+Odmiana pojemnika ze {Wsrebrnym proszkiem{x~pojemnikowi ze {Wsrebrnym proszkiem{x~pojemnik ze {Wsrebrnym proszkiem{x~pojemnikiem ze {Wsrebrnym proszkiem{x~pojemniku ze {Wsrebrnym proszkiem{x~
+Short pojemnik ze {Wsrebrnym proszkiem{x~
+Descr Proszek o srebrzystym kolorze le¿y tutaj w niewielkim skórzanym pojemniczku.~
+Material srebro~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Komponent 25 180000
+Value 0 0 0 0 0 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 5
+Cond 100
+Itemdesc Niewielka, skórzana torbeka do której kto¶ wsypa³ sporo srebrzystego
+proszku. 
+~
+Comments ~
+Objend
+#Vnum 2319
+Name ksiega niebieska ochrony przed zimnem~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga ochrony przed zimnem~
+Descr Oprawiona w niebiesk± ok³adkê ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1 267 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 1500
+Cond 75
+Itemdesc Jest to gruba i mocno ju¿ podniszczona ksiêga oprawiona w skórê. 
+~
+Comments ~
+Objend
+#Vnum 2320
+Name modlitewnik niebieski ochrony przed zimnem niewielki~
+Odmiana modlitewnika~modlitewnikowi~modlitewnik~modlitewnikiem~modlitewniku~
+Short modlitewnik ochrony przed zimnem~
+Descr Oprawiony w czerwon± oprawkê niewielki modlitewnik le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1 267 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 1500
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 2321
+Name zielona ksiêga ochrony przed zimnem niewielka~
+Odmiana {Gzielonej ksiêgi{x~{Gzielonej ksiêdze{x~{Gzielon± ksiêgê{x~{Gzielon± ksiêg±{x~{Gzielonej ksiêdze{x~
+Short {Gzielona ksiêga{x ochrony przed zimnem~
+Descr Ksiêga w zielonej ok³adce wala siê tutaj po ziemi.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 1 267 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 1500
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2281
+Name {WG³ówna arena walk{x~
+Descr Na pokrytej piachem arenie wielu podró¿ników ¶ciera³o siê ju¿ ze sob±.
+Czasami walcz± tu te¿ dzikie zwierzêta, lecz o wiele ciekawsze s± walki
+do¶wiadczonych wojowników. Kamienne ¶ciany s± chropowate i nieobrobione,
+za¶ na samym ¶rodku ustawiono kilka niewysokich, ceglanych murów, maj±cych
+urozmaiciæ walkê. Na po³udniu w kamiennej ¶cianie widnieje otwór, przez
+który widzowie mog± ogl±daæ zmagania. Zachodnie, szerokie wrota areny
+znajduj± siê dok³adnie naprzeciw drugiego, niewielkiego otworu. Jest tam
+kolejna, niewielka tym razem arena, zakryta przed oczami widzów. W
+niektórych bowiem pojedynkach op³aca siê uciec z walki, by znienacka zaatakowaæ
+wrogów. Dach nie zakrywa tego miejsca, by umo¿liwiæ nap³yw ¶wie¿ego
+powietrza i zapewniæ ciekawsze warunki.
+~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtBiernik wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 16385
+ExitExtKey 0
+ExitExtToVnum 2290
+ExitExtEnd
+Exit 1
+~
+wrota~
+16385 0 2290
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 155683
+ExitExtKey 2312
+ExitExtToVnum 2287
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+155683 2312 2287
+EchoTo 2282
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2282
+Name {WWidownia{x~
+Descr {PPomieszczenie to diametralnie ró¿ni siê od dotychczas ogl±danych - wrêcz
+l¶ni czysto¶ci±. Ustawione w równych rzêdach ³awki zosta³y wykoñczone z
+prawdziwym kunsztem i smakiem, tworz±c swoiste dzie³a sztuki. W jednej ze
+¶cian widnieje szeroki otwór, zapewniaj±cy panoramiczny widok na arenê. Ona
+sama jest obszernym placem z odkrytym dachem. Du¿a, ozdobna brama areny
+znajduje siê dok³adnie naprzeciwko niewielkiego otworu, prowadz±cego do
+innej, niewidocznej st±d czê¶ci areny. {x
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2283
+ExitExtEnd
+Exit 2
+~
+~
+16384 0 2283
+Roomprog reset kamienne_lawki 100~
+Roomprog input lista_graczy look arena~
+Roomprog input lista_graczy look at arena~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2283
+Name {WCiemny hol{x~
+Descr {DNiewielki, ciemny hol jest zarazem przedsionkiem do areny. Nie widzisz tu
+¿adnych zdobieñ, jednak o zamo¿no¶ci tego miejsca ¶wiadczy z pewno¶ci± fakt,
+¿e o¶wietlono je za pomoc± magicznych kul. Mimo wszystko legalno¶æ tego
+miejsca jest co najmniej w±tpliwa, co zdumiewa - w koñcu Arras to miasto
+prawa... Ale czy na pewno? Na jednej ze ¶cian zauwa¿asz spor± {Wtablicê{D, mo¿e
+wartoby j± obejrzeæ? {S 
+~
+FlagsExt 0|H
+Sector 0
+Extra tablica~
+Dêbowa, porz±dna tablica zawieszona jest na jednej ze ¶cian. {/{RRegulamin
+Arrasyjskiej Areny Walk{x {/1. Walcz±cy uczestnicz± w walkach na w³asn± odpowiedzialno¶æ. {/2. Walcz±cy zobowi±zani s± do zakupienia i u¿ywania
+podczas walki specjalnych, umagicznionych kamieni. Umo¿liwi± one widzom
+dok³adne ogl±danie walki. {/3. O przegranej decyduje ¶mieræ lub poddanie siê
+zawodnika, chyba ¿e organizator turnieju zadecyduje inaczej. {/4. Organizator
+nie wyp³aca ¿adnych ¶wiadczeñ za kontuzje i urazy. {/5. Widzowie winni
+przebywaæ na trybunach (na pó³noc od tego miejsca).
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2282
+ExitExtEnd
+Exit 0
+~
+~
+16384 0 2282
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2284
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 2284
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2285
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 2285
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2284
+Name {WD³ugi korytarz{x~
+Descr {DStoisz w d³ugim, nieo¶wietlonym korytarzu. Na zakurzonej pod³odze widaæ
+¶lady stop, jednak wydaje siê, ¿e to miejsce jest opuszczone. Zreszt±
+niedaleko znajduje siê siedziba cechu z³odziei, co mo¿e byæ wystarczaj±c±
+motywacj± do opuszczenia tych okolic. Z drugiej strony co¶ ci±gnie ciê do
+¶rodka tego budynku...{S
+~
+FlagsExt 0|CN
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2291
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 2291
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2283
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 2283
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2285
+Name {WKorytarz~
+Descr {DCiemny korytarz u¿ywany jest przez walcz±cych i obs³ugê areny, wiêc nie
+krêci siê tu wiele osób. Oczywi¶cie je¿eli nie liczyæ zawsze obecnej
+ochrony czujnie wypatruj±cej intruzów. Tylko kto chcia³by atakowaæ tak
+potê¿nie strze¿ony obiekt? {x
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2286
+ExitExtEnd
+Exit 0
+~
+~
+16384 0 2286
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2283
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 2283
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2286
+Name {WKorytarz~
+Descr {DStosunkowo w±ski korytarz wychodzi na pó³noc na niewielkie skrzy¿owanie.
+Jest tu raczej czysto, jednak nikt nie zadba³ chocia¿by o otynkowanie
+surowych, kamiennych ¶cian. Byæ mo¿e jest to jednak zamierzony efekt... {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2287
+ExitExtEnd
+Exit 0
+~
+~
+16384 0 2287
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2285
+ExitExtEnd
+Exit 2
+~
+~
+16384 0 2285
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2287
+Name {WNiewielka arena treningowa{x~
+Descr {DW pomieszczeniu tym znajduje siê niewielka arena przeznaczona do
+treningów. Pod³o¿e wysypane piaskiem amortyzuje wstrz±sy, chroni±c
+zawodników. W tej chwili nie jest najwyra¼niej u¿ywana, o czym ¶wiadczy
+wyrównany piasek. Na pó³nocy niewielki otwór prowadzi do szatni, za¶ na
+zachodzie znajduje siê pokój opatrunkowy. Wschodnie wrota prowadz± na arenê,
+miejsce staræ ¶mia³ków. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2289
+ExitExtEnd
+Exit 0
+~
+~
+16384 0 2289
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Arena~
+ExitExtTextOut $n wkracza na arenê.~
+ExitExtTextIn $n przybywa z areny.~
+ExitExtLiczba 1
+ExitExtInfo 155683
+ExitExtKey 2312
+ExitExtToVnum 2281
+ExitExtEnd
+Exit 1
+~
+VName Arena~
+TextOut $n wkracza na arenê.~
+TextIn $n przybywa z areny.~
+~
+155683 2312 2281
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2286
+ExitExtEnd
+Exit 2
+~
+~
+16384 0 2286
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2288
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 2288
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2288
+Name {WPokój opatrunkowy{x~
+Descr {DWchodz±c do tego pomieszczenia mo¿na jasno powiedzieæ, ¿e u¿ywane jest
+jako sala opatrunkowa. Mocny aromat zió³ dzia³a odurzaj±co, lecz tak¿e
+dziwnie koi twoje zmys³y. Do¶æ obszerna le¿anka przykryta jest prostym
+kocem, oprócz tego nie zauwa¿asz tu nic ciekawego. {x
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2287
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 2287
+Heal 105
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2289
+Name {WSzatnie{x~
+Descr {DPomieszczenie to jest niemal zupe³nie puste. Znajduj± siê tu jedynie
+niewielkie kosze na ubrania i para ³awek, na których zawodnicy mog± siê
+przebraæ. Brak drzwi powoduje niewielki przeci±g, jednak nie jest to zbytni±
+niedogodno¶ci±. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2287
+ExitExtEnd
+Exit 2
+~
+~
+16384 0 2287
+Roomprog reset kamienne_lawki 100~
+Roomprog input 2289 @^^(przesun szafke|odsun szafke|pchnij szafke|popchnij szafke)$~
+Roomprog exit 2322 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2290
+Name {WNiewielka arena{x~
+Descr Ukryta przed oczami widzów arena nie jest bynajmniej piêknym miejscem.
+Wymurowana z topornych bloków kamienia ma jednak s³u¿yæ urozmaiceniu walki i
+funkcjê tê spe³nia doskonale. Czasami jednak organizatorzy zamykaj± ciê¿kie
+kamienne wrota, uniemo¿liwiaj±c dostêp do tego pomieszczenia.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtBiernik wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 16385
+ExitExtKey 0
+ExitExtToVnum 2281
+ExitExtEnd
+Exit 3
+~
+wrota~
+16385 0 2281
+EchoTo 2282
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2291
+Name {WCiemna brama{x~
+Descr {DZakurzone schody wydaj± siê byæ od dawna nieu¿ywane, za¶ drzwi ju¿ dawno
+z¿ar³y korniki. Wyra¼nie podupad³y budynek nie sprawia przyjemnego wra¿enia
+i znacz±co odstaje od reszty dzielnicy. Prawdopodobnie nikomu nie zale¿y na
+remoncie tak starego i bezu¿ytecznego miejsca. Jedyny korytarz prowadzi
+dalej na zachód, do ciemnego wnêtrza. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 2312
+ExitExtToVnum 6071
+ExitExtEnd
+Exit 1
+~
+~
+16384 2312 6071
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 2284
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 2284
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2292
+Name Biblioteka~
+Descr Stoisz w du¿ym pomieszczeniu, czujesz na sobie delikatny przeci±g, który
+tworz± podmuchy wiatru dochodz±ce z uchylonych lekko okien. Na pod³odze le¿y
+skóra z nied¼wiedzia, która s³u¿y jako dywan. Na pó³nocy dostrzegasz
+kilkana¶cie rzêdów pó³ek z ksi±¿kami. Ka¿dy autor, ka¿de wydanie - czego
+tylko dusza zapragnie. Na po³udniu znajduj± siê ogromne dêbowe drzwi, które
+prowadz± do wyj¶cia. W rogu pomieszczenia znajduje siê biurko, przy którym
+zapisywani s± wszyscy wypo¿yczaj±cy ksi±¿ki. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2293
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2293
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtName wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 2315
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+wyj¶cie~
+16387 0 2315
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2293
+Name Korytarz~
+Descr Pó³ki stoj±ce w tym pomieszczeniu, prawie ca³kowicie uniemo¿liwiaj± Ci
+swobodne poruszanie siê. Wysokie na dwa metry mieszcz± ogromn± ilo¶æ
+ksi±¿ek. Drewniana pod³oga ugina siê pod tob± i skrzypi niemi³osiernie, gdy
+nastêpujesz na ni± by przyjrzeæ dok³adniej siê ksi±¿kom, a jest ich tutaj
+pe³no. Ka¿dy znajdzie sobie jak±¶ mi³± lekturê. Okoliczni adepci magii
+przychodz± tutaj by uzupe³niæ swoj± wiedzê. Na wschodzie i zachodzie wznosz±
+siê ogromne witra¿owe okna, przez które i tak nie przedostaje siê ani
+odrobina ¶wiat³a. Jedynym o¶wietleniem s± ¶wiece znajduj±ce siê w kandelabrach.
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2294
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2294
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2301
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2301
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2292
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2292
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2298
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2298
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2294
+Name Korytarz~
+Descr Pó³ki stoj±ce w tym pomieszczeniu, prawie ca³kowicie uniemo¿liwiaj± Ci
+swobodne poruszanie siê. Wysokie na dwa metry pó³ki mieszcz± ogromn± ilo¶æ
+ksi±¿ek. Drewniana pod³oga ugina siê pod tob± i skrzypi niemi³osiernie, gdy
+nastêpujesz na ni± by przyjrzeæ dok³adniej siê ksi±¿kom, a jest ich tutaj
+pe³no. Ka¿dy znajdzie sobie jak±¶ mi³± lekturê. Okoliczni adepci magii
+przychodz± tutaj by uzupe³niæ swoj± wiedzê. Na wschodzie i zachodzie wznosz±
+siê ogromne witra¿owe okna, przez które i tak nie przedostaje siê ani
+odrobina ¶wiat³a. Jedynym o¶wietleniem s± ¶wiece znajduj±ce siê w kandelabrach.
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2295
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2295
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2293
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2295
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina Ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± Ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2299
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2299
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2294
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2294
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2296
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2296
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2296
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2295
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2295
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2297
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2297
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Podest~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2304
+ExitExtEnd
+Exit 4
+~
+VName Podest~
+~
+0 0 2304
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2297
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina Ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece, umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2296
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2296
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2298
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2298
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2298
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina Ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece, umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2297
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2297
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2293
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2299
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina Ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece, umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2300
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2300
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2295
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2295
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Podest~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2302
+ExitExtEnd
+Exit 4
+~
+VName Podest~
+~
+0 0 2302
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2300
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina Ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece, umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2299
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2299
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2301
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2301
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2301
+Name Korytarz~
+Descr Wystrój pomieszczenia w którym siê obecnie znajdujesz, w ka¿dy mo¿liwy
+sposób przypomina ci, ¿e jest to biblioteka. Na ¶cianach co kilka metrów
+wisi tabliczka "Zachowaj ciszê". A rzêdy ksi±¿ek ka¿dego znanego i
+nieznanego autora ci±gn± siê niemi³osiernie. Grube, stylowe, z ró¿nymi
+wzorami kotary przes³aniaj± prawie ca³kowicie okna. Jedynym ¼ród³em ¶wiat³a
+w bibliotece s± ¶wiece, umieszczone w masywnych kandelabrach. Okoliczni
+adepci magii przychodz± tutaj, by uzupe³niæ swoj± wiedzê. Na po³udniu
+dostrzegasz wielkie dêbowe drzwi, które z pewno¶ci± wyprowadz± ciê na
+zewn±trz. Tu¿ nad tob± wznosi siê wysoki podest, na którym okoliczni poeci
+organizuj± kó³ka poetyckie aby zaprezentowaæ swoje utwory. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2300
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2300
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2293
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2302
+Name Na pode¶cie~
+Descr Stoisz na wysokim pode¶cie, który ma s³u¿yæ jako ma³a arena do
+wyg³aszania przemówieñ. Doskonale st±d widaæ ca³± bibliotekê, tu¿ nad tob±
+stoj± d³ugie pó³ki z ksi±¿kami, a na przeciw ciebie jest du¿o wolnego
+miejsca, w sam raz na krzese³ka. Wielu s³awnych artystów literackich u¿ywa
+tego miejsca do czytania swoich wierszy, lub te¿ traktuj± bibliotekê jak
+doskona³e miejsce do kó³ek literackich.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2303
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2303
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2299
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2299
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2303
+Name Na pode¶cie~
+Descr Stoisz na wysokim pode¶cie, który ma s³u¿yæ jako ma³a arena do
+wyg³aszania przemówieñ. Doskonale st±d widaæ ca³± bibliotekê, tu¿ nad tob±
+stoj± d³ugie pó³ki z ksi±¿kami, a na przeciw ciebie jest du¿o wolnego
+miejsca, w sam raz na krzese³ka. Wielu s³awnych artystów literackich u¿ywa
+tego miejsca do czytania swoich wierszy, lub te¿ traktuj± bibliotekê jak
+doskona³e miejsce do kó³ek literackich.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2302
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2302
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2304
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2304
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2304
+Name Na pode¶cie~
+Descr Stoisz na wysokim pode¶cie, który ma s³u¿yæ jako ma³a arena do
+wyg³aszania przemówieñ. Doskonale st±d widaæ ca³± bibliotekê, tu¿ nad tob±
+stoj± d³ugie pó³ki z ksi±¿kami, a na przeciw ciebie jest du¿o wolnego
+miejsca, w sam raz na krzese³ka. Wielu s³awnych artystów literackich u¿ywa
+tego miejsca do czytania swoich wierszy, lub te¿ traktuj± bibliotekê jak
+doskona³e miejsce do kó³ek literackich.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2303
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2303
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2296
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2296
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2305
+Name Przed zachodni± bram± Arras~
+Descr Znajdujesz siê na ulicy Starogrodzkiej, najwiêkszej zachodniej drodze
+Arras, która prowadzi od samego Z³otego Placu do Zachodniej Bramy, a dalej
+przechodzi, ju¿ za miastem, w Krasnoludzki Trakt prowadz±cy do Fortecy.
+Ulica wygl±da na bardzo zadban±, nie widaæ tu wielu ¶mieci a kamienice s±
+wzglêdnie nowe.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2306
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2306
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6130
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6130
+Roomprog reset latarnia_reset 100~
+Roomprog time latarnia_on 22~
+Roomprog time latarnia_off 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2306
+Name Na ulicy Starogrodzkiej~
+Descr Stoisz na ¶rodku zabytkowej ulicy Starogrodzkiej, najwiêkszej zachodniej
+drodze Arras, która prowadzi od samego Z³otego Placu do Zachodniej Bramy, a
+dalej przechodzi, ju¿ za miastem, w Krasnoludzki Trakt prowadz±cy do
+Fortecy. Wygl±da na to, ¿e ta czê¶æ miasta jest ca³kiem przyjemna. Ulica
+wygl±da na bardzo zadban±, nie widaæ tu wielu ¶mieci a kamienice s±
+wzglêdnie nowe. Co chwila mijaj± ciê grupki osób. Panuje tu spory ruch.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2307
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2307
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2305
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2305
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2307
+Name Na ¶rodku ulicy Starogrodzkiej~
+Descr Znajdujesz siê obecnie na ¶rodku starej ulicy Starogrodzkiej,
+najwa¿niejszej drodze Arras na zachodzie, która prowadzi od samego Z³otego
+Placu do Zachodniej Bramy, a dalej przechodzi, ju¿ za miastem, w
+Krasnoludzki Trakt prowadz±cy do Fortecy. Wygl±da na to, ¿e ta czê¶æ miasta
+jest ca³kiem przyjemna. Co chwila mijaj± ciê grupki osób. Panuje tu spory
+ruch. Widaæ, ¿e w³a¶nie tutaj zaczyna przenosiæ siê ¿ycie miasta. Wiêkszo¶æ
+przepiêknych kamienic wygl±da na nowe budowle. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2308
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2308
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2306
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2306
+Roomprog reset latarnia_reset 100~
+Roomprog time latarnia_on 22~
+Roomprog time latarnia_off 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2308
+Name Ulica Starogrodzka~
+Descr Stoisz na wspania³ej, chocia¿ starej brukowanej ulicy Starogrodzkiej,
+najwiêkszej zachodniej drodze Arras, która prowadzi od samego Z³otego Placu
+do Zachodniej Bramy, a dalej przechodzi, ju¿ za miastem, w Krasnoludzki
+Trakt prowadz±cy do Fortecy. Ogl±daj±c otoczenie masz wra¿enie, ¿e wszystkie
+budynku dooko³a s± nowe. Chyba tutaj zaczyna przenosiæ siê ¿ycie miasta.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2319
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2319
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2309
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2309
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2307
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2307
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2309
+Name Niedaleko mostu na Sejnie~
+Descr Ta brukowana ulica na której w³a¶nie stoisz to ulica Starogrodzka,
+najwiêksza zachodnia droga Arras, która prowadzi od samego Z³otego Placu do
+Zachodniej Bramy, a dalej przechodzi, ju¿ za miastem, w Krasnoludzki Trakt
+prowadz±cy do Fortecy. Co chwila mijaj± ciê grupki osób. Panuje tu spory
+ruch. Na wschodzie widzisz wysoki, wspania³y kamienny most na rzece Sejnie.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2317
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2317
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6126
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6126
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2308
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2308
+Roomprog reset latarnia_reset 100~
+Roomprog time latarnia_on 22~
+Roomprog time latarnia_off 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2310
+Name Na Nowym Trakcie~
+Descr Znajdujesz siê na jednej z g³ównych dróg miasta Arras. Prowadzi ona
+prosto ze Z³otego Placu na wschód, ku bramie miejskiej. Za bram± natomiast
+przechodzi w szeroki go¶ciniec dochodz±cy do wybrze¿a i portowego miasta
+Silea. Widzisz, ¿e tutaj budownictwo jest niezmiernie stare, niektóre
+kamienice po prostu siê rozpadaj±. Na zachodzie widaæ surowy Plac Wojskowy i
+gmach wiezienia.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2311
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2311
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6023
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6023
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2311
+Name Szeroki Nowy Trakt w Arras~
+Descr Stoisz na ¶rodku jednej z g³ównych dróg miasta Arras. Prowadzi ona prosto
+ze Z³otego Placu na wschód, ku bramie miejskiej. Za bram± natomiast
+przechodzi w szeroki go¶ciniec dochodz±cy do wybrze¿a i portowego miasta
+Silea. Nie mo¿esz oprzeæ siê wra¿eniu, ¿e jest co¶ urokliwego w tej czê¶ci
+miasta. Widzisz, ¿e tutaj budownictwo jest niezmiernie stare, niektóre
+kamienice po prostu siê rozpadaj±. Nie widaæ tu zbyt du¿ej ilo¶ci ludzi.
+Zapewne wiêkszo¶æ mieszkañców przenios³a siê na zachodni brzeg rzeki.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2312
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2312
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2310
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2310
+Roomprog reset latarnia_reset 100~
+Roomprog time latarnia_off 7~
+Roomprog time latarnia_on 22~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2312
+Name Na Nowym Trakcie w Arras~
+Descr Jeste¶ w³a¶nie na ¶rodku jednej z g³ównych dróg miasta Arras. Prowadzi
+ona prosto ze Z³otego Placu na wschód, ku bramie miejskiej. Nie mo¿esz
+oprzeæ siê wra¿enia, ¿e jest co¶ urokliwego w tej czê¶ci miasta. Widzisz, ¿e
+tutaj budownictwo jest niezmiernie stare, niektóre kamienice po prostu siê
+rozpadaj±. Nie widaæ tu zbyt du¿ej liczby ludzi.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2313
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2313
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2311
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2311
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2313
+Name Koniec Nowego Traktu~
+Descr Tutaj Nowy Trakt oficjalnie siê koñczy, ustêpuj±c miejsca szerokiemu
+go¶ciñcowi prowadz±cemu na wschodzie do Silei. Tak¿e w tamtym kierunku
+widzisz potê¿n±, murowan± stra¿nicê wschodni±, która nie raz i nie dwa
+broni³a miasto przed atakami ró¿nego rodzaju grasantów i goblinopodobnych
+stworów. Gdzie¶ daleko na wschodzie tak¿e znajduj± siê nieprzebyte bory
+Obilonu.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6025
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6025
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2312
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2312
+Roomprog reset latarnia_reset 100~
+Roomprog time latarnia_off 7~
+Roomprog time latarnia_on 22~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2314
+Name Alejka przed bibliotek± nad Sejn±~
+Descr Ta piêkna i zadbana alejka poro¶niêta jest z obu stron drzewami, krzewami
+a nierzadko te¿ ró¿nego rodzaju kwiatami w specjalnych klombach. Czujesz siê
+jakby¶ sz<&ed³/³a/³o> przez ogromny, naturalny, zielony tunel! Zaprawdê
+niesamowite wra¿enie. Gdzie¶ na wschodzie, chocia¿ jej nie widaæ p³ynie
+rzeka Sejna, dostarczaj±ca ¿yciodajnej wody do tych cudownych ogrodów przed
+bibliotek±. A rozmy¶laj±c o samym gmachu biblioteki to znajduje siê on na koñcu
+tej alejki, kawa³ek ku pó³nocnemu-zachodowi.
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6087
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6087
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2315
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2315
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2315
+Name Przed gmachem biblioteki~
+Descr Stoisz dok³adnie na przeciw wspania³ego gmachu arrasyjskiej biblioteki.
+Potê¿ny, piêkny, per³owo-bia³y o masywnym kszta³cie góruje na tle innych
+zabudowañ. Nie tylko budynek jest bardzo ³adny, ale i otoczenie nieziemskie,
+wrêcz magiczne. Znajdujesz siê w cudnym ogrodzie, poro¶niêtym symetrycznie
+drzewkami, krzakami i kwiatami. Ciekawe czy mo¿na tutaj wyj¶æ z wypo¿yczonym
+zwojem czy ksi±¿k± aby delektowaæ siê jej zawarto¶ci± na dworze. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription Widzisz potê¿ne wrota biblioteki w Arras. S± kunsztownie zdobione, bogate w p³askorze¼by. Jednak wygl±daj± na mocne.
+~
+ExitExtVName Biblioteka~
+ExitExtTextOut $n przechodzi przez potê¿ne wrota do biblioteki.~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 2292
+ExitExtEnd
+Exit 0
+Widzisz potê¿ne wrota biblioteki w Arras. S± kunsztownie zdobione, bogate w p³askorze¼by. Jednak wygl±daj± na mocne.
+~
+VName Biblioteka~
+TextOut $n przechodzi przez potê¿ne wrota do biblioteki.~
+wrota~
+16387 0 2292
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2314
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2314
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2316
+Name Niewielkie biuro {RGildii £owców G³ów{x~
+Descr Znajdujesz siê w obszernym pomieszczeniu w jednej z kamienic {YZ³otego
+Miasta{S Arras. W jego k±cie stoi niewielki ¿elazny stolik, za którym siedzi
+jaki¶ barczysty cz³owiek i zapisuje co¶ na arkuszu papieru. Na ¶cianach wisi
+wiele plakatów z wizerunkami poszukiwanych. Miêdzy nimi zauwa¿asz ma³±,
+{cstalow± tabliczkê{S, na której kto¶ co¶ napisa³. 
+~
+FlagsExt 0|HP
+Sector 0
+Extra tabliczka~
+Z trudem odczytujesz tekst z tabliczki:
+{c#==================================================#{x
+{c|{x Witaj podró¿niku w {RGildii £owców G³ów{x!           {c|{x
+{c|{x Zapraszamy do skorzystania z us³ug!              {c|{x
+{c|{x                                                  {c|{x
+{c|{x By:                                              {c|{x
+{c|{x * odebraæ nagrodê wpisz '{Gbounty{x'.                {c|{x
+{c|{x * zobaczyæ listê wpisz '{Gbounty list{x'.            {c|{x
+{c|{x * wyznaczyæ nagrodê wpisz '{Gbounty <imie> <cena>{x' {c|{x
+{c|{x   Uwaga: Twoja ofiara musi byæ w grze.           {c|{x
+{c|{x                                                  {c|{x
+{c|{x Dziêkujemy za uwagê,                             {c|{x
+{c|{x Gildia £owców G³ów, filia w Arras.               {c|{x
+{c#==================================================#{x
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6080
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6080
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2317
+Name Niewielki klomb zieleni~
+Descr Znajdujesz siê na niewielkim kawa³ku zieleni. Soczysta, równo
+przystrzy¿ona trawa sugeruje, ¿e kto¶ o to miejsca dba i wk³ada w nie
+mnóstwo pracy i serca. A¿ dziwne, ¿e w tak ruchliwym mie¶cie kto¶ znalaz³
+czas i si³ê na to, by uczyniæ to miejsce tak przyjemnie wyj±tkowym. Nie
+widaæ tu zbyt wielu osób, wiêc mo¿e warto tu czasem wpa¶æ w celu drobnego
+odpoczynku. Na pó³nocnym-zachodzie widaæ jaki¶ pomnik osadzony na wielkim
+granitowym cokole. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2318
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2318
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6100
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6100
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2309
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2309
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2319
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2319
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2318
+Name Niewielki klomb zieleni~
+Descr Znajdujesz siê na niewielkim kawa³ku zieleni. Soczysta, równi
+przystrzy¿ona trawa sugeruje, ¿e kto¶ o to miejsca dba i wk³ada w nie
+mnóstwo pracy i serca. A¿ dziwne, ¿e w tak ruchliwym mie¶cie kto¶ znalaz³
+czas i si³ê na to, by uczyniæ to miejsce tak przyjemnie wyj±tkowym. Nie
+widaæ tu zbyt wielu osób, wiêc mo¿e warto tu czasem wpa¶æ w celu drobnego
+odpoczynku. Na zachodzie widaæ jaki¶ pomnik osadzony na wielkim granitowym
+cokole. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2321
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2321
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6101
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6101
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2317
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2317
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2320
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2320
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2319
+Name Niewielki klomb zieleni~
+Descr Znajdujesz siê na niewielkim kawa³ku zieleni. Soczysta, równi
+przystrzy¿ona trawa sugeruje, ¿e kto¶ o to miejsca dba i wk³ada w nie
+mnóstwo pracy i serca. A¿ dziwne, ¿e w tak ruchliwym mie¶cie kto¶ znalaz³
+czas i si³ê na to, by uczyniæ to miejsce tak przyjemnie wyj±tkowym. Nie
+widaæ tu zbyt wielu osób, wiêc mo¿e warto tu czasem wpa¶æ w celu drobnego
+odpoczynku. Na pó³nocy widaæ jaki¶ pomnik osadzony na wielkim granitowym
+cokole. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2320
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2320
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2317
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2317
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2308
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2308
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2320
+Name Niewielki klomb zieleni~
+Descr Znajdujesz siê na niewielkim kawa³ku zieleni. Soczysta, równi
+przystrzy¿ona trawa sugeruje, ¿e kto¶ o to miejsca dba i wk³ada w nie
+mnóstwo pracy i serca. A¿ dziwne, ¿e w tak ruchliwym mie¶cie kto¶ znalaz³
+czas i si³ê na to, by uczyniæ to miejsce tak przyjemnie wyj±tkowym. Nie
+widaæ tu zbyt wielu osób, wiêc mo¿e warto tu czasem wpa¶æ w celu drobnego
+odpoczynku. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2318
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2318
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2319
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2319
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName furtka~
+ExitExtBiernik furtkê~
+ExitExtName furtka~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5048
+ExitExtEnd
+Exit 3
+~
+VName furtka~
+furtka~
+3 0 5048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2321
+Name Niewielki klomb zieleni~
+Descr Znajdujesz siê na niewielkim kawa³ku zieleni. Soczysta, równi
+przystrzy¿ona trawa sugeruje, ¿e kto¶ o to miejsca dba i wk³ada w nie
+mnóstwo pracy i serca. A¿ dziwne, ¿e w tak ruchliwym mie¶cie kto¶ znalaz³
+czas i si³ê na to, by uczyniæ to miejsce tak przyjemnie wyj±tkowym. Nie
+widaæ tu zbyt wielu osób, wiêc mo¿e warto tu czasem wpa¶æ w celu drobnego
+odpoczynku. Na po³udniowym-zachodzie widaæ jaki¶ pomnik osadzony na wielkim
+granitowym cokole. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5001
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5001
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6102
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6102
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2318
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2318
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2322
+Name Pod szatni±~
+Descr Znajdujesz siê pod szatni± areny. Dosta³<&e/a/o>¶ siê tutaj przez ma³y
+otwór w pod³odze. Jest tutaj przera¿aj±co ciemno. Korytarz jest od dawna nie
+u¿ywany i bardzo stary. Wygl±da jakby mia³ siê zaraz zawaliæ. Z sufitu zwisa
+ogromna ilo¶æ pajêczyn, jednak nie widzisz ¿adnych paj±ków. Jedyne wyj¶cie
+st±d prowadzi na wschód. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2323
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2323
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2323
+Name Ciemny korytarz~
+Descr Jeste¶ w ciemnym korytarzu pod arrasañsk± aren± walk, nale¿±c± do gildii
+z³odzei. Nie ma tutaj niczego ciekawego. Jedynie du¿o pajêczyn,
+utrudniaj±cych poruszanie oraz obdrapane ceg³y na ¶cianach. Korytarz nie
+wygl±da na bezpieczny. Z po³udnia dolatuje trochê ¶ciekowego smrodu. Byæ
+mo¿e ta w³a¶nie droga prowadzi do wyj¶cia. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2324
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2324
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2322
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2322
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2324
+Name Pod aren±~
+Descr Znajdujesz siê dok³adnie pod w³a¶ciw± aren± walk. Byæ mo¿e kto¶ w³asnie
+nad tob± ginie, kto wie? A w okó³ ciebie, chod¼ nie widzisz paj±ków, widzisz
+du¿o pajêczyn. Z po³udnia dobiega mocny zapach ¶ciekowgo smrodu. Korytarz od
+dawna nie by³ u¿ywany, byæ mo¿e dlatego, ¿e nie jest bezpieczny. Wygl±da,
+jakby mia³ siê zaraz zawaliæ. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2323
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2323
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2325
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2325
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2325
+Name Zakrêt korytarza~
+Descr Korytarz zaczyna zakrêcaæ z po³nocy na wschód. Jest tu bardzo zimno i
+ciemno. Nie dochodz± ¿adne promienie s³oneczne. S³yszysz nurt Sejny,
+p³yn±cej przez Arras. Dobiega ciê tak¿e przeokrutny smród ¶cieków. Wokó³
+pe³no pajêczyn, które utrudniaj± poruszanie, poniewa¿ strasznie ³atwo jest
+siê w nie zapl±taæ. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2324
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2324
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2326
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2326
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2326
+Name Zwê¿aj±cy siê korytarz~
+Descr Idziesz korytarzem prowadz±cym z zachodu na wschód, który w tym momencie
+zaczyna siê zwê¿aæ. Panuje tutaj mrok, coraz bardziej czujesz smród ¶cieków
+oraz nurt Sejny wydaje siê coraz g³o¶niejszy. Zbili¿asz siê powoli do
+wyj¶cia z tego ponurego miejsca. Poza poj¶ciem dalej, nie ma tutaj niczego
+do roboty. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2327
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2327
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2325
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2325
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2327
+Name Zamaskowany wylot korytarza~
+Descr Znajdujesz siê tu¿ przy bardzo w±skim i dobrze zamaskowanym wylocie z
+korytarza pod arena arrasañsk±. Przed sob± widzisz rzekê Sejne, a na przeciw
+miejsca, w którym stoisz, widzisz wylot z kana³ów. Je¿eli umiesz lataæ to
+mo¿esz spokojnie przelecieæ nad rzek± i wydostaæ siê z tego ponurego
+miejsca. Jest to jedyna mo¿liwo¶æ wydostania siê st±d. 
+~
+FlagsExt 0|DJ
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2326
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2326
+Roomprog input 2327 @^^(przelec nad rzeka|przelec nad sejna|przelec)$~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+2283 32 0 0 0 0 2500 1 0 23 * 2283
+2287 0 0 0 0 0 150 50 6 23 * 6034
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 2283 1 2283 1
+M 100 2282 5 2283 5
+M 100 2281 1 2288 1
+E 100 4416 0 8
+E 100 4362 0 5
+O 100 2313 0 2289
+O 100 2350 0 2292
+O 100 2364 0 2292
+O 100 2295 0 2292
+M 100 2292 1 2292 1
+E 100 3098 0 13
+E 100 4413 0 7
+E 100 4370 0 5
+E 100 4418 0 8
+M 100 2293 1 2292 1
+E 100 4418 0 8
+E 100 4377 0 5
+O 100 3386 0 2293
+O 100 2362 0 2293
+P 100 2297 3 3386 1
+O 100 2362 0 2294
+O 100 2364 0 2294
+O 100 3386 0 2294
+P 100 2297 3 3386 1
+O 100 2362 0 2295
+O 100 2364 0 2295
+O 100 3386 0 2295
+P 100 2297 3 3386 1
+O 100 2364 0 2295
+O 100 2362 0 2296
+O 100 2364 0 2296
+O 100 3386 0 2296
+P 100 2297 3 3386 1
+O 100 2362 0 2297
+O 100 2364 0 2297
+O 100 3386 0 2297
+P 100 2297 3 3386 1
+O 100 2362 0 2298
+O 100 2364 0 2298
+O 100 3386 0 2298
+P 100 2297 3 3386 1
+O 100 2362 0 2299
+O 100 2364 0 2299
+O 100 3386 0 2299
+P 100 2297 3 3386 1
+O 100 2364 0 2299
+O 100 2364 0 2299
+O 100 2364 0 2299
+O 100 2362 0 2300
+O 100 2364 0 2300
+O 100 3386 0 2300
+P 100 2297 3 3386 1
+O 100 2362 0 2301
+O 100 2364 0 2301
+O 100 3386 0 2301
+P 100 2297 3 3386 1
+O 100 2364 0 2302
+O 100 2364 0 2304
+M 100 2284 1 2316 1
+O 100 2311 0 2320
+S
+
+
+
+#MOBPROGSNEW
+#2283
+~
+if !objexists czarny_klucz_od_areny
+and hasflag $n organizator_turnieju
+  tell $n Witam, witam szanown<&ego/±/ego> <&Pana/Pani±/Ciebiê>!
+  tell $n Je¿eli potrzebujesz klucz do areny, wystarczy, ¿e o niego poprosisz.
+  responsedelay 1000 "poprosze klucz" "prosze o klucz" "prosze klucz" "moge prosic klucz"
+  if response 1
+  or response 2
+  or response 3
+  or response 4
+    tell $n Proszê! Oto on.
+    mob oload 2312
+    give klucz $n
+    minidelay 1
+    tell $n ¯yczê udanego turnieju!
+  endif
+endif
+~
+#2292
+~
+if hasflag $n rozrabia_w_bibilotece
+open south
+sayto $n Oj, niedobrze, niedobrze.
+sayto $n Nie bêdzie tu wiêcej rozrabiania.
+mob echoaround $n Bibliotekarz staje stanowczo przed $v i wyprasza $m za drzwi.
+mob echoat $n $i Bibliotekarz staje stanowczo przed tob± i wyprasza ciê za drzwi.
+mob force $n south
+else
+if hasflag $n wital_bib_arras
+ if ispc $n
+minidelay 3
+sayto $n Witam ciê ponownie w bibliotece.
+ endif
+else
+ minidelay 2
+ if ispc $n
+sayto $n Witam ciê serdecznie. Rozejrzyj siê i wybierz cos, co ciê zaciekawi.
+sayto $n Pamiêtaj tylko, aby zachowaæ ciszê.
+mob setflag $n wital_bib_arras 0
+ endif
+if rand 50
+mob force $n uklon Bibliotekarz
+endif
+endif
+endif
+~
+#2293
+~
+delay 0
+ucisz $n
+say Proszê zachowaæ ciszê.
+~
+#ochroniarz_eq
+~
+if rand 50
+  mob equip self 3152
+  mob equip self 3025
+  mob equip self 3179
+  rem krotki
+  wield dlugi
+  hold krotki
+  mob echo Ochroniarz rozgl±da siê wojowniczo.
+else
+  mob equip self 3145
+  mob equip self 3145 hold
+  mob equip self 3025
+  hold mlot
+  mob echo Ochroniarz mru¿y lekko oczy.
+endif
+~
+#zaatakowano
+~
+yell Ratunku, bij±!
+mob setflag $n rozrabia_w_bibilotece 480
+~
+#zarzadca_1
+~
+if hasflag $n byl_na_arenie
+  if rand 80
+    mob echoat $n Zarz±dca spogl±da na ciebie przelotnie.
+  endif
+  break
+else
+  say Witaj na Arrasyjskiej Arenie walk!
+  say Z pewno¶ci± znajdziesz tu wiele rozrywki.
+  mob echo Zarz±dca u¶miecha siê chytrze.
+  mob setflag $n byl_na_arenie 0
+endif
+~
+#zarzadca_2
+~
+sayto $n Nie skupuje niczego.
+~
+#zarzadca_3
+~
+mob oload 2283
+~
+#zarzadca_4
+~
+mob oload 2283
+~
+#0
+
+#OBJPROGSNEW
+#hp_10
+~
+mob at 2282 mob echo $n s³ania siê na nogach, krwawi±c z licznych ran.
+~
+#hp_100
+~
+mob at 2282 mob echo Widzisz jak na pó³nocy na arenie padaj± kolejne ciosy w walce.
+mob at 2282 mob echo Mimo to $n nie ma jeszcze ran.
+~
+#hp_15
+~
+mob at 2282 mob echo Liczne obra¿enia $c daj± o sobie znaæ, mo¿e $e nied³ugo przegraæ walkê.
+~
+#hp_20
+~
+mob at 2282 mob echo $n odniós³ ju¿ bardzo powa¿ne obra¿enia, lecz nadal walczy.
+~
+#hp_25
+~
+mob at 2282 mob echo $n jest mocno zmêczony walk±, krwawi z licznych ran.
+~
+#hp_30
+~
+mob at 2282 mob echo Przeciwnik naciera na $z, zadaj±c coraz powa¿niejsze rany.
+~
+#hp_40
+~
+mob at 2282 mob echo $n oberwa³ ju¿ ca³kiem porz±dnie, jednak kontynuuje pojedynek.
+~
+#hp_45
+~
+mob at 2282 mob echo Rany $z staj± siê coraz powa¿niejsze, lekko chwieje siê na nogach.
+~
+#hp_5
+~
+mob at 2282 mob echo $n ledwo ¿yje, ma³o nie upadnie na piasek areny.
+~
+#hp_50
+~
+mob at 2282 mob echo $n odnosi coraz to powa¿niejsze rany, wygl±da na trochê zmêczonego.
+~
+#hp_60
+~
+mob at 2282 mob echo $n walczy z przeciwnikiem, odniós³ ju¿ ¶rednie obra¿enia. Ciekawe jaki bêdzie wynik walki...
+~
+#hp_70
+~
+mob at 2282 mob echo $n dzielnie stawia czo³a w walce ale bynajmniej nie jest w pe³ni zdrowia.
+~
+#hp_80
+~
+mob at 2282 mob echo $n walczy ze swoim przeciwnikiem, odniós³ ju¿ lekkie rany.
+~
+#hp_95
+~
+mob at 2282 mob echo Walcz±cy na pó³nocy $n ma nieliczne zadrapania.
+~
+#kamien_smierc
+~
+mob at 2282 mob echo $n otrzymuje ostatnie ciosy po czym pada na piasek areny.
+mob at 2282 mob echo Chmura py³u pokrywa skrwawione cia³o, zmasakrowane w przegranej walce.
+~
+#kamien_walka
+~
+if room $n != 2281
+break
+endif
+
+if hpcnt $n == 100
+call objprog hp_100
+break
+endif
+if hpcnt $n > 95
+call objprog hp_95
+break
+endif
+if hpcnt $n > 80
+call objprog hp_80
+break
+endif
+if hpcnt $n > 70
+call objprog hp_70
+break
+endif
+if hpcnt $n > 60
+call objprog hp_60
+break
+endif
+if hpcnt $n > 50
+call objprog hp_50
+break
+endif
+if hpcnt $n > 45
+call objprog hp_45
+break
+endif
+if hpcnt $n > 40
+call objprog hp_40
+break
+endif
+if hpcnt $n > 30
+call objprog hp_30
+break
+endif
+if hpcnt $n > 25
+call objprog hp_25
+break
+endif
+if hpcnt $n > 20
+call objprog hp_20
+break
+endif
+if hpcnt $n > 15
+call objprog hp_15
+break
+endif
+if hpcnt $n > 10
+call objprog hp_10
+break
+endif
+if hpcnt $n > 5
+call objprog hp_5
+break
+endif
+~
+#kamien_zaloz
+~
+mob echoaround $n $n wypuszcza w powietrze niewielki kamieñ, który zaczyna kr±¿yæ naoko³o jego g³owy.
+mob echoat $n Wypuszczasz w powietrze niewielki kamieñ, który zaczyna kr±¿yæ naoko³o twojej g³owy.
+mob echo Kamieñ zaczyna powoli wirowaæ i ¶wieciæ lekko magicznym ¶wiat³em.
+obj wear
+~
+#kamien_zdejm
+~
+mob echoaround $n $n ³apie zrêcznie wiruj±cy kamieñ i chowa go.
+mob echoat $n Szybkim ruchem rêki chwytasz magiczny kamieñ.
+obj unwear
+~
+#kamien_zniszcz
+~
+if vnum $n >= 2281
+and vnum $n <= 2291
+if rand 99
+mob echo Kamieñ l¶ni lekko.
+endif
+else
+obj remove
+endif
+~
+#kamienne_lawki
+~
+if objhere 2361
+break
+else
+mob oload 2361
+mob oload 2361
+mob oload 2361
+mob oload 2361
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#2289
+~
+if objhere 2313
+  if statstr $n > 20
+    mob echoat $n Bez wysi³ku przesuwasz ma³± szafkê na bok.
+    mob echoaround $n $n bez wysi³ku przesuwa ma³± szafkê na bok.
+    mob echo Za szafk± zauwa¿asz ma³± dziurê w pod³odze!
+  else
+    if rand 50
+      mob echoat $n Z wielkim wysi³kiem przesuwasz ma³± szafkê na bok.
+      mob echoaround $n $n z wielkim wysi³kiem przesuwa ma³± szafkê na bok.
+      mob echo Za szafk± zauwa¿asz ma³± dziurê w pod³odze!
+    else
+      mob echoat $n Próbujesz przesun±æ ma³± szafkê na bok, jednak nie udaje ci siê to.
+      mob echoaround $n $n ³apie za ma³± szafkê i zaczyna pchaæ z ca³ych si³, jedak nic siê nie dzieje.
+      break
+    endif
+  endif
+else
+  break
+endif
+mob exit dol room 2322
+delay 1
+mob exit dol delete
+mob echo Nagle s³yszysz d¼wiêk sprê¿yny i szafka zamyka siê z hukiem.
+~
+#2322
+~
+if affected $n fly
+  mob echoat $n Bezpiecznie zlatujesz na dó³.
+  mob echoaround $n $n zlatuje poprzez dziure na dó³.
+  mob transfer $n 2322
+  mob at $n mob echoaround $n $n w³a¶nie przylecia³ z góry.
+else
+  mob echoaround $n $n wchodzi do dziury i spada w dó³.
+  mob at $n mob echoat $n Wchodzisz do dziury i spadasz w dó³!
+  if rand 50
+    mob at $n mob echoat $n Przy l±dowaniu ¼le stawiasz nogê i skrêcasz j± w kostce. Czujesz okropny ból.
+    mob at $n mob cast slow $n 10
+    mob damage $n 5 10
+  endif
+  mob transfer $n 2322
+  mob at $n mob echoaround $n $n spada z góry i l±duje tu¿ obok ciebie.
+endif
+~
+#2327
+~
+if affected $n fly
+  mob echoat $n Bezpiecznie przelatujesz nad rzek± i wlatujesz do wylotu kana³ów.
+  mob transfer $n 6886
+  mob at $n mob echoaround $n $n przylecia<&³/³a/³o> tutaj nagle z nad Sejny.
+else
+  mob echoat $n Przecie¿ nie umiesz lataæ!
+endif
+~
+#kamienne_lawki
+~
+if objhere 2361
+break
+else
+mob oload 2361
+mob oload 2361
+endif
+~
+#lista_graczy
+~
+mob echoat $n Wytrzeszczasz oczy w kierunku areny.
+mob remember $n
+mob goto 2281
+mob removeflag room ilosc_graczy
+mob setflag room ilosc_graczy 0
+foreachinroom $i
+  if isvisible $n
+    mob modflag room mod ilosc_graczy 1
+  endif
+endfor
+if roomflag $i ilosc_graczy == 0
+  mob at 2282 mob echoat $q Arena jest pusta.
+  mob goto 2282
+  break
+endif
+if roomflag $i ilosc_graczy == 1
+  mob at 2282 mob echoat $n Na arenie jest tylko jedna osoba... ciekawe z kim bêdzie walczyæ.
+endif
+if roomflag $i ilosc_graczy == 2
+  mob at 2282 mob echoat $n Na arenie znajduje siê dwójka ¶mia³ków.
+endif
+if roomflag $i ilosc_graczy == 3
+  mob at 2282 mob echoat $n Po arenie w³óczy siê trójka zawodników... dwóch na jednego?
+endif
+if roomflag $i ilosc_graczy == 4
+  mob at 2282 mob echoat $n Na arenie jest czwórka zawodników... starcie dru¿ynowe?
+endif
+if roomflag $i ilosc_graczy > 4
+  mob at 2282 mob echoat $n Zawodników jest trochê za du¿o... ale to ich sprawa.
+endif
+mob at 2282 mob echoat $n Konkretnie na arenie s±:
+foreachinroom $i
+  mob at 2282 mob echoat $q $nn
+endfor
+mob goto 2282
+~
+#spojrz_na_arene
+~
+mob transfer $n 2281
+mob at 2281 call roomprog lista_graczy
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

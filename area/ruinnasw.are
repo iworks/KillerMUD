@@ -1,0 +1,1737 @@
+#AREADATA
+Name # NK - Ruiny nad ¶wi±tyni± Boga~
+Builders Nk~
+VNUMs 21901 21930
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 21901
+Name postawny paladyn~
+Odmiana postawnego paladyna~postawnemu paladynowi~postawnego paladyna~postawnym paladynem~postawnym paladynie~
+Short postawny paladyn~
+Long Postawny paladyn poszukuje niebezpiecznych istot.~
+Descr Stoi przed tob± cz³owiek o dobrze zbudowanej sylwetce i wyrze¼bionych
+miê¶niach. Twarz ma smuk³a i do¶æ mi³a. Oczy niebieskie lataj±ce we
+wszystkich kierunkach poszukuj± zagro¿enia. Ten mê¿czyzna to paladyn, któy
+szuka demonów i nieumar³ych istot. Widaæ, ¿e umie pos³ugiwaæ siê broni±, i
+jest mistrzem w swoim fachu ale czy w pojedynkê zniszczy paskudztwa
+pa³êtaj±ce siê po ¶wiecie? 
+~
+Race cz³owiek~
+ActExt 0|AGJ
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 27
+Hitroll 3
+HP 3d7+800
+Damage 3d4+10
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC -2 -2 -2 -2
+Stats 150 120 120 126 126 120 90
+Off CITVY
+OffExt 0|CITVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew fight 21903 H 95~
+MobprogNew greet 21904 FGI 100~
+MobprogNew entry 21902 FGI 100~
+MobprogNew onload 21901 ABCDEFGHI 100~
+Spells 230 231 30 28
+Spells 160 152 275 272
+Spells 38 55 0 0
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 21902
+Name czerwony slaad~
+Odmiana {Rczerwonego slaada{x~{Rczerwonemu slaadowi{x~{Rczerwonego slaada{x~{Rczerwonym slaadem{x~{Rczerwonym slaadzie{x~
+Short {Rczerwony slaad{x~
+Long {RCzerwony slaad{x, bestia chaosu stoi tutaj szukaj±c ofiary.~
+Descr Znajduje siê przed tob±bestia pochodz±ca z planu chaosu. Jest to {Rczerwony
+slaad{x, bestia licz±ca prawie dwa metry wzrostu, z ¿êbami jak palce doros³ego
+cz³owieka. Rêce ma dobrze zbudowane, zakoñczone szponami, które s± w stanie
+przebiæ nawet najtwardszy pancerz. Ciekawe co j± sprowadza w te okolice? 
+~
+Race demon~
+ActExt 0|AF
+Affected 40 0 0 0
+AffectedExt 0|DF
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 24
+Hitroll 3
+HP 5d6+600
+Damage 4d3+4
+Dammagic 1
+Weaponbonus 0
+Damflags 16
+Attack siekanie
+XAC 0 0 0 0
+Stats 132 108 108 120 120 60 60
+Off HY
+OffExt 0|HY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form C
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 5
+Resist 5 10
+Resist 6 10
+Resist 7 10
+Resist 8 10
+Resist 9 10
+Resist 10 10
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 10
+Resist 16 10
+Mobend
+#Vnum 21903
+Name ogromna wa¿ka~
+Odmiana ogromnej wa¿ki~ogromnej wa¿ce~ogromn± wa¿kê~ogromn± wa¿k±~ogromnej wa¿ce~
+Short ogromna wa¿ka~
+Long Ogromna w±¿ka lata po okolicy.~
+Descr Jest to naprawdê niesamowity owad. Wa¿ka ta ma oko³o dwudziestu
+centymetrów d³ugo¶ci a jej skrzyd³a s± trzy lub nawet cztery razy wiêksze.
+Gdy wa¿ka macha nimi z niesamowit± prêdko¶ci±, wydaj± straszliwy ha³as,
+który s³ychaæ z odleg³o¶ci kiludziesiêciu metrów. 
+~
+Race owad pe³zaj±cy~
+ActExt 0|AG
+Affected 34078720 0 0 0
+AffectedExt 0|TZ
+Align 0
+Group 0
+Lang AI
+Speaks 8
+Level 5
+Hitroll 0
+HP 2d10+20
+Damage 2d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 9 9 9 8
+Stats 48 60 60 60 60 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form GR
+Parts AC
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 21901
+Name przewrócona kolumna~
+Odmiana przewróconej kolumny~przewróconej kolumnie~przewrócon± kolumnê~przewrócon± kolumn±~przewróconej kolumnie~
+Short przewrócona kolumna~
+Descr Przewrócona i zrujnowana kolumna lêzy tutaj na ziemi.~
+Material kamieñ~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 600 16 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 9000
+Cost 1
+Cond 50
+Itemdesc Stara, kamienna kolumna która niegdy¶ podtrzymywa³a strop kaplicy, le¿y
+teraz tutaj zrujnowana doszczêtnie. 
+~
+Comments ~
+Objend
+#Vnum 21902
+Name kupa gruzu~
+Odmiana kupy gruzu~kupie gruzu~kupê gruzu~kup± gruzu~kupie gruzu~
+Short kupa gruzu~
+Descr Sporej wielko¶ci, kupa gruzu le¿y tutaj.~
+Material marmur~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4000
+Cost 1
+Cond 75
+Itemdesc Sterta gruzu sk³adaj±ca siê z róznego rodzaju kamieni, które niegdy¶
+tworzy³y ¶ciany i sklepienie klasztoru. 
+~
+Comments ~
+Objend
+#Vnum 21903
+Name zdewastowany zniszczony o³tarz~
+Odmiana zdewastowanego o³atarzu~zdewostawanemu o³tarzowi~zdewastowany o³tarz~zdewastowanym o³tarzem~zdewastowanym o³tarzu~
+Short zdewastowany o³tarz~
+Descr Zdewastowany i zniszczony o³tarz stoi tutaj.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 25500
+Cost 1
+Cond 75
+Itemdesc Jest to kamienny o³tarz na którym odprawiano bardziej lub mniej plugawe
+rutua³y. Teraz jednak bardziej przypomina wiêkszy kawa³ek g³±zu a ni¿eli
+o³tarz. Czas, lub co¶ innego, musia³y go tak zniszczyæ. 
+~
+Comments ~
+Objend
+#Vnum 21904
+Name mithrilowy pos±g demona~
+Odmiana mithrilowy pos±g~mithrilowemu pos±gowi~mithrilowy pos±g~mithrilowym pos±giem~mithrilowym pos±gu~
+Short mithrilowy pos±g demona~
+Descr Mithrilowy pos±g, przedstawiaj±cy siedz±cego demona, stoi tutaj.~
+Material mithril~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20000
+Cost 1
+Cond 75
+Itemdesc Jest to naprawdê niesamowity pos±g. Wykonany z najwiêksz± staranno¶ci±,
+wykuty w bryle mithrilu, przedstawia demona który przykócno³ i wygl±da na
+zamy¶lonego. Twórca tego pos±gu musia³ byæ mistrzem w swoim fachu, gdy¿
+widaæ na nim najdrobniejsze szczegó³y. Ka¿dy miêsiêñ, czy inny fragment
+demonicznego cia³± mo¿na dok³adnie zobaczyæ na owym dziele. Zastanawiaj±ce
+jest to dlaczego pomnik przedstawiaj±cy demona umiesczono w tym klasztorze? 
+~
+Comments ~
+Objend
+#Vnum 21911
+Name spruchnia³y pieñ~
+Odmiana {yspruchnia³êgo pnia{x~{yspruchnia³emu pniu{x~{yspruchnia³y pieñ{x~{yspruchnia³ym pniem{x~{yspruchnia³ym pniu{x~
+Short {yspróchnia³y pieñ{x~
+Descr {ySpróchnia³y pieñ{x le¿y tutaj miêdzy korzeniami.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6000
+Cost 1
+Cond 75
+Itemdesc Jest to stary, spróchnia³y piên który nale¿a³ do jednego z tutejszych
+drzew. Teraz le¿y zniszczony miêdzy korzeniami innych, le¶nych olbrzymów. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 21901
+Name Ruiny klasztoru~
+Descr Znajdujesz siê w¶ród mrocznych, ruin dawnego klasztoru w którym wyznawano
+bli¿ej nieokre¶lonego boga. Jednak jaka¶ nieznana si³a zniszczy³a to miejsce
+pozstawiaj±c nieprzyjemne miejsce. Fakt, ¿e jest tu zimno, w powietrzu unosi
+siê gêsta mg³a a niedaleko znajduj± siê bagna, sprawia, ¿e chcesz opu¶ciæ to
+miejsce jak najszybciej. 
+~
+FlagsExt 0|C
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21902
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21902
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21906
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21906
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21924
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21924
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21922
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21902
+Name Zrujnowana ¶ciana~
+Descr Droge na zachód blokuje kamienna ¶ciana, która niegyd¶ tworz³ya podporê
+dla tego klasztoru. Teraz, jest jedn± z nielicznych pozosta³o¶ci po nim.
+Wznosi siê na zachodzie, a przez niewielkie okno znajduj±ce siê na wysoko¶ci
+oko³o trzech metrów, widaæ ciemne drzewa które rosn± wokó³ ruin. Jest to
+naprawdê upiornê miejsce. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21903
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21903
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21905
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21905
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21901
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21903
+Name Ruiny klasztoru~
+Descr Stare, opusczone ruiny w których siê znalaz³e¶ nie nale¿a do
+najprzyjemniejszych miejsc. Kiedy¶ sta³ tu sporej wielko¶ci klasztor, w
+któym wyznawano jakiego¶ zapomnianego Boga. Teraz jednak znajduj± siê tutaj
+tylko jakie¶ kamienie, kupy gruzu, i nieprzyjemna atmosfera czego¶
+tajemniczego. W powietrzu unosi siê gêsta mg³a która utrudnia widoczno¶æ. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21918
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21918
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21904
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21904
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21902
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21902
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21920
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21904
+Name Ruiny~
+Descr Zimno, tajemniczo i cicho. To trzy g³owne przymiotniki, którymi mo¿na by
+opisaæ to miejsce. W powietrzu unosi siê zimna, gêsta mg³a która utrudnia
+widoczno¶æ. Mimo tego, i¿ bagna znajduj± siê niedaleko, a jak wiadomo s± one
+domem dla wielu stworzêñ, panuje tutaj niesamowita cisza. Naprawdê ponure
+miejsce. Chyba bêdzie najlepiej opu¶ciæ te ruiny jak najszybciej. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21917
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21917
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21907
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21907
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21905
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21905
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21903
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21903
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21905
+Name Ruiny klasztoru~
+Descr W tym miejscu znajdowa³ siê prawdopodobnie g³ówny o³tarz klasztoru.
+Pod³oga jest tutaj wy³o¿ona marmurowymi p³ytami, które wygl±daj± naprawdê
+niesamowicie. Miêdzy przewróconymi kolumnami stoiu tutaj zrujnowany o³tarz,
+a za nim widaæ jak±¶ otwór z kamiennymi schodami prwoadz±cy prawdopodobnie
+do podziemi klasztoru. Mg³a unosz±ca siê tutaj dodaje dziwnej atmosfery temu
+miejscu, ale najdziwniejszy jest pos±g, który jako jedyny stoi niewzruszony
+na samym ¶rodku. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21904
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21904
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21908
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21908
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21906
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21902
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21902
+Roomprog random 21906 50~
+Roomprog input 21905 przesun_oltarz~
+Roomprog input 21905 przesun~
+Roomprog reset 21906 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21906
+Name Ruiny klasztoru~
+Descr Ch³odna i gêsta mg³a skrywa to miesjce niczym, bia³± p³achta. Jest tu
+dosyæ ponuro, a mroczne ruiny klasztoru, dodaj± temu miejscu strasznej
+atmosfery. Wydaje ci siê, ¿e zaraz co¶ wyskoczy zza jakiego¶ g³azu i cie
+porwie w g³±b tej bia³êj zupy. Z bagien, znajduj±cych siê niedaleko,
+dobiegaj± do twych uszu od³osy ¿ab, ptaków i jaki¶ innych, bli¿ej nie
+okre¶lonych stworzeñ. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21905
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21905
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21909
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21909
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21925
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21901
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21907
+Name Ruiny klasztoru~
+Descr Gruz, poroztrzaskiwane ¶ciany i ponura mg³a - wszystko to mo¿na tutaj
+zobaczyæ i podziwiaæ. Ruiny nale¿± do klasztoru, który w dawnych czasach by³
+schronieniem dla wyznawcó, dawno ju¿ zapomnianego boga. Mg³a, która jest
+gêsta i ch³odna, unosi siê tu¿ nad ziemi±. Przys³ania bardzo dok³adnie
+pod³o¿e, przez co mo¿na nie zauwa¿yæ skradaj±cego siê zwierza, który wybra³
+siê na przechadzkê z bagien. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21916
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21916
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21914
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21914
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21908
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21908
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21904
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21908
+Name Ruiny~
+Descr Jest to naprawdê ponure miejsce. Kiedy¶ na tych terenach wznosi³ siê
+piêkny ale niewielki klasztor. Teraz zosta³y z niego tylko ruiny, które
+zamieszkuj± jakie¶ umarlaki lub inne okropieñstwa. Jest tu ch³odno, w
+powietrzu unosi siê gêsta mg³a a od strony bagien do twych uszu dobiegaj±
+dziwne d¼wiêki. 
+~
+FlagsExt 0
+Sector 48
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21907
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21907
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21913
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21913
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21909
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21909
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21905
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21909
+Name Niezniszczona czê¶æ klasztoru~
+Descr Ta czê¶æ klasztoru, w dziwny sposób wydaje siê byæ nietkniêta. Proæz
+tego, zê brakuje tutaj stropu, ca³a reszta wydaje siê byæ w dobrym stanie.
+Pod³oga zdobi± sporej wielko¶ci kamienne p³yty, ¶ciany s± jedynie lekko
+zadrapane, a w jednym z okien nadal znajduje siê piêkny {Yw{Ci{Rt{Wr{Ga{B¿{x. Kiedy¶ ten
+klasztor musia³ byæ naprawdê piêknym miejscem. 
+~
+FlagsExt 0
+Sector 48
+Extra witra¿~
+Witra¿ ten wykonano z jakiego¶ piêknego, zdobionege szk³a. Wykonaæ musi±³
+go mistrz swojego fachu gdy¿ wygl±da naprawdê niesamowicie. Jedyne co ciê
+niepokoji to to, i¿ przedstawia postaæ demona. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21908
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21908
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21906
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21906
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21910
+Name Bagna~
+Descr Niezbyt przyjemne miejsce - nic dziwnego, w koñcu to bagna. Jest tu
+duszno, w powietrzu unosi siê wilgotna i ch³odna mg³a, ro¶linno¶æ zakrywa
+niebo swymi koronami, a woda jest tak brudna, ¿e nawet gdyby mia³a kilka
+centymetrów g³êboko¶æi, nie jest mo¿liwe ujrzenie dna. Najgorsze jest to, ¿e
+mo¿e siê tam co¶ czaiæ i zaraz rzuci ci siê do gard³a. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21911
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21911
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21925
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21911
+Name Las po¶ród bagien~
+Descr W tej czê¶ci bagien, obszar jest pokryty nieco stabilniejsz± ziemi±,
+któr± porasta bagienny las. Wokó³ rosn± stare, bagienne drzewa o
+roz³o¿ystych koronach, z których do twych uszu dobiegaj± od³osy jaki¶
+dziwnych ptaków. W powietrzu unosi siê, sw±d jakiego¶ dziwnego zapachu.
+Ziemiê porasta {Gzieloniutka{x trawa, jakiej nie spotkasz w innych czê¶ciach
+tych wrogich bagien. Chyba to miejsce doskonale siê nadaje na odpoczynek 
+~
+FlagsExt 0|CE
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21912
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21912
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21910
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21910
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21912
+Name Mroczny las~
+Descr Mroczny, ciemny i nieprzyjemny las w którym siê znalazle¶ porasta te
+bagna od wieków. Schronienie w nim znajduj± wszelkie drapie¿niki, które za
+dnia odpoczywaja w cieniu starych drzew, a w nocy wyruszaj± na ³owy w g³±b
+bagien. Nie jest to bezpieczne miejsce, gdy¿ w wilgotnej ziemi mo¿na
+dostrzec wiele dziwnych ¶ladów. Moze bêdzie bezpieczniej zej¶æ z tej
+scie¿ki. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21913
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21913
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21911
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21911
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21913
+Name Bagna~
+Descr Nie ma tutaj ¿adnego kawa³ka suchego l±du, a odpoczywanie tutaj nie jest
+mo¿liwe gdy¿ grozi utopieniem siê w bagnie. Panuj±æa tutaj atmosfera jest nie
+przyjemna i dosyæ upiorna. W powietrzu unosi siê sw±d rozk³adaj±cego trupa.
+Na zachodzie widaæ jakie¶ ruiny, jednak trudno jest ci siê zorientowaæ
+dok³adniej co tam jest gdy¿ unosi siê tam niesamowicie gêsta mg³a. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21914
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21914
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21912
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21912
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21908
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21908
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21914
+Name Bagno~
+Descr Woda w tym miejscu ma kilkadziesi±t centymetrów g³eboko¶ci, jest
+strasznie mêtna i ponura. Wystaj± z niej gdzie nie gdzie tylko d³ugie ¼d¼b³a
+trawy, które doskonale s³u¿± jako schronienie dla wielu drapie¿ników.
+Wszystkiemu temu towarzyszy smród rozk³adaj±cego siê cia³a i zgni³ej
+ro¶linno¶ci. Typowy opis, zwyczajnego bagna. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21915
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21915
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21913
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21913
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21907
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21907
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21915
+Name Stary las po¶ród bagien~
+Descr Las w którym siê znalaz³e¶ nie nale¿y do najprzyjemniejszych miejsc.
+Oprócz tego ¿e znajduje siê na dosyæ wilgotnym bagnie, mieszka tutaj wiele
+bagiennych stworzeñ, które nie pa³aj± najwiêksz± przyja¼ni± do ludzi, elfów
+i krasnoludów. Tereny te porasta {Gzieloniutka{x trawa oraz olbrzymie i ,na
+pewno dosyæ wiekowe, drzewa. S±dz±c po grubo¶ci ich pni i szeroko¶ci korony,
+pamiêtaj± zapewne jeszcze czasy w których te tereny nie by³y tak bardzo
+pokryte wod±. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21914
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21914
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21916
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21916
+Name Ciemny las~
+Descr Znajdujesz siê w naprawdê mrocznym lesie. Ziemia jest tutaj wilgotna, ale
+przez to urodzajna. Porasta j± {g{Gzieloniutka{x{x trawa oraz olbrzymie drzewa,
+których korony dok³adnie przykrywaj± niebosk³on. Korzenie pl±cz± siê,
+tworz±c swego rodzaju barierê, która naprawdê trudno pokonaæ. Miejsce to
+równie¿ obfituje w faune, gdy¿ zewsz±d dobiegaj± do twych uszu odg³osy
+dzikiej przyrody. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21915
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21915
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21907
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21907
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21917
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21917
+Name Las~
+Descr Stary, mroczny, bagienny las w którym siê znajdujesz porasta te obszary
+od dawien dawna. Jest domem dla wielu stworzeñ, osób które chc± siê ukryæ,
+oraz dla plugawych potworów szukaj±cych czego¶ do spo¿ycia. Potê¿ne drzewa,
+przys³aniaj± niebo swymi koronami, a ich pnie grube niczym ³apy smoka, robi±
+na tobie przeogromne wra¿enie. Naprawdê jest to gro¼ne, ale piêkne miejsce. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21916
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21916
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21904
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21904
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21918
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21918
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21918
+Name Ciemny las~
+Descr Stary, mroczny, bagienny las w którym siê znajdujesz porasta te obszary
+od dawien dawna. Jest domem dla wielu stworzeñ, osób które chc± siê ukryæ,
+oraz dla plugawych potworów szukaj±cych czego¶ do spo¿ycia. Potê¿ne drzewa,
+przys³aniaj± niebo swymi koronami, a ich pnie grube niczym ³apy smoka, robi±
+na tobie przeogromne wra¿enie. Naprawdê jest to gro¼ne, ale piêkne miejsce. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21917
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21917
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21903
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21903
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21919
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21919
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21919
+Name Po¶ród bagien~
+Descr B³oto ma tu g³eboko¶æ kilkunastu centrymetrów, wiêc ³atwo jest tutaj
+ugrzêzn±æ. Dooko³a sibie s³yszysz dziwne odg³osy. Masz wra¿enie jakby kto¶
+lub co¶ ci±gle ciê obserwowa³. Nic dziwnego, wyobra¼nia w takim miejscu
+dzia³a du¿o mocniej. Czujesz obrzydliwy zapach, pewnie jakie¶ cia³o
+zwierzêcia le¿y po¶ród tego grz±skiego bagna. Najlepiej oddaliæ siê z tego
+miejsca, bo nic tu ciekawego nie ma, no mo¿e jedynie jakie¶ k³opoty. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21918
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21918
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21920
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21920
+Name Las~
+Descr Znajdujesz siê w naprawdê mrocznym lesie. Ziemia jest tutaj wilgotna, ale
+przez to urodzajna. Porasta j± {Gzieloniutka{x trawa oraz olbrzymie drzewa,
+których korony dok³adnie przykrywaj± niebosk³on. Korzenie pl±cz± siê,
+tworz±c swego rodzaju barierê, która naprawdê trudno pokonaæ. Miejsce to
+równie¿ obfituje w faune, gdy¿ zewsz±d dobiegaj± do twych uszu odg³osy
+dzikiej przyrody. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21919
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21919
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21903
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21903
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21921
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21921
+Name Stary, bagienny las~
+Descr Las w którym siê znalaz³e¶ nie nale¿y do najprzyjemniejszych miejsc.
+Oprócz tego ¿e znajduje siê na dosyæ wilgotnym bagnie, mieszka tutaj wiele
+bagiennych stworzeñ, które nie pa³aj± najwiêksz± przyja¼ni± do ludzi, elfów
+i krasnoludów. Tereny te porasta {Gzieloniutka{x trawa oraz olbrzymie i ,na
+pewno dosyæ wiekowe, drzewa. S±dz±c po grubo¶ci ich pni i szeroko¶ci korony,
+pamiêtaj± zapewne jeszcze czasy w których te tereny nie by³y tak bardzo
+pokryte wod±. Na wschodzie miêdzy drzewami mo¿na dostrzec jak±¶ kamienn±
+¶cianê nale¿±c± prawdopodobnie do staro¿ytnych ruin. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21920
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21920
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21922
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21922
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21928
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21922
+Name Bagno~
+Descr Nie ma tutaj ¿adnego kawa³ka suchego l±du, a odpoczywanie tutaj nie jest
+mo¿liwe gdy¿grozi utopieniem siê w bagnie. Panuj±æa tutaj atmosfera jest nie
+przyjemna i dosyæ upiorna. W powietrzu unosi siê sw±d rozk³adaj±cego trupa.
+Na wschodzie widaæ jakie¶ ruiny, jednak trudno jest ci siê zorientowaæ
+dok³adniej co tam jest gdy¿ unosi siê tam niesamowicie gêsta mg³a. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21921
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21921
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21901
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21901
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21923
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21923
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21927
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21927
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21923
+Name Gdzie¶ po¶ród bagien~
+Descr Przemierzasz bagna ju¿ od d³u¿eszego czasu, i nadal nie widaæ tutaj
+¿adnej drogi. Wszêdzie dooko³a ci±gn± siê bagna. Pod nosem lataj± ci
+jakie¶owady, a rosn±ca tu trawa ma oko³o metra wysoko¶ci. Umo¿liwia to
+doskonale skrycie siê jakiemu¶ drapie¿nikowi, który szybkim k³apniêciem
+szczêki mo¿e pozbawiæ ciê koñczyny. Na pó³nocnym zachodzie, bagna zaczynaj±
+porastaæ nielicznê, martwe drzewa. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21922
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21922
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21924
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21924
+Name Bagna~
+Descr Nie ma tutaj ¿adnego kawa³ka suchego l±du, a odpoczywanie tutaj nie jest
+mo¿liwe gdy¿ grozi utopieniem siê w bagnie. Jest tutaj bardzo nie przyjemnie
+i strasznie. W powietrz unosi siê sw±d rozk³adaj±cego trupa. Niedaleko na
+pó³nocy widaæ jakie¶ stare i okryte mg³± ruiny. Mo¿e tam uda ci siê znale¼æ
+kawa³ek miejsca na odpoczynek. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21901
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21901
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21925
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21925
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21923
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21923
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21925
+Name Bagna~
+Descr Bagna w tej czê¶ci poro¶niête s± gêst± i wysok± traw±, która przys³±nia
+powierzchnie wody. Najgorsze jest to, ¿e je¶li co¶ wyskoczy z wody, to nawet
+nie zauwa¿ysz jak odgryza ci rêke, lub noge. W oko³o lataj± natrêtne muchy,
+które co chwilê próbuj± usi±¶æ na twoim nosie. W powietrzu unosi siê zapach
+rozk³adaj±cego siê miêsa. Na pó³nocy widaæ jakie¶ ruiny, jednak trudno jest
+ci siê zorientowaæ dokladniej co tam jest gdy¿ unosi siê tam niesamowicie
+gêsta mg³a. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21906
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21906
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21910
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21910
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21926
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21926
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21924
+ExitExtEnd
+Exit 3
+~
+~
+0 0 21924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21926
+Name W¶ród wysokich traw~
+Descr W tej czê¶ci bagien, obszar jest poro¶niêty bardzo wysok± traw±. Ma na
+oko ona pó³tora metra wysoko¶ci, i bardzo u³atwia skradanie siê do
+bezbronnej ofiar wielu tutejszym drapie¿nikom. Musisz uwa¿±æ, ¿eby co¶ nagle
+nie wyskoczy³o i nie odgryz³o ci rêki - w najlepszym przypadku. Gorzej je¶li
+spotkasz co¶ gorszego, co nie bêdzie chcia³o twojej rêki. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21925
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21927
+Name Gdzie¶ po¶ród bagien~
+Descr Woda w tym miejscu ma kilkadziesi±t centymetrów g³eboko¶ci, jest
+strasznie mêtna i ponura. Wystaj± z niej gdzie nie gdzie tylko d³ugie ¼d¼b³a
+trawy, które doskonale s³u¿± jako schronienie dla wielu drapie¿ników.
+Wszystkiemu temu towarzyszy smród rozk³adaj±cego siê cia³a i zgni³ej
+ro¶linno¶ci. Typowy opis, zwyczajnego bagna. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21928
+ExitExtEnd
+Exit 0
+~
+~
+0 0 21928
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21922
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 21928
+Name Gdzie¶ po¶ród bagien~
+Descr Znajdujesz siê na bagnach, jeste¶ tego pewien. Woda jest tutaj
+niesamowicie mêtna, a w niektórych miejscach pokrywa j± zgni³o zielonym
+pch³em. W niektórych miejscach wystaj± sporej wielko¶ci fragmenty ziemi,
+poro¶niêtê zielon± traw±, tworz±ce jakby wyspy po¶rodku tego oceanu
+zgnilizny. W powietrzu unosi siê smród zgni³êgo cia³a, a jescze bardziej
+denerwuj±ce s± natrêtne muchy lataj±æe ca³y czas ko³o twojego nosa. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21921
+ExitExtEnd
+Exit 1
+~
+~
+0 0 21921
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 21927
+ExitExtEnd
+Exit 2
+~
+~
+0 0 21927
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 21902 0 21901
+O 100 21901 0 21901
+M 100 21902 3 21901 1
+O 100 21902 0 21902
+M 100 21901 1 21905 1
+O 100 21901 0 21905
+O 100 21903 0 21905
+O 100 21904 0 21905
+O 100 21902 0 21906
+O 100 21901 0 21907
+M 100 21902 3 21907 1
+M 100 21902 3 21909 1
+M 100 21903 2 21913 1
+O 100 21911 0 21917
+M 100 21903 2 21919 1
+S
+
+
+
+#MOBPROGSNEW
+#21901
+~
+mob equip self 3077
+mob equip self 3029
+mob equip self 3061
+mob equip self 3016
+mob equip self 3045
+mob oload shield 3 wear
+
+mob equip self 3145 hold
+mob oload 46562
+~
+#21902
+~
+if affected $i paralyze
+or affected $i blind
+or affected $i daze
+  break
+else
+  kill slaad
+endif
+~
+#21903
+~
+if affected $i paralyze
+  break
+else
+  if rand 90
+    say Zaraz poczujesz co to gniew Portena!
+  else
+    if rand 90
+      say Za chwilê spotkasz siê ze swoim stwórc±, plugawcze.
+    else
+      if rand 90
+        say Poddaj siê a mo¿e Porten ci wybaczy!
+      else
+        if rand 70
+          warcz
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#21904
+~
+if affected $n paralyze
+  break
+else
+  delay 3
+  say Proszê ciê, nie dekoncentruj mnie.
+  przeszyj $n
+  kill slaad
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#21905
+~
+if roomhasflag otwarte
+or exithere dol
+  mob echoat $n Nie dasz rady przepchac juz o³tarza!
+  break
+else
+  mob exit dol link 44650
+  mob echoat $n Pchasz z calych sil o³tarz i przesuwasz go.
+  mob echoaround $n $n pcha z calych sil o³tarz i przesuwa go.
+  mob echo Nagle zauwa¿asz ukryte przej¶cie na dó³.
+  mob setflag room otwarte 1
+endif
+~
+#21906
+~
+if !roomhasflag otwarte
+  if exithere down
+    mob exit dol delete
+    mob echo Slychac glosny stukot. Nagle o³tarz wraca na swoje miejsce.
+    mob at 44650 mob echo Z góry dochodzi g³o¶ny stukot. Nagle o³tarz nad twoj± g³ow± wraca na swoje miejsce.
+    mob at 44650 mob removeflag room otwarte
+  endif
+endif
+
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

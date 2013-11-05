@@ -1,0 +1,460 @@
+#HELPS
+32 OLC~
+Lista dostêpnych tematów pomocy:
+
+aedit   - w³a¶ciwo¶ci/dodawanie krainki
+alist   - lista krain
+damtype - czyli jak ustawiæ inny typ ataku mobikowi
+dolary  - dolary u¿ywane w progach, czyli co oznacz $r?
+edit    - {Yogólnie o OLC{x
+exit    - wyj¶cia
+flagi   - czyli jak zapamiêtaæ na mobie/lokcji/przedmiocie co¶ tam?
+medit   - w³a¶ciwo¶ci/dodawanie moba
+mplist  - lista mob progów
+oedit   - w³a¶ciwo¶ci/dodawanie obiektu
+oplist  - lista obj progów
+prewait - sk³adnia i u¿ycie komeny prewait
+redit   - w³a¶ciwo¶ci/dodawanie lokacji
+resets  - w³a¶ciwo¶ci/dodawanie resetów
+rplist  - lista room progów
+~
+
+32 FLAGI FLAGA~
+{Gflagi na mobie{x:
+mob setflag $n nazwaflagi 3
+mob modflag $n mod nazwaflagi -1
+mob removeflag $n nazwaflagi
+if hasflag $n nazwaflagi
+if charflag $n nazwaflagi == 3
+
+{Gflagi na lokacji{x:
+mob setflag room nazwaflagi 4
+mob modflag room mod nazwaflagi -1
+mob removeflag room nazwaflagi
+if roomhasflag nazwaflagi
+if roomflag nazwaflagi > 4
+
+{Gflagi na przedmiocie{x:
+
+obj setflag nazwaflagi 5
+obj modflag set regX 5
+obj modflag mod regX -1
+if objflag $o nazwaflagi > 5
+~
+
+32 EDIT~
+Syntax: EDIT AREA [create/reset] [vnum]		- Area Creation and Repoping.
+Syntax: EDIT ROOM ( [create] [vnum] )		- Room Creation and Editing.
+Syntax: EDIT OBJ  [create] <vnum>		- Object Creation and Editing.
+Syntax: EDIT MOB  [create] <vnum>		- Mobile Creation and Editing.
+Syntax: EDIT MP   [create] <vnum>               - MobProg Creation/Editing.
+
+Syntax: ASAVE  <world/area/changed/list>	- Save Editing to Disk.
+Syntax: ALIST                                   - Listing of Areas.
+Syntax: RESET  See Help Resets.			- Set Game Resets.
+
+Definition: [optional]  <required>  (combined arguments)
+
+     The above commands are used to expand the game world.  The original
+code is based on was written by Surreality and installed in The Isles by Locke.
+It was then converted to work with Envy by Jason Dinkel, and ported to ROM
+2.3 by Hans Birkeland (Hugin). Port to Rom 2.4 by Ivan Toledo (ver 1.7).
+
+     Inside an editor, typing COMMANDS lists working commands and ? gives
+help. AEDIT and REDIT default to the current area or room. EDIT ROOM RESET
+resets the current room.  Most commands with no arguments display syntax.
+See also help: AEDIT REDIT MEDIT OEDIT
+~
+
+32 ALIST~
+Syntax: ALIST
+
+This command gives you a listing of all the areas along with their
+vnum assignments and the builder(s) assigned to editing them.
+~
+
+32 AEDIT~
+Syntax: edit area	 -Enters the editor for the current area.
+Syntax: edit area <vnum> -Enters the editor for the selected area.
+
+The follow commands are available from within the AEDITOR:
+
+age <number>        - set the age of the area
+builder <player>    - toggle that builder's access
+commands            - prints a list of possible commands
+create              - create a brand new area and switch to it
+done                - exits the area editor and returns to normal play
+filename <filename> - change the file name for the area (be careful)
+name <name>         - change the 'AREAS' name of this area
+reset               - resets the current area
+security <rating>   - set the security rating for this area
+show                - hitting return, or 'show' shows the area stats
+vnum <lower> <upper>- set the lower and upper vnum's
+lvnum <lower>       - set the lower vnum
+uvnum <upper>       - set the upper vnum
+<flags>             - area flags, type ? AREA for a list
+~
+
+32 REDIT~
+Syntax: edit room		-Enters the editor for the current room.
+
+The following commands are available from within the REDITOR:
+
+commands            - prints a list of possible commands
+create <vnum>       - creates a room with a certain vnum
+desc                - edit description of room
+done                - exists the room editor and returns to normal play
+ed                  - type this command for additonal extra-description help
+format              - format(wordwrap) the room description
+name <room title>   - changes the room title
+show                - hitting return, or 'show' shows the room stats
+oshow <vnum>        - shows an object with given vnum
+olist               - lists objects in this area.
+mshow <vnum>        - shows a mobile with given vnum
+mlist               - lists mobiles in this area.
+room <flags>        - room attributes, type ? ROOM for a list
+sector <type>       - terrain of room, type ? SECTOR for a list
+<direction>         - see help EXIT, or type <dir> ?
+~
+
+32 EXIT_name~
+Nadaje nazwê wyj¶ciu.
+
+Sk³adnia: [direction] name [string]
+          [direction] name none
+
+patrz równie¿: {YEXIT{x
+~
+
+32 EXIT~
+For exits, type the direction (north/s/e/w) followed by:
+
+dig <vnum>         - creates the room and makes a two way link
+link <room vnum>   - make a two way link
+room <room vnum>   - make a one way link (use with caution)
+key <object vnum>  - makes specified object the vnum of the key required
+name <door name>   - makes the door's name/keywords = to the given name
+desc               - edit the description of the exit
+delete             - delete this exit
+<exit-flags>       - type ? EXIT for a list(make exit door, locked etc.)
+
+The exit flags are presented in the following manner.  The capitalized
+flags are ones not included in the reset info.  i.e. closed is due to
+a player closing the door and not due to the door being set to be closed.
+
+-South to [ 3744] Key: [   -1] Exit flags: [door CLOSED bashed pickproof]
+~
+
+32 OEDIT~
+Syntax: edit object <vnum>	-Enters the editor for the selected object.
+
+The following commands are available from within the OEDITOR:
+
+addaffect           - applies an affect to an object, no args for help
+delaffect           - removes an affect to an object, no args for help
+commands            - prints a list of possible commands
+cost <gold>         - sets the gold value of the object
+create <vnum>       - creates object with specified vnum
+done                - exits the object editor and returns to normal play
+ed                  - type this for info on adding/editing extended descripts
+long                - edit long description (the one in the room)
+name <keywords>     - sets the keywords on an object
+short <desc>        - sets the 'name' of an object (a sword, a fish etc)
+show                - hitting return, or 'show' shows the object stats
+v0 <num>            - sets the value '0' on the object
+v1 <num>            - sets the value '1' on the object
+v2 <num>            - sets the value '2' on the object
+v3 <num>            - sets the value '3' on the object
+v4 <num>            - sets the value '4' on the objcet
+weight <num>        - sets the weight of the object
+type         	    - type of object, type ? TYPE for a list
+extra		    - attributes of object, type ? EXTRA for a list
+wear                - where object is worn, type ? WEAR for a list
+material            - material the object is made from
+~
+
+32 MEDIT~
+Syntax: medit <vnum>		-Enters the editor for the selected mobile.
+
+The following commands are available from within the MEDITOR:
+
+alignment <value>   - set the mobile's alignment
+commands            - prints a list of possible commands
+create <vnum>       - creates mobile with specified vnum
+desc                - edit the mobile's description (when looked at)
+done                - exits the mobile editor and returns to normal play
+level <level>       - set the mobile's level
+long                - edit long description (the one in the room)
+name <keywords>     - sets the keywords on an mobile
+shop                - type this command for further information
+short <desc>        - sets the 'name' of an mobile (a sword, a fish etc)
+show                - hitting return, or 'show' shows the mobile stats
+spec                - sets a mobiles spec proc, type ? SPEC for a list
+sex                 - set the mobile's sex, type ? SEX for a list
+act                 - mobiles actions, type ? ACT for a list
+affect              - mobile affects, type ? AFFECT for a list
+ac		    - set the mobile's ac, type ? AC for a list
+form		    - mobiles body-form, type ? FORM for a list
+part		    - mobiles bodyparts, type ? PART for a list
+imm		    - mobile is immune to, type ? IMM for a list
+res		    - mobile is resistant to, type ? RES for a list
+vuln		    - mobile is vulnerable to, type ? VULN for a list
+material	    - material mobile is made from, type ? MATERIAL for a list
+off		    - offensive behaviour, type ? OFF for a list
+size		    - size, type ? SIZE for a list
+hitdice		    - dice to toss to get mobile's hitpoints
+manadice	    - dice to toss to get mobile's mana
+damdice		    - dice to toss to get mobile's hand to hand damage
+
+type 'help HITDICE', 'help MANADICE', 'help DAMDICE' for lists of reasonable dice
+combinations on different levels.
+~
+
+32 AEDIT~
+Syntax: edit area	 -Enters the editor for the current area.
+Syntax: edit area <vnum> -Enters the editor for the selected area.
+
+The follow commands are available from within the AEDITOR:
+
+age <number>        - set the age of the area
+builder <player>    - toggle that builder's access
+commands            - prints a list of possible commands
+create              - create a brand new area and switch to it
+done                - exits the area editor and returns to normal play
+filename <filename> - change the file name for the area (be careful)
+name <name>         - change the 'AREAS' name of this area
+reset               - resets the current area
+security <rating>   - set the security rating for this area
+show                - hitting return, or 'show' shows the area stats
+vnum <lower> <upper>- set the lower and upper vnum's
+lvnum <lower>       - set the lower vnum
+uvnum <upper>       - set the upper vnum
+<flags>             - area flags, type ? AREA for a list
+~
+
+32 RESETS~
+Syntax: RESET <number> OBJ <vnum> <location on body>    - equips last mobile
+        RESET <number> OBJ <vnum> inside <obj vnum>     - store in container
+        RESET <number> OBJ <vnum> room                  - store in room
+        RESET <number> MOB <vnum> [<max #>]             - load a mobile
+{W        RESET <number> CHANCE <number>                  - chance to load
+        RESET <number> DELETE                           - delete a reset
+
+RESET alone will display the resets in the current room.  The <number> will
+be displayed with this list.  Typing ? WEAR-LOC will list possible locations
+that an object can be loaded to.  The [<max #>] is the maximum number of
+mobiles allowed in this room and will default to 1 if no number is entered.
+
+For resets to be successful make sure that you add them in a logical order.
+For example if you are equiping a mobile don't load a container in the room
+and fill it with some objects and then continue equiping the mobile.  It is
+likely that resets will backfire if they are not carefully entered.
+
+If you wish to reset the room then use EDIT ROOM RESET.
+~
+
+32 MPLIST RPLIST OPLIST~
+Syntax: mplist [all] [<tekst>]
+        oplist [all] [<tekst>]
+        rplist [all] [<tekst>]
+
+Komenda s³u¿y do szukania progów, w ktorych nazwie znajduje
+siê s³owo <tekst> lub wszystkich (je¶li nie podano <tekst>). Je¶li u¿yjemy
+opcji all przeszukiwane bêd± wszystkie progi na mudzie, bez tej opcji
+tylko progi w bie¿±cej krainie.
+
+Przyk³adowo:
+mplist
+mplist all
+mplist glupianazwa
+mplist all glupianazwa
+~
+
+32 ITEM_LIGHT~
+.   value 0    waterlight, 'yes' znaczy ¿e nie ga¶nie pod wod±
+   value 1    unused
+   value 2    ile bêdzie ¶wieciæ ticków, 0 wygaszona, -1 lub 999 nieskoñczono¶æ
+   value 3    unused
+   value 4    unused
+~
+
+32 ITEM_STAFF_WAND~
+.   value 0    level
+   value 1    max charges
+   value 2    current charges
+   value 3    spell name
+   value 4    unused
+
+
+An up-to-date list of spells can be obtained by typing:
+? SPELLS [ignore/attack/defend/self/object/all]
+~
+
+32 ITEM_SCROLL_POTION_PILL~
+.   value 0    level
+   value 1    spell name 1
+   value 2    spell name 2
+   value 3    spell name 3
+   value 4    unused
+
+An up-to-date list of spells can be obtained by typing:
+? SPELLS [ignore/attack/defend/self/object/all]
+~
+
+32 ITEM_ARMOR~
+.   value 0    ac pierce
+   value 1    ac bash
+   value 2    ac slash
+   value 3    ac exotic (magic)
+   value 4    unused
+~
+
+32 ITEM_WEAPON~
+.   value 0    weapon class.
+   value 1    number of dice to roll.
+   value 2    type of dice to roll.
+   value 3    weapon type.
+   value 4    special weapon type.
+
+An up-to-date list of values can be obtained by typing
+? WCLASS
+help WEAPON_DICE
+? WEAPON
+? WTYPE
+~
+
+32 WEAPON_DICE~
+These are the values the server generates automatically when
+converting a merc-format mobile to ROM format.  A higher
+number of dice gives less variance in damage.  There is no
+dice-bonus on weapon dice.
+
+      level:   dice
+        1:     1d8
+        2:     2d5
+        3:     2d5
+        5:     2d6
+       10:     4d5
+       20:     5d5
+       30:     5d7
+       50:     5d11
+~
+
+32 ITEM_CONTAINER~
+value 0    maksymalna waga pojemnika wraz z zawartoœci¹
+   value 1    flagi: closeable, pickproof, closed, locked, puton, broken, easy, hard, eatkey
+   value 2    vnum klucza
+   value 3    maksymalna waga pojedyñczego przedmiotu
+   value 4    waga przedmiotu po w³o¿eniu (raczej nie zmieniaæ)
+   value 5    Typ lub vnum przedmiotu, który mo¿na w³o¿yæ
+
+Zobacz te¿:
+{Y? CONTAINTER{x
+~
+
+32 ITEM_DRINK~
+.   value0    capacity
+   value 1    current quantity
+   value 2    liquid type
+   value 3    poisoned?
+   value 4    unused
+
+An up-to-date list of liquid types can be obtained by typing
+? LIQUID
+~
+
+32 ITEM_FOOD~
+.   value 0    hours of food value
+   value 1    unused
+   value 2    unused
+   value 3    poisoned?
+   value 4    unused
+~
+
+32 ITEM_MONEY~
+.   value 0    value in gold pieces
+   value 1    unused
+   value 2    unused
+   value 3    unused
+   value 4    unused
+~
+
+32 LITERKI DOLARKI DOLARY~
+Dla osób:
+$n mianownik
+$z dopelniacz
+$x celownik
+$c biernik
+$v narzednik
+$b miejscownik
+ 
+Dla przedmiotów:
+$p mianownik
+$f dopelniacz
+$g celownik
+$h biernik
+$j narzednik
+$k miejscownik
+ 
+ 
+inne:
+$e on/ona/ono
+$m jemu/jej/temu
+$s jego/jej/tego
+
+
+Dotyczy to moba ktory wykonuje proga.
+$i  - short desc moba wykonuj¹cego prog
+$iz - dope³niacz tego¿ moba
+$ix - celownik
+$ic - biernik
+$iv - narzednik
+$ib - biernik
+$in - to pierwsze s³owo z name tego¿ moba
+ 
+zmienna rola: 
+$n gracz/mob, który jest powodem odpalenia proga (na przyk³ad przy triggerze speech, bêdzie nim gracz który wypowiedzia³ po¿±dan± kwestiê) 
+$i mob, który wykonuje prog (ma go przypisanego) - nie dotyczy objprogów i roomprogów 
+$r losowy gracz stoj±cy w bie¿±cej lokacji 
+$d losowa postaæ (zarówno gracz jak i mob) znajduj±ca siê w lokacji, z uwag±, ¿e je¿eli w lokacji bêdzie wiêcej ni¿ jedna osoba, to nigdy nie wylosuje sie $n (o ile taki istnieje). 
+$q mob/gracz, zapamiêtany komend± mob remeber 
+$o pierwszy obiekt bior±cy udzia³ w progu (przyk³adowo pojemnik z piciem przy triggerze consume;$p drugi obiekt bior±cy udzia³ w progu (przyk³adowo przy triggerze connect;$t oznacza cel proga wykonywanego z obj np. triggerem use 
+~
+
+32 PREWAIT~
+prewait -  do ustawiania waita !przed! zakleciem
+umozliwia tez ustawianie kidy jaki komunikat sie pojawia
+uzywanie:
+prewait spell liczba - ustawia spellowi liczbe waitow
+prewait spell liczba 'txt' ustawia !wczesniej zdefiniowanemu spellowi jaki
+                     komunikat ma sie kiedy pojawic
+prewait spell del -  kasuje 
+prewait save
+
+Jeszcze jedna sprawa, z komentarzami
+Jak sie definiuje ogolnie prewaita dla jakiegos zaklecia podaje sie liczbe
+np:
+nie mielismy w liscie bless wiec piszemy
+pre bless 20
+czyli przed spellem bedziemy mieli laga 20 costam
+i teraz jakie komentarze
+np gdzie tak na poczatku zeby cos powiedzial w stylu:
+pre bless 18 $n zaklada okulary i glosno chrzaka.
+gdzies w polowie jeszcze cos
+pre bless 10  $n wstaje i spluwa za lewe ramie.
+no i na koniec
+pre bless 2 $n rzuca jakies zaklecie.
+oczywiscie opisy nie powinny byc tak glupie :)
+~
+
+32 DAMTYPE~
+Skladnia: damtype <type>
+ 
+Polecenie dziala wewnatrz medit'a i ustawia typ obrazen, jaki zadaje mob
+nie uzywajac broni, aby wyswietlic liste dostepnych typow wpisz
+{G? weapon{x
+~
+
+-1 $~
+
+#$

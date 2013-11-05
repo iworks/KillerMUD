@@ -1,0 +1,2793 @@
+#AREADATA
+Name +# Lodowa kraina~
+Builders None~
+VNUMs 19401 19450
+Credits Azradun, Furgas, Drake~
+Locked ~
+Security 9
+ResetAge 50
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 19401
+Name cz³owiek ¶niegu~
+Odmiana cz³owieka ¶niegu~cz³owiekowi ¶niegu~cz³owieka ¶niegu~cz³owiekiem ¶niegu~cz³owieku ¶niegu~
+Short cz³owiek ¶niegu~
+Long Potê¿ny cz³owiek ¶niegu poluje na tym obszarze.~
+Descr Cz³owiek ¶niegu to potwór, ¿yj±cy na wysokich lodowcach. Wykszta³ci³ on
+odporno¶æ na mróz, sprawiaj±c±, ¿e mo¿e prze¿yæ w niesprzyjaj±cych
+warunkach. Jego futro jest cenne, a pazury przystosowane do rozrywania
+zdobyczy na strzêpy. 
+~
+Race troglodyta~
+ActExt 0|ACFGT
+Affected 0 0 0 0
+AffectedExt 0
+Align -100
+Group 0
+Lang A
+Speaks 0
+Level 9
+Hitroll -1
+HP 9d6+250
+Damage 2d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 8 7 7 10
+Stats 120 60 60 72 108 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 8 75
+Mobend
+#Vnum 19402
+Name bia³y wilk~
+Odmiana bia³ego wilka~bia³emu wilkowi~bia³ego wilka~bia³ym wilkiem~bia³ym wilku~
+Short bia³y wilk~
+Long Wielki bia³y wilk przemyka têdy.~
+Descr Ten koszmarny wilk to maszyna ¶mierci, poruszaj±ca siê na du¿ych ³apach.
+Jego zêby i pazury przystosowane s± do niszczenia wrogów. 
+~
+Race wilk~
+ActExt 0|AF
+Affected 32 0 0 0
+AffectedExt 0|F
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 3d10+300
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 3 3 3 3
+Stats 120 48 48 114 96 78 78
+Off DR
+OffExt 0|DR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRSV
+Size medium
+Material unknown
+Comments podnosze wartosc skory, wkoncu to nie jest jakis pospolity wilczek, a i miejsce wystepowania niezbyt spokojne - {RRaszer{x ({CFri Mar 19 14:39:24 2010{x)
+~
+Skin 250
+ExpMultiplier 100
+Resist 8 50
+Resist 12 50
+Mobend
+#Vnum 19403
+Name lodowy demon boss~
+Odmiana lodowego demona~lodowemu demonowi~lodowego demona~lodowym demonem~lodowym demonie~
+Short lodowy demon~
+Long Lodowy demon wznosi ku niebu swoje b³yszcz±ce skrzyd³a.~
+Descr Widisz przed sob± potê¿ny, lodowy pos±g wielkiego demona. Który jednak -
+o zgrozo - zaczyna obracaæ siê w twoj± stronê, gdy wchodzisz. Potê¿ne
+stworzenie, zrobione z czystego lodu promieniuje tak potê¿n± aur± ch³odu, ¿e
+same ¶nie¿ne zaspy czy lodowiec przy tym wydaj± siê miejscami pe³nymi
+ciep³a. Zwraca na ciebie swoje oczy, wygladaj±ce jak dwie szafirowe gwiazdy
+na aksamitnym przestworze nocy. Ta istota promieniujê potêg±, jest tak samo
+odwieczna i nie¶miertelna jak lodowiec który jest jej domem. 
+~
+Race baatezu~
+ActExt 0|ABFIRT/2|C
+Affected 302514728 268435456 524288 32768
+AffectedExt 0|DFJTZc/1|c/2|T/3|P
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 34
+Hitroll 10
+HP 20d10+4300
+Damage 4d5+8
+Dammagic 3
+Weaponbonus 5
+Damflags 2
+Attack uderzenie
+XAC -12 -12 -12 -9
+Stats 162 150 120 120 168 60 108
+Off DOYc
+OffExt 0|DOYc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10000
+Form CDEM
+Parts ABCDEFHJKPQUVWX
+Size giant
+Material unknown
+Comments level, hp, exp multiplier - {RKainti{x ({CFri Dec  9 22:30:03 2005{x)
+Hp mniej o 200, damdice 4d5+3 z 4d6+10, armor slabszy o 30. Mob o 5 leveli slabszy od behemota, a jest o wiele mocniejszy... - {RBrohacz{x ({CThu Jun 12 00:53:29 2008{x)
+Zwiekszam wealtha na 10k (bo kto¶ zwiekszyl hapki o 900 :P) - {RLaszlo{x ({CThu Jun 11 04:07:24 2009{x)
+zwiêkszam hp - {RRisan{x ({CMon May 16 21:20:34 2011{x)
++1k hp - {RRisan{x ({CMon Sep 26 18:15:11 2011{x)
+~
+MobprogNew death 19404 ABCDEFGHI 100~
+MobprogNew onload 19403 ABCDEFGHI 100~
+Spells 380 304 137 138
+Spells 94 218 403 0
+Corpse -1
+Skin 100
+ExpMultiplier 250
+Resist 1 35
+Resist 2 25
+Resist 3 -5
+Resist 4 40
+Resist 5 -10
+Resist 6 -10
+Resist 8 100
+Resist 10 100
+Resist 11 3
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 25
+Resist 17 25
+Resist 18 -5
+Mobend
+#Vnum 19404
+Name lodowa salamandra wielka czujna~
+Odmiana lodowej salamandry~lodowej salamandrze~lodow± salamandrê~lodow± salamandr±~lodowej salamandrze~
+Short lodowa salamandra~
+Long Stoi tutaj wielka lodowa salamandra, obserwuj±c ciê uwa¿nie.~
+Descr Postaæ, któr± widzisz, okala niebieskawy nimb ch³odnego ¶wiat³a,
+rozsiewaj±cy dooko³a mro¼ne powietrze. Ona sama wygl±da jak pó³-w±¿,
+pó³-cz³owiek o niebieskawej skórze. Zdajesz sobie sprawê, ¿e takie istoty
+raczej nie pochodz± z naszego ¶wiata, lecz musia³y doñ przywêdrowaæ przez
+jaki¶ nieopatrznie otwarty portal. 
+~
+Race naga~
+ActExt 0|ABFT
+Affected 33554952 268435456 0 0
+AffectedExt 0|DJZ/1|c
+Align -1000
+Group 0
+Lang K
+Speaks 10
+Level 20
+Hitroll 3
+HP 17d10+600
+Damage 2d7+1
+Dammagic 1
+Weaponbonus 4
+Damflags 2
+Attack uderzenie
+XAC -6 -2 -4 10
+Stats 114 96 114 84 150 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 100
+Form AJMVY
+Parts ABCDEFGHIJKQRSU
+Size medium
+Material unknown
+MobprogNew onload 19401 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 150
+Mobend
+#Vnum 19405
+Name mlody lodowy troll~
+Odmiana mlodego lodowego trolla~mlodemu lodowemu trollowi~mlodego lodowego trolla~mlodym lodowym trolle~mlodym lodowym trollu~
+Short mlody lodowy troll~
+Long Mlody, lodowy troll poluje tutaj na foki.~
+Descr M³ody, lodowy troll przemierza ten teren w poszukiwaniu miêsa. Jego
+d³ugie zêby wygl±daj± gro¼nie. Na pierwszy i na drugi rzut oka. 
+~
+Race troll~
+ActExt 0|AFGIT
+Affected 0 0 256 0
+AffectedExt 2|I
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 13
+Hitroll 2
+HP 13d10+130
+Damage 2d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 4 3 4 10
+Stats 96 54 54 102 120 78 78
+Off IRX
+OffExt 0|IRX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 19406
+Name lodowy golem o¿ywiony boss~
+Odmiana lodowego golema~lodowemu golemowi~lodowego golema~lodowym golemem~lodowym golemie~
+Short lodowy golem~
+Long Golem w calosci wyrzezbiony z lodu i ozywiony pradawna magia broni tu czegos jak przed wiekami.~
+Descr Jest to potê¿ny pos±g wyrze¼biony z lodu, animowany moc± pradawnych
+runów. Jego oczodo³y jarz± siê czerwonym ¶wiat³em, gdy wielka lodowa góra
+sunie w twoim kierunku. Masz nieodparte wra¿enie, ¿e sam pradawny lodowiec
+wys³a³ oto swego przedstawiciela, by sia³ pomstê po¶ród inteligentnych istot
+¶wiata. 
+~
+Race golem~
+ActExt 0|ABEMT/2|C
+Affected 40 32 64 0
+AffectedExt 0|DF/1|F/2|G
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 4
+HP 22d10+700
+Damage 2d12+5
+Dammagic 0
+Weaponbonus 0
+Damflags 16
+Attack walniecie
+XAC -20 -20 -20 10
+Stats 144 42 42 120 168 78 78
+Off CIOX
+OffExt 0|CIOX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size huge
+Material unknown
+MobprogNew death 19402 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 1 50
+Resist 2 25
+Resist 3 -5
+Resist 5 -10
+Resist 8 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Mobend
+#Vnum 19407
+Name sniezny wilk bialy~
+Odmiana snieznego wilka~snieznemu wilkowi~snieznego wilka~snieznym wilkiem~snieznym wilku~
+Short sniezny wilk~
+Long Wielki, sniezny wilk szczerzy swoje kly.~
+Descr Ten koszmarny wilk to maszyna ¶mierci, poruszaj±ca siê na du¿ych ³apach.
+Jego zêby i pazury przystosowane s± do niszczenia wrogów. 
+~
+Race ¶nie¿ny wilk~
+ActExt 0|AF
+Affected 32 0 0 0
+AffectedExt 0|F
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 0
+HP 3d10+300
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC -1 -1 -1 -1
+Stats 120 48 48 114 96 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRSV
+Size large
+Material unknown
+MobprogNew fight wilk_cone H 80~
+Skin 400
+ExpMultiplier 100
+Resist 5 -10
+Resist 8 100
+Mobend
+#Vnum 19408
+Name cz³owiek ¶niegu~
+Odmiana cz³owieka ¶niegu~cz³owiekowi ¶niegu~cz³owieka ¶niegu~cz³owiekiem ¶niegu~cz³owieku ¶niegu~
+Short cz³owiek ¶niegu~
+Long Jeden ze snieznych ludzi uradzil sobie tutaj uczte wsrod resztek jakiegos zwierza.~
+Descr Cz³owiek ¶niegu to potwór, ¿yj±cy na wysokich lodowcach. Wykszta³ci³ on
+odporno¶æ na mróz, sprawiaj±c±, ¿e mo¿e prze¿yæ w niesprzyjaj±cych
+warunkach. Jego futro jest cenne, a pazury przystosowane do rozrywania
+zdobyczy na strzêpy. 
+~
+Race troglodyta~
+ActExt 0|ABCFGT
+Affected 0 0 0 0
+AffectedExt 0
+Align -100
+Group 0
+Lang A
+Speaks 0
+Level 9
+Hitroll -1
+HP 9d6+250
+Damage 2d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 8 7 7 10
+Stats 120 60 60 72 108 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 8 50
+Mobend
+#Vnum 19409
+Name do¶wiadczony barbarzyñca nauczyciel_barb~
+Odmiana barbarzyñcy~do¶wiadczonemu barbarzyñcy~do¶wiadczonego barbarzyñcê~do¶wiadczonym barbarzyñc±~do¶wiadczonym barbarzyñcy~
+Short do¶wiadczony barbarzyñca~
+Long Poorany bliznami barbarzyñca spaceruje tutaj.~
+Descr Spogl±dasz ze zdziwieniem na tego cz³owieka, który niewiadomo ile czasu
+spêdzi³ zamarzniêty w bryle lodu, a jednak stoi teraz tutaj ca³kiem ¿ywy!
+Szybkie spojrzenie na jego wielkie miê¶nie pozwala ci stwierdziæ, ¿e jest to
+z pewno¶ci± niezwyk³y barbarzyñca. Czy¿by sam chcia³ porwaæ siê na demona i
+przez to zosta³ zakuty w bryle lodu? Z pewno¶ci± wiele potrafi... Mo¿e za
+rozs±dn± cenê podzieli siê umiejêtno¶ciami? 
+~
+Race cz³owiek~
+ActExt 0|ABGIJKQSTXd/2|E
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 30
+Hitroll 0
+HP 10d10+500
+Damage 3d3+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 150 150 150 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 19409_random FGI 30~
+MobprogNew onload 19409_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19410
+Name bry³a lodu bry³a_lodu~
+Odmiana {Bwielkiej bry³y lodu{x~{Bwielkiej bryle lodu{x~{Bwielki± bry³ê lodu{x~{Bwielki± bry³± lodu{x~{Bwielkiej bryle lodu{x~
+Short {Bwielka bry³a lodu{x~
+Long {BWielka bry³a lodu{x stoi tutaj nieopodal demona.~
+Descr Spogl±dasz z pocz±tku obojêtnie na t± na pozór odró¿niaj±c± sie od reszty
+tylko wielko¶ci± bry³ê lodu. Po chwili jednak dostrzegasz pewien detal,
+który ciê zaciekawia. Podchodzisz bli¿ej by przyjrzeæ siê dok³adniej. Gdy
+nagle udaje ci siê dostrzec w ¶rodku sylwetkê jakiego¶ mê¿czyzny, oczy ma³o
+nie wychodz± ci z orbit ze zdumienia. Jak to siê mog³o staæ? 
+~
+Race unique~
+ActExt 0|AB
+Affected 0 268435456 0 8192
+AffectedExt 1|c/3|N
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 31
+Hitroll 0
+HP 5d5+150
+Damage 1d1+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off d
+OffExt 0|d
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form J
+Parts 0
+Size large
+Material unknown
+MobprogNew death 19410_death ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 19401
+Name katana Yukiakari~
+Odmiana {Ckatany {WYukiakari{x~{Ckatanie {WYukiakari{x~{Ckatanê {WYukiakari{x~{Ckatan± {WYukiakari{x~{Ckatanie {WYukiakari{x~
+Short {Ckatana{x Yukiakari~
+Descr Katana Yukiakari le¿y na ziemi, skrz±c siê srebrzy¶cie.~
+Material stal~
+Type weapon
+ExtraExt 0|DG
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 3 5 41 42 3 3
+Repair 0 0 0 0
+Length 160
+Weight 80
+Cost 210000
+Cond 100
+Aff 1 12 8 50 0 0
+Extradesc _yukiakari~
+Trzymana przez $c katana Yukiakari iskrzy siê jak diament, l¶ni±c z³owieszczo.
+~
+Objprog use 19401 off~
+Objprog wear 19402 75~
+Objprog fight 19403 40~
+Objprog hit 19404 2~
+Itemdesc Katana skrzy siê jak pokryta lodem. Jej ostrze l¶ni siê ¶wiat³em,
+wygl±daj±cym jakby by³o odbite od miriad p³atków ¶niegu. 
+~
+Identdesc Katana Yukiakari (co znaczy w jêzyku wschodnich pustkowi tyle co ¦nie¿ne
+¦wiat³o) nale¿a³a przed wiekami do s³ynnego samuraja Rudei. By³ on wielkim
+wojownikiem, który ¿y³ tylko po to, by broniæ honoru i sprawiedliwo¶ci.
+Pewnego dnia spotka³ boginiê ¶niegu, która zakocha³a siê w przystojnym
+m³odzieñcu. Niestety, nie by³o im pisane szczê¶cie. Nied³ugo potem wioska, w
+której mieszka³ Rudei, zosta³a spalona, a magia jego wybranki nie mog³a nic
+pomóc. Jedyne, co pozosta³o po nieszczêsnym samuraju i ¶nie¿nej kochance to
+ta katana, skrz±ca siê w s³oñcu Yukiakari.
+ 
+Oprócz potê¿nej i godnej uwagi mocy ochrony przed zimnem i mro¿enia
+przeciwników, broñ ta posiada tak¿e inne, niezwyk³e w³a¶ciwo¶ci.
+Podobno duch opiekuñczy Yuki, bogini ¶niegu, ci±gle chroni nosz±cego
+miecz, za¶ duch bojowy Rudei wspomaga w³a¶ciciela w walce.
+Czy to prawda? Aby siê o tym przekonaæ, nale¿a³oby u¿yæ jej
+w boju...
+~
+Hiddendesc ~
+Comments dodaje specdamy zgodnie z za³o¿eniami i ¶cie¿k± samuraja Rudei - {RRisan{x ({CThu May 19 19:14:20 2011{x)
+~
+SpecDamExt 3 100 -100 -100 -100 0 5 1
+SpecDamExt 3 25 0 1 -100 0 4 0
+SpecDamExt 3 100 0 1 -100 0 2 0
+Objend
+#Vnum 19402
+Name lodowa halabarda wspania³a halabarda_19402~
+Odmiana {Clodowej halabardy{x~{Clodowej halabardzie{x~{Clodow± halabardê{x~{Clodow± halabard±{x~{Clodowej halabardzie{x~
+Short {Clodowa halabarda{x~
+Descr Na ziemi le¿y porzucona przez kogo¶ wspania³a {Clodowa halabarda{x.~
+Material mithril~
+Type weapon
+ExtraExt 0|AGPU
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 8 2 7 7 34 0 2
+Repair 0 0 0 0
+Length 300
+Weight 1
+Cost 60
+Cond 75
+Objprog get halka_19402 100~
+Objprog hit halka_19402 80~
+Itemdesc To potê¿ne ostrze jest czêsto u¿ywane przez lodowe salamandry. Jest
+zbudowane z najczystszego lodu i powi±zane magicznie z w³a¶cicielem, dlatego
+rozpada siê zwykle po jego ¶mierci. 
+~
+Comments Doda³em 2 progi, ¿eby siê halka rozpada³a dla graczy. - {RWicia{x ({CTue Nov  1 22:11:46 2005{x)
+~
+Objend
+#Vnum 19403
+Name b³yszcz±cy diamentowy sto¿ek~
+Odmiana diamentowego sto¿ka~diamentowemu sto¿kowi~diamentowy sto¿ek~diamentowym sto¿kiem~diamentowym sto¿ku~
+Short diamentowy sto¿ek~
+Descr Le¿y tutaj lekko b³yszcz±c diamentowy sto¿ek.~
+Material diament~
+Type piece
+ExtraExt 0|ADd
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 19404 19405 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 60
+Cond 100
+Itemdesc Trzymasz w d³oniach bardzo dziwny, szafirowy sto¿ek. Od ¶rodka roz¶wietla
+go lekki blask, rozja¶niaj±c otoczenie delikatn± po¶wiat±. Mo¿liwe, ¿e by³
+on czê¶ci± czego¶ wiêkszego. 
+~
+Comments ~
+Objend
+#Vnum 19404
+Name szafirowy wyrze¼biony sto¿ek~
+Odmiana {Cszafirowego sto¿ka{x~{Cszafirowemu sto¿kowi{x~{Cszafirowy sto¿ek{x~{Cszafirowym sto¿kiem{x~{Cszafirowym sto¿ku{x~
+Short {Cszafirowy sto¿ek{x~
+Descr Le¿y tutaj i b³yszczy sto¿ek wyrze¼biony z niebieskiego {Cszafiru{x.~
+Material kryszta³~
+Type piece
+ExtraExt 0|ADd
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 19403 0 19405 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 60
+Cond 75
+Itemdesc Trzymasz w d³oniach bardzo dziwny, szafirowy sto¿ek. Od ¶rodka
+roz¶wietla go lekki blask, rozja¶niaj±c otoczenie delikatn± po¶wiat±.
+Mo¿liwe, ¿e by³ on czê¶ci± czego¶ wiêkszego. 
+~
+Comments ~
+Objend
+#Vnum 19405
+Name kryszta³owy b³yszcz±cy klucz magiczny~
+Odmiana {CKry{cszta³{Cowego{x klucza~{CKry{cszta³{Cowemu{x kluczowi~{CKry{cszta³{Cowy{x klucz~{CKry{cszta³{Cowym{x kluczem~{CKry{cszta³{Cowym{x kluczu~
+Short {CKry{cszta³{Cowy{x klucz~
+Descr Le¿y tutaj b³yszcz±cy potê¿n±, magiczn± aur± klucz zrobiony z kryszta³u.~
+Material kryszta³~
+Type key
+ExtraExt 0|ADGPUd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 1
+Cond 75
+Identdesc ~
+Comments ~
+Objend
+#Vnum 19406
+Name od³amek kryszta³u kryszta³owa skrzynia~
+Odmiana od³amka kryszta³u~od³amkowi kryszta³u~od³amek kryszta³u~od³amkiem kryszta³u~od³amku kryszta³u~
+Short kawa³ek kryszta³u~
+Descr Le¿y tutaj wbity w ziemiê potê¿ny od³amek kryszta³u.~
+Material diament~
+Type container
+ExtraExt 0|ADGYd
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 200 3 0 8 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 19408
+Name lodowa trumna l_trumna~
+Odmiana lodowej trumny~lodowej trumnie~lodow± trumnê~lodow± trumn±~lodowej trumnie~
+Short lodowa trumna~
+Descr Stoi tutaj du¿a, b³yszcz±ca lodowa trumna.~
+Material marmur~
+Type container
+ExtraExt 0|AD
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10000 271 19405 100 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 19410
+Name lodowy naszyjnik~
+Odmiana {Clodowego{S naszyjnika~{Clodowemu{S naszyjnikowi~{Clodowy{S naszyjnik~{Clodowym{S naszyjnikiem~{Clodowym{S naszyjniku~
+Short {Clodowy{S naszyjnik~
+Descr Pieknie zdobiony naszyjnik w ca³o¶ci pokryty lodem, lêzy na ziemi.~
+Material szk³o~
+Type wand
+ExtraExt 0|DG
+Wear ACHO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Komponent -1 0
+Value 7 1 0 0 0 0 8
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 300000
+Cond 75
+Aff 1 12 8 10 0 0
+Objprog random lod_nasz4 1~
+Objprog input lod_nasz3 boxyd tqyku~
+Objprog input lod_nasz2 duwowm jyqr~
+Objprog input lod_nasz1 ojuwlouqr~
+Objprog input odczytaj_napisy odczytaj napisy~
+Objprog input odczytaj_napisy odczytaj~
+Itemdesc Masz przed sob± niezwyk³y naszyjnik. Jest on w ca³o¶ci skuty bardzo
+grubym lodem. Nijak nie idzie siê zorientowaæ z jakiego materia³u by³
+pierwotnie wykonany. Delikatne ogniwa najprawdopodobniej zosta³y wykonane z
+mithrilu i zabarwione w jakis tajemniczy sposob na kolor czerwony.
+Dostrzegasz jeszcze jakies dziwne, niebiesko czerwone kamienie, które
+prze¶wituja spod grubej warstwy lodu. Ca³y wisiorek jest niewielkich
+rozmiarów, lecz mimo to czujesz, ze lekko ci±¿y ci w rêkach, zupe³nie jakby
+nie chcia³, aby¶ go dotyka³. Na lekko chropowatej powierzchni lodu
+dostrzegasz jakies dziwne napisy. Moze warto spróbowaæ je {codczytaæ{S? 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 19401
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19402
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19402
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19407
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19407
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24902
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 24902
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19402
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19403
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19403
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19401
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19401
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19403
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19404
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19404
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19406
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19406
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19402
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19402
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19404
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19405
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19405
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19403
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19403
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19405
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19406
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19406
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19404
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19404
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19406
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19405
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19405
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19409
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19409
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19403
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19403
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19407
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19408
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19408
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19401
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19401
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19408
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19417
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19417
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19407
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19407
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19409
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19406
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19406
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19410
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19410
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19410
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19411
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19411
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19409
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19409
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19411
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19412
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19412
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19410
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19410
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19412
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19413
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19413
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19416
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19416
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19411
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19411
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19413
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19426
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19426
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19412
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19412
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19414
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19414
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19414
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19415
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19415
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19413
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19413
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19415
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19414
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19414
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19416
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19412
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19412
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19418
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19418
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19417
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19417
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19417
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19416
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19416
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19408
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19408
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19418
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19419
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19419
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19416
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19416
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19419
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19418
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19418
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19420
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19420
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19420
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19421
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19421
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19419
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19419
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19421
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19422
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19422
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19420
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19420
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19422
+Name ¦nieg i lód~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19424
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19424
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19421
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19421
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19423
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19423
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19423
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19422
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19422
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19424
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19425
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19425
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19422
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19422
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19425
+Name Lód i ¶nieg~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19424
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19424
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19426
+Name Lodowe schody~
+FlagsExt 0
+Sector 26
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19413
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19413
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19427
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19427
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19427
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19428
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19428
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19426
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19426
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19428
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19427
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19427
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19429
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19429
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19429
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19430
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19430
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19431
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19431
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19432
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19432
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19428
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19428
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19430
+Name Lodowiec~
+FlagsExt 0|C
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19429
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19429
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19431
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19437
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19437
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19429
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19429
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19432
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19433
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19433
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19429
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19429
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19433
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19434
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19434
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19432
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19432
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19434
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19435
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19435
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19433
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19433
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19435
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19436
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19436
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19434
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19434
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19436
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19437
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19437
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19435
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19435
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19437
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19436
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19436
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19431
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19431
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19438
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19438
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19438
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19439
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19439
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19437
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19437
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19439
+Name Lodowiec~
+FlagsExt 0|C
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19440
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19440
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19438
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19438
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19440
+Name Lodowiec~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19439
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19439
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19441
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19441
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19441
+Name Lodowy szczyt~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19442
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19442
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19440
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19440
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19442
+Name Lodowy szczyt~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19443
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19443
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19445
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19445
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19441
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19441
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19443
+Name Lodowy szczyt~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19444
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19444
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19442
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19442
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19444
+Name Lodowy szczyt~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19445
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19445
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19443
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19443
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19446
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19446
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19445
+Name Lodowy szczyt~
+FlagsExt 0
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19444
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19444
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19442
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19442
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19446
+Name Lodowy szczyt~
+FlagsExt 0
+Sector 26
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19447
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19447
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19444
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19444
+DayRDesc 19401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19447
+Name Lodowy szczyt~
+FlagsExt 0|H
+Sector 26
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19446
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19446
+DayRDesc 19401
+Roomprog reset reset_demon 70~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 19408 1 19404 1
+M 100 19401 6 19404 1
+M 100 19401 6 19406 1
+M 100 19401 6 19410 1
+M 100 19401 6 19411 1
+M 100 19401 6 19413 1
+M 100 19401 6 19414 1
+M 100 19405 4 19415 1
+M 100 19402 6 19416 1
+M 100 19401 6 19419 1
+M 100 19402 6 19420 1
+M 100 19405 4 19421 1
+M 100 19407 2 19422 1
+M 100 19401 6 19425 1
+M 100 19407 2 19426 1
+M 100 19406 1 19430 1
+M 100 19404 6 19440 2
+M 100 19404 6 19442 2
+M 100 19404 6 19446 2
+M 100 19410 1 19447 1
+S
+
+
+
+#MOBPROGSNEW
+#19401
+~
+mob oload 19402
+wield halabarda
+~
+#19402
+~
+mob echo Golem chwieje siê przez chwilê po czym pada, po chwili od miejsca gdzie pad³ wylatuje mro¼ny podmuch energii.
+mob echoat $n Mro¼ny podmuch {Cmrozi cie na kosc{w!!!
+mob damageeex $n 5 15 50
+mob oload weapon 6
+mob oload gem 5
+mob oload gem 3
+mob oload gem 4
+mob echo Po golemie zostaje tylko kupka ¶niegu i lodu który powoli zlatuje na ziemiê a tak¿e co¶ b³yszcz±cego!
+mob oload 19403
+~
+#19403
+~
+mob oload random 7
+
+if rand 95
+  mob oload neck 5
+else
+  mob oload neck 4
+endif
+
+if rand 95
+  mob oload finger 5
+else
+  mob oload finger 4
+endif
+
+if rand 95
+  mob oload ear 5
+else
+  mob oload ear 4
+endif
+
+wear all
+if rand 91
+  mob oload 208
+endif
+
+~
+#19404
+~
+mob echo Okropny ryk towarzyszy ciosowi zadanemu demonowi, ryk prawie s³yszalny na granicy s³uchu lecz w jaki¶ sposób straszliwy.
+mob echo Ryk w¶ciek³o¶ci i bólu, gdy odwieczna istota spotyka swój koniec...
+mob echo Ostateczny cios zag³êbia siê w ciele demona, ogarnia ciê fala ch³odu, kryszta³owe cia³o demona powoli zaczyna znikaæ w odleg³ym wymiarze.
+mob echo Nagle jeden z rogow demona odpada i spada na ziemiê!
+mob oload 19404
+mob echo To by³a piêkna bitwa...
+if mobhere 19410
+  mob purge bryla_lodu
+  mob mload 19409
+  mob echo Spogl±dasz ze zdumieniem, jak {Bwielka bry³a lodu{x topi siê, od³aniaj±c postaæ jakiego¶ cz³owieka!
+endif
+~
+#19405
+~
+~
+#19409_onload
+~
+mob setflag $i doswiadczony_live 20
+~
+#19409_random
+~
+if !hasflag $i doswiadczony_live
+mob echo $i nagle ³apie siê za pier¶ i pada na ziemiê MARTWY!
+mob purge self
+mob echo Jego cia³o rozk³ada siê po chwili.
+endif
+~
+#19410_death
+~
+mob echo {BWielka bry³a lodu{x rozpada siê na kawa³ki!
+mob echo Przez chwile czujesz zapach {RKRWI{x.
+mob echo Po chwili wszystkie okruchy lodu topniej± i wyparowywuj±.
+end
+~
+#0
+
+#OBJPROGSNEW
+#19401
+~
+if wearsarte $t 19401
+mob echoat $t Nie obra¿aj ducha opiekuna tego miecza.
+break
+endif
+if hasflag $o yukiakari
+mob echoat $n Duch opiekuñczy tego miecza nie odnowi³ jeszcze swoich si³.
+else
+if rand 83
+mob mesg $n $t char Wyci±gasz katanê szybkim ruchem z pochwy, a nastêpnie zadajesz szerokie ciêcie! Tak b³yskawicznego ruchu $tn nie mo¿e zablokowaæ!
+mob mesg $n $t vict $n wyci±ga katanê szybkim ruchem z pochwy, a nastêpnie zadaje szerokie ciêcie! Tak b³yskawicznego ruchu nie mo¿esz zablokowaæ!
+mob mesg $n $t room $n wyci±ga katanê szybkim ruchem z pochwy, a nastêpnie zadaje szerokie ciêcie! Tak b³yskawicznego ruchu $t nie mo¿e zablokowaæ!
+mob damage $t 20 40
+obj setflag yukiakari 10
+end
+endif
+if rand 80
+mob mesg $n $t char Chwytasz mocno katanê w obie rêce, po czym szybkim ruchem skaczesz do przodu! Zadajesz jedno pchniêcie w ramiê $tz, po czym siê wycofujesz!
+mob mesg $n $t vict $n chwyta mocno katanê w obie rêce, po czym szybkim ruchem skacze do przodu! Zadaje jedno pchniêcie w twoje ramiê, po czym siê wycofuje!
+mob mesg $n $t room $n chwyta mocno katanê w obie rêce, po czym szybkim ruchem skacze do przodu! Zadaje jedno pchniêcie w ramiê $tz, po czym siê wycofuje!
+mob addaff $t hitr -2 8 'Twoje ramiê jest uszkodzone'
+obj setflag yukiakari 10
+end
+endif
+if rand 75
+mob mesg $n $t char Schylasz siê nagle i szybkim ruchem przeci±gasz katan± po nogach $tz!
+mob mesg $n $t vict $n schyla siê nagle i szybkim ruchem przeci±ga katan± po twoich nogach!
+mob mesg $n $t room $n schyla siê nagle i szybkim ruchem przeci±ga katan± po nogach $tz!
+mob addaff $t dex -3 8 'Twoja noga jest uszkodzona'
+obj setflag yukiakari 10
+end
+endif
+if rand 66
+mob mesg $n $t char Chwytasz mocno katanê ponad g³ow±, i z krzykiem zadajesz potê¿ny cios, który spada na $tc!
+mob mesg $n $t vict $n chwyta mocno katanê ponad g³ow±, i z krzykiem zadaje potê¿ny cios, który spada na ciebie!
+mob mesg $n $t room $n chwyta mocno katanê ponad g³ow±, i z krzykiem zadaje potê¿ny cios, który spada na $tc!
+mob damage $t 30 50
+obj setflag yukiakari 10
+end
+endif
+if rand 50
+mob mesg $n $t char Z b³yskawiczn± szybko¶ci± zadajesz seriê kilku s³abych, lecz nieblokowalnych ciosów, które rani± krytyczne miejsca na ciele $tz!
+mob mesg $n $t vict $n z b³yskawiczn± szybko¶ci± zadaje seriê kilku s³abych, lecz nieblokowalnych ciosów, które rani± krytyczne miejsca na twoim ciele!
+mob mesg $n $t room $n z b³yskawiczn± szybko¶ci± zadaje seriê kilku s³abych, lecz nieblokowalnych ciosów, które rani± krytyczne miejsca na ciele $tz!
+mob addaff $t str -1 5 'Cierpisz z powodu trafieñ krytycznych'
+mob addaff $t dex -1 5 'Cierpisz z powodu trafieñ krytycznych'
+obj setflag yukiakari 10
+end
+endif
+mob mesg $n $t char Chwytasz Yukiakari w obie rêce tak, ¿e jej moc mo¿e przep³ywaæ bez problemu. Kiedy $t rzuca siê w twoim kierunku, tniesz raz, wk³adaj±c w ten cios wszystkie si³y swoje i Gigantyczna fala mrozu ogarnia $tc!
+mob mesg $n $t vict $n chwyta Yukiakari w obie rêce tak, ¿e jej moc mo¿e przep³ywaæ bez problemu. Kiedy $n rzuca siê w twoim kierunku, tnie raz, wk³adaj±c w ten cios wszystkie si³y swoje i Yukiakari. Gigantyczna fala mrozu ogarnia ciê!
+mob mesg $n $t room $n chwyta Yukiakari w obie rêce tak, ¿e jej moc mo¿e przep³ywaæ bez problemu. Kiedy rzucasz siê w jego kierunku, tnie raz, wk³adaj±c w ten cios wszystkie si³y swoje i Yukiakari. Gigantyczna fala mrozu ogarnia $tc!
+mob damage $t 50 100
+mob addaff $t con -3 20 'Twoje cia³o jest zamro¿one' 
+obj setflag yukiakari 10
+endif
+~
+#19402
+~
+mob echoat $n Z iskrz±cego siê ostrza Yukiakari sypie siê kaskada l¶ni±cego lodowego py³u.
+mob echoaround $n Z iskrz±cego siê ostrza Yukiakari sypie siê kaskada l¶ni±cego lodowego py³u.
+~
+#19403
+~
+if rand 50
+mob echoat $n Maleñkie drobinki ¶niegu tworz± siê w powietrzu i zaczynaj± tañczyæ w mro¼nym wietrze.
+mob echoaround $n Maleñkie drobinki ¶niegu tworz± siê w powietrzu i zaczynaj± tañczyæ w mro¼nym wietrze.
+end
+endif
+mob echoaround $n Okruchy lodu osypuj± siê z Yukiakari i opadaj± jak deszcz na ziemiê.
+mob echoat $n Okruchy lodu osypuj± siê z Yukiakari i opadaj± jak deszcz na ziemiê.
+~
+#19404
+~
+mob mesg $n $t char {RTrafienie krytyczne!{x
+mob mesg $n $t char Czujesz, jak potê¿na si³a przep³ywa przez Ciebie, gromadz±c siê w twoich d³oniach, trzymaj±cych {WYukiakari{x!
+mob mesg $n $t char {WYukiakari{x ro¶nie trzykrotnie, po czym opada niczym lawina ¶mierci na $tc!
+mob mesg $n $t vict {WYukiakari{x ro¶nie trzykrotnie, po czym opada niczym lawina ¶mierci na Ciebie!
+mob mesg $n $t room {WYukiakari{x ro¶nie trzykrotnie, po czym opada niczym lawina ¶mierci na $tc!
+mob damage $t 100 200 lethal
+mob log Yukiakari: $n zadaje obrazenia $tz.
+~
+#halka_19402
+~
+if ispc $n
+  mob echoat $n {CLodowa halabarda{x rozpada siê na kilka kawa³ków lodu!
+  mob echoaround $n {CLodowa halabarda{x rozpada siê na kilka kawa³ków lodu!
+  mob purge $o
+else
+  break
+endif
+
+# No i tutaj sobie halka znika. {R(by Wicia){x (01.11.2005)
+~
+#lod_nasz1
+~
+if hasflag $o lod_nasz1
+or hasflag $o lod_nasz2
+or hasflag $o lod_nasz3
+  mob echoat $n Wymawiasz cicho magiczne s³owa, jednak nic siê nie dzieje. {CLodowy{S naszyjnik nie zebral jesio wystarczaj±co du¿o magicznej energii.
+  mob echoaround $n $n wymawia cicho jakies magiczne s³owa, jednak nic sie nie dzieje.
+else
+  mob echoat $n Wymawiasz cicho magiczne s³owa.
+  mob echoat $n Z zapartym tchem obserwujesz jak dooko³a ciebie pojawia sie magiczna, lodowa tarcza.
+  mob setaff $n iceshield 10 "{GOtacza ciê lodowa tarcza{x" "blabla"
+  obj setflag lod_nasz1 24
+  mob echoaround $n $n wymawia cicho jakie¶ magiczne s³owa.
+  mob echoaround $n $n jest teraz otaczany przez magiczn±, lodow± tarcze.
+endif
+~
+#lod_nasz2
+~
+if hasflag $o lod_nasz1
+or hasflag $o lod_nasz2
+or hasflag $o lod_nasz3
+  mob echoat $n Wymawiasz cicho magiczne s³owa, jedno nic siê nie dzieje. {CLodowy{S naszyjnik nie zbera³ jeszcze wystarczaj±co du¿o magicznej energii.
+  mob echoaround $n $n wymawia cicho jakie¶ magiczne s³owa, jednak nic sie nie dzieje.
+else
+  mob echoat $n Wymawiasz cicho magiczne s³owa.
+  mob echoat $n Nagle zaczynasz odczutawaæ delikatne wibracje.
+  mob echoat $n Czujesz siê teraz lepiej chroniony przed zimnem.
+  mob setaff $n resist cold 10 "{Gjeste¶ chroniony przed zimnem{x" "blabla"
+  obj setflag lod_nasz2 15
+  mob echoaround $n $n wymawia cicho jakie¶ magiczne s³owa.
+endif
+~
+#lod_nasz3
+~
+if hasflag $o lod_nasz1
+or hasflag $o lod_nasz2
+or hasflag $o lod_nasz3
+  mob echoat $n Wymawiasz cicho magiczne s³owa, jednak nic siê nie dzieje. {CLodowy{S naszyjnik nie zebral jeszcze wystarczaj±co du¿o magicznej energii.
+  mob echoaround $n $n wymawia cicho jakie¶ magiczne s³owa, jednak nic siê nie dzieje.
+else
+  mob echoat $n Wymawiasz cicho magiczne s³owa.
+  mob echoat $n Zaczynasz odczuwaæ gêstniejêc± magiczna aure. Otacza ciê teraz sfera magicznej energii.
+  mob setaff $n minor 3 "{GJeste¶ otoczony sfer± magicznej energii{x" "blabla"
+  obj setflag lod_nasz3 48
+  mob echoaround $n $n wymawia cicho jakie¶ magiczne s³owa.
+endif
+~
+#lod_nasz4
+~
+$_rand = int_random 1 100
+if numeval $_rand == 1
+  if hasflag $o lod_nasz1
+  or hasflag $o lod_nasz2
+  or hasflag $o lod_nasz3
+    mob echo {CLodowy{S naszyjnik zaczyna delikatnie wibrowaæ i buczeæ, zupe³nie jakby mia³ zaraz wybuchn±æ. Na szczê¶cie po chwili siê uspokaja.
+  else
+    mob echo {CLodowy{S naszyjnik zaczyna mocno wibrowaæ.
+    minidelay 2
+    mob echo {CLodowy{S naszyjnik wybucha i rozsypuje w ko³o wiele lodowych od³amków, które lec±c z niesamowit± prêdko¶ci± niszcz± wszystko na swej drodze.
+    mob damageex all 5 250 650
+  endif
+endif
+~
+#odczytaj_napisy
+~
+if wears $n lodowy naszyjnik
+  mob echoat $n Zaczynasz mozolny procesz odczytywania znaków.
+  mob echoaround $n $n lekko mró¿y oczy i zaczyna przygl±daæ sie {Clodowemu{S naszyjnikowi.
+  minidelay 2
+  mob echoat $n Pierwszy z napisów g³osi: {Rojuwlouqr{S.
+  minidelay 2
+  mob echoat $n lekko przekrecasz w dloniach naszyjnik.
+  mob echoaround $n $n Lekko przekrêca w d³oniach naszyjnik.
+  minidelay 2
+  mob echoat $n Z trudem odczytujesz drugi tekst: {Rduwowm jyqr{S.
+  minidelay 2
+  mob echoat $n Czytasz ostatnie zdanie, zapisane ma³ymi znaczkami:{R boxyd tqyku{S.
+  mob echoat $n Ciekawe co by siê sta³o, jakby¶ wypowiedzia³ w my¶lach te s³owa.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#reset_demon
+~
+mob purge
+mob mload 19403
+mob oload 19408 room
+mob oload gem 6
+mob oload gem 6
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+if rand 50
+  mob oload gem 7 i 19408
+endif
+if rand 50
+  mob oload gem 7 i 19408
+endif
+if rand 50
+  mob oload gem 6 i 19408
+endif
+if rand 50
+  mob oload gem 7 i 19408
+endif
+if rand 50
+  mob oload gem 6 i 19408
+endif
+if rand 50
+  mob oload gem 5 i 19408
+endif
+if rand 50
+  mob oload gem 4 i 19408
+endif
+if rand 50
+  mob oload gem 5 i 19408
+endif
+mob oload gem 4 i 19408
+mob oload gem 3 i 19408
+mob oload gem 2 i 19408
+mob oload gem 1 i 19408
+mob oload random 7 i 19408
+mob oload random 6 i 19408
+mob oload random 6 i 19408
+mob oload random 5 i 19408
+mob oload random 5 i 19408
+mob oload random 4 i 19408
+mob oload random 3 i 19408
+mob oload random 2 i 19408
+mob oload random 1 i 19408
+if rand 70
+  mob oload weapon 7 i 19408
+else
+  if rand 50
+    mob oload weapon 6 i 19408
+    mob oload weapon 1 i 19408
+  else
+    mob oload weapon 5 i 19408
+    mob oload weapon 2 i 19408
+  endif
+endif
+if rand 65
+  mob oload shield 7 i 19408
+else
+  mob oload shield 6 i 19408
+endif
+if rand 80
+  mob oload finger 7 i 19408
+else
+  if rand 60
+    mob oload finger 6 i 19408
+  else
+    if rand 40
+      mob oload finger 5 i 19408
+    else
+      mob oload finger 4 i 19408
+    endif
+  endif
+endif
+if rand 40
+  mob oload body 5 i 19408
+endif
+if rand 70
+  mob oload body 7 i 19408
+endif
+if rand 40
+  mob oload ear 6 i 19408
+endif
+mob oload about 3 i 19408
+if rand 80
+  mob oload about 7 i 19408
+endif
+mob oload neck 2 i 19408
+mob oload neck 4 i 19408
+mob oload random 5
+mob oload random 5
+mob oload random 5
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 19401
+DescRand #grouprand 1
+#grouprand 3
+#grouprand 2
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 01~
+Desc Wszystko dooko³a jest przysypane ¶niegiem. Zaspy siêgaj± niemal po kolana.
+~
+Group 1
+End
+#Name 02~
+Desc Bia³y ¶nieg pokry³ te lodowe szczyty ca³kowicie.
+~
+Group 1
+End
+#Name 03~
+Desc Jak okiem siêgn±æ, bia³o. Miêkki ¶nieg pokrywa ten teren.
+~
+Group 1
+End
+#Name 04~
+Desc ¦nieg, padaj±cy od niepamiêtnych czasów, pokry³ ten obszar.
+~
+Group 1
+End
+#Name 05~
+Desc Brniesz w zaspach po kolana. Mro¼ny wiatr nawiewa coraz wiêcej ¶niegu.
+~
+Group 1
+End
+#Name 06~
+Desc Wicher wieje coraz mocniej. Dooko³a piêtrz± siê niebotyczne zaspy.
+~
+Group 1
+End
+#Name 07~
+Desc Zaspy w tym miejscu s± tak g³êbokie, ¿e mo¿na w nie wpa¶æ ca³emu.
+~
+Group 1
+End
+#Name 08~
+Desc Miêkki ¶nieg miejscami zaczyna zbijaæ siê w lód.
+~
+Group 1
+End
+#Name 09~
+Desc Bia³a zima objê³a to miejsce w swoje w³adanie i przykry³a ca³unem ¶niegu.
+~
+Group 1
+End
+#Name 10~
+Desc Spomiêdzy zasp ¶niegu prze¶wituj± gdzieniegdzie po³yskliwe p³aty lodu.
+~
+Group 1
+End
+#Name 11~
+Desc Nieopodal znajduje siê niewielkie jeziorko, niestety, ca³kowicie zamarzniête. Je¿eli ³owiæ ryby, to tylko w przerêblu.
+~
+Group 2
+End
+#Name 12~
+Desc Nie widzisz tu nic ciekawego. I nale¿a³o siê tego spodziewaæ po tej opuszczonej przez bogów ziemi. 
+~
+Group 2
+End
+#Name 13~
+Desc Ma³a stru¿ka wody wyp³ywa w jednym miejscu spod lodowca. Magia? Mo¿liwe. Jedynie tym mo¿na by to wyt³umaczyæ.
+~
+Group 2
+End
+#Name 14~
+Desc Kilka ma³ych ko¶ci i jaka¶ czaszka bieleje nieopodal. Prawdopodobnie pozosta³o¶æ po jakim¶ ma³ym zwierz±tku, zaskoczonym przez drapie¿nika.
+~
+Group 2
+End
+#Name 15~
+Desc Nieomal potykasz siê o od³amek lodowca wystaj±cy z gruntu. Nie mieli gdzie tego poustawiaæ? Pretensje do Matki Natury.
+~
+Group 2
+End
+#Name 16~
+Desc Jakie¶ rachityczne drzewo wyrasta po¶rodku stoku. Zastanawiasz siê, jak mog³o przetrwaæ, ba, jak siê w ogóle rozwinê³o.
+~
+Group 2
+End
+#Name 17~
+Desc Du¿a ilo¶æ ko¶ci wskazuje na aktywno¶æ zwierzêc± w tym rejonie. Mo¿liwe, ¿e to jakie¶ cmentarzysko czy co¶ w tym rodzaju.
+~
+Group 2
+End
+#Name 18~
+Desc Niewielki uskok po¶rodku zdaje siê nie stanowiæ wielkiego niebezpieczeñstwa, o ile bêdziesz siê trzymaæ w stosownej, podyktowanej bezpieczeñstwem odleg³o¶ci.
+~
+Group 2
+End
+#Name 19~
+Desc Najdziwniejsze jest to, ¿e po¶rodku pola firnowego wyrasta kamieñ runiczny. Zupe³nie nie wiesz, jak on siê tu móg³ znale¼æ.
+~
+Group 2
+End
+#Name 20~
+Desc Widniej±ca nieopodal ma³a ka³u¿a lodu mo¿e okazaæ siê wbrew pozorom ca³kiem niebezpieczna, je¿eli zaczniesz siê po niej ¶lizgaæ. Uwa¿aj.
+~
+Group 2
+End
+#Name 21~
+Desc Lodowe iglice, niezniszczalne i wieczne, wydaj± siê drwiæ z ciebie i twoich poczynañ.
+~
+Group 3
+End
+#Name 22~
+Desc Odczucie pustki i osamotnienia szarpie twoje serce gdy patrzysz na to miejsce.
+~
+Group 3
+End
+#Name 23~
+Desc Mro¼ny wicher przenika ciê do g³êbi, czujesz, jak nieomal zamarza twoje serce.
+~
+Group 3
+End
+#Name 24~
+Desc Witaj w królestwie lodowca. Mo¿e wrócisz st±d ¿ywy.
+~
+Group 3
+End
+#Name 25~
+Desc Ludzkie uczucia wydaj± siê wrêcz niestosowne w tym czystym i mro¼nym miejscu.
+~
+Group 3
+End
+#Name 26~
+Desc Ruszaj siê, bo inaczej zamarzniesz tutaj na wieki.
+~
+Group 3
+End
+#Name 27~
+Desc Takiego mrozu jak tutaj nie pamiêtaj± nawet najstarsi górale.
+~
+Group 3
+End
+#Name 28~
+Desc Lód wydaje siê zimnym szk³em, odbijaj±cym obraz twej duszy.
+~
+Group 3
+End
+#Name 29~
+Desc Nie istnieje ciep³o. Jedynie mróz, potê¿ny i niepokonany, panuje na tym obszarze.
+~
+Group 3
+End
+#Name 30~
+Desc Mro¼na para bucha ci z ust. Czujesz, jak razem z ni± opuszcza ciê ¿yciodajne ciep³o.
+~
+Group 3
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

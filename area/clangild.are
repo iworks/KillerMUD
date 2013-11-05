@@ -1,0 +1,1108 @@
+#AREADATA
+Name {RCLAN{x: Gildia z³odziejska~
+Builders Klan~
+VNUMs 3920 3939
+Credits Twórca: Sewilion sewilion@gmail.com
+Sprawdzi³: Brock
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 3923
+Name Zakapturzony stra¿nik~
+Odmiana zakapturzonego stra¿nika~zakapturzonemu stra¿nikowi~zakapturzonego stra¿nika~zakapturzonym stra¿nikiem~zakapturzonym stra¿niku~
+Short zakapturzony stra¿nik~
+Long Zakapturzony stra¿nik strze¿e wrót wie¿y.~
+Descr Patrzysz na owego zakapturzonego stra¿nika. Budowe ma drobn±, zapewne
+jest nizio³kiem. W rêce trzyma ostro zakoñczony sztylet, w którym odbija siê
+¶wiatlo emanuj±ce z obiektu unosz±cego sie nad stra¿nikiem. Nie wyglada zbyt
+groznie, ale masz nieodparte wra¿enie, ¿e niejest tu sam... 
+~
+Race nizio³ek~
+ActExt 0|ABS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 2d10+320
+Damage 2d3+5
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walenie
+XAC 10 10 10 10
+Stats 108 102 78 120 90 60 84
+Off BFN
+OffExt 0|BFN
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew exit 3940 FGI 0~
+MobprogNew hpcnt 3939 H 60~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 3924
+Name Zamaskowany osobnik WacekDuzyAssasin~
+Odmiana zamaskowanego osobnika~zamaskowanemu osobnikowi~zamaskowanego osobnika~zamaskowanym osobnikiem~zamaskowanym osobniku~
+Short zamaskowany osobnik~
+Long Zamaskowany osobnik spoglada na ciebie groznie~
+Descr Postaæ wygl±da bardzo tajemniczo. Moze maska sluzy jako zakrycie szpetnej
+twarzy, choæ mo¿e chodzi tylko o zachowanie anonimowo¶ci. Ca³a oosoba jest
+owiniêta p³aszczem, zauwa¿asz jego oczy wpatrzone w ciebie. Przechodzi ciê
+dreszcz, a serce zaczyna biæ szybciej... 
+~
+Race nizio³ek~
+ActExt 0|ABS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 0
+HP 2d10+260
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walenie
+XAC 4 3 4 4
+Stats 114 72 132 78 78 78 78
+Off BF
+OffExt 0|BF
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 3938 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 3935
+Name Myilo Moswadkryon~
+Odmiana Myila Moswadkryona~Myilowi Moswadkryonowi~Myila Moswadkryona~Myilem Moswadkryonem~Myilu Moswadkryonie~
+Short Myilo Moswadkryon~
+Long Myilo Moswadkryon czeka tutaj na klientów~
+Descr Patrzysz na sklepikarza. Widzisz szczery usmiech, który kieruje w twoja
+strone. Pewnie ma nadziejê, ¿e zostawusz mu du¿o srebrniaków. Sklepikarz
+jest ubrany calkowicie zwyczajnie, wrêcz nie pasuje do miejsca, wrêcz nie
+pasuje ubiorem do miejsca, w którym sie znajduje. 
+~
+Race elf~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew precommand milo_sell ABCDEFGHI sell~
+MobprogNew precommand milo_buy ABCDEFGHI buy~
+MobprogNew precommand milo_list ABCDEFGHI list~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 3932
+Name £o¿e~
+Odmiana ³o¿a~³o¿u~³o¿e~³o¿em~³o¿u~
+Short ³o¿e z baldachimem stoi tutaj~
+Descr Wielkie ³o¿e z baldachimem kusi ciê, aby¶ na nim spocz±³.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 0 2192 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 400
+Cost 1
+Cond 50
+Itemdesc Piêkne ³o¿e z baldachimem. Zas³ony, które opadaj± na ³ó¿ko s± w piêknym
+kolorze ró¿. Wygoda ³o¿a jest tak ogromna, ¿e niemasz najmniejszej ochoty
+d³u¿ej na nie spogladaæ, tylko czym prêdzej na nim spocz±æ. 
+~
+Comments ~
+Objend
+#Vnum 3933
+Name Fiolka z trucizn±~
+Odmiana fiolki z trucizn±~fiolce z trucizn±~fiolkê z trucizn±~fiolk± z trucizn±~fiolce z trucizn±~
+Short fiolka z trucizn±~
+Descr Dziwna fiolka le¿y tutaj na ziemi.~
+Material szk³o~
+Type envenomer
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 3 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1800
+Cond 50
+Itemdesc Fiolka jest wypelniona jakim¶ dziwnym p³ynem. W±chaj±æ czujesz
+odrzucaj±cy zapach trucizny. Ciecz jest dosyæ gêsta, na pewno bêdzie siê
+nadawaæ do zatrucia jakiejsc broni. 
+~
+Comments ~
+Objend
+#Vnum 3934
+Name Kajak~
+Odmiana kajaku~kajakowi~kajak~kajakiem~kajaku~
+Short kajak~
+Descr Kajak le¿y tutaj.~
+Material drewno~
+Type boat
+ExtraExt 0|SUe
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 400
+Cost 1
+Cond 50
+Objprog get assasinkajak 100~
+Itemdesc Kajak jest bardzo lekk±, jednoosbow± ³odzi±. Jest bardzo szybka i
+zwrotna. Pomalowana na ciemne barwy czyni j± niezauwa¿alna w nocy na wodzie
+jak i le¿±c± na l±dzie. Ca³a jest zbudowana z lekkiego drewna, co czyni j±
+calkiem przystepnym ¶rodkiem transportu. 
+~
+Comments ~
+Objend
+#Vnum 3937
+Name Z³odziejska skrzynka~
+Odmiana z³odziejskiej skrzynki~z³odziejskiej skrzynce~z³odziejska skrzynke~z³odziejsk± skrzynk±~z³odziejskiej skrzynkce~
+Short z³odziejska skrzynka~
+Descr Dziwna skrzynia le¿y tu zbieraj±c kurz.~
+Material porcelana~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 40 0 0 40 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 100
+Cost 60
+Cond 50
+Itemdesc Patrzysz na t± niewielk± skrzynke. Jest ona do¶æ pojemna jak na swoje
+rozmiary, zdobi± j± piekna malowid³a przedstawiaj±ce 2 sztylety, i
+zakapturzon±, dziwn± postaæ. Wieko skrzyni przytrzymuja dwa zawiasy
+pozwalaj±ce na swobodne otwieranie skrzyni. 
+~
+Comments wywalam proga na get - {RWicia{x ({CSun Sep 10 18:07:33 2006{x)
+~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 3920
+Name Zej¶cie z niewysokich gór~
+Descr Powietrze jest tutaj ciê¿sze i jakby troszke cieplejsze ni¿ wy¿ej. Teren
+w zasadzie do¶æ równy i gdyby nie to, ¿e niespecjalnie du¿o tu miejsca mo¿na
+by to szumnie i p³askowy¿em nazwaæ. Trochê tu drzew i krzaków. Gdzieniegdzie
+nawet sporo krzaczorów. Na pó³nocy widaæ we mgle wystajacy czubek jakiego¶
+budynku. Przy silniejszych podmuchach wiatru dolatuje ciê zapach zbutwia³ego
+drewna. Nie za specjalnie chce ci siê domy¶laæ czyj± siedzib± jest owa wie¿a
+we mgle... 
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3921
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3921
+Name Zej¶cie z niewysokich gór~
+Descr Powietrze jest tutaj ciê¿sze i jakby troszke cieplejsze ni¿ wyzej. Teren
+w zasadzie do¶æ równy i gdyby nie to, ¿e niespecjalnie du¿o tu miejsca mo¿na
+by to szumnie i p³askowy¿em nazwaæ. Trochê tu drzew i krzaków. Gdzieniegdzie
+nawet sporo krzaczorów. Na pó³nocy widaæ we mgle wystajacy czubek jakiego¶
+budynku. Przy silniejszych podmuchach wiatru dolatuje ciê zapach zbutwia³ego
+drewna. Nie za specjalnie chce Ci siê domy¶laæ czyj± siedzib± jest owa wie¿a
+we mgle... 
+~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3920
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3920
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3922
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3922
+Name Wej¶cie na ¶cie¿kê~
+Descr Zchodz±c z gór przedar³es siê przez krzaczyska na drogê zapewne
+prowadz±c± do dziwnej wie¿y, któr± ju¿ wcze¶niej uda³o ci siê zauwa¿yæ.
+Droga ci±gnie siê na pó³noc, po¶ród drzew i krzaków, które rosn± po bokach
+drogi. Sama droga jest poro¶niêta gdzieniegdzie mchem, kêpkami trawy. Sam
+las jest spowity mg³±, co nadaje temu wszystkiemu jakiej¶ dziwnej atmosfery.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3923
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3923
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3921
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3923
+Name Przed Wie¿±~
+Descr Droga doprowadzi³a ciê do wrót wie¿y. Ci±gnie siê ona, jak ci siê to
+wydaje, po same niebo. Ca³a jest zbudowana z drewna, jednak¿e wygl±da na
+solidn± konstrukcjê. U podnózy wie¿y stoi g³az z wyrze¼bionym na nim
+s³oñcem. Zastanawiasz siê, có¿ to mo¿e oznaczaæ. W oknach budynku co jaki¶
+czas widaæ przechodz±c± tam zakapturzon± sylwetkê... Same wrota wie¿y
+wygl±daj± potêznie. Trudno by³oby je sforsowaæ, tym bardziej, ¿e stoi tu
+zakapturzona postaæ... Zapewne stra¿nik owego budynku. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3924
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3924
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3922
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3924
+Name Du¿a sala~
+Descr Znajdujesz siê w do¶æ obszernym pokoju, w którym znajduje siê wiele
+obrazów przedstawiaj±cych wa¿ne osobisto¶ci z³odziejskie. Pod³oga zbudowana
+jest, jak z reszt± ca³y budynek, z drewna. W k±tach pokoju znajduj± siê
+piedesta³y, na których unosz± siê dziwne przedmioty ja¿±ce siê ¶wiat³em.
+Pod³oga skrzypi pod naporem ciê¿aru twojego cia³a, co zdradza twoj±
+obecno¶æ. Masz nieodparte wra¿enie, ¿e kto¶ ciê ca³y czas obserwuje z
+ka¿dego ciemniejszego zak±tka sali. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3925
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3925
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3927
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3927
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3923
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3923
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3926
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3926
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3928
+ExitExtEnd
+Exit 4
+~
+~
+0 0 3928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3925
+Name Du¿a sala~
+Descr Znajdujesz siê w do¶æ obszernym pokoju, w którym znajduje siê wiele
+obrazów przedstawiaj±cych wa¿ne osobisto¶ci z³odziejskie. Pod³oga zbudowana
+jest, jak z reszt± ca³y budynek, z drewna. W k±tach pokoju znajduj± siê
+piedesta³y, na których unosz± siê dziwne przedmioty ja¿±ce siê ¶wiat³em.
+Pod³oga skrzypi pod naporem ciê¿aru twojego cia³a, co zdradza twoj±
+obecno¶æ. Masz nieodparte wra¿enie, ¿e kto¶ ciê ca³y czas obserwuje z
+ka¿dego ciemniejszego zak±tka sali. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3935
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3935
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3934
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3934
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3924
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3924
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3933
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3926
+Name Zak±tek sali~
+Descr Znajdujesz siê w zak±tku sali, gdzie w rogu widzisz piedesta³, który ju¿
+wcze¶niej przyku³ twoj± uwagê. Unosi siê nad nim okr±g³y kamieñ
+przypominaj±cy s³oñce. Choæ zdaje siê emanowaæ ciemnym ¶wiat³em - zalewa
+pokój fal± jasno¶ci. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3933
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3933
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3924
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3927
+Name Zak±tek sali~
+Descr Znajdujesz siê w zak±tku sali, gdzie w rogu widzisz piedesta³, który ju¿
+wcze¶niej przyku³ twoj± uwagê. Unosi siê nad nim okr±g³y kamieñ
+przypominaj±cy s³oñce. Choæ zdaje siê emanowaæ ciemnym ¶wiat³em - zalewa
+pokój fal± jasno¶ci. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3934
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3934
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3924
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3928
+Name Wy¿sze piêtro~
+Descr Wszed³e¶ na wy¿sze piêtro wie¿y. Panuje tutaj zaduch, powietrze jest
+gor±ce i ciêzkie. Na wschodzie i zachodzie znajduj± siê kwatery ³otrzyków.
+Na pó³nocy widzisz jaki¶ tajemniczy korytarz. Ciekawe te¿ dok±d on mo¿e
+prowadziæ... 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3931
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3931
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3929
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3929
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3930
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3930
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3936
+ExitExtEnd
+Exit 4
+~
+~
+0 0 3936
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3924
+ExitExtEnd
+Exit 5
+~
+~
+0 0 3924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3929
+Name Siedziba ³otrzyków~
+Descr Znajdujesz siê w kwaterze ³otrzyków. £otrzykowie to wysocy rang± zabójcy.
+Nie jeste¶ pewien, czy twoja obecno¶æ tutaj przypadkiem którego¶ nie
+rozz³o¶ci. Generalnie panuje tu nale¿yty porz±dek. Ponury klimat jednak nie
+opuszcza tego miejsca. Jedynie cienka struga ¶wiat³a pada przez sk±pe w
+swojej wielko¶ci okna. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3928
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3930
+Name Siedziba ³otrzyków~
+Descr Znajdujesz siê w kwaterze ³otrzyków. £otrzykowie to wysocy rang± zabójcy.
+Nie jeste¶ pewien, czy twoja obecno¶æ tutaj przypadkiem którego¶ nie
+rozz³o¶ci. Generalnie panuje tu nale¿yty porz±dek. Ponury klimat jednak nie
+opuszcza tego miejsca. Jedynie cienka struga ¶wiat³a pada przez sk±pe w
+swojej wielko¶ci okna. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3928
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3931
+Name Korytarz~
+Descr Koryta¿ nie ci±gnie siê zbyt daleko. Koñczy siê on wej¶ciem na góre, z
+którego bije nik³e ¶wiat³o. Sam koryta¿ nie jest zbyt zadbany, kurz
+zalegajacy na pod³odze wzbija siê w powietrze przy podmuchu twoich kroków
+gryzac ciê w nos. Samo o¶wietlenie koryta¿a jest nik³e, panuje ogólny zaduch
+i dziwnie cie¿ka atmosfera. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3928
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3928
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3932
+ExitExtEnd
+Exit 4
+~
+~
+0 0 3932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3932
+Name Siedziba Zastêpcy Herszta~
+Descr Pokój ró¿ni siê znacznie od poprzednich, a¿ dziw, ¿e tak dobrze urzadzone
+pomieszczenie mo¿e siê znajdowaæ na koñcu dosyæ mocno niezadbanego koryta¿a.
+Jest tu jedno okno, które wystarczaj±co oswietla kwaterê. Samo pomieszczenie
+wygl±da na kwatere kogo¶ naprawde wa¿nego, na co wskazuj± liczne zdobienia
+mebli jak i piêkne ³o¿e, które zapewne jest bardzo wygodne... 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3931
+ExitExtEnd
+Exit 5
+~
+~
+0 0 3931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3933
+Name Zak±tek sali~
+Descr Znajdujesz siê w zak±tku sali, gdzie w rogu widzisz piedesta³, który ju¿
+wcze¶niej przyku³ twoj± uwagê. Unosi siê nad nim okr±g³y kamieñ
+przypominaj±cy s³oñce. Choæ zdaje siê emanowaæ ciemnym ¶wiat³em - zalewa
+pokój fal± jasno¶ci. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3925
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3925
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3926
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3926
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3934
+Name Zak±tek sali~
+Descr Znajdujesz siê w zak±tku sali, gdzie w rogu widzisz piedesta³, który ju¿
+wcze¶niej przyku³ twoj± uwagê. Unosi siê nad nim okr±g³y kamieñ
+przypominaj±cy s³oñce. Choæ zdaje siê emanowaæ ciemnym ¶wiat³em - zalewa
+pokój fal± jasno¶ci. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3927
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3927
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3925
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3935
+Name Sklep {DZachodz±cego s³oñca{x~
+Descr Samo pomieszczenie nie ró¿ni siê zbytnio od poprzednich. Zauwa¿aln±
+ró¿nic± jest to, ¿e panuje tu niez³y nieporz±dek. Pomieszczenie przypomina
+wrêcz jaki¶ magazyn, w którym zrobiono sklep. Jednak istnieje jeszcze jedna
+ró¿nica. Stoi tutaj sklepikarz, który tylko czeka na to, ¿eby wyci±gn±æ od
+ciebie jak najwiecej srebrniaków... 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3936
+Name Wy¿sze piêtro~
+Descr Schody poprowadzi³y ciê naprawdê wysoko. Patrz±c przez okno dostajesz
+lekkich zawrotów g³owy, które spowodowane s± wysoko¶cia. Przera¿a ciê fakt,
+¿e schody prowadz± jeszcze wy¿ej... 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3939
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3939
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3937
+ExitExtEnd
+Exit 4
+~
+~
+0 0 3937
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3928
+ExitExtEnd
+Exit 5
+~
+~
+0 0 3928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3937
+Name Siedziba Herszta Assasinów~
+Descr Znajdujesz siê w mocno o¶wietlonym pomieszczeniu z dwoma do¶æ du¿ymi
+oknami. Pokój jest bardzo dobrze urz±dzony, widaæ w nim du¿o dostojno¶ci,
+gustu. Na ¶cianach wisz± obrazy zas³u¿onych cz³onków gildii. Widaæ bogato
+zdobione szafy, które kusz± ciê swoj± wystaw±, swoj± oryginalno¶ci±. Tak
+bogato przystrojony pokój na pewno musi nale¿ec do kogo¶ bardzo wa¿nego...
+Byæ mo¿e nawet do samego Herszta... 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3936
+ExitExtEnd
+Exit 5
+~
+~
+0 0 3936
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3938
+Name Schowek dla zamaskowanego osobnika~
+Descr ~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3939
+Name Zbrojownia~
+Descr Znajdujesz siê w z³odziejskiej zbrojowni. Widzisz ¶ciany zas³ane
+najró¿niejszymi rodzajami sztyletów. Od zwyk³ych standardowych po cinquety i
+mizerykordie. Znajduj± siê tu równie¿ zbroje, g³ównie skórzane. Na wieszaku
+wisi duma Assasinów - Zbroja ze skóry mumaka. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3936
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3936
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+3935 9 5 11 0 0 100 80 0 23 * 3935
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 3923 1 3923 1
+E 100 3157 0 16
+E 100 4426 0 12
+E 100 3013 0 8
+O 100 3932 0 3932
+M 100 3935 1 3935 1
+G 100 3937 0
+G 100 3013 0
+G 100 3157 0
+M 100 3924 1 3938 1
+E 100 4426 0 12
+S
+
+
+
+#MOBPROGSNEW
+#3938
+~
+mob equip self 3157
+mob equip self 3013
+~
+#3939
+~
+if hasflag $i WacekDuzy
+else
+mob setflag $i WacekDuzy
+mob echo Nagle z ukrycia wy³ania siê zamaskowany stra¿nik!
+mob at WacekDuzyAssasin mob transfer WacekDuzyAssasin 3923
+mob force WacekDuzyAssasin bs $n
+endif
+~
+#3940
+~
+if clan $n ASSASIN
+  mob transfer $n 3924
+  mob echo $n wchodzi do siedziby Gildii Zlodziei Zachodzacego Slonca.
+  mob at $n mob echoaround $n $n wlasnie przyszedl z po³udnia.
+else
+  sayto $n Won mi st±d! Niegodny ¶mieciu!
+  minidelay 2
+  sayto $n Tylko cz³onkowie Gildii Z³odziei Zachodz±cego S³oñca mog± tu wej¶æ.
+endif
+~
+#milo_buy
+~
+if clan $n ASSASIN
+  tell $n Witam ciê czcigodny z³odzieju. Czegó¿ pragniesz? Mam najlepsze towary. Sam spójrz.
+  mob command
+else
+  tell $n Niestety nic ci nie sprzedam, póki nie zostaniesz cz³onkiem Gildii Z³odziejskiej.
+endif
+~
+#milo_list
+~
+if clan $n ASSASIN
+  tell $n Witam ciê czcigodny z³odzieju. Czegó¿ pragniesz? Mam najlepsze towary. Sam spójrz.
+  mob command
+else
+  tell $n Nie wiem o co ci chodzi, ale nie wygladasz mi na cz³onka tej Gildii. Opu¶æ prosze to miejsce, zanim zawo³am ochronê.
+endif
+~
+#milo_sell
+~
+if clan $n ASSASIN
+mob command
+else
+tell $n Nie kupie nic od ciebie, wyjdz, bo zawolam ochronê.
+endif
+~
+#0
+
+#OBJPROGSNEW
+#assasinkajak
+~
+if !clan $n ASSASIN
+  mob echoat $n Kajak zaczyna drgaæ niespokojnie w twoich d³oniach.
+mob echoaround $n Kajak zaczyna drgaæ niespokojnie w d³oniach $n.
+  delay 1
+endif
+if !clan $n ASSASIN
+  if carries $n 3934
+    mob force $n drop kajak
+  endif
+endif
+~
+#assasinskrzynka
+~
+if !clan $n ASSASIN
+mob echoat $n Z³odziejska skrzynka zaczyna drgaæ niespokojnie w twoich d³oniach.
+mob echoaround $n Z³odziejska skrzynia zaczyna drgaæ niespokojnie w d³oniach $n.
+delay 1
+mob echoat $n Z³odziejska skrzynia zaczyna nagle siê unosiæ ponad twoje rêce.
+mob echoaround $n Z³odziejska skrzynia zaczyna nagle powoli siê unosiæ ponad rêce $z.
+endif
+minidelay 2
+if !clan $n ASSASIN
+if carries $n 3937
+mob echoat $n Z³odziejska skrzynia nagle rozb³yskuje jasnym ¶wiat³em dra¿ni±æ twoje oczy!
+mob echoat $n Z³odziejska skrzynia nagle rozb³yskuje jasnym ¶wiat³em dra¿ni±æ oczy $n!
+mob damage $n 5 15
+if rand 45
+mob cast blindness $n 15
+mob force $n drop skrzynka
+endif
+endif
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

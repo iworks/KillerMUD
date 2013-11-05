@@ -1,0 +1,489 @@
+#AREADATA
+Name {RCLAN{x:Gwardia Upad³ego Boga~
+Builders Klan~
+VNUMs 38031 38046
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 38031
+Name zombie lord paladin undead~
+Odmiana lorda zombie~lordowi zombie~lorda zombie~lordem zombie~lordzie zombie~
+Short lord zombie~
+Long Ogromny staro¿ytny zombie przechodzi korytarzem.~
+Descr Widzisz potê¿nego, licz±cego sobie setki lat nieumar³ego lorda. Patroluje
+te korytarze od eonów, pilnuj±c swej pani. Na jego pozornie niewzruszonej
+twarzy widaæ grymas rado¶ci, ¿e w koñcu przyda siê swej mistrzyni walcz±c
+ze szwêdaj±cymi siê tutaj, nieproszonymi go¶æmi.
+~
+Race zombi~
+ActExt 0|AFJO/2|C
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 26
+Hitroll 4
+HP 100d2+650
+Damage 3d7+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC 2 2 2 2
+Stats 168 156 156 60 156 78 78
+Off COVY
+OffExt 0|COVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABIc
+Parts ABCGHIR
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 50
+Mobend
+#Vnum 38032
+Name mantykora~
+Odmiana mantykory~mantykorze~mantykorê~mantykor±~mantykorze~
+Short mantykora~
+Long Straszna mantykora stoi tutaj wpatruj±c siê w jeden punkt.~
+Descr Spogl±dasz na prawdziw± bestie, któr± jest mantykora. Istota ta ma tu³ów
+lwa, twarz podobn± do humanoida, ostre pazury i niebezpieczny ogon, w którym
+jest ¶mierciono¶na trucizna. Stworzenie te zosta³o w dziwny sposób o¿ywione.
+Zapewne wymaga³o wielkie si³y magicznej. 
+~
+Race mantykora~
+ActExt 0|ABD
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 1
+HP 5d6+230
+Damage 4d2+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 5 5 5 5
+Stats 84 72 72 72 120 60 72
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGJV
+Parts ABCDEFGHIJKPQRSUV
+Size medium
+Material unknown
+Skin 150
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 38031
+Name {DPrzed star± ¶wi±tyni±{x~
+Descr {DStoisz przed piêkna podziemn± ¶wi±tyni±. Widzisz korzenie wystaj±ce z
+ziemi i czujesz straszliwy sw±d zw³ok ludzkich i nie tylko. Zastanawiasz siê
+jakim sposobem kto¶ mog³y stworzyæ tutaj tak± budowlê. Mo¿e kto¶ jest
+sprzymierzony z nieumar³ymi, którzy zamieszkuj± cmentarz, mo¿e kto¶ ich
+opanowa³ za pomoc± magii. S³yszysz nagle g³os je¶li to chyba imiê, które
+kiedy¶ s³ysza³e¶. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName ¦wi±tynia~
+ExitExtName ¶wi±tynia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38032
+ExitExtEnd
+Exit 2
+~
+VName ¦wi±tynia~
+¶wi±tynia~
+0 0 38032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38032
+Name {DW ¶wi±tyni{x~
+Descr {DZnajdujesz siê wewn±trz mrocznej ¶wi±tyni jest nieprzyjemnie, czujesz siê
+co chwile obserwowany przez kogo¶. Czujesz jak magiczna si³a wype³nia t±
+¶wi±tynie. Mo¿e to runy narysowane na ¶cianach wyzwalaj± tak± moc, a mo¿e to
+si³a zapomnianego boga. {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38031
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38031
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38033
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38033
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38040
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38040
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38041
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38041
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38033
+Name {DWielki hol{x~
+Descr {DZnajdujesz siê w ogromnym holu na granitowych ¶cianach wisz± obrazy
+przedstawiaj±ce ró¿ne bitwy, zapewne z udzia³em cz³onków zapomnianego kultu.
+Widzisz jak ciemne ¶wiat³o bije ze wschodu gdzie znajdujê siê kaplica
+kap³anów. A na pó³nocy widzisz le¿ankê magów. {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38035
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38035
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38034
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38034
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38036
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38036
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38032
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38034
+Name {DKaplica kap³anów{x~
+Descr {DStary kap³an modli siê tutaj w dzieñ i noc, lecz nawet tutaj nie idzie
+rozpoznaæ cyklu. Sala ta sprzyja kap³anom w zapamiêtywaniu zaklêæ jest ona
+wype³nion± moc± zapomnianego boga. ¦ciany l¶ni±ce tak jak pod³oga, ¿e mo¿na
+siê w nich przegl±daæ, ale po co jak masz tutaj kilka luster. {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38033
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38033
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38035
+Name {DPrzepe³niona magi± komnata{x~
+Descr {DKa¿dy mag wie, ¿e w tym miejsc jego zaklêcia stan± siê potê¿niejsze, a
+ich zapamiêtywanie stanie siê szybsze. Widzisz tutaj rega³y uginaj±ce siê od
+ksi±¿ek magicznych i postarza³ych pergaminów. Dla pocz±tkuj±cego maga móg³by
+byæ raj, gdyby nie magia chroni±c± przed z³odziejaszkami. {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38033
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38033
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38036
+Name {DSzeroki korytarz{x~
+Descr {DSzeroki korytarz którym zmierzasz prowadzi ciê po¶ród mroku ku nieznanemu.
+Magia wype³niaj±ca to miejsce przyt³acza, w powietrzu czuæ ch³ód i wilgoæ a
+¶ciany pokrywaj± grube zielone pn±cza.¦ciany s± popêkane, jednak wiele lat
+jeszcze up³ynie nim ów korytarz siê zawali.Niemniej jednak nie czujesz siê
+pewnie przemierzaj±c korytarz.{x
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38033
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38033
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38037
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38037
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38037
+Name {DKoniec korytarza{x~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38036
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38036
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38039
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38039
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38038
+Name {DLochy{x~
+Descr ~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38039
+Name {DMa³y pokój{x~
+Descr {DTen ma³y pokój ma nieco ja¶niejsze barwy ni¿ pozosta³e tutejsze
+pomieszczenia. Na jednej ze ¶cian widzisz tygrysa szczerz±cego k³y tygrysa.
+Rysunek naprawdê imponuj±cy. Druidzi czuj± siê w tym miejscu bardzo dobrze i
+ci, który tutaj dotr± chêtnie tutaj pomedytuj± i odpoczn±. {x 
+~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38037
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38037
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38040
+Name {DSala wypoczynkowa{x~
+Descr {DMo¿na siê z dziwiæ, ¿e w takim miejscu jest mo¿esz wypocz±æ masz tutaj
+wielka le¿ankê, której spokojnie sobie wypoczniesz. Nie dochodz± tutaj ¿adne
+g³osy. Cisza jest a¿ przera¿aj±ca. Dziwne obrazy zrobi³y by na zwyk³y
+mieszkañcu nie lada wra¿enie, lecz ciebie takie rzeczy nie ruszaj±- obrazy
+te przedstawiaj± same istoty nieumar³e. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38032
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38041
+Name {DSala z wielkim o³tarzem{x~
+Descr {DZnajdujesz siê w wielkiej sali. Panuje tutaj mroczna atmosfera i
+niezwyk³y mróz, a¿ przechodz± ciê ciarki po plecach. Tu¿ przed tob± jest
+spory o³tarz. Czujesz jakby kto¶ cie obserwowa³ i wype³nia³ moc±. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38032
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

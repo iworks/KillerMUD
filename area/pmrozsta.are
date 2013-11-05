@@ -1,0 +1,534 @@
+#AREADATA
+Name {R#{DPodmrok{x - Rozstaje dróg~
+Builders Podmrok    Seinar~
+VNUMs 65501 65534
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 65501
+Name drogowskaz~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drewniany drogowskaz~
+Descr {rDu¿y, drewniany drogowskaz stoi tutaj.{x~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc {RNa pó³noc - {YUmbra{x
+{RNa wschód - {YDurgehold{x
+{RNa po³udnie - {YVeavis{x
+{RNa zachód - {YSeeyma{x
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 65501
+Name Rozstaje dróg~
+Descr Znajdujesz siê na rozstaju dróg. Odchodz± z tego miejsca trakty w cztery
+strony ¶wiata. Na ¶rodku niewielkiego placyku wy³o¿onego t³uczniem zauwa¿asz
+drewniany drogowskaz. 
+~
+FlagsExt 0|C
+Sector 45
+Extra dr*~
+Pó³noc - Umbra
+Zachód - Durgehold
+Po³udnie - Veavis
+Wschód - Seeyma
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65502
+ExitExtEnd
+Exit 0
+~
+~
+0 0 65502
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65511
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65511
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65505
+ExitExtEnd
+Exit 2
+~
+~
+0 0 65505
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65508
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65508
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65502
+Name Czarna droga~
+Descr {wPod±¿asz dosyæ szerok± drog± prowadz±c± z po³udnia na pó³noc. Czarna
+ziemia poprzez któr± prowadzi trakt pokryta jest dziwnym py³em. Ka¿dy twój
+krok wzbija tumany czarnego kurzu, który osiada na wszystkich czê¶ciach
+twojego ekwipunku. Zastanawiasz siê czym to potem zmyjesz z siebie. {x 
+~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65503
+ExitExtEnd
+Exit 0
+~
+~
+0 0 65503
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65501
+ExitExtEnd
+Exit 2
+~
+~
+0 0 65501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65503
+Name Czarna droga~
+Descr Szeroka droga w tym miejscu lekko siê zwê¿a. Co prawda nie przeszkadza ci
+to w podró¿owaniu, jednak twój umys³ zarejestrowa³ pod¶wiadomie tê zmiane.
+Kurzu jednak jest tu ci±gle tyle samo. Jeszcze chwila podró¿y i pokryje ciê
+on w ca³o¶ci. 
+~
+Nightdescr Szeroka droga w tym miejscu lekko siê zwê¿a. Co prawda nie przeszkadza ci
+to w podró¿owaniu, jednak twój umys³ zarejestrowa³ pod¶wiadomie tê zmiane.
+Kurzu jednak jest tu ci±gle tyle samo. Jeszcze chwila podró¿y i pokryje siê
+on w ca³o¶ci. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65504
+ExitExtEnd
+Exit 0
+~
+~
+0 0 65504
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65502
+ExitExtEnd
+Exit 2
+~
+~
+0 0 65502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65504
+Name Czarna droga~
+Descr Idziesz czarnym traktem z po³udnia na pó³noc. Masz wra¿enie, jakby¶ by³
+ci±gle obserwowany gdzie¶ z boku. Zastanawiasz siê, czy to efekt wczorajszej
+popijawy w karczmie, czy specyficzn± atmosfer± tego miejsca. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65503
+ExitExtEnd
+Exit 2
+~
+~
+0 0 65503
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65505
+Name Równy trakt~
+Descr Droga, która pod±¿asz zdaje siê byæ prosta i równa jak szklana tafla.
+Twoje nogi zdaj± siê nie mêczyæ, gdy ni± podró¿ujesz. Jeste¶ prawie pewien,
+¿e jakie¶ si³y magiczne mia³y udzia³ w jej budowie. Wnioskujesz to po
+lekkiej aurze bij±cej z jej równej powierzchni. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65501
+ExitExtEnd
+Exit 0
+~
+~
+0 0 65501
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65506
+ExitExtEnd
+Exit 2
+~
+~
+0 0 65506
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65506
+Name Równy trakt~
+Descr Idziesz drog±, a wydaje ci siê jakby twoje stopy unosi³y siê milimetry
+nad pod³o¿em. To dziwne uczucie powoduje, ¿e prawie siê nie mêczysz podró¿±.
+Stwierdzasz, ¿e jednak magowie czasami siê przydaj± na ¶wiecie. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65505
+ExitExtEnd
+Exit 0
+~
+~
+0 0 65505
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65507
+ExitExtEnd
+Exit 2
+~
+~
+0 0 65507
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65507
+Name Równy trakt~
+Descr ~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65506
+ExitExtEnd
+Exit 0
+~
+~
+0 0 65506
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34770
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34770
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65508
+Name Podziemny trakt~
+Descr ~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65501
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65501
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65509
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65509
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65509
+Name Podziemny trakt~
+Descr ~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65508
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65508
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65510
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65510
+Name Podziemny trakt~
+Descr ~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65509
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65509
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65511
+Name Droga w¶ród ha³d~
+Descr Idziesz drog± prowadz±c± z zachodu na wschód. W³a¶ciwie s³owo droga
+raczej nie pasuje do tej ¶cie¿yny któr± pod±¿asz. Po obu stronach traktu
+dostrzegasz wielkie bry³y jakiego¶ materia³u. Zastanawiasz siê, kto tu
+przywlók³ takie zwa³y tej rudy. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65512
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65512
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65501
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65512
+Name Droga w¶ród ha³d~
+Descr ~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65513
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65513
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65511
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65511
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65513
+Name Droga w¶ród ha³d~
+Descr Wokó³ drogi, któr± pod±¿asz zauwa¿asz wielkie bry³y jakiego¶ materia³u.
+To pewnie jaka¶ mniej warto¶ciowa ruda wykopywana w okolicznych kopalniach.
+Trakt na wschód prowadzi do miasta Durgehold, ale jeszcze d³uga drog± przed
+tob±. Zdajesz sobie sprawê, ¿e ciê¿ko siê bêdzie dostaæ do ¶rodka, w razie
+jakby Duergarom nie spodoba³a siê twoja facjata. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27172
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27172
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65512
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65512
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 65501
+DescRand ~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

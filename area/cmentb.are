@@ -1,0 +1,3309 @@
+#AREADATA
+Name +# Cmentarz~
+Builders None~
+VNUMs 2000 2060
+Credits Razor~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 2000
+Name cz³owiek g³odny wampir boss~
+Odmiana glodnego wampira~glodnemu wampirowi~glodnego wampira~glodnym wampirem~glodnym wampirze~
+Short g³odny wampir~
+Long Widzisz bardzo bladego czlowieka, w obszarpanej odziezy.~
+Descr Niech dobrzy bogowie maja Cie w swojej opiece. Stoisz oko w oko z
+przedstawicielem rasy nieumarlych, znanych bardziej jako wampiry. Nie wierz
+we wszystko co glosza o nich podania i pisza o nich w ksiegach. Mozesz
+popelnic blad, za który przyjdzie Ci zaplacic najwieksza cene. 
+ass
+~
+Race wampir~
+ActExt 0|ABEFMORT/2|C
+Affected 301990440 16384 0 0
+AffectedExt 0|DFJZc/1|O
+Align -990
+Group 0
+Lang R
+Speaks 16
+Level 22
+Hitroll 3
+HP 5d10+440
+Damage 2d6+2
+Dammagic 2
+Weaponbonus 2
+Damflags 4
+Attack uderzenie
+XAC -1 -1 -1 -1
+Stats 168 132 132 132 144 78 78
+Off IX
+OffExt 0|IX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 420
+Form ACHIMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments Scinam wampirom dammagic z +3 do +2, bo pewni czarni rycerze za ich pomoca t³uk± moby w stylu smoków czy innych cholerstw. Za przegiete. - {RDrake{x ({CMon Jul  4 15:01:34 2005{x)
+~
+MobprogNew onload 2000 ABCDEFGHI 100~
+MobprogNew hit 2001 H 33~
+MobprogNew death 2006 ABCDEFGHI 100~
+Spells 92 91 229 380
+Spells 372 304 137 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 4 35
+Resist 5 -10
+Resist 6 -10
+Resist 8 100
+Resist 10 100
+Resist 11 1
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Resist 17 50
+Mobend
+#Vnum 2001
+Name kammienny rycerz posag~
+Odmiana kamiennego rycerza~kamiennemu rycerzowi~kamiennego rycerza~kamiennym rycerzem~kamiennym rycerzu~
+Short kamienny rycerz~
+Long Kamienny pos±g rycerza stoi tutaj.~
+Descr Pos±g przedstawia jakiego¶ pradawnego rycerza, klasycznego w swej
+wyprostowanej posturze, napiêtym torsie, okutym w ciê¿k± zbrojê p³ytow±.
+Jest niesamowicie dok³adnie wyrze¼biony, w najdrobniejszych detalach.
+Zapiera ci dech w piersiach, gdy widzisz, jak idealnie artysta odwzrorowa³
+nawet zmarszczki na czole pos±gu. Musia³ to byæ naprawdê wielki rycerz,
+je¿eli zas³u¿y³ sobie na takie upamiêtnienie w postaci prawie idealnej
+rze¼by. Mo¿liwe, ¿e to on spoczywa w niezbyt du¿ym mauzoleum za plecami
+pos±gu. 
+~
+Race golem~
+ActExt 0|ABd
+Affected 33554432 32 0 0
+AffectedExt 0|Z/1|F
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 18
+Hitroll 4
+HP 4d15+400
+Damage 5d4+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack mwalniecie
+XAC 0 0 0 0
+Stats 150 90 90 108 156 78 78
+Off OX
+OffExt 0|OX/1|D
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+MobprogNew death 2007 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 1 85
+Resist 2 80
+Resist 3 50
+Resist 4 25
+Resist 5 100
+Resist 7 100
+Resist 8 75
+Resist 9 50
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 2002
+Name duch dziecko~
+Odmiana ducha dziecka~duchowi dziecka~ducha dziecka~duchem dziecka~duchu dziecka~
+Short duch dziecka~
+Long Duch dziecka bawi siê z innymi duchami.~
+Descr ~
+Race duch~
+ActExt 0|AO
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 0
+HP 2d5+40
+Damage 1d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 10 10 10 10
+Stats 102 54 54 120 102 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 8
+Form IKL
+Parts ABCGHI
+Size small
+Material unknown
+MobprogNew onload duch_gem ABCDEFGHI 40~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 12 100
+Mobend
+#Vnum 2003
+Name duch kobieta~
+Odmiana ducha kobiety~duchowi kobiety ~ducha kobiety~duchem kobiety~duchu kobiety~
+Short duch kobiety~
+Long Duch zmar³ej kobiety spaceruje miêdzy nagrobkami.~
+Descr ~
+Race duch~
+ActExt 0|AO
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 3d10+160
+Damage 2d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 10 10 10 10
+Stats 108 72 72 90 108 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+MobprogNew onload duch_gem ABCDEFGHI 100~
+Spells 31 11 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 12 100
+Mobend
+#Vnum 2004
+Name duch mezczyzna~
+Odmiana ducha mê¿czyzny~duchowi mê¿czyzny~ducha mê¿czyzny~duchem mê¿czyzny~duchu mê¿czyzny~
+Short duch mê¿czyzny~
+Long Duch dawno zmar³ego mê¿czyzny unosi siê tutaj.~
+Descr ~
+Race duch~
+ActExt 0|AOT
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 12
+Hitroll 0
+HP 3d10+230
+Damage 2d7+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 6 6 6 8
+Stats 120 78 78 108 108 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 24
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+MobprogNew onload duch_gem ABCDEFGHI 80~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 12 100
+Resist 16 100
+Mobend
+#Vnum 2005
+Name szkielet olbrzymi~
+Odmiana olbrzymiego szkieletu~olbrzymiemu szkieletowi~olbrzymi szkielet~olbrzymim szkieletem~olbrzymim szkielecie~
+Short olbrzymi szkielet~
+Long Olbrzymi szkielet stoi tutaj.~
+Descr Wyglada jak zwykly szkielet, tyle ze jest prawie dwa razy wiekszy. W
+rzeczywistosci jest to jednak ludzki szkielet magicznie powiekszony. We
+wnetrzu szkieletu plonie maly magiczny plomien, otaczajace plomien kosci nie
+sa jednak w zaden sposob uszkodzone przez ogien. 
+~
+Race szkielet~
+ActExt 0|AFOT
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 19
+Hitroll 2
+HP 5d10+450
+Damage 2d5+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 1 1 1 1
+Stats 150 96 120 108 120 78 78
+Off EILQX
+OffExt 0|EILQX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60
+Form ACGIJMV
+Parts ABCDEFGHIJKQRUV
+Size large
+Material unknown
+MobprogNew onload 2003 ABCDEFGHI 100~
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 10
+Resist 5 100
+Resist 8 50
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 2006
+Name ambient~
+Odmiana ambienta~ambientowi~ambienta~ambientem~ambiencie~
+Short ambient~
+Long Ambient stoi tutaj zapodajac teksty~
+Descr ~
+Race cz³owiek~
+ActExt 0|ABc
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d1+500
+Damage 1d1+30
+Dammagic 0
+Weaponbonus 30
+Damflags 0
+Attack none
+XAC -20 -20 -20 -20
+Stats 168 168 168 168 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 2005 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2007
+Name wysoki upiorny mroczny rycerz mroczny_killer boss~
+Odmiana rycerza~rycerzowi~rycerza~rycerzem~rycerzu~
+Short upiorny rycerz~
+Long Wysoki rycerz, od stóp do g³ów zakuty w czarn± zbrojê, stoi tutaj.~
+Descr Czujesz jak na widok tej postaci uginaj± siê pod Tob± kolana, a ³ydki
+zaczynaj± nerwowo drzeæ. Oto bowiem masz przed sob± na wpó³ materialn±
+istotê, ubran± w staro¿ytn± czarn± zbrojê. Raz po raz zdaje Ci siê, ¿e
+wewn±trz he³mu dostrzegasz co¶ na kszta³t ¿ywego cia³a i zarysu twarzy,
+kiedy jednak próbujesz przypatrzeæ siê temu zjawisku dok³adniej znika ono,
+zast±pione dziwnymi ognikami, b³±dz±cymi w ¶rodku pancerza. Zupe³nie jakby
+jaki¶ z³o¶liwy duch opanowa³ tê zbrojê... 
+~
+Race upiorny rycerz~
+ActExt 0|ACEFORTd/2|C
+Affected 301989928 4096 0 32768
+AffectedExt 0|DFZc/1|M/3|P
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 35
+Hitroll 5
+HP 30d20+2000
+Damage 3d5+0
+Dammagic 2
+Weaponbonus 5
+Damflags 18
+Attack chlod
+XAC -5 -5 -5 0
+Stats 156 156 150 132 150 132 108
+Off OY
+OffExt 0|OY/1|ADI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 14000
+Form EFIMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+Comments wiecej hp, exp multiplier, wyzszy lew - {RKainti{x ({CFri Dec  9 22:19:55 2005{x)
+~
+MobprogNew death upiorny_drop ABCDEFGHI 100~
+MobprogNew onload 2060 ABCDEFGHI 100~
+Spells 216 92 185 228
+Spells 183 58 178 13
+Spells 138 48 310 307
+Spells 392 0 0 0
+Skin 100
+ExpMultiplier 500
+Resist 1 -8
+Resist 2 8
+Resist 3 3
+Resist 4 75
+Resist 7 -10
+Resist 8 80
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 2022
+Name nekromantka zasuszona kobieta~
+Odmiana nekromantki~nekromantce~nekromantkê~nekromantk±~nekromantce~
+Short nekromantka~
+Long Zasuszona, przypominaj±ca mumiê kobieta odziana w czerñ.~
+Descr Przedstawicielka przeklêtej i znienawidzonej Gildii Nekromantów, jak
+wszyscy jej podobni uwielbia krêciæ siê po cmentarzach i przebywaæ miêdzy
+umarlakami. Ta babcinka mo¿e swoim wygl±dem wzbudzaæ ¶miech, ale pierwsza
+zasada, której nale¿y siê nauczyæ obcuj±c z nekromantami brzmi: nigdy ich
+nie lekcewa¿! 
+~
+Race cz³owiek~
+ActExt 0|ACGRST
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 6d10+220
+Damage 2d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 4
+Attack uderzenie
+XAC 2 2 2 2
+Stats 108 144 120 120 108 78 78
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments wywalilem ze spells mirrory i blura (szkola przeciwna), dodalem vampirica i ethreala - {RKainti{x ({CSat Jul 31 23:32:56 2004{x)
+~
+MobprogNew onload 2022 ABCDEFGHI 100~
+Spells 201 194 69 16
+Spells 202 199 228 0
+Skin 100
+ExpMultiplier 100
+Resist 5 50
+Resist 7 50
+Resist 10 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 2023
+Name szkielet czlowiek~
+Odmiana szkieletu~szkieletowi~szkielet~szkieletem~szkielecie~
+Short szkielet-mezczyzna~
+Long Szkielet-mezczyzna stoi tutaj.~
+Descr ~
+Race szkielet~
+ActExt 0|AOT
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 5d10+170
+Damage 2d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 1 1 1 1
+Stats 108 132 132 108 108 78 78
+Off IL
+OffExt 0|IL
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form ACIJMV
+Parts ABCDEFGHIJKQRU
+Size medium
+Material unknown
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2024
+Name terminator rycerz mê¿czyzna blady~
+Odmiana terminatora~terminatorowi~terminatora~terminatorem~terminatorze~
+Short terminator upiornego rycerza~
+Long Ca³y odziany na czarno mê¿czyzna o do¶æ bladym obliczu wykonuje jakie¶ rytua³y przed o³tarzem.~
+Descr ~
+Race pó³elf~
+ActExt 0|ABKd
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 3
+HP 3d3+500
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 144 72 72 108 150 108 84
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2025
+Name olbrzymi szkielet czarnoksiê¿nik~
+Odmiana olbrzymiego szkieleta czarnoksie¿nika~olbrzymiemu szkieletowi czarnoksiê¿nikowi~olbrzymiego szkieleta czarnoksiê¿nika~olbrzymim szkieletem czarnoksiê¿nikiem~olbrzymim szkielecie czarnoksiê¿niku~
+Short olbrzymi szkielet czarnoksiê¿nik~
+Long Olbrzymi szkielet czarnoksiê¿nik klekocze swoimi ko¶æmi.~
+Descr Wyglada jak zwykly szkielet, tyle ze jest prawie dwa razy wiekszy. W
+rzeczywistosci jest to jednak ludzki szkielet magicznie powiekszony. We
+wnetrzu szkieletu plonie maly magiczny plomien, otaczajace plomien kosci nie
+sa jednak w zaden sposob uszkodzone przez ogien. 
+~
+Race szkielet~
+ActExt 0|AFOR
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 21
+Hitroll 1
+HP 5d10+450
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 1 1 1 1
+Stats 120 138 120 168 108 84 96
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60
+Form ACGIJMV
+Parts ABCDEFGHIJKQRUV
+Size large
+Material unknown
+Spells 172 304 391 149
+Spells 137 367 405 194
+Spells 48 163 0 0
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2026
+Name plugawy morhg~
+Odmiana plugawego morhga~plugawemu morhgowi~plugawego morhga~plugawym morhgem~plugawym morhgu~
+Short plugawy morhg~
+Long Spory morhg pod±¿a tutaj w poszukiwaniu ofiar.~
+Descr Nieumar³y, na który na pocz±tku wydaje siê zwyk³ym ghulem, ghulem tak
+naprawde nie jest. To jest morhg, o wiele bardziej niebezpieczna bestia,
+gdy¿ wskrzeszona z prawdziwego mordercy, bez odrobiny sumienia. Ta plugawa
+istota tak¿e po ¶mierci uwielbia mordowaæ, dla samej przyjemno¶ci
+mordowania. 
+~
+Race ghul~
+ActExt 0|AFOX
+Affected 33554976 0 0 0
+AffectedExt 0|FJZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 12
+Hitroll 2
+HP 12d10+120
+Damage 2d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 4 4 4 3
+Stats 120 96 60 120 78 54 90
+Off RX
+OffExt 0|RX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 40
+Form FIM
+Parts ABCFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2000
+Name zelazny klucz~
+Odmiana zelaznego klucza~zelaznemu kluczowi~zelazny klucz~zelaznym kluczem~zelaznym kluczu~
+Short zelazny klucz~
+Descr Nieduzy klucz lezy tutaj.~
+Material ¿elazo~
+Type key
+ExtraExt 0|A
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 2001
+Name sarkofag kamienny~
+Odmiana kamiennego sarkofagu~kamiennemu sarkofagowi~kamienny sarkofag~kamiennym sarkofagiem~kamiennym sarkofagu~
+Short kamienny sarkofag~
+Descr Wielki, kamienny sarkofag stoi tutaj.~
+Material kamieñ~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 100 5 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4000
+Cost 0
+Cond 100
+Objprog objopen 2000 100~
+Objprog objclosek 2001 100~
+Comments ~
+Objend
+#Vnum 2002
+Name pokrywa sarkofagu~
+Odmiana pokrywy sarkofagu~pokrywie sarkofagu~pokrywe sarkofagu~pokrywa sarkofagu~pokrywie sarkofagu~
+Short pokrywa sarkofagu~
+Descr Ciezka, kamienna pokrywa sarkofagu opiera sie tutaj o sarkofag~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4000
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 2005
+Name masywny marmurowy oltarz~
+Odmiana oltarza~oltarzowi~oltarz~oltarzem~oltarzu~
+Short masywny marmurowy oltarz~
+Descr Masywny marmurowy oltarz stoi posrodku pomieszczenia.~
+Material marmur~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Oltarz pokryty jest jakas dziwna smolista substancja, gdzieniegdzie
+dostrzegasz prawie czarne plamy zaschnietej krwi. 
+~
+Comments ~
+Objend
+#Vnum 2015
+Name modlitewnik niepozorny ksi±zeczka zakrwawiony~
+Odmiana niepozornego modlitewnika~niepozornemu modlitewnikowi~niepozorny modlitewnik~niepozornym modlitewnikiem~niepozornym modlitewniku~
+Short niepozorny modlitewnik~
+Descr Ta lekko zakrwawiona ksi±¿eczka nale¿a³a kiedy¶ do jakiego¶ kleryka.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1 12 149 452 31 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 600
+Cond 100
+Itemdesc Ten niepozorny modlitewnik, nosz±cy ¶lady krwi na swoich stronach z
+jakiej¶ dziwnej przyczyny by³ w posiadaniu Morgha. Czy bestia podnios³a go
+po zabiciu kleryka, lub mo¿e za ¿ycia by³a klerykiem jakiego¶ mrocznego
+bóstwa? 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2016
+Name ksiêga czerwona ochrony przed ogniem~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga ochrony przed ogniem~
+Descr Oprawiona w czerwon± oprawkê ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1 266 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 1500
+Cond 75
+Itemdesc Jest to gruba i mocno ju¿ podniszczona ksiêga oprawiona w skórê. 
+~
+Comments ~
+Objend
+#Vnum 2017
+Name modlitewnik czerwony ochrony przed ogniem niewielki~
+Odmiana modlitewnika~modlitewnikowi~modlitewnik~modlitewnikiem~modlitewniku~
+Short modlitewnik ochrony przed ogniem~
+Descr Oprawiony w czerwon± oprawkê niewielki modlitewnik le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1 266 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 1500
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 2018
+Name modlitewnik czerwony ochrony przed ogniem niewielki~
+Odmiana modlitewnika~modlitewnikowi~modlitewnik~modlitewnikiem~modlitewniku~
+Short modlitewnik ochrony przed ogniem~
+Descr Oprawiony w czerwon± oprawkê niewielki modlitewnik le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 1 266 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 1500
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 2022
+Name ksiega czarów zuzyta ksiazka~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga czarów~
+Descr Ksi±¿ka w czarnej ok³adce wygl±da na dosyæ cenn±.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1 292 374 459 202 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 600
+Cond 75
+Comments ~
+Objend
+#Vnum 2058
+Name ksiêga szara niepozorna~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short {wksiêga oprawiona w skórê{x~
+Descr {wSzara i niepozorna ksiêga oprawiona w skórê wala siê tutaj.{x~
+Material papier~
+Type spellbook
+ExtraExt 0|DGT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 7 312 311 185 215 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 35520
+Cond 75
+Itemdesc Jest to gruba i mocno ju¿ podniszczona ksiêga oprawiona w skórê. 
+~
+Comments ~
+Objend
+#Vnum 2059
+Name tron wielki ko¶ciany~
+Odmiana {wko¶cianego tronu{x~{wko¶cianemu tronowi{x~{wko¶ciany tron{x~{wko¶cianym tronem{x~{wko¶cianym tronie{x~
+Short {wko¶ciany tron{x~
+Descr {wWielki tron, ca³y zrobiony z ludzkich ko¶ci stoi tutaj.{x~
+Material ko¶æ~
+Type furniture
+ExtraExt 0|CG
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 0 16 110 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 75
+Itemdesc {wPodstawê tronu tworz± cztery du¿e czaszki, natomiast inne, d³ugie ko¶ci
+pos³u¿y³y do wykonania oparcia i samego siedziska. Wygl±da to dosyæ
+upiornie... {x 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2000
+Name Zarosnieta sciezka~
+Descr Z trudem przedzierasz sie przez geste zarosla i kolczaste krzaki. Kiedys
+byla to calkiem szeroka, brukowana droga. Teraz tylko waski slad swiadczy o
+tym, ze jeszcze ktos tedy chodzi. Po obu stronach sciezki wznosi sie gesty,
+sosnowy las. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 629
+ExitExtEnd
+Exit 2
+~
+~
+0 0 629
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2001
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2001
+Name Zarosnieta sciezka~
+Descr Z trudem przedzierasz sie przez geste zarosla i kolczaste krzaki. Kiedys
+byla to calkiem szeroka, brukowana droga. Teraz tylko waski, wydeptany slad
+swiadczy o tym, ze jeszcze ktos tedy chodzi. Po obu stronach sciezki wznosi
+sie gesty, sosnowy las. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2002
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2002
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2000
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2000
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2002
+Name Zardzewiala brama~
+Descr Spogladasz na stara, pordzewiala brame. Miejscami rdza przezarla na wylot
+gruba blache. Lewe wrota opieraja sie na ziemi, brakuje dolnego zawiasu.
+Prawe wrota wygladaja troche lepiej, przynajmniej zawiasy nadal trzymaja. Na
+wschod i zachod od bramy ciagnie sie wysokie ogrodzenie prawie calkowicie
+obrosniete bluszczem. 
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2003
+ExitExtEnd
+Exit 0
+~
+brama~
+3 0 2003
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2021
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2021
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2001
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2001
+Roomprog open 2000 0~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2003
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2004
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2004
+ExitExt 2
+ExitExtDescription ~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2002
+ExitExtEnd
+Exit 2
+~
+brama~
+3 0 2002
+Roomprog open 2000 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2004
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2005
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2005
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2003
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2005
+Name Cmentarny plac~
+Descr Znajdujesz sie na nieduzym placyku, centralnym miejscu tego cmentarza. Na
+srodku placyku stoi wysoki posag przedstawiajacy barczystego mezczyzne.
+Posag ma odlamana prawa reke, glowa i barki pokryte sa gruba warstwa ptasich
+odchodow. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2014
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2014
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2022
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2022
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2004
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2009
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2009
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2006
+Name Wzdluz ogrodzenia~
+Descr Z trudem przedzierasz sie przez siegajace ci pasa zarosla. Probujesz cos
+dojrzec przez ogrodzenie, jednak jest ono tak zarosniete bluszczem, ze
+praktycznie nic nie widac. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2007
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2007
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2021
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2021
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2007
+Name Wzdluz ogrodzenia~
+Descr Z trudem brniesz przez siegajace ci pasa zarosla. Jezyny, rosnace tuz
+przy ogrodzeniu, zahaczaja sie o twoje ubranie, prawie je rozdzierajac. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2008
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2006
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2006
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2008
+Name Dziura w ogrodzeniu~
+Descr Potezne drzewo przewrocilo sie tutaj na ogrodzenie, prawie calkowicie je
+niszczac. Przez dziure w ogrodzeniu dostrzegasz kilka kamieni nagrobnych i
+jakas wieksza budowle, prawdopodobnie jakis grobowiec. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2027
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2027
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2007
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2007
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2009
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2005
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2005
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2010
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2010
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2010
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2009
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2009
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2011
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2011
+Name Przed grobowcem~
+Descr Stoisz przed dziwnie wygladajacym grobowcem. Zbudowano go z blokow
+czarnego granitu, niezwykle trwalego materialu. Mimo uplywu czasu, grobowiec
+wyglada tak jakby postawiono go miesiac temu. Mozliwe, ze uzyto magii zeby
+wzmocnic konstrukcje. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2010
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2010
+ExitExt 3
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 263
+ExitExtKey 2000
+ExitExtToVnum 2012
+ExitExtEnd
+Exit 3
+~
+wrota~
+263 2000 2012
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2012
+Name Grobowiec~
+Descr Grobowiec wyglada niezwykle skromnie, zadnych ozdob. Na zachodniej
+scianie zamocowano okragly kamien wielkosci piesci, swiecacy zielonkawym
+swiatlem. Na dol prowadza waskie schody, prawdopodobnie tam znajduje sie
+sarkofag. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 263
+ExitExtKey 2000
+ExitExtToVnum 2011
+ExitExtEnd
+Exit 1
+~
+wrota~
+263 2000 2011
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2013
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2013
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2013
+Name Okragla pieczara~
+Descr Znajdujesz sie w nieduzej, okraglej pieczarze. Sciany pieczary pokryte sa
+dziwna, czarna, szklista substancja. Waskie, strome schody wbudowane w
+poludniowa czesc pieczary prowadza na gore. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2012
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2012
+Roomprog reset 2001 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2014
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2015
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2015
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2005
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2005
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2015
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2016
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2016
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2019
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2019
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2014
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2014
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2016
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2017
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2017
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2015
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2015
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2017
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2016
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2016
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2018
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2018
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2018
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2017
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2019
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2020
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2020
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2015
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2015
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2020
+Name Cmentarna aleja~
+Descr Alejka pokryta jest gruba warstwa gnijacych lisci. Po obu stronach alei
+leza male kamienie nagrobne. Prawdopodobnie w tej czesci cmentarza
+spoczywaja przedwczesnie zmarle dzieci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2019
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2021
+Name Wzdluz ogrodzenia~
+Descr Z trudem przedzierasz sie przez siegajace ci pasa zarosla. Probujesz cos
+dojrzec przez ogrodzenie, jednak jest ono tak zarosniete bluszczem, ze
+praktycznie nic nie widac. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2006
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2006
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2002
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2002
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2022
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2023
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2023
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2005
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2005
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2023
+Name Nieduzy plac~
+Descr Stoisz na niewielkim placu z centralnie umieszczona rozpadajaca sie
+fontanna. Wokol placu ros³y kiedys nieduze, dekoracyjne drzewka. Teraz
+zostaly po nich tylko martwe, sczerniale badyle. Fontanna prawie calkowicie
+sie rozpadla, plytki basen pelen jest gnijacych lisci, dostrzegasz wsrod
+lisci bielejace kosci jakiegos nieduzego zwierzecia. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2028
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2028
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2031
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2031
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2024
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2024
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2022
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2022
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2024
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2023
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2023
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2025
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2025
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2025
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2024
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2024
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2026
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2026
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2026
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2027
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2027
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2025
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2025
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2027
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. Na po³udniu zauwazasz spore drzewo przewrocone na
+ogrodzenie. 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2026
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2026
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2028
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2029
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2029
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2023
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2023
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2029
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2030
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2030
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2028
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2028
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2030
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2029
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2029
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2031
+Name Cmentarna aleja~
+Descr Aleja wylozona jest grubym dywanem gnijacych lisci. Po obu stronach alei
+przez warstwe gnijacych lisci przebijaja sie kamienie nagrobne z ledwo
+widocznymi inskrypcjami. Na zachodzie dostrzegasz jakis zrujnowana budowle. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2032
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2032
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2023
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2023
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2032
+Name Zrujnowana swiatynia~
+Descr Swiatynia prezentuje sie calkiem zalosnie. Schody prowadzace do swiatyni
+sa wyszczerbione, posag po lewej stronie schodow jest przewrocony, z posagu
+po prawej stronie zostaly tylko nogi. Pogiete wrota swiatyni leza obok
+wejscia, sadzac po zniszczeniach chyba ktos je wylamal. Zastanawiasz sie jak
+to sie stalo, wszystko wskazuje na to, ze ktos sie chcial ze swiatyni
+wydostac raczej niz sie do niej wlamac. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2033
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2033
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2031
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2031
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2033
+Name W swiatyni~
+Descr Gdy tylko wchodzisz do swiatyni krzywisz sie od otaczajacego cie smrodu.
+Na podlodze walaja sie szczatki jakis zwierzat, jakas kosc z trzaskiem peka
+pod twoja noga. Sciany swiatyni pokryte sa jakas dziwna smolista substancja,
+gdzieniegdzie dostrzegasz ciemnie plamy zaschnietej krwi. Na pó³nocnej
+scianie dostrzegasz uchylone, zelazne drzwi. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2034
+ExitExtEnd
+Exit 0
+~
+drzwi~
+0 0 2034
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2032
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2034
+Name Zejscie do podziemi~
+Descr Pomieszczenie to najprawdopodobniej s³u¿y³o za magazyn. Jednak teraz,
+raczej nie s³u¿y ju¿ nikomu. ¦ciany i sufit pomazane s± jakimi¶ farbami, czy
+te¿ krwi± w ró¿ne znaki i obrazki, przedstawiaj±ce czaszki, szkielety,
+czarnoksiê¿ników, rycerzy i ró¿nych, tym podobnych. Mniej wiêcej na ¶rodku
+pomieszczenia dostrzegasz star±, pordzewia³±, metalow± klapê. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2033
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2033
+ExitExt 5
+ExitExtDescription ~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2035
+ExitExtEnd
+Exit 5
+~
+klapa~
+3 0 2035
+Roomprog open 2002 5~
+Roomprog close 2003 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2035
+Name Korytarz~
+Descr Korytarz wykuto w litej skale, na ziemi walaja sie male okruchy skalne i
+drobne kamyki. Sciany i sufit pokrywaja brudnoszare pasma pajeczyn. Co kilka
+metrow na scianach zamocowano zelazne stojaki na pochodnie. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2036
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2036
+ExitExt 4
+ExitExtDescription ~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2034
+ExitExtEnd
+Exit 4
+~
+klapa~
+3 0 2034
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2036
+Name Korytarz~
+Descr Korytarz wykuto w litej skale, na ziemi walaja sie male okruchy skalne i
+drobne kamyki. Sciany i sufit pokrywaja brudnoszare pasma pajeczyn. Co kilka
+metrow na scianach zamocowano zelazne stojaki na pochodnie. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2037
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2037
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2035
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2035
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2037
+Name Owalna jaskinia~
+Descr Wilgotno tu i ciemno, sciany w niektórych miejscach sa lekko pokryte
+woda. Na gorze jest cos w rodzaju wneki i dostrzegasz tam jakis malunek
+sporzadzony niewprawna reka. Przygladasz sie uwazniej i ... Zauwazasz, ze
+tajemniczy malunek ponad wszelka watpliwosc zostal wykonany krwia. Pare
+kropli scieklo nizej tworzac male zacieki. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2038
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2038
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2036
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2036
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2042
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2042
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2038
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2039
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2039
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2037
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2037
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2039
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2040
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2040
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2038
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2038
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2040
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2039
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2039
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2041
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2041
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2041
+Name Slepy koniec~
+Descr Koniec korytarza, troche to bardziej sucho i pewnie dlatego sciany i
+sufita sa opajeczone do tego stopnia, ze wprawny tkacz zrobilby tu z sieci
+pewnie i pierzyne. Na scianie wydrapano narzedziem o ostrym koncu jakis
+rysunek. Nie wiadomo co on przedstawia, chyba staral sie przedstawiac konia,
+ale wyszedl z tego jakis smok, tyle ze nie skrzydlaty, Jak na takie ponure
+miejsce ktos staral sie chyba w to wlozyc sporo serca, ale talentu nie
+stalo. Przy ¶cianie znajduje siê te¿ niewielki o³tarz po¶wiêcony jakiemu¶
+mrocznemu bóstwu. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2040
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2040
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2042
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2037
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2037
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2043
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2043
+Name Skrzyzowanie~
+Descr W scianach umocowano tu chyba z osiem pochodni, co powoduje, ze jest tu w
+odroznieniu od co poniektórych innych fragmentow korytarzy i jaskin dosc
+jasno, wlasciwie nawet bardzo jasno. Pochodnie obficie okopcily sciany kolo
+siebie i sufit, wyglada prawie tak, jakby ktos go malowal. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2044
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2044
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2042
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2042
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2047
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2047
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2044
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2045
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2045
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2043
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2045
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2046
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2046
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2044
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2044
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2046
+Name Skrzyzowanie~
+Descr Korytarz krzyzuja sie w tym miejscu. Miejsca tu sporo, gdyby nie dziwna,
+przygniatajaca atmosfera jaka wydaje sie tu panowac i cos dziwnego i
+niepokojacego w powietrzu moznaby wlasciwie nawet rozpalic tu ognisko i
+rozbic oboz. Korytarze maja jakies swoje ujscie gdzies, gdzie powietrze sie
+wymienia, bo mimo plonacych w tym miejscu licznych pochodni nie panuje tu
+zaduch nawet bodaj lekki, starczylo by wiec i powietrza na niemale wcale
+palenisko. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2053
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2053
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2051
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2051
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2045
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2045
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2047
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2043
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2043
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2048
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2048
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2047
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2047
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2049
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2049
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2049
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2048
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2050
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2051
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2052
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2052
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2046
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2046
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2052
+Name Pieczara~
+Descr Sklepienie jest tu polakragle, schodzi lagodnie lukowo kui dolowi tworzac
+z pieczary przypominajacego w ksztalcie kule. Na scianach tla sie
+czerwonawym swiatlem przetwierdzone na pordzewialych lancuchach kaganki. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2051
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2051
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2053
+Name Skrzyzowanie~
+Descr Na podlodze troche jakichs patykow nie wiadomo skad i porozrzucanych
+kosci, Kosci sa zdefragmentowane, pokruszone i polamana w wielu miejscach,
+ale bez specjalnie doglebnej analizy widac, ze z cala pewnosci sa to kosci
+stworzen mo¿e troche czasami wiekszych, mo¿e czasami mniejszych, ale
+generalnie bardzo ksztaltem podobnych do ciebie. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2054
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2054
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2046
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2046
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2055
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2055
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2054
+Name Jaskinia~
+Descr Spora jaskini, oswielona podwieszonymi pod sufitem paroma sporej
+wielkosci kagankamki, Od sufitu tez, nie wiadomo w jakim celu, spuszczono na
+dol liny. Moze ktos kiedys przed czyms probowal tu uciec i myslal, ze jest
+tam wyjscie? Sciany to solidna, dawno uformowana skala, w niektórych
+miejscach zniszczona troche jakimis zadrapaniami i powstalymi w ich wyniku
+plutkimi peknieciami. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2053
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2053
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2055
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2053
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2053
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2056
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2056
+Name Skrzyzowanie~
+Descr Skrzyzowanie w zasadzie jak kazde tutaj, wydaje sie troche wezsze i jakby
+mniejsze od pozostalych, mo¿e to jednak tylko zludzenie. Ze scian wystaja
+jakies lancuchy, na których koncu wisza wielkie kajdany na na nogi i na
+rece. Troche dziwne miejsce na cele, ale ... Diabli wiedza, mo¿e do czego
+innego te kajdany sluzyly. Posrodku widac stara zaschnieta plame krwi i
+jakies kosci. Sciany te chyba byly kiedys niemymi swiadkami jakiegos
+rytualu. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2057
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2057
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2055
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2055
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2058
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2058
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2057
+Name Korytarz~
+Descr Chlodny i ciemny korytarz, caly w pajeczynach, co pare krokow mozna wlezc
+w uzywane jeszcze przez pajaki sieci. Echo niesie sie tutaj na wiele, wiele
+metrow i raczej trudno ukryc swoja obecnosc jak bardzo cicho by sie nie
+poruszalo. Sciany w wiekszosci chropowate. Chyba uksztaltowane przez nature,
+gdzieniegdzie widac poobsypywane kamienie i piach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2059
+ExitExtEnd
+Exit 0
+~
+~
+3 0 2059
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2056
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2058
+Name Jaskinia~
+Descr Duzo tutaj kosci. W innych korytarzach rowniez mozna je bylo spotkac
+porozrzucane w nieladzie, ale nie w takiej obfitosci. Wyglada to wszystko
+prawie tak, jakby sama jaskinia sluzyla do ich przechowywania. Wszystkie
+sciany sa poznaczone jakimis obtluczeniami i zadrapaniami, w niektórych
+miejscach widac krew. Smierdzi tutaj jak nigdzie indziej, a niektore slady
+krwi wydaja sie byc calkiem swieze. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2056
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2059
+Name Zrujnowana sala~
+Descr Ta sala musia³a kiedy¶ wygl±daæ doprawdy wspaniale - widzisz fragmenty
+pot³uczonych rze¼b i kupy gruzu w k±tach, le¿y tutaj tak¿e ca³kiem poka¼ny
+zbiór zardzewia³ej broni, gotowej rozpa¶æ siê pod najl¿ejszym dotkniêciem.
+Nad wej¶ciem dostrzegasz mocno zakurzony, ale mimo to wci±¿ ca³kiem wyra¼ny
+obraz - przedstawia jakiego¶ wysokiego cz³owieka o d³ugich jasnych w³osach i
+w czarnej zbroi, prowadz±cego armiê do boju. Twoj± uwagê przykuwa jednak co
+innego - wielki tron z jakiej¶ bia³ej substancji, stoj±cy na ¶rodku sali. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2057
+ExitExtEnd
+Exit 2
+~
+~
+3 0 2057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2060
+Name Pokoj ambienta~
+Descr Ano, pokoj jak pokoj.
+~
+FlagsExt 0|CH
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 2004 5 2004 1
+M 100 2003 5 2005 1
+O 100 2361 0 2005
+M 100 2003 5 2009 1
+M 100 2001 1 2011 1
+O 100 2001 0 2013
+M 100 2002 5 2014 1
+M 100 2002 5 2015 1
+M 100 2002 5 2016 1
+M 100 2002 5 2018 1
+M 100 2002 5 2019 1
+M 100 2022 1 2022 1
+M 100 2004 5 2023 1
+M 100 2004 5 2025 1
+M 100 2003 5 2026 1
+M 100 2004 5 2029 1
+M 100 2026 1 2030 2
+G 35 2015 0
+M 100 2003 5 2031 1
+O 100 2005 0 2033
+M 100 2005 12 2035 1
+M 100 2005 12 2037 1
+M 100 2005 12 2040 1
+M 100 2024 1 2041 1
+E 100 10932 0 16
+E 100 3093 0 10
+E 100 6618 0 5
+M 100 2005 12 2043 1
+M 100 2005 12 2046 1
+M 100 2005 12 2048 1
+M 100 2005 12 2050 1
+M 100 2005 12 2052 1
+M 100 2005 12 2054 1
+M 100 2005 12 2057 1
+M 100 2005 12 2058 1
+O 100 2059 0 2059
+M 70 2007 1 2059 1
+M 100 2006 1 2060 1
+S
+
+
+
+#MOBPROGSNEW
+#2000
+~
+say W koncu ktos mnie uwolnil!!!
+say W nagrode za to smiertelnicy, staniecie sie moim sniadaniem
+diab self
+~
+#2001
+~
+mob cast 'energy drain' $n
+~
+#2002
+~
+emote zamiera w bezruchu, nagle rozsypuje sie. Zostaje po nim tylko spora kupa piachu.
+mob echo Zelazny klucz upada na ziemie.
+mob oload 2000 room
+~
+#2003
+~
+if rand 75
+  if rand 50
+    mob equip self 3300
+  else
+    mob equip self 3163
+  endif
+else
+  if rand 75
+    mob equip self 3097
+  endif
+endif
+
+if rand 75
+  mob addgroup 2025
+else
+  if rand 66
+    mob addgroup 2005
+  endif
+endif
+~
+#2004
+~
+mob oload 3369 room
+~
+#2005
+~
+if rand 50
+  if rand 50
+    mob zecho Nagle ciszê przerywa przera¼liwy skowyt!
+  else
+    mob zecho K±tem oka dostrzegasz jaki¶ ruch, odwracasz siê ale nikogo nie znajdujesz.
+  endif
+else
+  if rand 50
+    mob zecho Nagle czujesz jakby kto¶ ciê dotkn±³ lodowat± dloni±, odwracasz siê i dostrzegasz parê {Rczerwono{x ¶wiec±cych oczu obserwuj±cych ciê.
+  else
+    mob zecho Nagle ciszê przerywa przera¼liwy skowyt!
+  endif
+endif
+~
+#2006
+~
+emote wrzeszczy rozdzierajaca i przerazliwie, z obledem w martwych oczach, probujac{/Cie dosiegnac w ostatnim podrygu, ale chybia i nieruchomieje na ziemi...
+mob echo Widzisz jak lekka mgielka otacza na chwile cialo, które po chwili znika.
+if rand 75
+   mob oload 9120 room
+endif
+ 
+if rand 75
+    mob oload 3145 room
+endif
+ 
+if rand 75
+    mob oload 3032 room
+endif
+~
+#2007
+~
+emote zaczyna dziwnie drzec i wibrowac, po chwili peka i w okamgnieniu eksploduje {/ na tysiace kawalkow!
+mob oload 2000 room
+mob echo Zelazny klucz upada na ziemie.
+~
+#2008
+~
+~
+#2009
+~
+~
+#2022
+~
+mob addgroup 2023
+if rand 35
+mob oload 2022
+endif
+~
+#2060
+wywalam sit tron, bo wtedy sie nie obczarowywuje - Kainti
+~
+# helmy
+if rand 75
+  mob equip self 3368
+else
+  mob equip self 3045
+endif
+# kolczyk
+if rand 50
+  mob equip self 5615
+endif
+# naramy
+if rand 76
+  mob equip self 5611
+else
+  mob equip self 3093
+endif
+# zbroja
+if rand 70
+  mob equip self 3025
+else
+  mob equip self 3029
+endif
+# rekawice
+if rand 85
+  mob equip self 3080
+else
+  mob equip self 3077
+endif
+
+# naszyjnik
+if rand 75
+  mob oload neck 4
+  wear all
+endif
+if rand 70
+  mob equip self 5614
+endif
+# nagolennice
+if rand 75
+  mob equip self 5616
+else
+  mob equip self 3061
+endif
+# buty
+if rand 75
+  mob equip self 3003
+else
+  mob equip self 3016
+endif
+# plaszcz
+mob equip self 4426
+# cepy
+if canloadarte 29051
+  if rand 99
+    mob aload 29051 w
+  endif
+endif
+mob equip self 3297
+
+#ksiazka
+if rand 75
+  mob oload 2058
+endif
+
+# randomy by Wicia
+# broñ
+if rand 70
+  mob oload weapon 7
+else
+  if rand 30
+    mob oload weapon 6
+  else
+    if rand 10
+      mob oload weapon 5
+    endif
+  endif
+endif
+# kolczyk
+if rand 75
+  mob oload ear 7
+else
+  if rand 50
+    mob oload ear 6
+  else
+    if rand 10
+      mob oload ear 5
+    else
+      if rand 5
+        mob oload ear 4
+      endif
+    endif
+  endif
+endif
+~
+#duch_gem
+~
+mob oload gem 1
+~
+#0
+
+#OBJPROGSNEW
+#2000
+~
+if statstr $n < 20
+    mob echoat $n Probujesz przepchnac pokrywe sakrofagu, jednak chyba jestes za slaby na to.
+mob echoaround $n $n probuje przepchnac pokrywe sarkofagu, jednak jest na to chyba za slaby.
+mob close sarkofag
+break
+endif
+ 
+mob echoat $n Pchasz ze wszystkich sil, po chwili pokrywa powoli zaczyna sie odsuwac. 
+mob echoaround $n $n pcha ze wszystkich sil, pokrywa sarkofagu powoli zaczyna przesuwac sie.
+ 
+delay 1
+ 
+mob echo Nagle slyszysz dziwny dzwiek dobiegajacy z sarkofagu.
+mob echo Pokrywa sarkofagu zsuwa sie calkowicie z sarkofagu i spada na ziemie.
+mob mload 2000
+mob oload 2002
+~
+#2001
+~
+mob echoat $n Pchasz ze wszystkich sil, jednak nie udaje ci sie zamknac sarkofagu.
+mob echoaround $n $n pcha ze wszystkich sil, jednak pokrywa sarkofagu nawet nie drgnie.
+mob open $o
+~
+#cep_hit
+~
+if rand 98
+  mob mesg $n $t char Czujesz niesamowite ciep³o przep³ywaj±ce przez Ciebie, bij±ce od {Rognistego cepa!{x
+  mob mesg $n $t char {ROgnisty cep{x zaczyna p³on±æ ¿ywym ogniem i niczym potê¿na ognista kula opada na $tc!
+  mob mesg $n $t vict {ROgnisty cep{x zaczyna p³on±æ ¿ywym ogniem i niczym potê¿na ognista kula opada na Ciebie!
+  mob mesg $n $t room {ROgnisty cep{x zaczyna p³on±æ ¿ywym ogniem i niczym potê¿na ognista kula opada na $tc!
+  mob damage $t 25 50 100
+  mob log {ROgnisty cep{x: $n zadaje obra¿enia $tz.
+else
+  mob mesg $n $t char {Rognisty cep{x p³onie ¿ywym ogniem i przysma¿a $tc!
+  mob mesg $n $t vict {Rognisty cep{x p³onie ¿ywym ogniem i przysma¿a Ciebie!
+  mob mesg $n $t room {Rognisty cep{x p³onie ¿ywym ogniem i przysma¿a $tc!
+  mob damage $t 1 2 3
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#2000
+~
+if statstr $n < 19
+  mob echoat $n Próbujesz otworzyæ bramê, jednak wrota stoj± w miejscu, jak wmurowane.
+  mob echoaround $n $n próbuje otworzyæ bramê, jednak wrota stoj± jak wmurowane.
+  mob goto 2002
+  mob close north
+  mob goto 2003
+  mob close south
+  end
+endif
+
+mob echoat $n Ci±gniesz ze wszystkich si³, jednak bez skutku. Nagle z dono¶nym zgrzytniêciem wrota ustêpuj±.
+mob echoaround $n $n przez chwilê si³uje siê z bram±, nagle z dono¶nym zgrzytniêciem wrota ustêpuj±.
+~
+#2001
+~
+mob purge sarkofag
+mob close sark
+~
+#2002
+~
+mob echoat $n Ci±gniesz mocno za metalowe kó³ko, klapa z dono¶nym zgrzytniêciem otwiera siê.
+mob echoaround $n $n ci±gnie za metalowe kó³ko, klapa z dono¶nym zgrzytniêciem otwiera siê.
+~
+#2003
+~
+mob echoaround $n $n pcha ¿elazn± klapê, ta z metalicznym odg³osem uderza o ziemiê, zamykaj±c przej¶cie.
+mob echoat $n Pchasz ¿elazn± klapê, ta z metalicznym odg³osem uderza w pod³ogê, zamykaj±c przej¶cie.
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

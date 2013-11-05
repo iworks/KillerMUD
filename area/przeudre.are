@@ -1,0 +1,3334 @@
+#AREADATA
+Name {R#{DPodmrok{x - Prze³êcz udreki~
+Builders Podmrok   Gurthg  Seinar Risan~
+VNUMs 27172 27300
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 27193
+Name pokraczny Laszlarth~
+Odmiana pokracznego laszlartha~pokracznemu laszlarthowi~pokracznego laszlartha~pokracznym laszlarthem~pokracznym laszlarthcie~
+Short pokraczny laszlarth~
+Long Pokraczny Laszlarth kr±zy po swojej jaskini.~
+Descr Ów osobnik jest calkiem sporych rozmiarow jak na swoj± rasê. Cale pó³tora
+metra wysoko¶ci czyni z niego niezwykle antypoetycki widok. Mimo swoich
+rozmiarów nie wyró¿nia siê niczym szczególnym spo¶ród swoich braci. Ot jedno
+oko, brak w³osów, pokraczna postura, lapy sztuk cztery i brudne, pokrzywione
+pazury. Ca³a uroda i piêkno Laszlartha. Jego smolistoczarne krótkie konczyny
+zakoñczone s± lekko wygiêtymi pazurami. Ca³y osobnik ocieka jak±¶ dziwna,
+lepk± ciecz± a jego oko z niezwyk³± bystro¶ci± zerka na ¶wiat. 
+~
+Race zwierze~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 3d5+250
+Damage 3d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 10 10 10 10
+Stats 96 60 60 114 90 90 84
+Off NY
+OffExt 0|NY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKQRSV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 27172
+Name Jaskinia~
+Descr Kroczysz g³ownym korytarzem który wije siê i skrêca. Totalnie straci³e¶
+orientacje, wiesz tylko ¿e aby i¶æ dalej musisz pod±¿aæ w strone przeciwn±
+do tej z której przyby³e¶. Ale i to nie jest ³atwe. Ciekawie rozgl±dasz sie
+na wszystkie strony i dostrzegasz dziwne pêkniecia i szczeliny, niektóre do
+z³udzenia przypominaj± wej¶cia do jaskiñ. Na ¶cianach znajduj± siê dziwne
+{custêpy{x, co¶ jakby schody, chyba da siê na nie wspi±æ. 
+~
+FlagsExt 0|A
+Sector 45
+Extra ustêpy~
+Dziwne ustêpy w ¶cianach które prowadz± do wiêkszych szczelin. Chyba dasz
+rade {cwspi±æ{x siê po nich. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27173
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27173
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65513
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65513
+Roomprog input ust1 wspinaj sie~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27173
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27174
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27174
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27172
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27172
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27174
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27173
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27173
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27175
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27175
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27175
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27176
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27176
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27174
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27174
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27176
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27177
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27177
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27175
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27175
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27177
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27178
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27178
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27176
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27176
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27178
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27179
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27179
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27177
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27177
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27179
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27180
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27180
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27178
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27178
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27180
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27181
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27181
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27179
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27179
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27181
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27182
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27182
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27180
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27180
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27182
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27201
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27201
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27183
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27183
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27181
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27181
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27183
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27184
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27184
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27182
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27182
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27184
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27183
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27183
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27185
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27185
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27185
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27184
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27184
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27186
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27186
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27186
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27185
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27185
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27187
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27187
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27187
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27188
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27188
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27186
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27186
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27188
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27187
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27187
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27189
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27189
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27189
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27190
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27190
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27188
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27188
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27190
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27191
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27191
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27189
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27189
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27191
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27192
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27192
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27190
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27190
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27192
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27219
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27219
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27191
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27191
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27193
+Name Jaskinia~
+Descr Stoisz w bardzo ciemnej i obszernej jaskini. Wszystkie tutejsze ¶ciany
+maj± niezliczon± ilo¶æ rys i pêkniêæ. Pod³oze natomiast jest nienaturalnie
+¶liskie, jakby pokryte jakim¶ szlamem. Ka¿dy krok grozi po¶lizgniêciem, a
+ka¿de po¶lizgniecie grozi nadzianiem siê na licznie wystaj±ce kamienie. Z
+ca³± pewno¶æi± jaskinie te musz± zamieszkiwaæ jakie¶ obrzydliwe stwory,
+wszak co innego mo¿e wydzielaæ tyle szlamu? W jednej ze ¶cian znajduje siê
+du¿y {cotwór{x. 
+~
+FlagsExt 0|A
+Sector 15
+Extra otwór~
+Jest to niewielki otwór w ¶cianie. Przygladaj±c mu sie uwa¿nie masz
+wrazenie ze da siê nim {czej¶æ{x na dó³. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27194
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27194
+Roomprog input ust1_powr zejdz~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27194
+Name Jaskinia~
+Descr Jaskinia w której w³a¶nie siê znajdujesz powoduje delikatne skraplanie
+siê potu na twoim karku. Bynajmniej nie powoduje tego niezwykle wysoka
+temperatura, lecz dziwne oczy ¶wiec±ce w ciemno¶ci i wpatruj±ce sie w ciebie
+z niezwyk³ym zainteresowaniem. Pod³o¿e jest niezwykle ¶liskie i poniewieraj±
+sie po nim ró¿ne dziwne przedmioty. Skupi±j±c wzrok mo¿na dostrzec jakie¶
+kawa³ki ko¶ci i troche zgni³ego miêsa. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27195
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27195
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27193
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27193
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27195
+Name Skrzy¿owanie~
+Descr Znajdujesz siê w jakie¶ dziwnej jaskini, s±dz±c po ilo¶ci wyj¶æ jest to
+chyba jakie¶ skrzy¿owanie, lecz nie masz ¿adnego pomys³u dok±d mog±
+prowadziæ. Na chropowatych ¶cianach widaæ troche sier¶ci a na samym ¶rodku
+jaskini ca³± sterte ko¶ci! Zastanawiasz siê czy owe ko¶ci nale¿a³y do jaki¶
+tutejszych mieszkañców czy nierozwa¿nych podró¿ników którzy mieli odwage by
+siê tutaj zapu¶ciæ. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27196
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27196
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27198
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27198
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27197
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27197
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27194
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27194
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27196
+Name Jaskinia~
+Descr ~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27195
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27197
+Name Jaskinia~
+Descr ~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27195
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27198
+Name W±ski korytarz~
+Descr Ciemna jaskinia która nie wyró¿nia sie niczym szczególnym spo¶ród innych.
+Wszedzie ciemno, ¶lisko i co¶ dziwnie pachnie. Do twych uszu docieraj±
+dziwne d¼wiêki, co¶ jakby jakie¶ sapanie lub dyszenie. Pod stopami s³yszysz
+chrzêst ³amanych ko¶ci. ¦ciany, sklepienie i pod³o¿e w ca³o¶ci pokrytê s±
+jak±¶ lepk±, kleist± mazi±. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27199
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27199
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27195
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27199
+Name Jaskinia~
+Descr W tym miejscu tunel lekko skrêca w jeszcze dalsz± czê¶æ jaskini, w czê¶æ z ktorej dochodzi jeszcze wiecej dziwnych d¼wiêków i zapachów.
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27200
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27200
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27198
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27198
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27200
+Name Jaskinia~
+Descr ~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27199
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27199
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27201
+Name W±ski tunel~
+Descr Ciemna jaskinia która nie wyró¿nia sie niczym szczególnym spo¶ród
+innych. Wszedzie ciemno, ¶lisko i co¶ dziwnie pachnie. Do twych uszu
+docieraj± dziwne d¼wiêki, co¶ jakby jakie¶ sapanie lub dyszenie. Pod stopami
+s³yszysz chrzêst ³amanych ko¶ci. ¦ciany, sklepienie i pod³o¿e w ca³o¶ci
+pokrytê s± jak±¶ lepk±, kleist± mazi±. 
+~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27202
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27202
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27182
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27182
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27202
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27203
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27203
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27201
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27201
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27203
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27204
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27204
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27202
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27202
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27204
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27205
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27205
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27203
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27203
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27205
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27206
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27206
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27204
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27204
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27206
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27207
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27207
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27205
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27205
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27207
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27208
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27208
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27206
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27206
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27208
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27209
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27209
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27210
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27210
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27207
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27207
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27209
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27208
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27208
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27211
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27211
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27210
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27208
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27208
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27211
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27212
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27212
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27209
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27209
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27212
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27213
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27213
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27211
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27211
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27214
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27214
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27213
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27216
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27216
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27212
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27212
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27215
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27215
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27214
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27212
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27212
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27215
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27213
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27213
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27216
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27217
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27217
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27213
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27213
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27217
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27218
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27218
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27216
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27216
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27218
+Name Szeroki korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35107
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35107
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27217
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27217
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27219
+Name Rozwidlenie tuneli~
+Descr Znajdujesz siê w jakie¶ dziwnej jaskini, s±dz±c po ilo¶ci wyj¶æ jest to
+chyba jakie¶ skrzy¿owanie, lecz nie masz ¿adnego pomys³u dok±d mog±
+prowadziæ. Na chropowatych ¶cianach widaæ troche sier¶ci a na samym ¶rodku
+jaskini ca³± sterte ko¶ci! Zastanawiasz siê czy owe ko¶ci nale¿a³y do jaki¶
+tutejszych mieszkañców czy nierozwa¿nych podró¿ników którzy mieli odwage by
+siê tutaj zapu¶ciæ. 
+~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27245
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27245
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27220
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27220
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27192
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27192
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27220
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27219
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27219
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27221
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27221
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27221
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27220
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27220
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27222
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27222
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27222
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27221
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27221
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27223
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27223
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27223
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27222
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27222
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27224
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27224
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27224
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27223
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27223
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27225
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27225
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27225
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27226
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27226
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27224
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27224
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27226
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27225
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27225
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27227
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27227
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27227
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27226
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27226
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27228
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27228
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27228
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27227
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27227
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27229
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27229
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27229
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27228
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27228
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27230
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27230
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27230
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27229
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27229
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27231
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27231
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27231
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27230
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27230
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27232
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27232
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27232
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27233
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27233
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27231
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27231
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27233
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27234
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27234
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27235
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27235
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27232
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27232
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27234
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27270
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27270
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27233
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27233
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27235
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27233
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27233
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27236
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27236
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27236
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27235
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27235
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27237
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27237
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27237
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27236
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27236
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27238
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27238
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27238
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27237
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27237
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27239
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27239
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27269
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27269
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27239
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27238
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27238
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27240
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27240
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27240
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27241
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27241
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27239
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27239
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27241
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27240
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27240
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27242
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27242
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27242
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27243
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27243
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27241
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27241
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27243
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27244
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27244
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27242
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27242
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27244
+Name Szeroki tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27243
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27243
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27262
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27262
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27245
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27246
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27246
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27219
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27219
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27246
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27247
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27247
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27245
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27245
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27247
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27248
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27248
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27246
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27246
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27248
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27249
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27249
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27247
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27247
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27249
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27250
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27250
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27248
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27248
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27250
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27251
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27251
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27249
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27249
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27251
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27252
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27252
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27250
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27250
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27252
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27253
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27253
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27251
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27251
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27253
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27254
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27254
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27252
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27252
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27254
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27255
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27255
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27253
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27253
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27255
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27254
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27254
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27256
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27256
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27256
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27255
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27255
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27258
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27258
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27257
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27257
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27257
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27256
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27256
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27258
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27259
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27259
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27256
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27256
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27259
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27260
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27260
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27258
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27258
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27260
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27261
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27261
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27259
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27259
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27261
+Name G³ówny korytarz~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34821
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34821
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27260
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27260
+DayRDesc 27173
+NightRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27262
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27263
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27263
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27244
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27244
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27263
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27264
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27264
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27262
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27262
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27264
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27265
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27265
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27263
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27263
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27265
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27266
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27266
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27264
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27264
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27266
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27265
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27265
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27267
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27267
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27267
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27268
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27268
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27266
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27266
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27268
+Name Tunel~
+FlagsExt 0|A
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27267
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27267
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27101
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27101
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27269
+Name W±ski tunel~
+FlagsExt 0|AC
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27238
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27238
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60720
+ExitExtEnd
+Exit 5
+~
+~
+0 0 60720
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27270
+Name Szeroki tunel~
+FlagsExt 0
+Sector 45
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27234
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27234
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5550
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5550
+DayRDesc 27173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 27193 1 27193 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#kosci
+~
+mob echoat $n sie potykasz, haha!.
+~
+#ust1
+~
+mob echoat $n siêgasz do jednego z wystaj±cych kamieni i z wielkim wysi³kiem zaczynasz mozoln± wspinaczke.
+mob echoaround $n $n Siêga do jednego z wystaj±cych kamieni i zaczyna siê wspinaæ po ustêpach.
+delay 1
+mob echoat $n Ostatnim wysi³kiem wciskasz siê do du¿ej szczeliny.
+mob echoaround $n $n znika w jednej ze szczelin.
+mob transfer $n 27193
+~
+#ust1_powr
+~
+mob echoat $n Z lekk± trwog± spogl±dasz w dó³.
+mob echoaround $n $n z przera¿eniem w oczach zerka w dó³.
+delay 1
+mob echoat $n Chwytaj±c siê mocno wystaj±cych kamieni zaczynasz schodziæ po stromej ¶cianie.
+mob echoaround $n $n dzielnie zaczyna schodzic w dó³.
+delay 1
+mob echoat $n Stawiasz pewnie stopy na gruncie, uda³o ci siê zej¶æ.
+mob echoaround $n $n z nieukrywan± ulg± staje pewnie na nogach, wkoncu udalo mu siê zej¶æ.
+mob transfer $n 27172
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 27173
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name wstêp~
+Desc Znajdujesz siê na do¶æ sporym, szerokim trakcie w Podmroku.
+~
+Group 1
+End
+#Name wstêp1~
+Desc Pod±¿asz ca³kiem szerokim, aczkolwiek mrocznym traktem.
+~
+Group 1
+End
+#Name wstêp2~
+Desc Jeste¶ na mrocznym trakcie który ci±gnie siê niczym podziemne piwnice.
+~
+Group 1
+End
+#Name rozwi1~
+Desc Naprawdê mroczny trakt, nie widzisz nic, nawet czubka w³asnego nosa. Nie
+ma tu ¿adnego ¼ród³a ¶wiat³a, poruszaj±c siê po tym szerokim trakcie musisz
+i tak uwa¿aæ na zwisaj±ce z góry oraz wystaj±ce z do³u ostre kamienie. Jedna
+chwila nie uwagi i w najlepszym wypadku nabijesz sobie sporego guza b±d¼
+potkniesz siê i wyl±dujesz na ziemi. 
+~
+Group 2
+End
+#Name rozwi2~
+Desc Piêknie wy¿³obiony tunel, w którym nie ma ¿adnego ¼ród³a ¶wiat³a, ci±gnie
+siê g³êboko w atramentow± czerñ. Z góry zwisaj± ostre niczym brzytwa
+stalaktyty ,je¶li taki jeden by run±³ na ciebie szanse na prze¿ycie by³y by
+mizerne. Pod³o¿e jest stosunkowo p³askie i ca³kiem dobrze siê po nim
+podró¿uje. 
+~
+Group 2
+End
+#Name rozwi3~
+Desc Pomimo mroku jaki panuje na tym trakcie, jest tu stosunkowo przytulnie,
+je¶li mo¿na to tak nazwaæ. Jest tu do¶æ ciep³o i przyjemnie, lecz niech ciê
+to nie zwodzi, nie zapomnij gdzie jeste¶. Znajdujesz siê w koñcu w Podmroku,
+najniebezpieczniejszym miejscu na tym ¶wiecie, a mo¿e przede wszystkim
+zachowaj szczególn± uwagê podró¿uj±c traktem. 
+~
+Group 2
+End
+#Name rozwi4~
+Desc Mrok jaki panuje na tym trakcie przyprawia ciê o dreszcze. Atramentowa
+noc, która tu jest to normalne zjawisko, nie ma tu ¿adnego ¼ród³a ¶wiat³a.
+¦ciany jaskini przez, któr± przechodzisz s± do¶æ g³adkie i ciep³e. Pod³o¿e,
+po którym st±pasz pozostawia wiele do ¿yczenia, ale czego siê spodziewaæ,
+jakich wygód oczekiwaæ podró¿uj±c po Podmroku. 
+~
+Group 2
+End
+#Name zak1~
+Desc Podró¿ jest niezwykle uci±¿liwa ale byæ mo¿e jej cel znajduje siê ju¿ tu¿ za rogiem.
+~
+Group 3
+End
+#Name zak2~
+Desc Wêdrówka przez mrok podmroku jest ciê¿k± przepraw±.
+~
+Group 3
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

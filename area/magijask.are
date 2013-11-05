@@ -1,0 +1,769 @@
+#AREADATA
+Name +# Magiczna jaskinia~
+Builders Deggial~
+VNUMs 2891 2900
+Credits quanchi@icpnet.pl, spec tnx 4 Grali~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 2891
+Name demon rogaty staro¿ytny boss~
+Odmiana rogatego demona~rogatemu demonowi~rogatego demona~rogatym demonem~rogatym demonie~
+Short rogaty demon~
+Long Staro¿ytny demon spogl±da na ciebie zagadkowo.~
+Descr Spogl±dasz na ogromnego, mierz±cego prawie cztery metry humanoida. Rogate
+demony to jedne z najgro¼niejszych, najbardziej przera¿aj±cych i
+nieobliczalnych istot na ¶wiecie. Tak samo boj± siê ich zarówno s³udzy
+¦wiat³a jak i Ciemno¶ci, bowiem rogaty demon nie wybiera swoich ofiar i
+gotów jest bez namys³u zabiæ i unicestwiæ wszystko, co stanie mu na drodze.
+Posiada rzadki dar przywo³ywania z innych wymiarów mniejszych demonów, które
+s³u¿± mu pomoc± w walce, sam za¶ mo¿e wpa¶æ w przera¿aj±cy sza³, napêdzany
+¿±dz± krwi i mordu. Demon ten ma widoczne na pierwszy rzut oka silne miê¶nie
+pod grub± skór±, d³ugie, straszliwie zakrzywione pazury i k³y, a tak¿e nade
+wszystko du¿e skrêcone rogi na g³owie, od których wzi±³ swoj± nazwê. Tylko
+najpotê¿niejsi magowie, niektóre smoki oraz inne demony wy¿sze, s± w stanie
+oprzeæ siê mocy tej nieziemskiej istoty. 
+~
+Race demon~
+ActExt 0|ABEFGRT/2|C
+Affected 33554472 1073741824 524288 0
+AffectedExt 0|DFZ/1|e/2|T
+Align -1000
+Group 0
+Lang NRV
+Speaks 16
+Level 32
+Hitroll 8
+HP 32d10+2000
+Damage 5d6+5
+Dammagic 3
+Weaponbonus 5
+Damflags 0
+Attack mwalniecie
+XAC -10 -10 -10 -3
+Stats 156 144 150 72 102 60 90
+Off CDEHOY
+OffExt 0|CDEHOY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 3200
+Form C
+Parts ABCDEFGHIJKR
+Size huge
+Material unknown
+Comments doda³em mu resist poison na 100% - {RGurthg{x ({CTue Sep 13 09:59:16 2005{x)
+W opisie napisane jest, ¿e jest gotów zabiæ bez namys³u - doda³em proga 2894. - {RWicia{x ({CThu Sep 29 01:32:31 2005{x)
+level, hp, exp multiplier, ac - {RKainti{x ({CFri Dec  9 22:26:04 2005{x)
+Dodalem mu aggresive... czemu w ogole tego nie mial wczesniej? - {RLoop{x ({CThu Sep 21 15:26:25 2006{x)
+wzacniam , jest za slaby - {RSeinar{x ({CFri Aug 20 17:46:18 2010{x)
+~
+MobprogNew random 2894 FI 4~
+MobprogNew hpcnt 2892 H 35~
+MobprogNew death 2893 ABCDEFGHI 100~
+MobprogNew onload 2891 ABCDEFGHI 100~
+Spells 216 380 0 0
+Skin 100
+ExpMultiplier 400
+Resist 1 10
+Resist 2 15
+Resist 3 10
+Resist 4 25
+Resist 5 100
+Resist 6 100
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 2892
+Name mezzodemon demon~
+Odmiana mezzodemona~mezzodemonowi~mezzodemona~mezzodemonem~mezzodemonie~
+Short mezzodemon~
+Long Mezzodemon wlepia w ciebie swoje czarne oczy.~
+Descr Ohydny demon, jeden z tak zwanych demonów ni¿szych, albo mniejszych.
+Pojedyñczy osobnik rzadko jest gro¼nym przeciwnikiem, ale wspierany przez
+swoich silniejszych pobratymców mo¿e stanowiæ powa¿ne zagro¿enie. Budow±
+cia³a przypomina wielk±, zmutowan± mrówkê na dwóch nogach, ma d³ugie czu³ki
+i ogromne wy³upiaste oczy. 
+~
+Race demon~
+ActExt 0|ABFR
+Affected 33554472 33554432 0 0
+AffectedExt 0|DFZ/1|Z
+Align -1000
+Group 0
+Lang AR
+Speaks 16
+Level 15
+Hitroll 0
+HP 15d8+250
+Damage 4d4+0
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 5 5 5 6
+Stats 108 108 132 108 108 78 78
+Off HLXY
+OffExt 0|HLXY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CI
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments Zmieni³em dammagic z 0 ---> 1 - {RSeinar{x ({CWed Mar 10 18:35:06 2010{x)
+~
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 5
+Resist 5 25
+Resist 6 10
+Resist 7 10
+Resist 8 10
+Resist 9 10
+Resist 10 10
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 10
+Resist 16 100
+Mobend
+#Vnum 2893
+Name quasit~
+Odmiana quasita~quasitowi~quasita~quasitem~quasicie~
+Short quasit~
+Long Du¿y quasit tylko czeka, ¿eby upu¶ciæ z kogo¶ nieco krwi.~
+Descr Quasit wygl±da jak typowy demon, tyle, ¿e jest niezbyt imponuj±cych
+rozmiarów. Ma d³ugie pazury, pokryt± drobnymi ³uskami skórê i lekko skrêcone
+rogi na g³owie. A¿ dyszy ¿±dz± mordu. 
+~
+Race demon~
+ActExt 0|AEFRT
+Affected 41943586 0 0 0
+AffectedExt 0|BFJXZ
+Align -1000
+Group 0
+Lang AR
+Speaks 16
+Level 10
+Hitroll 0
+HP 10d10+190
+Damage 4d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 5 5 5 6
+Stats 96 96 90 108 108 78 78
+Off HLRXY
+OffExt 0|HLRXY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CI
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments Wycio³em troll_power, imhvo to jest wielki bug, ¿e po controlce to zostaje. Ale jako, ¿e troll powera nie bêdzie to i problemu nie bêdzie. - {RDrake{x ({CThu Aug 25 07:23:23 2005{x)
+~
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 5
+Resist 7 10
+Resist 8 10
+Resist 9 10
+Resist 10 100
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2895
+Name ksiêga zaklêæ magicznych pulsuj±ca~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga zaklêæ magicznych~
+Descr Na ziemi le¿y niewielka, pulsuj±ca moc± ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|G
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 7 177 213 326 328 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 43320
+Cond 100
+Itemdesc Jest to niewielkich rozmiarów ksiêga, która zdaje siê a¿ pulsowaæ od
+zawartej w niej mocy. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2891
+Name Na górze szybu~
+Descr W tym miejscu widzisz jak korytarz gwa³townie zakrêca w dó³, tworz±c co¶
+w rodzaju szybu czy komina, tyle tylko, ¿e naturalnego pochodzenia, a nie na
+przyk³ad wykutego przez górników. Wieje stamt±d ch³odem, jest ciemno, a dna
+jako¶ nie widaæ. Zej¶cie, przy zachowaniu wszystkich ¶rodków ostro¿no¶ci,
+wygl±da na mo¿liwe, jednak chyba najlepiej by³oby mieæ jaki¶ czar,
+umo¿liwiaj±cy latanie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2900
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2900
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2892
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2892
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2892
+Name Szyb w jaskini~
+Descr Powietrze tutaj jest nieruchome, jakby ciê¿kie od zawartych w nim oparów
+wody, pe³ne duchoty. Je¶li ju¿ o wodzie mowa, to ciurka ona i ¶cieka
+wszêdzie dooko³a, przez co ¶ciany s± ¶liskie i poro¶niête jakim¶ paskudnym
+ciemnobr±zowym ¶wiñstwem, wygl±daj±cym jak jaka¶ odmiana podziemnych
+porostów. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2891
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2891
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2893
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2893
+Roomprog exit 2892 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2893
+Name Ciasny szyb~
+Descr Powietrze tutaj jest nieruchome, jakby ciê¿kie od zawartych w nim oparów
+wody, pe³ne duchoty. Je¶li ju¿ o wodzie mowa, to ciurka ona i ¶cieka
+wszêdzie dooko³a, przez co ¶ciany s± ¶liskie i poro¶niête jakim¶ paskudnym
+ciemnobr±zowym ¶wiñstwem, wygl±daj±cym jak jaka¶ odmiana podziemnych
+porostów.
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2892
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2892
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2894
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2894
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2894
+Name Blisko dna szybu~
+Descr Powietrze tutaj jest nieruchome, jakby ciê¿kie od zawartych w nim oparów
+wody, pe³ne duchoty. Je¶li ju¿ o wodzie mowa, to ciurka ona i ¶cieka
+wszêdzie dooko³a, przez co ¶ciany s± ¶liskie i poro¶niête jakim¶ paskudnym
+ciemnobr±zowym ¶wiñstwem, wygl±daj±cym jak jaka¶ odmiana podziemnych
+porostów.
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2893
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2893
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2895
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2895
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2895
+Name W¶ród lodowych nacieków~
+Descr Kiedy rozgl±dasz siê dooko³a jest ju¿ dla ciebie jasne, co dzieje siê z
+wod±, ¶ciekaj±c± tutaj z wy¿szych partii jaskini. Wszêdzie widzisz lodowe
+sople, zwieszaj±ce siê z sufitu, dziwne formy w kszta³cie sto¿ków i
+nieregularnych bry³ na pod³odzie, wreszcie cieniutk± warstewkê lodu na
+¶cianach. Nic dziwnego, ¿e panuje tutaj przera¼liwy zi±b, a zrobienie trzech
+kroków bez upadku graniczy z cudem. 
+~
+FlagsExt 0|Y
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2896
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2896
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2894
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2894
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2896
+Name Zalodzona czê¶æ jaskini~
+Descr Kiedy rozgl±dasz siê dooko³a jest ju¿ dla ciebie jasne, co dzieje siê z
+wod±, ¶ciekaj±c± tutaj z wy¿szych partii jaskini. Wszêdzie widzisz lodowe
+sople, zwieszaj±ce siê z sufitu, dziwne formy w kszta³cie sto¿ków i
+nieregularnych bry³ na pod³odzie, wreszcie cieniutk± warstewkê lodu na
+¶cianach. Nic dziwnego, ¿e panuje tutaj przera¼liwy zi±b, a zrobienie trzech
+kroków bez upadku graniczy z cudem.
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2895
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2895
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2897
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2897
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2897
+Name Lodowa jaskinia~
+Descr Kiedy rozgl±dasz siê dooko³a jest ju¿ dla ciebie jasne, co dzieje siê z
+wod±, ¶ciekaj±c± tutaj z wy¿szych partii jaskini. Wszêdzie widzisz lodowe
+sople, zwieszaj±ce siê z sufitu, dziwne formy w kszta³cie sto¿ków i
+nieregularnych bry³ na pod³odzie, wreszcie cieniutk± warstewkê lodu na
+¶cianach. Nic dziwnego, ¿e panuje tutaj przera¼liwy zi±b, a zrobienie trzech
+kroków bez upadku graniczy z cudem. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2898
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2898
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2896
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2896
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2898
+Name Szeroki korytarz~
+Descr Korytarz jest tutaj naprawdê szeroki, nie ma tu te¿ lodu i jest wzglêdnie
+sucho. Teren przypomina w coraz wiêkszym stopniu zwyczajn± jaskiniê. Na
+pó³nocy, o ile jeste¶ w stanie dojrzeæ, znajduje siê ca³kiem spora komora, o
+dosyæ wysokim stropie. Wydaje ci siê tak¿e, ¿e dobiega stamt±d jaki¶ bli¿ej
+nieokre¶lony, ale z ca³± pewno¶ci± niezbyt przyjemny zapach. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2899
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2899
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2897
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2897
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2899
+Name Kamieñ ofiarny~
+Descr Stoisz oniemia³<&y/a/e> przed blu¼nierczym o³tarzem nieznanego ci bóstwa.
+Ma on kszta³t du¿ego, owalnego kamienia, pokrytego dziwnymi znakami i
+symbolami, których znaczenia nie rozumiesz. Kamieñ le¿y na ¶rodku
+pomieszczenia, dlatego dok³adnie widzisz plamy krwi, którymi jest
+zabarwiony. Nigdzie natomiast nie dostrzegasz ¿adnych ko¶ci czy czê¶ci cia³
+sk³adanych tutaj ofiar. 
+ 
+~
+FlagsExt 0|N
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2898
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2898
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2900
+Name Dziwna jaskinia~
+Descr Jeste¶ w stosunkowo w±skim, je¶li porównaæ go z innymi w tej okolicy,
+korytarzu w jaskini. W zasadzie patrz±c zdroworozs±dkowo nie ma tutaj nic
+podejrzanego, ale mimo to masz dziwne uczucie, ¿e z t± czê¶ci± jaskini jest
+co¶ nie tak jak byæ powinno. Mo¿e to ten niezwyk³y uk³ad plam i przebarwieñ
+od minera³ów na ¶cianach? A mo¿e co¶ innego? Trudno powiedzieæ. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2891
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2891
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 16000
+ExitExtEnd
+Exit 4
+~
+~
+16 0 16000
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+M 2893 spec_poison
+S
+
+
+
+#RESETS
+M 65 2891 1 2899 1
+S
+
+
+
+#MOBPROGSNEW
+#2891
+~
+if rand 85
+  mob oload body 7
+  wear all
+endif
+if rand 85
+  mob oload finger 4
+  wear all
+endif
+if rand 85
+  mob oload neck 4
+  wear all
+endif
+if rand 85
+  mob oload hands 7
+  wear all
+endif
+mob oload gem 7
+mob oload gem 6
+mob oload gem 5
+
+mob equip self 3163
+
+# randomy by Wicia
+# kolczyk
+if rand 70
+  mob oload ear 7
+else
+  if rand 50
+    mob oload ear 6
+  endif
+endif
+# bransoletka
+if rand 80
+  mob oload wrist 7
+else
+  if rand 60
+    mob oload wrist 6
+  else
+    if rand 40
+      mob oload wrist 5
+    endif
+  endif
+endif
+~
+#2892
+~
+if hasflag $i summon_demons
+  break
+else
+  mob setflag $i summon_demons -1
+  mob echo Rogaty demon gestykuluje przez moment i ¶mieje siê z³owieszczo...
+  mob echo Obok rogatego demona otwiera siê ma³y portal...
+  mob echo Widzisz jak z portalu wychodzi kilka mniejszych demonów!
+  mob addgroup 2892
+  mob addgroup 2893
+  if rand 50
+    mob addgroup 2892
+    if rand 50
+      mob addgroup 2892
+      if rand 90
+        mob addgroup 2892
+        mob addgroup 2893
+      endif
+    endif
+  endif
+endif
+~
+#2893
+~
+if rand 70
+  mob echo Rogaty demon wydaje przed¶miertny krzyk i wali siê martwy na ziemiê!
+  mob echo Jaka¶ ksiêga wypada z jego ³ap i uderza o ziemiê.
+  mob oload 2895 r
+else
+  mob echo Rogaty demon wydaje przed¶miertny krzyk i wali siê martwy na ziemiê!
+endif
+if rand 90
+  mob oload gem 7 R
+else
+  mob oload gem 5 R
+  mob oload gem 4 R
+  mob oload gem 3 R
+  mob oload gem 2 R
+  mob oload gem 2 R
+endif
+~
+#2894
+~
+if affected $i paralyze
+or pos $i fighting
+  break
+else
+  if rand 30
+    if pos $i resting
+      stand
+      minidelay 3
+      bash $r
+    else
+      if pos $i standing
+        emote sapie dziko, kiedy ogarnia go jaki¶ amok!
+        minidelay 2
+        bash $r
+      endif
+    endif
+  endif
+endif
+~
+#0
+
+#OBJPROGSNEW
+#pusty
+~
+~
+#0
+
+#ROOMPROGSNEW
+#2892
+~
+if affected $n flying
+mob echoaround $n $n odlatuje na dó³.
+mob transfer $n 2893
+break
+endif
+
+if statdex $n < 18
+mob echoat $n Czujesz jak twoje stopy zaczynaj± siê ¶lizgaæ po wilgotnej ¶cianie.
+mob echoat $n Momentalnie tracisz oparcie dla nóg i chwyty dla r±k i lecisz w dó³!!
+mob echoaround $n Widzisz jak nagle $n traci stopieñ i rozpaczliwie próbuje utrzymaæ równowagê.
+mob echoaround $n Spogl±dasz w przera¿one oczy $z i widzisz jak $n spada w dó³!!
+mob transfer $n 2895
+mob damage $n 100 200 hehe
+mob zecho S³yszysz g³uche uderzenie gdzie¶ niedaleko...
+else
+mob transfer $n 2893
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

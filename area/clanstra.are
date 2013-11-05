@@ -1,0 +1,894 @@
+#AREADATA
+Name {RCLAN{x: Stra¿nicy £adu~
+Builders Klan~
+VNUMs 43470 43499
+Credits blanciq@o2.pl 
+Room 43484 ma wyj¶cie do 64950 [  wschód] -> +# Góry nad Jaskiniami Naugrimów
+~
+Locked ~
+Security 9
+ResetAge 40
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 43471
+Name wartownik twierdzy~
+Odmiana wartownika twierdzy~wartownikowi twierdzy~wartownika twierdzy~wartownikiem twierdzy~wartowniku twierdzy~
+Short wartownik twierdzy~
+Long Uzbrojony wartownik pilnuje wej¶cia do twierdzy Stra¿ników £adu.~
+Descr Widzisz przero¶niêtego jak na swój wiek m³odzieñca, strzeg±cego przej¶cia
+przez bramê. Z pewno¶ci± jest to rekrut chêtny do wst±pienia w szeregi
+rycerzy zajmuj±cych ten zamek, na okresie próbnym. Widzisz, ¿e z
+zaanga¿owaniem spe³nia swoje obowi±zki, uwa¿nie ci siê przygl±da. 
+~
+Race cz³owiek~
+ActExt 0|ABT
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 1
+HP 1d1+600
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack walniecie
+XAC 0 0 0 0
+Stats 150 90 90 120 120 90 90
+Off EKTYb
+OffExt 0|EKTYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech 43471 FGI ¿egnaj~
+MobprogNew speech 43470 FGI witaj~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 13 40
+Resist 14 100
+Resist 16 100
+Resist 17 50
+Mobend
+#Vnum 43472
+Name Dagma~
+Odmiana Dagme~Dagmie~Dagme~Dagm±~Dagmie~
+Short Dagma~
+Long Dagma, w szarej tunice krz±ta siê po sklepiku.~
+Descr Stara kobieta, od lat zamieszka³a w tej cytadeli, zapewne samotna matka
+lub wdowa po którym¶ ze Stra¿ników poleg³ych na polu chwa³y, zajmuje siê
+teraz zaopatrzeniem w najpotrzebniejsze rzeczy swych przyjació³. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 30
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 0
+HP 2d20+50
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew precommand sklep ABCDEFGHI buy~
+MobprogNew precommand sklep ABCDEFGHI list~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43473
+Name zadbany rumak~
+Odmiana rumaka~rumakowi~rumaka~rumakiem~rumaku~
+Short zadbany rumak~
+Long Zadbany rumak stoi tu i przebiera kopytami.~
+Descr Spogl±dasz na piêknego, zadbanego rumaka ze stra¿niczej stajni. Widaæ ¿e
+stajenny dba o swoich podopiecznych, sier¶æ wierzchowca l¶ni w ¶wietle a
+grzywa i ogon s± piêknie wyczesane. 
+~
+Race koñ~
+ActExt 0|ABD
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 4
+Hitroll 0
+HP 2d10+60
+Damage 3d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 144 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size medium
+Material unknown
+Skin 70
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 43471
+Name srebrny klucz~
+Odmiana srebrnego klucza~srebrnemu kluczowi~srebrny klucz~srebrnym kluczem~srebrnym kluczu~
+Short {wsrebrny klucz{X~
+Descr {wSrebrny klucz{X le¿y tutaj i b³yszczy.~
+Material srebro~
+Type key
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 1
+Cond 75
+Itemdesc Patrzysz na srebrny klucz, który zapewne jest kluczem od Twierdzy
+Stra¿ników £adu. Je¶li go posiadasz, to znaczy, ¿e zabi³e¶ stra¿nika, co
+napewno nie bêdzie ci podarowane. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 43470
+Name Zwodzony most~
+Descr Stoisz na drewnianym zwodzonym mo¶cie, który prowadzi do twierdzy
+Stra¿ników £adu. Patrz±c na most widzisz, ¿e jest bardzo solidnie zbudowany,
+a pod nim widzisz fosê w której woda jest niemal przezroczysta. Bez trudu
+dostrzegasz dno. 
+~
+FlagsExt 0
+Sector 28
+Extra most~
+Spogl±daj±c na zwodzony most widzisz solidn± drewnian± konstrukcjê.
+Prowadzi on do przepiêknie po³o¿onej twierdzy Stra¿ników £adu. 
+~
+Extra fosa~
+Spogl±daj±c na t± przejrzy¶cie czyst± taflê wody a¿ zapiera ci dech w
+piersiach. Fosa ta jest niesamowicie zadbana i czysta, dok³adnie widaæ
+p³ywaj±ce w niej ryby... Czy¿by to by³y piranie? 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43471
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43471
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43484
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43484
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43471
+Name Brama~
+Descr Stoisz we wnêtrzu wielkiej bramy. Nad sob± zauwa¿asz skierowane w dó³
+ostrza, które stanowi± czê¶æ wielkiej kraty, broni±cej dostêpu do twierdzy.
+Na ¶cianach znajduj± siê dziwne otwory - mo¿na podejrzewaæ, ¿e s± one
+czê¶ci± systemu obronnego twierdzy. Przed tob± znajduj± siê ogromne,
+{yzamkniête wrota{X.
+~
+FlagsExt 0|H
+Sector 0
+Extra wrota~
+Na wrotach dostrzegasz wygrawerowany na srebrnej tarczy herb 'Stra¿ników
+£adu'. Przedstawia on rycersk± rêkawicê z wymalowanym na niej otwartym
+okiem. Znak ten jest symbolem boga Helma, który jest patronem Stra¿ników
+£adu. 
+~
+Extra zamkniête~
+Na wrotach dostrzegasz wygrawerowany na srebrnej tarczy herb 'Stra¿ników
+£adu'. Przedstawia on rycersk± rêkawicê z wymalowanym na niej otwartym
+okiem. Znak ten jest symbolem boga Helma, który jest patronem Stra¿ników
+£adu. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 262183
+ExitExtKey 43471
+ExitExtToVnum 43472
+ExitExtEnd
+Exit 0
+~
+~
+262183 43471 43472
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43470
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43470
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43472
+Name Na dziedziñcu~
+Descr Stoisz na zadbanym, brukowanym dziedziñcu. Na jego brzegach stoj± rabatki
+wysadzone ró¿nokolorowymi kwiatami. Na ¶rodku stoi roz³o¿ysta jab³oñ z
+soczystymi {Rowocami{S. Na wschodzie dostrzegasz solidny budynek wykonany z
+kamienia. Jest to warownia, w której przebywaj± stra¿nicy twierdzy. Z
+zachodu dochodz± ciê r¿enia koni, domy¶lasz siê, ¿e znajduje siê tam
+stajnia. Na po³udniu znajduj± siê solidnie zbudowane wrota.
+~
+FlagsExt 0|H
+Sector 36
+Extra d¼wignia~
+T± d¼wigni± mo¿na otworzyæ g³ówne wrota. Wystarczy j± poci±gn±æ. 
+~
+Extra wrota~
+S± t± solidnie wykonane wrota. Jest to jedyne wyj¶cie z twierdzy. Obok
+nich widzisz wielk± d¼wigniê, s³u¿y zapewne ona do otwierania tych wrót. 
+~
+Extra owoce~
+Wielkie, soczyste jab³ka wisz± na jab³oni.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43473
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43473
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 43475
+ExitExtEnd
+Exit 1
+~
+~
+16387 0 43475
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 262183
+ExitExtKey 43471
+ExitExtToVnum 43471
+ExitExtEnd
+Exit 2
+~
+~
+262183 43471 43471
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43474
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43474
+Roomprog input 43471 poci±gnij d¼wigniê~
+Roomprog input 43470 zerwij jab³ko~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43473
+Name Centralny plac~
+Descr Znajdujesz siê na du¿ym placu w centrum twierdzy. Jak na plac przysta³o
+jest tu bardzo jasno, a pod nogami masz najlepszy rodzaj bruku. Mo¿esz st±d
+doj¶æ do najwa¿niejszych miejsc na zamku. Po obu stronach s± chyba jakie¶
+sklepy, naprzeciw - siedziba 'Stra¿ników £adu' a za plecami brama g³ówna. 
+~
+FlagsExt 0|H
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43478
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43478
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43472
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43472
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43476
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43476
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43474
+Name Stajnia~
+Descr Wchodz±c do tego pomieszczenia czujesz intensywn± woñ koñskiego ³ajna.
+Nie ma tu du¿o miejsca, lecz zawsze mo¿na odpocz±æ w stogu siana. Na ¶cianie
+wisz± siod³a i og³owia. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43472
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43472
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43475
+Name Warownia~
+Descr Przez du¿e solidne drzwi wchodzisz do warowni. Jest to obszerna izba z
+niewielkimi oknami. Okna te s± wzmacniane kratami. Pod ka¿d± ze ¶cian
+ustawione s± dwupiêtrowe ³ó¿ka wartowników. Naprzeciw wej¶cia wisi herb
+twierdzy. Po ¶rodku widzisz niewielki stolik i kilka krzese³ stoj±cych wokó³
+niego. W rogu widzisz klapê, która prowadzi do lochów. 
+~
+FlagsExt 0|H
+Sector 0
+Extra klapa~
+Jest to niewielka klapa prowadz±ca do lochów. Z ³atwo¶ci± mo¿esz j± otworzyæ.
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 43472
+ExitExtEnd
+Exit 3
+~
+~
+16387 0 43472
+ExitExt 5
+ExitExtDescription ~
+ExitExtName klapa~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 43485
+ExitExtEnd
+Exit 5
+~
+klapa~
+3 0 43485
+Roomprog input 43472 otwórz klapê~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43476
+Name Sklep Dagmy~
+Descr Znajdujesz siê w ma³ym sklepiku, który nale¿y do Dagmy. By³a ona kiedy¶
+kupcem kr±¿±cym po miastach, ale teraz jej domem jest ten zamek. W rogu
+dostrzegasz liczne kufry, zapewne wype³nione przedmiotami, które Dagma
+sprzedaje. Na wschodniej ¶cianie widzisz obraz, który przedstawia walkê
+Stra¿ników £adu ze Smokiem. 
+~
+FlagsExt 0|DHV
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43473
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43473
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43477
+Name Sklep 2~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43478
+Name Przed siedzib±~
+Descr Stoisz przed wielka budowla. Jest to siedziba Stra¿ników £adu. Niektórzy
+uwa¿aj± to miejsce za ¶wiête i boj± siê tam wchodziæ. Plotki g³osz±, ¿e sam
+Incarus tam mieszka. ¦ciany s± z jasnego kamienia. Wej¶cie jest zwieñczone
+du¿ym ³ukiem, na wysoko¶ci trzech metrów. 
+~
+FlagsExt 0|H
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43480
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43480
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43473
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43473
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43479
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43479
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43483
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43483
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43479
+Name Pod wie¿±~
+Descr Jeste¶ w naro¿niku twierdzy. Z jednej strony jest czê¶æ sklepu a z
+drugiej mury zamkowe. Jest to bardzo zacienione miejsce. Wpadaj± tu tylko
+nieliczne promienie s³oñca. Widzisz przed sob± wie¿e wysok± na kilaknascie
+metrów, wej¶cie do niej jest do¶æ wysokie i pó³ okr±g³e na górze.
+Naprzeciwko wej¶cia do wie¿y znajduje siê budynek wiêkszy od wie¿y -
+siedziba 'Stra¿ników £adu'. 
+~
+FlagsExt 0|A
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43478
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43478
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43481
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43481
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43480
+Name Pod wie¿±~
+Descr Jeste¶ w naro¿niku twierdzy. Z jednej strony jest czê¶æ sklepu a z
+drugiej mury zamkowe. Jest to bardzo zacienione miejsce. Wpadaj± tu tylko
+nieliczne promienie s³oñca. Widzisz przed sob± wie¿e wysok± na kilkana¶cie
+metrów, wej¶cie do niej jest do¶æ wysokie i pó³okr±g³e na górze. Naprzeciwko
+wej¶cia do wie¿y znajduje siê budynek wiêkszy od niej - siedziba 'Stra¿ników
+£adu'. 
+~
+FlagsExt 0|A
+Sector 8
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43478
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43478
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43482
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43482
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43481
+Name Na pó³nocno-zachodniej wie¿y~
+Descr Po krêtych schodach docierasz na szczyt wie¿y. Jest to do¶æ obszerne
+pomieszczenie z trzema prostok±tnymi oknami i wyj¶ciem na zamkowe mury. Za
+oknami widzisz piêkny krajobraz wokó³ zamku. Owe okna s± wy¶mienitym
+miejscem dla dobrego kusznika b±d¼ ³ucznika, który z ³atwo¶ci± potrafi³by
+dostrzec i zabiæ wroga. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43479
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43479
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43482
+Name Na pó³nocno-wschodniej wie¿y~
+Descr Po krêtych schodach docierasz na szczyt wie¿y. Jest to do¶æ obszerne
+pomieszczenie z trzema prostok±tnymi oknami i wyj¶ciem na zamkowe mury. Za
+oknami widzisz piêkny krajobraz wokó³ zamku. Owe okna s± wy¶mienitym
+miejscem dla dobrego kusznika b±d¼ ³ucznika, który z ³atwo¶ci± potrafi³by
+dostrzec i zabiæ wroga. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43480
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43480
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43483
+Name Siedziba {B'Strazników £adu'{x~
+Descr Stoisz w wielkiej, okr±g³ej sali. Jest to siedziba 'Stra¿ników £adu'.
+¦ciany i pod³oga wykonane s± z ciemnego marmuru. Jest on tak wyszlifowany,
+¿e magiczne ¶wiat³a o ró¿nych kolorach, znajduj±ce siê w tym pomieszczeniu,
+odbijaj± siê od ¶cian. Wszystko to daje niesamowity efekt. N pod³odze wyryte
+s± jakie¶ runy, jest to chyba zabezpieczenie przed piekielnymi mocami. Na
+¶rodku pomieszczenia stoi pos±g. Pos±g Incarusa! 
+~
+FlagsExt 0|CDHV
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43478
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43484
+Name Pomiêdzy górami~
+Descr Stoisz pomiêdzy dwiema wysokimi skalistymi górami, na pó³nocy widzisz
+wysoko usytuowan± twierdze. Jest ona ogromna, zbudowana z szarego kamienia.
+Nad twierdz± niebo jest jasna, tak jakby twierdza by³a po³±czona z niebem. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43470
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43470
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43485
+Name Lochy~
+Descr Loch w którym siê znajdujesz, z pewno¶ci± nie s³u¿y do przetrzymywania w
+nim wrogów. Stra¿nicy znani s± z tego, ¿e nie zostawiaj± wrogów przy ¿yciu.
+Tu z pewno¶ci± przechowuj± trunki, z pomoc± których ¶wiêtuj± udane wyprawy.
+Znalezione resztki strzaskanych bary³ek utwierdzaj± ciê w tym. 
+~
+FlagsExt 0|D
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtName klapa~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 43475
+ExitExtEnd
+Exit 4
+~
+klapa~
+3 0 43475
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+43472 40 1 17 19 0 90 100 1 23 * 43476
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 43471 1 43471 1
+E 100 3128 0 19
+E 100 43471 0 3
+E 100 3366 0 11
+M 100 43473 1 43474 1
+M 100 43472 1 43476 1
+G 100 2499 0
+G 100 3380 0
+G 100 2450 0
+G 100 3099 0
+G 100 3370 0
+S
+
+
+
+#MOBPROGSNEW
+#43470
+~
+if clan $n straznik
+  mob echo (glos z nieba): Witaj Stra¿niku.
+  minidelay 3
+  mob echoat $n Wartownik twierdzy k³ania sie przed Tob±.
+  mob echoaround $n Wartownik twierdzy k³ania siê przed $d.
+  sayto $n Witaj mój panie.
+  minidelay 3
+  mob echo Wartownik podchodzi do bramy i odklucza j±.
+  mob unlock north
+  mob open north
+  delay 2
+  say Zamykam wrota.
+  mob close north
+  mob lock north
+else 
+  mob echo (glos z nieba): Wyno¶ siê st±d!
+  minidelay 3
+  kill $n
+endif
+~
+#43471
+~
+minidelay 1
+mob sayto $n ¯egnaj mój Panie.
+minidelay 2
+mob echo Wartownik podchodzi do bramy i zamyka j± na klucz.
+mob close north
+mob lock north
+minidelay 2
+mob echo (glos z nieba): ¯egnaj Stra¿niku.
+minidelay 1
+mob machaj $n
+~
+#sklep
+~
+if !clan $n straznik
+   mob sayto $n Nie jestes s³ug± Incarusa, nic ci nie sprzedam! Wyno¶ siê st±d póki stra¿nik cie nie zobaczy³!
+else
+   mob command
+endif
+~
+#0
+
+#OBJPROGSNEW
+#str_bukl
+~
+if clan $n straznik
+  mob echoat $n Widzisz, jak buk³ak plonie, ale ogieñ ten ciebie nie parzy.
+  mob echoaround $n $n podnosi p³on±cy buk³ak, ale magiczny ogieñ nie parzy go.
+else
+  mob echoat $n Gdy podnosisz p³on±cy buk³ak, czujesz jak jego ogieñ parzy ciê!
+  mob damageex $n 4 10 20
+  mob force $n drop buklak
+endif
+~
+#str_drkrysztal
+~
+mob echoat $n Gdy kryszta³ spada na ziemiê, to jego niematerialna struktura zaczyna siê rozp³ywaæ a¿ w koñcu znika.
+mob echoaround $n $n wyrzuca kryszta³ na ziemiê, a ten po jej spotkaniu rozp³ywa siê i znika.
+obj remove
+~
+#str_gikrysztal
+~
+mob echo bach!
+~
+#str_krysztal
+~
+if !clan $n straznik
+   mob echoat $n Patrzysz na kryszta³, lecz on zaczyna siê rozp³ywaæ ci w rêkach i nagle znika, jak gdyby nigdy go tu nie by³o.
+   obj remove
+endif
+~
+#str_skrzynia
+~
+if !clan $n straznik
+  mob echoat $n Skrzynia nagle wybucha jasnym ¶wiat³em o¶lepiaj±c ciê!
+  mob echoaround $n Skrzynia wybucha jasnym ¶wiat³em.
+  mob cast blind $n 1
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#43470
+Zerwanie jablka
+~
+if roomhasflag 43472brak_jablek
+  mob echoat $n Wspinasz siê na palce i przez chwilê przeszukujesz ga³êzie w poszukiwaniu jab³ka, ale nic nie znajdujesz.
+  mob echoaround $n $n próbuje znale¼æ jakie¶ jab³ko na drzewie ale kto¶ je wcze¶niej ogo³oci³.
+else
+  mob echoat $n Wspinasz siê na palce i zrywasz wielkie, soczyste jab³ko.
+  mob echoaround $n $n zrywa czerwone jab³ko z drzewa.
+  mob equip $n 2464
+  mob setflag room 43472brak_jablek 24
+endif
+~
+#43471
+~
+mob echoat $n Poci±gasz wielk± d¼wigniê a wrota siê otwieraj±.
+mob echoaround $n $n poci±ga wielk± dzwigniê i wrota siê otwieraj±.
+mob unlock south
+mob open south
+~
+#43472
+klapa
+~
+room down open
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,2270 @@
+#AREADATA
+Name {DPodmrok{x - podziemia Duergarów~
+Builders Podmrok~
+VNUMs 5500 5559
+Credits Midian
+MIDJAN666@interia.pl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 5500
+Name duergar stra¿nik krasnolud~
+Odmiana stra¿nika~stra¿nikowi~stra¿nika~stra¿nikiem~stra¿niku~
+Short duergar stra¿nik~
+Long Stoi przed tob± barczysty, szary krasnolud.~
+Descr Stoi przed tob± umiê¶niony, szary krasnolud. Pe³ni on funkcje stra¿nika
+kopalni pilnuj±c w niej porz±dku. Jest on niski ale za to bardzo masywny,
+dziêki swoim umiejêtno¶ciom by³ by w stanie powaliæ dwa razy wiêkszego od
+siebie. 
+~
+Race duergar~
+ActExt 0|AIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AC
+Speaks 0
+Level 18
+Hitroll 1
+HP 4d30+400
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 2 2 2 2
+Stats 138 120 120 120 138 120 120
+Off DEIRV
+OffExt 0|DEIRV/1|G
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 130
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 5502 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 10 20
+Resist 13 50
+Mobend
+#Vnum 5501
+Name duergar górnik~
+Odmiana duergara górnika~duergarowi górnikowi~duergara górnika~duergarem górnikiem~duergarze górniku~
+Short duergar górnik~
+Long Duergar górnik kuje tutaj w skale.~
+Descr Górnik ten jest od stóp do g³owy ca³y umorusany w sadzy i pyle. Nosi on
+d³ug± szar± brodê i d³ugie w³osy. Ale najgorsze jest to ¿e bije od niego
+taki odór, ¿e trudno jest wytrzymaæ w jego towarzystwie. 
+~
+Race krasnolud~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 2
+Lang AC
+Speaks 0
+Level 12
+Hitroll 0
+HP 7d5+270
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walniecie
+XAC 5 5 5 5
+Stats 108 96 96 102 114 90 90
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 5501 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 5502
+Name m³oda duergarka~
+Odmiana m³odej duergarki~m³odej duergarce~m³od± duergarke~m³od± duergark±~m³odej duergarce~
+Short m³oda duergarka~
+Long M³oda duergarka stoi tutaj.~
+Descr Jest to m³oda krasnoludka. W odró¿nieniu od innych pracowników tej
+kopalni nie jest umiê¶niona i spocona. Ma za to d³ugie rude w³osy, a jej
+cera pozostawia sporo do ¿yczenia. 
+~
+Race duergar~
+ActExt 0|AL
+Affected 512 2 0 0
+AffectedExt 0|J/1|B
+Align -1000
+Group 0
+Lang AC
+Speaks 0
+Level 16
+Hitroll 0
+HP 41d4+316
+Damage 3d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 6
+Stats 84 120 120 66 96 120 114
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 5500 ABCDEFGHI 100~
+Spells 166 259 150 265
+Spells 297 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 10 10
+Mobend
+#Vnum 5503
+Name zjawa krasnoluda~
+Odmiana zjawy~zjawie~zjawe~zjaw±~zjawie~
+Short zjawa krasnoluda~
+Long Zjawa duergara snuje siê tutaj bez celu.~
+Descr Jest to zjawa którego¶ z duergarów, który zgin± podczas pracy w kopalni.
+Snuje siê teraz bez celu szukaj±c ukojenia. Od zjawy bije zimna aura, lepiej
+na ni± uwa¿aæ. 
+~
+Race duch~
+ActExt 0|AOR
+Affected 526 268435456 0 0
+AffectedExt 0|BCDJ/1|c
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 1
+HP 6d6+400
+Damage 3d4+0
+Dammagic 3
+Weaponbonus 0
+Damflags 4
+Attack drain
+XAC 2 2 2 2
+Stats 108 132 168 96 114 120 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+Spells 163 93 203 2
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 18 100
+Mobend
+#Vnum 5504
+Name dozorca kopalni duergar~
+Odmiana dozorcy kopalni ~dozorcy kopalni ~dozorcê kopalni ~dozorc± kopalni~dozorcy kopalni~
+Short dozorca kopalni ~
+Long Dozorca kopalni strze¿e by nikt niepo¿odany nie dosta³ siê do ¶rodka.~
+Descr Masz przed sob± umiê¶nionego, szarego krasnoluda zwanego inaczej
+duergarem. Na jego ³ysej g³owie znajduje siê piêkny, stalowy he³m. Reszta
+swojego cia³a te¿ zakrywa stalowe uzbrojenie. Duergar ten wygl±da imponuj±co
+i to chyba zawa¿y³o nad rol± dozorcy tej kopalni. Widaæ, ¿e ma charyzmê i
+kopalnia idealnie funkcjonuje pod jego zarz±dem. Od czasu do czasu
+rozmy¶laj±c o czym¶ drapie siê po swej szarej brodzie. 
+~
+Race duergar~
+ActExt 0|ABEIT
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align -1000
+Group 0
+Lang AC
+Speaks 0
+Level 23
+Hitroll 2
+HP 4d7+550
+Damage 3d5+4
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 144 120 120 132 144 138 114
+Off DJX
+OffExt 0|DJX/1|AH
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 5502 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 10 50
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 50
+Mobend
+#Vnum 5535
+Name Garvun wydawca narzêdzi~
+Odmiana garvuna~garvunowi~garvuna~garvunem~garvunie~
+Short Garvun wydawca narzêdzi~
+Long Stoi przed tob± niski, chudy duergar.~
+Descr Jest to chyba jedyny w okolicy szary krasnolud, który nie zajmuje siê ani
+pilnowaniem kopalñ ani ich ³upaniem. Znalaz³ on posadê przy rozdawaniu
+narzêdzi ze sk³adzika. 
+~
+Race duergar~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AC
+Speaks 0
+Level 6
+Hitroll 0
+HP 16d1+100
+Damage 2d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 0 0 0 0
+Stats 84 72 72 78 90 72 72
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 5503 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 5500
+Name ma³a tabliczka~
+Odmiana tabliczki~tabliczce~tabliczke~tabliczk±~tabliczce~
+Short {yma³a {Rtabliczka{x~
+Descr {yNa ¶cianie znajduje siê ma³a {Rtabliczka{x.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20000
+Cost 1
+Cond 75
+Itemdesc Na {Rtabliczce{x widnieje napis:{/Sieæ kopalñ {WSzarych krasnoludów{x zwanych te¿ Duergarami.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 5500
+Name {WWej¶cie do kopalni duergarów~
+Descr Znajdujesz siê w ca³kiem sporym pomieszczeniu. W porównaniu do tunelu
+wej¶ciowego jest to wrêcz ogromna sala - bez zbêdnych ozdób oczywi¶cie.
+Pomieszczenie to jest umiejêtnie "wyd³ubane" w skale i raczej nie grozi ci
+niebezpieczeñstwo ze strony kamieni spadaj±cych z sufitu. Pomieszczenie to
+jest te¿ dobrze o¶wietlone- to zas³uga pochodni, które zapewniaj± ¶wiat³o
+ca³ej kopalni. 
+~
+FlagsExt 0|CH
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5501
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5501
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5546
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5546
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5501
+Name {DKorytarz{x~
+Descr Jest to do¶æ wysoki, lecz w±ski korytarz biegn±cy przez kopalnie
+duergarów. Strop podtrzymuj± grube, dêbowe belki, które s± ju¿ trochê
+spróchnia³e i podgni³e, ale jeszcze spe³niaj± swoj± g³ówn± rolê. Miejsce to
+nie ró¿ni siê zbytnio od innych. Chyba tylko tym, ¿e jest tutaj stosunkowo
+wiêcej pajêczyn ni¿ w innych czê¶ciach kopalni. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5500
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5500
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5502
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5502
+Name {DKorytarz{x~
+Descr Znajdujesz siê w w±skim korytarzu. Wykuty zosta³ on w kamieniu i s³u¿y
+jako przej¶cie. Po obu stronach znajduj± siê pochodnie podwieszone pod
+¶ciany, wiêc jest jasno. Od czasu do czasu cisze zak³ócaj± jakie¶ brzdêki i
+odg³osy kucia. Wszystko to okrywa przeokropny zapach. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5501
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5501
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5503
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5503
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5503
+Name {DSkrzy¿owanie{x~
+Descr Jest to jedne ze skrzy¿owañ kopalni duergarów. W tym w³a¶nie miejscu
+krzy¿uj± siê g³ówne korytarze przez, które szare krasnoludy transportuj±
+urobek. W niektórych miejscach w ¶cianach znajduj± siê dziwne dziury, nie
+wiedzieæ czemu zosta³y one tutaj zrobione. Mo¿e spe³niaj± one funkcje pó³ek.
+Co jaki¶ czas przechodz± têdy zgraje duergarów ¶piesz±cych siê do roboty.
+Zadziwiaj±ce jest tylko to, ¿e praktycznie nie zwracaj± oni na ciebie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5502
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5502
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5511
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5511
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5504
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5504
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5504
+Name {DKorytarz{x~
+Descr Jest to do¶æ wysoki, lecz w±ski korytarz biegn±cy przez kopalnie
+duergarów. Strop podtrzymuj± grube, dêbowe belki, które s± ju¿ trochê
+spróchnia³e i podgni³e, ale jeszcze spe³niaj± swoj± g³ówn± rolê. Miejsce to
+nie ró¿ni siê zbytnio od innych. Chyba tylko tym, ¿e jest tutaj stosunkowo
+wiêcej pajêczyn ni¿ w innych czê¶ciach kopalni. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5503
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5503
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5505
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5505
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5505
+Name {DKorytarz{x~
+Descr Znajdujesz siê w w±skim korytarzu, wykuty zosta³ on w ska³ach i s³u¿y
+jako przej¶cie. Po obu stronach znajduj± siê pochodnie podwieszone pod
+¶ciany, wiêc jest jasno. Od czasu do czasu ciszê zak³ucaj± jakie¶ brzdêki i
+odg³osy kucia. Wszystko to okrywa przeokropny zapach. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5504
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5504
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5506
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5506
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5510
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5510
+Resources 70 0 0 0 0 0 0 0 
+Capacity 2
+Roomend
+#Vnum 5506
+Name {D¦lepu zau³ek{x~
+Descr Miejsce to niczym nie ró¿ni siê od pozosta³ych, z jednym wyj±tkiem.
+¦cie¿ka prowadz±ca ze wschodu nagle siê tutaj urywa, a zachodnia ¶ciana jest
+popêkana tak jakby kto¶ zacz±³ tutaj kuæ ska³y, ale nie wiadomo z jakiego
+powodu przesta³. Tworz±c w ten sposób ¶lepy zau³ek. Mo¿e to miejsce, do
+którego zapêdza siê nieproszonych go¶ci? 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5505
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5505
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5507
+Name {WKopalnia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5508
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5508
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5510
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5510
+Resources 60 20 0 0 5 0 0 0 
+Capacity 6
+Roomend
+#Vnum 5508
+Name {WKopalnia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy Duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu
+i innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie
+i sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez
+nieuprz±tniête ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5509
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5509
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5507
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5507
+Resources 90 0 0 0 0 0 0 0 
+Capacity 10
+Roomend
+#Vnum 5509
+Name {WKopalnia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5510
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5510
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5508
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5508
+Resources 0 0 0 0 20 0 0 0 
+Capacity 4
+Roomend
+#Vnum 5510
+Name {WKopalnia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy Duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu
+i innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie
+i sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez
+nieuprz±tniête ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze.
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5509
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5509
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5507
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5507
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5505
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5505
+Resources 60 0 0 0 20 0 0 0 
+Capacity 7
+Roomend
+#Vnum 5511
+Name {DKorytarz{x~
+Descr Znajdujesz siê w w±skim korytarzu. Wykuty zosta³ on w kamieniu i s³u¿y
+jako przej¶cie. Po obu stronach znajduj± siê pochodnie podwieszone pod
+¶ciany, wiêc jest jasno. Od czasu do czasu cisze zak³ócaj± jakie¶ brzdêki i
+odg³osy kucia. Wszystko to okrywa przeokropny zapach.
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5512
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5512
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5503
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5503
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5512
+Name {DKorytarz{x~
+Descr Jest to do¶æ wysoki, lecz w±ski korytarz biegn±cy przez kopalnie
+duergarów. Strop podtrzymuj± grube, dêbowe belki, które s± ju¿ trochê
+spróchnia³e i podgni³e, ale jeszcze spe³niaj± swoj± g³ówn± rolê. Miejsce to
+nie ró¿ni siê zbytnio od innych. Chyba tylko tym, ¿e jest tutaj stosunkowo
+wiêcej pajêczyn ni¿ w innych czê¶ciach kopalni. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5513
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5513
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5511
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5511
+Resources 0 40 50 0 0 0 0 0 
+Capacity 10
+Roomend
+#Vnum 5513
+Name {DKorytarz{x~
+Descr Znajdujesz siê w w±skim korytarzu. Wykuty zosta³ on w kamieniu i s³u¿y
+jako przej¶cie. Po obu stronach znajduj± siê pochodnie podwieszone pod
+¶ciany, wiêc jest jasno. Od czasu do czasu cisze zak³ócaj± jakie¶ brzdêki i
+odg³osy kucia. Wszystko to okrywa przeokropny zapach. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5514
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5514
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5512
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5512
+Resources 0 0 60 0 0 0 0 0 
+Capacity 8
+Roomend
+#Vnum 5514
+Name {DSkrzy¿owanie{x~
+Descr Jest to jedne ze skrzy¿owañ kopalni duergarów. W tym w³a¶nie miejscu
+krzy¿uj± siê g³ówne korytarze przez, które szare krasnoludy transportuj±
+urobek. W niektórych miejscach w ¶cianach znajduj± siê dziwne dziury, nie
+wiedzieæ czemu zosta³y one tutaj zrobione. Mo¿e spe³niaj± one funkcje pó³ek.
+Co jaki¶ czas przechodz± têdy zgraje duergarów ¶piesz±cych siê do roboty.
+Zadziwiaj±ce jest tylko to, ¿e praktycznie nie zwracaj± oni na ciebie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5528
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5528
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5515
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5515
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5513
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5513
+Resources 0 55 0 0 0 0 0 0 
+Capacity 4
+Roomend
+#Vnum 5515
+Name {WKopalnia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5514
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5514
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5516
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5516
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5516
+Name {DSkrzy¿owanie{x~
+Descr Jest to jedne ze skrzy¿owañ kopalni duergarów. W tym w³a¶nie miejscu
+krzy¿uj± siê g³ówne korytarze przez, które szare krasnoludy transportuj±
+urobek. W niektórych miejscach w ¶cianach znajduj± siê dziwne dziury, nie
+wiedzieæ czemu zosta³y one tutaj zrobione. Mo¿e spe³niaj± one funkcje pó³ek.
+Co jaki¶ czas przechodz± têdy zgraje duergarów ¶piesz±cych siê do roboty.
+Zadziwiaj±ce jest tylko to, ¿e praktycznie nie zwracaj± oni na ciebie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5515
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5515
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5520
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5520
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5517
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5517
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5517
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5516
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5516
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5518
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5518
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5518
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5517
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5517
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5519
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5519
+Resources 0 0 100 0 0 0 0 0 
+Capacity 4
+Roomend
+#Vnum 5519
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5518
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5518
+Resources 0 0 50 40 0 0 0 0 
+Capacity 8
+Roomend
+#Vnum 5520
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5516
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5516
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5521
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5521
+Resources 0 0 0 30 0 0 0 0 
+Capacity 12
+Roomend
+#Vnum 5521
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5520
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5520
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5522
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5522
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5522
+Name {DStreome zej¶cie{x~
+Descr Jest to strome zej¶cie, prowadzi ono do dolnego poziomu kopalni. S±dz±c
+po szeroko¶ci tego korytarza mo¿na by wywnioskowaæ, i¿ jest on czêsto
+odwiedzany przez grupy szarych krasnoludów. Na ¶cianach zosta³y podwieszane
+pochodnie, sprawiaj± one ¿e w przej¶ciu jest stosunkowo jasno. W niektórych
+miejscach kto¶ zostawi³ jeszcze od³amki ska³. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5521
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5521
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5545
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5545
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5523
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5525
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5525
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5524
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5524
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5545
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5545
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5524
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5523
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5523
+Resources 0 0 0 0 0 0 5 0 
+Capacity 6
+Roomend
+#Vnum 5525
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5526
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5526
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5523
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5523
+Resources 0 0 0 0 0 6 2 0 
+Capacity 10
+Roomend
+#Vnum 5526
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5527
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5527
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5525
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5525
+Resources 0 0 0 0 0 10 5 0 
+Capacity 10
+Roomend
+#Vnum 5527
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5526
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5526
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5528
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5529
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5529
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5514
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5514
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5529
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5538
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5538
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5528
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5528
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5530
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5530
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5530
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5531
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5531
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5529
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5529
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5531
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5532
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5532
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5530
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5530
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5532
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³, które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5533
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5533
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5534
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5534
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5531
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5531
+Resources 60 0 0 0 0 0 5 0 
+Capacity 6
+Roomend
+#Vnum 5533
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5532
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5532
+Resources 0 0 0 0 0 5 0 5 
+Capacity 10
+Roomend
+#Vnum 5534
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5535
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5535
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5536
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5536
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5532
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5532
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5535
+Name Sk³ad narzêdzi~
+Descr Jest to pomieszczenie, w którym rozdawane s± wszelkie narzêdzia dla
+szarych krasnoludów. W rogu stoi spora kupa wszelkiego rodzaju kilofów,
+³opat, szpadli i m³otów. Wysoko, tu¿ pod stropem zawieszono ma³± lampê
+naftow±, która daje co prawda ciemne, ale zawsze ¶wiat³o. Co jaki¶ czas
+przychodzi tutaj jaki¶ krasnolud po narzêdzia swojej pracy. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5534
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5534
+Resources 40 0 0 0 0 10 10 10 
+Capacity 14
+Roomend
+#Vnum 5536
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³ które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5537
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5537
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5534
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5534
+Resources 100 0 0 0 0 0 0 0 
+Capacity 2
+Roomend
+#Vnum 5537
+Name Ciemne pomieszczenie~
+Descr Znajdujesz siê w pomieszczeniu, w którym krasnoludy wypoczywaj± w
+przerwach od pracy. Na pod³odze pod ¶cian± le¿± dwie kupki ¶mierdz±cej
+s³omy, które chyba spe³niaj± rolê ³ó¿ka. Miejsce to nie jest o¶wietlone
+¿adnego rodzaju ¶wiat³em, pewnie w celu pe³niejszego wypoczynku. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5536
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5536
+Resources 100 0 0 0 0 0 10 0 
+Capacity 20
+Roomend
+#Vnum 5538
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³ które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5539
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5539
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5529
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5529
+Resources 0 0 80 0 0 0 0 0 
+Capacity 8
+Roomend
+#Vnum 5539
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5540
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5540
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5538
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5538
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5540
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³ które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5539
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5539
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5541
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5541
+Resources 0 50 40 0 0 0 0 0 
+Capacity 18
+Roomend
+#Vnum 5541
+Name {WJaskinia duergarów{x~
+Descr Jest to jedne ze skrzy¿owañ kopalni duergarów. W tym w³a¶nie miejscu
+krzy¿uj± siê g³ówne korytarze przez, które szare krasnoludy transportuj±
+urobek. W niektórych miejscach w ¶cianach znajduj± siê dziwne dziury, nie
+wiedzieæ czemu zosta³y one tutaj zrobione. Mo¿e spe³niaj± one funkcje pó³ek.
+Co jaki¶ czas przechodz± têdy zgraje duergarów ¶piesz±cych siê do roboty.
+Zadziwiaj±ce jest tylko to, ¿e praktycznie nie zwracaj± oni na ciebie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5540
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5540
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5542
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5542
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5543
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5543
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5544
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5544
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5542
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³ które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5541
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5541
+Resources 40 0 0 0 20 0 0 0 
+Capacity 4
+Roomend
+#Vnum 5543
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³ które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5541
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5541
+Resources 40 0 0 0 20 0 0 0 
+Capacity 4
+Roomend
+#Vnum 5544
+Name {WJaskinia duergarów{x~
+Descr W miejscu tym jest niezwykle brudno i mokro. Wszystko jest spowite sadz±
+z pochodni i lamp górniczych, widaæ ¿e kopalnia jest ca³y czas powiêkszana w
+tym miejscu, poniewa¿ strop nie jest jeszcze zabezpieczony belkami. W k±tach
+le¿± resztki drewna i innych bli¿ej niezidentyfikowanych ci obiektów, które
+kiedy¶ chyba s³u¿y³y chyba jako narzêdzia do kucia w skale. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5541
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5541
+Resources 40 0 0 0 20 0 0 0 
+Capacity 4
+Roomend
+#Vnum 5545
+Name {WJaskinia duergarów{x~
+Descr Zak±tek, w którym siê znajdujesz jest miejscem pracy duergarów. To tutaj
+szare krasnoludy ³upi± w pocie czo³a ska³y w poszukiwaniu cennego mithrilu i
+innych kruszców. Wszêdzie unosi siê ziarnisty py³ utrudniaj±cy oddychanie i
+sprawiaj±cy, ¿e samo przebywanie w tym miejscu jest mêcz±ce, a co dopiero
+praca. Pod³o¿e jest niezwykle miêkkie i grz±skie - to przez nieuprz±tniête
+ma³e od³upki ska³ które nawarstwiaj± siê na pod³odze. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5523
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5523
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5522
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5522
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5546
+Name {DStrome przej¶cie{x~
+Descr Jest to brudne i wilgotne miejsce, ¶cie¿ka. Je¶li tak mo¿na nazwaæ
+pod³o¿e wysypane trochê bardziej drobnymi ska³kami ni¿ te, które znajduj±
+siê po bokach i na ¶cianach. W dole widaæ jakie¶ malutkie ¶wiate³ko, to
+pewnie latarnia, która o¶wietla drogê do kopalni, ciekawe kto j± tam
+zostawi³. 
+~
+FlagsExt 0|C
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5547
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5547
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5500
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5500
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5547
+Name {DStrome przej¶cie{x~
+Descr Jest tu brudno i mokro, wszystko sprawia wra¿enie jakby przesi±kniête
+smrodem stêchlizny i rozk³adaj±cych siê ro¶lin. Wszystko to sprawia, ¿e
+trudno tu wytrzymaæ d³u¿ej ni¿ kilka minut. Na suficie wisi kilka
+nietoperzy. Czy¿by smród im nie przeszkadza³? 
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5548
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5548
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5546
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5546
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5548
+Name {DStrome przej¶cie{x~
+Descr Jest to brudne i wilgotne miejsce, ¶cie¿ka. Je¶li tak mo¿na nazwaæ
+pod³o¿e wysypane trochê bardziej drobnymi ska³kami ni¿ te, które znajduj±
+siê po bokach i na ¶cianach. W dole widaæ jakie¶ malutkie ¶wiate³ko, to
+pewnie latarnia, która o¶wietla drogê do kopalni, ciekawe kto j± tam
+zostawi³. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5549
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5549
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5547
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5547
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5549
+Name {DStrome przej¶cie{x~
+Descr Jest tu brudno i mokro, wszystko sprawia wra¿enie jakby przesi±kniête
+smrodem stêchlizny i rozk³adaj±cych siê ro¶lin. Wszystko to sprawia, ¿e
+trudno tu wytrzymaæ d³u¿ej ni¿ kilka minut. Na suficie wisi kilka
+nietoperzy. Czy¿by smród im nie przeszkadza³? 
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5550
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5550
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5548
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5548
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5550
+Name {DWej¶cie do kopalni{x~
+Descr Znajdujesz siê w niezbyt przyjemnym miejscu. ¦ciany tej jaskini s±
+o¶lizg³e i gdzieniegdzie poro¶niête mchem, spowodowane jest to zapewne wod±
+deszczow±, która sp³ywa tu z powierzchni ziemi obmywaj±c przej¶cie i tworz±c
+ma³e kanaliki. Na dole znajduje siê strome i ¶liskie przej¶cie do dalszej
+czê¶ci kopalni. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27270
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27270
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5549
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5549
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 5500 0 5500
+M 100 5500 4 5502 2
+M 100 5502 4 5503 27
+M 100 5501 17 5504 2
+M 100 5502 4 5505 28
+M 100 5500 5 5505 2
+M 100 5500 7 5507 2
+M 100 5502 4 5509 29
+M 100 5501 16 5509 2
+M 100 5500 6 5509 2
+M 100 5501 15 5510 2
+M 100 5503 4 5512 36
+M 100 5501 18 5512 2
+M 100 5502 4 5513 30
+M 100 5500 8 5513 2
+M 100 5500 12 5518 2
+M 100 5500 11 5520 2
+M 100 5500 14 5525 2
+M 100 5501 19 5528 2
+M 100 5503 4 5529 35
+M 100 5502 4 5529 31
+M 100 5501 20 5530 2
+M 100 5500 9 5530 2
+M 100 5502 4 5532 32
+M 100 5503 4 5534 34
+M 100 5501 21 5534 2
+M 100 5500 10 5534 2
+M 100 5535 4 5535 1
+M 100 5502 4 5537 33
+M 100 5501 22 5537 2
+M 100 5501 23 5541 2
+M 100 5501 24 5542 2
+M 100 5500 13 5545 2
+S
+
+
+
+#MOBPROGSNEW
+#5500
+eq m³odej krasnoludki (onload)
+~
+mob equip self 3018
+mob equip self 3050
+mob equip self 3001
+if rand 50
+  mob equip self 3157
+else
+  mob equip self 3371
+endif
+mob oload gem 1
+~
+#5501
+eq Gorników (onload)
+~
+mob equip self 3018
+mob equip self 3050
+mob equip self 3001
+mob oload 3276
+hold kilof
+if rand 60
+  $_rand = int_random 1 7
+  if numeval $_rand == 1
+    mob oload 3111
+  endif
+  if numeval $_rand == 2
+    mob oload 3112
+  endif
+  if numeval $_rand == 3
+    mob oload 3113
+  endif
+  if numeval $_rand == 4
+mob oload 3118
+  endif
+  endif
+~
+#5502
+eq Stra¿ników (onload)
+~
+mob equip self 3077
+mob equip self 3029
+mob equip self 3061
+mob equip self 3016
+mob equip self 3045
+mob equip self 3145
+if rand 40
+  mob oload weapon 5 wield
+endif
+~
+#5503
+eq Garvuna (onload)
+~
+mob equip self 3018
+mob equip self 3050
+mob equip self 3001
+mob equip self 3157
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

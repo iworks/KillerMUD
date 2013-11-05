@@ -1,0 +1,33 @@
+Messages
+M1013085628
+Razor~
+{B[1 prog                          ]{x {WThu Feb  7 13:40:28 2002
+{x~
+#ogolnie czytelniej jest rozwalac to na poszczegolne ify
+ 
+if hasflag $n nqwins
+   break
+endif
+if hasflag $n nqstart
+   break
+endif
+if magspec $n != 7
+   break
+endif
+if level $n < 13
+   break
+endif
+if level $n > 15
+   break
+endif
+#teraz zostali kolesie ktorzy spelniaja wymagania
+if sex $n == 2
+   tell $n Witaj, siostro.
+else
+   tell $n Witaj, bracie.
+endif
+tell $n Widze, ze nie zaniedbujesz pracy nad soba...
+usm $n
+tell $n Czy chcesz wysluchac, co mam Ci do powiedzenia?
+~
+S

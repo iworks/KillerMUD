@@ -1,0 +1,3349 @@
+#AREADATA
+Name Gorskie tereny~
+Builders Annor~
+VNUMs 24131 24230
+Credits KASUJEMY?
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 24131
+Name wielki ogr~
+Odmiana wielkiego ogra~wielkiemu ogrowi~wielkiego ogra~wielkim ogrem~wielkim ogrze~
+Short wielki ogr~
+Long Wielki ogr patrzy na ciebie z nienawi¶ci±.~
+Descr Widzisz przed sob± ogromne postaæ, bardzo dobrze umiê¶nion±. Jest to
+jeden z rasy ogrów, ta rasa jest znana z wielkiej si³y i ma³ego intelektu, a
+ten ogr na pewno nie stanowi wyj±tku. Co widaæ po jego têpym spojrzeniu, ale
+ma³o osób ma i tak odwagê siê z nim mierzyæ. Wiêc wiesz, ¿e ogr to dla
+ciebie ³atwy przeciwnik albo jeste¶ zwyk³ym g³upcem. 
+~
+Race ogr~
+ActExt 0|AFIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AE
+Speaks 4
+Level 22
+Hitroll 2
+HP 12d12+650
+Damage 4d2+7
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 2
+Stats 144 90 90 108 132 78 90
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+MobprogNew onload 24131 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24132
+Name w³ochaty ogr~
+Odmiana w³ochatego ogra~w³ochatemu ogrowi~w³ochatego ogra~w³ochatym ogrem~w³ochatym ogrze~
+Short w³ochaty ogr~
+Long W³ochaty ogr przechadza siê szukjaæ po¿ywienia.~
+Descr Patrzysz ze zdziwieniem na potê¿nego ogra. Jest on ogromny i pokryty
+lekk± sier¶ci±, która nie przes³ania jego wielki musku³. Jest to stworzenie
+agresywne i kogokolwiek innej rasy ni¿ ogr ma ochotê zabiæ. A jak wiadomo
+si³a ogra jest tak du¿a, ¿e ma³o kto tak± ma. Ale przewag± wielu ras jest
+inteligencja, czego nie mo¿na powiedzieæ o ograch. 
+~
+Race ogr~
+ActExt 0|AFIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AE
+Speaks 4
+Level 23
+Hitroll 2
+HP 9d8+685
+Damage 3d4+6
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 1 1 1 1
+Stats 144 96 96 120 144 90 90
+Off CDIRV
+OffExt 0|CDIRV
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+MobprogNew onload 24131 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24133
+Name górski ogr~
+Odmiana górskiego ogra~górskiemu ogrowi~górskiego ogra~górskim ogrem~górskim ogrze~
+Short górski ogr~
+Long Górski ogr przechadza siê wyra¿nie czego¶ szukaj±c.~
+Descr ~
+Race ogr~
+ActExt 0|AFIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AE
+Speaks 4
+Level 23
+Hitroll 2
+HP 12d9+650
+Damage 3d4+7
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 1 1 1 1
+Stats 138 96 96 120 132 90 90
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+MobprogNew onload 24131 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 24131
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24132
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24132
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24132
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24133
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24133
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24131
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24131
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24133
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24134
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24134
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24132
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24132
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24134
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24138
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24138
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24133
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24133
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24135
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24135
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24135
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24134
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24134
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24136
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24136
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24136
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24135
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24135
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24137
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24137
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24137
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24136
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24136
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24138
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24151
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24151
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24134
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24134
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24139
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24139
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24139
+Name Wysokie góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24140
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24140
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24155
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24155
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24141
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24141
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24140
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24139
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24139
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24141
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24139
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24139
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24142
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24142
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24143
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24143
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24142
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24141
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24141
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24143
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24171
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24171
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24141
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24141
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24144
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24144
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24144
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24143
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24143
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24145
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24145
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24145
+Name Wysokie góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24144
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24144
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24146
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24146
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24156
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24156
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24146
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24145
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24145
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24148
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24148
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24147
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24147
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24147
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24146
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24146
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24148
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24150
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24150
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24149
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24149
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24146
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24146
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24149
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24148
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24148
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24150
+Name Wysokie góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24148
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24148
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24151
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24152
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24152
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24138
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24138
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24152
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24153
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24153
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24151
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24151
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24153
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24152
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24152
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24154
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24154
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24154
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24153
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24153
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24155
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24155
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24155
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24165
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24165
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24154
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24154
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24139
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24139
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24156
+Name Wysokie góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24159
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24159
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24145
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24145
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24157
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24157
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24157
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24156
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24156
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24158
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24158
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24158
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24157
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24157
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24159
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24160
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24160
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24156
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24156
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24162
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24162
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24160
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24159
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24159
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24161
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24161
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24161
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24160
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24160
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24162
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24159
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24159
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24163
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24163
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24163
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24162
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24162
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24164
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24164
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24164
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24163
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24163
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24165
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24166
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24166
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24155
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24155
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24166
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24167
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24167
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24165
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24165
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24167
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24169
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24169
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24168
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24168
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24166
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24166
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24168
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24167
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24167
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24169
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24170
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24170
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24167
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24167
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24176
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24176
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24170
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24169
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24169
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24177
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24177
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24171
+Name Wysokie góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24172
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24172
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24143
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24143
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24172
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24173
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24173
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24171
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24171
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24173
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24182
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24182
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24174
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24174
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24172
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24172
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24179
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24179
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24174
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24178
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24178
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24175
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24175
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24173
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24173
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24175
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24174
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24174
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24176
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24169
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24169
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24177
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24188
+ExitExtEnd
+Exit 0
+~
+~
+16 0 24188
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24170
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24170
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24178
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24174
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24174
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24179
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24173
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24173
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24180
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24180
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24180
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24181
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24181
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24179
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24179
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24181
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24180
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24180
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24182
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24173
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24173
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24183
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24183
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24183
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24184
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24184
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24182
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24182
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24184
+Name Wysokie góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24185
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24185
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24183
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24183
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24185
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24186
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24186
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24184
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24184
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24186
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24187
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24187
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24185
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24185
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24187
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24188
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24188
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24186
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24186
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24188
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24189
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24189
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24177
+ExitExtEnd
+Exit 2
+~
+~
+16 0 24177
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24187
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24187
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24189
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24188
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24188
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24190
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24190
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24190
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24189
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24189
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24191
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24191
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24191
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24190
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24190
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24192
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24193
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24193
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24195
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24195
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24193
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24206
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24206
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24194
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24194
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24192
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24192
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24194
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24193
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24193
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24203
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24203
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24195
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24196
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24196
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24198
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24198
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24192
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24192
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24196
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24195
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24195
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24197
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24197
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24197
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24196
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24196
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24227
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24227
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24198
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24195
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24195
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24199
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24199
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24199
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24200
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24200
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24198
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24198
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24201
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24201
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24200
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24199
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24199
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24201
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24202
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24202
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24199
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24199
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24202
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24201
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24201
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24203
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24204
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24204
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24194
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24194
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24204
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24205
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24205
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24203
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24203
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24205
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24204
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24204
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24206
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24207
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24207
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24193
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24193
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24207
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24209
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24209
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24208
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24208
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24206
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24206
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24208
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24207
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24207
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24209
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24207
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24207
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24210
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24210
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24210
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24216
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24216
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24209
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24209
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24211
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24211
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24211
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24210
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24210
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24212
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24212
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24212
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24211
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24211
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24213
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24213
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24213
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24215
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24215
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24212
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24212
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24214
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24214
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24214
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24213
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24213
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24215
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24213
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24213
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24216
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24222
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24222
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24210
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24210
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24217
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24217
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24217
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24216
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24216
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24219
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24219
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24218
+ExitExtEnd
+Exit 5
+~
+~
+16 0 24218
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24218
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24217
+ExitExtEnd
+Exit 4
+~
+~
+16 0 24217
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24219
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24220
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24220
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24217
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24217
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24220
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24221
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24221
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24219
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24219
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24221
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24220
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24220
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24222
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24223
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24223
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24216
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24216
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24223
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24226
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24226
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24222
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24222
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24224
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24224
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24224
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24225
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24225
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24223
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24223
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24225
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24226
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24226
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24224
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24224
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24228
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24228
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24226
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24223
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24223
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24225
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24225
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24227
+Name Przepa¶æ~
+Descr ~
+FlagsExt 0
+Sector 5
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24197
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24197
+Roomprog entry 24197 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24228
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24230
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24230
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24225
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24225
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24229
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24229
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24229
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24228
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24228
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24230
+Name Góry~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24228
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24228
+DayRDesc 24131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 24131 8 24132 1
+M 100 24133 8 24136 1
+M 100 24132 8 24139 1
+M 100 24133 8 24141 1
+M 100 24133 8 24144 1
+M 100 24132 8 24144 1
+M 100 24131 8 24148 1
+M 100 24132 8 24150 1
+M 100 24132 8 24157 1
+M 100 24131 8 24163 1
+M 100 24133 8 24166 1
+M 100 24133 8 24173 1
+M 100 24132 8 24178 1
+M 100 24131 8 24181 1
+M 100 24131 8 24184 1
+M 100 24133 8 24190 1
+M 100 24132 8 24193 1
+M 100 24131 8 24196 1
+M 100 24132 8 24204 1
+M 100 24132 8 24208 1
+M 100 24133 8 24210 1
+M 100 24132 8 24220 1
+M 100 24131 8 24222 1
+M 100 24133 8 24225 1
+M 100 24131 8 24226 1
+S
+
+
+
+#MOBPROGSNEW
+#24131
+~
+mob equip self 3356
+mob equip self 4377
+if rand 80
+  mob oload gem 4
+else
+  mob oload gem 3
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#24197
+Przepa¶æ!!
+~
+if affected $n flying
+  mob echoat $n Zaciekawiony co mo¿e znajdowaæ siê na dnie szczeliny wlatujesz do niej, jednak widz±c, ¿e nic specjalnego tu nie ma, wracasz z powrotem na góre.
+  mob transfer $n 24197
+else
+  mob echoat $n Zaciekawiony co mo¿e znajdowaæ siê na dnie szczeliny skaczesz wprzepa¶æ. Po chwili lotu orientujesz siê, ze mo¿e nie by³ to najlepszy pomys³. Coraz szybciej spadasz w dol, a dna rozpadliny nie widaæ. W koñcu twoje cia³o nie jest w stanie wytrzymaæ ci¶nienia i prêdko¶ci, które to mia¿d¿± twa czaszkê...
+  mob damage $n 2000 2000 kill
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 24131
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 3_4~
+Desc Pustynia kamieni, g³azów oraz wszelkiej wielko¶ci ¿wiru. Do tego du¿a
+wysoko¶æ sprawiaj±, ze nie trudno tutaj o zawroty g³owy. Nale¿y zachowaæ
+szczególn± ostro¿no¶æ w czasie podró¿owania. 
+~
+Group 3
+End
+#Name 3_3~
+Desc Ogromne g³azy, kamienie i skalne monolity. Glowny element tutejszego
+krajobrazu, niema co siê zatrzymywaæ, ruszaj w dalsza drogê. 
+~
+Group 3
+End
+#Name 3_2~
+Desc Dooko³a ciebie widzisz porozrzucane kamienie, g³azy i inne z³amki skalne.
+Bardzo ³atwo o wypadek. W ka¿dej chwili mo¿esz siê po¶lizn±æ i z³amaæ nogê
+lub co gorsza kark. 
+~
+Group 3
+End
+#Name 3_1~
+Desc Pustynia kamieni, g³azów oraz wszelkiej wielko¶ci ¿wiru. Do tego du¿a
+wysoko¶æ sprawiaj±, ze nie trudno tutaj o zawroty g³owy. Nale¿y zachowaæ
+szczególn± ostro¿no¶æ w czasie podró¿owania. 
+~
+Group 3
+End
+#Name 2_4~
+Desc Ka¿dy krok mo¿e zakoñczyæ siê katastrofa. Pobliskie g³azy, znajduj±ce siê
+ponad twoja g³owa, mog± w ka¿dej chwili zsun±æ siê na ciebie, mia¿d¿±c cie
+ca³kowicie. 
+~
+Group 2
+End
+#Name 2_3~
+Desc Wêdrówka przez te górskie pustkowie nie wydaje siê ani bezpieczna, ani
+przyjemna. Chocia¿ widoki s±, wrêcz zapieraj±ce dech w piersiach, to jednak
+wola³by¶ ju¿ znale¼æ siê w spokojnej dolinie. 
+~
+Group 2
+End
+#Name 2_2~
+Desc Majestatyczny widok rozci±ga siê daleko a¿ po horyzont. Przy zachmurzone
+niebie spokojnie mo¿na dostrzec iglice pobliskich wierzcho³ków górskich 
+~
+Group 2
+End
+#Name 2_1~
+Desc Ka¿dy kolejny krop wydaje siê coraz trudniejszy. Im wy¿ej znajdujesz siê,
+tym trudnij zaczerpn±æ haust powietrza. Najwidoczniej jest tutaj
+zdecydowanie mniej ¿yciodajnego gazu. 
+~
+Group 2
+End
+#Name 1_4~
+Desc Górskie szczyty majestatycznie nikn± w¶ród gêstych chmur. Droga prowadzi
+przez pobliskie kaniony, umo¿liwiaj±ce w miarê wygodna podro¿ 
+~
+Group 1
+End
+#Name 1_3~
+Desc Wiekowe ska³y pokrywa gruba warstwa ¶niegu. Na szczê¶cie dla ciebie, nie
+musisz wdrapywaæ siê na szczyt tych gór, bo nic tam ciekawego nie spotkasz,
+ale mo¿e w gdzie¶ dalej jest miejsce którego jeszcze nie odkryto 
+~
+Group 1
+End
+#Name 1_2~
+Desc Górskie szczyty pokrywa gruby kozuch ¶niegu i lodu. Nale¿y zachowaæ
+szczególna ostro¿no¶æ, gdy¿ ka¿dy wiêkszy ha³as lub wstrz±s mo¿e doprowadziæ
+do lawiny 
+~
+Group 1
+End
+#Name 1_1~
+Desc Górskie szczyty nikn± z oczu w¶ród gêstych chmur, okrywaj±cych ich
+wierzcho³ki. Powietrze tutaj jest o wiele rzadsze, sprawia ci to problemy z
+oddychaniem. Musi min±æ chwila nim przyzwyczaisz siê do takiej wysoko¶ci 
+~
+Group 1
+End
+#Name group~
+Desc ~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,1544 @@
+#AREADATA
+Name {BB{x {R@{x# NK - Delta rzeki~
+Builders Nk~
+VNUMs 44700 44729
+Credits Andrew220@poczta. Onet. Pl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 15601
+End
+
+
+
+#MOBILES
+#Vnum 44700
+Name zielonoskora wywerna~
+Odmiana {cwywerny{x~{cwywernie{x~{cwywernê{x~{cwywerna{x~{cwywernie{x~
+Short {cWywerna{x~
+Long {xWielka zielonoskóra {cwywerna{x patrzy na ciebie i ¶lini siê obficie.~
+Descr Patrzysz na wielkiego stwora podobnego do smoka, z dluga szyja, zielona
+skora i dlugim ogonem zakonczonym ostrym kolcem. Na sama mysl o spotkaniu z
+owa straszliwa bronia jeza ci sie wlosy na calym ciele. 
+~
+Race wywerna~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang L
+Speaks 11
+Level 28
+Hitroll 0
+HP 7d40+700
+Damage 4d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack drapanie
+XAC -1 -1 -1 -1
+Stats 150 132 90 120 138 78 102
+Off CMY
+OffExt 0|CMY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form ABFGZ
+Parts ACDEFHJKQRSVX
+Size large
+Material unknown
+MobprogNew onload 44700 ABCDEFGHI 100~
+Skin 150
+ExpMultiplier 100
+Resist 3 25
+Resist 10 50
+Resist 12 70
+Resist 13 40
+Resist 16 40
+Mobend
+#Vnum 44701
+Name b³otny elemental~
+Odmiana {yb³otnego elementala{x~{yb³otnemu elementalowi{x~{yb³otnego elementala{x~{yb³otnym elementalem{x~{yb³otnym elementalu{x~
+Short {yB³otny elemental{x~
+Long Wielki {yb³otny elemental{x stoi tutaj i rozgl±da sie dooko³a.~
+Descr Spogl±dasz na wielkiego {yb³otnego elementala{x i zastanawiasz siê jaka to
+magia powo³a³a tak± istotê do ¿ycia. Ogromne cielsko wygl±da na ca³e z b³ota
+i gliny, gdzieniegdzie z cia³a wystaj± kawa³ki ga³êzi i kory drzew. 
+~
+Race ¿ywio³ak~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang N
+Speaks 13
+Level 27
+Hitroll 0
+HP 3d50+800
+Damage 3d5+5
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC 8 2 5 2
+Stats 126 66 78 78 108 60 102
+Off CUY
+OffExt 0|CUY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form C
+Parts ABCGHI
+Size large
+Material unknown
+MobprogNew random 44701 FGI 10~
+MobprogNew onload 44702 ABCDEFGHI 50~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 1 40
+Resist 2 40
+Resist 9 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 44702
+Name zielona ropucha~
+Odmiana ropuchy~ropusze~ropuchê~ropuch±~ropusze~
+Short zielona ropucha~
+Long Wielka zielona ropucha skacze w zaro¶lach.~
+Descr Ta ropucha jest nieco wiêksza ni¿ te, które zdarza³o ci siê widywaæ gdzie
+indziej. Ma kolor zielony, jest wielko¶ci mniej wiêcej dwóch piê¶ci pó³orka.
+Jej rechot s³ychaæ pewnie z kilometr st±d. 
+~
+Race ropucha olbrzymia~
+ActExt 0|AG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 1d5+15
+Damage 1d5+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form G
+Parts ACDEFGHIJKLRS
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 44700
+Name Droga~
+Descr Znajdujesz siê na w±skiej, b³otnistej ¶cie¿ce. Teren jest typowo nizinny,
+powietrze wilgotne, od zachodu wieje lekki, orze¼wiaj±cy wiaterek. Patrzysz
+pod nogi i widzisz pe³no sladów ni to zwierz±t, ni to ptaków. Pewnie jakie¶
+stworzenia wydepta³y sobie tutaj trakt do wodopoju. Masz cich± nadziejê, ¿e
+¿adne z tych stwrozeñ nie wyskoczy nagle z ciemnej wody i nie odgryzie ci
+rêki. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44701
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44701
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44701
+Name Poczatek delty rzeki~
+Descr Idziesz w±sk±, podmok³± dró¿k±, w³a¶ciwie to ju¿ nie dró¿ka, tylko
+b³otko, w którym grzê¼niesz po kostki. Gdzie okiem siêgn±æ s± krzaki i
+popl±tane korzenie drzew. Powietrze sta³o siê gêste, wilgotne i niezbyt mi³o
+pachn±ce. Dooko³a ciebie lata pe³no komarów, wa¿ek i innego paskudztwa. Nie
+jest to najprzyjemniejsze miejsce. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44702
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44702
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44700
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44700
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44703
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44703
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44702
+Name Poczatek delty rzeki~
+Descr Idziesz w±sk±, podmok³± dró¿k±, w³a¶ciwie to ju¿ nie dró¿ka, tylko
+b³otko, w którym grzê¼niesz po kostki. Gdzie okiem siêgn±æ s± krzaki i
+popl±tane korzenie drzew. Spogl±daj±c w górê widzisz, ze w koronach drzew
+uwi³o sobie gniazda mnóstwo ró¿norodnego ptactwa. Ich ¶wiergot s³ychaæ
+pewnie daleko od tego miejsca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44701
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44701
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44705
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44705
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44703
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44705
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44705
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44701
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44701
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44704
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44704
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44710
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44710
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44704
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44703
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44703
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44711
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44711
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44705
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44706
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44706
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44702
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44702
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44703
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44703
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44709
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44709
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44706
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44705
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44705
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44707
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44707
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44707
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44708
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44708
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44706
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44706
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44709
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44709
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44717
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44717
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44708
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44707
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44707
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44718
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44718
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44709
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44707
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44707
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44705
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44705
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44710
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44710
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44716
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44716
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44710
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44709
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44709
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44703
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44703
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44711
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44711
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44715
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44715
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44711
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44710
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44710
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44704
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44704
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44712
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44712
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44714
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44714
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44712
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44711
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44711
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44713
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44713
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44713
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44714
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44714
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44712
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44712
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44728
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44728
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44724
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44724
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44714
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44715
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44715
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44711
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44711
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44713
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44713
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44723
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44723
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44715
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44716
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44716
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44710
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44710
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44714
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44714
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44722
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44722
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44716
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44717
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44717
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44709
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44709
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44715
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44715
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44721
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44721
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44717
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44718
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44718
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44707
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44707
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44716
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44716
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44720
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44720
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44718
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44708
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44708
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44717
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44717
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44719
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44719
+DayRDesc 44700
+NightRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44719
+Name Male wzniesienie nad brzegiem~
+Descr Znajdujesz siê na ma³ym wzniesieniu, jedynym zreszt± w okolicy. W³a¶ciwie
+jedyna ró¿nica która dostrzegasz miêdzy tym miejscem a reszt± bagna jest to,
+ze mo¿esz spokojnie usi±¶æ tu i odpocz±æ, co nie znaczy, ze miejsce to wolne
+jest od smrodu i wszêdobylskich, ¿±dnych krwi owadów. Szkoda, ¿e alchemicy
+nie wymy¶leli czego¶ co by odstraszy³o te paskudztwa. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44718
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44718
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44720
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44720
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44720
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44719
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44719
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44717
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44717
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44721
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44721
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44725
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44725
+DayRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44721
+Name Delta rzeki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44720
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44720
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44716
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44716
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44722
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44722
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44726
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44726
+DayRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44722
+Name Brzeg zatoczki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44721
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44721
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44715
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44715
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44723
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44723
+DayRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44723
+Name Brzeg zatoczki~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44722
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44722
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44714
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44714
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44724
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44724
+DayRDesc 44700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44724
+Name Uj¶cie odnogi rzeki~
+Descr Jeste¶ w miejscu, w którym po³udniowa odnoga rzeki wp³ywa do zatoki. Woda
+siêga ci tutaj do szyi, masz wra¿enie, ze jeszcze krok dalej i przykryje ciê
+ca³kowicie. Fale od morza od czasu do czasu siêgaj± czubka twojej g³owy,
+lepiej poszukaæ jakiego¶ bardziej suchego miejsca. Najlepiej bêdzie siê
+udaæw kierunku wschodnim. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44723
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44723
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44713
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44713
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44725
+Name Nad brzegiem morza~
+Descr Znajdujesz siê nad brzegiem morza w miejscu, gdzie rzeka koñczy swój
+bieg. Daleko na pó³nocy i po³udniu widzisz dwie odnogi rzeki wp³ywaj±ce do
+zatoki. Woda tutaj siêga ci prawie do pasa, doliczaj±c do tego miêkki,
+zapadaj±cy siê grunt, to jeste¶ mokry a¿ po pachy. Wszêdzie dooko³a s³ychaæ
+brzêczenie owadów. Gdyby nie bryza, która wieje od morza, pewnie udusi³by¶
+siê oparami z tego bagniska. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44720
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44720
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44726
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44726
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44726
+Name Nad brzegiem morza~
+Descr Znajdujesz siê nad brzegiem morza w miejscu, gdzie rzeka koñczy swój
+bieg. Daleko na pó³nocy i po³udniu widzisz dwie odnogi rzeki wp³ywaj±ce do
+zatoki. Woda tutaj siêga ci prawie do pasa, doliczaj±c do tego miêkki,
+zapadaj±cy siê grunt, to jeste¶ mokry a¿ po pachy. Wszêdzie dooko³a s³ychaæ
+brzêczenie owadów. Gdyby nie bryza, która wieje od morza, pewnie udusi³by¶
+siê oparami z tego bagniska. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44725
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44725
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44721
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44721
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44727
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44727
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44727
+Name Mierzeja~
+Descr To miejsce, to najbardziej wysuniêty na zachód fragment l±du. Utworzy³y
+go tony b³ota, piasku i innego materia³u naniesione tutaj przez d³ugi czas
+wraz z pr±dem rzeki. Masz wra¿enie, ¿e jeszcze chwila, a sam staniesz siê
+budulcem tego miejsca. Z zachodu czuæ powiew silnej, morskiej bryzy
+nadaj±cej nieco ¶wie¿o¶ci temu miejscu. 
+~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44726
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44726
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44728
+Name Sza³as po¶ród bagien~
+Descr B³±kaj±c siê po¶ród bagien trafiasz na miejsce, gdzie pewnie kogo¶, tak
+jak i ciebie, znu¿y³o ci±g³e brodzenie w b³ocie. Z kawa³ków wielkich li¶ci,
+ga³êzi i pn±czy kto¶ zbudowa³ tu ca³kiem zgrabny sza³as. Wreszcie jakie¶
+miejsce, gdzie mo¿na spokojnie usi±¶æ i trochê odpocz±æ. Na ¶rodku sza³asu
+tli siê lekko ognisko, a wiêc kto¶ tu by³ dosyæ niedawno. 
+~
+FlagsExt 0|C
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44713
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44713
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 44702 3 44706 1
+M 100 44701 5 44708 1
+M 100 44701 5 44710 1
+M 100 44702 3 44711 1
+M 100 44701 5 44712 1
+M 100 44702 3 44713 1
+M 100 44701 5 44717 1
+O 100 3320 0 44719
+M 100 44700 1 44720 1
+M 100 44701 5 44723 1
+O 100 3203 0 44728
+S
+
+
+
+#MOBPROGSNEW
+#44700
+~
+if rand 50
+  mob oload gem 4
+else
+  mob oload gem 5
+endif
+~
+#44701
+~
+if rand 75
+mob echoat $r {y B³otny elemental{x powoli odwraca g³owê w twoj± stronê.
+break
+endif
+if rand 50
+warcz
+break
+endif
+if rand 25
+mob echo {yB³otny elemental{x schyla siê, bierze w gar¶æ trochê b³ota i uzupe³nia ubytek w swoim ciele.
+break
+endif
+~
+#44702
+~
+mob oload gem 3
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 44700
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 9~
+Desc Nagle s³yszysz gdzie¶ za sob± jaki¶ przera¼liwy skowyt, odwracasz g³owê, lecz widzisz jedynie krople wody spadaj±ce z mokrych koron drzew.
+~
+Group 3
+End
+#Name 8~
+Desc Nisko nad ziemi± unosi siê gêsta, bia³a mg³a. 
+~
+Group 3
+End
+#Name 7~
+Desc Rozgl±dasz siê nerwowo dooko³a, lecz dostrzegasz jedynie krzewy, bagna i wysokie drzewa ze zdart± kor± na wysoko¶ci mniej wiêcej twojej g³owy. 
+~
+Group 3
+End
+#Name 6~
+Desc Spomiêdzy krzewów dochodz± ciê dziwne odg³osy, jakby porykiwania jakiego¶ du¿ego zwierza. 
+~
+Group 2
+End
+#Name 5~
+Desc Grunt jest bardzo podmok³y, miejscami grzê¼niesz w b³ocie prawie po kolana. 
+~
+Group 2
+End
+#Name 4~
+Desc Powietrze jest tu zatêch³e, pe³ne komarów i innego lataj±cego paskudztwa. 
+~
+Group 2
+End
+#Name 3~
+Desc Rozgl±daj±c siê dooko³a stwierdzasz, ze wiêkszego bagniska ni¿ to jako ¿ywo nie widzia³e¶. 
+~
+Group 1
+End
+#Name 2~
+Desc Teren jest tutaj jeszcze bardziej mokry, gdzieniegdzie dostrzegasz ma³e strumyczki, których woda ma kolor brudno-br±zowy. 
+~
+Group 1
+End
+#Name 1~
+Desc Znajdujesz siê w miejscu, gdzie rzeka rozdziela siê na dwie odnogi wp³ywaj±ce do morza, którego szum wyra¼nie dochodzi twoich uszu od zachodu. 
+~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

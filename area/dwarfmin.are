@@ -1,0 +1,3980 @@
+#AREADATA
+Name +# Krasnoludzkie kopalnie pod Fortem~
+Builders Forteca~
+VNUMs 24341 24450
+Credits Krainka pod Krasnoludzk± Fortecê, kopalnie, z niskimi zasobno¶ciami z³ó¿
+i s³abymi mobkami. Jednocze¶nie wstêp pod planowan± siedzibê krasnoludzkiego
+klanu. 
+ 
+Kraina odzwierciedla drogi w Fortecy, znajduje siê 3 poziomy pod Fortec±.
+ 
+Made by {RRedian{x
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 24341
+Name krasnoludzki górnik~
+Odmiana krasnoludzkiego gornika~krasnoludzkiemu gornikowi~krasnoludzkiego gornika~krasnoludzkim gornikiem~krasnoludzkim gorniku~
+Short krasnoludzki górnik~
+Long Krasnoludzki górnik wydobywa surowiec wal±c kilofem w scianê.~
+Descr Krasnoludzki górnik stoj±cy przed tob± w pocie czo³a wydobywa tutaj
+surowce dla swojej Fortecy. Ma on obowi±zek pilnowaæ by w kopalni nie
+pozosta³y rzadne nie wykorzystane z³o¿a. Jego bardziej do¶wiadczeni
+towarzysze ruszyli na po³udnie w poszukiwaniu nowych terenow kopalnianych. 
+~
+Race krasnolud~
+ActExt 0|ACEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 400
+Group 0
+Lang AC
+Speaks 0
+Level 8
+Hitroll 0
+HP 3d15+60
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 6
+Stats 90 90 72 60 108 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 30
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 24341 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24342
+Name szary wielki paskudny szczur~
+Odmiana {Wszarego{x, wielkigo szczura~{Wszaremu{x, wielkimu szczurowi~{Wszarego{x, wielkiego szczura~{Wszarym{x, wielkim szczurem~{Wszarym{x, wielkim szczurze~
+Short {Wszary{x, wielki szczur~
+Long Wielki, paskudny szczur syczy na twój widok.~
+Descr Wielki, padkudny szczur o d³ugiej i szarej sier¶ci zdaje siê gotowaæ do
+ataku. Piana na pysku nie ¶wiadczy raczej o jego przyjaznym nastawieniu.
+Bior±c pod uwagê jego wielko¶æ, ¶mia³o mo¿na powiedzieæ, ¿e mniejsi
+przedstawiciele rasy krasnoludów spokojnie mogliby dosiadaæ t± bestiê.
+D³ugie, ¿ó³te zêbiska wygl±daj± wyj±tkowo wrednie na tle spienionego pyska,
+³atwo siê domy¶liæ ¿e s± niezwykle ostre. 
+~
+Race zwierze~
+ActExt 0|AEG
+Affected 0 0 0 0
+AffectedExt 0
+Align -300
+Group 0
+Lang J
+Speaks 9
+Level 3
+Hitroll 0
+HP 2d5+10
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 9 9 9 9
+Stats 72 18 18 72 72 72 72
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKQRSV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 24341
+Name Centralne skrzy¿owanie~
+Descr Centralne skrzy¿owanie kopalni jest chyba najszerszym miejscem w tym
+przybytku. Szeroko¶ci oko³o czterech metrów, wysoko¶ci niespe³na dwóch, w
+sam raz do prze³adunku i segregacji urobku kopalnianego. Krasnoludy
+przyk³adaj± du¿± wagê do jako¶ci wydobywanych tu rud i minera³ów. Wszêdzie
+da siê dostrzec ¶lady ciê¿kiej pracy, niegdy¶ musia³a to byæ naprawdê
+ruchliwa kopalnia. 
+~
+FlagsExt 0|C
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24348
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24348
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24354
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24354
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24360
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24360
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24342
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24342
+Name Zachodnia sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24341
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24341
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24343
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24343
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24343
+Name Zachodnia sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24342
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24342
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24344
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24344
+DayRDesc 24341
+Resources 0 30 40 5 0 0 0 0 
+Capacity 10
+Roomend
+#Vnum 24344
+Name Rozga³êzienie zachodniej sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24411
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24411
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24343
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24343
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24423
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24423
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24345
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24345
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24345
+Name Zachodnia sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24344
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24344
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24346
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24346
+DayRDesc 24341
+Resources 40 0 0 0 0 0 0 0 
+Capacity 20
+Roomend
+#Vnum 24346
+Name Zachodnia sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24345
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24345
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24347
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24347
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24347
+Name Koniec zachodniej sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24366
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24366
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24346
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24346
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24410
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24410
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24348
+Name Pó³nocna sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24349
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24349
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24341
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24341
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24349
+Name Pó³nocna sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24350
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24350
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24348
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24348
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24350
+Name Skrzy¿owanie w pó³nocnej sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24351
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24351
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24421
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24421
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24349
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24349
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24425
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24425
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24351
+Name Pó³nocna sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24352
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24352
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24350
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24350
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24352
+Name Pólnocna sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24353
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24353
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24351
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24351
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24353
+Name Skrzy¿owanie odnóg kopalni~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24377
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24377
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24352
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24352
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24376
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24376
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24354
+Name Wschodnia sztolnia~
+Descr Wschodnia sztolnia zachowana niemal w nienaruszonym stanie. Kana³ ci±gnie
+siê pod aktualn± drog± wschodni± krasnoludzkiej fortecy. Czasami da siê
+s³yszeæ odg³osy przeje¿d¿aj±cych wozów i rumor miasta, jednak d¼wiêki te s±
+na tyle s³abe, ¿e szybko o nich zapominasz. Wzd³u¿ ca³ego korytarza ci±gn±
+siê ma³e tory kolejki wózkowej. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24355
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24355
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24341
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24355
+Name Wschodnia sztolnia~
+Descr Wschodnia sztolnia zachowana niemal w nienaruszonym stanie. Kana³ ci±gnie
+siê pod aktualn± ca³± fortec±. Czasami czuæ drgania dobiegaj±ce z
+powierzchni. Jest tutaj do¶æ w±sko, bardziej ros³y osobnik mia³by spore
+problemy z poruszaniem siê w tym miejscu. Na wschód prowadzi dalsza czê¶æ
+sztolni, na zachodzie natomiast dostrzec mo¿na centralne skrzy¿owanie,
+bêd±ce ¶rodkiem kopalni. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24356
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24356
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24354
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24354
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24356
+Name Skrzy¿owanie wschodniej sztolni~
+Descr Docierasz do ma³ego skrzy¿owania, tak ma³ego, ¿e boczne korytarze by³y by
+w stanie pomie¶ciæ najwy¿ej dwóch krasnoludów. Zapewne w tym miejscu
+krasnoludzcy górnicy próbowali zrobiæ boczne odwierty, jednak najwidoczniej
+co¶ im to uniemo¿liwi³o skoro porzucili ten plan. Je¶li jeste¶ na tyle ma³y
+by to sprawdziæ, mo¿esz skierowaæ swe kroki na po³udnie lub pó³noc. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24424
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24424
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24357
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24357
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24419
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24419
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24355
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24355
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24357
+Name Wschodnia sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24358
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24358
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24356
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24356
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24358
+Name Skalna sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24359
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24359
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24357
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24357
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24359
+Name Koniec wschodniej sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24383
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24383
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24388
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24388
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24358
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24358
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24360
+Name Po³udniowa sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24341
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24341
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24361
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24361
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24361
+Name Sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24360
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24360
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24362
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24362
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24362
+Name Skrzy¿owanie w po³udniowej sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24361
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24361
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24422
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24422
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24363
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24363
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24420
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24420
+DayRDesc 24341
+Resources 30 15 5 0 0 0 0 0 
+Capacity 15
+Roomend
+#Vnum 24363
+Name Po³udniowa sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24362
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24362
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24364
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24364
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24364
+Name Skalna czê¶æ sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24363
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24363
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24365
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24365
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24365
+Name Koniec po³udniowej sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24364
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24364
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24394
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24394
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24400
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24400
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24366
+Name Sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24367
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24367
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24347
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24347
+DayRDesc 24341
+Resources 0 50 0 0 0 0 0 0 
+Capacity 10
+Roomend
+#Vnum 24367
+Name Ja³owa sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24368
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24368
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24366
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24366
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24368
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24369
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24369
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24367
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24367
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24369
+Name Stare urobisko~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24370
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24370
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24368
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24368
+DayRDesc 24342
+Resources 80 0 0 0 0 0 0 0 
+Capacity 10
+Roomend
+#Vnum 24370
+Name Sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24371
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24371
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24369
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24369
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24371
+Name Szeroki zakrêt sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24372
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24372
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24370
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24370
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24372
+Name Gruzowisko~
+Descr Gruzowisko skalne, miejsce sk³adowania resztek urobku górniczego. Widaæ,
+¿e niektórym krasnoludom nie chcia³o siê zachowywaæ wszystkich zasad
+bezpieczeñstwa i gdy nikt nie patrzy³ swobodnie zrzucali tutaj
+bezwarto¶ciowy urobek. £atwo w takim miejscu o wypadek, lepiej zachowaj
+ostro¿no¶æ, je¶li zamierzasz tutaj pozostaæ. 
+~
+FlagsExt 0|X
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24373
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24373
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24371
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24371
+Trap 24372
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24373
+Name Skalna sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24374
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24374
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24372
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24372
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24374
+Name Skalny chodnik~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24375
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24375
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24373
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24373
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24375
+Name W pobli¿u szybu wiertniczego~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24376
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24376
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24374
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24374
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24376
+Name Zej¶cie do szybu wiertniczego~
+Descr Znajdujesz siê przy zej¶ciu do szybu wiertniczego, sprawia on wra¿enie
+bardzo g³êbokiego i niebezpiecznego, lepiej zachowaæ ostro¿no¶æ je¶li chcesz
+go zbadaæ. Schodz±c na dó³ dobrze zaopatrzyæ siê w linê lub te¿ lekk± pomoc
+magiczn±. Szyb wygl±da bardzo solidnie, jednak mog± to byæ tylko pozory,
+mo¿e lepiej odpu¶ciæ sobie zwiedzanie. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24353
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24353
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24375
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24375
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24426
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24426
+Resources 40 0 0 20 10 0 0 0 
+Capacity 10
+Roomend
+#Vnum 24377
+Name Kopalniany szyb na wschód od skrzy¿owania~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24378
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24378
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24353
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24353
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24429
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24429
+DayRDesc 24342
+Roomprog exit 24377 5~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24378
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24379
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24379
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24377
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24377
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24379
+Name Kopalniany szyb~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24380
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24380
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24378
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24378
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24380
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24381
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24381
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24379
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24379
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24381
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24382
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24382
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24380
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24380
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24382
+Name Szeroki zakrêt miêdzy chodnikami~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24431
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24431
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24387
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24387
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24381
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24381
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24383
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24384
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24384
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24359
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24359
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24384
+Name Korytarz kopalniany~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24385
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24385
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24383
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24383
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24385
+Name Korytarz kopalniany~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24386
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24386
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24384
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24384
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24386
+Name Podziemny chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24387
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24387
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24385
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24385
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24387
+Name Kopalniane urobisko~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24382
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24382
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24386
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24386
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24388
+Name W±ski przesmyk miêdzy ska³ami~
+FlagsExt 0|J
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24359
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24359
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24389
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24389
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24389
+Name W±ska sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24388
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24388
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24390
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24390
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24390
+Name W±ska sztolnia~
+FlagsExt 0|J
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24389
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24389
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24391
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24391
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24391
+Name Gruzowisko~
+Descr Gruzowisko które tu widzisz jest pozosta³o¶ci± po aktywnym wydobyciu
+przez górników. Krasnoludzi pracuj±cy w tej kopalni najwidoczniej nie zawsze
+mieli ochotê sprz±taæ po swojej pracy, czasami jak widaæ zdarza³o im siê
+znosiæ wszelkie zbêdne kamienie do takich oto rzadko uczêszczanych odcinków
+kopalni. Efektem czego powsta³y tego typu zwaliska pe³ne gruzu i innych
+ska³. 
+~
+FlagsExt 0|X
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24390
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24390
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24392
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24392
+Trap 24391
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24392
+Name Sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24391
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24391
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24393
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24393
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24393
+Name Szeroki zakrêt chodnika~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24392
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24392
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24399
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24399
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24394
+Name Chodnik kopalniany~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24395
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24395
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24365
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24365
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24395
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24396
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24396
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24394
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24394
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24396
+Name Ja³owa sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24397
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24397
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24395
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24395
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24397
+Name Korytarz wydr±¿ony w skale~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24398
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24398
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24396
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24396
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24398
+Name Korytarz wydr±¿ony w skale~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24399
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24399
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24397
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24397
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24399
+Name Kopalniany chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24393
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24393
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24398
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24398
+DayRDesc 24342
+Resources 30 15 10 20 0 0 0 0 
+Capacity 15
+Roomend
+#Vnum 24400
+Name Granitowa sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24365
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24365
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24401
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24401
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24401
+Name W±ska sztolnia~
+FlagsExt 0|J
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24400
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24400
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24402
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24402
+DayRDesc 24341
+Resources 80 0 0 0 0 0 0 0 
+Capacity 15
+Roomend
+#Vnum 24402
+Name Sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24401
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24401
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24403
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24403
+DayRDesc 24341
+Resources 80 0 0 0 0 0 0 0 
+Capacity 15
+Roomend
+#Vnum 24403
+Name Kopalniana sztolnia nad szybem~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24402
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24402
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24404
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24404
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24428
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24428
+DayRDesc 24342
+Roomprog exit 24391 5~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24404
+Name Ja³owe skaliska~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24403
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24403
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24405
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24405
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24405
+Name Kopalniany zakrêt~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24406
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24406
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24404
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24404
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24406
+Name Sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24407
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24407
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24405
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24405
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24407
+Name Szeroka sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24408
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24408
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24406
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24406
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24408
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24409
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24409
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24443
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24443
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24407
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24407
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24409
+Name Chodnik~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24410
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24410
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24408
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24408
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24410
+Name Kamienny szyb~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24347
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24347
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24409
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24409
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24411
+Name Krótka odnoga sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24344
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24344
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24412
+ExitExtEnd
+Exit 5
+~
+~
+16 0 24412
+DayRDesc 24342
+Resources 15 15 0 0 0 0 0 0 
+Capacity 10
+Roomend
+#Vnum 24412
+Name Ciemny szyb~
+Descr Ciemny szyb prowadzi wg³±b ziemi, nikt nie wie co znajduje siê na jego
+dnie. Prawdopodobnie krasnoludzi szukali nowych z³ó¿ minera³ów, gdy¿ te na
+wy¿szym poziomie zaczyna³y siê koñczyæ. Niewiadomo jednak czy uda³a im siê
+ta praca, trzeba zachowaæ szczególn± ostro¿no¶æ, gdy¿ mimo noszonego ¶wiat³a
+jest tu bardzo ciemno. Szyb ci±gnie siê na wschód, dalszej drogi nie jeste¶
+w stanie dostrzec. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24413
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24413
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24411
+ExitExtEnd
+Exit 4
+~
+~
+16 0 24411
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24413
+Name Zakrêt ciemnego szybu~
+Descr Ciemny szyb prowadz±cy w g³±b ziemi zakrêca w tym miejscu na pó³noc,
+dalsz± drogê spowijaj± ciemno¶ci uniemo¿liwiaj±ce rozejrzenie siê po
+okolicy. Co jaki¶ czas daje siê odczuæ gor±cy podmuch powietrza dobiegaj±cy
+z g³êbi szybu, prawdopodobnie na jego dnie znajduje siê jaki¶ wulkan, ale
+mo¿e to tylko z³udzenie. Nie dowiesz siê tego je¶li nie pójdziesz dalej by
+siê przekonaæ. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24414
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24414
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24412
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24412
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24414
+Name Ciemny szyb opadaj±cy w dó³~
+Descr Koniec pó³nocnej odnogi szybu, w tym miejscu opada on bardzo stromo w
+dó³, z takiej odleg³o¶ci nie jeste¶ w stanie dostrzec co znajduje siê na
+jego dnie. Niemniej o ile jest zachowany w takim stanie jak jego pocz±tkowe
+fragmenty nie powiniene¶ mieæ powodu by siê obawiaæ. Na wszelki wypadek
+przyda³a by siê jaka¶ lina, b±d¼ te¿ lekkie wsparcie magii. Ostro¿no¶ci
+nigdy za wiele. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24413
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24413
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24415
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24415
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24415
+Name Dalsza czê¶æ szybu~
+Descr Uff, dalsza czê¶æ szybu sprawia wra¿enie mniej mrocznej, jest tu
+natomiast o wiele bardziej duszno. W kierunku zachodnim prowadzi w±skie
+wykute w litej skale przej¶cie, jest zbyt ciasne, by da³o siê wej¶æ tam
+liczn± grup±, jednak to nie powinno stanowiæ wielkiego problemu.
+Gdzieniegdzie na ska³ach da siê widzieæ drobne nitki jakich¶ kruszców,
+jednak nie jeste¶ w stanie stwierdziæ czy eksploatacja ich jest mo¿liwa. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24416
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24416
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24414
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24414
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24416
+Name Zakrêt szybu~
+Descr W±ski zakrêt szybu jest tak ciasny, ¿e z ledwo¶ci± zmie¶ci siê tutaj
+dwóch osobników. O jakichkolwiek pracach wydobywczych w tym miejscu mo¿na
+zapomnieæ. Na pó³noc prowadzi dalsza czê¶æ szybu, czuæ gor±c i spiekotê,
+trzeba zachowaæ ostro¿no¶æ je¶li nie chcesz nabawiæ siê k³opotów. Opary
+wulkaniczne w tym miejscu zaczynaj± byæ do¶æ dokuczliwe, na szczê¶cie
+wentylacja w tym miejscu jest bardzo dobra. 
+~
+FlagsExt 0|J
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24417
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24417
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24415
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24415
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24417
+Name Wulkaniczne szczeliny~
+Descr Niestety zamiast krasnoludzi dokopaæ siê do zasobniejszych z³ó¿
+minera³ów, natrafili oni na aktywno¶ci sejsmiczne. Popêkane ¶ciany ukazuj±
+czasami rozgrzan± magm±, prze¶wituj±c± miêdzy szczelinami. Opary wulkaniczne
+s± tu do¶æ dokuczliwe, jednak ku twemu zdziwieniu oddycha siê stosunkowo
+swobodnie. Niektóre szczeliny s± na tyle szerokie, ¿e mo¿na probowaæ siê w
+nich skryæ, ale kto by chcia³ pchaæ siê w objêcia lawy. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24416
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24416
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24418
+ExitExtEnd
+Exit 5
+~
+~
+16 0 24418
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24418
+Name Du¿a wulkaniczna pieczara~
+Descr Znajdujesz siê w rozleg³ej wulkanicznej pieczarze. Po³owa pieczary
+spoczywa pod grub± warstw± ciek³ej magmy, ¶ciany s± tak rozpalone, ¿e ¶wiec±
+w ciemno¶ci. Wschodnia czê¶æ pieczary wydaje siê odrobine mniej nagrzana,
+jednak mimo to jest to niebezpieczne miejsce, gdy¿ przesi±kniete zabójczymi
+gazami powietrze zdaje siê rozrywaæ p³uca od ¶rodka. Lepiej wycofaæ siê z
+tego miejsca, nim bêdzie za pó¼no. Krasnoludzi chc±c dokopaæ siê do
+kosztowno¶ci najwidoczniej przeliczyli siê ze swoimi mo¿liwo¶ciami, kopi±c
+zbyt g³êboko, ignoruj±c zasady bezpieczeñstwa. 
+~
+FlagsExt 0
+Sector 23
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24417
+ExitExtEnd
+Exit 4
+~
+~
+16 0 24417
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24419
+Name ¦lepa odnoga sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24356
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24356
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24420
+Name ¦lepa odnoga sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24362
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24362
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24421
+Name Zniszczony szyb wentylacyjny~
+Descr Stary zasypany szyb wentylacyjny prowadzi³ na powierzchnie. Mimo, ¿e
+czêsciowo zasypany, to jednak w dalszym ci±gu dostarcza ¶wie¿ego powietrza
+na teren kopalni. Najwidoczniej nie zosta³ doszczêtnie zagruzowany,
+spadaj±ce belki utworzy³y co¶ w rodzaju platform, które utrzma³y ciê¿ar
+spadaj±cego gruzu. Przebywanie tutaj mo¿e siê jednak okazaæ do¶æ
+niebezpieczne, niewiadomo czy szyb nie zawali siê od najdrobniejszych drgañ.
+~
+FlagsExt 0|CJ
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24350
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24350
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24444
+ExitExtEnd
+Exit 4
+~
+~
+16 0 24444
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24422
+Name ¦lepa odnoga sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24362
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24362
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24423
+Name ¦lepa odnoga sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24344
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24344
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24424
+Name ¦lepa odnoga sztolni~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24356
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24356
+DayRDesc 24341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24425
+Name ¦lepa odnoga sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24350
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24350
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24426
+Name Szyb wiertniczy~
+FlagsExt 0
+Sector 47
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24376
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24376
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24427
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24427
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24427
+Name Dno szybu wiertniczego~
+FlagsExt 0
+Sector 47
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24426
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24426
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24428
+Name Zasypany szyb~
+Descr Dno czêsciowo zasypanego szybu górniczego wygl±da jak pejzarz po wybuchu
+wulkanu. Wszêdzie porozrzucane kamienie i g³azy na których bardzo ³atwo
+skrêciæ kostkê lub co gorsza z³amaæ nogê. Jest tutaj naprawdê ma³o miejsca,
+jedyn± widoczn± zalet± mo¿na nazwaæ to, ¿e mo¿esz spokojnie siê wyprostowaæ
+bez ryzyka uderzenia siê g³ow± o strop. Je¶li chcesz siê st±d wydostaæ
+musisz odbyæ krótk± wspinaczkê po ¶cianach szybu, nie powinno byæ to trudne
+z racji wystaj±cych ska³ i kawa³ków szalunków. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24403
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24403
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24429
+Name Zasypany szyb~
+Descr Dno czê¶ciowo zasypanego szybu górniczego wygl±da jak pejzarz po wybuchu
+wulkanu. Wszêdzie porozrzucane kamienie i g³azy na których bardzo ³atwo
+skrêciæ kostkê lub co gorsza z³amaæ nogê. Jest tutaj naprawdê ma³o miejsca,
+jedyn± widoczn± zalet± mo¿na nazwaæ to, ¿e mo¿esz spokojnie siê wyprostowaæ
+bez ryzyka uderzenia siê g³owa o strop. Je¶li chcesz siê stad wydostaæ
+musisz odbyæ krótk± wspinaczkê po ¶cianach szybu, nie powinno byæ to trudne
+z racji wystaj±cych ska³ i kawa³ków szalunków. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24377
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24377
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24430
+Name Zej¶cie w g³±b kopalni~
+Descr Proste, ale zarazem bardzo funkcjonalne zej¶cie do krasnoludzkiej
+kopalni. Prowadzi ono do starego szybu przemys³owego, którym to krasnoludzcy
+górnicy wywozili urobek na powierzchnie. S³u¿y³ on zapewne równie¿ innym
+celom, miêdzy innymi jako awaryjny szyb w czasie zagro¿enia. Strop zosta³
+umocniony drewnianymi belami, które zosta³y okute bardzo dobrej jako¶ci
+stal±, dziêki czemu nie masz obaw, ¿e spadnie ci co¶ na g³owê. Niemniej jak
+to w kopalniach bywa, nale¿y zachowaæ ostro¿no¶æ. 
+~
+FlagsExt 0|C
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24441
+ExitExtEnd
+Exit 4
+~
+VName Wyj¶cie~
+~
+0 0 24441
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24448
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24448
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24431
+Name Sztolnia~
+FlagsExt 0|C
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24432
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24432
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24382
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24382
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24432
+Name Sztolnia~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24433
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24433
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24431
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24431
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24433
+Name Pocz±tek sztolni~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24434
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24434
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24432
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24432
+DayRDesc 24341
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24434
+Name Pocz±tek kopalni~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24435
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 24435
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24433
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24433
+DayRDesc 24342
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 24435
+Name Wej¶cie do kopalni~
+Descr Obszerne wej¶cie do krasnoludzkiej kopalni, ci±gn±cej siê pod ca³±
+fortec±. Niegdy¶ potê¿na podziemna budowla, teraz uboga w z³o¿a, rzadko
+odwiedzana, brudna i obskórna. W dawnych czasach by³y to wspania³e tunele
+³±cz±ce siêw wielu miejscach, pozwalaj±ce swobodnie przemierzaæ okoliczne
+tereny, nie dotykaj±c powierzchni ziemi. Teraz, zaledwie kilku
+krasnoludzkich górników pozosta³o, by zbieraæ to co pozosta³o w¶ród ska³.
+Ponoæ czê¶æ z nich znalaz³o nowe z³o¿a niedaleko na po³udnie od Fortecy,
+ponoæ... 
+~
+FlagsExt 0
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Kopalnia~
+ExitExtName kopalnia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24434
+ExitExtEnd
+Exit 3
+~
+VName Kopalnia~
+kopalnia~
+0 0 24434
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24445
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24445
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24436
+Name Zrujnowana szopa~
+Descr Zrujnowana szopa, tyle pozosta³o po niegdy¶ obszernym przedsionku
+kopalni. Kiedy¶ zadbana i uporz±dkowana, teraz zagracona i pe³na zwierzêcych
+nieczysto¶ci. Wysoka na dwa metry, szeroka na oko³o trzy, zdaje siê, ¿e
+odbywa³o siê tutaj prze³adowywanie urobku z wózków na juczne zwierzêta.
+Jednak to ju¿ przesz³o¶æ, teraz wej¶cie do kopalni to nic innego jak
+obskórna szopa z wy³amanymi wrotami. Jedynie krasnoludzkie runy, które mia³y
+b³ogos³awiæ to miejsce, sprawiaj± ¿e jeszcze siê nie rozpad³a na drobne
+kawa³ki. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24437
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 24437
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24446
+ExitExtEnd
+Exit 5
+~
+~
+16 0 24446
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24437
+Name Zaro¶nieta ¶cie¿ka~
+Descr Zaro¶nieta, rzadko u¿ywana ¶cie¿ka prowadz±ca z kopalni do drogi
+otaczaj±cej fortecê. Porastaj± j± drobne krzaki, utrudniaj±ce lekko
+podró¿owanie, przy odrobinie pracy mo¿e uda³o by siê jeszcze uporz±dkowaæ t±
+¶cie¿kê, tylko w jakim celu, skoro kopalnia jest ju¿ prawie bez z³ó¿? Mo¿e
+dla samej estetyki, mo¿e dla budulca, który poma³u zarasta t± przestrzeñ,
+któ¿ móg³by to wiedzieæ. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Zrujnowana szopa~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24436
+ExitExtEnd
+Exit 0
+~
+VName Zrujnowana szopa~
+~
+0 0 24436
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5610
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5610
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24438
+Name Stary szyb wentylacyjny~
+Descr W tym miejscu zaczyna³ siê stary szyb wentylacyjny, z up³ywem czasu
+wzmocnienia utrzymuj±ce ¶ciany zu¿y³y siê i czê¶ciowo zawali³y, blokuj±c
+niemal ca³kowicie drogê na dó³. Trzeba nie ma³ej zrêczno¶ci by wydostaæ siê
+z szybu, a by nim wej¶æ prawdopodobnie jeszcze wiêcej. Pomieszczenie w
+którym siê znajdujesz jest bardzo ciasne, s³u¿y³o tylko jako szyb
+wentylacyjny, wiêc nic dziwnego, ¿e nie jest przystosowane do pomieszczenia
+du¿ej ilo¶ci istot. 
+~
+FlagsExt 0|CJ
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 17185
+ExitExtEnd
+Exit 1
+~
+~
+16 0 17185
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24447
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24447
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24439
+Name Stara droga przemys³owa~
+Descr Stara droga przemys³owa prowadzi spod murów miejskich w g³±b, a¿ do
+krasnoludzkich kopalni. Szeroka na tyle by mog³y siê zmie¶ciæ dwa mijaj±ce
+siê wozy, jednocze¶nie nie zbyt szeroka, by nie marnowaæ za du¿o
+przestrzeni. W±ski rynsztok odprowadza nadmiary wody na po³udnie, ku
+g³ównemu odp³ywowi miejskiemu. Droga zosta³± wy³o¿ona opok±, by zmniejszyæ
+ilo¶æ b³ota tworz±c± siê tu w czasie pór deszczowych. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24440
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24440
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 88
+ExitExtEnd
+Exit 2
+~
+~
+0 0 88
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24440
+Name Stara droga przemys³owa~
+Descr Stara droga przemys³owa prowadzi spod murów miejscich w g³±b, a¿ do
+krasnoludzkich kopalni. Szeroka na tyle by mog³y siê zmie¶ciæ dwa mijaj±ce
+siê wozy, jednocze¶nie nie zbyt szeroka, by nie marnowaæ za du¿o
+przestrzeni. Droga zosta³± wy³o¿ona opok±, by zmniejszyæ ilo¶æ b³ota
+tworz±c± siê tu w czasie pór deszczowych. W±ski rynsztok odprowadza nadmiary
+wody na po³udnie, ku g³ównemu odp³ywowi miejskiemu. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24441
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24441
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24439
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24439
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24441
+Name Koniec drogi przemys³owej~
+Descr Koniec drogi przemys³owej, ni± to w³asnie krasnoludzki uciekali w razie
+zagro¿enia zawaleniem, b±d¼ wybuchem gazu. S³u¿y³a ona równie¿ w celach
+odbioru od krasnoludów wydobytych surowców. W przypadku ataku na Fortecê,
+krasnoludzcy górnicy porzucali sw± pracê i po¶piesznie wzmacniali szeregi
+krasnoludzkiej stra¿y. Plotki g³osz±, ¿e krasnoludzcy górnicy woleli skrywaæ
+siê w zak±tkach kopalni ni¿ i¶æ z pomoc± stra¿y. 
+~
+FlagsExt 0|C
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24440
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24440
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Kopalnia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24430
+ExitExtEnd
+Exit 5
+~
+VName Kopalnia~
+~
+0 0 24430
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24442
+Name Wej¶cie techniczne~
+Descr Znajdujesz siê w wej¶ciu technicznym do krasnoludzkich kopalni. Jest tu
+du¿o miejsca, wystarczaj±co by pomie¶ciæ nawet ca³± gromadê pracowitych
+krasnoludów. Prawdopodobnie têdy to w³a¶nie odbywa³y siê ewakuacjie w razie
+jakichkolwiek zagro¿eñ. W górê prowadz± bardzo wygodne, solidne schody, mimo
+¿e kopalnia jest ju¿ niemal opuszczona, to w dalszym ci±gu s± zadbane i
+porz±dnie o¶wietlone. 
+~
+FlagsExt 0|C
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Szyb~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24443
+ExitExtEnd
+Exit 3
+~
+VName Szyb~
+~
+0 0 24443
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24448
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24448
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24443
+Name Sztolnia~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24442
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 24442
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24408
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24408
+DayRDesc 24342
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24444
+Name Szyb wentylacyjny~
+Descr Czê¶ciowo zasypany szyb wentylacyjny w którym siê znajdujesz, niegdy¶
+mia³ za zadanie dostarczania ¶wie¿ego powietrza do kopalni. Aktualnie nadal
+spe³nia t± funkcje, jednak z racji, ¿e zosta³ czêsciowo zawalony,
+zdecydowanie mniej powietrza dostaje siê na dó³. Z tego te¿ powodu w ca³ej
+kopalni panuje duchota i bardzo ³atwo o wybuch gazów, które nagromadzi³y siê
+w g³êbszych fragmentach kopalni. Niegdy¶ to miejsce by³o bardzo porz±dnie
+oszalunkowanym szybem, który z niewiadomych przyczyn poprostu siê zawali³.
+Krasnoludzi szepcz± miêdzy sob±, ¿e mog³o doj¶æ do sabota¿u, jednak nikt nie
+potwierdza owych plotek. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24447
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24447
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24421
+ExitExtEnd
+Exit 5
+~
+~
+16 0 24421
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24445
+Name Droga ku wej¶ciu~
+Descr Prosta droga, czê¶ciowo zasypana gruzem i pozosta³o¶ciami kopalnianymi,
+prowadzi wg³±b krasnoludzkich kopalni. Niegdy¶ têtni±ca ¿yciem, zat³oczona i
+g³o¶na. Teraz spokojna, odludniona i sprawiaj±ca wra¿enie uspionej po
+wiekach pracy. Droga ta s³u¿y³a jako g³ówne wej¶cie do kopalni, têdy w³a¶nie
+krasnoludzi wchodzili by rozpocz±æ swoje codzienne obowi±zki. Niema tu
+wymy¶lnych systemów dzwigowych, u³atwiaj±cych podró¿owanie, ca³± drogê
+krasnoludzi odbywali na w³asnych nogach, tak te¿ musisz uczyniæ i ty. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24446
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24446
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24435
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24435
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24446
+Name Pocz±tek zej¶cia do kopalni~
+Descr Tu¿ za szop± znajduje siê ten oto korytarz, prowadz±cy w g³±b
+krasnoludzkiej kopalni. Wej¶cie to prowadzi prosto w g³±b matki ziemi, je¶li
+nie lêkasz siê ciê¿kiej pracy, kontynuuj swoj± podró¿, je¶li¶ za¶ leñ i inny
+nieu¿yteczny element, lepiej udaj siê w inn± stronê. Krasnoludzi mimo swego
+ma³ego wzrostu bardzo dbaj± o to by przewy¿szaæ pracowito¶ci± nawet
+najwiêkszych mocarzy, efektem tego jest chocia¿by ta ogromna kopalnia, w
+której od pokoleñ pracowa³o setki, je¶li nie tysi±ce krasnoludów. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24436
+ExitExtEnd
+Exit 4
+~
+~
+16 0 24436
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24445
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24445
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24447
+Name Szyb wentylacyjny~
+Descr Szyb ten zosta³ czê¶ciowo zawalony, nie jeste¶ w stanie odgadn±æ co by³o
+tego przyczyn±. Zarówno szalunki jak i mocowania zdaj± siê byæ wykonane ze
+wzorow± dok³adno¶ci±. Materia³y u¿yte do tego, mimo lat, nadal prezentuj±
+siê bardzo dobrze. Prawdopodobnie win± za zawalenie mo¿na by obarczyæ jak±¶
+¿yw± istotê, której nie w smak by³a dzia³alno¶æ tej w³a¶nie kopalni. Przez
+wiele lat namno¿y³o siê wiele plotek na ten temat, jednak nikt nie posiada
+nawet najdrobniejszych dowodów sabota¿u, nie wykluczone, ¿e u¿yto do tego
+jakiej¶ magii. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24438
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24438
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24444
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24444
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24448
+Name Dalsza czê¶æ pochylni~
+Descr Pochylnia prowadzi wprost do krasnoludzkich kopalni, na których
+pozosta³o¶ciach powsta³a Krasnoludzka Forteca. To w³a¶nie w tym miejscu
+krasnoludzcy górnicy czerpali niegdy¶, pe³nymi gar¶ciami mithril, adamantum
+i inne drogocenne kruszce. Aktualnie z³o¿a kopalni s± na wyczerpani, a tunel
+niegdy¶ s³u¿±cy do wywozu urobku, s³u¿y jedynie jako wej¶cie do tych w³o¶ci.
+Zadbana pochylnia uposa¿ona jest w proste, jednak bardzo funkcjonarne tory
+kolejkowe, które znacz±co u³atwia³y krasnoludom pracê. Zarówno ¶ciany jak i
+strop uzbrojono doskona³ej jako¶ci stal±, by zapewniæ bezpieczeñstwo
+pracuj±cym tu górnikom. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24430
+ExitExtEnd
+Exit 4
+~
+~
+0 0 24430
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24442
+ExitExtEnd
+Exit 5
+~
+~
+0 0 24442
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 24342 15 24341 1
+M 100 24341 20 24341 1
+M 100 24342 15 24344 1
+M 100 24341 20 24344 1
+M 100 24342 15 24347 1
+M 100 24341 20 24347 1
+M 100 24341 20 24349 1
+M 100 24342 15 24350 1
+M 100 24342 15 24353 1
+M 100 24341 20 24353 1
+M 100 24342 15 24356 1
+M 100 24342 15 24356 1
+M 100 24341 20 24356 1
+M 100 24342 15 24359 1
+M 100 24342 15 24362 1
+M 100 24341 20 24367 1
+M 100 24342 15 24368 1
+M 100 24342 15 24371 1
+M 100 24341 20 24371 1
+M 100 24342 15 24374 1
+M 100 24341 20 24374 1
+M 100 24342 15 24379 1
+M 100 24341 20 24379 1
+M 100 24341 20 24381 1
+M 100 24342 15 24382 1
+M 100 24341 20 24384 1
+M 100 24342 15 24385 1
+M 100 24341 20 24387 1
+M 100 24341 20 24388 1
+M 100 24342 15 24390 1
+M 100 24341 20 24391 1
+M 100 24342 15 24393 1
+M 100 24342 15 24394 1
+M 100 24341 20 24396 1
+M 100 24342 15 24397 1
+M 100 24341 20 24399 1
+E 100 3275 0 17
+E 100 3374 0 17
+M 100 24341 20 24407 1
+M 100 24342 15 24408 1
+M 100 24341 20 24409 1
+S
+
+
+
+#MOBPROGSNEW
+#24341
+Prog na ladowanie 3 "slabych brylek" dla krasnali.
+~
+if rand 70
+  mob oload 3111
+endif
+if rand 80
+  mob oload 3114
+endif
+if rand 90
+  mob oload 3115
+endif
+ 
+#£adowanie ciuchów
+mob equip self 3009
+mob equip self 3057
+mob equip self 3025
+mob equip self 3045
+mob oload 3275
+hold kilof
+~
+#24342
+~
+mob equip self 3009
+mob equip self 3057
+mob equip self 3025
+mob equip self 3045
+mob oload 3275
+hold kilof
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#24377
+~
+if affected $n fly
+or wears $n lina
+  mob echoat $n Dziêki swojemu pomy¶lunkowi unikne³e¶ upadku z du¿ej wysoko¶ci!
+  mob transfer $n 24429
+else
+  if rand 80
+    mob damage all 250 300
+    mob echoat $n Ze¶lizgujesz siê na dno szybu t³ukaæ siê niemi³osiernie!
+    mob transfer $n 24429
+  else
+    mob damage all 50 100
+    mob echoat $n Ze¶lizgujesz siê na dno szybu obijaj±c siê o ¶ciany!
+    mob transfer $n 24429
+  endif
+endif
+~
+#24391
+~
+if affected $n fly
+or wears $n lina
+  mob transfer $n 24428
+else
+  if rand 95
+    mob damage all 450 500
+    mob echoat $n Ze¶lizgujesz siê na dno pomieszczenia t³uk±c siê niemi³osiernie!
+    mob transfer $n 24428
+  else
+    mob damage all 50 100
+    mob echoat $n Ze¶lizgujesz siê na dno pomieszczenia obijaj±c siê o ¶ciany!
+    mob transfer $n 24428
+  endif
+endif
+~
+#0
+
+#TRAPS
+#Vnum 24372
+Active 1
+Level 0
+Type 0
+Triggered mob damage $n 5 10
+mob echoat $n Odrobina nieuwagi i kawa³ek odpadaj±cej ska³y uderza ciê prosto w kark!
+~
+Disarmed ~
+Failed ~
+Limit 0
+Trapend
+#Vnum 24391
+Active 1
+Level 10
+Type 0
+Triggered mob echoat $n Nagle z sufitu odpada ma³y kawa³ek ska³y, który trafia idealnie w ¶rodek twojej g³owy!
+mob echoaround $n K±tem oka dostrzegasz jak z sufitu odpada kawa³ek ska³y, który uderza $n w ¶rodek g³owy!
+mob damage $n 10 30 kill
+~
+Disarmed ~
+Failed ~
+Limit 0
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 24342
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 24341
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 18~
+Desc Korytarz prowadzi przez kolejny fragment krasnoludzkiej kopalni. Wszêdzie
+widaæ efekty pracy górników, najwidoczniej nie pró¿nowali. 
+~
+Group 3
+End
+#Name 17~
+Desc Wszêdzie da siê widzieæ pozosta³o¶ci po wcze¶niejszych pracach
+wydobywczych. ¦ciany s± poorane przez kilofy, a po ziemi walaj± siê resztki
+ska³. 
+~
+Group 3
+End
+#Name 16~
+Desc Pod ¶cianami dostrzegasz pozosta³o¶ci po urobku górniczym. Kamienie,
+kupki ziemi i inne nieczysto¶ci wydobyte ze ¶cian kopalni. 
+~
+Group 3
+End
+#Name 15~
+Desc ¦rodkiem chodnika biegnie solidnie wydeptana ¶cie¿ka, któr± górnicy
+przemierzaj± by udaæ siê w dalszych kierunkach kopalni. 
+~
+Group 2
+End
+#Name 14~
+Desc Bior±c pod uwagê blisko¶æ fortecy, ³atwo tu nabawiæ siê wra¿enia, ¿e lada
+moment sufit spadnie nam na g³owê, oby to by³o tylko z³udzenie. 
+~
+Group 2
+End
+#Name 13~
+Desc Chodnik zdaje siê byæ na tyle solidny, ¿e nie grozi zawaleniem, jednak
+nikt za to rêczyæ nie mo¿e, lepiej zachowaæ ostro¿no¶æ. 
+~
+Group 2
+End
+#Name 12~
+Desc Szeroki ale bardzo niski chodnik kopalni, idealnie nadaje siê do dalszej
+obróbki, niestety dla potê¿niejszych istot jest tu odrobinê ciasnawo. 
+~
+Group 1
+End
+#Name 11~
+Desc Chodnik jest na tyle szeroki, ¿e bez trudu ros³y krasnolud mo¿e zamachn±æ
+siê kilofem, jednak jego wysoko¶æ pozostawia wiele do ¿yczenia. 
+~
+Group 1
+End
+#Name 10~
+Desc W±ski chodnik kopalniany, wybudowany przez krasnoludów i przystosowany
+g³ównie dla tej ros³ej rasy, inne natomiast musz± siê schylaæ by tu siê
+zmie¶ciæ. 
+~
+Group 1
+End
+#Name 01~
+Desc Krasnoludzka sztolnia jakich wiele, dwa metry szeroko¶ci, tyle samo
+wysoko¶ci, nic nadzwyczajnego. 
+~
+Group 1
+End
+#Name 02~
+Desc Sztolnia wykuta i umocniona przez krasnoludzkich górników, standardowej
+wielko¶ci, czyli dwa metry na dwa. 
+~
+Group 1
+End
+#Name 03~
+Desc Robota krasnoludzkich górników, sztolnia która widzisz, prezentuje siê
+bardzo okazale i sprawia wra¿enie wytrzyma³ej. 
+~
+Group 1
+End
+#Name 04~
+Desc Silne umocnienia zabezpieczaj± strop przed zawalenie, krasnoludzi
+wykonali naprawdê kawa³ dobrej roboty. 
+~
+Group 2
+End
+#Name 05~
+Desc Solidne umocnienia, schludne wykonanie, od razu widaæ, ¿e sztolnie
+wykonywa³y krasnoludzkie rêce. 
+~
+Group 2
+End
+#Name 06~
+Desc Jak przysta³o na krasnoludzk± robotê, sztolnia jest bardzo solidnie i
+schludnie umocniona. Pierwszorzêdna robota. 
+~
+Group 2
+End
+#Name 07~
+Desc Piêkne wykoñczenia, dopracowane do najdrobniejszych szczegó³ów. Wszystko
+³±cznie przedstawia wspania³y widok. 
+~
+Group 3
+End
+#Name 08~
+Desc Wykoñczenia i ca³o¶æ robocizny pokazuje w najdrobniejszych elementach
+krasnoludzkie rzemios³o. 
+~
+Group 3
+End
+#Name 09~
+Desc Ca³okszta³t prezentuje idealne sztolnie, które s± nie tylko praktyczne
+ale i ich wygl±d jest zadowalaj±cy. 
+~
+Group 3
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

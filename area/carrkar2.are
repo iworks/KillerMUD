@@ -1,0 +1,696 @@
+#AREADATA
+Name {BN{x Karczma na rozstaju (carra)~
+Builders Gurthg Harddark~
+VNUMs 8051 8100
+Locked ~
+Security 1
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 8051
+Name karczmarz czlowiek~
+Odmiana karczmarza~karczmarzowi~karczmarza~karczmarzem~karczmarzu~
+Short stary karczmarz~
+Long Karczmarz stoi tutaj i obs³uguje go¶ci.~
+Descr Spogl±dasz z zaciekawieniem na starego karczmarza. Widzisz, po ¶ladach
+na jego twarzy, ¿e wiele w ¿yciu ju¿ przeszed³. Na jego g³owie widzisz
+niechlujnie zawi±zan±, star± chustê. Pozatym staruszek odziany jest
+w czarn± marynarke która jednak bardziej przypomina jak±¶ szmate do
+wycierania pod³ogi. Po posturze karczmarza widaæ, ¿e lubi sobie dobrze zje¶æ.
+~
+Race cz³owiek~
+ActExt 0|ABG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 30
+Hitroll 0
+HP 2d2+1000
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 120 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 8052
+Name ma³y szczur~
+Odmiana ma³ego szczura~ma³emu szczurowi~ma³ego szczura~ma³ym szczurem~ma³ym szczurze~
+Short ma³y szczur~
+Long Ma³y szczur szuka tutaj czego¶ do jedzenia.~
+Descr ~
+Race szczur~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 10
+HP 4d6+2
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 8053
+Name du¿y szczur~
+Odmiana du¿ego szczura~du¿emu szczurowi~du¿ego szczura~du¿ym szczurem~du¿ym szczurze~
+Short du¿y szczur~
+Long Du¿y szczur szuka tutaj jakiego¶ k±sku.~
+Descr ~
+Race szczur~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 10
+HP 5d7+1
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 90 78 78 102 78 78 90
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size medium
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 8058
+Name piêkny marmurowy kominek~
+Odmiana kominka~kominkowi~kominek~kominkiem~kominku~
+Short marmurowy kominek~
+Descr Piêkny, wykonany z marmuru kominek jest tutaj, ogrzewaj±c i o¶wietlaj±c pomieszczenie.~
+Material marmur~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 6 -1 72 113 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 100000
+Cond 100
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 8051
+Name {yPrzed wej¶ciem do karczmy{x~
+Descr Znajdujesz siê przed wej¶ciem do karczmy. Drzwi zrobione s± z drewnianych desek,
+przy samej ziemi widzisz ma³± szparê w drzwiach przez któr± wydostaje siê
+¶wiat³o. Budynek stoj±cy przed tob± ma tylko kilka ma³ych okienek.
+Z za drzwi dochodz± cie odg³osy bawi±cych siê ludzi.
+Rozgl±daj±c siê wokó³ widzisz jedynie ¶cie¿kê prowadz±c± na po³udnie.
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8052
+ExitExtEnd
+Exit 0
+~
+~
+3 0 8052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8052
+Name {yG³ówna sala{x~
+Descr Znajdujesz siê w g³ownej sali karczmy. Pomieszczenie to jest przestronne oraz dobrze
+o¶wietlone. ¯ród³em ¶wiat³a jest wisz±ca tu¿ przy suficie lampa ozdobiona rogami
+jakiego¶ dzikiego zwierzêcia. Wokó³ ciebie porozstawian s± sto³y przy których siadaj±
+go¶cie. Pod³oga po której st±pasz wykonana jest z ma³ych, równo u³o¿onych kamieni.
+Bli¿ej im siê przygl±daj±c widzisz, ¿e ukladaj± siê one w ró¿ne wzorki. Spogl±daj±c
+na pó³noc widzisz starego karczmarza.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8055
+ExitExtEnd
+Exit 0
+~
+~
+0 0 8055
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8054
+ExitExtEnd
+Exit 1
+~
+~
+0 0 8054
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8051
+ExitExtEnd
+Exit 2
+~
+~
+3 0 8051
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8053
+ExitExtEnd
+Exit 3
+~
+~
+0 0 8053
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8053
+Name {yW rogu miêdzy sto³ami{x~
+Descr Stoisz w k±cie sali, ze wszystkich stron jeste¶ otoczony okr±g³ymi sto³ami.
+Na ¶cianie widzisz porozwieszane rysunki, które przedstawiaj± ró¿ne, egzotyczne
+trunki, pochodz±ce z ró¿nych stron ¶wiata. Ze wschodu s³yszysz weso³e g³osy bawi±cych
+siê go¶ci, spogl±daj±c na wschód widzisz dobrze o¶wietlon±, g³own± salê karczmy.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8052
+ExitExtEnd
+Exit 1
+~
+~
+0 0 8052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8054
+Name {yPrzy kominku{x~
+Descr Znajdujesz siê we wschodniej czê¶ci karczmy. W rogu stoji kominek z którego p³ynie
+przyjemne ciep³o. Wykonany jest on z wyg³adzonych, jasnych kamieni które u³o¿one s±
+w ró¿ne wzorki. Rozgl±daj±c sie wokó³ widzisz jedynie du¿±, drewnian± ³awê przeznaczon±
+do siedzenia. Patrz±c na zachód dostrzegasz jedynie salê wype³nion± sto³ami oraz
+krzes³ami.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8052
+ExitExtEnd
+Exit 3
+~
+~
+0 0 8052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8055
+Name {yPrzed lad±{x~
+Descr Znajdujesz siê w przestronnej, s³abo o¶wietlonej sali. Wokó³ widzisz drewniane
+sto³y przy których siedz± rózni ludzie. Na wprost widzisz masywn± lade, za któr±
+obs³uguje klientów znany w ca³ej okolicy karczmarz. Spogl±daj±c na zachód widzisz
+krete schodzy prowadz±ce do go¶cinnych pokoji.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8061
+ExitExtEnd
+Exit 1
+~
+~
+3 0 8061
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8052
+ExitExtEnd
+Exit 2
+~
+~
+0 0 8052
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8056
+ExitExtEnd
+Exit 3
+~
+~
+0 0 8056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8056
+Name {yPrzed schodami{x~
+Descr Znajdujesz siê przed krêtymi schodami prowadz±cymi do pokoji przeznaczonych dla
+go¶ci. Schody pokryte s± zielon± wyk³adzin±, stopnie s± w±skie i ³atwo mo¿na siê
+przewróciæ. Porêcz wiod±ca na sam± górê jest przytwierdzona do ¶ciany, ma kr±g³y
+kszta³t i jest g³adka. Spogl±daj±c na wschód widzisz karczmarza który obs³uguje
+swych klientów.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8055
+ExitExtEnd
+Exit 1
+~
+~
+0 0 8055
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Schody~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8057
+ExitExtEnd
+Exit 4
+~
+VName Schody~
+~
+0 0 8057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8057
+Name {yNa piêtrze{x~
+Descr Jeste¶ na piêtrze karczmy. Pod³oga po której siê poruszasz wy³o¿ona jest czerwonym
+dywanikiem, który zakoñczony jest frendzelkami. ¦ciany s± szarawe, widaæ na nich
+wyra¼ne nierówno¶ci. Spogl±daj±c w góre widzisz ma³± pajêczyne. Pod±rzaj±c na
+po³udnie dotrzesz do pokoji go¶cinnych, id±c w dó³ znajdziesz siê w g³ównej sali.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8058
+ExitExtEnd
+Exit 2
+~
+~
+0 0 8058
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Schody~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8056
+ExitExtEnd
+Exit 5
+~
+VName Schody~
+~
+0 0 8056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8058
+Name {yKorytarz{x~
+Descr Poruszasz siê w±skim korytarzem prowadz±cym do pokojów go¶cinnych.
+Na suficie jest zawieszona lampa o¶wietlaj±ca ca³e przej¶cie.
+Spogl±daj±c na wschód oraz zachód widzisz jedynie solidne drzwi
+z okr±g³ymi, srebrnymi klamkami. Na ¶cianie wisi portret nieznanego
+Ci mê¿czyzny.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8057
+ExitExtEnd
+Exit 0
+~
+~
+0 0 8057
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8060
+ExitExtEnd
+Exit 1
+~
+~
+3 0 8060
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8059
+ExitExtEnd
+Exit 3
+~
+~
+3 0 8059
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8059
+Name {yPokój go¶cinny{x~
+Descr Znajdujesz siê w ciemnym pokoju, wokó³ panuje niezwyk³y nie³ad. Na ziemi
+lerz± resztki jedzenia. Na w±skim ³ó¿ku stoj±cym pod sam± ¶cian± le¿y koc
+u³o¿ony tak, jakby kto¶ przedchwil± tu spa³. Na wprost widzisz zabite
+deskami okno. W dzieñ przez szpary miêdzy deskami, nie¶mia³o wpadaj± do
+pokoju promienie s³oneczne.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8058
+ExitExtEnd
+Exit 1
+~
+~
+3 0 8058
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8060
+Name {yPokój go¶cinny{x~
+Descr Jestes w pokoju przeznaczonym dla gosci. Patrzac pod nogi widzisz tylko podloge zrobiona
+ze starych desek. Po prawej stronie widzisz potê¿ne ³o¿e wykonane z drewna o najwy¿szej
+jako¶ci. W centralnej czê¶ci pokoju jest ma³e biurko przy którym postawiony jest bujany
+fotel. Przygl±daj±c siê ¶cianom dostrzegasz pokrywaj±c± je, grub± warstwê kurzu.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8058
+ExitExtEnd
+Exit 3
+~
+~
+3 0 8058
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8061
+Name {ySk³adzik{x~
+Descr Jeste¶ w ciemnym pomieszczeniu gdzie przechowywane s± zapasy rónistych trunków.
+Rozgl±daj±c siê wokó³ widzisz jedynie stare pu³ki pokryte grub± warstw± kurzu
+na których poustawiane s± butelki o róznych kszta³tach i barwach. Patrz±c pod
+nogi widzisz ma³± klapê, najprawdopodobniej prowadzi ona do starych piwnic
+u¿ywanych niegdy¶ do przechowywania broni.
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8055
+ExitExtEnd
+Exit 3
+~
+~
+3 0 8055
+ExitExt 5
+ExitExtDescription ~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8062
+ExitExtEnd
+Exit 5
+~
+klapa~
+3 0 8062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8062
+Name {yPiwnica{x~
+Descr Jeste¶ w ma³ym pomieszczeniu które w ca³osci pokryte jest ciemno¶ci±. Czujesz
+jak przeszywa ciê dziwny ch³ód. Poruszaj±c lekko nogami czujesz, ¿e stoisz w
+wodzie! Ca³e pomieszczenie zalane jest wod± siêgaj±c± tobie do kostkek. ¦ciany  
+wykonane s± z nierówno u³o¿onych kamieni. Rozgl±daj±c siê wokó³ widzisz wyj¶cia
+na wschód i po³udnie, mo¿esz równie¿ zawróciæ, id±c na góre.
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8063
+ExitExtEnd
+Exit 1
+~
+~
+0 0 8063
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8064
+ExitExtEnd
+Exit 2
+~
+~
+0 0 8064
+ExitExt 4
+ExitExtDescription ~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 8061
+ExitExtEnd
+Exit 4
+~
+klapa~
+3 0 8061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8063
+Name {ySk³ad wina{x~
+Descr Znajdujesz siê w ciasnym pomieszczeniu, pod ¶cianami porozstawiane s±
+drewniane pu³ki na których kiedy¶ przechowywano wina. Teraz widzisz tu
+tylko kilka pustych oraz pobitych butelek które pokryte s± grub± warstw±
+kurzu. Spogl±daj±c w górê widzisz zwisaj±cy z sufitu, krótki ³añcuch.
+Mo¿liwe, ¿e kiedy¶ przytwierdzona do niego by³a lampa.
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8062
+ExitExtEnd
+Exit 3
+~
+~
+0 0 8062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 8064
+Name {ySk³ad broni{x~
+Descr Jeste¶ w niewielkim pomieszczeniu. Przed wieloma laty przechowywano tutaj
+broñ. Obecnie miejsce to jest przez wszystkich zapomniane. W rogu widzisz
+stojak na którym roz³orzona jest stara, podziurawiona kolczuga. Na ¶cianach
+porozwieszane s± portrety dawnych, wielkich zabójców, ogarnia ciê strach
+gdy na jednym z obrazów widzisz twarz karczmarza.
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8062
+ExitExtEnd
+Exit 0
+~
+~
+0 0 8062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+8051 0 0 0 0 0 100 100 0 23 * 8055
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 2362 0 8053
+M 100 8051 1 8055 1
+G 100 3132 0
+G 100 3100 0
+G 100 1733 0
+G 100 2494 0
+M 100 8052 1 8062 1
+M 100 8052 1 8062 1
+M 100 8052 3 8062 1
+M 100 8052 3 8063 1
+M 100 8053 1 8064 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

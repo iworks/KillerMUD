@@ -1,0 +1,3435 @@
+#AREADATA
+Name +# Forteca - obwodnica po³udniowa~
+Builders Forteca Raszer_f~
+VNUMs 20300 20399
+Credits Wicia, wicia@killer-mud.net
+Broñ i zbroje do zamówienia u kowali w miastach.
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 31
+End
+
+
+
+#MOBILES
+#Vnum 20300
+Name kowal pó³ork~
+Odmiana kowala~kowalowi~kowala~kowalem~kowalu~
+Short kowal~
+Long Kowal pó³ork pracuje tutaj uderzaj±c m³otem w miecz le¿±cy na kowadle.~
+Descr Widzisz przed sob± najzwyklejszego w ¶wiecie pó³orkowego kowala
+uderzaj±cego m³otem w miecz, le¿±cy na kowadle. Jest s³usznego wzrostu i ma
+nieprzeciêtne si³y.
+~
+Race pó³ork~
+ActExt 0|ABT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AF
+Speaks 0
+Level 10
+Hitroll 0
+HP 5d6+150
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 102 48 42 66 114 78 78
+Off CI
+OffExt 0|CI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech rasz_rand FGI rzuc~
+MobprogNew give rasz_gnom_give FGI all~
+MobprogNew bribe rasz_gnom_brib FGI 1~
+MobprogNew greet rasz_gnom_gree FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20301
+Name ghul~
+Odmiana ghula~ghulowi~ghula~ghulem~ghulu~
+Short ghul~
+Long Ghul biega szukaj±c padliny, czy te¿ ¿ywej ofiary.~
+Descr Jedna z najohydniejszych form nieumar³ych - ghul. Ghule to
+wyspecjalizowane zombie. S± od nich szybsze, czesto poluj± w grupach na ¿ywe
+ofiary. Jednak ich ulubionym pozywieniem s± cia³a umar³ych, aby sie do nich
+dostaæ czêsto rozkopuj± swie¿e groby. 
+~
+Race ghul~
+ActExt 0|AFOX
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 1000
+Group 0
+Lang R
+Speaks 16
+Level 5
+Hitroll 1
+HP 1d1+1
+Damage 3d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 5 6 5 5
+Stats 108 60 60 90 96 60 90
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form FIM
+Parts ABCFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20302
+Name cienista bestia~
+Odmiana {Dcienistej{x besti~{Dcienistej{x besti~{Dcienist±{x bestiê~{Dcienist±{x besti±~{Dcienistej{x besti~
+Short {Dcienista{X bestia~
+Long Wielka, {Dczarna{x bestia, czai siê w ciemno¶ciach na swoj± ofiarê.~
+Descr Spogl±dasz na ogromn±, wysoko¶ci cz³owieka, a d³ug± na prawie trzy metry
+bestiê o ciemnym kolorze sier¶ci, które przypomina jak skrzy¿owanie wilka z
+nied¼wiedziem. Ca³e zwierze zdajê siê byæ idealnie przystosowane do ¿ycia
+nocnego, z ledwo¶ci± dostrzegasz jego stosunkowo niewielkie oczy,
+przys³oniête w wiêkszo¶ci sier¶ci±. Widzisz jak grzebiet besti unosi siê i
+opada podczas oddychania, samo wdychanie i wydychanie jest jednak ledwo
+s³yszalne. Na koñcu nosa stwora wyrasta du¿y, zapewne niesamowicie ostry
+róg. Bez problemu wyobra¿asz sobie, jak bestia nabija na niego chocia¿by
+wilka. Teraz, gdy zd±rzy³e¶ siê ju¿ na niego napatrzeæ, mo¿e czas ju¿
+uciekaæ? 
+~
+Race wilk~
+ActExt 0|AFI
+Affected 33587200 0 0 0
+AffectedExt 0|PZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 5
+HP 10d10+550
+Damage 4d5+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack szarza
+XAC 3 3 3 3
+Stats 132 102 102 120 120 102 84
+Off CDHR
+OffExt 0|CDHR
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRSV
+Size large
+Material unknown
+MobprogNew random cienista_random FGI 20~
+Skin 700
+ExpMultiplier 100
+Mobend
+#Vnum 20310
+Name kupiec Galathan~
+Odmiana Galathana~Galathanowi~Galathana~Galathanem~Galathanie~
+Short {YGalathan{x~
+Long Dostojny kupiec {YGalathan{x rozmawia tu z innymi uczestnikami bankietu.~
+Descr Spogl±dasz na cz³owieka, który najprawdopodobniej wiêkszo¶æ swojego ¿ycia
+ma ju¿ za sob±. ¦wiadcz± o tym puk³y siwych w³osów wystaj±ce spod zdobionego
+z³otymi ³uskami beretu. Cz³owiek ten jest ¶redniego wzrostu i nieco
+puszysty. Zauwa¿asz, ¿e gawo¿±c od czasu do czasu lubi siê po swoim brzuchu
+nieznacznie podrapaæ, b±d¼ trzymaæ go gdy siê ¶mieje, co nadaje ca³ej scenie
+dosyæ komicznego wygl±du. Jak najpowa¿niejsz± spraw± musi byæ jednak jego
+maj±tek, gdy¿ pier¶cienie, oraz klejnoty wprawione w ³añcuch czy bransolety
+zdaj± siê a¿ raziæ swym blaskiem. Galathan jest kupcem, który posiada wp³ywy
+na ca³ym kontynencie, a jego przebieg³o¶æ oraz spryt pozwalaj± mu nie tylko
+stale powiêkszaæ swój maj±tek, ale tak¿e ustrzec siê zb³±kanej strza³y b±d¼
+zatrutego napoju czy sztyleta. Kr±¿± pog³oski, ¿e Galathan by³ kiedy¶
+agentem wywiadu dla jednego z trzech wielkich miast, ale przewiduj±c wybuch
+wojny z pó³orkami, rzuci³ swoje zajêcie i zacz±³ skupowaæ orê¿ oraz
+pancerze, by sprzedaæ je za niebagatelne sumy, gdy wojna nadesz³a. Jak by³o
+naprawdê z jego poprzednim zajêciem nikt nie wie. Przynajmniej nikt ¿yj±cy i
+chc±cy siê podzieliæ t± wiedz±. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 2
+HP 10d10+600
+Damage 4d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 3 3 3 3
+Stats 100 145 145 100 100 160 145
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 600000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload gala_onlo ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 20
+Resist 12 30
+Resist 14 100
+Mobend
+#Vnum 20311
+Name wysoki mezczyzna bodyguard1~
+Odmiana {Wwysokiego{x {Bmê¿czyzny{x~{Wwysokiemu{x {Bmê¿czyznie{x~{Wwysokiego{x {Bmê¿czyzny{x~{Wwysokim{x {Bmê¿czyzn±{x~{Wwysokim{x {Bmê¿czyznie{x~
+Short {Wwysoki{x {Bmê¿czyzna{x~
+Long Wysoki mê¿czyzna rozgl±da siê czujnym wzrokiem po sali.~
+Descr Chc±c siê przyjrzeæ bli¿ej temu osobnikowi natrafiasz na jego czujny
+wzrok. Czarne ¼renice niemal ca³kowicie wype³niaj± jego oczy, tworz±c
+bezdenn± otch³añ wrogo¶ci, ale i opanowania. Jego muskularna, wyprostowana
+postura, oraz pewne spojrzenie przypominaj± ci pog³oski o plemieniu ludzi
+zamieszkuj±cych pewien odleg³y kontynent, a stworzonych i ¿yj±cych tylko i
+wy³±cznie dla walki. S³ysz±c te pog³oski pierwszy raz, ten nieznajomy lud
+wyobra¿a³e¶ sobie bardziej jako kolejne plemie barbarzyñców, teraz jednak
+zastanawiasz siê, czy napewno chcia³by¶ sprawdziæ jak jest naprawdê.
+Nieznajomy przyby³ tutaj wraz z kupcem Galathanem i zapewne pe³ni rolê jego
+ochraniarza. 
+~
+Race cz³owiek~
+ActExt 0|ABT
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 5
+HP 10d10+800
+Damage 4d3+7
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC -3 -3 -3 -3
+Stats 150 80 80 180 140 100 100
+Off EFHIKLZ
+OffExt 0|EFHIKLZ
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload body1_onlo ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 800
+Resist 4 30
+Resist 12 70
+Resist 14 100
+Mobend
+#Vnum 20312
+Name barczysty pó³ork bodyguard2~
+Odmiana {Wbarczystego{x {rpó³orka{x~{Wbarczystemu{x {rpó³orkowi{x~{Wbarczystego{x {rpó³orka{x~{Wbarczystym{x {rpó³orkiem{x~{Wbarczystym{x {rpó³orku{x~
+Short {Wbarczysty{x {rpó³ork{x~
+Long S³usznych rozmiarów i postury pó³ork stoi tutaj.~
+Descr Stoi przed tob± wysoki, barczysty pó³ork. Po jego minie s±dzisz, ¿e
+têskno mu do tego, aby z³oiæ komu¶ porz±dnie rzyæ. Jego wyj±tkowe, nawet jak
+na pó³orka rozmiary, w po³±czeniu z masywn± zbroj± sprawiaj±, ¿e wygl±da,
+jakby jedynymi odpowiednimi wierzchowcami dla niego by³y smoki, a drzewa
+s³u¿y³y w razie potrzeby, jako bronie. Widaæ, ¿e pó³orkowi nie naj³atwiej
+przychodzi stanie w miejscu i strze¿enie swego najemcy, gdy¿ co chwila
+rozgl±da siê po pomieszczeniu szukaj±c pretekstu do bójki. Poprawia siê
+jednak, gdy zostaje co jaki¶ czas, nawet profilaktycznie skarcony przez
+Galathana, co wywo³uje u ciebie jeszcze wiêkszy szacunek do kupca. 
+~
+Race pó³ork~
+ActExt 0|ABT
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 2
+HP 10d10+1200
+Damage 4d3+9
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 1 1 1 1
+Stats 180 120 120 120 180 70 80
+Off CLTX
+OffExt 0|CLTX
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 20312_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 800
+Resist 4 30
+Resist 12 70
+Resist 14 100
+Mobend
+#Vnum 20313
+Name zakapior~
+Odmiana zakapiora~zakapiorowi~zakapiora~zakapiorem~zakapiorze~
+Short {Dzakapior{x~
+Long Podejrzany mê¿czyzna przemyka cicho ulicami.~
+Descr Osoba na któr± spogl±dasz jest niechybnie pó³elfem. Wysoki wzrost i
+szczup³a sylwetka pozwalaj± mu poruszaæ siê szybko i zwinnie. Odziany w
+d³ugi br±zowy p³aszcz i z sztyletem w rêku nie wygl±da na zbyt przyjaznego.
+Lepiej jakby¶ ju¿ sobie poszed³.. 
+~
+Race pó³elf~
+ActExt 0|AFGSW
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AB
+Speaks 0
+Level 20
+Hitroll 2
+HP 5d10+300
+Damage 3d4+6
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack none
+XAC 3 3 3 3
+Stats 110 90 90 160 120 100 100
+Off BFNY
+OffExt 0|BFNY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 70
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload zakapior_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20314
+Name doborowy gwardzista arras_mieszkaniec arras_straznik stra_arr~
+Odmiana doborowego gwardzisty~doborowemu gwardzi¶cie~doborowego gwardzistê~doborowym gwardzist±~doborowym gwardzi¶cie~
+Short doborowy gwardzista~
+Long Doborowy gwardzista przechadza siê po mie¶cie wypatruj±c zagro¿enia.~
+Descr Ten wysoki i umiê¶niony cz³owiek stanowi chlube stra¿y miejskiej Arras.
+Przeszed³ ju¿ wiele walk i jest zaprawiony nie tylko w boju polowym, ale te¿
+ulicznym. Elitarne oddzia³y stra¿ników, do których ten nale¿y, s±
+niezmiernie skuteczni i niebezpieczni dla ka¿dego, kto chia³by z³amaæ prawo
+na terenie Arras. 
+~
+Race cz³owiek~
+ActExt 0|ABGT
+Affected 8196 0 0 0
+AffectedExt 0|CN
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 16
+Hitroll 5
+HP 80d2+320
+Damage 2d7+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 3 3 3 9
+Stats 132 78 78 78 78 78 78
+Off EIKTXb
+OffExt 0|EIKTXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew exit 20314_exit FGI 1~
+MobprogNew onload 6197 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20315
+Name pomocnik Mera~
+Odmiana pomocnika Mera~pomocnikowi Mera~pomocnika Mera~pomocnikiem Mera~pomocniku Mera~
+Short {Cpomocnik{x {YMera{x~
+Long Osoba sprawuj±ca rolê pomocnika Mera stoi tutaj.~
+Descr Osoba ta wyznaczona zosta³a na odpowiedzialn± za rzeczy zwi±zane z
+bankietem, podczas gdy sam Mer bêdzie w nim uczestniczy³. Je¶li wiêc go¶cie
+czego¶ sobie za¿ycz±, to rol± pomocnika jest doprowadziæ do spe³nienia ich
+zachcianek. 
+~
+Race cz³owiek~
+ActExt 0|ABK
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 10d10+300
+Damage 3d3+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 130 130 130 130 130 130 130
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20316
+Name najemny zabójca~
+Odmiana {rzabójcy{x~{rzabójcy{x~{rzabójcê{x~{rzabójc±{x~{rzabójcy{x~
+Short {Dnajemny{x {rzabójca{x~
+Long Ukryty w cieniu {rzabójca{x czycha tutaj na swoj± ofiarê.~
+Descr Spogl±dasz na tego niemile wygl±daj±cego jegomo¶cia. Postur± przypomina
+cz³owieka, b±d¼ pó³elfa. Mimo, ¿e wiêkszo¶æ twarzy przykrywa mu br±zowa
+chusta, zgadujesz, ¿e nie spodoba³aby ci siê jego gêba. Po sposobie, w jaki
+siê porusza, nietrudno stwierdziæ, ¿e to profesjonalista. Je¶li ty go
+widzisz, to najpewniej on ciê ju¿ dawno zauwa¿y³. Sztyletem, który trzyma w
+rêce raczej nie poluje na króliki, dlatego te¿ chyba najwy¿szy czas dokonaæ
+taktycznego odwrotu. 
+~
+Race pó³elf~
+ActExt 0|ASTX
+Affected 66048 0 0 0
+AffectedExt 0|JQ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 2
+HP 10d10+500
+Damage 7d2+10
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 2 2 2 2
+Stats 155 90 110 150 135 110 110
+Off BFHIKN
+OffExt 0|BFHIKN
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 9300
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 12 20
+Mobend
+#Vnum 20397
+Name Kedila nauczyciel_kler kaplanka~
+Odmiana {CKedili{x~{CKedili{x~{CKedilê{x~{CKedil±{x~{CKedili{x~
+Short kap³anka {CKedila{x~
+Long Piêkna kap³anka {CKedila{x medytuje tutaj, uwiêziona przez strasznego maga.~
+Descr Spogl±dasz na t± spowit± bia³± aur± piêkno¶æ i po chwili rozumiesz
+dlaczego zosta³a tu uwiêziona. Po jej cudownej szacie mo¿na siê domy¶leæ, ¿e
+jest kap³ank±. Zapewne przyby³a tu wypêdziæ nieumar³ych, lecz zosta³a
+schwytana przez z³ego maga Barjina. Byæ mo¿e bia³a po¶wiata uniemo¿liwi³a
+magowi zabicie kap³anki, a byæ mo¿e jej smuk³e kszta³ty i nieludzka uroda
+odwiod³y Barjina od tego zamiaru. Spogl±daj±c na jej jasne blond w³osy,
+które wp³ywaj± wzd³u¿ jej ramion niczym rzeka, na jej widocznie
+gdzieniegdzie spod szaty d³ugie, g³adkie nogi zastanawiasz siê, czy nie
+jeste¶ pod wp³ywem uroku... Ale chwila, nie po to tu jeste¶.. Co prawda nie
+wypada przeszkadzaæ medytuj±cej kap³ance, ale mo¿e nauczy ciê czego¶? 
+~
+Race cz³owiek~
+ActExt 0|ABIJKQSTd/2|E
+Affected 128 0 0 0
+AffectedExt 0|H
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 0
+HP 10d5+500
+Damage 3d3+20
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 120 120 120 120 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20398
+Name recydywista z³odziej Herid nauczyciel_thief~
+Odmiana Herida~Heridowi~Herida~Heridem~Heridzie~
+Short z³odziej Herid~
+Long Dobrze znany w tych okolicach z³odziej Herid siedzi w rogu celi.~
+Descr Spogl±dasz na dosyæ wysokieko i szczup³ego mê¿czyznê, którego twarz jest
+ci sk±d¶ chyba znana. Po chwili u¶wiadamiasz sobie, ¿e to nikt inny jak
+s³awny na prawie ca³± Temere recydiwista Herid. Pamiêtasz jak jeszcze jaki¶
+czas temu kupcy bali siê o swój dobytek i zmusili w³adze arras do
+zatrudnienia dodatkowej stra¿y. Widaæ op³aci³o siê to, chod¼ wed³ug jednej z
+plotek Herida z³apano w stanie wskazuj±cym, gdy odwiedzi³ dom Mera Arras by
+zabaraszkowaæ z jego ¿on±. Niemniej jest jednym z najlepszych w swoim fachu,
+za odpowiedni± op³at± mo¿e ciê czego¶ nauczy? 
+~
+Race cz³owiek~
+ActExt 0|ABKRST
+Affected 32768 0 0 0
+AffectedExt 0|P
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d10+100
+Damage 1d10+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 120 120 120 120 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20399
+Name wysoki pikinier po³ork nauczyciel_woj rudy~
+Odmiana wysokiego pikiniera~wysokiemu pikinierowi~wysokiego pikiniera~wysokim pikinierze~wysokim pikinierze~
+Short wysoki pikinier~
+Long Wysoki pikinier przechadza siê po celi spokojnym krokiem.~
+Descr Widzisz przed sob± wysokiego pó³orka o rudych kud³atych w³osach
+wystaj±cych spod czarnego he³mu bez zas³ony, bo wystaj±cy tak¿e z he³mu
+garbaty d³ugi nos przeszkadza w noszeniu przy³bicy. Na ciele nosi czarn±
+zbrojê stalow±, któr± podtrzymuje od spodu czerwony pas z kolcami, ale
+zosta³o mu to wszystko odebrane podczas zamykania w celi. Zapewne ¿o³dacy
+obozowi rzucili ju¿ o to losy. Na d³ugie nogi o potê¿nych udach za³o¿y³
+br±zowe æwiekowane spodnie i czarne buty. Mówi± o nim, ¿e ju¿ w dzieciñstwie
+przewa¿nie chodzi³ wszêdzie z dwurêczn± d³ug± pik±, któr± lubi³ weso³o
+podrzucaæ i æwiczyæ krêcenie m³ynka wokó³ siebie. Ale nie tylko z pikami
+nauczy³ sobie radziæ. Dobrze w³ada tak¿e dwurêczn± halabard±, dziêki czemu
+mo¿e pochwaliæ siê trzema g³owami goblinów ¶ciêtymi za jednym obrotem
+podczas jednej z wielu potyczek. Chêtnie wymienia do¶wiadczenia w tej
+dziedzinie i lubi siê chwaliæ swoimi osi±gniêciami. 
+~
+Race pó³ork~
+ActExt 0|ABIJKQSTd/2|E
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AF
+Speaks 0
+Level 31
+Hitroll 0
+HP 31d6+620
+Damage 1d3+31
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_pikinier ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 20304
+Name d³uga solidna rohatyna roharras~
+Odmiana solidnej rohatyny~solidnej rohatynie~solidn± rohatynê~solidn± rohatyn±~solidnej rohatynie~
+Short solidna rohatyna~
+Descr Na ziemi le¿y ca³kiem przyzwoita rohatyna.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 8 2 7 25 32 0 1
+Repair 0 0 0 0
+Length 200
+Weight 170
+Cost 34000
+Cond 100
+Itemdesc Spogl±dasz na porz±dnie wykonan± broñ drzewcow±, jak± na pewno jest ta
+rohatyna. Drzewiec jest prosty i wytrzyma³y, a zamocowane ostrze wygl±da na
+bardzo ostre. Wykonujesz pare szybkich zamachów, co wystarcza by stwierdziæ,
+¿e ta broñ to kawa³ dobrej roboty. Na stalowym ostrzu widzisz wygrawerowany
+symbol arryjskiego kowala. 
+~
+Comments ~
+Objend
+#Vnum 20312
+Name b³êkitny p³aszcz~
+Odmiana p³aszcza~p³aszczowi~p³aszcza~p³aszczem~p³aszczu~
+Short {bb³êkitny{x p³aszcz~
+Descr Wygl±daj±cy na zupe³nie zwyk³y, {bp³aszcz{x le¿y tutaj.~
+Material we³na~
+Type clothing
+ExtraExt 0|P
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 1
+Cost 10000
+Cond 75
+Aff 0 13 1 0 0 B
+Comments ~
+Objend
+#Vnum 20324
+Name szkar³atne okute buty stalowe~
+Odmiana {rszkar³atnych okutych butów{x~{rszkar³atnym okutym butom{x~{rszkar³atne okute buty{x~{rszkar³atnymi okutymi butami{x~{rszkar³atnych okutych butach{x~
+Short {rszkar³atne okute buty{x~
+Descr Okute stal± buty ze {rzdobieniami{x stoj± tutaj.~
+Material damasceñska stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 7 15 0 0
+Repair 20 0 1 100
+Length 0
+Weight 50
+Cost 180000
+Cond 100
+Itemdesc S± to buty wykonane z miêkkiej skóry wykoñczonej szkar³atnym aksamitem
+dla dodania elegancji, na który przymocowano po kilka stalowych p³ytek
+wygiêtych ³ukowato i zachodz±cych nieznacznie na siebie. £ytki te spiête na
+kostkach guzami w szkar³atnoczerwonym kolorze skutecznie chroni± podbicie
+oraz staw skokowy nosz±cego. Órn± czê¶æ, siêgaj±c± a¿ do kolan, wykonano z
+jednego kawa³ka p³yty stalowej, któr± wygiêto rynnowato na kowadle.
+Zabezpieczenie za¶ dolnej czê¶ci stopy stanow± trzy niewielkie p³ytki
+chroni±ce palce i spodni± czê¶æ stopy. 
+~
+Comments ~
+Objend
+#Vnum 20327
+Name magiczna harfa kojacej piesni~
+Odmiana {Ymagicznej{x {Wharfy{x~{Ymagicznej{x {Wharfie{x~{Ymagiczn±{x {Wharfê{x~{Ymagiczn±{x {Wharf±{x~{Ymagicznej{x {Wharfie{x~
+Short {Ymagiczna{x {Wharfa{x {Yk{Wo{Yj{W±{Yc{We{Yj{x {Bpie¶ni{x~
+Descr Piêknie wykonana, wygl±daj±ca na bardzo cenn±, harfa le¿y tutaj.~
+Material z³oto~
+Type treasure
+ExtraExt 0|DGK
+Wear AO
+Wear2Ext 0|Mb
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 100
+Cost 500000
+Cond 100
+Objprog use rasz_harfak 100~
+Itemdesc Z podziwem i chciwo¶ci± spogl±dasz na ten piêknie wykonany instrument.
+Wygl±daj±cy na wykonany ze z³ota i srebra, wa¿y jednak raczej ma³o.
+Przypatruj±c siê harfiê, zdaje ci siê, ¿e wokó³ ciebie rozbrzmiewa cicha
+melodia. Z trudem opierasz siê pokusie mu¶niêcia jej strun, a gdy odwracasz
+od niej wzrok, twe serce wype³nia pustka. Z ca³± pewno¶ci± w przedmiocie tym
+zaklêta jest wielka magia. 
+~
+Comments ~
+Objend
+#Vnum 20328
+Name róg wojenny~
+Odmiana {yrogu{x {Rwojennego{x~{yrogowi{x {Rwojennemu{x~{yróg{x {Rwojenny{x~{yrogiem{x {Rwojennym{x~{yrogu{x {Rwojennym{x~
+Short {yróg{x {Rwojenny{x~
+Descr Wygl±daj±cy na niezwyk³y, {yróg{x {Rwojenny{x le¿y tutaj.~
+Material z³oto~
+Type treasure
+ExtraExt 0|GZ
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 1
+Cost 500000
+Cond 100
+Objprog use rasz_rog 100~
+Itemdesc Ten wspania³y róg wykonany jest w wiêkszo¶ci ze z³ota. Na jego
+powierzchni dostrzec mo¿na gdzieniegdzie wprawiony klejnot, b±d¼ srebrne
+zdobienie. Wydaje ci sie, ¿e z rogu ca³y czas wydobywa siê jaki¶ d¼wiêk,
+choæ ledwo s³yszalny. Róg wygl±da na piêkn± ozdobê, czujesz jednak, ¿e ma
+zaklêt± w sobie równie¿ pewn± moc. Mo¿e wystarczy zadmuchaæ? 
+~
+Comments ~
+Objend
+#Vnum 20329
+Name kryszta³owy diadem~
+Odmiana {Cdiademu{x~{Cdiademowi{x~{Cdiadem{x~{Cdiademem{x~{Cdiademie{x~
+Short {Ckryszta³owy{x {Ydiadem{x~
+Descr Wysadzony cennymi kamieniami diadem le¿y na ziemi, przyci±gaj±c tw± uwagê.~
+Material kryszta³~
+Type treasure
+ExtraExt 0|Z
+Wear AE
+Wear2Ext 0|M
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 1
+Cost 600000
+Cond 100
+Aff 1 29 3 0 0 0
+Objprog use rasz_diadem 100~
+Itemdesc Z zaciekawieniem spogl±dasz na diadem wykonany w wiêkszo¶ci z kryszta³u.
+Miejscami zosta³ on ozdobiony drogimi kamieniami, co ostatecznie daje
+piorunuj±cy efekt. Z trudem odrywasz od niego wzrok, sam ju¿ nie wiedz±c czy
+to za spraw± jego uroku, czy te¿ magi. Nak³adaj±c go na chwilê na g³owê,
+czujesz jak ro¶nie twoja pewno¶æ siebie. Przez chwilê nawet wydaje ci siê,
+¿e naprawdê nale¿ysz do arystokracji. Có¿, nawet ¿ebrak z tym diademem
+wygl±da³by jak król. 
+~
+Identdesc {CKryszta³owy{x {Ydiadem{x jest niezwykle cennym przedmiotem. Zdobiony drogimi
+kamieniami i wykonany z niezwyk³ym kunsztem znacznie podnosi charyzmê jego
+w³a¶ciciela w oczach innych. Raz na dobê pozwala równie¿ skorzystaæ z
+zaklêcia, które zosta³o w nim umieszczone. 
+~
+Comments ~
+Objend
+#Vnum 20348
+Name klucz do sali bankietowej~
+Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
+Short klucz do sali bakietowej~
+Descr Jaki¶ niewielki klucz le¿y tutaj.~
+Material stal~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 20350
+Name {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x zaklety mlot zaklety_mlot~
+Odmiana {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{ge{x{wg{x{wo{x {Cm³ota{x~{Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{ge{x{wm{x{wu{x {Cm³otowi{x~{Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy{x {Cm³ot{x~{Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy{x{wm{x {Cm³otem{x~{Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy{x{wm{x {Cm³ocie{x~
+Short {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy{x {Cm³ot{x~
+Descr Le¿y tutaj bucz±cy magiczn± aur± m³ot.~
+Material mithril~
+Type weapon
+ExtraExt 0|AGT
+Wear AN
+Wear2Ext 0|M
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 4 2 6 8 1024 2 2
+Repair 0 0 0 0
+Length 80
+Weight 200
+Cost 240000
+Cond 100
+Extradesc _dziwna~
+Dziwna aura otaczaj±ca {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x sprawia, ¿e czujesz
+niepokój i respekt. 
+~
+Objprog random raszer_test 15~
+Objprog hit raszer_testf 100~
+Objprog onload zaklety_onload 100~
+Itemdesc Z zdumieniem spogl±dasz na ten niezwyk³y m³ot nie mog±c siê nadziwiæ jego
+magicznej aurze. Wydaje siê, ¿e m³ot jest jedynie medium miêdzy jego
+w³a¶cicielem a moc± zaklêt± wewn±trz niego. 
+~
+Comments ~
+Objend
+#Vnum 20351
+Name kostur_testowy kostur~
+Odmiana okutego stal± kostura~okutemu stal± kosturowi~okuty stal± kostur~okutym stal± kosturem~okutym stal± kosturze~
+Short {W szpony {Dgryfa {x~
+Descr Dosyæ d³ugi, okuty stal± kostur le¿y tutaj na ziemi.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 12 2 3 13 32 0 0
+Repair 0 0 0 0
+Length 180
+Weight 130
+Cost 9000
+Cond 100
+Objprog random 10932 40~
+Itemdesc Jest to dosyæ d³ugi drewniany kostur, wzmocniony miejscami stal±. Drewno
+nie jest najlepszym materia³em na broñ, ale odpowiednio wzmocnione potrafi
+narobiæ pare siniaków. Kostur wykonany jest z dba³o¶ci±, okucie jest
+staranne, a sam kostur dobrze wywarzony. Widzisz wyciêty na nim symbol
+arryjskiego kowala. 
+~
+Comments ~
+Objend
+#Vnum 20355
+Name he³m rogami przy³bic±~
+Odmiana {Dczarnego{x he³mu z rogami i przy³bic±~{Dczarnemu{x he³mowi z rogami i przy³bic±~{Dczarny{x he³m z rogami i przy³bic±~{Dczarnym{x he³mem z rogami i przy³bic±~{Dczarnym{x he³mie z rogami i przy³bic±~
+Short {Dczarny{x he³m z rogami i przy³bic±~
+Descr Piêkny, czarny he³m z rogami i przy³bic± le¿y tutaj.~
+Material adamantyt~
+Type armor
+ExtraExt 0|G
+Wear AE
+Wear2Ext 0|EHI
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Length 0
+Weight 90
+Cost 15000
+Cond 100
+Objprog input przylbica_open otwórz~
+Objprog input przylbica_close zamknij~
+Objprog input przylbica_open open~
+Objprog input przylbica_close close~
+Objprog preremove przylbica_remov 100~
+Objprog prewear przylbica_wear 100~
+Itemdesc Znajduj±cy siê w twoim posiadaniu czarny he³m z rogami i przy³bic±
+wykonano z najlepszej jako¶ci stali o minimalnej zawarto¶ci wêgla. Po
+zdobionym znaku na wewnêtrznej stronie tego przedmiotu mo¿na poznaæ, i¿
+wykonano go w jednej z najlepszych ku¼ni krasnoludzkich na ca³ej Tamerze. Do
+jego wykonania specjalnie u¿yto stali gdy¿ jest jednym z najtañszych
+materia³ów do produkcji pancerzy, a odpowiednio spreparowana jest twarda i
+wytrzyma³a niczym adamantyt. G³ówn± warstwê metalu podbito od spodu miêkk±,
+ale mocno ubit± skór± jakiego¶ zwierzêcia, nastêpnie wpleciono weñ kolczugê
+o w miarê szerokich kó³kach i wszelkie braki uzupe³niono poch³aniaj±cym
+uderzenia w³osiem yeti. Na samym koñcu wy³o¿ono wnêtrze he³mu pikowan±
+zbroj±. Tak z³o¿ony w ca³o¶æ he³m uzupe³niono dla ozdoby rogami na pozór
+przypominaj±cymi krowie. Dodatkowo wyposa¿ono go w przy³bicê, któr± mo¿esz
+zamkn±æ lub otworzyæ. 
+~
+Comments ~
+Objend
+#Vnum 20361
+Name oko obserwatora oko-obserwatora~
+Odmiana {Wo{ck{Wa{x {nobserwatora{x~{Wo{ck{Wu{x {nobserwatora{x~{Wo{ck{Wo{x {nobserwatora{x~{Wo{ckie{Wm{x {nobserwatora{x~{Wo{ck{Wu{x {nobserwatora{x~
+Short {Wo{ck{Wo{x {nobserwatora{x~
+Descr Nieludzkich rozmiarów, ga³ka oczna le¿y tutaj.~
+Material kryszta³~
+Type treasure
+ExtraExt 0|AG
+Wear AO
+Wear2Ext 0|BL
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Komponent 6 1200
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 30
+Cost 21000
+Cond 50
+Identdesc ~
+Comments ~
+Objend
+#Vnum 20377
+Name amulet z zajêczych ³apek~
+Odmiana {Yamuletu{x z {Gzajêczych{x ³apek~{Yamuletowi{x z {Gzajêczych{x ³apek~{Yamulet{x z {Gzajêczych{x ³apek~{Yamuletem z {Gzajêczych{x ³apek~{Yamulecie{x z {Gzajêczych{x ³apek~
+Short {Yamulet{x z {Gzajêczych{x ³apek~
+Descr Niewielki amulet wykonany z paru zajêczych ³apek le¿y tutaj.~
+Material mocna skóra~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 15
+Cost 4500
+Cond 100
+Aff 1 13 3 0 0 0
+Aff 1 30 6 0 0 0
+Itemdesc Spogl±dasz z zaciekawieniem na ten amulet, który zrobiony jest z symboli
+szczê¶cia - zajêczych ³apek. Zapewne dla wzmocnienia efektów, ³apek jest
+kilka. Po³±czone s± one z sob± dosyæ grub±, br±zow± nici±, co mo¿e nie czyni
+tego amuletu najpiêkniejszym, ale przecie¿ nie o to w nim chodzi. 
+~
+Comments poprawa name i odmiany, niewielki bonus do Hp ;) - {RRisan{x ({CFri Nov 11 11:38:27 2011{x)
+~
+Objend
+#Vnum 20379
+Name amulet ³owcy amuletlow~
+Odmiana {gamuletu {Y³owcy{x~{gamuletowi {Y³owcy{x~{gamulet {Y³owcy{x~{gamuletem {Y³owcy{x~{gamulecie {Y³owcy{x~
+Short {yamulet{x {G³owcy{x~
+Descr Wykonany z fragmentów skór ró¿nych zwierz±t amulet le¿y tutaj.~
+Material mocna skóra~
+Type jewelry
+ExtraExt 0|b
+Wear AC
+Wear2Ext 0|L
+Bonus 20379
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 1
+Cost 10000
+Cond 100
+Aff 1 2 6 0 0 0
+Aff 0 14 15 0 1 Q
+Itemdesc Przygl±dasz siê uwa¿nie, dosyæ prostacko wygl±daj±cemu amuletowi. Zosta³
+on wykonany z ró¿nych kawa³ków skór, zszytych razem. Na pierwszy rzut oka
+wygl±da na jaki¶ bylejaki talizman, ale magiczna aura jak± z niego
+wyczuwasz, ka¿e ci s±dziæ inaczej. 
+~
+Comments poniewa¿ nie dzia³± bark_skin - nie daje ac jak jest z przedmiotu - kod tego nie uwzglednia, a ¿e to rar do stwrzylem set vnum 20379 dla rekompensaty  - {RKarlam{x ({CFri Nov 18 23:41:32 2011{x)
+nowe statystyki - aktualizacja - {RGorst{x ({CWed May  8 04:09:39 2013{x)
+~
+Objend
+#Vnum 20380
+Name bransoletalowcy bransoleta lowcy~
+Odmiana {gbransolety{Y ³owcy{x~{gbransolecie {Y³owcy{x~{gbransolete {Y³owcy{x~{gbransolet± {Y³owcy{x~{gbransolecie{Y ³owcy{x~
+Short {ybransoleta{x {G³owcy{x~
+Descr Bransoleta wykonana z skóry i ³usek przeró¿nych zwierz±t le¿y tutaj.~
+Material mocna skóra~
+Type jewelry
+ExtraExt 0|b
+Wear AM
+Wear2Ext 0
+Bonus 20379
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 5
+Cost 10000
+Cond 100
+Aff 1 30 12 0 0 0
+Aff 0 17 -5 0 1 B
+Itemdesc Spogl±dasz w³a¶nie na mo¿e brzydk±, ale niezwyk³± bransoletê. Zrobiona
+jest z zszytych razem przeró¿nych skór, z gdzieniegdzie wplecion± jak±¶
+³usk±. Na pierwszy rzut oka wydaje siê byæ niedbale wykonana, potrzebujesz
+jednak w³o¿yæ sporo si³y, aby choæ trochê j± rozci±gn±æ. Bransoleta emanuje
+przedziwnym zapachem, który dzia³a na ciebie lekko uspokajaj±co. 
+~
+Identdesc ~
+Comments nowe statystyki - aktualizacja - {RGorst{x ({CWed May  8 04:09:30 2013{x)
+~
+Objend
+#Vnum 20388
+Name druidzka laska kwitnace drzewo kwitnace_drzewo~
+Odmiana {Gdruidzkiej laski{x~{Gdruidzkiej lasce{x~{Gdruidzk± laskê{x~{Gdruidzk± lask±{x~{Gdruidzkiej lasce{x~
+Short {Gdruidzka laska{x "{Mkwitn±ce{x {ydrzewo{x"~
+Descr Drewniana laska, emanuj±ca lekk± aur± le¿y tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 9 2 3 7 32 2 0
+Repair 0 0 0 0
+Length 190
+Weight 150
+Cost 18000
+Cond 75
+Objprog input 20388_input popukaj~
+Itemdesc Spogl±dasz na magiczn± laskê, w calo¶ci wykonan± z drewna, któr± jaki¶
+druid musia³ nasyciæ czê¶ci± swej mocy. Powiada siê, ¿e z jej pomoc± raz na
+jaki¶ czas mo¿na wyczarowaæ jaki¶ magiczny krzew. Wystarczy POPUKAÆ LASK¡ o
+ziemie, a w miejscu gdzie j± dotknê³a powinno wyrosn±æ ¶liczne drzewko. 
+~
+Comments ~
+Objend
+#Vnum 20396
+Name mosiê¿ny spory klucz~
+Odmiana mosiêznego klucza~mosiêznemu kluczowi~mosiêzny klucz~mosiêznym kluczem~mosiêznym kluczu~
+Short mosiê¿ny klucz~
+Descr Spory klucz z mosi±dzu upad³ komu¶ tutaj na ziemie.~
+Material mosi±dz~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 1
+Cond 75
+Itemdesc Jest to spory klucz wykonany z mosi±dzy, lekko pokryty zielon± patyn±. Ma
+du¿e oczko, na którym mo¿na go ³atwo gdzie¶ zawiesiæ. Jest te¿ zabrudzony,
+ale wyszlifowany to i ówdzie, co swiadczy³oby o czêstym u¿ywaniu klucza. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 20300
+Name Droga przy murze~
+Descr Stoisz na ¶rodku niewielkiej, ale b±dz co b±dz zadbanej brukowanej
+drodze, która otacza du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20334
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20334
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52420
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52420
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20301
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20301
+Roomprog speech rasz_varisnull testuj~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20301
+Name Droga przy murze~
+Descr Jeste¶ w³a¶nie na niezbyt du¿ej, ale b±dz co b±dz zadbanej brukowanej
+drodze, otaczaj±cej du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. Obrona
+jest na pewno priorytetem tego miejsca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20300
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20300
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52421
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52421
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20302
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20302
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20302
+Name Droga przy murze~
+Descr Znajdujesz siê na porz±dnym trakcie okalaj±cym mury Fortecy
+Krasnoludzkiej wznoszo±cych siê niemal nad twoj± g³ow± na zachodzie. Na
+wschodzie widok odcina zielony las. Krasnoludy musz± ceniæ sobie obronê
+dorobku i spokój, skoro tak zabudowali swe miasto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20301
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20301
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52081
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52081
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20303
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20303
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20303
+Name Droga przy murze~
+Descr Stoisz na ¶rodku niewielkiej, ale b±dz co b±dz zadbanej brukowanej
+drodze, która otacza du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20302
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20302
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52107
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52107
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20304
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20304
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20304
+Name Droga przy murze~
+Descr Jeste¶ w³a¶nie na niezbyt du¿ej, ale b±dz co b±dz zadbanej brukowanej
+drodze, otaczaj±cej du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. Obrona
+jest na pewno priorytetem tego miejsca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20303
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20303
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52133
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52133
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20305
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20305
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20305
+Name Droga przy murze~
+Descr Znajdujesz siê na porz±dnym trakcie okalaj±cym mury Fortecy
+Krasnoludzkiej wznoszo±cych siê niemal nad twoj± g³ow± na zachodzie. Na
+wschodzie widok odcina zielony las. Krasnoludy musz± ceniæ sobie obronê
+dorobku i spokój, skoro tak zabudowali swe miasto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20304
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20304
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52159
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52159
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20306
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20306
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20306
+Name Droga przy murze~
+Descr Droga okr±¿aj±ca Krasnoludzk± Fortecê w tym miejscu gwa³townie skrêca,
+praktycznie natychmiast wystrzeliwuj±c na zachód w kierunku traktu
+wychodz±cego na po³udnie od miasta. Droga, jak prawie ca³a jej pozosta³a
+czê¶æ jest nienaganna, ca³kowicie zadbana, a bruk równiutko u³o¿ony.
+Pogr±¿asz siê na chwile w marzeniach, co by by³o gdyby takie drogi by³y
+wszêdzie na ¶wiecie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20305
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20305
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52185
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52185
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 53142
+ExitExtEnd
+Exit 2
+~
+~
+0 0 53142
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20307
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20307
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20307
+Name Droga przy murze~
+Descr Stoisz na ¶rodku równej, zadbanej i nie tak starej jak mog³oby siê
+wydawaæ drogi okalaj±cej Krasnoludzk± Fortecê od strony po³udniowej. Ten
+niewielki trakt jest swoist± obwodnic± miasta, które bardzo czêsto bywa
+zamkniêtym dla przyjezdnych. Nie spotyka siê tu wielu podró¿ników, bowiem
+wiekszo¶æ woli przeje¿dzaæ przez samo miasto, gdzie mo¿na zawsze co¶ kupiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20306
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20306
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 53141
+ExitExtEnd
+Exit 2
+~
+~
+0 0 53141
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20308
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20308
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20308
+Name Droga przy murze~
+Descr W tym miejscu, jak w wielu innych droga spokojnie okr±¿a mury
+krasnoludzkiego miasta. Trakt prowadzi z zachodu na wschód, gdzie niedaleko
+gwa³townie zakrêca wraz z murami na na pó³noc. Trzeba przyznaæ, ¿e mury
+wygl±daj± naprawde solidnie i potê¿nie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20307
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20307
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 53140
+ExitExtEnd
+Exit 2
+~
+~
+0 0 53140
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20309
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20309
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20309
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza jedno z
+najwiekszych krasnoludzkich miast. Jej równa i twarda nawierzchnia ¶wiadczy
+o wysokim kunszcie kamieniarzy. Patrz±c na pó³noc widzisz masywne mury
+otaczaj±ce fortecê, któr± nie na darmo tak nazywaj±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20308
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20308
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 53139
+ExitExtEnd
+Exit 2
+~
+~
+0 0 53139
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20310
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20310
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20310
+Name Droga przy murze~
+Descr W tym miejscu, jak w wielu innych droga spokojnie okr±¿a mury
+krasnoludzkiego miasta. Trakt prowadzi z zachodu na wschód, gdzie niedaleko
+gwa³townie zakrêca wraz z murami na na pó³noc. Trzeba przyznaæ, ¿e mury
+wygl±daj± naprawde solidnie i potê¿nie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20309
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20309
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44276
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44276
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20311
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20311
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20311
+Name Droga przy murze~
+Descr Stoisz na ¶rodku równej, zadbanej i nie tak starej jak mog³oby siê
+wydawaæ drogi okalaj±cej Krasnoludzk± Fortecê od strony po³udniowej. Ten
+niewielki trakt jest swoist± obwodnic± miasta, które bardzo czêsto bywa
+zamkniêtym dla przyjezdnych. Nie spotyka siê tu wielu podró¿ników, bowiem
+wiekszo¶æ woli przeje¿dzaæ przez samo miasto, gdzie mo¿na zawsze co¶ kupiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20310
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20310
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44275
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44275
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20312
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20312
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20312
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza jedno z
+najwiekszych krasnoludzkich miast. Jej równa i twarda nawierzchnia ¶wiadczy
+o wysokim kunszcie kamieniarzy. Patrz±c na pó³noc widzisz masywne mury
+otaczaj±ce fortecê, któr± nie na darmo tak nazywaj±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20311
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20311
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44274
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44274
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20313
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20313
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20313
+Name Droga przy murze~
+Descr Znajdujesz siê na kamiennym go¶ciñcu okr±¿aj±cym mury Fortecy od strony
+po³udniowej. Droga ta powsta³a jako typowa obwodnica miasta, które z racji
+swojego przeznaczenia jako cytadeli nie zawsze jest otwarte dla
+przyjezdnych. Potê¿ne mury widoczne bardzo dobrze na pó³nocy wywo³uj±
+sprzeczne uczucia. Z jednej strony sprawiaj±, ¿e czujesz siê bezpieczny pod
+ich protekcj±, a z drugiej s± takie z³owrogie i nieprzebyte. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20312
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20312
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44242
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44242
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20328
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20328
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20314
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza jedno z
+najwiekszych krasnoludzkich miast. Jej równa i twarda nawierzchnia ¶wiadczy
+o wysokim kunszcie kamieniarzy. Patrz±c na pó³noc widzisz masywne mury
+otaczaj±ce fortecê, któr± nie na darmo tak nazywaj±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20328
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20328
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20315
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20315
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20315
+Name Droga przy murze~
+Descr Znajdujesz siê na kamiennym go¶ciñcu okr±¿aj±cym mury Fortecy od strony
+po³udniowej. Droga ta powsta³a jako typowa obwodnica miasta, które z racji
+swojego przeznaczenia jako cytadeli nie zawsze jest otwarte dla
+przyjezdnych. Potê¿ne mury widoczne bardzo dobrze na pó³nocy wywo³uj±
+sprzeczne uczucia. Z jednej strony sprawiaj±, ¿e czujesz siê bezpieczny pod
+ich protekcj±, a z drugiej s± takie z³owrogie i nieprzebyte. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20314
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20314
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52007
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52007
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20316
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20316
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20316
+Name Droga przy murze~
+Descr Stoisz na ¶rodku równej, zadbanej i nie tak starej jak mog³oby siê
+wydawaæ drogi okalaj±cej Krasnoludzk± Fortecê od strony po³udniowej. Ten
+niewielki trakt jest swoist± obwodnic± miasta, które bardzo czêsto bywa
+zamkniêtym dla przyjezdnych. Nie spotyka siê tu wielu podró¿ników, bowiem
+wiekszo¶æ woli przeje¿dzaæ przez samo miasto, gdzie mo¿na zawsze co¶ kupiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20315
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20315
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52006
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52006
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20317
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20317
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20317
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza jedno z
+najwiekszych krasnoludzkich miast. Jej równa i twarda nawierzchnia ¶wiadczy
+o wysokim kunszcie kamieniarzy. Patrz±c na pó³noc widzisz masywne mury
+otaczaj±ce fortecê, któr± nie na darmo tak nazywaj±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20316
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20316
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52005
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52005
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20318
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20318
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20318
+Name Droga przy murze~
+Descr Stoisz na ¶rodku równej, zadbanej i nie tak starej jak mog³oby siê
+wydawaæ drogi okalaj±cej Krasnoludzk± Fortecê od strony po³udniowej. Ten
+niewielki trakt jest swoist± obwodnic± miasta, które bardzo czêsto bywa
+zamkniêtym dla przyjezdnych. Nie spotyka siê tu wielu podró¿ników, bowiem
+wiekszo¶æ woli przeje¿dzaæ przez samo miasto, gdzie mo¿na zawsze co¶ kupiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20317
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20317
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52004
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20319
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20319
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20319
+Name Droga przy murze~
+Descr Znajdujesz siê na kamiennym go¶ciñcu okr±¿aj±cym mury Fortecy od strony
+po³udniowej. Droga ta powsta³a jako typowa obwodnica miasta, które z racji
+swojego przeznaczenia jako cytadeli nie zawsze jest otwarte dla
+przyjezdnych. Potê¿ne mury widoczne bardzo dobrze na pó³nocy wywo³uj±
+sprzeczne uczucia. Z jednej strony sprawiaj±, ¿e czujesz siê bezpieczny pod
+ich protekcj±, a z drugiej s± takie z³owrogie i nieprzebyte. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20318
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20318
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52003
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52003
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20320
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20320
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20320
+Name Droga przy murze~
+Descr W tym miejscu, jak w wielu innych droga spokojnie okr±¿a mury
+krasnoludzkiego miasta. Trakt prowadzi z zachodu na wschód, gdzie niedaleko
+gwa³townie zakrêca wraz z murami na na pó³noc. Trzeba przyznaæ, ¿e mury
+wygl±daj± naprawde solidnie i potê¿nie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20319
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20319
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52002
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52002
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20321
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20321
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20321
+Name Droga przy murze~
+Descr Droga okr±¿aj±ca Krasnoludzk± Fortecê w tym miejscu gwa³townie skrêca,
+praktycznie natychmiast wystrzeliwuj±c na wschód w kierunku traktu
+wychodz±cego na po³udnie od miasta. Droga, jak prawie ca³a jej pozosta³a
+czê¶æ jest nienaganna, ca³kowicie zadbana, a bruk równiutko u³o¿ony.
+Pogr±¿asz siê na chwile w marzeniach, co by by³o gdyby takie drogi by³y
+wszêdzie na ¶wiecie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20322
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20322
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20320
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20320
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52001
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52001
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16805
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16805
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20322
+Name Droga przy murze~
+Descr Stoisz na ¶rodku niewielkiej, ale b±dz co b±dz zadbanej brukowanej
+drodze, która otacza du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20323
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20323
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20321
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20321
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16802
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16802
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20323
+Name Droga przy murze~
+Descr Znajdujesz siê na porz±dnym trakcie okalaj±cym mury Fortecy
+Krasnoludzkiej wznoszo±cych siê niemal nad twoj± g³ow± na zachodzie. Na
+wschodzie widok odcina zielony las. Krasnoludy musz± ceniæ sobie obronê
+dorobku i spokój, skoro tak zabudowali swe miasto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20324
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20324
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20322
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20322
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16799
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16799
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20324
+Name Droga przy murze~
+Descr Jeste¶ w³a¶nie na niezbyt du¿ej, ale b±dz co b±dz zadbanej brukowanej
+drodze, otaczaj±cej du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. Obrona
+jest na pewno priorytetem tego miejsca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20325
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20325
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20323
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20323
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16796
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16796
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20325
+Name Droga przy murze~
+Descr Jeste¶ w³a¶nie na niezbyt du¿ej, ale b±dz co b±dz zadbanej brukowanej
+drodze, otaczaj±cej du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. Obrona
+jest na pewno priorytetem tego miejsca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20326
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20326
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20324
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20324
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16793
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16793
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20326
+Name Droga przy murze~
+Descr Znajdujesz siê na porz±dnym trakcie okalaj±cym mury Fortecy
+Krasnoludzkiej wznoszo±cych siê niemal nad twoj± g³ow± na zachodzie. Na
+wschodzie widok odcina zielony las. Krasnoludy musz± ceniæ sobie obronê
+dorobku i spokój, skoro tak zabudowali swe miasto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20327
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20327
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20325
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20325
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16790
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16790
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20327
+Name Droga przy murze~
+Descr Stoisz na ¶rodku niewielkiej, ale b±dz co b±dz zadbanej brukowanej
+drodze, która otacza du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20332
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20332
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20326
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20326
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16787
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16787
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20328
+Name Przed masywn± bram± Fortecy~
+Descr Dotar³es pod masywne wrota krasnoludzkiej twierdzy, które uniemo¿liwiaj±
+ci dalsz± podró¿ na pó³noc. Gruba¶ne wysokie spiczaste k³ody wielko¶ci
+prawie dwu ogrów, ze spiczastymi wykoñczeniami na górze, po³±czone ze sob±
+stalowymi sprzêgami stanowi± barykadê, której raczej nie sposób wywa¿yæ.
+Ponad wszystkim dostrzegasz skomplikowany mechanizm, ktory w przypadku ataku
+zasypie doszczêtnie wej¶cie do fortecy. Obok znajduje siê solidna wie¿yczka,
+z której krasnoludy mog± obserwowaæ okolicê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n wchodzi przez bramê do ¶rodka twierdzy.~
+ExitExtTextIn $n wszed³ zza bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 20333
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+TextOut $n wchodzi przez bramê do ¶rodka twierdzy.~
+TextIn $n wszed³ zza bramy.~
+brama~
+3 0 20333
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20313
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20313
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20329
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20329
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20314
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20314
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20329
+Name Brukowana droga~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, niedaleko krasnoludzkiej
+Fortecy. Jej równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie
+kamieniarzy. Patrz±c na pó³noc widzisz ogromne mury otaczaj±ce fortecê,
+któr± nie na darmo tak nazywaj±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20328
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20328
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44242
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44242
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20330
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20330
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52008
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52008
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20330
+Name Brukowana droga~
+Descr Znajdujesz siê na kamiennym, dobrze ubitym go¶ciñcu. Droga ta powsta³a
+jako typowa obwodnica miasta, które z racji swojego przeznaczenia jako
+cytadeli nie zawsze jest otwarte dla przyjezdnych. Potê¿ne mury widoczne
+bardzo dobrze na pó³nocy wywo³uj± sprzeczne uczucia. Z jednej strony
+sprawiaj±, ¿e czujesz siê bezpieczny pod ich protekcj±, a z drugiej s± takie
+z³owrogie i nieprzebyte. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20329
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20329
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44243
+ExitExtEnd
+Exit 1
+~
+~
+0 0 44243
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10429
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10429
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52016
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52016
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20331
+Name Sala bankietowa~
+Descr Znajdujesz siê w dosyæ przestronnej sali, która przygotowana zosta³a
+specjalnie na wizytê kupca Galathana. Rozgl±dajac siê dooko³a zauwa¿asz
+poka¼n± ilo¶æ dekoracji, jedzenia oraz go¶ci. W wypolerowanej marmurowej
+pod³odze z ³atwo¶ci± dostrzegasz swoje odbicie. Na samym koñcu sali znajduje
+siê podwy¿szenie, z pewno¶ci± dla zaproszonych trubadurów oraz innych
+pie¶niarzy czy pie¶niarek. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 20348
+ExitExtToVnum 6054
+ExitExtEnd
+Exit 3
+~
+~
+7 20348 6054
+Roomprog reset bankr_res 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20332
+Name Droga przy murze~
+Descr Znajdujesz siê na porz±dnym trakcie okalaj±cym mury Fortecy
+Krasnoludzkiej wznoszo±cych siê niemal nad twoj± g³ow± na zachodzie. Na
+wschodzie widok odcina zielony las. Krasnoludy musz± ceniæ sobie obronê
+dorobku i spokój, skoro tak zabudowali swe miasto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 222
+ExitExtEnd
+Exit 0
+~
+~
+0 0 222
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20327
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20327
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16784
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16784
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20333
+Name W masywnej bramie~
+Descr Patrz±c na t± wielk± bramê zastanawiasz siê, jakie si³y by³yby j± w
+stanie roztrzaskaæ. Jest ona prawie metrowej grubo¶ci, tworz± j± szerokie
+dêbowe bele, okute centymetrow± stal±. Potwornie ciê¿kie wrota umieszczono
+na szczê¶cie w dobrze naoliwionych zawiasach. Nad bram± znajduje siê,
+solidnie podtrzymywana wie¿a z której krasnoludzcy kusznicy w razie ataku,
+zasypi± wrogów morzem be³tów. Nie widaæ st±d nic, a nic nieba, jednak
+kamienna konsturkcja, jest niew±tpliwie wytworem krasnoludzkich mistrzów
+rzemios³a. Jest co podziwiaæ. 
+~
+FlagsExt 0|He
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 61
+ExitExtEnd
+Exit 0
+~
+~
+0 0 61
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n wychodzi poza masywn± bramê.~
+ExitExtTextIn $n wyszed³ poza bramê miasta.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 20328
+ExitExtEnd
+Exit 2
+~
+VName Brama~
+TextOut $n wychodzi poza masywn± bramê.~
+TextIn $n wyszed³ poza bramê miasta.~
+brama~
+3 0 20328
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20334
+Name Droga przy murze~
+Descr Jeste¶ w³a¶nie na niezbyt du¿ej, ale b±dz co b±dz zadbanej brukowanej
+drodze, otaczaj±cej du¿e, krasnoludzkie miasto - Fortecê na zachodzie. Jej
+równa i twarda nawierzchnia ¶wiadczy o wysokim kunszcie kamieniarzy, na
+pewno bêd±cych krasnoludami. Masz wra¿enie wrêcz klaustrofobiczne, kiedy
+spogl±dasz na ¶cianê murów na zachodzie i ¶cianê lasu na wschodzie. Obrona
+jest na pewno priorytetem tego miejsca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5602
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5602
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52419
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52419
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20300
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20300
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20340
+Name W±ska uliczka~
+Descr W±ska uliczka udbija od pó³nocnej alei w g³±b ci±gn±cych siê wzd³u¿
+kamieniczek. Deptak po którym st±pasz jest do¶æ starannie, równo wy³o¿ony.
+Ot co, powiedzia³by niejeden tutejszy mieszkaniec, zwyk³a krasnoludzka
+robota. Na pó³nocy wznosi siê niewielka kamieniczka z której momentami
+dochodzi niezbyt mi³y zapach. Na po³udniu zas znajduje siê ¶ciana z ma³ym
+okratowanym okienkiem. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20341
+ExitExtEnd
+Exit 1
+~
+~
+0 0 20341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20341
+Name W±ska uliczka~
+Descr W±ska uliczka udbija od pó³nocnej alei w g³±b ci±gn±cych siê wzd³u¿
+kamieniczek. Deptak po którym st±pasz jest do¶æ starannie, równo wy³o¿ony.
+Ot co, powiedzia³by niejeden tutejszy mieszkaniec, zwyk³a krasnoludzka
+robota. Na pó³nocy wznosi siê spora kamienica, na której twój wzrok
+przyci±gaj± nieco kunsztownie wyrze¼bione ozdóbki dooko³a drzwi wej¶ciowych
+i okien. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20342
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20342
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20340
+ExitExtEnd
+Exit 3
+~
+~
+0 0 20340
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20342
+Name Przedpokój~
+Descr ~
+FlagsExt 0|H
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20341
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20341
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20396
+Name Brudna cela~
+Descr Ma³a obskurna cela w której siê znajdujesz nie zachêca do czêstych
+odwiedzin. Gdzieniegdzie widaæ ¶lady moczu i tym podobnych, widocznie
+higiena w takich miejscach nie obowi±zuje. Cela ta posiada tylko jedno ma³e
+okno z kratami, przez które od czasu do czasu mo¿na dostrzec gdzie¶ tam nogi
+biegaj±cych w po¶piechu kupców i mieszkañców. W celi tej nie ma ¿adnego
+³ó¿ka, a pod³oga wy³o¿ona jest sianem. No có¿, wiêzienie to nie karczma.. 
+~
+FlagsExt 0|CN
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 0
+ExitExtToVnum 6043
+ExitExtEnd
+Exit 1
+~
+~
+39 0 6043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20397
+Name Cela zbiorcza~
+Descr A wiêc tak wygl±da wojskowy areszt. Drewniane ¶ciany z nieheblowanych pni
+¶wierkowych, kilka pos³añ po³o¿onych wprost na ziemi i smród moczu
+uderzaj±cy w nos zaraz po wej¶ciu. Zamykanie w tej celi po kilka osób bez
+wypuszczanie 'za potrzeb±' ma dodatkowo wzmacniaæ wiêzy pomiêdzy ¿o³nierzami
+i wzmagaæ w nich troskê o innych. S±dz±c jednak po brudzie i odorze, ¿e
+ka¿dy dba tylko o swoje potrzeby, bez ogl±dania siê na innych. 
+~
+FlagsExt 0|N
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 20398
+ExitExtEnd
+Exit 2
+~
+~
+3 0 20398
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20398
+Name Areszt obozowy~
+Descr Stoisz w przedsionku baraku, w którym mie¶ci siê areszt obozowy. Na
+pó³nocy znajduje siê cela zbiorcza, a na poludniu cela pojedyncza, co¶ w
+rodzaju izolatki lazaretowej. Ca³y budyek aresztu jest w miare nowy, gdy¿
+dopiero ostatnimi czasy liczba zo³nierzy dopusczaj±cych siê niesubordynacji
+znacznie wzros³a. Mimo, ¿e nie jest tu tak ciê¿ko wzmacnia dyscyplinê
+obozow± i karno¶æ ¿o³nierzy. 
+~
+FlagsExt 0|HN
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 20397
+ExitExtEnd
+Exit 0
+~
+~
+3 0 20397
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 20396
+ExitExtToVnum 20399
+ExitExtEnd
+Exit 2
+~
+~
+39 20396 20399
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 20399
+Name Pojedyncza cela~
+Descr Znajdujesz siê w celi, na szczê¶cie ty nie jeste¶ tu aresztantem.
+Wojskowi doszli chyba do wniosku, ¿e nie trzeba zapewniaæ, ¿adnych wygód
+uwiêzionemu. Przecie¿ i tak nie bêdzie tu d³ugo przebywaæ. Przecie¿ to nie
+wiêzienie. Widaæ to po wygl±dzie celi: drewniane ¶ciany, krata w okutych
+¿elazem drzwiach, a pod nogami zwyk³e gliniane klepisko, tu i ówdzie
+wy¶cielone s³om±. Zwykle u¿ywano tej pojedyñczej celi do izolowania pijanych
+i awanturuj±cych siê ¿o³nierzy, aby nie robili zbyt wiele ha³asu. 
+~
+FlagsExt 0|N
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 20396
+ExitExtToVnum 20398
+ExitExtEnd
+Exit 0
+~
+~
+39 20396 20398
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 64 4 20333 1
+M 100 63 4 20333 1
+M 100 20398 1 20396 1
+S
+
+
+
+#MOBPROGSNEW
+#20310
+~
+~
+#20312_onload
+~
+mob equip self 3032
+mob equip self 3077
+mob equip self 3061
+mob equip self 20324
+mob equip self 3178
+mob equip self 3318
+~
+#20314_exit
+~
+if !hasflag lq_pozwolenie
+  sayto $n Staæ! Na sali odbywa siê w³a¶nie bankiet z okazji wizyty kupca Galathana. Wstêp wzbroniony bez pozwolenia pomocnika Mera.
+else
+  sayto $n Mo¿esz przej¶æ.
+  mob echoat $n Stra¿nik schodzi ci z drogi.
+  mob echoaround $n Stra¿nik schodzi z drogi $x, wpuszczaj±c go na salê bankietow±.
+  mob transfer $n 20331
+endif
+~
+#body1_onlo
+~
+mob equip self 3019
+mob equip self 3051
+mob equip self 3002
+mob equip self 3066
+mob equip self 3152
+mob equip self 3179 hold
+~
+#equip_pikinier
+~
+mob equip self 3045
+mob equip self 3051
+mob equip self 3002
+~
+#gala_death
+~
+mob oload gem 7
+mob oload gem 6
+mob oload gem 5
+mob oload finger 5
+mob oload finger 5
+mob oload wrist 5
+~
+#gala_onlo
+~
+mob equip self 4372
+mob equip self 4411
+mob oload 20312
+mob equip self 246
+mob equip self 4422
+mob addgroup 20311
+mob addgroup 20312
+~
+#rasz_rand
+~
+$_rand = int_random 1 6
+if numeval $_rand == 1
+sayto $n 1
+endif
+if numeval $_rand == 2
+sayto $n 2
+endif
+if numeval $_rand == 3
+sayto $n 3
+endif
+if numeval $_rand == 4
+sayto $n 4
+endif
+if numeval $_rand == 5
+sayto $n 5
+endif
+if numeval $_rand == 6
+sayto $n 6
+endif
+~
+#rasz_strahate
+~
+mob forget
+mob remember $r
+foreachinroom $q
+  if name $n Mantios
+  or name $n Riraxer
+  or name $n Siliant
+    mob sethhf $i hunt $n
+    mob sethhf $i hate $n
+    sayto $n Psi synku! Twe zbrodnie nie zostan± ci wybaczone!
+    yell $n jest w Arras! Do broni!
+    kill $N
+  endif 
+
+  nextfor
+endfor
+end
+~
+#smok_wait
+~
+mob reward $n wait 3
+end
+~
+#syrv_fight
+~
+mob echo PROG SYRV_FIGHT odpalony
+#zabezpieczenia:
+if pos $i sitting
+or affected $i paralyze
+or hasflag $i smok_zajety
+  break
+endif
+mob echo {RPrzeszlo przez zabezpieczenia{x
+#dodatkowe umiejetno¶ci:
+$_rand = int_random 1 2
+if numeval $_rand == 1
+  mob echo {RPowinien byæ crush!{x
+  ######
+  #crush:
+  ######
+  #Smok przygniata ³ap± przeciwnika do ziemi.
+  #Bash na 3 rundy z waitem, pó¼niej zdejmuje ³ape.
+  #Szansa na unikniêcie zale¿na od dexa.
+  mob setflag $i smok_zajety 2
+  if pos $n sitting
+    mob echoat $n Le¿±c na ziemi widzisz jak smok unosi swoj± ³ap± i po chwili czujesz przeszywaj±cy ból, gdy owa ³apa spada na ciebie z impetem, przygniataj±c do ziemi.
+    mob echoaround $n $i unosi swoj± ³apê do góry, po czym z piorunuj±c± si³± uderza ni± w $c, przygniataj±c do ziemi. 
+    mob setpos $n sitting
+    mob reward $n wait 30
+    mob reward $i wait 30
+    delay 3
+    mob removeflag $i smok_zajety
+    if ishere $i
+    and ishere $n
+      mob echoat $n Smok uwalni± ciê spod swojej ³apy.
+      mob echoaround $n Smok zabiera swoj± ³apê, uwalniaj±c $c.
+    else
+    endif
+    break
+  endif
+  if statdex $n > 25
+    if rand 50
+      goto nudany_crush
+    endif
+  else
+    if statdex $n > 22
+      if rand 75
+        goto nudany_crush
+      endif
+    endif
+  endif
+  #udany_crush
+  mob echoat $n Widzisz jak smok powoli podnosi swoj± ³apê, widz±c co odwracasz siê i zaczynasz uciekaæ, jednak po chwili czujesz jakby g³az uderzy³ ciê w plecy, przygniataj±c do ziemi.
+  mob echoaround $n Widzisz jak smok powoli podnosi swoj± ³apê, a przera¿ony widokiem $n zaczyna uciekaæ.. na pró¿no. £apa Syrverna l±duje na jego plecach wbijaj±c go w ziemiê.
+  mob setpos $n sitting
+mob reward $n wait 30
+  mob reward $i wait 15
+  delay 3
+  mob removeflag $i smok_zajety
+  if ishere $i
+  and ishere $n
+    mob echoat $n Smok uwalni± ciê spod swojej ³apy.
+    mob echoaround $n Smok zabiera swoj± ³apê, uwalniaj±c $c.
+  endif
+  break
+  #koniec udanego crusha
+  :nudany_crush
+  mob echoat $n Widzisz jak smok powoli podnosi swoj± ³apê, przez chwilê masz ochotê po prostu odwróciæ siê i zacz±æ uciekaæ, jednak udaje ci siê zachowaæ zimn± krew. Wyczekujesz a¿ smok przypuszcza swój atak i zwinnie, w ostatnim momencie odskakujesz, unikaj±c przygniecienia olbrzymi± ³ap±.
+  mob echoaround $n Widzisz jak smok powoli podnosi swoj± ³apê, na twarzy $z przez chwile pojawi± siê przera¿enie, jednak ostatecznie udaje mu siê zachowaæ spokój. Gdy wydajê ci siê ju¿, ¿e ³apa smoka przygniecie w³a¶nie $c,ten odskakuje na bok w ostatniech chwili, unikaj±c wgniecienia w ziemiê.
+  mob reward $i wait 15
+  delay 3
+  mob removeflag $i smok_zajety
+  break
+endif
+if numeval $_rand == 2
+  mob echo {RPowinien byæ ZAMÊT{x
+  ##########
+  zamet
+  ##########
+  #- w zale¿no¶ci od inteligencji, wiedzy czy brave cloak wprowadza confusion
+  #mob echo {GSmok{x wyci±ga swoj± d³ug± szyjê i wydaje z siebie potworny {Rryk{x!
+  mob setflag $i smok_zajety 2
+  mob forget
+  mob remember $r
+foreachinroom $q
+    if !isnpc $n
+      $_szansa = 0
+      if statwis $n > 26
+      or statint $n > 26
+        $_szansa = 15
+      else
+        if statwis $n > 24
+        or statint $n > 24
+          $_szansa = 25
+        else
+          if statwis $n > 21
+          or statint $n > 21
+            $_szansa = 35
+          else
+            $_szansa = 45
+          endif
+        endif
+      endif
+      if affected $n brave_cloak
+        $_szansa = int_sub $_szansa 10
+      endif
+      if rand $_szansa
+        mob echoat $n Z trudem, jednak udaje ci siê utrzymaæ trze¼wo¶æ umys³u.
+      else
+        mob echoat $n Przez chwile robi ci siê czarno przed oczami.. czujesz siê bardzo zdezorientowany.
+        mob echoaround $n $n rozgl±da siê dooko³a zdezorientowanym wzrokiem.
+        mob addaff $n confusion 2 'Jeste¶ mocno zdezorientowany' 'co¶'
+        if !affected $n brave_cloak
+          if rand 95
+            mob echoat $n Zaczynasz siê panicznie baæ!
+            mob echoaround $n $n zaczyna siê strasznie trz±¶æ.
+            mob addaff $n fear 2 'Ogarn±³ ciê strach!' 'co¶'
+          endif
+        endif
+      endif
+    endif
+    nextfor
+  endfor
+  mob reward $i wait 3
+  delay 3
+  mob removeflag $i smok_zajety
+  break 
+endif 
+
+end
+~
+#tander_oferta
+~
+~
+#0
+
+#OBJPROGSNEW
+#20388_input
+~
+if !wears $n 20388
+break
+endif
+if !hasflag $n kwitnace_uzyl
+and !hasflag $o kwitnace_uzyte
+mob setflag $o kwitnace_uzyte 32
+mob setflag $n kwitnace_uzyl 32
+if hasflag $o reg_kwitnace
+obj modflag mod reg_kwitnace 1
+if objflag $o reg_kwitnace > 9
+mob echoat $n Nic siê nie dzieje, najwyra¼niej laska zu¿y³a ju¿ swoj± magiczn± moc.
+break
+endif
+else
+obj setflag $o reg_kwitnace 1
+endif
+mob echoaround $n $n bierze lekki wdech i puka druidzk± lask± o ziemie.
+mob echoat $n Koncentrujesz siê lekko przez chwilê i pukasz lekko lask± o ziemie.
+if sector $n las
+mob echo Z ziemi zaczyna powoli wyrastaæ jaka¶ {Gro¶lina{x.
+mob cast 'create tree' 12
+else
+mob echoat $n Moc laski rozchodzi siê bezpowrotnie. Jej moc mo¿e o¿ywiæ ro¶linê tylko w lesie.
+endif
+else
+mob echoat $n Pukasz lask± o ziemie, jednak nic siê nie dzieje. Widocznie laska nie odzyska³a jeszcze swej mocy.
+mob echoaround $n $n Puka o ziemiê druidzk± lask±, jednak nic siê nie dzieje.
+endif
+~
+#rasz_diadem
+~
+if !hasflag $o diadem_uzyty
+  mob cast noble $n 30
+endif
+mob setflag $o diadem_uzyty 24
+~
+#rasz_harfak
+~
+if hasflag $o harfak_uzyta
+mob echoat $n Bierzesz $o do r±k i po krótkim zastanowieniu szarpiesz parê razy za losowê struny, wydobywaj±c z nich parê mi³ych d¼wiêków.
+mob echoaround $n $n Bierze do r±k $o i szarpiê parê razy za struny wyzwalaj±c kilka mi³ych d¼wiêków.
+break
+endif
+mob setflag $o harfak_uzyta 24
+mob echoat $n Bierzesz $o do r±k i po krótkim zastanowieniu szarpiesz parê razy za losowê struny, wydobywaj±c z nich parê mi³ych d¼wiêków.
+mob echoaround $n $n Bierze do r±k $o i szarpiê parê razy za struny wyzwalaj±c kilka mi³ych d¼wiêków.
+minidelay 3
+mob echo {BPo chwili przed tob± pojawia siê nieziemsko{X {Cp{Yi{Cê{Yk{Cn{Ya{x {Bpostaæ odziana w{x {Wanielsko bia³±{x {Bsukniê, a w twoich uszach rozbrzmiewa cudna melodia, tóra w jednej chwili porusza twe serce do zdaje ci siê granic mo¿liwo¶ci.{x
+mob forget
+mob remember $r
+foreachinroom $q
+if ispc $n
+mob reward $n delay 10
+if hpcnt $n < 100
+mob cast 'cure critical' $n 30
+mob echoat $n Twoje rany goj± siê.
+endif
+if movecnt $n < 100
+mob cast refresh $n 30
+mob echoat $n Czujesz jak zmêczenie ustêpuje.
+endif  
+mob cast regenerate $n 30
+mob echoat $n Uzdrowicielska moc wype³nia twe cia³o.
+endif
+nexfor
+endfor
+minidelay 3
+mob echo {C Po chwili, która zdawa³a siê wieczno¶ci±, melodia ustêpuje, a piêkna postaæ znika, oddaj±c ostatni pok³on i zostawiaj±c w tobie jedynie uczucie ogromnej têsknoty. Dopiero teraz dostrzegasz, ¿e twe policzki mokre s± od ³ez.{X
+~
+#rasz_rog
+~
+mob echoat $n Przyk³adasz $o do ust dmuchasz w niego z ca³ych si³.
+mob echoaround $n $n przyk³ada $o do ust dmucha w niego z ca³ych si³.
+mob echo W okolicy rozbrzmiewa echo rogu.
+if hasflag $o rog_uzyty
+break
+endif
+mob setflag $o rog_uzyty 24
+minidelay 3
+mob echo {RPrzed twoimi oczami pojawia siê szereg rycerzy w l¶ni±cych zbrojach. Stoj± dumnie, wydaj±c wojenne okrzyki i wal±c mieczami o tarczê. Jedno mrugniêcie twoich oczu wystarcza, aby obraz ten przemieni³ siê w scene wielkiej bitwy, w której rycerze widziani jeszcze przed chwil± walcz± z du¿o liczniejszym przeciwnikiem. Równie niepostrze¿enie nastêpuje koniec tej bitwy. Rycerze stoj± teraz nad cia³ami swoich wrogów, ale i przyjació³, dumnie wznosz±c swój sztandar.{x
+mob forget
+mob remember $r
+foreachinroom $q
+if ispc $n
+mob reward $n delay 10
+mob cast bull $n 30
+mob echoat $n Czujesz jak twe cia³o rozpiera si³a.
+mob cast inspire $n 30
+mob echoat $n Twój umys³ ogarnia chêæ walki.
+endif
+nexfor
+endfor
+minidelay 3
+if sex $n == 1
+mob echo {R Nagle ca³y ten obraz rozmazuje siê i znika, a ty budzisz siê jakby ze snu, rz±dny walki i chwa³y.{X
+else
+mob echo {R Nagle ca³y ten obraz rozmazuje siê i znika, a ty budzisz siê jakby ze snu, rz±dna walki i chwa³y.{X
+endif
+end
+~
+#rasz_test2
+~
+if varisnull $n
+say tutaj tez null
+break
+endif
+if ispc $n  
+  mob echoat $n Trzymana przez ciebie laska 'Zaglada Dusz' migocze przez chwilê  i wysysa z ciebie energie ¿yciowa, po czym zaczyna swiecic intensywniejsz± czerni±.
+  mob echoaround $n Trzymana przez $c laska 'Zaglada Dusz' migocze przez chwilê,  po czym widzisz jak $n skrzywia siê bole¶nie, a laska zaczyna ¶wiecic intensywniejsz± czernia.
+  mob damage $n 10 30
+endif
+~
+#raszer_test
+~
+if hasflag $o odliczaj
+If !hasflag $o trzyma
+mob echo Potê¿na magia obraca {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x w popió³.
+obj remove
+endif
+endif
+if hasflag $o przerwa
+break
+endif
+if wears $n 20350
+$_rand = int_random 1 4
+############
+if numeval $_rand == 1
+mob echoat $n Widzisz jak aura otaczaj±ca {Gz{wa{gk{wl{gê{wt{gy {Cmlot{x pomaga ci siê skoncentrowaæ, synchonizuj±c twoje ruchy.
+mob echoaround $n Widzisz jak $n z zdumieniem spogl±da na aurê powoli okrywaj±c± jego ramiê.
+mob addaff $n streng 1 10
+mob setflag $o przerwa 15
+endif
+############
+if numeval $_rand == 2
+mob echoat $n Czujesz jak aura otaczaj±ca {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x pomaga ci siê skoncentrowaæ, synchronizuj±c twoje ruchy. 
+mob echoaround $n Widzisz jak za spraw± tajemniczej aury, ruchy $z staj± siê bardziej zgrane i zwinne.
+mob addaff $n dex 1 10
+mob setflag $o przerwa 15
+endif
+############
+if numeval $_rand == 3
+mob echoat $n Ze zdumieniem spogl±dasz jak aura otaczaj±ca {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x zamienia siê w ¿ywy ogieñ!
+mob echoaround $n Ze zdumieniem spogl±dasz jak aura otaczaj±ca {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x zamienia siê w ¿ywy ogieñ!
+mob setflag $o flaming 10
+mob setflag $o przerwa 15
+endif
+############
+if numeval $_rand == 4
+mob echoat $n Widzisz jak aura dos³ownie przykleja siê do {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{ge{x{wg{x{go{x {Cm³otu{x i twardnieje, czyni±c go lepsz± broni± .
+mob echoaround $n Widzisz jak aura otaczaj±ca {Gz{x{wa{x{gk{x{wl{x{gê{x{wt{x{gy {Cm³ot{x przykleja siê do niego i gêstnieje. $o wygl±da teraz jeszcze bardziej zabójczo.
+mob addaff $n damr 3 10
+mob setflag $o przerwa 15
+endif
+end
+~
+#0
+
+#ROOMPROGSNEW
+#bankr_res
+~
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2362 room
+~
+#czysty
+~
+~
+#rasz_varisnull
+~
+if varisnull $n
+say var je zero
+else
+say var nie jest zero
+endif
+end
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 20310
+Name czarny skórzany set~
+Desc Wygodny pancerz, zapewniaj±cy swobodê ruchów, przy jednak kiepskiej
+ochronie. 
+~
+Aff 1 12 2 -10 0 0
+Aff 1 12 1 -10 0 0
+Aff 1 17 -60 0 0 0
+WearProg mob echoat $n Za³o¿ywszy ostatni± czê¶æ kompletu, rozprostowujesz ramiona, czuj±c komfort i swobodê ruchów.
+Mob echoaround $n $n zak³ada ostatni± czê¶æ kompletu i rozprostowuje siê z u¶miechem na twarzy.
+~
+BonusEnd
+#Vnum 20379
+Name {yset{X {G³owcy{x~
+Comments poniewa¿ bark_skin nie dzia³a w przedmiotach kod tego nie uwzglednia w wyliczaniu ac, wiec set bonus jako rekompensata za niedzia³aj±cy amulet - {RKarlam{x ({CFri Nov 18 23:17:15 2011{x)
+~
+Aff 1 12 1 10 0 0
+Aff 1 12 3 10 0 0
+Aff 1 17 -15 0 0 0
+WearProg mob echoat $n Zak³adasz ostatni element {yekwipunku {G³owcy{x i czujesz jak twoje zmys³y wyostrzaj± siê. Zmienia siê w doskona³ego {G³owcê{x.
+mob echoaround $n zak³ada ostatni element {yekwipunku {G³owcy{x i na twoich oczach nastêpuje transformacja. Zmys³y $nc wyostrzaj± siê a $n zmienia siê w doskona³ego {G³owcê{x.
+~
+RemoveProg mob echoat $n Zdejmujesz czê¶æ {yekwipunku {G³owcy{ i odrazu czujesz jak poziom adrenaliny w twoich ¿y³ach zmniejsza siê a twoje zmys³y ju¿ nie s± tak wyostrzone.
+mob echoaround $n $n zdejmuje czê¶æ {yekwipunku {G³owcy{x a z jego zmys³y wracaj± do normy.
+~
+BonusEnd
+#Vnum 0
+
+#$

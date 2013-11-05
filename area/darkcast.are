@@ -1,0 +1,4633 @@
+#AREADATA
+Name +# Czarny zamek~
+Builders Deggial_f Krivin_f~
+VNUMs 28581 28650
+Credits Twórcy: Garloop, Tener, Iliand.
+Poprawki i spolszczenie: Nicodemus
+~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 28581
+Name mieszkaniec~
+Odmiana mieszkañca~mieszkañcowi~mieszkañca~mieszkañcem~mieszkañcu~
+Short mieszkaniec zamku~
+Long Jeden z mieszkañców zamku krêci siê tutaj.~
+Descr Szwenda siê tu go¶æ, który wyra¼nie nie spa³ poprzedniej nocy, poniewa¿
+prawdopodobnie robi³ to co ka¿dy tutejszy przyzwoity obywatel - grabi³ i
+mordowa³ kupców na pobliskich traktach - teraz wróci³ do zamku z ³owów, wiêc
+na razie mo¿esz siê go nie obawiaæ. 
+~
+Race cz³owiek~
+ActExt 0|AEGW
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d5+150
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 96 84 102 96 96 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 28581 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28582
+Name mieszkanka~
+Odmiana mieszkanki~mieszkance~mieszkankê~mieszkank±~mieszkance~
+Short mieszkanka zamku~
+Long Jedna z mieszkanek zamku ¶pieszy siê gdzie¶.~
+Descr Jest to kobieta w ¶rednim wieku o do¶æ przeciêtnej urodzie, choæ nie
+mo¿na powiedzieæ, ¿e jest ona brzydka. Ma d³ugie w³osy spiête w koñski ogon
+i opadaj±ce na plecy, oraz zmêczone szare oczy. Nie sprawia wra¿enia
+szczególnie szczê¶liwej i radosnej, raczej wygl±da na nieco zrezygnowan±. 
+~
+Race cz³owiek~
+ActExt 0|AEGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 8d5+120
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 10
+Stats 84 96 108 108 108 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 4
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 28581 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28583
+Name gwardzista~
+Odmiana gwardzisty~gwardzi¶cie~gwardzistê~gwardzist±~gwardzi¶cie~
+Short gwardzista~
+Long Gwardzista przechadza siê tutaj, pilnie wszystko obserwuj±c.~
+Descr Jeden ze zwyk³ych stra¿ników zamku. W³a¶ciwie to taki sam zbój jak
+wszyscy pozostali w tym zamku, ale z jakiego¶ powodu musia³ poszukaæ
+dodatkowej pracy i teraz ³upi skórê niepokornym w imieniu prawa i spokoju. 
+~
+Race cz³owiek~
+ActExt 0|AEGT
+Affected 0 0 0 0
+AffectedExt 0
+Align -300
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 1
+HP 15d6+300
+Damage 3d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC -2 -2 -2 0
+Stats 132 90 108 96 120 78 78
+Off CEKU
+OffExt 0|CEKU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death gwary_death ABCDEFGHI 100~
+MobprogNew onload 28583 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 50
+Mobend
+#Vnum 28584
+Name kat potê¿ny nagi mê¿czyzna~
+Odmiana kata~katowi~kata~katem~kacie~
+Short kat~
+Long Potê¿ny, nagi do pasa mê¿czyzna w czarnym kapturze stoi obok szubienicy.~
+Descr Stoi tu prawdziwy mistrz w swoim fachu, ¶cina on g³owy skazanych z tak±
+wprawa, z jak± niejeden rolnik ¶cina k³osy zbo¿a w czasie ¿niw, jego
+ulubion± "zabawka" jest jego wspania³y katowski topór, choæ czasem u¿ywa
+mniej krwawej metody jak± jest szubienica. Jednak nie my¶l sobie, ¿e bycie
+katem to sama zabawa i rze¼, kat musi ukrywaæ twarz za kapturem, aby nie
+dosieg³a go zemsta krewniaków jednego z jego "klientów". 
+~
+Race pó³ork~
+ActExt 0|ABEGIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AF
+Speaks 5
+Level 13
+Hitroll 4
+HP 13d5+300
+Damage 2d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 4
+Stats 144 78 96 120 144 78 78
+Off Jc
+OffExt 0|Jc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 28584 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 28585
+Name gwardzista elitarny~
+Odmiana gwardzisty~gwardzi¶cie~gwardzistê~gwardzist±~gwardzi¶cie~
+Short elitarny gwardzista~
+Long Elitarny gwardzista stoi tu na stra¿y.~
+Descr Stra¿nik zamkowy jest ubrany od stop po czubek piór w he³mie we wspania³±
+zbroje nie ró¿ni±c± siê niczym od zbroi stra¿ników w innych zamkach poza
+jednym szczegó³em - ca³a jest jednolitej czarnej barwy. 
+~
+Race cz³owiek~
+ActExt 0|ABEGT
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 20d6+500
+Damage 2d3+2
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 144 102 114 102 120 78 78
+Off CDEKX
+OffExt 0|CDEKX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 3500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew death elitar_death ABCDEFGHI 100~
+MobprogNew onload 28585 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 13 50
+Resist 14 100
+Mobend
+#Vnum 28586
+Name wyrostek starszy wysoki~
+Odmiana wyrostka~wyrostkowi~wyrostka~wyrostkiem~wyrostku~
+Short starszy wyrostek~
+Long Wysoki wyrostek popisuje siê tutaj, udaj±c ¿e umie walczyæ.~
+Descr Stoi przed tob± chudy wyrostek, który aktualnie nie jest nikim
+szczególnym, ale gdy doro¶nie to prawdopodobnie jak wiêkszo¶æ tutejszych
+"uczciwych" mieszkañców bêdzie ³upi³ przeje¿d¿aj±ce karawany kupieckie. 
+~
+Race cz³owiek~
+ActExt 0|ABEGHT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d5+60
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 10
+Stats 96 72 90 108 84 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 2
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28587
+Name ch³opak ma³y piegowaty m³odszy wyrostek~
+Odmiana wyrostka~wyrostkowi~wyrostka~wyrostkiem~wyrostku~
+Short m³odszy wyrostek~
+Long Ma³y piegowaty ch³opak nieporadnie æwiczy pchniêcia.~
+Descr Stoi przed tob± ma³e pachole przygl±daj±ce siê pilnie trenuj±cym tu
+osobom. Mo¿e w przysz³o¶ci on te¿ zostanie wielkim wojownikiem? 
+~
+Race cz³owiek~
+ActExt 0|ABEGHT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d5+40
+Damage 2d2+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 10
+Stats 96 72 90 108 84 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 2
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28589
+Name pijak ¶pi±cy~
+Odmiana pijaka~pijakowi~pijaka~pijakiem~pijaku~
+Short pijak~
+Long Pijak le¿y na ziemi i chyba ¶pi.~
+Descr Lepiej go nie bud¼ bo z ca³ym ciê¿arem alkoholu który ma w g³owie móg³by
+siê przewróciæ i pot³uc, albo zacz±æ szukaæ rozróby z pierwsz± lepsz± osob±.
+~
+Race cz³owiek~
+ActExt 0|ABG
+Affected 131072 0 0 0
+AffectedExt 0|R
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 8d5+150
+Damage 3d2+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 11 11 11 11
+Stats 90 72 72 102 108 78 78
+Off 0
+OffExt 0
+Pos_start sleep
+Pos_def sleep
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28590
+Name krasnolud ponury ober¿ysta~
+Odmiana ober¿ysty~ober¿y¶cie~ober¿ystê~ober¿yst±~ober¿y¶cie~
+Short ober¿ysta~
+Long Ponury krasnolud stoi za barem.~
+Descr Typowy przyk³ad osoby niesympatycznej, nie¿yczliwej i ogólnie nastawionej
+wrogo do klientów. Taki kto¶ z pewno¶ci± nie powinien zajmowaæ siê handlem,
+ale skoro nie ma nikogo lepszego w okolicy... 
+~
+Race krasnolud~
+ActExt 0|ABGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d1+200
+Damage 1d1+20
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28591
+Name villert mag nekromanta~
+Odmiana Villerta~Villertowi~Villerta~Villertem~Villercie~
+Short mag Villert~
+Long Mag Villert stoi za pulpitem i studiuje grube magiczne ksiêgi.~
+Descr Villert jest w tym zamku najpotê¿niejszym - bo jedynym, jak my¶lisz z
+pewn± z³o¶liwo¶ci± - magiem. Z zaciêto¶ci± borsuka eliminuje jakichkolwiek
+nowych magów, zamierzaj±cych sie osiedliæ w tym zamku. Jest on nie tylko
+zamkowym magiem ale równie¿ razem z ksiêciem Walkarem wspó³w³adc± ca³ego
+zamku, chodz± nawet s³uchy, ¿e tak naprawdê to on jest tu jedynym w³adc±,
+gdy¿ podobno ju¿ wiele lat temu zniewoli³ on Walkara przy pomocy swoich
+czarów w pos³uszn± mu marionetkê. 
+~
+Race cz³owiek~
+ActExt 0|ABEGR
+Affected 33554984 536870912 0 0
+AffectedExt 0|DFJZ/1|d
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 22d5+500
+Damage 3d3+3
+Dammagic 1
+Weaponbonus 0
+Damflags 4
+Attack uderzenie
+XAC -2 -2 -2 -5
+Stats 84 150 150 120 84 96 126
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 9400
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 28626 ABCDEFGHI 100~
+MobprogNew death 28591 ABCDEFGHI 100~
+Spells 228 163 201 92
+Spells 182 93 149 392
+Spells 217 185 229 380
+Spells 137 71 94 0
+Skin 100
+ExpMultiplier 100
+Resist 3 50
+Resist 4 15
+Resist 10 70
+Resist 11 1
+Resist 12 100
+Resist 14 100
+Resist 15 20
+Resist 16 100
+Mobend
+#Vnum 28593
+Name dziecko umorusane~
+Odmiana dziecka~dziecku~dziecko~dzieckiem~dziecku~
+Short dziecko~
+Long Ca³e umorusane dziecko bawi siê tutaj.~
+Descr Dziecko kompletnie nie zwraca na ciebie uwagi, zajête jest tylko
+grzebaniem w ziemi w poszukiwaniu "skarbów". 
+~
+Race cz³owiek~
+ActExt 0|AEGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d5+40
+Damage 2d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 54 54 102 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew onload 28593 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28594
+Name pan baron walkar okrutny boss~
+Odmiana barona Walkara~baronowi Walkarowi~barona Walkara~baronem Walkarem~baronie Walkarze~
+Short baron Walkar~
+Long Pan okolicznych ziem i tego zamku, okrutny baron Walkar.~
+Descr Straszliwy pan tych ziem zasiada przed tob± na tronie. S³ynie on w ca³ej
+okolicy ze swych niezwykle krwawych i brutalnych rz±dów, ale dziêki temu, ¿e
+mo¿na tu straciæ g³owê lub zawisn±æ za byle co, w okolicy i mie¶cie Arras
+panuje od lat spokój i chyba jeszcze przez d³ugi czas nikt siê nie odwa¿y
+podnie¶æ rêki na barona. Inna sprawa, ze on sam nie kontroluje w pe³ni
+rozbojów, które na pobliskich traktach zdarzaj± siê ca³kiem czêsto. Ale tak
+to ju¿ zwykle bywa, ¿e tam gdzie w³adza nie siêga, siêgaj± przestêpcy. 
+~
+Race cz³owiek~
+ActExt 0|ABEGT/2|C
+Affected 0 0 0 0
+AffectedExt 0
+Align -750
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 0
+HP 15d5+325
+Damage 1d9+1
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 132 96 132 108 132 78 78
+Off IKY
+OffExt 0|IKY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 13400
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death walkar_death ABCDEFGHI 100~
+MobprogNew fight fight_walkar H 90~
+MobprogNew onload 28594 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 28595
+Name stra¿nik wiêzienny~
+Odmiana stra¿nika~stra¿nikowi~stra¿nika~stra¿nikiem~stra¿niku~
+Short stra¿nik wiêzienny~
+Long Stra¿nik wiêzienny podpiera siê o ¶cianê.~
+Descr Stoi tu ogromnych rozmiarów stró¿ tego wiêzienia. Patrz±c na niego
+stwierdzasz, ¿e chyba nie ma tu zbyt du¿o udanych ucieczek wiê¼niów. 
+~
+Race cz³owiek~
+ActExt 0|ABGMT
+Affected 0 0 0 0
+AffectedExt 0
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 1
+HP 6d10+350
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 2
+Stats 132 72 114 84 120 78 78
+Off EK
+OffExt 0|EK
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28596
+Name rycerz pokoju pokonany~
+Odmiana rycerza~rycerzowi~rycerza~rycerzem~rycerzu~
+Short rycerz pokoju~
+Long Siedzi tu pokonany w ostatniej potyczce rycerz pokoju.~
+Descr Rycerz pokoju z wyra¼nie nieweso³a min± siedzi tu i my¶li, co siê z nim
+stanie w najbli¿szej przysz³o¶ci. Czy czeka go szybka ¶mieræ ze strony kata,
+czy powolna ze strony oprawcy? 
+~
+Race cz³owiek~
+ActExt 0|ABEGJ
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 8d5+125
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 102 78 96 84 84 78 78
+Off I
+OffExt 0|I
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet 28596 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28597
+Name m³ody paladyn palad_zamek~
+Odmiana paladyna~paladynowi~paladyna~paladynem~paladynie~
+Short m³ody paladyn~
+Long M³ody paladyn szepcze cicho s³owa modlitwy.~
+Descr Jest to ca³kiem m³ody ch³opak, który najwyra¼niej niedawno zosta³
+przyjêty w szeregi rycerzy jakiego¶ zakonu. Niestety mia³ pecha, bowiem
+trafi³ do tej celi w Czarnym Zamku i jego przysz³o¶æ nie wygl±da zbyt
+optymistycznie. 
+~
+Race cz³owiek~
+ActExt 0|ABEGJ
+Affected 0 0 0 0
+AffectedExt 0
+Align 500
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 8d5+75
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 102 96 108 84 90 78 78
+Off I
+OffExt 0|I/1|E
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech 28620 FGI nie~
+MobprogNew speech 28597_speech_ta FGI tak~
+MobprogNew grall 28618 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28598
+Name oprawca~
+Odmiana oprawcy~oprawcy~oprawcê~oprawc±~oprawcy~
+Short oprawca~
+Long Stoi tu oprawca, zajmuj±cy siê torturowaniem wiê¼niów.~
+Descr Tutejszy oprawca specjalizuje siê w zmuszaniu do mówienia nawet
+najbardziej upartych nieszczê¶ników, którzy mieli tego pecha i wpadli w jego
+rêce. Ma potê¿ne grube ³apska i spojrzenie bezlitosnego, okrutnego mordercy.
+Sadysta i tyle. 
+~
+Race krasnolud~
+ActExt 0|ABGKTd
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AC
+Speaks 0
+Level 12
+Hitroll 1
+HP 12d5+170
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 7 7 7 7
+Stats 114 72 84 96 132 78 78
+Off C
+OffExt 0|C
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 8
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28599
+Name dusza niespokojna uwiêziona~
+Odmiana duszy~duszy~duszê~dusz±~duszy~
+Short niespokojna dusza~
+Long Dusza miota siê bezsilnie, nie mog±c opu¶ciæ tego ¶wiata.~
+Descr Z najwy¿sz± trudno¶ci± udaje ci siê dostrzec zarysy postaci. O ile jeste¶
+w stanie oceniæ jest to m³oda kobieta. Jej eteryczna, niematerialna pow³oka
+z nieznanego ci powodu jest wci±¿ przykuta do naszego wymiaru, zamiast
+odej¶æ do krainy zmar³ych. Co trzyma tutaj tê niespokojn± duszê? Czy¿by
+jakie¶ tajemnice lub klejnoty, albo nieza³atwione za ¿ycia sprawy? 
+~
+Race duch~
+ActExt 0|ABEGOR
+Affected 34669090 0 0 0
+AffectedExt 0|BFJQUZ
+Align 1000
+Group 0
+Lang M
+Speaks 12
+Level 16
+Hitroll 3
+HP 25d5+220
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 0 0 0 0
+Stats 60 132 132 168 72 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form IKL
+Parts ABCGHI
+Size medium
+Material unknown
+MobprogNew death 28600 ABCDEFGHI 100~
+Spells 202 93 71 137
+Spells 69 1 196 367
+Spells 218 13 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 14 100
+Resist 15 100
+Mobend
+#Vnum 28600
+Name golem stalowy~
+Odmiana golema~golemowi~golema~golemem~golemie~
+Short stalowy golem~
+Long Widzisz przed sob± niewielkiego, stalowego golema.~
+Descr Golem jest wzrostu doros³ego cz³owieka, czyli jak na golema nie jest
+specjalnie wielki. W ca³o¶ci zbudowany jest z precyzyjnie wykonanych
+stalowych elementów, idealnie do siebie dopasowanych w jednym tylko celu:
+chroniæ za wszelk± cenê swojego w³a¶ciciela. Najwiêksze wra¿enie robi± na
+tobie ³apska golema, w zasadzie s± to d³ugie na jaki¶ ³okieæ i wygl±daj±ce
+na piekielnie niebezpieczne, stalowe ostrza. Ciêcie czym¶ takim przyjemne
+zapewne nie jest. 
+~
+Race golem~
+ActExt 0|ABGT
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 20d5+450
+Damage 3d4+4
+Dammagic 1
+Weaponbonus 0
+Damflags 8
+Attack mwalniecie
+XAC -2 -2 -2 -1
+Stats 156 120 120 72 168 78 78
+Off CHLOX
+OffExt 0|CHLOX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size large
+Material unknown
+MobprogNew fight golem_antisum H 33~
+MobprogNew fight golem_antisum H 50~
+Corpse 28617
+Skin 100
+ExpMultiplier 100
+Resist 5 30
+Resist 6 50
+Resist 7 -2
+Resist 8 50
+Resist 9 30
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 28601
+Name wysoki kap³an w ¿elaznej masce~
+Odmiana kap³ana w ¿elaznej masce~kap³anowi w ¿elaznej masce~kap³ana w ¿elaznej masce~kap³anem w ¿elaznej masce~kap³anie w ¿elaznej masce~
+Short kap³an w ¿elaznej masce~
+Long Wysoki kap³an, w ¿elaznej masce ozdobionej symbolem Vastaina stoi tutaj.~
+Descr Kap³an pogr±¿ony jest w modlitwie, stoi do ciebie ty³em. Wydaje ci siê,
+¿e ko³ysze siê on lekko na boki. Szaty w ca³o¶ci zas³aniaj± jego cia³o, wiêc
+nie jeste¶ w stanie nic o nim powiedzieæ. Wydaje ci siê jednak, ¿e jego
+g³owa i wzrok skierowane s± do góry. 
+~
+Race cz³owiek~
+ActExt 0|ABQT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 12
+Hitroll 1
+HP 12d10+160
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 3 3 3 3
+Stats 108 120 144 120 132 132 120
+Off VX
+OffExt 0|VX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 120
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload kapl_zel_onload ABCDEFGHI 100~
+Spells 272 30 12 3
+Spells 266 267 268 269
+Spells 160 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Resist 16 25
+Mobend
+#Vnum 28650
+Name nauczyciel_czarny czarnow³osy rycerz~
+Odmiana czarnow³osego rycerza~czarnow³osemu rycerzowi~czarnow³osego rycerza~czarnow³osym rycerzem~czarnow³osym rycerzu~
+Short czarnow³osy rycerz~
+Long Czarnow³osy rycerz stoi w oczekiwaniu na wyrok.~
+Descr Mierzysz wzrokiem sporej wysoko¶ci barczystego pó³elfa z d³ugimi i dawno
+zaniedbanymi kruczoczarnymi w³osami. Kiedy¶ mog³y stanowiæ jego chlubê w¶ród
+p³ci niewie¶ciej, o której zabiegi nie musia³ siê czêsto staraæ. Wiele
+z³ama³ serc i doprowadzi³ do pasji o wiele wiêcej mê¿ów, którzy poprzysiêgli
+mu zemstê. Torturowany, czego dowodem s± liczne blizny na twarzy i ciele, i
+skazany na ¶mieræ zbieg³, aby staæ siê cichym m¶cicielem w³asnego
+cierpienia. D³ugo szkoli³ siê w technikach rycerskich, a zwi±zany przysiêg±
+z mrocznymi si³ami potrafi³ podwoiæ skuteczno¶æ swych osi±gniêæ w walce. Nie
+we wszystkim sta³ siê mistrzem, ale to czego zd±¿y³ siê nauczyæ wystarcza³o
+mu by pokonaæ i wymordowaæ prawie wszystkich swych wcze¶niejszych
+gnêbicieli. Mimo pomocy czarnych si³ magicznych nie uda³o mu siê umkn±æ
+pu³apce, zastawionej przez barona Walkara. Schwytany i publicznie
+wych³ostany czeka tu na wyrok, ale do koñca wierzy w swoje zdolno¶ci,
+których ma³± czê¶æ mo¿e ci przekazaæ, zyskuj±c siê w ten sposób choæ drobinê
+nie¶miertelno¶ci. 
+~
+Race pó³elf~
+ActExt 0|ABIKSTd/2|E
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -500
+Group 0
+Lang AB
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d10+600
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_czarno ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 28597
+Name wiata du¿a drewniana~
+Odmiana wiaty~wiacie~wiatê~wiat±~wiacie~
+Short wiata~
+Descr Du¿a drewniana wiata chroni klientów baru przed s³oñcem i deszczem.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 75
+Itemdesc Jest to kilka zbitych razem drewnianych belek, tworz±cych ramê, na które
+nastêpnie naci±gniêto parê kawa³ków ¿aglowego p³ótna. 
+~
+Comments ~
+Objend
+#Vnum 28599
+Name ¶liwowica flaszka spora~
+Odmiana flaszki~flaszce~flaszkê~flaszk±~flaszce~
+Short flaszka ¶liwowicy~
+Descr Le¿y tutaj spora flaszka ¶liwowicy.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 21 21 31 0 3343 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 17
+Cond 100
+Itemdesc Wygl±da to na lokalny wyrób z okolic Arras, najpewniej pochodzi z
+przemytu, ale co z tego, skoro smakuje wybornie i nie¼le "kopie"? 
+~
+Comments ~
+Objend
+#Vnum 28603
+Name fiolka zielona~
+Odmiana fiolki~fiolce~fiolkê~fiolk±~fiolce~
+Short fiolka z zielonym p³ynem~
+Descr Le¿y tutaj jaka¶ fiolka z zielonym p³ynem w ¶rodku.~
+Material szk³o~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 6 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 12000
+Cond 100
+Itemdesc Zwyk³a szklana fiolka wype³niona zielon± ciecz± o do¶æ nieprzyjemnym
+zapachu. 
+~
+Comments ~
+Objend
+#Vnum 28604
+Name s³oiczek ma¶æ ¿ó³ta~
+Odmiana ma¶ci~ma¶ci~ma¶æ~ma¶ci±~ma¶ci~
+Short ¿ó³ta ma¶æ~
+Descr Ma³y s³oiczek wype³niony ¿ó³t± ma¶ci±.~
+Material szk³o~
+Type envenomer
+ExtraExt 0|U
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 3 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 8
+Cost 27000
+Cond 100
+Itemdesc Jest to niedu¿y s³oiczek, który wype³nia dosyæ gêsta ma¶æ ¿ó³tego koloru. 
+~
+Comments ~
+Objend
+#Vnum 28605
+Name pojemnik szklany czerwony~
+Odmiana pojemnika~pojemnikowi~pojemnik~pojemnikiem~pojemniku~
+Short pojemnik z czerwonym proszkiem~
+Descr Le¿y tutaj szklany pojemnik z trupi± czaszk± na etykietce.~
+Material szk³o~
+Type envenomer
+ExtraExt 0|U
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 8 2 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60000
+Cond 100
+Extradesc etykietka~
+Uwaga! Silnie toksyczne!
+Zagro¿enie dla ¿ycia!
+~
+Itemdesc W pojemniku widzisz jaki¶ drobniutki czerwony proszek, nie wydziela on
+¿adnego zapachu, jednak zauwa¿asz, ¿e z zadziwiaj±c± ³atwo¶ci± przylepia siê
+do ¶cianek naczynia. Na wieczku pojemnika widzisz etykietkê. 
+~
+Comments ~
+Objend
+#Vnum 28606
+Name ogórek kiszony~
+Odmiana ogórka~ogórkowi~ogórek~ogórkiem~ogórku~
+Short kiszony ogórek~
+Descr Le¿y tutaj kiszony ogórek.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 24 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 1
+Cond 100
+Itemdesc Kiszony ogórek jest smakowitym dodatkiem do przeró¿nych kanapek, ale ten chyba by³ przeznaczony na zagrychê dla pijaków. 
+~
+Comments ~
+Objend
+#Vnum 28607
+Name paczka krakersów ciastka ciasteczka~
+Odmiana krakersów~krakersom~krakersy~krakersami~krakersach~
+Short paczka krakersów~
+Descr Le¿y tutaj parê krakersów, owiniêtych w papier.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 7 96 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 3
+Cond 100
+Extradesc nazwa~
+Piekarnia "Kerdel" ¿yczy smacznego!
+~
+Objprog consume krakersy_consum 100~
+Itemdesc Kwadratowe ciasteczko z z±bkami dooko³a, na ¶rodku znajduje sie nazwa
+producenta tych przysmaków. 
+~
+Comments ~
+Objend
+#Vnum 28608
+Name szubienica~
+Odmiana szubienicy~szubienicy~szubienicê~szubienic±~szubienicy~
+Short szubienica~
+Descr Stoi tutaj szubienica, na której wielu straci³o ju¿ ¿ycie.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 5000 1170 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 0
+Cond 75
+Itemdesc Kilka belek zbitych razem i przerzucony przez nie sznur, a w pod³odze
+zapadnia uruchamiana przez poci±gniêcie wajchy tu¿ obok. Tak prezentuje siê
+tutaj szafot - miejsce wymierzania sprawiedliwo¶ci i karania niepokornych. 
+~
+Comments ~
+Objend
+#Vnum 28614
+Name skrzynia du¿a drewniana skrzynia_duszy~
+Odmiana skrzyni~skrzyni~skrzyniê~skrzyni±~skrzyni~
+Short skrzynia~
+Descr Stoi tutaj du¿a drewniana skrzynia.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 500 269 28615 500 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 350
+Cost 0
+Cond 100
+Itemdesc Zwyczajna skrzynia, dodatkowo wzmocniona paroma ¿elaznymi prêtami,
+utrudniaj±cymi rozbicie. 
+~
+Comments ~
+Trap 28614
+Objend
+#Vnum 28615
+Name klucz duszy niematerialny klucz_duszy~
+Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
+Short klucz duszy~
+Descr Na wpó³ materialny klucz le¿y tutaj.~
+Material stal~
+Type key
+ExtraExt 0|AUd
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 100
+Itemdesc Nie masz ca³kowitej pewno¶ci, czy naprawdê widzisz klucz. Jest on ledwo
+obecny w naszej rzeczywisto¶ci, ci±gle migocze i nieomal przenika przez inne
+przedmioty. 
+~
+Comments ~
+Objend
+#Vnum 28617
+Name kupa z³omu metalowego metalowa potrzaskana potrzaskanych~
+Odmiana kupy z³omu~kupie z³omu~kupê z³omu~kup± z³omu~kupie z³omu~
+Short kupa z³omu~
+Descr Na ziemi widzisz spor± kupê potrzaskanych kawa³ków metalu.~
+Material stal~
+Type trash
+ExtraExt 0|A
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 1
+Cond 10
+Itemdesc Widzisz pe³no kawa³ków pogiêtej blachy, jakie¶ ¶rubki, trybiki i ko³a
+zêbate oraz inne, nie znane ci mechanizmy. Wygl±da to na "doczesne szcz±tki"
+jakiego¶ golema. 
+~
+Comments ~
+Objend
+#Vnum 28619
+Name okruszki krakersów~
+Odmiana okruszków krakersów~okruszkom krakersów~okruszki krakersów~okruszkami krakersów~okruszkach krakersów~
+Short okruszki krakersów~
+Descr Ma³e okruszki krakersów walaj± siê tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 1
+Value 0 15 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 28620
+Name krakers~
+Odmiana krakersa~krakersowi~krakersa~krakersem~krakersie~
+Short krakers~
+Descr Zwyk³y krakers psuje siê tutaj powoli.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 20 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 28621
+Name pusta paczka krakersów~
+Odmiana krakersów~krakersom~krakersy~krakersami~krakersach~
+Short pusta paczka krakersów~
+Descr Le¿y tutaj pusta paczka krakersów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 3
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 28625
+Name wygodna le¿anka jedwabna~
+Odmiana wygodnej le¿anki~wygodnej le¿ance~wygodn± le¿ankê~wygodn± le¿ank±~wygodnej le¿ance~
+Short wygodna le¿anka~
+Descr Wygodna le¿anka obszyta jedwabiem stoi tu pod ¶cian±.~
+Material jedwab~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 200 1168 110 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to le¿anka wypchane miekkim w³ociem i obszyta jedwabiem. Jest bardzo
+wygodna, aby daæ tymczasowemu lokatorowi najwiêcej wygody, jak siê uda. Musi
+on swoje ostatnie chwile spêdziæ w jako takim luksusie, ¿eby jak najbardziej
+zapragn±³ jeszcze ¿yæ. 
+~
+Comments ~
+Objend
+#Vnum 28626
+Name ma³y kluczyk tasiemka~
+Odmiana ma³ego kluczyka z {Rtasiemk±{x~ma³emu kluczykowi z {Rtasiemk±{x~ma³y kluczyk z {Rtasiemk±{x~ma³ym kluczykiem z {Rtasiemk±{x~ma³ym kluczyku z {Rtasiemk±{x~
+Short ma³y kluczyk z {Rtasiemk±{x~
+Descr Kto¶ upu¶ci³ tutaj ma³y kluczyk z {Rtasiemk±{x.~
+Material ¿elazo~
+Type key
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to ma³y kluczyk, lekko podrdzewia³y, z przywi±zan± do niego {Rczerwon±{x
+tasiemk± z jedwabiu. Widaæ musi otwieraæ co¶ drogiego, skoro tak elegancko
+go oznaczono. Kto wie, mo¿e otwiera jaki¶ tajemniczy zamek? 
+~
+Comments ~
+Objend
+#Vnum 28627
+Name klucz kluczyk ¿elazny~
+Odmiana kluczyka~kluczykowi~kluczyk~kluczykiem~kluczyku~
+Short ¿elazny kluczyk~
+Descr ¯elazny klucz rdzewieje powoli.~
+Material ¿elazo~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 10
+Cond 30
+Itemdesc Najnormalniejszy, ¿elazny kluczyk. Kszta³tem przypomina klucze, którymi
+zwykle otwiera siê cele. 
+~
+Comments ~
+Objend
+#Vnum 28648
+Name spinka brylantowa magiczna~
+Odmiana spinki~spince~spinkê~spink±~spince~
+Short {Wmagiczna spinka z brylantami{x~
+Descr {WTa piêkna brylantowa spinka do w³osów ma podobno magiczne w³a¶ciwo¶ci.{x~
+Material diament~
+Type jewelry
+ExtraExt 0|AGL
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 171000
+Cond 100
+Aff 1 14 -10 0 0 0
+Aff 1 29 2 0 0 0
+Itemdesc Zaprawdê wyborna robota, wprawdzie u¿yte do wykonania tego przedmiotu
+brylanty s± maleñkie, ale dziêki du¿ej ich ilo¶ci spinka przypomina usiane
+gwiazdami niebo w pogodn± noc. Ciekawe, czy w wykonaniu tej spinki macza³y
+palce elfy? 
+~
+Identdesc Spinka jest magicznym przedmiotem, który dziêki swoim niezwyk³ym
+w³a¶ciwo¶ciom nadanym przez elfich twórców podnosi charyzmê nosz±cej j±
+osoby. 
+~
+Comments ~
+Objend
+#Vnum 28649
+Name diament oszlifowany~
+Odmiana {Wdiamentu{x~{Wdiamentowi{x~{Wdiament{x~{Wdiamentem{x~{Wdiamencie{x~
+Short {Wdiament{x~
+Descr {WCudownie oszlifowany, du¿y diament b³yszczy jasno.{x~
+Material diament~
+Type gem
+ExtraExt 0|AD
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 88500
+Cond 100
+Itemdesc Jest to naprawdê piêkny okaz, w dodatku po mistrzowsku oszlifowany.
+Poszczególne fasetki za³amuj± odpowiednio ¶wiat³o, daj±c taki efekt jak
+gdyby diament sam nim promieniowa³. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 28650
+Name naszyjnik bursztynowy~
+Odmiana naszyjnika~naszyjnikowi~naszyjnik~naszyjnikiem~naszyjniku~
+Short {ynaszyjnik z bursztynów{x~
+Descr {yPiêkny naszyjnik zrobiony jest z bursztynu.~
+Material bursztyn~
+Type jewelry
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 5100
+Cond 100
+Aff 1 12 7 2 0 0
+Itemdesc Niezbyt drogi i wyszukany przedmiot, z drugiej strony bursztyn podobno
+przynosi szczê¶cie, wiêc mo¿e warto za³o¿yæ ten naszyjnik? 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 28581
+Name Droga do Czarnego Zamku~
+Descr Wspinasz siê po mocno stromej drodze, zauwa¿asz ¿e ten kto budowa³
+zamek nie by³ g³upi, gdy¿ ca³y czas pod±¿aj±c t± drog± ma siê ods³oniêt±
+praw± stronê cia³a wiêc o zas³anianiu siê tarcz± przed strza³ami lec±cymi z
+murów nie by³oby mowy - no chyba ze jeste¶ mañkutem. W oddali na szczycie
+wzgórza widzisz wspania³y zamek wykonany w ca³o¶ci z cudnych czarnych
+kamieni przewiezionych tu zapewne z kamienio³omów znajduj±cych siê na Pó³nocy 
+gdy¿ tylko tam znajduje siê granit o tak niezwyk³ej barwie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28630
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28630
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28582
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28582
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28582
+Name Droga do zamku~
+Descr Wspinasz siê po mocno stromej drodze. Zauwa¿asz, ¿e ten kto budowa³ 
+zamek nie by³ g³upi, gdy¿ ca³y czas pod±¿aj±c t± drog± ma siê ods³oniêt±
+praw± stronê cia³a, wiêc o zas³anianiu siê tarcz± przed strza³ami lec±cymi z
+murów nie by³o by mowy - no chyba ze jeste¶ mañkutem. W oddali na szczycie
+wzgórza widzisz wspania³y zamek wykonany w ca³o¶ci z cudnych czarnych
+kamieni przewiezionych tu zapewne z kamienio³omów znajduj±cych siê na Pó³nocy, 
+gdy¿ tylko tam znajduj siê granit o tak niezwyk³ej barwie.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28581
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28581
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28583
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28583
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28583
+Name Przed zwodzonym mostem~
+Descr Wspinasz siê po mocno stromej drodze, zauwa¿asz ze ten kto budowa³ 
+zamek nie by³ g³upi, gdy¿ ca³y czas pod±¿aj±c t± drog± ma siê ods³oniêt±
+praw± stronê cia³a, wiêc o zas³anianiu siê tarcz± przed strza³ami lec±cymi z
+murów nie by³o by mowy - no chyba ¿e jeste¶ mañkutem. W oddali na szczycie
+wzgórza widzisz wspania³y zamek wykonany w ca³o¶ci z cudnych czarnych
+kamieni przewiezionych tu zapewne z kamienio³omów znajduj±cych siê na Pó³nocy, 
+gdy¿ tylko tam znajduje siê granit o tak niezwyk³ej barwie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28584
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28584
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28582
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28582
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28584
+Name Na mo¶cie zwodzonym~
+Descr Zwodzony most jest kolejnym elementem wskazuj±cym na to, ¿e ten zamek
+jest pomy¶lany przede wszystkim jako budowla obronna. W razie najazdu wroga
+wystarczy tylko podnie¶æ go do góry i nie tylko wróg bêdzie mia³ problem z
+przebyciem g³êbokiego rowu zastêpuj±cego tu fosê, ale równie¿ brama zostanie
+dodatkowo zas³oniêta powierzchni± mostu tak, ¿e jej przekroczenie oka¿e siê
+praktycznie niemo¿liwe. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28583
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28583
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28585
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28585
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28585
+Name Podwójna brama~
+Descr Ci ¶mia³kowie, którzy chcieliby zdobywaæ zamek i uda³oby im siê
+prze¿yæ zarówno drogê do zamku jak i przez rów powsta³y po podniesieniu
+mostu, trafi± do tego pomieszczenia. Jest ono d³ugie mniej wiêcej na
+piêædziesi±t kroków i szerokie na oko³o dziesiêæ, a na obydwu koñcach
+znajduj± siê masywne kraty spuszczane na dó³ w razie potrzeby, a wtedy ci co
+mieliby to nieszczê¶cie znale¼æ siê tu, mog± zostaæ polani gor±c± oliw± lub
+wod±, a nawet zasypani gradem kamieni przez specjalnie do tego celu
+przygotowane klapy, znajduj±ce siê dok³adnie nad twoj± g³ow±.
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28584
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28584
+ExitExt 2
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28586
+ExitExtEnd
+Exit 2
+~
+wrota~
+3 0 28586
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28586
+Name G³ówny dziedziniec~
+Descr Znajdujesz siê na g³ównym dziedziñcu w tym zamku, to tu odbywaj± siê
+jarmarki, odpusty i egzekucje. S±dz±c po przygotowaniach zaraz bêdziesz mieæ
+okazjê obejrzeæ wspaniale urz±dzon± egzekucjê w wykonaniu miejscowego kata,
+jednak mimo wszystko nie zazdro¶cisz losu pechowcowi, który bêdzie obok kata
+gwiazd± przedstawienia.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28585
+ExitExtEnd
+Exit 0
+~
+wrota~
+3 0 28585
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 28587
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 28587
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 28594
+ExitExtEnd
+Exit 2
+~
+~
+16384 0 28594
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 28601
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 28601
+Roomprog random 28581 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28587
+Name Droga na wschód od placu~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy, kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28588
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28588
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 28586
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 28586
+Roomprog random 28587 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28588
+Name Przed wschodnia wie¿±~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy, kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ, to kierunek
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê.
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28589
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28589
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28590
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28590
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28587
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28587
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28589
+Name Pocz±tek schodów na wie¿ê~
+Descr Znajdujesz siê u podnó¿a wschodniej wie¿y, zwanej tak¿e Wie¿± Wysok±.
+Czeka ciê d³uga wêdrówka po schodach, zanim dotrzesz na sam szczyt i
+bêdzie mo¿liwe stwierdzenie, czy warto by³o zadaæ sobie tyle trudu. Na
+jednej ze ¶cian jest ma³a nisza, stoi w niej okropnie kopc±cy kaganek. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28588
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28588
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28622
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28622
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28590
+Name Droga przy murze~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± droga. Jedyne co mo¿na wybraæ, to kierunek
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28588
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28588
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28591
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28591
+Roomprog random 28587 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28591
+Name Droga obok muru~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28590
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28590
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28614
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28614
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28592
+Name Zej¶cie do lochów~
+Descr Widzisz tu w±skie zej¶cie w dó³. Stoisz przed w±skim przej¶ciem. S±dz±c
+po "czysto¶ci" tunelu oraz jêkach wydobywaj±cym siê z do³u prawdopodobnie
+jest to zej¶cie do lochów, gdzie przetrzymywani s± czasowo lub permanentnie
+niepos³uszni poddani oraz pokonani wrogowie, którzy nie mieli szczê¶cia
+zgin±æ w czasie walki. Teraz po odpowiednim potraktowaniu przez lokalnych
+specjalistów od przes³uchañ wyjawiaj± oni wszystkie sekrety swoich wrednych
+planów i spisków. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28593
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28593
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28615
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28615
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28593
+Name G³ówny hol~
+Descr Wchodzisz do szerokiego i bardzo przestronnego holu. Po¶rodku le¿y tu
+rozwiniêty miêkki dywan, a po prawej i lewej stronie znajduj± siê schody do
+innych czê¶ci zamku. Te po prawej prowadz± w górê i s± bardzo czyste, a te
+po lewej w dó³ i s± brudne, jakby pêdzono nimi parê razy stado ¶wiñ. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28594
+ExitExtEnd
+Exit 0
+~
+~
+3 0 28594
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28592
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28592
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28595
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28595
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28594
+Name Wrota do siedziby barona Walkara~
+Descr Znajdujesz siê tu¿ przed drzwiami, które prowadz± do wnêtrza siedziby
+tutejszego w³adcy. Nie mo¿esz siê oprzeæ pokusie wej¶cia do ¶rodka, ¿eby
+podziwiaæ legendarne bogactwa tego zamku zgromadzone w czasie wieloletnich
+wojen oraz wypraw zbójeckich, prowadzonych przez tutejszych dziedziców. 
+~
+FlagsExt 0|C
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 28586
+ExitExtEnd
+Exit 0
+~
+~
+16384 0 28586
+ExitExt 2
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28593
+ExitExtEnd
+Exit 2
+~
+wrota~
+3 0 28593
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28595
+Name Komnata Barona~
+Descr Jest to najwspanialsza komnata tego zamku. Wszystkie ¶ciany s±
+poobwieszane skórami, wysokiej jako¶ci orê¿em oraz misternie wykonanymi
+arrasami. Po¶rodku sali na ma³ym podwy¿szeniu stoi ogromny poz³acany tron, a
+nad g³owami wytwarza ¶wiat³o wspania³y kryszta³owy ¿yrandol z jak ci siê
+wydaje nieskoñczenie wieloma ¶wiecami w nim siê pal±cymi. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28593
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28593
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28596
+Name Ko³o bocznego bastionu~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28597
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28597
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28604
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28604
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28602
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28602
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28597
+Name Droga ko³o muru~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28598
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28598
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28596
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28596
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28598
+Name Zakrêt drogi ko³o Niskiej Wie¿y~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28599
+ExitExtEnd
+Exit 0
+~
+drzwi~
+3 0 28599
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28600
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28600
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28597
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28597
+Roomprog random 28587 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28599
+Name Wewn±trz wie¿y~
+Descr Znajdujesz siê w wie¿y zachodniej, zwanej równie¿ Wie¿a Nisk± lub czasem
+Wiez± Maga, gdy¿ na jej szczycie mie¶ci siê siedziba potê¿nego maga
+Villerta, pana tego zamku. Mimo, ¿e ta wie¿a ma sta³ego mieszkañca, to
+jednak panuje tu du¿o wiêkszy brud ni¿ w wie¿y wschodniej i na pewno jest tu
+mnóstwo paj±ków, Przynajmniej s±dz±c po ilo¶ci wisz±cych wszêdzie pajêczyn. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28598
+ExitExtEnd
+Exit 2
+~
+drzwi~
+3 0 28598
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28625
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28625
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28600
+Name Pod drewnian± k³adk±~
+Descr Droga obiegaj±ca zamek zwê¿a siê w tym miejscu, a to z powodu drewnianej
+konstrukcji nad twoj± g³ow±. Jest to mianowicie k³adka, czy raczej kryty
+pomost, umo¿liwiaj±cy gwardzistom przechodzenie z muru zewnêtrznego do
+wnêtrza zamku bez konieczno¶ci schodzenia na ziemiê. Oprócz tego mo¿na st±d
+skutecznie raziæ nieprzyjaciela, który wdar³by siê na dziedziniec. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28601
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28601
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28598
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28598
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28601
+Name Droga na zachód od placu~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 28586
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 28586
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28600
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28600
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28602
+Name Wiata przed barem~
+Descr Przesiaduj± tu ca³ymi dniami ci klienci baru zamkowego, którym nie
+odpowiada zaduch i stêchlizna panuj±ca w ¶rodku i wol± oddychaæ ¶wie¿ym
+powietrzem. Po¶rodku wiaty stoi stó³ z parasolem rozci±gniêtym nad nim w
+celu ochrony przed s³oñcem i deszczem, a wokó³ sto³u jest kilka krzese³ na
+których mo¿na usi±¶æ, spokojnie odpocz±æ i wypiæ swoje piwo lub co¶ innego. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28596
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28596
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28603
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28603
+Roomprog random 28602 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28603
+Name Knajpa "Piwnica Zamkowa"~
+Descr Ca³kiem przyjemny bar umieszczony pod masywnymi murami zamku pozwala
+spokojnie siê spiæ do nieprzytomno¶ci bez obawy, ¿e w czasie choæby
+najmocniejszego najazdu wroga co¶ siê nam stanie. Grube na parê metrów
+sufity pokryte s± wyra¼nymi ¶ladami wilgoci, co pozwala s±dziæ, ¿e kiedy¶
+mie¶ci³y siê w tym miejscu jakiego¶ rodzaju lochy. 
+~
+FlagsExt 0|CH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28602
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28602
+Roomprog random 28603 4~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28604
+Name Blisko naro¿nika zamku~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28596
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28596
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28605
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28605
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28605
+Name Po³udniowo-zachodni naro¿nik murów~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i miejsce w którym zejdziemy z drogi do
+potrzebnego nam miejsca. Mozê to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28604
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28604
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28606
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28606
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28606
+Name Droga przy murze~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28607
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28607
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28605
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28605
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28607
+Name Zwê¿enie miêdzy murami~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28608
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28608
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28606
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28606
+Roomprog random 28587 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28608
+Name Przy po³udniowym krañcu zamczyska~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28609
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28609
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28607
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28607
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28609
+Name Droga przy po³udniowym krañcu zamku~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28610
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28610
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28608
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28608
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28610
+Name Plac Naro¿ny~
+Descr Znajdujesz siê na naro¿nym placu, dooko³a nie ma murów poniewa¿ wysoki
+klif broni dostêpu do tej strony zamku lepiej, ni¿ jakakolwiek sztuczna
+¶ciana. Dziêki swojej dosyæ du¿ej powierzchni i po³o¿eniu na uboczu plac ten
+jest czêsto wykorzystywany przez zamkowych gwardzistów jako miejsce
+treningów, apeli i musztry. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28614
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28614
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28611
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28611
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28613
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28613
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28609
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28609
+Roomprog random 28587 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28611
+Name Na placu~
+Descr Znajdujesz siê na naro¿nym placu, dooko³a nie ma murów poniewa¿ wysoki
+klif broni dostêpu do tej strony zamku lepiej, ni¿ jakakolwiek sztuczna
+¶ciana. Dziêki swojej dosyæ du¿ej powierzchni i po³o¿eniu na uboczu plac ten
+jest czêsto wykorzystywany przez zamkowych gwardzistów jako miejsce
+treningów, apeli i musztry. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28612
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28612
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28610
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28610
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28612
+Name Po³udniowo-wschodni róg placu~
+Descr Znajdujesz siê na naro¿nym placu, dooko³a nie ma murów poniewa¿ wysoki
+klif broni dostêpu do tej strony zamku lepiej, ni¿ jakakolwiek sztuczna
+¶ciana. Dziêki swojej dosyæ du¿ej powierzchni i po³o¿eniu na uboczu plac ten
+jest czêsto wykorzystywany przez zamkowych gwardzistów jako miejsce
+treningów, apeli i musztry. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28611
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28611
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28613
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28613
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28613
+Name Róg placu~
+Descr Znajdujesz siê na naro¿nym placu, dooko³a nie ma murów poniewa¿ wysoki
+klif broni dostêpu do tej strony zamku lepiej, ni¿ jakakolwiek sztuczna
+¶ciana. Dziêki swojej dosyæ du¿ej powierzchni i po³o¿eniu na uboczu plac ten
+jest czêsto wykorzystywany przez zamkowych gwardzistów jako miejsce
+treningów, apeli i musztry. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28610
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28610
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28612
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28612
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28614
+Name Droga dooko³a zamku~
+Descr Droga, na której siê znajdujesz, obiega Wewnêtrzny Zamek zwany tak¿e
+Zamkiem Górnym, biegn±c wzd³u¿ wewnêtrznej strony murów obronnych.
+Stosunkowo tu ruchliwie, gdy¿ ka¿dy kto chce doj¶æ z jednego miejsca do
+drugiego w tym zamku musi i¶æ t± drog±. Jedyne co mo¿na wybraæ to kierunek,
+w którym bêdziemy okr±¿ali zamek i moment kiedy zejdziemy z drogi do
+potrzebnego nam miejsca. Mo¿e to i trochê monotonne, ale za to nie sposób siê
+zgubiæ.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28591
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28591
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28610
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28610
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28615
+Name Pocz±tek lochów~
+Descr Schodzisz po schodach w dó³, zdaje ci siê ¿e masywne ¶ciany schodz± siê
+coraz bli¿ej, ¿eby ciê w koñcu zgnie¶æ. Jest tu bardzo nieprzyjemnie, z
+wnêtrza cel dolatuje do ciebie typowy smród wiê¼niów po d³u¿szym pobycie w
+zamkniêciu, czujesz ¿e zaraz zwymiotujesz, je¶li st±d nie wyjdziesz. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28616
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28616
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28592
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28592
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28616
+Name W±ski korytarz~
+Descr Spacerujesz w w±skim korytarzu od którego to w jedn±, to w drug± stronê
+odchodz± solidne drzwi do pokoi "go¶cinnych" wiê¼niów. ¦ciany zrobione
+s± z zimnego kamienia, a ogólne wra¿enie, jakie wywieraj± na tobie te
+podziemia nie jest zbyt przyjemne. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28628
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28628
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28617
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28617
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28615
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28615
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28617
+Name Zakrêt korytarza~
+Descr Spacerujesz w w±skim korytarzu od którego to w jedn±, to w drug± stronê
+odchodz± solidne drzwi do pokoi "go¶cinnych" wiê¼niów. ¦ciany zrobione
+s± z zimnego kamienia, a ogólne wra¿enie, jakie wywieraj± na tobie te
+podziemia nie jest zbyt przyjemne. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28618
+ExitExtEnd
+Exit 0
+~
+drzwi~
+3 0 28618
+ExitExt 1
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28619
+ExitExtEnd
+Exit 1
+~
+drzwi~
+3 0 28619
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28620
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28620
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28616
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28616
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28618
+Name Cela~
+Descr Ma³a, brudna i ¶mierdz±ca cela w lochach jest przewidziana jako
+pomieszczenie gdzie niepokorni spêdzaj± przymusowo pewien czas. Je¶li
+przeskrobiesz co¶, to prawdopodobnie bêdziesz mia³ tak¿e mo¿liwo¶æ
+podziwiania jej wnêtrza, tak wiêc lepiej nic z³ego nie rób, bo poza
+kamiennymi ¶cianami, sufitem i pod³og± nic tutaj nie ma. Nawet okna. 
+~
+FlagsExt 0|J
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28617
+ExitExtEnd
+Exit 2
+~
+drzwi~
+3 0 28617
+Heal 50
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28619
+Name Cela~
+Descr Ma³a, brudna i ¶mierdz±ca cela w lochach jest przewidziana jako
+pomieszczenie gdzie niepokorni spêdzaj± przymusowo pewien czas. Je¶li
+przeskrobiesz co¶, to prawdopodobnie bêdziesz mia³ tak¿e mo¿liwo¶æ
+podziwiania jej wnêtrza, tak wiêc lepiej nic z³ego nie rób, bo poza
+kamiennymi ¶cianami, sufitem i pod³og± nic tutaj nie ma. Nawet okna. 
+~
+FlagsExt 0|J
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28617
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 28617
+Heal 50
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28620
+Name Korytarz przed sal± tortur~
+Descr Spacerujesz w w±skim korytarzu od którego to w jedn±, to w drug± stronê
+odchodz± solidne drzwi do pokoi "go¶cinnych" wiê¼niów. ¦ciany zrobione
+s± z zimnego kamienia, a ogólne wra¿enie, jakie wywieraj± na tobie te
+podziemia nie jest zbyt przyjemne.
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28617
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28617
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28621
+ExitExtEnd
+Exit 2
+~
+drzwi~
+3 0 28621
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28621
+Name Sala tortur~
+Descr To specjalne pomieszczenie jest przewidziane dla wyj±tkowo opornych
+poddanych oraz dla wrogów, od których tu w³a¶nie wyci±ga siê przy u¿yciu
+ró¿nych metod wszystkie potrzebne informacje. W wolnym czasie tutejszy
+oprawca zajmujê siê wymuszaniem ró¿nych durnych przyznañ - s³owem -
+torturami dla rozrywki. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28620
+ExitExtEnd
+Exit 0
+~
+~
+3 0 28620
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28622
+Name W ¶rodku wie¿y~
+Descr Uff! Strasznie mêcz±ce by³o wchodzenie po tych schodach, a jeszcze wygl±da
+¿e du¿o wci±¿ przed tob±, zanim dotrzesz na szczyt. Okoliczni ludzie
+opowiadaj±, ¿e podobno z tej wie¿y mo¿na w pogodny dzieñ dostrzec nawet
+Easterial za Zimnymi Jeziorami, daleko na pó³nocy. 
+~
+FlagsExt 0|AC
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28623
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28623
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28589
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28589
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28623
+Name Krête schody wewn±trz wie¿y~
+Descr Uff! Strasznie mêcz±ce by³o wchodzenie po tych schodach, a jeszcze wygl±da
+¿e du¿o wci±¿ przed tob±, zanim dotrzesz na szczyt. Okoliczni ludzie
+opowiadaj±, ¿e podobno z tej wie¿y mo¿na w pogodny dzieñ dostrzec nawet
+Easterial za Zimnymi Jeziorami, daleko na pó³nocy.
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28624
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28624
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28622
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28622
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28624
+Name Na szczycie wie¿y~
+Descr No nareszcie uda³o ci siê wej¶æ na sam szczyt! Rozgl±dasz siê dooko³a i z
+podziwem kontemplujesz widok. A jest na co popatrzeæ! Na pó³nocnym-wschodzie
+widzisz zalesione zbocza góry Erethe, za¶ jej wysoki, ale p³aski wierzcho³ek
+z jakim¶ klasztorem na szczycie widaæ dok³adnie na pó³noc st±d. Potê¿ne
+siod³o pokrytej ¶niegami Prze³êczy Faldhar widnieje na pó³nocnym-zachodzie,
+jeszcze dalej na zachód widzisz niezbyt wysokie i pokryte drzewami Pasmo
+Nied¼wiedzie oraz po³o¿one na po³udnie od nich zielone pola. Wyra¼nie
+poni¿ej zamku, na po³udniowym-zachodzie, ¶wiec± siê dachy domów i wie¿
+miasta Arras, wraz z b³êkitn± wstêg± p³yn±cej na po³udnie Sejny. Natomiast
+na po³udnie st±d rozci±gaj± siê tak zwane Martwe Stepy, zwane te¿ Równinami
+Zemsty. Kiedy wytê¿asz wzrok wydaje ci siê, ¿e dostrzegasz tak¿e Szczeliny
+do Wnêtrza Ziemi, oraz daleko na horyzoncie morze. 
+~
+Nightdescr No nareszcie uda³o ci siê wej¶æ na sam szczyt! Rozgl±dasz siê dooko³a,
+ale nie widzisz nic poza czarnym nocnym niebem. Dooko³a ciebie s± niezbyt
+wysokie blanki, z wyra¼nym obni¿eniem z czterech stron. Lepiej za blisko nie
+podchod¼, bo jeden fa³szywy krok mo¿e siê skoñczyæ tragicznie! 
+~
+FlagsExt 1|A
+Sector 2
+Extra blanki~
+Wygladaj± na stare i dawno nie remontowane. W dodatku ich wysoko¶æ
+pozostawia wiele do ¿yczenia, pewnie nawet krasnolud z ³atwo¶ci± móg³by
+przez nie przelecieæ. 
+~
+ExitExt 0
+ExitExtDescription Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!!
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28627
+ExitExtEnd
+Exit 0
+Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!!
+~
+~
+0 0 28627
+ExitExt 1
+ExitExtDescription Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28627
+ExitExtEnd
+Exit 1
+Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!
+~
+~
+0 0 28627
+ExitExt 2
+ExitExtDescription Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28627
+ExitExtEnd
+Exit 2
+Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!
+~
+~
+0 0 28627
+ExitExt 3
+ExitExtDescription Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!!
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28627
+ExitExtEnd
+Exit 3
+Mo¿e to i najszybsza droga na dó³, ale na pewno nie najlepsza!!
+~
+~
+0 0 28627
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28623
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28623
+Roomprog input 28625 @^^(narysuj mape|rysuj mape|szkicuj mape|naszkicuj mape|zrob mape|sporzadz mape)$~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28625
+Name W ¶rodku zachodniej wie¿y~
+Descr Znajdujesz siê w wie¿y zachodniej zwanej równie¿ Wie¿a Nisk± lub czasem
+Wie¿± Maga, gdy¿ na jej szczycie znajduje siê siedziba potê¿nego maga
+Villerta, pana tego zamku. Mimo ¿e ta wie¿a ma sta³ego mieszkañca, to jednak
+panuje tu du¿o wiêkszy brud ni¿ w wie¿y wschodniej i na pewno jest tu
+mnóstwo paj±ków, przynajmniej s±dz±c po ilo¶ci wisz±cych wszêdzie pajêczyn. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28626
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28626
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28599
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28599
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28626
+Name Pokój maga~
+Descr Spostrzegasz, ¿e znajdujesz siê w dosyæ du¿ym pomieszczeniu, jednak jest
+tu bardzo trudno siê poruszaæ, a to ze wzglêdu na ogromne stosy ksi±g i
+przeró¿ne pojemniki z dziwnymi substancjami porozk³adane wszêdzie dooko³a.
+Zagracenie takimi rzeczami mo¿e wskazywaæ tylko na jedno... Ta wie¿a jest
+siedzib± jakiego¶ wyj±tkowo niechlujnego - lub zapracowanego - maga,
+dodatkowo ka³amarz w kszta³cie czaszki na biurku nie pozostawia w±tpliwo¶ci
+¿e mieszka tu mag, który jest prawdopodobnie z zami³owania nekromant±. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28625
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28625
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28627
+Name U stóp wie¿y~
+Descr Stoisz u samych stóp wie¿y, znajduj±cej siê w czarnym zamku na
+pó³noc od wielkiego miasta Arras. Okolica ta wydaje siê do¶æ dziwna, gdy¿
+le¿y tutaj kilka poobgryzanych przez ptaki szkieletów. Otaczaj±ca wie¿ê
+trawa lekko faluje na wietrze, nadaj±c makabrycznemu widokowi jeszcze wiêcej
+uroku. 
+~
+FlagsExt 0|C
+Sector 2
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28624
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28624
+Roomprog entry 28627 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28628
+Name Ciemny korytarz~
+Descr Jeste¶ w w±skim i w dodatku cholernie ciemnym korytarzu. Co gorsza, o ile
+¶ciany s± jako tako wymurowane, o tyle byle jak podstemplowany i
+zabezpieczony deskami sufit wygl±da bardzo niebezpiecznie i grozi zawaleniem
+w ka¿dej chwili. Nale¿y s±dziæ, ¿e pocz±tkowo planowano umieszczenie tutaj
+kolejnego ci±gu cel, ale z jakich¶ nieznanych ci powodów pomys³ ten
+zarzucono i wybudowano tylko jedno pomieszczenie z przeznaczeniem na celê
+dla 'specjalnych' go¶ci. 
+~
+FlagsExt 0|A
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28629
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28629
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28616
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28616
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Cela~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 28627
+ExitExtToVnum 28650
+ExitExtEnd
+Exit 3
+~
+VName Cela~
+~
+7 28627 28650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28629
+Name Koniec ¶lepego korytarza~
+Descr Jeste¶ w w±skim i w dodatku ciemnym, jak koszmarna otch³añ, korytarzu. Co
+gorsza, o ile ¶ciany s± jako tako wymurowane, to byle jak podstemplowany i
+zabezpieczony pó³zgni³ymi deskami sufit wygl±da bardzo niebezpiecznie i
+grozi zawalenie w ka¿dej chwili. Nale¿y s±dziæ, ¿e pocz±tkowo planowano
+umieszczenie tutaj kolejnego ci±gu cel, ale z jakich¶ nieznanych i
+nieodgadnionych powodów pomys³ ten, najwyra¼niej, zarzucono. 
+~
+FlagsExt 0|A
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28628
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28628
+Roomprog reset czarny_skrzynia 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28630
+Name Zakrêt drogi przed zamkiem~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28581
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28581
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28631
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28631
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28631
+Name Podej¶cie pod bramê zamkow±~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±ca ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28632
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28632
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28630
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28630
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28632
+Name Wykuta w zboczu droga~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28633
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28633
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28631
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28631
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28633
+Name Stromy odcinek drogi~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28632
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28632
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28634
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28634
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28634
+Name Wypiêtrzenie ska³ i stromizna~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28635
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28635
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28633
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28633
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28635
+Name Zakrêt drogi na zboczu~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28636
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28636
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28634
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28634
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28636
+Name Poziomy odcinek drogi~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28637
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28637
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28635
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28635
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28637
+Name Trawers~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28636
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28636
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28638
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28638
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28638
+Name Droga poni¿ej trawersu~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28639
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28639
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28637
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28637
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28639
+Name Podej¶cie pod trawers~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28638
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28638
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28640
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28640
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28640
+Name Ostry zakrêt w dole stoku~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28641
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28641
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28639
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28639
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28641
+Name W pobli¿u zakrêtu drogi~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28640
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28640
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28642
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28642
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28642
+Name Stromy odcinek drogi~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28641
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28641
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28643
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28643
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28643
+Name W spalonym zagajniku na zboczach Erethe~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28642
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28642
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28644
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28644
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28644
+Name Droga przez spalony zagajnik~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28643
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28643
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28645
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28645
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28645
+Name Droga za spalon± wsi±~
+Descr Znajdujesz siê na niezbyt szerokiej, ale za to dobrze utrzymanej drodze,
+wysypanej t³uczniem. Biegnie ona poprzez zielone zbocze góry Erethe i ³±czy
+po³o¿ony wysoko, góruj±cy nad ca³± okolic± Czarny Zamek, z le¿±cymi ni¿ej
+terenami na wschód od miasta Arras. Droga czasem po prostu trawersuje
+zbocze, czasem obni¿a siê, wreszcie nierzadko staje siê niezno¶nie stroma,
+przyprawiaj±c ka¿d± pod±¿aj±c± ni± osobê czy zwierzê o niez³± zadyszkê.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28644
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28644
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10814
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10814
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28650
+Name Wygodna cela~
+Descr ¦ciany zosta³y dok³adnie wykoñczone i otynkowane, drewniana pod³oga jest
+sucha i umyta, a strop umieszczony wysoko ma ma³e okienko, przez które wpada
+za dnia do¶æ ¶wiat³a do czytania. Noc± mo¿na zapalic pochodniê, któr±
+¿yczliwie przynosz± stra¿nicy maj±cy dbaæ o wygody wiê¼nia. A¿ nie chce sie
+wierzyæ, ¿e to pomieszczenie nale¿y do ponurego lochu, a nie jest czê¶ci±
+jakiego podziemnego domu. Jednak wygody te nie s± przeznaczone dla
+wszystkich, gdy¿ w celi tej mo¿e siedzieæ tylko osoba, na któr± wyrok jest
+tylko jeden. ¦mieræ. Nie darmo na dziedziñcu kat codziennie ostrzy topór,
+albo mydli konopny sznur. 
+~
+FlagsExt 0|CHY
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 28627
+ExitExtToVnum 28628
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+7 28627 28628
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+28590 17 19 0 0 0 110 20 0 23 * 0
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 28585 1 28585 1
+E 100 3002 0 8
+E 100 3057 0 7
+E 100 3025 0 5
+E 100 3045 0 6
+M 100 28593 5 28586 5
+M 100 28584 1 28586 1
+M 100 28581 6 28586 2
+O 100 28608 0 28586
+O 100 3375 0 28587
+M 100 28583 8 28587 8
+M 100 28582 5 28587 2
+M 100 28593 5 28590 5
+M 100 28581 6 28590 2
+M 100 28583 8 28591 8
+M 50 28594 1 28595 1
+M 100 28583 8 28596 8
+M 100 28582 5 28596 2
+M 100 21933 3 28597 3
+M 100 28583 8 28598 8
+M 100 28581 6 28598 2
+M 100 28593 5 28600 5
+M 100 28583 8 28601 8
+O 100 2364 0 28602
+M 100 28581 6 28602 2
+O 100 2362 0 28602
+O 100 28597 0 28602
+M 100 28589 1 28602 1
+O 100 2364 0 28603
+O 100 2362 0 28603
+M 100 28590 1 28603 1
+E 100 3057 0 7
+E 100 3025 0 5
+E 100 3002 0 8
+G 100 3100 0
+G 100 28599 0
+G 100 28606 0
+G 100 28607 0
+M 100 28593 5 28604 5
+M 100 28583 8 28605 8
+M 100 28582 5 28605 2
+M 100 28581 6 28606 2
+M 100 28593 5 28607 5
+M 100 28583 8 28608 8
+M 100 28583 8 28609 8
+M 100 28582 5 28609 2
+M 100 28581 6 28610 2
+M 100 28586 1 28612 1
+E 100 3050 0 7
+E 100 3179 0 16
+M 100 28587 1 28612 1
+E 100 3050 0 7
+E 100 3179 0 16
+M 100 3084 1 28612 1
+E 100 2884 0 5
+M 100 28582 5 28614 2
+M 100 28595 1 28616 1
+E 100 3324 0 17
+E 100 3179 0 16
+E 100 3001 0 8
+E 100 3050 0 7
+G 100 28627 0
+M 100 28597 1 28618 1
+E 100 2884 0 5
+M 100 28596 1 28619 1
+E 100 2884 0 5
+M 100 28598 1 28621 1
+E 100 3001 0 8
+E 100 3050 0 7
+E 100 3017 0 5
+E 100 3175 0 16
+M 50 28591 1 28626 1
+E 15 9120 0 1
+M 100 28599 1 28629 1
+O 100 28625 0 28650
+M 100 28650 1 28650 1
+S
+
+
+
+#MOBPROGSNEW
+#28581
+~
+mob equip self 4416
+mob equip self 4379
+~
+#28583
+~
+if rand 50
+mob equip self 3025
+endif
+if rand 25
+mob equip self 3002
+else
+mob equip self 28586
+endif
+if rand 20
+mob equip self 3045
+endif
+if rand 50
+mob equip self 3179
+else
+if rand 90
+mob equip self 3300
+else
+mob equip self 3149
+endif
+~
+#28584
+~
+mob equip self 3035
+mob equip self 3127
+mob equip self 3002
+mob equip self 3050
+~
+#28585
+~
+if rand 20
+mob oload weapon 2
+else
+mob oload weapon 3
+endif
+wear all
+~
+#28591
+~
+mob echo Mag Villert rozk³ada ramiona i z jêkiem zwala siê martwy na ziemiê!
+if rand 90
+  Z kieszeni szaty maga wypada jaki¶ s³oiczek.
+  mob oload 28604 r
+endif
+if rand 85
+  Z kieszeni szaty maga wypada jaka¶ niedu¿a fiolka.
+  mob oload 28603 r
+endif
+~
+#28593
+~
+mob equip self 4409
+if rand 50
+mob addgroup 28592
+endif
+~
+#28594
+~
+mob equip self 9120
+mob equip self 3002
+mob equip self 3160
+mob equip self 4430
+mob equip self 4408
+mob equip self 3057
+if rand 60
+  mob oload gem 2
+endif
+if rand 70
+  mob oload gem 2
+endif
+if rand 85
+  mob oload gem 3
+endif
+if rand 95
+  mob oload gem 6
+endif
+mob addgroup 28601
+if rand 93
+  mob oload 181
+endif
+~
+#28595
+~
+if hasflag $i walkar_summon
+  break
+endif
+if affected $i silence
+  emote próbuje co¶ krzykn±æ, ale z jego ust wydobiega tylko dziwny charkot!
+  emote wpada w furiê!
+  kill $r
+  break
+endif
+if affected $i paralyze
+  break
+endif
+yell Stra¿e! Do mnie!!
+mob setflag $i walkar_summon -1
+mob addgroup 28583
+if rand 35
+  mob addgroup 28583
+endif
+if rand 30
+  mob addgroup 28583
+endif
+~
+#28596
+~
+delay 1
+if isevil $n
+mob echoat $n Rycerz pokoju spogl±da na ciebie z przera¿eniem w oczach.
+mob echoaround $n Rycerz pokoju kuli siê w k±cie na widok $z.
+endif
+~
+#28597_speech_ta
+~
+if hasflag $n palad_resc
+  if ispc $n
+    if isgood $n 
+      'To wspaniale! Jeszcze raz dziêkuje!
+      open south
+      mob echo Paladyn szybko wybiega z celi.
+      mob purge palad_zamek
+      mob removeflag $n palad_resc
+      if level $n > 3   
+        mob reward $n exp 500
+      endif
+    endif
+  endif
+endif
+
+~
+#28599
+~
+mob purge skrzynia_duszy
+mob oload 28614 r
+mob oload weapon 2
+mob oload gem 2
+mob oload random 2
+if rand 50
+mob oload weapon 2
+endif
+if rand 85
+mob oload finger 3
+endif
+if rand 85
+mob oload weapon 3
+endif
+if rand 90
+mob oload shield 3
+endif
+if rand 95
+mob oload weapon 4
+mob oload head 3
+endif
+if rand 96
+mob oload random 4
+endif
+if rand 99
+mob oload random 4
+endif
+mob unlock skrzynia_duszy
+mob open skrzynia_duszy
+put all skrzynia_duszy
+mob close skrzynia_duszy
+mob lock skrzynia_duszy
+~
+#28600
+~
+mob echo Dusza zaczyna siê kurczyæ, stopniowo zanikaj±c w niebycie; od jej materialnej czê¶ci oddziela siê drobny kawa³ek, który upada na ziemiê.
+mob oload 28615 r
+~
+#28618
+~
+if ispc $n
+  if isgood $n 
+    minidelay 1
+    'Och dziêkuje za ratunek! Jestem wolny!
+    'Czy mogê ju¿ bezpiecznie wyj¶æ na zewn±trz?
+    mob setflag $n palad_resc
+  endif
+endif
+~
+#28620
+~
+if hasflag $n palad_resc
+if ispc $n
+if isgood $n 
+'Wiêc jeszcze chwile poczekam...
+else
+hmm
+'Wiec jeszcze poczekam, ale czy ty naprawdê chcesz mnie uwolniæ?
+endif
+endif
+endif
+~
+#28626
+~
+mob equip self 4416
+mob equip self 4379
+mob purge golem
+mob addgroup 28600
+# Prog ladujacy zwoje, dla zaawansowanych mobow-magow.
+if rand 96
+mob oload 29701
+else
+if rand 97
+mob oload 29703
+else
+if rand 98
+mob oload 29705
+else
+if rand 99
+mob onload 29704
+endif
+endif
+endif
+endif
+~
+#elitar_death
+~
+mob forget
+mob remember $r
+foreachinroom $q
+  if !hasflag $i rozdal
+    if hasflag $n reg_baronq
+    and !hasflag $n zabil_elitara
+      mob setflag $n zabil_elitara -1
+      mob setflag $i rozdal 2
+    endif
+  endif
+  nextfor
+endfor
+~
+#equip_czarno
+ubiera mobka czarnow³osego rycerza 28650
+~
+mob equip self 4417
+mob equip self 3051
+mob equip self 4364
+~
+#fight_walkar
+~
+if hasflag $i walkar_summon
+  break
+endif
+if affected $i silence
+  emote próbuje co¶ krzykn±æ, ale z jego ust wydobywa siê tylko dziwny charkot!
+  emote wpada w furiê!
+  kill $r
+  break
+endif
+if affected $i paralyze
+  break
+endif
+yell Stra¿e! Do mnie!!
+mob setflag $i walkar_summon -1
+mob addgroup 28585
+if rand 35
+endif
+~
+#golem_antisum
+Prog ten ma za zadanie zniechêciæ summonerow do lania samemu villerta.
+~
+if isnpc $n
+  foreachinroom $n
+    if isnpc $n
+      nextfor
+    else
+      if class $n mag
+        mob force Villert cast 'great dispel' $n
+        if rand 50
+          bash $n
+        else
+          target $n
+        endif
+        end
+      endif
+    endif
+  endfor
+endif
+~
+#gwary_death
+~
+mob forget
+mob remember $r
+foreachinroom $q
+  if ispc $n
+    if !hasflag $i rozdal
+      if hasflag $n reg_baronq
+        mob modflag $n mod reg_baronq +1
+        mob setflag $i rozdal 2
+      endif
+    endif
+  endif
+  nextfor
+endfor
+~
+#kapl_zel_onload
+~
+mob equip self 3161
+mob equip self 11835
+mob equip self 4377
+mob equip self 11837
+~
+#klucz_dusza
+~
+mob oload 28615
+~
+#mag_boss2_onloa
+~
+# Prog ³aduj±cy zwoje, najwy¿szej klasy. Dla wysokolevelowych mobów paraj±cych siê czarami.
+Mob onload 29701
+if rand 80
+mob oload 29701
+else
+if rand 90
+mob oload 29703
+else
+if rand 95
+mob oload 29705
+if rand 95
+mob oload 29704
+if rand 99
+mob onload 29702
+endif
+endif
+endif
+endif
+endif
+~
+#mag_hiboss_onl
+~
+# Prog ³aduj±cy zwoje, dla najmocniejszych mobów-magów.
+Mob oload 29701
+if rand 80
+  mob oload 29701
+else
+  if rand 90
+    mob oload 29703
+  else
+    if rand 95
+      mob oload 29705
+      if rand 95
+        mob oload 29704
+        if rand 99
+          mob onload 29702
+        endif
+      endif
+    endif
+  endif
+endif
+#zwoj poznania
+if rand 95
+  mob oload 1438
+endif
+~
+#que_faraz_gwerd
+~
+if !hasflag $n skoñczy³_que_faraz
+and !hasflag $n dal_pier_dla_gwerdrin
+and !hasflag $n niesie_pokwitowanie_do_faraz
+  tell $n Oo! Widzê, ¿e masz pier¶cieñ o którym mówi³ mi Faraz! Jak mi³o!
+  minidelay 1
+  tell $n Zaczekaj! Dam ci jeszcze pokwitowanie!
+  minidelay 1
+  mob echoat $n Gwerdrin grzebie w swoich papierach.
+  minidelay 1
+  mob oload 432
+  giv pokwitowanie $n
+  tell $n Pamiêtaj, ¿eby dostarczyæ je do Faraza! Inaczej bêdzie siê on zamartwia³!
+  mob setflag $n da³_pier_dla_gwerdrin -1
+  mob setflag $n niesie_pokwitowanie_do_faraz -1
+endif
+~
+#walkar_death
+~
+mob forget
+mob remember $r
+foreachinroom $q
+  if !hasflag $i rozdal
+    if hasflag $n reg_baronq
+    and !hasflag $n zabil_barona
+      mob setflag $n zabil_barona -1
+      mob setflag $i rozdal 2
+    endif
+  endif
+  nextfor
+endfor
+~
+#0
+
+#OBJPROGSNEW
+#28581
+~
+if carries $n 28615
+if wears $n 28615
+mob echoat $n Czujesz jak klucz duszy zaczyna drgaæ w twoim rêku.
+mob force $n remove klucz_duszy
+else
+mob echoat $n Czujesz jak klucz duszy zaczyna drgaæ w dziwnym rytmie.
+endif
+mob force $n drop klucz_duszy
+endif
+~
+#28608
+~
+mob echoat $n Wdrapujesz siê na szubienicê...
+mob echoaround $n $n wdrapuje siê na szubienicê... tylko po co?
+if mobhere 28584
+delay 1
+mob reward $n wait 125
+mob vforce 28584 say Ooo, widzê $n, ze spieszno ci na tamten ¶wiat...
+mob vforce 28584 diab
+mob echoat $n Kat swoimi potê¿nymi ramionami wci±ga ciê pod stryczek i zacie¶nia ci go wokol szyi.
+mob echoaround $n Widzisz jak kat zacie¶nia stryczek wokó³ szyi $z.
+mob vforce 28584 say Masz jakie¶ ostatnie ¿yczenie ¶mieciu?
+delay 3
+mob vforce 28584 wzru
+mob echo Kat poci±ga dzwignie, klapa w pod³odze siê otwiera.
+mob echoat $n Czujesz ze opadasz. Dusisz siê.
+mob echoaround $n $n opada na sznurze z oczami wywalonymi na wierzch i wyrazem przera¿enia na twarzy!
+mob echoat $n Nagle robi ci siê ciemno przed oczami i wydaje ci siê, ze okrzyki skandujacego t³umu siê oddalaj±.
+mob echoaround $n Cia³o $z wyprê¿a siê w ostatnim ¶miertelnym podrygu, po czym $n nieruchomieje.
+mob damage $n 2000 3000 smiercfrajerom
+mob vforce 28584 say He he...
+mob echo Kat zaciera rêce z zadowoleniem.
+else
+break
+endif
+~
+#krakersy_consum
+~
+if objval0 $o > 6
+  if rand 66
+    mob echoat $n Wyci±gasz z paczki kilka krakersów i wcinasz z zadowoleniem.
+    mob echoaround $n $n wyci±ga z paczki kilka krakersów i wcina z zadowoleniem.
+  else
+    if rand 50
+      mob echoat $n Wyci±gasz z paczki kilka krakersów, gubisz jeden, a resztê wcinasz z zadowoleniem.
+      .       mob echoaround $n $n wyci±ga z paczki kilka krakersów, gubi±c jeden, a resztê wcina z zadowoleniem.
+      mob oload 28620 r
+    else
+      mob echoat $n Wyci±gasz z paczki kilka krakersów i krusz±c kawa³ki wcinasz z zadowoleniem.
+      mob echoaround $n $n wyci±ga z paczki kilka krakersów i krusz±c kawa³ki wcina z zadowoleniem.
+      mob oload 28619 r
+    endif
+  endif
+else
+  mob echoat $n Wyci±gasz z paczki ostatnie krakersy, które wcinasz z zadowoleniem.
+  mob echoaround $n $n wyci±ga z paczki ostatnie krakersy, które wcina z zadowoleniem.
+  mob oload 28621
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#28581
+~
+if rand 50
+mob zecho Ca³kiem niedaleko s³yszysz jakie¶ okrzyki.
+else
+mob zecho Jakie¶ niedu¿e zwierzê przemyka w pobli¿u.
+endif
+~
+#28587
+~
+if rand 40
+if rand 90
+mob echo Jaki¶ kundel przebiega obok.
+else
+mob echoat $r S³yszysz gdzie¶ w pobli¿u szczêk broni.
+endif
+if rand 40
+mob echo Mija ciê rozwrzeszczana gromadka brudnych dzieciaków.
+else
+mob echo Odganiasz machniêciem rêki jak±¶ natrêtn± muchê.
+endif
+endif
+~
+#28602
+~
+mob echo S³yszysz jakie¶ pijackie wrzaski z piwnicy na zachodzie.
+~
+#28603
+~
+mob echo Ober¿ysta ukradkiem poci±ga z jakiej¶ butelki, kiedy my¶li ¿e nikt go nie widzi.
+~
+#28624
+~
+if affected $n flying
+mob echoat $n Wylatujesz na chwilê poza obrêb blanków, ale zaraz cofasz siê z panik± w oczach!
+mob echoaround $n $n próbuje wylecieæ poza obrêb blanków, ale z przestrachem cofa siê momentalnie!
+mob transfer $n 28624
+else
+mob transfer $n 28627
+endif
+~
+#28625
+~
+if hasflag $n mapastart
+  if carries $n 17151
+    if carries $n 17152
+      mob echoat $n Zabierasz siê ra¼no do rysowania mapy.
+      delay 1
+      mob echoat $n Rozgl±dasz siê po okolicy i szybko rysujesz zamek, który widzisz pod sob±.
+      delay 1
+      mob echoat $n Po chwili z dum± spogl±dasz na trzyman± w d³oniach mapê.
+      mob remove $n 17152
+      mob equip $n 17153
+      mob setflag $n mapaok
+    else
+      mob echoat $n Nie masz niczego, na czym móg³by¶ szkicowaæ!
+    endif
+  else
+    if carries $n 17152
+      mob echoat $n Nie masz niczego, czym móg³by¶ szkicowaæ!
+    else
+      mob echoat $n Nie masz przecie¿ niczego, czym móg³by¶ szkicowaæ, ani niczego, na czym móg³by¶ szkicowaæ!
+    endif
+  endif
+endif
+~
+#28627
+~
+if affected $n fly
+else
+mob echoat $n Spadasz w dó³, ostatnie co pamiêtasz to zbli¿aj±ca siê z potworn±
+mob echoat $n prêdko¶ci± ziemia i straszliwe chrupniêcie, ¦wiadcz±ce o tym, ¿e twe ko¶ci
+mob echoat $n pêk³y przy zderzeniu z tward± powierzchni±.  
+mob echoat $n Ach, dlaczego u diab³a nie spojrza³<&e¶/a¶/o¶> najpierw w dó³???
+mob echoaround $n $n spada z wie¿y, $s cia³o rozlatuje siê przy zetkniêciu z ziemi±.
+mob damage $n 2000 2000 zdychajglupcze
+endif
+~
+#28629_reset
+~
+~
+#czarny_skrzynia
+~
+mob purge skrzynia_duszy
+mob oload 28614 r
+mob oload 28615
+mob oload gem 2 i 28614
+if rand 50
+  mob oload weapon 2 i 28614
+endif
+if rand 85
+  mob oload finger 3 i 28614
+endif
+if rand 85
+  mob oload weapon 3
+endif
+if rand 90
+  mob oload shield 4 i 28614
+endif
+if rand 95
+  mob oload weapon 4 i 28614
+  mob oload head 3 i 28614
+endif
+if rand 96
+mob oload random 4 i 28614
+endif
+if rand 99
+mob oload random 4 i 28614
+endif
+mob oload weapon 2 i 28614
+mob oload random 2 i 28614
+~
+#0
+
+#TRAPS
+#Vnum 28614
+Active 1
+Level 3
+Type 2
+Triggered mob echoat $n Chmura truj±cego gazu unosi siê ze skrzyni i owiewa twoj± twarz!
+
+mob echoaround $n Widzisz jak jaki¶ zielonkawy gaz owiewa twarz $z.
+
+mob cast poison $n 12
+
+mob damageex $n 8 50 100 bijzabij
+
+mob cast hallucinations $n 10
+
+mob reward $n daze 96
+
+mob echoat $n Czujesz siê lekko oszo³omion<&y/a/e>.
+
+~
+Disarmed mob echoat $n Ostro¿nie podwa¿asz wieko skrzyni i spuszczasz ze ¶rodka truj±cy gazowy opar, który nieszkodliwie sp³ywa na ziemiê i znika.
+
+mob echoaround $n $n profesjonalnie rozbraja pu³apkê, spuszczaj±c ze ¶rodka skrzyni truj±cy gaz, który sp³ywa na ziemiê, nie czyni±c nikomu szkody.
+
+~
+Failed mob echoat $n Próbujesz rozbroiæ pu³apkê, ale jedynie ³apiesz w p³uca trochê kurzu.
+
+mob echoaround $n $n próbuje rozbroiæ pu³apkê, ale jedynie zaczyna kaszleæ od unosz±cego siê wszêdzie kurzu.
+
+~
+Limit 659724
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

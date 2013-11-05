@@ -1,0 +1,1497 @@
+#AREADATA
+Name +# Katakumby pod Cmentarzem~
+Builders None~
+VNUMs 28801 28840
+Credits builder: Shador~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 28801
+Name cieniste widmo nekromanty nektomanta Veriok boss~
+Odmiana cienistego widma~cienistemu widmu~cieniste widmo~cienistym widmem~cienistym widmie~
+Short cieniste widmo~
+Long Widmo dawno zmar³ego nekromanty unosi siê tutaj, przeklinaj±c ¿ywych.~
+Descr Widmo dawno zmar³ego nekromanty, Verioka, unosi siê tutaj przeklinaj±c
+¿ywych straszliwymi blu¼nierstwami. Ponoæ by³ on jednym z kompanów Morgetha
+Królobójcy, jednak poleg³ w brutalnych walkach z Zakonem. Musia³o siê to
+zdarzyæ w okolicach Carrallak, gdy¿ owo widmo dopiero od niedawna b³±ka siê
+po katakumbach cmentarzyska. 
+~
+Race widmo~
+ActExt 0|ABEFOR/2|C
+Affected 34078720 0 0 0
+AffectedExt 0|TZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 21
+Hitroll 2
+HP 4d10+490
+Damage 2d10+0
+Dammagic 4
+Weaponbonus 0
+Damflags 0
+Attack drain
+XAC 0 0 0 0
+Stats 90 144 144 90 90 78 78
+Off X
+OffExt 0|X
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 250
+Form CIMW
+Parts ABCGHIJKPU
+Size medium
+Material unknown
+MobprogNew onload mag_boss_onload ABCDEFGHI 100~
+Spells 91 163 194 228
+Spells 203 96 16 199
+Spells 182 311 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 170
+Resist 8 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 28802
+Name wysoki pokrzywiony szkielet~
+Odmiana pokrzywionego szkieletu~pokrzywionemu szkieletowi~pokrzywiony szkielet~pokrzywionym szkieletem~pokrzywionym szkielecie~
+Short pokrzywiony szkielet~
+Long Widzisz przed sob± chwiej±cy siê wysoki szkielet.~
+Descr Spogl±dasz na wysokiego szkieleta. Ma on ponad dwa metry i chwieje siê
+pod ciê¿arem swoich ko¶æi. Jest on zapewne wczesnym dzie³em jakiego¶
+nekromanty. Zapewne po nieudanych próbach 'naprawy' jego ko¶ci ów
+nekromanta zdecydowa³ siê, ¿e jego podopieczny bêdzie s³u¿y³ ogólnemu dobru.
+~
+Race szkielet~
+ActExt 0|AFGOT
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 4d5+200
+Damage 2d6+1
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 90 60 60 90 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form CIJ
+Parts ABCGHIJKR
+Size medium
+Material unknown
+MobprogNew onload szkielet_onload ABCDEFGHI 95~
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 28804
+Name ghul obrzydliwy trupojad~
+Odmiana {cghula{x~{cghulowi{x~{cghula{x~{cghulem{x~{cghulu{x~
+Short {cghul{x~
+Long {cObrzydliwy ghul biega tutaj w poszukiwaniu padliny lub ¿ywej ofiary.{x~
+Descr Jedna z najohydniejszych form nieumar³ych - ghul. Ghule to
+wyspecjalizowane zombie. S± od nich szybsze, czêsto poluj± w grupach na ¿ywe
+ofiary. Jednak ich ulubionym "po¿ywieniem" s± cia³a umarlych, aby siê do
+nich dostaæ czêsto rozkopuj± ¶wie¿e groby. Jak wie¶æ niesie, ghul potrafi
+równie¿ tak ugry¼æ ofiarê, ¿e ta bêdzie umiera³a wiele dni, a¿ wreszcie
+podda siê straszliwej chorobie. Tak wiêc lekcewa¿enie ghula mo¿e skoñczyæ
+siê tragicznie.
+~
+Race ghul~
+ActExt 0|ACFGO
+Affected 33554464 0 0 0
+AffectedExt 0|FZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 12
+Hitroll 0
+HP 4d12+280
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 0 0 0 0
+Stats 90 48 48 96 78 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 24
+Form FIM
+Parts ABCFGHIJKR
+Size medium
+Material unknown
+Comments Doda³em hp i dmg. By³y za s³abe w porównaniu do tych w kraince obok. - {RWicia{x ({CMon Jun  6 17:17:13 2005{x)
+Doda³em proga: 14019_ghul_figh, my¶lê, ¿e ghule z tych 2 krain maj± byæ do siebie podobne, skoro 'wygl±daj±' one na jedn± ca³o¶æ. - {RWicia{x ({CMon Jun  6 17:19:35 2005{x)
+~
+MobprogNew fight 14019_ghul_figh H 10~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28805
+Name trup ¿ywy zombie~
+Odmiana {y¿ywego trupa{x~{y¿ywemu trupowi{x~{y¿ywego trupa{x~{y¿ywym trupem{x~{y¿ywym trupie{x~
+Short {y¿ywy trup{x~
+Long {y¦mierdz±cy, przepe³niony trucizn± i rozk³adem ¿ywy trup wlecze siê têdy...{x~
+Descr Ciê¿ko na pierwszy rzut oka stwierd¼iæ, czy ta straszliwa maszkara
+jeszcze ma w sobie trochê ¿ycia czy te¿ nie bardzo. ¯ywy trup wygl±da tak,
+jakby za chwilê mia³ rozpa¶æ siê na kawa³ki, ca³e jego cia³o gnije, pokryte
+jest ohydnymi wrzodami i plamami. Co chwila przystaje, chwieje siê jak
+pijany i zawraca w miejscu, nic i nikt w pobli¿u nie mo¿e mieæ pewno¶ci, ¿e
+nios±cy chorobê dotyk nieumar³ego go nie dosiêgnie. Mag, który powo³a³ to
+monstrum do "¿ycia" musial byæ naprawdê szalony - my¶lisz sobiê.
+~
+Race zombi~
+ActExt 0|AEFGOQ
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 11
+Hitroll 0
+HP 4d5+220
+Damage 1d2+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 90 84 54 84 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 24
+Form ABIc
+Parts ABCGHIR
+Size medium
+Material unknown
+Spells 11 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 28803
+Name rubinowa korona~
+Odmiana {rrubinowej korony{x~{rrubinowej koronie{x~{rrubinow± koronê{x~{rrubinow± koron±{x~{rrubinowej koronie{x~
+Short {rrubinowa korona{x~
+Descr Widzisz tutaj piêknego czerwonego koloru koronê nabijan± rubinami.~
+Material kamieñ~
+Type clothing
+ExtraExt 0|DGHJMYZ
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 22
+Cost 1600
+Cond 75
+Aff 1 3 1 0 0 0
+Aff 1 13 -10 0 0 0
+Aff 1 27 4 1 0 0
+Extradesc _korona~
+Na g³owie $z zauwa¿asz jak±¶ tajemniczo piêkn± koronê, która jest
+wykonana z dziwnego, {rciemnoczerwonego kamienia szlachetnego{x. Czy¿by móg³by
+to byæ jakiego¶ rodzaju {rrubin{x? Na sam± my¶l o posiadaniu takiego skarbu
+przechodzi ciê dziwny dreszcz, zarówno zazdro¶ci, jak i strachu. Co¶ w owej
+{rrubinowej koronie{x jest z³owrogiego, rozsiewaj±cego dooko³a $z mroczn± aurê
+strachu i ch³odu. 
+~
+Objprog prewear 28801 100~
+Objprog preremove 28802 100~
+Itemdesc Przygl±dasz siê tej starej koronie. Widzisz, ¿e zosta³a ona stworzona z
+jakiego¶ ciemnego kamienia. Jej twórca zada³ sobiê wiele trudu by wtopiæ w
+ni± piêkne, czerwone rubiny wielko¶ci ludzkiego oka. Zagl±dasz w ¶rodek tej
+korony i zauwa¿asz wystaj±ce ostrza rubinów. Dziwne.. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 28801
+Name Katakumby~
+Descr Znajdujesz siê poni¿ej grobowca. Grunt po którym st±pasz pokryty jest
+wielk± ilo¶ci± grudek cementu który od³upa³ siê od tutejszych grobowców.
+¦ciany maj± wiele nisz w których znajduj± siê nadgryzione czasem szkielety
+dawnych mieszkañców tutejszej okolicy. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14033
+ExitExtEnd
+Exit 4
+~
+~
+0 0 14033
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28802
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28802
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28802
+Name Katakumby~
+Descr Kroczysz malutkim tunelem. W ¶cianach widzisz wykute nisze, w których
+znajduj± siê zeschniête cia³a umar³ych. W ¶wietle zauwa¿asz nik³e cienie
+szczurów uciekaj±cych od ¶wiat³a. Przygl±daj±c siê grze cieni zauwa¿asz jak
+tunel rozchodzi siê na trzy strony. Có¿, wszêdzie jest ciemno.
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28806
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28806
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28803
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28803
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28801
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28801
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28803
+Name Katakumby~
+Descr Twoje nogi st±paj± po trupio bladym piasku. W niszach, które wykute s± w
+¶cianach widzisz szkielety zmar³ych. Ich cia³a owiniête zosta³y w ró¿ne
+p³ótna co nadaje im makabrycznego wygl±du. Spogl±dasz na strop i niemal od
+razu ogarnia ciê uczucie trwogi. Wieloletni tunel wygl±da jakby mia³ zaraz
+siê zawaliæ. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28802
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28802
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28804
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28804
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28804
+Name Katakumby~
+Descr Idziesz suchym tunelem, ciemno¶æ oplata ciê z ka¿dej strony. St±pasz po
+chrupkim, trupio bladym piasku. Zastanawiasz siê, ile lat maj± te katakumby.
+W oddali s³yszysz d¼wiêk jakby rozbijaj±cego siê kamienia i po chwili
+zauwa¿asz, ¿e tu¿ pod nogami masz dziwn± zalan± ciemno¶ci± jamê. Có¿, pewnie
+nastepny masowy grób. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28803
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28803
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28805
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28805
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28805
+Name Katakumby~
+Descr Znajdujesz siê w jamie wype³nionej ca³kowicie ko¶æmi. Widocznie
+budowniczy tych katakumb nie chcieli kopaæ dobudowywuj±c nastêpne tunele i
+postanowili, ¿e cia³a wrzuc± do tej makabrycznej jamy. Lepiej odejd¼ st±d
+bo twoje ubranie przesi±knie trupim zapachem. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28804
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28804
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28806
+Name Katakumby~
+Descr Id±c tunelem zalanym ciemno¶ci± zauwa¿asz, ¿e w pewnym miejscu piasek
+zsypuje siê na dó³ tworz±c jakby zej¶cie na dolne kondygnacje katakumb.
+Przygl±dasz siê dok³adniej otoczeniu i zauwa¿asz, ¿e tunel skrêca te¿ na
+wschód. Twoje oczy przyzwyczai³y siê ju¿ do widoku trupów le¿±cych w
+niszach. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28802
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28802
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28807
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28807
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28808
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28808
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28807
+Name Katakumby~
+Descr Znajdujesz siê w kwadratowej komnacie. W ¶cianach widzisz prostok±tne
+nisze wype³nione zmursza³ymi szkieletami. Niektóre cia³a pokryte s±
+woalkami lub innymi okryciami cia³a co dodaje im trupiego uroku.
+Zastanawiasz siê ile lat, wieków temu kto¶ ostatnio ich odwiedzi³. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28806
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28806
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28808
+Name Katakumby~
+Descr Znajdujesz siê tu¿ ko³o piaskowego nasypu tworz±cego wej¶cie na wy¿sze
+kondygnacje katakumb. Tutaj za¶ nic siê nie zmienilo, nadal ta przejmuj±ca
+ciemno¶æ. Nisze, które widzisz w ¶cianach wype³nione s± popio³em, co
+dowodzi, ¿e ci którzy zmarli chodzili po ziemi wieki temu. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28809
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28809
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28806
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28806
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28809
+Name Katakumby~
+Descr Kroczysz tym prastarym tunelem, tunelem ¶mierci. Wszêdzie widzisz tylko
+popió³ po zmursza³ych szkieletach. Zastanawiasz siê czy ten, trupiego
+koloru, piach to rzeczywi¶cie piach, czy mo¿e to jest popió³ który zsypa³
+siê na pod³ogê. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28810
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28810
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28808
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28808
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28810
+Name Katakumby~
+Descr Kroczysz tymi ciemnymi katakumbami. Twój nos przyzwyczai³ siê do py³u,
+który wzniecasz ka¿dym swoim krokiem. Korytarz zalany jest ca³kowicie
+ciemno¶ci± lecz zauwa¿asz, jak rozdziela siê on na cztery kierunki ¶wiata.
+Ciekawe jest có¿ dalej ujrzysz. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28811
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28811
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28814
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28814
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28813
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28813
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28809
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28809
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28811
+Name Katakumby~
+Descr Spogl±dasz na ¶ciany wype³nione trupim proszkiem. Zastanawiasz siê ile to
+lat musia³o min±æ by ko¶ci zamieni³y siê w proch. W ciemno¶ci zauwa¿asz jak
+tunel którym kroczysz raptownie spada na dó³ tworz±c ciemn± jamê. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28810
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28810
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28812
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28812
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28812
+Name Katakumby~
+Descr Wskoczy³<&e¶/a¶/e¶> do jamy. Stoisz po kostki w prochu zmar³ych, któru uzbiera³
+siê tu przez wieki. Widzia³<&e¶/a¶/e¶> ju¿ takie jamy w górnych czê¶ciach katakumb. Z
+odraz± czujesz jak twoje nogi powoli zatapiaj± siê w tym ohydnym piasku. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28811
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28811
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28813
+Name Katakumby~
+Descr Znajdujesz siê na po³udnie od rozwidlenia. Spogl±dasz na ten ma³y
+kwadratowy pokój i u¶wiadamiasz sobie, ¿e stoisz w prochu a¿ po kostki. Có¿
+makabryczne to pomieszczenie zasypane jest ca³kowicie zmar³ymi. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28810
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28810
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28814
+Name Katakumby~
+Descr Znajdujesz siê na wschod od rozwidlenia tuneli. Przygl±dasz siê
+tutejszemu otoczeniu i zauwa¿asz, ¿e w pod³odze jest ma³a szczelina przez
+któr± zapewne m<&ó/o/ó>g³<&by¶/aby¶/by¶> siê przecisn±æ. W ¶cianach widzisz nisze zape³nione, o
+zgrozo, nowymi cia³ami! 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28810
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28810
+Roomprog input 28802 przecisnij sie przez szczeline~
+Roomprog input 28802 przejdz przez szczeline~
+Roomprog input 28802 wejdz szczelina~
+Roomprog input 28802 wejdz w szczeline~
+Roomprog input 28802 enter szczelina~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28815
+Name Katakumby~
+Descr Znajdujesz siê tu¿ poni¿ej szczeliny. Na po³udniu widzisz jaki¶ jasny
+punkt, mo¿e kto¶ tutaj jest? O zgrozo. Któ¿ móg³by znajdowaæ siê tyle metrów
+pod ziemi±? W niszach, które s± na ca³ej d³ugo¶ci tutejszych ¶cian zauwa¿asz
+nowe, ¶wie¿e cia³a. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28816
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28816
+Roomprog input 28801 enter szczelina~
+Roomprog input 28801 wejdz w szczeline~
+Roomprog input 28801 wejdz szczelina~
+Roomprog input 28801 przejdz przez szczeline~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28816
+Name Katakumby~
+Descr Znajdujesz siê w dziwnym kwadratowym pomieszczeniu. Zauwa¿asz, ¿e strop
+tutaj jakby lekko pi±³ siê do góry. Na po³udniu na wysoko¶ci trzech metrów
+zawieszony zosta³ wielki granitowy filar podtrzymujacy strop. Spogl±dasz na
+¶ciany, które o dziwo s± ubrudzone czym¶ czerwonym i lepkim. Wciagasz
+powietrze i czujesz jak z po³udnia nap³ywa strasznie niemi³y gryz±cy odór
+zgni³ych cia³. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28815
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28815
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28817
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28817
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28817
+Name Granitowy Tunel~
+Descr Znajdujesz siê tu¿ za filarem. Na pó³nocy widzisz katakumby, lecz wydaj±
+siê one jak by falowaæ lub poprostu odgradza ciê od nich jaka¶ magiczna moc,
+o tyle silna, ¿e jest nawet widoczna go³ym okiem. Przygl±dasz siê tutejszym
+¶cianom i zauwa¿asz, ¿e jest to granit, lecz o zgrozo co pó³ metra wystaj± z
+niego ko¶ci. Ko¶ci te jakim¶ magicznym sposobem pulsuj± swoim wewnêtrznym
+¶wiat³em. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28816
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28816
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28818
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28818
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28818
+Name Granitowy Tunel~
+Descr Znajdujesz siê w granitowym tunelu. Przy ka¿dym twoim kroku ko¶ci, które
+wystaj± ze ¶cian zaczynaj± pulsowaæ ¶wiat³em dziêki czemu nie potrzebujesz
+w³asnego ³uczywa. Zauwa¿asz, ¿e ko¶ci które pozostawiasz za sob± zaczynaj±
+lekko przygasaæ. Na po³udniu widzisz skrzy¿owanie tuneli. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28817
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28817
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28819
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28819
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28819
+Name Granitowy Tunel~
+Descr ¦wiat³o, które dobywa siê z ko¶ci pozwala ci obejrzeæ to dziwne koliste
+pomieszczenie. Tunele tutaj odchodz± na wszystkie strony ¶wiata, jednak
+widzisz, ¿e na wschodzie i zachodzie s± drzwi przes³aniaj±ce dalszy widok.
+Na po³udniu za¶ widzisz dziwne schody prowadz±ce w dalsz± czê¶æ tej dziwnej
+siedziby. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28818
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28818
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28822
+ExitExtEnd
+Exit 1
+~
+~
+3 0 28822
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28820
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28820
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28821
+ExitExtEnd
+Exit 3
+~
+~
+3 0 28821
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28820
+Name Granitowy Tunel~
+Descr Widzisz przed sob± wielkie schody prowadz±ce na ni¿sze kondygnacje tej
+siedziby. Na pó³nocy za¶ dostrzegasz d³ugi granitowy tunel. ¦ciany s±
+zbudowane z granitu a mo¿e to jest poprostu wyryty tunel w podziemnym
+kamieniu? 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28819
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28819
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28823
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28823
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28821
+Name Granitowe Pomieszczenie~
+Descr Znajdujesz siê w pustej granitowej niszy. Wci±gasz powietrze w swe p³uca
+i czujesz tutaj ochydny zapach skwa¶nia³ego powietrza. Py³, który tutaj siê
+osadzi³ przy ka¿dym twoim kroku unosi siê. Niewielka ilo¶æ ¶wiat³a dociera z
+tunelu na wschodzie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28819
+ExitExtEnd
+Exit 1
+~
+~
+3 0 28819
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28822
+Name Granitowe Pomieszczenie~
+Descr Znajdujesz siê w pustej granitowej niszy. Wci±gasz powietrze w swe p³uca
+i czujesz tutaj ochydny zapach skwa¶nia³ego powietrza. Py³, który tutaj siê
+osadzi³ przy ka¿dym twoim kroku unosi siê. Niewielka ilo¶æ ¶wiat³a dociera z
+tunelu na wschodzie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 28819
+ExitExtEnd
+Exit 3
+~
+~
+3 0 28819
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28823
+Name Granitowy Tunel~
+Descr Znajdujesz siê tu¿ obok schodów prowadz±cych na górn± kondygnacje tej
+siedziby. Na po³udniu widzisz dziwnie pulsuj±ce fioletowe ¶wiat³o. Na
+wschodzie i zachodzie widzisz d³ugie tunele z granitu, o¶wietlone magicznym
+¶wiat³em z ko¶ci. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28829
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28829
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28828
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28828
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28824
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28824
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28820
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28824
+Name Granitowy Tunel~
+Descr Kroczysz granitowym tunelem. Pulsuj±ce ¶wiat³o z ko¶ci o¶wietla ci dalsz±
+drogê. Zastanawia ciê fakt któ¿ móg³ wybudowaæ tak± siedzibê tyle metrów pod
+ziemi±, umagiczniæ ¶ciany by same o¶wietla³y otoczenie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28823
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28823
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28825
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28825
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28825
+Name Granitowy Tunel~
+Descr Znajdujesz siê tu¿ przy koñcu granitowego korytarza. Widzisz tutaj schody
+prowadz±ce na dó³, do dalszej czê¶ci tej dziwnej siedziby. ¦ciany, tak jak
+wcze¶niej zauwa¿y³<&e¶/a¶/e¶>, pokryte s± ¶wiec±cymi ko¶æmi. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28824
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28824
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28826
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28826
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28827
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28827
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28826
+Name Granitowe Pomieszczenie~
+Descr Znajdujesz siê w ciemnej, suchej komancie. Zadziwia ciê to, ¿e budowniczy
+tej dziwnej siedziby nie 'wt³oczy³' w ¶cianê tych dziwnych ¶wiec±cych ko¶ci.
+W sumie nie ma tutaj nic ciekawego ot, poprostu granitowy, pusty pokój. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28825
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28825
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28827
+Name Granitowy Tunel~
+Descr Znajdujesz siê na koñcu schodów. Jak zauwa¿y³e¶ tutaj budowniczy
+zatrzymali siê i nie rozszerzaj± tej siedziby. Zauwa¿asz tutaj brak
+¶wiec±cych ko¶ci przez co jest tutaj nieco ciemniej. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28825
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28825
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28828
+Name Granitowy o³tarz~
+Descr Znajdujesz siê w komnacie zrobionej ca³kowicie z ko¶ci. Po d³u¿szych
+oglêdzinach zauwa¿asz, ¿e znajdujesz siê w klatce piersiowej jakiego¶
+wielkiego staro¿ytnego stwora. Czujesz, jak magia z ko¶ci tego stworzenia
+przenika ciê na wskro¶. 
+~
+FlagsExt 0|BEF
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28823
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28823
+Heal 150
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28829
+Name Granitowy Tunel~
+Descr Kroczysz granitowym tunelem. Pulsuj±ce ¶wiat³o z ko¶ci o¶wietla ci dalsz±
+drogê. Zastanawia ciê fakt któ¿ móg³ wybudowaæ tak± siedzibê tyle metrów pod
+ziemi±, umagiczniæ ¶ciany by same o¶wietla³y otoczenie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28830
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28830
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28823
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28823
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28830
+Name Granitowy Tunel~
+Descr Znajdujesz siê tu¿ przy koñcu granitowego korytarza. Widzisz tutaj schody
+prowadz±ce na dó³, do dalszej czê¶ci tej dziwnej siedziby. ¦ciany, tak jak
+wcze¶niej zauwa¿y³<&e¶/a¶/e¶>, pokryte s± ¶wiec±cymi ko¶æmi. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28831
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28831
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28829
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28829
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28832
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28832
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28831
+Name Granitowe Pomieszczenie~
+Descr Znajdujesz siê w ciemnej, suchej komancie. Zadziwia ciê to, ¿e budowniczy
+tej dziwnej siedziby nie 'wt³oczy³' w ¶cianê tych dziwnych ¶wiec±cych ko¶ci.
+W sumie nie ma tutaj nic ciekawego ot, poprostu granitowy, pusty pokój. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28830
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28830
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28832
+Name Granitowy Tunel~
+Descr Znajdujesz siê na koñcu schodów. Jak zauwa¿y³<&e¶/a¶/e¶> tutaj budowniczy
+zatrzymali siê i nie rozszerzaj± tej siedziby. Zauwa¿asz tutaj brak
+¶wiec±cych ko¶ci przez co jest tutaj nieco ciemniej. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28830
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28830
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 28804 5 28801 1
+E 100 3158 0 16
+M 100 28805 5 28801 1
+M 100 28804 5 28805 1
+E 100 3158 0 16
+M 100 28805 5 28805 1
+M 100 28805 5 28807 1
+M 100 28804 5 28808 1
+E 100 3158 0 16
+M 100 28805 5 28811 1
+M 100 28804 5 28812 1
+E 100 3158 0 16
+M 100 28805 5 28813 1
+M 100 28804 5 28814 1
+E 100 3158 0 16
+M 100 28802 6 28815 1
+M 100 28802 6 28819 1
+M 100 28802 6 28821 1
+M 100 28802 6 28822 1
+M 100 28802 6 28826 1
+M 100 28801 1 28828 1
+E 100 4362 0 5
+E 15 28803 0 6
+M 100 28802 6 28831 1
+S
+
+
+
+#MOBPROGSNEW
+#28801
+~
+force mob 28801 wear toga
+~
+#szkielet_onload
+~
+$_wskaz = int_random 1 6
+#Miecz, tarcza, kolczuga i buty
+if numeval $_wskaz == 1
+mob equip self 3179
+mob equip self 3366
+mob equip self 3025
+mob equip self 3001
+endif
+#korbacz, skorzana zbroja, buty
+if numeval $_wskaz == 2
+mob equip self 3097
+mob equip self 3018
+mob equip self 3001
+endif
+#trojz±b, kolczuga, spodnie, naramienniki
+if numeval $_wskaz == 3
+mob equip self 3156
+mob equip self 3025
+mob equip self 4409
+mob equip self 3090
+endif
+#lancuch, skorzana zbroja, naramienniki
+if numeval $_wskaz == 4
+mob equip self 3162
+mob equip self 3018
+mob equip self 3090
+endif
+#dwa miecze, buty
+if numeval $_wskaz == 5
+mob equip self 3179
+mob equip self 3179 hold
+mob equip self 3001
+endif
+#tarcza, korbacz, skórzana zbroja, buty
+if numeval $_wskaz == 6
+mob equip self 3366
+mob equip self 3097
+mob equip self 3018
+mob equip self 3001
+endif
+ 
+~
+#undead3_smierc
+~
+if rand 50
+mob oload 14033
+endif
+emote pada na ziemiê... MARTWY.
+~
+#0
+
+#OBJPROGSNEW
+#28801
+~
+mob echoat $n Unosisz swe rêce ponad sw± g³owê trzymaj±c w nich rubinow± koronê.
+mob echoaround $n Widzisz jak $n unosi rêce nad sw± g³owê trzymaj±c w nich rubinow± koronê.
+delay 1
+mob echoat $n Powoli zak³adasz rubinow± koronê na sw± g³owê, czujesz jak ma³e ig³y które wy¶ciela³y jej wnêtrze wbijaj± siê w tw± g³owê.
+mob echoaround $n $n zak³ada rubinow± koronê na g³owê, po chwili czuje straszny ból przechodz±cy jego g³owê.
+obj wear
+~
+#28802
+~
+mob echoat $n Powoli próbujesz zdj±æ rubinow± koronê ze swej g³owy, lecz ig³y wbi³y siê g³êboko w g³owê...
+mob echoaround $n Widzisz jak $n próbuje zdj±æ rubinow± koronê z g³owy lecz co¶ jest nie tak.
+~
+#0
+
+#ROOMPROGSNEW
+#28801
+~
+if pos $n fighting
+  mob echoat $n Nie masz jak tago zrobiæ.
+  break
+endif
+foreachingroup $n
+  if pos $n fighting
+  else
+    if ishere $n
+      mob echoat $n Przeciskasz siê przez szczelinê.
+      mob echoaround $n Widzisz jak $n przeciska siê przez szczelinê w pod³odze.
+mob transfer $n 28814
+    endif
+  endif
+endfor
+~
+#28802
+~
+if pos $n fighting
+mob echoat $n Nie masz jak tago zrobiæ.
+break
+endif
+foreachingroup $n
+if pos $n fighting
+else
+if ishere $n
+mob echoat $n Przeciskasz siê przez szczelinê.
+mob echoaround $n Widzisz jak $n przeciska siê przez szczelinê w pod³odze.
+mob transfer $n 28815
+endif
+endif
+endfor
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

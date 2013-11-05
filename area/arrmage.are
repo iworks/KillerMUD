@@ -1,0 +1,2653 @@
+#AREADATA
+Name +# Arrasyjska Szko³a Magii~
+Builders Deggial City~
+VNUMs 26965 27000
+Credits quanchi@icpnet.pl~
+Locked ~
+Security 9
+ResetAge 15
+Region 101
+End
+
+
+
+#MOBILES
+#Vnum 26973
+Name demon niewielki~
+Odmiana demona~demonowi~demona~demonem~demonie~
+Short demon~
+Long Niewielki demon przykucn±³ w k±cie pokoju.~
+Descr Ten demon nie jest wysoki, ma mo¿e ze trzy ³okcie, ale za to musku³y
+niemal rozrywaj± mu obrzydliw±, pokryt± w niektórych miejscach ³uskami
+skórê. Oczy ma czerwone, d³ugie szpiczaste uszy i naprawdê przera¿aj±c±
+paszczê pe³n± d³ugich k³ów. Ogólnie niesympatyczny typ, na szczê¶cie jest
+pod wp³ywem uroku rzuconego przez swego pana, wiêc samemu na pewno Ciê nie
+zaatakuje. 
+~
+Race demon~
+ActExt 0|ABRT
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 13
+Hitroll 0
+HP 15d5+150
+Damage 6d2+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack gryzienie
+XAC 8 8 8 8
+Stats 114 72 72 96 120 78 78
+Off HRXY
+OffExt 0|HRXY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form CI
+Parts ABCDEFGHIJKQRU
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 5
+Resist 5 10
+Resist 6 10
+Resist 7 10
+Resist 8 10
+Resist 9 10
+Resist 10 10
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 10
+Resist 16 10
+Mobend
+#Vnum 26974
+Name Mirvel Mi³y mag sprzedawca~
+Odmiana Mirvela Mi³ego~Mirvelowi Mi³emu~Mirvela Mi³ego~Mirvelem Mi³ym~Mirvelu Mi³ym~
+Short Mirvel Mi³y~
+Long Stoi tutaj za lad± Mirvel Mi³y, siwobrody mag i czeka na klientów.~
+Descr Mirvel zwany przez studentów akademi mi³ym, ze wzglêdu na swe ³agodne
+usposobienie jest ju¿ do¶æ starym magiem. W ka¿dym razie, miast uczyæ
+uczniów magicznego fachu postanowi³ on otworzyæ niewielki sklepik z
+artyku³ami magicznymi. Dosta³ zgode akademii wiêæ w miejscu dawnego magazynu
+otworzy³ swój sklep. Sklep no¶i nazwê 'K¶iêga i Ró¼dzka' i prosperuje dosyæ
+dobrze, oferuj±c m³odym adeptom sztuk tajemnych wiele ciekawych towarów. 
+~
+Race cz³owiek~
+ActExt 0|ABR
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align 0
+Group 0
+Lang AV
+Speaks 0
+Level 0
+Hitroll 0
+HP 10d10+500
+Damage 10d10+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1800000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 26973 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26977
+Name mistrz mag dohmer nauczyciel~
+Odmiana nauczyciela~nauczycielowi~nauczyciela~nauczycielem~nauczycielu~
+Short mistrz Dohmer~
+Long Mistrz Dohmer z Arras, mruczy co¶ tutaj przegl±daj±c manuskrypty niewidz±cym wzrokiem.~
+Descr Widzisz staruszka ubranego jedynie w zgrzebn±, workowat± szate. D³uga
+broda siêga prawie do pasa, nie tak wyobrazaj± sobie m³odzi adepci sztuk
+Mistrza magii. Jednak oto on, stoi przed tob± sam Dohmer z Arras, obecnie
+¶lepy jak kret i tylko dziêki mocy magii poznania mog±cy wci±¿ patrzeæ na
+otoczenie. Plotka g³osi ze uczy³ on magii poznania na tej uczelni ju¿ 130
+lat temu, co jest niebotycznym wiekiem jak na cz³owieka. Mimo to Dohmer
+usmiecha siê ¿yczliwie i napewno pomo¿e ci nauczyæ siê kilku prostych zaklêæ
+poznania. 
+~
+Race gnom~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Spells 60 93 143 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26979
+Name mag mistrz hvel przebieg³y nauczyciel~
+Odmiana nauczyciela~nauczycielowi~nauczyciela~nauczycielem~nauczycielu~
+Short Hvel~
+Long Hvel przebieg³y, wyk³adowca magii uroków, przygl±da ci siê bacznie.~
+Descr Spogl±dasz na tego mêzczyzne w ¶rednim wieku i po chwili masz ochote
+u¶cisn±c jego d³oñ, oddaæ mu wszystkie pieni±dze a tak¿e dom i rodzine je¶li
+takowe posiadasz. Tak, masz przed sob± mistrza Zauroczenia i mimo, i¿
+sugestia w twojej g³owie wydaje siê naturalna, to wiesz i¿ to tylko jeszcze
+jeden sprytnie utkany urok. Mo¿e gdy bendziesz mi³y i zapytasz go, nauczy
+ciê jakich¶ zaklêæ. Uwa¿aj jednak, Hvel ma reputacje rozpustnika i
+kobieciarza, a tak¿e najprzebieglejszego z mistrzów magii, no mo¿e poza
+samym Kelebornem. 
+~
+Race cz³owiek~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Spells 87 60 2 175
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26981
+Name nauczycielka nekromantka czarodziejka mayleia postaæ~
+Odmiana nauczycielki~nauczycielce~nauczycielkê~nauczycielk±~nauczycielce~
+Short Mayleia~
+Long W rogu pomieszczenia widzisz jak±¶ czarn±, zakapturzon± postaæ.~
+Descr W rogu pomieszczenia siedzi na wysokim sto³ku, niska postaæ opatulona w
+ca³± czarn± szatê. Gdy podchodzisz bli¿ej spogl±daj± na ciebie dwoje
+niebieskich oczu spod kêpki siwych w³osów. Mayleia, bo tak brzmi imiê tej
+mistrzyni Nekromancji, spêdzi³a wiele, wiele lat na ró¿nych cmentarzach,
+miejscach mocy i w katakumbach. Dlatego po wej¶ciu do jej pokoju cz³owiekowi
+wydaje siê, i¿ wchodzi do jakich¶ lochów. Mimo sêdziwego wieku mistrzyni
+nekromancji porusza siê sprawnie jak dawniej, plotki g³osz± i¿ k±pie siê w
+krwi dziewic, jednak tak naprawde wszystko zawdziêcza swej kondycji -
+podobnej do buta trapera - poprostu jest niezmordowana. Mo¿e je¶li ³adnie
+poprosisz, nauczy ciê paru czarów. 
+~
+Race cz³owiek~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Spells 2 145 91 180
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26983
+Name mag nauczyciel cemris polelf~
+Odmiana nauczyciela~nauczycielowi~nauczyciela~nauczycielem~nauczycielu~
+Short Cemris~
+Long U¶miechniêty pó³elf o bystrych oczach, zwany Cemrisem przygl±da ci siê bacznie.~
+Descr Cemris aep Righmal Silveroak, bo tak brzmi jego pe³ne rodowe nazwisko,
+pochodzi z jakiej¶ zapomnianej le¶nej osady, w Pradawnej Puszczy. Jego
+rodzice zajmowali siê tym co reszta mieszkanców - polowali lub ¶cinali
+drzewa. I pewnie on te¿ skoñczy³ by tak samo gdyby nie jedna z przygód.
+Cemris mia³ siostrê, Tamarê, która pewnego razu zgubi³a siê w lesie, na
+pró¿no ojciec Cemrisa rozpacza³, na pró¿no mieszkañcy wioski szukali
+dziewczynki. Cemris tak siê o ni± martwi³ i¿ w nocy ¶ni³y mu siê koszmary.
+Tak naprawdê siostrê jego porwa³a banda le¶nych goblinów i trzymali
+dziewczynê ¶miertelnie przera¿on± w le¶nej jamie. M³ody ch³opak pewnego razu
+obudzi³ siê ze strasznym koszmarem w ¶rodku nocy, to gobliny pocze³y znêcaæ
+siê nad jego siostr±, nie znaj±c drogi, nie bior±c broni ruszy³ przed
+siebie. Gdy dotar³ do jamy jego siostra by³a poturbowana a gobliny bawi³y
+siê w najlepsze nie zauwa¿aj±c m³odzika. Gniew zap³on±³ po raz pierwszy w
+sercu Cemrisa, zamkn±³ oczy i da³ uj¶æ gniewowi. Wszystkie jadowite
+stworzenia, robaki i inne paskudctwa zlecia³y siê i poch³one³y przera¿one
+gobliny w mgnieniu oka. Uwolni³ on siostrê i zaprowadzi³ do domu. Gdy
+siostra opowiedzia³a o tym wszystkim, rodzice pos³ali ch³opca do maga w
+Carrallak jednak szybko siê okaza³o i¿ m³ody, ambitny i ch³on±cy wiedzê jak
+g±bka Cemris nie pasuje do sielskiego miasta. Zosta³ wiêc wys³any do Arras,
+studiowaæ w akademii. Tam po wielu latach, perypetiach i przygodach zosta³
+mistrzem magii przywo³ania. 
+~
+Race pó³elf~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Spells 94 60 181 2
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26985
+Name nauczycielka czarodziejka kobieta Vanessa~
+Odmiana nauczycielki~nauczycielce~nauczycielki~nauczycielk±~nauczycielce~
+Short Vanessa~
+Long Vanessa poprawia tutaj fa³dy swojej czarnej sukni.~
+Descr Widzisz do¶æ ³adn± kobiete, ma mo¿e ko³o 30 lat. Ubrana jest w czarn±,
+wydekoltowan± suknie, która le¿y na niej wprost wspaniale podkre¶laj±c
+wszystkie doskona³o¶ci i wyg³adzaj±c niedoskona³o¶ci kobiecego cia³a.
+Ciemny, gustowny makijarz podkre¶la fio³kowe oczy i nadaje twarzy
+tajemniczo¶ci. Tak naprawde stoi przed tob± Vanessa, czarodziejka która ¿yje
+ju¿ od przesz³o trzystu lat. Mówi i¿ to dziêki domieszce elfiej krwii, ale
+tak naprawde szeroko znane s± jej przygody ze ¼ród³em m³odo¶ci, zakochanym w
+niej bogu, pojedynku ze smokiem i wielu, wielu innych. Ona poprostu nie lubi
+wysiedzieæ zbyt d³ugo w jednym miejscu. Usmiecha siê kokieteryjnie bawi±c
+siê ognist± kul±. 
+~
+Race cz³owiek~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26987
+Name Ulmik nauczyciel mistrz mag bestia~
+Odmiana nauczyciela~nauczycielowi~nauczyciela~nauczycielem~nauczycielu~
+Short Ulmik~
+Long Widzisz tutaj jak±¶ straszn±, kosmat± bestiê, której ilo¶æ oczu przewy¿sza tylko ilo¶æ pazurów i k³ów.~
+Descr Nie daj siê zwie¶æ na pierwszy rzut oka, tak naprawde masz przed sob±
+czarownika z pó³nocnych stron, Ulmika Bia³ego Lisa, który osi±gn±³
+mistrzostwo w czarach przemian. Jego tymczasowa forma wynika z tego, i¿
+pewnie testuje lub wymy¶la jakie¶ nowe zaklêcie. Jest on umiê¶nionym jak na
+maga cz³owiekiem, widaæ i¿ oprocz staro¿ytnych woluminów musia³ tak¿e
+polowaæ lub trenowaæ z innymi cz³onkami jego plemienia. Trzy pasma srebrnych
+w³osów wyró¼niaj± siê w jego grzywie czarnych jak sadza w³osów. Tak¿e po
+policzku biegnie mu blizna, to pozosta³o¶æ po jego potyczce z demonem lodu
+Ghmatamostxaimtoasmtem, w której to obaj przeciwnicy co i rusz zmieniali siê
+w inne stworzenia. W koncu Ulmik zmieni³ siê w tygrysa polarnego i szybkim
+skokiem zakonczy³ ¿ycie demona zmienionego w wê¿a. O tej walce powsta³o ju¿
+tyle opowiadañ, pie¶ni i ballad i¿ na sta³e zapisa³a siê ona w dziejach
+z³otego miasta. 
+~
+Race cz³owiek~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26989
+Name mag saylak nauczyciel chlopak chlopiec~
+Odmiana nauczyciela~nauczycielowi~nauczyciela~nauczycielem~nauczycielu~
+Short Saylak~
+Long Widzisz przed sob± m³odego, chudego ch³opca usmiechaj±cego siê ³obuziersko.~
+Descr Na pierwszy rzut oka nie wygl±da na to, i¿ co¶ z nim jest nie tak. Jednak
+nie reaguje on na odg³osy otoczenia. Po chwili wo³ania te¿ ciê nie us³ysza³
+- wnioski nasune³y siê same na siebie, ten ch³opak jest g³uchy. Zapewne
+przeszkadza³o mu to w tworzeniu iluzji, jednak z opowie¶ci jakie snuj± siê
+po akademii wynika i¿ jest najpotê¿niejszym tkaczem iluzji od czasów
+Valmederotha.. Elfa który przez dwa dni oblega³ krasnoludzk± placówkê w dole
+rzeki Sejny w czasie wielkiej wojny. Oblega³ za pomoc± iluzorycznej armii.
+M³ody ch³opak mo¿e utrzymywaæ iluzje bez mrugniêcia okiem, przez wiele
+godzin a nawet dni. Byæ mo¿e zechce ciê czego¶ nauczyæ, gdy tylko poka¿esz
+mu na migi czego chcesz. 
+~
+Race cz³owiek~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26991
+Name mag nauczyciel zavantsi~
+Odmiana nauczyciela~nauczycielowi~nauczyciela~nauczycielem~nauczycielu~
+Short Zavantsi~
+Long Maly, gruby cz³owiek w szpicastym kapeluszu to zapewne Zavantsi Oty³y, mistrz odrzucania.~
+Descr Jest gruby. Ma szpiczasty kapelusz. D³uga szata odzdobiona magicznymi
+symbolami ci±gnie siê za nim po ziemi. Wygl±da na maga. Magiem jest, bo
+Zavantsiowi oty³emu nie mo¿na zarzuciæ braku talentu b±dz umiejêtno¶ci.
+Niewielka t³usta bródka, któr± holduje i która jest jego dum±, a tak¿e
+czynnikiem ¿artów ca³ej akademii przyci±ga wzrok prawie tak samo jak ma³e,
+¶winskie oczka osadzone g³êboko w g³owie. Mimo i¿ prezentuje siê
+nieprawdopodobnie t³usto za co dosta³ przydomek 'oty³y', jest weso³ego
+usposobienia i puki nikt nie psuje jego codziennego harmonogramu zajêc to
+mo¿e uchodziæ za nawet szczodrego. Uwielbia przesiadywaæ ca³e noce w
+karczmach, korzystaæ z dziewek, wynalaz³ nawet czar 'Ca³kowita ochrona przed
+brzydkimi chorobami Zavantiusa'. W ka¿dym razie, jest to ciekawa postaæ tak
+samo jak reszta wyk³adowców w Arrasyjskiej Szkole Magii. 
+~
+Race cz³owiek~
+ActExt 0|ABEKR
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABV
+Speaks 0
+Level 30
+Hitroll 10
+HP 30d5+500
+Damage 4d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 5
+Stats 72 156 90 108 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 26979 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26992
+Name arcyrektor keleborn skrybus elf mistrz boss~
+Odmiana arcyrektóra Keleborna~arcyrektorowi Kelebornowi~arcyrektora Keleborna~arcyrektorem Kelebornem~arcyrektorze Kelebornie~
+Short arcyrektor Keleborn~
+Long Stoi tutaj przygl±daj±c siê tobie Arcyrektor Keleborn, najwiekszy ¿yj±cy mag.~
+Descr Stoi przed tob± jeden z najpotê¿niejszych u¿ytkowników magii w znanym
+¶wiecie, Arcyrektor uczelni magicznej i szesnastokrotny zwyciê¿ca "Turnieju
+Magicznego" w Silei, Keleborn Skrybus. Kr±¿± o nim legendy, jakoby zna³ mowê
+smoków i od nich nauczy³ siê najpotê¿niejszych zaklêæ dostepnych dla
+czarodziei. Wysz³a nawet powie¶æ "Skrybus pan smoków", jednak niewiadomo
+czemu nie cieszy³a siê popytem. W ka¿dym razie Keleborn jest elfem, z jego
+delikatnej sylwetki bije niewyobra¿alna moc i pewno¶æ siebie. Jednak wygl±da
+na zwyk³ego elfa, wydaje siê m³ody - jak ka¿dy elf - jednak wed³ug
+kalendarza prze¿y³ ju¿ oko³o 400 lat! Ubrany jest w wytworne szaty zdobione
+magicznymi wizerunkami, ca³y wprost ugina siê pod ciê¿arem magicznych
+pier¶cieni i amuletów.
+~
+Race elf~
+ActExt 0|ABR/2|C
+Affected 302514216 67633152 0 16
+AffectedExt 0|DFTZc/1|Ta/3|E
+Align 0
+Group 0
+Lang AV
+Speaks 19
+Level 32
+Hitroll 0
+HP 32d10+1000
+Damage 2d5+2
+Dammagic 4
+Weaponbonus 5
+Damflags 0
+Attack magia
+XAC -2 -2 -2 -5
+Stats 72 168 168 120 84 144 162
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 2500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload keleb_onload ABCDEFGHI 100~
+MobprogNew hpcnt keleborn4 H 40~
+MobprogNew death keleborn2 ABCDEFGHI 70~
+MobprogNew fight keleborn1 H 5~
+Spells 296 15 229 91
+Spells 203 184 180 163
+Spells 138 92 228 102
+Spells 13 1 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 300
+Resist 1 25
+Resist 2 25
+Resist 3 25
+Resist 7 100
+Resist 10 100
+Resist 11 5
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 26993
+Name stary gnomi alchemik~
+Odmiana starego gnomiego alchemika~staremu gnomiemu alchemikowi~starego gnomiego alchemika~starym gnomim alchemikiem~starym gnomim alchemiku~
+Short stary gnomi alchemik~
+Long Stoi tutaj stary, gnomi alchemik.~
+Descr Stary, gnomi alchemik biega tam i z powrotem próbuj±c jako¶ przygotowaæ
+swoj± now± pracownie dla przysz³ych klientów. 
+~
+Race gnom~
+ActExt 0|ABIJKLQRST/2|E
+Affected 128 0 0 0
+AffectedExt 0|H
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d1+10
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 26994
+Name wychud³a z³owieszcza wywerna~
+Odmiana wywerny~wywernie~wywerne~wywern±~wywernie~
+Short wywerna~
+Long Lata tutaj, wypuszczaj±c z pyska ob³oki truj±cych oparów jaka¶ wywerna.~
+Descr Widzisz tutaj przywo³an± wywerne, lata dooko³a swego pana - Keleborna -
+broni±c go nawet kosztem swego ¿ycia. Wspania³a, zgni³ozielona ³uska
+b³yszczy z³owieszczo w ¶wietle, a opary wydychane przez t± istote s± truj±ce
+dla wiekszo¶ci znanych istot. Wywerny wygl±daja troche jak smoki, jednak s±
+od smoków o wiele mniejsze, a tak¿e ich ich inteligencja, có¼, wywerny to
+dzikie zwierzêta wiec nie ma co mówic o inteligencji. Brak przednich ³ap
+rekompensuj± jednak szerok± szczêk±, mog±c± zgnie¶æ nawet najtwardszy
+pancerz jednym ruchem paszczy. Dodatkowo ich ugryzienia s± silnie truj±ce a
+i ¶lina wywerny dzia³a jak ca³kiem dobry kwas rozpuszczaj±c wiekszosc rzeczy
+jakie napotka. 
+~
+Race wywerna~
+ActExt 0|AR
+Affected 34078728 0 256 0
+AffectedExt 0|DTZ/2|I
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 6
+HP 20d10+330
+Damage 2d6+4
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack kgryz
+XAC 2 1 1 5
+Stats 132 18 84 108 156 18 96
+Off LMYc
+OffExt 0|LMYc
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form ABFGZ
+Parts ACDEFHJKQRSVX
+Size large
+Material unknown
+MobprogNew hit wywerna1 H 12~
+Spells 1 0 0 0
+Skin 145
+ExpMultiplier 100
+Resist 1 -5
+Resist 2 10
+Resist 3 5
+Resist 5 -5
+Resist 7 25
+Resist 8 -5
+Resist 9 100
+Resist 10 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 26995
+Name ogar piekie³ piekielny pies~
+Odmiana ogara piekie³~ogarowi piekie³~ogara piekie³~ogarem piekie³~ogarze piekie³~
+Short ogara piekie³~
+Long Wielki, ognisty pies stoi tutaj i warczy gro¼nie.~
+Descr Wielki, czarny pies który wygl±da jakby zosta³ dok³adnie spopielony. W
+zniekszta³conej mordzie dostrzegasz dwa d³ugie, ¼ó³te k³y a ma³e, czarne jak
+wêgle oczy p³on± wrêcz ¿±dz± mordu. Ca³ego ogara otacza wrêcz aura p³omieni,
+jednak nie jest to pies a jeden z demonów wziêty z najg³êbszej otcha³ni.
+Magowie nazywaja te demony 'piekielnymi ogarami', niew±tpliwie maj± racje.
+Bydle jest wielko¶ci ma³ego konia i jest w nim co¶ z³owieszczego. Od czasu
+do czasu wydycha z nozd¿y niewielkie p³omienie. 
+~
+Race pies~
+ActExt 0|AD
+Affected 33554464 134217732 64 0
+AffectedExt 0|FZ/1|Cb/2|G
+Align 0
+Group 0
+Lang N
+Speaks 13
+Level 18
+Hitroll -2
+HP 18d10+320
+Damage 7d3+6
+Dammagic 0
+Weaponbonus 0
+Damflags 1
+Attack ogryz
+XAC 10 10 10 10
+Stats 120 120 120 120 120 60 120
+Off AFL
+OffExt 0|AFL
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRSUV
+Size medium
+Material unknown
+Skin 160
+ExpMultiplier 100
+Resist 5 100
+Resist 8 -10
+Resist 10 50
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 26996
+Name postac lodu ¿ywio³ak bry³a~
+Odmiana ¿ywio³aka lodu~¿ywio³akowi lodu~¿ywio³aka lodu~¿ywio³akiem lodu~¿ywio³aku lodu~
+Short ¿ywio³ak lodu~
+Long Stoi tutaj wielka postaæ wykuta z jednej bry³y lodu.~
+Descr Spogl±dasz na najprawdziwszego ¿ywio³aka lodu, zosta³ tutaj sprowadzony z
+elementarnego planu lodu by s³u¿y³ magowi który go przyzwa³. Wygl±da jak
+lodowa figura, jest mniej wiêcej humanoidalnych kszta³tów i mierzy oko³o
+trzech metrów. Mimo, ¿e jak na swój wzrost wygl±da raczej w±tle to
+niew±tpliwie bry³y lodu s³u¿±ce mu za piê¶ci mog± nie¶æ prawdziwe
+spustoszenie. Nie wygl±da na szybkiego jednak w akcji jego ruchy budz±
+zachwyt. 
+~
+Race ¿ywio³ak~
+ActExt 0|A
+Affected 33554432 268435456 0 0
+AffectedExt 0|Z/1|c
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 0
+HP 22d10+400
+Damage 1d5+10
+Dammagic 0
+Weaponbonus 0
+Damflags 2
+Attack mwalniecie
+XAC 5 5 5 10
+Stats 138 96 108 72 150 18 18
+Off CZ
+OffExt 0|CZ
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form C
+Parts ABCGHI
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 5 -15
+Resist 8 100
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 26997
+Name pomniejszy demon niewielki~
+Odmiana demona~demonowi~demona~demonem~demonie~
+Short pomniejszy demon~
+Long Pomniejszy demon zosta³ tutaj przyzwany przez Keleborna.~
+Descr Ten demon nie jest wysoki, ma mo¿e ze trzy ³okcie, ale za to musku³y
+niemal rozrywaj± mu obrzydliw±, pokryt± w niektórych miejscach ³uskami
+skórê. Oczy ma czerwone, d³ugie szpiczaste uszy i naprawdê przera¿aj±c±
+paszczê pe³n± d³ugich k³ów. Ogólnie niesympatyczny typ, na szczê¶cie jest
+pod wp³ywem uroku rzuconego przez swego pana, wiêc samemu na pewno Ciê nie
+zaatakuje. 
+~
+Race demon~
+ActExt 0|ABRT
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 12
+Hitroll 2
+HP 15d5+150
+Damage 6d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 8 8 8 8
+Stats 114 72 72 96 120 78 78
+Off HLRXY
+OffExt 0|HLRXY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form CI
+Parts ABCDEFGHIJKQRU
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 1 10
+Resist 2 10
+Resist 3 10
+Resist 4 10
+Resist 5 15
+Resist 10 100
+Resist 11 1
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 26998
+Name mlody przestraszony czarodziej~
+Odmiana m³odego, przestraszonego czarodzieja~m³odemu, przestraszonemu czarodziejowi~m³odego, przestraszonego czarodzieja~m³odym, przestraszonym czarodziejem~m³odym, przestraszonym czarodzieju~
+Short m³ody, przestraszony czarodziej~
+Long M³ody, przestraszony czarodziej stoi nie¶mia³o pod ¶cian± komnaty.~
+Descr Ten m³ody cz³owiek jest jednym z pocz±tkuj±cych adeptów magii w
+Arrasañskiej Szkole Magii. Jest on przestraszony, jakgdyby zgubi³ siê i nie
+móg³ odnale¼æ drogi powrotnej, mimo ¿e z tej komnaty jest tylko jedno
+wyj¶cie... 
+~
+Race cz³owiek~
+ActExt 0|ABR
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 6d3+200
+Damage 3d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 72 132 114 114 96 84 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 93 194 6 168
+Spells 92 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 26965
+Name magiczny-pryzmat pryzmat magiczny~
+Odmiana {Bmagicznego {Ypryzmatu{x~{Bmagicznemu {Ypryzmatowi{x~{Bmagiczny {Ypryzmat{x~{Bmagicznym {Ypryzmatem{x~{Bmagicznym {Ypryzmacie{x~
+Short {Bmagiczny {Ypryzmat{x~
+Descr Mieni±cy siê magicznym blaskiem {Ypryzmat{x le¿y tutaj.~
+Material diament~
+Type jewelry
+ExtraExt 0|AG
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Komponent 10 5000
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 10
+Cost 42000
+Cond 75
+Itemdesc Z zaciekawieniem przygl±dasz siê temu niewielkiemu pryzmatowi, który
+zdaje siê lekko ¶wieciæ. Trzymaj±c go miêdzy dwoma palcami, przygl±dasz siê
+obrazom ukazanym na ka¿dej z jego ¶cianek. Gdy zatrzymujesz wzrok d³u¿ej na
+którym¶ z obrazów, przez chwilê wydaje ci siê, ¿e wychodzi on z pryzmatu i
+staje siê rzeczywisto¶ci±. Potrz±sasz g³ow± i chowasz pryzmat do kieszeni. 
+~
+Comments ~
+Objend
+#Vnum 26966
+Name modlitewnik zielony ochrony przed kwasem~
+Odmiana modlitewnika~modlitewnikowi~modlitewnik~modlitewnikiem~modlitewniku~
+Short modlitewnik ochrony przed kwasem~
+Descr Oprawiony w zielon± oprawkê modlitewnik le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1 268 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 2400
+Cond 75
+Itemdesc Jest to gruba i mocno ju¿ podniszczona ksiêga oprawiona w skórê. 
+~
+Comments ~
+Objend
+#Vnum 26967
+Name modlitewnik zielony ochrony przed kwasem~
+Odmiana modlitewnika~modlitewnikowi~modlitewnik~modlitewnikiem~modlitewniku~
+Short modlitewnik ochrony przed kwasem~
+Descr Oprawiony w zielon± oprawkê modlitewnik le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 1 268 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 2400
+Cond 75
+Itemdesc Jest to gruba i mocno ju¿ podniszczona ksiêga oprawiona w skórê. 
+~
+Comments ~
+Objend
+#Vnum 26968
+Name ksiêga zielona ochrony przed kwasem~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga ochrony przed kwasem~
+Descr Oprawiona w zielon± oprawkê ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1 268 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 2400
+Cond 75
+Itemdesc Jest to gruba i mocno ju¿ podniszczona ksiêga oprawiona w skórê. 
+~
+Comments ~
+Objend
+#Vnum 26969
+Name ró¿d¿ka arcymaga kunsztowna~
+Odmiana {Yró¿{Cd¿ki {Yarcy{Cmaga{x~{Yró¿{Cd¿ce {Yarcy{Cmaga{x~{Yró¿{Cd¿kê {Yarcy{Cmaga{x~{Yró¿{Cd¿k± {Yarcy{Cmaga{x~{Yró¿{Cd¿ce {Yarcy{Cmaga{x~
+Short {Yró¿{Cd¿ka {Yarcy{Cmaga{x~
+Descr Niewielka, kunsztownie wykonana platynowa ró¿d¿ka le¿y na ziemi.~
+Material platyna~
+Type wand
+ExtraExt 0|G
+Wear AO
+Wear2Ext 0|O/1|R
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 7 1 8 -2 3 -2 0
+Repair 0 0 0 0
+Length 0
+Weight 8
+Cost 180000
+Cond 100
+Itemdesc Jest to niewielka, kunsztownie wykonana z platyny ró¿d¿ka. Pokrywaj± j±
+¿ó³to-b³êkitne runy. 
+~
+Identdesc Ró¿d¿ka ta zwiêksza poziom zaklêæ o 1, ulatwia przebijanie naturalnej
+odporno¶ci na zaklêcia o 2 i skraca czas odzyskiwania koncentracji po
+rzuceniu czaru o 2. 
+~
+Comments Przywracam zeby byla tylko dla ogolnego maga. Jesli komus nie pasuje - niech da znac. A tak w ogole to czemu ktos ja zmienial i nie zostawil komentarza? Tak sie nie robi moi drodzy. - {RLaszlo{x ({CSun Jan 17 00:57:46 2010{x)
+~
+Objend
+#Vnum 26973
+Name le¿anka wygodna miêkka~
+Odmiana le¿anki~le¿ance~le¿ankê~le¿ank±~le¿ance~
+Short le¿anka~
+Descr Niewielka, ale wygodna le¿anka stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 0 1170 110 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2000
+Cost 0
+Cond 75
+Itemdesc Mo¿esz bez obaw odpocz±æ sobie na tej le¿ance, a przy okazji zapamiêtaæ
+zaklêcia i zregenerowaæ si³y.
+~
+Comments ~
+Objend
+#Vnum 26974
+Name materac spory~
+Odmiana materaca~materacowi~materac~materacem~materacu~
+Short materac~
+Descr W rogu pomieszczenia le¿y sporych rozmiarów materac.~
+Material skóra~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 0 1170 110 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2000
+Cost 0
+Cond 75
+Itemdesc Ten wygodny materac zapewnia maksymalny relaks i umo¿liwia pe³n±
+regeneracjê si³. 
+~
+Comments ~
+Objend
+#Vnum 26975
+Name kostur runiczny polakierowany drewniany~
+Odmiana runicznego kostura~runicznemu kosturowi~runiczny kostur~runicznym kosturem~runicznym kosturze~
+Short runiczny kostur~
+Descr Wykonany z jasnego drewna, piêknie polakierowany i pokryty runami kostur.~
+Material drewno~
+Type weapon
+ExtraExt 0|DG
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 9 2 7 7 32 2 2
+Repair 0 0 0 0
+Length 190
+Weight 8
+Cost 90000
+Cond 100
+Itemdesc ~
+Comments Zabieram onlymag. Powod - brak stafow dla wojowników. - {RLaszlo{x ({CSun Jun 28 16:06:03 2009{x)
+~
+Objend
+#Vnum 26977
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiêga zatytu³owana "Magyi poznania opisanie"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 15
+Cond 100
+Comments ~
+Objend
+#Vnum 26980
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiêga zatytu³owana "Potê¿ne Znaki"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26981
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiega pod tytu³em "Anatomia w praktyce"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26982
+Name fontanna krysztalowa~
+Odmiana {Wfontanny{x~{Wfontannie{x~{Wfontanne{x~{Wfontanna{x~{Wfontannie{x~
+Short {Wkrysztalowa fontanna{x~
+Descr {WPiêkna kryszta³owa fontanna stoi na ma³ym kamiennym pode¶cie.{x~
+Material kryszta³~
+Type fountain
+ExtraExt 0|G
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 600
+Cost 0
+Cond 100
+Itemdesc {WFontanna nie jest du¿a, ale za to niezwykle piêknie i gustownie
+wyrze¼biona na kszta³t przechylonego dzbana, z którego wylewa siê czysta,
+zimna i orze¼wiaj±ca woda. {x 
+~
+Comments ~
+Objend
+#Vnum 26983
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiêga zatytu³owana "S³udzy Spoza Przes³ony"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26984
+Name ksiêga ¶wiat³o magiczna~
+Odmiana ksiêgi~ksiêdze~ksiêge~ksiêg±~ksiêdze~
+Short Ksiêga z magicznym zaklêciem "¦wiat³o"~
+Descr Le¿y tutaj jaka¶ ma³a, zakurzona ksi±¿eczka.~
+Material papier~
+Type spellbook
+ExtraExt 0|GNd
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 24 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 480
+Cond 100
+Itemdesc Jest to ma³a, lekko zakurzona ksi±¿ka wygl±daj±ca na magiczn±. Na jej
+ok³adce namalowany jest obraz przedstawiaj±cy lewituj±c±, kulê ¶wiat³a. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 26985
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiega zatytu³owana "Inwokacje Bojowe"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26987
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiega pod tytu³em "Zaawansowane Zmiany Kszta³tów"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26989
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiêga pod tytu³em "Sfery, cieñ i ¶wiat³o"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26990
+Name ró¼dzka magicznych pocisków magicznego pocisku magiczna drewno~
+Odmiana ró¼dzki~ró¼dzce~ró¼dzke~ró¼dzk±~ró¼dzce~
+Short ró¼dzka magicznego pocisku~
+Descr Le¿y tutaj niewielki, zakurzony kawa³ek drewna.~
+Material drewno~
+Type trash
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 25
+Cond 100
+Itemdesc Niewielki, pod³ó¼ny, ³adnie odzobiony kawa³ek drewna, tak naprawde jest
+magiczn± ró¼dzk±. Po znakach pocisków po bokach wnioskujesz i¿ znajduje siê
+tam czar "magic missile" czyli po ludzku mówi±c, jest to ró¼dzka magicznego
+pocisku. Wieksi magowie czasami wykonuj± takie proste ró¼dzki na u¿ytek
+m³odych adeptów. 
+~
+Identdesc Co¶ tu nie gra, nie wyczuwasz w ró¼dzce ¿adnej magii... Po chwili dociera
+do ciebie bolesne odczucie ze juz wiesz co sie sta³o. Ta ró¼dzka jest
+wypalona! 
+~
+Comments ~
+Objend
+#Vnum 26991
+Name ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short ksiega zatytu³owana "Pierwsze prawo magii Keleborna"~
+Descr Ksiêga zawieraj±ca na swoich stronach opisy czarów.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 26992
+Name wisior z ametystem zloty znak~
+Odmiana wisora z {mametystem{x~wisiorowi z {mametystem{x~wisior z {mametystem{x~wisiorem z {mametystem{x~wisiorze z {mametystem{x~
+Short wisior z {mametystem{w~
+Descr Le¿y tutaj piêknie wykonany, z³oty wisior z {mametystem{x, znak przynale¼no¶ci do akademii magicznej w Arras.~
+Material z³oto~
+Type light
+ExtraExt 0|GNPU
+Wear AC
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 0 16 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 15
+Cost 1041
+Cond 100
+Itemdesc Ten piêkny, z³oty medalion ma zatopiony w ¶rodku jak±¶ tajemn± technik±
+fioletowy ametysty, pod wspania³ym klejnotem pisz± nastêpuj±ce s³owa "Dies
+hazz Magica". Ciekawe co mog± oznaczaæ. 
+~
+Identdesc Dotykaj±c z³otego medalionu naglê zdajesz sobie sprawê, i¿ s³owa "Dies
+hazz Magica", wyryte pod ametystem oznaczaj± w jêzyku magii "¦wiat³o Rozum
+Moc", czyli maxymy wspania³ej akademii w Arras. Oprocz tego z klejnotu
+emanuje delikatna magiczna energia. 
+~
+Comments ~
+Objend
+#Vnum 26993
+Name le¿anka wygodna miêkka~
+Odmiana le¿anki~le¿ance~le¿ankê~le¿ank±~le¿ance~
+Short le¿anka~
+Descr Wygodna, wy³o¿ona miêkkimi poduszkami le¿anka.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 0 1170 110 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2000
+Cost 0
+Cond 75
+Itemdesc Mo¿esz bez obaw odpocz±æ sobie na tej le¿ance, a przy okazji zapamiêtaæ
+zaklêcia i zregenerowaæ si³y. 
+~
+Comments ~
+Objend
+#Vnum 26994
+Name miternie zdobiona bransoletka srebrna~
+Odmiana misternie zdobionej bransoletki~misternie zdobionej bransoletce~misternie zdobiona bransoletke~misternie zdobiona bransoletka~misternie zdobionej bransoletce~
+Short misternie zdobiona bransoletka~
+Descr Le¿y tutaj na ziemi ³adnie uksztaltowany kawa³ek srebra, który przypomina wygl±dem bransoletke.~
+Material srebro~
+Type jewelry
+ExtraExt 0|GN
+Wear AM
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 7
+Cost 51000
+Cond 100
+Itemdesc Tylko wielki kunszt z³otniczy mog³ byc u¿yty do wykonania tak wspania³ego
+dzie³a sztuki! bransoletka ta wygl±da jak dwa wê¿e, w których oczach tkwi±
+ma³e, krwistoczerwone rubiny. Równocze¶nie sierowane s± do siebie i oplataj±
+siê nawzajem. Magia tej bransolety polega na tym, i¿ dopasowuje siê ona do
+kszta³tu rêki, i pasuje na wszystkich - czy to na elfi± panne, czy to na
+wielkiego rycerza czy nieokrzesanego krasnoluda. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 26997
+Name kryszta³owa kula~
+Odmiana kryszta³owej kuli~kryszta³owej kuli~kryszta³owa kula~kryszta³ow± kul±~kryszta³owej kuli~
+Short kryszta³owa kula~
+Descr Kryszta³owa kula b³yszczy wszystkimi kolorami têczy.~
+Material kryszta³~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 35
+Cost 500
+Cond 100
+Itemdesc Spogl±dasz na t±, b³yszcz±c± wszystkimi kolorami têczy kulê. Szklista
+powieszchnia faluje, gdy spogl±dasz w ni± i czujesz jakby czê¶æ twojego
+jestestwa zosta³a wci±gan± do wnêtrza kuli. Po chwili wszystko siê uspokaja,
+lecz powieszchnia kuli zaczyna falowac. Spogl±dasz g³êbiej i nagle, jak prze
+mg³e widzisz wielkiego, czarnego smoka spogl±daj±cego na ciebie krwisto
+czerwonymi oczami. Potem obraz siê rozmywa, lecz zaraz ukazuje siê kolejny,
+kobieta o zielonkawej skórze k±pi±ca siê w wodospadzie... Fio³kowe oczy
+przeszy³y cie w tym momencie i wizja siê rozmy³a. Kolejna nie jest juz tak
+emocjonuj±ca ani ciekawa jak pozosta³e, znajdujesz siê na polu bitwy.
+Dooko³a trupy... Niektóre zastraszaj±co podobne do twych znajomych i
+przyjació³, niektóre do twych wrogów, wiekszosc jednak ca³kowicie
+nieznanych. Cia³a kto¶ ustawi³ w kopce, zostawiaj±c ¿er drapierznym ptakom.
+Kruki w³asnie ucztuj± nad cia³em jakiej¶ m³odej wojowniczki. Nagle
+dostrzegasz co¶, co spowodowa³o i¿ na tw± twarz wst±pi³ perlisty pot..
+Cia³o.. Blizniaczo do ciebie podobne przeszyte potê¿n± w³óczni±. Wizja nagle
+siê urywa, a ty jeszcze przez chwile czujesz ciarki na plecach. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 26999
+Name kostur potêgi oksydowany granitowy emanuj±cy kielich wampira kielichwampira~
+Odmiana kostura '{DKielichu Wampira{X'~kosturowi '{DKielichowi Wampira{X'~kostur '{DKielich Wampira{X'~kosturem '{Dkielichem Wampira{X'~kosturze '{DKielichu Wampira{X'~
+Short kostur "{DKielich Wampira{X'~
+Descr Lewituje tutaj nad ziemi± kostur emanuj±cy moc±.~
+Material granit~
+Type weapon
+ExtraExt 0|DGT
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 3 5 8 36 3 3
+Repair 0 0 0 0
+Length 200
+Weight 100
+Cost 300000
+Cond 100
+Objprog prewear kiel_wam_pre 100~
+Objprog use kiel_wamp_spell off~
+Itemdesc Spogl±dasz na ten wspaniale zdobiony kostur, jest on wykonany z jednego
+bloku czarnego granitu z niewielkimi ¿y³kami onyksu. Oprócz tego zdobi± go
+magiczne runy i ca³y dr¿y w twych d³oniach od nagromadzonej w nim mocy,
+zaprawde piêkny kostur! 
+~
+Identdesc Sciszkaj±c mocniej kostur czujesz informacje która nap³ywaj± do twej
+g³owy w zastraszaj±cym têpie. Kostur ten wykona³ Keleborn Skrybus, Arcymag z
+Arras gdy po wyczerpuj±cej walce z jednym wampirem zdo³a³ usidliæ jego ducha
+i przenie¶æ do onyksowego kielicha z którego ów nieumar³y pi³ krew. Potem
+kielich pos³u¿y³ do wykonczenia granitowego kostura maga, a gdy ten o dziwo
+spostrzeg³ i¿ krew która osadza siê na jego magicznym kosturze wsi±ka i jest
+zmieniana w energie ¿yciow± a tak¿e raz na dzien mo¿e u¿yæ wysysaj±cego
+¿ycia dotkniêcia kosturem by³ zaprawde zdziwiony nad moc± nad któr±
+zapanowa³. Kostur raz dziennie dzia³a dok³adnie tak jak zaklêcie 'Vampiric
+Touch' a oprocz tego wysysa ¿ycie z wrogów i jest traktowany jako broñ
+magiczna +3. 
+~
+Comments Zmienilem proga z wear na pre, iluzjon nie za³o¿y. Z wampierem iluzjon bylby jeszcze bardziej przegiêty ni¿ jest obecnie. - {RKarlam{x ({CThu Jul  7 10:26:12 2011{x)
+~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 26972
+Name Na szczycie schodów~
+Descr Jeste¶ tu¿ przy pocz±tku korytarza, prowadz±cego w g³±b budynku szko³y.
+Prosta kamienna pod³oga stoi w jaskrawym kontra¶cie ze ¶cianami, na których
+zawieszono wspania³e, kolorowe gobeliny. Czyni± one to surowe miejsce nieco
+bardziej przytulnym, a poza tym wyszyte na nich obrazy to ca³kiem spora
+dawka historii szko³y i informacji o jej za³o¿ycielach, a tak¿e co
+znaczniejszych uczniach. Pod sklepieniem korytarza wisi w powietrzu kilka
+magicznych kul, jasno o¶wietlaj±cych to miejsce. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26973
+ExitExtEnd
+Exit 0
+~
+~
+0 0 26973
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 6035
+ExitExtEnd
+Exit 5
+~
+~
+131072 0 6035
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26973
+Name Korytarz~
+Descr Idziesz jasno o¶wietlonym za pomoc± magii korytarzem, mijaj±c po prawej i
+lewej stronie masywne drzwi z ciemnego drewna. Prowadz± one do pokojów
+mistrzów poszczególnych dyscyplin. Zale¿nie od Twojej specjalno¶ci musisz
+udaæ siê do odpowiedniego nauczyciela, a byæ mo¿e przeka¿e Ci on jak±¶ czê¶æ
+swojej wiedzy. W pod³odze widzisz zatopion± ma³± metalow± P£YTKÊ z
+wygrawerowanym napisem.
+~
+FlagsExt 0|H
+Sector 0
+Extra p³ytka~
+{D <-- Zauroczenia, Mistrz Hvel
+{D Mistrz Dohmar, Poznanie -->{x
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26974
+ExitExtEnd
+Exit 0
+~
+~
+0 0 26974
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26977
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26977
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26972
+ExitExtEnd
+Exit 2
+~
+~
+0 0 26972
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26979
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26979
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26974
+Name Szeroki korytarz~
+Descr Idziesz jasno o¶wietlonym za pomoc± magii korytarzem, mijaj±c po prawej i
+lewej stronie masywne drzwi z ciemnego drewna. Prowadz± one do pokojów
+mistrzów poszczególnych dyscyplin. Zale¿nie od Twojej specjalno¶ci musisz
+udaæ siê do odpowiedniego nauczyciela, a byæ mo¿e przeka¿e Ci on jak±¶ czê¶æ
+swojej wiedzy. W pod³odze widzisz zatopion± ma³± metalow± P£YTKÊ z
+wygrawerowanym napisem.
+~
+FlagsExt 0|H
+Sector 0
+Extra p³ytka~
+{D <-- Przywo³ania, Mistrz Camris
+{D Mistrzyni Mayleia, Nekromancja -->
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26975
+ExitExtEnd
+Exit 0
+~
+~
+0 0 26975
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26981
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26981
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26973
+ExitExtEnd
+Exit 2
+~
+~
+0 0 26973
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26983
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26983
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26975
+Name Surowy korytarz~
+Descr Idziesz jasno o¶wietlonym za pomoc± magii korytarzem, mijaj±c po prawej i
+lewej stronie masywne drzwi z ciemnego drewna. Prowadz± one do pokojów
+mistrzów poszczególnych dyscyplin. Zale¿nie od twojej specjalno¶ci musisz
+udaæ siê do odpowiedniego nauczyciela, a byæ mo¿e przeka¿e ci on jak±¶ czê¶æ
+swojej wiedzy. W pod³odze widzisz zatopion± ma³± metalow± P£YTKÊ z
+wygrawerowanym napisem. 
+~
+FlagsExt 0|H
+Sector 0
+Extra p³ytka~
+{D <-- Przemiany, Mistrz Ulmik
+{DMistrzyni Vanessa, Inkowacje -->
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26976
+ExitExtEnd
+Exit 0
+~
+~
+0 0 26976
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26985
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26985
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26974
+ExitExtEnd
+Exit 2
+~
+~
+0 0 26974
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26987
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26987
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26976
+Name Przy koñcu korytarza~
+Descr Idziesz jasno o¶wietlonym za pomoc± magii korytarzem, mijaj±c po prawej i
+lewej stronie masywne drzwi z ciemnego drewna. Prowadz± one do pokojów
+mistrzów poszczególnych dyscyplin. Zale¿nie od Twojej specjalno¶ci musisz
+udaæ siê do odpowiedniego nauczyciela, a byæ mo¿e przeka¿e Ci on jak±¶ czê¶æ
+swojej wiedzy. W pod³odze widzisz zatopion± ma³± metalow± P£YTKÊ z
+wygrawerowanym napisem.
+~
+FlagsExt 0|H
+Sector 0
+Extra p³ytka~
+{D<-- Odrzucanie, Mistrz Zavantsi
+{D Adept Saylak, Iluzje -->
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26993
+ExitExtEnd
+Exit 0
+~
+~
+0 0 26993
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26989
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26989
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26975
+ExitExtEnd
+Exit 2
+~
+~
+0 0 26975
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26991
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26991
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26977
+Name Poznanie~
+Descr Ten pokój urz±dzony jest w sposób co najmniej wygodny, je¶li nie
+luksusowy. Wype³niaj± go eleganckie, stylowe meble, du¿o miejsca zajmuj± te¿
+pó³ki i rega³y z ksi±¿kami. W¶ród nich dostrzegasz takie tytu³y jak
+"Artefakty Staro¿ytnych" czy te¿ s³ynne dzie³o "Przyczynki do magii
+odkrywaj±cej" autorstwa samego Dohmara. Kiedy obracasz siê do ty³u, nad
+wej¶ciem widzisz oprawiony w ramkê MANUSKRYPT. 
+~
+FlagsExt 0|H
+Sector 0
+Extra manuskrypt~
+{DObecny tutaj mistrz mo¿e uczyæ Ciê czarów. Aby sprawdziæ, jakie czary
+mo¿esz poznaæ wpisz '{x{Clearn{x{D' (lub '{x{Cnaucz{x{D', je¶li u¿ywasz
+polskich komend). Nastêpnie napisz '{x{Clearn <nazwa czaru>{x {D(albo
+'{x{Cnaucz <nazwa czaru>{x{D') aby siê go nauczyæ. Nie przejmuj siê, je¶li
+Ci siê nie uda - spróbuj znowu, gdy zdobêdziesz trochê do¶wiadczenia. Mo¿esz
+te¿ w takiej sytuacji próbowaæ u innego nauczyciela. {x 
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26973
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26973
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26978
+Name Hol~
+Descr Stoisz w obszernym holu akademii, po bokach przedstawione s± obrazy
+najwiekszych studentów i wyk³adowców którzy przewineli siê przez mury tej
+akademii. ¦wiat³o pada z niewielkich kryszta³ów umieszczonych w suficie.
+Wszysto jest urz±dzone z przepychem jakim nie u¶wiadczysz w innych
+budowalach tego typu. Na pod³odze le¿y puchowy dywan na którym jaki¶ zrêczny
+rzemie¶lnik przedstawi³ ró¼ne magiczne symbole. Na górê wiod± tutaj spiralne
+schody. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26993
+ExitExtEnd
+Exit 1
+~
+drzwi~
+3 0 26993
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26988
+ExitExtEnd
+Exit 4
+~
+~
+0 0 26988
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26979
+Name Zauroczenia~
+Descr Pomieszczenie to wype³nione jest po brzegi dziwnymi przedmiotami. Zdaj±
+siê one wabiæ ciê do siebie, masz ochotê podbiec i chwyciæ który¶ z nich
+szybko... Ale zaraz... To przecie¿ tylko magia! Tylko albo a¿, bowiem mistrz
+Serten nale¿y do najbieglejszych w trudnej sztuce rzucania uroków i
+wp³ywania na my¶li i czyny innych. Na jednej ze ¶cian wisi spora gablota, a
+obok niej du¿y, wyra¼nie napisany MANUSKRYPT. 
+~
+FlagsExt 0|H
+Sector 0
+Extra manuskrypt~
+{DObecny tutaj mistrz mo¿e uczyæ Ciê czarów. Aby sprawdziæ, jakie czary
+mo¿esz poznaæ wpisz '{x{Clearn{x{D' (lub '{x{Cnaucz{x{D', je¶li u¿ywasz
+polskich komend). Nastêpnie napisz '{x{Clearn <nazwa czaru>{x {D(albo
+'{x{Cnaucz <nazwa czaru>{x{D') aby siê go nauczyæ. Nie przejmuj siê, je¶li
+Ci siê nie uda - spróbuj znowu, gdy zdobêdziesz trochê do¶wiadczenia. Mo¿esz
+te¿ w takiej sytuacji próbowaæ u innego nauczyciela. {x 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26973
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26973
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26980
+Name Hol~
+Descr Stoisz w obszernym holu akademii, po bokach przedstawione s± obrazy
+najwiekszych studentów i wyk³adowców którzy przewineli siê przez mury tej
+akademii. ¦wiat³o pada z niewielkich kryszta³ów umieszczonych w suficie.
+Wszysto jest urz±dzone z przepychem jakim nie u¶wiadczysz w innych
+budowalach tego typu. Na pod³odze le¿y puchowy dywan na którym jaki¶ zrêczny
+rzemie¶lnik przedstawi³ ró¼ne magiczne symbole. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26984
+ExitExtEnd
+Exit 1
+~
+drzwi~
+3 0 26984
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26993
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 26993
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26981
+Name Nekromancja~
+Descr Od razu widzisz ze to pokój mistrza najmroczniejszej dyscypliny,
+nekromancji, zwanej tez Mroczn± Sztuk±. Wszêdzie le¿± dzie³a po¶wiêcone
+anatomii, balsamowaniu cia³ i magii ¶mierci. Jest tu te¿ du¿y zbiór
+woluminów traktuj±cych o magii wojennej i niszcz±cej. Na du¿ym ciemnym
+stole le¿y lekko pognieciony pisany na pergaminie MANUSKRYPT. 
+~
+FlagsExt 0|H
+Sector 0
+Extra manuskrypt~
+{DObecny tutaj mistrz mo¿e uczyæ Ciê czarów. Aby sprawdziæ, jakie czary
+mo¿esz poznaæ wpisz '{x{Clearn{x{D' (lub '{x{Cnaucz{x{D', je¶li u¿ywasz
+polskich komend). Nastêpnie napisz '{x{Clearn <nazwa czaru>{x {D(albo
+'{x{Cnaucz <nazwa czaru>{x{D') aby siê go nauczyæ. Nie przejmuj siê, je¶li
+Ci siê nie uda - spróbuj znowu, gdy zdobêdziesz trochê do¶wiadczenia. Mo¿esz
+te¿ w takiej sytuacji próbowaæ u innego nauczyciela. {x 
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26974
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26974
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26982
+Name Hol~
+Descr Stoisz w obszernym holu akademii, po bokach przedstawione s± obrazy
+najwiekszych studentów i wyk³adowców którzy przewineli siê przez mury tej
+akademii. ¦wiat³o pada z niewielkich kryszta³ów umieszczonych w suficie.
+Wszysto jest urz±dzone z przepychem jakim nie u¶wiadczysz w innych
+budowalach tego typu. Na pod³odze le¿y puchowy dywan na którym jaki¶ zrêczny
+rzemie¶lnik przedstawi³ ró¼ne magiczne symbole. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26986
+ExitExtEnd
+Exit 0
+~
+drzwi~
+3 0 26986
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26993
+ExitExtEnd
+Exit 2
+~
+drzwi~
+3 0 26993
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26983
+Name Przywo³ania~
+Descr W tym pomieszczeniu, choæ jest ono ca³kiem du¿e, stale brakuje miejsca.
+Prawie nie ma gdzie postawiæ nogi, bo wszêdzie le¿± jakie¶ dziwne
+przedmioty, niektóre z nich s± tak fantazyjne i niecodzienne, ¿e z pewno¶ci±
+nie pochodz± z naszego ¶wiata. Prawdopodobnie zosta³y sprowadzone z
+odleg³ych krain i czasów przez Camrisa, podobnie jak kul±cy siê w rogu pokoju
+ma³y demon. Nagle Twój wzrok pada na przypiêty szpilkami do ¶ciany
+MANUSKRYPT. 
+~
+FlagsExt 0|H
+Sector 0
+Extra manuskrypt~
+{DObecny tutaj mistrz mo¿e uczyæ Ciê czarów. Aby sprawdziæ, jakie czary
+mo¿esz poznaæ wpisz '{x{Clearn{x{D' (lub '{x{Cnaucz{x{D', je¶li u¿ywasz
+polskich komend). Nastêpnie napisz '{x{Clearn <nazwa czaru>{x {D(albo
+'{x{Cnaucz <nazwa czaru>{x{D') aby siê go nauczyæ. Nie przejmuj siê, je¶li
+Ci siê nie uda - spróbuj znowu, gdy zdobêdziesz trochê do¶wiadczenia. Mo¿esz
+te¿ w takiej sytuacji próbowaæ u innego nauczyciela. {x 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26974
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26974
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26984
+Name {sNiewielki sklepik "{yKsiêga i Ró¼dzka{c"{s~
+Descr Stoisz w niewielkim magicznym sklepiku prowadzonym przez starego, prawie
+ju¿ g³uchego, maga Mirvela Mi³ego. Sprzedaje on ró¼ne magiczne akcesoria,
+szaty, k¶iêgi z prostymi zaklêciami i tym podobne towary. Ponoæ czasem trafi
+mu siê w sklepie co¶ ekstra. Sam sklep wygl±da monotonnie, jest to pó³okr±g³e
+pomieszczenie rozdzielone lad± na pó³, pod ¶cianami stoj± wysokie szafy
+zwieraj±ce wiele magicznych cudów. 
+~
+FlagsExt 0|CDH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26980
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 26980
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26985
+Name Inwokacje~
+Descr Kilka poszarpanych manekinow wypelniajacych pomieszczenie,
+utwierdza cie w przekonaniu, iz pomyliles pokoje, szukales magii
+przeciez - A tu co? Manekiny? I gdzie sa miecze, topory, halabardy?
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26975
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26975
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26986
+Name {yGabinet arcyrektora uczelni{s~
+Descr Stoisz w do¶æ du¿ym, ³adnie urz±dzonym gabinecie. Nie ma tutaj du¿ej
+ilo¶ci sprzêtów i sam gabinet nie nale¿y do najwiêkszych jakie widzia³e¶
+jednak co¶ nadaje temu pomieszczeniu ogólnie mroczny wygl±d. Mo¿e jest to
+ma³e okienko przez które przelatuje ma³o ¶wiat³a, a mo¿e czaszka na biurku z
+której kto¶ o makabrycznym poczuciu humoru zrobi³ sobie ¶wiecznik. Na
+¶cianie naprzeciw wejscia wisi dyplom. 
+~
+FlagsExt 0|CH
+Sector 0
+Extra dyplom~
+Kelebornowi Skrybusowi, uczniowi szko³y przemian, mamy zaszczyt wrêczyæ
+ten dyplom za skonczenie nauki z celuj±cymi wynikami w nauce, tak przemian jak
+i innych szkó³. Kelebornie, mamy nadzieje i¿ nas nie zawiedziesz i godnie
+bedziesz reprezentowa³ nasz± uczelniê, niech ten dyplom ci o tym
+przypomina. 
+ 
+Podpisano:
+Mistrzowie-Nauczyciele Arrasanskiej szko³y magii i Arcyrektor Famirus
+~
+Extra dyplom~
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26982
+ExitExtEnd
+Exit 2
+~
+drzwi~
+3 0 26982
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26987
+Name Przemiany~
+Descr Drewniane szafy, ciosany z debowego drewna stol oraz 
+swiece stojace praktycznie wszedzie raczej nie naleza do
+elitarnych, magicznych przedmiotow. Czy na pewno dobrze trafiles?
+~
+FlagsExt 0|D
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26975
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26975
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26988
+Name Pierwsze piêtro wie¿y~
+Descr Krêcone schodzy wre¶cie, po wielu przebytych stopniach dochodz± do
+pierwszego piêtra wie¿y. Widaæ nikt tutaj od dawna nie sprz±ta³ gdy¿
+staro¿ytne pajêczyny wisz± po k±tach a tu i tam przebiegnie troche
+przero¶niêty paj±czek. Le¿y tutaj mnóstwo skrzyni, jednak w wiêkszo¶ci
+zawieraj±cych bezurzyteczne rupiecie, gnomie wynalazki i inne nieprzydatne
+przedmioty. Jedyne ¶wiat³o wpada tutaj przez niewielkie okiennice
+umieszczone po piêciu stronach wie¿y. Widac przez nie wspania³e Arras, a
+raczej dachy tego wspania³ego miasta gdy¿ na tym poziomie wie¿a nie jest
+zbyt wysoka. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26990
+ExitExtEnd
+Exit 4
+~
+~
+0 0 26990
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26978
+ExitExtEnd
+Exit 5
+~
+~
+0 0 26978
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26989
+Name Iluzje~
+Descr Znajdujesz sie na polnej dró¿ce, na pó³nocy mo¿esz zobaczyc las... Co!?
+Po chwili iluzja rozmywa sie i...
+Stoisz po srodku Zlotego Placu... Kolejna iluzja pryska, i kolejna, po paru
+sekundach stwierdzasz, iz le¿ysz po¶rodku ma³ego ciemnego pokoiku,
+widzisz puste ¶ciany.
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26976
+ExitExtEnd
+Exit 3
+~
+~
+0 0 26976
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26990
+Name Pracownia alchemika~
+Descr Po kolejnych wielu przebytych stopniach, docierasz w koncu do nastepnego
+kawa³ka tej wie¿y, wygl±daj±cego w miare normalnie na pierwszy rzut oka. I
+tylko na pierwszy rzut oka. Wszêdzie woko³o stoj± sto³y zagracone proszkami,
+czê¶ciami podejrzanych zwierz±t b±dz bulgocz±cymi fiolkami. Tak, to jest
+pracownia alchemika. Miedzy tym wszystkim porusza siê ca³kiem sprawnie
+alchemik - stary gnom. Schody prowadz± wy¿ej. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26992
+ExitExtEnd
+Exit 4
+~
+~
+0 0 26992
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26988
+ExitExtEnd
+Exit 5
+~
+~
+0 0 26988
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26991
+Name Odrzucanie~
+Descr Przygasajaca swieczka stojaca na stole posrodku pokoju nie pozwala
+ci obejrzec jedynie jego blat. Pobliskie zrodlo wiatru daje o sobie znac
+przyprawiajac cie o dreszcze.
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26976
+ExitExtEnd
+Exit 1
+~
+~
+0 0 26976
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26992
+Name Szczyt wie¿y~
+Descr Tak, stoisz na szczycie wie¿y. W koncu, po wielu, wielu przebytych
+stopniach wyszed³e¶ tutaj. Do ¶rodka ¶wie¿e powietrze i ¶wiat³o wpada przez 5
+umieszczonych po ka¿dej ze stron wie¿y okien. Jako i¿ wie¿a jest okr±g³a
+to trudno tu mówic 'po ka¿dej ze stron', jednak dziwnym trafem wszystkie
+okna s± umieszczone dok³adnie przy rogach tego wielkiego, czerwonego
+pentagramu. Pentagramu ? Tak, to jest komnata przywo³añ, tutaj
+najpotê¿niejsi magowie przywo³añ wzywaj± na ten ¶wiat demony i inne ponad
+naturalne stwory by czyni³y ich wolê. Przechodz± ciê ciarki. 
+~
+FlagsExt 0|C/1|A
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26990
+ExitExtEnd
+Exit 5
+~
+~
+0 0 26990
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 26993
+Name ¬ród³o mocy~
+Descr Kiedy wchodzisz do tego pomieszczania od razu to wyczuwasz... w koñcu
+magia to twoje przeznaczenie. Czysta moc zdaje siê emanowaæ spod posadzki
+tej komnaty. Dla dodatkowego wzmocnienia efektu pod³ogê pokrywaj±
+skomplikowane runy, rysunki i symbole. Nie wszystkie z nich s± w tej chwili
+dla ciebie jasne, ale z pewno¶ci± kiedy¶ zrozumiesz ich sens. Stoi tutaj
+kilka prostych, ale wygodnych le¿anek, mo¿esz wybraæ któr±¶, by oddaæ siê na
+chwilê w ca³o¶ci tylko magii.
+~
+FlagsExt 0|FH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26982
+ExitExtEnd
+Exit 0
+~
+drzwi~
+3 0 26982
+ExitExt 1
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26980
+ExitExtEnd
+Exit 1
+~
+drzwi~
+3 0 26980
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 26976
+ExitExtEnd
+Exit 2
+~
+~
+0 0 26976
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 26978
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 26978
+Heal 110
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+26974 33 11 8 37 3 120 80 7 20 * 26984
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 26982 0 26974
+M 100 26977 1 26977 1
+E 100 26977 0 17
+M 100 26979 1 26979 1
+E 100 26980 0 17
+M 100 26981 1 26981 1
+E 100 26981 0 17
+O 100 2362 0 26981
+M 100 26983 1 26983 1
+E 100 26983 0 17
+M 100 26973 1 26983 1
+M 100 26974 1 26984 1
+E 100 4416 0 8
+E 100 4361 0 5
+G 100 26984 0
+G 5 4361 0
+G 50 26992 0
+G 80 26994 0
+G 25 27414 0
+G 40 3371 0
+G 5 26997 0
+G 80 26990 0
+G 100 3382 0
+G 35 3110 0
+G 100 3109 0
+G 100 3260 0
+G 100 26968 0
+G 100 2318 0
+M 100 26985 1 26985 1
+E 100 26985 0 17
+M 20 26992 1 26986 1
+E 100 4416 0 8
+E 100 4361 0 5
+E 100 26975 0 16
+M 100 26987 1 26987 1
+E 100 26987 0 17
+M 100 26989 1 26989 1
+E 100 26989 0 17
+M 100 26993 1 26990 1
+M 100 26991 1 26991 1
+E 100 26991 0 17
+M 100 26998 1 26992 1
+E 100 3001 0 8
+E 100 4379 0 5
+O 100 26993 0 26993
+O 100 26974 0 26993
+O 100 26973 0 26993
+S
+
+
+
+#MOBPROGSNEW
+#26972
+~
+if magspec $n 4
+break
+else
+tell $n Nie s±dzê, ¿ebym móg³ ci pomóc. Jeste¶ przecie¿ adept<&em/k±/em> innej szko³y magii.
+tell $n Poszukaj mistrza swojej specjalno¶ci, lub ogólnego nauczyciela magii.
+endif
+~
+#26973
+~
+if rand 90
+  say Nie ma ci sklepu z lepszymi cenami ni¿ mój, najlepszy sklep w ca³ej Tamerii, Hej!
+else
+  if rand 90
+    say Tanie ró¿d¿ki i kostury! Tanie kostury i ró¿d¿ki! Ale, ale! Nie sprzedajemy na kredyt!
+  else
+    if rand 90
+      say Najlepszy alchemik z ca³ego z³otego miasta Arras, Furri Ghamrizvaostolikon, gnom z podziemnych jaskiñ Naugrimów pracuje dla mnie! Tak, tak, tutaj mo¿esz znale¼æ wspania³e eliksiry!
+    else
+      if rand 90
+        say Siedzenie w sklepie jest nudne, eh i pomysleæ, ¿e kiedy¶ by³em pogromc± smoków...
+      else
+        if rand 90
+          say Nizio³ek! Tutaj? Niedoczekanie jego, nie pozwolê mu nic ukra¶æ!
+        else
+          if rand 90
+            say Klientów, którzy nic nie kupuj±, a tylko przegl±daj±, zmieniamy po promocyjnych cenach w ró¿ne o¶lizg³e i nieciekawe stworzenia!
+          else
+            if rand 90 
+              mob echo Mirvel zaczyna spiewac:
+              mob echo {gMirvel pod¶piewuje{G 'Laska maga ma na koñcu ga³kêeee!'{x
+              minidelay 1
+              mob echo Mirvel zamy¶la siê, jakby nie mog±c znale¼æ odpowiednich s³ów.
+              minidelay 2
+              mob echo {gMirvel g³o¶no ¶piewa '{GI tylko je¿a przeleeeeecieæ siê nie daaaaaa!...'{x
+              if rand 90
+                say Nasz klient, nasz Pan, pod warunkiem ze kupuje drogo i hurtowo!
+              else
+                if rand 90
+                  mob echo Na twarzy starego maga nagle pokazuje siê grymas przera¿enia, zaczyna on gor±czkowo przeszukiwaæ fa³dy swej obszernej szaty machaj±c ¶miesznie rêkami i mamrocz±c co¶ pod nosem.
+                  delay 1
+                  mob echo Nagle z wyrazem ukojenia na twarzy stary mag wyci±ga z jednej kieszonki niewielk± piersiówkê, odkrêca j± i do twojego nosa dolatuje zapach mocnego, zapewne alkocholowego trunku - po czym poci±ga potê¼nego ³yka i chowa szybko butelkê w jednej z przepastnych kieszeni swej szaty.
+                endif
+              endif
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+ 
+### Kilka poprawek, g³ównie literówki. (by Wicia)
+~
+#26979
+~
+mob equip self 4361
+mob equip self 4416
+~
+#keleb_onload
+~
+if rand 97
+  if canloadarte 26999
+    mob oload 26999 w
+  endif
+endif
+mob oload gem 7
+mob oload gem 5
+mob oload gem 5
+mob oload gem 6
+mob oload gem 7
+mob oload gem 6
+mob oload gem 3
+mob oload random 5
+mob olaod radnom 4
+mob olaod radnom 4
+mob olaod radnom 5
+mob olaod radnom 5
+mob olaod radnom 7
+mob olaod radnom 7
+mob oload random 4
+
+if rand 50
+  mob oload 26969 w
+endif
+
+if rand 90
+  mob oload 205
+endif
+if rand 50
+mob oload 26965
+endif
+~
+#keleborn1
+~
+if rand 80
+  say Marni smiertelnicy, jak smiecie wystepowac przeciw potedze magii!
+  if rand 80
+    say Zostanie z was tylko marna plama!
+    if rand 80
+      say Niech ziemia zadrzy pod mym gniewem!
+      if rand 80
+        say Nie wiecie szalency na co sie porywacie!
+        if rand 80
+          say Glupcy!
+          if rand 80
+            say Zginiecie jak wielu przed wami, nie jestescie pierwsi!
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#keleborn2
+~
+mob echo Keleborn nagle odlatuje do ty³, chwiej±c siê na nogach pada na kolana i wypowiada staro¿ytne s³owa w nieznanym jêzyku. Magiczna implozja wype³nia pomieszczenie w chwili gdy cia³o Arcyrektóra dotyka ziemi.
+mob damage all 100 250 magic
+~
+#keleborn3
+~
+memo 'lightning breath'
+memo 'fire breath'
+memo 'frost breath'
+memo 'acid breath'
+memo 'gas breath'
+memo 'gas breath'
+memo 'energy drain'
+memo 'energy drain'
+memo 'energy drain'
+memo 'thunder bolt'
+memo 'thunder bolt'
+memo 'thunder bolt'
+memo 'stone skin'
+memo 'stone skin'
+memo 'stone skin'
+memo 'fireshield'
+memo 'fireshield'
+memo 'force bolt'
+memo 'mirror image'
+memo 'mirror image'
+memo 'mirror image'
+~
+#keleborn4
+~
+if hasflag $i robil_mobiki
+break
+else
+mob echo Arcyrektor wymawia slowa 'Axtara undustre me cali'mar'!
+mob echo Obok Keleborna otwiera siê magiczny portal!
+mob addgroup 26997
+mob echo Z portalu wychodzi niewielki demon!
+mob addgroup 26997
+mob echo Z portalu wychodzi niewielki demon!
+if rand 50
+  mob addgroup 26997
+  mob echo Z portalu wychodzi niewielki demon!
+endif
+if rand 50
+  mob addgroup 26994
+  mob echo Z portalu wychodzi z³owieszcza wywerna!
+endif
+if rand 50
+  mob addgroup 26995
+  mob echo Z portalu wychodzi ognisty ogar!
+endif
+if rand 50
+  mob addgroup 26996
+  mob echo Z portalu wychodzi ¿ywio³ak lodu!
+endif
+mob addgroup 26997
+mob echo Z portalu wychodzi niewielki demon!
+minidelay 1
+mob echo Magiczny portal zamyka siê!
+mob setflag $i robil_mobiki 24
+endif
+~
+#wywerna1
+~
+mob cast plague $n 15
+~
+#0
+
+#OBJPROGSNEW
+#kiel_wam_wield
+~
+if class $n mag
+  mob echoat $n Dobywasz kostura '{DKielich Wampira{X' w swe d³onie, czujesz jak ca³y pulsuje w twoich d³oniach.
+  mob echoaround $n $n dobywa kostura '{DKielichu Wampira{x' w swe d³onie, po czym nagle kostur zaczyna delikatnie ¶wieciæ.
+else
+  mob echoat $n Próbujesz dobyæ kostura '{DKielich Wampira{x' jednak wraz z dotykiem czujesz jak si³y witalne od ciebie odp³ywaj±.
+  mob echoaround $n $n próbuje dobyæ kostura '{DKielich Wampira{x' jednak gdy chwyta go w swe d³onie nagle opada na kolana i upuszcza kostur.
+  mob damageex $n 9 30 50 smierc
+  mob force $n remove kostur
+  mob force $n drop kostur
+endif
+~
+#kiel_wamp_spell
+~
+if hasflag $o kielich_wamp
+mob echoat $n Nic siê nie sta³o.
+break
+else
+char cast "vampiric touch" $n 25
+mob echoat $t Uderza ciê wi±zka negatywnej energii z kostura!
+mob echoat $n Wystawiasz kostur w kierunku wroga po czym szeptasz s³owa aktywacji, gdy konczysz z kostura wylatuje wi±zka zgni³ozielonej energii i trafia w cel!
+obj setflag kielich_wamp 24
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

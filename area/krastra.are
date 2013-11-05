@@ -1,0 +1,1797 @@
+#AREADATA
+Name +#$ Krasnoludzki Trakt~
+Builders None~
+VNUMs 600 630
+Credits all~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 600
+Name drogowskaz~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yCzteroramienny {Rdrogowskaz{y pokazuje kierunki wêdrowcom.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 0
+Extradesc drogowskaz~
+WSCHÓD: Z³ote miasto Arras
+ZACHÓD: Trakt do Krasnoludzkiej Fortecy
+PÓ£NOC: Las
+~
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 601
+Name kamien blyszczacy klucz~
+Odmiana Kamienia~Kamieniowi~Kamien~Kamieniem~Kamieniu~
+Short blyszczacy kamien~
+Descr Jasno blyszczacy kamien przykuwa Twoj wzrok~
+Material kamieñ~
+Type key
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 602
+Name glaz kamieñ wielki brukowiec~
+Odmiana glazu~glazowi~glaz~glazem~glazie~
+Short wielki brukowiec~
+Descr Wielki brukowy kamien lezy na powierzchni drogi.~
+Material kamieñ~
+Type furniture
+ExtraExt 0|Y
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 -1 144 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 177
+Cost 0
+Cond 20
+Itemdesc Do¶æ du¿y kamieñ, na którym obesch³o b³oto tworz±c brudn± otoczkê. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 604
+Name he³m rogami przy³bic±~
+Odmiana {Dczarnego{x he³mu z rogami i przy³bic±~{Dczarnemu{x he³mowi z rogami i przy³bic±~{Dczarny{x he³m z rogami i przy³bic±~{Dczarnym{x he³mem z rogami i przy³bic±~{Dczarnym{x he³mie z rogami i przy³bic±~
+Short {Dczarny{x he³m z rogami i przy³bic±~
+Descr Piêkny, czarny he³m z rogami i przy³bic± le¿y tutaj.~
+Material adamantyt~
+Type armor
+ExtraExt 0|G
+Wear AE
+Wear2Ext 0|EI
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Length 0
+Weight 90
+Cost 15000
+Cond 100
+Objprog input przylbica_open otwórz przy³bicê~
+Objprog input przylbica_close zamknij przy³bicê~
+Objprog input przylbica_close close visor~
+Objprog input przylbica_open open visor~
+Objprog preremove przylbica_remov 100~
+Objprog prewear przylbica_wear 100~
+Itemdesc Znajduj±cy siê w twoim posiadaniu czarny he³m z rogami i przy³bic±
+wykonano z najlepszej jako¶ci stali o minimalnej zawarto¶ci wêgla. Po
+zdobionym znaku na wewnêtrznej stronie tego przedmiotu mo¿na poznaæ, i¿
+wykonano go w jednej z najlepszych ku¼ni krasnoludzkich na ca³ej Tamerze. Do
+jego wykonania specjalnie u¿yto stali gdy¿ jest jednym z najtañszych
+materia³ów do produkcji pancerzy, a odpowiednio spreparowana jest twarda i
+wytrzyma³a niczym adamantyt. G³ówn± warstwê metalu podbito od spodu miêkk±,
+ale mocno ubit± skór± jakiego¶ zwierzêcia, nastêpnie wpleciono weñ kolczugê
+o w miarê szerokich kó³kach i wszelkie braki uzupe³niono poch³aniaj±cym
+uderzenia w³osiem yeti. Na samym koñcu wy³o¿ono wnêtrze he³mu pikowan±
+zbroj±. Tak z³o¿ony w ca³o¶æ he³m uzupe³niono dla ozdoby rogami na pozór
+przypominaj±cymi krowie. Dodatkowo wyposa¿ono go w przy³bicê, któr± mo¿esz
+zamkn±æ lub otworzyæ. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 600
+Name Poczatek Krasnoludzkiego Traktu~
+Descr Porzadnie ubity trakt, gdzieniegdzie walaja sie jakies galezie, chyba
+czesto przewozi sie tedy drewno na budowe. Z boku dostrzegasz jakas
+opuszczona chate, ktos musial tam mieszkac dobre kilkadziesiat lat temu.
+Wszystkie szyby sa powybijane a dach lekko sie zapada pod wlasnym ciezarem.
+W koncu pewnie runie i przygniecie soba wszytko co znajduje sie w chalupie. 
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15666
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15666
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 601
+ExitExtEnd
+Exit 1
+~
+~
+0 0 601
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52428
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52428
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 606
+ExitExtEnd
+Exit 3
+~
+~
+0 0 606
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 601
+Name Na Krasnoludzkim Trakcie~
+Descr Po obydwu stronach znajduje sie jakis lasek iglasty, chyba jakies swierki
+z tego co stad z kilkudziesieciu metrow widac. Przed laskiem sa jakies laki.
+Brak pol uprawnych czy innych takich rzeczy. W odleglosci kilku metrow z
+galezi wisi sznur ginacy gdzies dalej w trawie. Jakies wnyki? Ciekawe czy
+klusownictwo nie jest tutaj zabronione.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15671
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15671
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 602
+ExitExtEnd
+Exit 1
+~
+~
+0 0 602
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52431
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52431
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 600
+ExitExtEnd
+Exit 3
+~
+~
+0 0 600
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 602
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore. Trzeba
+tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej jezdzie i
+slabszym zawieszeniu wozu mozna pewnie kolo urwac. No a potem to juz tylko
+szukaj sobie rymarza w tej gluszy. Chyba, ze sie na tym znasz. Na rymarce
+oczywiscie, szukac jak wiadomo bowiem kazdy potrafi. Jedni lepiej, drudzy
+troche gorzej, ale . . . 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15676
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15676
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 607
+ExitExtEnd
+Exit 1
+~
+~
+0 0 607
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52434
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52434
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 601
+ExitExtEnd
+Exit 3
+~
+~
+0 0 601
+Roomprog entry 600 30~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 603
+Name Wyboisty odcinek Krasnoludzkiego traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore. Trzeba
+tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej jezdzie i
+slabszym zawieszeniu wozu mozna pewnie kolo urwac. No a potem to juz tylko
+szukaj sobie ko³odzieja w tej gluszy. Chyba, ze sie na tym znasz. Na
+naprawie kó³ oczywiscie, szukac jak wiadomo bowiem kazdy potrafi. Jedni
+lepiej, drudzy troche gorzej... 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 604
+ExitExtEnd
+Exit 1
+~
+~
+0 0 604
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52453
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52453
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 630
+ExitExtEnd
+Exit 3
+~
+~
+0 0 630
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 604
+Name Wyboisty odcinek Krasnoludzkiego traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore. Trzeba
+tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej jezdzie i
+slabszym zawieszeniu wozu mozna pewnie kolo urwac. No a potem to juz tylko
+szukaj sobie ko³odzieja w tej gluszy. Chyba, ze sie na tym znasz. Na
+naprawie kó³ oczywiscie, szukac jak wiadomo bowiem kazdy potrafi. Jedni
+lepiej, drudzy troche gorzej... 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 615
+ExitExtEnd
+Exit 1
+~
+~
+0 0 615
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52454
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52454
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 603
+ExitExtEnd
+Exit 3
+~
+~
+0 0 603
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 605
+Name Droga do twierdzy~
+Descr Droga lekko sie tu unosi i prowadzi chyba do jakiegos zamku, warowni czy
+innego czego¶. Trudno w tej chwili powiedzieæ co to jest, widaæ tylko, ¿e
+budowla solidna i trochê starawa. Przed twierdz± byæ mo¿e jest jaka¶ fosa,
+ale trudno ocenic to z tej odleg³o¶ci, mo¿e ci sie tylko tak wydawac. Z boku
+drogi stoi jakis wóz z urwanym jednym ko³em i pêkniêt± osi±. Chyba ju¿ nikt
+po ten wóz nie wróci. Jest ju¿ lekko podgni³y i w±tpliwe zeby kto¶ sie
+jeszcze jego losem interesowa³ mo¿e poza jakim¶ robactwem.
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 161
+ExitExtEnd
+Exit 0
+~
+~
+0 0 161
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 850
+ExitExtEnd
+Exit 2
+~
+~
+0 0 850
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 606
+Name Wyboisty odcinek krasnoludzkiego traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore. Trzeba
+tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej jezdzie
+mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja szlachetna
+nazwe. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15661
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15661
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 600
+ExitExtEnd
+Exit 1
+~
+~
+0 0 600
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52425
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52425
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5600
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5600
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 607
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15681
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15681
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 608
+ExitExtEnd
+Exit 1
+~
+~
+0 0 608
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52437
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52437
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 602
+ExitExtEnd
+Exit 3
+~
+~
+0 0 602
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 608
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15686
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15686
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 609
+ExitExtEnd
+Exit 1
+~
+~
+0 0 609
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52440
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52440
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 607
+ExitExtEnd
+Exit 3
+~
+~
+0 0 607
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 609
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15691
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15691
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 610
+ExitExtEnd
+Exit 1
+~
+~
+0 0 610
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 200
+ExitExtEnd
+Exit 2
+~
+~
+0 0 200
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 608
+ExitExtEnd
+Exit 3
+~
+~
+0 0 608
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 610
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15696
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15696
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 611
+ExitExtEnd
+Exit 2
+~
+~
+0 0 611
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 609
+ExitExtEnd
+Exit 3
+~
+~
+0 0 609
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 611
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 610
+ExitExtEnd
+Exit 0
+~
+~
+0 0 610
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 612
+ExitExtEnd
+Exit 1
+~
+~
+0 0 612
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52445
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52445
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 612
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 613
+ExitExtEnd
+Exit 1
+~
+~
+0 0 613
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52447
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52447
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 611
+ExitExtEnd
+Exit 3
+~
+~
+0 0 611
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 613
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 614
+ExitExtEnd
+Exit 2
+~
+~
+0 0 614
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 612
+ExitExtEnd
+Exit 3
+~
+~
+0 0 612
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 614
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 613
+ExitExtEnd
+Exit 0
+~
+~
+0 0 613
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 616
+ExitExtEnd
+Exit 2
+~
+~
+0 0 616
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52447
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52447
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 615
+Name Na ¶rodku Krasnoludzkiego Traktu~
+Descr Znajdujesz siê do¶æ niedaleko Krasnoludzkiej Fortecy, która znajduje siê
+na zachodzie, prosta, twarda i wygodna droga prowadzi prosto do bramy lub
+prosto od niej, w zale¿no¶ci od tego w któr± stronê raczysz siê wybraæ. Od
+pó³nocy widzisz pochylaj±ce siê ga³êzie le¶nych gigantów, choæ tutaj na
+pó³nocy nie s± one a¿ tak majestatyczne ni¿ ich rosn±cy bardziej na po³udniu
+bracia. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2174
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2174
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 45941
+ExitExtEnd
+Exit 2
+~
+~
+0 0 45941
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 604
+ExitExtEnd
+Exit 3
+~
+~
+0 0 604
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 616
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 614
+ExitExtEnd
+Exit 0
+~
+~
+0 0 614
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 617
+ExitExtEnd
+Exit 1
+~
+~
+0 0 617
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52092
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52092
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52448
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52448
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 617
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 618
+ExitExtEnd
+Exit 1
+~
+~
+0 0 618
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52093
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52093
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 616
+ExitExtEnd
+Exit 3
+~
+~
+0 0 616
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 618
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 619
+ExitExtEnd
+Exit 1
+~
+~
+0 0 619
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52094
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52094
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 617
+ExitExtEnd
+Exit 3
+~
+~
+0 0 617
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 619
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 620
+ExitExtEnd
+Exit 1
+~
+~
+0 0 620
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52095
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52095
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 618
+ExitExtEnd
+Exit 3
+~
+~
+0 0 618
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 620
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore. Trzeba
+tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej jezdzie
+mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja szlachetna
+nazwe. W gestych krzakach na pó³nocy niknie jakas droga. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 621
+ExitExtEnd
+Exit 1
+~
+~
+0 0 621
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52096
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52096
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 619
+ExitExtEnd
+Exit 3
+~
+~
+0 0 619
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 621
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 622
+ExitExtEnd
+Exit 1
+~
+~
+0 0 622
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52097
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52097
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 620
+ExitExtEnd
+Exit 3
+~
+~
+0 0 620
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 622
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 623
+ExitExtEnd
+Exit 1
+~
+~
+0 0 623
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52098
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52098
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 621
+ExitExtEnd
+Exit 3
+~
+~
+0 0 621
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 623
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 624
+ExitExtEnd
+Exit 1
+~
+~
+0 0 624
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52099
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52099
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 622
+ExitExtEnd
+Exit 3
+~
+~
+0 0 622
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 624
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 625
+ExitExtEnd
+Exit 1
+~
+~
+0 0 625
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52100
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52100
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 623
+ExitExtEnd
+Exit 3
+~
+~
+0 0 623
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 625
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 626
+ExitExtEnd
+Exit 0
+~
+~
+0 0 626
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52449
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52449
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52101
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52101
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 624
+ExitExtEnd
+Exit 3
+~
+~
+0 0 624
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 626
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 627
+ExitExtEnd
+Exit 1
+~
+~
+0 0 627
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 625
+ExitExtEnd
+Exit 2
+~
+~
+0 0 625
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 627
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 628
+ExitExtEnd
+Exit 1
+~
+~
+0 0 628
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52449
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52449
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 626
+ExitExtEnd
+Exit 3
+~
+~
+0 0 626
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 628
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 629
+ExitExtEnd
+Exit 1
+~
+~
+0 0 629
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52450
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52450
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 627
+ExitExtEnd
+Exit 3
+~
+~
+0 0 627
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 629
+Name Wyboisty odcinek Krasnoludzkiego Traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore.
+Trzeba tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej
+jezdzie mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja
+szlachetna nazwe.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2000
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2000
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 630
+ExitExtEnd
+Exit 1
+~
+~
+0 0 630
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52451
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52451
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 628
+ExitExtEnd
+Exit 3
+~
+~
+0 0 628
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 630
+Name Wyboisty odcinek Krasnoludzkiego traktu~
+Descr Ten fragment ktos chyba probowal wylozyc kamieniami, ale wyraznie mu sie
+to nie udalo. Zamiast kocich lbow wyszlo cos takiego, co wyglada ci jakby
+jakis chlop wysypal zebrane na polu kamienie. Niektore calkiem spore. Trzeba
+tutaj jechac szczegolnie wozem bardzo ostroznie, bo przy szybkiej jezdzie
+mozna wytrzasc sobie ta czesc ciala gdzie plecy traca swoja szlachetna
+nazwe. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 603
+ExitExtEnd
+Exit 1
+~
+~
+0 0 603
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52452
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52452
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 629
+ExitExtEnd
+Exit 3
+~
+~
+0 0 629
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 602 0 600
+O 100 602 0 607
+O 100 602 0 611
+O 100 602 0 614
+O 100 602 0 618
+O 100 602 0 619
+O 100 602 0 621
+O 100 602 0 626
+O 100 602 0 627
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#przylbica_close
+~
+if !hasflag $o reg_zamknieta
+  mob echoat $n Szybkim ruchem zatrzaskujesz przy³bicê w swoim he³mie.
+  mob echoaround $n szybkim ruchem zatrzaskuje przy³bicê w swoim he³mie.
+  mob setflag $o reg_zamknieta
+else
+  mob echoat $n Przecie¿ przy³bica jest ju¿ zamkniêta!
+endif
+~
+#przylbica_open
+~
+if hasflag $o reg_zamknieta
+  mob echoat $n Nonszalanckim ruchem otwierasz przy³bicê he³mu!
+  mob echoaround $n $n nonszalanckim ruchem otwiera przy³bicê he³mu!
+  mob removeflag $o reg_zamknieta
+else
+  mob echoat $n Przecie¿ przy³bica jest ju¿ otwarta!
+endif
+~
+#przylbica_remov
+~
+if hasflag $o reg_zamknieta
+  mob echoat $n Nie mo¿esz zdj±æ he³mu z zamkniêt± przy³bic±!
+else
+  obj unwear
+  mob echoat $n Z lekkim u¶mieszkiem na twarzy zdejmujesz {Dczarny{x he³m z rogami i przy³bic± z g³owy.
+  mob echoaround $n $n z lekkim u¶mieszkiem na twarzy zdejmuje {Dczarny{x he³m z rogami i przy³bic± z g³owy.
+endif
+~
+#przylbica_wear
+~
+if hasflag $o reg_zamknieta
+  mob echoat $n Nie mo¿esz za³o¿yæ he³mu z zamkniêt± przy³bic±!
+else
+  obj wear
+  mob echoat $n Zak³adasz {Dczarny{x he³m z rogami i przy³bic± na g³owê.
+  mob echoaround $n $n zak³ada {Dczarny{x he³m z rogami i przy³bic± na g³owê.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#600
+~
+if rand 75
+mob echo Slyszysz jakby ktos scinal drzewo gdzies w oddali, slychac uderzenia toporow i co jakis czas miarowy chrzest pil. Hmmm, drwale chyba nie zamierzaja wykarczowac calego tego lasu
+dookola.{/{x
+end
+endif
+
+if rand 66
+mob echo W oddali slyszysz jakis ryk. Czyzby niedzwiedz? Lekko cierpnie ci skora.{/{x
+end
+endif
+
+if rand 50
+mob echo z pobliskiego lasu slyszysz krotki pisk po czym cos wali sie przez galezie na ziemie z loskotem. Sokol chyba cos upolowal, ale nie upadl najmadrzej.{/{x
+end
+endif
+
+mob echo Do twoich uszu dochodza odglosy jakiejs kotlowaniny, pomrukow i innych dzwiekow podobnych do tych jakie wydaja walczace koty. Jest tylko jedno ale. Te odglosy z cala pewnoscie nie naleza do malych kotow.{/{x
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

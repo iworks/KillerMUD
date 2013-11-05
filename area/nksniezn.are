@@ -1,0 +1,5087 @@
+#AREADATA
+Name # NK ¦nie¿ne równiny~
+Builders Nk~
+VNUMs 16281 16380
+Credits moby: sniezne monstrum, sniezny potwor, lodowe golemy, itd. itp., autorskie
+siatka roomow - labirynt stworzony z zasp
+expowisko, randdesc
+ 
+Sprawdzaj±cy: Seinar
+Twórca: Insoris
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 16281
+Name ¦nie¿ny robal~
+Odmiana ¶nie¿nego robala~¶nie¿nemu robalowi~¶nie¿nego robala~¶nie¿nym robalem~¶nie¿nym robalu~
+Short ¶nie¿ny robal~
+Long Wielki ¶nie¿ny robal sunie po ¶niegu w twoj± strone!~
+Descr Ogromny, bo ponad trzy metrowy robal uzbrojony w ostre niczym szable
+rzêdy k³ów najwyra¼niej opu¶ci³ sw± kryjówkê g³êboko pod ¶niegiem w
+poszukiwaniu po¿ywienia. Jest to kuzyn bestii, które na pustyniach czekaj±
+na zmêczonych podró¿ników, których nastêpnie atakuj± spod piachu. Ro¿nica
+tutaj jest taka, ¿e ten osobnik ma zdecydowanie grubszy pancerz, pewnie by
+lepiej utrzymywaæ ciep³o oraz piasek zastêpuje ¶nieg. Jest to niew±tpliwie
+niezwykle niebezpieczne stworzenie lepiej zachowaæ uwagê. 
+~
+Race czerw~
+ActExt 0|AFG
+Affected 33280 0 0 0
+AffectedExt 0|JP
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 17
+Hitroll 0
+HP 10d8+300
+Damage 4d4+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 8 8 6 9
+Stats 90 60 60 90 90 60 60
+Off FM
+OffExt 0|FM
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AGR
+Parts AQX
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 8 40
+Resist 10 20
+Resist 18 20
+Mobend
+#Vnum 16282
+Name Ykardis Lodowy Mag~
+Odmiana Ykardisa Lodowego Maga~Ykardisowi Lodowewemu Magowi~Ykardisa Lodowego Maga~Ykardisem Lodowym Magiem~Ykardisie Lodowym Magu~
+Short Ykardis Lodowy Mag~
+Long Ykardis stoi i recytuje jakies staro¿ytne formu³y.~
+Descr Ykardis nazywany te¿ Lodowym Magiem, stoi w³a¶nie przed tob±. Trudno
+uwierzyæ w to, ¿e natrafi³e¶ na tak znan± osobisto¶æ w dziedzinie magii.
+Jest to z pewno¶ci± jeden z najwiêkszych ¿yj±cych magów. Nie trudno jest
+zauwa¿yæ, ¿e jego g³ówn± specjalizacj± jest magia mrozu. Otulony w magicznie
+uszyty p³aszcz z p³atków ¶niegu, doprawdy wygl±da niezwykle dostojnie i
+tajemniczo. Ale lepiej jest chyba mu siê tak nie przypatrywaæ, s³ysza³e¶
+wiele historii o tym jak zamienia³ ludzi w bry³y lodu z powodu zwyk³ego
+kaprysu b±d¼ dla zabawy. Najwyra¼niej mag ten zajmuje siê dziedzin± magii,
+która odzwierciedla jego charakter.
+~
+Race cz³owiek~
+ActExt 0|ABRb
+Affected 680 268435456 0 0
+AffectedExt 0|DFHJ/1|c
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 31
+Hitroll 0
+HP 60d8+150
+Damage 4d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 108 150 144 96 114 132 108
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give 16283 FGI 16285~
+MobprogNew speech 16282 FGI tak~
+MobprogNew greet 16281 FGI 100~
+Spells 183 196 262 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 16283
+Name ¦nie¿ny potwór~
+Odmiana ¶nie¿nego potwora~¶nie¿nemu potworowi~¶nieznego potwora~¶nie¿nym potworem~¶nie¿nym potworze~
+Short ¶nie¿ny potwór~
+Long ¦nie¿ny potwór niespokojnie zatacza krêgi.~
+Descr Fascynuj±ce stworzenie, co¶ co w pierwszym momencie wydawa³o siê byæ
+zwyk³ym nawa³em ¶niegu teraz porusza siê do¶æ sprawnie. Wygl±da na to, ¿e ta
+istota mo¿e w dowolny sposób manipulowaæ swoim kszta³tem. Mo¿na powiedzieæ,
+¿e ten potwór przelewa siê w twoj± stronê i bêdzie chcia³ ciê wch³on±æ w
+swoje jestestwo je¶li nic z tym nie zrobisz. Z jego wnêtrza bije jasne
+¶wiat³o, to w³a¶nie ono musi napêdzaæ t± istotê. 
+~
+Race ¿ywio³ak~
+ActExt 0|AFG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 24
+Hitroll 1
+HP 4d8+478
+Damage 3d5+2
+Dammagic 0
+Weaponbonus 0
+Damflags 2
+Attack mwalniecie
+XAC 10 10 10 10
+Stats 120 60 60 90 90 60 60
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CJ
+Parts ABCDGHI
+Size medium
+Material unknown
+MobprogNew fight 16289 H 8~
+MobprogNew death 16285 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 -15
+Resist 8 100
+Resist 10 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 16284
+Name Lodowy golem~
+Odmiana lodowego golema~lodowemu golemowi~lodowego golema~lodowym golemem~lodowym golemie~
+Short lodowy golem~
+Long Lodowy golem uwa¿nie obserwuje okolice.~
+Descr Golemy, rzadko spotykane i niezwykle niebezpieczne istoty. Tworzone przez
+potê¿nych magów jako idealne s³ugi nie czuj±ce bólu i zmêczenia. Ten osobnik
+jednak nie s³u¿y raczej nikomu, mo¿e on byæ tworem dzikiej magii b±d¼ te¿
+zosta³ stworzony przez jakiego¶ nowicjusza który nie by³ w stanie okie³znaæ
+morderczych instynktów istoty. G³ówna broni± tego potwora musz± byæ jego
+rêce, które przypominaj± bardziej naostrzone szpikulce. Wydaje ci siê, ¿e to
+idealna broñ dla tego tworu magii. Olbrzymie nogi stanowi± podpór dla
+potê¿nego korpusu z którego bije jasne ¶wiat³o. Wydaje ci siê, ze to tam
+w³a¶nie musi znajdowaæ siê ¼ród³o magicznej energii napêdzaj±cej golema. 
+~
+Race golem~
+ActExt 0|AFG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 24
+Hitroll 2
+HP 5d8+500
+Damage 2d8+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack klucie
+XAC 5 9 4 5
+Stats 144 78 132 90 90 78 78
+Off CIOX
+OffExt 0|CIOX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size large
+Material unknown
+MobprogNew death 16285 ABCDEFGHI 100~
+MobprogNew fight 16287 H 10~
+Skin 100
+ExpMultiplier 100
+Resist 1 30
+Resist 2 20
+Resist 3 -5
+Resist 5 -10
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 18 100
+Mobend
+#Vnum 16285
+Name ¦nie¿ne monstrum~
+Odmiana ¶nie¿nego monstrum~¶nie¿nemu monstrum~¶nie¿ne monstrum~¶nie¿nym monstrum~¶nie¿nym monstrum~
+Short ¶nie¿ne monstrum~
+Long ¦nie¿ne monstrum zmierza w twoim kierunku!~
+Descr Ogromna fala ¶niegu pêdzi w twoj± stronê, co wydaje siê do¶æ irracjonalne
+na równinie... Dopiero po chwili orientujesz siê, ¿e to mo¿e byæ w
+rzeczywisto¶ci ¿ywym stworzeniem, choæ bardziej pasowa³o by tu okre¶lenie
+chorym tworem szalonego boga. Istota, która jest w stanie ca³kowicie
+kontrolowaæ swój kszta³ty, zaiste czeka ciê naprawdê trudna walka. 
+~
+Race ¿ywio³ak~
+ActExt 0|AF
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 24
+Hitroll 0
+HP 7d7+500
+Damage 3d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 2
+Attack mwalniecie
+XAC 5 5 5 5
+Stats 132 78 132 96 90 78 90
+Off CY
+OffExt 0|CY
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form CJ
+Parts ABCGHI
+Size large
+Material unknown
+MobprogNew fight 16288 H 8~
+MobprogNew death 16286 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 -15
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 16286
+Name Ogromny yeti~
+Odmiana ogromnego yeti~ogromnemu yeti~ogromne yeti~ogromnym yeti~ogromnym yeti~
+Short ogromny yeti~
+Long Wielkie pote¿ne yeti szuka sobie ofiary!~
+Descr Yeti, przeklinane przez wszystkich którzy choæ raz spotkali siê z tym
+stworzeniem. Przekrwione oczy rz±dne krwi bacznie ciê obserwuj±, masz
+wra¿enie ze wrêcz przewiercaj± siê przez twoje wnêtrzno¶ci. Srebrne futro
+pokrywaj±ce ca³e cia³o tego osobnika z pewno¶ci± jest warte du¿± kupkê
+z³ota. Jednak patrz±c na masywnie zbudowanego potwora krêc±cego siê bez ³adu
+po jaskini, który zdecydowanie dawno nie jad³ posi³ku zastanawiasz siê czy
+warto ryzykowaæ skróceniem jego postu. 
+~
+Race yeti~
+ActExt 0|ABFT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 2
+HP 50d6+420
+Damage 5d3+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 4 5 4 5
+Stats 120 72 84 102 126 78 78
+Off CIY
+OffExt 0|CIY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size medium
+Material unknown
+MobprogNew death 16290 ABCDEFGHI 2~
+Skin 150
+ExpMultiplier 100
+Resist 8 70
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 16282
+Name {Clodowa korona{X~
+Odmiana {Clodowej korony{x~{Clodowej koronie{x~{Clodow± korone{x~{Clodow± koron±{x~{Clodowej koronie{x~
+Short {Clodowa korona{x~
+Descr {CLodowa korona{x roztacza aure mrozu.~
+Material nieznany~
+Type clothing
+ExtraExt 0|AD
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 16284
+Name {Cro¿d¿ka mrozu{x~
+Odmiana {Cro¿d¿ki mrozu{x~{Cro¿d¿ce mrozu{x~{Cro¿d¿ke mrozu{x~{Cro¿d¿k± mrozu{x~{Cro¿d¿ce mrozu{x~
+Short {Cro¿d¿ka mrozu{x~
+Descr {CRó¿d¿ka mrozu{X le¿y tutaj.~
+Material unused~
+Type trash
+ExtraExt 0|AD
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 16285
+Name {Clodowe serce{x~
+Odmiana {Clodowego serca{x~{Clodowemu sercu{x~{Clodowe serce{x~{Clodowym sercem{x~{Clodowym sercu{x~
+Short {Clodowe serce{x~
+Descr {CLodowe serce{x rozb³yskuje co chwila ukryta energi±.~
+Material nieznany~
+Type trash
+ExtraExt 0|A
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 140
+Cond 75
+Comments ~
+Objend
+#Vnum 16286
+Name Ogromny namiot~
+Odmiana ogromnego namiotu~ogromnemu namiotowi~ogromny namiot~ogromnym namiotem~ogromnym namiocie~
+Short ogromny namiot~
+Descr Stoi tutaj ogromny, zdobiony runami namiot.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Ogromny, bo s³u¿±cy badaniom Ykardisa namiot stoi tutaj faluj±c lekko na
+wietrze. Zdobiony jest nieznanymi ci runami, pewnie magicznymi chroni±cymi
+namiot przed uszkodzeniami. Zrobiony jest z dziwnego niebieskiego materia³u
+przypominaj±cego w dotyku jedwab lecz zdecydowanie bardziej wytrzyma³y.
+Ciekawe czy Lodowy Mag mia³by co¶ przeciwko gdyby¶ wszed³ do ¶rodka?
+,f
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 16281
+Name Lodowa ¶cie¿ka~
+Descr Pod±¿asz pokryt± grub± warstw± lodu ¶cie¿ka, raczej niewiele osób mo¿na
+zobaczyæ w tych stronach. Mro¼ny wiatr smaga ciê swoimi mackami po twarzy co
+chwila podbijaj±c w gore chmury ma³ych, kuj±cych igie³ek. Na tej ¶cie¿ce
+ka¿dy krok jest potencjalnym zagro¿eniem dla twojego zadka, lepiej uwa¿aj.
+Gdziekolwiek nie powêdruje twój wzrok widzisz opustosza³a lodow± pustynie. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16282
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16282
+Roomprog random 16281 10~
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16282
+Name Lodowa ¶cie¿ka~
+Descr Pod±¿asz pokryt± grub± warstw± lodu ¶cie¿ka, raczej niewiele osób mo¿na
+zobaczyæ w tych stronach. Mro¼ny wiatr smaga ciê swoimi mackami po twarzy co
+chwila podbijaj±c w gore chmury ma³ych, kuj±cych igie³ek. Na tej ¶cie¿ce
+ka¿dy krok jest potencjalnym zagro¿eniem dla twojego zadka, lepiej uwa¿aj.
+Gdziekolwiek nie powêdruje twój wzrok widzisz opustosza³± lodow± pustynie. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16283
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16283
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16281
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16281
+Roomprog random 16281 10~
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16283
+Name Zakrêt na lodowej ¶cie¿ce~
+Descr Tutaj ¶cie¿ka zakrêca zataczaj±c szeroki ³uk. Mimo przemierzania
+kolejnych staj krajobraz niewiele siê zmienia wci±¿ dooko³a widzisz tylko
+lód i ¶nieg. Podró¿ ta ¶cie¿ka jest naprawdê mecz±ca i zaczynasz sobie
+zadawaæ pytanie po co w ogóle siê za ni± zabra³e¶. Gdyby nie fakt, ¿ê sam
+w³a¶nie tutaj stoisz to mo¿na by powiedzieæ ze to miejsce jest pozbawione
+jakiegokolwiek ¿ycia. Ka¿dy oddech kujê ciê w p³uca, taaak jest naprawdê
+zimno! 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16284
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16284
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16282
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16282
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16284
+Name Lodowa ¶cie¿ka~
+Descr Wieczna zmarzlina, te s³owa idealnie oddaj± twoje otoczenie. Ka¿dy twój
+krok musi byæ stawiany uwa¿nie, gdy¿ w takim ¶rodowisku czêsto spotyka siê
+g³êbokie szczeliny, do których, gdy wpadniesz ju¿ siê z nich nie
+wydostaniesz. Gdzieniegdzie mo¿esz siê doszukaæ malutkich niby drzewek,
+które powykrzywiane od wielkiego ch³odu wydaja siê byæ u kresu ¿ycia. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16285
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16285
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16283
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16283
+Roomprog random 16281 10~
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16285
+Name Zakrêt na ¶cie¿ce~
+Descr Tutaj mo¿esz zauwa¿yæ lekk± zmianê krajobrazu, zamiast lodem ¶cie¿ka jest
+pokryta grub± warstw± ¶niegu. W tym miejscu ¶cie¿ka zatacza szeroki ³uk.
+Niezwyk³y wydaje siê fakt, ze byæ mo¿e nieliczne, kar³owate i wygl±daj±ce
+jak powyginane w agonii drzewka rosn± tutaj. Pozbawione jakichkolwiek li¶ci
+b±d¼ igie³ codziennie musz± walczyæ o swe ¿ycie z okrutnym mrozem jaki tu
+panuje. Uff.. Jak dobrze ¿e ty zawsze mo¿esz st±d odej¶æ. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16284
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16284
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16286
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16286
+Roomprog random 16281 10~
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16286
+Name Przez zaspy~
+Descr Przedzierasz siê przez ¶nie¿ne zaspy, droga jest niezwykle uci±¿liwa
+gdy¿ co chwila l±dujesz zakopany po kolana w ¶niegu. Co chwila z twoich ust
+wydobywa siê ob³oczek pary, jest tak zimno ¿e za ka¿dym razem wydaje ci siê
+¿e chmurka pary zatrzyma siê i spadnie na ziemie w postaci bry³y lodu.
+Je¿eli reszta twojej drogi ma wygl±daæ podobnie jak tu to bêdziesz
+potrzebowa³ d³ugiego odpoczynku gdy skoñczysz wêdrówkê. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16285
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16285
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16287
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16287
+Roomprog random 16281 10~
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16287
+Name ¦nie¿ne rozwidlenie~
+Descr Dochodzisz do momentu w którym musisz wybrac jeden z kierunków. Pó³noc
+czy po³udnie? Gdy porównujesz sobie oba szlaki to wygl±daj± równie
+zniechêcaj±co. Niewidzialne bicze mro¼nego powietrza co chwila ciê
+pospieszaj±, lepiej siê zdecyduj nim staniesz sie elementem krajobrazu.
+Zastanawiasz siê czemu nikt nie postawi³ tu drogowskazu, chocia¿ mo¿e go po
+prostu zasypa³ ¶nieg. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16288
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16288
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16286
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16286
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16296
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16296
+Roomprog entry 16282 5~
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16288
+Name Dooko³a lodowego monolitu~
+Descr Wchodzisz na ¶cie¿kê okr±¿aj±c± ogromny lodowy monolit, mo¿na by rzec
+górê. Najprawdopodobniej jest to najwy¿sze miejsce w okolicy, gdyby¶ jako¶
+siê tam dosta³ mo¿e móg³by¶ siê rozejrzeæ dok³adnie po okolicy. Lecz
+niestety wspinaczka w tym miejscu jest niemo¿liwa, ¶ciany góry s± zbyt
+strome a ich powierzchnia zbyt ¶liska co udaremni ka¿da próbê pokonania
+lodowego olbrzyma. Gdzieniegdzie w szczelinach wielkiego monolitu mo¿esz
+zauwa¿yæ wpatruj±ce siê w ciebie pary oczu. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16287
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16287
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16289
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16289
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16289
+Name Obok lodowej góry~
+Descr Pod±¿asz ¶cie¿k± okalaj±ca lodow± gore. Podczas wêdrówki zastanawiasz siê
+co znajduje siê po drugiej stronie tego lodowego masywu, lecz czy warto
+nadk³adaæ taki kawa³ drogi by siê dowiedzieæ? Wszêdzie lód i ¶nieg to jedyne
+co tutaj zastaniesz. Ach, czy to miejsce zosta³o naprawdê zapomniane przez
+bogów? 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16288
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16288
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16290
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16290
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16290
+Name Naoko³o lodowej góry~
+Descr Podró¿ujesz na oko³o masywnej góry lodowej, której czubek jest ledwo
+dostrzegalny z ziemi. Ten olbrzym rzuca mroczny cieñ na okolice spowijaj±c
+j± mroczn± aur±. Zastanawiasz siê czy w potê¿nym wytworze natury nie kryj±
+siê jakie¶ przera¿aj±ce monstra czyhaj±ce na twe ¿ycie, jednak dochodzisz do
+wniosku ¿e nawet najgorszy potwór mia³by problemy z prze¿yciem w tych
+surowych warunkach. W najbli¿szym otoczeniu nie dostrzegasz ¿adnej
+ro¶linno¶ci b±d¼ zwierz±t. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16289
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16289
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16291
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16291
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16291
+Name Przez zaspy~
+Descr Przedzierasz siê przez ¶nie¿ne zaspy, droga jest niezwykle uci±¿liwa gdy¿
+co chwila l±dujesz zakopany po kolana w ¶niegu. Co chwila z twoich ust
+wydobywa siê ob³oczek pary, jest tak zimno ¿e za ka¿dym razem wydaje ci siê
+¿e chmurka pary zatrzyma siê i spadnie na ziemie w postaci bry³y lodu.
+Je¿eli reszta twojej drogi ma wygl±daæ podobnie jak tu to bêdziesz
+potrzebowa³ d³ugiego odpoczynku gdy skoñczysz wêdrówkê. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16297
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16297
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16290
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16290
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16292
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16292
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16292
+Name ¦nie¿na ¶cie¿ka~
+Descr Szlak prowadz±cy na pó³noc nie daje ci chwili wytchnienia. £apczywie
+wyciska z ciebie resztki wigoru, a na miejsce odpoczynku tez siê nie nadaje.
+Jedyne co ci pozostawia to brn±c naprzód nie bacz±c na zmêczenie. W pobli¿u
+nie znajdziesz ¿adnych jaskiñ lub miejsc zas³oniêtych od ci±g³ych,
+furiackich ataków ¶niegu i wiatru. Gruba warstwa ¶wie¿ego puchu dodatkowo
+utrudnia ci podró¿owanie. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16291
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16291
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16293
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16293
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16293
+Name Zakrêt na ¶nie¿nej ¶cie¿ce~
+Descr Tutaj ¶cie¿ka wokó³ góry zaczyna zataczaæ ³uk i skrêca na pó³noc. Gruba
+warstwa lodu pokryta jest ¶wie¿utkim puchem. B³yszcz±cy ¶nieg powoduje, ¿e
+musisz mru¿yæ oczy. Rozgl±dasz siê w poszukiwaniu jakiego¶ punktu
+orientacyjnego, na pó³nocnym wschodzie dostrzegasz wielki lodowy monolit,
+który z pewno¶ci± bêdziesz jeszcze ogl±da³ przez wiele staj drogi. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16292
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16292
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16294
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16294
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16294
+Name ¦nie¿na równina~
+Descr Podró¿ujesz na oko³o masywnej góry lodowej, której czubek jest ledwo
+dostrzegalny z ziemi. Ten olbrzym rzuca mroczny cieñ na okolice spowijaj±c
+j± mroczn± aur±. Zastanawiasz siê czy w potê¿nym wytworze natury nie kryj±
+siê jakie¶ przera¿aj±ce monstra czyhaj±ce na twe ¿ycie, jednak dochodzisz do
+wniosku ¿e nawet najgorszy potwór mia³by problemy z prze¿yciem w tych
+surowych warunkach. W najbli¿szym otoczeniu nie dostrzegasz ¿adnej
+ro¶linno¶ci b±d¼ zwierz±t. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16295
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16295
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16293
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16293
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16295
+Name Obok lodowej góry~
+Descr Potê¿na góra rzuca cieñ na ca³± okolice. Przeciêtny cz³owiek by³by niczym
+mrówka wobec cz³owieka w porównaniu do tego lodowego giganta. W obliczu tego
+prastarego wytworu natury czujesz siê przera¿aj±co nieznacz±cy. Gdyby choæ
+sam czubek góry u³ama³ siê nie mia³by¶ najmniejszych szans na ucieczkê, z t±
+my¶l± w g³owie decydujesz siê zachowaæ dystans od tego ogromnego wytworu
+natury. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16296
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16296
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16294
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16294
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16296
+Name Dooko³a lodowego monolitu~
+Descr Wchodzisz na ¶cie¿kê okr±¿aj±c± ogromny lodowy monolit, mo¿na by rzec
+górê. Najprawdopodobniej jest to najwy¿sze miejsce w okolicy, gdyby¶ jako¶
+siê tam dosta³ mo¿e móg³by¶ siê rozejrzeæ dok³adnie po okolicy. Lecz
+niestety wspinaczka w tym miejscu jest niemo¿liwa, ¶ciany góry s± zbyt
+strome, a ich powierzchnia zbyt ¶liska co udaremni ka¿da próbê pokonania
+lodowego olbrzyma. Gdzieniegdzie w szczelinach wielkiego monolitu mo¿esz
+zauwa¿yæ wpatruj±ce siê w ciebie pary oczu. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16287
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16287
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16295
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16295
+Roomprog entry 16384 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16297
+Name Wej¶cie na ¶nie¿ne równiny~
+Descr Dochodzisz do miejsca, w którym koñczy siê ¶cie¿ka powoli przeradza siê w
+rozleg³y krajobraz równiny rozpo¶cieraj±cej siê a¿ po horyzont. Dziwi ciê,
+¿e znajdujesz tutaj ¶lady obozowiska, nie kto¶ tu jeszcze jest. Wielki
+namiot przed roztaczaj±cy mro¼na aurê a przed nim resztki ogniska. Kto mo¿e
+byæ na tyle szalony by tutaj rozbijaj±c obozowisko! ? W pobli¿u nie
+odnajdujesz najmniejszych nawet ¶ladów obecno¶ci ¿ywych istot jednak osoba,
+która tu siê rozbi³a musi co¶ przecie¿ je¶æ. Mo¿e warto j± odszukaæ by
+zdradzi³a ci sekret przetrwania w tych surowych warunkach. Jednak to
+wszystko mo¿e siê okazaæ halucynacj± spowodowan± skrajnym wyziêbieniem i
+wyczerpaniem. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16298
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16298
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16291
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16291
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16298
+Name ¦cie¿ka na równinach~
+FlagsExt 0|a
+Sector 26
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16299
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16299
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16297
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16297
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16299
+Name ¦cie¿ka na równinach~
+Descr Przemierzasz kolejne staje, lecz krajobraz prawie w ogóle nie ulega
+zmianie. W±ska lekko wydeptana ¶cie¿ka prawie wcale nie u³atwia ci podró¿y,
+mo¿e trochê rzadziej zapadasz siê po kolana w ¶niegu. Wydajê ci siê ¿e twa
+wêdrówka trwa ju¿ od wielu dni, a jeszcze nie trafi³e¶ choæby na znikomy
+¶lad czyjej¶ obecno¶ci. Powoli przed twymi oczyma pojawiaj± siê wizje twej
+tragicznej ¶mierci z wykoñczenia, g³odu lub zamarzniêcia, jak dobrze ze to
+tylko wyobra¼nia. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16302
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16302
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16300
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16300
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16298
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16298
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16301
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16301
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16300
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16303
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16303
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16299
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16299
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16301
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16304
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16304
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16299
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16299
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16302
+Name ¦nie¿na równina~
+Descr W±ska, ¶nie¿na ¶cie¿ka prowadzi ciê przez ograniczone jedynie horyzontem
+równiny. Ich ogrom przyprawia ciê o nieprzyjemne uczucie, wewnêtrzny
+niepokój. Masz wra¿enie ze gdzie¶ tam czyha na ciebie wielkie zagro¿enie, a
+to ¿e nie masz siê nawet gdzie schowaæ powoduje, ze ciarki ciê przechodz±.
+Chocia¿ to akurat mo¿e byæ spowodowane nieprzyjemnym ch³odem. Krajobraz
+pozostaje ten sam, zimna równina pozbawiona jakichkolwiek oznak ¿yj±cych
+istot. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16305
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16305
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16303
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16303
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16299
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16299
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16304
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16304
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16303
+Name ¦nie¿na równina~
+Descr Pódru¿ujesz ¶cie¿ka, jesli tak mo¿na nazwac ten w±ski pasek ubitego
+¶niegu, przez kraine zwana ¦nie¿na Równin±. Odpowiedniejsz± nazw± jednak
+wydaje ci siê kraina Wiecznych Trudów badz Lodowej ¦mierci. Brak mo¿liwo¶ci
+znalezienia po¿ywienia, brak jakichkolwiek miejsc na odpoczynek to czyni
+otaczaj±cy ciê krajobraz jeszcze bardziej nieprzyjaznym. Co chwila zapadasz
+siê w ¶wiezy, puszysty ¶nieg co dodatkowo utrudnia ci podró¿. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16306
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16306
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16314
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16314
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16300
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16300
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16302
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16302
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16304
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16307
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16307
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16302
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16302
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16301
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16301
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16305
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16308
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16308
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16306
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16306
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16302
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16302
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16307
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16307
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16306
+Name ¦nie¿na równina~
+Descr Idziesz zapadaj±c siê niemal po kolana w ¶niegu. Wydaje ci siê ze
+podró¿ujesz ju¿ ca³e wieki bez najmniejszych oznak przemieszczania siê.
+Otacza ciebie ci±gle ten sam ponury widok, ¶nieg i lód przeplatane jeszcze
+wieksz± ich ilo¶cia. Niewyobra¿alny chlód tuli ciê namietnie odbieraj±c si³y
+do dalszej podró¿y. Zaczynasz sie zastanawiac czy nie lepiej by³oby zawrócic
+i zasi±¶c w jakiej¶ ciep³ej karczmie przy piwie. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16309
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16309
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16313
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16313
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16303
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16303
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16305
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16305
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16307
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16310
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16310
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16305
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16305
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16304
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16304
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16308
+Name ¦nie¿na równina~
+Descr Przemierzasz rozleg³e ¶nie¿ne rowniny w±ska ¶cie¿k±. Od wielu godzin
+wêdrówki krajobraz nie uleg³ wiekszym zmianom. Mnóstwo ¶niegu, lodu od czasu
+do czasu udaje ci sie spotkac na swej drodze jakie¶ rachityczne drzewko
+które zdaje siê w agoni wo³ac o ¶mierc do niebios. Powiniene¶ poszukac
+jakiego¶ miejsca na obozowisko bo podró¿owanie w tym mrozie jest naprawde
+mecz±ce. Jednak ta otwarta przestrzeñ nie nadaje siê do odpoczynku a w
+zasiêgu wzroku nie widzisz ¿adnego bardziej skrytego miejsca. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16311
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16311
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16309
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16309
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16305
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16305
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16310
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16310
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16309
+Name ¦nie¿na równina~
+Descr Wêdrujesz rozci±gaj±cymi sie a¿ po horyzont rowninami. Woko³o ciebie
+tylko lód i ¶nieg, brak jakiegokolwiek ¿ycia w zasiêgu wzroku. Bogowie mrozu
+ciê nie oszczêdzaj±, ch³ód nie do zniesienia przeszywa ca³e twoje cia³o. Nie
+wiesz jak d³ugo jeszcze bedziesz w stanie kontunuowac t± wedrówke, byc mo¿e
+nawet do³aczysz do grona osób które zosta³y poch³oniete przez te opuszczone
+przez ¿ycie równiny. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16312
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16312
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16306
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16306
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16308
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16308
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16310
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16308
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16308
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16307
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16307
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16311
+Name Piêkna jaskinia~
+Descr Znalaz³e¶ siê w i¶cie niesamowytym miejscu. ¦ciany jaskini s± pokryte
+grub± warstw± lodu który przybra³ najrozmaitsze krzta³ty. W ¶wietle dnia
+ca³a jaskinia mieni sie migotliwym blaskiem. Kaskady barw zalewaja ca³e
+pomieszczenie nadajac mu unikatowego uroku. Zastanawia ciê czy jaki¶ mag nie
+macza³ w tym swych palców badz czy to miejsce nie jest przyk³adem jednego z
+nielicznych zjawisk przypisywanych dzikiej magii. 
+~
+FlagsExt 0|Da
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16308
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16308
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16312
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16315
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16315
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16313
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16313
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16309
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16309
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16313
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16312
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16312
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16316
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16316
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16314
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16314
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16306
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16306
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16314
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16313
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16313
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16303
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16303
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16315
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16317
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16317
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16316
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16316
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16312
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16312
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16316
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16315
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16315
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16318
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16318
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16313
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16313
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16317
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16322
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16322
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16319
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16319
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16318
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16318
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16315
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16315
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16318
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16317
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16317
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16316
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16316
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16319
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16320
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16320
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16317
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16317
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16320
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16330
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16330
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16321
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16321
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16319
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16319
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16322
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16322
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16321
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16326
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16326
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16323
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16323
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16320
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16320
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16322
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16332
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16332
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16320
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16320
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16317
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16317
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16323
+Name ¦nie¿na równina~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16325
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16325
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16324
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16324
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16321
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16321
+DayRDesc 16281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16324
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16328
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16328
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16323
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16323
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16325
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16327
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16327
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16328
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16328
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16323
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16323
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16326
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16326
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16326
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16329
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16329
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16325
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16325
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16321
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16321
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16330
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16330
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16327
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16337
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16337
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16325
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16325
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16329
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16329
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16328
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16324
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16324
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16325
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16325
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16329
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16336
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16336
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16327
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16327
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16326
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16326
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16331
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16331
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16330
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16331
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16331
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16326
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16326
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16320
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16320
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16332
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16332
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16331
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16335
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16335
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16329
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16329
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16330
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16330
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16333
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16333
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16332
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16333
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16333
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16330
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16330
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16322
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16322
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16333
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16334
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16334
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16331
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16331
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16332
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16332
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16334
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16344
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16344
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16335
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16335
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16333
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16333
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16335
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16343
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16343
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16336
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16336
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16331
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16331
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16334
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16334
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16336
+Name Zaspy na równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16342
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16342
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16337
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16337
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16329
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16329
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16335
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16335
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16337
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16341
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16341
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16338
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16338
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16327
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16327
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16336
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16336
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16338
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16339
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16339
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16337
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16337
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16339
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16351
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16351
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16340
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16340
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16338
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16338
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16341
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16341
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16340
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16352
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16352
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16339
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16339
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16341
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16350
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16350
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16339
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16339
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16337
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16337
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16342
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16342
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16342
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16349
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16349
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16341
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16341
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16336
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16336
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16343
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16343
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16343
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16348
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16348
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16342
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16342
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16335
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16335
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16344
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16344
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16344
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16347
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16347
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16343
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16343
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16334
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16334
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16345
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16345
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16345
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16346
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16346
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16344
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16344
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16346
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16359
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16359
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16347
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16347
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16345
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16345
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16347
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16358
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16358
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16348
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16348
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16344
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16344
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16346
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16346
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16348
+Name ¦rodek ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16357
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16357
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16349
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16349
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16343
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16343
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16347
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16347
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16349
+Name ¦rodek ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16356
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16356
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16350
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16350
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16342
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16342
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16348
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16348
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16350
+Name ¦rodek ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16355
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16355
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16351
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16351
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16341
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16341
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16349
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16349
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16351
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16354
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16354
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16352
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16352
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16339
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16339
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16350
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16350
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16352
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16353
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16353
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16340
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16340
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16351
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16351
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16353
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16366
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16366
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16353
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16353
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16352
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16352
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16354
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16354
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16354
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16365
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16365
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16353
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16353
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16351
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16351
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16355
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16355
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16355
+Name ¦rodek ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16364
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16364
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16354
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16354
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16350
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16350
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16356
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16356
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16356
+Name ¦rodek ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16363
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16363
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16355
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16355
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16349
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16349
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16357
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16357
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16357
+Name ¦rodek ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16362
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16362
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16356
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16356
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16348
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16348
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16358
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16358
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16358
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16361
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16361
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16357
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16357
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16347
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16347
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16359
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16359
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16359
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16360
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16360
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16358
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16358
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16346
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16346
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16360
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16361
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16361
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16359
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16359
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16361
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16362
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16362
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16358
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16358
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16360
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16360
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16362
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16370
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16370
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16363
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16363
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16357
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16357
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16361
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16361
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16363
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16369
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16369
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16364
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16364
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16356
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16356
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16362
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16362
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16364
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16368
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16368
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16365
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16365
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16355
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16355
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16363
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16363
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16365
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16367
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16367
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16366
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16366
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16354
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16354
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16364
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16364
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16366
+Name Na ¶nie¿nych równinach~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16353
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16353
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16365
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16365
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16367
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16365
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16365
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16368
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16368
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16368
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16373
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16373
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16367
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16367
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16364
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16364
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16369
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16369
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16369
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16372
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16372
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16368
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16368
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16363
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16363
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16370
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16370
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16370
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16371
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16371
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16369
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16369
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16362
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16362
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16371
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16375
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16375
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16372
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16372
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16370
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16370
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16372
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16374
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16374
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16373
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16373
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16369
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16369
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16371
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16371
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16373
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16368
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16368
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16372
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16372
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16374
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16377
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16377
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16372
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16372
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16375
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16375
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16375
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16376
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16376
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16374
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16374
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16371
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16371
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16376
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16379
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16379
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16377
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16377
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16375
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16375
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16377
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16378
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16378
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16374
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16374
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16376
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16376
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16378
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16377
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16377
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16379
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16379
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16379
+Name W g³ebi ¶nie¿nych równin~
+FlagsExt 0|a
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16380
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16380
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16378
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16378
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16376
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16376
+DayRDesc 16281
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16380
+Name Kraniec ¶nie¿nych równin~
+Descr Tutaj twoja wêdrówka dobiega koñca. A mowi± ze jeszcze nikt nie dotar³ na
+skraj tych równin. Pustka, dalsz± droge na po³noc blokuj± wielkie lodowe
+góry. Wygl±da na to ¿e nie potrzebnie przeby³es ca³a t± równine... A jeszcze
+czeka ciê równie mecz±ca droga powrotna. Lepiej chwile odpocznij i
+zregeneruj si³y przed dalsz± wêdrówk±. 
+~
+FlagsExt 0|a
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16379
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16379
+Roomprog random 16283 6~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 16282 1 16297 1
+E 100 4427 0 12
+E 100 3010 0 8
+E 100 16284 0 17
+E 100 16282 0 6
+O 100 16286 0 16297
+M 100 16281 4 16305 2
+M 100 16286 80 16311 1
+M 100 16281 4 16313 2
+M 100 16285 12 16314 3
+M 100 16285 12 16316 3
+M 100 16284 12 16321 3
+M 100 16283 12 16324 3
+M 100 16283 12 16325 3
+M 100 16285 12 16332 3
+M 100 16283 12 16337 3
+M 100 16284 12 16345 3
+M 100 16285 12 16349 3
+M 100 16284 12 16360 3
+M 100 16283 12 16366 3
+M 100 16284 12 16370 3
+M 100 16285 12 16372 3
+M 100 16283 12 16373 3
+M 100 16284 12 16380 3
+S
+
+
+
+#MOBPROGSNEW
+#16281
+~
+if hasflag $n juzmowilem
+say Za ka¿de przyniesione serce sowicie ciê wynagrodze!
+say Lecz je¶li przychodzisz z pustymi rêkoma to nie masz na co liczyc.
+say Hmmmm...no chyba ze chcesz siê stac lodowym pos±giem....
+else
+say Ooo! Rzadko widuje siê tutaj podró¿nych, ale w sumie dobrze siê sk³ada!
+say Bo widzisz mam taki ma³y problem, a jestem bardzo zajety badaniami. Zechcia³ by¶ mi mo¿e pomóc?
+mob setflag $n pomoc
+endif
+~
+#16282
+~
+if hasflag $n pomoc
+say Wiêc s³uchaj uwa¿nie bo nie bede powtarza³ dwa razy!
+delay 1
+say Na po³nocy st±d na równinach, mo¿na znalezc dziwne stworzenia.
+say Nie maj± cia³a, prawdopodobnie nie pochodz± nawet z tego wymiaru.
+say Tak, na pewno je rozpoznasz.¦nie¿ne potwory jedyne w swoim rodzaju.
+say Gdy pokonasz takiego stwora, pozostaje po nim tylko lodowe j±dro egzystencji. Kszta³tem przypominaj±ce serce.
+say Wiec je¶li zdarzy ci sie pokonac taka bestie, przynie¶ mi jego serce a sowicie ciê wynagrodze.
+say Im wiecej tym lepiej! A teraz zmykaj ju¿!
+mob setflag $n juzmowilem
+mob removeflag $n pomoc
+endif
+~
+#16283
+~
+if hasflag $n juzmowilem
+  say Tak, dokladnie o to mi chodzilo!
+  delay 1
+  say Ach, oto i zasluzona nagroda!
+  mob reward $n silver 1200
+  mob echoat $n Ykardis grzebie w sakiewce po czym wrecza ci garsc monet.
+  mob echoaround $n Ykardis grzebie w sakiewce po czym wrecza $n garsc monet.
+endif
+~
+#16284
+~
+damageex $n 1 15 20 pwk
+mob echoat $n ¦nie¿ny potwór formuje spor± macke a nastpniê uderza ni± w ciebie!
+mob echoaround $n ¦nie¿ny potwór formuje spor± macke a nastêpnie uderza ni± $n!
+~
+#16285
+~
+mob oload 16285 r
+mob echo ¦nie¿ny potwór rozpada siê na kawa³eczki.
+mob echo Po potworze zostaje tylko migocz±ce serce.
+~
+#16286
+~
+mob oload 16285 r
+mob echo ¦nie¿ne monstrum rozpada sie na kawa³eczki.
+mob echo Po ¶nie¿nym monstrum zostaje pulsuj±ce energia serce.
+~
+#16287
+~
+mob echo Z lodowego golema zaczynaja wyrastac wielkie kolce!
+minidelay 1
+mob echoat $n Lodowy golem przyjmuje dziwna poze, a nastepnie lodowe kolce odrywaj± siê od jego cia³a i leca prosto na ciebie!
+mob echoaround $n Lodowy golem przyjmuje dziwna poze, a nastepnie lodowe kolce odrywaj± siê od jego cia³a i leca prosto na $n!
+mob damageex $n 2 10 15
+~
+#16288
+~
+mob damage $i -10 -20
+mob echo ¦nie¿ne monstrum regeneruje cze¶c swoich ubytków z otacz±cego go sniegu.
+~
+#16289
+~
+if rand 60
+mob damage $i -20 -30 
+mob echo ¦nie¿ny potwór regeneruje cze¶c swoich ubytków z otaczaj±cego go ¶niegu.
+else
+mob echoat $n ¦nie¿ny potwor formuje spora mackê, a nastêpnie uderza ni± w ciebie!
+mob echoaround $n ¦niezny potwor formuje spora mackê, a nastêpnie uderza ni± $z!
+damageex $n 1 15 20 pwk
+endif
+~
+#16290
+~
+mob echo Ogromne yeti nie zyje!!
+mob echo Ogromne yeti pada na ziemie... MARTWE.
+mob oload 16287 r
+mob echo Ostatni atak jest a¿ nadto dewastuj±cy, yeti ma rozprute wnetrzno¶ci! Zauwazasz ze jakis przedmiot wyp³yno³ z jego brzucha!
+~
+#16300
+~
+mob removeflag $n juzmowilem
+~
+#0
+
+#OBJPROGSNEW
+#16281
+~
+~
+#0
+
+#ROOMPROGSNEW
+#16281
+~
+mob echo Podmuch wiatru powodujê wzniesienie siê tabunu ¶niegu. Nie najprzyjemniejsze do¶wiadczenie.
+~
+#16282
+~
+mob echo Jeden nie ostro¿ny krok i zapadasz sie po kolana w sniegu.
+~
+#16283
+~
+mob echo Lodowaty wiatr smaga ciê swoimi mroznymi mackami.
+~
+#16384
+~
+mob echoat $n ¦lizgasz siê na lodzie i nie udaje ci sie uchronic przed bolesnym upadkiem.
+mob echoaround $n $n slizga siê na lodzie i wywraca siê. Wygl±da³o to do¶c komicznie.
+mob damage $n 1 1
+mob setpos $n sit
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 16282
+DescRand ~
+RandDescEnd
+#Vnum 16281
+DescRand #grouprand 0
+#grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 0003~
+Desc Brodzac w ¶niegu po kolana zastanawiasz siê czy nie lepiej by³oby znale¼æ
+siê na piaszczystej pustyni, odrzucasz t± my¶l, tutaj przynajmniej nie
+umrzesz z pragnienia. 
+~
+Group 3
+End
+#Name 0002~
+Desc Czujesz, ¿e nieprzerwany ból miê¶ni towarzysz±cy twej wêdrówce przez
+¶nieg osiagnie nied³ugo apogeum i bêdziesz musia³ d³ugo odpoczywaæ by pozbyæ
+siê zmeczenia. 
+~
+Group 3
+End
+#Name 0004~
+Desc Nieliczne powykrzywiane drzewka s± jedynymi towarzyszami twej morderczej
+wêdrówki. Masz nadzieje ze ta katorga nied³ugo siê zakoñczy. 
+~
+Group 3
+End
+#Name 004~
+Desc Potê¿ne ataki mro¼nego wiatru zdaj± siê przybieraæ na silê. Musisz
+zaslaniaæ swoja twarz obiema rekami. 
+~
+Group 2
+End
+#Name 04~
+Desc Jedyna pozytywna strona tego odludzia mo¿e siê okazaæ fakt i¿ raczej nikt
+ciê tu nie bêdzie próbowa³ ograbiæ, chocia¿ kto wie? 
+~
+Group 1
+End
+#Name 4~
+Desc Brodzisz po kolana w ¶niegu przemierzaj±c ta mro¼n± równinê blagaj±c by
+bogowie ulitowali siê i obdarzyli cie jasnymi promieniami s³oñca. 
+~
+Group 0
+End
+#Name 0~
+Desc ~
+Group 4
+End
+#Name 0001~
+Desc Podsumowuj±c otaczaj±cy ciebie krajobraz mo¿na powiedzieæ i¿ znalaz³e¶
+siê na kompletnym odludziu, miejscu gdzie nikt ci nie pomo¿e nawet jak twoje
+koñczyny przestan± siê ruszaæ, a sam zamienisz siê w bryle lodu. 
+~
+Group 3
+End
+#Name 002~
+Desc Koszmarnie lodowaty wiatr wzbija do góry chmury ¶niegu, które jak setki
+rozw¶cieczonych os kuj± ciê w twarz. 
+~
+Group 2
+End
+#Name 001~
+Desc Wiatr nieub³aganie smaga ciê swoimi lodowatymi mackami zmuszaj±c ciê do
+zakrywania swej twarzy rêkoma. 
+~
+Group 2
+End
+#Name 03~
+Desc Sam jak palec a woko³o tylko lód, ¶nieg i wszechogarniaj±cy mrz, po
+prostu ¿yæ nie umieraæ! 
+~
+Group 1
+End
+#Name 01~
+Desc Szybki rzut okiem po okolicy i ju¿ wiesz, ¿e do jedzenia niczego tu nie
+znajdziesz. 
+~
+Group 1
+End
+#Name 02~
+Desc Dookola nie widaæ ¿ywej duszy, najwyra¼niej jedynie ty jeste¶ na tyle
+szalony by b³±kaæ siê po tych ¶nie¿nych równinach. 
+~
+Group 1
+End
+#Name 3~
+Desc Przedzierasz siê przez ¶nie¿ne zaspy, co chwila zapadaj±c siê w ¶niegu.
+~
+Group 0
+End
+#Name 2~
+Desc Prawdziwa ¶nie¿na pustynia, ¶rodowisko równie zachêcaj±ce do osadzenia siê co miejskie ¶mietnisko.
+~
+Group 0
+End
+#Name 1~
+Desc Podró¿ujesz przez niekoñcz±c± siê krainê mro¼nych wiatrów i wiecznych
+¶niegów. 
+~
+Group 0
+End
+#Name 003~
+Desc Nieprzerwanie wiatr atakuje ciê lodowatymi podmuchami nale¿ycie umilaj±c
+ci podró¿. 
+~
+Group 2
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

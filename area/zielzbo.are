@@ -1,0 +1,966 @@
+#AREADATA
+Name +# Zielone Zbocze~
+Builders None~
+VNUMs 1480 1499
+Credits Feerial~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 1484
+Name borsuk~
+Odmiana borsuka~borsukowi~borsuka~borsukiem~borsuku~
+Short {Sborsuk{x~
+Long Gruby {Sborsuk{x ryje pazurami w ziemi.~
+Descr Borsuk jest silnej budowy. Glowe ma troche nieproporcjonalna w stosunku
+do ciala - mala, dluga i waska, oczy i uszy male, szyje gruba, nogi krotkie,
+mocne, dostosowane do kopania nor. Szczecina borsuka jest siwopopielata z
+domieszka czarnego, dluga, blyszczaca. Glowa prawie biala z czarnymi pasmami
+po bokach, ciagnacymi si od nosa poprzez oczy i uszy do przedniej czesci
+barkow, obrzeza uszu, biale. Lapy, piers i kark od spodu czarne. Ogon krotki
+(kita) zakonczony kiscia, lapy zakonczone piecioma palcami i dlugimi
+pazurami. Borsuk ma dlugosc okolo 90 cm, wysokosc ok 30 cm i wazy ponad 15
+kg 
+~
+Race zwierze~
+ActExt 0|AEGH
+Affected 268435456 0 0 0
+AffectedExt 0|c
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d6+45
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 108 60 42 60 60 78 78
+Off FH
+OffExt 0|FH
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKQRSV
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 1490
+Name gorska kozica~
+Odmiana {ygorskiej kozicy{x~{ygorskiej kozicy{x~{ygorska kozice{x~{ygorska kozica{x~{ygorskiej kozicy{x~
+Short {ygórska kozica{x~
+Long Wsrod skal stoi {ygorska kozica{x.~
+Descr Kozica jest bardzo zrecznym zwierzeciem.
+Walka z nia nie bedzie nalezala do najlatwiejszej.
+~
+Race zwierze~
+ActExt 0|AG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang 0
+Speaks 0
+Level 5
+Hitroll 1
+HP 5d6+75
+Damage 1d5+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 9 9 9 9
+Stats 84 30 30 132 96 78 78
+Off FH
+OffExt 0|FH
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ACDEFHJKQRSV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 1491
+Name mysz polna~
+Odmiana myszy polnej~myszy polnej~mysz polna~mysza polna~myszy polnej~
+Short mysz polna~
+Long Mala mysz probuje ukryc sie przed toba.~
+Descr Male, szare i piszczy. To mysz polna, straszliwy wrog mlynarzy i sporej
+czesci rodzaju zenskiego. Dobrze, ze mamy dzielnych bohaterow i innych
+paladynow, którzy chronia ludzkosc i utrzymuja nieustajaca agresje tego
+potwornego zwierza w ryzach. 
+~
+Race mysz~
+ActExt 0|AGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d4+13
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 9 9 9 9
+Stats 30 30 30 60 30 78 78
+Off FH
+OffExt 0|FH
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size tiny
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 1480
+Name Kreta stroma sciezka~
+Descr Szeroka sciezka, widniejaca na po³udniu, staje sie tu bardziej kreta i
+waskimi zakolami przeciska sie miedzy kepami krzewow ku pó³nocy, przechodzac
+powoli w trawers podchodzacy pod przelecz. Gleba wokol jests jalowa i
+skalista, krzewy karlowate i poskrecane wiatrem. W oddali na pó³nocy widac
+potezne szczyty Gor Bialych. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1478
+ExitExtEnd
+Exit 2
+~
+~
+0 0 1478
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1481
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1481
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1481
+Name Krotki trawers~
+Descr Jestes na krotkim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo przechodzac w
+lagodna doline, na której widnieje kilka pol. Ku pó³nocy teren wyraznie
+stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji. Teren wokolo
+porastaja dziwne karlowate krzewy i nieliczne kepy suchych traw. W oddali na
+polnocy widac potezne szczyty Gor Bialych. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1480
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1480
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1482
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1482
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1482
+Name Zakret krotkiego trawersu~
+Descr Jestes na krotkim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo przechodzac w
+lagodna doline, na której widnieje kilka pol. Ku pó³nocy teren wyraznie
+stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji. Teren wokolo
+porastaja dziwne karlowate krzewy i nieliczne kepy suchych traw. W oddali na
+polnocy widac potezne szczyty Gor Bialych. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1481
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1481
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14550
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14550
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1483
+ExitExtEnd
+Exit 4
+~
+~
+0 0 1483
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1483
+Name Poczatek lesnej sciezki~
+Descr Idziesz waska sciezka przez lagodny stok zbocza gory Erethe, otaczajace
+krzewy rozrastaja sie na wschodzie do rozmiarow niewielkiego zagajnika i to
+chyba jedyna ostoja roslinnosci w okolicy poniewaz zbocze powyzej - na
+polnocy - jest prawie w calosci pokryte skalami i kamiennymi osuwiskami.
+Sciezka w dol prowadzi przez krotki trawers w doline. Na po³udniowym
+wschodzie widac jakies miasto. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1484
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1484
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1482
+ExitExtEnd
+Exit 5
+~
+~
+0 0 1482
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1484
+Name Lesna sciezka~
+Descr Idziesz waska sciezka przez niewielki zagajnik na zboczu gory. Otaczajace
+krzewy sa wyjatkowo geste i chlodne powietrze w polaczeniu z gestniejacymi
+na wschodzie krzewami przydaje otoczeniu grozy i niedostepnosci. Piaszczysta
+dotad sciezka staje sie z chwili na chwile coraz gesciej uslana skalnymi
+odlamkami i malymi kamieniami. Zagajnik rzednie na zachodzie. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1485
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1485
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1483
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1483
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1485
+Name Sciezka przez las~
+Descr Idziesz waska sciezka przez niewielki zagajnik na zboczu gory. Otaczajace
+krzewy sa wyjatkowo geste i chlodne powietrze w polaczeniu z gestniejacymi
+na wschodzie krzewami przydaje otoczeniu grozy i niedostepnosci. Piaszczysta
+dotad sciezka staje sie z chwili na chwile coraz gesciej uslana skalnymi
+odlamkami i malymi kamieniami. Zagajnik rzednie na zachodzie.
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1486
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1486
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1484
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1484
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1486
+Name Zakret lesnej sciezki~
+Descr Stoisz pod sporawa skarpa, której wierzcholek siega poza szczyty krzewow,
+tworzacych ten niewielki zagajnik. Skalista droga pod nogami skreca z dolu,
+z zachodu na pó³noc lecz zeby przejsc dalej musisz jeszcze wdrapac sie na
+skarpe.
+~
+FlagsExt 0
+Sector 3
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1485
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1485
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 1487
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 1487
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1487
+Name Skarpa pod lasem~
+Descr Stoisz na szczycie calkiem wysokiej skarpy, kolo ciebie niezbyt stroma
+krawedz zaznacza kres ¶cie¿ki. Teoretyczna droga w dó³ prowadzi w geste
+wysokie krzewy, miedzy którymi majaczy mala sciezka. Droga na zachodzie
+wspina sie dzielnie pod gore, trawersujac zbocze gory Erethe. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1488
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1488
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 1486
+ExitExtEnd
+Exit 5
+~
+~
+8192 0 1486
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1488
+Name Dlugi trawers~
+Descr Jestes na dlugim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo mijajac w
+lagodna doline, po drodze przechodzac przez niewielki zagajnik. Ku pó³nocy
+teren wyraznie stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji.
+Teren wokolo porastaja dziwne karlowate krzewy i nieliczne kepy suchych
+traw. Z trudem dostrzegasz ukryt± miêdzy drzewami jaskinie, wygl±da na do¶æ
+wielk±. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1487
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1487
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1489
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1489
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1489
+Name Kamienne osuwisko na dlugim trawersie~
+Descr Jestes na dlugim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo mijajac w
+lagodna doline, po drodze przechodzac przez niewielki zagajnik. Ku pó³nocy
+teren wyraznie stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji.
+Teren wokolo porastaja dziwne karlowate krzewy i nieliczne kepy suchych
+traw.
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1488
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1488
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1490
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1490
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1490
+Name Zwezenie dlugiego trawersu~
+Descr Jestes na dlugim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo mijajac w
+lagodna doline, po drodze przechodzac przez niewielki zagajnik. Ku pó³nocy
+teren wyraznie stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji.
+Teren wokolo porastaja dziwne karlowate krzewy i nieliczne kepy suchych
+traw.
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1489
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1489
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1491
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1491
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1491
+Name Zakret dlugiego trawersu~
+Descr Jestes na dlugim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo mijajac w
+lagodna doline, po drodze przechodzac przez niewielki zagajnik. Ku pó³nocy
+teren wyraznie stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji.
+Teren wokolo porastaja dziwne karlowate krzewy i nieliczne kepy suchych
+traw.
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1490
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1490
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1493
+ExitExtEnd
+Exit 4
+~
+~
+0 0 1493
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1492
+ExitExtEnd
+Exit 5
+~
+~
+0 0 1492
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1492
+Name {RPrzepa¶æ!!!{x~
+Descr Znajdujesz siê pod strom±, skalist± ¶cian±. Rozgl±daj±c siê dooko³a
+widzisz szcz±tki nieszczê¶ników, którzy w odró¿nieniu od ciebie dostali siê
+tu drog± bardziej naturaln± ni¿ wspomagany magicznie lot. Jest tutaj ca³kiem
+przyjemnie nie licz±c, oczywi¶cie, trupów dooko³a. Niemniej jednak jest tu
+ca³kiem spokojnie... Wszak nikt tu raczej nie przychodzi. 
+~
+FlagsExt 0|CHN
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1491
+ExitExtEnd
+Exit 4
+~
+~
+0 0 1491
+Roomprog entry 1492 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1493
+Name Strome podejscie~
+Descr Jestes na dlugim trawersie, przecinajacym swymi serpentynami zbocze gory
+Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo mijajac w
+lagodna doline, po drodze przechodzac przez niewielki zagajnik. Ku pó³nocy
+teren wyraznie stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji.
+Teren wokolo porastaja dziwne karlowate krzewy i nieliczne kepy suchych
+traw. Wieje dosc silny wiatr i jest wyjatkowo zimno.
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1494
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1494
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1491
+ExitExtEnd
+Exit 5
+~
+~
+0 0 1491
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1494
+Name Mala laka~
+Descr Jestes na malej laczce przez która przebiega sciezka trawersujaca zbocze
+gory Erethe. Zbocze opada w dol w kierunku po³udniowym, stopniowo mijajac w
+lagodna doline, po drodze przechodzac przez niewielki zagajnik. Ku pó³nocy
+teren wyraznie stromieje i dziczeje, brak jakichkolwiek oznak cywilizacji.
+Teren wokolo porastaja dziwne karlowate krzewy i nieliczne kepy suchych
+traw. Wieje dosc silny wiatr i jest wyjatkowo zimno. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1495
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1495
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1493
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1493
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1495
+Name Sciezka w zaroslach~
+Descr Stoisz u zbiegu trzech sciezek, na wschodzie widac wejscie do dosc
+ciemnego lasu, droga glowna podchodzac ze wschodu ku gorze na pó³noc
+trawersuje zbocze gory Erethe. Zbocze opada w dol w kierunku po³udniowym,
+stopniowo mijajac w lagodna doline, po drodze przechodzac przez niewielki
+zagajnik. Ku pó³nocy teren wyraznie stromieje i dziczeje, brak jakichkolwiek
+oznak cywilizacji. Teren wokolo porastaja dziwne karlowate krzewy i
+nieliczne kepy suchych traw. Wieje dosc silny wiatr i jest wyjatkowo zimno. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1499
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1499
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1494
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1494
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1496
+ExitExtEnd
+Exit 4
+~
+~
+0 0 1496
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1496
+Name Ubita droga przed wyniesieniem~
+Descr Jestes na niewielkim wyniesieniu skalnym oslonietym od wiatru przez
+karlowate krzewy, droga zdaje sie byc dosc szeroka w tym miejscu i przecina
+krzewy przez plaskie wyniesienie na które mozna sie wspiac z dolu, wiodac
+dalej na pó³noc . W dole na po³udniu widac jakies pola uprawne i szeroki
+gosciniec. Powoli otacza cie lekka mgielka a wydychane powietrze jawi sie
+oblokami pary. Powoli zblizasz sie do granicy mgiel i chmur przez co
+widocznosc znacznie maleje. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1497
+ExitExtEnd
+Exit 0
+~
+~
+0 0 1497
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1495
+ExitExtEnd
+Exit 5
+~
+~
+0 0 1495
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1497
+Name Punkt Widokowy~
+Descr Jestes na niewielkim wyniesieniu skalnym oslonietym od wiatru przez
+karlowate krzewy, droga zdaje sie byc dosc szeroka w tym miejscu i przecina
+krzewy przez plaskie wyniesienie na które mozna sie wspiac z dolu, wiodac
+dalej na pó³noc . W dole na po³udniu widac jakies pola uprawne i szeroki
+gosciniec. Powoli otacza cie lekka mgielka a wydychane powietrze jawi sie
+oblokami pary. Powoli zblizasz sie do granicy mgiel i chmur przez co
+widocznosc znacznie maleje.
+~
+FlagsExt 0
+Sector 2
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1496
+ExitExtEnd
+Exit 2
+~
+~
+0 0 1496
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1498
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1498
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1498
+Name Podejscie pod przelecz~
+Descr Jestes na niewielkim wyniesieniu skalnym oslonietym od wiatru przez
+karlowate krzewy, droga zdaje sie byc dosc szeroka w tym miejscu i przecina
+krzewy przez plaskie wyniesienie na które mozna sie wspiac z dolu, wiodac
+dalej na pó³noc . W dole na po³udniu widac jakies pola uprawne i szeroki
+gosciniec. Powoli otacza cie lekka mgielka a wydychane powietrze jawi sie
+oblokami pary. Powoli zblizasz sie do granicy mgiel i chmur przez co
+widocznosc znacznie maleje.
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2951
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2951
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1497
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1497
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 1499
+Name Ciemny las~
+Descr Ni stad, ni zow±d znalaz³e¶ sie nagle w ciemnym lesie. Drzewa sa tu
+niezbyt wysokie, lecz ich rozlozyste konary zaslaniaja dokladnie niebo.
+Drzewa te to chyba slynne adaveny, które zyskaly sobie zla slawe przez dziwne
+polaczenie kolorow i odcieni. Liscie sa {ybrazowo-{gzielonkawe{S{S, a kora ma
+barwe fioletowo krwista i czesto pokrywa powierzchnie nawet zdrowych galezi.
+Poszycie i srednie pietro tego lasu tworza wysokie paprocie tak uwielbiane
+przez pajaki. Nie za bardzo wiesz dokladnie w której czesci lasu sie
+znajdujesz. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1495
+ExitExtEnd
+Exit 3
+~
+~
+0 0 1495
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 1484 2 1480 2
+M 100 1491 3 1481 3
+M 100 1484 2 1484 2
+M 100 1491 3 1487 3
+M 100 1491 3 1491 3
+M 100 1490 3 1493 3
+M 100 1490 3 1496 3
+M 100 1490 3 1498 3
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#1491
+~
+if affected $n flying
+  mob echoat $n Twoja umiejetnosc latania uratowala ciê przed upadkiem w przepa¶æ.
+else
+  mob echoaround $n $n nagle potyka siê i spada w glebok± przepa¶æ.
+  mob transfer $n 1492
+  mob at 1492 mob damage all 10000 20000 papa
+endif
+~
+#1492
+~
+if !affected $n fly
+  mob echoat $n Krok w przód... brak pod³o¿a!
+  minidelay 2
+  mob echoat $n Spaaaaadaaaaasz...!!!
+  mob damage $n 10000 20000 ups...
+else
+  mob echoat $n Twoja zdolno¶æ latania uchroni³a ciê od ¶miertelnego upadku.
+  mob echoaround $n Widzisz jak $n powoli l±duje na dnie przepa¶ci.
+endif
+~
+#1493
+~
+mob echoat $n Chyba niedawno przeszla tedy lawina, calkowicie torujac przejscie.
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

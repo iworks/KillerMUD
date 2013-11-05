@@ -1,0 +1,953 @@
+#AREADATA
+Name {DPodmrok{X - Seeyma rozbudowa~
+Builders Podmrok Seinar~
+VNUMs 16681 16781
+Locked ~
+Security 9
+ResetAge 20
+Region 43400
+End
+
+
+
+#MOBILES
+#Vnum 16681
+Name drow ochroniarz wysoki~
+Odmiana ochroniarza~ochroniarzowi~ochroniarza~ochroniarzem~ochroniarzu~
+Short drowi ochroniarz~
+Long Wysoki drowi ochroniarz bacznie obsetwuje twoje zachowanie.~
+Descr Masz przed sob± wysokiego i umiê¶nionego drowa, który pilnuje w karczmie
+spokoju. Wygl±da on, ¿e nie raz u¿ywa³ swojego miecza do utrzymania tutaj
+spokoju wiêc nie ma co tutaj wszczynaæ walk czy ¼le siê zachowywaæ, bo miecz
+bia³ow³osego mo¿e ciê skaleczyæ. 
+~
+Race drow~
+ActExt 0|ABET
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AB
+Speaks 0
+Level 40
+Hitroll 2
+HP 40d2+480
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack walniecie
+XAC -2 -1 -2 0
+Stats 132 78 78 78 78 78 78
+Off CQXb
+OffExt 0|CQXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size medium
+Material unknown
+MobprogNew death 16682 ABCDEFGHI 100~
+MobprogNew onload 16681 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 15
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 16682
+Name drow ochroniarz wysoki~
+Odmiana ochroniarza~ochroniarzowi~ochroniarza~ochroniarzem~ochroniarzu~
+Short drowi ochroniarz~
+Long Wysoki drowi ochroniarz bacznie obsetwuje twoje zachowanie.~
+Descr Masz przed sob± wysokiego i umiê¶nionego drowa, który pilnuje w karczmie
+spokoju. Wygl±da on, ¿e nie raz u¿ywa³ swojego miecza do utrzymania tutaj
+spokoju wiêc nie ma co tutaj wszczynaæ walk czy ¼le siê zachowywaæ, bo miecz
+bia³ow³osego mo¿e ciê skaleczyæ. 
+~
+Race drow~
+ActExt 0|ABET
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AB
+Speaks 0
+Level 22
+Hitroll 2
+HP 5d10+550
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC -2 -1 -2 0
+Stats 132 78 78 78 78 78 78
+Off CQXb
+OffExt 0|CQXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 16683
+Name pies~
+Odmiana psa~psu~psa~psem~psie~
+Short pies~
+Long Pies biega tutaj, g³o¶no szczekaj±c.~
+Descr Szaro-bury podwórkowy kundel merda weso³o ogonem i ujada jak g³upi na
+wszystko i wszystkich. 
+~
+Race pies~
+ActExt 0|AGW
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 1d10+20
+Damage 2d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRSUV
+Size small
+Material unknown
+MobprogNew death 16683 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 16686
+Name adamantytowy klucz~
+Odmiana {Dadamantytowego klucza{x~{Dadamantytowemu kluczowi{x~{Dadamantytowy klucz{x~{Dadamantytowym kluczem{x~{Dadamantytowym kluczu{x~
+Short {Dadamantytowy klucz{x~
+Descr Adamantytowy klucz le¿y tutaj, chyba zosta³ przez kogo¶ zgubiony.~
+Material adamantyt~
+Type key
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to adamantytowy klucz, na którym wyryty jest jaki¶ zbaczek.
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 16681
+Name G³ówna sala~
+Descr Sala ta o¶wietlona jest setkami kolorowych lampionów, które zalewaj± j±
+ciep³ym ¶wiat³em. Wnêtrze wype³nia zapach egzotycznych kadzide³. Karczma
+podzielona jest na kilka stref, po prawej stronie na podwy¿szeniu ucztuje
+elita mrocznych elfów. W centrum gdzie aktualnie siê znajdujesz bawi
+miejscowe pospólstwo. Po lewej za¶ stronie, w najciemniejszej czê¶ci
+karczmy, wydzielono miejsce dla niewolników, pariasów i przybyszy z
+powierzchni. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶æie~
+ExitExtName wyj¶æie~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 16688
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶æie~
+wyj¶æie~
+1 0 16688
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16682
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16682
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16686
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16686
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16683
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16683
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16682
+Name W ciemnym k±cie karczmy ~
+Descr To miejsce o¶wietlane jest jedynie przez oliwne kaganki, które daj± dosyæ
+sk±p± ilo¶æ ¶wiat³a. Miny pij±cych tu kwa¶ny trunek, przypominaj±cy wino
+jedynie z nazwy, wskazuj± na to, i¿ ich ¿ycie nie jest wys³ane at³asami.
+Stoliki s± brudne i krzywe, a zaduch i wilgoæ tu panuj±ca zniechêci³aby do
+posi³ku nawet ogra. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16684
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16684
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16681
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16681
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16683
+Name Na podwy¿szeniu w karczmie~
+Descr Có¿ za przepych panuje w tym przybytku! Delikatne ¶wiat³o lamp
+akcentowane jest przez liczne szklane witra¿e i lustra, a na ¶cianach
+widoczne s± ró¿ne ¶wietlne wzory, przedstawiaj±ce zagadkowe symbole.
+Wszystkie zdobione sto³y i stoliki znajduj± siê w najwy¿szej czysto¶ci i
+porz±dku. Pomieszczenie to wype³niaj± gromkie okrzyki bawi±cej siê drowiej
+szlachty. Krz±taj±ca siê dyskretnie obs³uga karczmy dba, aby puchary i
+talerze ucztuj±cych tutaj pozostawa³y zawsze pe³ne. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16681
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16681
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 16686
+ExitExtToVnum 16687
+ExitExtEnd
+Exit 2
+~
+~
+7 16686 16687
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16684
+Name Ma³y pokoik~
+Descr Ten ma³y pokoik to pomieszczenie, w którym ka¿dy mieszkaniec powierzchni
+mo¿e odpocz±æ. Jest tutaj ma³e ³ó¿ko, które wygl±da na bardzo stare, tu¿
+obok niego stoi stó³. Ta kwatera jest o¶wietlana przez lampkê spoczywaj±c±
+na stole. Wszêdzie unosi siê kurz, ale nie ma czego siê lepszego spodziewaæ
+w koñcu mieszkañcy Seeymy i tak zdali siê na gest i udostêpnili ten pokój
+mieszkañcom powierzchni. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16682
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16682
+Rentrate 125
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16685
+Name Sala taneczna~
+Descr Jak wiadomo drowy poza knuciem i spiskami. Tak¿e uwielbiaj± taniec i
+zabawê i oto jest to miejsce gdzie wielu mieszkañców Seeymy mo¿e odpocz±æ od
+codziennego ¿ycia. Ten parkiet jest bardzo schludny, o co dbaj± tutejsi
+niewolnicy. Taniec go¶ciu tutaj przez ca³a dobê i nie dziwota jest wino,
+piêkne panny i odpowiedni ustrój, do którego zaliczaj± siê ró¿nokolorowe
+lampy. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16686
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16686
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16686
+Name Bar~
+Descr To pomieszczenie to tutejszy bar, mo¿e tutaj zamówiæ nieznane trunki i
+potrawy. Oczywi¶cie barman sobie liczy za to odpowiednie pieni±dze, ale nie
+ma co siê dziwiæ. Te przyjemne zapachy kusz± do zamówienia potrawy, a
+ró¿norodno¶æ alkoholi zadziwia ciê. Ta karczma jest bogato zaopatrzona, no
+ale to jest wiadomo, bo Seeyma to wielkie i niebiedne miasto. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16681
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16681
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16685
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16685
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16687
+Name Spory pokój~
+Descr Wielkie pomieszczenie, w którym ¶pi elita tego miasta. Jest ona bacznie
+strze¿ona i nikt z innej rasy ni¿ drow nie ma prawa wej¶æ tutaj. W³a¶ciciel
+karczmy musia³ sporo siê napracowaæ, ¿eby urz±dziæ tak piêknie ten pokój.
+Ale na pewno mu siê to op³aci³o, bo ta kwatera non-stop jest oblegana przez
+szlachtê Seeymy, która na swój maj±tek nie narzeka. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 0
+ExitExtToVnum 16683
+ExitExtEnd
+Exit 0
+~
+~
+7 0 16683
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16688
+Name Przed karczm±~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16689
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16689
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 16681
+ExitExtEnd
+Exit 2
+~
+~
+1 0 16681
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16690
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16690
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16689
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16688
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16688
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16690
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16691
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16691
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16688
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16688
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16691
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16690
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16690
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16692
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16693
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16693
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16694
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16694
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16693
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16692
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16692
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16694
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16692
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16692
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16695
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16696
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16696
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16698
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16698
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16696
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16695
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16695
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16697
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16697
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16697
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16696
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16696
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16698
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16695
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16695
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16699
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16699
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16703
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16703
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16699
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16698
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16698
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16702
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16702
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16700
+ExitExtEnd
+Exit 2
+~
+~
+0 0 16700
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16701
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16701
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16700
+Name {DLochy{x~
+Descr ~
+FlagsExt 0|C
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16699
+ExitExtEnd
+Exit 0
+~
+~
+0 0 16699
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16701
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16699
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16699
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16702
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16699
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16699
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16703
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16698
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16698
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16704
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16704
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 16704
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16703
+ExitExtEnd
+Exit 1
+~
+~
+0 0 16703
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 16681 1 16682 1
+M 100 16682 1 16683 1
+S
+
+
+
+#MOBPROGSNEW
+#16681
+~
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+~
+#16682
+~
+Foreachingroup $n
+  if isnpc $n
+    nextfor
+  endif
+  if ishere $n
+    mob setflag $n xxx 10
+    mob echoat $n GOOD!
+  endif
+endfor
+~
+#16683
+~
+mob modflag $r mod reg_barb +1
+mob echo +1
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

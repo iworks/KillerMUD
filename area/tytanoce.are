@@ -1,0 +1,2600 @@
+#AREADATA
+Name +# Wodna droga na wyspe tytanów~
+Builders Ocean~
+VNUMs 40992 41045
+Credits brock@xl.wp.pl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 40992
+Name Morska mewa~
+Odmiana mewy~mewie~mewê~mew±~mewie~
+Short morska mewa~
+Long Morska mewa p³ywa sobie po powierzchni wody.~
+Descr Widzisz przed sob± niedu¿± bia³± mewê. P³ywa sobie ona po powierzchni
+wody wypatruj±c ³atwych k±sków. S± to miêdzy innymi ma³e rybki, czy te¿
+owady. 
+~
+Race ptak~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 50d1+2
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack dziobanie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGW
+Parts ACDEFHKPRST
+Size medium
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 40992
+Name wrak statku~
+Odmiana wraku statku~wrakowi statku~wrak statku~wrakiem statku~wrakiem statku~
+Short wrak statku~
+Descr Potê¿ny wrak statku ulega korozji na brzegu.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30000
+Cost 1
+Cond 100
+Itemdesc Wrak ma d³ugo¶æ oko³o piêtnastu metrów. Na dziobie mo¿esz dostrzec
+resztki niewielkiego galionu umieszczonego pod bukszprytem, po zarysie mo¿na
+wnioskowaæ, ¿e by³a to syrena. Ów wrak co¶ w sobie ma, emanuje dziwn±
+energi±. Wej¶cia do wnêtrza s± do¶æ ma³e. Statek nale¿a³ mo¿e do
+krasnoludów. Jednak ciekawe co oni tu robili i gdzie podzia³a siê za³oga.
+Czy¿by wszyscy pomarli? 
+~
+Comments ~
+Objend
+#Vnum 40993
+Name szkielet~
+Odmiana szkieletu~szkieletowi~szkielet~szkieletem~szkielecie~
+Short szkielet cz³owieka~
+Descr {wCa³kowicie nagi szkielet cz³owieka le¿y tutaj.{x~
+Material ko¶æ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 500
+Cost 1
+Cond 75
+Itemdesc {wJest to bia³y, nagi szkielet cz³owieka wzrostu okolo 180 centymetrów.
+Jego czaszka zosta³a doszczêtnie zdruzgotana. Ciekawe co mu siê przytrafi³a.
+Dostrzegasz, ¿e szkielet nie ma ani skrawka skóry, czy miê¶ni. Tak wiêc
+cia³o le¿a³o tutaj ju¿ do¶æ d³ugo. {x 
+~
+Comments ~
+Objend
+#Vnum 40995
+Name Sterta kamieni~
+Odmiana sterty kamieni~stercie kamieni~stertê kamieni~stert± kamieni~stercie kamieni~
+Short sterta kamienia~
+Descr Sterta kamieni u³o¿ona w jaki¶ wyraz le¿y tutaj.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 800
+Cost 1
+Cond 75
+Itemdesc Sterta sk³ada siê ze sporej liczy kamieni. Gdyby siê dok³adnie przyjrzeæ
+uk³adaj± siê one w napis: {GPOMOCY{x{g. Ciekawe kto u³o¿y³ ten napis i dlaczego
+potrzebowa³ pomocy. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 40992
+Name ¦cie¿ka w¶ród wzgórz~
+Descr Jeste¶ coraz dalej od pla¿y, jednak nadal s³ychaæ szum fal znad morza.
+Dzia³a to koj±co na twój umys³, gdy¿ droga jest dosyæ mêcz±ca. Klimat jest
+bardzo suchy, co powoduje, ¿e rosn± tu nieliczne ro¶liny. S± to miêdzy
+innymi porosty i mchy. Mo¿e raz na jaki¶ czas dostrze¿esz paproæ, która jest
+tutaj rarytasem w¶ród ro¶lin. 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40995
+ExitExtEnd
+Exit 0
+~
+~
+0 0 40995
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3800
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3800
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40993
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40993
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40993
+Name ¦cie¿ka~
+Descr Tylko krok dzieli ciê od morskiej pla¿y gdzie mo¿esz zaczerpn±æ ¶wie¿ego,
+morskiego powietrza. Droga na wschód prowadzi w g³±b wyspy, niestety kieruje
+siê ona ca³y cza¶ pod górê, co powoduje, ¿e droga jest mêcz±ca. Ca³o¶æ
+wygl±da dosyæ szaro i ponuro. Z niewiadomych przyczyn na ziemi le¿a dooko³a
+spore ilo¶ci od³amków drewna. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40994
+ExitExtEnd
+Exit 0
+~
+~
+0 0 40994
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40992
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40992
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40994
+Name ¦cie¿ka~
+Descr Droga prowadzi z pla¿y w g³±b wyspy po coraz to wy¿szych terenach.
+Ro¶linno¶ci jest tutaj wiêcej ni¿ na pla¿y, jednak nadal jest to niewiele.
+Pewnie jest to spowodowane tutejszym suchym klimatem. Gdzie niegdzie
+znajdziesz tylko jaki¶ mech lub porosty. Ca³o¶æ wygl±da dosyæ szaro
+i ponuro. Z niewiadomych przyczyn na ziemi le¿a dooko³a spore ilo¶ci
+od³amków drewna.
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40995
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40995
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40993
+ExitExtEnd
+Exit 2
+~
+~
+0 0 40993
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40996
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40996
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40995
+Name ¦cie¿ka~
+Descr Dosyæ szeroka ¶cie¿ka prowadz±ca w g³±b wyspy. Na piasku mo¿esz dostrzeæ
+olbrzymi ¶lady stóp. Ciekawe do kogo nale¿a³y. Za pewne nie by³y to zwyk³e
+istoty. Tak wielkie odciski stóp mog³by zrobiæ tylko jakie¶ olbrzymy. Droga
+prowadzi stopniowo coraz wy¿ej. Przez co jest trochê mêcz±ca. St±d mo¿esz
+dok³adnie obserwowaæ ca³± wschodni± czê¶æ wyspy ³±cznie ze wzgórzami. Czasem
+s³ychaæ jakie¶ stuki, jakby stado olbrzymów chodzi³o po ziemi, ale przecie¿
+to niemo¿liwe. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40992
+ExitExtEnd
+Exit 2
+~
+~
+0 0 40992
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40994
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40994
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40996
+Name {YMorska pla¿a{x~
+Descr {cNie jest to typowo morska pla¿a. Piasek jest jaki¶ szarawy, a woda dosyæ
+ciemna. Mo¿na dostrzec tu wyj±tkowy brak ¿ycia. Nawet ro¶liny s± bardzo
+ciemne, a nawet brunatne. Znajdujesz siê na wyspie, a to jest w³a¶nie jej
+pla¿a. Mo¿esz st±d dostrzec, ¿e teren na wyspie jest bardzo górzysty. Gdzie
+siê spojrzy tam jakie¶ wzniesienia, czy ska³y. {x 
+~
+FlagsExt 0
+Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40997
+ExitExtEnd
+Exit 0
+~
+~
+0 0 40997
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40994
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40994
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40999
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40999
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40997
+Name {YMorska pla¿a{x~
+Descr {cNie jest to typowo morska pla¿a. Piasek jest jaki¶ szarawy, a woda dosyæ
+ciemna. Fauna jest tutaj praktycznie niezauwa¿alna, nic siê nie rusza, nie
+przebiega, nie m±ci bezruchu. Gdzieniegdzie znajdziesz ro¶liny, ale i one s±
+dosyæ ciemne, a nawet brunatne. Znajdujesz siê na wyspie, a to jest w³a¶nie
+jej pla¿a. Mo¿esz st±d dostrzec, ¿e teren na wyspie jest bardzo górzysty.
+Gdzie siê spojrzy tam jakie¶ wzniesienia, czy te¿ ska³y. {x 
+~
+FlagsExt 0
+Sector 29
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40996
+ExitExtEnd
+Exit 2
+~
+~
+0 0 40996
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40998
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40998
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40998
+Name Ocean~
+Descr {bZnajdujesz siê w¶ród oceanicznych wód. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40997
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40997
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40999
+ExitExtEnd
+Exit 2
+~
+~
+0 0 40999
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41002
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41002
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40999
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ w¶ród oceanicznych wód. Na wschodzie dostrzegasz
+jaki¶ l±d. Wygl±da to na bezludn± wyspe. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40998
+ExitExtEnd
+Exit 0
+~
+~
+0 0 40998
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40996
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40996
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41001
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41001
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41002
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41002
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40999
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40999
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41004
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41004
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41002
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40998
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40998
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41001
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41001
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41003
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41003
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41005
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41005
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41002
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41002
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41004
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41007
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41007
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41004
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41003
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41003
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41001
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41001
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41008
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41008
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41005
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41003
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41003
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41006
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41006
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41006
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41005
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41005
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41007
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41007
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41009
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41009
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41007
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41006
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41006
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41003
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41003
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41010
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41010
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41008
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41007
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41007
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41004
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41011
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41009
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41006
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41006
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41010
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41010
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41016
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41016
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41010
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41009
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41009
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41007
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41007
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41011
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41011
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41015
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41015
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41011
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41010
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41010
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41008
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41014
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41014
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41012
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9468
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9468
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9470
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9470
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41013
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41013
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41013
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9467
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9467
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41012
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41012
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9464
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9464
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41014
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41015
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41015
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41011
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41011
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41019
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41015
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41016
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41016
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41010
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41010
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41014
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41014
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41018
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41018
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41016
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41009
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41009
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41015
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41015
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41017
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41017
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41016
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41016
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41018
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41018
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41024
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41024
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41018
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41017
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41017
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41015
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41015
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41019
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41019
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41023
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41023
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41019
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41018
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41018
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41014
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41014
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41022
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41022
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41020
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ.{x
+~
+FlagsExt 0
+Sector 22
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41021
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9459
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9459
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 91648
+ExitExtEnd
+Exit 1
+~
+~
+0 0 91648
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9458
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9458
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41022
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41023
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41023
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41019
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41019
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41028
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41028
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41023
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41024
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41024
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41018
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41018
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41022
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41022
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41027
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41027
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41024
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41017
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41017
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41023
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41023
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41026
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41026
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41025
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41026
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41026
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41032
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41026
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41025
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41025
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41024
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41024
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41027
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41027
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41031
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41031
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41027
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41026
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41026
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41023
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41023
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41028
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41028
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41030
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41030
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41028
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41027
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41027
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41022
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41022
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41029
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41029
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41029
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41030
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41030
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41028
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41028
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41035
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41035
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41030
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41031
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41031
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41027
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41027
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41029
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41029
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41034
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41034
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41031
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41032
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41032
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41026
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41026
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41030
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41030
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41033
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41033
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41032
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ.{x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41025
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41025
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41031
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41031
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41033
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41031
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41031
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41034
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41034
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41044
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41044
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41034
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41033
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41033
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41030
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41030
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41035
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41035
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41037
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41037
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41035
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41034
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41034
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41029
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41029
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41036
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41036
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41036
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41037
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41037
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41035
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41035
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9470
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9470
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41037
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41044
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41044
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41034
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41034
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41036
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41036
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9469
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9469
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41039
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41040
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41040
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41042
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41042
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41040
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41039
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41039
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41041
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41041
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41041
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41042
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41042
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41040
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41040
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41043
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41042
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41039
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41039
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41041
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41041
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41043
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Woda faluje raz lekko, raz
+troche gwaltowniej. Wszedzie tylko woda, woda, woda. Bezkresny ocean i
+zadnej chyba nadziei na staly lad gdzies nieopodal. Zastanawiasz siê jak
+daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ. {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41041
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41041
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41044
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Nie jeste¶ pewien, ale masz
+wra¿enie ¿e pr±d morski znosi ciê na zachód. Nie jeste¶ w stanie tego
+zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu odniesienia. We
+wszystkich kierunkach tylko woda, woda. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41045
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41045
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41033
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41033
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41037
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41037
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9471
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9471
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41045
+Name Ocean~
+Descr {bZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. Przygl±daj±c siê tafli wody
+zauwa¿asz na pewnej g³êboko¶ci gromadê malutkich rybek. P³yn± sobie powoli
+wraz z pr±dem tylko w im znanym kierunku. Ciekawe jak daleko s± owe Wyspy
+Zachodnie, o których us³yszeæ mo¿na niepochlebne opowie¶ci... {x
+~
+FlagsExt 0
+Sector 22
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41044
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41044
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9474
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9474
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 40995 0 40992
+O 100 3196 0 40992
+O 100 40993 0 40994
+O 100 40992 0 40997
+M 100 40992 4 40999 4
+M 100 40992 4 41002 4
+M 100 40992 4 41027 4
+M 100 40992 4 41030 4
+M 100 40992 4 41035 4
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#40992
+~
+take beczka
+if !class $n barbarzyñca
+and !race $n krasnolud
+  mob echoat $n Po krótkim czasie stwierdzasz, ¿e beczka jest strasznie niewygodna w trzymaniu i tylko krasnoludzkie wprawione d³onie potrafi³yby to zrobiæ.
+  mob force $n drop beczka
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

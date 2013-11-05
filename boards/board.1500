@@ -1,0 +1,30 @@
+Messages
+M951944337
+Feerial~
+opis wejsc i drzwi Wed Mar  1 21:58:57 2000
+~
+zeby na istniejacym linku postawic drzwi itp stosuje sie flagi wyjsc
+zeby flagi chodzily to musisz najpierw dac flage door :)
+flagi ustawia sie np. 'south door'
+dodanie kazdej nastepnej tak samo np. 'south closed'
+flagi :
+door - podstawowa bez ktorej inne nie rusza
+noclose - nie da sie zamknac
+hard - trudne do wylamania skillem 'bash door'
+infuriating - chyba trudne do wylamania zamki skillem 'pick lock'
+pickproof - odporne na 'pick' <=wytrych
+nopass - chiba nie do przejscia magicznie pod wplywem czaru 'pass door'
+nolock - bez zamka ale nie trzeba tego zawsze ustawiac, jak nie zrobisz klucza i nie dasz locked
+          to chiba nikt nie 'zakluczy' :)
+locked - zamkniete na klucz ... o kluczach innym razem
+close - zamkniete czyli z ta flaga po resecie drzwi beda zamkniete i nie bedzie ich widac jako
+         wyjscie pod 'look'
+easy - latwe ale do czego nie sprawdzalem chiba latwo bashem ...
+jak zrobic zeby w podlodze byla klapa, a w oknie krata a nie tylko wszedzie 'door'
+ano np. 'south name klapa' co zastapi dotychczasowe 'door', fajne np. jak w pomieszczeniu jest
+       zamkniete wejscie na dol i go nie widac a nazywa sie klapa, i jest klapa w opisie rooma
+       wtedy gracz daje open klapa i juz, bez znajomosci kierunku, oczywiscie open down tez zadziala...
+aaa i jeszcze to: jezeli z lokacji A jest przejscie na east do B to jak ustawisz w A east door, to jest to
+ samo co z lokacji B west door :)
+~
+S

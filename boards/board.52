@@ -1,0 +1,284 @@
+Messages
+M970582908
+Feerial~
+{B[WSTEP                           ]{x {WTue Oct  3 16:21:48 2000
+{x~
+{Y ******************************************************{X
+autor: Feerial Dzika Frytka
+Znajdziesz tu wszystko co potrzebne do napisania krainki
+i umieszczenia tam postaci, sklepow oraz obiektow.
+wraz z triggerami.
+{Y ******************************************************{X
+1. Tworzenie nowej krainy (aedit)
+2. Tworzenie pomieszczen (redit)
+3. Laczenie pomieszczen, wstawianie drzwi (sekcja exit)
+4. Tworzenie postaci, czyli mobow (medit)
+5. Podpinanie programow do mobow
+6. Tworzenie obiektow-przedmiotow (oedit)
+7. Podpinanie programow do obiektow
+8. Tworzenie sklepow
+9. Wstawianie mobow i obiektow do pomieszczen,
+ ..... wyposazenie mobow, sklepy  (sekcja reset)
+10. Ogolne wytyczne przy pisaniu krain, sprawa klimatu
+...... gry oraz poziomu Muda.
+{Y ******************************************************{X
+Jezeli nie wiesz jak czytac poradnik wpisz: look zakladka
+{Y ******************************************************{X
+~
+M970586995
+Feerial~
+{B[strona 1                        ]{x {WTue Oct  3 17:29:55 2000
+{x~
+Aby stworzyc nowa krainke korzystamy z polecenia {Yaedit{x
+skladnia : {Yaedit create {x   tworzy nowa krainke
+skladnia : {Yaedit nr {x   edytuje krainke o podanym numerze
+W wypadku tworzenia nowej krainy MUD przydziela kolejny numer.
+Aby sprawdzic numery krain wystarczy wpisac {Yalist{x.
+Po uzyciu komendy {Yaedit{x, {Yaedit create{X nalezy nacisnac
+jeszcze raz {REnter{X aby wywolac dostepne opcje. Tak samo bedzie
+w wypadku innych edytorow, {Yredit, medit, oedit, mpedit, opedit, rpedit ...{X
+Po wpisaniu {Yaedit create{X zobaczymy cos takiego:{C
+ 
+Name:     [   NR] New area
+File:     area0.are
+Vnums:    [0-0]
+Age:      [3]
+Players:  [0]
+Security: [1]
+Builders: [None]
+Credits : [(null)]
+Flags:    [added]
+{X
+ 
+Nalezy kraince nadac nazwe np: Moczary. Wpisujemy: {Yname Moczary{X
+Nalezy nadac nazwe dla pliku krainy np: moczary. Wpisujemy {Yfile moczary{x
+Nalezy przydzielic sobie {Yvnumy{X czyli zakres numerow pomieszczen.
+Poleceniem {Yalist{X wywolujemy liste krainek i szukamy jakiegos wolnego
+zakresu vnumow. Na poczatek polecam tworzenie ok 10-20 pomieszczen.
+Wpisujemy {Yvnum 5100 5110{X <- to tylko przykladowe numery, nalezy dokladnie
+przejrzec liste i znalezc wolne lokacje lub wziasc kolejne po najwyzszych.
+Sekcja {Ysecurity{x ustala kto moze grzebac w tej kraince (kazdy immo ma
+przydzielony poziom security), ustawiajac {Ysecurity{X na 9 dajemy dostep
+do krainki (mozliwosc edycji) tylko najwazniejszym osobom. Sekcja {YBuilders{X
+to wyjatek od security, czyli stwierdzenie kto jeszcze ma mozliwosc edycji
+krainki poza tymi z odpowiednio wysokim security. {R Uwaga{X, warto wpisac
+sie w sekcji {Ybuilders{X na wypadek gdyby ktos obnizyl nasze security.
+Przykladowa skladnia: {Ybuilder Feerial{X dodaje Feeriala do grona wybranych. :)
+Reszty lepiej nie dotykac. Krainka stworzona, numery przydzielone, builderzy
+wyznaczeni, plik nazwany, krainka nazwana.
+{C Jezeli obawiasz sie o owoce swojej pracy, mozesz w kazdym momencie wyjsc
+z dowolnego edytora poleceniem {Ydone{X i zapisac wszystko poleceniem
+{Yasave world{X
+~
+M970741590
+Feerial~
+{B[strona 2                        ]{x {WThu Oct  5 12:26:30 2000
+{x~
+Aby stworzyc nowe pomieszczenie uzywamy polecenia {Yredit create vnum{X
+gdzie {Yvnum{X to numer pomieszczenia (musi nalezec do zakresu numerow,
+jaki sobie przydzielilismy, lub nam przydzielono. Nowe pomieszczenia mozna
+rowniez tworzyc komenda {Ydig{X, skladnia {Ykierunek dig vnum{X. Roznica
+polega na tym ze redit create vnum tworzy pomieszczenie o danym numerze
+a kierunek dig vnum tworzy pomieszczenie nowe o podanym numerze i LACZY
+je za pomoca przejscia z tym w ktorym jestesmy. Dokladny opis tworzenia
+przejsc i uzywania {Ydig{X na stronie 3. Oczywiscie {Ckierunek{X to 
+[north, south, east, west]. 
+Redit create jest przydatne do stworzenia pierwszego pomieszczenia w kraince
+lub dowolnego innego ktorego (tymczasowo lub nie) nie chcemy laczyc
+z zadnym innym. Po wykonaniu {Yredit create vnum{X i wcisnieciu drugi
+raz {YEnter{X zobaczymy takie cos:
+{CName:       []
+Area:       [   NRa] Nazwa krainki
+Vnum:       [ vnum]
+Sector:     [inside]
+Room flags: [none]
+Characters: [twoje imie]
+Objects:    [none]
+{X
+Nazwa pomieszczenia nie musi byc unikatowa, ale jest widoczna dla graczy i trzeba
+nazywac pomieszczenia z rozsadkiem. {YName Na drodze{X nada taka wlasnie nazwe
+temu pomieszczeniu. Nazwy sa o tyle przydatne, ze:
+a) mozna sprawdzic liste stworzonych juz pomieszczen ->{Yredit, enter, rlist{X
+b)latwo robic mapki krainek
+c)pewnie jest jeszcze jakis powod ale go nie znam ...
+Area to nazwa krainki w ktorej jest pomieszczenie, nie mamy na to wplywu
+{YVnum{X to numer pomieszczenia, jego rowniez juz nie zmienimy.
+{YSector{X to typ pomieszczenia jezeli chodzi o koszt punktow {Ymv{X za przejscie
+oraz typ komunikatu pogodowego przypisanego do pomieszczenia.
+ 
+Dostepne sektory mozna wywolac poleceniem {Y? sector{X znaczenia powinniscie
+sie domyslic sami :) I niech nikt sobie nie mysli, ze jak da sector inside
+to nie bedzie widac komunikatow pogodowych. Od tego jest {Yroom indoors{X.
+Room flagi:
+{Ydark{X - jest zbojecko ciemno i nawet w dzien trzeba ze swiatlem.
+{Ysafe{X - nie mozna sie zabijac, mobow rowniez.
+{Yimp_only{X - tylko dla impow :) , chodzi zapewnie o implementor
+{Ylaw{X - na razie nie ma sensu.
+{Yno_mob{x - moby tam nie wchodza. Dobre do oddzielania kilku stref krainki.
+{Ysolitary{X - lokacja dwuosobowa. Reszta wynocha.
+{Ygods_only{X - tylko dla Bugow.
+{Ynowhere{X - pewnie cos znaczy ale jeszcze tego nie obadalem.
+{Yindoors{X - nie widac kom. pogodowych, wspoldziala z flagami mobow.
+{Ypet_shop{X - chodzilo pewnie o Pet Shop Boys :) . Na razie nie wykorzystane.
+{Yheroes_only{X - nie dla leszczy.
+{Ybank{X - mozna szastac pieniedzmi. Depozyt itp.
+{Yprivate{X - lokacja jednoosobowa.
+{Yno_recall{X - nie dziala tam czar {Cword of recall{X.
+{Ynewbies_only{X - tylko dla leszczy.
+{Yinn{X - mozna tam zakonczyc gre nie tracac gratow, czyli wynajac pokoj.
+{C Taka mala uwaga - jest opcja, ktorej nie widac, aby zrobic pomieszczenie
+dostepne tylko dla jednego gracza (imiennie) - np. wlasna siedzibe albo cos
+dodajemy {Yowner imie{C - od tego momentu zaden domokrazca tam nie wejdzie :) {X
+Reszta opcji nas nie powinna interesowac, czas na opisy.
+{RGeneralna uwaga:{X
+Opis pomieszczenia nie ma prawa sie skladac tylko i wylacznie ze streszczenia
+tego co jest na polnocy, poludniu itp. Co jest w ktorym kierunku bedzie widac
+jak sie gracz laskawie rozejrzy czyli sproobuje {Ylook nort{X itp.
+Skupcie sie na tym co jest w roomie, czy droga jest bita, czy brukowana,
+czy sa domy, trawa, drzewka itp. a nie tylko 'mozesz isc na N i S'
+{ROpis rooma{X
+komenda {Ydesc{X wrzuci nas do edytora tekstowego, gdzie mozemy spokojnie
+wklepac opisik pomieszczenia. Opis komend edytora na koncu poradnika
+oraz dostepny z samego edytora pod {Y.h{X
+{RCo zobaczy gracz gdy spojrzy w jakims kierunku{X
+komenda {Ykierunek desc{X kierunek to : [north, south, east, west, up down]
+Oczywiscie pisanie opisu na north, w momencie gdy nie ma tam wyjscia
+mija sie z celem.
+{ROpisy dodatkowe, tzw virtual-objects{X
+Hmm, aby w roomie bylo drzewko wcale nie trzeba tworzyc obiektu,
+to samo sie tyczy tablic, drogowskazow i wszystkiego co ma ubarwic
+pomieszczenie lub pomoc graczom. Da sie stworzyc {Ykeyword{X tak,
+ze mud bedzie reagowal na {Ylook keyword{X tak jakby byl to obiekt.
+Oczywiscie takiego obiektu nie da sie wziasc ani zjesc to tylko kolejny
+opisik slowny, nie mniej jednak bardzo przydatny.
+Jesli chcemy zeby wisial sobie szyld piszemy: {Yed add szyld{X
+i smarujemy sobie co tam jest na szyldzie, dostepne jest rowniez 
+{Yed edit szyld{X jesli chcielibysmy potem cos poprawic.
+~
+M970942990
+Feerial~
+{B[strona 3                        ]{x {WSat Oct  7 20:23:10 2000
+{x~
+Na poczatek o innym sposobie tworzenia pomieszczen, czyli {Ydig{X.
+Skladnia {Y[kierunek] dig [vnum]{X
+Komenda ta tworzy pomieszczenie o danym numerze oraz polaczenie
+z rooma, w ktorym jestesmy do nowo stworzonego.
+Jezeli chcemy po prostu polaczyc przejsciem dwa pomieszczenia
+wystarczy stojac w jednym uzyc komendy {Ylink{x
+Skladnia {Y[kierunek] link [vnum]{X
+Dziala tak samo jak dig tyle ze nie tworzy nowego rooma a jedynie
+polaczenie do juz istniejacego.
+Moze sie zdarzyc, ze chcemy aby z kilku pomieszczen dalo sie wejsc do
+jednego, na przyklad taka przepasc - nie trzeba robic kilku(nastu)
+lokacji {yPrzepasc{X, wystarczy stworzyc jedna i rzucic ilestam linkow.
+Wazne jest to ze linki nalezy robic nie z lokacji, z ktorej mozna wpasc
+do 'przepasci' ale z 'przepasci' do tych lokacji.
+Pomieszczenia mozna jeszcze laczyc za pomoca {Croom programow{X ale
+to osobna sprawa i jest na ten temat osobna ksiega (nr 51).
+Oke, teraz sprawa drzwi, wstawia sie je dosc prosto:{Y[kierunek] door{X
+Drzwi moga miec nastepujace flagi:
+{Yclosed{X po resecie krainki i reboocie drzwi beda zamkniete.
+{Ynopass{X nie do przejscia pod wplywem czaru {Cpass door{X
+{Ynoclose{X nie da sie ich zamknac
+{Yeasy{X latwe dla skilla {Cpick lock{X lub {Ybash door{X
+{Yhard{X jak wyzej tylko ze trudne
+{Ynolock{X bez zamka, dobre w polaczeniu z {Ylocked{X
+{Ylocked{X drzwi laduja sie jako zamkniete na klucz
+{Ypickproof{X odporne na wlamania wytrychem :)
+{Yrandom{X nie testowalem
+{Yinfuriating{X jak wyzej
+Aby dodac jakas flage wpisujemy {Y[kierunek] [flaga]{X
+Drzwi (wyjscia) maja jeszcze pole {Yname{X tak ze mozna im nadawac
+nazwy ale jest jeszcze klopot z odmiana takich nazw, wiec nie ma co szalec.
+~
+M971054673
+Feerial~
+{B[Strona 4                        ]{x {WMon Oct  9 03:24:33 2000
+{x~
+Aby sprawdzic liste mobow w danej kraince wystarczy uzyc polecenia
+{Yredit{X + vnum pomieszczenia z tej krainy a nastepnie {Ymlist all{X.
+Aby stworzyc nowego moba piszemy {Ymedit create [vnum]{X a nastepnie
+standardowo 2 * enter. Zobaczymy cos mniej wiecej takiego:
+Name:        [no name]
+Area:        [   38] Miasto Arras
+Dopelniacz:  [null]
+Celownik:    [null]
+Biernik:     [null]
+Narzednik:   [null]
+Miejscownik: [null]
+Act:         [npc]
+Vnum:        [ 6199] Sex:   [neutral]   Race: [unique]
+Level:       [ 0]    Align: [   0]      Hitroll: [ 0] Dam Type:    [none]
+Hit dice:    [ 0d0  +   0] Damage dice: [ 0d0  +   0] Mana dice:   [ 0d0  +   0]
+Affected by: [Sorry no comments]
+Stats:       [str: 13  int: 13  wis: 13  dex: 13  con: 13]
+Armor:       [pierce: 100  bash: 100  slash: 100  magic: 100]
+Form:        [none]
+Parts:       [none]
+Imm:         [none]
+Res:         [none]
+Vuln:        [none]
+Off:         [none]
+Size:        [medium]
+Material:    [unknown]
+Start pos.   [standing]
+Default pos  [standing]
+Wealth:      [    0]
+Short descr: (no short description)
+Long descr:
+(no long description)
+Description:
+ 
+{Yname{X to nazwa moba, a raczej lista slow na jakie bedzie reagowal.
+Na rzyklad jezeli jest to Brudny mag Alojzy to powinnismy wpisac:
+{Yname mag brudny brudas alojzy{X. Nastepnie trzeba sie zdecydowac
+ktora nazwa bedzie uzywana w interakcjach z graczami (np. Alojzy), ustalic
+ja poleceniem {Yshort Alojzy{X, potem ladnie odmienic: {Xodm dop Alojzego,
+odm cel Alojzemu, odm bier Alojzego, odm narz Alojzym, odm miejsc Alojzym{X.
+Nastepnie ustalamy co bedzie widzial gracz wchodzac do rooma:
+polecenie: {Ylong W kacie stoi brudny mag Alojzy{X. Potem mozna sieknac
+mu jakis fajny opis: komenda {Ydesc{X. Mozemy mu ladnie ustawic statystyki:
+{Ystats str int wis dex con{X wpisujac odpowiednie liczby (max 25).
+Wypadaloby ustawic level, choc zalezy od niego {RTYLKO{X ilosc exp za zabicie
+i ilosc (jakosc) dostepnych czarow - komenda {Ylevel XX{X. Podobnie ustawiamy
+rase -> {Yrace czlowiek{X. Dostepne rasy wywolujemy {Y? race{X. Morale moba
+ustawia sie przez {Yalign 500{X. Hitrolla nie zmieniac bez porozumienia z koderami.
+Damtype to rodzaj zadawanych obrazen, dostepne mozliwosci -> {Y? weapon{X.
+Hitdice to ilosc HP jakie bedzie mial mob, gdzie d oznacza dice czyli kosc
+wiec ustalamy ile kostek ilosciennych plus ile :). Zaleca sie 15 - 20 hp na level
+czyli wpisujemy {Y[level] d 6 + [level*14]{X. Damage dice to ilosc zadawanych
+obrazen i tu trzeba poglowkowac samemu. {RMana dice nie ustawia sie !!!{X
+Dostepne typy {Yact{X:
+{Ysentinel{X - stoi w miejscu, nie szwenda sie po okolicy
+{YscavengerX - podnosi wszystko z ziemi
+{Ymountable{X - da sie go dosiasc
+{Ymemory{X - ?
+{Yaggressive{X - agresywny -> atakuje graczy
+{Ystay_area{X - nie wychodzi z krainki
+{Ywimpy{X - tchorz, ucieka z walki chyba ponizej 50% hp
+{Ypet{X - zwierzak gracza, nie uzywac na razie
+{Ypractice{X - mob u ktorego mozna praktykowac (nie uzywac)
+{Yundead{X - nie wiem czy ma jakies czarki ale sa pewne zasady do undeadow :)
+{Ymage, cleric, warrior, thief{X - moby moga uzywac skillow tych profesji
+a co wiecej {R czarow{X.
+{Ynoalign{X - prawdopodobnie align moba nie ma wplywu na gre i exp za niego.
+{Ynopurge{X - moba nie da sie sczyscic poleceniem purge, dobre dla rezydentnych NPC
+{Youtdoors{X - nie wlazi do lokacji {Yroom indoors{X
+{Yindoors{X - nie wlazi do lokacji {Yroom outdoors{X
+{Yhealer{x - daje czarki (za kase)
+{Ygain{X - nie uzywac
+{Yupdate always{X - ?
+{Ychanger{X - rozmienia kase, wymienia monety
+Actow mob moze miec kilka dodaje sie je komenda {Yact mage{X na przyklad :)
+Armorow rowniez lepiej nie zmieniac, po ustawieniu rasy mud sam zmieni minimalnie
+armor dla 'twardoskorych' jezeli nie to mozna w yjatkowych przypadkach obnizyc do 90.
+{YForm{X i {Yparts{X nie warto zmieniac, {Yimm{X to odpornosc, mozna sprawdzic
+dostepne pod {Y? imm{X , podobnie {Yres{X to czesciowa odpornosc i {Yvuln{X to
+podatnosc. {YOff{X ustala ofensywne dzialania moba -> {Y? off{X.
+Size jak kazdy wie to rozmiar, ma wplyw na to jak beda wchodzic skille zwiazane
+z wielkoscia postaci, moze dawac przewage lub przeszkadzac w walce.
+{YStart pos.{X to pozycja w jakiej sie laduje mob (siedzi, stoi, lezy).
+{Ydefault pos.{X to jego ulubiona pozycja. Wealth zas, to kasa jaka ma przy sobie.
+Uprasza sie o oszczednosc :)
+~
+S

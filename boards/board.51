@@ -1,0 +1,444 @@
+Messages
+M960314555
+Razor~
+{B[tytulowa strona                 ]{x {WTue Jun  6 20:02:35 2000
+{x~
+{B^f#######    #######      #######     ######      ##
+##    ##   ##    ##    ##    ##    ##    ##     ##
+##    ##   ##    ##    ##    ##    ##           ## 
+#######    #######     ##    ##    ##    ###    ##
+##         ##    ##    ##    ##    ##    ##     ##
+##         ##    ##    ##    ##    ##    ##     ##
+##         ##     ##    ######      ######      ##{x
+
+                 {BCzê¶æ pierwsza{x
+           czê¶æ druga ma numer 48
+
+       {GWielka ksiega objawien i rewelacji!!!{x
+       
+Widzisz na nastepnej stronie dlugi spis tresci....
+       
+ 
+~
+M960314696
+Razor~
+{B[spis tresci                     ]{x {WTue Jun  6 20:04:56 2000
+{x~
+> 1. Spis tresci
+  2. Trigery mobow  
+  3. Trigery obiektow
+  4. Trigery roomow
+  5. Ifcheki
+  6. Funkcje progowe (mob i char)
+  7. Funkcje progowe (obj)
+ 
+~
+M960315683
+Razor~
+{B[test                            ]{x {WTue Jun  6 20:21:23 2000
+{x~
+{RTrigersy dla mobow{x
+
+{CDla niezorientowanych, trigery sa to 'wyzwalacze' progow 
+na skutek jakis okolicznosci{x
+
+{RW nawiasach argumenty{x
+
+{Cact{x       (dowolny ciag znakow np "wstaje")
+{Cbribe{x     (liczbowo wartosc srebra)
+{Cdeath{x     (procentowo szansa przy smierci moba)
+{Centry{x     (procentowo przy wchodzeniu moba do jakiegos rooma)
+{Cfight{x     (procentowo przy kazdej rundzie walki)
+{Cgive{x      (vnum obiektu jaki sie daje mobowi)
+{Cgreet{x     (procentowo przy wchodzeniu do roomu z mobem)
+{Cgrall{x     (to samo tyle ze zawsze nawet jak nie widzi gracza)
+{Ckill{x      (procentowo przy rozpoczeciu walki z mobem)
+{Chpcnt{x     (procentowo hp moba w kazdej rundzie walki)
+{Crandom{x    (procentowo co kilka sekund jesli nie walczy albo spi)
+{Cspeech{x    (reaguje na jakis ciag znakow np "czesc stary")
+{Cexit{x      (przy wychodzeniu z rooma w jakims kierunku [wartosci 0-5])
+{Cexall{x     (to samo tyle ze bez sprawdzania czy widzi mob gracza)
+{Cdelay{x     (procentowo przy skonczeniu odliczania zwyklego delaya)
+{Csurr{x      (przy poddawaniu sie mobowi)
+{Ctell{x      (to samo co speech tyle ze na komende tell)
+{Ctime{x      (0-23, czyli o ktorej godzinie ma cos mob zrobic)
+{Cask{x	      (to samo co act, tyle ze na komende 'ask')
+{Conload{x    (procentowo przy kazdym ladowaniu moba do roomu)
+{Conehit{x    (procentowo w momencie kiedy mob zadaje cios)
+{Chit{x       (procentowo w momencie kiedy mob kogos trafi)
+~
+M960316373
+Razor~
+{B[trigobjs                        ]{x {WTue Jun  6 20:32:53 2000
+{x~
+{RTrigersy dla obiektow{x
+
+{CDla niezorientowanych, trigery sa to 'wyzwalacze' progow 
+na skutek jakis okolicznosci.
+Object progi dla random sa liczone co tick...{x
+
+{RW nawiasach argumenty{x
+
+{Cact{x       (nie zrobione)
+{Cfight{x     (procentowo, w kazdej rundzie walki wlasciciela)
+{Chpcnt{x     (procentowo, jesli hp wlasciciela spadna ponizej tej granicy) 
+{Crandom{x    (procentowo przy kazdym TICKU)
+{Cwear{x      (procentowo, przy zakladaniu)
+{Cprewear{x   (procentowo, zanim przedmiot zostanie za³o¿ony)
+{Cget{x       (procentowo, przy podnoszeniu)
+{Cdropr{x     (bez argumentow, przy zjadaniu, piciu, lykaniu...)
+{Csac{x       (procentowo, przy poswiecaniu)
+{Cput{x       (vnum kontenera do jakiego wsadzamy obiekt)
+{Cremove{x    (procentowo, przy zdejmowaniu obiektu z siebie)
+{Cpreremove{x (procentowo, zanim przedmiot zostanie zdjêty)
+{Cinput{x     (dowolny ciag znakow, dla lezacych na ziemi lub noszonych)
+{Cconnect{x   (bez argumentow, przy laczeniu obj_piece)
+{Cconsume{x   (bez argumentow, przy zjadaniu, piciu, lykaniu...)
+{Cflagoff{x   (nazwa flagi, triger uruchamia sie gdy ta flaga schodzi)
+{Cuse{x       (typ uzywania:off, def, obj, self, xxx)
+	      off: typ ofensywny, uzycie bedzie sie wiazalo z odwetem
+	      def: inne dzialania, leczenia, obronne, etc
+	      obj: celem jest obiekt w inventory
+	      self: celem moze byc tylko wlasciciel obiektu
+	      kazdy inny tekst interpretowany jest jako self :)
+{Cobjlock{x   (procentowo przy zamykaniu obiektu na klucz)
+{Cobjunlock{x (procentowo przy 'odkluczaniu' obiektu)
+{Cobjopen{x   (procentowo przy otwieraniu obiektu)
+{Cobjclose{x  (procentowo przy zamykaniu obiektu)
+{Conehit{x    (procentowo, tylko dla broni, przy zadawaniu ciosu)
+{Chit{x       (procentowo, dla broni, przy trafieniu i zadaniu obrazen)
+
+
+~
+M960316382
+Razor~
+{B[trigrooms                       ]{x {WTue Jun  6 20:33:02 2000
+{x~
+{RTrigersy dla roomow{x
+
+{CDla niezorientowanych, trigery sa to 'wyzwalacze' progow 
+na skutek jakis okolicznosci.
+Object progi dla random sa liczone jak dla mobow...{x
+
+{RW nawiasach argumenty{x
+
+{Cact{x       (ciag znakow)
+{Centry{x     (procentowo przy wchodzeniu do rooma)
+{Crandom{x    (procentowo przy kazdym mini TICKU czyli impulsie)
+{Cspeech{x    (ciag znakow, przy mowieniu czegos)
+{Cexit{x      (liczba [0-5], przy wychodzeniu z rooma w jakims kierunku)
+{Cdelay{x     (procentowo przy skonczeniu zliczaniu delay)
+{Cinput{x     (dowolny ciag znakow wpisany w roomie)
+{Csit{x       (vnum obiektu na ktorym siadamy badz "none")
+{Crest{x      (to samo co sit)
+{Csleep{x     (to samo co sit)
+{Creset{x     (procentowo przy resecie rooma)
+{Cunlock{x    (liczba [0-5] przy odkluczaniu)
+{Clock{x      (liczba [0-5] przy zamykaniu na klucz)
+{Copen{x      (liczba [0-5] przy otwieraniu)
+{Cclose{x     (liczba [0-5] przy zamykaniu)
+{Ctickrandom{x (procentowo przy TICKU)
+{Ctime{x      (czas, odpalany jesli zgadza sie 'czas' ;))
+~
+M960316399
+Razor~
+{B[ifchlk                          ]{x {WTue Jun  6 20:33:19 2000
+{x~
+Ifchk sa to po prostu instrukcje sterujace przebiegiem proga.
+Typowa skladnia z ifchk wyglada mniej wiecej tak:
+ 
+ if isgood $n
+ mob costam
+ ....
+ else
+ mob costam
+ ...
+endif
+ 
+Uwaga: jesli bedzie rozna ilosc if i endif moga byc problemy wiec pilnujcie sie.
+ 
+Teraz najwazniejsze czyli lista ifcheckow:
+
+{RIFCHECKS z tylko jednym argumentem{x
+
+{Cif rand 30{x   (sprawdzanie losowej wartosci)
+{Cif mobhere <nazwa albo vnum>{x  (czy jest tu ten mob)
+{Cif objhere <nazwa|vnum>{x       (czy jest tu ten obiekt)
+{Cif mobexist <nazwa|vnum>{x      (czy na mudzie jest ten mob)
+{Cif objexits <nazwa|vnum>{x      (czy na mudzie jest ten obiekt)
+{Cif exithere <exit (0-5)>{x       (czy w roomie jest dany exit)
+{Cif ispc $n{x                    (czy $n to gracz)
+{Cif isnpc $n{x                   (czy $n to mob)
+{Cif isgood $n{x                  (czy $n jest dobry)
+{Cif isevil $n{x                  (czy $n jest zly)
+{Cif isneutral $n{x               (czy $n jest neutralny)
+{Cif isimmort $n{x                (czy $n jest bogiem)
+{Cif ischarm $n{x                 (czy $n jest zauroczony)
+{Cif isfollow $n{x                (czy $n idzie za kims)
+{Cif isactive $n{x                (czy $n nie spi)
+{Cif isdelay $n{x                 (czy $n ma delay - tylko dla mobow)
+{Cif isvisible $n{x               (czy mob/supermob widzi $n)
+{Cif hastarget $n{x               (czy $n ma cel - tylko ma sens dla mobow)
+{Cif istarget $n{x                (czy $n jest celem moba/supermoba)
+{Cif roomhasflag flaga{x          (czy room ma flage 'flaga')
+
+ 
+{RIFCHECKS z dwoma argumentami bez operatorow arymetycznych{x
+ 
+{Cif affected $n blind{x          (czy $n jest pod dzialaniem 'blind')
+{Cif act $n sentinel{x            (czy $n ma act sentinel - moby tylko)
+{Cif off $n kick{x                (czy $n "umie" kopac - tylko moby)
+{Cif imm $n fire{x                (czy $n jest odporny na ogien)
+{Cif carries $n miecz{x           (czy $n nosi obiekt miecz|vnum)
+{Cif wears $n kolczuga{x          (czy $n nosi na sobie kolczuge|vnum)
+{Cif has $n <item_type>{x         (czy $n ma przy sobie obiekt typy x)
+{Cif uses $n <item_type>{x        (czy $n nosi na sobie obiekt typu x)
+{Cif pos $n standing{x            (czy $n stoi)
+{Cif clan $n costam{x             (czy $n nalezy do klanu costam)
+{Cif race $n smok{x               (czy $n to smok)
+{Cif class $n wojownik{x          (czy $n to wojownik)
+{Cif objtype $p scroll{x          (czy $p jest typu scroll)
+{Cif hasflag $n leszcz{x          (czy $n ma flage leszcz)
+{Cif magspec $n 0{x		  (czy $n ma specjalizacje hmm..z poznawaniu?) 
+ 
+{RIFCHECKS z dwoma lub jednym argumentami i operatorami arytmetycznymi{x
+
+{RMozliwe operatory arytmetyczne:
+[ == ]  [ <= ]  [ >= ]  [ < ]  [ > ]  [ != ]{x
+
+
+
+{Cif people > 4{x                 (czy w roomie jest wiecej niz 4 ppl)
+{Cif players > 1{x                (czy w roomie jest wiecej niz 1 pc)
+{Cif mobs > 2{x                   (czy w roomie jest wiecej niz 2 npc)
+{Cif clones > 3{x                 (czy w roomie wiecej niz 3 takie same moby)
+{Cif order == 0{x                 (hmm tu to nie wiem)
+{Cif hour > 11{x                  (sprawdzanie godziny)
+{Cif dayofweek == 1{x             (czy dzis jest pierwszy dzien tygodnia)
+{Cif dayofmonth == 20{x           (czy dzis jest 20-sty dzien miesiaca)
+{Cif month < 3{x		  (czy mamy 1 badz drugi miesiac)
+{Cif vnum $n== 31{x               (sprawdzanie vnuma)
+{Cif hpcnt $n > 30{x              (czy $n ma wiecej niz 30% hp)
+{Cif room $n == 31{x              (czy room ma konkretny vnum)
+{Cif sex $n == 0{x                (sprawdzanie plci)
+{Cif level $n < 5{x               (sprawdzanie levela)
+{Cif align $n < 0{x               (sprawdzanie alignmentu)
+{Cif grpsize $n > 6{x             (sprawdzanie rozmiaru grupy)
+{Cif statstr $n > 14{x               (test statsow)
+{Cif statinv $n == 20{x              (test statsow)
+{Cif statwis $n < 10{x               (test statsow)
+{Cif statdex $n > 15{x               (test statsow)
+{Cif statcon $n > 12{x               (test statsow)
+{Cif height $n > 120{x		     (czy $n ma powyzej metra dwadziescia)
+{Cif weight $n > 1200{x              (czy $n ma ponad 120kg-mnoznik dziesiec)
+{Cif objflag $o reg2 > 4{x           (sprawdzanie duration flagi obj)
+{Cif charflag $n reg2 > 4{x          (sprawdzanie duration flagi mob)
+{Cif roomflag $n reg2 > 4{x          (sprawdzanie duration flagi room)
+
+
+
+{R To tyle o ichcheckach, jesli ktos chce dodac nowy walcie to na tablice{x
+~
+M960321894
+Razor~
+{B[commands                        ]{x {WTue Jun  6 22:04:54 2000
+{x~
+{RDla wszystkich progow jest ten sam zbior komend.
+Oprocz dowolnych komend dostepnych graczom jak drink, sit etc 
+istnieja komendy zaczynajace sie od mob ....{x
+
+
+{RKomendy mob ... :{x
+{Casound{x  {R(tekst){x
+Wyswietla tekst do wszystkich w roomie
+{Cgecho{x   {R(tekst){x
+Wyswietla tekst do wszystkich aktywnych graczy
+{Czecho{x   {R(tekst){x
+Wyswietla tekst do wszystkich aktywnych graczy w tej samej krainie
+{Ckill{x    {R(name){x
+Komenda tylko dla mprogow, mob atakuje gracza/moba i tym name
+{Cassist{x  {R(name){x
+Komenda tylko dla mprogow, mob assystuje graczowi/mobowi
+{Cjunk{x    {R(name){x
+Niszczy wszystkie obiekty o nazwie name (mozliwe np all.xxx)
+{Cecho{x    {R(tekst){x
+Wyswietla tekst do wszystkich w roomie
+{Cechoaround{x  {R(name tekst){x
+Wyswietla tekst do wszystkich w roomie oprocz 'name' i moba
+{Cechoat{x  {R(name tekst){x    
+Wyswietla tekst tylko do 'name'
+{Coload{x   {R(vnum, nic albo 'R' lub 'r' albo 'W' badz 'w'){x
+Laduje obiekt vnum, jesli nie podany drugi to do inventory moba
+jesli 'W' badz 'w' mob zaklada dany obiekt
+'R' badz 'r' laduje do rooma
+{Coload{x   {R(vnum I vnum_kontenera){x
+Laduje obiekt vnum do kontenera o vnumie vnum_kont lezacego na ziemi.
+{Cmload{x   {R(vnum){x 
+Laduje do danego rooma moba o vnumie 'vnum'
+{Cpurge{x   {R(name lub nic){x
+Dziala jak komenda immo purge
+{Cgoto{x    {R(vnum){x
+Przenosi moba do innego rooma
+{Cat{x      {R(vnum){x
+Dziala tak samo jak at immo
+{Ctransfer{x  {R(name|all  lokacja){x
+Przenosi dp innej lokacji all badz jedna osobe
+{Cgtransfer{x {R(name lokacja){x
+Przenosi 'name' wraz z jego grupa do nowej lokacji
+{Cotransfer{x {R(name lokacja){x
+Przenosi obiekt do innej lokacji
+{Cforce{x     {R(name komenda){x
+Zmusza 'name' do zrobienia czegos
+{Cgforce{x    {R(name komenda){x
+To samo co force tyle ze na cala grupe
+{Cvforce{x    {R(vnum komenda){x
+Zmusza moby o vnumie 'vnum' do wykonania komendy
+{Ccast{x      {R(spell victim [opcjonalnie poziom czaru]){x
+Mob rzuca zaklecie 'spell' na 'name'
+Jesli nie podano poziomu zaklecia, poziom taki jak rzucajacy.
+{Cdamage{x    {R(all|name mindamage maxdamage [3 jesli podany to nie zabije]){x
+Zadaje obrazenia w danym roomie
+{Cremember{x  {R(name){x
+Mob zapamietuje 'name'
+{Cforget{x    {R(nic){x
+Mob zapomina kogo mial pamietac :)
+{Cdelay{x     {R(pulse){x
+Mob bedzie czekal iles pulsow po czym wyzwoli trigera delay
+{Ccancel{x    {R(nic){x 
+Przerywa mob delay
+{Ccall{x      {R(vnum proga){x
+Wyzwolenie innego proga, bardzo ryzykowne, nie uzywac :)
+{Cflee{x      {R( nic ){x
+Mob ucieka
+{Cremove{x    {R(victim object vnum/all){x
+Zdejmujemy i usuwamy komus graty: mob remove Heniek all, mob remove Henniek 4224
+{Csetflag{x   {R(victim flagname timer){x
+Nakladamy komus flage:mob setflag Heniek byltu 0
+Flaga bedzie nosic nazwe byltu i jej licznik bedzie rowny 0
+Wartosci licznika:
+( 0 )  - flaga aktywna tylko do rebootu
+wieksze od zera - flaga aktywna iles tickow, zapisywana w pliku gracza
+( -1 ) - na wiecznosc
+{Cremoveflag{x{R(victim flagname){x  
+Usuwa komus flage: mob removeflag Heniek byltu
+{Cequip{x     {R(victim obj_vnum){x
+Zaklada komus na sile graty:mob equip Heniek 31
+Oczywiscie jesli ktos nie moze nosic to nie da rady :)
+{Creward{x    {R(victim field value){x
+Nagradzanie :)
+mob reward kto co ile : kto - czyli ofiara, co - o tym nizej, ile wiadomo liczbowo
+Typy 'co':
+- exp    - wiadomo przyznajemy komus expa
+- wait   - dajemy komus waitstate :), przydatne w roomprogach
+- silver - dajemy cos pieniazkow
+- nazwa skilla/spelle - modyfikuje skille/spelle
+- hunger - modyfikujemy zarlocznosc (dodajemy do obecnej wartosci)
+- thirst - modyfikujemy pragnienie  (dodajemy do obecnej wartosci)
+- sleepy - modyfikujemy sennosc     (dodajemy do obecnej wartosci)
+{Clock{x      {R(object or exit){x
+Zamyka silowo drzwi i pojemniki.
+mob lock obiekt/wyjscie 
+{Cunlock{x    {R(object or exit){x
+To samo tylko w druga strone
+{Copen{x      {R(object or exit){x
+Otwiera wyjscie/obiekt bez wywalania opisu.
+{Cclose{x     {R(object or exit){x
+Zamyka obiekt w ten sam sposob co powyzej.
+{Csetrent{x   {R(victim room_vnum){x
+Ustawia komus vnum ostatniego rentowania.
+{Cclearmem{x    {R(victim procent/all){x
+Kasuje procentowo zapamietane spelle, calkowicie jesi dane all
+mob clrmem Heniek all
+{Csethhf{x    {R(mob fear/hate/hunt victim){x
+Hmm ustawia hunt fear hate mobom na kogos 
+{Cexit{x      {R(exit_name ...){x
+Modyfikacja wyjsc z proga, to samo co w redit
+{Csetaff{x    {R(victim aff_vector duration > 0){x
+Pozwala naklada na jakis czas komus jakas flage, bez rzucania zaklecia
+mob setaff Heniek fly 3
+no i Heniek pofruwa sobie 4 ticki :)
+{Caddaff{x    {R(victim apply duration){x
+Umozliwia nakladanie na jakis czas apply na kogos
+mob addaff Heniek damr 3 1
+Heniek bedzie mial damroll +3 na 2 ticki (liczymy od zera)
+{Cmodflag{x   {R(victim/room mod/set id_flagi value){x
+To samo co obj modflag tyle, ze dla roomow i postaci.
+{Croomdesc{x  {R(clear/add/format Tekst){x
+Dosc specyficzna komenda, pozwala zmieniac opis roomu z poziomu progow.
+Przydaje sie to gdy cos sie w roomie zdarzy i przdaloby sie zmienic opis.
+Sposob uzycia:
+mob roomdesc clear (czysci opis roomu, niezbedne!)
+mob roomdesc add Jakies jedno zdanie. (wpisujemy 1 zdanie)
+mob roomdesc add Jakies nastepne zdanie. (i tak ile tych nowych zdan jest)
+mob roomdesc format (formatujemy ten tekst, wyglada jak spod olc)
+mozna probowac wpisywac caly opis jednym mob roomdesc add ....,
+ale nie wiem czy bedzie ok. Wyjdzie w praniu ogolnie.
+{Cmesg{x  {R(caster victim char/victim/room Tekst){x
+Nie bede opisywal bo do tylko do prewaitow, rozwiazuje problem castet==victim.
+{Conehitmod{X  {R(hitroll_liczba  damroll_liczba){x
+pozwala z proga modyfikowac cios, dziala w polaczeniu z triggerem
+onehit (do broni badz moba). podane wartosci sa dodawane do normalnie
+wygenerowanych.
+{Caddgroup{X  {R(vnum moba przylaczanego do grupki){x
+po tej komendzie do grupki moba wykonujacego prog, zostanie dodany koles do 
+grupki. jesli ktos chce tworzyc grupki, najlatwiej zrobic to uzywaja addgroup
+w triggerze {Conload{x
+{Cdamageex{x    {R(all|name damage_type mindamage maxdamage [3 jesli podany to nie zabije]){x
+dziala jak funkcja 'damage' tyle, ze ma dodany typ obrazen. w ten sposob mozna
+powodowac obrazenia od kwasu, elektrycznosci, ognia.
+wartosci dam_type:
+0 - NONE (czyli wirtualny damage ;), taki co to zawsze wchodzi)
+1 - BASH
+2 - PIERCE
+3 - SLASH
+4 - FIRE
+5 - COLD
+6 - LIGHTNING
+7 - ACID
+8 - POISON
+~
+M979472069
+Razor~
+{B[objcmds                         ]{x {WSun Jan 14 12:34:29 2001
+{x~
+{RRazem z pojawieniem sie flag na obiektach, komendy use zaistnial pewien 
+problem. Komendy mob xxx sa dwu-argumentowe: pierwszy  argument to mob
+dla mobprogow, dla room i obj progow supermob (mob vnum 3), drugi jest
+to ciag znakow zawierajacy np kto jest celem komendy, liczby...
+W przypadku skomplikowanego obj proga moze byc pewien problem, gdyz operujemy
+na obiektach tylko przez nazwe. Jesli ktos bedzie mial kilka takich samych 
+obiektow nie wiadomo ktory dokladnie obiekt bedzie celem komendy. W przypadku
+gdy wiadomo ze ktos moze miec tylko jeden interesujacy nas obiekt, badz istotne
+jest czy w ogole ma dany obiekt, to wtedy wszystko jest w porzadku.
+Jednak czasami (prog input objprogow, komenda use) podstawowym warunkiem 
+poprawnego dzialania proga jest odwolywanie sie do konkretnego obiektu.
+Komendy obj xxx podobnie jak komendy mob xxx sa dwu-argumentowe, z tym ze,
+piewszy argument jest obiektem na ktorym wykonujemy jakies operacje.
+{x
+
+
+{CKomendy obj xxx:{x
+
+{Csetflag{x     {R(nazwa_flagi duration{x
+Naklada na obiekt flage (obiekty w inv graczy zapisywane sa w pliku razem
+aktualnie nalozonymi flagami).
+obj setflag used 4
+{Csetobj{x      {R(field value){x
+Pozwala modyfikowac niektore wartosci obiektow (aktualnie tylko timer).
+np: obj setobj timer 2
+spowoduje to rozpadniecie sie obiektu po 3 tickach.
+{Cmodflag{x	{R(set/mod id_flag value){x
+Pozwala modyfikowac wartosc 'duration' flag na danym obiekcie.
+Przydatna komenda dla flag typu regX (X - liczba). Flagi typu regX
+nie sa modyfikowane przez kod muda, wiec jedyny sposob na zmiane wartosci
+duration jest wlasnie ta komenda.
+np: obj modflag mod reg2 1
+spowoduje to inkrementacje duration flagi reg2 o 1
+obj modflag mod reg2 2
+to samo, tyle ze inkrementujemy o 2
+obj modflag set reg2 0
+ustawia wartosc duration flagi reg2 na 0
+{Cremove	{R(){x
+Usuwa obiekt.
+~
+S

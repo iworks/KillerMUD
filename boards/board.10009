@@ -1,0 +1,167 @@
+Messages
+M959968490
+Razor~
+{B[spis tresci                     ]{x {WFri Jun  2 19:54:50 2000
+{x~
+Gruba ksiega o sztywnych okladkach. Przewracasz strone i widzisz cos 
+na ksztalt spisu rozdzialow.
+ 
+1. Wyrob ksiag, czyli jak to sie robi.
+2. Czytanie ksiag
+3. Edycja rozdzialow i calej reszty
+4. Ogolne rady
+5. Off topic: Jak sie robi item_sets...
+ 
+            Pozdrowienia Razor
+~
+M959968838
+Razor~
+{B[2                               ]{x {WFri Jun  2 20:00:38 2000
+{x~
+Po pierwsze ksiegi badz rozne rzeczy ksiegopodobne sa pochodna od tablic
+wiec musisz dac obiektowi typ BOARD i reszte wedle uznania
+Na poczatku nie wstawiajcie flagi WEAR TAKE, dlaczego zaraz wyjasnie.
+W przypadku ksiag wazne jest jedno:
+- normalnie tablica stoi gdzies i przy patrzeniu na nia wypisywane sa 
+wiadomosci w stylu [kto tytul data] i dalej wiadomomsc
+dla ksiag wygladaloby to badziewnie wiec tytul wiadomosci nie jest wyswietlany
+w przypadku ksiag przy patrzeniu wyswietlany jest description ksiegi
+plus tresc pierwszej wiadomosci. 
+rozroznienie czy jest to tablica czy ksiega polega na sprawdzeniu wlasnie
+flagi WEAR TAKE. 
+przy czytaniu wiadomosci numer jest automatycznie zwiekszany o jeden
+zeby nie bylo widac tytulowej strony
+~
+M959969176
+Razor~
+{B[3                               ]{x {WFri Jun  2 20:06:16 2000
+{x~
+Czytanie jest banalne:
+read <obiekt> numer_wiadomosci (1-...)
+przypominam nie jest wyswietlany tytul wiadomosci, tylko sama tresc
+~
+M959969244
+Razor~
+{B[3                               ]{x {WFri Jun  2 20:07:24 2000
+{x~
+Jako ze tekst przypisany ksiazce nie jest zapisywany w pliku krainki
+tylko w pliku tablic, w przypadku zmiany dokonanej przez immo wszyscy
+posiadajacy ksiegi beda mieli zmieniony tekst automatycznie.
+wlasnie ze wzgledu na ta wlasciwosc nie mozna zrobic ksiag w stylu
+notatnika, czyli zeby gracze mogli sobie cos notowac.
+ 
+Ogolny algorytm tworzenia ksiag:
+- tworzymy obiekt typu tablica
+- nie zaznaczamy wear take
+- ladujemy ksiege do roomu (komenda write dziala tylko na obiekty w roomie)
+- writem tworzymy wiadomosci, nalezy pamietac o tym ze
+  1 wiadomosci to strona tytulowa niedostepna komenda read
+  wyswietlana jest przy patrzeniu na ksiege badz examinowaniu jej
+- po wypelnieniu ksiegi nalezy zmodyfikowac w olc wear dodajac flage TAKE
+- w tym momencie ksiega juz jest gotowa do uzycia
+ 
+plum
+~
+M959969632
+Razor~
+{B[4                               ]{x {WFri Jun  2 20:13:52 2000
+{x~
+Ogolny mechanizm jest w miare prosty wiec nie wiem za bardzo co napisac
+Co do informacji zamieszczanych w ksiegach to moga to byc mapy
+legendy, jakies wskazowki, mozna tez jak komus bedzie sie chcialo
+przepisac rzeczywista ksiege - jesli komus bedzie sie nudzilo to bedzie
+mogl isc do sklepu kupic jakis zbior opowiadan i se poczytac hehe
+odpierdala mi po prostu
+END OF STORY
+~
+M978465459
+Razor~
+{B[item_sets                       ]{x {WTue Jan  2 20:57:39 2001
+{x~
+{R Hmm, pewnie sie zastanawiacie co to jest item sets...{x
+   Jesli ktos gral w diablo2 to bedzie wiedzial, a dla tych co nie
+   grali mala demonstracja:
+   Jest sobie niesamowita zbroja, skladajaca sie z helmu, rekawic, 
+   naramiennikow etc. Jednak jej niesamowitosc objawia sie dopiero 
+   jesli ktos zalozy na siebie calosc. Noszenie pojedynczych czesci
+   ogolnie jest w porzadku ale bez elementu niesamowitosci ;).
+   
+   {CNo dobra, teraz sprobujmy cos takiego zrobic w OLC :){x
+   {RPo pierwsze:{x
+   - dodalem pole bonus w oedit, bedzie ono calkiem przydatne w tej sytuacji
+   - oprocz tego dodalem nowa flage wear: wear_bonus, tez sie pewnie przyda
+
+   {GHelpik w pytaniach i podpowiedziach{x
+      
+   {G- jak w ogole zrobic owa niesamowitosc?{x
+   Nalezy zrobic nowy obiekt ktory bedzie mial w affectach badz progach
+   zakodowana owa niesamowitosc. Istotny jest {RVNUM{x tego przedmiotu,
+   oraz flaga bonus w wear_flags. Bez owej flagi bedzie kiszka.
+   Nazwijmy ten obiekt np: {RBonus_obj{x.
+   
+   {G- jak dziala rozpoznawanie czy juz nosi komplet?{x
+   Jesli juz mamy zrobiony {RBonus_obj{x, i wiemy z jakis czesci bedzie sie 
+   skladal (np helm pierscionek i tarcza) to nalezy dodac do wear_flags
+   odpowiednio head, finger, shield. Ponadto obiekty skladajace sie na caly 
+   komplet w polu bonus powinny miec wpisany {RVNUM{x opisany powyzej.
+   
+   {G- da sie jakos wypisac cos komus jak zalozy juz caly komplet?{x
+   Tak, do tego moga sluzyc progi wear i remove na {RBonus_obj{x
+   
+   {G- hmm a czasem nie da sie zdjac tego {RBonus_obj{x{G i np sprzedac?{x
+   No dobrze by bylo jakby sie nie dalo zdjac, i raczej nie powinno sie dac,
+   ale nie jestem pewnien. W kazdym badz razie bugi wszelkie usune.
+   
+   {G- da sie zrobic jednoelementowy komplet?{x
+   Tak, ale po co?
+   
+   {G- chyba jest kiszka bo mozna nosic tylko jeden komplet na raz :({x
+   Spoko, mozna nosic dowolna ilosc {RBonus_obj{x na WEAR_BONUS.
+   Jest to dosc mocno zamiachane ale ogolnie wydaje sie dzialac.
+   
+   {G- czy {RBonus_obj{x{G jest widoczny pod komenda equip..?{x
+   Nope.
+   
+   {G- no dobra, to jesli chcialbym zrobic cos takiego: bylejaki pierscionek,
+       jeszcze gorszy amulet i smieciarska czapka tworzylaby komplet dajacy
+       np -30 ac, invisa i detect invis. Jak wygladaloby tworzenie tego krok
+       po kroku?{x
+    Ok juz wyjasniam:
+    1. Tworzymy {RBonus_obj{x, jego vnum bedzie np 6000. Dodajemy addapply
+       owe -30 ac z flaga invis, i dodatkowo flage detect invis.
+       Type tego obiektu jest bez znaczenia, moze to byc nawet bron (chyba),
+       jesli bedzie ITEM_LIGHT to bedzie sobie swiecic.
+       Wypelnianie long/short descr, odmiany etc jest bez sensu.
+       Sensowne natomiast jest wpisanie do wear_flags: bonus, neck, finger, head.
+    2. Tworzymy bylejaki pierscionek, jeszcze gorszy amulet i smieciarska czapke.
+       Istotne zeby wpisac w polu bonus vnum {RBonus_obj{x.
+    3. Mozna jeszcze skrobnac jakis prog wear i remove dla {RBonus_obj{x
+    4. I na koniec najwazniejsze: dostepnosc obiektu powinna byc proporcjonalna
+       do jego uzytecznosci, wiec jakis miniquest bylby mile widziany badz
+       ostatecznie b.zadko ladowane na jakims mobiku (kilka procent).
+    5. Zapisanie swojej krainki :).
+    6. Koniec
+       
+   {G- Jesli komplet ktorego {RBonus_obj1{x {Gbedzie mob remove zdejmowal wszystkie 
+       graty i zakladal komplet 2 ktorego {RBonus_obj2{x {Gbedzie zdejmowac wszystkie
+       graty i zakladal pierwszy komplet to cos sie stanie?{x
+    Hmm, nie mam pojecia. Pewnie sie mud zapetli albo wywali, moze nawet 
+    zacznie chodzic do tylu. Lepiej nie znecac sie nad tym systemikiem :)
+   
+   {G- A moge zrobic na odwrot? Kilka niezlych czesci ale razem w komplecie
+       dajacych jakis niezbyt mily dodatek?{x
+   To pytanie nalezy kierowac do Steviego Wondera ktory przeszkod nie widzi.
+   
+   {G- Jakbym znalazl buga albo mialbym jakies pytanka kogo mam atakowac?{x
+   No najlepiej mnie :) (Razor), Maro tez powinien czaic co i jak, ostatecznie
+   Agron ale tu nic nie bede pisal bo sie obrazi :).
+   
+   
+   
+   {RMilej hehe zabawy :){x Razor
+   
+       
+   
+    
+~
+S

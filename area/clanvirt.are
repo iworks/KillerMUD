@@ -1,0 +1,639 @@
+#AREADATA
+Name {RCLAN{x: Rycerze bogini Virtus~
+Builders Klan~
+VNUMs 50511 50540
+Credits Twórca: Senhan, senhan@tlen.pl
+Poprawki: Kainti, kainti@killer-mud.net
+ 
+Room 50511 ma wyj¶cie do 27752 [po³udnie] -> +# Pradawna puszcza
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 50511
+Name zrozpaczony kap³an~
+Odmiana zrozpaczonego kap³ana~zrozpaczonemu kap³anowi~zrozpaczonego kap³ana~zrozpaczonym kap³anem~zrozpaczonym kap³anie~
+Short zrozpaczony kap³an~
+Long Zrozpaczony kap³an pilnuje wej¶cia do ¶wi±tyni swej bogini.~
+Descr Widzisz tu pogr±¿onego w modlitwie cz³owieka, najwyra¼niej jest to jaki¶
+mnich albo kap³an, stoi przy ogromnej bramie i pilnuje wej¶cia do jaskini.
+Jego twarz jest jakby z kamienia, brak jakiej kolwiek reakcji na twój widok,
+aczkolwiek chyba nie przepu¶ci ciê przez t± brame. Cz³owiek modl±cy sie
+musia³ spe³niæ ca³e swe ¿ycie w modlitwie, zastanawiasz siê jedynie nad tym
+do kogo mo¿ê siê on tak modliæ. 
+~
+Race cz³owiek~
+ActExt 0|ABQ
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 26
+Hitroll 2
+HP 28d10+600
+Damage 3d5+1
+Dammagic 0
+Weaponbonus 8
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 2
+Stats 132 90 150 120 120 144 144
+Off VY
+OffExt 0|VY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew exit virtus_enter FGHI 0~
+Spells 77 26 55 54
+Spells 231 50 141 31
+Spells 38 56 172 271
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 50515
+Name sklepikarz Riel~
+Odmiana sklepikarza~sklepikarzowi~sklepikarza~sklepikarzem~sklepikarzu~
+Short sklepikarz Riel~
+Long Ogromny sklepikarz Riel pilnuje swoich towarów.~
+Descr Ogromny pó³ork stoi za drewnianym straganikiem, chwal±c ci siê swymi
+towarami, sprzedawca jest tak wielki, ¿e strach by³oby go oszukaæ. 
+~
+Race pó³ork~
+ActExt 0|ABX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 7d7+5099
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AEFHMV
+Parts ABCDEFGHIJKR
+Size giant
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 50513
+Name antyczna bransoleta virtus~
+Odmiana antycznej bransolety~antycznej bransolecie~antyczn± bransoletê~antyczn± bransolet±~antycznej bransolecie~
+Short {Wantyczna bransoleta {Y'{CBogini Virtus{Y'{x~
+Descr {WAntyczna bransoleta {Y'{CBogini Virtus{Y'{x b³yszczy ukryt± moc±.~
+Material srebro~
+Type jewelry
+ExtraExt 0|M
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 60
+Cond 100
+Aff 1 12 5 14 0 0
+Extradesc _123~
+Nagle widzisz piêkn± bransoletê, któr± $n nosi na nadgarstku. Widzisz jak
+bransoleta pulsuje ¶wiat³em, najwyra¼niej jest b³ogos³awiona. Tylko wybrañcy
+bogini Virtus mog± j± nosiæ. 
+~
+Objprog prewear virtus_bran 100~
+Itemdesc Wspania³a mithrilowa bransoleta która najwyra¼niej ma wiele, wiele lat
+b³yszczy sw± ukryt± moc±, kr±¿± plotki i¿ ten kto nosi ow± bransoletê jest
+tak zwanym wybrañcem bogini i obdarzony jest wielk± moc± ... 
+~
+Comments ~
+Objend
+#Vnum 50517
+Name klips dotyk za¶wiatów~
+Odmiana klipsa '{DDotyk Za¶wiatów{x'~klipsowi '{DDotyk Za¶wiatów{x'~klips '{DDotyk Za¶wiatów{x'~klipsem '{DDotyk Za¶wiatów{x'~klipsie '{DDotyk Za¶wiatów{x'~
+Short klips '{DDotyk Za¶wiatów{x'~
+Descr Przepiêkny klips b³yszczy na ziemi ¶wiêt± moc±.~
+Material srebro~
+Type jewelry
+ExtraExt 0|MP
+Wear AT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 2040
+Cond 75
+Extradesc _opis~
+Patrz±c na $c widzisz, ¿e ma przypiêty do ucha jaki¶ dziwny klips.
+~
+Objprog prewear 50517 100~
+Itemdesc Spogl±dasz na piêkny klips wykonany z jakiego¶ dziwnego materia³u, jest
+to chyba srebro ale jakie¶ inne. Tak to zabarwione na czarno srebro, ciekawe
+komu uda³o siê tego dokonaæ bo napewno nie zwyk³emu cz³owiekowi... To
+sprawka Bogów. 
+~
+Comments ~
+Objend
+#Vnum 50518
+Name ³awka mod³ów~
+Odmiana ³awki~³awce~³awke~³awk±~³awce~
+Short ³awka mod³ów~
+Descr {yDrewniana ³awka{x s³u¿±ca do mod³ów stoi w rogu sali.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 0 1152 0 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 50519
+Name pos±g bogini Virtus~
+Odmiana pos±gu~pos±gowi~pos±g~pos±giem~pos±gu~
+Short pos±g bogini Virtus.~
+Descr Potê¿ny {Yz³oty{x pos±g {Cbogini Virtus{x stoi tutaj.~
+Material z³oto~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Itemdesc Widzisz tu wspania³y, piêkny pomnik z wizerunkiem piêknej kobiety, jest
+on wykonany ze szczerego z³ota. Spogl±dasz jeszcze raz na pomnik, nie mo¿esz
+oderwaæ od niego wzroku. Jednak gdy ju¿ to uczyni³e¶ zdajesz sobie sprawê,
+¿e musisz wróciæ do rzeczywisto¶ci, szarej rzeczywisto¶ci ...
+~
+Comments ~
+Objend
+#Vnum 50520
+Name marmurowy o³tarz.~
+Odmiana o³tarza~o³tarzowi~o³tarz~o³tarzem~o³tarzu~
+Short marmurowy o³tarz.~
+Descr Wielki {Wmarmurowy o³tarz{x wysadzany klejnotami stoi tutaj.~
+Material marmur~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Itemdesc Widzisz tu prosty oltarz wykonany z marmuru, jednak gdy przypatrujesz siê
+d³u¿szy czas owemu o³tarzowi, zdajesz sobie sprawê, i¿ ca³y przyozdobiony
+jest klejnotami. Jest to o³tarz ofiarny bogini Virtus.
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 50511
+Name Wielka brama~
+Descr Wspania³a wykonana z kamienia brama najwidoczniej spe³nia role obronn± i
+blokuje wej¶cie do groty. Przy bramie stoi modl±ca siê osoba, czy¿by to by³
+stra¿nik? Nagle jeste¶ ciekawy tego co znajduje siê za ow± bram±. Dooko³a
+rosn± wysokie drzewa, maskuj±ce ¶rednich rozmiarów skalist± górkê, w której
+wydr±¿ona jest siedziba Rycerzy Bogini Virtus. 
+~
+FlagsExt 0|H
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 50512
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+brama~
+16387 0 50512
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50512
+Name Przedsionek~
+Descr Znajdujesz siê w pomieszczeniu, które z pewno¶ci± gdzie¶ prowadzi, z
+daleka s³ychaæ jakie¶ g³o¶ne okrzyki, czujesz siê jakby¶ znajdywa³ siê
+blisko targu. Ca³e pomieszczenie wykonane jest z kamienia, nagle zdajesz
+sobie sprawê, ¿e jest to jaskinia. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50519
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50519
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50513
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50513
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 50511
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+16387 0 50511
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50518
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50518
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50513
+Name W±skie przej¶cie~
+Descr Znajdujesz siê w w±skim pomieszczeniu, zdajesz sobie sprawê, i¿ id±c
+wzd³u¿ jest coraz wê¿szy, patrzysz co jest dalej i nagle dostrzegasz
+¶wiat³o, najwyra¼niej tunel gdzie prowadzi. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50514
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50514
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50512
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50512
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50514
+Name W±ski korytarz~
+Descr Jeste¶ w w±skim korytarzu, który na pewno gdzie¶ prowadzi, na ¶cianach
+widzisz wspania³± figurkê z wizerunkiem kobiety, id±c dalej widzisz
+wyrze¼bione w ¶cianie wizerunki rycerzy i osoby z ksiêgami w rekach, patrz±c
+nie co wy¿ej widzisz ogromny napis ze z³ota, czytaj±c uwa¿nie napis udaje ci
+siê wywnioskowaæ, i¿ jest tam napisane "Bracia krwi"... 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50515
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50515
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50513
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50513
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50515
+Name Sklep Riela~
+Descr Znajdujesz siê w pomieszczeniu, które przypomina ci sklep, za ma³ym
+straganem stoi ogromna osoba zwana przez wszystkich Rielem, brak tu
+jakichkolwiek ozdób, znajduje siê tu jedynie stragan reszta to pusta grota,
+zupe³nie nie przypominaj±ca innych miejsc w ¶wi±tyni. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50514
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50514
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50516
+Name W±skie przej¶cie~
+Descr Znajdujesz siê w w±skim pomieszczeniu, zdajesz sobie sprawê, i¿ id±c
+wzd³u¿ jest coraz wê¿szy, patrzysz co jest dalej i nagle dostrzegasz
+¶wiat³o, najwyra¼niej tunel gdzie prowadzi. 
+~
+FlagsExt 0|CH
+Sector 15
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50517
+Name W±ski korytarz~
+Descr Jeste¶ w w±skim korytarzu, który na pewno gdzie¶ prowadzi, na ¶cianach
+widzisz wspania³± figurkê z wizerunkiem kobiety, id±c dalej widzisz
+wyrze¼bione w ¶cianie wizerunki rycerzy i osoby z ksiêgami w rekach, patrz±c
+nie co wy¿ej widzisz ogromny napis ze z³ota, czytaj±c uwa¿nie napis udaje ci
+siê wywnioskowaæ, i¿ jest tam napisane "Bracia krwi"... 
+~
+FlagsExt 0|CH
+Sector 15
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50518
+Name Miejsce mod³ów~
+Descr Wchodzisz do wielkiego pokoju, w rogu stoi wielka drewniana ³awka s³u¿±ca
+najprawdopodobniej do mod³ów. Reszta pokoju to pustka... Na ¶cianach widzisz
+obraz przepiêknej bogini Virtus, do której modl± siê jej rycerze. W pokoju
+panuje ogólny porz±dek... Ale lepiej st±d zmykaj poniewa¿ przebywaj±c w
+takim miejscu mo¿e sprowadziæ na ciebie kl±twê bogów. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50512
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50512
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50519
+Name D³ugi korytarz prowadz±cy do ¶wi±tyni~
+Descr Znajdujesz siê w d³ugim korytarzu, który z pewno¶ci± gdzie prowadzi,
+dalej widzisz jakie wej¶cie. Kierujesz siê ku niemu i widzisz wspania³± ma³±
+bramê która wykonana jest cala ze z³ota oraz wyk³adana klejnotami. Korci ciê
+i chcesz od razu wej¶æ do ¶rodka. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50520
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50520
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50512
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50512
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50520
+Name {Y¦wi±tynia bogini {CVirtus{x~
+Descr Znajdujesz siê w pomieszczeniu z ogromnym z³otym pomnikiem, oraz
+wysadzanym klejnotami marmurowym o³tarzem. Wszystko jest ogromne, wspaniale
+tak bardzo, ze nie chce ci siê st±d wychodziæ. Jest to najwyra¼niej miejsce
+¶wiête, mo¿e jaka ¶wi±tynia. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50519
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50519
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50521
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+50515 0 0 0 0 0 100 100 0 23 * 50515
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 50511 1 50511 1
+O 100 2367 0 50512
+M 100 50515 1 50515 50515
+G 100 50513 0
+G 100 3370 0
+G 100 3185 0
+G 100 50517 0
+O 100 50518 0 50518
+O 100 50519 0 50520
+O 100 50520 0 50520
+S
+
+
+
+#MOBPROGSNEW
+#virtus_enter
+~
+if clan $n RYCERZ
+  tell $n Witaj, wejd¼ proszê.
+  mob transfer $n 50512
+else
+  tell $n Mog± tam wej¶æ tylko rycerze bogini Virtus.
+endif
+~
+#0
+
+#OBJPROGSNEW
+#50517
+~
+if clan $n RYCERZ
+  mob echoat $n Przypinasz klips '{DDotyk Za¶wiatów{x' do ucha.
+  mob echoaround $n $n przypina klips '{DDotyk Za¶wiatów{x' do ucha.
+  obj wear
+  break
+else
+  mob echoat $n Czujesz, ¿e jaka¶ magiczna si³a nie pozwala ci na to!
+  mob echoaround $n $n próbuje za³o¿yæ klips.
+  obj remove
+  break
+endif
+~
+#virtus_bran
+~
+if clan $n RYCERZ
+  if wears $n 50513
+    mob echoat $n Jaka¶ dziwna moc wstrzymuje ciê od za³o¿enia bransolety!
+  else
+    mob echoat $n Zak³adasz bransoletê na nadgarstek.
+    mob echoaround $n $n zak³ada bransoletê na nadgarstek.
+    obj wear
+  endif
+else
+  mob echoat $n Nie mo¿esz za³o¿yæ bransolety!
+  mob echoaround $n $n próbuje za³o¿yæ bransoletê.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

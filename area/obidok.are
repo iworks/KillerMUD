@@ -1,0 +1,381 @@
+#AREADATA
+Name +# filia gildii zlodziei z obilonu~
+Builders Obilon~
+VNUMs 14961 14999
+Credits dorabiali: Gauson Geril
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 14961
+Name siwobrody gnom snat~
+Odmiana Snata~Snatowi~Snata~Snatem~Snacie~
+Short Snat~
+Long Stary, siwobrody gnom przeszywa okolicê swym bystrym, jastrzêbim wzrokiem.~
+Descr Masz przed sob± niewielkiego gnoma w podesz³ym ju¿ wieku. Choæ wydawaæ by
+siê mog³o, ¿e pe³nie formy ma ju¿ dawno za sob± to jednak zachowa³
+niesamowity refleks i przenikliwy, bystry wzrok. W koñcu lata praktyk nie
+posz³y na marne i wyæwiczone przez ca³± m³odo¶æ i pe³nie wieku umiejêtno¶ci
+nie da³y siê st³amsiæ przez czas. Mo¿na byæ pewnym, ¿e ten osobnik kilkoma
+sprawnymi i skoordynowanymi ruchami po³o¿y³by bez wiêkszego wysi³ku ka¿dego
+miê¶niaka. Jak wiadomo, od niedawna sprawuje on pieczê nad konkurencyjn±
+gildi± z³odziei do gildii arrasyjskiej. Spytaj - mo¿e czego¶ ciê nauczy? 
+~
+Race gnom~
+ActExt 0|ABEKS
+Affected 33554440 0 0 0
+AffectedExt 0|DZ
+Align 0
+Group 0
+Lang AS
+Speaks 17
+Level 29
+Hitroll 4
+HP 22d4+2069
+Damage 1d1+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC -2 -2 -2 -2
+Stats 168 168 168 168 78 90 168
+Off BFHINY
+OffExt 0|BFHINY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 9000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 14962
+Name wys³annik gildi z³odziej~
+Odmiana wys³annika gildii~wys³annikowi gildii~wys³annika gildii~wys³annikiem gildii~wys³anniku gildii~
+Short wys³annik gildii~
+Long Wys³annik konkurencyjnej gildii zlodziei stoi tutaj z za³ozonymi rêkoma.~
+Descr Jego twarz skryta jest w mrokach kaptura, lecz jeste¶ prawie pewien, ¿e
+patrzy dok³adnie na ciebie. Po jego ruchach ka¿dy mo¿e stwierdziæ, ¿e
+prze¿y³ wiele lat na karku i wygra³ wiele walk. Jest bardzo spokojny, ale w
+momencie najmniejszego zagro¿enia zareagowa³by natychmiast. 
+~
+Race cz³owiek~
+ActExt 0|ABCS
+Affected 66048 0 0 0
+AffectedExt 0|JQ
+Align -400
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 2
+HP 19d1+395
+Damage 2d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 6 7 7 8
+Stats 102 108 90 114 90 78 78
+Off BU
+OffExt 0|BU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 6
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet wysl_zlod_bs FGI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 14963
+Name wys³annik zakapturzony obiloñskiej gildii~
+Odmiana wys³annika gildii~wys³annikowi gildii~wys³annika gildii~wys³annikiem gildii~wys³anniku gildii~
+Short wys³annik obiloñskiej gildii~
+Long Zakapturzony wys³annik obiloñskiej gildii z³odziei rozmawia tutaj z mistrzem.~
+Descr Masz przed sob± typowego z³odzieja, a jako ¿e tego typu osobnicy nie za
+bardzo afiszuj± siê ze swoj± charakterystyczno¶ci± to po prostu nie widzisz
+w nim nic specjalnego. Ot, zwyk³y, zakapturzony ³otr. D³u¿ej mu siê
+przypatruj±c mo¿esz ³atwo stwierdziæ, ¿e reprezentuje on jak±¶ gildiê
+z³odziei, s±dz±c po herbie na p³aszczu to chyba obiloñska. 
+~
+Race gnom~
+ActExt 0|ABKS
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 5
+HP 20d6+280
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 114 102 90 132 120 78 78
+Off EFHKN
+OffExt 0|EFHKN
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 14963
+Name spora kupka monet~
+Odmiana sporej kupki monet~sporej kupce monet~spor± kupkê monet~spor± kupk± monet~sporej kupce monet~
+Short spora kupka monet~
+Descr Spora kupka monet le¿y tutaj.~
+Material srebro~
+Type money
+ExtraExt 0|F
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 20 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Identdesc Spora kupka monet, schowana przez pracownicê poczty w oczekiwaniu na
+konwój. 
+~
+Comments ~
+Objend
+#Vnum 14964
+Name gar¶æ monet~
+Odmiana gar¶ci monet~gar¶ci monet~gar¶æ monet~gar¶ci± monet~gar¶ci monet~
+Short gar¶æ monet~
+Descr Gar¶æ monet le¿y tutaj na ziemi.~
+Material srebro~
+Type money
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 20 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 14961
+Name Klatka schodowa opuszczonej kamienicy~
+Descr Wykonuj±c najmniejsze ruchy przyklejasz siê do pajêczyny. To nie
+wiarygodne ile paj±ków mo¿e ¿yæ w jednym miejscu. Towarzysz±cy temu miejscu
+fetor jest nie do wytrzymania, czujesz jak twój ostatni posi³ek zmierza w
+górê prze³yku. Jakby tego by³o ma³o to co jaki¶ czas pod nogami przebiegaj±
+ci szczury lub inne paskudztwa. Wydaje ci siê, i¿ od wieków nikt oprócz
+ma³ych, w³ochatych mieszkañców nie przebywa³ tutaj. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14962
+ExitExtEnd
+Exit 4
+~
+~
+0 0 14962
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131088
+ExitExtKey 0
+ExitExtToVnum 6166
+ExitExtEnd
+Exit 5
+~
+~
+131088 0 6166
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14962
+Name Klatka schodowa opuszczonej kamienicy~
+Descr Znajdujesz siê na zrujnowanej klatce schodowej. Wiêkszo¶æ schodków
+rozci±gaj±cych siê przed tob± jest popêkane lub po prostu ich nie ma.
+Unosz±cy siê tutaj fetor ple¶ni i wilgoci, co poniektórych móg³by zwaliæ z
+nóg. Co jaki¶ czas s³yszysz charakterystycznie popiskiwanie wydawane zapewne
+przez szczury i inne ¿yj±ce tu ohydztwa. Przebywanie tutaj nie jest szczytem
+twoich marzeñ. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14963
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14963
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14961
+ExitExtEnd
+Exit 5
+~
+~
+0 0 14961
+Roomprog entry nad_stop_gildia 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14963
+Name {DUkryte pomieszczenie{x~
+Descr Jest to malutki pokój, zakamuflowany tak, ¿e tylko wiedz±cy o jego
+istnieniu maj± szansê go znale¼æ. Pod³ogê pokrywa stary, zakurzony dywan,
+który le¿y tu ju¿ pewnie kilkana¶cie lat. ¦ciany s± z drewna, przyozdobione
+malowniczo pajêczynami. Pokój ten nie posiada jakiegokolwiek umeblowania.
+Widaæ, ¿e nikt dawno tu nie by³ ani nigdy nie mieszka³. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14962
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14962
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 14961 1 14963 1
+S
+
+
+
+#MOBPROGSNEW
+#snat_enter
+~
+~
+#wysl_zlod_bs
+~
+if !hasflag $n konk_gil_zlo
+and level $n >= 15
+  stand
+  backstab $n
+else
+  mob echo Wys³annik gildii kiwa g³ow± witaj±c ciê tym gestem.
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#enter_6166
+~
+if hasflag $n reg_stopien_szesc
+  mob echoat $n Zaraz, zaraz to chyba gdzie¶ tutaj...
+  minidelay 1
+  mob echoat $n Mhm, to musi byæ tutaj. Widzisz tutaj {Gzamaskowane schodki{x prowadz±ce na górê!
+endif
+~
+#nad_stop_gildia
+~
+if hasflag $n konk_gil_zlo
+  break
+endif
+if hasflag $n reg_stopien_szesc
+  mob setflag $n konk_gil_zlo -1
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

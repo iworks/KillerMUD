@@ -1,0 +1,826 @@
+#AREADATA
+Name {RCLAN{x: Zgromadzenie Staro¿ytnych~
+Builders Klan~
+VNUMs 17050 17090
+Credits Builder: Oonu, oonu@wp.pl
+Progi, sprawdzenie: Wicia, wicia@killer-mud.net
+ 
+--
+Room 17050 ma wyj¶cie do  2188 [  pó³noc] -> +# Wiocha krasnali
+~
+Locked ~
+Security 9
+ResetAge 40
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 17050
+Name staro¿ytny stra¿nik~
+Odmiana staro¿ytnego stra¿nika~staro¿ytnemu stra¿nikowi~staro¿ytnego stra¿nika~staro¿ytnym stra¿nikiem~staro¿ytnym stra¿niku~
+Short {msta{Wro¿y{mtny {Wstra{m¿nik{x~
+Long {mSta{Wro¿y{mtny {Wstra{m¿nik{x stoi przy wielkich wrotach obserwuj±c wszystko dooko³a~
+Descr Stoisz oko w oko ze stra¿nikiem wrót, jego srogi i przeszywaj±cy wzrok
+powoduje, ¿e zaczynasz siê lekko baæ. S±dz±c po jego posturze widzisz, ¿e
+musia³ d³ugo æwiczyc lub byæ zaprawionym w bojach. Staro¿ytny niechêtnie
+wpuszcza tutaj obcych, co stwierdzasz po zaschniêtej krwi na jego zbroi. 
+~
+Race upiorny rycerz~
+ActExt 0|ABOd
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 5
+HP 10d10+1050
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 150 84 90 138 150 78 84
+Off CIY
+OffExt 0|CIY/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form EMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+MobprogNew exall 17050 FGI 2~
+MobprogNew onload 17050_onload ABCDEFGHI 100~
+MobprogNew grall 17050_entry ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 75
+Resist 12 100
+Mobend
+#Vnum 17058
+Name sprzedawca vidill gnom niski~
+Odmiana Vidilla~Vidillowi~Vidilla~Vidillem~Vidillu~
+Short sprzedawca Vidill~
+Long Vidill stoi tutaj zachwalaj±c swoje towary~
+Descr Stoisz przed do¶æ niskim gnomem zajmuj±cym siê handlem wszelkiego
+rodzaju. Gnom co chwilê spogl±da w twoj± stronê w nadzieji, ¿e cokolwiek od
+niego kupisz. Zastanawiasz siê czemu tutaj handluje skoro prawie nikt tego
+miejsca nie odwiedza... 
+~
+Race gnom~
+ActExt 0|ABT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d10+500
+Damage 5d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 150 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 17058_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 17050
+Name Granitowy g³az~
+Odmiana granitowego g³azu~granitowemu g³azowi~granitowy g³az~granitowym g³azem~granitowym g³azie~
+Short granitowy g³az~
+Descr Granitowy g³az stoi tutaj promieniuj±c magiczn± energi±.~
+Material granit~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 15 -1
+Repair 0 0 0 0
+Length 0
+Weight 3000
+Cost 1
+Cond 100
+Itemdesc Spogl±dasz na wielki g³a¿. Czujesz jak przez twoje cia³o przep³ywa
+energia magiczna jaka bije od niego, g³az nie jest poro¶niêty ¿adnymi
+porostami a w dodatku jest idealnie g³adki. Próbuj±c go podnie¶æ
+stwierdzasz, ¿e niema co siê si³owaæ. Przygl±daj±c siê g³azowi czujesz
+jakies wibracje powietrza, widzisz jakby wnêtrze ska³y a w nim miecz. Jest
+on naprawde piêkny, po chwili uczucie i wizja znika. 
+~
+Comments ~
+Objend
+#Vnum 17051
+Name Staro¿ytna skrzynka~
+Odmiana staro¿ytnej skrzynki~staro¿ytnej skrzynce~staro¿ytn± skrzynkê~staro¿ytn± skrzynk±~staro¿ytnej skrzynce~
+Short staro¿ytna skrzynka~
+Descr Bardzo stara skrzynka le¿y tutaj po³yskuj±c magiczn± energi±.~
+Material granit~
+Type container
+ExtraExt 0|X
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 50 5 0 20 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 550
+Cost 7200
+Cond 75
+Itemdesc Patrzysz na t± star± i pardzo zakurzon± skrzyneczkê, jest ona wykonana z
+granitu i przepe³niona energi±. Dotykaj±c jej czujesz lekki± aurê magiczn±
+przechodz±c± przez twoje cia³o... Magia sprawia ze trochê ci cieplej. 
+~
+Comments wywalam proga na get - {RWicia{x ({CSun Sep 10 18:08:10 2006{x)
+~
+Objend
+#Vnum 17052
+Name Tron "Staro¿ytnego"~
+Odmiana Tronu "{mSta{Wro¿{mytn{Wego{x"~Tronowi "{mSta{Wro¿{mytn{Wego{x"~Tron "{mSta{Wro¿{mytn{Wego{x"~Tronem "{mSta{Wro¿{mytn{Wego{x"~Tronie "{mSta{Wro¿{mytn{Wego{x"~
+Short tron "{mSta{Wro¿{mytn{Wego{x"~
+Descr Tron "{mSta{Wro¿{mytn{Wego{x" stoi w centralnym miejscu sali.~
+Material granit~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 500 144 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1500
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 17055
+Name Krzes³a~
+Odmiana krzes³a~krze¶le~krzes³o~krzes³em~krze¶le~
+Short krzes³o~
+Descr Kamienne krzes³a stoj± tu¿ przy stole. ~
+Material granit~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 20 3000 144 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 17057
+Name Stojaki z broni±~
+Odmiana stojaków z broni±~stojakom z broni±~stojaki z broni±~stojakami z broni±~stojakach z broni±~
+Short stojaki z broni±~
+Descr Pare stojakow przeznaczonych na bron stoi pod sciana.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 1
+Cond 100
+Itemdesc Stojaki wykonane z drewna i przeznaczone na bron d³ug±, tak± jak
+halabardy i topory dwurêczne. Patrz±c na nie nie widzisz niestety zadnej
+broni, prawdopodobnie zosta³y one wszystkie zabrane do ostatecznego
+pojedynku Zgromadzenia z si³ami z³a... 
+~
+Comments ~
+Objend
+#Vnum 17058
+Name granitowy klucz~
+Odmiana granitowego klucza~granitowemu kluczowi~granitowy klucz~granitowym kluczem~granitowym kluczu~
+Short granitowy klucz~
+Descr Klucz wykonany z granitu le¿y tutaj.~
+Material granit~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 450
+Cost 1
+Cond 100
+Itemdesc Masz przed sob± klucz, podnosz±c go stwierdzasz ¿e jest on bardzo ciê¿ki
+i nie bêdzie ³atwo siê z nim poruszaæ. Charakterystyczne litery VL na nim
+oznaczaj± ¿e jest on urzywany do otwarcia jakiegos wa¿nego miejsca, bo któ¿
+by oznacza³ klucz literami. Klucz ma do¶æ duzy rozmiar bo aby go trzymaæ
+musisz urzywac obu r±k, chyba ¿e jestes olbrzymem... 
+~
+Comments ~
+Objend
+#Vnum 17059
+Name Skrzynie z broni±~
+Odmiana skrzyni~skrzyniom~skrzynie~skrzyniami~skrzyniach~
+Short skrzynie z broni±~
+Descr Parê wielkich skrzyñ stoi pod ¶cian±.~
+Material stal~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2000 1 0 40 10 5 -1
+Repair 0 0 0 0
+Length 0
+Weight 1250
+Cost 60
+Cond 100
+Itemdesc Masz przed sob± kilka wielkich, wykonanych ze stali skrzyñ. W nich
+przechowywano bron mniejsz± tak± jak miecze jednorêczne, korbacze czy
+sztylety. Skrzynie mimo swojego wieku nadal nie uleg³y zniszczeniu. 
+~
+Comments ~
+Objend
+#Vnum 17060
+Name kolczyk staro¿ytnego~
+Odmiana kolczyka {G"{RSt{Yar{Ro¿{Yyt{Rne{Ygo{G"{x~kolczykowi {G"{RSt{Yar{Ro¿{Yyt{Rne{Ygo{G"{x~kolczyk {G"{RSt{Yar{Ro¿{Yyt{Rne{Ygo{G"{x~kolczykiem {G"{RSt{Yar{Ro¿{Yyt{Rne{Ygo{G"{x~kolczyku {G"{RSt{Yar{Ro¿{Yyt{Rne{Ygo{G"{x~
+Short kolczyk {G"{RSt{Yar{Ro¿{Yyt{Rne{Ygo{G"{x~
+Descr Bardzo stary kolczyk lezy tutaj promieniuj±c od magicznej energi w nim zawartej~
+Material granit~
+Type jewelry
+ExtraExt 0
+Wear AT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 900
+Cond 100
+Aff 1 12 4 10 0 0
+Objprog prewear 17060_wear 100~
+Itemdesc Trzymasz w d³oniach kolczyk promieniuj±cy energi± magiczn±. Kolczyk ten
+jest symbolem Zgromadzenia Staro¿ytnych, ka¿dy cz³onek tego klanu posiada
+taki jako znak charakterystyczny i rozpoznawczy. Dawno nie widzia³e¶ czego¶
+równie piêknego i fachowo zrobionego. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 17050
+Name Przy wej¶ciu do staro¿ytnej siedziby~
+Descr Stoisz na wielkim placu prowadz±cym ku sporego rozmiaru wrotom.
+Rozgl±daj±c siê widzisz przy ¶cianach pos±gi przedstawiaj±ce dawno ju¿ nie
+¿yj±cych bohaterów. Ka¿dy z nich trzyma orê¿ w swoich d³oniach, od ciê¿kiego
+topora po lekkie sztylety. Patrz±c na ich twarze widzisz dziwne zamy¶lenie,
+masz wra¿enie jakby postacie na cos czeka³y... 
+~
+FlagsExt 0|He
+Sector 36
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wrota~
+ExitExtBiernik wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 17058
+ExitExtToVnum 17051
+ExitExtEnd
+Exit 2
+~
+VName Wrota~
+wrota~
+39 17058 17051
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17051
+Name Ozgobny korytarz~
+Descr Idziesz w³a¶nie korytarzem na którego ¶cianach widnieje wiele proporców.
+Widaæ ¿e s± one zawieszone tutaj od bardzo dawna. Na niektórych widoczne s±
+jeszcze herby rodów które poleg³y z rêki Zgromadzenia... Posród wszystkich
+zamieszczonych tutaj {roznaczeñ{x jeden z nich przykuwa twoj± uwagê. 
+~
+FlagsExt 0|He
+Sector 0
+Extra oznaczenie~
+Przygl±daj±c siê uwarznie herbowi z symbolem g³azu widzisz ¿e pulsuje od
+niego magiczna aura. Miemo¿esz siê powstrzymac i dotykasz herbu... W jednej
+chwili przeszywa twój umys³ my¶l o wielkim wyborze... Odrywasz d³on od niego
+cofaj±c siê parê kroków. Na herbie widaæ wykute litery VL. Zastanawiasz siê
+co one mog± oznaczaæ... 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtBiernik wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 17058
+ExitExtToVnum 17050
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+wrota~
+39 17058 17050
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17052
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17052
+Name Korytarz chwa³y~
+Descr Idziesz spokojnie wzd³ó¿ korytarza, na ¶cianach widoczne s± tarcze oraz
+g³owy bestii które ju¿ dawno wyginê³y. Przygl±daj±c siê chwile przechodzi
+ciê dreszcz, mimo wieku oczy potworów nadal wygl±daj± jak ¿ywe. Dotykaj±c
+jednej z g³ów czujesz jak przez chwilê przep³ywaj± przez twój umys³ fragmêty
+walki z owym potworem. Dziwnie siê czujesz... 
+~
+FlagsExt 0|He
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17051
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17051
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17056
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17056
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17053
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17053
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17053
+Name Placyk z fontann±~
+Descr Znajdujesz sie na niewielkim placyku po którego ¶rodku stoi granitowa
+fontanna zaopatrywaj±ca w krystalicznie czyst± wodê. Rozgl±daj±c siê widzisz
+dwa korytarze. Pod³o¿e placyku wykonane zostalo z kryszta³owych p³yt
+odbijaj±cych tylko niektóre promienie ¶wiat³a tworz±c iluzje... Niektóre z
+nich przedstawiaj± las oraz pustkowia, reszta to jakie¶ postacie. 
+~
+FlagsExt 0|He
+Sector 36
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17052
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17052
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17054
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17054
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17054
+Name Wejscie do sali obrad~
+Descr Stoisz przed wielkimi drzwiami wykonanymi z doskona³ej stali,
+gdzieniegdzie zdobionymi szczerym z³otem i klejnotami. Ponad drzwiami
+widnieje {mtablica{x z zatartym napisem oraz rysunkiem wielkiego g³azu. Cala
+kompozycja ¶cian i drzwi robi na tobie ogromne wra¿enie, czujesz ze nastepne
+pomieszczenie musi byæ jakie¶ szczególne dla cz³onków Zgromadzenia. 
+~
+FlagsExt 0|He
+Sector 0
+Extra tablica~
+Spogl±dasz na tablicê zawieszon± ponad stalowymi drzwiami. Widnieje na
+niej symbol g³azu oraz jaki¶ napis, niestety z biegiem lat zostal on
+zatarty. Co parê sekund g³az zaczyna zmieniaæ barwê z granatowego na czarny
+i odwrotnie, to do¶æ niespotykane zjawisko. Tablica zosta³a wykonana z
+kruszczu o którym od dawna nie bylo ju¿ slychaæ, ponoæ jest on ca³kowicie
+odporny na magiê ¿ywio³ów. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17053
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17053
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sala obrad~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 17055
+ExitExtEnd
+Exit 2
+~
+VName Sala obrad~
+~
+3 0 17055
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17055
+Name Sala obrad~
+Descr Jestes posrodku wielkiej sali, w której panuje przepych. Postawiony jest
+tutaj stó³ oraz wiele krzese³ wykonanych z litej ska³y. Tutaj odbywaj± siê
+zapewne obrady Zgromadzenia oraz przyjmowane s± delegacje, w centralnym
+miejscu tego pomieszczenia umieszczony jest tron. 
+~
+FlagsExt 0|He
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 17054
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+3 0 17054
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17056
+Name Zakrêt korytarza~
+Descr Kieruj±c siê korytarzem idziesz w kierónku wschodnim. W oddali widzisz
+jakiegos mê¿czyzne oraz spory stragan. Rozgl±daj±c siê widzisz na ¶cianach
+porozwieszany orê¿, z biegiem lat nie widac na nim nawet plamki rdzy.
+Niektóre z broni wygl±daj± naprawde gro¿nie, po wygl±dzie poznajesz ¿e s±
+bardzo ciê¿kie oraz wytrzyma³e. Zastanawiasz siê chwilê kto by³ na tyle
+silny i zrêczny by bez problemu w³adaæ tak± broni±. 
+~
+FlagsExt 0|He
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17052
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17052
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17057
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17057
+Name Zakoñczenie korytarza~
+Descr Doszed³e¶ do koñca korytarza od którego odchodz± rozwidlenia. ¦ciana
+udekorowana jest tutaj wielkim proporcem przedstawiaj±cym m³ot oraz wielki
+piec hutniczy. Czujesz zapach spalenizny unosz±cy siê w powietrzu. 
+~
+FlagsExt 0|He
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17058
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17058
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Zbrojownia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17059
+ExitExtEnd
+Exit 2
+~
+VName Zbrojownia~
+~
+0 0 17059
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17056
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17058
+Name Pomieszczenie sprzedawcy~
+Descr Stoisz przy wielkim straganie, le¿y na nim parê przedmiotów. Za nim
+spokojnie stoi sobie sprzedawca Vidill uwa¿nie obserwuj±c ka¿dy twój ruch.
+Tutaj mo¿esz dokonac zakupu oraz sprzedarzy przedmiotów. Stoisz przy wielkim
+{Bstraganie{S, lezy na nim pare przedmiotów. Za nim spokojnie stoi sobie
+sprzedawca Vidill uwa¿nie obserwuj±c ka¿dy twój ruch. Tutaj mo¿esz dokonaæ
+zakupu oraz sprzedarzy przedmiotów. 
+~
+FlagsExt 0|He
+Sector 8
+Extra stragan~
+Patrz±c na ten wielki stragan widzisz szereg przedmiotów które mog³y by
+siê przydac w róznych sytuacjach... Stragan zosta³ wykonany z kamienia,
+dziwne ale bardzo praktyczne bo nikt go z t±d nie przeniesie. To stoisko
+upodoba³ sobie Vidill, miejscowy sprzedawca. 
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17057
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17059
+Name Zbrojownia~
+Descr Stoisz w wielkim pomieszczeniu z wielkimi skrzyniami z broni±. Mimo tego
+zosta³o tutaj jeszcze sporo miejsca, w rogach komnaty stoj± stojaki z
+broniami dwurêcznymi. Gdzieniegdzie le¿± po³amane bronie co ¶wiadczy, ¿e
+odbywa³y siê tutaj pojedynki oraz treningi sztuki walki. 
+~
+FlagsExt 0|He
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17057
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 17057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+17058 0 0 0 0 0 100 80 0 23 * 17058
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 17050 1 17050 1
+G 100 17058 0
+O 100 2367 0 17053
+O 100 17050 0 17054
+O 100 2362 0 17055
+O 100 17055 0 17055
+O 100 17052 0 17055
+M 100 17058 1 17058 1
+G 100 3380 0
+G 100 17051 0
+G 100 2499 0
+G 100 2450 0
+G 100 17060 0
+O 100 17057 0 17059
+O 100 17059 0 17059
+S
+
+
+
+#MOBPROGSNEW
+#17050
+~
+if clan $n STARO¯YTNY
+  mob echoaround $n $n przechodzi przez wrota.
+  mob transfer $n 17051
+else
+  tell $n Nie nale¿ysz do Zgromadzenia! Nie wejdziesz tutaj nieproszony!
+endif
+~
+#17050_entry
+~
+if clan $n STARO¯YTNY
+  tell $n Witaj!
+  tell $n Cieszê siê, ¿e kto¶ w koñcu tu zawita³!
+  minidelay 1
+  tell $n Wejd¼ proszê.
+  unlock wrota
+  open wrota
+else
+  mob echoat $n Stra¿nik podnosi g³owê i spogl±da na ciebiê.
+  mob echoaround $n Stra¿nik podnosi g³owê i spogl±da na $z.
+  tell $n Nie nale¿ysz do Zgromadzenia! Nie wejdziesz tutaj nieproszony!
+  tell $n Odejd¼ je¶li ¿ycie ci mi³e!
+  break
+endif
+~
+#17050_onload
+~
+mob equip self 3129
+mob equip self 17062
+mob equip self 3045
+mob equip self 17065
+mob equip self 17066
+mob equip self 3013
+~
+#17058_onload
+~
+mob equip self 3045
+~
+#0
+
+#OBJPROGSNEW
+#17051_get
+~
+if clan $n STARO¯YTNY
+  mob echoat $n Podnosisz staro¿ytn± skrzyniê.
+  mob echoaround $n $n podnosi staro¿ytn± skrzyniê.
+  break
+else
+  minidelay 1
+  mob echoat $n Skrzynia naglê wypada z twoich r±k.
+  mob echoaround $n Staro¿ytna skrzynia nagle wypada z r±k $z.
+  mob force $n drop skrzynia
+endif
+~
+#17060_wear
+~
+if wears $n 17060
+  mob echoat $n Magiczna si³a nie pozwala ci za³o¿yæ kolczyka.
+  obj remove
+endif
+
+if clan $n STARO¯YTNY
+  mob echoat $n Przypinasz kolczyk do ucha.
+  mob echoaround $n $n przypina kolczyk do ucha.
+  obj wear
+else
+  mob echoat $n Magiczna si³a nie pozwala ci za³o¿yæ kolczyka.
+  mob echoaround $n $n próbuje za³o¿yæ kolczyk.
+  obj remove
+endif
+~
+#17063_wear
+~
+if ispc $n
+  mob echoat $n Nie mo¿esz dobyæ miecza!
+  obj remove
+else
+  obj wear
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

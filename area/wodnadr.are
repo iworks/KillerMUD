@@ -1,0 +1,2638 @@
+#AREADATA
+Name +# Wodna droga na wyspê umarlaków~
+Builders None~
+VNUMs 9451 9499
+Credits Twórca: Tanon~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 9451
+Name gigantyczny kalmar~
+Odmiana gigantycznego kalmara~gigantycznemu kalmarowi~gigantycznego kalmara~gigantycznym kalmarem~gigantycznym kalmarze~
+Short gigantyczny kalmar~
+Long Przera¿aj±cy gigantyczny kalmar przep³ywa w pobli¿u!~
+Descr Widzisz ogromnego paskudnego kalmara! Ma chyba z dwadzie¶cia metrów
+d³ugo¶ci i z piêæ szeroko¶ci, a jego oko jest prawie tak wielkie jak twoja
+g³owa. Kalmar ma szar±, b³yszcz±c± skórê pokryt± jakimi¶ burchlami. Co za
+paskudna poczwara! 
+~
+Race ryba~
+ActExt 0|AF
+Affected 134218240 0 0 0
+AffectedExt 0|Jb
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 2
+HP 1d50+650
+Damage 1d20+30
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack lupniecie
+XAC 7 5 9 10
+Stats 156 72 72 144 156 84 84
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AGb
+Parts ADFOQRX
+Size huge
+Material unknown
+Skin 800
+ExpMultiplier 100
+Resist 5 50
+Resist 6 50
+Resist 10 50
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 9452
+Name dzielny paladyn nauczyciel_paladyn~
+Odmiana dzielnego paladyna~dzielnemu paladynowi~dzielnego paladyna~dzielnym paladynem~dzielnym paladynem~
+Short dzielny paladyn~
+Long Wysoki mê¿czyzna w wspania³ej zbroi dryfuje tutaj na swej ³odzi.~
+Descr Spogl±dasz z zaciekawieniem na tego cz³owieka, zastanawiaj±c siê co te¿
+on mo¿e robiæ na ¶rodku tego wielkiego oceanu. Dopiero gdy na jego
+wspania³ej, l¶ni±cej zbroji dostrzegasz symbol ¶wiatyni Portena dociera do
+ciebie, ¿e to zapewne paladyn, który zmierza w kierunku wyspy nieumar³ych by
+przepêdziæ tamtejsze z³o. W tej chwili wydaje siê odpoczywaæ. Na jego twarzy
+nie dostrzegasz ani cienia strachu czy zw±tpienia, mimo trudnej misji jaka
+go czeka. Skoro go ju¿ tu spotka³e¶, mo¿e nauczy³by ciê paru rzeczy? 
+~
+Race cz³owiek~
+ActExt 0|AIJKQT/2|E
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 20d10+500
+Damage 10d3+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 54 55 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 9451
+Name ma³a ³ódka~
+Odmiana ma³ej ³ódki~ma³ej ³ódce~ma³a ³ódke~ma³a ³ódka~ma³ej ³ódce~
+Short ma³a ³ódka~
+Descr Widzisz tutaj jak±¶ ma³± ³ódkê.~
+Material drewno~
+Type boat
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 400
+Cost 0
+Cond 90
+Itemdesc Zbudowana bardzo przemy¶lnie, posiada a¿urowe wzmocnienia i kryte p³atami
+drewna dno. Jedna ³aweczka pozwoli korzystaæ pojedyñczej osobie. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 9451
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9454
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9454
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9452
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9452
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9452
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9451
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9451
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9453
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9453
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32934
+ExitExtEnd
+Exit 3
+~
+~
+0 0 32934
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9453
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9454
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9454
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9458
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9458
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9452
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9452
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9454
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9455
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9455
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9457
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9457
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9453
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9453
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9451
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9451
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9485
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9485
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9455
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9456
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9456
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9454
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9454
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9486
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9486
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9456
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9460
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9460
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9457
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9457
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9455
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9455
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9487
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9487
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9457
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9456
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9456
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9459
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9459
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9458
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9458
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9454
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9454
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9484
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9484
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9458
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9457
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9457
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41021
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9453
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9453
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9483
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9483
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9459
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9460
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9460
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9461
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9461
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41021
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9457
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9457
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9489
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9489
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9460
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9462
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9462
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9459
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9459
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9456
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9456
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9488
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9488
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9461
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9462
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9462
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9464
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9464
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9459
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9459
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9490
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9490
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9462
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9463
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9463
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9465
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9465
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9461
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9461
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9460
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9460
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9491
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9491
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9463
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9466
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9466
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9462
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9462
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9492
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9492
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9464
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9465
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9465
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41013
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41013
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9461
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9461
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9495
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9495
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9465
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9466
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9466
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9467
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9467
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9464
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9464
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9462
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9462
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9494
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9494
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9466
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9473
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9473
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9465
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9465
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9463
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9463
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9493
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9493
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9467
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9473
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9473
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9468
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9468
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41013
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41013
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9465
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9465
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9497
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9497
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9468
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9472
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9472
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9469
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9469
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41012
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41012
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9467
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9467
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9469
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9471
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9471
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41037
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41037
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9470
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9470
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9468
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9468
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9470
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9469
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9469
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41036
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41036
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41012
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41012
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9471
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9474
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9474
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41044
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41044
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9469
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9469
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9472
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9472
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9472
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9475
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9475
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9471
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9471
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9468
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9468
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9473
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9473
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9473
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9476
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9476
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9472
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9472
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9467
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9467
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9466
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9466
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9496
+ExitExtEnd
+Exit 5
+~
+~
+0 0 9496
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9474
+Name Ocean~
+FlagsExt 0|C
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 43050
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 43050
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41045
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41045
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9471
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9471
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9475
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9475
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9475
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9477
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9477
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9474
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9474
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9472
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9472
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9476
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9476
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9476
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9478
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9478
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9475
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9475
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9473
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9473
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9477
+Name Ocean~
+FlagsExt 0|C
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 43052
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 43052
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 43050
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 43050
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9475
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9475
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9478
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9478
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9478
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9479
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9479
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9477
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9477
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9476
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9476
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9479
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 43055
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 43055
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 43052
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 43052
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9478
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9478
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9480
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9480
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9480
+Name Ocean~
+FlagsExt 0|C
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9481
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9481
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9479
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9479
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9481
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9482
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9482
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 43055
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 43055
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9480
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9480
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9482
+Name Ocean~
+FlagsExt 0
+Sector 22
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43056
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43056
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9481
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9481
+DayRDesc 9451
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9483
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9484
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9484
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9458
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9458
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9484
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9487
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9487
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9489
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9489
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9483
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9483
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9485
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9485
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9457
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9457
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9485
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9486
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9486
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9484
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9484
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9454
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9454
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9486
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9487
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9487
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9485
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9485
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9455
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9455
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9487
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9498
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9498
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9488
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9488
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9484
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9484
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9486
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9486
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9456
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9456
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9488
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9491
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9491
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9489
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9489
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9487
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9487
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9460
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9460
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9489
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9488
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9488
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9490
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9490
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9484
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9484
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9459
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9459
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9490
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9491
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9491
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9495
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9495
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9489
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9489
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9461
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9461
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9491
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9492
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9492
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9494
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9494
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9490
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9490
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9488
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9488
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9462
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9462
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9492
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9493
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9493
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9491
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9491
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9463
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9463
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9493
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9496
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9496
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9494
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9494
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9492
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9492
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9466
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9466
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9494
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9493
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9493
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9497
+ExitExtEnd
+Exit 1
+~
+~
+0 0 9497
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9495
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9495
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9491
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9491
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9465
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9465
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9495
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9494
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9494
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9490
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9490
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9464
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9464
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9496
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9497
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9497
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9493
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9493
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9473
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9473
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9497
+Name {bPod wod±{x~
+Descr {bZnajdujesz siê tu¿ pod powierzchni± wody. Dno jest gdzie¶ daleko pod tob±
+i raczej nie masz szans do niego dotrzeæ. Lepiej wyp³yñ zanim skoñczy ci siê
+powietrze... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9496
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9496
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9494
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9494
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9467
+ExitExtEnd
+Exit 4
+~
+~
+0 0 9467
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9498
+Name Jaskinia~
+Descr Ze zdziwieniem swierdzasz, i¿ znalaz³e¶ siê w jaskini. O dziwo mo¿na tu
+swobodnie oddychaæ. Wydaje ci siê ¿e musi tu byæ jakie¶ po³±czenie z
+powierzchni±. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9487
+ExitExtEnd
+Exit 2
+~
+~
+0 0 9487
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9499
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 9452 1 9457 1
+M 100 9451 1 9483 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#9451
+~
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 9451
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name ocean1~
+Desc {BZnajdujesz siê gdzie¶ na ¶rodku oceanu na wschód od pó³wyspu Vanion,
+latarni morskiej i odleg³ego miasta Carrallak. 
+~
+Group 1
+End
+#Name woda~
+Desc Woda faluje raz lekko, raz troche gwaltowniej. Wszedzie tylko woda, woda,
+woda. Bezkresny ocean i zadnej chyba nadziei na staly lad gdzies nieopodal. 
+~
+Group 2
+End
+#Name rybki~
+Desc Przygl±daj±c siê tafli wody zauwa¿asz na pewnej g³êboko¶ci gromadê
+malutkich rybek. P³yn± sobie powoli wraz z pr±dem tylko w im znanym
+kierunku. 
+~
+Group 2
+End
+#Name prad~
+Desc Nie jeste¶ pewien, ale masz wra¿enie ¿e pr±d morski znosi ciê na zachód.
+Nie jeste¶ w stanie tego zweryfikowaæ jako ¿e nigdzie nie ma ¿adnego punktu
+odniesienia. We wszystkich kierunkach tylko woda, woda. 
+~
+Group 2
+End
+#Name koniec1~
+Desc Zastanawiasz siê jak daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ.
+{x
+~
+Group 3
+End
+#Name koniec2~
+Desc Ciekawe jak daleko s± owe Wyspy Zachodnie, o których us³yszeæ mo¿na
+niepochlebne opowie¶ci... 
+~
+Group 3
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,2929 @@
+#AREADATA
+Name {RCLAN{x: Najemnicy~
+Builders Klan      Parold Senhan Insoris~
+VNUMs 4660 4730
+Credits Twórcy: Seinar Insoris Senhan
+
+~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 4660
+Name stary stajenny~
+Odmiana starego stajenngo~starym stajennym~starego stajennego~starym stajennym~starym stajennym~
+Short stary stajenny~
+Long Stary stajenny pielêgnuje tutaj swoje konie.~
+Descr Ten w sêdziwym wieku cz³owiek podj±³ siê trudów zwi±zanych z praca
+stajennego. Wydaje ci siê jednak ze powoli osi±ga on kres swoich mo¿liwo¶ci
+w zawodzie, jednak u¶miech nigdy nie opuszcza jego twarzy. Widaæ kocha swoj±
+pracê i na pewno z przyjemno¶ci± ciê obs³u¿y. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 10
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 5d6+90
+Damage 3d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 4663 ABCDEFGHI 100~
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4662
+Name dowódca stra¿y elf wyskoki~
+Odmiana dowódcy sta¿y~dowódcy sta¿y~dowódce sta¿y~dowódc± sta¿y~dowódcy sta¿y~
+Short dowódca sta¿y~
+Long Wysoki elf, który jest dowódca stra¿y tego miasta.~
+Descr Wysoki, dobrze zbudowany jak na elfa dowódca stra¿y miasta stoi w³a¶nie przed tob±. Widaæ ze nie jest on ju¿ tylko têpym osi³kiem, a ma pojêcie o
+strategii i umie zachowaæ siê w towarzystwie. Z pewno¶ci± jego rola w tym
+mie¶cie ogranicza siê w wiêkszo¶ci tylko do robot papierkowych, ale od czasu
+do czasu na pewno zdarza mu siê poprowadziæ jak±¶ zorganizowan± akcjê
+przeciwko grupie bandytów lub innych potworów. 
+~
+Race elf~
+ActExt 0|ABT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 10
+Lang AB
+Speaks 0
+Level 25
+Hitroll 2
+HP 3d7+640
+Damage 3d5+6
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 1 1 1 2
+Stats 120 120 120 132 114 120 72
+Off HIPb
+OffExt 0|HIPb/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 4666 ABCDEFGHI 100~
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 4663
+Name stra¿nik bramy krasnolud rudobrody umiê¶niony mê¿czyzna~
+Odmiana stra¿nika bramy~stra¿nikowi bramy~stra¿nika bramy~stra¿nikiem bramy~stra¿niku bramy~
+Short stra¿nik bramy~
+Long Umiê¶niony krasnolud pilnuje bramy miasta.~
+Descr Spogl±dasz na barczystego krasnoluda. Jest on bardzo dobrze zbudowany,
+lepiej ni¿ przeciêtny krasnolud. Jego rude w³osy s± porzucane w nie³adzie.
+Ruda broda za¶ spiêta w jeden gruby warkocz. Rysy jego twarzy sprawiaj±, i¿
+czujesz do niego respekt. Na pewno jego umiejêtno¶ci s± imponuj±ce skoro
+strze¿e sam dostêpu do tego miasta. 
+~
+Race krasnolud~
+ActExt 0|ABIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 10
+Lang AC
+Speaks 0
+Level 20
+Hitroll 2
+HP 4d3+500
+Damage 2d6+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 1 1 1 2
+Stats 132 90 96 102 138 60 72
+Off DJP
+OffExt 0|DJP/1|AI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+MobprogNew speech 4661 FGI otworz~
+MobprogNew onload 4660 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 10 20
+Resist 12 80
+Resist 14 100
+Mobend
+#Vnum 4664
+Name stra¿nik miasta cz³owiek~
+Odmiana stra¿nika miasta~stra¿nikowi miasta~stra¿nika miasta~stra¿nikiem miasta~stra¿niku miasta~
+Short stra¿nik miasta~
+Long Stra¿nik czuwa nad spokojem w mie¶cie.~
+Descr Typowy stra¿nik miejski, dobrze zbudowany, ale trochê przyg³upi.
+Przynajmniej masz szczê¶cie, ¿e nie trafi³e¶ na okaz pozbawiony rozumu,
+któremu ¶lina cieknie z gêby. Szczelnie opancerzony pe³nym stalowym
+pancerzem nie wydaje siê byæ osob±, z któr± warto zaczynaæ. Lepiej uwa¿aj, je¶li
+chcesz siê dopu¶ciæ jaki¶ niegodnych czynów, bo ten stra¿nik na pewno nie
+przegapi okazji by wy³adowaæ swój gniew. 
+~
+Race cz³owiek~
+ActExt 0|AT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 10
+Lang A
+Speaks 0
+Level 18
+Hitroll 1
+HP 5d4+430
+Damage 4d2+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 4
+Stats 120 120 120 120 120 108 72
+Off ILPb
+OffExt 0|ILPb/1|C
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 4666 ABCDEFGHI 100~
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 80
+Mobend
+#Vnum 4665
+Name mieszkanaka miasta pó³elfka piêkna kobieta~
+Odmiana mieszkanaki miasta~mieszkance miasta~mieszkanke miasta~mieszkank± miasta~mieszkance miasta~
+Short mieszkanka miasta~
+Long Piêkna pó³elfia kobieta przechadza siê po mie¶cie.~
+Descr Ta m³oda polelfka ¶redniego wzrostu rozgl±da siê dooko³a szukaj±c kogo¶
+nerwowo. Jej b³êkitne oczy mog³yby ciê rozpu¶ciæ gdyby tylko zechcia³a na
+ciebie spojrzeæ, a jej d³ugie nogi bêd± kusiæ na pewno niejednego mê¿czyznê.
+Tak zdecydowanie posiada nietuzinkow±, urodê która mog³aby zniewoliæ
+wiêkszo¶æ czê¶æ osobników p³ci przeciwnej. 
+~
+Race pó³elf~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 10
+Lang AB
+Speaks 0
+Level 5
+Hitroll 0
+HP 3d4+90
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 90 84 72 78 90 114 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 3
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 4675 ABCDEFGHI 100~
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4666
+Name mieszkaniec miasta mê¿czyzna elf~
+Odmiana weso³ego mieszkañca~weso³emu mieszkañcowi~weso³ego mieszkañca~weso³ym mieszkañcem~weso³ym mieszkañcu~
+Short weso³y mieszkaniec~
+Long Mieszkaniec miasta chodzi weso³y po mie¶cie.~
+Descr Tego elfa z pewno¶ci± spotka³o dzisiaj co¶ nieopisanie cudownego. Rado¶nie
+kroczy ulic± podarowuj±c ka¿demu spotkanemu szczery u¶miech. Wyobra¿asz
+sobie tego elfa poskramiaj±cego jaka¶ kobietê, lecz ju¿ po chwili odrzucasz
+ta my¶l obwiniaj±c siê o bezsensowno¶æ swoich przemy¶leñ. Nic specjalnego
+nie wyró¿nia tego elfa z t³umu. 
+~
+Race elf~
+ActExt 0|AT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 10
+Lang AB
+Speaks 0
+Level 7
+Hitroll 0
+HP 6d3+130
+Damage 1d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 90 96 96 96 90 114 72
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 4674 ABCDEFGHI 100~
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4667
+Name jeniec wojenny stary~
+Odmiana starego jeñca wojennego~staremu jeñcowi wojennemu~starego jeñca wojennego~starym jeñcem wojennym~starym jeñcu wojennym~
+Short stary jeniec wojenny~
+Long Stary, naznaczony bliznami jeniec wojenny pracuje tu ciê¿ko.~
+Descr Widzisz przed sob± starego cz³owieka. Po jego umiê¶nionym ciele i
+licznych bliznach, w szczególno¶ci na twarzy, domy¶lasz siê jak wiele
+do¶wiadczy³ w swym ciê¿kim ¿yciu. By³ znakomitym ¿o³nierzem, lecz to mu nie
+pomog³o w starciu z {DN{wa{Dj{we{Dm{wn{Di{wk{Da{wm{Di{W i zosta³ pojmany do niewoli. Teraz za
+postawienie siê {DN{wa{Dj{we{Dm{wn{Di{wk{Do{wm{W bêdzie musia³ do koñca ¿ycia pracowaæ dla nich w
+kopalni. 
+~
+Race cz³owiek~
+ActExt 0|AITX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 23
+Hitroll 0
+HP 100d4+200
+Damage 4d4+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 132 90 90 120 144 90 108
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4668
+Name m³ode dziecko~
+Odmiana m³odego dziecka~m³odemu dziecku~m³ode dziecko~m³odym dzieckiem~m³odym dziecku~
+Short m³ode dziecko~
+Long Widzisz tutaj m³ode, biedne dziecko bawi±ce siê ludzk± kup±.~
+Descr To dziecko mimo ze nie wygl±da na zaniedbane zdecydowanie zachowuje siê
+jakby by³o. Ubiór posiada przeciêtnego dziecka pochodz±cego z dobrze
+prosperuj±cej rodziny jednak, bawi siê ludzkimi odchodami, prawdopodobnie
+rodzice zostawili je same sobie. Eh naprawdê nie do pomy¶lenia co siê z tym
+¶wiatem dzieje. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 100
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 5d9+10
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4669
+Name mieszkaniec miasta~
+Odmiana mieszkañca miasta~mieszkañcowi miasta~mieszkañca miasta~mieszkañcem miasta~mieszkañcu miasta~
+Short mieszkaniec miasta~
+Long Mieszkaniec miasta spogl±da na ciebie z³owrogim wzrokiem i odchodzi.~
+Descr Ten cz³owiek raczej nie jest z natury pogodny. Zapadniête policzki,
+opuchniête oczy i postawa chuderlaka. Odnosisz wra¿enie, ¿e ostatnio mu siê
+nie powodzi. Pewnie odkry³ wybrankê swojego serca zabawiaj±c± siê z jakim¶
+elfem lub te¿ nie powodzi mu siê w interesach. 
+~
+Race cz³owiek~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 100
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 0d0+0
+Damage 3d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 4674 ABCDEFGHI 100~
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4670
+Name m³odziutki adept magii~
+Odmiana m³odziutkiego adepta magii~m³odziutkiemu adeptowi magii~m³odziutkiego adepta magii~m³odziutkim adeptem magii~m³odziutkim adepcie magii~
+Short m³odziutki adept magii~
+Long Widzisz przed sob± m³odego adepta szko³y magicznej bawi±cego sie zakleciami ognia.~
+Descr Ten m³odziutki cz³owiek z pewno¶ci± para siê magi±. Co chwila widzisz jak
+mamrocze po nosem jakie¶ formu³y staraj±c siê je prawid³owo intonowaæ.
+Wydaje ci siê, ¿e jego specjalno¶ci± za zaklêcia ze sfery ognia gdy¿, co
+chwila widzisz jêzory ognia wy³aniaj±ce siê przed nim z nik±d. Mimo jego
+chuderlawego wygl±du nie jeste¶ pewien czy chcesz z nim zaczynaæ. 
+~
+Race cz³owiek~
+ActExt 0|AR
+Affected 0 0 0 0
+AffectedExt 0
+Align 100
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 1d1+240
+Damage 2d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 84 120 84 84 84 84 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+Spells 194 6 92 203
+Spells 93 2 5 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4671
+Name Gruby karczmarz~
+Odmiana grubego karczmarza~grubemu karczmarzowi~grubego karczmarza~grubym karczmarzem~grubym karczmarzu~
+Short gruby karczmarz~
+Long Gruby karczmarz biega przyjmuj±c kolejne zamówienia~
+Descr Gruby krasnoludki karczmarz zdaje siê byæ zadowolony ze swojego ¿ycia.
+U¶miech nie opuszcza jego twarzy, ale byæ mo¿e po prostu chce byæ dla ciebie
+uprzejmy. Ma d³ug± czarna brodê zapleciona w warkocz. W dwóch s³owach:
+typowy krasnolud. 
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 100
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 20d40+300
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 132 132 132 132 132 132 132
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4672
+Name Urocza kelnerka~
+Odmiana uroczej kelnerki~uroczej kelnerce~urocz± kelnerke~urocz± kelnerka~uroczej kelnerce~
+Short urocza kelnerka~
+Long Urocza kelnerka krz±ta siê z lewa na prawo.~
+Descr Urocza jak na krasnoludzie standardy kelnerka krz±ta siê po pomieszczeniu
+roznosz±c zamówienia. ¦redniego wzrostu o wydatnych walorach kobiecych z
+pewno¶ci± niejednego krasnoluda przyprawi³a o dreszczyk po¿±dania. Jednak
+jej bezpieczeñstwa strze¿e karczmarz wiêc lepiej nie próbuj niczego
+g³upiego. 
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 15d14+60
+Damage 2d3+0
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 90 120 120 114 120 150 120
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 30
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4673
+Name kowal Neraz~
+Odmiana kowala Neraza~kowalowi Nerazowi~kowala Neraza~kowalem Nerazem~kowalu Nerazu~
+Short kowal Neraz~
+Long Kowal Neraz naprawia powoli i dok³adnie broñ.~
+Descr Czarnobrody tak czasami jest zwany. Bowiem ma bujny zarost, ale nie tylko
+na brodzie na g³owie ma czarn± "szopê", a brwi gêste, krzaczaste. Jest gruby
+i to jak na krasnoluda, bo tylko siedzi w swojej pracowni. Choæ ma wiele
+pracy, daje radê i jest z niej zadowolony. Praca kowala ma swoje plusy i
+minusy, ale za tak± stawkê jak± ma Neraz ka¿dy by siedzia³ dzieñ i noc
+naprawiaj±c pancerze oraz bronie. 
+~
+Race krasnolud~
+ActExt 0|ABK
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d10+200
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments BI¯UTERI NIE MO¯NA NAPRAWIAÆ! - {RRisan{x ({CMon Sep 26 18:37:42 2011{x)
+~
+MobprogNew greet 4670 FGI 100~
+MobprogNew precommand 4665 ABCDEFGHI repair~
+MobprogNew precommand 4665 ABCDEFGHI estimate~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4674
+Name Najemnicki sprzedawca Diril~
+Odmiana sprzedawcy Dirila~sprzedawcy Dirilowi~sprzedawcê Dirila~sprzedawc± Dirilem~sprzedawcy Dirilu~
+Short sprzedawca Diril~
+Long Sprzedawca Diril stoi tutaj czekaj±c na to by co¶ sprzedaæ.~
+Descr Przygl±dasz siê niewysokiemu cz³owiekowi. Ma on niewiele ponad
+piêædziesi±t centymetrów wzrostu. Jego siwe w³osy wskazuj±, i¿ nie nale¿y do
+najm³odszych. Deril, bowiem tak siê zwie jest sprzedawc± i to bardzo chytrym
+i dobrze siê targuj±cym w niejednym miecie zas³yn± jako ten, który potrafi
+wyk³óciæ siê o dobr± cenê. 
+~
+Race cz³owiek~
+ActExt 0|ABK
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d10+100
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4675
+Name Sir Rohold~
+Odmiana Sir Roholda~Sir Roholdowi~Sir Roholda~Sir Roholdem~Sir Roholdzie~
+Short Sir Rohold~
+Long Sir Rohold przegl±da tutaj rózne papiery.~
+Descr Masz przed sob± piêknego, niebieskookiego elfa. Dobrze zbudowanego,
+mierz±cego dwa metry wzrostu. Ten blond w³osy mê¿czyzna jest znany jako
+wy¶mienity fechmistrz. Wiele wierszy powsta³o o jego donios³ych czynach i
+osi±gniêciach, o który wiêkszo¶æ wojowników mo¿e pomarzyæ. Jego charyzma
+pozwoli³a na przejecie w³adzy w tym mie¶cie, po ¶mierci za³o¿yciela tego
+miasta Nasena. 
+~
+Race elf~
+ActExt 0|ABT
+Affected 512 524288 0 0
+AffectedExt 0|J/1|T
+Align 1000
+Group 10
+Lang AB
+Speaks 0
+Level 28
+Hitroll 3
+HP 10d8+600
+Damage 6d3+4
+Dammagic 0
+Weaponbonus 6
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 132 120 120 150 120 150 120
+Off EHKYb
+OffExt 0|EHKYb/1|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet 4669 FGI 100~
+MobprogNew kill 4668 ABCDEFGHI 100~
+MobprogNew onload 4667 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 10 30
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Mobend
+#Vnum 4676
+Name ma³a wiewiórka~
+Odmiana ma³ej wiewiórki~ma³ej wiewiórce~ma³± wierwiórkê~ma³± wiewiórk±~ma³ej wiewiórce~
+Short ma³a wiewiórka~
+Long Ma³a wiewiórka przeskakuje z ga³êzi na ga³±¼.~
+Descr Widzisz ma³± rud± wiewiórkê, która wspina siê po drzewie. Jest ona nie
+wiêksza ni¿ twoja piê¶æ i ma ³adny, d³ugi i puszysty ogonek. Raptownie
+schodzi na ziemiê ³apie za ¿o³êdzia po czym prêdko ucieka z powrotem na drzewo i
+znika miêdzy ga³êziami. 
+~
+Race wiewiórka~
+ActExt 0|AH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 1
+Hitroll 0
+HP 4d4+4
+Damage 1d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 10 10 10 10
+Stats 66 66 72 84 78 72 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4677
+Name dziêcio³ du¿y ptak~
+Odmiana dziêcio³a~dziêcio³owi~dziêcio³a~dziêcio³em~dziêciole~
+Short dziêcio³~
+Long Du¿y dziêcio³ szuka tutaj jaki¶ jadalnych owadów i innego po¿ywienia.~
+Descr Dziêcio³ najwyra¼niej jest tak zaabsorbowany poszukiwaniami jedzenia, ¿e
+kompletnie nie zwraca na ciebie uwagi. Co jaki¶ czas s³yszysz miarowy stuk,
+gdy wyszukuje larw owadów pod kor± drzewa. 
+~
+Race ptak ¶piewaj±cy~
+ActExt 0|AEGX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang K
+Speaks 10
+Level 2
+Hitroll 0
+HP 2d4+15
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack dziobanie
+XAC 10 10 10 10
+Stats 48 30 30 90 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGW
+Parts ACDEFHKPRST
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4678
+Name kap³an Chaore pó³elf~
+Odmiana kap³ana Chaore~kap³anowi Chaore~kap³ana Chaore~kap³anem Chaore~kap³anie Chaore~
+Short kap³an Chaore~
+Long Kap³an Chaore pilnuje by nieproszeni go¶cie, nie dostali siê do ¶wi±tyni.~
+Descr Patrzysz na do¶æ m³odego pó³elfa. Jest szczup³y, lecz wyrze¼biony. Jego
+blond w³osy i niebieskie oczy sprawiaj±, i¿ wygl±da na mi³ego i spokojnego
+kap³ana. Chaore jest wyznawc± Kor'totha i to przes±dza, ¿e jest z³y i czêsto
+dzia³a przeciw kodekowi szlachetnego rycerza. Jest on opiekunem tej ¶wi±tyni
+i pilnuje, ¿eby te miejsce nie zosta³o "zbezczeszczone". 
+~
+Race pó³elf~
+ActExt 0|ABQ
+Affected 552 524288 0 0
+AffectedExt 0|DFJ/1|T
+Align -1000
+Group 10
+Lang AB
+Speaks 0
+Level 24
+Hitroll 2
+HP 6d9+500
+Damage 4d3+2
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 2
+Stats 108 132 144 114 102 126 120
+Off VY
+OffExt 0|VY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+MobprogNew greet 4671 FGI 100~
+Spells 55 10 172 5
+Spells 149 141 86 3
+Spells 271 230 231 39
+Skin 100
+ExpMultiplier 100
+Resist 10 50
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 50
+Mobend
+#Vnum 4679
+Name arcymag Aldhon~
+Odmiana arcymaga Aldhona~arcymagowi Aldhonowi~arcymaga Aldhona~arcymagiem Aldhonem~arcymagu Aldhonie~
+Short arcymag Aldhon~
+Long Arcymag Aldhon czujnie obserwujê czy nie ma niespodziewanych go¶ci w akademi.~
+Descr Oto przed tob± stoi stary, szczup³y mag. Jednak sprawia on wra¿enie s³abe
+w rzeczywisto¶ci jego palce zwinniejsze od dobrego wojownika, a zaklêcia
+¶mierciono¶ne. Arcymag Aldhon jest znany w ¶wiecie magów i uwa¿any za elitê
+czarodziejów. On prowadzi tutejsz± akademiê magii i szkoli adeptów by
+przekazaæ swoj± wiedzê. Strze¿e on dostêpu, tak¿e do tej akademii by
+nieproszeni go¶cie nie wykradli jego formu³. Ty skoro tutaj jeste¶ musisz
+byæ jego przyjacielem lub uczniem. 
+~
+Race cz³owiek~
+ActExt 0|ABR
+Affected 552 524288 0 0
+AffectedExt 0|DFJ/1|T
+Align 0
+Group 10
+Lang A
+Speaks 0
+Level 28
+Hitroll 2
+HP 8d9+450
+Damage 3d4+5
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 3
+Stats 108 150 138 102 102 126 120
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+MobprogNew greet 4672 FGI 100~
+Spells 60 163 92 136
+Spells 296 1 88 185
+Spells 93 2 441 216
+Spells 217 141 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 30
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Mobend
+#Vnum 4680
+Name umiê¶niony krasnolud ochroniarz~
+Odmiana krasnoludzkiego ochroniarza~krasnoludzkiemu ochroniarzowi~krasnoludzkiego ochroniarza~krasnoludzkim ochroniarzem~krasnoludzkim ochroniarzu~
+Short krasnoludzki ochroniarz~
+Long Krasnoludzki ochroniarz pilnuje dostêpu do pokoju.~
+Descr Spogl±dasz na barczystego krasnoluda. Jest on bardzo dobrze zbudowany,
+lepiej ni¿ przeciêtny krasnolud. Jego rude w³osy s± porzucane w nie³adzie.
+Ruda broda za¶ spiêta w jeden gruby warkocz. Rysy jego twarzy sprawiaj±, i¿
+czujesz do niego respekt. Na pewno jego umiejêtno¶ci s± imponuj±ce skoro
+pilnuje sam porz±dku w tej karczmie. 
+~
+Race krasnolud~
+ActExt 0|ABIT
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 2
+HP 4d3+500
+Damage 3d6+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 1 1 1 2
+Stats 132 90 96 102 138 60 72
+Off DJP
+OffExt 0|DJP/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 4662 ABCDEFGHI 100~
+MobprogNew onload 4666 ABCDEFGHI 100~
+MobprogNew exit 4673 FGI 1~
+Skin 100
+ExpMultiplier 100
+Resist 10 30
+Resist 12 100
+Resist 13 50
+Resist 14 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 4661
+Name drewniana tabliczka~
+Odmiana tabliczki~tabliczce~tabliczkê~tabliczk±~tabliczce~
+Short drewniana tabliczka~
+Descr Wisi tutaj przybita, drewniana tabliczka.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Widzisz tutaj drewnian± tabliczkê, na której widnieje napis " Wystarczy,
+¿e dostanê dziesiêæ miedzianych monet, a dostaniesz wypoczêtego rumaka.
+Oczywi¶cie je¶li jeste¶ Najemnikiem."  
+~
+Comments ~
+Objend
+#Vnum 4663
+Name granitowa fonntana~
+Odmiana {Dgranitowej fontanny{X~{Dgranitowej fontannie{X~{Dgranitow± fontanne{X~{Dgranitow± fontann±{X~{Dgranitowej fontannie{X~
+Short {Dgranitowa fontanna{X~
+Descr {DGranitowa fontanna{X stoi po ¶rodku parku.~
+Material granit~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 100
+Comments ~
+Objend
+#Vnum 4671
+Name ¿elazny klucz~
+Odmiana ¿elaznego klucza~¿elaznemu kluczowi~¿elazny klucz~¿elaznym kluczem~¿elaznym kluczu~
+Short ¿elazny klucz~
+Descr ¯elazny klucz lezy na ziemi.~
+Material ¿elazo~
+Type key
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to ¿elazny klucz, prawdopodobnie jest on po to by otworzyæ bramê
+miasta. Ale sprawd¼ to wtedy siê przekonasz. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 4660
+Name Przed brama~
+Descr Stoisz przed masywn± bram±, której nikt nie jest w stani wywa¿yæ.
+Strze¿e ona dostêpu do miasta wraz ze stra¿nikami, którzy przechadzaj± siê
+bacznie obserwuj±c intruzów. Zza bramy s³ychaæ weso³e krzyki widaæ, ¿e
+miasto, które jest za ni± kipi rado¶ci±, ale o tym mo¿e sam siê przekonaj. 
+~
+FlagsExt 0|CH
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 7
+ExitExtKey 4671
+ExitExtToVnum 4661
+ExitExtEnd
+Exit 1
+~
+VName Brama~
+brama~
+7 4671 4661
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4661
+Name Alejka wewn±trz miasta~
+Descr Zajdujesz siê w g³owej alejce miasta, która tak jakby oddziela to dziwne
+miasto od reszty ¶wiata. £±cznikiem tak naprawde jest - brama, która
+znajduje sie wlasnie przed toba. Zazwyczaj panuja tutaj pustki, prawie nikt
+tutaj nie chodzi, gdy¿ kiedy kto¶ opuszcza miasto. Zdaza sie to tylko kiedy
+wywoza towary, badz przywoza. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4662
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4662
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4675
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4675
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 4671
+ExitExtToVnum 4660
+ExitExtEnd
+Exit 3
+~
+VName Brama~
+~
+7 4671 4660
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4662
+Name Miejska ulica~
+Descr Znajdujesz siê na szerokiej na dwa wozy ulicy miejskiej.
+Najprawdopodobniej zosta³a ona wykonana przez krasnoludy, ludzkie rêce
+brzydz± siê taka staranno¶ci±. Solidnie i symetrycznie wybrukowana, nie
+mo¿esz siê doszukaæ skaz w tym dziele. To, co zdecydowanie odbiega od
+normalno¶ci w tym mie¶cie to zdecydowany brak wiêkszego ruchu. W³a¶nie ten
+fakt pozwala zakwalifikowaæ to miejsce jako podejrzane. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4666
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4666
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4663
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4663
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4661
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4661
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4663
+Name Alejka~
+Descr Idziesz do¶æ szeroka alejka prowadz±ca od bramy w g³±b miasta. Widaæ, ¿e
+wiele starañ zosta³o w³o¿onych by to miejsce wygl±da³o na zadbane i z
+pewno¶ci± kto¶ doskonale siê spisa³. Od czasu do czasu widzisz jakiego¶
+¶piesz±cego siê mieszkañca. Niewielkie latarnie, stoj± tu w nocy o¶wietlaj±c
+okolice swym md³ym ¶wiat³em. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4664
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4664
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4662
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4662
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4664
+Name Obok karczmy~
+Descr Znalaz³e¶ siê przed jedyna w tym mie¶cie karczma. Solidnie zbudowany
+drewniany budynek zdaje siê byæ odporny na pijatyki, przynajmniej na takie,
+w których nie bior± udzia³u magowie ciskaj±cy ognistymi kulami. Je¿eli
+chcesz siê odprê¿yæ po ciê¿kim dniu to zdecydowanie jest miejsce, w którym
+powiniene¶ siê zatrzymaæ. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4665
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4665
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Karczma~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 4679
+ExitExtEnd
+Exit 2
+~
+VName Karczma~
+~
+1 0 4679
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4663
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4663
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4665
+Name Zakrêt ulicy~
+Descr Ulica zatacza tutaj ³uk i leniwie skrêca by poprowadziæ ciê w kolejne
+miejsce. Id±c na zachód trafisz do karczmy, a na pó³noc do ¶wi±tyni i
+akademii magicznej. ¦wiat³o latarni, co wieczór zalewa ulice swym blaskiem.
+Co jaki¶ czas dostrzegasz krz±taj±cych siê gdzieniegdzie mieszkañców. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 129
+ExitExtKey 0
+ExitExtToVnum 4685
+ExitExtEnd
+Exit 0
+~
+~
+129 0 4685
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Ku¿nia~
+ExitExtName ku¿nia~
+ExitExtLiczba 0
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 4722
+ExitExtEnd
+Exit 1
+~
+VName Ku¿nia~
+ku¿nia~
+1 0 4722
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4664
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4664
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4666
+Name Wej¶cie do parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|CH
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4667
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4667
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4669
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4669
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4662
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4662
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4670
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4670
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4667
+Name Centrum parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4668
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4668
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4671
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4671
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4666
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4666
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4672
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4672
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4668
+Name Przy wielkim drzewie~
+Descr Znajdujesz siê w pó³nocnej czê¶ci parku, gdzie ro¶nie stare drzewo-
+wielki d±b. Jest to jakie¶ magiczne miejsce, które sprzyja druidom z
+zapamiêtywaniu czarów i nie tylko. Widzisz jak po drzewie skacz± wiewiórki i
+æwierkaj± siedz±ce na nim ptaki. Park ten jest cudownym miejscem na
+odpoczynek. 
+~
+FlagsExt 0|EH
+Sector 38
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4673
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4673
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4667
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4667
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4674
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4674
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4669
+Name Po³udniwo-wschodnia czê¶æ parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4671
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4671
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4666
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4666
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4670
+Name Po³udniwo-zachodnia czê¶æ parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4672
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4672
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4666
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4666
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4671
+Name Park~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4673
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4673
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4669
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4669
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4667
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4667
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4672
+Name Miejsce w parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4674
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4674
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4667
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4667
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4670
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4670
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4673
+Name Po³udniowo-zachodnia czê¶æ parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4671
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4671
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4668
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4668
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4674
+Name Pó³nocno-zachodnia czê¶æ parku~
+Descr Radosny ¶piew ptaków a¿ wype³nia ten park, mnóstwo zwierz±tek biega wokó³
+ciebie. Szum drzew uspokaja ciê. To miejsce na pewno bêdzie dobre na
+odpoczynek. Pe³no krzaków, na których s± jakie¶ owoce i drzewa, których
+wszystkich gatunków nie znasz. Wszystko jest tu takie piêkne, ¿e a¿ trudno
+uwierzyæ, a mo¿e to tylko po to by u¶piæ twoj± czujno¶æ. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4668
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4668
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4672
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4672
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4675
+Name Zau³ek~
+Descr Jeste¶ w zau³ku miasta, przed stra¿nic±. Te miejsce jest ma³o
+odwiedzanie. Najczê¶ciej przez stra¿ników miasta i tych, który chc± mieæ
+rumaka. Bowiem id±c na wschód znajdziesz stajnie, w której s± wypoczête i
+pe³ne wigoru konie. A je¶li nie chcesz doj¶æ do stra¿nicy i stajni to zmykaj
+st±d, bo niczego ciekawego nie spotkasz. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4661
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4661
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4677
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4677
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Stra¿nica~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4676
+ExitExtEnd
+Exit 2
+~
+VName Stra¿nica~
+~
+0 0 4676
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4676
+Name Stra¿nica~
+Descr Ta wielka i piêkna budowla to stra¿nica tego miasta. Jest to siedziba
+stra¿ników miasta, który bezwzglêdnie strzeg± i pilnuj± by nikt nie ³ama³
+prawa. Te miasto bez ich interwencji marnie by pracowa³o. Lepiej nie
+wszczynaæ tutaj bójek, szczególnie w tym miejscu - stra¿nicy. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4675
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 4675
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4677
+Name Przed stajni±~
+Descr Stoisz przed wielka, zbit± z desek stajni±. S³ychaæ stamt±d parskanie
+koni i czuæ ich zapach. Na drodze widzisz ¶lady kopyt, niektóre wydr±¿y³y
+spore dziury. Widaæ, ¿e czêsto kto¶ przyprowadza lub zabiera konie. Co
+chwile przemyka ko³o ciebie jakie¶ dziecko. Nawet w tym miejscu jest t³um w
+mie¶cie. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Stajnia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4678
+ExitExtEnd
+Exit 2
+~
+VName Stajnia~
+~
+0 0 4678
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4675
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4675
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4678
+Name Stajnia~
+Descr Stajnia ta jest ca³a zbudowana z drewna, a w ¶rodku walaj± siê ca³e
+kilogramy s³omy, a po ¶rodku widzisz piêkne legowiska dla koni. Mieszkañcy
+wioski ¶wietnie dbaj± o to miejsce, jest tu niesamowicie czysto, a wszystko
+jest na swoim miejscu. Widzisz, i¿ stajnia by³a remontowana w paru
+miejscach, widzisz to po paru nowych deskach kilku miejscach. Na ¶rodku
+powieszona jest deska, przygl±daj±c mu siê mo¿na wyczytaæ zloty napis "Czas
+to pieni±dz". To miejsce zapewne jest reprezentatywne dla tego miasta. W
+k±cie widzisz miot³y i wiadra, na pewno kto¶ stale siê tym miejscem zajmuje,
+bo nie ³atwo stajnie utrzymaæ w takim porz±dku. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4677
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 4677
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4679
+Name Przedsionek karczmy~
+Descr Jeste¶ w przestrzennym przedsionku karczmy, do którego dochodz± d¼wiêki
+¶piewów i tañca. Mo¿esz do³±czyæ do tych pijackich wygibasów lub ruszyæ do
+zachodniej czê¶ci karczmy gdzie bêdziesz móg³ znale¼æ nocleg. Je¶li jeszcze
+nie zwil¿y³e¶ dzisiaj gard³a powiniene¶ udaæ siê na wschód do baru i zatopiæ
+siê w morzu rozkoszy potocznie zwanej alkoholem. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 4664
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+1 0 4664
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4682
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4682
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4680
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4680
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4681
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4681
+Roomprog random 4660 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4680
+Name G³owna sala~
+Descr Znalaz³e¶ siê w g³ównej sali karczmy. To tutaj przelewa siê zdecydowana
+wiêkszo¶æ piwa. Zalatana kelnerka krz±ta siê od go¶cia do go¶cia przynosz±c
+zamówienia do d³ugiego drewnianego sto³u zajmuj±cego wiêkszo¶æ
+pomieszczenia. Mimo niebywa³ych wdziêków kelnerki nie powiniene¶ jej
+zaczepiaæ gdy¿ karczmarz jest strasznie wyczulony na jej punkcie i mog³oby
+siê to zle skoñczyæ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4679
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4679
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4684
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4684
+Roomprog random 4660 5~
+Roomprog random 4661 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4681
+Name Korytarz w karczmie~
+Descr Poruszasz siê niemal po omacku w±skim korytarzem w karczmie. Ze wschodu
+dobiegaj± ciê jeszcze d¼wiêki karczemnej gwary. Ten budynek to zdecydowanie
+oaza dla spragnionych dobrej zabawy, lecz niestety dla osób szukaj±cych
+noclegu jest to piek³o, które w tym mie¶cie ka¿dy wêdrowiec szukaj±cy
+spoczynku musi przej¶æ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4679
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4679
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 4683
+ExitExtEnd
+Exit 2
+~
+~
+3 0 4683
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4682
+Name Przy barze~
+Descr D¼wiêk stukaj±cego szk³a, hektolitry piwa, tak prócz piêknych kobiet
+mê¿czy¼ni najbardziej to kochaj±. Je¶li chcesz z³o¿yæ zamówienie powiniene¶
+siê zwróciæ siê do karczmarza, który od razu siê tob± zajmie. Ta karczma
+s³ynie z doskona³ego krasnoludzkiego piwa, wiec je¶li nie mo¿esz siê
+zdecydowaæ to w³a¶nie tego powiniene¶ spróbowaæ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4684
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4684
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4679
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4679
+Roomprog random 4660 5~
+Roomprog random 4661 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4683
+Name Pokój do wynajêcia~
+Descr Znalaz³e¶ siê w pokoju do wynajêcia. Solidnie wykonane drzwi zatrzymuj±
+wiêkszo¶æ ha³asów dochodz±cych z karczmy wiec mo¿e uda ci siê zmru¿yæ dzi¶
+oczy. Na ¶rodku pomieszczenia umieszczono szerokie i wygodne ³ó¿ko, które
+wrêcz zdaje siê do ciebie wo³aæ: po³ó¿ siê na mnie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 4681
+ExitExtEnd
+Exit 0
+~
+~
+3 0 4681
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4684
+Name Parkiet taneczny~
+Descr Je¿eli siê tu znalaz³e¶ to znaczy ¿e twoje nogi nie mog± ju¿ wytrzymaæ w
+miejscu i ze muzyka poruszy³a twoje serce. Tak zdecydowanie taniec potrafi
+odprê¿yæ i pomoc wyzbyæ siê negatywnych emocji. A poza tym to doskona³a
+zabawa zw³aszcza, je¶li znajdziesz piêkn± partnerkê. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4682
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4682
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4720
+ExitExtEnd
+Exit 1
+~
+~
+131072 0 4720
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4680
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4680
+Roomprog random 4660 5~
+Roomprog random 4663 4~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4685
+Name Przed ¶wi±tyni±~
+Descr Na zachodzie znajduje siê ma³y dom, ale twoj± uwagê zwraca, znajduj±ca
+siê na wschodzie ¶wi±tynia. Piêkna i dobrze pilnowana. Na drzwiach ¶wi±tyni
+widzisz napis "{DWstêp tylko dla kap³anów Najemników. {x" S³owa te mog± byæ dla
+Ciebie ostrze¿eniem, ¿eby tam nie zagl±daæ. Mo¿e, jednak warto zobaczyæ
+strze¿on± ¶wi±tynie, byæ mo¿e co¶ warto¶ciowego tam jest. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4687
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4687
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName ¦wi±tynia~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 4691
+ExitExtEnd
+Exit 1
+~
+VName ¦wi±tynia~
+~
+3 0 4691
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 129
+ExitExtKey 0
+ExitExtToVnum 4665
+ExitExtEnd
+Exit 2
+~
+~
+129 0 4665
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Dom~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4686
+ExitExtEnd
+Exit 3
+~
+VName Dom~
+~
+0 0 4686
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4686
+Name Dom~
+Descr Stoisz na ¶rodku dosyæ skromnego domu, jest on miejscem zamieszkania
+¶rednio zamo¿nej rodziny. Na ¶cianach wisz± ró¿ne portrety, zapewne s± to
+przodkowie tej rodziny. Dom wygl±da jakby by³ przekazywany z pokolenia na
+pokolenie, wiele jest tutaj przedmiotów bezwarto¶ciowych, jednak
+wygl±daj±cych na bardzo stare, domownicy trzymaj± je zapewne z powodów
+sentymentalnych. Szczególnie rzuca siê w oko stó³ z elfickimi rze¼bieniami,
+taki piêkny... Szkoda, ¿e ma jedn± u³aman± nogê, na pewno wiele przeszed³. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4685
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 4685
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4687
+Name Ulica przed akademia~
+Descr Znajdujesz siê przed potê¿nym budynkiem akademii. Rzuca on na ulice
+mroczny cieñ, a osoby nieparaj±ce siê magia staraj± siê unikaæ tego miejsca.
+Sam budynek wykonany jest z ciemnego, idealnie wyszlifowanego kamienia.
+Bogaty w zdobienia z kamieni szlachetnych i magiczne runy. Na drzwiach
+akademii widnieje napis "{DWstêp tylko magom najemników{S" Je¶li nim nie jeste¶
+to lepiej nie wchod¼. 
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Akademia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4689
+ExitExtEnd
+Exit 0
+~
+VName Akademia~
+~
+0 0 4689
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Ratusz~
+ExitExtLiczba 1
+ExitExtInfo 131073
+ExitExtKey 0
+ExitExtToVnum 4723
+ExitExtEnd
+Exit 1
+~
+VName Ratusz~
+~
+131073 0 4723
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4685
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4685
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Dom~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4688
+ExitExtEnd
+Exit 3
+~
+VName Dom~
+~
+0 0 4688
+Roomprog random 4662 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4688
+Name Ma³y dom~
+Descr Stoisz na ¶rodku dosyæ skromnego domu, jest on miejscem zamieszkania
+¶rednio zamo¿nej rodziny. Na ¶cianach wisz± ró¿ne portrety, zapewne s± to
+przodkowie tej rodziny. Dom wygl±da jakby by³ przekazywany z pokolenia na
+pokolenie, wiele jest tutaj przedmiotów bezwarto¶ciowych, jednak
+wygl±daj±cych na bardzo stare, domownicy trzymaj± je zapewne z powodów
+sentymentalnych. Twoj± uwaga przyci±ga ³adne ³o¿e, na którym mo¿esz
+spokojnie wypocz±æ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4687
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 4687
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4689
+Name Akademia magiczna~
+Descr Jeste¶ w przepiêknym przedsionku akademii magicznej. Wysoki uformowany w
+¿ebra sufit nadaje temu miejscu ogromnej przestrzeni. Na ¶cianach widniej±
+portrety wszystkich magów nale¿±cych do potê¿nego klanu najemników. S± to
+jedni z najpotê¿niejszych w historii i prawdziwym zaszczytem by³oby siê
+znale¼æ miedzy nimi. Pod³oga pokryta jest wielkim, czerwonym i miêkkim
+dywanem. A± kusi ciê by siê na nim po³o¿yæ. 
+~
+FlagsExt 0|CHN
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4687
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 4687
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4690
+ExitExtEnd
+Exit 3
+~
+~
+131072 0 4690
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4690
+Name Wielka sala~
+Descr Pierwsz±, rzecz± jak± rzuca siê w oczy, gdy wchodzisz do tego
+pomieszczenia to unosz±ca siê dziesiêæ stop nad ziemia magiczna kula.
+Emanuje od niej szkar³atne ¶wiat³o, które nadaje pomieszczeniu krwawej aury.
+Jednak pomijaj±c walory estetyczne to ¶wiat³o zdaje siê pozytywnie na ciebie
+oddzia³ywaæ. Ju¿ po chwili czujesz siê ca³kowicie zrelaksowany. W g³êbi sali
+dostrzegasz piêtrz±ce siê rega³y ksi±¿ek i najrozmaitszych komponentów
+magicznych. Pod³oga i sufit pomieszczenia sa us³ane wszelakimi magicznymi
+znakami, jakie tylko móg³by¶ sobie wymarzyæ a ca³y pokój zdaje siê wrêcz
+epatowaæ energia 
+~
+FlagsExt 0|FHN
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4689
+ExitExtEnd
+Exit 1
+~
+~
+131072 0 4689
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4691
+Name W ¶wi±tyni~
+Descr Znajdujesz siê w marmurowej ¶wi±tyni pe³nej ozdób i dziwnych przedmiotów,
+w której mod³y odprawiaj± kap³ani klanu Najemników. Inni s± nie mile
+widziani tutaj. Najczê¶ciej niechciani zostaj± zamordowani, ale bywa³y osoby które zdo³a³u uciec. Lepiej nie kusiæ losu i opu¶ciæ to miejsce, gdy jeste¶ z nimi w
+zwadzie. 
+~
+FlagsExt 0|CHN
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4693
+ExitExtEnd
+Exit 1
+~
+~
+131072 0 4693
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4692
+ExitExtEnd
+Exit 2
+~
+~
+131072 0 4692
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 4685
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+3 0 4685
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4692
+Name Sala z o³tarzem Kor'totha~
+Descr Wielka sala wykonana ca³a z marmuru. Jest ona czysta i wygl±da bardzo
+³adnie. Widzisz przed sob± o³tarz Kor'totha - boga mordu, niszczyciela.
+Wyznawcy tego boga nie postrzegaj± prawa s± bezwzglêdni wobec innych.
+Agresja i zastraszanie to ich codzienno¶æ wiêc trzeba uwa¿aæ na osoby,
+którzy wyznaj± boga Kor'totha. 
+~
+FlagsExt 0|HN
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4691
+ExitExtEnd
+Exit 0
+~
+~
+131072 0 4691
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4693
+Name Sala medytacyjna~
+Descr Wchodz±c do pomieszczenia razi ciê blask bia³ych i przejrzystych
+marmurowych ¶cian. Jest to sala, której klerycy medytuj± znacznie szybciej.
+Bêd±c tutaj odczuwasz dziwne wra¿enie jakby kto¶ ciê obserwowa³. Kto wie co
+to mo¿e byæ za mroczne miejsce. 
+~
+FlagsExt 0|BHN
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4691
+ExitExtEnd
+Exit 3
+~
+~
+131072 0 4691
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4720
+Name Specjalne pomieszczenie~
+Descr Jeste¶ w piêknym, urz±dzonym wieloma skarbami pomieszczeniu. Jest to
+specjalny pokój, w którym Najemnicy rozmawiaj± o wa¿nych sprawach i kupuj±
+od w³asnego sprzedawcy klanowe wyposa¿enie. Pomieszczenie jest dobrze
+o¶wietlone i zawalone cudnymi zdobyczami, które zapewne s± wyci±gniête z
+cia³ wrogów. 
+~
+FlagsExt 0|HN
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4721
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4721
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 4684
+ExitExtEnd
+Exit 3
+~
+~
+131072 0 4684
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4721
+Name Pokój odpoczynkowy~
+Descr To jest pokój, w którym mo¿esz spokojnie odpocz±æ po d³ugiej podró¿y lub
+ciê¿kiej bitwie. Pokój ten o¶wietlaj± dwie lampy rozstawione na dwóch
+koñcach. Przyjemne zapachy dobiegaj±ce z drugiej strony karczmy sprawiaj±, i¿
+ka¿dy kto tutaj wejdzie staje siê bardziej senny. Dobrze, ¿e s± tutaj
+wygodne ³ó¿ka, na których mo¿esz spokojnie odpocz±æ. 
+~
+FlagsExt 0|HN
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4720
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4720
+Rentrate 120
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4722
+Name Ku¼nia~
+Descr To miejsce to pracownia kowala Neraza. Jest ona do¶æ du¿a, ¿eby starczy³o
+mu przestrzeni na wszystkie zbroje, tarcze i inne czê¶ci ekwipunku.
+Pomieszczenie pomimo, ¿e jest zawalone ca³e gratami do naprawy. Wygl±da na
+zadbane, mimo wiele pracy kowal sprz±ta by zachowaæ ³ad w swojej pracowni. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 4665
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+1 0 4665
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4723
+Name Ratusz~
+Descr Znajdujesz siê w miejskim ratuszu wykonanego z bia³ego marmuru. Jest ono
+dosyæ reprezentacyjne. Na ¶cianach widzisz przeró¿ne obrazy, a na biurku
+przy którym siedzi zarz±dzaj±cy miastem Sir Rohold, widzisz z³ote
+statuetki. Tutaj mo¿esz za³atwiæ wszystkie sprawy odno¶nie tego miasta.
+Oczywi¶cie je¶li Rohold bêdzie ciê chcia³ wys³uchaæ. 
+~
+FlagsExt 0|CHN
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 131073
+ExitExtKey 0
+ExitExtToVnum 4687
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+131073 0 4687
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4724
+Name {YFree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4725
+Name {YFree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+4671 0 0 0 0 0 100 100 0 23 * 4682
+4674 0 0 0 0 0 120 80 6 22 * 4720
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 4663 1 4660 1
+M 100 4664 6 4661 6
+M 100 4665 2 4662 1
+M 100 4664 6 4663 6
+M 100 4666 2 4664 1
+M 100 4664 6 4665 6
+O 100 4663 0 4667
+M 100 4668 3 4667 1
+E 100 3001 0 8
+E 100 3066 0 9
+E 100 4392 0 5
+M 100 4676 2 4668 2
+M 100 4669 2 4671 1
+M 100 4676 2 4671 2
+M 100 4677 1 4672 1
+M 100 4669 2 4675 1
+M 100 4664 6 4676 6
+M 100 4662 1 4676 1
+M 100 852 6 4678 6
+M 100 4660 1 4678 1
+M 100 4672 1 4680 1
+E 100 4418 0 8
+O 100 2364 0 4680
+O 100 2362 0 4680
+O 100 2363 0 4680
+E 100 4389 0 5
+O 100 2363 0 4682
+O 100 2364 0 4682
+M 100 4671 1 4682 1
+G 100 3381 0
+E 100 3381 0 17
+G 100 2495 0
+E 100 4396 0 5
+E 100 3057 0 7
+G 100 2450 0
+G 100 11804 0
+G 100 2499 0
+E 100 4415 0 8
+O 100 2358 0 4683
+M 100 4680 1 4684 1
+M 100 4666 2 4686 1
+M 100 4664 6 4687 6
+M 100 4665 2 4688 1
+M 100 4679 1 4689 1
+E 100 3385 0 16
+E 100 4415 0 8
+E 100 4377 0 12
+M 100 4670 1 4690 1
+E 100 4377 0 12
+E 100 4364 0 5
+O 100 2351 0 4690
+O 100 2359 0 4690
+M 100 4678 1 4691 1
+E 100 3017 0 5
+E 100 3001 0 8
+E 100 3050 0 7
+E 100 3066 0 9
+M 100 4674 1 4720 1
+E 100 4415 0 8
+E 100 4426 0 12
+G 100 3098 0
+G 100 3045 0
+G 100 3013 0
+G 100 3061 0
+G 100 3077 0
+G 100 3029 0
+G 100 4671 0
+G 100 3380 0
+G 100 4426 0
+O 100 2358 0 4721
+M 100 4673 1 4722 1
+E 100 3017 0 5
+E 100 3050 0 7
+E 100 3001 0 8
+E 100 3034 0 6
+M 100 4675 1 4723 1
+S
+
+
+
+#MOBPROGSNEW
+#4660
+eq straznika bramy
+~
+mob equip self 3077
+mob equip self 3029
+mob equip self 3061
+mob equip self 3013
+mob equip self 3045
+mob equip self 3172 hold
+~
+#4661
+Stra¿nik otwiera bramê.
+~
+if affected $i paralyze
+or affected $i blind
+  break
+endif
+if clan $n 'NAJEMNIK'
+  say Ju¿ otwieram.
+  mob echo emote podchodzi do bramy.
+  unlock brama
+  open brama
+  minidelay 1
+  emote k³ania siê nisko.
+  delay 3
+  close bram
+  lock bram
+  break
+else
+  say Nie masz wtepu do tego miasta.
+endif
+~
+#4662
+nadaje flage za zabicie mieszkañca miasta.
+~
+emote nie zyje!!
+emote pada na ziemie... MARTWY.
+mob setflag $n zabil_naj 48
+~
+#4663
+£aduje skórzane ubranie.
+~
+mob equip self 3034
+mob equip self 3066
+mob equip self 3001
+mob equip self 3082
+mob equip self 3050
+mob equip self 3017
+~
+#4665
+Prog kowala Neraza
+~
+if clan $n 'NAJEMNIK' 
+  say Dziêkuje za skorzystanie z moich us³ug.
+  mob command
+  emote k³ania siê nisko
+else
+  say Nie obs³uguje nieznajomych.
+endif
+~
+#4666
+eq strazników miasta.
+~
+mob equip self 3077
+mob equip self 3029
+mob equip self 3013
+mob equip self 3045
+$_rand = int_random 1 3
+if numeval $_rand == 1
+  mob equip self 3128
+endif
+if numeval $_rand == 2
+  mob equip self 3149
+endif
+if numeval $_rand == 3
+  mob equip self 3127
+endif
+~
+#4667
+eq Sir Roholda
+~
+mob equip self 3017
+mob equip self 4419
+mob equip self 4401
+mob equip self 3057
+mob equip self 4369
+mob equip self 3064 hold
+~
+#4668
+prog na kill Sir Roholda
+~
+wield miecz
+hold miecz
+mob say No To zatañczymy!
+emote ¶mieje siê szyderczo.
+~
+#4669
+Powitanie Sir Roholda
+~
+if hasflag $i mowil
+  break
+else
+  if clan $n 'NAJEMNIK'
+    $_rand = int_random 1 7
+    if numeval $_rand == 1
+      say Witaj w czym mogê ci pomóc? 
+    endif
+    if numeval $_rand == 2
+      say Jak mi³o mi ciê widzieæ $n.
+    endif
+    if numeval $_rand == 3
+      say Hej $n. Dawno ciê nie widzia³em. 
+    endif
+    if numeval $_rand == 4
+      say No $n s³ysza³em o ostatnio o twoich podbojach. 
+      emote u¶miecha siê szeroko.
+    endif
+    if numeval $_rand == 5
+      say Jakie wie¶ci mi przynosisz $n?
+    endif
+    if numeval $_rand == 6
+      say Praca i praca, a co tam u ciebie $n? 
+    endif
+    if numeval $_rand == 7
+      say Witaj. Siadaj pogadamy, bo ostatnio tylko te cholerne papiery, zero rozrywki.
+    endif
+    mob setflag $i mowil 2
+  else
+    if rand 50
+      say Nie przeszkadzaj mi $n i id¼ st±d.
+    else
+      say Nie widzisz, ¿e nie mam czasu? To zwiewaj st±d.
+    endif
+  endif
+~
+#4670
+"powitanie" kowala Neraza
+~
+if clan $n 'NAJEMNIK'
+  sayto $n Witam cie. Potrzebujesz bym ci co¶ naprawi³?
+else
+  say Nawet nie masz co siê tutaj pa³êtaæ, bo i tak niczego ci nie naprawie.
+endif
+~
+#4671
+prog kap³ana (greet)
+~
+if clan $n 'NAJEMNIK'
+  emote k³ania siê nisko.
+else
+  if hasflag $n swiatynia_2
+    tell $n Koniec ¿artów.
+    stand
+    kill $n
+  else
+    if hasflag $n swiatynia_1
+      tell $n Ju¿ raz ci mówi³em, ¿e to ¶wi±tynia Najemników!
+      tell $n Nie radze próbowaæ dalej!
+      mob setflag $n swiatynia_2 92
+    else
+      tell $n Tylko Najemnicy mog± wej¶æ do naszej ¶wi±tyni!
+      mob setflag $n swiatynia_1 92
+    endif
+    open wyjsc
+    mob transfer $n 4685
+  endif
+endif
+~
+#4672
+prog Arcymaga (greet).
+~
+if clan $n 'NAJEMNIK'
+  emote wita siê uprzejmie
+else
+  if hasflag $n akademia_2
+    tell $n Sam tego chcia³e¶.
+    stand
+    kill $n
+  else
+    if hasflag $n akademia_1
+      tell $n Ju¿ ci mówi³em, ze nie masz tutaj wstêpu!
+      tell $n Nie radze próbowaæ dalej!
+      mob setflag $n akademia_2 92
+    else
+      tell $n Tylko Najemnicy mog± wej¶æ do akademi!
+      mob setflag $n akademia_1 92
+    endif
+    open wyjsc
+    mob transfer $n 4687
+  endif
+endif
+~
+#4673
+Prog krasnoludzkiego ochorniarza (exit).
+~
+if affected $i paralyze
+or affected $i blind
+or clan $n 'NAJEMNIK'
+  mob echoat $n odchodzisz na wschód.
+  mob echoaround $n $n odchodzi na wschód.
+  mob transfer $n 4720
+  break
+else
+  mob echoat $n $i zagradza ci drogê.
+  mob echoaround $n $i zagradza  drogê $z.
+  sayto $n Gdzie siê wybierasz?
+endif
+~
+#4674
+ubranie mieszkanców.
+~
+if rand 50
+  mob equip self 4415
+else
+  mob equip self 3001
+endif
+if rand 50
+  mob equip self 3017
+else
+  mob equip self 4364
+endif
+if rand 50
+  mob equip self 3057
+else
+  mob equip self 3050
+endif
+~
+#4675
+ubranie mieszkanek.
+~
+if rand 50
+  mob equip self 4384
+else
+  mob equip self 4389
+endif
+if rand 50
+mob equip self 4418
+else
+  mob equip self 4415
+~
+#0
+
+#OBJPROGSNEW
+#4660
+Prog na p³aszcz klanowy.
+~
+if clan $n NAJEMNIK
+  obj wear
+  mob echoat $n Zak³adasz {Dczarny p³aszcz{x na plecy.
+  mob echoaround $n $n zaklada {Dczarny p³aszcz{x  na plecy.
+else
+  mob echoat $n Magiczna si³a nie pozwala ci za³o¿yæ {Dczarnego p³aszcza{x .
+endif
+~
+#4661
+Prog na czaszkê.
+~
+if clan $n NAJEMNIK
+  obj wear
+  mob echoat $n Po chwili {Wmithrilowa czaszka{x zaczyna lewitowaæ nad twoja g³ow±.
+  mob echoaround $n Po chwili {Wmithrilowa czaszka{x  zaczyna lewitowaæ nad g³ow± $z.
+else
+mob echoat $n Magiczna si³a nie pozwala ci za³o¿yæ {Wmithrilowej czaszki{x.
+endif
+~
+#4662
+Prog na czaszkê.
+~
+mob echo {WMithrilowa czaszka{x upadaj±c na ziemiê w dziwny spósób znika.
+mob purge czaszka
+~
+#4663
+prog na czarne kolcze buty.
+~
+if clan $n 'NAJEMNIK' 
+  obj wear
+  mob echoat $n Zak³adasz kolcze buty na stopy.
+  mob echoaround $n $n zak³ada kolcze buty na stopy.
+else
+  mob echoat $n Próbujesz za³o¿yæ kolcze buty, lecz nie dane ci jest ich u¿ywaæ.
+  mob echoaround $n $n Próbuje za³ozyæ kolcze buty, ale nie daje rady.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#4660
+~
+mob echo Dochodza cie odglosy wszechobecnej zabawy.
+~
+#4661
+~
+mob echo Bach! Ups... chyba ktos rozbi³ kufel.
+~
+#4662
+~
+mob echo Jaki¶ nieostro¿ny mieszkaniec traci³ ciê ramieniem.
+~
+#4663
+~
+mob echo Muzyka nabiera tempa! Lepiej przyspiesz kroku!
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+4673 0 0 120 1 6 22 * 4722
+4673 13 0 100 1 0 0 * 0
+4673 22 0 100 1 0 0 * 0
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

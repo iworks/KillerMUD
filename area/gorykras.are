@@ -1,0 +1,3917 @@
+#AREADATA
+Name +# Góry na zachód od Fortecy  ~
+Builders Brohacz_~
+VNUMs 42820 42899
+Credits Builder: Brohacz <brohacz@poczta.onet.pl>, korekta, pl: Gurthg~
+Locked ~
+Security 9
+ResetAge 30
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 42820
+Name druidzki mistrz boss~
+Odmiana druidzkiego mistrza~druidzkiemu mistrzowi~druidzkiego mistrza~druidzkim mistrzem~druidzkim mistrzu~
+Short druidzki mistrz~
+Long Druidzki mistrz przechodza siê tutaj, roztaczaj±c ciep³± aurê.~
+Descr Ten elf jest mistrzem druidzkiego krêgu z Carrallak, posiada moce
+dostêpne tylko najpotê¿niejszym kap³anom natury. Jak na elfa musi byæ
+okropnie stary, pewnie gdyby chcia³ móg³by ci opowiedzieæ o tym co wydarzy³o
+siê tysi±c lat temu. Ciekawe jakie sekrety skrywa przed ¶wiatem, ten
+dobrotliwy mistrz? 
+~
+Race elf~
+ActExt 0|AELQ/2|C
+Affected 33554472 524288 1088 32768
+AffectedExt 0|DFZ/1|T/2|GK/3|P
+Align 0
+Group 0
+Lang AN
+Speaks 13
+Level 37
+Hitroll 5
+HP 2d10+2000
+Damage 4d5+6
+Dammagic 4
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC -7 -7 -7 0
+Stats 120 150 168 138 120 78 120
+Off X
+OffExt 0|X
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 3000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments gryf nie mo¿e byæ lepszy od smoka! ¶cinam - {RKainti{x ({CWed Aug  4 11:14:59 2004{x)
+level, hp, exp multiplier - {RKainti{x ({CFri Dec  9 22:27:40 2005{x)
+Zmieniam gryfa w druidzkiego mistrza - {RDrake{x ({CFri May  2 09:46:35 2008{x)
+~
+MobprogNew onload 42820_onload ABCDEFGHI 100~
+MobprogNew death 42820_death ABCDEFGHI 100~
+Spells 7 350 26 399
+Spells 270 301 61 240
+Spells 50 137 297 91
+Spells 149 0 0 0
+Skin 100
+ExpMultiplier 250
+Resist 1 10
+Resist 2 10
+Resist 3 10
+Resist 4 50
+Resist 5 25
+Resist 7 25
+Resist 8 25
+Resist 9 50
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 42821
+Name dzika niebezpieczna harpia~
+Odmiana dzikiej harpii~dzikiej harpii~dzik± harpiê~dzik± harpi±~dzikiej harpii~
+Short dzika harpia~
+Long Dzika i niebezpieczna harpia lata tutaj.~
+Descr Przygl±dasz siê uwa¿nie harpii. Wygl±da jak po³±czony orze³ z kobiet±.
+Jest ona trochê wiêksza ni¿ przeciêtny cz³owiek, jednak rozpiêto¶æ jej
+skrzyde³ jest bardzo du¿a. Ten mistyczny potwór o wiele ró¿ni siê od innych
+mu podobnych. Jest bardzo dziki, a zarazem bardzo potê¿ny.
+~
+Race harpia~
+ActExt 0|AFGTX
+Affected 524864 0 0 0
+AffectedExt 0|GJT
+Align -1000
+Group 0
+Lang J
+Speaks 9
+Level 15
+Hitroll 0
+HP 15d10+250
+Damage 3d4+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 5 1 4 3
+Stats 144 144 144 120 102 60 102
+Off FIRUX
+OffExt 0|FIRUX
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGMVW
+Parts ABCDEFGHIJKPQRSUV
+Size medium
+Material unknown
+Comments Scinam to gówno, kogo¶ posra³o, ¿eby robiæ harpie na 25 poziomie. Chyba trzeba wzi±¶æ i limiter poziomów dla ras uwzglêdniæ tak¿e na poziomie stra¿ników. - {RDrake{x ({CThu Aug 25 08:04:40 2005{x)
+Jesio jedno, z jakiej paki te harpie maja magiczny atak? Zaklête pazury, mo¿e? Albo to s± jakie¶ bossy? - {RDrake{x ({CThu Aug 25 08:06:38 2005{x)
+~
+MobprogNew onload 42821 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 42822
+Name dzika niebezpieczna harpia~
+Odmiana dzikiej harpii~dzikiej harpii~dzik± harpiê~dzik± harpi±~dzikiej harpii~
+Short dzika harpia~
+Long Dzika i niebezpieczna harpia lata tutaj.~
+Descr Przygl±dasz siê uwa¿nie harpii. Wygl±da jak po³±czony orze³ z kobiet±.
+Jest ona trochê wiêksza ni¿ przeciêtny cz³owiek, jednak rozpiêto¶æ jej
+skrzyde³ jest bardzo du¿a. Ten mistyczny potwór o wiele ró¿ni siê od innych
+mu podobnych. Jest bardzo dziki, a zarazem bardzo potê¿ny.
+~
+Race harpia~
+ActExt 0|AFGTX
+Affected 524864 0 0 0
+AffectedExt 0|GJT
+Align -1000
+Group 0
+Lang J
+Speaks 9
+Level 15
+Hitroll 0
+HP 15d10+250
+Damage 3d4+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 5 1 4 3
+Stats 144 144 144 120 102 60 102
+Off FIRUX
+OffExt 0|FIRUX
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGMVW
+Parts ABCDEFGHIJKPQRSUV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 42823
+Name w³ochaty kaszcz~
+Odmiana w³ochatego kaszcza~w³ochatemu kaszczowi~w³ochatego kaszcza~w³ochatym kaszczem~w³ochatym kaszczu~
+Short w³ochaty kaszcz~
+Long Widzisz przed sob± brzydkiego, w³ochatego kaszcza.~
+Descr Widzisz przed sob± odra¿aj±cego, w³ochatego kaszcza. Ma on jedno oko na
+¶rodku korpusu i jedn± szczêkê, ca³kiem du¿±, zajmuj±c± wiêksz± cze¶æ ¶rodka
+korpusu. Jest on bardzo szeroki w barkach, lecz bardzo w±ski w pasie. Jego
+rêce zakoñczone s± pazurami.
+~
+Race kaszcz~
+ActExt 0|AFGIUX
+Affected 33554472 32 0 0
+AffectedExt 0|DFZ/1|F
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 11
+Hitroll 0
+HP 4d4+200
+Damage 1d10+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 9 8 8 9
+Stats 132 78 78 78 78 78 78
+Off RXc
+OffExt 0|RXc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 6
+Form AHMVc
+Parts CDEFGHIKRU
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 5 -3
+Mobend
+#Vnum 42824
+Name zmutowany kaszcz~
+Odmiana zmutowanego kaszcza~zmutowanemu kaszczowi~zmutowanego kaszcza~zmutowanym kaszczem~zmutowanym kaszczu~
+Short zmutowany kaszcz~
+Long Odra¿aj±cy, zmutowany kaszcz stoi tutaj.~
+Descr Widzisz przed sob± zmutowanego kaszcza. Jest on niebezpieczniejszy od
+zwyk³ych kaszczów, poniewa¿ posiada on dwie pary r±k. Ka¿da rêka jest
+zakoñczona pazurami i jest tak samo gro¼na. Oko, znajduj±ce siê na ¶rodku
+korpusu ma nienaturalny, pomarañczowy kolor. Szczêka jest o wiele mniejsza
+ni¿ normalnie. Kaszcz ten jest bardzo, ale to bardzo szeroki w barkach, oraz
+bardzo w±ski w pasie. Wygl±da on naprawdê przera¿aj±co.
+~
+Race kaszcz~
+ActExt 0|AFGIUX
+Affected 33554472 32 0 0
+AffectedExt 0|DFZ/1|F
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 5d5+240
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 8 7 7 8
+Stats 138 120 120 162 108 36 120
+Off RYc
+OffExt 0|RYc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 17
+Form AHMVc
+Parts CDEFGHIKRU
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 5 -3
+Mobend
+#Vnum 42825
+Name lewituj±cy korpus~
+Odmiana lewituj±cego korpusu~lewituj±cemu korpusowi~lewituj±cy korpus~lewituj±cym korpusem~lewituj±cym korpusie~
+Short lewituj±cy korpus~
+Long Lewituj±cy korpus unosi siê tutaj tu¿ nad ziemi±.~
+Descr Widzisz przed sob± lewituj±cy korpus kaszcza. Nie ma on nóg, lecz za to
+sta³± zdolno¶æ lewitacji. Jest on magiem, wiêc potrafi puszczaæ zaklêcia.
+Mo¿e okazaæ siê niebezpieczny. Jego oko, umieszczone na ¶rodku korpusu jest
+w stanie dostrzec prawie wszystko. Jego rêce, zakoñczone pazurami, s±
+równie¿ niebezpieczne.
+~
+Race kaszcz~
+ActExt 0|AFGRX
+Affected 33554472 0 0 4
+AffectedExt 0|DFZ/3|C
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 5d4+300
+Damage 1d3+3
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 7 7 7 7
+Stats 120 150 156 102 102 96 120
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 28
+Form AHMVc
+Parts CDEFGHIKRU
+Size medium
+Material unknown
+Spells 69 2 87 93
+Spells 60 137 17 90
+Skin 100
+ExpMultiplier 150
+Resist 4 10
+Resist 5 -3
+Mobend
+#Vnum 42826
+Name wielka kaszcza~
+Odmiana wielkiej kaszczy~wielkiej kaszczy~wielk± kaszczê~wielk± kaszcza~wielkiej kaszczy~
+Short wielka kaszcza~
+Long Wielka kaszcza idzie têdy odpychaj±c na boki mniejszych kaszczy.~
+Descr Idziesz wielk± kaszczê. Jest to samica, która przywodzi mniejszym grupom
+kaszczy. Jest ona oko³o pó³tora razy wiêksza od zwyk³ego, w³ochatego
+osobnika tej rasy. Jej pazury s± jeszcze bardziej zabójcze, wiêc powiniene¶
+na ni± bardziej uwa¿aæ. Jest jednak równie brzydka, jak ka¿dy inny osobnik
+tej rasy.
+~
+Race kaszcz~
+ActExt 0|AFGIX
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 0
+Group 0
+Lang AR
+Speaks 16
+Level 18
+Hitroll 0
+HP 5d5+370
+Damage 2d5+3
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 4 3 3 4
+Stats 150 132 132 150 120 54 120
+Off DRXc
+OffExt 0|DRXc
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 25
+Form AHMVc
+Parts CDEFGHIKRU
+Size medium
+Material unknown
+MobprogNew onload 42823 ABCDEFGHI 95~
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 5 -3
+Mobend
+#Vnum 42827
+Name matka kaszczy kaszcza~
+Odmiana matki kaszczy~matce kaszczy~matkê kaszczy~matk± kaszczy~matce kaszczy~
+Short matka kaszczy~
+Long Widzisz przed sob± ogromn±, najniebezpieczniejsz± kaszczê w tej jaskini.~
+Descr Matka kaszczy - najwiêkszy, najgro¼niejszy, najbrzydszy potwór w tych
+jaskiniach. Tutaj to ona jest najwa¿niejsza. Ka¿dy kaszcz ma obowi±zek
+s³uchaæ siê jej i wykonywaæ ka¿dy jej rozkaz, jej zachciankê. Ma ona oko³o
+dwa i pó³ metra wzrostu. Jej d³ugie rêce, zakoñczone ostrymi jak brzytwa
+pazurami, maj± chyba ponad metr d³ugo¶ci. Bez problemu mog± ciebie zraniæ.
+Szczêka matki kaszczy zajmuje prawie ca³y korpus, wiêc jest przera¿aj±co
+wielka.
+~
+Race kaszcz~
+ActExt 0|ABFGIMQX
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 2
+HP 6d5+400
+Damage 3d4+1
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 3 2 2 3
+Stats 132 78 78 78 78 78 78
+Off RY
+OffExt 0|RY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 170
+Form AHMVc
+Parts CDEFGHIKRU
+Size medium
+Material unknown
+MobprogNew death 42822 ABCDEFGHI 95~
+Spells 26 3 50 137
+Spells 5 230 231 0
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 5 -3
+Resist 14 100
+Mobend
+#Vnum 42828
+Name górski ptaszek~
+Odmiana górskiego ptaszka~górskiemu ptaszkowi~górskiego ptaszka~górskim ptaszkiem~górskim ptaszku~
+Short górski ptaszek~
+Long Ma³y, górski ptaszek lata tutaj, æwierkaj±c jak±¶ ³adn± melodyjkê.~
+Descr Widzisz przed sob± ma³ego, ³adnego, kolorowego ptaszka. Lata on weso³o po
+górach. Wygl±da, jakby podziwia³ piêkny krajobraz. Dumnie æwierka ³adn±
+melodyjkê.
+~
+Race ptak~
+ActExt 0|AGX
+Affected 524800 0 0 0
+AffectedExt 0|JT
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 0
+HP 5d2+55
+Damage 1d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack dziobanie
+XAC 9 9 9 9
+Stats 66 90 90 60 54 108 90
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGW
+Parts ACDEFHKPRST
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 42829
+Name monstrualny boa dusiciel~
+Odmiana monstrualnego dusiciela~monstrualnemu dusicielowi~monstrualnego dusiciela~monstrualnym dusicielem~monstrualnym dusicielu~
+Short monstrualny boa dusiciel~
+Long Monstrualny dusiciel pe³za po okolicy co chwilê wysuwaj±c swój prawie metrowy jêzyk.~
+Descr Widzisz olbrzymiego dusiciela, mierzy sobie kilkana¶cie metrów d³ugo¶ci a
+jego cielsko jest wiêkszo¶ciowo szersze od najwiêkszego krasnoluda jakiego w
+¿yciu widzia³e¶. Wzory na skórze tego monstrum wskazuj±, i¿ jego naturalnym
+¶rodowiskiem s± bagna, jednak teraz porusza siê on wraz ze swym panem, od
+którego siê zbytnio nie oddala, czujnie badaj±c okolicê w poszukiwaniu
+posi³ku - psów, owiec i innych, z jego punktu widzenia, pomniejszych ssaków.
+~
+Race w±¿~
+ActExt 0|ADe
+Affected 544 32 0 0
+AffectedExt 0|FJ/1|F
+Align 0
+Group 0
+Lang K
+Speaks 10
+Level 22
+Hitroll 3
+HP 22d6+350
+Damage 4d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack k±sanie
+XAC 2 2 2 10
+Stats 144 126 126 144 126 78 78
+Off M
+OffExt 0|M
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AGXYc
+Parts ADEFKLQRSVX
+Size huge
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 42821
+Name cia³o arcymag Iharodra~
+Odmiana cia³a arcymaga~cia³u arcymaga~cia³o arcymaga~cia³em arcymaga~ciele arcymaga~
+Short cia³o arcymaga Iharodra~
+Descr Cia³o potê¿nego arcymaga Iharodra le¿y tutaj.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|X
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 1100
+Cost 60
+Cond 50
+Itemdesc Przygl±dasz siê dok³adnie cia³u maga. Widzisz, ¿e jest ono mocno
+zmasakrowane. Ów mag przeszed³ mutacjê w gryfa, jednak kiedy gryf, a zarazem
+mag, zgin±³, cia³o powróci³o do swojej pierwszej postaci.
+~
+Comments ~
+Objend
+#Vnum 42822
+Name kamieñ narzêdzie~
+Odmiana kamiennego narzêdzia~kamiennemu narzêdziu~kamienne narzêdzie~kamiennym narzêdziem~kamiennym narzêdziu~
+Short kamienne narzêdzie~
+Descr Dziwne, kamienne narzêdzie, u¿ywane przez kaszczy le¿y tutaj.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 65
+Cost 0
+Cond 40
+Objprog prewear 42821 100~
+Itemdesc Masz przed sob± kamieñ, którego kaszcze u¿ywaj± jako narzêdzie. Nie
+potrafisz jednak stwierdziæ do czego ono im s³u¿y. Jednak u¿ywali go na
+pewno, poniewa¿ widzisz, ¿e jest ca³y poobijany.
+~
+Comments ~
+Objend
+#Vnum 42823
+Name drewniane narzêdzie kijek~
+Odmiana drewnianego narzêdzia~drewnianemu narzêdziu~drewniane narzêdzie~drewnianym narzêdziem~drewnianym narzêdziu~
+Short drewniane narzêdzie~
+Descr Gruby, drewniany kij, u¿ywany przez kaszczy jako narzêdzie, le¿y tutaj.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 0
+Cond 35
+Itemdesc Z pozoru zwyk³y, gruby, drewniany kij. Kaszcze chyba znalaz³y dla niego
+jakie¶ zastosowanie w swojej jaskini i u¿ywaj± go, jako narzêdzia. Jednak
+nie masz pojêcia, po co jest im ono potrzebne.
+~
+Comments ~
+Objend
+#Vnum 42824
+Name maluteñkie jeziorko woda~
+Odmiana jeziorka~jeziorku~jeziorko~jeziorkiem~jeziorku~
+Short jeziorko~
+Descr {BWoda p³yn±ca przy po³udniowej skale tworzy tutaj maluteñkie jeziorko.{x~
+Material kamieñ~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 0
+Cond 100
+Itemdesc Krystalicznie czysta, górska woda, która p³ynie przy po³udniowej ¶cianie
+tworzy tutaj maluteñkie jeziorko. Bez problemu mo¿esz siê z niego napiæ i
+uzupe³niæ brakuj±cy zapas wody.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 42825
+Name zakrwawione cia³o ~
+Odmiana zakrwawionego cia³a~zakrwawionemu cia³u~zakrwawione cia³o~zakrwawionym cia³em~zakrwawionym ciele~
+Short zakrwawione cia³o ~
+Descr Ca³e zakrwawione cia³o poszukiwacza przygód le¿y tutaj.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 1103
+Cost 0
+Cond 50
+Itemdesc Widzisz ca³e zakrwawione cia³o jakiego¶ m³odego poszukiwacza przygód.
+Le¿y ono ju¿ tutaj parê dni, poniewa¿ krew nie wygl±da na ¶wie¿±. Ciekawe,
+co mog³o staæ siê tej, tak m³odej, osobie.
+~
+Comments ~
+Objend
+#Vnum 42827
+Name gryfie scierwo cia³o~
+Odmiana gryfiego ¶cierwa~gryfiemu ¶cierwu~gryfie ¶cierwo~gryfim ¶cierwem~gryfim ¶cierwu~
+Short gryfie ¶cierwo~
+Descr ¦cierwo potê¿nego, czarnego gryfa le¿y tu i siê rozk³ada.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 60
+Cond 50
+Itemdesc Przygladasz siê temu ¶mierdz±cemu na wiele mil cia³u potê¿nej bestii. By³
+to wielki, czarny gryf, ale ¶lady k³ów, pazurów i przypalone lotki piór
+niew±tpliwie ¶wiadcz± o tym, ¿e pad³ ofiar± jeszcze potê¿niejszej bestii.
+Prawdopodobnie smoka... Ale co by smok robi³ w tej okolicy? ! 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 42820
+Name Pocz±tek górskiej ¶cie¿ki~
+Descr Znajdujesz siê na pocz±tku górskiej ¶cie¿ki. Na wschodzie ta ¶cie¿ka
+zmienia siê ju¿ w le¶n± dró¿kê. Id±c z kolei na zachód, ¶cie¿ka zaczyna pi±æ
+siê w górê i prowadzi na sam szczyt tego masywu. Zapewne, kiedy ju¿ tam
+dojdziesz, zobaczysz niezapomniane widoki, które utkwi± ci w pamiêci na
+lata. Jednak ta podró¿ bêdzie mêcz±ca i wyczerpuj±ca.
+~
+FlagsExt 0
+Sector 35
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42821
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42821
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42821
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42820
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42820
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42822
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42822
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42822
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42821
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42821
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42823
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42823
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42823
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42824
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42824
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42822
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42822
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42824
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42825
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42825
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42823
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42823
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42825
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42824
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42824
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42826
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42826
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42826
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42827
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42827
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42825
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42825
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42827
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42826
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42826
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42828
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42828
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42828
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42827
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42827
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42829
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42829
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42829
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42828
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42828
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42830
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42830
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42830
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42829
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42829
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42831
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42831
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42831
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42830
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42830
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42832
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42832
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42832
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42831
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42831
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42833
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42833
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42833
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42832
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42832
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42834
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42834
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42834
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42833
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42833
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42835
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42835
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42835
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42836
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42836
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42834
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42834
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42836
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42835
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42835
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42837
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42837
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42837
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42836
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42836
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42838
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42838
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42838
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42839
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42839
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42837
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42837
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42839
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42838
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42838
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42840
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42840
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42840
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42839
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42839
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42841
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42841
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42841
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42842
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42842
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42840
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42840
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42842
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42841
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42841
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42843
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42843
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42843
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42844
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42844
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42842
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42842
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42844
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42845
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42845
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42843
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42843
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42845
+Name Górska ¶cie¿ka~
+Descr Idziesz spokojnie górsk± ¶cie¿k±. Dró¿ka pnie siê spokojnie w górê. Le¿y
+na niej pe³no kamieni. Po zachodniej stronie widzisz przepa¶æ. Uwa¿aj ¿eby¶
+w ni± nie wpad³! Na wschodzie widzisz wielkie ska³y. Zaraz, zaraz. Oko³o
+sze¶æ kroków nad tob± widzisz jak±¶ pó³kê skaln±. Mo¿e, z drobn± pomoc±
+liny, uda ci siê tam wspi±æ? Je¿eli umiesz lataæ, mo¿esz równie¿ spróbowaæ
+tam wlecieæ...
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42846
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42846
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42844
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42844
+Roomprog input 42823 wleæ~
+Roomprog input 42820 wspinaj siê~
+Roomprog input 42820 wspinaj~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42846
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42845
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42845
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42847
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42847
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42847
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42848
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42848
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42846
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42846
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42848
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50503
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50503
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42849
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42849
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42847
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42847
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42849
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42850
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42850
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42848
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42848
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42850
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42849
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42849
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42851
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42851
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42851
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42852
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42852
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42850
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42850
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42852
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42853
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42853
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42851
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42851
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42853
+Name Górska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42854
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42854
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42852
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42852
+DayRDesc 42820
+NightRDesc 42820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42854
+Name Koniec górskiej ¶cie¿ki~
+Descr Znajdujesz siê na samym koñcu górskiej ¶cie¿ki. Drogê na szczyt mo¿na
+pokonaæ tylko na dwa sposoby: wspinaj±c siê lub wlatuj±c tam. Je¿eli nie
+potrafisz robiæ ¿adnej z tych rzeczy, mo¿esz tylko udaæ siê na zachód i
+zej¶æ z tej góry. Je¿eli idziesz do góry, musisz byæ pewny, ¿e jeste¶
+odpowiednio przygotowany. Wiêkszo¶æ osób tam ginie...
+~
+FlagsExt 0|C
+Sector 35
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42853
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42853
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42888
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42888
+Roomprog exit 42821 4~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42855
+Name Pó³ka skalna~
+Descr Znajdujesz siê na pó³ce skalnej. Nie jest ona zbyt du¿a, jednak spokojnie
+zmie¶ci siê na niej parê osób. Na wschodzie widzisz wej¶cie do jakiej¶
+tajemniczej jaskini. Patrz±c w dó³ widzisz górsk± ¶cie¿kê. Jest ona oko³o
+sze¶ciu kroków pod tob±. Bez liny, albo umiejêtno¶ci latania, wej¶cie tutaj
+jest niemo¿liwe.
+~
+FlagsExt 0|CD
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42856
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42856
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42845
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42845
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42856
+Name Pocz±tek jaskini~
+Descr Jest to pocz±tek wielkiej jaskini, w której panuje totalna ciemno¶æ. Nie
+widaæ tu kompletnie nic, prócz w³asnego cia³a i cia³a przyjació³. Stoisz
+jakby na skrzy¿owaniu dróg i korytarzy w tej ciemnej i zimnej grocie. Je¿eli
+chcesz i¶æ dalej to musisz naprawdê mocno uwa¿aæ, jak i gdzie st±pasz.
+A zw³aszcza uwa¿aæ musisz na czyhaj±ce tutaj niebezpieczeñstwa.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42857
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42857
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42859
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42859
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42855
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42855
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42857
+Name W jaskini~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42856
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42856
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42858
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42858
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42858
+Name ¦lepa odnoga jaskini~
+Descr Doszed³e¶ do ¶lepej odnogi tej przera¿aj±cej jaskini. Niema tu kompletnie
+nic co mo¿na by obejrzeæ i tym czym¶ siê zachwyciæ. Wszêdzie jest pe³no
+stalagmitów oraz stalaktytów, o które w miarê czêsto zahaczasz. Je¿eli
+nie chcesz tutaj zostaæ, musisz uwa¿aæ jak i po czym st±pasz. Jedyna droga,
+dziêki której mo¿esz siê st±d wydostaæ to droga powrotna na wschód.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42857
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42857
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42859
+Name W jaskini~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42856
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42856
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42887
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42887
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42860
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42860
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42860
+Name Ma³a komnata~
+Descr Doszed³e¶ do ma³ej komnaty. Powsta³a ona z po³±czenia trzech jaskiniowych
+korytarzy. Ma ona oko³o czterech kroków wysoko¶ci. Parê kaszczy przerobi³o
+j± sobie na legowisko. Pod ¶cian± widzisz parê du¿ych kamieni, które zosta³y
+przerobione przez kaszcze na narzêdzia. Pod³o¿e nie jest tutaj tak wilgotne,
+jak w zwyk³ych korytarzach. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42859
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42859
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42864
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42864
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42861
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42861
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42861
+Name Zakrêt korytarza~
+Descr Jaskiniowy korytarz, którym w³a¶nie idziesz, zaczyna w tym miejscu lekko
+opadaæ w dó³. S³yszysz przez ca³y czas kapi±c± wodê, jednak nie widzisz tu
+nigdzie spadaj±cych z sufitu kropel. Echo przynosi tutaj ten monotonny
+d¼wiêk z innej czê¶ci jaskini. Na wschodzie widzisz ma³± komnatê. Z
+pewno¶ci± jest ona przerobiona na legowisko kaszczy.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42860
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42860
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42862
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42862
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42862
+Name Zakrêt korytarza~
+Descr Idziesz ciemnym, jaskiniowym korytarzem. D¼wiêk kapi±cej wody, który
+dochodzi z g³êbi jaskini, wydaje siê bardziej cichy. Ciekawe czemu? Czy¿by
+tutaj nie ma dostêpu do wody? Nawet nie da siê zauwa¿yæ spadaj±cej,
+chocia¿by jednej kropelki wody? Uwa¿aj na wisz±ce tutaj stalaktyty, poniewa¿
+mo¿esz uderzyæ g³ow± w jeden z nich.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42861
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42861
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42863
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42863
+Roomprog random 42825 3~
+Roomprog entry 42824 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42863
+Name ¦lepa odnoga jaskini~
+Descr Doszed³e¶ do koñca jednego z wielu jaskiniowych korytarzy. Najdziwniejsze
+w tym miejscu jest to, ¿e nie s³ychaæ tutaj odg³osu kapi±cej wody, który
+towarzyszy ci w pozosta³ej czê¶ci tej jaskini. Jednak nie wiesz, czym jest
+to spowodowane. Mo¿e na to miejsce zosta³ puszczony czar, zag³uszaj±cy tutaj
+ten d¼wiêk? Tylko po co...
+~
+FlagsExt 0|DY
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42862
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42862
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42864
+Name W jaskini~
+Descr Idziesz w miarê szerokim, ciemnym korytarzem. Pod³o¿e jest nierówne,
+gdzie niegdzie widaæ jaki¶ poniszczony stalagmit, a z sufitu wisz±
+stalaktyty. Mo¿na ³atwo uderzyæ g³ow± o jeden z nich, je¿eli jest siê bardzo
+wysokim. Jednak osobom ni¿szym, woda kapi±ca z sufitu i tworz±ca nacieki
+kapie na g³owê.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42865
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42865
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42860
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42860
+Roomprog random 42825 3~
+Roomprog entry 42824 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42865
+Name W jaskini~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42866
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42866
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42864
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42864
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42866
+Name Zakrêt korytarza~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42867
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42867
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42865
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42865
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42867
+Name Ciasny korytarz~
+Descr Tutaj korytarz siê ju¿ zwê¿a i trudniej jest przej¶æ ni¿ gdziekolwiek
+indziej. Przechodz± ciê bardzo du¿e dreszcze, które zosta³y wywo³ane
+dziwnymi jêkami lub te¿ rykami dobiegaj±cymi z zachodu. Je¿eli chcesz tam
+naprawdê wej¶æ, to przemy¶l to drugi raz i przygotuj siê na najwiêksze
+niebezpieczeñstwo, poniewa¿ mo¿e ciê spotkaæ niemi³a niespodzianka.
+~
+FlagsExt 0|DV
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42866
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42866
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42869
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42869
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42868
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42868
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42868
+Name Du¿a grota~
+Descr Jest to ogromnej wielko¶ci grota, która jest mieszkaniem równie gro¼nego
+stworzenia jakim jest matka kaszczy. Widaæ, i¿ grota jest nas±czona lekk±
+magi±, poniewa¿ ¶ciany ¶wiec± bardzo jasnym blaskiem i nie s± one, a¿ tak
+bardzo zniekszta³cone i zdeformowane jak w innych czê¶ciach jaskini. Widaæ,
+¿e przebywaj±ca tu istota musi byæ naprawdê gro¼na.
+~
+FlagsExt 0|CD
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42867
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42867
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42869
+Name Zakrêt w jaskini~
+Descr Idziesz korytarzem w jaskini. Zakrêca on z zachodu na pó³noc. W tym
+miejscu rozszerza siê lekko. Jest tutaj ciemno. Nic, poza ¶wiat³em, które
+przynosz± tutaj poszukiwacze przygód, nie roz¶wietla tych korytarzy. Mo¿e to
+i lepiej? Nie widaæ przynajmniej przera¿aj±cych potworów, chodz±cych po tej
+jaskini.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42870
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42870
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42867
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42867
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42870
+Name W jaskini~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42871
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42871
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42869
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42869
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42871
+Name Krêty korytarz w jaskini~
+Descr Idziesz bardzo krêtym, w±skim korytarzem. Skrêca on teraz w prawo, ¿eby
+za chwile znów zakrêciæ w lewo. Jednak to tylko jedna droga, wiêc nie mo¿na
+siê pogubiæ. Widzisz piêkne, du¿e stalagmity, które wygl±daj± jakby wyros³y
+z pod³o¿a. Ciekawe, jak to mo¿liwe, ¿e jeszcze nie zosta³y zniszczone przez
+kaszcze.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42872
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42872
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42870
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42870
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42872
+Name Krêty korytarz w jaskini~
+Descr Znajdujesz siê w bardzo ciemnej jaskini. Idziesz bardzo krêtym,
+niebezpiecznym korytarzem. Gdzie¶ pod ¶cian± s³yszysz odg³os powoli
+kapi±cej, górskiej wody. Jednak jest jej zbyt ma³o, aby napiæ siê, a tym
+bardziej nape³niæ ca³y buk³ak. Jednak w ca³ej jaskini jest wilgotno, wiêc
+nie chce siê a¿ tak bardzo piæ.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42873
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42873
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42871
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42871
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42873
+Name Krêty korytarz w jaskini~
+Descr Krêty, jaskiniowy korytarz. Droga zakrêca raz w lewo, a raz w prawo. Co
+chwile s³ychaæ jaki¶ przera¿aj±cy ryk lub bardzo niski pisk. Odg³os kapi±cej
+wody s³ychaæ tutaj przez ca³y czas, bez przerwy. Ciekawe, jak znale¼æ drogê
+do wyj¶cia, skoro ca³a jaskinia jest do¶æ du¿a i monotonna. Trzeba dobrze
+zapamiêtywaæ, gdzie siê idzie...
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42872
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42872
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42874
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42874
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42874
+Name Krêty korytarz w jaskini~
+Descr Idziesz korytarzem w ciemnej, wilgotnej jaskini. Jest on bardzo krêty. Ma
+on szeroko¶æ dwóch albo trzech kroków, jednak sufit znajduje siê bardzo
+nisko. Je¿eli jeste¶ wysoki powiniene¶ uwa¿aæ, aby nie uderzyæ g³ow± w jeden
+z wisz±cych stalaktytów. W niektórych wypadkach, mo¿e skoñczyæ siê to bardzo
+tragicznie...
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42875
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42875
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42873
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42873
+Roomprog random 42825 3~
+Roomprog entry 42824 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42875
+Name Krêty korytarz w jaskini~
+Descr Znajdujesz siê na zakrêcie korytarza. ¦wiat³o przyniesione tutaj przez
+ciebie lub twoich towarzyszy roz¶wietla ci drogê. Z sufitu leniwie kapie
+krystalicznie czysta woda, która znika, zaraz po uderzeniu w pod³ogê.
+Parena¶cie kroków na zachodzie widzisz przeolbrzymi stalagnat, który z
+pewno¶ci± jest jednym z najwiêkszych w ca³ej Tamerze.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42874
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42874
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42876
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42876
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42876
+Name Wokó³ stalagnatu~
+Descr Idziesz ciemnym, jaskiniowym korytarzem. Droga ta prowadzi wokó³
+olbrzymiego stalagnatu, o którym kr±¿± legendy. Wokó³ niego zwisaj± z sufitu
+ma³e stalaktyty oraz stoj± na ziemi stalagmity. Na ziemi, z wody sp³ywaj±cej
+ze stalaktytu, powsta³a ma³a ka³u¿a. Le¿± w niej stare narzêdzia, u¿ywane
+kiedy¶ przez kaszcze, które zamieszkuj± tê jaskiniê.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42875
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42875
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42879
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42879
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42877
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42877
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42877
+Name Wokó³ stalagnatu~
+Descr Znajdujesz siê na skrzy¿owaniu korytarzy w bardzo ciemnej jaskini.
+Powietrze, którym oddychasz jest bardzo wilgotne. Na po³udniowym - wschodzie
+widzisz przeolbrzymi stalagnat. Legendy g³osz±, ¿e podtrzymuje on ca³a
+jaskiniê przed zawaleniem, lecz jak to z legendami bywa, nie wiadomo ile w
+tym tkwi prawdy.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42882
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42882
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42876
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42876
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42878
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42878
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42885
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42885
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42878
+Name Wokó³ stalagnatu~
+Descr Znajdujesz siê w bardzo ciemnej jaskini. Na pó³nocnym - wschodzie widzisz
+ogromny stalagnat. Sp³ywa po nim woda, tworz±c pod zachodni± ¶cian± ma³y
+strumyczek wody. P³ynie on korytarzem na po³udnie. Id±c wzd³u¿ niego
+odejdziesz od stalaktytu, a id±c na wschód lub pó³noc pójdziesz dalej
+korytarzem, który prowadzi wokó³ tego wielkiego stalagnatu.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42877
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42877
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42879
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42879
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42880
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42880
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42879
+Name Wokó³ stalagnatu~
+Descr Idziesz korytarzem, który prowadzi wokó³ olbrzymiego stalagnatu. Ów
+stalagnat jest tak wielki, ¿e niektórzy uwa¿aj± go za twór magii, maj±cy
+przytrzymywaæ sufit, przed zawaleniem ca³ej jaskini. Jednak ile tkwi w tym
+prawdy, tego nikt nie wie. Po co jaki¶ potê¿ny arcymag, mia³by chroniæ
+jaskinie potworów przed zawaleniem?
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42876
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42876
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42878
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42878
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42880
+Name Zakrêt korytarza~
+Descr Idziesz korytarzem. Zaczyna on w tym miejscu powoli opadaæ w dó³, a po
+chwili skrêca on na wschód. Ma³y strumyczek wody, który p³ynie pod zachodni±
+¶cian±, znika za zakrêtem. Ca³a woda z jaskini zbiera siê tam, poniewa¿
+prawdopodobnie jest to najni¿szy punkt jaskini. Uwa¿aj, poniewa¿ mo¿e byæ
+tam naprawdê du¿o wody.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42878
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42878
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42881
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42881
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42881
+Name Koniec korytarza~
+Descr Doszed³e¶ do koñca korytarza. Krystalicznie czysta woda przyp³ywaj±ca
+tutaj z zachodu tworzy maluteñkie jeziorko. Je¿eli, mimo wilgoci panuj±cej w
+powietrzu, jeste¶ spragniony mo¿esz siê napiæ i uzupe³niæ brakuj±ce zapasy
+wody. Je¿eli jednak nie potrzebujesz tego robiæ, jedyn± drog± powrotu st±d,
+jest udanie siê z powrotem na zachód.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42880
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42880
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42882
+Name Zakrêt korytarza~
+Descr Znajdujesz siê w bardzo ciemnej jaskini. Gdyby nie ¶wiat³o przynoszone
+tutaj przez podró¿ników, nic nie roz¶wietla³oby tych ponurych korytarzy. Co
+chwilê s³yszysz jakie¶ piski oraz inne odg³osy wydawane przez potwory,
+zamieszkuj±ce tê jaskiniê. Na po³udniu widzisz jakie¶ skrzy¿owanie
+jaskiniowych korytarzy oraz olbrzymi stalagnat.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42877
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42877
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42883
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42883
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42883
+Name W jaskini~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42882
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42882
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42884
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42884
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42884
+Name Komnata na koñcu korytarza~
+Descr Doszed³e¶ do wiêkszej komnaty na koñcu korytarza. Ma ona szeroko¶æ i
+d³ugo¶æ oko³o o¶miu kroków, a wysoko¶æ oko³o 4 kroków. Widzisz co¶, co
+prawdopodobnie kaszcze u¿ywaj± jako swoich ³ó¿ek. Po pod³o¿u walaj± siê
+jakie¶ grube kije oraz parê kamyków. S± one u¿ywane przez potwory jako
+narzêdzia. Brakuje tutaj stalaktytów i stalagmitów, a pod³oga jest wyj±tkowo
+g³adka.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42883
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42883
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42885
+Name Zakrêt korytarza~
+Descr Znajdujesz siê na zakrêcie jaskiniowego korytarza. Twoje uszy ju¿ powoli
+przyzwyczajaj± siê do nieustannego odg³osu kapi±cej wody, jednak ka¿dy ryk
+lub pisk kaszczy, zamieszkuj±cych t± jaskiniê nie daje ci spokoju. Je¿eli
+bêdziesz i¶æ dalej, w g³±b jaskini, mo¿esz tam zgin±æ i ju¿ nigdy nie wyj¶æ
+z tego miejsca. B±d¼ bardzo ostro¿ny!
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42877
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42877
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42886
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42886
+Roomprog random 42825 3~
+Roomprog entry 42824 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42886
+Name W jaskini~
+Descr Jeste¶ w jaskini ciemnej niczym noc w Krainie Cieni. Widzisz tylko swoje
+i przyjació³ cia³a oraz b³yszcz±ce jasne krople wody, które wydaj± tu chyba
+jedyne d¼wiêki. Chod¼ czasem, gdy zrobi siê naprawdê cicho, mo¿na z g³êbi
+jaskini, us³yszeæ jakie¶ dziwne ryki, mo¿e jakie¶ konaj±ce stworzenie albo
+ostrzegaj±ce ciebie aby¶ st±d jak najszybciej uciek³.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42885
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42885
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42887
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42887
+Roomprog random 42825 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42887
+Name Zakrêt korytarza~
+Descr Znajdujesz siê w ciemnej jaskini, na zakrêcie korytarza. Powietrze,
+którym oddychasz, jest bardzo wilgotne, podobnie z reszt± jak sufit, ¶ciany
+oraz pod³o¿e. Mniejsze i wiêksze stalaktyty wisz± nad twoj± g³ow±. Uwa¿aj,
+aby nie uderzyæ g³ow± o jeden z nich! Mo¿e ci siê co¶ staæ. Wchodz±c do tej
+jaskini, staraj zapamiêtaæ siê drogê powrotn±, ¿eby siê nie zgubiæ i zostaæ
+tutaj na wieki.
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42886
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42886
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42859
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42859
+Roomprog random 42825 3~
+Roomprog entry 42824 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42888
+Name Pó³ka skalna~
+Descr Znajdujesz siê na pó³ce skalnej. Mo¿esz tutaj odpocz±æ przed dalsz±
+wspinaczk±. ¦cianka, po której zaraz bêdziesz siê wspinaæ to najtrudniejsza
+czê¶æ ca³ej wyprawy w te góry. A sam szczyt, to najniebezpieczniejsze
+miejsce w tych okolicach. Niewiele osób wraca stamt±d ¿ywych, ale Ci, którzy
+wracaj±, maj± olbrzymie ³upy. Ale czy warto ryzykowaæ?
+~
+FlagsExt 0
+Sector 5
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42889
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42889
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42854
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42854
+Roomprog exit 42821 4~
+Roomprog exit 42889_exit 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42889
+Name Na górze~
+Descr Najtrudniejszy odcinek wêdrówki po tych górach to ¶cianka, po której
+trzeba siê wspi±æ. Znajduje siê ona za krawêdzi± góry, tu¿ obok ciebie.
+Je¿eli ju¿ j± pokona³e¶, to mia³e¶ wielkie szczê¶cie, a je¿eli masz zamiar
+po niej zej¶æ to b±d¼ bardzo ostro¿n<&y/a/e>! Niejeden niedo¶wiadczony podró¿nik
+ju¿ zgin±³ w tych górach.
+~
+FlagsExt 0|C
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42890
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42890
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42888
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42888
+Roomprog exit 42889_exit 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42890
+Name Na górze~
+Descr Pokona³<&e/a/o>¶ ju¿ prawie ca³± górê! Jeszcze tylko parê kroków i ju¿ bêdziesz
+na szczycie, który widaæ na po³udnie od tego miejsca. Ca³a szczytowa partia
+gór, zosta³a zamieszkana przez jaki¶ dzikie potwory i przerobiona przez nie
+na legowisko. Mo¿e na samym wierzcho³ku tej góry jest jeszcze bardziej
+niebezpiecznie?
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42889
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42889
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42891
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42891
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42898
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42898
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42897
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42897
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42891
+Name Na górze~
+Descr Znajdujesz siê pod samym szczytem, który widzisz na po³udniowym-
+zachodzie. Wokó³ ciebie rozci±gaj± siê przepiêkne widoki. Na wschodzie
+Forteca Krasnoludzka w¶ród przeolbrzymich lasów, a na pó³nocy góry, które
+nie s± jednak tak du¿e jak ta, na której siê znajdujesz. Jednak szczyty na
+po³udniu, s± wiele wy¿sze.
+~
+FlagsExt 0
+Sector 5
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42892
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42892
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42890
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42890
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42892
+Name Na górze~
+Descr Znajdujesz siê prawie na szczycie tej, nie a¿ tak du¿ej, góry. Na
+wschodzie rozci±ga siê przepiêkny widok: Forteca Krasnoludzka w¶ród
+przeolbrzymich lasów. Kilka kroków nad tob± na zachodzie widzisz sam
+wierzcho³ek tej góry. Patrz±c w dó³ widzisz bardzo strome zbocze. Nie
+da siê po nim ani zej¶æ na dó³, ani wej¶æ na górê.
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42891
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42891
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42893
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42893
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42898
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42898
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42893
+Name Na górze~
+Descr Znajdujesz siê pod samym szczytem, który widzisz na pó³nocnym-zachodzie.
+Na wschodzie idziesz przepiêkny widok. Przeolbrzymie lasy, a w¶ród nich
+Forteca Krasnoludzka, która wydaje siê bardzo ma³a. Natomiast na po³udniu
+widzisz po³udniow± czê¶æ tego pasma górskiego. Mo¿e, kiedy wejdziesz na sam
+szczyt tej góry, widok bêdzie jeszcze ³adniejszy?
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42892
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42892
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42894
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42894
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42894
+Name Na górze~
+Descr Znajdujesz siê prawie na szczycie tej, nie a¿ tak du¿ej, góry. Na
+po³udniu rozci±ga siê bardzo ³adny krajobraz: d³ugie pasmo górskie, ci±gn±ce
+siê chyba przez setki mil. Kilka kroków nad tob± na pó³nocy widzisz sam
+wierzcho³ek tej góry. Patrz±c w dó³ widzisz bardzo strome zbocze. Nie da siê
+po nim ani zej¶æ na dó³, ani wej¶æ na górê.
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42898
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42898
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42893
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42893
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42895
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42895
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42895
+Name Na górze~
+Descr Znajdujesz siê pod samym szczytem, który widzisz na pó³nocnym-wschodzie.
+Rozgl±daj±c siê dooko³a widzisz prze¶liczne widoki. Góry, ³±ki, lasy,
+jezioro... Niezapomniany widok! Ska³y, na których stoisz, s± do¶æ
+niebezpieczne, poniewa¿ ³atwo z nich spa¶æ i zabiæ siê. Nie jedna osoba
+zginê³a ju¿ w ten sposób.
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42896
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42896
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42894
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42894
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42896
+Name Na górze~
+Descr Znajdujesz siê prawie na szczycie tej, nie a¿ tak du¿ej, góry. Na
+zachodzie rozci±ga siê ³adny dla oka widok: przeolbrzymie lasy, a w¶ród nich
+ma³e osady. Kilka kroków nad tob± na wschodzie widzisz sam wierzcho³ek tej
+góry. Patrz±c w dó³ widzisz bardzo strome zbocze. Nie da siê po nim ani
+zej¶æ na dó³, ani wej¶æ na górê.
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42897
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42897
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42898
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42898
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42895
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42895
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42897
+Name Na górze~
+Descr Znajdujesz siê pod samym szczytem, który widzisz na po³udniowym-
+wschodzie. Pod³o¿e, na którym stoisz, jest skaliste. Nie chodzi siê po tym
+naj³atwiej i najprzyjemniej. Jednak kiedy przeszed³e¶, lub przelecia³e¶,
+taki kawa³ drogi, to chyba siê nie wrócisz. Uwa¿aj tylko, aby¶ nie spad³,
+poniewa¿ skoñczy³oby siê to tragicznie dla ciebie.
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42890
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42890
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42896
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42896
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42898
+Name Pod szczytem~
+Descr Znajdujesz siê ju¿ prawie na szczycie tej góry. Mimo ¿e góra nie jest a¿
+tak wielka, podró¿ jest bardzo wyczerpuj±ca i niebezpieczna. Wydaje ci siê,
+¿e miejsce nad tob± jest, albo by³o, zamieszkane przez jakiego¶
+przera¿aj±cego potwora. Jest on o wiele bardziej niebezpieczny ni¿ harpie, w
+których legowisku w³a¶nie jeste¶. Wchodz±c na sam szczyt, nie jeste¶ pewien
+czy wrócisz...
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42890
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42890
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42892
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42892
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42894
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42894
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42896
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42896
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42899
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42899
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42899
+Name Na szczycie~
+Descr Uff. Uda³o ci siê na sam szczyt tej góry. Rozci±ga siê st±d przepiêkny
+widok na ca³± okolicê. Na wschodzie widzisz ogromn± Fortecê Krasnoludzk±. Na
+pó³nocny-zachód od niej rozci±ga siê wspania³y las. A z pó³nocy ku po³udniu
+rozci±gaj± siê jedne z najwiêkszych gór ¶wiata - Góry Krasnoludzkie. S± to
+przepiêkne masywy górskie, jednak nie uda³o siê jeszcze nikomu przej¶æ ich
+wszystkich. Szczyt tej góry nie wygl±da imponuj±co. Jaka¶ potê¿na bestia
+przerobi³a go na swoje legowisko.
+~
+FlagsExt 0|C
+Sector 5
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42898
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42898
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 42828 2 42833 1
+M 100 42828 2 42833 2
+M 100 42828 2 42849 1
+M 100 42823 8 42858 4
+G 100 42823 0
+M 100 42823 8 42860 4
+G 100 42822 0
+M 100 42823 8 42860 4
+M 100 42825 1 42863 1
+M 100 42826 2 42866 1
+M 100 42827 1 42868 1
+M 100 42823 8 42871 4
+G 100 42823 0
+M 100 42823 8 42873 4
+M 100 42824 1 42875 1
+O 100 42825 0 42875
+M 100 42823 8 42879 4
+O 100 42824 0 42881
+M 100 42823 8 42884 4
+G 100 42823 0
+M 100 42823 8 42884 4
+G 100 42822 0
+M 100 42826 2 42885 1
+M 100 42821 3 42888 1
+M 100 42821 3 42890 1
+M 100 42822 10 42892 5
+M 100 42822 10 42893 5
+M 100 42821 3 42895 1
+M 100 42822 10 42896 5
+O 100 42827 0 42899
+M 70 42820 1 42899 1
+S
+
+
+
+#MOBPROGSNEW
+#42820
+~
+mob echo Gryf pada powoli na ziemiê. Nagle zaczyna przechodziæ jaka¶ straszliw± mutacjê!
+mob echo Powoli maleje... Formuje siê w kszta³t cz³owiek! Ostatnimi si³ami
+mob echo {gArcymag Iharodr mówi {G'Dziêkuje Wam, ¿e uwolnili¶cie moj± duszê!!!'{x
+mob echo Po czym umiera...
+mob oload gem 7 r
+mob oload gem 7 r
+if rand 50
+  mob oload gem 7 r
+  if rand 97
+    if canloadarte 29111
+      mob aload 29111 r
+    endif
+  endif
+endif
+mob oload random 7 r
+mob oload random 7 r
+if rand 80
+  mob oload 42826 r
+endif
+~
+#42820_death
+~
+if rand 65
+  mob echo Spod szaty mistrza wypada na ziemiê jaki¶ przedmiot.
+  mob oload 42826 r
+endif
+emote pada na ziemiê... MARTWY.
+mob oload gem 7 r
+mob oload gem 5
+mob oload gem 6
+mob oload gem 7
+mob oload gem 7
+mob oload random 7 r
+if rand 50
+  mob oload gem 7 r
+  if rand 90
+    mob oload gem 8 r
+  endif
+endif
+if rand 50
+  mob oload random 7 r
+endif
+mob oload random 6 r
+if rand 50
+  mob oload random 6 r
+  if rand 50
+    mob oload random 6
+    if rand 50
+      mob oload random 6
+    endif
+  endif
+endif
+mob oload random 4
+mob oload random 4
+mob oload random 5
+mob oload random 6
+#compo do circle of vanion (Karlam)
+if rand 85
+  mob oload 1676 r
+endif
+~
+#42820_onload
+~
+mob addgroup 42829
+mob addgroup 42829
+if rand 90
+  mob equip self 4415
+else
+  mob equip self 4416
+endif
+mob equip self 4395
+mob equip self 3159
+~
+#42821
+~
+mob addgroup 42822
+if rand 80
+  mob addgroup 42822
+  mob addgroup 42822
+else
+  mob addgroup 42822
+endif
+~
+#42822
+~
+if rand 50
+mob oload gem 2
+endif
+if rand 90
+mob oload weapon 3
+else
+mob oload weapon 2
+endif
+~
+#42823
+~
+if rand 66
+  mob addgroup 42823
+else
+  if rand 50
+    mob addgroup 42824
+  else
+    mob addgroup 42825
+  endif
+endif
+~
+#0
+
+#OBJPROGSNEW
+#42820
+~
+mob echoat $n U¶miechaj±c siê, zak³adasz {Wrêkawice {YNashasesiela{x na d³onie.
+mob echoaround $n $n u¶miechaj±c siê, zak³ada {Wrêkawice {YNashasesiela{x na d³onie.
+obj wear
+~
+#42821
+~
+if race $n kaszcz
+obj wear
+mob echoaround $n Kaszcz bierze do rêki kamienne narzêdzie.
+else
+mob echoat $n Nie wiesz, jak siê tym pos³ugiwaæ!
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#42820
+~
+if wears $n lina
+  mob echoat $n Z pomoc± liny wspinasz siê na pó³kê skaln±.
+  mob echoaround $n $n z pomoc± liny wspina siê na pó³kê skaln±, któr± widzisz nad sob±.
+  mob transfer $n 42855
+  mob at 42855 mob echoaround $n $n w³a¶nie wspi±³ siê na pó³kê skaln±.
+else
+  mob echoat $n Bez liny nie uda ci siê to.
+  mob echoaround $n $n chce wspi±æ siê do góry, jednak wiedz±c, ¿e bez liny nie uda mu siê to - rezygnuje.
+endif
+~
+#42821
+~
+if affected $n fly
+or wears $n lina
+else
+  mob echoat $n Przecie¿ nie trzymasz w rêce liny, ani nie umiesz lataæ!
+  break
+endif
+if affected $n fly
+  mob echoat $n Odlatujesz do góry.
+  mob echoaround $n $n odlatuje do góry.
+endif
+if wears $n lina
+  mob echoat $n Wspinasz siê do góry.
+  mob echoaround $n $n wspina siê do góry.
+endif
+if room $n == 42854
+  mob transfer $n 42888
+endif
+if room $n == 42888
+  mob transfer $n 42889
+endif
+if wears $n lina
+  mob at $n mob echoaround $n $n po krótkiej wspinaczce pojawia siê ko³o ciebie.
+else
+  mob at $n mob echoaround $n $n w³a¶nie przylecia³ z do³u.
+endif
+~
+#42823
+~
+if affected $n fly
+  mob echoat $n Bez problemu wlatujesz na pó³kê skaln± powy¿ej.
+  mob echoaround $n $n bez problemu wlatuje na pó³kê skaln± powy¿ej.
+  mob transfer $n 42855
+  mob at 42855 mob echoaround $n $n w³a¶nie wlecia³ na pó³kê skaln±.
+else
+  mob echoat $n Przecie¿ nie umiesz lataæ!
+endif
+~
+#42824
+~
+if height $n > 200
+  mob damage $n 4 6
+  mob echoat $n Przez chwilê nieuwagi uderzasz g³ow± w jeden z wisz±cych stalaktytów.
+  mob echoaround $n $n przez chwilê nieuwagi uderza g³ow± w jeden z wisz±cych stalaktytów.
+endif
+~
+#42825
+~
+if rand 80
+  mob echo S³yszysz g³o¶ny plusk wody, który rozchodzi siê po ca³ej jaskini.
+else
+  if rand 75
+    mob echo S³yszysz przera¿aj±cy ryk, jeszcze bardziej przera¿aj±cego potwora.
+  else
+    if rand 66
+      mob echo Czujesz ¶mierdz±cy oddech kaszcza, tak jakby sta³ on za twoimi plecami.
+    else
+      if rand 50
+        mob echo Wydaje ci siê, ¿e patrzy na ciebie, swoim jedynym okiem, brzydki kaszcz.
+      else
+        mob echo Do twoich uszu dochodzi krótki pisk. Byæ mo¿e dla kaszczy jest to jaki¶ znak?
+      endif
+    endif
+  endif
+endif
+~
+#42889_exit
+~
+if affected $n fly
+or wears $n lina
+else
+  mob echoat $n Przecie¿ nie trzymasz w rêce liny, ani nie umiesz lataæ!
+  break
+endif
+if affected $n fly
+  mob echoat $n odlatujesz na dó³.
+  mob echoaround $n $n odlatuje na dó³.
+endif
+if wears $n lina
+  mob echoat $n zje¿dzasz na linie na dó³.
+  mob echoaround $n $n zje¿dza na linie na dó³.
+endif
+if room $n == 42889
+  mob transfer $n 42888
+endif
+if room $n == 42888
+  mob transfer $n 42854
+endif
+if wears $n lina
+  mob at $n mob echoaround $n $n zjecha³ na linie z góry.
+else
+  mob at $n mob echoaround $n $n w³a¶nie przylecia³ z góry.
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 42820
+DescRand #grouprand 1
+#grouprand 5
+#grouprand 2
+#grouprand 6
+#grouprand 3
+#grouprand 7
+#grouprand 4
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 1~
+Desc Idziesz górsk± ¶cie¿k±.
+~
+Group 1
+End
+#Name 2~
+Desc Idziesz w±sk±, górsk± ¶cie¿k±.
+~
+Group 1
+End
+#Name 3~
+Desc Idziesz niebezpieczn±, górsk± ¶cie¿k±.
+~
+Group 1
+End
+#Name 11~
+Desc Jest ona ca³a wysypana kamieniami, które zapewne obsuwaj± siê na ni± z górskiego zbocza.
+~
+Group 2
+End
+#Name 12~
+Desc Ca³a pokryta jest ró¿nej wielko¶ci kamieniami, których wiele w tych górach.
+~
+Group 2
+End
+#Name 13~
+Desc Kamienie to chyba tylko jedyna rzecz, któr± mo¿esz znale¼æ na tej ¶cie¿ce.
+~
+Group 2
+End
+#Name 21~
+Desc Z miejsca, w którym w³a¶nie jeste¶, rozci±gaj± siê przepiêkne widoki.
+~
+Group 3
+End
+#Name 22~
+Desc Widzisz wspania³y krajobraz, który zachwyci³by niemal ka¿dego.
+~
+Group 3
+End
+#Name 23~
+Desc Takich piêknych widoków jak teraz widzisz, chyba nie zapomnisz do koñca ¿ycia.
+~
+Group 3
+End
+#Name 24~
+Desc Górski krajobraz jest tak ³adny, ¿e a¿ zapiera ci dech w piersiach.
+~
+Group 3
+End
+#Name 31~
+Desc Uwa¿aj! Nie podchod¼ zbyt blisko krawêdzi, poniewa¿ mo¿esz spa¶æ na dó³ i zgin±æ.
+~
+Group 4
+End
+#Name 32~
+Desc Wystarczy chwila nieuwagi, a mo¿na siê potkn±æ i spa¶æ w dó³.
+~
+Group 4
+End
+#Name 33~
+Desc Chodz±c po górach nie warto byæ pijanym, poniewa¿ mo¿na ³atwo spa¶æ w przepa¶æ.
+~
+Group 4
+End
+#Name 41~
+Desc Prowadzi ona ci±gle pod górê.
+~
+Group 5
+End
+#Name 42~
+Desc Pnie siê ona ci±gle w górê.
+~
+Group 5
+End
+#Name 43~
+Desc Powoli wchodzisz coraz wy¿ej...
+~
+Group 5
+End
+#Name 51~
+Desc Jeszcze trochê musisz przej¶æ, zanim znajdziesz siê na szczycie.
+~
+Group 6
+End
+#Name 52~
+Desc ¯eby doj¶æ na sam± górê, jeszcze trzeba przebyæ trochê drogi t± ¶cie¿k±.
+~
+Group 6
+End
+#Name 53~
+Desc Ciekawe, czy jeste¶ odpowiednio przygotowany, ¿eby doj¶æ do samej góry.
+~
+Group 6
+End
+#Name 54~
+Desc Mimo ¿e droga jest do¶æ d³uga, to przejdzie siê j± szybko, bo ¶cie¿ka jest w miarê wygodna.
+~
+Group 6
+End
+#Name 61~
+Desc Swobodnie oddychasz górskim, ¶wie¿ym powietrzem.
+~
+Group 7
+End
+#Name 62~
+Desc Jaki¶ górski ptaszek przelatuj±c obok ciebie, gwi¿d¿e jak±¶ melodyjkê.
+~
+Group 7
+End
+#Name 63~
+Desc Chyba zaczniesz lubiæ piesze, górskie wêdrówki.
+~
+Group 7
+End
+#Name 64~
+Desc Atmosfera panuj±ca w górach jest mi³a i spokojna, jednak zastanawia ciebie, czy na pewno nie ma tutaj ¿adnego niebezpieczeñstwa.
+~
+Group 7
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

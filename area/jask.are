@@ -1,0 +1,782 @@
+#AREADATA
+Name {DPodmrok{x- Niedu¿a jaskinia~
+Builders Podmrok Seinar Terid~
+VNUMs 38047 38069
+Locked ~
+Security 1
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 38069
+Name zlocisty klucz~
+Odmiana zlocistego klucza~zlocistemu kluczowi~zlocisty klucz~zlocistym kluczem~zlocistym kluczu~
+Short zlocisty klucz~
+Descr Jakis niewielki klucz lezy tutaj~
+Material unused~
+Type key
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 38047
+Name Wejscie do jaskini~
+Descr Idac droga zawedrowales wprost pod grote ciemnej Jaskini.
+Namalowana krwia czaszka oraz zamieszczone pochodnie po obu stronach dziury
+prowadzacej w glab groty wzbudzaja strach oraz niepokoj.
+Spogladajac w glab jaskini mozna zauwazyc swiatlo, oraz schody prowadzace w dol dziury.
+Kto wie moze ktos tu mieszka ?
+~
+FlagsExt 0|CH
+Sector 28
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Jaskinia~
+ExitExtName jama~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38048
+ExitExtEnd
+Exit 5
+~
+VName Jaskinia~
+jama~
+0 0 38048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38048
+Name ~
+Descr W jaskini do ktrorej sie znalazles jest dosc wilgotno.
+Rozgladajac sie zauwazasz przejscie w glab jaskini prowadzace na wschod 
+natomiast drabina ktora sie tu znajduje prowadzi do wyjscia z tej okropnej czelusci
+ 
+~
+FlagsExt 0|C
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38049
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38049
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Wyjscie~
+ExitExtTextOut $n wchodzi po drabinie do wyjscia~
+ExitExtTextIn $n z gracja opuszcza sie na drabinie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38047
+ExitExtEnd
+Exit 4
+~
+VName Wyjscie~
+TextOut $n wchodzi po drabinie do wyjscia~
+TextIn $n z gracja opuszcza sie na drabinie~
+~
+0 0 38047
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38049
+Name ~
+Descr ~
+FlagsExt 0|H
+Sector 8
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38050
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38050
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38048
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38050
+Name ~
+Descr ~
+FlagsExt 0
+Sector 8
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38051
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38051
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38049
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38049
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38051
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38050
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38050
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38052
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38052
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38053
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38053
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38051
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38051
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38053
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38054
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38054
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38060
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38060
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38059
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38059
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38052
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38054
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38053
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38053
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38055
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38055
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38055
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38056
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38056
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38054
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38054
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38056
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38055
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38055
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38057
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38057
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38058
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38058
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38056
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38058
+Name ~
+Descr ~
+FlagsExt 0|H
+Sector 15
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38057
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38059
+Name ~
+Descr ~
+FlagsExt 0|S
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38053
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38053
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38060
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38061
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38061
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38053
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38053
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38061
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38060
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38060
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38062
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38062
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38063
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38063
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38062
+Name ~
+Descr ~
+FlagsExt 0
+Sector 15
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38061
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38063
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38064
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38064
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38061
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38064
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38065
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38065
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38063
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38063
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38065
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38066
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38066
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38064
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38064
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38066
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38067
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38067
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38065
+ExitExtEnd
+Exit 3
+~
+~
+0 0 38065
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38067
+Name ~
+Descr ~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38066
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38066
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38068
+ExitExtEnd
+Exit 4
+~
+~
+0 0 38068
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38068
+Name ~
+Descr ~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38069
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38069
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38067
+ExitExtEnd
+Exit 5
+~
+~
+0 0 38067
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38069
+Name ~
+Descr ~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38068
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38068
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 38069 0 38058
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

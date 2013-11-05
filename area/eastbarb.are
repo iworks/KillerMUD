@@ -1,0 +1,5825 @@
+#AREADATA
+Name +# Osada barbarzyñców + grobowiec~
+Builders Kainti~
+VNUMs 10931 11130
+Credits kainti@go2.pl~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 10931
+Name spi¿owy stra¿nik~
+Odmiana spi¿owego stra¿nika~spi¿owemu stra¿nikowi~spi¿owego stra¿nika~spi¿owym stra¿nikiem~spi¿owym stra¿niku~
+Short spi¿owy stra¿nik~
+Long Spi¿owy stra¿nik pilnuje wrót grobowca.~
+Descr Jest to wielkich rozmiarów szkielet, którego oczodoly ¶wiec± mrocznym,
+czerwonym ¶wiat³em. Sprawia wra¿enie przebudzonego po tysi±cleciach snu, a
+mimo to jego szybko¶æ wzbudza twój podziw. Ubrany jest w rozsypuj±ce siê ze
+staro¶ci kawa³ki zbroi, po³yskuj±ce tajemniczo. 
+~
+Race upiorny rycerz~
+ActExt 0|ABFMOd
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 27
+Hitroll 4
+HP 1d200+750
+Damage 2d5+1
+Dammagic 0
+Weaponbonus 12
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 156 156 156 60 156 78 78
+Off COX
+OffExt 0|COX/1|BD
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form EFMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 1 30
+Resist 2 30
+Resist 3 -10
+Resist 4 75
+Resist 8 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 10932
+Name zombie lord paladin undead~
+Odmiana lorda zombie~lordowi zombie~lorda zombie~lordem zombie~lordzie zombie~
+Short lord zombie~
+Long Ogromny staro¿ytny zombie przechodzi korytarzem.~
+Descr Widzisz potê¿nego, licz±cego sobie setki lat nieumar³ego lorda. Patroluje
+te korytarze od eonów, pilnuj±c swej pani. Na jego pozornie niewzruszonej
+twarzy widaæ grymas rado¶ci, ¿e w koñcu przyda siê swej mistrzyni walcz±c
+ze szwêdaj±cymi siê tutaj, nieproszonymi go¶æmi.
+~
+Race zombi~
+ActExt 0|AFJO/2|C
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 26
+Hitroll 4
+HP 100d2+650
+Damage 3d7+5
+Dammagic 3
+Weaponbonus 0
+Damflags 128
+Attack mwalniecie
+XAC 2 2 2 2
+Stats 168 156 156 60 156 78 78
+Off COVY
+OffExt 0|COVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABIc
+Parts ABCGHIR
+Size large
+Material unknown
+MobprogNew onload 10933 ABCDEFGHI 100~
+MobprogNew hit 10932 H 20~
+Skin 100
+ExpMultiplier 100
+Resist 1 10
+Resist 2 10
+Resist 3 10
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 10933
+Name potêpiona dusza zmora~
+Odmiana potêpionej duszy~potêpionej duszy~potêpion± duszê~potêpion± duszê~potêpionej duszy~
+Short potêpiona dusza~
+Long Potêpiona dusza unosi siê nad grobowcem swej Pani.~
+Descr Widzisz pó³przezroczyst± zmorê, pilnuj±c± tego miejsca od setek tysiêcy
+lat, by zapewniæ swej Pani bezpieczny spoczynek, by ta mog³a za kilka
+milionów lat przebudziæ siê i znowu zapanowaæ nad ¶wiatem. 
+~
+Race widmo~
+ActExt 0|ABEFMOR
+Affected 34078760 0 0 0
+AffectedExt 0|DFTZ
+Align -1000
+Group 10933
+Lang M
+Speaks 12
+Level 28
+Hitroll 5
+HP 5d100+1300
+Damage 3d7+5
+Dammagic 5
+Weaponbonus 0
+Damflags 4
+Attack chlod
+XAC 0 0 0 0
+Stats 144 168 168 144 144 78 78
+Off LY
+OffExt 0|LY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form CIMW
+Parts ABCGHIJKPU
+Size medium
+Material unknown
+Spells 281 311 310 307
+Spells 216 217 149 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 10934
+Name Ymxahirativra antyczna demonica bogini boss~
+Odmiana Ymxahirativry~Ymxahirativrze~Ymxahirativrê~Ymxahirativr±~Ymxahirativrze~
+Short Ymxahirativra~
+Long Przed chwil± przebudzona z wieczystego snu demonica Ymxahirativra gromadzi sw± moc.~
+Descr Widzisz potê¿n± demonicê - tanar'ri Ymxahirativrê przebudzon± z
+wieczystego snu. Miliardy lat temu, przed pierwsz± wielk± apokalips± by³a
+ona czczona jako bogini, jednak podczas niej przegra³a pojedynek z smoczym
+bogiem Cehepidevverem a jej wyznawczynie, czerpi±ce z niej moc arcykap³anki
+z³o¿y³y jej cia³o w grobowcu g³êboko pod ziemi±. Widaæ, ¿e jej moc nie jest
+do koñca ustabilizowana bo trzymana przez ni± laska migocze co jaki¶ czas
+zamiast ¶wieciæ g³êbok± jednolit± czerni±. 
+~
+Race tanar'ri~
+ActExt 0|ABEFOQ/2|C
+Affected 302514216 0 524288 48
+AffectedExt 0|DFTZc/2|T/3|EF
+Align -1000
+Group 10933
+Lang R
+Speaks 16
+Level 36
+Hitroll 5
+HP 30d10+2500
+Damage 5d5+3
+Dammagic 5
+Weaponbonus 6
+Damflags 4
+Attack bmoc
+XAC -8 -8 -8 -3
+Stats 156 168 168 120 168 162 168
+Off HVX
+OffExt 0|HVX
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form CEMV
+Parts ABCDEFGHIJKPUV
+Size huge
+Material unknown
+Comments Wywalam 10934_fight. Ona nie miala niczego przywolywac! Nie psuc mi bossow bez konsultacji !! - {RKainti{x ({CSat Sep 24 14:38:57 2005{x)
+exp multiplier, level, hp - {RKainti{x ({CFri Dec  9 22:22:40 2005{x)
+no mo¿e poza tym duchem pala - {RKainti{x ({CThu Dec 15 19:13:27 2005{x)
+~
+MobprogNew death ymxa_zgon ABCDEFGHI 100~
+MobprogNew fight 10934_pal H 7~
+MobprogNew onload 10934_onload ABCDEFGHI 100~
+Spells 59 144 50 231
+Spells 137 10 5 243
+Spells 230 149 172 51
+Spells 138 96 62 0
+Skin 100
+ExpMultiplier 550
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 3
+Resist 8 100
+Resist 10 100
+Resist 11 3
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Resist 17 75
+Mobend
+#Vnum 10935
+Name niedu¿y zaj±c~
+Odmiana zaj±czka~zaj±czkowi~zaj±czka~zaj±czkiem~zaj±czku~
+Short zaj±c~
+Long Niedu¿y zaj±c umyka przed tob± chowaj±c siê za zaspami tundry.~
+Descr Jest to malutkie szare zwierz±tko z d³ugimi uszkami, któremu uda³o siê
+przetrwaæ w tutejszym polarnym klimacie po¿ywiaj±c siê kar³owatymi
+tundrowymi krzakami. 
+~
+Race zaj±c~
+ActExt 0|AE
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 2
+Hitroll 0
+HP 2d10+30
+Damage 1d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 48 18 18 108 48 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRS
+Size medium
+Material unknown
+Skin 70
+ExpMultiplier 100
+Mobend
+#Vnum 10936
+Name wielka mumia~
+Odmiana wielkiej mumii~wielkiej mumii~wielk± mumiê~wielk± mumi±~wielkiej mumii~
+Short wielka mumia~
+Long Wielka mumia ca³a w banda¿ach przechodzi têdy g³o¶no jêcz±c.~
+Descr Tego nieumar³ego chyba nikomu przedstawiaæ nie trzeba. Mumia jakich
+spotyka siê wiele w starych grobowcach i katakumbach. Ten okaz jest
+wyj±tkowo du¿y i zachowuje siê wyj±tkowo gro¼nie. 
+~
+Race mumia wiêksza~
+ActExt 0|AEFMOT
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 26
+Hitroll 4
+HP 5d30+800
+Damage 3d7+5
+Dammagic 5
+Weaponbonus 0
+Damflags 128
+Attack mwalniecie
+XAC 2 2 2 2
+Stats 168 96 96 60 144 78 78
+Off IY
+OffExt 0|IY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form CIJM
+Parts ABCGHIJK
+Size large
+Material unknown
+MobprogNew onload 10936 ABCDEFGHI 100~
+MobprogNew hit 10932 H 20~
+Corpse 6785
+Skin 100
+ExpMultiplier 100
+Resist 4 25
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 10937
+Name m³ody cz³owiek barbarzyñca~
+Odmiana m³odego barbarzyñcy~m³odemu barbarzyñcy~m³odego barbarzyñcê~m³odym barbarzyñc±~m³odym barbarzyñcy~
+Short m³ody barbarzyñca~
+Long M³ody cz³owiek odziany w skóry dzikich zwierz±t przechodzi têdy.~
+Descr Jest to do¶æ m³ody cz³owiek, udaje ci siê to poznaæ po niewielkim
+zaro¶cie w porównaniu do reszty. Jego cia³o jest dobrze zbudowane, widaæ po
+nim ¿e szkolony na wojownika. 
+~
+Race cz³owiek~
+ActExt 0|AEI
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 16
+Hitroll 2
+HP 60d2+290
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 138 54 54 126 132 78 78
+Off DJc
+OffExt 0|DJc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death kabraxis_kill_1 ABCDEFGHI 100~
+MobprogNew onload 10937 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10938
+Name barczysty mêzczyzna barbarzyñca~
+Odmiana barczystego barbarzyñcy~barczystemu barbarzyñcy~barczystego barbarzyñcê~barczystym barbarzyñc±~barczystym barbarzyñcy~
+Short barczysty barbarzyñca~
+Long Barczysty mê¿czyzna przechodzi têdy lekko siê garbi±c.~
+Descr Jest to dobrze zbudowany cz³owiek o obfitym zaro¶cie. Ubrany jest w skóry
+zwierz±t, które najprawdopodobniej zabi³ w³asnorêcznie. W tym momencie wraca
+pewnie z pracy do swojego sza³asu, do rodziny. 
+~
+Race cz³owiek~
+ActExt 0|AEI
+Affected 0 0 0 0
+AffectedExt 0
+Align 900
+Group 10937
+Lang A
+Speaks 0
+Level 21
+Hitroll 2
+HP 150d2+500
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 144 84 84 138 144 78 78
+Off DJc
+OffExt 0|DJc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death kabraxis_kill_2 ABCDEFGHI 100~
+MobprogNew onload 10938 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10939
+Name siwiej±cy stary cz³owiek barbarzyñca~
+Odmiana starego barbarzyñcy~staremu barbarzyñcy~starego barbarzyñcê~starym barbarzyñc±~starym barbarzyñcy~
+Short stary barbarzyñca~
+Long Lekko siwiej±cy cz³owiek stoi tutaj i uwa¿nie ci siê przygl±da.~
+Descr Jest to nie¼le zbudowany cz³owiek w ¶rednim wieku, przez co jego w³osy
+lekko posiwia³y, i garbi siê on bardziej ni¿ jego m³odsi koledzy. Ubrany
+jest w sp³owia³e skóry zwierz±t, które najprawdopodobniej zabi³
+w³asnorêcznie w czasach swej m³odo¶ci. 
+~
+Race cz³owiek~
+ActExt 0|AEI
+Affected 0 0 0 0
+AffectedExt 0
+Align 900
+Group 10937
+Lang A
+Speaks 0
+Level 20
+Hitroll 2
+HP 150d2+450
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 138 96 96 108 138 78 78
+Off DJc
+OffExt 0|DJc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death kabraxis_kill_2 ABCDEFGHI 100~
+MobprogNew onload 10939 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10940
+Name barbarzyñska kobieta~
+Odmiana barbarzyñskiej kobiety~barbarzyñskiej kobiecie~barbarzyñsk± kobietê~barbarzyñsk± kobiet±~barbarzyñskiej kobiecie~
+Short barbarzyñska kobieta~
+Long Grubo ubrana w skóry dzikich zwierz±t kobieta przechodzi obok ciebie.~
+Descr Widzisz silnie umiê¶nion± kobietê, która posz³a w ¶lady swych ojców i
+braci i tak¿e zaczê³a pracowaæ, zamiast siedzieæ w domu i rodziæ dzieci. 
+~
+Race cz³owiek~
+ActExt 0|AEI
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 16
+Hitroll 2
+HP 60d2+290
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 132 90 90 144 132 78 78
+Off DJc
+OffExt 0|DJc
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death kabraxis_kill_1 ABCDEFGHI 100~
+MobprogNew onload 10937 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10941
+Name umiêsniony wódz barbarzyñców boss~
+Odmiana wodza barbarzyñców~wodzowi barbarzyñców~wodza barbarzyñców~wodzem barbarzyñców~wodzu barbarzyñcow~
+Short wódz barbarzyñców~
+Long Umiê¶niony wódz barbarzyñców bawi siê ze swymi dzieæmi.~
+Descr Widzisz przed sob± cz³owieka pe³ni±cego rolê wodza w tej osadzie. Nie
+wyró¿nia siê za bardzo od innych mieszkañców wioski, mo¿e ma tylko trochê
+inteligentniejszy wyraz twarzy i jest jeszcze szerszy w barach. Widocznie
+zakoñczy³ ju¿ sw± pracê na dzisiaj i bawi siê ze swymi dzieæmi. 
+~
+Race cz³owiek~
+ActExt 0|ABEI/2|C
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 28
+Hitroll 5
+HP 28d10+800
+Damage 4d4+2
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack walniecie
+XAC 2 2 2 5
+Stats 162 120 96 144 156 102 102
+Off DJXc
+OffExt 0|DJXc/1|H
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 140
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments Podrkecilem go troche, bo leszcz byl.. a teraz trza go zabic zeby do nauczyciela sie dostac. - {RRaszer{x ({CMon Nov 10 11:31:23 2008{x)
+~
+MobprogNew death kabraxis_kill_3 ABCDEFGHI 100~
+MobprogNew onload 10941 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 200
+Resist 10 50
+Resist 12 100
+Resist 13 75
+Mobend
+#Vnum 10942
+Name szaman barbarzyñców~
+Odmiana szamana~szamanowi~szamana~szamanem~szamanie~
+Short szaman barbarzyñców~
+Long Szaman barbarzyñców siedzi zamy¶lony pod ¶cian± sza³asu.~
+Descr Widzisz mê¿czyznê lekko wyró¿niaj±cego siê od reszty, jest on bowiem
+naczelnym, a zarazem jedynym szamanem tej osady. Niedo¶æ ¿e jest on ogolony,
+to jeszcze jego ubranie sprawia wra¿enie czystego! Chocia¿ jest cz³owiekiem,
+to na pierwszy rzut oka wydaje ci siê bardziej podobny do jakiego¶ pó³orka. 
+~
+Race cz³owiek~
+ActExt 0|ABEMQ
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 25
+Hitroll 2
+HP 170d2+550
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 132 138 150 144 138 90 126
+Off VX
+OffExt 0|VX
+Pos_start sit
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death kabraxis_kill_3 ABCDEFGHI 100~
+MobprogNew onload 10942 ABCDEFGHI 100~
+Spells 50 26 10 3
+Spells 137 141 231 38
+Spells 230 51 149 0
+Skin 100
+ExpMultiplier 100
+Resist 10 69
+Resist 12 45
+Mobend
+#Vnum 10943
+Name ch³opczyk dziecko barbarzyñskie~
+Odmiana ch³opczyka~ch³opczykowi~ch³opczyka~ch³opczykiem~ch³opczyku~
+Short barbarzynski ch³opczyk~
+Long Kilkunastoletni ch³opczyk bawi siê sw± w³óczni± æwicz±æ pchniêcia.~
+Descr Widzisz ma³e dziecko, ch³opczyka, na oko ma ko³o dziesiêciu, jedenastu
+lat, a ju¿ uczy siê jak walczyæ, widaæ tego od niego wymagaj± tutejsze
+warunki. 
+~
+Race cz³owiek~
+ActExt 0|AEHT
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 5
+Hitroll 1
+HP 3d5+67
+Damage 1d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 72 42 42 126 72 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew onload 10943 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10944
+Name dziewczynka~
+Odmiana dziewczynki~dziewczynce~dziewczynkê~dziewczynk±~dziewczynce~
+Short dziewczynka~
+Long Kilkuletnia dziewczynka ubrana w skóry dzikich zwierz±t bawi siê z tatusiem.~
+Descr Jest to ma³a dziewczynka, urodzona i wychowywana w barbarzyñskiej wiosce.
+~
+Race cz³owiek~
+ActExt 0|ABEH
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d5+30
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10945
+Name ch³opiec ma³y~
+Odmiana ch³opca~ch³opcu~ch³opca~ch³opcem~ch³opcu~
+Short ch³opiec~
+Long Ma³y ch³opiec siedzi pod ¶cian± sza³asu i bawi siê kamyczkami.~
+Descr Jest to ma³y ch³opiec, urodzony i wychowany w barbarzyñskiej wiosce.
+~
+Race cz³owiek~
+ActExt 0|ABEH
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 10937
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d5+30
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10946
+Name polarny nied¼wied¼~
+Odmiana nied¼wiedzia polarnego~nied¼wiedziowi polarnemu~nied¼wiedzia polarnego~nied¼wiedziem polarnym~nied¼wiedziu polarnym~
+Short nied¼wied¼ polarny~
+Long Wielki bia³y nied¼wied¿ przemierza tundrê w poszukiwaniu po¿ywienia.~
+Descr Jest to wielki nied¼wied¼ o bia³ej sier¶ci chroni±cej go przed zimnem.
+Zamieszkuje tundrê, a ¿ywi siê g³ównie mniejszymi od siebie zwierzêtami,
+takimi jak zaj±ce czy jaszczurki. 
+~
+Race nied¼wied¼~
+ActExt 0|AEFIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 12
+Hitroll 0
+HP 10d10+200
+Damage 2d7+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 10 10 10 10
+Stats 156 24 24 60 156 78 78
+Off CDX
+OffExt 0|CDX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ABCDEFHJKRSUV
+Size medium
+Material unknown
+Skin 800
+ExpMultiplier 100
+Mobend
+#Vnum 10947
+Name pomniejszy demon niewielki~
+Odmiana demona~demonowi~demona~demonem~demonie~
+Short pomniejszy demon~
+Long Pomniejszy demon zosta³ tutaj patrzy na ciebie.~
+Descr Ten demon nie jest wysoki, ma mo¿e ze trzy ³okcie, ale za to musku³y
+niemal rozrywaj± mu obrzydliw±, pokryt± w niektórych miejscach ³uskami
+skórê. Oczy ma czerwone, d³ugie szpiczaste uszy i naprawdê przera¿aj±c±
+paszczê pe³n± d³ugich k³ów. Ogólnie niesympatyczny typ, na szczê¶cie jest
+pod wp³ywem uroku rzuconego przez swego pana, wiêc samemu na pewno Ciê nie
+zaatakuje. 
+~
+Race demon~
+ActExt 0|ABRT
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 2
+HP 15d5+150
+Damage 6d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 8 8 8 8
+Stats 114 72 72 96 120 78 78
+Off HLRY
+OffExt 0|HLRY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CI
+Parts ABCDEFGHIJKQRU
+Size medium
+Material unknown
+MobprogNew onload 10934_demons ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10948
+Name mezzodemon demon~
+Odmiana mezzodemona~mezzodemonowi~mezzodemona~mezzodemonem~mezzodemonie~
+Short mezzodemon~
+Long Mezzodemon wlepia w ciebie swoje czarne oczy.~
+Descr Ohydny demon, jeden z tak zwanych demonów ni¿szych, albo mniejszych.
+Pojedyñczy osobnik rzadko jest gro¼nym przeciwnikiem, ale wspierany przez
+swoich silniejszych pobratymców mo¿e stanowiæ powa¿ne zagro¿enie. Budow±
+cia³a przypomina wielk±, zmutowan± mrówkê na dwóch nogach, ma d³ugie czu³ki
+i ogromne wy³upiaste oczy. 
+~
+Race demon~
+ActExt 0|ABFR
+Affected 33554472 33554432 0 0
+AffectedExt 0|DFZ/1|Z
+Align -1000
+Group 0
+Lang AR
+Speaks 16
+Level 15
+Hitroll 0
+HP 15d8+250
+Damage 4d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 5 5 5 6
+Stats 108 96 90 90 114 36 36
+Off HLY
+OffExt 0|HLY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CI
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 10934_demons ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10949
+Name imp demon maly zlosliwy~
+Odmiana {Rimpa{x~{Rimpowi{x~{Rimpa{x~{Rimpem{x~{Rimpie{x~
+Short {Rimp{x~
+Long {RMaly i zlosliwy, ale podszyty tchorzem demon kryje sie tutaj.{x~
+Descr Imp wyglada dokladnie tak jak diabel z wiejskich opowiesci. Male rozki,
+maly ogon, czarne, przepojone zlosliwoscia oczka. Cialo ma pokryte w
+niektórych miejscach drobna luska w czerwonym kolorze. Zamiast palcow u stop
+kopytka, zas na rekach pazurki. 
+~
+Race imp~
+ActExt 0|ABCEGHR
+Affected 98306 0 0 0
+AffectedExt 0|BPQ
+Align -700
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 1
+HP 10d6+130
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 6 7 6 10
+Stats 96 120 84 108 72 78 78
+Off MY
+OffExt 0|MY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+Spells 6 71 69 87
+Spells 93 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10950
+Name Wegaart demon~
+Odmiana Wegaarta~Wegaartowi~Wegaarta~Wegaartem~Wegaarcie~
+Short Wegaart~
+Long Wegaart ko³ysze swoim ogonem.~
+Descr Potê¿na istota obdarzona ogromn± wprost si³± i inteligencj±. Przyzywana
+raczej rzadko, bo nikt nie chce mieæ z ni± do czynienia. Uwielbia niszczyæ
+wszelkie przejawy ¿ycia i przepe³niony jest nienawi¶ci± do istot z naszego
+planu. Umie pos³ugiwaæ siê zarówno broni± jak i magi± co czyni go bardzo
+niebezpiecznym przeciwnikiem. 
+~
+Race demon~
+ActExt 0|ABRT
+Affected 69206536 134742016 0 0
+AffectedExt 0|DJVa/1|Tb
+Align -1000
+Group 0
+Lang NR
+Speaks 16
+Level 25
+Hitroll 4
+HP 20d20+1000
+Damage 2d6+1
+Dammagic 2
+Weaponbonus 3
+Damflags 0
+Attack lupniecie
+XAC 0 0 0 0
+Stats 156 144 120 168 168 36 36
+Off CDEHJKLMOYb
+OffExt 0|CDEHJKLMOYb
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form CIc
+Parts ABCDEFGHIJKQR
+Size large
+Material unknown
+MobprogNew onload 10934_demons ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 5
+Resist 5 10
+Resist 6 10
+Resist 7 10
+Resist 8 10
+Resist 9 10
+Resist 10 10
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 10
+Resist 16 10
+Mobend
+#Vnum 10951
+Name uwiêziony duch staro¿ytny paladyn kontrolowany palikymxy123~
+Odmiana ducha staro¿ytnego paladyna~duchowi staro¿ytnego paladyna~ducha staro¿ytnego paladyna~duchem staro¿ytnego paladyna~duchu staro¿ytnego paladyna~
+Short uwiêziony duch paladyna~
+Long Kontrolowany przez Ymxahirativrê duch staro¿ytnego paladyna wspomaga j± w walce.~
+Descr Jest to duch staro¿ytnego paladyna, uwiêziony i kontrolowany przez
+demonicê Ymxahirativrê. Nosi na sobie widmow± zbrojê, a w d³oniach dzier¿y
+magiczne bronie. Mo¿e gdyby uda³o ci siê go uwolniæ ze z³ego zaklêcia
+odwdziêczy³by ci siê w jaki¶ sposób. 
+~
+Race duch~
+ActExt 0|ABFJO
+Affected 303562752 1 0 0
+AffectedExt 0|TUZc/1|A
+Align 1000
+Group 0
+Lang M
+Speaks 12
+Level 27
+Hitroll 4
+HP 10d20+950
+Damage 3d4+5
+Dammagic 1
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 7
+Stats 156 120 132 126 144 144 108
+Off EHV
+OffExt 0|EHV/1|E
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+MobprogNew onload 10951 ABCDEFGHI 100~
+Spells 38 275 152 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 3 20
+Resist 8 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 10952
+Name uwolniona dusza staro¿ytnego paladyna~
+Odmiana uwolnionej duszy paladyna~uwolnionej duszy paladyna~uwolnion± duszê paladyna~uwolnion± dusz± paladyna~uwolnionej duszy paladyna~
+Short uwolniona dusza paladyna~
+Long Uwolniona dusza staro¿ytnego paladyna unosi siê w bia³ym blasku.~
+Descr Widzisz otoczon± bia³ym blaskiem duchow± istotê. Jest to dusza
+uwiêzionego setki lat temu paladyna, który dzieki tobie zazna w koñcu
+odpoczynku. Je¿eli chcesz mo¿e, by przekaza³ ci czê¶æ swojej staro¿ytnej
+wiedzy, to lepiej siê po¶piesz, bo widaæ, ¿e nie chce on przebywaæ na tym
+¶wiecie ani chwili d³u¿ej. 
+~
+Race duch~
+ActExt 0|AIJKOQT/2|E
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align 1000
+Group 0
+Lang M
+Speaks 12
+Level 27
+Hitroll 0
+HP 1d1+999
+Damage 5d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+Comments ticzer dla pala - {RKainti{x ({CThu Dec 15 19:51:39 2005{x)
+~
+MobprogNew onload 10952 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10953
+Name mag nieumar³y nekromanta arail kabraxis prastary poszukiwany~
+Odmiana mistrza nekromancji~mistrzowi nekromancji~mistrza nekromancji~mistrzem nekromancji~mistrzu nekromancji~
+Short Arail Kabraxis~
+Long Arail Kabraxis, legendarny {Dnekromanta{x studiuje tutaj jakie¶ zbutwia³e ksiêgi.~
+Descr Ju¿ na pierwszy rzut oka mo¿na byæ pewnym, i¿ Arail Destine jest osob± do
+cna przesi±kniêt± z³em. Jego zgarbiona lekko postura, przepe³nione
+szaleñstwem oczy o piekielnie czerwonej barwie oraz chuda, blada twarz
+topielca mog± przyprawiæ o strach niejednego ¶mia³ka. D³ugie, smuk³e rêce o
+paskudnie niebieskawym odcieniu poruszaj± siê wyj±tkowo p³ynnie i powolnie,
+jakby cierpliwie na co¶ czekaj±c. Umar³ on rzekomo kilkana¶cie, mo¿e i
+kilkadziesi±t ju¿ lat temu, lecz dziêki swej tajemnej wiedzy jak± posiad³
+studiuj±c prastare ksiêgi zakazanej magii nekromanckiej przemieni³ swe cia³o
+w nieumar³ego, a uczyni³ to tak dobrze, i¿ mo¿na by³oby przysi±c, ¿e jest
+¿ywym cz³owiekiem. Ponoæ jest on numerem jeden na czarnej li¶cie wielkich
+³owców czarnoksiê¿ników, chodz± s³uchy, ¿e on sam w pojedynkê wybi³ pó³ ich
+zakonu. 
+~
+Race cz³owiek~
+ActExt 0|ABKR
+Affected 33554472 0 0 40960
+AffectedExt 0|DFZ/3|NP
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 40
+Hitroll 4
+HP 25d5+1475
+Damage 5d5+20
+Dammagic 2
+Weaponbonus 5
+Damflags 128
+Attack walniecie
+XAC 4 4 4 4
+Stats 120 168 168 126 96 162 168
+Off RY
+OffExt 0|RY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 4500
+Form AFHMVc
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew grall kabraxis1 ABCDEFGHI 100~
+MobprogNew speech 10953 FGI zadanie wykonane~
+MobprogNew speech 10953 FGI spe³ni³em tw± wolê~
+MobprogNew speech 10953 FGI zabi³em~
+MobprogNew speech 10953 FGI dokona³em mordu~
+Spells 228 414 94 184
+Spells 311 91 216 310
+Spells 185 13 0 0
+Skin 100
+ExpMultiplier 150
+Resist 1 10
+Resist 2 10
+Resist 3 10
+Resist 4 25
+Resist 5 -2
+Resist 7 10
+Resist 8 100
+Resist 9 100
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 30
+Resist 16 100
+Resist 17 25
+Resist 18 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 10931
+Name laska zaglada dusz laska-zaglada-dusz~
+Odmiana {xlaski '{DZag³ada Dusz{x'~{xlasce '{DZag³ada Dusz{x'~{xlaskê '{DZag³ada Dusz{x'~{xlask± '{DZag³ada Dusz{x'~{xlasce '{DZag³ada Dusz{x'~
+Short laska '{DZag³ada Dusz{x'~
+Descr {DPó³przezroczysta laska unosi siê lekko nad ziemi± i roztacza mroczn± aurê.{x~
+Material eteryczny~
+Type weapon
+ExtraExt 0|CDEGHJMYZ
+Wear AN
+Wear2Ext 0|b
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Komponent 10 900
+Value 9 4 3 37 32 3 3
+Repair 0 0 0 0
+Length 250
+Weight 1
+Cost 288000
+Cond 100
+Objprog random 10932 1~
+Objprog get 10931 100~
+Itemdesc Jest to niematerialna, pó³przezroczysta laska wykonana z najczystszego
+z³a. Jej pierwsz± w³a¶cicielk± by³a demonica Ymxahirativra, któr± wyznawano
+jako boginiê setki milionów lat temu. Grupa ¶mia³ków przebudzi³a j± z jej
+wiecznego snu, podczas którego regenerowa³a moce utracone podczas wojny
+demonów. Widocznie jej si³y nie zregenerowa³y siê jeszcze wystarczaj±co, by
+by³a w stanie zg³adziæ wrogów, inaczej bowiem nie trzyma³<&by¶/aby¶/oby¶>
+tej laski w d³oniach. 
+~
+Identdesc {xWyczuwasz, ¿e aura laski '{DZag³ada Dusz{x' jest bardzo chwiejna, i jej moc
+jest czê¶ciowo zale¿na od si³y woli j± w³adaj±cego. Poza tym wype³niaj±ca j±
+staro¿ytna z³a aura znacznie ogranicza jej mo¿liwo¶ci wzglêdem istot z³ych,
+oraz troszkê wobec istot neutralnych. Aura ta jest tak¿e w stanie przy
+wyj±tkowo precyzyjnym ciosie wyp³yn±c na chwilê z laski i wprawiæ w agoniê
+wroga. 
+~
+Comments Przy ewentualnym scinaniu prosze zauwazyc, iz item ten ma duzo - do dama na evilow, czyli mala przydatnosc na wiekszosci expowiskach, i ma tez nouncurse, czyli niemozliwosc zmiany broni przed expowiskami o roznych alignach. - {RKainti{x ({CMon Mar  1 15:57:40 2004{x)
+~
+SpecDamExt 5 50 2 3 23 0 1 0
+SpecDamExt 5 50 2 3 21 0 1 0
+SpecDamExt 1 3 9 -100 -100 0 65 0
+SpecDamExt 3 75 0 -100 -100 0 -6 0
+SpecDamExt 5 25 2 4 8 0 -2 0
+SpecDamExt 5 25 2 4 10 0 -2 0
+SpecDamExt 5 25 2 4 12 0 -2 0
+SpecDamExt 5 25 2 4 14 0 -2 0
+SpecDamExt 5 25 2 3 16 0 1 0
+SpecDamExt 5 25 2 3 20 0 1 0
+SpecDamExt 5 25 2 3 22 0 1 0
+SpecDamExt 5 25 2 3 24 0 2 0
+SpecDamExt 3 100 -100 2 -100 0 -2 0
+SpecDamExt 3 10 0 -100 -100 0 -100 0
+SpecDamExt 3 25 2 -100 -100 0 -3 0
+SpecDamExt 3 50 1 -100 -100 0 4 0
+Objend
+#Vnum 10932
+Name przeklêta halabarda~
+Odmiana przeklêtej halabardy~przeklêtej halabardzie~przeklêt± halabardê~przeklêt± halabard±~przeklêtej halabardzie~
+Short przeklêta halabarda~
+Descr Po³yskuj±ca mrocznym ¶wiat³em halabarda le¿y tutaj.~
+Material platyna~
+Type weapon
+ExtraExt 0|CEGHJMS
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 8 3 5 25 32 0 0
+Repair 0 0 0 0
+Length 200
+Weight 350
+Cost 36000
+Cond 75
+Itemdesc Widzisz potê¿n± halabardê, pochodz±c± z czasów tak odleg³ych ¿e nie
+jeste¶ nawet w stanie wyobra¼iæ sobie tak wielkiej liczby. W ca³o¶ci
+wykonana jest z platyny, ale jakiej¶ nie znanej ci ciemnej jej odmiany. 
+~
+Identdesc Czujesz, ¿e antyczne ostrze przeklêtej halabardy przesi±kniête jest
+mroczn±, negatywn± energi±, co zwiêksza zadawane przez ni± obra¿enia o 2. 
+~
+Comments ~
+SpecDamExt 8 10 -100 -100 -100 0|Bd 10 0
+SpecDamExt 1 100 9 -100 -100 0 2 0
+SpecDamExt 8 100 -100 -100 -100 0|O -100 0
+Objend
+#Vnum 10933
+Name zardzewia³y przerdzewia³y klucz~
+Odmiana przerdzewia³ego klucza~przerdzewia³emu kluczowi~przerdzewia³y klucz~przerdzewia³ym kluczem~przerdzewia³ym kluczu~
+Short przerdzewia³y klucz~
+Descr Ma³y zardzewia³y klucz le¿y tutaj.~
+Material ¿elazo~
+Type key
+ExtraExt 0|Gd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to niewielkich rozmiarów ¿elazny klucz prawie ca³y z¿arty przez
+rdzê, a to ¿e nie rozsypa³ siê po przebyciu eonów g³êboko wewn±trz ziemi
+sprawi³a tylko wype³niaj±ca go potê¿na magia. 
+~
+Comments ~
+Objend
+#Vnum 10934
+Name zardzewia³y przerdzewia³y klucz~
+Odmiana przerdzewia³ego klucza~przerdzewia³emu kluczowi~przerdzewia³y klucz~przerdzewia³ym kluczem~przerdzewia³ym kluczu~
+Short przerdzewia³y klucz~
+Descr Ma³y zardzewia³y klucz le¿y tutaj.~
+Material ¿elazo~
+Type key
+ExtraExt 0|Gd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to niewielkich rozmiarów ¿elazny klucz prawie ca³y z¿arty przez
+rdzê, a to ¿e nie rozsypa³ siê po przebyciu eonów g³êboko wewn±trz ziemi
+sprawi³a tylko wype³niaj±ca go potê¿na magia. 
+~
+Comments ~
+Objend
+#Vnum 10935
+Name zardzewia³y przerdzewia³y klucz~
+Odmiana przerdzewia³ego klucza~przerdzewia³emu kluczowi~przerdzewia³y klucz~przerdzewia³ym kluczem~przerdzewia³ym kluczu~
+Short przerdzewia³y klucz~
+Descr Ma³y zardzewia³y klucz le¿y tutaj.~
+Material ¿elazo~
+Type key
+ExtraExt 0|Gd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to niewielkich rozmiarów ¿elazny klucz prawie ca³y z¿arty przez
+rdzê, a to ¿e nie rozsypa³ siê po przebyciu eonów g³êboko wewn±trz ziemi
+sprawi³a tylko wype³niaj±ca go potê¿na magia. 
+~
+Comments ~
+Objend
+#Vnum 10937
+Name wielki staro¿ytny szkielet~
+Odmiana staro¿ytnego szkieletu~staro¿ytnemu szkieletowi~staro¿ytny szkielet~staro¿ytnym szkieletem~staro¿ytnym szkielecie~
+Short staro¿ytny szkielet~
+Descr Wielki szkielet le¿y pod ¶cian± korytarza u¶piony od eonów.~
+Material ko¶æ~
+Type trash
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 10938
+Name wielki platynowy sarkofag~
+Odmiana sarkofagu~sarkofagowi~sarkofag~sarkofagiem~sarkofagu~
+Short wielki platynowy sarkofag~
+Descr Wielki platynowy sarkofag le¿y w centrum sali i po³yskuje tajemniczo.~
+Material platyna~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10000 1029 0 10000 100 10939 -1
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 60
+Cond 75
+Objprog objclosek 10941 100~
+Objprog objopen 10938 100~
+Itemdesc Jest to naprawdê potêznych garbarytów sarkofag, wykonany z dziwnego
+materia³u przypominaj±cego platynê, ale po³yskuj±cego co chwilkê czarnym
+¶wiat³em. Pokryty jest setk± przedziwnych symboli, których nie rozumiesz
+nawet w najmniejszym stopniu, nie masz pojêcia w jaki sposób komu¶ uda³o siê
+tak dok³adnie wyrze¼biæ to wszystko w tak twardym metalu. 
+~
+Comments ~
+Objend
+#Vnum 10939
+Name Nieprzenikniona ciemno¶æ...~
+Odmiana ciemno¶ci~ciemno¶ci~ciemno¶æ~ciemno¶ci±~ciemno¶ci~
+Short Nieprzenikniona ciemno¶æ...~
+Descr Nieprzenikniona ciemno¶æ...~
+Material eteryczny~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 10940
+Name kamienny sarkofag~
+Odmiana kamiennego sarkofagu~kamiennemu sarkofagowi~kamienny sarkofag~kamiennym sarkofagiem~kamiennym sarkofagu~
+Short kamienny sarkofag~
+Descr Spory kamienny sarkofag le¿y na ¶rodku grobowca.~
+Material kamieñ~
+Type container
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10000 5 0 10000 100 10939 -1
+Repair 0 0 0 0
+Length 0
+Weight 30000
+Cost 60
+Cond 75
+Objprog objclosek 10941 100~
+Objprog objopen 10940 100~
+Comments ~
+Objend
+#Vnum 10951
+Name pas p³on±cy ymxahirativry~
+Odmiana {Rp³on±cego pasa {DYmxahirativry{x~{Rp³on±cemu pasowi {DYmxahirativry{x~{Rp³on±cy pas {DYmxahirativry{x~{Rp³on±cym pasem {DYmxahirativry{x~{Rp³on±cym pasie {DYmxahirativry{x~
+Short {Rp³on±cy pas {DYmxahirativry{x~
+Descr Bucz±cy od zawartej w nim mocy pas ognia bucha ogniem.~
+Material eteryczny~
+Type clothing
+ExtraExt 0|CDEGJ
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 4200
+Cond 100
+Aff 0 0 0 0 1 b
+Aff 1 12 8 30 0 0
+Itemdesc Przedmiot ten by³ jednym z atrybutów staro¿ytnej demonicy Ymxahirativry
+która odchodz±c na wieczysty spoczynek wziê³a go ze sob±, umagiczniony
+zosta³ przez jej wyznawczynie i ni± sam± potêzn± ognist± energi±, przez to
+spowiaj±ce go p³omienie nigdy nie gasn±. 
+~
+Comments ~
+Objend
+#Vnum 10955
+Name diadem niedu¿y~
+Odmiana diademu~diademowi~diadem~diademem~diademie~
+Short diadem~
+Descr Niedu¿y diadem z bia³ym kamieniem le¿y tutaj.~
+Material adamantyt~
+Type jewelry
+ExtraExt 0|S
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6
+Cost 7200
+Cond 100
+Aff 1 27 1 2 0 0
+Aff 1 27 2 1 0 0
+Itemdesc Choæ niewielki, to mo¿na za³o¿yæ go ka¿d± g³owê, choæ zapewne na g³owie
+smoka wygl±da³by przekomicznie. Wykonany jest z niewielkich adamantytowych
+prêcików po³±czonych w filigranow± konstrukcjê. Na szczycie osadzono du¿y
+bia³y kamieñ, który nie jest du¿o warty, ale wygl±da wprost przecudownie.
+Mo¿na siê w niego patrzeæ godzinami, po prostu zapominaj±c o ca³ym ¶wiecie. 
+~
+Comments ~
+Objend
+#Vnum 10956
+Name ró¿d¿ka kompresji~
+Odmiana {cró¿{Dd¿ki {wkompr{desji{x~{cró¿{Dd¿ce {wkompr{desji{x~{cró¿{Dd¿kê {wkompr{desji{x~{cró¿{Dd¿k± {wkompr{desji{x~{cró¿{Dd¿ce {wkompr{desji{x~
+Short {cró¿{Dd¿ka {wkompr{desji{x~
+Descr Krótka migocz±ca ciemno magiczna ró¿d¿ka le¿y tutaj.~
+Material eteryczny~
+Type wand
+ExtraExt 0|CEGJLS
+Wear AO
+Wear2Ext 0|CDM/1|ACFG
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 4 -35 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 480000
+Cond 100
+Itemdesc Spogl±dasz na dziwny przedmiot. Niedu¿ych rozmiarów magiczna ró¿d¿ka
+zdaje siê ci±gle migotaæ, owo migotanie przyci±ga twój wzrok, tak, ¿e
+zafascynowan<&y/a/e> nie mo¿esz oderwaæ od niej oczu. Zastanawia ciê jakie¿
+ukryte i potê¿ne moce s± w niej zawarte.
+~
+Identdesc Ró¿d¿ka ta skraca zapamiêtywanie zaklêæ o 35%. Mog± j± u¿ywaæ ¼li klerycy
+oraz ¼li magowie potrafi±cy rzucaæ zaklêcia ze szko³y nekromancji. 
+~
+Comments nie moga specki co nie maja nekromancji - {RKainti{x ({CWed Dec 14 22:35:36 2005{x)
+zrobie z tego rara max2 - {RKainti{x ({CWed Dec 14 22:39:18 2005{x)
+~
+Objend
+#Vnum 10957
+Name ksiêga mocy pulsuj±ca questitem~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga mocy~
+Descr Le¿y tutaj pulsuj±ca moc± ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 4 409 203 285 137 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 14460
+Cond 100
+Itemdesc Jest to niewielkich rozmiarów ksiêga, która zdaje siê a¿ pulsowaæ od
+zawartej w niej mocy. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 10958
+Name odciêta g³owa wodza barbarzyñców~
+Odmiana odciêtej g³owy wodza~odciêtej g³owie wodza~odciêt± g³owê wodza~odciêt± g³ow± wodza~odciêtej g³owie wodza~
+Short g³owa wodza barbarzyñców~
+Descr Odciêta g³owa wodza barbarzyñców le¿y tu w ka³u¿y krwi.~
+Material ko¶æ~
+Type trash
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 10959
+Name pomnik Gurthg Shae potê¿ny~
+Odmiana pomnika {BGurthga Shae{x~pomnikowi {BGurthga Shae{x~pomnik {BGurthga Shae{x~pomnikiem {BGurthga Shae{x~pomniku {BGurthga Shae{x~
+Short pomnik Gurthga~
+Descr Potê¿ny, ¶wie¿o wzniesiony pomnik {BGurthga Shae{x góruje nad placem.~
+Material eteryczny~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 100 0 72 105 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20000
+Cost 1
+Cond 100
+Objprog random gurthg_serce 5~
+Itemdesc Stoi przed tob± potê¿ny, ¶wie¿o wzniesiony pomnik przedstawiaj±cy jednego
+z najwiêkszych mêdrców z ca³ej Tamery. Gurthg Shae w roku 21 Ery Potrzasku
+opu¶ci³ nasz ¶wiat, choæ wielu twierdzi, i¿ nadejdzie dzieñ, w którym
+powróci i ponownie zaprowadzi ³ad i porz±dek. W³adze miasta, bior±c pod
+uwagê fakt, ze by³ on wieloletnim opiekunem miasta i jednym z ojców
+za³o¿ycieli, chc±c uczciæ jego chwale, po¶wiecenie i oddanie ufundowali mu
+majestatyczny posag ociekaj±cy wrêcz bogactwem i wszelkimi innymi
+kosztowno¶ciami. Mieszkañcy miasta i okolic, a tak¿e chêtni spoza granic
+z³o¿yli mnóstwo darów oraz wpisów do ksi±g kondolencyjnych, które to razem
+zosta³y zaklête w ¿ywe serce umieszczone w wielkiej figurze przedstawiaj±cej
+jego wyobra¿enie. Serce to bije i bêdzie biæ dopóki nie zginie pamiêæ po tej
+wielkiej osobisto¶ci. Poni¿ej, na z³otej tabliczce pami±tkowej wygrawerowane
+zosta³o imiê architekta: Gorst. 
+~
+Comments ~
+Objend
+#Vnum 10960
+Name wielkie gor±ce ¼ród³o~
+Odmiana wielkiego gor±cego zród³a~wielkiemu gor±cemu ¼ród³owi~wielkie gor±ce ¼ród³o~wielkim gor±cym ¼ród³em~wielkim gor±cym ¼ródle.~
+Short wielkie gor±ce zród³o~
+Descr Wielkie, gor±ce ¼ród³o zachêca do k±pieli.~
+Material unused~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 10931
+Name ¦cie¿ka nad jeziorem~
+Descr Spacerujesz nad brzegiem jeziora, od wody bije nieprzyjazny, wilgotny
+ch³ód. Brzeg jest bardzo stromy i ostro wcina siê w na wpó³ zamarzniêt±
+wodê, z której gdzieniegdzie wystaj± te przedziwne polodowcowe formy - na
+kszta³t s³upów lub jaskiniowych stalagmitów. Pomimo tych nieprzyjemnych
+wra¿eñ jest tu jednak bardzo piêknie i w miarê bezpiecznie, gdy¿ od
+cywilizacji dzieli ciê jedynie parê kroków. 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2067
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2067
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10932
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10932
+Name ¦cie¿ka nad jeziorem~
+Descr Spacerujesz nad brzegiem jeziora, od wody bije nieprzyjazny, wilgotny
+ch³ód. Brzeg jest bardzo stromy i ostro wcina siê w na wpó³ zamarzniêt±
+wodê, z której gdzieniegdzie wystaj± te przedziwne polodowcowe formy - na
+kszta³t s³upów lub jaskiniowych stalagmitów. Pomimo tych nieprzyjemnych
+wra¿eñ jest tu jednak bardzo piêknie i w miarê bezpiecznie, gdy¿ od
+cywilizacji dzieli ciê jedynie parê kroków. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10931
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10931
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10933
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10933
+Name Rozwidlenie ¶cie¿ki~
+Descr W tym miejscu ¶cie¿ka siê rozwidla - jedna odnoga odbija od jeziora w
+kierunku pó³nocnym, a druga skrêca wraz z jego brzegiem na po³udnie. Od wody
+bije nieprzyjazny, wilgotny ch³ód. Brzeg jest bardzo stromy i ostro wcina
+siê w na wpó³ zamarzniêt± wodê, z której gdzieniegdzie wystaj± te przedziwne
+polodowcowe formy - na kszta³t s³upów lub jaskiniowych stalagmitów. Widaæ
+¶cie¿ka jest ma³o uczêszczana, gdy¿ coraz bardziej zarasta karlowatymi
+krzewami i ledwo znosz±c± panuj±ce tu zimno traw±. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10934
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10934
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10932
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10932
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43972
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43972
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10934
+Name Zanikaj±ca ¶cie¿ka~
+Descr Scie¿ka poprzez tundrê coraz bardziej zanika zaro¶niêta krzewami oraz
+przysypana ¶niegiem. Widaæ, ¿e nie jest ona uczêszczana, gdy¿ mimo ¿e ¶nieg
+nie pada³ ju¿ od jakiego¶ czasu na ¶niegu nie ma ani jednego ¶ladu. Mo¿na
+zauwa¿yæ tutaj maluteñk± ¶cie¿uniê odchodz±c± na zachód, choæ jest ona
+bardzo ma³o widoczna. Na po³udniu widzisz spore jezioro otoczone iglastymi
+drzewami, z których co rusz dobiega wycie ¶nie¿nych wilków. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10935
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10935
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10933
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10935
+Name Tundra~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Daleko na po³udniu widzisz
+jezioro otoczone iglastymi drzewami, natomiast na wschodzie, tak¿e do¶æ
+daleko, znajduje siê wioska ludzi, najdalej wysuniêta na pó³noc cywilizowana
+osada. Dzieli ciê jednak od niej szeroka szczelina, której dna nie dostrze¿e
+ludzkie oko. Na zachodzie i pólnocy rozpo¶ciera siê bezkresna tundra. 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10936
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10936
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10934
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10934
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10936
+Name Bezkresna tundra~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Daleko na po³udniu widzisz
+jezioro otoczone iglastymi drzewami, natomiast na wschodzie, tak¿e do¶æ
+daleko, znajduje siê wioska ludzi, najdalej wysuniêta na pó³noc cywilizowana
+osada. Dzieli ciê jednak od niej szeroka szczelina, której dna nie dostrze¿e
+ludzkie oko. Na zachodzie i pólnocy rozpo¶ciera siê bezkresna tundra. 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10937
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10937
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10935
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10935
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10937
+Name Tundra~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Daleko na po³udniu widzisz
+jezioro otoczone iglastymi drzewami, natomiast na wschodzie, tak¿e do¶æ
+daleko, znajduje siê wioska ludzi, najdalej wysuniêta na pó³noc cywilizowana
+osada. Dzieli ciê jednak od niej szeroka szczelina, której dna nie dostrze¿e
+ludzkie oko. Na zachodzie i pólnocy rozpo¶ciera siê bezkresna tundra.
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10938
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10938
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10936
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10936
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10938
+Name Tundra~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Do trasy twej podró¿y
+zbli¿y³a siê trochê szczelina, przedzieraj±ca ziemiê w pó³, widzisz j±
+blisko na wschodzie. Bardzo daleko na pó³nocy udaje ci siê dostrzec co¶
+jakby osadê, ale kto o zdrowych zmys³ach osiedla³by siê w takim zi±biê? 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10940
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10940
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10939
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10939
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10937
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10937
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10939
+Name Przy szczelinie~
+Descr Stoisz tu¿ nad g³êbok± i szerok± szczelin±. Dna jej nie jeste¶ w stanie
+dostrzec, natomiast drugi brzeg rozmywa siê lekko w prusz±cym ¶niegu, tak
+wiêc nie jeste¶ w stanie oceniæ odleg³o¶æi. Zauwa¿asz, ¿e zaraz na pó³nocy
+utworzy³y siê jakby schody w dó³, lekko poro¶niête krzakami. Szczelina jest
+naprawdê blisko, jeden nierozwa¿ny krok na wschód i spadasz... 
+~
+FlagsExt 0
+Sector 16
+Extra east~
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10941
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10941
+ExitExt 1
+ExitExtDescription Wychylasz siê lekko ponad krawêdz szczeliny i patrzysz w dó³. Nie udaje
+ci siê jednak nic dostrzec, bowiem krater jest naprawde g³êboki, a ciemno¶ci
+skrywaj± jego dno. 
+~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10962
+ExitExtEnd
+Exit 1
+Wychylasz siê lekko ponad krawêdz szczeliny i patrzysz w dó³. Nie udaje
+ci siê jednak nic dostrzec, bowiem krater jest naprawde g³êboki, a ciemno¶ci
+skrywaj± jego dno. 
+~
+~
+16 0 10962
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10938
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10938
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10940
+Name Bezkresna tundra~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Do trasy twej podró¿y
+zbli¿y³a siê trochê szczelina, przedzieraj±ca ziemiê w pó³, widzisz j±
+blisko na wschodzie. Bardzo daleko na pó³nocy udaje ci siê dostrzec co¶
+jakby osadê, ale kto o zdrowych zmys³ach osiedla³by siê w takim zi±biê? 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10963
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10963
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10938
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10938
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10941
+Name Przy szczelinie~
+Descr Stoisz tu¿ nad g³êbok± i szerok± szczelin±. Jej dna nie jeste¶ w stanie
+dostrzec, natomiast drugi brzeg rozmywa siê lekko w prósz±cym ¶niegu, który
+pokrywa wszystko cieniutk± warstw± iskrz±cego srebra, tak wiêc nie jeste¶ w
+stanie oceniæ odleg³o¶ci. Zauwa¿asz, ¿e zaraz na wschodzie utworzy³y siê
+jakby schody w dó³, rzadko poro¶niête niewysokimi krzakami o drobnych
+ciemnozielonych li¶ciach. 
+~
+FlagsExt 0|C
+Sector 16
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10942
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10942
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10939
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10939
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10942
+Name Zej¶cie w g³±b~
+Descr Stoisz na skraju szczeliny, przed sob± widzisz bardzo stromy skalisty
+spad, jednak jak siê postarasz bêdziesz w stanie bezpiecznie zej¶æ w dó³, w
+jakby zapraszaj±c± ciê ciemno¶æ, witaj±c± z otwartymi ramionami. Dna nie
+jeste¶ w stanie dostrzec, natomiast drugi brzeg szczeliny rozmywa siê lekko
+w prusz±cym ¶niegu, tak wiêc nie jeste¶ w stanie oceniæ odleg³o¶ci.
+Szczelina jest naprawdê blisko, jeden nierozwa¿ny krok na wschód i
+spadasz... 
+~
+FlagsExt 0
+Sector 16
+Extra east~
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno. 
+~
+ExitExt 1
+ExitExtDescription Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno. 
+~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10962
+ExitExtEnd
+Exit 1
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno. 
+~
+~
+16 0 10962
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10941
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10941
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10943
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10943
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10943
+Name Bardzo stroma ¶cie¿ka.~
+Descr Ostro¿nie idziesz strom±, lekko przysypan± ¶niegiem, a wiêc ¶lisk±,
+¶cie¿k±. Wysilaj±c siê dostrzegasz daleko w dole pó³kê skaln±, na któr± ona
+prowadzi. Na wschód od ciebie znajduje siê szczelina, której dna nie jeste¶
+w stanie dostrzec, natomiast drugi jej brzeg rozmywa siê lekko w prusz±cym
+¶niegu, tak wiêc nie jeste¶ w stanie oceniæ odleg³o¶ci. Szczelina jest
+naprawdê blisko, jeden nierozwa¿ny krok na wschód i spadasz... 
+~
+FlagsExt 0
+Sector 13
+Extra east~
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExt 1
+ExitExtDescription Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10962
+ExitExtEnd
+Exit 1
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+~
+16 0 10962
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10942
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10942
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10944
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10944
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10944
+Name Bardzo stroma ¶cie¿ka~
+Descr Ostro¿nie idziesz strom±, lekko przysypan± ¶niegiem, a wiêc ¶lisk±,
+¶cie¿k±. Dostrzegasz daleko w dole pó³kê skaln±, na któr± ona prowadzi. Na
+wschód od ciebie znajduje siê szczelina, której dna nie jeste¶ w stanie
+dostrzec, natomiast drugi jej brzeg rozmywa siê lekko w prusz±cym ¶niegu,
+tak wiêc nie jeste¶ w stanie oceniæ odleg³o¶ci. Na zachodzie widaæ malutkie
+przej¶cie. Szczelina jest naprawdê blisko, jeden nierozwa¿ny krok na wschód
+i spadasz... 
+~
+FlagsExt 0
+Sector 13
+Extra east~
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExt 1
+ExitExtDescription Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10962
+ExitExtEnd
+Exit 1
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+~
+16 0 10962
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8208
+ExitExtKey 0
+ExitExtToVnum 11017
+ExitExtEnd
+Exit 3
+~
+~
+8208 0 11017
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10943
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10943
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10945
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10945
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10945
+Name Stroma ¶cie¿ka~
+Descr Ostro¿nie idziesz strom±, lekko przysypan± ¶niegiem, a wiêc ¶lisk±,
+¶cie¿k±. Zaraz w dole znajduje siê pó³ka skalna, na któr± ona prowadzi. Na
+wschód od ciebie znajduje siê szczelina, której dna nie jeste¶ w stanie
+dostrzec, natomiast drugi jej brzeg rozmywa siê lekko w prusz±cym ¶niegu,
+tak wiêc nie jeste¶ w stanie oceniæ odleg³o¶ci. Szczelina jest naprawdê
+blisko, jeden nierozwa¿ny krok na wschód i spadasz... 
+~
+FlagsExt 0
+Sector 13
+Extra east~
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10946
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10946
+ExitExt 1
+ExitExtDescription Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10962
+ExitExtEnd
+Exit 1
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+~
+16 0 10962
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10944
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10944
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10946
+Name Pó³ka skalna~
+Descr Znajdujesz siê na skalnej pó³ce g³êboko w ziemi. Ze wschodu zieje czerni±
+szczelina, której dna nie jeste¶ w stanie dostrzec. Na zachodzie natomiast
+widzisz jaskiniê, z której tak¿e wygl±da ciemno¶æ. Co jaki¶ czas z góry
+spada jaki¶ zab³±kany p³atek ¶niegu, którego nie zatrzyma³y ¶ciany szczeliny
+~
+FlagsExt 0
+Sector 5
+Extra east~
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExt 1
+ExitExtDescription Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10962
+ExitExtEnd
+Exit 1
+Wychylasz siê lekko znad krawêdzi szczeliny i patrzysz w dó³, nie udaje
+ci siê jednak nic dostrzec, krater jest naprawde g³êboki, ciemno¶ci blokuj±
+skrywaj± jego dno.
+~
+~
+16 0 10962
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10945
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10945
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 10947
+ExitExtEnd
+Exit 3
+~
+~
+16384 0 10947
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10947
+Name W±skie i niskie przej¶cie~
+Descr Panuj± tu straszne ciemno¶ci, gdyby nie przyniesione ze sob± ¼ród³o
+¶wiat³a, nie mo¿naby zobaczyæ nawet czubka w³asnego nosa, a co dopiero co¶
+wiêcej. W powietrzu unosi siê przedziwny zapach, wywo³uj±cy u ciebie bardzo
+nieprzyjemne skojarzenia. Spod nóg uciekaj± ci co chwilka jakie¶ dziwne
+robaki, nie widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. Ca³a grota
+wygl±da, jakby od wieków, nawet tysi±cleci, nie stanê³a w niej ludzka stopa,
+pewnie utworzy³o j± niedwne trzêsienie ziemi, jak i ca³± szczelinê. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 10946
+ExitExtEnd
+Exit 1
+~
+~
+16384 0 10946
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10948
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10948
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10948
+Name Wej¶cie do staro¿ytnego grobowca~
+Descr Panuj± tu straszne ciemno¶ci, gdyby nie przyniesione ze sob± ¼ród³o
+¶wiat³a nieb<&y³by¶/y³aby¶/y³oby¶> w stanie dostrzec swego nosa. W powietrzu
+unosi siê przedziwny zapach, wywo³uj±cy u ciebie bardzo nieprzyjemne
+skojarzenia. Spod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10947
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10947
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10949
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10949
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10949
+Name Mroczny korytarz~
+Descr Panuj± tu straszne, nieprzeniknione ciemno¶ci. W powietrzu unosi siê
+przedziwny zapach, wywo³uj±cy u ciebie bardzo nieprzyjemne skojarzenia, oraz
+mroczna aura magiczna. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne
+robaki, nie widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany
+pokrywaj± tajemnicze symbole, a ca³y korytarz sprawia wra¿enie
+nieodwiedzanego od eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej
+cywilizacji. 
+~
+FlagsExt 0|AIN
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10948
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10948
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10950
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10950
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10950
+Name Podziemny korytarz~
+Descr Idziesz korytarzem bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne symbole.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|AIN
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10949
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10949
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10951
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10951
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10951
+Name Rozwidlenie korytarza~
+Descr Idziesz korytarzem bardzo g³êboko wewn±trz ziemi, który w tym miejscu
+rozwidla siêna trzy inne, a jego brzegi zabezpieczono g³adk± kamienn±
+¶cian±, na których widzisz przedziwne symbole. Panuj± tutaj nieprzeniknione
+ciemno¶ci, a powietrze przesycone jest staro¿ytn± magi±. Z pod nóg uciekaj±
+ci co chwilka jakie¶ dziwne robaki, nie widzia³<&e¶/a¶/o¶> jeszcze takich
+nigdzie indziej. ¦ciany pokrywaj± tajemnicze symbole, a ca³y korytarz
+sprawia wra¿enie nieodwiedzanego od eonów, jakby by³ pozosta³o¶ci± po
+jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|AIN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10954
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10954
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10950
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10950
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10956
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10956
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10952
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10952
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10952
+Name Zwê¿aj±cy siê korytarz~
+Descr Idziesz korytarzem bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|AIN
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10951
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10951
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10953
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10953
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10953
+Name Koniec korytarza~
+Descr Dochodzisz do koñca korytarza bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|ACIN
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10952
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10952
+ExitExt 3
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 10934
+ExitExtToVnum 10959
+ExitExtEnd
+Exit 3
+~
+wrota~
+32775 10934 10959
+Exittrap 3 10953
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10954
+Name Zwê¿aj±cy siê korytarz~
+Descr Idziesz korytarzem bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|AIN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10955
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10955
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10951
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10951
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10955
+Name Koniec korytarza~
+Descr Dochodzisz do koñca korytarza bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji.
+~
+FlagsExt 0|ACIN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 10933
+ExitExtToVnum 10958
+ExitExtEnd
+Exit 0
+~
+wrota~
+32775 10933 10958
+Exittrap 0 10955
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10954
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10954
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10956
+Name Zwê¿aj±cy siê korytarz~
+Descr Idziesz korytarzem bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji.
+~
+FlagsExt 0|AIN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10951
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10951
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10957
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10957
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10957
+Name Koniec korytarza~
+Descr Dochodzisz do koñca korytarza bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji.
+~
+FlagsExt 0|ACIN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10956
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10956
+ExitExt 2
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 10935
+ExitExtToVnum 10960
+ExitExtEnd
+Exit 2
+~
+wrota~
+32775 10935 10960
+Exittrap 2 10957
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10958
+Name Grobowiec~
+Descr Znajdujesz siê wewn±trz grobowca bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji.
+~
+FlagsExt 0|ACIN
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 10933
+ExitExtToVnum 10955
+ExitExtEnd
+Exit 2
+~
+wrota~
+32775 10933 10955
+Exittrap 2 10955
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10959
+Name Grobowiec~
+Descr Znajdujesz siê wewn±trz grobowca bardzo g³êboko wewn±trz ziemi, jego brzegi
+zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne znaki.
+Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji.
+~
+FlagsExt 0|ACIN
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 10934
+ExitExtToVnum 10953
+ExitExtEnd
+Exit 1
+~
+wrota~
+32775 10934 10953
+Exittrap 1 10953
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10961
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10961
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10960
+Name Grobowiec~
+Descr Znajdujesz siê wewn±trz grobowca bardzo g³êboko wewn±trz ziemi, jego
+brzegi zabezpieczono g³adk± kamienn± ¶cian±, na których widzisz przedziwne
+znaki. Panuj± tutaj nieprzeniknione ciemno¶ci, a powietrze przesycone jest
+staro¿ytn± magi±. Z pod nóg uciekaj± ci co chwilka jakie¶ dziwne robaki, nie
+widzia³<&e¶/a¶/o¶> jeszcze takich nigdzie indziej. ¦ciany pokrywaj±
+tajemnicze symbole, a ca³y korytarz sprawia wra¿enie nieodwiedzanego od
+eonów, jakby by³ pozosta³o¶ci± po jakiej¶ staro¿ytnej cywilizacji. 
+~
+FlagsExt 0|ACIN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 10935
+ExitExtToVnum 10957
+ExitExtEnd
+Exit 0
+~
+wrota~
+32775 10935 10957
+Exittrap 0 10957
+Roomprog random 10932 3~
+Roomprog random 10931 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10961
+Name Sala wype³niona mrokiem~
+Descr Znajdujesz siê w sali, tyle tylko jeste¶ w stanie o niej powiedzieæ, gdy¿
+nieprzenikniona ciemno¶æ uniemo¿liwia ci dojrzeæ ¶cian czy sufitu. W
+powietrzu unosi siê intensywna magiczna aura, z pewno¶ci± nie ma ona zbyt
+wiele wspólnego z si³ami ¶wiat³a. Panuje tutaj przygnêbiaj±ca cisza, któr±
+lekko tylko zak³ócaj± odg³osy twych kroków. Na ¶rodku pomieszczenia znajduje
+siê naprawdê ogromny sarkofag, ca³y pokryty setkami tajemniczych
+staro¿ytnych symboli i run. 
+~
+FlagsExt 0|ACINc
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10959
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10959
+Roomprog reset 10961 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10962
+Name Spadaj±c w g³±b szczeliny~
+Descr ~
+FlagsExt 0|C
+Sector 0
+Roomprog entry 10962 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10963
+Name Przedzieraj±c siê przez tundrê~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Do trasy twej podró¿y
+zbli¿y³a siê trochê szczelina, przedzieraj±ca ziemiê w pó³, widzisz j±
+blisko na wschodzie. Daleko na pó³nocy udaje ci siê dostrzec co¶ jakby
+osadê, ale kto o zdrowych zmys³ach osiedla³by siê w takim zi±biê? 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10964
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10964
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10940
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10940
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10964
+Name Tundra~
+Descr Z wysi³kiem przedzierasz siê przez tundrowe zaspy potykaj±c siê co rusz o
+jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Rozgl±daj±c siê widzisz na
+zachodzie, wschodzie i po³udniu bezkresn±, niczym nie urozmaicon± tundrê,
+natomiast niedaleko na pó³nocy udaje ci siê dostrzec niewielk± ludzk± osadê,
+ale kto o zdrowych zmys³ach osiedla³by siê w takim zi±biê? 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10965
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10965
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10963
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10963
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10965
+Name Przed osad± barbarzyñców~
+Descr Z trudem udaje ci siê przedrzeæ przez tundrowe zaspy, co chwilê potykasz
+siê o jaki¶ kamieñ albo przysypany ¶niegiem krzaczek. Zaraz na pó³nocy
+znajduje siê niedu¿a osada barbarzyñców, którzy osiedlili siê w tak mro¼nym
+klimacie ze wzglêdnu na znajduj±ce siê na krañcu ich wioski gor±ce ¼ród³a. 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10966
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10966
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10964
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10964
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10966
+Name Wej¶cie do osady barbarzyñców~
+Descr Stoisz tu¿ przed miejscem, które robi za wej¶cie do osady barbarzyñców.
+Nie ma tu najmniejszej nawet palisady, nie widaæ tak¿e ¿adnych wartowników,
+widocznie barbarzyñcy nie obawiaj± siê niczyjego ataku. Wioska sk³ada siê
+tylko i wy³±cznie z sza³asów, wszystkie s± prawie identyczne, jedynie na
+wschodnim krañcu wiosku udaje ci siê dostrzec jakie¶ ska³ki, z których unosi
+siê dobrze widoczna w tym mro¼nym klimacie para. 
+~
+FlagsExt 0|CH
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10967
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10967
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10965
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10965
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10967
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10968
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10968
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10966
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10966
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10968
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10969
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10969
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10967
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10967
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11002
+ExitExtEnd
+Exit 3
+~
+VName Sza³as~
+~
+0 0 11002
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10969
+Name ¦cie¿ka miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10970
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10970
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11003
+ExitExtEnd
+Exit 1
+~
+VName Sza³as~
+~
+0 0 11003
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10968
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10968
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11000
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11000
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10970
+Name ¦cie¿ka miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10971
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10971
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10969
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10969
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10971
+Name ¦cie¿ka miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10972
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10972
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11004
+ExitExtEnd
+Exit 1
+~
+VName Sza³as~
+~
+0 0 11004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10970
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10970
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10972
+Name ¦cie¿ka w ¶rodku wioski~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10973
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10973
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10971
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10971
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11005
+ExitExtEnd
+Exit 3
+~
+VName Sza³as~
+~
+0 0 11005
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10973
+Name ¦rodek wioski~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10974
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10974
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10975
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10975
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10972
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10972
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10984
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10984
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10974
+Name ¦cie¿ka w ¶rodku wioski~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10979
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10979
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11001
+ExitExtEnd
+Exit 1
+~
+VName Sza³as~
+~
+0 0 11001
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10973
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10973
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10975
+Name ¦cie¿ka do gor±cych ¼róde³~
+FlagsExt 0|H
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10976
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10976
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10973
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10973
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10976
+Name Gor±ce ¼ród³a~
+Descr Z pod ska³ek na wschodzie wyp³ywa ciep³a, przyjemna w zapachu woda.
+Zjawisko to jest conajmniej niezwyk³e, bo ma miejsce na pó³nocnych kresach
+znanego ci ¶wiata, na tundrze daleko za masywem Rikha. Wokó³ tych ska³ek
+znajduje siê osada barbarzyñców, ¿yj±cych g³ownie z polowañ na nied¼wiedzie
+polarne, czy ¶nie¿ne wilki, a sk³ada siê ona z kilkudziesiêciu podobnych
+bardzo do siebie sza³asów. Znajduje siê tutaj olbrzymie, gor±ce ¼ród³o, w
+którym mo¿esz sie chyba {Rwyk±paæ{x. 
+~
+FlagsExt 0|CH
+Sector 25
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10977
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10977
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10975
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10975
+Roomprog input zrodlo wyk±p~
+Roomprog input zrodlo wyk±p siê~
+Roomprog input zrodlo k±p~
+Roomprog input zrodlo k±p siê~
+Roomprog input zrodlo wyk±paæ~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10977
+Name Przy niewielkiej skale~
+Descr Jeste¶ zanu¿on<&y/a/e> do pasa w przyjemnej, ciep³ej wodzie, wyp³ywaj±cej
+spod ska³ek na wschodzie. Zjawisko to jest co najmniej niezwyk³e, bo ma
+miejsce na pó³nocnych kresach znanego ci ¶wiata, na tundrze daleko za
+masywem Rikha. Wokó³ tych ska³ek znajduje siê osada barbarzyñców, ¿yj±cych
+g³ównie z polowañ na nied¼wiedzie polarne czy ¶nie¿ne wilki, a sk³ada siê
+ona z kilkudziesiêciu podobnych bardzo do siebie sza³asów. 
+~
+FlagsExt 0|H
+Sector 25
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10978
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10978
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10976
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10976
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10978
+Name Przy niewielkiej skale~
+Descr Jeste¶ zanu¿on<&y/a/e> do pasa w przyjemnej, ciep³ej wodzie, wyp³ywaj±cej
+z pod ska³ek na wschodzie. Zjawisko to jest conajmniej niezwyk³e, bo ma
+miejsce na pó³nocnych kresach znanego ci ¶wiata, na tundrze daleko za
+masywem Rikha. Wokó³ tych ska³ek znajduje siê osada barbarzyñców, ¿yj±cych
+g³ównie z polowañ na nied¼wiedzie polarne czy ¶nie¿ne wilki, a sk³ada siê
+ona z kilkudziesiêciu podobnych bardzo do siebie sza³asów. 
+~
+FlagsExt 0|H
+Sector 25
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10977
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10977
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10979
+Name ¦cie¿ka w osadzie~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11012
+ExitExtEnd
+Exit 0
+~
+VName Sza³as~
+~
+0 0 11012
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10974
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10974
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10980
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10980
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10980
+Name ¦cie¿ka w osadzie~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11011
+ExitExtEnd
+Exit 0
+~
+VName Sza³as~
+~
+0 0 11011
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10979
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10979
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10981
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10981
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10981
+Name Przed sza³asem wodza~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10995
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10995
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10980
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10980
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10983
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10983
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10982
+ExitExtEnd
+Exit 3
+~
+VName Sza³as~
+~
+0 0 10982
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10982
+Name Sza³as wodza~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10981
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 10981
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10983
+Name Miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10981
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10981
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10987
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10987
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10984
+Name Miêdzy sza³asami~
+Nightdescr Wszystko wskazuje na to, ¿e jeste¶ w wiosce barbarzyñców, znajduj±cej siê
+w bardzo mro¼nym klimacie. Otaczaj± ciê niewielkie, wykonane z chrustu
+sza³asy, prawie wogóle siê od siebie nie ró¿ni±ce. Przy jednym z sza³asów
+dostrzegasz niedu¿e palenisko, nad którym wysi jaki¶ kawa³ miêsa wydzielaj±c
+bardzo przyjemne zapachy.
+~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11006
+ExitExtEnd
+Exit 0
+~
+VName Sza³as~
+~
+0 0 11006
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10973
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10973
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10985
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10985
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10985
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10984
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10984
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11007
+ExitExtEnd
+Exit 2
+~
+VName Sza³as~
+~
+0 0 11007
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10986
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10986
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10986
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10987
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10987
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10985
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10985
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11008
+ExitExtEnd
+Exit 2
+~
+VName Sza³as~
+~
+0 0 11008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10988
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10988
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10987
+Name ¦cie¿ka przez osadê~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10983
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10983
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10986
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10986
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10988
+Name Miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10986
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10986
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10996
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10996
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10989
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10989
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10989
+Name ¦cie¿ka przez osadê~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10990
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10990
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10988
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10988
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11016
+ExitExtEnd
+Exit 2
+~
+VName Sza³as~
+~
+0 0 11016
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10990
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10991
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10991
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11009
+ExitExtEnd
+Exit 1
+~
+VName Sza³as~
+~
+0 0 11009
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10989
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10989
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10991
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10992
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10992
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11010
+ExitExtEnd
+Exit 1
+~
+VName Sza³as~
+~
+0 0 11010
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10990
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10990
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10992
+Name Przy sza³asach~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10993
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10993
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10991
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10991
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10993
+Name ¦cie¿ka przy sza³asie wodza~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10994
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10994
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10992
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10992
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10994
+Name ¦cie¿ka przy sza³asie wodza~
+FlagsExt 0|H
+Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10995
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10995
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10993
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10993
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10995
+Name ¦cie¿ka przy sza³asie wodza~
+FlagsExt 0|H
+Sector 2
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10981
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10981
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10994
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10994
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10996
+Name ¦cie¿ka przez osadê~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10988
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10988
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10997
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10997
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10997
+Name Osada barbarzyñców~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10996
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10996
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10998
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10998
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11015
+ExitExtEnd
+Exit 3
+~
+VName Sza³as~
+~
+0 0 11015
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10998
+Name Miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10999
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10999
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10997
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10997
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10999
+Name ¦cie¿ka w osadzie~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10998
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10998
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11000
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11000
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11014
+ExitExtEnd
+Exit 3
+~
+VName Sza³as~
+~
+0 0 11014
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11000
+Name Miêdzy sza³asami~
+FlagsExt 0|H
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11013
+ExitExtEnd
+Exit 0
+~
+VName Sza³as~
+~
+0 0 11013
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10969
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10969
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10999
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10999
+DayRDesc 10931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11001
+Name Sza³as szamana~
+FlagsExt 0|CH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10974
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 10974
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11002
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10968
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 10968
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11003
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10969
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 10969
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11004
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10971
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 10971
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11005
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10972
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 10972
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11006
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10984
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 10984
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11007
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10985
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 10985
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11008
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10986
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 10986
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11009
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10990
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 10990
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11010
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10991
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 10991
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11011
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10980
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 10980
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11012
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10979
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 10979
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11013
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11000
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 11000
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11014
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10999
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 10999
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11015
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10997
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 10997
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11016
+Name Sza³as~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10989
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 10989
+DayRDesc 10932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11017
+Name {DUkryte wej¶cie do jaskini{x~
+Descr To ukryte wej¶cie wygl±da raczej na naturalnie wyrze¼bion± jaskiniê ni¼li
+na specjalnie spreparowane, sekretne wej¶cie. Wygl±da na to, ¿e jest to
+jaka¶ czê¶æ naturalnych podziemi w tutejszych górach. Z wyj±tkowo pochy³ego
+sklepienia groty zwisaj± d³uga¶ne, ostre niczym k³y smoka stalaktyty, które,
+gdyby tylko kto¶ lub co¶ je zrzuci³o, podziurawi³y by ciê niczym sito.
+Gdzie¶ w pobli¿u musi znajdowaæ siê jaki¶ wodny zbiornik, gdy¿ z sufitu
+kapie woda i w ogóle jest tutaj wilgono. 
+~
+FlagsExt 0|AC
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8208
+ExitExtKey 0
+ExitExtToVnum 10944
+ExitExtEnd
+Exit 1
+~
+~
+8208 0 10944
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 11018
+ExitExtEnd
+Exit 3
+~
+~
+131072 0 11018
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11018
+Name {DW±ski korytarz w potwornie ciemnej jaskini{x~
+Descr Ta przera¿aj±ca, wyj±tkowo ciemna grota zdaje siê byæ jednym z
+najpaskudniejszych miejsc na ca³ym kontynencie. Okropnie tutaj cuchnie,
+jakim¶ grzybem lub czym¶ podobnym, z sufitu kapie brudna woda, a ka¿da
+ska³a, ka¿dy le¿±cy tutaj kamieñ jest obrzydliwie ob¶lizg³y. Na jednym z
+pobliskich stalagnatów kto¶ umie¶ci³ jaki¶ czarny znak, ciekawe co to jest.
+Nad twoj± g³ow± od czasu do czasu przelatuje jaki¶ w³ochaty nietoperz z
+ró¿owiutkimi uszami, miej nadzieje, ¿e nie ma ich tutaj zbyt du¿o. Musisz
+uwa¿aæ id±c na zachód, gdy¿ widaæ tam urwisko, które, s±dz±c po odg³osie
+uderzaj±cej wody o ska³y, jest korytem rw±cej rzeczki. 
+~
+FlagsExt 0|A
+Sector 15
+Extra znak~
+Ta pob³yskuj±ca, magiczna runa zdaje siê emanowaæ czarn± magi±. Nie wiesz
+jakim cudem, ale chyba wiesz co ona oznacza. Trzeba jej dotkn±æ. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 11017
+ExitExtEnd
+Exit 1
+~
+~
+131072 0 11017
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 11019
+ExitExtEnd
+Exit 3
+~
+~
+16 0 11019
+Roomprog input kabraxis_runa dotknij~
+Roomprog input kabraxis_runa przy³ó¿~
+Roomprog exit kabraxis_rzeka 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11019
+Name {DMa³a wnêka{x~
+Descr Ta niewielka wnêka w tutejszej jaskini to zapewne tak¿e dzie³o si³
+natury. Takie wnêki powstaj± zwykle przez podmywanie lub wietrzenie ska³,
+choæ ze wzglêdu na to, i¿ miejscowe góry sk³adaj± siê g³ównie z granitu, to
+jednak zdecydowanie bardziej prawdopodobne jest to pierwsze. Z drugiej za¶
+strony, wnêka ta to idealnie wyciêta, czwarta czê¶æ kuli, co ¶wiadczy o tym,
+¿e kto¶ tej naturze musia³ pomagaæ. Rozpadaj±ce siê, kamienne stopnie
+prowadz±ce w dó³ rozwiewaj± wszelkie w±tpliwo¶ci. 
+~
+FlagsExt 0|Aa
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 11018
+ExitExtEnd
+Exit 1
+~
+~
+16 0 11018
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11020
+ExitExtEnd
+Exit 5
+~
+~
+0 0 11020
+Roomprog exit kabraxis_runa2 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11020
+Name {DStaro¿ytna, ukryta krypta{x~
+Descr Kamienne stopnie przywiod³y ciê z góry wprost do jakiej¶ pradawnej
+krypty. Wszêdzie wokó³ porozrzucane s± jakie¶ ksi±¿ki, zapiski, pogniecione
+pergaminy i po³amane gliniane tabliczki w niezrozumia³ych jêzykach. Pod
+¶cianami stoj± zbutwia³e rega³y wygiête ju¿ pod ciê¿arem opas³ych tomów, a
+na ¶rodku pokoju stoi pomalowany na czarno, okr±g³y stolik z wymalowanym na
+nim kole z sze¶cioramienn± gwiazd± opatrzon± jakimi¶ runami. Jest tutaj
+bardzo ciemno, ale osobie która tutaj mieszka raczej to nie przeszkadza,
+gdy¿ nie ma tutaj ¿adnych ¼róde³ ¶wiat³a, b±d¼ te¿ jego ¶ladów. 
+~
+FlagsExt 0|CFIac
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11019
+ExitExtEnd
+Exit 4
+~
+~
+0 0 11019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11021
+Name {DDno rw±cej rzeczki{x~
+Descr Lecisz w dó³, a¿ w koñcu uderzasz z ogromnym impetem w skaliste dno
+rw±cej rzeczki. Tu¿ pod jej powierzchni± czeka³ na ciebie ostry stalaktyt,
+który przebija ciê na wylot! 
+~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11022
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+M 10953 spec_nasty
+S
+
+
+
+#RESETS
+M 100 10935 2 10932 2
+M 100 10935 2 10938 2
+M 100 10946 1 10939 1
+O 100 10937 0 10949
+M 100 10932 1 10951 1
+M 100 10931 3 10953 3
+E 100 10932 0 16
+G 100 10934 0
+E 100 3029 0 5
+M 100 10931 3 10955 3
+E 100 10932 0 16
+G 100 10933 0
+E 100 3029 0 5
+M 100 10931 3 10957 3
+E 100 10932 0 16
+G 100 10935 0
+E 100 3029 0 5
+O 100 10940 0 10958
+P 100 10939 1 10940 1
+O 100 10940 0 10959
+P 100 10939 1 10940 1
+O 100 10940 0 10960
+P 100 10939 1 10940 1
+O 100 10938 0 10961
+P 100 10939 1 10938 1
+M 100 10933 1 10961 1
+M 100 10937 4 10967 4
+M 100 10938 8 10969 8
+M 100 10938 8 10971 8
+M 100 10937 4 10972 4
+M 100 10938 8 10974 8
+O 100 10960 0 10976
+M 100 10939 6 10979 6
+M 40 10941 1 10982 1
+M 100 10944 4 10982 4
+M 100 10945 4 10982 4
+M 100 10940 6 10983 6
+M 100 10943 4 10985 4
+M 100 10939 6 10988 6
+M 100 10940 6 10989 6
+M 100 10938 8 10990 8
+M 100 10943 4 10991 4
+M 100 10938 8 10992 8
+M 100 10939 6 10993 6
+M 100 10943 4 10994 4
+M 100 10940 6 10998 6
+M 100 10942 1 11001 1
+E 100 3001 0 8
+E 100 3018 0 5
+E 100 3318 0 11
+M 100 10944 4 11003 4
+M 100 10944 4 11005 4
+M 100 10944 4 11007 4
+M 100 10945 4 11010 4
+M 100 10945 4 11012 4
+M 100 10945 4 11016 4
+M 100 10953 1 11020 1
+E 100 4406 0 6
+E 100 4398 0 9
+E 100 3057 0 7
+E 100 14036 0 12
+S
+
+
+
+#MOBPROGSNEW
+#10932
+~
+mob cast plague $n 40
+~
+#10933
+~
+if rand 80
+mob oload body 7
+wear all
+else
+endif
+~
+#10934_demons
+Program s³u¿y do ubieranie demonów przyzywanych przez Ymxahirativrê.
+~
+# broñ
+if rand 50
+  if rand 50
+    mob equip self 3179
+  else
+    mob equip self 3158
+  endif
+else
+  if rand 50
+    mob equip self 3161
+  else
+    mob equip self 3157
+  endif
+endif
+
+# tarcza
+if rand 10
+  if rand 50
+    if rand 50
+      mob equip self 3366
+    endif
+  else
+    if rand 50
+      mob equip self 3367
+    else
+      mob equip self 3368
+    endif
+  endif
+endif
+
+#pancerz
+if rand 50
+  if rand 50
+    mob equip self 3025
+  else
+    mob equip self 3018
+  endif
+else
+  if rand 50
+    mob equip self 3029
+  endif
+endif
+
+#he³m
+if rand 50
+  if rand 50
+    mob equip self 3045
+  else
+    mob equip self 3045
+  endif
+endif
+
+# dodatki
+if rand 50
+  mob oload gem 2
+endif
+if rand 50
+  mob oload gem 3
+endif
+if rand 90
+  mob oload ring 1
+endif
+if rand 90
+  mob oload ear 1
+endif
+if rand 90
+  mob oload legs 1
+endif
+~
+#10934_fight
+~
+# sprawd¼ obecno¶æ mobików przywo³anych
+if !hasflag $i 10934_fight
+if mobhere 10948
+  mob setflag $i 10934_fight 3
+endif
+if mobhere 10949
+  mob setflag $i 10934_fight 2
+endif
+if mobhere 10947
+  mob setflag $i 10934_fight 4
+endif
+if mobhere 10950
+  mob setflag $i 10934_fight 5
+endif
+endif
+# pstrykaj plcami demonico!
+if !hasflag $i 10934_fight
+  mob echo $i pstryka palcami.
+  # dodaj impa
+  if rand 50
+    mob addgroup 10949
+    if rand 50
+      mob addgroup 10949
+    endif
+  endif
+  # dodaj pomniejszego demona
+  if rand 60
+    mob addgroup 10947
+    if rand 60
+      mob addgroup 10947
+    endif
+  endif
+  # dodaj mniejszego demona
+  if rand 70
+    mob addgroup 10948
+    if rand 70
+      mob addgroup 10948
+    endif
+  endif
+  # dodaj Wegaart oraz ustaw czas nastêpnego przywo³ania
+  if rand 80
+    mob addgroup 10950
+    mob setflag $i 10934_fight 10
+  else
+    mob setflag $i 10934_fight 2
+  endif
+endif
+~
+#10934_onload
+~
+#zaglada dusz
+if canloadarte 10931
+  mob aload 10931 W
+else
+  mob equip self 3165
+endif
+
+#planacy pasek
+if canloadarte 10951
+  if rand 99
+    mob aload 10951 W
+  endif
+endif
+
+mob equip ymxa 10955
+if rand 50
+  mob equip ymxa 234
+endif
+if rand 50
+  mob equip ymxa 274
+endif
+if rand 50
+  if rand 50
+    mob equip ymxa 268
+  else
+    mob equip ymxa 269
+  endif
+else
+  if rand 50
+    mob equip ymxa 519
+  endif
+endif
+
+#rozdzka kompresji
+if canloadarte 10956
+  if rand 80
+    mob aload 10956 w
+  endif
+endif
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 8
+mob oload gem 8
+if rand 50
+  mob oload gem 7
+endif
+if rand 50
+  mob oload gem 7
+endif
+if rand 50
+  mob oload gem 7
+endif
+if rand 50
+  mob oload gem 7
+endif
+if rand 50
+  mob oload gem 8
+endif
+if rand 90
+  mob oload 176
+endif
+mob oload gem 7
+mob oload gem 6
+~
+#10934_pal
+~
+if hasflag $i palka
+  end
+endif
+
+mob echo $i wykonuje kilka gwa³townych gestów w powietrzu. Nagle co¶ rozb³yska w dalekim rogu pokoju, którego do tej pory nie by³<&e¶/a¶/o¶> w stanie dostrzec. Powietrze rozdziera bolesny, nieludzki jêk i na polu walki pojawia siê odziany w widmow± zbrojê duch.
+mob addgroup 10951
+mob setflag $i palka -1
+~
+#10936
+~
+if rand 50
+  mob oload weapon 7
+else
+  mob oload random 6
+endif
+~
+#10937
+~
+if rand 50
+mob equip self 3300
+else
+mob equip self 3356
+endif
+if rand 75
+mob oload gem 2
+else
+endif
+mob equip self 3018
+mob equip self 3001
+~
+#10938
+~
+if rand 95
+mob equip self 3172
+mob equip self 3172 hold
+else
+if rand 50
+mob equip self 3300
+else
+mob equip self 3127
+endif
+endif
+if rand 50
+mob oload gem 2
+else
+endif
+mob equip self 3018
+mob equip self 3001
+~
+#10939
+~
+if rand 66
+mob equip self 3356
+else
+if rand 50
+mob equip self 3300
+else
+mob equip self 3127
+endif
+endif
+if rand 66
+mob oload gem 2
+else
+endif
+mob equip self 3018
+mob equip self 3001
+~
+#10941
+~
+if rand 66
+  mob equip self 3356
+else
+  if rand 50
+    mob equip self 3300
+  else
+    mob equip self 3127
+  endif
+endif
+mob oload gem 5
+mob equip self 3018
+mob equip self 3001
+mob oload weapon 5
+if rand 50
+  mob oload gem 5 
+endif
+if rand 60
+  mob oload gem 4
+endif
+if rand 50
+  mob oload gem 3
+endif
+mob oload gem 2
+mob oload gem 2
+mob oload gem 1
+if rand 33
+  mob oload neck 6
+endif
+if rand 33
+  mob oload finger 5 
+endif
+if rand 50
+  mob oload wrist 4 
+endif
+if rand 40
+  mob oload neck 3 
+endif
+mob oload wrist 2 
+mob oload finger 2
+mob oload neck 1 
+
+if rand 90
+  mob equip self 200
+endif
+if rand 97
+  mob equip self 5832
+endif
+~
+#10942
+~
+mob equip self 3297
+if rand 75
+  mob oload head 5
+else
+  if rand 66
+    mob oload legs 5
+  else
+    if rand 50
+      mob oload hands 5
+    else
+      mob oload arms 5
+    endif
+  endif
+endif
+wear all
+~
+#10943
+~
+mob equip self 3296
+mob equip self 3018
+mob equip self 3001
+if rand 80
+mob oload gem 1
+else
+endif
+~
+#10951
+~
+mob cast 'holy weapons' $n 27
+~
+#10952
+~
+'Aaah!! nareszcie! dziêkujê wam za wolno¶æ, nieznajomi, W koñcu ta okrutna istota otrzyma³a to, na co zas³u¿y³a. Jedyny sposób, w jaki mogê siê odwdziêczyæ to przekazanie czê¶ci mojej wiedzy godnym nastêpcom. ¦pieszcie siê jednak, bo Ashineru wzyma mnie ju¿ w swe objêcia.
+delay 80
+mob echo Dusza staro¿ytnego paladyna znika w rozb³ysku ¶wiat³a.
+mob purge self
+~
+#10953
+~
+$_randomek = int_random 1 5
+if !hasflag $n reg_nekro_quest
+  hmm $n
+  tell $n Nie pamiêtam ciebie, wybacz
+  break
+endif
+if charflag $n reg_nekro_quest >= 50
+  mob echoat $n dotyka twej skroni, czujesz lekkie mrowienie gdzie¶ za czo³em.
+  mob echoaround $n Arail Kabraxis dotyka skroni $z mru¿±c oczy.
+  tell $n Doskonale, jestem z ciebie naprawdê dumny!
+  tell $n Nareszcie kto¶ sieje w okolicznych krainach ¶mieræ, po¿ogê i zniszczenie!
+  tell $n Zas³u¿y³e¶ na nagrodê!
+  mob modflag $n mod reg_nekro_quest -49
+  mob modflag $n mod reg_pomogl_nekro_razy +1
+  mob reward $n silver 150
+  mob echoat $n Arail Kabraxis rzuca przed ciebie malutki mieszek wype³niony srebrem. Naliczy³e¶ 150 monet.
+  mob echoaround $n Arail Kabraxis rzuca przed $z malutki mieszek wype³niony srebrem, a ten ³apczywie go podnosi.
+  mob reward $n exp 45000
+  mob echoat $n {GCzujesz siê minimalnie bardziej do¶wiadczony!{x
+  # czy pomóg³ odpowiedni± ilo¶æ razy
+  if charflag $n reg_pomogl_nekro_razy < 4
+    tell $n Id¼ mordowaæ dalej, to jeszcze nie koniec!
+    emote wraca do swojej pracy.
+  else
+    tell $n Mam tutaj dla ciebie co¶ specjalnego z mojej prywatnej biblioteczki
+    mob oload 10957
+    give ksiega $n
+    tell $n Id¼ mordowaæ dalej, to jeszcze nie koniec!
+    emote wraca do swojej pracy.
+  endif
+else
+  mob echoat $n dotyka twej skroni, czujesz lekkie mrowienie gdzie¶ za czo³em.
+  mob echoaround $n Arail Kabraxis dotyka skroni $z mru¿±c oczy.
+  tell $n To zdecydowanie za ma³o! Wróæ jak zabijesz ich wiêcej!
+endif
+~
+#kabraxis1
+~
+if hasflag $n niechial_wziac_nekro_questa
+  tell $n Wybacz, ale nie chcia³e¶ mi pomóc! Odejd¼, pókim cierpliwy!
+  mob force $n up
+  break
+endif
+if hasflag $n reg_nekro_quest
+  mob echoat $n Nekromanta wita ciê skinieniem g³owy.
+  tell $n Dobrze ciê widzieæ, mistrzu $b!
+  delay 5
+  tell $n Je¶li ZABI£E¦ jakich¶ ³owców, barbarzyñców b±d¼ stra¿ników,
+  tell $n koniecznie poinformuj mnie o tym, a nagroda ciê nie ominie
+  break
+endif
+if isevil $n
+and class $n mag
+  emote odrywa siê od prastarej ksiêgi i zaczyna mówiæ do ciebie suchym, mro¿±cym krew w ¿y³ach g³osem.
+  tell $n Witaj, mistrzu $b!
+  tell $n Czujê, ¿e bije od ciebie mroczna, magiczna aura, czy¿ nie mam racji?
+  :pytanieonekro
+  responsedelay 10 "tak" "nie"
+  if !ishere $n
+    break
+  endif
+  if response 0
+    tell $n Odpowiesz mi w koñcu? Ma cierpliwo¶æ ma granice!
+    goto pytanieonekro
+  endif
+  if response 1
+    tell $n Wiem, potrafiê wyczuæ ludzi
+    goto dalszaczescnekro
+  endif
+  if response 2
+    tell $n Nie kpij sobie ze mnie, bo spotka ciê co¶ bardzo niemi³ego!
+    tell $n Przejd¼my jednak dalej adepcie...
+    goto dalszaczescnekro
+  endif
+  :dalszaczescnekro
+  if !ishere $n
+    break
+  endif
+  tell $n Od dawien dawna muszê ukrywaæ siê tutaj przed zakonem ³owców czarnoksiê¿ników
+  tell $n I nie mogê wyj¶æ na powierzchniê, gdy¿ natychmiast mnie zlokalizuj±...
+  tell $n A otaczaj±ce krainy ju¿ dawno nie spotka³o nic z³ego, nic strasznego!
+  minidelay 4
+  tell $n Mam dla ciebie zadanie, nieomieszkam, ¿e ca³kiem powa¿ne
+  tell $n Od dawien dawna chcia³em zatrudniæ jednego z nas, nekromantów
+  tell $n By spe³nia³ dla mnie ró¿ne zadania, oczywi¶cie nie za darmo
+  minidelay 2
+  tell $n $n, zostañ moim uczniem, powiedz, ¿e CHCESZ!
+  tell $n Jeste¶ mi bardzo potrzebny!
+  :pytanieochcice
+  responsedelay 10 "chcê" "nie chcê" "nie" "tak"
+  if response 0
+    tell $n To jak, chcesz zostaæ moim uczniem?
+    goto pytanieochcice
+  endif
+  if response 1
+  or response 4
+    tell $n Wspaniale! Bierzmy siê do pracy, mistrzu $b!
+    tell $n Mój plan jest prosty, zabij odpowiedni± liczbê dobrych,
+    tell $n b±d¼ neutralnych mieszkañców tutejszych gór,
+    tell $n to jest barbarzyñców, ³owców b±d¼ stra¿ników Easterial
+    tell $n wróæ do mnie i powiedz, ¿e DOKONA£E¦ zleconego MORDU!
+    mob setflag $n reg_nekro_quest 1
+    mob setflag $n reg_pomogl_nekro_razy 1
+  endif
+  if response 2
+  or response 3
+    tell $n A zatem wyno¶ siê st±d niewdziêczniku! Nie chcê ciê wiêcej widzieæ!
+    mob setflag $n niechial_wziac_nekro_questa -1
+    if pos $n sitting
+    or pos $n resting
+      mob force $n stand
+    endif
+    mob force $n up
+    break
+  endif
+endif
+~
+#kabraxis_kill_1
+~
+mob echo $in nie ¿yje!!
+mob echo $in pada na ziemiê... MARTWY.
+foreachingroup $n
+  if isnpc $n
+    nextfor
+  endif
+  if !hasflag $n reg_nekro_quest
+    nextfor
+  endif
+  mob modflag $n mod reg_nekro_quest +1
+endfor
+~
+#kabraxis_kill_2
+~
+mob echo $in nie ¿yje!!
+mob echo $in pada na ziemiê... MARTWY.
+foreachingroup $n
+  if isnpc $n
+    nextfor
+  endif
+  if !hasflag $n reg_nekro_quest
+    nextfor
+  endif
+  mob modflag $n mod reg_nekro_quest +2
+endfor
+~
+#kabraxis_kill_3
+~
+if vnum $i == 10941
+mob oload 10958 r
+endif
+mob echo $in nie ¿yje!!
+mob echo $in pada na ziemiê... MARTWY.
+foreachingroup $n
+  if isnpc $n
+    nextfor
+  endif
+  if !hasflag $n reg_nekro_quest
+    nextfor
+  endif
+  mob modflag $n mod reg_nekro_quest +3
+endfor
+~
+#ymxa_zgon
+~
+mob echo $in nie ¿yje!!
+mob echo $in pada na ziemiê... MARTWA.
+
+if mobhere 10951
+  mob echo Nagle wokó³ staro¿ytnego ducha paladyna rozb³yska czarna aura, która powoli siê rozwiewa i ustêpuje miejsce bia³emu ¶wiat³u.
+  mob purge palikymxy123
+  mob mload 10952
+endif
+~
+#0
+
+#OBJPROGSNEW
+#10931
+~
+mob echoat $n Czujesz jak mrok laski '{DZag³ada Dusz{x' ogarnia twe cia³o i przywi±zuje siê do niego.
+mob echoaround $n Potê¿na mroczna aura chwilowo rozb³yskuje dooko³a $z.
+~
+#10932
+~
+if varisnull $n
+break
+endif
+if ispc $n  
+  mob echoat $n Trzymana przez ciebie laska 'Zaglada Dusz' migocze przez chwilê  i wysysa z ciebie energie ¿yciowa, po czym zaczyna swiecic intensywniejsz± czerni±.
+  mob echoaround $n Trzymana przez $c laska 'Zaglada Dusz' migocze przez chwilê,  po czym widzisz jak $n skrzywia siê bole¶nie, a laska zaczyna ¶wiecic intensywniejsz± czernia.
+  mob damage $n 10 30
+endif
+~
+#10938
+~
+if statstr $n > 23
+mob echo Wielka p³yta sarkofagu z hukiem spada na ziemiê, po czym nastêpuje grobowa cisza.
+delay 1
+mob echo Nagle czujesz jak jaka¶ potê¿na mroczna energia zaczyna wype³niaæ salê.
+delay 1
+mob echo Sarkofag zaczyna ¶wieciæ przedziwnym czarnym ¶wiat³em, a z jego wnêtrza unosi siê purpurowy dym.
+delay 1
+mob echo W powietrzu rozlega siê ¶widruj±cy uszy wrzask, a sarkofagu wy³ania siê piêkne i straszne zarazem nagie cia³o kobiety - demona tanar'ri.
+minidelay 1
+mob mload 10934
+mob force Ymxahirativra 'Kto ¶mia³ mnie obudziæ przed wyznaczonym czasem?
+mob force Ymxahirativra 'Poczujecie mój gniew!
+mob open sarkofag
+else
+mob echoat $n Mocujesz siê z pokryw± sarkofagu, ale ta jest dla ciebie zbyt ciê¿ka.
+mob echoaround $n $n mocuje siê z pokryw± sarkofagu, ale po chwili daje za wygran±.
+mob close sarkofag
+endif
+wicia
+~
+#10940
+~
+if statstr $n > 22
+mob echo Kamienna pokrywa sarkofagu spada z hukiem na ziemiê.
+delay 1
+mob echo Z sarkofagu dobiega dziwny, przyt³umiony jêk, po czym twoim oczom ukazuj± siê d³ugie obanda¿owane rêce.
+delay 1
+mob echo Wielka mumia wychodzi z sarkofagu.
+mob mload 10936
+mob open sarkofag
+else
+mob echoat $n Mocujesz siê z pokryw± sarkofagu, ale ta jest dla ciebie zbyt ciê¿ka.
+mob echoaround $n $n mocuje siê z pokryw± sarkofagu, ale po chwili daje za wygran±.
+mob close sarkofag
+endif
+~
+#10941
+~
+mob echoat $n Nie mo¿esz tego zamkn±æ.
+mob echoaround $n $n podchodzi do sarkofagu, ogl±da go przez chwilkê, po czym wzrusza ramionami.
+mob open sarkofag
+~
+#gurthg_serce
+~
+mob echo S³yszysz g³o¶ne bicie serca wydobywaj±ce siê z pomnika.
+~
+#laska_test
+~
+if $n == null
+say aha, jest null
+else
+say nie jest null
+end
+~
+#0
+
+#ROOMPROGSNEW
+#10931
+~
+mob echo Nagle twe cia³o okrywa mro¼ny podmuch wiatru, a towarzyszy temu tylko mistyczna cisza.
+~
+#10932
+~
+mob echo Zawirowania staro¿ytnej magicznej aury przeszywaj± powietrze rozb³yskuj±c na chwilkê ¶wiat³em.
+~
+#10961
+~
+mob exit pó³noc delete
+mob exit po³udnie delete
+mob exit wschod delete
+if rand 66
+mob exit wschod link 10959
+else
+if rand 50
+mob exit po³udnie link 10958
+else
+mob exit pó³noc link 10960
+endif
+endif
+~
+#10962
+Szczelina. Nie zmieniac opisow !
+
+~
+if affected $n flying
+  mob echoat $n Zaciekawiony co mo¿e znajdowaæ siê na dnie szczeliny wlatujesz do niej, jednak widz±c, ¿e nic specjalnego tu nie ma, wracasz z powrotem na górê.
+  mob transfer $n 10939
+else
+  mob echoat $n Zaciekawiony co mo¿e znajdowaæ siê na dnie szczeliny skaczesz w przepa¶æ. Po chwili lotu orientujesz siê, ¿e mo¿e nie by³ to najlepszy pomys³. Coraz szybciej spadasz w dó³, a dna rozpadliny nie widaæ. W koñcu twoje cia³o nie jest w stanie wytrzymaæ ci¶nienia i prêdko¶ci, które to mia¿dz± tw± czaszkê...
+  mob damage $n 2000 2000 kill
+endif
+~
+#kabraxis_runa
+~
+if hasflag $n wcisnal_rune_nekro
+  mob echoat $n Ju¿ jeste¶ pod jej dzia³aniem!
+  break
+endif
+mob echoat $n Ukradkiem wciskasz magiczn± runê tak, aby nikt tego nie zobaczy³.
+mob setflag $n wcisnal_rune_nekro -1
+~
+#kabraxis_runa2
+~
+if hasflag $n wcisnal_rune_nekro
+  mob echoaround $n $n przeszed³ magicznymi stopniami nad rw±c± rzeczk± na wschodzie.
+  mob removeflag $n wcisnal_rune_nekro
+  mob transfer $n 11018
+  mob at 11018 mob echoaround $n $n w³a¶nie przeszed³ magicznymi stopniami z zachodu.
+  mob at 11018 mob echoat $n Czujesz, ¿e moc magicznej runy wygas³a.
+else
+  mob echoat $n Je¶li tam pójdziesz to wpadniesz do rw±cej rzeczki!
+endif
+~
+#kabraxis_rzeka
+~
+if affected $n fly
+  mob echoaround $n $n odlatuje na zachód.
+  mob transfer $n 11019
+  mob at 11019 mob echoaround $n $n w³a¶nie przylecia³ ze wschodu.
+  break
+endif
+if hasflag $n wcisnal_rune_nekro
+  mob echoaround $n $n odchodzi po magicznych stopniach na zachód.
+  mob transfer $n 11019
+  mob at 11019 mob echoaround $n $n w³a¶nie przyszed³ po magicznych stopniach ze wschodu.
+  break
+endif
+mob echoat $n Skaczesz wprost do rw±cej rzeczki!
+mob echoaround $n $n skacze wprost do rw±cej rzeczki!
+mob transfer $n 11021
+mob at 11021 mob damage $n 5000 5000 gorst!
+~
+#zrodlo
+~
+mob reward $n wait 30
+mob echoat $n Wchodzisz do gor±cego ¼ród³a i oddajesz siê rozkosznej k±pieli.
+mob echoaround $n $n Wchodzi do gor±cego ¼ród³a i oddaje siê rozkosznej k±pieli.
+minidelay 5
+mob echoat $n Z wielk± przyjemno¶ci± przeci±gasz siê w ciep³ej wodzie. Taaak, tego by³o Ci trzeba!
+mob echoaround $n $n Z wielk± przyjemno¶ci± przeci±ga siê w wodzie.
+minidelay 3
+mob reward $n move 20
+~
+#0
+
+#TRAPS
+#Vnum 10953
+Active 1
+Level 7
+Type 2
+Triggered mob echoat $n Pewny siebie otwierasz drzwi, po czym b³yskawicznie opada na ciebie ohydna zgni³ozielona chmura!
+mob echoaround $n $n otwiera drzwi, po czym b³yskawicznie $ns cia³o zostaje otoczone ochydn± zgni³ozielon± chmur±!
+mob cast poison $n 40
+mob cast poison $n 40
+mob cast plague $n 40
+mob cast plague $n 40
+mob cast plague $n 40
+mob cast plague $n 40
+mob addaff $n strength -5 11
+mob cast flamestrike $n 50
+~
+Disarmed mob echoat $n Ostro¿nie zbli¿asz siê do drzwi, b³yskawicznie lokalizujesz ¼ród³o zagro¿enia, jakim jest niewielki czarny zaczep u ich spodu. Kilka szybkich ruchów i zaczep l±duje w k±cie, a droga jest ju¿ bezpieczna.
+mob echoaround $n $n ostro¿nie podchodzi do drzwi, klêka i majstruje cos przy nich. Po chwili odrzuca w k±t jaki¶ czarny kawa³ek metalu i z dum± powstaje na nogi.
+~
+Failed mob echoat $n Ostro¿nie zbli¿asz siê do drzwi, jednak nie udaje ci siê bezpiecznie zwolniæ niewielkiego czarnego zaczepu.
+mob echoaround $n $n ostro¿nie podchodzi do drzwi, majstruje cos przy nich, jednak po chwili odchodzi zrezygnowany.
+~
+Limit 1381392
+Trapend
+#Vnum 10955
+Active 1
+Level 7
+Type 2
+Triggered mob echoat $n Pewny siebie otwierasz drzwi, po czym b³yskawicznie opada na ciebie ohydna zgni³ozielona chmura!
+mob echoaround $n $n otwiera drzwi, po czym b³yskawicznie $ns cia³o zostaje otoczone ochydn± zgni³ozielon± chmur±!
+mob cast 'energy drain' $n 40
+mob cast 'energy drain' $n 40
+mob cast 'energy drain' $n 40
+mob cast 'energy drain' $n 40
+mob cast 'energy drain' $n 40
+mob cast 'energy drain' $n 40
+mob cast 'energy drain' $n 40
+mob cast 'feeblemind' $n 40
+mob cast 'feeblemind' $n 40
+mob clearmem $n all
+mob clearmem $n all
+mob damageex $n 8 120 200 gin
+~
+Disarmed mob echoat $n Ostro¿nie zbli¿asz siê do drzwi, b³yskawicznie lokalizujesz ¼ród³o zagro¿enia, jakim jest niewielki czarny zaczep u ich spodu. Kilka szybkich ruchów i zaczep l±duje w k±cie, a droga jest ju¿ bezpieczna.
+mob echoaround $n $n ostro¿nie podchodzi do drzwi, klêka i majstruje cos przy nich. Po chwili odrzuca w k±t jaki¶ czarny kawa³ek metalu i z dum± powstaje na nogi.
+~
+Failed mob echoat $n Ostro¿nie zbli¿asz siê do drzwi, jednak nie udaje ci siê bezpiecznie zwolniæ niewielkiego czarnego zaczepu.
+mob echoaround $n $n ostro¿nie podchodzi do drzwi, majstruje cos przy nich, jednak po chwili odchodzi zrezygnowany.
+~
+Limit 1381392
+Trapend
+#Vnum 10957
+Active 1
+Level 7
+Type 2
+Triggered mob echoat $n Pewny siebie otwierasz drzwi, po czym b³yskawicznie opada na ciebie ohydna zgni³ozielona chmura!
+mob echoaround $n $n otwiera drzwi, po czym b³yskawicznie $ns cia³o zostaje otoczone ohydn± zgni³ozielon± chmur±!
+mob addaff $n dexterity -10 11
+mob addaff $n strength -10 11
+mob addaff $n constitution -10 11
+mob addaff $n intelligence -10 11
+mob addaff $n wisdom -10 11
+mob addaff $n luck -10 11
+mob addaff $n charisma -10 11
+mob damageex $n 8 120 200 gin
+~
+Disarmed mob echoat $n Ostro¿nie zbli¿asz siê do drzwi, b³yskawicznie lokalizujesz ¼ród³o zagro¿enia, jakim jest niewielki czarny zaczep u ich spodu. Kilka szybkich ruchów i zaczep l±duje w k±cie, a droga jest ju¿ bezpieczna.
+mob echoaround $n $n ostro¿nie podchodzi do drzwi, klêka i majstruje cos przy nich. Po chwili odrzuca w k±t jaki¶ czarny kawa³ek metalu i z dum± powstaje na nogi.
+~
+Failed mob echoaround $n $n ostro¿nie podchodzi do drzwi, majstruje cos przy nich, jednak po chwili odchodzi zrezygnowany.
+mob echoat $n Ostro¿nie zbli¿asz siê do drzwi, jednak nie udaje ci siê bezpiecznie zwolniæ niewielkiego czarnego zaczepu.
+~
+Limit 1381392
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 10932
+DescRand #grouprand 5
+#grouprand 15
+#grouprand 25
+~
+RandDescEnd
+#Vnum 10931
+DescRand #grouprand 0
+#grouprand 10
+#grouprand 20
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name sza³as_koniec_02~
+Desc Mróz tutaj panuj±cy przeszywa twe cia³o na wskro¶ i wywo³uje dreszcze.
+~
+Group 25
+End
+#Name sza³as_koniec_01~
+Desc Na ¶rodku pomieszczenia znajduj± siê trzy u³o¿one z li¶ci pos³ania.
+~
+Group 25
+End
+#Name sza³as_¶rodek_3~
+Desc W k±cie sza³asu le¿y przykryte skór± miêso, przechowywane tak raczej sie nie zepsuje gdy¿ zimno panuje tutaj straszne.
+~
+Group 15
+End
+#Name sza³as_¶rodek_2~
+Desc Sza³as wype³niony jest susz±cymi siê ¶wie¿o garbowanymi skórami nied¼wiedzi polarnych i ¶nie¿nych wilków.
+~
+Group 15
+End
+#Name sza³as_¶rodek_1~
+Desc Rozgl±daj±c siê dooko³a widzisz porozrzucane po pod³odze rze¼bione w ko¶ci figurki ludzi i zwierz±t, pewnie jakie¶ dziecko zgubi³o swoje zabawki.
+~
+Group 15
+End
+#Name sza³as_poczatek_02~
+Desc Jeste¶ w ¶rodku niewielkiego barbarzyñskiego sza³asu, jednego z wielu w tej osadzie.
+~
+Group 5
+End
+#Name sza³as_poczatek_01~
+Desc Znajdujesz siê wewn±trz niskiego sza³asu wykonanego z chrustu, otrzymywanego po osuszaniu nad paleniskami tundrowych krzewów.
+~
+Group 5
+End
+#Name wioska_koniec_03~
+Desc Przy jednym z sza³asów dostrzegasz niedu¿e palenisko, nad którym wysi jaki¶ kawa³ miêsa wydzielaj±c bardzo przyjemne zapachy.
+~
+Group 20
+End
+#Name wioska_koniec_02~
+Desc Zimny pó³nocny wiatr, przynosz±cy ze sob± ¶wie¿e p³atki ¶niegu, mrozi twe ko¶ci.
+~
+Group 20
+End
+#Name wioska_koniec_01~
+Desc Przy kilku sza³asach zauwa¿asz rozwieszone, na wpó³ wygarbowane skóry zwierz±t, g³ównie nied¼wiedzi polarnych i ¶nie¿nych wilków, a tak¿e kilka skór yeti.
+~
+Group 20
+End
+#Name wioska_szalasy_03~
+Desc Osada sk³ada siê z kilkudziesiêciu bardzo do siebie podobnych sza³asów, wykonanych z chrustu, otrzymywanego pewnie po osuszeniu nad ogniem rosn±cych wszêdzie tundrowych krzaczków
+~
+Group 10
+End
+#Name wioska_szalasy_02~
+Desc Rozgl±daj±c siê widzisz wiele niedu¿ych, wybudowanych z chrustu po tundrowych krzewach, sza³asów, które wygl±dem z pewno¶ci± siê nie ró¿ni±.
+~
+Group 10
+End
+#Name wioska_szalasy_01~
+Desc Otaczaj± ciê niewielkie, wykonane z chrustu sza³asy, prawie wogóle siê od siebie nie ró¿ni±ce.
+~
+Group 10
+End
+#Name wioska_poczatek_03~
+Desc Stoisz w niewielkiej, przysypanej tundrowym ¶niegiem wiosce barbarzyñców.
+~
+Group 0
+End
+#Name wioska_poczatek_02~
+Desc Wszystko wskazuje na to, ¿e jeste¶ w wiosce barbarzyñców, znajduj±cej siê w bardzo mro¼nym klimacie.
+~
+Group 0
+End
+#Name wioska_poczatek_01~
+Desc Znajdujesz siê w niedu¿ej osadzie barbarzyñców po³o¿onej bardzo daleko na pó³nocy.
+~
+Group 0
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

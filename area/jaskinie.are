@@ -1,0 +1,1286 @@
+#AREADATA
+Name {DPodmrok{X: Ponure jaskinie~
+Builders Podmrok  r Laszlo Seinar~
+VNUMs 11771 11800
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 11771
+Name ma³a czerw~
+Odmiana ma³ej czerwi~ma³ej czerwi~ma³± czerw~ma³± czerwi±~ma³ej czerwi~
+Short ma³a czerw~
+Long Malutka czerw pl±cze siê pod nogami.~
+Descr ~
+Race czerw~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 0
+HP 2d20+60
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack gryzienie
+XAC 10 10 10 10
+Stats 96 78 78 102 78 78 78
+Off FY
+OffExt 0|FY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AGR
+Parts A
+Size small
+Material unknown
+MobprogNew death regczerw_zabil ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 11800
+Name olbrzymia czerw boss ~
+Odmiana olbrzymiej czerwi~olbrzymiej czerwi~olbrzymi± czerw~olbrzymi± czerwi±~olbrzymiej czerwi~
+Short olbrzymia czerw~
+Long Olbrzymia czerw kroczy mozolnie po swojej komnacie.~
+Descr Olbrzymi czerw wygl±da³by z daleka jak bia³y pêdrak, a¿ ¿a³ujesz, ¿e
+stoisz tak blisko. W rzeczywisto¶ci bowiem przypomina raczej wielko¶ci±
+ma³ego wieloryba. Jego b³yszcz±cy odw³ok mieni siê na per³owo, a pod skór±
+dostrzegasz szerokie naczynia, które pulsacyjnie prowadz± zielone soki do
+ka¿dego odcinka odw³oka. Poszczególne segmenty cia³a wydaj± siê napompowane,
+jakby kto¶ z³o¿y³ robaka z puszystych bia³ych pierscieni. Na trzech
+pierwszych i trzech ostatnich segmentach cia³a znajduje siê po piêæ par
+czarnych odnó¿y, którymi czerw porusza siê w korytarzach. Wyra¼nie
+kontrastuj± kolorem z biel± odw³oka i wydaja siê ma³e w porównaniu z reszt±.
+Tym niemniej przy kopaniu zostawiaj± ¶lady wielko¶ci ³opaty. Przy otworze
+gêbowym, skierowanym zreszt± w twoim kierunku, znajdujesz dwie pary ostrych
+szczypiec wielko¶ci s³oniowych ciosów, a nad nimi dostrzegasz ma³e
+czarno-br±zowe oczka. Po drugiej stronie cia³a prê¿y sie dumnie piêkny
+rdzaworudy kolec osadzony na krótkim ogonku. Zaczynasz siê zastanawiaæ czy
+to naprawde larwa, czy mo¿e ju¿ owad dojrza³y, ale raczej nie czas teraz na
+biologiczne dysputy. 
+~
+Race czerw~
+ActExt 0|ABF
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang AI
+Speaks 0
+Level 22
+Hitroll 0
+HP 20d5+500
+Damage 5d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack gryzienie
+XAC 5 5 5 5
+Stats 144 90 90 132 90 90 108
+Off CNY
+OffExt 0|CNY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1250
+Form AGR
+Parts AQ
+Size large
+Material unknown
+MobprogNew death klucz ABCDEFGHI 100~
+MobprogNew greet 11800 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 11799
+Name ob¶lizg³y klucz~
+Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
+Short ob¶lizg³y klucz~
+Descr Jakis dziwnie ob¶lizg³y klucz le¿y na ziemi.~
+Material skóra~
+Type key
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 11800
+Name niepozorna skrzynka~
+Odmiana niepozornej skrzynki~niepozornej skrzynce~niepozorn± skrzynke~niepozorn± skrzynk±~nipozornej skrzynce~
+Short niepozorna skrzynka~
+Descr Jakas dziwna skrzyneczka stoi zakurzona w pod ¶cian±.~
+Material stal~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 271 11799 0 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 11771
+Name Ciemny tunel~
+FlagsExt 0|CH
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11772
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11772
+DayRDesc 11771
+Roomprog input set lorduj~
+Roomprog input set setuj~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11772
+Name Skrzy¿owanie~
+FlagsExt 0|AH
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11773
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11773
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11786
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11786
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11771
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11771
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11773
+Name Ciemny tunel~
+FlagsExt 0|AH
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11772
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11772
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11774
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11774
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11774
+Name Ciemny tunel~
+FlagsExt 0|BEF
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11775
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11775
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11773
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11773
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11775
+Name Skrzy¿owanie~
+FlagsExt 0|C
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11776
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11776
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11774
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11774
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11777
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11777
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11776
+Name ¦lepy zau³ek~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11775
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11775
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11777
+Name Rozwidlenie tunelu~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11778
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11778
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11775
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11775
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11779
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11779
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11778
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11780
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11780
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11777
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11777
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11779
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11782
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11782
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11777
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11777
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11780
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11781
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11781
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11778
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11778
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11781
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11780
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11780
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34819
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34819
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11782
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11779
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11779
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11783
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11783
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11783
+Name Skrzy¿owanie~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11791
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11791
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11782
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11782
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11785
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11785
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11784
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11784
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11784
+Name ¦lepy zau³ek~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11783
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11783
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11785
+Name ¦lepy zau³ek~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11783
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11783
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11786
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11787
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11787
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11772
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11772
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11787
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11788
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11788
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11786
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11786
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11788
+Name Rozwidlenie tunelu~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11789
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11789
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11790
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11790
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11787
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11787
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11789
+Name ¦lepy zau³ek~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11788
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11788
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11790
+Name ¦lepy zau³ek~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11788
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11788
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11791
+Name Rozwidlenie tunelu~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11792
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11792
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11783
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11783
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11793
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11793
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11792
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11791
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11791
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11794
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11794
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11793
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11794
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11794
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11791
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11791
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11794
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11795
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11795
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11792
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11792
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11793
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11793
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11795
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11796
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11796
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11794
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11794
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11796
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11797
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11797
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11795
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11795
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11797
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11798
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11798
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11796
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11796
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11798
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11799
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11799
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11797
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11797
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11799
+Name Ciemny tunel~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11800
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11800
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11798
+ExitExtEnd
+Exit 3
+~
+~
+0 0 11798
+DayRDesc 11771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11800
+Name Wielka komnata~
+Descr Znajdujesz siê w do¶æ obszernej komnacie. Po ¶cianach ¶ciekaja strumienie
+wody, a niezno¶ny odór unosi sie w powietrzu. Pod jedn± ze ¶cian spoczywa
+sobie jaka¶ wielka, ¶mierdz±ca czerw. Pod³o¿e w tej komnacie wydaje dziwne
+d¼wieki gdy kroczysz. Ze zgroza u¶wiadamiasz sobie, i¿ sa to zapewne ko¶ci
+¶mia³ków którzy zapêdzili sie w okolice tej poczwary. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11799
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11799
+Roomprog reset 11800 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 11771 14 11771 2
+M 100 11771 14 11772 2
+M 100 11771 14 11773 2
+M 100 11771 14 11774 2
+M 100 11771 14 11775 2
+M 100 11771 14 11776 2
+M 100 11771 14 11777 2
+M 100 11771 14 11778 2
+M 100 11771 14 11779 2
+M 100 11771 14 11780 2
+M 100 11771 14 11781 2
+M 100 11771 14 11782 2
+M 100 11771 14 11783 2
+M 100 11771 14 11784 2
+M 100 11771 14 11785 2
+M 100 11771 14 11786 2
+M 100 11771 14 11787 2
+M 100 11771 14 11788 2
+M 100 11771 14 11789 2
+M 100 11771 14 11790 2
+M 100 11771 14 11791 2
+M 100 11771 14 11792 2
+M 100 11771 14 11793 2
+M 100 11771 14 11794 2
+M 100 11771 14 11795 2
+M 100 11771 14 11796 2
+M 100 11771 14 11797 2
+M 100 11771 14 11798 2
+M 100 11771 14 11799 2
+M 100 11800 1 11800 1
+S
+
+
+
+#MOBPROGSNEW
+#11800
+~
+if ishere $n
+  if hasflag $n regczerw_zabil
+    kil $n
+  endif
+endif
+~
+#kamien
+~
+~
+#klucz
+~
+mob oload 11799 r
+mob setflag $n regczerw_zabil 10
+~
+#rand
+~
+oload body 4
+oload weapon 4
+end
+~
+#rand2
+~
+oload shield 4
+oload head 4
+end
+~
+#rand3
+~
+oload weapon 5
+oload shield 5
+end
+~
+#regczerw_zabil
+~
+mob setflag $n regczerw_zabil
+mob echoat $n Ma³y czerw umieraj±c obryzguje siê swoimi sokami z trzewi.
+mob echoaround $n Czerw umieraj±c obryzguje $c swoimi sokami.
+end
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#11800
+³adowanie skrzynki
+~
+mob purge skrzynka
+mob oload 11800
+mob oload random 4 i 11800
+mob oload gem 5 i 11800
+mob oload ear 5 i 11800
+~
+#klucz
+~
+mob echoaround $n Spod cia³a Olbrzymiego Czerwia wystaje co¶ dziwnego.
+oload 11799 r
+~
+#set
+~
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 11771
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 31~
+Desc ~
+Group 4
+End
+#Name 24~
+Desc Nagle zda³e¶ sobie sprawê, ¿e takiego smacznego k±ska jak ty, to tu od dawno nie widziano czy mo¿e nie wywêszono. Sam wola³by¶ jednak byæ karmionym a nie karm±, i to tak± na jeden kês lub k³apniêcie szczêk.
+~
+Group 3
+End
+#Name 23~
+Desc Mimo, ¿e dot±d szk³o ci siê bez wiêkszych przeszkód, to masz nieodparte wra¿enie, ¿e zaraz co¶ przebije siê przez ziemiê i wyjdzie ze ¶ciany tunelu, aby ci zrobiæ krzywdê.
+~
+Group 3
+End
+#Name 22~
+Desc Masz nadziejê, ¿e nie natkniesz siê na mieszkañców tych korytarzy ani na ich pazury, zw³aszcza, ¿e liczne ¶lady wielkich ³ap lub odnó¿y dostrzegasz na ¶cianach tunelu.
+~
+Group 3
+End
+#Name 21~
+Desc Po obejrzeniu gliniastych ¶cian zastanawiasz siê, jak powsta³ ten korytarz. Chyba ³opatami tego nie wykopano. A skoro nie, to koñczyny kopacza musia³y byæ du¿o wiêksze od ³opaty. 
+~
+Group 3
+End
+#Name 14~
+Desc Nie jeste¶ zadowolony z wizyty tutaj. Nie spodziewa³e¶ siê co prawda szerokiego, równego i o¶wietlonego traktu, ale to gliniaste b³oto doprowadza ciê powoli do rozpaczy. ¯eby¶ tylko nie zwariowa³ i nie zacz±³ piæ tej b³otnistej zupy, w której brodzisz.
+~
+Group 2
+End
+#Name 13~
+Desc Zaczynasz powoli traciæ orientacjê w tym labiryncie tuneli. Tu wszystko wygl±da tak samo. O¶lizgle i brunatno. Nawet ka³u¿e s± takie same. W sumie ta jaskinia to jedna wielka ka³u¿a.
+~
+Group 2
+End
+#Name 12~
+Desc Z trosk± ogl±dasz swoje nogi. Ub³ocone i przemoczone  na pewno co¶ z³apiesz. Wrzody, grzyby czy ki licho   i tak teraz to niewa¿ne. Znajdziesz sobie w mie¶cie jakiego kleryka co potrafi wyleczyæ wszystko. Przecie¿ nie takie przypad³o¶ci potrafi± usuwaæ. Chyba. 
+~
+Group 2
+End
+#Name 11~
+Desc W³a¶ciwie sam nie wiesz, po co w³azi³e¶ a¿ tutaj. W domu by³o mi³o, ciep³o, a przede wszystkim sucho i spokojnie. Tutaj raczej spokojnie nie jest, przynajmniej dla ciebie.
+~
+Group 2
+End
+#Name 4~
+Desc Z powodu wilgoci i braku tlenu procesy gnilne wyra¼nie musz± tu przyspieszaæ. Czuæ stêchlizn± na ka¿dym kroku, który uda ci siê zrobiæ.
+~
+Group 1
+End
+#Name 3~
+Desc Mokra glina i ¶liska ziemia na ¶cianach i pod stopami na pewno nie dodaje uroku temu miejscu. Nawet usi±¶æ siê nie da normalnie, ¿eby wyregulowaæ oddech i nie zamoczyæ ty³ka.
+~
+Group 1
+End
+#Name 2~
+Desc W³a¶nie próbowa³e¶ z³apaæ oddech, bo ju¿ masz duszno¶ci z braku czystego powietrza, gdy co¶ kapnê³o ci za ko³nierz i zimnem ¶cieka po plecach a¿ do lêd¼wi.
+~
+Group 1
+End
+#Name 1~
+Desc Wilgoæ tego miejsca denerwuje ciê coraz bardziej. Wciska siê pod ka¿d± warstwê odzienia potêguj±c doznanie ch³odu. wydaje siê, ¿e zimno da³oby radê wcisn±æ siê nawet pod grub± we³nian± pelerynê.
+~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,4135 @@
+#HELPS
+-1 DIKU~
+.                    Original game idea, concept, and design:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+
+Developed at: DIKU -- The Department of Computer Science
+                      at the University of Copenhagen.
+
+
+~
+
+-1 GOLD SILVER MONEY COIN WALUTA WALUTY PIENI¡DZE Z£OTO SREBRO MIEDZ COPPER MITHRIL MITRIL NOMINA£Y MONETY MONETA~
+W naszym ¶wiecie wystêpuj± cztery nomina³y i s± to:
+
+{ymied¼ {x({ycopper{x)
+srebro (silver)
+{Yz³oto {x({Ygold{x)
+{Cmithril{x
+
+Jedna moneta odlana z drogocennego {Cmithrilu{x to tuzin monet {Yz³otych{x. (12)
+Jedna {Yz³ota{x moneta warta jest mendel monet srebrnych. (15)
+Za¶ jedna srebrna moneta warta jest kopê monet {ymiedzianych{x. (60)
+
+
+Zobacz tak¿e pomoc do: {Ybank{x.
+~
+
+-1 SURRENDER PODDAJ~
+Sk³adnia: {Gsurrender{x
+
+Komenda {Gsurrender{x s³u¿y do poddania siê podczas walki. Jednak¿e nie zawsze
+Twój wróg mo¿e okazaæ ci lito¶æ. Je¶li nie, wtedy mo¿esz jeszcze mocniej
+oberwaæ od niego. W przypadku sukcesu walka zostaje przerwana. Oczywi¶cie
+nadal mo¿na rozpocz±æ walkê u¿ywaj±c komendy KILL.
+
+Mo¿esz tak¿e ustawiæ zachowanie swojej postaci je¶li osoba z któr± walczysz
+u¿yje komendy {Gsurrender{x. Zobacz help config.
+
+Polski odpowiednik: {Mpoddaj{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 BRIEF~
+Sk³adnia: {Gconfig brief{x
+
+Komenda ta pozwala wy³±czyæ automatyczne pokazywanie opisów lokacji przy
+wchodzeniu do niej.
+
+Polski odpowiednik: {Mopcje brief{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 AUTOGOLD~
+Sk³adnia: {Gconfig autogold{x
+
+Je¶li opcja jest w³±czona po zabiciu NPC bêdziemy automatycznie wyci±gaæ
+pieni±dze z cia³a.
+
+Polski odpowiednik: {Mopcje autogold{x.
+Zobacz tak¿e: {Yautosplit config{x.
+~
+
+-1 HINTS~
+Sk³adnia: {Gconfig hints{x
+
+Je¶li opcja ta jest w³±czona widzisz na ekranie wy¶wietlane co jaki¶ czas proste porady jak graæ. Zestaw porad jest oczywi¶cie skoñczony i po pewnym czasie mog± siê one znudziæ, wiêc mo¿na je spokojnie wy³±czyæ. Poza wszystkim porady owe s± rzeczywi¶cie proste i do¶wiadczonych graczy mog± nu¿yæ i denerwowaæ.
+
+Polski odpowiednik: {Mopcje hints{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 AUTOSPLIT~
+Sk³adnia: {Gconfig autosplit{x
+
+Je¶li opcja jest w³±czona pieni±dze wyci±gane z cia³ s± automatycznie dzielone
+miêdzy cz³onków grupy.
+
+Polski odpowiednik: {Mopcje autosplit{x.
+Zobacz tak¿e: {Yautogold config{x.
+~
+
+-1 COMPRESS KOMPRESJA~
+Sk³adnia: {Gconfig compress{x
+
+Mud Killer wykorzystuje w³a¶ciwo¶æ protoko³u komunikacji i umo¿liwia kompresjê
+danych wychodz±cych z serwera. O zastosowanym protokole MCCP mo¿na poczytaæ
+na stronie http://pl.wikipedia.org/wiki/MCCP
+Aby sprawdziæ, które klienty obs³uguj± protokó³ MCCP nale¿y wej¶æ na
+stronê: http://mccp.afkmud.com/clients.html
+
+Jak wiadomo skompresowane dane zajmuj± mniej miejsca, dziêki czemu oszczêdzamy
+ilo¶æ przesy³anych danych i przy¶pieszamy dzia³anie serwera.
+
+Polski odpowiednik: {Mopcje compress{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 COMPACT~
+Sk³adnia: {Gconfig compact{x
+
+COMPACT wycina pust± liniê przed twoim promptem.
+
+Polski odpowiednik: {Mopcje compact{x.
+Zobacz tak¿e: {Yprompt{x {Yconfig{x.
+~
+
+-1 REPLAY~
+Sk³adnia: {Greplay{x
+
+Komenda {Greplay{x umo¿liwia przeczytanie wiadomo¶ci które otrzyma³e¶, gdy by³e¶
+w trybie AFK albo gdy zerwa³o ci po³±czenie z mudem.
+
+Polski odpowiednik: {Mreplay{x.
+Zobacz tak¿e: {Yafk{x.
+~
+
+-1 PROMPT~
+Sk³adnia: {Gprompt
+          prompt all
+          prompt <%*>{x
+
+Prompt jest to linia statusu wy¶wietlana u do³u ekranu gry.
+{Gprompt{x bez argumentów wy³±cza albo w³±cza prompt.
+
+{Gprompt all{x w³±cza prompt standardowy.
+
+{Gprompt <%*>{x ustawia w³asny prompt, którego wygl±d mo¿emy kontrolowaæ
+u¿ywaj±c nastêpuj±cych znaków.
+
+        %h :  Wy¶wietla twoje obecne punkty ¿ycia
+        %H :  Wy¶wietla twoje maksymalne punkty ¿ycia
+        %v :  Wy¶wietla twoje obecne punkty ruchu
+        %V :  Wy¶wietla twoje maksymalne punkty ruchy
+        %x :  Pokazuje ile zosta³o ci do awansu
+        %X :  Pokazuje punkty do¶wiadczenia {D(nie¶miertelni){x
+        %s :  Wy¶wietla liczbê monet, które nosisz przy sobie
+        %S :  Wy¶wietla liczbê monet, które masz w banku
+        %r :  Wy¶wietla nazwê pokoju w którym siê obecnie znajdujesz
+        %e :  Wy¶wietla wyj¶cia z pokoju w formacie NESWDU
+        %c :  Powoduje przej¶cie do nastêpnej linii
+        %% :  Wy¶wietla znak %
+        %R :  Wy¶wietla vnum pokoju w którym siê znajdujesz {D(nie¶miertelni){x
+        %z :  Wy¶wietla nazwê krainy w której siê znajdujesz {D(nie¶miertelni){x
+        %o :  Wy¶wietla tryb edycji w jakiej siê znajdujesz {D(nie¶miertelni){x
+        %O :  Wy¶wietla vnum edytowanej rzeczy {D(nie¶miertelni){x
+        %t :  Wy¶wietla aktualn± godzinê w formie liczby
+        %T :  Wy¶wietla aktualn± godzinê w formie opisowej
+
+Przyk³ad: {Gprompt <%h/%Hhp [%x] %v/%Vmv>{x
+ustawi prompt na: "{c<45/45hp [{R****{c......] 97/100mv>{x"
+
+Polski odpowiednik: {Mprompt{x.
+Zobacz tak¿e: {Ycompact{x.
+~
+
+-1 GROUPPROMPT~
+Sk³adnia: {Gconfig groupprompt{x
+
+Je¶li w³±czymy t± opcjê to w czasie walki pod zwyk³ym promptem
+bêdziemy mieli podany stan zdrowia cz³onków grupy.
+
+Polski odpowiednik: {Mopcje groupprompt{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 SUMMARY~
+{CPORUSZANIE SIÊ{x                      {CGRUPY{x
+north south east west up down       follow group gtell split
+exits sleep wake rest stand sit     groupprompt
+
+{COBIEKTY{x (parametr - obiekt lub all) {CINFORMACJE I KOMENDY{x
+get put drop give                   help credits commands score condition
+wear wield hold remove grip         time weather who
+recite quaff zap brandish           bug typo idea
+lock unlock open close pick         say sayto tell yell
+inventory equipment look            skills spells
+eat drink fill                      config ignore
+list try buy sell value             socials
+repair estimate
+display identify
+
+{CWALKA{x (parametr - gracz lub mob)    {CINNE{x
+kill flee kick rescue disarm        ! save quit rent offer
+backstab cast surrender             memorize forget learn study
+
+
+Aby dowiedzieæ siê czego¶ wiêcej wpisz 'help <temat>' dla ka¿dej komendy,
+zdolno¶ci, lub czaru.
+
+Zobacz komendy po polsku: {Rpomoc/help podsumowanie{x
+~
+
+-1 DEATH ¦MIERÆ~
+W naszym ¶wiecie nie ma dos³ownej ¶mierci. Gdy postaæ ginie
+automatycznie pojawia siê menu startowe, z którego mo¿esz z powrotem
+wej¶æ do gry. Jednak nie bêdziesz posiada³ przy sobie ekwipunku, jaki
+mia³e¶ w chwili ¶mierci. Twoje rzeczy bêd± w twoim ciele, które spoczywa
+tam gdzie poleg³a twoja postaæ.
+
+¦mieræ wi±¿ê siê tak¿e z paroma innymi niedogodno¶ciami. Przede
+wszystkim nasza postaæ traci pewna cze¶æ do¶wiadczenia, a tak¿e
+zmniejszy siê nasze szczê¶cie i (w przypadku postaci czaruj±cych)
+zmniejszy siê tymczasowo ich moc. ¦mieræ jako prze¿ycie do¶æ
+traumatyczne powoduje tak¿e straty w umiejêtno¶ciach, aczkolwiek
+nie spadn± one poni¿ej tego, co ju¿ wytrenowali¶my u nauczyciela.
+Mo¿e  znikn±æ tylko to, czego siê nauczyli¶my, ale jeszcze nie
+wytrenowali¶my ( + w komendzie skills).
+
+Gdy zginiemy po raz drugi, w przeci±gu dziesiêciu dni mudowych od
+pierwszej ¶mierci, kary lekko siê zwiêksz±. Trzecia taka ¶mieræ,
+w krótkim czasie, oprócz utraty mocy i nie wytrenowanych umiejêtno¶ci
+poci±gnie za sob± tymczasowy spadek wszystkich charakterystyk o pewien
+poziom.
+
+Podsumowuj±c, umieraæ nie warto. Je¶li mo¿esz - uciekaj jak najwcze¶niej
+i nie ryzykuj. No chyba, ze twoje zasady moralne ka¿± ci staæ do koñca
+i umrzeæ (lub zabiæ) z broni± w rêku.
+
+Zobacz tak¿e: {Ydo¶wiadczenie{x
+~
+
+-1 COLOUR COLOR ANSI KOLORY~
+Sk³adnia: {Gcolour{x
+
+W³±cza/wy³±cza kolory. Aby widzieæ kolory Twój terminal musi obs³ugiwaæ
+standard ANSI.
+
+W czasie grania tak¿e mo¿esz pos³ugiwaæ siê kolorami u¿ywaj±c specjalnego
+znaku, aby podaæ kolor. Tym znakiem jest klamra skierowana w lewo: '{{'. Po
+niej podajesz symbol koloru:
+        {r{{r     bordowy           {R{{R     czerwony
+        {g{{g     ciemno zielony    {G{{G     jasno zielony
+        {b{{b     granatowy         {B{{B     niebieski
+        {m{{m     fioletowy         {M{{M     jasno fioletowy
+        {c{{c     seledynowy        {C{{C     jasno seledynowy
+        {y{{y     br±zowy           {Y{{Y     zó³ty
+        {w{{w     bia³y             {W{{W     szary
+        {x{{x     koniec koloru
+        {{{{     znak {{
+        {{*     sygna³ d¼wiêkowy
+        {{/     nowa linia
+
+Pisz±c title, pamiêtaj, ¿e na koñcu musisz KONIECZNIE wstawiæ "{{x"!
+
+Dodatkowo mo¿na stosowaæ bardziej zaawansowane kolorowanie za pomoc± symbolu
+'^^'. Je¶li chcesz uzyskaæ kolorowe t³o, podkre¶lony lub mrugaj±cy tekst
+u¿yj w³a¶nie tego. Poni¿ej przedstawiono przyk³ady u¿ycia:
+
+^^u - ^upodkreslenie{x
+^^f - ^fmiganie{x
+^^l - zja¶nienie (BOLD) {r{{r-red{{x{x, {r^l{{r^^l-bold-red{{x{x
+^^i - odwrócenie kolorów (INVERSE) {g{{g-zielone{{x{x, {g^i{{g^^i-zielone{{x{x
+^^^^ - znak ^^^
+
+^^y - ^ybr±zowe t³o{x
+^^w - ^wszare t³o{x
+^^g - ^gzielone t³o{x
+^^b - ^bniebieskie t³o{x
+^^r - ^rczerwone t³o{x
+^^m - ^mfioletowe t³o{x
+^^c - ^cseledynowe t³o{x
+
+^^i{{Y - ^i{Y¿ó³te t³o{x
+^^i{{W - ^i{Wbia³e t³o{x
+^^i{{G - ^i{Gjasno zielone t³o{x
+^^i{{B - ^i{Bjasno niebieskie t³o{x
+^^i{{R - ^i{Rjasno czerwone t³o{x
+^^i{{M - ^i{Mjasno fioletowe t³o{x
+^^i{{C - ^i{Cseledynowe t³o{x
+
+Oczywi¶cie mo¿na kombinowaæ ró¿ne kody ¿eby uzyskaæ po³±czone efekty, na przyk³ad:
+
+^f^i^R{Y^^f^^i^^R{{Y migaj±ce czerwone napisy na ¿ó³tym tle{{x{x
+^u^G{B^^u^^G{{Bpodkre¶lone niebieskie napisy na zielonym tle{{x{x
+
+Pamiêtaj aby koñczyæ kolor symbolem {{x aby unikn±æ nieprzewidywanych
+'rozlañ' siê kolorów.
+
+UWAGA: Nie wszystkie terminale lub programy przystosowane do grania
+       na mudach potrafi± wy¶wietliæ wszystkie przedstawione tu efekty.
+
+Polski odpowiednik: {Mkolory{x.
+
+Zobacz tak¿e: {Y{x{Ykolory2{x
+~
+
+-1 COLOUR2 COLOR2 ANSI2 KOLORY2~
+Sk³adnia: colour <pole> <kolor>
+
+Mo¿esz skonfigurowaæ wiêkszo¶æ rzeczy na mudzie tak aby wy¶wietlane one
+by³y w takich kolorach jakie chcesz mieæ.
+
+Dostêpne pola:
+      {pprompt{x          - prompt
+      {sroom_title{x      - nazwa lokacji
+      {Sroom_text{x       - opis lokacji
+      {oroom_exits{x      - wyj¶cia z lokacji
+      {Zwiznet{x          - wiznet
+      {iimmtalk_text{x    - tekst immtalku
+      {Iimmtalk_type{x    - imiê osoby mówi±cej na immtalku
+      {1fight_death{x     - kolor przy u¿yciu komendy slay
+      {2fight_yhit{x      - kolor twojego uderzenia podczas walki
+      {3fight_ohit{x      - kolor uderzeñ w walce której siê przygl±dasz
+      {4fight_thit{x      - kolor uderzeñ przeciwnika w walce, w której bierzesz
+                        udzia³
+      {5fight_skill{x     - kolor w którym widzisz u¿yte skille
+      {vfight_trick{x     - kolor w którym widzisz u¿yte tricki
+      {Vfight_spell{x     - kolor w którym widzisz u¿yte czary
+      {6say{x             - kolor say
+      {7say_text{x        - kolor tre¶ci say
+      {ktell{x            - kolor tell
+      {Ktell_text{x       - kolor tre¶ci tell
+      {lreply{x           - kolor reply
+      {Lreply_text{x      - kolor tre¶ci reply
+      {qquestion{x        - kolor ask
+      {Qquestion_text{x   - kolor tre¶ci ask
+      {ngtell{x           - kolor gtell
+      {Ngtell_text{x      - kolor tre¶ci gtell
+      {uyell{x            - kolor yell
+      {Uyell_text{x       - kolor tre¶ci yell
+
+      Mozliwe kolory to:
+        {rred          {ggreen        {bblue         {yyellow       {mmagenta{x
+        {ccyan         {wwhite{x
+     oraz
+        {RHi-red       {GHi-green     {BHi-blue      {YHi-yellow    {MHi-magenta{x
+        {CHi-cyan      {WHi-white{x
+
+Przyk³ad: colour tell_text Hi-yellow - tre¶æ tella bêdzie jasno ¿ó³ta.
+
+Polski odpowiednik: {Mkolory{x.
+Zobacz tak¿e: {Ykolory{x.
+~
+
+-1 EXPERIENCE LEVEL XP DO¦WIADCZENIE~
+Twoja postaæ ro¶nie w si³ê poprzez zdobywanie do¶wiadczenia. Potrzebujesz
+okre¶lonej ilo¶ci punktów do¶wiadczenia, aby zdobyæ nastêpny poziom.
+Nie zdziw siê, je¿eli za ubicie po raz kolejny tego samego stworzenia
+nie otrzymasz ju¿ tak wiele do¶wiadczenia. Do¶wiadczenie za zabicie stworzenia
+po raz "setny" mo¿e spa¶æ nawet do zera.
+
+Zobacz tak¿e: {Y{x{Y¶mieræ{x
+~
+
+-1 !~
+Sk³adnia: {G!{x
+
+! powtarza ostatni± wykonan± przez ciebie komendê.
+~
+
+-1 NORTH SOUTH EAST WEST UP DOWN PÓ£NOC PO£UDNIE WSCHÓD ZACHÓD GÓRA DÓ£~
+Sk³adnia: {Gnorth
+            south
+            east
+            west
+            up
+            down{x
+
+To komendy, które s³u¿± do poruszania siê w okre¶lonych kierunkach.
+Mo¿na jednak spotkaæ siê te¿ z miejscami, do których nie da siê tak wej¶æ.
+Trzeba wtedy pokombinowaæ. Podpowiedzi bêd± zwykle w opisie pomieszczenia.
+Mo¿na przechodziæ przez p³oty, uruchamiaæ zapadnie, wspinaæ siê czy nurkowaæ.
+Nie zapominaj o takich mo¿liwo¶ciach.
+
+Polskie odpowiedniki: {Mpó³noc po³udnie wschód zachód góra dó³{x.
+~
+
+-1 MAGIA CZARY ZAKLECIA CAST CZARUJ~
+Sk³adnia: {Gcast <zaklêcie> <cel>{x
+
+W naszym ¶wiecie nie ma punktów mana, które odzwierciedla³yby potencja³ maga.
+Zanim bêdziesz mieæ mo¿liwo¶æ u¿ywania czaru musisz siê go nauczyæ.
+Czar przed rzuceniem musisz ZAPAMIÊTAÆ ({Yhelp memorize{x)
+
+Podawanie celu nie jest konieczne. Jest wiele zaklêæ które nie wymagaj±
+celu. W trakcie walki rzucane s± automatycznie na przeciwnika (dla ofensywnych)
+albo na rzucaj±cego (dla czarów obronnych), jest te¿ grupa czarów
+która dzia³a na ca³± lokacjê (czary obszarowe).
+
+Je¿eli nazwa czaru sk³ada siê z kilku wyrazów musisz uj±æ j± w pojedynczy
+cudzys³ów np. cast 'create water', w przeciwnym wypadku zostanie rzucony
+pierwszy z brzegu czar rozpoczynaj±cy siê danym s³owem np. wpisanie:
+"cast cure critical" zg³osi, ¿e nie ma takiej osoby jak critical,
+"cast create water" spowoduje rzucenie 'create food' itp.
+
+Pamiêtaj, ¿e przy czarach ofensywnych, ofiara ma szanse unikn±æ lub zredukowaæ
+dzia³anie czaru, tak ¿e gdy czar rzucony na ofiarê nie zadzia³a, nie zawsze
+bêdzie to twoja wina.
+
+Polski odpowiednik: {Mczaruj{x.
+Zobacz tak¿e helpy poszczególnych czarów, help {Ymeorize{x oraz help {Ykomponenty{x.
+~
+
+-1 MEMORIZE ZAPAMIÊTAJ~
+Sk³adnia: {Gmemorize <argumenty>{x
+
+S³u¿y do kontrolowania ksiêgi zaklêæ, czy modlitewnika za pomoc±
+nastêpuj±cych komend:
+
+{w*{x {Gmemorize{x
+Samo memorize bez argumentu wy¶wietla nam jakie czary mamy zapamiêtane, jakie
+jeszcze czekaj± na zapamiêtanie oraz jakie zaklêcie jest obecnie zapamiêtywane.
+Przy okazji dowiemy siê te¿ ile czarów jakiego krêgu mo¿emy jeszcze zapamiêtaæ.
+
+{w*{x {Gmemorize list{x
+Wy¶wietla listê zapamiêtanych i zapamiêtywanych zaklêæ wed³ug kolejno¶ci zapamiêtywania.
+Numery przy nazwie czaru mog± byæ wykorzystywane w celu rêcznego u³o¿enia listy za pomoc±
+innych komend.
+
+{w*{x {Gmemorize <czar>{x
+Spowoduje dodanie okre¶lonego czaru na pocz±tku listy zapamiêtywania.
+
+{w*{x {Gmemorize remove <czar lub numer>{x
+Zapominamy ju¿ ^uzapamiêtane{x zaklêcie.
+
+{w*{x {Gmemorize forget <czar lub numer>{x
+Dzia³a jak "memorize remove". Zast±pi³ star± komendê "forget". Istnieje jednak
+mo¿liwo¶æ swoistej symulacji starego systemu: "alias for mem remove" - spowoduje
+utworzenie aliasu "for" dzia³aj±cego jak "mem remove".
+
+{w*{x {Gmemorize stop <czar lub numer>{x
+Powoduje, ¿e przestajemy zapamiêtywaæ dane zaklêcie i usuwamy je z listy.
+
+{w*{x {Gmemorize clear{x
+Spowoduje usuniêcie wszystkich czarów z listy - wyczyszczenie do zera.
+
+{w*{x {Gmemorize skip{x
+Spowoduje przerwanie zapamiêtywania aktualnego czaru i przej¶cie do nastêpnego.
+
+{w*{x {Gmemorize skip <czar lub numer>{x
+Spowoduje przerwanie zapamiêtywania aktualnego czaru i przej¶cie do podanego.
+
+{w*{x {Gmemorize move <czar lub numer> <numer>{x
+Spowoduje przesuniêcie danego czaru na konkretne miejsce na li¶cie.
+
+{w*{x {Gmemorize move <czar lub numer> first{x
+Spowoduje przesuniêcie danego czaru na pierwsze miejsce w li¶cie.
+
+{w*{x {Gmemorize move <czar lub numer> last{x
+Spowoduje przesuniêcie danego czaru na ostatnie miejsce w li¶cie.
+
+{w*{x {Gmemorize sort{x
+Wywo³a posortowanie czarów na li¶cie (memorize list) wed³ug krêgów.
+
+* {Gmemorize where <czar>{x
+Pozwala na wyszukianie na jakim krêgu znajduje siê dane zaklêcie.
+
++++-<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>-+++
+
+* {Gmemorize set{x  wy¶wietla zapamiêtane zestawy czarów (skrót:
+{x              {Gmem set{x albo jeszcze krócej {Gm set{z)
+
+Wiêcej komend do zestawów czarów ({Ymemset{x):
+
+{Ymemorize set{x 	? wy¶wietla zapamiêtane zestawy czarów
+
+{Ymemorize set <nazwa>{x ? ustawia aktulanie zapamiêtane czary zgodnie z wcze¶niej zapamiêtanym zestawem <nazwa>
+
+{Ymemorize set <nazwa> save{x ? zapisuje obecnie ustawione czary  jako nowy zestaw <nazwa>
+
+{Ymemorize set <nazwa> remove{x ? zapomina zestaw czarów o nazwie <nazwa>
+
+
+
+
+{R^uPostaæ zapamiêtuje czary tylko w trakcie odpoczynku (komenda {Mrest{R/{Modpocznij{R).{x
+
+Polski odpowiednik: {Mzapamiêtaj{x.
+Zobacz tak¿e: {Yspell forget cast{x.
+Podrêczna lista komend: {Cmemorize help{x.
+down
+~
+
+-1 FORGET ZAPOMNIJ~
+Sk³adnia: {Gmemorize forget <zaklêcie>{x
+
+Powoduje zapomnienie czaru zapamiêtanego komend± memorize.
+
+Polski odpowiednik: {Mzapomnij{x.
+Zobacz tak¿e: {Ymemorize{x {Ycast{x.
+~
+
+-1 LEARN UCZ INTRODUCE~
+Sk³adnia: {Glearn [<imie nauczyciela>]{x
+          {Glearn [<imie nauczyciela>] <czar/skill>{x
+          {Gintroduce [<imie nauczyciela>] <trick>{x
+
+Na naszym mudzie, aby mieæ mo¿liwo¶æ u¿ywania czarów oraz umiejêtno¶ci
+najpierw trzeba siê ich nauczyæ. Rolê nauczycieli sprawuj± ró¿ne osoby
+porozrzucane po ¶wiecie. Ka¿dy z tych nauczycieli ma zazwyczaj inn±
+listê umiejêtno¶ci jakich potrafi uczyæ.
+
+Aby znale¼æ takiego nauczyciela trzeba zwracaæ uwagê na lokacje, stoj±ce
+w nich osoby i ich opisy. Czasami nauczyciel sam zaproponuje nam naukê.
+Je¶li w danej lokacji stoj± dwaj nauczyciele mo¿esz wskazaæ, u którego
+chcesz pobieraæ nauki zaznaczaj±c to w komendzie learn.
+
+Je¶li chodzi o czary, to mo¿na nauczyæ siê danego czaru tylko raz. Je¶li
+nie uda siê nauczyæ na danym poziomie do¶wiadczenia, mo¿na spróbowaæ ponownie
+na nastêpnym.
+
+Z umiejêtno¶ciami jest trochê inaczej. Mo¿esz pobieraæ nauki kiedy chcesz i
+im wiêcej siê nauczysz tym lepiej bêdziesz t± umiejêtno¶æ stosowa³. Nauczyciel
+mo¿e nauczyæ ciê wiêcej tylko je¶li zdoby³e¶ jakie¶ do¶wiadczenie w u¿ywaniu
+danej umiejêtno¶ci (na przyk³ad w walce). Je¶li umiejêtno¶æ wymaga pewnego
+poziomu do¶wiadczenia (poziomu postaci) nauczyciel tak¿e odmówi nauki.
+
+Je¿eli wytrenowa³e¶ umiejêtno¶ci na odpowiednio wysoki poziom, to
+niektórych nauczyciele bêd± mogli ciê nauczyæ, oczywi¶cie za
+odpowiedni± op³at±, dodatkowych informacji o danej umiejêtno¶ci -
+tak zwanego tricku.
+
+Polski odpowiednik: {Mucz{x.
+Zobacz tak¿e: {Yskills{x, {Yspells{x, {Ystudy{x.
+~
+
+-1 STUDY~
+Sk³adnia: {Gstudy <ksiêga>{x
+
+Komenda s³u¿y do studiowania magicznych ksi±g w celu wyszukania ukrytej tam
+wiedzy o czarach. Poniewa¿ zwykle takie ksiêga strze¿ona jest siln± magi±
+przed niepowo³anym dostêpem, czasami w trakcie zg³êbiania jej tajników mo¿e
+doj¶æ do jej spalenia. Je¶li jednak uda siê pokonaæ te zabezpieczenia
+poznasz nowy czar i przepiszesz go do swojej ksiêgi czarów.
+
+Polski odpowiednik: {Mstudiuj{x.
+Zobacz tak¿e: {Yskills{x, {Yspells{x.
+~
+
+-1 EXITS WYJ¦CIA~
+Sk³adnia: {Gexits{x
+
+Opisuje widoczne wyj¶cia z lokacji. Nie wszystkie zawsze bêd± widoczne.
+Ukryte czasem mo¿na znale¼æ po prostu obijaj±c siê o ¶ciany. Je¿eli np.
+na pó³nocy jest ukryte przej¶cie to próbuj±c i¶æ na pó³noc dowiesz siê
+¿e 'Drzwi s± zamkniête'. Mo¿esz te¿ spotkaæ siê z przej¶ciami, które nie bêd±
+w ¿aden sposób ujawnione na ¶cianach, za to w pomieszczeniu bêd± podpowiedzi
+jak z danego przej¶cia skorzystaæ. Np. wspinaj siê, przechod¼, odsuñ itp.
+
+Polski odpowiednik: {Mwyj¶cia{x.
+~
+
+-1 DROP GET GIVE PUT TAKE UPU¦Æ WE¬ DAJ W£Ó¯ ~
+Sk³adnia: {Gdrop <przedmiot>
+          drop <ilo¶æ> monet
+          get  <przedmiot>
+          get  <przedmiot> <pojemnik>
+          give <przedmiot> <postaæ>
+          give <ilo¶æ> coins <postaæ>
+          put  <przedmiot> <pojemnik>{x
+{G          put  <trucizna> <pojemnik na napój>{x
+
+{CDROP{x  upuszcza obiekt lub pieni±dze na ziemiê.
+{CGET{x   podnosi obiekt, który le¿y na ziemi, jest w kontenerze, albo
+      w ciele moba czy gracza.
+{CTAKE{x  jest synonimem dla GET.
+{CGIVE{x  daje obiekt (np.: pieni±dze) innemu graczowi albo mobowi.
+{CPUT{x   wk³ada obiekt do kontenera.
+
+DROP, GET oraz PUT mog± mieæ parametr 'all' dla wszystkich obiektów i
+'all.nazwa' dla wszystkich obiektów o danej nazwie.
+
+Polskie odpowiedniki: {Mupu¶æ{x {Mwe¼{x {Mdaj{x {Mw³ó¿{x.
+Zobacz tak¿e: {Yequipment inventory identify{x.
+~
+
+-1 EQUIPMENT EKWIPUNEK~
+Sk³adnia: {Gequipment{x
+
+Komenda wy¶wietla ca³y Twój ekwipunek, czyli to co nosisz ubrane na sobie.
+
+Polski odpowiednik: {Mekwipunek{x.
+Zobacz tak¿e: {Yinventory{x.
+~
+
+-1 INVENTORY INWENTARZ~
+Sk³adnia: {Ginventory{x
+
+Komenda wy¶wietla ca³y Twój inwentarz, czyli to co nosisz przy sobie.
+
+Polski odpowiednik: {Minwentarz{x.
+Zobacz tak¿e: {Yequipment{x.
+~
+
+-1 FLEE UCIEKAJ~
+Sk³adnia: {Gflee{x
+
+Kiedy zaczniesz walkê to nie mo¿esz tak po prostu odej¶æ sobie. Jednak¿e,
+gdy nie idzie ci w walce mo¿esz uciec wpisuj±c FLEE.
+Nie zawsze siê to jednak udaje i czasami nie pozostaje nic innego jak
+czekaæ na ¶mieræ...
+
+Polski odpowiednik: {Muciekaj{x.
+Zobacz tak¿e: {Ywimpy{x .
+~
+
+-1 EXAMINE LOOK PATRZ OBEJRZYJ~
+Sk³adnia: {Glook
+          look    <przedmiot>
+          look    <postaæ>
+          look    <kierunek>
+          look    <s³owo kluczowe>
+          look moon{x
+~
+
+-1 ORDER ROZKA¯~
+Sk³adnia: {Gorder <postaæ> komenda{x
+
+Komenda ORDER rozkazuje wszystkim mobom, które aktualnie s± pod twoj± w³adz±
+(wliczaj±c w to tak¿e zwierzaki nabyte w sklepie) do wykonania komendy.
+Komenda mo¿e byæ dowolna i zawieraæ argumenty. Jednak¿e jeste¶ odpowiedzialny
+za wszystkie akcje, które podejmuj± twoi niewolnicy. Gdy jeden z twoich
+niewolników zostanie zaatakowany, automatycznie zostajesz wci±gniêty do walki
+z przeciwnikiem.
+
+Czasami mo¿e siê zdarzyæ, ¿e kontrolowana postaæ opu¶ci ciebie.
+
+Polski odpowiednik: {Mrozka¿{x.
+~
+
+-1 ODPOCZYNEK REST SLEEP ODPOCZNIJ ¦PIJ~
+Sk³adnia: {Grest
+          rest <mebel>
+          sleep [<mebel>]
+          sleep <mebel>{x
+
+Te komendy s³u¿± do zmiany pozycji. Kiedy odpoczywasz lub ¶pisz szybciej
+regeneruj± siê twoje si³y ¿yciowe (punkty ¿ycia i punkty ruchu).
+W tym czasie jeste¶ te¿ bardziej podatny na ataki. Oczywi¶cie podczas
+odpoczynku czy te¿ snu nie mo¿na chodziæ. Podczas snu, nie widzisz i nie
+s³yszysz co dzieje siê woko³o.
+Polecenie REST s³u¿y tak¿e do zapamiêtywania czarów.
+
+Niekiedy podczas swoich wêdrówek mo¿esz spotkaæ meble, które mo¿esz u¿ywaæ
+do spania czy odpoczywania. Wystarczy jako parametr podaæ nazwê przedmiotu,
+z którego chcemy skorzystaæ. Czasami taki odpoczynek mo¿e byæ wygodniejszy
+i trwaæ krócej ni¿ spanie na go³ej ziemi.
+
+Polskie odpowiedniki: {Modpocznij ¶pij{x.
+Zobacz tak¿e: {Ymemorize wake stand{x.
+~
+
+-1 STAND WAKE WSTAÑ OBUD¬~
+Sk³adnia: {Gstand
+          stand <mebel>
+          wake
+          wake <postaæ>{x
+
+U¿yj WAKE albo STAND ¿eby obudziæ siê, wstaæ lub podnie¶æ siê.
+Dodatkowo, komend± stand skorzystaæ z jakiego¶ mebla, ¿eby uskuteczniæ sztukê
+stania do perfekcji.
+
+Polecenie WAKE <postaæ> obudzi dana postaæ. Oczywi¶cie nie zawsze mo¿e ci siê
+to udaæ. W koñcu niektórzy ¶pi± jak kamienie i nic nie jest w stanie ich
+obudziæ.
+
+Polskie odpowiedniki: {Mwstañ obud¼{x.
+~
+
+-1 GTELL SAY SAYTO TELL REPLY ASK~
+Sk³adnia: {Ggtell <wiadomo¶æ>
+          say   <wiadomo¶æ>
+          sayto <postaæ> <wiadomo¶æ>
+          tell  <postaæ> <wiadomo¶æ>
+{G          reply <wiadomo¶æ>{x
+{G          ask <postaæ> <wiadomo¶æ>{x
+{G          newbie <wiadomo¶æ>{x
+{G          yell <wiadomo¶æ>
+
+Komenda GTELL wysy³a wiadomo¶æ do wszystkich cz³onków twojej grupy. Wiadomo¶æ
+dotrze tak¿e wtedy, gdy jedna z postaci bêdzie oszo³omiona czy bêdzie spaæ.
+';' (¶rednik) jest skrótem od GTELL.
+
+SAY wysy³a wiadomo¶æ do wszystkich nie ¶pi±cych graczy w pokoju w którym siê
+obecnie znajdujesz.
+''' (apostrof) jest skrótem od SAY.
+
+SAYTO wysy³a wiadomo¶æ do konkretnej postaci w tej samej lokacji. Wiadomo¶æ
+widz± wszyscy w danej lokacji.
+'/' (slash) jest skrótem od SAYTO.
+Przyk³ad:
+/przewodnik witaj
+Mówisz przewodnikowi 'witaj'. (to widzisz ty)
+XXX mówi tobie 'witaj'. (to widzi przewodnik)
+XXX mówi przewodnikowi 'witaj'. (to widz± pozosta³e osoby w lokacji)
+
+TELL wysy³a wiadomo¶æ do nie ¶pi±cego gracza a tak¿e moba.
+
+REPLY wysy³a wiadomo¶æ do ostatniego gracza, który wys³a³ do ciebie TELLa.
+Ta komenda dzia³a te¿ je¶li nie jeste¶ w stanie dostrzec swojego rozmówcy.
+
+ASK jest bardzo podobny do TELL, z t± jednak róznic±, ¿e gracz zamiast
+'mówi' widzi 'pyta'. Ten sam efekt mo¿na osi±gnaæ dziêki wstawianiu '?' na
+koñcu wiadomo¶ci 'tell'.
+
+NEWBIE wysyla wiadomo¶æ do wszystkich postaci w grze, dostêpne tylko dla postaci pocz±tkuj±cych.
+
+YELL wysy³a wiadomo¶æ do wszystkich nie ¶pi±cych graczy w danej krainie.
+
+Polskie odpowiedniki: {Mgtell mów mówdo powiedz odpowiedz spytaj newbie wrza¶nij{x.
+~
+
+-1 SOCIALS EMOCJE~
+Sk³adnia: {Gsocials{x
+
+Wy¶wietla listê przyk³adowych emocji.
+
+Polski odpowiednik: {Memocje{x.
+~
+
+32 NEWS2~
+Sk³adnia:
+{Gnews to{x: pocz±tek newsa, jako parametr imie gracza, nazwa clanu, immortal lub all
+{Gnews subject <temat>{x: ustawia tytu³ newsa.
+{Gnews +{x: dodaje now± linie do tworzonego newsa.
+{Gnews -{x: usuwa liniê z tworzonego newsa.
+{Gnews clear{x: usuwa tworzonego aktualnie newsa.
+{Gnews show{x: pokzuje aktualnie tworzonego newsa.
+{Gnews post{x: publikuje newsa.
+{Gnews remove{x: usuwa newsa, którego napisa³e¶ lub jest do ciebie skierowany.
+~
+
+-1 YELL~
+Sk³adnia: {Gyell    <wiadomo¶æ>{x
+
+YELL wysy³a wiadomo¶æ do wszystkich nie ¶pi±cych graczy w aktualnej krainie.
+
+Polskie odpowiedniki: {Mwrza¶nij{x.
+~
+
+-1 EMOTE PMOTE~
+Komendy pokazuj±ce emocje s± niedostêpne ze wzglêdu na u¿ywanie ich w celu
+porozumiewania siê z ominiêciem barier jêzykowych. Dostêpne s± tylko
+z góry zdefiniowane emocje, tak zwane socials.
+
+Zobacz tak¿e: {Ysocials{x.
+~
+
+32 SMOTE~
+Sk³adnia: smote <akcja>
+
+SMOTE jest podobne do emote, jednak¿e twoje imiê mo¿e byæ w dowolnym miejscu
+danej akcji. Ten ci±g jest pokazywany wszystkim w pokoju.
+
+Zobacz tak¿e: {Yemote pmote{x.
+~
+
+-1 HOLD WEAR WIELD GRIP~
+Sk³adnia: {Ghold   <przedmiot>
+          wear   <przedmiot>
+          wear   all
+          wield  <przedmiot>{x
+{G          grip <broñ>{x
+
+Te trzy komendy powoduj± u¿ycie danego przedmiotu znajduj±cego siê w twoim
+inwentarzu jako ekwipunku.
+HOLD jest trzymania w rêku, jak np. ró¿d¿ki, ber³a.
+WIELD jest do trzymania broni w rêku.
+WEAR jest do reszty ubioru, jak np. zbroje, bransolety.
+GRIP s³u¿y do z³apania broni jednorêcznej w dwie rêce. Wyj±tkiem s±
+sztylety i krótkie miecze.
+
+WEAR ALL powoduje ubranie ka¿dej rzeczy w twoim inwentarzu na wolna czê¶æ
+cia³a.
+
+Niektórych rzeczy nie mo¿na za³o¿yæ bez spe³nienia okre¶lonych warunków
+zale¿nych od danego przedmiotu.
+
+Polskie odpowiedniki: {Mchwyæ za³ó¿ dzier¿ uchwyæ{x.
+Zobacz tak¿e: {Yremove drop equipment inventory{x.
+~
+
+-1 REMOVE~
+Sk³adnia: {Gremove <przedmiot>{x
+
+REMOVE zdejmuje okre¶lony przedmiot znajduj±cy siê w  twoim ekwipunku
+i umieszcza go w inwentarzu.
+Niektórych przedmiotów zdj±æ nie mo¿na.
+
+Polski odpowiednik: {Mzdejmij{x.
+Zobacz tak¿e: {Ywear drop equipment inventory{x.
+~
+
+-1 BUG TYPO IDEA~
+Sk³adnia: {Gbug <wiadomo¶æ>
+          typo <wiadomo¶æ>
+          idea <wiadomo¶æ>{x
+
+Te komendy s³u¿a odpowiednio do zg³aszania dostrze¿onych w grze b³êdów (BUG),
+literówek (TYPO) oraz przedstawienia swoich pomys³ów dotycz±cych gry (IDEA).
+
+Polskie odpowiedniki: {Mb³±d literówka pomys³{x.
+~
+
+32 CREDITS~
+Sk³adnia: credits
+
+Ta komenda pokazuje listê Twórców oryginalnego kodu Diku, na którym bazuje
+nasz mud.
+~
+
+-1 COMMANDS SCORE TIME MUDINFO CONDITION WEATHER~
+Sk³adnia: {Gcommands
+          score
+          condition
+          time
+          mudinfo
+          weather{x
+
+COMMANDS pokazuje listê wszystkich komend, które s± dla ciebie dostêpne.
+
+SCORE pokazuje podstawowe informacje o twojej postaci.
+
+CONDITION pokazuje informacje o stanie twojej postaci. W jakiej siê znajduje
+kondycji, czy jest g³odna, ¶pi±ca itd.
+
+TIME pokazuje czas oraz datê ¶wiata gry.
+
+MUDINFO pokazuje czas wystartowania MUDa, aktualny czas systemowy na
+komputerze, na którym uruchomiony jest MUD, oraz ewentualny czas
+nastêpnego prze³adowania ¶wiata.
+
+WEATHER pokazuje aktualn± pogodê w miejscu, w którym stoisz.
+
+Polskie odpowiedniki: {Mkomendy postaæ kondycja czas mudinfo pogoda{x.
+~
+
+-1 WHO~
+Sk³adnia: {Gwho{x
+
+WHO pokazuje graczy do 10 poziomu, oraz graczy których widzisz w lokacji w której siê znajdujesz.
+Dodatkowo na WHO mo¿esz zobaczyæ cz³onków w³asnego klanu.
+
+Polski odpowiednik: {Mkto{x.
+~
+
+32 DESCRIPTION DESC~
+Sk³adnia: {Gdescription <tekst>
+          description + <tekst>
+          description -{x
+
+Komenda s³u¿y do ustawiania opisu twojej postaci widocznego gdy kto¶ na
+Ciebie patrzy. znak '+' s³u¿u do dodawania kolejnej linii, znak '-' do
+usuwania ostatnio wprowadzonej linii.
+
+Polski odpowiednik: {Mopis{x.
+~
+
+32 TITLE~
+Standardowy title ma postaæ: <p³eæ rasa>, np. Gracz mê¿czyzna elf.
+Je¿eli chcia³by¶ mieæ inny, musia³by¶ siê zas³u¿yæ i spytaæ siê bogów o
+mo¿liwo¶æ zmiany. Wtedy jaki¶ bóg w dobrym humorze MOZE ci zmieni.
+~
+
+-1 WIMPY~
+Sk³adnia: {Gconfig wimpy
+          config wimpy <warto¶æ liczbowa>{x
+
+WIMPY okre¶la czy twoja postaæ ma automatycznie uciekaæ z walki je¶li
+jej poziom HP spadnie poni¿ej podanego.
+
+Polski odpowiednik: {Mopcje wimpy{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 OPEN CLOSE LOCK UNLOCK PICK~
+Sk³adnia: {Gopen   <przedmiot lub kierunek>
+          close  <przedmiot lub kierunek>
+          lock   <przedmiot lub kierunek>
+          unlock <przedmiot lub kierunek>
+          pick   <przedmiot lub kierunek>{x
+
+OPEN i CLOSE otwiera lub zamyka obiekty lub drzwi.
+
+LOCK i UNLOCK zakluczaj± lub odkluczaj± zamkniête obiekty lub drzwi.
+Musisz mieæ odpowiedni klucz aby u¿yæ tych komend.
+
+Z³odzieje dziêki PICK mog± wy³amaæ zamek i dostaæ siê np. do zamkniêtej
+komnaty bez posiadania klucza. Z umiejêtno¶ci mo¿na korzystaæ je¶li zosta³a
+ona wyæwiczona.
+
+Polskie odpowiedniki: {Motwórz zamknij zaklucz odklucz w³am{x.
+~
+
+-1 DRINK EAT FILL POUR~
+Sk³adnia: {Gdrink <przedmiot>
+          eat   <przedmiot>
+          fill  <przedmiot> [<fontanna>]
+          pour  <przedmiot> out
+          pour  <przedmiot> <przedmiot>
+          pour  <przedmiot> <postaæ>{x
+
+Je¶li twoja postaæ jest spragniona, wypij co¶ komend± DRINK.
+
+Je¶li twoja postaæ jest g³odna, zjedz co¶ komend± EAT.
+
+FILL wype³nia Twój buk³ak ciecz±. Mo¿esz podaæ sk±d buk³ak ma byæ nape³niony.
+Je¶li nie podasz tego parametru buk³ak zostanie nape³niony z pierwszej
+fontanny z brzegu lub z wód p³yn±cych w lokacji (jezioro, rzeka, itp.).
+
+POUR s³u¿y do opró¿niania buk³aka lub przelewania jego zawarto¶ci
+do innego pojemnika.
+
+Polskie odpowiedniki: {Mwypij zjedz nape³nij przelej{x.
+~
+
+-1 SKLEPY BUY LIST SELL VALUE TRY HANDEL TRADE KUPIÆ SPRZEDAÆ SPRZEDAJ PRZYMIERZAÆ~
+Sk³adnia: {Gbuy   <przedmiot>   [<sklepikarz>]
+          buy   <numer>       [<sklepikarz>]
+          list  [<przedmiot>] [<sklepikarz>]
+          sell  <przedmiot>   [<sklepikarz>]
+          value <przedmiot>   [<sklepikarz>]
+          try   <przedmiot>   [<sklepikarz>]
+          try   <numer>       [<sklepikarz>]{x
+
+BUY - kupujesz wybrany obiekt od sprzedawcy.
+Je¿eli sprzedawca ma kilka podobnych rzeczy (np. dwie zbroje, jedna szara
+druga bia³a) to wpisz 'buy n.zbroja', gdzie n - to liczba okre¶laj±ca
+któr± z kolei zbrojê chcesz kupiæ. Podobnie w innych sytuacjach, gdy
+chcesz np. obejrzeæ cos czego masz wiêcej. Je¿eli chcesz kupiæ wiêcej
+sztuk danej rzeczy, u¿yj znaku '*' (przyk³adowo 'buy 5*jab³ko' kupujesz
+piêæ jab³ek) znaki '*' i '.' mo¿na stosowaæ w jednej komendzie, np.
+'buy 5*2.ciastko'. Wszystko pod warunkiem, ¿e masz tyle miejsca.
+
+Dziêki komendzie TRY mo¿emy wypróbowaæ czy przedmiot, który chcemy kupiæ
+bêdzie na nas pasowaæ, ¿eby niepotrzebnie nie traciæ pieniêdzy.
+
+LIST - wy¶wietla ogólnodostêpny cennik.
+LIST <nazwa> - wy¶wietla tylko rzeczy które maja zadana nazwê,
+Przyk³adowo 'list kapcie' wy¶wietli wszystkie kapcie u danego sprzedawcy
+
+SELL - sprzedaje rzecz sprzedawcy, zasady jak dla BUY
+
+VALUE - powoduje, ¿e sprzedawca wycenia dana rzecz.
+
+W przypadku gdy w lokacji stoi wiêcej sklepikarzy mo¿na wskazaæ tego, który
+nas interesuje pisz±c na przyk³ad: buy banda¿ zack
+
+Polskie odpowiedniki: {Mkup cennik sprzedaj wyceñ przymierz{x.
+Zobacz tak¿e: {Yidentify{x.
+~
+
+-1 NAPRAWA REPAIR ESTIMATE~
+Sk³adnia: {Grepair <przedmiot> [<sklepikarz>]
+          estimate <przedmiot> [<sklepikarz>]{x
+
+Komenda REPAIR s³u¿y do naprawiania przedmiotów. Naprawy mo¿na dokonaæ tylko u
+konkretnych osób. Najczê¶ciej tam gdzie mo¿na co¶ kupiæ.
+
+Komend± ESTIMATE ocenimy op³atê za naprawê danego przedmiotu.
+
+W przypadku gdy w lokacji stoi wiêcej sklepikarzy mo¿na wskazaæ tego, który
+nas interesuje pisz±c na przyk³ad: repair miecz kowal
+
+Polskie odpowiedniki: {Mzreperuj oszacuj{x.
+Zobacz tak¿e: {Yidentify{x.
+~
+
+-1 SCROLL~
+Sk³adnia: {Gconfig scroll
+          config scroll <liczba>{x
+
+Ta komenda okre¶la ile linii tekstu mud wysy³a do ciebie na jednej
+stronie. Je¶li chcesz przeczytaæ tekst mieszcz±cy siê na paru stronach
+ustaw to na odpowiedni± dla siebie warto¶æ. Miminalna wartosc to 10,
+maksymalna 60.
+
+Polski odpowiednik: {Mopcje scroll{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 BRANDISH QUAFF RECITE ZAP~
+Sk³adnia: {Gbrandish
+          quaff    <eliksir>
+          recite   <zwój> <cel>
+          zap      <cel>
+          zap{x
+
+BRANDISH wyzwala moce magicznych kosturów. QUAFF s³u¿y do po³ykania magicznych
+mikstur. Aby odczytaæ zaklêcie zapisane na magicznym zwoju u¿yj RECITE. ZAP
+u¿ywane jest do wyzwalania mocy magicznych ró¿d¿ek.
+
+Musisz trzymaæ kostur i ró¿d¿kê w rêce aby móc u¿yæ ZAP i BRANDISH.
+
+Wszystkie te komendy zu¿ywaj± w jaki¶ sposób przedmioty, które s± u¿ywane.
+Eliksiry i zwoje maj± jeden ³adunek i znikaj± od razu po u¿yciu. Ró¿d¿ki i
+kostury mog± mieæ kilka ³adunków. Kiedy ³adunki siê skoñcz± przedmiot
+znika tak¿e.
+
+Polskie odpowiedniki: {Mpotrz±¶nij po³knij recytuj potrzyj{x.
+~
+
+-1 CONSIDER OCEÑ~
+Sk³adnia: {Gconsider <postaæ>{x
+
+Dziêki tej komendzie mo¿esz oceniæ swoje szanse w walce z dan± postaci±.
+Oczywi¶cie jak to z ocen± bywa, nie mo¿na jej zbytnio ufaæ...
+
+Polski odpowiednik: {Moceñ{x.
+~
+
+-1 FOLLOW GROUP POD¡¯AJ GRUPA~
+Sk³adnia: {Gfollow <postaæ>
+          group
+          group <postaæ>{x
+
+Komenda FOLLOW s³u¿y do pod±¿ania za kim¶. Aby przestaæ za kim¶ chodziæ wpisz
+FOLLOW <swoje imiê>.
+
+GROUP <postaæ> czyni dan± osobê cz³onkiem naszej dru¿yny. Osoba ta musi
+chodziæ za tob± aby komenda GROUP zadzia³a³a. Cz³onkowie dru¿yny dziel± miêdzy
+siebie punkty do¶wiadczenia zdobyte w walce, oraz mog± u¿ywaæ komend GTELL
+i SPLIT. Aby do³±czyæ do walki prowadzonej przez cz³ónków twojej dru¿yny
+u¿yj komendy ASSIST.
+
+Je¶li dana postaæ jest ju¿ w twojej groupie to komenda GROUP usunie j± z niej.
+Cz³onkowie dru¿yny mog± tak¿e sami opu¶ciæ grupê wpisuj±c FOLLOW <swoje imiê>.
+
+GROUP bez argumentu pokazuje krótka informacjê o stanie cz³onków twojej grupy.
+
+Polskie odpowiedniki: {Mpod±¿aj grupa{x.
+Zobacz tak¿e: {Yassist groupprompt{x.
+~
+
+-1 ASSIST WSPOMÓ¯~
+Sk³adnia: {Gassist
+          assist <postaæ>{x
+
+Komenda ta s³u¿y do do³±czenia siê do walki prowadzonej przez cz³onków twojej
+dru¿yny.
+
+Polski odpowiednik: {Mwspomó¿{x.
+Zobacz tak¿e: {Ygroup{x.
+~
+
+-1 WIDZIALNO¦Æ VISIBLE~
+Sk³adnia: {Gvisible{x
+
+Komenda przerywa dzia³anie ukrycia oraz skradania siê oraz ka¿d± formê
+niewidzialno¶ci, czyni±c ciê na powrót widzialnym.
+
+Polski odpowiednik: {Mwidzialno¶æ{x.
+~
+
+-1 QUIT RENT SAVE OFFER~
+Sk³adnia:{G save
+          rent
+          offer
+          quit{x
+
+SAVE zapisuje stan twojej postaci. Co pewien czas mud sam zapisuje wszystkie
+postaci, wiêc je¶li nie musisz, to nie u¿ywaj komendy SAVE.
+
+Niektóre przedmioty, takie jak klucze lub mapy nie zapisuj± siê.
+
+Na naszym mudzie aby nie straciæ przedmiotów miêdzy kolejnymi sesjami grania
+nale¿y odszukaæ jak±¶ gospodê i wynaj±c pokój. S³u¿y do tego komenda RENT.
+W³a¶ciciel gospody ocenia jak cenne s± przedmioty, które nosisz dziêki czemu
+bêdziesz wiedzieæ jaki koszt poniesiesz za jeden dzieñ ich przechowywania.
+Dzieñ w sensie renta to doba w ¶wiecie rzeczywistym. Je¶li ponownie
+wejdziesz do naszego ¶wiata bêdziesz ubo¿szy o pewn± kwotê pieniêdzy
+obliczn± na podstawie czasu twojej nieobecno¶ci i kosztu wynajmu pokoju.
+Je¶li zdarzy siê, ¿e zabraknie ci pieniêdzy czê¶æ przedmiotów mo¿e byæ
+zarekwirowana przez w³a¶ciciela gospody.
+
+Je¶li chcesz zobaczyæ ile bêdzie ciê kosztowa³o wynajêcie pokoju bez
+w³a¶ciwego wynajêcia u¿yj komendy OFFER.
+
+RENT automatycznie zapisuje twoj± postaæ.
+
+Mo¿esz tak¿e u¿yc komendy QUIT. Jednak u¿ywaj±c jej nara¿asz siê na zgubienie
+wszystkich przedmiotów, które nosisz przy i na sobie. Dodatkowo u¿ycie komendy
+QUIT powoduje utratê do¶wiadczenia.
+
+Polskie odpowiedniki:{M zapisz wynajmij oferta wyjd¼{x.
+Zobacz tak¿e: {YHoard unhoard{x.
+
+~
+
+-1 RECALL /~
+Funkcja dostêpna na wiekszo¶ci aparatów telefonicznych.
+Pozwala wybraæ ostatnio wykrêcony numer. :)
+W grze ca³kowicie bezu¿yteczna, jako ¿e nie ma tu telefonów.
+~
+
+-1 SPLIT PODZIEL~
+Sk³adnia: {Gsplit <srebro>{x
+
+SPLIT s³u¿y do podzielenia pieniêdzy miêdzy ciebie i cz³onków twojej dru¿yny,
+którzy s± w tej samej lokacji co ty. Zwyczajem jest u¿ywanie tej komendy
+zaraz po wyci±gniêciu pieniêdzy z cia³a w³a¶nie zabitej osoby.
+
+Podzia³ ³upów jest bardzo wa¿nym elementem ka¿dej dru¿yny. Wiêkszo¶æ pieniêdzy jest automatycznie wyci±ganych i dzielonych przez cz³onków dru¿yny dziêki opcjom w configu {Yautogold {x i {Yautosplit{x. Najczê¶ciej z komendy Split korzysta przywódca grupy (b±d¼ wyznaczona osoba)która zbiera pieni±dze ze sprzeda¿y wszystkich ³upów, po czym rozdziela je w obecno¶ci tych, którzy na nie pracowali.
+
+Polski odpowiednik: {Mpodziel{x.
+Zobacz tak¿e: {Ygroup, autogold Yautosplit{x.
+~
+
+-1 CONFIG OPCJE KONFIGURACJA~
+Sk³adnia: {Gconfig
+          config <opcja> [<parametr>]{x
+
+Za pomoc± tej komendy mo¿esz ustawiæ pewne parametry maj±ce wp³yw
+na przebieg gry oraz wygl±d niektórych jej elementów.
+Wpisanie komendy bez parametrów wy¶wietla aktualn± konfiguracjê.
+Aby zmieniæ któr±¶ z opcji nale¿y podaæ odpowiednie parametry.
+I tak dostêpne parametry to:
+
+{Cautoexit{x        - w³±cza/wy³±cza pokazywanie wyj¶æ po nazwie lokacji
+{Cautomem{x         - w³±cza/wy³±cza automatyczne dodawanie rzuconych czarów
+                  do listy czarów do zapamiêtania
+{Cautogold{x        - w³±cza/wy³±cza automatyczne wyci±ganie pieniêdzy z cia³
+                  NPC
+{Cautosplit{x       - w³±cza/wy³±cza automatyczne dzielenie pieniêdzy
+                  wyci±gniêtych z cia³ NPC miêdzy cz³onków grupy
+{Cpolish{x          - w³±cza/wy³±cza polskie komendy (aby powróciæ do angielskich
+                  nale¿y wpisaæ: opcje polish
+{Cacceptsurrender{x - w³±cza/wy³±cza akceptacjê poddawania siê graczy
+{Cbrief{x           - w³±cza/wy³±cza pokazywanie opisu lokacji przy wej¶ciu
+{Ccompact{x         - w³±cza/wy³±cza wstawianie pustej linii przed promptem
+{Chints{            - w³±cza/wy³±cza porady dotycz±ce gry
+{Ccombine{x         - w³±cza/wy³±cza wy¶wietlanie listy tych samych przedmiotów
+                  jako jeden z zaznaczeniem ich liczby
+{Cdeaf{x            - w³±cza/wy³±cza s³yszenie wiadomo¶ci tell
+{Cquiet{x           - w³±cza/wy³±cza s³yszenie krzyków i wiadomo¶ci tell
+{Cprompt <tekst>{x  - kontrola wy¶wietlanego prompta, wpisz HELP PROMPT
+{Cgroupprompt{x     - w czasie walki pokazuje stan zdrowia grupy (pod promptem)
+{Cnofollow{x        - je¶li jest w³±czone nikt nie bêdzie móg³ u¿yæ na tobie
+                  komendy follow
+{Crevboard{x        - je¶li jest w³±czone wiadomo¶ci na tablicach bêdziesz widzia³
+                  w kolejno¶ci od najnowszej do najstarszej
+{Cshowposition{x ? w³±cza/wy³±cza pokazywanie statusu le¿y/klêczy/stoi w czasie walki, zarówno dla tanka jak i przeciwnika
+{Cscroll <liczba>{x - okre¶la ile linii ma posiadaæ jedna strona tekstu,
+                  pomocne przy wy¶wietlaniu d³ugiego tekstu
+{Ccodepage <tryb>{x - okre¶la standard kodowania polskich liter, wpisz
+                  config codepage aby zobaczyæ mo¿liwe tryby
+{Cwimpy <liczba>{x  - okre¶la przy ilu HP twoja postaæ ma automatycznie próbowaæ
+                  uciec z pola walki
+{Ccompress{x        - w³±cza/wy³±cza kompresjê wysy³anych danych (HELP COMPRESS)
+{Cspellcolour{x     - okre¶la styl kolorowania zaklêæ w ksiêdze (HELP SPELLCOLOUR)
+{Cnewbie{x          - w³±cza/wy³±cza kana³ Newbie (HELP NEWBIE)
+
+Polski odpowiednik: {MOPCJE{x
+Zobacz tak¿e: {YPROMPT{x
+~
+
+-1 ALIAS UNALIAS~
+Sk³adnia: {Galias
+          alias <nazwa>
+          alias <nazwa> <podstawienie>
+          unalias <nazwa>{x
+
+Komenda ta jest przydatna do tworzenia skróconych wersji czêsto u¿ywanych
+komend. Przyk³ady:
+
+alias gc get all cia³o --> wpisanie gc da ten sam efekt co 'get all corpse'
+alias ff cast 'fireball' --> ff ork bêdzie równowa¿ne 'cast 'fireball' orc'
+
+Aliasy nie mog± wywo³ywaæ innych aliasów, ani nie mog± wywo³ywaæ wiêcej
+ni¿ jednej komendy. Aktualn± listê aliasów mo¿na zobaczyæ wpisuj±c 'alias'.
+Alias <tekst> <podstawienie> s³u¿y do definiowania nowego lub podmieniania
+starego aliasa na podany tekst. Komend± unalias mo¿na usun±æ jaki¶
+zdefiniowany wcze¶niej alias. Nazwy aliasów musz± byæ jednowyrazowe.
+
+Liczba aliasów dla ka¿dej postaci jest ograniczona do 60.
+~
+
+-1 RESERVATION REZERWACJA~
+Sk³adnia: {Greservation yes{x
+          {Greservation no{x
+
+Je¶li nie chcesz aby imiê twojej postaci by³o wykorzystane przez kogo¶ innego
+podczas zak³adania nowej postaci (na przyk³ad je¶li skasujesz swoj± lub
+nast±pi kasowanie wszystkich postaci - pwipe), mo¿esz je zarezerwowaæ.
+
+Je¶li twoje imiê bêdzie zarezerwowane to przy ponownym tworzeniu postaci
+bêdziesz musia³ podaæ has³o jakie mia³a twoja postac w momencie rezerwacji.
+Rezerwowaæ mo¿na tylko imiona postaci, która ma co najmniej drugi poziom
+do¶wiadczenia oraz zaakceptowane imiê.
+
+Rezerwacje mo¿na przerwaæ lub odnowiæ (na przyk³ad je¶li zmienimy has³o
+postaci) w ka¿dej chwili.
+
+Polski odpowiednik: {Mrezerwacja{x
+~
+
+-1 IGNORE IGNORUJ~
+Sk³adnia: {Gignore{x
+          {Gignore <imiê>{x
+
+Je¶li jaki¶ gracz denerwuje ciê swoim zbyt czêstym i nachalnym gadaniem
+mo¿esz do³±czyæ go do listy osób ignorowanych. Dziêki temu nie bêdzie on
+móg³ mówiæ do ciebie, nie bêdziesz go s³yszeæ na say ani na yell.
+
+Komenda IGNORE bez parametrów wy¶wietli aktualn± listê osób ignorowanych.
+IGNORE z parametrem do³±czy podan± osobê do listy je¶li jeszcze jej tam
+nie ma, albo usunie z listy je¶li ju¿ na niej jest.
+
+Je¶li do³±czamy osobê do listy ignorowanych musi ona byæ w grze. Usun±æ
+mo¿emy oczywi¶cie kiedy chcemy.
+
+Polski odpowiednik: {Mignoruj{x
+~
+
+-1 MOUNT DISMOUNT KONIE WIERZCHOWCE WIERZCHOWIEC~
+Sk³adnia: {Gmount <wierzchowiec>{x
+          {Gmount <wierzchowiec> rest{x
+          {Gmount <wierzchowiec> stand{x
+
+
+Komenda MOUNT s³u¿y do dosiadania wierzchowców. Wierzchowcem nie musi byæ
+koniecznie koñ albo co¶ podobnego do konia. Czasem mo¿na dosi±¶æ te¿ inne
+zwierzêta, takie jak wilki.
+
+Aby zej¶æ z wierzchowca nale¿y u¿yæ komendy DISMOUNT.
+
+O wierzchowca trzeba dbaæ, dlatego wierzchowce mo¿na {Ykarmiæ (feed) {xoraz {Ypoiæ(water){x. Dodatkowo w czasie postoju najlepiej umo¿liwiæ wierzchowcowi odpoczynek odpowiedni± komend±.
+
+Polski odpowiednik: {Mdosi±d¼ zsi±d¼{x
+~
+
+-1 SCAN~
+Sk³adnia: {Gscan
+          scan <kierunek>
+          scan around{x
+
+Komend± SCAN mo¿emy rozejrzeæ siê doko³a miejsca, w którym stoimy i je¶li
+nie jest zbyt ciemno, zobaczymy kto tam siê znajduje. Badaj±æ konkretny
+kierunek mo¿na dostrzec tak¿e dalej stoj±ce postaci.
+
+Stoj±c w miejscach, z których widaæ okolicê (np. wie¿e) mo¿na u¿yæ komendy
+scan around. Zobaczymy wtedy postacie graczy znajduj±cych siê w pobli¿u.
+
+Polskie odpowiedniki: {Mrozejrzyj{x.
+~
+
+-1 KILL HIT~
+Sk³adnia: {Gkill <postaæ>
+          hit  <postaæ>{x
+
+Obie te komendy s³u¿± do rozpoczêcia walki, czy to z innym graczem czy
+postaci± kontrolowan± przez muda. Oczywi¶cie nie jest to jedyny sposób
+rozpoczêcia walki. O wiele lepsze efekty osi±ga siê zaczynaj±c walkê jakim¶
+czarem lub umiejêtno¶ci±, jak kopniêcie czy próba zad¼gania sztyletem.
+
+Nale¿y pamiêtaæ, ¿e w niektórych miejscach, nazywanych "bezpiecznymi" nie
+mo¿na rozpocz±æ walki. To samo tyczy siê niektórych postaci NPC, na przyk³ad
+nauczycieli czy sprzedawców.
+
+Polskie odpowiedniki: {Mzabij uderz{x.
+~
+
+32 ADVANCE~
+Sk³adnia: {Gadvance <postaæ> <level>{x
+
+ADVANCE ustawia dany level okre¶lonej postaci. Najwy¿sz± warto¶ci± jest twój
+aktualny level.
+~
+
+32 TRUST~
+Sk³adnia: {Gtrust <postaæ> <level>{x
+
+Komenda TRUST jest zabugowana i nie u¿ywaæ jej ;P
+~
+
+32 ALLOW BAN PERMBAN~
+Sk³adnia: {Gallow   <site>
+          ban       <site> <newbies|all|permit>
+          ban{x
+
+BAN <site> prohibits players from that site from logging in.  BAN with
+no arguments lists the banned sites.  ALLOW <site> removes a site from
+the ban list, if the remover is of equal or higher level than the banner.
+
+A site may have all players, new players, or non-permitted players (set
+by editing the player file) banned, by changing the argument after the site.
+*s may be used to ban either by suffix (*.edu), prefix (labmac*), or
+content (*andrews*), but be careful not to accidently lock out too many
+sites with a wildcard.  Bans do not save unless the permban command is used.
+~
+
+32 REBOOT SHUTDOWN~
+Sk³adnia: {Greboot
+          shutdown {RHAS£O{x
+
+REBOOT zamyka muda, i po jakim¶ czasie ponownie go uruchamia.
+SHUTDOWN zamyka muda.
+~
+
+32 WIZLOCK NEWLOCK~
+Sk³adnia: {Gwizlock
+          newlock{x
+
+WIZLOCK ustawia, ¿e do gry nie mog± wej¶æ gracze poni¿ej 32 levelu.
+NEWLOCK okre¶la, ¿e nie mog± zostaæ za³o¿one nowe postacie.
+~
+
+32 DENY~
+Sk³adnia: {Gdeny <imiê>{x
+
+DENY roz³±cza gracza i uniemo¿liwia ponowne jego zalogowanie.
+Flagê deny mo¿na usun±æ tylko edytuj±c plik postaci, dlatego te¿ nie nale¿y
+tej komendy zbyt czêsto u¿ywaæ.
+
+Zobacz tak¿e: FREEZE.
+~
+
+32 DISCONNECT~
+Sk³adnia: {Gdisconnect <imiê>{x
+
+Disconnect roz³±cza gracza z Mudem. Jest to jedna z nie ¶mierciono¶nych metod pozbywania siê niechcianych graczy.
+~
+
+32 FREEZE~
+Sk³adnia: {Gfreeze <imie>{x
+
+FREEZE <postac>  blokuje wybranej osobie mo¿liwo¶æ wykonywania jakichkolwiek czynno¶ci. Jest najlepszym sposobem na pozbycie siê natrêta.
+~
+
+32 DEBUG~
+Sk³adnia: {Gdebug <level>{x
+
+DEBUG <level> powoduje ustawienie poziomu zapisywania informacji debuguj±cych
+do pliku na okre¶lony poziom.
+0 - domy¶lny, zapisywane tylko b³êdy
+1 - zapisywane informacje o podejrzanych o b³êdy miejscach kodu
+2 - poziom informacyjny pozwalaj±cy ¶ledziæ miejsca w kodzie w których
+wykonuje siê program
+3 - logowane wszystko co siê da
+Oczywi¶cie wymaga ustawienia w odpowiednich miejscach kodu odwo³ania do
+funkcji save_debug_info(...).
+~
+
+32 FORCE~
+Sk³adnia: {Gforce <postac> <komenda>
+          force all <komenda>{x
+
+FORCE forces one character to execute a command, except of course delete.
+
+Below level 57 (Deity) force can only be used on mobiles, and force all is
+unavailable.  You also cannot 'force orc murder hugo', for example.
+
+FORCE 'all' forces all player characters to execute a command.
+This is typically used for 'force all save'.
+~
+
+32 SOCKETS~
+Sk³adnia: {Gsockets
+          sockets <imie>{x
+
+SOCKETS reports all of the visible users connected to the server, including
+users in the process of logging in.  The two numbers inside brackets are the
+channel number and the 'connected' state.  The 'connected' states are listed in
+merc.h: 0 is CON_PLAYING; non-zero values are various states of logging in.
+
+The optional name argument shows the site of a player, or optional can be used
+to identify switched gods (i.e. socket orc shows the name of anyone switched
+into an orc).
+~
+
+32 LOAD~
+Sk³adnia: {Gload mob <vnum>
+          load obj   <vnum> <level>{x
+
+Komenda load s³u¿y do ³adowania nowych przedmiotów oraz mobów (do
+klonowania przedmiotów ju¿ istniej±cych u¿yj komendy clone). Vnum
+mo¿e zostaæ znaleziony komenda vnum lub poprzez wy¶wietlenie informacji
+o istniej±cym przedmiocie czy mobie komenda stat.
+
+Load ³aduje przedmiot do inwentarza je¶li przedmiot mo¿e byæ noszony. W
+przeciwnym wypadku przedmiot ³adowany jest do pokoju, w którym stoi
+osoba u¿ywaj±c komendy. Moby ³adowane s± zawsze do pokoju, w którym
+komenda zosta³a u¿yta.
+
+Podanie levelu ³adowanego przedmiotu nic nie zmienia, ¿e wzglêdu na to,
+¿e poziomy przedmiotów s± na Killerze nieu¿ywane.
+
+Zobacz tak¿e:  CLONE, VNUM, STAT
+~
+
+32 SET~
+Sk³adnia: {Gset mob <mob>       <pole>  <wartosc>
+          set char  <postaæ>    <pole>  <warto¶æ>
+          set obj   <przedmiot> <pole>  <warto¶æ>
+          set room  <number>    <pole>  <warto¶æ>
+          set skill <postaæ>    <nazwa> <warto¶æ procentowa>
+          set skill <postaæ>    all     <warto¶æ procentowa>{x
+
+Komenda SET ustawia numeryczne warto¶ci danym polom okre¶lonemu .
+Wydaj komendê SET mob, char, obj, room, aby zobaczyæ jakie s± pola.
+SET skill <postaæ> all ustawia wszystkie skille danej postaci na okre¶lon±
+warto¶æ.
+~
+
+32 STRING~
+Sk³adnia: {Gstring obj <przedmiot> <pole> <³añcuch>
+          string mob   <mob>       <pole> <³añcuch>
+          string char  <postaæ>    <pole> <³añcuch>{x
+
+Komenda STRING s³u¿y do zmiany ró¿nych pól tekstowych zwi±zanych z
+przedmiotami, mobami lub graczami. Pe³n± listê pól mo¿na wy¶wietliæ
+wywo³uj±c komendê string, string mob lub string char bez parametrów.
+
+~
+
+32 NOCHANNEL NOEMOTE NOSHOUT NOTELL~
+Sk³adnia: {Gnochannel <postaæ>
+          noemote   <postaæ>
+          noshout   <postaæ>
+          notell    <postaæ>{x
+
+NOEMOTE uniemo¿liwia wydawanie emocji przed dana postaæ.
+NOSHOUT i NOTELL uniemo¿liwia u¿ywania kana³ów shout i tell do komunikowania
+siê przez dana postaæ w obie strony (ta osoba nie dostaje komunikatów od innych
+graczy na tych kana³ach).
+
+Komenda NOCHANNEL nie dzia³a ;P
+~
+
+32 PURGE~
+Sk³adnia: {Gpurge
+          purge <nazwa>{x
+
+PURGE bez argumentów oczyszcza dany pokój z mobow i obiektów.
+PURGE <nazwa> wyrzuca z gry moby o danej nazwie.
+
+Komenda nie dzia³a na moby (obiekty), które maja flagê NOPURGE.
+~
+
+32 RESTORE~
+Sk³adnia: {Grestore
+          restore room
+          restore <postaæ>
+          restore all{x
+
+U¿ycie komendy przywraca do pe³na hp oraz punkty ruchu postaci, która jest
+celem dzia³ania komendy. Obejmuje to tak¿e usuniecie takich czarów jak
+poison, plague oraz blindness.
+
+Restore room (lub restore bez parametru) wykonuje restore na ka¿dym graczu i
+mobie w lokacji. Restore all dziala dla wszystkich polaczonych graczy.
+Restore nie powinienn byæ u¿ywany zbyt czêsto.
+~
+
+32 SLAY~
+Sk³adnia: {Gslay <postaæ>{x
+
+SLAY zabija dana postaæ.
+~
+
+32 TRANSFER TELEPORT~
+Sk³adnia: {Gtransfer <postaæ>
+          transfer <postaæ> back
+          transfer all
+          transfer <postaæ> <lokacja>
+          transfer all <lokacja>{x
+
+Komenda TRANSFER przenosi dana postaæ lub te¿ wszystkich graczy do danej
+lokacji. Domy¶lna lokacja jest ta, w której siê aktualnie znajdujesz.
+Podanie BACK po postaci przenosi j± tam gdzie by³a poprzednio.
+~
+
+32 AT~
+Sk³adnia: {Gat <lokacja> <komenda>{x
+
+AT wykonuje komendê w okre¶lonej lokacji, jakby¶ siê tam znajdowa³.
+Lokacja mo¿e byæ okre¶lona jako np. vnum pokoju, nazwê moba.
+~
+
+32 ECHO GECHO PECHO~
+Sk³adnia: {Gecho  <wiadomo¶æ>
+          gecho <wiadomo¶æ>
+          pecho <postaæ> <wiadomo¶æ>{x
+
+Komendy te powoduj± wys³anie wiadomo¶ci, ale nie okre¶laj± kto ta wiadomo¶æ
+wys³a³.
+ECHO wysy³a wiadomo¶æ do wszystkich osób w pokoju, w którym siê znajdujesz.
+GECHO wysy³a wiadomo¶æ do wszystkich graczy.
+PECHO wysy³a wiadomo¶æ do okre¶lonej postaci.
+~
+
+32 GOTO VIOLATE~
+Sk³adnia: {Ggoto <lokacja>
+          goto back
+          goto area <numer krainy>
+          goto area <nazwa lub czesc nazwy krainy>
+          violate <lokacja>{x
+
+GOTO przenosi ciê do okre¶lonej lokacji.
+GOTO BACK przenosi ciê do lokacji, w której by³e¶ poprzednio.
+GOTO AREA przenosi ciê do pierwszej lokacji podanej krainy.
+VIOLATE robi to samo co goto, ale umo¿liwia wej¶cie do prywatnych lokacji.
+~
+
+32 HOLYLIGHT~
+Sk³adnia: {Gholylight{x
+
+Ta komenda powoduje, ¿e nie trzeba rzucaæ czarów takich jak 'detect invis' czy
+'detect hidden'. Po prostu widaæ wszystkie moby i przedmioty.
+~
+
+32 INVIS WIZINVIS~
+Sk³adnia: {Gwizinvis <level>{x
+
+Ta komenda powoduje niewidoczno¶æ dla graczy o ni¿szym levelu ni¿ level podany
+jako argument komendy. Domy¶lnym argumentem jest Twój aktualny poziom.
+~
+
+32 INCOGNITO~
+Sk³adnia: {Gincognito <level>{x
+
+Ta komenda powoduje niewidoczno¶æ dla graczy, którzy znajduj± siê w innym
+pokoju niz. Ty. Gracze o levelu równym lub wy¿szym ni¿ ten podany jako argument
+widza ciê niezale¿nie, gdzie siê znajdujesz. Domy¶lnym argumentem jest Twój
+aktualny poziom.
+~
+
+32 MEMORY~
+Sk³adnia: {Gmemory{x
+
+MEMORY wy¶wietla wielko¶æ zajmowanej pamiêci przez poszczególne czê¶ci muda.
+~
+
+32 VNUM~
+Sk³adnia: {Gvnum       <nazwa>
+          vnum obj   <nazwa>
+          vnum mob   <nazwa>
+          vnum skill <nazwa>{x
+
+Komenda VNUM podaje vnum obiektu lub moba o danej nazwie.
+VNUM SKILL podaje numer skillu i numer slotu w jakim ten skill siê znajduje.
+
+Zobacz tak¿e: LOAD
+~
+
+32 STAT~
+Sk³adnia: {Gstat      <nazwa>
+          stat mob  <nazwa>
+          stat obj  <nazwa>
+          stat room <numer>{x
+
+Komenda STAT podaje wiele informacji na temat przedmiotów, mobów lub pokoi.
+Bez podania pierwszego argumentu najpierw sprawdzane s± przedmioty o podanej
+nazwie. Gdy nie ma takiego przedmiotu s± szukane moby o tej nazwie.
+Gdy drugim parametrem jest numer, to szukany jest tylko room o danym numerze.
+Gdy u¿yjemy STAT ROOM bêd± pokazane parametry pokoju, w którym siê znajdujesz.
+
+Zobacz tak¿e: GOTO, TRANSFER.
+~
+
+32 MWHERE~
+Sk³adnia: {Gmwhere <nazwa>{x
+
+MWHERE pokazuje vnumy lokacji w których znajduj± siê moby o podanej nazwie.
+~
+
+32 PEACE~
+Sk³adnia: {Gpeace{x
+
+Komenda PEACE powoduje przerwanie wszystkich walk odbywaj±cych siê w pokoju.
+~
+
+32 POOFIN POOFOUT~
+Sk³adnia: {Gpoofin   <tekst>
+          pooffout <tekst>{x
+
+Standardowe wiadomo¶ci dla goto SA 'arrives in a swirling mist' i
+'leaves in a swirling mist'.
+Mo¿esz te wiadomo¶ci zast±piæ w³asnymi za pomoc± tych komend.
+POOFIN <tekst> zmienia wiadomo¶æ przy wchodzeniu do lokacji za pomoc± goto.
+POOFOUT <tekst> zmienia wiadomo¶æ przy wychodzeniu z lokacji za pomoc± goto.
+<tekst> musi zawieraæ twoje imiê.
+
+Poofin i poofout SA widoczne tylko dla postaci, które ciebie widza.
+
+Zobacz tak¿e: GOTO.
+~
+
+32 PROTECT~
+Sk³adnia: {Gprotect <postaæ>{x
+
+Komenda PROTECT ¶luzy do chronienia danej postaci przed niechcianym
+podgl±daniem poprzez komendê SNOOP.
+Za³o¿enie i zdjêcie ochrony na dana postaæ jest widoczne przez ta postaæ.
+
+Zobacz tak¿e: SNOOP.
+~
+
+32 LOG SNOOP~
+Sk³adnia: {Glog   <postaæ>
+          log   all
+          snoop <postaæ>{x
+
+LOG <postaæ> powoduje, ¿e wszystkie komendy, wpisywane przez dana postaæ
+SA zapisywane do pliku i wy¶wietlane w jednym z serwisów informacyjnych dla
+nie¶miertelnych.
+Wiêkszo¶æ komend dostêpnych dla nie¶miertelnych jest zawsze logowana.
+LOG ALL loguje wszystkie komendy wszystkich osób na mudzie.
+
+SNOOP pokazuje wszystko co wpisuje dana postaæ osobie, która wykona³a ta
+komendê. Mo¿na szpiegowaæ kilka osób jednocze¶nie.
+SNOOP SELF anuluje wszystkie wykonane przez ciebie SNOOPy.
+~
+
+32 SWITCH RETURN~
+Sk³adnia: {Gswitch <postaæ>
+          return{x
+
+Komenda SWITCH przenosi ciê do innej postaci (nie mo¿e to by gracz.
+Mo¿esz wszystko robiæ co tylko dana postaæ potrafi.
+
+Komenda RETURN powoduje, ¿e wracasz do swojego cia³a.
+~
+
+32 IMMTALK :~
+Sk³adnia: {Gimmtalk
+          immtalk <wiadomo¶æ>{x
+
+IMMTALK wysy³a wiadomo¶æ do wszystkich nie¶miertelnych.
+':' jest skrótem dla immtalk.
+
+IMMTALK bez argumentu w³±cza lub wy³±cza kana³ nie¶miertelnych.
+~
+
+32 WIZNET~
+Sk³adnia: {Gwiznet
+          wiznet show
+          wiznet status
+          wiznet <serwis>{x
+
+Wiznet to wiadomo¶ci dla nie¶miertelnych.
+Ta komenda okre¶la siê jakie typy wiadomo¶ci chcesz widzieæ.
+WIZNET bez argumentów w³±cza lub wy³±cza serwis.
+WIZNET show pokazuje cala listê serwisów jakie mo¿esz zaprenumerowaæ.
+WIZNET status pokazuje subskrybowane serwisy informacyjne.
+WIZNET <serwis> w³±cza lub wy³±cza dany serwis.
+
+Wiêcej serwisów maja nie¶miertelni na wy¿szych levelach.
+~
+
+32 WIZHELP~
+Sk³adnia: {Gwizhelp{x
+
+Wy¶wietla listê wszystkich komend dostêpnych dla nie¶miertelnych.
+~
+
+-1 JEZYKI LANG SPEAK~
+Sk³adnia: {Glanguages
+          speak <jêzyk>{x
+
+Na naszym mudzie mo¿esz porozumiewaæ siê w wielu jêzykach. Kto¶ mo¿e mówiæ
+do ciebie w jêzyku, którego nie znasz. Jêzykiem, który zna prawie ka¿dy
+zamieszkuj±cy ¶wiat jest jêzyk wspólny. Oprócz tego istnieje szereg jêzyków
+rasowych i specjalnych.
+
+Komenda LANUGAGES s³u¿y do wy¶wietlenia listy jêzyków, które umiesz oraz
+poziomu ich znajomo¶ci.
+
+Komend± SPEAK mo¿emy okre¶liæ jakim jêzykiem bêdziemy siê pos³ugiwaæ.
+
+Polskie odpowiedniki: {Mjêzyki u¿ywaj{x.
+~
+
+-1 PRZE£ADOWANIE~
+Czasami w czasie gry nastêpuje co¶ co nazywa siê prze³adowaniem ¶wiata.
+Mud w tym czasie uruchamia siê ponownie, ale inaczej ni¿ przy reboocie
+gracze nie trac± po³±czenia z mudem i po zakoñczeniu prze³adowania mog±
+kontynuowaæ przygodê od miejsca, w którym stali przed prze³adowaniem.
+
+Czasami mo¿liwe jest, ¿e w trakcie prze³adowania co¶ siê zepsuje i mud
+siê wy³±czy. W tym przypadku grê zaczniemy od miejsca, w którym ostatnio
+wynajêli¶my pokój.
+
+Cia³a graczy s± zapisywane przed prze³adowanie i s± ³adowane po jego
+zakoñczeniu.
+~
+
+-1 CZ£OWIEK LUDZIE~
+{GLUDZIE{x
+
+Ludzie posiadaj± ogromny wp³ywa na swoje przeznaczenie, dzieki czemu mog±
+zostaæ kimkolwiek tylko zechc±. Potrafi± siê szybko uczyæ, s± silni,
+inteligentni i m±drzy, dziêki czaemu potrafi± siê dostosowaæ do prawie
+ka¿dych wymagañ.
+
+Na ¦wiecie pojawili siê d³ugo po elfach i krasnoludach, ale ich
+ekspansywna natura, brak lêków, czy g³upota jak powiedzia³by elfy,
+spowodowa³y, ¿e jako rasa najszybciej zajmowali nowe tereny. Szybko¶æ z
+jak± nastêpuj± po sobie nastêpne pokolenia powoduje, ¿e ludzie czêsto s±
+sk³onni do wiêkszego ryzyka i po¶wiêcenia ni¿ starsze rasy.
+
+Cz³owiek nie posiada ¿adnych szczególnych cech, ale wykazuje siê pewnymi
+zdolno¶ciami przywódczymi, dziêki czemu inni postrzegaj± ludzi jako
+postaci bardziej charyzmatyczne. Poniewa¿ Bogowie sprzyjaj± awanturnikom
+i szaleñcom szczê¶cie sprzyja tej rasie.
+~
+
+40 SHADOW WEAPON~
+Nazwa:    SHADOW WEAPON
+Typ:      czar, tylko dla czaruj±cego
+Szko³a:   {Rinwokacje/wywo³ania{x
+Sk³adnia: {Gcast 'shadow weapon'{x
+          {Gczaruj 'shadow weapon'{x
+
+Do¶wiadczeni magowie potrafi± zmusiæ co¶ tak niematerialnego jak cieñ,
+by s³u¿y³o ich celom. Uformowane zaklêciem maga ostrze potrafi byæ
+jednak bardzo kapry¶ne i w zale¿no¶ci od do¶wiadczenia maga jest bardzo
+ró¿ne, od do¶æ przeciêtnego, a takie zazwyczaj tworzy niewprawiony
+w tajemne arkana nowicjusz, po broñ tak potê¿n±, ¿e pêkani± przed
+ni± najsielniejsze zaklêcia.
+
+Dostêpne dla: {Cmag{x.
+Niedostêpne dla szkó³:
+       {Gprzywo³ywanie/sprowadzanie{x,
+       {Gzaczarowania/zauroczenia{x.
+~
+
+-1 LUCK~
+Nazwa:    LUCK
+Typ:      czar
+Sfera:    {Rastralna{x
+Szko³a:   {Rprzemiany{x
+Sk³adnia: {Gcast luck [osoba]{x
+          {Gczaruj luck [osoba]{x
+
+Sprzymierzeñcy bogów potrafi± zabiegaæ o ich szczególne ³aski, dziêki
+czemu maj± po prostu wiêcej szczê¶cia.
+
+Dostêpne dla: {Cdruid{x, {Ckleryk{x i {Cpaladyn{x.
+~
+
+-1 PURIFY FOOD~
+Nazwa:    PURIFY FOOD
+Typ:      czar
+Sfera:    {Rwszystkie{x
+Szko³a:   {Rodrzucanie{x
+Sk³adnia: {Gcast 'purify food' <jedzenie/napój>{x
+          {Gczaruj 'purify food' <jedzenie/napój>{x
+
+Czar ten s³u¿y do oczyszczenia ¿ywno¶ci lub napoju z trucizny,
+przywracaj±c im ¶wie¿o¶æ.
+
+Dostêpne dla: {Cdruid{x, {Ckleryk{x i {Cpaladyn{x.
+~
+
+-1 LIGHT~
+Nazwa:    LIGHT
+Typ:      czar
+Sfera:    {Rs³oñce{x
+Szko³a:   {Rprzywo³ywanie/sprowadzanie{x
+Sk³adnia: {Gcast light{x
+          {Gczaruj light{x
+
+Jest powiedziane, ¿e nie ma takiej ciemno¶ci, w której ca³kowicie nie
+istnieje ¶wiat³o. Ten czar wykorzystuje tê w³a¶ciwo¶æ cz±steczek ¶wiat³a,
+zbieraj±c je w formê kuli, która nastêpnie mo¿e o¶wietlaæ komu¶ drogê.
+
+Dostêpne dla: {Ckleryk{x, {Cmag{x i {Cpaladyn{x.
+~
+
+-1 FAERIE FIRE~
+Nazwa:    FAERIE FIRE
+Typ:      czar
+Sfera:    {Rastralna{x
+Szko³a:   {Rprzemiany{x
+Sk³adnia: {Gcast 'faerie fire' <cel>{x
+          {Gczaruj 'faerie fire' <cel>{x
+
+Mo¿esz czasowo naruszyæ strukturê i spójno¶æ pancerza ofiary za pomoc±
+tego czaru, znacznie pogarszaj±c jego w³a¶ciwo¶ci.
+
+Dostêpne dla: {Cdruid{x i {Cmag{x.
+~
+
+1 mud~
+Ok, co u nas jest inaczej i czego mozesz sie spodziewac na tym mudzie
+Pewnie wiele z tych informacji to dla ciebie nie nowosc ale zawsze warto
+przypomniec.
+- FULL PK - na mudzie zabijanie innych graczy jest calkowicie dozwolone i nie
+regulowane zadnymi zasadami. Jedyne co mo¿e byc karane to nieuczciwa
+ingerencja bogow, ale takowej sie nie spodziewaj.
+Nie zdziw sie tez, jezeli w niektórych miastach zabijanie mieszkancow
+a tym bardziej urzednikow miejskich, czy waznych postaci, bedzie sie wiazalo
+z odsiadka w wiezieniu.
+- LEVELE - nie ma levelow przedmiotow, wiec to czy mozesz czegos uzywac czy nie
+zalezy jedynie od tego czy cie na to stac (RENT). Licz sie tez z tym ze jezeli
+dostaniesz jakis dobry sprzet od kogos silniejszego - staniesz sie celem atakow
+innych graczy, dlatego sami dbajcie o to co nosicie i martwcie sie, zeby postac
+byla w stanie 'obronic' swoj sprzet.
+Nie sa widoczne levele graczy, bo niby dlaczego ktos ma wiedziec kto ty jestes.
+Unikamy tym samym scigania niskolevelowych graczy przy PK.
+- OGRANICZENIA - rasowe i klasowe co do uzywanego sprzetu, jak samemu zauwazysz
+klasy czarujace zgodnie z realiami swiata fantazy maja powazne ograniczenia
+w uzywaniu zbroi a wlasciwie to  wogole nie moga ich uzywac. Podobnie sie ma
+z bronia: wszystko zalezy od twoich umiejetnosci a co za tym idzie nie
+kazda klasa mo¿e uzywac kazdej broni.
+- RENT - rozlaczenie sie postaci z mudem wiaze sie z utrata wszystkiego !
+Jedyne wyjscie to skorzystac z miejsc gdzie mozna bezpiecznie zostawic postac
+i zebrany sprzet. Zwykle beda to karczmy,  hotele i wszystkie pomieszczenia
+'do wynajecia'. W celu bezpiecznego przerwania gry uzywamy komendy RENT i OFFER
+RENT - opuszczasz gre - postac, sprzet i kasa sa bezpieczne, OFFER -otrzymujesz
+cennik, czyli dowiesz sie ile cie bedzie kosztowac pozostawienie danego gratu.
+Pomieszczenia takie dostepne beda w kazdym wiekszym miescie a i poza miastami
+napewno znajda sie jakies miejsca gdzie mozna przekimac.
+
+- ZMECZENIE - zmeczenie postaci ma powazny wplyw na poruszanie sie i walke.
+Jezeli twoja postac jest zmeczona lub senna nie licz na to ze bedzie sluchac
+twoich rozkazow - nie zawsze idzie tam gdzie chcesz :).
+- PORUSZANIE SIE - nie polecamy ganiac po swiecie na bosaka, grozi smiercia
+lub kalectwem ;) (tracisz hp). Punkty mv nie sa odbierane w trakcie walki
+- WALKA - za ucieczke z walki nie traci sie exp, co wiecej czasem niektórym
+przeciwnikom mozna sie poddac i mo¿e oszczedza wam zycie, komenda SURRENDER.
+Co to jest TANK ? Hehe - to dluzszy temat:  to ten co najbardziej zbiera
+po tylku, dotyczy to walki w grupce. .
+- CZARY - czar, który sie zna trzeba przed uzyciem zapamiêtaæ - HELP MEM
+Nie mamy tutaj czegos takiego jak mana ale nalezy sie liczyc z tym ze czarowanie
+moze czasem kosztowac nas troche hp albo wplywac na zmeczenie postaci.
+- UCZENIE SIE SKILLOW - Po pierwsze: nie ma uniwersalnych nauczycieli.
+
+Kazdy nauczyciel ma waska specjalizacje oraz poziom od i do jakiego uczy.
+Wiadomo, ze mistrzowie gildii, cechow i inni beda w stanie nauczyc was
+wiekszosci podstawowych umiejetnosci danej profesji, ale zeby tak naprawde
+cos umiec warto poszukac po swiecie powaznych nauczycieli i trenerow.
+Na poczatku nauczyciel da wam szczatkawa wiedze w zakresie tego co umie.
+W miare uzywania rosnie mozliwosc dalszego uczenia sie skillu u nauczyciela.
+Wazne - mozna sie uczyc czesciej niz raz na level
+- NAUKA CZAROW - system nauczysieli podobnie jak przy skillach tyle, ze:
+czaru uczy sie raz i na cale zycie. To ze jakis nauczyciel zna czar wcale nie
+znaczy, ze sie go nauczycie, czasem sie to nie udaje. Bez nerwow - wtedy warto
+udac sie do innego nauczyciela albo sprobowac jeszcze raz na nastepnym levelu
+u tego samego.
+- QUESTY - nie ma instystucji questmastera - wszystkie przygody i zadania sa
+porozrzucane po swiecie i nikt nawet najwyzsi na tym mudzie nie znaja ich
+wszystkich. Wszystkie informacje questowe podaja postaci w grze wiec warto
+je spisywac, nie istnieje komenda quest info. Questu nie da sie przerwac czy
+uruchomic jeszcze raz. Jezeli wydaje wam sie ze jakas przygoda nie skonczyla
+sie tak jak powinna ;) napiszcie o tym do odpowiedniej osoby.
+- POROZUMIEWANIE SIE - dostepne komendy:
+patrz help say
+Postaci niezalezne-moby-npc nie umieja inteligentnie rozmawiac ale jezeli maja
+ci cos do powiedzenia, beda mowic same lub reagowac na jakies skowa kluczowe
+zwiazane z przygoda, miejscem lub pogoda :). Wiekszosc takowych reaguje na
+powitania i inne grzecznosci (tell ktos witaj, tell ktos pomoc)
+~
+
+-1 DEPOSIT WITHDRAW BANK WP£AÆ WYP£AÆ~
+W banku mo¿esz zdeponowaæ swoje pieni±dze. Bêd± tam du¿o bezpieczniejsze,
+ni¿ wtedy, kiedy nosisz je ze sob±, poniewa¿ nie zgubisz ich, ani nie
+przepadn± w razie twojej ¶mierci. Pieni±dze mo¿esz wp³acaæ w dowolnym
+banku na ca³ym mudzie, s± one równie¿ dostêpne przy wyp³acaniu we
+wszystkich bankach. Oczywi¶cie bankierzy pobieraj± prowizjê za bezpieczne
+przechowywanie twoich pieniêdzy. Prowizja nie zale¿y od czasu
+przechowywania, tylko od ilo¶ci przechowywanej gotówki.
+
+Wp³acanie pieniêdzy do banku
+
+Sk³adnia: {Gdeposit ile{x
+          {Gwp³aæ ile{x
+
+Wyp³acanie pieniêdzy z banku
+
+Sk³adnia: {Gwithdraw ile{x
+          {Gwyp³aæ ile{x
+
+Zobacz tak¿e: {Ypieni±dze{x.
+~
+
+-1 RULES ZASADY REGU£Y ETYKA~
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+                           {R^uNIE{x {R^uWOLNO{x{R:{x
+
+{B<==> {R¦wiadomie wykorzystywaæ b³êdow w grze{x {B<==>{x
+¦wiadomie wykorzystywaæ b³êdow w grze podlega karze ustalonej przez
+Nie¶miertelnego w³±cznie ze skasowaniem wszystkich postaci gracza.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RGraæ kilkoma postaciami jednocze¶nie{x {B<==>{x
+Jakiekolwiek próby grania jednoczesnie dwoma postaciami, niezale¿nie od
+tego, czy z jednego komputera, czy nie, oraz próby zdalnego sterowania
+inn± postaci± bêd± karane. Pod ten paragraf podlega tak¿e pozostawianie
+postaci z zerwanym po³±czeniem i wchodzenie w tym czasie inn±.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RPo¿yczyæ, oddaæ, wymieniæ lub sprzedaæ postaæ {B<==>{x
+Zmiana w³a¶ciciela postaci karana bêdzie kasacj± tej postaci, bez
+wzglêdu, czy zmiana ta jest tylko chwilowa czy trwa³a.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RU¿ywaæ niedozwolonych imion{x {B<==>{x
+Czyli takich, które nie posiadaj± prawid³owej polskiej odmiany (patrz
+help/pomoc odmiana), s± bezsensownym zlepkiem liter, nie pasuj± do
+klimatu fantasy lub s± imionami bohaterów literackich. Imiona powinny
+byæ ORYGINALNE, z niczym siê NIE KOJARZ¡CE oraz w stylu FANTASY. Od
+decyzji odrzucaj±cej imiê nie ma odwo³ania, natomiast imiê raz
+zaakceptowane mo¿e utraciæ t± akceptacjê w ka¿dej chwili.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RU¿ywaæ automatów u³atwiaj±cych grê{x {B<==>{x
+Przez co rozumie siê wszystkie programy i skrypty wykonuj±ce
+jakiekolwiek czynno¶ci w sposób automatyczny. Wiêcej komentarzy nie
+trzeba, ci co u¿ywaj± wiedz± o co chodzi.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RProsiæ Nie¶miertelnych o odzyskanie has³a{x {B<==>{x
+Wszelkie próby proszenia Nie¶miertelnych o podanie has³a do swojej
+postaci  s± bezcelowe i pozostan± bez odpowiedzi. (patrz help/pomoc
+has³o)
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RProsiæ Nie¶miertelnych o przywrócenie postaci z tzw. backupa{x {B<==>{x
+Wszelkie próby proszenia Nie¶miertelnych o przywrócenie pliku postaci z
+kopii bezpieczeñswa s± bezcelowe i pozostan± bez odpowiedzi. Skasowanie
+postaci przez osobê znaj±c± has³o jest ostateczne.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+{B<==> {RPrzeszkadzaæ innym graczom{x {B<==>{x
+Pomimo tego, ¿e w naszym ¶wiecie panuje zasada Full PK - czyli ka¿dy gracz
+ma mo¿liwo¶æ zabicia postaci innego gracza to jednak, aby nie zniechêcaæ
+innych graczy do gry, trzeba zachowaæ umiar. Zabijanie tej samej postaci
+wiele razy w krótkim odstêpie czasu, lub masowe zabijanie innych graczy,
+bez wyra¼nego powodu podchodzi raczej pod sadyzm. I jako sadyzm bêdzie
+traktowane.
+Karane tak¿e bêd± inne formy uprzykrzania gry, m. in.: nieuzasadnione
+i czêste rzucanie z³o¶liwych czarów, podawanie myl±cych informacji graczom
+pocz±tkuj±cym, spamowanie komend.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+Wszystko co zostalo tu stworzone jest dla Was, ograniczenia, utrudnienia
+i zasady s± po to aby uczyniæ grê ciekawsz± i bardziej
+satysfakcjonuj±c±. Nieprzestrzeganie zasad, uprzykrzanie gry innym
+traktowane bêd± jak dzia³anie na szkodê muda i odpowiednio karane.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+
+Przypadki ³amania zasad prosimy zg³aszaæ na adres {Cgurthg.shae@gmail.com{x.
+
+Za¿alenia i skargi na Nie¶miertelnych prosimy zg³aszaæ na adres {Cgurthg.shae@gmail.com{x.
+
+Sugestie, pomys³y i komentarze prosimy umieszczaæ na forum muda {Chttp://killer.mud.pl/fora/{x.
+
+{D.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:._.:*-*:.{x
+~
+
+-1 ORB OF ENTROPY~
+Nazwa:    ORB OF ENTROPY
+Typ:      czar
+Sfera:    {Rnekromancja{x
+Szko³a:   {Rnekromancja{x
+Sk³adnia: {Gcast 'orb of entropy' <cel>{x
+          {Gczaruj 'orb of entropy' <cel>{x
+
+Czar ten wyzwala kulê negatywnej energii, która uderza w cel i wysysa
+si³y ¿yciowe ofiary. Nale¿y pamiêtaæ, ¿e czar dzia³a tylko na istoty ¿ywe,
+a nie na umarlaki, demony i inne podobne stworzenia.
+
+Dostêpne dla: {Cmag, specjalista nekromanta{x.
+~
+
+-1 CECHY STATYSYKI~
+Cechy postaci s± okre¶lone przez zespó³ wspó³czynników, dziêki którym
+postaæ zachowuje siê tak jak mo¿e siê zachowaæ. U¿ywa przedmiotów zgodnie
+z w³asnymi ograniczeniami (np. nie mo¿e pos³u¿yæ siê bardzo ciê¿k±
+broni± je¿eli nie jest wystarczaj±co silny). Cechy s± losowane podczas pierwszych poziomów ¿ycia, a nastêpnie co dwa poziomy ka¿da z cech mo¿e wzrosn±æ. Wielko¶æ tego wzrostu zale¿y od rasy i klasy postaci oraz przypadku. Dlatego mo¿esz spotkaæ bardzo s³abych wojowników i bardzo silnych magów, chocia¿ w¶ród bardzo do¶wiadczonych awanturników to siê raczej nie zdarza.
+
+Zobacz tak¿e: {Ycharyzma{x, {Yinteligencja{x, {Ykondycja{x, {Ym±dro¶æ{x,
+              {Ysi³a{x, {Yszczê¶cie{x, {Yzrêczno¶æ{x.
+~
+
+-1 CHARYZMA CHARISMA~
+Charyzma okre¶la si³ê charakteru, urok osobisty oraz zdolno¶ci przywódcze.
+Jest wa¿na dla wszystkich klas, a w szczególno¶ci dla postaci, które musz±
+prowadziæ zauroczone, b±d¼ przyzwane stwory, bo w³a¶nie od tej cechy
+najbardziej zale¿y ilo¶æ prowadzonych stworzeñ.
+Charyzma jest wa¿n± cech± dla paladynów i po¶rednio kap³anów oraz czarnych rycerzy.
+
+Zobacz tak¿e: {Yinteligencja{x, {Ykondycja{x, {Ym±dro¶æ{x, {Ysi³a{x,
+              {Yszczê¶cie{x, {Yzrêczno¶æ{x.
+~
+
+-1 INTELIGENCJA INTELLIGENCE~
+Inteligencja reprezentuje elokwencjê postaci, rozumienie oraz zdolno¶æ
+uczenia siê. Okre¶la ile jêzyków postaæ mo¿e siê nauczyæ. Jest podstawow±
+cech± magów, którzy musz± mieæ jasny umys³ by rozumieæ i zapamiêtywaæ
+czary. Od tej cech zale¿y równie¿ to jak szybko bêdziemy siê uczyæ.
+
+Zobacz tak¿e: {Ycharyzma{x, {Ykondycja{x, {Ym±dro¶æ{x, {Ysi³a{x,
+              {Yszczê¶cie{x, {Yzrêczno¶æ{x.
+~
+
+-1 KONDYCJA CONDITION~
+Kondycja opisuje budowê cia³a, sprawno¶æ, zdrowie, odporno¶æ na niewygody,
+zranienia i choroby. Wp³ywa na ilo¶æ punktów ¿ycia oraz szansê przetrwania
+ro¿nych ataków i sytuacji. Jest wa¿na dla wszystkich klas.
+
+Zobacz tak¿e: {Ycharyzma{x, {Yinteligencja{x, {Ym±dro¶æ{x, {Ysi³a{x,
+              {Yszczê¶cie{x, {Yzrêczno¶æ{x.
+~
+
+-1 M¡DRO¦Æ WISDOM~
+M±dro¶æ okre¶la o¶wiecenie postaci, jej s±dy, si³ê woli, intuicjê oraz
+zdrowy rozs±dek. Ustala odporno¶æ na ataki magiczne. Jest g³ówn± cech±
+kap³anów.
+
+Zobacz tak¿e: {Ycharyzma{x, {Yinteligencja{x, {Ykondycja{x, {Ysi³a{x,
+              {Yszczê¶cie{x, {Yzrêczno¶æ{x.
+~
+
+-1 SI£A STRENGTH~
+Si³a okre¶la muskulaturê postaci, jej wytrwa³o¶æ oraz si³y witalne. Jest
+g³ówn± cech± wojowników, którzy musz± byæ silni by nosiæ ciê¿kie zbroje i
+dzier¿yæ potê¿ne bronie. Wp³ywa równie¿ na szansê trafienia oraz ilo¶æ
+zadawanych obra¿eñ.
+
+Zobacz tak¿e: {Ycharyzma{x, {Yinteligencja{x, {Ykondycja{x, {Ym±dro¶æ{x,
+              {Yszczê¶cie{x, {Yzrêczno¶æ{x.
+~
+
+-1 SZCZÊ¦CIE LUCK~
+Szczê¶cie jest obok charyzmy jest jedn± z uniwersalnych cech postaci. Ma
+znaczenie w czasie walki i rzucania czarów. Wp³ywa na si³ê zaklêæ, bo
+przecie¿ kto¶ kto ma szczê¶cie, to po prostu je ma.
+
+Zobacz tak¿e: {Ycharyzma{x, {Yinteligencja{x, {Ykondycja{x, {Ym±dro¶æ{x,
+              {Ysi³a{x, {Yzrêczno¶æ{x.
+~
+
+-1 ZRÊCZNO¦Æ DEXTERITY~
+Zrêczno¶æ okre¶la kilka fizycznych atrybutów w³±czaj±c koordynacjê
+rêka-oko, zwinno¶æ, szybko¶æ reakcji oraz równowagê. Zrêczno¶æ decyduje o
+reakcji postaci na gro¼by i niespodzianki, celno¶æ zadawanych ciosów, a
+tak¿e zdolno¶æ unikania wrogich ciosów. Jest podstaw± profesji z³odzieja.
+
+Zobacz tak¿e: {Ycharyzma{x, {Yinteligencja{x, {Ykondycja{x, {Ym±dro¶æ{x,
+              {Ysi³a{x, {Yszczê¶cie{x.
+~
+
+-1 EMPTY OPRÓ¯NIJ~
+Sk³adnia: {Gempty <pojemnik>
+          empty <pojemnik> <pojemnik2>
+          opró¿nij <pojemnik>
+          opró¿nij <pojemnik> <pojemnik2>{x
+
+Komenda {Gempty{x s³u¿y do wysypywania zawarto¶ci pojemnika na ziemiê lub do
+przesypywania zawarto¶ci jednego pojemnika do drugiego.
+
+Polski odpowiednik: {Mopró¿nij{x.
+Zobacz tak¿e: {Ydrop, get, put{x.
+~
+
+-1 BARBARZYÑCA BARBARZYÑCY BARBARIANS~
+{RBARBARZYÑCA{x
+
+Barbarzyñcy to po czê¶ci potê¿ni i silni wojownicy, a po czê¶ci dzicy
+mistycy, wyspecjalizowani w walce najciê¿szymi dwurêcznymi broniami. Ich
+kondycja, wytrzyma³o¶æ i odporno¶æ na ból s± niemal legendarne. Nierzadko
+barbarzyñcy rzucaj± siê w wir walki odurzeni alkoholem, siej±c dooko³a
+siebie ¶mieræ i zniszczenie. Kiedy barbarzyñca raz wpadnie w sza³ bitewny
+nikt i nic nie jest w stanie go powstrzymaæ. Je¶li chodzi o walkê, to
+barbarzyñcy nie s± tak wszechstronni jak wojownicy: zamiast wyszukanej
+szermierki wol± potê¿ne, krusz±ce ko¶ci ciosy i ciêcia. Nie u¿ywaj± tak¿e
+najwy¿szej jako¶ci pancerzy, wol±c l¿ejsze, nierzadko skórzane zbroje.
+Dziêki temu wprawdzie s± bardzo ruchliwi i szybcy, ale niestety mniej
+odporni na ciosy przeciwnika. Do¶wiadczeni barbarzyñcy potrafi± ca³± swoj±
+w¶ciek³o¶æ i nienawi¶æ skupiæ i wy³adowaæ w jednym ciosie, zadaj±c wtedy
+straszliwe obra¿enia.
+
+Barbarzyñcy nie pos³uguj± siê magi± - nie ufaj± jej, uwa¿aj±c ¿e
+prawdziwie waleczny wojownik pos³uguje siê tylko swoj± broni±, nie
+uciekaj±c siê do "kuglarskich" sztuczek.
+
+Najwa¿niejszym atrybutem barbarzyñców jest ich si³a, pozwalaj±ca
+im zadawaæ potê¿ne ciosy, a tak¿e kondycja, podnosz±ca witalno¶æ
+i zwiêkszaj±ca poziom si³ ¿yciowych.
+
+Wiêkszo¶æ barbarzyñców jest stale pijana, co pozwala im ³atwiej wpadaæ w bitewny sza³ (berserk), a sam stan upojenia wydaje siê wp³ywaæ na barbarzyñców korzystnie.
+~
+
+-1 WOJOWNIK WOJOWNICY WARRIORS~
+{RWOJOWNIK{x
+
+Wojownik to podstawowa i najczê¶ciej spotykana profesja. Wojownicy s± tak
+ró¿ni, jak ró¿ni s± ludzie, których mo¿esz spotkaæ na swej drodze. Czê¶æ
+preferuje pos³ugiwania siê mieczami, jeszcze inni toporami lub innym,
+czasem bardzo wyszukanym i oryginalnym orê¿em. Jednak typowy wojownik to
+osoba wytrenowana wszechstronnie w sztuce walki, a tak¿e potrafi±ca
+czerpaæ najwiêksze korzy¶ci i profity z najciê¿szych i najdoskonalszych
+pancerzy. Wojownik potrafi nie tylko doskonale atakowaæ, ale tak¿e broniæ
+siê i walczyæ defensywnie. To mistrz szermierki, który w jednej chwili
+z obrony przechodzi do ataku, uderzaj±c swego przeciwnika tarcz±,
+a nastêpnie przyszpilaj±c do ziemi kilkoma calami zimnej stali.
+Do¶wiadczony, wojownik potrafi wprowadziæ siê w rodzaj transu bitewnego,
+w którym o wiele trudniej go trafiæ, a on sam jest w stanie skuteczniej atakowaæ. Wojownicy zw± ten stan Tañcem wojennym (wardance).
+
+Wojownik nie tylko nie pos³uguje siê czarami, ale generalnie nienawidzi
+i boi siê magii. Niemniej czasem zdarza siê, ¿e z konieczno¶ci wojownicy
+u¿ywaj± magicznych broni i pancerzy, jednak sami nigdy nie rzucaj± ¿adnych
+czarów.
+
+Wojownicy musz± byæ nie tylko silni, aby móc skutecznie walczyæ. Powinni
+oni tak¿e posiadaæ wysok± kondycjê, dziêki czemu bêd± o wiele wytrzymalsi,
+za¶ prawid³owa budowa i waga cia³a zapewni im przewagê w brutalnym
+starciu. Wojownicy o przeciêtnej sile i kondycji czêsto polegaj± na swojej zrêczno¶ci, która jest równie¿ wa¿n± cech± zbrojnych tego typu.
+~
+
+-1 MAG MAGOWIE CZARODZIEJE MAGES~
+{RMAG{x
+
+Magowie to tajemnicza klasa, nierozumiana przez wiêkszo¶æ istot tego
+¶wiata. Nie zabiegaj± oni zreszt± o zrozumienie, wol±c po¶wiêcac swój
+czas studiowaniu ksi±g i zwojów w zatêch³ych bibliotekach. Tak jak
+wojownik u¿ywa swojej broni i pancerza, tak broni± i obron± magów s±
+ich czary. Najwiêksi mistrzowie Sztuki potrafi± dokonywaæ rzeczy, które
+w powszechnym mniemaniu uchodz± za cuda. W zale¿no¶ci od upodobañ
+i uzdolnieñ maga, mo¿e on specjalizowaæ siê w rozmaitych szko³ach magii,
+lub staraæ siê ogarn±æ ca³o¶æ dostêpnej wiedzy. Od potê¿nych czarów
+bojowych, poprzez obronne czary, których ¿adna broñ nie jest w stanie
+przebiæ, od czarów transportowych do takich, które zmieniaj± materialn±
+naturê rzeczy, ca³a ta sztuka pozostaje do dyspozycji magów. Tylko od
+nich zale¿y, jak j± wykorzystaj±... Powiada siê, ¿e najpotê¿niejsi
+arcymagowie i arcymistrzynie stali siê równi Bogom. Co godne
+podkre¶lenia, magowie w przeciwieñstwie do kleryków maj± wybitnie
+naukowe i praktyczne podej¶cie do magii, mniej w ich dzia³aniach
+mistycyzmu i wiary w nieuchwytn± moc, a wiêcej praktycznej wiedzy
+o zasadach dzia³ania i wykorzystaniu wszechobecnej magicznej energii.
+
+Magowie mog± (je¶li zechc±) specjalizowaæ siê w jednym z siedmiu
+aspektów Sztuki i tak w naszym ¶wiecie mo¿na spotkaæ:
+
+- {Gmistrzów iluzji{x - specjali¶ci w dziedzinie oszukiwania, omamiania
+  i zwodzenia innych
+- {Gmistrzów przemian{x - potrafi± zmieniaæ wszystko i wszystkich w swym
+  otoczeniu
+- {Gmistrzów przywo³ywania{x - magia przywo³uj±ca i transportuj±ca nie ma
+  dla nich tajemnic
+- {Gmistrzów inwokacji{x - czasem zwani magami bojowymi, specjalizuj± siê w
+  magii ofensywnej
+- {Gmistrzów odrzucania{x - ich specjalno¶ci± jest neutralizowanie efektów
+  dzia³ania magii
+- {Gmistrzów zauroczeñ{x - potrafi± wp³ywaæ na umys³y innych, poddaj±c je
+  swojej woli
+- {Gmistrzów nekromancji{x - owiani groz± mroczni magowie ¶mierci, w³adcy
+  nieumar³ych
+
+W walce wrêcz magowie s± niestety najs³absz± z klas, tak ze wzglêdu na
+swe w±t³e si³y witalne, jak i na d³ugoletni± tradycjê, zakazuj±c± magom
+u¿ywania broni innej ni¿ kostury lub sztylety, a tak¿e zak³adania
+jakichkolwiek, najl¿ejszych choæby zbroi. Zaskoczony mag,
+nieprzygotowany do walki i niezabezpieczony swoimi czarami, jest ³atw±
+ofiar± dla przeciêtnego nawet wojownika czy z³odzieja.
+
+Inteligencja to podstawowy atrybut magów, pozwalajacy im zapamiêtywaæ
+dobrze zaklêcia i lepiej poznawaæ nowe czary. Wielu magów zwraca te¿
+uwagê na swoj± zrêczno¶æ, potrzebn± aby dok³adnie odtworzyæ wymagan±
+przy rzucaniu czarów sekwencjê ruchów palców i ramion.
+~
+
+-1 KLERYK KAP£AN CLERICS KLERYCY KAP£ANI~
+{RKLERYK{x
+
+Klerycy, czyli inaczej kap³ani, s³u¿± ró¿nym Bogom i Boginiom. Ich moc
+ma w zwi±zku tym zupe³nie inne ¼ród³o pochodzenia ni¿ moc magów - na
+skutek swojej g³êbokiej wiary kleryk mo¿e zewnêtrznie manifestowaæ
+w najró¿niejszy sposób moc bóstwa. Klerycy wytrenowani s± w sprowadzaniu
+na siebie lub innych b³ogos³awieñstw i innych przejawów szczególnej
+przychylno¶ci Bogów. Znaj± oni tak¿e rozmaite inkantacje lecznicze,
+wiedz± jak leczyæ zatrucia i choroby. Myli³by siê jednak ten, kto
+s±dzi³by, ¿e w zwi±zku z tym klerycy s± bezbronni. Wyposa¿eni zostali
+oni tak¿e w arsena³ ¶mierciono¶nych zaklêæ bojowych, a tak¿e szczególn±
+umiejêtno¶æ niszczenia nieumar³ych. Klerycy potrafi± tak¿e ca³kiem
+nie¼le pos³ugiwaæ siê niektórymi rodzajami broni, mog± te¿ u¿ywaæ
+wszelkich dostêpnych zbroi i pancerzy. Do¶wiadczony kleryk to
+potencjalny potê¿ny sprzymierzeniec, ale tak¿e ¶miertelnie gro¼ny wróg.
+Nale¿y pamiêtaæ, ¿e obok pokojowo nastawionych kleryków ¦wiat³o¶ci
+spotkaæ mo¿na tak¿e mrocznych kap³anów Z³a.
+
+Dla kleryka najwa¿niejsza jest jego m±dro¶æ, pozwala ona bowiem na
+lepsze opanowanie boskiej energii, a tym samym zwiêksza potencja³ mocy
+kleryka. Równie¿ szczê¶cie ze zrozumia³ych wzglêdów jest wa¿nym
+atrybutem. Natomiast czysto fizyczne cechy, z racji drugorzêdnej roli
+walki w ¿yciu kleryka schodz± raczej na dalszy plan.
+~
+
+-1 DRUID DRUIDZI DRUIDS~
+{RDRUID{x
+
+Druidzi to kap³ani Natury, wytrenowani w jej obronie i w pos³ugiwaniu
+siê jej darami i mocami. Druidzi zwykle nie interesuj± siê tym, co
+dzieje siê w "wielkim ¶wiecie", skupiaj±c siê raczej na zachowywaniu we
+wszystkim umiaru i równowagi, która jest ich nadrzêdnym celem w niemal
+ka¿dym przejawie ich dzia³alno¶ci. Druidzi jak nikt znaj± siê na
+tajemnicach przyrody, dlatego te¿ najlepiej czuj± siê pod otwartym
+niebem, czêsto mo¿na ich spotkaæ przechadzaj±cych siê po lasach
+i puszczach. W walce wrêcz druidzi spisuj± siê s³abo, natomiast ich czary,
+oparte g³ownie na czterech ¿ywio³ach, a tak¿e mocach ro¶lin i zwierz±t
+to gro¼na i nieprzewidywalna broñ. Druid w walce wrêcz nie spisuje siê
+najlepiej, woli raczej polegaæ na swych czarach. Choæ druid mo¿e u¿ywaæ,
+je¶li chce, dowolnych pancerzy, to je¶li jednak s± one metalowe, to jego
+moc magiczna pozostaje w u¶pieniu.
+
+Druid powinien mieæ wysok± m±dro¶æ, a jako przedstawiciel kasty
+kap³añskiej tak¿e i szczê¶cie, bowiem te dwa atrybuty pomagaj± mu dobrze
+kontrolowaæ moce Natury.
+~
+
+-1 PALADYN PALADYNI PALADINS~
+{RPALADYN{x
+
+Paladyni to w gruncie rzeczy kap³ani-wojownicy, którzy jednak w wiêkszym
+ni¿ klerycy stopniu skupili siê na trenowaniu umiejêtno¶ci walki,
+w zamian za nieco mniejsz± moc magiczn±. Paladynami zostaj± wy³±cznie
+ludzie, którzy poprzez d³ugoletnie studia, modlitwy i treningi dostêpuj±
+zaszczytu s³u¿enia si³om ¦wiat³o¶ci, broni±c ubogich, nieszczê¶liwych
+i pokrzywdzonych przez los. Niewielu jest tak dobrych i szlachetnych, by
+mog³o sprostaæ surowym wymogom rycerskiego kodeksu i zakonnej regu³y.
+Paladyni potrafi± walczyæ niemal tak dobrze jak wojownicy, jednak
+w przeciwieñstwie do tych ostatnich w walce stosuj± wy³±cznie honorowe
+regu³y, wystrzegaj±c siê wszelkiego podstêpu i oszustwa. Jako broñ
+preferuj± m³oty bojowe, a tak¿e miecze. W razie potrzeby mog± tak¿e
+wspomagaæ siê mocami swego bóstwa, które jednak s³u¿± g³ównie
+zwiêkszeniu ich potencja³u bojowego, a w mniejszym stopniu nastawione
+s± na robienie krzywdy przeciwnikowi. Do¶wiadczeni paladyni to prawdziwi
+pogromcy si³ ciemno¶ci i wszelkich nienaturalnych istot, takich jak
+nieumarli czy demony.
+
+Paladyn, podobnie jak wojownik musi byæ silny i wytrzyma³y, aby walczyæ
+skutecznie. Jednak istotn± cech± jest dla niego tak¿e m±dro¶æ, bowiem to
+ona warunkuje, jak dobrze paladyn mo¿e kontrolowaæ moc, zsy³an± na niego
+przez jego bóstwo.
+~
+
+-1 Z£ODZIEJ Z£ODZIEJE THIEF THIEVES~
+{RZ£ODZIEJ{x
+
+Z³odzieje to tajemnicza, bardzo s³abo poznana kasta wszelkiego rodzaju
+mêt spo³ecznych, wyrzutków, rabusiów i rzezimieszków. Wbrew swojej
+nazwie, z³odzieje nie tylko kradn± dla siebie lub na zamówienie cenne
+przedmioty czy pieni±dze, opanowali oni tak¿e liczne ciemne sztuki,
+pozwalaj±ce im na dokonywanie niewiarygodnych wrêcz wyczynów. Najlepsi
+z³odzieje to mistrzowie skradania siê i ukrywania, którzy niezauwa¿ni
+potrafi± podkra¶æ siê do ofiary i ogo³ociæ j± w kilka sekund
+z wszystkich pieniêdzy. Nic wiêc dziwnego, ¿e z³odzieje najbardziej lubi±
+miasta i wiêksze skupiska ludno¶ci, bo tam zawsze trafi siê kto¶ nie
+do¶æ uwa¿ny i czujny, kogo mo¿na okra¶æ. Z³odzieje trenuj± tak¿e trudn±
+sztukê ataków z zaskoczenia, potrafi± wbiæ swój sztylet w kark niczego
+nie spodziewaj±cej siê ofiary, koñcz±c jej ¿ycie szybko i cicho. W walce
+z³odzieje preferuj± lekkie, skórzane zbroje, które pozwalaj± im szybko
+i cicho siê poruszaæ, a tak¿e unikaæ ciosów przeciwnika. Ich ulubion±
+broni± s± wszelkiej ma¶ci sztylety, którymi pos³uguj± siê z zabójcz±
+skuteczno¶ci±. W walce z³odzieje stosuj± wszelkie sztuczki, powszechnie
+uwa¿ane za nieczyste, jak choæby podcinanie ofiary i bicie le¿±cego.
+Dziêki swojej niezwyk³ej czujno¶ci, z³odzieje jako jedyna klasa potrafi±
+wykrywaæ i neutralizowaæ ró¿nego rodzaju pu³apki.
+
+Najwa¿niejszym atrybutem z³odzieja jest jego zrêczno¶æ, to od niej
+zale¿y, jak dobrze z³odziej bêdzie potrafi³ pos³ugiwaæ siê swymi
+szczególnymi umiejêtno¶ciami. Równie wa¿na jest inteligencja, bowiem
+z³odziej zawsze najpierw my¶li, a dopiero potem robi. Niez³a si³a
+i kondycja tak¿e nie zaszkodzi, jako ¿e z³odziej nie u¿ywa magii i jest
+klas± walcz±c± w bezpo¶rednim, fizycznym starciu.
+~
+
+-1 ODMIANA~
+{RODMIANA IMIENIA POSTACI{x
+
+Na naszym mudzie obowi±zuje odmiana imienia, co oznacza, ¿e ka¿da postaæ
+musi mieæ prawid³ow± polsk± odmianê. Imiona nie odmieniaj±ce siê nie
+maj± prawid³owej odmiany, poniewa¿ nie maj± jej w ogóle i takie
+t³umaczenie imienia o braku odmiany nie bêdzie akceptowane.
+
+W celu sprawdzenia swojej odmiany nale¿y wpisaæ:
+
+inflect <imiê>
+odmiana <imiê>
+~
+
+-1 SKIN~
+Nazwa:    SKIN
+Typ:      umiejêtno¶æ wspomagaj±ca
+Sk³adnia: {Gskin cia³o{x
+
+Niektóre stworzenie oprócz ich niezaprzeczalnego wdziêku nadaj± siê do
+tego, ¿eby mo¿na z nich, a w³a¶ciwie z ich skóry zrobiæ trzewiki, pochwê
+na miecz lub inny wymys³ kaletników, szewców czy te¿ innych dziwnych
+profesji, co zamieniaj± ¶mierdz±c± krwi± skórê w co¶ bardziej u¿ytecznego.
+No ale kto¶ owym rzemie¶lnikom tych skórek musi dostarczaæ i do tego
+w³a¶nie s³u¿y umiejêtno¶æ "skin". Jest ona dostêpna dla wszystkich
+profesji, choæ niektóre z nich bêd± to robiæ lepiej, a niektóre gorzej.
+Do oskórowania oprócz tak oczywistej rzeczy, jak cia³o zwierzak,
+potrzebowaæ bêdziemy narzêdzi i w zale¿no¶ci od u¿ytego narzêdzie jako¶æ
+skóry mo¿e byæ ró¿na. Pamiêtaæ nale¿y, ¿e skóry zniszczonej,
+podziurawionej, b±d¼ ¼le przyciêtej nikt nie bêdzie chcia³ kupiæ, wiêc na
+pocz±tku nie dziwcie siê, ¿e garbarze raczej nie bêd± zainteresowani tym
+co przyniesiecie.
+
+Uwaga, je¿eli chcesz wycinaæ z cia³ jakie¶ organy i/lub czê¶ci po zdjêciu skóry nie bêdzie to ju¿ mo¿liwe. Czyli najpierw za pomoc± {Ycarve{x wytnij wszystko co jest potrzebne, a nastêpnie zdejmuj skóre.
+
+Dostêpne dla: {Cwszystkie profesje{x.
+
+Zobacz te¿: {Ycarve{x, {Ytrapper{x.
+~
+
+-1 TRAPPER~
+Nazwa:      TRAPPER
+Typ:        skill
+Sk³adnia:   patrz komendy skin i carve
+
+Umiejêtno¶æ ta pozwala na zdzieranie skóry z zabitych zwierz±t (komenda
+skin) oraz wycinanie komponentów z ich cia³ (komenda carve).
+
+Uwaga, je¿eli chcesz wycinaæ z cia³ jakie¶ organy i/lub czê¶ci zrób to przed zdjêciem skóry. Po oskórowaniu wycinanie czê¶ci nie bêdzie mo¿liwe. Czyli najpierw za pomoc± {Ycarve{x wytnij wszystko co jest potrzebne, a nastêpnie zdejmuj skórê komend± {Yskin.
+
+
+Dostêpne dla: {Cwszystkie profesje{x.
+
+Zobacz te¿: {Ycarve{x, {Yskin{x.
+~
+
+-1 CARVE~
+Nazwa:      CARVE
+Typ:        komenda
+Sk³adnia:   {Gcarve cia³o examine
+            carve cia³o [czê¶æ cia³a]{x
+
+Za pomoc± komendy carve mo¿emy wycinaæ z cia³ ró¿ne komponenty.
+Niestety anatomia jest ci±gle na prymitywnym stoponiu rozwoju dlatego
+nie spodziewaj siê, ze wszystko czego zapragniesz da siê wyci±æ.
+
+Uwaga, je¿eli chcesz wycinaæ z cia³ jakie¶ organy i/lub czê¶ci zrób to przed zdjêciem skóry. Po oskórowaniu wycinanie czê¶ci nie bêdzie mo¿liwe. Czyli najpierw za pomoc± {Ycarve{x wytnij wszystko co jest potrzebne, a nastêpnie zdejmuj skórê komend± {Yskin.
+
+
+Dostêpne dla: {Cwszystkie profesje.{x
+
+Zobacz tez: {Ytrapper, skin{x.
+~
+
+-1 UNDEAD RESEMBLANCE~
+Nazwa:    UNDEAD RESEMBLANCE
+Typ:      umiejêtno¶æ pasywna
+Sk³adnia: {Gbrak{x - umiejêtno¶æ zawsze aktywna
+
+Dziêki tej specyficznej magicznej w³a¶ciwo¶ci podró¿nik potrafi wtopiæ
+siê miêdzy agresywnych nieumar³ych, tak, ¿e nie poznaj± oni w nim wroga.
+
+Dostêpne dla: {CCzarny Rycerz, Nekromanta{x.
+Polski odpowiednik: {Mbrak{x.
+~
+
+-1 UNDEAD LORE~
+Nazwa:      LORE UNDEAD
+Typ:        czar informacyjny
+Sk³adnia:   {Gcast 'lore undead' [nazwa martwiaka]{x
+            {Gczaruj 'lore undead' [nazwa martwiaka]{x
+
+Osoby w³adaj±ce magi± dosz³y do takiej perfekcji w manipulowaniu
+martwiakami, ¿e potrafi± oceniæ ich stan poprzez jeden dotyk.
+
+Dostêpne dla: {Ckleryk{x, {Cmag{x i {Cpaladyn{x.
+~
+
+-1 MAZE~
+Nazwa:    MAZE
+Typ:      czar
+Szko³a:   {Riluzje{x
+Sk³adnia: {Gcast maze [cel]{x
+          {Gczaruj maze [cel]{x
+
+Osobie pod wp³ywem tego czaru ¼le wy¶wietlaj± siê wyj¶cia z lokacji.
+Tworzy siê istny labirynt, po którym mo¿na kr±¿yæ bez koñca.
+Oczywi¶cie istnieje szansa, i¿ danej osobie uda siê doj¶æ tam, gdzie chce.
+
+Dostêpne dla: {Cmag{x.
+~
+
+-1 MISFORTUNE~
+Nazwa:    MISFORTUNE
+Typ:      czar
+Szko³a:   {Rprzemiany{x
+Sk³adnia: {Gcast misfortune [cel]{x
+          {Gczaruj misfortune [cel]{x
+
+Magowie potrafi± sprawiæ, ¿e ich przeciwnik ma mniej szczê¶cia ni¿ normalnie.
+Nie oznacza to jednak, ¿e bêdzie mia³ on pecha.
+
+Dostêpne dla: {Cmag ogólny{x i {Cmag specjalista przemian{x.
+~
+
+-1 FLOAT LEWITACJA~
+Nazwa:    FLOAT
+Typ:      czar
+Szko³a:   {Rprzemiany{x
+Sk³adnia: {Gcast float [cel]{x
+          {Gczaruj float [cel]{x
+
+Ten czar sprawia, ¿e dana postaæ unosi siê nad ziemiê i zaczyna lewitowaæ.
+Traci ona wtedy mniej punktów ruchu. Float to gorsza wersja czaru fly.
+Nie pozwala ona na dostanie siê do powietrznych lokacji.
+
+Dostêpne dla: {Cmag{x i {Cdruid{x.
+~
+
+-1 CONFUSE LANGUAGES~
+Nazwa:    CONFUSE LANGUAGES
+Typ:      czar
+Szko³a:   {Rzauroczenia{x
+Sk³adnia: {Gcast 'confuse languages' [cel]{x
+          {Gczaruj 'confuse languages' [cel]{x
+
+Kto¶, kto znajduje siê pod dzia³aniem tego czaru, nie jest w
+stanie dobrze pos³ugiwaæ siê jêzykiem którym mówi normalnie.
+Mówi on nie wyra¼nie oraz czêsto przekrêca on wyrazy.
+
+Dostêpne dla: {Cmag ogólny{x i {Cmag specjalista zauroczeñ{x.
+~
+
+-1 PERFECT SELF~
+Nazwa:    PERFECT SELF
+Typ:      czar
+Szko³a:   {Riluzje{x
+Sk³adnia: {Gcast 'perfect self'{x
+          {Gczaruj 'perfect self'{x
+
+Otaczasz siê doskona³± iluzj± samego siebie. Dziêki temu twoi wrogowie nie
+widz± ¿adnych ran które odnios³e¶ w walce oraz wydaje siê im, ¿e za pomoc±
+najgorszej broni, walczysz jak barbarzyñca ze wspania³ym toporem w rêce.
+
+Dostêpne dla: {Cmag specjalista iluzji{x.
+~
+
+-1 LOOP~
+Nazwa:    LOOP
+Typ:      czar
+Szko³a:   {Riluzje{x
+Sk³adnia: {Gcast loop [cel]{x
+          {Gczaruj loop [cel]{x
+
+Jest to lepsza wersja zaklêcia maze. Czar ten sprawia, ¿e przeciwnik maga,
+dostaje zawrotów g³owy i traci orientacjê w przestrzeni. Rzadko udaje mu
+siê wyj¶æ z lokacji, a je¿eli ju¿ wyjdzie, to najprawdopodobniej w z³ym
+kierunku. O ucieczce z walki, przeciwnik maga nie ma co marzyæ.
+
+Dostêpne dla: {Cmag specjalista iluzji{x.
+~
+
+-1 DRAINING HANDS~
+Nazwa:    DRAINING HANDS
+Typ:      czar
+Szko³a:   {Rnekromancja{x
+Sk³adnia: {Gcast 'draining hands'{x
+          {Gczaruj 'draining hands'{x
+
+Czar sprawia, ¿e ka¿dy cios z rêki zadany przez nekromantê wysysa
+niewielk± czê¶æ si³ ¿yciowych ofiary i przekazuje je magowi.
+
+Dostêpne dla: {Cmag specjalista nekromancji{x.
+~
+
+-1 EMBALM~
+Nazwa:    EMBALM
+Typ:      czar
+Szko³a:   {Rnekromancja{x
+Sk³adnia: {Gcast embalm [cia³o]{x
+          {Gczaruj embalm [cia³o]{x
+
+Za pomoc± tego czaru mo¿na zabalsamowaæ cia³o. Dziêki temu bêdzie siê
+ono rozk³ada³o o wiele d³u¿ej. Bardzo przydatne, je¿eli chcemy przenie¶æ
+ca³e cia³o w odleg³e miejsce.
+
+Dostêpne dla: {Cmag specjalista nekromancji{x.
+~
+
+-1 SUMMON GREENSKINS~
+Nazwa:    SUMMON GREENSKINS
+Typ:      czar
+Szko³a:   {Rprzywo³ania{x
+Sk³adnia: {Gcast 'summon greenskins'{x
+          {Gczaruj 'summon greenskins'{x
+
+Jest to lepsza wersja czaru summon insects. Przywo³uje ona jednego
+z zielonoskórych: tasloi, goblina lub hobgoblina. S³u¿± one swojemu
+mistrzowi przez pewien czas, pomagaj±c w walce oraz nosz±c dla niego
+ró¿ne przedmioty.
+
+Dostêpne dla: {Cmag specjalista przywo³ywañ{x.
+~
+
+-1 ACID ARROW~
+Nazwa:    ACID ARROW
+Typ:      czar
+Szko³a:   {Rinwokacje{x
+Sk³adnia: {Gcast 'acid arrow' [cel]{x
+          {Gczaruj 'acid arrow' [cel]{x
+
+Mag tworzy kwasow± strza³ê, która wbija siê prosto w cia³o przeciwnika,
+zadaj±c mu obra¿enia. Dodatkowo niewielkie ilo¶ci kwasu przez chwilê
+utrzymuj± siê we krwi ofiary, parz±c go od ¶rodka.
+
+Dostêpne dla: {Cmag specjalista inwokacji{x.
+~
+
+-1 DAZE~
+Nazwa:    DAZE
+Typ:      czar
+Szko³a:   {Rzauroczenia{x
+Sk³adnia: {Gcast daze [cel]{x
+          {Gczaruj daze [cel]{x
+
+Za pomoc± tego zaklêcia osza³amiasz przeciwnika. Traci on czê¶ciow±
+kontrolê nad cia³em. Przez pewien czas nie mo¿e on chodziæ, ani nie
+mo¿e nikogo atakowaæ. Poza tym o wiele ³atwiej jest go trafiæ.
+
+Dostêpne dla: {Cmag specjalista zauroczeñ{x.
+~
+
+-1 NOBLE LOOK~
+Nazwa:    NOBLE LOOK
+Typ:      czar
+Szko³a:   {Rzauroczenia{x
+Sk³adnia: {Gcast 'noble look'{x
+          {Gczaruj 'noble look'{x
+
+Za pomoc± tego czaru mag mo¿e zwiêkszyæ swoj± charyzmê. Jest mu
+wtedy o wiele ³atwiej rzucaæ czary, zwi±zane z jego wygl±dem.
+
+Dostêpne dla: {Cmag specjalista zauroczeñ{x.
+~
+
+-1 'IMBUE WITH ELEMENT' IMBUE~
+Nazwa:    IMBUE WITH ELEMENT
+Typ:      czar
+Szko³a:   {Rzauroczenia{x
+Sk³adnia: {Gcast 'imbue with element' [broñ]{x
+          {Gczaruj 'imbue with element' [broñ]{x
+
+Czar sprawia, ¿e przez pewien czas, broñ zadaje dodatkowe obra¿enia
+od jednego z ¿ywio³ów: ognia, zimna, b³yskawic lub kwasu.
+
+Dostêpne dla: {Cmag specjalista zauroczeñ{x.
+~
+
+-1 MAGIC HANDS~
+Nazwa:    MAGIC HANDS
+Typ:      czar
+Szko³a:   {Rzauroczenia{x
+Sk³adnia: {Gcast 'magic hands'{x
+          {Gczaruj 'magic hands'{x
+
+Ten czar sprawia, ¿e uderzenia maga staj± siê magiczne. Niestety,
+nie dzia³a to wtedy, kiedy mag za³o¿y broñ. Tak wiêc, aby czar
+dzia³a³ musi on walczyæ piê¶ci±.
+
+Dostêpne dla: {Cmag specjalista zauroczeñ{x.
+~
+
+-1 ALARM~
+Nazwa:    ALARM
+Typ:      czar
+Szko³a:   {Rpoznanie{x
+Sk³adnia: {Gcast alarm [kierunek]{x
+          {Gczaruj alarm [kierunek]{x
+
+Za pomoc± tego zaklêcia mag mo¿e na³o¿yæ na jakie¶ wyj¶cie z
+lokacji alarm. Kiedy kto¶ przejdzie przez to przej¶cie, mag
+dostanie informacjê o tym. Na wy¿szym poziomie wtajemniczenia,
+informacja bêdzie zawiera³a tak¿e imiê osoby, która uaktywni³a
+alarm.
+
+Dostêpne dla: {Cmag specjalista poznania{x.
+~
+
+-1 DETECT AGGRESIVE~
+Nazwa:    DETECT AGGRESSIVE
+Typ:      czar
+Szko³a:   {Rpoznanie{x
+Sk³adnia: {Gcast 'detect aggressive'{x
+          {Gczaruj 'detect aggressive'{x
+
+Po rzuceniu tego czaru, mag rozpoznaje, czy jego przeciwnik jest
+agresywny, czy nie. Widzi on to ju¿ z daleka. Bardzo przydatne
+zaklêcie przy poznawaniu nowych terenów.
+
+Dostêpne dla: {Cmag specjalista poznania{x.
+~
+
+-1 DETECT UNDEAD~
+Nazwa:    DETECT UNDEAD
+Typ:      czar
+Szko³a:   {Rpoznanie{x
+Sk³adnia: {Gcast 'detect undead'{x
+          {Gczaruj 'detect undead'{x
+
+Kiedy mag jest pod wp³ywem tego czaru, rozpoznaje on, które istoty
+s± nieumar³e. Czêsto widzi to ka¿dy na pierwszy rzut oka bez ¿adnego
+zaklêcia, lecz nieraz mo¿emy walczyæ z przeciwnikiem, nie domy¶laj±c
+siê nawet, ¿e jest to istota nieumar³a.
+
+Dostêpne dla: {Ckleryk, paladyn i mag specjalista poznania{x.
+~
+
+-1 PIERCING SIGHT~
+Nazwa:    PIERCING SIGHT
+Typ:      czar
+Szko³a:   {Rpoznanie{x
+Sk³adnia: {Gcast 'piercing sight'{x
+          {Gczaruj 'piercing sight'{x
+
+Jest to bardzo potê¿ny czar mistrza poznania. Pozwala on widzieæ mu
+przez zamkniête drzwi oraz zagl±daæ do zamkniêtych skrzynek. Widzi
+on tak¿e, ekwipunek noszony pod p³aszczem. Iluzje nie bêd± ju¿ dla
+niego ¿adn± przeszkod±. Widzi on zarówno osoby niewidzialne, jak
+i maga, pomiêdzy jego lustrzanymi odbiciami. Widzi on tak¿e istoty
+za ¶cian± mg³y, rzucon± przez maga specjalistê przemian.
+
+Dostêpne dla: {Cmag specjalista poznania{x.
+~
+
+-1 SHIELD BLOCK~
+Nazwa: SHIELD BLOCK
+Typ:   umiejêtno¶æ bierna
+
+Umiejêtno¶æ ta pozwala klasom umiej±cym siê pos³ugiwaæ tarcz± na odbijanie
+ciosów wrogów i zas³anianie siê ni± podczas walki. Je¶li jednak uderzenie
+bêdzie zbyt silne, to cios mimo wszystko przebije obronê wojownika i trafi
+go, chocia¿ tarcza mo¿e ów cios os³abiæ. Umiejêtno¶æ ta bazuje g³ównie na
+refleksie i wyszkoleniu, tak wiêc jest automatycznie u¿ywana w walce.
+
+Osoby z dobr± tarcz± w rêku i odpowiednim wyszkoleniem tej umiejêtno¶ci o wiele lepiej wykorzystuj± tarczê do zas³aniania siê przed atakami i trudniej ich trafiæ ni¿ osoby nie przeszkolone trzymaj±ce tak± sam± tarczê.
+
+Dostêpne dla: {Cwojownik, druid, paladyn, kleryk{x.
+~
+
+-1 MOVE MV PORUSZANIE 'PORUSZANIE SIÊ' 'PUNKTY RUCHU'~
+Nie od dzi¶ wiadomo, ¿e podró¼e s± mêcz±ce. W koñcu doj¶cie z jednego do
+drugiego miasta, zajmuje troche czasu i si³. Nie od dzi¶ wiadomo te¿, ¿e
+barbarzynca spokojnie wyprzedzi na piechote maga, który - przez wzgl±d na
+swoj± marn± kondycje bêdzie co chwile przystawa³ odpocz±æ. Od tego w³a¶nie
+s± punkty ruchu, w skrócie 'mv'. Ró¼ne rasy/profesje charakteryzuj± siê
+ró¼n± ich ilo¶ci±, np. Elfy znane s± z tego, ¿e mog± maszerowaæ godzinami,
+lecz potem musz± równie d³ugo odpoczywaæ, krasnoludy z drugiej strony po
+solidnym marszu potrzebuj± o wiele mniej czasu na regeneracje si³. Istnieje
+tak¿e wiele sposobów ograniczenia zmêczenia. Do najpopularniejszych nale¿y
+oczywi¶cie jazda konna. Dzieki trenowaniu umiejêtno¶ci '{Yriding{x' mo¿na
+ograniczyæ zmêczenie przy je¼dzie, a co za tym idzie - szybko¶æ
+przemieszczania siê. Tak samo, bêd±c pod dzia³aniem czaru '{Yfloat{x' b±dz '{Yfly{x'
+- czyli unosz±c siê nad ziemi± - mêczymy siê o wiele wolniej. Druidzi
+dysponuj± tak¿e czarem '{Yrefresh{x' który momentalnie usuwa prawie ca³e
+zmêcznie po przebytej drodze i przyjemnie od¶wie¿a. Do poruszania siê s³u¿±
+nastêpuj±ce komendy:
+- {Gnorth{x - {Gpó³noc{x,
+- {Geast{x - {Gwschód{x,
+- {Gsouth{x - {Gpo³udnie{x,
+- {Gwest{x - {Gzachód{x,
+- {Gdown{x - {Gdó³{x,
+- {Gup{x - {Ggóra{x.
+
+Zobacz te¿: {Ycondition{x, {Ypunkty ¿ycia{x.
+~
+
+-1 ZOMBIE~
+{RZombie{x, o¿ywione trupy to do¶æ czêsty widok przy boku tych, którzy
+praktykuj± mroczn± sztuke nekromancji. Nie nale¿± do najtrudniejszych
+przeciwników, z regó³y wolne i niezrêczne, choæ niektóre ich odmiany
+potrafi± mocno uderzyæ. Wiekszo¶æ zombich o¿ywania jest przez
+praktykuj±cych nekromantów, choæ zda¿aj± siê i takie, które powstaj±
+z grobu z innej przyczny, np. kl±twy (jak to by³o w zamku Melloris, po
+wielkiej schezie). Czêsto mo¿na je znale¶æ na nawiedzonych cmentarzach,
+w lochach lub te¿ przy boku ich panów. Mag specjalista nekromancji jest
+w stanie stworzyæ zombiego z cia³a zabitego wroga, je¶li oczywi¶cie pozna
+odpowiednie zaklêcie. Nale¿y uwa¿aæ, poniewa¿ przegni³e, pe³ne robactwa
+wnêtrze nieumar³ego ma tendencja do rozpadania siê i brudzenia orê¿a
+i/lub zbroji resztkami fektalii i zgni³ymi organami.
+~
+
+32 FEATY FEATS AKCELERACJA~
+Nazwa:    {YAkceleracja{x
+Typ:      feat
+
+Po rzuceniu zaklêcia troche szybciej odzyskujesz koncentracjê.
+
+Dostêpne dla: {Cprofesja rzucaj±c czary{x.
+~
+
+-1 FEATY FEATS ARCYMISTRZOSTWO~
+Nazwa:    {YArcymistrzostwo{x
+Typ:      feat
+
+Zwiêksza szansê na dodatkowy atak uzyskiwany z umiejêtno¶ci typu 'mastery'.
+
+Dostêpne dla: {Cczarny rycerz, paladyn, wojownik, z³odziej{x.
+~
+
+-1 FEATY FEATS 'BARBARZYÑSKIE CIOSY'~
+Nazwa:    {YBarbarzyñskie ciosy{x
+Typ:      feat
+
+daje dostêp do komendy 'blows', która przestawia umiejêtno¶ci
+- barbarzyñskie ataki - w tryb bierny.
+
+Dostêpne dla: {Cbarbarzyñca{x.
+~
+
+-1 FEATY FEATS 'BOSKA MOC'~
+Nazwa:    {YBoska moc{x
+Typ:      feat
+
+Lekko zwiêksza wszystkie twoje statystyki.
+
+Dostêpne dla: {Ckleryk, paladyn{x.
+~
+
+-1 FEATY FEATS 'BOSKA URODA'~
+Nazwa:    {YBoska uroda{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie tw± charyzmê, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+~
+
+-1 FEATY FEATS BRUTALNO¦Æ~
+Nazwa:    {YBrutalno¶æ{x
+Typ:      feat
+
+Znacznie zwiêksza zadawane obra¿enia.
+
+Dostêpne dla: {Cprofesja bojowa{x.
+~
+
+-1 FEATY FEATS 'CIOS ¦MIERCI'~
+Nazwa:    {YCios ¶mierci{x
+Typ:      feat
+
+Twoja umiejêtno¶æ 'backstab' staje siê jeszcze bardziej destrukcyjna.
+
+Dostêpne dla: {Cz³odziej{x.
+~
+
+-1 FEATY FEATS CZARNOKSIÊSTWO~
+Nazwa:    {YCzarnoksiêstwo{x
+Typ:      feat
+
+Zwiêksza moc zaklêæ ofensywnych.
+
+Dostêpne dla: {Cprofesja czaruj±ca{x.
+~
+
+-1 FEATY FEATS 'DOSKONA£A PAMIÊÆ'~
+Nazwa:    {YDoskona³a pamiêæ{x
+Typ:      feat
+
+Zwiêksza o 2 mo¿liw± liczbê zaklêæ do zapamiêtania na ka¿dy znany ci
+kr±g.
+
+Dostêpne dla: {Cprofesja czaruj±ca{x.
+~
+
+-1 FEATY FEATS DOWODZENIE~
+Nazwa:    {YDowodzenie{x
+Typ:      feat
+
+Osoby ktorymi dowodzisz, staja sie potezniejsi a takze szybciej
+wydajesz im rozkazy (dostep do dodatkowej komendy - order all).
+
+Dostêpne dla: {Cczarny rycerz, mag, paladyn, wojownik{x.
+
+Zobacz tak¿e: {Yorder{x.
+~
+
+-1 FEATY FEATS 'FINEZJA W WALCE'~
+Nazwa:    {YFinezja w walce{x
+Typ:      feat
+
+Polepsza szansê trafienia, zadawane obra¿enia i klasê pancerza.
+
+Dostêpne dla: {Cwszyscy{x.
+~
+
+-1 FEATY FEATS 'JASNY UMYS£'~
+Nazwa:    {YJasny umys³{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie tw± inteligencjê, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Yinteligencja{x.
+~
+
+-1 FEATY FEATS 'KOCIA ZWINNO¦Æ'~
+Nazwa:    {YKocia zwinno¶æ{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie tw± zrêczno¶æ, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Yzrêczno¶æ{x.
+~
+
+-1 FEATY FEATS 'MISTRZ ODPÊDZANIA'~
+Nazwa:    {YMistrz odpêdzania{x
+Typ:      feat
+
+Zwiêksza skuteczno¶æ oraz pozwala na czêstsze korzystanie
+z umiejêtno¶ci 'turn undead'.
+
+Dostêpne dla: {Cumiej±cych odpêdzaæ nieumar³ych{x.
+
+Zobacz tak¿e: {Yturn undead{x.
+~
+
+-1 FEATY FEATS 'MISTRZ POJEDYNKÓW'~
+Nazwa:    {YMistrz pojedynków{x
+Typ:      feat
+
+Daje znaczn± premiê do umiejêtno¶ci 'parry' i 'disarm'.
+
+Dostêpne dla: {Cczarny rycerz, paladyn, wojownik{x.
+
+Zobacz tak¿e: {Yparry{x, {Ydisarm{x.
+~
+
+-1 FEATY FEATS 'MROCZNY PAKT'~
+Nazwa:    {YMroczny pakt{x
+Typ:      feat
+
+Stajesz siê zauwa¿alnie skuteczniejszy w zwalczaniu dobra, zarówno
+fizycznie jak i magicznie.
+
+Dostêpne dla: {Cpostaæ z³a{x.
+~
+
+-1 FEATY FEATS 'NADLUDZKA SI£A'~
+Nazwa:    {YNadludzka si³a{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie twoj± si³ê, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Ysi³a{x.
+~
+
+-1 FEATY FEATS 'NADLUDZKA WYTRZYMA£O¦Æ'~
+Nazwa:    {YNadludzka wytrzyma³o¶æ{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie twoj± kondycjê, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Ykondycja{x.
+~
+
+-1 FEATY FEATS 'NADZWYCZAJNE SZCZÊ¦CIE'~
+Nazwa:    {YNadzwyczajne szczê¶cie{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie twoje szczê¶cie, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Yszczê¶cie{x.
+~
+
+-1 FEATY FEATS 'NIEDBA£E GESTY'~
+Nazwa:    {YNiedba³e gesty{x
+Typ:      feat
+
+Potrafisz rzucaæ zaklêcia maj±c czê¶ciowo niesprawne d³onie.
+
+Dostêpne dla: {Cdruid, mag mistrz przemian{x.
+~
+
+-1 FEATY FEATS 'NIEUSTÊPLIWA SZAR¯A'~
+Nazwa:    {YNieustêpliwa szar¿a{x
+Typ:      feat
+
+Twoja umiejêtno¶æ 'charge' staje siê jeszcze bardziej destrukcyjna.
+
+Dostêpne dla: {Cbarbarzyñca{x.
+
+Zobacz tak¿e: {Ycharge{x.
+~
+
+-1 FEATY FEATS 'NIEZWYK£A ODPORNO¦Æ'~
+Nazwa:    {YNiezwyk³a odporno¶æ{x
+Typ:      feat
+
+Zwiêksza naturaln± odporno¶æ na ¿ywio³y, magiê i obra¿enia fizyczne.
+
+Dostêpne dla: {Cwszyscy{x.
+~
+
+-1 FEATY FEATS OBURÊCZNO¦Æ~
+Nazwa:    {YOburêczno¶æ{x
+Typ:      feat
+
+Twoja lewa rêka jest tak samo sprawna jak prawa.
+
+Dostêpne dla: {Cbarbarzyñca, czarny rycerz, paladyn, wojownik{x.
+
+Zobacz tak¿e: {Ywield{x.
+~
+
+-1 FEATY FEATS POJÊTNO¦Æ~
+Nazwa:    {YPojêtno¶æ{x
+Typ:      feat
+
+Zwiêksza szansê uczenia siê umiejêtno¶ci, a tak¿e zaklêæ z ksi±g.
+
+Dostêpne dla: {Cwszyscy{x.
+~
+
+-1 FEATY FEATS 'PRAWDZIWE WIDZENIE'~
+Nazwa:    {YPrawdziwe widzenie{x
+Typ:      feat
+
+Umo¿liwia widzenie niewidzialnych i ukrytych.
+
+Dostêpne dla: {C{x.
+~
+
+-1 FEATY FEATS 'PRAWDZIWY BERSERKER'~
+Nazwa:    {YPrawdziwy berserker{x
+Typ:      feat
+
+Umiejêtno¶æ 'berserk' staje siê du¿o potê¿niejsza.
+
+Dostêpne dla: {Cbarbarzyñca{x.
+
+Zobacz tak¿e: {Yberserk{x.
+~
+
+-1 FEATY FEATS PRECYZJA~
+Nazwa:    {YPrecyzja{x
+Typ:      feat
+
+Znacznie zwiêksza szansê trafienia.
+
+Dostêpne dla: {Cprofesja bojowa{x.
+~
+
+-1 FEATY FEATS 'PRZEBICIE ODPORNO¦CI'~
+Nazwa:    {YPrzebicie odporno¶ci{x
+Typ:      feat
+
+Twoje zaklêcia znacznie skuteczniej penetruj± wytrenowan± odporno¶æ na
+zaklêcia (rzuty obronne).
+
+Dostêpne dla: {Cprofesja czaruj±ca{x.
+~
+
+-1 FEATY FEATS 'PRZEMIANA W NIEUMAR£EGO'~
+Nazwa:    {YPrzemiana w nieumar³ego{x
+Typ:      feat
+
+Stajesz siê istot± nieumar³± wraz ze wszystkimi zaletami i wadami
+wynikaj±cymi z tego stanu.
+
+Dostêpne dla: {Cczarny rycerz{x, {Cmag specjalista nekromancji{x.
+~
+
+-1 FEATY FEATS 'SILNA WOLA'~
+Nazwa:    {YSilna wola{x
+Typ:      feat
+
+Zwiêksza zauwa¿alnie tw± wiedzê, nie wiêcej ni¿ do maksymalnej
+warto¶ci 28.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Ywiedza{x.
+~
+
+-1 FEATY FEATS 'SILNE NOGI'~
+Nazwa:    {YSilne nogi{x
+Typ:      feat
+
+Znacznie zwiêksza obra¿enia zadane przez umiejêtno¶æ 'kick', a tak¿e
+zwiêksza punkty ruchu postaci.
+
+Dostêpne dla: {Cwszyscy{x.
+
+Zobacz tak¿e: {Ykick{x, {Yporuszanie siê{x.
+~
+
+-1 FEATY FEATS 'SZYBKIE ZAPAMIÊTYWANIE'~
+Nazwa:    {YSzybkie zapamiêtywanie{x
+Typ:      feat
+
+Skraca czas zapamiêtywania zaklêæ.
+
+Dostêpne dla: {Cprofesja czaruj±ca{x.
+~
+
+-1 FEATY FEATS '¦WIÊCENIA KAP£AÑSKIE'~
+Nazwa:    {Y¦wiêcenia kap³añskie{x
+Typ:      feat
+
+Zakres i moc kontrolowanej przez ciebie sfery magii kap³añskiej
+zwiêksza siê.
+
+Dostêpne dla: {Cpaladyn{x.
+~
+
+-1 FEATY FEATS '¦WIÊTY PAKT'~
+Nazwa:    {Y¦wiêty pakt{x
+Typ:      feat
+
+Stajesz siê zauwa¿alnie skuteczniejsze w zwalczaniu z³a, zarówno
+fizycznie jak i magicznie.
+
+Dostêpne dla: {Cpostaæ dobra{x.
+~
+
+-1 FEATY FEATS TARCZOWNIK~
+Nazwa:    {YTarczownik{x
+Typ:      feat
+
+Stajesz siê mistrzem w korzystaniu z tarcz, w ka¿dym tego aspekcie.
+
+Dostêpne dla: {Cwojownik{x.
+
+Zobacz tak¿e: {Yshield block{x.
+~
+
+-1 FEATY FEATS 'ULEPSZONE TRAFIENIE KRYTYCZNE'~
+Nazwa:    {YUlepszone trafienie krytyczne{x
+Typ:      feat
+
+Zwiêksza si³ê uderzenia i szansê na trafienia krytyczne.
+
+Dostêpne dla: {Cwszyscy{x.
+~
+
+-1 FEATY FEATS 'UMAGICZNIONE CIA£O'~
+Nazwa:    {YUmagicznione cia³o{x
+Typ:      feat
+
+Redukuje obra¿enia zadanie broni± niemagiczn±.
+
+Dostêpne dla: {Cmag{x.
+~
+
+-1 FEATY FEATS UWAGA~
+Nazwa:    {YUwaga{x
+Typ:      feat
+
+Znacznie polepsza klasê pancerza oraz u³atwia unikanie ciosów
+z zaskoczenia.
+
+Dostêpne dla: {Cczarny rycerz{x, {Cpaladyn{x, {Cwojownik{x.
+~
+
+-1 FEATY FEATS UZDROWICIEL~
+Nazwa:    {YUzdrowiciel{x
+Typ:      feat
+
+Twoje zaklêcia i umiejêtno¶ci lecz±ce uzdrowi± jeszcze wiêcej.
+
+Dostêpne dla: {Cdruid{x, {Ckleryk{x, {Cpaladyn{x.
+~
+
+-1 FEATY FEATS 'U¯YCIE DRUGIEJ BRONI'~
+Nazwa:    {YU¿ycie drugiej broni{x
+Typ:      feat
+
+Broñ trzyman± w drugiej rêce potrafisz u¿ywaæ w walce.
+
+Dostêpne dla: {Cdruid{x, {Ckleryk{x, {Cmag{x.
+~
+
+-1 FEATY FEATS 'WOJENNY TANCERZ'~
+Nazwa:    {YWojenny tancerz{x
+Typ:      feat
+
+Wzmacnia umiejêtno¶æ 'wardance', a poza tym umiejêtno¶æ 'parry' staje siê
+bierna dla tañcz±cych.
+
+Dostêpne dla: {Cwojownik{x.
+
+Zobacz tak¿e: {Ywardance{x, {Yparry{x.
+~
+
+-1 FEATY FEATS 'ZJEDNOCZENIE Z MAGI¡'~
+Nazwa:    {YZjednoczenie z magi±{x
+Typ:      feat
+
+Wszystkie rzucane przez ciebie zaklêcia staj± siê trochê potê¿niejsze.
+
+Dostêpne dla: {Cprofesja czaruj±ca{x.
+
+Zobacz tak¿e: {Yczary{x.
+~
+
+-1 FEATY FEATS 'ZLODZIEJSKIE MISTRZOSTWO'~
+Nazwa:    {YZlodziejskie mistrzostwo{x
+Typ:      feat
+
+Umiejetnosci 'peek' oraz 'steal' staja sie skuteczniejsze.
+
+Dostêpne dla: {Cz³odziej{x.
+
+Zobacz tak¿e: {Ypeek{x, {Ysteal{x.
+~
+
+-1 FEATY FEATS ZWIADOWCA~
+Nazwa:    {YZwiadowca{x
+Typ:      feat
+
+Przy wchodzeniu do lokacji u¿ywaj±c umiejêtno¶ci 'sneak' automatycznie
+u¿ywana jest umiejêtno¶æ 'hide'.
+
+Dostêpne dla: {Cz³odziej{x.
+
+Zobacz tak¿e: {Ysneak{x, {Yhide{x.
+~
+
+-1 NAUCZYCIELE TEACHERS~
+{RNauczyciel{x
+Nauczycielami mog± s± moby, które spe³niaj± jak¿e porz±dan± przez graczy
+funkcje uczenia ich nowych umiejêtno¶ci (i trenowania ju¿ istniej±cych )
+oraz czarów. Uczyæ siê mo¿emy komend± LEARN - samo LEARN wy¶wietli
+ mo¿liwe rzeczy do nauki, za¶ LEARN <umiejêtno¶æ lub czar> pozwoli siê go
+nauczyæ (Help LEARN). Podstawowi nauczyciele znajduj± siê w ka¿dym
+z pocz±tkowych miast, jednak nie nale¿y po nich wymagaæ wy¿yn sztuki
+i oczekiwaæ, ¿e pod ich czujnym okiem zmienimy siê w mistrza mocy
+magicznych czy szermierza natchnionego. W ¿yciu nie ma nic za darmo
+- w my¶l tej zasady nauczyciele mog± pobieraæ od nas op³atê za trenowanie
+umiejêtno¶ci. Gdy podstawowi, miastowi nauczyciele nie bêd± mogli nauczyæ
+nas nic nowego lub bêd± ¿±daæ za to horrendalnych cen, warto po¶wiêciæ
+trochê czasu i odszukaæ nowych nauczycieli, którzy bêd± bardziej skorzy
+do wspó³pracy. Oczywi¶cie, im wiêcej dany nauczyciel umie, tym trudniej
+go znale¼æ, w niektórych przepadkach trzeba bêdzie wywalczyæ sobie do
+niego drogê lub u¿yæ sztuczek by siê do niego dostaæ, pomoc z³odzieja
+i niewidzialno¶æ mog± czasami trochê pomóc.
+
+ Ale kto mówi³, ¿e ¿ycie jest proste?
+
+Nauczyciele do wiêkszo¶ci umiejêtno¶ci naucz± ciê za darmo do kiepskiego poziomu. Czasem warto przemierzyæ cywilizowany ¶wiat i popytaæ nauczycieli ró¿nych profesji o pomoc.
+
+Szansa nauki czaru od nauczyciela jest jedna na ka¿dy poziom do¶wiadczenia. Je¿eli nie nauczy³e¶ siê zaklêcia od nauczyciela na tym poziomie, przyjd¼ do niego na nastêpnym, byæ mo¿e Ci siê uda.
+
+Zobacz te¿: {Ylearn{x, {Yskills{x, {Yspells{x.
+~
+
+-1 SPRZEDAWCA SPRZEDAWCY~
+{YSprzedawca{x
+Sprzedawcy s± mobami zajmuj±cymi siê t± najwa¿niejsz± w ekonomicznym
+¶wiecie Killera spraw±, jak± jest sprzedawanie i kupowanie przedmiotów.
+Gdy potrzebujesz jedzenia, nie musisz i¶æ polowaæ - wystarczy siê udaæ do
+najbli¿szego sklepu i zakupiæ interesuj±cy nas towar. Oczywi¶cie istniej±
+ró¿ne rodzaje sklepów, s± sklepy jubilerów, sklepy krawców, sklepy
+garbarzy (skupuj±ce skóry zwierz±t), sklepy z broni± i zbrojami, a nawet
+sklepy handluj±ce magicznymi drobiazgami. Poza tym mo¿na oczekiwaæ, ¿e
+p³atnerz czy kowal bêd± umieli naprawiæ nasz± broñ i zbrojê za
+odpowiedni± op³at±, gdy te stêpi± siê lub nadpsuj± troszkê. Handlarze
+ró¿ni± siê te¿ miedzy sob±, jedni mog± kupiæ dan± rzecz dro¿ej, drudzy
+taniej, tak samo ze sprzedawaniem. Nie wszyscy sklepikarze s± oczywi¶cie
+w miejscach ogólnodostêpnych, niektórzy s± poukrywani w ró¿nych
+niebezpiecznych miejscach i czekaj± na ¶mia³ków którzy pragn± ich
+odnale¼æ - ale to tylko niewielki margines. Z regu³y sklepy otwarte s± od
+¶witu do zmierzchu (zobacz {YTIME{x) i w tych godzinach nale¿y je
+odwiedzaæ, chocia¿ z tym to te¿ ró¿nie bywa. Zna³em kiedy¶ pewn± gnomi±
+jubilerkê która swój przybytek otwiera³a dopiero o godzinie 10!
+
+Oczywi¶cie kupujemy (zobacz: {Ybuy{x) i sprzedajemy (zobacz {Ysell{x)
+odpowiednimi komendami. Mamy te¿ mo¿liwo¶æ obejrzenia listy dostêpnych
+przedmiotów (zobacz: {Ylist{x). Poza tym mo¿emy spróbowaæ wyceniæ dany
+przedmiot (zobacz {Yvalue{x).
+
+Je¿eli nie jeste¶ pewien czy mo¿esz u¿ywaæ przedmiotu który ciê interesuje skorzystaj z komendy {Ytry{x. Przyk³adowo po wpisaniu try 5 sprzedawca poda Ci pi±ty przedmiot z listy do przymierzenia. Je¿eli wszystko pasuje otrzymasz stosowny komunikat i bêdziesz móg³ dokonaæ zakupu.
+
+Zobacz te¿: {Ytime{x, {Ysell{x, {Ybuy{x, {Ylist{x, {Yvalue{x, {Ytry{x.
+~
+
+-1 'PUNKTY ¯YCIA' 'HIT POINTS' HP~
+{YPunkty ¿ycia{x
+okre¶laj± maksymaln± wytrzyma³o¶æ twojej postaci na obra¿enia. Je¶li
+ich liczba spadnie do 0, bêdziesz le¿a³ oszo³omiony na ziemi i tylko
+szybka pomoc bêdzie w stanie Ciê uratowaæ. Spadek punktów ¿ycia jeszcze
+ni¿ej, zazwyczaj koñczy siê ¶mierci±.
+
+Ilo¶æ punktów ¿ycia zmienia siê z wraz z wzrostem poziomu i jest zale¿na
+od kondycji oraz profesji. Szybko¶æ odzyskiwania punktów ¿ycia zale¿y od ogólnego
+stanu organizmu, poziomu najedzenia i napicia. Niektóre miejsca, czary
+lub przedmioty pozwalaj± na szybsz± regeneracje punktów ¿ycia.
+
+Zobacz te¿: {Ycondition{x, {Ypunkty ruchu{x.
+~
+
+-1 MOB NPC~
+Mobem (NPC), s± zwane postacie z którymi walczymy podczas rozgrywki
+(ró¿nego rodzaju potwory) w celu osi±gniêcia wy¿szego poziomu do¶wiadczenia
+i wzbogacenia siê. Najczê¶ciej za zabicie moba przydziela siê punkty
+do¶wiadczenia, zdobywamy pieni±dze lub przedmioty.
+~
+
+-1 MAP MAPA~
+Sk³adnia: {Gmap{x
+
+Komenda {Gmap{x wy¶wietla ma³± mapkê najbli¿szej okolicy wokó³ nas.
+Odkrycie znaczenia poszczególnych znaczków pozostawiam dociekliwym.
+~
+
+-1 ILLUMINATE ROZ¦WIETL~
+Sk³adnia: {Gilluminate <pochodnia/latarnia>{x
+
+Komenda {Gilluminate{x s³u¿y do zamocowania trzymanego ¶wiat³a aby
+roz¶wietla³o lokacjê. Nie wszystkie rodzaje ¶wiat³a mo¿na zamocowaæ
+na ka¿dym terenie. Niektóre da siê wbiæ w ziemiê, niektóre po³o¿yæ
+lub powiesiæ. Jednak powieszenie kaganka na pustyni mo¿e okazaæ siê
+zadaniem awykonalnym.
+~
+
+-1 FRIEND FRIEND~
+Sk³adnia: {Gfriend [introduce] [remember] [list] [forget] [<kto¶>]
+        friend note <ktos> <cos>
+        friend clear all
+        who{x
+
+Komenda {Gfriend{x lub {Gfriend list{x wy¶wietli listê naszych znajomych.
+Komenda {Gfriend <kto¶>{x lub {Gfriend list <kto¶>{x wy¶wietli <ktosia>
+oraz notatke o nim.
+Komenda {Gfriend introduce <kto¶>{x pozwala na przedstawienie siê komu¶.
+Komenda {Gfriend remember <kto¶>{x pozwala na dodanie ktosia do listy
+naszych znajomych.
+Komenda {Gfriend forget <kto¶>{x usunie z listy znajomych ktosia.
+Komenda {Gfriend note <kto¶> <co¶>{x przypisze ktosiowi z naszej listy
+notatkê <co¶>.
+Komenda {Gfriend clear all{x spowoduje wyczyszczenie {rCA£EJ{x listy.
+
+I wreszcie who pokazuje znajomych znajduj±cych siê na mudzie pod warunkiem, ¿e jeste¶my w stanie ich zobaczyæ.
+
+Z tego te¿ powodu powinno siê utrzymywaæ jak najwiêksz± liczbê znajomo¶ci, od pewnego momentu who bêdzie wy¶wietlaæ jedynie naszych znajomych.~
+
+-1 NEWBIE NEWBIE~
+Sk³adnia: {Gnewbie <wiadomo¶æ>{x
+{G          ? <wiadomo¶æ>{x
+
+Kana³ komunikacyjny {GNewbie{x jest dostêpny jedynie dla postaci, które nie
+przekroczy³y jeszcze 8 poziomu do¶wiadczenia. Daje on graczowi mo¿liwo¶æ
+zadania pytania odno¶nie wszelkich problemów, jakie mo¿e napotkaæ
+pocz±tkuj±cy gracz. Wiadomo¶æ zostanie dostarczona do wszystkich aktualnie
+przebywaj±cych w grze postaci, oprócz tych, które zablokuj± tê opcjê w
+ustawieniach. ({Ghelp config{x{x)
+~
+
+-1 IDENTIFY IDENTYFIKUJ~
+Sk³adnia: {Gidentify <przedmiot>{x
+          {Gidentyfikuj <przedmiot>{x
+
+Przedmiotów wystêpuj±ce na mudzie maj± swoje w³a¶ciwo¶ci i s± dwie drogi
+do ich poznania. Jedna to skorzystanie z czaru "identify", najlepiej
+przez maga specjalistê poznania, lub znalezienie moba który za drobn±
+op³at± odkryje przed nami niektóre z w³asciwo¶ci przedmiotu.
+
+Polski odpowiednik: {Midentyfikuj{x.
+Zobacz tak¿e: {Yestimate{x.
+~
+
+-1 'MEMSET' 'ZESTAWY CZARÓW' MEMORIZE SET~
+{Zestawy czarów{x
+
+Dziêki zestawom czarów jeste¶my w stanie szybko zmieniæ jakie czary mamy zapamiêtane na wszystkich, lub tylko wybranych krêgach.
+
+Zestawy tworzymy na pocz±tku sami, a nastêpnie odpowiedni± komend± zapamiêtujemy i nadajemy nazwê.
+
+Pó¼niej za pomoc± komendy {Ymem set <nazwa_zestawu>{x ustawiamy wszystkie czary tak jak poprzednio sobie ustawili¶my zapamiêtuj±c zestaw.
+UWAGA. Wszystkie czary trzeba zapamiêtaæ, nie pojawiaj± siê gotowe do u¿ycia.
+
+{Ymemorize set{x 	? wy¶wietla zapamiêtane zestawy czarów
+
+{Ymemorize set <nazwa>{x ? ustawia aktulanie zapamiêtane czary zgodnie z wcze¶niej zapamiêtanym zestawem <nazwa>
+
+{Ymemorize set <nazwa> save{x ? zapisuje obecnie ustawione czary  jako nowy zestaw <nazwa>
+
+{Ymemorize set <nazwa> remove{x ? zapomina zestaw czarów o nazwie <nazwa>
+
+Zobacz te¿: {Ymem{x, {Yspells{x.
+~
+
+-1 'HOARD' 'UNHOARD' PRZECHOWYWANIE~
+Za pomoc± Hoard i Unhoard mo¿emy pozostawiaæ karczmarzom i odbieraæ przedmioty. Przedmioty pozostawione w jednej karczmie mog± tylko tam byc odebrane i nie s± dostêpne z innych karczm.
+
+hoard - oddaje na przechowanie
+unhoard - wyci±ga z przechowywalni
+
+Argumenty dodatkowe
+
+{Yhoard <nazwa>{x - oddaje z inventory na przechowanie pierwszy przedmiot o nazwie <nazwa>.
+{Yhoard x.<nazwa>{x ? oddaje z inventory na przechowanie x w kolejno¶ci przedmiot o nazwie <nazwa>.
+{Yhoard all{x ? oddaje na przechowanie wszystkie przedmioty z inventory.
+{Yhoard all.<nazwa>{x ? na przechowanie wszystkie przedmioty z inventory o nazwie <nazwa>.
+
+{Yunhoard{x ? wszystkie mo¿liwo¶ci jak powy¿ej, a dodatkowo:
+
+{Yunhoard <numer>{x ? przedmiot z pozycji x na li¶cie.
+
+Dodatkowo w dowolnym momencie mo¿na podejrzeæ przechowywane przedmioty wydaj±c komendê hoard bez ¿adnych argumentów.
+~
+
+-1 SPELLCOLOUR~
+Sk³adnia: {Gconfig spellcolour {{styl1 / styl2 / styl3 / none}{x
+          np. "config spellcolour styl2"
+
+Dziêki funkcji spellcolour mo¿esz wybraæ rodzaj kolorowania (pod¶wietlania) czarów w ksiêdze
+zaklêc. Do wyboru istniej± trzy style:
+- styl1
+- styl2
+- styl3
+
+W celu wybrania domy¶lnego braku kolorowania nale¿y wpisaæ dowolny tekst:
+- np. "config spellcolour none"
+
+Polski odpowiednik: {Mbrak{x.
+Zobacz tak¿e: {Yconfig{x.
+~
+
+-1 FAJKA PIPE SMOKE LIGHT TAMP EXTINGUISH CLEAN~
+Nazwa:    PIPE
+Sk³adnia: {Gpipe tamp <fajka> <ziele>{x
+          {Gpipe light <fajka>{x
+          {Gpipe smoke <fajka>{x
+          {Gpipe ehxale <sztuczka>{x
+          {Gpipe extinguish <fajka>{x
+          {Gpipe clean <fajka>{x
+
+Zestaw komend umo¿liwiaj±cy "obs³ugê" fajek w ¶wiecie Killera.
+Kolejno:
+
+{W*{x {Gpipe tamp <fajka> <ziele>{x
+Nape³nianie obiektu <fajka> zielem <ziele>.
+
+{W* {Gpipe light <fajka>{x
+Zapalanie obiektu <fajka>.
+
+{W* {Gpipe smoke <fajka>{x
+Zaci±ganie siê dymem z obiektu <fajka>.
+
+{W* {Gpipe exhale <sztuczka>{x
+Specjalnie wydychanie dymu, w celu uzyskania widowiskowego efektu.
+Mo¿liwe do wykonania triki:
+(  PL    /   ANG  )
+- ko³a   /  rings
+- linie  /  lines
+- kula   /  sphere
+- sieæ   /  web
+- feniks /  phoenix
+- rogi   /  horns
+- imiê   /  name
+
+{W* {Gpipe extinguish <fajka>{x
+Gaszenie zapalonego obiektu <fajka>.
+
+{W* {Gpipe clean <fajka>{x
+Czyszczenie lub opró¿nianie obiektu <fajka> z ziela.
+
+
+Dostêpne dla: {Cwszystkich{x.
+Polskie odpowiedniki: pipe => {Mfajka{x
+      smoke => {Mpal{x
+      exhale => {Mwydech{x
+      tamp => {Mnabij{x
+       light => {Mzapal{x
+       extinguish => {Mzga¶{x
+       clean => {Mwyczy¶æ{x
+       Np. {Mfajka nabij <fajka> <ziele>{x
+~
+
+-1 ksiega ksiazka ksiegi ksiazki book books spellbook~
+{RKSIÊGI{x
+
+W ¶wiecie Killera istniej± dwa rodzaje ksi±g.
+
+Pierwszy z nich to ksiêga magiczna za pomoc± której mo¿emy poznaæ
+nowy czar. Takie ksiêgi najczê¶ciej mo¿na zdobyæ zabijaj±c straszliwe
+bestie i potwory.
+Zobacz te¿: {Ghelp study{x
+
+Drugi rodzaj ksi±g to ksiêgi niemagiczne, które mog± zawieraæ ciekawe
+opowiadania, poematy, wiersze lub wszelkie inne rodzaje twórczo¶ci.
+Takie ksiêgi mo¿na najczê¶ciej zdobyæ w bibliotekach i sklepach.
+Zobacz te¿: {Ghelp read{x
+~
+
+-1 read~
+Sk³adnia: {Gread <ksiêga/tablica> <numer strony/notatki>{x
+
+Komenda READ s³u¿y do czytania przeró¿nych tablic oraz niemagicznych
+ksi±g. Gdy chcemy przeczytaæ informacje zawarte w tablicach najczê¶ciej
+u¿ywamy komendy {Glook <tablica>{x co pozwoli nam zobaczyæ ca³± tablicê
+wraz z pomocnymi informacjami do jej czytania i pisania po niej.
+
+Drugie zastosowanie komendy READ to czytanie niemagicznych ksi±g
+zawieraj±cych opowiadania, poematy, wiersze lub inne rodzaje twórczo¶ci.
+Aby obejrzeæ ksi±¿kê po wierzchu u¿ywamy {Glook <ksiêga>{x. Aby otworzyæ
+ksiêgê i przeczytaæ nastêpne strony u¿ywamy: {Gread <ksiêga> <numer strony>{x.
+
+Polski odpowiednik: {Mprzeczytaj{x.
+Zobacz te¿: {Ghelp study{x, {Ghelp ksiêgi{x, {Ghelp look{x.
+~
+
+-1 holy bolt~
+Nazwa:    HOLY BOLT
+Typ:      czar
+Sfera:    {Rprzywolania{x
+Skladnia: cast {G'holy bolt'{x <nieumarly>
+Skladnia: czaruj {G'holy bolt'{x <nieumarly>
+
+Kap³ani, dziêki d³ugotrwa³ym modlitwom i rozwa¿aniom nad umiejêtno¶ci± odpêdzania nieumar³ych poznali metodê skupiania ma³ej cz±stki Boskiej mocy ich Boga/Bogini w postaci o¶lepiaj±cego promienia energii. Boska moc nie zadaje obra¿eñ ¿ywym istotom, jednak nadaje siê wprost doskonale do niszczenia nieumar³ych.
+
+Dostepne dla: {Ckleryk{x.
+~
+
+0 EAGLE SPLENDOR~
+Nazwa:   EAGLE SPLENDOR
+Typ:      czar wspomagajacy
+Szko³a:   {RPrzemiany{x
+Sk³adnia: {Gcast 'eagle splendor' [cel]
+          czaruj 'eagle splendor' [cel]{x
+
+Czar ten powoduje, ze osoba na która zostanie rzucony czar tymczasowo
+staje siê bardziej charyzmatyczna, wygadana i ciekawsza dla otoczenia.
+
+~
+
+0 FOX CUNNING~
+Nazwa:   FOX CUNNING
+Typ:      czar wspomagajacy
+Szko³a:   {RPrzemiany{x
+Sk³adnia: {Gcast 'fox cunning' [cel]
+          czaruj 'fox cunning' [cel]{x
+
+Czar ten powodujê, ¿e osoba na któr± zostanie rzucony czar tymczasowo
+Bardziej inteligentna, potrafi szybciej kojarzyæ fakty i uczyæ siê nowych
+umiejêtno¶ci.
+
+Dostêpne dla:{C mag.{x
+~
+
+0 komponenty component ingredient~
+{XSk³adnia:        {Gspells <nazwa czaru>{x
+
+Godnym poznania elementem dla ka¿dego czarodzieja (i nie tylko)
+jest znajomo¶æ komponentów do czarów. Niektóre czary wymagaj±
+sk³adnika, który pozwoli skrystalizowaæ siê magii i bez niego nie
+mo¿liwe bêdzie rzucenie zaklêcia. Inne dziêki komponentowi s±
+wzmacniane, w niektórych przypadkach wybiegaj±c daleko poza
+bazow± moc czaru. Jeszcze inne dziêki zastosowaniu katalizatora
+uzyskuj± ca³kowicie odmienne efekty, ni¿ te które mo¿na osi±gn±æ
+rzucaj±c czar bez dodatkowego sk³adnika.
+
+¯eby poznaæ te wszystkie cuda potrzebujemy wiedzy o komponencie -
+wiedza taka czêsto bywa zapisana w ksiêgach, modlitewnikach lub na
+innych skrawkach papieru, na których bywaj± tak¿e zapisane magiczne
+zaklêcia.
+
+Gdy ju¿ poznamy jakich komponentów mo¿emy u¿yæ do rzucenia
+danego czaru, pozostaje jeszcze oczywi¶cie kwestia ich zdobycia.
+Do niektórych wystarcz± skrzyd³a nietoperza i ogon szczura, a inne
+zaklêcia bêd± wymagaæ dziewiêciokrotnie po¶wieconych bia³ych ¶wiec
+lub rogów wyciêtych z cia³a wiêkszego demona.
+
+Ogólne dzia³anie komponentów:
+- Wymagane do rzucenia zaklêcia
+- Wzmacnianie dzia³ania zaklêcia
+- Zamiana dzia³ania zaklêcia
+
+Je¶li chodzi o rzucanie czarów warto zapoznaæ siê z help {Ycast{x i help
+{Ymemorize{x.
+~
+
+0 detect good evil~
+Nazwa:    DETECT GOOD
+Nazwa:    DETECT EVIL
+Typ:      czar
+Szko³a:   {RPoznanie{x
+Sk³adnia: {Gcast 'detect good/evil'
+          czaruj 'detect good/evil'{x
+
+Po rzuceniu tego jednego z tych dwóch czarów czaruj±cy potrafi
+wykryæ aurê istot bêd±cych w pobli¿u. Istoty z³e (evil) otoczone s±
+czerwon± aur±, istoty dobre (good) otoczone s± za¶ z³ot± aur±.
+
+Dostêpna dla: {Cpaladyn{x (tylko detect evil), {Ckleryk{x.
+~
+
+-1 news~
+{RNEWS{x
+
+Sk³adnia: {Gnews list{x
+{G          news read <numer>{x
+          {Gnews catchup{x
+
+NEWS LIST - wy¶wietla listê wszystkich nowo¶ci.
+
+NEWS READ - wy¶wietla tekst wiadomo¶ci o podanym numerze.
+
+NEWS CATCHUP - oznacza wszystki nowo¶ci jako przeczytane.
+
+Polski odpowiednik: {Mnowo¶ci{x.
+~
+
+-1 Mind Strike~
+Nazwa:    MIND STRIKE
+Typ:      czar bojowy
+Szko³a:   {Riluzje{w
+Skladnia: {Gcast 'mind strike' [cel]{w{w{w{w
+          {Gczaruj 'mind strike' [cel]
+
+{wTen prosty czar bojowy przywo³uje obrazy fizycznego bólu i ran, a nastêpnie
+wysy³a je w formie niewielkiego, purpurowego pocisku w kierunku wroga.
+Czar jednak nie sprawdza siê wogóle w walce z nieumar³ymi i konstruktami.
+
+Dostêpne dla: {Cmag{s
+~
+
+-1 Mind Blast~
+Nazwa:    MIND BLAST
+Typ:      czar bojowy
+Szkola:   {Riluzje{w
+Skladnia: {Gcast 'mind blast' [cel]
+          czaruj 'mind blast' [cel]
+
+{wCzar ten to ulepszona wersja czaru 'Mind Strike', dzia³aj±ca na bardzo
+podobnej zasadzie. Mianowicie negatywne emocje maga, razem z obrazami
+fizycznych ran i zmêczenia zamykane s± w formie niewielkiej, purpurowej
+kuli która nastêpnie trafia we wroga, dzia³aj±c bezpo¶rednio na zmys³y
+ofiary. Nie raz okaza³o siê, ¿e potê¿ne emocje i obrazy potrafi± nawet
+u¶mierciæ mniej odpornych osobników. Chocia¿ oczywi¶cie czar ma mniejsz±
+si³ê od 'normalnych' czarów ofensywnych, to jego swoistymi zaletami
+jest polê jego dzia³ania - oddzia³uje na umys³ ofiary - im jest s³abszy
+i bardziej os³abiony, tym wiêkszy jest efekt tego czaru. Oczywi¶cie
+czar nie dzia³a na konstrukty i nieumar³ych.
+
+Dostêpne dla: {Cmag{s
+~
+
+0 Fortitude~
+Nazwa:    Fortitude
+Typ:      czar ochronny
+Szko³a:   {Rodrzucanie{x
+Sk³adnia: {Gcast 'fortitude' [osoba]{x
+
+To zaklêcie tymczasowo zwiêksza odporno¶æ czaruj±cego lub
+jego przyjació³ na niektóre, negatywne efekty magii.
+
+Dostêpne dla: {CMag specjalista odrzucania{x.
+~
+
+-1 PODSUMOWANIE~
+{CPORUSZANIE SIÊ{x                                {CGRUPY{x
+pó³noc po³udnie wschód zachód góra dó³        pod±¿aj grupa gtell podziel
+wyj¶cia ¶pij obud¼ odpocznij wstañ usi±d¼     groupprompt
+
+{COBIEKTY{x (parametr - nazwa obiektu lub all)    {CINFORMACJE I KOMENDY{x
+we¼ w³ó¿ upu¶æ daj                            pomoc credits komendy postaæ
+za³ó¿ dzier¿ chwyæ zdjemij uchwyæ             kondycja czas pogoda kto
+recytuj po³knij potrzyj potrz±¶nij            b³±d literówka pomys³
+zaklucz odklucz otwórz zamknij w³am           mów mówdo powiedz wrza¶nij
+inwentarz ekwipunek patrz                     umiejêtno¶ci zaklêcia
+zjedz wypij nape³nij                          opcje ignoruj
+cennik przymierz kup sprzedaj wyceñ           emocje
+zreperuj oszacuj poka¿
+
+{CWALKA{x (parametr - nazwa gracza lub moba)      {CINNE{x
+zabij uciekaj kopnij ratuj rozbrój            ! zapisz wyjdz wynajmij oferta
+zad¼gaj czaruj poddaj                         zapamiêtaj zapomnij ucz
+
+Aby dowiedzieæ siê czego¶ wiêcej wpisz 'pomoc <temat>' dla ka¿dej komendy,
+zdolno¶ci, lub czaru.
+
+Zobacz komendy po angielsku: {Rpomoc/help summary{x
+~
+
+-1 CLANINFO~
+Sk³adnia: {Gclaninfo <numer klanu>{x
+
+Wy¶wietla informacje na temat danego klanu.
+~
+
+-1 display~
+Sk³adnia: {Gdisplay <przedmiot lub all>{x
+
+Pokazuje pozosta³ym graczom w lokacji przedmioty, które posiadasz w
+inwentarzu. Je¿eli jeste¶ niewidzialny, to przy u¿yciu tej komendy
+stajesz siê widoczny.
+
+Polski odpowiednik: {Mpoka¿{x.
+~
+
+-1 mine mining~
+Nazwa:    MINING
+Typ:      umiejêtno¶æ wspomagaj±ca
+Sk³adnia: {Gmine{x
+
+Jak wiadomo pod ziemia mo¿na znale¼æ wiele rzeczy.
+Po znalezieniu odpowiedniego miejsca pracy pod ziemi±, mo¿na
+spróbowaæ swoich si³ w wydobywaniu skarbów kryj±cych siê w ziemi.
+Czasem jest to kawa³ek wêgla, czasem trafi siê jaki¶ rudy ¿elaza.
+Chodz± s³uchy, ze górnicy czasem trafiaj± na z³oto, a nawet mithril.
+Ka¿dy, kto chcia³by wydobywaæ cos na w³asna rêkê musi odpowiednio siê
+do tego przygotowaæ.
+
+Niezbêdne s± umiejêtno¶ci - to wiadomo.
+Przyda siê tez du¿y worek na bry³ki, jaka¶ latarnia do o¶wietlania pola
+pracy, a przede wszystkim kilof. Nie byle jaki, ale z prawdziwego
+zdarzenia, mocny i solidny, taki, który roz³upa³by nawet czaszkê behemota.
+
+Ostatnimi czasy najodwa¿niejsi, najdalej zapuszczaj±cy siê pod ziemiê,
+górnicy zaczêli donosiæ o stworach, które wydostaj± siê z g³êbin.
+
+Do¶wiadczony górnik jest w stanie jednym spojrzeniem oceniæ bogactwo odkrytego z³o¿a.
+Aby dokonaæ oceny zasobów danego miejsca nale¿y u¿yæ polecnia: {Cmine prospect{x
+
+Polski odpowiednik: {Mwydobywaj.{x
+Zobacz tak¿e help do: {Yilluminate{x.
+~
+
+-1 BOUNTY NAGRODA~
+Sk³adnia: {Gbounty{x
+          {Gbounty list{x
+          {Gbounty <imiê> <cena>{x
+
+Komendy s³u¿±ce do korzystania z oferty ogromnej Gildii £owców G³ow,
+która ma swoje filiê we wszystkich wiêkszych miastach.
+
+{w*{G bounty{x
+Komenda bez ¿adnego argumentu s³u¿y do obierania nagrody za eliminacje
+jednej z ofiar Gildii.
+
+{w*{G bounty list{x
+Wy¶wietla listê zleceñ w Gildii.
+
+{w*{G bounty <imiê> <cena>{x
+Spowoduje wystawienie nagrody o warto¶ci <cena> za g³owê <imiê>.
+Uwaga: nale¿y dysponowaæ kwot± na jak± oferujê siê nagrodê, bowiem
+zostanie ona pobrana przez pracownika Gildii.
+
+Polski odpowiednik: {Mnagroda{x.
+~
+
+-1 THROW RZUÆ~
+Sk³adnia: {Gthrow coin{x
+
+Komenda s³u¿±ca do rzucania monet±.
+Nale¿y oczywi¶cie takow± przy sobie posiadaæ.
+
+Polskie odpowiedniki: {Mrzuæ{x.
+~
+
+-1 MOON KSIÊ¯YC~
+W ¶wiecie Killera mamy tylko jeden ksiê¿yc.
+Jego pe³en cykl wynosi ok. 32 dni.
+
+Wp³yw ksiê¿yca na ¶wiat jest ró¿noraki, od p³ywów,  do
+szerokiego oddzia³ywania na magiczn± stronê ¶wiata.
+
+Je¿eli chcesz sprawdziæ w jakiej fazie znajduje siê
+obecnie ksiê¿yc, wystarczy, ¿e noc±, pod go³ym niebem
+mu sie przyjrzysz...
+
+Sk³adnia: {Glook moon{x
+
+Uwaga: nale¿y wpisaæ pe³n± komendê!
+
+Polski odpowiednik: {Mpatrz ksiê¿yc{x.
+~
+
+32 COLOUR3 COLOR3 ANSI3 KOLORY3~
+W wypadku zamykania koloru nalezy zamknac go ZAWSZE specjalnym znaczkiem. Oto ich spis:
+{{p: prompt
+{s{{s: room_title{x
+{S{{S: room_text{x
+{{Z: wiznet
+{{o: room_exits
+{{i: immtalk_text
+{{I: immtalk_type
+{{2: fight_yhit
+{{3: fight_ohit
+{{4: fight_thit
+{5{{5: fight_skill{x
+{{1: fight_death
+{{6: say
+{7{{7: say_text{x
+{{k: tell
+{K{{K: tell_text{x
+{{l: reply
+{{L: reply_text
+{{N: gtell_text
+{{n: gtell_type
+{{q: question
+{Q{{Q: question_text{x
+{{u: yell
+{U{{U: yell_text{x
+{D{{x: ca³a reszta{x
+~
+
+-1 lodowa kraina~
+Wielki lodowiec cofaj±c siê natrafi³ na góry i w taki oto sposób powsta³a
+ta kraina. Mieszkaj± tam lubi±ce zimno stwory, takie jak yeti czy lodowe
+salamandry. Stare legendy, szeptane przez górali z pokolenia na pokolenie,
+mówi± o tajemniczym artefakcie, podobno ukrytym na tych terenach. Strze¿ siê
+jednak przybyszu! Strzeg± go podobno potwory w istocie swej straszliwe!
+~
+
+-1 bartmandal~
+Kraina ta to opuszczona posiad³o¶æ Lorda Bartmana, jedna z najstarszych
+krain na tym ¦wiecie. Jest ona aktualnie opanowana przez Ciemne Moce,
+dlatego mo¿ecie siê spodziewaæ w niej ró¿norakich upiorów, banshee i innych
+z³ych stworów. Quest dostêpny w tej krainie zaczyna siê niedaleko, w ¦wiêtej
+Górze, dawany przez Lorda Bartmana we w³asnej osobie.
+~
+
+-1 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Athen, the sequel to the ROM code. It can
+be found on Rehobaom's Legacy, at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+The New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bugs reports
+    and suggestions, saving a lot of headaches
+
+Bug reports --
+    Thanks to Shad Muegge, Jerome Despret, Phoenix, Will Hongach,
+    Erwin S. Andreasen, Adam Debus and especially Gary Turkington
+    (author of the ROM FAQ) for help spotting bugs
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used.  Portions of Rusty's work on
+Moosehead also remain.
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle Taylor and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+
+-1 www~
+Oficjalna strona WWW muda:
+{Rhttp://www.killer.mud.pl/{x
+
+Forum muda:
+{Ghttp://killer.mud.pl/fora/{x
+ 
+Blog muda:
+{Yhttp://killer.mud.pl/
+~
+
+-1 MERC~
+This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.
+Merc 2.1 is available as Merc_21.tar.gz from ftp.tcp.com and
+ftp.math.okstate.edu.
+E-mail to 'majordomo@webnexus.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+Also see "help ROM" for information about the Rivers of Mud code base.
+~
+
+-1 GREETING~
+.
+                   .:'           K I L L E R           `:.
+                  ::'                                   `::
+                 :: :.     < killer.mud.pl 4000 >     .: ::
+                 `:. `:.              .            .:'  .:'
+                   `::. `::           !           ::' .::'
+                       `::.`::.    .' ! `.    .::'.::'
+ Original DikuMUD        `:.  `::::'':!:``::::'   ::'
+ by Hans Staerfeldt,     :'*:::.  .:' ! `:.  .:::*`:
+ Katja Nyboe,           :: ###::.   ` ! '   .::### ::
+ Tom Madsen,           ::: #####::.  `!'  .::##### :::
+ Michael Seifert,      ::..  #####:`:   :':#####  ..::
+ and Sebastian Hammer  `::      ##: `. .' :##      ::'
+                         `:. .   :         :   . .:'
+  Based on MERC 2.1        `::'               `::'  strona:
+  code by Hatchet,           :'  .`.  .  .'.  `:    http://www.killer.mud.pl/
+  Furey, and Kahn            :' ::.       .:: `:
+                             :' `:::     :::' `:    forum:
+   ROM 2.4 copyright          `.  ``     ''  .'     http://killer.mud.pl/fora/
+   (c) 1993-1998               :`...........':
+   Russ Taylor                 ` :`.     .': '
+                                `:  `"""'  :'
+
+
+Podaj swoje imie:
+~
+
+-1 MOTD~
+* Witaj na naszym mudzie. Jest to mocno zmodyfikowany DIKU stworzony
+  z mysla o doswiadczonych graczach. O historii naszego swiata mozesz
+  poczytac wpisujac komende 'story' ('historia').
+
+* Zabijanie, okradanie graczy nie jest zakazane. Zabronione jedynie
+  jest granie na raz wiecej niz jedna postacia oraz wykorzystywanie
+  wszelkich bugow bez zglaszania ich BOGOM. W obu przypadkach kara jest
+  jedna - skasowanie postaci bez zadnego ostrzezenia. Dokladna lista
+  zasad dostepna jest po wpisaniu komendy 'rules' ('zasady').
+
+* Mud posiada wlasna strone WWW -> www.killer.mud.pl oraz forum dyskusyjne
+  killer.mud.pl/fora
+
+* Jesli uznasz ze chcesz nam pomoc piszac krainy, badz robic cos rownie
+  pozytecznego zajrzyj napisz na forum muda lub na adres
+  <gurthg.shae@gmail.com>.
+
+* Zyczymy przyjemnej gry.
+~
+
+32 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.
+Strung extended descriptions on objects are not kept, however.
+~
+
+-1 SKILLS SPELLS UMIEJÊTNO¦CI ZAKLÊCIA~
+Sk³adnia: {Gskills{x
+{Gskills{x [poziom minimalny] [poziom maksymalny]
+{Gspells{x
+{Gspells <nazwa_zaklecia>{x
+
+Komendy te s± u¿ywane do wy¶wietlenia listy umiejêtno¶ci oraz zaklêæ, które
+umie twoja postaæ. Zaklêcia wy¶wietlone s± w kolejno¶ci krêgów magii, na
+którym dany czar siê znajduje. Kolejno¶æ wy¶wietlania umiejêtno¶ci zale¿y
+od poziomu do¶wiadczenia, na którym s± dostêpne. Przy ka¿dej umiejêtno¶ci
+wy¶wietlony jest stopieñ jej wytrenowania.
+
+Aby rozpocz±æ trening danej umiejêtno¶ci nale¿y udaæ sie do odpowiedniego nauczyciela,
+który poka¿e nam podstawy. Wówczas przy danej umiejêtno¶ci pojawi sie + oznaczaj±cy,
+¿e posiadamy now± wiedzê teoretyczn± na temat danej umiejêtno¶ci. Teraz pozostaje ju¿
+tylko trening praktyczny. Gdy opanujemy w praktyce ca³± wiedzê teoretyczn± jak± przekaza³
+nam nauczyciel + zniknie. Nastêpnie nale¿y poszukaæ nauczyciela, który zaznajomi nas
+z kolejnymi tajnikami interesuj±cej nas umiejêtno¶ci.
+
+Komenda 'spells <nazwa_zaklecia> wy¶wietla poznane przez nas komponenty,
+które mog± byæ przydatne przy rzucaniu zaklêcia.
+
+Polski odpowiednik: {Mumiejêtno¶ci zaklêcia{x
+Zobacz tak¿e help: {Ymemorize learn{x, {Yskill levels{x
+~
+
+-1 clan klan klany clans~
+{RKLANY{x
+
+Klan to oficjalna organizacja, w sk³ad której wchodzi zazwyczaj
+kilka lub klikana¶cie osób. Klan posiada najczê¶ciej sw± siedzibê.
+Cech± charakterystyczn± dla cz³onków danego klanu jest posiadanie
+specjalnego dopisku na li¶cie {Gwho{x.
+
+Wiêcej o klanach mo¿na dowiedzieæ siê na oficjalnej stronie muda:
+{Rhttp://www.killer.mud.pl/{x
+
+Do wy¶wietlenia listy klanów s³u¿y komenda: {Gclans{x.
+Do wy¶wietlenia informacji na temat danego klanu s³u¿y komenda: {Gclaninfo{x <{Gnumer_klanu{x>.
+
+Do ustawienia stosunków miedzy innymi klanami s³u¿y komenda: {Gclanstate{x.
+Sk³adnia: {Gclanstate{x <{Gnumer_klanu{x> <{Gstosunki{x>
+
+{CGdzie{x:
+
+{Gnumer_klanu{x - to numer klanu z listy klanów ({Gclans{x).
+{Gstosunki:{x {Cwar{x (wojna), {Cneutral{x (neutralny), {Cpeace{x (pokój), {Caliance{x (sojusz).
+
+Ustawienie {Caliance{x spodwoduje, ¿e dany sojuszniczy klan bêdzie widzia³ wszytko co siê pisze na kanale klanowym.
+W celu umo¿liwienia obustronnej komunikacji miedzy klanami, przywódcy obu klanów musz± ustawiæ {Gclanspace{x na {Caliance{x.
+
+~
+
+-1 AFFECTS~
+Sk³adnia: {Gaffects{x
+
+Komenda pokazuje listê czarów jakie aktualnie dzia³aj± na ciebie z krótk±
+informacj± o dzia³aniu czaru i czasie trwania.
+
+Polski odpowiednik: {Mafekty{x
+~
+
+-1 CLOTHING ARMOR ZBROJA UBRANIE~
+W tym ¶wiecie spotkasz dwa podstawowe typy rzeczy, które bêd± okrywaæ
+twoje cia³o: ubrania i zbroje. Ubrania nie posiadaj± ¿adnych ogólnych
+ograniczeñ i generalnie ka¿dy mo¿e je nosiæ. Sprawa zbroi jest bardziej
+zawi³a, mianowicie: to jaka zbroje mo¿esz nosiæ zale¿y od twojej rasy
+i profesji. Ograniczenia rasowe nie s± usystematyzowane ale logika
+podpowiada, ze je¿eli nie mo¿esz za³o¿yæ zbroi zdobytej na krasnoludzie,
+samemu nie bêd±c krasnoludem ani gnomem, to nie nale¿y tego zg³aszaæ
+jako b³±d, zbroja po prostu bêdzie na ciebie za ma³a.
+Co do ograniczeñ profesji to krotka lista wystêpuj±cych u nas typów
+zbroi wraz z profesjami które NIE MOGA ich zak³adaæ:
+Dostêpne typy zbroi:
+NAZWA                Profesje, dla których jest niedostêpna
+Pikowana
+Skórzana              Mag
+Æwiekowana skórzana   Mag Z³odziej
+Naszywanica           Mag Z³odziej Mnich
+£uskowa               Mag Z³odziej Mnich
+Przeszywanica         Mag Z³odziej Mnich
+Skory zwierzêce       Mag Mnich
+Lekka kolczuga        Mag Z³odziej Mnich
+Zwyk³a kolczuga       Mag Z³odziej Mnich
+Paskowa               Mag Z³odziej Barbarzyñca Mnich
+Pancerz z br±zu       Mag Z³odziej Barbarzyñca Mnich
+Wzmacniana skórzana   Mag Z³odziej Barbarzyñca Mnich
+Pó³p³ytowa            Mag Z³odziej Barbarzyñca Mnich
+Pó³p³ytowa wzmacniana Mag Z³odziej Barbarzyñca Mnich
+P³ytowa               Mag Z³odziej Barbarzyñca Mnich
+P³ytowa wzmacniana    Mag Z³odziej Barbarzyñca Mnich
+
+To tylko ogólne za³o¿enia i nierzadko siê zdarzy, ze bêdzie gdzie¶ zbroja
+skórzana tylko dla z³odziei i inne tego typu wyj±tki, jak równie¿ nie ka¿dy
+pancerz z br±zu bêdzie z br±zu akurat ale to takie ogólne typy najlepiej
+obrazuj±ce typ noszonej zbroi.
+~
+
+-1 Spiritual Weapon 'Spiritual Weapon'~
+Nazwa:    SPIRITUAL WEAPON
+Typ:      czar
+Sfera:    {Rtworzenia{x
+Skladnia: cast {G'spiritual weapon'{x
+          czaruj {G'spiritual weapon'{x
+
+Czar ten to ulepszona, klerycka wersja czaru 'spiritual hammer'. Czar,
+zamiast magicznego widmowego m³ota wzywa widmow± broñ, w której kleryk
+czuje siê najbieglejszy. Widmowy ekwipunek rozpada siê w proch po pewnym
+czasie, nie mo¿na go tak¿e zdj±æ, jako, ¿e jest to dar od Bóstwa. Czar
+ten mo¿na rzucic tylko na siebie.
+
+Dostepne dla: {Ckleryk{x.
+~
+
+-1 ¦WIÊTA GÓRA~
+Opuszczaj±c Carrallak w kierunku pó³nocnym skrêæ po pewnym czasie na
+wschód. Id±c przez pola trafisz na ¦w. Górê, dawne miejsce kultu i wielkiej
+bitwy. Mo¿e ciê tam spotkaæ przygoda jakich ma³o. Powodzenia podró¿niku!
+~
+
+0 CAT GRACE~
+Nazwa:   CAT GRACE
+Typ:      czar wspomagajacy
+Szko³a:   {RPrzemiany{x
+Sk³adnia: {Gcast 'cat grace' [cel]
+          czaruj 'cat grace' [cel]{x
+
+Czar ten powodujê, ¿e refleks i koordynacja ruchowa osoby na któr±
+zostanie rzucony znacznie siê poprawia, co za tym idzie, tymczasowo
+wzrasta zrêczno¶æ postaci.
+
+Dostêpne dla:{C druid, mag.{x
+~
+
+0 OWL WISDOM~
+Nazwa:   OWL WISDOM
+Typ:      czar wspomagajacy
+Szko³a:   {RPrzemiany{x
+Sk³adnia: {Gcast 'owl wisdom' [cel]
+          czaruj 'owl wisdom' [cel]{x
+
+Czar ten powodujê, ¿e osoba na któr± zostanie rzucony czar tymczasowo
+staje siê m±drzejsza, potrafi patrzeæ na fakty z bardziej obiektywnego
+punktu widzenia i lepiej je kojarzyæ.
+
+Dostêpne dla:{C kleryk, paladyn i druid.{x
+~
+
+0 BEAR ENDURANCE~
+Nazwa:   BEAR ENDURANCE
+Typ:      czar wspomagajacy
+Szko³a:   {RPrzemiany{x
+Sk³adnia: {Gcast 'bear endurance' [cel]
+          czaruj 'bear endurance' [cel]{x
+
+Czar ten powodujê, ¿e osoba na któr± zostanie rzucony czar tymczasowo
+staje siê bardziej wytrzyma³a a tak¿e przy¶piesza procesy metaboliczne
+zachodz±ce w organizmie.
+
+Dostêpne dla: {Cdruid{x i {Cmag.{x
+~
+
+-1 KNOCK ZAPUKAJ~
+Sk³adnia: {Gknock <nazwa drzwi lub kierunek>{x
+
+Komenda knock s³u¿y do pukania do drzwi.
+
+Polskie odpowiedniki: {Mzapukaj{x.
+~
+
+-1 STORY HISTORIA 'POWSTANIE ¦WIATA'~
+W bezkresnej przestrzeni, w chaosie i absolutnej pustce od zawsze
+istnia³y setki, tysi±ce istot. Duchów, przemierzaj±cych bezmiary
+eteru. Gdy nie by³o niczego, one unosi³y siê po¶ród zimnej pustki
+i przemierza³y j±, bez celu. ¦wiat nie istnia³by dzisiaj, gdyby nie
+jeden z owych duchów. Najmêdrsi i najstarsi zw± go Mea'Eridu,
+stworzycielem ¶wiata. Bo za jego moc± ¶wiat wy³oni³ siê z chaosu.
+Najpierw jako ciemna skorupa uformowana z eteru, potem jako buchaj±ca
+ogniem, pe³na gor±cej magmy ska³a, gdy za¶ mija³y setki i tysi±ce lat
+ - jako piêkna, pe³na ¿ycia i magii kraina, jak± znamy teraz - Tamera.
+
+O Mea'Eridu niewiele wiadomo, poza tym, ¿e stworzy³ ¶wiat i ¿e nie
+bierze ¿adnego udzia³u w sporach Bogów. Wielu uto¿samia go z cyklem
+¿ycia, który jest nieod³±czn± czê¶ci± naszego ¶wiata. Druidzi w³a¶nie
+Stworzycielowi oddaj± cze¶æ i modl± siê do niego jako tego który
+uto¿samia si³y natury. Do dzisiaj jednak nie wiadomo, czy magia któr±
+siê pos³uguj± jest naprawdê darem stworzyciela.
+
+Tak jak ¶wiat nie mo¿e istnieæ bez magii, tak ludzie nie mog± istnieæ
+bez bogów. Od narodzin a¿ po kres ludzkiego ¿ycia, kieruj± naszymi
+krokami, a my, ignoranci, staramy siê przeciwstawiaæ przeznaczeniu
+miast ws³uchaæ siê w g³os Bogów, pradawnych i m±drych ponad ludzkie
+pojmowanie - tak przynajmniej s±dz± niektórzy kap³ani.
+
+W rzeczywisto¶ci bogowie, jak ich zwiemy, w zamierzch³ych czasach byli
+duchami przemierzaj±cymi kosmiczn± pustkê. Jednak kraina która
+powsta³a w niej, dla wielu by³a kusz±ca niczym miód dla pszczó³.
+Przybywali do naszego ¶wiata, wiedzeni ciekawo¶ci± i innymi czynnikami.
+Zape³nili ¶wiat ¿ywymi stworzeniami, tworzyli zwierzêta, ryby i ptaki.
+I rasy rozumne. Pielêgnowali lub niszczyli ¿ycie... i wszczynali
+wojny. Niszczyli ¶wiat raz po raz, a tysi±ce stworzonych przez nich
+stworzeñ dr¿a³a w oczekiwaniu na ¶mieræ lub nastêpny dzieñ niekoñcz±cej
+siê Boskiej Wojny. Byli jak ma³e dzieci które dosta³y klocki do zabawy,
+zazdrosne o to, ¿e inne dzieci maj± wiêcej klocków. Nowi Bogowie
+nap³ywali falami, prowokuj±c nowe konflikty i niszcz±c te niewielkie
+momenty w których panowa³a równowaga si³. Mea'eridu pocz±tkowo przygl±da³
+siê temu z ciekawo¶ci±, jednak po pewnym czasie zaczê³o go to dra¿niæ.
+Jako, ¿e mia³ kompletn± w³adzê nad swoim dzie³em, zablokowa³ dostêp do
+¶wiata dla nowych 'Bogów', a tym duchom, które ju¿ przyby³y zakaza³
+manifestowaæ siê na planie materialnym. To zakoñczy³o kategorycznie Erê
+Bogów. Bogowie mogli wp³ywaæ na ¶wiat, ale tylko rêkami wyznawców...
+~
+
+-1 'POZIOM UMIEJÊTNO¦CI' 'SKILL LEVEL'~
+Poziom umiejêtno¶ci reprezentowany jest opisowo w nastêpuj±cej
+kolejno¶ci:
+
+ - ¿enuj±co
+ - bardzo s³abo
+ - s³abo
+ - kiepsko
+ - poni¿ej ¶redniej
+ - ¶rednio
+ - nie¼le
+ - dobrze
+ - bardzo dobrze
+ - mistrzowsko
+
+Zobacz tak¿e: {Yskills{x.
+~
+
+-1 $~
+
+#$

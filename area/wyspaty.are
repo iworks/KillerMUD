@@ -1,0 +1,4074 @@
+#AREADATA
+Name +# Wyspa tytanów~
+Builders Ocean~
+VNUMs 3800 3898
+Credits poprawki: brohacz (brohacz@poczta.onet.pl)
+Brock, brock@xl.wp.pl
+~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 3800
+Name kolazuz vertiwilkan wladca tytanow gigant boss~
+Odmiana Kolazuza Vertiwilkana~Kolazuzowi Vertiwilkan~Kolazuza Vertiwilkan~Kolazuzem Vertiwilkan~Kolazuzie Vertiwilkan~
+Short Kolazuz Vertiwilkan~
+Long Najwiêkszy z tytanów, Kolazuz Vertiwilkan, zarz±dza tutaj ca³ym królestwem.~
+Descr Widzisz przed sob± ogromnego, prawie o dwie g³owy wiêkszego od innych
+tytana. Jego gargantuiczne rozmiary mog± mierzyæ te osi±gane przez
+staro¿ytne smoki lub te¿ potê¿nych gigantów. Dzierzy w rêkach dwa potê¿ne,
+z±bkowane, kryszta³owe ostrza - ka¿de mniej wiêcej twojej wielko¶ci - które
+wygl±daj± na ¶miertelnie niebezpieczne. Wódz tytanów ma pogodny wyraz
+twarzy, jednak niech ciê on nie zmyli - zaatakuje ka¿dego intruza bez
+namys³u, chroni±c swojej ziemi. 
+~
+Race tytan~
+ActExt 0|ABFT/2|C
+Affected 33554472 0 524288 0
+AffectedExt 0|DFZ/2|T
+Align 0
+Group 0
+Lang P
+Speaks 15
+Level 34
+Hitroll 6
+HP 34d10+2000
+Damage 7d2+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack walniecie
+XAC -7 -7 -7 -2
+Stats 168 120 120 156 168 84 114
+Off CIKOYb
+OffExt 0|CIKOYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form AFMV
+Parts ABCDEFGHIJK
+Size giant
+Material unknown
+Comments -2hitrolla - {RLaszlo{x ({CFri Jun  5 10:29:10 2009{x)
+~
+MobprogNew onload wodz ABCDEFGHI 100~
+MobprogNew death 3800 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 340
+Resist 2 15
+Resist 3 15
+Resist 4 50
+Resist 10 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 3801
+Name tytan burz~
+Odmiana tytana burz~tytanowi burz~tytana burz~tytanem burz~tytanie burz~
+Short tytan burz~
+Long Tytan burz stoi na ¶rodku przej¶cia chroni±c dostêpu do wodza.~
+Descr Widzisz przed sob± wielkiego tytana. Nazywaj± go tytanem burz, gdy¿ broni
+siê energi± pochodz±c± z chmur. Wiatry, deszcze, pioruny to jego
+sprzymierzeñcy. Lepiej uwa¿aj na niego, gdy¿ mo¿e zadaæ ci wiele bólu i
+cierpienia. 
+~
+Race tytan~
+ActExt 0|ABFLT
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 3
+HP 20d2+1200
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 5
+Damflags 64
+Attack walniecie
+XAC 2 2 2 2
+Stats 150 60 150 102 150 78 78
+Off IY
+OffExt 0|IY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFMV
+Parts ABCDEFGHIJK
+Size huge
+Material unknown
+Comments -3 hitrolla, -300hp - {RLaszlo{x ({CFri Jun  5 10:29:53 2009{x)
+~
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload burz ABCDEFGHI 100~
+Spells 350 240 7 262
+Skin 100
+ExpMultiplier 100
+Resist 0 10
+Resist 4 50
+Resist 7 100
+Resist 12 70
+Mobend
+#Vnum 3802
+Name Tytan gromow³adny~
+Odmiana tytana gromow³adnego~tytanowi gromow³adnemu~tytana gromow³adnego~tytanem gromow³adnym~tytanie gromow³adnym~
+Short tytan gromow³adny~
+Long Tytan gromow³adny w³adca piorunów stoi tutaj zagradzaj±c przej¶cie.~
+Descr Widzisz przed sob± potê¿nego tytana. Dooko³a niego lataj± burzowe chmury,
+które od czasu do czasu ciskaj± piorunami. Je¿eli nie chcesz zostaæ kupk±
+popio³u lepiej nie ryzykuj i uciekaj st±d gdzie pieprz ro¶nie. 
+~
+Race tytan~
+ActExt 0|ABFRT
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 3
+HP 20d2+1200
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 64
+Attack walniecie
+XAC 4 4 4 4
+Stats 138 144 120 78 114 90 108
+Off IY
+OffExt 0|IY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFMV
+Parts ABCDEFGHIJK
+Size huge
+Material unknown
+Comments -3hitrolla, -300hp - {RLaszlo{x ({CFri Jun  5 10:30:22 2009{x)
+~
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload gromowladny ABCDEFGHI 100~
+Spells 69 296 13 88
+Skin 100
+ExpMultiplier 100
+Resist 0 10
+Resist 4 50
+Resist 7 100
+Resist 12 70
+Mobend
+#Vnum 3803
+Name tytan skalny~
+Odmiana skalnego tytana~skalnemu tytanowi~skalnego tytana~skalnym tytanem~skalnym tytanie~
+Short tytan skalny~
+Long Skalny tytan chodzi tutaj uwa¿nie siê rozgl±daj±c.~
+Descr Widzisz przed sob± dosyæ sporego tytana. Jego skóra jest szczególnie
+utwardzona i na pierwszy rzut oka wygl±da, ¿e to ska³a. Trudno bêdzie
+przebiæ co¶ takiego. Potrzeba naprawdê du¿o si³y, by zraniæ te bydle. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 3
+HP 10d5+1200
+Damage 10d3+14
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack mwalniecie
+XAC 3 3 3 3
+Stats 168 78 78 78 78 78 78
+Off DJRc
+OffExt 0|DJRc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFMV
+Parts ABCDEFGHIJK
+Size huge
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload skalny ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 120
+Resist 0 10
+Resist 4 40
+Resist 12 70
+Mobend
+#Vnum 3804
+Name tytan~
+Odmiana tytana~tytanowi~tytana~tytanem~tytanie~
+Short tytan~
+Long Tytan maszeruje tutaj lekko przygarbiony.~
+Descr Masz przed sob± zwyk³ego tytana. Jest do¶æ mocno umiê¶niony. Widaæ, ¿e
+potrafi nie¼le przywaliæ w gêbê. Lepiej uwa¿aj na niego. Tytan jest na
+prawdê wysoki. Siêga ponad trzy metry. Jego przewrócenie stanowi nielada
+problem. Tylko najwy¿szym uda siê to zrobiæ. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AL
+Speaks 11
+Level 28
+Hitroll 2
+HP 10d5+1000
+Damage 5d3+-1
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack mwalniecie
+XAC 5 5 5 5
+Stats 144 60 120 90 144 78 90
+Off DJRXc
+OffExt 0|DJRXc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew greet 3800skalny FGI 100~
+MobprogNew onload tytan ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 120
+Resist 0 5
+Resist 4 50
+Resist 12 70
+Mobend
+#Vnum 3805
+Name ognisty tytan~
+Odmiana {Rog{Ynis{Rtego t{Yyt{Rana{X~{Rog{Ynis{Rtemu t{Yyt{Ranowi{X~{Rog{Ynis{Rtego t{Yyt{Rana{X~{Rog{Ynis{Rtym t{Yyt{Ranem{X~{Rog{Ynis{Rtym t{Yyt{Ranie{X~
+Short {Rog{Ynis{Rty t{Yyt{Ran{X~
+Long Ognisty tytan obserwuje st±d pobliskie krajobrazy.~
+Descr Masz przed sob± ognistego tytana. Otacza go p³omienista aura, która
+roz¶wietla jego osobê. Jest do¶æ mocno umiê¶niony. Widaæ, ¿e potrafi nie¼le
+przywaliæ w gêbê. Lepiej uwa¿aj na niego. W jego oczach widaæ b³ysk
+p³omieni, które nic nie jest w stanie zgasiæ. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 520 134217728 0 0
+AffectedExt 0|DJ/1|b
+Align 0
+Group 0
+Lang L
+Speaks 11
+Level 28
+Hitroll 3
+HP 10d5+1000
+Damage 5d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 1
+Attack mwalniecie
+XAC 3 3 3 3
+Stats 144 60 120 90 144 78 90
+Off DJRc
+OffExt 0|DJRc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFMV
+Parts ABCDEFGHIJK
+Size huge
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload ognistytytan ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 5 100
+Resist 8 -20
+Resist 12 90
+Resist 13 40
+Mobend
+#Vnum 3806
+Name tytan lodowy~
+Odmiana {Clod{Bow{Cego ty{Bta{Cna{x~{Clod{Bow{Cemu ty{Bta{Cnowi{x~{Clod{Bow{Cego ty{Bta{Cna{x~{Clod{Bow{Cym ty{Bta{Cnem{x~{Clod{Bow{Cym ty{Bta{Cnie{x~
+Short {Clod{Bow{Cy ty{Bta{Cn{x~
+Long Lodowy tytan stoi tutaj och³adzaj±æ najbli¿sz± okolicê.~
+Descr Widzisz przed sob± dosyæ sporego tytana. Jego skóra jest szczególnie
+utwardzona i na pierwszy rzut oka wygl±da, ¿e to ska³a. Ca³o¶æ ogarnia
+przera¿aj±ca lodowa aura przez któr± jest tutaj tak zimno. Trudno bêdzie
+przebiæ co¶ takiego. Potrzeba na prawdê du¿o si³y, by zraniæ te bydle. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 33554440 268435456 0 0
+AffectedExt 0|DZ/1|c
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 3
+HP 10d5+1200
+Damage 8d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 2
+Attack mwalniecie
+XAC 3 3 3 3
+Stats 168 78 78 78 78 78 78
+Off DJRc
+OffExt 0|DJRc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload lodowytytan ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 110
+Resist 4 50
+Resist 5 -30
+Resist 8 100
+Resist 12 90
+Mobend
+#Vnum 3807
+Name tytan m³ody~
+Odmiana m³odego tytana~m³odemu tytanowi~m³odego tytana~m³odym tytanem~m³odym tytanie~
+Short m³ody tytan~
+Long M³ody tytan w spokoju przemierza tereny na wyspie.~
+Descr Masz przed sob± m³odego tytana. Nie mierzy on tak wysoko w przestworza
+jak jego starsi bracia, jednak i tak jest do¶æ wysoki. Mimo swojego wieku,
+jest do¶æ umiê¶nionej postury. Widaæ, ¿e ma krzepê i przywali ka¿demu kto
+bêdzie tu niemile widziany. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AL
+Speaks 11
+Level 25
+Hitroll 2
+HP 10d5+800
+Damage 6d2+1
+Dammagic 0
+Weaponbonus 6
+Damflags 0
+Attack mwalniecie
+XAC 6 6 6 6
+Stats 144 60 120 90 144 78 90
+Off DJRc
+OffExt 0|DJRc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload mlodytytan ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 50
+Mobend
+#Vnum 3808
+Name garbaty tytan~
+Odmiana garbatego tytana~garbatemu tytanowi~garbatego tytana~garbatym tytanem~garbatym tytanie~
+Short garbaty tytan~
+Long Garbaty tytan chodzi tutaj stêkaj±c co chwila.~
+Descr Widzisz przed sob± dosyæ sporego tytana. Jego skóra jest szczególnie
+utwardzona i na pierwszy rzut oka wygl±da, ¿e to ska³a. Trudno bêdzie
+przebiæ co¶ takiego. Potrzeba na prawdê du¿o si³y, by zraniæ te bydle. Jego
+garb jest do¶æ spory, pewnie utrudnia mu poruszanie siê. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 3
+HP 10d5+1500
+Damage 5d10+5
+Dammagic 0
+Weaponbonus 6
+Damflags 0
+Attack mwalniecie
+XAC 3 3 3 3
+Stats 168 78 78 78 78 78 78
+Off DJRc
+OffExt 0|DJRc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFMV
+Parts ABCDEFGHIJK
+Size huge
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload garbatytytan ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 70
+Mobend
+#Vnum 3809
+Name brodaty tytan~
+Odmiana brodatego tytana~brodatemu tytanowi~brodatego tytana~brodatym tytanem~brodatym tytanie~
+Short brodaty tytan~
+Long Brodaty tytan maszeruje sobie po drodze.~
+Descr Widzisz przed sob± dosyæ sporego tytana z d³ug± brod±. Broda jest na
+prawdê d³uga, w stosunku do jego cia³a nie jest mo¿e a¿ tak d³uga. Jednak w
+porównaniu z tob±, broda jest praktycznie równa z twoim wzrostem. Ciekawe
+ile czasu zajê³o mu zachodowanie a¿ takiego brody. Tytan jest do¶æ potê¿ny.
+Potrzeba na prawdê du¿o si³y, by zraniæ te bydle. 
+~
+Race tytan~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 3
+HP 10d5+1500
+Damage 6d7+10
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack lupniecie
+XAC 3 3 3 3
+Stats 168 78 78 78 78 78 78
+Off DJRc
+OffExt 0|DJRc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFMV
+Parts ABCDEFGHIJK
+Size huge
+Material unknown
+MobprogNew death 3802 ABCDEFGHI 100~
+MobprogNew onload brodatytytan ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 70
+Mobend
+#Vnum 3810
+Name spokojny tytan nauczyciel_woj~
+Odmiana spokojnego tytana~spokojnemu tytanowi~spokojnego tytana~spokojnym tytanem~spokojnym tytanie~
+Short spokojny tytan~
+Long Wygl±daj±cy na bardzo starego i gro¼nego tytan odpoczywa tutaj wpatruj±c siê w horyzont.~
+Descr Spogl±dasz ze zdumieniem na tego przeolbrzymiego tytana, który jednak
+przywita³ ciê na wyspie o wiele milej ni¿ reszta. Gdy znalaz³e¶ siê
+niedaleko niego obejrza³ siê, jednak w jego oczach dostrzeg³e¶ chyba wiêcej
+ciekawo¶ci ni¿ nienawi¶ci. Prze³ykaj±c ¶linê spogl±dasz na jego niesamowit±
+halabardê, jednak nie zapowiada siê by¶ mia³ okazjê sprawdziæ jej moc na
+w³asnej skórze. Ciekawo¶æ z jak± ten niezwyk³y tytan spogl±da³ w kierunku
+kontynentu Tamery ka¿e ci wierzyæ, ¿e znudzi³o mu siê ganianie za obcymi
+przybywaj±cymi na t± wyspê. Mo¿e zamiast tego czego¶ ciê nauczy? 
+~
+Race tytan~
+ActExt 0|ABIJKQSTd/2|E
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 30
+Hitroll 0
+HP 10d10+2000
+Damage 10d2+20
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFMV
+Parts ABCDEFGHIJK
+Size giant
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 3802
+Name klucz z kamienia~
+Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
+Short {Dklucz z kamienia{X~
+Descr Spory klucz z kamienia le¿y na ziemi.~
+Material kamieñ~
+Type key
+ExtraExt 0|Rd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 3841
+Name ¶wiec±cy amulet~
+Odmiana ¶wiec±cego amuletu~¶wiec±cemu amuletowi~¶wiec±cy amulet~¶wiec±cym amuletem~¶wiec±cym amulecie~
+Short ¶wiec±cy amulet '{YPromieñ S³oñca{x'~
+Descr Le¿y na ziemi przepieknie iskrz±cy siê z³otym ¶wiat³em amulet.~
+Material kryszta³~
+Type turn_item
+ExtraExt 0|IKLZ
+Wear ACO
+Wear2Ext 0|S
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 6 15 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 1500
+Cond 100
+Objprog random amul_reg 1~
+Itemdesc Amulet zosta³ zaczepiony na z³otym b³yszcz±cym ³añcuszu. Wisior
+przedstawia miniaturê s³oñca z d³ugimi promieniami rozchodz±cymi siê dooko³a
+jego tarczy. Po przysuniêciu d³oni do wisiora stwierdzasz, i¿ bije od niego
+lekkie ciep³o, wype³niaj±ce twoje cia³o. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 3800
+Name Pocz±tek ¶cie¿ki w¶ród wzgórz~
+FlagsExt 0|C
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3801
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3801
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40992
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40992
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3801
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3802
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3802
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3800
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3800
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3802
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3803
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3803
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3801
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3801
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3803
+Name Na ¶cie¿ce~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3804
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3804
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3805
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3805
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3802
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3802
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3804
+Name ¦lepa odnoga~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3803
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3803
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3805
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3806
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3806
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3803
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3803
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3806
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3808
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3808
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3807
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3807
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3805
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3805
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3807
+Name Odnoga ¶cie¿ki~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3806
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3806
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3808
+Name W±ska ¶cie¿ka~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3809
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3809
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3806
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3806
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3809
+Name ¦cie¿ka we wzgórzach~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3808
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3808
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3810
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3810
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3810
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3812
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3812
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3811
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3811
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3809
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3809
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3811
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3810
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3810
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3812
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3813
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3813
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3810
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3810
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3813
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3812
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3812
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3814
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3814
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3814
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3815
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3815
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3813
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3813
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3815
+Name W¶ród wzgórz~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3814
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3814
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3816
+ExitExtEnd
+Exit 4
+~
+~
+0 0 3816
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3816
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3817
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3817
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3815
+ExitExtEnd
+Exit 5
+~
+~
+0 0 3815
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3817
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3818
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3818
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3816
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3816
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3818
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3819
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3819
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3823
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3823
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3817
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3817
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3819
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3820
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3820
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3818
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3818
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3820
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3821
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3821
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3819
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3819
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3821
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3820
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3820
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3822
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3822
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3822
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3821
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3821
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3824
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3824
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3823
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3823
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3823
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3818
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3818
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3822
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3822
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3824
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3822
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3822
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3825
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3825
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3825
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3826
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3826
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3827
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3827
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3824
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3824
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3826
+Name W¶ród wzgórz~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3825
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3825
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3827
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3825
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3825
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3828
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3828
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3828
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3829
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3829
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3827
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3827
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3829
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3828
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3828
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3830
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 3830
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3830
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3831
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3831
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3829
+ExitExtEnd
+Exit 5
+~
+~
+8192 0 3829
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3831
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3830
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3830
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3832
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3832
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3832
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3833
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3833
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3831
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3831
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3834
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3834
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3833
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3832
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3832
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3834
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3832
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3832
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3835
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3835
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3835
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3834
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3834
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3839
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3839
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3836
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3836
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3836
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3837
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3837
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3835
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3835
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3837
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3838
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3838
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3836
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3836
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3838
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3837
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3837
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3839
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3835
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3835
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3840
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3840
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3840
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3844
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3844
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3841
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3841
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3839
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3839
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3841
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3840
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3840
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3843
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3843
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3842
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3842
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3842
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3841
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3841
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3843
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3841
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3841
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3844
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3846
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3846
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3845
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3845
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3840
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3840
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3845
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3844
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3844
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3846
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3847
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3847
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3844
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3844
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3847
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3848
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3848
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3846
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3846
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3848
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3852
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3852
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3849
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3849
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3847
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3847
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3849
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3848
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3848
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3850
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3850
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3850
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3851
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3851
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3849
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3849
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3851
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3850
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3850
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3852
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3853
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3853
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3848
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3848
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3853
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3855
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3855
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3854
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3854
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3852
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3852
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3854
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3853
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3853
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3855
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3858
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3858
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3853
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3853
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3856
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3856
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3856
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3857
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3857
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3855
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3855
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3857
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3858
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3858
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3856
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3856
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3858
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3855
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3855
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3857
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3857
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3859
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 3859
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3859
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3860
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3860
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3858
+ExitExtEnd
+Exit 5
+~
+~
+8192 0 3858
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3860
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3859
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3859
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3861
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3861
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3861
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3863
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3863
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3860
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3860
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3862
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3862
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3862
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3861
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3861
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3863
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3866
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3866
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3861
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3861
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3864
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3864
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3864
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3865
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3865
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3863
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3863
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3865
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3864
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3864
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3866
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3867
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3867
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3863
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3863
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3867
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3870
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3870
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3872
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3872
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3866
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3866
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3868
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3868
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3868
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3869
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3869
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3867
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3867
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3869
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3868
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3868
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3870
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3871
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3871
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3867
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3867
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3871
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3870
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3870
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3872
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3873
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3873
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3867
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3867
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3873
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3872
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3872
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3874
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3874
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3874
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3876
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3876
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3875
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3875
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3873
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3873
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3875
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3874
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3874
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3876
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3877
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3877
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3874
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3874
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3877
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3878
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3878
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3876
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3876
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3878
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3879
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3879
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3877
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3877
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3879
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3880
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3880
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3878
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3878
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3880
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3879
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3879
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3881
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3881
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3881
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3880
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3880
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3882
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3882
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3884
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3884
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3882
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3883
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3883
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3881
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3881
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3883
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3882
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3882
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3884
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3881
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3881
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3885
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3885
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3885
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3884
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3884
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3886
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3886
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3886
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3885
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3885
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3887
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3887
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3888
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3888
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3887
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3886
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3886
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3888
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3889
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3889
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3886
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3886
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3891
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 3891
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3889
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3888
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3888
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3890
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3890
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3890
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3889
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3889
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3891
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3891
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3891
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3890
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3890
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3888
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 3888
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3892
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3892
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3892
+Name Skrzy¿owanie dróg~
+Descr Wszêdzie dooko³a otaczaj± ciê wapienne ska³y. Ten obraz widzisz ju¿ od
+d³u¿szego czasu. Powoli zaczyna ju¿ ci siê nudziæ. Jednak do szczytu jest
+ju¿ na prawdê niedaleko. Mo¿e warto tam zajrzeæ, a nó¿ bêdzie co¶ tam
+ciekawego. 
+~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3891
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3891
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3895
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3895
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3893
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 3893
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3893
+Name Wzgórza~
+FlagsExt 0|C
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 3892
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 3892
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3894
+ExitExtEnd
+Exit 1
+~
+~
+0 0 3894
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3894
+Name Wzgórza~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3893
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3893
+DayRDesc 3800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3895
+Name Przy wykutych schodach~
+Descr Znajdujesz siê przy samych schodach prowadz±cych na wielki p³askowy¿.
+Wiatr jest tutaj lekko st³umiony przez otaczaj±ce ciê ska³y i wielkie
+kamienie. Ju¿ tylko kilka kroków dzieli ciê od szczytu tego wzniesienia. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3892
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3892
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3896
+ExitExtEnd
+Exit 4
+~
+~
+0 0 3896
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3896
+Name Na wielkim p³askowy¿u~
+Descr Stoisz na wielkim p³askowy¿u. St±d widaæ ca³± krainê od samych brzegów,
+bo wszystkie wiêksze, czy mniejsze szczyty. Widok jest niesamowity. Z tego
+miejsca wódz tej cywilizacji dowodzi wszystkimi s³ugami. Kilkana¶cie kroków
+na wschód dostrzegasz tajemne wrota w skale. Niedaleko obok widnieje
+niewielka, ukryta ¶cie¿ka do góry. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 417831
+ExitExtKey 3802
+ExitExtToVnum 3897
+ExitExtEnd
+Exit 1
+~
+~
+417831 3802 3897
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 3898
+ExitExtEnd
+Exit 4
+~
+~
+16 0 3898
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3895
+ExitExtEnd
+Exit 5
+~
+~
+0 0 3895
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3897
+Name W tajemnej grocie~
+Descr {mZnajdujesz siê na ¶rodku tajemniczej groty, któr± strzeg³y te ogromne
+wrota. Miejsce jest dosyæ zadbane. ¦ciany zosta³y ³adnie wykute, a pod³oga
+jest równa. Na ¶rodku pomieszczenia stoi skrzynia. Pewnie s³u¿ywa w³adcy do
+chowania tutaj swoich skarbów. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 417831
+ExitExtKey 3802
+ExitExtToVnum 3896
+ExitExtEnd
+Exit 3
+~
+~
+417831 3802 3896
+Roomprog reset 3800 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 3898
+Name Nad niebezpiecznym klifem~
+Descr Dysz±c wêdrujesz dalej po tych stromych górach a¿ docierasz do sporego
+klifu, a twym oczom ods³ania siê przecudny widok. Spogl±daj±c na horyzont
+dostrzegasz gdzie¶ tam dalej wielki kontynent Temery i niemal bezkresne wody
+oceanu oddzielaj±cego ten kontynent od tej wyspy. Cudowny widok sprawia, ¿e
+mimo czaj±cych siê tu niebezpieczeñstw chcesz na chwilê przysi±¶æ i pogapiæ
+siê leniwie rozmy¶laj±c o sam nie wiesz czym. 
+~
+FlagsExt 0|C
+Sector 4
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 3896
+ExitExtEnd
+Exit 5
+~
+~
+16 0 3896
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 40 3807 20 3800 1
+M 100 3804 20 3801 1
+M 40 3807 20 3802 1
+M 40 3808 20 3802 1
+M 100 3809 20 3804 1
+M 40 3807 20 3805 1
+M 100 3809 20 3805 1
+M 40 3808 20 3807 1
+M 100 3808 20 3809 1
+M 40 3804 20 3810 1
+M 40 3807 20 3810 1
+M 100 3803 20 3811 1
+M 40 3807 20 3811 1
+M 40 3804 20 3812 1
+M 100 3809 20 3812 1
+M 40 3804 20 3813 1
+M 100 3808 20 3814 1
+M 40 3804 20 3815 1
+M 100 3805 15 3816 1
+M 40 3804 20 3817 1
+M 40 3808 20 3818 1
+M 40 3804 20 3819 1
+M 100 3809 20 3819 1
+M 40 3805 15 3820 1
+M 100 3808 20 3820 1
+M 40 3805 15 3821 1
+M 40 3805 15 3822 1
+M 40 3807 20 3822 1
+M 40 3803 20 3823 1
+M 100 3808 20 3824 1
+M 40 3805 15 3825 1
+M 40 3804 20 3826 1
+M 40 3803 20 3827 1
+M 40 3804 20 3827 1
+M 100 3809 20 3827 1
+M 40 3805 15 3828 1
+M 100 3808 20 3828 1
+M 40 3804 20 3829 1
+M 40 3806 15 3830 1
+M 40 3807 20 3830 1
+M 100 3809 20 3830 1
+M 40 3806 15 3831 1
+M 40 3803 20 3832 1
+M 40 3804 20 3833 1
+M 100 3809 20 3833 1
+M 40 3806 15 3834 1
+M 100 3808 20 3834 1
+M 40 3804 20 3835 1
+M 40 3804 20 3836 1
+M 100 3809 20 3836 1
+M 40 3803 20 3837 1
+M 40 3804 20 3837 1
+M 40 3804 20 3838 1
+M 40 3806 15 3838 1
+M 40 3806 15 3839 1
+M 100 3808 20 3840 1
+M 100 3804 20 3841 1
+M 40 3804 20 3842 1
+M 40 3804 20 3843 1
+M 40 3806 15 3843 1
+M 100 3809 20 3843 1
+M 40 3807 20 3844 1
+M 40 3804 20 3845 1
+M 40 3803 20 3846 1
+M 40 3804 20 3846 1
+M 100 3803 20 3846 1
+M 40 3804 20 3847 1
+M 40 3806 15 3848 1
+M 100 3809 20 3848 1
+M 40 3803 20 3849 1
+M 40 3804 20 3850 1
+M 40 3804 40 3851 2
+M 100 3803 20 3851 1
+M 40 3804 20 3852 1
+M 40 3807 20 3852 1
+M 40 3804 20 3853 1
+M 40 3803 20 3854 1
+M 40 3804 20 3854 1
+M 40 3804 20 3855 1
+M 100 3808 20 3855 1
+M 100 3809 20 3855 1
+M 40 3803 20 3856 1
+M 100 3808 20 3857 1
+M 40 3806 15 3858 1
+M 40 3807 20 3859 1
+M 100 3808 20 3859 1
+M 100 3803 20 3859 1
+M 40 3804 20 3860 1
+M 100 3809 20 3860 1
+M 100 3808 20 3861 1
+M 40 3805 15 3862 1
+M 100 3808 20 3863 1
+M 40 3804 20 3864 1
+M 40 3803 20 3865 1
+M 40 3804 20 3866 1
+M 100 3808 20 3866 1
+M 100 3809 20 3866 1
+M 40 3804 20 3867 1
+M 100 3803 20 3867 1
+M 100 3808 20 3868 1
+M 40 3804 20 3869 1
+M 40 3805 15 3869 1
+M 40 3804 20 3870 1
+M 40 3804 20 3871 1
+M 100 3809 20 3872 1
+M 40 3804 20 3873 1
+M 40 3806 15 3873 1
+M 100 3808 20 3874 1
+M 100 3809 20 3874 1
+M 40 3805 15 3875 1
+M 100 3809 20 3875 1
+M 40 3803 20 3876 1
+M 40 3804 20 3876 1
+M 40 3804 20 3877 1
+M 40 3806 15 3877 1
+M 40 3804 20 3878 1
+M 40 3805 15 3878 1
+M 100 3809 20 3878 1
+M 100 3808 20 3879 1
+M 40 3804 20 3880 1
+M 40 3806 15 3880 1
+M 100 3809 20 3880 1
+M 40 3804 20 3881 1
+M 40 3803 20 3882 1
+M 40 3804 20 3883 1
+M 100 3809 20 3883 1
+M 40 3803 20 3884 1
+M 40 3804 20 3884 1
+M 40 3804 20 3885 1
+M 100 3803 20 3885 1
+M 100 3809 20 3886 1
+M 100 3803 20 3887 1
+M 40 3804 20 3887 1
+M 40 3806 15 3888 1
+M 40 3807 20 3888 1
+M 40 3804 20 3889 1
+M 40 3805 15 3890 1
+M 40 3806 15 3891 1
+M 100 3802 1 3892 1
+M 40 3805 15 3894 1
+M 100 3801 1 3895 1
+M 100 3800 1 3896 1
+M 100 3810 1 3898 1
+E 100 3149 0 16
+S
+
+
+
+#MOBPROGSNEW
+#3800
+~
+mob echo Potê¿ny tytan wydaje z siebie smutne westchiêcie po czym wali siê na ziemiê, a jego upadek wstrz±sa okolic±.
+mob at 3897 mob purge skrzynia
+mob at 3897 mob oload 3370 room
+mob at 3897 mob oload gem 6 i 3370
+mob at 3897 mob oload gem 4 i 3370
+mob at 3897 mob oload gem 2 i 3370
+mob at 3897 mob oload weapon 6 i 3370
+mob at 3897 mob oload body 6 i 3370
+mob at 3897 mob oload gem 6 i 3370
+if rand 90
+  mob at 3897 mob oload 3840 i 3370
+endif
+if rand 91
+  if canloadarte 211
+    mob at 3897 mob aload 211 i 3370
+  endif
+endif
+~
+#3800skalny
+~
+if isimmort $n
+else
+  if !hasflag $n siemkatytan
+    say Co ty tutaj robisz gnoju? Kolejny ¶miertelnik straci ¿ycie!
+    minidelay 1
+    kill $n
+    mob setflag $n siemkatytan 5
+  endif
+endif
+~
+#3801
+~
+mob equip self 3129
+mob equip self 3802 hold
+~
+#3802
+~
+mob echoaround $i Magiczna tarcza otaczaj±ca $iz nagle eksploduje!
+mob echoaround $i $i nie ¿yje!!
+mob echoaround $i $i pada na ziemiê... MARTWY.
+~
+#brodatytytan
+~
+mob equip self 3041
+mob equip self 3089
+mob equip self 3066
+mob equip self 3029
+mob equip self 3050
+mob equip self 3010
+mob equip self 3129
+~
+#burz
+~
+mob equip self 3018
+mob equip self 3050
+mob equip self 3082
+mob equip self 3066
+mob equip self 3001
+mob equip self 3098
+mob equip self 519
+~
+#garbatytytan
+~
+mob equip self 9130
+mob equip self 3034
+mob equip self 3082
+mob equip self 3066
+mob equip self 3018
+mob equip self 3050
+mob equip self 3002
+mob equip self 3163
+~
+#gromowladny
+~
+mob equip self 3018
+mob equip self 3050
+mob equip self 3082
+mob equip self 3066
+mob equip self 3001
+mob equip self 3098
+mob equip self 276
+~
+#lodowytytan
+~
+mob equip self 268
+~
+#mlodytytan
+~
+mob equip self 3002
+mob equip self 3050
+mob equip self 3018
+mob equip self 3066
+mob equip self 3082
+mob equip self 3034
+mob equip self 3097
+~
+#ognistytytan
+~
+mob equip self 267
+~
+#skalny
+~
+mob equip self 3010
+mob equip self 3050
+mob equip self 3029
+mob equip self 3066
+mob equip self 3089
+mob equip self 3041
+mob equip self 269
+~
+#tytan
+~
+mob equip self 3010
+mob equip self 3050
+mob equip self 3029
+mob equip self 3066
+mob equip self 3089
+mob equip self 3041
+mob equip self 3158
+~
+#wodz
+~
+mob equip self 3045
+mob equip self 3082
+mob equip self 3029
+mob equip self 3061
+mob equip self 3077
+mob equip self 3016
+
+mob equip self 3800 hold
+yell Hahaha! Witajcie przybysze! Bêdê czeka³ na was u siebie w siedzibie!
+mob oload 3802
+mob equip self 9132
+~
+#0
+
+#OBJPROGSNEW
+#9421
+~
+mob cast silence $n 25
+mob cast deafness $n 25
+mob cast blindness $n 25
+~
+#amul_reg
+~
+mob echoat $n Nagle amulet '{YPromieñ S³oñca{x' zapala siê jaskrawym ¶wiat³em.
+~
+#0
+
+#ROOMPROGSNEW
+#3800
+~
+mob unlock west
+mob open west
+mob echo Nagle z sufitu wychodz± wielkie ostrza.
+minidelay 3
+mob echo Sufit zaczyna nagle szybko opadaæ.
+minidelay 3
+mob echo Lepiej st±d uciekaj je¶li ci ¿ycie mi³e!
+minidelay 3
+mob echo Sufit opada tu¿ nad pod³ogê rozgniataj±c ciê po ca³ej posadzce.
+mob damage all 5000 5000 siemanko
+mob close west
+mob lock west
+mob goto 3896
+mob echo Wrota zamykaj± siê z trzaskiem.
+if !mobhere 3800
+  mob mload 3800
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 3800
+DescRand #grouprand 0
+#grouprand 1
+#grouprand 2
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 9~
+Desc Góry wydaj± siê byæ niezamieszka³e. Bior±c zw³aszcza pod uwagê klimat i
+warunki jakie tu istniej±. Jednak, je¿eli istniej± tu jakie¶ magiczne
+stworzenia, pewnie im to nie przeszkadza. 
+~
+Group 2
+End
+#Name 8~
+Desc S±dz±c po okolicy, nikt o zdrowym umy¶le by tutaj nie mieszka³. Chyba, ¿e
+s± to jakie¶ magiczne stworzenia, które chc± byæ zdala od cywilizacji.
+Jednak pewnie nie bêd± zadowolone z wizyty. 
+~
+Group 2
+End
+#Name 7~
+Desc Jeden niepewny krok, a twoje ¿ycie mo¿e staæ siê histori±. Wiec lepiej
+zachowaæ uwagê i uwa¿nie siê rozgl±daæ. Niewiadomo, co czyha za krok, czy
+dwa. 
+~
+Group 2
+End
+#Name 6~
+Desc Nie widzisz tu ¿adnej ro¶linno¶ci. Musi to byæ spowodowane do¶æ du¿±
+wysoko¶ci± nad poziomem morza. Gdzie niegdzie dostrzegasz jedynie malutk±
+kêpkê mchu. 
+~
+Group 1
+End
+#Name 5~
+Desc W powietrzu czuæ wilgoæ, co oznacza, ¿e znajdujesz siê w klimacie
+morskim. Pewnie gdzie¶ niedaleko st±d znajdziesz wodê. 
+~
+Group 1
+End
+#Name 4~
+Desc Droga jest dosyæ w±ska. Naj³atwiej podró¿owa³oby siê osobno, jednak nawet
+przy wiêkszej ilo¶ci osób nie bêdzie problemu. Jednak trzeba uwa¿aæ na ostre
+zakoñczenia ska³. 
+~
+Group 1
+End
+#Name 3~
+Desc Wokó³ ciebie widzisz tylko same ska³y i kamienie. Niektóre s± na prawdê
+dosyæ ostre i ³atwo o skaleczenie siê w bos± stopê. Mimo tego masz przed
+sob± jako tako u¿ywan± ¶cie¿kê. 
+~
+Group 0
+End
+#Name 2~
+Desc Wiatr wieje ci w twarz. Ten górski klimat ¼le wp³ywa na samopoczucie, a
+tak¿e utrudnia podró¿owanie. Co krok trafia siê jaka¶ wyrwa, albo wiêkszy
+kamieñ. 
+~
+Group 0
+End
+#Name 1~
+Desc Znajdujesz siê na p³askim terenie miêdzy ska³ami. S± to kamienie
+wapniowe, co oznacza, ¿e istnia³o tu kiedy¶ morze. Teraz s± tu tylko ska³y. 
+~
+Group 0
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

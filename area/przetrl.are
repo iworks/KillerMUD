@@ -1,0 +1,1177 @@
+#AREADATA
+Name {BB{x {R@{x# NK Prze³êcz trolla~
+Builders Nk~
+VNUMs 41300 41329
+Credits Twórca - Wicia 
+~
+Locked ~
+Security 9
+ResetAge 30
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 41300
+Name troll górski wielki~
+Odmiana trolla~trollowi~trolla~trollem~trollu~
+Short troll~
+Long Wielki troll górski biega nerwowo szukaj±c kolejnej ofiary.~
+Descr Masz przed sob± wielkiego trolla górskiego zamieszkuj±cego tutejsz± prze³êcz.
+Zapewne ¿ywi siê zwierzyn±. Ma wielkie pazury i ogromne stopy, którymi bez
+problemu móg³by ciê przewróciæ. Ten troll nie wygl±da na przyjaznego
+osobnika, wiêc albo go zabij, albo on zabije ciebie. 
+~
+Race troll~
+ActExt 0|AFT
+Affected 268436008 0 256 0
+AffectedExt 0|DFJc/2|I
+Align -1000
+Group 0
+Lang G
+Speaks 6
+Level 27
+Hitroll 5
+HP 1d10+1100
+Damage 4d8+6
+Dammagic 3
+Weaponbonus 3
+Damflags 0
+Attack mwalniecie
+XAC -1 -4 -2 0
+Stats 150 42 60 108 120 78 84
+Off CIORY
+OffExt 0|CIORY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 12 50
+Resist 16 100
+Mobend
+#Vnum 41301
+Name Nied¼wied¼~
+Odmiana nied¼wiedzia~nied¼wiedziowi~nied¼wiedzia~nied¼wiedziem~nied¼wiedziu~
+Short nied¼wied¼~
+Long Wielki nied¼wied¼ wêszy tutaj, szukaj±c nowej ofiary.~
+Descr Masz przed sob± wielkiego dzikiego nied¼wiedzia.
+Krêci siê on tutaj w poszukiwaniu kolejnej ofiary.
+ 
+~
+Race nied¼wied¼~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AJ
+Speaks 9
+Level 10
+Hitroll 0
+HP 3d5+240
+Damage 2d7+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 1 -1 1 1
+Stats 120 42 42 84 108 60 60
+Off CDPR
+OffExt 0|CDPR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ABCDEFHJKRSUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 10 50
+Resist 12 50
+Mobend
+#Vnum 41302
+Name górski troll~
+Odmiana górskiego trolla~górskiemu trollowi~górskiego trolla~górskim trollem~górskim trollu~
+Short górski troll~
+Long Górski troll spogl±da na ciebie z góry.~
+Descr Jest to ogromny, górski troll który móg³ by pokonaæ nie jednego dzielnego
+wojownika, maga czy barbarzyñcê. Ma oko³o czterech metrów wysoko¶ci i trzch
+metrów szeroko¶ci. Wygl±da na g³odnego. Dostrzegasz w jego oczach blask
+inteligencji. Mo¿e jednak nie chcê ciebie zje¶æ. 
+~
+Race troll~
+ActExt 0|AB
+Affected 268435464 0 256 0
+AffectedExt 0|Dc/2|I
+Align 0
+Group 0
+Lang AG
+Speaks 0
+Level 19
+Hitroll 0
+HP 5d10+750
+Damage 3d5+5
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 4
+Stats 156 90 90 132 96 84 78
+Off COR
+OffExt 0|COR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 200
+Resist 5 -10
+Resist 8 10
+Resist 9 -10
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 41300
+Name Pocz±tek ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44400
+ExitExtEnd
+Exit 0
+~
+~
+0 0 44400
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41301
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41301
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41301
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41300
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41300
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41302
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41302
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41302
+Name Stroma górka~
+FlagsExt 0|C
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41301
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41301
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41304
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41304
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41304
+Name Stroma górka~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41305
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41305
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41302
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41302
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41305
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41304
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41304
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41306
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41306
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41306
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41305
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41305
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41307
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41307
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41307
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41306
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41306
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41308
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41308
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41308
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41307
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41307
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41309
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41309
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41309
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41308
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41308
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41310
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41310
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41310
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0|C
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41309
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41309
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41311
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41311
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41311
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41310
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41310
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41312
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41312
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41312
+Name W±ska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41311
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41311
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41313
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41313
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41313
+Name W±ska ¶cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41312
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41312
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41314
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41314
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41314
+Name Zakrêt w±skiej ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41313
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41313
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41315
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41315
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41315
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41314
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41314
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41316
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41316
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41316
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41315
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41315
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41317
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41317
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41317
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0|C
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41316
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41316
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41318
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41318
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41318
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41319
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41319
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41317
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41317
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41319
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41318
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41318
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41320
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41320
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41320
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41319
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41319
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41321
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41321
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41321
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41320
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41320
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41322
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41322
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41322
+Name Zakrêt ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41321
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41321
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41323
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41323
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41323
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41322
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41322
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41324
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41324
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41324
+Name Stroma górka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41323
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41323
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41325
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41325
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41325
+Name Stroma górka~
+FlagsExt 0|C
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41326
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41326
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41324
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41324
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41326
+Name Stroma górka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41325
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41325
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41327
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41327
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41327
+Name Stroma górka~
+FlagsExt 0
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41328
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41328
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41326
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41326
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41328
+Name ¦cie¿ka~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41327
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41327
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41329
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41329
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41329
+Name Pocz±tek ¶cie¿ki~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41328
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41328
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15701
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15701
+DayRDesc 41300
+NightRDesc 41300
+Roomprog random 41300 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 41301 1 41309 1
+M 100 41300 1 41313 1
+M 100 41301 1 41320 1
+M 100 41301 2 41321 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#41300
+~
+if rand 50
+  Ze ¶rodka prze³êczy dobiegaj± ciê jakie¶ ryki.
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 41300
+DescRand #grouprand 1
+#grouprand 2
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name srodek1~
+Desc Las zaczyna siê zagêszczaæ i wraz z czym zmienia siê twoje poczucie
+bezpieczeñstwa. Na drodze widaæ jakie¶ ¶lady... Wydaje ci siê, ¿e idziesz
+jakim¶ tropem. 
+~
+Group 2
+End
+#Name srodek~
+Desc Woko³o otacza ciê dziwny las z którego dobiegaj± dziwne piski i wycia
+zwierz±t. Wydaje ci siê, ¿e idziesz tropem "czego¶". Jakie¶ wielkie ¶lady,
+czy¿by trolle? 
+~
+Group 2
+End
+#Name idziesz1~
+Desc Idziesz wzd³u¿ prze³êczy. Woko³o drzewa, trawa i czuæ typowo górskie
+powietrze. 
+~
+Group 1
+End
+#Name idziesz~
+Desc Idziesz zamarzniêt± ¶cie¿k± miedzy górami. Ciekawe jakie
+niebezpieczeñstwa ciê tu czekaj±? Ale przecie¿ to 'tylko' prze³êcz. 
+~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

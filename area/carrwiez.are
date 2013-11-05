@@ -1,0 +1,2051 @@
+#AREADATA
+Name +# Carrallak - Wie¿a ko³o Carrallak~
+Builders Carrallak~
+VNUMs 5131 5179
+Credits Twórca: Cadger, thelan@poczta.fm
+Poprawi³: Nicodemus, ariuss@o2.pl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 500
+End
+
+
+
+#MOBILES
+#Vnum 5131
+Name zwyk³y szczur~
+Odmiana zwyk³ego szczura~zwyk³emu szczurowi~zwyk³ego szczura~zwyk³ym szczurem~zwyk³ym szczurze~
+Short zwyk³y szczur~
+Long Obok twych nóg, przemyka jaki¶ szczur.~
+Descr ~
+Race szczur~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d5+15
+Damage 1d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 60 48 48 84 48 42 54
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size tiny
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 5132
+Name stary mag nerhilis roahin~
+Odmiana starego maga~staremu magowi~starego maga~starym magiem~starym magu~
+Short stary mag~
+Long Widzisz starego maga Nerhilisa Roahina, w³a¶ciciela tej wie¿y.~
+Descr Nerhilis Roahin - bo takie niesie imie ten stary arcymag, jest
+w³a¶cicielem tej wie¿y. Przeprowadzi³ siê tutaj do¶æ dawno, ponoæ 30 lat
+temu. Do tej pory bardzo dba o tê wie¿ê. Podobno zamieszka³ tutaj, by
+chroniæ miasto Carrallak przed nekromant± z pó³nocy, który grozi³ atakiem.
+Teraz chyba jedynie pragnie spokoju, chocia¿, gdy go poprosisz mo¿e nauczy
+ciê kilku zaklêæ. 
+~
+Race elf~
+ActExt 0|AGR
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AB
+Speaks 1
+Level 27
+Hitroll 1
+HP 5d15+715
+Damage 3d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 0 0 0 0
+Stats 72 150 114 78 120 120 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload mag_boss_onload ABCDEFGHI 100~
+Spells 92 380 180 163
+Spells 91 204 182 177
+Spells 185 94 295 178
+Spells 216 296 200 203
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 10 50
+Mobend
+#Vnum 5133
+Name ¿elazny golem~
+Odmiana ¿elaznego golema~¿elaznemu golemowi~¿elaznego golema~¿elaznym golemem~¿elaznym golemie~
+Short ¿elazny golem~
+Long Stoi tutaj nieruchomo wielki, ca³y pokryty ¿elazem, golem.~
+Descr Golem jest ca³y ¿ zelaza. Ma jeszcze troche nie dokoñczon± g³owê, ale co nie znaczy ¿e mo¿e byæ s³aby.
+~
+Race golem~
+ActExt 0|AIT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 2
+HP 5d15+900
+Damage 5d6+1
+Dammagic 2
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC 0 0 0 0
+Stats 144 48 48 72 132 48 90
+Off CO
+OffExt 0|CO/1|H
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 1 10
+Resist 2 10
+Resist 3 10
+Resist 4 50
+Resist 12 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 5131
+Name stara laska nerhilisa~
+Odmiana {cstarej laski{x~{cstarej lasce{x~{cstar± laskê{x~{cstar± lask±{x~{cstarej lasce{x~
+Short {cstara laska{x~
+Descr Na ziemi dostrzegasz bardzo star±, ju¿ rozpadaj±c± siê laskê.~
+Material drewno~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 2 6 7 32 1 1
+Repair 0 0 0 0
+Length 120
+Weight 60
+Cost 30000
+Cond 50
+Itemdesc Masz przed sob± widaæ bardzo star± laskê, nie mo¿esz nic wiêcej o niej
+powiedzieæ 
+~
+Identdesc Ta bardzo stara, ju¿ nie¼le zniszczona laska nale¿a³a wpierw do arcymaga
+Nerhilisa, który jako dziecko ko³o 300 lat temu dosta³ j± od swojego ojca
+Yarhena. Ojciec Nerhilisa nied³ugo po tym wydarzeniu zgin±³ w walce z
+nekromant± Ghrihweggiem, który zaatakowa³ miasto Carrallak. Syn nosi³ t±
+laskê oko³o 300 lat, widaæ, ¿e zosta³a mu ju¿ odebrana. G³ebsz± historiê
+Nerhilisa mo¿na znale¼æ podobno w jego ksi±¿ce, któr± trzyma³ w biliotece. 
+~
+Comments ~
+Objend
+#Vnum 5133
+Name historia bitwy pod carrallak~
+Odmiana historii bitwy pod carallak~historii bitwy pod carrallak~historiê bitwy pod carrallak~histori± bitwy pod carrallak~historii bitwy pod carrallak~
+Short historia bitwy pod carrallak~
+Descr Widzisz jak±¶ nie du¿±, zakurzon± ksi±¿kê.~
+Material papier~
+Type board
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 60
+Cond 80
+Identdesc ~
+Comments ~
+Objend
+#Vnum 5134
+Name piêkny obraz~
+Odmiana piêknego obrazu~piêknemu obrazowi~piêkny obraz~piêknym obrazem~piêknym obrazie~
+Short piêkny obraz~
+Descr Widzsz piêkny obraz przedstawiaj±cy jakiego¶ maga.~
+Material p³ótno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Itemdesc Na obrazie widaæ w 1 scenie jakiego¶ le¿±cego maga trzymaj±cego w d³oni kostur. Mag powa¿nie krwawi, widaæ na obrazie jak kilka kap³anów próbuje go ratowaæ. Za nimi dostrzegasz hordy nieumar³ych, wy¿ynaj±cych wszystko. Obraz jest przepiêkny, ale i tragiczny.
+~
+Comments ~
+Objend
+#Vnum 5136
+Name stare dêbowe ³o¿e~
+Odmiana starego dêbowego ³o¿a~staremu dêbowemu ³o¿u~stare dêbowe ³o¿e~starym dêbowym ³o¿em~starym dêbowym ³o¿u~
+Short Stare dêbowe ³o¿e~
+Descr Przy ¶cianie widzisz stare, dêbowe ³o¿e.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 0 2336 30 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 900
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 5137
+Name ksi±¿ka historia bitwy pod carrallak~
+Odmiana historii bitwy pod carallak~historii bitwy pod carrallak~historiê bitwy pod carrallak~histori± bitwy pod carrallak~historii bitwy pod carrallak~
+Short historia bitwy pod carrallak~
+Descr Widzisz jak±¶ nie du¿±, zakurzon± ksi±¿ke.~
+Material papier~
+Type board
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 12000
+Cond 100
+Comments ~
+Objend
+#Vnum 5138
+Name tapczan~
+Odmiana tapczanu~tapczanowi~tapczan~tapczanem~tapczanie~
+Short tapczan~
+Descr Przy ¶cianie le¿y tapczan.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 0 1168 10 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 5140
+Name owoce~
+Odmiana owoców~owoc±~owoce~owocami~owocach~
+Short owoce~
+Descr Na stole le¿± ró¿ne, piêknie wygl±daj±ce owoce.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 5
+Value 2 10 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 1
+Cond 100
+Itemdesc Masz przed sob± piêkne, ró¿nego rodzaju owoce. S± tu banany, jab³ka,
+gruszki oraz wi¶nie. 
+~
+Comments ~
+Objend
+#Vnum 5141
+Name beczka z winem~
+Odmiana beczki z winem~beczce z winem~beczkê z winem~beczk± z winem~beczce z winem~
+Short beczka z winem~
+Descr W rogu le¿y jaka¶ wiêksza beczka z winem.~
+Material drewno~
+Type drink
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 50 50 33 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 190
+Cost 50
+Cond 100
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 5131
+Name Korytarz w wie¿y~
+Descr Idziesz do¶æ d³ugim i szerokim korytarzem. Na ¶cianach obok licznych pó³ek
+z ksi±¿kami i jakimi¶ dziwnymi eliksirami dostrzegasz formu³ki napisane w
+nieznanym ci jêzyku. Na ziemi widzisz piêkny czerwony dywan, jakby jeszcze
+nigdy nie u¿ywany. Dziêki ¶wiecom, które s± porozstawiane na pó³kach jest
+tutaj jasno. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5132
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5132
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 5158
+ExitExtEnd
+Exit 5
+~
+VName Wyj¶cie~
+~
+16384 0 5158
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5132
+Name Korytarz~
+Descr Znajdujesz siê w d³ugim i do¶æ szerokim korytarzu. Pó³ki zawieszone na
+¶cianach wype³nione s± po brzegi ró¿nymi ksiêgami oraz eliksirami. Pod
+pu³kami wyryte s± jakie¶ formu³ki w nieznanym ci jêzyku. Ziemie zdobi
+piêkny, czerwony dywan, jakby jeszcze nigdy nie u¿ywany. Na najwy¿szych
+pu³kach, tu¿ pod sufitem po³o¿one s± wielkie ¶wiece, przez co jest tutaj
+jasno. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5137
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5137
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5133
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5133
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5131
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5133
+Name Przy zej¶ciu~
+Descr Korytarz tutaj dobiega koñca. Tu¿ pod ¶cian± dostrzegasz strome schody
+prowadz±ce gdzie¶ na dó³. Oprócz tego, nie widzisz tutaj absolutnie nic
+szczególnego. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5132
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5132
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5134
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5134
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5134
+Name Zej¶cie~
+Descr Robi siê coraz brudniej, ch³odniej i ciemniej. Jest to chyba zej¶cie do
+jakich¶ podziemi, albo zwyk³ej piwnicy. Z pewno¶ci± to miejsce nie jest zbyt
+czêsto odwiedzane, chyba nikt o nie nie dba. Na górze widaæ jakie¶ ¶wiat³o. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5133
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5133
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5135
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5135
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5135
+Name Pod wie¿±~
+Descr Znajdujesz siê tu¿ pod wie¿±, w jakiej¶ piwniczce. Jest tu ciemno,
+ch³odno i brudno. Czasami przemyka têdy jaki¶ szczur. Przy wschodniej
+¶cianie znajduj± siê schody prowadz±ce do góry. Na zachodzie widzisz jaki¶
+korytarz. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5136
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5136
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5134
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5134
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5136
+Name Piwnica~
+Descr Znajdujesz siê w jakiego¶ rodzaju piwnicy. Jest tutaj brudno i ciemno, a
+na dodatek do¶æ ch³odno. S± tutaj jakie¶ stare rupiecie, przy rogu stoi
+jaka¶ beczka z winem. S± tutaj równie¿ jakie¶ rega³y, z baardzo zakurzonymi
+ksiêgami. Co chwila przebiega têdy jaki¶ szczur. Jedyne wyj¶cie, jakim mo¿na
+st±d wyj¶æ, to korytarz na wschód. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5135
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5135
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5137
+Name Przy schodach~
+Descr Idziesz do¶æ krótkim korytarzem. Jest tutaj przyjemnie. Rega³y z
+ksi±¿kami przybite s± bardzo wysoko, a¿ kilka centymetrów pod sufitem.
+Niewiadomo, poco kto¶ wiesza³ je a¿ tak wysoko? Mo¿liwe, ¿e kto¶ lewituj±c
+je zawiesi³. Ziemie zdobi tutaj d³ugi, czerwony dywan. Przy koñcu korytarza
+dostrzegasz schody prowadz±ce gdzie¶ wy¿ej. Z pó³nocy wydziela siê ma³y
+smrodek. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wychodek~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5146
+ExitExtEnd
+Exit 0
+~
+VName Wychodek~
+~
+0 0 5146
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5147
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5147
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5132
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5132
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Kuchnia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5157
+ExitExtEnd
+Exit 3
+~
+VName Kuchnia~
+~
+0 0 5157
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5138
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5138
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5138
+Name W wie¿y~
+Descr Znajdujesz siê na drugim piêtrze w wielkiej wierzy. Na wschodzie widzisz
+odchylone drzwi. Za drzwiami dostrzegasz pe³no eliksirów i przyrz±dów
+którymi kto¶ zrobi³ te eliksiri. Napewno jest to pokój alchemiczny. Mo¿e
+warto by tam wej¶æ i spróbowaæ znale¼æ co¶ ciekawego. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Pokój alchemiczny~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5150
+ExitExtEnd
+Exit 1
+~
+VName Pokój alchemiczny~
+~
+0 0 5150
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5152
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5152
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5137
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5137
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5139
+Name Korytarz w wie¿y~
+Descr Rozgl±dasz siê po ¶cianach, podziwiaj±c to co raz lepsze obrazy, gdyby je
+tak wszystkie zebraæ, mo¿na by mieæ nocleg na do¿ywocie! Przy wschodniej
+¶cianie widzisz drewniane drzwi. Na drzwiach zauwa¿asz napis "Biblioteka".
+Przy zachodniej ¶cianie znajduj± sie schody prowadz±ce na ni¿sze piêtro.
+Korytarz wiedzie na po³udnie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Biblioteka~
+ExitExtTextOut $n wychodzi z biblioteki.~
+ExitExtTextIn $n wchodzi do biblioteki.~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5140
+ExitExtEnd
+Exit 1
+~
+VName Biblioteka~
+TextOut $n wychodzi z biblioteki.~
+TextIn $n wchodzi do biblioteki.~
+~
+3 0 5140
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5149
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5149
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5166
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5166
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5140
+Name Biblioteka~
+Descr Wchodzisz do wielkiej biblioteki. Pe³no tu rega³ów z jakimi¶ ksi±¿kami i
+wiêkszymi ksiêgami, widaæ, ¿e s± ³adnie posegregowane. Obok rega³ów,
+bibliotekê zdobi± piêkne obrazy. Na owych obrazach przedstawione s± bitwy z
+jakim¶ magiem w roli g³ównej. Byæ mo¿e to s± zwyk³e obrazy, a byæ mo¿e
+jakie¶ pami±tki. Pod³oge zdobi piêkny czerwony dywan. Biblioteka jest
+doskonale o¶wietlona, dziêki licznym, wielkim ¶wiec± postawionym na
+rega³ach. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5143
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5143
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5141
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5141
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5139
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+3 0 5139
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5141
+Name Biblioteka~
+Descr Wchodzisz do jakiej¶ wielkiej biblioteki. Pe³no tu rega³ów z jakimi¶
+ksi±¿kami i wiêkszymi ksiêgami, widaæ, ¿e s± ³adnie posegregowane. Obok
+rega³ów, bibliotekê zdobi± piêkne obrazy. Na owych obrazach przedstawione s±
+bitwy z jakim¶ magiem w roli g³ównej. Byæ mo¿e to s± zwyk³e obrazy, a byæ
+mo¿e jakie¶ pami±tki. Pod³oge zdobi piêkny czerwony dywan. Biblioteka jest
+doskonale o¶wietlona, dziêki licznym, wielkim ¶wiecom postawionym na
+rega³ach. W oczy rzuca Ci siê pewna ksiêga lez±ca na dywa nie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5142
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5142
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5140
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5140
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5142
+Name Biblioteka~
+Descr Znajdujesz siê w jakiej¶ wielkiej bibliotece. Pe³no tutaj rega³ów z
+jakimi¶ ksi±¿kami i wiêkszymi ksiêgami, widaæ, ¿e s± ³adnie posegregowane.
+Obok rega³ów, bibliotekê zdobi± piêkne obrazy. Na owych obrazach
+przedstawione s± bitwy z jakim¶ magiem w roli g³ównej. Byæ mo¿e to s± zwyk³e
+obrazy, a byæ mo¿e jakie¶ pami±tki. Pod³oge zdobi piêkny czerwony dywan.
+Biblioteka jest doskonale o¶wietlona, dziêki licznym, wielkim ¶wiec±
+postawionym na rega³ach. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5141
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5141
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5143
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5143
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5143
+Name Biblioteka~
+Descr Znajdujesz siê w jakiej¶ wielkiej bibliotece. Pe³no tutaj rega³ów z
+jakimi¶ ksi±¿kami i wiêkszymi ksiêgami, widaæ, ¿e s± ³adnie posegregowane.
+Obok rega³ów, bibliotekê zdobi± piêkne obrazy. Na owych obrazach
+przedstawione s± bitwy z jakim¶ magiem w roli g³ównej. Byæ mo¿e to s± zwyk³e
+obrazy, a byæ mo¿e jakie¶ pami±tki. Pod³oge zdobi piêkny czerwony dywan.
+Biblioteka jest doskonale o¶wietlona, dziêki licznym, wielkim ¶wiec±
+postawionym na rega³ach. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5142
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5142
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5140
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5140
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5144
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5144
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5144
+Name Ciemny k±t biblioteki~
+Descr Tutaj biblioteka siê chyba koñczy. Znajdujesz siê w najwyra¼niej rzadko
+odwiedzanym k±tem biblioteki. Jest tutaj brudniej ni¿ w innych czê¶ciach
+biblioteki. Rega³y s± tu zakurzone, a ksiêgi najwyra¼niej ju¿ stare - s± u
+kresu wytrzyma³o¶ci. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5143
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5143
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5145
+Name ¦lepy korytarz~
+Descr Nie bardzo wiadomo w jakim celu ten korytarz zosta³ stworzony. Przy
+zachodniej ¶cianie widnieje piêkny szeroki obraz, napewno wiele warty. Gdy
+bli¿ej siê przygl±dasz, zdajesz sobie sprawe ¿e jest on tutaj powieszony
+magicznie. I tylko magi± móg³by byæ ¶ci±gniety, trzeba tylko znaæ
+odpowiednie zaklêcie... 
+~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5146
+Name Wychodek~
+Descr To pomieszczenie to miejsce, w którym mo¿na ul¿yæ swoim potrzeb±. Miejsce
+to jest zadbane, o dziwo jest tutaj do¶æ czysto. Na pó³ce le¿± chusteczki.
+Nie ma w tym pomieszczeniu nic szczególnego. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5137
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 5137
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5147
+Name Korytarz~
+Descr Idziesz jasnym korytarzem. Zagapiaj±c siê na obraz znajduj±cy siê na
+po³udniowej ¶cianie prawie uderzasz nosem w ¶ciane wschodni±... Obracasz siê
+i dostrzegasz tajemnicze drzwi prowadz±ce na pó³noc. Nie wiesz dlaczego, ale
+wydaje ci siê ¿e co¶ dziwnego jest za tymi drzwiami. Ale, mo¿e warto by to
+sprawdziæ? 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5148
+ExitExtEnd
+Exit 0
+~
+~
+3 0 5148
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5137
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5137
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5148
+Name ¬ród³o mocy~
+Descr Znajdujesz siê w bardzo dziwnym pokoju. Dziwnym, z powodu dziwnego
+podwy¿szonego ci¶nienia panuj±cego tutaj. Czujesz siê, jak by¶ by³ gdzie¶
+wysoko, na poziomie chmur. Mimo dziwnego klimatu panuj±cego tutaj, jest do¶æ
+przyjemnie. Jest to pokój wyra¼nie przeznaczony do medytacji. Niema tutaj
+krzese³, ale niebieski dywan po³o¿ony tutaj wydaje siê byæ wygodny 
+~
+FlagsExt 0|FH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5147
+ExitExtEnd
+Exit 2
+~
+~
+3 0 5147
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5149
+Name Korytarz~
+Descr Rozgl±daj±c siê dooko³a zauwa¿asz dwa korytarze, jeden prowadz±cy na
+pó³noc, drugi za¶ na wschód. Przy rogu znajduj± siê schody prowadz±ce na
+ni¿sze piêtro. Korytarzami idzie siê do¶æ przyjemnie, s± ³adnie wystrojone,
+widaæ, kto¶ o nie dba. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5169
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5169
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5139
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5139
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5150
+Name Pokój alchemiczny~
+Descr Wchodzisz do jakiego¶ dziwnego pokoju. Po chwili jeste¶ ju¿ pewien ¿e to
+pokój alchemiczny. Domy¶liæ siê tego mo¿na po tym, ¿e niema tutaj nic innego
+jak tylko mikstury, jakie¶ sk³adniki i wielkie wywary. Pe³no tu rega³ów z
+kolorowymi szklankami, miksturami. Na po³udniu widzisz dalsz± czê¶æ tego
+pokoju alchemicznego. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5151
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5151
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5138
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 5138
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5151
+Name Pokój alchemiczny~
+Descr To z pewno¶ci± dalsza czê¶æ tej sali przeznaczonej do alchemii. W tym
+pokoju oprócz magicznych eliksirów, mikstur s± jeszcze jakie¶ ksiêgi,
+najprawdopodobniej z przepisami. Rega³y poustawiane s± a¿ pod sufit, trzeba
+by drabine aby ¶ci±gn±æ lub ustawiæ co¶ na nich. Pod ¶cian± widzisz jaki¶
+emanuj±cy magi± wywar, widaæ co¶ siê w nim gotuje. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5150
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5150
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5152
+Name Korytarz~
+Descr Idziesz piêknym zdobionym korytarzem. Na ¶cianach wisz± jakie¶ obrazy, a
+na suficie przybita jest lampa. Pod³oge zdobi piêkny czerwony dywan, nawet
+nie jest zakurzony - widaæ, kto¶ dba o to miejsce. Korytarz prowadzi na
+wschód, a przy zachodniej ¶cianie znajduj± siê schody prowadz±ce wy¿ej. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5138
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5138
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5153
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5153
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5153
+Name Korytarz~
+Descr Idziesz do¶æ zadbanym korytarzem na trzêcim piêtrze. Co kilka metrów w
+kotytarzu widnieje jaki¶ obraz. Gdy spogl±dasz w górê widzisz piêkny
+¿yrandol, który daje tu ¶wiat³o. Na pod³odze wy³o¿ony jest d³ugi czerwony
+dywan. Przy zachodniej ¶cianie s± schody prowadz±ce ni¿ej. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5156
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5156
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5152
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5152
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5154
+Name Korytarz~
+Descr Id±c korytarzem widzisz uchylone, drewniane drzwi znajduj±ce siê na
+wschodzie. Zauwa¿asz ¿e w pomieszczeniu znajduje siê ³o¿e, pewnie jest to
+sypialnia. Przekonasz siê je¶li tam wejdziesz. O¶wietlony przez liczne
+¿yrandole korytarz prowadzi na zachód. 
+~
+FlagsExt 0|CH
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5155
+Name Sypialnia~
+Descr Wszystko wskazuje na to, ¿e znajdujesz siê w jakiej¶ sypialni. Przy
+¶cianie stoi piêkne, dêbowe ³ó¿ko. Nad ³ó¿kiem wisz± ró¿nej ma¶ci obrazy. A
+przy szafce obok ³ó¿ka, po³o¿ona jest jaka¶ ksiêga. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyjscie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5156
+ExitExtEnd
+Exit 3
+~
+VName Wyjscie~
+~
+0 0 5156
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5156
+Name Korytarz~
+Descr Idziesz piêknie wystrojonym korytarzem. ¦ciany zdobi± ró¿nej ma¶ci
+obrazy. Jest tutaj do¶æ jasno z powodu lamp przybitych do sufitu. Pod³oge
+zdobi elegancki, zadbany dywan. Korytarz wiedzie w dwie strony, gdzie¶ dalej
+na zachód oraz na pó³noc. Natomiast na po³udniu znajduje siê jakie¶
+pomieszczenie, od którego wydobywaj± siê jakie¶ ³adne zapachy. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5160
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5160
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sypialnia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5155
+ExitExtEnd
+Exit 1
+~
+VName Sypialnia~
+~
+0 0 5155
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5153
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5153
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5157
+Name Kuchnia~
+Descr Id±c za swoim nosem doszed³e¶ tutaj, czyli do miejsca gdzie mo¿na sobie
+co¶ przygotowaæ do jedzenia. Stoi tutaj jaki¶ piecyk, stó³ i krzes³o. Na
+srodku stolu leza sobie owoce. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5137
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 5137
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5158
+Name Przy wej¶ciu do wiezy~
+Descr ¦cie¿ka tutaj siê koñczy, albo i zaczyna. Dochodzisz do wej¶cia wielkiej
+wie¿y, mierz±cej chyba ze sze¶ædziesi±t stóp! Na drzwiach owej wie¿y widzisz
+jaki¶ napis, chyba w elfim jêzyku. Po g³êbszym rozmy¶laniu co to mo¿e byæ,
+dochodzisz do wniosku ¿e to imiê i nazwisko. ¦cie¿ka wiedzie gdzie¶ daleko
+na pó³noc, najprawdopodobniej do traktu. S± tutaj wielkie schody prowadz±ce
+w g³±b wie¿y. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5159
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5159
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Wie¿a~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 5131
+ExitExtEnd
+Exit 4
+~
+VName Wie¿a~
+~
+16384 0 5131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5159
+Name ¦cie¿ka~
+Descr Idziesz mocno zakurzon±, w±sk± ¶cie¿k±. Gdzie¶ na po³udniu dostrzegasz
+wielk±, wyró¿niaj±c± siê wie¿e. Obok ¶cie¿ki rosn± ró¿ne okazy kwiatów.
+Twoj± uwage zwracaj± lataj±ce ko³o nosa jakie¶ ma³e insekty. ¦cie¿ka
+wiedzie z pó³nocy na po³udnie. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11896
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11896
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5158
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5158
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5160
+Name Korytarz~
+Descr Korytarz zakrêca w tym miejscu. Na pod³odze wy³o¿ony jest elegancki,
+d³ugi czerwony dywan. ¦ciany zdobi± ró¿ne obrazy, przybite co kilka metrów.
+W korytarzu jest pe³no ¿yrandoli przez co jest tutaj jasno. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5161
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5161
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5156
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5156
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5161
+Name Korytarz~
+Descr Korytarz w tym miejscu siê koñczy, lub zaczyna, zale¿y z której strony by
+i¶æ. Na ¶cianach jest kilka ³adnych obrazów, ten kto je namalowa³ musia³
+mieæ wielki talent. Korytarz jest nie¼le o¶wietlony przez liczne ¿yrandole,
+przez co przyjemnie siê nim idzie. Przy wschodniej ¶cianie znajduj± siê
+schody prowadz±ce wy¿ej. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5160
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5160
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5163
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5163
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5162
+Name Komnata~
+Descr Znajdujesz siê w jakiej¶ komnacie. Przy ¶cianie po³o¿ony jest tapczan a
+obok drewniane meble. Jest tutaj równie¿ jaki¶ stó³ i krzes³o. Na stole le¿y
+pióro oraz ca³a sterta czystych kartek. Wygl±da to jak pokój jakiego¶
+pisarza. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5164
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+0 0 5164
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5163
+Name Korytarz~
+Descr Znajdujesz siê w zwyk³ym korytarzu na czwartym piêtrze. Przy ¶cianie s±
+schody prowadz±ce na ni¿ej. Drugim wyj¶ciem jest pój¶cie na zachód, gdzie
+ci±gnie siê korytarz. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5164
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5164
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5161
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5161
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5164
+Name Korytarz~
+Descr Jedynym szczególnym elementem tego korytarza jest wej¶cie do komnaty na
+zachodzie, ciekawe co mo¿e byæ w tej komnacie. Korytarz prowadzi w dwóch
+kierunkach, po³óudniowym oraz wschodnim. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5163
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5163
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5165
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5165
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Komnata~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5162
+ExitExtEnd
+Exit 3
+~
+VName Komnata~
+~
+0 0 5162
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5165
+Name Zakrêt korytarza~
+Descr Idziesz nieprzeciêtnie wystrojonym korytarzem, który w³a¶nie zakrêca. Jak
+na razie do¶æ przyjemnie ci siê idzie. Nie ma tutaj nic ciekawego, jedynie
+piêkne obrazy wisz±ce na ¶cianach. No, dywan te¿ jest niczego sobie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5164
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5164
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5166
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5166
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5166
+Name Korytarz~
+Descr Idziesz korytarzem. Jest to nieprzeciêtny korytarz, bo bardzo przyjemnie
+siê nim idzie. Nie ma w nim prawie nic ciekawego, no, mo¿e poza tymi
+gustownymi obrazami wisz±cymi na ¶cianach. Przy zachodniej ¶cianie widzisz
+schody prowadz±ce jeszcze wy¿ej, ciekawe ile ta wie¿a mo¿e mieæ jeszcze
+piêter? 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5165
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5165
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5139
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5139
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5167
+Name {YFree{x~
+Descr Idziesz jakim¶ d³ugim, ¿mudnym i nudnym korytarzu, który w tym miejscu
+zakrêca. Przy ¶cianach przypiête s± pochodnie, przez co jest tutaj jasno. Na
+pod³odze po³o¿ony jest troszke zakurzony, czerwono-¿ó³ty dywan. Na zachodzie
+widzisz drzwi do jakiego¶ pokoiku. 
+~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5168
+Name {YFree{x~
+Descr Znajdujesz siê w przytu³nym i ³adnie wystrojonym pokoiku. Przy zachodniej
+¶cianie widaæ piêkny kominek. Na po³udniowej i pó³nocnej ¶cianie, s± jakie¶
+ciekawe obrazy. W kilku miejscach obok obrazów, mieszcz± siê rega³y z
+ró¿niastymi ksiêgami. Do kominka obrócony jest jaki¶ ³adnie wygl±daj±cy
+fotelik. Zapewne przyjemnie by³o by sobie na nim usi±¶æ. 
+~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5169
+Name Przy schodach~
+Descr Znajdujesz siê w koñcu, a zarazem pocz±tku korytarza, którym wcze¶niej
+przyszed³e¶. Niema tutaj jakich¶ szczególnych rzeczy, wartych uwagi.
+Dostrzegasz schody prowadz±ce jeszcze wy¿ej, ciekawe ile piêter liczy ta
+wie¿a? 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5149
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5149
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5170
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5170
+Name Ciemniejszy korytarz~
+Descr Korytarz tutaj ró¿ni siê od korytarzów znajduj±cych siê na ni¿szych
+poziomach wie¿y. Jest on brudny i zakurzony, na dodatek jest tutaj ciemno,
+bo niema tutaj ¿adnych lamp ani pochodni. ¦ciany s± puste i podniszczone,
+widaæ, nikt nie dba o to miejsce. Przynajmniej jest tutaj dywan, troche
+zakurzony, ale jest.
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5171
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5171
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5169
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5169
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5171
+Name Ciemniejszy korytarz~
+Descr Korytarz tutaj ró¿ni siê od korytarzów znajduj±cych siê na ni¿szych
+poziomach wie¿y. Jest on brudny i zakurzony, na dodatek jest tutaj ciemno,
+bo niema tutaj ¿adnych lamp ani pochodni. ¦ciany s± puste i podniszczone,
+widaæ, nikt nie dba o to miejsce. Przynajmniej jest tutaj dywan, troche
+zakurzony, ale jest.
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5172
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5172
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5179
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5179
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5170
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5172
+Name Zakrêt ciemnego korytarza~
+Descr Korytarz tutaj ró¿ni siê od korytarzów znajduj±cych siê na ni¿szych
+poziomach wie¿y. Jest on brudny i zakurzony, na dodatek jest tutaj ciemno,
+bo niema tutaj ¿adnych lamp ani pochodni. ¦ciany s± puste i podniszczone,
+widaæ, nikt nie dba o to miejsce. Przynajmniej jest tutaj dywan, trochê
+zakurzony, ale jest. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5173
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5173
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5171
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5171
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5173
+Name Ciemny korytarz~
+Descr Korytarz tutaj ró¿ni siê od korytarzów znajduj±cych siê na ni¿szych
+poziomach wie¿y. Jest on brudny i zakurzony, na dodatek jest tutaj ciemno,
+bo nie ma tutaj ¿adnych lamp ani pochodni. ¦ciany s± puste i podniszczone,
+widaæ, nikt nie dba o to miejsce. Przynajmniej jest tutaj dywan, troche
+zakurzony ale jest. Zauwa¿asz schody prowadz±ce jeszcze wy¿ej, szczyt
+powinien byæ ju¿ niedaleko. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5172
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5172
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5174
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5174
+Name Krêcone schody~
+Descr D³ugo idziesz po krêconych schodach. Znajdujesz siê w ¶rodku jakiego¶
+zej¶æia lub wej¶cia. Schody s± tutaj troche zakurzone, a ¶ciany
+podniszczone. Od tego chodzenia troche bol± Ciê nogi. Na górze widzisz
+jakie¶ ¶wiat³o, prawdopodobnie ¶wiat³o s³oneczne. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5175
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5175
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5173
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5175
+Name Krêcone schody~
+Descr Znajdujesz siê w jakim¶ ciemnym korytarzu. ¦wiat³o, które mo¿na by³o
+zobaczyæ z do³u okazuje siê lamp± która jest tutaj zawieszona. Gdy
+spogl±dasz w dó³, widzisz mnóstwo ci±gn±cych siê schodów. Musisz byæ bardzo
+wysoko. Na zachodzie widzisz jakie¶ ¶wiat³o. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5176
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5176
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5174
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5176
+Name Korytarz~
+Descr Korytarz tutaj nagle zakrêca. ¦ciany s± w tym korytarzu podniszczone i
+brudne. Jest tutaj nieprzyjemnie, chocia¿ mo¿na zobaczyæ gorsze miejsca. Ju¿
+teraz jeste¶ bardzo wysoko, a co dopiero gdy wejdziesz na sam szczyt, widoki
+z tamt±d musz± byæ wspania³e. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5177
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5177
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5175
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5175
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5177
+Name Korytarz~
+Descr Korytarz tutaj siê koñczy, a zarazem zaczyna. Przy pó³nocnej ¶cianie
+dostrzegasz drabina prowadz±c± na górê, najprawdopodobniej na sam szczyt
+wie¿y. Chyba warto tam wyj¶æ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5176
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5176
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5178
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5178
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5178
+Name Szczyt wie¿y~
+Descr Trudno by³o tutaj doj¶æ, ale siê uda³o. Znajdujesz siê na samym czubku
+wielkiej wie¿y. S± tutaj przewspania³e widoki. Na wschodzie widaæ ca³e
+miasto Carrallak. Spogl±daj±c na zachód dostrzegasz doline elfów, oraz
+wcze¶niejszy cmentarz. Na pó³nocy widzisz trakt prowadz±cy do Arras oraz
+zajazd Kraken. Na po³udniu ci±gnie siê d³uga, ¿mudna puszcza. Widzisz st±d
+nawet ca³± latarnie morsk± która jest na po³udniowym wschodzie. Przepiêkne
+widoki, móg³by¶ tutaj siedzieæ godzinami. Z ca³± pewno¶ci± mo¿esz
+stwierdziæ, ¿e op³aca³o siê tutaj przyj¶æ. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5177
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5177
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5179
+Name Zamkniêty pokój~
+Descr Jest to jaki¶ dziwny pokój, w którym najwyra¼niej co¶ jest budowane.
+Pe³no tutaj wszelkiego rodzaju narzêdzi i materia³ów. Jest te¿ kilka
+ksi±¿ek. 
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5171
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5171
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 5136 0 5136
+O 100 5141 0 5136
+M 100 5131 1 5136 1
+M 100 5132 1 5142 1
+O 100 5136 0 5155
+O 100 2362 0 5157
+O 100 5140 0 5157
+O 100 5138 0 5162
+O 100 2351 0 5168
+O 100 5321 0 5178
+M 100 5133 1 5179 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

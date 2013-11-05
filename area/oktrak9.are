@@ -1,0 +1,5850 @@
+#AREADATA
+Name +# Okolice traktu carr-fort - od niziolkow do tasloi~
+Builders Trakty~
+VNUMs 18001 18157
+Credits Made by {RRedian{x - 03.2009
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 18001
+Name Czarodziej~
+Odmiana Czarodzieja~Czarodziejowi~Czarodzieja~Czarodziejem~Czarodzieju~
+Short Czarodziej~
+Long Desc Widzisz przed sob± wysokiego czarodzieja w czarnym kapturze.~
+Descr Czarodziej we w³asnej osobie :)
+~
+Race unique~
+ActExt 0|AR
+Affected 268435456 0 0 0
+AffectedExt 0|c
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 18d18+15
+Damage 18d18+1
+Dammagic 1
+Weaponbonus 1
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 108 150 120 120 120 120 120
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Spells 92 60 177 178
+Spells 296 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 18060
+Name ogromny czarny niedzwied¼~
+Odmiana {Dczarnego{x nied¼wiedzia~{Dczarnemu{x nied¼wiedziowi~{Dczarnego{x nied¼wiedzia~{Dczarnym{x nied¼wiedziem~{Dczarnym{x nied¼wiedziu~
+Short {Dczarny{x nied¼wied¼~
+Long {DCzarny{x nied¼wied¼ wpatrujê siê w ciebie swoimi ¶lepiami.~
+Descr Jest to ogromny niedzwiedz o {Dczarnej{x siersci. Ma wielkie, zólte kly, a
+jego pazury, dlugie na kilka cali, mogly by z latwoscia rozszarpac ofiare na
+drobne kawaleczki. Zamieszkuje on obrzeza lasów, glównie przy malo
+uczeszczanych traktach, gdzie latwo o zwierzyne, a i jakis podrózny sie
+trafi, którego bedzie mógl schrupac. Lepiej nie wchodzic mu w droge gdy jest
+glodny. 
+~
+Race nied¼wied¼~
+ActExt 0|AGTX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 12
+Hitroll 0
+HP 10d5+230
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 126 48 48 90 120 60 72
+Off CDR
+OffExt 0|CDR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ABCDEFHJKRSUV
+Size medium
+Material unknown
+Skin 150
+ExpMultiplier 120
+Mobend
+#Vnum 18061
+Name wielki czarny wilk~
+Odmiana {Dczarnego{x wilka~{Dczarnemu{x wilkowi~{Dczarnego{x wilka~{Dczarnym{x wilkiem~{Dczarnym{x wilku~
+Short wielki {Dczarny{x wilk~
+Long Wielki {Dczarny{x wilk szczerzy tutaj swoje, gro¼nie wygl±daj±ce k³y.~
+Descr Ten wielki {Dczarny{x wilk jest naprawdê specyficznym okazem wilków, które
+dane by³o ci spotkaæ. Jest on bardzo wytrzymaly i zwinny jak na
+przedstawiciela swojej rasy, co mo¿e byæ problemem gdy ciê zaatakuje. Lepiej
+nie wchodziæ takim bestiom w drogê, kto wie jak bardzo niebezpieczne to
+zwierzê. Oczy wielkiego {Dczarnego{x wilka ¶wiec± dzikim blaskiem rz±dzy krwii,
+zachowaj ostro¿no¶æ lub zasmakuje on twojej... 
+~
+Race wilk~
+ActExt 0|AGSX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 200
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d6+180
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 5 5 5 5
+Stats 108 30 42 144 108 78 78
+Off FNR
+OffExt 0|FNR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRSV
+Size large
+Material unknown
+Skin 120
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 18001
+Name ma³e jezioro ~
+Odmiana {Bjeziora{S~{Bjezioru{S~{Bjezioro{S~{Bjeziorem{S~{Bjeziorze{S~
+Short ma³e {Bjezioro{S~
+Descr Ma³e {Bjezioro{S dostarcza tu idealnie czystej wody.~
+Material nieznany~
+Type fountain
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value -1 -1 42 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 18001
+Name Brzeg lasu przy skrzy¿owaniu drog~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18003
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18003
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18002
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18002
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18002
+Name Brzeg lasu przy zabudowaniach~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18001
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18001
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18012
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18012
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18003
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18004
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18004
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18012
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18012
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18001
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18001
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18004
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18005
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18005
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18003
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18003
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18005
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18006
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18006
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18011
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18011
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18004
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18004
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18006
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18007
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18007
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18005
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18005
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18007
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18008
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18008
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18011
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18011
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18006
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18006
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18008
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18009
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18009
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18007
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18007
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18009
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18010
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18010
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18008
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18008
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18010
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18013
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18013
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18009
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18009
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18011
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18007
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18007
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18005
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18005
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18012
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18003
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18003
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18002
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18002
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18013
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18014
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18014
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18010
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18010
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18014
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18015
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18015
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18013
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18013
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18015
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18016
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18016
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18014
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18014
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18016
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18017
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18017
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18015
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18015
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18017
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18018
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18018
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18016
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18016
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18018
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18019
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18019
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18017
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18017
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18019
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18020
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18020
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18018
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18018
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18020
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18021
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18019
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18019
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18021
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18020
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18020
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18022
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18023
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18023
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18035
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18035
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18023
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18024
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18024
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18022
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18022
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18024
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18025
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18025
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18035
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18035
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18023
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18023
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18025
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18026
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18026
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18034
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18034
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18024
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18024
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18026
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18027
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18027
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18025
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18025
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18027
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18028
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18028
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18026
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18026
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18028
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18029
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18029
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18027
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18027
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18029
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18030
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18030
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18033
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18033
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18028
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18028
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18030
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18031
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18031
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18032
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18032
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18029
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18029
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18031
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18036
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18036
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18030
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18030
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18032
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18030
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18030
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18033
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18033
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18033
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18029
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18029
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18032
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18032
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18034
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18025
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18025
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18035
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18035
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18035
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18024
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18024
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18034
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18034
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18022
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18022
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18036
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18037
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18037
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18031
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18031
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18037
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18038
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18038
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18043
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18043
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18036
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18036
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18038
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18039
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18039
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18044
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18044
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18037
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18037
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18039
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18040
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18040
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18045
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18045
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18038
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18038
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18040
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18041
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18041
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18039
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18039
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18041
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18042
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18042
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18040
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18040
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18042
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18047
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18047
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18041
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18041
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18043
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18037
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18037
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18044
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18044
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18044
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18038
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18038
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18045
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18045
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18046
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18046
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18043
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18043
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18045
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18039
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18039
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18044
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18044
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18046
+Name Polanka przy {Bb³êkitnym jeziorze{S~
+Descr Ma³a polanka otoczona jest przez las. Wielkie wiekowe drzewa czerpia st±d
+potrzebn± im wodê. Okoliczne zwierzêta równie¿ lubi± tu przychodziæ by
+zaspokoiæ swoje pragnienie. ¦wiadcz± o tym wydaptane ¶lady na ¶wie¿ej i
+m³odej trawie porastaj±cej ca³± polane. Widaæ, ¿e zwierzêta przychodz± tutaj
+regularnie, mo¿e to jedyny wodopój w okolicy? Lepiej nie ryzykowaæ i
+zaopatrzyæ siê w zapas ¿yciodajnego p³ynu. Znajdujesz ³agodne zbocze
+prowadz±ce do jeziorka, idealne miejsce by zaczerpn±æ trochê wody. 
+~
+FlagsExt 0
+Sector 42
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18044
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18044
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18047
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18048
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18048
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18042
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18042
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18048
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18049
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18049
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18052
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18052
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18047
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18047
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18049
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18050
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18050
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18048
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18048
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18050
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18051
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18051
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18049
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18049
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18051
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18053
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18053
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18050
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18050
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18052
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18048
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18048
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18053
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18051
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18051
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18054
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18054
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18054
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18055
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18055
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18053
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18053
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18055
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18056
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18056
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18054
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18054
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18056
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18057
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18057
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18055
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18055
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18057
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18058
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18058
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18056
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18056
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18058
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18059
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18059
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18057
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18057
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18059
+Name Brzeg lasu~
+FlagsExt 0|C
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18060
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18060
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18058
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18058
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18060
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18061
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18061
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18079
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18079
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18059
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18059
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18061
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18062
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18062
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18071
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18071
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18060
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18060
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18062
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18063
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18063
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18061
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18061
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18063
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18064
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18064
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18071
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18071
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18062
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18062
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18064
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18065
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18065
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18072
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18072
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18063
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18063
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18065
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18066
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18066
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18073
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18073
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18064
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18064
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18066
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18067
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18067
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18074
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18074
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18065
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18065
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18067
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18068
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18068
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18075
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18075
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18066
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18066
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18068
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18069
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18069
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18076
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18076
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18067
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18067
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18069
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18070
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18070
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18077
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18077
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18068
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18068
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18070
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18082
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18082
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18078
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18078
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18069
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18069
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18071
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18063
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18063
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18072
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18072
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18079
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18079
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18061
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18061
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18072
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18064
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18064
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18073
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18073
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18080
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18080
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18071
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18071
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18073
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18065
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18065
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18074
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18074
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18081
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18081
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18072
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18072
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18074
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18066
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18066
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18075
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18075
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18073
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18073
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18075
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18067
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18067
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18076
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18076
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18074
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18074
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18076
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18068
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18068
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18077
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18077
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18075
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18075
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18077
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18069
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18069
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18078
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18078
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18076
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18076
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18078
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18070
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18070
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18077
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18077
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18079
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18071
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18071
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18080
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18080
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18060
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18060
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18080
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18072
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18072
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18081
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18081
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18079
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18079
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18081
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18073
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18073
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18080
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18080
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18082
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18083
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18083
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18070
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18070
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18083
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18084
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18084
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18082
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18082
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18084
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18085
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18085
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18083
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18083
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18085
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18086
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18086
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18093
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18093
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18084
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18084
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18086
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18094
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18094
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18085
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18085
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18087
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18088
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18088
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18089
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18089
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18088
+Name {gZielony las{S~
+Descr Zielony las, pelen przeróznych drzew i krzaków, miejsce nie rózni sie
+niczym od innych podobnych lasów i puszczy. Pelne nudy i monotonii miejsce
+otoczone drzewami z kazdej stron, w poblizu, co jakis czas, slychac halas
+przejezdzajacego wozu, w okolicy musi byc jakas droga, ciekawe dokad
+prowadzi. Na pó³nocy s³ychaæ zgie³k miasta, mo¿liwe ¿e to w³a¶nie tam
+prowadzi ta droga. Z kazdej strony otaczaja cie drzewa, nic tylko drzewa i
+drzewa. Zaczyna to byc niezwykle nudne. Chyba najwyzsza pora ruszac w dalsza
+droge, no chyba ze postanowiliscie zapuscic tutaj korzenie, tylko po co? 
+~
+FlagsExt 0
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18087
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18087
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18089
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18087
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18087
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18090
+Name {gZielony las{S~
+Descr Pelen zieleni drzew i krzaków las, miejsce standardowe, nie rózniace sie
+niczym od innych, temu podobnych miejsc. Jedyne co tutaj mozna spotkac to
+drzewa, jednak nie sadze by byla to najlepsza kompania do pogawedki, nie
+licz na towarzystwo. W okolicy jest jakas droga, umozliwiajaca dalsza
+podróz. Gdzie nie spojrzysz widzisz drzewa, widok ten powtarza sie do
+znudzenia. Najwyzsza pora zbierac manatki i ruszac w dalsza podróz. Ku
+cywilizacji! Ku przygodzie! Ewentualnie mozesz zostac tutaj i zapuscic
+korzenie... 
+~
+FlagsExt 0|C
+Sector 3
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18091
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18092
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18092
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18092
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18091
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18091
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18093
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18085
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18085
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18094
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18094
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18094
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18086
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18086
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18095
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18095
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18106
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18106
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18093
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18093
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18095
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18096
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18096
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18107
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18107
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18094
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18094
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18096
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18097
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18097
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18108
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18108
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18095
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18095
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18097
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18098
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18098
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18109
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18109
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18096
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18096
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18098
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18099
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18099
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18110
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18110
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18097
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18097
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18099
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18100
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18100
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18111
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18111
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18098
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18098
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18100
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18101
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18101
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18112
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18112
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18099
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18099
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18101
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18102
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18102
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18113
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18113
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18100
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18100
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18102
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18103
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18103
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18114
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18114
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18101
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18101
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18103
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18104
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18104
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18115
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18115
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18102
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18102
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18104
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18105
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18105
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18116
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18116
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18103
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18103
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18105
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18124
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18124
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18117
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18117
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18104
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18104
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18106
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18094
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18094
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18107
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18107
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18107
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18095
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18095
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18108
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18108
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18106
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18106
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18108
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18096
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18096
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18109
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18109
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18107
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18107
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18109
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18097
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18097
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18110
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18110
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18108
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18108
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18110
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18098
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18098
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18111
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18111
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18118
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18118
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18109
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18109
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18111
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18099
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18099
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18112
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18112
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18119
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18119
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18110
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18110
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18112
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18100
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18100
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18113
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18113
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18120
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18120
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18111
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18111
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18113
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18101
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18101
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18114
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18114
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18121
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18121
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18112
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18112
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18114
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18102
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18102
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18115
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18115
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18122
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18122
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18113
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18113
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18115
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18103
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18103
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18116
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18116
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18114
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18114
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18116
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18104
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18104
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18117
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18117
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18115
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18115
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18117
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18105
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18105
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18116
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18116
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18118
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18110
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18110
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18119
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18119
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18119
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18111
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18111
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18120
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18120
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18118
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18118
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18120
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18112
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18112
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18121
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18121
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18123
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18123
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18119
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18119
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18121
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18113
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18113
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18122
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18122
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18120
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18120
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18122
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18114
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18114
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18121
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18121
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18123
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18120
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18120
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18124
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18125
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18125
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18105
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18105
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18125
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18126
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18126
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18124
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18124
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18126
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18127
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18127
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18125
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18125
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18127
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18128
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18128
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18130
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18130
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18126
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18126
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18128
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18129
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18129
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18127
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18127
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18129
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18131
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18131
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18130
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18130
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18128
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18128
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18130
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18129
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18129
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18127
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18127
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18131
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18132
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18132
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18136
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18136
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18129
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18129
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18132
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18133
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18133
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18137
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18137
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18131
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18131
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18133
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18134
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18134
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18138
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18138
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18132
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18132
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18134
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18135
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18135
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18139
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18139
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18133
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18133
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18135
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18140
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18140
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18134
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18134
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18136
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18137
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18137
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18131
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18131
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18137
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18138
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18138
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18136
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18136
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18132
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18132
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18138
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18139
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18139
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18141
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18141
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18137
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18137
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18133
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18133
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18139
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18140
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18140
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18142
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18142
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18138
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18138
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18134
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18134
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18140
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18143
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18143
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18139
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18139
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18135
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18135
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18141
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18142
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18142
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18138
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18138
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18142
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18143
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18143
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18144
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18144
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18141
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18141
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18139
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18139
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18143
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18145
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18145
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18142
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18142
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18140
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18140
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18144
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18145
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18145
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18142
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18142
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18145
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18146
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18146
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18144
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18144
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18143
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18143
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18146
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18147
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18147
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18145
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18145
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18147
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18148
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18148
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18146
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18146
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18148
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18149
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18149
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18147
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18147
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18149
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18150
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18150
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18148
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18148
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18150
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18151
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18151
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18149
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18149
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18151
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18152
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18152
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18155
+ExitExtEnd
+Exit 2
+~
+~
+0 0 18155
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18150
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18150
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18152
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18153
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18153
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18151
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18151
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18153
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18154
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18154
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18152
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18152
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18154
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18156
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18156
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18153
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18153
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18155
+Name Brzeg lasu~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18151
+ExitExtEnd
+Exit 0
+~
+~
+0 0 18151
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18156
+Name Na skraju lasu~
+FlagsExt 0
+Sector 3
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18154
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18154
+DayRDesc 18001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18157
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 18001 0 18046
+M 100 18061 15 18073 1
+M 100 18060 15 18073 1
+M 100 18060 15 18076 1
+M 100 18061 15 18076 1
+M 100 18061 15 18078 1
+M 100 18060 15 18078 1
+M 100 18061 15 18079 1
+M 100 18060 15 18079 1
+M 100 18060 15 18081 1
+M 100 18061 15 18081 1
+M 100 18060 15 18094 1
+M 100 18061 15 18094 1
+M 100 18061 15 18106 1
+M 100 18060 15 18106 1
+M 100 18061 15 18109 1
+M 100 18060 15 18109 1
+M 100 18060 15 18112 1
+M 100 18061 15 18112 1
+M 100 18061 15 18114 1
+M 100 18060 15 18114 1
+M 100 18060 15 18119 1
+M 100 18061 15 18119 1
+M 100 18060 15 18127 1
+M 100 18061 15 18127 1
+M 100 18060 15 18130 1
+M 100 18061 15 18130 1
+M 100 18060 15 18139 1
+M 100 18061 15 18139 1
+M 100 18060 15 18141 1
+M 100 18061 15 18141 1
+M 100 18060 15 18147 1
+M 100 18061 15 18147 1
+M 100 18060 15 18155 1
+M 100 18061 15 18155 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 18001
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 09~
+Desc Gdzie nie spojrzysz widzisz drzewa, widok ten powtarza sie do znudzenia.
+Najwyzsza pora zbierac manatki i ruszac w dalsza podróz. Ku cywilizacji! Ku
+przygodzie! Ewentualnie mozesz zostac tutaj i zapuscic korzenie... 
+~
+Group 3
+End
+#Name 08~
+Desc Z kazdej strony otaczaja cie drzewa, nic tylko drzewa i drzewa. Zaczyna
+to byc niezwykle nudne. Chyba najwyzsza pora ruszac w dalsza droge, no chyba
+ze postanowiliscie zapuscic tutaj korzenie, tylko po co? 
+~
+Group 3
+End
+#Name 07~
+Desc Monotonia, to glówny powód zniechecajacy do dalszego postoju tutaj. W
+kolo nic tylko drzewa, drzewa, aaa i jeszcze drzewa... Chyba najwyzszy czas
+ruszac w droge. W przeciwnym wypadku móglbys zapuscic tutaj korzenie i
+dolaczyc do otaczajacych cie... Drzew. 
+~
+Group 3
+End
+#Name 06~
+Desc W kolo pelno drzew o roznych ksztaltach, niektóre wygladaja dosc
+karykaturalnie. W okolicy, co jakis czas, slychac przejezdzajacy wóz, to
+zapewne kupcy wedruja ku kolejnym miastom. 
+~
+Group 2
+End
+#Name 05~
+Desc Pelne nudy i monotonii miejsce otoczone drzewami z kazdej stron, w
+poblizu, co jakis czas, slychac halas przejezdzajacego wozu, w okolicy musi
+byc jakas droga, ciekawe dokad prowadzi. 
+~
+Group 2
+End
+#Name 04~
+Desc Jedyne co tutaj mozna spotkac to drzewa, jednak nie sadze by byla to
+najlepsza kompania do pogawedki, nie licz na towarzystwo. W okolicy jest
+jakas droga, umozliwiajaca dalsza podróz. 
+~
+Group 2
+End
+#Name 03~
+Desc Standardowy las, nie rózniacy sie niczym od innych. Jest pelny
+przeróznych krztaltów drzew i krzewów, w skrócie nuda. 
+~
+Group 1
+End
+#Name 02~
+Desc Pelen zieleni drzew i krzaków las, miejsce standardowe, nie rózniace sie
+niczym od innych, temu podobnych miejsc. 
+~
+Group 1
+End
+#Name 01~
+Desc Zielony las, pelen przeróznych drzew i krzaków, miejsce nie rózni sie
+niczym od innych podobnych lasów i puszczy. 
+~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

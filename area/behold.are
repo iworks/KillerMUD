@@ -1,0 +1,1950 @@
+#AREADATA
+Name {DPodmrok{x- Legowisko beholderów~
+Builders Sewq  Podmrok  Taranis Zord~
+VNUMs 55251 55300
+Locked ~
+Security 1
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 55251
+Name obrzydliwy beholder~
+Odmiana obrzydliwego beholdera~obrzydliwemu beholderowi~obrzydliwego beholdera~obrzydliwym beholderem~obrzydliwym beholderze~
+Short obrzydliwy beholder~
+Long Obrzydliwy beholder unosi siê tutaj, wypatruj±c ofiary.~
+Descr Obrzydliwy, cuchnacy i emanujacy rz±dz± mordu beholder! Centralny punkt
+jego "cia³a",stanowi ogromna galka oczna z krwistoczerwon± zrenic±, która
+zdaje siê przerwieraæ ciê na wylot. Tu¿ pod nia ociekajaca ¶luzem paszcza,
+najerzona przypominajacymi ig³y k³ami. Od oko-g³owy odchodzi w kierunku
+ziemi kilka macek, nie dotykaj± one jednak pod³oza, a sam obserwator zdaje
+siê w jaki¶ magiczny sposób unosiæ nad powierzchnia ziemi. Oprócz
+centralnego oka, wypatrywacz posiada jeszcze kilka mniejszych galek ocznych
+osadzonych na koncach macek. Ka¿de z tych ¶lepi zdaje siê patrzeæ w inn±
+stronê. To naprawde odra¿aj±ce stworzenie... 
+~
+Race wypatrywacz~
+ActExt 0|ABEFR
+Affected 512 0 0 4
+AffectedExt 0|J/3|C
+Align -1000
+Group 0
+Lang V
+Speaks 19
+Level 23
+Hitroll 2
+HP 150d2+450
+Damage 4d5+2
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack magia
+XAC 10 10 10 10
+Stats 138 96 96 108 138 78 78
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CE
+Parts AFJKMNS
+Size medium
+Material unknown
+Spells 202 493 60 93
+Spells 5 169 0 0
+Skin 200
+ExpMultiplier 100
+Resist 4 20
+Resist 16 50
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 55251
+Name Niewielka grota~
+Descr Znajdujesz siê w niewielkiej grocie. Sklepienie znajduje siê jakie¶ trzy,
+cztery metry nad twoja glowa. Wytezajac wzrok jestes w stanie dojrzec zarysy
+zwisaj±cych z sufitu stalagmitów. ¦ciany groty, wydaj± siê do¶æ regularne, a
+na pod³o¿u le¿a porozrzucane resztki zw³ok bli¿ej niezidentyfikowanych
+istot. Twoj± uwagê, po chwili, przykuwa do¶æ otwór w pod³odze, który ma
+oko³o trzech metrów ¶rednicy. Gdy di niegol zagl±dasz, twoim oczom ukazuje
+siê tunel prowadz±cy w g³±b ziemi, a w powietrzu unosi siê odór zgnilizny. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Kopalnia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55252
+ExitExtEnd
+Exit 5
+~
+VName Kopalnia~
+~
+0 0 55252
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55252
+Name Zrujnowana kopalnia~
+Descr Znajdujesz sie w miejscu, ktore niewatpliwie jest, a raczej bylo kiedys
+kopalnia. Po sposobie stemplowania i wykonczeniu domyslasz sie, ze to dzielo
+gnomow glebinowych. Teraz cale miejsce przepelnione jest zlowroga obecnoscia
+beholderow, a biedne gnomy, jezeli tu wystepuja, to tylko w charakterze
+niewolnikow, wydobywajacych surowce dla bezwzglednych obserwatorow
+Wszechobecny zapach stechlizny unoszacy przyprawia cie o skurcze zoladka i
+mdlosci. Zastanawiasz sie co uda³o Ci siê spo¿yæ dzis na sniadanie, i jaka
+kompozycje utworzy to za chwile na podlodze tej przekletej kopalni... 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55273
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55273
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55253
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55253
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55251
+ExitExtEnd
+Exit 4
+~
+~
+0 0 55251
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55253
+Name G³ówny korytarz~
+Descr Znajdujesz sie w g³ownym korytarzu tej kopalni. Sufit, jak na kopalnie
+znajduje siê do¶æ wysoko, tak¿e nawet ros³y pó³ork nie powinien mieæ
+problemów wykonaniem niewielkiego podskoku. Na ¶cianach umocowane s±
+niewilkie kule alchemiczne, zalewaj±ce otoczenie bladym, troche ponurym
+ciemno-zielonym ¶wiat³em. Przygl±daj±c siê dok³adniej ¶cianom, dostrzegasz
+gdzieniegdzie czarne jak smo³a plamy adamantytu, który jest tutaj
+wydobywany. Wszystko by³oby w najlepszym porz±dku, gdyby nie ten
+wszechobecny odór stêchlizny... . 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55252
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55252
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55254
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55254
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55254
+Name G³ówny korytarz~
+Descr Znajdujesz sie w glownym korytarzu tej kopalni. Sufit, jak na kopalnie
+znajduje sie dosc wysoko, takze nawet rosly polork nie powinien miec
+problemow wykonaniem niewielkiego podskoku. Na scianach umocowane sa
+niewilkie kule alchemiczne, zalewajace otoczenie bladym, troche ponurym
+ciemno-zielonym swiatlem. Przygladajac sie dokladniej scianom, dostrzegasz
+gdzieniegdzie czarne jak smola plamy adamantytu, ktory jest tutaj
+wydobywany. Wszystko byloby w najlepszym porzadku, gdyby nie ten
+wszechobecny odor stechlizny... . 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55253
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55253
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55255
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55255
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55255
+Name G³ówny korytarz~
+Descr Znajdujesz sie w glownym korytarzu tej kopalni. Sufit, jak na kopalnie
+znajduje sie dosc wysoko, takze nawet rosly polork nie powinien miec
+problemow wykonaniem niewielkiego podskoku. Na scianach umocowane sa
+niewilkie kule alchemiczne, zalewajace otoczenie bladym, troche ponurym
+ciemno-zielonym swiatlem. Przygladajac sie dokladniej scianom, dostrzegasz
+gdzieniegdzie czarne jak smola plamy adamantytu, ktory jest tutaj
+wydobywany. Wszystko byloby w najlepszym porzadku, gdyby nie ten
+wszechobecny odor stechlizny... . 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55254
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55254
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55256
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55256
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55256
+Name G³ówny korytarz~
+Descr Znajdujesz sie w glownym korytarzu tej kopalni. Sufit, jak na kopalnie
+znajduje sie dosc wysoko, takze nawet rosly polork nie powinien miec
+problemow wykonaniem niewielkiego podskoku. Na scianach umocowane sa
+niewilkie kule alchemiczne, zalewajace otoczenie bladym, troche ponurym
+ciemno-zielonym swiatlem. Przygladajac sie dokladniej scianom, dostrzegasz
+gdzieniegdzie czarne jak smola plamy adamantytu, ktory jest tutaj
+wydobywany. Wszystko byloby w najlepszym porzadku, gdyby nie ten
+wszechobecny odor stechlizny... . 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55255
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55255
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55257
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55257
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55257
+Name W±ski chodnik~
+Descr W tym miejscu chodnik jest zdecydowanie wê¿szy ni¿ w g³ównym korytarzu.
+Przej¶cie jest do¶æ szerokie ¿eby zmie¶ci³y siê tutaj 2, mo¿e 3 gnomy, ale 2
+ros³ych pó³orków mia³oby napewno spory problem ¿eby siê swobodnie min±æ. Dla
+odmiany, kule alchemiczne zawieszono tutaj na suficie, przez co wydaje siê,
+¿e w tym korytarzu jest nieco ja¶niej i mniej ponuro ni¿ w pozosta³ych.
+Gdzeniegdzie z sufitu pokapuje woda, zgrywaj±c siê z rytmicznym i powolnym
+stukaniem kilofów rozlegaj±cym siê w ca³ej kopalni Na pod³odze dostrzegasz
+co kilka metrów ca³kiem spore ka³u¿e brdunawej i mêtnej wody. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55256
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55256
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55258
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55258
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55258
+Name W±ski chodnik~
+Descr W tym miejscu chodnik jest zdecydowanie wezszy niz w glownym korytarzu.
+Przejscie jest dosc szerokie zeby zmiescily sie tutaj 2, moze 3 gnomy, ale 2
+roslych polorkow mialoby napewno spory problem zeby sie swobodnie minac. Dla
+odmiany, kule alchemiczne zawieszono tutaj na suficie, przez co wydaje sie,
+ze w tym korytarzu jest nieco jasniej i mniej ponuro niz w pozostalych.
+Gdzeniegdzie z sufitu pokapuje woda, zgrywajac sie z rytmicznym i powolnym
+stukaniem kilofow rozlegajacym sie w calej kopalni Na podlodze dostrzegasz
+co kilka metrow calkiem spore kaluze brdunawej i metnej wody. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55257
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55257
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55259
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55259
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55259
+Name Skrzy¿owanie chodników~
+Descr Znajdujesz siê w miejscu gdzie krzy¿uje siê dwa korytarze wydobywcze tej
+kopalni. Ten fragment jest o¶wietlony przez wiêksz± ni¿ gdzie indziej liczbê
+przedziwnych kul alchemicznych. Na jednej ze ¶cian dostrzegasz co¶, co
+kiedy¶ by³o prawdopodobnie tabliczk± informacyjn±, lub drogowskazem, jednak
+wszelkie informacje znajduj±ce siê na tym przedmiocie ju¿ dawno siê zatar³y.
+Na ¶rodku tego pomieszczenia znajduje siê do¶æ spory filar o ¶rednicy oko³o
+jednego metra, podtrzymuj±cy sufit. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55258
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55258
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55277
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55277
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55260
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55260
+Name W±ski chodnik~
+Descr W tym miejscu chodnik jest zdecydowanie wezszy niz w glownym korytarzu.
+Przejscie jest dosc szerokie zeby zmiescily sie tutaj 2, moze 3 gnomy, ale 2
+roslych polorkow mialoby napewno spory problem zeby sie swobodnie minac. Dla
+odmiany, kule alchemiczne zawieszono tutaj na suficie, przez co wydaje sie,
+ze w tym korytarzu jest nieco jasniej i mniej ponuro niz w pozostalych.
+Gdzeniegdzie z sufitu pokapuje woda, zgrywajac sie z rytmicznym i powolnym
+stukaniem kilofow rozlegajacym sie w calej kopalni Na podlodze dostrzegasz
+co kilka metrow calkiem spore kaluze brdunawej i metnej wody. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55259
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55259
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55261
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55261
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55261
+Name W±ski chodnik~
+Descr W tym miejscu chodnik jest zdecydowanie wezszy niz w glownym korytarzu.
+Przejscie jest dosc szerokie zeby zmiescily sie tutaj 2, moze 3 gnomy, ale 2
+roslych polorkow mialoby napewno spory problem zeby sie swobodnie minac. Dla
+odmiany, kule alchemiczne zawieszono tutaj na suficie, przez co wydaje sie,
+ze w tym korytarzu jest nieco jasniej i mniej ponuro niz w pozostalych.
+Gdzeniegdzie z sufitu pokapuje woda, zgrywajac sie z rytmicznym i powolnym
+stukaniem kilofow rozlegajacym sie w calej kopalni Na podlodze dostrzegasz
+co kilka metrow calkiem spore kaluze brdunawej i metnej wody. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55260
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55260
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55262
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55262
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55262
+Name W±ski chodnik~
+Descr W tym miejscu chodnik jest zdecydowanie wezszy niz w glownym korytarzu.
+Przejscie jest dosc szerokie zeby zmiescily sie tutaj 2, moze 3 gnomy, ale 2
+roslych polorkow mialoby napewno spory problem zeby sie swobodnie minac. Dla
+odmiany, kule alchemiczne zawieszono tutaj na suficie, przez co wydaje sie,
+ze w tym korytarzu jest nieco jasniej i mniej ponuro niz w pozostalych.
+Gdzeniegdzie z sufitu pokapuje woda, zgrywajac sie z rytmicznym i powolnym
+stukaniem kilofow rozlegajacym sie w calej kopalni Na podlodze dostrzegasz
+co kilka metrow calkiem spore kaluze brdunawej i metnej wody. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55261
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55261
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55263
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55263
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55263
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55264
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55264
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55262
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55262
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55264
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55265
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55265
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55263
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55263
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55265
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55266
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55266
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55264
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55264
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55266
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55267
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55267
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55265
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55265
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55267
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55268
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55268
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55266
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55266
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55268
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55269
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55269
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55267
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55267
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55269
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w ktorym silny juz wczesniej zapach
+stechlizny przybiera jeszcze na sile i staje sie wprost nie do wytrzymania.
+Prawdopodobni przyczyna tego stanu rzeczy jest bliskosc jakiegos zbiornika
+wodnego. Wytezajac sluch jestes nawet w stanie doslyszec ciche pluski gdzies
+w oddali. Tak jak w pozostalych czesciach kopalni takze tutaj do scian
+przymocowane sa kule alchemiczne emitujace blady ciemnozlielony blask.
+Podloze pokrywa tutaj okolo piecio centymetrowa warstwa jakiejs gestej i co
+gorsza smierdzacej bloto podobnej substancji... Ochyda 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55270
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55270
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55268
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55268
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55270
+Name Skrzy¿owanie korytarzy~
+Descr Znajdujesz siê w miejscu gdzie krzy¿uje siê dwa korytarze wydobywcze tej
+kopalni. Ten fragment jest o¶wietlony przez wiêksz± ni¿ gdzie indziej liczbê
+przedziwnych kul alchemicznych. Na jednej ze ¶cian dostrzegasz co¶, co
+kiedy¶ by³o prawdopodobnie tabliczk± informacyjn±, lub drogowskazem, jednak
+wszelkie informacje znajduj±ce siê na tym przedmiocie ju¿ dawno siê zatar³y.
+Na ¶rodku tego pomieszczenia znajduje siê do¶æ spory filar o ¶rednicy oko³o
+jednego metra, podtrzymuj±cy sufit. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55271
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55271
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55269
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55269
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55274
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55274
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55271
+Name Niewielkie skrzy¿owanie~
+Descr Niewielkie skrzy¿owanie chodników. W jednej ze ¶cian znajduje siê w±skie
+przej¶cie do kolejnego korytarza. O ile wydawa³o ci siê, ¿e smród stêchlizny
+w tej czêsci kopalni jest ju¿ nie do zniesienia, to odór bij±cy z przej¶cia
+we wschodniej ¶cianie prawie pozbawia ciê przytomno¶ci. My¶lisz sobie, ¿e
+nawet tak odra¿aj±ce stworzenia jak beholdery powinny choæ trochê zadbaæ o
+czysto¶æ swojej kopalni. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55272
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55272
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55287
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55287
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55270
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55270
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55272
+Name Zatêch³y chodnik~
+Descr Stoisz w chodniku wydobywczym, w którym silny ju¿ wcze¶niej zapach
+stêchlizny przybiera jeszcze na sile i staje siê wprost nie do wytrzymania.
+Prawdopodobni przyczyn± tego stanu rzeczy jest blisko¶æ jakiegos zbiornika
+wodnego. Wytêzaj±c s³uch jeste¶ nawet w stanie dos³yszeæ ciche pluski gdzie¶
+w oddali. Tak jak w pozosta³ych czê¶ciach kopalni tak¿e tutaj do ¶cian
+przymocowane s± kule alchemiczne emituj±ce blady ciemnozlielony blask.
+Pod³o¿e pokrywa tutaj okolo piêcio centymetrowa warstwa jakiejs gêstej i co
+gorsza ¶mierdz±cej b³oto podobnej substancji... Ochyda! 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55273
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55273
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55271
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55271
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55273
+Name G³ówny korytarz~
+Descr Znajdujesz sie w glownym korytarzu tej kopalni. Sufit, jak na kopalnie
+znajduje sie dosc wysoko, takze nawet rosly polork nie powinien miec
+problemow wykonaniem niewielkiego podskoku. Na scianach umocowane sa
+niewilkie kule alchemiczne, zalewajace otoczenie bladym, troche ponurym
+ciemno-zielonym swiatlem. Przygladajac sie dokladniej scianom, dostrzegasz
+gdzieniegdzie czarne jak smola plamy adamantytu, ktory jest tutaj
+wydobywany. Wszystko byloby w najlepszym porzadku, gdyby nie ten
+wszechobecny odor stechlizny... . 
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55272
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55272
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55252
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55252
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55274
+Name Ciemny korytarz~
+Descr Waski i ciemny korytarz laczacy ze soba 2 glowne chodniki wydobywcze tej
+kopalni. Sufit w tej czesci kompleksu znajduje sie bardzo nisko, tak ze ka
+kazda istota choc troche wyzsza od gnoma musi tutaj sie mocno przygarbic
+zeby nie zawadzic glowa o sklepienie. Budowniczy nie zadali sobie trudu zeby
+w tym korytarzu zainstalowac kule alchemiczne, takze panuje tutaj prawie
+calkowita ciemnosc, w ktorej kazdy, najmniejszy nawet szmer, przyprawia cie
+o dreszcze w okolicy posladkow. Chyba lepiej siê st±d szybko oddaliæ... . 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55270
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55270
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55275
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55275
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55275
+Name Ciemny korytarz~
+Descr Waski i ciemny korytarz laczacy ze soba 2 glowne chodniki wydobywcze tej
+kopalni. Sufit w tej czesci kompleksu znajduje sie bardzo nisko, tak ze ka
+kazda istota choc troche wyzsza od gnoma musi tutaj sie mocno przygarbic
+zeby nie zawadzic glowa o sklepienie. Budowniczy nie zadali sobie trudu zeby
+w tym korytarzu zainstalowac kule alchemiczne, takze panuje tutaj prawie
+calkowita ciemnosc, w ktorej kazdy, najmniejszy nawet szmer, przyprawia cie
+o dreszcze w okolicy posladkow. Chyba lepiej siê st±d szybko oddaliæ... 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55274
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55274
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55276
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55276
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55276
+Name Rozwidlenie korytarza~
+Descr Niewielkie rozwidlenie tego ciemnego chodnika. W tym miejscu odchodz± od
+niego 2 równie w±skie i tak samo niezachêcaj±ce odnogi. Po chwili
+zastanowienia, stwierdasz, ¿e po³udniowy korytarz emanuje troszeczke mniej
+z³owrog± aur± ni¿ ten pó³nocny. To pewnie to zatêch³e powietrze zaczna ci
+prze¿eraæ mózg. Lepiej czym prêdzej sie st±d wynosiæ, zanim do koñca
+zwariujesz albo dopadnie ciê który¶ z tych obrzydliwych beholderów. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55278
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55278
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55275
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55275
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55282
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55282
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55277
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55277
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55277
+Name Ciemny korytarz~
+Descr W±ski i ciemny korytarz ³±cz±cy ze sob± 2 g³ówne chodniki wydobywcze tej
+kopalni. Sufit w tej czê¶ci kompleksu znajduje siê bardzo nisko, tak ¿e ka
+ka¿da istota choæ trochê wy¿sza od gnoma musi tutaj siê mocno przygarbiæ
+¿eby nie zawadziæ g³ow± o sklepienie. Budowniczy nie zadali sobie trudu ¿eby
+w tym korytarzu zainstalowaæ kule alchemiczne, tak¿e panuje tutaj prawie
+ca³kowita ciemno¶æ, w której ka¿dy, najmniejszy nawet szmer, przyprawia ciê
+o dreszcze w okolicy po¶ladków. Chyba lepiej szybko siê st±d oddaliæ. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55276
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55276
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55259
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55259
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55278
+Name Wilgotna odnoga~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55279
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55279
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55276
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55276
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55279
+Name Wilgotna odnoga~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55280
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55280
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55278
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55278
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55280
+Name Wilgotna odnoga~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55281
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55281
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55279
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55279
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55281
+Name ¦lepy zau³ek~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55280
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55280
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55282
+Name Ciasna odnoga~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55276
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55276
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55283
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55283
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55283
+Name Ciasna odnoga~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55282
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55282
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55284
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55284
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55284
+Name Ciasna odnoga~
+Descr ~
+Nightdescr nw
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55285
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55285
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55283
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55283
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55285
+Name ¦lepy zau³ek~
+Descr ~
+Nightdescr Odnoga korytarza ktora szedles w tym miejscu konczy sie. Miejsce, w
+ktorym sie teraz znajdujesz, o dziwo, zdaje sie zupelnie nie pasowac do
+reszty tej obrzydliwej kopalni. Wszechobecna zgnilizna i smrod rozkladu
+nagle cie opuszczaja, czujesz sie tu dziwnie spokojnie. To wszystko za
+sprawa malutkiego zrodelka, ktore bije tutaj pod jedna ze scian. Patrzac na
+nie czujesz nieodparta ochote skosztowania tej krystalicznie czystej wody,
+ktora napewno doskonale gasi pragnienie. Chcialoby sie zos Odnoga korytarza
+ktora szedles w tym miejscu konczy sie. Miejsce, w ktorym sie teraz
+znajdujesz, o dziwo, zdaje sie zupelnie nie pasowac do reszty tej
+obrzydliwej kopalni. Wszechobecna zgnilizna i smrod rozkladu nagle cie
+opuszczaja, czujesz sie tu dziwnie spokojnie. To wszystko za sprawa
+malutkiego zrodelka, ktore bije tutaj pod jedna ze scian. Patrzac na nie
+czujesz nieodparta ochote skosztowania tej krystalicznie czystej wody, ktora
+napewno doskonale gasi pragnienie. Chcialoby sie zostac w tym miejscu na
+dluzej, ale po chwili przypominas sobie w jak paskudnej okolicy masz okazje
+przebywac... 
+~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55284
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55284
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55286
+Name slepy zaueq 2~
+Descr ~
+FlagsExt 0|C
+Sector 47
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55287
+Name Zaple¶nia³a odnoga~
+Descr Stoisz w wyj±tkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jaka¶ cieczko mocno nasycona mu³em siêga tutaj
+mniej wiêcej po kolana ¶rendiego wzrostu cz³owieka. Tak¿e biada humanoidom
+nikczemnej postury, im woda siêga prawdopodobnie w okolice pasa. ¦ciany w
+tej czê¶ci kopalni pokryte s± grub± warstw± ple¶ni. Teraz rozumiesz sk±d w
+ca³ej kopalni ten smród. Brodz±c w mêtnej wodzie, masz niejasne uczucie, ¿e
+co chwila co¶ sporego i ¶liskiego przep³ywa ci miêdzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55288
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55288
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55271
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55271
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55288
+Name Zaple¶nia³a odnoga~
+Descr Stoisz w wyjatkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jakas cieczko mocno nasycona mulem siega tutaj
+mniej wiecej po kolana srendiego wzrostu czlowieka. Takze biada humanoidom
+nikczemnej postury, im woda siega prawdopodobnie w okolice pasa. Sciany w
+tej czesci kopalni pokryte sa gruba warstwa plesni. Teraz rozumiesz skad w
+calej kopalni ten smrod. Brodzac w metnej wodzie, masz niejasne uczucie, ze
+co chwila cos sporego i sliskiego przeplywa ci miedzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55289
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55289
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55287
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55287
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55289
+Name Zaple¶nia³a odnoga~
+Descr Stoisz w wyjatkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jakas cieczko mocno nasycona mulem siega tutaj
+mniej wiecej po kolana srendiego wzrostu czlowieka. Takze biada humanoidom
+nikczemnej postury, im woda siega prawdopodobnie w okolice pasa. Sciany w
+tej czesci kopalni pokryte sa gruba warstwa plesni. Teraz rozumiesz skad w
+calej kopalni ten smrod. Brodzac w metnej wodzie, masz niejasne uczucie, ze
+co chwila cos sporego i sliskiego przeplywa ci miedzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55290
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55290
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55288
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55288
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55290
+Name Zakrêt korytarza~
+Descr Stoisz w wyjatkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jakas cieczko mocno nasycona mulem siega tutaj
+mniej wiecej po kolana srendiego wzrostu czlowieka. Takze biada humanoidom
+nikczemnej postury, im woda siega prawdopodobnie w okolice pasa. Sciany w
+tej czesci kopalni pokryte sa gruba warstwa plesni. Teraz rozumiesz skad w
+calej kopalni ten smrod. Brodzac w metnej wodzie, masz niejasne uczucie, ze
+co chwila cos sporego i sliskiego przeplywa ci miedzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55291
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55291
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55289
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55289
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55291
+Name Zaple¶nia³a odnoga~
+Descr Stoisz w wyjatkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jakas cieczko mocno nasycona mulem siega tutaj
+mniej wiecej po kolana srendiego wzrostu czlowieka. Takze biada humanoidom
+nikczemnej postury, im woda siega prawdopodobnie w okolice pasa. Sciany w
+tej czesci kopalni pokryte sa gruba warstwa plesni. Teraz rozumiesz skad w
+calej kopalni ten smrod. Brodzac w metnej wodzie, masz niejasne uczucie, ze
+co chwila cos sporego i sliskiego przeplywa ci miedzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55290
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55290
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55292
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55292
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55292
+Name Zaple¶nia³a odnoga~
+Descr Stoisz w wyjatkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jakas cieczko mocno nasycona mulem siega tutaj
+mniej wiecej po kolana srendiego wzrostu czlowieka. Takze biada humanoidom
+nikczemnej postury, im woda siega prawdopodobnie w okolice pasa. Sciany w
+tej czesci kopalni pokryte sa gruba warstwa plesni. Teraz rozumiesz skad w
+calej kopalni ten smrod. Brodzac w metnej wodzie, masz niejasne uczucie, ze
+co chwila cos sporego i sliskiego przeplywa ci miedzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55291
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55291
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55293
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55293
+Name Zaple¶nia³a odnoga~
+Descr Stoisz w wyjatkowo nieprzyjaznym korytarzu, tej i tak niezbyt przyjemnej
+kopalni. Woda, albo raczej jakas cieczko mocno nasycona mulem siega tutaj
+mniej wiecej po kolana srendiego wzrostu czlowieka. Takze biada humanoidom
+nikczemnej postury, im woda siega prawdopodobnie w okolice pasa. Sciany w
+tej czesci kopalni pokryte sa gruba warstwa plesni. Teraz rozumiesz skad w
+calej kopalni ten smrod. Brodzac w metnej wodzie, masz niejasne uczucie, ze
+co chwila cos sporego i sliskiego przeplywa ci miedzy nogami. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55292
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55292
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55294
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55294
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55294
+Name Nad zalanym szybem~
+Descr Znajdujesz siê w w miejscu, w którym poziom wody wyra¼nie siê podnosi. O
+ile wcze¶niej siêga³a ci tylko do kolan, to teraz zakrywa ciê prawie po
+pier¶. Do ca³ej powierzchni twojego cia³a próbuj± przylgn±æ obrzydliwe
+pijawki, prze¶lizguj±ce siê miêdzy szparami odzienia. Wzdrygasz siê na sam±
+my¶l o innych obrzydliwych istotach, które mog± zamieszkiwaæ te nieprzyjazne
+wody. Zapach stêchlizny w tym miejscu zdecydowanie siêga zenitu. Nigdy
+wcze¶niej nie przysz³o ci do g³owy, ¿e co¶ mo¿e tak przera¿aj±co ¶mierdzieæ.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55293
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55293
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55295
+ExitExtEnd
+Exit 5
+~
+~
+0 0 55295
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55295
+Name Zalany szyb~
+Descr Znajdujesz siê ca³kowicie pod powierzchni± bardzo mêtnej wody. Nie jeste¶
+w stanie dostrzec niczego, co nie znajduje siê w zasiêgu twoich r±k.
+Czujesz, ¿e co chwila przep³ywaj± wokó³ ciebie ró¿ne stworzenia,
+najwyra¼niej zamieszkuj±ce ten zalany szyb. Pamiêtaj±c smród panuj±cy na
+powierzchni, mocniej zaciskasz usta, ¿eby tylko nie ³ykn±æ ani kropli tego
+paskudztwa, w którym aktualnie p³ywasz. 
+~
+FlagsExt 0
+Sector 37
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55296
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55296
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55294
+ExitExtEnd
+Exit 4
+~
+~
+0 0 55294
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55296
+Name Zalany szyb~
+Descr Znajdujesz sie calkowicie pod powierzchnia bardzo metnej wody. Nie
+jestes w stanie dostrzec niczego, co nie znajduje sie w zasiegu twoich rak.
+Czujesz, ze co chwila przeplywaja wokol ciebie rozne stworzenia,
+najwyrazniej zamieszkujace ten zalany szyb. Pamietajac smrod panujacy na
+powierzchni, mocniej zaciskasz usta, zeby tylko nie lyknac ani kropli tego
+paskudztwa, w ktorym aktualnie plywasz. 
+~
+FlagsExt 0
+Sector 37
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55297
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55297
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55295
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55295
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55297
+Name Zalany szyb~
+Descr Znajdujesz sie calkowicie pod powierzchnia bardzo metnej wody. Nie
+jestes w stanie dostrzec niczego, co nie znajduje sie w zasiegu twoich rak.
+Czujesz, ze co chwila przeplywaja wokol ciebie rozne stworzenia,
+najwyrazniej zamieszkujace ten zalany szyb. Pamietajac smrod panujacy na
+powierzchni, mocniej zaciskasz usta, zeby tylko nie lyknac ani kropli tego
+paskudztwa, w ktorym aktualnie plywasz. 
+~
+FlagsExt 0
+Sector 37
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55296
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55296
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55298
+ExitExtEnd
+Exit 5
+~
+~
+0 0 55298
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55298
+Name Zalany szyb~
+Descr Znajdujesz sie calkowicie pod powierzchnia bardzo metnej wody. Nie
+jestes w stanie dostrzec niczego, co nie znajduje sie w zasiegu twoich rak.
+Czujesz, ze co chwila przeplywaja wokol ciebie rozne stworzenia,
+najwyrazniej zamieszkujace ten zalany szyb. Pamietajac smrod panujacy na
+powierzchni, mocniej zaciskasz usta, zeby tylko nie lyknac ani kropli tego
+paskudztwa, w ktorym aktualnie plywasz. 
+~
+FlagsExt 0
+Sector 37
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55299
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55299
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55297
+ExitExtEnd
+Exit 4
+~
+~
+0 0 55297
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55299
+Name Zaple¶nia³a jaskinia~
+Descr Jaskinia w ktorej siê w³a¶nie znajdujesz to absolutnie niesamowite
+miejsce. Piewsz± rzecz±, która od razu przykuwa twoj± uwagê, to fakt ¿e
+pó³nocna ¶ciana tej groty to... WODA! Nieprawdopodobne, ale woda
+wype³niaj±ca fragment szybu kopalni w jaki¶ niewyja¶niony magiczny sposób
+nie wlewa siê do tego pomieszczenia i utrzymuje formê nieskazitelnie
+g³adkiej ¶ciany. Patrz±c na ten istny cud, zastanawiasz siê có¿ za wielka
+moc by³a w stanie do tego stopnia ujarzmiæ ¿ywio³y. Poza wodn± ¶cian±, w
+jaskini, co nie jest w tej okolicy niczym nowym, dostrzegasz ogromne pok³ady
+ple¶ni zalegaj±ce w ka¿dym mo¿liwym zak±tku. Na po³udniowej ¶cianie
+dostrzegasz natomiast podejrzanie wygl±daj±c± szelinê. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55298
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55298
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Szczelina~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55300
+ExitExtEnd
+Exit 2
+~
+VName Szczelina~
+~
+0 0 55300
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55300
+Name Przestronna komnata~
+Descr ~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55299
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55299
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 3369 0 55251
+O 100 3369 0 55251
+M 100 55251 1 55251 1
+O 100 3320 0 55285
+S
+
+
+
+#MOBPROGSNEW
+#55251
+~
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

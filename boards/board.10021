@@ -1,0 +1,2920 @@
+Messages
+M954746440
+Agron~
+Kilka spraw o koszeniu traw! Mon Apr  3 09:20:40 2000
+~
+Moment musze spojrzec na karteczke...
+1`:jesli jest room private (i ma byc dalej taki) to trza zmienic zeby nie pisalo '..jest zajeta' tylko '..jest prywatna' czy jakos tak
+2`:pomysl: coby 'identufy' nie wywalalo ile przedmioty dokladnie daja np: +2dam, tylko pisalo : troche dam ....itd (pomysl moze nie jest najmadrzejszy ale mozna przemyslec)
+3`:dalej nie rozumiem jak jest z waga. Czy jesli wpisze tam 20 to znaczy ze przedmiot wazy 1 czy 2 ?
+4`:chyba losowanie procentowe (np: rzeczy w roomie) nie dziala.... po copy sie ustawia na 100%, czy to jest aby na pewno zapisywane ???
+5`:jak zrobic zeby moby chodzily za soba (pod OLC), ja bym chcial coby pan z pieskiem chodzil (przyklad), tak na smyczy, piesek by siusial, uciekal , pan by go szukal.... no tylko zeby pies za nim czasem chodzil...
+jest cos takiego jak 'group' pod OLC ale to chyba nie dziala....
+6`:jak pisze 'otype piece' to nie wywala lisci... tylko broszki..
+a wogole to otype ze zlym argumentem nie wywala calej listy mozliwosci..
+7`:jesli sa drzwi itd...cos z tym trzeba zrobic, naprzyklad wpisac tekst do ktoregos z vX, taki jaki by wywalalo przy probie sforsowania zamknietych drzwi...
+to takie wypociny po weekendowym przegladaniu muda....
+uwagi do Arras i Ogrodu sa na tablicach w krainach
+Agron
+hmmm jeszcze jedno
+8`: $r to jest w progach losowy PC, mozna by zrobic zeby to byla losowa osoba w roomie (PC lub NPC)... albo zrobic oddzielne na losowanie NPC, albo wogole trzy rozne (pc, npc, pc i npc)
+~
+M955609883
+Razor~
+{B[nowe idzie                      ]{x {WThu Apr 13 09:11:23 2000
+{x~
+Nowe rzeczy:
+ifczeki:
+if statstr > 1
+if statint > 3
+if statwis > 1
+if statdex >1
+if statcon > 3
+jak widac nazwy sie same tlumacza hehe
+komendy mobowe:
+mob reward:
+mob reward $n gold 5 (czyli zwieksz ilosc golda $n o 5)
+mob reward $n silver 5 (to samo tyle ze silver)
+mob reward $n exp 1000 (to samo tyle ze exp)
+mob reward $n kick 10 (podnies skilla kick $n o 10)
+mob reward $n fireball 1 (naucz $n spella fireball)
+ciekawostka: mozna robic rzeczy wrecz przeciwne czyli
+             zabierac golda/slivera/expa, zerowac skille, usuwac spelle
+pewnie sie przyda...hmmm
+~
+M955710201
+Razor~
+{B[nowe triggery                   ]{x {WFri Apr 14 13:03:21 2000
+{x~
+TYLKO DLA OBIETKWO
+Dzialanie takie samo w sumie jak dla trigerow mob
+Trigger :
+   -fight (phrase-liczbowo procentowa szansa na uruchomienie w kazdej rundzie ataku
+     -hpcnt (phrase-procentowo min hp wlasciciela zeby trigger ruszyk
+             sprawdzany w kazdej rundzie ataku)
+$n dla obu to wlascisiel
+$t dla obu przeciwnik
+jeszcze gdzies byl obiekt 
+ale zapomnaelm gdzie
+~
+M955780908
+Tullaris~
+{B[chain                           ]{x {WSat Apr 15 08:41:48 2000
+{x~
+Pojawila sie nowa komenda: chain
+chain            - wypisanie ludzi gotowych do chainowania
+chain quit     - rezygnacja z chainowania
+chain <left/right> <kto> - podanie reki komus
+Zeby sie zlaczyc rekami, obie osoby musza sobie podac rece
+np: zeby ktos1 i ktos2 sie zlaczyli to pisza:
+ktos1: chain left ktos2
+ktos2: chain right ktos1
+Jesli gracze utworza pelne kolko, bedzie komunikat, ze sie zlaczyli
+Wszelka proba wyjscia z pokoju jest rownoznaczna z wyjsciem z kola
+To chyba tyle.. potestujcie i jak znajdziecie jakies bugi to dajcie znac
+ 
+Tullaris
+aha.. jakbyscie sie nie mogli polapac w formacie wypisania
+jest tak
+[ktos->prawy] [ktos] [ktos->lewy]
+jesli sie obaj trzymaja, to jest na niebiesko
+jesli ktosiem jest osoba sprawdzajaca, to jest bodajze na czerwono
+ 
+nie robilem rzucania czarow w chainach, bo i tak bedzie nowa funkcja
+~
+M955952819
+Agron~
+{B[levele+hp                       ]{x {WMon Apr 17 08:26:59 2000
+{x~
+Zrobilem maly tescik ile hp moge wyciagnac na 31 levelu.
+ 
+Test przewprowadzonoe na osobniku rasy krasnolud plci meskiej,
+przy kondycji maksymalnej czyli 25 (chyba tylko con wplywa na hp), no i klasa warrior (znaczy wojownik):
+[level] [hp]
+3 72
+4 91
+5 109
+7 141
+9 174
+11 212
+13 244
+15 278
+17 314
+19 350
+21 385
+23 419
+25 456
+27 489
+29 524
+31 555
+poniewwaz 32 jest juz immo wiec nie bralem pod uwage....
+z kilku przeprowadzonych testow wyszlo ze przy takich warunkach na 31 levely hp okresla sie pomiedzy 560-580
+dla kondycji 9 czyli najminiejszej jaka moze byc wartosci wychodza pomiedzy 350 390
+Agron
+~
+M955961445
+Razor~
+{B[prewait                         ]{x {WMon Apr 17 10:50:45 2000
+{x~
+Nowa komenda:
+prewait -  do ustawiania waita !przed! zakleciem
+umozliwia tez ustawianie kidy jaki komunikat sie pojawia
+uzywanie:
+prewait spell liczba - ustawia spellowi liczbe waitow
+prewait spell liczba 'txt' ustawia !wczesniej zdefiniowanemu spellowi jaki komunikat ma sie kiedy pojawic
+prewait spell del -  kasuje 
+prewait save
+to wsio
+~
+M955980837
+Razor~
+{B[prewait                         ]{x {WMon Apr 17 16:13:57 2000
+{x~
+Jeszcze jedna sprawa, z komentarzami
+Jak sie definiuje ogolnie prewaita dla jakiegos zaklecia podaje sie liczbe
+np:
+nie mielismy w liscie bless wiec piszemy
+pre bless 20
+czyli przed spellem bedziemy mieli laga 20 costam
+i teraz jakie komentarze
+np gdzie tak na poczatku zeby cos powiedzial w stylu:
+pre bless 18 $n zaklada okulary i glosno chrzaka.
+gdzies w polowie jeszcze cos
+pre bless 10  $n wstaje i spluwa za lewe ramie.
+no i na koniec
+pre bless 2 $n rzuca jakies zaklecie.
+oczywiscie opisy nie powinny byc tak glupie :)
+~
+M958731803
+Maro~
+{B[to: Boyo                        ]{x {WFri May 19 12:23:23 2000
+{x~
+No czebabylo zmienic na jakies tam i mi powiedziec :) Mail do mnie to marekt@radiop4.pl
+Pewnie ilosc grace loginow spadla do zera
+Jakos na poczatku przyszlego tygodnia moze cos z tym zrobie, na razie to nie bardzo.
+ 
+            Maro
+~
+M959246033
+Maro~
+{B[to: Boyo                        ]{x {WThu May 25 11:13:53 2000
+{x~
+No, hmm, nic, cos postaram sie na jutro, bo to mojego kumpla konto, wiec on musi isc do szkoly i je odblokowac, a nie wiem jak ma czas (raczej malo) i jak mu sie chce (raczej srednio), pogadam dzisiaj z nim
+No, a na studni to nawet zalozyli bana na maske maro, hehe, z maro@killer.radom.net i z maro@ikar.mps.com.pl nie wejde
+ale jestem w morde wazny, nie, az maske siekneli, rofl
+no i sam rozumiesz jak wchodze z innego konta to sie nie ujawniam specjalnie
+ 
+               Maro
+ 
+~
+M959246270
+Maro~
+{B[to: boyo                        ]{x {WThu May 25 11:17:50 2000
+{x~
+aa , no i prywatne noty pisze sie tylko note to: Maro
+z tym dwukropkiem i tak dalej, bez tego wszyscy czytaja
+sorr
+write to: Maro
+o tak
+ 
+            Maro
+~
+M959333006
+Maro~
+{B[to: Boyo                        ]{x {WFri May 26 11:23:26 2000
+{x~
+Hehe, sprawdzilem co sie stalo, znaczy kumple zprawdzil. Admin powiedzial mu, ze na jego konto logowalo sie 8 osob.
+Poniewaz on sie nie zna za bardzo na inecie, wiec nie zapytal lo co konkretnie chodzi. Pewnie 8 osob bylo zalogowanych w jednym momencie
+bo za wejscia z roznych serverow to sie nie przypieprzaja chhhyba, no nie wiem
+no i to tyle, konta on sam biedny nie ma do 15 lipca, ale mowi ze go to wali:)
+no to w sumie tyle
+jak chcesz to mozesz pogadac z Beethem zeby ci konto zalozyl czy cos. Nic nie mogem zrobic
+ 
+ 
+                
+               Maro
+~
+M959757209
+Razor~
+{B[news                            ]{x {WWed May 31 09:13:29 2000
+{x~
+OK nowosci:
+- system spelli dla mobow
+- nowe comendy progowe
+  mob clrmem ( kto  <all albo  procentowo>) czysci zapamietane zaklecia komus
+  wydaje mi sie ze dosc ciekawe np na rzeczy dla badz przeciw magom
+- mob sethhf kto <hate|hunt|fear> kogo czyli to ustawiania
+  w progach komus leku, nienawisci, badz hmm  pogoni?? na kogos
+- nowy spell hold person
+- lekko przerobiony system walki
+- naprawione menu czesciowo
+~
+M960798659
+Gollum~
+{B[NOWA MUD-OWNICZKA               ]{x {WMon Jun 12 10:30:59 2000
+{x~
+Chcialem wszystkich powiadomic, ze 11.06.2000 powiekszyla sie 
+populacja potencjalnych graczy w muda o sztuk jedna.
+ 
+Pozdrawaim
+Gollum szczesliwy tatus.
+~
+M960799317
+Razor~
+{B[GRATULACJE                      ]{x {WMon Jun 12 10:41:57 2000
+{x~
+No w nie wiem po prostu co powiedziec Gollum :)))
+Moze po prostu pogratuluje :), a dalsze gratulacje mam nadzieje 
+rzuce przy piwie kiedys :)
+Trzeba sie jakos tak niedaleko w czasie umowic przy piwie
+Proponuje piatek 17
+~
+M960800541
+Maro~
+{B[Gratzki                         ]{x {WMon Jun 12 11:02:21 2000
+{x~
+Huhu, a jak ma na imie albo jak ma miec :) No i do kogo podobna Gollum?
+No a piwo to spox, piatek moze byc.
+ 
+             Maro
+~
+M960807762
+Agron~
+{B[gratz                           ]{x {WMon Jun 12 13:02:42 2000
+{x~
+No i ja sie oczywiscie i jak najbardziej przalaczam do gratulacji!!!!!!
+Duzo zdrowka dla dziecka i mamusi, no i dla ciebie Gollum tez!!!!!!
+A jednak dziewczynka...., ta jak bedzie miala na imie?
+Agron takze szczesliwy
+~
+M960808841
+Maro~
+{B[Jest Help                       ]{x {WMon Jun 12 13:20:41 2000
+{x~
+Hmm, jak w tytule, ma 42 strony A4, pisany Times New Romanem 14t'ka, pojedynczy odstep, ma cos kolo 220 kilo (plik worda). Jest tez plik tekstowy (hmm, ale sporo brzydszy), no ale jest i mozna korzystac.
+Wyslalem toto Agronowi, Razorowi, Vereenie (na mkalman czy mkalma), Vovinowi (dcudek@yahoo.com), Connorowi na killera, hmm, no i tyle.
+Jesli ktos chce zeby mu tez wyslac niech mi da adres. Hmm, Agron, daj mi adresy naszych builderow.
+ 
+Ok, teraz do rzeczy. Na razie jest toto jako plik worda i jako tekstowy. Jesli ktos ma jakies macintoshe (rofl:)) niech napisze a mu to przekonwertuje na cokolwiek. Jak znajde czas to moze toto bedzie w postaci ksiazek na mudzie (albo i nie :))). Dawajci
+ 
+Powstal dzieki Vovinowi, razorowi i mnie
+Dawajcie go wszsystkim potrzebujacym, heh. No i szanujcie prawa autorskie, hueh.
+ 
+Podziekowana za napisanie do roznych takich nie ebdzie, bo od takiego badziewu sa goscie w Hollywood :)
+ 
+Hmm, czegos tu nie napisalem, hmm, aaa help pewnie bedzie poszerzany - piszcie uwagi co tam jeszcze powinno sie znalezc.
+ 
+No i ostatnia rzecz. Dajcie mi swoje adresy domowe to wam to wydrukuje i wysle, heh, o papier, znaczki i inne pierdy sie nie martwcie, w firmie leza tego tony. Tak wiec ADRESY! Heh.
+ 
+ 
+            Maro
+~
+M960885958
+Tullaris~
+{B[to: Maro                        ]{x {WTue Jun 13 10:45:58 2000
+{x~
+Oscar Walus
+ul. M.Konopnickiej 26/33
+43-300 Bielsko-Biala
+ 
+albo do akademika:
+Oscar Walus
+DS Ondraszek
+ul. Kujawska 2
+44-100 Gliwice
+~
+M960906888
+Gheiiran~
+{B[to: Razor                       ]{x {WTue Jun 13 16:34:48 2000
+{x~
+zmien noda tak:
+Kiwasz glowa.
+$n kiwa glowa.
+Przytakujesz $X.
+$n przytakuje $X.
+$n przytakuje ci.
+Nie ma tu tej osoby.
+Od kiwania zaczyna ci sie krecic w glowie.
+$n przytakuje sam sobie. Co za swir.
+---
+ale ja i tak nie wiem co ty od niego chcesz, nod znaczy skinac glowa, uklonic sie
+~
+M961072495
+Vovin~
+{B[to: Maro                        ]{x {WThu Jun 15 14:34:55 2000
+{x~
+Hmm, mowiles cos o przesylaniu helpa poczta. Oto moj adres:
+Dominik Cudek   ul.: Odlewnikow 44       44-100 Gliwice
+Nie wiem jak mam ci zwrocic kase za znaczek, mysle, ze jak bedzie
+spotkanie mudowcow z killera to wtedy.
+Vovin
+~
+M961759465
+Razor~
+{B[{RNEWS{x                        ]{x {WFri Jun 23 13:24:25 2000
+{x~
+OK nowosci sa takie:
+-bonusy do obrazen i trafienia dla broni, dzialaja tylko na dana bron i 
+ nie kumuluja sie z innymi pierdolami
+-prawie skonczone spellbooki i spellitemy
+- swoja droga to gratulacje dla ubierajacych sie imoi
+~
+M969876350
+Feerial~
+{B[comeback                        ]{x {WMon Sep 25 12:05:50 2000
+{x~
+heh, jak w subject
+hiba na stale wracam bo mam lacze w chacie
+gratulki dla tatusioow, pozdrowiska dla wyjadaczy (miodu)
+itp, itd...    
+~
+M969978594
+Maro~
+{B[ooo                             ]{x {WTue Sep 26 16:29:54 2000
+{x~
+No, hello evrybuuddy
+Generalnie duzo nie przebywamy na mudzie, ale to sie zmieni, Resor i agron niedlugo zacznom rok akademicki, bedzie wesolo, heh. Jesli chodzi o kod to spox.
+Co do kodu to niech lepiej on napisz bo niewasko namieszal. Miedzy innymi ilosc affectow jest teraz teoretycznie nieskonczona as I believe (na wszystkich diku jest 32), "graty sa losowane" - gral ktos w diablo? - no to na diablo tez to maja - ewidentny p
+plagiat
+No i inne takie rzeczy. Fajnie, ze Feerial wracasz :)) Juz sie niepokoilismy. Hyhy.
+ 
+ 
+  Wlasnie zauwazylem, ze pare moich zdan nie ma wielkiego sensu, ale spod golego telneta nie chce mi sie ich poprawiac. 
+ 
+       Maro
+P.S. Tajemniczy on, co ma napisac to oczywista Resor.
+~
+M969979694
+Maro~
+{B[Gollum                          ]{x {WTue Sep 26 16:48:14 2000
+{x~
+a jakis takis browar w czwartek, jakos takos o 18 czy cus?
+moze?
+ 
+ 
+           Maro
+~
+M970000736
+Razor~
+{B[czeee                           ]{x {WTue Sep 26 22:38:56 2000
+{x~
+Heja :) Witamy Feeriala :), jakby ktos nie wiedzial to jest ten koles
+ktory tu buildowal prawie od samego poczatku hehe :) Dobra kilka konkretow:
+- otoz, z nudow a takze przez chwilowa fascynacje hehe diablo2, napisalem
+dosc prosty generator losowych gratow losuje kilka typow gratow z losowymi
+statsami, dosc ciekawe efekty wychodza nie jest on co prawda w 100%
+wykonczony ale jest ok :) Grat losowy jest ladowany do corpsa zabitego
+potwora wedlug zaleznosci - szansa jest rowna levelowi/5 bodajze wiec
+potworek na 40 levelu bedzie ladowal graty z 20% szansa to jak grat jest
+dobry zalezy od levela potwora te graty nie wymagaja zadnej interwencji ze
+strony buildera :) hmm co by tu jeszcze ...  No jak mi sie przypomni to
+dopisze - druga rzecz: dzieki Tullarisowi kleryk ma teraz sporo wiecej
+spelli - trzecia w sumie nieistotna, nowy (drugi juz :)) system wektorow
+afectow teoretycznie nieskonczona ilosc ale jest kilka ale...  Po pierwsze
+na razie jest limit 4*32 wektorow, bede musial przekonwertowac krainki, poza
+tym kazde nastepne zwiekszenie o 32 wymaga przekonwertowania krainke...  No
+ale powinno by OK - oprocz tych pierdol usunalem napotkane wszelakiej masci
+bugi taaa..  Dobra to tyle nudzenia :) 
+ 
+ 
+ 
+dzizas, kurde na probe zaformatowalem tekst... sorrrki
+ nie chce mi sie tego odformatowywac :(
+ cya laterz
+~
+M970007324
+Feerial~
+{B[RAZORQ !                        ]{x {WWed Sep 27 00:28:44 2000
+{x~
+jak to milo cie 'spotkac' chocby w notkach ;)
+1) nie wiem czy ifchk hour dziala dobrze bo czas gry jest w systemie 12 h
+1a) przydalby sie trigger hour wywolywany o danej godzinie ;)
+2) czy cos wiadomo ile dawac mobikom statsow i fokoole ? hitdice damdice hitroll
+3) sprobujcie rzucic heala samemu na siebie LOL ;))))))))
+4) podeslijcie cos do tlumaczenia na rybik@poczta.onet.pl
+5) znoof pracuje jako DJ   (rock)
+6) Wczoraj zgubilem wszystkie dokumenty i organizer :(
+7) bojcie sie..  nadciagam :)
+ 
+Feerial the Dzika Frytka, Bardzo Aktywny Prosient, Pink Resor od Resoraka
+~
+M970049809
+Maro~
+{B[bitvectory                      ]{x {WWed Sep 27 12:16:49 2000
+{x~
+dla tych co nie wiedza o co chodzi tyle bitvektorow to zajebista rzecz. Na wszystkich mudach swiata przy intensywnej rozbudowie nastepuja brak bitvectorow w koncu.
+No i jest taki problem - no bysmy cos dodali, jakis spelik, przydalby sie bitvector, ale go nie ma, ujujuj, co tu zrobic
+U nas jest tak, o potrzebny bitvector - spox - wymyslam nazwe, dodaje, opisuje w kodzie i jest - super, nie? hreh
+ 
+         Maro
+ 
+{R Nooo jest zajeeebiscie....
+~
+M970055324
+Feerial~
+{B[{R UWAGA UWAGA{X                ]{x {WWed Sep 27 13:48:44 2000
+{x~
+Nie zdziwcie sie tym, co bedzie sie dzialo ze starymi msgami
+Robie czystke i wazne rzeczy przepisuje dalej.
+Feerial Dzika Frytka
+Przypominam, ze komenda REVERSE odwraca kolejnosc msg w tablicy
+~
+M970055516
+Maro~
+{B[Uwaga                           ]{x {WWed Sep 27 13:51:56 2000
+{x~
+Feerial Czysciciel nadciaga
+Drzyjcie
+ 
+            Maro
+P.S. Nic go nie zatrzyma :)
+{R FEERIAL MA NOWE FLAMASTRY  AAAAAAAAAAAAAAA !!!!{X
+~
+M970055436
+Feerial~
+{B[STAROCIE I NIE TYLKO            ]{x {WWed Sep 27 13:50:36 2000
+{x~
+Czyli co kto proponowal:
+Agron - nowe krainki nieduze, najlepiej 10 - 30 lokacji
+nieliniowe, z kilkoma wyjsciami, laczone tez progami
+beda robione krainy przejsciowe, jest juz Trakt
+Vovin - na trakcie rzucic mobiki - owszem beda
+Furgas - moby typu flying powinny odlatywac a nie odchodzic
+Feerial - przy buildowaniu nie wywalac w opisie lokacji wszystkiego,
+czesc informacji ma byc pod 'look north', keywordami, itp
+zeby gracze wiecej sie rozgladali.
+Gollum - reklamuje swoja tablice w 798
+Razor - zglasza poprawne dzialanie delaya w progu i informuje ze jak jeden
+prog leci to inny sie nie uruchomi.
+Feerial zastanawial sie czy parametry graczy powinny byc opisowe czy liczbowe
+Maro zwraca uwage ze aby napisac do kogos to w subject ma byc 'to: imie'
+Tullaris przedstawial sie wszystkim ;)
+Razor mowil ze PAGELENGHT itp jest pod SCROLL
+{R Trzeba napisac helpa do RENT{X
+Furgas reklamuje krainke -> goto 4000
+{R Wypadaloby usystematyzowac 'szyldy' krainek pod areas... {X
+Gollum proponuje aby czar identify wywalal shorta a nie name
+Divil przedstawial sie wszystkim i zglosil chec wspooldzialania
+Maro ma helpa do roomow, a Gollum do obiektoow, kto nastepny ?
+Vovin pisze helpa do mobikow, reszta zdajesie jest juz w ksiegach
+Drazin chcial cos wiecej wiedziec o naszym mudzie ale nie zostawil adresu zwrotnego ;)
+Razor pisze ze mudzik nie bedzie zlepkiem wielosystemowym ale tez nie stricte AD&D
+IMHO to wszystko zalezy od krainkowcoow.
+Agron chcialby ograniczyc chainowanie, ale dyspute o chainach trzaby przeniesc na osobna tablice
+Gollum pragnalby zroznicowac prewait dla speli potionow i scrolli.
+~
+M970056194
+Feerial~
+{B[MAILE.NEW                       ]{x {WWed Sep 27 14:03:14 2000
+{x~
+DOPISYWAC SIE CO TCHU !
+piszcie tesz swoje adresy pocztowe a ja bede dopisywal tutaj (abo kto inny)
+Feerial - rybik@poczta.onet.pl
+^^^^^^^^ Lukasz Rylik Kochanowskiego 29a/25 44-100 Gliwice
+Razor - razor@killer.radom.net
+Arioch - bogatk@it.pw.edu.pl
+Tullaris - oscar@zeus.polsl.gliwice.pl
+Maro - marek@tele2.pl
+Divil - lcf@friko.onet.pl
+Vovin - dcudek@yahoo.com
+Gurthg - marcin.pietrzak@pov.com.pl
+Gollum - Gollum@wsip.com.pl
+^^^^^^^^ Robert - tel 0607 167 531
+Agron - 
+tzdziech@elka.pw.edu.pl
+tel 022 - 758-36-12 (Tkurdak kijowa klawiatura -> prosic tomka
+Furgas   - tomek@sawka.prv.pl
+Azradun   -  azradun_14@yahoo.com
+~
+M970058579
+Maro~
+{B[ten help                        ]{x {WWed Sep 27 14:42:59 2000
+{x~
+tak apropos helpa to on jest i lezy sobie na dysku, wiec jak ktos che to moge mailnac, albo wydrukowac, oprawic i wyslac - taki jestem fajny.
+ 
+          hreh
+     Maro
+P.S. Oczywista help jest pelen - do roomow, obiektow i mobow i triggerow, aczkolwiek triggerow nie da sie sensownie opisac, czeba pocwiczyc.
+ 
+     {R MARO IS THE BEST!!!{x
+~
+M970060341
+Feerial~
+{B[Starocie i nie tylko CD         ]{x {WWed Sep 27 15:12:21 2000
+{x~
+W miedzyczasie Tullaris testuje chainsy, Razor chcialby zrobic
+prewait dla vnumoow, Tullaris wymyslil nowe score i gdzies tam wkleil.
+Powoli Razor konczy grzebac w OLC i czeka na ostatnie propozycje.
+Vovin rzucil pare sugestii o ksziegach, ale jak widac juz sa fajowe ;)
+Gollum obiecal ze bedzie sie czesciej pojawial, pewnie w odpowiedzi na
+Razorowe wezwanie, a moze potrzebny nowy werbunek ?
+Vovin chce aby kazdy umial wladac baseballbat'em nawet bez skilla
+{Y*{X to jest dosc istotne, jak rozwiazac sprawe skillow do broni.
+Jestem za tym zeby kazdy mogl wladac ale ze skutkiem zaleznym od skilla
+-wlacznie z mozliwoscia pokaleczenia sie samemu ...
+Gheiiran przetlumaczyl czesc sociali i chce jeszcze !!
+Boyo szuka Maro ;)
+Tullaris chcialby zeby mud am wstawal po padzie -> {YRazorq{X to chyba do ciebie
+{RUWAGA{X ilosc atakow moba zalezy tylko od flagi offens do wyboru 1/2, 1,2,3,4
+Ksiegi sa juz sprawne -> obiekt 50 , read ksiega nrstrony
+Pomysly na socjale zglaszac pietro wyzej !
+Nie potrzebny jest limit msgow na tablo wiekszy niz 255  {R Ha Ha{X (Feerial)
+Agron zaprosil kolege fachowca z Arctica, ale kolo nie kuma po polsku
+zwie sie Mixpittlelix (troche zamotane) i trza mu sie klaniac ;)
+Help do progow jest w ksiazce 51, mozebytak inne helpy przerobic na ksiegi ?
+Po interwencjach Golluma rent nie dotyczy IMMO i dobrze ! Wersal, psiakrew !
+Gollum zostal tatusiem, hip hip hurra !
+Razor majsterkuje przy krzesle Furgasa i chiba naprawil a Maro pochwalil socjale.
+{RUWAGA{X nowa tablica osobistych pogaduch oraz spotkan 2d
+Furgas , Vernit i Gheiiran chcieli dostac kodzik i pliczki na wakacje i chyba dostali
+Furgas zaprosil Arveena ktory sobie pobuilduje i na zdrowie ! ;)
+~
+M970070093
+Feerial~
+{B[I streszczenie kolejnej porcji notek ;)]{x {WWed Sep 27 17:54:53 2000
+{x~
+Azradun ma fajne ciuszki i spodobal sie Razorowi, ale wykreca sie dobrym gustem
+juz my tam wiemy o co chodzi ;) . Z kolei Gallian chcialby nazywac moby tak
+jak graczy ale kod sie wscieka ze sie nie da ....
+Razor przytargal 80 kilowy generator a za 15 minut Feerial znalazl buga :)
+prewaity korzystaja z progow, wszystkie komendy progowe dostepne
+jest trigger input dla obj (tylko dla lezacych w romie albo ubranych)
+jest trigger time dla mobow (mob robi cos o konkretnej godzinie)
+opis ksiag -> obj 50, read ksiega, read ksiega 1, itp
+Razor prosi o komentarze do slownych opisow stopnia wyuczenia skilli
+~
+M970189181
+Feerial~
+{B[Bajer                           ]{x {WFri Sep 29 02:59:41 2000
+{x~
+polecam wszystkim facetom !
+goto 6121
+buy pastylka
+eat pastylka
+ 
+a potem sproobujcie polazic po Arras ;)
+~
+M970419681
+Tullaris~
+{B[hi                              ]{x {WSun Oct  1 19:01:21 2000
+{x~
+No heyka
+Wreszcie jestem podpiety do sieci :) jeszcze tylko musze maly problemik rozwiazac i moge sie dalej bawic
+No to chyba na razie tyle
+ 
+Tullaris
+ 
+{R Razor -> daj znac kiedy Cie tu mozna spotkac, bo chce pogadac
+{G Razor: oj ciezko powiedziec, na uczelni na razie mam laby zamkniete... :(
+{B to moze ktos kto sie orientuje w ostatnich zmianach Razora w kodzie ma czas pogadac?
+~
+M970564497
+Agron~
+{B[no witam                        ]{x {WTue Oct  3 11:14:57 2000
+{x~
+No wiec jesli chodzi o Razora i mnie to lab z ktorego korzystamy jest
+nieczynny do 6 pazdiernika, wiec dopiero w przyszlym tygodniu wswobodnie bedziemy dzialac.
+Tak wogole to witam po wakacjach, milej pracuy itxdd...
+wysylam maile do ludzi ktorzy tu kiedykolwiek byli a mam do nich maile, coby ich zaporosic...
+Uwagi do muda w nastepnymlisciku
+Agron
+~
+M970565206
+Agron~
+{B[pomysly&bugi&rozne              ]{x {WTue Oct  3 11:26:46 2000
+{x~
+1 dodac do helpa: ze istnieje cos takiego jak 'addaffect', cyli do przdmiotow dodawania roznych bajerow
+2 w helpie sa zle resety opisane druga pozycja to numer resetu w roomie a nie tak jak jest w helpie
+3 czy w helpie jest opisane robienie exits ?/??? chyba nie <- dodac
+4 cwiczenie skilli powinno byc mozliwe bez robienia levelu, chyba to kwestia czestosci jego uzywania...
+5 jeszcze raz resety:
+np: reset 1 mob vnum xx yy
+w helpie zle jest to opisane bo: xx - max ilosc mobow w swiecie, yy - max ilosc w roomie (poprawic)
+6 wywalic skill do handlowania wogole (albo zostawic zlodziejowi tylko, ale troche ograniczyc )
+9 skasowac wogole poofin i poofout (to taki pomysl jak juz bedzie mud dzialal) coby nie bylo nieporozumien 
+Agron de Zoo
+~
+M970567222
+Agron~
+{B[ludziska                        ]{x {WTue Oct  3 12:00:22 2000
+{x~
+No wiec nie owijajac w bawelne trzeba pisac krainki, do czego potrzeba ludzi wiec trzeba urzadzic pobor...
+Oto ludzie ktorzy tu bywali a nie mam 
+do nich adresow email:
+Azradun, Gallian,Morgoth,Cormac,Gheiiran,Arveen
+Drazin, Drekhnir, Yaa, Crusher , Xyrph
+maile ktore nie dialaja :
+do :divila, wikusa, 
+hmm jesli znacie ich i moglibyscie pomoc to dzieki
+no i zaprzaszajcie znajomych
+Agron poszukiwacz
+ 
+Tullaris dopisal -> jesli chodzi o Drazina, to z tego co sie orientuje nic nie bedzie robic :(
+~
+M970585232
+Maro~
+{B[re: Agron                       ]{x {WTue Oct  3 17:00:32 2000
+{x~
+spoko, zrob
+ 
+          Maro
+heh
+~
+M970748988
+Agron~
+{B[re maro                         ]{x {WThu Oct  5 14:29:48 2000
+{x~
+co ma mam zrobic?
+jesli poprawic helpa to spoko, tylko przeslij mi jego ostatnia wersje..
+Agron
+~
+M970749842
+Agron~
+{B[cos nowego                      ]{x {WThu Oct  5 14:44:02 2000
+{x~
+pirwsze primo: trzeba ostatecznie ustalic progi hp-ow/level mobow, obrazanie przez nie zadawane(duze male srednie) no i obrazenie obroni (jakie powinny byc), a to wszystko po to coby sie ostatecznie wziac do budowania, coby mozna krainki pokonczyc...
+to glownie skierowane do Razora bylo bo on ma tu decydujace zdanie, ja wysowam wniosek...
+druga sprawa to taka z uszami, coby po zabiciu gracza mozna mu bylo obciac ucho jako trofeum, to taki pomysl ktory mozna poddac mutacji, moga to byc zeby czy cokolwiek
+Oczekuje na komentarz
+Agron
+~
+M970758816
+Maro~
+{B[Uszy                            ]{x {WThu Oct  5 17:13:36 2000
+{x~
+Ja proponuje protezy, ewentualnie paznokcie, hmm albo no wiecie ... heh
+ 
+             Maro
+~
+M970825463
+Agron~
+{B[carrallak                       ]{x {WFri Oct  6 11:44:23 2000
+{x~
+Wiec chcialem powiedziec ze Carrallak jest skonczone, zapraszam do zwiedzania
+i krytykowania
+Agron
+~
+M970834669
+Furgas~
+{B[Comeback odlozony               ]{x {WFri Oct  6 14:17:49 2000
+{x~
+Powitanko po wakacjach poprawkach itp itd. W wakacje pisalem pare notek do bugsow ale gdzies znikly, wiec nie wiem czy je macie.
+Co do tytulu notki, to modernizuja nam siec w akademcu i jesli dobrze pojdzie to podlacza nam taka awaryjna siec okolo 15-20 pazdziernika i wtedy wejde cosik popsuc;)
+Mail do mnie:
+tomek@sawka.prv.pl
+mail do Azraduna
+azradun_14@yahoo.com
+Vernit takze to samo
+ 
+Furgas Kochajacy Gniew Wiatru
+~
+M970845323
+Feerial~
+{B[trzaby                          ]{x {WFri Oct  6 17:15:23 2000
+{x~
+Maro, lub kto moze ...
+zroobta porzadek na liscie areas :)
+ 
+Feerial Dzika Frytka
+~
+M970851447
+Maro~
+{B[Re: Trzaby                      ]{x {WFri Oct  6 18:57:27 2000
+{x~
+Zrobiony
+Wpiszcie sobie alist i zobaczcie jak pieknie. Wolne vnumy sa jak widac na zalaczonym obrazku: 2250 - 2999, 3601 - 3699, 3900 - 3999, 4201 - 4999 no i oczywiscie masa vnumow powyzej (do 65535).
+ 
+Hmm, moze Pierdolnad jakas aree od 2250 do 2999. Potrzebny mi tylko ogolny zarys gdzie pola, gdzie lasy, gdzie cokolwiek. Pieprznie sie taka na 750 roomow tf'em. Tf calkiem niezle buduje, wiecie? :) i mozna bedzie tam inne podpinac. Hmm, w weekend pomysl
+pomysle nad tym. Musze tylko, hehe, skonczyc bagna i zaczac w koncu arene prob. Ehh. 
+ 
+ 
+Taki pi razy drzwi prostakat 37 na 20 roomow, gdzieniegdzie jakies randomy i hehe. Tylko potem to pospinac jedno z drugim to bedzie sie mozna zajebac. No ale przemysle jak to spiac tf'em. 
+ 
+Co o tym myslicie w kazdym razie?
+ 
+        Maro
+{R Feerial: mysle, ze jak to pisales to nie byles calkiem trzezwy, zreszta 
+ja tez teraz nie jestem :) ale jezeli fajnie sie tam bedzie kilowalo
+to mozesz pierdolnac taka arenke :)))))))) {X
+~
+M971111584
+Feerial~
+{B[Razorq                          ]{x {WMon Oct  9 19:13:04 2000
+{x~
+Zroob flage dla bogosow, jak maja wylaczony wiznet
+bo niektoorzy jak builduja to maja wylaczony :)
+coby na who bylo widac...
+Feerial the Detalista
+~
+M971112713
+Maro~
+{B[Re: Furgas                      ]{x {WMon Oct  9 19:31:53 2000
+{x~
+No spox, czymaj sie cieplo. Mam nadzieje, ze modernizuja a nie psuja wam ta siec w akademiku, heh.
+ 
+        Maro
+~
+M971164508
+Werbat~
+{B[logowanie                       ]{x {WTue Oct 10 09:55:08 2000
+{x~
+hejka
+przy zgloszeniu logowania muda jest tak,
+ze "podaj swoje imie:" i bez spacji sie wpisuje
+tak na moja estetyke, to ze spacja bedzie lepiej.
+ 
+pozdrowka, wbt
+~
+M971180449
+Agron~
+{B[help                            ]{x {WTue Oct 10 14:20:49 2000
+{x~
+Jesli ktos ma jeszcze pomysly co mozna w helpie dopisac, lub co zmienic bo jest zle to niech wali do mnie bo wlasnie go poprawiam
+Agron
+~
+M971181600
+Kahn~
+{B[e-mail etc.                     ]{x {WTue Oct 10 14:40:00 2000
+{x~
+Wiajcie!
+ 
+W zwiazku z licznymi prosbami do mnie z zidentyfikowaniem siebie pisze
+moja namiary:
+e-mail: piotreq@komorka.org
+Miasto: Warszawa
+Tel: jak bedzie potrzebny podam ;>
+ 
+Kahn
+~
+M971227564
+Tullaris~
+{B[hmmm                            ]{x {WWed Oct 11 03:26:04 2000
+{x~
+w zwiazku z tym, ze jakis czas waletuje w akademiku nie mam dostatecznego dostepu do kompa :(
+ktos moglby przejrzec notke na kompie(2u) i odpowiedziec?
+z gory dzieki
+ 
+Tullaris
+~
+M971245119
+Gollum~
+{B[heja                            ]{x {WWed Oct 11 08:18:39 2000
+{x~
+Ze wzgledu na harakter wykonywanej prze ze mnie prcy z przykroscia
+informuje, ze na mudzie bedzie mnie mozna spotkac (jezeli znajde czas)
+pomiedzy 15 a 30 dniem kazdego miesiaca 
+ 
+Gollum zaworkowany 
+~
+M971249869
+Maro~
+{B[eya Gollum                      ]{x {WWed Oct 11 09:37:49 2000
+{x~
+No to spox, wlasnie wczoraj sobie gadalismy, ze szkoda, ze ciebie nie ma. Wtedy co zostawiles swoja komore nie dzwonilem do ciebie, bo nic nie zaplanowalismy ostatecznie (zadnego piwska, heh), wiec nie bylo po co ci glowy zawracac.
+ 
+No a poza tym to fajnie, ze sie bedziesz pojawial, Czymaj sie, zdaje sie, ze niedlugo wkroczymy w druga czesc miecha to dluzej pogadamy, hyh.
+ 
+    Maro, the cieszacy sie z powrotu kazdego killerowca :)
+~
+M971272481
+Razor~
+{B[news                            ]{x {WWed Oct 11 15:54:41 2000
+{x~
+Nowa komenda progowa:
+mob exit - pozwala z poziomu progu usuwac, tworzyc dwu-i-jednokierunkowe
+           zmieniac flagi exitow etc
+skladnia:
+         mob exit <kierunek> komenda <wartosc>
+przykladowe:
+mob exit polnoc delete
+b exit polnoc link 10000
+mob exit polnoc room 10000
+mob exit polnoc key 1515
+mob exit polnoc name blahblah
+ 
+komendy : delete usuwa, link tworzy dwukierunkowe przejscie, room jednokierunkowe, name zmienia nazwe wyjscia, key pozwala zmienic vnum klucza
+ 
+druga sprawa: lazenie bez butow powoduje zwiekszony wysilek oraz oszczerbki na zdrowiu :)
+gratz Feerial i jego zajebisty pomysl hehe :)
+ 
+czecia sprawa: powoli zaczynaja dzialac condition na obiektach
+na razie jest zaimplementowane niszczenie sie eq podczas walki
+w planach niszczenie wraz z uplywem czasu oraz specjalnych czarow
+plus komenda repair ktorej nie ma :)
+ 
+no to chyba wsio
+~
+M971275937
+Razor~
+{B[problem                         ]{x {WWed Oct 11 16:52:17 2000
+{x~
+W zwiazku z rozlewajacymi sie kolorami zaleznie od terminali
+dodalem do jednej funkcji wysylanie sygnalu resetowania kolorow
+nie wiem czy to zalatwi sprawe, jakby ktos mial problemy z kolorami
+badz jakies dziwne rzeczy sie dzialy piszcie
+~
+M971353580
+Maro~
+{B[to: Feerial                     ]{x {WThu Oct 12 14:26:20 2000
+{x~
+Wysylam ci Icewind Dale'a. Idzie poczta, zwyklym listem, jest pancernie zabezpieczony, wiec powinno w stanie w miare nienaruszonym wszystko dojsc.
+Hmm, powinno byc wszystko okiej i dac sie grac, gdyby nie to resor juz nie takie gry uruchamial ...
+ 
+ 
+ 
+            Maro
+~
+M971420041
+Razor~
+{B[kilka spraw                     ]{x {WFri Oct 13 08:54:01 2000
+{x~
+Ok po pierwsze nie robic balaganu :)
+pol godziny usuwalem jakas glupote w krainkach free.are i twierdza.are
+nie bede mowil czuje to sa krainki :)
+ 
+po drugie to jest problem taki:
+jesli ktos chce sie bawic mob exit cos tam to musi pamietac
+ze jesli teraz zapisze swoja krainke to zostanie zapisane takze to jaki
+byl uklad exitow ...
+mala rada -> jesli bedziecie musieli mocno nagrzebac przy pomocy mob exit
+to zrobcie proga ustawiajacego do standardowej pozycji wyjscia w danym roomie
+w trigerze reset (room  trigger)
+ 
+pap
+~
+M971420439
+Razor~
+{B[news                            ]{x {WFri Oct 13 09:00:39 2000
+{x~
+Nowosci: 
+- komenda repair pozwala reperowac graty
+- nie mozna sprzedac gratow z condition roznym od 100
+- graty psuja sie podczas walki, co prawda podejrzewam ze, nie jest to do 
+  konca dobrze zrobione (chyba za szybko sie psuja:)), jednak niedlugo bedzie
+  juz przetestowany system rozpieprzania sie gratow
+- ma ktos propozycje jak graty powinny sie psuc wraz z uplywem czasu?
+ 
+to tyle
+{RRazor{x
+~
+M971425961
+Maro~
+{B[Kondycja 100                    ]{x {WFri Oct 13 10:32:41 2000
+{x~
+Moim zdaniem i Vovina chyba tez moznaby sprzedawac graty z dowolna kondycja. Najlepiej byloby tak jak na diablo - zniszczony przedmiot - malo wart, inwestujemy 10 zlociszy w naprawe i sprzedamy pewnie 40 zlociszy drozej.
+Tak jest najlepiej. Sprzedawcy moga kupowac sprzet dowolnej jakosci.
+ 
+ 
+           Maro
+~
+M971426123
+Maro~
+{B[Niszczenie sprzetu              ]{x {WFri Oct 13 10:35:23 2000
+{x~
+No wiec ten tego. Sprzet powinien moc byc niszczony (uwielbiam pojebane sformulowania) w walce - jakies normalne ataki, z fireballa etc, nie wiem, rozniaste takie - troche roboty chybaby bylo - ustawic jakie spelle jakie materialy moga niszczyc.
+Czy cos w ten desen.
+ 
+Jesli chodzi o takie normalne niszczenie sie sprzetu to mozna pogode wprowadzic. Do tych takich opisow co mamy mozna pododawac pare zmiennych. Mozna sobie wybrac:
+-wilgotnosc,
+-temperature powietrza,
+-padajace deszcz i snieg
+-wiejacy wiatr
+-etc.
+Kazde zjawisko atmosferyczne pojawialoby sie w roznym nasileniu w roznych krainach i powodowaloby okreslone zniszczenia (najlepiej losowo podczas trwania zjawiska) w stosunku do roznego rodzaju sprzetu.
+Oczywiscie kazde zjawisko pojawialoby sie w formie komunikatow na ekrania - jakby deszcz zaczynal powiedzmy padac a druzyna by spala moznaby postawic namiot czy sie schowac indoors i tam by nie niszczylo.
+Teraz - nowa flaga broni by byla (najepiej w 3 natezeniach) - bron wzmocniona slabo, mocno i najlepiej, o i moze magixcznie na maksa - nieczule na pogode.
+Moznaby wzmacniac u jakichs gosci - zlota raczka - impregnacja, czynienie stali nierdzewna - to by sie tylko pojawialo w opisie, ogolnie bron mialaby po protsu flage wzmocniona (w jkakims stopniu).
+Albo rozne materialy wzmacnialyby rozne mechaniory.
+ 
+Hmm, co ja tam jeszcze chcialem. Cos jeszcze ale zapomnialem. 
+Moim zdaniem jakby pogoda miala na cos wplyw (moze jeszcze na szybkosc leczenia ran, albo regeneracje move'a (wysoka temperatura to sie ludzie mecza).
+To ... byloby zajebiscie - nigdzie, na zadnym mudzie na swiecie tego nie widzialem chyba.
+ 
+To spore wyzwanie nawet dla Resora - to jak resor - sensowne i czy dasz rade zrobic? :))
+Hyhy
+ 
+                    Maro
+~
+M971448172
+Gallian~
+{B[Hej                             ]{x {WFri Oct 13 16:42:52 2000
+{x~
+Czesc. Podaje adres  do kontaktu:
+gallian@onet.pl
+Na razie, ostatnio jestem dosyc zajeta:)
+~
+M971449187
+Kahn~
+{B[to: razor                       ]{x {WFri Oct 13 16:59:47 2000
+{x~
+grrrr...... ;>
+ 
+Sorry, jak balagan zrobilem ;>
+ 
+Kahn
+~
+M971455456
+Feerial~
+{B[buuuuuuu                        ]{x {WFri Oct 13 18:44:16 2000
+{x~
+Razorq - progi sie pierdola, delay i mob oload... jeszcze
+wyjasnie szczegoly.
+ 
+Fee
+~
+M971694130
+Agron~
+{B[gallian                         ]{x {WMon Oct 16 13:02:10 2000
+{x~
+Gallian -> jest zajeta??
+czyzby kobieta???
+Agron
+~
+M971695242
+Agron~
+{B[news                            ]{x {WMon Oct 16 13:20:42 2000
+{x~
+Do losowych przedmiotow dodane sa amulety.
+Oglaszam konkurs na fajne amulety (bo mi sie idea skonczyla):
+-amulety sa losowe ale jest prawdopodobienstwo 1/1000 ze zostanie jakis szczegolny wylosowany np: amulet sily +4str
+no i wlasnie chodzi o to zebyscie wymyslali takie fajne amulety!
+mozeci tez wymyslec: zbroje, buty, helmy, rekawice, tarcze, bron, pierscionki
+bo sa losowe wszystkie
+acha -> dostepne sa zmiany w :
+str, con, wis, int, dex, move, hp, umiejetnosci skilli, zapamietani wiekszej ilosci spelli, affekty (poison, stone skin ....i reszta)hit, dam, i cos tam jeszce o czym nie pamietam...
+Czekam na propozycje
+Agron
+~
+M971708993
+Kahn~
+{B[Amulety                         ]{x {WMon Oct 16 17:09:53 2000
+{x~
+A wiec... :)
+ 
+W Helpie nie znalazlem nic dotyczacego komendy addaffect :(
+ 
+Czy dalo by sie wytlumaczyc mi co i jak? No i w wolnym czasie dodac to do
+helpa :)
+ 
+ 
+Kahn The Lamer Z Wyboru (building)
+~
+M971714462
+Kahn~
+{B[Prosba do pana kodera :)        ]{x {WMon Oct 16 18:41:02 2000
+{x~
+Od razu przejde do rzeczy, moglby pan koder stworzyc flage underwater? :)
+Przydala by mi sie :) choc mysle, ze innym tez troszeczke :)
+ 
+ 
+Kahn The Lamer Z Wyboru (building)
+~
+M971724981
+Kahn~
+{B[jeszcze jedna prosba :)         ]{x {WMon Oct 16 21:36:21 2000
+{x~
+Czesc znowu :)
+ 
+Chcialem sie zapytac jak usuwa sie mprogi :)
+Bo nie wiem :)
+A w help'ie nic o tym nie ma :))
+ 
+ 
+Kahn The Lamer Z Wyboru (building)
+~
+M971769799
+Maro~
+{B[progi                           ]{x {WTue Oct 17 10:03:19 2000
+{x~
+W helpie generalnie wiela nie ma o progach. No, ale jakos moze z agronem moze sklecimy cos wiecej, bo cos widze, ze samemu mu sie nie chce.
+Co do underwater to chyba spoko, ilosc sektorow jest chyba nieograniczona, wiec mozna jeden dodac.
+Hmm, napisz tylko co ten sektor ma powodowac. Jakies rasy tam nie przeplyna, czy cos i tak dalej - no wiesz.
+ 
+        Maro
+~
+M971771817
+Agron~
+{B[pytania kahna                   ]{x {WTue Oct 17 10:36:57 2000
+{x~
+underwoter - jesli chodzi ci o flage no to rzeczywiscie nie ma, ale jest flaga waterbreath juz zrobiona (i czarek)
+prgow usuwania - zasaadniczo jesli juz zrobiles proga to sie go nie da usunac, mozna jedynie jego kod skasowac, i napisac prog inny w tym miajscu :)
+addaffect i addapply - to jest prawie ta sama komenda, latwiej sie uzywa addaplly, zreszta napisalem juz o niej w helpie, a takze o exitach, moge nowego helpa wysylac, albo maro moze
+do helpa jeszcze cos o progach napisac trzeba (no i nowe komendy progowe dopisac)
+Agron
+~
+M971795888
+Kahn~
+{B[Underwater                      ]{x {WTue Oct 17 17:18:08 2000
+{x~
+Hmmm, rasy nie mogace tam przebywac, mysle, ze niektore zwierzeta (kroliki,
+pajaki etc.), pozatym mozna by cos zrobic ze oswietleniem bo magia mozna
+poswiecic a ogniem trudno jest... ;)
+Pozatym bez czarku underwater ani rusz, albo, po paru impulsach wraca Cie na
+powierzchnie...
+Mozna by bylo stworzyc nowa rase (ryby :)) i pare innych. Ale narazie tylko
+o underwater mowimy :)
+A i mozna poprosic o jakas pomoc on-line do addefecta? Bo niezabardzo chce mi sie czekac na kolejna wersje helpa
+ 
+ 
+Kahn The Lamer Z Wyboru (building)
+~
+M971797821
+Feerial~
+{B[problem z progami               ]{x {WTue Oct 17 17:50:21 2000
+{x~
+hmmm cos sie jebie :)
+mam obj 6198 czyli spakowany namiot 'pakunek'
+ma on proga(6198) na input 'rozbij'
+ktory to laduje obiekt 6199 czyli namiot
+i czysci sam siebie (mob purge $o)
+namiot jest fajny, da sie w nim spac i wogole
+tylko sie nie sklada :(  tzn analogiczny prog
+na skladanie spowrotem nie dziala , czemu ?
+obejrzyjcie obj 6198 prog 6198
+oraz obj 6199 prog 6199 <- ten nie dziala
+ 
+Feerial the Biwakowiec
+Oke doszedlem do tego :)
+trza robic mob oload vnum ROOM  zeby grat z flaga wear take
+sie poprawnie do rooma zaladowal z proga
+nie mniej jesdnak jebie sie delay z oprogow ...
+~
+M971805218
+Feerial~
+{B[advance                         ]{x {WTue Oct 17 19:53:38 2000
+{x~
+proponuje zeby od tego momentu nie dawac nowym wiecej jak 39
+zeby troche rozroznic, who is who.
+jezeli ktos zacznie krainke robic to co innego
+ew nadawac title 'beta tester' itp...
+bo sie kiedys nie polapiemy w tych builderach :)))
+~
+M971852707
+Gollum~
+{B[zostalem odciety                ]{x {WWed Oct 18 09:05:07 2000
+{x~
+Niestety zostaly mi odciete wszystkie porty i nie wiem kiedy bede mogl sie pojawic
+Wlasnie wykorzystuje chwile kiedy musialem cos sprawdzic i polaczylem sie przez modem.
+Niestety zostala mi tylko skrzynka pocztowa mam zamkniety port 6667, 4000 czyli na irc tez nie wejde.
+Telnet tez odciety zostalo mi tylko www i e-mail.
+Nie wiem jak dlugo to potrwa, zamkneli nam wszystko dla calej firmy.
+ 
+Gollum Odciety
+~
+M971864571
+Maro~
+{B[Gollum                          ]{x {WWed Oct 18 12:22:51 2000
+{x~
+*sigh* Walcz tam, walcz, niech ci podlacza porty. Hmm, wszystkie porty zblokowali czy jakies masz wolne?
+ 
+             Maro
+~
+M971879570
+Maro~
+{B[Strona Killera                  ]{x {WWed Oct 18 16:32:50 2000
+{x~
+Co chcemy zeby na niej bylo? Moze Gurthg bedzie chcial zrobic tylko ma miec materialy - na razie jeszcze nie odpowiedzial.
+ 
+Aaa, za tym ze ktos chce musi isc ktos kto to cos napisze oczywiscie. 
+No wiec damy mu help'a do OLC, taa, to na pewno, damy jakas reklame o mudzie, ktora wysmaruje jakos takos kiedys, no i minihelp do tf'a
+ktorego mi sie nie chce konczyc, ale chyba bede musial
+ 
+No i poza tym linki do arctica, durisa, czy gdzies tam jeszcze? Do Polskich mudow chcemy dawac?
+ 
+Czekam na jakies propozycje - ja wiem, ze wam sie nie chce nic proponowac, ale jakos sie przemozcie i wyduscie z siebie ze dwa slowa.
+ 
+ 
+            Maro
+~
+M971921820
+Feerial~
+{B[propozycje                      ]{x {WThu Oct 19 04:17:00 2000
+{x~
+co do WWW
+IMHO powinno tam byc jasno naswietlone:
+klimat muda, na czym sie wzorujemy ->arctic, Icewind Dale
+zasady, opisy skillow, speli, potem orientacujna mapa
+swiata, opis podstawowych gratow, zeby ludzie wiedzieli
+ogolnie co jest dobre... dalej zalozenia dla krainkowcow
+bo troszke ich przybywa i nie zawsze chce sie/ma kto
+tlumaczyc np zeby gratow nie krecic za bardzo :)
+nastepnie whoiswho, kto jakie krainki robi
+tam kazdy bu sie wypowiedzial co w tej kraince mniej wiecej
+jest, na poczatek ogolnie, potem mozna to literacko przedstawic
+legendy czy cos.... mozna walnac linka do generatora imion
+na stronie arkadii, pomoc dla newbie ....
+ 
+Feerial the Pmocny
+~
+M971922192
+Feerial~
+{B[nowe bzdury wymyslane w nocy    ]{x {WThu Oct 19 04:23:12 2000
+{x~
+co wy na to :
+skill gotowanie
+wymaga: nowego typu obj -> cook_container lub garnek :)
+^^^^ ten tp obj to normalny container tylko musi sie tam dac
+^^^^ wsadzic wode :) ewentualnie zrobic obj type some_water :)
+^^^^ taki container mialby pojemnosc na tyle obiektow, ile
+^^^^ bedzie wolnych pol w pkcie a)
+wymaga: nowej flagi dla obj -> cookable :)
+^^^^ obj z ta flaga mialby dodatkowe pola v0, v1, v2
+^^^^ w ktorych zapisane byloby co sie z nim stanie po upitraszeniu
+^^^^ a) vnumy innych z ktorymi powinien zostac przyrzadzony
+^^^^  b) vnum obj w ktory sie zmieni po przyrzadzeniu z w/w obj
+oke teraz zastosowanie ...
+ogolnie umozliwia to laczenie obiektow inne niz przez connect np.
+(w nawiasie podaje przykladowe vnumy) kupuje sobie
+wode (A), ziola (B), inne ziola (C), znajduje kosc kogostam (D)
+wsadzam do gara i gotuje -> wychodzi (lub nie :) z tego
+mikstura co zdejmuje poisona. A teraz od str technicznej
+obiekty A, B, C, D sa cookable, kosc (D) ma
+v0=A, v1=B, v2=C v3=E  czyli zapisane jest ze jak ta kosc
+ugotuje w wodzie z ziolami (A, B, C) to zrobi sie obiekt E
+ktory to jest uprzednio stworzonym oczywiscie przez nas potionem
+oczywiscie obiekty A, B i C w polach v0-v2 nie maja nic.
+inny przyklad
+biore obj typu food 'surowa ryba' ktory ma poisona, wrzucam do gara
+i po upitraszeniu zmienia sie w 'smaczna rybke' bez poisona :)
+ 
+mozliwosci jest duzo... a teraz narzekajcie :)
+ 
+Feerial the Kucharz
+ 
+{RHmmmm, hmmmm.... hm
+~
+M971923922
+Feerial~
+{B[pomysly z nosa wziete CD        ]{x {WThu Oct 19 04:52:02 2000
+{x~
+czasem sie zdarza, ze gracz, stracil graty, nie ma kasy
+jest ogolnie podkurwiony, chce sie kasowac, agresivy go jeszcze
+dobijaja a dzieki mojemu ostatniemu pomyslowi za lazenie bez butow
+dostaje obrazenia i nie ma sily nic z tym zrobic ...
+Moze przeciez na jakis czas zostac zebrakiem :)
+TRYB ZEBRAK :
+nie dziala PK, po jakims czasie znajduje sie 'zebracze lachy'
+coby nago nie chodzic, mijajace moby o rasach humanoidalnych
+rzucaja drobna kase na zarcie, nie mozna kilowac (chyba ze mob zacznie)
+traci sie wszystkie skille, myslalem jeszcze zeby agresivy nie atakowaly
+ale to chyba za duzo, acha i jeszcze ne potrzebny bylby rent.
+to jest po to zeby jakos zaczac po utracie stuffu i troche polazic
+po swiecie, trwaloby to np 240 tickow i bylo dozwolone raz na level
+kazdy nastepny raz za utrata exp....
+ 
+wogole zatanawialem sie nad czyms takim jak pol-profesje
+zebrak to cos w tym stylu, mozna by jeszcze dolozyc wedrowca
+WEDROWIEC
+nie atakuja go agresivy , sam nie moze atakowac, nie dziala PK
+traci mniej mv, wedrowcem bylby przez caly level i expowac moze tylko
+na questach, po zrobieniu leva bylby juz normalny :)
+jak zrezygnuje wczesniej traci lev i jusz ...
+ 
+Feerial the Skomplikowany
+~
+M971924703
+Feerial~
+{B[dalej o MV                      ]{x {WThu Oct 19 05:05:03 2000
+{x~
+czy ilosc kasowanych pkt mv zalezy od tego ile sie dzwiga ?
+i czemu nie ? :)
+moznaby zrobic udzwig maksymalny i udzwig zwykly...
+jak ktos przekroczy zwykly to dostaje jakiestam obrazenia
+za przeladowanie...
+Ja kiedys wnosilem kanape na 10 pierto i wiem jak to jest :)))
+ 
+Feerial the Sleepless
+ 
+Ooo w koncu jakis sensowny pomysl hehe :)
+~
+M971949998
+Agron~
+{B[random_items                    ]{x {WThu Oct 19 12:06:38 2000
+{x~
+Do random items dodalem nowy rodzaj rzeczy ktore mozna wylosowac:
+sa to kamienie szlachetne...
+jest ich 6 rodzajow zaleznych od wartosci: podstawowe wartosci zaleznie :10, 50, 100, 500, 1000, 5000
+sa koregowane losowo na dodatek
+Moze bedziemy mieli kolekcjonerow, a;bo bedzie mozna z tego robic questy jakies, nedzie ich okolo 50 rodzajow...
+w kazdym razie bedzie je mozna dobrze sprzedac...
+Agron
+~
+M972377569
+Kahn~
+{B[Ciagle pady                     ]{x {WTue Oct 24 10:52:49 2000
+{x~
+Witajcie!
+ 
+Chcialem sie dowiedziec dlaczego server ciagle pada... bo to sie juz nuzace zaczyna robic... pozatym dobrze ze czasami wstaje :)))))
+ 
+Kahn The Lamer Z Wyboru (building)
+~
+M972469079
+Vovin~
+{B[pomyslvovina                    ]{x {WWed Oct 25 12:17:59 2000
+{x~
+Hmm, ten pomysl krazyl po Killerze juz dosc dawno.
+A wiec zamierzam go przypomniec.
+Gracz oprocz zwyklych leveli moglby zdobywac je w 2 innych dziedzinach: wiara i gildia.
+Wykonujac zadania dla boga w ktorego wierzy zdobywalby pynkty wiary(swietosci... jak zwal tak zwal)
+i awansowal na lewele dajace mu nowe czary, lub skille i przywileje. 
+Tych leveli nie musi byc duzo, powiedzmy kilka. Od wiernego do mesjasza, czy jakos tak.
+Jesli chodzi o gildie to gracz zapisujac sie do niej staje sie czlonkiem o najmniejszym stopniu.
+Wraz z wykonywaniem zadan gildii pialby sie na wyzsze stanowiska. To wiazaloby sie z roznymi udogodnieniami, np.: tansze uczenie sie skilli/spelli, roczna pensja, tanszy i unikalny eq, itd...
+ 
+Mam nadzieje, ze nie chory pomysl Vovina  (napiszcie co o tym sadzicie)
+Feerial bedacy obecnie autorem najglupszych pomyslow:
+niegupie :) popieram...
+~
+M972508725
+Feerial~
+{B[TADA !                          ]{x {WWed Oct 25 23:18:45 2000
+{x~
+uwaga, uwaga biore sie za ekspermntalne tlumaczenie
+i przetwarzanie mobow i krainek z giery Icewind Dale :)
+wiem, ze Arras jeszcze nie skonczone ale:
+'Powoli sie wode gotuje' :))))
+Feerial Dale
+godzina 5.00 Wlasnie mam 1/4 Easthaven i fajnie sie to robi :)
+mysle ze do piatku skoncze Easthaven... i wezme sie za przelecz
+~
+M972514350
+Feerial~
+{B[nowa flaga dla area             ]{x {WThu Oct 26 00:52:30 2000
+{x~
+Co wy na to zeby zrobic kilka wersji pliku weather.c
+zeby rozne krainy mialy inne zestawy komunikatow i wtedy wybieraloby sie
+zestaw w aedicie np  area- icy  (icewind sie klania :) stormy, dry, wet
+mozna zrobic krainki gdzie ciagle leje itp... wiem ze to bzdura
+ale w koncu chcemy zrobic nalepszego muda w Polsce, czyz nie ?
+ 
+Feerial Meteorolog
+~
+M972516377
+Feerial~
+{B[huh ?                           ]{x {WThu Oct 26 01:26:17 2000
+{x~
+jak dziala sekcja health recovery w room ?
+podaje sie w hp/tick czy w procentach ? wzgledem normalnego
+ 
+Feerial Konowal
+~
+M972552799
+Agron~
+{B[recover                         ]{x {WThu Oct 26 11:33:19 2000
+{x~
+procent wzgledem normalnego
+Agron
+~
+M972554695
+Maro~
+{B[Re: Pogoda                      ]{x {WThu Oct 26 12:04:55 2000
+{x~
+Ja wymyslilem, zeby kazda kraina miala wlasna pogode etc. i zeby pogoda wplywala na niszczenie sprzetu, regeneracje hp i mv, szybsze meczenie i inne bzdety.
+Kazdej kraince mozna byc ustawic pogode. Tylko Resorowi to sie chyba nie widzi :) Niedopracowane mowi jest, hyh, czy cos.
+ 
+       Maro
+~
+M972554841
+Maro~
+{B[Healh recovery                  ]{x {WThu Oct 26 12:07:21 2000
+{x~
+W roomie? Mamy cos takiego? Jest chyba na obiektach typu furniture tylko. Hmm.
+ 
+      Maro
+~
+M972554901
+Maro~
+{B[Icewind Dale\                   ]{x {WThu Oct 26 12:08:21 2000
+{x~
+Tez mi sie podoba. Jak ktos chce dolaczyc do Feeriala i zobowiaze sie napisac krainki do Icewinda to mu moge Icewinda wyslac, heh. W ogole to na poczatku jest malo do roboty, gdzies tak wlasnie do Kuldahar i Kuldahar Pass. 
+Potem jest wiecej lokacji i ogolnie bardziej przyjebanie. Ja moge robic chapter 3 jak chcesz Feerial. Moze chapterami wlasnie porobimy. 
+ 
+       Maro
+~
+M972555040
+Maro~
+{B[aa...                           ]{x {WThu Oct 26 12:10:40 2000
+{x~
+Bagna oczywiscie nieskonczone, heh.
+ 
+          Maro
+~
+M972555435
+Maro~
+{B[Kuldahar Pass                   ]{x {WThu Oct 26 12:17:15 2000
+{x~
+W ogole to moze zrobic takiego duzego questa na skonczene Icewinda. Mozna spoko
+spokojnie tak zrobic, ze jak sie przejdzie Kuldahar pass a zacznie questa to ni
+nie mozna tam wrocic - heh, na flagach
+nie mozna znaczy do Easthaven
+ 
+      Maro
+~
+M972563505
+Feerial~
+{B[icewiend i inne                 ]{x {WThu Oct 26 14:31:45 2000
+{x~
+health rate jest w roomie ale niewidoczny, nie wiem
+czy podawac na boardzie jak to sie robi bo to
+ciezko sprawdzic i jakis lama builder moglby se zrobic tajemna lokacje
+z health bonusem 1000... ale chuj do dupy najwyzej go zabijemy :)
+w redicie piszesz heal x%   <-za x% wstawic jak szybko ma sie regenerowac
+w stosunku do normalnego...
+co do icewinda, to trzeba sie naprawde przylozyc zeby nie zmascic.
+Po raz kolejny nalegam na opisy kierunkowe, przejdzcie sie po Easthaven
+i zobaczcie jak to dziala na klimat gry. Mysle ze ta Icewindowa czesc
+powinna byc najbardziej dopieszczona, ja jednoczesnie chodze w Icewindzie
+i pisze tutaj (ogladam co i jak , tlumacze opisy)... zreszta zobaczcie se.
+Co do robienia chapterami. Bardzo mi to pasi :)
+Co do weather to mozna w aedicie dodac 'weater file' standardowo ustawione
+na weather.c a jak ktos chce miec wlasne komunikaty do dostaje mailem
+weather.c i se go przerabia, zmienai nazwe i podpina do krainki.
+Resorak by tylko zrobil trybiki :) a tlumaczenie i zmiany
+komunikatow pogodowych by se builderzy sami robili...
+ 
+Feerial the Szybkopisacy
+~
+M972571525
+Feerial~
+{B[drinkcontainery                 ]{x {WThu Oct 26 16:45:25 2000
+{x~
+heh wlasnie robie rozne trunki...
+przydalaby sie flaga okreslajaca rodzaj (mesk, zenski itp)
+wtedy by byly rozne odmiany, trzeba tez przetlumaczyc ciecze i kolory :)
+ 
+Feerial Alkomat
+~
+M972573766
+Kahn~
+{B[Pogoda by Kahn ;))              ]{x {WThu Oct 26 17:22:46 2000
+{x~
+Witajcie!  Ja proponuje by zrobic pare rodzajow tej pogody (klimatami:
+pustynny, goracy suchy, goracy wilgotny etc.  (ostatnio mam przechlapane z
+gegry wiec i was klimatami pomecze ;)))) i w aedit sie ja ustawialo.  Tyle,
+ze ktos musialby to wszystko napisac :-PPP.  A i jeszcze jedno, trzeba by
+bylo caly kod gruntownie przetlumaczyc.  Bo 'punch'owanie mobow juz mi nie
+wystarcza ;))))) 
+ 
+Kahn The Lamer Z Wyboru (building)
+ 
+Feerial : no to mniej wiecej tak chcialem tylko ze moje rozwiazanie jest
+bardziej 'flexible' :)
+acha podeslijcie cos do tlumaczenia :)
+ 
+Maro: No ja wyslalem Resorowi o tej pogodzie caly taki dlugachny plik, to moze i wam pchne, lookniecie i zobaczycie co i jak z nim jest.
+Co sie wam podoba etc.
+~
+M972627552
+Razor~
+{B[icewind                         ]{x {WFri Oct 27 08:19:12 2000
+{x~
+Heh no powiem zajebista sprawa :))
+Od poczatku chodzila mi mysl zeby sie przypiac do jakiejs istniejacej fabuly
+jednak wymagalo by to jakiejs obowiazkowej lektury wiec nawet sie nad tym nie
+zastanawialem ;)
+ 
+A co do promocji Maro to nie wiem co by tu napisac :)
+ 
+taa, sa jezyki dla mobow btw, languages trzyma jakimi moga sie poslugiwac
+natomiast 
+speaking w jakim aktualnie gadaja
+taa , prog na speech nie pojdzie jesli koles slabo sie zna na jezyku
+jaki mob rozumie
+ 
+ 
+resor
+ 
+ 
+ps.
+slyszalem ze ktos na arcticu pogrywa... :)
+jakby co podaje tam ksywki: joerg, mayhem, kajko
+ 
+Maro: Jak mi starczy sil i checi i bede mial w koncu te sztywne lacze (szlag!) to wroce na arctica i go skoncze, hueh. A co Resor chcesz od promocji :)?
+ 
+Agron no a moje tam ksywki: Agron, Korbilan, Korbilau
+~
+M972665635
+Feerial~
+{B[a gdyby tak                     ]{x {WFri Oct 27 18:53:55 2000
+{x~
+pomysly z innych mudow:
+polecenie ask -> do moba ulatwiloby robienie questow, musi byc tez
+trigger ask
+jak tam wielowarstwowe ubrania ? jakby byly to nawet wymyslilem
+kilka rozwiazan, ale to dluzsza notka...
+Feerial Szperacz
+~
+M972747137
+Feerial~
+{B[languages itp                   ]{x {WSat Oct 28 17:32:17 2000
+{x~
+Przydloby sie wprowadzic jezyki obce pisane, tylko
+nie wiem jak... :)
+moze objtype 'paper_sheet'
+z zaznaczonym jezykiem w jakim ma podac desc ?
+nie wiem czy to wogole realne... jak wiekszosc moich
+pomyslow
+~
+M972759112
+Feerial~
+{B[tohit i thac0                   ]{x {WSat Oct 28 20:51:52 2000
+{x~
+jak sie ma tohit i thac0 ? czy jak bron jest
+high quality i ma thac0 +1  (wg Icewinda)
+to jest to samo co jakbyu jej u nas dac tohit 1 ?
+ 
+Feerial Dale
+~
+M972759323
+Feerial~
+{B[speed factor                    ]{x {WSat Oct 28 20:55:23 2000
+{x~
+czy u nas jest speed factor ? moze by wprowadzic
+Feerial Dale
+Maro: Nie ma speed factora. Chyba, ze resor apropos broni dwurecznych jakos je opoznil czy cos, ale chyba nie. 
+Ogolnie pomysl ze sped factorem jest zajebisty, tylko beda pewne problemy z wprowadzeniem go.
+Powod jest mniej wiecej prosty. Musimy kiedys siasc, zrobic chyba spis calego eq i nie dopuszczac jakiegos wykopanego.
+Bo inaczej to sie wszystko rozpirzy. No a jakby doszedl jeszcze speed factor to looo jezu - wystarczy, ze ktos zrobi bron ze statsami minimalnie gorszymi niz przy normalnej broni, ale 3 razy szybsza, no iii - wiadomo.
+Poza tym czestosc ataku powinna byc jeszcze jakos uzalezniona od dex'a. To jest generalnie grubszy problem.
+ 
+ 
+~
+M972767652
+Feerial~
+{B[nowe bzdety                     ]{x {WSat Oct 28 23:14:12 2000
+{x~
+oke zaczynam  :)
+1)materialy (drewno itp...)
+przydalybysie czary/affecty w zaleznosci od tego
+jaka bronia ktos obrywa i tak np:
+bron             affect
+doskonala stal     glebokie rany (dluzej sie leczy)
+bron sharpened   tak samo
+zardzewiala stal    poison
+bron obuchowa        utrata przytomnosci - stun albo sleep
+bron kamienna       broken bones :)       
+bron szklana          nie gojace sie rany
+bron krysztalowa        tak samo
+ 
+troche pomieszlem typu broni z materialami
+ale idea jest podobna zeby bylo np 5 % szans ze zaladuje
+takiego affecta, nie trzebaby type progow potem
+pisac...
+propozycje skilli:
+walka na dystans - wymaga znajomosci i uzywania broni drzewcowej dlugiej
+^^^^^^^^^^ mogloby poprawiac ac okresowo w trakcie walki z komunikatem
+^^^^^^^^^ 'Trzymasz goscia na dystans, niewiele moze zdzialac'
+~
+M972891755
+Agron~
+{B[pomysly                         ]{x {WMon Oct 30 08:42:35 2000
+{x~
+Wydawalo mi sie ze tablica na nowe """POMYSLY""" jest pietro wyzej??????
+Agron
+~
+M972892574
+Agron~
+{B[random_mobs                     ]{x {WMon Oct 30 08:56:14 2000
+{x~
+Poniewaz w piatek dostalem wyzwanie napisania randomowych mobow wiec prosze, siem wzialem i napisalem. 
+Na razie co prawda jest napisany tylko engine z trzema mobami, ale:
+na przyszlosc bedzie to robione mniej wiecej tak:
+- moby bede losowane w czasie resetow (z jakims malym prawdopodobienstwem)
+- rodzaj moba bedzie zalezny od sectora (plains, mountains....)
+- beda jakies cztery kategorie popularnosci wystepowania (rzadkie, popularne, bardzo rzadkie...)
+koniec
+W zwiazku z powyzsza sprawa prosze pana Razora o :
+- dodanie sectorow :underwater, ruiny, bagna, a zamiast tandetnego inside zrobic(podziemia, domy, jaskinie), aaa no i jeszcze streets do miast.
+- pytanie: jak i czy mozna zrobic zeby mob mogl rzucac tylko jeden czy dwa czary?
+Agron
+PS: acha dostrzeglem ze po rozpadnieciu sie niezlootowanego corpsa monety i rzeczy w nim bedace takze znikaja, moim skromnym zdaniem powinny zostawac, i w zaleznosci od materialu sie rozpadac po dluzszym czasie albo wcale.
+ 
+PS 2: losowe moby na razie nie sa dolaczone do kodu (znaczy nie laduje ich jeszcze do krain), ale mozna je sobie wylosowac i obejrzec komenda : 'mtest'.
+koniec...
+kurde PS 3: sobie razor dopisz w domciu w interp do_mtest no i jakos pomysl jak to podpiac zeby ladowalo te losowe moby do krainek (losuje zaleznie od sectora)
+no to jus chyba naprawde koniec
+~
+M972898753
+Vovin~
+{B[luk i wywary magiczne           ]{x {WMon Oct 30 10:39:13 2000
+{x~
+Co do losowania mobow: bylo by glupio, gdyby do krainki na 1-5 lev zaladowal sie aggresiw  lub inny mob na 30 lev.
+LUK: Podobno bedzie tak, ze w druzynie jedni beda walczyc w 1 lini, a magowie, druidzi, clerycy... w 2 beda nie tykalni dla mobow gdy 1 linia istnieje. Lucznik moze byc w 2 lini i zadawac obr mobowi. W 1 lini luk jest bezuzyteczny.
+:Wywary: hmm... pomysl jest taki: (glupi przyklad) Lacze zabie oko, lisc czegostam, pozniej lacze to ze sznurem wisielca, i otrzymuje jakis napoj z dobrymi czarami.
+Co o tym sadzicie i o notce 88?
+~
+M972916970
+Feerial~
+{B[losowe moby                     ]{x {WMon Oct 30 15:42:50 2000
+{x~
+trzeba tez dodac flage do area, bo ktos moze np. nie chciec
+takich losowych mobow :)  (nic osobistego :) uwazam ze sa ql
+ale dobrze miec wybor...
+ 
+co do wywarow itp to juz da sie zrobic z itemtype piece
+ja tam cos burczalem o gotowaniu itp ale mozna to na progach zrobic
+ 
+Feerial Random Frytka
+~
+M972988714
+Agron~
+{B[to: vovin                       ]{x {WTue Oct 31 11:38:34 2000
+{x~
+Na drugim levelu sprawdzasz sobie postac:
+Sila - zdejmujesz bron i napierdalasz myszy i patrzysz jakie obrazenia zadajesz:
+  jezeli jest barely i hit to masz jakies 20 - 22
+czesciej hit to 23 24
+samo hit to cool
+Dex - musisz sprawdzic ile maksymalnie mozesz przedmiotow do rak wziac na raz
+znaczy bieresz wszystko dopoki mozesz i zliczasz przedmioty
+jesli mozesz wziac bodajze 17 to masz dexa 21 albo 20 jakos tak, (im wiecej tym lepiej)
+Con - sprawdzasz ile dostajesz hp na level, jesli tylko dotajesz powyzej 20 to maszs kondycje tez powyzej...
+w sumie wazny jest jeszcze wisdom.... ale nie da sie dla klas walczacych go sprawdzic....
+No idealna postac walczaca to powinna miec str, dex i con powyzej 20...
+ale jesli masz 23str i 23con (na przyklad) to mozesz dexa olac troche
+to wszystko zlezy od ciebie
+Agron
+(powyzsza nota dotyczy mud.arctic.org 2700)
+ps: poprawka do sily barely samo to 20-22, a jesli jest hit to masz juz wiecej
+~
+M972996481
+Razor~
+{B[tohit + thac0                   ]{x {WTue Oct 31 13:48:01 2000
+{x~
+taaa dawac +1 :) , moze nawet +2 jesli specjalnie dobrej jakosci :)
+~
+M973181054
+Feerial~
+{B[Easthaven wschodnie skonczone   ]{x {WThu Nov  2 17:04:14 2000
+{x~
+Easthaven wschodnie skonczone na 95%
+Easthaven zachodnie - brakuje paru opisow
+paru gratow i paru mobow :)
+ 
+ale zpraszam juz do szwendania sie
+ 
+Feerial Dale
+~
+M973245632
+Tullaris~
+{B[PROSBA                          ]{x {WFri Nov  3 11:00:32 2000
+{x~
+nie mam teraz zbyt duzo czasu, wiec bylbym dzwieczny, gdyby ktosik
+spakowal src na serverze, to wezme do domciu i od razu dopisze
+w nowym kodzie shoot&exit bo mam praktycznie skonczone
+ 
+Tullaris
+~
+M973840788
+Razor~
+{B[hmm                             ]{x {WFri Nov 10 08:19:48 2000
+{x~
+bywa ktos tu jeszcze?
+chyba trzeba zrobic nowa rekrutacje builderow ;)
+~
+M974164842
+Feerial~
+{B[hmm hmm                         ]{x {WTue Nov 14 02:20:42 2000
+{x~
+ja bywam ale smutno mi samemu, mialem ciut roboty ...
+szlifuje Easthaven itp...
+acha jakby ktos chcial to w easthaven i arras jest zrobiona
+kupa zelastwa typu armor, kisdys zrobie spisik a na razie
+jest do kupienia u Pomaba :)
+prosze sie czestowac...
+Feerial Porzeczka Prayer
+~
+M974370825
+Maro~
+{B[Strona                          ]{x {WThu Nov 16 11:33:45 2000
+{x~
+Jest strona killera w robocie. Wersje w robocie mozecie sobie obejrzec pod adresem: killer.mud.pl
+Ona jest na razie niedokonczona oczywiscie no i jak macie jakies uwagi glownie co do zawartosci tresciowej, ewentualnie graficznej to piszcie
+ 
+Jak ktos chce cos na strone napisac to spox, niech da mi znac  - powiem co i jak.
+Moj adres - wiadomo: marek@tele2.pl
+ 
+wpiszcie: killer.mud.pl i powinien wam IE znalezc.
+ 
+        Maro
+~
+M974371053
+Maro~
+{B[Strona jeszcze                  ]{x {WThu Nov 16 11:37:33 2000
+{x~
+Adres jest: http://killer.mud.pl (bez www, bo sie Vovin dziwil, heh). No i oczekujem zgloszen chetnych, ktorzy chcieliby cos na strone zrobic. 
+Taa, poza tym swego czasu powysylalem ludziom ktorzy cos porabiaja na killerze RAQ - czyli rarely asked questions, no i chcialem to na strone puscicd, ale ze nikomu sie nie chce swojego raq'a napisac to ja za was tego robil nie bede.
+No i raqa pewnie nie bedzie.
+ 
+        Maro
+~
+M974723956
+Maro~
+{B[to: Feerial                     ]{x {WMon Nov 20 13:39:16 2000
+{x~
+Chcemy zorganizowac spotkanie - na mudzie albo na ircu i pogadac o tym co dalej z mudem. Na razie mamy 2 terminy - sroda 17-19 albo piatek od 12.15.
+Jesli ci ktorys pasuje - daj znac, jesli nie, trudno, podaj kiedy mozesz  w tym tygodniu.
+ 
+         Maro
+~
+M974724053
+Maro~
+{B[to: Kahn                        ]{x {WMon Nov 20 13:40:53 2000
+{x~
+Chcemy zorganizowac spotkanie - na mudzie albo na ircu i pogadac o tym co dalej 
+z mudem. Na razie mamy 2 terminy - sroda 17-19 albo piatek od 12.15.
+Jesli ci ktorys pasuje - daj znac, jesli nie, trudno, podaj kiedy mozesz  w tym 
+tygodniu.
+ .s
+ 
+           Maro
+~
+M974724089
+Maro~
+{B[to: Tullaris                    ]{x {WMon Nov 20 13:41:29 2000
+{x~
+Chcemy zorganizowac spotkanie - na mudzie albo na ircu i pogadac o tym co dalej 
+z mudem. Na razie mamy 2 terminy - sroda 17-19 albo piatek od 12.15.
+Jesli ci ktorys pasuje - daj znac, jesli nie, trudno, podaj kiedy mozesz  w tym 
+tygodniu.
+ 
+       Maro
+~
+M974724126
+Maro~
+{B[to: Vovin                       ]{x {WMon Nov 20 13:42:06 2000
+{x~
+Chcemy zorganizowac spotkanie w tym tygodniu, zeby pogadac o tym co dalej z mudem. Na razie terminy sa 2 mozliwe - sroda 17.00-19.00 i piatek po 12.15.
+Napisz jesli ci pasuje ktorys, jesli nie, daj znac kiedy masz czas w tym tygodniu.
+ 
+         Maro
+~
+M974794802
+Vovin~
+{B[to: maro                        ]{x {WTue Nov 21 09:20:02 2000
+{x~
+Hmm, bedzie z tym problem, bo mieszkam w Gliwicach.
+Mysle ze wyniki dyskusji przeslijcie mi na adres
+dcudek@yahoo.com
+Powoli zabieram sie do pracy nad krainka po przerwie.
+Vovin
+~
+M974797442
+Maro~
+{B[SPOTKANIE                       ]{x {WTue Nov 21 10:04:02 2000
+{x~
+No wiec robimy spotkanie w srode od 17. Wszyscy maja byc :) Ci ktorzy mowili, ze moga.
+       Maro
+P.S. Ci co nie moga niech powiedza kiedy moga to zrobim jeszcze jedno spotkanie.
+~
+M974889696
+Kahn~
+{B[to maro                         ]{x {WWed Nov 22 11:41:36 2000
+{x~
+:)
+Poniewaz dzis jest sroda (dopiero dzis to odczytalem) to mysle ze w piatek, ale napisz do mnie:
+piotreq@komorka.org
+~
+M974902378
+Maro~
+{B[17.30                           ]{x {WWed Nov 22 15:12:58 2000
+{x~
+Bede o 17.30 Najpozniej, eweantualnie mozecie zaczac spotkanie beze mnie. - Agron - zadzialaj.
+ 
+      Maro
+~
+M974987489
+Maro~
+{B[Linki                           ]{x {WThu Nov 23 14:51:29 2000
+{x~
+Jak macie jakies ciekawe linki, to moze dac znac, rzuci sie na jakas strone. Nie wazne jaka tematyka. 
+Niech podaje link i komektarz - tak jak jest na stronie w dziale linki.
+ 
+        Maro
+P.S. Bo linkow jest troche malo tam poki co, no i pasowaloby wiecej dac.
+~
+M974989704
+Azradun~
+{B[Zamowienie                      ]{x {WThu Nov 23 15:28:24 2000
+{x~
+Dawno mnie tu nie bylo, ale to przez siec. Konkretnie jej brak. Ok, do rzeczy.
+Rasy, jakie chcialbym, zyby dodac:
+- demon (fantasy bez demona niewazne!)
+- aniol (uzasadnienie jak przypadku demona) 
+- zombie (gnijacy trup w odroznieniu od szkieletu)
+- herbatnik (ok, glupi dowcip:)
+ 
+Dobra. To tyle na razie. Jak sobie przypomne, to dopisze.
+ 
+{RDemon i aniol to praktycznie bogowie, wiec chyba lepiej skonczyc najpierw reszte
+{Ga  zombie.. czemu nie :)
+{x to byl Tullaris
+~
+M974999350
+Furgas~
+{B[Jezyki                          ]{x {WThu Nov 23 18:09:10 2000
+{x~
+Ok wrzuce pare groszy co do jezykow:
+1. Co sie stanie jak u mobow zostawi sie pole languages none.
+2. Mozna by bylo zrobic tak, ze po wybraniu rasy moba,
+automatycznie dodawany jest jezyk, w zaleznosci od rasy.
+3. Cos tam jeszcze chcialem ale zapomnialem;)
+ 
+Furgas Kochajacy Gniew Wiatru
+~
+M975017246
+Furgas~
+{B[Jezyki cd...                    ]{x {WThu Nov 23 23:07:26 2000
+{x~
+ciag dalszy;)
+3. jesli jest cos takiego jak jezyk wspolny, to czemu nie zrobic tak ze zwykly tell i shout itd beda mowione w tym wspolnym, a dodatkowo zrobic odmiany tych komend w ktorych bedzie mozna podac jezyk w ktorym sie chce mowic.
+4. Fajnie zeby supermob tez gadal po wspolnemu. Na przyklad zeby jakies gadajace przemioty byly zrozumiane.
+ 
+Chyba wszystko...
+Furgas Kochajacy Gniew Wiatru
+~
+M975023035
+Furgas~
+{B[Reset inside problem            ]{x {WFri Nov 24 00:43:55 2000
+{x~
+Hmm, chyba cos nie tak jest. Jesli w resecie ustawie zeby przedmiot byl ladowany wewnatrz innego, ktory ma jedna z flag closeable, locked lub closed, to niestety ale przedmiot nie laduje sie do srodka.
+ 
+Na pewno tak nie powinno byc;)
+Furgas {BKochajacy{x {WGniew{x Wiatru
+~
+M975023537
+Furgas~
+{B[Suplement do inside problem     ]{x {WFri Nov 24 00:52:17 2000
+{x~
+No zagladnalem do kodu i znalazlem zrodlo problemu.
+Lezy on w pliku db.c w funkcji reset_room.
+Przy resecie typu P czyli obj to obj w czwartym z 'ifow'
+ jest linijka:
+|| ( pObjIndex->count >= limit  && number_range(0,4) != 0  )
+Moze mi ktos powiedziec po jakia cholere to number_range???
+Myslalem ze tu chodzi o to czy zamkniete czy nie,
+a tu choroba, to losowo laduje albo nie.
+Wg. mnie to nie ma sensu, ja sobie zaplanuje
+ze ma cos byc ukryte w jakim pojemniku (na przyklad
+obj do miniquesta) a tutaj okaze sie ze go nie ma.
+No i w sumie po co w takim razie reset chance?
+ 
+Furgas {BKochajacy{x {WGniew{x Wiatru
+~
+M975049699
+Razor~
+{B[z tym ladowaniem                ]{x {WFri Nov 24 08:08:19 2000
+{x~
+No wiec z tym ladowaniem to mozliwe ze sie cos dziwnego dzieje
+przyjrze sie temu spoko....
+i rasy dodam taki grzeczny jestem :)
+~
+M975066206
+Tullaris~
+{B[to Wawa                         ]{x {WFri Nov 24 12:43:26 2000
+{x~
+mogliboyscie pogadac z aminem killera, zeby mi zrobil konto mailowe?
+moze byc oscar, albo tullaris
+bo mi server uczelniany siada
+ 
+z gory dzieki :)
+Tullaris
+~
+M975154081
+Maro~
+{B[Wawa, over                      ]{x {WSat Nov 25 13:08:01 2000
+{x~
+Trudno sie z nimi skontaktowac, ale juz do nich nasmarowalem na temat konta i innych spraw.
+ 
+        Maro
+P.S. Pozostaje czekac na odzew.
+ 
+{Gdzieki
+~
+M975258459
+Tullaris~
+{B[to: Furgas                      ]{x {WSun Nov 26 18:07:39 2000
+{x~
+hmm no z tymi resetami wyglada, ze jest tak:
+jesli mu ustawisz jakis limit, to dopoki krainka sie cala nie zresetuje, drugiego nie zaladuje
+ew zaladuje z szansa 25%
+wiec mozesz to zrobic tak:
+zawsze ladowac miecz do tego biurka
+albo ladowac go tam z progu (jak zrobi wczesniej to co mial zrobic w tym quescie)
+ 
+Tullaris
+~
+M975313915
+Agron~
+{B[takie tam                       ]{x {WMon Nov 27 09:31:55 2000
+{x~
+1. Do jezykow by sie affect przydal coby mozna go na przedmioty dawac, no i do tego jeszcze jakis czar 'rozumienie jezykow' czy cos podobnwgo
+2. do razora : dopisz w swoim magicznym domowym kodzie w db.c w reset_room (na koncu) linijeczke : mob_random(pRoom); co rozwiaze problem losowych mobow
+3. Trzeba wreszcie wywalic odejmowanie sxpa za ucieczke (bo okaze sie ze zapomnimy :) )
+4. Proponuje aby rzeczy z corpsa po jego rozpadnieciu sie pozostawaly na ziemi, jest to chyba logiczne
+pozostaje problem zasmniecania....hmm jakos to chyba mozna rozwiazac..?
+5.  Prosilem o dodanie nowych sectorow : underwater, bagno, ruiny
+no i o zmiane, zamiast inside zrobic kilka sectorow np: podziemia, mieszkanie, lochy itd...
+nie musze chyba mowic ze jest mi to potrzebne do random_mobs, a i builderom sie przyda (moze w przyszlym kodowaniu)
+6. No i jak ? da sie zrobic zeby mob uzywal tylko jednego czaru???
+to na tyle ...
+Agron
+~
+M975369426
+Azradun~
+{B[Grrr                            ]{x {WTue Nov 28 00:57:06 2000
+{x~
+Wszystkie miniquesty moge sobie wsadzic w d...  Przez te cale jezyki. 
+Przeciez do jasnej nie moge wymagac od kazdego Newbiesa, ze bedzie znal
+jakis kosmiczny jezyk na poczatku.  Mobowi ustawilem wspolny, i gada bez
+sensu.  Moj "bohater" na 40-tce rozumie wszystko, ale nie o to do cholery
+chodzi, nie?  Po co ja w ogole meczylem sie nad jakakalwiek fabula w
+miniquescie dla graczy 1+ levelowym?  Mam kazdemu chetnemu language
+ustawiac???  Jak to jest, ze mob majacy languages i speaking ustawione na
+wspolny, gada jakies pierdoly?  Ja uwazam, ze to bez sensu.  
+ 
+Azradun The Wybitnie Wkurzony & Watpiacy w Sens Swojej Roboty
+~
+M975374490
+Furgas~
+{B[Popieram                        ]{x {WTue Nov 28 02:21:30 2000
+{x~
+Ja to kurwa mac popieram no!!!
+ 
+Furgas {BKochajacy{x {RKurwa{x {WGniew{x Wiatru
+P.S. To tak, napisalem, bo Azradun uzyl za malo dosadnych slow;>
+~
+M975403112
+Tullaris~
+{B[jezyki                          ]{x {WTue Nov 28 10:18:32 2000
+{x~
+Ludzie uspokojcie sie
+jak chcecie, ze kazdy gracz rozumial moba, ustawcie mu telepatic
+a poza tym, kto ma tego questa prowadzic?
+Jak Krasnolud, to i tak elfy i ludzie newbie do niego nie trafia
+bo beda zaczynac gdzie indziej (a przynajmniej powinni :)
+a z jezykami wlasnie o to chodzi, ze sie bzdury gada
+wspolnym gada bzdury, bo wspolny to jezyk ludzki
+to tak, jakbys sie przejechal do chin i chcial sie z nimi po polsku porozumiec
+(wiem, ze to moze nie najlepszy przyklad, ale oddaje sens i hope so)
+ 
+Tullaris
+~
+M975403453
+Tullaris~
+{B[to: Agron                       ]{x {WTue Nov 28 10:24:13 2000
+{x~
+gdzie (w jakim pliku) jest ta funkcja do losowania mobow?
+bo mi sie szukac nie chce :)
+i czy odwolanie jest tylko w reset_room?
+~
+M975405242
+Maro~
+{B[to: Razor                       ]{x {WTue Nov 28 10:54:02 2000
+{x~
+Ustaw kazdemu questowemu mobowi jezyk telepatic. Nikt sie nie bedzie pieprzyl i nie robil quest tylko dlatego, ze nie rozumie jezyka.
+Questy robione tylko przez okreslone rasy mozna obwarowac jakimis innymi warunkami i zakazami niz jakimis glupimi jezykami.
+ 
+                   Maro
+~
+M975414348
+Agron~
+{B[to: tullaris                    ]{x {WTue Nov 28 13:25:48 2000
+{x~
+tak tylko w room_reset, a cale moby sa w random_mobs.c
+Agron
+~
+M975529844
+Azradun~
+{B[Do Wiadomosci                   ]{x {WWed Nov 29 21:30:44 2000
+{x~
+To dobra tablica? Niewazne. Zapomnijcie o tym.
+A oto wiadomosc: najprawdopodobniej krainka zwana Bartmandal gotowa.
+Wszystkich chetnych zapraszam do polazenia sobie i napisania uwag.
+Tudziez testowania. I picia piwa. Wroc.
+W kazdym razie, wszelkie komentarze mile widziane.
+ 
+Azradun {YThe Light of Justice{x(tm)
+~
+M975536328
+Voder~
+{B[Lista dyskusyjna Killer-MUDA    ]{x {WWed Nov 29 23:18:48 2000
+{x~
+No wiec lista jest juz, chyba dziala ;)) jest moderowana przynajmniej
+ taka miala byc jak gadalem z krdianem....czyli ze zapisywac moga
+sie tylko osoby ktore zaakceptuje moderator.....na razie moderatorem
+jestem ja bo zgubilem adres Maro jak go zlapie to go dopisze ....a zeby
+nie sciemniac dluzej to:
+zapisujemy sie wysylajac maila na adres killer-mud-ctl@killer.radom.net
+z body listu: subscribe jakies_imie (najlepiej postaci)
+Listy wysylamy na adres killer-mud@killer.radom.net pamietajac
+zeby pole from bylo ustawione na taki adres z jakiego sie zapisalismy
+bo inaczej lista odrzuci posta...bedzie mozliwosc dopisania wlasnych
+adresow e-mail i dostawania tylko na 1 skrzynke jak tylko polapie sie w
+docach do fml`a, ewentualnie maro ;)
+ 
+po tym, jak wyslecie maila, przyjdzie do was list potwierdzajacy.
+Trzeba na niego odpisac (reply) i wyslac (niczego nie dodawac)
+i juz powinno byc wszystko ok
+~
+M975625117
+Tullaris~
+{B[olc_info                        ]{x {WThu Nov 30 23:58:37 2000
+{x~
+Jakby ktos chcial znaczenie literek po $
+przy gadaniu, niech skoczy 2u i looknie na komputer
+tam jest to wyjasnione
+~
+M975630819
+Voder~
+{B[148 BUG + Jezyki                ]{x {WFri Dec  1 01:33:39 2000
+{x~
+Troszkie sie dzis tak krecilem po krainkach no i ...znalazlem dziwna rzecz:
+Otoz idzcie do lokacji Rozwidlenie [Room 1753] i tam sprobujcie zagaic
+z Mac`iem na temat drog !! Nie wiem co jest grane ale mnie po tell mac drogi
+automatycznie rozlacza z mudem !!! Myslalem ze to wina mojego ISP z poczatku
+ale jak powtorzylem kilka razy ostatnio robione czynnosci to niestety za kazdym razem mnie rozlaczylo
+ 
+Dalej idac sprawa jezykow...jako ze ogolnie ciezko jest sie dowiedziec jakim jezykiem posluguje sie dany mob, mozna by wprowadzic standartowy komunikat w stylu Sorry I don`t speak $speak language, do u speak $jezykmoba ??
+gdzie $speak to jezyk ktorym aktualnie porozumiewa sie dany gracz....
+ 
+ 
+{WVod{x{REr{x
+~
+M975727738
+Furgas~
+{B[O tym i o owym...               ]{x {WSat Dec  2 04:28:58 2000
+{x~
+Mam one pytanko i one propozycje/uwage:
+Pytanko: Czy jest komenda progowa do ladowania objecta do innego objecta?
+Uwaga: Przydalby sie ifcheck sprawdzajacy czy w jakims kierunku jest wyjscie np: "if exit 0-5"
+Przydaloby sie z tego wzgledu, ze czasami jak robie w progu komenda mob exit
+jakies wyjscie i potem chce zeby to wyjscie sie zamknelo po moim przejsciu
+to sprawdzam na triggerze exit <kierunek> i tam wywalam co trzeba mob exitem.
+Wszystko byloby dobrze, ale trigger exit dziala takze jesli w kierunku
+ktory podamy jako parametr nie ma zadnego wyjscia. Ja rozwiazalem to na
+flagach, ale mysle, ze lepiej jest dodac takiego w sumie prostego ifchecka
+niz bawic sie flagami...
+ 
+Z powazaniem
+Furgas {BKochajacy{x {RGniew{x Wiatru
+~
+M975742444
+Cromm~
+{B[Przeprosiny                     ]{x {WSat Dec  2 08:34:04 2000
+{x~
+To ze sie nie stawilem na czas w umowionym miejscu to oczywiscie moja
+wina.  Zrobilem blad odkladajac zalatwienie waznych spraw na sam koniec i
+potem wmawiajac sobie, ze na wszystko znajde czas.  Niepotrzebnie
+obiecywalem, ze sie stawie na czas kiedy nie mialem nawet 75% pewnosci, ze
+mi sie to uda.  To byl blad, za ktory bardzo Was Obu przepraszam.  
+~
+M975787889
+Feerial~
+{B[L4                              ]{x {WSat Dec  2 21:11:29 2000
+{x~
+wracam po zapaleniu pluc :)
+apsik wam na droge......
+Feerial Dale
+~
+M975847256
+Agron~
+{B[feerial i cromm                 ]{x {WSun Dec  3 13:40:56 2000
+{x~
+cromm - spoko, wybaczamy, ja juz myslalem ze sie po prsotu nie poznalismy albo gdzies minelismy
+feerial - no nareszcie, a juz myslelem ze ci bede musial nakopac do tylka :)
+Agron
+~
+M975854330
+Kahn~
+{B[to: Cromm                       ]{x {WSun Dec  3 15:38:50 2000
+{x~
+:)
+ 
+Mam sprawe gotyczaca twojej krainki.
+Nie bierz 'Name' lokacji w []. przeszkadza :))))
+Pzdr,
+ 
+Kahn
+~
+M975861180
+Tullaris~
+{B[shoot                           ]{x {WSun Dec  3 17:33:00 2000
+{x~
+dobra, no wiec podlaczylem cos co ma imitowac shoota
+dziala tak jak caly shoot, tylko nie ma luku
+no ale niewazne.. no wiec strzela sie tak:
+shoot <cel> <kierunek> <zasieg>
+jako imie celu mozemy dac: any wali wtedy po kimkolwiek
+jesli nie damy ani range, ani kierunku, to wali do tego pokoju
+w ktorym stoimy
+jak nie podamy zasiegu, to tez walnie do tego pokoju, gdzie stoimy
+no wiec chcemy sobie postrzelic maro, ktory stoi 2n od nas
+piszemy: shoot maro polnoc 2
+i jesli warunki terenowe tego nie zabraniaja, to go trafimy :)
+mowie o warunkach terenowych, bo w pokojach(inside) sobie nie postrzelamy
+no to chyba wszystko, mozecie potestowac
+na razie wypisuje rozne info przy strzelaniu
+enjoy
+ 
+Tullaris
+~
+M975861533
+Tullaris~
+{B[to: Razor                       ]{x {WSun Dec  3 17:38:53 2000
+{x~
+hmm no wiec ten tego...
+moglbys zrobic luk i strzaly? :)
+bo jak ja to dodalem, to niby sie skompilowalo, ale przy strzelaniu
+wywalalo mi muda
+juz nie mialem sie czasu z tym bawic, ale najwyrazniej praca z olc
+w moim wypadku nie sluzy mudowi
+co jest potrzebne:
+luk: zasieg, ilosc_strzal(zaladowanych), max_ilosc_strzal
+ rodzaj_ladowalnej_ammo(luk/kusza/?), jakis_damage_luku
+strzala: rodzaj_ladowalnej_ammo, ilosc(?), damage_min, damage_max
+no cos takiego, mozesz cos jeszcze wymyslec :)
+chodzi o to, zeby damage uzaleznic i od luku i od strzaly
+bo chujowy luk ze strzala z metalowym koncem(ostra, zatruta itp) jest lepszy
+od dobrego luku z patykiem jako strzala i vice versa
+ 
+Tullaris
+ 
+No jak juz bedziesz sobie zagladac do kodu i mieszac w olc,
+to mozesz wyciac mozliwosc ustawienia levelu przedmiotowi
+bo i tak nie jest do niczego potrzebny, a ludzie sie pytaja po co jest?
+ 
+ 
+Feerial: jakosc luku ma wplyw na celnosc a strzal na damage
+poza tym przydalby sie affect flames - ze ktos sie pali, moznaby zrobic
+plonace strzaly, flames moze mijac po x tickach, smierci gracza lub jak zacznie padac deszcz
+lub jak sie swimuje
+hmm level gratow sie przydaje do wewnetrznego klasyfikowania tychze
+ja sobie robie tak ze level grata mowi mi od razu na ile jest 'mocny'
+sorki ze sie wtracam :)
+~
+M975920699
+Agron~
+{B[sleep                           ]{x {WMon Dec  4 10:04:59 2000
+{x~
+w kodzie jest takie chujostwo ze jak jestes pijany lub (czytac to) masz sleep na 0, to chodzisz (istnieje prawdopodobienstwo), ze pojdziesz w innym kierunku.
+trza to zmienic jakos bo jest chujowe na maksa, co chwila sleep spada do 0 i kurde laze po scianach..
+wiec : albo przedluzyc czas grania bez potrzeby spania, albo wypieprzyc to wogole
+mozna zamienic tez to blakanie na spadek statsow :)
+Agron
+ps : tu prosba do resora coby to zmienil...
+~
+M975953187
+Maro~
+{B[Lista                           ]{x {WMon Dec  4 19:06:27 2000
+{x~
+No wiec generalnie jak juz bede wiedzial/mogl/umial dodawac wszystkich do listy killer-mud to zaraz wszystkich przyjme :) Lista dziala tylko ..., hehe.
+ 
+        tylko na razie jest na niej tylko z 5 osob.
+ 
+         Maro
+~
+M976010809
+Agron~
+{B[lista                           ]{x {WTue Dec  5 11:06:49 2000
+{x~
+no wlasnie a mnie na niej ni ma :(
+Agron
+~
+M976024798
+Tullaris~
+{B[to: Furgas                      ]{x {WTue Dec  5 14:59:58 2000
+{x~
+no wiec nie ma mozliwoscie zaladowania przedmiotu do przedmiotu z proga
+chyba sie nawet cosik takiego dopisze
+na razie mozesz to zrobic tak:
+jakiemus mobowi dajesz, zeby sobie zaladowal przedmiot
+potem zeby go wlozyl do biorka
+i zamknal biorko na klucz
+ 
+a co do resetow to dziala tak, ze do momenntu respawna krainek
+jesli max ilosc ustawiles na 1, to nie zaladuje wiecej
+jesli mu stniesz max ilosc, to powinien za kazdym razem ladowac
+a dwoch nie zaladuje, bo juz taki jeden bedzie w srodku (ihs)
+ 
+Tullaris
+~
+M976025718
+Azradun~
+{B[Rasy                            ]{x {WTue Dec  5 15:15:18 2000
+{x~
+No i co z tymi rasami?:)
+Od zeszlego tygodnia tylu ludzi sie naobiecywalo i nic.
+A to nie jest wielki problem kilka ras dodac. Tym bardziej,
+ze sa niezwykle potrzebne (patrz rasa lis, brak rasy demon itp itd).
+Mam juz szczerze dosc przerabiania diablikow i demonow na szkolne potworki.
+Fantasy bez demona niewazne...
+ 
+Azradun {YThe {R(School Monster???){Y Light of Justice{x(tm)
+~
+M976034311
+Razor~
+{B[spelle                          ]{x {WTue Dec  5 17:38:31 2000
+{x~
+System spelli dla mobow i graczy zostal ujednolicony moby potrafia to
+samo co gracze, to jakie spell zna mobik zalezy od pola spell w medit. 
+Dziala juz system czarowania mobikow, jednak operuja on na pewnym zbiorze
+czarow.  Jesli ktos sie ciekawi co to sa za zaklecia polecam w medit wpisac
+spell create albo jakis inny dziwny spell/.  No i sorki bo wycialem shooty,
+ale je juz nastepny kodzik bedzie je mial jakby juz sie ktos martwil :) 
+~
+M976096110
+Maro~
+{B[Rasy                            ]{x {WWed Dec  6 10:48:30 2000
+{x~
+Dopisac rasy to nie jest problem zaden. Chodzi bardziej o to, zeby zbudowac jakis rozsadny system ras i potem je wszystkie wrzucic na muda.
+Mam propozycje. Mianujemy Azraduna "opracowywaczem ras". Wez ksiazke do AD&D i inne takie (mozesz bez jak dasz rade tp luz).
+Zaproponuj jakie maja byc rasy i jakie maja byc cechy i sie to zwyczajnie zrobi. Najwiecej problemu jest zwyczajnie z wymysleniem madrego systemu ras.
+ 
+ 
+Bo nie chcemy zeby powstal jakis chaotyczny system, taki, gdzie sie bedzie rasy dodawac od przypadku do przypadku.
+ 
+ 
+           Maro
+P.S. To samo tak naprawde z sektorami. Poczebny spojny system sektorow, zrobienie tego to juz tylko kwestia mechanicznych zmian w kodzie.
+~
+M976102444
+Azradun~
+{B[Rasy:cd                         ]{x {WWed Dec  6 12:34:04 2000
+{x~
+Spoko.
+Tylko nie wiem, skad mam ta ksiazke wziac:)
+Moge z glowy?
+ 
+Azradun {YThe Unknowing AD&D But Very Creative Light of Justice{x(tm)
+~
+M976118173
+Kahn~
+{B[Rasy:cd:cd                      ]{x {WWed Dec  6 16:56:13 2000
+{x~
+Jakby co ja tez mam pare pomyslow wiec jakby co...
+ 
+Kahn {WThe Lamer Z Wyboru {R(TLZW){X
+~
+M976125348
+Razor~
+{B[nowe komendy w olc              ]{x {WWed Dec  6 18:55:48 2000
+{x~
+MEDIT:
+clone <vnum istniejacego moba>
+       powoduje sklonowanie nowo tworzonego moba na wzor moba o podanym vnum
+ 
+OEDIT
+clone <vnum istniejacego obiektu>
+       to samo co dla mobow
+ 
+mam nadzieje ze pomoze przy buildowaniu cosik, bynajmniej ktos o to prosil
+ 
+{R This message will selfdestruct i 5 seconds...{x
+~
+M976190179
+Cromm~
+{B[sory za nieobecnosc             ]{x {WThu Dec  7 12:56:19 2000
+{x~
+Przepraszam za moje znikniecie z killera.  To przejsciowe trudnosci,
+ktore mina w niedziele i rzuce sie na swoja krainke w celu jej ukonczenia w
+trybie natychmiastowym, albo jeszcze szybszym.  
+ 
+Pozdrawiam Cromm
+~
+M976207268
+Maro~
+{B[Mikolaj i someone               ]{x {WThu Dec  7 17:41:08 2000
+{x~
+supermob nie ma invisa czy jak?
+    
+        Maro
+~
+M976224554
+Voder~
+{B[Blurp.....                      ]{x {WThu Dec  7 22:29:14 2000
+{x~
+W zwiazku z natlokiem pracy :(( nie mam chwilowo mozliwosci przebywania tutaj wiec w razie jakis problemow z lista piszcie na voder@irc.pl.
+Jesli chodzi o konta na killerze to niestety nie moge dopasc krdiana, ale jak tylko go dopadne to postaram sie wydebic by je zalozyl...
+To chyba tyle...i poprawcie mikolaja ;PP 
+~
+M976267130
+Agron~
+{B[mikolaj                         ]{x {WFri Dec  8 10:18:50 2000
+{x~
+kurde nie wiem dlaczego on nie dziala, powinien...
+~
+M976267213
+Agron~
+{B[locke                           ]{x {WFri Dec  8 10:20:13 2000
+{x~
+i kto to jest locke?
+~
+M976472461
+Kahn~
+{B[pady muda                       ]{x {WSun Dec 10 19:21:01 2000
+{x~
+Ujme to obrazowo:)
+ 
+COPYOVER by SYSTEM - Prosze nigdzie nie uciekac.
+Connection closed by foreign host.
+ 
+ 
+:))
+ 
+Dlaczego mud tak czesto ostatnio pada?
+ 
+K.A.H.N.
+~
+M976473390
+Maro~
+{B[Pady                            ]{x {WSun Dec 10 19:36:30 2000
+{x~
+Byl jeden blad w kraince. Wiemy jaki, ale nie wiemy jak sie zrobil, troche sie domyslamy tylko, usunisty. 
+Mud jest skonstruowany tak, ze jak jest powazny bug i system chce zamknac muda to daje copyover (tzw. "przechwytywanie signalsow by Razor"), ale jak system ze tak powiem zabija w koncu muda to on sobie wstaje automatycznie - skrypt napisany bodaj przez K
+Krdiana
+No i teraz jesli jest tak, ze bug wystepuje przy ladowaniu muda to mud wstaje w nieskonczonosc z tym samym bugiem.
+ 
+No i wywala sie znowu oczywiscie ...
+ 
+No i tak dalej ...
+         Maro
+~
+M976521016
+Agron~
+{B[poprwiony help                  ]{x {WMon Dec 11 08:50:16 2000
+{x~
+No wiec oglaszam wszem i wobec, ze poprawilem, dopisalem
+,.....
+i zrobilem wszystko co bylo daly mi moje male skromne mozliwosci....
+aby nasz helpik dla builderow wygladal ledniej i pelniej (i wyczerpujaco mam nadzieje).
+Wiec nowa wersja help juz istnieje, pewnie bedzie niedlugo an stronie, ale na razie mozna ja dostac lodemnie piszac do mnie maila....
+tzdziech@elka.pw.edu.pl
+~
+M976521846
+Agron~
+{B[standardy                       ]{x {WMon Dec 11 09:04:06 2000
+{x~
+No wchodzimy w poczatek fazy koncowej tworzenia muda :)....
+wiec trzeba zrobic dosyc wazna rzecz.....
+a mianowicie trzeba do helpa dolaczyc standardowe wartosci mobow i gratow...
+Oczywiscie wszyscy zorientowani wiedza o co chodzi....
+Problem jest taki, ze samemu mie sie nie chce tego robic, a raczej mam troche za duzo rzeczy na glowie zeby sie za to brac....
+Wiec poszukuje osoby chetnej do wspolpracy, co by to wszystko opisac....
+Mozemy sie jakos podzielic, na przyklad ja przedmioty ty moby, albo odwrotnie, a moze ktos sie podejmie zrobienia calosci, albo sie kilka osob zglosi....
+No w kazdym razie czekam na propozycje....
+Agron
+~
+M976524812
+Agron~
+{B[progi                           ]{x {WMon Dec 11 09:53:32 2000
+{x~
+Cos sie chyba zjebalo z progami, teraz juz wiem dlaczego mikolaj mi 'someone'
+z tego co zauwazylen nie dziala '$n' moze inne tego typu w progach tez sie skaszanily...
+wiec teraz nie zadziala' mob echoat $n CZesc.' bo mud nie wie komu to powiedziec.....
+tak samo 'say Czesc $n', nie wywali  imienia tylko somone
+Wiec razor ...dzialaj
+Agron
+~
+M976530688
+Agron~
+{B[YEAAAAAAAAA                     ]{x {WMon Dec 11 11:31:28 2000
+{x~
+wygralem 21k coinsow na arcticu he heheheeheheh
+Szkoda tylko ze niedlugo pwipe bedzie.....
+Agron the heappy man
+~
+M976537202
+Furgas~
+{B[Znowu brak sieci                ]{x {WMon Dec 11 13:20:02 2000
+{x~
+W piatek tj. 8.12 wylaczyli nam siec chamy jedne, i do teraz jeszcze nei wlaczyli.
+Trzeba bedzie jakas pikiete urzadzic i wtedy sie pojawimy znowu...
+ 
+Furgas {BKochajacy{x {WGniew{x Wiatru
+~
+M976541269
+Agron~
+{B[rozne takie                     ]{x {WMon Dec 11 14:27:49 2000
+{x~
+wiec prosze dla mobow dodac takie czary:
+paralyze, poison, disease, fear, confusion, sleep(zrobic z niego offensa), suumony wszelkie ;), charmy wszelkie.
+delay w progach troche zle dziala, bo odmierza czas w ktorym ktos stoi w roomie.....
+jak uruchomie proga z delayem i w czasie delaya wyjde z roomu to sie przestaje odliczac czas (chyba)
+w 'mob exit ....' dodac kasowanie polaczen tylko z jednej strony (bo delete kasuje z obu)
+Moznaby dodac dodac do rprogow triggery : open, close, unlock, lock
+- wtedy noznaby robic niestandardowe drzwi bez ograniczen, jesli zrobilbym drzwi w stulu 'kotara' to moglbym tymi trigerami na tej kotarze operowac, standardowo by bylo ' ptwierasz kotare' :(
+nie bardzo rozumiem idee polecenia sethhf- sprawdza tam czy mob ktory ma huntowac/../.. jest w tym samym roomie?????
+to dziwne, chyba powinno sie do huntowania/../.. zmusic kazdego moba??, albo ja nie rozumiem idei tego polecenia
+no to powyzej bylo do razora.....
+a teraz do maro:
+w notce feeriala pod tytulem 'propozycje' jest napisane o stronie- poczytaj sobie, dobre pomysly moze cos sie z tego da zrobic
+Agron
+~
+M976553463
+Kahn~
+{B[Hmmmmhm...                      ]{x {WMon Dec 11 17:51:03 2000
+{x~
+Witajcie!
+ 
+Mam mala prosbe, otoz chcialbym cos porobic(nadmiar wolnego czasu) a nie mam co...
+Pewnie niektorzy zaproponuja krainki ale mam tymczasowy brak pomyslow. Wiec jesli ktos cos ma do zrobienia, a nie ma czasu to polecam siebie...
+(Oczywiscie nie umiem wszystkiego... ;)))))
+ 
+ 
+Kahn {WThe Lamer Z Wyboru{R (TLZW){x
+~
+M976573249
+Tullaris~
+{B[to: Agron                       ]{x {WMon Dec 11 23:20:49 2000
+{x~
+jak mi powiesz o jakie standartowe wartosci chodzi
+(a najlepiej, jakbym z toba to omowil on-line)
+no moze sie za to wezme i tak jak jestem w gliwicach
+to praktycznie nic nie robie
+no i moze sie zdazyc, ze nie bede znal pewnych rzeczy,
+to bede potrzebowac pomocy :)
+ 
+Tullaris
+~
+M976573403
+Tullaris~
+{B[to znudzeni :)                  ]{x {WMon Dec 11 23:23:23 2000
+{x~
+byloby dobrze, zeby wymyslec jakies miasta startowe dla roznych ras/profesji
+chodzi o to, ze beda rozne jezyki i dobrze by bylo, zeby kazda rasa startowala
+w jakims swoim miescie i nie miala problemu z porozumieniem sie z otoczeniem
+Zreszta, to chyba nmormalne, ze jesli startujemy elfem, to bedziemy
+na pocztku zyc wsrod nich, zanim wkroczymy w wielki swiat
+to bylo tak apropos braku pomyslow i nudy ;)
+ 
+Tullaris
+~
+M976574173
+Tullaris~
+{B[spotkanko?                      ]{x {WMon Dec 11 23:36:13 2000
+{x~
+jest pewne prawdopodobienstwo wieksze od zera,
+ze pojawie sie w wawie jakies 2 tyg po nowym roku :)
+nie jest to jeszcze pewne, ale pewnie tak bedzie
+wiec mozna by sie gdziesik spotkac i wypic male conieco
+jeszcze dam pozniej o tym znac
+ 
+Tullaris
+~
+M976613866
+Maro~
+{B[Kahn                            ]{x {WTue Dec 12 10:37:46 2000
+{x~
+Jest jest i to od cholery roboty, grzebanie w kodzie, ale bez nawet elementarnych umiejetnosci kodowania, trzeab kupie spelli dopisac waity i dostosowac glownie offensy do najnowszego pomyslu resora.
+Dodajmy tu bardzo fajnego pomyslu, bo on sie strasznie jezy jak sie krytykuje jego zajebiste kodowanie :) *laugh*
+ 
+Chodzi z grubsza o to, ze offense wywala rozne teksty jak sie goscia skiluje z jakiegos spella, jak sie mu zada dama, jak sie samemu przez nieuwage ze spella dostanie, jak ... sam nie wiem jeszcze co, ale wyglada ladnie
+ 
+Co tam jeszcze, no, helpa trzebaby zaczac tlumaczyc. No i masa innych rzeczy. Opisy ras porobic, tych dla graczy, rozniaste mantyki.
+ 
+Postaram siem przygotowac jakiegos cusia z opisem co i jak robic i ci przeslac do konca tygodnia (hmm, to dobry termin, heh).
+ 
+             Maro
+P.S. Aaa, progi chce do helpa poopisywac lepiej jeszcze.
+~
+M976615953
+Razor~
+{B[bugi sio                        ]{x {WTue Dec 12 11:12:33 2000
+{x~
+Ok bugi z obj triggerem put usuniety, to samo z delay dla mobow
+delay dla roomow bedzie stosunkowo ciezki do naprawy bo by wymagalo
+sprawdzania wszystkich roomow dosc czesto, pewnie by spowolnilo
+no wiec jako swego rodzaju rozwiazanie mozna komus walnac waita z komendy
+mob reward ktos wait iles
+zeby przestal sobie w miejscu zanim prog sie nie skonczy :)
+hehe 
+~
+M976622632
+Razor~
+{B[pierwszy nieoficjalny betatesting]{x {WTue Dec 12 13:03:52 2000
+{x~
+wypadl ok
+kilka bugow znaleziono, ale ogolnie jest fajnie
+~
+M976698667
+Agron~
+{B[rent                            ]{x {WWed Dec 13 10:11:07 2000
+{x~
+No chcialem napisac ze rent nie dziala, bo wczoraj zaparkowalem mieciem w carrallakowskim rencie a disiaj go odpalilem i znowu w lokacji startowej byl :(
+Agron
+~
+M976710993
+Maro~
+{B[Kto na liscie                   ]{x {WWed Dec 13 13:36:33 2000
+{x~
+Ci co sa i moga pisac (pisze sie na killer-mud@killer.radom.net) to sa i wiedza o tym, poza tym zapisalem Feeriala, Azraduna i Vovina, jak nie chcecie chlopaki to was moge wypisac.
+Jak ktos jeszcze chce niech da mi adres to sie go zapisze.
+ 
+           Maro
+~
+M976717881
+Agron~
+{B[spotkanie                       ]{x {WWed Dec 13 15:31:21 2000
+{x~
+piatek o 14-00 odbieramy Cromm z metra PW, juz sie z nim umowilem, mam nadzieje ze tym razem bedzie...
+nastepny ruch -> umawiamy sie po 14-00 przed gmachem glowny PW, moze cobysmy sie poznali z Xyntia, to dokladniej pod choinka???? oki, bo taka duza choinke postawili przed gmachem
+no to po 14-00 pod choinka....
+see ju w Piatek :)
+Agron
+~
+M976795695
+Xyntia~
+{B[spotkanie                       ]{x {WThu Dec 14 13:08:15 2000
+{x~
+No dobra, a jak mnie nie poznacie? To co wtedy? ;-)
+~
+M976796722
+Agron~
+{B[spotkanie                       ]{x {WThu Dec 14 13:25:22 2000
+{x~
+to napisz nam jak wygladasz nie?
+Agron
+~
+M976799098
+Maro~
+{B[Ja                              ]{x {WThu Dec 14 14:04:58 2000
+{x~
+Moje zdjecie jest widoczne jak wchodzisz na muda (te takie w ascii) to nie zadane smok ani krowa jak glosza plotki tylko Maro, czyli ja.
+ 
+              Maro
+~
+M976811522
+Agron~
+{B[help                            ]{x {WThu Dec 14 17:32:02 2000
+{x~
+Help bez wirusow juz jest, jak kto chce to niech ...siem zglasza
+Acha zaczalem pisac standardowe statsy dla rzeczy i mobow, w przysszlym tygodniu powinno byc skonczzzone...
+Agron pisarczyk
+~
+M976812252
+Agron~
+{B[to: maro                        ]{x {WThu Dec 14 17:44:12 2000
+{x~
+Spoko dragolance ci jutro przyniose..
+Pamietac o ksiazkach
+pamietac o ksiazkach
+pamietac o ksiazkach
+pamietac o ksiazkach
+no chyba przyniose
+Agron
+~
+M976850248
+Azradun~
+{B[Do tylu                         ]{x {WFri Dec 15 04:17:28 2000
+{x~
+Heh.
+Ku mojemu wielkiemu zdziwieniu, nie moge usunac zadnego reseta.
+Zwalilo sie cos czy jak?
+W zwiazku z tym nie ponosze odpowiedzialnosci za pewne szkody, powstale
+w wyniku niemoznosci usuniecia powyzszych.
+ 
+Azradun {YThe Reset Unabled Light of Justice{x(forever tm)
+~
+M976850600
+Azradun~
+{B[???                             ]{x {WFri Dec 15 04:23:20 2000
+{x~
+Hmmm, czegos tu nie rozumiem.
+Dzialania na resetach nie wystarcza, zeby zapisac cos w kraince.
+Symptomy:
+Usuwam reset, po czym robie asave changed.
+Szczesliwy i bez zlych przeczuc robie copy.
+Mob, ktorego wywalilem nadal jest???
+ 
+Efekty:
+Po zmianach w resecie musze dodatkowo
+edytowac moba/obiekt/cokolwiek by zapisac.
+Totalna paranoja.
+ 
+To mialo byc zamierzone?
+Jezeli tak, to pzyznaje, ze jestem za ciemny:)
+ 
+Azradun {yThe {bDark{y Light of Justice{x(tm)
+~
+M976873041
+Korbi~
+{B[to: azradun                     ]{x {WFri Dec 15 10:37:21 2000
+{x~
+NIe bawi mnie napis przy wejsciu:
+Agron : Imie nie dozwolone.
+Wiec jesli celowo stworzyles moba i name agron to to przemysl, jesli nie celowo to cie uswiadamiam ze jesli mob ma imie agron to zaden gracz chociazby byl stworzony wczesniej sie juz na takie imie nie zaloguje.
+Obrazony Agron
+~
+M976873198
+Razor~
+{B[resety                          ]{x {WFri Dec 15 10:39:58 2000
+{x~
+zesz w morde juz chyba ktorystam pisze ze resety nie sa w olce
+asave changed NIE ZAPISZE!!!! krainki jesli jedyna zmiana bylo wywalenie dodanie reseta
+ 
+ 
+no i napisze jeszcze raz dla tych co nie zrozumieli pierwszej czesci
+ 
+asave changed NIE ZAPISZE!!!! krainki jesli jedyna zmiana bylo wywalenie dodanie reseta
+ 
+no dobra jak sobie radzic? asave nr_krainy albo asave world
+~
+M976888429
+Azradun~
+{B[to agron                        ]{x {WFri Dec 15 14:53:49 2000
+{x~
+Przepraszam za ten chamski wybryk.
+Nie stworzylem tego moba po to, zebys nie wszedl.
+Chcialem przetestowac pewien prog. Nic az tak wkurzajacego jak Nieswiety:)
+Pol nocy ladowalem progi w decoya (falszywy Azradun) i nic.
+Znaczy sie zaden, obojetnie jaki i obojetnie jak triggerowany prog
+nie dzialal mi na tym mobie....
+Z frustracji wychodzac zapomnialem wywalic moba do testow.
+ 
+Ech... rano jednak sobie o nim przypomnialem:P
+Ale wtedy pewnie juz bylo za pozno...
+ 
+Jezeli czujesz sie obrazony, przepraszam jeszcze raz.
+To sie juz nie powtorzy.
+ 
+Skruszony
+Azradun {YThe {yDimmed{Y Light of Justice{x(tm)
+~
+M976989300
+Kahn~
+{B[BUG, I TO JAKI!!!               ]{x {WSat Dec 16 18:55:00 2000
+{x~
+Witajcie,
+ 
+Otoz znalazlem BUGa, ochydnego robala ktory uczynil sie malo widocznym,
+Oto jego charakterystyka, licze, ze go odnajdziecie i anihilujecie...:
+ 
+Odmiana objectow i mobow pisana jest duza litera, daje to efekt:
+Uderzenie Buga rani Cie!
+Zas short_desc mala...:
+straznik spi tutaj.
+Moze od tego buga nie zalezy czyjes zycie, ale przeszkadza:)))
+Mi przynajmniej:))))
+ 
+Kahn {WLaMeReK{x
+~
+M976992211
+Kahn~
+{B[Koniec 'leniuchowania';)        ]{x {WSat Dec 16 19:43:31 2000
+{x~
+Postanowilem przestac sie obijac i cos zrobic, efekty mojej 2-godzinnej pracy
+mozecie ogladac w okolicach vnum'u 3921, narazie same nazwy ale obiecuje juz
+niedlugo wszystko wypelnic, tylko skoncze te napisy...
+ 
+A tego bedzie duzo, wiec ma ktos troche wolnych vnumkow? Stworzylem juz sobie
+2-ga krainke ale vnumy szybko sie wyczerpuja...
+ 
+Pozatym, potrzebuje czyjejs pomocy. Jezeli ktos ma troszke wolnego czasu i mu sie nudzi to polecam siebie, informacje bede chetnym na priv przesylal(mailem): piotreq@komorka.org
+ 
+UWAGA! Jest to duza praca (parenascie budynkow, ale za to jakich ;))))
+ 
+Kahn {WLaMeReK{x
+~
+M977086352
+Tullaris~
+{B[to: Razor                       ]{x {WSun Dec 17 21:52:32 2000
+{x~
+no hey
+na koncie muda masz te czarki, ktore dzialaja (choc nie wszystkie do konca)
+tzn nie bawilem sie na razie w innych plikach, np floating disc nie dziala jeszcze
+tak jak trzeba, bo mnie zbombardowali iloscia porzadkow swiatecznych w domu
+ale po swietach powinno byc wszystko skonczone
+ 
+co do edytora off-line
+bylem na stronce cygwina i wyglada na to, ze jesli programik
+sie skompiluje pod linuxem, to z cygwinem bedzie go mozna skompilowac pod winda
+teraz jest tylko pytanie: czy dajemy caly kod muda i nich sie tam mecza
+czy robimy osobny edytor do krainek i pozniej to kompilujemy pod winda
+co do edytora(czystego) to bede sie mogl nim pobawic przez swieta, bo pewnie mi sie bedzie nudzic
+heh ja to w domu chyba tylko sie nudze
+no chyba, ze na piwo ze znajomymi ide :)
+ 
+poczytaj sobie plik skills.new, bo tam napisalem pare propozycji i poprawek do czarow
+kaplana (tych co nie dzialaly nie wiadomo czemu)
+ 
+Tullaris
+~
+M977128613
+Agron~
+{B[pwipe                           ]{x {WMon Dec 18 09:36:53 2000
+{x~
+Zrobilem maly pwipe....
+Wiec jak komus zginely postacie to niech sobie zalozy nowe....
+I niech sobie przy tym pomysli ze bardzo mi przykro z tego powodu...
+Agron
+~
+M977139315
+Agron~
+{B[sectory                         ]{x {WMon Dec 18 12:35:15 2000
+{x~
+No wiec bedac z Marem w sobote u Razora zrobilismy sectory...
+Jest ich duzo wiecej i w zaleznosci od nich bedzie:
+rozna szybkosc memowania, odsypiania hp, na niektorych bedzie sie dostawac obrazenia....
+w niktorych nie da sie memowac albo restowac (na przyklad plynac)...
+no i takie tam
+Bedzie to jak razor przyniesie heh
+Agron
+~
+M977151553
+Razor~
+{B[ano juz sa                      ]{x {WMon Dec 18 15:59:13 2000
+{x~
+Nowe sektory juz sa, jak ktos nie bardzo wie co sie z tym wiaze niech sie pobawi :)
+Ok a teraz co jest co:
+Mv_loss - ile mv schodzi podczas lazenia po tym sektorze
+Heal - wiadomo + iles % leczenie
+Mem - o tyle krocej sie memuje, ujemna o tyle dluzej (dla tych co maja problemy z matma :))
+Wait - ile trwa lazenie po sektorze :)
+~
+M977358256
+Tullaris~
+{B[to all                          ]{x {WThu Dec 21 01:24:16 2000
+{x~
+Hmm no wiec bede sztampowy...
+Wesolych swiat, szczesliwego nowego millenium
+Smacznej choinki, wesolego karpia....
+owocnej pracy z krainkami i kodem (heh)
+ 
+Tullaris
+~
+M977392600
+Maro~
+{B[Szczesliwych                    ]{x {WThu Dec 21 10:56:40 2000
+{x~
+Roznych takich zyczy Maro
+~
+M977398043
+Agron~
+{B[Swi(e)nta                       ]{x {WThu Dec 21 12:27:23 2000
+{x~
+Ho ho ho
+znaczy sie bogatych prezentodawcow i pijanego sylwka zyczy
+Agron
+~
+M977410844
+Razor~
+{B[ja tez                          ]{x {WThu Dec 21 16:00:44 2000
+{x~
+Dolaczam sie do nizej wymienionych zyczen:)
+Resor
+~
+M977426097
+Kahn~
+{B[& Ja                            ]{x {WThu Dec 21 20:14:57 2000
+{x~
+Tez chcialbym sie do ww. zyczen dolaczyc,
+A wiec:
+Duzo szczescia, radosci, natchnienia, bystrego oka do wypatrywania BUGow,
+etc. etc.
+ 
+Kahn {WLaMeReK{x
+~
+M977494217
+Azradun~
+{B[U2... ups, me too               ]{x {WFri Dec 22 15:10:17 2000
+{x~
+Wszystkim zycze wesolych swiat!
+I niech przyjdzie do Was Swiety, a nie Nieswiety Mikolaj:P
+ 
+Azradun {YThe Lights of Justice on the {gChristmas Tree{x(tm)
+~
+M977494148
+Furgas~
+{B[A ja nie chociaz tez            ]{x {WFri Dec 22 15:09:08 2000
+{x~
+Udalo mi sie dorwac do kompa przed wyjazdem do domciu,
+wiec skladam takze zyczenia, oby wszystko Wam sie w zyciu
+super ulozylo, zeby Killerek ruszyl i rosl w sile jak najszybciej
+no i zebyscie wytrzymali moje glupie teksty i inne takie;)
+No i of kors udanego sylwka:)
+ 
+Furgas {BKochajacy{x {WGniew{x Wiatru
+~
+M977833916
+Cromm~
+{B[tytol o zjezdzie w Toruniu      ]{x {WTue Dec 26 13:31:56 2000
+{x~
+Jesli nic Ci nie wypadlo i mozesz w dalszym ciagu pojechac do Torunia
+musimy sie szybko spotkac.  I umowic na spotkanie.  Moj mail cromm@go2.  Pl 
+~
+M978306936
+Kahn~
+{B[Witajcie w 2001!!!              ]{x {WMon Jan  1 00:55:36 2001
+{x~
+Jak w temacie :-)
+ 
+Kahn alias Vest
+ 
+Ps. Bylem 1 w nowym stuleciu na tym Mudzie :-))))))0
+~
+M978339566
+Maro~
+{B[Heh :)                          ]{x {WMon Jan  1 09:59:26 2001
+{x~
+Wlasnie se wlazlem z rana i mysle ... bede pierwszy, a tu niiiee :) Znowu siem nie udalo :)
+ 
+             Maro
+~
+M978517674
+Agron~
+{B[taaa                            ]{x {WWed Jan  3 11:27:54 2001
+{x~
+No to jestem ktorys z koleji, ta bo pociagiem jechalem
+a tak wogole to od dziasiaj alkoholowi mowie nie NIE!
+wiec jak chcecie isc na piwo to ja prosze tylko cole
+Agron
+~
+M978549488
+Tullaris~
+{B[to: Razor                       ]{x {WWed Jan  3 20:18:08 2001
+{x~
+hmm cos sie spieprzylo w shootcie
+nie wiem gdzie i kiedy, ale nie dziala jak w kogos trafi
+nie chce mi sie tego teraz sprawdzac, zreszta pewnie zaraz mnie
+z kompa wypieprza.. mozesz na to zerknac?
+sypie sie wtedy, gdy w kogos strzelasz i on dostaje.
+aa i jeszcze jest literowka.. napisz samo shoot i sam zobaczysz
+~
+M978620648
+Razor~
+{B[news                            ]{x {WThu Jan  4 16:04:08 2001
+{x~
+ok news!
+poczytac ksiazke vnum 50 i 51
+ponadto nowy trigger mobikow ask
+nara
+~
+M978726431
+Kahn~
+{B[to: Agron                       ]{x {WFri Jan  5 21:27:11 2001
+{x~
+at 3921 read 4 ;-))))
+ 
+Pzdr,
+ 
+Kahn {WLaMeReK{x
+~
+M978792191
+Mittamus~
+{B[Razor                           ]{x {WSat Jan  6 15:43:11 2001
+{x~
+Zwracam sie z prosba o przyznanie mi Vnumow
+Po propozysji Furgasa i Azraduna postanowilem sprobowac swych sil
+~
+M978796876
+Augur~
+{B[Pare propozycji...:>            ]{x {WSat Jan  6 17:01:16 2001
+{x~
+Mam pare propozycji...:
+Po pierwsze zeby zmienic kolor mobow, bo ich nie widac na tle opisu lokacji
+powiedzmy na zielony :)
+Po drugie zeby zmienic logo lokacji, chodzmi mi tu o np. "Plac targowy" :>
+na kolor bialy -> {W :)) {w
+Po trzecie zeby przetlumaczyc sociale na jezyk polski, czemu ma byc smile
+a nie usmiech, w koncu to ma byc polski mud :>
+ 
+Augur The Augurer
+~
+M978834783
+Azradun~
+{B[Sac i jego Brak                 ]{x {WSun Jan  7 03:33:03 2001
+{x~
+Notke te pisze z punktu widzenia zwyklego gracza.
+ 
+Uwazam usuniecie komendy sac za wielki blad.
+Uzasadniam ponizej.
+ 
+{MPrimo:{x
+Spowoduje to wielkie zasmiecenie muda. Grajac na Studni
+zauwazylem, ze wiele osob (lacznie ze mna) nie lubi
+lokacji zasmieconych setkami gratow. A jesli jeszcze do braku
+saca dodac pomysl wypadania gratow z rozkladajacych sie cial,
+bedziemy na tym mudzie mieli smietnik hen pod niebiosa.
+ 
+Nie zaradzi temu armia janitorow. Wyobrazcie sobie krainke
+w stylu pustynia lub moje Bartmandal (nawiedzony, opustoszaly dom
+rodem z horroru) po ktorym biega... sprzataczka. A moze 
+porzadnicki wielblad albo zombie- czyscioszek? Zarznie to klimat.
+ 
+Nie pomoze wydzielona urna do sacowania. Dzis rano, wchodzac
+1-levelowa postacia na Studnie, spojrzalem do urny na dary.
+Co zobaczylem? Nic. Skoro po usunieciu komendy donate gracze
+musieli tylek ruszyc, by cos tam wrzucic, urna momentalnie
+opustoszala. Nie ludzcie sie, ze tutaj bedzie inaczej.
+ 
+{gCiag dalszy w notce nr dwa.{x
+~
+M978835518
+Azradun~
+{B[Sac i jego Brak II              ]{x {WSun Jan  7 03:45:18 2001
+{x~
+{gCiag dalszy z poprzedniej notki{x
+ 
+Nie mowcie mi, ze jest purge. Purge jest dla bogow, nie zwyklych
+graczy. Zwyklych graczy, ktorzy beda musieli po kolana brodzic w smieciach.
+ 
+{MSecundo:{x
+Jest tu komenda suicide? Zabic sie np przez kill azradun nie mozna.
+Co ma zrobic gosciu, ktory sie znalazl w sytuacji bez wyjscia,
+bez mozliwosci pomocy? Zdeletowac sie moze?
+ 
+Bo saca oczywiscie juz nie zrobi.
+No i w zasadzie to wszystko, co moge i chce powiedziec.
+ 
+Azradun {YThe Ultimate Sacrifice Light of Justice{x(tm)
+~
+M978836608
+Azradun~
+{B[222 Sac i jego Brak : Suplement ]{x {WSun Jan  7 04:03:28 2001
+{x~
+Heh. Przepraszam za tak dluga notke.
+Po prostu musialem tyle napisac.
+ 
+Nastepnym razem lepiej to sobie rozplanuje.
+I napisze jeszcze wiecej...
+ 
+Azradun {YThe Gimme Shelter From The Trash Light of Justice{x(tm) 
+~
+M978863117
+Kahn~
+{B[re o Sacu                       ]{x {WSun Jan  7 11:25:17 2001
+{x~
+Witajcie!
+Otoz Azradun, nie masz racji - Nie bedzie smietnika
+Biorac pod uwage, ze graty nie beda walac sie po ziemi tuz po rebocie
+To wszystko co wartosciowe - Gracze beda trzymac i placic za to (rent)
+Reszta - Po rebocie zniknie a stosow z zbednymi gratami nie bedzie
+Poniewaz by zebrac tyle ekwipunku co na Kuzni gracze na 90 levie
+zbieraja w 10 minut tu trzeba bedzie popracowac... poltora godziny?
+Tam bez sac'a bylby smietnik bowiem Heros wpadajacy do 1 lepszej krainki
+Rozwala wszystkie moby po koleji nie tracac wlasciwie hp, a tutaj?
+Tutaj 30levelowa postac (najwyzszy poziom smiertelnych) moze
+zostac pokonana przez 1 levelowego moba!! Oczywiscie dziala to w obie strony
+1 levowiec moze przeskoczyc pare levow bijac boskiego (40lev) moba!
+ 
+Chyba skoncze juz bo temat zmieniam...
+ 
+ 
+Podsumowaujac ---> Nie bedzie smietnika! Gracze ze wzgledu na potrzebe 
+oszczednosci kasy beda biegac do sprzedawcow, a tacy ktorzy beda dawac wiecej
+beda warci przejscia tych paru krainek. 
+ 
+ 
+Kahn The {RIntelektualysta{x
+~
+M978865686
+Maro~
+{B[Sac                             ]{x {WSun Jan  7 12:08:06 2001
+{x~
+smietnika nie bedzie z roznych powodow. Jak bedzie to sie cos wymysli :) 
+        Maro
+~
+M978939564
+Agron~
+{B[sac                             ]{x {WMon Jan  8 08:39:24 2001
+{x~
+No chodzi o to zeby przedmiotom ktore leza na glebie ustawiac pewien timer, w zaleznosci od materialu czy czegos tam jeszcze.... no i to badziestwo bedzie sie rozpadalo to pewnym czasu lezenia na ziemi...
+Timer mozna tez ustawic w zaleznosci od wartosci (im wartosciowsze tym dluzej), od wlasnosci magicznych, zuzycia itd....
+Agron
+~
+M978943146
+Agron~
+{B[bug                             ]{x {WMon Jan  8 09:39:06 2001
+{x~
+Nie dziala procentowo losowanie jesli sie laduje przedmiot do przedmiotu...
+znaczy sie laduje sie zawsze...
+Agron
+~
+M978956490
+Maro~
+{B[Re: Agron                       ]{x {WMon Jan  8 13:21:30 2001
+{x~
+Tez tak wlasnie gadalem z resorem, ze od czegos uzaleznic timer, jakby wzieli z gleby to by sie przestawalo liczyc etc.
+ 
+        Maro
+~
+M978974781
+Kahn~
+{B[Poszukiwana: Nazwa              ]{x {WMon Jan  8 18:26:21 2001
+{x~
+Jezeli ktos ma pomysl dla mojego nowego miasteczka---> Slijcie do mnie
+lub na tablicy zostawiajcie Bo mi sie pomyslowosc skonczyla :-))))) 
+ 
+Kahn {WLaMeReK{x (building)
+~
+M979033532
+Maro~
+{B[Uporzadkowane krainy            ]{x {WTue Jan  9 10:45:32 2001
+{x~
+Dzieki Furgasowi, ja tylko przekleilem i sieknalem lekka kosmetyke na poczatku i na koncu :)
+ 
+             Maro
+~
+S

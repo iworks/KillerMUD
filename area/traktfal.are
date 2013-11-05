@@ -1,0 +1,1608 @@
+#AREADATA
+Name +# Trakt Faldharski~
+Builders Feerial~
+VNUMs 2951 2980
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 2951
+Name Lodowy troll~
+Odmiana Lodowego trolla~Lodowemu trollowi~Lodowego trolla~Lodowym trollem~Lodowym trollu~
+Short {pLodowy troll {x~
+Long {pLodowy troll{x czlapie tutaj.~
+Descr ~
+Race troll~
+ActExt 0|ABCEFIT
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -500
+Group 0
+Lang G
+Speaks 6
+Level 13
+Hitroll 1
+HP 5d10+275
+Damage 4d5+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 4 4 4 4
+Stats 96 78 84 90 102 78 78
+Off BR
+OffExt 0|BR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABFHMV
+Parts ABCDEFGHIJKRUV
+Size huge
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2952
+Name pobity cz³owiek paladyn pal_pob~
+Odmiana paladyna~paladynowi~paladyna~paladynem~paladynie~
+Short paladyn~
+Long Pobity cz³owiek le¿y tutaj oparty o drzewo.~
+Descr Ciê¿ko pobity cz³owiek jedynie w obdartych szmatach le¿y tutaj w
+oczekiwaniu na czyj±¶ pomoc lub w³asn± ¶mieræ. Po ranach jakie dostrzegasz
+na jego ciele mo¿na siê ³atwo domy¶liæ, ¿e napadli go zbójcy, zabrali mu
+ca³y dobytek i wiêkszo¶æ ubrania, a jego samego dodatkowo pobili kijami ¿eby
+nie by³ w stanie ich goniæ. Nie zabili go za¶ tylko w nadzieji, ¿e zagryz±
+go wilki lub inne dzikie zwierzêta. 
+~
+Race cz³owiek~
+ActExt 0|ABG
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 13
+Hitroll 0
+HP 12d9+251
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 4 3 4 6
+Stats 120 96 108 120 108 78 78
+Off CIV
+OffExt 0|CIV/1|E
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew grall pal_greet ABCDEFGHI 100~
+MobprogNew tell pal_wstep FGI witaj~
+MobprogNew tell pal_wstep FGI pomoc~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2953
+Name dorosly dzik~
+Odmiana doroslego dzika~doroslemu dzikowi~doroslego dzika~doroslym dzikiem~doroslym dziku~
+Short dorosly dzik~
+Long Doros³y dzik wêszy w poszukiwaniu po¿ywienia.~
+Descr Patrzac na wystajace mu z pyska wielkie kly zastanawiasz sie
+czy walka to na pewno dobry pomysl.
+~
+Race dzik~
+ActExt 0|AEUX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 5
+Hitroll 0
+HP 5d6+70
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack szarza
+XAC 6 6 6 6
+Stats 102 18 18 96 96 78 78
+Off CDNR
+OffExt 0|CDNR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKQRSV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2964
+Name duch opiekun gór boss~
+Odmiana ducha opiekuna gor~duchowi opiekunowi gor~ducha opiekuna gor~duchem opiekunem gor~duchu opiekunie gor~
+Short duch opiekun gor~
+Long Duch opiekun gór unosi siê w powietrzu w stanie pó³snu.~
+Descr Potezna niematerialna postac to Duch Opiekun Gor, jego gigantyczne ponad
+pieciometrowe cialo jest spokojne i skupione, zwykle trwa pograzony w
+medytacji, lecz czasem sie budzi. Jest pokojowo nastawiony i bez powodu
+nikomu z jego reki krzywda sie nie stanie. 
+~
+Race duch~
+ActExt 0|ABGOR/2|C
+Affected 589826 0 0 0
+AffectedExt 0|BQT
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 3
+HP 25d6+500
+Damage 5d5+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack drain
+XAC 10 10 10 10
+Stats 120 150 150 120 120 78 78
+Off H
+OffExt 0|H
+Pos_start sleep
+Pos_def sleep
+Sex male
+Wealth 0
+Form IL
+Parts ABCGHI
+Size giant
+Material unknown
+Comments Zabieram breath'a i energy draina. Dodaje resist na charm 90 - {RLaszlo{x ({CSat Jan 17 18:01:36 2009{x)
+~
+Spells 183 16 185 172
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 50
+Resist 11 1
+Resist 12 90
+Mobend
+#Vnum 2965
+Name stara locha~
+Odmiana starej lochy~starej losze~star± lochê~star± loch±~starej losze~
+Short stara locha~
+Long Stara locha jest wyra¼nie czym¶ zaniepokojona.~
+Descr Patrz±c na wystaj±ce z jej z pyska wielkie k³y zastanawiasz siê czy walka
+to na pewno dobry pomys³. 
+~
+Race ¶winia~
+ActExt 0|AUX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang 0
+Speaks 0
+Level 6
+Hitroll 0
+HP 6d6+86
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack gryzienie
+XAC 6 6 6 6
+Stats 108 30 30 102 108 78 78
+Off CDNRY
+OffExt 0|CDNRY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRS
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2964
+Name drogowskaz~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr Drewniany drogowskaz ledwo co wystaje spod sniegu.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc POLNOC: Sniezne Zaspy - droga do Zimnych Jezior i Easterial
+POLUDNIE: miasto Arras
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2951
+Name Zimna polana~
+Descr Trawersujaca dró¿ka z po³udnia przechodzi tu w rozlegla polane. Wkolo
+jest dziwnie wilgotno i chlodno a wystajace spod darni skaly pokrywa
+gdzieniegdzie szron, przez co cala polana lsni dziwnym blaskiem oblodzonych
+i oszronionych kamieni. Polnocna czesc polany pokryta jest juz czesciowo
+sniegiem a resztki roslinnosci skrza sie lodowym blaskiem. W oddali na
+polnocy majacza jakies drzewa a wszystko pokrywaja sniezne zaspy. W dole na
+poludniu widac punkt widokowy i jakas sciezke przez lake. Na pó³nocy droga
+wiedzie prosto w las. 
+~
+FlagsExt 0|V
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2952
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2952
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1498
+ExitExtEnd
+Exit 2
+~
+~
+0 0 1498
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2952
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w lesie na po³udniowym zboczu, na drodze prowadzacej do przeleczy
+Faldhar na obrzezu Gor Bialych. Droga zaczyna sie wspinac po zboczu, tutaj
+trakt przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim.
+Wokol ciebie coraz wiecej sniegu, tworzy on niewielkie zaspy po obu stronach
+i tak trudno przejezdnej drogi. Spod bialego puchu wyzieraja krzaki i spore
+kepy traw. Las jakby przerzedza sie ku po³udniu. Droga prowadzi dalej na
+polnoc przez las do przeleczy i na po³udnie po gorskim zboczu przez rzednacy
+las.
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2953
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2953
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2951
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2951
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2953
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w lesie na po³udniowym zboczu, na drodze prowadzacej do przeleczy
+Faldhar na obrzezu Gor Bialych. Droga zaczyna sie wspinac po zboczu, tutaj
+trakt przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim.
+Wokol ciebie coraz wiecej sniegu, tworzy on niewielkie zaspy po obu stronach
+i tak trudno przejezdnej drogi. Spod bialego puchu wyzieraja krzaki i spore
+kepy traw. Las jakby przerzedza sie ku po³udniu. Droga prowadzi dalej na
+polnoc przez las do przeleczy i na po³udnie po gorskim zboczu przez rzednacy
+las. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2954
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2954
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2952
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2952
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2954
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w lesie na po³udniowym zboczu, na drodze prowadzacej do przeleczy
+Faldhar na obrzezu Gor Bialych. Droga zaczyna sie wspinac po zboczu, tutaj
+trakt przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim.
+Wkolo wszystko pokryte jest sniegiem i blyszczacym szronem. Spod bialego
+puchu wyzieraja krzaki i spore kepy traw. Las jakby przerzedza sie ku
+poludniu. Droga prowadzi dalej na pó³noc przez las do przeleczy i na
+poludnie po gorskim zboczu przez rzednacy las.
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2955
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2955
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2953
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2953
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2955
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w lesie na po³udniowym zboczu, na drodze prowadzacej do przeleczy
+Faldhar na obrzezu Gor Bialych. Droga zaczyna sie wspinac po zboczu, tutaj
+trakt przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim.
+Wkolo wszystko pokryte jest sniegiem i blyszczacym szronem. Spod bialego
+puchu wyzieraja krzaki i spore kepy traw. Las jakby przerzedza sie ku
+poludniu. Droga prowadzi dalej na pó³noc przez las do przeleczy i na
+poludnie po gorskim zboczu przez rzednacy las. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2956
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2956
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2954
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2954
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2956
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w gestym lesie na po³udniowym zboczu niedaleko przeleczy Faldhar,
+gdzies w Gorach Bialych. Droga pnie sie stromo po zboczu, tutaj trakt
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na pó³noc do przeleczy i w dol
+na po³udnie stromo po gorskim zboczu przez dosc gesty las.
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2957
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2957
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2955
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2955
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2957
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w gestym lesie na po³udniowym zboczu niedaleko przeleczy Faldhar,
+gdzies w Gorach Bialych. Droga pnie sie stromo po zboczu, tutaj trakt
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na wschod do przeleczy i w dol
+na po³udnie stromo po gorskim zboczu przez dosc gesty las. Na zachód miêdzy
+drzewa wybiega w±ska ¶cie¿ka, wygl±da na raczej rzadko u¿ywan±. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2958
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2958
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2956
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2956
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17998
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17998
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2958
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w gêstym lesie na po³udniowym zboczu niedaleko prze³êczy Faldhar,
+gdzies w Gorach Bialych. Droga pnie sie stromo po zboczu, tutaj trakt
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na pó³noc do przeleczy i w dol
+na po³udnie stromo po gorskim zboczu przez dosc gesty las. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2959
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2959
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2957
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2957
+Roomprog reset pal_reset 100~
+Roomprog entry pal_loadstart 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2959
+Name Droga do przeleczy Faldhar~
+Descr Stoisz w gestym lesie na po³udniowym zboczu niedaleko przeleczy Faldhar,
+gdzies w Gorach Bialych. Droga pnie sie stromo po zboczu, tutaj trakt
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na wschod do przeleczy i w dol
+na po³udnie stromo po gorskim zboczu przez dosc gesty las.
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2960
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2960
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2958
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2958
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2960
+Name Droga przez przelecz Faldhar~
+Descr Stoisz w gestym lesie na po³udniowym zboczu niedaleko przeleczy Faldhar,
+gdzies w Gorach Bialych. Droga pnie sie stromo po zboczu, tutaj trakt
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na pó³noc do przeleczy i w dol
+na zachod stromo po gorskim zboczu przez dosc gesty las.
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2961
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2961
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2959
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2959
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2961
+Name Droga przez przelecz Faldhar~
+Descr Stoisz w gestym lesie na po³udniowym zboczu niedaleko przeleczy Faldhar,
+gdzies w Gorach Bialych. Droga pnie sie stromo po zboczu, tutaj trakt
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na pó³noc do przeleczy i w dol
+na po³udnie stromo po gorskim zboczu przez dosc gesty las. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2960
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2960
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2962
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2962
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2962
+Name Droga przez przelecz Faldhar~
+Descr Stoisz w gestym lesie na po³udniowym zboczu tuz pod sama przelecza
+Faldhar, gdzies w Gorach Bialych. Teren nieco lagodnieje i trakt lagodnie
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Droga prowadzi dalej na pó³noc na srodek polany i w
+dol na po³udnie stromo po gorskim zboczu przez dosc gesty las. 
+~
+FlagsExt 0
+Sector 16
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2963
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2963
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2961
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2961
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2963
+Name Droga przez przelecz Faldhar~
+Descr Jestes na po³udniowym skraju niewielkiej polany na przeleczy Faldhar,
+gdzies w Gorach Bialych. Teren nieco lagodnieje i trakt lagodnie przecina
+lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo wszystko
+pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja niewielkie
+krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod ciezarem
+snieznych czap. Droga prowadzi dalej na pó³noc na srodek polany i w dol na
+poludnie stromo po gorskim zboczu przez dosc gesty las. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2964
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2964
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2962
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2962
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12270
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12270
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2964
+Name W Faldharskiej stra¿nicy~
+Descr Ongi¶ by³a tu jedynie le¶na polana, lecz teraz stoi tu kamienna
+stra¿nica, której wybudowanie op³aci³y w³adze Arras. Budowla ta stanê³a na
+prze³êczy Faldhar, strategicznym punkcie obrony cywilizowanych ziem przed
+barbarzyñcami z pó³nocy. Takie te¿ jest przeznaczenie owej stra¿nicy i
+zadanie obsadzaj±cych j± ¿o³nierzy - strze¿enie bezpieczeñstwa po³udniowych
+terenów i utrzymywanie kontaktu miêdzy Arras i Easterial - jedyn± ostoj±
+cywilizacji na tych srogich ziemiach. Przy jednej ze ¶cian tunelu, jaki
+przecina budowlê z pó³nocy na po³udnie, widzisz solidn±, drewnian± drabinê,
+prowadz±c± do wnêtrza stra¿nicy. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 2965
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 2965
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2971
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2971
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2963
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2963
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2973
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2973
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12261
+ExitExtEnd
+Exit 4
+~
+~
+0 0 12261
+Roomprog exit 2971 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2965
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na drodze prowadzacej na po³udnie ku przeleczy
+Faldhar oraz na pó³noc w dol ku ogromnej snieznej rowninie pokrytej
+snieznymi pagorkami, skarpami i wiekszymi wyniesieniami pomiedzy którymi
+lawiruja krotkie jary i niewielkie lodowe tunele. Wokol ciebie drzewa prawie
+calkowicie pokrywa snieg a drobna roslinnosc chyba wogole nie istnieje pod
+zwalami zmrozonego sniegu. Droga wiedzie miedzy wysokimi drzewami, miejscami
+ustepujacymi sporym skalno - lodowym wystepom. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2966
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2966
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 2964
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 2964
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2966
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2967
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2967
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2965
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2965
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2967
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom.
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2968
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2968
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2966
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2966
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2968
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w gore
+do przeleczy Faldhar, oraz na pó³nocny wschod w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2969
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2969
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2967
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2967
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9300
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9300
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2969
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na zachod - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2970
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2970
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2968
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2968
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2970
+Name Droga przez przelecz Faldhar~
+Descr Jeste¶ w Górach Bia³ych na do¶æ stromej drodze prowadz±cej na po³udnie -
+w górê do prze³êczy Faldhar, oraz na pó³noc w dó³ ku ogromnej ¶nie¿nej
+równinie pokrytej ¶nie¿nymi pagórkami, skarpami i wiêkszymi wzniesieniami
+pomiêdzy którymi lawiruj± krótkie jary i niewielkie lodowe tunele. Wokó³
+ciebie drzewa prawie ca³kowicie pokrywa ¶nieg a drobna ro¶linno¶æ chyba w
+ogóle nie istnieje pod zwa³ami zmro¿onego ¶niegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustêpuj±cymi sporym skalno-lodowym wystêpom. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2977
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2977
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2969
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2969
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2971
+Name ~
+Descr Jestes na sporej polanie, dokladnie na Przeleczy Faldhar, jak glosi
+tablica, gdzies w Gorach Bialych. Teren nieco lagodnieje i trakt lagodnie
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Daleko na pó³nocy widzisz osniezone szczyty i
+gdzies miedzy chmurami ledwo widoczny polyskujacy stozek gory zwanej Szarym
+Krysztalem. Reszta pozostaje za zaslona lasu. Droga na po³udnie wiedzie prze
+polane a nastepnie w dol po gorskim zboczu. Droga na wschod wiedzie na gore
+Erethe 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2972
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2972
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2964
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2964
+Roomprog exit 2971 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2972
+Name ~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2971
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2971
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2973
+Name Wejscie na Niedzwiedzi Szlak~
+Descr Znajdujesz siê we wnêtrzu stra¿nicy, która - jak siê okazuje - broni
+wiêcej ni¿ jednego przej¶cia. Dowodem na to s± widniej±ce na zachodzie
+drzwi, prowadz±ce na Nied¼wiedzi Szlak. Widzisz tu kilka wisz±cych na
+¶cianach pochodni i herb Arras - z³otego lwa na czerwonym tle. Ponadto jest
+tu ca³kiem pusto, je¶li chodzi o wyposa¿enie - ot, zwyk³a stró¿ówka. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2964
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2964
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 12263
+ExitExtToVnum 2974
+ExitExtEnd
+Exit 3
+~
+~
+7 12263 2974
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2974
+Name Przej¶cie przez góry~
+Descr ~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2975
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2975
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 12263
+ExitExtToVnum 2973
+ExitExtEnd
+Exit 1
+~
+~
+7 12263 2973
+Resources 45 20 0 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 2975
+Name Jaskinia~
+Descr ~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2974
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2974
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2976
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2976
+Resources 45 20 0 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 2976
+Name Skalny tunel~
+Descr ~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2975
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2975
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12266
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12266
+Resources 45 20 0 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 2977
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2978
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2978
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2970
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2970
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2978
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2979
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2979
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2977
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2977
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2979
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2980
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2980
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2978
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2978
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2980
+Name Droga przez przelecz Faldhar~
+Descr Jestes w Gorach Bialych na stromej drodze prowadzacej na po³udnie - w
+gore do przeleczy Faldhar, oraz na pó³noc w dol ku ogromnej snieznej
+rowninie pokrytej snieznymi pagorkami, skarpami i wiekszymi wyniesieniami
+pomiedzy którymi lawiruja krotkie jary i niewielkie lodowe tunele. Wokol
+ciebie drzewa prawie calkowicie pokrywa snieg a drobna roslinnosc chyba
+wogole nie istnieje pod zwalami zmrozonego sniegu. Droga wiedzie miedzy
+wysokimi drzewami, miejscami ustepujacymi sporym skalno- lodowym wystepom.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24901
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 24901
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2979
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2979
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 2953 3 2953 3
+M 100 2953 3 2957 3
+M 100 2965 3 2966 3
+M 100 2965 1 2968 1
+M 100 12261 1 2973 1
+S
+
+
+
+#MOBPROGSNEW
+#pal_greet
+Powitanie paladyna z questu pobity paladyn.
+~
+if !hasflag $n pobpal
+  emote patrzy na ciebie prosz±cym wzrokiem.
+endif
+~
+#pal_wstep
+Wstêp do questu pobity paladyn.
+~
+if hasflag $n pal_pob_running
+  emote patrzy na ciebie z nadziej±.
+  sayto $n Proszê ¶piesz siê, jestem coraz s³abszy.
+  break
+endif
+ 
+sayto $n Witaj. Szkoda, ¿e spotykamy siê w takich okoliczno¶ciach. Ci bandyci robi± siê coraz bardziej zuchwali.
+emote krêci g³ow± z rezygnacj±.
+if hasflag $n pal_pob
+  break
+endif
+ 
+delay 1
+sayto $n Czy by³by¶ tak dobry i pomóg³ mi odzyskaæ ekwipunek?
+responsedelay 10 "nie" "tak" "oczywi¶cie"
+ 
+if !ishere $n
+  break
+endif
+ 
+if response 0
+or response 1
+  emote wzdycha.
+  sayto $n Widzê, ¿e nie ró¿nisz siê zbytnio od tych bandytów.
+  break
+endif
+
+if response 1
+or response 2
+  mob setflag $n pal_pob_running -1
+  emote u¶miecha siê.
+  delay 1
+  sayto $n Bandyci zabrali mi stalow± zbrojê, miecz i rumaka. Rumaka i miecz mo¿esz bez problemu dostaæ od mych braci w Twierdzy Rycerzy Pokoju, je¶li poka¿esz im ten oto pier¶cieñ, który uda³o mi siê ukryæ przed zbójcami.
+  mob remove $n 2951
+  if !carries $i 2951
+    mob oload 2951
+  endif
+  give pier¶cien $n 
+  delay 2
+  sayto $n Zbroja niestety by³a zdobyczna za dawnych czasów jeszcze przez mojego dziadka na jednej z krucjat, na której walczy³ za m³odych lat na Po³udniowych Stepach. Nie bêdzie ³atwo jej zast±piæ.
+  emote próbuje wstaæ trzymaj±c siê drzewa.
+  delay 2
+  sayto $n Jakby¶ by³ w stanie przynie¶æ mi inny stalowy komplet pancerzy by³bym bardzo wdziêczny.
+  emote patrzy na ciebie z nadziej±.
+  delay 2
+  sayto $n Proszê ¶piesz siê poniewa¿ okolica jest zbyt niebezpieczna, a w tej chwili nie mam siê nawet czym broniæ. ¦mieræ mo¿e spotkaæ mnie w ka¿dej chwili. Mimo to spróbujê przedostaæ siê do Easterial. Spotkasz mnie gdzie¶ po drodze przez prze³êcz.
+  delay 2
+  emote prostuje siê i pow³ócz±c nogami kieruje siê na pó³noc.
+  mob purge pal_pob
+endif
+~
+#0
+
+#OBJPROGSNEW
+#be³t_load
+~
+mob otransfer be³t 1
+~
+#kusza_shoot
+~
+if !wears $n 12269
+  break
+endif
+if !hasflag $o kusza_za³adowana
+  mob echoat $n Nieza³adowan± kusz± to mo¿esz najwy¿ej w kogo¶ rzuciæ...
+  break
+else
+  mob echoat $n Unosisz kuszê i przymierzasz siê do strza³u.
+  mob echoaround $n $n unosi kuszê i przymierza siê do strza³u.
+  mob reward $n wait 2
+  minidelay 2
+  mob echoaround $t Be³t leci w stronê $tc i trafia!
+  mob echoat $t {RBE£T TRAFIA CIÊ!{x Co za ból!
+  mob reward $n wait 2
+  obj modflag rem kusza_za³adowana
+endif
+if pos $n fighting
+  mob damageex $t 2 25 50 ustrzel
+else
+  if rand 15
+    mob damageex $t 2 50 75 ustrzel
+  else
+    if rand 88
+      mob reward $t move -30
+      mob addaff $t slow 3
+      mob echoat $t Be³t trafi³ ciê w kolano! Zaczynasz utykaæ.
+      mob echoaround $t Be³t trafi³ $tc w kolano! $t zaczyna utykaæ.
+      mob damageex $t 2 50 75 ustrzel
+      mob reward $n wait 2
+    else
+      if rand 97
+        mob addaff $t hitr -8 2
+        mob echoat $t Be³t wbi³ ci siê w oko! {RCOOO ZAAA BÓÓÓL!!!{x
+        mob echoaround $t Be³t wbi³ siê w oko $tc! Z oczodo³u tryska krew!
+        mob damageex $t 2 400 600 ustrzel
+        mob reward $n wait 2
+        break
+      endif
+    endif
+  endif
+endif
+mob reward $n wait 2
+if !ispc $t
+  minidelay 3
+  mob force $t kill $n
+endif
+~
+#kusza_unload
+~
+if !wears $n 12269
+  break
+else
+  if hasflag $o kusza_za³adowana
+    mob echoat $n Zdejmujesz be³t z ³o¿yska kuszy i zwalniasz ciêciwê.
+    mob echoaround $n $n zdejmuje be³t z ³o¿yska kuszy i zwalnia ciêciwê.
+    obj modflag rem kusza_za³adowana
+    mob oload 12270
+  else
+    mob echoat $n Przecie¿ kusza nie jest za³adowana!
+  endif
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#2971
+~
+mob echoat $n Niestety, droga jest ca³kowicie zasypana ¶niegiem...
+~
+#pal_loadstart
+~
+break
+if !hasflag $n pal_pob
+and !hasflag $n pal_pob_running
+and !mobhere 2952
+mob mload 2952
+endif
+~
+#pal_reset
+~
+if players == 0
+mob purge pob_pal
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

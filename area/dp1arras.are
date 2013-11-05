@@ -1,0 +1,1281 @@
+#AREADATA
+Name +# Droga Poludniowa~
+Builders None~
+VNUMs 2630 2649
+Credits Tworca: Feerial, Poprawki: Garloop~
+Locked ~
+Security 9
+ResetAge 15
+Region 72
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2630
+Name drewniany drogowskaz znak~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yStoj±cy obok traktu drewniany {Rdrogowskaz{y wskazuje jakie¶ kierunki.{x~
+Material drewno~
+Type trash
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 20
+Cond 100
+Itemdesc PÓ£NOC: Miasto Arras
+PO£UDNIE: Droga Po³udniowa w kierunku miasta Carrallak
+WSCHÓD: Wioska
+ZACHÓD: Cmentarz Arrasyjski
+~
+Comments ~
+Objend
+#Vnum 2631
+Name tort urodzinowy piêknie zdobiony~
+Odmiana tortu urodzinowego~tortem urodzinowym~tort urodzinowy~tortem urodzinowym~torcie urodzinowym~
+Short piêknie ozdobiony tort urodzinowy~
+Descr Wspania³y, piêknie przyozdobiony tort urodzinowy stoi tutaj na tacce.~
+Material jedzenie~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 50
+Cost 250
+Cond 100
+Objprog input tort_urodzinow4 extinguish~
+Objprog input tort_urodzinow4 zdmuchnij~
+Objprog input tort_urodzinow3 light~
+Objprog input tort_urodzinow3 zapal~
+Objprog input tort_urodzinow3 zapal ¶wieczki~
+Objprog precommand tort_urodzinow2 jedz~
+Objprog precommand tort_urodzinow2 eat~
+Objprog input tort_urodzinowy divide~
+Objprog input tort_urodzinowy podziel~
+Objprog input tort_urodzinowy podziel tort~
+Itemdesc Ten przewspania³y tort urodzinowy ol¶niewa wszystkich wokó³ swoim
+blaskiem rozsiewaj±c przemi³±, waniliow± woñ na ca³± okolicê. Ju¿ na sam
+wygl±d prawie d³awisz siê ¶lin±. Mmm... Jak fajnie by bylo zatopiæ swoje
+zêby w miêkkim, nasyconym rumem biszkopcie i poczuæ jak lekka, kremowa
+¶mietanka delikatnie masuje ci podniebienie. Teraz trzeba go podzieliæ,
+chyba, ¿e solenizant zapomnia³ o ¶wieczkach. 
+~
+Comments ~
+Objend
+#Vnum 2632
+Name piêknie pachn±cy kawa³ek tortu~
+Odmiana tortu urodzinowego~kawa³kowi tortu urodzinowego~kawa³ek tortu urodzinowego~kawa³kiem tortu urodzinowego~kawa³ku tortu urodzinowego~
+Short kawa³ek tortu urodzinowego~
+Descr Piêknie pachn±cy kawa³ek tortu urodzinowego rozsiewa wokó³ zapach wanilii.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 12 0 3 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Itemdesc Ten wspaniale pachn±cy kaw±³ek tortu urodzinowego rozsiewa wokó³
+niesamowicie ³askocz±cy nozdrza zapach wanilii. Zosta³ przyozdobiony
+¶wie¿utk± ¶mietank± i prostymi figurkami z cukru. Zapewne masz powód by
+¶wiêtowaæ skoro go masz. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2630
+Name Na Drodze Poludniowej~
+Descr Stoisz na bitej drodze zdolnej pomiescic wszerz dwa zaprzegi. To jeden z
+glownych traktow w tej okolicy. Wokolo rozciagaja sie rowniny, tylko czasem
+krajobraz urozmaicony jest jakims krzewem czy pagorkiem. Na po³udniu po obu
+stronach drogi unosi sie dym z kominow. W oddali, na zachodzie widnieje
+jakas szara budowla. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription Przed toba rozciagaja sie mury miasta Arras.
+Droga prowadzi do po³udniowej bramy miejskiej.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6063
+ExitExtEnd
+Exit 0
+Przed toba rozciagaja sie mury miasta Arras.
+Droga prowadzi do po³udniowej bramy miejskiej.
+~
+~
+0 0 6063
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24688
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24688
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7002
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7002
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24685
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24685
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2631
+Name Skrzyzowanie~
+Descr Stoisz na malym skrzyzowaniu posrod rownin, otaczaja cie laki i trawiaste
+pagorki. Pomiedzy nimi po wschodniej stronie drogi widac kilka poletek i
+waska droge prowadzaca do pobliskiej wioski, o czym swiadczy kilka cienkich
+smuzek dymu na horyzoncie. Po zachodniej stronie drogi leniwie toczy swe
+wody rzeka Sejna, przez która przerzucono niewielki most. Droga prowadzi z
+miasta Arras na pó³nocy na po³udnie w kierunku stepow. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7020
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7020
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2636
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2636
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2632
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2632
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7000
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7000
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2632
+Name Zapylona droga~
+Descr Wciskaj±cy siê wszêdzie py³ jest prawdziwym przekleñstwem tej drogi i
+choæ wiele z jej zalet zdecydowanie przewy¿sza wady, w tej chwil nie jeste¶
+najszczê¶liwsz± istota pod s³oñcem. Z niecierpliwo¶ci± wygl±dasz
+jakichkolwiek oznak aktywno¶ci istot rozumnych. Masz do¶æ pustki i
+bezkresnych krajobrazów, chcesz po prostu gdzie¶ dotrzeæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2631
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2631
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2633
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2633
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24639
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24639
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24643
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24643
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2633
+Name Na zakrecie drogi~
+Descr Wciskajacy sie wszedzie pyl jest prawdziwym przeklenstwem tej drogi i
+choc wiele z jej zalet zdecydowanie przewyzsza wady, w tej chwili nie jestes
+najszczesliwsza istota pod sloncem. Z niecierpliwoscia wygladasz
+jakichkolwiek oznak aktywnosci istot rozumnych. Masz dosc pustki i
+bezkresnych krajobrazow, chcesz po prostu gdzies dotrzeæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2636
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2636
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24621
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24621
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2634
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2634
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2632
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2632
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2634
+Name Zakret drogi za wioska~
+Descr Wciskajacy sie wszedzie pyl jest prawdziwym przeklenstwem tej drogi i choc
+wiele z jej zalet zdecydowanie przewyzsza wady, w tej chwil nie jestes
+najszczesliwsza istota pod sloncem. Z niecierpliwoscia wygladasz
+jakichkolwiek oznak aktywnosci istot rozumnych. Masz dosc pustki
+i bezkresnych krajobrazow, chcesz po prostu gdzies dotrze.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2633
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2633
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24620
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24620
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2635
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2635
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24639
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24639
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2635
+Name Droga przez równinê~
+Descr Stoisz na malym trakcie posrod rownin, otaczaja cie laki i trawiaste
+pagorki. Pomiedzy nimi po wschodniej stronie drogi widac zielone rowniny i
+na pó³nocnym wschodzie w oddali wioske. Po zachodniej stronie drogi plynie
+rzeka. Droga prowadzi na pó³noc do miasta Arras widocznego juz w oddali i na
+poludnie w kierunku rownin i stepow. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2634
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2634
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24619
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24619
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7021
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24638
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24638
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2636
+Name Droga do wsi~
+Descr Waska, gruntowa droga ciagnie sie miedzy pagorkami i poletkami ze wschodu
+na zachod, laczac Droge Poludniowa z t± do¶æ malutk± wiosk±. Otaczaja cie
+pola, z rzadka poprzeplatane malymi krzaczkami. W oddali na wschodzie widac
+juz niewielkie chalupy i maly plac ze studnia z zurawiem. Wioska wyglada
+dosc niepozornie w porownaniu z poteznymi murami miasta Arras na pó³nocy. 
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24647
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24647
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2637
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2637
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2633
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2633
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2631
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2631
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2637
+Name Droga do wsi~
+Descr Troszke droga tu jest zniszczona. Prawdopodobnie padajace deszcze
+rozmiekczyly ja troche a przechodzacy ludzie, nieliczni kupcy i inni
+dopelnili dziela. Posrodku widoczne sa dosc wyrazne koleiny po kolach
+jakichs wozow prawdopodobnie, na obrzezach zas rosnie trawa, wygnieciona tu
+i owdzie konskimi kopytami prawdopodobnie racicami jakiegos innego
+zwierzecia. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24648
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24648
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12260
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12260
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24621
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24621
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2636
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2636
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2638
+Name Male skrzyzowanie kolo skarpy~
+Descr Na dole zalegaja osypane z wysokiego na kilka metrow ziemnego nawisu
+kamienie. Okresowo sa chyba sprzatane, bo skarpa jest solidnie osunieta i
+niemozliwoscia byloby przejechanie tego, gdyby nikt sie nie zajmowal
+kamieniami i ziemia spadajacymi w dol, na droge. Na szczycie skarpy, w
+pewnym oddaleniu od krawedzi rosnie olbrzynmie rozlozyste drzewo, jego
+konary siegaja az nad droge tworzac nad nia swego rodzaju parasol. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5565
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5565
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2644
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2644
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2642
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2642
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2641
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2641
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2639
+Name Na drodze do cmentarza~
+Descr Stoisz na szarej ¶cie¿ce. Z zachodu dobiega do ciebie cichy szum wiatru,
+a okoliczne drzewa i krzewy, pozbawione li¶ci, nie szumi± ³adnie za jego
+spraw±. Nieliczne zwierzêta przemykaj± szybko i ciê¿ko im siê lepiej
+przyjrzeæ w unosz±cej siê, zimnej mgle. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14753
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14753
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7001
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7001
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14756
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14756
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2640
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2640
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2640
+Name Droga do cmentarza~
+Descr Stoisz na szarej ¶cie¿ce. Z zachodu dobiega do ciebie cichy szum wiatru,
+a okoliczne drzewa i krzewy, pozbawione li¶ci, nie szumi± ³adnie za jego
+spraw±. Nieliczne zwierzêta przemykaj± szybko i ciê¿ko im siê lepiej
+przyjrzeæ w unosz±cej siê, zimnej mgle. 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14754
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14754
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2639
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2639
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14757
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14757
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6770
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6770
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2641
+Name {gPastwiska{x~
+Descr ~
+FlagsExt 0
+Sector 42
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5564
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5564
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2638
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2638
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2649
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2649
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14110
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14110
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2642
+Name Droga przy skarpie~
+Descr Skarpa w tym miejscu jest w oddaleniu kilku stop od drogi, stoi stabilnie
+i nie osuwa sie. Cala jej sciana skierowana do drogi jest solidnie
+zarosnieta trawa i jakimis grubymi i starymi chwastami. Podloze wyglada na
+piach wymieszany z kamieniami i prawdopodobnie jeszcze jakims bialym
+mineralem. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2638
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2638
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24606
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24606
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2643
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2643
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2649
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2649
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2643
+Name Droga nieopodal skarpy~
+Descr Droga w tym miejscu jest mo¿e nie tyle wylozona co wysypana z wierzchu
+kamieniami, Moze jakis ch³op czyscil swiezo zakupione pole, a moze
+mieszkancy wioski nieopodal postanowili ja nieco utwardzic. Tego chyba sie
+juz nie dowiesz, ale nie jest to wazne, zwazywszy na to, ze idzie sie po tak
+utworadzonym kawalku gruntu pewniej, lepiej i szybciej. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2642
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2642
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24604
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24604
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2646
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2646
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24605
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24605
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2644
+Name Sciezka na pagorki~
+Descr ¦cie¿ka wznosi siê tutaj lekko i prowadzi do pagórków, które znajduj± siê
+kilkaset metrów dalej. Miejsce to jest poro¶niête nisk± traw± i u samego
+do³u lekko podmok³e. Gdzieniegdzie mo¿na dostrzec kretowiska i dziury w
+ziemi. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24607
+ExitExtEnd
+Exit 0
+~
+~
+16 0 24607
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2645
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2645
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24606
+ExitExtEnd
+Exit 2
+~
+~
+16 0 24606
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2638
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2638
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2645
+Name Pagorek Srodkowy~
+Descr Pagorek jest lekko porosniety krzakami i inna drobna roslinnoscia. Trawa
+jest tu niewysoka i malo gesta, miejscami widac przeswity ziemi.
+Gdzieniegdzie mozna dostrzec wystajace z ziemi glazy, które przynioslo tutaj
+jakies zrzadzenie losu, bo na pewno nikt o zdrowych zmyslach. Najwiekszy z
+nich ma wysokosc ponad szesciu stop i musi pewnie wazyc tyle co dziesiatka
+koni. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2624
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2624
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2644
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2644
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2646
+Name Na Drodze Poludniowej~
+Descr Zaniedbany wyraznie fragment drogi, boki sa wyraznie rozjezdzone i
+zniszczone. Gdzieniegdzie stoja kaluze wody. Koleiny szczegolnie przy
+kaluzach sa glebokie prawie na kolo sredniego wozu, mocno utrudniajac tym
+poruszanie. Jakby dla kontrastu po bokach drogi rosna bia³e kwiatki nic
+sobie nie robiac z nieprzyjemnego, niekorzystnego wygladu calej reszty. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2643
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2643
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24602
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24602
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6986
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6986
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24603
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24603
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2647
+Name Przeprawa przez chaszcze~
+Descr Wszystko dookola jest wrecz niebywale zarosnieta. Drzewa nie stoja moze
+tutaj nadmiernie gesto, wlasciwie nawet rzadko, za to ich konary opadaja az
+do ziemi. Dodatkowo mnostwo tutaj malych iglastych krzewow i pospolitych
+chwastow. Trudno zobaczyc cokolwiek na wiecej niz piec, dziesiec metrow.
+Kiedy spogladas w gore nie widzisz wlasciwie nic. Cale to niekorzystne
+wrazenie poteguje tylko podloze, które jest grzaskie, przez co zapadasz
+sie w nie po kostki co kilka krokow. 
+~
+FlagsExt 0
+Sector 11
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 631
+ExitExtEnd
+Exit 1
+~
+~
+0 0 631
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19477
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 19477
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2648
+Name Pagorek Wysoki~
+Descr Najwyszy zdecydowanie pagorek w okolicy. Rozposciera sie z niego
+wspanialy widok na wszystkie laki, pola i lasy. W oddali dostrzegasz nawet
+rzeke. Z uwagi na to, ze nie jest on wlasciwie porosniety ani drzewami, ani
+krzewami nawet wiatr hula tu dosc swobodnie. Gdzieniegdzie leza tylko
+porozrzucane stare glazy, gdyby nie one pagorek bylby zwyczajnie goly. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 633
+ExitExtEnd
+Exit 5
+~
+~
+0 0 633
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2649
+Name {gPastwiska{x~
+Descr ~
+FlagsExt 0
+Sector 42
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2641
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2641
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2642
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2642
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24605
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24605
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14126
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14126
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 2630 0 2631
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#tort_urodzinow2
+~
+mob echoat $n Tort trzeba najpierw podzieliæ! Chyba nie chcesz zje¶æ do w ca³o¶ci?
+~
+#tort_urodzinow3
+~
+if hasflag $o palace_swieczki
+  mob echoat $n Przecie¿ one nadal siê pal±!
+  break
+endif
+mob echoat $n Z ³atwo¶ci± zapalasz ¶wieczki na torcie urodzinowym.
+mob echoaround $n z ³atwo¶ci± zapala ¶wieczki na torcie urodzinowym.
+mob setflag $o palace_swieczki 5
+~
+#tort_urodzinow4
+~
+if !hasflag $o palace_swieczki
+  mob echoat $n ¦wieczki s± ju¿ przecie¿ zgaszone!
+  mob echoaround $n $n intensywnie dmucha na tort... Przecie¿ ¶wieczki nie zost±³y zapalone...
+  break
+endif
+mob echoat $n Z ca³ej si³y dmuchasz na tort gasz±c dok³adnie wszystkie ¶wieczki.
+mob echoaround $n $n z ca³ej si³y dmucha na swój tort urodzinowy gasz±c wszystkie ¶wieczki... Ciekawe kto to teraz bêdzie 
+jad³?
+mob removeflag $o palace_swieczki
+~
+#tort_urodzinowy
+~
+if hasflag $o palace_swieczki
+  mob echoat $n Zdmuchnij najpierw ¶wieczki. Przecie¿ siê poparzysz!
+  break
+endif
+if !hasflag $o reg_kawalki_tortu
+  mob setflag $o reg_kawalki_tortu 8
+endif
+if objflag $o reg_kawalki_tortu == 1
+  mob echoat $n Przecie¿ ju¿ nic nie zosta³o!
+  mob echoaround $n $n ze smutnym wzrokiem spogl±da na pust± tackê po torcie urodzinowym.
+  break
+endif
+if objflag $o reg_kawalki_tortu == 2
+  mob echoat $n Z lekkim u¶mieszkiem kroisz tort pozostawiaj±c ostatni kawa³ek.
+  mob echoaround $n $n z lekkim u¶mieszkiem kroi tort pozostawiaj±c ostatni kawa³ek.
+  mob oload 2632
+  obj modflag mod reg_kawalki_tortu -1
+  break
+endif
+if objflag $o reg_kawalki_tortu > 1
+  mob echoat $n Powoli odkrajasz kawa³ek tortu szukaj±c nieobs³u¿onych go¶ci.
+  mob echoaround $n $n powoli odkraja kawa³ek tortu szukaj±c nieobs³u¿onych go¶ci.
+  mob oload 2632
+  obj modflag mod reg_kawalki_tortu -1
+endif
+#by Gorst
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

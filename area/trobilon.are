@@ -1,0 +1,3195 @@
+#AREADATA
+Name +# Obilon - trakt elfy/niziolki~
+Builders Obilon~
+VNUMs 14881 14960
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 14881
+Name stra¿nik graniczny nizio³ek~
+Odmiana stra¿nika granicznego~stra¿nikowi granicznemu~stra¿nika granicznego~stra¿nikiem granicznym~stra¿niku granicznym~
+Short stra¿nik graniczny~
+Long Stra¿nik graniczny pilnuje tutaj przej¶cia w przesmyku miêdzy pagórkami.~
+Descr Spogl±dasz na stra¿nika granicy, który jak szybko oceniasz po niewielkim
+wzro¶cie i bujnie ow³osionych, bosych stopach jest zapewne nizio³kiem.
+Przygl±daj±c mu siê uwa¿nie dostrzegasz zmarszczki na jego twarzy. Mo¿na
+zatem ³atwo stwierdziæ, i¿ jest ju¿ w podesz³ym wieku, co wcale nie wyklucza
+bogatego do¶wiadczenia w walce. Po jego minie i zadartym wysoko nosie mo¿na
+szybko doj¶æ do wniosku, ¿e jest wielce zadowolony ze swej pracy, gdy¿ czuje
+siê kim¶ wa¿nym, lepszym od innych. 
+~
+Race nizio³ek~
+ActExt 0|ABKS
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 0
+Group 0
+Lang AS
+Speaks 0
+Level 5
+Hitroll 0
+HP 1d10+75
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 96 108 108 120 96 78 78
+Off FN
+OffExt 0|FN
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew exit niziolki_grani FGI 3~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 14882
+Name wys³annik gildii z³odziei wysl_obilon_v2~
+Odmiana ³otra~³otrowi~³otra~³otrem~³otrze~
+Short wys³annik gildii~
+Long Wys³annik miejscowej bandy ³otrów stoi tutaj blokuj±c przej¶cie.~
+Descr Masz przed sob±, sporego ³otra o masywnej budowie. Ju¿ na pierwszy rzut
+oka widaæ, ¿e ma on w swojej "bran¿y" spore do¶wiadczenie. Krzywa twarz
+wydêta w cyniczny usmieszek nadaje mu wygl±d g³upkowatego dryblasa o
+zdecydowanie zawy¿onej samoocenie. 
+~
+Race cz³owiek~
+ActExt 0|ABCST
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -400
+Group 5
+Lang A
+Speaks 0
+Level 20
+Hitroll 2
+HP 19d1+395
+Damage 4d4+5
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 6 7 7 8
+Stats 144 114 114 138 78 60 120
+Off FNUVY
+OffExt 0|FNUVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 6
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew bribe thief_bribe FGI 25~
+MobprogNew greet thief_greet FGI 100~
+MobprogNew onload thief_clothing ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 14883
+Name ³otrzyk ³otr z³odziej gugu_v2~
+Odmiana z³odzieja~z³odziejowi~z³odzieja~z³odziejem~z³odzieju~
+Short z³odziej~
+Long Jeden z miejscowych ³otrzyków ukrywa siê tutaj pilnuj±c przej¶cia.~
+Descr Je¶li kiedykolwiek mia³e¶ do czynienia z typowymi z³odziejaszkami lub
+innego rodzaju rzezimieszkami to przed tob± widnieje w³a¶nie typowy okaz.
+Lekko zgarbiony, raczej przeciêtnej budowy mê¿czyzna o ma³o inteligentnym
+wyrazie twarzy i wymownym, chciwym spojrzeniu. Mo¿na byæ pewnym, ¿e mimo
+wszystko poradzi³by sobie z niejednym do¶wiadczonym rycerzem. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 66056 0 0 0
+AffectedExt 0|DJQ
+Align 0
+Group 5
+Lang AB
+Speaks 0
+Level 19
+Hitroll 1
+HP 25d6+400
+Damage 6d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 132 120 114 132 78 42 120
+Off BFN
+OffExt 0|BFN
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload thief_clothing ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 85
+Resist 16 85
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 14881
+Name barykada prosta~
+Odmiana barykady~barykadzie~barykadê~barykad±~barykadzie~
+Short prosta barykada~
+Descr {DProsta, drewniana barykada skutecznie tarasuje przej¶cie na pó³noc.{x~
+Material drewno~
+Type trash
+ExtraExt 0|D
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Ta prosta barykada zbudowana zosta³a raczej niewielkim wysi³kiem z
+obalonych pniów okolicznych drzew. Wygl±da na to, ¿e jest to raczej
+prowizoryczna blokada przej¶cia pozwalaj±ca na ³atwiejsz± kontrolê drogi.
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 14881
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Trakt, który ci±gnie ci siê pod stopami, jest tak zapuszczony, ¿e jakby
+daæ mu kilkana¶cie lat, to z pewno¶ci± poch³on±³by go las rosn±cy po obu
+jego stronach. Z pewno¶ci± nie jest to ¿adna g³ówna droga, wiêc nikt nie
+stara³ siê jej utrzymaæ w przyzwoitym stanie. Niedaleko le¿y ociosany
+kamieñ, który by³ kiedy¶ u¿yty do budowy tego traktu. Ko³o niego zieje
+dziura w nawierzchni traktu, pewnie to by³o jego poprzednie miejsce, póki
+co¶ go stamt±d nie wyrwa³o. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14882
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14882
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55163
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55163
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14882
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14883
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14883
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14881
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14881
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14883
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Daleko na pó³nocy, nad drzewami, widzisz majestatyczne góry, które
+pomagaj± ci stwierdziæ, ¿e jeste¶ na dobrej drodze. Las, otaczaj±cy trakt na
+którym siê znajdujesz, jest lasem mieszanym. Drzewa wyros³y od siebie w
+pewnej odleg³o¶ci, wiêc nie masz ¿adnych problemów zobaczyæ tego, co
+znajduje siê dobre kilkana¶cie metrów w g³±b lasu. Trakt, na którym w³a¶nie
+stoisz, nie jest zadbany nawet w najmniejszym stopniu, co krok jest dziura,
+na której z powodzeniem mo¿esz siê wywróciæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14884
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14884
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14882
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14882
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14884
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14885
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14885
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14883
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14883
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14885
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Kontynuuj±c wêdrówkê nie zauwa¿asz wiêkszych zmian w krajobrazie. Twardy
+trakt nie utrudnia zbytnio podró¿y, jednak zaczyna ci siê powoli nudziæ.
+Oprócz ewentualnych towarzyszy nie widzisz dooko³a ¿ywej duszy. Co jaki¶
+czas s³yszysz odg³osy le¶nych mieszkañców ryk nied¼wiedzia, ¶piewy ptaków.
+Wokó³ traktu ci±gnie siê las, a gdzieniegdzie korzenie drzew rozsadzaj±
+trakt. Jazda wozem po takiej drodze na pewno nie bêdzie mi³ym prze¿yciem. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14886
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14886
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14884
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14884
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14886
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14887
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14887
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14885
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14885
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14887
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Pewnie przesz przed siebie my¶l±c o celu wêdrówki. Nie warto jednak
+zbytnio siê tu rozpêdzaæ, gdy¿ st±pniêcie w jedn± z dziur mo¿e skoñczyæ siê
+utrat± paru zêbów lub nawet unieruchomieniem koñczyny. ¦piew ptaków zaczyna
+ciê ju¿ powoli irytowaæ w koñcu ile mo¿na s³ychaæ tego samego. Daleko na
+pó³nocy widnieje zarys wysokich i o¶nie¿onych gór. Z kolei na po³udniu
+widnieje gêsty las, od którego dzieli ciê ca³kiem spory kawa³ek drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14888
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14888
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14886
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14886
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14888
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Im dalej idziesz tym bardziej wydaje ci siê, i¿ b³±kasz siê w kó³ko.
+Ci±g³e omijanie dziur w tym siatkowatym trakcie staje siê naprawdê
+denerwuj±ce. Dar latania by³by tutaj nieoceniony i osoba, która lataæ
+potrafi na pewno nie narzeka³aby na okolicê. Przy drodze rosn± jakie¶ zio³a.
+Byæ mo¿e s± jadalne, ale bez pewno¶ci lepiej nie próbowaæ. W koñcu tyle
+historii mo¿na us³yszeæ o ludziach, którzy nie wiedzieli nic o zio³ach,
+które za¿yli, tym bardziej, i¿ wiêkszo¶æ tych historii ma z³e zakoñczenie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14889
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14889
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14887
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14887
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14889
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Zewsz±d otacza ciê las, na szczê¶cie jest on na tyle rzadki, ¿e ¿aden
+rzezimieszek nie zdo³a³by siê tu ukryæ. Daleko za nim na pó³nocy widzisz
+szczyty gór, za¶ na po³udniu s± tylko drzewa. Od czasu do czasu widzisz
+migniêcie br±zowego futra wiewiórki, która zrêcznie przeskakuje po
+ga³êziach. Pod stopami masz trakt, który lata swojej ¶wietno¶ci ma ju¿ dawno
+za sob±. Zapewne nie jest on ju¿ tak uczêszczany jak kiedy¶, wiêc nikt o
+niego nie dba. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14890
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14890
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14888
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14888
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14890
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Trakt ci±gnie siê tak daleko, jak tylko siêgasz wzrokiem. U³o¿ony jest on
+niechlujnie - nie dziw, ¿e nikt nie zaprz±ta³ sobie g³owy tak ma³o
+uczêszczan± drog±, któr± zapewne ju¿ dawno nie przemierza³ ¿aden kupiecki
+wóz. Naoko³o widzisz las, drzewa iglaste rosn± od li¶ciastych w ca³kiem
+du¿ej odleg³o¶ci sprawiaj±c, ¿e jest on przejrzysty i mo¿esz spojrzeæ
+g³êboko w jego trzewia. Na dalekiej pó³nocy widaæ o¶nie¿one szczyty gór,
+które nawet z tak du¿ej odleg³o¶ci wydaj± siê ogromne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14891
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14891
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14889
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14889
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14891
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14892
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14892
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14890
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14890
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14892
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Trakt w tym miejscu jest bardziej kompletny. Byæ mo¿e jest to dobre
+miejsce na odpoczynek po, na przyk³ad, d³ugiej wêdrówce. Ci±gn±cy siê po
+bokach traktu las jest w tym miejscu naprawdê piêkny, a majestatyczny widok
+gór, oddalonych o naprawdê spor± odleg³o¶æ od ciebie, dodaje temu miejscu
+dodatkowego uroku. No, ale có¿, nic nie trwa wiecznie, trzeba ruszaæ dalej. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14893
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14893
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14891
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14891
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14893
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Pod±¿asz w±sk±, ma³o uczêszczan± drog±. Z obu stron otaczaj± ciê
+kar³owate drzewa. Cieszysz siê w duchu, poniewa¿ mo¿liwo¶æ zasadzki w takim
+miejscu jest ma³o prawdopodobna. Có¿, kryjówka za maleñk± brzoz± jest do¶æ
+¶miesznym pomys³em dla zorganizowanej bandy, a ze swym do¶wiadczeniem
+pojedynczych istot raczej nie obawiasz siê wcale, chyba ¿e legendarnego
+smoka, ale takowy zapewne w tak rzadkim lesie siê nie ukryje... W³a¶ciwie
+to, nie ukryje, bo nie musi - jednym zioniêciem zniszczy³ by ten las. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14894
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14894
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14892
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14892
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14894
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Monotonna droga, wraz ze smutnym zawodzeniem ptaków zaczyna wprawiaæ ciê
+w istnie melancholijny nastrój. Zaczynasz powoli zastanawiaæ siê nad sensem
+¿ycia i istnieniem tego ¶wiata. Patrzysz z pod ciê¿kich powiek na dalekie
+szczyty gór, na otaczaj±ce je lasy, wszystko to wydaje siê takie szare i
+zamglone, tak bardzo odleg³e. Jaki jest cel Twojej wêdrówki? Czy ona kiedy¶
+siê skoñczy? 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14895
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14895
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14893
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14893
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14895
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr ¦cie¿ka co chwile zawija siê i skrêca. Ju¿ dawno zapomnia³e¶ o swych
+chwilach s³abo¶ci, w tym ¶wiecie jedynie istoty o mocnym charakterze mog±
+przetrwaæ. Miêdzy prze¶witami drzew, od czasu do czasu dostrzegasz
+przemykaj±ce sarny. Mo¿na by³oby tu ¿yæ, my¶lisz sobie, las dostarcza akurat
+tyle rzeczy by przetrwaæ. B³ogi spokój panuj±cy na tym go¶ciñcu pozwala siê
+wyciszyæ i zapomnieæ o problemach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14896
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14896
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14894
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14894
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14896
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Jak nie spojrzeæ, po obu stronach drogi otacza ciê soczysta zieleñ drzew
+i traw. Wszystko tu ¿yje swoim w³asnym tempem. W ko³o roi siê od ma³ych
+zwierz±tek. Co chwile widzisz, jak jaka¶ jaszczurka przecina ci drogê.
+Drzewa, teraz jeszcze m³ode, wyrosn± kiedy¶ na monumentalne pomniki
+przyrody. Nachodzi ciê ochota by po³o¿yæ siê pod jednym z nich, zostaæ
+otoczonym baldachimem korony, który daje wytchnienie oraz cieñ w upalne dni,
+by nabraæ trochê energii do dalszej podró¿y. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14897
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14897
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14895
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14895
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14897
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Pod±¿aj±c obran± ¶cie¿k± widzisz na horyzoncie iglice potê¿nych gór. W
+ko³o za¶ otacza ciê rzadki i jak¿e m³ody las. Zaci±gasz siê ¶wie¿ym
+powietrzem, wci±gasz go do p³uc i rozkoszujesz siê jego aromatem oraz
+blisko¶ci± przyrody. Nie czêsto zdarza siê by wêdrówka przynosi³a tyle
+przyjemno¶ci. Otacza ciê wewnêtrzny spokój i harmonia. Gdy tak idziesz w
+milczeniu, s³yszysz cichy, delikatny szept natury, jej zew wzywa ciê do
+siebie. Jednak tu twoja wêdrówka siê nie koñczy, nie mo¿esz teraz zboczyæ z
+raz obranej drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14898
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14898
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14896
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14896
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14898
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Klimat w tym miejscu zdaje siê byæ nieco mniej wilgotny. Droga chyba jest
+ma³o uczêszczana bo nie widaæ ¿adnych ¶ladów. Po ubitym pod³o¿u podró¿uje
+siê do¶æ wygodnie. Z prawej i z lewej strony rosn± kêpki drzew. Nie tak
+bujne, jak te na po³udniu. Pomiêdzy nimi faluje do¶æ wysoka trawa. Kto wie
+co siê w niej mo¿e kryæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14899
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14899
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14897
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14897
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14899
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Trakt w tym miejscu jest bardziej kompletny. Byæ mo¿e jest to dobre
+miejsce na odpoczynek po, na przyk³ad, d³ugiej wêdrówce. Ci±gn±cy siê po
+bokach traktu las jest w tym miejscu naprawdê piêkny, a majestatyczny widok
+gór, oddalonych o naprawdê spor± odleg³o¶æ od ciebie, dodaje temu miejscu
+dodatkowego uroku. No, ale có¿, nic nie trwa wiecznie, trzeba ruszaæ dalej. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14900
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14900
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14898
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14898
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14900
+Name {gPodniszczony wschodni go¶ciniec{x~
+Descr Trakt, który ci±gnie ci siê pod stopami, jest tak zapuszczony, ¿e jakby
+daæ mu kilkana¶cie lat, to z pewno¶ci± poch³on±³by go las rosn±cy po obu
+jego stronach. Z pewno¶ci± nie jest to ¿adna g³ówna droga, wiêc nikt nie
+stara³ siê jej utrzymaæ w przyzwoitym stanie. Niedaleko le¿y ociosany
+kamieñ, który by³ kiedy¶ u¿yty do budowy tego traktu. Ko³o niego zieje
+dziura w nawierzchni traktu, pewnie to by³o jego poprzednie miejsce, póki
+co¶ go stamt±d nie wyrwa³o. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131072
+ExitExtKey 0
+ExitExtToVnum 14800
+ExitExtEnd
+Exit 0
+~
+~
+131072 0 14800
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14899
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14899
+Roomprog exit barykada_drogi 0~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14901
+Name {gPodniszczony go¶ciniec otoczony pagórkami{x~
+Descr Trakt w tym miejscu jest bardziej kompletny. Byæ mo¿e jest to dobre
+miejsce na odpoczynek po, na przyk³ad, d³ugiej wêdrówce. Ci±gn±cy siê po
+bokach traktu las jest w tym miejscu naprawdê piêkny, a majestatyczny widok
+gór, oddalonych o naprawdê spor± odleg³o¶æ od ciebie, dodaje temu miejscu
+dodatkowego uroku. No, ale có¿, nic nie trwa wiecznie, trzeba ruszaæ dalej. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14904
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14904
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14903
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14903
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14902
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Trakt, który ci±gnie ci siê pod stopami, jest tak zapuszczony, ¿e jakby
+daæ mu kilkana¶cie lat, to z pewno¶ci± poch³on±³by go las rosn±cy po obu
+jego stronach. Z pewno¶ci± nie jest to ¿adna g³ówna droga, wiêc nikt nie
+stara³ siê jej utrzymaæ w przyzwoitym stanie. Niedaleko le¿y ociosany
+kamieñ, który by³ kiedy¶ u¿yty do budowy tego traktu. Ko³o niego zieje
+dziura w nawierzchni traktu, pewnie to by³o jego poprzednie miejsce, póki
+co¶ go stamt±d nie wyrwa³o. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14903
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14903
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14908
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14908
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14903
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14901
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14901
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14902
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14902
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14904
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Im dalej idziesz tym bardziej wydaje ci siê, i¿ b³±kasz siê w kó³ko.
+Ci±g³e omijanie dziur w tym siatkowatym trakcie staje siê naprawdê
+denerwuj±ce. Dar latania by³by tutaj nieoceniony i osoba, która lataæ
+potrafi na pewno nie narzeka³aby na okolicê. Przy drodze rosn± jakie¶ zio³a.
+Byæ mo¿e s± jadalne, ale bez pewno¶ci lepiej nie próbowaæ. W koñcu tyle
+historii mo¿na us³yszeæ o ludziach, którzy nie wiedzieli nic o zio³ach,
+które za¿yli, tym bardziej, i¿ wiêkszo¶æ tych historii ma z³e z³e
+zakoñczenie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14901
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14901
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14905
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14905
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Pewnie przesz przed siebie my¶l±c o celu wêdrówki. Nie warto jednak
+zbytnio siê tu rozpêdzaæ, gdy¿ st±pniêcie w jedn± z dziur mo¿e skoñczyæ siê
+utrat± paru zêbów lub nawet unieruchomieniem koñczyny. ¦piew ptaków zaczyna
+ciê ju¿ powoli irytowaæ w koñcu ile mo¿na s³ychaæ tego samego. Daleko na
+pó³nocy widnieje zarys wysokich i o¶nie¿onych gór. Z kolei na po³udniu
+widnieje gêsty las, od którego dzieli ciê ca³kiem spory kawa³ek drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14906
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14904
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14906
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Kontynuuj±c wêdrówkê nie zauwa¿asz wiêkszych zmian w krajobrazie. Twardy
+trakt nie utrudnia zbytnio podró¿y, jednak zaczyna ci siê powoli nudziæ.
+Oprócz ewentualnych towarzyszy nie widzisz dooko³a ¿ywej duszy. Co jaki¶
+czas s³yszysz odg³osy le¶nych mieszkañców ryk nied¼wiedzia, ¶piewy ptaków.
+Wokó³ traktu ci±gnie siê las, a gdzieniegdzie korzenie drzew rozsadzaj±
+trakt. Jazda wozem po takiej drodze na pewno nie bêdzie mi³ym prze¿yciem. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14907
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14907
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14905
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14907
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Podró¿ po tym starym trakcie nie jest zbyt przyjemna, ze wzglêdu na spore
+dziury, chyba ¿e kto¶ posiada dar latania. Brakuj±ce kamienie zosta³y
+zapewne wykradzione przez, ludzi potrzebuj±cych budulca. W koñcu kamieñ to
+wspania³y materia³ na dom. Po bokach drogi widnieje niezbyt gêsty las
+mieszany. Zewsz±d s³ychaæ odg³osy natury. Nie pozostaje nic innego, jak
+tylko przeæ dalej do celu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55163
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55163
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14906
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14906
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14908
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Zewsz±d otacza ciê las, na szczê¶cie jest on na tyle rzadki, ¿e ¿aden
+rzezimieszek nie zdo³a³by siê tu ukryæ. Daleko za nim na pó³nocy widzisz
+szczyty gór, za¶ na po³udniu s± tylko drzewa. Od czasu do czasu widzisz
+migniêcie br±zowego futra wiewiórki, która zrêcznie przeskakuje po
+ga³êziach. Pod stopami masz trakt, który lata swojej ¶wietno¶ci ma ju¿ dawno
+za sob±. Zapewne nie jest on ju¿ tak uczêszczany jak kiedy¶, wiêc nikt o
+niego nie dba. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14902
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14902
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14909
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14909
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Daleko na pó³nocy, nad drzewami, widzisz majestatyczne góry, które
+pomagaj± ci stwierdziæ, ¿e jeste¶ na dobrej drodze. Las, otaczaj±cy trakt na
+którym siê znajdujesz, jest lasem mieszanym. Drzewa wyros³y od siebie w
+pewnej odleg³o¶ci, wiêc nie masz ¿adnych problemów zobaczyæ tego, co
+znajduje siê dobre kilkana¶cie metrów w g³±b lasu. Trakt, na którym w³a¶nie
+stoisz, nie jest zadbany nawet w najmniejszym stopniu, co krok jest dziura,
+na której z powodzeniem mo¿esz siê wywróciæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14908
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14908
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14910
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14910
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14910
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Trakt ci±gnie siê tak daleko, jak tylko siêgasz wzrokiem. U³o¿ony jest on
+niechlujnie - nie dziw, ¿e nikt nie zaprz±ta³ sobie g³owy tak ma³o
+uczêszczan± drog±, któr± zapewne ju¿ dawno nie przemierza³ ¿aden kupiecki
+wóz. Naoko³o widzisz las, drzewa iglaste rosn± od li¶ciastych w ca³kiem
+du¿ej odleg³o¶ci sprawiaj±c, ¿e jest on przejrzysty i mo¿esz spojrzeæ
+g³êboko w jego trzewia. Na dalekiej pó³nocy widaæ o¶nie¿one szczyty gór,
+które nawet z tak du¿ej odleg³o¶ci wydaj± siê ogromne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14909
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14909
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14911
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14911
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14911
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Pod±¿asz w±sk±, ma³o uczêszczan± drog±. Z obu stron otaczaj± ciê
+kar³owate drzewa. Cieszysz siê w duchu, poniewa¿ mo¿liwo¶æ zasadzki w takim
+miejscu jest ma³o prawdopodobna. Có¿, kryjówka za maleñk± brzoz± jest do¶æ
+¶miesznym pomys³em dla zorganizowanej bandy, a ze swym do¶wiadczeniem
+pojedynczych istot raczej nie obawiasz siê wcale, chyba ¿e legendarnego
+smoka, ale takowy zapewne w tak rzadkim lesie siê nie ukryje... W³a¶ciwie
+to, nie ukryje, bo nie musi - jednym zioniêciem zniszczy³ by ten las. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14912
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14912
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14910
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14910
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14912
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Monotonna droga, wraz ze smutnym zawodzeniem ptaków zaczyna wprawiaæ ciê
+w istnie melancholijny nastrój. Zaczynasz powoli zastanawiaæ siê nad sensem
+¿ycia i istnieniem tego ¶wiata. Patrzysz z pod ciê¿kich powiek na dalekie
+szczyty gór, na otaczaj±ce je lasy, wszystko to wydaje siê takie szare i
+zamglone, tak bardzo odleg³e. Jaki jest cel twojej wêdrówki? Czy ona kiedy¶
+siê skoñczy? 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14911
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14911
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14913
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14913
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14913
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr ¦cie¿ka co chwile zawija siê i skrêca. Ju¿ dawno zapomnia³e¶ o swych
+chwilach s³abo¶ci, w tym ¶wiecie jedynie istoty o mocnym charakterze mog±
+przetrwaæ. Miêdzy prze¶witami drzew, od czasu do czasu dostrzegasz
+przemykaj±ce sarny. Mo¿na by³oby tu ¿yæ, my¶lisz sobie, las dostarcza akurat
+tyle rzeczy by przetrwaæ. B³ogi spokój panuj±cy na tym go¶ciñcu pozwala siê
+wyciszyæ i zapomnieæ o problemach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14912
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14912
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14915
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14915
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14914
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14913
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14913
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14915
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Jak nie spojrzeæ, po obu stronach drogi otacza ciê soczysta zieleñ drzew
+i traw. Wszystko tu ¿yje swoim w³asnym tempem. W ko³o roi siê od ma³ych
+zwierz±tek. Co chwile widzisz, jak jaka¶ jaszczurka przecina ci drogê.
+Drzewa, teraz jeszcze m³ode, wyrosn± kiedy¶ na monumentalne pomniki
+przyrody. Nachodzi ciê ochota by po³o¿yæ siê pod jednym z nich, zostaæ
+otoczonym baldachimem korony, który daje wytchnienie oraz cieñ w upalne dni,
+by nabraæ trochê energii do dalszej podró¿y. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14913
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14913
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14916
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14916
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Pod±¿aj±c obran± ¶cie¿k± widzisz na horyzoncie iglice potê¿nych gór. W
+ko³o za¶ otacza ciê rzadki i jak¿e m³ody las. Zaci±gasz siê ¶wie¿ym
+powietrzem, wci±gasz go do p³uc i rozkoszujesz siê jego aromatem oraz
+blisko¶ci± przyrody. Nie czêsto zdarza siê by wêdrówka przynosi³a tyle
+przyjemno¶ci. Otacza ciê wewnêtrzny spokój i harmonia. Gdy tak idziesz w
+milczeniu, s³yszysz cichy, delikatny szept natury, jej zew wzywa ciê do
+siebie. Jednak tu twoja wêdrówka siê nie koñczy, nie mo¿esz teraz z raz
+obranej drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14915
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14915
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14917
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14917
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Przysi±g³by¶, ¿e góry nagle wyolbrzymia³y. W zamy¶leniu musia³e¶ przej¶æ
+d³u¿sz± trasê ni¿ siê spodziewa³e¶. Ani ¶ladu ¿ywej duszy, czujesz siê sam
+jak palec. Nigdzie nie snuj± siê dymy z palenisk, ani nie widaæ ¿adnego
+znaku cywilizacji. Wysoko na niebie przelatuj± or³y, zapewne poluj±c na co¶,
+co mog³yby zje¶æ. My¶l o tym, ¿e skoñczysz jako ich przek±ska dodaje ci si³,
+by ruszaæ niezw³ocznie w dalsz± drogê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14916
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14916
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14918
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14918
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14918
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Podró¿ po tym starym trakcie nie jest zbyt przyjemna, ze wzglêdu na spore
+dziury, chyba ¿e kto¶ posiada dar latania. Brakuj±ce kamienie zosta³y
+zapewne wykradzione przez, ludzi potrzebuj±cych budulca. W koñcu kamieñ to
+wspania³y materia³ na dom. Po bokach drogi widnieje niezbyt gêsty las
+mieszany. Zewsz±d s³ychaæ odg³osy natury. Nie pozostaje nic innego, jak
+tylko przeæ dalej do celu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14917
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14917
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14919
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14919
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14919
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Kontynuuj±c wêdrówkê nie zauwa¿asz wiêkszych zmian w krajobrazie. Twardy
+trakt nie utrudnia zbytnio podró¿y, jednak zaczyna ci siê powoli nudziæ.
+Oprócz ewentualnych towarzyszy nie widzisz dooko³a ¿ywej duszy. Co jaki¶
+czas s³yszysz odg³osy le¶nych mieszkañców ryk nied¼wiedzia, ¶piewy ptaków.
+Wokó³ traktu ci±gnie siê las, a gdzieniegdzie korzenie drzew rozsadzaj±
+trakt. Jazda wozem po takiej drodze na pewno nie bêdzie mi³ym prze¿yciem. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14918
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14918
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14920
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14920
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Pewnie przesz przed siebie my¶l±c o celu wêdrówki. Nie warto jednak
+zbytnio siê tu rozpêdzaæ, gdy¿ st±pniêcie w jedn± z dziur mo¿e skoñczyæ siê
+utrat± paru zêbów lub nawet unieruchomieniem koñczyny. ¦piew ptaków zaczyna
+ciê ju¿ powoli irytowaæ w koñcu ile mo¿na s³ychaæ tego samego. Daleko na
+pó³nocy widnieje zarys wysokich i o¶nie¿onych gór. Z kolei na po³udniu
+widnieje gêsty las, od którego dzieli ciê ca³kiem spory kawa³ek drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14919
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14919
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14921
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14921
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Trakt w tym miejscu jest bardziej kompletny. Byæ mo¿e jest to dobre
+miejsce na odpoczynek po, na przyk³ad, d³ugiej wêdrówce. Ci±gn±cy siê po
+bokach traktu las jest w tym miejscu naprawdê piêkny, a majestatyczny widok
+gór, oddalonych o naprawdê spor± odleg³o¶æ od ciebie, dodaje temu miejscu
+dodatkowego uroku. No, ale có¿, nic nie trwa wiecznie, trzeba ruszaæ dalej. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14920
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14920
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14922
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14922
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Zewsz±d otacza ciê las, na szczê¶cie jest on na tyle rzadki, ¿e ¿aden
+rzezimieszek nie zdo³a³by siê tu ukryæ. Daleko za nim na pó³nocy widzisz
+szczyty gór, za¶ na po³udniu s± tylko drzewa. Od czasu do czasu widzisz
+migniêcie br±zowego futra wiewiórki, która zrêcznie przeskakuje po
+ga³êziach. Pod stopami masz trakt, który lata swojej ¶wietno¶ci ma ju¿ dawno
+za sob±. Zapewne nie jest on ju¿ tak uczêszczany jak kiedy¶, wiêc nikt o
+niego nie dba. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14923
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14923
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14921
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14923
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Trakt, który ci±gnie ci siê pod stopami, jest tak zapuszczony, ¿e jakby
+daæ mu kilkana¶cie lat, to z pewno¶ci± poch³on±³by go las rosn±cy po obu
+jego stronach. Z pewno¶ci± nie jest to ¿adna g³ówna droga, wiêc nikt nie
+stara³ siê jej utrzymaæ w przyzwoitym stanie. Niedaleko le¿y ociosany
+kamieñ, który by³ kiedy¶ u¿yty do budowy tego traktu. Ko³o niego zieje
+dziura w nawierzchni traktu, pewnie to by³o jego poprzednie miejsce, póki
+co¶ go stamt±d nie wyrwa³o. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14922
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14922
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14924
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14924
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Daleko na pó³nocy, nad drzewami, widzisz majestatyczne góry, które
+pomagaj± ci stwierdziæ, ¿e jeste¶ na dobrej drodze. Las, otaczaj±cy trakt na
+którym siê znajdujesz, jest lasem mieszanym. Drzewa wyros³y od siebie w
+pewnej odleg³o¶ci, wiêc nie masz ¿adnych problemów zobaczyæ tego, co
+znajduje siê dobre kilkana¶cie metrów w g³±b lasu. Trakt, na którym w³a¶nie
+stoisz, nie jest zadbany nawet w najmniejszym stopniu, co krok jest dziura,
+na której z powodzeniem mo¿esz siê wywróciæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14925
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14925
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14923
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14923
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14925
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Trakt ci±gnie siê tak daleko, jak tylko siêgasz wzrokiem. U³o¿ony jest on
+niechlujnie - nie dziw, ¿e nikt nie zaprz±ta³ sobie g³owy tak ma³o
+uczêszczan± drog±, któr± zapewne ju¿ dawno nie przemierza³ ¿aden kupiecki
+wóz. Naoko³o widzisz las, drzewa iglaste rosn± od li¶ciastych w ca³kiem
+du¿ej odleg³o¶ci sprawiaj±c, ¿e jest on przejrzysty i mo¿esz spojrzeæ
+g³êboko w jego trzewia. Na dalekiej pó³nocy widaæ o¶nie¿one szczyty gór,
+które nawet z tak du¿ej odleg³o¶ci wydaj± siê ogromne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14926
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14926
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14924
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14926
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14925
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14927
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14927
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14927
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Pod±¿asz w±sk±, ma³o uczêszczan± drog±. Z obu stron otaczaj± ciê
+kar³owate drzewa. Cieszysz siê w duchu, poniewa¿ mo¿liwo¶æ zasadzki w takim
+miejscu jest ma³o prawdopodobna. Có¿, kryjówka za maleñk± brzoz± jest do¶æ
+¶miesznym pomys³em dla zorganizowanej bandy, a ze swym do¶wiadczeniem
+pojedynczych istot raczej nie obawiasz siê wcale, chyba ¿e legendarnego
+smoka, ale takowy zapewne w tak rzadkim lesie siê nie ukryje... W³a¶ciwie
+to, nie ukryje, bo nie musi - jednym zioniêciem zniszczy³by ten las. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14926
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14926
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14928
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14928
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Monotonna droga, wraz ze smutnym zawodzeniem ptaków zaczyna wprawiaæ ciê
+w istnie melancholijny nastrój. Zaczynasz powoli zastanawiaæ siê nad sensem
+¿ycia i istnieniem tego ¶wiata. Patrzysz z pod ciê¿kich powiek na dalekie
+szczyty gór, na otaczaj±ce je lasy, wszystko to wydaje siê takie szare i
+zamglone, tak bardzo odleg³e. Jaki jest cel twojej wêdrówki? Czy ona kiedy¶
+siê skoñczy? 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14927
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14927
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14929
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14929
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14929
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr ¦cie¿ka co chwile zawija siê i skrêca. Ju¿ dawno zapomnia³e¶ o swych
+chwilach s³abo¶ci, w tym ¶wiecie jedynie istoty o mocnym charakterze mog±
+przetrwaæ. Miêdzy prze¶witami drzew, od czasu do czasu dostrzegasz
+przemykaj±ce sarny. Mo¿na by³oby tu ¿yæ, my¶lisz sobie, las dostarcza akurat
+tyle rzeczy by przetrwaæ. B³ogi spokój panuj±cy na tym go¶ciñcu pozwala siê
+wyciszyæ i zapomnieæ o problemach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14928
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14928
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14930
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14930
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14930
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Ak nie spojrzeæ, po obu stronach drogi otacza ciê soczysta zieleñ drzew i
+traw. Wszystko tu ¿yje swoim w³asnym tempem. W ko³o roi siê od ma³ych
+zwierz±tek. Co chwile widzisz, jak jaka¶ jaszczurka przecina ci drogê.
+Drzewa, teraz jeszcze m³ode, wyrosn± kiedy¶ na monumentalne pomniki
+przyrody. Nachodzi ciê ochota by po³o¿yæ siê pod jednym z nich, zostaæ
+otoczonym baldachimem korony, który daje wytchnienie oraz cieñ w upalne dni,
+by nabraæ trochê energii do dalszej podró¿y. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14931
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14931
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14929
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14929
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14931
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Pod±¿aj±c obran± ¶cie¿k± widzisz na horyzoncie iglice potê¿nych gór. W
+ko³o za¶ otacza ciê rzadki i jak¿e m³ody las. Zaci±gasz siê ¶wie¿ym
+powietrzem, wci±gasz go do p³uc i rozkoszujesz siê jego aromatem oraz
+blisko¶ci± przyrody. Nie czêsto zdarza siê by wêdrówka przynosi³a tyle
+przyjemno¶ci. Otacza ciê wewnêtrzny spokój i harmonia. Gdy tak idziesz w
+milczeniu, s³yszysz cichy, delikatny szept natury, jej zew wzywa ciê do
+siebie. Jednak tu twoja wêdrówka siê nie koñczy, nie mo¿esz teraz z raz
+obranej drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14930
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14930
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14932
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14932
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Daleko na pó³nocy, nad drzewami, widzisz majestatyczne góry, które
+pomagaj± ci stwierdziæ, ¿e jeste¶ na dobrej drodze. Las, otaczaj±cy trakt na
+którym siê znajdujesz, jest lasem mieszanym. Drzewa wyros³y od siebie w
+pewnej odleg³o¶ci, wiêc nie masz ¿adnych problemów zobaczyæ tego, co
+znajduje siê dobre kilkana¶cie metrów w g³±b lasu. Trakt, na którym w³a¶nie
+stoisz, nie jest zadbany nawet w najmniejszym stopniu, co krok jest dziura,
+na której z powodzeniem mo¿esz siê wywróciæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14931
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14931
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14933
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14933
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Trakt ci±gnie siê tak daleko, jak tylko siêgasz wzrokiem. U³o¿ony jest on
+niechlujnie - nie dziw, ¿e nikt nie zaprz±ta³ sobie g³owy tak ma³o
+uczêszczan± drog±, któr± zapewne ju¿ dawno nie przemierza³ ¿aden kupiecki
+wóz. Naoko³o widzisz las, drzewa iglaste rosn± od li¶ciastych w ca³kiem
+du¿ej odleg³o¶ci sprawiaj±c, ¿e jest on przejrzysty i mo¿esz spojrzeæ
+g³êboko w jego trzewia. Na dalekiej pó³nocy widaæ o¶nie¿one szczyty gór,
+które nawet z tak du¿ej odleg³o¶ci wydaj± siê ogromne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14934
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14934
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14932
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14934
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Zimny, pó³nocny wiatr przetacza siê nad lasem, wskazuj±c, ¿e gdzie¶ tam
+s± góry. Trakt, który ci±gnie siê po horyzont nie dodaje ci otuchy w nawet
+najmniejszym stopniu. Puszcza rosn±ca naoko³o powoli zarasta drogê, której
+dawno nikt nie odnowi³. Kiedy¶ by³ to zapewne jeden z g³ównych szlaków
+handlowych, lecz teraz zosta³ ca³kowicie zapomniany, przez co musisz uwa¿aæ,
+¿eby siê nie wywróciæ na jednej z wielu dziur w nawierzchni. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14933
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14933
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14935
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14935
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14935
+Name {gPodniszczony zachodni go¶ciniec{x~
+Descr Krajobraz wzglêdem innych miejsc na tym trakcie zaczyna siê zmieniaæ, a
+prosta droga w tym miejscu zaczyna falowaæ. Otaczaj±cy ciê jeszcze przed
+chwil± las, powoli zanika, a wraz z nim odg³osy natury. Odk±d zacz±³e¶ swoj±
+drogê liczba osób, które widzia³e¶ znacz±co siê nie podnios³a. Swoj± drog±
+nic dziwnego, kto chcia³by podró¿owaæ takim traktem. Jeden nieostro¿ny krok
+i mo¿na obudziæ siê nagim przy podnó¿u pagórka. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14934
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14934
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14936
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14936
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14936
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Trakt biegnie miêdzy pagórkami, które wyros³y po obu jego stronach. S±
+one na tyle wysokie, ¿e powinny os³oniæ ciê od najl¿ejszego wiatru. Na ich
+zboczach rosn± kar³owate krzaki, pewnie s± to jedne z tych, które
+powstrzymuj± ca³e wzniesienie przed obsuniêciem siê. Sama droga jest w
+op³akanym stanie, pewnie nikt ju¿ jej dawno nie naprawia³. Gdzieniegdzie w
+nawierzchni znajduje siê dziura, prawdopodobnie ju¿ dawno nie przechodzi³
+têdy ¿aden podró¿ny. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14935
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14935
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14937
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14937
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14937
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Wszystko co widzisz dooko³a to pagórki, obro¶niête jakimi¶ kar³owatymi
+krzakami. Jest to pewnie jedyna ro¶linno¶æ przystosowana do ¿ycia tutaj,
+ka¿da inna szybko by wysch³a ze wzglêdu na rzadko widziane w tutejszych
+stronach deszcze. Nie ma w okolicy tak¿e ¿adnych zwierz±t, mo¿liwe, ¿e siê
+poukrywa³y. Trakt ledwo nadaje siê do podró¿owania, widaæ nie jest on
+uczêszczany zbyt czêsto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14938
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14938
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14936
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14936
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14938
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Znajdujesz siê na wzniesieniu, widaæ st±d jak na d³oni ca³± okolicê
+poprzetykan± pagórkami. Daleko na pó³nocy pagórki przechodz± w góry, których
+szczyty s± prawie ukryte w k³êbiastych chmurach. Na po³udniu za¶ jest las,
+drzewa li¶ciaste s± niezbyt gêsto poustawiane z drzewami iglastymi. Droga,
+któr± masz pod sob±, biegnie z zachodu na wschód, to siê wznosz±c, to
+opadaj±c miêdzy pagórkami. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14937
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14937
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14939
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14939
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14939
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Jest to chyba jeden z lepszych odcinków tej trasy. Kamienie s± pouk³adane
+równo i starannie, chocia¿ droga od dawna jest zapomniana. Budowniczymi tego
+traktu by³y zapewne krasnoludy, jedni z najlepszych rzemie¶lników. Droga
+ci±gnie siê a¿ do horyzontu, z jednej i z drugiej strony, os³aniaj± j±
+wzniesienia. S±dz±c po wysuszonych strzêpkach tutejszej ro¶linno¶ci, deszcze
+rzadko nawiedzaj± to miejsce. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14938
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14938
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14940
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14940
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14940
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Droga ta ci±gnie siê krêta lini± miêdzy pagórkami. Na pó³nocy nad
+wzniesieniami widzisz tylko szczyty gór schowane w chmurach. Flora to
+wysokie trawy rosn±ce wszêdzie naoko³o. S± to zapewne jedne z niewielu
+ro¶lin przystosowanych do egzystowania tutaj. Jak daleko nie spojrzysz, to
+wszystko wygl±da tak samo. Czasem s³ychaæ tutaj zawodzenie wiatru. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14939
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14939
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14941
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14941
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14941
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Podró¿owanie przez ten falisty trakt jest mocno wyczerpuj±ce.
+Niedo¶wiadczeni w wêdrówkach, mogliby doznaæ dziwnych sensacji ¿o³±dkowych
+od ci±g³ej zmiany ci¶nienia. Niema jednak wyboru, trzeba zmierzaæ dalej.
+Dobrze, ¿e chocia¿ trakt jest w miarê kompletny. Byæ mo¿e spowodowane jest
+to niechêci± do jazdy wozem po takich pagórkach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14940
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14940
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14942
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14942
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14942
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Jedynym punktem daj±cym jak±kolwiek nadziejê, i¿ podró¿ przebiega we
+w³a¶ciwym kierunku s± ci±gn±ce siê na pó³nocy, o¶nie¿one góry. Do niedawna
+na po³udniu mo¿na by³o zauwa¿yæ jeszcze gêsty las, jednak teraz jakby
+rozp³yn±³ siê. Nie ma sensu zatrzymywanie siê. Im szybciej zaczniesz
+kontynuowaæ wêdrówkê tym szybciej doznasz miejskich wygód, na które do tej
+pory narzeka³e¶. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14941
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14941
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14943
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14943
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14943
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Rozgl±daj±c siê dooko³a nie dostrzegasz nic, co mog³oby w jakikolwiek
+sposób zwróciæ twoj± uwagê. Wysokie pagórki ci±gn± siê we wszystkie strony
+¶wiata. Obok traktu gdzieniegdzie widaæ pojedyncze drzewa, pod którymi rosn±
+jakie¶ grzybki. ¯ywi± siê nimi zapewne tutejsze zwierzêta, których nie
+mia³e¶ przyjemno¶ci zaobserwowaæ. Mo¿e to i lepiej, gdy¿ nigdy nie wiadomo,
+co mo¿e ¿yæ na tych ziemiach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14945
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14945
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14942
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14942
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14944
+Name {YPiaszczyste wydmy{x~
+Descr Na uboczu drogi widaæ szcz±tki jakiego¶ wozu. Z ³ukowatej plandeki
+zosta³y powiewaj±ce na wietrze strzêpki materia³u i drewniane wrêgi.
+Strzaskana piasta jednego z kó³ t³umaczy porzucenie wozu. Pozosta³e trzy
+zakopane do po³owy w ziemi. Nie sposób odgadn±æ kto tym podró¿owa³, gdzie i
+dlaczego ale zostawienie wozu i niesienie dobytku musia³o byæ rozpaczliw±
+decyzj±. Resztê pozostawionych rzeczy dawno ju¿ przyw³aszczyli sobie inni
+wêdrowcy. 
+~
+FlagsExt 0
+Sector 40
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14947
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14947
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14948
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14948
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14945
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Pagórki zaczynaj± zanikaæ, jednak nie mo¿na mieæ wszystkiego. Droga
+zaczyna byæ dziurawa i je¿eli nie potrafisz lataæ, to znów czeka ciê
+wspania³a zabawa w unikanie dziur. Ogromne góry, które zostaj± za twoimi
+plecami ukazuj± jak daleko jeste¶ oddalony od miasta. Dooko³a ci±gnie siê
+rzadki las, w którym mo¿na wyró¿niæ drzewa zarówno li¶ciaste jak i iglaste.
+Lepiej ruszaæ w dalsz± podró¿, gdy¿ nigdy nie wiadomo, czym zaskoczy ciê
+pogoda. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14946
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14946
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14943
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14943
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14946
+Name {YPiaszczyste wydmy{x~
+Descr Py³ sucho chrzê¶ci pod nogami. Zalega wszêdzie, choæ z boków o swoje
+upomina siê rzadka ale zahartowana ro¶linno¶æ. Z obu stron wêdrówkê
+obserwuj± niezbyt gêsto roz³o¿one drzewa. Daleko im do bujnych lasów
+po³udnia. Wygl±daj± jak przetrzebiona armia z lêkiem patrz±ca w stronê
+surowych wierzcho³ków majacz±cych hen na pó³nocy gór. 
+~
+FlagsExt 0
+Sector 40
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14945
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14945
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14947
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14947
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14947
+Name {YPiaszczyste wydmy{x~
+Descr Ro¶linno¶æ staje siê bardziej kar³owata. Przygnieciona ciê¿arem
+nieustannej walki o prze¿ycie. Konkurowania o nik³e zasoby wody. Wyja³owiona
+gleba nie jest tak szczodra jak bogate ziemie na zachód od Arras. Ten
+odcinek jest jakby bardziej piaszczysty, co utrudnia podró¿ i powoduje
+zmêczenie. W uszach szumi tylko wiatr i mo¿na obserwowaæ jak z mozo³em ale
+niezmordowanie zasypuje py³em ¶lady, ziarenko po ziarenku. 
+~
+FlagsExt 0
+Sector 40
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14946
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14946
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14944
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14944
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14948
+Name {YPiaszczyste wydmy{x~
+Descr Pod³o¿e jest ¿wirowe. Przewa¿aj± od³amki ¿ó³tego piaskowca, ale
+gdzieniegdzie zauwa¿yæ mo¿na równie¿ okazy innych typów. A wiêc gnejsy,
+³upki, bazalt, z rzadka pewnie nawet granit. Masz wra¿enie, ¿e gdyby dobrze
+pogrzebaæ, to mo¿na by znale¼æ takie kamienie z odci¶niêtymi muszlami, jakie
+czasem zbieraj± szaleni uczeni. Mawiaj±, ¿e to ¶lady stworzeñ, które dawno
+temu wyginê³y. ¦limaki? Kogo to obchodzi kiedy wyginê³y. Choæ z drugiej
+strony - przepowiadaj± - i¿ nas równie¿ czeka ten los. Mo¿e by siê zawczasu
+odbiæ w jakim¶ kamieniu na ten wypadek? 
+~
+FlagsExt 0
+Sector 40
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14944
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14944
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14949
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14949
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14949
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Klimat w tym miejscu zdaje siê byæ nieco mniej wilgotny. Droga chyba jest
+ma³o uczêszczana bo nie widaæ ¿adnych ¶ladów. Po ubitym pod³o¿u podró¿uje
+siê do¶æ wygodnie. Z prawej i z lewej strony rosn± kêpki drzew. Nie tak
+bujne, jak te na po³udniu. Pomiêdzy nimi faluje do¶æ wysoka trawa. Kto wie
+co siê w niej mo¿e kryæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14948
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14948
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14950
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14950
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14950
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Trakt biegnie miêdzy pagórkami, które wyros³y po obu jego stronach. S±
+one na tyle wysokie, ¿e powinny os³oniæ ciê od najl¿ejszego wiatru. Na ich
+zboczach rosn± kar³owate krzaki, pewnie s± to jedne z tych, które
+powstrzymuj± ca³e wzniesienie przed obsuniêciem siê. Sama droga jest w
+op³akanym stanie, pewnie nikt ju¿ jej dawno nie naprawia³. Gdzieniegdzie w
+nawierzchni znajduje siê dziura, prawdopodobnie ju¿ dawno nie przechodzi³
+têdy ¿aden podró¿ny. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14951
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14951
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14949
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14949
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14951
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Wszystko co widzisz dooko³a to pagórki, obro¶niête jakimi¶ kar³owatymi
+krzakami. Jest to pewnie jedyna ro¶linno¶æ przystosowana do ¿ycia tutaj,
+ka¿da inna szybko by wysch³a ze wzglêdu na rzadko widziane w tutejszych
+stronach deszcze. Nie ma w okolicy tak¿e ¿adnych zwierz±t, mo¿liwe, ¿e siê
+poukrywa³y. Trakt ledwo nadaje siê do podró¿owania, widaæ nie jest on
+uczêszczany zbyt czêsto. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14950
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14950
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14952
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14952
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14952
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Znajdujesz siê na wzniesieniu, widaæ st±d jak na d³oni ca³± okolicê
+poprzetykan± pagórkami. Daleko na pó³nocy pagórki przechodz± w góry, których
+szczyty s± prawie ukryte w k³êbiastych chmurach. Na po³udniu za¶ jest las,
+drzewa li¶ciaste s± niezbyt gêsto poustawiane z drzewami iglastymi. Droga,
+któr± masz pod sob±, biegnie z zachodu na wschód, to siê wznosz±c, to
+opadaj±c miêdzy pagórkami. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14951
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14951
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14953
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14953
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14953
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Est to chyba jeden z lepszych odcinków tej trasy. Kamienie s± pouk³adane
+równo i starannie, chocia¿ droga od dawna jest zapomniana. Budowniczymi tego
+traktu by³y zapewne krasnoludy, jedni z najlepszych rzemie¶lników. Droga
+ci±gnie siê a¿ do horyzontu, z jednej i z drugiej strony, os³aniaj± j±
+wzniesienia. S±dz±c po wysuszonych strzêpkach tutejszej ro¶linno¶ci, deszcze
+rzadko nawiedzaj± to miejsce. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14952
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14952
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14954
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14954
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14954
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Droga ta ci±gnie siê krêta lini± miêdzy pagórkami. Na pó³nocy nad
+wzniesieniami widzisz tylko szczyty gór schowane w chmurach. Flora to
+wysokie trawy rosn±ce wszêdzie naoko³o. S± to zapewne jedne z niewielu
+ro¶lin przystosowanych do egzystowania tutaj. Jak daleko nie spojrzysz, to
+wszystko wygl±da tak samo. Czasem s³ychaæ tutaj zawodzenie wiatru. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14953
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14953
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14955
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14955
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14955
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Podró¿owanie przez ten falisty trakt jest mocno wyczerpuj±ce.
+Niedo¶wiadczeni w wêdrówkach, mogliby doznaæ dziwnych sensacji ¿o³±dkowych
+od ci±g³ej zmiany ci¶nienia. Niema jednak wyboru, trzeba zmierzaæ dalej.
+Dobrze, ¿e chocia¿ trakt jest w miarê kompletny. Byæ mo¿e spowodowane jest
+to niechêci± do jazdy wozem po takich pagórkach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14956
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14956
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14954
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14954
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14956
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Jedynym punktem daj±cym jak±kolwiek nadziejê, i¿ podró¿ przebiega we
+w³a¶ciwym kierunku s± ci±gn±ce siê na pó³nocy, o¶nie¿one góry. Do niedawna
+na po³udniu mo¿na by³o zauwa¿yæ jeszcze gêsty las, jednak teraz jakby
+rozp³yn±³ siê. Nie ma sensu zatrzymywanie siê. Im szybciej zaczniesz
+kontynuowaæ wêdrówkê tym szybciej doznasz miejskich wygód, na które do tej
+pory narzeka³e¶. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14955
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14955
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14957
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14957
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14957
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Rozgl±daj±c siê dooko³a nie dostrzegasz nic, co mog³oby w jakikolwiek
+sposób zwróciæ twoj± uwagê. Wysokie pagórki ci±gn± siê we wszystkie strony
+¶wiata. Obok traktu gdzieniegdzie widaæ pojedyncze drzewa, pod którymi rosn±
+jakie¶ grzybki. ¯ywi± siê nimi zapewne tutejsze zwierzêta, których nie
+mia³e¶ przyjemno¶ci zaobserwowaæ. Mo¿e to i lepiej, gdy¿ nigdy nie wiadomo,
+co mo¿e ¿yæ na tych ziemiach. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14956
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14956
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14958
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14958
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14958
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Pagórki zaczynaj± zanikaæ, jednak nie mo¿na mieæ wszystkiego. Droga
+zaczyna byæ dziurawa i je¿eli nie potrafisz lataæ, to znów czeka ciê
+wspania³a zabawa w unikanie dziur. Ogromne góry, które zostaj± za twoimi
+plecami ukazuj± jak daleko jeste¶ oddalony od miasta. Dooko³a ci±gnie siê
+rzadki las, w którym mo¿na wyró¿niæ drzewa zarówno li¶ciaste jak i iglaste.
+Lepiej ruszaæ w dalsz± podró¿, gdy¿ nigdy nie wiadomo, czym zaskoczy ciê
+pogoda. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14957
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14957
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14959
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14959
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14959
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Trakt ci±gnie siê tak daleko, jak tylko siêgasz wzrokiem. U³o¿ony jest on
+niechlujnie - nie dziw, ¿e nikt nie zaprz±ta³ sobie g³owy tak ma³o
+uczêszczan± drog±, któr± zapewne ju¿ dawno nie przemierza³ ¿aden kupiecki
+wóz. Naoko³o widzisz las, drzewa iglaste rosn± od li¶ciastych w ca³kiem
+du¿ej odleg³o¶ci sprawiaj±c, ¿e jest on przejrzysty i mo¿esz spojrzeæ
+g³êboko w jego trzewia. Na dalekiej pó³nocy widaæ o¶nie¿one szczyty gór,
+które nawet z tak du¿ej odleg³o¶ci wydaj± siê ogromne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14958
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14958
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14960
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14960
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14960
+Name {gPodniszczony go¶ciniec przez pagórki{x~
+Descr Daleko na pó³nocy, nad drzewami, widzisz majestatyczne góry, które
+pomagaj± ci stwierdziæ, ¿e jeste¶ na dobrej drodze. Las, otaczaj±cy trakt na
+którym siê znajdujesz, jest lasem mieszanym. Drzewa wyros³y od siebie w
+pewnej odleg³o¶ci, wiêc nie masz ¿adnych problemów zobaczyæ tego, co
+znajduje siê dobre kilkana¶cie metrów w g³±b lasu. Trakt, na którym w³a¶nie
+stoisz, nie jest zadbany nawet w najmniejszym stopniu, co krok jest dziura,
+na której z powodzeniem mo¿esz siê wywróciæ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14959
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14959
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 14881 0 14900
+M 100 14882 1 14900 1
+E 100 3158 0 16
+M 100 14883 2 14900 2
+E 100 3171 0 16
+M 100 14883 2 14900 2
+E 100 3171 0 16
+M 100 14881 1 14959 1
+S
+
+
+
+#MOBPROGSNEW
+#niziolki_grani
+~
+if !hasflag $n nizi_straznik_gadal
+  mob setflag $n nizi_straznik_gadal 5
+  say Stój!
+  minidelay 2
+  say Wed³ug nowej ustawy zatwierdzonej przez radê naszej osady...
+  minidelay 1
+  mob echo Stra¿nik graniczny wyci±ga zza pasa zwiniêty pergamin i zaczyna czytaæ.
+  minidelay 4
+  say ¯aden cudzoziemiec nie ma prawa postawiæ stopy na terenie naszej osady,
+  say Wyj±tkiem mo¿e byæ jedynie arrasyjski wóz podatkowy.
+  minidelay 1
+  mob echo Stra¿nik graniczny chowa pergamin i u¶miecha siê sztucznie.
+else
+  say Mówi³em ci ju¿, nie ma przej¶cia!
+endif
+~
+#thief_bribe
+~
+mob echoat $n Wys³annik miejscowej bandy ³otrów przepuszcza ciê.
+mob echoaround $n Wys³annik miejscowej bandy ³otrów wpuszcza $z do wioski.
+mob reward $n mv -1
+mob transfer $n 14800
+mob at $n mob echoaround $n $n w³a¶nie przyszed³ z po³udnia.
+~
+#thief_clothing
+~
+mob equip self 3018
+mob equip self 3099
+mob equip self 3051
+mob equip self 4418
+follow wysl_obilon_v2
+group gugu_v2
+~
+#thief_greet
+~
+if hasflag $n nalezy_do_konkurencyjnej_gildii
+  break
+endif
+if !hasflag $n thief_v2
+  mob setflag $n thief_v2 2
+  mob echoat $n £otr patrzy na ciebie z pogard± krzy¿uj±c rêca na klatce piersiowej.
+  sayto $n Przej¶cie kosztuje! 25 srebra od osoby!
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#barykada_drogi
+~
+if !mobhere 14882
+  mob echoat $n Przechodzisz przez barykadê.
+  mob echoaround $n $n przechodzi przez barykadê.
+  mob reward $n mv -1
+  mob transfer $n 14800
+  mob at $n mob echoaround $n $n w³a¶nie przeszed³ przez barykadê.
+  break
+endif
+if !hasflag $n konk_gil_zlo
+  mob echoat $n Wys³annik miejscowej bandy ³otrów zachodzi ci drogê - nie przejdziesz!
+  minidelay 2
+  mob echoat $n Wys³annik miejscowej bandy ³otrów wyci±ga rêkê po myto.
+  break
+else
+  mob echoat $n Wys³annik miejscowej bandy ³otrów k³ania siê przepuszczaj±c ciê.
+  if sex $n == 1
+    mob echoaround $n Wys³annik miejscowej bandy ³otrów k³ania siê $x i wpuszcza go.
+  else
+    mob echoaround $n Wys³annik miejscowej bandy ³otrów k³ania siê $x i wpuszcza j±.
+  endif
+  mob reward $n mv -1
+  mob transfer $n 14800
+  mob at $n mob echoaround $n $n przechodzi przez barykadê.
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

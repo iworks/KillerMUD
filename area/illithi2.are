@@ -1,0 +1,2791 @@
+#AREADATA
+Name {DPodmrok{x - miasto Illithidów~
+Builders Podmrok  Seinar Rewan~
+VNUMs 5650 5749
+Locked ~
+Security 9
+ResetAge 20
+Region 103
+End
+
+
+
+#MOBILES
+#Vnum 5650
+Name wielki umbrowy smierdz±cy kolos~
+Odmiana umbrowego kolosa~umbrowemu kolosowi~umbrowego kolosa~umbrowym kolosem~umbrowym kolosie~
+Short umbrowy kolos~
+Long Wielki, ¶mierdz±cy umbrowy kolos stoi tutaj.~
+Descr Ten wielki i paskudny potwór to umbrowy kolos. Istoty tej rasy s³yn± ze
+swych zdolno¶ci do szybkiego wykopywania podziemnych tuneli, przez co sa
+czêsto wyko¿ystywane przez rozumne istoty do swoich niecnych planów.
+Najs³ynniejszym przypadkiem jest chyba masakra krasnoludzkiej twierdzy
+Hazrad Dvern, która zosta³a zdobyta przez Yuan-Ti, który u¿y³y umbrowych
+kolosów, aby wyku¶ podziemne przej¶cia, którymi przemie¶ci³y siê wojska
+wê¿o-ludzi. 
+~
+Race umberkolos~
+ActExt 0|AEFGRTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang H
+Speaks 7
+Level 15
+Hitroll 2
+HP 5d20+300
+Damage 4d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 9
+Stats 132 60 60 96 120 78 78
+Off OR
+OffExt 0|OR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GMOV
+Parts ABCDEFGHIJKSUY
+Size large
+Material unknown
+MobprogNew onload kolos_gemik ABCDEFGHI 100~
+Spells 138 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 5651
+Name illithid ³upie¿ca umys³u psionik nadzorca~
+Odmiana ³upie¿cy umys³u~³upie¿cy umys³u~³upie¿ce umys³u~³upie¿c± umys³u~³upie¿cy umys³u~
+Short ³upie¿ca umys³u~
+Long Przera¿aj±cy ³upie¿ca umys³u zdaje siê delikatnie lewitowaæ nad ziemi±.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|AEFGRT
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 25
+Hitroll 5
+HP 11d11+420
+Damage 5d3+6
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 6 6 6 0
+Stats 96 120 84 114 96 120 78
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 45
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28656 H 10~
+MobprogNew onload 28664 ABCDEFGHI 100~
+Spells 396 200 137 0
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 50
+Resist 16 100
+Mobend
+#Vnum 5652
+Name czarny nietoperz~
+Odmiana {Dczarnego{x nietoperza~{Dczarnemu{x nietoperzowi~{Dczarnego{x nietoperza~{Dczarnym{x nietoperzem~{Dczarnym{x nietoperzu~
+Short {Dczarny{x nietoperz~
+Long {DCzarny{x nietoperz fruwa po okolicy.~
+Descr Jest do jaskiniowy nietoperz koloru czarnego. Ma wielkie spiczaste uszy,
+a w powietrzu porusza siê niezwykle zwinnie. ¯ywi siê ró¿nego rodzaju
+podziemnymi owadami i innymi malutkimi mieszkañcami jaskiñ. Naprawdê
+sympatyczne zwierz±tko. 
+~
+Race nietoperz~
+ActExt 0|AB
+Affected 34078760 0 0 0
+AffectedExt 0|DFTZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 5d5+20
+Damage 2d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 60 78 60 60 78 78 168
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFGV
+Parts ACDEFHJKPRS
+Size medium
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 5653
+Name widmo krasnoludzkiego maga~
+Odmiana widma maga~widmu maga~widmo maga~widmem maga~widmie maga~
+Short widmo krasnoludzkiego maga~
+Long Widmo krasnoludzkiego maga unosi siê w powietrzu.~
+Descr Jest to widmo starego krasnoludzkiego maga Tevliriana. Kiedy¶ by³
+potê¿nym czarodziejem strzeg±cym podziemnego miasta krasnoludów, lecz
+przegra³ pojedynek mocy ze starszym mózgiem i zgino³ ¶mierci± tragiczn±.
+Przed ¶mierci± obieca³ jednak ¿e zem¶ci siê na mózgu. Przybra³ postaæ widma,
+i pozbawiony swojej dawnej mocy, nawiedza staro¿ytny filar który niegdy¶ by³
+jego domem. 
+~
+Race duch~
+ActExt 0|ABMOR
+Affected 34078760 33554432 0 0
+AffectedExt 0|DFTZ/1|Z
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 18
+Hitroll 2
+HP 10d20+600
+Damage 2d3+1
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 10 10 10 10
+Stats 108 156 144 108 108 144 108
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+MobprogNew random 5651 FGI 30~
+MobprogNew onload 5650 ABCDEFGHI 100~
+Spells 415 92 493 403
+Spells 91 203 141 353
+Corpse -1
+Skin 100
+ExpMultiplier 150
+Resist 8 50
+Resist 10 100
+Resist 12 80
+Resist 13 60
+Mobend
+#Vnum 5654
+Name illithid ³upie¿ca umys³u psionik nadzorca stra¿nik niewolników~
+Odmiana illithida nadzorcy~illithidowi nadzorcy~illithida nadzorce~illithidem nadzorc±~illithidzie nadzorcy~
+Short illithid nadzorca~
+Long Illithid nadzorca, nadzoruje pracê niewolników.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|AEFGRT
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 25
+Hitroll 5
+HP 11d11+420
+Damage 5d3+6
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 6 6 6 0
+Stats 60 60 60 60 60 60 60
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 45
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28656 H 10~
+MobprogNew onload 28664 ABCDEFGHI 100~
+Spells 396 200 137 0
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 50
+Resist 16 100
+Mobend
+#Vnum 5655
+Name krasnoludzki niewolnik górnik~
+Odmiana krasnoludzkiego niewolnika~krasnoludzkiemu niewolnikowi~krasnoludzkiego niewolnika~krasnoludzkim niewolnikiem~krasnoludzkim niewolniku~
+Short krasnoludzki niewolnik~
+Long Zamêczony krasnoludzki niewolnik krêci siê tutaj.~
+Descr Krasnolud ten mia³ szczê¶cie i nie zosta³ obiektem badañ Illithidów.
+Trafi³ natomiast do kopalni, gdzie pracuje w nieziemskich warunkach
+wydobywaj±c surowce ca³ymi dniami i nocami. Jest wychudzony, straci³ czê¶æ
+w³osów a jego broda jest wylenia³a. Widaæ, ¿e nie jest w takiej kondycji jak
+kiedy¶. Najwyra¼niej ju¿ nie mo¿e siê doczekaæ, koñca swojego nêdznego
+¿ywota. 
+~
+Race krasnolud~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 10
+Hitroll 0
+HP 5d5+250
+Damage 1d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 7 7 7 7
+Stats 120 96 102 120 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 5652 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 5656
+Name illithid ³upie¿ca umys³u psionik dyplomata Luors'Nallig ~
+Odmiana Luors'Nalliga~Luors'Nalligowi~Luors'Nalliga~Luors'Nalligiem~Luors'Nalligu~
+Short Luors'Nallig~
+Long Luors'Nallig dyplomata Illithidów stoi tutaj.~
+Descr Luors'Nallig jest jednym z potêzniejszych Illithidów w tej czê¶ci
+podmroku. Jego potêga nie tkwi w sile fizycznej, ale w inteligencji,
+pomys³owo¶ci i charyzmatyczno¶ci. Odpowiada on za rolê polityka i
+przedstawiciela Illithidów z innymi rozumnymi rasami podmroku. Potrafi tak
+manipulowaæ swoimi ofiarami, ¿e te zgodz± siê na wszystko. Wed³ug plotek to
+on namówi³ dowódcê Drowiego oddzia³u aby wspó³nie zatakowali miasto
+krasnoludów. Je¶li spotkasz tego ³upie¿cê na swojej drodzê, uwa¿aj.
+Prawdopodobniê zanim go zobaczysz, on ju¿ bêdzie wiedzia³ jak ciebiê
+zniewoliæ i wykorzystaæ w niecny sposób. 
+~
+Race illithid~
+ActExt 0|ABEFGRT
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 30
+Hitroll 5
+HP 11d15+700
+Damage 5d3+6
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 4 4 4 0
+Stats 96 130 90 114 96 130 80
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 45
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 28664 ABCDEFGHI 100~
+MobprogNew fight 28656 H 10~
+Spells 396 200 137 304
+Spells 141 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 12 50
+Resist 16 100
+Mobend
+#Vnum 5657
+Name drowi dowódca wojownik Valm Mizzrym~
+Odmiana Valm Mizzryma~Valm Mizzrymowi~Valm Mizzryma~Valm Mizzrymem~Valm Mizzrymie~
+Short {YValm Mizzrym{x~
+Long Drowi dowódca Valm Mizzrym stoi tutaj lekko pochylony.~
+Descr Ten dowódca jest dosyæ znany w drowich krêgach. Nosi imiê Valm Mizzrym, i
+jest jednym z najlepszych szermierzy jakich mo¿na spotkaæ w podziemnych
+krainach. Mimo, ¿e jest mê¿czyzn± to zajmuje wysokie stanowisko w hierarchi
+drowów. Przygl±daj±c mu siê mo¿na doj¶æ do wniosku, ¿e jest to zwyczajny
+drow. Nic bardziej mylnego - jego twarz, która nie zdradza z±dnych uczuæ
+daje do zrozumienia ¿e jest to bezwzglêdny wojownik. 
+~
+Race drow~
+ActExt 0|ABFT/2|C
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 31
+Hitroll 3
+HP 20d30+1800
+Damage 4d4+4
+Dammagic 1
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 0 0 0 -1
+Stats 120 100 100 160 140 130 150
+Off CEIKb
+OffExt 0|CEIKb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 150
+Resist 4 30
+Resist 12 90
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 5651
+Name kupa gruzu~
+Odmiana kupy gruzu~kupie gruzu~kupê gruzu~kup± gruzu~kupie gruzu~
+Short kupa gruzu~
+Descr Kupa gruzu i po³amanych desek le¿y pod jedn± ze ¶cian.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 25
+Cost 6000
+Cond 100
+Itemdesc Jest to sporej wielko¶ci kupa gruzu. Tworz± j± od³amki skalne pochodz±ce
+ze ¶cian i sufitu. Mo¿na te¿ zauwa¿yæ kilka heblowanych desek, które kiedy¶
+zapewne by³y sto³em lub ³ó¿kiem. 
+~
+Comments ~
+Objend
+#Vnum 5652
+Name marmurowa fontanna~
+Odmiana {Bmarmurowej fontanny{x~{Bmarmurowej fontannie{x~{Bmarmurow± fontannê{x~{Bmarmurow± fontann±{x~{Bmarmurowej fontannie{x~
+Short {Bmarmurowa fontanna{x~
+Descr {BMarmurowa fontanna ozdabia ¶rodek placu.{x~
+Material marmur~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 100
+Itemdesc Ta niewielka fontanna zosta³± umiesczona w centrum miasta i stanowi
+dziwn± ale oryginaln± ozdobê. Jej kszta³t trudno okre¶liæ - jest to
+po³±czenie ró¿nych bry³. Naprawdê podobaæ siê mo¿e tylko ³upie¿com umys³ow,
+gdy¿ tylko oni s± na tyle chorzy aby widzieæ piêkno w tym czym¶. Z fontanny
+tryska woda, chyba pitna. 
+~
+Comments ~
+Objend
+#Vnum 5654
+Name stara notka~
+Odmiana starej notki~starej notce~star± notkê~star± notk±~starej notce~
+Short stara notka~
+Descr Stara notka le¿y na ziemi.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 10
+Itemdesc Jest to kawa³ek papieru na którym zabazgrano kilka znaków. Nie jeste¶
+jednak ich rozczytaæ gdy¿ zapisano je w nieznanym ci jêzyku. 
+~
+Comments ~
+Objend
+#Vnum 5655
+Name wygodna le¿anka~
+Odmiana wygodnej le¿anki~wygodnej le¿ance~wygodn± le¿ankê~wygodn± le¿ank±~wygodnej le¿ance~
+Short wygodna le¿anka~
+Descr Wygodna le¿anka stoi pod jedn± ze ¶cian.~
+Material drewno dêbowe~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 120 144 101 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to naprawdê sporej wielko¶ci le¿anka na której mo¿na spokojnie siê
+wyci±gn±c i odpocz±æ. Pozwala równie¿ w spokoju zag³ebiæ siê w medytacji lub
+skoncetrowaæ nad zapamiêtywaniem jaki¶ wa¿nych zaklêc. I¶cie królewski
+mebel! 
+~
+Comments ~
+Objend
+#Vnum 5656
+Name krasnoludzki olbrzymi drewniany ¿uraw~
+Odmiana krasnoludzkiego ¿urawia~krasnoludzkiemu ¿urawiowi~krasnoludzki ¿uraw~krasnoludzkim ¿urawiem~krasnoludzkim ¿urawiu~
+Short krasnoludzki ¿uraw~
+Descr Olbrzymi, drewniany, krasnoludzki ¿uraw stoi na krawêdzi platformy.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 19999
+Cost 1
+Cond 75
+Itemdesc Jest to krasnoludzkiej roboty ¿uraw. S³u¿y do przemieszczania ciê¿kiego
+³adunku w pionie i poziomie. Ten stoi na krawêdzi platformy i zapewne kiedy¶
+by³ czêsto u¿ywany przez krasnoludy. Teraz jednak wygl±da na zaniedbany i
+u¿ywanie jego mog³o by siê ¼le skoñczyc. 
+~
+Comments ~
+Objend
+#Vnum 5657
+Name staro¿ytna bransoleta~
+Odmiana staro¿ytnej bransolety~staro¿ytnej bransolecie~staro¿ytn± bransolete~staro¿ytn± bransolet±~staro¿ytnej  bransolecie~
+Short staro¿ytna bransoleta~
+Descr Staro¿ytna bransoleta le¿y tutaj w pyle.~
+Material stal~
+Type jewelry
+ExtraExt 0|GM
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1240
+Cond 50
+Aff 1 14 -10 0 0 0
+Itemdesc Jest to staro¿ytna bransoleta wykonana ze stali. Zdobiona jest róznego
+rodzaju wzorami i czym¶ na kszta³t runów. Wygl±da na to ¿e kiedy¶ by³a
+potê¿nym magicznym przedmiotem, teraz jednak straci³a na mocy i nadaje siê
+tylko na z³om. 
+~
+Identdesc Bransoleta ta zosta³a przeklêta. Nosz±ca j± osoba traci lekk± czê¶æ si³
+witalnych. Trudne jest te¿ jej zdjêcie z nadgarstka. 
+~
+Comments ~
+Objend
+#Vnum 5658
+Name szara szmata~
+Odmiana szarej szmaty~szarej szmacie~szar± szmatê~szar± szmat±~szarej szmacie~
+Short {Dszara szmata{x~
+Descr Pod twoimi stopami wala siê jaka¶ szara szmata.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Cuchn±ca p³ócienna szmata, nienadaje siê nawet do wycierania pod³óg.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 5661
+Name z³ota bransoleta~
+Odmiana {Yz³otej{x bransolety~{Yz³otej{x bransolecie~{Yz³ot±{x bransolete~{Yz³ot±{x bransolet±~{Yz³otej{x bransolecie~
+Short {Yz³ota{x bransoleta~
+Descr Bransoleta wykonana ze z³ota le¿y tutaj.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 10
+Cost 120
+Cond 75
+Aff 1 12 16 10 0 0
+Itemdesc Jest to spora bransoleta wykonana z piêknego i l¶ni±cego {Yz³ota{x. Oprócz
+minera³u, z którego jest wykonana, nie posiada ona jaki¶ innych pieknych
+zdobieñ. Mimo tego, wydaje ci siê, ¿e zaklêta w niej jest odrobina magii.
+Napewno piêknie wygl±da³a by na twoim nadgarstku. 
+~
+Identdesc Bransoleta ta chroni jego w³a¶ciciela w pewnym stopniu przed atakami
+mentalnymi. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 5650
+Name {WZachodnia czê¶æ placu{s~
+Descr Olbrzymia jaskinia w której siê znajdujesz nale¿y do miasta Illithidów.
+Nie by³o tak jednak zawsze. Fortece niegdy¶ mia³y tutaj krasnoludy, które
+kopi±c chciwie w poszukiwaniu skarbów dokopa³y siê do mur miasta Ultharidów.
+Ci zez³oszczeni, wybili prawie wszystkich z nich, a pozosta³ych wykorzystuj±
+do niewolniczej pracy w kopalniach. Plac ten wykonano w standardowym,
+krasnoludzkim stylu. Olbrzymie kamienne p³yty zdobi± pod³o¿e, a ¶rodek placu
+upiêksza olbrzymia fontanna. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5651
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5651
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28701
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28701
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5651
+Name {WWschodnia czê¶æ placu{s~
+Descr Wschodnia czê¶æ placu nie ró¿ni siê zbytnio od zachodniej czê¶ci.
+Pod³o¿e wy³o¿one kamiennymi kaflami a strop znajduje siê tak wysoko i¿
+¶wiat³a z powierzchni do niego nie dociera. Nale¿a³ on kiedy¶ do podziemnego
+miasta krasnoludów, lecz kilka lat temu, ich miasto zosta³o zniszczone przez
+Illithidów, którzy przygarnêli sobie ich skarby i posiad³o¶ci. Krasnoludy
+czeka³ natomiast straszliwy los. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5652
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5652
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5650
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5652
+Name Obej¶cie filara~
+Descr Olbrzymi, szeroki na kilkadziesi±t ³okci korytarz to dzie³o
+kamieniarskiej sztuki krasnoludów. Zajê³o im to wiele lat zanim go
+zbudowa³y, potem jednak straci³y po kilku bitwach z Illithidami. ¦ciany
+zdobi± krasnoludzie freski, które zosta³y zniszczone lub zamazane przez
+Ultharidów. Korytarz tutaj lekko zakrêca aby obej¶æ olbrzymi filar, tak
+gruby i wielki, i¿ zdaje siê ¿e podtrzymuje ca³y strop tej jaskini. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5653
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5653
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5651
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5651
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5653
+Name Obej¶cie filara~
+Descr Olbrzymi, szeroki na kilkadziesi±t ³okci korytarz to dzie³o
+kamieniarskiej sztuki krasnoludów. Zajê³o im to wiele lat zanim go
+zbudowa³y, potem jednak straci³y po kilku bitwach z Illithidami. ¦ciany
+zdobi± krasnoludzie freski, które zosta³y zniszczone lub zamazane przez
+Ultharidów. Korytarz tutaj lekko zakrêca aby obej¶æ olbrzymi filar, tak
+gruby i wielki, i¿ zdaje siê ¿e podtrzymuje ca³y strop tej jaskini. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5654
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5654
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5652
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5652
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5654
+Name Jeden z korytarzy w mie¶cie illithidów~
+Descr Jeden z wielu korytarzy w tym zapomnianym mie¶cie. Widaæ i¿ kiedy¶ zosta³
+stworzony przez krasnoludy lecz teraz zosta³ opanowany przez wa³êsaj±ce siê
+wszêdzie Illithidy i ich s³ugusy Umbrowe Kolosy. Pod³o¿e wy³o¿one kamiennymi
+kaflami a strop podtrzymuj± olbrzymie filary. Kiedy¶ musia³o to byæ naprawdê
+wspania³e królestwo. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5653
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5653
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5655
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5655
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5655
+Name Przed du¿ym filarem~
+Descr Jeden z wielu korytarzy w tym zapomnianym mie¶cie. Widaæ i¿ kiedy¶ zosta³
+stworzony przez krasnoludy lecz teraz zosta³ opanowany przez wa³êsaj±ce siê
+wszêdzie Illithidy i ich s³ugusy Umbrowe Kolosy. Pod³o¿e wy³o¿one kamiennymi
+kaflami. Korytarz tutaj lekko zakrêca aby obej¶æ olbrzymi filar, tak gruby i
+wielki, i¿ zdaje siê ¿e podtrzymuje ca³y strop tej jaskini. Kiedy¶ musia³o
+to byæ naprawdê wspania³e królestwo. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5654
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5654
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5657
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5657
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5657
+Name Niewielki placyk~
+Descr Jest to niewielki placyk wyk³adany kamiennymi p³ytami. Widaæ, i¿ kiedy¶
+by³o to piêkne miejsce ale teraz jest przysypane gruzem i nikt siê nim nie
+zajmuje. Illithidzi doprowadzili to miejsce to ruiny. Z placu wychodz± trzy
+dosyæ szerokie korytarze prowadz±ce gdzie¶ g³êbiej pod ziemiê. Na pó³nocy
+za¶ znajduje siê olbrzymi filar, podtrzymuj±cy strop. U jego podnó¿a
+znajduj± siê ma³e drzwi, prawdopodobnie w ¶rodku znajduje siê kompleks
+pomieszczeñ. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Filar~
+ExitExtTextOut $n wchodzi do filaru.~
+ExitExtTextIn $n wchodzi do filaru.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5658
+ExitExtEnd
+Exit 0
+~
+VName Filar~
+TextOut $n wchodzi do filaru.~
+TextIn $n wchodzi do filaru.~
+~
+0 0 5658
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5662
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5662
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5682
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5682
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5655
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5655
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5658
+Name W wysokim filarze~
+Descr Znajdujesz siê na parterze olbrzymiego filara, który s³u¿y³ kiedy¶
+krasnoludom jako wie¿a ich najpotê¿niejszego maga Tevliriana. By³ on
+naprawdê jednym z najpotê¿niejszych krasnoludzkich magów, jednak poleg³ w
+czasie obrony swojego ukochanego królestwa. Podobno poleg³ w walce z wielkim
+mózgiem. To pomieszczenie s³u¿y³o jako jego biblioteka. Wszêdzie tutaj pe³no
+jaki¶ rega³ów, jednak wiêkszo¶æ z nich jest zniszczona. Miejsce zosta³o to
+splugawione po tym gdy wkroczyli tutaj Illithidzi. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z filaru.~
+ExitExtTextIn $n wychodzi z filaru.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5657
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z filaru.~
+TextIn $n wychodzi z filaru.~
+~
+0 0 5657
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5659
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5659
+Roomprog reset 5650 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5659
+Name Pierwsze piêtro~
+Descr Ten poziom wie¿y zosta³ doszczêtnie zniszczony. ¦ciany s± zniszczone,
+wszêdzie le¿± kawa³ki sufitu a na ¶rodku znajduje siê olbrzymia i czarna
+plama. Powsta³a prawdo podobnie po jakim¶ potê¿nym wybuchu. Musia³a odbyæ
+siê tutaj potê¿na bitwa. Jedyne co ocala³o to spiralne schody które prowadz±
+na ni¿sze i wy¿sze poziomy. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5660
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5660
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5658
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5658
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5660
+Name Drugie piêtro~
+Descr Ten poziom wie¿y zosta³ doszczêtnie zniszczony. ¦ciany s± zniszczone,
+wszêdzie le¿± kawa³ki sufitu a na ¶rodku znajduje siê olbrzymia i czarna
+plama. Powsta³a prawdo podobnie po jakim¶ potê¿nym wybuchu. Musia³a odbyæ
+siê tutaj potê¿na bitwa. Jedyne co ocala³o to spiralne schody które prowadz±
+na ni¿sze i wy¿sze poziomy. Prawdopodobnie znajdowa³a siê kiedy¶ tutaj
+sypialnia, gdy¿ w rogu pomiesczenia stoji jakie¶ zrujnowane ³ó¿ko. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5661
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5661
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5659
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5659
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5661
+Name Komnata medytacji~
+Descr Ostatnie piêtro wie¿y jako jedyne nie zosta³o zniszczone. Komnata ta
+wydaje siê byæ jaka¶ tajemnicza. Panuje tutaj przyjemny pó³mrok, chocia¿
+odrobinê ¶wiat³a dostarczaj± lewituj±ce w powietrzu, ¶wiec±ce ¿ó³tym
+¶wiat³em {Ymagiczne kule{x. Pod³ogê wykonano z naprawdê dobrej jako¶ci
+materia³u, prawdopodobnie granitu. ¦ciany zdobi± dziwne, runiczne napisy
+których nie jeste¶ w stanie rozczytaæ. Miejsce to doskonale nadaje siê do
+medytacji i odpoczynku, o ile nie wtargnie tutaj jaki¶ Illithid. 
+~
+FlagsExt 0|CDFH
+Sector 0
+Extra magiczne~
+S± to naprawdê piêkne obiekty magiczne, powoli lewituj±ce w powietrzu i
+o¶wietlaj±ce te ciemn± komnatê. Mo¿na porównaæ je do ma³ych gwiazd,
+¶wiec±cych naprawdê piêknym ¶wiat³em. Jest to jedno z najpiêkniejszych
+zjawisk magicznych, jakich do¶wiadczy³e¶ w ¿yciu. 
+~
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5660
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5660
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5662
+Name Wej¶cie do kopalni~
+Descr Tunel ten prowadzi w kierunku kopalni. Pod³o¿e jest tutaj nierównomierne,
+¶ciany poharatane kilofami a strop wydaje siê byæ naturaln± jaskini±.
+Kopalnia ta nale¿a³a kiedy¶ to krasnoludów zamieszkuj±cych to podziemne
+królestwo, jednak ostatniego czasu ich miasto zosta³o zdobyte przez
+Illithidów. Teraz ci wykorzystuj± swych niewolników - w wiêkszo¶ci
+krasnoludy - do harowania w nieludzkich warunkach. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5663
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5663
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5657
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5657
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5663
+Name Kopalniany tunel~
+Descr D³ugi tunel wype³nia py³ i kurz. Jest to miejsce ciê¿kiej pracy
+niewolników nadzorowanych przez ³upie¿ców umys³u oraz ich s³ugusy umbrowe
+kolosy. Jest to niezwyk³e miejsce gdy¿ wype³nione jest sporego rozmiaru
+bry³ami {badamantytu{x oraz {Yz³ota{x. Gdzie nie gdzie mo¿na zauwa¿yæ niewielkie
+okruchy jaki¶ {Rszl{Gach{Yetn{Cych{x kamieni, które na pewno s± wiele warte. Ciekawe w
+jakim celu Illithidzi wydobywaj± te zasoby. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5664
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5664
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5662
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5662
+Resources 0 0 0 0 30 0 25 30 
+Capacity 15
+Roomend
+#Vnum 5664
+Name Kopalnie~
+Descr Znajdujesz siê w jednym z kopalnianych tuneli wype³nionym py³em i kurzem.
+Jest tutaj równie¿ strasznie duszno co napewno nie u³atwia pracy górnikom.
+Zniewolone krasnoludy wydobywaj± tutaj najrózniejszego rodzaju surowce,
+które potem trafiaj± do laboratoriów ich panów - Illithidów. Ciekawe w jakim
+celu Illithidzi pó¼niej wykorzystuj± je. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5665
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5665
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5663
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5663
+Resources 60 20 0 0 0 0 0 0 
+Capacity 20
+Roomend
+#Vnum 5665
+Name Kopalniany tunel~
+Descr Kopalnia ta niegdy¶ nale¿a³a do krasnoludów zamieszkuj±cych spokojnie te
+tereny podmroku. S³yneli z najwiêkszych z³ó¿ mithriliu i adamantytu w tej
+czê¶ci kontynentu. Jednak pewnego razu dokopali siê do miasta Illithidów
+s±siaduj±cego z ich królestwem. Gniew Ultharidów by³ ogromny. Te bezlitosne
+stwory szybko podbi³y krasnoludzie królestwo, a z jego mieszkañców zrobili
+niewolników. Osoby z mniejsz± ilo¶ci± szczê¶cia skoñczy³y pokrojone na stole
+laboratoryjnym. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5666
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5666
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5667
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5667
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5664
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5664
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5666
+Name Z³o¿e mithrilu~
+Descr Znalaz³e¶ siê w miejscu obfituj±cym w jeden z najwspanialszych metali -
+{cmithril{x. Miejsce to jest naprawdê bogate w ten zasób i mo¿esz powiedzieæ, ¿e
+jest jednym z najwiêkszych jakie widzia³e¶. Nale¿a³o kiedy¶ do tutejszych
+krasnoludów, jednak teraz miejsce to przejeli Illithidzi, którzy
+wykorzystuj± niedawnych w³a¶cicieli w ró¿nego rodzaju eksperymentach, oraz
+jako tani± si³ê robocz±. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5665
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5665
+Resources 0 0 0 0 0 35 0 0 
+Capacity 15
+Roomend
+#Vnum 5667
+Name Kopalnie~
+Descr Pod³o¿e jest tutaj nierównomierne, ¶ciany poharatane kilofami a strop
+wydaje siê byæ naturaln± jaskini±. Kopalnia ta nale¿a³a kiedy¶ to
+krasnoludów zamieszkuj±cych to podziemne królestwo, jednak ostatniego czasu
+ich miasto zosta³o zdobyte przez Illithidów. Teraz ci wykorzystuj± swych
+niewolników - w wiêkszo¶ci krasnoludy - do harowania w nieludzkich
+warunkach. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5669
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5669
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5668
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5668
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5665
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5665
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5668
+Name ¦lepa odnoga korytarza~
+Descr Znalaz³e¶ siê w ¶lepej odnodze jednego z korytarzy. Jest tu duszno a
+powietrze wype³nia zapach jakby siarki. Miejsce to jest obfite w ró¿nego
+rodzaju minera³y, które wydobywaj± z wielkim mozo³em krasnoludzcy
+niewolnicy. Zniewoleni przez Illithidów pracuj± w pocie czo³a aby prze¿yæ
+kolejny dzieñ. Ka¿dy z nich ma nadzieje, ¿e kiedy¶ przybêdzie tutaj jaki¶
+krasnoludki bohater i ich uratuje z ³ap Ulthiridów. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5667
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5667
+Resources 0 0 40 40 0 0 0 0 
+Capacity 20
+Roomend
+#Vnum 5669
+Name Kopalniany korytarz~
+Descr D³ugi tunel wype³nia py³ i kurz. Jest to miejsce ciê¿kiej pracy
+niewolników nadzorowanych przez ³upie¿ców umys³u oraz ich s³ugusy umbrowe
+kolosy. Jest to niezwyk³e miejsce gdy¿ wype³nione jest sporego rozmiaru
+bry³ami {badamantytu{x oraz {Yz³ota{x. Gdzie nie gdzie mo¿na zauwa¿yæ niewielkie
+okruchy jaki¶ {Rszl{Gach{Yetn{Cych{x kamieni, które na pewno s± wiele warte. Ciekawe w
+jakim celu Illithidzi wydobywaj± te zasoby. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5670
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5670
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5667
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5667
+Resources 0 0 0 0 25 0 25 25 
+Capacity 20
+Roomend
+#Vnum 5670
+Name Korytarz~
+Descr Kopalnia ta niegdy¶ nale¿a³a do krasnoludów zamieszkuj±cych spokojnie te
+tereny podmroku. S³yneli z najwiêkszych z³ó¿ mithriliu i adamantytu w tej
+czê¶ci kontynentu. Jednak pewnego razu dokopali siê do miasta Illithidów
+s±siaduj±cego z ich królestwem. Gniew Ultharidów by³ ogromny. Te bezlitosne
+stwory szybko podbi³y krasnoludzie królestwo, a z jego mieszkañców zrobili
+niewolników. Osoby z mniejsz± ilo¶ci± szczê¶cia skoñczy³y pokrojone na stole
+laboratoryjnym. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5669
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5669
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5671
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5671
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5671
+Name Wej¶cie do kopalni~
+Descr Tunel ten prowadzi w kierunku kopalni. Pod³o¿e jest tutaj nierównomierne,
+¶ciany poharatane kilofami a strop wydaje siê byæ naturaln± jaskini±.
+Kopalnia ta nale¿a³a kiedy¶ to krasnoludów zamieszkuj±cych to podziemne
+królestwo, jednak ostatniego czasu ich miasto zosta³o zdobyte przez
+Illithidów. Teraz ci wykorzystuj± swych niewolników - w wiêkszo¶ci
+krasnoludy - do harowania w nieludzkich warunkach. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5670
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5670
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5672
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5672
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5672
+Name Podziemna grota~
+Descr Znajdujesz siê w jednej z jaskiñ tego podziemnego kompleksu, który
+niegdy¶ by³ miastem krasnoludów a obecnie nale¿y do Iliithidów. W tej sporej
+rozmiarów, naturalnej grocie mo¿na znale¼æ jedynie kupê kamieni, i odchody
+nietoperzy, których piski dochodz± do ciebie gdzie¶ ze stropu. Zachodnia
+¶ciana nie istniejê, a zbudowano tam jedynie drewniane pomosty nad wielk±
+pustk±, która podobna prowadzi a¿ do samego ¶rodka ziemi. Id±c na pó³noc
+dojdziesz do kopalni a korytarzem na wschód dojdziesz gdzie¶ w g³±b miasta
+krasnoludów. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5671
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5671
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5684
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5684
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5673
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5673
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5673
+Name Skrzy¿owanie chodników zawieszonych nad przepa¶ci±~
+Descr Znalaz³e¶ siê na olbrzymiej drewnianej platformie, która umiejscowiona
+jest w olbrzymiej grocie. Miejsce jest to jednym z cudów natury. Strop
+znajduje siê tak wysoko, i¿ ¶wiat³o nawet potê¿nych pochodni nie o¶wietla
+go. Je¶li zamierzasz wyj¶æ poza platformê spotka ciê d³uga podró¿ w dó³.
+Wed³ug plotek otch³añ ta prowadzi a¿ do samego j±dra ziemi, jednak nikt tego
+nigdy nie udowodni³. Pod³oga platformy skrzypi niemi³osiernie i masz
+wra¿enie, ¿e zaraz siê zawali i runie w dó³. Platforma dalej ci±gnie siê na
+zachód i po³udnie. Na wschodzie znajduj± siê wej¶cia do dalszych czê¶ci
+Illithidzkiego miasta. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5672
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5672
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5675
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5675
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5674
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5674
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5674
+Name Koniec chodnika zawieszonego nad przepa¶ci±~
+Descr W miejscu tym chodnik gwa³townie siê koñczy. Id±c dalej prawdopodobnie
+spad³by¶ w ciemn± otch³añ, która podobno nie ma dna. Wieje z niej
+niesamowity ch³ód i na sam± my¶l, co tam siê znajduje przechodz± ciê
+dreszcze. Jak mawiaj± mêdrcy, otch³añ ta prowadzi do samego ¶rodka ziemi.
+Lepiej jednak bêdzie nie sprawdzaæ czy to prawda a zawróciæ. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5673
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5673
+Roomprog random 5651 15~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5675
+Name Gwa³towny zakrêt chodnika~
+Descr Chodnik gwa³townie tutaj zakrêca w zachodu na pó³noc w celu ominiêcia
+granitowej ¶ciany przez któr± nie mo¿na by³o siê przebiæ. Ta wspania³a
+drewniana konstrukcja krasnoludów, w tym miejscu jest nieco wê¿sza wiêc
+trzeba uwa¿aæ ¿eby nie postawiæ stopy w z³ym miejscu. Jedna spróchnia³a
+deska, lub ¶liska ka³u¿a i mo¿na skoñczyæ w bezdennej otch³ani. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5673
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5673
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5676
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5676
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5676
+Name Zakrêt chodnika~
+Descr Kolejny zakrêt chodnika omijaj±cy potê¿n± granitow± ¶cianê na wschodzie.
+Drewniany chodnik, którym siê przemieszcza³e¶ jest tutaj szeroki na kilka
+metrów i wygl±da na solidn± konstrukcje chocia¿ jest nieco zakurzony.
+Trzeszczy on niemi³osiernie gdy po nim st±pasz i obudzi³ by nawet ¶pi±cego
+behemota. Poruszanie siê po nim u³atwiaj± drewniane s³upki, których mo¿na
+siê przytrzymaæ. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5675
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5675
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5677
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5677
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5677
+Name Zakrêt chodnika~
+Descr Drewniany chodnik, którym siê porusza³e¶ zakrêca w tym miejscu ze wschodu
+na pó³nocy omijaj±c olbrzymi±, granitow± ¶cianê na wschodzie. Jest on
+szeroki na kilka metrów i wygl±da na solidn± konstrukcjê i raczej nie grozi
+ci upadek w ciemn± i czarn± otch³añ. Je¶li jednak jeste¶ pijany powiniene¶
+uwa¿aæ jak chodzisz. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5676
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5676
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5678
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5678
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5678
+Name Chodnik zawieszony nad przepa¶ci±~
+Descr Znajdujesz siê na niesamowicie majestatycznej konstrukcji z drewna.
+Chodnik ten wykonany zosta³ dawno temu przez krasnoludy, teraz jednak
+spotkaæ mo¿na tu jedynie kurz, ³upie¿ców umys³u oraz umbrowe kolosy. Ten
+jakby pomost pozwala na przemieszczanie siê ponad wielk± pustk±. Wydaje siê
+byæ solidn± budowl±. Zastanawiaj±ce jest sk±d krasnoludy wziê³y drewno do
+budowy tego chodnika. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5680
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5680
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5677
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5677
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5679
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5679
+Roomprog random 5651 15~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5679
+Name Koniec chodnika~
+Descr Drewniany chodnik na którym siê znajdujesz koñczy siê tutaj pod jedn± ze
+¶cian. Prawdopodobnie krasnoludy nie skoñczy³y budowaæ w tym miejscu
+dalszych komnat, prawdopodobnie przeszkodzi³ im w tym najazd ³upie¿ców
+umys³ów i umbrowych kolosów. Jedyne co mo¿esz zrobiæ to zawróciæ w kierunku
+pó³nocnym, czyli tam sk±d przyszed³e¶. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5678
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5678
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5680
+Name Platforma nad przepa¶ci±~
+Descr Znalaz³e¶ siê na olbrzymiej drewnianej platformie, która umiejscowiona
+jest w olbrzymiej grocie. Miejsce jest to jednym z cudów natury. Strop
+znajduje siê tak wysoko, i¿ ¶wiat³o nawet potê¿nych pochodni nie o¶wietla
+go. Je¶li zamierzasz wyj¶æ poza platformê spotka ciê d³uga podró¿ w dó³.
+Wed³ug plotek otch³añ ta prowadzi a¿ do samego j±dra ziemi, jednak nikt tego
+nigdy nie udowodni³. Pod³oga platformy skrzypi niemi³osiernie i masz
+wra¿enie, ¿e zaraz siê zawali i runie w dó³. Platforma dalej ci±gnie siê na
+pó³noc i zachód. Na po³udniu platforma zaczyna przeistaczaæ siê w drewniany
+chodnik kopalniany. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5683
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5683
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5678
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5678
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5681
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5681
+Roomprog random 5651 15~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5681
+Name Platforma nad przepa¶ci±~
+Descr Znalaz³e¶ siê na olbrzymiej drewnianej platformie, która umiejscowiona
+jest w olbrzymiej grocie. Miejsce jest to jednym z cudów natury. Strop
+znajduje siê tak wysoko, i¿ ¶wiat³o nawet potê¿nych pochodni nie o¶wietla
+go. Je¶li zamierzasz wyj¶æ poza platformê spotka ciê d³uga podró¿ w dó³.
+Wed³ug plotek otch³añ ta prowadzi a¿ do samego j±dra ziemi, jednak nikt tego
+nigdy nie udowodni³. Pod³oga platformy skrzypi niemi³osiernie i masz
+wra¿enie, ¿e zaraz siê zawali i runie w dó³. Platforma dalej ci±gnie siê na
+wschód i pó³noc. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5682
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5682
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5680
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5680
+Roomprog random 5651 15~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5682
+Name Platforma nad przepa¶ci±~
+Descr Znalaz³e¶ siê na olbrzymiej drewnianej platformie, która umiejscowiona
+jest w olbrzymiej grocie. Miejsce jest to jednym z cudów natury. Strop
+znajduje siê tak wysoko, i¿ ¶wiat³o nawet potê¿nych pochodni nie o¶wietla
+go. Je¶li zamierzasz wyj¶æ poza platformê spotka ciê d³uga podró¿ w dó³.
+Wed³ug plotek otch³añ ta prowadzi a¿ do samego j±dra ziemi, jednak nikt tego
+nigdy nie udowodni³. Pod³oga platformy skrzypi niemi³osiernie i masz
+wra¿enie, ¿e zaraz siê zawali i runie w dó³. Platforma dalej ci±gnie siê na
+wschód i po³udnie, na pó³nocy za¶ znajduje siê wej¶cie do miasta ³upie¿ców
+umys³ów. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5657
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5657
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5683
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5683
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5681
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5681
+Roomprog random 5651 15~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5683
+Name Platforma nad przepa¶ci±~
+Descr Znalaz³e¶ siê na olbrzymiej drewnianej platformie, która umiejscowiona
+jest w olbrzymiej grocie. Miejsce jest to jednym z cudów natury. Strop
+znajduje siê tak wysoko, i¿ ¶wiat³o nawet potê¿nych pochodni nie o¶wietla
+go. Je¶li zamierzasz wyj¶æ poza platformê spotka ciê d³uga podró¿ w dó³.
+Wed³ug plotek otch³añ ta prowadzi a¿ do samego j±dra ziemi, jednak nikt tego
+nigdy nie udowodni³. Pod³oga platformy skrzypi niemi³osiernie i masz
+wra¿enie, ¿e zaraz siê zawali i runie w dó³. Platforma dalej ci±gnie siê na
+wschód i po³udnie. Przy jednej z krawêdzi stoi jaka¶ potê¿na krasnoludzka
+konstrukcja. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5680
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5680
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5682
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5682
+Roomprog random 5651 15~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5684
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5689
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5689
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5672
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5672
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5685
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5690
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5690
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5695
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5695
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5686
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5691
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5691
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5687
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5687
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5696
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5696
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5687
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5692
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5692
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5688
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5688
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5686
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5686
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5688
+Name ~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5697
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5697
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5687
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5687
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5689
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5690
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5690
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5684
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5684
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5690
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Cela~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5693
+ExitExtEnd
+Exit 0
+~
+VName Cela~
+~
+0 0 5693
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5691
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5691
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5685
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5685
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5689
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5689
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5691
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5692
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5692
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5686
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5686
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5690
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5690
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5692
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5687
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5687
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5691
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5691
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5693
+Name Cela~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5694
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5694
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5690
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 5690
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5694
+Name Cela~
+FlagsExt 0|DH
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5693
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5693
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5695
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5685
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5685
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5696
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5696
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5699
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5699
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5696
+Name ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5686
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5686
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5695
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5695
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5697
+Name Przedsionek komnaty narad~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5698
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5698
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5688
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5688
+DayRDesc 5650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5698
+Name Komnata narad~
+Descr Ta niewielka komnata, niegdy¶ s³u¿y³a jako miejsce narad dowódców
+krasnoludzkich. Teraz jednak gdy w³adzê przejêli Illithidzi, miejsce to
+straci³o na swojej dawnej ¶wietno¶ci. Pod³ogê pokrywa warstwa kurzu, ¶ciany
+s± obdrapane a sufit wygl±da jak by mia³ siê zawaliæ. W rogu sali stoi kilka
+starych mebli, prawdopodobnie u¿ywanych jeszcze przez krasnoludy. Chocia¿
+miejsce to jest brudne i odpychaj±ce, ³upie¿cy umys³ów wykorzystuj± je do
+spotkañ z innymi potê¿nymi rasami podmroku. Spiskuj± z nimi tylko po to aby
+samemu wyj¶æ na tym jak najlepiej. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5697
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5697
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5699
+Name ~
+Descr ~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5695
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5695
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 5650 12 5650 1
+O 100 5652 0 5650
+M 100 5650 12 5651 1
+M 100 5650 12 5654 1
+O 100 5651 0 5660
+O 100 5655 0 5661
+M 100 5653 1 5661 1
+M 100 5654 2 5664 1
+M 100 5655 2 5665 1
+E 100 3275 0 17
+E 100 5658 0 5
+E 100 3010 0 8
+G 100 3111 0
+G 100 3111 0
+M 100 5650 12 5667 1
+M 100 5654 2 5669 1
+M 100 5655 2 5669 1
+E 100 3275 0 17
+E 100 5658 0 5
+E 100 3002 0 8
+G 100 3115 0
+G 100 3114 0
+G 100 3114 0
+M 100 5650 12 5670 1
+M 100 5650 12 5674 1
+M 100 5650 12 5679 1
+M 100 5652 3 5680 1
+M 100 5652 3 5682 2
+M 100 5652 3 5682 2
+O 100 5656 0 5683
+M 100 5656 1 5698 1
+E 45 5661 0 15
+O 100 5651 0 5698
+O 100 2364 0 5698
+M 100 5657 1 5698 1
+E 100 3025 0 5
+E 100 3002 0 8
+E 100 4426 0 12
+S
+
+
+
+#MOBPROGSNEW
+#5650
+~
+mob equip self 5657
+mob oload gem 3
+mob oload weapon 4
+~
+#5651
+~
+if rand 90
+  smut
+  say Smutno mi sie robi na my¶l, ¿e w moim kochanym mie¶cie panosz± siê jakie¶ paskudztwa.
+else
+  if rand 80
+    say Nadejdzie jescze czas panowania krasnoludów.
+  else
+    if rand 80
+      wzd
+    endif
+  endif
+endif
+~
+#5652
+~
+if rand 98 
+  say O ja biedny, czemu ja muszê tutaj tak charowac!
+else
+  if rand 96
+    mob echo Krasnoludzki niewolnik ociera swoje spocone czo³o.
+  else
+    if rand 95
+      modl $n
+      If rand 94 
+        say Czy nikt mi nie pomo¿e?
+        smut
+      endif
+    endif
+  endif
+endif
+~
+#5654
+~
+if rand 10
+  mob equip self 3313
+else
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#5650
+~
+mob purge szafa
+mob oload 2354 room
+mob oload 5654 i 2354
+mob oload gem 1 i 2354
+~
+#5651
+~
+if rand 97 
+  mob echo Niesamowicie ch³odny powiew wiatru gdzie¶ z ciemnej otch³ani przeszywa twoje cia³o
+else
+  if rand 96
+    mob echo Wysoko ponad g³ow± s³yszysz popiskiwanie nietoperzy.
+  else
+    if rand 95
+      mob echo S³yszysz jakie¶ okrzyki, które dobiegaj± gdzie¶ z ciemnej otch³ani. 
+    endif
+  endif
+endif
+~
+#5652
+~
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 5650
+DescRand ~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name konc6~
+Desc Na skalistym pod³o¿u zauwa¿asz co jaki¶ czas dziwne, czarne plamy i rowki, jakby wielkie odciski stóp naprawdê potê¿nych istot.
+~
+Group 6
+End
+#Name rozw6~
+Desc Nie widzisz tutaj nawet ¶ladu jakiejkolwiek ro¶linno¶ci, bo to i przecie¿ normalne, ¿e nic nie uro¶nie w miejscu, które nigdy nie widzia³o ¶wiat³a s³onecznego.
+~
+Group 5
+End
+#Name wst6~
+Desc Znajdujesz siê w jednym z owianych groz± i tajemnic± tuneli w podmroku.
+~
+Group 4
+End
+#Name konc5~
+Desc Podziwiasz przez pare minut uroki jaskini, jednak po chwili nachodzi ciê
+dziwne uczucie ch³odu... Co to oznacza? 
+~
+Group 6
+End
+#Name konc4~
+Desc Masz wra¿enie, ¿e nie wytrzymasz d³ugo w tym zamkniêciu... Jak dobrze
+by³oby siê teraz znale¼æ na powierzchni! 
+~
+Group 6
+End
+#Name konc3~
+Desc Nagle zbiera ci siê na md³o¶ci, jakby bez wyra¼nej przyczyny. Mo¿e to
+przez to zamkniêcie? 
+~
+Group 6
+End
+#Name konc2~
+Desc Nachodzi ciê dziwne uczucie strachu, tajemniczego lêku. Lepiej siê ruszaæ! 
+~
+Group 6
+End
+#Name konc1~
+Desc Z trudem próbujesz rozejrzeæ siê dok³adnie po otoczeniu, ale ciemno¶æ
+dooko³a jest nieub³agana. 
+~
+Group 6
+End
+#Name rozw5~
+Desc Na moment twoj± uwagê przyci±gaj± fantastyczne konstrukcje skalne, które
+utworzy³y siê tu przez wieki. Niektóre wygl±daj± jak wielkie ¿yrandole
+zwisaj±ce ze stropu... Bajeczny widok. 
+~
+Group 5
+End
+#Name rozw4~
+Desc Przez chwilê koncentrujesz swój wzrok na zwisaj±cych ze stropu
+stalaktytach, które wygl±daj± naprawdê niesamowicie! 
+~
+Group 5
+End
+#Name rozw3~
+Desc Z pod³o¿a sterczy kilka stalagmitów, które lekko utrudniaj± przej¶cie.
+Gdzie¶ w oddali s³ychaæ g³o¶ny plusk. 
+~
+Group 5
+End
+#Name rozw2~
+Desc Dochodzisz do wniosku, ¿e te podziemne korytarze s± niesamowite! Ciekawe
+czy zosta³y stworzone przez istoty rozumne. 
+~
+Group 5
+End
+#Name rozw1~
+Desc Ogl±dasz wnikliwie ¶ciany tej podziemnej, hmm, konstrukcji zastanawiaj±c
+siê czy zosta³a ona wybudowana przez istoty my¶l±ce czy jakiego¶ rodzaju
+podziemne stworzenia. 
+~
+Group 5
+End
+#Name wst5~
+Desc Przechodz±c przez t± czê¶æ korytarza czujesz jak zimny kamieñ, czy ska³a
+ocieraj± siê o twoje cia³o nape³niaj±c ciê wra¿eniem ch³odu. 
+~
+Group 4
+End
+#Name wst4~
+Desc Podnosisz wy¿ej swoje ¼ród³o ¶wiat³a aby dok³adnie przyjrzeæ siê tym
+podziemnym konstrukcjom. Naprawde niesamowite, ¿e co¶ tak g³êboko pod
+powierzchni± ziemi mo¿e czasami wygl±daæ tak piêknie. 
+~
+Group 4
+End
+#Name wst3~
+Desc Próbujesz rozejrzeæ siê dooko³a, ale momentalnie dopada ciê i¶cie
+klaustrofobiczne uczucie! W±skie, ciasne korytarze, mrok i nigdzie
+wyj¶cia... 
+~
+Group 4
+End
+#Name wst2~
+Desc Ogl±dasz t± czê¶æ podziemnych tuneli i stwierdzasz, ¿e tak w³asnie je
+sobie wyobra¿a³<&e¶/a¶/o¶>. Korytarze s± bardzo ciasne, cie¿ko czasami
+przej¶æ przez niektóre z nich. 
+~
+Group 4
+End
+#Name wst~
+Desc Ta dziwna, mo¿e lekko nienaturalna jaskinie wygl±da tak jak to mo¿na
+sobie wyobraziæ. Korytarze s± bardzo w±skie, czasami tak¿e niskie. 
+~
+Group 4
+End
+#Name 15~
+Desc Ziewasz krótko po czym postanawiasz daæ spokój dalszemu bezsensownemu badaniu pomieszczenia.
+~
+Group 3
+End
+#Name 14~
+Desc Nagle nerwowo szukasz oczami wyj¶cia, tak jakby w pomieszczeniu by³o co¶
+z³ego. Na szczê¶cie po chwili zauwa¿asz, ¿e komnata nie zosta³a odciêta od
+innych. Oddychasz z ulg±. 
+~
+Group 3
+End
+#Name 13~
+Desc Gdzie¶ z daleka dochodz± ciê dziwne, g³uche odg³osy. 
+~
+Group 3
+End
+#Name 12~
+Desc Po chwili namys³u stwierdzasz, ¿e w komnacie nie ma nic szczególnie interesuj±cego.
+~
+Group 3
+End
+#Name 11~
+Desc Z rezygnacja stwierdzasz, ¿e ta komnata zupe³nie nie ró¿ni siê niczym od wszystkich pozosta³ych.
+~
+Group 3
+End
+#Name 10~
+Desc Gdy ogl±dasz po raz kolejny tajemnicze wzory zdobi±ce ¶ciany i strop
+komnaty ogarnia ciê uczucie monotoni. Wszystko tu wydaje siê byæ u³o¿one i
+uporz±dkowane a co za tym idzie - nudne. 
+~
+Group 2
+End
+#Name 09~
+Desc Badawczo spogl±dasz na dziwne wypustki w ¶cianach, które znajduj± sie w
+komnacie. Z pozoru wygl±daj± jak dzwignie lub pokrêt³a, lecz zapewne w
+rzeczywisto¶ci s³u¿± do czego¶ innego. Po chwili namyslu porzucasz pomys³
+próby ich u¿ycia. 
+~
+Group 2
+End
+#Name 08~
+Desc Uwa¿nie przypatrujesz siê ¶cianom i stropowi pomieszczenia. Z niejakim
+zdziwieniem mo¿esz stwierdziæ, ¿e wiêkszo¶æ komnat miasta illithidów jest
+identyczna. Te same wzory, kszta³ty i rozmiary. Ciekawe czemu to wszystko
+s³u¿y. 
+~
+Group 2
+End
+#Name 07~
+Desc Ostro¿nie dotykasz fragmentu jednej z owalnych ¶cian komnaty w której siê
+znajdujesz. Ze zdziwieniem odkrywasz, ¿e jest ona miejscami g³adka i miêkka
+a miejscami szorstka i twarda. Niemniej masz wra¿enie, ¿e do jej budowy
+u¿yto tego samego materia³u. 
+~
+Group 2
+End
+#Name 06~
+Desc Spogl±daj±c na dziwnej budowy krzes³a i ³ó¿ka znajduj±ce siê w komnacie
+zastanawiasz siê czy illithidzi u¿ywaj± tych mebli w tym samym celu co
+mieszkañcy powierzchni. Z pewno¶ci± nigdy siê tego nie dowiesz. 
+~
+Group 2
+End
+#Name 05~
+Desc Stoj±c na ¶rodku tej eliptycznej komnaty zastanawiasz siê jakimi
+sposobami zosta³a ona wykonana. Z pewno¶ci± sami ³upie¿cy umys³u nie mogli
+wybudowaæ tak niesamowitych konstrukcji architektonicznych. 
+~
+Group 1
+End
+#Name 04~
+Desc Przechodz±c przez t± komnate odczuwasz dziwny lêk przed jej niecodziennym
+wystrojem. Dominuj± tu zimne barwy pomieszane z krwist± czerwieni±. Pomimo
+tego, i¿ illithidzi s± rozumnymi istotami to ich miasta wygl±daj± dla
+mieszkañców powierzchni conajmniej barbarzyñsko. 
+~
+Group 1
+End
+#Name 03~
+Desc Gdy rozgl±dasz siê po pomieszczeniu w którym siê znajdujesz nachodz± ciê
+z³e przeczucia. Wszystko w tym podziemnym mie¶cie jest takie inne i
+niesamowite. Co rusz zastanawiasz siê do czego s³u¿y jeden z mebli czy czê¶æ
+wystroju pomieszczeñ. 
+~
+Group 1
+End
+#Name 02~
+Desc Przechodzisz przez jedn± z owalnych sal miasta ³upie¿ców umys³u. Gdy
+spogl±dasz na dziwaczne ¶ciany przechodzi cie dresz. Nic co tu zauwa¿asz nie
+ma realnych odpowiedników w ¶wiecie jaki istnieje na powierzchi. 
+~
+Group 1
+End
+#Name 01~
+Desc Znajdujesz siê w jednym z wielu owalnych pomieszczeñ podziemnego miasta
+zamieszkiwanego przez ³upie¿ców umys³u zwanych illithidami. Wszystko tu
+wydaje ci siê obce i nieprzyjemne. 
+~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,1559 @@
+#AREADATA
+Name +  Cmentarz upad³ych~
+Builders None~
+VNUMs 5101 5120
+Credits Midian
+maciekmidian@gmail.com
+ 
+{YModyfikacja topografii i fabularnych za³o¿eñ krainy:
+Horg
+kubinwielki@gmail.com {x
+~
+Locked ~
+Security 9
+ResetAge 11
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 5114
+Name upiorny wojownik~
+Odmiana wojownika~wojownikowi~wojownika~wojownikiem~wojowniku~
+Short upiorny wojownik~
+Long Stoi tutaj jaki¶ wojownik wygl±daj±cy na upiora.~
+Descr Upiorny wojownik by³ niegdy¶ dobrze zbudownanym mê¿czyzn±. Ma szerokie
+barki i d³onie przypominaj±ce wielko¶ci± bochny chleba. Teraz strze¿e swego
+sarkofagu, pewnie po to aby nikt go nie okrad³. Chyba bêdzie jednak lepiej
+je¶li odejdziesz st±d i przestaniesz zak³ócaæ spokój, nikt nie wie czego
+mo¿na siê spodziewaæ po upiorach. 
+~
+Race upiorny rycerz~
+ActExt 0|ABOd
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align -750
+Group 0
+Lang AM
+Speaks 12
+Level 25
+Hitroll 0
+HP 10d5+700
+Damage 3d6+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC -1 -1 -1 -1
+Stats 150 120 120 126 126 126 126
+Off CEIKY
+OffExt 0|CEIKY/1|D
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 3500
+Form EMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 5117 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 80
+Resist 4 30
+Resist 8 100
+Resist 12 50
+Resist 17 40
+Mobend
+#Vnum 5116
+Name upiorny m¶ciwy mag~
+Odmiana maga~magowi~maga~magiem~magu~
+Short upiorny mag~
+Long Jaki¶ m¶ciwy upiór maga stoi tu, gorej±c niebieskim p³omieniem.~
+Descr {DGdy spogl±dasz na tego upiora, pierwsze co rzuca Ci siê w oczy to
+b³êkitne p³omienie gorej±ce w jego oczach. Zaprawdê, przera¿aj±cy to widok.
+Upiorny mag by³ za ¿ycia bardzo wysokim, szczup³ym mê¿em o ko¶cistej twarzy
+i rachitycznych d³oniach. Teraz za¶ strze¿e swojej mogi³y, któr± rozkopa³
+jaki¶ rabu¶, szukaj±cy skarbów. {x 
+~
+Race upiorny rycerz~
+ActExt 0|ABFORd
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align -1000
+Group 0
+Lang AM
+Speaks 12
+Level 18
+Hitroll 1
+HP 10d5+600
+Damage 2d3+2
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 7 9 7 9
+Stats 120 144 144 120 120 120 120
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 150
+Form EMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew death 5114 ABCDEFGHI 60~
+MobprogNew onload 5116 ABCDEFGHI 100~
+Spells 281 163 194 203
+Spells 60 13 199 185
+Spells 94 414 310 228
+Spells 91 177 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 80
+Resist 4 75
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 5117
+Name upiorna dziewica~
+Odmiana dziewicy~dziewicy~dziewicê~dziewic±~dziewicy~
+Short upiorna dziewica~
+Long Upiór jakiej¶ kobiety przemyka têdy.~
+Descr Jest to duch m³odej kobiety która za ¿ycia nie mia³a lekko. ¦wiadczy o
+tym dosyæ smutny wyraz jej twarzy. Nikt nie wie jak zginê³a, lecz tak jak i
+pozosta³e duchy skazana zosta³a na wieczn± tu³aczkê po tym cmentarzysku.
+Widaæ, ¿e nie jest z tego faktu zadowolona, bo przecie¿ ka¿dy wola³by ¿yæ. 
+~
+Race upiorny rycerz~
+ActExt 0|AORd
+Affected 0 0 0 0
+AffectedExt 0
+Align -100
+Group 0
+Lang AM
+Speaks 12
+Level 7
+Hitroll 0
+HP 5d10+70
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 10
+Stats 126 114 114 114 114 114 114
+Off CI
+OffExt 0|CI
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form EIMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 5115 ABCDEFGHI 100~
+Spells 2 93 92 17
+Spells 24 149 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 80
+Resist 4 75
+Mobend
+#Vnum 5118
+Name duch wojownika~
+Odmiana wojownika~wojownikowi~wojownika~wojownikiem~wojowniku~
+Short duch wojownika~
+Long Duch wojownika stoi tutaj czekaj±c na co¶.~
+Descr Spogl±dasz na ducha dosyæ sporej postury, widaæ, ¿e za ¿ycia by³ mê¿nym
+wojownikiem. Niestety musia³ podzieliæ los ca³ego cmentarza i teraz straszy
+¶mia³ków odwiedzaj±cych ten ma³y cmentarz na którym przysz³o mu ¿yæ po
+¿yciu. Mo¿e jednak lepiej odej¶æ od niego i tak siê nie przygl±daæ? Kto wie
+czy nie bedzie z³y z tego powodu. 
+~
+Race upiorny rycerz~
+ActExt 0|AOTd
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang AM
+Speaks 12
+Level 15
+Hitroll 1
+HP 8d10+300
+Damage 1d7+2
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack none
+XAC 0 0 0 10
+Stats 120 120 120 120 120 120 120
+Off CEIKY
+OffExt 0|CEIKY/1|D
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form EIMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+Comments poprawa aligmentu.... - {RRisan{x ({CMon Oct  3 21:14:57 2011{x)
+~
+MobprogNew onload 5118 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 80
+Resist 4 75
+Mobend
+#Vnum 5120
+Name upiorny kap³an~
+Odmiana kap³ana~kap³anowi~kap³ana~kap³anem~kap³anie~
+Short upiorny kap³an~
+Long Upiorny kap³an unosi siê tutaj przed wielkim o³tarzem.~
+Descr Spogl±daj±c na upiornego kap³ana na my¶l przychodzi tylko jedno - co ma
+takiego w sobie, co sprawia, ¿e odczuwasz tak przera¼liwy strach przed nim.
+Kap³an wygl±da strasznie, ma wielki garb i w kilku miejscach wystaj± mu
+ko¶ci - po³amane z reszt± w skutek obra¿eñ odniesionych przed ¶mierci±.
+Chyba lepiej bêdzie jak opu¶cisz jego lokum. 
+~
+Race upiorny rycerz~
+ActExt 0|ABOQd
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align -1000
+Group 0
+Lang AM
+Speaks 12
+Level 22
+Hitroll 0
+HP 10d5+600
+Damage 1d9+3
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 10
+Stats 132 132 132 114 114 114 114
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 70
+Form EIMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 5113 ABCDEFGHI 100~
+Spells 273 271 5 54
+Spells 55 10 77 230
+Spells 231 26 50 51
+Spells 171 137 172 0
+Corpse -1
+Skin 100
+ExpMultiplier 80
+Resist 4 75
+Resist 17 25
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 5103
+Name buty upiornego maga~
+Odmiana {Dbutów upiornego maga{x~{Dbutom upiornego maga{x~{Dbuty upiornego maga{x~{Dbutami upiornego maga{x~{Dbutach upiornego maga{x~
+Short {Dbuty upiornego maga{x~
+Descr Stoj± tutaj dziwne buty promieniuj±ce magiczn± aur±.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|GJ
+Wear AG
+Wear2Ext 0|O
+Bonus 5103
+LiczbaMnoga 1
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 200
+Cond 100
+Aff 1 14 4 0 0 0
+Itemdesc S± to przepiêkne buty wykonane z kaszmiru, u¿ywane s± przez dostojnych
+magów. Dziêki swoim magicznym w³a¶ciwo¶ciom s± niezwykle wygodne i dobrze
+siê w nich podró¿uje. 
+~
+Comments ~
+Objend
+#Vnum 5104
+Name rekawy upiornego maga~
+Odmiana {Drêkawów upiornego maga{x~{Drêkawom upiornego maga{x~{Drêkawy upiornego maga{x~{Drêkawami upiornego maga{x~{Drêkawach upiornego maga{x~
+Short {Drêkawy upiornego maga{x~
+Descr Piêkne rêkawy promieniuj±ce magiczn± aur± le¿± tutaj.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|GJ
+Wear AI
+Wear2Ext 0|O
+Bonus 5103
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 300
+Cond 100
+Aff 1 12 8 5 0 0
+Itemdesc S± to piêknie wykonane rêkawy, uszyto je z kaszmiru i przyozdobiono
+z³otymi niæmi które dodaj± uroku ca³o¶ci. Na mankietach zapinane s± na trzy
+guziki wykonane chyba z mithrilu. To ubranie doskonale chroni przed wiatrem
+i deszczem. 
+~
+Comments ~
+Objend
+#Vnum 5105
+Name spodnie upiornego maga~
+Odmiana {Dspodni upiornego maga{x~{Dspodniom upiornego maga{x~{Dspodnie upiornego maga{x~{Dspodniami upiornego maga{x~{Dspodniach upiornego maga{x~
+Short {Dspodnie upiornego maga{x~
+Descr Piêkne spodnie promieniuj±ce magiczn± aur± le¿± tutaj.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|GJ
+Wear AF
+Wear2Ext 0|O
+Bonus 5103
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6
+Cost 200
+Cond 100
+Aff 1 13 5 0 0 0
+Itemdesc Spogl±dasz na te piêkne spodnie, sam ich widok zapiera dech w piersiach,
+pewnie ze wzglêdu na doskona³o¶æ ich wykonania. Magia która zosta³a zaklêta
+w spodnie sprawia, ¿e jeszcze wygodniej siê w nich chodzi. Zaprawde to
+piêkna czê¶æ ubrania. 
+~
+Comments ~
+Objend
+#Vnum 5109
+Name drewniana tabliczka napis~
+Odmiana {ydrewnianej tabliczki{x~{ydrewnianej tabliczce{x~{ydrewnian± tabliczkê{x~{ydrewnian± tabliczk±{x~{ydrewnianej tabliczce{x~
+Short {ydrewniana tabliczka{x~
+Descr {yDrewnian± tabliczkê z dziwnym {Rnapisem{y wbito tu w ziemiê.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 16959
+Cost 1
+Cond 75
+Itemdesc Uwaga!
+ 
+ 
+Wkraczasz na teren starego cmentarza!
+Ró¿ne dziwne rzeczy siê tam dziej±, wiêc zachowaj ostro¿no¶æ!
+ 
+Khabar, mer Arras
+~
+Comments ~
+Objend
+#Vnum 5112
+Name kap³añska ksiêga~
+Odmiana kap³añskiej ksiêgi~kap³añskiej ksiêdze~kap³añsk± ksiêgê~kap³añsk± ksiêg±~kap³añskiej ksiêdze~
+Short kap³añska ksiêga~
+Descr Kap³añska ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 4 226 22 231 273 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 200
+Cond 75
+Itemdesc Jest to dosyæ gruba ksiêga. S±dz±c po runach na ok³adce przeznaczona jest
+dla kap³anów i zawiera jakiego¶rodzaju psalmy. 
+~
+Comments Cure Critical zmieniam na cause serious... big lol. - {RDrake{x ({CSat Jul  3 10:18:35 2010{x)
+~
+Objend
+#Vnum 5113
+Name plugawa ksiêga zaklêæ~
+Odmiana plugawej ksiêgi~plugawej ksiêdze~plugaw± ksiêge~plugaw± ksiêg±~plugawej ksiêdze~
+Short plugawa ksiêga~
+Descr Ksiêga emanuj±ca plugaw± aur± le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 6 310 204 278 307 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 100
+Cond 75
+Itemdesc Jest to ma³a, niepozorna ksi±¿eczka. Jednak bij±ca z niej zimna aura
+ka¿dego mo¿e przyprawiæ o dreszcze. 
+~
+Comments ~
+Objend
+#Vnum 5114
+Name upiorna szata~
+Odmiana upiornej szaty~upiornej szacie~upiorn± szatê~upiorn± szat±~upiornej szacie~
+Short upiorna szata~
+Descr Upiorna szata wykonana z kaszmiru le¿y tutaj.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|J
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 100
+Cond 75
+Aff 1 27 2 1 0 0
+Itemdesc Jest to szata wykonana z kaszmirowej tkaniny. Na brzegach tkanine obszyto
+z³ot± nicia, co sprawia, i¿ prezentuje siêokazale, i zas³ania praktycznie
+ca³e cia³o. 
+~
+Comments ~
+Objend
+#Vnum 5117
+Name przeklête buty~
+Odmiana przeklêtych butów~przeklêtym butom~przeklête buty~przeklêtymi butami~przeklêtych butach~
+Short przeklête buty~
+Descr Wspania³e buty le¿± tutaj porzucone.~
+Material mithril~
+Type armor
+ExtraExt 0|JL
+Wear AG
+Wear2Ext 0|e
+Bonus 5117
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 6000
+Cond 75
+Aff 1 17 -5 0 0 0
+Itemdesc S± to wspania³e buty wykonane z dziwnego materia³u. Na bokach ka¿dego z
+nich wykonany zosta³ rysunek przedstawiaj±cy jakiego¶ dziwnego stwora,
+niestety buty s± ju¿ tak stare, ¿e raczej nie idzie rozpoznaæ có¿ to za
+stwór. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 5101
+Name Cmentarna brama~
+Descr {DZnajdujesz siê w bramie do starego cmentarza. Jest to bardzo niezwyk³e i
+dziwne miejsce, wszystko jest tu dziwne. Sama brama - lub to co po niej
+pozosta³o, jest wykonana z jakiego¶ materia³u, niestety teraz pokrywa j±
+gruba warstwa rdzy oraz jakiego¶ rodzaju ro¶lin. {x 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6776
+ExitExtEnd
+Exit 1
+~
+VName Brama~
+brama~
+3 0 6776
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5102
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5102
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5102
+Name Pocz±tek g³ównej alei~
+Descr {DZnajdujesz siê na g³ównej alei, prowadzi ona na stary cmentarz. Wszêdzie
+z ziemi wystaj± stare i zniszczone ju¿ nagrobki. Drzewa nad tob± zginaj± siê
+w wisielczy ³uk, ciekawe dlaczego? Mo¿e uginaj± siê poniewa¿ wielu ju¿
+nieszczê¶ników zawis³o na nich? {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35499
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35499
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5101
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5101
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5105
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5105
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35481
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35481
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5103
+Name Na starym cmentarzu~
+Descr {DZnajdujesz siê na g³ównej alei, miejsce to jest strasznie zaniedbane, a
+odg³osy którê ciê otaczaj± staj± siê nie do zniesienia. Mo¿e lepiej zabieraæ
+siê st±d jak najszybciej? Mo¿e tak bêdzie bezpieczniej... Po obu stronach
+znajduj± siê nagrobki, niektóre w lepszym, inne w gorszym stanie. {x 
+~
+FlagsExt 0
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35480
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35480
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5117
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5117
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5104
+Name Cmentarna aleja~
+Descr {DZnajdujesz siê w dosyæ niezwyk³ym i tajemniczym miejscu. Wszedzie
+otaczaj± ciê nagrobki, które "wyrastaj±" z ziemi. Wszêdzie le¿± po³amane
+ga³êzie spruchnia³ych drzew, za¶ kamienie którymi wy³o¿ona wy³o¿ona zosta³a
+¶cie¿ka, teraz pokrywa mech. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35482
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35482
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5106
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5106
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35486
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35486
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5116
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5116
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5105
+Name Na g³ównej alei~
+Descr {DZnajdujesz siê na g³ównej alei, miejsce to jest strasznie zaniedbane, a
+odg³osy którê ciê otaczaj± staj± siê nie do zniesienia. Mo¿e lepiej zabieraæ
+siê st±d jak najszybciej? Mo¿e tak bêdzie bezpieczniej... Po obu stronach
+znajduj± siê nagrobki, niektóre w lepszym, inne w gorszym stanie. {x 
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5102
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5102
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35483
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35483
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5108
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5108
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35480
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35480
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5106
+Name Zakrêt g³ównej alei~
+Descr {DZnajdujesz siê w dosyæ niezwyk³ym i tajemniczym miejscu. Wszedzie
+otaczaj± ciê nagrobki, które "wyrastaj±" z ziemi. Wszêdzie le¿± po³amane
+ga³êzie spruchnia³ych drzew, za¶ kamienie którymi wy³o¿ona wy³o¿ona zosta³a
+¶cie¿ka, teraz pokrywa mech. {x 
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5108
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5108
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35484
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35484
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35485
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35485
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5104
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5104
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5107
+Name Przed cmentarn± kaplic±~
+Descr {DZnajdujesz siê na g³ównej alei, miejsce to jest strasznie zaniedbane, a
+odg³osy którê ciê otaczaj± staj± siê nie do zniesienia. Mo¿e lepiej zabieraæ
+siê st±d jak najszybciej? Mo¿e tak bêdzie bezpieczniej... Po obu stronach
+znajduj± siê nagrobki, niektóre w lepszym, inne w gorszym stanie. {x 
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5117
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5117
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5120
+ExitExtEnd
+Exit 1
+~
+~
+3 0 5120
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5119
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5119
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35489
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35489
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5108
+Name G³ówna aleja~
+Descr {DZnajdujesz siê na g³ównej alei, miejsce to jest strasznie zaniedbane, a
+odg³osy którê ciê otaczaj± staj± siê nie do zniesienia. Mo¿e lepiej zabieraæ
+siê st±d jak najszybciej? Mo¿e tak bêdzie bezpieczniej... Po obu stronach
+znajduj± siê nagrobki, niektóre w lepszym, inne w gorszym stanie. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5105
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5105
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6785
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6785
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5106
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5106
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35482
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35482
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5109
+Name Przed Sarkofagiem~
+Descr {DStoisz przed wej¶ciem do wielkiego, kamiennego sarkofagu. Ze ¶rodka
+zawiewa straszliwie zimy wiatr który przyprawia o gêsi± skórke. Kamienie z
+których zosta³ wybudowany ten sarkofag zosta³y przyozdobione jakimi¶ runami,
+ciekawe co to mo¿e znaczyæ? {x 
+~
+FlagsExt 0|C
+Sector 48
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5115
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5115
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Sarkofag~
+ExitExtName odrzwia~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5110
+ExitExtEnd
+Exit 5
+~
+VName Sarkofag~
+odrzwia~
+3 0 5110
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5110
+Name W±skie schody~
+Descr {DZnajdujesz siê na bardzo w±skich i zniszczonych schodach prowadz±cych do
+wnêtrza sarkofagu. Wszystko w tym pomieszczeniu wykonane zosta³o z
+kamiennych kloców, doskonale obrobionych i wykoñczonych. Na samych za¶
+klocach wyryto dziwne inskrypcje, ciekawe co mog± one oznaczaæ? {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5109
+ExitExtEnd
+Exit 4
+~
+~
+3 0 5109
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5111
+ExitExtEnd
+Exit 5
+~
+~
+0 0 5111
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5111
+Name W±skie schody~
+Descr {DZnajdujesz siê na bardzo w±skich i zniszczonych schodach prowadz±cych do
+wnêtrza sarkofagu. Wszystko w tym pomieszczeniu wykonane zosta³o z
+kamiennych kloców, doskonale obrobionych i wykoñczonych. Na samych za¶
+klocach wyryto dziwne inskrypcje, ciekawe co mog± one oznaczaæ? {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5112
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5112
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5110
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5110
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5112
+Name Sarkofag~
+Descr {DZnajdujesz siê w dosyæ sporym sarkofagu, wszystko tu jest dziwne - wrêcz
+ob³±kañczo dziwne. ¦ciany wykonane z kamiennych p³yt pokrywa jaka¶ dziwna,
+ciemna substancja. Na ziemi za¶ widaæ porozrzucane ko¶ci jakich¶
+nieszczê¶ników którzy w niewyjasniony sposób zgineli. {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5111
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5111
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5113
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5113
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5113
+Name Sarkofag~
+Descr {DZnajdujesz siê w dosyæ sporym sarkofagu, wszystko tu jest dziwne - wrêcz
+ob³±kañczo dziwne. ¦ciany wykonane z kamiennych p³yt pokrywa jaka¶ dziwna,
+ciemna substancja. Na ziemi za¶ widaæ porozrzucane ko¶ci jakich¶
+nieszczê¶ników którzy w niewyjasniony sposób zgineli. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5112
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5112
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5114
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5114
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5114
+Name Sala g³ówna~
+Descr {DZnajdujesz siê w g³ównej czê¶ci sarkofagu, to tutaj chowano wa¿ne
+osobisto¶ci. Miejsce to ró¿ni siê od pozosta³ych tylko tym, ¿e jest tutaj
+jasno, czy to sprawa magi? A mo¿e czego¶ jeszcze innego... Zastanawiaj±ca
+jest jednak ta przera¼liwa cisza która doprowadza niemal do sza³u. {x 
+~
+FlagsExt 0|Hc
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5113
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5113
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5115
+Name Koniec g³ównej alei~
+Descr {DZnajdujesz siê na niewielkiej alejce bocznej, z ka¿dej strony otaczaj±
+ciê nagrobki. Z prawej strony znajduje siê wielkie drzewo, to chyba d±b, z
+tego co widaæ jest bardzo stary i ju¿ obumar³y - nie widaæ na nim ¿adnych
+oznak, ¿e ¿yje. Pewnie to sprawa tajemniczego klimatu tego miejsca. {x 
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35496
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35496
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5109
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5109
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5117
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5117
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35491
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35491
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5116
+Name Na cmentarnej alei~
+Descr {DZnajdujesz siê na g³ównej alei, miejsce to jest strasznie zaniedbane, a
+odg³osy którê ciê otaczaj± staj± siê nie do zniesienia. Mo¿e lepiej zabieraæ
+siê st±d jak najszybciej? Mo¿e tak bêdzie bezpieczniej... Po obu stronach
+znajduj± siê nagrobki, niektóre w lepszym, inne w gorszym stanie. {x 
+~
+FlagsExt 0
+Sector 44
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5104
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5104
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35487
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35487
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5119
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5119
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5117
+Name Aleja nad brzegiem Sejny~
+Descr {DZnajdujesz siê w bocznej alejce, wszêdzie widaæ mniejsze, lub wiêksze
+nagrobki które zdaj± siê wyrastaæ spod ziemi. Co jaki¶ czas zawiewa tutaj
+ch³odny wiatr nios±cy ze sob± dziwn± woñ która zatyka drogi oddechowe.
+Lepiej siê st±d wynosiæ czym prêdzej. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5115
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5115
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5103
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5103
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5107
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5107
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35490
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35490
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5118
+Name Rozkopany grób~
+Descr {DZnajdujesz siê w wielkiej pieczarze któr± kto¶ rozkopa³ - ciekawe w jakim
+celu ... W ka¿dym razie nie jest to przyjemne miejsce, bardzo tu ciasno i
+ponuro, wszêdzie s³ychaæ jakie¶ dziwne szmery które zdaj± siê otaczaæ ciê.
+Mo¿e lepiej czym prêdzej siê st±d wynosiæ? {x 
+~
+FlagsExt 0|C
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35480
+ExitExtEnd
+Exit 4
+~
+~
+0 0 35480
+Roomprog entry 5118_odejdz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5119
+Name Poludniowo-zachodni zakrêt alei~
+Descr {DZnajdujesz siê w bocznej alejce, wszêdzie widaæ mniejsze, lub wiêksze
+nagrobki które zdaj± siê wyrastaæ spod ziemi. Co jaki¶ czas zawiewa tutaj
+ch³odny wiatr nios±cy ze sob± dziwn± woñ która zatyka drogi oddechowe.
+Lepiej siê st±d wynosiæ czym prêdzej. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5107
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5107
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5116
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5116
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35488
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35488
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35492
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35492
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5120
+Name Kaplica cmentarna~
+Descr Znajdujesz siê w starej, zniszczonej ju¿ kaplicy która nie jedno ju¿
+przesz³a w swojej "karierze" ceremonie pogrzebowe, mod³y pochwalne,
+wszystkie te rzeczy odbywa³y siê niegdy¶ w³a¶nie w tym paskudnym teraz
+miejscu. Na ¶rodku pomieszczenia stoi wielki, marmurowy o³tarz na którym
+umieszczono wielki ¶wiecznik. 
+~
+FlagsExt 0|BFc
+Sector 48
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5107
+ExitExtEnd
+Exit 3
+~
+~
+3 0 5107
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 5118 8 5101 2
+O 100 5109 0 5101
+M 100 5118 8 5103 2
+M 100 5118 8 5104 2
+M 100 5117 6 5104 2
+M 100 5118 8 5106 2
+M 100 5117 6 5108 2
+M 100 5118 8 5110 2
+M 100 5117 6 5111 2
+M 100 5118 8 5113 2
+M 100 5114 1 5114 1
+M 100 5117 6 5116 2
+M 100 5118 8 5117 2
+M 100 5118 8 5117 2
+O 100 35480 0 5118
+M 100 5117 6 5119 2
+M 100 5120 1 5120 1
+S
+
+
+
+#MOBPROGSNEW
+#5113
+~
+mob equip self 5114
+if rand 50
+  mob equip self 5112
+endif
+~
+#5114
+~
+if rand 40
+  mob echo Upiorny czarodziej pada na ziemie... MARTWY.
+  mob echo Z jego r±k wypada jaka¶ magiczna ksiêga.
+  mob oload 5113 r
+else
+  Upiorny czarodziej pada na ziemie... MARTWY.
+endif
+mob setflag room mag_padl -1
+~
+#5115
+~
+mob equip self 5114
+~
+#5116
+~
+if rand 90
+  mob equip self 5105
+endif
+
+if rand 90
+  mob equip self 5104
+endif
+
+if rand 90
+  mob equip self 5103
+endif
+
+mob equip self 14033
+~
+#5117
+~
+if rand 85
+  mob equip self 5117
+endif
+
+
+if rand 85
+  mob equip self 3029
+endif
+
+if rand 85
+  mob equip self 3155
+endif
+
+if rand 50
+  mob equip self 3152
+else
+  mob equip self 3163
+endif
+
+mob equip self 3093
+mob equip self 3045
+mob equip self 3061
+~
+#5118
+~
+mob equip self 3163
+mob equip self 3093
+mob equip self 3061
+mob equip self 3045
+~
+#0
+
+#OBJPROGSNEW
+#35480_trmn_open
+~
+if !roomhasflag mag_wypuszczony
+  mob echo Gdy wieko trumny opada na bok, z jej wnêtrza natychmiast powstaje upiorny mag, gorej±c ¿±dz± mordu!
+  mob mload 5116
+  mob setflag room mag_wypuszczony -1
+else
+  mob echoat $n Otwierasz trumnê.
+  mob echoaround $n $n otwiera trumnê.
+endif
+~
+#35480_trmn_res
+~
+if roomhasflag mag_padl
+  mob removeflag room mag_padl
+  mob removeflag room mag_wypuszczony
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#35480_trmn_rese
+~
+mob close trumna
+if !mobexists 5116
+  mob removeflag room mag_padl
+  mob removeflag room mag_wypuszczony
+endif
+~
+#5118_odejdz
+~
+if !roomhasflag mag_wypuszczony
+  if !roomhasflag ODEJDZ
+    minidelay 1
+    mob echo Rozlega siê przera¼liwy, gromki i upiorny g³os:
+    mob echo {dOOOOOOODEEEEEEJD¬!{x
+    mob echo A ziemia trzêsie siê gwa³townie.
+    mob setflag room ODEJDZ 2
+  endif
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 5117
+Name rynsztunek czarnego rycerza~
+Aff 1 4 -2 0 0 0
+Aff 1 30 -1 0 0 0
+Aff 1 17 -15 0 0 0
+Aff 1 19 2 0 0 0
+WearProg mob echoat $n Twoje oczy plona plugawym ogniem.
+mob echoaround $n Oczy $z zapalaja sie plugawym plomieniem.
+~
+RemoveProg mob echoat $n P³omieñ w twoich oczach ga¶nie.
+mob echoaround $n P³omieñ iskrz±cy siê w oczach $z powoli ga¶nie.
+~
+Extradesc _opis1~
+Przeklêty ekwipunek, w który jest przyodziany $n sprawia i¿ ka¿dego, kto
+na niego spojrzy spowija paniczny strach. Za¶ sam $n u¶miecha siê szyderczo,
+a jego oczy ¶lepo wpatruj± siê w jeden punkt. 
+~
+BonusEnd
+#Vnum 5103
+Name Rynsztunek upad³ego~
+Comments Poprawi³em bonus w zwi±zku z nowymi statami. - {RGorst{x ({CTue May 14 02:08:20 2013{x)
+~
+Aff 1 3 6 0 0 0
+Aff 1 29 6 0 0 0
+WearProg mob echoat $n Nagle otacza ciê magiczna aura.
+mob echoaround $n Nagle $n zaczyna promieniowaæ niezwyk³±, magiczn± aur±.
+~
+RemoveProg mob echoat $n Magiczna aura otaczaj±ca ciê znika.
+mob echoaround $n Magiczna aura otaczaj±ca $z znika.
+~
+Extradesc _batman~
+$c otacza magiczna aura cienia. 
+~
+BonusEnd
+#Vnum 0
+
+#$

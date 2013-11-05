@@ -1,0 +1,7247 @@
+#AREADATA
+Name {DPodmrok{x - Jaskinie Illithidów~
+Builders Podmrok Seinar_rewan Rewan~
+VNUMs 28651 28800
+Credits Jediloop@go2. PlRebuild by Rewan 
+~
+Locked ~
+Security 9
+ResetAge 25
+Region 103
+End
+
+
+
+#MOBILES
+#Vnum 28651
+Name umbrowy kolos~
+Odmiana umbrowego kolosa~umbrowemu kolosowi~umbrowego kolosa~umbrowym kolosem~umbrowym kolosie~
+Short umbrowy kolos~
+Long Wielki, ¶mierdz±cy umbrowy kolos stoi tutaj.~
+Descr Ten wielki i paskudny potwór to umbrowy kolos. Istoty tej rasy s³yn± ze
+swych zdolno¶ci do szybkiego wykopywania podziemnych tuneli, przez co sa
+czêsto wyko¿ystywane przez rozumne istoty do swoich niecnych planów.
+Najs³ynniejszym przypadkiem jest chyba masakra krasnoludzkiej twierdzy
+Hazrad Dvern, która zosta³a zdobyta przez Yuan-Ti, który u¿y³y umbrowych
+kolosów, aby wyku¶ podziemne przej¶cia, którymi przemie¶ci³y siê wojska
+wê¿o-ludzi. 
+~
+Race umberkolos~
+ActExt 0|AEFGRTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang H
+Speaks 7
+Level 15
+Hitroll 2
+HP 5d20+300
+Damage 4d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 9
+Stats 132 60 60 96 120 78 78
+Off OR
+OffExt 0|OR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GMOV
+Parts ABCDEFGHIJKSUY
+Size large
+Material unknown
+MobprogNew onload kolos_gemik ABCDEFGHI 100~
+Spells 138 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 13 100
+Mobend
+#Vnum 28652
+Name kamienny pos±g golem~
+Odmiana kamiennego golema~kamiennemu golemowi~kamiennego golema~kamiennym golemem~kamiennym golemie~
+Short kamienny golem~
+Long Ogromny kamienny golem, wygl±daj±cy jak pos±g stoi tutaj.~
+Descr Ten dziwny twór znany jest powrzechnie jako kamienny golem. Golemy to
+istoty stworzone z czystej magii oraz przeró¿nych pierwiastków, takich jak
+ziemia, cia³o, ko¶æ, ¿elazo, glina i wielu wielu innych. Ten okaz zosta³
+wykuty w jednolitym bloku kamienia, po czym zosta³ o¿ywiony za pomoc±
+potê¿nej magii. Tylko bardzo do¶wiadczeni czarodzieje mog± o¿ywiaæ rzeczy
+martwe. Przypuszcza siê, ¿e pierwszym wyprodukowanym golemem by³ golem z
+cia³a - wyprodukowany przez jakiego¶ szalonego maga na bazie nekromancji.
+Teraz najpopularniejszymi s± kamienne i glinane golemy, które najczê¶ciej
+s³u¿± jako pomocnicy w czarodziejskich laboratoriach. Nie masz pojêci± sk±d
+ten golem znalaz³ siê tak g³êboko pod ziemi±. Najwyra¼niej jest porzucony. 
+~
+Race golem~
+ActExt 0|ABTU
+Affected 33554472 32 0 0
+AffectedExt 0|DFZ/1|F
+Align 0
+Group 0
+Lang V
+Speaks 19
+Level 25
+Hitroll 4
+HP 10d10+700
+Damage 4d8+0
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC -2 -2 -2 -2
+Stats 150 18 18 90 120 78 78
+Off CILORU
+OffExt 0|CILORU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size large
+Material unknown
+MobprogNew onload ill_golem ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 1 40
+Resist 2 50
+Resist 3 30
+Resist 4 50
+Resist 10 100
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 28653
+Name wielki umbrowy kolos~
+Odmiana wielkiego umbrowego kolosa~wielkiemu umbrowemu kolosowi~wielkiego umbrowego kolosa~wielkim umbrowym kolosem~wielkim umbrowym kolosie~
+Short wielki umbrowy kolos~
+Long Ogromny umbrowy kolos siedzi na starym krze¶le.~
+Descr Ten wielki i paskudny potwór to umbrowy kolos. Istoty tej rasy s³yn± ze
+swych zdolno¶ci do szybkiego wykopywania podziemnych tuneli, przez co sa
+czêsto wyko¿ystywane przez rozumne istoty do swoich niecnych planów.
+Najs³ynniejszym przypadkiem jest chyba masakra krasnoludzkiej twierdzy
+Hazrad Dvern, która zosta³a zdobyta przez Yuan-Ti, który u¿y³y umbrowych
+kolosów, aby wyku¶ podziemne przej¶cia, którymi przemie¶ci³y siê wojska
+wê¿o-ludzi. 
+~
+Race umberkolos~
+ActExt 0|AEFGRTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang H
+Speaks 7
+Level 20
+Hitroll 2
+HP 10d12+400
+Damage 4d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 5
+Stats 132 60 60 96 120 78 78
+Off ORY
+OffExt 0|ORY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GMOV
+Parts ABCDEFGHIJKSUY
+Size large
+Material unknown
+MobprogNew onload kolos2_gemik ABCDEFGHI 100~
+Spells 138 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 13 100
+Mobend
+#Vnum 28654
+Name szary krasnolud duergar kap³an kleryk~
+Odmiana duergara kap³ana~duergarowi kap³anowi~duergara kap³ana~duergarem kap³anem~duergarze kap³anie~
+Short duergar kap³an~
+Long Ciemnoskóry duergar siedzi przy gor±cym ¼ródle.~
+Descr Ta niska istota wygl±da jak krasnolud o ciemnej karnacji. W
+rzeczywisto¶ci jest to duergar - nazywany czêsto szarym krasnoludem.
+Pocz±tki tej rasy podobne s± do mrocznych elfów, które wda³y siê w wojne ze
+swoimi elfimi pobratymcami, w wyniku której drowy zosta³y skazane na banicje
+do krain podmroku. Podobny los spotka³ duergary, najczê¶ciej trudni±ce siê w
+obecnych czasach handlem drogimi surowcami takimi jak mithiril, admantyt czy
+illit. Ten szczególny osobnik nosi d³ug± szate z kapturem a w rêku trzyma
+kostur. 
+~
+Race krasnolud~
+ActExt 0|ABEQ
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 28654
+Lang AC
+Speaks 0
+Level 21
+Hitroll 3
+HP 20d10+400
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 7
+Stats 120 96 138 60 120 36 36
+Off V
+OffExt 0|V
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 80
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 28659 ABCDEFGHI 100~
+MobprogNew random 28651 FGI 5~
+Spells 12 26 149 137
+Spells 39 152 141 50
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 28655
+Name szary krasnolud duergar barbarzyñca berserker~
+Odmiana duergara barbarzyñcy~duergarowi barbarzyñcy~duergara barbarzyñce~duergarem barbarzyñc±~duergarze barbarzyñcy~
+Short duergar barbarzyñca~
+Long Duergar barbarzyñca spogl±da na ciebie ukradkiem.~
+Descr Ta niska istota wygl±da jak krasnolud o ciemnej karnacji. W
+rzeczywisto¶ci jest to duergar - nazywany czêsto szarym krasnoludem.
+Pocz±tki tej rasy podobne s± do mrocznych elfów, które wda³y siê w wojne ze
+swoimi elfimi pobratymcami, w wyniku której drowy zosta³y skazane na banicje
+do krain podmroku. Podobny los spotka³ duergary, najczê¶ciej trudni±ce siê w
+obecnych czasach handlem drogimi surowcami takimi jak mithiril, admantyt czy
+llit. Ten szczególny osobnik ma twarz pooran± wieloma bliznami a pod
+ubraniem z pewno¶ci± chowa mocarne miê¶nie. 
+~
+Race krasnolud~
+ActExt 0|ABEI
+Affected 512 4096 0 0
+AffectedExt 0|J/1|M
+Align -1000
+Group 28654
+Lang AC
+Speaks 0
+Level 21
+Hitroll 3
+HP 11d6+610
+Damage 3d4+0
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 7
+Stats 150 90 60 126 144 78 78
+Off DJLXc
+OffExt 0|DJLXc
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 90
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 28657 ABCDEFGHI 100~
+MobprogNew random 28652 FGI 5~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 28656
+Name szary krasnolud duergar wojownik~
+Odmiana duergara wojownika~duergarowi wojownikowi~duergara wojownika~duergarem wojownikiem~duergarze wojowniku~
+Short duergar wojownik~
+Long Umiê¶niony duergar spogl±da b³êdnie w dal.~
+Descr Ta niska istota wygl±da jak krasnolud o ciemnej karnacji. W
+rzeczywisto¶ci jest to duergar - nazywany czêsto szarym krasnoludem.
+Pocz±tki tej rasy podobne s± do mrocznych elfów, które wda³y siê w wojne ze
+swoimi elfimi pobratymcami, w wyniku której drowy zosta³y skazane na banicje
+do krain podmroku. Podobny los spotka³ duergary, najczê¶ciej trudni±ce siê w
+obecnych czasach handlem drogimi surowcami takimi jak mithiril, admantyt czy
+llit. W oczach tego duergara dostrzegasz nik³y blask, który ¶wiadczy o jego
+ci±g³ej gotowo¶ci do walki. Zapewne ma on za sobie niezliczone ilo¶ci
+potyczek. 
+~
+Race krasnolud~
+ActExt 0|ABET
+Affected 512 4096 0 0
+AffectedExt 0|J/1|M
+Align -1000
+Group 28654
+Lang AC
+Speaks 0
+Level 21
+Hitroll 3
+HP 20d6+460
+Damage 3d4+0
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 150 90 54 144 138 78 78
+Off DEI
+OffExt 0|DEI
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 28658 ABCDEFGHI 100~
+MobprogNew random 28653 FGI 5~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 28657
+Name illithid ³upie¿ca umys³u psionik ~
+Odmiana ³upie¿cy umys³u~³upie¿cy umys³u~³upie¿ce umys³u~³upie¿c± umys³u~³upie¿cy umys³u~
+Short ³upie¿ca umys³u~
+Long Przera¿aj±cy ³upie¿ca umys³u zdaje siê delikatnie lewitowaæ nad ziemi±.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|AEFGRT
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 24
+Hitroll 5
+HP 11d11+420
+Damage 5d3+6
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 6 6 6 0
+Stats 96 120 84 114 96 120 78
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 45
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 28664 ABCDEFGHI 100~
+MobprogNew fight 28656 H 10~
+Spells 396 200 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 16 100
+Mobend
+#Vnum 28658
+Name illithid ³upie¿ca umys³u psionik ~
+Odmiana ³upie¿cy umys³u~³upie¿cy umys³u~³upie¿ce umys³u~³upie¿c± umys³u~³upie¿cy umys³u~
+Short ³upie¿ca umys³u~
+Long £upie¿ca umys³u le¿y na dziwnym ³o¿u i masz wra¿enie, ¿e ¶pi.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|ABEFRT
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 24
+Hitroll 5
+HP 11d11+420
+Damage 5d4+6
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 6 6 6 0
+Stats 96 114 84 114 96 120 78
+Off LRU
+OffExt 0|LRU
+Pos_start sleep
+Pos_def sleep
+Sex male
+Wealth 46
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28656 H 2~
+MobprogNew onload 28664 ABCDEFGHI 50~
+Spells 396 200 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 50
+Resist 16 100
+Mobend
+#Vnum 28659
+Name illithid ³upie¿ca umys³u psionik badacz~
+Odmiana illithida badacza~illithidowi badaczowi~illithida badacza~illithidem badaczem~illithidzie badaczu~
+Short illithid badacz~
+Long Illithid badacz krz±ta siê po laboratorium.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|AEFR
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 24
+Hitroll 5
+HP 11d11+550
+Damage 5d5+5
+Dammagic 3
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 4 4 4 0
+Stats 96 144 150 114 96 120 78
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 90
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28663 H 17~
+MobprogNew onload 28664 ABCDEFGHI 50~
+Spells 217 5 137 90
+Spells 201 149 185 0
+Skin 100
+ExpMultiplier 100
+Resist 4 75
+Resist 16 100
+Mobend
+#Vnum 28660
+Name illithid ultharid ³upie¿ca umys³u psionik~
+Odmiana Ultharida-naukowca~Ultharidowi-naukowcy~Ultharida-naukowcy~Ultharidem-naukowcem~Ultharidzie-naukowcy~
+Short Ultharid-naukowiec~
+Long Ultharid-naukowiec koordynuje pracê badaczy.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|AEFR
+Affected 33554488 0 0 0
+AffectedExt 0|DEFZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 26
+Hitroll 5
+HP 12d12+600
+Damage 4d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 4 4 4 0
+Stats 96 120 120 114 96 78 78
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 65
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28663 H 20~
+MobprogNew onload 28664 ABCDEFGHI 50~
+Spells 149 5 141 90
+Spells 201 215 217 396
+Skin 100
+ExpMultiplier 100
+Resist 4 60
+Resist 16 100
+Mobend
+#Vnum 28661
+Name wojownik kuo-toa ryba rybocz³owiek rybo-cz³owiek rybek stwór istota niewolnik~
+Odmiana Kuo-Toa~Kuo-Toa~Kuo-Toa~Kuo-Toa~Kuo-Toa~
+Short wojownik Kuo-Toa~
+Long Ubrany w szmaty wojownik Kuo-Toa spogl±da na ciebie gro¼nie.~
+Descr Ta dziwaczna istota to wojownik Kuo-Toa, rasy rybo-ludzi zamieszkuj±cych
+podziemia. Istoty te znane s± ze swej nienawi¶ci do wszystkiego ¿ywego a
+zarazem innego ni¿ one same. Ze wzglêdu na fizjonomiê uwielbiaj± przebywaæ w
+pobli¿u wody. Najczê¶ciej spotykane s± w³a¶nie w podziemnych osiedlach
+zaopatrzonych w swobodny dostêp do podziemnych wód. Ten osobnik
+prawdopodobnie zosta³ schwytany przez illithidów w celu badañ. 
+~
+Race unique~
+ActExt 0|AEFT
+Affected 33555000 4195840 0 0
+AffectedExt 0|DEFJZ/1|JKW
+Align 0
+Group 0
+Lang K
+Speaks 10
+Level 25
+Hitroll 4
+HP 30d10+700
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 0 0 0 5
+Stats 138 78 78 126 120 78 78
+Off CEIKMY
+OffExt 0|CEIKMY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form abc
+Parts ACDEFGHILMOQRUX
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28662
+Name otiag ¶ciekowiec potwór bestia mackowy macki kana³owy~
+Odmiana ¶mierdz±cego otiaga~¶mierdz±cemu otiagowi~¶mierdz±cego otiaga~¶mierdz±cym otiagiem~¶mierdz±cym otiagu~
+Short ¶mierdz±cy otiag~
+Long Otiag uzbrojony w d³ugie macki stoi tu i ¶mierdzi na kilometr.~
+Descr Ten paskudny, ¶mierdz±cy stwór nazywany jest otiagiem. Wygl±da jak
+wielka, jednooka g³owa uzbrojona w dwie d³ugie macki zakoñczone ostrymi
+pazurami. Istoty te najczê¶ciej ¿yj± w skupiskach ¶mieci, ¶ciekach i
+wysypiskach. Pewnie to te¿ jest powodem okropnego smrodu wydzielanego przez
+otiaga. Nawet d³uga niewola u illithidów nie zdo³a³aby wywietrzyæ tej bestii
+na tyle ile potrzeba do normalnego oddychania w jej pobli¿u. 
+~
+Race s³oñ~
+ActExt 0|AFT
+Affected 568 32 0 0
+AffectedExt 0|DEFJ/1|F
+Align 0
+Group 0
+Lang R
+Speaks 16
+Level 27
+Hitroll 2
+HP 10d20+555
+Damage 4d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack lupniecie
+XAC 0 0 0 0
+Stats 144 48 48 90 120 78 78
+Off CDMVY
+OffExt 0|CDMVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form FGa
+Parts ACDEFHJKMNOQRS
+Size medium
+Material unknown
+Skin 150
+ExpMultiplier 100
+Mobend
+#Vnum 28663
+Name krasnolud niewolnik krasnoludzki niewolnik mê¿czyzna~
+Odmiana krasnoludzkiego niewolnika~krasnoludzkiemu niewolnikowi~krasnoludzkiego niewolnika~krasnoludzkim niewolnikiem~krasnoludzkim niewolniku~
+Short krasnoludzki niewolnik~
+Long Ubrany w stare, podarte szmaty krasnolud przechodzi têdy.~
+Descr Jest to dosc stary krasnolud ubrany w szare i czarne szmaty. Gdy
+dok³adniej mu siê przygl±dasz, zauwa¿asz, ¿e kto¶ odci±³ mu jêzyk i wypali³
+oczy. Ma na czole jaki¶ dziwny znak. Gdy spogl±dasz na jego twarz zauwa¿asz
+jedynie smutek i rezygnacje. Illithidzi s³yn± z nieludzkiego traktowania
+niewolników. Na powierzchni kr±¿± plotki, ¿e na ka¿dego ³upie¿cê przypada
+trzech niewolników. Faktem jest, i¿ do kontroli nad niewolnikami illithidzi
+u¿ywaj± specjalnych magicznych obro¿y, które uniemo¿liwiaj± nie tylko
+ucieczkê a nawet sam± my¶l o przeciwstawieniu siê w jakikolwiek sposób swoim
+panom. 
+~
+Race krasnolud~
+ActExt 0|AGHT
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align 1000
+Group 0
+Lang C
+Speaks 2
+Level 6
+Hitroll 0
+HP 4d4+84
+Damage 1d7+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 108 54 54 60 120 78 78
+Off CI
+OffExt 0|CI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28664
+Name pó³elf niewolnik ³ysy~
+Odmiana pó³elfiego niewolnika~pó³elfiemu niewolnikowi~pó³elfiego niewolnika~pó³elfim niewolnikiem~pó³elfim niewolniku~
+Short pó³elfi niewolnik~
+Long £ysy, utykaj±cy na lew± nogê pó³elf przechodzi têdy.~
+Descr Widzisz przed sob± kulawego pó³elfa, który najprawdopodobniej straci³
+w³osy podczas jednego z eksperymentów, które wykonywali na nim ³upie¿cy
+umys³ów. Jest ubrany w szmaty w kolorze ró¿nych odcieni szaro¶ci. Jego jêzyk
+zosta³ odciêty a oczy wypalone, pewnie roz¿a¿onym ¿elazem. Ma na czole jaki¶
+dziwny znak. 
+~
+Race pó³elf~
+ActExt 0|AGHT
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align 1000
+Group 0
+Lang AB
+Speaks 0
+Level 5
+Hitroll 0
+HP 3d4+65
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 90 90 90 108 84 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28665
+Name gnomka stara kobieta niewolnica~
+Odmiana gnomiej niewolnicy~gnomiej niewolnicy~gnomi± niewolnicê~gnomi± niewolnic±~gnomiej niewolnicy~
+Short gnomia niewolnica~
+Long Stara, mocno zgarbiona gnomka spogl±da gdzie¶ w dal.~
+Descr Jest to stara gnomka ubrana w szare i czarne szmaty. Ma d³ugie ciemne
+w³osy, jej oczy zosta³y wypalone a jêzyk uciêty. Na czole ma jaki¶ dziwny
+znak. Illithidzi s³yn± z nieludzkiego traktowania niewolników. Na
+powierzchni kr±¿± plotki, ¿e na ka¿dego ³upie¿cê przypada trzech
+niewolników. 
+~
+Race gnom~
+ActExt 0|AGH
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 4
+Hitroll -1
+HP 3d3+51
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 60 108 84 120 48 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28666
+Name dziewczyna niewolnica mloda~
+Odmiana ludzkiej niewolnicy~ludzkiej niewolnicy~ludzk± niewolnice~ludzk± niewolnic±~ludzkiej niewolnicy~
+Short ludzka niewolnica~
+Long Mloda dziewczyna idzie powoli na czworakach rozgl±daj±c siê dooko³a swymi pustymi oczodo³ami.~
+Descr Jest to mloda niebrzydka ludzka dziewczyna o krótkich rudych w³osach. Jej
+oczy zostaly wypalone a jêzyk odciêty. Ma na czole jaki¶ dziwny znak. Jest
+ca³a umazana sadz± i ubrana w brzydkie ¶mierdz±ce szmaty. Spotka³ j±
+naprawdê przykry los. 
+~
+Race cz³owiek~
+ActExt 0|AGH
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 0
+HP 3d3+50
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 48 84 84 72 48 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28667
+Name niewolnik duergar stary~
+Odmiana duergara niewolnika~duergarowi niewolnikowi~duergara niewolnika~duergarem niewolnikiem~duergarze niewolniku~
+Short duergar niewolnik~
+Long Stary duergar przechodzi têdy szukaj±c po omacku drogi ucieczki.~
+Descr Jest to stary duergar niewolnik odziany w szmaty i nosz±cy na g³owie
+jaki¶ dziwny znak. Jego jêzyk zosta³ odciêty a oczy wypalone. 
+~
+Race duergar~
+ActExt 0|AGT
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align -500
+Group 0
+Lang AC
+Speaks 2
+Level 7
+Hitroll -1
+HP 5d5+115
+Damage 1d9+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 10 10 10 9
+Stats 120 60 60 60 132 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 10 10
+Mobend
+#Vnum 28668
+Name goblin niski garbaty niewolnik~
+Odmiana gobliniego niewolnika~gobliniemu niewolnikowi~gobliniego niewolnika~goblinim niewolnikiem~goblinim niewolniku~
+Short goblini niewolnik~
+Long Niski, garbaty goblin niewolnik stoi pod ¶cian±.~
+Descr Jest to niski, jak zreszt± ka¿dy przedstawiciel jego rasy, niewolnik
+odziany w zakrywaj±ce go prawie ca³ego szmaty. Na czole ma jaki¶ dziwny
+znak. Jego jêzyk zosta³ odciêty a oczy wypalone. 
+~
+Race goblin~
+ActExt 0|AGH
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align -500
+Group 0
+Lang AO
+Speaks 14
+Level 4
+Hitroll 0
+HP 2d2+50
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 10 10 10 10
+Stats 72 24 24 108 60 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28669
+Name kucharz derro wysoki~
+Odmiana derro kucharza~derro kucharzowi~derro kucharza~derro kucharzem~derro kucharzu~
+Short derro kucharz~
+Long Wysoki jak na derro kucharz kroi miêso swym tasakiem.~
+Descr Derro to plugawa rasa krasnoludów, która powsta³a poprzez skrzy¿owanie
+ludzi z krasnoludami. Ten kucharz jest dosyæ wysoki jak na krasnoludzkie
+standarty. Zajmuje sie krojeniem kawa³ów miês± le¿±cych na stole za pomoc±
+swego ostrego tasaka. 
+~
+Race krasnolud~
+ActExt 0|ABGQT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AC
+Speaks 2
+Level 7
+Hitroll 0
+HP 5d5+115
+Damage 1d9+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 6 5 6 9
+Stats 96 84 120 60 120 78 78
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 30 51 12 5
+Spells 31 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28671
+Name illithid ultharid ³upie¿ca umys³u psionik~
+Odmiana Ultharida~Ultharidowi~Ultharida~Ultharidem~Ultharidzie~
+Short Ultharid~
+Long Ultharid przechodzi têdy zostawiaj±c za sob± aurê strachu.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|AEFR
+Affected 33555000 0 0 0
+AffectedExt 0|DEFJZ
+Align -1000
+Group 0
+Lang V
+Speaks 19
+Level 26
+Hitroll 5
+HP 11d12+550
+Damage 4d4+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 5 5 5 -1
+Stats 96 144 150 114 96 78 78
+Off LQRUX
+OffExt 0|LQRUX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 55
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28663 H 17~
+MobprogNew onload 28664 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 75
+Mobend
+#Vnum 28672
+Name illithid ultharid ³upie¿ca umys³u psionik stra¿nik~
+Odmiana Ultharida~Ultharidowi~Ultharida~Ultharidem~Ultharidzie~
+Short Ultharid stra¿nik~
+Long Ultharid stra¿nik starszego mózgu stoi tutaj.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|ABEFR
+Affected 33555000 0 0 0
+AffectedExt 0|DEFJZ
+Align -1000
+Group 135
+Lang V
+Speaks 19
+Level 27
+Hitroll 5
+HP 12d12+600
+Damage 3d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 3 3 3 0
+Stats 108 150 150 120 90 78 78
+Off LQRUX
+OffExt 0|LQRUX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 70
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 28664 ABCDEFGHI 100~
+MobprogNew fight 28663 H 17~
+Spells 93 203 1 163
+Spells 185 396 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 90
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 28673
+Name starszy mózg koordynator~
+Odmiana starszego mózgu~starszemu mózgowi~starszy mózg~starszym mózgiem~starszym mózgu~
+Short starszy mózg~
+Long Ogromny, szklany pojemnik ze starszym mózgiem stoi na ¶rodku komnaty.~
+Descr Ten dziwaczny pojemnik zawiera w sobie starszy mózg - serce miasta
+illithidów. To tutaj wylêgaj± siê m³ode kijanki, które z czasem przemieniaj±
+siê w doros³e osobniki. Starszy mózg koordynuje dzia³anie miasta i
+poszczególnych ³upie¿ców. Bez tej dziwnej istoty miasto pogr±¿y³oby siê w
+chaosie. Je¶li wierzyæ powie¶ciom, jest on jedn± z najinteligetniejszych
+istot na ¶wiecie, a jego telepatyczne zdolno¶ci zadziwi³y by nawet
+najpotê¿niejszych bohaterów. 
+~
+Race illithid~
+ActExt 0|ABFR
+Affected 301990456 33558529 64 0
+AffectedExt 0|DEFJZc/1|AMZ/2|G
+Align -1000
+Group 135
+Lang V
+Speaks 19
+Level 35
+Hitroll 10
+HP 38d10+1000
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC -14 -14 -14 -15
+Stats 18 168 168 18 18 156 78
+Off QRd
+OffExt 0|QRd
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 15000
+Form EMVZ
+Parts ABCDEFGHIJK
+Size giant
+Material unknown
+MobprogNew onload 28665 ABCDEFGHI 100~
+Spells 184 13 44 1
+Spells 137 15 216 200
+Spells 229 296 493 304
+Spells 381 403 0 0
+Skin 100
+ExpMultiplier 100
+Resist 0 20
+Resist 1 85
+Resist 2 80
+Resist 3 40
+Resist 4 95
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 28674
+Name starszy illithid ³upie¿ca umys³u psionik~
+Odmiana starszego illithida~starszemu illithidowi~starszego illithida~starszym illithidem~starszym illithidzie~
+Short starszy illithid~
+Long Starszy illithid krêci siê po pomieszczeniu spogl±daj±c badawczo dooko³a.~
+Descr Ta okropna kreatura ma budowe wysokiego humanoida. Rzecz± najbardziej
+odró¿niaj±c± j± od innych ras jest dziwna twarz, pokryta wij±cymi siê
+mackami i wystaj±cymi bia³ymi k³ami. Gdzie¶ ponad otworem gêbowym zauwa¿asz
+du¿e, czarne oczy sprawiaj±ce wra¿enie pystych i nieobecnych. W
+rzeczywisto¶ci illithidzi s± psionikami i polegaj± bardziej na swoich
+mentalnych zdolno¶ciach ni¿ bod¼cach cielesnych. Ca³a ta kreatura wygl±da
+z³owieszczo, chocia¿ jej budowa daleka jest od miê¶ni wojownika. W
+rzeczywisto¶ci ³upie¿cy wygl±daj± raczej mizernie. Jednak nikt nie mo¿e
+zaprzeczyæ, ¿e ich mo¿liwo¶ci s± zaprawde ogromne i z pewno¶ci± nale¿y siê
+ich baæ. 
+~
+Race illithid~
+ActExt 0|ABEFQR
+Affected 33555000 0 0 0
+AffectedExt 0|DEFJZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 23
+Hitroll 5
+HP 11d12+460
+Damage 4d5+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 3 3 3 0
+Stats 108 150 150 120 90 78 78
+Off LQRUX
+OffExt 0|LQRUX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 70
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew fight 28663 H 15~
+MobprogNew onload 28664 ABCDEFGHI 100~
+Spells 26 141 137 50
+Skin 100
+ExpMultiplier 100
+Resist 4 90
+Mobend
+#Vnum 28675
+Name kamienny pos±g golem~
+Odmiana kamiennego golema~kamiennemu golemowi~kamiennego golema~kamiennym golemem~kamiennym golemie~
+Short kamienny golem~
+Long Wielki i gro¼nie wygl±daj±cy kamienny golem stoi tutaj.~
+Descr Ten dziwny twór znany jest powrzechnie jako kamienny golem. Golemy to
+istoty stworzone z czystej magii oraz przeró¿nych pierwiastków, takich jak
+ziemia, cia³o, ko¶æ, ¿elazo, glina i wielu wielu innych. Ten okaz zosta³
+wykuty w jednolitym bloku kamienia, po czym zosta³ o¿ywiony za pomoc±
+potê¿nej magii. Tylko bardzo do¶wiadczeni czarodzieje mog± o¿ywiaæ rzeczy
+martwe. Przypuszcza siê, ¿e pierwszym stworzonym golemem by³ golem z cia³a -
+wyprodukowany przez jakiego¶ szalonego maga na bazie nekromancji. Teraz
+najpopularniejszymi s± kamienne i glinane golemy, które najczê¶ciej s³u¿±
+jako pomocnicy w czarodziejskich laboratoriach. Nie masz pojêci± sk±d ten
+golem znalaz³ siê tak g³êboko pod ziemi±. Najwyra¼niej jest porzucony. 
+~
+Race golem~
+ActExt 0|ABTU
+Affected 33554984 528420 0 0
+AffectedExt 0|DFJZ/1|CFMT
+Align 0
+Group 0
+Lang V
+Speaks 19
+Level 26
+Hitroll 4
+HP 10d10+700
+Damage 4d4+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC -2 -2 -2 -2
+Stats 138 18 18 90 120 78 78
+Off CDILORUVc
+OffExt 0|CDILORUVc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size large
+Material unknown
+MobprogNew random gol_echo FGI 5~
+MobprogNew onload ill_golem2 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 1 70
+Resist 2 75
+Resist 3 10
+Resist 4 75
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 28676
+Name matka paj±k pajaków miecznik~
+Odmiana samicy {Wpaj±ka miecznika{x~samicy {Wpaj±ka miecznika{x~samicê {Wpaj±ka miecznika{x~samic± {Wpaj±ka miecznika{x~samicy {Wpaj±ka miecznika{x~
+Short samica {Wpaj±ka miecznika{x~
+Long Odra¿aj±ca, ogromna samica {Wpaj±ka miecznika{x stoi tutaj.~
+Descr Ten paj±k jest o wiele wiêkszy od zwyk³ych paj±ków. Od razu rozpozna³e¶,
+ze to ich matka. Ma osiem grubych odnóg, wielki odw³ok oraz chêæ mordu. Jest
+bardzo gro¼na. Szczególnie, ¿e jest to samica paj±ka miecznika,
+najsilniejszego i najokropniejszego gatunku paj±ków! 
+~
+Race paj±k~
+ActExt 0|ABFTX
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang I
+Speaks 8
+Level 10
+Hitroll 2
+HP 10d12+200
+Damage 2d2+5
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack siekanie
+XAC 8 8 8 8
+Stats 132 90 90 168 90 90 78
+Off RUa
+OffExt 0|RUa
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form GP
+Parts ACK
+Size medium
+Material unknown
+MobprogNew kill ill_pajak ABCDEFGHI 100~
+MobprogNew fight ill_pajak H 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28677
+Name ma³y paj±k paj±czek~
+Odmiana ma³ego {Wpaj±ka miecznika{x~ma³emu {Wpaj±kowi miecznikowi{x~ma³ego {Wpaj±ka miecznika{x~ma³ym {Wpaj±kiem miecznikiem{x~ma³ym {Wpaj±ku mieczniku{x~
+Short ma³y {Wpaj±k miecznik{x~
+Long Ma³y, ale ohydnie wygl±daj±cy {Wpaj±k miecznik{x stoi tutaj.~
+Descr Ten niezbyt du¿y paj±k to m³ody paj±k miecznik, zwany tak¿e mieczowcem ze
+wzglêdu na jego twarde i ostre odnó¿a, które bardziej przypominaj± miecze
+ni¿ prawdziwe pajêcze nogi. Chociaz jest ma³y to nie wolno lekcewa¿yæ jego
+si³y. 
+~
+Race paj±k~
+ActExt 0|AFT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang I
+Speaks 8
+Level 6
+Hitroll 2
+HP 5d5+80
+Damage 2d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack none
+XAC 9 9 9 9
+Stats 102 78 78 156 150 60 60
+Off RY
+OffExt 0|RY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACK
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28678
+Name umbrowy kolos wiekszy~
+Odmiana wielkiego umbrowego kolosa~wielkiemu umbrowemu kolosowi~wielkiego umbrowego kolosa~wielkim umbrowym kolosem~wielkim umbrowym kolosie~
+Short wielki umbrowy kolos~
+Long Wielki, ¶mierdz±cy umbrowy kolos stoi tutaj.~
+Descr Ten wielki i paskudny potwór to umbrowy kolos. Istoty tej rasy s³yn± ze
+swych zdolno¶ci do szybkiego wykopywania podziemnych tuneli, przez co sa
+czêsto wyko¿ystywane przez rozumne istoty do swoich niecnych planów.
+Najs³yniejszym przypadkiem jest masakra krasnoludzkiej twierdzy Hazrad
+Dvern, która zosta³a zdobtya przez Yuan-Ti. Gady u¿y³y kolosów, aby wykopaæ
+podziemne przej¶cie, którym przemie¶ci³y swoje wosjka wê¿o-ludzi. 
+~
+Race umberkolos~
+ActExt 0|ABEFGRTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang H
+Speaks 7
+Level 17
+Hitroll 2
+HP 5d20+350
+Damage 5d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 4 4 4 8
+Stats 138 60 60 96 126 78 78
+Off OR
+OffExt 0|OR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GMOV
+Parts ABCDEFGHIJKSUY
+Size large
+Material unknown
+Spells 138 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28679
+Name mê¿czyzna niewolnik m³ody~
+Odmiana mê¿czyzny niewolnika~mê¿czy¼nie niewolnikowi~mê¿czyznê niewolnika~mê¿czyzn± niewolnikiem~mê¿czy¼nie niewolniku~
+Short mê¿czyzna niewolnik~
+Long M³ody mê¿czyzna opiera siê tutaj o jedn± ze ¶cian.~
+Descr Jest to naprawdê m³ody i przystojny ludzki mê¿czyzna o krótkich w³osach.
+Jego oczy zosta³y wypalone a jêzyk odciêty. Ma na czole jaki¶ dziwny znak.
+Jest ca³y umazany sadz± ale wygl±da na siln± osobê. Zapewne jako jeden z
+niewielu zosta³ wybrany do szczególnie wa¿nego zadania. 
+~
+Race cz³owiek~
+ActExt 0|ABG
+Affected 1 32 0 0
+AffectedExt 0|A/1|F
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 5d5+100
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 108 84 84 72 48 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech 28666 FGI umys³~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28680
+Name jaskinowy szczur~
+Odmiana jaskinowego szczura~jaskinowemu szczurowi~jaskinowego szczura~jaskinowym szczurem~jaskinowym szczurze~
+Short jaskinowy szczur~
+Long Wielki jaskinowy szczur biega po okolicy.~
+Descr Szczór którego spotka³e¶ jest naprawdê wielki. Rozmiarami dorównuje
+nieud¿emu psu, a jego ogon ma oko³o pó³ metra d³ugo¶ci. Szczur jaskinowy ma
+czarne niczym smo³a futro i jescze ciemniejsze oczki. Nie ma mo¿e
+doskona³ego wzroku ale jego wêch i s³uch dzia³aj± znakomicie. 
+~
+Race szczur~
+ActExt 0|AF
+Affected 0 0 0 0
+AffectedExt 0
+Align -300
+Group 0
+Lang AH
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d5+120
+Damage 3d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 9 9 9 8
+Stats 60 60 60 108 60 48 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size medium
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 28681
+Name umbrowy kolos wiekszy~
+Odmiana wielkiego umbrowego kolosa~wielkiemu umbrowemu kolosowi~wielkiego umbrowego kolosa~wielkim umbrowym kolosem~wielkim umbrowym kolosie~
+Short monstrualny umbrowy kolos~
+Long Monstrualnie wielki umbrowy kolos stoi tutaj.~
+Descr Ten olbrzymi i paskudny potwór to umbrowy kolos. Istoty tej rasy s³yna ze
+swych zdolno¶ci szybkiego wykopywania tuneli, przez co czêsto wykorzystywane
+s± przez istoty rozumne do niecnych planów. Najs³ynniejszym przypadkiem jest
+masakra krasnoludzkiej twierdzy Hazrad Dvern, która zosta³a zdobyta przez
+Yuant-Ti. Gady u¿y³y kolosów, aby wykopaæ podziemne przej¶cie, którym
+przemie¶ci³y swoje wojska wê¿o-ludzi. 
+~
+Race umberkolos~
+ActExt 0|ABEFGRTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang H
+Speaks 7
+Level 25
+Hitroll 2
+HP 5d30+600
+Damage 6d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 7
+Stats 156 66 66 96 138 78 78
+Off COR
+OffExt 0|COR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GMOV
+Parts ABCDEFGHIJKSUY
+Size huge
+Material unknown
+MobprogNew onload kolos_gemik ABCDEFGHI 80~
+MobprogNew onload kolos2_gemik ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28682
+Name illithid ³upie¿ca umys³u psionik zaklinacz~
+Odmiana illithida zaklinacza~illithidowi zaklinaczowi~illithida zaklinacza~illithidem zaklinaczem~illithidzie zaklinaczu~
+Short illithid zaklinacz~
+Long Illithid zaklinacz przeszywa ciê swoimi czarnymi ¶lepiami.~
+Descr Dziwna istota o humanoidalnych kszta³tach i wzro¶cie mniej wiêcej
+cz³owieka. Jej cia³o jest gumowate, barwy zielono-jasnofiloetwoej, a nadto
+b³yszczy od ¶luzu. G³owa stwora przypomina o¶miornicê o czterech mackach, w
+której jarzy siê dwoje wy³upiastych oczu. Jest to ³upie¿ca mys³ow zwany
+tak¿e Illithidem. Podstêpna bestia, równie diaboliczna co potê¿na. Stwory te
+narzucaj± sw± wolê innym istotom lub te¿ niszcz± ich umys³y. Wiele ³upie¿ców
+umys³ów, tak jak ten osobnik, szkoli siê w sztuce czarodziejstwa i zyskuje
+znaczn± potêge dziêki nabywanej wiedzy tajemnej. 
+~
+Race illithid~
+ActExt 0|AEFGRT
+Affected 33554456 0 0 0
+AffectedExt 0|DEZ
+Align -1200
+Group 0
+Lang V
+Speaks 19
+Level 28
+Hitroll 5
+HP 11d12+430
+Damage 4d3+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mindsuck
+XAC 6 6 6 0
+Stats 96 120 120 120 96 132 78
+Off LRU
+OffExt 0|LRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 45
+Form EMVZ
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload 28664 ABCDEFGHI 50~
+MobprogNew fight 28656 H 10~
+Spells 396 200 91 202
+Spells 163 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 75
+Resist 12 50
+Resist 16 100
+Mobend
+#Vnum 28683
+Name umbrowy kolos~
+Odmiana umbrowego kolosa~umbrowemu kolosowi~umbrowego kolosa~umbrowym kolosem~umbrowym kolosie~
+Short umbrowy kolos~
+Long Wielki, paskudny i smierdz±cy umbrowy kolos krêci siê tutaj.~
+Descr Umbrowy kolos to naprawdê paskudna i wielka bestia. Ma oko³o dwóch i pó³
+metra wysoko¶ci a wa¿y prawdopodobnie w granicy trzystu kilogramów. Ten
+osobnik ma okr±g³a g³owê, ale uwagê przede wszystkim zwracaj± poka¼ne
+¿uwaczki i trójk±tne zêby. Ich ulubionym zajêciem jest przedzieranie siê
+przez glebê oraz niszczenie wszystkiego, na co siê natkn± Czê¶æ z nich, jak
+ten osobnik, s³u¿y illihidom jako ³atwa si³a robocza. 
+~
+Race umberkolos~
+ActExt 0|AEFGRTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang H
+Speaks 7
+Level 15
+Hitroll 2
+HP 5d20+300
+Damage 4d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 9
+Stats 132 60 60 96 120 78 78
+Off OR
+OffExt 0|OR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GMOV
+Parts ABCDEFGHIJKSUY
+Size large
+Material unknown
+MobprogNew onload kolos2_gemik ABCDEFGHI 100~
+Spells 138 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28684
+Name paj±k truj±cy jadowity kwasowy~
+Odmiana {Gjadowitego{x paj±ka~{Gjadowitemu{x paj±kowi~{Gjadowitego{x paj±ka~{Gjadowitym{x paj±kiem~{Gjadowitym{x pajaku~
+Short {Gjadowity{x paj±k~
+Long {GJadowity{x paj±k stoi tutaj.~
+Descr Jest to dosyæ poka¼nych rozmiarów paj±k. Ma osiem grubych i w³ochatych
+odnóg, spory odw³ok, straszliwe ¶lepia i najwyra¼niej jest g³odny. Jego
+cielsko ozdabiaj± {Gzielone prêgi{x. Prawdopodobnie jest on bardzoo jadowitym
+przedstawicielem swojego gatunku. 
+~
+Race paj±k~
+ActExt 0|ABFTX
+Affected 66088 0 0 0
+AffectedExt 0|DFJQ
+Align 0
+Group 0
+Lang I
+Speaks 8
+Level 12
+Hitroll 2
+HP 10d12+200
+Damage 2d2+5
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack k±sanie
+XAC 6 6 6 6
+Stats 132 90 90 168 96 90 78
+Off RUZ
+OffExt 0|RUZ
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACK
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 28800
+Name paladyn Thyr~
+Odmiana Thyra~Thyrowi~Thyra~Thyrem~Thyrze~
+Short paladyn Thyr~
+Long Paladyn Thyr siedzi na ¶rodku komnaty pogr±¿ony w medytacji.~
+Descr To dziwne, spotkaæ cz³owieka w tym odludnym miejscu, a jescze dzwiniejsze
+jest jego zachowanie. Paladyn siedzi spokojnie na ¶rodku komnaty pogr±¿ony w
+medytacji. Wygl±da na osobê, która walczy³a z wieloma plugastwami tego
+¶wiata. Byæ mo¿e bêdzie móg³ nayczyæ ciê kilku przydatnych czarów i
+umiejêtno¶ci. 
+~
+Race cz³owiek~
+ActExt 0|ABJK
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 5d20+450
+Damage 3d3+2
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 120 108 120 90 96 78 78
+Off 0
+OffExt 0
+Pos_start sit
+Pos_def stand
+Sex male
+Wealth 2
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give 28670 FGI all~
+MobprogNew precommand 28669 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 28651
+Name gor±ce ¼róde³ko~
+Odmiana {Cgor±cego ¼róde³ka{x~{Cgor±cemu ¼róde³ku{x~{Cgor±ce ¼róde³ko{x~{Cgor±cym ¼róde³kiem{x~{Cgor±cym ¼róde³ku{x~
+Short {Cgor±ce ¼róde³ko{x~
+Descr {CGor±ce ¼róde³ko otoczone ob³okami pary wodnej.{x~
+Material kamieñ~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 100
+Itemdesc To niewielkie ¼róde³ko wyp³ywa z jednej ze skalnych wnêk w tej ma³ej
+grocie. Kiedy woda wydostaje siê na powierzchnie jej wysoka temperatura
+powoduje powstawanie ob³oków pary wodnej. Ca³a komnata wygl±da tejemniczo i
+magicznie, tak jakby zosta³a celowo wykonana przez jakie¶ istoty. Z
+pewno¶cia znajdziesz tu schronienie i zasnasz spokoju. 
+~
+Comments ~
+Objend
+#Vnum 28663
+Name mithrilowa bransoletka~
+Odmiana mithrilowej bransoletki~mithrilowej bransoletce~mithrilowa bransoletke~mithrilowa bransoletka~mithrilowej bransoletce~
+Short mithrilowa bransoletka~
+Descr Ma³a mithrilowa bransoletka le¿y tutaj w pyle.~
+Material mithril~
+Type jewelry
+ExtraExt 0|K
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 50
+Aff 1 27 4 1 0 0
+Extradesc napisy~
+Z trudno¶ci± odczytujesz napisy wygrawerowane na bransoletce:
+ 
+Bransoleta ta nie jest zwyczajna. Zagl±da w serca i przeszywa umys³y.
+Zbli¿ do kogo¶ bransolete a kryszta³ powie co mieszka w jego sercu.
+ 
+Dalszych inskrypcji nie jeste¶ w stanie odczytaæ, ale odnajdujesz informacjê
+o trzech kolorach: zielonym, czerwonym i niebieskim. Pewnie jest to klucz
+do zagadki bransolety.
+~
+Objprog use 28652 def~
+Itemdesc Widzisz ma³±, prost±, po³yskliw± bransoletê wykonana ze szczerego
+mithrilu. Przez ¶rodek bransolety ci±gnie siê w±ski pasek z bli¿ej
+nieznanego ci minera³u. Na pierwszy rzut oka wydaje siê ¿e to kryszta³,
+bowiem kamien jest ca³kowicie prze¼roczysty. Dostrzegasz w nim co¶
+magicznego. Na wewnetrznej stronie bransolety znajduj± si± runiczne
+{ynapisy{x w prostym jêzyku elfów, które z ³atwo¶ci± mo¿esz odczytaæ.
+Bransoleta wydaje siê delikatnie swieciæ, ale prawdopodobnie to tylko
+z³udzenie. 
+~
+Identdesc Bransoleta ta wykazuje niezwyk³e zdolno¶ci magiczne. Jest w stanie
+przenikn±æ w g³ab duszy i poznaæ jej nastawienie do ¶wiata. 
+~
+Comments ~
+Objend
+#Vnum 28666
+Name laboratoryjny klucz kluczyk~
+Odmiana laboratoryjnego kluczyka~laboratoryjnemu kluczykowi~laboratoryjny kluczyk~laboratoryjnym kluczykiem~laboratoryjnym kluczyku~
+Short laboratoryjny kluczyk~
+Descr Niewielki laboratoryjny kluczyk wykonany z metalu.~
+Material adamantyt~
+Type key
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Itemdesc Ten niewielki kluczyk kiedy¶ by³ w³asno¶ci± jednego z
+illithidów-naukowców. Zapewne s³u¿y on do otwarcia czego¶ znajduj±cego siê w
+laboratorium. Klucz wykonany jest z dziwnego, mrocznego metalu. 
+~
+Comments ~
+Objend
+#Vnum 28667
+Name solna mikstura fiolka solnej mikstury~
+Odmiana {Csolnej mikstury{x~{Csolnej miksturze{x~{Csoln± miksturê{x~{Csoln± mikstur±{x~{Csolnej miksturze{x~
+Short {Csolna mikstura{x~
+Descr Ma³a fiolka wype³niona {Csoln± mikstur±{x le¿y tutaj.~
+Material szk³o~
+Type potion
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1200
+Cond 75
+Objprog consume 28654 100~
+Itemdesc T± miksturê normalnie otrzymuje siê ze s³onej sadzawki, w której ¿yj± i
+dosrastaj± m³odzi illithidzi, podobni do kijanek. Wed³ug legend, gdy zbierze
+siê wystarczaj±c± ilo¶æ tej mikstury i wypije to zapewnia ona czasow±
+odporno¶æ na psionikê. 
+~
+Comments ~
+Objend
+#Vnum 28671
+Name dziwny wielki du¿y pojemnik kontener szafa~
+Odmiana dziwnego pojemnika~dziwnemu pojemnikowi~dziwny pojemnik~dziwnym pojemnikiem~dziwnym pojemniku~
+Short wielki pojemnik~
+Descr Dziwny, wielki pojemnik w kszta³cie szafy stoi na ¶rodku pomieszczenia.~
+Material adamantyt~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 100 5 0 100 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 60
+Cond 100
+Objprog objopen 28653 100~
+Itemdesc Ten wielki pojemnik w kszta³cie zwyk³ej szafy wygl±da zaprawdê
+przedziwnie. Drzwi zamontowane na misternych zawiasach nie wydaj± siê byæ
+zamkniêtê i z pewno¶ci± bez trudy da siê je otworzyæ. Ten tajemniczy
+przedmiot pokryty jest, jak reszta wyposa¿enia illithidów, dziwnymi i
+skomplikowanymi wzorami w kszta³cie figur geometrycznych. Z górnej,
+zaokr±glonej, czê¶ci pojemnika wychodz± podejrzane rurki pod³±czone do
+p³askiego urz±dzenia zamontowanego w pobliskiej ¶cianie. Co chwila co¶ zdaje
+siê bulgotaæ w rurkach. Masz wra¿enie, ¿e pojemnik z pewno¶ci± nie jest
+pusty. 
+~
+Comments ~
+Objend
+#Vnum 28672
+Name kryszta³ diament kamieñ drogocenny bezcenny cenny~
+Odmiana du¿ego diamentu~du¿emu diamentowi~du¿y diament~du¿ym diamentem~du¿ym diamencie~
+Short du¿y diament~
+Descr Przepiêkny du¿y diament le¿y tu i przyci±ga ciê swym blaskiem.~
+Material diament~
+Type gem
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 200000
+Cond 100
+Itemdesc Ten piêkny diament jest ca³kiem spory i zapewne tak¿e ca³kiem sporo
+warty. Jego krawêdzie s± misternie obszlifowane. Akurat ten okaz pochodzi z
+miasta illithidów, gdzie by³ wyko¿ystywany w dziwnej konstrukcji urz±dzenia
+miotaj±cego b³yskawice. 
+~
+Comments ~
+Objend
+#Vnum 28673
+Name szara szmata~
+Odmiana szarej szmaty~szarej szmacie~szar± szmatê~szar± szmat±~szarej szmacie~
+Short {Dszara szmata{x~
+Descr Pod twoimi stopami wala siê jaka¶ szara szmata.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Cuchn±ca p³ócienna szmata, nienadaje siê nawet do wycierania pod³óg.
+~
+Identdesc Cuchn±ca p³ócienna szmata, nienadaje siê nawet do wycierania pod³óg. 
+~
+Comments ~
+Objend
+#Vnum 28676
+Name beczka z czyst± wod± bary³ka~
+Odmiana beczki~beczce~beczkê~beczk±~beczce~
+Short beczka z czyst± wod±~
+Descr Beczka z {Cczyst± wod±{x stoi pod ¶cian±.~
+Material adamantyt~
+Type drink
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 90 90 0 0 3334 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2000
+Cost 1
+Cond 100
+Itemdesc Ta beczka, tak jak wszystkie inne materia³y illithidów wykonana jest z
+dziwnego, ciemnego metalu. Zosta³a ona odst±piona niewolnikom jako pojemnik
+na wodê. Gdy spogl±dasz do beczki zauwa¿asz, i¿ jest ona pe³na czystej wody,
+pochodz±cej zapewne z podziemnych ¼róde³. 
+~
+Comments ~
+Objend
+#Vnum 28677
+Name czerwona fiolka z krwi± starszego mózgu~
+Odmiana krwii starszego mózgu~krwii starszego mózgu~krew starszego mózgu~krwi± starszego mózgu~krwii starszego mózgu~
+Short {Rfiolka z krwi± starszego mózgu{x~
+Descr Du¿a fiolka wype³niona czerwon± {Rkrwi± starszego mózgu{x.~
+Material szk³o~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 10
+Cond 75
+Itemdesc Ma³a szklana fiolka z czerwon± ciecz±, czujesz jak wibruje ona w twych
+d³oniach. Korek zrobiony z do¶æ du¿ego diamentowego kamienia nie pozwala
+wydostaæ siê nawet zapachowi, nie mówi±c ju¿ o czerwonej zawarto¶ci. 
+~
+Comments ~
+Objend
+#Vnum 28678
+Name notka kierunków~
+Odmiana Notki~Notce~Notka~Notka~Notce~
+Short notka kierunków n-0,e-1,s-2,w-3,u-4,d-5~
+Descr Notka kierunków n-0,e-1,s-2,w-3,u-4,d-5 le¿y tutaj.~
+Material stal~
+Type map
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 100
+Itemdesc Notka kierunków n-0,e-1,s-2,w-3,u-4,d-5 Garloopa.
+~
+Comments ~
+Objend
+#Vnum 28679
+Name ma³a czê¶æ ogromnego klucza~
+Odmiana ma³ej czê¶ci ogromnego klucza~ma³ej czê¶ci ogromnego klucza~ma³± czê¶æ ogromnego klucza~ma³± czê¶ci± ogromnego klucza~ma³ej czê¶ci ogromnego klucza~
+Short ma³a czê¶æ ogromnego klucza~
+Descr Mniejsza czê¶æ stanowi±ca element jakiego¶ ogromnego klucza.~
+Material kamieñ~
+Type piece
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 28680 28681 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 100
+Cost 60
+Cond 100
+Itemdesc Ten kawa³ek jest czê¶ci± jakiego¶ du¿ego, wykonanego z kamienia, klucza.
+Wygl±da na to, ¿e jest to mniejsza czê¶æ, chocia¿ to pojêcie mo¿e wydawaæ
+siê z³udne, bo sam klucz musi byæ tak ogromny, ¿e wa¿y dwa razy tyle to ta
+czê¶æ, której mo¿esz daæ z piêæ czy sze¶æ kilogramów wagi. Ciekawe jak du¿e
+musz± byæ drzwi, które otwiera taki kolos! 
+~
+Comments ~
+Objend
+#Vnum 28680
+Name du¿a czê¶æ ogromnego klucza~
+Odmiana du¿ej czê¶ci ogromnego klucza~du¿ej czê¶ci ogromnego klucza~du¿± czê¶æ ogromnego klucza~du¿± czê¶ci± ogromnego klucza~du¿ej czê¶ci ogromnego klucza~
+Short du¿a czê¶æ ogromnego klucza~
+Descr Jaki¶ du¿y fragment ogromnego kamiennego klucza le¿y tutaj.~
+Material kamieñ~
+Type piece
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 28679 28681 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 120
+Cost 60
+Cond 100
+Itemdesc To co trzymasz w d³oni jest czê¶ci± jakiego¶ du¿ego, wykonanego z
+kamienia, klucza. Wygl±da na to, ¿e jest to wiêksza czê¶æ, chocia¿ to
+pojêcie mo¿e wydawaæ siê z³udne, bo sam klucz musi byæ tak ogromny, ¿e wa¿y
+dwa razy tyle co ta czê¶æ, której mo¿esz daæ z piêæ czy sze¶æ kilogramów
+wagi. Ciekawe jak du¿e musz± byæ drzwi, które otwiera taki kolos! 
+~
+Comments ~
+Objend
+#Vnum 28681
+Name ogromny kamienny klucz~
+Odmiana ogromnego kamiennego klucza~ogromnemu kamiennemu kluczowi~ogromny kamienny klucz~ogromnym  kamiennym kluczem~ogromnym kamiennym kluczu~
+Short ogromny kamienny klucz~
+Descr Jaki¶ gigantycznych rozmiarów klucz le¿y tutaj.~
+Material kamieñ~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 250
+Cost 1
+Cond 75
+Itemdesc Ten gigantyczny, monstrualny wrêcz klucz jest praktycznie wielko¶ci
+twojej rêki! Niesamowite... Wygl±da bardziej jak rze¼ba, ni¿ prawdziwy
+klucz. Zastanawiaj±cy mo¿e byæ fakt jakie to drzwi otwiera. 
+~
+Comments ~
+Objend
+#Vnum 28682
+Name adamantytowa obrêcz~
+Odmiana {Dadamantytowej obrêczy{x~{Dadamantytowej obrêczy{x~{Dadamantytow± obrêcz{x~{Dadamantytow± obrêcz±{x~{Dadamantytowej obrêczy{x~
+Short {Dadamantytowa obrêcz{x~
+Descr Dziwnie po³yskuj±ca, ciemna {Dadamantytowa obrêcz{x le¿y tutaj.~
+Material adamantyt~
+Type jewelry
+ExtraExt 0|CEHMae
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 15
+Cost 3600
+Cond 90
+Aff 0 13 -20 0 0 L
+Itemdesc Ta dziwna, wykonana z adamantytu, bardzo rzadkiego metalu obrêcz
+promieniuje delikatnym ciep³em, mo¿e nawet buczy. Masz wra¿enie, ¿e emanuje
+ona jakiego¶ rodzaju z³owrog± si³±, ciekawe co robi? Bowiem fakt, i¿ zosta³a
+silnie umagiczniona nie jest niczym tajemniczym. 
+~
+Identdesc Obro¿a ta negatywnie wp³ywa na zdolno¶ci ruchowe swojego w³a¶ciciela.
+Unieruchamia ona go a¿ do chwili u¿ycia silnej magii. 
+~
+Comments ~
+Objend
+#Vnum 28683
+Name kamienny klucz~
+Odmiana kamiennego klucza~kamiennemu kluczowi~kamienny klucz~kamiennym kluczem~kamiennym kluczu~
+Short kamienny klucz~
+Descr Kamienny klucz le¿y na ziemi.~
+Material kamieñ~
+Type key
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 1
+Cond 50
+Itemdesc Jest to sporej wielko¶ci kamienny klucz który, otwiera prawdopodobnie
+jakie¶ potê¿ne i wielkie drzwi. 
+~
+Comments ~
+Objend
+#Vnum 28798
+Name straszny klucz~
+Odmiana {Dstrasznego klucza{x~{Dstrasznemu kluczowi{x~{Dstraszny klucz{x~{Dstrasznym kluczem{x~{Dstrasznym kluczu{x~
+Short {Dstraszny klucz{x~
+Descr Strasznie wygl±daj±cy klucz le¿y na ziemi.~
+Material adamantyt~
+Type key
+ExtraExt 0|D
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 13
+Cost 10
+Cond 50
+Itemdesc Jest to sporej wielko¶ci klucz zrobiony ze adamentytu. Naszpikowany jest
+kolcami, co razem z czarnym kolorem daje mu naprawdê straszliwy wygl±d. 
+~
+Comments ~
+Objend
+#Vnum 28800
+Name wielka ¿elazna skrzynia skrzynia_arras~
+Odmiana {cwielkiej ¿elaznej skrzyni{x~{cwielkiej ¿elaznej skrzyni{x~{cwielk± ¿elazn± skrzyniê{x~{cwielk± ¿elazn± skrzyni±{x~{cwielkiej ¿elaznej skrzyni{x~
+Short {Dstraszna skrzynia potworno¶ci{x~
+Descr {DStraszna skrzynia potworno¶ci{x ze straszn± zawarto¶cia stoi tutaj.~
+Material ¿elazo~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10000 271 28798 10000 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 10001
+Cost 60
+Cond 75
+Itemdesc Ta du¿a, wykonana z ¿elaza skrzynia jest chyba ca³kowicie nie do
+zniszczenia! Tak¿e jest nieziemsko ciê¿ka, ciekawe jak kto¶ j± tutaj wniós³?
+A mo¿e nie musia³ wnosiæ? Mo¿e zrobiono j± na miejscu. Dziwna i osobliwa
+sprawa. Niemniej pewne jest, ¿e kto¶ kto j± zamówi³ chcia³ mieæ pewno¶æ, ¿e
+skrzynie tê mo¿na otworzyæ jedynie kluczem. I tak zapewne jest. 
+~
+Comments ~
+Trap 28716
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 28651
+Name W±ska szczelina~
+Descr Idziesz w±skim przejsciem wykutym tak, aby przez niego mog³y przej¶æ dwie
+istoty budowy cz³owieka bez niepotrzebnego schylania siê. Kamieniste pod³o¿e
+jest wilgotne i co chwila s³yszysz g³uche mla¶niêcia gdy twoja noga l±duje w
+jednej z wiêkszych ka³u¿. Twoja twarz jest co chwila smagana
+gwa³towniejszymi porywami wiatru, raz z pólnocy a raz z po³udnia. Zapewne
+obie czê¶ci jaskiñ maj± swoje w³asne ¼ród³a ¶wie¿ego powietrza. Nie mniej to
+dziwne czuæ wiatr wiele metrów pod powierzchni± ziemi. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28652
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28652
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28652
+Name W w±skiej szczelinie~
+Descr Kontynuujesz marsz w±skim przejsciem wykutym w taki sposób, aby przez
+niego mog³y przej¶æ dwie istoty budowy cz³owieka bez niepotrzebnego
+schylania siê. Kamieniste pod³o¿e jest wilgotne i co chwila s³yszysz g³uche
+mla¶niêcia gdy twoja noga l±duje w jednej z wielu ka³u¿. Wiêkszych ka³u¿.
+Twoja twarz jest co chwila smagana gwa³towniejszymi porywami wiatru, raz z
+pólnocy a raz z po³udnia. Zapewne obie czê¶ci jaskiñ maj± swoje w³asne
+¼ród³a ¶wie¿ego powietrza. W paru miejscach zauwa¿asz dziwne ¶lady w
+kamieniach. Zapewne s± to pozosta³o¶ci po pracy jak± musia³y wykonaæ jakie¶
+istoty by wydr±¿yæ to przej¶cie. Jednak znaków tych nie ma zbyt wiele. Mo¿e
+to ¶wiadczyæ albo o staro¶ci przej¶cia, albo o wielkim kunszcie
+rzemie¶lników którzy wykuli to przej¶cie. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28651
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28651
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28653
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28653
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28653
+Name Ostry zakrêt szczeliny~
+Descr W tym miejscu podziemny korytarz ostro zakrêca na wschód. W tym miejscu
+czujesz wyra¼nie dziwny zapach dochodz±cy z tamtego kierunku. Co¶ pomiêdzy
+zgnilizn± a stêchlizn±. Obojêtnie co to, droga w tamtym kierunku na pewno
+nie bêdzie zaliczaæ sie do przyjemnych. Spogl±daj±c w kierunku pó³nocy
+zauwa¿asz kilka nietoperzy uczepionych sklepienia. To miejsce na pewno nie
+jest ani przyjemne ani bezpieczne. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28652
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28652
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28654
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28654
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28654
+Name Niewielkie rozwidlenie~
+Descr Znajdujesz siê w niewielkiej podziemnej grocie. Na wschodzie i zachodzie
+widzisz w±skie przej¶cia do dalszych czê¶ci jaskiñ. Natomiast jaskinia
+rozci±ga siê g³êbiej w kierunku pólnocy. Czujesz bij±ce z tamt±d ciep³o.
+Jednak gdy starasz siê dostrzec co znajduje siê w tamtej czê¶ci groty nie
+dostrzegasz nic oprócz dziwnej mg³y unosz±cej metr nad ziemia. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28655
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28655
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28656
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28656
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28653
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28653
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28655
+Name Skalna nisza~
+Descr Jeste¶ w niskiej skalnej niszy. Wiêkszo¶æ pomieszczenia zas³ania dziwna
+mg³a, która powstaje gdy bij±ce tu gor±ce ¼ród³o wydostaje sie do zimnych
+jaskiñ. Zapewne w³a¶nie to miejsce jest ¿ród³em wszechobecnej wody, która
+zalega wszystkie korytarze. Od ¼róde³ka bije dziwna aura, dziwnie dzia³aj±ca
+na twoja pod¶wiadomo¶æ. Masz wra¿enie, ¿e tutaj jest bezpiecznie i nie ma
+¿adnej obawy przed wrogimi istotami. Lecz mog± to byæ jedynie z³udzenia,
+zawsze trzeba mieæ siê na baczno¶ci. Jedyne wyj¶cie z niszy znajduje siê na
+po³udniu. 
+~
+FlagsExt 0|CDHV
+Sector 25
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28654
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28654
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28656
+Name Rozsze¿enie szczeliny~
+Descr W tym odcinku korytarz rozsze¿a sie znacznie. Zapewne nie jest to
+spowodowane pierwotnymi zamiarami budowniczych tych podziemnych przej¶æ.
+¦wiadcz± o tym zupe³nie inne ¶lady na kamieniach. W poprzednich korytarzach
+by³y one regularne i dok³adne, pozostawione przez narzêdzia. Korytarz w
+którym obecnie siê znajdujesz na pewno nie by³ wykonany za pomoc± ¿adnych
+przy¿±dów. ¦lady, które zauwa¿asz raczej kojarz± siê z twardymi szponami ni¿
+ostrzem kilofa. Mo¿a to wskazywaæ tylko na jedno - kto¶ tu na pewno nadal
+mieszka i dba o swoje lokum. Powoli zaczynaj± nachodziæ ciê czarne my¶li. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28657
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28657
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28654
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28654
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28657
+Name Przy wyrwie w ziemi~
+Descr Korytarz w tym miejscu znowu dochodzi do kolejnej niewielkiej jaskini.
+Ca³y system tuneli w których siê znajdujesz musia³byæ wcze¶niej skrupulatnie
+zaplanowany, tak aby po³±czyæ ze sob± te wszystkei podziemne groty. Nie
+do¶æ, ¿e z pewno¶ci± u³tawi³o to robotnik± prace to i teraz nie odczuwasz
+klaustrofobicznych lêków. Tutaj korytarz zdaje siê koñczyæ i jedyna jego
+kontynuacj± jest olbrzymia szczelina znajduj±ca siê w pod³o¿u. Do twojego
+nosa dochodz± dziwne zapachy, jakby spalenizny i zgnilizny. 
+~
+FlagsExt 0|ACD
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28656
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28656
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28658
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28658
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28658
+Name Przy otworze w sklepieniu jaskini~
+Descr W tym miejscu korytarz znowu dochodzi do kolejnej niewielkiej jaskini.
+Ca³y system tuneli w których siê znajdujesz musia³byæ wcze¶niej skrupulatnie
+do¶æ, ¿e z pewno¶ci± u³tawi³o to robotnik± prace to i teraz nie odczuwasz
+klaustrofobicznych lêków. Tutaj korytarz zdaje siê koñczyæ i jedyna jego
+kontynuacj± jest olbrzymia szczelina znajduj±ca siê w klaustrofobicznych
+lêków. Tutaj korytarz zdaje siê koñczyæ i jedyna jego kontynuacj± jest
+olbrzymia szczelina znajduj±ca siê w sklepieniu korytarza. Zapewne jest to
+wyj¶cie w kierunku powierzchni. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28659
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28659
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28657
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28657
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28659
+Name Wielka grota~
+Descr Jeste¶ w ogromnej podziemnej pieczarze, maj±cej kszta³t przybli¿ony do
+trójk±ta. Zapewne kszta³t ten nie jest dzie³em przypadku. Z miejsca w którym
+stoisz zauwa¿asz trzy wyj¶cia z jaskini, w kierunkach pó³nocy, po³udnia i
+wschodu. Rozgl±daj±c siê po jaskini nie sposób przegapiæ szcz±tków zwierz±t
+a tak¿e ludzi, b±dz elfów, które le¿± porozrzucane po ca³ym pomieszczeniu.
+Gdy przygl±dasz sie im bli¿ej przypadkiem zauwa¿asz niewyra¼n± ¶cie¿kê
+udeptan± z po³udnia na pó³noc. Ciekawe có¿ za strasznie istoty mog± tu
+mieszkaæ. Jedno jest pewne, na pewno nie s± nastawione przyja¼nie. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28662
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28662
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28660
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28660
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28658
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28658
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28660
+Name Ma³e legowisko~
+Descr Stoisz w niewielkim legowisku usypanym g³ownie z kamieni i dziwnych
+szczatków. Pod³oga wy³o¿ona jest dziwnymi, czarnymi, puszystymi skórami.
+Zewsz±d dochodzi ciê niezno¶ny odór zgnilizny i odchodów, który by³
+wyczuwalny ju¿ daleko od tego miejsca. Przy jednej z kamiennych ¶cian le¿y
+wysoki stos poobgryzanych, bia³ych ko¶ci. Czujesz, ¿e twoj zo³±dek nie
+wytrzyma tego zbyt d³ugo. Zauwa¿asz, ¿e legowisko ci±gnie siê dalej w
+kierunku wschodu. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28659
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28659
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28661
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28661
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28661
+Name Du¿e legowisko~
+Descr Jeste¶ w du¿ym legowisku usypanym g³ownie z kamieni i dziwnych szczatków.
+Pod³oga wy³o¿ona jest dziwnymi, czarnymi, puszystymi skórami. Zewsz±d
+dochodzi ciê niezno¶ny odór zgnilizny i odchodów, który by³ wyczuwalny ju¿
+daleko od tego miejsca. Przy jednej z kamiennych ¶cian le¿y wysoki stos
+poobgryzanych, bia³ych ko¶ci. Czujesz, ¿e twoj zo³±dek nie wytrzyma tego
+zbyt d³ugo. Zauwa¿asz, ¿e legowisko ci±gnie siê dalej w kierunku zachodu. W
+jednym z k±tów pomieszczenia stoi du¿ych rozmiarów krzes³o. Ciekawe co ono
+tu robi? 
+~
+FlagsExt 0|AD
+Sector 15
+Extra krzes³o~
+To stoj±ce w rogu komnaty krzes³o nie wygl±da nadzwyczajnie. Ot takie
+sobie, zwyk³e, na jakim siedz± zwykle stare babcie opowiadaj±c wnukom bajki.
+Jedyna zastanawiaj±ca rzecz to fakt, sk±d ono siê tu wzie³o. Pierwsza
+nachodzi ciê my¶l, ¿e przyby³o ono w jaki¶ sposób z miasta drowów. Po
+bli¿szym przyjrzeniu siê dochodzisz do wniosku, ¿e mog³o byæ ono
+wyko¿ystywane jako swoisty tron dla zamieszkuj±cych te jaskinie istot. Nie
+mniej, to naprawde ciekawe zobaczyæ g³êboko pod ziemi± w surowych grotach...
+Krzes³o. 
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28660
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28660
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28662
+Name Na schodach w g³±b ziemi~
+Descr W tym miejscu wykuty korytarz siê koñczy. Jedyn± jego kontynuacj± zdaj±
+siê byæ schody prowadz±ce jeszcze dalej w g³±b ziemi. Ich stopnie s±
+dok³adnie i kunsztownie wykute w pod³o¿u, gdzieniegdzie zdobione napisami w
+jêzyku, którego nie rozumiesz. Zapewne zosta³y wykonane bardzo dawno temu a
+ich pierwotny cel zatar³ siê z czasem. W twojej g³owie k³êbi± siê ró¿ne
+dziwne my¶li o staro¿ytnich cywilizacjach maj±cych swoje ogromne siedziby
+pod ziemi±. Dzi¶ jedynymi ich spadkobiercami s± drowy oraz liczne z³owrogie
+istoty kryj±ce siê w ciemno¶ciach podziemi. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28659
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28659
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28663
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28663
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28663
+Name Na schodach w kierunku powierzchni~
+Descr Korytarz koñczy siê w tym miejscu. Jedyn± jego kontynuacj± zdaj± siê byæ
+schody prowadz±ce w kierunku powierzchni. Ich stopnie s± dok³adnie i
+kunsztownie wykute w pod³o¿u, gdzieniegdzie zdobione napisami w jêzyku,
+którego nie rozumiesz. Zapewne zosta³y wykonane bardzo dawno temu a ich
+pierwotny cel zatar³ siê z czasem. W twojej g³owie k³êbi± siê ró¿ne dziwne
+my¶li o staro¿ytnich cywilizacjach maj±cych swoje ogromne siedziby pod
+ziemi±. Dzi¶ jedynymi ich spadkobiercami s± drowy oraz liczne z³owrogie
+istoty kryj±ce siê w ciemno¶ciach podziemi. 
+~
+FlagsExt 0|ACD
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28717
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28717
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28662
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28662
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28664
+Name Przed dziwn± bram±~
+Descr W±ski korytarz koñczy siê w tym miejscu ostatecznie, chyba w³a¶nie tylko
+do tego miejsca prowadzi³ oryginalnie. Jest to ¶rednich rozmiarów grota o
+kszta³cie ko³a. Wieksza czê¶æ jaskini wygl±da ca³kiem normalnie, lecz
+wschodnia ¶ciana bardziej przypomina mur ni¿ skaln± ¶cianê. Gdzie niegdzie
+zauwa¿asz ¶lady, jakby cegie³, lecz wykonanych z dziwnego, szarego
+materia³u. W centralnym punkcie dziwnej ¶ciany znajduje siê co¶ co wygl±da
+jak drzwi, a raczej jedynie przypomina drzwi z kszta³tu. Nigdzie bowiem nie
+odnajdujesz klamki ani zawiasów. Je¿eli jest jaki¶ sposób, ¿eby przej¶æ
+dalej na wschód najpierw trzeba jako¶ sforsowaæ to tajemnicze przej¶cie. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription Dalszego przej¶cia strzeg± olbrzymie wrota zrobione z kamienia.
+~
+ExitExtVName Wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 28681
+ExitExtToVnum 28665
+ExitExtEnd
+Exit 1
+Dalszego przej¶cia strzeg± olbrzymie wrota zrobione z kamienia.
+~
+VName Wrota~
+wrota~
+7 28681 28665
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28751
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28751
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28665
+Name Przy bramie miasta Illithidów~
+Descr Znajdujesz siê przed g³ówn± bram± stanowi±c± wej¶cie do ogromnego
+kompleksu którym jest miasti Illithidów. Potê¿ne wrota stanowi± naprawdê
+trudn± barierê do pokonania dla potencjalnych naje¼d¼ców. Miasto ³upie¿ców
+umys³ów sk³ada siê z kompleksu setek, owalnych komnat po³±czonych krótkimi
+korytarzami. W ka¿dej z upiornych sal, znajduj± siê najdziwniejsze rzeczy,
+których zwyk³y ¶miertelnik nie jest w stanie sobie wyobraziæ. Wed³ug
+opowie¶ci mêdrców, miastem kieruje wielki mózg - jedna z najm±drzejszych
+istot na ¶wiecie. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28677
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28677
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28666
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28666
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 28681
+ExitExtToVnum 28664
+ExitExtEnd
+Exit 3
+~
+~
+7 28681 28664
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28666
+Name ¦rodek d³ugiego korytarza~
+Descr Korytarz w którym siê znalaz³e¶ stanowi po³±czenie miêdzy setkami komnat,
+nale¿±cych do Illithidów. ¦ciany s± dziwaczne, i patrz±c na nie przechodzi
+ciê dreszcz. Gdy j± dotkniesz ze zdziwieniem mo¿esz stwierdziæ, ¿e jest ona
+miejscami g³adka i miêkka a gdzie indziej szorstka i twarda. Niemniej masz
+wra¿enie, ¿e do jej budowy u¿yto tego samego materia³u. Zdajesz sobie
+sprawê, ¿e te ¶ciany na pewno nie s± najdziwniejsz± rzecz± jak± tu spotkasz,
+a tylko jedn± z niewielu. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28667
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28667
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28665
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28665
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28667
+Name Pod³u¿ny korytarz~
+Descr Znajdujesz siê w jednym z korytarz ³±cz±cym setki komnat Illithidów. Nie
+jest to miejsce, które w jakikolwiek sposób by przypomina³o korytarze
+budowane przez krasnoludy, gnomy i inne istoty kopi±ce podziemne tunele.
+¦ciany wydaj± siê jakie¶ dziwne, a posadzka pokryta jest tutaj dziwnym
+szlamem, jakby wielki ¶limak têdy niedawno pe³z³. Masz nadzieje, ¿e zza rogu
+nie wyskoczy za chwilê jaki¶ ³upie¿ca umys³ów. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28666
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28666
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28668
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28668
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28668
+Name Miasto illithidów~
+Descr Znajdujesz siê w jednej z setek, identycznych komnat Illithidów. Ma ona
+owalny kszta³t, ¶ciany s± naprawdê dziwaczne, a wszystko co siê tutaj
+znajduje nie ma realnych odpowiedników na powierzchni. W niektórych
+miejscach, ¶ciany pokryte s± dziwnymi wypustkami które przypominaj± d¼wigniê
+i przyciski, jednak lepiej ich nie dotykaæ bo kto wie co mo¿e siê staæ. W
+komnacie panuje dziwna atmosfera, tak jakby tutaj czai³o siê co¶ bardzo
+z³ego. Lepiej opu¶ciæ to miejsce jak najszybciej. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28671
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28671
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28669
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28669
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28667
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28667
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28669
+Name Du¿a komnata~
+Descr Znajdujesz siê w jednym z wielu owalnych pomieszczeñ podziemnego miasta
+zamieszkiwanego przez ³upie¿ców umys³u zwanych illithidami. Wszystko tu
+wydaje ci siê obce i nieprzyjemne. Ostro¿nie dotykasz fragmentu jednej z
+owalnych ¶cian komnaty w której siê znajdujesz. Ze zdziwieniem odkrywasz, ze
+jest ona miejscami g³adka i miêkka a miejscami szorstka i twarda. Niemniej
+masz wra¿enie, ze do jej budowy u¿yto tego samego materia³u. Nagle nerwowo
+szukasz oczami wyj¶cia, tak jakby w pomieszczeniu by³o cos z³ego. Na
+szczê¶cie po chwili zauwa¿asz, ze komnata nie zosta³a odciêta od innych.
+Oddychasz z ulga. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28670
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28670
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28668
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28668
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28670
+Name ¦lepy zau³ek~
+Descr Stoisz na ¶rodku eliptycznej komnaty i zastanawiasz siê jakimi sposobami
+zosta³± ona wykonana. Z pewno¶ci± sami ³upie¿cy umys³ow nie mogli wybudowaæ
+tak niesamowitych konstrukcji architektonicznych. Badawczo spogl±dasz na
+dziwne wypustki na ¶cianach, które znajduj± siê w komnacie. Z pozoru
+wygl±daj± jak d¼wignie lub pokrêt³a, lecz zapewne w rzeczywisto¶ci s³u¿a do
+czego¶ innego. Po chwili namys³u porzucasz pomys³ próby ich u¿ycia. Ta
+komnata wygl±da na ostatni± w tym szeregu korytarzy. Jedyne wyj¶cie prowadzi
+na pó³noc. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28669
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28669
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28671
+Name Trójk±tna komnata~
+Descr Komnata ta ró¿ni siê nieco od pozosta³ych w mie¶cie Illithidów. Po
+pierwsze nie jest owalna jak wiêkszosæ pomiesczeñ w tym mie¶cie, a ma
+kszta³t prostok±tnego trójk±ta. Miejsce to wype³nione jest róznego rodzaju
+przyr±dami, które wygl±daj± naprawdê dziwnie a ich w³a¶ciwo¶ci s± zapewne
+jescze bardziej zakryte mg³± tajemnicy. Wnioskuj±c mo¿na powiedzieæ, ¿e jest
+to warsztat Illithidów, w których tworz± swoje dziwne i plugawe wynalazki. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28672
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28672
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28668
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28668
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28672
+Name Wschodnia czê¶æ trójk±tnej komnaty~
+Descr Komnata ta ró¿ni siê nieco od pozosta³ych w mie¶cie Illithidów. Po
+pierwsze nie jest owalna a ma kszta³t trójk±ta prostok±tnego. Znajdujesz siê
+w wschodniej czê¶ci pomiesczenia, a sama komnata ci±gnie siê kawa³ek dalej
+na wschód. Miejsce to wype³nione jest róznego rodzaju wynalazkami, które
+nale¿± do Illithidów. W pó³nocnej czê¶ci komnaty mo¿na znale¶æ przej¶cie do
+dalszych czê¶ci tego upironego miasta. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28673
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28673
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28671
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28671
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28673
+Name Skrzy¿owanie korytarzy~
+Descr Znajdujesz siê na skrzy¿owaniu korytarzy, gdzie¶ w mie¶cie Illithidów.
+Id±c w kierunku pó³nocnym, zachodnim i po³udniowym dojdziesz do kolejnych
+komnat ³upie¿ców umys³u, na wschodzie za¶ mo¿na dostrzedz jak±¶ naturaln±
+jaskinie sporej wielko¶ci. Mo¿liwe, ¿e zostanie przerobiona na kolejne
+pomiesczenie, loch, laboratorium lub warsztat. Wydaje ci siê, ¿e ¶ciany maj±
+tutaj oczy i uszy. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28688
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28688
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28674
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28674
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28672
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28672
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28675
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28675
+Roomprog random 28654 50~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28674
+Name Niewielka grota~
+Descr Znajdujesz siê w niewielkiej grocie, która powsta³a dosyæ niedawno.
+¦ciany s± nierówne, pod³o¿e kamieniste, a strop wydaje siê nieregularny.
+Miejsce to wydaje siê byæ legowiskiem jakiego¶ du¿ego stworzenia.
+Zastanawiaj±ce jest to, co za stworzenie mo¿e mieszkaæ w ¶rodku miasta
+Illithidów. Mo¿e to ambrowy kolos? Je¶li tak to musi byæ przeogromnych
+rozmiarów i byæ bardzo niebezpieczny. Lepiej bêdzie je¶li opu¶cisz to
+miejsce jak najszybciej. 
+~
+FlagsExt 0|DH
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28673
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28673
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28675
+Name Eliptyczna komnata~
+Descr Stoj±c na ¶rodku tej eliptycznej komnaty zastanawiasz siê jakimi
+sposobami zosta³a ona wykonana. Z pewno¶ci± sami ³upie¿cy umys³u nie mogli
+wybudowaæ tak niesamowitych konstrukcji architektonicznych. Gdy ogl±dasz po
+raz kolejny tajemnicze wzory zdobi±ce ¶ciany i strop komnaty ogarnia ciê
+uczucie monotonii. Wszystko tu wydaje siê byæ u³o¿one i uporz±dkowane a co
+za tym idzie - nudne. Nagle nerwowo szukasz oczami wyj¶cia, tak jakby w
+pomieszczeniu by³o cos z³ego. Na szczê¶cie po chwili zauwa¿asz, ze komnata
+nie zosta³a odciêta od innych. Oddychasz z ulga. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28673
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28673
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28676
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28676
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28676
+Name Eliptyczna komnata~
+Descr Przechodz±c przez ta komnatê odczuwasz dziwny lek przed jej niecodziennym
+wystrojem. Dominuj± tu zimne barwy pomieszane z krwista czerwienia. Pomimo
+tego, i¿ illithidzi s± rozumnymi istotami to ich miasta wygl±daj± dla
+mieszkañców powierzchni co najmniej barbarzyñsko. Uwa¿nie przypatrujesz siê
+¶cianom i stropowi pomieszczenia. Z niejakim zdziwieniem mo¿esz stwierdziæ,
+ze wiêkszo¶æ komnat miasta illithidow jest identyczna. Te same wzory,
+kszta³ty i rozmiary. Ciekawe czemu to wszystko s³u¿y. Ziewasz krotko po czym
+postanawiasz daæ spokój dalszemu bezsensownemu badaniu pomieszczenia. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28675
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28675
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28677
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28677
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28677
+Name Owalna komnata~
+Descr Gdy rozgl±dasz siê po pomieszczeniu w którym siê znajdujesz nachodz± ciê
+z³e przeczucia. Wszystko w tym podziemnym mie¶cie jest takie inne i
+niesamowite. Co rusz zastanawiasz siê do czego s³u¿y jeden z mebli czy czê¶æ
+wystroju pomieszczenia. Spogl±daj±c na dziwnej budowy krzes³a i ³ó¿ka
+znajduj±ce siê w komnacie zastanawiasz siê czy illithidzi u¿ywaj± tych mebli
+w tym samym celu co mieszkañcy powierzchni. Z pewno¶ci± nigdy siê tego nie
+dowiesz. Po chwili g³êbszego zastanowienia postanawiasz daæ sobie spokój
+dalszemu bezsensownemu badaniu pomiesczenia. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28678
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28678
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28676
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28676
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28665
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28665
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28678
+Name W±ski korytarzyk~
+Descr Znalaz³e¶ siê w nied³ugim i w±skim korytarzu umiesczonym miêdzy komnatami
+Illithidów. Ten fragment ci±gnie siê z po³udnia na pó³noc skrêcaj±c nieco na
+wschód. Z pó³nocy dobiegaj± do twych uszu jakie¶ jêki i postêkiwania, jaby
+znêcano siê nad bezbronnymi istotami. Musi siê znajdowaæ tam co¶ strasznego.
+Mo¿e lepiej bêdzie opu¶ciæ to nawiedzone miejsce. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28679
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28679
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28677
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28677
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28679
+Name Zakrêt w±skiego korytarzyka~
+Descr Korytarz w którym siê znajdujesz, nie rózni siê zbytnio od pozosta³ych w
+tym podziemnym mie¶cie. Prowadzi on do kwater niewolników, którzy musz±
+ciêzko pracowaæ dla ³upie¿ców umys³ów. Pracuj± ciê¿ko ca³ymi dniami i
+nocami, a bardziej pechowi trafiaj± na plugawe eksperymenty tych
+bezduszynych istot. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Kwatery~
+ExitExtTextOut $n wchodzi do kwater niewolników.~
+ExitExtTextIn $n wchodzi do kwater niewolników.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28680
+ExitExtEnd
+Exit 1
+~
+VName Kwatery~
+TextOut $n wchodzi do kwater niewolników.~
+TextIn $n wchodzi do kwater niewolników.~
+~
+0 0 28680
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28678
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28678
+Roomprog random 28654 90~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28680
+Name Przedsionek kwater niewolników~
+Descr Znajdujesz siê w przedsionku kwater niewolników schwytanych przez
+³upie¿ców umys³u. Wystrój wygl±da ca³kiem przyja¼nie i przypomina normalne
+¿ycie na powierzchi. Gdzieniegdzie zauwa¿asz porozrzucane ludzkie i
+krasnoludzkie ubrania, topory, kilofy i m³oty. Zapewne tutejsi niewolnicy
+pracuj± ciê¿ko przy wykopach nowych tuneli oraz zajmuj± siê budow± wnêtrz
+coraz to nowych komnat. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28683
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28683
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28681
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28681
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z kwater.~
+ExitExtTextIn $n wychodzi z kwater.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28679
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z kwater.~
+TextIn $n wychodzi z kwater.~
+~
+0 0 28679
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28681
+Name Przed sypialni± niewolników~
+Descr Znajdujesz siê na terenie kwater niewolników w podziemnym mie¶cie
+illithidów. Jedyne wyj¶cie z tej czê¶ci korytarzy znajduje siê na pó³nocy i
+prowadzi przez ma³y przedsionek. Z tamtego kierunku dociera do ciebie mi³y
+zapach, co¶ jakby pieczony chleb. Natomiast na wschodzie zauwa¿asz niewielk±
+sypialnie zape³nion± spartañskimi ³ó¿kami ró¿nych kszta³tów i rozmiarów.
+Zapewnie niewolnicy sami konstruowali wyposa¿enie swoich kwater u¿ywaj±c do
+tego ka¿dego materia³u jaki wpad³ im w rêce. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28680
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28680
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28682
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28682
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28682
+Name Sypialnia niewolników~
+Descr Ca³e pomieszczenie zape³nione jest ³ó¿kami o ró¿nych kszta³tach i
+rozmiarach. Wiêkszo¶æ tych spartañskich legowisk zosta³a wykonana z jakiego¶
+dziwnego czarnego metalu, który nie wygl±da zbyt wygodnie. Jak ju¿ dawno
+nasz³y ciê te przypuszczenia to teraz ju¿ masz pewno¶æ i¿ to pomieszczenie
+s³u¿y niewolnikom za sypialnie. Jedyne wyj¶cie z niej prowadzi przez
+niewielkie drzwi na zachodzie. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28681
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28681
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28683
+Name Przed kuchni±~
+Descr Ten korytarz to jedna z dwóch odnóg przedsionka kwater niewolników.
+Wystrój tu panuj±cy bardzo przypomina ten znany ci z powierzchni, co nie
+jest zbyt zaskakuj±ce. Gdzieniegdzie zauwa¿asz walaj±ce siê drewniane
+krzes³a, szafê i wiele innych mebli oraz przedmiotów codziennego u¿ytku.
+Zapewne ³upie¿cy nie traktuj± swoich niewolników tak ¿le jak to by siê mog³o
+wydawaæ. Odnoga korytarza prowadzi ku kuchni na wschodzie i ku wyj¶ciu oraz
+sypialni na po³udniu. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28684
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28684
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28680
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28680
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28684
+Name Kuchnia niewolników~
+Descr Stoisz w ¶rodku kuchni znajduj±cej siê w kwaterach niewolników w
+podziemnym mie¶cie illithidów. Zauwa¿asz tu dobrze znane z powierzchni
+palenisko z kocio³kiem w którym co¶ siê gotuje. Na ¶cianach wisz± ró¿nej
+wielko¶ci ³y¿ki, chochle, czerpaki i wiele innych kuchennych niezbêdników.
+Pod sufitem susz± siê aromatyczne zio³a. Ciekawe sk±d one wzie³y siê tutaj,
+g³êboko pod ziemi±. Przy wschodniej ¶cianie stoi olbrzymi stó³ otoczony
+wieloma krzes³ami ró¿nych wielko¶ci. Domy¶lasz siê, i¿ ka¿dy mieszkaniec tej
+podziemnej enklawy ma tu swoje w³asne miejsce. W pó³nocnej ¶cianie widzisz
+jak±¶ ciasny korytarzyk prowadz±cy g³êbiej pod ziemiê. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28753
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28753
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28685
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28685
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28683
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28683
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28685
+Name Zimna cela~
+Descr To okropne pomieszczenie o spartañskim wystroju kojarzy ci siê jedynie z
+wiêznienn± cel±. W po³udniowej ¶cianie zosta³a wykuta d³uga wnêka, która
+s³u¿y za ³ó¿ko dla bytuj±cych tu wiê¼niów. Zastanawia ciê fakt dlaczego ta
+cela zosta³a umieszczona w³a¶nie na terenie kwater niewolników. Wydaje siê
+nielogicznym, ¿eby ³upie¿cy przetrzymywali tu swoich wiê¼niów. Pozostaje
+jedynie jedno wyj¶cie - do wiêzienia trafiaj± osoby które zostaj± skazane
+przez samych niewolników. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28684
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28684
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28686
+Name Gdzie¶ w mie¶cie illithidów~
+Descr Gdy rozgl±dasz siê po pomieszczeniu w którym siê znajdujesz nachodz± ciê
+z³e przeczucia. Wszystko w tym podziemnym mie¶cie jest takie inne i
+niesamowite. Co rusz zastanawiasz siê do czego s³u¿y jeden z mebli czy czê¶æ
+wystroju pomieszczenia. Spogl±daj±c na dziwnej budowy krzes³a i ³ó¿ka
+znajduj±ce siê w komnacie zastanawiasz siê czy Illithidzi u¿ywaj± tych mebli
+w tym samym celu co mieszkañcy powierzchni. Z pewno¶ci± nigdy siê tego nie
+dowiesz. Po chwili g³êbszego zastanowienia postanawiasz daæ sobie spokój
+dalszemu bezsensownemu badaniu pomieszczenia. Z pó³nocy do twych uszu
+dobiega dziwne buczenie. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Sypialnie~
+ExitExtTextOut $n wchodzi do sypialni.~
+ExitExtTextIn $n wchodzi do sypialni.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28687
+ExitExtEnd
+Exit 0
+~
+VName Sypialnie~
+TextOut $n wchodzi do sypialni.~
+TextIn $n wchodzi do sypialni.~
+~
+0 0 28687
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28689
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28689
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28688
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28688
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28687
+Name Dziwna sypialnia~
+Descr Znajdujesz siê w jednym z wielu owalnych pomieszczeñ podziemnego miasta
+zamieszkiwanego przez ³upie¿ców umys³u zwanych illithidami. Wszystko tu
+wydaje ci siê obce i nieprzyjemne. Spogl±daj±c na dziwnej budowy krzes³a i
+³ó¿ka znajduj±ce siê w komnacie zastanawiasz siê czy illithidzi u¿ywaj± tych
+mebli w tym samym celu co mieszkañcy powierzchni. Ca³± t± komnatê zajmuj±
+dziwne, d³ugie sto³y pokryte czym¶ co przypomina czerwone skunko. Gdy
+przygl±dasz siê bli¿ej tym dziwacznym meblom dochodzisz do wniosku, ¿e s± to
+³ó¿ka na których wypoczywaj± illithidzi. Wszystko to wydaje siê takie obce i
+okropne. Nie chcesz zostawaæ tu zbyt d³ugo 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z sypialni.~
+ExitExtTextIn $n wychodzi z sypialni.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28686
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z sypialni.~
+TextIn $n wychodzi z sypialni.~
+~
+0 0 28686
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28688
+Name Dziwna sala~
+Descr Stoj±c na ¶rodku tej eliptycznej komnaty zastanawiasz siê jakimi
+sposobami zosta³a ona wykonana. Z pewno¶ci± sami ³upie¿cy umys³u nie mogli
+wybudowaæ tak niesamowitych konstrukcji architektonicznych. Gdy ogl±dasz po
+raz kolejny tajemnicze wzory zdobi±ce ¶ciany i strop komnaty ogarnia ciê
+uczucie monotonii. Wszystko tu wydaje siê byæ u³o¿one i uporz±dkowane a co
+za tym idzie - nudne. Nagle nerwowo szukasz oczami wyj¶cia, tak jakby w
+pomieszczeniu by³o cos z³ego. Na szczê¶cie po chwili zauwa¿asz, ze komnata
+nie zosta³a odciêta od innych. Oddychasz z ulga. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28686
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28686
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28673
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28673
+Roomprog random 28654 50~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28689
+Name Ma³a trójk±tna sala~
+Descr Rozgl±daj±c siê po tym sporym pomieszczeniu przechodz± ciê mieszane
+uczucia. Trójk±tny kszta³t tej sali powoduje ze wydaje siê ona byæ jeszcze
+bardziej nienaturalna. Wype³niona jest rozmaitymi przyrz±dami, które
+zadziwiaj± kszta³tem, a jeszcze bardziej zastanawiaj±ce s± ich funkcje.
+Nawet najwiêksi mêdrcy mieli by z problem z rozgryzieniem jak one dzia³aj±. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28701
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28701
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28690
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28690
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28686
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28686
+Roomprog random 28654 50~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28690
+Name Du¿a trójk±tna sala~
+Descr Przechodz±c przez t± trójk±tn± komnatê odczuwasz dziwny lek przed jej
+niecodziennym wystrojem. Dominuj± tu zimne barwy pomieszane z krwista
+czerwienia. Pomimo tego, i¿ illithidzi s± rozumnymi istotami to ich miasta
+wygl±daj± dla mieszkañców powierzchni co najmniej barbarzyñsko. Uwa¿nie
+przypatrujesz siê ¶cianom i stropowi pomieszczenia. Z niejakim zdziwieniem
+mo¿esz stwierdziæ, ze wiêkszo¶æ komnat miasta illithidow jest identyczna. Te
+same wzory, kszta³ty i rozmiary. Ciekawe czemu to wszystko s³u¿y. Ziewasz
+krotko po czym postanawiasz daæ spokój dalszemu bezsensownemu badaniu
+pomieszczenia. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28689
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28689
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28692
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28692
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28691
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28691
+Roomprog random 28654 20~
+Roomprog random 28654 50~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28691
+Name Kwadratowa komnata~
+Descr Kwadratowa komnata w której siê znalaz³e¶ nie ró¼ni siê zbytnio od innych
+pomiesczeñ w tym upiornym mie¶cie. ¦ciany wydaj± siê g³adkie, pod³o¿e jest
+równe, a sufit to lita ska³a. W pokoju roi siê od jaki¶ dziwnych siedzisk,
+na których trudno by by³o usi±¶c, chyba tylko Illithidzi nie maj± z tym
+problemów. Sala ta s³uzy prawdopodobnie jako miejsce narad ³upie¿ców
+umys³ów. Lepiej bêdzie je¶li opu¶cisz to miejsce nim zbior± siê tutaj
+Illithidzi. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28690
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28690
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28692
+Name Przedsionek laboratorium~
+Descr Znajdujesz siê w niewielkim pomieszczeniu, które s³u¿y jako przedsionek
+prowadz±cy do wielkiego laboratorium Illithidów. Przeprowadzaj± oni tam
+straszliwe eksperymenty na bezbronnych ofiarach, niewolnikach i dzikich
+mieszkañcach podziemi. Szczê¶liwsi umieraj± tam szybko i bezbole¶nie, ale ci
+którzy maj± wiêkszego pecha zostaj± okaleczeni i s³u¿± ju¿ do koñca swojego
+nêdznego ¿ycia jako niewolnicy. Z laboratorium dochodzi dziwne buczenie oraz
+niesamowicie jasne {gzielone ¶wiat³o{x. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Laboratorium~
+ExitExtTextOut $n wchodzi do laboratorium.~
+ExitExtTextIn $n wchodzi do laboratorium~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28693
+ExitExtEnd
+Exit 2
+~
+VName Laboratorium~
+TextOut $n wchodzi do laboratorium.~
+TextIn $n wchodzi do laboratorium~
+~
+0 0 28693
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28690
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28690
+Roomprog random 28655 35~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28693
+Name Pó³nocna czê¶æ laboratorium~
+Descr Jest to jedna z komnat która tworzy wchodzi w sk³ad laboratorium
+Illithidów. ¦ciany s± tutaj obwieszone najdziwniejszymi przyrz±dami, s³ojami
+i innymi dziwnymi ustrojstwami. Do niektórych ¶cian przymocowano ³añcuchy
+które s³u¿± do unieruchomienia przysz³ych ochotników eksperymentalnych. Na
+¶rodku pomieszczenia znajduje siê co¶ przypominaj±cego stó³ jednak nie dasz
+sobie obci±æ rêki, ¿e w³a¶nie do czego¶ takiego to s³u¿y. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z laboratorium.~
+ExitExtTextIn $n wychodzi z laboratorium.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28692
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z laboratorium.~
+TextIn $n wychodzi z laboratorium.~
+~
+0 0 28692
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28699
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28699
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28694
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28694
+Roomprog random 28655 35~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28694
+Name Przy sto³ach operacyjnych~
+Descr Znajdujesz siê w czê¶ci laboratorium, która jest niezwykle poplamiona
+krwi±. ¦ciany, pod³ogê, a nawet w niektórych miejscach sufit, jest
+poplamiony zakrzep³± krwi±. Musz± siê tutaj odbywaæ jakie¶ plugawe rzeczy,
+których ¶wiadkiem nie chcia³ by¶ byæ. Powietrze przepe³nia dziwny zapach
+ró¿norakich substancji, które Illithidzi tutaj tworz±. Na ¶rodku
+pomieszczenia stoi jaki¶ dziwny metaliczny stó³. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28693
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28693
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28695
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28695
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28696
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28696
+Roomprog sit 28651 28664~
+Roomprog rest 28651 28664~
+Roomprog sleep 28651 28664~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28695
+Name Po³udniowa czê¶æ laboratorium~
+Descr Ta czê¶æ laboratorium wygl±da na zaniedban± i brudn±. Pod³oga pokryta
+jest krwi±, zielonym szlamem i innymi ró¿nymi substancjami nieznanego ci
+pochodzenia. ¦mierdzi tutaj nie mi³osiernie. Zapewnie tutaj trafiaj±
+niepotrzebne resztki powsta³e w czasie wygórowanych eksperymentów. Tylko ci
+siê z nimi dzieje dalej ? Zastanawiaj±cy jest te¿ obiekt w ¶rodku sali
+przypominaj±cy studnie. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28694
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28694
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28697
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28697
+Roomprog input 28656 wskocz~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28696
+Name Gabinet laboratoryjny~
+Descr Pomieszczenie te s³u¿y Illithidom jako gabinet laboratoryjny, w którym
+potwory te próbuj± zdobyæ wiedzê na temat innych ¿ywych istot, które ich
+niezmiernie ciekawi±. Powietrze wype³nia niesamowity odór, ¶ciany maj±
+dziwne nienaturalne kszta³ty, pod³oge wykonano z nieznanego ci materia³u, a
+na ¶rodku tego stoi straszliwy, zakrwawiony stó³. To w³a¶nie w tym miejscu
+Illithidzi wykonuj± swoje plugawe eksperymenty na ¿ywych istotach, tn±c i
+æwiartuj±c swoje ofiary. Nie chcia³ by¶ skoñczyæ jako jeden z nich. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28694
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28694
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28697
+Name Po³udniowa czê¶æ laboratorium~
+Descr Naprawdê przera¿aj±ce miejsce. Niby zwyk³e pomieszczenie laboratoryjne,
+jednak najwiêksze wra¿enie robi± na tobie liczne pojemniki ustawione pod
+¶cianami. Jest ich tutaj na oko kilkana¶cie. Wype³nione s± {Gzielon± ciecz±{x
+¶wiec±c± w ciemno¶ciach. Niektóre s± puste, ale czê¶æ z nich zawieraj±
+humanoidalne istoty. Mo¿na rozpoznaæ w nich ludzi, elfy, krasnoludy i
+pó³orków. Najdziwniejszy jednak jest osobnik umiejscowiony w s³oiku na
+¶rodku sali. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28698
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28698
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28695
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28695
+Roomprog random 28652 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28698
+Name ¦rodkowa czê¶æ laboratorium~
+Descr Centralna czê¶æ laboratorium nie ró¿ni siê zbytnio od pozosta³ych
+pomieszczeñ w tym dziwnym mie¶cie. Prawdopodobnie to tutaj Illithidzi
+urz±dzaj± medytacjê po szalonych badaniach na biednych niewolnikach. Jest to
+spora owalna komnata, ¶ciany s± zrobione z dziwnego materia³u, a pod³oga to
+wielka p³yta. Naprawdê wielkie wra¿enie robi to, i¿ w pod³odze wykuto setki
+wyrazów, ka¿dy w innym jêzyku. Jeden z nich, wyryto nawet w jêzyku wspólnym
+i oznacza {Cumys³{x. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28699
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28699
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28700
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28700
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28697
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28697
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28699
+Name Pó³nocny róg laboratorium~
+Descr Ta czê¶æ laboratorium jest pusta, ¶ciany s± tutaj go³e, sufit to
+naturalny strop jaskini, jedynie pod³o¿e wy³o¿ono jakimi¶ ozdobnymi p³ytami.
+W powietrzu unosi siê sw±d siarki lub czego¶ bardzo podobnego do niej. Jest
+to naprawdê dziwne miejsce, a najbardziej zastanawiaj±ce jest to, ¿e jedyn±
+rzecz± znajduj±c± siê w tym pustym pomieszczeniu jest wielki pojemnik
+przypominaj±cy szafê. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28698
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28698
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28693
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28693
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28700
+Name Du¿y gabinet badawczy~
+FlagsExt 0|DH
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28698
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28698
+DayRDesc 28651
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28701
+Name Szeroki korytarz~
+Descr Korytarz w którym siê znalaz³e¶ stanowi po³±czenie miedzy setkami komnat,
+nale¿±cych do Illithidow. ¦ciany s± dziwaczne, i patrz±c na nie przechodzi
+ciê dreszcz. Gdy ja dotkniesz ze zdziwieniem mo¿esz stwierdziæ, ze jest ona
+miejscami g³adka i miêkka a gdzie indziej szorstka i twarda. Niemniej masz
+wra¿enie, ze do jej budowy u¿yto tego samego materia³u. Zdajesz sobie
+sprawê, ze te ¶ciany na pewno nie s± najdziwniejsza rzecz± jaka tu spotkasz,
+a tylko jedna z niewielu. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28702
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28702
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5650
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5650
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28689
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28689
+Roomprog random 28654 20~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28702
+Name Wej¶cie do ogromnej komnaty~
+Descr Szeroki korytarz o dosyæ wysoko po³o¿onym stropie ci±gnie siê tutaj z
+pó³nocy na po³udnie. Jest nieco inny ni¿ inne. Zdaje ci siê, ¿e musi
+prowadziæ do jakiego¶ niezwykle wa¿nego miejsca. ¦ciany jest miejscami
+twarda a gdzie indziej g³adka i miêkk±. To w³a¶nie w tych delikatniejszych
+miejscach wydaje ci siê, i¿ ¶ciana reaguje na ciep³otê twojego cia³a. Chyba
+nie jest tutaj bezpiecznie. 
+~
+FlagsExt 0|CDH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28703
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28703
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28701
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28701
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28703
+Name Po³udniowa czê¶æ prostok±tnej komnaty~
+Descr Majestatyczna komnata w której siê znalaz³e¶, ró¿ni siê diametralnie od
+reszty pomieszczeñ w tym mie¶cie. Pod³oga wy³o¿ona jest piêknymi p³ytami z
+marmuru, gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze
+wra¿enie robi± na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s±
+miêkkie w dotyku. Mo¿e ci siê wydawaæ ¿e s± one jak by jakim¶ organizmem
+gdy¿ reaguj± na ciep³otê twojego cia³a. Na samym ¶rodku komnaty znajduje siê
+olbrzymia kolumna podtrzymuj±ca strop. Ma ona oko³o kilkudziesiêciu metrów
+szeroko¶ci, wiêc je¶li chcesz dalej zwiedzaæ t± komnatê musisz j± obej¶æ. Na
+po³udniu znajduje siê wyj¶cie z komnaty. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28708
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28708
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28702
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28702
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28704
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28704
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28704
+Name Zachodni róg pomieszczenia~
+Descr Znajdujesz siê w zachodnim rogu olbrzymiej komnaty, która jest wa¿nym
+miejscem dla Illithidów. Pod³oga wy³o¿ona jest piêknymi p³ytami z marmuru,
+gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze wra¿enie robi±
+na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s± miêkkie w
+dotyku. Mo¿e ci siê wydawaæ ¿e s± one jak by jakim¶ organizmem gdy¿ reaguj±
+na ciep³otê twojego cia³a. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28705
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28705
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28703
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28703
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28705
+Name Zachodni róg pomieszczenia~
+Descr Znajdujesz siê w zachodnim rogu olbrzymiej komnaty, która jest wa¿nym
+miejscem dla Illithidów. Pod³oga wy³o¿ona jest piêknymi p³ytami z marmuru,
+gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze wra¿enie robi±
+na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s± miêkkie w
+dotyku. Mo¿e ci siê wydawaæ ¿e s± one jak by jakim¶ organizmem gdy¿ reaguj±
+na ciep³otê twojego cia³a. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28706
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28706
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28704
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28704
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28706
+Name Wyj¶cie z prostok±tnej komnaty~
+Descr Majestatyczna komnata w której siê znalaz³e¶, ró¿ni siê diametralnie od
+reszty pomieszczeñ w tym mie¶cie. Pod³oga wy³o¿ona jest piêknymi p³ytami z
+marmuru, gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze
+wra¿enie robi± na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s±
+miêkkie w dotyku. Mo¿e ci siê wydawaæ ¿e s± one jak by jakim¶ organizmem
+gdy¿ reaguj± na ciep³otê twojego cia³a. Na samym ¶rodku komnaty znajduje siê
+olbrzymia kolumna podtrzymuj±ca strop. Ma ona oko³o kilkudziesiêciu metrów
+szeroko¶ci, wiêc je¶li chcesz dalej zwiedzaæ t± komnatê musisz j± obej¶æ. W
+pó³nocnej czê¶ci sali znajduj± siê ogromne, okute stal± drzwi. Wygl±daj± na
+takie które prowadz± do naprawdê wa¿nego miejsca. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription Dziwne, owalne drzwi zagradzaj± ci dalsz± drogê. Wygl±da na to, ¿e aby je
+otworzyæ, potrzeba jakiego¶ klucza. 
+~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 28683
+ExitExtToVnum 28709
+ExitExtEnd
+Exit 0
+Dziwne, owalne drzwi zagradzaj± ci dalsz± drogê. Wygl±da na to, ¿e aby je
+otworzyæ, potrzeba jakiego¶ klucza. 
+~
+drzwi~
+39 28683 28709
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28707
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28707
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28705
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28705
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28707
+Name Wschodni róg pomieszczenia~
+Descr Znajdujesz siê w wschodnim rogu olbrzymiej komnaty, która jest wa¿nym
+miejscem dla Illithidów. Pod³oga wy³o¿ona jest piêknymi p³ytami z marmuru,
+gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze wra¿enie robi±
+na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s± miêkkie w
+dotyku. Mo¿e ci siê wydawaæ ¿e s± one jak by jakim¶ organizmem gdy¿ reaguj±
+na ciep³otê twojego cia³a. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28708
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28708
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28706
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28706
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28708
+Name Wschodni róg pomieszczenia~
+Descr Znajdujesz siê w wschodnim rogu olbrzymiej komnaty, która jest wa¿nym
+miejscem dla Illithidów. Pod³oga wy³o¿ona jest piêknymi p³ytami z marmuru,
+gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze wra¿enie robi±
+na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s± miêkkie w
+dotyku. Mo¿e ci siê wydawaæ ¿e s± one jak by jakim¶ organizmem gdy¿ reaguj±
+na ciep³otê twojego cia³a. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28707
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28707
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28703
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28703
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28709
+Name Szeroki korytarz~
+Descr Korytarz ten prowadzi z jednej gigantycznej komnaty do kolejnej, która
+wydaje siê byæ jeszcze wiêksza. Pod³oga wy³o¿ona jest piêknymi p³ytami z
+marmuru, gdzieniegdzie zdobiona jakimi¶ dziwnymi wzorami. Najwiêksze
+wra¿enie robi± na tobie jednak ¶ciany. Maj± one kolor lekko br±zowawy i s±
+miêkkie w dotyku. Z pó³nocy czujesz jak emanuje olbrzymia energia, która a¿
+przyt³acza ciê swoj± moc±. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28710
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28710
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 28683
+ExitExtToVnum 28706
+ExitExtEnd
+Exit 2
+~
+~
+39 28683 28706
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28710
+Name Ogromna sala~
+Descr Ta sala naprawdê robi na tobie ogromne wra¿enie. Jest ona wielko¶ci placu
+miejskiego w Arras. ¦ciany rze¼bi± olbrzymie {Wp³askorze¼by{x Illithidów. Strop
+jest po³o¿ony tak wysoko, ¿e ¶wiat³o z powierzchni nie dociera do niego.
+Czuæ w powietrzu taka niesamowit± magiê, która przyt³acza ciê swoj± moc±.
+Komnata ta musi byæ siedzib± jakiej¶ niewyobra¿alnie silnej istoty. 
+~
+FlagsExt 0|DH
+Sector 14
+Extra p³askorze¼ba~
+S± to olbrzymie p³askorze¼bi przedstawiaj±ce Illithidów. Maj± oko³o
+czterech metrów wysoko¶ci. W miejscu oczu umiesczono dwie olbrzymie czarne
+per³y. Naprawdê wspania³e dzie³o. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28711
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28711
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28715
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28715
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28709
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28709
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28711
+Name Ogromna sala~
+Descr Ta sala naprawdê robi na tobie ogromne wra¿enie. Jest ona wielko¶ci placu
+miejskiego w Arras. ¦ciany rze¼bi± olbrzymie {Wp³askorze¼by{x Illithidów. Strop
+jest po³o¿ony tak wysoko, ¿e ¶wiat³o z powierzchni nie dociera do niego.
+Czuæ w powietrzu taka niesamowit± magiê, która przyt³acza ciê swoj± moc±.
+Komnata ta musi byæ siedzib± jakiej¶ niewyobra¿alnie silnej istoty. Z
+wschodniej czê¶ci komnaty do twych uszu dobiega jaki¶ dziwny, monotoniczny
+ha³as. 
+~
+FlagsExt 0|DH
+Sector 14
+Extra p³askorze¼by~
+S± to olbrzymiê p³askorze¼by przedstawiaj±ce Illithidów. Maj± oko³o
+czterech metrów wysoko¶ci. W miejscu oczu umieszczono dwa olbrzymie, czarne
+per³y. Naprawdê wspania³e dzie³o. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28712
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28712
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28710
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28710
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28712
+Name Ogromna sala~
+Descr Wreszcie znalaz³e¶ legendarne miejsce spoczynku mózgu Illithidów, jednej
+najm±drzejszych i najinteligentniejszych istot na ¶wiecie. Wed³ug powie¶ci
+jest on obdarzony niesamowit± moc± telepatyczn± i magiczn±. Sala ta a¿
+emanuje od zawartej w niej magii. Pod³ogê pokrywaj± potê¿ne p³yty, a na
+ka¿dej z nich wyryto setki wyrazów w ró¿nych jêzykach ¶wiata. Jeste¶ pewien,
+¿e gdyby¶ móg³ rozczytaæ chocia¿ czê¶æ, pozna³ by¶ sekret niewyobra¿alnej
+mocy telepatycznej. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28715
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28715
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28711
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28711
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28713
+Name Korytarz przy ogromnej sali~
+Descr Ten ma³y korytarzyk stanowi odnogê sali starszego mózgu. Jest niewysoki,
+ciasny i dosyæ ciemny. Jedynie dziwne kule ¶wiat³a unosz±ce siê w powietrzu
+o¶wietlaj± to miejsce. Prowadzi on w kierunku pó³nocnym opadaj±c nieco do
+do³u. Czujesz siê tutaj tak jak by kto¶, lub co¶ ciê wci±¿ obserwowa³o. Mo¿e
+lepiej bêdzie jak opu¶cisz to miejsce. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28716
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28716
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28714
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28714
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28714
+Name Korytarz przy ogromnej sali~
+Descr Ten ma³y korytarzyk stanowi odnogê sali starszego mózgu. Jest niewysoki,
+ciasny i dosyæ ciemny. Jedynie dziwne kule ¶wiat³a unosz±ce siê w powietrzu
+o¶wietlaj± to miejsce. Prowadzi on w kierunku pó³nocnym opadaj±c nieco do
+do³u. Czujesz siê tutaj tak jak by kto¶, lub co¶ ciê wci±¿ obserwowa³o. Mo¿e
+lepiej bêdzie jak opu¶cisz to miejsce. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28713
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28713
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28715
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28715
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28715
+Name Ogromna sala~
+Descr G³ówne pomieszczenie miasta Illithidów to w³a¶nie ta sala. Wed³ug
+powie¶ci, ka¿dym miastem Ultharidów, rz±dzi olbrzymi mózg o olbrzymiej
+wiedz. Jest on zdolny kontrolowaæ przep³yw informacji z ca³ego miasta, jak i
+równie¿ obdarzony jest niesamowit± moc± mentaln± i magiczn±. Je¶li
+rzeczywi¶cie ta sala jest jego siedzib±, bêdzie siê on stara³ zwabiæ ciebie
+do siebie i zaw³adn±æ twoim umys³em. 
+~
+FlagsExt 0|DH
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28712
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28712
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28714
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28714
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28710
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28710
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28716
+Name Graciarnia Illithidów~
+Descr Sporej wielko¶ci pokój, w którym siê znalaz³e¶ wy³o¿ony jest piêknymi i
+kolorowymi {Rd{Gy{Yw{Ba{Rn{Ga{Ym{Bi{x, które a¿ mieni± siê niesamowitymi kolorami. Stare
+{ydêbowe szafy{x pokryte kurzem stoj± spokojnie, prawdopodobnie od wielu lat w
+rogu komnaty. Pokój ten jest okr±g³ego kszta³tu i ró¿ni siê od innych
+pomieszczeñ Illithidów. Czuæ, ¿e zaprojektowa³ go kto¶ z powierzchni.
+Najdziwniejszym obiektem w ca³ej tej sali jest jednak dziwna {Dczarna
+skrzynia{x. 
+~
+FlagsExt 0|BDFH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28713
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28713
+Roomprog reset 28658 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28717
+Name Skrzy¿owanie podziemnych korytarzy~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28733
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28733
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28724
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28724
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28718
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28718
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28663
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28663
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28718
+Name Podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28717
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28717
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28719
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28719
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28719
+Name Rozwidlenie podziemnych korytarzy~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28718
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28718
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28722
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28722
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28720
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28720
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28720
+Name Zakrêt podziemnego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28719
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28719
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28721
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28721
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28721
+Name Ma³a pieczara~
+FlagsExt 0|D
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28720
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28720
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28722
+Name Odnoga podziemnego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28723
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28723
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28719
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28719
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28723
+Name Ma³a podziemna grota~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28722
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28722
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28724
+Name Niski podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28725
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28725
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28717
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28717
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28725
+Name Niski podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28726
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28726
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28724
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28724
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28726
+Name Rozwidlenie niskiego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28728
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28728
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28727
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28727
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28725
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28725
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28727
+Name Koniec niskiego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28726
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28726
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28728
+Name Zakrêt niskiego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28726
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28726
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28729
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28729
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28729
+Name Du¿a podziemna pieczara~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28734
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28734
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28728
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28728
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28730
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28730
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28730
+Name Zakrêt szerokiego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28729
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28729
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28731
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28731
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28731
+Name Zakrêt szerokiego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28730
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28730
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28732
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28732
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28732
+Name Szeroki podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28733
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28733
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28731
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28731
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28733
+Name Szeroki podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28732
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28732
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28717
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28717
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28734
+Name Jedna z odnóg podziemnych korytarzy~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28735
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28735
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28729
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28729
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28735
+Name Podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28736
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28736
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28734
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28734
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28736
+Name Rozga³êzienie podziemnego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28737
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28737
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28739
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28739
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28735
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28735
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28737
+Name Przed niewielk± jaskini±~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28738
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28738
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28736
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28736
+DayRDesc 28717
+Roomprog entry ill_pajaki2 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28738
+Name ¦mierdz±ca jaskinia~
+Descr Ta dziwaczna jaskinia wype³niona jest ¶miesznego rodzaju smrodem, nie
+wiesz dlaczego, ale przypomina ci on smród rozk³adaj±cych siê zw³ok...
+Dziwnie to wszystko wygl±da. Gdy o¶wietlasz ¶ciany tej podziemnej komory
+zauwa¿asz lepkie nitki pajêczyn, których nie widza³<&e¶/a¶/o¶> nigdzie w
+poprzadnich partiach korytarzy. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28737
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28737
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28752
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28752
+Roomprog entry ill_pajaki 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28739
+Name Zakrêt podziemnego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28736
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28736
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28740
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28740
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28740
+Name Zwê¿enie korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28741
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28741
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28739
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28739
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28741
+Name Podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28740
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28740
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28742
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28742
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28742
+Name Podziemny korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28741
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28741
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28743
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28743
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28743
+Name Zakrêt podziemnego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28742
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28742
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28744
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28744
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28744
+Name Zakrêt podziemnego korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28743
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28743
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28745
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28745
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28745
+Name Gwa³towne zwê¿enie korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28744
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28744
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28746
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28746
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28746
+Name Bardzo w±ski korytarz~
+FlagsExt 0|DJ
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28747
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28747
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28745
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28745
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28747
+Name Malutka jaskinia~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28748
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28748
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28749
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28749
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28746
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28746
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28748
+Name Odnoga korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28800
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28800
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28747
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28747
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28749
+Name Bardzo niski korytarz~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28747
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28747
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28750
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28750
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28750
+Name Zwê¿enie korytarza~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28749
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28749
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28751
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28751
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28751
+Name Przed wielk± pieczar±~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28664
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28664
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28750
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28750
+DayRDesc 28717
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28752
+Name Siedlisko paj±ków~
+Descr Aaa fuj! Jeste¶ w jakim¶ paskudnym, lepkim siedlisku paj±ków! Dooko³a
+ciebie jest pe³no pajêczyn, które oblepiaj± twoje cia³o i sprawiaj±, ¿e
+ciê¿ko wykonaæ jakikolwiek ruch! Na dodatek ten odór i smród, wszechobecna
+woñ stêchlizny i rozk³adu. Jakie okropne miejsce! 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28738
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28738
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28753
+Name Niewielki korytarz~
+Descr Znalaz³e¶ siê w naprawdê ciasnym korytarzu, który prowadzi gdzie¶
+g³êbiej pod ziemiê. O¶wietlony jest dziwnymi lampionami, których jest wiele
+w mie¶cie Illithidów. Na jego pó³nocnym koñcu mo¿na znale¼æ spiralne schody
+prowadz±ce na dó³, za¶ z po³udnia dobiegaj± do twych uszu, pojêkiwania jaki¶
+ludzi. W wilgotnym powietrzu unosi siê nieprzyjemny zapach zgnilizny który
+dodaje temu miejscu nutkê niepokoju. 
+~
+FlagsExt 0|CH
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28684
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28684
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28754
+ExitExtEnd
+Exit 5
+~
+~
+0 0 28754
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28754
+Name Korytarz~
+Descr Wilgoæ, ciemno¶æ i wszechogarniaj±cy ch³ód to tylko nieliczne
+przymiotniki jakie przychodz± ci na my¶l przebywaj±c w tym miejscu. Równie¿
+ma³o wygodnym faktem jest to i¿ korytarz ten nie jest dosyæ szeroki i
+niektórzy mog± mieæ problemy z przeci¶niêciem siê. Najlepiej bêdzie opu¶ciæ
+to dosyæ ma³o komfortowe miejsce jak najszybciej. 
+~
+FlagsExt 0|L
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28755
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28755
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28753
+ExitExtEnd
+Exit 4
+~
+~
+0 0 28753
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28755
+Name W±ski korytarz~
+Descr Niski, ciasny i ciemny korytarz prowadzi z zachodu na wschód. Jest tu
+dosyæ wilgotno a z po³udnia dobiega nieprzyjemny zapach, jakby
+rozk³adaj±cego siê miêsa. W oddali s³ychaæ jakie¶ powarkiwania nieznanego ci
+pochodzenia. Pod³o¿e jest dosyæ nierówne wiêc nale¿y uwa¿aæ gdzie stawia siê
+kroki. Korytarz jest na tyle ciasny, i¿ dwie osoby id±ce ramiê w ramiê mog±
+mieæ nie lada problem aby têdy siê przecisn±æ. 
+~
+FlagsExt 0|L
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28756
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28756
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28754
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28754
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28756
+Name Ciasny korytarz~
+Descr Wilgoæ, ciemno¶æ i wszechogarniaj±cy ch³ód to tylko nieliczne
+przymiotniki jakie przychodz± ci na my¶l przebywaj±c w tym miejscu. Równie¿
+ma³o wygodnym faktem jest to i¿ korytarz ten nie jest dosyæ szeroki i
+niektórzy mog± mieæ problemy z przeci¶niêciem siê. Najlepiej bêdzie opu¶ciæ
+to dosyæ ma³o komfortowe miejsce jak najszybciej. 
+~
+FlagsExt 0|L
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28757
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28757
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28755
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28755
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28757
+Name Korytarz~
+Descr Niski, ciasny i ciemny korytarz prowadzi z zachodu na wschód. Jest tu
+dosyæ wilgotno a z po³udnia dobiega nieprzyjemny zapach, jakby
+rozk³adaj±cego siê miêsa. W oddali s³ychaæ jakie¶ powarkiwania nieznanego ci
+pochodzenia. Pod³o¿e jest dosyæ nierówne wiêc nale¿y uwa¿aæ gdzie stawia siê
+kroki. Korytarz jest na tyle ciasny, i¿ dwie osoby id±ce ramiê w ramiê mog±
+mieæ nie lada problem aby têdy siê przecisn±æ. 
+~
+FlagsExt 0|L
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28758
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28758
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28756
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28756
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28758
+Name Zakrêt korytarza~
+Descr Korytarz tutaj zakrêca z zachodu w kierunku po³udniowym i prowadzi coraz
+g³êbiej pod ziemiê. Jest tu wilgotno, ciemno i dosyæ nieprzyjemnie.
+Wszechogarniaj±cy ch³ód dodaje temu miejscu nieco wrogiej atmosfery. Jeszcze
+bardziej nieprzyjemny jest widok sporej pajêczynek, która zdobi strop tego
+miejsca. Czy¿by chowa³ siê tam jaki¶ paj±k? 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28759
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28759
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28757
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28757
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28759
+Name Korytarz~
+Descr Niski, ciasny i ciemny korytarz prowadzi z pó³nocy na po³udnie. Jest tu
+dosyæ wilgotno a z po³udnia dobiega nieprzyjemny zapach, jakby
+rozk³adaj±cego siê miêsa. W oddali s³ychaæ jakie¶ powarkiwania nieznanego ci
+pochodzenia. Pod³o¿e jest dosyæ nierówne wiêc nale¿y uwa¿aæ gdzie stawia siê
+kroki. Korytarz jest na tyle ciasny, i¿ dwie osoby id±ce ramiê w ramiê mog±
+mieæ nie lada problem aby têdy siê przecisn±æ. 
+~
+FlagsExt 0|L
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28758
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28758
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28760
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28760
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28760
+Name Ciasny korytarz~
+Descr Wilgoæ, ciemno¶æ i wszechogarniaj±cy ch³ód to tylko nieliczne
+przymiotniki jakie przychodz± ci na my¶l przebywaj±c w tym miejscu. Równie¿
+ma³o wygodnym faktem jest to i¿ korytarz ten nie jest dosyæ szeroki i
+niektórzy mog± mieæ problemy z przeci¶niêciem siê. Najlepiej bêdzie opu¶ciæ
+to dosyæ ma³o komfortowe miejsce jak najszybciej. 
+~
+FlagsExt 0|L
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28759
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28759
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28761
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28761
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28761
+Name Ciasny korytarz~
+Descr Niski, ciasny i ciemny korytarz prowadzi z pó³nocy na po³udnie. Jest tu
+dosyæ wilgotno a z po³udnia dobiega nieprzyjemny zapach, jakby
+rozk³adaj±cego siê miêsa. W oddali s³ychaæ jakie¶ powarkiwania nieznanego ci
+pochodzenia. Pod³o¿e jest dosyæ nierówne wiêc nale¿y uwa¿aæ gdzie stawia siê
+kroki. Korytarz jest na tyle ciasny, i¿ dwie osoby id±ce ramiê w ramiê mog±
+mieæ nie lada problem aby têdy siê przecisn±æ. 
+~
+FlagsExt 0|CL
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28760
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28760
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28762
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28762
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28762
+Name ¦mierdz±ca nora~
+Descr Nora ta jest legowiskiem jakiego¶ paskudnego stwora, który po prostu
+ubóstwia ¿ycie w ciemnych, ¶mierdz±cych i wilgotnych miejscach. Pod³o¿e
+pokrywa kilkucentymetrowa warstwa wody, z której gdzie nie gdzie wystaj±
+stare, ponadgryzane gnaty jaki¶ nieszczê¶ników. Na po³udniu ¶mierdzi jeszcze
+bardziej na pó³nocy za¶ jaskinia zaczyna przybieraæ mniej naturalny kszta³t
+i przeistacza siê w korytarz. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28761
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28761
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28763
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28763
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28763
+Name Wysypisko~
+Descr Aktualnie znajdujesz siê na górze ko¶ci! Miejsce to s³u¿y Illithidom jako
+wysypisko. Wszystkie resztki, ¶mieci a tak¿e pozosta³o¶ci po nieudanych
+eksperymentach l±duj± w tej grocie. Gnij± tutaj powoli wydzielaj±c
+niesamowity odór. Pod³o¿e pokrywa kilkucentymetrowa warstwa wody.
+Niepokoj±ce jest to, ¿e niektóre ko¶ci s± ponadgryzane w kilku miejscach tak
+jak by co¶ je kiedy¶ prze¿uwa³o. Czy¿by to miejsce zamieszkiwa³a jaka¶
+istota? 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28762
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28762
+Roomprog random 28657 25~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28800
+Name Komnata medytacyjna~
+Descr Stoisz w dosyæ du¿ej, jasno o¶wietlonej licznymi ¶wiecami sali. Pod³oga
+tutaj wy³o¿ona jest miêkkim materia³em i bez obawy mo¿esz na niej odpocz±æ.
+W pomieszczeniu unosi siê md³awy zapach wosku i kadzide³. Na ¶cianach kto¶
+wymalowa³ bia³± farb± dziwne wzory i figury geometryczne tworz±ce
+skomplikowane uk³ady. Czujesz, ¿e sama atmosfera tu panuj±ca sk³ania do
+zadumy i przemy¶leñ. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28748
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28748
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 28655 1 28655 1
+M 100 28656 1 28655 1
+O 100 28651 0 28655
+M 100 28651 5 28658 1
+M 100 28651 5 28659 2
+M 100 28651 5 28660 2
+M 100 28653 1 28661 1
+M 100 28652 1 28664 1
+M 100 28675 1 28664 1
+M 100 28679 1 28665 1
+E 100 28673 0 5
+E 100 28681 0 17
+M 100 28683 5 28667 1
+M 100 28657 10 28669 1
+M 100 28682 4 28670 1
+M 100 28657 10 28672 1
+M 100 28683 5 28673 1
+M 100 28681 1 28674 1
+M 100 28657 10 28675 1
+M 100 28683 5 28677 1
+M 100 28657 10 28677 1
+M 100 28665 1 28680 1
+E 100 28673 0 5
+M 100 28664 1 28681 1
+E 100 28673 0 5
+M 100 28663 1 28682 1
+E 100 28673 0 5
+M 100 28666 1 28683 1
+E 100 28673 0 5
+M 100 3011 1 28684 1
+E 100 28673 0 5
+M 100 28669 1 28684 1
+E 100 28673 0 5
+E 100 3352 0 16
+O 100 28676 0 28684
+M 100 28682 4 28686 1
+M 100 28658 1 28687 1
+M 100 28683 5 28688 1
+M 100 28657 10 28689 1
+M 100 28682 4 28691 1
+M 100 28683 5 28692 1
+O 100 2362 0 28693
+M 100 28659 3 28694 1
+O 100 2362 0 28694
+O 100 3375 0 28695
+O 100 5328 0 28696
+M 100 28660 1 28696 1
+M 100 28659 3 28697 1
+G 100 28666 0
+O 100 28671 0 28697
+O 100 28671 0 28699
+O 100 5328 0 28700
+M 100 28659 3 28700 1
+M 100 28678 2 28706 2
+M 100 28678 2 28706 2
+G 100 28683 0
+O 100 28683 0 28707
+M 100 28672 2 28712 2
+G 5 28663 0
+G 100 28798 0
+M 100 28673 1 28712 1
+M 100 28672 2 28712 2
+O 100 2354 0 28716
+M 100 28680 4 28717 1
+M 100 28680 4 28722 1
+M 100 28680 4 28724 1
+M 100 28680 4 28731 1
+M 100 28677 5 28734 1
+M 100 28677 5 28735 1
+M 100 28677 5 28736 1
+M 100 28676 1 28752 1
+M 100 28677 5 28752 2
+M 100 28677 5 28752 2
+M 100 28684 1 28758 1
+M 100 28662 1 28763 1
+M 100 28800 1 28800 1
+E 100 3032 0 5
+S
+
+
+
+#MOBPROGSNEW
+#28651
+~
+if rand 80
+grym wojownik
+'Jak jeszcze raz zobacze jak ci ten As wypada z rêkawa to ci nogi z dupy powyrywam!
+else
+if rand 75
+'Teee kurde! Oszukujesz! Ty ma³a zawszona gnido!
+else
+if rand 67
+'Usieke! Normalnie usieke kurdupla! Bogini, zmi³uj sie nad tym bêkartem!
+else
+if rand 50
+'Cholera, przestañ siê drapaæ po jajach, dekoncentrujesz mnie!
+else
+mrucz
+'Nooo wreszcie jaka¶ dobra karta, teraz zobaczycie!
+endif
+endif
+endif
+endif
+~
+#28652
+~
+if rand 80
+'Nie mam dzi¶ farta, ju¿ lepiej idzie mi polowanie na smoki! Choæ ostatni raz jak byli¶my na smoku...
+grym
+else
+if rand 75
+'Wszystko przez tego umiesnionego spaslaka! Jak ci zaraz flaki wybebesze!
+bij wojwonik
+else
+if rand 67
+'Mam ochote wychêdo¿yæ jak±¶ cycat± elfi± dziewkê! Oo tak!
+else
+if rand 50
+'Gdybym gra³ w karty tak dobrze jak macham mieczem to ju¿ bym was ogra³ ze wszystkiego.
+else
+'Znowu! Znowu, znowu, znowu! Widzia³em jak grzeba³ w rêkawie! Oddawaj moj± kase oszu¶cie!
+endif
+endif
+endif
+endif
+~
+#28653
+~
+if rand 80
+'To co, poddajecie sie ma³e szare kurduple? I tak was ogram! Ca³kowicie!
+else
+if rand 75
+mob force barb say Czemu ta karta z ty³u ma takie kó³ka?
+'Po to ¿eby¶ siê pyta³ baranie! Graj a nie gadaj moczymordo jeden!
+else
+if rand 67
+'Chyba idê siê odlaæ.
+mob force kap³an say Ile ty ju¿ w³a¶ciwie wygra³e¶?
+delay 1
+'Eee, zostane chyba jednak, tak bardzo szczaæ mi siê niechcê ¿eby rezygnowaæ z wygranej.
+else
+if rand 50
+mob echo Duergar kap³an drapie siê tajemniczo po kostce. Hmm...
+else
+mob echo Duergar wojownik przeci±ga siê na siedz±co.
+ziew
+endif
+endif
+endif
+endif
+~
+#28654
+~
+if rand 20
+'Cholera, nic mi nie idzie!
+pluj
+delay 1
+'Wszystko przez tego umiesnionego spaslaka! Jak ci zaraz flaki wybebesze!
+warcz
+else
+'Mam ochote wychêdo¿yæ jak±¶ cycat± elfi± dziewkê! Oo tak!
+mrucz
+endif
+~
+#28655
+~
+if rand 50
+mob echo Duergar wojownik przeci±ga siê na siedz±co.
+delay 1
+'To co, poddajecie sie ma³e szare kurduple? I tak was ogram! Ca³kowicie!
+delay 1
+mob echo Duergar barbarzyñca wykrzywia siê nieprzyjemnie.
+else
+mob echo Duergar wojownik szturcha gwa³townie barbarzyñce!
+endif
+~
+#28656
+~
+if hasflag $n wyssanie
+else
+  if rand 50
+    mob echoat $n {WNiespodziewanie kilka macek illtihida przyczepia ci siê do twarzy! To nie wygl±da dobrze!{x
+    mob echoaround $n {WNagle kilka macek illithida przyczepia siê do twarzy $x!{x
+  else
+    mob echoat $n {WNagle kilka macek illithida przyczepia ci siê do twarzy. Nachodz± ciê z³e przeczucia...{x
+    mob echoaround $n {WNiespodziewanie kilka macek illithida przyczepia siê $x do twarzy!{x
+  endif
+  mob setflag $n wyssanie 20
+  if rand 50
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 25 35
+    minidelay 5
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 20 30
+    minidelay 5
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 15 20
+    minidelay 5
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 10 15
+  else
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 40 45
+    minidelay 5
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 5 15
+    minidelay 5
+    mob echoat $n {RCzujesz jak ³upie¿ca wysysa z ciebie si³y ¿yciowe!{x
+    mob damage $n 0 35 40
+  endif
+  mob echoat $n {WUdaje ci siê odczepiæ od siebie macki illithida! Co za ulga!{x
+  mob echoaround $n {W$x udaje siê odczepiæ okropne macki illithida od swojej twarzy!{x
+  mob removeflag $n wyssanie
+endif
+~
+#28657
+~
+mob equip self 4426
+mob equip self 3010
+mob equip self 3025
+mob equip self 3067
+mob equip self 3127
+~
+#28658
+~
+mob equip self 4426
+mob equip self 3010
+mob equip self 3025
+mob equip self 3045
+mob equip self 3071
+mob equip self 3099
+mob equip self 3172
+mob equip self 3172 hold
+mob oload 33509
+~
+#28659
+~
+mob equip self 4426
+mob equip self 3010
+mob equip self 3025
+mob equip self 3045
+mob equip self 3069
+mob equip self 3385
+~
+#28660
+~
+if rand 4
+ 'Gdybym gra³ w karty tak dobrze jak macham mieczem to ju¿ bym was ogra³ ze wszystkiego.
+ usm kap³an
+else
+ mob echo Duergar barbarzyñca podaje dwie karty umiê¶nionemu wojownikowi. Hmm...
+endif
+~
+#28661
+~
+5
+'Nie mam dzi¶ farta, ju¿ lepiej idzie mi polowanie na smoki! Choæ ostatni raz jak byli¶my na smoku...
+ grym
+else
+ wskaz barb
+ 'Znowu! Znowu, znowu, znowu! Widzia³em jak grzeba³ w rêkawie! Oddawaj moj± kase oszu¶cie!
+ warcz
+endif
+~
+#28662
+Zmienilem setaffy na castowanie holda, bo przy setaffach nie dziala round.hour, i te holdy trwalyby 6-2 tickow niezaleznie czy w walce czy ni.
+~
+mob remember $r
+if hasflag $q mindblast
+else
+if level $q <= 5
+if rand 85
+mob setflag $q mindblast 6
+mob echoat $q {WNagle czujesz jak dziwna energia obejmuje kontrole nad twoim umys³em!{x
+mob echoaround $q {WZauwa¿asz, ¿e $q zosta³ sparali¿owany przez illithida!{x
+mob cast 'hold monster' $q 40
+mob cast 'hold monster' $q 40
+mob cast 'hold monster' $q 40
+mob cast 'hold monster' $q 40
+endif
+else
+if level $q <= 10
+if rand 75
+mob setflag $q mindblast 4
+mob echoat $q {WNagle czujesz jak dziwna energia obejmuje kontrole nad twoim umys³em!{x
+mob echoaround $q {WZauwa¿asz, ¿e $q zosta³ sparali¿owany przez illithida!{x
+mob cast 'hold monster' $q 35
+mob cast 'hold monster' $q 35
+mob cast 'hold monster' $q 35
+mob cast 'hold monster' $q 35
+endif
+else
+if level $q <= 15
+if rand 65
+mob setflag $q mindblast 4
+mob echoat $q {WNagle czujesz jak dziwna energia obejmuje kontrole nad twoim umys³em!{x
+mob echoaround $q {WZauwa¿asz, ¿e $q zosta³ sparali¿owany przez illithida!{x
+mob cast 'hold monster' $q 30
+mob cast 'hold monster' $q 30
+mob cast 'hold monster' $q 30
+mob cast 'hold monster' $q 30
+endif
+else
+if level $q <= 20
+if rand 40
+mob setflag $q mindblast 4
+mob echoat $q {WNagle czujesz jak dziwna energia obejmuje kontrole nad twoim umys³em!{x
+mob echoaround $q {WZauwa¿asz, ¿e $q zosta³ sparali¿owany przez illithida!{x
+mob cast 'hold monster' $q 25
+mob cast 'hold monster' $q 25
+mob cast 'hold monster' $q 25
+mob cast 'hold monster' $q 25
+endif
+else
+if level $q <= 25
+if rand 25
+mob setflag $q mindblast 3
+mob echoat $q {WNagle czujesz jak dziwna energia obejmuje kontrole nad twoim umys³em!{x
+mob echoaround $q {WZauwa¿asz, ¿e $q zosta³ sparali¿owany przez illithida!{x
+mob cast 'hold monster' $q 20
+mob cast 'hold monster' $q 20
+mob cast 'hold monster' $q 20
+mob cast 'hold monster' $q 20
+endif
+else
+ 
+if level $q <= 30
+if rand 15
+mob setflag $q mindblast 2
+mob echoat $q {WNagle czujesz jak dziwna energia obejmuje kontrole nad twoim umys³em!{x
+mob echoaround $q {WZauwa¿asz, ¿e $q zosta³ sparali¿owany przez illithida!{x
+mob cast 'hold monster' $q 15
+mob cast 'hold monster' $q 15
+mob cast 'hold monster' $q 15
+mob cast 'hold monster' $q 15
+endif
+endif
+endif
+endif
+endif
+~
+#28663
+~
+if rand 50
+call mobprog 28656
+else
+call mobprog 28662
+endif
+~
+#28664
+~
+~
+#28665
+~
+mob oload 28677
+~
+#28666
+~
+boj
+delay 1
+unlock w
+open w
+delay 3
+clos w
+lock w
+~
+#28669
+~
+if hasflag $n nauka
+  sayto Dziêkuje ci! Podejd¼ a nauczê ciê wszystkiego co potrafiê.
+  mob command
+else
+  sayto $n Przys³uga za przys³uge mój bracie. Zdob±d¼ dla mnie trochê krwi starszego mózgu a naucze ciê wszystkiego co potrafiê.
+endif
+end
+~
+#28670
+~
+if vnum $o == 28677
+  Emote z satysfakcja patrzy na fiolkê z krwi± starszego mózgu.
+  say Dziêkujê ci bracie! Zas³u¿y³e¶ na wielk± nagrodê. Je¶li chcesz wymieniê siê z tob± moim do¶wiadczeniem
+  mob setflag $n nauka
+else
+  drop $o
+endif
+end
+~
+#gol_echo
+~
+if rand 95
+mob echo Wydaje ci siê, jakby kamienny pos±g siê poruszy³.
+else
+if rand 50
+mob echo Masz wra¿enie, jakby¶ by<&³/a/³o> obserwowane przez kamienny pos±g!
+else
+mob echo Czujesz dziwny ch³ód, który zdaje siê biæ od strony ogromnych wrót.
+endif
+endif
+~
+#ill_golem
+~
+mob oload 28679
+mob equip self 28682
+~
+#ill_golem2
+~
+mob oload 28680
+mob equip self 28682
+~
+#ill_pajak
+~
+mob echo Nagle ze wszystkich zakamarków jaskini zbiegaj± siê ma³e paj±ki i do³±czaj± do samicy!
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+if mobhere 28677
+else
+mob echo Nagle ze wszystkich zakamarków jaskini zbiegaj± siê ma³e paj±ki i do³±czaj± do samicy!
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+mob addgroup 28677
+endif
+~
+#kolos2_gemik
+~
+mob oload gem 2
+~
+#kolos_gemik
+~
+mob oload gem 1
+~
+#0
+
+#OBJPROGSNEW
+#28651
+~
+if wears $n 28652
+if statdex $n > 18
+if rand 50
+mob echoaround $n $n szybko przek³ada pare kart miêdzy palcami, zaciska d³oñ i gdy j± otwiera... kart nie ma! Niesamowite!
+mob echoat $n Szybko przek³adasz kilka kart miêdzy palcami, zaciskasz d³oñ, zwinnie chowasz karty w rêkawie i otwierasz pust± d³oñ!
+else
+mob echoaround $n $n mocno zgina talie kart, po czym wypuszcza i karty przelatuja z jednej d³oni do drugiej!
+mob echoat $n Chwytasz mocno talie kart i sprytnie przerzucasz je z jednej d³oni do drugiej! Uff, uda³o siê!
+endif
+else
+if rand 50
+mob echoaround $n $n niezdarnie przek³ada karty z rêki do rêki. Co za nuda.. zieeew!
+mob echoat $n Pewny siebie przek³adasz szybko pare kart z rêki do rêki. Nie jest to zbyt ekscytuj±ce...
+else
+if rand 50
+mob echoaround $n $n próbuje przetasowaæ karty, ale wszystkie wypadaj± mu z r±k!
+mob echoat $n Próbujesz przetasowaæ karty, lecz wszystkie wypadaj± ci z r±k! Co za wstyd!
+mob remove $n 28652
+mob oload 28652 R
+else
+mob echoaround $n $n nie ma zielonego pojêcia co zrobiæ z kartami i g³upkowato spogl±da na niebo.
+mob echoat $n Nie masz pojêcia co zrobiæ z kartami i u¶miechasz sie g³upkowato.
+endif
+endif
+endif
+endif
+~
+#28652
+~
+if isgood $t
+mob echoat $n ¦ciskasz bransoletê w d³oni i powoli zbli¿asz j± do twego celu, którym jest $t, cicho inkantuj±c zaklêcie. 
+mob echoat $n Po chwili brasnoleta przyjemnie siê ociepla. Szybkim ruchem cofasz rêkê i dyskretnie otwierasz d³oñ. 
+mob echoat $n Spostrzegasz, ¿e kryszta³ wtopiony w bransoletê jarzy sie przyjemnym {Gzielonym{x swiat³em. 
+mob echoat $n Usmiechasz siê delikatnie. Teraz wiesz ju¿ wszystko co chcia³es wiedzieæ.
+else
+if isevil $t
+mob echoat $n ¦ciskasz bransoletê w d³oni i powoli zbli¿asz j± do twego celu, którym jest $t, cicho inkantuj±c zaklêcie. 
+mob echoat $n Chwilê pó¼niej brasnoleta gwa³townie siê ogrzewa. Szybkim ruchem cofasz rêkê i dyskretnie otwierasz d³oñ. 
+mob echoat $n Spostrzegasz, ¿e kryszta³ wtopiony w bransoletê jarzy sie ostrym {Rczerwonym{x swiat³em. 
+mob echoat $n Usmiechasz siê delikatnie. Teraz wiesz ju¿ wszystko co chcia³es wiedzieæ.
+else
+if isneutral $t
+mob echoat $n ¦ciskasz bransoletê w d³oni i powoli zbli¿asz j± do twego celu, którym jest $t, cicho inkantuj±c zaklêcie. 
+mob echoat $n Niespodziewanie bransoleta zaczyna emanowaæ ch³odem. Szybkim ruchem cofasz rêkê dyskretnie otwieraj±c d³oñ. 
+mob echoat $n Spostrzegasz, ¿e kryszta³ wtopiony w bransoletê jarzy sie bladym {Cniebieskim{x swiat³em. 
+mob echoat $n Usmiechasz siê delikatnie. Teraz wiesz ju¿ wszystko co chcia³es wiedzieæ.
+endif
+endif
+endif
+~
+#28653
+~
+if roomhasflag pojemnik
+mob echoat $n Otwierasz dziwny pojemnik.
+mob echoaround $n $n otwiera dziwny pojemnik.
+else 
+mob setflag room pojemnik 15
+mob echoat $n Ostro¿nie otwierasz dziwny pojemnik z którego nagle wyskakuje straszna bestia!
+mob echoaround $n $n ostro¿nie otwiera dziwny pojemnik z którego wyskakuje straszna bestia!
+if rand 50
+mob mload 28661
+mob force kuo-toa kill $n
+else
+mob mload 28662
+mob force otiag kill $n
+endif
+endif
+~
+#28654
+~
+mob echoat $n Jednym duszkiem wypijasz zawarto¶æ szklanej fiolki.
+mob echoat $n Czujesz dziwne zimno gdy solna mikstura zaczyna dzia³aæ.
+mob echoaround $n $n wypija zawarto¶æ szklanej fiolki.
+mob setflag $n mindblast 7
+mob addaff $n hp 0 7 "{GSolna mikstura{x - Chroni ciê przed atakami mentalnymi"
+~
+#28655
+~
+if rand 20
+mob echo S³yszysz g³uche bulgotanie wydobywaj±ce siê ze ¶rodka pojemnika.
+else
+mob echo Kilka geometrycznych wzorów na powierzchni pojemnika zaczyna jarzyæ siê bladym ¶wiat³em.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#28651
+~
+mob echoat $n Kiedy siadasz na stole czujesz jak w cia³o wbija ci siê jaka¶ cienka ig³a.
+mob echoat $n Czujesz jak powoli tracisz si³y...
+mob setaff $n paralyze 3 'Nie mo¿esz siê ruszyæ'
+mob echoaround $n Widzisz jak $n siada na dziwnym stole i nagle osuwa siê bez si³ na ziemiê.
+~
+#28652
+~
+if rand 20
+mob echo S³yszysz g³uche bulgotanie wydobywaj±ce siê ze ¶rodka pojemnika.
+else
+mob echo Kilka geometrycznych wzorów na powierzchni pojemnika zaczyna jarzyæ siê bladym ¶wiat³em.
+endif
+~
+#28653
+~
+if rand 88
+mob echo Duergar barbarzyñca podaje dwie karty umiê¶nionemu wojownikowi. Hmm...
+else
+if rand 85
+mob echo Umiê¶niony duergar podaje kartê duergarowi barbarzyñcy.
+else
+if rand 83
+mob echo Duergary spogl±daj± na siebie nieufnie... co¿ za napiêcie!
+else
+if rand 80
+mob echo Jeden z duergarów przekazuje karte innemu.
+else
+if rand 75
+mob echo Duergar barbarzyñca wykrzywia siê nieprzyjemnie.
+else
+if rand 67
+mob echo Duergar wojownik szturcha gwa³townie barbarzyñce!
+else
+if rand 50
+mob force barb say W morde elfa, znowu przegra³em!
+mob force wojow Masz do tego talent!
+mob force diab barb
+mob force barb say Do topora tez mam talent!
+mob force wojow Chcesz sie bic?
+mob force kaplan say Zamknijcie siê zakute pa³y i gramy bo czas leci.
+else
+mob echo Duergar kap³an drapie sie po zadku.
+mob force barb Te on oszukuje, karty se dobiera!
+mob force wojownik say Skad, z dupy?
+mob echo Duergar wojownik usmiecha siê zadowolony ze swojego dowcipu i rozdaje karty.
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+#28654
+~
+if rand 97 
+  mob echo Czujesz jakby kto¶ lub co¶ ciê obserwowa³o.
+else
+  if rand 95
+    mob echo W oddali s³yszysz postêkiwania jaki¶ istot.
+  else
+    if rand 90
+      mob echo S³yszysz dziwny grzmot, tak jakby jakie¶ potê¿ne drzwi zatrzasne³y siê z hukiem.
+    endif
+  endif
+endif
+~
+#28655
+~
+if rand 97
+  mob echo Z laboratorium dobiega dziwne buczenie.
+else
+  if rand 97
+    mob echo S³yszysz w oddali jakie¶ straszliwe wrzaski i pojêkiwania.
+  endif
+endif
+~
+#28656
+~
+mob echoat $n Skaczesz do studni, a po chwili lotu l±dujesz na czym¶ twardym i nieprzyjemnym.
+mob echoaround $n Widzisz jak $n skacze do studni i znika w jej ciemnych odmêtach.
+mob transfer $n 28763
+~
+#28657
+~
+if rand 98
+  mob echo Straszliwy smród tego miejsca powoduje, ¿e chce ci siê wymiotowaæ.
+else
+  if rand 98
+    mob echo S³yszysz lekkie kapanie wody.
+  endif
+endif
+~
+#28658
+~
+mob purge skrzynia
+mob oload 28800 r
+mob oload gem 2 i 28800
+mob oload gem 2 i 28800
+mob oload gem 3 i 28800
+mob oload gem 4 i 28800
+mob oload gem 28800 i 28800
+mob oload weapon 3 i 28800
+mob oload body 4 i 28800
+mob oload ear 4 i 28800
+mob oload finger 4 i 28800
+if rand 30
+  mob oload gem 4 i 28800
+else
+  if rand 30
+    mob oload gem 4 i 28800
+  else
+    if rand 60
+    else
+      mob oload gem 7 i 28800
+      if rand 30 mob oload weapon 4 i 28800
+      else
+        if rand 70
+          mob oload weapon 6 i 28800
+          mob oload finger 3 i 28800
+        else
+          if rand 50
+            mob oload finger 6 i 28800
+          else
+            if rand 85
+              mob oload body 7 i 28800
+            else
+              if rand 80 
+                mob oload wrist 7 i 28800
+              else
+                if rand 10
+                  mob oload body 2 i 28800
+                  mob oload weapon 2 i 28800
+                  mob oload gem 3 i 28800
+                  mob oload ear 3 i 28800
+                endif
+              endif
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#ill_korytarze
+~
+~
+#ill_pajaki
+~
+if exithere 5
+minidelay 1
+ if hasflag $n ill_pajaki
+  mob echoat $n Próbujesz siê wspi±æ na szczyt rozpadliny, ale opadasz z si³ i spadasz w dó³!
+  mob echoaround $n $n próbuje siê wspi±c na szczyt rozpadliny, ale po chwili spada znów w dó³!
+  mob transfer $n 28752
+  at 28752 mob force $n kill pajeczyca
+ else
+  mob echoat $n Wchodz±c do tej jaskini czujesz jak grunt pod tob± siê ugina i pêka zupe³nie! To by³a pajêczyna, nie ziemia! Z ³omotem spadasz do jakiej¶ pieczary.
+  mob echoaround $n $n nagle traci grunt pod nogami! Jakby ziemia siê pod nim rozst±pi³a! Chwilê, chwilê! To nie ziemia, to by³a gruba pajêczyna! $n z ³omotem spada w dó³ do jakiej¶ pieczary.
+  mob setflag $n ill_pajaki 0
+  mob transfer $n 28752
+  at 28752 mob force $n kill pajeczyca
+  endif
+else
+ minidelay 1
+ mob echo S³yszysz dziwny d¼wiêk, jakby skrzypienie, ale nie wiesz sk±d ono dochodzi.
+ delay 1
+ mob echo Masz wra¿enie jakby grunt trz±s³ siê pod twoimi nogami, dziwne.
+ minidelay 2
+ mob echo Nagle grunt pod twoimi nogami siê rozstêpuje! Chwilkê! To nie ziemia, to wielka pajêczyna! Czujesz jak spadasz w dó³...
+ mob exit dol link 28752
+ mob setflag $n ill_pajaki 0
+ mob transfer $n 28752
+ at 28752 mob force $n kill pajeczyca
+endif
+~
+#ill_pajaki2
+~
+if hasflag $n ill_pajaki
+mob removeflag $n ill_pajaki
+endif
+~
+#0
+
+#TRAPS
+#Vnum 28716
+Active 1
+Level 6
+Type 2
+Triggered mob echoat $n Spod dywanu wysuwaj± sie stalowe kolce i rani± ciê bole¶nie.
+mob echoaround $n Spod dywanu wysuwaj± sie stalowe kolce i rani± $c bole¶nie.
+mob damage $n 70 200 kill
+~
+Disarmed ~
+Failed ~
+Limit 1971220
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 28651
+DescRand ~
+RandDescEnd
+#Vnum 28717
+DescRand #grouprand 4
+#grouprand 5
+#grouprand 6
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 01~
+Desc Znajdujesz siê w jednym z wielu owalnych pomieszczeñ podziemnego miasta
+zamieszkiwanego przez ³upie¿ców umys³u zwanych illithidami. Wszystko tu
+wydaje ci siê obce i nieprzyjemne. 
+~
+Group 1
+End
+#Name 02~
+Desc Przechodzisz przez jedn± z owalnych sal miasta ³upie¿ców umys³u. Gdy
+spogl±dasz na dziwaczne ¶ciany przechodzi cie dresz. Nic co tu zauwa¿asz nie
+ma realnych odpowiedników w ¶wiecie jaki istnieje na powierzchi. 
+~
+Group 1
+End
+#Name 03~
+Desc Gdy rozgl±dasz siê po pomieszczeniu w którym siê znajdujesz nachodz± ciê
+z³e przeczucia. Wszystko w tym podziemnym mie¶cie jest takie inne i
+niesamowite. Co rusz zastanawiasz siê do czego s³u¿y jeden z mebli czy czê¶æ
+wystroju pomieszczeñ. 
+~
+Group 1
+End
+#Name 04~
+Desc Przechodz±c przez t± komnate odczuwasz dziwny lêk przed jej niecodziennym
+wystrojem. Dominuj± tu zimne barwy pomieszane z krwist± czerwieni±. Pomimo
+tego, i¿ illithidzi s± rozumnymi istotami to ich miasta wygl±daj± dla
+mieszkañców powierzchni conajmniej barbarzyñsko. 
+~
+Group 1
+End
+#Name 05~
+Desc Stoj±c na ¶rodku tej eliptycznej komnaty zastanawiasz siê jakimi
+sposobami zosta³a ona wykonana. Z pewno¶ci± sami ³upie¿cy umys³u nie mogli
+wybudowaæ tak niesamowitych konstrukcji architektonicznych. 
+~
+Group 1
+End
+#Name 06~
+Desc Spogl±daj±c na dziwnej budowy krzes³a i ³ó¿ka znajduj±ce siê w komnacie
+zastanawiasz siê czy illithidzi u¿ywaj± tych mebli w tym samym celu co
+mieszkañcy powierzchni. Z pewno¶ci± nigdy siê tego nie dowiesz. 
+~
+Group 2
+End
+#Name 07~
+Desc Ostro¿nie dotykasz fragmentu jednej z owalnych ¶cian komnaty w której siê
+znajdujesz. Ze zdziwieniem odkrywasz, ¿e jest ona miejscami g³adka i miêkka
+a miejscami szorstka i twarda. Niemniej masz wra¿enie, ¿e do jej budowy
+u¿yto tego samego materia³u. 
+~
+Group 2
+End
+#Name 08~
+Desc Uwa¿nie przypatrujesz siê ¶cianom i stropowi pomieszczenia. Z niejakim
+zdziwieniem mo¿esz stwierdziæ, ¿e wiêkszo¶æ komnat miasta illithidów jest
+identyczna. Te same wzory, kszta³ty i rozmiary. Ciekawe czemu to wszystko
+s³u¿y. 
+~
+Group 2
+End
+#Name 09~
+Desc Badawczo spogl±dasz na dziwne wypustki w ¶cianach, które znajduj± sie w
+komnacie. Z pozoru wygl±daj± jak dzwignie lub pokrêt³a, lecz zapewne w
+rzeczywisto¶ci s³u¿± do czego¶ innego. Po chwili namyslu porzucasz pomys³
+próby ich u¿ycia. 
+~
+Group 2
+End
+#Name 10~
+Desc Gdy ogl±dasz po raz kolejny tajemnicze wzory zdobi±ce ¶ciany i strop
+komnaty ogarnia ciê uczucie monotoni. Wszystko tu wydaje siê byæ u³o¿one i
+uporz±dkowane a co za tym idzie - nudne. 
+~
+Group 2
+End
+#Name 11~
+Desc Z rezygnacja stwierdzasz, ¿e ta komnata zupe³nie nie ró¿ni siê niczym od wszystkich pozosta³ych.
+~
+Group 3
+End
+#Name 12~
+Desc Po chwili namys³u stwierdzasz, ¿e w komnacie nie ma nic szczególnie interesuj±cego.
+~
+Group 3
+End
+#Name 13~
+Desc Gdzie¶ z daleka dochodz± ciê dziwne, g³uche odg³osy. 
+~
+Group 3
+End
+#Name 14~
+Desc Nagle nerwowo szukasz oczami wyj¶cia, tak jakby w pomieszczeniu by³o co¶
+z³ego. Na szczê¶cie po chwili zauwa¿asz, ¿e komnata nie zosta³a odciêta od
+innych. Oddychasz z ulg±. 
+~
+Group 3
+End
+#Name 15~
+Desc Ziewasz krótko po czym postanawiasz daæ spokój dalszemu bezsensownemu badaniu pomieszczenia.
+~
+Group 3
+End
+#Name wst~
+Desc Ta dziwna, mo¿e lekko nienaturalna jaskinie wygl±da tak jak to mo¿na
+sobie wyobraziæ. Korytarze s± bardzo w±skie, czasami tak¿e niskie. 
+~
+Group 4
+End
+#Name wst2~
+Desc Ogl±dasz t± czê¶æ podziemnych tuneli i stwierdzasz, ¿e tak w³asnie je
+sobie wyobra¿a³<&e¶/a¶/o¶>. Korytarze s± bardzo ciasne, cie¿ko czasami
+przej¶æ przez niektóre z nich. 
+~
+Group 4
+End
+#Name wst3~
+Desc Próbujesz rozejrzeæ siê dooko³a, ale momentalnie dopada ciê i¶cie
+klaustrofobiczne uczucie! W±skie, ciasne korytarze, mrok i nigdzie
+wyj¶cia... 
+~
+Group 4
+End
+#Name wst4~
+Desc Podnosisz wy¿ej swoje ¼ród³o ¶wiat³a aby dok³adnie przyjrzeæ siê tym
+podziemnym konstrukcjom. Naprawde niesamowite, ¿e co¶ tak g³êboko pod
+powierzchni± ziemi mo¿e czasami wygl±daæ tak piêknie. 
+~
+Group 4
+End
+#Name wst5~
+Desc Przechodz±c przez t± czê¶æ korytarza czujesz jak zimny kamieñ, czy ska³a
+ocieraj± siê o twoje cia³o nape³niaj±c ciê wra¿eniem ch³odu. 
+~
+Group 4
+End
+#Name rozw1~
+Desc Ogl±dasz wnikliwie ¶ciany tej podziemnej, hmm, konstrukcji zastanawiaj±c
+siê czy zosta³a ona wybudowana przez istoty my¶l±ce czy jakiego¶ rodzaju
+podziemne stworzenia. 
+~
+Group 5
+End
+#Name rozw2~
+Desc Dochodzisz do wniosku, ¿e te podziemne korytarze s± niesamowite! Ciekawe
+czy zosta³y stworzone przez istoty rozumne. 
+~
+Group 5
+End
+#Name rozw3~
+Desc Z pod³o¿a sterczy kilka stalagmitów, które lekko utrudniaj± przej¶cie.
+Gdzie¶ w oddali s³ychaæ g³o¶ny plusk. 
+~
+Group 5
+End
+#Name rozw4~
+Desc Przez chwilê koncentrujesz swój wzrok na zwisaj±cych ze stropu
+stalaktytach, które wygl±daj± naprawdê niesamowicie! 
+~
+Group 5
+End
+#Name rozw5~
+Desc Na moment twoj± uwagê przyci±gaj± fantastyczne konstrukcje skalne, które
+utworzy³y siê tu przez wieki. Niektóre wygl±daj± jak wielkie ¿yrandole
+zwisaj±ce ze stropu... Bajeczny widok. 
+~
+Group 5
+End
+#Name konc1~
+Desc Z trudem próbujesz rozejrzeæ siê dok³adnie po otoczeniu, ale ciemno¶æ
+dooko³a jest nieub³agana. 
+~
+Group 6
+End
+#Name konc2~
+Desc Nachodzi ciê dziwne uczucie strachu, tajemniczego lêku. Lepiej siê ruszaæ! 
+~
+Group 6
+End
+#Name konc3~
+Desc Nagle zbiera ci siê na md³o¶ci, jakby bez wyra¼nej przyczyny. Mo¿e to
+przez to zamkniêcie? 
+~
+Group 6
+End
+#Name konc4~
+Desc Masz wra¿enie, ¿e nie wytrzymasz d³ugo w tym zamkniêciu... Jak dobrze
+by³oby siê teraz znale¼æ na powierzchni! 
+~
+Group 6
+End
+#Name konc5~
+Desc Podziwiasz przez pare minut uroki jaskini, jednak po chwili nachodzi ciê
+dziwne uczucie ch³odu... Co to oznacza? 
+~
+Group 6
+End
+#Name wst6~
+Desc Znajdujesz siê w jednym z owianych groz± i tajemnic± tuneli w podmroku.
+~
+Group 4
+End
+#Name rozw6~
+Desc Nie widzisz tutaj nawet ¶ladu jakiejkolwiek ro¶linno¶ci, bo to i przecie¿ normalne, ¿e nic nie uro¶nie w miejscu, które nigdy nie widzia³o ¶wiat³a s³onecznego.
+~
+Group 5
+End
+#Name konc6~
+Desc Na skalistym pod³o¿u zauwa¿asz co jaki¶ czas dziwne, czarne plamy i rowki, jakby wielkie odciski stóp naprawdê potê¿nych istot.
+~
+Group 6
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

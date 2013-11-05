@@ -1,0 +1,2821 @@
+#AREADATA
+Name +# Lodowi Wojownicy~
+Builders None~
+VNUMs 50541 50600
+Credits Senhan, senhan@tlen.pl
+Sprawdzil i poprawil Kainti
+Dodatkowy balans mobow - Brohacz
+~
+Locked ~
+Security 9
+ResetAge 14
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 50541
+Name Lodowy wojownik~
+Odmiana lodowego wojownika~lodowemu wojownikowi~lodowego wojownika~lodowym wojowniem~lodowym wojowniku~
+Short lodowy wojownik~
+Long Wojownik z zamar¼niêt± brod± szykuje siê do ataku.~
+Descr Widzisz lodowego wojownika. Jest ca³y w bliznach. Ca³a jego broda i w³osy
+s± zamarzniête, pewnie chodzi od lat po tych lodowcach. Spogl±dasz na jego
+rêce i widzisz, ¿e s± one otoczone niebiesk± po¶wiat±... Có¿ to mo¿e byæ?
+Ten wojownik wygl±da naprawdê gro¼nie. Mo¿e lepiej z nim nie walczyæ? 
+~
+Race krasnolud~
+ActExt 0|AFT
+Affected 268435968 0 0 0
+AffectedExt 0|Jc
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 25
+Hitroll 5
+HP 1d1+700
+Damage 4d4+1
+Dammagic 0
+Weaponbonus 6
+Damflags 2
+Attack uderzenie
+XAC 1 0 1 1
+Stats 144 120 120 78 78 78 78
+Off CEXb
+OffExt 0|CEXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 50541 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 -6
+Resist 8 45
+Resist 12 50
+Resist 13 50
+Resist 14 30
+Resist 16 30
+Mobend
+#Vnum 50542
+Name Lodowy czarownik~
+Odmiana lodowego czarownika~lodowemu czarownikowi~lodowego czarownika~lodowym czarownikiem~lodowym czarowniku~
+Short lodowy czarownik~
+Long Lodowy czarownik biegnie w twoim kierunku!~
+Descr Spogl±dasz na do¶æ du¿ej postury lodowego czarownika. Jego rêce emanuj±
+niebiesk± po¶wiat±, wydaje ci siê ¿e spotkanie z nimi by³o by do¶æ ch³odne.
+Po chwili czarownik spogl±da na ciebie z pogard± i chichocze diabelsko. 
+~
+Race krasnolud~
+ActExt 0|AFRT
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+600
+Damage 3d5+3
+Dammagic 2
+Weaponbonus 2
+Damflags 2
+Attack chlod
+XAC 10 10 10 10
+Stats 108 138 114 120 120 114 120
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload czarownik_reset ABCDEFGHI 99~
+Spells 181 92 2 93
+Spells 137 87 71 405
+Spells 163 182 391 217
+Skin 100
+ExpMultiplier 100
+Resist 5 -6
+Resist 8 45
+Resist 12 50
+Resist 13 50
+Resist 14 30
+Resist 16 30
+Mobend
+#Vnum 50543
+Name lodowy barbarzyñca~
+Odmiana lodowego barbarzyñcy~lodowemu barbarzyñcy~lodowego barbarzyñcê~lodowym barbarzyñc±~lodowym barbarzyñcy~
+Short lodowy barbarzyñca~
+Long Lodowy barbarzyñca rzuca siê w twoj± stronê.~
+Descr Wielki i barczysty barbarzyñca spogl±da na ciebie z pogard±. Ze strachu
+cofasz siê o krok. Barbarzyñca ma wytatuowany na piersi znak pokoju, ciekawe
+dlaczego sta³ siê tak agresywny? Mo¿e kryje siê gdzie¶ ty jaki¶ wielki
+skarb, którego pilnuje b±d¼ wódz, który jest wypchany ekwipunkiem. Nie
+wiadomo, ale mo¿na to sprawdziæ. Pojedynek z tym barbarzyñc± bêdzie bardzo
+bolesny. 
+~
+Race pó³ork~
+ActExt 0|ABFI
+Affected 268435464 0 64 0
+AffectedExt 0|Dc/2|G
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+500
+Damage 4d5+5
+Dammagic 1
+Weaponbonus 0
+Damflags 2
+Attack uderzenie
+XAC 10 10 10 10
+Stats 150 120 120 120 120 120 120
+Off DJX
+OffExt 0|DJX/1|H
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 50543 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 -6
+Resist 8 45
+Resist 12 50
+Resist 13 50
+Resist 14 30
+Resist 16 30
+Mobend
+#Vnum 50544
+Name lodowy szaman~
+Odmiana lodowego szamana~lodowemu szamanowi~lodowego szamana~lodowym szamanem~lodowym szamanie~
+Short lodowy szaman~
+Long Lodowy szaman przerywa medytacjê i rzuca siê na ciebie.~
+Descr Spogl±dasz na lodowego szamana i widzisz niebieskie p³omienie w jego
+wielkich oczach... Stoi nieruchomo, jakby ci siê przygl±da³. Dajesz krok do
+przodu, a on nic. Najprawdopodobniej jest on zamarzniêty wiêc mo¿esz przej¶æ
+obok niego bez walki, ale lepiej nie lekcewarzyæ go... Mo¿e jest on
+niebezpieczny. 
+~
+Race elf~
+ActExt 0|AFQ
+Affected 301989896 0 0 32
+AffectedExt 0|DZc/3|F
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+450
+Damage 3d5+10
+Dammagic 1
+Weaponbonus 5
+Damflags 2
+Attack uderzenie
+XAC 10 10 10 10
+Stats 120 144 150 144 120 138 144
+Off NVX
+OffExt 0|NVX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 231 26 38 50
+Spells 77 171 56 51
+Spells 137 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 5 -6
+Resist 8 45
+Resist 12 50
+Resist 13 50
+Resist 14 30
+Resist 16 30
+Mobend
+#Vnum 50545
+Name lodowy golem stra¿nik~
+Odmiana lodowego golema~lodowemu golemowi~lodowego golema~lodowym golemem~lodowym golemie~
+Short lodowy golem~
+Long Stra¿nik tych ziem, lodowy golem idzie w twoim kierunku.~
+Descr Prawdziwy potwór. Potê¿ny i bardzo ¶ilny. Jego potê¿ne uderzenia potrafi±
+zniszczyæ nawet najtwardsz± zbrojê. Lepiej z nim nie zadzieraæ bo mo¿e siê
+to skoñczyæ utrat± ¿ycia... Twojego ¿ycia. Jest on zrobiony z potê¿nych bry³
+lodu, w których zosta³y wkute przepiêkne i bardzo warto¶ciowe kamienie. 
+~
+Race golem~
+ActExt 0|ABFT
+Affected 33554440 268435456 0 8224
+AffectedExt 0|DZ/1|c/3|FN
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 5
+HP 5d5+650
+Damage 5d5+17
+Dammagic 2
+Weaponbonus 3
+Damflags 2
+Attack mwalniecie
+XAC -8 -8 -8 -2
+Stats 150 144 138 144 144 144 120
+Off KOb
+OffExt 0|KOb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1000
+Form CEJM
+Parts ABCGHIJK
+Size huge
+Material unknown
+Comments Przycinam, bo przegiety. Rozwala na srednich 2 moby na raz, ktore maja ten sam level, Dorzucam resist summon/charm. - {RBrohacz{x ({CFri Sep  8 18:16:55 2006{x)
+~
+MobprogNew death golem ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 120
+Resist 1 30
+Resist 2 30
+Resist 3 -10
+Resist 5 -20
+Resist 8 100
+Resist 12 50
+Resist 14 50
+Mobend
+#Vnum 50547
+Name lodowa wojowniczka kobieta wysoka~
+Odmiana lodowej wojowniczki~lodowej wojowniczce~lodow± wojowniczkê~lodow± wojowniczk±~lodowej wojowniczce~
+Short lodowa wojowniczka~
+Long Wysoka kobieta patroluje górski teren.~
+Descr Jest to wysoka, umiê¶niona kobieta o typowej pó³orczej urodzie.
+Przedziera siê teraz przez o¶nie¿one górskie ¶cie¿ki, patroluj±c teren i w
+razie potrzeby usuwaj±c intruzów. 
+~
+Race pó³ork~
+ActExt 0|AFJ
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang AF
+Speaks 0
+Level 25
+Hitroll 6
+HP 7d10+700
+Damage 4d5+2
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 10
+Stats 150 108 108 132 144 90 90
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 50547 ABCDEFGHI 100~
+Spells 3 38 275 0
+Skin 100
+ExpMultiplier 100
+Resist 5 -6
+Resist 8 45
+Resist 12 50
+Resist 13 50
+Resist 14 30
+Resist 16 30
+Mobend
+#Vnum 50595
+Name wielki lodowy wojownik~
+Odmiana wielkiego lodowego wojownika~wielkiemu lodowemu wojownikowi~wielkiego lodowego wojownika~wielkim lodowym wojownikiem~wielkim lodowym wojowniku~
+Short wielki lodowy wojownik~
+Long Wielki lodowy wojownik patrzy na ciebie z nienawi¶ci±.~
+Descr Spogl±dasz na potê¿nego wojownika. ¬le mu patrzy z oczu. Po jego
+¶wiec±cych na niebiesko d³oniach i oczach poznajesz, ¿e ma on co¶ wspólnego
+z magi±. Posiada on tak¿e blizny na ciele co oznacza, ¿e stoczy³ nie jedn±
+walkê... ¯yje, najwidoczniej wygrywa³. 
+~
+Race pó³elf~
+ActExt 0|ABFRT
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 31
+Hitroll 5
+HP 1d1+1500
+Damage 5d6+7
+Dammagic 2
+Weaponbonus 8
+Damflags 2
+Attack chlod
+XAC 9 8 10 8
+Stats 150 120 144 138 132 120 150
+Off PYb
+OffExt 0|PYb/1|E
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew death 50595 ABCDEFGHI 100~
+Spells 185 181 141 217
+Spells 392 92 262 136
+Skin 100
+ExpMultiplier 200
+Resist 0 10
+Resist 2 20
+Resist 5 -5
+Resist 8 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 50541
+Name ogromna tablica~
+Odmiana tablicy~tablicy~tablicê~tablic±~tablicy~
+Short ogromna tablica~
+Descr Potê¿na {ytablica{x stoi tu zasypana ¶niegiem.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Itemdesc Wkraczasz na niebezpieczne tereny. Id±c dalej pamiêtaj, ¿e czeka ciê tam
+tylko ¶mieræ. Najlepiej cofnij siê i nie próbuj tam wchodziæ je¶li ci ¿ycie
+mi³e. 
+~
+Comments ~
+Objend
+#Vnum 50591
+Name lodowa laska~
+Odmiana {Blo{bdo{Bwe{bj {Bla{bsk{Bi{x~{Blo{bdo{Bwe{bj {Bla{bsc{Be{x~{Blo{bdo{Bw± {Bla{bsk{Bê{x~{Blo{bdo{Bw± {Bla{bsk{B±{x~{Blo{bdo{Bwe{bj {Bla{bsc{Be{x~
+Short {Blo{bdo{Bwa {Bla{bsk{Ba{x~
+Descr {BLo{bdo{Bwa {Bla{bsk{Ba{x topnieje na ziemi.~
+Material stal~
+Type weapon
+ExtraExt 0|AHMPY
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 9 3 5 8 34 2 1
+Repair 0 0 0 0
+Length 180
+Weight 10
+Cost 60
+Cond 75
+Itemdesc Niewielka lodowa laska b³yszczy jasnym ¶wiat³em. 
+~
+Comments ~
+Objend
+#Vnum 50594
+Name okr±g³y kolczyk~
+Odmiana kolczyka~kolczykowi~kolczyk~kolczykiem~kolczyku~
+Short okr±g³y kolczyk~
+Descr Okr±g³y kolczyk b³yszczy na ziemi.~
+Material doskona³a stal~
+Type jewelry
+ExtraExt 0|KM
+Wear AT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 19500
+Cond 75
+Aff 1 27 4 1 0 0
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 50541
+Name Wej¶cie na lodowe pole~
+Descr Wkraczasz na wielkie lodowe pole. Dooko³a widzisz tylko lodowe bry³y oraz
+¶nieg. ¦mierdzi tu rozk³adaj±cym siê miêsem zwierzêcym, a mo¿e ludzkim? W
+ka¿dym razie jest tu nie przyjemnie i strasznie zimno. 
+ 
+ 
+ 
+{ROD£ANCZAM - DRAKE
+{RPopieram, Iliand{S
+~
+FlagsExt 0|CH
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 50542
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 50542
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50542
+Name Rozwidlenie dróg~
+Descr Wkraczasz na skrzy¿owanie dróg. Na pó³nocy tak jak i na po³udniu nic nie
+widzisz, tylko kawa³ek ¶cie¿ki, która niewiadomo gdzie prowadzi. Na
+wschodzie widzisz jakby wielk± wie¿ê, ale nie bardzo wiesz jak do niej doj¶æ
+poniewa¿ nie ma drogi na wschód. Chyba bêdziesz musia³ i¶æ inn± drog±.
+Pozostaje ci tylko wybór na pó³noc czy na po³udnie? 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50543
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50543
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50546
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50546
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 50541
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 50541
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50543
+Name Pó³nocna ¶cie¿ka~
+Descr Wchodzisz na pó³nocn± ¶cie¿kê. Nie widzisz nic prócz lodu i ¶niegu. Jest
+tu strasznie zimno i nieprzyjemnie. Zadajesz sobie pytanie czy kto¶
+zamieszkuje te obszary? Je¶li tak to có¿ to s± za stworzenia? Przecie¿ nikt
+normalny nie prze¿y³by tu d³u¿ej ni¿ dwa, mo¿e trzy dni. To siê staje coraz
+ciekawsze. Tylko oby mieszkañcy tego niezwyk³ego miejsca byli przyja¼nie
+nastawieni do innych. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50544
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50544
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50542
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50542
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50544
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50545
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50545
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50558
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50558
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50543
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50543
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50545
+Name Dziwny zakrêt~
+Descr Wchodzisz na jaki¶ dziwny zakrêt czego¶ jakby ¶cie¿ki... Co prawda nie
+przypomina to zbyt drogi czy ¶cie¿ki, ale da siê ni± chodziæ. Dooko³a
+wszystko pokryte jest lodem, pamiêtaj znajdujesz siê na zakrêcie... Nie
+po¼lizgnij siê tylko bo upa¶æ na lód nie jest mi³ym doznaniem. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50555
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50555
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50544
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50544
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50546
+Name Po³udniowa ¶cie¿ka~
+Descr Wchodzisz na po³udniow± ¶cie¿kê. Nie widzisz nic prócz lodu i ¶niegu.
+Jest tu strasznie zimno i nieprzyjemnie. Zadajesz sobie pytanie czy kto¶
+zamieszkuje te obszary? Je¶li tak to có¿ to s± za stworzenia? Przecie¿ nikt
+normalny nie prze¿y³by tu d³u¿ej ni¿ dwa, mo¿e trzy dni. To siê staje coraz
+ciekawsze. Tylko oby mieszkañcy tego niezwyk³ego miejsca byli przyja¼nie
+nastawieni do innych. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50542
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50542
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50547
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50547
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50547
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka. Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Jesli tak to jest kto¶ bardzo odporny na zimno. Je¶li chciesz gdzie¶ doj¶æ
+pod±¿aj t± ¶cie¿ka... Kto wie? Mo¿e gdzie¶ ciê zaprowazic. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50546
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50546
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50551
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50551
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50548
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50548
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50548
+Name Dziwny zakrêt~
+Descr Wchodzisz na jaki¶ dziwny zakrêt czego¶ jakby ¶cie¿ki... Co prawda nie
+przypomina to zbyt ¶cie¿ki czy drogi, ale da siê ni± chodziæ. Dooko³a
+wszystko pokryte jest lodem, pamiêtaj ¿e znajdujesz siê na zakrêcie... Nie
+po¶lizgnij siê bo upa¶æ na lód nie jest mi³ym doznaniem. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50547
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50547
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50549
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50549
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50549
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50551
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50551
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50550
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50550
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50548
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50548
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50550
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50552
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50552
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50554
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50554
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50549
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50549
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50551
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka. Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Jesli tak to jest kto¶ bardzo odporny na zimno. Je¶li chciesz gdzie¶ doj¶æ
+pod±¿aj t± ¶cie¿ka... Kto wie? Mo¿e gdzie¶ ciê zaprowazic. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50552
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50552
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50549
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50549
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50547
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50547
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50552
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka. Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Jesli tak to jest kto¶ bardzo odporny na zimno. Je¶li chciesz gdzie¶ doj¶æ
+pod±¿aj t± ¶cie¿ka... Kto wie? Mo¿e gdzie¶ ciê zaprowazic. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50553
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50553
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50550
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50550
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50551
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50551
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50553
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka. Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Jesli tak to jest kto¶ bardzo odporny na zimno. Je¶li chciesz gdzie¶ doj¶æ
+pod±¿aj t± ¶cie¿ka... Kto wie? Mo¿e gdzie¶ ciê zaprowazic. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50598
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50598
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50554
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50554
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50552
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50552
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50554
+Name Zakrêt ¶cie¿ki~
+Descr Wchodzisz na jaki¶ dziwny zakrêt czego¶ jakby ¶cie¿ki... Co prawda nie
+przypomina to zbyt ¶cie¿ki czy drogi, ale da siê ni± chodziæ. Dooko³a
+wszystko pokryte jest lodem, pamiêtaj ¿e znajdujesz siê na zakrêcie... Nie
+po¶lizgnij siê bo upa¶æ na lód nie jest mi³ym doznaniem. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50553
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50553
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50550
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50550
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50555
+Name Lodowa aleja~
+Descr Ta droga przypomina potê¿n± alejê, ale nie jest to zwyk³a aleja. ¦mierdzi
+to ¶mierci±. Na ¶niegu widaæ ca³kiem ¶wie¿e plamy krwi. Gdzie¶ dalej w
+zaspie widaæ potê¿ny z³oty miecz przebijaj±cy he³m, ciekawe co tu siê
+dzia³o? Mo¿e kto¶ siê przewróci³, a mo¿e kto¶ kogo¶ zabi³? 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50556
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50556
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50558
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50558
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50545
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50545
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50556
+Name Lodowa aleja~
+Descr Ta droga przypomina potê¿n± alejê, ale nie jest to zwyk³a jaka¶ aleja.
+¦mierdzi tu ¶mierci±. Na ¶niegu widaæ ca³kiem ¶wie¿e plamy krwi. Gdzie¶
+dalej w zaspie widaæ potê¿ny z³oty miecz przebijaj±cy piêkny he³m, ciekawe
+co tu siê dzia³o? 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50557
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50557
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50559
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50559
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50555
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50555
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50557
+Name Dziwny zakrêt~
+Descr Wchodzisz na jaki¶ dziwny zakrêt czego¶ jakby ¶cie¿ki... Co prawda nie
+przypomina to zbyt drogi czy ¶cie¿ki, ale da siê ni± chodziæ. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50560
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50560
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50556
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50556
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50558
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50555
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50555
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50559
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50559
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50544
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50544
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50559
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50556
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50556
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50560
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50560
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50558
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50558
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50560
+Name ¦cie¿ka~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50557
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50557
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50561
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50561
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50559
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50559
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50561
+Name ¦cie¿ka po³udniowa~
+Descr Pod±¿aj±c za ¶cie¿k± dochodzisz do najprawdopodobniej po³udniowej
+¶cie¿ki. Dooko³a panuje mrok i czuæ tu zgnilizn±, najwidoczniej kto¶ poleg³
+tutaj, ale czy z zimna czy mo¿e kto¶ siê do tego przyczyni³? Po chwili
+s³yszysz potworny ryk ! Jakby kogo¶ obdzierano ze skóry. Có¿ to mo¿e byæ...
+Zainteresowany idziesz dalej ¶cie¿k±. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50560
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50560
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50562
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50562
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50562
+Name Rozwidlenie po³udniowej ¶cie¿ki~
+Descr Dochodzisz do skrzyzowania drogi po³udniowej. Widzisz droge na zachód,
+ale gdzie ona prowadzi tego nie wie nikt. Mo¿e s± tam skarby, a mo¿e czycha
+tam ¶mieræ. Znów s³yszysz obrzydliwy ryk! Dochodzi on z po³udnia wiêc pewnie
+tam prowadzi dalej po³udniowa ¶cie¿ka. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50561
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50561
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50566
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50566
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50563
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50563
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50563
+Name Zachodnia droga~
+Descr Idziesz ¶cie¿k± ca³± zasypan± ¶niegiem. Czujesz siê tutaj bardzo ¼le,
+mo¿e jest to spowodowane wielkim mrozem, który tu panuje. Dooko³a jest tylko
+pustka... Dalej zastanawiasz siê czy mo¿e kto¶ zamieszkiwaæ takie tereny?
+Je¶li tak to jest kto¶ bardzo wytrzyma³y. Jesli chcesz gdzie¶ doj¶æ to
+pod±¿aj ¶cie¿k±... Kto wie? Mo¿e gdzie¶ ciê zaprowadzi. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50564
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50564
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50562
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50562
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50564
+Name Zej¶cie w dó³~
+Descr ¦cie¿ka prowadzi na dó³. Robi siê coraz ciekwiej. Droga po której siê
+poruszasz jest bardzo zniszczona, gruzy zawali³y praktycznie ca³e zej¶cie w
+dó³. Zej¶cie te wygl±da jakby wej¶cie to ciemnej groty. Na my¶l co ciê tam
+mo¿e spotkac przechodz± ci ciarki. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50563
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50563
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50565
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50565
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50565
+Name Dziwne pomieszczenie~
+Descr Wkraczasz do dziwnego pomieszczenia, jest to grota w jaskini. Na ¶cianach
+widaæ powieszone szkielety bez g³ów... Ciekawe co siê z nimi sta³o? ¦mierdzi
+tu padlin± i jest bardzo zimno. Od ¶cian odbija siê echo jakiego¶ ryku...
+Ale to prawdopodobnie ryk zwierzêcy. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50596
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50596
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50564
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50564
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50566
+Name ¦cie¿ka~
+Descr Pod±¿asz ¶cie¿k± zasypan± ¶niegiem. Dooko³a jest tylko pustka...
+Zastanawiasz siê, czy kto¶ móg³by zamieszkiwaæ te tereny, a mo¿e nie kto¶
+tylko co¶? W ka¿dym razie jest tu strasznie zimno i nie jest to dobre
+miejsce na tereny mieszkalne. Rozgl±daj±c siê jest mrok... Mrocznie ciemne
+niebo... ¦nieg bardzo puszysty i bia³y. Piêkne to miejsce, ale i bardzo
+ponure. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50562
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50562
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50567
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50567
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50567
+Name ¦cie¿ka~
+Descr Dalej idziesz t± ¶nie¿n±, zachlapan± krwi± ¶cie¿k±. Id±c dalej mo¿esz
+zgin±æ, wracaj±c mo¿e i bêdziesz bezpieczny, ale mo¿e jednak warto
+zaryzykowac i i¶æ dalej? Na ¶niegu widaæ ¶lady krwi, najprawdopodobniej jest
+to ¶wie¿a krew. Ale skoro jest tu tak spokojnie to sk±d tu ta krew? Jesli tu
+jest krew, to gdzie znajduje siê cia³o? Przecie¿ cia³o nie wypraowuje. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50568
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50568
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50566
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50566
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50568
+Name ¦cie¿ka~
+Descr Wkraczasz na dalszy odcinek tej samej ¶cie¿ki. Robi siê tu coraz bardziej
+niebezpiecznie. Dooko³a s³yszysz jakie¶ diabelskie jêki i wrzaski. ¦mieræ
+jest tu wszêdzie. Id±c dalej wpadasz w wielka zaspê ¶niegu. Masz problem z
+wydostaniem siê, ale co to dla ciebie. Wychodzisz, otrzepujesz siê i idziesz
+dalej. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50571
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50571
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50567
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50567
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50569
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50569
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50569
+Name Schody na wie¿ê~
+Descr Wchodz±c po schodach na górê czujesz siê coraz bardziej zmêczony. Nic
+dziwnego w koñcu wchodziæ po tak strome schody nie nale¿y do najprostszych
+zadañ. No ale có¿. Nie poddawaj siê i id¼ dalej. Tylko uwa¿aj na siebie. 
+~
+FlagsExt 0|A
+Sector 4
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50570
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50570
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50568
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50568
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50570
+Name Szczyt wie¿y~
+Descr Znajdujesz siê na szczycie wysokiej i masywnej wie¿y. Rozgl±daj±c siê
+dooko³a widzisz jakie¶ poruszaj±ce siê stwory. Cholera, có¿ to mo¿e byæ?
+Niestety jest zbyt wysoko aby lepiej siê przyjrzeæ. Mo¿e jeste¶ na tyle
+odwa¿ny aby i¶æ tam i sprawdziæ? 
+~
+FlagsExt 0|H
+Sector 4
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50569
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50569
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50571
+Name ¦cie¿ka~
+Descr Pod±¿asz ¶cie¿k± zasypan± ¶niegiem. Dooko³a jest tylko pustka...
+Zastanawiasz siê, czy kto¶ móg³by zamieszkiwaæ te tereny, a mo¿e nie kto¶
+tylko co¶? W ka¿dym razie jest tu strasznie zimno i nie jest to dobre
+miejsce na tereny mieszkalne. Rozgl±daj±c siê jest mrok... Mrocznie ciemne
+niebo... ¦nieg bardzo puszysty i bia³y. Piêkne to miejsce, ale i bardzo
+ponure. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50572
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50572
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50568
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50568
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50572
+Name ¦cie¿ka~
+Descr Dalej idziesz t± ¶nie¿n±, zachlapan± krwi± ¶cie¿k±. Id±c dalej mo¿esz
+zgin±æ, wracaj±c mo¿e i bêdziesz bezpieczny, ale mo¿e jednak warto
+zaryzykowac i i¶æ dalej? Na ¶niegu widaæ ¶lady krwi, najprawdopodobniej jest
+to ¶wie¿a krew. Ale skoro jest tu tak spokojnie to sk±d tu ta krew? Jesli tu
+jest krew, to gdzie znajduje siê cia³o? Przecie¿ cia³o nie wypraowuje. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50573
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50573
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50571
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50571
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50573
+Name ¦cie¿ka~
+Descr Wkraczasz na dalszy odcinek tej samej ¶cie¿ki. Robi siê tu coraz bardziej
+niebezpiecznie. Dooko³a s³yszysz jakie¶ diabelskie jêki i wrzaski. ¦mieræ
+jest tu wszêdzie. Id±c dalej wpadasz w wielka zaspê ¶niegu. Masz problem z
+wydostaniem siê, ale co to dla ciebie. Wychodzisz, otrzepujesz siê i idziesz
+dalej. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50574
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50574
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50572
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50572
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50574
+Name ¦cie¿ka~
+Descr Pod±¿asz ¶cie¿k± zasypan± ¶niegiem. Dooko³a jest tylko pustka...
+Zastanawiasz siê, czy kto¶ móg³by zamieszkiwaæ te tereny, a mo¿e nie kto¶
+tylko co¶? W ka¿dym razie jest tu strasznie zimno i nie jest to dobre
+miejsce na tereny mieszkalne. Rozgl±daj±c siê jest mrok... Mrocznie ciemne
+niebo... ¦nieg bardzo puszysty i bia³y. Piêkne to miejsce, ale i bardzo
+ponure. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50573
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50573
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50575
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50575
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50575
+Name ¦cie¿ka~
+Descr Dalej idziesz t± ¶nie¿n±, zachlapan± krwi± ¶cie¿k±. Id±c dalej mo¿esz
+zgin±æ, wracaj±c mo¿e i bêdziesz bezpieczny, ale mo¿e jednak warto
+zaryzykowac i i¶æ dalej? Na ¶niegu widaæ ¶lady krwi, najprawdopodobniej jest
+to ¶wie¿a krew. Ale skoro jest tu tak spokojnie to sk±d tu ta krew? Jesli tu
+jest krew, to gdzie znajduje siê cia³o? Przecie¿ cia³o nie wypraowuje. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50576
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50576
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50574
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50574
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50576
+Name ¦cie¿ka~
+Descr Wkraczasz na dalszy odcinek tej samej ¶cie¿ki. Robi siê tu coraz bardziej
+niebezpiecznie. Dooko³a s³yszysz jakie¶ diabelskie jêki i wrzaski. ¦mieræ
+jest tu wszêdzie. Id±c dalej wpadasz w wielka zaspê ¶niegu. Masz problem z
+wydostaniem siê, ale co to dla ciebie. Wychodzisz, otrzepujesz siê i idziesz
+dalej. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50577
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50577
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50575
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50575
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50577
+Name ¦cie¿ka~
+Descr Pod±¿asz ¶cie¿k± zasypan± ¶niegiem. Dooko³a jest tylko pustka...
+Zastanawiasz siê, czy kto¶ móg³by zamieszkiwaæ te tereny, a mo¿e nie kto¶
+tylko co¶? W ka¿dym razie jest tu strasznie zimno i nie jest to dobre
+miejsce na tereny mieszkalne. Rozgl±daj±c siê jest mrok... Mrocznie ciemne
+niebo... ¦nieg bardzo puszysty i bia³y. Piêkne to miejsce, ale i bardzo
+ponure. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50578
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50578
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50576
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50576
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50578
+Name ¦cie¿ka~
+Descr Dalej idziesz t± ¶nie¿n±, zachlapan± krwi± ¶cie¿k±. Id±c dalej mo¿esz
+zgin±æ, wracaj±c mo¿e i bêdziesz bezpieczny, ale mo¿e jednak warto
+zaryzykowac i i¶æ dalej? Na ¶niegu widaæ ¶lady krwi, najprawdopodobniej jest
+to ¶wie¿a krew. Ale skoro jest tu tak spokojnie to sk±d tu ta krew? Jesli tu
+jest krew, to gdzie znajduje siê cia³o? Przecie¿ cia³o nie wypraowuje. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50579
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50579
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50577
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50577
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50579
+Name ¦cie¿ka~
+Descr Wkraczasz na dalszy odcinek tej samej ¶cie¿ki. Robi siê tu coraz bardziej
+niebezpiecznie. Dooko³a s³yszysz jakie¶ diabelskie jêki i wrzaski. ¦mieræ
+jest tu wszêdzie. Id±c dalej wpadasz w wielka zaspê ¶niegu. Masz problem z
+wydostaniem siê, ale co to dla ciebie. Wychodzisz, otrzepujesz siê i idziesz
+dalej. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50580
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50580
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50578
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50578
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50580
+Name ¦cie¿ka~
+Descr Pod±¿asz ¶cie¿k± zasypan± ¶niegiem. Dooko³a jest tylko pustka...
+Zastanawiasz siê, czy kto¶ móg³by zamieszkiwaæ te tereny, a mo¿e nie kto¶
+tylko co¶? W ka¿dym razie jest tu strasznie zimno i nie jest to dobre
+miejsce na tereny mieszkalne. Rozgl±daj±c siê jest mrok... Mrocznie ciemne
+niebo... ¦nieg bardzo puszysty i bia³y. Piêkne to miejsce, ale i bardzo
+ponure. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50579
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50579
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50581
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50581
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50581
+Name ¦cie¿ka~
+Descr Wkraczasz na dalszy odcinek tej samej ¶cie¿ki. Robi siê tu coraz bardziej
+niebezpiecznie. Dooko³a s³yszysz jakie¶ diabelskie jêki i wrzaski. ¦mieræ
+jest tu wszêdzie. Id±c dalej wpadasz w wielka zaspê ¶niegu. Masz problem z
+wydostaniem siê, ale co to dla ciebie. Wychodzisz, otrzepujesz siê i idziesz
+dalej. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50580
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50580
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50582
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50582
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50582
+Name ¦cie¿ka~
+Descr Dochodzisz do wielkiego rozwidlenia. S± cztery drogi, ale nie wiadomo
+gdzie która prowadzi. Mo¿e prowadz± do bogactwa, a mo¿e do ¶mierci. W ka¿dym
+razie rozwidlenie te nie jest zbyt zadbane. Spogl±dasz na ziemnie i widzisz
+¶lady krwi prowadz±ce na wschód, lecz co znajduje siê w innych kierunkach?
+Mozna to ³atwo sprawdziæ, albo tez zgin±c. Nagle zaczyna padaæ mocny ¶nieg.
+P³atki wpadaj± ci do oczu. Po nied³ugiej chwili ¶lady krwi zasypa³ ¶nieg.
+Jest tu strasznie zimno i nieprzyjemnie. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50581
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50581
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50585
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50585
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50584
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50584
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50583
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50583
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50583
+Name ¦lepy zau³ek~
+Descr Wchodzisz w ¶lepy zau³ek. Jedyna droga któr± widzisz jest droga powrotna.
+Ale nie jest to zwyk³y slepy zau³ek. Kawa³ek dalej widzisz spor± górkê
+czego¶ pokrytego sniegiem, przynajmniej tak to wygl±da. Podchodzisz do owej
+górki i odgarniasz rêk± ¶nieg. Z szokiem patrzysz na górkê, jesto to górka
+u³o¿ona z ludzkich, elfickich, a mo¿e krasnoludzkich czaszek. Wracaj lepiej
+sk±d przyszed³e¶. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50582
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50582
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50584
+Name ¦lepy Zau³ek~
+Descr Wchodzisz w ¶lepy zau³ek. Jedyna droga któr± widzisz jest droga powrotna.
+Ale nie jest to zwyk³y slepy zau³ek. Kawa³ek dalej widzisz spor± górkê
+czego¶ pokrytego sniegiem, przynajmniej tak to wygl±da. Podchodzisz do owej
+górki i odgarniasz rêk± ¶nieg. Z szokiem patrzysz na górkê, jesto to górka
+u³o¿ona z ludzkich, elfickich, a mo¿e krasnoludzkich czaszek. Wracaj lepiej
+sk±d przyszed³e¶. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50582
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50582
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50585
+Name ¦cie¿ka~
+Descr Dalej idziesz t± ¶nie¿n±, zachlapan± krwi± ¶cie¿k±. Id±c dalej mo¿esz
+zgin±æ, wracaj±c mo¿e i bêdziesz bezpieczny, ale mo¿e jednak warto
+zaryzykowac i i¶æ dalej? Na ¶niegu widaæ ¶lady krwi, najprawdopodobniej jest
+to ¶wie¿a krew. Ale skoro jest tu tak spokojnie to sk±d tu ta krew? Jesli tu
+jest krew, to gdzie znajduje siê cia³o? Przecie¿ cia³o nie wypraowuje. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50586
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50586
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50582
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50582
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50586
+Name ¦cie¿ka~
+Descr Pod±¿asz ¶cie¿k± zasypan± ¶niegiem. Dooko³a jest tylko pustka...
+Zastanawiasz siê, czy kto¶ móg³by zamieszkiwaæ te tereny, a mo¿e nie kto¶
+tylko co¶? W ka¿dym razie jest tu strasznie zimno i nie jest to dobre
+miejsce na tereny mieszkalne. Rozgl±daj±c siê jest mrok... Mrocznie ciemne
+niebo... ¦nieg bardzo puszysty i bia³y. Piêkne to miejsce, ale i bardzo
+ponure. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50585
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50585
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50587
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50587
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50587
+Name ¦cie¿ka~
+Descr Wkraczasz na dalszy odcinek tej samej ¶cie¿ki. Robi siê tu coraz bardziej
+niebezpiecznie. Dooko³a s³yszysz jakie¶ diabelskie jêki i wrzaski. ¦mieræ
+jest tu wszêdzie. Id±c dalej wpadasz w wielka zaspê ¶niegu. Masz problem z
+wydostaniem siê, ale co to dla ciebie. Wychodzisz, otrzepujesz siê i idziesz
+dalej. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50588
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50588
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50586
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50586
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50588
+Name Zej¶cie na dó³~
+Descr ¦cie¿ka prowadzi na dó³. Robi siê coraz ciekwiej. Droga po której siê
+poruszasz jest bardzo zniszczona, gruzy zawali³y praktycznie ca³e zej¶cie w
+dó³. Zej¶cie te wygl±da jakby wej¶cie to ciemnej groty. Na my¶l co ciê tam
+mo¿e spotkac przechodz± ci ciarki. 
+~
+FlagsExt 0|H
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50587
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50587
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50589
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50589
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50589
+Name Stroma ¶cie¿ka~
+Descr Wkraczasz do tego pomieszczenia praktycznie spadaj±c z góry. ¦cie¿ka jest
+naprawdê stroma i niebezpieczna. Chwila nieuwagi i mo¿na wyl±dowaæ w piachu,
+a mo¿e ¶niegu? Je¶li tu jeste¶ to pozosta³y ci dwa wyj¶cia i¶æ w górê lub w
+dó³. Wybór nale¿y tylko do ciebie. Módl siê aby¶ wybra³ m±drze. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50588
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50588
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50590
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50590
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50590
+Name Zakrêt~
+Descr Znajdujesz siê na zakrêcie prowadz±cym na wschód. W tej jamie jest
+strasznie duszno i zimno. Je¶li ktos zamieszkuje te tereny to jest naprawdê
+twardy. Na ¶cianach powieszone s± szkielety z odr±banymi g³owami, których
+ani ¶ladu. Mo¿na sobie tu odpocz±æ przed dalszym wêdrowaniem, kto wie jak
+daleko na wschód ci±gnie siê ta droga. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50591
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50591
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50589
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50589
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50591
+Name Zej¶cie na dó³~
+Descr ¦cie¿ka prowadzi na dó³. Robi siê coraz ciekwiej. Droga po której siê
+poruszasz jest bardzo zniszczona, gruzy zawali³y praktycznie ca³e zej¶cie w
+dó³. Zej¶cie te wygl±da jakby wej¶cie to ciemnej groty. Na my¶l co ciê tam
+mo¿e spotkac przechodz± ci ciarki. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50590
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50590
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50592
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50592
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50592
+Name Stroma ¶cie¿ka~
+Descr Wkraczasz do tego pomieszczenia praktycznie spadaj±c z góry. ¦cie¿ka jest
+naprawdê stroma i niebezpieczna. Chwila nieuwagi i mo¿na wyl±dowaæ w piachu,
+a mo¿e ¶niegu? Je¶li tu jeste¶ to pozosta³y ci dwa wyj¶cia i¶æ w górê lub w
+dó³. Wybór nale¿y tylko do ciebie. Módl siê aby¶ wybra³ m±drze. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50591
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50591
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50593
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50593
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50593
+Name Stroma ¶cie¿ka~
+Descr Wkraczasz do tego pomieszczenia praktycznie spadaj±c z góry. ¦cie¿ka jest
+naprawdê stroma i niebezpieczna. Chwila nieuwagi i mo¿na wyl±dowaæ w piachu,
+a mo¿e ¶niegu? Je¶li tu jeste¶ to pozosta³y ci dwa wyj¶cia i¶æ w górê lub w
+dó³. Wybór nale¿y tylko do ciebie. Módl siê aby¶ wybra³ m±drze. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50592
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50592
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50594
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50594
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50594
+Name Przed grot± wodza~
+Descr Znajdujesz siê w pustym i dziwnym pomieszczeniu. Daj±c krok s³yszysz
+³ami±ce siê ko¶ci, jakby ma³a warstwa ¶niegu przykrywa³a jakie¶ szcz±tki.
+Schylasz siê i rozgarniasz rêk± ¶nieg. Mia³e¶ racjê - s± to ko¶ci, ale do
+kogo one nale¿a³y? Pewnie do z³ych si³ chc±cych zaj±æ to miejsce. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 50595
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 50595
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50593
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50593
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50595
+Name Grota wodza~
+Descr Id±c na pó³noc wchodzisz do potê¿nej groty, nie by³oby w niej nic
+nadzwyczajnego gdyby nie powieszone na ¶cianach g³owy demonów, smoków i
+s³awnych wojowników, o których s³uch zagin±³. W rogu groty dostrzegasz
+¶wiec±ce na niebiesko oczy, zbli¿aj±ce siê do ciebie. Lepiej szybko wyno¶ siê
+z tego miejsca, bo nie jest ono bezpieczne. 
+~
+FlagsExt 0|H
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 50594
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 50594
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50596
+Name Zakrêt~
+Descr Znajdujesz siê na zakrêcie prowadz±cym na wschód. W tej jamie jest
+strasznie duszno i zimno. Je¶li ktos zamieszkuje te tereny to jest naprawdê
+twardy. Na ¶cianach powieszone s± szkielety z odr±banymi g³owami, których
+ani ¶ladu. Mo¿na sobie tu odpocz±æ przed dalszym wêdrowaniem, kto wie jak
+daleko na wschód ci±gnie siê ta droga. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50565
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50565
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 50597
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 50597
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50597
+Name ¦lepy zau³ek~
+Descr Wchodzisz w ¶lepy zau³ek. Jedyna droga któr± widzisz jest droga powrotna.
+Ale nie jest to zwyk³y slepy zau³ek. Kawa³ek dalej widzisz spor± górkê
+czego¶ pokrytego sniegiem, przynajmniej tak to wygl±da. Podchodzisz do owej
+górki i odgarniasz rêk± ¶nieg. Z szokiem patrzysz na górkê, jesto to górka
+u³o¿ona z ludzkich, elfickich, a mo¿e krasnoludzkich czaszek. Wracaj lepiej
+sk±d przyszed³e¶. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 50596
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 50596
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50598
+Name ¦cie¿ka na dó³~
+Descr Dochodzisz do dziwnego zej¶cia na dó³. Robi siê tu coraz ciekawiej, a
+mo¿e coraz niebezpieczniej? W ka¿dym razie trzeba i¶æ dalej, idz wiêc
+¶cie¿k± dalej lub je¶li siê boisz to wracaj i uciekaj do miasta. Tam obroni±
+ciê stra¿nicy, a tu? Wszêdzie czycha ¶mieræ. Uwa¿aj na siebie. 
+~
+FlagsExt 0|H
+Sector 28
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50553
+ExitExtEnd
+Exit 3
+~
+~
+0 0 50553
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50599
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50599
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50599
+Name Stroma ¶cie¿ka~
+Descr Wkraczasz do tego pomieszczenia praktycznie spadaj±c z góry. ¦cie¿ka jest
+naprawde stroma i niebezpieczna. Chwila nieuwagi i mo¿na wyl±dowac w piachu,
+a mo¿e ¶niegu? Jesli tu jeste¶ to pozosta³y ci dwa wyj¶cia isc w góre lub w
+dól. Wybór nale¿y tylko do ciebie. Módl siê aby¶ wybra³ m±drze. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50598
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50598
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50600
+ExitExtEnd
+Exit 5
+~
+~
+0 0 50600
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50600
+Name ¦lepy zau³ek~
+Descr Wchodzisz w ¶lepy zau³ek. Jedyna droga któr± widzisz jest droga powrotna.
+Ale nie jest to zwyk³y slepy zau³ek. Kawa³ek dalej widzisz spor± górkê
+czego¶ pokrytego sniegiem, przynajmniej tak to wygl±da. Podchodzisz do owej
+górki i odgarniasz rêk± ¶nieg. Z szokiem patrzysz na górkê, jesto to górka
+u³o¿ona z ludzkich, elfickich, a mo¿e krasnoludzkich czaszek. Wracaj lepiej
+sk±d przyszed³e¶. 
+~
+FlagsExt 0|A
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50599
+ExitExtEnd
+Exit 4
+~
+~
+0 0 50599
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 50541 0 50541
+M 100 50545 3 50541 1
+E 100 3127 0 16
+M 100 50543 5 50542 5
+M 100 50543 5 50545 5
+M 100 50544 5 50546 5
+E 100 50591 0 16
+E 100 3005 0 8
+M 100 50541 10 50552 10
+M 100 50543 5 50557 5
+M 100 50544 5 50559 5
+E 100 50591 0 16
+E 100 3005 0 8
+M 100 50544 5 50561 5
+E 100 3005 0 8
+E 100 50591 0 16
+M 100 50543 5 50563 5
+M 100 50541 10 50567 10
+M 100 50547 5 50567 5
+M 100 50543 5 50568 5
+M 100 50544 5 50570 5
+E 100 50591 0 16
+E 100 3005 0 8
+M 100 50544 5 50573 5
+E 100 50591 0 16
+E 100 3005 0 8
+M 100 50541 10 50575 10
+M 100 50547 5 50576 5
+M 100 50547 5 50585 5
+M 100 50541 10 50586 10
+M 100 50541 10 50589 10
+M 100 50547 5 50590 5
+M 100 50541 10 50592 10
+M 100 50547 5 50594 5
+M 100 50595 1 50595 1
+E 40 50594 0 22
+E 100 3128 0 16
+E 100 3032 0 5
+E 100 3005 0 8
+E 100 3045 0 6
+E 100 3093 0 10
+E 100 3077 0 9
+E 100 3093 0 10
+M 100 50545 3 50597 1
+M 100 50545 3 50600 1
+E 100 3127 0 16
+S
+
+
+
+#MOBPROGSNEW
+#50541
+~
+mob equip self 3032
+mob equip self 3005
+mob equip self 3045
+mob equip self 3093
+mob equip self 3077
+mob equip self 3061
+if rand 50
+  mob equip self 3128
+else
+  mob equip self 3297
+endif
+mob addgroup 50542
+~
+#50543
+~
+if rand 25
+  mob equip self 3127
+else
+  mob equip self 3128
+endif
+mob equip self 3005
+~
+#50546
+~
+if !isnpc $n
+  mob echoat $n Nie mo¿esz za³o¿yæ lodowego miecza.
+else
+  break
+endif
+~
+#50547
+~
+mob equip self 3297
+mob equip self 3032
+mob equip self 3005
+mob equip self 3045
+mob equip self 3093
+mob equip self 3077
+mob equip self 3061
+~
+#50595
+~
+mob oload gem 6
+mob oload gem 6
+mob oload gem 6
+mob oload gem 5
+mob oload gem 4
+mob oload gem 4
+mob oload gem 5
+mob oload gem 5
+mob oload gem 4
+if rand 66
+  mob oload 3162 none
+else
+  if rand 50
+    mob oload 3127 none
+  else
+    mob oload 3300 none
+  endif
+endif
+ 
+~
+#czarownik_reset
+~
+mob equip self 50591
+mob equip self 3005
+~
+#golem
+~
+mob oload gem 3
+mob oload gem 5
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,3029 @@
+#AREADATA
+Name +# Ukryta Swiatynia~
+Builders Obilon~
+VNUMs 19700 19749
+Locked ~
+Security 9
+ResetAge 20
+Region 19700
+End
+
+
+
+#MOBILES
+#Vnum 19700
+Name pustelnik poro¶niêty~
+Odmiana pustelnika~pustelnikowi~pustelnika~pustelnikiem~pustelniku~
+Short pustelnik~
+Long Poro¶niêty grzybem, strasznie chudy pustelnik siedzi przed paleniskiem.~
+Descr Niedu¿y, poro¶niêty jakim¶ zielonym grzybem staruszek wygl±da na
+przynajmniej lekko stukniêtego. Mieszka na dalekim odludziu w rozpadaj±cej
+siê chatce po ¶rodku bagna, ca³e ¿ycie zbiera zió³ka i robale, które s³u¿±
+mu widocznie za po¿ywienie, a gdy ma ich pod dostatkiem to siedzi
+naprzeciwko rozpalonego ogniska i gada sam do siebie. Wiêc czemu siê tutaj
+dziwiæ? 
+~
+Race cz³owiek~
+ActExt 0|ABK
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 3
+HP 11d9+1348
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 136
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew random pustelnik_rand FGI 3~
+MobprogNew greet pustelnik_greet FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19701
+Name zwiadowca plemienia~
+Odmiana zwiadowcy plemienia~zwiadowcy plemienia~zwiadowcê plemienia~zwiadowc± plemienia~zwiadowcy plemienia~
+Short zwiadowca plemienia~
+Long Jaki¶ zwinny zwiadowca jednego z miejscowych plemion przebiega tutaj st±paj±c lekko.~
+Descr Ten niesamowicie zwinnie siê poruszaj±cy, pochylony lekko do ziemi
+cz³owiek jest zapewne przedstawicielem jednego z zamieszkuj±cych te strony
+Obilonu dawnych plemion. Zgrabnie, a jednocze¶nie bardzo szybko porusza siê
+po b³otnistym terenie lekko st±paj±c po jego powierzchni. Ca³e cia³o
+wymalowane ma na szaro jakim¶ barwnikiem w przedziwne, budz±ce strach wzory.
+Jego ob³êdny wzrok przeszywa dok³adnie ca³± okolicê. 
+~
+Race cz³owiek~
+ActExt 0|ACFGIT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 0
+HP 9d4+438
+Damage 1d1+0
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 54 144 126 150 78 90 102
+Off EJY
+OffExt 0|EJY/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19702
+Name makabryczny potwór bagienny pokiereszowany bagienny_gorst boss~
+Odmiana bagiennego potwora~bagiennemu potworowi~bagiennego potwora~bagiennym potworem~bagiennym potworze~
+Short bagienny potwór~
+Long Makabryczna, pó³p³ynna masa bagna faluje tutaj niczym jaka¶ ¿ywa istota!~
+Descr Masz przed sob± ogromnego, przera¿aj±cego potwora o nie do koñca
+zdefiniowanym kszta³cie. Ta pó³p³ynna, bagnista masa zdaje siê poruszaæ
+niczym morskie fale wznosz±c gdzieniegdzie bagnisty teren tylko po to by po
+chwili go opu¶ciæ. Widzisz w niej pe³no organicznych resztek takich jak
+po³amane ga³êzie, konary drzew, czasem jakie¶ ko¶ci i tym podobne rzeczy.
+Makabryczne d¼wiêki bulgotania towarzysz±ce temu niesamowitemu zjawisku
+napawaj± ciê strachem wzmacniaj±c tajemnicz± atmosferê otoczenia. 
+~
+Race ryba~
+ActExt 0|AGT/2|C
+Affected 301990408 524288 524288 32768
+AffectedExt 0|DJZc/1|T/2|T/3|P
+Align 0
+Group 0
+Lang AR
+Speaks 16
+Level 39
+Hitroll 10
+HP 100d70+4500
+Damage 4d4+10
+Dammagic 5
+Weaponbonus 0
+Damflags 144
+Attack wstrzas
+XAC -1 -1 -1 2
+Stats 168 168 168 168 78 18 168
+Off GZ
+OffExt 0|GZ
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AGLb
+Parts 0
+Size giant
+Material unknown
+Comments trzeba dodac ksiege! - {RGorst{x ({CSun May 12 16:04:37 2013{x)
+~
+MobprogNew fight bagienny_kler H 8~
+MobprogNew grall bagienny_grall ABCDEFGHI 100~
+MobprogNew fight bagienny_target H 5~
+MobprogNew random bagienny_rand FGI 4~
+MobprogNew fight bagienny_strzal H 2~
+MobprogNew death bagienny_death ABCDEFGHI 100~
+Corpse 50973
+Skin 100
+ExpMultiplier 1000
+Resist 4 30
+Resist 5 45
+Resist 6 30
+Resist 7 25
+Resist 8 25
+Resist 9 25
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 19703
+Name siwobrody gnom~
+Odmiana siwobrodego gnoma~siwobrodemu gnomowi~siwobrodego gnoma~siwobrodym gnomem~siwobrodym gnomie~
+Short siwobrody gnom~
+Long Stary, siwobrody gnom przeszywa okolicê swym bystrym, jastrzêbim wzrokiem.~
+Descr Masz przed sob± niewielkiego gnoma w podesz³ym ju¿ wieku. Choæ wydawaæ by
+siê mog³o, ¿e pe³nie formy ma ju¿ dawno za sob± to jednak zachowa³
+niesamowity refleks i przenikliwy, bystry wzrok. W koñcu lata praktyk nie
+posz³y na marne i wyæwiczone przez ca³± m³odo¶æ i pe³nie wieku umiejêtno¶ci
+nie da³y siê st³amsiæ przez czas. Mo¿na byæ pewnym, ¿e ten osobnik kilkoma
+sprawnymi i skoordynowanymi ruchami po³o¿y³by bez wiêkszego wysi³ku ka¿dego
+miê¶niaka. 
+~
+Race gnom~
+ActExt 0|ACEFS
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 0
+Group 0
+Lang AS
+Speaks 17
+Level 29
+Hitroll 4
+HP 22d4+2069
+Damage 1d1+1
+Dammagic 1
+Weaponbonus 8
+Damflags 0
+Attack walniecie
+XAC -2 -2 -2 -2
+Stats 168 168 168 168 78 90 168
+Off BFHINY
+OffExt 0|BFHINY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 9000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 4 30
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Mobend
+#Vnum 19704
+Name brzydka ¿aba~
+Odmiana ¿aby~¿abie~¿abê~¿ab±~¿abie~
+Short brzydka ¿aba~
+Long Skacze sobie tutaj jaka¶ brzydka ¿aba.~
+Descr W zielonej kêpie traw zauwa¿y³e¶ ma³e zwierz±tko. Wydaje siê, ¿e jest to
+najpospolitsza ¿aba, jak± nietrudno znale¼æ na ³±kach i w lasach. Jednak w
+tej jest co¶ dziwnego... Nie umiesz od razu powiedzieæ co, ale po g³êbszym
+wpatrzeniu siê w jej g³owê, zauwa¿asz, ¿e jej oczy ¶wiec± siê na czerwono.
+To pewnie przez tutejsz± piramidê. Najchêtniej ju¿ by¶ st±d uciek³, poniewa¿
+wydaje siê to bardzo podejrzane. 
+~
+Race ropucha~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 4d16+11
+Damage 1d2+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form G
+Parts ACDEFGHIJKLRS
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 19705
+Name manekin trningowy~
+Odmiana manekinu~manekinowi~manekin~manekinem~manekinie~
+Short manekin treningowy~
+Long Stoi tutaj æwiczebny manekin s³u¿±cy do trenowania bojowych technik.~
+Descr Jest to zwyk³y manekin æwiczebny zbudowany z drewna, szmat i ¿elaznych
+p³ytek. Ma on mechanizm pozwalaj±cy na u¿ycie ciosu æwicz±cego przeciw
+niemu, tak, ¿eby musia³ zrobiæ unik. Choæ konstrukcja tej kuk³y nie jest
+najlepsza, ale za to jeste¶ pewien, ¿e dobrze spe³nia swoje zadanie. 
+~
+Race szkielet~
+ActExt 0|ABO
+Affected 2048 0 0 0
+AffectedExt 0|L
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 1d1+999
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off d
+OffExt 0|d
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CIJ
+Parts ABCGHIJKR
+Size small
+Material unknown
+MobprogNew fight 19706 H 15~
+Corpse 3364
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 19706
+Name br±zowy centaur~
+Odmiana {ybr±zowego{x centaura~{ybr±zowemu{x centaurowi~{ybr±zowego{x centaura~{ybr±zowym{x centaurem~{ybr±zowym{x centaurze~
+Short {ybr±zowy{x centaur~
+Long {yBr±zowy{x centaur o {rczerwonych{x oczach dumnie siê tutaj przechadza.~
+Descr Piêkny, br±zowy centaur o krótkiej brodzie i kozich rogach przechadza siê
+tutaj. Ma bardzo umiê¶nione rêce i klatkê piersiow±. Jego d³ugi, puszysty
+ogon dumnie powiewa na wietrze. Na jego grzbiecie kto¶ umiejscowi³ wygodne
+siod³o. Jest to rzecz zaprawdê dziwna, bo dla centaura lepiej jest zgin±æ
+ni¿ byæ dosiadanym. Mo¿e wp³yw na to maj± jego nienaturalne, czerwone oczy,
+które jakby w ogóle siê nie poruszaj±. Nie mówi±c ju¿ o niemrugaj±cych
+powiekach. 
+~
+Race centaur~
+ActExt 0|ABT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 8
+Hitroll 1
+HP 3d3+195
+Damage 3d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 10 10 10 10
+Stats 114 90 102 126 132 108 96
+Off EIR
+OffExt 0|EIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHNV
+Parts ABCDEFGIJKQR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19707
+Name dumny szaman otatuowany~
+Odmiana null~null~null~null~null~
+Short dumny szaman~
+Long (no long description)~
+Descr Spogl±dasz na tego lekko przygarbionego jegomo¶cia. Pierwsz± rzecz±,
+która przykuwa uwagê jest jego twarz, w ca³o¶ci pokryta dziwnymi rysunkami i
+malowid³ami - to siê nazywa chyba tatua¿em. Do kompletu, obok owych ozdób
+dochodz± rozbiegane, ma³e oczy, które z niezwyk³± bystro¶ci± patrz± na ¶wiat
+oraz dziwne zakola ³ysiny na g³owie. D³onie tego mê¿czyzny w ca³o¶ci pokryte
+s± solidnym zarostem z w³osów albo czego¶, co tylko je przypomina. Wszêdzie
+wko³o staruszek rozsiewa zapach sple¶nia³ego mchu po³±czonego z
+za¶mierdzia³ym trupem orka. S³owem cuchnie. W obawie o swoj± ¶luzówkê, oraz
+ogóln± wygodê psychiczn± lepiej trzymaæ sie od niego z daleka. 
+~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19708
+Name szalony szaman~
+Odmiana null~null~null~null~null~
+Short szalony szaman~
+Long (no long description)~
+Descr Widzisz przed sob± do¶æ niezwyk³ego mê¿czyznê. Patrz±c w jego oczy nie
+dostrzegasz niczego oprócz szaleñstwa. Wygl±da na to, ¿e jest on w swoim
+¶wiecie i nie zamierza z niego wracaæ. Równie¿ jego ubiór jest bardzo
+specyficzny Lepiej trzymaæ siê od niego z daleko, nie wiadomo kim ta osoba
+jest ani z jakimi mocami ma do czynienia. 
+~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19709
+Name plemienny m³ody wojownik~
+Odmiana zwiadowcy plemienia~zwiadowcy plemienia~zwiadowcê plemienia~zwiadowc± plemienia~zwiadowcy plemienia~
+Short m³ody wojownik plemienia~
+Long Jaki¶ zwinny zwiadowca jednego z miejscowych plemion przebiega tutaj st±paj±c lekko.~
+Descr Lata spêdzone w d¿ungli na wiecznym posterunku sprawi³y, ¿e jego twarz
+pokryta jest siateczk± zmarszczek, a w oczach b³yszcz± nieustanne iskry
+czujno¶ci i drapie¿nej inteligencji. Liczne trudy i niewygody zahartowa³y go
+tak, ze jego miê¶nie wydaj± siê byæ ze stali, kiedy ruszaj± siê pod
+pokrytymi licznymi bliznami skór±. 
+~
+Race cz³owiek~
+ActExt 0|ACFGIT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 0
+HP 9d4+438
+Damage 1d1+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 54 144 126 150 78 90 102
+Off EJY
+OffExt 0|EJY/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19710
+Name starszy wojownik plemienia~
+Odmiana zwiadowcy plemienia~zwiadowcy plemienia~zwiadowcê plemienia~zwiadowc± plemienia~zwiadowcy plemienia~
+Short starszy wojownik plemienia~
+Long Jaki¶ zwinny zwiadowca jednego z miejscowych plemion przebiega tutaj st±paj±c lekko.~
+Descr Maszeruj±cy ra¼no przez gêst± puszczê mê¿czyzna rasy ludzkiej wydaje siê
+czego¶ szukaæ, rozgl±daj±c siê dooko³a i, co dziwne, wêsz±c. Jego imponuj±ca
+pomimo zaawansowanego wieku budowa cia³a wskazuje na ciê¿kie warunki ¿ycia.
+Po chwili zauwa¿asz dziwne, niepokoj±ce, lecz misternie wykonane jak±¶
+prymitywn± metod± tatua¿e, które pokrywaj± jego klatkê piersiow±, plecy i
+muskularne ramiona. D³ugie, czarne w³osy poprzetykane pasmami siwizny trzyma
+zwi±zane skórzanym rzemieniem na plecach. 
+~
+Race cz³owiek~
+ActExt 0|ACFGIT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 0
+HP 9d4+438
+Damage 1d1+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 54 144 126 150 78 90 102
+Off EJY
+OffExt 0|EJY/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19711
+Name wojownik plemienia~
+Odmiana zwiadowcy plemienia~zwiadowcy plemienia~zwiadowcê plemienia~zwiadowc± plemienia~zwiadowcy plemienia~
+Short wojownik plemienia~
+Long Jaki¶ zwinny zwiadowca jednego z miejscowych plemion przebiega tutaj st±paj±c lekko.~
+Descr Spogl±dasz na wymalowanego ró¿nokolorow± farb±, dzikiego cz³owieka. Nie
+spuszcza z ciebie wzroku jednocze¶nie, rozgl±daj±c siê doko³a. Zapewne jest
+to miejscowy stra¿nik wyczekuj±cy zagro¿enia. Obserwuj±c go przez chwilê
+dochodzisz do wniosku, i¿ nie grzeszy on inteligencj±, jednak jego ogromne
+miê¶nie i potê¿na budowa cia³a odpychaj± od ciebie pomys³ prowokowania go. 
+~
+Race cz³owiek~
+ActExt 0|ACFGIT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 0
+HP 9d4+438
+Damage 1d1+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 54 144 126 150 78 90 102
+Off EJY
+OffExt 0|EJY/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 19700
+Name turkusowe kamienie~
+Odmiana {Cturkusowych kamieni{x~{Cturkusowym kamieniom{x~{Cturkusowe kamienie{x~{Cturkusowymi kamieniami{x~{Cturkusowych kamieniach{x~
+Short {Cturkusowe kamienie{x~
+Descr {DNiedu¿e, {Cturkusowe kamienie{D znacz± drogê z dwóch stron.{x~
+Material kamieñ~
+Type furniture
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 19701
+Name niewielkie palenisko~
+Odmiana paleniska~palenisku~palenisko~paleniskiem~palenisku~
+Short palenisko~
+Descr Niewielkie ognisko pali siê tutaj po ¶rodku chatki.~
+Material drewno~
+Type furniture
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to kilka zwyk³ych kawa³ków drewna u³o¿onych w kr±g, a nastêpnie
+podpalonych. Ognisko to o¶wietla dok³adnie chatkê, w której w³a¶nie siê
+znajdujesz. 
+~
+Comments ~
+Objend
+#Vnum 19708
+Name runniczny naszyjnik~
+Odmiana {Yzlotego lanczuszka{X~{Yzlotemu lancuszkowi{X~{Yzloty lancuszek{X~{Yzlotym lancuszkiem{X~{Yzlotym lancuszku{X~
+Short runniczny naszyjnik~
+Descr Runniczny, z³oty naszyjnik le¿y tutaj.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 6000
+Cond 100
+Itemdesc Dziwny, topornie ociosany naszyjnik wykonany z jakiego¶ kamienia, o
+szarym zabarwieniu. Na poszczególnych paciorkach tego¿ naszyjnika dostrzec
+mo¿na lekko widoczne runy, z pewno¶ci± magiczne. Gdy przysuwasz go bli¿ej
+twarzy, twój nos natychmiast reaguje. Na wszystkich bogów Tamery! Jakim
+cudem kamien mo¿e przej¶æ smrodem w³a¶ciciela? Musi to magia jaka¶! 
+~
+Comments ~
+Objend
+#Vnum 19710
+Name naszyjnik z sercem kruka~
+Odmiana {Yzlotego lanczuszka{X~{Yzlotemu lancuszkowi{X~{Yzloty lancuszek{X~{Yzlotym lancuszkiem{X~{Yzlotym lancuszku{X~
+Short naszyjnik z sercem kruka~
+Descr Dzwiny, z³oty ³añcuszek wala siê tutaj.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 6000
+Cond 100
+Itemdesc Na pierwszy rzut oka widzisz jedynie pomarszczon± kulkê przyczepion± do
+skórzanego rzemyka wygl±daj±cego jak sznurowad³o. Nic bardziej mylnego. To
+rytualny naszyjnik, który nale¿y tylko do najlepszych wojowników. Wygl±da na
+to, ¿e lepiej nie zadzieraæ z w³a¶cicielem tego przedmiotu.
+Niezidentyfikowan± kulk± przyczepion± do rzemyka jest serce kruka, które
+wed³ug legend przynosi ¶mia³kowi szczê¶cie i dodaje humoru. Lecz nie ka¿da
+historia jest prawdziwa. 
+~
+Comments ~
+Objend
+#Vnum 19715
+Name cynowa bransoleta~
+Odmiana misternie zdobionej bransoletki~misternie zdobionej bransoletce~misternie zdobiona bransoletke~misternie zdobiona bransoletka~misternie zdobionej bransoletce~
+Short cynowa bransoleta~
+Descr Le¿y tutaj na ziemi ³adnie uksztaltowany kawa³ek srebra, który przypomina wygl±dem bransoletke.~
+Material srebro~
+Type jewelry
+ExtraExt 0|GN
+Wear AM
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 7
+Cost 51000
+Cond 100
+Aff 1 14 5 0 0 0
+Aff 1 13 5 0 0 0
+Aff 1 12 4 5 0 0
+Itemdesc Trudno ci uwierzyæ, ¿e ta bransoleta zosta³a wykonana przez osobnika z
+dzikiego plemienia. Jest piêkna i finezyjnie zrobiona, mimo ¿e twórca mia³
+oprócz prymitywnych narzêdzi jedynie swój talent. Ornamenty jej, choæ
+proste, s± szczegó³owe i przyci±gaj± uwagê. Bi¿uteria l¶ni jakby by³a przed
+chwil± wypolerowana, a kiedy j± dotykasz, masz wra¿enie p³yn±cego z niej
+ciep³a. Przez chwilê masz wra¿enie, jakby¶ zapuszcza³ korzenie w ziemi, a
+w³osy podnosz±c siê na ca³ym ciele, przywo³a³y wra¿enie ga³êzi wyci±gaj±cych
+siê ku niebu. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 19716
+Name naszyjnik piór egzotycznego ptaka~
+Odmiana {Yzlotego lanczuszka{X~{Yzlotemu lancuszkowi{X~{Yzloty lancuszek{X~{Yzlotym lancuszkiem{X~{Yzlotym lancuszku{X~
+Short naszyjnik z piór egzotycznego ptaka~
+Descr Dupa~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 6000
+Cond 100
+Itemdesc Spogl±dasz na d³ugi, skórzany rzemieñ z przytwierdzonymi do niego
+czerwonymi piórami jakiego¶ egzotycznego ptaka. Na pierwszy rzut oka wygl±da
+to jak zwyk³a ozdoba prymitywnych ludzi, jednak przygl±daj±c siê uwa¿niej,
+dostrzegasz, ¿e pióra zosta³y czym¶ pofarbowane. Bior±c pod uwagê osobliwo¶æ
+tego naszyjnika, nie wykluczone, ¿e barwnikiem by³a w tym przypadku w jaki¶
+sposób zakonserwowana krew. 
+ 
+~
+Comments ~
+Objend
+#Vnum 19748
+Name Okute ³o¿e obite skór± nied¼wiedzia~
+Odmiana okutego ³o¿a obitego skór± nied¼wiedzia~okutemu ³o¿u obitemu skór± nied¼wiedzia~okute ³o¿e obite skór± nied¼wiedzia~okutym ³o¿em obitym skór± nied¼wiedzia~okutym ³o¿u obitym skór± nied¼wiedzia~
+Short Okute ³o¿e pokryte skór± nied¼wiedzia~
+Descr Okute ³o¿e obite skór± nied¼wiedzia stoi tutaj~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 5 700 1168 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 10000
+Cond 100
+Itemdesc Masz przed sob± piêkne okute ³o¿e. Jest ono obite miêkk±, wygodn± skór±
+nied¼wiedzi±, na której chêtnie by¶ wypocz±³. Czêsto wypoczywa tutaj
+Prze³o¿ony i inni Wyznawcy 
+~
+Comments ~
+Objend
+#Vnum 19749
+Name bambusowe ³o¿e~
+Odmiana bambusowego ³o¿a~bambusowemu ³o¿u~bambusowe ³o¿e~bambusowym ³o¿em~bambusowym ³o¿u~
+Short bambusowe ³o¿e~
+Descr {yZwyk³e, bambusowe ³o¿e wy³o¿one miêciutk± skórk±.{x~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 999 1168 0 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 698
+Cost 1
+Cond 75
+Itemdesc Na ¶rodku pokoju, w którym obecnie siê znajdujesz, stoi bambusowe ³o¿e
+wy³o¿one miêciutk± skórk±. Wygl±da bardzo zachêcaj±co. Pomimo ¿e jego
+konstrukcja nie wygl±da stabilnie, dostrzegasz na niej rzadk± odmianê skóry.
+S³ynie ona ze swej miêkko¶ci i puszysto¶ci, jest u¿ywana równie¿ do robienia
+delikatnych opatrunków. Bêdziesz mia³ szczê¶cie, je¿eli na ³o¿u tym zosta³o
+jeszcze trochê miejsca. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 19700
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPrzera¿aj±ca, b³otna ¶cie¿ka po³o¿ona jest na bardzo grz±skich bagnach,
+prawdopodobnie do jej budowy zu¿yto setki, mo¿e nawet tysi±ce ton piachu.
+Sama ¶cie¿ka jest w miarê dobrze ubita, ale ze wzglêdu na jej wiek lepiej
+jej nie ufaæ tylko przej¶æ jak najszybciej w jakie¶ bezpieczne miejsce.
+Gdyby nie ¶wiec±ce, turkusowe kamienie to chyba nigdy by¶ nie znalaz³ tutaj
+drogi. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19701
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19701
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 9269
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 9269
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19701
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPod±¿asz w³a¶nie ¶cie¿k± przez jakie¶ tajemnicze bagna. Rozgl±daj±c siê
+dooko³a mo¿na zupe³nie zw±tpiæ, widok w ka¿d± stronê wygl±da praktycznie tak
+samo. Wyschniête, stare drzewa pochylaj±ce siê mrocznie nad ¶cie¿k± oraz
+podmok³e tereny bez ¶ladów ludzkiej ingerencji mog± przestraszyæ nawet
+najodwa¿niejszego wêdrowca. Miej siê na baczno¶ci, bo nigdy nie wiadomo co
+mo¿e siê tutaj zdarzyæ. ¯aden odkrywca nie wróci³ jeszcze st±d ¿ywy, a
+czarne listowie tutaj jest tak gêste, ¿e nawet w dzieñ nie dociera tutaj
+¶wiat³o. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19702
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19702
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19700
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19702
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPodró¿uj±c t± posêpn±, b³otnist± ¶cie¿k±, wiêkszo¶ci wêdrowcom towarzyszy
+wysoki poziom adrenaliny we krwi. Panuje tutaj potworna, zabójcza wrêcz
+cisza, która wzmacnia odg³os ka¿dej, choæby najmniejszej ³amanej ga³±zki pod
+butem jakiego¶ nierozwa¿nego podró¿nika. Rozgl±daj±c siê dooko³a nie
+zauwa¿asz ¿adnych oznak zmiany krajobrazu, gdyby nie ¶wiec±ce, turkusowe
+kamienie to chyba nigdy by¶ siê tutaj nie odnalaz³. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19703
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19703
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19712
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19712
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19701
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19701
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19703
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPrzera¿aj±ca, b³otna ¶cie¿ka po³o¿ona jest na bardzo grz±skich bagnach,
+prawdopodobnie do jej budowy zu¿yto setki, mo¿e nawet tysi±ce ton piachu.
+Sama ¶cie¿ka jest w miarê dobrze ubita, ale ze wzglêdu na jej wiek lepiej
+jej nie ufaæ tylko przej¶æ jak najszybciej w jakie¶ bezpieczne miejsce.
+Gdyby nie ¶wiec±ce, turkusowe kamienie to chyba nigdy by¶ nie znalaz³ tutaj
+drogi. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19706
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19706
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19704
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19704
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19702
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19702
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19704
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPod±¿asz w³a¶nie ¶cie¿k± przez jakie¶ tajemnicze bagna. Rozgl±daj±c siê
+dooko³a mo¿na zupe³nie zw±tpiæ, widok w ka¿d± stronê wygl±da praktycznie tak
+samo. Wyschniête, stare drzewa pochylaj±ce siê mrocznie nad ¶cie¿k± oraz
+podmok³e tereny bez ¶ladów ludzkiej ingerencji mog± przestraszyæ nawet
+najodwa¿niejszego wêdrowca. Miej siê na baczno¶ci, bo nigdy nie wiadomo co
+mo¿e siê tutaj zdarzyæ. ¯aden odkrywca nie wróci³ jeszcze st±d ¿ywy, a
+czarne listowie tutaj jest tak gêste, ¿e nawet w dzieñ nie dociera tutaj
+¶wiat³o. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19705
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19705
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19707
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19707
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19712
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19712
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19703
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19703
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19705
+Name {DMroczne bagno{x~
+Descr {DObrzydliwie ¶mierdz±ce bagno, na które w³a¶nie wlaz³e¶ to jedno z kilku
+miejsc, na którym na pewno nie chcia³by¶ siê d³u¿ej znajdowaæ. Wszystko
+wokó³ potwornie ¶mierdzi, a wszechobecna tutaj cisza mo¿e nie tylko
+cz³owieka przyprawiæ o zawa³. Nad tymi okropnymi moczarami unosi siê lekka,
+ale bardzo gêsta mgie³ka mocno obni¿aj±ca widoczno¶æ. {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19711
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19711
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19704
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19704
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19706
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19706
+Roomprog entry bagno_wciagacz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19706
+Name {DMroczne bagno{x~
+Descr {DZnajdujesz siê w³a¶nie na jakim¶ cholernie ¶mierdz±cym, mrocznym
+bagnisku. Jest to zapewne lokalowy raj dla jakiego¶ obrzydliwego orka lub
+jeszcze gorszej kreatury. Wokó³ rozci±ga siê sporo, starych, bogatych w
+ga³êzie i konary drzew oraz ca³kiem liczne cierniste krzewy. Z czasem, gdy
+tu troszkê postoisz, twoje nogi, o ile oczywi¶cie nie latasz, zatopiæ siê
+mog± w obrzydliwej, mêtnej papce, która spokojnie mo¿e ciê wci±gn±æ pod
+powierzchniê. {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19705
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19705
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19703
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19703
+Roomprog entry bagno_wciagacz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19707
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPodró¿uj±c t± posêpn±, b³otnist± ¶cie¿k±, wiêkszo¶ci wêdrowcom towarzyszy
+wysoki poziom adrenaliny we krwi. Panuje tutaj potworna, zabójcza wrêcz
+cisza, która wzmacnia odg³os ka¿dej, choæby najmniejszej ³amanej ga³±zki pod
+butem jakiego¶ nierozwa¿nego podró¿nika. Rozgl±daj±c siê dooko³a nie
+zauwa¿asz ¿adnych oznak zmiany krajobrazu, gdyby nie ¶wiec±ce, turkusowe
+kamienie to chyba nigdy by¶ siê tutaj nie odnalaz³. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19711
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19711
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19708
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19708
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19704
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19704
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19708
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPrzera¿aj±ca, b³otna ¶cie¿ka po³o¿ona jest na bardzo grz±skich bagnach,
+prawdopodobnie do jej budowy zu¿yto setki, mo¿e nawet tysi±ce ton piachu.
+Sama ¶cie¿ka jest w miarê dobrze ubita, ale ze wzglêdu na jej wiek lepiej
+jej nie ufaæ tylko przej¶æ jak najszybciej w jakie¶ bezpieczne miejsce.
+Gdyby nie ¶wiec±ce, turkusowe kamienie to chyba nigdy by¶ nie znalaz³ tutaj
+drogi. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19709
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19709
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19713
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 19713
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19707
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19707
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19709
+Name {DPosêpna ¶cie¿ka przez bagna{x~
+Descr {DPod±¿asz w³a¶nie ¶cie¿k± przez jakie¶ tajemnicze bagna. Rozgl±daj±c siê
+dooko³a mo¿na zupe³nie zw±tpiæ, widok w ka¿d± stronê wygl±da praktycznie tak
+samo. Wyschniête, stare drzewa pochylaj±ce siê mrocznie nad ¶cie¿k± oraz
+podmok³e tereny bez ¶ladów ludzkiej ingerencji mog± przestraszyæ nawet
+najodwa¿niejszego wêdrowca. Miej siê na baczno¶ci, bo nigdy nie wiadomo co
+mo¿e siê tutaj zdarzyæ. ¯aden odkrywca nie wróci³ jeszcze st±d ¿ywy, a
+czarne listowie tutaj jest tak gêste, ¿e nawet w dzieñ nie dociera tutaj
+¶wiat³o. {x 
+~
+FlagsExt 0|A
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Chatka~
+ExitExtLiczba 1
+ExitExtInfo 24579
+ExitExtKey 0
+ExitExtToVnum 19710
+ExitExtEnd
+Exit 0
+~
+VName Chatka~
+~
+24579 0 19710
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19714
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 19714
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19708
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19708
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19711
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19711
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19710
+Name {DRozpadaj±ca siê chatka{x~
+Descr {DZnajdujesz siê w rozpadaj±cej siê chatce zrobionej ze zmursza³ego drzewa
+jakiego wiele w okolicy. Jest tutaj zdecydowanie cieplej ni¿ na zewn±trz, co
+nie oznacza jednak, ¿e jest tutaj przytulnie. Na ¶rodku chatki pali siê
+niewielkie ognisko, z którego dym ucieka przez dziurê w dachu specjalnie ku
+temu stworzon±. Na zbutwia³ych ¶cianach wisz± sobie jakie¶ ró¿ne zió³ka oraz
+przedmioty zwi±zane z ich zbieraniem i przetwarzaniem. Panuje tutaj zapach
+suszonych li¶ci. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 24579
+ExitExtKey 0
+ExitExtToVnum 19709
+ExitExtEnd
+Exit 2
+~
+~
+24579 0 19709
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19711
+Name {DMroczne bagno{x~
+Descr {DTen kawa³ek zewsz±d otaczaj±cego ciê bagna zdaje siê byæ wyj±tkowo
+podmok³ym. Nie ma tutaj najmniejszych chocia¿by ¶ladów zwierz±t, a tym
+bardziej ludzi. Chyba prêdzej zobaczy³by¶ tu ryby. Okropnie dokuczliwe s±
+tutaj komary, a przedewszystkim ich ogromna wrêcz ilo¶æ. Skoro teren jest
+podmok³y to mo¿e gdzie¶ tutaj znajduje siê jaki¶ wodny zbiornik? {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19709
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19709
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19707
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19707
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19705
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19705
+Roomprog entry bagno_wciagacz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19712
+Name {DMroczne bagno{x~
+Descr {DZnajdujesz siê w³a¶nie na jakim¶ cholernie ¶mierdz±cym, mrocznym
+bagnisku. Jest to zapewne lokalowy raj dla jakiego¶ obrzydliwego orka lub
+jeszcze gorszej kreatury. Wokó³ rozci±ga siê sporo, starych, bogatych w
+ga³êzie i konary drzew oraz ca³kiem liczne cierniste krzewy. Z czasem, gdy
+tu troszkê postoisz, twoje nogi, o ile oczywi¶cie nie latasz, zatopiæ siê
+mog± w obrzydliwej, mêtnej papce, która spokojnie mo¿e ciê wci±gn±æ pod
+powierzchniê. {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19704
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19704
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19702
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19702
+Roomprog entry bagno_wciagacz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19713
+Name {DMroczne bagno{x~
+Descr {DTen kawa³ek zewsz±d otaczaj±cego ciê bagna zdaje siê byæ wyj±tkowo
+podmok³ym. Nie ma tutaj najmniejszych chocia¿by ¶ladów zwierz±t, a tym
+bardziej ludzi. Chyba prêdzej zobaczy³by¶ tu ryby. Okropnie dokuczliwe s±
+tutaj komary, a przedewszystkim ich ogromna wrêcz ilo¶æ. Skoro teren
+jest podmok³y to mo¿e gdzie¶ tutaj znajduje siê jaki¶ wodny zbiornik? {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19714
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19714
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50891
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50891
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19708
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 19708
+Roomprog entry bagno_wciaga_do 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19714
+Name {DMroczne bagno{x~
+Descr {DZnajdujesz siê w³a¶nie na jakim¶ cholernie ¶mierdz±cym, mrocznym
+bagnisku. Jest to zapewne lokalowy raj dla jakiego¶ obrzydliwego orka lub
+jeszcze gorszej kreatury. Wokó³ rozci±ga siê sporo, starych, bogatych w
+ga³êzie i konary drzew oraz ca³kiem liczne cierniste krzewy. Z czasem, gdy
+tu troszkê postoisz, twoje nogi, o ile oczywi¶cie nie latasz, zatopiæ siê
+mog± w obrzydliwej, mêtnej papce, która spokojnie mo¿e ciê wci±gn±æ pod
+powierzchniê. {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19715
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19715
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50892
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50892
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19713
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19713
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19709
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 19709
+Roomprog entry bagno_wciagacz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19715
+Name {DMroczne bagno{x~
+Descr {DObrzydliwie ¶mierdz±ce bagno, na które w³a¶nie wlaz³e¶ to jedno z kilku
+miejsc, na którym na pewno nie chcia³by¶ siê d³u¿ej znajdowaæ. Wszystko
+wokó³ potwornie ¶mierdzi, a wszechobecna tutaj cisza mo¿e nie tylko
+cz³owieka przyprawiæ o zawa³. Nad tymi okropnymi moczarami unosi siê lekka,
+ale bardzo gêsta mgie³ka mocno obni¿aj±ca widoczno¶æ. {x 
+~
+FlagsExt 0|A
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50898
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50898
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50893
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50893
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19714
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19714
+Roomprog entry bagno_wciagacz 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19716
+Name {yOkropnie gêsta i ciemna, br±zowa woda{x~
+Descr {yOtaczaj±ca ciê, strasznie zabrudzona i zawiesista woda zdaje siê byæ
+siedliskiem wszelkiego robactwa i bakterii. W³a¶ciwie ciê¿ko powiedzieæ ¿eby
+tak br±zowa i ca³kowicie nieprzezroczysta woda by³a wod±, jest to raczej
+odmiana rzadszego b³ota. Ciê¿ko jest ci siê poruszaæ, a tym bardziej
+cokolwiek zobaczyæ przez ten gêsty mu³, nawet widz±c pod wod±. {x {yZauwa¿asz,
+¿e z góry bije lekko zauwa¿alne ¶wiat³o i zamulona woda wydaje siê byæ
+gêstsza, Mo¿e uda ci siê jako¶ st±d wydostaæ? {yZauwa¿asz, ¿e z góry bije
+lekko zauwa¿alne ¶wiat³o i zamulona woda wydaje siê byæ gêstsza, Mo¿e uda ci
+siê jako¶ st±d wydostaæ? {x 
+~
+FlagsExt 0|A
+Sector 37
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19717
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19717
+Roomprog input up_woda_bagno wydostañ siê~
+Roomprog input up_woda_bagno emerge~
+Roomprog input up_woda_bagno get away~
+Roomprog input up_woda_bagno swim out~
+Roomprog input up_woda_bagno wyp³yñ~
+Roomprog input up_woda_bagno wyle¼~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19717
+Name {yOkropnie gêsta i ciemna, br±zowa woda{x~
+Descr {yOtaczaj±ca ciê, strasznie zabrudzona i zawiesista woda zdaje siê byæ
+siedliskiem wszelkiego robactwa i bakterii. W³a¶ciwie ciê¿ko powiedzieæ ¿eby
+tak br±zowa i ca³kowicie nieprzezroczysta woda by³a wod±, jest to raczej
+odmiana rzadszego b³ota. Ciê¿ko jest ci siê poruszaæ, a tym bardziej
+cokolwiek zobaczyæ przez ten gêsty mu³, nawet widz±c pod wod±. {x 
+~
+FlagsExt 0|A
+Sector 37
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19719
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19719
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19716
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19716
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19718
+Name {yPod powierzchni± bagna{x~
+Descr {yZnalaz³e¶ siê pod powierzchni± gêstego bagna i dobrze wiesz, ¿e chyba
+tylko cud móg³by ciê st±d uratowaæ... Starasz siê skoncentrowaæ by wymy¶liæ
+jakikolwiek plan ucieczki, ale jedyne co ci pozostaje to histeryczne
+machanie rêkami, lecz to i tak nic nie daje... Po prostu przygotuj siê na
+nadchodz±c± ¶mieræ... {x 
+~
+FlagsExt 0|AC
+Sector 37
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19719
+Name {yOkropnie gêsta i ciemna, br±zowa woda{x~
+Descr {yOtaczaj±ca ciê, strasznie zabrudzona i zawiesista woda zdaje siê byæ
+siedliskiem wszelkiego robactwa i bakterii. W³a¶ciwie ciê¿ko powiedzieæ ¿eby
+tak br±zowa i ca³kowicie nieprzezroczysta woda by³a wod±, jest to raczej
+odmiana rzadszego b³ota. Ciê¿ko jest ci siê poruszaæ, a tym bardziej
+cokolwiek zobaczyæ przez ten gesty mu³, nawet widz±c pod wod±. {x 
+~
+FlagsExt 0
+Sector 37
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19717
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19717
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19720
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 19720
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19720
+Name {gPo³udniowy kraniec rozleg³ej polanki{x~
+Descr {gJest to jakby wygolona w lesie, równa polana pokryta krótk±, ale dziko
+rosn±c± traw±. Jako, ¿e brakuje tutaj drzew, nad ca³± jej szeroko¶ci±
+rozpo¶ciera siê piêkny widok na niebosk³on. Na pó³nocy, tu¿ przed
+nieprzebyt± ¶cian± lasu stoi ca³kiem spora, perfekcyjnie wzniesiona piramida
+wykonana z jakiego¶ kamienia. Wysokie stopnie schodów biegn±ce na samym jej
+¶rodku zdaj± siê byæ idealnie wy¿³obione wzgl±dem k±tów
+dziewiêædziesiêciostopniowych. Ca³o¶æ wygl±da naprawdê potê¿nie. {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50878
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50878
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19719
+ExitExtEnd
+Exit 5
+~
+~
+8192 0 19719
+Roomprog exit drzewo_blok 0~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19721
+Name {gNiewielki placyk oznaczony kamieniami{x~
+Descr {gJest to niewielki placyk usypany z mocno ubitego piachu tak, aby wynosi³
+siê trochê ponad ziemiê. Otoczony zosta³ sporymi g³azami z jakimi¶
+rze¼bieniami, chyba pismem tutejszego ludu. Pod±¿aj±c ¶cie¿k± na pó³noc
+dojdziesz do ogromnej, kamiennej piramidy wzniesionej tutaj przed wiekami.
+Jej precyzyjnie zachowane k±ty i proporcje czyni± tê budowlê tajemnicz±,
+jakby nie z tego ¶wiata. Ciekawe jakich trzeba by³o przyrz±dów by wymierzy,
+zaplanowaæ i wykonaæ ten architektoniczny cud... {x 
+~
+FlagsExt 0
+Sector 11
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19722
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19722
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19725
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19725
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50877
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50877
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19726
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19726
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19722
+Name {g¦cie¿ka w ¶rodku wioski{x~
+Descr {gTa stosunkowo w±ska, ale mocno uklepana ¶cie¿ka wy³o¿ona kamieniami
+spe³nia swoje zadanie znakomicie. Widaæ ten co j± budowa³ dobrze wiedzia³
+jak to siê robi. Ca³± wioskê otacza nieprzebyta ¶ciana lasu; wygl±da to
+naprawdê potê¿nie - taki prostok±t równiuteñko wyciêty w gêstej puszczy.
+Panuje tutaj klimat raczej wilgotny, a ze wzglêdu na brak os³ony drzew jest
+tutaj ca³kiem ciep³o; optymalne wrêcz warunki do ¿ycia. {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19723
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19723
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19721
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19721
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19723
+Name {g¦cie¿ka w ¶rodku wioski{x~
+Descr {gPrzemieszczasz siê aktualnie do¶æ w±sk± ¶cie¿k± w ¶rodku jakiej¶
+tajemniczej wioski o przedziwnym wygl±dzie. Osada ta sk³ada siê z wielu
+ca³kiem sporych sza³asów wybudowanych prostopadle do dró¿ek, które s±
+precyzyjnie u³o¿one wed³ug k±tów odpowiadaj±cych innym obiektom. Wszêdzie
+tutaj panuje doskonale zachowana, a¿ dziwna symetria; ca³o¶æ wygl±da
+niesamowicie i wydaje ci siê, ¿e ma to jakie¶ g³êbsze znaczenie, tajemnicze,
+wrêcz boskie... {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19724
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19724
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19734
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19734
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19722
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19722
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19733
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19733
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19724
+Name {gU stóp wielkich schodów{x~
+Descr ~
+FlagsExt 0
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19723
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19723
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19735
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19735
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19725
+Name {g¦cie¿ka w ¶rodku wioski{x~
+Descr {gZnajdujesz siê na mocno ju¿ wydeptanej, ¶cie¿ce biegn±cej w poprzek
+rozleg³ej polanki, jakby wyciêtej w ¶rodku gêstego lasu. Dró¿ka ta, s±dz±c
+po powbijanych w ni±, mocnych kamieniach zbudowana zosta³a na potrzeby
+ciê¿kiego u¿ytkowania, tak aby u³atwia³a codzienne przemieszczanie siê
+wszystkim osadnikom. Najciekawsz± rzecz± je¶li chodzi o okolicê jest fakt,
+¿e ca³a wioska zosta³a osadzona na planie równego prostok±ta z budynkami
+u³o¿onymi w perfekcyjnie zachowane k±ty. {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19728
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19728
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19721
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19721
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19726
+Name {g¦cie¿ka w ¶rodku wioski{x~
+Descr {gPrzemieszczasz siê aktualnie do¶æ w±sk± ¶cie¿k± w ¶rodku jakiej¶
+tajemniczej wioski o przedziwnym wygl±dzie. Osada ta sk³ada siê z wielu
+ca³kiem sporych sza³asów wybudowanych prostopadle do dró¿ek, które s±
+precyzyjnie u³o¿one wed³ug k±tów odpowiadaj±cych innym obiektom. Wszêdzie
+tutaj panuje doskonale zachowana, a¿ dziwna symetria; ca³o¶æ wygl±da
+niesamowicie i wydaje ci siê, ¿e ma to jakie¶ g³êbsze znaczenie, tajemnicze,
+wrêcz boskie... {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19721
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19721
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19727
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19727
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19727
+Name {g¦cie¿ka w ¶rodku wioski{x~
+Descr {gZnajdujesz siê na mocno ju¿ wydeptanej, ¶cie¿ce biegn±cej w poprzek
+rozleg³ej polanki, jakby wyciêtej w ¶rodku gêstego lasu. Dró¿ka ta, s±dz±c
+po powbijanych w ni±, mocnych kamieniach zbudowana zosta³a na potrzeby
+ciê¿kiego u¿ytkowania, tak aby u³atwia³a codzienne przemieszczanie siê
+wszystkim osadnikom. Najciekawsz± rzecz± je¶li chodzi o okolicê jest fakt,
+¿e ca³a wioska zosta³a osadzona na planie równego prostok±ta z budynkami
+u³o¿onymi w perfekcyjnie zachowane k±ty. {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19729
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19729
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19726
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19726
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19732
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19732
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19728
+Name {g¦cie¿ka w ¶rodku wioski{x~
+Descr {gTa stosunkowo w±ska, ale mocno uklepana ¶cie¿ka wy³o¿ona kamieniami
+spe³nia swoje zadanie znakomicie. Widaæ ten co j± budowa³ dobrze wiedzia³
+jak to siê robi. Ca³± wioskê otacza nieprzebyta ¶ciana lasu; wygl±da to
+naprawdê potê¿nie - taki prostok±t równiuteñko wyciêty w gêstej puszczy.
+Panuje tutaj klimat raczej wilgotny, a ze wzglêdu na brak os³ony drzew jest
+tutaj ca³kiem ciep³o; optymalne wrêcz warunki do ¿ycia. Na wschodzie p³ynie
+sobie jaka¶ rzeczka. {x 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19730
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19730
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 50871
+ExitExtEnd
+Exit 1
+~
+~
+16 0 50871
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19731
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19731
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19725
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19725
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19729
+Name {yWnêtrze sza³asu{x~
+Descr {yJu¿ na pierwszy rzut oka mo¿na zauwa¿yæ, i¿ ten sza³as nie nale¿y do
+nikogo specjalnie wysoko postawionego w randze miejscowego plemienia. Brudna
+pod³oga, wygniecione pos³anie ze s³omy, przedmioty codziennego u¿ytku
+porozrzucane po wszystkich k±tach i wszechogarniaj±cy nie³ad ewidentnie
+potwierdzaj± ten fakt. Nic ciekawego ani cennego raczej tu nie znajdziesz,
+chocia¿ wszystko siê mo¿e zdarzyæ. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19727
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19727
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19730
+Name {yWnêtrze sza³asu{x~
+Descr {yTen drewniany sza³as zosta³ zbudowany przez wprawnego konstruktora.
+Doskonale wyciosane pale drzew, gdy¿ ciê¿ko tak potê¿ne ga³êzie ga³êziami
+nazywaæ, tworz± idealnie dopasowany okr±g, a skóry dzikich zwierz±t na nich
+rozpostarte precyzyjnie uszczelniaj± dach. Jedyn± w nim dziur± jest
+wyprofilowany wylot na dym z paleniska znajduj±cego siê na ¶rodku tego
+miejsca. Miêkkie pod³o¿e jest niesamowicie wygodne za spraw± wyprawionego
+w³osia, chyba nied¼wiedziego. Krótko mówi±c, s± to najwspanialsze mo¿liwe
+warunki na wszelkie sza³asy. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19728
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19728
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19731
+Name {yWnêtrze sza³asu{x~
+Descr {yJu¿ na pierwszy rzut oka mo¿na zauwa¿yæ, i¿ ten sza³as nie nale¿y do
+nikogo specjalnie wysoko postawionego w randze miejscowego plemienia. Brudna
+pod³oga, wygniecione pos³anie ze s³omy, przedmioty codziennego u¿ytku
+porozrzucane po wszystkich k±tach i wszechogarniaj±cy nie³ad ewidentnie
+potwierdzaj± ten fakt. Nic ciekawego ani cennego raczej tu nie znajdziesz,
+chocia¿ wszystko siê mo¿e zdarzyæ. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19728
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19728
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19732
+Name {yWnêtrze sza³asu{x~
+Descr {yTen drewniany sza³as zosta³ zbudowany przez wprawnego konstruktora.
+Doskonale wyciosane pale drzew, gdy¿ ciê¿ko tak potê¿ne ga³êzie ga³êziami
+nazywaæ, tworz± idealnie dopasowany okr±g, a skóry dzikich zwierz±t na nich
+rozpostarte precyzyjnie uszczelniaj± dach. Jedyn± w nim dziur± jest
+wyprofilowany wylot na dym z paleniska znajduj±cego siê na ¶rodku tego
+miejsca. Miêkkie pod³o¿e jest niesamowicie wygodne za spraw± wyprawionego
+w³osia, chyba nied¼wiedziego. Krótko mówi±c, s± to najwspanialsze mo¿liwe
+warunki na wszelkie sza³asy. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19727
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19727
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19733
+Name {yWnêtrze niewielkiego sza³asu{x~
+Descr {yTen drewniany sza³as zosta³ zbudowany przez wprawnego konstruktora.
+Doskonale wyciosane pale drzew, gdy¿ ciê¿ko tak potê¿ne ga³êzie ga³êziami
+nazywaæ, tworz± idealnie dopasowany okr±g, a skóry dzikich zwierz±t na nich
+rozpostarte precyzyjnie uszczelniaj± dach. Jedyn± w nim dziur± jest
+wyprofilowany wylot na dym z paleniska znajduj±cego siê na ¶rodku tego
+miejsca. Miêkkie pod³o¿e jest niesamowicie wygodne za spraw± wyprawionego
+w³osia, chyba nied¼wiedziego. Krótko mówi±c, s± to najwspanialsze mo¿liwe
+warunki na wszelkie sza³asy. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19723
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19723
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19734
+Name {yWnêtrze niewielkiego sza³asu{x~
+Descr {yTen drewniany sza³as zosta³ zbudowany przez wprawnego konstruktora.
+Doskonale wyciosane pale drzew, gdy¿ ciê¿ko tak potê¿ne ga³êzie ga³êziami
+nazywaæ, tworz± idealnie dopasowany okr±g, a skóry dzikich zwierz±t na nich
+rozpostarte precyzyjnie uszczelniaj± dach. Jedyn± w nim dziur± jest
+wyprofilowany wylot na dym z paleniska znajduj±cego siê na ¶rodku tego
+miejsca. Miêkkie pod³o¿e jest niesamowicie wygodne za spraw± wyprawionego
+w³osia, chyba nied¼wiedziego. Krótko mówi±c, s± to najwspanialsze mo¿liwe
+warunki na wszelkie sza³asy. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19723
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19723
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19735
+Name {WOgromne schody o wysokich stopniach{x~
+Descr ~
+FlagsExt 0
+Sector 43
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19742
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19742
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19724
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19724
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19736
+Name {WNa szczycie wielkiej piramidy{x~
+Descr ~
+FlagsExt 0
+Sector 43
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19737
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19737
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19742
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19742
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19737
+Name {WKomnata na szczycie piramidy{x~
+Descr Znalaz³e¶ siê w ¶mierdz±cej i brzydkiej komnacie zbudowanej z ko¶ci
+najró¿niejszych stworzeñ. Wokó³ widaæ tylko zbutwia³e rega³y zawieraj±ce
+du¿y wybór czaszek. Od najmniejszych, nale¿±cych zapewne do jakich¶ drobnych
+zwierz±t do potê¿nych g³ów o wielko¶ci po³owy rega³u. Pod³oga wy³o¿ona jest
+kamieniem, a wokó³ niej znajduje siê sprytny system odprowadzania
+deszczówki. 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19736
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19736
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19738
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19738
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19738
+Name {WDziwny korytarz{x~
+Descr ~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19739
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19739
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19740
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19740
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19741
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19741
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19737
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19737
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19739
+Name {WDziwny korytarz{x~
+Descr ~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19743
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19743
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19749
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19749
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19738
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19738
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19740
+Name {WObszerna komnata kap³añska{x~
+Descr ~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19738
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19738
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19741
+Name {WPomieszczenie kap³añskich medytacji{x~
+Descr ~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19738
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19738
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19742
+Name {WOgromne schody o wysokich stopniach{x~
+Descr ~
+FlagsExt 0|H
+Sector 43
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19736
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19736
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19735
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19735
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19743
+Name {WKoniec dziwnego korytarza{x~
+Descr ~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19739
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19739
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19744
+Name {DMroczny korytarz{x~
+Descr ~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19745
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19745
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19745
+Name {DMroczny korytarz{x~
+Descr ~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19746
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19746
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19744
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19744
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19746
+Name {DMroczny korytarz{x~
+Descr ~
+FlagsExt 0|A
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19745
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19745
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19747
+ExitExtEnd
+Exit 5
+~
+~
+0 0 19747
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19747
+Name {DW±skie przej¶cie{x~
+Descr ~
+FlagsExt 0|A
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19748
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19748
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19746
+ExitExtEnd
+Exit 4
+~
+~
+0 0 19746
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19748
+Name {DPrastara komnata{x~
+Descr ~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19747
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19747
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19749
+Name {DOkropne i zaniedbane pomieszczenie{x~
+Descr ~
+FlagsExt 0|A
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19739
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19739
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+M 19703 spec_nasty
+S
+
+
+
+#RESETS
+O 100 19700 0 19700
+O 100 19700 0 19701
+O 100 19700 0 19702
+O 100 19700 0 19703
+O 100 19700 0 19704
+M 100 19701 2 19705 2
+E 100 3300 0 16
+O 100 19700 0 19707
+O 100 19700 0 19708
+O 100 19700 0 19709
+O 100 19701 0 19710
+M 100 19700 1 19710 1
+M 100 19701 2 19713 2
+E 100 3300 0 16
+O 100 19750 0 19720
+S
+
+
+
+#MOBPROGSNEW
+#19702
+~
+if rand 10
+mob echo Kowal wali z calej si³y w kowad³o swoim mlotem!
+else
+if rand 15
+mob echo S³yszysz g³o¶ne sykniêcie kiedy kowal wk³ada rozgrzany kawal metalu do beczki z wod±!
+else
+if rand 20
+mob echo Kowal u¶miecha siê weso³o po czym ci±gnie ³yka z piersiówki i mocno siê otrz±sa.
+else
+if random 25
+mob echo Kowal drapie siê po g³owie i zieeewa nie zas³aniaj±c buzi.
+else
+if rand 30
+mob echo Nagle kowal zaczyna t³uc swoim m³otem po calej pod³odze! Po chwili widzisz rozgniecionego skarabeusza...
+endif
+endif
+endif
+endif
+endif
+~
+#19703
+~
+say Niechaj bogini nasza bêdzie wys³awiana. Witaj!
+~
+#19704
+~
+say Mo¿e siê na co¶ zdecydujesz?
+mob force $n list
+~
+#19705
+~
+if rand 10
+  mob echo Stary kupiec nagle zasypia wpadaj±c g³ow± w lembasy le¿±ce na straganie.
+else
+  if rand 15
+    mob echo Widzisz jak wielka kad¼ b³otnego musu zaczyna bulgotaæ.
+  else
+    if rand 20
+      mob echo Stary kupiec odlewa troche b³otnego musu do butelki.
+    else
+      if rand 25
+        say Ech... Kiedy by³em m³ody to...
+        mob force kupiec sleep
+        mob echo Stary kupiec nagle zasypia. Chrr... Chrr...
+      else
+        if rand 50
+          mob echo Stary kupiec zieeeewa.
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#19706
+~
+if rand 50
+mob echoat $n Twój cios trafi³ w rêkê manekina, która wykonala pe³ny obrót i walnê³a ciê w zêby!
+mob echoaround $n Manekin obraca rêk± i trafia $z w zêby.
+mob damage $n 1 20
+else
+mob echoat $n Trafi³e¶ w rêkê przeciwnika, a ona obróci³a siê i zada³a cios. Na szczê¶cie uda³o ci siê go unikn±æ.
+mob echoaround $n $n zgrabnie unika ciosu manekina.
+endif
+~
+#19707
+~
+if clan $n Akolita
+  usm
+else
+  say Tylko wybrañcy Pradawnej Bogini mog± mnie dosiadaæ.
+  mob echoat $n Centaur zgrabnie zrzuca ciê na ziemiê.
+  mob echoaround $n Centaur zgrabnie zrzuca $z ze swojego grzbietu!
+  mob force $n sit
+endif
+~
+#bagienny_death
+~
+mob echo Nagle ca³y teren wznosi siê wysoko porywaj±c ze sob± wszystko dooko³a!
+mob echo Po chwili bagnista masa {GEKSPLODUJE{x wypluwaj±c zawarto¶æ na wierzch!
+mob transfer all 19709
+mob at 19709 mob echo Ogromna fala b³ota odrzuca ciê daleko w ty³!
+mob at 19709 mob damage all 40 60 GORST!
+mob oload random 4
+mob oload random 4
+mob oload random 6
+mob oload random 6
+mob oload random 4
+mob oload random 7
+mob oload gem 8
+mob oload gem 8
+mob oload gem 8
+mob oload gem 8
+mob oload gem 8
+mob oload gem 8
+mob oload gem 8
+mob oload wrist 7
+mob oload wrist 7
+mob oload ear 7
+mob oload ear 7
+mob oload ear 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+if rand 90
+  if canloadarte 50871
+    mob aload 50871
+  endif
+endif
+~
+#pustelnik_greet
+~
+if !hasflag $n byl_juz_pustelnik
+  sayto $n Ooo... Witam kimkolwiek jeste¶, dawno nie widzia³em tutaj kogo¶ takiego jak ty...
+  chich
+  minidelay 10
+  sayto $n Nie wiem jakim cudem dotar³e¶ tutaj ca³y zdrów...
+  sayto $n ¯e te¿ nikt ciê nie ostrzeg³... Pos³uchaj mnie!
+  sayto $n ¯yjê ju¿ tutaj kilkadziesi±t, mo¿e nawet kilkaset lat, ale
+  sayto $n Ca³kiem niedawno odkry³em, jakie¶ piêædziesi±t, mo¿e
+  sayto $n Sto lat temu podczas zbierania jednego z zió³ ciekaw±
+  sayto $n Rzecz na temat tych mrocznych bagien...
+  minidelay 10
+  sayto $n Spod jednego z grz±skich bagien wy³oni³ siê pewien
+  sayto $n Cz³owiek najdziwniejsze by³o to, ¿e by³ jeszcze ¿ywy!
+  sayto $n Ca³kiem niedawno podniós³ siê poziom jednej z rzek na
+  sayto $n Niedalekim wschodzie. Po d³u¿szych domy¶laniach
+  sayto $n Stwierdzi³em, ¿e je¶li po jej zachodniej stronie
+  minidelay 10
+  sayto $n Znajdowa³a siê jaka¶ osada to rzeka odciê³aby j± od
+  sayto $n Ca³ego ¶wiata na wschodzie, wiêc byæ mo¿e gdzie¶
+  sayto $n Tutaj znale¼li wyj¶cie... on w sumie wynurzy³ siê z
+  sayto $n Bagna a wygl±dem pasowa³ do tutejszych, dawnych plemion
+  minidelay 10
+  sayto $n Teraz trzeba uwa¿aæ, bo wys³ali tutaj zwiadowców, którzy
+  sayto $n Zdaj± siê byæ raczej niezbyt przyja¼nie nastawieni, zapewne
+  sayto $n Chc± odnale¼æ drogê prowadz±c± poza obszar ich otoczonej
+  sayto $n Rzek± wioski, eh... ale to tylko moje domys³y...
+  mob echo Stary pustelnik wraca do rozmowy z paleniskiem.
+  mob setflag $n byl_juz_pustelnik 96
+else
+  sayto $n O, to znowu ty? Lepiej jak najszybciej opu¶æ te bagna!
+  sayto $n Zanim co¶ z³ego siê ci stanie!
+endif
+~
+#pustelnik_rand
+~
+$_rand = int_random 1 7
+if numeval $_rand == 1
+  mob echo Pustelnik wydrapuje sobie trochê naskórka spod pachy.
+endif
+if numeval $_rand == 2
+  mob echo Pustelnik mamrocze co¶ d³ugo pod nosem i wrzuca do ognia trochê zió³ek, które p³on± szybko!
+endif
+if numeval $_rand == 3
+  mob echo Pustelnik ¶cina no¿em do¶æ sporego grzybka rosn±cego mu na nosie i wrzuca go do garnka z zup±!
+endif
+if numeval $_rand == 4
+  mob echo Pustelnik mocno drapie siê po nodze tak, ¿e sporo zielonego naskórka sypie siê dooko³a!
+endif
+if numeval $_rand == 5
+  mob echo Pustelnik zamyka oczy i wypycha sobie do buzi sporo zesch³ej trawy!
+endif
+if numeval $_rand == 6
+  mob echo Pustelnik obserwuje chwilê jakiego¶ robala, a nastêpnie chwyta go za odw³ok i po³yka w ca³o¶ci!
+endif
+if numeval $_rand == 7
+  mob echo Pustelnik bierze ³yka z garnka wype³nionego jak±¶ b³otn± papk± i zagryza jak±¶ ga³±zk±...
+endif
+~
+#0
+
+#OBJPROGSNEW
+#19700
+~
+mob echoat $n Dotykasz pier¶cienia i wypowiadasz wyuczon± magiczn± formu³kê!
+mob echoaround $n $n dotyka pier¶cienia i wypowiada s³owa: Navahres atalai!
+mob echo Wszystko wokó³ zaczyna wirowaæ!
+mob transfer $n 19738
+mob addaff $n poison 10
+~
+#19701
+~
+if clan $n Akolita
+mob echoat $n Czujesz jak moc twojej Bogini zaczyna nad tob± czuwaæ!
+mob echoaround $n Czujesz, ¿e nad $v zaczyna czuwaæ Pradawna Bogini. 
+else
+mob force $n remove pierscien
+mob echoat $n Zak³adaj±c pier¶cieñ s³yszysz w g³owie g³os: Nie jeste¶ godzien!
+mob echoaround $n Widzisz, ¿e $n próbuje za³o¿yæ pier¶cieñ, ale jaka¶ moc w nim zawarta nie pozwala mu na to!
+mob addaff $n blind 5
+endif
+~
+#19702
+~
+if clan $n Akolita
+  mob echoat $n Czujesz, ¿e {Dfaliste stiletto{x zaczyna delikatnie buczeæ ukryt± w nim moc±!
+  mob echoaround $n Widzisz szczery u¶miech $z kiedy chwyta pewnie w d³oñ {Dfaliste stiletto{x.
+else
+  mob force $n remowe stiletto
+  mob echoat $n Chywytaj±c {Dfaliste stiletto{x w d³oñ czujesz jak boska moc uderza ciê w g³owê!
+  mob echoaround $n $n próbuje za³o¿yæ {Dfaliste stiletto{x, ale co¶ wyra¼nie mu na to nie pozwala!
+  mob addaff $n feeblemind 5
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#19702
+~
+if hasflag $n modlilsie
+mob echoat $n Modli³e¶ siê ca³kiem niedawno. Odczekaj trochê póki gotów bêdziesz znów stan±æ przed Bogini±.
+else
+mob setflag $n modlilsie 5
+mob force $n sit
+delay 1
+mob echoat $n Siedz±c przed o³tarzem, sk³adasz rêce i pochylasz g³owê
+mob echoaround $n $n przygotowuje siê do modlitwy.
+delay 1
+mob echoat $n Skupiasz siê mocno nad sob± i zwierzasz siê z wszystkiego swojej Bogini.
+mob echoaround $n $n pochyla siê nad o³tarzem i szepcze co¶ cicho.
+delay 1
+mob echoat $n Zamykasz oczy, przyjmujesz pozycjê kwiatu lotosu i wyciszasz siê kompletnie.
+mob echoaround $n $n wyra¼nie stara siê nad czym¶ skupiæ.
+delay 1
+mob echoat $n Odmawiasz cicho skomplikowan± modlitwê w prastarym jêzyku.
+mob echoaround $n $n odmawia jak±¶ modlitwê w dziwnym jêzyku.
+delay 1
+if rand 50
+mob echoat $n Czujesz jak sp³ywa na ciebie b³ogos³awieñstwo Bogini.
+mob echoaround $n $n u¶miecha siê weso³o. Otrzyma³ b³ogos³awieñstwo swej Bogini.
+mob addaff $n luck 1 12
+else
+mob echoat $n Nieuda³o ci siê odpowiednio skoncentrowaæ.
+mob echoaround $n $n wali piê¶ci± w pod³ogê, nie uzyska³ b³ogos³awienia swej Bogini.
+endif
+endif
+~
+#19703
+~
+If mobhere 19700
+  If clan $n Akolita
+    mob echoat $n Raksaszi wpuszcza ciê do ¶rodka.
+    Mob echoaround $n $n znika w bramie.
+    Mob transfer $n 19718
+  Else
+    Mob echoat $n Kiedy próbujesz przej¶æ przez bramê raksaszi zagradza ci drogê.
+  Endif
+else
+  Mob echoat $n Przechodzisz po bramie na drug± stronê.
+  Mob echoaround $n $n przechodzi po bramie na drug± stronê.
+  Mob transfer $n 19718
+Endif
+~
+#19704
+~
+if clan $n Akolita
+  mob echoat $n Zgrabnie omijasz znan± ci ju¿ pu³apkê.
+else
+  if rand 50
+    mob echoat $n *KLIK* Nadepn±³e¶ na w³±cznik zapadni!
+    mob echoat $n Wpadasz do tunelu przypominaj±cego ¶lizgawkê i jedziesz w dó³!
+    mob echoat $n L±dujesz na twardej posadzce w wiêzieniu!
+    mob transfer $n 19746
+  else
+    mob echoat $n *KLIK* Nadepn±³e¶ na w³±cznik zapadni!
+    mob echoat $n Na szczê¶cie uda³o ci siê omin±æ dziurê i nie spad³e¶ w dó³.
+    mob transfer $n 19738
+  endif
+endif
+~
+#19705
+~
+if clan $n Akolita
+else
+  mob echoat $n Grzmot! Czujesz jak b³yskawica wystrzelona z wierzchu piramidy pali ciê!
+  mob echoaround $n Widzisz jak $n wije siê z bólu! Trafi³a go b³yskawica ze szczytu piramidy!
+  mob damage $n 50 80 kill
+endif
+~
+#19706
+~
+~
+#19707
+~
+if clan $n Akolita
+else
+  mob echoat $n Czujesz siê ¼le i wymiotujesz na ziemiê. To na pewno za spraw± tej koszmarnej piramidy!
+  mob echoaround $n $n trzêsie siê i cierpi po czym wymiotuje w twoj± stronê!
+  mob damage $n 60 80 kill
+endif
+~
+#bagno_wciaga_do
+~
+if ispc $n
+  mob reward $n wait 50
+  mob echoat $n Wchodz±c tutaj niespodziewanie walisz w jak±¶ ga³±¼ i przewracasz siê na ziemiê!
+  mob echoaround $ $n wchodz±c tutaj niespodziewanie wali w jak±¶ ga³±¼ i przewraca siê na ziemiê!
+  mob setpos $n sitting
+  minidelay 3
+mob echoat $n Czujesz jak twoje stopy zaczynaj± zapadaæ siê pod powierzchniê!
+mob echoaround $n Widzisz jak stopy $z zaczynaj± zapadaæ siê pod powierzchniê!
+  minidelay 10
+  mob echoat $n Twoje nogi s± ju¿ po kolana w b³ocie! Lepiej st±d odejd¼ zanim ca³kowicie ciê wci±gnie!
+  mob echoaround $n Bagno niemal ca³kowicie wci±ga $z pod powierzchniê!
+  minidelay 10
+  mob echoat $n Bagno wci±ga ciê ca³kowicie! Z trudem ³apiesz ostatki powietrza!
+  mob echoaround $n Bagno poch³ania $z! Ostatnie co robi to próbuje ³apaæ ostatki powietrza! Mo¿e da siê go jeszcze uratowaæ?
+  mob transfer $n 19716
+endif
+~
+#bagno_wciagacz
+~
+if ispc $n
+  mob reward $n wait 50
+  mob echoat $n Wchodz±c tutaj niespodziewanie walisz w jak±¶ ga³±¼ i przewracasz siê na ziemiê!
+  mob echoaround $ $n wchodz±c tutaj niespodziewanie wali w jak±¶ ga³±¼ i przewraca siê na ziemiê!
+  mob setpos $n sitting
+  minidelay 3
+mob echoat $n Czujesz jak twoje stopy zaczynaj± zapadaæ siê pod powierzchniê!
+mob echoaround $n Widzisz jak stopy $z zaczynaj± zapadaæ siê pod powierzchniê!
+  minidelay 10
+  mob echoat $n Twoje nogi s± ju¿ po kolana w b³ocie! Lepiej st±d odejd¼ zanim ca³kowicie ciê wci±gnie!
+  mob echoaround $n Bagno niemal ca³kowicie wci±ga $z pod powierzchniê!
+  minidelay 10
+mob echoat $n Bagno wci±ga ciê pod powierchniê! Z trudem ³apiesz ostatki powietrza!
+  mob echoaround $n Bagno poch³ania $z! Ostatnie co robi to próbuje ³apaæ ostatki powietrza! Mo¿e da siê go jeszcze uratowaæ?
+  mob transfer $n 19718
+endif
+~
+#drzewo_blok
+~
+mob echoat $n Nie dasz rady! Drzewo ca³kowicie blokuje przej¶cie - wymy¶l co¶ innego.
+~
+#up_woda_bagno
+~
+mob echoat $n Wytê¿aj±c w ogromnym wysi³ku swoje cia³o udaje ci wydostaæ na zewn±trz.
+mob echoaround $n $n wytê¿aj±c swoje cia³o w ogromnym wysi³ku wydostaje siê na powierzchniê bagna.
+mob transfer $n 19713
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

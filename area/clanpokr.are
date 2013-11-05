@@ -1,0 +1,831 @@
+#AREADATA
+Name {YOLD-CLAN{x: Podli Krwiopijcy~
+Builders Oldklan Senhan~
+VNUMs 60381 60400
+Credits builder: Senhan
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 60397
+Name gnomi sklepikarz~
+Odmiana gnomiego sklepikarza~gnomiemu sklepikarzowi~gnomiego sklepikarza~gnomim sklepikarzem~gnomim sklepikarzu~
+Short Gnomi sklepikarz~
+Long {xW k±cie sali siedzi biedny gnomi sprzedawca przykuty ³añcuchami do ¶ciany.{x~
+Descr Spogl±dasz na wychudzonego i wysuszonego gnomiego sklepikarza. Jest on
+niewolnikiem {DPod³ych Krwiopijców{x. Nie ma sensu z nim rozmawiaæ, kup co¶ i
+odejd¼. 
+~
+Race gnom~
+ActExt 0|AB
+Affected 128 0 0 0
+AffectedExt 0|H
+Align -100
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 1d1+100
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 200 10 10 10 10 10 10
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 60388
+Name trumna~
+Odmiana trumny~trumnie~trumnê~trumn±~trumnie~
+Short trumna~
+Descr Widzisz przed sob± du¿± trumnê.~
+Material mithril~
+Type treasure
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Itemdesc Spogl±dasz na wielk± trumn±. W ¶rodku znajduje siê jeden z {DPod³ych
+Krwiopijców{x lepiej ¿eby siê nie obudzi³. Uciekaj st±d ! 
+~
+Comments ~
+Objend
+#Vnum 60389
+Name trumna~
+Odmiana trumny~trumnie~trumnê~trumn±~trumnie~
+Short trumna~
+Descr Widzisz przed sob± du¿± trumnê.~
+Material mithril~
+Type treasure
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Itemdesc Spogl±dasz na wielk± trumn±. W ¶rodku znajduje siê jeden z {DPod³ych
+Krwiopijców{x lepiej ¿eby siê nie obudzi³. Uciekaj st±d ! 
+~
+Comments ~
+Objend
+#Vnum 60393
+Name wielki pomnik pod³ego krwiopijcy~
+Odmiana pomnika {Dpod³ego krwiopijcy{x~pomnikowi {Dpod³ego krwiopijcy{d~pomnik {Dpod³ego krwiopijcy{x~pomnikiem {Dpod³ego krwiopijcy{x~pomniku {Dpod³ego krwiopijcy{x~
+Short wielki pomnik {Dpod³ego krwiopijcy{x~
+Descr Widzisz przed sob± monstrualnie wielki pomnik {Dpod³ego krwiopijcy{x.~
+Material z³oto~
+Type treasure
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 60381
+Name Wej¶cie~
+Descr {WStajesz przed wielkimi wrotami. Od razu zauwa¿asz gigantyczny napis na
+wielkich drzwiach: "{RWON PSIE ! NIE JESTE¦ TU MILE WIDZIANY ! {W". Po
+przeczytaniu tego napisu ci siê ciep³o w portkach. I¶æ czy zawróciæ?
+Hmmmm... {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60382
+ExitExtEnd
+Exit 1
+~
+VName Brama~
+~
+0 0 60382
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11253
+ExitExtEnd
+Exit 2
+~
+~
+0 0 11253
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60382
+Name Przej¶cie~
+Descr {wZnajdujesz siê w w±skim przej¶ciu na dwie, maksymalnie na trzy osoby.
+Jest to ciasno i nie przyjemnie. Wszêdzie czuæ stêchlizn± i wymiocinami.
+Nikt by siê nie spodziwa³, ¿e tak paskudne miejsca mog± istnieæ na tym
+¶wiecie. Lepiej i¶æ dalej i siê nie zatrzymywaæ, albo... Najlepiej by³oby
+zawróciæ i uciekaæ do wyj¶cia zanim krwiopijcy siê obudz±. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60383
+ExitExtEnd
+Exit 1
+~
+~
+0 0 60383
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60381
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 60381
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60383
+Name Zakrêt~
+Descr {wStajesz na zakrêcie, po kolana w b³ocie. ¦mierdzi tu strasznie, wszêdzie
+na murach widaæ krew i podwieszone pod sufitem ko¶ci. Jaka pod³a nacja
+musia³a tutaj przebywaæ? A mo¿e... Dalej tu s±? Lepiej siê tego nie
+dowiadywaæ. Zawróciæ na piêcie i uciekaæ ile si³ w nogach. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0
+Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60384
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60384
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60382
+ExitExtEnd
+Exit 3
+~
+~
+0 0 60382
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60384
+Name Odnoga~
+Descr {wKolejne przyt³aczaj±ce miejsce. ¦mierdzi tu zgnilizn± i rozk³adaj±cymi
+siê cia³ami. ¦ciany tej jaskini w ca³o¶ci pokryte s± krwi±. Przez krew
+przebija siê wielki czarny napis {DKrwiopijcy{w. Kim s± krwiopijcy? To jaka¶
+sekta? Pij± krew czy jak? Oby Ciê nie dopali bo raczej niechia³by¶ wiedzieæ
+nic na ich temat. Pomieszczenie to o¶wietla wielka g³owa jakiego¶ stwora...
+To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60385
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60385
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60383
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60383
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60385
+Name Skrzy¿owanie~
+Descr {wStajesz na du¿ym skrzy¿owaniu. Rozgl±daj±c siê widzisz tabliczki soj±ce
+na pocz±tkach dróg. Na wschód "Sklep", na zachód tabliczka z napisem
+"¦wi±tynia", a na pó³noc "{DKrypta Pod³ych Krwiopijców{w". Zastanawiasz siê, po
+chwili wiesz ¿e jest to jaka¶ siedziba. Mo¿e lepiej opu¶æ to miejsce. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60386
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60386
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60394
+ExitExtEnd
+Exit 1
+~
+~
+0 0 60394
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60384
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60384
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60390
+ExitExtEnd
+Exit 3
+~
+~
+0 0 60390
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60386
+Name Odnoga~
+Descr {wKolejne przyt³aczaj±ce miejsce. ¦mierdzi tu zgnilizn± i rozk³adaj±cymi
+siê cia³ami. ¦ciany tej jaskini w ca³o¶ci pokryte s± krwi±. Przez krew
+przebija siê wielki czarny napis {DKrwiopijcy{w. Kim s± krwiopijcy? To jaka¶
+sekta? Pij± krew czy jak? Oby Ciê nie dopali bo raczej niechia³by¶ wiedzieæ
+nic na ich temat. Pomieszczenie to o¶wietla wielka g³owa jakiego¶ stwora...
+To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60387
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60387
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60385
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60385
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60387
+Name Zakrêt~
+Descr {wStajesz na zakrêcie, po kolana w b³ocie. ¦mierdzi tu strasznie, wszêdzie
+na murach widaæ krew i podwieszone pod sufitem ko¶ci. Jaka pod³a nacja
+musia³a tutaj przebywaæ? A mo¿e... Dalej tu s±? Lepiej siê tego nie
+dowiadywaæ. Zawróciæ na piêcie i uciekaæ ile si³ w nogach. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 12
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60388
+ExitExtEnd
+Exit 1
+~
+~
+0 0 60388
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60386
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60386
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60388
+Name Przej¶cie~
+Descr {wZnajdujesz siê w w±skim przej¶ciu na dwie, maksymalnie na trzy osoby.
+Jest to ciasno i nie przyjemnie. Wszêdzie czuæ stêchlizn± i wymiocinami.
+Nikt by siê nie spodziwa³, ¿e tak paskudne miejsca mog± istnieæ na tym
+¶wiecie. Lepiej i¶æ dalej i siê nie zatrzymywaæ, albo... Najlepiej by³oby
+zawróciæ i uciekaæ do wyj¶cia zanim krwiopijcy siê obudz±. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Krypta~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60389
+ExitExtEnd
+Exit 1
+~
+VName Krypta~
+~
+0 0 60389
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60387
+ExitExtEnd
+Exit 3
+~
+~
+0 0 60387
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60389
+Name Krypta Pod³ych Krwiopijców~
+Descr {wWkraczasz do wielkiej krypty {DPod³ych Krwiopijców{w dooko³a stoj± jakie¶
+trumny z wyrytymi imionami osobników prawdopodobnie le¿±cych w nich.
+Najlepiej by³oby usun±æ siê z tego miejsca i zwiedzaæ inny kraniec ¶wiata.
+Tu jest stanowczo zbyt mrocznie i niebezpiecznie. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60388
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 60388
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60390
+Name Odnoga~
+Descr {wKolejne przyt³aczaj±ce miejsce. ¦mierdzi tu zgnilizn± i rozk³adaj±cymi
+siê cia³ami. ¦ciany tej jaskini w ca³o¶ci pokryte s± krwi±. Przez krew
+przebija siê wielki czarny napis {DKrwiopijcy{w. Kim s± krwiopijcy? To jaka¶
+sekta? Pij± krew czy jak? Oby Ciê nie dopali bo raczej niechia³by¶ wiedzieæ
+nic na ich temat. Pomieszczenie to o¶wietla wielka g³owa jakiego¶ stwora...
+To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60385
+ExitExtEnd
+Exit 1
+~
+~
+0 0 60385
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60391
+ExitExtEnd
+Exit 3
+~
+~
+0 0 60391
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60391
+Name Zakrêt~
+Descr {wStajesz na zakrêcie, po kolana w b³ocie. ¦mierdzi tu strasznie, wszêdzie
+na murach widaæ krew i podwieszone pod sufitem ko¶ci. Jaka pod³a nacja
+musia³a tutaj przebywaæ? A mo¿e... Dalej tu s±? Lepiej siê tego nie
+dowiadywaæ. Zawróciæ na piêcie i uciekaæ ile si³ w nogach. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 12
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60392
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60392
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60390
+ExitExtEnd
+Exit 1
+~
+~
+0 0 60390
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60392
+Name Przej¶cie~
+Descr {wZnajdujesz siê w w±skim przej¶ciu na dwie, maksymalnie na trzy osoby.
+Jest to ciasno i nie przyjemnie. Wszêdzie czuæ stêchlizn± i wymiocinami.
+Nikt by siê nie spodziwa³, ¿e tak paskudne miejsca mog± istnieæ na tym
+¶wiecie. Lepiej i¶æ dalej i siê nie zatrzymywaæ, albo... Najlepiej by³oby
+zawróciæ i uciekaæ do wyj¶cia zanim krwiopijcy siê obudz±. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName ¦wi±tynia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60393
+ExitExtEnd
+Exit 0
+~
+VName ¦wi±tynia~
+~
+0 0 60393
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60391
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60391
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60393
+Name ¦wi±tynia~
+Descr {wZnajdujesz siê w pomieszczeniu, które {DPodli Krwiopijcy{w nazywaj± swoj±
+¶wi±tyni±. Czuæ w tym miejscu potê¿n± magiê, która pozwala lepiej
+regenerowaæ swoje si³y po wojnach oraz zapamiêtywaæ czary. Lepiej st±d
+odejd¼ je¶li nie jeste¶ z klanu {DPod³ych Krwiopijców{w. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60392
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+0 0 60392
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60394
+Name Odnoga~
+Descr {wKolejne przyt³aczaj±ce miejsce. ¦mierdzi tu zgnilizn± i rozk³adaj±cymi
+siê cia³ami. ¦ciany tej jaskini w ca³o¶ci pokryte s± krwi±. Przez krew
+przebija siê wielki czarny napis {DKrwiopijcy{w. Kim s± krwiopijcy? To jaka¶
+sekta? Pij± krew czy jak? Oby Ciê nie dopali bo raczej niechia³by¶ wiedzieæ
+nic na ich temat. Pomieszczenie to o¶wietla wielka g³owa jakiego¶ stwora...
+To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60395
+ExitExtEnd
+Exit 1
+~
+~
+0 0 60395
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60385
+ExitExtEnd
+Exit 3
+~
+~
+0 0 60385
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60395
+Name Zakrêt~
+Descr {wStajesz na zakrêcie, po kolana w b³ocie. ¦mierdzi tu strasznie, wszêdzie
+na murach widaæ krew i podwieszone pod sufitem ko¶ci. Jaka pod³a nacja
+musia³a tutaj przebywaæ? A mo¿e... Dalej tu s±? Lepiej siê tego nie
+dowiadywaæ. Zawróciæ na piêcie i uciekaæ ile si³ w nogach. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 12
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60396
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60396
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60394
+ExitExtEnd
+Exit 3
+~
+~
+0 0 60394
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60396
+Name Przej¶cie~
+Descr {wZnajdujesz siê w w±skim przej¶ciu na dwie, maksymalnie na trzy osoby.
+Jest to ciasno i nie przyjemnie. Wszêdzie czuæ stêchlizn± i wymiocinami.
+Nikt by siê nie spodziwa³, ¿e tak paskudne miejsca mog± istnieæ na tym
+¶wiecie. Lepiej i¶æ dalej i siê nie zatrzymywaæ, albo... Najlepiej by³oby
+zawróciæ i uciekaæ do wyj¶cia zanim krwiopijcy siê obudz±. Pomieszczenie to
+o¶wietla wielka g³owa jakiego¶ stwora... To chyba g³owa smoka. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60395
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60395
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sklep~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60397
+ExitExtEnd
+Exit 2
+~
+VName Sklep~
+~
+0 0 60397
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60397
+Name Sklep~
+Descr {wWchodzisz do zasyfionego sklepu w którym nic nie ma. Przy ladzie ¶pi
+jaki¶ gnom przykuty ³añcuchami do ziemi. To jest sklep? Nie wygl±da na
+sklep, mo¿e jednak gnom ma co¶ do sprzedania. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60396
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+0 0 60396
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60398
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60399
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60400
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+60397 0 0 0 0 0 120 80 0 23 * 60397
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 3380 0 60382
+O 100 3380 0 60383
+O 100 3380 0 60384
+O 100 3380 0 60385
+O 100 3380 0 60386
+O 100 3380 0 60387
+O 100 3380 0 60388
+O 100 60389 0 60389
+O 100 60388 0 60389
+O 100 3380 0 60390
+O 100 3380 0 60391
+O 100 3380 0 60392
+O 100 60393 0 60393
+O 100 3380 0 60394
+O 100 3380 0 60395
+O 100 3380 0 60396
+M 100 60397 1 60397 1
+G 100 3147 0
+G 100 3380 0
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

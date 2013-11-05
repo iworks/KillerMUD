@@ -1,0 +1,1592 @@
+#AREADATA
+Name {R@{x ! # NK Podziemne jeziorko~
+Builders Nk~
+VNUMs 41261 41299
+Credits leonardo_killer@o2.pl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 41261
+Name Arapaima~
+Odmiana Arapaimy~Arapaimie~Arapaimê~Arapaim±~Arapaimie~
+Short Arapaima~
+Long Niewinnie wygl±daj±ca ryba p³ywa sobie w jeziorze.~
+Descr Jest to jedna z najwiêkszych ryba s³odkowodnych na ¶wiecie. Ma oko³o
+trzech metrów d³ugo¶ci aczkolwiek jest to ryba o ³agodnym usposobieniu i nie
+musisz siê obawiaæ agresywnego zachowania z jej strony. Je¶li nie bêdziesz
+dla niej agresywny, mo¿esz spokojnie p³ywaæ w jeziorze. 
+~
+Race ryba~
+ActExt 0|AX
+Affected 0 524288 0 0
+AffectedExt 1|T
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 1
+HP 6d3+90
+Damage 2d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 60 48 48 48 48 78 78
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AGb
+Parts ADFOQRX
+Size medium
+Material unknown
+Skin 10
+ExpMultiplier 100
+Mobend
+#Vnum 41262
+Name ma³a rybka~
+Odmiana Rybki~Rybce~Rybkê~Rybk±~Rybce~
+Short ma³a rybka~
+Long Mala niepozorna rybka pluska siê w wodzie.~
+Descr Ma³a rybka wygl±da ma³o okazale. Cale cia³o pokryte jest równo u³o¿onymi
+³uskami. P³etwa grzbietowa bardzo d³uga i siêga prawie do nasady trzon
+ogonowego. Widaæ ze ryba ¿ywi siê drobnymi bezkrêgowcami ¿yj±cymi na dnie
+jeziora. 
+~
+Race unique~
+ActExt 0|AX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 2
+HP 4d4+70
+Damage 2d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form G
+Parts 0
+Size tiny
+Material unknown
+Skin 2
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 41261
+Name Wej¶cie do jaskini~
+Descr Stoisz przed ¶redniej wielko¶ci jaskinia. Wej¶cie do niej jest delikatnie
+przysypane gruzem spadaj±cym ze zbocza górskiego. Zagl±daj±c do ¶rodka mo¿na
+³atwo oceniæ ze jest tam ciemno, mokro i zimno. Z daleka s³ychaæ kapanie
+wody i raz jaki¶ dziwny szum. Miejsce to jest rzadko uczêszczane. Jaskinia
+wydaje siê bardzo tajemnicza. 
+~
+FlagsExt 0
+Sector 5
+Extra jaskinia~
+Spogladasz na t± dziwn±, naturalna, pusta przestrzeñ w skale posiadaj±ca wylot na zewn±trz. Zastanawiasz sie co mo¿e kryc sie w srodku.
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Jaskinia~
+ExitExtName jaskinia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41262
+ExitExtEnd
+Exit 3
+~
+VName Jaskinia~
+jaskinia~
+0 0 41262
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41262
+Name Olbrzymia hala~
+Descr W tym miejscu jaskinia siê rozszerza. Tunel staje siê jak gdyby du¿±
+hal±. Na wschodzie widzisz wodospad spadaj±cy kaskadami wody. Panuje tu
+straszny szum spowodowany ci±g³ym uderzaniem wody o tafle p³ytkiego
+strumienia. Wodospad Jest stosunkowo niewielki. Ma oko³o dziesiêciu stóp
+wysoko¶ci. Zaciekawienie wywo³uje w tobie widoczna ma³a jaskinia za jêzorem
+spadaj±cej wody. Zdajesz sobie sprawê ze to dziewicze miejsce i jeszcze
+nikomu nie uda³o siê tam dostaæ. Tunel zaczyna sie powoli wznosiæ. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyjscie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41261
+ExitExtEnd
+Exit 1
+~
+VName Wyjscie~
+~
+0 0 41261
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41263
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41263
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41263
+Name Wzniesienie tunelu~
+Descr Podszed³e¶ pod niewielkie wzniesienie tunelu w jaskini. Idzie ci siê
+ciê¿ko i bardzo siê meczysz. W oddali s³ychaæ szum wody. Wszech obecna
+wilgoæ staje siê bardzo uci±¿liwa. Mia³by¶ ochotê zawróciæ ale ciekawo¶æ
+jest bardzo silna. Masz mêtlik w g³owie. W oddali widzisz jak tunel zakrêca
+w kierunku zachodnim. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41264
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41264
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41262
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41262
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41264
+Name Zakrêt korytarza ~
+Descr Pod±¿aj±c na zachód wzd³u¿ ¶ciany korytarza masz wra¿enie pustki jaka
+panuje w tym miejscu. Nie ma ¶ladów zwierz±t ani nawet pozosta³o¶ci po nich.
+Chyba jeste¶ pierwsza osoba która tedy przechodzi. Wydaje ci siê absurdalnym
+to ze nawet paj±ki odmówi³y pracy w tym tunelu. Spogl±daj±c na po³udnie
+widzisz jak tunel zakrêca ku zachodowi. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41263
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41263
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41265
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41265
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41265
+Name Tunel w jaskini ~
+Descr Znajdujesz siê z w bardzo du¿ym i rozleg³ym tunelu. Masz wra¿enie ze
+prowadzi do jakiego¶ tajemniczego miejsca. Skapuj±ca woda ze ¶cian ³±czy siê
+w potok i sp³ywa w g³±b tunelu. Droga jest kreta i nie widaæ dok±d zmierza.
+Ma³e od³amki skal wbijaj± ci siê w stopy utrudniaj±c przy tym poruszanie.
+Czarne ¶ciany pog³êbiaj± ponury klimat tego miejsca. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41264
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41264
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41266
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41266
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41266
+Name Tunel w jaskini ~
+Descr Znajdujesz siê z w bardzo du¿ym i rozleg³ym tunelu. Masz wra¿enie ze
+prowadzi do jakiego¶ tajemniczego miejsca. Skapuj±ca woda ze ¶cian ³±czy siê
+w potok i sp³ywa w g³±b tunelu. Pod³o¿e jest bardzo nierówne. Przyczyna s±
+odrywaj±ce siê stalagmity. Lepiej stad uciekaj bo jeszcze oberwiesz w g³owê
+i cos ci siê tanie. Twój oddech jest bardzo ciê¿ki i nierówny. Bez wzglêdu
+na wszystko czujesz siê bardzo osamotniony 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41265
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41265
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41267
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41267
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41267
+Name Tunel w jaskini ~
+Descr Droga jest kreta i nie widaæ dok±d zmierza. Czarne ¶ciany pog³êbiaj±
+ponury klimat tego miejsca. W oddali s³ychaæ szum wody. Wilgotne powietrze
+utrudnia ci oddychanie. Czujesz siê jakby¶ wêdrowa³ po Arrasyjskich kana³ach
+tylko panuje tu mniejszy odór. Wszed³e¶ na du¿y od³amany kawa³ek stalagmitu.
+Je¶li nie bêdziesz uwa¿a³ pokaleczysz sobie nogi. Odnosisz wra¿enie ze
+jaskinia jest bardzo stara i nie ¿yczy sobie tutaj nieproszonych go¶ci. Poza
+kapaniem wody s³yszysz tylko w³asne my¶li. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41266
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41266
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41268
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41268
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41268
+Name Tunel w jaskini ~
+Descr Chcia³by¶ wreszcie przystan±æ i odpocz±æ ale jednak pragnienie szybkiego
+wydostania siê z tej czê¶ci tunelu jest wiêksze. Ciemno¶æ ogranicza twoja
+widoczno¶æ w du¿ym stopniu. Wszêdzie ostre kamienie. Chcia³by¶ nareszcie
+wyj¶æ na prosta drogê ale jak na razie nic takiego siê nie udaje. Strach
+wszechogarnia twój umy¶l. Czujesz siê niepewny tego co mo¿e siê znajdowaæ na
+koñcu tunelu. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41267
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41267
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41269
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41269
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41269
+Name Tunel w jaskini ~
+Descr Znajdujesz siê z w bardzo du¿ym i rozleg³ym tunelu. Masz wra¿enie ze
+prowadzi do jakiego¶ tajemniczego miejsca. Skapuj±ca woda ze ¶cian ³±czy siê
+w potok i sp³ywa w g³±b tunelu. Wszed³e¶ na du¿y od³amany kawa³ek
+stalagmitu. Je¶li nie bêdziesz uwa¿a³ pokaleczysz sobie nogi. Odnosisz
+wra¿enie ze jaskinia jest bardzo stara i nie ¿yczy sobie tutaj nieproszonych
+go¶ci. Poza kapaniem wody s³yszysz tylko w³asne my¶li. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41268
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41268
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41270
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41270
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41270
+Name Zakrêt korytarza   ~
+Descr Droga jest krety i nie widaæ dok±d zmierza. Czarne ¶ciany pog³êbiaj±
+ponury klimat tego miejsca. W oddali s³ychaæ szum wody. Wilgotne powietrze
+utrudnia ci oddychanie. Czujesz siê jakby¶ wêdrowa³ po Arrasyjskich kana³ach
+tylko panuje tu mniejszy odór. Pod³o¿e jest bardzo nierówne. Przyczyna s±
+odrywaj±ce siê stalagmity. Lepiej stad uciekaj bo jeszcze oberwiesz w g³owê
+i cos ci siê tanie. Twój oddech jest bardzo ciê¿ki i nierówny. Czujesz siê
+niepewny tego co mo¿e siê znajdowaæ na koñcu tunelu. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41269
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41269
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41271
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41271
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41271
+Name Tunel w jaskini ~
+Descr Chcia³by¶ wreszcie przystan±æ i odpocz±æ ale jednak pragnienie szybkiego
+wydostania siê z tej czê¶ci tunelu jest wiêksze. Ciemno¶æ ogranicza twoja
+widoczno¶æ w du¿ym stopniu. Wszêdzie ostre kamienie. Chcia³by¶ nareszcie
+wyj¶æ na prosta drogê ale jak na razie nic takiego siê nie udaje. Strach
+wszechogarnia twój umy¶l. Bez wzglêdu na wszystko czujesz siê bardzo
+osamotniony. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41272
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41272
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41270
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41270
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41272
+Name Zej¶cie w dó³ tunelu~
+Descr Wszêdzie ostre kamienie. Chcia³by¶ nareszcie wyj¶æ na prosta drogê ale
+jak na razie nic takiego siê nie udaje. Strach wszechogarnia twój umy¶l.
+Ciemno¶æ ogranicza twoja widoczno¶æ w du¿ym stopniu. Czujesz siê niepewny
+tego co mo¿e siê znajdowaæ siê dalej. W oddali widzisz jak tunel gwa³townie
+zaczyna opadaæ w dó³. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41271
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41271
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41273
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41273
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41273
+Name Zalany korytarz~
+Descr Znajdujesz siê w dolnej czê¶ci tunelu. Zewsz±d ¶cieka woda. Wszêdzie
+s³ychaæ dziwny szum. Zastanawiasz siê co to. Droga jest tu nie równa, pe³na
+kolein i wy¿³obieñ. To wszystko jest skutkiem p³yn±cej tedy wody. Jest to
+stosunkowo prosty odcinek tunelu. Wszed³e¶ na du¿y od³amany kawa³ek
+stalagmitu. Zastanawia ciê co to za bia³e ¶wiat³o. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41274
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41274
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41272
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41272
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41274
+Name Zalany korytarz~
+Descr Znajdujesz siê w dolnej czê¶ci tunelu. Zewsz±d ¶cieka woda. Wszêdzie
+s³ychaæ dziwny szum. Zastanawiasz siê co mo¿e byæ jego przyczyna. Droga jest
+tu nierówna, pe³na kolein i wy¿³obieñ. To wszystko jest skutkiem p³yn±cej
+tedy wody. Widzisz jak tunel zaczyna siê wznosiæ. Wszed³e¶ na du¿y od³amany
+kawa³ek stalagmitu. Zastanawia ciê co to za bia³e ¶wiat³o. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41273
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41273
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41275
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41275
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41275
+Name Tunel w jaskini~
+Descr Stoisz w górnej czê¶ci tuneli. Nareszcie wilgoæ siê zmniejszy³a.
+Zaczynasz widzieæ wszystko dooko³a. Ciekawi ciê strasznie bia³e ¶wiat³o na
+po³udniu. Droga jest tu równa aczkolwiek zd±¿aj± siê jakie¶ nierówno¶ci.
+Brak tu ka³u¿. Nie s³ychaæ ju¿ ha³asu wodospadu. Kapanie wody tez ucich³o a
+ty poczu³e¶ siê pewniej. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41276
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41276
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41274
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41274
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41276
+Name Korytarz przed pla¿a~
+Descr Stoisz w górnej czê¶ci tuneli. Nareszcie wilgoæ siê zmniejszy³a.
+Zaczynasz widzieæ wszystko dooko³a. Ciekawi ciê strasznie bia³e ¶wiat³o na
+po³udniu. Droga jest tu równa aczkolwiek zd±¿aj± siê jakie¶ nierówno¶ci.
+Brak tu ka³u¿. Nie s³ychaæ ju¿ ha³asu wodospadu. Kapanie wody tez ucich³o a
+ty poczu³e¶ siê pewniej. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41277
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41277
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41275
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41275
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41277
+Name Korytarz przed pla¿a~
+Descr Stoisz w górnej czê¶ci tuneli. Nareszcie wilgoæ siê zmniejszy³a.
+Zaczynasz widzieæ wszystko dooko³a. Ciekawi ciê strasznie bia³e ¶wiat³o na
+po³udniu. Droga jest tu równa aczkolwiek zd±¿aj± siê jakie¶ nierówno¶ci.
+Brak tu ka³u¿. Nie s³ychaæ ju¿ ha³asu wodospadu. Kapanie wody tez ucich³o a
+ty poczu³e¶ siê pewniej. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41276
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41276
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41279
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41279
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41278
+Name Jezioro~
+Descr {BUnosisz siê nad podziemnym jeziorem. Nie jest ono w tym miejscu niezbyt
+g³êbokie. Woda jest przej¶cie krystaliczna ale tez bardzo tajemnicza. Woda
+lekko faluje. Czêsto s³ychaæ plusk wyskakuj±cych z jeziora ryb. Wpatruj±c
+siê w wódê widzisz piêkne ich ³awice. Woda jest bogata w minera³y które
+krystalizuj± siê na skalach. {x 
+~
+FlagsExt 0|H
+Sector 39
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41292
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41292
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41288
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41288
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41279
+Name Podziemna pla¿a~
+Descr Znajdujesz siê na podziemnej pla¿y. Nareszcie wiesz co to za przedziwne
+¶wiat³o. Nad jeziorem widzisz niewielka dziurê w skal z której do jaskini
+wlatuj± ma³e promyki s³oñca. Jezioro dzia³a jak pryzmat rozczepiaj±c ¶wiat³o
+i mieni siê têcza kolorów. Widzisz dwie drogi. Jedna z nich prowadzi na
+wschód a druga w przeciwnym kierunku. Zapewne s± to drogi dziêki którym
+mo¿na swobodnie okr±¿yæ jezioro. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41277
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41277
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41286
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41286
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41288
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41288
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41280
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41280
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41280
+Name ¦cie¿ka wokó³ jeziora~
+Descr Idziesz droga wokó³ jeziora. Jest to w±ska pulka skalna na wysoko¶ci
+tafli wody. Niestety ¶cie¿ka nie umo¿liwia podziwiania widoku jeziora.
+Wielkie kamienie zas³aniaj± ca³kowicie widok. Musia³ by¶ miêæ ponad cztery
+metry aby moc cos zobaczyæ. Widzisz tylko ska³y i stalagmity wisz±ce nad
+jeziorem. ¦cie¿ka zmierza na po³udnie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41279
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41279
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41297
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41297
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41281
+Name ¦cie¿ka wokó³ jeziora~
+Descr Idziesz droga wokó³ jeziora. Jest to w±ska pulka skalna na wysoko¶ci
+tafli wody. Niestety ¶cie¿ka nie umo¿liwia podziwiania widoku jeziora.
+Wielkie kamienie zas³aniaj± ca³kowicie widok. Musia³ by¶ miêæ ponad cztery
+metry aby moc cos zobaczyæ. Widzisz tylko ska³y i stalagmity wisz±ce nad
+jeziorem. ¦cie¿ka zmierza na po³udnie. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41297
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41297
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41282
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41282
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41282
+Name ¦cie¿ka wokó³ jeziora~
+Descr Jest to droga wygl±daj±ca na ¶cie¿kê okr±¿aj±ca jezioro. Jej pod³o¿e jest
+posypane od³amkami skal i stalagmitów. Niestety ¶cie¿ka nie umo¿liwia
+podziwiania widoku jeziora. Wielkie kamienie zas³aniaj± ca³kowicie widok.
+Musia³ by¶ mieæ ponad cztery metry aby moc cos zobaczyæ. ¦cie¿ka zmierza na
+wschód. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41281
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41281
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41290
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41290
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41283
+Name ¦cie¿ka wokó³ jeziora~
+Descr Idziesz droga wokó³ jeziora. Jest to w±ska pulka skalna na wysoko¶ci
+tafli wody. Niestety ¶cie¿ka nie umo¿liwia podziwiania widoku jeziora.
+Wielkie kamienie zas³aniaj± ca³kowicie widok. Musia³ by¶ miêæ ponad cztery
+metry aby moc cos zobaczyæ. Widzisz tylko ska³y i stalagmity wisz±ce nad
+jeziorem. ¦cie¿ka zmierza na pó³noc. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41284
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41284
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41291
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41291
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41284
+Name ¦cie¿ka wokó³ jeziora~
+Descr Jest to droga wygl±daj±ca na ¶cie¿kê okr±¿aj±ca jezioro. Jej pod³o¿e jest
+posypane od³amkami skal i stalagmitów. Niestety ¶cie¿ka nie umo¿liwia
+podziwiania widoku jeziora. Wielkie kamienie zas³aniaj± ca³kowicie widok.
+Musia³ by¶ mieæ ponad cztery metry aby moc cos zobaczyæ. ¦cie¿ka zmierza na
+wschód. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41285
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41285
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41283
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41283
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41285
+Name ¦cie¿ka wokó³ jeziora~
+Descr Idziesz droga wokó³ jeziora. Jest to w±ska pulka skalna na wysoko¶ci
+tafli wody. Niestety ¶cie¿ka nie umo¿liwia podziwiania widoku jeziora.
+Wielkie kamienie zas³aniaj± ca³kowicie widok. Musia³ by¶ miêæ ponad cztery
+metry aby moc cos zobaczyæ. Widzisz tylko ska³y i stalagmity wisz±ce nad
+jeziorem. ¦cie¿ka zmierza na pó³noc. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41287
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41287
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41284
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41284
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41286
+Name ¦cie¿ka wokó³ jeziora~
+Descr Jest to droga wygl±daj±ca na ¶cie¿kê okr±¿aj±ca jezioro. Jej pod³o¿e jest
+posypane od³amkami skal i stalagmitów. Niestety ¶cie¿ka nie umo¿liwia
+podziwiania widoku jeziora. Wielkie kamienie zas³aniaj± ca³kowicie widok.
+Musia³ by¶ mieæ ponad cztery metry aby moc cos zobaczyæ. ¦cie¿ka zmierza na
+zachód. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41287
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41287
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41279
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41279
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41287
+Name ¦cie¿ka wokó³ jeziora~
+Descr Idziesz droga wokó³ jeziora. Jest to w±ska pulka skalna na wysoko¶ci
+tafli wody. Niestety ¶cie¿ka nie umo¿liwia podziwiania widoku jeziora.
+Wielkie kamienie zas³aniaj± ca³kowicie widok. Musia³ by¶ miêæ ponad cztery
+metry aby moc cos zobaczyæ. Widzisz tylko ska³y i stalagmity wisz±ce nad
+jeziorem. ¦cie¿ka zmierza na zachód. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41285
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41285
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41286
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41286
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41288
+Name Jezioro~
+Descr {BUnosisz siê nad podziemnym jeziorem. Nie jest ono w tym miejscu niezbyt
+g³êbokie. Woda jest przej¶cie krystaliczna ale tez bardzo tajemnicza.
+Zastanawiasz siê co mo¿e kryæ siê w jego g³êbinach. ¦wiat³o z szczeliny
+sprawia ze woda mieni siê niczym têcza. {x {BMasz ochotê d±æ nura i sprawdziæ
+jakie tajemnice kryje dno jeziora. {x 
+~
+FlagsExt 0
+Sector 39
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41279
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41279
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41278
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41278
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41289
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41289
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41289
+Name Jezioro~
+Descr {BMiejsce do jakiego dotar³e¶ to centralna cze¶æ jeziora. Spogl±daj±c w
+tafle wody w zasadzie nic nie mo¿esz zobaczyæ. Panuje tam nieprzenikniona
+g³êbia. Zastanawiasz siê co jest w tej g³êbinie. Nad tob± widaæ piêkne
+¶wiat³o które dociera przez szczelinê w poszyciu. ¦wiat³o z szczeliny
+sprawia ze woda mieni siê niczym têcza. Masz ochotê d±æ nura i sprawdziæ
+jakie tajemnice kryje dno jeziora. {x 
+~
+FlagsExt 0|C
+Sector 39
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41288
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41288
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41292
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41292
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41293
+ExitExtEnd
+Exit 5
+~
+~
+0 0 41293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41290
+Name ¦cie¿ka wokó³ jeziora~
+Descr Idziesz droga wokó³ jeziora. Jest to w±ska pulka skalna na wysoko¶ci
+tafli wody. Niestety ¶cie¿ka nie umo¿liwia podziwiania widoku jeziora.
+Wielkie kamienie zas³aniaj± ca³kowicie widok. Musia³ by¶ miêæ ponad cztery
+metry aby moc cos zobaczyæ. Widzisz tylko ska³y i stalagmity wisz±ce nad
+jeziorem. ¦cie¿ka zmierza na wschód. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41291
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41291
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41282
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41282
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41291
+Name ¦cie¿ka wokó³ jeziora~
+Descr Jest to droga wygl±daj±ca na ¶cie¿kê okr±¿aj±ca jezioro. Jej pod³o¿e jest
+posypane od³amkami skal i stalagmitów. Niestety ¶cie¿ka nie umo¿liwia
+podziwiania widoku jeziora. Wielkie kamienie zas³aniaj± ca³kowicie widok.
+Musia³ by¶ miêæ ponad cztery metry aby moc cos zobaczyæ. ¦cie¿ka zmierza na
+po³udnie. Monotonny widok zaczyna ciê nu¿yæ. ¦cie¿ka zmierza na wschód. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41283
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41283
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41290
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41290
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41292
+Name Jezioro~
+Descr {BUnosisz siê nad podziemnym jeziorem. Nie jest ono w tym miejscu niezbyt
+g³êbokie. Woda jest przej¶cie krystaliczna ale tez bardzo tajemnicza.
+Zastanawiasz siê co mo¿e kryæ siê w jego g³êbinach. ¦wiat³o z szczeliny
+sprawia ze woda mieni siê niczym têcza. {x {BCzêsto s³ychaæ plusk wyskakuj±cych
+z jeziora ryb. Wpatruj±c siê w wódê widzisz piêkne ich ³awice. Woda jest
+bogata w minera³y które krystalizuj± siê na skalach. {x 
+~
+FlagsExt 0
+Sector 39
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41278
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41278
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41289
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41289
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41293
+Name Na g³êbinie ~
+Descr {bTo najg³êbsza partia jeziora. Widzisz jednak ze to nie dno a podwodny
+tunel prowadz±cy w jakie¶ dziwne miejsce. Tunel powoli siê zwê¿a. Zaczynasz
+czuæ siê niepewnie. Boisz siê co mo¿e kryæ siê na jego koñcu. Woda
+uniemo¿liwia ci oddychanie wiec lepiej siê pospiesz je¿eli nie chcesz
+zgin±æ. Nurt wody gwa³townie przyspiesza. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41294
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41294
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41289
+ExitExtEnd
+Exit 4
+~
+~
+0 0 41289
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41294
+Name Na g³êbinie ~
+Descr {bTo najg³êbsza partia jeziora. Widzisz jednak ze to nie dno a podwodny
+tunel prowadz±cy w jakie¶ dziwne miejsce. Tunel powoli siê zwê¿a. Zaczynasz
+czuæ siê niepewnie. Boisz siê co mo¿e kryæ siê na jego koñcu. Woda
+uniemo¿liwia ci oddychanie wiec lepiej siê pospiesz je¿eli nie chcesz
+zgin±æ. Nurt wody gwa³townie przyspiesza. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41296
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41296
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41293
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41295
+Name Korytarz w tunelu~
+Descr {bP³yniesz tunelem zmierzaj±cym w nieznanym ci kierunku. Ma on oko³o dwóch
+metrów ¶rednicy i zwê¿a siê z ka¿dym metrem. Pr±d wody jest bardzo silny
+Boisz siê o swoje bezpieczeñstwo. Pragniesz jak najszybciej siê stad
+wydostaæ. Ciekawi ciê co mo¿e kryæ siê na koñcu tunelu. Masz bardzo
+ograniczone pole widzenia ale zdaje ci siê ze widzisz i¿ tunel nie zakrêca w
+¿adnym kierunku.{x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41299
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41299
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41296
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41296
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41296
+Name Korytarz w tunelu~
+Descr {bP³yniesz tunelem zmierzaj±cym w nieznanym ci kierunku. Ma on oko³o dwóch
+metrów ¶rednicy i zwê¿a siê z ka¿dym metrem. Pr±d wody jest bardzo silny
+Boisz siê o swoje bezpieczeñstwo. Pragniesz jak najszybciej siê stad
+wydostaæ. Ciekawi ciê co mo¿e kryæ siê na koñcu tunelu. Masz bardzo
+ograniczone pole widzenia ale zdaje ci siê ze widzisz i¿ tunel nie zakrêca w
+¿adnym kierunku.{x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41295
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41295
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41294
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41294
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41297
+Name ¦cie¿ka wokó³ jeziora~
+Descr Jest to droga wygl±daj±ca na ¶cie¿kê okr±¿aj±ca jezioro. Jej pod³o¿e jest
+posypane od³amkami skal i stalagmitów. Niestety ¶cie¿ka nie umo¿liwia
+podziwiania widoku jeziora. Wielkie kamienie zas³aniaj± ca³kowicie widok.
+Musia³ by¶ miêæ ponad cztery metry aby moc cos zobaczyæ. ¦cie¿ka zmierza na
+po³udnie. Monotonny widok zaczyna ciê nu¿yc. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41280
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41280
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41281
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41281
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41298
+Name Wodospad~
+Descr {bP³yniesz podwodnym tunelem. Pr±d wody jest coraz silniejszy. P³yn±c tak
+³atwo o jak±¶ nieoczekiwana styczno¶æ ze skalami. Masz wra¿enie ze ska³y
+coraz bardziej ciê przyt³aczaj±. Pragniesz jak najszybciej siê stad
+wydostaæ. Spostrzegasz przed sob± szczelinê przez która wystarczy siê
+przecisn±æ aby sp³yn±æ wraz z wodospadem. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41299
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41299
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Szczelina~
+ExitExtTextIn Widzisz jak $n Przeciska siê przez szczelinê i spada wraz z woda z wodospadu. ~
+ExitExtName kkk~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41262
+ExitExtEnd
+Exit 3
+~
+VName Szczelina~
+TextIn Widzisz jak $n Przeciska siê przez szczelinê i spada wraz z woda z wodospadu. ~
+kkk~
+0 0 41262
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41299
+Name Korytarz w tunelu~
+Descr {bP³yniesz tunelem zmierzaj±cym w nieznanym ci kierunku. Ma on oko³o dwóch
+metrów ¶rednicy i zwê¿a siê z ka¿dym metrem. Pr±d wody jest bardzo silny
+Boisz siê o swoje bezpieczeñstwo. Pragniesz jak najszybciej siê stad
+wydostaæ. Ciekawi ciê co mo¿e kryæ siê na koñcu tunelu. Masz bardzo
+ograniczone pole widzenia ale zdaje ci siê ze widzisz i¿ tunel nie zakrêca w
+¿adnym kierunku. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41298
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41298
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41295
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41295
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 41261 2 41293 1
+M 100 41262 2 41294 1
+M 100 41261 2 41295 1
+M 100 41262 2 41299 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 41266
+DescRand ~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

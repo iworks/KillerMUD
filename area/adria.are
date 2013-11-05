@@ -1,0 +1,5470 @@
+#AREADATA
+Name +# Adria - miasteczko gnomów (trakt_cf)~
+Builders Trakt_cf Horg~
+VNUMs 10130 10229
+Credits Autor: Tabularix, tabi@kryzys.art.pl
+Poprawki, dokoñczenie, miejscami spolszczenie: Wicia, wicia@killer-mud.net
+
+Pomoc w budowie: Athlar
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 10130
+Name brodaty bankier grim~
+Odmiana Grima~Grimowi~Grima~Grimem~Grimie~
+Short brodaty bankier~
+Long Brodaty bankier Grim siedzi za biurkiem.~
+Descr Masz przed sob± starego gnoma. Jego bujna broda oraz pier¶cienie zdobi±ce
+palce wskazuj± na do¶wiadczenie oraz zamo¿no¶æ bankiera. Karmazynowy surdut
+opina solidne brzuszysko. Wisz±cy na szyi bogato inkrustowany naszyjnik z
+ihilowym medalionem naszyjnik informuje o przynale¿no¶ci do gildii
+kupieckiej. Jest on zajêty jakimi¶ skomplikowanymi obliczeniami. U¶miech
+pojawiaj±cy siê na jego pooranej zmarszczkami twarzy mówi jedno, kolejna
+transakcja bêdzie udana.
+~
+Race gnom~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 2d2+240
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 90 102 90 96 90 90 90
+Off 0
+OffExt 0
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet 10137 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10131
+Name powabna sekretarka kobieta~
+Odmiana sekretarki~sekretarce~sekretarke~sekretarka~sekretarce~
+Short powabna sekretarka~
+Long Powabna sekretarka zag³êbiona w pracy przy biurku.~
+Descr Jest to drobnej postury kobieta o przykuwajacej oko urodzie. Jej kasztanowe
+wlosy spiete sa w praktyczny kok. Zasypana jest roznymi papierami, co po chwila
+macza czubek gesiego piora w inkauscie. Gdy tylko ktos do niej podchodzi, odrywa
+sie od pracy.
+~
+Race gnom~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 3d5+110
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 90 108 108 90 90 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_gnomka1 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10132
+Name opas³y szczur~
+Odmiana opaslego szczura~opaslemu szczurowi~opaslego szczura~opaslym szczurem~opaslym szczurze~
+Short opas³y szczur~
+Long Opas³y szczur przechadza sie po celi.~
+Descr Jest to szczur, mieszkaniec rynsztoku. Jego cialo pokryte jest szczeciniasta
+sierscia, dlugi rozowy ogon porusza sie niespokojnie. Zwierze bystro rozglada
+sie swymi malymi jak paciorki oczyma na wszytkie strony. Co po chwila staje na
+tylnych lapkach i wydaje z siebie niepokojace piski.
+~
+Race szczur~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 2d2+30
+Damage 3d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 84 90 90 102 108 78 78
+Off FH
+OffExt 0|FH
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGHMV
+Parts ABCDEFGIJKQRS
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 10133
+Name wielki pó³ork stra¿nik krucze pióro~
+Odmiana stra¿nika~stra¿nikowi~stra¿nika~stra¿nikiem~stra¿niku~
+Short pó³ork stra¿nik~
+Long Ponadprzeciêtnie wielki pó³ork ³azi tutaj.~
+Descr Twój wzrok pada na jednego ze stra¿ników pilnuj±cych bramy. Ten
+mê¿czyzna, czy mo¿e raczej samiec, bowiem "mê¿czyzna" brzmi tu zdecydowanie
+nazbyt cywilizowanie i elegancko jak na... Ten byt. Jest to pó³ork, choæ
+mo¿e to podlegaæ w±tpliwo¶ci ze wzglêdu na jego posturê, która jest wielka
+nawet jak na jego domnieman± rasê. Nie wygl±da na szczególnie
+inteligentnego, choæ kto wie - wszak ró¿ne dziwad³a chodz± po tym ¶wiecie,
+niejednokrotnie nie bêd±c tym na co wygl±daj±. Lepiej zachowaj ostro¿no¶æ...
+~
+Race pó³ork~
+ActExt 0|ABT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 3
+HP 80d2+340
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 3 2 3 3
+Stats 140 70 100 120 110 80 80
+Off EIXb
+OffExt 0|EIXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 70
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 80
+Resist 4 1
+Resist 10 10
+Resist 12 10
+Mobend
+#Vnum 10134
+Name gruba szlachcianka~
+Odmiana grubej szlachcianki~grubej szlachciance~gruba szlachcianke~gruba szlachcianka~grubej szlachciance~
+Short gruba szlachcianka~
+Long Gruba szlachcianka przechadza siê miêdzy kamienicami.~
+Descr Stojaca przed toba osoba jest przedstawicielem wyzszej klasy spolecznej,
+arystokracji. Pozwala jej to na spogladanie na innych z gory, z nieukrywana
+pogarda. Jej stroj jest bogato przyozdobiony, pelen koronkowych wykonczen i
+zlotych elementow. Szlachcianka przechadza sie po ulicach z wielkim
+namaszczeniem, kazdy krok stawia jakby od niechcenia.
+~
+Race gnom~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 2d10+100
+Damage 2d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 9 6 9 9
+Stats 90 96 96 84 108 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_szlach_gno ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10135
+Name tegi szlachcic~
+Odmiana tegiego szlachcica~tegiemu szlachcicowi~tegiego szlachcica~tegim szlachcicem~tegim szlachcicu~
+Short têgi szlachcic~
+Long Têgi szlachcic przechadza siê miedzy kamienicami.~
+Descr Stojaca przed toba osoba jest przedstawicielem wyzszej klasy spolecznej,
+szlachty. Pozwala mu to na spogladanie na innych z gory, z nieukrywana pogarda.
+Jego stroj jest bogato przyozdabiany, pelen koronkowych wykonczen i zlotych
+elementow. Szlachcic przechadza sie po ulicach z wielkim namaszczeniem, kazdy
+krok stawia jakby od niechcenia.
+~
+Race gnom~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d10+150
+Damage 2d6+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 5 3 5 5
+Stats 102 90 60 102 108 90 84
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_szlach1_gno ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10136
+Name nerwowy gnom mieszkaniec~
+Odmiana nerwowego mieszczanina~nerwowemu mieszczaninowi~nerwowego mieszczanina~nerwowym mieszczaninem~nerwowym mieszczaninie~
+Short nerwowy gnom~
+Long Gnomi mieszkaniec chodzi tutaj nerwowo.~
+Descr Oto stoi przed toba nie wyrozniajacy sie niczym szczegolnym mieszkaniec
+miasta. Po jego ubiorze mozna wywnioskowac, ze powodzi mu sie dosc dobrze.
+Miasto jest jego domem, tu sie urodzil i tu czuje sie najlepiej. Z wyrazem
+wyzszosci na twarzy przechadza sie powolnym krokiem po brukowanych uliczkach.
+~
+Race gnom~
+ActExt 0|AT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 2d10+110
+Damage 2d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 5 4 5 5
+Stats 102 90 60 102 108 90 84
+Off Ib
+OffExt 0|Ib
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_gnom2 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10137
+Name ruchliwy mieszkaniec gnom~
+Odmiana ruchliwego gnoma~ruchliwemu gnomowi~ruchliwego gnoma~ruchliwym gnomem~ruchliwym gnomie~
+Short ruchliwy gnom~
+Long Bardzo ruchliwy mieszkaniec chodzi tutaj od kamienicy do kamienicy.~
+Descr Oto stoi przed toba nie wyrozniajacy sie niczym szczegolnym mieszkaniec
+miasta. Po jego ubiorze mozna wywnioskowac, ze powodzi mu sie dosc dobrze.
+Miasto jest jego domem, tu sie urodzil i tu czuje sie najlepiej. Z wyrazem
+wyzszosci na twarzy przechadza sie powolnym krokiem po brukowanych uliczkach.
+~
+Race gnom~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 2d20+100
+Damage 2d9+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 2 3 3
+Stats 102 90 60 102 108 90 84
+Off CIb
+OffExt 0|CIb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10138
+Name Tudgle Khaulir krasnolud masywny~
+Odmiana Tudglera Khaulira~Tudglerowi Khaulirowi~Tudglera Khaulira~Tudglerem Khaulirem~Tudglerze Khaulirze~
+Short Tudgle Khaulir~
+Long Masywny krasnolud poci±ga z butelki.~
+Descr Przygl±dasz siê przez chwilê krasnoludowi. Typowy krasnolud, szeroki
+w barach, d³uga broda. Czuæ od niego piwem lub miodem oraz czym¶ tak
+nieokre¶lonym, ¿ê nikt nie ma ochoty siê nad tym zastanawiaæ.
+~
+Race krasnolud~
+ActExt 0|ABEU
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang C
+Speaks 2
+Level 14
+Hitroll 0
+HP 5d8+300
+Damage 2d7+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 132 90 96 96 120 78 78
+Off CVY
+OffExt 0|CVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 2
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give 10138_give_lett FGI 11829~
+MobprogNew random 10138_random FGI 2~
+MobprogNew onload 10138_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10139
+Name blady mieszczanin~
+Odmiana bladego mieszczanina~blademu mieszczaninowi~bladego mieszczanina~bladym mieszczaninem~bladym mieszczaninie~
+Short blady mieszczanin~
+Long Blady, gnomi mieszkaniec chodzi tutaj.~
+Descr Oto stoi przed toba nie wyrozniajacy sie niczym szczegolnym mieszkaniec
+miasta. Po jego ubiorze mozna wywnioskowac, ze powodzi mu sie dosc dobrze.
+Miasto jest jego domem, tu sie urodzil i tu czuje sie najlepiej. Z wyrazem
+wyzszosci na twarzy przechadza sie powolnym krokiem po brukowanych uliczkach.
+~
+Race gnom~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 1
+HP 2d10+100
+Damage 3d5+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 5 4 5 5
+Stats 84 90 90 84 90 96 102
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_gnom2 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10143
+Name energiczny mieszczanin gnom~
+Odmiana energicznego gnoma~energicznemu gnomowi~energicznego gnoma~energicznym gnomem~energicznym gnomie~
+Short energiczny gnom~
+Long Jaki¶ energiczny gnom chodzi w¶ród starych kamienic.~
+Descr Oto stoi przed toba nie wyrozniajacy sie niczym szczegolnym mieszkaniec
+miasta. Po jego ubiorze mozna wywnioskowac, ze powodzi mu sie dosc dobrze.
+Miasto jest jego domem, tu sie urodzil i tu czuje sie najlepiej. Z wyrazem
+wyzszosci na twarzy przechadza sie powolnym krokiem po brukowanych uliczkach.
+~
+Race gnom~
+ActExt 0|AT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 2d20+130
+Damage 2d5+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 4 3 4 4
+Stats 108 102 108 60 96 96 90
+Off Ib
+OffExt 0|Ib
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_gnom3 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10151
+Name weso³a gnomka~
+Odmiana wesolej gnomki~wesolej gnomce~weso³± gnomkê~weso³± gnomk±~weso³ej gnomce~
+Short weso³a gnomka~
+Long Weso³a gnomka z u¶miechem od ucha do ucha.~
+Descr Oto stoi przed toba nie wyrozniajaca sie niczym szczegolnym mieszkanka miasta.
+Po ubiorze mozna wywnioskowac, ze calkiem niezle sie jej powodzi. Miasto jest
+jej domem, tu sie urodzil i tu czuje sie najlepiej. Z wyrazem wyzszosci na
+twarzy przechadza sie powolnym krokiem po brukowanych uliczkach.
+~
+Race gnom~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 2d10+50
+Damage 2d7+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 5 4 5 5
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_gnomka1 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10152
+Name m³ody piekarz~
+Odmiana piekarza~piekarzowi~piekarza~piekarzem~piekarzu~
+Short m³ody piekarz~
+Long M³ody piekarz sprzedaje ¶wie¿e pieczywo.~
+Descr ~
+Race gnom~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 2d10+10
+Damage 2d10+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 54000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10160
+Name krepy rzeznik~
+Odmiana krêpego rze¼nika~krêpemu rze¼nikowi~krêpego rze¼nika~krêpym rze¼nikiem~krêpym rze¼niku~
+Short krêpy rze¼nik~
+Long Krêpy rze¼nik mocuje siê z zakrwawionym baranim ud¼cem.~
+Descr ~
+Race gnom~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10161
+Name ³ysy gnom~
+Odmiana ³ysego gnoma~³ysemu gnomowi~³ysego gnoma~³ysym gnomem~³ysym gnomie~
+Short ³ysy gnom~
+Long £ysy gnom poprawia spadaj±ce co rusz binokle.~
+Descr ~
+Race gnom~
+ActExt 0|ABG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 2d10+90
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 5 4 5 5
+Stats 114 108 96 114 90 96 96
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 900
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10162
+Name zapracowany gnomi in¿ynier~
+Odmiana gnomiego in¿yniera~gnomiemu in¿ynierowi~gnomiego in¿yniera~gnomim in¿ynierem~gnomim in¿ynierze~
+Short gnomi in¿ynier~
+Long Zapracowany in¿ynier d³ubie w skomplikowanym mechani¼mie.~
+Descr Patrzysz na ma³ego, czarnow³osego gnoma. Spogl±da on na ciebie
+wystraszonym wzrokiem, choæ nie wiadomo czego siê boi jak jest w swoim
+mie¶cie. Ta rasa rzeczywi¶cie jest strachliwa, ale tê¿ potrafi pokazaæ jak
+siê macha mieczem. A intelekt to ich najmocniejsza strona, szczególnie tego
+osobnika, który jest tutaj in¿ynierem.
+~
+Race gnom~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 7
+Hitroll 0
+HP 10d10+300
+Damage 4d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 1 3 3
+Stats 108 96 96 60 102 96 114
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10164
+Name pracownik poczty~
+Odmiana pracownika poczty~pracownikowi poczty~pracownika poczty~pracownikiem poczty~pracowniku poczty~
+Short pracownik poczty~
+Long Pracownik poczty czeka na kolejne zlecenie.~
+Descr ~
+Race gnom~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d10+10
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 4 3 4 4
+Stats 108 102 96 60 102 90 108
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10165
+Name t³u¶ciutki nizio³ek gabis~
+Odmiana Gabisia~Gabisiowi~Gabisia~Gabisiem~Gabisiu~
+Short t³u¶ciutki nizio³ek~
+Long T³u¶ciutki nizio³ek o imieniu Gabis.~
+Descr Niziolek odziany jest w pastelowy surdut, ciasno opiety wokol pekatego
+brzuszka. Skorzany pas ozdobiony drogocennymi kamieniami skrzy sie
+tysiecem barw. Gabis trzyma mala tlaca sie nabita zielem fajeczke.
+Jego blogi usmiech jednoznacznie oznajmia, ze Herbaciarnia jest naj-
+lepszym miejscem dla niziolka.
+~
+Race nizio³ek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang ALPR
+Speaks 0
+Level 5
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 10136 FGI 2~
+MobprogNew random 10135 FGI 6~
+MobprogNew random 10134 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10166
+Name krepy mezczyzna platnerz~
+Odmiana krepego mezczyzny~krepemu mezczyznie~krepego mezczyzne~krepym mezczyzna~krepym mezczyznie~
+Short krêpy mê¿czyzna~
+Long Krêpy mê¿czyzna majstruje co¶ przy czerwonej zbroi.~
+Descr Oto stoi przed toba nie wyrozniajacy sie niczym szczegolnym mieszkaniec
+miasta. Po jego ubiorze mozna wywnioskowac, ze powodzi mu sie dosc dobrze.
+Miasto jest jego domem, tu sie urodzil i tu czuje sie najlepiej. Z wyrazem
+wyzszosci na twarzy przechadza sie powolnym krokiem po brukowanych uliczkach.
+~
+Race gnom~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 2d2+2
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10167
+Name stary zgarbiony staruszek gnom~
+Odmiana zgarbionego staruszka~zgarbionemu staruszkowi~zgarbionego staruszka~zgarbionym staruszkiem~zgarbionym staruszku~
+Short zgarbiony staruszek~
+Long Stary, zgarbiony gnom oprawia skóry.~
+Descr Jest to zylasty staruszek. Jego praca polega na garbowaniu skor. W pocie
+czola oprawia kolejne polcie materialu. Pomimo swego wieku swietnie sobie
+radzi. Tylko od czasu do czasu zanosi sie suchym urywanym kaszlem. Na
+ogorzalej twarzy widac wiele lat przepracowanych w tym miejscu.
+~
+Race gnom~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 2d10+500
+Damage 2d10+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 840000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_gnom4 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10168
+Name oty³y karczmarz~
+Odmiana oty³ego karczmarza~oty³emu karczmarzowi~oty³ego karczmarza~oty³ym karczmarzem~oty³ym karczmarzu~
+Short oty³y karczmarz~
+Long Oty³y karczmarz stoi za lad± serwuj±c drinki.~
+Descr Twoj wzrok spoczywa na ubranym w brudny fartuch karczmarzu. Jego sumiaste
+wasiska upstrzone sa piana od piwa. Mezczyzna uwija sie jak w ukropie
+nalewajac do kufli i pucharow najrozniejsze trunki, serwujac dymiace jeszcze
+dania oraz lajajac swoich podwladnych. Na jego czole widnieja kropelki potu.
+Jest poteznie zbudowany, na pierwszy plan wysuwa sie jego potezny brzuch. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10169
+Name barczysty mezczyzna~
+Odmiana barczystego mezczyzny~barczystemu mezczyznie~barczystego mezczyzne~barczystym mezczyzna~barczystym mezczyznie~
+Short barczysty mê¿czyzna~
+Long Barczysty mê¿czyzna szlifuje szerok± klingê.~
+Descr Oto stoi przed toba nie wyrozniajacy sie niczym szczegolnym mieszkaniec
+miasta. Po jego ubiorze mozna wywnioskowac, ze powodzi mu sie dosc dobrze.
+Miasto jest jego domem odk±d wraz z band± wspó³towarzyszy zdo³a³ przej±æ nad
+nim w³adzê. Z wyrazem wyzszosci na twarzy przechadza sie powolnym krokiem po
+brukowanych uliczkach. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d10+100
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10170
+Name przysadzisty karczmarz~
+Odmiana przysadzistego karczmarza~przysadzistemu karczmarzowi~przysadzistego karczmarza~przysadzistym karczmarzem~przysadzistym karczmarzu~
+Short przysadzisty karczmarz~
+Long Przysadzisty karczmarz serwuje piwo.~
+Descr Twoj wzrok spoczywa na ubranym w brudny fartuch karczmarzu. Jego sumiaste
+wasiska upstrzone sa piana od piwa. Mezczyzna uwija sie jak w ukropie nalewajac
+do kufli i pucharow najrozniejsze trunki, serwujac dymiace jeszcze dania oraz
+lajajac swoich podwladnych. Na jego czole widnieja kropelki potu. Jest poteznie
+zbudowany, na pierwszy plan wysuwa sie jego potezny brzsuch.
+~
+Race gnom~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 26
+Hitroll 0
+HP 2d10+500
+Damage 2d10+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 120 120 120 120 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10171
+Name cherlawy bibliotekarz~
+Odmiana cherlawego bibliotekarza~cherlawemu bibliotekarzowi~cherlawego bibliotekarza~cherlawym bibliotekarzem~cherlawym bibliotekarzu~
+Short cherlawy bibliotekarz~
+Long Cherlawy bibliotekarz bazgrze co¶ u³amanym, gêsim piórem.~
+Descr Twoj wzrok zatrzymal sie na watlym mezczyznie, pracowniku biblioteki. Jego
+wychudle cialo ugina sie pod ciezarem opaslych tomow podawanych zainteresowanym.
+Na nosie spoczywaja zwiazane w jednym miejscu sznurkiem gnomiej roboty binokle.
+Na zszarza³ej twarzy bibliotekarza z rzadka gosci blady usmiech. Mimo wygladu z
+niespo¿yta energia przedziera sie przez setki ksiag, znajac je jak nikt inny.
+~
+Race gnom~
+ActExt 0|ABR
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 7
+Hitroll 0
+HP 2d10+100
+Damage 2d10+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 10 10 10 10
+Stats 84 102 102 60 60 96 96
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech 10131 FGI poprosze historie moczarow bere~
+MobprogNew give 10132 FGI 10150~
+MobprogNew exall 10133 FGI 2~
+Spells 194 193 167 2
+Spells 93 87 203 6
+Spells 100 381 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10185
+Name zwalisty straznik miejski~
+Odmiana stra¿nika~stra¿nikowi~stra¿nika~stra¿nikiem~stra¿niku~
+Short zwalisty stra¿nik~
+Long Zwalisty stra¿nik patroluje okolicê.~
+Descr Twój wzrok pada na jednego ze stra¿ników patroluj±cych ulice. Jest to
+postawny mê¿czyzna ubrany w solidn± zbrojê i he³m. W rece dzierzy dluga
+halabarde. Jego sprê¿ysty sposób chodzenia oraz wyprostowana dumnie sylwetka
+¶wiadcz± o dobrym wyszkoleniu.
+~
+Race cz³owiek~
+ActExt 0|ABT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 1
+HP 80d2+340
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 2 1 2 2
+Stats 126 78 78 108 108 84 78
+Off CEIXb
+OffExt 0|CEIXb/1|BC
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 80
+Mobend
+#Vnum 10186
+Name stra¿nik gwardzista gnom umiê¶niony~
+Odmiana gnomiego gwardzisty~gnomiemiu gwardzi¶cie~gnomiego gwardzistê~gnomim gwardzist±~gnomim gwardzi¶cie~
+Short gnomi gwardzista~
+Long Umiê¶niony gwardzista pilnuje porz±dku w¶ród k³ótliwych gnomów.~
+Descr Twoj wzrok pada na jednego ze gwardzistow patrolujacych ulice. Jest to
+postawny mezczyzna ubrany w lsniaca zbroje i helm. Na piersi nosi znak
+ksiecia Veliana, lwa czajacego sie do skoku. Za pasem nosi ciezki miecz.
+Jego sprezysty sposob chodzenia oraz wyprostowana dumnie sylwetka swiadcza
+o dobrym wyszkoleniu wojskowym.
+~
+Race gnom~
+ActExt 0|AGT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 1
+HP 80d2+380
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 2
+Stats 138 96 96 120 120 78 78
+Off EFINYb
+OffExt 0|EFINYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 73_eq_gwar ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 80
+Mobend
+#Vnum 10189
+Name barczysty gnom straznik~
+Odmiana straznika~straznikowi~straznika~straznikiem~strazniku~
+Short barczysty stra¿nik~
+Long Barczysty gnom pilnuje porz±dku.~
+Descr Twój wzrok pada na jednego ze stra¿nikow patroluj±cych ulicê. Jest to
+postawny mê¿czyzna ubrany w solidn± zbrojê. Na piersi nosi znak ksiecia
+Veliana,lwa czaj±cego siê do skoku. Jego sprê¿ysty sposob chodzenia oraz
+wyprostowana dumnie sylwetka ¶wiadcz± o dobrym wyszkoleniu. Ten stra¿nik
+pos³ugujê siê dwoma krótkimi mieczami.
+~
+Race gnom~
+ActExt 0|AT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 1
+HP 80d2+340
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 2 1 2 2
+Stats 126 78 78 108 108 84 78
+Off EIYb
+OffExt 0|EIYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload eq_barcz ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 80
+Mobend
+#Vnum 10193
+Name wódz ogrów ogromny muskularny krucze pióro~
+Odmiana wodza ogrów~wodzowi ogrów~wodza ogrów~wodzem ogrów~wodzu ogrów~
+Short wódz ogrów~
+Long Ogromny muskularny ogr jest gotów zetrzeæ w py³ wszystko co stanie mu na drodze!~
+Descr Ju¿ na pierwszy rzut oka widzisz, ¿e ogr ten musi byæ wodzem i absolutnym
+w³adc± tej hordy. Szczerze mówi±c gdy spogl±dasz na jego okrutne,
+wykrzywione oblicze, mimowolnie zaczynasz szczêkaæ zêbami ze strachu. Ogr ma
+czerwone oczy poprzecinane ¿ó³tymi ¿y³kami, w dodatku oczy te spogl±daj± na
+Ciebie bez tak typowej dla jego rasy têpoty. Rogi na jego g³owie s± w wielu
+miejscach nadpi³owane, zatkniêto na nich pe³no ¿elaznych, srebrnych i
+z³otych kó³ek oraz dziwnych ni to pier¶cionków ni ³añcuszków. Ca³e ramiona,
+tors i twarz pokrywaj± straszliwe pseudo-tatua¿e, s± to raczej bezkszta³tne,
+czerwone i br±zowe plamy, sprawiaj± jednak ¿e wódz ogrów wygl±da jakby
+powy¿ej pasa ca³y zbryzgany by³ krwi±. Po straszliwych ¿ó³tawych k³ach
+nieustannie skapuje na ziemiê ¶lina, za¶ ca³e cielsko wydziela tak
+straszliwy odór potu, krwi i rozk³adaj±cego siê miêsa, ¿e masz ochotê
+odwróciæ siê i z krzykiem uciec jak najdalej st±d. Tylko czy wogóle bêdzie
+Ci dana taka szansa, skoro o¶mieli³e¶ siê stan±æ z t± besti± twarz± w twarz?
+~
+Race ogr~
+ActExt 0|ABT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AE
+Speaks 0
+Level 28
+Hitroll 5
+HP 28d10+1700
+Damage 5d6+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walenie
+XAC -5 -5 -5 -5
+Stats 168 138 132 108 96 60 90
+Off CDIORY
+OffExt 0|CDIORY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 800
+Form AEFHMV
+Parts ABCDEFGHIJKRUV
+Size huge
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10194
+Name pomarszczony stary staruch gnom~
+Odmiana starego pomarszczonego gnoma~staremu pomarszczonemu gnomowi~starego pomarszczonego gnoma~starym pomarszczonym gnomem~starym pomarszczonym gnomie~
+Short stary pomarszczony gnom~
+Long Ma³y, pomarszczony ze staro¶ci gnom przebiera w dziwnych ro¶linach.~
+Descr Gdy patrzysz na tego pomarszczonego starucha nie masz w±tpliwo¶ci ze to
+gnom. Metr wzrostu oraz wielkie uszy mówi± ci wszystko. Starszy jest chyba
+od najstarszych grzybów, ktore ma w sprzeda¿y. Ma d³ugie ko¶ciste palce
+którymi przebiera w ró¿nistych ro¶linach.
+~
+Race gnom~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 30
+Hitroll 0
+HP 100d100+100
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 210000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10195
+Name Dimble Boddynock~
+Odmiana Dimble Boddynocka~Dimble Boddnockowi~Dimble Boddnocka~Dimble Boddnockiem~Dimble Boddnocku~
+Short Dimble Boddynock~
+Long Dimble Boddnock w³a¶ciciel kamienicy stoi ko³o biurka.~
+Descr Ten s³usznej postury gnom jest najwyra¼niej w³a¶cicielem tej kamienicy.
+Niech ciê nie zwiedzie jego nieznaczna oty³o¶æ. Jego zwinne ruchy i potê¿ne
+ramiona wskazuj± na cz³owieka, któremu nie obca jest walka i fizyczny trud.
+~
+Race gnom~
+ActExt 0|ABT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 0
+HP 15d10+200
+Damage 3d2+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 6 6 6 6
+Stats 120 96 90 114 114 78 90
+Off IYb
+OffExt 0|IYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10196
+Name kucharz nizio³ek~
+Odmiana kucharza nizio³ka~kucharzowi nizio³kowi~kucharza nizio³ka~kucharzem nizio³kiem ~kucharzu nizio³ku~
+Short kucharz nizio³ek~
+Long Kucharz nizio³ek krz±ta siê miêdzy kuchennymi szafkami.~
+Descr Ten gruby jegomo¶æ opiekuje siê t± kuchni±. Rumiane policzki, wskazuj± na
+wspania³e zdrowie tego nizio³ka. Musi byæ to mistrz w swoim fachu, sposób w
+jaki szatkuje pietruszkê wskazuje na reprezentanta starej szko³y z Grompy
+Hill.
+~
+Race nizio³ek~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 10d6+60
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10197
+Name puszysta gnomka ~
+Odmiana puszystej gnomki ~puszystej gnomce~puszyst± gnomkê~puszyst± gnomk±~puszystej gnomce ~
+Short puszysta gnomka~
+Long Puszysta gnomka krêci siê po pomieszczeniu, sprz±taj±c.~
+Descr Ta pulchna gnomka jest najwyra¼niej pokojówk± w tej rezydencji. Szybkimi
+ruchami wymiata kurze, oraz poprawia meble i ozdoby, które mog³y siê znale¼æ
+nie na swoim miejscu. Ta bardzo energiczna osoba wydaje siê wykonywaæ swoje
+codzienne obowi±zki z gracj± i wielk± pasj±.
+~
+Race gnom~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 0
+HP 4d10+40
+Damage 2d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 10198
+Name ¶mierdz±cy stra¿nik pó³elf~
+Odmiana ¶miedz±cego stra¿nika~¶mierdz±cemu stra¿nikowi~¶miedz±cego stra¿nika~¶mierdz±cym stra¿nikiem~¶mierdz±cym stra¿niku~
+Short ¶mierdz±cy stra¿nik~
+Long Jaki¶ dziwny, ¶mierdz±cy rynsztokiem pó³elf stoi tutaj.~
+Descr Patrzysz na dziwnego pó³elfa - nie bardzo wiesz, co nie pasuje ci w jego
+wygl±dzie, ale nie mo¿esz uznaæ go za normalnego przedstawiciela jego rasy.
+Mo¿e to przez to niespokojne i jednocze¶nie orkutnie zimne spojrzenie?
+Szybko jednak przestajesz my¶leæ o jego wzroku, gdy do twych nozdrzy dobiega
+woñ owego osobnika... Woñ, która przyprawia o odruch wymiotny i przypomina
+mieszankê uryny, gnij±cych zw³ok i fekaliów. Czyli wszystkiego, co mo¿na
+znale¼æ w rynsztokach Adrii... 
+~
+Race pó³elf~
+ActExt 0|ABEGT
+Affected 0 0 0 0
+AffectedExt 0
+Align -750
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 40d3+400
+Damage 2d5+2
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 144 102 114 102 120 78 78
+Off KXb
+OffExt 0|KXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 160
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 10198_eq ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 10130
+Name debowa tablica~
+Odmiana debowej tablicy~debowej tablicy~debowa tablice~debowa tablica~debowej tablicy~
+Short debowa tablica~
+Descr Masywna, dêbowa tablica og³oszeñ.~
+Material drewno~
+Type board
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 10131
+Name Mapa~
+Odmiana wymietej mapy~wymietej mapie~wymieta mape~wymieta mapa~wymietej mapie~
+Short wymieta mapa~
+Descr Wymieta mapa.~
+Material pergamin~
+Type map
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 10134
+Name zdobiona fajka~
+Odmiana zdobionej fajki~zdobionej fajce~zdobiona fajke~zdobiona fajka~zdobionej fajce~
+Short zdobiona fajka~
+Descr Zdobiona fajka lezy na stoliku.~
+Material drewno~
+Type pipe
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Jest to zdobiona drewniana fajka. Runy na niej wyryte maja za zadanie
+uprzyjemnic palenie ziela fajkowego. Fajka jest dosc zuzyta. Przy ustniku po
+dluzszej obserwacji da sie zauwazyc znak runiczny Tabulariksa.
+~
+Comments ~
+Objend
+#Vnum 10135
+Name marmurowa fontanna~
+Odmiana marmurowej fontanny~marmurowej fontannie~marmurowa fontanne~marmurowa fontanna~marmurowej fontannie~
+Short marmurowa fontanna~
+Descr Na ¶rodku placu stoi spêkana, obkruszona fontanna z marmuru, tryskaj±ca tragicznie brudn± wod±.~
+Material marmur~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value -1 -1 38 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 9300
+Cost 0
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 10150
+Name historia moczarow bere'nei ksiega~
+Odmiana ksiegi~ksiedze~ksiege~ksiega~ksiedze~
+Short historia Moczarow Bere'Nei~
+Descr Historia Moczarow Bere'Nei~
+Material unused~
+Type board
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 2 32 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Jest to nagryziona zebem czasu ksiega. Okladka oprawiona w skore jest w wielu
+miejscach calkowicie przetarta. Na grzbiecie wypisano autora, tytul oraz imie
+skryby przepisujacego dzielo. W tym jednak przypadku jest to oryginal.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 10184
+Name mosiê¿ny dzwon~
+Odmiana dzwonu~dzwonowi~dzwon~dzwonem~dzwonie~
+Short mosiê¿ny dzwon~
+Descr Gigantyczny, mosiê¿ny dzwon wisi tutaj.~
+Material mosi±dz~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 7000
+Cost 100000
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 10130
+Name Gnomia fabryka~
+Descr Znajdujesz siê na ma³ym placyku przed gnomi± fabryk±. Wszêdzie dooko³a
+walaj± siê jakie¶ dziwne urz±dzenia, trybiki i niezliczona ilo¶æ ¶rubek. Na
+pó³kach porozk³adane s± najrozmaitsze wytwory gnomiej my¶li technicznej. Z
+pomieszczenia znajduj±cego siê na zachodzie dobiegaj± ciê dziwne,
+niepokoj±ce zgrzyty, piski i jakie¶ bulgotanie. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n wychodzi przez bramê na ulicê.~
+ExitExtTextIn $n wychodzi z bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10132
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+TextOut $n wychodzi przez bramê na ulicê.~
+TextIn $n wychodzi z bramy.~
+brama~
+3 0 10132
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Warsztat~
+ExitExtTextOut $n wchodzi do warsztatu.~
+ExitExtTextIn $n w³a¶nie przyszed³ z podwórza.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10131
+ExitExtEnd
+Exit 3
+~
+VName Warsztat~
+TextOut $n wchodzi do warsztatu.~
+TextIn $n w³a¶nie przyszed³ z podwórza.~
+~
+0 0 10131
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10131
+Name Warsztat~
+Descr Znajdujesz sie w zagraconym warsztacie. Wszêdzie dooko³a walaja sie
+jakie¶ dziwne urz±dzenia, trybiki i niezliczona ilo¶c ¶róbek. Zatopione w
+pracy gnomy w ogóle nie zwracaj± na ciebie uwagi. Pomieszczenie jest
+pogr±zone w mroku. Jedynie nad stanowiskami pracy pal± siê ma³e lampeczki.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na podwórze fabryki.~
+ExitExtTextIn $n wyszed³ z warsztatu.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10130
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na podwórze fabryki.~
+TextIn $n wyszed³ z warsztatu.~
+~
+0 0 10130
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10132
+Name Dzielnica kupiecka~
+Descr Znajdujesz siê na brukowanej ulicy. W tej czê¶ci dzielnicy od wieków ma
+swoje miejsce gnomia fabryka w postaci stoj±cej na po³udniu, dziwacznej
+budowli prawie ca³kowicie wykonanej z metalu. Kszta³tem bardziej przypomina
+powykrêcanego reumatyzmem ¿elaznego giganta, ni¿ budynek. Z wielu otworów u
+samej góry buchaj± ró¿norakie k³êby dymu oraz pary. Z wnêtrza budynku
+dobiegaj± niepokoj±ce piski, klekotanie oraz przera¼liwe zgrzytanie. Pokryta
+kocimi ³bami ulica obni¿a siê ku zachodowi. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10152
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10152
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Fabryka~
+ExitExtTextOut $n przechodzi przez bramê fabryki.~
+ExitExtTextIn $n wchodzi przez bramê.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10130
+ExitExtEnd
+Exit 2
+~
+VName Fabryka~
+TextOut $n przechodzi przez bramê fabryki.~
+TextIn $n wchodzi przez bramê.~
+brama~
+3 0 10130
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10133
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10133
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10133
+Name Dzielnica kupiecka~
+Descr Znajdujesz siê na brukowanej ulicy. Dooko³a wznosz± siê ró¿nej wielko¶ci
+kamienice. Niektóre z nich maj± piêkne wykoñczone ozdoby, na innych widaæ
+odci¶niête piêtno wielu lat. W tej dzielnicy od wieków mieszkaj± rodziny
+kupieckie. Kamienice czynszowe mieszaj± siê z kipi±cymi od przepychu domami.
+Pokryta kocimi ³bami ulica schodzi coraz ni¿ej na zachód. W powietrzu unosi siê
+zapach ¶wie¿ej krwi. Ponadto z do³u dobiega ciê odg³os zaciêtej walki.
+~
+FlagsExt 0|H
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Rudera~
+ExitExtTextOut $n wchodzi do rudery.~
+ExitExtTextIn $n w³a¶nie przyszed³ z ulicy.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10134
+ExitExtEnd
+Exit 0
+~
+VName Rudera~
+TextOut $n wchodzi do rudery.~
+TextIn $n w³a¶nie przyszed³ z ulicy.~
+~
+0 0 10134
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10132
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10132
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10207
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10207
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10134
+Name Stara rudera~
+Descr Znajdujesz sie w jakims zruinowanym budynku. Od scian odpada tynk, drzwi
+zostaly wyjete z futryn a po oknach zostalo juz tylko wspomnienie. Na podlodze
+wala sie gruz. Wiatr spokojnie hula po calym pomieszczeniu. Sufit jeszcze sie
+trzyma, ale nie wiadomo jak dlugo to potrwa. Otacza cie wszechobecny smrod
+uryny.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z rudery.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10133
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z rudery.~
+~
+0 0 10133
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10135
+Name Karczma 'Lenowy Bóbr'~
+Descr Gdy wchodzisz do karczmy uderza ciê fala dusznego powietrza przesyconego
+zapachem piwa, dymu fajkowego, jad³a i potu. Znajdujesz siê w przestronnym,
+g³ównym pomieszczeniu karczmy. Za masywn±, dêbow± lad± na rega³ach
+porozstawiane s± najró¿niejsze trunki. Dwie beczki z piwem arigarckiego
+browaru Pilzeman&Neeken stoj± obok beczki z winem z winnicy Sal veol Salle.
+W lokalu nie jest zbyt czysto. Na górze znajduj± siê pokoje do wynajêcia, a
+na pó³nocy izba jadalna ze sto³ami i krzes³ami. 
+~
+FlagsExt 0|HW
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10153
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10153
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z karczmy.~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10152
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z karczmy.~
+~
+3 0 10152
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10154
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10154
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10136
+Name Herbaciarnia 'Pod Klombem'~
+Descr Znajdujesz sie w przytulnie urzadzonym pomieszczeniu. Na calej jego
+powierzchni porozstawiane sa okragle drewniane stoliki oraz wygodne debowe
+krzesla wylozone aksamitnymi poduszkami. Pokoj ginie w przyjemnym polmroku z
+powodu przymknietych okiennic. Swiatlo saczy sie z wielu oslonietych
+ciemnozielonymi szalami lamp. W powietrzu unosi sie zapach parzonej herbaty
+najrozniejszych gatunkow. Na rzezbionych polkach porozstawiana jest bardzo
+elegancka porcelanowa zastawa. Roznego rodzaju filizanki zadziwiaja swoja
+krucha uroda. Pod oknem stoi dziwne gnomie urzadzenie skladajace sie z butli
+i podlaczonych do niej rurek. Po drugiej stronie pomieszczenia stoi wesolo
+bulgoczacy samowar.
+~
+FlagsExt 0|H
+Sector 0
+Extra east~
+Wyjscie na ulice.
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z herbaciarni.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10162
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z herbaciarni.~
+~
+0 0 10162
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 33
+ExitExtKey 0
+ExitExtToVnum 10206
+ExitExtEnd
+Exit 4
+~
+~
+33 0 10206
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10137
+Name Spalona karczma~
+Descr To, co kiedy¶ mo¿na by³o dumnie nazwaæ karczm±, teraz jest ju¿ tylko
+pogo¿eliskiem - kolejna architektoniczna ofiara najazdu Kruczych Piór na
+Adriê. Jest to przykry widok, gdy¿ spod czarnych gruzów niejednokrotnie
+wystaje równie spalona koñczyna nieszczê¶nika, którego Pióra zaskoczy³y
+podczas biesiady w karczmie. Wielu zginê³o pewnie nie¶wiadomych, w pijackim
+¶nie, le¿±c gdzie¶ pod sto³em... Có¿, ci chyba mieli najwiêksze szczê¶cie. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z karczmy.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10169
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z karczmy.~
+~
+0 0 10169
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10138
+Name Zielarz~
+Descr Znajdujesz sie w jasnym pokoju. Na scianach susza sie najprzerozniejsze
+ziola, mchy i grzyby. Cale pomieszczenie przesiakniete jest ich intensywnym
+zapachem. Na stole stoja roznej wielkosci pojemniki oraz szklane butelki.
+Pod oknem lezy sterta lnianych workow. Dom zielarza sprawia wrazenie
+czystego i zadbanego.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z pracowni zielarza.~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 10159
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z pracowni zielarza.~
+~
+8192 0 10159
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10139
+Name Centralna agora~
+Descr Znajdujesz sie w samym sercu Arigartu. Glowny plac miasta wylozony jest
+bialym piaskowcem. Dookola widac rozchodzace sie na wszystkie strony swiata
+brukowane ulice. Nad twoja glowa pnie sie wysoko w gore ratusz, siedziba
+Burmistrza oraz Rady Miasta Dolnego. Na po³udniu widac wode tryskajaca z
+marmurowej fontanny. Plac jest bardzo zatloczony, slychac klotnie,
+rozbawione rozmowy oraz placz wszedobylskich dzieci. Dookola widac
+rozchodzace sie na wszystkie strony swiata brukowane ulice.
+~
+FlagsExt 0
+Sector 1
+Extra ratusz~
+Wysoki ratusz jest bogato zdobiony freskami przedstawiajacymi scenki rodzajowe
+z zycia miasta. Na jego szczycie, na wysokosci czwartego pietra znajduje sie
+mosiezny dzwon, sluzacy do alarmowania mieszkancow o niebezpieczenstwie.
+Skosny dach udekorowany jest marmurowymi rzezbami gargulcow ponuro patrzacych
+na rozciagajace sie ponizej miasto.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10164
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10164
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10165
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10165
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10166
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10166
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10163
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10163
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Ratusz~
+ExitExtTextOut $n wchodzi do ratusza.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10140
+ExitExtEnd
+Exit 4
+~
+VName Ratusz~
+TextOut $n wchodzi do ratusza.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10140
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10140
+Name Ratusz~
+Descr Znajdujesz sie na pierwszym pietrze ratusza. Jest to wiekowa kamienna
+budowla wykonana jeszcze przez krasnoludzkich mistrzow. Zimne sciany pokryte
+sa debowa boazeria oraz grubymi bogato haftowanymi gobelinami. Przedstawiaja
+one historie powstania miasta, wojny, zaraze z 312 roku oraz pokoj z elfami
+z 257 roku. Schody prowadz± do góry i na dó³. Pod ¶cian± stoi ma³e biurko. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10222
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10222
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z ratusza.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10139
+ExitExtEnd
+Exit 5
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z ratusza.~
+~
+0 0 10139
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10141
+Name Bank Grima~
+Descr Znajdujesz sie w glownym pomieszczeniu banku. Widzisz przeszklone okienko
+kasy. Przyjazny nerwowy gnom przelicza cos co chwila na skomplikowanym
+liczydle. Pomieszczenie zatopione jest w ciszy przerywanej jedynie brzekiem
+monet i szelestem przekladanych kart pergaminu oraz stert weksli. Na
+scianie wisi herb rodowy familii Aldernabow, wlascicieli banku oraz mala
+tabliczka.
+~
+FlagsExt 0|HU
+Sector 0
+Extra tablica~
++--oferta----------------------------------+
+|                                          |
+| Konto bankowe                   20%      |
+| Denominacja                  wkrotce     |
+| Pozyczki                     wkrotce     |
+| Weksle                       wkrotce     |
+|                                          |
++------------------------------------------+
+~
+Extra tabliczka~
++--oferta----------------------------------+
+|                                          |
+| Konto bankowe                    2%      |
+| Denominacja                  wkrotce     |
+| Pozyczki                     wkrotce     |
+| Weksle                       wkrotce     |
+|                                          |
++------------------------------------------+
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10208
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10208
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z banku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10167
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z banku.~
+~
+0 0 10167
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10142
+Name Kwatera g³ówna ¿elaznej gwardii~
+Descr Znajdujesz sie w budynku kwatery g³ównej gwardii ksiazecej. Pomieszczenie to
+wylozone jest kamienna posadzka, noszaca slady ciezkich wojskowych butow. Na
+scianach rozwieszone sa kiepsko wykonane ryciny przedstawiajace sceny
+batalistyczne. Nad g³ównym wejsciem znajduje sie olbrzyma tarcza z herbem
+rodowym ksiecia, zlotym lwem. Przy lawach stojacych w pomieszczeniu siedza
+gwardzisci po sluzbie rozprawiajac na sobie tylko znane tematy.
+Na dole lochy, na pó³nocy koszary, na zachodzie ulica.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 10170
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+16384 0 10170
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 10200
+ExitExtEnd
+Exit 5
+~
+~
+8192 0 10200
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10143
+Name Posterunek Gwardii~
+Descr Znajdujesz siê na rogatce posterunkowej gwardii ksi±¿êcej. W ma³ym
+budyneczku siedzi zblazowany oficer, przekrzykuj±cy siê z jakim¶ kupcem. O
+¶cianê oparci s± znudzeni szeregowi gwardzi¶ci, popijaj±cy ukradkiem z
+butelki. W budynku zawieszony jest gong alarmowy, gwardzista dzwoni nim co
+godzinê. Na po³udniu jest brama.
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z posterunku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10185
+ExitExtEnd
+Exit 5
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z posterunku.~
+~
+0 0 10185
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10145
+Name Biblioteka~
+Descr Znajdujesz sie w budynku biblioteki miejskiej. Na ¶rodku malego pokoju
+stoi zawalone ksiegami i pergaminami biurko. Na scianach wisza scenki
+rodzajowe z zycia wsi Oborki Male. Po drugiej stronie pokoju widac drzwi
+prowadzace do regalow z ksiegami i zwojami. W powietrzu da sie odczuc zapach
+kurzu oraz stechlizny. Z sufitu zwisa bogato zdobiona mosiezna lampa, dajaca
+nikle chwiejne swiatlo. Na zachodzie znajduje sie zatopiona w ciszy
+czytelnia.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z biblioteki.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10171
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z biblioteki.~
+~
+0 0 10171
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10146
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10146
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10146
+Name Czytelnia~
+Descr Znajdujesz sie w czytelni biblioteki miejskiej. Pomieszczenie to wylozone
+jest grubym dywanem, teraz obficie zakrwawionym, jak zreszt± wiêkszo¶æ
+sprzêtów i mebli w tym miejscu. Pomieszczenie to zupe³nie ró¿ni siê od
+poprzedniego, które zdawa³o siê byæ czyste i porz±dne - to za¶ jest niczym
+innym jak scen± mordu. ¦ciany upstrzone s± ¶ladami krwi. W pomieszczeniu
+panuje przeszywajaca cisza. Panuje wszechobecny zapach krwi i rozk³adu. 
+~
+FlagsExt 0|CDH
+Sector 0
+Extra ¶lady~
+{r¦lady zakrzep³ej krwi s± prawie wszêdzie, jak gdyby ranny i umieraj±cy
+czo³ga³ siê uporczywie do jakiego¶ miejsca. Na jednym z rega³ów widaæ
+wyra¼ny, krwawy odcisk d³oni. {x 
+~
+Extra odcisk~
+{rWyra¼ny odcisk niewielkiej, pewnikiem gnomiej, d³oni widnieje na ¶cianie,
+jak gdyby umieraj±cy ostatkiem si³, bez powodzenia, próbowa³ odsun±æ rega³. {x
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10145
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10145
+Roomprog input 10146_regal odsuñ~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10147
+Name P³atnerz~
+Descr Znajdujesz siê w rzemie¶lniczej izbie. Pomieszczenie jest ma³e i
+zagracone. Wszêdzie le¿± czê¶ci zbroi oraz ró¿norakich tarczy. Na masywnym
+stole znajduje siê specjalna prasa, setki kó³eczek, pasków, blaszek oraz
+obcêgi. W nastêpnej izbie, na podwórzu znajduje siê ma³y piec przy pomocy
+którego p³atnerz modeluje swoje wyroby. Na ¶cianach wisz± gotowe lub
+czê¶ciowo gotowe zbroje, ko³czugi, tarcze oraz puklerze.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z budynku p³atnerza.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10158
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z budynku p³atnerza.~
+~
+0 0 10158
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10148
+Name Miecznik~
+Descr Znajdujesz sie w dobrze oswietlonej rzemieslniczej izbie. Za
+przeszklona witryna zawieszone sa najprzedniejsze ostrza wyklute przez
+mistrza Verda. Przez widac mieszczaca sie za podworzem kuznie, w której
+hartowana jest stal. Pomieszczenie jest surowo urzadzone, za wyjatkiem
+masywnego wysluzonego biurka oraz witryn z bronia w pokoju nie ma zadnych
+mebli.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z budynku miecznika.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10157
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z budynku miecznika.~
+~
+0 0 10157
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10149
+Name Kamienica~
+Descr Znajdujesz siê na parterze kamienicy. ¦ciany tego pomieszczenia
+zape³nione s± portretami dostojnych gnomów, których twarze zdobi± wspania³e,
+sumiaste w±sy. Schody prowadz±ce na górê s± bogato zdobione, przestronne i
+zajmuj± wiêksz± czê¶æ tego niedu¿ego holu.
+~
+FlagsExt 0|C
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 10196
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+16387 0 10196
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10213
+ExitExtEnd
+Exit 2
+~
+~
+3 0 10213
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10209
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10209
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10150
+Name Poczta~
+Descr Znajdujesz sie w dobrze oswietlonym pomieszczeniu. W okienku czeka pracownik
+poczty. Na zapleczu widzisz sterty listow oraz najrozniejszej wielkosci paczki.
+Po bokach stoja stoly przy których mozna w spokoju napisac list. Wszedzie mozna
+dostrzec zaschniete kleksy po wylanym inkauscie.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z budynku poczty.~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 10161
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z budynku poczty.~
+~
+8192 0 10161
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10151
+Name Podgrodzie~
+Descr Znajdujesz siê przed masywn±, osadzon± pomiêdzy dwiema strzelistymi
+wiezyczkami brama. Prowadzi ona w gore miasta. Mury je okalajace zaslaniaja
+ci widok, a wzrok przykuwaj± zwisaj±ce z nich martwe i dogorywaj±ce gnomy.
+Brama wygl±da jakby ongi¶ by³a bogato zdobiona, lecz zosta³a rozkradziona.
+Na ¶rodku znajduje siê miejsce, gdzie drewno jest ja¶niejsze - najpewniej
+by³a tam jaka¶ wiêksza ozdoba, któr± zrabowano. Po bokach stoj± posterunki
+stra¿y. Gdy tylko wrota zostaj± uchylone, dostrzegasz zgie³k i zamêt
+panuj±cy w gornej czesci miasta. 
+~
+FlagsExt 0|C
+Sector 1
+Extra brama~
+Masywna i bogato okuta brama. Material z której zostala zrobiona to
+hartowany magicznie heban. Wyrzezbiony na srodku lew patrzy groznie.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20076
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20076
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 20529
+ExitExtEnd
+Exit 1
+~
+~
+16 0 20529
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 8195
+ExitExtKey 0
+ExitExtToVnum 10191
+ExitExtEnd
+Exit 2
+~
+VName Brama~
+brama~
+8195 0 10191
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 20527
+ExitExtEnd
+Exit 3
+~
+~
+16 0 20527
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10152
+Name Dzielnica kupiecka~
+Descr Idziesz brukowan± ulic± ci±gn±c± siê na zachód. Dooko³a wznosz± siê
+ró¿nej wielko¶ci kamienice. Niektóre z nich maj± pieknie wykoñczone ozdoby,
+na inych widaæ odci¶niête piêtno wielu lat. W tej dzielnicy od wieków
+zamieszkuj± rodziny kupieckie. Kamienice czynszowe mieszaj± siê z kipi±cymi
+od przepychu domami mo¿nych. Pokryta kocimi ³bami ulica obni¿a siê
+gwa³townie ku zachodowi. Z pó³nocy dochodz± cie odg³osy ¶wiewów oraz gnomich
+przekleñstw.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Karczma~
+ExitExtTextOut $n wchodzi do karczmy.~
+ExitExtTextIn $n wchodzi do karczmy.~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10135
+ExitExtEnd
+Exit 0
+~
+VName Karczma~
+TextOut $n wchodzi do karczmy.~
+TextIn $n wchodzi do karczmy.~
+~
+3 0 10135
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10156
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10156
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10172
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10172
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10132
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10132
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10153
+Name Izba jadalna~
+Descr Znajdujesz siê w przestronnej jadalni. Go¶cie siedz± przy d³ugich,
+drewnianych ³awach. Nad ka¿d± z nich wisz± gnomie lampy. Po³udniowe okna
+wychodz± na ulicê. W pomieszczeniu panuje dusz±cy zaduch, miesza siê woñ
+jad³a, piwa, dymu oraz potu. Przedstawiciele ró¿nych ras jedz± i pij± przy
+akompaniamencie mlasków i siorbania. Na po³udniu znajduje siê g³ówne
+pomieszczenie karczmy. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10135
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10135
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10154
+Name Pokoje do wynajêcia~
+Descr Znajdujesz siê na piêtrze karczmy. Drewniana pod³oga b³yszczy, zapewne
+jest ¶wiezo umyta. Korytarz w którym stoisz prowadzi do pokoi go¶cinnych. W
+powietrzu unosi siê dra¿ni±cy zapach ¶rodków czyszcz±cych i mydlin. Z
+którego¶ z pokoi dochodz± g³o¶ne przekleñstwa jakiego¶ mê¿czyzny. Na dole
+znajduje siê bar, a tutaj mo¿esz ¶mia³o wynaj±æ który¶ z pokoi.
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10135
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10135
+Rentrate 140
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10155
+Name Spl±drowana piekarnia~
+Descr Znajdujesz siê w zrujnowanym budynku, które najpewniej by³o piekarni±, o
+czym ¶wiadcz± walaj±ce siê, porozrywane worki z m±k±, w której uwalana jest
+ca³a posadzka. Sam± konstrukcjê strawi³ po¿ar, o czym ¶wiadcz± czarne jak
+smo³a ¶ciany i sw±d spalenizny, utrzymuj±cy siê tu nawet pomimo braku dachu,
+który musia³ zawaliæ siê, trawiony przez ¿ywio³. Widzisz tu tak¿e zwêglone
+resztki umeblowania, a w rogu mo¿na dostrzec usmolony, acz nadal solidny
+piec do chleba. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z piekarni.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10156
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z piekarni.~
+~
+0 0 10156
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10156
+Name Dzielnica kupiecka~
+Descr Znajdujesz siê na brukowanej ulicy. Dooko³a wznosz± siê ró¿nej wielko¶ci
+kamienice. Niektóre z nich maj± piêkne wykoñczone ozdoby, na innych widaæ
+odci¶niête piêtno wielu lat. W tej dzielnicy od wieków mieszkaj± rodziny
+kupieckie. Kamienice czynszowe mieszaj± siê z kipi±cymi od przepychu domami.
+Z pó³nocy dochodzi ciê zapach swie¿o pieczonego pieczywa.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Piekarnia~
+ExitExtTextOut $n wchodzi do piekarni.~
+ExitExtTextIn $n wchodzi do budynku. ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10155
+ExitExtEnd
+Exit 0
+~
+VName Piekarnia~
+TextOut $n wchodzi do piekarni.~
+TextIn $n wchodzi do budynku. ~
+~
+0 0 10155
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10157
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10157
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10152
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10152
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10157
+Name Dzielnica kupiecka~
+Descr Znajdujesz siê na brukowanej ulicy. Dooko³a wznosz± siê ró¿nej wielko¶ci
+kamienice. Niektóre z nich maj± piêkne wykoñczone ozdoby, na innych widaæ
+odci¶niête piêtno wielu lat. W tej dzielnicy od wieków mieszkaj± rodziny
+kupieckie. Kamienice czynszowe mieszaj± siê z kipi±cymi od przepychu domami.
+Na pó³nocy znajduje siê budynek handlarza broni±, a na po³udniu podwórze
+browaru.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Miecznik~
+ExitExtTextOut $n wchodzi do budynku miecznika.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10148
+ExitExtEnd
+Exit 0
+~
+VName Miecznik~
+TextOut $n wchodzi do budynku miecznika.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10148
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10158
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10158
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10156
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10156
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10158
+Name Dzielnica kupiecka~
+Descr Znajdujesz siê na brukowanej ulicy. Dooko³a wznosz± siê ró¿nej wielko¶ci
+kamienice. Niektóre z nich maj± piêkne wykoñczone ozdoby, na innych widaæ
+odci¶niête piêtno wielu lat. W tej dzielnicy od wieków mieszkaj± rodziny
+kupieckie. Kamienice czynszowe mieszaj± siê z kipi±cymi od przepychu domami.
+Na pó³nocy znajduje siê p³atnerz, a ¶cie¿ka biegn±ca na dó³ prowadzi do
+garbarza.
+~
+FlagsExt 0
+Sector 1
+Extra south~
+Droga do portu.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName P³atnerz~
+ExitExtTextOut $n wchodzi do budynku p³atnerza.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10147
+ExitExtEnd
+Exit 0
+~
+VName P³atnerz~
+TextOut $n wchodzi do budynku p³atnerza.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10147
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10159
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10159
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10157
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10157
+ExitExt 5
+ExitExtDescription ~
+ExitExtTextOut $n idzie na wschód ulic± w dó³.~
+ExitExtTextIn $n wy³ania siê z uliczki na wchodzie.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10198
+ExitExtEnd
+Exit 5
+~
+TextOut $n idzie na wschód ulic± w dó³.~
+TextIn $n wy³ania siê z uliczki na wchodzie.~
+~
+0 0 10198
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10159
+Name Dzielnica kupiecka~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola wznosza sie roznej wielkosci
+kamienice. Niektore z nich maja pieknie wykonczone ozdoby, na innych widac
+odcisniete pietno wielu lat. W tej dzielnicy od wiekow zamieszkuja rodziny
+kupieckie. Kamienice czynszowe mieszaja sie z kipiacymi od przepychu domami
+moznych. Pokryta kocimi lbami ulica pnie sie coraz wyzej na pó³noc. W
+powietrzu unosi sie zapach duszacy zapach ziol.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10158
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10158
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10160
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10160
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Zielarz~
+ExitExtTextOut $n wchodzi do pracowni zielarza.~
+ExitExtTextIn $n wchodzi do pracowni.~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 10138
+ExitExtEnd
+Exit 2
+~
+VName Zielarz~
+TextOut $n wchodzi do pracowni zielarza.~
+TextIn $n wchodzi do pracowni.~
+~
+8192 0 10138
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10160
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola stoja roznej wielkosci
+kamienice. Na niektórych z nich umieszczone sa runy herbowe zamieszkujacych
+je rodzin. W tej czesci miasta jest dosc czysto. Domy zbudowano przy pomocy
+czerwonej cegly. W oknach umieszczone sa doniczki z roznorakimi kwiatami. Z
+poludnia dochodzi szum fal.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10161
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10161
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10159
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10159
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10161
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola stoja roznej wielkosci
+kamienice. Na niektórych z nich umieszczone sa runy herbowe zamieszkujacych
+je rodzin. W tej czê¶ci miasta jest w miarê czysto. Góruj± tu domy kamienne,
+choæ da siê zauwa¿yæ kilka drewnianych. Na pó³nocy gustowna herbaciarnia, na
+po³udniu budynek poczty. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10162
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10162
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10163
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10163
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Poczta~
+ExitExtTextOut $n wchodzi do budynku poczty.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 10150
+ExitExtEnd
+Exit 2
+~
+VName Poczta~
+TextOut $n wchodzi do budynku poczty.~
+TextIn $n wchodzi do budynku.~
+~
+8192 0 10150
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10160
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10160
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10162
+Name Przed Herbaciarnia~
+Descr Znajdujesz sie w brukowanej waskiej uliczce. Twoja uwage przykuwa wtopiony w
+otoczenie budynek. Jest to mala kamienica zbudowana z czerwonej skaly, od razu
+widac, ze to robota krasnoludzkich mistrzow. Budynek jest jednopietrowy. Na
+parterze widac gustowny szyld przedstawiajacy pokryty srebrnymi nitkami lisc
+klombu oraz przymkniete zielone okiennice. Na pierwszym pietrze znajduje sie
+balkon tonacy w roznokolorowych kwiatach. Budynek otacza aura spokoju.
+Na zachodzie herbaciarnia, na po³udniu agora.
+~
+FlagsExt 0
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10161
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10161
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Herbaciarnia~
+ExitExtTextOut $n wchodzi do herbaciarni.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10136
+ExitExtEnd
+Exit 3
+~
+VName Herbaciarnia~
+TextOut $n wchodzi do herbaciarni.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10136
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10163
+Name Centralna agora~
+Descr Znajdujesz sie w samym sercu Adrii. Jest to glowny plac miasta. Wylozony
+jest bialym piaskowcem. Dookola widac rozchodzace sie na wszystkie strony
+swiata brukowane ulice. Na wschodzie wznosi sie gorujacy nad nad ca³ym
+miastem ratusz. Z po³udniowego wschodu dochodzi do ciebie szum tryskaj±cej z
+fontanny, brudnej wody. Na zachodzie majaczy dzielnica kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10139
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10139
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10161
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10161
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10164
+Name Centralna agora~
+Descr Znajdujesz sie w samym sercu Arigartu. Jest to glowny plac miasta.
+Wylozony jest bia³ym piaskowcem, obecnie w kilku miejscach roz³upanym oraz
+szczodrze pokrytym brudem. Na po³udniu wznosi siê góruj±cy nad ca³ym miastem
+ratusz. Plac jest calkiem zatloczony, slychac klotnie, rozbawione rozmowy
+oraz placz osieroconych i jeszcze ¿ywych dzieci. Na pó³nocy rozpoczyna siê
+ulica Podgrodzka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10168
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10168
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10139
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10139
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10165
+Name Centralna agora~
+Descr Znajdujesz sie w samym sercu Arigartu. Jest to glowny plac miasta. Wylozony
+jest bialym piaskowcem. Dookola widac rozchodzace sie na wszystkie strony
+swiata brukowane ulice. Na zachodzie wznosi sie gorujacy nad nad calym miastem
+ratusz. Plac jest calkiem zatloczony, slychac klotnie, rozbawione rozmowy oraz
+placz wszedobylskich dzieci. Z po³udniowego zachodu dochodzi do ciebie szum
+tryskajacej z fontanny wody.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10169
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10169
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10139
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10139
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10166
+Name Centralna agora~
+Descr Znajdujesz sie w samym sercu Arigartu. Jest to glowny plac miasta.
+Wylozony jest bialym piaskowcem. Dookola widac rozchodzace sie na wszystkie
+strony swiata brukowane ulice. Na pó³nocy wznosi sie ratusz, siedziba
+Burmistrza oraz Rady Miasta Dolnego. Przed toba stoi marmurowa fontanna.
+Plac jest calkiem zatloczony, slychac klotnie, rozbawione rozmowy oraz placz
+wszedobylskich niedobitków, których naje¼d¼cy wziêli do niewoli. Co chwila
+kto¶ podchodzi i bezceremonialnie odlewa siê do fontanny. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10139
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10139
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10167
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10167
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10167
+Name Bankowa~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola stoja roznej wielkosci kamienice.
+Na niektórych z nich umieszczone sa runy herbowe zamieszkujacych je rodzin.
+W tej czesci miasta jest dosc czysto. Domy zbudowano przy pomocy czerwonej
+cegly. W oknach umieszczone sa doniczki z roznorakimi kwiatami.
+Na pó³nocy ratusz, na wschodzie budynek banku.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10166
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10166
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Bank~
+ExitExtTextOut $n wchodzi do banku.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10141
+ExitExtEnd
+Exit 1
+~
+VName Bank~
+TextOut $n wchodzi do banku.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10141
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10168
+Name Ulica Podgrodzka~
+Descr Znajdujesz sie na brukowanej ulicy. Otaczajace cie kamienice pokryte sa
+plaskorzezbami. Na dachach wielu z nich dostrzegasz kamienne podobizny
+gargulcow. Na po³udniu znajduje sie szeroki, wylozony bialym piaskowcem plac
+z wysokim budynkiem po srodku. Im blizej centrum tym kamienice staja siê
+bardziej szykowne i bogato ozdobione... I rozkradzione z owych ozdób.
+Zewsz±d dobiegaj± wrzaski, gwar rozmów i siarczyste przekleñstwa. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10170
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10170
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10164
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10164
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10169
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Otaczajace cie kamienice pokryte sa
+plaskorzezbami. Na dachach wielu z nich dostrzegasz kamienne podobizny
+gargulcow. Nad wejsciami umieszczone sa runy herbowe. W oknach stoja doniczki
+z roznorakimi kwiatami. W powietrzu unosi sie zapach smieci oraz wylewanych
+nieczystosci. Z pó³nocy dochodzi cie gwar rozmow i wesolej zabawy. Na zachodzie
+zas rozciaga sie plac glowny.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Karczma~
+ExitExtTextOut $n wchodzi do karczmy.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10137
+ExitExtEnd
+Exit 0
+~
+VName Karczma~
+TextOut $n wchodzi do karczmy.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10137
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10179
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10179
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10165
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10165
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10170
+Name Ulica Podgrodzka~
+Descr Znajdujesz siê na brukowanej ulicy. Doko³a stoj± ró¿nej wielko¶ci
+kamienice. Na niektórych z nich widniej± po³owicznie zatarte runy herbowe
+ongi¶ zamieszkuj±cych je, gnomich rodzin. W tej czê¶ci miasta, jak i w
+ka¿dej innej, panuje niebotyczny stf. Domy zbudowano z drewna i kamienia. Na
+wschodzie wznosi siê monumentalny, acz ponury budynek, niegdy¶ nale¿±cy do
+gwardii ksi±¿êcej. Na zachodzie biblioteka. Na pó³nocy i po³udniu ulica
+Podgrodzka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10188
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10188
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wiêzienie~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 10142
+ExitExtEnd
+Exit 1
+~
+VName Wiêzienie~
+~
+16384 0 10142
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10168
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10168
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10171
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10171
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10171
+Name Zaulek biblioteczny~
+Descr Znajdujesz sie przed dwupietrowym budynkiem Biblioteki Miejskiej im. ksiecia
+Veliana. Wejscie umieszczono pomiedzy dwiema okazalymi kolumnami udekorowanymi
+wzorami w postaci pnacej sie winorosli. Na drugim pietrze budynku widac okazala
+rzezbe letyckiego lwa szykujacego sie do skoku. Pod nim napisano pewna maksyme
+dotyczaca wiedzy, jednak czas spowodowal ze litery przestaly byc czytelne.
+~
+FlagsExt 0
+Sector 0
+Extra napis~
+Furgas rzondzi
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Biblioteka~
+ExitExtTextOut $n wchodzi do biblioteki.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10145
+ExitExtEnd
+Exit 0
+~
+VName Biblioteka~
+TextOut $n wchodzi do biblioteki.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10145
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10170
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10172
+Name Ulica Browarnicza~
+Descr Znajdujesz siê na brukowanej ulicy. Dooko³a stoj± ró¿nej wielko¶ci
+kamienice. Niektóre z nich s± ju¿ naprawdê wiekowe. Na straganach przekupki
+przekrzykuj± siê zachwalaj±c swe wyroby. Co jaki¶ czas da siê zauwa¿yæ
+ka³u¿e pomyj.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10152
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10152
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10173
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10173
+Name Ulica Browarnicza~
+Descr Znajdujesz siê na brukowanej ulicy. Dooko³a stoj± ró¿nej wielko¶ci
+kamienice. Niektóre z nich s± ju¿ naprawdê wiekowe. Na straganach przekupki
+przekrzykuj± siê zachwalaj±c swe wyroby. Co jaki¶ czas da siê zauwa¿yæ
+ka³u¿e pomyj.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10172
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10172
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Browarnia~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10175
+ExitExtEnd
+Exit 1
+~
+VName Browarnia~
+~
+3 0 10175
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10174
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10174
+Name Ulica Browarnicza~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola stoja roznej wielkosci kamienice.
+Niektore z nich sa juz naprawde wiekowe. Na straganach Przekupki przekrzykuja
+sie zachwalajac swe wyroby. Co jakis czas da sie uslyszec chlupot wylewanych
+pomyj. Na zachodzie znajduje sie posterunek gwardii, na wschodzie ulica.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10173
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10175
+Name Kompania Browarnicza 'Pilzemaan & Neeken'~
+Descr Znajdujesz siê w g³ównym budynku kompanii browarniczej Pilzeman & Neeken.
+Na ¶rodku stoi gustowne cedrowe biurko. ¦ciany wy³o¿one s± ekskluzywn±
+boazeri±. Wisz± na nich obrazy oraz poro¿e ³osia ¿yberiañskiego. Da siê
+wyczuæ delikatn± woñ chmielu. Para drzwi prowadzi do biura dyrekcji. Na
+pó³nocy znajduje siê destylarnia a na wschodzie sk³adzik.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10176
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10176
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName sk³adzik~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10178
+ExitExtEnd
+Exit 1
+~
+VName sk³adzik~
+~
+3 0 10178
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName wyj¶cie~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10173
+ExitExtEnd
+Exit 3
+~
+VName wyj¶cie~
+drzwi~
+3 0 10173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10176
+Name Destylarnia~
+Descr Znajdujesz sie w malym zadymionym pomieszczeniu. Przy pomocy olbrzymiego pieca,
+polaczonego z skomplikowanym systemem retort, butelek, beczulek i rurek gnomiej
+produkcji destyluje sie piwo. Pod sciana stoja pojemniki z przygotowanym do
+fermentacji chmielem. Na po³udniu glowny budynek browaru, na wschodzie
+podworze.
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10175
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10175
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10177
+Name Podworze~
+Descr Znajdujesz siê na podwórzu za browarem. Pod ¶cian± piêtrz± siê puste,
+drewniane beczki. Obok le¿y sterta wysuszonych krzaków chmielu. W powietrzu
+unosi siê ich charakterystyczny zapach. Nad podwórzem góruje d¼wig do
+przenoszenia ciê¿kich przedmiotów. Przez okna browaru mo¿na ujrzeæ
+destylarnie oraz sk³ad beczek.
+~
+FlagsExt 0
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10178
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10178
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10178
+Name Sk³ad~
+Descr Znajdujesz siê w sk³adzie browaru. Pod sam dach tego pomieszczenia
+poustawiane s± beczki pe³ne piwa. Pod³oga wy³o¿ona kamiennymi p³ytami
+sk±pana jest w trunku. Wszêdzie unosi siê zapach sfermentowanego chmielu. Na
+pó³nocy znajduje sie podwórze zasypane pustymi beczkami. Na zachodzie g³ówny
+budynek browaru.
+~
+FlagsExt 0
+Sector 0
+Extra beczki~
+Beczki pelne najprzedniejszego Arigarckiego piwa. Marka P&N znana jest na
+calym swiecie. Beczki z Bortbeerem, Kaltkegiem i Vandergiem stoja obok takich
+sikaczy jak Luludel, Kilbern i Plomyczek.
+~
+Extra beczka~
+Beczki pelne najprzedniejszego Arigarckiego piwa. Marka P&N znana jest na
+calym swiecie. Beczki z Bortbeerem, Kaltkegiem i Vandergiem stoja obok takich
+sikaczy jak Luludel, Kilbern i Plomyczek.
+~
+Extra piwo~
+Beczki pelne najprzedniejszego Arigarckiego piwa. Marka P&N znana jest na
+calym swiecie. Beczki z Bortbeerem, Kaltkegiem i Vandergiem stoja obok takich
+sikaczy jak Luludel, Kilbern i Plomyczek.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10177
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10177
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Browarnia~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10175
+ExitExtEnd
+Exit 3
+~
+VName Browarnia~
+~
+3 0 10175
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10179
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola wznosza sie roznej wielkosci
+kamienice. Jak na glowna ulice przystalo, domy sa przewaznie starannie
+wykonczone. W tej dzielnicy od wiekow zamieszkuja mieszczanie oraz drobna
+zubozala arystokracja. Kamienice czynszowe mieszaja sie z bogatymi domami
+moznych. Budynki wykonano z czerwonej cegly. Na niektórych z nich wyryte sa
+fantazyjne herby zamieszkujacych je rodow. Pokryta kocimi lbami ulica pnie
+sie coraz wyzej na zachod. Z po³udnia dobiegaja odglosy walki.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10180
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10180
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10169
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10169
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10180
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola wznosza sie roznej wielkosci
+kamienice. Jak na glowna ulice przystalo, domy sa przewaznie starannie
+wykonczone. W tej dzielnicy od wiekow zamieszkuja mieszczanie oraz drobna
+zubozala arystokracja. Kamienice czynszowe mieszaja sie z bogatymi domami
+moznych. Budynki wykonano z czerwonej cegly. Pokryta kocimi lbami ulica pnie
+sie coraz wyzej na zachod. Z po³udnia dobiegaja odglosy walki.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10194
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10194
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10181
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10181
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Gildia~
+ExitExtTextOut $n wchodzi do gildii.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10186
+ExitExtEnd
+Exit 2
+~
+VName Gildia~
+TextOut $n wchodzi do gildii.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10186
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10179
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10179
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10181
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola wznosza sie roznej wielkosci
+kamienice. Jak na glowna ulice przystalo, domy sa przewaznie starannie
+wykonczone. W tej dzielnicy od wiekow zamieszkuja mieszczanie oraz drobna
+zubozala arystokracja. Kamienice czynszowe mieszaja sie z bogatymi domami
+moznych. Budynki wykonano z czerwonej cegly. Pokryta kocimi lbami ulica pnie
+sie coraz wyzej na zachod.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10182
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10182
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10180
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10180
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10182
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dookola stoja roznej wielkosci
+kamienice. Im blizej centrum miasta tym wiekszy przepych. Na niektórych z
+nich umieszczone sa runy herbowe zamieszkujacych je rodow. W oknach
+umieszczone sa doniczki z roznorakimi kwiatami. W powietrzu unosi sie zapach
+smieci oraz wylewanych nieczystosci. W rynsztoku lezy jakis nieprzytomny
+gnom. Nikt z przechodniow nie zwraca na niego najmniejszej uwagi.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10195
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10195
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10183
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10183
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10181
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10181
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10183
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Dalej na wschodzie wznosi sie wysoki
+kamienny mur obronny okalajacy cale miasto. Na jego szczycie przechadzaja sie
+straze. Z kazdym krokiem w glab miasta zdaje sie narastac nieopisany zgielk.
+Feeria barw i zapachow atakuje wszystkie zmysly. Im blizej centrum tym
+kamienice staja sie bardziej szykowne i bogato ozdobione. Z tym widokiem
+kontrastuja kupki smieci pietrzace sie pod scianami budynkow. Na zachodzie
+majaczy duzy plac.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10184
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10184
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10182
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10182
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10184
+Name Ulica Vespiana IV~
+Descr Znajdujesz sie na brukowanej ulicy. Na wschodzie wznosi sie wysoki
+kamienny mur obronny okalajacy cale miasto. Na jego szczycie przechadzaja
+sie straze. Na nieobrobionych blokach kamiennych nabazgrane sa rozne napisy.
+Dookola wyrastaja pnace sie coraz wyzej kamienice. Niektore z nich sa bogato
+zdobione rzezbami, inne znowu przypominaja rozsypujace sie rudery. W
+powietrzu unosi sie zapach miasta, pomieszana won potu, uryny oraz lezacych
+wszedzie smieci.
+~
+FlagsExt 0
+Sector 1
+Extra napisy~
+Elfy do lasu...
+                          Wiotka Lotka na radna!
+  Arcykaplan to [nieczytelny napis]
+                                         Precz z tymi bazgrolami!
+
+              Kcem byc uogrem...
+                                                 Merrtu, tu bylem.
+          Precz z okupac[dalsz± czê¶æ pokrywa zakrzep³a krew]
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10185
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10185
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10183
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10183
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10185
+Name Brama~
+Descr Znajdujesz sie przy bramie glownej. Na wschodzie wznosza sie mury obronne
+miasta. Wykonane sa przez krasnoludzkich rzemieslnikow z najprzedniejszego
+gorskiego kamienia. Wielkie, misternie kute w zelazie wrota miedzy dwoma
+kamiennymi basztami zwienczonymi skrzydlami gryfa to jedyne wejscie do miasta.
+Zaloga strzelistych wiezyczek i baszt przez dzien i noc strzeze bramy. Stary
+oddzwierny i jego dwoch roslych synow obsluguja ogromny kolowrotek, polaczony
+systemem trybow z mechanizmem otwierajacym brame. Po murze przechadzaja sie
+patrole gwardzistow.
+~
+FlagsExt 0
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10184
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10184
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Posterunek~
+ExitExtTextOut $n wchodzi do budynku stra¿y.~
+ExitExtTextIn $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10143
+ExitExtEnd
+Exit 4
+~
+VName Posterunek~
+TextOut $n wchodzi do budynku stra¿y.~
+TextIn $n wchodzi do budynku.~
+~
+0 0 10143
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10186
+Name Sieñ~
+Descr Znajdujesz sie w malym pomieszczeniu. Na scianach rozwieszone sa gobeliny
+przedstawiajace walczacych ludzi. Elfy szyjace ze swych kompozytowych lukow
+oraz krasnoludy machajace bez wysilku swymi poteznymi mlotami. Na biurku
+lezy zwoj pergaminu. W sasiednim pomieszczeniu slychac odglosy wytezonych
+cwiczen.
+~
+FlagsExt 0|H
+Sector 0
+Extra zwój~
+Niestety, kto¶ rozla³ na zwój ca³± zawarto¶æ ka³amarza.
+~
+Extra pergamin~
+Niestety, kto¶ rozla³ na zwój ca³± zawarto¶æ ka³amarza.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z gildii.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10180
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z gildii.~
+~
+0 0 10180
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10187
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10187
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10187
+Name Sala æwiczeñ~
+Descr Znajdujesz sie w przestronnej sali wy³o¿onej wys³u¿on±, drewniana
+pod³og±. Pod ¶cianami wisz± worki wype³nione piaskiem. Wszêdzie
+porozstawiane s± krzes³a i sto³y. W ró¿nych czê¶ciach pomieszczenia æwicz±
+podró¿nicy. W powietrzu unosi siê zapach ciê¿ko wypracowanego potu. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10186
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10186
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10188
+Name Ulica Podgrodzka~
+Descr Znajdujesz sie na brukowanej ulicy. Otaczajace cie kamienice pokryte sa
+plaskorzezbami. Na dachach wielu z nich dostrzegasz kamienne podobizny
+gargulcow. Na po³udniu majaczy szeroki, wylozony bialym piaskowcem plac
+z wysokim budynkiem po srodku. Pokryta kocimi lbami ulica wije sie coraz
+wyzej pomiedzy kamienicami. Na pó³nocy widac dwie gorujace nad miastem
+baszty.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10189
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10189
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10170
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10189
+Name Ulica Podgrodzka~
+Descr Znajdujesz sie na brukowanej ulicy. Otaczajace cie kamienice pokryte sa
+plaskorzezbami. Na dachach wielu z nich dostrzegasz kamienne podobizny
+gargulcow. Pokryta kocimi lbami ulica wije sie coraz wyzej pomiedzy
+kamienicami. Na pó³nocy widac dwie gorujace nad miastem baszty. Pomiedzy
+nimi osadzone sa masywne wrota prowadzace w gore miasta. W powietrzu unosi
+sie smród uryny, wymiocin i martwych cia³. Umorusane krwi±, zwierzêce zw³oki
+le¿± smêtnie w rynsztoku. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10190
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10190
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10188
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10188
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10190
+Name Ulica Podgrodzka~
+Descr Znajdujesz sie na brukowanej ulicy. Otaczajace cie kamienice pokryte sa
+brudem. Na dachach wielu z nich dostrzegasz dziury, czasem nawet niewprawnie
+za³atane Pokryta kocimi ³bami, za¶miecona i zbryzgana krwi± ulica wije siê
+pomiêdzy kamienicami. Na pó³nocy ciagna sie wewnetrzne mury obronne miasta
+uwienczone osadzona pomiêdzy dwiema basztami brama. Ponad g³owami
+przechodniów wisz± na sznurach inne g³owy, gnomie, odciête od cia³ i
+zawieszone tu chyba jako manifestacja mrocznego poczucia humoru. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10191
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10191
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10192
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10192
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10189
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10189
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10191
+Name W bramie~
+Descr Jeste¶ w bramie. Budowla zosta³a wzniesiona z ciosanego kamienia i
+ustawiona na solidnych fundamentach, co sprawia, i¿ wygl±da ona na
+niewzruszon±, monumentaln± konstrukcê. W istocie pewnie taka te¿ jest. Po
+obu stronach przej¶cia wisz± jakie¶ emblematy, lecz nie sposób odczytaæ
+jakiego w³adcê reprezentowa³y, gdy¿ s± podarte i w wiêkszo¶ci zachlapane
+krwi± lub inn± ciecz±. 
+~
+FlagsExt 0|H
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 8195
+ExitExtKey 0
+ExitExtToVnum 10151
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+brama~
+8195 0 10151
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10190
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10190
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10221
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10221
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10214
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10214
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10192
+Name W±ski zau³ek~
+Descr Znajdujesz sie w waskiej uliczce pomiedzy wysokimi kamiennicami. To
+miejsce nawet za dnia nie wydobywa sie z polmroku. Bruk jest mniej wytarty
+niz na glownej ulicy. Okna wychodzace na zaulek sa pozamykane i dodatkowo
+niezgrabnie zabite dechami. Drzwi prowadz±ce do kamienic sa zaryglowane. Z
+piwnic dochodzi miauczenie kota i... Chyba co¶ jakby... Agonalne jêki? 
+~
+FlagsExt 0|A
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10193
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10193
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10190
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10190
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10193
+Name ¦lepa uliczka~
+Descr Znajdujesz sie w slepej uliczce. Wyrosla przed toba olbrzymia kamienica
+uniemozliwiajaca dalsza wedrowke na po³udnie. Budynek jest bardzo stary.
+Widac na nim slady po jakims szyldzie. Byc mo¿e byla tu kiedys jakas karczma
+albo sklep. Schodzy do niej prowadzace sa pokryte gruba warstwa kurzu i
+brudu. Z pozabijanych deskami okiennic przeswituja puste pomieszczenia. Nad
+wejsciem wyryto datê budowy kamienicy. Na pó³nocy za¶ widnieje w±ska
+uliczka. 
+~
+FlagsExt 0|A
+Sector 1
+Extra data~
+A.V. 302
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10192
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10192
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10194
+Name Pomiedzy kamienicami~
+Descr Znajdujesz sie w waskim przejsciu pomiedzy kamienicami. Wysoko do gory ktos
+rozwiesil pranie. Bruk pokryty jest kurzem, blotem oraz odpadkami. W kaluzach
+pomyj nurkuja wielkie szczury. Uliczka konczy sie nagle tylnym wejsciem do
+jakiejs kamienicy. Przy schodach lezy sterta rozkladajacej sie kapusty. Drzwi
+prowadzace do srodka sa zabite deskami i przepasane grubym lancuchem.
+Na po³udniu ulica.
+~
+FlagsExt 0
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10180
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10180
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10195
+Name Z³ota dzielnica~
+Descr Znajdujesz siê na pocz±tku Z³otej dzielnicy. Swoje mieszkania maj± tutaj
+najwspanialsze gnomie rody. Brakuje tu gwaru typowego dla miejsc, gdzie
+mieszkaj± ci dalecy kuzyni krasnoludów. Ulica jest brukowana najlepszym
+kamieniem, a poruszanie siê konno jest tu zabronione. Bogato zdobione fasady
+budynków ¶wiadcz± o wielkiej zamo¿no¶ci zamieszkuj±cych je gnomów.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10196
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10196
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10182
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10182
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10196
+Name Z³ota dzielnica~
+Descr Kamienice tej dzielnicy s± naprawdê wspania³e. Zaprojektowane przez
+najlepszych gnomich architektów, ³±cz± solidno¶æ krasnoludzkiej roboty z
+delikatnym elfim kunsztem. Masywne, gêsto rozmieszczone latarnie musz± w
+nocy roz¶wietlaæ to miejsce niczym dzienne ¶wiat³o. Ulice s± regularnie
+sprz±tane, brak na nich jakichkolwiek ¶mieci tak charakterystycznych dla
+ludzkich miast.
+~
+FlagsExt 0
+Sector 1
+Extra obwieszczenie~
+Na mocy ukazu Czcigodny Dae, Arcykaplana Agregata, popartego
+   wola jasnie nam panujacego Xsiecia Veliana Smialego, zamykamy
+   ten przybytek rozpusty i bezecenstwa wszelakiego do odwolania.
+
+                                              Burmistrz i Rada Miasta Dolnego
+
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10195
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10195
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Kamienica~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 10149
+ExitExtEnd
+Exit 3
+~
+VName Kamienica~
+~
+16387 0 10149
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10197
+Name kamienica~
+Descr W powietrzu unosi sie ostry zapach ryb. Ponizej, na po³udniu, widac
+wzburzona tafle zatoki. Morze niespokojnie kipi starajac sie wedrzec na lad.
+Na brzegu dostrzegasz zniszczone domy, poprzewracane drzewa. Na ulicy leza
+martwe ryby podgryzane co chwila przez wyglodniale szczury. Obraz ten
+swiadczy o poteznym sztormie który musial nawiedzic zatoke. Przy nabrzezu
+kolysza sie statki rybackie, wiele z nich ma polamane zagle i podziurawione
+burty. Ludzie krzataja sie wokol nich dokonujac napraw.
+~
+FlagsExt 0|C
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10198
+Name Przed garbarni±~
+Descr Jest to w±skie przej¶cie miêdzy kamienicami. Dochodzi ciê tu zapach
+garbowanej skóry. Beczki stoj±ce po bokach s± wype³nione jakimi¶
+¶mierdz±cymi cieczami. Na po³udniu widaæ w ca³o¶ci wykonany z drewna budynek
+garbarni, z którego komina wydobywa siê dym. Wszêdzie porozwieszane s±
+skóry.
+~
+FlagsExt 0
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Garbarz~
+ExitExtTextOut $n wchodzi do budynku garbarza.~
+ExitExtTextIn $n $n wchodzi do budynku.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10199
+ExitExtEnd
+Exit 2
+~
+VName Garbarz~
+TextOut $n wchodzi do budynku garbarza.~
+TextIn $n $n wchodzi do budynku.~
+~
+0 0 10199
+ExitExt 4
+ExitExtDescription ~
+ExitExtTextOut $n udajê siê uliczk± na wschód ku górze.~
+ExitExtTextIn $n w³a¶nie przyszed³ z uliczki na wschodzie.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10158
+ExitExtEnd
+Exit 4
+~
+TextOut $n udajê siê uliczk± na wschód ku górze.~
+TextIn $n w³a¶nie przyszed³ z uliczki na wschodzie.~
+~
+0 0 10158
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10199
+Name Garbarnia~
+Descr Znajdujesz siê w budynku garbarza. Ca³a pod³oga lepi siê od cieczy
+potrzebnych do oprawienia skór. Na ¶rodku stoj± wielkie, drewniane balie.
+Pod zabrudzonymi oknami umieszczono sto³y na których przygotowuje siê
+material. Na podwórzu suszy siê najnowsza partia skór. W pomieszczeniu
+panuje zaduch.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z budynku garbarza.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10198
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z budynku garbarza.~
+~
+0 0 10198
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10200
+Name Korytarz~
+Descr Znajdujesz siê w w±skim korytarzu prowadz±cym w g³±b gwardyjskich lochów.
+Otacza ciê zatêch³e powietrze, nie poruszone nawet ma³ym powiewem wiatru. Od
+poro¶niêtych mchem i grzybami ¶cian bije ch³ód. Pod³o¿e jest wilgotne i
+nieco ¶lizgie.
+~
+FlagsExt 0|A
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10201
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10201
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 10142
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 10142
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10201
+Name Lochy~
+Descr Znajdujesz sie w korytarzu gwardyjskich lochow. Otacza cie zatechle
+powietrze, nie poruszone nawet malym powiewem wiatru. Od porosnietych mchem
+i grzybami scian bije chlod. Wszechobecny smrod nie pozwala swobodnie
+oddychac. Jedynym zrodlem swiatla sa przymocowane do scian pochodnie.
+Kamienna podloga uslana jest resztkami brudnej slomy wyrzucanej sporadycznie
+z cel.
+~
+FlagsExt 0|A
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 35
+ExitExtKey 0
+ExitExtToVnum 10202
+ExitExtEnd
+Exit 0
+~
+~
+35 0 10202
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10203
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10203
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10200
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10200
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10202
+Name Cela~
+Descr Znajdujesz sie w malej celi. Pod sciana stoi drewniana wyscielana brudna
+sloma prycza. Drzwi wykonane sa z drewna obitego stala. Od porosnietych
+mchem i grzybami scian bije chlod. W pomieszczeniu straszliwie smierdzi.
+Jedyne okienko jest zakratowane grubymi pretami. Podloga pokryta jest krwia
+i odchodami. Jedynym zrodlem swiatla jest palaca w korytarzu pochodnia. Na
+scianach nagryzmolone jakies napisy.
+~
+FlagsExt 0|AS
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 35
+ExitExtKey 0
+ExitExtToVnum 10201
+ExitExtEnd
+Exit 2
+~
+~
+35 0 10201
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10203
+Name Lochy~
+Descr Znajdujesz sie w korytarzu gwardyjskich lochow. Otacza cie zatechle
+powietrze, nie poruszone nawet malym powiewem wiatru. Od porosnietych mchem
+i grzybami scian bije chlod. Wszechobecny smrod nie pozwala swobodnie
+oddychac. Jedynym zrodlem swiatla sa przymocowane do scian pochodnie.
+Kamienna podloga uslana jest resztkami brudnej slomy wyrzucanej sporadycznie
+z cel.
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 35
+ExitExtKey 0
+ExitExtToVnum 10204
+ExitExtEnd
+Exit 0
+~
+~
+35 0 10204
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10205
+ExitExtEnd
+Exit 1
+~
+~
+3 0 10205
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10201
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10201
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10204
+Name Cela~
+Descr Znajdujesz sie w malej celi. Pod sciana stoi drewniana wyscielana brudna
+sloma prycza. Drzwi wykonane sa z drewna obitego stala. Od porosnietych
+mchem i grzybami scian bije chlod. W pomieszczeniu straszliwie smierdzi.
+Jedyne okienko jest zakratowane grubymi pretami. Podloga pokryta jest krwia
+i odchodami. Jedynym zrodlem swiatla jest palaca w korytarzu pochodnia. Na
+scianach nagryzmolone jakies napisy.
+~
+FlagsExt 0|AS
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 35
+ExitExtKey 0
+ExitExtToVnum 10203
+ExitExtEnd
+Exit 2
+~
+~
+35 0 10203
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10205
+Name Cela~
+Descr Znajdujesz sie w malej celi. Pod sciana stoi drewniana wyscielana brudna
+sloma prycza. Drzwi wykonane sa z drewna obitego stala. Od porosnietych
+mchem i grzybami scian bije chlod. W pomieszczeniu straszliwie smierdzi.
+Jedyne okienko jest zakratowane grubymi pretami. Podloga pokryta jest krwia
+i odchodami. Jedynim zrodlem swiatla jest palaca w korytarzu pochodnia. Na
+scianach nagryzmolone jakies napisy.
+~
+FlagsExt 0|AS
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10203
+ExitExtEnd
+Exit 3
+~
+~
+3 0 10203
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10206
+Name Pracownia~
+Descr Znajdujsz sie w skapanym w polmroku przestronnym pokoju. Sciany pokryte
+s± starymi gobelinami, przedstawiaj±cymi bohaterskie czyny z zamierzch³ej
+przeszlosci. Wszechobecne ksiazki, mapy i zapach fajkowego dymu nadaja temu
+miejscu specyficzny charakter. Pomimo mroku czujesz sie pewnie i
+bezpiecznie. Okna zas³oniête s± cienkimi roletami, a w kominku weso³o
+trzaska p³omieñ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 33
+ExitExtKey 0
+ExitExtToVnum 10136
+ExitExtEnd
+Exit 5
+~
+~
+33 0 10136
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10207
+Name Rzeznik~
+Descr Znajdujesz siê w ma³ym, brukowanym pomieszczeniu. Pod oknami
+porozstawiane s± masywne, dêbowe sto³y na których oprawia siê miêso. Na
+hakach pod sufitem wisz± oprawione ju¿ pó³tusze. Na pod³odze rozlana jest
+krew. W jeden ze sto³ów wbity jest ogromny zbroczony posok± tasak rze¼nicki.
+Z podwórza dochodzi kwik zarzynanego prosiaka.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10133
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10133
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10208
+Name Kantorek~
+Descr Znajdujesz siê w zacisznym kantorku bankiera Grima. Biurko i pó³ki
+uginaj± siê pod stosem ksi±g rachunkowych, obrachunkowych, podatkowych,
+celnych, czekowych, rodzajowych, kapita³owych, czekowo-wekslowych i jeszcze
+innych, których nazwy nie sposób wymówiæ. Jednak bez tego arsena³u naukowego
+bankier nie utrzyma³by siê na rynku. Biurko poplamione jest granatowym
+inkaustem.
+~
+FlagsExt 0|U
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10141
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10141
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10209
+Name Piêtro kamienicy~
+Descr Drzwi z tego pomieszczenia prowadz± niemal we wszystkich kierunkach.
+Portrety w tej czê¶ci kamienicy s± oprawione we wspanialsze ramy ni¿ te na
+parterze, a przedstawione na nich postacie jeszcze dostojniejsze i...
+Grubsze. Pod³oga wy³o¿ona jest wspania³ym puszystym dywanem, jakiego z
+trudem szukaæ w mniej zamo¿nych dzielnicach.
+~
+FlagsExt 0|CD
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10210
+ExitExtEnd
+Exit 0
+~
+~
+3 0 10210
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10212
+ExitExtEnd
+Exit 2
+~
+~
+3 0 10212
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10211
+ExitExtEnd
+Exit 3
+~
+~
+3 0 10211
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10149
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10149
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10210
+Name Sypialnia~
+Descr To musi byæ sypialnia g³owy rodziny, na ¶rodku pokoju stoi wspania³e
+szerokie ³ó¿ko, które mog³oby spokojnie pos³u¿yæ pó³orkowi. Okna zas³oniête
+s± zdobionymi firankami, które t³umi± ¶wiat³o dochodz±ce z zewn±trz.
+Niezwyk³e kilimy wyszywane przez najbieglejsze gnomie tkaczki zdobi± ¶ciany
+tego pokoju.
+~
+FlagsExt 0|D
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10209
+ExitExtEnd
+Exit 2
+~
+~
+3 0 10209
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10211
+Name Gabinet~
+Descr Jest to zapewnie gabinet bankiera albo jakiego¶ urzêdnika, i w
+odró¿nieniu od pozosta³ych pomieszczeñ jest urz±dzony raczej w purytañskim
+stylu. Na pod³odze przed biurkiem le¿y tylko niewielki dywanik a ca³e
+pomieszczenie roz¶wietlaj± jasne, acz dosyæ typowe lampy.
+~
+FlagsExt 0|D
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10209
+ExitExtEnd
+Exit 1
+~
+~
+3 0 10209
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10212
+Name Salon~
+Descr Salon jest chyba najwspanialszym pokojem w tej kamienicy. Przestronny, z
+du¿± ilo¶ci± wspania³ych okien jakich nie powstydzi³by siê i sam Mer Arras.
+Pod sufitem unosi siê wspania³y kryszta³owy ¿yrandol, który musi wspaniale
+o¶wietlaæ to pomieszczenie podczas licznie odbywaj±cych siê tu bankietów.
+~
+FlagsExt 0|D
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10209
+ExitExtEnd
+Exit 0
+~
+~
+3 0 10209
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10213
+Name Kuchnia~
+Descr Olbrzymia ilo¶æ garnków ¶wiadczy o tym, ¿e jest to pomieszczenie
+kuchenne. Ilo¶æ szafek, w których musz± byæ chowane narzêdzia do
+przygotowywania potraw jest niezliczona. Ca³a kuchnia l¶ni czysto¶ci±, a
+wszystkie meble s± pouk³adane w bardzo stylowy i jednocze¶nie funkcjonalny
+sposób.
+~
+FlagsExt 0|D
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10149
+ExitExtEnd
+Exit 0
+~
+~
+3 0 10149
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10214
+Name Na bramie~
+Descr ~
+FlagsExt 0|H
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10218
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10218
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10215
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10215
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10191
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10191
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10215
+Name Na murach~
+Descr ~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10214
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10214
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10216
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10216
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10216
+Name Mur~
+Descr ~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10215
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10215
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10217
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10217
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10217
+Name Pod zachodni± wie¿±~
+Descr ~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10216
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10216
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10218
+Name Na wschodnim murze~
+Descr ~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10219
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10219
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10214
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10214
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10219
+Name Mury~
+Descr ~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10220
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10220
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10218
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10218
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10220
+Name Przy wschodniej wie¿y~
+Descr ~
+FlagsExt 0
+Sector 1
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10219
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10219
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10221
+Name Wnêka w murze~
+Descr Wnêka, czy mo¿e raczej komnata, w której obecnie przebywasz s³u¿y
+obroñcom miasta za pokój wypoczynkowy. Stra¿nicy bramy przesiaduj± tu,
+czekaj±c na zmianê warty i ³api±c za broñ w razie wypatrzenia nieproszonych
+go¶ci. W pomieszczeniu znajduje siê stó³, kilka siedzisk, a nawet ³ó¿ko,
+najwidoczniej przeznaczone dla nocnych stró¿ów. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10191
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10191
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10222
+Name Dzwonnica~
+Descr Jeste¶ na ratuszowej dzwonnicy - jest to najwy¿szy punkt miasta i zarazem
+miejsce, w którym wisi dumny, mosiê¿ny dzwon alarmowy. Có¿, niestety, dzwon
+ten nie uchroni³ gnomów przed najazdem bandytów i zdobyciem Adrii przez
+by³ego wodza ogrów. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10140
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10140
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+10152 0 19 0 0 0 100 100 4 23 * 0
+10160 0 19 0 0 0 120 80 0 23 * 0
+10161 0 0 0 0 0 80 120 4 22 * 0
+10164 0 0 0 0 0 100 100 0 23 * 0
+10166 0 9 0 0 0 100 100 5 23 * 10147
+10167 0 43 0 0 0 100 100 7 22 * 10199
+10168 0 17 19 0 0 100 100 0 23 * 0
+10169 0 5 0 0 0 100 100 9 18 * 10148
+10170 0 17 19 0 0 160 50 0 23 * 0
+10194 42 0 0 0 0 80 120 4 21 * 10138
+0
+
+
+
+#BANKS
+10130 2 6 21 * 0
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 10168 1 10135 1
+E 100 3098 0 13
+E 100 3017 0 5
+G 100 3381 0
+E 100 3057 0 7
+E 100 4404 0 6
+G 100 2498 0
+G 100 3381 0
+G 100 3132 0
+O 100 2363 0 10135
+O 100 2350 0 10140
+O 100 2350 0 10141
+M 100 10130 1 10141 1
+O 100 3386 0 10146
+M 100 10166 1 10147 1
+E 100 4396 0 5
+G 100 3017 0
+G 100 3089 0
+G 100 3009 0
+G 100 3073 0
+G 100 3057 0
+E 100 3034 0 6
+G 100 3066 0
+G 100 3001 0
+G 100 3050 0
+M 100 10169 1 10148 1
+G 100 3160 0
+G 100 6158 0
+G 100 3160 0
+G 100 3152 0
+G 100 3127 0
+G 100 3172 0
+E 100 4396 0 5
+M 100 10133 1 10151 1
+O 100 2359 0 10153
+O 100 2359 0 10153
+O 100 2359 0 10153
+O 100 10135 0 10166
+M 100 10167 1 10199 1
+M 100 10160 1 10207 1
+E 100 4396 0 5
+E 100 3352 0 16
+G 100 2457 0
+G 100 2455 0
+G 100 2456 0
+G 100 2454 0
+G 100 2453 0
+G 100 2458 0
+G 100 2459 0
+O 100 2350 0 10208
+O 100 2355 0 10210
+O 100 2350 0 10211
+O 100 2360 0 10213
+O 100 2358 0 10221
+M 100 10198 1 10221 1
+O 100 2362 0 10221
+O 100 10184 0 10222
+S
+
+
+
+#MOBPROGSNEW
+#10131
+~
+if hasflag $n adria_ksi
+tell &n Przykro mi, najpierw oddaj ksiazke, która wypozyczyles.
+else
+mob oload obj 10150
+mob setflag $n adria_ksi -1
+mob setflag $n adr_10150 -1
+give ksiega $n
+tell $n Milego czytania!
+endif
+~
+#10132
+~
+if hasflag $n adria_ksi
+mob removeflag $n adr_10150
+mob removeflag $n adria_ksi
+tell $n Dziekuje bardzo!
+else
+tell $n Dziwne, chyba nie wyporzyczales zadnej ksiazki...
+endif
+~
+#10133
+~
+if hasflag $n adria_ksi
+tell $n Moze mi sie wydaje ale nie oddales jeszcze ksiazki!
+else
+mob transfer $n 10171
+endif
+~
+#10134
+~
+emote zaciaga sie dymem z rzezbionej fajeczki...
+delay 3
+emote wypuszcza przesliczne koleczka z dymu.
+~
+#10135
+~
+emote rozkoszuje sie wyborna herbata pita z filigranowej          fioletowej filizanki.
+~
+#10136
+~
+mob asound Samowar wesolo prychnal i wypuscil wielobarwny oblok pary.
+~
+#10137
+~
+if sex $n == 0
+tell &n Witam szanownego klienta. W czym moge pomoc?
+endif
+if sex $n == 1
+tell &n Witam szanownego klienta. W czym moge pomoc?
+endif
+if sex $n == 2
+tell &n Witam szanowna klientke. W czym moge pomoc?
+endif
+~
+#10138_give_lett
+QUEST: stolarz @ forteca
+~
+~
+#10138_onload
+~
+mob equip self 2495
+~
+#10138_random
+~
+if rand 95
+  say Jezzdem Tuuuddhgele Khggauulrlir... no co siê gapisz?
+  break
+endif
+if rand 91
+  say Jezzdem Tuddhgele Khgauurliiii... mo¿e postawisz garniec?
+  break
+endif
+if rand 87
+  emote ogl±da dok³adnie swój kufel.
+  break
+endif
+if rand 83
+  say Pierdolone stolarstow, deeeski, drzzasski, d³uuta i m³lotki... szczególnie n³ooodki.
+  mob delay 1
+  emote ¶mieje siê sam do siebie z doskona³ego dowcipu.
+  break
+endif
+if rand 79
+  emote poci±ga pote¿ny ³yk z trzymanego kufla.
+  break
+endif
+if rand 75
+  if wears $i 2495
+    rem kufel
+    display kufel
+    wear kufel
+    break
+  endif
+endif
+~
+#10198_eq
+~
+mob equip self 3179
+mob equip self 3179 hold
+mob equip self 3067
+mob equip self 3029
+mob equip self 2884
+mob equip self 4411
+mob equip self 3005
+~
+#73_eq_gwar
+~
+mob equip self 3045
+mob equip self 3029
+mob equip self 3081
+mob equip self 3001
+mob equip self 3152
+mob equip self 3179 hold
+end
+~
+#eq_barcz
+~
+mob equip self 3045
+mob equip self 3029
+mob equip self 3090
+mob equip self 4417
+mob equip self 3179
+mob equip self 3179 hold
+~
+#eq_gnom2
+~
+mob equip self 4404
+mob equip self 4391
+mob equip self 3057
+mob equip self 4416
+end
+~
+#eq_gnom3
+~
+mob equip self 3017
+mob equip self 4416
+end
+~
+#eq_gnom4
+~
+mob equip self 3017
+mob equip self 4407
+mob equip self 4416
+end
+~
+#eq_gnomka1
+~
+mob equip self 4421
+mob equip self 4392
+mob equip self 4414
+end
+~
+#eq_potezny
+~
+mob equip self 3045
+mob equip self 3025
+mob equip self 3082
+mob equip self 3090
+mob equip self 10181
+mob equip self 3179
+mob equip self 3179 hold
+~
+#eq_szlach1_gno
+~
+mob equip self 10134
+mob equip self 10139
+mob equip self 10176
+mob equip self 4404
+mob equip self 4419
+end
+~
+#eq_szlach_gno
+~
+mob equip self 4385
+mob equip self 4421
+mob equip self 10172
+end
+~
+#eq_weteran
+~
+mob equip self 3045
+mob equip self 3029
+mob equip self 3081
+mob equip self 10181
+mob equip self 3179
+mob equip self 3179 hold
+mob oload gem 3
+mob oload random 5
+~
+#eq_zwalisty
+~
+mob equip self 3045
+mob equip self 10179
+mob equip self 33180
+mob equip self 10181
+mob equip self 3149
+end
+~
+#0
+
+#OBJPROGSNEW
+#10198_stó³
+~
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+mob oload 2364 room
+~
+#miecz_weterana
+~
+mob echo Ostrze porêcznego, krótkiego miecza rozb³yskuje na chwilê {mfioletowymi{x iskrami!
+~
+#0
+
+#ROOMPROGSNEW
+#10146_regal
+~
+if !roomhasflag odstuniety_regal
+  mob echoat $n Zza rega³u, który odsun±³e¶ wytacza siê ma³a fiolka.
+  mob echoaround $n Zza rega³u odsuniêtego przez $n wytacza siê ma³a fiolka.
+  mob setflag room odstuniety_regal 24
+  mob oload 574 r
+else
+  mob echoat $n Odsuwasz rega³ i... nic siê nie dzieje.
+  mob echoaround $n $n odsuwa rega³ i... nic siê nie dzieje.
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+10166 13 0 120 40 8 20 * 0
+10169 0 0 120 30 8 20 * 10148
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

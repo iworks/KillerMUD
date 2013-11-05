@@ -1,0 +1,641 @@
+#AREADATA
+Name {BB{x {R@{x# NK - Ruiny klimatyczne~
+Builders Nk~
+VNUMs 5121 5130
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 5121
+Name prastara kolumna~
+Odmiana prastarej kolumny~prastarej kolumnie~prastar± kolumnê~prastar± kolumn±~prastarej kolumnie~
+Short prastara kolumna~
+Descr Prastara kolumna le¿y tutaj przewrócona w¶ród traw.~
+Material granit~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30000
+Cost 1
+Cond 75
+Itemdesc Ta kolumna stanowi³a podporê jakiej¶ ¶wi±tyni jednak teraz ju¿ takiej
+roli nie pe³ni gdy¿ owa ¶wi±tynia znikne³a. Kolumna le¿y, przewrócona w¶ród
+traw i czeka na wieczne zapomnienie. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 5121
+Name Skraj lasu~
+Descr Znajdujesz siê na le¶nej ¶cie¿ce, krzaki które rosn± w tym miejscu
+wydzielaj± wspania³y zapach, który wprowadza ciê w dobry nastrój. Znajduje
+siê tu tak¿e dziwne drzewo, wokó³ którego pnia ro¶nie drugie, obwijaj±c je
+od samych korzeni a¿ po jego czubek, tworz±c znak podobny do jakiej¶
+pradawnej runy. 
+~
+FlagsExt 0
+Sector 3
+Extra ¶cie¿ka~
+W±ska ¶cie¿ka prowadzi przez las, wiele krzaków i drzew przeszkadza w
+swobodnej wêdrówce. 
+~
+Extra krzaki~
+Wspania³e krzaki, pn± siê wokó³ pniów drzew. Ich kwiaty maj± ¶nie¿nobia³y
+kolor oraz cudowny zapach. 
+~
+Extra drzewo~
+Dwa drzewa, które oplataj± siebie nawzajem. W ten sposób tworz± dziwny
+znak, podobny do tych widniej±cych na magicznych ksiêgach. 
+~
+ExitExt 0
+ExitExtDescription Rozci±ga siê tam w±ska dolina...
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5122
+ExitExtEnd
+Exit 0
+Rozci±ga siê tam w±ska dolina...
+~
+~
+0 0 5122
+ExitExt 3
+ExitExtDescription Skraj lasu ci±gnie siê ku choryzontowi...
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5126
+ExitExtEnd
+Exit 3
+Skraj lasu ci±gnie siê ku choryzontowi...
+~
+~
+0 0 5126
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5122
+Name W dolinie~
+Descr Dolina wydaje ci siê bardzo w±ska a na jej zboczach le¿y kilka g³azow,
+mo¿esz rozpoznaæ tylko ich kszta³t, bardzo dziwny lecz na swój sposób
+piêkny. Le¿± one na bardzo miêkkiej trawie przez co s± prawie
+niedostrzegalne. Na szczytach doliny mo¿esz dostrzec wielk± budowlê
+przypominaj±c± ogromny p³ot zbudowany z obeliskow ¶redniej wielko¶ci. Pod
+nim le¿y kilka kamykow w kszta³cie run. 
+~
+FlagsExt 0
+Sector 33
+Extra g³az~
+Bardzo p³askie g³azy le¿± w trawie, wydaje siê ¿e zosta³y stworzone za
+pomoc± magii. 
+~
+Extra obeliski~
+Przygl±daj±c siê obeliskom, mo¿na dostrzec, ¿e czubki ka¿dego z nich s±
+¶ciête na takiej samej wysoko¶ci. 
+~
+ExitExt 0
+ExitExtDescription Oprócz ogromnego g³azu, nic nie rzuca siê w oczy.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5123
+ExitExtEnd
+Exit 0
+Oprócz ogromnego g³azu, nic nie rzuca siê w oczy.
+~
+~
+0 0 5123
+ExitExt 2
+ExitExtDescription Widzisz tam skraj lasu.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5121
+ExitExtEnd
+Exit 2
+Widzisz tam skraj lasu.
+~
+~
+0 0 5121
+ExitExt 3
+ExitExtDescription Stoi tam sporych rozmiarów, aczkolwiek podniszczony pomnik. 
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5125
+ExitExtEnd
+Exit 3
+Stoi tam sporych rozmiarów, aczkolwiek podniszczony pomnik. 
+~
+~
+0 0 5125
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5123
+Name Przy glazie~
+Descr Zbli¿asz si¿ do wielkiego g³azu le¿±cego na ziemi. Wygl±da on bardzo
+majestatycznie, jest od góry ca³kiem p³aski a na jego powierzchni widzisz
+jakie¶ znaki. Chyba s± to runy, ale niestety zosta³y zatarte przez piêtno
+czasu. W okolicy widzisz jeszcze kilka podobnych g³azów, u³o¿onych bardzo
+skrupulatnie w dziwny wzór. 
+~
+FlagsExt 0
+Sector 33
+Extra g³az~
+Le¿y tu g³az, na którego wierzchu widaæ zatarte znaki. Ogl±daj±c go mo¿na
+jednak odczytaæ kilka run, znajduj±cych siê po jego bokach. 
+~
+ExitExt 2
+ExitExtDescription Rozci±ga siê tam dolina, bardzo zwê¿ona przez g³azy.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5122
+ExitExtEnd
+Exit 2
+Rozci±ga siê tam dolina, bardzo zwê¿ona przez g³azy.
+~
+~
+0 0 5122
+ExitExt 3
+ExitExtDescription Widaæ tam spory ¶wierk.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5124
+ExitExtEnd
+Exit 3
+Widaæ tam spory ¶wierk.
+~
+~
+0 0 5124
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5124
+Name Przy swierku~
+Descr Jest to chyba najni¿ej po³o¿one miejsce w ca³ej dolinie, jej ¶ciany
+zbudowane s± z pradawnych ska³. Na samym zakrecie tego przedziwnego w±wozu,
+tu¿ przy ¶cianie ro¶nie ogromny ¶wierk z dziwnym symbolem magicznym wyrytym
+w pniu. Intryguje ciê to tym bardziej, ¿e kora tego drzewa nie jest zgnita
+tylko w tym miejscu. Wydaje ci siê ¿e owy znak ma ogromn± moc magiczn±. 
+~
+FlagsExt 0|C
+Sector 33
+Extra ¶wierk~
+Wysoki jak ogromna wie¿a ¶wierk ro¶nie tutaj. Na jego pniu zauwa¿asz
+tajemnicze wydr±¿enie, prawdopodobnie dziêki niemu kora tego drzewa trzyma
+siê w jako takiej ca³o¶ci. 
+~
+Extra ¶ciany~
+Widzisz ¶ciany doliny, która w tym miejscu przeistacza siê w w±wóz, owe
+¶ciany zbudowane s± z bardzo jasnej ska³y. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 40980
+ExitExtEnd
+Exit 0
+~
+~
+16 0 40980
+ExitExt 1
+ExitExtDescription Nic nie widzisz oprócz sporego g³azu.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5123
+ExitExtEnd
+Exit 1
+Nic nie widzisz oprócz sporego g³azu.
+~
+~
+0 0 5123
+ExitExt 2
+ExitExtDescription Widzisz tam du¿y, lecz skruszony pomnik.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5125
+ExitExtEnd
+Exit 2
+Widzisz tam du¿y, lecz skruszony pomnik.
+~
+~
+0 0 5125
+ExitExt 3
+ExitExtDescription Widaæ tam obelisk oparty o ¶cianê skaln±.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5129
+ExitExtEnd
+Exit 3
+Widaæ tam obelisk oparty o ¶cianê skaln±.
+~
+~
+0 0 5129
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5125
+Name Kolo pomnika~
+Descr Dochodz±c tu trudno nie zauwa¿yæ ogromnego pomnika,zapewne
+przedstawiaj±cego potê¿nego w³adcê. Mimo i¿ byl solidnie wykonany, czas i
+jego nie oszczêdzi³. Teraz widaæ na nim masê pêkniêæ i nie da sie rozpoznaæ
+jakiej rasy by³ ówczesny w³adca. Lecz na pewno wiadomo, ¿e broñ która
+trzyma, wykona³a potê¿na istota, zaklinaj±c w ni± niewyobra¿alnie wielk± moc
+magiczn±. 
+~
+FlagsExt 0
+Sector 33
+Extra pomnik~
+Wielki pomnik stoi tu na wydeptanym placu, dookola niego ro¶nie króciutka
+trawa. 
+~
+ExitExt 0
+ExitExtDescription Spory ¶wierk ro¶nie tam.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5124
+ExitExtEnd
+Exit 0
+Spory ¶wierk ro¶nie tam.
+~
+~
+0 0 5124
+ExitExt 1
+ExitExtDescription Widaæ tam do¶æ w±sk± dolinê.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5122
+ExitExtEnd
+Exit 1
+Widaæ tam do¶æ w±sk± dolinê.
+~
+~
+0 0 5122
+ExitExt 2
+ExitExtDescription Widzisz tam skraj lasu.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5126
+ExitExtEnd
+Exit 2
+Widzisz tam skraj lasu.
+~
+~
+0 0 5126
+ExitExt 3
+ExitExtDescription Rosn± tam ogromne drzewa.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5128
+ExitExtEnd
+Exit 3
+Rosn± tam ogromne drzewa.
+~
+~
+0 0 5128
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5126
+Name Skraj lasu~
+Descr Znajdujesz siê na samym skraju lasu, drzewa rosn± tu bardzo rzadko ale
+gêsta trawa i krzaki, których nie brakuje, utrudniaj± wêdrówkê. Poza tym
+mo¿na siê tu natkn±æ na solidne drewniane rze¼by, prawdopodobnie wykonane
+przez jaki¶ szczep wê¿oludzi. Le¿y tu te¿ sporo pancerzy zostawionych przez
+wê¿e zamieszkuj±ce ten las. 
+~
+FlagsExt 0
+Sector 3
+Extra rze¼ba~
+Solidna rze¼ba wykonana z bardzo trwa³ego drewna, zabarwiona bia³±
+substancj±. 
+~
+ExitExt 0
+ExitExtDescription W oddali widzisz spory, aczkolwiek zniszczony pomnik. 
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5125
+ExitExtEnd
+Exit 0
+W oddali widzisz spory, aczkolwiek zniszczony pomnik. 
+~
+~
+0 0 5125
+ExitExt 1
+ExitExtDescription Patrz±c tam dostrzegasz rzadki las.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5121
+ExitExtEnd
+Exit 1
+Patrz±c tam dostrzegasz rzadki las.
+~
+~
+0 0 5121
+ExitExt 3
+ExitExtDescription Widzisz tam spor± polanê.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5127
+ExitExtEnd
+Exit 3
+Widzisz tam spor± polanê.
+~
+~
+0 0 5127
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5127
+Name Polana~
+Descr Stoisz na niewielkiej polanie pokrytej przez grub± po¿o³k³a trawê, od
+której bije niespotykany odór ple¶ni. Mimo to, kto¶ postanowi³ rozbiæ tu
+obozowisko, jednak teraz fakt jego bycia stanowi jedynie wygniecona trawa i
+spore kawa³ki materia³u u¿ytego do wykonania namiotu. Lecz co najdziwniejsze
+¿adne z rzeczy pozostawionych w tym miejscu wydaj± sie nie niszczeæ tak
+szybko jak gdzie indziej. 
+~
+FlagsExt 0
+Sector 32
+Extra namiot~
+Wykonany z grubej skóry zwierzêcia namiot, zosta³ rozerwany przez liczne
+burze, teraz walaj± siê jedynie czê¶ci jego stelarza i p³achty skóry... 
+~
+Extra polana~
+Stoisz na ma³ej polance po¶ród ogromnych traw, wy¿szych od niejednego
+cz³owieka. 
+~
+ExitExt 0
+ExitExtDescription Rosn± tam olbrzymie drzewa.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5128
+ExitExtEnd
+Exit 0
+Rosn± tam olbrzymie drzewa.
+~
+~
+0 0 5128
+ExitExt 1
+ExitExtDescription W oddali widzisz skraj lasu.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5126
+ExitExtEnd
+Exit 1
+W oddali widzisz skraj lasu.
+~
+~
+0 0 5126
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5128
+Name Pomiedzy drzewami~
+Descr Stoisz przed ogromnym wzniesieniem. Wokó³ ciebie rosn± spore krzaki i
+drzewa, które wydaj± sie byc wiecznie zielone. Drzewa wygl±daja na bardzo
+m³ode jednak ich bardzo gruba kora musia³a zgniæ i wydaje teraz straszliwy
+smród zdradzaj±cy prawdziwy wiek tych przedziwnych tworów. Jest tu wyj±tkowo
+cicho. Nawet nie s³ychaæ ¶piewu ptaków, które prawie zawsze wype³niaj± las
+morzem d¼wiêków. 
+~
+FlagsExt 0
+Sector 3
+Extra drzewo~
+Grube drzewa z gnij±c± kor±, skutecznie przeszkadzaj± w swobodnym
+odpoczynku... 
+~
+ExitExt 0
+ExitExtDescription Stoi tam wsparty o ska³ê ogromny obelisk.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5129
+ExitExtEnd
+Exit 0
+Stoi tam wsparty o ska³ê ogromny obelisk.
+~
+~
+0 0 5129
+ExitExt 1
+ExitExtDescription Stoi tam podniszczony pomnik.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5125
+ExitExtEnd
+Exit 1
+Stoi tam podniszczony pomnik.
+~
+~
+0 0 5125
+ExitExt 2
+ExitExtDescription Widzisz tam spor± polankê.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5127
+ExitExtEnd
+Exit 2
+Widzisz tam spor± polankê.
+~
+~
+0 0 5127
+Roomprog entry 5130 7~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 5129
+Name Obelisk~
+Descr Stoisz pod wielkim obeliskiem, czujesz ¿e wiele stworzeñ musia³o siê tu
+zatrzymaæ, poniewa¿ widaæ na nim wyra¼ne ¶lady ³apsk, a ponadto jest mocno
+wytarty. Nic dziwnego, to miejsce wygl±da na doskona³e do odpoczynku.
+Przeszkadzaæ mog± jedynie malutkie ska³y, z p³askimi grzebietami, na których
+skrupulatnie wymalowano znaki magiczne. Owe obeliski tworza bardzo maly
+placyk o ksztalcie ko³a. 
+~
+FlagsExt 0
+Sector 33
+Extra placyk~
+Ogrodzony wbitymi w ziemiê kamieniami runicznymi placyk. W ¶rodku niego
+ziemia zosta³a wydeptana przez stworzenia oddaj±ce cze¶æ dla swoich bogów. 
+~
+Extra obelisk~
+Wielki obelisk opiera siê o ska³ê, wygl±da na to ¿e mo¿na go z ³atwosci±
+przesun±æ o czym ¶wiadczy wytarta trawa wokó³ niego. 
+~
+ExitExt 1
+ExitExtDescription Ro¶nie tam soczy¶cie zielony ¶wierk.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5124
+ExitExtEnd
+Exit 1
+Ro¶nie tam soczy¶cie zielony ¶wierk.
+~
+~
+0 0 5124
+ExitExt 2
+ExitExtDescription Widzisz tam rosn±ce drzewa.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5128
+ExitExtEnd
+Exit 2
+Widzisz tam rosn±ce drzewa.
+~
+~
+0 0 5128
+Roomprog random 5129 100~
+Roomprog input 5131 przesun obelisk~
+Roomprog reset 5129 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 5121 0 5122
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#5129
+~
+if !roomhasflag otwarte
+  if exithere down
+    mob exit dol delete
+    mob echo S³ychaæ g³o¶ny stukot. Nagle obelisk wraca na swoje miejsce.
+  endif
+endif
+~
+#5130
+~
+~
+#5131
+~
+if roomhasflag otwarte
+  mob echoat $n Nie dasz rady przepchaæ ju¿ obeliska!
+  break
+else
+  mob exit dol room 42321
+  mob echoat $n Pchasz z ca³ych si³ obelisk i przesuwasz go.
+  mob echoaround $n $n pcha z ca³ych si³ obelisk i przesuwa go.
+  mob setflag room otwarte 1
+endif
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

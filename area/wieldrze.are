@@ -1,0 +1,707 @@
+#AREADATA
+Name {BB{x {R@{x# NK - wielkie drzewo~
+Builders Nk~
+VNUMs 42350 42364
+Credits Twórca - Khannan Poprawki, dokoñczenie, spolszczenie: Wicia 
+~
+Locked ~
+Security 9
+ResetAge 16
+Region 14181
+End
+
+
+
+#MOBILES
+#Vnum 42350
+Name wielki potwór~
+Odmiana wielkiego potwora~wielkiemu potworowi~wielkiego potwora~wielkim potworem~wielkim potworze~
+Short wielki potwór~
+Long Wielki potwór chodzi tutaj w ¿ywej ofiary.~
+Descr Masz przed sob± wielkie zwierzê mierz±ce ponad trzy metry wzrostu. Jest
+on trochê podobny do nied¼wiedzia, lecz porusza siê z wiêksz± lekko¶ci±.
+Jego ³apy s± potê¿ne na tyle, ¿e mog³yby bez problemu zmia¿dzyæ czyj±¶
+czaszkê. Na pysku ma wiele blizn jakby po ranach zadanych mieczem.
+Najwidoczniej stoczy³ on ju¿ niejedn± walkê o ten teren. 
+~
+Race zwierze~
+ActExt 0|AFGIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang J
+Speaks 9
+Level 24
+Hitroll 2
+HP 24d5+500
+Damage 4d7+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 1 1 1 3
+Stats 132 90 90 114 138 78 108
+Off CDOX
+OffExt 0|CDOX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKQRSV
+Size large
+Material unknown
+Skin 150
+ExpMultiplier 100
+Resist 10 50
+Resist 12 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 42350
+Name szkielet ko¶ci ludzki~
+Odmiana szkieletu~szkieletowi~szkielet~szkieletem~szkielecie~
+Short szkielet~
+Descr Le¿y tutaj ludzki szkielet bez czaszki.~
+Material ko¶æ~
+Type trash
+ExtraExt 0|X
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 3 2
+Repair 0 0 0 0
+Length 0
+Weight 400
+Cost 0
+Cond 75
+Itemdesc Jest to rozpadaj±cy siê ju¿ szkielet nieszczê¶nika, który spotka³ w tej
+kryjówce co¶ du¿ego. Niestety nie mia³ zbyt du¿o szczê¶cia i w³a¶nie dlatego
+widzisz tak przykry widok. Czaszka zosta³a utr±cona od szyi, i nie ma jej
+przy ciele. 
+~
+Comments ~
+Objend
+#Vnum 42351
+Name czaszka~
+Odmiana czaszki~czaszce~czaszkê~czaszk±~czaszce~
+Short czaszka~
+Descr Ludzka czaszka le¿y tutaj.~
+Material ko¶æ~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to ludzka czaszka. Jest troszê zniszczona i zmia¿dzona w niektórych
+miejscach. Miejsca w których by³y oczy zosta³y jakby wyrwane, czy te¿
+po³amane. Ohydny widok! 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 42350
+Name Przed wielkim drzewem~
+Descr Stoisz przed wielkim drzewem. Jest to najstarsze drzewo, jakie
+kiedykolwiek widzia³e¶. Pieñ jest powyginany, lecz bardzo gruby i do¶æ
+wysoki. Dostrzegasz dziurê przy ziemi w pniu, przez któr± bez problemu
+przejdziesz. Jest tam bardzo ciemno i nie wiadomo jakie mog± siê tam kryæ
+niebezpieczeñstwa. 
+~
+FlagsExt 0
+Sector 3
+Extra dziura~
+W wielkim drzewie jest wielka dziura, przez która z latwoscia moglby przejsc czlowiek, a nawet jakies duze zwierze.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42356
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42356
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42359
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42359
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42355
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42355
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42352
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42352
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Dziura~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42351
+ExitExtEnd
+Exit 5
+~
+VName Dziura~
+~
+0 0 42351
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42351
+Name W ¶rodku drzewa~
+Descr Znajdujesz siê w ¶rodku starego, spróchnia³ego pnia. Unosi siê tutaj
+ca³kiem nieprzyjemny zapach. Dooko³a nie nie ma nic dziwnego, poza jakim¶
+rozk³adaj±cym siê szkieletem, le¿±cym na ziemi. Ziemia jest w niektórych
+miejscach rozkopana i widaæ na niej jakie¶ ¶wie¿e ¶lady. Zupe³nie jakby kto¶
+mia³ tutaj swoje schronienie. 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42350
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42350
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42352
+Name W¶ród grubych konarów~
+Descr Wspinasz siê na konary wielkiego drzewa. Sprawia ci to niema³y k³opot,
+poniewa¿ trudno znale¶æ tu jak±¶ ga³±¼ której mo¿naby siê z³apaæ. Im wy¿ej
+siê wspinasz tym wiêcej lasu otaczaj±cego ciê jeste¶ w stanie dostrzec. Las
+dooko³a ciebie niemal¿e têtni ¿yciem, a dodatkowo jest niezwykle gêsty i od
+czasu do czasu dobiegaj± z niego dziwne ryki. 
+~
+FlagsExt 0|C
+Sector 3
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42353
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42353
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42350
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42350
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42353
+Name W¶ród grubych konarów~
+Descr Wspinasz siê coraz wy¿ej na konary wielkiego drzewa. Sprawia ci to
+niema³y k³opot, poniewa¿ trudno znale¶æ tu jak±¶ ga³±¼ której mo¿naby siê
+z³apaæ. Im wy¿ej siê wspinasz tym wiêcej lasu otaczaj±cego ciê jeste¶ w
+stanie dostrzec. Las dooko³a ciebie niemal¿e têtni ¿yciem, a dodatkowo jest
+niezwykle gêsty i od czasu do czasu dobiegaj± z niego dziwne ryki. 
+~
+FlagsExt 0|C
+Sector 3
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42354
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42354
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42352
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42352
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42354
+Name W¶ród grubych konarów~
+Descr Wspinasz siê coraz wy¿ej na konary wielkiego drzewa. Sprawia ci to
+niema³y k³opot, poniewa¿ trudno znale¶æ tu jak±¶ ga³±¼ której mo¿naby siê
+z³apaæ. Im wy¿ej siê wspinasz tym wiêcej lasu otaczaj±cego ciê jeste¶ w
+stanie dostrzec. Las dooko³a ciebie niemal¿e têtni ¿yciem, a dodatkowo jest
+niezwykle gêsty i od czasu do czasu dobiegaj± z niego dziwne ryki. 
+~
+FlagsExt 0|C
+Sector 3
+Extra south~
+Patrzac z tej wysokosci widzisz polacie lasu, które rozciagaja sie na
+olbrzymie odleglosci. Tylko gdzie, nie gdzie jakas mala polanka z plochliwa
+zwierzyna. Tylko chen, daleko na po³udniu widac wysokie, skaliste gory. 
+~
+Extra north~
+Patrzac z tej wysokosci widzisz polacie lasu, które rozciagaja sie na
+olbrzymie odleglosci. Tylko gdzie, nie gdzie jakas mala polanka z plochliwa
+zwierzyna. Lecz na dalekiej pó³nocy widac poczatki jakiejs rowniny.
+~
+Extra west~
+Patrzac z tej wysokosci widzisz polacie lasu, które rozciagaja sie na olbrzymie
+odleglosci. Tylko gdzie, nie gdzie jakas mala polanka z plochliwa zwierzyna.
+Nad drzewami widac szybujace orly.
+~
+Extra east~
+Patrzac z tej wysokosci widzisz polacie lasu, które rozciagaja sie na
+olbrzymie odleglosci. Tylko gdzie, nie gdzie jakas mala polanka z plochliwa
+zwierzyna. Nie daleko od Ciebie plynie rzeka, splywajaca z gor lezacych na
+poludniu. Nad drzewami widac szybujace orly.
+~
+Extra north~
+Daleko na pó³noc....
+~
+Extra gniazdo~
+Jest to starannie zrobione gniazdo z malych galazek. W srodku sa dwa male
+{Ypisklaki{x z rozdziawionymi dziobami. Pewnie czekaja na pokarm od swoich rodziow, którzy zapewne niebawem powroca z wyprawy.
+~
+Extra east~
+~
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42360
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42360
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42353
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42353
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42355
+Name Zielona polana~
+Descr Jest to niewielka polanka. Nie ma tu za wiele drzew. Dooko³a ciebie
+ro¶nie ³adna, soczysto zielona trawa i niewielkie ro¶liny, czy kwiaty.
+Ogólnie przewa¿a zieleñ i ¿ó³æ. Ca³kiem niedalego na pó³nocy dostrzegasz
+wielk± koronê jakiego¶ drzewa. Jest tak wielka, ¿e stoj±c tutaj nie sposób
+jest jej nie zauwa¿yæ. Dodatkowo ziemia jest tutaj wydeptana, zupe³nie jakby
+kto¶ têdy stale uczêszcza³. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42350
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42350
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14372
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14372
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42356
+Name Zielona polana~
+Descr Jest to niewielka polanka. Nie ma tu za wiele drzew. Dooko³a ciebie
+ro¶nie ³adna, soczysto zielona trawa i niewielkie ro¶liny, czy kwiaty.
+Ogólnie przewa¿a zieleñ i ¿ó³æ. Ca³kiem niedalego na po³udniu dostrzegasz
+wielk± koronê jakiego¶ drzewa. Jest tak wielka, ¿e stoj±c tutaj nie sposób
+jest jej nie zauwa¿yæ. Dodatkowo ziemia jest tutaj wydeptana, zupe³nie jakby
+kto¶ têdy stale uczêszcza³. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42357
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42357
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42350
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42350
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42357
+Name Zielona polana~
+Descr Jest to niewielka polanka. Nie ma tu za wiele drzew. Dooko³a ciebie
+ro¶nie ³adna, soczysto zielona trawa i niewielkie ro¶liny, czy kwiaty.
+Ogólnie przewa¿a zieleñ i ¿ó³æ. Ca³kiem niedalego na po³udniu dostrzegasz
+wielk± koronê jakiego¶ drzewa. Jest tak wielka, ¿e stoj±c tutaj nie sposób
+jest jej nie zauwa¿yæ. Dodatkowo ziemia jest tutaj wydeptana, zupe³nie jakby
+kto¶ têdy stale uczêszcza³. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14330
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14330
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42359
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42359
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42356
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42356
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42358
+Name Zielona polana~
+Descr Jest to niewielka polanka. Nie ma tu za wiele drzew. Dooko³a ciebie
+ro¶nie ³adna, soczysto zielona trawa i niewielkie ro¶liny, czy kwiaty.
+Ogólnie przewa¿a zieleñ i ¿ó³æ. Ca³kiem niedalego na pó³nocy dostrzegasz
+wielk± koronê jakiego¶ drzewa. Jest tak wielka, ¿e stoj±c tutaj nie sposób
+jest jej nie zauwa¿yæ. Dodatkowo ziemia jest tutaj wydeptana, zupe³nie jakby
+kto¶ têdy stale uczêszcza³. 
+~
+FlagsExt 0
+Sector 3
+Extra wzor~
+Przygladajac sie na drzewie dostrzegasz dziwny wzor. Jest to czaszka. Czaszka 
+czlowieka. Nie jest to dobry znak. Przechodza Cie ciarki myslac o tym miejscu.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42359
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42359
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14340
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14340
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14371
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14371
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42355
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42355
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42359
+Name Zielona polana~
+Descr Jest to niewielka polanka. Nie ma tu za wiele drzew. Dooko³a ciebie
+ro¶nie ³adna, soczysto zielona trawa i niewielkie ro¶liny, czy kwiaty.
+Ogólnie przewa¿a zieleñ i ¿ó³æ. Ca³kiem niedalego na zachodzie dostrzegasz
+wielk± koronê jakiego¶ drzewa. Jest tak wielka, ¿e stoj±c tutaj nie sposób
+jest jej nie zauwa¿yæ. Dodatkowo ziemia jest tutaj wydeptana, zupe³nie jakby
+kto¶ têdy stale uczêszcza³. 
+~
+FlagsExt 0
+Sector 3
+Extra wzor~
+Przygladajac sie na drzewie dostrzegasz dziwny wzor. Jest to czaszka. Czaszka czlowieka. Nie jest to dobry znak. Przechodza Cie ciarki myslac o tym miejscu.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42357
+ExitExtEnd
+Exit 0
+~
+~
+0 0 42357
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14320
+ExitExtEnd
+Exit 1
+~
+~
+0 0 14320
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42358
+ExitExtEnd
+Exit 2
+~
+~
+0 0 42358
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42350
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42350
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42360
+Name W¶ród gêstych ga³êzi~
+Descr Wspinasz siê coraz wy¿ej na konary wielkiego drzewa. Sprawia ci to
+niema³y k³opot, poniewa¿ trudno znale¶æ tu jak±¶ ga³±¼ której mo¿naby siê
+z³apaæ. Im wy¿ej siê wspinasz tym wiêcej lasu otaczaj±cego ciê jeste¶ w
+stanie dostrzec. Las dooko³a ciebie niemal¿e têtni ¿yciem, a dodatkowo jest
+niezwykle gêsty i od czasu do czasu dobiegaj± z niego dziwne ryki. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42361
+ExitExtEnd
+Exit 4
+~
+~
+0 0 42361
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42354
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42354
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42361
+Name Na wierzcho³ku~
+Descr Znajdujesz siê na samym czubku wysokiego wielkiego drzewa. Wej¶cie tu
+sprawi³o ci niema³y k³opot, jednak ju¿ jeste¶ na samej górze. Przyjemny
+wiatr szumi cicho wraz z li¶æmi drzew. Las dooko³a ciebie niemal¿e têtni
+¿yciem, a dodatkowo jest niezwykle gêsty i od czasu do czasu dobiegaj± z
+niego dziwne ryki. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42360
+ExitExtEnd
+Exit 5
+~
+~
+0 0 42360
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 42350 1 42351 1
+O 100 42351 0 42351
+O 100 42350 0 42356
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

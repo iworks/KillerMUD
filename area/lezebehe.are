@@ -1,0 +1,1301 @@
+#AREADATA
+Name Szczelina Lawy~
+Builders Drake~
+VNUMs 55001 55021
+Locked ~
+Security 1
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 55001
+Name mefit ognia~
+Odmiana mefita ognia~mefitowi ognia~mefita ognia~mefitem ognia~meficie ognia~
+Short mefit ognia~
+Long Dostrzegasz lataj±cego niedaleko ciebie mefita ognia.~
+Descr Widzisz przed sob± ma³e unosz±ce sie nad ziemia stworzenie, zwane mefitem
+ognia. Mefit ma krepa budowê cia³a z wystaj±cymi skrzyde³kami, które unosz±
+go nad ziemia. Stworzenie to zosta³o przywo³ane z planu elementarnego ognia, ze
+wzglêdu na to na jego rekach co chwile pojawiaj± siê ma³e p³omienie ognia. 
+~
+Race mefit~
+ActExt 0|AFL
+Affected 512 0 0 4
+AffectedExt 0|J/3|C
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d6+120
+Damage 2d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack plomien
+XAC 5 5 5 0
+Stats 90 72 66 90 78 66 90
+Off FY
+OffExt 0|FY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ACFGV
+Parts ACDEFHJKPR
+Size medium
+Material unknown
+Spells 264 265 242 298
+Skin 100
+ExpMultiplier 100
+Resist 5 100
+Resist 8 -10
+Resist 10 20
+Resist 16 20
+Mobend
+#Vnum 55002
+Name wyznawca plomieni~
+Odmiana wyznawcy plomieni~wyznawcy plomieni~wyznawce plomieni~wyznawca plomieni~wyznawcy plomieni~
+Short wyznawca plomieni~
+Long Wyznawca sekty plomieni przechadza sie tutaj.~
+Descr Widzisz przed sob± postawnego, wysokiego, poharatanego na twarzy
+mê¿czyznê. Jest to wyznawca sekty p³omieni, oni sami nazywaj± siebie:
+Wybrañcami p³omieni. Jak nakazuje ich religia trenuja oni przeró¿ne czary
+wykorzystuj±ce ogieñ, aby siê szkoliæ. Kiedy osi±gn± ju¿ odpowiedni poziom,
+mog± wzywaæ stwory z planu elementarnego ognia. 
+~
+Race cz³owiek~
+ActExt 0|AFT
+Affected 0 0 0 0
+AffectedExt 0
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d6+140
+Damage 2d2+6
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 5 5 5 10
+Stats 72 84 84 72 72 72 84
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload oload_randubier ABCDEFGHI 100~
+MobprogNew onload oload_wyznawca ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 25
+Resist 8 -5
+Mobend
+#Vnum 55004
+Name zaprzysiezony wyznawca~
+Odmiana zaprzysiezonego wyznawcy~zaprzysiezonemu wyznawcy~zaprzysiezonego wyznawce~zaprzysiezonym wyznawca~zaprzysiezonym wyznawcy~
+Short zaprzysiezony wyznawca~
+Long Zaprzysiezony wyznawca bawi sie ogniem.~
+Descr Widzisz przed sob± nieco zgarbionego, barczystego mê¿czyznê. Jego twarz
+jest poharatana i nieco nadpalona. Jest to starszy - zaprzysiê¿ony wyznawca
+sekty p³omieni. On trenuje ju¿ czary o wiele potê¿niejsze ni¿ te dla
+pocz±tkuj±cych wyznawców, tacy mê¿czy¼ni sa ju¿ czasem zapraszani na rytua³
+wzywania stworzeñ z planu elementarnego ognia. 
+~
+Race cz³owiek~
+ActExt 0|AFL
+Affected 0 0 0 0
+AffectedExt 0
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 1
+HP 15d6+300
+Damage 2d5+4
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 2 2 2 10
+Stats 84 84 84 84 84 84 84
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 55
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload oload_randubier ABCDEFGHI 100~
+MobprogNew onload zaprzysiezony ABCDEFGHI 100~
+Spells 240 242 265 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 55005
+Name ognisty ogar~
+Odmiana ognistego ogara~ognistemu ogarowi~ognistego ogara~ognistym ogarem~ognistym ogarze~
+Short ognisty ogar~
+Long Ognisty ogar przechadza sie po pomiesczeniu.~
+Descr Widzisz przed sob± potê¿na, ogromna, masywna istotê, zwana ognistym
+ogarem. Jest to istota przywo³ana przez sektê p³omieni z planu elementarnego
+ognia w³a¶nie tutaj. Na razie ogar spokojnie przemieszcza siê po siedzibie
+sekty, ale kiedy tylko ci fanatyczni wyznawcy religijni dostana ol¶nienia
+zabior± go na polê bitwy. 
+~
+Race piekielny ogar~
+ActExt 0|AFI
+Affected 33554464 0 0 0
+AffectedExt 0|FZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 16
+Hitroll 1
+HP 16d6+360
+Damage 3d4+4
+Dammagic 0
+Weaponbonus 0
+Damflags 1
+Attack gryzienie
+XAC 3 3 3 10
+Stats 108 60 108 60 60 60 60
+Off D
+OffExt 0|D
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CFGV
+Parts ACDEFHIJKQRSUV
+Size medium
+Material unknown
+Skin 180
+ExpMultiplier 100
+Resist 4 10
+Resist 5 75
+Resist 6 25
+Resist 8 -5
+Resist 10 20
+Resist 16 20
+Mobend
+#Vnum 55006
+Name kaplan kultu~
+Odmiana kaplana kultu~kaplanowi kultu~kaplana kultu~kaplanem kultu~kaplanie kultu~
+Short kaplan kultu~
+Long Kaplan kultu plomieni przechadza sie tutaj.~
+Descr Widzisz przed sob± potê¿nego kaplana, kultu p³omieni. W przeciwieñstwie
+do s³abszych popleczników sekty, ten mê¿czyzna pos³uguje siê ju¿
+zawansowanymi czarami magii ognia, a tak¿e uczestniczy w wielu rytua³ach
+przywo³ywania przeró¿nych stworów z planu elementarnego ognia. Pomiêdzy rekami
+kaplana kr±¿y kula ognia, której w ka¿dej chwili gotowy jest u¿yæ. 
+~
+Race cz³owiek~
+ActExt 0|AFL
+Affected 0 0 0 0
+AffectedExt 0
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 1
+HP 76d4+596
+Damage 2d5+2
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 0 0 0 10
+Stats 108 108 108 108 108 108 108
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 75
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload oload_randubier ABCDEFGHI 100~
+MobprogNew onload kaplan_onload ABCDEFGHI 100~
+Spells 50 242 240 30
+Spells 297 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 55007
+Name ognista salamandra~
+Odmiana ognistej salamandry~ognistej salamandrze~ognista salamandre~ognista salamandra~ognistej salamandrze~
+Short ognista salamandra~
+Long Ognista salamandra szykuje sie do ataku!~
+Descr Widzisz przed sob± ogromna, potê¿na ognista salamandrê. Wygl±da ona jak
+bardzo przero¶niêta jaszczurka, która dodatkowo zosta³a po³±czona ogniem i
+tak w³a¶ciwie jest. Istota ta zosta³a przywo³ana z planu elementarnego ognia,
+przez wyznawców sekty p³omieni. 
+~
+Race naga~
+ActExt 0|AFT
+Affected 512 134217728 0 0
+AffectedExt 0|J/1|b
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 1
+HP 22d6+480
+Damage 4d5+1
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 1 1 1 10
+Stats 120 60 60 120 120 60 60
+Off b
+OffExt 0|b
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AJMVY
+Parts ABCDEFGHIJKQRSU
+Size medium
+Material unknown
+Skin 200
+ExpMultiplier 100
+Resist 5 100
+Resist 8 -10
+Resist 10 20
+Resist 16 20
+Mobend
+#Vnum 55008
+Name p³omienisty Gedralk~
+Odmiana plomienistego Gedralka~plomienistemu Gedralkowi~plomienistego Gedralka~plomienistym Gedralkiem~plomienistym Gedralku~
+Short plomienisty Gedralk~
+Long Plomienisty Gedralk rzuca w ciebie kula ognia!~
+Descr Widzisz przed sob± potê¿nego, postawnego, barczystego elfa. Jest to jeden
+z przywódców sekty "Wyznawcy P³omienia". Gedralk to potê¿ny piroman
+potrafi±cy tworzyæ ogromne kule ognia i przywo³ywaæ potê¿ne stwory z planu
+elementarnego ognia. Uczestniczy on tez w rytuale przywo³ywania mitycznych
+istot z najdalszych zak±tków krainy wiecznego ognia. 
+~
+Race elf~
+ActExt 0|ABFLR
+Affected 0 134217728 0 0
+AffectedExt 1|b
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 3
+HP 94d4+871
+Damage 10d2+2
+Dammagic 1
+Weaponbonus 1
+Damflags 1
+Attack plomien
+XAC 8 8 8 8
+Stats 144 144 144 144 144 144 144
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload oload_randubier ABCDEFGHI 100~
+Spells 50 240 98 48
+Skin 100
+ExpMultiplier 100
+Resist 4 20
+Resist 5 100
+Resist 8 -20
+Resist 10 75
+Mobend
+#Vnum 55010
+Name Wybrañczyni P³omienia, P³omienista Llin'Faerra~
+Odmiana plomienistej Llin'Faerry~plomienistej Llin'Faerra~plomienista Llin'Faerra~plomienista Llin'Faerra~plomienistej Llin'Faerra~
+Short plomienista Llin'Faerra~
+Long Wybranczyni Plomienia, Plomienista Llin'Faerra stoi tutaj otoczona ogniem.~
+Descr Widzisz przed soba potezna, piekna elfke. Jest to Wybranczyni Plomienia,
+Plomienista Llin'Faerra. To ona podniosla do dzialania zawieszona na jakis
+czas organizacje, zwana sekta plomienni. Jest ona potezna magiczka, ktora
+potrafi przywolywac z planu astralnego ognia potezne kule ognia, badz
+stwory. Cale jej cialo pokrywa powloka z ognia, ktorej ona jednakze zdaje
+sie nie zauwazac. 
+~
+Race elf~
+ActExt 0|ABFLR
+Affected 34078760 134217728 0 0
+AffectedExt 0|DFTZ/1|b
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 3
+HP 106d4+976
+Damage 20d2+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack plomien
+XAC 6 6 6 6
+Stats 156 156 156 156 156 156 156
+Off Z
+OffExt 0|Z
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 3000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 98 311 0 0
+Skin 100
+ExpMultiplier 100
+Resist 4 30
+Resist 5 100
+Resist 8 -20
+Resist 9 50
+Resist 10 100
+Resist 12 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 55001
+Name niewielki sze¶ciok±t ogien_123~
+Odmiana {Rni{Yew{Rie{Ylk{Rie{Ygo {Rsz{Ye¶{Rci{Yok{R±t{Ya{x~{Rni{Yew{Rie{Ylk{Rie{Ymu{R sz{Ye¶{Rci{Yok{R±t{Yow{Ri{x~{Rni{Yew{Rie{Ylk{Ri {Rsz{Ye¶{Rci{Yok{R±t{x~{Rni{Yew{Rie{Ylk{Rim sz{Ye¶{Rci{Yok{R±t{Yem{x~{Rni{Yew{Rie{Ylk{Rim sz{Ye¶{Rci{Yok{R±c{Yie{x~
+Short {Rni{Yew{Rie{Ylk{Ri s{Yze{R¶c{Yio{Rk±{Yt{x~
+Descr Le¿y tutaj na ziemi niewielki sze¶ciok±t.~
+Material kryszta³~
+Type trash
+ExtraExt 0|Dd
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 1
+Cond 100
+Itemdesc Trzymasz w d³oniach dziwny, metalowy sze¶ciok±t - wielko¶ci± nie wiêkszy
+ni¿ twoja d³oñ. Od do³u kto¶ wyry³ na nim symbol p³omienia, ciekawe do czego
+mo¿e s³u¿yæ? 
+~
+Comments ~
+Objend
+#Vnum 55004
+Name amulet rytualny~
+Odmiana {Ramu{Yletu {Rryt{Yual{Rnego{x~{Ramu{Yletowi {Rryt{Yual{Rnemu{x~{Ramu{Ylet {Rryt{Yual{Rny{x~{Ramu{Yletem {Rryt{Yual{Rnym{x~{Ramu{Yletecie {Rryt{Yual{Rnym{x~
+Short {Ramu{Ylet {Rryt{Yual{Rny{x~
+Descr {RAmu{Ylet {Rryt{Yual{Rny{x swieci sie kolorami ogniska.~
+Material mosi±dz~
+Type jewelry
+ExtraExt 0|G
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 50
+Cost 2000
+Cond 75
+Aff 1 12 5 10 0 0
+Itemdesc Widzisz przed sob± duzy, rytualny amulet wykonany z mosi±dzu. Jest to
+amulet wykonywany specjalnie dla sekty p³omieni, którzy sami siebie nazywaj±
+"Wybrañcami p³omienia". Posiada on specjalne zdobienia przypominaj±ce
+ognisko nad, którym widnieje wyryty symbol sekty. 
+~
+Comments ~
+Objend
+#Vnum 55005
+Name kielich rytualny~
+Odmiana {Rkie{Ylicha {Rrytu{Yalne{Rgo{x~{Rkie{Ylichowi {Rrytu{Yalne{Rmu{x~{Rkie{Ylich {Rrytu{Yal{Rny{x~{Rkie{Ylichem {Rrytu{Yal{Rnym{x~{Rkie{Ylichu {Rrytu{Yal{Rnym{x~
+Short {Rkie{Ylich {Rryt{Yual{Rny{x~
+Descr {RKie{Ylich {Rryt{Yual{Rny{x bucha plomieniami.~
+Material z³oto~
+Type staff
+ExtraExt 0|G
+Wear AH
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 20 2 1 242 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 2000
+Cond 75
+Itemdesc Widzisz przed sob± rytualny kielich sekty p³omieni. Kielich wykonano ze
+szczerego z³ota, dodatkowo zaklêto w nim magie ognia. W ¶rodku czary
+widnieje du¿a kula ognia, która wiruje i obraca siê we wszystkich
+kierunkach. Mo¿e mo¿na ja jako¶ wykorzystaæ ? 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 55001
+Name {RWewn±trz szczeliny lawy{x~
+Descr Id±c dalej powietrze robi siê coraz bardziej gêste, smród siarki niszczy
+zmys³ powonienia i coraz ciê¿ej o od¶wie¿aj±cy haust powietrza. Droga za¶
+prowadzi ci±gle w dó³, coraz bli¿ej rzeki roztopionej ¶mierci przep³ywaj±cej
+na dole. Ciekawo¶æ, a mo¿e szaleñstwo pcha ciê naprzód, w g³±b tego
+nieznanego, p³omienistego miejsca. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55002
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55002
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55002
+Name {RWewn±trz szczeliny lawy{x~
+Descr Rzeka lawy znajduje siê teraz praktycznie o rzut kamieniem od ciebie.
+Gor±c, upa³ i brak tlenu powoduj±, ¿e zaczyna ci siê krêciæ w g³owie. W porê
+jednak zauwa¿asz niewielkie wej¶cie do tunelu na wschodzie, które wygl±da na
+trochê mniej gor±ce - jest to jedyna droga g³êbiej poza t± któr± tu
+przywêdrowa³e¶ - chyba, ¿e od kogo¶ nauczysz siê cudownej sztuki p³ywania w
+lawie. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55001
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55001
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55003
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55003
+Name {RWewn±trz szczeliny lawy{x~
+Descr Po przej¶ciu przez niewielki tunel wychodzisz znowu do wiêkszego
+korytarza, na po³udniu widzisz niewielk± odnogê tunelu, sam za¶ tunel
+biegnie dalej na wschód. Jest tu trochê zimniej ni¿ przy rzece lawy, jednak
+mimo wszystko niezno¶ny upa³ tego miejsca daje ci siê we znaki. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55005
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55005
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55004
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55002
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55002
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55004
+Name {RNiewielka platforma nad rzek± lawy{x~
+Descr Znajdujesz siê na niewielkiej skalnej pó³ce, która na pewno nie zosta³a
+stworzona naturalnymi metodami - niewielki kamienny 'most' biegnie do
+niewielkiej kamiennej platformy która unosi siê nad rzek± lawy. W górze
+zauwa¿asz nie¶mia³o niewielk± szczelinê, przez któr± pada ¶wiat³o dnia.
+Ciekawe do czego to miejsce mog³o s³u¿yæ? 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55003
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55005
+Name {RTunel w¶ród ska³{x~
+Descr W tym tunelu jest prawie ch³odno, je¶li braæ pod uwagê to co musia³e¶
+przej¶æ ¿eby tu doj¶æ. Mimo wszystko jednak nie mo¿na odetchn±æ z ulg±,
+ciep³o promieniuje od ska³, zapach siarki ci±gle unosi siê w powietrzu za¶
+sam korytarz wygl±da jakby by³ wytopiony za pomoc± tej samej magmy, która
+p³ynê³a w rzece na dole. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55006
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55006
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55003
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55006
+Name {RSkrzy¿owanie korytarzy{x~
+Descr Korytarze rozdzielaj± siê tutaj, na pó³noc biegnie niewielka odnoga która
+koñczy siê przej¶ciem w skale do jakiej¶ wiêkszej jaskini, na po³udniu drogê
+stanowi tunel bardzo podobnego do tego, w którym teraz siê znajdujesz. Ska³y
+dooko³a wygl±daj± jak wytopione za pomoc± magmy. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55007
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55007
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55005
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55005
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55007
+Name {RNiewielka jaskinia{x~
+Descr Ta jaskinia, mimo ¿e niewielka, jest ca³kiem szeroka - mie¶ci w sobie
+prycze, niewielki stó³ i parê krzese³, skrzynie i wszelkiego rodzaju
+drobiazgi, które sprawiaj±, ¿e na pierwszy rzut oka widaæ ¿e w tym miejscu
+kto¶ mieszka. Na jednej ze ¶cian widaæ wyryty w skale symbol p³omienia. 
+~
+FlagsExt 0|H
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55006
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55006
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55008
+Name {RTunel w¶ród ska³{x~
+Descr Tunel prowadzi dalej w g³±b podziemnego piek³a, na wschodzie zauwa¿asz
+kolejn± niewielk± odnogê która koñczy siê prawdopodobnie kolejn± jaskini± -
+tak± jak wy¿ej. Przy wej¶ciu do jaskini kto¶ zawiesi³ ciê¿kie kurtyny które
+skutecznie blokuj± wzrok ciekawskich. G³ówny tunel dalej biegnie w kierunku
+po³udniowym. 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55006
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55006
+ExitExt 1
+ExitExtDescription ~
+ExitExtName zas³ony~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 55009
+ExitExtEnd
+Exit 1
+~
+zas³ony~
+3 0 55009
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55010
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55010
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55009
+Name {RNiewielka jaskinia{x~
+Descr Ta jaskinia tak¿e jest zamieszkana, jednak zamiast prymitywnych pryczy
+dostrzegasz tutaj dwa solidne ³o¿a, dwa biurka, niewielki stó³ i parê
+szafek. Widaæ, jest to raczej miejsce pracy i medytacji, ni¼li tylko
+tymczasowe mieszkanie. Pod ¶cian± ustawione s± skrzynie i tak¿e w rogu tego
+pomieszczenia zauwa¿asz symbol ognia wyryty na ¶cianie. 
+~
+FlagsExt 0|H
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtName zas³ony~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 55008
+ExitExtEnd
+Exit 3
+~
+zas³ony~
+3 0 55008
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55010
+Name {RSkrzy¿owanie korytarzy{x~
+Descr Dochodzisz do kolejnego rozga³êzienia korytarzy, na po³udniu dostrzegasz
+tak¿e kolejn± niewielk± jaskiniê, za¶ sam tunel biegnie dalej na zachód. Ze
+zgroz± zauwa¿asz, ¿e przecina go jaka¶ wiêksza jaskinia - prawdopodobnie
+podziemna rzeka lawy - byæ mo¿e warto siê zastanowiæ teraz nad powrotem. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55008
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55008
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55021
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55011
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55011
+Name {RNad rzek± lawy{x~
+Descr Znajdujesz siê nad rzek± lawy, jeden krok na zachód skoñczy siê w ¶rodku
+p³ynnej, gorej±cej rzeki ¶mierci która rozci±ga siê pod stopami. Zaraz przy
+urwanym klepisku dostrzegasz niewielkie urz±dzenie, z pewnym specyficznym
+otworem. Prawdopodobnie potrzebujesz jakiego¶ rodzaju klucza, by przej¶æ
+dalej. Je¶li posiadasz co¶ takiego, to mo¿esz spróbowaæ go {Rw³o¿yæ{x aby
+{Ruruchomiæ{x urz±dzenie. 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55010
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55010
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55012
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55012
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55012
+Name {RSkrzy¿owanie korytarzy{x~
+Descr Znajdujesz siê w kolejnym skrzy¿owaniu korytarzy, na po³udniu rozci±ga
+siê dalej rzeka lawy, dalej mo¿esz dojrzeæ ogromn± jaskiniê, w niej za¶
+niewielk± wysepkê po¶ród morza p³ynnego ognia. Na zachód za¶ prowadzi dalej
+tunel, jednak ¶ciany i pod³oga tego nowego tunelu ozdobione s± symbolami
+p³omienia. 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55011
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55011
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55016
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55016
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55013
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55013
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55013
+Name {RKoniec korytarza{x~
+Descr Zdobiony korytarz koñczy siê tutaj równie zdobionymi drzwiami, jednak nie
+z drewka jak siê mo¿na spodziewaæ tylko z jakiego¶ rodzaju wulkanicznej
+ska³y. Na drzwiach widnieje symbol p³omienia, najwiêkszy i wykonany z
+najwiêkszym kunsztem, jaki zdarzy³o ci siê widzieæ. Ciekawe, co kryje siê za
+tymi wrotami? 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 55014
+ExitExtEnd
+Exit 0
+~
+wrota~
+3 0 55014
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55012
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55012
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55014
+Name {RPracownia{x~
+Descr Znajdujesz siê w pracowni. Inaczej tego nazwaæ nie mo¿na, kamienne meble
+zajmuj± wiêkszo¶æ powierzchni tego pomieszczenia, s³u¿± jako biurka, sto³y
+czy krzes³a. Na pó³kach widniej± folia³y w nieznanym ci jêzyku, za¶ dooko³a
+pomieszczenia pa³êtaj± siê ró¿ne sk³adniki, przydatne w rzucaniu zaklêæ.
+Czy¿by by³a to pracownia jakiego¶ czarodzieja? 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 55013
+ExitExtEnd
+Exit 2
+~
+wrota~
+3 0 55013
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55015
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55015
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55015
+Name {RPracownia~
+Descr Wchodzisz do dalszej czê¶ci pracowni - poza kamiennymi meblami znajduje
+siê tu tak¿e ³o¿e, o dziwo tak¿e wykonane z kamienia. Niewielkie szafki i
+kufry prawdopodobnie wype³nione s± ubraniami. To miejsce jest bardziej
+osobiste, ni¿ poprzednie - co dziwne wyczuwasz ¿e ten porz±dek jest wykonany
+kobiec± rêk±. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55014
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55014
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55016
+Name {RNad rzek± lawy{x~
+Descr Dochodzisz do drugiego koñca korytarza, który koñczy siê tak jak
+poprzedni prosto w rzece p³on±cej lawy. Znajdujesz siê w olbrzymiej jaskini,
+do której wp³ywa p³yn±ca wcze¶niej rzeka lawy, wp³ywa i otacza niewielk±
+wysepkê na ¶rodku. Skwer tego miejsca jest niemo¿liwy do opisania.
+Dostrzegasz tak¿e kolejne {Rurz±dzenie{x przy brzegu ognistej rzeki. 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55012
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55012
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55017
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55017
+Name {RNa wyspie po¶ród Lawy{x~
+Descr Znajdujesz siê na niewielkiej wyspie po¶ród p³omieni, wszêdzie dooko³a
+rozci±ga siê ognista rzeka i jeden nieostro¿ny krok mo¿e skoñczyæ siê
+¶mierci±. Je¶li za¶ o ¶mierci mowa, dooko³a wysepki znajduj± siê ko¶ci
+ludzkie, niektóre na po³y stopione i zanurzone w lawie, jeden szkielet
+panicznie wyci±ga rêkê w kierunku ¶rodka wysepki, za¶ tylnie jego nogi
+znikaj± w ognistej rzece. To miejsce jest niew±tpliwie przygnêbiaj±ce i na
+pewno nie jest bezpiecznie. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55016
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55016
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55019
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55019
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55020
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55020
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55018
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55018
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55018
+Name {RPo¶ród Lawy{x~
+Descr Znajdujesz siê po¶ród p³on±cej lawy otaczaj±cej niewielk± wysepkê, có¿
+mo¿na wiêcej powiedzieæ - p³ywanie w lawie to nie najbezpieczniejszy sport
+znany na Tamerze, wiêc lepiej bierz nogi za pas. Lepiej ju¿ chyba stawiæ
+czo³a rozw¶cieczonemu tytanowi. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55017
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55019
+Name {RPo¶ród Lawy{x~
+Descr Znajdujesz siê po¶ród p³on±cej lawy otaczaj±cej niewielk± wysepkê, có¿
+mo¿na wiêcej powiedzieæ - p³ywanie w lawie to nie najbezpieczniejszy sport
+znany na Tamerze, wiêc lepiej bierz nogi za pas. Lepiej ju¿ chyba stawiæ
+czo³a rozw¶cieczonemu tytanowi. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55017
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55020
+Name {RPo¶ród Lawy{x~
+Descr Znajdujesz siê po¶ród p³on±cej lawy otaczaj±cej niewielk± wysepkê, có¿
+mo¿na wiêcej powiedzieæ - p³ywanie w lawie to nie najbezpieczniejszy sport
+znany na Tamerze, wiêc lepiej bierz nogi za pas. Lepiej ju¿ chyba stawiæ
+czo³a rozw¶cieczonemu tytanowi. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55017
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55021
+Name {RNiewielka jaskinia{x~
+Descr Ta niewielka jaskinia pe³ni rolê kuchni i magazynu - niewielkie
+szczeliny w suficie odprowadzaj± dym, który w tych okolicach raczej nikogo
+nie dziwi. W skrzyniach i beczkach znajduj± siê ró¿ne dobra i woda, za¶ na
+¶rodku stoi du¿y kuchenny stó³ gotowy do przygotowywania potraw. 
+~
+FlagsExt 0|H
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55010
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55010
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#MOBPROGSNEW
+#kaplan_onload
+~
+mob addgroup 55007
+~
+#oload_randubier
+~
+#Ladowanie broni 
+if rand 33
+mob equip self 55013
+else 
+if rand 33
+mob equip self 3172
+else
+if rand 33
+mob equip self 3152
+else
+mob equip self 3157
+endif 
+endif 
+endif 
+#Ladowanie zbroji
+if rand 50
+mob equip self 3025
+else 
+if rand 50
+mob equip self 4370
+else
+mob equip self 4369
+endif 
+endif 
+#Ladowanie spodni
+if rand 50
+mob equip self 3050
+else
+mob equip self 3049
+endif 
+#Ladowanie butow
+if rand 50
+mob equip self 3001
+else
+mob equip self 3010
+endif 
+#Ladowanie pochwy
+if rand 50
+mob equip self 3157
+esle
+if rand 50
+mob equip self 3388
+else
+mob equip self 6068
+endif 
+endif
+~
+#oload_wyznawca
+~
+mob addgroup 55001
+~
+#zaprzysiezony
+~
+mob addgroup 55005
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

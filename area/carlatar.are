@@ -1,0 +1,1520 @@
+#AREADATA
+Name +# Stara elfia latarnia morska~
+Builders None~
+VNUMs 2901 2928
+Credits Drake <blackdrake@interia.pl>~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 2901
+Name latarnik stary cz³owiek~
+Odmiana starego latarnika~staremu latarnikowi~starego latarnika~starym latarnikiem~starym latarniku~
+Short stary latarnik~
+Long Stary latarnik stoi tutaj i drapie sie po brodzie.~
+Descr Widzisz ju¿ starego cz³owieka, zniszczonego ¿yciem. Widaæ ¿e kulejê
+powa¿nie na jedn± nogê i raczej ku¶tyka ni¿ chodzi. Mimo to srebrzyste w³osy
+dodaj± mu powagi a wzrok ma hardy, z ubioru i zachowania mo¿na ³atwo
+wywnioskowaæ i¿ kiedy¶ ten nieszczê¶nik by³ marynarzem lecz nieszczê¶liwy
+wypadek przekre¶li³ jego dalsz± karierê. Jego skóra jest ogorza³± od s³oñca
+i wiatru przez co wygl±da na cz³owieka zmêczonego ¿yciem jednak jego oczy
+b³yszcz± gdy spogl±da na morze. 
+~
+Race cz³owiek~
+ActExt 0|AG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 4
+Hitroll 0
+HP 4d4+60
+Damage 2d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 90 96 108 84 90 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 2903 FGI 8~
+MobprogNew time 2902 EFGI 6~
+MobprogNew time 2901 EFGI 18~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2902
+Name mimik skrzynia okuta zêbata~
+Odmiana mimika~mimikowi~mimika~mimikiem~mimiku~
+Short mimik~
+Long Stoi tutaj wielka, okuta skrzynia z zêbami i wielkim czerwonym jêzorem wywalonym na zewn±trz.~
+Descr Ma³o kto przypuszcza³, ¿e taka abominacja mo¿e faktycznie istnieæ. Mimik,
+bo tak zwie siê ów twór, jest konstruktem udaj±cym kufer, który czeka tylko
+a¿ kto¶ otworzy jego wieko, a gdy tak siê stanie... Có¿, w najlepszym
+wypadku ofiara straci palec, choæ rzadko kiedy na tym siê koñczy. Mimik
+po¿era zaskoczone ofiary i powoli je trawi, zapewniaj±c im najgorsze
+przed¶miertne doznania jakie jest sobie w stanie wyobraziæ cz³owiek. Nie
+bardzo wiesz sk±d mimik wzi±³ siê w takim miejscu, lecz skoro jeszcze ¿yjesz
+i masz si³ê walczyæ, to mimik nie jest na wygranej pozycji. 
+~
+Race golem~
+ActExt 0|ABFI
+Affected 100663336 0 0 40960
+AffectedExt 0|DFZa/3|NP
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 13
+Hitroll 2
+HP 13d10+250
+Damage 2d6+2
+Dammagic 1
+Weaponbonus 0
+Damflags 8
+Attack gryzienie
+XAC 3 3 3 10
+Stats 120 120 120 120 120 78 78
+Off Xc
+OffExt 0|Xc
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form CEJc
+Parts KLY
+Size small
+Material unknown
+Comments Gramatyczna poprawa opisu + grzebanie w partsach (coby mimik nie mia³ g³owy, r±k etc.) i resistach. - {RHorg{x ({CTue May  7 23:47:46 2013{x)
+~
+MobprogNew onload 2904 ABCDEFGHI 100~
+MobprogNew death 2905 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 1 30
+Resist 2 10
+Resist 5 -5
+Resist 6 -10
+Resist 7 100
+Resist 8 75
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 2903
+Name ma³a mysz~
+Odmiana ma³ej myszy~ma³ej myszy~ma³± mysz~ma³± mysz±~ma³ej myszy~
+Short ma³a mysz~
+Long Miêdzy zapasami buszuje ma³a mysz.~
+Descr ~
+Race mysz~
+ActExt 0|ABH
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 1
+Hitroll 0
+HP 2d3+10
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 30 18 18 78 60 78 78
+Off H
+OffExt 0|H
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size tiny
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2901
+Name klucz kluczyk elfi zielony~
+Odmiana {Gelfiego kluczyka{x~{Gelfiemu kluczykowi{x~{Gelfi kluczyk{x~{Gelfim kluczykiem{x~{Gelfim kluczyku{x~
+Short {Gelfi kluczyk{x~
+Descr Niewielki elfi kluczyk.~
+Material stal~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Itemdesc {GMa³y elfi kluczyk ozdobiony wygrawerowanymi wzorkami w kszta³cie wzdêtych
+¿agli. {x 
+~
+Comments ~
+Objend
+#Vnum 2911
+Name skrzynia du¿a drewniana~
+Odmiana skrzyni~skrzyni~skrzyniê~skrzyni±~skrzyni~
+Short du¿a drewniana skrzynia~
+Descr Du¿a, wykonana z drewna i okuta ¿elazem skrzynia stoi tutaj.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 500 5 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 100
+Objprog objopen 2901 100~
+Itemdesc Ta skrzynia, naprawde du¿ych rozmiarów jest zrobiona z mocnego, dêbowego
+drewna. Wzmocniono j± na dodatek ¿elaznymi okuciami a tak¿e ogromn± k³ódk± z
+tego samego metalu. 
+~
+Comments ~
+Objend
+#Vnum 2912
+Name dêbowa skrzynia skpurge~
+Odmiana dêbowej skrzyni~dêbowej skrzyni~dêbow± skrzyniê~dêbow± skrzyni±~dêbowej skrzyni~
+Short dêbowa skrzynia~
+Descr Stoi tutaj niewielka, dêbowa skrzynia na ubrania.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 500 5 0 10 100 11 -1
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Objprog objopen 2901 100~
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2915
+Name rega³ drewniany~
+Odmiana rega³u~rega³owi~rega³~rega³em~regale~
+Short drewniany rega³~
+Descr Drewniany rega³ stoi pod ¶cian±.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 150 16 0 10 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 0
+Cond 5
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 2916
+Name resztki mimika~
+Odmiana resztek mimika~resztkom mimika~resztki mimika~resztkami mimika~resztkach mimika~
+Short resztki mimika~
+Descr Strzaskane resztki mimika le¿a tutaj w ka³u¿y jakiej¶ zielonkawej cieczy.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 0 0 3 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 600
+Cost 0
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2901
+Name Przedsionek~
+Descr Stoisz w przedsionku holu latarni morskiej, jest tu raczej ciemno, gdy¿
+¿adne ³uczywo nie o¶wietla tego pomieszczenia jednak sporo ¶wiat³a wpada ze
+wschodu. Z zewn±trz latarnia morska wydawa³a siê niewielk±, wysok± i smuk³±
+wie¿a, chocia¿ dopiero wewn±trz cz³owiek poznaje swój b³±d. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2902
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2902
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 32907
+ExitExtEnd
+Exit 3
+~
+~
+3 0 32907
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2902
+Name Parter: centrum~
+Descr Stoisz w holu latarni morskiej, wszystko jest tutaj odrobinê zakurzone i
+nieu¿ywane. A tego 'wszystkiego' nie ma tak wiele, raczej po prostu poza
+pokojami niema ¿adnego sprzêtu poza jednym ³uczywem od czasu do czasu
+umieszczonym na ¶cianie i drzwiami do innych pomieszczeñ. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2903
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2903
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2904
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2904
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2912
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2912
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2901
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2903
+Name Schody~
+Descr Znajdujesz siê przy wyj¶ciu na schody, id± one w górê ostro zakrêcaj±c.
+Oprócz schodów nic ciekawego tutaj nie ma, no bo obrazy ze statkami na
+pe³nym morzu s± wszechobecne w wystroju latarni a wiêc tym samym do
+ciekawego wystroju nie nalez±. Schody s± solidne i widaæ ¿e pod byle
+ciê¿arem siê nie z³ami± nawet jakby tym byle ciê¿arem by³ ogr z pe³nym
+rynsztunkiem bojowym. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2902
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2902
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2914
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2914
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2904
+Name Parter: Centrum~
+Descr Stoisz w holu latarni morskiej, wszystko jest tutaj odrobinê zakurzone i
+nieu¿ywane. A tego 'wszystkiego' nie ma tak wiele, raczej po prostu poza
+pokojami niema ¿adnego sprzêtu poza jednym ³uczywem od czasu do czasu
+umieszczonym na ¶cianie i drzwiami do innych pomieszczeñ. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2905
+ExitExtEnd
+Exit 0
+~
+drzwi~
+3 0 2905
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2906
+ExitExtEnd
+Exit 1
+~
+~
+3 0 2906
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2909
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2909
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2902
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2902
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2905
+Name Schowek pod schodami~
+Descr Stoisz w niewielkim schowku który znajduje siê bezpo¶rednio pod schodami,
+znajduj± siê w nim miot³y, szmaty i wszystkie rzeczy które ze wzglêdu na
+swoje 'dzia³anie' powinny byæ umieszczane w komórkach takich jak ta. Jest tu
+ciemno i stêch³o, jakby komórka nie by³a otwierana od dosyæ dawna. Na ziemi
+le¿y du¿y, zielono-czerwony dywan który jednak jest tak zakurzony ¿e ka¿dy
+krok po nim wyzwala w powietrze istn± burze kurzu i py³u. 
+~
+FlagsExt 0|D
+Sector 0
+Extra dywan~
+Widisz przed sob± dosyæ du¿y i gruby dywan, jest on malowany w
+zielono-czerwon± krate jednak co zastanawiaj±ce to pod jedn± z krat widaæ
+wybrzuszenie. Mo¿e sprubuj go {yprzesun±æ{x lub je¶li jest odsuniêty {yzasun±æ{x?
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2904
+ExitExtEnd
+Exit 2
+~
+~
+3 0 2904
+Roomprog reset 2903 100~
+Roomprog input 2902 zasun~
+Roomprog input 2901 przesun~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2906
+Name Pokoj latarnika~
+Descr Stoisz w ca³kiem sporym pokoju, widok z okna rozci±ga siê na bezkres
+morza. Stoj± tutaj pó³ki z ksi±¿kami, biurko i niewielkie ³ó¿ko a tak¿e
+kufer na rzeczy. Jest równie¿ co¶, co od razu rzuca siê w oczy. Wisz±ca na
+¶cianach kolekcja obrazów przedstawiaj±cych statki na morzu. Na biurku stoi
+pióro i ka³amarz a tak¿e model okrêtu w butelce. Wszystko wygl±da raczej na
+czêsto u¿ywane i 'swojskie'. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2904
+ExitExtEnd
+Exit 3
+~
+~
+3 0 2904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2907
+Name Ukryta komnata pod schowkiem.~
+Descr Jakim¶ cudem znalaz³e¶ siê w tej ukrytej, podziemnej komnacie. Ma ona
+kszta³t ko³a i na górê prowadzi niewielka sznurowa drabinka. Co ciekawe
+zauwa¿asz i¿ jedynym wyposa¿eniem tej komnaty s± do¶æ poka¼ne, mosiê¿ne
+drzwi. Na dodatek kto¶ du¿o bazgra³ po ¶cianach i drzwiach, gdy¿ zdobi± je
+jakie¶ rysunki... A mo¿e runy. Któ¿ to wie. 
+~
+FlagsExt 0|CD
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtBiernik drzwi~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 32775
+ExitExtKey 5448
+ExitExtToVnum 5439
+ExitExtEnd
+Exit 2
+~
+drzwi~
+32775 5448 5439
+Exittrap 2 5440
+Roomprog reset 2904 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2908
+Name Magazyn: Zywnosc~
+Descr Pomieszczenie w którym stoisz wygl±da na ca³kiem normalny magazyn
+¿ywno¶ci. Beczki i worki wype³niaj± prawie ca³± przestrzeñ, tylko ci±gle
+s³ychaæ jakie¶ drapania pod pod³og±. No có¿, jest stare powiedzenie - kota
+niema myszy harcuj±, a mo¿e to nie myszy ? W ka¿dym razie zauwa¿y³e¶ kilka
+szarych plamek które mignê³y na granicy widoczno¶ci gdy wszed³e¶. 
+~
+FlagsExt 0|D
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2909
+ExitExtEnd
+Exit 3
+~
+~
+3 0 2909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2909
+Name Parter: Centrum~
+Descr Stoisz w holu latarni morskiej, wszystko jest tutaj odrobinê zakurzone i
+nieu¿ywane. A tego 'wszystkiego' nie ma tak wiele, raczej po prostu poza
+pokojami nie ma ¿adnego sprzêtu poza jednym ³uczywem od czasu do czasu
+umieszczonym na ¶cianie i drzwiami do innych pomieszczeñ. Miejsce to zajmuje
+jeszcze jedn± wa¿n± rolê - mianowicie jest jadalni±. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2904
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2904
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2908
+ExitExtEnd
+Exit 1
+~
+~
+3 0 2908
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2910
+ExitExtEnd
+Exit 2
+~
+~
+3 0 2910
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2912
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2912
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2910
+Name Kuchnia~
+Descr Kuchnia jest prosto urz±dzona, gdy¿ tak samo jak wychodek jest
+przybudówk± przy latarni - dlatego tez dym uciekaj±cy przez dach gdyby siê
+co¶ gotowa³o nad paleniskiem uchodzi nie do góry latarni lecz na ¶wie¿e
+powietrze. Widaæ elfy które budowa³y t± latarniê o wszystkim pomy¶la³y. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2909
+ExitExtEnd
+Exit 0
+~
+~
+3 0 2909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2911
+Name Wychodek~
+Descr Hmm, je¶li przyszed³e¶ tu za potrzeb± to dobrze trafi³e¶, bo trafi³e¶ do
+wychodka. Kto¶ sprytnie pomy¶la³ i widaæ ze wszystkie nieczysto¶ci sp³ywaj±
+st±d prosto do morza grub± rur±. Ca³kiem mile urz±dzone miejsce musisz
+przyznaæ, gdyby nie to, ¿e jeste¶ w latarni pomy¶la³by¶ ze jest to wychodek
+jakiego¶ szlachcica. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2912
+ExitExtEnd
+Exit 0
+~
+~
+3 0 2912
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2912
+Name Parter: Centrum~
+Descr Stoisz w holu latarni morskiej, wszystko jest tutaj odrobinê zakurzone i
+nieu¿ywane. A tego 'wszystkiego' nie ma tak wiele, raczej po prostu poza
+pokojami niema ¿adnego sprzêtu poza jednym ³uczywem od czasu do czasu
+umieszczonym na ¶cianie i drzwiami do innych pomieszczeñ. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2902
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2902
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2909
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2909
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2911
+ExitExtEnd
+Exit 2
+~
+~
+3 0 2911
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2913
+ExitExtEnd
+Exit 3
+~
+~
+3 0 2913
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2913
+Name Magazyn: Olej~
+Descr Ca³e to pomieszczenie zagracone jest beczkami z oliwa i drewnem opalowym.
+Widzisz tak¿e zapasowe soczewki, ¶ruby, beczki na olej i w ogóle wszystko co
+tylko mo¿na wymagaæ od latarnika który chce utrzymaæ latarnie mimo sztormów
+i burz w stanie nienaruszonym ratuj±c ¿ycie ¿eglarzom. Wszystko jest
+solidnie pouk³adane i nawet najwiêkszy sztorm nie ruszy niczego o centymetr.
+~
+FlagsExt 0|D
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 2912
+ExitExtEnd
+Exit 1
+~
+~
+3 0 2912
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2914
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2915
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2915
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2903
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2903
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2915
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. W tej
+¶cianie znajduje siê okno. 
+~
+FlagsExt 0|DH
+Sector 0
+Extra okno~
+Widok st±d rozci±ga siê prosto na drogê, widaæ jeszcze kawa³ek lasu lecz
+pó¼niej drzewa zas³aniaj± ca³± resztê, widaæ dok³adnie tak¿e wej¶cie i
+wszystkich który by postanowili potencjalnie wej¶æ. 
+~
+Extra okno~
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2914
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2914
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2916
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2916
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2915
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2915
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2917
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2917
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2918
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2918
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2916
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2918
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. W tej
+¶cianie znajduje siê okno. 
+~
+FlagsExt 0|DH
+Sector 0
+Extra okno~
+Widok st±d rozci±ga siê na po³udnie, na pla¿e i klify nadmorskie i
+ci±gnie niewiele dalej, w sumie nic ciekawego. 
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2917
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2917
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2919
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2919
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2919
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2920
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2920
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2918
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2918
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2920
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. W tej
+¶cianie znajduje siê okno. 
+~
+FlagsExt 0|DH
+Sector 0
+Extra okno~
+Widok st±d rozci±ga siê na wschód, na piêkne i spokojne morze, ca³kiem
+³adny widok. 
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2919
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2919
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2921
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2921
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2922
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2922
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2920
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2922
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. W tej
+¶cianie znajduje siê okno. 
+~
+FlagsExt 0|DH
+Sector 0
+Extra okno~
+Widok rozci±ga siê na pó³noc, na pla¿e i ci±gnie siê tak a¿ po horyzont,
+nic ciekawego. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2921
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2921
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2923
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2923
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2923
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2924
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2924
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2922
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2924
+Name Na schodach~
+Descr Schody ci±gn± siê tutaj ostro zakrêcaj±c w górê, ci±gle wydaje siê ze
+stopnie bêd± ci±gnê³y siê w nieskoñczono¶æ. Co jaki¶ czas przy schodach jest
+okno przez które wpada trochê ¶wiat³a na mroczne schody. Zej¶cie po tych
+schodach w nocy, bez kaganka czy kuli ¶wiat³a by³o by samobójstwem. W tej
+¶cianie znajduje siê okno. 
+~
+FlagsExt 0|DH
+Sector 0
+Extra okno~
+Widok z okna rozci±ga siê na wschód, widaæ du¿± czê¶æ puszczy a tak¿e
+drogê która ci±gnie siê trochê zanim znika ze wzroku. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2923
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2923
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2925
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2925
+Name Na szczycie latarni~
+Descr Z tej czê¶ci latarni morskiej rozci±ga siê wspania³y widok na panoramê
+puszczy a tak¿e daleko w oddali widaæ Carrallak. Widaæ tak¿e nieprzebrane
+tereny pradawnej puszczy która ro¶nie na po³udniu od Carr. Widok jest
+naprawdê majestatyczny. Na ¶rodku pomieszczenia stoi jakie¶ wielkie i
+skomplikowane na pierwszy rzut oka urz±dzenie, której centrum jest olbrzymia
+soczewka skierowana w stronê morza i jakie¶ piekielne palenisko. No có¿, nie
+tobie przeznaczone zostaæ latarnikiem. 
+~
+Nightdescr W nocy nic nie widaæ z góry, dlatego latarnik jakim¶ cudem, a mo¿e i
+zaklêciem, uruchomi³ olbrzymi± soczewkê na ¶rodku. Strzela ona jasnym
+promieniem w kierunku morza, a olej i drewno w palenisku p³on± weso³o. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2928
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2928
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2926
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2926
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2924
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2926
+Name Na szczycie latarni~
+Descr Widok st±d rozci±ga siê na pó³noc, nie jest jaki¶ zachwycaj±cy ale mimo
+to ca³kiem ³adny. No chyba, ¿e boisz siê wysoko¶ci. Na ¶rodku pomieszczenia
+stoi jakie¶ wielkie i skomplikowane na pierwszy rzut oka urz±dzenie, której
+centrum jest olbrzymia soczewka skierowana w stronê morza i jakie¶ piekielne
+palenisko. 
+~
+Nightdescr W nocy nic nie widaæ z góry jednak latarnik jakim cudem, a mo¿e i
+zaklêciem uruchomi³ olbrzymi soczewke na ¶rodku, kótra teraz strzela jasnym
+promieniem w kierunku morza, a olej i drewno w palenisku p³on± weso³o. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2927
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2927
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2925
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2927
+Name Na szczycie latarni~
+Descr Na wschodzie rozci±ga siê cudowny widok na morze, nie mo¿na siê dziwiæ i¿
+latarnik tak kocha morze i statki. Soczewka jest skierowana w³a¶nie w tamt±
+stronê jednak za dnia nie ¶wieci ona, ino tylko w nocy. Na ¶rodku
+pomieszczenia stoi jakie¶ wielkie i skomplikowane na pierwszy rzut oka
+urz±dzenie, której centrum jest olbrzymia soczewka skierowana w stronê morza
+i jakie¶ piekielne palenisko. 
+~
+Nightdescr W nocy nic nie widaæ z góry, dlatego latarnik jakim¶ cudem, a mo¿e i
+zaklêciem, uruchomi³ olbrzymi± soczewkê na ¶rodku. Strzela ona jasnym
+promieniem w kierunku morza, a olej i drewno w palenisku p³on± weso³o. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2926
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2926
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2928
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2928
+Name Na szczycie latarni~
+Descr Widok na pó³noc rozci±ga siê na pla¿ê która ci±gnie siê prawie pod sam
+horyzont, nie jest mo¿e najpiêkniejszy widok jaki widzia³e¶ ale
+prawdopodobnie w czasie zachodu s³oñca jest tu naprawdê piêknie. Jednak
+trochê rozprasza uwagê g³o¶na praca latarni. Na ¶rodku pomieszczenia stoi
+jakie¶ wielkie i skomplikowane na pierwszy rzut oka urz±dzenie, którego
+centrum jest olbrzymia soczewka skierowana w stronê morza i jakie¶ piekielne
+palenisko. No có¿, nie tobie przeznaczone zostaæ latarnikiem. 
+~
+Nightdescr W nocy nic nie widaæ z góry, dlatego latarnik jakim¶ cudem, a mo¿e i
+zaklêciem, uruchomi³ olbrzymi± soczewkê na ¶rodku. Strzela ona jasnym
+promieniem w kierunku morza, a olej i drewno w palenisku p³on± weso³o. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2927
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2927
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 2901 1 2906 1
+E 100 4368 0 5
+E 100 4409 0 7
+E 100 3050 0 7
+E 100 553 0 13
+G 100 3324 0
+O 100 2364 0 2906
+O 100 2915 0 2906
+O 100 2362 0 2906
+O 100 2912 0 2906
+M 100 2903 2 2908 2
+O 100 2362 0 2909
+O 100 2364 0 2909
+S
+
+
+
+#MOBPROGSNEW
+#2901
+~
+TIME 18:
+if room $i == 2906
+say Eh, chyba pora w³±czyæ latarnie.
+minidelay 1
+hold kaganek
+minidelay 1
+open w
+mob walk 2926
+endif
+~
+#2902
+~
+TIME 6:
+if room $i == 2927
+say No, to koniec pracy na dzi¶!
+mob walk 2906
+remove kaganek
+endif
+~
+#2903
+~
+if rand 90
+say Eh mo¿e, czy nie mo¿e, mo¿e czy nie mo¿e, oto jest pytanie...
+endif
+if rand 90
+say Oby w³±czyæ latarnie na czas, bo demoniszcza znowu jaki¶ statek siê obok rozwali!
+endif
+if rand 90
+say Eh, mój piêkny statek ca³y siê rozbi³, przekleci... przekleci...
+mob emote rozgl±da siê dooko³a z szaleñstwem w oczach które po chwili przygasa.
+endif
+if rand 90
+say Gdzie podzia³a siê molly, kupi³em jej krakersy... eh... zapomnia³em, ¿e zdech³a piêæ lat temu.
+zalam
+endif
+if rand 90
+say Jak pomy¶le o tych wszystkich egzotycznych kobietach które widzia³em.... eh... ¿adna nie przychodzi mi do g³owy.
+endif
+if rand 90
+emote wyci±ga zza koszuli niewielk± buteleczke i ³yka z niej szybko kilka ³yków po czym zakrêca ja i chowa z powrotem.
+endif
+if rand 90
+say Jestem tu samotny, sam jak palec, ani niema siê z kim zabawiæ ani z kim wypiæ...
+endif
+~
+#2904
+~
+mob oload random 3
+if rand 50
+mob oload gem 2
+endif
+if rand 50
+mob oload weapon 2
+endif
+if rand 50
+mob oload finger 2
+endif
+if rand 50
+mob oload neck 2
+endif
+if rand 95
+mob oload random 4
+endif
+~
+#2905
+~
+mob echo Mimik z g³o¶nym jêkiem rozstaje siê ze ¶wiatem. Okucia pêkaj± i ca³a skrzynia, czy te¿ raczej ca³y stwór, rozpada siê na kawa³ki, zostawiaj±c jedynie kupê drewna, blach i ohydnej mazi.
+mob oload 2916
+~
+#0
+
+#OBJPROGSNEW
+#2901
+~
+mob goto 2906
+mob mload 2902
+Mob echoaround $n Skrzynia nagle sama z siebie otwiera wieko, blysnely biale kly i czerwony jak krew jezor a skrzynia rzucila sie wsciekle w kierunku $z i ostre jak brzytwy kly zatapiaja sie w wyciagnietej rece.
+mob echoat $n Nagle skrzynia sama z siebie otwiera wieko i czujesz jak bia³e zêby zg³êbiaj± siê w twojej rêce. Mimowolnie wrzeszczysz z bólu i odrazy.
+mob echoaround $n Slychac ino glosny okrzyk bolu.
+mob damage $n 40 50 pierce
+mob force mimik kill $n
+mob purge skpurge
+~
+#0
+
+#ROOMPROGSNEW
+#2901
+~
+if exithere 5
+mob echoat $n si³ujesz siê z dywanem ale on ju¿ jest odsuniêty..
+mob echoaround $n $ si³uje siê chwilê z ods³oniêtym dywanem..
+else
+mob echoat $n bierzesz i szybkim ruchem odsuwasz dywan na bok ukazuj±c ukryte przej¶cie na dó³.
+mob echoaround $ $n bierze i zdecydowanym ruchem odsuwa dywan na bok ukazuj±c ci ukryte przej¶cie na dó³.
+mob exit dol link 2907
+endif
+~
+#2902
+~
+if exithere 5
+mob echoat $n z ³atwo¶ci± przesuwasz dywan z powrotem na swoje miejsce. 
+mob echoaround $n $n z ³atwo¶ci± przesuwa dywan na swoje miejsce maskuj±c wej¶cie do ukrytej komory.
+mob exit dol delete
+else
+mob echoat $n Próbujesz zasun±æ zasuniêty dywan ?!
+mob echoaround $n $n próbuje zasun±æ zasuniêty dywan, hmm...
+endif
+~
+#2903
+~
+mob echo S³yszysz zgrzyt jakiego¶ mechanizmu i widzisz jak powoli dywan na dole wraca na swoje miejsce.
+mob exit dol delete
+~
+#2904
+~
+mob echo Widzisz jak powoli odsuniêty dywan na górze wraca na swoje miejsce.
+mob exit góra delete
+~
+#2905
+~
+mob oload 2911
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

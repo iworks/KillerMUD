@@ -1,0 +1,129 @@
+Messages
+M952049093
+Razor~
+modyfikatory statsowe Fri Mar  3 03:04:53 2000
+~
+SILA:
+ wartosc tohit todam udzwig max_waga_broni
+0 -4 -2 3 0
+1 -4 -2 3 1
+2 -3 -2 3 2
+3 -3 -1 5 3
+4 -2 -1 15 4
+5 -2 -1 15 5
+6 -1  0 30 6
+7 -1  0 30 7
+8  0  0 50 8
+9  0  0 50 9
+10 0  0 70 10
+11 0  0 70 11
+12 0  0 90 12
+13 0  0 90 13
+14 0  0 120 14
+15 0  0 120 15
+16 0 1 150 16
+17 1 1 170 22
+przy 18 jest tak: gracze maja 18 podzielone na 5 sekcji, moby nie
+ mob ma zawsze bonus tylko todam 1 tohit 2
+18/01 do 18/50 1 3 220 30
+18/51 do 18/75 2 3 250 35
+18/76 do 18/90 2 4 280 40
+18/91 do 18/99 2 5 320 40
+18/100 3 6 400 48
+dla mobow taki systemik bylby dosc ciezki w obsludze
+19 3 7 500 50
+20 3 8 600 55
+21 4 9 700 60
+22 4 10 800 65
+23 5 11 1000 65
+24 6 12 1200 70
+25 7 14 1600 75
+udzwig i waga broni w funtach czyli mniej wiecej pol kg
+ 
+~
+M952051157
+Razor~
+statsy dex Fri Mar  3 03:39:17 2000
+~
+Dex glownie wplywa na ac postaci, modyfikuje tak samo wszystkie wartosci ac
+wastosc mod_Ac
+0 60
+1 50
+2 50
+3 40
+4 30
+5 20
+6 10
+od 7 do 14 nie zmienia ac
+do 7 sa ujemnje bonusy jak widac ;)
+15 -10
+16 -20
+17 -30
+18 -40
+19 -40
+20 -40
+21 -50
+22 -50
+23 -50
+24 -60
+25 -60
+ 
+nie wiem czy to komu potrzebne ale co tam....
+obliczanie trafienia liczy sie w ten sposob
+dla trafiajacego obliczane jest
+thac0 ( to hit armor class 0 czyli wspolczynnik trafienia postaci
+        z klasa pancerza 0)
+wszystkie postacie maja thac0 na 1 levelu rowne 20
+wraz z levelem maleje w roznym stopniu zaleznie od profesji
+wojownikowi maleje co 1 thi co 1.5 albo cos takiego, magowi thac0
+maleje najwolnie, co zreszta nie powinno dziwic :)
+jak juz obliczy sie thac0 postaci odejmuje sie od tego hitroll postaci
+na koniec rzucamy liczbe z zakresu 1 do 20
+1 to automatyczna porazka, 20 automatyczne trafienie
+automatyczne czyli bez wzgledu na pancerz
+jesli rozne od 1 i 20 porownujemy thac0 -hitroll z ac trafianego
+jesli wyrzucona liczba z zakresu 1-20 jest wieksza od
+(thac0 - hitroll) - ac_przeciwnika  to trafil
+i dalej juz obrazenia 
+przyklad:
+gracz leszczyk ma level 1 (profesja dowolna)
+(zapomnialem dodac,ac jest dzielone przez 10)
+leszczyk ma thac0 rowne 20 i hitroll zerowy
+walczy z czymstam co ma ac na bron leszczyka np 80(8) 
+leszczyk musi teraz rzucic kostka 20k powyzej 20-8 czyli od 12 trafia
+szansa wynosi 60%
+i tak to wszystko dziala
+~
+M952051934
+Razor~
+off Fri Mar  3 03:52:14 2000
+~
+w off wpisuje sie rozne umiejetnosci badz cechy uzywane w czasie walki
+czesc to typowe skille:
+backstab, dodge, parry, bash, berserk, disarm, kick, dirtkick, rescue, 
+trip, circle
+assisty okreslaja czy i w jakich sytuacjach mob przylacza sie do wali
+fast dziala jak czar haste, chyba +4 do dexa i 2 ataki automatycznie
+dojda jeszcze statycznie okreslana liczba atakow
+na razie zalezy to od act i levela
+~
+M952280515
+Feerial~
+wzor na hp - hitdice :) Sun Mar  5 19:21:55 2000
+~
+15 - 20 hp na level to ->  level d 6 + level * 14
+Feerial the psiejski naukowiec
+~
+M1041942396
+Gurthg~
+{B[Levele mobów                    ]{x {WTue Jan  7 13:26:36 2003
+{x~
+Jak zapewne niektórzy buduj±cy zauwa¿yli, nie da siê zdefiniowaæ innych
+leveli mobom ni¿ dozwolone. 
+ 
+System ma zapewniæ stabilne i standardowe granie.
+Si³ê mobów mo¿na "regulowaæ" odpowiednio hp'ami i dam'em.
+ 
+{yy{Yg{x
+~
+S

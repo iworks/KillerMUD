@@ -1,0 +1,2504 @@
+#AREADATA
+Name +# Nowy trakt Obiloñski~
+Builders Obilon~
+VNUMs 7501 7599
+Credits PL-Krzaczki - Gurthg - 2006-09-06 
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 7520
+End
+
+
+
+#MOBILES
+#Vnum 7501
+Name le¶ny przewodnik elf~
+Odmiana Le¶nego Przewodnika~Le¶nemu Przewodnikowi~Le¶nego Przewodnika~Le¶nym Przewodnikiem~Le¶nym Przewodniku~
+Short Le¶ny Przewodnik~
+Long Le¶ny Przewodnik spaceruje tedy ws³uchany w pie¶ñ puszczy.~
+Descr ~
+Race elf~
+ActExt 0|AMRWXb
+Affected 2097208 570425344 64 0
+AffectedExt 0|DEFV/1|Zd/2|G
+Align 200
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 2
+HP 25d6+600
+Damage 5d5+5
+Dammagic 5
+Weaponbonus 5
+Damflags 19
+Attack uderzenie
+XAC 8 8 8 8
+Stats 150 150 150 150 150 78 78
+Off DEFMVZ
+OffExt 0|DEFMVZ
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size huge
+Material unknown
+Spells 216 48 137 140
+Spells 229 241 69 0
+Skin 100
+ExpMultiplier 100
+Resist 0 50
+Resist 11 3
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 7510
+Name prosty drewniany drogowskaz znak tablica~
+Odmiana {ydrogowskaz{x~{ydrogowskazowi{x~{ydrogowskaz{x~{ydrogowskazem{x~{ydrogowskazie{x~
+Short {ydrogowskaz{x~
+Descr Przy drodze stoi {ydrewniany drogowskaz{x.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 500
+Cost 1
+Cond 24
+Itemdesc Na drogowskazie widzisz:
+
+            {DCzarny Zamek{x
+                {y  \
+                   \
+                   |
+                   |{x
+             {cWie¶ Powro¼niki{x
+                   {y|
+                   |{x
+                   {R#{y------- {BSilea{x
+                  {y |{x
+ {YZ³ote Miasto{y _____|{x
+    {YArras{x
+
+
+             {R#{x - tu jeste¶.
+~
+Comments ~
+Objend
+#Vnum 7528
+Name patyk~
+Odmiana patyka~patykowi~patyk~patykiem~patyku~
+Short patyk~
+Descr Niewielki patyk le¿y tutaj.~
+Material drewno~
+Type trash
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 0
+Cond 75
+Comments ~
+Trap 7528
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 7501
+Name Zachodni kraniec Nowego Traktu Obiloñskiego~
+FlagsExt 0|XY
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7502
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7502
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6026
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6026
+DayRDesc 7501
+Trap 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7502
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7503
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7503
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7571
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7571
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7501
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7501
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7503
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3690
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3690
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7504
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7504
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7572
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7572
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7502
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7502
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7504
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3691
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3691
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7505
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7505
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7573
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7573
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7503
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7503
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7505
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3692
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3692
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7506
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7506
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7574
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7574
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7504
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7504
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7506
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3693
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3693
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7507
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7507
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7575
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7575
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7505
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7505
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7507
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3694
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3694
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7508
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7508
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7576
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7576
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7506
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7506
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7508
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3695
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3695
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7509
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7509
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7577
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7577
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7507
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7507
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7509
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3696
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3696
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7510
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7510
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7578
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7578
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7508
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7508
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7510
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3697
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3697
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7511
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7511
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7579
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7579
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7509
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7509
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7511
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3698
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3698
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7512
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7512
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7513
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7513
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7510
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7510
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7512
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3699
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3699
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7514
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7514
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7511
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7511
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7513
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7511
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7511
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7579
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7579
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7514
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7515
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7515
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7512
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7512
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7515
+Name Nowy trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7516
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7516
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27321
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27321
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7514
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7514
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7516
+Name Zakrêt Traktu Obiloñskiego~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7517
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7517
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7515
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7515
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7517
+Name Nowy Trakt Obiloñski~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7518
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7518
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7516
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7516
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7518
+Name Niedu¿e skrzy¿owanie traktu~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7520
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7520
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27455
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27455
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7517
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7517
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7519
+Name {YFREE{x~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27475
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27475
+DayRDesc 7501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7520
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7521
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7521
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7518
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7518
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7521
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7522
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7522
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7520
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7520
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7522
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7523
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7523
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7521
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7521
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7523
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7522
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7522
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7524
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7524
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7524
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7523
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7523
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7525
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7525
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7525
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7526
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7526
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7524
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7524
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7526
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7527
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7527
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7525
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7525
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7527
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7526
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7526
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7528
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7528
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7528
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7529
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7529
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7527
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7527
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7529
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7530
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7530
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7528
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7528
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7530
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7529
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7529
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7531
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7531
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7531
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7532
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7532
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7530
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7530
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7532
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7531
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7531
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7533
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7533
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7533
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7532
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7532
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7534
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7534
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7534
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7533
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7533
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7535
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7535
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7535
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7534
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7534
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7536
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7536
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7536
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7537
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7537
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7535
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7535
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7537
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7536
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7536
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7538
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7538
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7538
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7537
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7537
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7539
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7539
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7539
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7538
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7538
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7540
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7540
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7540
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7539
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7539
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7541
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7541
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7541
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7540
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7540
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7542
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7542
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7542
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7541
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7541
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7543
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7543
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7543
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7544
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7544
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7542
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7542
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7544
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7543
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7543
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7545
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7545
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7545
+Name ¦cie¿ka przez las~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10850
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10850
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7544
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7544
+DayRDesc 7510
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7570
+Name Ukryta po¶ród chaszczy chata~
+Descr Znajdujesz siê w jakiej¶ porzuconej, mocno ju¿ podniszczonej chacie. Mo¿e
+mieszka³ tu kiedy¶ jaki¶ pustelnik, który chcia³ uciec od zgie³ku Arras? A
+mo¿e by³a to baza wypadowa dla jakiej¶ szajki rabusiów, grasuj±cych na
+trakcie? Kto to wie... Ró¿ne rzeczy siê zdarzaj± na tym ¶wiecie. Budyneczek
+zrobiony jest w ca³o¶ci z drewna, mocno ju¿ przegnitego, ale nadal
+wystarczaj±co mocnego. Krótko mówi±c: znajdziesz tu schronienie. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7576
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7576
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7571
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7502
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7502
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7572
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7572
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7572
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7503
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7503
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7573
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7573
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7571
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7571
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7573
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7504
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7504
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7574
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7574
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7572
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7572
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7574
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7505
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7505
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7575
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7575
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7573
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7573
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7575
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7506
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7506
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7576
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7576
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7574
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7574
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7576
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7507
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7507
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7577
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7577
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7570
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7570
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7575
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7575
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7577
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7508
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7508
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7578
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7578
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7576
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7576
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7578
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7509
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7509
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7579
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7579
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7577
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7577
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 7579
+Name Gêste chaszcze nieopodal drogi~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7510
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7510
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7513
+ExitExtEnd
+Exit 1
+~
+~
+0 0 7513
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7578
+ExitExtEnd
+Exit 3
+~
+~
+0 0 7578
+DayRDesc 7502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 7510 0 7518
+S
+
+
+
+#MOBPROGSNEW
+#7540
+~
+if money $n > 10
+mob reward $n silver -10
+mob echoat $n P³acisz przewo¼nikowi, mo¿esz teraz wej¶æ na wóz.
+mob echoaround $n $n p³aci przewo¼nikowi 10 srebrnych monet.
+mob setflag $n wzc_zaplacil 2
+else
+mob echoaround $n $n Gor±czkowo szuka jakich¶ pieniêdzy.
+mob echoat $n Gor±czkowo szukasz jakich¶ pieniêdzy.
+mob echoat $n Nie masz tyle !
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#7512
+~
+~
+#7513
+~
+## prog pisz±cy desc roomów 7512,7513,7514 i 7515 je¿eli przej¶cie typu N
+mob zecho teraz tworzone s± opisy przej¶cia typu N
+~
+#7514
+~
+## prog pisz±cy desc roomów 7512,7513,7514 i 7515 je¿eli przej¶cie typu S
+mob zecho teraz tworzone s± opisy przej¶cia typu S
+~
+#7515
+~
+## prog pisz±cy desc roomów 7512,7513,7514 i 7515 je¿eli przej¶cie typu E
+mob zecho teraz tworzone s± opisy przej¶cia typu E
+~
+#0
+
+#TRAPS
+#Vnum 7501
+Active 1
+Level 2
+Type 0
+Triggered if rand 80
+mob echo Nagle s³yszysz cichy ¶wist..!
+mob echoat $n Niespodziewanie czujesz przejmuj±cy ból! W twoim udzie tkwi strza³a!
+mob echoaround $n $n zwija sie z bólu, w jego nodze tkwi strza³a!
+mob damage $n 5 10 dupa_zbita
+if rand 50
+mob echoat $n Czujesz dziwny dreszcz, strza³a jest zatruta...
+mob cast 'poison' $n 7
+endif
+else
+mob echo S³ychaæ cichy ¶wist..!
+mob echoat $n Strza³a, wystrzelona z lasu nieopodal, mija ciê o ³okieæ...
+mob echoaround $n Strza³a, wystrzelona z lasu nieopodal mija $c... Ma szczê¶cie!
+endif
+~
+Disarmed mob echoat $n udaje ci sie dostrzec i rozbroiæ chytry mechanizm,
+mob echoat $n uruchamiaj±cy pu³apkê, przy potraceniu ga³êzi na trakcie.
+mob echoaround $n $x udaje ci sie dostrzec i rozbroiæ chytry mechanizm,
+mob echoaround $n uruchamiaj±cy pu³apkê, przy potraceniu ga³êzi na trakcie.
+~
+Failed mob echoaround $n $n usi³uje rozbroiæ chytry mechanizm spustowy,
+mob echoaround $n ukryty w le¿±cej na ziemi ga³êzi ...
+mob echoat $n Usi³ujesz rozbroiæ chytry mechanizm spustowy,
+mob echoat $n ukryty w le¿±cej na ziemi ga³êzi ...
+mob echo ... Gdy nagle !!! ...
+mob echo S³ychaæ cichy ¶wist ...
+mob echoat $n Nagle czujesz przejmuj±cy bol! W twoim udzie tkwi strza³a!
+mob echoaround $n $n zwija sie z bolu, w jego nodze tkwi strza³a!
+mob damage $n 5 10
+if rand 10
+mob echoat $n Czujesz dziwny dreszcz, strza³a jest zatruta ...
+mob setaff $n poison 7 'zatruta strza³a'
+endif
+~
+Limit 136194
+Trapend
+#Vnum 7528
+Active 1
+Level 10
+Type 16
+Triggered mob echo mam cie !
+~
+Disarmed mob echo rozbrojona
+~
+Failed mob echo sorry, no bonus
+~
+Limit 1316106
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 7501
+DescRand #grouprand 1
+#grouprand 0
+#grouprand 2
+~
+RandDescEnd
+#Vnum 7502
+DescRand #grouprand 10
+#grouprand 11
+~
+RandDescEnd
+#Vnum 7510
+DescRand #grouprand 4
+#grouprand 5
+#grouprand 6
+#grouprand 7
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name krzaczory03~
+Desc Na po³udniu majaczy gêsta Puszcza Nergijska, bram lasu strzeg± magiczne
+krzewy, a¿ strach pomy¶leæ co znajduje sie w sercu tego pradawnego lasu gdy
+tak strze¿e swej najmniejszej czê¶ci - w±skiej odnogi wcinaj±cej sie miedzy
+Równiny Zemsty, zwane stepami, a Silee. 
+~
+Group 11
+End
+#Name krzaczory02~
+Desc Na po³udniu krzewy staja sie tak gêste ze nie sposób ich przej¶æ a chyba nikt nie probowa³ ich wycinaæ,
+tak Puszcza Nergijska broni swych tajemnic, w±skim jêzykiem wcinaj±c sie miedzy Silee a Równiny Zemsty zwane stepami.
+~
+Group 11
+End
+#Name krzaczory01~
+Desc Nieprzebyta ¶ciana lasu na po³udniu napawa groza, to w±ski jêzyk Puszczy Nergijskiej
+dziel±cej Silee od Równin Zemsty zwanych potocznie stepami.
+~
+Group 11
+End
+#Name trakt_day_s2~
+Desc Droga wyj±tkowo sprzyja podró¿y, jest szeroka i ubita co jaki¶ czas tylko widaæ
+¶lady kolein, wyschniêtych ka³u¿y czy tez tropy zwierz±t przecinaj±cych trakt w drodze do wodopoju, lub innych im tylko znanych miejsc.
+~
+Group 2
+End
+#Name trakt_day_s1~
+Desc Trakt jest szeroki, ubity i niezbyt zró¿nicowany, miejscami jedynie widaæ
+s³abe koleiny i niewielkie chmurki kurzu, czy tez male listki niesione slabami podmuchami wiatru.
+~
+Group 2
+End
+#Name trakt_day_s~
+Desc Droga jest wygodna i ubita, jedynie w kilku miejscach powiewy s³abego wiatru
+wzniecaj± lekki kurz. Drzewa po obu stronach drogi prawie zamykaj± sie nad
+tob± przes³aniaj±c niebo.
+~
+Group 2
+End
+#Name trakt_day3~
+Desc Pod±¿asz szerokim traktem, gdzie¶ na wschodzie dotrze on z pewno¶ci± do Arras, za¶
+w przeciwnym kierunku wiedzie w g³±b piêknej, lesistej Silei.
+~
+Group 0
+End
+#Name trakt_day_pp2~
+Desc Nagrzany Las Obiloñski, a dok³adniej jego wschodnia czê¶æ, która roztacza sie
+po pó³nocnej stronie traktu, zachwyca odg³osami i zapachami. A¿ chce sie wêdrowaæ.
+~
+Group 1
+End
+#Name trakt_day_pp1~
+Desc Jest wspania³y pogodny dzieñ w Zachodnim Lesie Obiloñskim, wko³o roi siê
+od owadów a z lasu po pó³nocnej stronie traktu dobiegaj± zg³uszone ¶piewy ptaków
+i trzaski ga³êzi.
+~
+Group 1
+End
+#Name trakt_day_pp~
+Desc Podró¿ po Zachodnim Obilonie nie napawa optymizmem, jest parno, wilgotno
+i ogólnie niezbyt mobilizuj±co. Pomimo  dnia z lasu po pó³nocnej
+stronie traktu nie dobiega zbyt wiele odg³osów wskazuj±cych, ze cos tam ¿yje.
+~
+Group 1
+End
+#Name trakt_day_pl2~
+Desc Choæ to ju¿ dzieñ, Zachodni Obilon - las po pó³nocnej stronie traktu -
+jeszcze sie dobrze nie przebudzi³, jest nieco mglisto ale w miarê ciep³o.
+~
+Group 1
+End
+#Name trakt_day_pl1~
+Desc S³oñce, nawet mimo chmur roz¶wietla las i nadaje mu niesamowitych barw.
+Po pó³nocnej stronie traktu Zachodni Las Obiloñski wiedzie swój spokojny le¶ny ¿ywot.
+~
+Group 1
+End
+#Name trakt_day_pl~
+Desc Zachodni Obilon wita ciê niezbyt ciep³ym, ale rze¶kim powietrzem, wspania³a pogoda
+na podró¿ mimo chmur. Czasem tylko trzaski ga³êzi w lesie po pó³nocnej stronie traktu wybijaj± z zadumy.
+~
+Group 1
+End
+#Name trakt_day_p2~
+Desc Zachodni Obilon wita ciê do¶æ ch³odnym, ale rze¶kim powietrzem, wspania³a pogoda
+na podró¿. Czasem tylko stukanie dziêcio³a w lesie po pó³nocnej stronie traktu wybija z zadumy.
+~
+Group 1
+End
+#Name trakt_day_p1~
+Desc Dzisiejszy dzieñ nie napawa optymizmem, jest trochê mglisto i jako¶ zbyt cicho,
+nawet z lasu po pó³nocnej stronie traktu nie dochodzi zbyt wiele odg³osów.
+~
+Group 1
+End
+#Name trakt_day_p~
+Desc Piêkny dzieñ w Zachodnim Lesie Obiloñskim dostarcza niesamowitych wra¿eñ.
+Gdzie¶ w oddali po pó³nocnej stronie traktu s³ychaæ ptasie ¶piewy - przyroda budzi sie do ¿ycia.
+~
+Group 1
+End
+#Name trakt_day2~
+Desc Trakt biegn±cy ze wschodu na zachód ³±czy pobliskie miasto Arras, którego mury
+widaæ niedaleko na zachodzie, z wielka zalesiona kraina, jaka jest Silea.
+~
+Group 0
+End
+#Name trakt_day1~
+Desc Znajdujesz sie na wygodnym trakcie, ³±cz±cym pobliskie miasto Arras, widoczne
+tuz tuz na zachodzie, z piêkn± zalesiona kraina, zwana: Silea.
+~
+Group 0
+End
+#Name trakt_day~
+Desc Jeste¶ na szerokim trakcie, ³±cz±cym kupieckie miasto Arras, które widaæ
+niedaleko na zachodzie, z piêkn± lesista kraina - Silea.
+~
+Group 0
+End
+#Name krzaczory~
+Desc Gêste zaro¶la po po³udniowej stronie Traktu Obiloñskiego nie przedstawiaj± sob± 
+nic szczególnego.
+Pe³no tutaj pajêczyn i kluj±cych krzewów i chyba lepiej podró¿owaæ droga,
+ która znajduje sie rzut kamieniem na pó³nocy.
+~
+Group 10
+End
+#Name krzaczory1~
+Desc Nieprzyjazne i kolczaste krzaki, poprzetykane pajêczynami, nie s± najlepsza droga
+do odbywania d³ugich podró¿y. Chyba lepiej bêdzie wyj¶æ na pó³noc, na drogê.
+~
+Group 10
+End
+#Name krzaczory2~
+Desc Znajdujesz sie w¶ród krzaków czy krzewów, jednak ani ¶ladu malin, ani niczego przyjaznego.
+Tylko chaszcze, kolce i pajêczyny, zdecydowanie wygodniej by³oby podró¿owaæ pobliska
+droga, jej zarys prze¶wituje na pó³nocy.
+~
+Group 10
+End
+#Name 1~
+Desc Znajdujesz siê na dosyæ szerokiej ¶cie¿ce, po¶ród drzew gêstego, mieszanego lasu.
+~
+Group 4
+End
+#Name 2~
+Desc Idziesz ra¼nie szerok±, le¶n± ¶cie¿k±. Otaczaj± ciê drzewa wielkiego Zachodniego Lasu Obiloñskiego.
+~
+Group 4
+End
+#Name 3~
+Desc Stoisz na zwyk³ej, le¶nej ¶cie¿ce, która wygl±da na czêsto u¿ywan±.
+~
+Group 4
+End
+#Name 4~
+Desc Jeste¶ w³a¶nie na ¶rodku ¶cie¿ki, znajduj±cej siê w gêstwinie Lasu Obiloñskiego.
+~
+Group 4
+End
+#Name 5~
+Desc Spogl±dasz uwa¿nie na ¶cie¿kê, po której podró¿ujesz - to zwyk³a, udeptana ziemia.
+~
+Group 4
+End
+#Name 6~
+Desc Wci±gasz le¶ne powietrze do p³uc; ach, jak¿e orze¼wiaj±ce!
+~
+Group 5
+End
+#Name 7~
+Desc S³yszysz, jak gdzie¶ w oddali dziêcio³ stuka w drzewo.
+~
+Group 5
+End
+#Name 8~
+Desc Wraz z nag³ym podmuchem wiatru las zape³nia siê koj±cym d¼wiêkiem szumi±cych drzew.
+~
+Group 5
+End
+#Name 9~
+Desc Masz wra¿enie, ¿e ta dró¿ka ci±gnie siê w nieskoñczono¶æ. 
+~
+Group 5
+End
+#Name 10~
+Desc Koñca dró¿ki nie widaæ. Dooko³a same drzewa, drzewa i krzewy.
+~
+Group 5
+End
+#Name 11~
+Desc Gdzie¶ w oddali, na pó³nocnym zachodzie, widaæ samotny szczyt jakiej¶ góry.
+~
+Group 6
+End
+#Name 12~
+Desc Nagle, na chwilkê, na drodze zatrzyma³a siê wiewiórka. Czy las nie jest piêkny?
+~
+Group 6
+End
+#Name 13~
+Desc Przez moment, masz niemi³e wra¿enie, jakby kto¶ ciê obserwowa³ z g³êbi drzew.
+~
+Group 6
+End
+#Name 14~
+Desc Niespodziewanie, pod twoj± stop± strzeli³a jaka¶ sucha ga³±zka.
+~
+Group 6
+End
+#Name 15~
+Desc Dalszy marsz t± le¶n± ¶cie¿k± na pewno nie sprawi ¿adnych k³opotów; jest równa i mocno ubita.
+~
+Group 6
+End
+#Name 16~
+Desc Drzewa po obu stronach drogi prawie zamykaj± sie nad tob± przes³aniaj±c niebo. 
+~
+Group 7
+End
+#Name 17~
+Desc Nad tob± przelatuje kilka ma³ych listków, niesionych podmuchami wiatru.
+~
+Group 7
+End
+#Name 18~
+Desc W tym miejscu ¶cie¿ka jest trochê trudniejsza do przebycia, ze wzglêdu na b³otniste ka³u¿e zajmuj±ce ca³± jej szeroko¶æ.
+~
+Group 7
+End
+#Name 19~
+Desc Spogl±daj±c do góry widzisz wielkie, zielone korony drzew, które
+os³aniaj± ¶cie¿kê niczym baldachim. 
+~
+Group 7
+End
+#Name 20~
+Desc Przez zielony dach drzew przebijaj± siê jedynie nieliczne promienie s³oneczne, o¶wietlaj±c ¶cie¿kê.
+~
+Group 7
+End
+#Name 21~
+Desc Ta czê¶æ ¶cie¿ki jest trochê bardziej kamienista.
+~
+Group 7
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

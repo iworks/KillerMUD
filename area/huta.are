@@ -1,0 +1,6359 @@
+#AREADATA
+Name huta, nowa na dodatek!~
+Builders Laszlo Krivin Pixel~
+VNUMs 46401 46500
+Locked ~
+Security 8
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 46402
+Name krasnoludzki hutnik piecowy~
+Odmiana krasnoludzkiego hutnika~krasnoludzkiemu hutnikowi~krasnoludzkiego hutnika~krasnoludzkim hutnikiem~krasnoludzkim hutniku~
+Short krasnoludzki hutnik~
+Long Krasnoludzki hutnik ociera tu pot z czo³a po ciêzkiej pracy.~
+Descr Patrzysz na krasnoluda, który pe³ni funkcjê hutnika w podziemnej hucie.
+Na brodatej twarzy ma parê blizn po przypaleniach. Niby hutnicy staraj± siê
+uwa¿aæ na siebie, ale niejednemu juz plynny metal prysn±³ drobinkami na
+twarz. Porusza siê spokojnie i pewnie wykonuje rutynowe ruchy, jak przysta³o
+na wykwalifikowanego robotnika.
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 500
+Group 0
+Lang AC
+Speaks 0
+Level 19
+Hitroll 0
+HP 19d6+450
+Damage 4d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew kill atak_majster ABCDEFGHI 100~
+MobprogNew onload equip_hutnik ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46403
+Name majster krasnoludzki starszy piecowy hutnik~
+Odmiana majstra piecowego~majstrowi piecowemu~majstra piecowego~majstrem piecowym~majstrze piecowym~
+Short majster piecowy~
+Long Majster piecowy stoi tu g³adz±c swoj± lekko przypalon± brodê.~
+Descr Ten krasnoludzki hutnik z wielk± dum± zadziera g³owê wysoko, poniewa¿
+dorobi³ siê ju¿ stanowiska majstra hutniczego, a przynale¿no¶æ do cechu
+wytopowego wi±¿e siê to z niez³ymi zarobkami. No i oczywi¶cie nie musi ju¿
+tyle mêczyæ siê przy piecu wytopowym, gdy¿ ma go tylko w sumie nadzorowaæ.
+~
+Race krasnolud~
+ActExt 0|ABX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 500
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 19d6+300
+Damage 8d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 3
+Stats 114 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_majster ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46404
+Name krasnoludzki m³odszy piecowy~
+Odmiana m³odszego piecowego~m³odszemu piecowemu~m³odszego piecowego~m³odszym piecowym~m³odszym piecowym~
+Short m³odszy piecowy~
+Long M³odszy piecowy rozgl±da siê wokó³, czy nikt go nie wzywa.~
+Descr Ten m³ody krasnolud tak bardzo chce nale¿eæ do hutniczej braci, ¿e
+pracuje jak niewolnik w hucie wykonuj±c najciê¿sze prace w pocie czo³a.
+Przenosi popio³y spod pieca, wywala ¼le wytopiony z³om i wype³nia wszystkie
+zadania zlecone mu przez starszych hutników i majstrów.
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 250
+Group 0
+Lang AC
+Speaks 2
+Level 15
+Hitroll 0
+HP 15d6+350
+Damage 1d15+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments mobek piecowy do lokacji 46418 - {RKrivin{x ({CTue Sep  9 14:28:46 2008{x)
+~
+MobprogNew entry powrot_m³odszy FGI 100~
+MobprogNew random droga_m³odszy FGI 50~
+MobprogNew onload equip_piecowy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46405
+Name wychudly pies kopalniany~
+Odmiana wychud³ego psa~wychud³emu psu~wychud³ego psa~wychud³ym psem~wychud³ym psie~
+Short wychud³y pies~
+Long Wychud³y pies szuka tutaj ko¶ci.~
+Descr Jest to wychud³y kopalniany pies niskiego wzrostu i o wystaj±cych z g³odu
+¿ebrach. Nikt go nie przegania, gdy szuka wszêdzie ko¶ci albo jakiegokolwiek
+po¿ywienia. Sier¶æ ma zaniedban± i sko³tunion±, ale jest spokojny i nikogo
+nie gryzie. Tak ci siê przynajmniej wydaje.
+~
+Race pies~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d6+13
+Damage 1d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRSUV
+Size medium
+Material unknown
+Skin 70
+ExpMultiplier 100
+Mobend
+#Vnum 46406
+Name straznik piecowy polelf mag~
+Odmiana stra¿nika piecowego~stra¿nikowi piecowemu~stra¿nika piecowego~stra¿nikiem piecowym~stra¿niku piecowym~
+Short stra¿nik piecowy~
+Long Pó³elfi mag krêci siê tu niespokojnie wypatruj±c ognistego niebiezpieczeñstwa.~
+Descr Mierzysz spojrzeniem pó³elfiego maga nale¿±cego do pó³elfich najemników,
+wynajêtych przez cech hutniczy do pilnowania porz±dku w hucie oraz do
+nadzoru pracuj±cych w niej orczych niewolników. Jest ¶redniego wzrostu i
+szczup³ej budowy cia³a, a spod d³ugich w³osów spogl±daja na ciebie zimne
+oczy, tak ¿e czujesz prawie ch³ód w ko¶ciach. Dodatkowym zadaniem tego
+pó³elfa jest ochrona hutników przed buchaj±cym gor±cem z roztopionego metalu
+oraz zabezpieczeniem pieca wytopowego przed pêkniêciem lub eksplozj±.
+~
+Race pó³elf~
+ActExt 0|ABR
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 500
+Group 0
+Lang AS
+Speaks 0
+Level 19
+Hitroll 0
+HP 25d6+500
+Damage 4d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 108 108 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_strpiec ABCDEFGHI 100~
+Spells 143 178 60 69
+Spells 181 194 195 299
+Spells 185 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46407
+Name polelfi straznik dozorca~
+Odmiana pó³elfiego dozorcy~pó³elfiemu dozorcy~pó³elfiego dozorcê~pó³elfim dozorc±~pó³elfim dozorcy~
+Short pó³elfi dozorca~
+Long Pó³elfi stra¿nik pe³ni funkcjê dozorcy w hucie.~
+Descr Patrzysz na silnie zbudowanego pó³elfa, bardziej przypominaj±cego drowa ni¿
+cz³owieka, któremu powierzono funkcjê nadzorcy niewolników w podziemnej
+hucie. Ciemnoskóry z d³ugimi w³osami, zwykle biczem 'zachêca' orczych
+niewolników do wytê¿onej pracy, za¶ przynale¿no¶æ do pó³elfich najemników
+zapewnia mu respekt po¶ród orkami, z którymi krasnoludzcy hutnicy nie zawsze
+sobie radzili.
+~
+Race cz³owiek~
+ActExt 0|Ad
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -500
+Group 0
+Lang AB
+Speaks 0
+Level 20
+Hitroll 0
+HP 6d5+600
+Damage 2d6+6
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 10
+Stats 126 90 90 114 90 78 78
+Off IKY
+OffExt 0|IKY/1|CD
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew entry gadka_nadzorca FGI 50~
+MobprogNew onload equip_dozorca ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 46408
+Name chudy niewolnik ork~
+Odmiana chudego niewolnika~chudemu niewolnikowi~chudego niewolnika~chudym niewolnikiem~chudym niewolniku~
+Short chudy niewolnik~
+Long Chudy niewolnik próbuje tu uchylaæ siê od pracy.~
+Descr ~
+Race ork~
+ActExt 0|AX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 200
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 15d6+250
+Damage 3d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 10
+Stats 78 78 78 78 78 78 78
+Off IRU
+OffExt 0|IRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew entry niski_powitanie FGI 100~
+MobprogNew onload equip_niewolnik ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46409
+Name slepy kon pociagowy~
+Odmiana konia poci±gowego~koniowi poci±gowemu~konia poci±gowego~koniem poci±gowym~koniu poci±gowym~
+Short koñ poci±gowy~
+Long ¦lepy kon poci±gowy stoi tu i macha ogonem.~
+Descr Widzisz przed sob± niskiego konia z wystaj±cymi z wychudzenia ¿ebrami.
+Swoimi ¶lepymi oczami próbuje jeszcze zorientowaæ siê w labiryncie
+korytarzy, ale nie za bardzo wie, co gdzie jest. Ma smutny wyraz pysku i
+chyba nied³ugo padnie z rozpaczy. Ze wzglêdu na du¿± smiertelno¶æ w¶ród koni
+w hucie, krasnoludzcy hutnicy zrezygnowali z ich utrzymania i przestawili
+transport wewn±trzwytopowiskowy na orczych niewolników. Co prawda nie mo¿na
+ich dosiadaæ, ale ten koñ jest tak wycieñczony, ¿e raczej te¿ nikogo nie
+ud¼wignie.
+~
+Race koñ~
+ActExt 0|ABD
+Affected 1 0 0 0
+AffectedExt 0|A
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d6+50
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 168 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46410
+Name czlowiek ochroniarz wysoki~
+Odmiana wysokiego ochroniarza~wysokiemu ochroniarzowi~wysokiego ochroniarza~wysokim ochroniarzem~wysokim ochroniarzu~
+Short wysoki ochroniarz~
+Long Wysoki ochroniarz rozgl±da siê czujnie doko³a.~
+Descr Widzisz wysokiego mê¿czyznê, który mimo, ¿e jest cz³owiekiem, przyjêty
+zosta³ w szeregi pó³elfich najemników. Byc mo¿e jest dobrym wojownikiem i za
+to go przyjêto, lub tez najemnikom brakowa³o ludzi do ochrony podziemnej
+krasnoludzkiej huty. Krasnale nie zgodzi³y siê na oddanie funkcji dozorcy
+czlowiekowi, ale jako ochroniarz spisuje siê doskonale, wiêc nikt go o nic
+nie pyta.
+~
+Race cz³owiek~
+ActExt 0|AT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 6d5+600
+Damage 2d6+6
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 10
+Stats 138 78 78 78 78 78 78
+Off IUXb
+OffExt 0|IUXb/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 45
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew hit atak_ochron H 100~
+MobprogNew kill atak_ochron ABCDEFGHI 100~
+MobprogNew onload equip_ochron ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 46411
+Name krasnoludzki m³odszy piecowy~
+Odmiana m³odszego piecowego~m³odszemu piecowemu~m³odszego piecowego~m³odszym piecowym~m³odszym piecowym~
+Short m³odszy piecowy~
+Long M³odszy piecowy rozgl±da siê wokó³, czy nikt go nie wzywa.~
+Descr Ten m³ody krasnolud tak bardzo chce nale¿eæ do hutniczej braci, ¿e
+pracuje jak niewolnik w hucie wykonuj±c najciê¿sze prace w pocie czo³a.
+Przenosi popio³y spod pieca, wywala ¼le wytopiony z³om i wype³nia wszystkie
+zadania zlecone mu przez starszych hutników i majstrów.
+~
+Race krasnolud~
+ActExt 0|ABT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 250
+Group 0
+Lang AC
+Speaks 2
+Level 15
+Hitroll 0
+HP 15d6+350
+Damage 1d15+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments mobek do lokacji 46417 - {RKrivin{x ({CMon Sep  8 12:51:54 2008{x)
+~
+MobprogNew entry powrót_m³odszy1 FGI 100~
+MobprogNew random droga_m³odszy1 FGI 50~
+MobprogNew onload equip_piecowy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46412
+Name zmeczony pomocnik krasnolud~
+Odmiana zmêczonego pomocnika~zmêczonemu pomocnikowi~zmêczonego pomocnika~zmêczonym pomocnikiem~zmêczonym pomocniku~
+Short zmêczony pomocnik~
+Long Kransoludzki pomocnik stoi tu zmêczony po wyczerpuj±cym wysi³ku.~
+Descr ~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 250
+Group 0
+Lang AC
+Speaks 2
+Level 15
+Hitroll 0
+HP 15d6+350
+Damage 1d15+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments mobek do lokacji 46416 - {RKrivin{x ({CMon Sep  8 13:16:52 2008{x)
+~
+MobprogNew entry powrót_m³odszy2 FGI 100~
+MobprogNew random droga_m³odszy2 FGI 50~
+MobprogNew onload equip_piecowy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46413
+Name krasnoludzki m³odszy piecowy~
+Odmiana m³odszego piecowego~m³odszemu piecowemu~m³odszego piecowego~m³odszym piecowym~m³odszym piecowym~
+Short m³odszy piecowy~
+Long M³odszy piecowy rozgl±da siê wokó³, czy nikt go nie wzywa.~
+Descr Ten m³ody krasnolud tak bardzo chce nale¿eæ do hutniczej braci, ¿e
+pracuje jak niewolnik w hucie wykonuj±c najciê¿sze prace w pocie czo³a.
+Przenosi popio³y spod pieca, wywala ¼le wytopiony z³om i wype³nia wszystkie
+zadania zlecone mu przez starszych hutników i majstrów.
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 250
+Group 0
+Lang AC
+Speaks 2
+Level 15
+Hitroll 0
+HP 15d6+350
+Damage 1d15+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments mobek do lokacji 46415 - {RKrivin{x ({CMon Sep  8 14:20:02 2008{x)
+~
+MobprogNew entry powrót_m³odszy3 FGI 100~
+MobprogNew random droga_m³odszy3 FGI 50~
+MobprogNew onload equip_piecowy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 5 10
+Mobend
+#Vnum 46414
+Name mlody pomocnik krasnolud~
+Odmiana pomocnika majstra~pomocnikowi majstra~pomocnika majstra~pomocnikiem majstra~pomocniku majstra~
+Short pomocnik majstra~
+Long M³ody pomocnik majstra za³atwia dla mistrza jakie¶ sprawunki.~
+Descr ~
+Race krasnolud~
+ActExt 0|AX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 250
+Group 0
+Lang AC
+Speaks 2
+Level 15
+Hitroll 0
+HP 15d6+270
+Damage 1d15+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 4
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_piecowy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46415
+Name ork niski niewolnik~
+Odmiana niskiego niewolnika~niskiemu niewolnikowi~niskiego niewolnika~niskim niewolnikiem~niskim niewolniku~
+Short niski niewolnik~
+Long Niski niewolnik ze zrezygnowaniem pcha przed siebie swój wózek.~
+Descr ~
+Race ork~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 250
+Group 0
+Lang ACF
+Speaks 5
+Level 15
+Hitroll 0
+HP 15d6+350
+Damage 1d15+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 78 78 78 78 78 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death death_niski1 ABCDEFGHI 100~
+MobprogNew kill atak_niski1 ABCDEFGHI 100~
+MobprogNew entry powrót_niski1 FGI 100~
+MobprogNew random droga_niski1 FGI 50~
+MobprogNew onload equip_niewolnik ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46416
+Name mlody chlopak brudny~
+Odmiana m³odego ch³opaka~m³odemu ch³opakowi~m³odego ch³opaka~m³odym ch³opakiem~m³odym ch³opaku~
+Short m³ody ch³opak~
+Long M³ody ch³opak, brudny od py³ów stoi tutaj.~
+Descr Przygl±dasz siê m³odemu ch³opakowi, który bardzo pragnie zostaæ znanym
+wojownikiem i nale¿eæ do grona pó³elfich najemników. Zaci±gn±³ sie wiêc na
+s³u¿bê do nich, aby z czasem staæ siê jednym z nich i razem z nimi spêdzaæ
+weso³o czas w mi³ej kompanii. Na razie jednak spêdza swoje m³ode lata pod
+ziemi± razem z najemnikami, których wynaj±³ cech hutniczy dla utrzymywania
+porz±dku w hucie.
+~
+Race cz³owiek~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d6+10
+Damage 1d3+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 9
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_m³odych ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46417
+Name krasnolud starszy majster~
+Odmiana starszego majstra~starszemu majstrowi~starszego majstra~starszym majstrem~starszym majstrze~
+Short starszy majster~
+Long Krasnolud w stopniu starszego majstra kieruje wytopem w g³ównej hali.~
+Descr ~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 500
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 20d6+400
+Damage 3d3+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 6 6 6 6
+Stats 78 78 78 78 78 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_starszy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46418
+Name zmeczony hutnik~
+Odmiana zmêczonego hutnika~zmêczonemu hutnikowi~zmêczonego hutnika~zmêczonym hutnikiem~zmêczonym hutniku~
+Short zmêczony hutnik~
+Long Hutnik padaj±cy ze zmêczenia trzyma siê na nogach resztk± si³.~
+Descr ~
+Race krasnolud~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 500
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 20d8+400
+Damage 2d5+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 6 6 6 6
+Stats 114 78 78 78 78 78 78
+Off CI
+OffExt 0|CI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_zmêczony ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46419
+Name wesoly kowal krasnolud~
+Odmiana weso³ego kowala~weso³emu kowalowi~weso³ego kowala~weso³ym kowalem~weso³ym kowalu~
+Short weso³y kowal~
+Long Pó³elfi kowal u¶miecha siê tu przy pracy.~
+Descr ~
+Race krasnolud~
+ActExt 0|ABTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 300
+Group 0
+Lang AB
+Speaks 0
+Level 15
+Hitroll 0
+HP 15d6+400
+Damage 1d7+7
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 7 7 7 7
+Stats 96 78 78 78 78 78 78
+Off CI
+OffExt 0|CI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_wkowal ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46420
+Name zona hutnika krasnoludzka kobieta~
+Odmiana ¿ony hutnika~¿onie hutnika~¿onê hutnika~¿on± hutnika~¿onie hutnika~
+Short ¿ona hutnika~
+Long ¯ona jakiego¶ krasnludzkiego hutnika chyba zgubi³a tu drogê do mê¿a.~
+Descr Masz przed sob± krasnoludzk± kobietê, która zapewne jest ¿on± jakiego¶
+hutnika w podziemnej hucie. Tylko ¿ony majstrów hutniczych maj± prawo do
+odwiedzin swych mê¿ów w miejscu pracy i przynosz± im zwykle jakie¶ jedzenie
+i picie dla posilenia siê podczas przerwy. Ta kobieta nie jest nawet brzydk±
+krasnoludk±, ale najwa¿niejsze, ¿e nie nosi brody.
+~
+Race krasnolud~
+ActExt 0|AG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 200
+Group 0
+Lang AC
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d6+350
+Damage 2d5+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload equip_¿ona ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46421
+Name rudy ork niewysoki~
+Odmiana {Rrudego{x orka~{Rrudemu{x orkowi~{Rrudego{x orka~{Rrudym{x orkiem~{Rrudym{x orku~
+Short {Rrudy{x ork~
+Long Niewysoki ork z {Rrud±{x grzywk± stoi tutaj.~
+Descr Ork, którego mierzysz spojrzeniem jest nieznacznie ni¿szy ni¿ ¶redniego
+wzrostu o ciemnej skórze. {ROgnistorude{x w³osy sp³ywaj± mu pasmami a¿ do ramion
+nadaj±c dziki wygl±d. Jest wychud³y a jego cia³o znacz± jednak sznury i
+wêz³y miê¶ni na ramionach i nogach. Brak tkanki t³uszczowej w tych miejscach
+nadaje sylwetce orka niesymetryczno¶ci, a schylony bardziej przypomina
+wielk± ma³pê ni¿ cz³ekokszta³tn± istotê.
+~
+Race ork~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -500
+Group 0
+Lang AF
+Speaks 0
+Level 15
+Hitroll 0
+HP 6d10+300
+Damage 2d5+5
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack walniecie
+XAC 1 1 1 1
+Stats 120 60 60 108 120 78 78
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death du¿y_szmaragd ABCDEFGHI 50~
+MobprogNew onload equip_rudy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 25
+Mobend
+#Vnum 46422
+Name rudy goblin brzydki~
+Odmiana brzydkiego goblina~brzydkiemu goblinowi~brzydkiego goblina~brzydkim goblinem~brzydkim goblinie~
+Short brzydki goblin~
+Long {RRudow³osy{x goblin z brzydk± twarz± stoi tutaj.~
+Descr Widzisz przed sob± wiêkszego goblina z brzydk±, wykrzywion± dziwnym
+grymasem twarz±. Na g³owie, która jest osadzona na krótkiej szyi, nosi
+krótk± {Rry¿±{x szczecinkê. MA d³ugie rêce i krótkie krzywe nogi, a jednak stoi
+na nich pewnie i z³o¶liwie patrzy na ciebie prowokuj±c do ataku.
+~
+Race goblin~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -300
+Group 0
+Lang A
+Speaks 0
+Level 12
+Hitroll 0
+HP 12d10+240
+Damage 2d3+5
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 96 78 78 78 78 78 78
+Off CIRY
+OffExt 0|CIRY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death ma³y_szmaragd ABCDEFGHI 50~
+MobprogNew onload equip_brzydki ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46423
+Name czerwonoskory polork wysoki~
+Odmiana {rczerwonoskórego{x pó³orka~{rczerwonoskóremu{x pó³orkowi~{rczerwonoskórego{x pó³orka~{rczerwonoskórym{x pó³orkiem~{rczerwonoskórym{x pó³orku~
+Short {rczerwonoskóry{x pó³ork~
+Long {rCzerwonoskóry{x pó³ork wysokiego wzrostu stoi tutaj i ¶mierdzi.~
+Descr Widzisz przed sob± wysokiego pó³orka o dziwnej {rceglastoczerwonej{x skórze,
+przy czym nie bardzo widaæ, czy jest to naturalny kolor, czy jednak nosi
+takie barwy. Ma d³ugie czarne w³osy zwisaj±ce skud³aconymi str±kami a¿ do
+ramion. ¦mierdzi od niego zgnilizn± i moczem, tak ¿e brzydzisz siê podej¶æ
+bli¿ej ni¿ na parê kroków.
+~
+Race pó³ork~
+ActExt 0|AGI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -500
+Group 0
+Lang AF
+Speaks 0
+Level 20
+Hitroll 0
+HP 8d11+480
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 150 78 78 120 144 78 78
+Off DJUc
+OffExt 0|DJUc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death du¿y_szmaragd ABCDEFGHI 50~
+MobprogNew onload equip_rudy ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 46424
+Name zwalisty wartownik straznik polelf~
+Odmiana zwalistego wartownika~zwalistemu wartownikowi~zwalistego wartownika~zwalistym wartownikiem~zwalistym wartowniku~
+Short zwalisty wartownik~
+Long Zwalisty wartownik pó³elfi stoi tu usmiechaj±c siê nonszalancko.~
+Descr ~
+Race drow~
+ActExt 0|ABCT
+Affected 33554440 0 0 0
+AffectedExt 0|DZ
+Align 0
+Group 0
+Lang AB
+Speaks 0
+Level 20
+Hitroll 3
+HP 6d10+500
+Damage 3d4+4
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 144 120 150 120 132 78 78
+Off CILXb
+OffExt 0|CILXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size large
+Material unknown
+MobprogNew onload equip_wartownik ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 15
+Mobend
+#Vnum 46425
+Name szef naczelnik warty wartownik straznik~
+Odmiana naczelnika warty~naczelnikowi warty~naczelnika warty~naczelnikiem warty~naczelniku warty~
+Short naczelnik warty~
+Long Naczelnik warty siedzi tutaj znudzony.~
+Descr ~
+Race drow~
+ActExt 0|ABIX
+Affected 33554472 0 0 0
+AffectedExt 0|DFZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 28
+Hitroll 7
+HP 28d10+1200
+Damage 4d5+0
+Dammagic 0
+Weaponbonus 8
+Damflags 0
+Attack uderzenie
+XAC -3 -3 -3 -3
+Stats 156 78 78 90 132 78 90
+Off DJc
+OffExt 0|DJc/1|F
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 500
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size medium
+Material unknown
+MobprogNew onload equip_naczelnik ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 150
+Resist 4 15
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Mobend
+#Vnum 46454
+Name chitynowy pelzacz opancerzony robak czerw brazowy~
+Odmiana {ychitynowego{x pe³zacza~{ychitynowemu{x pe³zaczowi~{ychitynowego{x pe³zacza~{ychitynowym{x pe³zaczem~{ychitynowym{x pe³zaczu~
+Short {ychitynowy{x pe³zacz~
+Long Chitynowy pe³zacz o {ybr±zowym{x pancerzu zalega tutaj.~
+Descr Patrzysz na wielkiego robaka przypominaj±cego swoim kszta³tem du¿e i
+wyoblone wrzeciono. Pokryty jest {ybr±zowym{x chitynowym pancerzem, który otacza
+ka¿dy segment cia³a, a najgrubszy jest na przodzie czerwia i tworzy solidn±
+zbrojê skutecznie chroni±c± przed urazami przy przeciskaniu siê przez skalne
+warstwy. Przód cielska pe³zacza tworzy du¿y i ostro zakoñczony chitynowy
+dziób, którym przebija kolejne korytarze i skrêtami odw³oka dr±¿y je coraz
+g³êbiej.
+~
+Race czerw~
+ActExt 0|AFX
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll -10
+HP 25d10+1000
+Damage 3d20+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack dziobanie
+XAC 1 0 0 0
+Stats 144 78 78 78 78 78 78
+Off M
+OffExt 0|M
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AGRc
+Parts AQ
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 10 50
+Resist 12 100
+Resist 13 50
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 46401
+Name tablica budowy~
+Odmiana tablicy budowy~tablicy budowy~tablicê budowy~tablic± budowy~tablicy budowy~
+Short tablica budowy~
+Descr Tablica budowy stoi tu zawieszona w powietrzu.~
+Material papier~
+Type board
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 99999 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 46402
+Name duzy piec hutniczy wytopowy~
+Odmiana pieca hutniczego~piecowi hutniczemu~pieca hutniczego~piecem hutniczym~piecu hutniczym~
+Short piec hutniczy~
+Descr Du¿y piec hutniczy do wytopu metali stoi pod jedn± ze ¶cian.~
+Material stal~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to du¿y piec obity stal± i wy³o¿ony jakim¶ kamieniem lub glina, ale
+nie mo¿esz tego dok³adnie stwierdziæ, bo musia³bys z bliska zajrzeæ do
+rozpalonego zbiornika na p³ynny metal. Ca³y piec jest wielko¶ci ma³ej chaty,
+a pojemnik na roztopiony metal jest przypomina ma³± sadzawkê. Do obs³ugi
+takiego wytopu potrzeba zwykle wiêcej ni¿ jednej do¶wiadczonej osoby z
+pomocnikami, którzy w procesie wytopu wynosz± powsta³e popio³y o odpady.
+Ca³o¶æ ogrzewana jest p³yn±c± za ¶cianami i pod hut± law±, która po lekkim
+och³odzeniu nie roztapia juz ska³ i mo¿e p³yn±æ przez piec.
+~
+Comments ~
+Objend
+#Vnum 46405
+Name metalowa lyzka stalowa~
+Odmiana metalowej ³y¿ki~metalowej ³y¿ce~metalow± ³y¿kê~metalow± ³y¿k±~metalowej ³y¿ce~
+Short metalowa ³y¿ka~
+Descr Metalowa ³y¿ka o d³ugim uchwycie le¿y tutaj.~
+Material stal~
+Type trash
+ExtraExt 0|D
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 -1 -1
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 300
+Cond 75
+Itemdesc Jest to spora ³y¿ka, która swoim ksza³tem przypomina warz±chew do zupy,
+ale ma bardzo d³ugi metalowy uchwyt pomagaj±cy zachowaæ dystans od
+roztopionego metalu. S³u¿y hutnikom do mieszania i nabierania próbki
+roztopionej surówki, dla zbadania jako¶ci wytopu.
+~
+Comments ~
+Objend
+#Vnum 46409
+Name ksauj~
+Odmiana kosza wiklinowego~koszowi wiklinowemu~kosz wiklinowy~koszem wiklinowym~koszu wiklinowym~
+Short kosz wiklinowy~
+Descr Wiklinowy kosz wzmocniony drutem le¿y tu przewrócony.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 20 0 0 10 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 300
+Cond 50
+Itemdesc Ogl±dasz kosz wykonany z wikliny i dodatkowo wmocniony wplecionymi weñ
+drucianymi ¿elaznymi wstawkami, aby mo¿na by³o za³adowaæ do niego wiêcej
+masy. Jest to standardowe wyposa¿enie niewolników w hucie, którzy d¼wigaj±
+na swoich plecach wytopiony z³om, odpady z pieca i popio³y. Doszyto do niego
+tak¿e d³u¿sze p³ócienne szelki dla lepszego umocowania kosza na plecach.
+~
+Comments ~
+Objend
+#Vnum 46411
+Name wielki piec odlewniczy~
+Odmiana wielkiego pieca odlewniczego~wielkiemu piecu odlewniczemu~wielki piec odlewniczy~wielkim piecem odlewniczym~wielkim piecu odlewniczym~
+Short wielki piec odlewniczy~
+Descr Piec odlewniczy wielkich rozmiarów stoi na ¶rodku pieczary.~
+Material kamieñ~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 46413
+Name du¿e pod³u¿ne metalowe koryto~
+Odmiana metalowego koryta~metalowemu korytu~metalowe koryta~metalowym korytem~metalowym korycie~
+Short metalowe koryto~
+Descr Metalowe pod³u¿ne koryto zbiera tu kapi±c± wodê.~
+Material stal~
+Type fountain
+ExtraExt 0|D
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 99999 99999 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Do tego metalowego koryta, sp³ywa woda p³yn±c± rurami wzd³u¿ ¶cian i
+korytarzy. Tak dostaje siê ona kadzi ch³odz±cych surówkê wytopion±,
+wydostaj±c± sie z pieca. Tutaj akurat przecieka przez rury, skapuj±c i
+p³yn±c kroplami do tego korytowego zbiornika tworzy miejsce, sk±d spragnieni
+hutnicy czerpia wodê do picia.
+~
+Comments ~
+Objend
+#Vnum 46424
+Name skórzane szelki~
+Odmiana szelek na broñ drzewcow±~szelkom na broñ drzewcow±~szelki na broñ drzewcow±~szelkami na broñ drzewcow±~szelkach na broñ drzewcow±~
+Short szelki na broñ drzewcow±~
+Descr Skórzena szelki czekaj± tu na podniesienie.~
+Material skóra~
+Type container
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 30 512 0 10 100 5 8
+Repair 0 0 0 0
+Length 0
+Weight 60
+Cost 1800
+Cond 75
+Itemdesc S± to skórzane szelki mocowane z boku cia³a lub na plecach w³a¶ciciela,
+s³u¿±ce do wygodnej wêdrówki z broni± drzewcow±. Ca³e mocowanie drzewca jest
+proste, a regulacja dopasowuj±ca szelki do rozmiarów cia³a nosz±cego odbywa
+siê przez system sprz±czek. Broñ wsuwana jest po prostu miedzy przeploty
+rzemyków jak klinga miecza do pochwy.
+~
+Comments ~
+Objend
+#Vnum 46428
+Name mosiezna latarnia drag~
+Odmiana latarni na dr±gu~latarni na dr±gu~latarniê na dr±gu~latarni± na dr±gu~latarni na dr±gu~
+Short latarnia na dr±gu~
+Descr Jakis dr±g z latarni± na koñcu le¿y tu porzucony. ~
+Material mosi±dz~
+Type light
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 2 24 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 100
+Cost 9
+Cond 50
+Itemdesc Masz przed sob± d³ugi dr±g z zawieszon± na nim mosiê¿n± latarni±. Zwykle
+¶wiat³o takie przydaje siê podczas wêdrówki ze s³u¿ba, gdy jeden ze
+s³u¿±cych niesie latarnie przed orszakiem id±cym w nocy lub w ciemnym
+pomieszczeniu. Mo¿na j± wbic w ziemiê i roz¶witliæ w ten sposób miejsce
+wokó³ siebie, a dobrze obudowana skrzynka latarni sprawia, ¿e ¶wiat³o nie
+zga¶nie pod wp³ywem wiatru.
+~
+Comments ~
+Objend
+#Vnum 46429
+Name zolty uniform cechowy~
+Odmiana uniformu cechowego~uniformowi cechowemu~uniform cechowy~uniformem cechowym~uniformie cechowym~
+Short {Yuniform cechowy{x~
+Descr {Y¯ó³ty{x uniform cechowy le¿y tu w nie³adzie.~
+Material we³na~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 18
+Cost 10
+Cond 50
+Aff 1 12 5 4 0 0
+Itemdesc Ten hutniczy uniform cechowy wykonany jest z we³ny barwionej na {Y¿ó³to{x.
+Zosta³ lekko przybrudzony, ale przecie¿ praca w hucie to czytanie ksi±¿ki,
+tylko ciê¿ki kawa³ek chleba, dlatego majstrzy hutniczy nosz±c ten
+wygl±daj±cy jak marynarka uniform, maj± siê wyró¿niaæ w t³umie hutniczej
+gawiedzi.
+~
+Comments ~
+Objend
+#Vnum 46433
+Name reczny wozek szynowy~
+Odmiana wózka szynowego~wózkowi szynowemu~wózek szynowy~wózkiem szynowym~wózku szynowym~
+Short wózek szynowy~
+Descr Rêczny wózek do prowadzenia po szynach stoi tu porzucony.~
+Material ¿elazo~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 100 0 0 20 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 5400
+Cost 30000
+Cond 75
+Itemdesc Jest to wózek przeznaczony do transportu z³omu wytopowego, odpadów albo
+popio³ów z pieców hutniczych. Ze zwglêdu na niedu¿e rozmiary poruszany jest
+zwykle przez pchaj±cych go niewolników. Ko³a i osie przeznaczone s± g³ownie
+do przetaczania ich po szynach, ale je¶li dozorcy zechc±, to niewolnicy
+potrafi± go przepychaæ nawet po miale wêglowym.
+~
+Comments ~
+Objend
+#Vnum 46434
+Name rozgrzany prêt metalowy~
+Odmiana rozgrzanego prêta~rozgrzanemu prêtowi~rozgrzany prêt~rozgrzanym prêtem~rozgrzanym prêcie~
+Short {Rr{xo{Rz{xg{Rr{xz{Ra{xn{Ry{x prêt~
+Descr Rozgrzany do {Rczerwono¶ci{x prêt lezy tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 9 3 4 7 32 0 0
+Repair 0 0 0 0
+Length 135
+Weight 120
+Cost 3000
+Cond 80
+Comments ~
+Objend
+#Vnum 46435
+Name rozgrzany prêt metalowy~
+Odmiana rozgrzanego prêta~rozgrzanemu prêtowi~rozgrzany prêt~rozgrzanym prêtem~rozgrzanym prêcie~
+Short r{Ro{xz{Rg{xr{Rz{xa{Rn{xy prêt~
+Descr Rozgrzany do {Rczerwono¶ci{x prêt lezy tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 9 3 4 7 33 0 0
+Repair 0 0 0 0
+Length 135
+Weight 120
+Cost 3000
+Cond 80
+Comments ~
+Objend
+#Vnum 46436
+Name oderwany kawalek glowica kolumny~
+Odmiana g³owicy kolumny~g³owicy kolumny~g³owicê kolumny~g³owic± kolumny~g³owicy kolumny~
+Short g³owica kolumny~
+Descr Oderwany kawa³ek g³owicy kolumny le¿y tutaj na posadzce.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 46437
+Name pokruszony zwir ciemny~
+Odmiana pokruszonego ¿wiru~pokruszonemu ¿wirowi~pokruszony ¿wir~pokruszonym ¿wirem~pokruszonym ¿wirze~
+Short {Wpokruszony{x ¿wir~
+Descr Pokruszony ¿wir z {Wciemnego{x kamienia chrzê¶ci pod stopami.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 46438
+Name maly zielony szmaragdzik~
+Odmiana ma³ego {Gszmaragdu{x~ma³emu {Gszmaragdowi{x~ma³y {Gszmaragd{x~ma³ym {Gszmaragdem{x~ma³ym {Gszmaragdzie{x~
+Short ma³y {Gszmaragd{x~
+Descr Ma³y szmaragd o intensywnej {Gzielonej{x barwie migocze u twych stóp.~
+Material kryszta³~
+Type gem
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 5400
+Cond 70
+Comments ~
+Objend
+#Vnum 46439
+Name duzy zielony szmaragd~
+Odmiana du¿ego {Gszmaragdu{x~du¿emu {Gszmaragdowi{x~du¿y {Gszmaragd{x~du¿ym {Gszmaragdem{x~du¿ym {Gszmaragdzie{x~
+Short du¿y {Gszmaragd{x~
+Descr Du¿y szmaragd {Gzieleni{x siê tutaj na ziemi.~
+Material kryszta³~
+Type gem
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 9000
+Cond 70
+Comments ~
+Objend
+#Vnum 46441
+Name skorzana bransoleta najemnikow~
+Odmiana {yskórzanej{x bransolety najemników~{yskórzanej{x bransolecie najemników~{yskórzan±{x bransoletê najemników~{yskórzan±{x bransolet± najemników~{yskórzanej{x bransolecie najemników~
+Short {yskórzana{x bransoleta najemników~
+Descr {ySkórzana{x bransoleta zsunê³a siê komu¶ tu na ziemiê.~
+Material skóra~
+Type jewelry
+ExtraExt 0
+Wear AM
+Wear2Ext 0|E
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 1800
+Cond 60
+Aff 1 17 -2 0 0 0
+Itemdesc Ta skórzana bransoleta jest wyró¿nieniem cz³onków pó³elfich najemników,
+którzy wynajêci przez krasnoludzkich hutników pilnuj± u nich porz±dku.
+Bransoleta jest {ybr±zowego{x koloru i zapinana na przegubie srebrna klamerk±,
+przez któr± przechodz±ce paski umo¿liwiaj± noszenie przez osoby o szerokich
+nadgarstkach.
+~
+Comments ~
+Objend
+#Vnum 46450
+Name sterta popio³ów~
+Odmiana sterty popio³ów~stercie popio³ów~stertê popio³ów~stert± popio³ów~stercie popio³ów~
+Short sterta popio³ów~
+Descr Sterta popio³ów i py³ów z piecy hutniczych piêtrzy siê przed tob±.~
+Material nieznany~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to sterta popio³ow znoszonych tu przez niewolników i pomocników
+piecowych, które wybieraj± spod pieców hutniczych i d¼wigaj± w koszach na
+w³asnych barkach a¿ tutaj. Jest dosyæ wysoka i rozleg³a ze wzglêdu na to, ¿e
+zrzucaj±cym popió³ niechce siê w³azic na sam szczyt, aby wywaliæ
+czarno-szary ³adunek, tylko wysypuj± na skraju zbocza sterty poszerzaj±c w
+ten sposób jej obrêb.
+~
+Comments ~
+Objend
+#Vnum 46451
+Name pryzma z³omu metalowego~
+Odmiana pryzmy z³omu~pryzmie z³omu~pryzmê z³omu~pryzm± z³omu~pryzmie z³omu~
+Short pryzma z³omu~
+Descr Pryzma z³omu ró¿nych metali odbija tu blask ¶wiate³.~
+Material nieznany~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to pryzma wielko¶ci ma³ego wzniesienia, pe³na z³omu ró¿nych metali,
+ale g³ownie stopów ¿elaza. Tutaj l±duj± zbierane i przynoszone tu przez
+niewolników wylewki z pieców hutniczych, oraz odpad i pó³fabrykaty
+zakwalifikowane przez majstrów jako mo¿liwe do ponownego przetopu. Najwiêcej
+jednak jest wybrakowanych i zabrudzonych materia³ow juz po wytopieniu, z
+których niektóre po³yskuj± ¶wie¿± powierzchni± nieskorodowanego metalu.
+~
+Comments ~
+Objend
+#Vnum 46456
+Name zelazne szczypce wielkie kowalskie~
+Odmiana szczypiec kowalskich~szczypcom kowalskim~szczypce kowalskie~szczypcami kowalskimi~szczypcach kowalskich~
+Short szczypce kowalskie~
+Descr Wielkie szczypce kowalskie wykonane z ¿elaza le¿± tu porzucone.~
+Material ¿elazo~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 50
+Cost 10
+Cond 75
+Itemdesc Ogl±dasz szczypce kowalskie wielkich rozmiarów s³u¿ace kowalom hutniczym
+do przytrzymywania lub wykrawania sporych kawa³ów blach na elementy
+pancerzy. Szczypce s± ze wzglêdu na swe rozmiary dwurêczne i zaopatrzone w
+d³ugie ramiona dla zwiejszenia si³y nacisku na koniec szczypiec.
+~
+Comments ~
+Objend
+#Vnum 46468
+Name glewia paradna ostra~
+Odmiana ostrej glewii~ostrej glewii~ostr± glewiê~ostr± glewi±~ostrej glewii~
+Short ostra glewia~
+Descr Ostra stalowa glewia o paradnym wygl±dzie le¿y tu porzucona.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 8 4 4 42 40 0 1
+Repair 0 0 0 0
+Length 200
+Weight 170
+Cost 7800
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 46401
+Name Pochylony chodnik~
+FlagsExt 0|CH
+Sector 45
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46402
+ExitExtEnd
+Exit 5
+~
+~
+0 0 46402
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46402
+Name Pochy³y chodnik~
+FlagsExt 0|H
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46403
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46403
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46401
+ExitExtEnd
+Exit 4
+~
+~
+0 0 46401
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46403
+Name Pochy³y chodnik~
+FlagsExt 0|H
+Sector 45
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46402
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46402
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46404
+ExitExtEnd
+Exit 5
+~
+~
+0 0 46404
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46404
+Name Pochy³y chodnik~
+FlagsExt 0|H
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46405
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46405
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46403
+ExitExtEnd
+Exit 4
+~
+~
+0 0 46403
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46405
+Name Szeroki podjazd~
+FlagsExt 0|H
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46407
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46407
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46404
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46404
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46406
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46419
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46419
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46407
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46407
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46407
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46406
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46406
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46408
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46408
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46405
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46405
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46408
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46407
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46407
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46418
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46418
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46409
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46409
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46409
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46408
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46408
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46417
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46417
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46410
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46410
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46410
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46409
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46409
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46411
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46411
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46411
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46410
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46410
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46416
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46416
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46412
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46412
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46412
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46411
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46411
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46415
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46415
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46413
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46413
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46413
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46412
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46412
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46414
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46414
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46414
+Name Szeroki chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46413
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46413
+DayRDesc 46401
+NightRDesc 46401
+Resources 50 0 20 0 0 0 0 0 
+Capacity 20
+Roomend
+#Vnum 46415
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46412
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46412
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46416
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46411
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46411
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46417
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46409
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46409
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46418
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46408
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46408
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46419
+Name Bazaltowy most~
+Descr Znajdujesz sie na szerokim mo¶cie bez barierek zabezpieczaj±cych. U³o¿ony
+zosta³ z ogromych p³yt bazaltu wyrównanych gdzieniegdzie pomniejszymi
+kawa³kami kamieni. P³yty u³o¿ono na kamieniach, które jakas nieznana si³a o
+wielkiej mocy strz±snê³a ze stropu na podziemn± rzekê lawy. Kamienie od
+spodu prawie natychmiast zosta³y stopione przez ognisty ¿ywio³, ale powsta³e
+w ten sposób przej¶cie da³o krasnoludom mo¿no¶æ spokojnej przeprawy i
+penetracji g³êbi jaskiñ. Most jest na tyle szeroki, ¿e nie musisz siê
+obawiaæ zsuniêcia i upadku w ogniste piek³o. Sun± tedy zazwyczaj wozy z rud±
+metali, popio³ami i innym odpadem.
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46420
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46420
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46406
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46406
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46420
+Name Przy mo¶cie~
+Descr Wszed³e¶ na odcinek podziemnej drogi pomiêdzy szerok± szczelin± lawy, a
+hal±, gdzie mie¶ci sie obecnie sk³adowisko materia³ów i pó³fabrykatów. Lekko
+zapylona ubita powierzchnia traktu poprowadzi ciê na wschód w³a¶nie na teran
+sk³adowiska, a id±c ni± na zachód dojdziesz przez most do szerokiego
+chodnika, którym pod±¿aj±c dalej dojdziesz do wyj¶cia z huty.
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46421
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46421
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46419
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46419
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46421
+Name Plac sk³adowy~
+FlagsExt 0|D
+Sector 36
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46430
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46430
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46422
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46422
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46420
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46420
+DayRDesc 46408
+NightRDesc 46408
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46422
+Name Plac sk³adowy~
+FlagsExt 0|D
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46421
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46421
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46431
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46431
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46423
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46423
+DayRDesc 46408
+NightRDesc 46408
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46423
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46422
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46422
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46432
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46432
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46424
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46424
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46424
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46423
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46423
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46425
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46425
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46425
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46424
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46424
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46433
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46433
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46426
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46426
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46426
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46425
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46425
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46427
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46427
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46427
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46426
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46426
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46428
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46428
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46461
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46461
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46428
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46427
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46427
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46429
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46429
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46429
+Name Boczny chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46428
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46428
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46434
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46434
+DayRDesc 46401
+NightRDesc 46401
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46430
+Name Plac sk³adowy~
+FlagsExt 0|D
+Sector 36
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46431
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46431
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46421
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46421
+DayRDesc 46408
+NightRDesc 46408
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46431
+Name Plac sk³adowy~
+FlagsExt 0|D
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46430
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46430
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46435
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46435
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46432
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46432
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46422
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46422
+DayRDesc 46408
+NightRDesc 46408
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46432
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46431
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46431
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46423
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46423
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46433
+Name Wytopione przej¶cie~
+Descr Znalaz³e¶ siê w w±skim przej¶ciu, które pojawi³o sie nagle w tym miejscu
+przy któryms wybuchu lawy w s±siednim pomieszczeniu. Krasnoludy odstuka³y
+tylko gdzieniegdzie wystaj±ce nierówno¶ci zeszklonych ska³, powiêkszaj±c
+nieco otwór przechodni. Odci±¿y³o to ruch na pó³nocy kopalni umo¿liwiaj±c
+bezpo¶rednie przej¶cie od bocznego chodnika, poprzez kamienna k³adke do
+g³ównej hali wytopowej.
+~
+FlagsExt 0|C
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46436
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46436
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46425
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46425
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46434
+Name Stare przejscie~
+Descr W miejscu, dod±d przyby³e¶ znajdowa³o siê kiedy¶ jedyne przej¶cie do
+dalszej wschodniej czê¶ci huty. Odk±d jednak lawa ust±pi³a w jej pó³nocnej
+czê¶ci i przerzucono mosty nad szczelinami zdemonotwano tutejsze baraki oraz
+wrota wjazdowe. Po dawnych czasach pozosta³o tylko metalowe koryto, do
+którego s±czy siê jaka¶ ciecz, dostarczana tu d³ugimi olowianymi rurami z
+powierzchni ziemi. Po olbrzymich wrotach pozosta³o tylko sklepienie spiête
+trójk±tnym kamieniem z wyrze¼bionym herbem krasnoludzkiej gildii hutniczej.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46438
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46438
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46429
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46429
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46435
+Name Most nad ognist± szczelin±~
+Descr W miejscu gdzie siê w³a¶nie znalaz³e¶ gor±co i dymny zaduch uderzy³ ciê
+ze zdwojon± si³a. Stoisz na moscie zawieszonym nad szerok± ognist±
+przepa¶cia, od której nie oddziela ciê ¿adna barierka czy zabezpiecznie.
+Dostrzegasz gdzieniegdzie metalowe prêty wbite w ska³e na brzegach mostu ,
+ale nie chroni± ju¿ one przed niczym. Kiedy¶ stanowi³y jeszcze podstawê do
+porêczy drewnianej, ale ta z czasem zwêgli³a siê i spad³a roz¿a¿ona do
+przepa¶ci. Most osadzony zosta³ na kamiennym sklepieniu ³ukowym i wzmocniony
+ostudzonymi ska³ami o powierzchni równej jak tafla lodu. Jednak je¿d¿±ce
+têdy wozy i py³y pokry³y go warstw± chroni±c± przed po¶lizgiem. Jest ca³kiem
+cxarny i gdyby nie latarnie zawieszone na jego krañca, wcale by¶ go nie
+dojrza³.
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46439
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46439
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46431
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46431
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46436
+Name Kamienna k³adka~
+Descr Wszed³e¶ na kamienn± k³adkê o g³adkiej i zeszklonej powierzchni. G³êboka
+szczelina z law± by³a w tym miejscu na tyle w±ska, ¿e do przerzucenia mostku
+wystarczy³a jedna bazaltowa p³yta. Pozosta³o tylko wykonanie
+zabezpieczaj±cych przed ze¶lizgniêciem siê barierek. Wychylasz na chwilê
+g³owê ponad porêcz± barierki i patrzysz w dó³. Twarz obejmuje ci na chwilê
+gor±cy podmuch i ciarki przechodz± ci po plecach, tak g³êboka jest ta
+szczelina. Lekko oszomiony cofasz g³owê.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46441
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46441
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46433
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46433
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46437
+Name Przejscie nad tunelem~
+Descr Przechodzisz po wykutej w kamieniu ¶cie¿ce ponad tunelem, przez który
+do³em ci±gn± siê potoki lawy. Znajdujesz w pó³nocnej czê¶ci przej¶cia
+prowadz±ce na stare sk³adowisko odpadów. Krasnoludy wyku³y to przej¶cie
+dawno temu, gdy jeszcze ta podziemna huta nie by³a tak rozbudowana. Na
+wschodzie dostrzegasz pryzmy czarnych i szklistych kamieni. Wszelkie resztki
+przetopu transportowano têdy, porz±dkuj±c w ten sposób pieczary wytopowe.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46444
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46444
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46438
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46438
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46438
+Name Przejscie nad tunelem~
+Descr Znajdujesz siê na po³udniowej czê¶ci przej¶cia nad tunelem, którym potoki
+lawy sp³ywaj± do szczelin w pó³nocnej czê¶ci kopalni. Droga ta s³u¿y³a
+transportowi odpadów wytopowych na sk³adowisko. Tym dobrze utwardzonym, choæ
+w±skim chodnikiem z wpraw± poruszaj± siê wózki rêczne popychane przez
+tragarzy. Kieruj±c siê na pó³noc dojdziesz do starego sk³adowiska.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46437
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46437
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46434
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46434
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46439
+Name Utwardzony chodnik~
+Descr Chodnik, po którym siê przemieszczasz, zosta³ dodatkowo utwardzony i
+wyrównany. Po³o¿ony blisko centralnej hali huty, jest w wiêkszym stopniu
+nara¿ony na zniszczenie, wiêc robotnicy oprócz standardowych p³yt
+bazaltowych, zastosowali cement do uzupe³nienia pêkniêæ i przerw pomiêdzy
+p³ytami. Gdzieniegdzie wylano cement bezpo¶rednio na p³yty, zw³aszcza w
+miejscach przejazdu wozów. Mimo tego, gor±co i zaduch podziemi nie pozwalaj±
+na szybkie przemieszczanie siê w hucie.
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46445
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46445
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46440
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46440
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46435
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46435
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46440
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46439
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46439
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46446
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46446
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46441
+Name G³ówna hala wytopowa~
+Descr Znalaz³e¶ siê w wielkiej hali hutniczej, w której bije serce huty, a mo¿e
+raczej p³onie. Podzielona zosta³a naturalnie na trzy komory, gdzie
+krasnoludzcy mistrzowie hutniczy zaplanowali miejsce pod trzy olbrzymie
+piece wytopowe. Obecnie znajdujesz siê w pó³nocnej komorze hali. Ka¿dy piec
+zajmuje prawie w ca³o¶ci swoj± komorê i nie pozostawia wiele wolnego
+miejsca. Jest tu jeszcze gorêcej ni¿ w innych pieczarach, a powietrze prawie
+wypala ci p³uca. Krêci siê te¿ wiêcej robotników pracuj±cych bezpo¶rednio
+przy wytopie. Smród gaszonego metalu wciska ci siê w nos i mocno go
+podra¿ania, a wokó³ ciebie ci±gle s³ychaæ krzyki majstrów i g³o¶ny syk
+sch³adzanej surówki.
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46442
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46442
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46436
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46436
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46442
+Name G³ówna hala wytopowa~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46441
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46441
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46448
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46448
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46443
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46443
+DayRDesc 46405
+NightRDesc 46405
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46443
+Name G³ówna hala wytopowa~
+Descr Ju¿ my¶la³e¶, ¿e przywyk³e¶ do bardzo ciep³ego wnêtrza tych podziemi, ale
+gor±co, na które natkn±³e¶ siê tutaj przewy¿sza wszystko. Wszed³e¶ do
+po³udniowej komory g³ównej hali wytopowej, gdzie przy ogromnym piecu pracuj±
+robotnicy i ich pomocnicy. Od pieca bije ¿ar gor±cej lawy, jakby¶ znalaz³
+siê w samych ¶rodku rzeki rozpalonego ¿ywio³u. Pot leje siê z ciebie
+strumieniami, powietrze wypala p³uca, a huk metalowej konstrukcji pieca
+miesza siê z sykiem studzonych odlewów og³uszaj±c siê lekko. Naoko³o ciebie
+pracuj± majstrzy krasnoludzcy, którzy dr±c siê z ca³ych si³ próbuj±
+przekrzyczeæ ryk ognia i elementów pieca.
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46442
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46442
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46444
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46444
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46444
+Name Stare sk³adowisko rudy~
+Descr Stoisz miedzy ha³dami i pryzmami rudy ró¿nych metali. Najwiêcej tu chyba
+kiedy¶ sk³adowano rud ¿elaza, gdy¿ wszêdzie na ziemi dostrzegasz czerwony
+py³. Obecnie sk³adowisko to s³u¿y jako dodatkowy magazyn kopalin dla
+odlewania mniej 'chodliwych' blach. S± tu rudy cynku, miedzi i aluminium
+oraz niewielkie ilo¶ci ¿elaznej rudy. Nie jest tu tak gor±co, poniewa¿
+znajdujesz siê daleko od pieców hutniczych, ale za to zapylenie powietrza
+przechodzi wszelkie granice. Co chwila ktos przyjezdza , ³aduje szufl± rudê
+do wózka wzbijaj±c przy tym tumany kurzu i py³u.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46443
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46443
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46437
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46437
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46445
+Name Centralna Hala~
+FlagsExt 0|DH
+Sector 36
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46450
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46450
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46446
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46446
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46439
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46439
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Schody~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 46498
+ExitExtEnd
+Exit 5
+~
+VName Schody~
+~
+16384 0 46498
+DayRDesc 46409
+NightRDesc 46409
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46446
+Name Centralna Hala~
+FlagsExt 0|DH
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46445
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46445
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46451
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46451
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46447
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46447
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46440
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46440
+DayRDesc 46403
+NightRDesc 46403
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46447
+Name Centralna Hala~
+FlagsExt 0|DH
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46446
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46446
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46452
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46452
+DayRDesc 46403
+NightRDesc 46403
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46448
+Name D³ugi most szynowy~
+Descr Pod±¿asz teraz szerokim mostem, przerzuconym na niezbyt wielk± szczelin±
+w sk³a³ach. Do³em p³ynie, jak to w ka¿dej szczelinia w tej hucie, lawa. Most
+jest po³o¿ony na stalowej konstrukcji, ale podk³ady pod szyny biegn±ce
+mostem s± ju¿ drewniane. Chodnik do pchania wózków biegnie po obu stronach
+torów, co umo¿liwia równoczesny 'napêd' z dwóch stron. Przerwy miêdzy
+podk³adami uzupe³niono zgrabnie dopasowanymi p³ytami bazaltowymi, dziêki
+czemu robotnicy nie potykaj± sie o drewniane k³ody pod szynami. Na zachodzie
+dostrzegasz k³êby pary i dymów unosz±ce siê z pomieszczeñ hali wytopowej, a
+na wschodzie widzisz ha³dy ró¿nych przetopionych elementów.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46454
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46454
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46442
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46442
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46449
+Name Nowy chodnik~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46455
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46455
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46450
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46450
+DayRDesc 46404
+NightRDesc 46404
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46450
+Name Centralna Hala~
+FlagsExt 0|H
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46449
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46449
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46451
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46451
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46445
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46445
+DayRDesc 46402
+NightRDesc 46402
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46451
+Name Centralna Hala~
+FlagsExt 0|H
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46450
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46450
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46452
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46452
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46446
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46446
+DayRDesc 46402
+NightRDesc 46402
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46452
+Name Centralna Hala~
+FlagsExt 0|H
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46451
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46451
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46453
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46453
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46447
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46447
+DayRDesc 46402
+NightRDesc 46402
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46453
+Name Sk³adowisko odpadów~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46452
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46452
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46456
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46456
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46454
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46454
+DayRDesc 46407
+NightRDesc 46407
+Resources 10 20 20 0 0 0 0 0 
+Capacity 40
+Roomend
+#Vnum 46454
+Name Sk³adowisko odpadów~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46453
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46453
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46457
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46457
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46448
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46448
+DayRDesc 46406
+NightRDesc 46406
+Resources 20 30 20 0 0 0 0 0 
+Capacity 40
+Roomend
+#Vnum 46455
+Name Wielka pieczara wytopowa~
+Descr Strop pomieszczenia, w którym stoisz wy¿³obiony zosta³ przez kipi±c± tu
+kiedy¶ lawê i podzieli³ pieczarê na cztery komory. W ka¿dej z nich spokojnie
+móg³by¶ ustawiæ dwie ¶wi±tynie i to jedna na drugiej. ¦ciany, podobnie jak w
+innych czê¶ciach huty s± g³adkie i zeszklone. Odbijaj± siê w nich b³yski
+¶wiat³a innych pomieszczeñ i korytarzy podziemi. Rozgl±daj±c siê doko³a
+widzisz przeznaczone do topienia metali piece, hutników, tragarzy i innych
+pracowników. Ciê¿ko i mozolnie haruj± oni w tych gor±cych i suchych
+podziemiach i najprawdopodobniej tutaj tez zakoñcz± swój ¿ywot, który te
+warunki pracy jeszcze bardziej skracaj±. Komora, w której siê znalaz³e¶
+s±siaduje na wschodzie i pó³nocy z innymi komorami tej wielkiej pieczary.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46458
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46458
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46459
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46459
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46449
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46449
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46456
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46457
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46457
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46453
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46453
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46457
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê do topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46456
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46456
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46454
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46454
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46458
+Name Wielka pieczara wytopowa~
+Descr Stoisz w olbrzymiej pieczarze, któr± jej sklepienie, wy¿³obione przez
+kipiac± tu kiedy¶ lawê, dzieli na cztery komory. W ka¿dej z nich spokojnie
+móg³by¶ ustawiæ dwie ¶wi±tynie i to jedna na drugiej. ¦ciany, podobnie jak w
+innych czê¶ciach huty s± g³adkie i zeszklone. Odbijaj± siê w nich b³yski
+¶wiat³a innych pomieszczeñ podziemi. Rozgl±daj±c sie doko³a widzisz piece do
+wytopu metali oraz pracuj±cych hutników, tragarzy i innych pracowników.
+Zostali oni podstêpem lub si³± zatrudnieni w tej gor±cej i suchej 'pu³apce'
+do koñca swego ¿ycia, które paca w tej hucie do¶æ mocno skraca. Komora, w
+której siê znalaz³e¶ s±siaduje na wschodzie i poludniu z innymi komorami tej
+wielkiej pieczary.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46460
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46460
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46455
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46455
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46459
+Name Wielka pieczara wytopowa~
+Descr Stoisz w olbrzymiej pieczarze, któr± jej sklepienie, wy¿³obione przez
+kipi±c± tu kiedy¶ lawê, dzieli na cztery komory. W ka¿dej z nich spokojnie
+móg³by¶ ustawiæ dwie ¶wi±tynie i to jedna na drugiej. ¦ciany, podobnie jak w
+innych czê¶ciach huty s± g³adkie i zeszklone. Odbijaj± siê w nich b³yski
+¶wiat³a innych pomieszczeñ podziemi. Rozgl±daj±c siê doko³a widzisz piece do
+wytopu metali oraz pracuj±cych hutników, tragarzy i innych pracowników.
+Zostali oni podstêpem lub si³± zatrudnieni w tej gor±cej i suchej 'pu³apce'
+do koñca swego ¿ycia, które praca w tej hucie do¶æ mocno skraca. Komora, w
+której siê znalaz³e¶ s±siaduje na zachodzie i pó³nocy z innymi komorami tej
+wielkiej pieczary.
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46460
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46460
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46455
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46455
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46460
+Name Wielka pieczara wytopowa~
+Descr Strop pomieszczenia, w którym stoisz wy¿³obiony zosta³ przez kipi±c± tu
+kiedy¶ lawê i podzieli³ pieczarê na cztery komory. W ka¿dej z nich spokojnie
+móg³by¶ ustawiæ dwie ¶wi±tynie i to jedna na drugiej. ¦ciany, podobnie jak w
+innych czê¶ciach huty s± g³adkie i zeszklone. Odbijaj± siê w nich b³yski
+¶wiat³a innych pomieszczeñ i korytarzy podziemi. Rozgl±daj±c siê doko³a
+widzisz przeznaczone do topienia metali piece, hutników, tragarzy i innych
+pracowników. Ciê¿ko i mozolnie haruj± oni w tych gor±cych i suchych
+podziemiach i najprawdopodobniej tutaj tez zakoñcz± swój ¿ywot, który te
+warunki pracy jeszcze bardziej skracaj±. Komora, w której siê znalaz³e¶
+s±siaduje na zachodzie i po³udniu z innymi komorami tej wielkiej pieczary.
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46459
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46459
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46458
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46458
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46461
+Name Pieczara wytopowa~
+Descr Znajdujesz siê wewn±trz wielkiej pieczary, której wnêtrze wytopi³a kiedy¶
+lawa z wnêtrza ziemi. Lawa po pewnym czasie ust±pi³a w g³±b zostawiaj±c
+idealnie wyg³adzone i wyszklone ¶ciany pomieszczenia oraz otwory na
+¶cianach, przez które widaæ jêzory p³ynnej lawy dostarczaj±ce do pieczary i
+pieca wytopowego ciek³± ska³ê go topienia wszelkich metali. Mimo swojej
+kilkumetrowej wysoko¶ci pieczara nie jest zaopatrzona w ¿adne wsporniki,
+przypory ani stemple. Krasnoludzcy hutnicy pracuj± tu w pó³mroku
+roz¶wietlanym tylko przez piekielne gor±co olbrzymiego pieca.
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46427
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46427
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46462
+Name Dlugi korytarz~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46463
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46463
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46467
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46467
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46463
+Name Przechodnia komnata~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46464
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46464
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46462
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46462
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46464
+Name Wielka sala~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46465
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46465
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46469
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46469
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46463
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46463
+DayRDesc 46411
+NightRDesc 46411
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46465
+Name Wielka sala~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46466
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46466
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46470
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46470
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46464
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46464
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46466
+Name Zrujnowany hol~
+Descr Rozgl±daj±c siê doko³a poprzez pó³mrok, dostrzegasz zielonkawo-niebieska
+po¶wiatê, która s±czy siê ze ¶cian kilkunastometrowej wysoko¶ci, wy³o¿onej
+lub wykutej w skale soczy¶cie przetykanej czystym szmaragdem. Kto¶ musia³
+natrafiæ tu na prawdziwa ¿y³ê tego kamienia, skoro starczy³o go na wszystkie
+¶ciany. Ozdobi³ je ponadto misternymi rze¼bami ludzi o g³owach wê¿y i
+scenami rodzajowymi z dziwnych ceremonii. Ich wszyscy bohaterowie patrz± na
+siebie oczami z czarnych opali o g³êbokim ciemnym blasku. Wêdruj±c wzrokiem
+po tym postaciach w gore docierasz do lukowego sklepienia wykutego w czarnym
+kamieniu o g³adkiej powierzchni z umieszczonymi w niej ma³ymi per³owymi
+drobinami, które przypominaj± ci rozgwie¿d¿one niebo. Niesamowicie
+prezentuje siê te¿ pod³oga komnaty. Cala wykonana zosta³a z wielkich
+zeszklonych p³yt, lekko matowych, które przep³ywaj±ca gdzie¶ g³êboko lawa
+barwi swym ¶wiat³em na czerwono. Masz ma³e obawy przed st±paniem po nich,
+ale przecie¿ nie czujesz nawet gor±ca, jakie rozgrza³oby i stopi³o
+niechybnie zwykle szk³o. Musi to wiec byæ bardzo wytrzyma³y materia³. Obok
+ciebie widniej± schody prowadz±ce na górê do stra¿nicy.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46471
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46471
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46465
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46465
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Stra¿nica~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 46498
+ExitExtEnd
+Exit 4
+~
+VName Stra¿nica~
+wrota~
+3 0 46498
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46467
+Name Dlugi korytarz~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46462
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46462
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46468
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46468
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46472
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46472
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46468
+Name Przechodnia komnata~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46469
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46469
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46467
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46467
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46469
+Name Rozbita kolumnada~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46464
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46464
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46470
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46470
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46474
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46474
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46468
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46468
+DayRDesc 46411
+NightRDesc 46411
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46470
+Name Zasypane przej¶cie~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46465
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46465
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46471
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46471
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46469
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46469
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46471
+Name Wej¶cie do komnat~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46466
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46466
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46470
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46470
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46472
+Name Dlugi korytarz~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46467
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46467
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46473
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46473
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46475
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46475
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46473
+Name Przechodnia komnata~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46474
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46474
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46472
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46472
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46474
+Name Rozbita kolumnada~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46469
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46469
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46477
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46477
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46473
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46473
+DayRDesc 46411
+NightRDesc 46411
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46475
+Name Dlugi korytarz~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46472
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46472
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46476
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46476
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46476
+Name Przechodnia komnata~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46477
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46477
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46475
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46475
+DayRDesc 46410
+NightRDesc 46410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46477
+Name Rozbita kolumnada~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46474
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46474
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46476
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46476
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46478
+ExitExtEnd
+Exit 5
+~
+~
+0 0 46478
+DayRDesc 46411
+NightRDesc 46411
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46478
+Name Szeroki wystêp skalny~
+Descr Znajdujesz siê na szerokiej pó³ce skalnej, gdzie bez trudu przebywaæ mo¿e
+kilkana¶cie osób. Widok z tego wystêpu zapiera ci dech w piersiach. Przed
+tob± w dole rozpo¶ciera olbrzymie morze lawy, tak wielkie, ¿e na koñcu
+dostrzegasz tylko liniê horyzontu, gdzie stykaj± siê, niby niebo z ziemi±,
+czerñ czarnego bazaltowego sklepienia z czerwieni± bulgocz±cej lawy. Ca³a
+powierzchnia p³ynnej magmy faluje, wrze i produkuje wymy¶lne kszta³ty b±bli
+gazowych w lawie, a ca³e morze dudni odgazowaniami pêkaj±cych balonów
+p³ynnej ska³y, których strzêpy odrywaj± siê na wiele metrów w górê.
+Zamierasz w bezruchu na parê chwil, zauroczony magia miejsca i widoku, lecz
+zaczynaj± ci wysychaæ oczy od gor±ca, wiêc odwracasz g³owê. Za plecami masz
+wej¶cie prowadz±ce wydeptan± lub wy¶lizgan± such± ¶cie¿k±, która chodzi w
+strop ponad tob± wykonany z pó³matowych zeszklonych p³yt. P³yty te emanuj±
+dodatkowo delikatnym zielonkawym ¶wiat³em, mieszaj±c ten kolor z odbiciem
+czerwieni morza p³ynnych ska³. Obok wej¶cia dostrzegasz OTWÓR prowadz±cy w
+g³±b ska³y, w ciemno¶æ.
+~
+FlagsExt 0|C
+Sector 0
+Extra otwór~
+Patrzysz na spor±, prawie idealnie okr±g³± dziurê w pokruszonej skale,
+której brzegi s± wy¶lizgane jak wychodzona ¶cie¿ka i przez któr± z ³atwo¶ci±
+przesz³yby stworzenia du¿o wiêksze ni¿ ty. Hm, a co je¶li one tam ju¿ weszly
+przed tob±?
+~
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46477
+ExitExtEnd
+Exit 4
+~
+~
+0 0 46477
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Otwór~
+ExitExtLiczba 0
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 46479
+ExitExtEnd
+Exit 5
+~
+VName Otwór~
+~
+16384 0 46479
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46479
+Name Zapylony korytarz~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46480
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46480
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 46478
+ExitExtEnd
+Exit 4
+~
+~
+16384 0 46478
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46480
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46492
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46492
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46479
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46479
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46481
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46481
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46481
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46482
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46482
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46480
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46480
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46485
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46485
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46482
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46483
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46483
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46481
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46481
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46483
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46482
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46482
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46484
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46484
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46484
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46483
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46483
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46485
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46481
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46481
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46486
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46486
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46486
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46485
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46485
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46487
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46487
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46487
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46486
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46486
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46488
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46488
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46488
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46487
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46487
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46489
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46489
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46491
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46491
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46490
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46490
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46489
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46488
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46488
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46490
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46488
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46488
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46491
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46488
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46488
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46492
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46496
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46496
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46493
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46493
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46480
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46480
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46493
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46494
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46494
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46492
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46492
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46494
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46493
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46493
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46495
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46495
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46495
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46494
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46494
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46496
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46497
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46497
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46492
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46492
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46497
+Name W wy¶lizganych korytarzach~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46496
+ExitExtEnd
+Exit 2
+~
+~
+0 0 46496
+DayRDesc 46478
+NightRDesc 46478
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46498
+Name Podziemna stra¿nica~
+Descr Stoisz w du¿ej grocie wykutej w bazaltowym kamieniu z pomniejszej
+wytopionej jamy. Jest tu do¶c du¿o miejsca dla wielu osób, lecz zejscie
+zwêz± siê ku do³owi w kierunku wielkich wrót stanowi±cych zej¶cie gdzie¶
+dalej. Skrzyd³a wrót s± bogato zdobione niewyraznymi scenami z ¿ycia
+dziwnych stworzeñ i dodatkowo ozdobione okruchami szamargadów. POnadto ca³e
+wrota umocowane przyporami i zasuwami, tak ¿e nie mozña by ich wywa¿yc od
+zewn±trz.
+~
+FlagsExt 0|CH
+Sector 47
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Schody~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 46445
+ExitExtEnd
+Exit 4
+~
+VName Schody~
+~
+16384 0 46445
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Hol~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 46466
+ExitExtEnd
+Exit 5
+~
+VName Hol~
+wrota~
+3 0 46466
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46499
+Name pusty~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46500
+Name pusty~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 46405 1 46402 10
+O 100 46401 0 46402
+M 100 46405 1 46403 10
+M 100 46405 1 46404 10
+M 100 46405 1 46405 10
+M 30 46407 8 46407 1
+M 30 46407 8 46408 1
+M 30 46407 8 46409 1
+M 30 46407 8 46410 1
+M 30 46407 8 46411 1
+M 30 46407 8 46412 1
+M 30 46407 8 46413 1
+M 30 46407 8 46414 1
+M 100 46405 1 46414 10
+M 100 46413 2 46415 1
+M 100 46403 13 46415 1
+M 100 46402 13 46415 1
+O 100 46402 0 46415
+M 100 46412 2 46416 1
+M 100 46403 13 46416 1
+M 100 46402 13 46416 1
+O 100 46402 0 46416
+M 100 46411 2 46417 1
+M 100 46403 13 46417 1
+M 100 46402 13 46417 1
+O 100 46402 0 46417
+M 100 46404 2 46418 1
+M 100 46403 13 46418 1
+M 100 46402 13 46418 1
+O 100 46402 0 46418
+M 30 46407 8 46421 1
+M 30 46407 8 46422 1
+M 30 46407 8 46423 1
+M 30 46407 8 46424 1
+M 30 46407 8 46425 1
+M 30 46407 8 46426 1
+M 30 46407 8 46427 1
+M 30 46407 8 46428 1
+M 30 46407 8 46429 1
+M 100 46405 1 46429 10
+M 100 46403 13 46432 1
+M 100 46402 13 46432 1
+O 100 46402 0 46432
+M 100 46409 1 46433 1
+O 100 46413 0 46433
+M 100 46403 13 46440 1
+M 100 46402 13 46440 1
+O 100 46402 0 46440
+M 100 46418 6 46441 2
+M 100 46418 6 46441 2
+M 100 46417 3 46441 1
+O 100 46411 0 46441
+M 100 46418 6 46442 2
+M 100 46418 6 46442 2
+M 100 46417 3 46442 1
+O 100 46411 0 46442
+M 100 46418 6 46443 2
+M 100 46418 6 46443 2
+M 100 46417 3 46443 1
+O 100 46411 0 46443
+M 100 46419 1 46445 1
+M 30 46407 8 46445 1
+M 100 46405 1 46445 10
+M 30 46407 8 46446 1
+M 100 46405 1 46446 10
+M 30 46407 8 46447 1
+M 100 46405 1 46447 10
+M 100 46420 2 46450 2
+M 30 46407 8 46450 1
+M 100 46405 1 46450 10
+M 30 46407 8 46451 1
+M 100 46405 1 46451 10
+M 30 46407 8 46452 1
+M 100 46405 1 46452 10
+O 100 46450 0 46453
+O 100 46451 0 46454
+M 100 46415 4 46455 2
+M 100 46403 13 46455 1
+M 100 46402 13 46455 1
+O 100 46402 0 46455
+M 100 46408 2 46456 2
+M 100 46403 13 46456 1
+M 100 46402 13 46456 1
+O 100 46402 0 46456
+M 100 46408 2 46457 2
+M 100 46403 13 46457 1
+M 100 46402 13 46457 1
+O 100 46402 0 46457
+M 100 46415 4 46458 2
+M 100 46403 13 46458 1
+M 100 46402 13 46458 1
+O 100 46402 0 46458
+M 100 46415 4 46459 2
+M 100 46403 13 46459 1
+M 100 46402 13 46459 1
+O 100 46402 0 46459
+M 100 46415 4 46460 2
+M 100 46403 13 46460 1
+M 100 46402 13 46460 1
+O 100 46402 0 46460
+M 100 46403 13 46461 1
+M 100 46402 13 46461 1
+O 100 46402 0 46461
+M 100 46423 15 46462 2
+M 33 46421 6 46462 2
+M 50 46422 10 46462 3
+M 100 46423 15 46463 2
+M 33 46421 6 46463 2
+M 50 46422 10 46463 3
+M 100 46423 15 46464 2
+M 33 46421 6 46464 2
+M 50 46422 10 46464 3
+O 100 46436 0 46464
+M 100 46423 15 46465 2
+M 33 46421 6 46465 2
+M 50 46422 10 46465 3
+M 100 46423 15 46466 2
+M 33 46421 6 46466 2
+M 50 46422 10 46466 3
+M 100 46423 15 46467 2
+M 33 46421 6 46467 2
+M 50 46422 10 46467 3
+M 100 46423 15 46468 2
+M 33 46421 6 46468 2
+M 50 46422 10 46468 3
+M 100 46423 15 46469 2
+M 33 46421 6 46469 2
+M 50 46422 10 46469 3
+M 100 46423 15 46470 2
+M 33 46421 6 46470 2
+M 50 46422 10 46470 3
+M 100 46423 15 46471 2
+M 33 46421 6 46471 2
+M 50 46422 10 46471 3
+M 100 46423 15 46472 2
+M 33 46421 6 46472 2
+M 50 46422 10 46472 3
+M 100 46423 15 46473 2
+M 33 46421 6 46473 2
+M 50 46422 10 46473 3
+M 100 46423 15 46474 2
+M 33 46421 6 46474 2
+M 50 46422 10 46474 3
+O 100 46437 0 46474
+M 100 46423 15 46475 2
+M 33 46421 6 46475 2
+M 50 46422 10 46475 3
+M 100 46423 15 46476 2
+M 33 46421 6 46476 2
+M 50 46422 10 46476 3
+M 100 46423 15 46477 2
+M 33 46421 6 46477 2
+M 50 46422 10 46477 3
+M 60 46454 12 46480 2
+M 60 46454 12 46481 2
+M 60 46454 12 46482 2
+M 60 46454 12 46483 2
+M 60 46454 12 46484 2
+M 60 46454 12 46485 2
+M 60 46454 12 46486 2
+M 60 46454 12 46487 2
+M 60 46454 12 46488 2
+M 60 46454 12 46489 2
+M 60 46454 12 46490 2
+M 60 46454 12 46491 2
+M 60 46454 12 46492 2
+M 60 46454 12 46493 2
+M 60 46454 12 46494 2
+M 60 46454 12 46495 2
+M 60 46454 12 46496 2
+M 60 46454 12 46497 2
+M 100 46425 1 46498 1
+S
+
+
+
+#MOBPROGSNEW
+#atak_majster
+mobek 46402 zdejmuje lyzke i leje z piachy
+~
+remove ³y¿ka
+~
+#atak_niski1
+niewolnik 46415 puszcza wozek przy ataku
+~
+say Nie zabierzesz mi pracy gnoju, nie pójdê do kopalni!
+mob echo Niewolnik odsuwa siê od wózka i zas³ania go w³asnym cia³em.
+~
+#atak_ochron
+~
+get glewia szelki
+wield glewia
+~
+#death_niski1
+laduje wozek 46433 posmierci niewolnika 46415
+~
+mob echo Niewolnik gin±c pada na ziemiê i ods³ania swój wózek.
+mob oload 46433 r
+~
+#droga_m³odszy
+wysy³a pomocnika 46404 z pieczary 46418 do sk³adowiska 46453
+~
+if objhere 46402
+  mob echo Piecowy powoli wygarnia popio³y spod pieca wytopowego.
+  delay 1
+  mob echo Piecowy zaklada zaladowany kosz na plecy i wyrusza na skladowisko.
+  delay 1
+  mob walk 46453
+endif
+~
+#droga_m³odszy1
+wysyla pomocnika 46411 z pieczary 46417 do skladowiska 46453
+~
+if objhere 46402
+mob echo M³odszy piecowy wygarnia popio³y spod pieca.
+delay 1
+mob echo Piecowy zak³ada za³adowany kosz na plecy i wyrusza na sk³adowisko.
+delay 1
+mob walk 46453
+endif
+~
+#droga_m³odszy2
+wysyla w droge pomocnika 46412 z pieczary 46416 do skladowiska 46453
+~
+if objhere 46402
+mob echo M³odszy piecowy wygarnia popio³y spod pieca.
+delay 1
+mob echo Piecowy zak³ada za³adowany kosz na plecy i wyrusza na sk³adowisko.
+delay 1
+mob walk 46453
+endif
+~
+#droga_m³odszy3
+wysyla pomocnika 46413 z pieczary 46415 do skladowiska 46453
+~
+if objhere 46402
+  mob echo M³odszy piecowy wygarnia popio³y spod pieca.
+  delay 1
+  mob echo Piecowy zak³ada za³adowany kosz na placy i wyrusza na sk³adowisko.
+  delay 1
+  mob walk 46453
+endif
+~
+#droga_niski1
+wysy³a niewolnika 46415 do skladowiska 46454
+~
+if objhere 46402
+  mob echo Niewolnik zgarnia wytopiony z³om na wózek i z wysi³kiem rusza w drogê.
+  delay 1
+  mob walk 46454
+endif
+~
+#du¿y_szmaragd
+laduje duzy szmaragd 46439
+~
+mob oload 46439
+~
+#equip_brzydki
+ubiera brzydkiego goblina 46422
+~
+mob equip self 3009
+mob equip self 3029
+mob equip self 3313
+~
+#equip_dozorca
+ubiera dozorce i dodaje grupke: ochroniarz 46410 i chlopaka 46416
+~
+mob equip self 3161
+mob equip self 3051
+mob equip self 3025
+mob equip self 4419
+mob addgroup 46410
+mob addgroup 46416
+if rand 90
+  $_rand = int_random 1 4
+  if numeval $_rand == 1
+    mob oload 3045
+  endif
+else
+  if numeval $_rand == 2
+    mob oload 4419
+  endif
+else
+  if numeval $_rand == 3
+    mob oload 3025
+  endif
+else
+  mob oload 3057
+endif
+~
+#equip_hutnik
+~
+mob equip self 3050
+mob equip self 3019
+mob equip self 3010
+mob equip self 46405
+~
+#equip_majster
+~
+mob equip self 46429
+mob equip self 4404
+mob equip self 4410
+mob equip self 4420
+mob addgroup 46406
+~
+#equip_m³odych
+~
+mob equip self 4416
+mob equip self 4413
+mob equip self 4368
+mob equip self 46428
+~
+#equip_naczelnik
+ubiera naczelnika warty 46425 i laduje grupke 2xwartownik 46424
+~
+mob equip self 3001
+mob equip self 3050
+mob equip self 3045
+mob equip self 4419
+mob equip self 3025
+mob equip self 3057
+mob equip self 46468
+mob equip self 46441
+mob addgroup 46424
+mob addgroup 46424
+~
+#equip_niewolnik
+~
+mob equip self 4421
+mob equip self 4379
+mob equip self 4406
+~
+#equip_ochron
+~
+mob equip self 4419
+mob equip self 3025
+mob equip self 3051
+mob equip self 46424
+mob equip self 46441
+~
+#equip_piecowy
+~
+mob equip self 15256
+mob equip self 4418
+mob equip self 46412
+~
+#equip_rudy
+ubiera rudego orka 46421
+~
+mob equip self 3045
+mob equip self 3025
+mob equip self 3050
+mob equip self 3002
+mob equip self 3128
+~
+#equip_starszy
+ubiera mobka 46417 i grupuje mu pomocników 46414
+~
+mob equip self 3010
+mob equip self 4410
+mob equip self 46429
+mob equip self 4404
+mob addgroup 46414
+mob addgroup 46414
+~
+#equip_strpiec
+~
+mob equip self 4420
+mob equip self 46441
+mob equip self 4430
+~
+#equip_wartownik
+ubiera wartownika 46424
+~
+mob equip self 4419
+mob equip self 3051
+mob equip self 3025
+mob equip self 46421
+mob equip self 46441
+~
+#equip_wkowal
+ubiera wesolego kowala 46419@
+~
+mob equip self 3001
+mob equip self 4409
+mob equip self 4424
+mob equip self 3073
+mob equip self 46456
+~
+#equip_zmêczony
+ubiera zmeczonego hutnika 46418
+~
+mob equip self 3010
+mob equip self 3019
+mob equip self 4424
+if rand 95
+  mob equip self 46435
+else
+  mob equip self 46434
+endif
+~
+#equip_¿ona
+ubiera zone hutnika 4406
+~
+mob equip self 4385
+mob equip self 4420
+mob oload 15256 r
+if rand 90
+mob oload ear 1 i 15256
+endif
+mob oload 3342 i 15256
+mob oload 2451 i 15256
+mob oload 2451 i 15256
+tak koszyk
+hold koszyk
+/lr 5 mob oload ear 1 i 15256
+~
+#gadka_nadzorca
+dozorca 46407 gada do niewolnikow
+~
+if mobhere niski niewolnik
+or mobhere chudy niewolnik
+  say Ruszaæ siê orcze pokurcze!
+  mob echo Dozorca doskakuje do niewolnika i kopniakami pogania go do lepszej pracy.
+  delay 1
+  say No i tak macie robiæ! Trzymaæ tempo, robaki!
+endif
+~
+#ma³y_szmaragd
+laduje maly szmaragd 46438
+~
+mob oload 46438
+~
+#mojtest
+ubiera pania domu 37999
+~
+mob equip self 4416
+mob equip self 4409
+mob equip self 3017
+~
+#niski_powitanie
+niewolnicy sie witaja
+~
+if mobhere niewolnik
+  mob echo Niewolnik ukradkiem nieznacznie podnosi otwart± d³oñ na powitanie kolegi niedoli.
+endif
+~
+#powrot_m³odszy
+~
+if objhere 46450
+mob echo M³odszy piecowy wysypuje popió³, zak³ada kosz na plecy i rusza z powrotem.
+mob walk 46418
+endif
+~
+#powrót_m³odszy1
+~
+if objhere 46450
+  mob echo M³odszy piecowy wysypuje popió³, zak³ada kosz na plecy i wyrusza na sk³adowisko.
+  delay 1
+  mob walk 46417
+endif
+~
+#powrót_m³odszy2
+~
+if objhere 46450
+  mob echo M³odszy piecowy wysypuje popió³, zak³ada kosz na plecy i wyrusza na sk³adowisko.
+  delay 1
+  mob walk 46416
+endif
+~
+#powrót_m³odszy3
+~
+if objhere 46450
+mob echo M³odszy piecowy wysypuje popió³, zak³ada kosz na plecy i wyrusza na sk³adowisko.
+delay 1
+mob walk 46415
+~
+#powrót_niski1
+~
+if objhere 46451
+  mob echo Niski niewolnik ospale ze zmêczenia wy³adowuje metalowy z³om z wózka na pryzme odpadów.
+  delay 1
+  mob echo Niewolnik spluwa w d³onie i zaczyna pchaæ wózek z powrotem do miejsca wytopu.
+  delay 1
+  mob walk 46460
+endif
+if mobhere niewolnik
+mob echo Niewolnik ukradkiem nieznacznie podnosi otwart± d³oñ na powitanie kolegi niedoli.
+endif
+~
+#tak
+nadaje water breathing
+~
+mob cast 'water breathing' $n 10000
+mob oload 46435
+mob cast 'animate staff' pret
+~
+#0
+
+#OBJPROGSNEW
+#do_kasacji_prog
+~
+mob setflag $o portal_jest 10
+end
+~
+#koszyk
+laduje do koszyka 46458 zarcie
+~
+mob oload 2451 i c_46458
+mob oload 2451 i c_46458
+mob oload 3342 i c_46458
+~
+#mowiacy_miecz_1
+~
+if sex $n == 1
+  $_rand = int_random 1 3
+  if numeval $_rand == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x{g wrzeszczy:{G Hola partnerze! Chyba nie chcesz siê mnie pozbyæ?!{x
+  endif
+  if numeval $_rand == 2
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wrzeszczy:{G Hej hej! Nie zostawiaj mnie samego!{x
+  endif
+  if numeval $_rand == 3
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wrzeszczy:{G Ej¿e bracie! Nie opuszczaj mnie!{x
+  endif
+endif
+if sex $n == 2
+$_rand = int_random 1 3
+if numeval $_rand == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wrzeszczy:{G Hola partnerko! Chyba nie chcesz siê mnie pozbyæ?!{x
+  endif
+if numeval $_rand == 2
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wrzeszczy:{G Hej hej! Nie zostawiaj mnie samego!{x
+  endif
+if numeval $_rand == 3
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wrzeszczy:{G Ej¿e siostro! Nie opuszczaj mnie!{x
+  endif
+endif
+~
+#mowiacy_miecz_2
+~
+if sex $n == 1
+  $_rand = int_random 1 8
+  if numeval $_rand == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Dalej bracie! Przywalmy mu!{x
+  endif
+  if numeval $_rand == 2
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G I w ryj! W ³eb, z ca³ej si³y! HOPSIA!{x
+  endif
+  if numeval $_rand == 3
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G W nogê, w nogê ciach! I potem ³eb mu utnij!{x
+  endif
+  if numeval $_rand == 4
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G W nogi! W nogi dziada tnij!{x
+  endif
+  if numeval $_rand == 5
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Rozerwiem! Zniszczym! Poæwiartujem i zgwa³cim!{x
+  endif
+  if numeval $_rand == 6
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Ma³e æwiartowanko a potem ruchanko!{x
+  endif
+  if numeval $_rand == 7
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G No partnerze! Dalej¿e, dalej! Po ¶mieræ lub chwa³ê!{x
+  endif
+  if numeval $_rand == 8
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Rachu ciachu i po ptaku!{x
+  endif
+endif
+if sex $n == 2
+  $_rand = int_random 1 8
+  if numeval $_rand == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Dalej siostro! Przywalmy mu!{x
+  endif
+  if numeval $_rand == 2
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G I w ryj! W ³eb, z ca³ej si³y! HOPSIA!{x
+  endif
+  if numeval $_rand == 3
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G W nogê! W nogê ciach! Potem ³eb utnij!{x
+  endif
+  if numeval $_rand == 4
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G W nogi! W nogi tnij!{x
+  endif
+  if numeval $_rand == 5
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Rozerwiem! Pocwiartujem! Zniszczym i zgwa³cim!{x
+  endif
+  if numeval $_rand == 6
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Ma³e æwiartowanko a potem ruchanko! Hehe, oczywiscie, je¶li kto¶ Ciê zechce...{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" u¶miecha siê z³o¶liwie.
+  endif
+  if numeval $_rand == 7
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G No siostro! Dalej¿e dalej! Po ¶mieræ lub chwa³ê!{x
+  endif
+  if numeval $_rand == 8
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Rachu ciachu i po ptaku!{x
+  endif
+endif
+~
+#mowiacy_miecz_3
+~
+if sex $n == 1
+  $_rand = int_random 1 3
+  if numeval $_rand == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Ha! Witaj nowy partnerze! Razem zawojujemy ca³y ¶wiat! No chyba, ¿e¶ niezdara i umrzesz w pierwszej walce...{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" rechocze z³o¶liwie.
+  endif
+  if numeval $_rand == 2
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Czuje bracie, ¿e bedzie nam sie dobrze razem wojowa³o!{x
+  endif
+  if numeval $_rand == 3
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Nowy partner! Ha!{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" wzdycha.
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mamrocze:{G Kolejny nowy, oby¶ poci±gna³ d³u¿ej, ni¿ twój poprzednik!{x
+  endif
+endif
+if sex $n == 2
+  $_rand = int_random 1 3
+  if numeval $_rand == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Witaj siostro! Jestem niemal pewien, ¿e dokonamy wielkich czynów! Chyba, ¿e kto¶ Ciê zbrzuchaci!{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" rechocze z³o¶liwie.
+  endif
+  if numeval $_rand == 2
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Hola partnerko! Oby nam siê razem dobrze wojowa³o!{x
+  endif
+  if numeval $_rand == 3
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G O nie! Byæ w³asno¶ci± kobiety! Jestem na to o tysi±c lat za m³ody!{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" wybucha g³o¶nym p³aczem.
+  endif
+endif
+~
+#mowiacy_miecz_4
+~
+$_rand = int_random 1 12
+if numeval $_rand == 1
+  if sex $n == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Partnerze, a znasz ten dowcip, jak przychodzi Syrvern do karczmy?{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Nie?{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" rechocze w¶ciekle.
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G To nie poznasz!{x
+  else
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Partnerko, a znasz ten dowcip, jak przychodzi Syrvern do karczmy?{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Nie?{x
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" rechocze w¶ciekle.
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G To nie poznasz!{x
+  endif
+endif
+if numeval $_rand == 2
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" wibruje niecierpliwie.
+endif
+if numeval $_rand == 3
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g wykrzykuje:{G Hop, siup i butelka rumu!{x
+endif
+if numeval $_rand == 4
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" chrz±ka znacz±co i zaczyna nuciæ jak±¶ pie¶ñ.
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g nuci:{G By³ raz krasnal niebywa³y, co wypija³ dwie gorza³y!{x
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g nuci:{G Pi³ on w karczmie na pochybel, byl w³ochatym sukinsynem!{x
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" pogwizduje weso³o.
+endif
+if numeval $_rand == 5
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Zabijmy cos, powoli zaczynam rdzewieæ!{x
+endif
+if numeval $_rand == 6
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G S³ysza³em kiedy¶ ¶wietn± opowie¶æ!{x
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" rechocze rado¶nie.
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Niestety nie pamietam o czym byla.{x
+endif
+if numeval $_rand == 7
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Mo¿e otworzymy komu¶ brzuszek?{x
+endif
+if numeval $_rand == 8
+  if sex $n == 1
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Hola bracie! A mo¿e skoczymy tak na jednego do Signusa?{x
+  else
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G No siostrzyczko, mo¿e mnie zostawisz na pare godzinek u Signusa?{x
+  endif
+endif
+if numeval $_rand == 9
+  if pos $n standing
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G No i co tak stoi jakby dupy nie mia³?{x
+  else
+    mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G No i co tak siedzi jakby nó¿ki wciê³o?{x
+  endif
+endif
+if numeval $_rand == 10
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x" mamrocze co¶ cicho.
+endif
+if numeval $_rand == 11
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G No popatrzmy, kto tu mi tu mo¿e naskoczyæ?{x
+endif
+if numeval $_rand == 12
+  mob echo D³ugi miecz "{Cciêty {Bjêzyk{x"{g mówi:{G Mam stalowe jaja!{x
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#46402
+~
+~
+#tak
+~
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 46478
+DescRand #grouprand 11
+#grouprand 12
+~
+RandDescEnd
+#Vnum 46408
+DescRand #grouprand 6
+#grouprand 7
+~
+RandDescEnd
+#Vnum 46401
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 46402
+DescRand #grouprand 4
+#grouprand 5
+~
+RandDescEnd
+#Vnum 46403
+DescRand #grouprand 4
+~
+RandDescEnd
+#Vnum 46404
+DescRand Dotar³e¶ do chodnika, który wygl±da na ca³kiem nowy. Zosta³ wykuty w
+skale, a nie wytopiony, wiêc ¶ciany i strop podparte zosta³y wysokimi
+stemplami i drewnian± wiê¼ba sklepienia. Jest to koniecznie potrzebne, gdy¿
+czêsto osypuj±ce siê kamienie rani³y tragarzy i innych robotników huty.
+Chodnik ten ³±czy widoczn± na wschodzie Wielk± pieczarê z pozosta³± czê¶ci±
+kopalni.
+#grouprand 5
+~
+RandDescEnd
+#Vnum 46405
+DescRand Stoisz teraz centralnej czê¶ci hali-najwiêkszej hali wytopowej tej
+podziemnego zak³adu metalurgicznego. Piekielne gor±co wciska ci siê nosem i
+ustami oraz ka¿dym porem cia³a. Pal±ca sucho¶æ ¶ciska ci nos i gard³o oraz
+wdziera siê do p³uc powoduj±c k³uj±cy ból w klatce piersiowej. Ko³o pieca
+hutniczego krêci siê mnóstwo pracowników przek³adaj±cych odlane detale,
+blachy oddzielaj±c elementy gotowe od odpadów.
+#grouprand 5
+~
+RandDescEnd
+#Vnum 46406
+DescRand Stoisz teraz na po³udniowym krañcu sk³adowiska odpadów. Zalegaj± tu
+pó³fabrykaty i pó³produkty do wyrobu i powtórnego przetworzenia. Wszelkiego
+rodzaju wylewki oraz z³om metalowy trafia w³a¶nie tutaj. Transportowany jest
+tutaj wózkami lub w koszach na plecach tragarzy, którzy przy ka¿dym
+roz³adunku podnosz± kusz ze stert skorodowanych detali. Wiele ha³d zajmuj±
+sterty wybrakowanych odlewów ¿elaznych i stalowych, które ³atwo rozpoznaæ po
+czerwonej rdzy na powierzchni.
+#grouprand 5
+~
+RandDescEnd
+#Vnum 46407
+DescRand Przebywasz obecnie w pó³nocnej czê¶ci pieczary u¿ywanej przez robotników
+jako sk³adowisko odpadów odlewniczych. Cze¶æ pozosta³ych z przetopu lub
+wytopu materia³ów mo¿e stanowiæ pó³produkt do innych procesów. Wszystkie
+odpady metalowe wêdruj± wiec na tu sk³adowisko w oczekiwaniu na swój czas,
+gdy bêd± potrzebne. Powietrze jest tu mocno zapylone, gdy¿ du¿o ha³d i
+stosów metali i odpadków podlegaj±cych ustawicznej korozji zamienia siê w
+py³, który z kolei podnosi siê przy ka¿dym wy³adunku lub przeje¼dzie wózków.
+#grouprand 5
+~
+RandDescEnd
+#Vnum 46409
+DescRand #grouprand 4
+Z boku dostrzegasz szerokie schody wykute w tej wulkanicznej skale, prowadz±ce do pomieszczenia, w którym zauwa¿asz parê uzbrojonych postaci.
+~
+RandDescEnd
+#Vnum 46410
+DescRand #grouprand 8
+#grouprand 9
+~
+RandDescEnd
+#Vnum 46411
+DescRand #grouprand 8
+#grouprand 9
+#grouprand 10
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name 12_3~
+Desc Wszystkie zmielone drobinki sklane znajduj± siê w ka¿dym wdechu i wydechu
+wykonanym przez ciebie. Twoje podra¿nione p³uca i drogi oddechowe broni± sie
+przed tym wyrzucaj±c ten kurz, przez co ustawicznie pochrz±kujesz i
+charczesz.
+~
+Group 12
+End
+#Name 12_2~
+Desc Skalny mia³ zalega wszêdzie, zarowno na ¶cianach, jak i na pod³o¿u, a
+wydaje ci siê nawet, ¿e jest 'rozpuszczony' w powietrzu, bo w³azi ci w nos i
+usta powoduj±c kaszel i odchrz±kiwanie.
+~
+Group 12
+End
+#Name 12_1~
+Desc Wszêdzie unosi siê py³, który w korytarzach wciska siê we wszystkie
+szczeliny, ale przede wszystkim zatyka nos i pali w gard³o zmuszaj±c ciê do
+ci±g³ego odpluwania.
+~
+Group 12
+End
+#Name 11_3~
+Desc Korytarz, którym teraz wêdrujesz, ci±gnie siê daleko przed siebie
+wy¶lizganymi ¶cianami, których kolisty kszta³t powstaæ musia³ przez
+ustawiczne szlifowanie lub ubijanie zmielonej na py³ ska³y. Wydaje ci siê to
+dziwne, gdy¿ nad korytarzami na pewno jest twarda bazaltowa skorupa.
+~
+Group 11
+End
+#Name 11_2~
+Desc Jeste¶ w przekopie przypominaj±cym swoim przekrojem owalny tunel. Z
+g³adkich brunatnych ¶cian nie wystaj± ¿adne korzenie, brak te¿ zbutwia³ych
+szcz±tków ro¶linnych lub zwierzêcych. Ca³y korytarz jest wy¶lizgany i
+pozbawiony kamiennych okruchów ska³, których powinno tu byæ pe³no, wzi±wszy
+pod uwagê, ¿e na górze przebywa³e¶ na litej skale.
+~
+Group 11
+End
+#Name 11_1~
+Desc Znajdujesz siê w okr±g³ym tunelu, którego br±zowe ¶ciany wygl±daj± na
+solidnie utwardzone i wyszlifowane. Mimo, ¿e na górze widaæ by³o twardy
+bazalt, to tutaj kto¶ ry³ te korytarze w materiale przypominaj±cym zmielon±
+ska³ê. Strop, ¶ciany i pod³o¿e s± bardzo g³adkie i wy¶lizgane.
+~
+Group 11
+End
+#Name 2_2~
+Desc Poruszaj±c siê coraz dalej, bardziej doskwiera ci gor±co i sucho¶æ w
+ustach. Pocisz siê coraz bardziej, odk±d znalaz³e¶ si¶ tu na dole. Odmiennie
+ni¿ w innych podziemiach w powietrzu jest znikoma wilgotnosc, brak jest wody
+ciekn±cej po ¶cianach i kalu¿ pod stopami.
+~
+Group 2
+End
+#Name 6_2~
+Desc Trafile¶ na podziemny plac, gdzie krasnoludy sk³aduj± materia³y surowcowe
+potrzebne w procesie przetwórstwa metali. Doko³a widzisz ha³dy ró¿nego
+rodzaju rud i kopalin, zwalone w tym miejscu jak w magazynie.
+~
+Group 6
+End
+#Name 7_3~
+Desc Rozgl±daj±c siê wokó³ dostrzegasz obok stosów surowca, tak¿e wielkie
+drewniane pud³a, mieszcz±ce w sobie stalowe formy do kszta³towania odlewów
+oraz pod³u¿ne zbiorniki s³u¿±ce do oziêbiania odlanych detali. Miedzy nimi
+stoi wiele drucianych koszy do przewo¿enia wyp³ywek, wylewek i innego z³omu
+metalowego.
+~
+Group 7
+End
+#Name 7_2~
+Desc Poza minera³ami wytopowymi dostrzegasz równie¿ wielkie drewniane paki,
+zawieraj±ce matryce do formowania odlewów oraz kosze z drutu przeznaczone
+transportu nie nadaj±cych siê do wykorzystania produktów hutniczych.
+Gdzieniegdzie rdzewiej± wyrzucone tu wielkie stalowe wanny do studzenia
+metalowych odlewów.
+~
+Group 7
+End
+#Name 7_1~
+Desc Oprócz surowców dostrzegasz równie¿ skrzynie, w które zapakowano formy
+odlewnicze wykonane z hartowanej stali. Obok skrzyñ dostrzegasz porzucone
+wanny do ch³odzenia odlanych detali oraz metalowe kosze do zbierania odpadów
+wylewkowych.
+~
+Group 7
+End
+#Name 6_3~
+Desc Na terenie przestronnej pieczary, w której stoisz, zmagazynowano surowce
+do odlewania lub przetopu metali. Zwalono te rudy w pryzmy i stosy pod
+¶cianami podziemnej komory, dbaj±c jedynie o to by pozostawiæ trochê miejsca
+dla przejazdu wózkami.
+~
+Group 6
+End
+#Name 6_1~
+Desc Znajdujesz siê w rozleg³ej podziemnej komorze, w której urz±dzono
+sk³adowisko surowców do przetopu lub wytopu metali. Piêtrz± siê tu zwa³y rud
+¿elaza i metali kolorowych, niektóre siêgaj±ce kilku metrów wysoko¶ci.
+~
+Group 6
+End
+#Name 1_1~
+Desc Idziesz po ubitym chodniku, który ci±gnie siê wzd³u¿ tej podziemnej huty
+ze wschodu na zachód w wysokim na kilkana¶cie metrów. Jest solidnie
+utwardzony i wy³o¿ony zastyg³ymi kawa³kami bazaltowych p³yt. Jest przez to w
+miarê równy i twardy. Na ¶cianach dostrzegasz resztki nadtopionych ska³,
+które szkli¶cie odbijaj± blask z wielkich lamp górniczych umocowanych na
+stropie nad chodnikiem.
+~
+Group 1
+End
+#Name 1_2~
+Desc Chodnik, po którym idziesz lekko opada w stronê g³êbi huty od strony
+zej¶cia. Zosta³ solidnie wy³o¿ony szlifowanymi p³ytami z bazaltu. Po obu
+stronach tego podziemnego traktu widzisz bry³y stopionych ska³, niektóre
+zupe³nie zeszklone. Krusz±cy siê gdzieniegdzie materia³ ze ¶cian
+zabezpieczono przyporami i grubymi ogromnymi stemplami o wysoko¶ci nawet
+kilkunastu metrów. Wszêdzie jest jasno od sporych latarni umocowanych w
+koszach na ¶cianach lub wisz±cych pod stropem.
+~
+Group 1
+End
+#Name 1_3~
+Desc Poruszasz siê teraz do¶æ wygodnym, ubitym i wy³o¿onym kamiennymi p³ytami
+chodnikiem, czy te¿ ulic±, gdy¿ prowadzi ona od wej¶cia w g³±b wnêtrza
+podziemnej huty. Na wysokich ¶cianach i pod sklepieniem zawieszono latarnie,
+których ¶wiat³o odbija siê na kamieniach roz¶wietlaj±c zestalone stopione i
+zeszklone bry³y ska³.
+~
+Group 1
+End
+#Name 2_1~
+Desc Jest tu duszno i bardzo ciep³o. W miejscu, gdzie siê znajdujesz czujesz
+jeszcze jaki¶ ruch powietrza spowodowany przesuwanymi wózkami i wysoko¶ci±
+chodnika, ale i tak od suchego powietrza wysychaj± ci usta.
+~
+Group 2
+End
+#Name 2_3~
+Desc Wszêdzie duchota i skwar zupe³nie jak na pustyni, tylko brak jest tu
+s³oñca. ¯ar bij±cy z g³êbi huty i widocznych tu i ówdzie pieców oraz odpadów
+piecowych nagrzewa powietrze do tego stopnia, ¿e a¿ zaczynaj± boleæ ciê
+p³uca od braku wilgoci.
+~
+Group 2
+End
+#Name 3_1~
+Desc Nie jest tu ³atwo oddychaæ nie tylko z powodu gor±ca, ale tak¿e zapachu
+kwasów unosz±cych siê w powietrzu. Zapach siarki i zgni³ych jaj wydzielaj±ce
+siê przy ostudzaniu wytopionej wêglowej stali przenika otoczenie i prawie
+wkrêca ci siê w nozdrza, co powoduje pracê w tej hucie jeszcze bardziej
+ciê¿k±.
+~
+Group 3
+End
+#Name 3_2~
+Desc Oprócz wszechogarniaj±cej spiekoty oszo³amia ciê tak¿e kwasowy zapach
+studzonego metalu. W¿era siê w b³ony gard³a i p³uc powoduj±c odkrztuszanie.
+Na stê¿enie zapachów zwi±zków siarki i wêgla na pewno ma te¿ wp³yw brak
+dobrej wentylacji tej podziemnej hucie.
+~
+Group 3
+End
+#Name 3_3~
+Desc Poza piekielnym upa³em, dosiêga ciê tak¿e smród palonej siarki i wêgla.
+Wydobywa siê on z pieczar piecowych, gdzie wytapia siê metale, a pó¼niej
+sch³adza w olbrzymich kadziach tu, w hucie.
+~
+Group 3
+End
+#Name 4_2~
+Desc Znajdujesz siê w olbrzymiej jaskini zdolnej pomie¶ciæ ma³± wioskê w swoim
+¶rodku , bo te¿ wnêtrze tej hali przypomina ma³± osadê - tyle tu ma³ych
+baraków, budek, tragarzy i innych pracowników huty. Panuje tu ci±g³y ruch i
+gwar, jakby nikomu nie przeszkadza³o gor±ce i duszne powietrze wci±¿
+atakuj±ce twoje zmys³y. Widocznie tutejsi mieszkañcy zd±¿yli ju¿ przywykn±æ
+do tego 'piek³a' pod powierzchni± ziemi lub w jaki¶ magiczny sposób potrafi±
+go unikaæ b±d¼ nie odczuwaæ.
+~
+Group 4
+End
+#Name 4_3~
+Desc Znalaz³e¶ siê w ogromnej pieczarze, której wnêtrze jest ruchliwe i
+t³oczne jak plac w Arras. Doko³a dostrzegasz liczne ma³e zabudowania,
+zupe³nie jak w jakiej¶ kolonii. Spo³eczno¶æ tej podziemnej huty musi sw±
+liczba dorównywaæ ma³ym osadom, a sw± ró¿norodno¶ci± niejednemu portowemu
+miastu, nie przyrównuj±c Silei. Znajdziesz tu przedstawicieli wielu ras:
+krasnoludy, pó³elfy, ludzi... Pe³ni± tu oni ró¿ne funkcje, ale mimo ¿aru i
+bardzo suchego wnêtrza huty potrafili dostosowaæ siê do panuj±cych warunków.
+~
+Group 4
+End
+#Name 4_4~
+Desc Dotar³e¶ do wielkiej groty, gdzie przebywaj±cy w tej podziemnej hucie
+przedstawiciele ró¿nych ras urz±dzili sobie plac spotkañ, zupe³nie jak na
+wiejskim targu. Faktycznie pieczara ta jest tak ogromnych rozmiarów, ¿e
+mie¶ci pod swoim wytopionym pod law± sklepieniem ma³a osadê, której baraki i
+niewielkie chatki dostrzegasz doko³a. Mieszkañcy i pracownicy, pomimo
+wysokiej temperatury panuj±cej tutaj pod ziemi± oraz dra¿ni±cego gard³o i
+nos braku wilgoci w powietrzu, przyzwyczaili siê ju¿ chyba do tego
+strasznego klimatu tak, ¿e zdaje siê on im w ogóle nie przeszkadzaæ.
+~
+Group 4
+End
+#Name 5_1~
+Desc Pod stopami dostrzegasz metalowe szyny po³o¿one na popêkanych i
+nadpalonych podk³adach. Tor jest powykrêcany z gor±ca i jad±ce têdy wózki
+nie poruszaj± siê z du¿a prêdko¶ci±. Szyny ci±gn± siê od Wielkiej Pieczary
+Wytopowej, a¿ do sk³adowiska odpadów.
+~
+Group 5
+End
+#Name 5_2~
+Desc Patrz±c na ziemie dostrzegasz tor dla wózków rêcznych, prowadz±cy ze
+starego sk³adowiska do Wielkiej Pieczary Wytopowej. Szyny wykonane z
+hartowanej stali gor±co wyko¶lawi³o do tego stopnia, ¿e transport nimi
+odpadów zabiera do¶æ du¿o czasu, ale to i tak lepiej ni¿ przenoszenie ¶mieci
+w koszach na plecach.
+~
+Group 5
+End
+#Name 5_3~
+Desc W³a¶nie nadepn±³e¶ na szyny, którymi transportuje siê odpady mo¿liwe do
+wykorzystania w innym procesie hutniczym. Dla niektórych wytopów stanowi±
+wiêc pó³produkt do produkcji. Tory, po których je¿d¿± wózki z odpadami
+poruszaj± siê powoli za spraw± powykrzywianych szyn, które pod wp³ywem
+gor±ca upodobni³y siê kszta³tem do pe³zaj±cego wê¿a.
+~
+Group 5
+End
+#Name 8_1~
+Desc Znalaz³e¶ siê w miejscu, gdzie z niedowierzaniem przecierasz oczy i
+rozgl±dasz siê ponownie doko³a. Ca³e ¶ciany wy³o¿one s± jasno po³yskuj±cym
+szmaragdem, daj±c± piêkn± zielonkaw± po¶wiatê rozja¶niaj±c± lekko pó³mrok
+komnaty. Wszystkie ¶ciany zdobione s± ponadto piêknymi misternymi
+p³askorze¼bami dziwnych postaci o wê¿owych kszta³tach g³ów, w których oczy
+zrobiono z ciemnych kamieni o opalizuj±cym po³ysku. Wysoki na parê piêter
+strop oparty jest lub wyrze¼biony w ciemnym bazaltowym g³adkim kamieniu,
+przetykany jest bia³ymi per³owymi punktami, jakby¶ patrzy³ na czarne niebo w
+ciemna noc.
+~
+Group 8
+End
+#Name 8_2~
+Desc Rozgl±daj±c siê doko³a poprzez pó³mrok, dostrzegasz zielonkawo-niebiesk±
+po¶wiatê, która s±czy siê ze ¶cian kilkunastometrowej wysoko¶ci, wy³o¿onej
+lub wykutej w skale soczy¶cie przetykanej czystym szmaragdem. Kto¶ musia³
+natrafiæ tu na prawdziw± ¿y³ê tego kamienia, skoro starczy³o go na wszystkie
+¶ciany. Ozdobi³ je ponadto misternymi rze¼bami ludzi o g³owach wê¿y i
+scenami rodzajowymi z dziwnych ceremonii. Ich wszyscy bohaterowie patrz± na
+siebie oczami z czarnych opali o g³êbokim ciemnym blasku. Wêdruj±c wzrokiem
+po tym postaciach w górê docierasz do lukowego sklepienia wykutego w czarnym
+kamieniu o g³adkiej powierzchni z umieszczonymi w niej ma³ymi per³owymi
+drobinami, które przypominaj± ci rozgwie¿d¿one niebo.
+~
+Group 8
+End
+#Name 8_3~
+Desc Jeste¶ teraz w komnacie, której mrok roz¶wietlaj± wielkie szmaragdowe
+bry³y gêsto umieszczone w wysokich skalnych ¶cianach, nadaj±c pomieszczeniu
+zielonkaw± po¶wiatê, co pomaga ci przebiæ wzrokiem ciemno¶æ. Dziêki temu
+masz mo¿liwo¶æ przyjrzeæ siê szczegó³owo wykonanym p³askorze¼bom
+pokrywaj±cym ¶ciany. Zdobi±ce je postaci maj± ob³e, przypominaj±ce wê¿owe,
+g³owy oraz opalizuj±ce czarne oczy, wykonane z ciemnych kamieni o g³êbokim
+blasku. Ponad tymi rze¼bami rozci±ga siê równie ciemny strop z tysi±cami
+l¶ni±cych na per³owo okr±g³ymi okruchami, przywodz±cymi na my¶l
+gwiazdozbiory na p³aszczy¼nie sklepienia niebieskiego.
+~
+Group 8
+End
+#Name 9_1~
+Desc Niesamowicie prezentuje siê te¿ pod³oga komnaty. Ca³a wykonana zosta³a z
+wielkich zeszklonych p³yt, lekko matowych, które przep³ywaj±ca gdzie¶
+g³êboko lawa barwi swym ¶wiat³em na czerwono. Masz ma³e obawy przed
+st±paniem po nich, ale przecie¿ nie czujesz nawet gor±ca, jakie rozgrza³oby
+i stopi³o niechybnie zwyk³e szk³o. Musi to wiêc byæ bardzo wytrzyma³y
+materia³.
+~
+Group 9
+End
+#Name 9_2~
+Desc Pod swoimi stopami czerwieni± siê wielkie przezroczyste p³yty pó³matowe,
+pod którymi daleko poni¿ej musi przep³ywaæ lawa ze szczelin ziemi. Jednak
+nie musisz siê baæ, gdy¿ s± tu od tak dawna, a nawet ¿ar tej p³ynnej ska³y
+nie potrafi³ ich nagrzaæ.
+~
+Group 9
+End
+#Name 9_3~
+Desc Sufit ten spogl±da z góry na posadzkê wy³o¿on± wielkimi
+pó³przezroczystymi p³ytami, których powierzchnia rozci±ga siê we wszystkich
+pomieszczeniach jak okiem siêgn±æ. Kolor tego pawimentu przypomina czerwieñ
+ognia, który p³on±³by poni¿ej. W istocie, spogl±daj±c przez te lekko
+zmatowione p³yty, dostrzegasz pod nimi g³êboko czerwieñ szczeliny z law±,
+która jednak nie by³a w stanie naruszyæ tej posadzki.
+~
+Group 9
+End
+#Name 10_1~
+Desc Przechodz±c dalej mijasz d³ugie rzêdy wysokich kolumn z potrzaskanymi
+g³owicami i naruszonymi misternie pokryte ¿³obionymi trzonami, których
+krawêdzie styku musia³y byæ kiedy¶ dosyæ ostre . Okruchy rozbitych ska³
+pokrywaj± posadzkê na ca³ej p³aszczy¼nie. Te zniszczenia nie wygl±daj± na
+zrobione si³ami natury, wiêc kto¶ albo co¶ musia³o je pot³uc.
+~
+Group 10
+End
+#Name 10_2~
+Desc Pod±¿aj±c przed siebie wêdrujesz wzd³u¿ wysokiej kolumnady, gdzie smuk³e
+i d³ugie d³ugie niegdy¶ trzony pilastrów zosta³y potrzaskane przez wielk±
+si³ê. Przykro patrzeæ na piêkne dok³adne ¿³obienia oraz zwieñczenia kolumn
+przerwane w rze¼bieniach olbrzymimi wyrwami w kamieniu. Pokruszony materia³
+skalny z rozbitych rze¼b i s³upów zalega na posadzce.
+~
+Group 10
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 46425
+Name mosi±dzowany set~
+Aff 1 14 -5 0 0 0
+Aff 1 26 239 20 0 0
+Aff 1 17 -10 0 0 0
+WearProg mob echoat $n Nagle czujesz, jak twoja zbroja zaczyna emanowaæ metalicznym zapachem miedzi, który przepe³nia ciê niezwyk³± moc±.
+mob echoaround $n Widzisz nagle unosz±c± siê nad $b mgie³kê i wydzielaj±c± pobudzaj±c± metaliczn± woñ.
+~
+RemoveProg mob echoat $n Nagle metaliczna woñ miedzi i moc ulatuje od ciebie.
+~
+Extradesc _mosiadzowany~
+Doko³a $z unosi ledwo widzialna mgie³ka wydzialaj±ca metaliczna woñ miedzi i patynowanego mosi±dzu.
+~
+BonusEnd
+#Vnum 0
+
+#$

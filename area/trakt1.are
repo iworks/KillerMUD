@@ -1,0 +1,6070 @@
+#AREADATA
+Name +#$ Trakt~
+Builders None~
+VNUMs 132 232
+Credits Przeróbka, poprawki, spolszczenie: Wicia, wicia@killer-mud.net
+~
+Locked ~
+Security 9
+ResetAge 15
+Region 132
+End
+
+
+
+#MOBILES
+#Vnum 132
+Name stary sprzedawca garbarz~
+Odmiana starego garbarza~staremu garbarzowi~starego garbarza~starym garbarzem~starym garbarzu~
+Short stary garbarz~
+Long Stary garbarz pochyla siê nad sto³em ze skupieniem patrz±c w szeregi liczb w jakich¶ papierach.~
+Descr Widzisz przed sob± starego garbarza skór. Mê¿czyzna jest w podesz³ym
+wieku. Na jego twarzy wyrze¼bi³y siê ju¿ dziesi±tki zmarszczek. Garbarz ma
+olbrzymie d³onie, wyrobi³ je pewnie podczas pracy przy skórach. 
+~
+Race gnom~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 20d1+4
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 120 120 120 120 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1800000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet garbarz1_greet FGI 100~
+MobprogNew give garbarz1_give FGI all~
+MobprogNew precommand 135 ABCDEFGHI sell~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 157
+Name zbir postac zakapturzona zakapturzony~
+Odmiana zbira~zbirowi~zbira~zbirem~zbirze~
+Short zbir~
+Long Zakapturzona postaæ czycha na ³atwy ³up.~
+Descr Ten pó³elf zajmuje siê niebezpiecznym i znanym od dawna zajêciem jakim
+jest rabowanie na traktach. Wielu zbójców koñczy powieszonych na ga³êziach
+drzew, w¶ród których siê ukrywali, gdy oka¿e siê, ¿e w¶ród kupieckich
+pacho³ków bêdzie paru najemników lub te¿ gdy samotny podró¼ny bêdzie tak
+naprawde magiem lub innym, do¶wiadczonym poszukiwaczem przygód. 
+~
+Race pó³elf~
+ActExt 0|ACGHSX
+Affected 66048 0 0 0
+AffectedExt 0|JQ
+Align -800
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 1
+HP 10d10+100
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 10
+Stats 108 96 108 114 102 78 78
+Off BFK
+OffExt 0|BFK
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMVX
+Parts ABCDEFGHIJKQRUV
+Size medium
+Material unknown
+MobprogNew onload 157_onload ABCDEFGHI 100~
+MobprogNew greet 157_greet FGI 100~
+MobprogNew fight 157_random_figh H 30~
+MobprogNew time 158 EFGI 6~
+MobprogNew time 157 EFGI 19~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 184
+Name wifrea alromw wdowa sprzedawczyni~
+Odmiana Wifreai Alromw~Wifreai Alromw~Wifreê Alromw~Wifre± Alromw~Wifreai Alromw~
+Short Wifrea Alromw~
+Long Wifrea Alromw, wdowa po znanym kupcu uwija siê tutaj.~
+Descr Niewysoka, ca³kiem zgrabna kobiecina. Na pierwszy rzut oka widaæ, ¿e jest
+nieco zapracowana lub po prostu my¶li nad czym¶ w skupieniu. Nie wygl±da na
+ca³kiem star±, jednak m³oda te¿ nie jest, czego dowodem jest kilka
+pomarszczeñ na jej twarzy. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang ABC
+Speaks 0
+Level 10
+Hitroll 0
+HP 1d1+199
+Damage 2d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 6 6 6 8
+Stats 54 108 126 90 48 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 300000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew time 133 EFGI 11~
+MobprogNew time 132 EFGI 19~
+MobprogNew entry 134 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 219
+Name ma³y w³ochaty paj±k~
+Odmiana w³ochatego paj±ka~w³ochatemu paj±kowi~w³ochatego paj±ka~w³ochatym paj±kiem~w³ochatym paj±ku~
+Short wlochaty paj±k~
+Long Ma³y, w³ochaty paj±k chodzi po scianie korytarza.~
+Descr Paj±k nie wygl±da szczególnie dziwnie, jest to raczej zwyczajny paj±k. Ma
+krótkie nó¿ki i w³ochaty korpus, nie powinien zrobiæ takiemu osobnikowi jak
+ty zbyt wielkiej krzywdy. 
+~
+Race paj±k~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 2
+HP 1d10+30
+Damage 1d4+1
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 60 30 30 90 60 60 60
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACK
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 132
+Name drogowskaz~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yStoi tutaj strasznie stary i nieczytelny drogowskaz.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 0
+Extradesc drogowskaz~
+Zachod:  Pola, trakt do Easterial, Zimnych Jezior i Snieznych Zasp
+Poludnie: Trakt do Arras i Krasnoludzkiej Fortecy
+~
+Itemdesc Niestety na tablicê podzia³a³y czynniki pogodowe i ca³o¶æ sta³a siê
+praktycznie niemo¿liwa do rozczytania. 
+~
+Comments ~
+Objend
+#Vnum 133
+Name drogowskaz maly drewniany~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yMa³y{x {Rdrogowskaz{x {ystoi przy drodze.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 0
+Itemdesc Na tabliczce widzisz lekko starte, jednak czytelne napisy:
+ 
+WSCHÓD: Z³ote Miasto Arras
+ 
+ZACHÓD: Do Krasnoludzkiej Fortecy
+ 
+PO£UDNIE: Twierdza Szkar³atnych P³aszczy
+~
+Comments ~
+Objend
+#Vnum 135
+Name drogowskaz drewniany du¿y~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short {ytrójramienny drogowskaz{x~
+Descr {yDrewniany {Rdrogowskaz{y stoi ko³o skrzy¿owania dróg.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 300
+Cost 100
+Cond 100
+Itemdesc {YZ³ote Miasto{S
+      {YArras{S
+        {c|{S
+        {c|{S
+        {c|{S
+  {gP{S     {R*{s-----{S Carrallak
+  {g U{S 
+    {gS{S
+     {gZ C Z A     {S
+~
+Comments ~
+Objend
+#Vnum 159
+Name monety kilka~
+Odmiana monet~monetom~monety~monetami~monetach~
+Short kilka monet~
+Descr Kilka rozrzuconych na ziemi monet.~
+Material srebro~
+Type money
+ExtraExt 1|C
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 12 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 12
+Cond 100
+Comments ~
+Objend
+#Vnum 170
+Name drogowskaz drewniany du¿y~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yDu¿y drewniany{x {Rdrogowskaz{x {yz przybit± do niego metalow± tabliczk±.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 300
+Cost 100
+Cond 100
+Extradesc drogowskaz~
+Na tabliczce widzisz do¶æ wyra¼ne napisy:
+ 
+WSCHÓD: Z³ote miasto Arras
+ 
+ZACHÓD: Trakt do Krasnoludzkiej Fortecy
+ 
+PÓ£NOC: Trakt do Zimnych Jezior, przez Prze³êcz Faldhar do Easterial.
+        Po drodze Jaskinie Naugrimów.
+~
+Itemdesc -----------------------------
+|           Easterial         |
+|               ^^             |
+| Forteca       |             |
+| Krasnoludzka <->  Arras     |
+|                             |
+|                             |
+ -----------------------------
+               ||
+               ||
+               ||
+               ||
+_______________##______________
+~
+Comments ~
+Objend
+#Vnum 172
+Name bransoletka  ³añcucha ~
+Odmiana bransolety z ³añcucha ~bransolecie z ³añcucha ~bransoletê z ³añcucha ~bransolet± z ³añcucha ~bransolecie z ³añcucha ~
+Short bransoletka z ³añcucha ~
+Descr Le¿y tutaj bransoletka zbudowana z grubych metalowych ko³ek~
+Material stal~
+Type jewelry
+ExtraExt 0|G
+Wear AM
+Wear2Ext 0|e
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 9000
+Cond 100
+Aff 1 26 426 6 0 0
+Itemdesc Przygl±dasz sie uwa¿nie ³añcuchowi z którego jest zrobiona ta czarna
+metalowa bransoletka i zdajesz sobie sprawê, ¿e to kiedy¶ musia³a byæ czê¶æ
+jakiej¶ broni któr± kto¶ po³±czy³ w zgrabne kó³ka. 
+~
+Identdesc Ta czarna metalowa bransoletka to czê¶æ orê¿a niegdy¶ nale¿±cego do
+Morgetha, owianego z³± s³aw± Czarnego Rycerza. Gdy wiedzia³, ¿e jego byt na
+ziemi siê koñczy kaza³ poci±æ swoj± broñ i wyrobiæ z niej bransoletki, które
+ofiarowa³ dwóm swoim uczniom. ¯adnemu z nich nie spodoba³ siê pomys³
+noszenia tego samego prezentu od mistrza co drugi, wiêc jak tylko otrzymali
+swój spadek rzucili siê na siebie z morderczym okrzykiem. ¯aden z nich nie
+prze¿y³ owego pojedynku. 
+~
+Comments ~
+Objend
+#Vnum 176
+Name mithrilowy klips ~
+Odmiana mithrilowego klipsa ~mithrilowemu klipsowi ~mithrilowy klips~mithrilowym klipsem~mithrilowym klipsie~
+Short mithrilowy klips ~
+Descr Le¿y tutaj owalny mithrilowy klips z delikatnie wygrawerowanym kó³kiem w ¶rodku.~
+Material mithril~
+Type jewelry
+ExtraExt 0
+Wear AT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 8000
+Cond 75
+Aff 1 18 1 0 0 0
+Itemdesc Mithrilowy klips, jak siê mu uwa¿niej przyjrzeæ, przypomina tarczê
+strzelnicz± jakiej u¿ywaj± ³ucznicy na konkursach strzeleckich. Okr±g³y
+kawa³ek solidnie splecionego metalu, z wygrawerowanym kó³kiem w ¶rodku,
+posiada w punkcie centralnym delikatne wg³êbienie. Gdy chowasz b³yskotkê w
+d³oniach zauwa¿asz, ¿e przy¶wieca delikatnym niebieskim ¶wiate³kiem. 
+~
+Identdesc Mithrilowy klips zosta³ stworzony przez magów arrasyjskiej akademii na
+¿yczenie w³adców miasta. Mia³ wspomóc mizerne umiejêtno¶ci strzelecki
+wojaków na flankach w przypadku konieczno¶ci u¿ycia ³uków. Niestety
+bi¿uteria ta nigdy nie dotar³a do owego "elitarnego" oddzia³u, gdy¿ ten po
+nieszczêsliwym wypadku zastrzelenia mistrza ³ucznickiego przez swoich
+uczniów zosta³ naprêdce rozwi±zany. 
+~
+Comments ~
+Objend
+#Vnum 178
+Name trikorn  piórem~
+Odmiana trikornu z piórem~trikornowi z piórem~trikorn z piórem~trikornem z piórem~trikornie z piórem~
+Short trikorn z piórem~
+Descr Le¿y tutaj trójk±tne nakryciê g³owy, na którego wierzchniej stronie znajduje siê wczepione grube bia³e pióro. ~
+Material p³ótno~
+Type clothing
+ExtraExt 0|G
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 5000
+Cond 100
+Aff 1 29 1 0 0 0
+Itemdesc Trikorn wykonany jest z czarnego filcu obszytego dooko³a z³otymi niæmi.
+Szerokie rondo podwiniête jest do góry w taki sposób, ¿e tworzy kszta³t
+zbli¿ony do trójk±ta. Na lewym boku wierzchniej strony zapiête sterczy grube
+bia³e pióro. 
+~
+Identdesc Trikorn z piórem to czê¶æ stroju dowódcy rycerzy pokoju, który dowodzi³
+swym oddzia³em podczas jednej z ostatnich ekspedycji na tereny orków. O
+samej wyprawie wiadomo nie wiele. Wiadomo natomiast co sta³o sie po niej z
+obozem Rycerzy Pokoju gdy wódz orków wypowiedzia³ sycz±ce s³owa kl±twy nim
+pad³ od szabli dowódcy. Gdy oddzia³ powróci³ do swych kwater ziemia
+rozerwa³a siê na dwoje i poch³one³a nieszczê¶ników, a z nimi nawet
+najmniejszy kamieñ znajduj±cy sie w obozie. 
+~
+Comments ~
+Objend
+#Vnum 181
+Name czerwone cudeñko~
+Odmiana {Rczerwonego cudeñka{x~{Rczerwonemu cudeñku{x~{Rczerwone cudeñko{x~{Rczerwonym cudeñkiem{x~{Rczerwonym cudeñku{x~
+Short {Rczerwone cudeñko{x~
+Descr Le¿y tutaj niesamowicie pozawijany, wy³o¿ony {Rczerwonymi kamieniami kolczyk{x.~
+Material z³oto~
+Type jewelry
+ExtraExt 0|G
+Wear AT
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 20000
+Cond 100
+Aff 1 29 3 0 0 0
+Itemdesc Próbuj±c siê dok³adnie przypatrzeæ splotowi na tym kolczyku szybko
+tracisz orientacje w tym jak i gdzie idzie kolejny skrêt. Napewno jest co¶
+hipnotyzuj±cego w tym kawa³ku z³ota pokrytego czerwonymi agatami. Ca³o¶æ
+wykonana jest z kilku pod³u¿nych kawa³ków z³otego paska i u³o¿ona w kszta³t
+³zy. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 186
+Name korona  ko¶ci bazyliszka~
+Odmiana korony z ko¶ci {gbazyliszka{x~koronie z ko¶ci {gbazyliszka{x~koronê z ko¶ci {gbazyliszka{x~koron± z ko¶ci {gbazyliszka{x~koronie z ko¶ci {gbazyliszka{x~
+Short korona z ko¶ci {gbazyliszka{x~
+Descr Korona z ko¶ci jakiego¶ stworzenia le¿y tu, czekaj±c na ¶mia³ka gotowego j± podnie¶æ.~
+Material ko¶æ~
+Type clothing
+ExtraExt 0|J
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 25000
+Cond 100
+Aff 1 30 2 0 0 0
+Aff 1 12 16 30 0 0
+Itemdesc Bazyliszek nie jest istot±, któr± mo¿na czêsto spotkaæ. Tylko wielcy
+szczê¶ciarze maj± szanse go ujrzeæ, a jeszcze wiêksi uj¶æ z tego nadal
+¿yj±c. Jego ostre niczym brzytwa k³y, straszliwy oddech i spojrzenie
+zabij±ce najwaleczniejszego cz³owieka sprawia, i¿ takie stworzenie nie ³atwo
+zniszczyæ. Ten, który to zrobi³, musia³ mieæ niezwyk³e zdolno¶ci, jak
+przebieg³o¶æ i odwaga, ale tak¿e wielkie szczê¶cie. Korona zosta³a zapewne
+zrobiona by nigdy nie zapomnieæ tego czynu. Przedmiot emanuje tak¿e pewn±
+tajemnicz± energi±. Nie wiadomo kim by³ ten cz³owiek, lecz napewno nie by³
+zwyk³ym wojownikiem. Kto¶ musia³ maczaæ tu sw± magiê, a takie rzeczy
+potrafi± tylko najpotê¿niejsi z magów. 
+~
+Comments ~
+Objend
+#Vnum 187
+Name cersarska ró¿d¿ka~
+Odmiana {Wcersarskiej ró¿d¿ce{x~{Wcersarskiej ró¿d¿ce{x~{Wcersarsk± ró¿d¿ke{x~{Wcersarsk± ró¿d¿k±{x~{Wcersarskiej ró¿d¿ce{x~
+Short {Wcersarska ró¿d¿ka{x~
+Descr Widzisz ro¿dzke z³o¿on± z kilku ko¶ci, ozdobion± czarnym po³yskuj±cym kamieniem.~
+Material ko¶æ~
+Type wand
+ExtraExt 0|DE
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 15 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 26
+Cost 20000
+Cond 100
+Itemdesc Historia g³osi, ¿e wieki temu, na ¶wiecie ¿y³o trzech szalonych,
+aczkolwiek bardzo inteligentnych i do¶wiadczonych nekromantów. Chcieli oni
+stworzyæ magiczne arcydzie³o, które wykorzystane by by³o przeciwko dobru.
+Wêdrowali po ca³ym ¶wiecie poznaj±c coraz to nowsze i bardziej okrutne
+czary, niszcz±c dobro i równowagê. Cesarze panuj±cy wtedy, widz±c szybko
+rozprzestrzeniaj±ce siê z³o, postanowili walczyæ przeciwko niemu. Niestety
+by³o ju¿ za pó¼no. Nikt z nich nie podo³a³. Nekromanci uro¶li w si³ê i w
+koñcu uda³o siê im stworzyæ arcydzie³o w ¶wiecie magii, maj±ce raz na zawsze
+zniszczyæ wszelkie dobro. Z ich niesamowitymi umiejêtno¶ciami, wiedz±, oraz
+¶mierciono¶nymi czarami, które znali i opanowali tylko oni, by³o to nie
+uniknione. Jednak jak to zwykle bywa, pok³ócili siê, kto mia³by sprawowaæ
+najwiêksz± w³adzê na ¶wiecie. Moc tego przedmiotu zosta³a podzielona na trzy
+inne. Jedna z nich w³a¶nie trafi³a do twoich r±k. Nekromanci osobno nie
+posiadali ju¿ tak wielkiej si³y. Ostatni klerycy i paladyni postanowili to
+wykorzystaæ i raz na zawsze zniszczyæ swych najpotê¿niejszych wrogów, jeden
+po drugim. Jednak zapomnieli o ich pomocnych przedmiotach. Skoro ty
+posiadasz jeden, dwa inne gdzie¶ istniej± na tym ¶wiecie i czekaj± a¿ w
+koñcu trafi± do jednego w³a¶ciciela, by po³±czyæ siê i na nowo siaæ z³o oraz
+zniszczenie. 
+~
+Comments ~
+Objend
+#Vnum 188
+Name cesarska ró¿d¿ka destrukcji~
+Odmiana {Wcesarskiej ró¿d¿ki {R'{Wdestrukcji{R'{x~{Wcesarskiej ró¿d¿ce {R'{Wdestrukcji{R'{x~{Wcesarsk± ró¿d¿ke {R'{Wdestrukcji{R'{x~{Wcesarsk± ró¿d¿k± {R'{Wdestrukcji{R'{x~{Wcesarskiej ró¿d¿ce {R'{Wdestrukcji{R'{x~
+Short {Wcesarska ró¿d¿ka {R'{Wdestrukcji{R'{x~
+Descr Widzisz ro¿dzke z³o¿on± z kilku ko¶ci, ozdobion± czarnym po³yskuj±cym kamieniem, która emanuje niezwyk³± magi±.~
+Material ko¶æ~
+Type wand
+ExtraExt 0|DE
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 35 7 1 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 46
+Cost 50000
+Cond 100
+Itemdesc Historia g³osi, ¿e wieki temu, na ¶wiecie ¿y³o trzech szalonych,
+aczkolwiek bardzo inteligentnych i do¶wiadczonych nekromantów. Chcieli oni
+stworzyæ magiczne arcydzie³o, które wykorzystane by by³o przeciwko dobru.
+Wêdrowali po ca³ym ¶wiecie poznaj±c coraz to nowsze i bardziej okrutne
+czary, niszcz±c dobro i równowagê. Cesarze panuj±cy wtedy, widz±c szybko
+rozprzestrzeniaj±ce siê z³o, postanowili walczyæ przeciwko niemu. Niestety
+by³o ju¿ za pó¼no. Nikt z nich nie podo³a³. Nekromanci uro¶li w si³ê i w
+koñcu uda³o siê im stworzyæ arcydzie³o w ¶wiecie magii, maj±ce raz na zawsze
+zniszczyæ wszelkie dobro. Z ich niesamowitymi umiejêtno¶ciami, wiedz±, oraz
+¶mierciono¶nymi czarami, które znali i opanowali tylko oni, by³o to
+nieuniknione. Jednak jak to zwykle bywa, pok³ócili siê, kto mia³by sprawowaæ
+najwiêksz± w³adzê na ¶wiecie. Moc tego przedmiotu zosta³a podzielona na trzy
+inne. Ty musia³e¶ znale¼æ trzy czê¶ci i po³±czyæ je ze sob±. Albo by³a w
+ciele twojego wroga i on dokona³ tej czynno¶ci. Skoro ty jeste¶ posiadaczem
+tej ró¿d¿ki pora zacz±æ zapanowaæ nad chaosem. 
+~
+Identdesc Ró¿d¿ka Mrocznej Trójcy emanuje niesamowicie siln± czarn± magi±, któr±
+opanuj± jedynie najlepsi w swym fachu nekromanci. Sprawi ona, ¿e twe
+zaklêcia bêd± niesamowicie potê¿ne, bêdziesz w stanie raz na jaki¶ czas
+ko¶cianego demona. 
+~
+Comments ~
+Objend
+#Vnum 191
+Name obrêcz Ariei~
+Odmiana obrêczy Ariei~obrêczy Ariei~obrêcz Ariei~obrêcz± Ariei~obrêczy Ariei~
+Short obrêcz Ariei~
+Descr Widzisz tu skromn± opaskê na w³osy.~
+Material smocze ³uski~
+Type clothing
+ExtraExt 0|BG
+Wear AE
+Wear2Ext 0|CDM/1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 20000
+Cond 75
+Aff 1 3 3 0 0 0
+Aff 1 26 126 8 0 0
+Itemdesc Przygl±dasz siê uwa¿niej opasce. Jest wykonana skromnie, ale solidnie. No
+i gustownie, co nie uchodzi twojej uwadze. Widzisz niewielkie runy, ktore
+rozblyskuja zielonym swiatlem, kiedy probujesz je odczytac. Teraz juz wiesz
+ze w tej opasce drzemie magiczna moc. Obrêcz ta, wykonana z nici wykonanych
+z kosmyka wlosów Ariei oraz ³usek bia³ego smoka, z wyszytymi mithrilowymi
+niæmi runami niesie swoim w³ascicielom ³atwo¶æ skupienia my¶li i zwiêksza
+ich jasno¶æ. 
+~
+Comments ~
+Objend
+#Vnum 194
+Name piêkna tiara ~
+Odmiana piêknej tiary ~piêknej tiarze ~piêkn± tiare ~piêkn± tiar± ~piêknej tiarze ~
+Short piêkna tiara ~
+Descr Widzisz niewielk± sieæ z ³añcuszków, to chyba czepiec.~
+Material srebro~
+Type armor
+ExtraExt 0|G
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 15000
+Cond 100
+Aff 1 12 5 -10 0 0
+Aff 1 12 7 10 0 0
+Aff 1 12 8 10 0 0
+Itemdesc Przygl±dasz siê misternie wykonanemu czepcowi. W³a¶ciwie to nie czepiec,
+tylko delikatna siateczka na w³osy. Jej nici, wykonane ze srebrzystych
+³añcuszków, migocz± piêknie, sprawiaj±c wra¿enie refleksów ¶wiat³a na
+piêknej toni morza. Przez chwilê wydaje ci siê ¿e ³añcuszki s± z wody, a¿
+przecierasz oczy ze zdumienia! 
+~
+Comments ~
+Objend
+#Vnum 195
+Name ³añcuch oberona~
+Odmiana ³añcucha {Boberona{x~³añcuchowi {Boberona{x~³añcuch {Boberona{x~³añcuchem {Boberona{x~³añcuchu {Boberona{x~
+Short ³añcuch {Boberona{x~
+Descr Kunsztowny ³añcuch spleciony z owalnych ogniw le¿y tutaj.~
+Material stal~
+Type jewelry
+ExtraExt 0|K
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 10000
+Cond 100
+Aff 1 13 10 0 0 0
+Aff 1 29 2 0 0 0
+Itemdesc O tych ³añcuchach kr±¿y wiele legend. Znane s± te¿ jako ³añcuchy sêdziów
+albo te¿ ³añcuchy heroldów. Osoba posiadaj±ca ten ³añcuch by³a szanowana,
+ceniona i nietykalna, jako pose³ jednego z bóstw Tamery - Oberona. Na
+osobach tych ci±¿y³o mnóstwo obowi±zków, kto wie czy nie wiêcej ni¿
+przywilejów? Za to odpowiada³y one za moc i znaczenie ka¿dego
+wypowiedzianego s³owa, by³y one stra¿nikami przysi±g i umów. 
+~
+Comments ~
+Objend
+#Vnum 197
+Name ko¶ciana tarcza Oblicze zdrajcy~
+Odmiana {Wko¶cianej tarczy {r"{DOblicze zdrajcy{r"{x~{Wko¶cianej tarczy {r"{DOblicze zdrajcy{r"{x~{Wko¶cian± tarczê {r"{DOblicze zdrajcy{r"{x~{Wko¶cian± tarcz± {r"{DOblicze zdrajcy{r"{x~{Wko¶cianej tarczy {r"{DOblicze zdrajcy{r"{x~
+Short {Wko¶ciana tarcza {r"{DOblicze zdrajcy{r"{x~
+Descr Ko¶ciana tarcza le¿y skrywaj±c jak± tajemnice.~
+Material ko¶æ~
+Type shield
+ExtraExt 0|GJ
+Wear AJ
+Wear2Ext 0|EHIb
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 3 5 35 10 2 2 0
+Repair 0 0 0 0
+Length 0
+Weight 320
+Cost 30000
+Cond 100
+Aff 1 26 114 10 0 0
+Objprog fight 197 100~
+Itemdesc Tarcza wykonana z ko¶ci po tym mo¿na by³o rozpoznaæ jednego z najlepszych
+wojowników przesz³o¶ci. Ta tarcza nale¿a³a tak¿e do niego. W czasach, gdy
+elfy wojowa³y z lud¼mi. Cz³owiek, do którego nale¿a³a ta tarcza, zdradzi³
+swoich braci i popra³ elfy. Po tym incydencie magowie zabili go i przeklêli
+tarcze nale¿±ce do jego. By nigdy nie pomog³a ju¿ nikomu. Lecz tarcza nie
+straci³a swoich w³a¶ciwo¶ci, a zyska³a jakie¶ negatywne, których nikt nie
+jest w stanie odkryæ. Widzisz w tarczy wyryte litery {WRE{x pozosta³e trzy s±
+zamazane, pewnie to by³o imiê tego zdrajcy. 
+~
+Comments ~
+Objend
+#Vnum 198
+Name adamantytowy gladius~
+Odmiana {Dadamantytowego{x gladiusa~{Dadamantytowym{x gladiusem~{Dadamantytowy{x gladius~{Dadamantytowym{x gladiusem~{Dadamantytowym{x gladiusie~
+Short {Dadamantytowy{x gladius {REraninela{x~
+Descr {DAdamantytowy{x gladius le¿y na ziemi.~
+Material adamantyt~
+Type weapon
+ExtraExt 0|DGZ
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 11 2 5 1 65536 2 3
+Repair 0 0 0 0
+Length 50
+Weight 90
+Cost 40000
+Cond 100
+Aff 1 2 1 0 0 0
+Itemdesc Adamantytowy gladius to niezwyk³a broñ nale¿±ca niegdy¶ do nizio³ka
+Enarinela, który by³ jednym z najlepszych wojowników Tamery. Bron ta jest
+umagiczniona, ale jej w³a¶ciwo¶ci nie s± wszystkie odkryte. Jej ¿elazna
+g³ownia obusieczna z osia przez ¶rodek i ostro zarysowanym szczytem.
+Rêkoje¶æ natomiast posiada kulista g³owice, której trzon jest karbowany. 
+~
+Identdesc Broñ ta w rêkach nizio³ka jest magiczna +3.
+~
+Comments ~
+SpecDamExt 2 100 -100 6 -100 0 3 1
+SpecDamExt 2 100 -100 6 -100 0 2 0
+Objend
+#Vnum 200
+Name chalkozynowy ortysz ~
+Odmiana chalkozynowego ortysza~chalkozynowemu ortyszowi~chalkozynowy ortysz~chalkozynowym ortyszem~chalkozynowym ortyszu~
+Short chalkozynowy ortysz ~
+Descr Widzisz szeroki lniany pas o chalkozynowym zabarwieniu. ~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0|ACDLMc/1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 40000
+Cond 100
+Aff 1 27 2 1 0 0
+Aff 1 27 4 1 0 0
+Itemdesc Ortysz, który wzbudzi³ twoje zainteresowanie, jest rodzajem szerokiego
+lnianego pasa, który zgodnie z wierzeniami poprawia³ efekty dzia³añ
+wszelakiej ma¶ci znachorów i szamanów podczas leczenia chorób i obra¿eñ
+trawi±cych cia³a ich pacjentów. Ortysz jest niemal czarnej barwy, jednak w
+promieniach s³oñca, podobnie jak chalkozyn tworzy srebrzystobia³e refleksy -
+na tym tle wyhaftowano ³zy krwistoczerwonej barwy, nawi±zuj±ce do kultu
+Isoryka, czuwaj±cego boga cierpienia. 
+~
+Comments ~
+Objend
+#Vnum 203
+Name staro¿ytny chopesz~
+Odmiana {Dstaro¿ytnego {Rchopesza{x~{Dstaro¿ytnemu {Rchopeszowi{x~{Dstaro¿ytny {Rchopesz{x~{Dstaro¿ytnym {Rchopeszem{x~{Dstaro¿ytnym {Rchopeszu{x~
+Short {Dstaro¿ytny {Rchopesz{x~
+Descr Widzisz staro¿ytny miecz zwany chopeszem. ~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|DG
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 3 4 0 0 1 2
+Repair 0 0 0 0
+Length 70
+Weight 60
+Cost 40000
+Cond 100
+Itemdesc Przygl±dasz siê staro¿ytnemu królewskiemu mieczowi, który na pierwszy
+rzut oka nie wygl±da na specjalnie dobrze wywa¿ony, ale za to jego rêkoje¶æ
+zdobiona jest niezwykle bogato topazami i szafirami. Efekt jest dodatkowo
+wzmocniony dwoma du¿ymi szafirami u³o¿onymi po obu stronach miejsca, w
+którym trzpieñ g³owni rozpoczyna swe mocowanie w rêkoje¶ci oraz niemal¿e
+gigantyczn± rubinow± g³owic±. Po chwili namys³u zdajesz sobie sprawê, ¿e
+takich rozmiarów g³owica zosta³a dobrana nieprzypadkowo - to ona kompensuje
+pozorny brak proporcji mas i nadaje chopeszowi odpowiednie wywa¿enie. Wad±
+tergo rozwi±zania jest nieco zbyt du¿a masa ca³ego miecza, przekraczaj±ca
+typowe 1-2 kg, co dla wprawnego u¿ywania wymaga sporej si³y. Czujesz, ¿e w
+mieczu zawarta jest jeszcze jaka¶ tajemnica, której jednak samym rozumem
+poj±æ nie zdo³asz. 
+~
+Identdesc Broñ traktowana jest jako +3.
+~
+Comments ~
+SpecDamExt 2 100 -100 -100 -100 0 3 1
+Objend
+#Vnum 204
+Name pó³torarêczny bastard~
+Odmiana pó³torarêcznego bastarda~pó³torarêcznemu bastardowi~pó³torarêczny bastard~pó³torarêcznym bastardem~pó³torarêcznym bastardzie~
+Short pó³torarêczny bastard~
+Descr Pó³torarêczny miecz typu bastard przyci±ga twój wzrok. ~
+Material mithril~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0|CM
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 2 6 1 0 2 1
+Repair 0 0 0 0
+Length 85
+Weight 135
+Cost 20000
+Cond 100
+Aff 1 26 111 5 0 0
+Itemdesc Przygl±dasz siê stosunkowo ubogo zdobionemu i lekkiemu bastardowi,
+charakteryzuj±cemu siê nieznacznie wygiêtym jelcem, oddzielaj±cym g³owniê od
+rêkoje¶ci. Po staranniejszym przyjrzeniu siê zauwa¿asz jakie¶ wzory na
+nasadce otaczaj±cej trzpieñ - przedstawiaj± one samotnego wêdrowca, ktory
+stoi na górze, nieco z ty³u jakiego¶ dowódcy daj±cemu znaki swej tocz±cej
+¶miertelny bój u podnó¿a. Wydaje ci siê, ¿e wêdrowiec co¶ szepta na ucho
+dowódcy. 
+~
+Identdesc Odkrywasz olbrzymi± moc, któr± kto¶ obdarzy³ bastarda, czyni±c± z niego
+niezwykle skuteczne narzêdzie walki, w tej chwili u¶wiadamiasz sobie, ¿e
+przedstawiona na rêkoje¶ci sylwetka wêdrowca jest uosobieniem samego
+Mystrala Telivirtara, niezwyciê¿onego boga wojny. 
+~
+Comments ~
+Objend
+#Vnum 205
+Name platynowy harkisz~
+Odmiana platynowego harkisza~platynowemu harkiszowi~platynowy harkisz~platynowym harkiszem~platynowym harkiszu~
+Short platynowy harkisz~
+Descr Widzisz harkisz w formie kawa³ka zakoñczonego ozdobami specyficznie zagiêtego platynowego drutu. ~
+Material platyna~
+Type jewelry
+ExtraExt 0|JK
+Wear AT
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 28000
+Cond 100
+Aff 1 3 3 0 0 0
+Aff 1 2 -2 0 0 0
+Itemdesc Twe oko przyci±gnê³a do¶æ nietypowa ozdoba uszu, maj±ca postaæ
+platynowego drutu zawiniêtego w sposób umo¿liwiaj±cy zawieszenie na
+zewnêtrznej stronie ma³¿owin. Drut po przeciwnej stronie zwiêksza swoj±
+grubo¶æ, a nastêpnie jest rozwalcowany tak, aby by³o mo¿liwe zarówno
+umieszczenie ozdób, jak i wzorów symbolizuj±cych pozycjê, cze¶æ bóstwom i
+tym podobne rzeczy. W tym przypadku widzisz napis "Qobana", co przywodzi ci
+na my¶l mieszcz±c± siê na zboczach góry o tej nazwie s³ynn± kapliczkê Ariei.
+Skojarzenie to tym bardziej ciê nurtuje, ¿e szlachetnym zwieñczeniem
+harkiszu jest agalmatolitowa figurka ³udz±co podobna do znanych wyobra¿eñ
+wspomnianej bogini magii. 
+~
+Comments ~
+Objend
+#Vnum 208
+Name ró¿d¿ka tyrani~
+Odmiana {Rr{Wó{r¿{Wd{R¿{Wk{Ri {Wt{Ry{Wr{ra{Wn{Ri{Wi{x~{Rr{Wó{r¿{Wd{R¿{Wc{Re {Wt{Ry{Wr{ra{Wn{Ri{Wi{x~{Rr{Wó{r¿{Wd{R¿{Wk{Rê {Wt{Ry{Wr{ra{Wn{Ri{Wi{x~{Rr{Wó{r¿{Wd{R¿{Wk{R± {Wt{Ry{Wr{ra{Wn{Ri{Wi{x~{Rr{Wó{r¿{Wd{R¿{Wc{Re {Wt{Ry{Wr{ra{Wn{Ri{Wi{x~
+Short {Rr{Wó{r¿{Wd{R¿{Wk{Ra {Wt{Ry{Wr{ra{Wn{Ri{Wi{x~
+Descr Przyci±ga twój wzrok przezroczysta ró¿d¿ka z du¿ym kryszta³em na koñcu. ~
+Material kryszta³~
+Type wand
+ExtraExt 0
+Wear AO
+Wear2Ext 0|CDKMc/1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 10 8 3 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 100000
+Cond 100
+Itemdesc Skanujesz zafascynowanymi oczyma sporych rozmiarów ró¿d¿kê, której
+zasadnicz± czê¶æ wykonano w ca³o¶ci z olbrzymiego kryszta³u hambergitu, do
+którego za pomoc± ¿elaznego zaczepu przypominaj±cego maski wyznawców
+Vastaina przymocowano czarny pleonastowy klejnot. Obok kszta³tu zaczepu
+sygna³ów o mocy Vastaina tchniêtej w ber³o jest wiêcej - tak ogromne
+kryszta³y hamberlitów powstaj± jedynie w Ognistym Oku, wulkanie dominuj±cym
+nad Czarnymi Górami, których po³udniowo-wschodnie zbocza s± miejscem
+szczególnie nasilonego kultu wspomnianego boga tyranii i niesprawiedliwo¶ci.
+Plenoasty znale¼æ mo¿na jedynie w nurcie rzeki Tris'Ehr, która wymywa je
+prawdopodobnie ze starszych, wygas³ych w prehistorycznych czasach wulkanów.
+A do tego wszystkiego zaczep, niby wykonany z ¿elaza, ale nie widaæ na nim
+najmniejszych ¶ladów rdzy i jest dodatkowo o wiele twardszy, tak ¿elazo, a
+w³a¶ciwie to stal, umiej± wytapiaæ w minikraterach na zboczach Ognistego Oka
+jedynie kap³ani Vastaina. 
+~
+Identdesc Odkrywasz, i¿ zadawane obra¿enia przez osobê, która bêdzie u¿ywa³a tej
+ró¿d¿ki wzrosn± o 10% i przebicie odporno¶ci wroga o 3. 
+~
+Comments Zabieram +1 do charyzmy. Sigh. - {RDrake{x ({CTue Jul 20 14:04:43 2010{x)
+~
+Objend
+#Vnum 209
+Name symbol Mea'Eridu~
+Odmiana {wsymbolu{x {CMea'Eridu{x~{wsymbolowi{x {CMea'Eridu{x~{wsymbol{x {CMea'Eridu{x~{wsymbolem{x {CMea'Eridu{x~{wsymbolu{x {CMea'Eridu{x~
+Short {wsymbol{x {CMea'Eridu{x~
+Descr Twe oko przyci±gn±³ symbol stworzycielki wszystkiego.~
+Material ro¶lina~
+Type jewelry
+ExtraExt 0|JK
+Wear AC
+Wear2Ext 0|K/1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 88000
+Cond 100
+Aff 1 4 3 0 0 0
+Aff 1 3 1 0 0 0
+Itemdesc O Mea'Eridu nie wiadomo wiele ponad to, ¿e stworzy³a ¶wiat - dlatego
+zawieszony na wykonanym z uschniêtych pn±czy sznurze z³oty wizua³ s³oñca
+zawiera ponadto symbole deszczu, zwierz±t, nocy i trudno zgadn±æ, czego
+jeszcze. W taki sposób druidzi, wyznaj±cy kult pradawnej bogini próbuj±
+oddaæ jej cze¶æ. Przypuszcza siê, ¿e nie miesza siê ona w spory bogów, ale
+mo¿e jest sk³onna obdarzyæ jak±¶ ³ask± swych wyznawców? 
+~
+Comments ~
+Objend
+#Vnum 211
+Name kryszta³ Tellany~
+Odmiana {Ckryszta³u{x {YTellany{x~{Ckryszta³owi{x {YTellany{x~{Ckryszta³{x {YTellany{x~{Ckryszta³em{x {YTellany{x~{Ckrysztale{x {YTellany{x~
+Short {Ckryszta³{x {YTellany{x~
+Descr Widzisz zdobion± jakby pochodniê, zakoñczon± kryszta³em datolitu, z którego emanuje jasne, ¿ó³tawe ¶wiat³o. ~
+Material kryszta³~
+Type light
+ExtraExt 0|K
+Wear AO
+Wear2Ext 1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 0 -1 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 7
+Cost 20000
+Cond 100
+Objprog fight 211_fight 35~
+Objprog random 211_random 80~
+Itemdesc Rêkoje¶æ pochodni wykonana jest z jakiego¶ dziwnego, lekkiego metalu,
+który jest nieco miêkszy od ¿elaza i troszeczkê mniej zimny w dotyku. Metal
+zdobiony jest z³otem, za pomoc± symboli takich, jak oczy Tellany, a
+zakoñczony jest datolitowym kryszta³em, z którego promienieje ¿ó³tawobia³e
+¶wiat³o, które zdaje siê wykazywaæ w³asno¶ci samoreguluj±ce i w ¶wietle
+s³onecznym przygasa, natomiast im ciemniej jest, tym wiêksz± ¶wiat³o¶ci±
+otacza u¿ytkownika kryszta³u. 
+~
+Identdesc Kryszta³ potrafi roz¶wietliæ nawet najg³êbsze ciemno¶ci. Dziêki
+o¶lepiaj±cym strumieniom ¶wiat³a, zmniejsza nieco szanse na trafienie
+swojego u¿ytkownika. 
+~
+Comments dodaje próg 211_fight, aby item by³ bardziej ciekawy. - {RKarlam{x ({CSat Jan  7 20:48:22 2012{x)
+~
+Objend
+#Vnum 212
+Name laska sztormów~
+Odmiana laski sztormów~lasce sztormów~laskê sztormów~lask± sztormów~lasce sztormów~
+Short laska sztormów~
+Descr Widzisz laskê wykonan± z ko¶ci mnogorybca, zakoñczon± przezroczystym kryszta³em o niebieskim odcieniu. ~
+Material ko¶æ~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 2 8 7 32 1 1
+Repair 0 0 0 0
+Length 150
+Weight 120
+Cost 72000
+Cond 100
+Aff 1 12 8 10 0 0
+Aff 1 12 7 10 0 0
+Itemdesc Laska wykonana jest z bia³ej ko¶ci ssaka, bêd±cego zwierzêcym królem
+oceanu rozci±gaj±cego swe bezkresne po³acie wód na zachód od Zatoki Tilian.
+Na jej koñcu przymocowano bardzo solidnie fantazyjnie oszlifowany kryszta³
+kordierytu, wykazuj±cy silny fioletowoniebieski pleochroizm oraz daj±cy
+silny efekt asteryzmu - takie odmiany bywaj± nazywane wodnym szafirem. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 132
+Name Przed masywn± bram± Fortecy~
+Descr Patrz±c na po³udnie widzisz ogromne, kamienne bramy Krasnoludzkiej
+Fortecy, natomiast na pó³nocy widnieje jedna wielka, zielona, bezkszta³tna z
+tej odleg³o¶ci masa drzew. Trakt tutaj nie jest zbyt czêsto odwiedzany. Ruch
+jest naprawdê niewielki. Udaj±c siê na wschód lub na zachód mo¿na okr±¿yæ
+miasto i pod±¿yæ w innym wybranym kierunku, bez potrzeby jego odwiedzania. 
+~
+FlagsExt 0|H
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 133
+ExitExtEnd
+Exit 0
+~
+~
+0 0 133
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5617
+ExitExtEnd
+Exit 1
+~
+~
+0 0 5617
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextIn $n wchodzi do bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 41
+ExitExtEnd
+Exit 2
+~
+VName Brama~
+TextIn $n wchodzi do bramy.~
+brama~
+3 0 41
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 207
+ExitExtEnd
+Exit 3
+~
+~
+0 0 207
+Roomprog entry 132 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 133
+Name Pocz±tek brukowanego go¶ciñca~
+Descr Rozpoczyna siê przed tob± jedna z najnowocze¶niejszych brukowanych dróg
+wybudowanych przez krasnoludy. Jest to kamienny, lub jak kto woli brukowany
+go¶ciniec prowadz±cy od Fortecy na pó³noc, praktycznie do nik±d. Chyba, ¿eby
+liczyæ liczne lasy, pola i mo¿e jakie¶ podziemne jaskinie za warte uwagi
+miejsca docelowe. Widaæ, ¿e nie jest to zbyt czêsto odwiedzana droga. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 134
+ExitExtEnd
+Exit 0
+~
+~
+0 0 134
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 132
+ExitExtEnd
+Exit 2
+~
+~
+0 0 132
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 223
+ExitExtEnd
+Exit 3
+~
+~
+0 0 223
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 134
+Name Na brukowanym go¶ciñcu~
+Descr Znajdujesz siê na brukowanym go¶ciñcu, niedaleko na pó³noc od
+Krasnoludzkiej Fortecy. Droga ta prowadzi od samego miasta dalej na pó³noc,
+gdzie¶ w kierunku majacz±cych tam lasów, ³±k i pól. Chocia¿ jest to droga
+naprawdê wysokiej jako¶ci nie wygl±da na zbyt czêsto odwiedzan±. Niewiele tu
+wozów i jeszcze mniej zwyk³ych podró¿ników. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 135
+ExitExtEnd
+Exit 0
+~
+~
+0 0 135
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17771
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17771
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 133
+ExitExtEnd
+Exit 2
+~
+~
+0 0 133
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 224
+ExitExtEnd
+Exit 3
+~
+~
+0 0 224
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 135
+Name Brukowany go¶ciniec~
+Descr Stoisz na drodze prowadz±cej z pó³nocy na po³udnie do Krasnoludzkiej
+Fortecy. Potocznie trakt ten nazywany jest po prostu brukowanym go¶ciñcem,
+ze wzglêdu na jego brukowan± konstrukcjê, która jest o tyle
+charakterystyczna, ¿e jest praktycznie idealna. Nawierzchnia jest zadbana i
+wygodnie siê po niej idzie. Na zachodzie widzisz ¶cianê zielonego, zadbanego
+i zarazem dzikiego lasu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 136
+ExitExtEnd
+Exit 0
+~
+~
+0 0 136
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 134
+ExitExtEnd
+Exit 2
+~
+~
+0 0 134
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3790
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3790
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 136
+Name Na kamiennym go¶ciñcu~
+Descr Go¶ciniec prowadzi tutaj dok³adnie, prosto z po³udnia na pó³noc. Na
+po³udniowym krañcu tej drogi majacz± w oddali zabudowania monumentalnej
+Krasnoludzkiej Fortecy, wielkiego miasta, które kiedy¶ by³o pe³noprawn±
+cytadel±. Droga jest naprawde ¶wietnie utrzymana, nie zauwa¿asz w niej
+¿adnych wyrw czy ubytków w kamieniach. Mo¿na spokojnie pod±¿aæ ni± do celu
+podró¿y. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 137
+ExitExtEnd
+Exit 0
+~
+~
+0 0 137
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 135
+ExitExtEnd
+Exit 2
+~
+~
+0 0 135
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3791
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3791
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 137
+Name Kamienny go¶ciniec~
+Descr Poruszasz siê po jednej z najnowocze¶niejszych dróg wybudowanych przez
+krasnoludy z pobliskiej Fortecy, znajduj±cej siê na po³udniowym krañcu tego
+go¶ciñca. Trakt jest równy i widaæ, ¿e siê o niego dba, prowadz±c wszelkie
+potrzebne reperacje na czas. Krasnoludy s³usznie zas³u¿y³y sobie na miano
+prawdziwych mistrzów w tym i nie tylko tym rzemio¶le. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 138
+ExitExtEnd
+Exit 0
+~
+~
+0 0 138
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 136
+ExitExtEnd
+Exit 2
+~
+~
+0 0 136
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3792
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3792
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 138
+Name Na go¶ciñcu~
+Descr Pod±¿asz dalej zadbanym, brukowanym go¶ciñcem. Jest to doskona³e dzie³o
+najprzedniejszych krasnoludzkich rzemie¶lników, którzy osi±gnêli swojego
+rodzaju perfekcjê w budowaniu traktów i dróg. Z jednej strony to przyjemnie
+byæ pewnym, ¿e za ka¿dym razem natrafi siê na drogê zamiast dziury w drodze,
+jednak ten monotonny d¼wiêk stukania o kamienie powoli doprowadza ciê do
+sza³u. Na po³udnie prowadzi dalsza droga do Fortecy. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 139
+ExitExtEnd
+Exit 0
+~
+~
+0 0 139
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 137
+ExitExtEnd
+Exit 2
+~
+~
+0 0 137
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3793
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3793
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 139
+Name Przed faktori±~
+Descr Idziesz szerokim, brukowanym go¶ciñcem i z ka¿dym krokiem s³yszysz jak
+twoje buty stukaj± o kamienie. Przy drodze zauwa¿asz dziwnie wbity {yznak{S. Na
+pó³nocy widzisz wy³aniaj±c± siê z oddali monumentaln± Kamienn± Bramê
+krasnoludów. Natomiast na po³udnie prowadzi dalsza droga do Fortecy. 
+~
+FlagsExt 0
+Sector 18
+Extra znak~
+{y#======================#
+   {y|                      |
+   {y|   {RFaktoria handlowa  {y|
+   {y|   {R   SKUP SKÓR       {y|
+   {y|   {RAtrakcyjne ceny!   {y|
+   {y|     {c  <=====         {y|
+   {y|                      {y|
+   {y#======================#
+              {y##
+              {y##
+              {y##
+              {y##
+              {y##
+              {y##
+              {y##
+              {y##{x
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 140
+ExitExtEnd
+Exit 0
+~
+~
+0 0 140
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11178
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11178
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 138
+ExitExtEnd
+Exit 2
+~
+~
+0 0 138
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 201
+ExitExtEnd
+Exit 3
+~
+~
+0 0 201
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 140
+Name Pod Kamienn± Bram±~
+Descr Powoli spogl±dasz w górê i z trudem t³umisz w sobie westchnienie podziwu.
+Takiego czego¶ nie widzi siê codziennie. Nad traktem wybudowana jest
+gigantycznych rozmiarów brama, a raczej portal, bowiem konstrukcja
+przypomina ³uk rozpiêty nad drog±, pod którym mo¿na przej¶æ. Szczyt
+konstrukcji zwieñczony jest ostrym czubkiem, jakby celuj±cym w niebo.
+Zauwa¿asz, ¿e zrobiona jest ona z jakiego¶ dziwnego, bia³ego kamienia, który
+wydaje siê byæ bardzo trwa³ym. Ca³a brama pokryta jest jakimi¶ runicznymi
+inskrypcjami. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 141
+ExitExtEnd
+Exit 0
+~
+~
+0 0 141
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11177
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11177
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 139
+ExitExtEnd
+Exit 2
+~
+~
+0 0 139
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52716
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52716
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 141
+Name Zakrêt szerokiego go¶ciñca~
+Descr Znajdujesz siê na dosyæ spokojnym zakrêcie tego brukowanego go¶ciñca,
+który ci±gnie siê z po³udnia na zachód. Gdzie by nie spojrzeæ widaæ inny
+krajobraz. Na pó³nocy i wschodzie dominuj± gêste, mieszane i dzikie lasy.
+Natomiast daleko, daleko na zachodzie widaæ rozleg³e ³aki poro¶niête
+soczy¶ciezielon± traw±. Natomiast na samym trakcie na po³udniu majaczy
+ogromna, kamienna brama. 
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11181
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11181
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11179
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11179
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 140
+ExitExtEnd
+Exit 2
+~
+~
+0 0 140
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 151
+ExitExtEnd
+Exit 3
+~
+~
+0 0 151
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 142
+Name Równina~
+Descr Szeroki trakt prowadzi cie przez skalist± równinê, id±c mijasz skalne
+bloki na których po³yskuj± swoim w³asnym ¶wiat³em runiczne napisy. Jak
+daleko siêgn±æ okiem rozci±ga siê bezkresna równina. Szeroki,
+piaszczysto-kamienny trakt przecina j± z zachodu na wschód. Powietrze jest
+tutaj nadzywczaj czyste, raz po raz wiatr ze wschodu przynosi je ciep³e,
+momentami nawet gor±ce. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24574
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24574
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 143
+ExitExtEnd
+Exit 1
+~
+~
+0 0 143
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24564
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24564
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 162
+ExitExtEnd
+Exit 3
+~
+~
+0 0 162
+Roomprog random 150 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 143
+Name Równina~
+Descr W tym miejscu trakt zosta³ wykuty w skalistym pod³o¿u, przez dawnych
+budowniczych. Jak daleko siêgn±æ okiem rozci±ga siê bezkresna równina.
+Szeroki, piaszczysto-kamienny trakt przecina j± z zachodu na wschód.
+Powietrze jest tutaj nadzywczaj czyste, raz po raz wiatr ze wschodu przynosi
+je ciep³e, momentami nawet gor±ce. Wzd³u¿ traktu rosn± wielkie kaktusy i
+cierniste krzewy. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24573
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24573
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 144
+ExitExtEnd
+Exit 1
+~
+~
+0 0 144
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24563
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24563
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 142
+ExitExtEnd
+Exit 3
+~
+~
+0 0 142
+Roomprog random 150 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 144
+Name Równina~
+Descr Trakt wiedzie ciê w¶ród wysokich, stosunkowo du¿ych kaktusów i
+ciernistych krzewów. Jak daleko siêgn±æ okiem rozci±ga siê bezkresna
+równina, wiatr przynosi ze wschodu gor±ce powietrze z nad pustyni.
+Rozgl±daj±c siê widzisz granitow±, ci±gn±c± siê bez koñca równinê i
+gdzieniegdzie porozrzucane du¿e jak i ma³e kamienie, momentami mo¿na nawet
+trafiæ na ogromne g³azy. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24572
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24572
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 145
+ExitExtEnd
+Exit 1
+~
+~
+0 0 145
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24562
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24562
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 143
+ExitExtEnd
+Exit 3
+~
+~
+0 0 143
+Roomprog random 150 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 145
+Name Równina~
+Descr W tym miejscu trakt zosta³ wykuty w skalistym pod³o¿u, przez dawnych
+budowniczych. Jak daleko siêgn±æ okiem rozci±ga siê bezkresna równina.
+Szeroki, piaszczysto-kamienny trakt przecina j± z zachodu na wschód.
+Powietrze jest tutaj nadzywczaj czyste, raz po raz wiatr ze wschodu przynosi
+je ciep³e, momentami nawet gor±ce. Wzd³u¿ traktu rosn± wielkie kaktusy i
+cierniste krzewy. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 146
+ExitExtEnd
+Exit 1
+~
+~
+0 0 146
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24561
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24561
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 144
+ExitExtEnd
+Exit 3
+~
+~
+0 0 144
+Roomprog random 150 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 146
+Name Równina~
+Descr Trakt wiedzie ciê w¶ród wysokich, stosunkowo du¿ych kaktusów i
+ciernistych krzewów. Jak daleko siêgn±æ okiem rozci±ga siê bezkresna
+równina, wiatr przynosi ze wschodu gor±ce powietrze z nad pustyni.
+Rozgl±daj±c siê widzisz granitow±, ci±gn±c± siê bez koñca równinê i
+gdzieniegdzie porozrzucane du¿e jak i ma³e kamienie, momentami mo¿na nawet
+trafiæ na ogromne g³azy. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 160
+ExitExtEnd
+Exit 1
+~
+~
+0 0 160
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24560
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24560
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 145
+ExitExtEnd
+Exit 3
+~
+~
+0 0 145
+Roomprog random 150 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 147
+Name Niewysokie pagórki~
+Descr Trakt prowadzi przez skalisty teren, nie mo¿esz siê rozejrzeæ zbyt
+daleko, bo widok zas³aniaj± ci niewysokie pagórki i wzgórza. Wiêkszo¶æ z
+nich jest po prostu go³a, wzglêdnie pokryta nisk± traw±, spalone s³oñcem i
+smagane ciep³ym wiatrem ze wschodu. Miêdzy i na pagórkach rosn± niewielkie,
+bo oko³o metrowe kaktusy. Walaj± siê te¿ wielkie, spore jak i ma³e kamienie.
+Ze wschodu nap³ywa coraz cieplejsze powietrze, co oznacza, ¿e znajdujesz siê
+ca³kiem niedaleko pustyni. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 148
+ExitExtEnd
+Exit 1
+~
+~
+0 0 148
+Roomprog random 150 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 148
+Name Pustynia~
+Descr Droga prowadzi przez piaszczyst± pustyniê, widok jest monotonny: piasek,
+kamienie, ska³y, kaktusy, piasek.. . Gdyby nie usypana kamieniami droga,
+móg³by¶ ³atwo zab³±dziæ. Gor±c, skwar, upa³, s³oñce i spiekota to okre¶lenia
+które ci±gle chodz± po twojej zmêczonej g³owie. Chcia³bys jak najszybciej
+st±d wyj¶æ na jaki¶ normalny trakt lub po prostu schowaæ siê gdzie¶ w
+cieniu, ale tego raczej tutaj nie widaæ. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 149
+ExitExtEnd
+Exit 1
+~
+~
+0 0 149
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 147
+ExitExtEnd
+Exit 3
+~
+~
+0 0 147
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 149
+Name Pustynia~
+Descr Droga prowadzi tutaj przez prawdziwe piek³o. Gor±c, skwar, upa³ i
+spiekota to jedyne okre¶lenia jakie zaczynaj± pulsowaæ i wibrowaæ w twojej
+zmêczonej g³owie. Zastanawiasz siê przez chwilê jak to mo¿liwe, ¿eby
+pustynia zaczyna³a siê tak nagle i niespodziewanie, ale widocznie takie co¶
+jest mo¿liwe. Trakt prowadzi przez jej skraj, ze wschodu na zachód. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 150
+ExitExtEnd
+Exit 1
+~
+~
+0 0 150
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 148
+ExitExtEnd
+Exit 3
+~
+~
+0 0 148
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 150
+Name Pustynia~
+Descr Droga prowadzi przez piaszczyst± pustyniê, widok jest monotonny: piasek,
+kamienie, ska³y, kaktusy, piasek.. . Gdyby nie usypana kamieniami droga,
+móg³by¶ ³atwo zab³±dziæ. Gor±c, skwar, upa³, s³oñce i spiekota to okre¶lenia
+które ci±gle chodz± po twojej zmêczonej g³owie. Chcia³bys jak najszybciej
+st±d wyj¶æ na jaki¶ normalny trakt lub po prostu schowaæ siê gdzie¶ w
+cieniu, ale tego raczej tutaj nie widaæ. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 156
+ExitExtEnd
+Exit 2
+~
+~
+0 0 156
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 149
+ExitExtEnd
+Exit 3
+~
+~
+0 0 149
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 151
+Name Brukowany go¶ciniec~
+Descr Znajdujesz siê na szerokiej, brukowanej drodze. Na pó³nocy i po³udniowym
+zachodzie rozci±ga siê dziki, zielony las w którym pocz±tkuj±cy adepci i
+wojowie mog± æwicziæ swoje si³y stawiaj±c pierwsze kroki w swoim fachu.
+Gdzie¶ niedaleko na po³udniu znajduje siê krasnoludzka Forteca, do której
+trafisz pod±¿aj±c traktem na po³udnie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4550
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4550
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 141
+ExitExtEnd
+Exit 1
+~
+~
+0 0 141
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52716
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52716
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 205
+ExitExtEnd
+Exit 3
+~
+~
+0 0 205
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 152
+Name Niewielkie skrzy¿owanie go¶ciñca~
+Descr Znajdujesz siê na szerokim, brukowanym go¶ciñcu, który w tym miejscu
+ulega rozwidleniu. Jest to skrzy¿owanie tylko teoretyczne, bowiem g³ówna
+droga nagle koñczy siê na zachodzie i ustêpuje miejsca zwyk³ej, do¶æ
+szerokiej, piaszczystej ¶cie¿ce wsród porastaj±cych miejscami traw± le¶nych
+polanek. Bruk natomiast niknie tak¿e na po³udniu, gdzie wchodzi p³ytko w las
+i podobnie, gwa³townie siê koñczy. Tak w³a¶ciwie to dziwnie wygl±da ten
+nietypowy koniec drogi, i ta ¶ciana lasu na po³udniu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52710
+ExitExtEnd
+Exit 0
+~
+~
+0 0 52710
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 206
+ExitExtEnd
+Exit 1
+~
+~
+0 0 206
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3770
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3770
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 154
+ExitExtEnd
+Exit 3
+~
+~
+0 0 154
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 153
+Name Ciemna sciezka~
+Descr Waska sciezka, która idziesz, wije sie miedzy gesto rosnacymi wysokimi,
+posepnymi bukami.  Ich korony tworza platanine tak gesta, ze dociera tutaj
+bardzo malo swiatla.  Panuje tu podniosla cisza, która zakloca tylko szum
+drzew.  Podazajac w strone zachodnia dojdziesz do lasu, w którym bedziesz
+mogl rozwinac swoja umiejetnosc walki.  Idac na pó³noc dojdziesz do rozstaju
+drog.  
+~
+FlagsExt 0
+Sector 3
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 155
+ExitExtEnd
+Exit 3
+~
+~
+0 0 155
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 154
+Name Pocz±tek w±skiej ¶cie¿ki przez ³±ki~
+Descr W tym miejscu brukowana droga wy³aniaj±ca siê ze wschodu po prostu siê
+urywa i przechodzi w zwyk³a, wrêcz poln± dró¿kê. ¦cie¿ka ta nie nale¿y do
+miejsc czêsto uczeszczanych czy chêtnie odwiedzanych, co mo¿na rozpoznaæ na
+pierwszy rzut oka. Na zachodzie ginie gdzie¶ ona po¶ród wysokich traw i ³±k.
+Z trudem udaje ci siê wy¶ledziæ jej ¿ó³taw± nitkê wsuwaj±c± siê gdzie¶ do
+lasu na zachodzie. 
+~
+FlagsExt 0
+Sector 18
+Extra drzewo~
+Jest to wysoka jablonka troche nadpalona przez pozar.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52702
+ExitExtEnd
+Exit 0
+~
+~
+0 0 52702
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 152
+ExitExtEnd
+Exit 1
+~
+~
+0 0 152
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3769
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3769
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8380
+ExitExtEnd
+Exit 3
+~
+~
+0 0 8380
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 155
+Name Ciemna sciezka~
+Descr Buki, które mijasz idac ta sciezka, stwarzaja podniosla atmosfere. 
+Ostre, lesne powietrze wypelnia twoje pluca.  Na po³udniu las rozrzedza sie,
+dajac ci wieksza swobode ruchu.  Mozesz rowniez, idac na wschod, wrocic skad
+przyszedles.  
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 153
+ExitExtEnd
+Exit 1
+~
+~
+0 0 153
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 156
+Name Pustynia~
+Descr Droga prowadzi tutaj przez prawdziwe piek³o. Gor±c, skwar, upa³ i
+spiekota to jedyne okre¶lenia jakie zaczynaj± pulsowaæ i wibrowaæ w twojej
+zmêczonej g³owie. Zastanawiasz siê przez chwilê jak to mo¿liwe, ¿eby
+pustynia zaczyna³a siê tak nagle i niespodziewanie, ale widocznie takie co¶
+jest mo¿liwe. Trakt prowadzi przez jej skraj, ze wschodu na zachód. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 150
+ExitExtEnd
+Exit 0
+~
+~
+0 0 150
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 157
+ExitExtEnd
+Exit 1
+~
+~
+0 0 157
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 157
+Name Pustynia~
+Descr Droga prowadzi przez piaszczyst± pustyniê, widok jest monotonny: piasek,
+kamienie, ska³y, kaktusy, piasek.. . Gdyby nie usypana kamieniami droga,
+móg³by¶ ³atwo zab³±dziæ. Gor±c, skwar, upa³, s³oñce i spiekota to okre¶lenia
+które ci±gle chodz± po twojej zmêczonej g³owie. Chcia³bys jak najszybciej
+st±d wyj¶æ na jaki¶ normalny trakt lub po prostu schowaæ siê gdzie¶ w
+cieniu, ale tego raczej tutaj nie widaæ. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 158
+ExitExtEnd
+Exit 2
+~
+~
+0 0 158
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 156
+ExitExtEnd
+Exit 3
+~
+~
+0 0 156
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 158
+Name Pustynia~
+Descr Droga prowadzi przez piaszczyst± pustyniê, widok jest monotonny: piasek,
+kamienie, ska³y, kaktusy, piasek.. . Gdyby nie usypana kamieniami droga,
+móg³by¶ ³atwo zab³±dziæ. Gor±c, skwar, upa³, s³oñce i spiekota to okre¶lenia
+które ci±gle chodz± po twojej zmêczonej g³owie. Chcia³bys jak najszybciej
+st±d wyj¶æ na jaki¶ normalny trakt lub po prostu schowaæ siê gdzie¶ w
+cieniu, ale tego raczej tutaj nie widaæ. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 157
+ExitExtEnd
+Exit 0
+~
+~
+0 0 157
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 159
+ExitExtEnd
+Exit 1
+~
+~
+0 0 159
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 159
+Name ¦cie¿ka przez pustyniê~
+Descr Droga prowadzi tutaj przez prawdziwe piek³o. Gor±c, skwar, upa³ i
+spiekota to jedyne okre¶lenia jakie zaczynaj± pulsowaæ i wibrowaæ w twojej
+zmêczonej g³owie. Zastanawiasz siê przez chwilê jak to mo¿liwe, ¿eby
+pustynia zaczyna³a siê tak nagle i niespodziewanie, ale widocznie takie co¶
+jest mo¿liwe. Trakt prowadzi przez jej skraj, ze wschodu na zachód. 
+~
+FlagsExt 0
+Sector 10
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 158
+ExitExtEnd
+Exit 3
+~
+~
+0 0 158
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 160
+Name Rozstaje dróg~
+Descr Znajdujesz siê na rozstaju górskich dróg, hen heen daleko na pó³nocy
+majestatycznie wsnosz± siê ogromnem o¶nie¿one wierzcho³ki gór. Na zachód
+st±d rozci±ga siê niego¶cinna pustynia, spalona s³oñcem równina bez kropli
+wody. Lepiej mieæ przy sobie dodatkowy buk³ak i nieco jedzenia wchodz±c na
+te tereny, bo niejednego ju¿ zaskoczy³a noc i zmêczony skona³ na pustyni.
+Natomiast na wschodzie biegnie trakt i daleko, daleko widaæ jakie¶ budynki. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14587
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14587
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 163
+ExitExtEnd
+Exit 1
+~
+~
+0 0 163
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 161
+ExitExtEnd
+Exit 2
+~
+~
+0 0 161
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 146
+ExitExtEnd
+Exit 3
+~
+~
+0 0 146
+Roomprog random 151 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 161
+Name Zaniedbana droga~
+Descr Jeste¶ na bardzo zniszczonym kawa³ku drogi, bêd±cym jak±¶ star± odnog±
+g³ownego szlaku. Mo¿e kiedy¶ prowadzi³a têdy jaka¶ wa¼na trasa, ale dawno
+ju¿ o niej zapomniano. Droga zaros³a i nie jest u¿ywana. Na po³udniu widzisz
+jak teren powoli siê obni¿a i uspokaja, przechodz±c w gêsty, zielony las
+iglasty. Na pó³noc prowadzi droga powrotna do g³ównego szlaku, który
+prowadzi w tamtej czê¶ci przez wzniesienia. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 160
+ExitExtEnd
+Exit 0
+~
+~
+0 0 160
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24559
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24559
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 605
+ExitExtEnd
+Exit 2
+~
+~
+0 0 605
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24560
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24560
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 162
+Name Równina~
+Descr Trakt sunie na wprost przez równinê rozlegaj±c± siê gdzie okiem nie
+siêgniesz. Pod twoimi stopami chrupocz± ma³e kamienie miejscami zatopione w
+piasku. W pobli¿u, jak i w oddali wala siê sporo poka¼nych g³azów. Daleko,
+daleko na pó³nocy, gdy przyjrysz siê dok³adniej, widaæ las. Mimo to
+krajobraz jest nieco monotonny. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24575
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24575
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 142
+ExitExtEnd
+Exit 1
+~
+~
+0 0 142
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24565
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24565
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 199
+ExitExtEnd
+Exit 3
+~
+~
+0 0 199
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 163
+Name Trakt przez dno parowu~
+Descr Idziesz dnem w±skiego parowu omijaj±c stercz±ce ska³y, wystaj±ce z
+pobliskich ¶cian. Jest tutaj dosyæ w±sko i szczerze mówi±c czujesz siê
+trochê nieswojo. Jest to idealne miejsce, ¿eby na spokojnych podró¿nych
+zaczai³a siê jaka¶ banda rozbójników, morderców czy zwyk³ych z³odziejaszków.
+Najlepiej pod±¿aæ w miarê szybko i ostro¿nie, uwazaj±c na ka¿dy, nawet
+najmniej podejrzany d¼wiêk. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 164
+ExitExtEnd
+Exit 1
+~
+~
+0 0 164
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24559
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24559
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 160
+ExitExtEnd
+Exit 3
+~
+~
+0 0 160
+Roomprog random 151 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 164
+Name Trakt przez dno parowu~
+Descr Idziesz dnem w±skiego parowu omijaj±c stercz±ce ska³y, wystaj±ce z
+pobliskich ¶cian. Jest tutaj dosyæ w±sko i szczerze mówi±c czujesz siê
+trochê nieswojo. Jest to idealne miejsce, ¿eby na spokojnych podró¿nych
+zaczai³a siê jaka¶ banda rozbójników, morderców czy zwyk³ych z³odziejaszków.
+Najlepiej pod±¿aæ w miarê szybko i ostro¿nie, uwazaj±c na ka¿dy, nawet
+najmniej podejrzany d¼wiêk. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 165
+ExitExtEnd
+Exit 1
+~
+~
+0 0 165
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24558
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24558
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 163
+ExitExtEnd
+Exit 3
+~
+~
+0 0 163
+Roomprog random 151 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 165
+Name Droga przez podgórze~
+Descr Teren wznosi siê tutaj znacznie, niskie pagórki ustêpuj± miejsca wysokim
+wzniesieniom. Droga staje siê naprawdê krêta, co za tym idzie mêcz±ca,
+wyczerpuj±ca i uci±¿liwa. Jednak sam stan bruku jest nienaganny. Widaæ, ¿e o
+te trudne fragmenty dba siê najbardziej, aby chocia¿ tym nie uprzykrzaæ
+podró¿y wêdrowca. Ziemia jest tu ja³owa a gdzieniegdzie mo¿esz dostrzec
+kar³owate sosny, niewysokie krzewy i kosodrzewinê. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 166
+ExitExtEnd
+Exit 1
+~
+~
+0 0 166
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24557
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24557
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 164
+ExitExtEnd
+Exit 3
+~
+~
+0 0 164
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 166
+Name Delikatny zakrêt traktu~
+Descr Trakt prowadzi przez skalisty teren, nie mo¿esz siê rozejrzeæ zbyt
+daleko, bo widok zas³aniaj± ci niewysokie pagórki i wzgórza. Wiêkszo¶æ z
+nich jest po prostu go³a, wzglêdnie pokryta nisk± traw±, spalone s³oñcem i
+smagane ciep³ym wiatrem z zachodu. Miêdzy, i na pagórkach rosn± niewielkie,
+bo oko³o metrowe kaktusy. Walaj± siê te¿ wielkie, spore jak i ma³e kamienie.
+Ze wschodu nap³ywa coraz cieplejsze powietrze, co oznacza, ¿e znajdujesz sie
+ca³kiem niedaleko pustyni. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 167
+ExitExtEnd
+Exit 0
+~
+~
+0 0 167
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24551
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24551
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24556
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24556
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 165
+ExitExtEnd
+Exit 3
+~
+~
+0 0 165
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 167
+Name Niewysokie pagórki~
+Descr Trakt prowadzi przez skalisty teren, nie mo¿esz siê rozejrzeæ zbyt
+daleko, bo widok zas³aniaj± ci niewysokie pagórki i wzgórza. Wiêkszo¶æ z
+nich jest po prostu go³a, wzglêdnie pokryta nisk± traw±, spalone s³oñcem i
+smagane ciep³ym wiatrem z zachodu. Miêdzy, i na pagórkach rosn± niewielkie,
+bo oko³o metrowe kaktusy. Walaj± siê te¿ wielkie, spore jak i ma³e kamienie.
+Ze wschodu nap³ywa coraz cieplejsze powietrze, co oznacza, ¿e znajdujesz sie
+ca³kiem niedaleko pustyni. 
+~
+FlagsExt 0|C
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 168
+ExitExtEnd
+Exit 1
+~
+~
+0 0 168
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 166
+ExitExtEnd
+Exit 2
+~
+~
+0 0 166
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 168
+Name Droga przez las~
+Descr Szeroka brukowana droga przecina w tym miejscu wielk± trawiast± polanê,
+poro¶niêt± d³ug± traw± i piêknymi kwiatami. Jest to jedno z lepszych miejsc
+na odpoczynek podczas podró¿y tym traktem. Rozgl±daj±c siê dooko³a nie
+zauwa¿asz ¿adnego niebezpieczeñstwa. Na zachodzie teren lekko siê wznosi,
+natomiast na wschodzie widaæ gêst± ¶cianê zielonego, dzikiego lasu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24553
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24553
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 169
+ExitExtEnd
+Exit 1
+~
+~
+0 0 169
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24551
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24551
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 167
+ExitExtEnd
+Exit 3
+~
+~
+0 0 167
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 169
+Name Droga przez las~
+Descr W tym miejscu g³ówny go¶ciniec ³±cz±cy miasta Arras i Fortecê
+Krasnoludzk± przechodzi przez gêsty i dziki las. Przez chwilê wydaje ci siê,
+¿e wybra³a¶ z³±, nieprzejezdn± drogê, ale to raczej tylko chwilowe
+z³udzenie, bowiem trakt, chocia¿ mêcz±cy i niezbyt dobrej jako¶ci, to jednak
+szeroki i w wiêkszo¶ci brukowany. Patrz±c na zachód widzisz, niewielk±,
+zielon±, kwiaciast± polankê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24552
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24552
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 170
+ExitExtEnd
+Exit 1
+~
+~
+0 0 170
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24550
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24550
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 168
+ExitExtEnd
+Exit 3
+~
+~
+0 0 168
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 170
+Name Pocz±tek drogi podmiejskiej~
+Descr Stoisz na skraju lasu. Otaczaj± ciê rzadko rosn±ce drzewa i krzewy, na
+pó³nocy widaæ zielone zbocza góry Erethe i pokryte ¶niegiem szczyty. Na
+wschodzie rozci±ga siê droga podmiejska prowadz±ca do bram wielkiego,
+zwanego z³otym miasta Arras, natomiast na zachodzie widaæ gêst± ¶cianê
+zielonego, dzikiego lasu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 171
+ExitExtEnd
+Exit 0
+~
+~
+0 0 171
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 189
+ExitExtEnd
+Exit 1
+~
+~
+0 0 189
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24549
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24549
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 169
+ExitExtEnd
+Exit 3
+~
+~
+0 0 169
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 171
+Name ¦cie¿ka pod górê~
+Descr Stoisz na wyjatkowo stromym skrocie, prowadzacym na zbocza gory Erethe.
+Droga jest z ca³± pewno¶ci± bardzo mozolna, i to zarówno w podej¶ciu jak i w
+zej¶ciu, jakby tego by³o ma³o skarpê pokrywaj± gêste krzaki o spl±tanych
+korzeniach, na których ³atwo siê potkn±æ. Ale wyboru wielkiego nie ma. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 194
+ExitExtEnd
+Exit 0
+~
+~
+0 0 194
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24545
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24545
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 170
+ExitExtEnd
+Exit 2
+~
+~
+0 0 170
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24552
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24552
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 172
+Name Trakt wsrod drzew~
+Descr Idziesz szeroka droga nad twoja glowa pochylaja sie konary rosnacych
+wokol drzew. W oddali na pó³nocy widzisz nieduze wzniesienie. Las nieco
+przerzedza sie na wschodzie, tworzac niewielki zagajnik. W oddali na
+wschodzie widac juz gory na horyzoncie. Trakt zaczyna sie lekko wznosic do
+gory. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 173
+ExitExtEnd
+Exit 1
+~
+~
+0 0 173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 173
+Name Szeroki trakt~
+Descr Szeroka droga powoli zaglebia sie pomiedzy szpaler drzew. Patrzac na
+zachod widzisz rozciagajaca sie przed toba puszcze. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 174
+ExitExtEnd
+Exit 1
+~
+~
+0 0 174
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 172
+ExitExtEnd
+Exit 3
+~
+~
+0 0 172
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 174
+Name Rozstaje drog~
+Descr Stoisz na nieduzym skrzyzowaniu drog, trakt biegnie dalej ze wschodu na
+zachod, a nieduza dró¿ka prowadzi w kierunku pó³nocnym skad dochodza niezbyt
+przyjemne zapachy. Las nieco przezedzil sie i jest tu calkiem przyjemnie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 181
+ExitExtEnd
+Exit 0
+~
+~
+0 0 181
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 173
+ExitExtEnd
+Exit 3
+~
+~
+0 0 173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 175
+Name Odnoga traktu~
+Descr Trakt w tym miejscu sie konczy, widzisz lezace z boku jakies scierwo
+konia (*uhhh, jak ono smierdzi*) i jakis rozbity woz obok. Obok traktu
+wykopano takze jakis row w którym bardzo leniwie plynie jakas woda. Nie
+wyglada na nadajaca sie do picia, jest brudna i lekko cuchnie - mozna to
+stwierdzic nawet nie nachylajac sie nad nia. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 174
+ExitExtEnd
+Exit 3
+~
+~
+0 0 174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 176
+Name Trakt~
+Descr Droga która wedrujesz co jakis czas zakreca omijajac dziwnie wyglajace
+ruiny i budowle wzniesione w dawnych czasach.
+Gdzieniegdzie da sie wyczuc moc promieniujaca z tych miejsc.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 178
+ExitExtEnd
+Exit 0
+~
+~
+0 0 178
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 177
+Name Na trakcie~
+Descr W tym miejscu droga jest lekko zalana woda, pewnie jakos po ostatnich
+deszczach. Niektore kaluze wydaja sie byc trudne do pokonania dla ciezkiego
+wozu nawet z para silnych koni. Kilka wozow juz chyba tedy przejezdzalo
+poglebiajac koleiny. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 176
+ExitExtEnd
+Exit 2
+~
+~
+0 0 176
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 178
+Name Szeroki trakt~
+Descr Droga prowadzi Cie z pó³nocy na po³udnie, mimo tego ze jej budowniczy
+odeszli dawno w zapomnienie wydaje sie jak by zostala dopiero wybudowana.
+Mozesz wyczuc mrowienie w koniuszkach palcow, to dawna moc wpleciona
+w kamienie z których zostala zrobiona.
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 182
+ExitExtEnd
+Exit 0
+~
+~
+0 0 182
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 176
+ExitExtEnd
+Exit 2
+~
+~
+0 0 176
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 179
+Name Biuro Naczelnika Strazy~
+Descr Znajdujesz sie w biurze Naczelnika Strazy, kamienne sciany przyozdobiono
+jedynie kilkoma sztandarami i fragmentami starego oreza. Tutaj mieszkancy
+zalatwiaja wiekszosc spraw urzedowych nizszego rzedu. Reszte zalatwia sie w
+Ratuszu. 
+~
+FlagsExt 0|D
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6178
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6178
+ExitExt 3
+ExitExtDescription ~
+ExitExtName stalowe~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6062
+ExitExtEnd
+Exit 3
+~
+stalowe~
+0 0 6062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 180
+Name Zapadlisko~
+Descr Wszedzie wokol woda i blotsko, tylko gdzieniegdzie wystaje w ogole jakas
+kepka trawy, na powierzchni plywaja jakies na pol przegnile galezie. W
+powietrzu czujesz zapach rozkladajacego, gnijacego drewna i chyba jeszcze
+czegos. Prawdopodobnie nie tylko drewno sie tu rozklada. Idac tedy musisz
+uwazac, latwo tu stracic rownowage i w niektórych miejscach zniknac z glowa
+pod woda. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 174
+ExitExtEnd
+Exit 2
+~
+~
+0 0 174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 181
+Name Podmokle Torfowisko~
+Descr Stoisz po kostki w mazistej brei. . . Przez miekki torf wyplywa na
+powierzchnie brunatno zielona, metna woda. Jezeli zamierzasz brnac dalej na
+polnoc w kierunku bagna - zaopatrz sie w jakies galezie i bardzo uwazaj.
+Wokol pelno jest dziwnych roslin a powietrze smierdzi metanem. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription Widzisz wyjscie na ubita droge - to chyba jakis wiekszy trakt.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 174
+ExitExtEnd
+Exit 2
+Widzisz wyjscie na ubita droge - to chyba jakis wiekszy trakt.
+~
+~
+0 0 174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 182
+Name Szeroki trakt~
+Descr Szeroka brukowana droga ciagnie sie na plnoc i po³udnie. Idac mijasz
+przybrzezne chaszcze, okolica wydaje sie byc zamieszkana, w oddali na
+polnocnym wschodzie widac dymy z kominow mijanych wiosek. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 183
+ExitExtEnd
+Exit 0
+~
+~
+0 0 183
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 178
+ExitExtEnd
+Exit 2
+~
+~
+0 0 178
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 183
+Name Przy strumieniu~
+Descr Po pó³nocnej stronie traktu spory strumien leniwie toczy swe wody
+z zachodu na wschod. Jego barwa jest dosc dziwna a nabrzezna roslinnosc
+wyglada raczej zlowieszczo i posepnie. Trakt skreca tu z po³udnia na
+wschod, mijajac po stronie zachodniej rozlegle bagniska.
+Jedynie waska sciezka prowadzi do strumienia.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 184
+ExitExtEnd
+Exit 1
+~
+~
+0 0 184
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 182
+ExitExtEnd
+Exit 2
+~
+~
+0 0 182
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 184
+Name Na trakcie~
+Descr Stoisz na zakrecie traktu, prowadzi on z po³udnia na zachod, to zwykly
+nie wyrozniajacy sie zakret. Teren jest tu rowninny a roslinnosc dosc bujnie
+pokrywa otaczajaca cie rownine. Jedynie chwilami jakis dziwny wiatr przynosi
+z zachodu dziwne i nieprzyjemne zapachy oraz chwilowe ochlodzenia klimatu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 185
+ExitExtEnd
+Exit 2
+~
+~
+0 0 185
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 183
+ExitExtEnd
+Exit 3
+~
+~
+0 0 183
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 185
+Name Na trakcie~
+Descr Stoisz na zwyklym, kamiennym trakcie. Teren jest tu rowninny a roslinnosc
+dosc bujnie pokrywa otaczajaca cie rownine. Jedynie chwilami jakis dziwny
+wiatr przynosi z zachodu dziwne i nieprzyjemne zapachy oraz chwilowe
+ochlodzenia klimatu. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 184
+ExitExtEnd
+Exit 0
+~
+~
+0 0 184
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 186
+Name Szeroki trakt~
+Descr Las robi siê tutaj coraz gê¶ciejszy, tak¿e w kierunku zachodnim. Trakt
+zakrêca tutaj na pó³noc. Widocznie ci, którzy go budowali chcieli opó¼niæ
+moment zag³êbienia siê drogi w puszczê. Jednak¿e miêdzy drzewami na
+zachodzie widaæ jak±¶ scie¿kê. Powietrze jest tutaj przesycone zapachami
+lasu a zarazem przepe³nione ¶wie¿o¶ci± równinnego wiatru z pó³nocnego
+wschodu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 187
+ExitExtEnd
+Exit 1
+~
+~
+0 0 187
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 27751
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 27751
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 187
+Name Szeroki trakt~
+Descr Maszerujesz szerokim brukowanym traktem, patrzac na po³udnie widzisz
+gesty, pierwotny las. Na pó³noc odchodzi jakas wezsza, bardzo zaniedbana
+droga, wyglada na to ze od dawna jest ona nieuzywana. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18191
+ExitExtEnd
+Exit 0
+~
+~
+16 0 18191
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 188
+ExitExtEnd
+Exit 1
+~
+~
+0 0 188
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 186
+ExitExtEnd
+Exit 3
+~
+~
+0 0 186
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 188
+Name Rozstaje dróg~
+Descr Szeroka, brukowana droga ci±gnie siê z zachodu na wschód a w miejscu,
+w którym jeste¶ pó³nocna odnoga Traktu wiedzie pomiêdzy niewielkie pagórki
+i znika za zakrêtem. Las tutaj rozrzedza siê, tworz±c niewielki zagajnik
+porastaj±cy pagórki, na po³udniu jednak te niepozornie wygl±daj±ce drzewa
+tworz± nieprzebyta ¶cianê lasu.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 193
+ExitExtEnd
+Exit 0
+~
+~
+0 0 193
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11900
+ExitExtEnd
+Exit 1
+~
+~
+0 0 11900
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27770
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27770
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 187
+ExitExtEnd
+Exit 3
+~
+~
+0 0 187
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 189
+Name Droga podmiejska~
+Descr Szeroki brukowany trakt ci±gnie siê ze wschodu na zachód. Rozgl±daj±c siê
+widzisz na pó³nocy pola uprawne, na zachodzie rzadko rosn±ce drzewa i
+krzewy, za¶ na wschodzie drogê podmiejsk± prowadz±c± do z³otego miasta
+Arras. Droga jest do¶æ zadbana, najprawdopodobniej przez s³u¿by po¿±dkowe
+miasta, co u³atwia poruszanie siê. 
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24545
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24545
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1463
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1463
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24548
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24548
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 170
+ExitExtEnd
+Exit 3
+~
+~
+0 0 170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 190
+Name Polna dró¿ka~
+Descr Jest to do¶æ szeroka i bezpieczna droga. Otaczaj± ciê resztki krzaczastej
+ro¶linno¶ci sukcesywnie karczowane przez okolicznych ch³opów pod pola
+uprawne. W oddali na pó³nocy majaczy prze³êcz Faldhar oddzielaj±ca masw
+Erethe od reszty ³ancucha górskiego. Na polach ch³opi sadzaj± ró¿ne warzywa
+i nie tylko. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1465
+ExitExtEnd
+Exit 0
+~
+~
+0 0 1465
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1464
+ExitExtEnd
+Exit 2
+~
+~
+0 0 1464
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 191
+Name Wjazd na Trakt Polnocny~
+Descr Trakt prowadzi z po³udnia na pó³noc w kierunku Poludniowego Szlaku
+Handlowego. Droga jest tu brukowana i pomiescilaby dwa wozy. Okolica jest
+dosyc ruchliwa i mozna tu spotkac wiele powozow i konnych zaprzegow. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 192
+ExitExtEnd
+Exit 0
+~
+~
+0 0 192
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18187
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18187
+ExitExt 2
+ExitExtDescription Drozka biegnie prosto na po³udnie.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 193
+ExitExtEnd
+Exit 2
+Drozka biegnie prosto na po³udnie.
+~
+~
+0 0 193
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18192
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18192
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 192
+Name Poczatek Traktu Polnocnego~
+Descr Znajdujesz sie na bitej drodze prowadzacej z pó³nocy na po³udnie. Na
+niektórych fragmentach drogi widac koleiny po kolach. Mozna tu spotkac
+licznych kupcow zmierzajacych do Carrallak. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6900
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6900
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18185
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18185
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 191
+ExitExtEnd
+Exit 2
+~
+~
+0 0 191
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18193
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18193
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 193
+Name Trakt Polnocny~
+Descr Trakt prowadzi z po³udnia na pó³noc w kierunku Poludniowego Szlaku
+Handlowego. Droga jest tu brukowana i pomiescilaby dwa wozy. Okolica jest
+dosyc ruchliwa i mozna tu spotkac wiele powozow i konnych zaprzegow. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription Zaraz obok droga zakreca na zachod.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 191
+ExitExtEnd
+Exit 0
+Zaraz obok droga zakreca na zachod.
+~
+~
+0 0 191
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18188
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18188
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 188
+ExitExtEnd
+Exit 2
+~
+~
+0 0 188
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18191
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18191
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 194
+Name Sciezka pod gore~
+Descr Sciezka jest porzadnie udeptana i twarda, sporo osob musialo tedy
+przechodzic. Na jej brzegu rosnie trawa i jakies dziwne kwiaty o miesistych
+lisciach, malych kwiatostanach i lekko zdrewnialych lodygach. Wygladaja nie
+za ciekawie, ale zawsze to jakies urozmaicenie na drodze pod gorke. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 195
+ExitExtEnd
+Exit 0
+~
+~
+0 0 195
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 171
+ExitExtEnd
+Exit 2
+~
+~
+0 0 171
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 195
+Name Stroma sciezka kolo pol~
+Descr Z boku sa jakies pola uprawne, rosnie na nich zboze i bodajze len, nie
+znasz sie za bardzo na lnie, wiec mozesz sie mylic, ale . . . To chyba
+jednak bedzie len. W oddali widac jakis lasek i stawik, calkiem ladny
+krajobraz tak naprawde. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 196
+ExitExtEnd
+Exit 0
+~
+~
+0 0 196
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 194
+ExitExtEnd
+Exit 2
+~
+~
+0 0 194
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14551
+ExitExtEnd
+Exit 3
+~
+~
+0 0 14551
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 196
+Name Stroma sciezka nad polami~
+Descr Dosc stromy pagorek, by nie nazwac go gora, wlasciwie chyba taka nazwa
+bylaby jednak bardziej odpowiednia. Gora rozciaga sie na porzadne
+kilkadziesiat metrow, choc w sumie stad przez drzewka nie widac dokladnie
+jak bardzo jest okazala, mo¿e miec nawet jeszcze ze sto. Z boku widzisz
+jakies pola uprawne, troche ugorow i sporo lak. Musza tu w okolicy hodowac
+sporo bydla. 
+~
+FlagsExt 0
+Sector 5
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 197
+ExitExtEnd
+Exit 0
+~
+~
+0 0 197
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 195
+ExitExtEnd
+Exit 2
+~
+~
+0 0 195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 197
+Name Strome podejscie droga~
+Descr Droga jest porzadnie wylozona kamieniami, Ktos wlozyl w wykladanie calkie
+sporo wysilku i w wyniku tego moznaby rzec, ze mamy tutaj, wsrod pol droge
+jaka smialo mozna porownac do tych wykladanych kocimi lbami w wiekszych
+miastach. Droga taka zostala jednak wylozona w ten sposob nie bez powodu,
+kamienie sa chyba ciagle na nowo poprawiane i ukladane, zeby droga nie byla
+co rok rujnowana przez roztopy. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 198
+ExitExtEnd
+Exit 0
+~
+~
+0 0 198
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 196
+ExitExtEnd
+Exit 2
+~
+~
+0 0 196
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 198
+Name Droga pod gore~
+Descr Tutaj Trakt urywa sie i jedynie szeroka bita droga prowadzi ostro pod
+gore, laczac sie z inna doga trawersujaca zbocze. Otaczaja cie niewielkie
+krzewy, wokolo roztacza sie zapach dochodzacy z pobliskich pol na
+poludniowym wschodzie. Na po³udniu szeroki brukowany trakt prowadzi stromo
+w dol. W oddali na wschodzie widac jakies wieze i miasto. 
+~
+FlagsExt 0
+Sector 4
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14550
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14550
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 197
+ExitExtEnd
+Exit 2
+~
+~
+0 0 197
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 199
+Name Równina~
+Descr Trakt sunie na wprost przez równinê rozlegaj±c± siê gdzie okiem nie
+siêgniesz. Pod twoimi stopami chrupocz± ma³e kamienie miejscami zatopione w
+piasku. W pobli¿u, jak i w oddali wala siê sporo poka¼nych g³azów. Daleko,
+daleko na pó³nocy, gdy przyjrysz siê dok³adniej, widaæ las. Mimo to
+krajobraz jest nieco monotonny.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24576
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24576
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 162
+ExitExtEnd
+Exit 1
+~
+~
+0 0 162
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24566
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24566
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 227
+ExitExtEnd
+Exit 3
+~
+~
+0 0 227
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 200
+Name Na wpol rozwalona szopa~
+Descr Stara szopa z desek. Nie sposob juz teraz powiedziec z jakiego drewna
+dokladnie owe deski sa, wszystko jest poczerniale, zeschniete i zniszczone.
+Mimo wszystko jednak chroni dosc dobrze od wiatru. Jest tu dosc cieplo i
+przytulnie. W rogu jest jakies poslanie ze starych workow i slomy, wydaje
+sie cie zapraszac zebys sie tam polozyl i odpoczal. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 609
+ExitExtEnd
+Exit 0
+~
+~
+0 0 609
+Heal 120
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 201
+Name Przedsionek jakiegos sklepu~
+Descr Spore, obwieszone ze wszystkich stron skórami pomieszczenie. Skóry wisz±
+wszêdzie na ¶cianach przypiête tam w jakich¶ drewnianych ¶ciskaczach. Izba
+ma jakie¶ dobre pond 3 metry wysoko¶ci. W dalszej czê¶ci przechodzi kilkoma
+stopniami schodów do dalszej czê¶ci domu. Niektóre skóry s± rzeczywi¶cie
+imponuj±cych rozmiarów, Mimo znacznej odleg³o¶ci od ziemi do sufitu
+zwieszaj± siê ogonami a¿ na pod³ogê. Trochê tu ¶mierdzi trzeba powiedzieæ...
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 139
+ExitExtEnd
+Exit 1
+~
+~
+0 0 139
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 202
+ExitExtEnd
+Exit 4
+~
+~
+0 0 202
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 202
+Name Handlowa czê¶æ sklepu~
+Descr Na ¶rodku pomieszczenia stoi olbrzymi stó³ przyrzucony skórami i jakimi¶
+papierami w rogu. Nie ma przy nim ¿adnego krzes³a, za to jest atrament,
+trochê obok czystego papieru i stary, rozwalaj±cy sie sto³ek. Obok tego
+wszystkiego w ma³ej skrzyneczce widaæ wosk i koperty. Na pod³odze ko³o
+sto³ka niedbale rzucone le¿y liczydlo. Kto¶ tu chyba robi czasami interesy.
+Warunki mo¿e i trochê dziwne, ale... Wszêdzie wokó³ unosi siê do¶æ przykry
+smród, który doskwiera porz±dnie mimo otwartego okna. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 203
+ExitExtEnd
+Exit 4
+~
+~
+0 0 203
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 201
+ExitExtEnd
+Exit 5
+~
+~
+0 0 201
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 203
+Name Magazyn skór~
+Descr Na ogromnych stertach le¿± posortowane skóry. Wiêksze le¿± jedna na
+drugiej. Prawie jak ma³e dywany. Mniejsze lez± zgrupowane w kilka ma³ych
+kupek a najmniejsze powi±zane za koñcówki, przewa¿nie ogony s± popodwieszane
+u sufitu. Nie wiesz jak czê¶to kto¶ tu wpada odbieraæ te skóry, ale jest tu
+ju¿ teraz tego tak du¿o, ¿e nied³ugo chyba przestanie siê tutaj cokolwiek
+miescic. Do scian poprzybijane sa deski, do desek gwozdzie i na gwozdziach
+w³a¶nie - powi±zane w pêczki wisz± najmniejsze ze wszystkiego skóry
+jaszczurek. Wê¿y i innych. Na pierwszy rzut oka niektóre z zebranych tu skór
+s± bardzo, bardzo cenne. Wszystko za¶ - z ca³± pewno¶ci± jest warte po
+prostu maj±tek. 
+~
+FlagsExt 0|DH
+Sector 8
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 202
+ExitExtEnd
+Exit 5
+~
+~
+0 0 202
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 204
+Name magazynek~
+Descr Nooa a tu sklepikarz zrzuca skorki skubanczyk.
+{RUWAGA{x nie zmieniaæ sectora i ma byæ tu jasno.
+pewien inny skubañczyk bêdzie raz dziennie podbiera³ st±d skóre ;-)
+~
+FlagsExt 0|CH
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 205
+Name Na brukowanym go¶ciñcu~
+Descr Znajdujesz siê na szerokiej, brukowanej drodze. Na pó³nocy i po³udniowym
+zachodzie rozci±ga siê dziki, zielony las w którym pocz±tkuj±cy adepci i
+wojowie mog± æwicziæ swoje si³y stawiaj±c pierwsze kroki w swoim fachu.
+Gdzie¶ niedaleko na po³udniu znajduje siê krasnoludzka Forteca, do której
+trafisz pod±¿aj±c traktem na po³udnie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11183
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11183
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 151
+ExitExtEnd
+Exit 1
+~
+~
+0 0 151
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52715
+ExitExtEnd
+Exit 2
+~
+~
+0 0 52715
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 206
+ExitExtEnd
+Exit 3
+~
+~
+0 0 206
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 206
+Name Brukowany go¶ciniec~
+Descr Znajdujesz siê na szerokiej, brukowanej drodze. Na pó³nocy i po³udniowym
+zachodzie rozci±ga siê dziki, zielony las w którym pocz±tkuj±cy adepci i
+wojowie mog± æwicziæ swoje si³y stawiaj±c pierwsze kroki w swoim fachu.
+Gdzie¶ niedaleko na po³udniowym wschodzie znajduje siê krasnoludzka Forteca,
+do której trafisz pod±¿aj±c traktem na po³udnie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 11182
+ExitExtEnd
+Exit 0
+~
+~
+0 0 11182
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 205
+ExitExtEnd
+Exit 1
+~
+~
+0 0 205
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3798
+ExitExtEnd
+Exit 2
+~
+~
+0 0 3798
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 152
+ExitExtEnd
+Exit 3
+~
+~
+0 0 152
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 207
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udnie widzisz masywne mury otaczaj±ce
+fortece, która nie na darmo nazywa siê fortec±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 223
+ExitExtEnd
+Exit 0
+~
+~
+0 0 223
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 132
+ExitExtEnd
+Exit 1
+~
+~
+0 0 132
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 208
+ExitExtEnd
+Exit 3
+~
+~
+0 0 208
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 208
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udnie widzisz masywne mury otaczaj±ce
+fortece, która nie na darmo nazywa siê fortec±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 225
+ExitExtEnd
+Exit 0
+~
+~
+0 0 225
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 207
+ExitExtEnd
+Exit 1
+~
+~
+0 0 207
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 209
+ExitExtEnd
+Exit 3
+~
+~
+0 0 209
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 209
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udnie widzisz masywne mury otaczaj±ce
+fortece, która nie na darmo nazywa siê fortec±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 226
+ExitExtEnd
+Exit 0
+~
+~
+0 0 226
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 208
+ExitExtEnd
+Exit 1
+~
+~
+0 0 208
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 210
+ExitExtEnd
+Exit 3
+~
+~
+0 0 210
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 210
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udnie widzisz masywne mury otaczaj±ce
+fortece, która nie na darmo nazywa siê fortec±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3783
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3783
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 209
+ExitExtEnd
+Exit 1
+~
+~
+0 0 209
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 211
+ExitExtEnd
+Exit 3
+~
+~
+0 0 211
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 211
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udnie widzisz masywne mury otaczaj±ce
+fortece, która nie na darmo nazywa siê fortec±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3782
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3782
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 210
+ExitExtEnd
+Exit 1
+~
+~
+0 0 210
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 212
+ExitExtEnd
+Exit 3
+~
+~
+0 0 212
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 212
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udnie widzisz masywne mury otaczaj±ce
+fortece, która nie na darmo nazywa siê fortec±. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3781
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3781
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 211
+ExitExtEnd
+Exit 1
+~
+~
+0 0 211
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 213
+ExitExtEnd
+Exit 3
+~
+~
+0 0 213
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 213
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udniowy-wchód widzisz masywne mury
+otaczaj±ce fortece, a dok³adniej naro¿nik fortecy uwieñczony wysok± wie¿± z
+której przez liczne otwory mo¿na raziæ szturmuj±cych na bardzo wiele
+sposobów. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3780
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3780
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 212
+ExitExtEnd
+Exit 1
+~
+~
+0 0 212
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 214
+ExitExtEnd
+Exit 3
+~
+~
+0 0 214
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 214
+Name Zakrêt drogi przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na po³udniowy-wchód widzisz masywne mury
+otaczaj±ce fortece, a dok³adniej naro¿nik fortecy uwieñczony wysok± wie¿± z
+której przez liczne otwory mo¿na raziæ szturmuj±cych na bardzo wiele
+sposobów. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3779
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3779
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 213
+ExitExtEnd
+Exit 1
+~
+~
+0 0 213
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 215
+ExitExtEnd
+Exit 2
+~
+~
+0 0 215
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52595
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52595
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 215
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne mury otaczaj±ce
+miasto, które nie na darmo nazywa siê Fortec±. Blanki i wykusze wzmacnianie
+gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz potêgi, ale przecie¿
+ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 214
+ExitExtEnd
+Exit 0
+~
+~
+0 0 214
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 216
+ExitExtEnd
+Exit 2
+~
+~
+0 0 216
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52609
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52609
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 216
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne mury otaczaj±ce
+miasto, które nie na darmo nazywa siê Fortec±. Blanki i wykusze wzmacnianie
+gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz potêgi, ale przecie¿
+ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 215
+ExitExtEnd
+Exit 0
+~
+~
+0 0 215
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 217
+ExitExtEnd
+Exit 2
+~
+~
+0 0 217
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52623
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52623
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 217
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne mury otaczaj±ce
+miasto, które nie na darmo nazywa siê Fortec±. Blanki i wykusze wzmacnianie
+gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz potêgi, ale przecie¿
+ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 216
+ExitExtEnd
+Exit 0
+~
+~
+0 0 216
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 218
+ExitExtEnd
+Exit 2
+~
+~
+0 0 218
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52637
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52637
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 218
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej, aczkolwiek ca³kiem solidnej, brukowanej
+drodze, która otacza krasnoludzka fortecê, jej równa i twarda nawierzchnia
+¶wiadczy o wysokim kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne
+mury otaczaj±ce miasto, które nie na darmo nazywa siê Fortec±. Blanki i
+wykusze wzmacnianie gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz
+potêgi, ale przecie¿ ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 217
+ExitExtEnd
+Exit 0
+~
+~
+0 0 217
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 219
+ExitExtEnd
+Exit 2
+~
+~
+0 0 219
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52649
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52649
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 219
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne mury otaczaj±ce
+miasto, które nie na darmo nazywa siê Fortec±. Blanki i wykusze wzmacnianie
+gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz potêgi, ale przecie¿
+ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 218
+ExitExtEnd
+Exit 0
+~
+~
+0 0 218
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 220
+ExitExtEnd
+Exit 2
+~
+~
+0 0 220
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52653
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52653
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 220
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne mury otaczaj±ce
+miasto, które nie na darmo nazywa siê Fortec±. Blanki i wykusze wzmacnianie
+gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz potêgi, ale przecie¿
+ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 219
+ExitExtEnd
+Exit 0
+~
+~
+0 0 219
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 221
+ExitExtEnd
+Exit 2
+~
+~
+0 0 221
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52656
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52656
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 221
+Name Droga przy murze~
+Descr Znajdujesz siê na niewielkiej brukowanej drodze, która otacza
+krasnoludzka fortecê, jej równa i twarda nawierzchnia ¶wiadczy o wysokim
+kunszcie kamieniarzy. Patrz±c na wchód widzisz masywne mury otaczaj±ce
+miasto, które nie na darmo nazywa siê Fortec±. Blanki i wykusze wzmacnianie
+gdzieniegdzie masywnymi stalowymi belkami, tworz± obraz potêgi, ale przecie¿
+ta strona ¶wiata jest najbardziej gro¼na. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 220
+ExitExtEnd
+Exit 0
+~
+~
+0 0 220
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 222
+ExitExtEnd
+Exit 2
+~
+~
+0 0 222
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52659
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52659
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 222
+Name Przed masywn± bram± Fortecy~
+Descr Znajdujesz siê przed masywn±, choæ do¶æ niewielk± bram± krasnoludziej
+Fortecy. Jest tu ca³kiem zadbana, brukowana droga zbudowana przez
+krasnoludy, znaj±cych siê na budowaniu trwa³ych i wygodnych traktów,
+niestety niedaleko na zachodzie urywa siê ona, ustêpuj±c miejsca le¶nej,
+s³abo ubitej ¶cie¿ce. Na zachodzie dostrzegasz dziki, pe³en zieleni las,
+ci±gn±cy siê a¿ pod same, niebezpieczne góry. 
+~
+FlagsExt 0|H
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 221
+ExitExtEnd
+Exit 0
+~
+~
+0 0 221
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n znika w bramie.~
+ExitExtTextIn $n przyszed³ zza bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 56
+ExitExtEnd
+Exit 1
+~
+VName Brama~
+TextOut $n znika w bramie.~
+TextIn $n przyszed³ zza bramy.~
+brama~
+3 0 56
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20332
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20332
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42650
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42650
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 223
+Name Przed lasem~
+Descr Znajdujesz siê na niewielkiej ³±czce le¿±cej przed ciemnym lasem, który
+mo¿esz zobaczyæ do¶æ niedaleko na pó³noc od siebie. Patrz±ca na po³udnie
+widzisz masywne mury Krasnoludzkiej fortecy, natomiast na wschodzie widzisz
+trakt prowadz±cy do Fortecy na pó³noc. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 224
+ExitExtEnd
+Exit 0
+~
+~
+0 0 224
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 133
+ExitExtEnd
+Exit 1
+~
+~
+0 0 133
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 207
+ExitExtEnd
+Exit 2
+~
+~
+0 0 207
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 225
+ExitExtEnd
+Exit 3
+~
+~
+0 0 225
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 224
+Name Przed lasem~
+Descr Znajdujesz siê na niewielkiej ³±czce le¿±cej przed ciemnym lasem, który
+mo¿esz zobaczyæ do¶æ niedaleko na pó³noc od siebie. Patrz±ca na po³udnie
+widzisz masywne mury Krasnoludzkiej fortecy, natomiast na wschodzie widzisz
+trakt prowadz±cy do Fortecy na pó³noc. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3790
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3790
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 134
+ExitExtEnd
+Exit 1
+~
+~
+0 0 134
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 223
+ExitExtEnd
+Exit 2
+~
+~
+0 0 223
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3788
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3788
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 225
+Name Przed lasem~
+Descr Znajdujesz siê na niewielkiej ³±czce le¿±cej przed ciemnym lasem, który
+mo¿esz zobaczyæ do¶æ niedaleko na pó³noc od siebie. Patrz±ca na po³udnie
+widzisz masywne mury Krasnoludzkiej fortecy, natomiast na wschodzie widzisz
+trakt prowadz±cy do Fortecy na pó³noc. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3788
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3788
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 223
+ExitExtEnd
+Exit 1
+~
+~
+0 0 223
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 208
+ExitExtEnd
+Exit 2
+~
+~
+0 0 208
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 226
+ExitExtEnd
+Exit 3
+~
+~
+0 0 226
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 226
+Name Przed lasem~
+Descr Znajdujesz siê na niewielkiej ³±czce le¿±cej przed ciemnym lasem, który
+mo¿esz zobaczyæ do¶æ niedaleko na pó³noc od siebie. Patrz±ca na po³udnie
+widzisz masywne mury Krasnoludzkiej Fortecy, natomiast na wschodzie widzisz
+trakt prowadz±cy do Fortecy. 
+~
+FlagsExt 0
+Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3787
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3787
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 225
+ExitExtEnd
+Exit 1
+~
+~
+0 0 225
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 209
+ExitExtEnd
+Exit 2
+~
+~
+0 0 209
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3783
+ExitExtEnd
+Exit 3
+~
+~
+0 0 3783
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 227
+Name Równina~
+Descr Trakt wiedzie ciê w¶ród wysokich, stosunkowo du¿ych kaktusów i
+ciernistych krzewów. Jak daleko siêgn±æ okiem rozci±ga siê bezkresna
+równina, wiatr przynosi ze wschodu gor±ce powietrze znad pustyni.
+Rozgl±daj±c siê widzisz granitow±, ci±gn±c± siê bez koñca równinê i
+gdzieniegdzie porozrzucane du¿e jak i ma³e kamienie, momentami mo¿na nawet
+trafiæ na ogromne g³azy. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24577
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24577
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 199
+ExitExtEnd
+Exit 1
+~
+~
+0 0 199
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24567
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24567
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 228
+ExitExtEnd
+Exit 3
+~
+~
+0 0 228
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 228
+Name Równina~
+Descr Trakt prowadzi przez skalisty teren. Rozgl±daj±c siê widzisz granitow±,
+ci±gn±c± siê bez koñca równinê i gdzieniegdzie porozrzucane du¿e jak i ma³e
+kamienie. Gdzieniegdzie rosn± ma³e kaktusy, jednak flora tego miejsca nie
+jest zbyt bogata. Czasem gdy mijasz g³azy starasz siê o pewno¶æ siebie,
+aczkolwiek na pewno ³atwo tutaj o spotkanie rabusia. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24578
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24578
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 227
+ExitExtEnd
+Exit 1
+~
+~
+0 0 227
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24568
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24568
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 229
+ExitExtEnd
+Exit 3
+~
+~
+0 0 229
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 229
+Name Równina~
+Descr ¦cie¿ka wiedzie wprost przed siebie nie zwa¿aj±c na kilka walaj±cych siê
+dooko³a g³azów. Ro¶linno¶æ w tym miejscu równa siê z niczemu, a krajobraz nie
+przedstawia nic poza kamieniami, piaskiem i lasek rozci±gaj±cym siê daleko
+na pó³nocnym-zachodzie. Wszak najwa¿niejsze, ¿e podró¿ nie sprawia wiêkszej
+trudno¶ci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24579
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24579
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 228
+ExitExtEnd
+Exit 1
+~
+~
+0 0 228
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24569
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24569
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 230
+ExitExtEnd
+Exit 3
+~
+~
+0 0 230
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 230
+Name Równina~
+Descr Trakt prowadzi przez skalisty teren. Rozgl±daj±c siê widzisz granitow±,
+ci±gn±c± siê bez koñca równinê i gdzieniegdzie porozrzucane du¿e jak i ma³e
+kamienie. Gdzieniegdzie rosn± ma³e kaktusy, jednak flora tego miejsca nie
+jest zbyt bogata. Czasem gdy mijasz g³azy starasz siê o pewno¶æ siebie,
+aczkolwiek na pewno ³atwo tutaj o spotkanie rabusia. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24580
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24580
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 229
+ExitExtEnd
+Exit 1
+~
+~
+0 0 229
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24570
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24570
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 231
+ExitExtEnd
+Exit 3
+~
+~
+0 0 231
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 231
+Name Równina~
+Descr ¦cie¿ka wiedzie wprost przed siebie nie zwa¿aj±c na kilka walaj±cych siê
+dooko³a g³azów. Ro¶linno¶æ w tym miejscu równa siê z niczemu, a krajobraz nie
+przedstawia nic poza kamieniami, piaskiem i lasek rozci±gaj±cym siê daleko
+na pó³nocnym-zachodzie. Wszak najwa¿niejsze, ¿e podró¿ nie sprawia wiêkszej
+trudno¶ci. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24581
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24581
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 230
+ExitExtEnd
+Exit 1
+~
+~
+0 0 230
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24571
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24571
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 232
+ExitExtEnd
+Exit 3
+~
+~
+0 0 232
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 232
+Name Kamienne skrzy¿owanie~
+Descr Dobrze wy³o¿one kamieniami i obsypane piaskiem, kamienie chyba zosta³y
+dopiero co po³o¿one. Na po³udniu widzisz niewielk± twierdzê, niedaleko na
+pó³nocy roztacza siê las, z którego raz za razem s³ychaæ odg³osy zwierz±t.
+Obszerna, równina wydaje siê nie mieæ koñca i ci±gnie siê daleko na wschód,
+na zachodzie za¶ widaæ ma³o, o ile siê nie mylisz, s± tam najprawdopodobniej
+jakie¶ budynki. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7801
+ExitExtEnd
+Exit 0
+~
+~
+0 0 7801
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 231
+ExitExtEnd
+Exit 1
+~
+~
+0 0 231
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24587
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24587
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2116
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2116
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+132 43 0 0 0 0 100 100 7 20 * 0
+184 34 11 0 0 0 120 80 12 18 * 548
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+M 157 spec_nasty
+S
+
+
+
+#RESETS
+O 100 133 0 160
+M 100 157 1 161 1
+G 65 6053 0
+P 100 159 1 155 1
+O 100 1712 0 163
+O 100 170 0 170
+O 100 32000 0 172
+O 100 2350 0 179
+O 100 135 0 188
+O 100 2352 0 200
+M 100 132 1 202 1
+O 100 600 0 232
+S
+
+
+
+#MOBPROGSNEW
+#132
+~
+if room $i == 548
+say Czas koñczyæ na dzi¶.
+minidelay 1
+emote zwija swój stragan.
+minidelay 1
+mob mobstring wifrea long Wifrea Alromw idzie sobie gdzie¶ powoli.
+mob walk 582
+endif
+~
+#133
+~
+if room $i == 582
+mob mobstring self long Wifrea Alromw idzie sobie gdzie¶ powoli.
+mob walk 548
+endif
+~
+#134
+~
+if room $i == 548
+mob mobstring self long Wifrea Alromw, wdowa po znanym kupcu uwija siê tutaj.
+emote rozk³ada swój stragan.
+endif
+if room $i == 582
+mob mobstring self long Wifrea Alromw, wdowa po znanym kupcu, odpoczywa sobie tutaj.
+endif
+~
+#135
+~
+mob command
+mob goto 204
+drop all
+mob goto 202
+~
+#157
+~
+~
+#157_greet
+Zakapturzony zbir i nieciekawe efekty.
+~
+if hasflag $n 157_random_fight
+  stand
+  backstab $n
+  kill $n
+endif
+~
+#157_onload
+~
+mob equip self 3001
+mob equip self 3050
+mob equip self 3157
+mob equip self 4426
+mob equip self 3018
+if rand 50
+mob oload 3179
+hold krotki
+endif
+~
+#157_random_figh
+Zakapturzony zbir i nieciekawe efekty.
+~
+mob setflag $n 157_random_fight 20
+mob sethhf $i haste $n
+mob sethhf $i hunt $n
+flee
+~
+#158
+~
+mob goto 199
+mob echo Zbir umyka do swojej kryjówki.
+~
+#garbarz1_give
+~
+mob reward $n wait 5
+if !hasflag $n reg_mysliwy_event
+  mob drop $o
+  break
+endif
+###lapka zajaca
+if charflag $n reg_mysliwy_event == 1
+  $_skora = obj_first_carried $i
+  if streval $_skora.name eq "³apka zajêcza zajeczalapka"
+    mob modflag $n mod reg_mysliwy_liczba 1
+    sayto $n Dobrego szczê¶cia nigdy za wiele.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 800
+    mob junk $o
+  else
+    give $o $n
+    sayto $n To nie jest ³apka zaj±ca.
+    break
+  endif
+  if charflag $n reg_mysliwy_liczba > 9
+    sayto $n Powinno starczyæ na ten amulecik. Masz tu dodatek.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 4000
+    if rand 50
+      mob reward $n silver 3000
+    else
+      mob oload 20377
+      give lapka $n
+    endif
+    mob reward $n exp 2500
+    mob echoat $n Czujesz siê nieco bardziej do¶wiadczony.
+    mob reward $n wait 5
+    sayto $n ¯ona znajomego za¿yczy³a sobiê jaki¶ ³adny szalik. Przynie¶ mi piêæ ogonów lisa.
+    mob modflag $n mod reg_mysliwy_event 1
+    mob setflag $n reg_mysliwy_liczba 0
+    break
+  endif
+endif
+### ogon kita
+if charflag $n reg_mysliwy_event == 2
+  $_skora = obj_first_carried $i
+  if streval $_skora.name eq "ogon kita"
+    mob modflag $n mod reg_mysliwy_liczba 1
+    sayto $n £adny ogonek, bêdzie z niego dobry szal. Masz tu pare srenych za niego.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 2000
+    mob junk $o
+  else
+    give $o $n
+    sayto $n To nie jest ogon lisa.
+    break
+  endif
+  if charflag $n reg_mysliwy_liczba > 4
+    sayto $n Powinno wystarczyæ. Masz tu za dobr± robotê.
+    mob echoat $n Garbarz podsuwa ci zgrabn± kupkê monet.
+    mob reward $n silver 8500
+    mob reward $n exp 5500
+    mob echoat $n Czujesz siê nieco bardziej do¶wiadczony.
+    mob reward $n wait 5
+    sayto $n Ka¿dy dobry my¶liwy w swojej kolekcji musi mieæ jakie¶ ³adne poro¿a. Przynie¶ mi osiem sztuk.
+    mob modflag $n mod reg_mysliwy_event 1
+    mob setflag $n reg_mysliwy_liczba 0
+    break
+  endif
+endif
+### poroza
+if charflag $n reg_mysliwy_event == 3
+  $_skora = obj_first_carried $i
+  if streval $_skora.name eq "poro¿e"
+    mob modflag $n mod reg_mysliwy_liczba 1
+    sayto $n Doskona³e poro¿e. Oto zap³ata.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 1800
+    mob junk $o
+  else
+    give $o $n
+    sayto $n To nie jest poro¿e.
+    break
+  endif
+  if charflag $n reg_mysliwy_liczba > 7
+    sayto $n Dobra robota.
+    mob echoat $n Garbarz wyjmuje ma³y mieszek z pieniêdzmi i wrêcza ci go.
+    mob reward $n silver 10500
+    mob reward $n exp 22500
+    mob echoat $n Czujesz siê nieco bardziej do¶wiadczony.
+    mob reward $n wait 5
+    sayto $n Pazury nied¼wiedzia stanowi± ciekawe trofeum. Potrzebuje takich siedem par.
+    mob modflag $n mod reg_mysliwy_event 1
+    mob setflag $n reg_mysliwy_liczba 0
+    break
+  endif
+endif
+#pazury niedzwiedzia
+if charflag $n reg_mysliwy_event == 4
+  $_skora = obj_first_carried $i
+  if streval $_skora.name eq "pazury nied¼wiedzia"
+    mob modflag $n mod reg_mysliwy_liczba 1
+    sayto $n Doskona³e pazury, zgodnie z zamówieniem. Oto twoja zap³ata.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 4000
+    mob junk $o
+  else
+    give $o $n
+    sayto $n To nie s± pazury nied¼wiedzia.
+    break
+  endif
+  if charflag $n reg_mysliwy_liczba > 6
+    sayto $n Jak zwykle dobra robota.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 30000
+    mob reward $n exp 55000
+    mob echoat $n Czujesz siê bardziej do¶wiadczony.
+    mob reward $n wait 5
+    sayto $n Jak ju¿ s± pazury nied¼wiedzia, to przyda³oby siê co¶ z wilka. K³y dajmy na to. Przynie¶ mi piêæ kompletów.
+    mob modflag $n mod reg_mysliwy_event 1
+    mob setflag $n reg_mysliwy_liczba 0
+    break
+  endif
+endif
+#kly wilka
+if charflag $n reg_mysliwy_event == 5
+  $_skora = obj_first_carried $i
+  if streval $_skora.name eq "k³y wilka"
+    mob modflag $n mod reg_mysliwy_liczba 1
+    sayto $n Znakomite k³y.
+    mob echoat $n Garbarz odlicza ci parê srebrnych monet.
+    mob reward $n silver 8000
+    mob junk $o
+  else
+    give $o $n
+    sayto $n To nie s± k³y wilka.
+    break
+  endif
+  if charflag $n reg_mysliwy_liczba > 4
+    sayto $n W lasach nie ma ju¿ chyba wilków. Hie hie.
+    mob echoat $n $i odlicza ci parê srebrnych monet.
+    mob reward $n silver 40000
+    mob reward $n exp 60000
+    mob echoat $n Czujesz siê bardziej do¶wiadczony.
+    mob reward $n wait 5
+    sayto $n Chwilowo to wszystko, ale zjaw siê za jaki¶ czas, mo¿e bêdê mia³ nastêpne zlecenie.
+    mob modflag $n mod reg_mysliwy_event 1
+    mob setflag $n reg_mysliwy_liczba 0
+    break
+  endif
+endif
+drop all
+end
+~
+#garbarz1_greet
+~
+if hasflag $n reg_mysliwy_event
+or hasflag $n mysliwy_nie_chce
+or level $n < 6
+  break
+endif
+mob reward $n wait 10
+minidelay 2
+mob echoat $n Stary garbarz przygl±da ci siê uwa¿nie, gdy wchodzisz do jego chaty.
+minidelay 2
+sayto $n Witaj! Zjawiasz siê w sam± porê. Je¶li jeste¶ zainteresowany zarobieniem paru srebrników to s³uchaj uwa¿nie.
+minidelay 2
+sayto $n Mam pewnego znajomego, który chcê zrobiæ sobie kolekcie ró¿nych trofeów.. bogat± kolekcjê. Sêk w tym, ¿e on nie wie nawet jak siê trzyma nó¿, a zaj±ca z jeleniem by pomyli³. Dlatego potrzebuje kogo¶, kto dla niego te trofea zdobêdzie. 
+minidelay 2 
+sayto $n Za ka¿de przyniesione trofeum dosteniesz odpowiedni± ilo¶æ srebrników, jak ukoñczysz ca³e zamówienie, dorzuce co¶ ciekawego.
+minidelay 2
+sayto $n Zainteresowany?
+responsedelay 10 "nie" "tak" "oczywiscie" "jasne"
+if response 0
+  sayto $n Jak sie zdecydujesz to przyjd¼ jeszcze raz.
+  break
+endif
+If response 1
+  sayto $n Nie masz widaæ g³owy do interesów.
+  mob setflag $n mysliwy_nie_chce 5
+  break
+endif
+if response 2
+or response 3
+or response 4
+  mob reward $n wait 5
+  mob echoat $n Stary garbarz podaje ci rêkê.
+  sayto $n I tak sie ubija interesy na tym ¶wiecie. Na pocz±tek przynie¶ dziesieæ króliczych ³apek, jegomo¶æ chce z nich jaki amulet dla ¿onki zrobiæ.
+  mob setflag $n reg_mysliwy_event 1
+  mob setflag $n reg_mysliwy_liczba 0
+endif
+end
+~
+#0
+
+#OBJPROGSNEW
+#197
+~
+if hpcnt $n < 10
+  if rand 95
+    mob echoat $n Czujesz jak moc {Wko¶cianej tarczy{x zwraca sie ku tobie.
+    mob echoat $n Ogromyny ból przechodzi przez twoje cia³o to chyba koniec.
+    mob echoaround $n Widzisz, ¿e co¶ dziwnego dzieje sie z $v.
+    mob echoaround $n Odczuwasz jakby jego tarcza odwróci³a siê przeciw $x.
+    mob damage $n 150 150 pwk
+  else
+    break
+  endif
+endif
+~
+#211_fight
+~
+if pos $n fighting
+  if wears $n 211
+  or wearsarte $n 211  
+    if rand 90
+      mob echo {CKryszta³ {YTellany{x niespodziewanie promieniuje {Wbia³ym {Yo¶lepiaj±cym{x ¶wiat³em!
+      mob cast blindnes $t 10
+      if rand 90
+        mob cast blindnes $n 10
+      endif    
+    else      
+      mob echoaround $t Z {Ckryszta³u {YTellany{x wystrzeliwuje nagle {Rp³omieñ{x i razi $tz.
+      mob echoat $t Z {Ckryszta³u {YTellany{x wystrzeliwuje {Rognisty{x jêzyk, który trafia w ciebie!
+      mob damageex $t 4 4 6
+    endif
+  endif
+endif
+~
+#211_random
+~
+if players > 0
+  mob remember $r
+  foreachinroom $q
+    if wears $q 211
+    or wearsarte $q 211
+      if isdarkhere
+        if rand 50
+          mob echo {CKryszta³ {YTellany{x zaczyna promieniowaæ co raz silniejszym bia³ym ¶wiat³em i rozprasza otaczaj±cy {Dmrok{x!
+          mob cast 'ray of light'
+          delay 3
+        else
+          mob echo {CKryszta³ {YTellany{x zaczyna promieniowaæ co raz silniejszym bia³ym ¶wiat³em, ale nie udajê mu siê rozproszyæ panuj±cego {Dmroku{x!
+          delay 2
+        endif
+      endif
+    endif
+    nextfor
+  endfor
+  mob forget
+endif
+~
+#221
+~
+mob damage $n -50 -50 l
+~
+#222
+~
+mob cast refre $n 30
+~
+#tellana
+prog do tellany;)
+~
+~
+#0
+
+#ROOMPROGSNEW
+#132
+~
+if hasflag $n nqforteca
+break
+else
+if hasflag $n nqrienna
+mob purge
+mob mload 14015
+endif
+endif
+~
+#150
+~
+if rand 66
+  mob echo Czujesz przyp³yw gor±cego powietrza ze wschodu.
+else
+  if rand 50
+    mob echo Czujesz powiew ciep³ego wiatru ze wschodu.
+  else
+    if rand 50
+      mob echo Ze wschodu dochodzi ciê delikatny powiew ciep³ego wiatru.
+    endif
+  endif
+endif
+~
+#151
+~
+if rand 66
+  Czujesz przyp³yw gor±cego powietrza z zachodu.
+else
+  if rand 50
+    mob echo Czujesz powiew ciep³ego wiatru z zachodu.
+  else
+    if rand 50
+      mob echo Z zachodu dochodzi ciê delikatny powiew ciep³ego wiatru.
+    endif
+  endif
+endif
+~
+#raszer_gemtest
+~
+mob oload gem 7 r
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 132
+DescRand ~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 201
+Name ¦lady Niraso~
+Comments nie ruszac bez konsultacji! - {RRisan{x ({CSun Sep 11 11:55:47 2011{x)
+~
+Aff 1 14 40 0 0 0
+Aff 1 13 5 0 0 0
+Aff 1 12 15 10 0 0
+Aff 1 18 1 0 0 0
+WearProg mob echoat $n Czujesz jak wraz za³o¿eniem ostatniego przedmiotu nale¿±cego do ekwipunku b³ogos³awionego podró¿nika otacza ciê ³aska samego {CNiraso{x.
+Mob echoaround $n Widzisz jak $n zak³ada ostatni± czê¶æ podró¿niczego ekwipunku spogl±daj±c w niebo...
+~
+RemoveProg Mob echoat $n Zdejmuj±c podró¿niczy ekwipunek czujesz jak odp³ywa od ciebie dar {CNiraso{x.
+Mob echoaround $n $n zdejmuje ekwipunek podro¿nika, czujesz wielki zawód...
+~
+BonusEnd
+#Vnum 0
+
+#$

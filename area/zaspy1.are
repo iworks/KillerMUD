@@ -1,0 +1,3638 @@
+#AREADATA
+Name +# ¦nie¿ne Zaspy~
+Builders Easterial~
+VNUMs 24901 24970
+Credits Deggial, Feerial~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 24912
+Name yeti bia³y bia³e stare~
+Odmiana starego yeti~staremu yeti~stare yeti~starym yeti~starym yeti~
+Short stare yeti~
+Long Stare, prawie kompletnie bia³e yeti przemyka tedy niczym duch.~
+Descr Ten yeti jest jeszcze wiêkszy ni¿ jego pobratymcy. Futro ma ¶nie¿nobia³e,
+mimo swego wieku porusza siê cicho i z gracja. Widaæ, ¿e to do¶wiadczony
+i bezlitosny my¶liwy, w dodatku stoj±cy wysoko w hierarchii ¶nie¿nych ludzi.
+~
+Race yeti~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -100
+Group 0
+Lang A
+Speaks 0
+Level 9
+Hitroll -1
+HP 9d6+90
+Damage 1d8+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 8 7 7 10
+Stats 114 72 60 84 102 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size medium
+Material unknown
+Skin 80
+ExpMultiplier 100
+Resist 8 75
+Mobend
+#Vnum 24913
+Name yeti du¿e gro¼ne~
+Odmiana gro¼nego du¿ego yeti~gro¼nemu du¿emu yeti~gro¼ne du¿e yeti~gro¼nym du¿ym yeti~gro¼nym du¿ym yeti~
+Short gro¼ne du¿e yeti~
+Long Du¿e, gro¼ne yeti stoi tutaj na stra¿y.~
+Descr Najwyra¼niej lodowa spo³eczno¶æ wytypowa³a tego osi³ka o pilnowania
+jaskiñ. Ma wiele blizn na pysku a b³ysk w oku utwierdza ciê w przekonaniu,
+ze pomimo widocznego wieku jego umys³ nadal sprawnie funkcjonuje. 
+~
+Race yeti~
+ActExt 0|ABCFGIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -300
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d6+120
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walniecie
+XAC 8 6 6 9
+Stats 132 78 102 90 114 78 78
+Off DJRX
+OffExt 0|DJRX
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size medium
+Material unknown
+MobprogNew random 24913 FGI 1~
+Skin 120
+ExpMultiplier 100
+Resist 8 80
+Mobend
+#Vnum 24914
+Name ent zb³akany drzewiec boss~
+Odmiana enta~entowi~enta~entem~encie~
+Short zb³±kany ent~
+Long Jaki¶ zb³±kany ent chodzi tutaj i szuka drogi w lodowym labiryncie.~
+Descr Widzisz zmarzniêtego, obro¶niêtego soplami, niem³odego ju¿ enta. Wygl±da
+dosyæ ¿a³o¶nie i biednie, mimo swego imponuj±cego wzrostu. Tutejszy klimat
+najwyra¼niej mu nie s³u¿y, ciekawe wobec tego, co porabia w tych okolicach?
+Kiedy tak na niego spogl±dasz zauwa¿asz, ¿e mimo op³akanego stanu w jakim
+siê znajduje to wci±¿ ent - jedna z najsilniejszych i najstarszych istot na
+¶wiecie. Z takimi jak on lepiej nie zadzieraæ. 
+~
+Race drzewiec~
+ActExt 0|ACGLTX/2|C
+Affected 33554984 0 0 8192
+AffectedExt 0|DFJZ/3|N
+Align 1000
+Group 0
+Lang R
+Speaks 16
+Level 30
+Hitroll 4
+HP 50d3+1100
+Damage 3d5+3
+Dammagic 2
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC -5 -5 -5 -10
+Stats 156 168 156 72 168 78 78
+Off OY
+OffExt 0|OY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CE
+Parts JK
+Size huge
+Material unknown
+Comments Dodalem mu stability na czas rozwiazania problemu zaleznosci szansy a basha od zrecznosci ac, rozmiarow itp. - {RRaszer{x ({CWed Feb  6 17:50:04 2008{x)
+~
+MobprogNew onload ent_onload ABCDEFGHI 100~
+MobprogNew death ent_24914_death ABCDEFGHI 100~
+MobprogNew fight ent_antisum H 15~
+Spells 258 257 137 7
+Spells 262 242 91 299
+Spells 240 350 270 399
+Spells 50 26 143 0
+Skin 100
+ExpMultiplier 250
+Resist 1 15
+Resist 2 10
+Resist 3 5
+Resist 4 25
+Resist 10 100
+Resist 12 100
+Resist 16 100
+Mobend
+#Vnum 24917
+Name goblin stra¿nik~
+Odmiana goblina stra¿nika~goblinowi stra¿nikowi~goblina stra¿nika~goblinem stra¿nikiem~goblinie stra¿niku~
+Short goblin stra¿nik~
+Long Ubrany w zwierzêce skóry goblin strze¿e pobliskiego obozu.~
+Descr Widzisz tylko oczy goblina, i wystaj±ce zza wielkiej skórzanej czapy
+czubki uszu. Goblin raz po raz przestêpuje z nogi na nogê, zaciera rêce
+i podskakuje, za wszelka cenê chc±c siê rozgrzaæ. Widaæ, ¿e warta przy
+tej temperaturze nie nale¿y do przyjemno¶ci. 
+~
+Race goblin~
+ActExt 0|ABCEFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AO
+Speaks 14
+Level 8
+Hitroll 0
+HP 8d6+135
+Damage 1d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 90 78 96 96 78 78 78
+Off DIKR
+OffExt 0|DIKR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24918
+Name goblin nadzorca pilnuj±cy~
+Odmiana ma³ego goblina~ma³emu goblinowi~ma³ego goblina~ma³ym goblinem~ma³ym goblinie~
+Short ma³y goblin~
+Long Ma³y, lecz bardzo butny goblin biega tam i z powrotem szukaj±c zadry z ka¿dym.~
+Descr Ten niewielki goblin w ciekawie skomponowanej zbroi najwyra¼niej bardzo
+poruszony jest tym ze nie przydzielono mu ¿adnego zajêcia, z drugiej jednak
+strony wygl±da na tak têpego ze lepiej ¿eby siê za nic nie bra³. 
+~
+Race goblin~
+ActExt 0|AGS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AO
+Speaks 14
+Level 6
+Hitroll 0
+HP 6d6+90
+Damage 1d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 84 60 54 84 78 78 78
+Off HNR
+OffExt 0|HNR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24920
+Name goblin wielki górski dowódca okutany~
+Odmiana goblina dowódcy~goblinowi dowódcy~goblina dowódcê~goblinem dowódca~goblinie dowódcy~
+Short goblin dowódca~
+Long Wielki górski goblin, okutany w futra, nadzoruje robotê i wyznacza zadania.~
+Descr Ten osobnik jest prawdziwym gigantem w¶ród swoich pobratymców. Górskie
+i podziemne gobliny w ogóle nie s³yn± z imponuj±cych rozmiarów, ale ten goblin
+móg³by ¶mia³o konkurowaæ z wielkimi le¶nymi goblinami z po³udnia. Ma prawie
+trzy ³okcie wzrostu, dodatkowo wra¿enie na tobie robi± szlachetne skory
+i futra, w jakie jest odziany. W ma³ych czarnych oczach dostrzegasz
+zadziwiaj±ca inteligencje, ale i z³o¶liwo¶æ. 
+~
+Race goblin~
+ActExt 0|ABCEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AO
+Speaks 14
+Level 10
+Hitroll 0
+HP 10d6+195
+Damage 1d7+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 7 7 7 10
+Stats 90 78 54 108 84 78 78
+Off DER
+OffExt 0|DER
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 35
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24921
+Name niewolnik gnom zmêczony~
+Odmiana niewolnika~niewolnikowi~niewolnika~niewolnikiem~niewolniku~
+Short niewolnik~
+Long ¦miertelnie zmêczony niewolnik ¶pi tutaj na go³ej ziemi.~
+Descr Ten gnom tak czy inaczej jest ju¿ martwy. Je¶li nie zginie z rêki
+jakiego¶ goblina, lub podczas wypadku w kopalni, to wykoñczy go mróz, g³ód
+albo jak±¶ paskudna choroba. 
+~
+Race gnom~
+ActExt 0|ABCE
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d6+70
+Damage 1d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack klapniecie
+XAC 10 10 10 10
+Stats 72 90 72 84 54 78 78
+Off 0
+OffExt 0
+Pos_start sleep
+Pos_def sleep
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew onload 24921 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24922
+Name goblin nadzorca pilnuj±cy~
+Odmiana goblina nadzorcy~goblinowi nadzorcy~goblina nadzorcê~goblinem nadzorca~goblinie nadzorcy~
+Short goblin nadzorca~
+Long Goblin pilnuj±cy niewolników przy pracy chodzi tutaj w³adczym krokiem.~
+Descr Typowy sadysta - male, z³o¶liwe oczka i brutalno¶æ, z jaka traktuje
+bezbronnych górników. Ogólnie nieciekawy typ o nieciekawej fizjonomii.
+Równie¿ jego têpe spojrzenie ¶wiadczy o tym, ¿e nie nale¿y on do grona
+najbystrzejszych przedstawicieli swojej rasy. 
+~
+Race goblin~
+ActExt 0|AGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang AO
+Speaks 14
+Level 8
+Hitroll 0
+HP 8d6+160
+Damage 1d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 90 72 60 84 84 78 78
+Off DIR
+OffExt 0|DIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24923
+Name górnik gnom niewolnik~
+Odmiana niewolnika~niewolnikowi~niewolnika~niewolnikiem~niewolniku~
+Short niewolnik~
+Long Gnomi niewolnik kuje zmarzniêt± ziemiê i lód prymitywnym oskardem.~
+Descr Wyposa¿ony tylko w oskard i odziany w ³achmany - ten niewolnik ju¿ dawno
+str±ci³ wszelka nadzieje na wyzwolenie. Bezustannie bity i poni¿any my¶li
+ju¿ tylko o tym w jaki sposób godnie umrzeæ. Niestety, gobliny najwyra¼niej
+nie zamierzaj± mu tego u³atwiaæ, staraj±c siê wykorzystaæ go do koñca. 
+~
+Race gnom~
+ActExt 0|ABEG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 6
+Hitroll 0
+HP 6d6+110
+Damage 1d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 84 96 72 84 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24924
+Name goblin mag gorski~
+Odmiana goblina maga~goblinowi magowi~goblina maga~goblinem magiem~goblinie magu~
+Short goblin mag~
+Long Górski goblin mag, wspieraj±cy pracuj±cych niewolników, krêci siê w kó³ko.~
+Descr Ten ma³y goblin to jeden z odmieñców swojej rasy, która na ogó³ nie bawi
+siê w magiê. Po dziwnym i ciêzkim dzieciñstwie, podczas którego nauczy³ siê
+jej podstaw, zosta³ on uznany za doskona³± pomoc w tej kopalni. 
+~
+Race goblin~
+ActExt 0|ABGR
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 7
+Hitroll 0
+HP 3d5+130
+Damage 2d3+-1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 132 132 84 102 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 194 167 6 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24932
+Name sowa ¶nie¿na wielka puchata~
+Odmiana {W¶nie¿nej sowy{x~{W¶nie¿nej sowie{x~{W¶nie¿na sowê{x~{W¶nie¿na sowa{x~{W¶nie¿nej sowie{x~
+Short {W¶nie¿na sowa{x~
+Long {WWielka puchata sowa o bia³ych piórach pilnuje swojego ³owieckiego terytorium.{x~
+Descr {WJest to ogromna ¶nie¿na sowa, które swoje gniazdo uwi³a na wysokiej,
+niedostêpnej skale. Sowa zwykle poluje pod wieczór, jednak i w dzieñ nie
+pogardzi niczym, co uzna za potencjalna zdobycz. W koñcu nie ka¿dy ¿yje
+w trudnych arktycznych warunkach...{x
+~
+Race ptak~
+ActExt 0|ABEFG
+Affected 524288 0 0 0
+AffectedExt 0|T
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 6
+Hitroll 1
+HP 6d6+100
+Damage 2d2+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack dziobanie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGW
+Parts ACDEFHKPRST
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24933
+Name barbarzyñca z zasp~
+Odmiana barbarzyñcy~barbarzyñcy~barbarzyñcê~barbarzyñc±~barbarzyñcy~
+Short barbarzyñca~
+Long Okutany w futra potê¿ny barbarzyñca przedziera siê przez zaspy.~
+Descr Jest to mê¿czyzna w sile wieku o twarzy poznaczonej wieloma zmarszczkami.
+Zapewne mieszka i wêdruje w tym rejonie od urodzenia. Jego postura, styl
+zachowania i ubiór ¶wiadcz± o tym, ¿e nale¿y do jakiego¶ plemiona
+barbarzyñców. Byæ mo¿e bêdzie sk³onny nauczyæ ciê tego i owego o przetrwaniu
+w tym srogim klimacie. 
+~
+Race cz³owiek~
+ActExt 0|AIJKQSTXd/2|E
+Affected 0 0 0 0
+AffectedExt 0
+Align -300
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 38d3+275
+Damage 3d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 6 6 6 6
+Stats 144 90 108 132 132 78 78
+Off DJ
+OffExt 0|DJ
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give poczta_barb FGI 2100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 24946
+Name yeti my¶liwy~
+Odmiana my¶liwego yeti~my¶liwemu yeti~my¶liwego yeti~my¶liwym yeti~my¶liwym yeti~
+Short my¶liwy yeti~
+Long My¶liwy yeti poluje tutaj na zb³±kane ofiary.~
+Descr Potê¿nie zbudowany ¶nie¿ny cz³owiek, ca³y pokryty d³ugim, bia³ym w³osiem,
+pe³ni prawdopodobnie role my¶liwego. Bia³e umaszczanie pozwala mu doskonale
+kryæ siê w ¶niegu na niczego niespodziewaj±c± siê ofiare. 
+~
+Race yeti~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 200
+Group 0
+Lang A
+Speaks 0
+Level 7
+Hitroll 0
+HP 7d6+70
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 8 6 6 9
+Stats 90 54 30 90 90 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 8 75
+Mobend
+#Vnum 24947
+Name yeti m³ode dziecko m³ody~
+Odmiana m³odego yeti~m³odemu yeti~m³odego yeti~m³odym yeti~m³odym yeti~
+Short m³ode yeti~
+Long M³ode yeti baraszkuje tutaj, raz po raz podrzucaj±c bry³y lodu.~
+Descr To m³ode yeti wygl±da³oby uroczo, gdyby nie potê¿ne ³apska i musku³y,
+które graj± pod pokryta futrem skora, a tak¿e wystaj±ce z pyska k³y. Mimo
+wszystko i tak lepiej spotkaæ "dziecko" yeti, ni¿ na przyk³ad doros³ego
+osobnika tego gatunku... 
+~
+Race yeti~
+ActExt 0|AFGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 200
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d6+50
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 8 6 6 9
+Stats 90 54 30 90 90 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size medium
+Material unknown
+Comments zmieni³em resist lighting na resist cold... specjalnie by³a odporno¶æ na elektryczno¶æ? - {RGurthg{x ({CTue Apr 27 19:21:10 2004{x)
+~
+Skin 100
+ExpMultiplier 100
+Resist 8 75
+Mobend
+#Vnum 24951
+Name matka yeti boss~
+Odmiana matki yeti~matce yeti~matkê yeti~matka yeti~matce yeti~
+Short matka yeti~
+Long Matka wszystkich yeti siedzi tutaj na podwy¿szeniu ze skór.~
+Descr Widzisz paskudn±, star± bestie, pokryt± w ca³o¶ci grubym i mocnym, bia³ym
+futrem. Jest ona matk± tutejszego plemienia, czyli najwy¿sz± kap³ank± i
+królem w jednym. Na jedno jej skinienie wojownicy plemienia gotowi s±
+wyruszyæ na wyprawy ³upie¿cze daleko poza o¶nie¿one góry i ¶nie¿ne pola,
+gotowi zagroziæ ludziom w Easterial czy plemionom Naugrimów w jaskiniach
+wykutych w górach smoczych. 
+~
+Race yeti~
+ActExt 0|ABFT/2|C
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 12
+Hitroll 2
+HP 12d6+180
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack drapanie
+XAC 3 3 3 10
+Stats 144 78 90 84 132 30 90
+Off DIRY
+OffExt 0|DIRY
+Pos_start sit
+Pos_def sit
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size large
+Material unknown
+MobprogNew onload 24951 ABCDEFGHI 100~
+Skin 200
+ExpMultiplier 100
+Resist 3 20
+Resist 8 80
+Resist 12 80
+Resist 14 100
+Mobend
+#Vnum 24952
+Name m³ody ³owca goniec~
+Odmiana m³odego ³owcy~m³odemu ³owcy~m³odego ³owcê~m³odym ³owc±~m³odym ³owcy~
+Short m³ody ³owca~
+Long M³ody, aczkolwiek do¶wiadczony ³owca odpoczywa tutaj po d³ugiej podró¿y.~
+Descr Masz przed sob± ca³kiem sporego, do¶æ ³adnie zbudowanego miê¶niowo
+cz³owieka o surowych rysach twarzy i pewnym, ambitnym spojrzeniu soko³a.
+Najprawdopodobniej jest on zwiadowc±, lub jakim¶ goñcem, miejscowej osady
+³owców. Ciekawe có¿ sprowadza go w³a¶nie tutaj, zapewne musi trochê odpocz±æ
+przed dalsz± podró¿±. Porusza siê on niesamowicie szybko, mo¿na byæ pewnym,
+¿e jest to zwi±zane z jego zawodem. 
+~
+Race cz³owiek~
+ActExt 0|ABGST
+Affected 0 0 0 0
+AffectedExt 0
+Align 50
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 1
+HP 13d6+919
+Damage 2d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 7
+Stats 90 84 126 138 78 126 90
+Off FHIYb
+OffExt 0|FHIYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 24908
+Name ksiêga zielona poro¶niêta questitem~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short {Gzielona ksiêga{x~
+Descr Le¿y tutaj ksiêga, ca³a poro¶niêta mchem.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 8 137 496 26 377 291
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 43320
+Cond 100
+Itemdesc Do¶æ ciê¿ka, poro¶niêta ró¿nymi gatunkami mchu ksiêga. Dwa ciê¿kie
+mosiê¿ne zawiasy utrzymuj± grube drewniane oprawy, a ca³o¶æ spina pas
+wykonany z dziwnego, skóropodobnego materia³u. Po¶rodku widaæ przepiêknie
+rze¼bione zapiêcie. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 24920
+Name rakiety ¶nie¿ne obrêcze~
+Odmiana rakiet ¶nie¿nych~rakietom ¶nie¿nym~rakiety ¶nie¿ne~rakietami ¶nie¿nymi~rakietach ¶nie¿nych~
+Short rakiety ¶nie¿ne~
+Descr Para jaki¶ dziwnych obrêczy z wplecionymi skórzanymi paskami le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 0
+Cond 100
+Itemdesc Dwa kawa³ki giêtkiego drewna odpowiednio po³±czono ze sob±, tworz±c co¶
+w rodzaju elipsy. Oprócz tego s± tutaj skórzane paski, tworz±ce dosyæ gêsta
+siatkê i mocowanie dla nóg. 
+~
+Comments ~
+Objend
+#Vnum 24921
+Name ³achmany ¶mierdz±ce przesi±kniête~
+Odmiana ³achmanów~³achmanom~³achmany~³achmanami~³achmanach~
+Short ³achmany~
+Descr ¦mierdz±ce, przesi±kniête potem i krwi± ³achmany walaj± siê tutaj.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 24922
+Name znaczek~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short spory drogowskaz~
+Descr Spory, porz±dnie zrobiony drogowskaz.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 0
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 24947
+Name lodu lodowa bry³ka grudka~
+Odmiana {Cbry³ki lodu{x~{Cbry³ce lodu{x~{Cbry³kê lodu{x~{Cbry³ka lodu{x~{Cbry³ce lodu{x~
+Short {Cbry³ka lodu{x~
+Descr {CMa³a bry³ka jasnob³êkitnego lodu pob³yskuje tutaj lekko.{x~
+Material nieznany~
+Type pill
+ExtraExt 0|H
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 16 16 83 -1 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 100
+Identdesc ~
+Comments ~
+Objend
+#Vnum 24950
+Name pulsuj±ca moc± ksiêga zielona~
+Odmiana {Gpu{gls{Guj{g±c{Gej m{goc{G± {gks{Giê{ggi{x~{Gpu{gls{Guj{g±c{Gej m{goc{G± {gks{Giê{gdz{Ge{x~{Gpu{gls{Guj{g±c{G± m{goc{G± {gks{Giê{gge{x~{Gpu{gls{Guj{g±c{G± m{goc{G± {gks{Giê{gg±{x~{Gpu{gls{Guj{g±c{Gej m{goc{G± {gks{Giê{gdz{Ge{x~
+Short {Gpu{gls{Guj{g±c{Ga m{goc{G± {gks{Giê{gga{x~
+Descr Le¿y tutaj sporej wielko¶ci, pulsuj±ca moc± ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 9 91 399 497 503 0
+Repair 0 0 0 0
+Length 0
+Weight 60
+Cost 51540
+Cond 100
+Itemdesc Sporej wielko¶ci ksiêga z okuciami, pokrytymi czym¶ w rodzaju bluszczu. W
+tej ksiêdze za pewne znajduj± siê najpotê¿niejsze druidyczne zaklêcia. 
+~
+Comments ~
+Objend
+#Vnum 24951
+Name korona ko¶ciana~
+Odmiana ko¶cianej korony~ko¶cianej koronie~ko¶ciana koronê~ko¶ciana korona~ko¶cianej koronie~
+Short ko¶ciana korona~
+Descr Korona zrobiona z... ko¶ci spoczywa na ziemi.~
+Material ko¶æ~
+Type jewelry
+ExtraExt 0|JM
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 60
+Cost 8700
+Cond 100
+Aff 1 5 -3 0 0 0
+Aff 1 30 3 0 0 0
+Itemdesc Jest to korona zrobiona z ko¶ci.
+~
+Comments ~
+Objend
+#Vnum 24952
+Name niewielki ognisko~
+Odmiana niewielkiego ogniska~niewielkiemu ognisku~niewielkie ognisko~niewielkim ogniskiem~niewielkim ognisku~
+Short niewielki ognisko~
+Descr Niewielkie {Ro{Yg{Rn{Yi{Rs{Yk{Ro{x pali siê tutaj topi±c znajduj±cy siê dooko³a lód.~
+Material drewno~
+Type furniture
+ExtraExt 0|D
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc To niewielkie ognisko zdaje siê byæ rozpalone juz jaki¶ czas temu, u¿yto
+do tego najprawdopodobniej jakiego¶ drzewa iglastego, gdy¿ daje ono gêsty,
+smolisty dym i swoisty zapach. Poza tym tych drzew jest tutaj najwiêcej. 
+~
+Comments ~
+Objend
+#Vnum 24953
+Name dêbowa ró¿d¿ka~
+Odmiana {yd{gê{yb{go{yw{ge{yj {gr{yó{g¿{yd{g¿{yk{gi{x~{yd{gê{yb{go{yw{ge{yj {gr{yó{g¿{yd{g¿{yc{ge{x~{yd{gê{yb{go{yw{g± {yr{gó{y¿{gd{y¿{gk{yê{x~{yd{gê{yb{go{yw{g± {yr{gó{y¿{gd{y¿{gk{y±{x~{yd{gê{yb{go{yw{ge{yj {gr{yó{g¿{yd{g¿{yc{ge{x~
+Short {yd{gê{yb{go{yw{ga {yr{gó{y¿{gd{y¿{gk{ya{x~
+Descr Lekko wygiêta dêbowa ró¿d¿ka majestatycznie le¿y na ziemi.~
+Material drewno dêbowe~
+Type wand
+ExtraExt 0
+Wear AO
+Wear2Ext 0|Q
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Komponent -1 525600
+Value 7 1 1 20 0 0 32
+Repair 0 0 0 0
+Length 0
+Weight 9
+Cost 45000
+Cond 75
+Itemdesc Ten lekko wygiêty kawa³ek dêbowej ga³êzi zosta³ niedbale obroniony.
+Gdzieniegdzie jest poro¶niety {gciemno zielon± ple¶nia{S, która wydziela
+charakterystyczny, niezbyt przyjemny dla nosa zapach. Gdy przypatrujesz sie
+uwa¿nie, dostrzegasz lekko widoczn± magiczn± aure, która otacza ca³y
+przedmiot. Lekkie mrowienie, które czujesz dotykaj±c owa ga³±¼ mowi ci, ¿e
+ten przedmiot z pewno¶ci± posiada jakie¶ ukryte magiczne w³a¶ciwo¶ci. Mo¿e
+to byæ nawet swego rodzaju ró¿dzka, której u¿ywa³ jakis kap³an natury. 
+~
+Identdesc Dotykaj±c ow± ró¿dzkê zdajesz siê dowiadywaæ o jej ukrytych
+w³a¶ciwo¶ciach magicznych. Tak wiêæ, ten¿e solidny kawa³ek dêbowego drewna,
+który s³u¿y za ró¼dzkê zwiêksza poziom rzucanych zaklêæ o 1 i zadawane
+obra¿enia o 20%. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 24901
+Name Skraj lodowego pola~
+Descr Jeste¶ w Górach Bia³ych na przy obrze¿u ¦nie¿nych Zasp. Stoisz na skraju
+ogromnego pola ¶niegów... Dooko³a ciebie tylko lód, ¶nieg i przera¿aj±ca
+biel. Nie ma na czym zahaczyæ oka, wszystko bia³e i tylko bia³e. Idziesz
+z najwiêkszym trudem pomiêdzy strzaskanymi bry³ami lodu, ka¿dy krok wymaga
+du¿ego wysi³ku. Jedyna mo¿liwa droga prowadzi na po³udnie, ale zdaje ci siê,
+ze dalej zanika ona b±d¼ skrêca. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24902
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24902
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 2980
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 2980
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24902
+Name Pocz±tek ¶nie¿nej ¶cie¿ki~
+Descr Tutaj droga zakrêca powoli, zdaje ci siê ze na zachodzie i wschodzie
+widzisz jakie¶ wzniesienia, ale rozpoznanie ich z tej odleg³o¶ci jest co
+najmniej trudne. Widzisz ca³kiem spore ¶lady stop na ¶niegu, rozchodz± siê
+w ro¿nych kierunkach i krzy¿uj± ze sob±. Zastanawiasz siê, jakie istoty mog³y
+je pozostawiæ. Krajobraz jest ogólnie spokojny lecz nieprzyjazny w swej
+surowo¶ci, lecz taki ju¿ urok Gór Bia³ych. Mo¿esz spróbowaæ przedrzeæ siê na
+wschód przez zaspy. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 19401
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 19401
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24901
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24901
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24903
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24903
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24903
+Name ¦nie¿na ¶cie¿ka~
+Descr ¦cie¿ka po¶ród ¶niegów biegnie z zachodu na wschód. Teren poma³u, niemal
+niedostrzegalnie wznosi siê w gore, masz teraz pewno¶æ, ¿e na zachodzie
+majaczy jakie¶ przykryte ¶niegiem wzgórze. Twoje stopy ¶lizgaj± siê raz po
+raz, uwa¿aj, aby nie wpa¶æ do jednej z licznych szczelin w ¶niegu, bo takiej
+przygody raczej nie da siê prze¿yæ... 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24902
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24902
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24904
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24904
+Name Rozwidlenie ¶cie¿ki~
+Descr ¦cie¿ka po¶ród ¶niegów biegnie z zachodu na wschód, a mniejsza odnoga
+biegnie na po³udnie. Teren poma³u, niemal niedostrzegalnie wznosi siê
+w gore, masz teraz pewno¶æ, ¿e na zachodzie majaczy jakie¶ przykryte
+¶niegiem wzgórze. Twoje stopy ¶lizgaj± siê raz po raz, uwa¿aj, aby nie
+wpa¶æ do jednej z licznych szczelin w ¶niegu, bo takiej przygody raczej
+nie da siê prze¿yæ... 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24903
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24903
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24906
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24905
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24905
+Name Kolejne rozwidlenie~
+Descr ¦cie¿ka po¶ród ¶niegów rozdziela siê tutaj: mniejsza biegnie na pó³noc,
+wiêksza i szersza na po³udnie. Pe³no tutaj rozmaitych tropów, pozostawionych
+na ¶niegu. Dalej na po³udniowym zachodzie widzisz jak±¶ wielka, czarna
+plamê. Z przyjemno¶ci± umieszczasz na niej wzrok, zastanawiaj±c siê, co to
+takiego. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24907
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24907
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24904
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24904
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24908
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 24908
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24906
+Name ¦lepa odnoga~
+Descr Dalsza drogê przegradza ci ogromny, jasnob³êkitny blok lodu. Kiedy¶
+najwyra¼niej prowadzi³a tedy jak±¶ ¶cie¿ka, ale teraz nie ma mowy, aby
+przej¶æ stad dalej na po³udnie. Nie pozostaje ci nic innego jak zawróciæ
+i doj¶æ do g³ównej drogi. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24904
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24907
+Name Przed lodowym zatorem~
+Descr Stoisz u stop wzniesienia, które jest przed tob± na zachodzie. Dalsza
+drogê przegradza ci ogromny, jasnob³êkitny blok lodu. Kiedy¶ najwyra¼niej
+prowadzi³a tedy jak±¶ ¶cie¿ka, ale teraz nie ma mowy, aby przej¶æ stad dalej
+na pó³noc. Nie pozostaje ci nic innego jak zawróciæ i doj¶æ do g³ównej
+drogi. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24905
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24908
+Name Przed jaskinia~
+Descr Stoisz przed wej¶ciem do jaskini, wybitej w zboczu wzgórza. Jej otwór
+jest ciemny, tak¿e trudno ci oceniæ rozmiary jaskini czy tez jej d³ugo¶æ.
+Dooko³a wej¶cia jest pe³no lodowych nacieków... Sama jaskinia z pewno¶ci±
+stanowi ¶wietne schronienie przed wiatrem i w ograniczonym stopniu przed
+mrozem. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24905
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 24905
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24909
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24909
+Name W jaskini~
+Descr Uhh... Jednak nie jest tutaj wcale cieplej ni¿ na zewn±trz. Zimny dreszcz
+przebiega twoje cia³o. W dodatku w pewnej odleg³o¶ci stad spostrzegasz na
+pó³nocy kolejny otwór do jaskini... Nie musze chyba dodawaæ ze powoduje to
+niezbyt mi³y przeci±g? Na pokrytej skorupa lodu ziemi zauwa¿asz kilka
+grubych skór, futer, kawa³ki drewna i jakie¶ gnaty. Przyjemny widok to
+nie jest. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24911
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24911
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24908
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24908
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24910
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24910
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24910
+Name W g³êbi jaskini~
+Descr No no, zdaje siê ze tutaj jednak da³oby siê jako¶ z bieda wy¿yæ i nawet
+taka przyzwyczajona do wygód istota jak Ty da³aby sobie w tych warunkach
+rade. Na pó³nocy tunel jest wê¿szy, przez co ruch powietrza jest ograniczony
+i panuje tutaj ca³kiem mila temperatura. Dok³adniej mówi±c: zno¶na. Nie ma
+tutaj lodu, za to z niepokojem dostrzegasz na ziemi ¶lady krwi... 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24909
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24911
+Name Pó³nocne wyj¶cie z jaskini~
+Descr Tutaj jaskinia koñczy siê, a ¶ci¶lej mówi±c przebija na powierzchnie,
+z pó³nocnej strony wzgórza. Ma³a boczna odnoga odchodzi na zachód. Nic
+specjalnie ciekawego tutaj nie ma, je¶li pomin±æ, ¿e na nawianym do ¶rodka
+¶niegu zauwa¿asz mnóstwo ¶ladów ogromnych stop. A raczej ³ap. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24913
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24913
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24909
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24909
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24912
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24912
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24912
+Name ¦lepa odnoga jaskini~
+Descr Wygl±da na to, ¿e jest tutaj co¶ w rodzaju kojca. ¦ciany i pod³ogê w tej
+komorze jaskini pokryto skórami i futrem. Wszêdzie pe³no ko¶ci i jakich¶
+¶mieci. Niespecjalnie wierzysz w opowie¶ci o yeti czy tez ludziach ¶niegu,
+ale najwyra¼niej masz w³a¶nie do czynienia z "przedszkolem" dla takich
+sympatycznych maluchów. Tylko uwa¿aj, ¿eby co¶ nie urwa³o ci g³owy... 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24911
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24911
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24913
+Name Zakrêt lodowej ¶cie¿ki~
+Descr Na po³udniu zieje ciemno¶ci± otwór jaskini, z którego niemi³osiernie
+wieje. Na zachód prowadzi ¶cie¿ka, wydeptana, czy tez raczej wybita w ¿ywym
+lodzie. St±pasz ostro¿nie po bia³ym krysztale, mijaj±c potwornie g³êbokie
+i niebezpieczne szczeliny po twojej prawej i lewej stronie. Strze¿ siê -
+fa³szywy krok oznacza ¶mieræ! Dalej widzisz, ¿e droga rozszerza siê,
+prowadz±c obok jaki¶ ma³ych ¶nie¿nych kopców. 
+~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24911
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24911
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24914
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 24914
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24914
+Name Droga na lodowym pustkowiu~
+Descr Trudno to nazwaæ droga, choæ bez w±tpienia kto¶ kiedy¶ pofatygowa³ siê
+i w tym w³a¶nie miejscu co¶ na jej w³a¶nie kszta³t wytyczy³. W odleg³o¶ci
+dobrych kilkudziesiêciu ³okci od siebie widaæ pozosta³o¶ci zlodowacia³ych
+kopców, uformowanych przez lata z zagarniêtego tam onegdaj ¶niegu. S± one
+prawie wszêdzie poprzerywane ale z grubsza wyznaczaj± kierunek w którym
+droga biegnie. Gdzieniegdzie widaæ ¶lady p³óz, ro¿nej wielko¶ci. Niektóre
+¶lady biegn± zgo³a obok drogi nawet, pokazuj± ze nie wszyscy nie zawsze
+drogi u¿ywaj±. Niemniej jednak kto¶ nader czêsto tedy siê przemieszcza. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24924
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24924
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24913
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 24913
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24915
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24915
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24915
+Name Droga po¶ród ¶niegów~
+Descr Obok drogi widaæ jakie¶ malutkie, zamarzniête jeziorko. Chyba jaki¶
+pechowiec próbowa³ kiedy¶ przez nie przejechaæ kiedy pokrywa lodu nie by³a
+jeszcze dostatecznie gruba. Nie uda³o mu siê o czym ¶wiadcz± na wpó³
+rozwalone sanie a w³a¶ciwie ich resztki w postaci wystaj±cych z lodu
+przyprószonych ¶niegiem badyli. Obok sañ bielej± ko¶ci jakiego¶ zwierzêcia,
+zdaje siê w³a¶nie ono ci±gnê³o sanie i z³ama³o kark w wypadku. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24914
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24914
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24916
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24916
+Name Zakrêt drogi~
+Descr Droga zakrêca tu szerokim lukiem. Na rogu widaæ jakie¶ bloki lodowe
+u³o¿one w kr±g, postawione jeden na drugim. Wszystko to wysokie jak
+niespecjalnie wyro¶niêty krasnolud, mo¿e trochê ni¿sze. Wygl±da to ogólnie
+bardzo prowizorycznie ale pewnie swoje zadanie kiedy¶ spe³ni³o, chroni±c
+kiedy¶ kogo¶ przed zamarzniêciem podczas burzy ¶nie¿nej. Kto¶ w ¶rodku
+krêgu porzuci³ nawet kilka grubych, ale bardzo zniszczonych i marnej jako¶ci
+skór... Prawdopodobnie nied¼wiedzich albo jakiego¶ innego zwierzêcia,
+trudno powiedzieæ, s± stare i wytarte. £adny kawa³ek na po³udnie widaæ
+bardzo niewyra¼ne zarysy jakiego¶ obozu. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24915
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24915
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24917
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 24917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24917
+Name Pocz±tek obozu~
+Descr Obóz jest os³oniêty ze wszystkich stron poza pó³nocna skalami. Tworz± one
+w³a¶ciwie co¶ na kszta³t lodowej kotliny, gdy¿ prawie wszystkie fragmenty s±
+pokryte je¶li nie lodem nawet to spora czapa ¶niegu. Wspinanie siê na taka
+skale jest tu w wielu miejscach w³a¶ciwie niemo¿liwe dla wiêkszo¶ci nawet
+bardzo wprawnych górali, choæ, w mniej stromych fragmentach tym i owym
+mog³oby to siê udaæ. Obóz nie nale¿y do ogromnych i pod ¶cianami przez
+wiêkszo¶æ dnia panuje lekki pó³mrok, ¶wiat³o zalewa ca³y obóz chyba tylko
+w okolicach po³udnia. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24916
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 24916
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24918
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24918
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24918
+Name Obóz górskich goblinów~
+Descr Krz±ta siê tu sporo górników z oskardami i ³opatami, co jaki¶ czas jak±¶
+grupa z nich zmierza w stronê jednego z wykopalisk przy skale i zmienia tam
+grupê, która kopa³a przed nimi. Kopanie na takim mrozie nie nale¿y pewnie do
+przyjemno¶ci, mimo tego ze tam, pod ziemia jest z cala pewno¶ci± cieplej ni¿
+na zewn±trz. Wokó³ p³on± jednak ogniska, wiec co i rusz to jeden to drugi
+podchodzi do którego z nich i rozgrzewa siê na chwile. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24919
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 24919
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24917
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24919
+Name W g³êbi obozu~
+Descr Sporo tu nawiezionej ziemi i od³amków skalnych, usypano z nich
+kilkana¶cie wcale wysokich kopców, z boku le¿a ³opaty, oskardy, trochê
+pogiêtych he³mów i na wpó³przegni³ych szmat, Na wbitych w jeden z kopców
+¿erdziach wisi trochê usmolonych do czarna cebrów, parê latarñ i kilka
+pod³u¿nych naczyñ z przytwierdzonym z dwóch stron u wlotu prêtem, zrobionych
+z jakiego¶ ciemnego metalu. Porz±dku, jak i wszêdzie zreszt± nikt tu
+specjalnie nie utrzymuje, ale jak co¶ potrzebne z ³atwo¶ci± da siê znale¼æ.
+Podej¶cie, trzeba powiedzieæ, praktyczne. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24918
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 24918
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24920
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24920
+Name ¦rodek obozu górników~
+Descr W do¶æ niewielkich w sumie odstêpach, by nie rzec ze wrêcz gêsto stoj± tu
+niedu¿e namioty, bo chatami si³± rzeczy nie mo¿na nazwaæ czego¶, co przy
+wiêkszym wysi³ku pijany ogr w parê mo¿e parê na¶cie (jak bardzo ur¿niêty)
+minut by przewróci³. Wiêkszo¶æ ma³ych ma spiczasty dach, drewniana
+konstrukcje z grubych ga³êzi i pokryta jest jakimi¶ grubymi, solidnie
+garbowanymi skórami. Spod tych¿e skór, dla uszczelnienia pewnie wszêdzie
+jakie¶ mchy i grube trawy w pêczki powi±zane wystaj±. Kilka chat z prostym
+dachem, bardzo solidnie skonstruowanych i du¿ych stoi mniej wiêcej na ¶rodku
+a miedzy nimi jedna olbrzymia, bo wysoka jak jakie¶ dwa wielkie
+nied¼wiedzie, budowla z bloków lodowych. Przez spore wej¶cie widaæ, ¿e pali
+siê w niej jakie¶ ogromne palenisko, stale utrzymywane a pewnie ca³o¶æ s³u¿y
+na jakie¶ specjalne okazje, nawet je¶li czasami okazuj± siê one zwyk³ymi
+popijawami. Przed wej¶ciem stoj± jakie¶ beczki, pewnie z "drogocennym
+p³ynem", ale ¿aden z krz±taj±cych siê w okolicy goblinów nie wykazuje nimi
+zainteresowania, wszyscy wygl±daj± na zajêtych i w miarê zdyscyplinowanych. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 24921
+ExitExtEnd
+Exit 0
+~
+~
+3 0 24921
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24919
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24919
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24923
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24923
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24922
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24921
+Name Zagroda niewolników~
+Descr Byle jak postawiony barak, w³a¶ciwie wygl±da prawie jak zadaszona zagroda
+dla koni, na gore narzucone jakie¶ ga³êzie, trochê ziemi i trawy, ¿eby ¶nieg
+nie pada³ do ¶rodka. ¦ciany wygl±daj± ju¿ du¿o gorzej, gdzieniegdzie s±,
+w wiêkszo¶ci miejsc ich nie ma, trudno zazdro¶ciæ komu¶ kto jest tu zmuszony
+przebywaæ, a nie wygl±da to na zagrodê dla koni ani dla byd³a. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 24920
+ExitExtEnd
+Exit 2
+~
+~
+3 0 24920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24922
+Name Tunel wydobywczy~
+Descr Dziura w skale, schodz±ca ni¿ej pod ziemie. Tunel w ¶rodku jest dobrze
+o¶wietlony jakimi¶ kopc±cymi solidnie lampionami, gdzieniegdzie,
+pochodniami, zw³aszcza wej¶cie. Jest tu jasno prawie jak w dzieñ. Do ¶cian
+przytwierdzone s± ³añcuchy, ¿eby mo¿na siê by³o ich chwyciæ wychodz±c, do
+sufitu przytwierdzony jest najgrubszy z nich, po nim wci±ga siê wiadra
+z ziemia i ze wszystkim co uda³o siê wykopaæ. Dziura jest szeroka
+i przestronna, kto¶ kopie tu z nieprzeciêtnym zaciêciem.
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24920
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24923
+Name Tunel wydobywczy~
+Descr Jeden z kilku tuneli wydobywczych, okr±g³y i zbiegaj±cy gdzie¶ g³êboko
+pod ziemie, strasznie ciê¿ko by³o go prawdopodobnie wybiæ, przynajmniej
+kilka metrów od wej¶cia trzeba by³o kuc w litej skale i lodzie. Dalej jest
+ju¿ trochê lepiej, ale nieznacznie, wszystko zmarzniête i twarde. Musza byæ
+tu dr±¿one i wydobywane na powierzchnie jakie¶ bogactwa, skoro kto¶ uwa¿a³,
+ze wszystko to warte jest a¿ takiego zachodu i wysi³ku. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24920
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24920
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24924
+Name ¦nie¿na droga~
+Descr Idziesz z trudem w kopnym ¶niegu, mijaj±c po prawej i lewej stronie
+przykryte ¶niegiem ska³y i ogromne lodowe bry³y. Wielkiej mo¿liwo¶ci manewru
+tutaj nie ma, trzeba raczej i¶æ po prostu po ¶ladach poprzedników,
+z nadzieja na to, ¿e dalej nie zatar³a ich jak±¶ burza ¶nie¿na. Droga
+skrêca tutaj, obok dwóch ma³ych górek, z nawianego wichrem ¶niegu. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24925
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24925
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24914
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24914
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24925
+Name Rozstaje po¶ród ¶niegów~
+Descr Idziesz z trudem w kopnym ¶niegu, mijaj±c po prawej i lewej stronie
+przykryte ¶niegiem ska³y i ogromne lodowe bry³y. Wielkiej mo¿liwo¶ci manewru
+tutaj nie ma, trzeba raczej i¶æ po prostu po ¶ladach poprzedników,
+z nadzieja na to, ¿e dalej nie zatar³a ich jak±¶ burza ¶nie¿na. Droga
+skrêca tutaj, obok dwóch ma³ych górek, z nawianego wichrem ¶niegu, po
+chwili dostrzegasz mniejsza odnogê, prowadz±ca na wschód. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24927
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24927
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24926
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24926
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24924
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24926
+Name ¦lepa odnoga za rozstajem~
+Descr Dalsza drogê na wschód zagradza ci szeroka szczelina, która dos³ownie
+roz³upa³a okolice na dwie czê¶ci. Kiedy¶ najwyra¼niej prowadzi³a tedy jak±¶
+¶cie¿ka, ale teraz nie ma mowy, aby przej¶æ stad dalej. Nie pozostaje ci nic
+innego jak zawróciæ i doj¶æ do g³ównej drogi, która jest na zachodzie. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24925
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24927
+Name ¦nie¿ne rozstaje~
+Descr Idziesz z trudem w kopnym ¶niegu, mijaj±c przykryte ¶niegiem ska³y
+i ogromne lodowe bry³y. Nagle wydeptana w ¶niegu ¶cie¿ka urywa siê, dochodz±c
+do innej, prostopad³ej do niej drogi. Mo¿esz teraz i¶æ na po³udnie, wschód
+albo zachód. Wszystkie trzy mo¿liwo¶ci ze wzglêdu na monotonny i niego¶cinny
+krajobraz s± w równym stopniu odpychaj±ce. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24928
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24928
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24925
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24929
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24929
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24928
+Name Zablokowana ¶cie¿ka~
+Descr Dalsza drogê na wschód zagradza ci szeroka szczelina, która dos³ownie
+roz³upa³a okolice na dwie czê¶ci. Kiedy¶ najwyra¼niej prowadzi³a tedy jak±¶
+¶cie¿ka, ale teraz nie ma mowy, aby przej¶æ stad dalej. Nie pozostaje ci nic
+innego jak zawróciæ i doj¶æ do g³ównej drogi, która jest na zachodzie. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24927
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24927
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24929
+Name ¦nie¿na droga~
+Descr Wydeptane w ¶niegu ¶lady prowadza ciê dalej - droga w tym miejscu
+rozci±ga siê z zachodu na wschód, jedyne punkty orientacyjne to bry³y lodu
+o charakterystycznym kszta³cie... Z drugiej strony jest ich tutaj tyle,
+podobnych do siebie, ¿e ju¿ naprawdê nie masz pewno¶ci czy przypadkiem nie
+krêcisz siê w kolko. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24927
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24927
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24930
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24930
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24930
+Name Zakrêt ¶nie¿nej drogi~
+Descr Wydeptane w ¶niegu ¶lady prowadza ciê dalej - droga w tym miejscu skrêca
+gwa³townie, a to z cala pewno¶ci± za przyczyna wielkiego, przysypanego
+¶niegiem wzgórza, które widzisz dosyæ daleko na zachodzie. Przez chwile
+masz ochotê pod±¿aæ w jego stronê, ale w koñcu rozsadek bierze gore
+i postanawiasz i¶æ dalej po ¶ladach, maj±c nadzieje, ¿e mo¿e dziêki
+temu siê nie zgubisz.
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24931
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24931
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24929
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24929
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24931
+Name Zbieg dróg~
+Descr Zbiega siê w tym miejscu kilka okolicznych dróg, a w³a¶ciwie szlaków
+wêdrownych. Gdyby nie ogromny pal z jak±¶ wielka czerwona p³achta zatkniêta
+na jego koñcu we mgle czy w wiêkszej jakiej¶ ¶nie¿ycy mo¿na by zwyczajnie nie
+zauwa¿yæ, ¿e jakie¶ drogi siê tu zbiegaj± i pojechaæ spokojnie jak gdyby
+nigdy nic prosto, gdzie¶ w sina dal. No a tam mog³oby siê ju¿ wszystko
+zdarzyæ, a najprêdzej wpakowaliby¶my siê w jak±¶ dziurê w lodzie, z której,
+byæ mo¿e, nigdy by siê ju¿ nie wysz³o.
+~
+FlagsExt 0
+Sector 35
+Extra pal~
+Pal jest ca³y popêkany, widaæ nie raz drewno to trzeszcza³o ju¿ od
+straszliwego mrozu. Na szczycie widzisz spora p³achtê sygnalizacyjna
+w kolorze czerwonym. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24932
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24932
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24930
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24930
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24933
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24932
+Name Odnoga~
+Descr ¦lepy zau³ek, przed tob± lita skala i nic wiêcej. Do¶æ stroma skala, na
+czubku wydaje siê dostrzegasz czyje¶ gniazdo. Jakie¶ ptaki wiec s± chyba
+w stanie zak³adaæ gniazda w tej mro¼nej, nieprzyjaznej i nieprzystêpnej
+krainie. Z boku, tak jak prawie wszêdzie, lodowe i kamienne ostêpy, ¶ladu
+przyjaznej okolicy akurat stad nie widaæ, ale có¿, trzeba jak zwykle i¶æ
+dalej. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46162
+ExitExtEnd
+Exit 0
+~
+~
+0 0 46162
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24931
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24933
+Name ¦nie¿ne skrzy¿owanie~
+Descr Bia³o dooko³a, niczym ciekawym miejsce to siê nie wyró¿nia, poza tym, ze
+rzeczywi¶cie kilka dróg z ro¿nych stron ma tutaj swój koniec, Takich miejsc
+chyba faktycznie nie jest wiele w okolicy. Mimo to zakopywanie tutaj
+jakiego¶ skarbu nie wydaje siê specjalnie sensowne. Obok stoi drogowskaz,
+jest z nim jednak jeden pospolity problem. Kto¶ wystruga³ odpowiednie deski
+wskazuj±ce kierunki, drogowskaz jest w sumie du¿y i solidny, ale nic,
+s³ownie nic nie jest na nim napisane. Hmmm, jednak co¶ chyba jednak jest
+kiedy siê uwa¿niej przyjrzeæ... Ma³ymi literami. 
+~
+FlagsExt 0
+Sector 35
+Extra drogowskaz~
+Niedaleko na pó³nocy odkry³em ¶lady cywilizacji. Arras z którego
+wyruszy³em dawno temu bêdzie gdzie¶ na po³udniowym wschodzie za prze³êcz±. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24934
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24934
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24931
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24931
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24940
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24940
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24934
+Name Przysypana droga~
+Descr Na ¿adnym chyba innym odcinku drogi nie le¿y tak solidna warstwa ¶niegu,
+tutaj jest go naprawdê du¿o. Mo¿e ukszta³towanie terenu, mo¿e co innego to
+spowodowa³o, w ka¿dym razie na brzegach mo¿na pewnie zapa¶æ siê w ¶niegu po
+pas. Widaæ jakie¶ ¶lady p³óz sañ, ale biegn± one obok, gdzie paradoksalnie
+bia³ego puchu le¿y mniej. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24935
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24935
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24933
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24935
+Name O¶nie¿ona droga~
+Descr ¦nieg, jak wszêdzie, gdzieniegdzie zaspy. Okolica pe³na jest lodowych
+od³amków i zamarzniêtych oczek wodnych. Prawdopodobnie, gdzie¶ na dole, pod
+gruba warstwa lodu znajduje siê tu woda. Okolica jest praktycznie, je¶li nie
+liczyæ jakich¶ gór w oddali ca³kowicie odkryta, trzeba siê solidnie
+opatuliæ, ¿eby ¶wiszcz±cy wiatr nie wywia³ nam z cia³a resztek ciep³a, bo
+wtedy to ju¿ koniec, na tym pustkowiu kto¶ móg³by nie przybyæ na czas ¿eby
+nam pomoc. Twoja uwagê zwraca ziej±ca ch³odem i mrokiem szczelina w lodzie
+na wschód od ¶cie¿ki. Wygl±da cholernie niebezpiecznie... 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24937
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24937
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24936
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24936
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24934
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24934
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24936
+Name Nad krawêdzi± lodowej otch³ani~
+Descr Aaaaa! Spadasz bezradnie jak robak w dó³ i roztrzaskujesz siê na
+dnie przepa¶ci... A jednak nie! Uff... Jakim¶ cudem uda³o ci siê zatrzymaæ
+na mikroskopijnym wystêpie lodowym i powstrzymaæ upadek, który niechybnie
+skoñczy³by siê twoja ¶mierci±. Dr¿±c na ca³ym ciele wygrzebujesz siê na gore
+i dyszysz chwile jak ranny zwierz, odzyskuj±c spokój ducha. Ta przygoda
+naprawdê mog³a siê gorzej skoñczyæ. Lepiej nie sied¼ tutaj za d³ugo, bo
+lód nie wygl±da zbyt stabilnie i w ka¿dej chwili mo¿e zacz±æ pêkaæ
+i przemieszczaæ siê!
+~
+FlagsExt 0
+Sector 26
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24935
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24935
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24937
+Name U koñca o¶nie¿onej drogi~
+Descr ¦nieg, jak wszêdzie, gdzieniegdzie zaspy. Okolica pe³na jest lodowych
+od³amków i zamarzniêtych oczek wodnych. Prawdopodobnie, gdzie¶ na dole, pod
+gruba warstwa lodu znajduje siê woda. Okolica jest praktycznie, je¶li nie
+liczyæ jakich¶ gór w oddali ca³kowicie odkryta, trzeba siê solidnie
+opatuliæ, ¿eby ¶wiszcz±cy wiatr nie wywia³ nam z cia³a resztek ciep³a, bo
+wtedy to ju¿ koniec, na tym pustkowiu kto¶ móg³by nie przybyæ na czas ¿eby
+nam pomoc. Droga chyba poma³u koñczy siê, zakrêcaj±c ³agodnie na zachód
+w stronê sporego wzniesienia. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24938
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24938
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24935
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24935
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24939
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24939
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24938
+Name Koniec o¶nie¿onej drogi~
+Descr ¦nieg, jak wszêdzie, gdzieniegdzie zaspy. Okolica pe³na jest lodowych
+od³amków i zamarzniêtych oczek wodnych. Prawdopodobnie, gdzie¶ na dole, pod
+gruba warstwa lodu znajduje siê woda. Okolica jest praktycznie, je¶li nie
+liczyæ jakich¶ gór w oddali ca³kowicie odkryta, trzeba siê solidnie
+opatuliæ, ¿eby ¶wiszcz±cy wiatr nie wywia³ nam z cia³a resztek ciep³a, bo
+wtedy to ju¿ koniec, na tym pustkowiu kto¶ móg³by nie przybyæ na czas ¿eby
+nam pomoc. Droga w tym miejscu koñczy siê, zablokowana przez rozpadlinê
+w lodzie. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17802
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17802
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24937
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24937
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24939
+Name U stop za¶nie¿onego wzgórza~
+Descr ¦nieg, jak wszêdzie, gdzieniegdzie zaspy. Okolica pe³na jest lodowych
+od³amków i zamarzniêtych oczek wodnych. Prawdopodobnie, gdzie¶ na dole, pod
+gruba warstwa lodu znajduje siê woda. Wiatr spada na ciebie z pobliskiego
+wzgórza w szalonym pêdzie, trzeba siê solidnie opatuliæ, ¿eby ¶wiszcz±cy nie
+wywia³ nam z cia³a resztek ciep³a, bo wtedy to ju¿ koniec, na tym pustkowiu
+kto¶ móg³by nie przybyæ na czas ¿eby nam pomoc. Droga w tym miejscu koñczy
+siê, zablokowana przez rozpadlinê w lodzie. 
+~
+FlagsExt 0|H
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24937
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24937
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24940
+Name Przed lodowym kanionem~
+Descr Wszechobecne bia³e pagórki i zaspy ¶nie¿ne jakby siê tu rozstêpuj±
+ukazuj±c wej¶cie do niewielkiego kanionu utworzonego przez potê¿ne
+¶nie¿no-lodowe zaspy, prowadzi miedzy nimi w±ski przesmyk a jego zbocza
+porastaj± niskie powykrêcane krzewy i kilka wiêkszych drzew jakby schroni³o
+siê w cieniu zasp przed wiatrem. Ca³kiem mile miejsce na obozowisko. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24952
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24952
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24933
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24933
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24941
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24941
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24941
+Name Przed jaskinia~
+Descr Wszechobecne bia³e pagórki i zaspy ¶nie¿ne jakby siê tu rozstêpuj±
+ukazuj±c spore wej¶cie do jakiej¶ jaskini na po³udniu. To male obni¿enie
+terenu otoczone jest zewsz±d wysokimi na kilka metrów skarpami, jedynie na
+zachodzie widaæ jaki¶ prze¶wit, wieje stamt±d mi³y wilgotny i jakby
+cieplejszy wiatr. By³oby tu ca³kiem dobre miejsce na obozowisko gdyby nie
+niepokoj±ca czerñ otworu wej¶ciowego do jaskini. Mo¿e lepiej przed
+odpoczynkiem zbadaæ jej wnêtrze? Choæ na zewn±trz nie widaæ ¿adnych ¶ladów
+mo¿e miêæ jakich¶ niezbyt przyjaznych mieszkañców. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24940
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24940
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24946
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 24946
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24942
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24942
+Roomprog random 24913 10~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24942
+Name Punkt widokowy nad jeziorem~
+Descr Oczom twoim ukazuje siê cudowny widok - to chyba w³a¶nie ono! Os³awione
+oczko Gór Bia³ych, najwiêksze z Zimnych Jezior: jezioro Dinesherre. Po
+chwili namys³u mo¿esz stwierdziæ ze to w ogóle najwiêksze jezioro jakie
+widzia³e¶. Strome ¶nie¿ne pagórki i lodowe wyniesienia schodz± ostro do
+samej tafli jeziora. B³êkitnawa miejscami biel lodowych gór ¶cina siê
+z czarno-granatowa tafla jeziora, cudowny widok, ale... Tak masz racje, mimo
+ze na brzegu widaæ przeszklone lodem oczka wodne samo jezioro jako jedyne
+z Zimnych Jezior nigdy nie zamarza. W oddali na pó³nocnym wschodzie chyba
+dostrzegasz jakie¶ dymy z kominów i zdaje siê ze to jedyne oznaki
+cywilizacji w okolicy. Daleko na zachodzie widaæ wynurzaj±cy siê z jeziora
+masyw Rikha - najwiêksze wzniesienie, wieñcz±ce Pasmo Nied¼wiedzie Gór
+Bia³ych. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24941
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24941
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24943
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24943
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24943
+Name ¦cie¿ka nad jeziorem~
+Descr Stoisz na w±skiej... No ¶cie¿ka tego nazwaæ nie mo¿na, to co¶ na kszta³t
+ma³ego tarasu po¶ród lodów i ¶nie¿nych zasp. Brak wiatru, od którego
+os³aniaj± ciê potê¿ne skarpy na wschodzie powoduje ze wydaje siê tu jakby
+przytulniej i bezpieczniej ni¿ tam, po¶ród jednakowych zimnych i pustych
+pagórków. Sporo tu ¶niegu, tylko samo nabrze¿e jest oblodzone, lepiej nie
+wpadaæ do jeziora przy tych temperaturach. Na pó³nocnym brzegu jeziora widaæ
+jakie¶ cha³upy. Jezioro jest ogromne i poza tym faktem nie by³oby w nim nic
+dziwnego, pomijaj±c taki szczegó³ ze nie jest zamarzniête. Zreszt± po co
+dumaæ nad tajnikami natury skoro to miejsce jest piêkne takie jakie jest -
+Góry Bia³e a dok³adniej Pasmo Nied¼wiedzie ci±gn±ce siê na zachodzie
+doskonale konstatuje z ciemna tafla jeziora. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24942
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24942
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24945
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24945
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24944
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24944
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24944
+Name Zej¶cie nad jezioro~
+Descr Stoisz tuz nad brzegiem tego cudownego jeziora, otacza ciê ¶nieg
+i wszechobecna jasno¶æ bij±ca ze zboczy i szczytów Pasma Nied¼wiedziego Gór
+Bia³ych a tuz, u twych stop zieje granatowa czerñ tafli jeziora, ¶nie¿yca
+jakby omija³a to miejsce, jest cicho i wieje lekki wiatr przez co widoczno¶æ
+zdaje siê byæ doskona³a. Lodowo-¶nie¿no-skalny wystêp schodzi tu a¿ do
+powierzchni wody i pomimo pierwszego wra¿enia stoisz bezpiecznie bez obawy
+o ze¶li¼niecie siê do wody. W oddali na pó³nocy widaæ jakie¶ chaty. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24943
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24943
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24945
+Name Nad brzegiem jeziora~
+Descr Stoisz na w±skiej... No ¶cie¿ka tego nazwaæ nie mo¿na, to co¶ na kszta³t
+ma³ego tarasu po¶ród lodów i ¶nie¿nych zasp. Brak wiatru, od którego
+os³aniaj± ciê potê¿ne skarpy na wschodzie powoduje ze wydaje siê tu jakby
+przytulniej i bezpieczniej ni¿ tam, po¶ród jednakowych zimnych i pustych
+pagórków. Sporo tu ¶niegu, tylko samo nabrze¿e jest oblodzone, lepiej nie
+wpadaæ do jeziora przy tych temperaturach. Na pó³nocnym brzegu jeziora widaæ
+jakie¶ cha³upy. Jezioro jest ogromne i poza tym faktem nie by³oby w nim nic
+dziwnego, pomijaj±c taki szczegó³ ze nie jest zamarzniête. Zreszt± po co
+dumaæ nad tajnikami natury skoro to miejsce jest piêkne takie jakie jest -
+Góry Bia³e a dok³adniej Pasmo Nied¼wiedzie ci±gn±ce siê na zachodzie
+doskonale konstatuje z ciemna tafla jeziora.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24943
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24943
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24946
+Name Przy wej¶ciu do jaskini~
+Descr Stoisz u wej¶cia do sporej wydr±¿onej w lodzie i skale jaskini, jej wylot
+jest na pó³nocy. Mieszkañcy ca³kiem nie¼le siê tu urz±dzili, lodowy korytarz
+nie jest ca³kiem pusty, ¶ciany pokrywaj± polki i wiêksze zag³êbienia. Tunel
+jest wysoki na ponad trzy metry i prowadzi dalej w g³±b jaskini. 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 24941
+ExitExtEnd
+Exit 0
+~
+~
+8192 0 24941
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24947
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24947
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24947
+Name Rozwidlenie tuneli w jaskini~
+Descr Stoisz na rozwidleniu korytarzy w lodowej jaskini. Tunel jest przestronny
+i wysoki na jakie¶ ponad trzy metry. Skaliste ¶ciany pokrywa miejscami lód,
+a pod nogami walaj± siê niedojedzone kawa³ki ryb i ca³kiem spore ko¶ci. Czasem
+dochodzi ciê lekki powiew wiatru i jakie¶ blade ¶wiat³o, z czego wnioskujesz,
+ze gdzie¶ daleko na górze musi byæ jaki¶ otwór w stropie, ale nie sposób siê
+tam dostaæ, zreszt± pokryte lodem ¶ciany nie u³atwiaj± wspinaczki. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24948
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24948
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24949
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24949
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24946
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24946
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24948
+Name Koniec lodowego korytarza~
+Descr Stoisz najwyra¼niej w ¶lepym zau³ku lodowej jaskini. Tunel jest
+przestronny i wysoki na jakie¶ ponad trzy metry. Skaliste ¶ciany pokrywa
+miejscami lód a pod nogami walaj± siê niedojedzone kawa³ki ryb i ca³kiem
+spore ko¶ci. Czasem dochodzi ciê lekki powiew wiatru i jakie¶ blade ¶wiat³o,
+z czego wnioskujesz ze gdzie¶ daleko na górze musi byæ jaki¶ otwór
+w stropie, ale nie sposób siê tam dostaæ, zreszt± pokryte lodem
+¶ciany nie u³atwiaj± wspinaczki. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24947
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24947
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24949
+Name Gdzie¶ w jaskini~
+Descr Stoisz na zakrêcie korytarza w lodowej jaskini. Tunel jest przestronny
+i wysoki na jakie¶ ponad trzy metry. Skaliste ¶ciany pokrywa miejscami lód
+a pod nogami walaj± siê niedojedzone kawa³ki ryb i ca³kiem spore ko¶ci. Czasem
+dochodzi ciê lekki powiew wiatru i jakie¶ blade ¶wiat³o, z czego wnioskujesz
+ze gdzie¶ daleko na górze musi byæ jaki¶ otwór w stropie, ale nie sposób siê
+tam dostaæ, zreszt± pokryte lodem ¶ciany nie u³atwiaj± wspinaczki. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24947
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24947
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24950
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24950
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24950
+Name Gdzie¶ w jaskini~
+Descr Stoisz w ¶rodku d³ugiego korytarza lodowej jaskini. Tunel jest
+przestronny i wysoki na jakie¶ ponad trzy metry. Skaliste ¶ciany pokrywa
+miejscami lód a pod nogami walaj± siê niedojedzone kawa³ki ryb i ca³kiem
+spore ko¶ci. Czasem dochodzi ciê lekki powiew wiatru i jakie¶ blade ¶wiat³o,
+z czego wnioskujesz ze gdzie¶ daleko na górze musi byæ jaki¶ otwór
+w stropie, ale nie sposób siê tam dostaæ, zreszt± pokryte lodem
+¶ciany nie u³atwiaj± wspinaczki. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24951
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24951
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24949
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24949
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24951
+Name Obszerna Jaskinia~
+Descr Jeste¶ w obszernej sali jaskini, która do¶æ dok³adnie oczyszczono ze
+wszelkich ¶mieci, a tak¿e starannie usuniêto lód. Na ¶rodku stoi wysokie
+siedzisko, zrobione z po³o¿onych jedna na drugiej warstw skór i futer. Obok
+oparte o ¶cianê stoj± rozmaite okazy broni, przewa¿nie prostych pa³ek
+i maczug. Wygl±da na to, ¿e pomieszczenie to nale¿y do kogo¶ wa¿nego
+w spo³eczno¶ci ¶nie¿nych ludzi. 
+~
+FlagsExt 0|D
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24950
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24950
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 45820
+ExitExtEnd
+Exit 5
+~
+~
+0 0 45820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24952
+Name Lodowy kanion~
+Descr Idziesz dnem gigantycznej szczeliny, a raczej kanionu, wykutego przez
+naturê w lodzie. Cze¶æ lodowca, znajduj±ca siê na zachodzie zaczê³a powoli
+sp³ywaæ w stronê pobliskiego jeziora, w skutek czego ca³y masyw pêk³ na dwie
+czê¶ci. Nad tob± zwieszaj± siê wysokie, prawie g³adkie ¶ciany, wspinanie siê
+po nich równa siê samobójstwu. S³yszysz, jak pod twoimi stopami lód
+"pracuje", trzeszczy i przemieszcza siê. Zbyt pewnie to nie wygl±da, no ale
+specjalnej alternatywy dla tej drogi nie ma. 
+~
+FlagsExt 0
+Sector 26
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24940
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24940
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24953
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24953
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24953
+Name Miedzy lodowymi ¶cianami~
+Descr Coraz lepiej... Lodowe ¶ciany zwê¿aj± siê i w koñcu s± tak blisko siebie,
+ze dwa trolle trzymaj±c siê za rêce spokojnie mog³yby dotkn±æ ich obu. A
+je¶li ju¿ o trollach mowa, to w razie jaki¶ k³opotów twoja sytuacja w tych
+warunkach jest nader nieciekawa. Ucieczka na gore kanionu nie wchodzi w grê,
+jedyne wyj¶cie to zakopanie g³owy w ¶niegu. Tyle tylko ze w ten sposób tylko
+odsuwasz nieuchronne po¿arcie przez bestie... 
+~
+FlagsExt 0
+Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24952
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24952
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24954
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24954
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24954
+Name Zakrêt lodowej drogi~
+Descr Stoisz w ¶rodku albo mo¿e przy koñcu niewielkiego bia³ego kanionu
+utworzonego przez dwie równolegle i do¶æ wysokie skarpy. Z ich szczytów
+zwisaj± potê¿ne sople i ¶nie¿no-lodowe czapy. ¦nieg oblepia drzewa siêgaj±ce
+a¿ ku szczytom kanionu. Oba jego koñce wygl±daj± podobnie - z³owieszczo
+spokojnie. Masz powa¿ne obawy ze sypi±cy ¶nieg i otaczaj±ca cisza mog± u¶piæ
+twoja czujno¶æ.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24955
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24955
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24953
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24953
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24955
+Name W niewielkim kanionie~
+Descr Stoisz w ¶rodku albo mo¿e przy koñcu niewielkiego bia³ego kanionu
+utworzonego przez dwie równolegle i do¶æ wysokie skarpy. Z ich szczytów
+zwisaj± potê¿ne sople i ¶nie¿no-lodowe czapy. ¦nieg oblepia drzewa siêgaj±ce
+a¿ ku szczytom kanionu. Oba jego koñce wygl±daj± podobnie - z³owieszczo
+spokojnie. Masz powa¿ne obawy ze sypi±cy ¶nieg i otaczaj±ca cisza mog± u¶piæ
+twoja czujno¶æ. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24956
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24956
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24954
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24954
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24956
+Name Wej¶cie do niewielkiego kanionu~
+Descr Stoisz przy wej¶ciu, b±d¼ tez wyj¶ciu z niewielkiego kanionu utworzonego
+przez dwie równolegle i do¶æ wysokie skarpy. Z ich szczytów zwisaj± potê¿ne
+sople i ¶nie¿no-lodowe czapy. ¦nieg oblepia drzewa siêgaj±ce a¿ ku szczytom
+kanionu. Oba jego koñce wygl±daj± podobnie - z³owieszczo spokojnie. Masz
+powa¿ne obawy ze sypi±cy ¶nieg i otaczaj±ca cisza mog± u¶piæ twoja czujno¶æ.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24957
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24957
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24955
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24955
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24957
+Name Po¶ród ¶nie¿nych zasp~
+Descr Stoisz przed ogromna, wyniesiona nieco nad otaczaj±cy teren równina,
+pokryta ¶niegiem. Prowadzi tam ledwie zaznaczona i niewyra¼nie wydeptana
+w ¶niegu droga. Przy niej widzisz ca³kiem spora wystawê zu¿ytego sprzêtu:
+od broni i pancerzy, poprzez ró¿nokolorowe szmaty, kawa³ki drewna, gwo¼dzie,
+¶lady ogniska i setki innych ¶mieci. Wszystkie te skarby wkomponowane s±
+w zalêgaj±ce wszêdzie tutaj, przyprószone ¶niegiem kamienie. Wygl±da to tak,
+jakby jaki¶ czas temu setki ludzi ucieka³y tedy w nie³adzie, porzucaj±c po
+drodze dobytek.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24958
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24958
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24959
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24959
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24956
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24956
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24958
+Name U stop ¶nie¿nego p³askowy¿u~
+Descr Stoisz przed ogromna, wyniesiona nieco nad otaczaj±cy teren równina,
+pokryta ¶niegiem. Prowadzi tam ledwie zaznaczona i niewyra¼nie wydeptana
+w ¶niegu droga. Przy niej widzisz ca³kiem spora wystawê zu¿ytego sprzêtu:
+od broni i pancerzy, poprzez ró¿nokolorowe szmaty, kawa³ki drewna, gwo¼dzie,
+¶lady ogniska i setki innych ¶mieci. Wszystkie te skarby wkomponowane s±
+w zalêgaj±ce wszêdzie tutaj, przyprószone ¶niegiem kamienie. Wygl±da to tak,
+jakby jaki¶ czas temu setki ludzi ucieka³y tedy w nie³adzie, porzucaj±c po
+drodze dobytek. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24961
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24961
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24960
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24960
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24957
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24957
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24959
+Name Przerêbel po¶ród lodów~
+Descr Stoisz w ma³ej kotlince, choæ to raczej po prostu niewielkie zag³êbienie
+terenu po¶ród wielkich, o¶nie¿onych pagórków. Na jego dnie widnieje ma³y
+przerêbel. Najwyra¼niej kto¶, lub co¶ przychodzi tu ucztowaæ sobie na
+¶wie¿ych rybach. Gdyby nie ten ma³y akcent, okoliczne o¶nie¿one pagórki nie
+wyró¿nia³yby siê niczym spo¶ród bezkresnych po³aci ¶niegu, które tworz± ten
+kawa³ek ¶wiata. 
+~
+FlagsExt 0
+Sector 27
+Extra przerêbel~
+W lodzie pod stopami widzisz niedawno wyciêta przerêbel, lód pokrywaj±cy
+jej powierzchnie jest jeszcze cienki. Obok le¿y trochê resztek jakiego¶ ma³o
+cywilizowanego posi³ku. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24960
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24960
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24957
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24957
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24960
+Name Po¶ród zasp~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± znik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy.
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17801
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17801
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24959
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24959
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24958
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24958
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24961
+Name Droga przez ¦nie¿ne Zaspy~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± z nik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy.
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24962
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24962
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24958
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24958
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24962
+Name Przy wielkim lodowym monolicie~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± z nik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy. Po ¶rodku drogi stoi ogromny lodowy gnomon - to potê¿ny monolityczny
+lodowy szpic, jedynym jego zastosowaniem zdaje siê byæ wskazywanie godziny,
+lecz na ziemi po¶ród ¶niegu nie widaæ ¿adnych znaków. 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24963
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24963
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24961
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24961
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24963
+Name ¦nie¿ne zaspy - droga do Easterial~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± z nik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24964
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24964
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24962
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24962
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24964
+Name ¦nie¿ne zaspy - droga do Easterial~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± z nik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24965
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24965
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24963
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24963
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24965
+Name ¦nie¿ne zaspy - droga do Easterial~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± z nik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24966
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24966
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24964
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24964
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 24966
+Name ¦nie¿ne zaspy - droga do Easterial~
+Descr Idziesz pagórkowatym ca³kowicie o¶nie¿onym terenem, ¶cie¿ka raz jawi siê
+przed tob± z nik±d, innym razem znika na d³ugie minuty miedzy pagórkami
+i ¶nie¿nymi zaspami. Gdzieniegdzie spomiêdzy zasp wystaj± jakie¶ ga³êzie,
+czasem ko³o drogi pojawia siê jak±¶ dziura czy wykrot lecz nic na d³u¿sza
+metê nie m±ci wszechobecnego z³owieszczego spokoju i okrutnej ciszy tej
+krainy. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3979
+ExitExtEnd
+Exit 0
+~
+~
+0 0 3979
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24965
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24965
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 24947 3 24908 3
+G 100 24947 0
+M 100 24946 6 24909 6
+M 100 24946 6 24910 6
+M 100 24946 6 24911 6
+M 100 24912 2 24911 2
+M 100 24947 3 24912 3
+G 100 24947 0
+M 100 24917 2 24917 2
+E 100 3296 0 16
+E 100 3018 0 5
+E 100 24920 0 8
+E 100 3057 0 7
+E 100 4404 0 6
+M 100 24917 2 24917 2
+E 100 3296 0 16
+E 100 3018 0 5
+E 100 24920 0 8
+E 100 3051 0 7
+E 100 4404 0 6
+M 100 24918 1 24919 1
+E 100 4369 0 5
+E 100 3356 0 16
+M 100 24924 1 24919 1
+E 100 3001 0 8
+E 100 4426 0 12
+M 100 24920 1 24920 1
+E 100 24920 0 8
+E 100 3018 0 5
+E 100 3050 0 7
+E 100 4404 0 6
+E 100 3161 0 16
+M 100 24921 10 24921 3
+M 100 24921 10 24921 3
+M 100 24921 10 24921 3
+M 100 24923 3 24922 1
+E 100 3275 0 17
+E 100 24921 0 5
+M 100 24922 1 24922 1
+E 100 3161 0 16
+E 100 3057 0 7
+E 100 3018 0 5
+M 100 24923 3 24923 2
+E 100 3275 0 17
+E 100 24921 0 5
+M 100 24923 3 24923 2
+E 100 3275 0 17
+E 100 24921 0 5
+M 100 24932 1 24932 1
+O 100 24922 0 24933
+M 100 24914 1 24933 1
+O 100 24952 0 24939
+M 100 24952 1 24939 1
+E 100 3007 0 8
+E 100 3050 0 7
+E 100 3179 0 16
+M 100 24946 6 24946 6
+M 100 24913 2 24946 2
+M 100 24946 6 24947 6
+M 100 24947 3 24948 3
+G 100 24947 0
+M 100 24912 2 24950 2
+M 100 24946 6 24951 6
+M 100 24913 2 24951 2
+M 100 24933 1 24957 1
+S
+
+
+
+#MOBPROGSNEW
+#24913
+~
+mob zecho Gdzie¶ w oddali s³ychaæ potê¿ny ryk jakiego¶ zwierzêcia, a mo¿e to tylko jego echo?
+emote wydaje z siebie potê¿ny ryk obwieszczaj±cy otoczeniu kto rz±dzi okolica.
+~
+#24914
+~
+Ent nie ¿yje!!
+mob echo Ent pada martwy na ziemiê i dopiero wtedy zauwa¿asz, ¿e miêdzy jego ogromnymi ³apskami znajduje siê jaka¶ ksiêga.
+mob oload 24950 r
+~
+#24921
+~
+mob equip self 24921
+~
+#24951
+~
+if rand 90
+  mob oload wrist 1 w
+endif
+
+~
+#ent_24914_death
+~
+if rand 99
+  mob oload 24953
+endif
+if rand 75
+  mob oload 24908
+endif
+if rand 95
+  mob oload gem 6
+endif
+if rand 60
+  mob oload gem 4
+else
+  if rand 10
+    mob oload gem 3
+  endif
+endif
+emote pada na ziemiê... MARTWY.
+mob oload gem 6
+mob oload random 6
+mob oload finger 5
+mob oload neck 5
+mob oload random 5
+mob oload gem 5
+~
+#ent_antisum
+Prog ten ma za zadanie uniemo¿liwiæ summonerom lanie samemu enta.
+~
+if affected $n charm
+  mob echo Zb³±kany ent wymawia s³owa, 'candussalwunsoh'.
+  mob cast repayment $n 28
+endif
+~
+#ent_onload
+~
+mob addgroup 42829
+if rand 10
+  mob addgroup 42829
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#24913
+~
+mob at 24946 mob force gro¼ne mob at 24941 mob echo Z jaskini wydobywa siê gro¼ny ryk!
+mob at 24946 mob force gro¼ne emote ryczy gro¼nie w kierunku wyj¶cia
+~
+#0
+
+#TRAPS
+#Vnum 24936
+Active 1
+Level 2
+Type 0
+Triggered ~
+Disarmed ~
+Failed ~
+Limit 6491933
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

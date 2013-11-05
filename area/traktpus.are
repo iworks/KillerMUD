@@ -1,0 +1,2864 @@
+#AREADATA
+Name +# Daegermeeth~
+Builders Deggial Furgas~
+VNUMs 28150 28250
+Credits jediloop@go2.pl~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 28150
+Name kunsztowna zdobiona fajka~
+Odmiana zdobionej fajki~zdobionej fajce~zdobion± fajkê~zdobion± fajk±~zdobionej fajce~
+Short zdobiona fajka~
+Descr Kunsztownie zdobiona drewniana fajka.~
+Material drewno~
+Type pipe
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 2700
+Cond 100
+Itemdesc Trzymasz w d³oni piêknie zdobion± drewian± fajkê. Nie od dzi¶ wiadomo, ¿e
+w produkcji takiego typu przedmiotów mistrzostwo osi±gne³y nizio³ki. Te
+nieskie, w³ochate stworki uwielbiaj± ca³ymi godzinami wylegiwaæ siê i paliæ
+ziele fajkowe. Je¿eli chcesz to fajke mo¿esz nape³nic zielem, rozpaliæ,
+zgasiæ lub tylko obejrzeæ. Bli¿sza pomoc po wpisaniu: {Rfpomoc{x. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 28151
+Name ziele fajkowe tytoñ z_f~
+Odmiana ziela fajkowego~zielu fajkowemu~ziele fajkowe~zielem fajkowym~zielu fajkowym~
+Short ziele fajkowe~
+Descr Zmielone ziele fajkowe czeka a¿ kto¶ go u¿yje do nape³nienia fajki.~
+Material ro¶lina~
+Type weed
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 20 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 600
+Cond 100
+Itemdesc Ta garstka ziela któr± trzymasz w d³oni to najlepszy materia³
+wyko¿ystywany do palenia w fajkach. Wystarczy tylko mieæ fajke, nape³niæ j±
+zielem i zapaliæ. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 28152
+Name woreczek sakwa sakwiewka worek~
+Odmiana woreczka na ziele fajkowe~woreczkowi na ziele fajkowe~woreczek na ziele fajkowe~woreczkiem na ziele fajkowe~woreczku na ziele fajkowe~
+Short woreczek na ziele fajkowe~
+Descr Niewielki, skórzany woreczek przeznaczony do przechowywania w nim ziela fajkowego.~
+Material skóra~
+Type container
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 1025 0 1 100 28151 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 3000
+Cond 100
+Itemdesc Ten woreczek jest bardzo misternie wykonany z przedniej skóry. Czujesz
+delikatny zapach ziela fajkowego, którym przesi±kniêta jest ta sakwa.
+Woreczek mo¿na ³atwo zasznurowaæ specjalnie do tego przygotowanym
+sznureczkiem a nastêpnie zawiesiæ przy pasie lub na szyi, tak aby nigdy nie
+zapomnieæ zabraæ swojegu ulubionego ziela z domu. 
+~
+Comments ~
+Objend
+#Vnum 28153
+Name posrebrzana fajka~
+Odmiana posrebrzanej fajki~posrebrzanej fajce~posrebrzana fajke~posrebrzana fajka~posrebrzonej fajce~
+Short posrebrzana fajka~
+Descr Piêkna, posrebrzana fajeczka.~
+Material srebro~
+Type pipe
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6
+Cost 3600
+Cond 100
+Objprog random 28154 4~
+Objprog input 28150 zapal~
+Objprog input 28150 zapal fajke~
+Objprog input 28151 zgas fajke~
+Objprog input 28151 zgas~
+Objprog input 28152 nape³nij~
+Objprog input 28152 nape³nij fajke~
+Objprog input 28153 obejrzyj fajke~
+Objprog flagoff 28155 pali_sie~
+Objprog input 28157 fpomoc~
+Objprog input 28158 ftroszcz~
+Objprog input 28159 fmy¶l~
+Objprog input 28160 fkaszlaj~
+Objprog input 28161 fpoleruj~
+Objprog input 28162 fchwal~
+Objprog input 28163 fzaci±gnij siê~
+Objprog input 28164 fsztuczka~
+Itemdesc Trzymasz w d³oni piêkn±, posrebrzan± fajkê. Nie od dzi¶ wiadomo, ¿e w
+produkcji takiego typu przedmiotów mistrzostwo osi±gne³y nizio³ki. Te
+niskie, w³ochate stworki uwielbiaj± ca³ymi godzinami wylegiwaæ siê i paliæ
+ziele fajkowe. Ta fajka ozdobiona jest wieloma kunsztownie wykonanymi
+wzorami. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 28150
+Name Droga przez pustynie~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28151
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28151
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28151
+Name Zakret drogi przez pustynie~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28150
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28150
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28152
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28152
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28152
+Name Odbicie drogi na pó³noc~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28153
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28153
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28151
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28151
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28153
+Name Na mostku miêdzy szczelinami~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28154
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28154
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28152
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28152
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28154
+Name Zakret sciezki na wschod~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28155
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28155
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28153
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28153
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28155
+Name Przy murach miasta~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28156
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28156
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28154
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28154
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28156
+Name Przed bram± Daegermeeth~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28155
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28155
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28157
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28157
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28157
+Name Za bram± miejsk±~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28159
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28159
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28160
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28160
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28156
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28156
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28158
+Name ~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28157
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28157
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28157
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28157
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28159
+Name Zagrody wielb³±dów~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28157
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28157
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28160
+Name Ma³e skrzy¿owanie niedaleko bram miasta~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28161
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28161
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28200
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28200
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28157
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28157
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28161
+Name W±ska uliczka~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28162
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28162
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28160
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28160
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28162
+Name Niewielkie skrzy¿owanie~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28213
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28213
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28161
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28161
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28163
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28163
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28163
+Name W±ska uliczka~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28164
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28164
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28162
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28162
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28164
+Name Przed zak³±dem p³atnerskim~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28166
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28166
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28163
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28163
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28165
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28165
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28165
+Name P³atnerz~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28164
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28164
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28166
+Name Skrzy¿owanie na ulicy Winnej~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28168
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28168
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28164
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28164
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28167
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28167
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28167
+Name Przed drewnian± furtk±~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28166
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28166
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28168
+Name Ulica winna~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28170
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28170
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28169
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28169
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28166
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28166
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28169
+Name Sklepik zielarza~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28168
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28168
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28170
+Name Przed sklepem jubilerskim na ulicy Winnej~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28171
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28171
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28172
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28172
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28168
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28168
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28171
+Name Zak³ad jubilerski~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28170
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28172
+Name Skrzy¿owanie ulicy winnej z drog± do placu targowego~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28173
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28173
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28174
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28174
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28170
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28170
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28173
+Name Ulica winna~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28175
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28175
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28176
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28176
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28172
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28172
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28174
+Name Plac targowy~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28172
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28172
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28215
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28215
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28212
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28212
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28175
+Name ~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28173
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28176
+Name Ulica winna~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28177
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28177
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28173
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28173
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28177
+Name Kraniec ulicy winnej~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28178
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28178
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28179
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28179
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28176
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28176
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28178
+Name ¦wiatynia Lathandera~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28177
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28177
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28179
+Name ¦cie¿ka wokó³ kamiennego filara~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28177
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28177
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28180
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28180
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28180
+Name ¦cie¿ka wokó³ kamiennego filara~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28181
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28181
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28179
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28179
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28181
+Name Obok budynku poczty~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28182
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28182
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28183
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28183
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28180
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28180
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28182
+Name Na poczcie~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28181
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28181
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28183
+Name Pó³nocny koniec ulicy Wodnej~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28184
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28184
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28181
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28181
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28184
+Name Przed "Rozkichan± wywern±"~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28183
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28183
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28185
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28185
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28187
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28187
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28185
+Name Jadalnia "Rozkichanej wywerny"~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28186
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28186
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28184
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28184
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28186
+Name Przy barze "Rozkichanej wywerny"~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28185
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28185
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28187
+Name Ulica wodna~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28184
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28184
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28188
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28188
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28188
+Name Skrzy¿owanie ulicy wodnej z obwodow±~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28187
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28187
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28210
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28210
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28189
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28189
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28189
+Name Ulica wodna~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28188
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28188
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28190
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28190
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28190
+Name Ulica wodna~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28189
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28189
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28191
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28191
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28191
+Name Po³udniowy kraniec ulicu wodnej~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28190
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28190
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28192
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28192
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28192
+Name Skrzy¿owanie~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28191
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28191
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28201
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28201
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28193
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28193
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28193
+Name Przed domem rz±dcy~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28192
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28192
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28194
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28194
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28194
+Name Kamienna uliczka~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28193
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28193
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28195
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28195
+Name Zakrêt uliczki~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28197
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28197
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28194
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28194
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28196
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28196
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28196
+Name Piekarnia~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28195
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28197
+Name Plac fontann~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28222
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28222
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28195
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28195
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28198
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28198
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28198
+Name Plac fontann~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28224
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28224
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28197
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28197
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28225
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28225
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28199
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28199
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28199
+Name Ma³e skrzy¿owanie~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28198
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28198
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28226
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28226
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28200
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28200
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28200
+Name Droga do bram miasta~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28160
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28160
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28199
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28199
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28201
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28192
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28192
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28203
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28203
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28202
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28202
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28202
+Name Kowal~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28201
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28201
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28203
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28204
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28204
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28201
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28201
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28204
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28205
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28205
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28203
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28203
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28205
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28206
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28206
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28204
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28204
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28206
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28207
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28207
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28205
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28205
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28207
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28208
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28208
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28206
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28206
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28208
+Name Ulica obwodowa~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28209
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28209
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28207
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28207
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28209
+Name Zakêt ulicy obwodowej~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28208
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28208
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28210
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28210
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28210
+Name Obok zbrojmistrza~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28211
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28211
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28209
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28209
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28188
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28188
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28211
+Name Zbrojmistrz ~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28210
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28210
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28212
+Name Plac targowy~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28174
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28174
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28214
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28214
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28213
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28213
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28213
+Name Przed "Smoczym zêbem"~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28212
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28212
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28162
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28162
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28214
+Name Plac targowy~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28215
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28215
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28212
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28212
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28215
+Name Plac targowy~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28216
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28216
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28214
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28214
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28174
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28174
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28216
+Name Niedaleko placu targowego~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28217
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28217
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28215
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28215
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28217
+Name Ulica Veziusza~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28216
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28216
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28218
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28218
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28218
+Name Ulica Veziusza~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28217
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28217
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28219
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28219
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28219
+Name Zakrêt ulicy Veziusza~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28220
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28220
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28218
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28218
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28220
+Name Ulica Veziusza~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28219
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28219
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28221
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28221
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28221
+Name Niedaleko placu fontann~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28220
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28220
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28222
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28222
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28222
+Name Plac fontann~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28223
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28223
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28221
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28221
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28197
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28197
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28224
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28224
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28223
+Name Kantor Vesula Podjadka~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28222
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28222
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28224
+Name Plac fontann~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28222
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28222
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28198
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28198
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28225
+Name ¦wiatynia Illmantera~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28198
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28198
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28226
+Name W±zka dró¿ka~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28199
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28199
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28227
+ExitExtEnd
+Exit 2
+~
+~
+0 0 28227
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28227
+Name Zakrêt w±zkiej dró¿ki~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28226
+ExitExtEnd
+Exit 0
+~
+~
+0 0 28226
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28228
+ExitExtEnd
+Exit 1
+~
+~
+0 0 28228
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 28228
+Name Zak³ad szewski~
+Descr ~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 28227
+ExitExtEnd
+Exit 3
+~
+~
+0 0 28227
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#28150
+~
+if hasflag $o napelniona
+if hasflag $o pali_sie
+mob echoat $n fajka jest ju¿ rozpalona.
+else
+mob echoat $n Zapalasz fajeczke i widzisz jak ziele zaczyna siê ¿arzyæ
+mob echoaround $n $n z wpraw± zapala swoj± $oc.
+mob smoke $n
+obj setflag pali_sie 5
+endif
+else
+mob echoat $n Pierw musisz nape³niæ fajke zielem fajkowym!
+endif
+~
+#28151
+~
+if hasflag $o pali_sie
+mob echoat $n Gasisz delikatny ¿ar w fajce i oczyszczasz j± z wypalonego ziela.
+mob echoaround $n $n gasi swoj± $oc.
+obj modflag rem pali_sie
+obj modflag rem napelniona
+else
+mob echoat $n Aby zgasic fajke pierw musisz j± rozpaliæ!
+endif
+~
+#28152
+~
+if carries $n z_f
+if hasflag $o napelniona
+mob echoat $n Fajka jest juz napelniona!
+else
+mob echoat $n Powoli napelniasz fajke zielem.
+mob echoaround $n $n powoli napelnia $oc zielem fajkowym.
+mob remove $n 28151 1
+obj setflag napelniona -1
+endif
+else
+mob echoat $n Nie masz czym napelnic fajki!
+endif
+~
+#28153
+~
+mob echoat $n Przygl±dasz siê fajeczce i widzisz, ¿e:
+mob echoaround $n Widzisz jak $n z dum± przygl±da siê swojej fajce.
+if hasflag $o napelniona
+ if objflag $o pali_sie reg2 = 1
+  mob echoat $n W fajcie jest bardzo ma³o ziela i za chwile zga¶nie!
+ else
+  mob echoat $n Fajka jest pe³na ziela.
+ endif
+else
+ mob echoat $n Fajka jest pusta i czeka na wype³nienie jej zielem.
+endif
+if hasflag $o pali_sie
+ mob echoat $n Fajka ¿arzy siê delikatnie.
+else
+ mob echoat $n Fajka jest zgaszona.
+endif
+~
+#28154
+~
+if hasflag $o pali_sie
+if rand 90
+mob echoat $n Mimochodem spogl±dasz na fajke i widzisz, ¿e ziele nadal ¿arzy siê spokojnie.
+else
+if rand 50
+mob echoat $n Znad fajeczki unosi siê lekkie pasmo dymku.
+else
+mob echoat $n Czujesz jak fajeczka emanuje delikatnym ciep³em.
+endif
+endif
+endif
+~
+#28155
+~
+mob echoat $n Fajka powoli przestaje siê paliæ i ga¶nie ca³kowicie.
+obj modflag rem napelniona
+~
+#28156
+~
+if hasflag $o pali_sie
+mob echoat $n Bierzesz fajeczke do rêki po czym natychmiast wk³adasz j± do ust i zaci±gasz siê.
+mob echoaround $n $n bierze fajeczke do rêki a nastêpnie w usta i zaci±ga siê dymkiem.
+else
+mob echoat $n Bierzesz fajke do rêki.
+mob echoaround $n $n bierze fajke do rêki.
+endif
+~
+#28157
+~
+mob echoat $n {RKomendy potrzebne do u¿ywania fajki:{x
+mob echoat $n *{Mnape³nij fajke{x - nape³nia fajke zielem fajkowym
+mob echoat $n *{Mzapal fajke{x
+mob echoat $n *{Mzgas fajke{x
+mob echoat $n *{Mobejrzyj fajke{x
+mob echoat $n 
+mob echoat $n {RKomendy emocji dostêpne po zapaleniu fajki:{x
+mob echoat $n *{Yfzaci±gnij siê{x
+mob echoat $n *{Yftroszcz{x
+mob echoat $n *{Yfmy¶l{x
+mob echoat $n *{Yfkaszlaj{x
+mob echoat $n *{Yfpoleruj{x
+mob echoat $n *{Yfchwal{x
+mob echoat $n *{Yfsztuczka{x
+mob echoat $n 
+mob echoat $n Wszystkie komendy mog± byæ wykonywane tylko podczas trzymania fajki
+mob echoat $n w d³oni.
+mob echoat $n 
+mob echoat $n Mi³ego palenia!
+~
+#28158
+~
+mob echoat $n Czule obejmujesz swoja fajeczke okazuj±c troske o swój skarb.
+mob echoaround $n $n czule obejmuje swoj± fajke i usmiecha sie do niej g³upkowato.
+~
+#28159
+~
+if hasflag $o pali_sie
+mob echoat $n Z powag± wyci±gasz fajke z ust i trzymaj±c j± na wysoko¶ci oczu my¶lisz intensywnie.
+mob echoaround $n $n powa¿nie wpatruje siê w swoj± fajkê zastanawiaj±c siê nad czym¶.
+else
+mob echoat $n Aby to zrobiæ pierw musisz zapaliæ swoj± fajkê!
+endif
+~
+#28160
+~
+mob echoat $n Zaczynasz kaszlaæ charcz±c przy tym bardzo nieprzyjemnie.
+mob echoaround $n $n nagle dostaje ataku silnego kaszlu.
+~
+#28161
+~
+mob echoat $n Delikatnie i dok³adnie polerujesz swoj± fajeczke.
+mob echoaround $n $n z uwag± zabiera siê za dok³adne polerowanie swojej $oz.
+~
+#28162
+~
+if hasflag $o pali_sie
+mob echoat $n Demonstracyjnie zaci±gasz siê swoj± fajk± ani troche nie kryj±c swej dumy.
+mob echoaround $n $n z wyra¼nie dumn± min± zaci±ga siê swoj± $ov.
+else
+mob echoat $n Aby to zrobiæ pierw musisz zapaliæ swoj± fajkê!
+endif
+~
+#28163
+~
+if hasflag $o pali_sie
+  mob smoke $n
+  if rand 50
+    mob echoat $n Zaci±gasz siê g³êboko swoj± fajk± po czym wypuszczasz z ust gêsty tytoniowy dymek.
+    mob echoaround $n $n zaci±ga siê g³êboko swoj± fajk± po czym wypuszcza z ust gêsty tytoniowy dymek.
+  else
+    mob echoat $n Zaci±gasz siê g³êboko swoj± fajk± po czym wypuszczasz z nosa gêsty tytoniowy dymek.
+    mob echoaround $n $n zaci±ga siê g³êboko swoj± fajk± po czym wypuszcza z nosa gêsty tytoniowy dymek.
+  endif
+else
+  mob echoat $n Aby to zrobiæ pierw musisz zapaliæ swoj± fajkê!
+endif
+~
+#28164
+~
+if hasflag $o pali_sie
+if rand 90
+mob echoat $n Mocno zaci±gasz siê dymem z fajki po czym wypuszczasz go tak, ¿e tworzy w powietrzu napis "$n"!
+mob echoaround $n $n mocno zaci±ga siê dymem z fajki po czym wypuszcza go tak, ¿e tworzy w powietrzu napis "$n"!
+else
+mob echoat $n G³êboko zaci±gasz siê dymem z fajki po czym wypuszczasz z ust pare dymków w kszta³cie kó³ek!
+mob echoaround $n $n zaci±ga siê g³êboko dymem z fajki po czym wypuszcza z ust kilka ¶miesznych dymków w kszta³cie kó³ek!
+endif
+else
+mob echoat $n Aby to zrobiæ pierw musisz zapaliæ swoj± fajkê!
+endif
+~
+#28165
+~
+if hasflag $o pali_sie
+mob echoat $n Z trudno¶ci± odrywasz siê od palenia ziela fajkowego i odk³adasz swoj± fajkê.
+mob echoaround $n $n z wyra¼n± trudno¶ci± odrywa siê od palenia swojej fajeczki i odk³ada j±.
+else
+mob echoat $n Odk³adasz swoj± fajeczke.
+mob echoaround $n $n odk³ada swoj± fajeczke.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

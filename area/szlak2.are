@@ -1,0 +1,1703 @@
+#AREADATA
+Name +# Szlak Handlowy II~
+Builders Feerial~
+VNUMs 6800 6849
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 6800
+Name Kamien~
+Odmiana kamienia~kamieniowi~kamien~kamieniem~kamieniu~
+Short przydro¿ny kamieñ~
+Descr Przydro¿ny kamieñ le¿y tutaj.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Zwykly przydrozny kamien, jakich wiele tutaj wszedzie.
+~
+Comments ~
+Objend
+#Vnum 6801
+Name drogowskaz drewniany~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr Drewniany drogowskaz stoi na rozdrozu.~
+Material drewno~
+Type trash
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 20
+Cond 100
+Extradesc drogowskaz~
+Zachod : Miasto Carralak
+~
+Comments ~
+Objend
+#Vnum 6802
+Name drogowskaz drewniany~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr Drewniany drogowskaz stoi na rozdrozu.~
+Material drewno~
+Type trash
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 20
+Cond 100
+Itemdesc {G            Osada
+{G           smolarzy
+{y              |
+{y              |
+{RCarrallak{y ----^^---- {BDaum Terde{x
+~
+Comments ~
+Objend
+#Vnum 6803
+Name drogowskaz drewniany~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr Wbity obok drogi, drewniany drogowskaz.~
+Material drewno~
+Type trash
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 200
+Cost 20
+Cond 100
+Itemdesc {RCarrallak{y ----,---- {BDaum Terde{x
+{y              |
+{y              |
+{G           Latarnia
+{G            morska
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 6800
+Name Poczatek Szlaku Handlowego~
+Descr Przechodza tedy kupcy i karawany. Droga nie ma zadnych kolein ani zadnych
+takich rzeczy, miejscami, glownie w okolicy, gdzie jest jakis ruch czy
+blisko miasta zostala zrobiona naprawde porzadnie. Na przyklad tutaj, kiedy
+tak przyjrzec z boku widac, ze polozone zostalo kolejno kilka warstw piasku,
+gliny, kamieni na przemian. Jacys krasnoludzcy kamieniarze mieli pewnie od
+licha roboty. Od pó³nocy trakt zamkniêty jest przez miejskie mury. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6801
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6801
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81252
+ExitExtEnd
+Exit 2
+~
+~
+0 0 81252
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 544
+ExitExtEnd
+Exit 3
+~
+~
+0 0 544
+ExitExt 5
+ExitExtDescription ~
+ExitExtTextOut $n schodzi do kana³u.~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 33391
+ExitExtEnd
+Exit 5
+~
+TextOut $n schodzi do kana³u.~
+klapa~
+3 0 33391
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6801
+Name Szlak Handlowy~
+Descr Szlak po³udniowy ciagnie sie na dosc dlugiej przestrzeni, to jedna z
+dluzszych drog jakie udalo ci sie napotkac. Nie byloby chyba zlym
+rozwiazaniem po drodze wpasc gdzies i zaopatrzyc sie w jakiej jedzenie.
+Gdzie nie spojrzysz widzisz pola, lasy, jakies male jeziorka, kraina wyglada
+calkiem bogato i ladnie. Ciekawe czy to dzieki szlakowi tak wlasnie wyglada,
+czy przysparza on krainie tyle dochodu czy tez mo¿e to ze ziemia tu taka
+zyzna a kraj w sumie nie najbiedniejszym wydaje sie byc patrzac po
+krajobrazach i mijanych wsiach i miasteczkach pozwolila ona na powstanie
+szlaku wlasnie. Od pó³nocy trakt zamkniêty jest przez miejskie mury. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6802
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6802
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81261
+ExitExtEnd
+Exit 2
+~
+~
+0 0 81261
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6800
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6800
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6802
+Name Szlak Handlowy~
+Descr Gdzie nie spojrzysz widzisz pola, lasy, jakies male jeziorka, kraina
+wyglada calkiem bogato i ladnie. Ciekawe czy to dzieki szlakowi tak wlasnie
+wyglada, czy przysparza on krainie tyle dochodu czy tez mo¿e to ze ziemia tu
+taka zyzna a kraj w sumie nie najbiedniejszym wydaje sie byc patrzac po
+krajobrazach i mijanych wsiach i miasteczkach pozwolila ona na powstanie
+szlaku wlasnie. Z boku widzisz jakies porozrzucane kamienie i piasek, chyba
+ktos zgubil troche budulca, kiedy probowal go zawiesc na budowe. Od pó³nocy
+trakt zamkniêty jest przez miejskie mury. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6803
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6803
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81280
+ExitExtEnd
+Exit 2
+~
+~
+0 0 81280
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6801
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6801
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6803
+Name Szlak Handlowy~
+Descr Przy drodze rosnie jakies bardzo stare drzewo, konary pochylaja sie nad
+droga na wysokosci troche tylko ponad dwoch i pol metra. Nnno, mo¿e troche
+wiecej. Wysokie wozy, wiozace sporo towaru maja chyba lekki klopot z
+pokonaniem tego odcinka. Hmm, ze tez nikt sie o to nie zatroszczyl. Gdzie
+nie spojrzysz widzisz pola, lasy, jakies male jeziorka, kraina wyglada
+calkiem bogato i ladnie. Ciekawe czy to dzieki szlakowi tak wlasnie wyglada,
+czy przysparza on krainie tyle dochodu czy tez mo¿e to ze ziemia tu taka
+zyzna a kraj w sumie nie najbiedniejszym wydaje sie byc patrzac po
+krajobrazach i mijanych wsiach i miasteczkach pozwolila ona na powstanie
+szlaku wlasnie. Z pó³nocnego-wschodu dochodz± do ciebie szczêki orê¿a. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6804
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6804
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81296
+ExitExtEnd
+Exit 2
+~
+~
+0 0 81296
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6802
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6802
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6804
+Name Szlak Handlowy~
+Descr Gdzie nie spojrzysz widzisz pola, lasy, jakies male jeziorka, kraina
+wyglada calkiem bogato i ladnie. Ciekawe czy to dzieki szlakowi tak wlasnie
+wyglada, czy przysparza on krainie tyle dochodu czy tez mo¿e to ze ziemia tu
+taka zyzna a kraj w sumie nie najbiedniejszym wydaje sie byc patrzac po
+krajobrazach i mijanych wsiach i miasteczkach pozwolila ona na powstanie
+szlaku wlasnie. Z pó³nocy dochodz± do ciebie szczêki orê¿a. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 545
+ExitExtEnd
+Exit 0
+~
+~
+0 0 545
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6805
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6805
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1607
+ExitExtEnd
+Exit 2
+~
+~
+0 0 1607
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6803
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6803
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6805
+Name Szlak Handlowy~
+Descr Przy drodze stoi {ydrogowskaz{S. Okolica jest tutaj troche zabagniona, droga
+oczywiscie nadal w dobrym, by nie rzec doskonalym stanie, ale troche tu
+mokro w sumie dookola. Jakies bagniska widac za drzewami. Dookola
+praktycznie wszedzie male stawy, stawiki i bajorka. 
+~
+FlagsExt 0
+Sector 18
+Extra drogowskaz~
+ZACHÓD: do Carrallak
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9723
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9723
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6810
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6810
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1601
+ExitExtEnd
+Exit 2
+~
+~
+0 0 1601
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6804
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6804
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6806
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6828
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6828
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6827
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6827
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6807
+Name Trakt Handlowy~
+Descr Znajdujesz siê w miejscu w którym zrobi³o sie jakby troszkê ja¶niej. Na
+pó³nocy, miêdzy drzewami widaæ jakie¶ chaty, a dochodz±cy stamt±d zapach
+jest bardzo charakterystyczny, choæ w tym momencie nie wiesz za bardzo co to
+mo¿e byæ. Do tych chat prowadzi niewielka, w±ska droga, mocno przys³oniêta
+przez gêste ga³êzie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5190
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5190
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6832
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6832
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32478
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32478
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81655
+ExitExtEnd
+Exit 3
+~
+~
+0 0 81655
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6808
+Name none~
+Descr ~
+FlagsExt 0|C
+Sector 28
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6809
+Name Na zakrêcie Szlaku handlowego~
+Descr Przez ca³± swoj± d³ugo¶æ ten trakt wygl±da niemal identycznie. Czasem
+przez otaczaj±ce drzewa co¶ widaæ, najcze¶ciej jednak s± to drzewa wystaj±ce
+zza innych drzew, a czasem krzaki zza innych krzaków. Równa nawierzchnia
+po³o¿ona przez wysokiej klasy kamieniarzy wygl±da na wiekow±, a nie ma na
+niej ¶ladu zniszczenia. Podejrzewasz, ¿e w jej utwardzaniu mog³a braæ udzia³
+magia i to naprawdê silna. Miejsce w którym jeste¶ to jeden z nielicznych
+zakrêtów, czy raczej szykan na tym szlaku. Po co budowniczowie zrobili co¶
+takiego - nie wiadomo.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9729
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9729
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6814
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6814
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6813
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6813
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9726
+ExitExtEnd
+Exit 3
+~
+~
+0 0 9726
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6810
+Name Trakt Handlowy~
+Descr Wêdrujesz szlakiem, który wiedzie prosto ze wschodu na zachód. Wiesz
+pewnie, ¿e zaczyna siê w mie¶cie Carrallak, które widaæ do¶æ wyra¼nie na
+wschodzie. Zauwa¿asz miejskie mury oraz wystaj±ce ponad nimi baszty. Po obu
+stronach drogi rozci±gaj± siê po³acie dziewiczej puszczy. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9724
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9724
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6811
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6811
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6805
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6805
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6811
+Name Trakt Handlowy~
+Descr Do¶æ szeroki trakt handlowy, rozpoczynaj±cy siê w Carrallak, którego
+najwy¿sze budynki widzisz na zachodzie. Widaæ te¿ baszty wyrastaj±ce z
+miejskich murów, których st±d ju¿ nie widaæ. Po obu stronach traktu widaæ
+drzewa gêstniej±ce z ka¿d± chwil±, choæ wydaje ci siê, ¿e na po³udniu, za
+drzewami jest jaki¶ prze¶wit. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9725
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9725
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6812
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6812
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6810
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6810
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6812
+Name Trakt Handlowy~
+Descr Równy i wygodny w podró¿y trakt niezmiennie prowadzi ze wschodu na
+zachód. Po obu stronach drogi pochylaj± siê wiekowe drzewa. Na niektórych z
+nich zauwa¿asz jakie¶ wyciête znaki, ale s± one zupe³nie nieczytelne, tak
+jakby zosta³y wyciête wiele, wiele lat temu na du¿o m³odszym i mniejszym
+drzewie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 9726
+ExitExtEnd
+Exit 0
+~
+~
+0 0 9726
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6813
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6813
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24972
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24972
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6811
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6811
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6813
+Name Na zakrêcie Szlaku handlowego~
+Descr Przez ca³± swoj± d³ugo¶æ ten trakt wygl±da niemal identycznie. Czasem
+przez otaczaj±ce drzewa co¶ widaæ, najcze¶ciej jednak s± to drzewa wystaj±ce
+zza innych drzew, a czasem krzaki zza innych krzaków. Równa nawierzchnia
+po³o¿ona przez wysokiej klasy kamieniarzy wygl±da na wiekow±, a nie ma na
+niej ¶ladu zniszczenia. Podejrzewasz, ¿e w jej utwardzaniu mog³a braæ udzia³
+magia i to naprawdê silna. Miejsce w którym jeste¶ to jeden z nielicznych
+zakrêtów, czy raczej szykan na tym szlaku. Po co budowniczowie zrobili co¶
+takiego - nie wiadomo. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6809
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6809
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24973
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24973
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6812
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6812
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6814
+Name Trakt Handlowy~
+Descr Znajdujesz siê w jendym z nielicznych miejsc, które ró¿ni± siê wygl±dem
+na ca³ym trakcie. Zazwyczaj drzewa przylegaj± do traktu i od pó³nocy i od
+po³udnia. Tutaj natomiast na po³udnie otwiera do¶æ szeroka le¶na ¶cie¿ka, z
+której odczuwasz do¶æ niewielk± magiczn± aurê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6815
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6815
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24976
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24976
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6809
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6809
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6815
+Name Trakt Handlowy~
+Descr Od po³udnia, poprzez docieraj±ce przez listowie promienie s³oñca widaæ
+jakie¶ ruiny, do których musi prowadziæ jakas droga. Natomiast trakt po
+którym st±pasz nie zmieni³ siê ani na jotê, wci±¿ jest mocny i stabliny, bez
+¶ladu zniszczeñ. A wed³ug jego po³o¿enia mo¿na by regulowaæ kompas. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6816
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6816
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24977
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24977
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6814
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6814
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6816
+Name Trakt Handlowy~
+Descr Od po³udnia, poprzez docieraj±ce przez listowie promienie s³oñca widaæ
+jakie¶ ruiny, do których musi prowadziæ jakas droga. Natomiast trakt po
+którym st±pasz nie zmieni³ siê ani na jotê, wci±¿ jest mocny i stabliny, bez
+¶ladu zniszczeñ. A wed³ug jego po³o¿enia mo¿na by regulowaæ kompas. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6817
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6817
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6815
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6815
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6817
+Name Trakt Handlowy~
+Descr Znajdujesz siê na szlaku handlowym zaczynaj±cym siê w mie¶cie Carralak.
+Niektórzy mówi±, ¿e tam siê koñczy, ale tym nie nale¿y ufaæ, bo to zwyk³e
+banialuki. Zwisaj±ce ponad drog± galêzie przys³aniaj± troszkê nieba i jest
+tu jakby ciemniej ni¿ na innych kawa³kach traktu. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81646
+ExitExtEnd
+Exit 1
+~
+~
+0 0 81646
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32503
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32503
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6816
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6816
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6818
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6819
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6819
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6819
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6820
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6820
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6818
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6818
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6820
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6821
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6821
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6819
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6819
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6821
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6822
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6822
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6820
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6822
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6823
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6823
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6821
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6821
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6823
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6824
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6824
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6822
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6822
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6824
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6825
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6825
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6823
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6823
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6825
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6826
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6826
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6824
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6824
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6826
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6827
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6827
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6825
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6825
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6827
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6806
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6806
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6826
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6826
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6828
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6829
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6829
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6806
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6806
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6829
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6830
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6830
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6828
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6828
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6830
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6831
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6831
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6829
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6829
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6831
+Name Trakt Handlowy~
+Descr ~
+FlagsExt 0
+Sector 18
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6830
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6830
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6832
+Name Trakt Handlowy~
+Descr Równy i wygodny w podró¿y trakt niezmiennie prowadzi ze wschodu na
+zachód. Po obu stronach drogi pochylaj± siê wiekowe drzewa. Na niektórych z
+nich zauwa¿asz jakie¶ wyciête znaki, ale s± one zupe³nie nieczytelne, tak
+jakby zosta³y wyciête wiele, wiele lat temu na du¿o m³odszym i mniejszym
+drzewie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6833
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6833
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32797
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32797
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6807
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6807
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6833
+Name Trakt Handlowy~
+Descr Równy i wygodny w podró¿y trakt niezmiennie prowadzi ze wschodu na
+zachód. Po obu stronach drogi pochylaj± siê wiekowe drzewa. Na niektórych z
+nich zauwa¿asz jakie¶ wyciête znaki, ale s± one zupe³nie nieczytelne, tak
+jakby zosta³y wyciête wiele, wiele lat temu na du¿o m³odszym i mniejszym
+drzewie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6834
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6834
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32810
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32810
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6832
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6832
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6834
+Name Trakt Handlowy~
+Descr Nudny do bólu, równy i wci±¿ równoleg³y do równika. Nwet drzewa rosn±ce
+po jego obu stronach wygl±daj± ca³y czas tak samo. Na dodatek te znaki. Niby
+siê zmieniaj±, a jednak wci±¿ pozostaj± takie same. ¯eby chocia¿ da³y siê
+przeczytaæ, to mo¿na by by³o na co¶ popatrzeæ, a tak? Ciêcie, ciêcie, ga³±¼,
+drzewo... W kó³ko bez koñca. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6835
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6835
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32823
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32823
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6833
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6833
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6835
+Name Trakt Handlowy~
+Descr Równy i wygodny w podró¿y trakt niezmiennie prowadzi ze wschodu na
+zachód. Po obu stronach drogi pochylaj± siê wiekowe drzewa. Na niektórych z
+nich zauwa¿asz jakie¶ wyciête znaki, ale s± one zupe³nie nieczytelne, tak
+jakby zosta³y wyciête wiele, wiele lat temu na du¿o m³odszym i mniejszym
+drzewie. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6836
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6836
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32836
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32836
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6834
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6834
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6836
+Name Skrzy¿owanie~
+Descr Znajdujesz siê na niewielkim skrzy¿owaniu, choæ raczej ka¿dy
+powiedzia³by, ¿e w tym miejscu, z Traktu Handlowego odchodzi na po³udnie
+polna droga. Co prawda jest do¶æ szeroka, ale w porównaniu do twardej
+nawierzchni, na której stoisz, jest po prostu lokaln±, b³otn± dró¿k±. ¦lady
+do¶æ g³êbokich kolein, które prowadz± na po³udnie ¶wiadcz± o tym, ¿e ta
+dró¿ka u¿ywana jest do¶æ czêsto i to nie przez lekkie wozy, tylko co¶
+znacznie ciê¿szego. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6837
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6837
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32621
+ExitExtEnd
+Exit 2
+~
+~
+0 0 32621
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6835
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6835
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6837
+Name Trakt Handlowy~
+Descr Równy i wygodny w podró¿y trakt niezmiennie prowadzi ze wschodu na
+zachód. Po obu stronach drogi pochylaj± siê wiekowe drzewa. Na niektórych z
+nich zauwa¿asz jakie¶ wyciête znaki, ale s± one zupe³nie nieczytelne, tak
+jakby zosta³y wyciête wiele, wiele lat temu na du¿o m³odszym i mniejszym
+drzewie. Przed tob± le¿± dwa potê¿ne konary, które uniemo¿liwiaj±
+kontynuowanie drogi na wschód. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6836
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6836
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 6802 0 6807
+O 100 6800 0 6809
+O 100 6803 0 6836
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#6800
+~
+if rand 50
+mob echoat $n Slyszysz smiech bawiacych sie w stawie z boku elfich dzieciakow, pewnie zawedrowaly tutaj calkiem spory kawalek z pobliskiej wioski. Nie dziwne, idealne miejsce do zabaw.{/{/
+mob echoaround $n Slyszysz smiech bawiacych sie w stawie z boku elfich dzieciakow, pewnie zawedrowaly tutaj calkiem spory kawalek z pobliskiej wioski. Nie dziwne, idealne miejsce do zabaw.
+else
+mob echoat $n Slyszysz okrzyki dzieci pluskajacych sie w stawie, wyglada jakby bawily sie w ganianego, kilka ledwie plywa, ale zabawa wyglada na przednia.
+mob echoaround $n Slyszysz okrzyki dzieci pluskajacych sie w stawie, wyglada jakby bawily sie w ganianego, kilka ledwie plywa, ale zabawa wyglada na przednia.
+endif
+~
+#6801
+~
+mob echoat $n Slyszysz przeciagly ryk, MMMmmmmmmmmUUUuuuuuuuuuuuuu!!!! Hmm, chyba ktos jest tutaj dosc wyraznie glodny i znudzony, patrzysz uwaznie i dostrzegasz krowe tepo przezuwajaca trawe.{/
+mob echoaround $n Slyszysz przeciagly ryk, MMMmmmmmmmmUUUuuuuuuuuuuuuu!!!! Hmm, chyba ktos jest tutaj dosc wyraznie glodny i znudzony, patrzysz uwaznie i dostrzegasz krowe tepo przezuwajaca trawe.{/
+~
+#6802
+~
+mob echoat $n Kolo ciebie przelatuje kilka kamieni, na szczescie sa dosc male i nic ci nie robia, strach pomyslec co by bylo, gdyby zeszla tedy jakas wieksza lawina, uhhhh.{/
+mob echoaround $n Kolo ciebie przelatuje kilka kamieni, na szczescie sa dosc male i nic ci nie robia, strach pomyslec co by bylo, gdyby zeszla tedy jakas wieksza lawina, uhhhh.{/
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

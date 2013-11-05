@@ -1,0 +1,3522 @@
+#AREADATA
+Name +# jaskinie ogrów - góry smocze~
+Builders Trakt_cf~
+VNUMs 17821 17899
+Locked ~
+Security 9
+ResetAge 35
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 17821
+Name jaskiniowy ogr~
+Odmiana jaskiniowego ogra~jaskiniowemu ogrowi~jaskiniowego ogra~jaskiniowym ogrem~jaskiniowym ogrze~
+Short jaskiniowy ogr~
+Long Widzisz przed sob± wielkiego potwora, jest to chyba jaskiniowy ogr.~
+Descr Widzisz przed sob± wielkiego, ow³osionego ogra który chyba nigdy nie
+zazna³ k±pieli. Na jego paskudnej gêbie, nie mo¿esz znale¼æ zêbów lub
+chocia¿ k³ów, najwyra¼niej ju¿ je straci³. Ogry, takie jak ten czêsto z
+innymi olbrzymami napadaj± na s³abszych. 
+~
+Race ogr~
+ActExt 0|AFIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang E
+Speaks 4
+Level 20
+Hitroll 4
+HP 5d25+550
+Damage 4d4+2
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack walniecie
+XAC 4 4 4 4
+Stats 144 72 60 90 138 72 90
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 30
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Comments Scinam z 23 na 20 - sa takie jak wlochate ogry, a maja 3 lv wiecej. - {RBrohacz{x ({CWed May 28 00:01:38 2008{x)
+~
+Skin 100
+ExpMultiplier 85
+Resist 1 3
+Resist 2 5
+Resist 3 3
+Mobend
+#Vnum 17822
+Name jaskiniowy ogr szaman~
+Odmiana ogrzego szamana~ogrzemu szamanowi~ogrzego szamana~ogrzym szamanem~ogrzym szamanie~
+Short ogrzy szaman~
+Long Ogrzy szaman stoi tutaj szukaj±c ofiary.~
+Descr Masz przed sob± postaæ wykapanego orka, tylko wiêkszego, bardziej
+umiê¶nionego, jeszcze bardziej g³upszego i obrzydliwszego. Na jego paskudnej
+mordzie w oczy rzucaj± ci siê ¿ó³te, ostre k³y. Widzisz jak ¶lina kapie mu z
+pyska. Wygl±da na to, ¿e ten ogr nie jest przyja¼nie nastawiony do obcych,
+lub jaka¶ religia nie wiadomo jakiego Boga mu tak nakazuje. 
+~
+Race ogr~
+ActExt 0|AFQT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 0
+Lang E
+Speaks 4
+Level 19
+Hitroll 3
+HP 5d25+450
+Damage 4d4+1
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walniecie
+XAC 0 0 0 0
+Stats 126 120 108 84 120 84 90
+Off CIR
+OffExt 0|CIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Comments Scinam z 22 na 19. - {RBrohacz{x ({CWed May 28 00:02:15 2008{x)
+~
+MobprogNew onload 17825 ABCDEFGHI 100~
+Spells 10 26 231 273
+Spells 50 55 137 77
+Spells 39 230 0 0
+Skin 100
+ExpMultiplier 85
+Resist 1 5
+Resist 2 5
+Resist 3 5
+Mobend
+#Vnum 17823
+Name jaskiniowy troll~
+Odmiana jaskiniowego trolla~jaskiniowego trolla~jaskiniowego trolla~jaskiniowym trollem~jaskiniowym trollu~
+Short jaskiniowy troll~
+Long Przed sob± widzisz przera¿aj±cego, wielkiego jaskiniowego trolla.~
+Descr Co¶ tutaj ¶mierdzi, to w³a¶nie ten troll. Jest bardzo brudny, jakby siê
+tarza³ w bagnie. Na jego ciele widaæ nie wielkie ¶lady krwi. Trzeba
+pamiêtaæ, ¿e trolle s± odporne na fizyczne ataki. 
+~
+Race troll~
+ActExt 0|AFT
+Affected 512 0 256 0
+AffectedExt 0|J/2|I
+Align -1000
+Group 0
+Lang E
+Speaks 4
+Level 21
+Hitroll 3
+HP 5d20+510
+Damage 3d8+1
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack mwalniecie
+XAC 0 0 0 0
+Stats 144 54 60 84 132 78 90
+Off IR
+OffExt 0|IR/1|AH
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Comments Scinam z 23 na 21. - {RBrohacz{x ({CWed May 28 00:02:50 2008{x)
+~
+MobprogNew onload 17824 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 85
+Mobend
+#Vnum 17824
+Name wielki pó³ogr~
+Odmiana wielkiego pó³ogra~wielkiemu pó³ogrowi~wielkiego pó³ogra~wielkim pó³ogrem~wielkim pó³ogrze~
+Short wielki pó³ogr~
+Long Widzisz przed sob± wielkiego pó³ogra, który jest najsilniejszy w tym stadzie.~
+Descr Jest to wielka humadoidalna bestia, skrzy¿owana chyba z czym¶ równie
+potwornym. Jego wielkie, ¿ó³te zêbiska ociekaj± ¶lin±. Z przera¿eniem
+patrzysz na jego wielkie musku³y, które naprawde robi± wra¿enie. Jego prawie
+ca³e cia³o pokryte jest sier¶ci±. Nie wiadomo kim byli rodzice tego czego¶.
+Wiesz jedno, lepiej st±d uciekaæ. 
+~
+Race ogr~
+ActExt 0|ABIT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 0
+Lang E
+Speaks 4
+Level 30
+Hitroll 11
+HP 10d25+1300
+Damage 5d8+1
+Dammagic 1
+Weaponbonus 10
+Damflags 0
+Attack mwalniecie
+XAC 0 0 -1 -1
+Stats 162 72 72 84 150 78 90
+Off CDIORXc
+OffExt 0|CDIORXc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 600
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+MobprogNew death 17821 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 110
+Resist 1 10
+Resist 2 15
+Resist 3 20
+Resist 4 25
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Mobend
+#Vnum 17825
+Name duch wielkiego wojownika~
+Odmiana ducha wielkiego wojownika~duchowi wielkiego wojownika~ducha wielkiego wojownika~duchem wielkiego wojownika~duchu wielkiego wojownika~
+Short duch wielkiego wojownika~
+Long Nad swoim cia³em lewituje tutaj ledwo widoczny, duch wielkiego wojownika.~
+Descr Z lekkim przera¿eniem spogl±dasz na t± nie materialn± postaæ wojownika.
+Jest prawie ca³y przezroczysty, bez problemu mo¿na zobaczyæ co znajduje siê
+za jego plecami. Ma do¶æ wyra¼ne rysy twarzy, twarz starego elfiego
+wojownika. Z jakiego¶ powodu nie mo¿e opu¶ciæ tego ¶wiata. 
+~
+Race duch~
+ActExt 0|ABFOT
+Affected 42 0 0 8192
+AffectedExt 0|BDF/3|N
+Align 0
+Group 0
+Lang AM
+Speaks 12
+Level 22
+Hitroll 5
+HP 5d40+600
+Damage 5d7+2
+Dammagic 2
+Weaponbonus 8
+Damflags 2
+Attack chlod
+XAC -1 -1 -1 -1
+Stats 132 120 120 114 126 90 90
+Off EKX
+OffExt 0|EKX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+Comments Zmieniam lv z 18 na 22, balans krainki. - {RBrohacz{x ({CWed May 28 00:04:35 2008{x)
+~
+MobprogNew death 17823 ABCDEFGHI 100~
+Corpse 17834
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 17826
+Name zakapturzony barbarzynca nauczyciel_barb~
+Odmiana pó³ogra~pó³ogrowi~pó³ogra~pó³ogrem~pó³ogrze~
+Short {yzakapturzony{x barbarzyñca~
+Long Tajemnicza zakapturzona postaæ przebywa tutaj w nieznanym celu.~
+Descr Zakapturzony barbarzyñca Spogl±da na ciebie spode ³ba potê¿nie umiê¶niony
+i zakapturzony osobnik, skrywaj±cy swoj± to¿samo¶æ pod lu¼nym szerokim
+kapturem, który koñczy siê na jego barkach. W ciemnej twarzy b³yszcz±
+niemi³o przekrwione oczy. Jest wysokiego wzrostu i d³ugich gêsto ow³osionych
+na rudo koñczynach, najprawdopodobniej zosta³ poczêty z krwi cz³owieczej i
+nasienia orczego, bo dodatkowo charczy cos niezrozumiale pod nosem na twoje
+wej¶cie. Dzier¿y w jednym reku miecz a w drugim grub± maczugê nabijan±
+æwiekami i po sposobie trzymania znaæ, ¿e zna siê ¶wietnie na walce w
+bezpo¶rednim starciu dwoma typami broni. Przyczyna jego pobytu w tym miejscu
+jest ci nieznana. 
+~
+Race pó³ork~
+ActExt 0|ABIKQSTd/2|E
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 29
+Hitroll 0
+HP 10d10+200
+Damage 10d10+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 150 150 150 96 96 96 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew precommand 17826_prec ABCDEFGHI learn~
+MobprogNew onload 17826_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 17823
+Name zw³oki maga~
+Odmiana zw³oków maga~zw³ok± maga~zw³oki maga~zw³okami maga~zw³okach maga~
+Short zw³oki maga~
+Descr Wysuszone zw³oki maga le¿± tutaj.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 123
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 17824
+Name cia³o cz³owieka~
+Odmiana cia³a cz³owieka~ciele cz³owieka~cia³o cz³owieka~cia³em cz³owieka~ciele cz³owieka~
+Short cia³o cz³owieka~
+Descr Cia³o cz³owieka le¿y tutaj, ulegajaæ powoli rozk³adowi.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 264
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 17825
+Name cia³o elfa~
+Odmiana cia³a elfa~cia³u elfa~cia³o elfa~cia³em elfa~cia³u elfa~
+Short cia³o elfa~
+Descr Zmasakrowane cia³o elfa, ulega tutaj rozk³adowi.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 194
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 17827
+Name wielkie cia³o ogra~
+Odmiana wielkiego cia³a ogra~wielkiemu cia³u ogra~wielkie cia³o ogra~wielkim cia³em ogra~wielkim cia³u ogra~
+Short wielkie cia³o ogra~
+Descr Wielkie, rozk³adaj±ce siê cia³o ogra le¿y tutaj.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 1995
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 17828
+Name zakrwawione cia³o cz³owieka~
+Odmiana zakrwawionego cia³a~zakrwawionemu cia³u~zakrwawione cia³o~zakrwawionym cia³em~zakrwawionym cia³u~
+Short zakrwawione cia³o~
+Descr Na ziemi widzisz le¿±ce, ca³e we krwi cia³o, chyba nale¿±ce do cz³owieka.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 850
+Cost 0
+Cond 50
+Comments ~
+Objend
+#Vnum 17829
+Name ¶mierdz±ce odchody~
+Odmiana ¶mierdz±cych odchodów~¶mierdz±cym odchod±~¶mierdz±ce odchody~¶mierdz±cymi odchodami~¶mierdz±cych odchodach~
+Short ¶mierdz±ce odchody~
+Descr Przy ¶cianie le¿± wielkie, ¶mierdz±ce odchody, chyba jeszcze ¶wie¿e.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 24
+Cost 0
+Cond 75
+Itemdesc Wielkie ¶mierdz±ce odchody, wygl±daj± na ¶wie¿e. Okropnie pachn±. 
+~
+Comments ~
+Objend
+#Vnum 17833
+Name stary kamienny klucz~
+Odmiana kamiennego klucza~kamiennemu kluczowi~kamienny klucz~kamiennym kluczem~kamiennym kluczu~
+Short kamienny klucz~
+Descr Wielki, kamienny klucz le¿y tutaj.~
+Material kamieñ~
+Type key
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 43
+Cost 0
+Cond 75
+Itemdesc Jest to do¶æ du¿ych rozmiarów kamienny klucz. Chyba otwiera jakie¶ kraty. 
+~
+Comments ~
+Objend
+#Vnum 17834
+Name cia³o wielkiego wojownika~
+Odmiana zw³ok wojownika~zw³okom wojownika~zw³oki wojownika~zw³okami wojownika~zw³okach wojownika~
+Short cia³o wielkiego wojownika~
+Descr Le¿y tutaj cia³o wielkiego wojownika.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|Dd
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Length 0
+Weight 2900
+Cost 0
+Cond 75
+Itemdesc Z trudem dostrzegasz wygl±d tego zmar³ego cz³owieka. Na jego czarnych
+w³osach widaæ ¶lady krwi. Ma wyra¼nie zniekszta³cone czo³o, jakby dosta³ tam
+silne uderzenie, którego nie wytrzyma³. By³ bardzo wysoki, mierzy³ tyle co
+nie jeden wysoki ork. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 17821
+Name Przed jaskini± w górskim lasku~
+Descr Znajdujesz siê gdzie¶ w górach smoczych. Rosn± tutaj wielkie drzewa,
+wydaje ci siê ¿e niektóre osi±gaj± wysoko¶æ piêædziêsiêciu stóp. Dziêki tym
+lasom oddycha siê tutaj lekko, bardzo przyjemne uczucie. Widzisz przed sob±
+jak±¶ dziurê w skale, wygl±da to na jaskiniê... 
+~
+FlagsExt 0
+Sector 35
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 48520
+ExitExtEnd
+Exit 0
+~
+~
+0 0 48520
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 48560
+ExitExtEnd
+Exit 3
+~
+~
+0 0 48560
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Jaskinia~
+ExitExtTextOut $n wchodzi do jaskini.~
+ExitExtTextIn $n z lekko podchylon± g³ow± wchodzi do jaskini.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17822
+ExitExtEnd
+Exit 5
+~
+VName Jaskinia~
+TextOut $n wchodzi do jaskini.~
+TextIn $n z lekko podchylon± g³ow± wchodzi do jaskini.~
+~
+0 0 17822
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17822
+Name W jaskini~
+Descr Znajdujesz siê w jakiej¶ ciemnej jaskini. Na ¶cianie wyryte s± jakim¶
+têpym narzêdziem rysunki, przedstawiaj±ce co¶ w rodzaju trzy metrowego orka,
+chyba jest to ogr. Na zachodzie widzisz wyj¶cie z jaskini. Hmm, chyba to
+miejsce mo¿e byæ dobrym miejscem na odpoczynek. 
+~
+FlagsExt 0|Y
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17823
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17823
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z jaskini.~
+ExitExtTextIn $n mru¿±c oczy wychodzi z jaskini.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17821
+ExitExtEnd
+Exit 4
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z jaskini.~
+TextIn $n mru¿±c oczy wychodzi z jaskini.~
+~
+0 0 17821
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17823
+Name Ciemny korytarz~
+Descr Ciemny korytarz prowadzi ciê przez dalsz± czê¶æ jaskini. Znajduje siê
+tutaj te¿ jakie¶ zej¶cie na dó³, chyba do jakich¶ katakumb. Wydaje ci siê,
+¿e mo¿na znale¼æ tam co¶ ciekawego a nawet cennego. Korytarz prowadzi na
+po³udnie, do wyj¶cia z jaskini. Przy ¶cianie le¿± jakie¶ odchody, hmm, chyba
+nale¿± do jakiego¶ nied¼wiedzia. 
+~
+FlagsExt 0|Y
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17822
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17822
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17824
+ExitExtEnd
+Exit 5
+~
+~
+0 0 17824
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17824
+Name Przy zej¶ciu~
+Descr Starasz siê zej¶æ ostro¿nie po typowo nie równym terenie prowadz±cym w
+dó³. To miejsce to co¶ w rodzaju korytarza, tylko bardzo zaniedbanego. Mimo
+¿e nie jeste¶ najlepszym tropicielem, zauwa¿asz w ziemi dziwne, o
+imponuj±cym rozmiarze, odbite ¶lady czego¶ wielkiego. Hmm, ciekawe kto tutaj
+wchodzi³. A jeszcze bardziej zastanawia ciê to, czy kto¶ tam dalej jest. 
+~
+FlagsExt 0|Y
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17823
+ExitExtEnd
+Exit 4
+~
+~
+0 0 17823
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17825
+ExitExtEnd
+Exit 5
+~
+~
+0 0 17825
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17825
+Name Przy zej¶ciu~
+Descr Schodzisz ostro¿nie po typowo nie równym terenie prowadz±cym w dó³. To
+miejsce to co¶ w rodzaju korytarza, tylko bardzo zaniedbanego. Mimo ¿e nie
+jeste¶ najlepszym tropicielem, zauwa¿asz w ziemi dziwne, o imponuj±cym
+rozmiarze, odbite ¶lady czego¶ wielkiego. Hmm, ciekawe kto tutaj wchodzi³. A
+jeszcze bardziej zastanawia ciê to, czy kto¶ tam dalej jest. 
+~
+FlagsExt 0|CY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17824
+ExitExtEnd
+Exit 4
+~
+~
+0 0 17824
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17826
+ExitExtEnd
+Exit 5
+~
+~
+0 0 17826
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17826
+Name W jaskini~
+Descr Znajdujesz siê w pocz±tku jakiego¶ korytarzu. Jest tutaj brudno i ciemno,
+przy pó³nocnej ¶cianie dostrzegasz jakie¶ schody, prowadz±ce gdzie¶ wysoko.
+¦ciany s± tutaj lekko podniszczone. W korytarzu jest du¿a przestrzeñ, sufit
+znajduje siê dopiero gdzie¶ na oko³o siedmiu stopach wysoko¶ci. Na ziemi
+wylany jest jaki¶ p³yn, masz wra¿enie ¿e to miejsce jest przez kogo¶
+zamieszkane. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17827
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17827
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17825
+ExitExtEnd
+Exit 4
+~
+~
+0 0 17825
+Roomprog random 17821 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17827
+Name Korytarz~
+Descr Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
+jakie¶ wielkie odbite ¶ladym, najprawdopodobniej podziemia te zamieszkane s±
+przez jakie¶ potwory. Sufit jest tutaj bardzo wysoko, prawie na 5 stóp, na
+pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
+jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
+¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
+przeczucia. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17826
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17826
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17895
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17895
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17828
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17828
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17828
+Name Rozwidlenie korytarza~
+Descr Idziesz przez d³ugi, brudny i ciemny korytarz. W ziemi widaæ jakie¶
+wielkie odbite ¶ladym, najprawdopodobniej podziemia te zamieszkane s± przez
+jakie¶ potwory. Sufit jest tutaj bardzo wysoko, prawie na 5 stóp, na pewno
+te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane jest
+co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego ¼ród³a
+¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e przeczucia. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17827
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17827
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17835
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17835
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17829
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17829
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17829
+Name Korytarz~
+Descr Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
+jakie¶ wielkie odbite ¶ladym, najprawdopodobniej podziemia te zamieszkane s±
+przez jakie¶ potwory. Sufit jest tutaj bardzo wysoko, prawie na 5 stóp, na
+pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
+jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
+¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
+przeczucia. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17828
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17828
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17830
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17830
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17830
+Name Zakrêt korytarza~
+Descr Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
+jakie¶ wielkie odbite ¶ladym, najprawdopodobniej podziemia te zamieszkane s±
+przez jakie¶ potwory. Sufit jest tutaj bardzo wysoko, prawie na 5 stóp, na
+pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
+jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
+¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
+przeczucia. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17829
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17829
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17831
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17831
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17831
+Name Korytarz~
+Descr Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wilgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to jest. ¦ciany s±
+podniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest du¿a
+przestrzeñ, a szczególnie w zwy¿, sufit znajduje siê dopiero gdzie¶ ponad
+sze¶æ stóp nad ziemi±. Bez ¿adnego ¼ród³a ¶wiat³a trudno by³o by tu siê
+poruszaæ. S³yszysz jakie¶ ryki, chyba dochodz±ce z tej jaskini... 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17830
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17830
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17832
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17832
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17832
+Name Korytarz~
+Descr Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wilgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to jest. ¦ciany s±
+podniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest du¿a
+przestrzeñ, a szczególnie w zwy¿, sufit znajduje siê dopiero gdzie¶ ponad
+sze¶æ stóp nad ziemi±. Bez ¿adnego ¼ród³a ¶wiat³a trudno by³o by tu siê
+poruszaæ. S³yszysz jakie¶ ryki, chyba dochodz±ce z tej jaskini... 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17831
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17831
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17833
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17833
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17836
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17836
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17833
+Name Korytarz~
+Descr Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
+jakie¶ wielkie odbite ¶ladym, najprawdopodobniej podziemia te zamieszkane s±
+przez jakie¶ potwory. Sufit jest tutaj bardzo wysoko, prawie na 5 stóp, na
+pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
+jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
+¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
+przeczucia. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17834
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17834
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17832
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17832
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17834
+Name Zakrêt korytarza~
+Descr Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wilgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to jest. ¦ciany s±
+podniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest du¿a
+przestrzeñ, a szczególnie w zwy¿, sufit znajduje siê dopiero gdzie¶ ponad
+sze¶æ stóp nad ziemi±. Bez ¿adnego ¼ród³a ¶wiat³a trudno by³o by tu siê
+poruszaæ. S³yszysz jakie¶ ryki, chyba dochodz±ce z tej jaskini... 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17835
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17835
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17833
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17833
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17835
+Name Korytarz~
+Descr Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± g³o¶ne ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemów z
+poruszaniem siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w
+nie m³otem, próbuj±c siê gdzie¶ dokopaæ. Masz dziwne wra¿enie, ¿e w
+korytarzu kto¶ za tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie
+z tych korytarzy. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17828
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17828
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17873
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17873
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17834
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17834
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17836
+Name Korytarz~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17832
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17832
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17853
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17853
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17837
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17837
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17837
+Name Korytarz~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17836
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17836
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17838
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17838
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17838
+Name Rozwidlenie korytarzy~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17840
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17840
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17837
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17837
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17839
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17839
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17839
+Name Ukryty korytarz~
+Descr Korytarz tutaj siê koñczy, biegnie on do zwyk³ej, ceglanej ¶ciany. Jest
+tutaj ciemno, brudno i zimno, najpro¶ciej ujmuj±c: nie przyjemnie. Od ¶cian
+zalatuje moczem, na ziemi chyba le¿± odchody. Korytarz zbudowany jest nie
+zbyt solidnie, a ¶ciany s± podniszczone. Zastanawiasz siê przez chwile, jak
+to siê wszystko nie zawali? Z zachodniej zniszczonej ¶ciany utworzone jest
+przej¶cie do kolejnego korytarza.. 
+~
+FlagsExt 0|C
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17838
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17838
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12118
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12118
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17840
+Name Zakrêt korytarza~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17838
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17838
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17841
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17841
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17841
+Name Korytarz~
+Descr Znajdujesz siê w szerokim i wysokim korytarzu. Jest tutaj naprawde sporo
+miejsca, na upartego mo¿na by tutaj je¼dziæ konno. S³yszysz jak malutkie
+krople wody spadaj± z sufitu, chyba na zewn±trz pada deszcz. Korytarz
+ci±gnie siê jeszcze daleko na zachód, na wschodzie widzisz jego koniec. Na
+¶cianie widzisz ¶lady krwi. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17840
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17840
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17842
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17842
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17842
+Name Skrzy¿owanie~
+Descr Znajdujesz siê w wielkiej jaskiniowej hali, gdzie¶ w zachodnich
+korytarzach. Widzisz cztery wielkie zej¶cia do d³ugich korytarzy. Na ¶rodku
+sali po³o¿ona jest do¶æ du¿a ska³a, a¿ siê przypomina Z³ote Miasto Arras
+tylko zbudowane przez dziesiêciokrotnie g³upsze istoty. Z zamarzniêtych
+ska³ek na suficie kapie powolnym, lecz równym rytmem woda. O dziwo nie ma
+tutaj ¿adnych odchodów, s± tylko zmasakrowane cia³a ogrów i orków. Byæ mo¿e
+odbywaj± siê tu jakie¶ egzekucje miêdzy ogrami. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17843
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17843
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17841
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17841
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17849
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17849
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17845
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17845
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17843
+Name Korytarz~
+Descr Znajdujesz siê w pó³nocnym korytarzu. Sufit jest po³o¿ony bardzo wysoko,
+jak na takie miejsce. Nie daleko na po³udniu widzisz wej¶cie do wielkiej
+hali, w której znajduje siê skrzy¿owanie korytarzy. Na ¶cianach widzisz
+wyd³ubane jakim¶ têpym narzêdziem dziwne rysunki. Korytarz jest o¶wietlony w
+ca³o¶ci przez pochodnie zawieszone co kilka metrów na ¶cianie. Korytarz
+ci±gnie siê dalej, na po³udnie. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17844
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17844
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17842
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17842
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17844
+Name ¦lepy korytarz~
+Descr Sufit w tym miejscu zapada siê co raz ni¿ej, a¿ wkoñcu nie mo¿liwe staje
+siê przej¶cie dalej. Skaliste sople wystaj± z sufitu korytarza. Na ¶cianie
+widzisz ¶lady krwi, odbite s± 2 d³onie, tak, jakby kto¶ prze¿ywa³ tu swe
+ostatnie chwile. Gdzie¶ na po³udniu dostrzegasz jakie¶ ¶wiat³o. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17843
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17843
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17845
+Name Korytarz~
+Descr Znajdujesz siê w szerokim i wysokim korytarzu. Nie daleko na wschodzie
+widzisz wej¶cie do wielkiej hali, w której znajduje siê skrzy¿owanie. Na
+¶cianach wyd³ubane s± jakim¶ têpym narzêdziem dziwne rysunki. Korytarz jest
+o¶wietlany przez pochodnie zawieszone co kilka metrów na ¶cianie. Korytarz
+ci±gnie siê dalej, na zachód. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17842
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17842
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17846
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17846
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17846
+Name Korytarz~
+Descr Idziesz przez du¿y je¶li chodzi o przestrzeñ, korytarz. Skaliste sople
+wystaj± z sufitu korytarza. Na ¶cianie widzisz ¶lady krwi, odbite s± 2
+d³onie, tak, jakby kto¶ prze¿ywa³ tu swe ostatnie chwile. Gdzie¶ na
+wschodzie dostrzegasz ¶wiat³o. Ciemny korytarz ci±gnie siê na zachód. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17845
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17845
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17847
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17847
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17847
+Name Zakrêt korytarza~
+Descr Kontynuujesz droge szerokim, d³ugim i wysokim korytarzem. W kilku
+miejscach na ¶cianie namalowane s± krwi± dziwne rysunki, przedstawiaj±ce
+wielkie bestie. Sufit jest chyba trochê nieszczelny, kapie z niego woda.
+Roozgl±daj±c siê dooko³a zamiast patrzeæ pod nogi, prawie wdep³e¶ w odchody.
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17848
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17848
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17846
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17846
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17848
+Name ¦lepy korytarz~
+Descr Sufit w tym miejscu zapada siê co raz ni¿ej, a¿ wkoñcu nie mo¿liwe staje
+siê przej¶cie dalej. Skaliste sople wystaj± z sufitu korytarza. Na ¶cianie
+widzisz ¶lady krwi, odbite s± 2 d³onie, tak, jakby kto¶ prze¿ywa³ tu swe
+ostatnie chwile. Nie pozostaje ci nic innego jak wróciæ po³udniowym
+korytarzem. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17847
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17847
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17849
+Name Korytarz~
+Descr Znajdujesz siê w po³udniowym korytarzu. Sufit jest po³o¿ony bardzo
+wysoko, jak na takie miejsce. Nie daleko na pó³nocy widzisz wej¶cie do
+wielkiej hali, w której znajduje siê skrzy¿owanie korytarzy. Na ¶cianach
+widzisz wyd³ubane jakim¶ têpym narzêdziem dziwne rysunki. Korytarz jest
+o¶wietlony w ca³o¶ci przez pochodnie zawieszone co kilka metrów na ¶cianie.
+Korytarz ci±gnie siê dalej, na pó³noc. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17842
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17842
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17850
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17850
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17850
+Name Zakrêt korytarza~
+Descr Idziesz przez du¿y je¶li chodzi o przestrzeñ, korytarz. W tym miejscu
+korytarz zakrêca. Skaliste sople wystaj± z sufitu korytarza. Na ¶cianie
+widzisz ¶lady krwi, odbite s± 2 d³onie, tak, jakby kto¶ prze¿ywa³ tu swe
+ostatnie chwile. Gdzie¶ na pó³nocy dostrzegasz jakie¶ ¶wiat³o. Ciemny
+korytarz ci±gnie siê na zachód. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17849
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17849
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17851
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17851
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17851
+Name Zakrêt korytarza~
+Descr Kontynuujesz droge szerokim, d³ugim i wysokim korytarzem. W kilku
+miejscach na ¶cianie namalowane s± krwi± dziwne rysunki, przedstawiaj±ce
+wielkie bestie. Sufit jest chyba trochê nieszczelny, kapie z niego woda.
+Roozgl±daj±c siê dooko³a zamiast patrzeæ pod nogi, prawie wdep³e¶ w odchody.
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17850
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17850
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17852
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17852
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17852
+Name ¦lepy korytarz~
+Descr Sufit w tym miejscu zapada siê co raz ni¿ej, a¿ wkoñcu nie mo¿liwe staje
+siê przej¶cie dalej. Skaliste sople wystaj± z sufitu korytarza. Na ¶cianie
+widzisz ¶lady krwi, odbite s± 2 d³onie, tak, jakby kto¶ prze¿ywa³ tu swe
+ostatnie chwile. Nie pozostaje ci nic innego jak wróciæ pó³nocnym
+korytarzem. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17851
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17851
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17853
+Name Korytarz~
+Descr Idziesz wysokim i szerokim korytarzem. Jest tutaj brudno, wilgotno i
+ciemno. Przy ¶cianie czasami co¶, co przypomina zw³oki. Id±c nie ostro¿nie
+potykasz siê czasami o jakie¶ odchody, chyba czego¶ wielkiego. Masz wra¿enie
+¿e s³yszysz jakie¶ st±panie. Lepiej mieæ oczy i nogi na baczno¶æ. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17836
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17836
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17854
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17854
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17854
+Name Zakrêt korytarza~
+Descr Dochodzisz do jakiego¶ zakrêtu, korytarz biegnie tutaj w innym kierunku.
+Lecz stan wci±¿ siê nie zmienia, masz wra¿enie ¿e zaraz co¶ siê tu zawali.
+Chocia¿ korytarz jest szeroki i wysoki, nie jest zbytnio czym¶ mocnym
+podtrzymywany. S³yszysz jakie¶ g³o¶ne ryki, dochodz±ce gdzie¶ z innego
+korytarzu. Nie jeste¶ tutaj sam. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17853
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17853
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17855
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17855
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17855
+Name Korytarz~
+Descr Idziesz szerokim korytarzem st±paj±c po czym¶ wilgotnym. Na ¶cianach
+wyryte s± têp± broni± jakie¶ rysunki, przestawiaj±ce wielkie w³ochate
+bestie. Wydaje ci siê, ¿e s³yszysz jakie¶ st±panie, gdzie¶ niedaleko. Chyba
+nie jest to najbezpieczniejsze miejscie. Nie bardzo wiadomo te¿, gdzie
+szukaæ tutaj wyj¶cia. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17856
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17856
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17854
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17854
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17856
+Name Rozwidlenie~
+Descr Id±c korytarzem nagle spostrzegasz jak±¶ dziure w ¶cianie. Jest to chyba
+kolejny korytarz prowadz±cy gdzie¶ na po³udnie. Widaæ, ¿e zosta³ on
+wybodowany nie dawno. Nad tym korytarzem widnieje jaki¶ dziwny napis w
+jakich¶ nieznanych nikomu literach. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17867
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17867
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17857
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17857
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17855
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17855
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17857
+Name Korytarz~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, st±pasz po jakim¶ dziwnym p³ynie. Jest tutaj brudno i ciemno.
+Korytarz ten chyba nie zosta³ wybudowany do koñca, jest troche w±ski. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17856
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17856
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17858
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17858
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17858
+Name Korytarz~
+Descr Korytarz którym pod±¿asz znajduje siê w bardzo kiepskim stanie. ¦ciany s±
+podniszczony, jak by walono w nie m³otem. Jest tutaj bardzo brudno i ciemno.
+Korytarz ten chyba nie zosta³ jeszcze wybudowany do koñca, jest trochê
+niski. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17857
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17857
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17859
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17859
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17859
+Name Rozwidlenie korytarzy~
+Descr Docierasz do jakiego¶ kolejnego rozwidlenia. O dziwo s± tutaj jakie¶
+lepsze warunki ni¿ w poprzednich korytarzach. Wydrapany têpym narzêdziem
+rysunek na ¶cianie przedstawia wielkiego ³ysego ogra, który chyba poluje na
+zwierzyne. Czasami s³yszysz jakie¶ walenie w ¶ciane lub st±panie kogo¶, a¿
+przechodz± ci dreszcze. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17858
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17858
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17861
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17861
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17860
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17860
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17860
+Name ¦lepy korytarz~
+Descr Korytarz tutaj staje siê cora¿ ni¿szy i w±¿szy, a¿ wkoñcu koñczy siê.
+Widzisz te¿ tutaj wielk± dziurê, od której czujesz bardzo nie przyjemny
+zapach. Po chwili przebywania tutaj, zbiera ciê na wymioty. Dziura ta jest
+tak wielka, ¿e móg³by¶ do niej wej¶æ, co chyba skoñczy³o by siê ¼le.
+Korytarz prowadzi na wschód. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17859
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17859
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17861
+Name Korytarz~
+Descr Idziesz szerokim i wysokim korytarzem. Twoj± wêdrówkê uprzyjemniaj±
+wyryte têpym narzêdziem rysunki na ¶cianie, przynajmniej jest na co
+popatrzeæ. Czujesz zapach czego¶ zgnitego, chyba miêsa. Masz dziwne
+wra¿enie, ¿e kto¶ pod±¿a w twoj± stronê zna przeciwka. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17862
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17862
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17859
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17859
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17862
+Name Zakrêt korytarza~
+Descr Id±c monotonnie przez korytarz nagle prawie dobijasz czubkiem nosa do
+¶ciany. Jest tu tak ciemno, ¿e prawie nie zauwa¿y³e¶, ¿e korytarz zakrêci³ z
+zachodu na po³udnie. Na pó³nocnej ¶cianie wyryta jest wielka bestia, która
+stoi na czele hordy ogrów. Ten korytarz nie jest chyba taki stary. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17863
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17863
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17861
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17861
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17863
+Name W szerokim korytarzu~
+Descr Znajdujesz siê w do¶æ dziwnym korytarzu podziemnym. Jest tutaj naprawdê
+sporo miejsca. Na po³udniu znajduj± siê jakie¶ wielkie wrota, ciekawe co za
+nimi siê znajduje. Widzisz jaki¶ nied³ugi korytarz prowadz±cy na wschód. 
+~
+Nightdescr Znajdujesz siê w do¶æ dziwnym korytarzu podziemnym. Jest tutaj naprawdê
+sporo miejsca. Na po³udniu znajduj± siê jakie¶ wielkie wrota, ciekawe co za
+nimi siê znajduje. Widzisz jaki¶ nied³ugi korytarz prowadz±cy na wschód. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17862
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17862
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17864
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17864
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 17833
+ExitExtToVnum 17865
+ExitExtEnd
+Exit 2
+~
+~
+7 17833 17865
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17864
+Name Siedziba wodza~
+Descr Id±c korytarzem docierasz wreszcie do wielkiej komnaty s³u¿±cej która
+jest jednocze¶nie legowiskiem. Jest tutaj do¶æ sporo miejsca, zmie¶ci³ by
+siê tu nawet smok. Jest tutaj postawiony wielki le¿ak, a raczej pos³anie, od
+którego czuæ niezbyt przyjemny zapach. Wydaje ci siê, ¿e to miejsce mo¿e byæ
+niebezpiecznym jak tylko kto¶ kto zamieszkuje t± komnate wróci tutaj.
+Widzisz dooko³a pe³no martwych cia³, ciekawe przez kogo zostali zabici ci
+ludzie? Nie masz zamiaru równie¿ tutaj le¿eæ. Korytarz powrotny znajduje siê
+na zachodzie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17863
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17863
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17865
+Name Lochy~
+Descr Znajdujesz siê w jakich¶ bardzo starych lochach. Wszêdzie dooko³a rozlega
+siê od trupów i robactwa. Panuje tutaj zapach, który mo¿e zwaliæ z nóg.
+Lochy ci±gn± siê gdzie¶ na zachód. Trzeba i¶æ ostro¿nie, ¿eby nie nadziaæ
+siê przy potkniêciu na jak±¶ star±, z³aman± w³óczniê. 
+~
+FlagsExt 0|C
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 0
+ExitExtToVnum 17863
+ExitExtEnd
+Exit 0
+~
+~
+7 0 17863
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17866
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17866
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17866
+Name Lochy~
+Descr Dooko³a widaæ pe³no zmasakrowanych zw³oków jak i liczne ko¶ci szkieletów.
+S± to cia³a tych którzy zostali tutaj wygnani, zkazani na ¶mieræ z jakiego¶
+powodu. Zapach tutejszych cia³ zwala z nóg. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17865
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17865
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17867
+Name Korytarz~
+Descr Idziesz wysokim i szerokim korytarzem. Jest tutaj brudno, wilgotno i
+ciemno. Przy ¶cianie czasami co¶, co przypomina zw³oki. Id±c nie ostro¿nie
+potykasz siê czasami o jakie¶ odchody, chyba czego¶ wielkiego. Masz wra¿enie
+¿e s³yszysz jakie¶ st±panie. Lepiej mieæ oczy i nogi na baczno¶æ. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17868
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17868
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17856
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17856
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17868
+Name Zakrêt korytarza~
+Descr Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± g³o¶ne ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemów z
+poruszaniem siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w
+nie m³otem, próbuj±c siê gdzie¶ dokopaæ. Masz dziwne wra¿enie, ¿e w
+korytarzu kto¶ za tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie
+z tych korytarzy. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17869
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17869
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17867
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17867
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17869
+Name Korytarz~
+Descr Idziesz wysokim i szerokim korytarzem. Jest tutaj brudno, wilgotno i
+ciemno. Przy ¶cianie czasami co¶, co przypomina zw³oki. Id±c nie ostro¿nie
+potykasz siê czasami o jakie¶ odchody, chyba czego¶ wielkiego. Masz wra¿enie
+¿e s³yszysz jakie¶ st±panie. Lepiej mieæ oczy i nogi na baczno¶æ. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17870
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17870
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17868
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17868
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17870
+Name Rozwidlenie korytarza~
+Descr Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± g³o¶ne ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemów z
+poruszaniem siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w
+nie m³otem, próbuj±c siê gdzie¶ dokopaæ. Masz dziwne wra¿enie, ¿e w
+korytarzu kto¶ za tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie
+z tych korytarzy. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17871
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17871
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17893
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17893
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17869
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17869
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17871
+Name Korytarz~
+Descr Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± g³o¶ne ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemów z
+poruszaniem siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w
+nie m³otem, próbuj±c siê gdzie¶ dokopaæ. Masz dziwne wra¿enie, ¿e w
+korytarzu kto¶ za tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie
+z tych korytarzy. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17872
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17872
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17870
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17870
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17872
+Name Rozwidlenie~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17874
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17874
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17871
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17871
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17873
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17873
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17873
+Name Korytarz~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17872
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17872
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17835
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17835
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17874
+Name Korytarz~
+Descr Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± g³o¶ne ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemów z
+poruszaniem siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w
+nie m³otem, próbuj±c siê gdzie¶ dokopaæ. Masz dziwne wra¿enie, ¿e w
+korytarzu kto¶ za tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie
+z tych korytarzy. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17875
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17875
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17872
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17872
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17875
+Name Rozwidlenie korytarza~
+Descr Korytarz którym pod±¿asz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie.. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17876
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17876
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17894
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17894
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17874
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17874
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17876
+Name Zakrêt korytarza~
+Descr Korytarz tutaj chyba siê koñczy. We wschodniej ¶cianie zosta³ zbudowany
+jaki¶ du¿y tunel prowadz±cy gdzie¶, chyba daleko. To miejsce jest ogólnie w
+podniszczonym stanie. ¦ciany sa pod³upane, nie wiadomo za bardzo w jakim
+celu. Nie bardzo wiesz jak te korytarze siê jeszcze nie zawali³y. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17877
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17877
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17875
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17875
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17877
+Name Zakrêt tunelu~
+Descr Tunel którym pod±¿asz znajduje siê w bardzo kiepskim stanie. ¦ciany s±
+podniszczone, a na ziemi wylany jest jaki¶ klej±cy p³yn, prawdopodobnie
+mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i ciemno. Be¿
+¿adnego ¼ród³a ¶wiat³a nie wiele by¶ tu zobaczy³. Z sufitu kapi± kropelki
+wody, chyba na zewn±trz pada deszcz. Wydaje ci siê, ¿e s³yszysz czyje¶
+st±panie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17878
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17878
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17876
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17876
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17878
+Name Kolejny zakrêt w tunelu~
+Descr Tunel znowu zakrêca, i biegnie w innym kierunku. ¦ciany s± tutaj
+podniszczone, a na ziemi wylany jest jaki¶ klej±cy p³yn, prawdopodobnie
+mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i ciemno. Be¿
+¿adnego ¼ród³a ¶wiat³a nie wiele by¶ tu zobaczy³. Z sufitu kapi± kropelki
+wody, chyba na zewn±trz pada deszcz. Wydaje ci siê, ¿e s³yszysz czyje¶
+st±panie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17879
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17879
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17877
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17877
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17879
+Name Tunel~
+Descr Tunel którym pod±¿asz znajduje siê w bardzo kiepskim stanie. ¦ciany s±
+podniszczone, a na ziemi wylany jest jaki¶ klej±cy p³yn, prawdopodobnie
+mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i ciemno. Be¿
+¿adnego ¼ród³a ¶wiat³a nie wiele by¶ tu zobaczy³. Z sufitu kapi± kropelki
+wody, chyba na zewn±trz pada deszcz. Wydaje ci siê, ¿e s³yszysz czyje¶
+st±panie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17880
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17880
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17878
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17878
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17880
+Name Zakrêt tunelu~
+Descr Tunel znowu zakrêca, i biegnie w innym kierunku. ¦ciany s± tutaj
+podniszczone, a na ziemi wylany jest jaki¶ klej±cy p³yn, prawdopodobnie
+mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i ciemno. Be¿
+¿adnego ¼ród³a ¶wiat³a nie wiele by¶ tu zobaczy³. Z sufitu kapi± kropelki
+wody, chyba na zewn±trz pada deszcz. Wydaje ci siê, ¿e s³yszysz czyje¶
+st±panie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17881
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17881
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17879
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17879
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17881
+Name Korytarz~
+Descr Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wilgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to mo¿e byæ. ¦ciany s±
+tutaj zniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest
+do¶æ du¿a przestrzeñ, a szczególnie w zwy¿, sufit znajduje siê dopiero
+gdzie¶ ponad 6 stóp nad ziemi±. Be¿ ¿adnego ¼ród³a ¶wiat³a trudno by³o by
+siê poruszaæ, na szczê¶cie ty nie masz tego problemu. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17880
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17880
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17882
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17882
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17882
+Name Korytarz~
+Descr Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wilgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to mo¿e byæ. ¦ciany s±
+tutaj zniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest
+do¶æ du¿a przestrzeñ, a szczególnie w zwy¿, sufit znajduje siê dopiero
+gdzie¶ ponad 6 stóp nad ziemi±. Be¿ ¿adnego ¼ród³a ¶wiat³a trudno by³o by
+siê poruszaæ, na szczê¶cie ty nie masz tego problemu. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17881
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17881
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17883
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17883
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17883
+Name Korytarz~
+Descr Idziesz ciemnym korytarzem. Znajduje siê on w bardzo op³akanym stanie,
+masz wra¿enie ¿e zaraz siê zawali. Jest szeroki i wysoki, ale chyba nie ma
+nigdzie ukrytych dodatkowych kolumn do podtrzymywania. Chyba istnia³o kiedy¶
+tutaj przej¶cie korytarzem na wschód, ale jest on zawalony. Na ziemi le¿±
+malutkie kamyczki, obawiasz siê, ¿e znów mo¿e tutaj co¶ legn±æ w gruzach. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17882
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17882
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17885
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17885
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17884
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17884
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17884
+Name ¦lepy korytarz~
+Descr Dalej tym korytarzem nie pójdziesz, zapada siê cora¿ ni¿ej a¿ wkoñcu nie
+da siê dalej przej¶æ. W rogu chyba le¿± jakie¶ zmia¿dzone zw³oki, chyba kto¶
+ucieka³ tym korytarzem. Na ziemi widaæ jakie¶ ¶lady krwi. Nie jest to
+najlepsze miejsce na odpoczynek, chyba lepiej zawróciæ. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17883
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17883
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17885
+Name Korytarz~
+Descr Znajdujesz siê w szerokim i wysokim korytarzu. Jest tutaj sporo miejsca,
+mo¿na by tu je¼dziæ konno, chocia¿ bez jakich¶ specjalnych sztuczek. Z
+sufitu kapi± kropelki wody, na zewn±trz chyba pada deszcz. Korytarz ci±gnie
+siê jeszcze daleko na pó³noc, oraz po³udnie, choæ tam widaæ chyba jego
+koniec, lub zakrêt. Masz wra¿enie i¿ miejsce to jest przez kogo¶
+zamieszkalne, a ¶wiadcz± o tym chocia¿by odchody które napotykasz, chyba
+¶wie¿e. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17883
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17883
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17886
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17886
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17886
+Name Korytarz~
+Descr Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wilgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to mo¿e byæ. ¦ciany s±
+tutaj zniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest
+do¶æ du¿a przestrzeñ, a szczególnie w zwy¿, sufit znajduje siê dopiero
+gdzie¶ ponad 6 stóp nad ziemi±. Be¿ ¿adnego ¼ród³a ¶wiat³a trudno by³o by
+siê poruszaæ, na szczê¶cie ty nie masz tego problemu. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17885
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17885
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17887
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17887
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17887
+Name Zakrêt korytarza~
+Descr Korytarz tutaj zakrêca. Znajduje siê on w bardzo op³akanym stanie, masz
+wra¿enie ¿e zaraz siê zawali. Jest szeroki i wysoki, ale chyba nie ma
+nigdzie ukrytych dodatkowych kolumn do podtrzymywania. Chyba istnia³o kiedy¶
+tutaj przej¶cie korytarzem na wschód, ale jest on zawalony. Na ziemi le¿±
+malutkie kamyczki, obawiasz siê, ¿e znów mo¿e tutaj co¶ legn±æ w gruzach. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17886
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17886
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17888
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17888
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17888
+Name Korytarz~
+Descr Kontynuujesz wêdrówke pod±¿aj±c kolejnym, ¿mudnym korytarzem. S³yszysz
+jak lekkie kropelki wody spadaj± do utworzonych ju¿, nie wielkich ka³u¿.
+Jest tutaj do¶æ sporo miejsca, chyba da³o by siê tu je¼dziæ konno, chocia¿ w
+niektórych miejscach korytarz zwê¿a siê. Wydaje ci siê, ¿e s³yszysz jakie¶
+st±panie. W ziemi w jednym z odchodów wydeptany jest bardzo wielki ¶lad,
+chyba kto¶ tutaj chodzi nie ostro¿nie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17887
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17887
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17889
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17889
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17889
+Name Zakrêt korytarza~
+Descr Korytarz tutaj ponownie zakrêca, i biegnie gdzie¶ w dal. Nie wielkie
+krople wody równym, lecz powolnym tempem spadaj± z wysoko po³o¿onego sufitu.
+Na ¶cianie odbite s± wielkie ¶lady krwi, jakby kto¶ desperacko drapa³ w
+¶ciane czekaj±c na ¶mieræ. Obserwuj±c te ¶lady prawie wdep³e¶ jakie¶
+wielkie, chyba zwierzêce odchody. Nie bardzo wiesz jak mo¿na wyj¶æ na
+zewn±trz. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17890
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17890
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17888
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17888
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17890
+Name Korytarz~
+Descr Kontynuujesz wêdrówke pod±¿aj±c kolejnym, ¿mudnym korytarzem. S³yszysz
+jak lekkie kropelki wody spadaj± do utworzonych ju¿, nie wielkich ka³u¿.
+Jest tutaj do¶æ sporo miejsca, chyba da³o by siê tu je¼dziæ konno, chocia¿ w
+niektórych miejscach korytarz zwê¿a siê. Wydaje ci siê, ¿e s³yszysz jakie¶
+st±panie. W ziemi w jednym z odchodów wydeptany jest bardzo wielki ¶lad,
+chyba kto¶ tutaj chodzi nie ostro¿nie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17891
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17891
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17889
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17889
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17891
+Name Zakrêt korytarza~
+Descr Podejmujesz drogê w kolejnym korytarzu. Masz wra¿enie, ¿e kto¶ równie¿
+podejmujê drogê za tob±. Wydaje ci siê, ¿e s³yszysz echo st±pania kogo¶
+innego. W ¶cianie w rogu le¿± odchody czego¶ wielkiego, bardzo ciê to nie
+pokoi. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17890
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17890
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17892
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17892
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17892
+Name Rozwidlenie korytarza~
+Descr Znajdujesz siê w kolejnym rozwidleniu korytarzy. W³osy prawie staj± ci
+dêba gdy dochodzi do ciebie g³o¶ny ryk, nie wiadomo kogo. Sufit jest tutaj
+do¶æ wysoko, nawet troll lub inna bestia o wielkich rozmiarach nie mia³a by
+problemów z poruszaniem siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶
+uderza³ w nie m³otem, próbuj±c siê dalej dokopaæ. W tych korytarzach bardzo
+³atwo mo¿na siê zgubiæ. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17894
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17894
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17891
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17891
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17893
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17893
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17893
+Name Korytarz~
+Descr Podejmujesz drogê w kolejnym korytarzu. Masz wra¿enie ¿e kto¶ równie¿
+pod±¿a za tob±. Dochodzi do ciebie echo st±pania kogo¶ innego, trudno siê
+tutaj ukryæ. Najprawdopodobniej w jaskiniach tych ¿yje lub ¿y³ kto¶ jeszcze.
+S±dz±c tak mo¿na np. Po odchodach w które prawie wdep³e¶, to nie s± twoje
+odchody... S± bardzo du¿e, i chyba jeszcze "¶wie¿e". 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17892
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17892
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17870
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17870
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17894
+Name Korytarz~
+Descr Podejmujesz droge w kolejnym korytarzu. Masz wra¿enie ¿e kto¶ równie¿
+pod±¿a za tob±. Dochodzi do ciebie echo st±pania kogo¶ innego, trudno siê
+tutaj ukryæ. Najprawdopodobniej w jaskiniach tych ¿yje lub ¿y³ kto¶ jeszcze.
+S±dz±c tak mo¿na np. Po odchodach w które prawie wdep³e¶, to nie s± twoje
+odchody... S± bardzo du¿e, i chyba jeszcze "¶wie¿e". 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17875
+ExitExtEnd
+Exit 0
+~
+~
+0 0 17875
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17892
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17892
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 17895
+Name ¦lepy korytarz~
+Descr Id±c przez d³ugi korytarz wreszcie dochodzisz do jego koñca. Nie ma tutaj
+¿adnego wyj¶cia, oprócz tego którym przyszed³e¶. Przy ¶cianie le¿± chyba
+jakie¶ odchody, kto¶ tutaj ju¿ by³. Mocno tutaj cuchnie. Masz wra¿enie ¿e
+kto¶ by³ tutaj nie dawno. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17827
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17827
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 17829 0 17823
+M 100 17822 20 17826 1
+M 100 17821 45 17826 2
+O 100 17824 0 17826
+O 100 17828 0 17826
+M 100 17821 45 17827 2
+M 100 17822 20 17828 1
+O 100 17828 0 17828
+M 100 17822 20 17830 1
+O 100 17828 0 17830
+M 100 17822 20 17831 1
+M 100 17821 45 17831 2
+O 100 17828 0 17832
+O 100 17829 0 17833
+M 100 17821 45 17833 2
+O 100 17829 0 17835
+M 100 17821 45 17835 2
+O 100 17829 0 17836
+M 100 17821 45 17837 2
+M 100 17822 20 17838 1
+M 100 17823 5 17839 1
+O 100 3369 0 17841
+M 100 17822 20 17842 2
+M 100 17821 45 17842 4
+O 100 17827 0 17842
+M 100 17823 5 17844 1
+O 100 17828 0 17844
+M 100 17822 20 17845 2
+M 100 17821 45 17845 2
+O 100 3369 0 17846
+O 100 17829 0 17847
+M 100 17823 5 17849 1
+O 100 17829 0 17851
+M 100 17821 45 17853 2
+M 100 17821 45 17854 2
+O 100 17824 0 17854
+M 100 17822 20 17855 2
+O 100 17829 0 17855
+O 100 3369 0 17856
+M 100 17821 45 17856 2
+O 100 17829 0 17857
+M 100 17822 20 17858 2
+M 100 17821 45 17858 3
+M 100 17823 5 17859 1
+M 100 17822 20 17859 2
+O 100 3369 0 17859
+O 100 17829 0 17860
+O 100 17829 0 17860
+M 100 17821 45 17862 3
+O 100 3369 0 17864
+O 100 17823 0 17864
+O 100 3369 0 17864
+M 100 17824 1 17864 1
+G 100 17833 0
+E 100 3356 0 16
+M 100 17826 1 17865 1
+O 100 3369 0 17865
+O 100 17825 0 17865
+O 100 17824 0 17865
+O 100 3369 0 17865
+O 100 3369 0 17865
+O 100 17823 0 17865
+M 100 17825 1 17866 1
+E 100 3128 0 16
+O 100 17827 0 17866
+O 100 17827 0 17866
+O 100 3369 0 17866
+O 100 3369 0 17866
+O 100 3369 0 17866
+O 100 3369 0 17866
+O 100 17824 0 17866
+O 100 17825 0 17866
+O 100 17827 0 17866
+O 100 17825 0 17867
+M 100 17821 45 17868 3
+M 100 17822 20 17869 2
+O 100 3369 0 17869
+O 100 17829 0 17869
+M 100 17821 45 17870 3
+M 100 17822 20 17872 2
+M 100 17821 45 17872 1
+O 100 17829 0 17872
+M 100 17821 45 17874 1
+O 100 17825 0 17874
+O 100 3369 0 17876
+M 100 17821 45 17877 2
+O 100 17828 0 17878
+M 100 17822 20 17879 2
+M 100 17821 45 17879 3
+M 100 17821 45 17881 3
+O 100 17828 0 17881
+M 100 17823 5 17882 1
+M 100 17822 20 17882 2
+O 100 3369 0 17882
+M 100 17821 45 17883 3
+O 100 17828 0 17884
+O 100 3369 0 17884
+M 100 17821 45 17885 3
+O 100 17829 0 17885
+O 100 3369 0 17886
+O 100 17823 0 17886
+M 100 17823 5 17887 1
+M 100 17822 20 17887 2
+M 100 17821 45 17887 2
+M 100 17821 45 17888 2
+O 100 3369 0 17888
+O 100 17829 0 17888
+M 100 17822 20 17890 2
+M 100 17821 45 17890 2
+O 100 3369 0 17890
+M 100 17823 5 17891 1
+O 100 17829 0 17891
+M 100 17822 20 17892 2
+M 100 17821 45 17892 3
+O 100 17828 0 17892
+O 100 17829 0 17893
+O 100 17828 0 17895
+S
+
+
+
+#MOBPROGSNEW
+#17821
+~
+mob echo Ogr wydaje z siebie wielki ryyk, tracisz na chwile s³uch. Ogr nie maj±c ju¿ si³y walczyæ pada na ziemiê, chyba ju¿ nie ¿yje.
+mob oload gem 6
+mob oload gem 6
+mob oload gem 6
+~
+#17822
+~
+mob oload weapon 5
+mob oload body 5
+~
+#17823
+~
+mob echo Duch znika, po chwili dostrzegasz w¶ród trupów jego dawne cia³o z tego ¶wiata.
+mob oload weapon 7
+mob oload body 7
+~
+#17824
+~
+mob equip self 3017
+mob equip self 3356
+~
+#17825
+~
+mob equip self 3017
+~
+#17826_onload
+~
+mob equip self 3158
+mob equip self 3158 hold
+mob equip self 3035
+~
+#17826_prec
+~
+if race $n elf
+or race $n polelf
+or race $n niziolek
+or race $n gnom
+mob echoat $n Zakapturzony barbarzyñca pokazuje ci palcem aby¶ podszed³ bli¿ej.
+mob echoaround $n Zakapturzony barbarzyñca okazuje $x aby podszed³ do niego.
+minidelay 2
+mob echoat $n Gdy jeste¶ ju¿ wystarczaj±co blisko zakapturzony barbarzyñca napluwa ci w twarz.
+mob echoaround $n Gdy $n jest ju¿ wystarczaj±co blisko zakapturzony barbarzyñca napluwa mu w twarz.
+else
+mob command
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#17821
+~
+mob zecho S³yszysz g³o¶ny ryk dochodz±cy z korytarza obok.
+~
+#17822
+~
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 17825
+DescRand Idziesz bardzo d³ugim, brudnym i ciemnym korytarzu. Ca³y czas st±pasz po
+czym¶ wilgotnym, bardzo cuchn±cym. Jest to jaki¶ p³yn, ale nie masz zamiaru
+przekonywaæ siê co to dok³adnie jest. Korytarz jest bardzo szeroki i wysoki,
+nie bardzo wiadomo dok±d prowadzi. Wydaje ci siê ¿e za tob± czai siê wielki
+potwór, to miejsce ciê przera¿a. 
+~
+RandDescEnd
+#Vnum 17824
+DescRand Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± jakie¶ ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemy z poruszaniem
+siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w nie m³otem,
+próbuj±c dokopaæ siê dalej. Masz dziwne wra¿enie, ¿e w korytarzu kto¶ za
+tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie z tych korytarzy. 
+~
+RandDescEnd
+#Vnum 17823
+DescRand Korytarz którym idziesz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie... 
+~
+RandDescEnd
+#Vnum 17822
+DescRand Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wylgotnym i
+¶mierdz±cym, nawet nie chcesz siê zastanawiaæ co to jest. ¦ciany s±
+podniszczone, jakby kto¶ ³upa³ je kowalskim m³otem. W korytarzu jest do¶æ
+du¿a przestrzeñ, a szczegó³nie w zwy¿, sufit znajduje siê dopiero gdzie¶
+ponad 6 stóp nad ziemi±. Be¿ ¿adnego ¼ród³a ¶wiata trudno by³o by tu siê
+poruszaæ. S³yszysz jakie¶ ryki, obawiasz siê ¿e dochodz± one z tej
+jaskini... 
+~
+RandDescEnd
+#Vnum 17821
+DescRand Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
+jakie¶ wielkie odbite ¶lady, najprawdopodobniej podziemia te zamieszkane s±
+przez jakie¶ potwory. Sufit jest tutaj bardzo wysoki, prawie na 5 stóp, na
+pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
+jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
+¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
+przeczucia. 
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

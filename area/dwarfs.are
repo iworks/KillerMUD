@@ -1,0 +1,8988 @@
+#AREADATA
+Name +# Krasnoludzka Forteca~
+Builders Razor Forteca  City~
+VNUMs 31 131
+Credits Razor, pl: Gurthg 
+~
+Locked ~
+Security 9
+ResetAge 25
+Region 31
+End
+
+
+
+#MOBILES
+#Vnum 31
+Name stra¿nik krasnolud gwardzista wartownik~
+Odmiana krasnoludzkiego wartownika~krasnoludzkiemu wartownikowi~krasnoludzkiego wartownika~krasnoludzkim wartownikiem~krasnoludzkim wartowniku~
+Short krasnoludzki wartownik~
+Long Ponury, umiê¶niony krasnoludzki wartownik patroluje miejskie ulice.~
+Descr Typowy krasnolud: d³uga broda, krepy, z brzuszkiem. Nie wygl±da na
+czy¶ciocha, pocieszaj±ce jest jednak to, ¿e nie czuæ od niego piwa ani co
+gorsza krasnoludzkiej gorza³ki. Jednak z jego oblicza bije jaki¶ marazm czy
+nuda. Zapewne stra¿niczy ¿ywot daleki jest o idea³u. Mimo to wartownik
+bacznie obserwuje ulice i jest gotów w ka¿dej chwili interweniowaæ w obronie
+prawa i sprawiedliwo¶ci, których nidy nie za ma³o. Szczególnie w militarnych
+o¶rodkach takich jak Forteca Krasnoludzka. S³owem: oby tylko tacy stra¿nicy
+byli na ¶wiecie, a nie by³oby tak znowu najgorzej! 
+~
+Race krasnolud~
+ActExt 0|AEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 31
+Lang AC
+Speaks 2
+Level 16
+Hitroll 4
+HP 81d2+320
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 132 78 78 78 78 78 78
+Off CIKVb
+OffExt 0|CIKVb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 16
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Comments dam zmieniony z 3d4+5 na 2d5. Balansowanie walki wrecz mobow. - {RDrake{x ({CSun Aug  1 13:03:04 2004{x)
+~
+MobprogNew grall 129 ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 100~
+MobprogNew onload 46 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 50
+Mobend
+#Vnum 32
+Name Joerg~
+Odmiana Joerga~Joergowi~Joerga~Joergiem~Joergu~
+Short Joerg~
+Long Joerg stoi tutaj zachwalaj±c swoje pancerze.~
+Descr Krótko ostrzy¿ony, do¶æ niski krasnolud. Uwagê przykuwa jego broda,
+d³uga, zapleciona w warkoczyki. ¦wiadczy to o jego wysokiej randze w¶ród
+krasnoludów. Nosi na sobie krotka, rozpinana, skórzana kamizelkê, dziêki
+czemu mo¿esz podziwiaæ jego wspania³± muskulaturê. Na ca³ym ciele ma ¶lady
+po oparzeniach. 
+~
+Race krasnolud~
+ActExt 0|ABGV
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang ACV
+Speaks 19
+Level 20
+Hitroll 0
+HP 10d10+200
+Damage 3d10+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 6 6 6 6
+Stats 114 84 108 90 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 180000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 38 ABCDEFGHI 100~
+MobprogNew random 37 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33
+Name grazil kowal krasnolud~
+Odmiana Grazila~Grazilowi~Grazila~Grazilem~Grazilu~
+Short Grazil~
+Long Grazil stoi tutaj, poleruj±c ostrze topora.~
+Descr Wysoki, dobrze zbudowany krasnolud. Jak na mistrza w swoim fachu,
+wygl±da zdumiewaj±co m³odo, oczywi¶cie w kategoriach krasnoludzkich. Potê¿ne
+d³onie z ³atwo¶ci± pos³uguj± siê kowalskimi narzêdziami.
+~
+Race krasnolud~
+ActExt 0|ABC
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d30+1000
+Damage 4d10+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack none
+XAC 7 7 7 8
+Stats 102 96 96 102 114 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 336000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 37 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 34
+Name stra¿nik wartownik gwardzista krasnolud~
+Odmiana krasnoludzkiego gwardzisty~krasnoludzkiemy gwardzi¶cie~krasnoludzkiego gwardziste~krasnoludzkim gwardzist±~krasnoludzkim gwardzi¶cie~
+Short krasnoludzki gwardzista~
+Long Krasnoludzki gwardzista patroluje ulica, stukaj±c w bruk podkutymi buciorami.~
+Descr S³u¿ba wartownicza to ciê¿ki kawa³ek chleba, a do pilnowania ulic
+wielkiej cytadeli jak± jest Forteca Krasnoludzka zatrudnia siê naprawdê
+tylko najlepszych. Krasnolud ten z pewno¶ci± niejedno ju¿ prze¿y³ i niejedno
+widzia³, wiec nie my¶l nawet o robieniu w jego obecno¶ci czegokolwiek
+niezgodnego z prawem. Pomimo niewielkiego wzrostu wygl±da na naprawde
+silnego i bieg³ego we w³adaniu swoj± broni±. Zreszt± jest on niebezpieczny
+tylko dla przestêpców, bowiem prawych obywateli nie tylko zostawia w
+spokoju, ale tak¿e s³u¿y im pomoc±. 
+~
+Race krasnolud~
+ActExt 0|AEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 31
+Lang AC
+Speaks 0
+Level 16
+Hitroll 3
+HP 81d2+320
+Damage 3d3+0
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 1 1 1 1
+Stats 132 78 78 78 78 78 78
+Off CEIVb
+OffExt 0|CEIVb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 16
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Comments Dam zmieniony z 3d3 + 8 na 3d3. Balansowanie walki wrecz mobow. Damweapon zmieniony z 8 na 4, Elitarny ma 8. - {RDrake{x ({CSun Aug  1 13:04:48 2004{x)
+~
+MobprogNew death 130 ABCDEFGHI 100~
+MobprogNew grall 32 ABCDEFGHI 100~
+MobprogNew onload 46 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 35
+Name ogrodnik Giraz krasnolud~
+Odmiana Giraza ogrodnika~Girazowi ogrodnikowi~Giraza ogrodnika~Girazem ogrodnikiem~Girazie ogrodniku~
+Short Giraz ogrodnik~
+Long Giraz stoi tu pielêgnuj±c swoje ro¶linki.~
+Descr Sêdziwy krasnolud, jeden z najstarszych jakiego kiedykolwiek dane ci by³o
+widzieæ. Jego d³uga, siwa broda siêga niemal za kolana. ¦wiadczy to o jego
+niezwykle wysokiej randze w¶ród tutejszej spo³eczno¶ci. Za pasem nosi
+d³ugie, stalowe no¿yce, jego znak rozpoznawczy odk±d po¶wiêci³ siê tworz±c
+ten park. 
+~
+Race krasnolud~
+ActExt 0|AG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 7
+Hitroll 0
+HP 4d5+140
+Damage 2d6+0
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 7 7 7 7
+Stats 96 108 102 120 120 78 78
+Off EKR
+OffExt 0|EKR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 7
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 109 ABCDEFGHI 100~
+MobprogNew random 35 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 36
+Name dzieciak krasnolud dziecko~
+Odmiana krasnoludzkiego dziecka~krasnoludzkiemu dziecku~krasnoludzkie dziecko~krasnoludzkim dzieckiem~krasnoludzkim dziecku~
+Short krasnoludzkie dziecko~
+Long Krasnoludzkie dziecko psoci tutaj.~
+Descr Typowe krasnoludzkie dziecko, ca³e umorusane w podartym ubranku.
+~
+Race krasnolud~
+ActExt 0|AGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 3
+Hitroll 0
+HP 2d10+30
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 72 84 60 108 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 3
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew fight 36 H 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 37
+Name sêdziwy krasnolud ~
+Odmiana sêdziwego krasnoluda~sêdziwemu krasnoludowi~sêdziwego krasnoluda~sêdziwym krasnoludem~sêdziwym krasnoludzie~
+Short sêdziwy krasnolud~
+Long Sêdziwy krasnolud pali tytoñ z prostej fajki.~
+Descr Ca³± jego twarz pokrywa pajêczyna zmarszczek. W³osy i nawet brwi ma siwe. 
+Siedzi sobie na ³awce, co jaki¶ czas przerywaj±c drzemkê aby sobie poci±gn±æ
+z fajeczki. 
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang C
+Speaks 2
+Level 6
+Hitroll 0
+HP 1d10+140
+Damage 2d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 7 7 7 7
+Stats 96 72 132 60 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def sit
+Sex male
+Wealth 6
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 37_krasn EFGI 10~
+MobprogNew onload 42 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 38
+Name mistrz krasnolud gharion~
+Odmiana Mistrza Ghariona~Mistrzowi Gharionowi~Mistrza Ghariona~Mistrzem Gharionem~Mistrzu Gharionie~
+Short Mistrz Gharion~
+Long Mistrz Gharion nauczy ciê, jak dobrze u¿ywaæ broni.~
+Descr Mistrz Gharion jest jednym z najlepszych wojowników Fortecy. Mimo, ¿e
+nie jest ju¿ najm³odszy, nie straci³ nic ze swojej krzepy, a przy tym rzadko
+kto mo¿e siê z nim porównywaæ do¶wiadczeniem. Zna siê praktycznie na ka¿dej
+broni, jednak jego ulubiona jest dwurêczny, bojowy topór z którym siê
+praktycznie nie rozstaje. 
+~
+Race krasnolud~
+ActExt 0|ABIJKQSTZad/2|E
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 18
+Hitroll 8
+HP 4d10+340
+Damage 3d10+20
+Dammagic 0
+Weaponbonus 20
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 150 96 120 120 144 78 78
+Off CIKY
+OffExt 0|CIKY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 39
+Name mag mistrz Zaihon~
+Odmiana Mistrza Zaihona~Mistrzowi Zaihonowi~Mistrza Zaihona~Mistrzem Zaihonem~Mistrzu Zaihonie~
+Short Mistrz Zaihon~
+Long Mistrz Zaihon lewituje kilka centymetrów nad pod³og±.~
+Descr Przechodz± ciê ciarki, kiedy przygl±dasz siê temu staremu czarodziejowi.
+Nikt tak naprawdê nie wie ile Zaihon ma lat, ani sk±d siê wzi±³. Wiadomo
+tylko, ¿e by³ w Fortecy prawdopodobnie od samego pocz±tku. W przeciwieñstwie
+do reszty krasnoludów nie nosi brody, bo przecie¿ nie jest krasnoludem.
+~
+Race cz³owiek~
+ActExt 0|ABKR
+Affected 8 0 0 4
+AffectedExt 0|D/3|C
+Align 0
+Group 0
+Lang ABCV
+Speaks 0
+Level 29
+Hitroll 0
+HP 5d10+650
+Damage 3d5+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack none
+XAC 5 5 5 5
+Stats 72 144 120 120 84 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Spells 184 92 71 149
+Spells 137 177 69 218
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 40
+Name elitarny stra¿nik krasnoludzki krasnolud~
+Odmiana elitarnego krasnoludzkiego stra¿nika~elitarnemu krasnoludzkiemu stra¿nikowi~elitarnego krasnoludzkiego stra¿nika~elitarnym krasnoludzkim stra¿nikiem~elitarnym krasnoludzkim stra¿niku~
+Short elitarny krasnoludzki stra¿nik~
+Long Elitarny krasnoludzki stra¿nik przechadza siê tutaj, pilnuj±c porz±dku.~
+Descr Tylko najro¶lejsi, najsilniejsi i najbardziej wytrwali ze stra¿ników maj±
+szanse dostaæ siê do oddzia³ów Elitarnej Gwardii, strzeg±cej prawa i
+porz±dku w Fortecy. Ten krasnolud z pewno¶ci± siê do takich zalicza:
+potê¿ne, masywne cia³o, zakute w ciê¿ka zbroje krasnoludzkiej roboty. Nawet
+nie próbuj wchodziæ mu w drogê. 
+~
+Race krasnolud~
+ActExt 0|AEGT
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 1000
+Group 31
+Lang AC
+Speaks 0
+Level 23
+Hitroll 5
+HP 130d2+550
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 0 -1 0 0
+Stats 150 120 144 132 132 78 78
+Off CEIKQUb
+OffExt 0|CEIKQUb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Comments Damage zmieniony z 3d5+4 na 2d5+2. Balansowanie walki wrecz mobow. - {RDrake{x ({CSun Aug  1 13:01:58 2004{x)
+ogolne zmniejszenie sily moba - {RKainti{x ({CSat Sep 25 10:33:14 2004{x)
+~
+MobprogNew onload onload_elita ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 95~
+MobprogNew grall 129 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 25
+Resist 10 50
+Resist 12 100
+Resist 16 100
+Mobend
+#Vnum 41
+Name kap³an m³ody kleryk~
+Odmiana m³odego kap³ana~m³odemu kap³anowi~m³odego kap³ana~m³odym kap³anem~m³odym kap³anie~
+Short m³ody kap³an~
+Long M³ody krasnoludzki kap³an Vamyra modli siê i udziela b³ogos³awieñstwa prosz±cym.~
+Descr Jak na krasnoluda, kap³an posiada niezwykle delikatne rysy twarzy.
+Wygl±da prawie jak ch³opiec, jedyna rzecz± ¶wiadcz±ca o jego doros³o¶ci jest
+zapleciona w warkoczyk broda. Kiedy tak mu siê przygl±dasz, kap³an
+spogl±da na ciebie. 
+~
+Race krasnolud~
+ActExt 0|ABKQ
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 0
+Group 0
+Lang ABCV
+Speaks 0
+Level 29
+Hitroll 0
+HP 6d10+650
+Damage 2d5+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 90 108 144 90 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 41 FGI 50~
+Spells 28 26 151 61
+Spells 30 150 231 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 42
+Name stra¿nik krasnolud wiezienia~
+Odmiana stra¿nika wiêzienia~stra¿nikowi wiêzienia~stra¿nika wiêzienia~stra¿nikiem wiêzienia~stra¿niku wiêzienia~
+Short stra¿nik wiezienia~
+Long Znudzony stra¿nik pilnuje wiezienia.~
+Descr Znudzony, zasypiaj±cy co chwila stra¿nik. Jednak mimo pozorów ospa³o¶ci
+nie radzê go atakowaæ. 
+~
+Race krasnolud~
+ActExt 0|ABEGJT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 18
+Hitroll 0
+HP 85d2+340
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 144 150 150 144 144 78 78
+Off CVb
+OffExt 0|CVb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43
+Name zack sprzedawca~
+Odmiana Zacka~Zackowi~Zacka~Zackiem~Zacku~
+Short Zack~
+Long Zack stoi tutaj zachwalaj±c swoje towary.~
+Descr Mocno zbudowany krasnolud o potê¿nych ³apskach. Mo¿na by odnie¶æ wra¿enie
+¿e to zawodowy morderca, gdyby nie u¶miech, który dos³ownie ani na chwile
+nie schodzi z jego twarzy. Z zapa³em wita klientów przy wej¶ciu do sklepu
+k³aniaj±c siê w pas, a nastêpnie prezentuje dostêpny asortyment. To siê
+nazywa profesjonalna obs³uga! 
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d10+200
+Damage 3d10+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 6 6 6 6
+Stats 114 84 108 90 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 37 FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 44
+Name karczmarz~
+Odmiana karczmarza~karczmarzowi~karczmarza~karczmarzem~karczmarzu~
+Short karczmarz~
+Long Karczmarz stoi tutaj, rozlewaj±c drinki.~
+Descr Potê¿nej postury karczmarz, zapewne dziêki temu ludzie rzadko kiedy tu
+siê awanturuj±. 
+~
+Race krasnolud~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d10+200
+Damage 3d10+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 6 6 6 6
+Stats 114 84 108 90 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 44_random FGI 2~
+MobprogNew tell karczmarz_tak FGI tak~
+MobprogNew greet 44 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 45
+Name stra¿nik wartownik gwardzista krasnolud~
+Odmiana krasnoludzkiego stra¿nika~krasnoludzkiemu stra¿nikowi~krasnoludzkiego stra¿nika~krasnoludzkim stra¿nikiem~krasnoludzkim stra¿niku~
+Short krasnoludzki stra¿nik~
+Long Potê¿nie uzbrojony i opancerzony krasnolud patroluje ulice Fortecy.~
+Descr Przez chwilê z uwag± obserwujesz krasnoluda, ale spuszczasz wzrok, gdy
+napotykasz jego surowe spojrzenie. Z pewno¶ci± mo¿na go zaliczyæ do osób,
+które samym swoim wygl±dem potrafi± wzbudzaæ respekt i poszanowanie dla
+prawa. Je¶li jednak masz co do tego w±tpliwo¶ci, stra¿nik chêtnie przekona
+ciê "rêcznie"... 
+~
+Race krasnolud~
+ActExt 0|AEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 31
+Lang AC
+Speaks 0
+Level 16
+Hitroll 3
+HP 80d2+320
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 132 78 78 78 78 78 78
+Off CEIKVb
+OffExt 0|CEIKVb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew grall 129 ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 100~
+MobprogNew onload 46 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 25
+Mobend
+#Vnum 46
+Name sklepikarz tajemniczy sprzedawca~
+Odmiana tajemniczyego sklepikarza~tajemniczemu sklepikarzowi~tajemniczego sklepikarza~tajemniczym sklepikarzem~tajemniczym sklepikarzu~
+Short Tajemniczy sklepikarz~
+Long Tajemniczy sklepikarz stoi tutaj.~
+Descr Sprzedawca nosi czarna, d³uga szatê z kapturem naci±gniêtym na g³owê. 
+Nie jeste¶ w stanie nic powiedzieæ oprócz tego ze na pewno nie jest
+krasnoludem. 
+~
+Race elf~
+ActExt 0|ABV
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 0
+HP 10d10+200
+Damage 3d10+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 6 6 6 6
+Stats 114 84 108 90 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 47
+Name krasnolud mieszkaniec~
+Odmiana krasnoluda~krasnoludowi~krasnoluda~krasnoludem~krasnoludzie~
+Short krasnolud~
+Long Krasnolud, jeden z mieszkanców fortecy, przechodzi têdy jak zwykle dok±d¶ siê spiesz±c.~
+Descr Zwyczajny krasnolud, niczym szczególnym nie wyró¿niaj±cy siê spo¶ród
+innych. Lepiej go nie zaczepiaæ, bo chocia¿ do wybitnych wojowników nie
+nale¿y to jednak stra¿nicy, w¶ród których jest z pewno¶ci± wielu jego
+krewniaków, mogliby siê zdenerwowaæ. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 2d5+70
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 90 72 72 90 90 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 105 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 48
+Name zbir z³odziej bandyta krasnolud~
+Odmiana zbira~zbirowi~zbira~zbirem~zbirze~
+Short zbir~
+Long Zbir stoi tutaj, uwa¿nie obserwuj±c przechodz±ce osoby.~
+Descr Ten krasnolud obserwuje uwa¿nie ka¿dy ruch przechodnia na ulicy, pewnie
+tylko czekaj±c a¿ czyja¶ sakiewka wpadnie w jego rêce. Jest sprawnym
+z³odziejem, jak na krasnoluda oczywi¶cie i nie zawacha siê napa¶æ na
+cz³owieka w ciemnej alejce. No i oczywi¶cie kaptur nasuniêty na twarz
+ca³kowiscie uniemo¿liwia ci dok³adniejsze przyjrzenie siê mu. 
+~
+Race krasnolud~
+ActExt 0|ACGS
+Affected 65536 0 0 0
+AffectedExt 0|Q
+Align -700
+Group 0
+Lang AC
+Speaks 0
+Level 12
+Hitroll 1
+HP 4d10+270
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 4 4 4 4
+Stats 108 96 96 138 108 78 78
+Off BF
+OffExt 0|BF
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 12
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 48 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 50
+Name Stara wywerna~
+Odmiana starej wywerny~starej wywernie~stara wywerne~stara wywerna~starej wywernie~
+Short stara wywerna~
+Long Stara wywerna ¶pi sobie, cicho chrapi±c.~
+Descr Widzisz przed sob± potê¿n±, star± wywernê o wielkich skrzyd³ach. Jej
+cia³o pokryte jest szarymi ³uskami. Wywerny nale¿± do rodziny smokowatych,
+jednak s± znacznie od nich s³absze. Ta ma oko³o 3 metrów. Z jej pyska
+wystaj± ostre jak brzytwy, ¿±dne krwi zêbiska. Dobrze, ¿e wywerna ma swojego
+w³a¶ciciela, który ma j± na uwadze. 
+~
+Race wywerna~
+ActExt 0|AR
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang V
+Speaks 19
+Level 22
+Hitroll 0
+HP 10d4+150
+Damage 4d10+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack claw
+XAC 4 4 4 4
+Stats 120 120 102 138 120 78 78
+Off HK
+OffExt 0|HK
+Pos_start sleep
+Pos_def sleep
+Sex female
+Wealth 0
+Form ABFGHZ
+Parts ACDEFGHIJKPQRSUVX
+Size large
+Material unknown
+Comments Wywalam flying - ma start pos sleeping - {RRysand{x ({CThu Dec  3 00:41:22 2009{x)
+Aby utrudni jej zabijanie podkrêci³em staty - {RRysand{x ({CThu Dec  3 00:44:19 2009{x)
+~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 51
+Name barbarzyñca y'ergiz ogromny~
+Odmiana barbarzyñcy~barbarzyñcy~barbarzyñcê~barbarzyñc±~barbarzyñcy~
+Short barbarzyñca Y'ergiz~
+Long Ogromny barbarzyñca przechodzi têdy, silnie siê zataczaj±c.~
+Descr Y'ergiz to raczej barbarzyñca na emeryturze. Liczne blizny i tatua¿e na
+jego ciele wskazuj±, ¿e niejedn± bitwê ma ju¿ za sob± i ¿e niejedn± g³owê
+pokonanego wroga zdarzy³o mu siê unosiæ w ge¶cie zwyciêstwa. W czasach
+m³odo¶ci by³ on tak¿e s³ynnym zabójc± smoków, pokona³ miêdzy innymi Syrverna
+Przebieg³ego oraz inne znane z imienia smoki w ró¿nych kolorach. Niestety,
+jak to czêsto w¶ród ludzi bywa, Y'ergiz rozpi³ siê i w³óczy siê teraz po
+Fortecy bez celu. Chocia¿ momencik... W jego przekrwionych, malutkich
+oczkach widzisz cel! - jest nim kolejna porcja mocnego trunku, który pozwoli
+na chwilê zapomnieæ o minionej chwale i obecnej biedzie. Mimo wszystko ten
+stary barbarzyñca wci±¿ sprawia wra¿enie go¶cia, z którym nie masz
+najmniejszej ochoty zadzieraæ. 
+~
+Race cz³owiek~
+ActExt 0|AEGIX/2|C
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 1000
+Group 0
+Lang A
+Speaks 0
+Level 30
+Hitroll 6
+HP 30d10+1000
+Damage 3d5+5
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack walniecie
+XAC -2 -2 -2 -4
+Stats 156 120 132 144 150 78 78
+Off DJYc
+OffExt 0|DJYc/1|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 220
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew give 51 FGI 2497~
+MobprogNew random 53 FGI 20~
+MobprogNew onload 54 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 250
+Resist 4 50
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Mobend
+#Vnum 52
+Name barbarzyñca Y'ergiz boss~
+Odmiana barbarzyñcy~barbarzyñcy~barbarzyñcê~barbarzyñc±~barbarzyñcy~
+Short barbarzyñca Y'ergiz~
+Long Ogromny barbarzyñca przechodzi têdy, silnie siê zataczaj±c.~
+Descr Y'ergiz to raczej barbarzyñca na emeryturze. Liczne blizny i tatua¿e na
+jego ciele wskazuj±, ¿e niejedn± bitwê ma ju¿ za sob± i ¿e niejedn± g³owê
+pokonanego wroga zdarzy³o mu siê unosiæ w ge¶cie zwyciêstwa. W czasach
+m³odo¶ci by³ on tak¿e s³ynnym zabójc± smoków, pokona³ miêdzy innymi Syrverna
+Przebieg³ego oraz inne znane z imienia smoki w ró¿nych kolorach. Niestety,
+jak to czêsto w¶ród ludzi bywa, Y'ergiz rozpi³ siê i w³óczy siê teraz po
+Fortecy bez celu. Chocia¿ momencik... W jego przekrwionych, malutkich
+oczkach widzisz cel! - jest nim kolejna porcja mocnego trunku, który pozwoli
+na chwilê zapomnieæ o minionej chwale i obecnej biedzie. Mimo wszystko ten
+stary barbarzyñca wci±¿ sprawia wra¿enie go¶cia, z którym nie masz
+najmniejszej ochoty zadzieraæ. 
+~
+Race cz³owiek~
+ActExt 0|AEGIJKQTd/2|CE
+Affected 552 0 0 0
+AffectedExt 0|DFJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 32
+Hitroll 0
+HP 10d10+1100
+Damage 3d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC -4 -4 -4 -4
+Stats 156 120 132 144 150 78 78
+Off DJYc
+OffExt 0|DJYc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 220
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 52 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 350
+Mobend
+#Vnum 53
+Name krasnoludzki bankier drewhrty~
+Odmiana bankiera~bankierowi~bankiera~bankierem~bankierze~
+Short bankier Drewhrty~
+Long Krasnoludzki bankier przegl±da sakiewki.~
+Descr Bankier Drewhrty to niedu¿y krasnolud, wygl±da trochê komicznie
+gdy nerwowo marszczy nos usi³uj±c przeliczyæ zawarto¶æ sakiewki.
+~
+Race krasnolud~
+ActExt 0|ABCEG
+Affected 544 0 0 0
+AffectedExt 0|FJ
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 10
+Hitroll 0
+HP 1d1+399
+Damage 4d3+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 108 90 90 96 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew kill 56 ABCDEFGHI 100~
+MobprogNew greet 57 FGI 100~
+Skin 100
+ExpMultiplier 70
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 54
+Name krasnoludka pulchna mieszkanka~
+Odmiana pulchnej krasnoludki~pulchnej krasnoludzce~pulchn± krasnoludkê~pulchn± krasnoludk±~pulchnej krasnoludzce~
+Short pulchna krasnoludka~
+Long Pulchna krasnoludka spaceruje powoli wracaj±c do domu.~
+Descr Pulchna krasnoludka przechadza siê têdy, spiesz±c pewnie do domu i
+dzieci. Wbrew niewybrednym ¿artom rozpuszczanym g³ównie przez pó³orki,
+krasnoludki nie posiadaj± bród, lecz nie przeszkadza to krasnoludom cieszyæ
+siê ich urokami. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 5
+Hitroll 0
+HP 2d5+70
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 90 72 72 90 90 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 106 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 55
+Name mieszkaniec krasnolud stary~
+Odmiana starego krasnoluda~staremu krasnoludowi~starego krasnoluda~starym krasnoludem~starym krasnoludzie~
+Short stary krasnolud~
+Long Stary krasnolud, przechadza siê powoli, zmierzaj±c do parku.~
+Descr Stary krasnolud, z d³ug± siw± brod±, przechodza siê powoli ogl±daj±c
+swoje wspania³e miasto. Pewnie niejedno ju¿ prze¿y³, walczy³ z najazdami
+orków, trolli i ogrów a jego rêce wci±¿ s± sprawne. Wygl±da na
+zahartowanego, a staro¶æ i bia³o¶æ brody tylko dodaj± mu powagi. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 6
+Hitroll 0
+HP 2d5+60
+Damage 1d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 90 72 72 90 90 78 78
+Off DI
+OffExt 0|DI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 6
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 113 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 56
+Name dzieciak krasnolud dziecko~
+Odmiana krasnoludzkiego dziecka~krasnoludzkiemu dziecku~krasnoludzkie dziecko~krasnoludzkim dzieckiem~krasnoludzkim dziecku~
+Short krasnoludzkie dziecko~
+Long Ma³e krasnoludzkie dziecko bawi siê tutaj.~
+Descr Typowe krasnoludzkie dziecko, ca³e umorusane w podartym ubranku. W
+porównaniu do dzieci np. Ludzkich, jest ono mniejsze i bardziej
+'bary³kowate', lecz nie mniej psotliwe. 
+~
+Race krasnolud~
+ActExt 0|AGH
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang C
+Speaks 2
+Level 2
+Hitroll -1
+HP 2d5+20
+Damage 1d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 72 84 60 108 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 2
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew onload 110 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 57
+Name zawadiaka krasnolud krasnoludzki~
+Odmiana krasnoludzkiego zawadiaki~krasnoludzkiemu zawadiace~krasnoludzkiego zawadiake~krasnoludzkim zawadiak±~krasnoludzkim zawadiace~
+Short krasnoludzki zawadiaka~
+Long Chodzi tutaj zataczaj±c siê na inne krasnoludy i mamrocz±c co¶ pod nosem, m³ody, krasnoludzki zawadiaka.~
+Descr Ten m³ody krasnolud, od którego 'jedzie' tanim bimbrem chodzi po ulicy
+szukaj±c zaczepki. Nie sprawia wra¿enia silnego wojownika jednak jest
+krzepki i mo¿e narobiæ pewnego problemu niewprawnemu w bojach poszukiwaczowi
+przygód. Mo¿e na przysz³o¶æ bêdzie bardziej uwa¿a³. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 8
+Hitroll 0
+HP 8d5+100
+Damage 1d6+3
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 8
+Stats 108 60 60 96 120 60 60
+Off DI
+OffExt 0|DI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 8
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 111 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 58
+Name mieszkaniec krasnolud sympatyczny~
+Odmiana sympatycznego krasnoluda~sympatycznemu krasnoludowi~sympatycznego krasnoluda~sympatycznym krasnoludem~sympatycznym krasnoludzie~
+Short sympatyczny krasnolud~
+Long Ten krasnolud sprawia sympatyczne wra¿enie, jakby by³ ca³kiem zadowolony z ¿ycia.~
+Descr Ten, id±cy ulic± krasnolud wygl±da jako¶ szczególnie sympatycznie, byæ
+mo¿e to przez to i¿ jego twarz ma dobrotliwy wyraz a byc mo¿e dzieki jego
+szczeremu u¶miechowi. Mimo to nie da siê dok³adnie oceniæ jego wieku, nie
+wygl±da ani staro ani m³odo. Jest co¶ dziwnego w jego postaci. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 2d5+70
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 90 72 72 90 90 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 112 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 59
+Name kleryk krasnolud krasnoludzki~
+Odmiana krasnoludzkiego kleryka~krasnoludzkiemu klerykowi~krasnoludzkiego kleryka~krasnoludzkim klerykiem~krasnoludzkim kleryku~
+Short krasnoludzki kleryk~
+Long Przechodzi têdy, pogr±¿ony w g³êbokich rozmy¶laniach krasnoludzki kleryk.~
+Descr Ten niewysoki krasnolud, zosta³ wybrany by s³u¿yæ Vamyrowi, Bogowi
+kowalstwa, opiekunowi Krasnoludów i stra¿nikowi podziemnego ¶wiata.
+Symbolizuj± to kowalski m³ot i kowad³o na ¶rodku jaskini, znaki Vamyra.
+Przechodzi on têdy b³ogos³awi±c napotkane krasnoludy. 
+ 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 8
+Hitroll 0
+HP 8d5+100
+Damage 1d6+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 8
+Stats 108 60 60 96 120 60 60
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 8
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 108 ABCDEFGHI 100~
+Spells 30 28 3 54
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 60
+Name kleryk krasnolud krasnoludzki~
+Odmiana krasnoludzkiego kleryka~krasnoludzkiemu klerykowi~krasnoludzkiego kleryka~krasnoludzkim klerykiem~krasnoludzkim kleryku~
+Short krasnoludzki kleryk~
+Long Przechodzi têdy, pogr±¿ony w g³êbokich rozmy¶laniach krasnoludzki kleryk.~
+Descr Przechodzi tutaj m³ody, krasnoludzki kleryk. Na jego szarej szacie widaæ
+symbole Veerhaga, Krasnoludzkiego Boga wojny. Mimo habitu widaæ i¿ m³ody
+krasnolud jest dobrze przygotowany do bycia kap³anem-wojownikiem Veerhaga.
+Przechodzi cicho pogr±¿ony w kontemplacjach od czasu do czasu b³ogos³awi±c
+przechodz±ce krasnoludy. 
+~
+Race krasnolud~
+ActExt 0|ACGHQ
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 8
+Hitroll 0
+HP 8d5+100
+Damage 1d6+3
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 8
+Stats 108 60 60 96 120 60 60
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 8
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 108 ABCDEFGHI 100~
+Spells 30 12 151 3
+Spells 243 55 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 61
+Name krasnoludzki kapelan stra¿nik~
+Odmiana krasnoludzkiego kapelana~krasnoludzkiemu kapelanowi~krasnoludzkiego kapelana~krasnoludzkim kapelanem~krasnoludzkim kapelanie~
+Short krasnoludzki kapelan~
+Long Zamy¶lony krasnoludzki kapelan pe³ni wartê i przechadza siê po twierdzy.~
+Descr Ten typowy krasnolud ubrany jest w d³ug±, siêgaj±c± ziemi bia³± togê.
+S³u¿y mu ona zapewnie jako oznaka pe³nionej przez tego osobnika funkcji.
+Jest on bowiem jednym z kap³anów urzêduj±cych na sta³e w stra¿y. Wspiera on
+regularnych wojaków swoimi umiejêtno¶ciami medycznymi i wiedz±. 
+~
+Race krasnolud~
+ActExt 0|AEGQ
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 1000
+Group 31
+Lang AC
+Speaks 0
+Level 20
+Hitroll 1
+HP 7d10+420
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 138 132 150 126 144 90 120
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew death 130 ABCDEFGHI 95~
+MobprogNew grall 129 ABCDEFGHI 100~
+Spells 30 26 151 3
+Spells 152 5 77 31
+Spells 137 38 12 231
+Spells 230 243 149 96
+Skin 100
+ExpMultiplier 100
+Resist 12 30
+Mobend
+#Vnum 62
+Name krasnoludzki najemnik krasnolud najemny~
+Odmiana najemnego stra¿nika~najemnemu stra¿nikowi~najemnego stra¿nika~najemnym stra¿nikiem~najemnym stra¿niku~
+Short najemny stra¿nik~
+Long Nieprzyjemnie wygl±daj±cy najemny krasnoludzki stra¿nik bacznie ogl±da mieszkañców.~
+Descr Krasnoludzka stra¿ w Fortecy ma to szczê¶cie, ¿e dysponuje dosyæ du¿ymi
+¶rodkami finansowymi. Ten oto osobnik jest skutkiem takiego stanu rzeczy.
+Stra¿ bowiem stwierdzi³a, ¿e mo¿e zatrudniaæ do s³u¿by dobrych, sprawdzonych
+krasnoludzkich najemników, którzy w czasie pokoju nie maj± zajêcia. Jednak
+na pewno s± oni mniej rozgarniêci ni¿ normalni, doborowi wartownicy i o
+wiele mniej okrzesani. Jednak na swojej sztuce siê znaj± i potrafi± obracaæ
+broni± nie gorzej ni¿ elitarni gwardzi¶ci. No mo¿e prawie tak dobrze. 
+~
+Race krasnolud~
+ActExt 0|AEGS
+Affected 512 4096 0 0
+AffectedExt 0|J/1|M
+Align 0
+Group 31
+Lang AC
+Speaks 2
+Level 19
+Hitroll 2
+HP 19d6+350
+Damage 3d3+0
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 3 3 5 7
+Stats 132 144 96 138 132 54 96
+Off BFNT
+OffExt 0|BFNT
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1340
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments Dam zmieniony z 3d4+5 na 3d3. Balansacja walki wrecz mobów. - {RDrake{x ({CSun Aug  1 13:14:23 2004{x)
+~
+MobprogNew onload najem_onload ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 63
+Name straznik krasnolud bramy wartownik~
+Odmiana krasnoludzkiego wartownika~krasnoludzkiemu wartownikowi~krasnoludzkiego wartownika~krasnoludzkiem wartownikiem~krasnoludzkim wartowniku~
+Short krasnoludzki wartownik~
+Long Gro¼nie wygl±daj±cy, krasnoludzki wartownik pilnuje porz±dku przy bramie.~
+Descr Ten krasnoludzki stra¿nik zosta³ wybrany do bardzo odpowiedzialnej
+funkcji, pilnuje on bram miasta, gotów w ka¿dej chwili po¶wiêciæ ¿ycie dla
+bezpieczeñstwa swych pobratymców. Sprawnie wyszkolony w pos³ugiwaniu siê
+halabard±, jest napewno niebezpiecznym przeciwnikiem. Posiada te¿ lepsze
+wyposa¿enie ni¿ zwykli stra¿nicy. 
+~
+Race krasnolud~
+ActExt 0|ABEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 16
+Hitroll 4
+HP 80d2+350
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 150 90 90 108 120 90 90
+Off CIKVb
+OffExt 0|CIKVb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 16
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload onload_wart ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 100~
+MobprogNew grall 129 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 25
+Mobend
+#Vnum 64
+Name straznik krasnolud bramy wartownik~
+Odmiana krasnoludzkiego stra¿nika bramy~krasnoludzkiemu stra¿nikowi bramy~krasnoludzkiego stra¿nika bramy~krasnoludzkim stra¿nikiem bramy~krasnoludzkim stra¿niku bramy~
+Short krasnoludzki stra¿nik bramy~
+Long Krasnoludzki stra¿nik bacznie obserwuje przyjezdnych.~
+Descr Ten krasnoludzki stra¿nik zosta³ wybrany do bardzo odpowiedzialnej
+funkcji, pilnuje on bram miasta, gotów w ka¿dej chwili po¶wiêciæ ¿ycie dla
+bezpieczeñstwa swych pobratymców. Sprawnie wyszkolony w pos³ugiwaniu siê
+halabard±, jest napewno niebezpiecznym przeciwnikiem. Posiada te¿ lepsze
+wyposa¿enie ni¼ zwykli stra¿nicy.
+~
+Race krasnolud~
+ActExt 0|ABEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 16
+Hitroll 4
+HP 80d2+360
+Damage 3d3+3
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 150 90 90 108 120 90 90
+Off CIKVb
+OffExt 0|CIKVb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 35
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload onload_wart ABCDEFGHI 100~
+MobprogNew grall 129 ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 45
+Mobend
+#Vnum 65
+Name elitarny krasnolud stra¿nik honorowy Vamyra placu boss~
+Odmiana honorowego stra¿nika~honorowemu stra¿nikowi~honorowego stra¿nika~honorowym stra¿nikiem~honorowym stra¿niku~
+Short honorowy straznik Vamyra~
+Long Stoi tutaj, uwa¿nie siê wszystkim przygl±daj±c honorowy stra¿nik placu Vamyra.~
+Descr Co roku ¶wi±tynia Vamyra, wybiera jednego z najbardziej oddanych
+stra¿ników, ¿eby zosta³ honorowym stra¿nikiem Vamyra. Krasnolud ten, poza
+wielkim presti¿em który otacza go jako najdzielniejszego i najsilniejszego
+krasnoludzkiego stra¿nika w Fortecy, posiada ponadto potê¿ne obowi±zki. Musi
+pilnowaæ placu Vamyra i ¶w±tyni Vamyra, gotów nawet oddaæ ¿ycie. W historii
+fortecy wielu stra¿ników Vamyra, jak s± nazywani rzuca³o siê w wir walki
+byle tylko odeprzec z³e moce z dala od ¶wiêtego przybytku krasnoludów. Z
+regu³y wychodzili z tych walk zwyciêsko. 
+~
+Race krasnolud~
+ActExt 0|ABEGT/2|C
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 30
+Hitroll 5
+HP 6d10+680
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack uderzenie
+XAC 0 -3 0 0
+Stats 150 120 144 132 132 78 78
+Off CEIKLb
+OffExt 0|CEIKLb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Comments Dam zmienione z 3d5+4 na 2d5+2. Balansowanie walki wrecz u mobow. - {RDrake{x ({CSun Aug  1 13:06:26 2004{x)
+~
+MobprogNew onload str_vam_onload ABCDEFGHI 100~
+MobprogNew death 130 ABCDEFGHI 100~
+MobprogNew grall 129 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 25
+Resist 10 50
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 66
+Name m³oda krasnoludka~
+Odmiana m³odej krasnoludki~m³odej krasnoludce~m³od± krasnoludkê~m³od± krasnoludk±~m³odej krasnoludce~
+Short m³oda krasnoludka~
+Long M³oda krasnoludka krêci siê tutaj przygl±daj±c siê podró¼nym.~
+Descr Przechodzi têdy, weso³o siê smiej±c m³oda krasnoludka. Wbrew powszechnym
+¿artom na temat krasnoludzkich kobiet, nie posiada ona brody. Za to dwa,
+ca³kiem ³ade, kasztanowe warkocze sp³ywaj± jej do pasa. Z ciekawo¶ci±
+obserwuje wszysztkich podró¼nych przeje¼dzaj±cych przez jej rodzinn±
+fortece. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 5
+Hitroll 0
+HP 2d5+70
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 90 72 72 90 90 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 104 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 67
+Name krasnoludzki kupiec krasnolud~
+Odmiana krasnoludzkiego kupca~krasnoludzkiemu kupcowi~krasnoludzkiego kupca~krasnoludzkim kupcem~krasnoludzkim kupcu~
+Short krasnoludzki kupiec~
+Long Niewysoki krasnolud wygl±daj±cy na kupca, pêdzi gdzie¶ potr±caj±c przechodniów.~
+Descr Ten niewysoki krasnolud, ubrany jest w kupiecki strój i niew±tpliwie siê
+gdzie¶ spieszy gdy¿ potr±ca wszystko dooko³a i przepycha siê przez t³um.
+Mimo i¿ niewysoki, hart jego ducha i sk³onno¶æ do zarabiania pieniêdzy s±
+nieroz³±cznymi elementami jego profesji. 
+~
+Race krasnolud~
+ActExt 0|ACGH
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 2d5+70
+Damage 1d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 9
+Stats 90 72 72 90 90 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 103 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 68
+Name krasnoludzki w³óczêga~
+Odmiana krasnoludzkiego w³óczêgi~krasnoludzkiemu w³óczêdze~krasnoludzkiego w³óczêgê~krasnoludzkim w³óczêg±~krasnoludzkim w³óczêdze~
+Short krasnoludzki w³óczêga~
+Long Krasnoludzki w³óczêga chodzi tutaj prosz±c o datek na chorego stryja.~
+Descr Ten krasnolud zosta³ wykluczony z krasnoludzkiej spo³eczno¶ci, teraz
+w³óczy siê po mie¶cie ¿ebraj±c u krasnoludów o datki. Byæ mo¿e nie by³
+odpowiednio robotny albo zhañbi³ swój ród, trudno siê domy¶liæ. Wygl±da
+biednie, jest ca³y brudny a brode ma tak sklejon± i¿ móg³by jej u¿ywaæ jako
+kilofu. Jednym s³owem ¿a³o¶æ i rozpacz. 
+~
+Race krasnolud~
+ActExt 0|AG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 5
+Hitroll 0
+HP 2d10+30
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 9 9 9 10
+Stats 60 60 60 60 60 60 60
+Off N
+OffExt 0|N
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 107 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 69
+Name zarz±dca Welrer Kerturd~
+Odmiana Welrera~Welrerowi~Welrera~Welrerem~Welrerze~
+Short zarz±dca Welrer Kerturd~
+Long Zarz±dca Welrer Kerturd krz±ta siê dooko³a.~
+Descr Do¶æ niedu¿y jak na krasnoluda z uszami podobnymi do elfich i bez
+klasycznej 100-letniej brody, ten krasnolud wygl±da niesamowicie dziwnie.
+Tym wiêksze jest zdziwienie wszystkich gdy dowiaduj± siê, ¿e jest on rz±dc±
+Fortecy. Choæ mo¿e w³a¶nie ta jego ekstrawagancja wynika z eksponowanego
+stanowiska które zajmuje? 
+~
+Race krasnolud~
+ActExt 0|AGTb
+Affected 0 0 0 0
+AffectedExt 0
+Align 500
+Group 0
+Lang ABC
+Speaks 0
+Level 15
+Hitroll 1
+HP 11d6+220
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 7
+Stats 138 120 120 108 156 108 90
+Off EIKT
+OffExt 0|EIKT
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1400
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 102 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 70
+Name sêdziwy krasnoludzki instruktor instruktor_70~
+Odmiana sêdziwego krasnoludzkiego instruktora~sêdziwemu krasnoludzkiem instruktorowi~sêdziwego krasnoludzkiego instruktora~sêdziwym krasnoludzkim instruktorze~sêdziwym krasnoludzkim instruktorze~
+Short sêdziwy krasnoludzki instruktor~
+Long Sêdziwy krasnoludzki instruktor siedzi tutaj na jednej z ³aw.~
+Descr Ten krasnolud wydaje siê stary, bardzo stary, zmarszczki na jego twarzy
+s± tak wielkie i ró¿norodne jak góry które otaczaj± Fortecê. Widaæ, ¿e
+prze¿y³ swoj± dolê, a w ¿yciu para³ siê ró¿nymi zajêciami. Byæ mo¿e, gdy go
+poprosisz, przeka¿e ci trochê swojej m±dro¶ci? 
+~
+Race krasnolud~
+ActExt 0|ABIJKLQRSTd/2|E
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align 0
+Group 0
+Lang CV
+Speaks 19
+Level 20
+Hitroll 0
+HP 1d1+999
+Damage 2d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 7 7 7 7
+Stats 96 72 132 60 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def sit
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew tell 70_prosi FGI @^^proszê*+~
+MobprogNew tell 70_prosi FGI @^^poproszê*+~
+MobprogNew speech 70_prosi FGI @^^poproszê*+~
+MobprogNew speech 70_prosi FGI @^^proszê*+~
+MobprogNew precommand 70_learn ABCDEFGHI learn~
+MobprogNew onload 105 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 71
+Name alchemik Tefaris slynny~
+Odmiana alchemika Tefarisa~alchemikowi Tefarisowi~alchemika Tefarisa~alchemikiem Tefarisem~alchemiku Tefarisie~
+Short alchemik Tefaris~
+Long Przechodza siê tutaj s³ynny alchemik Tefaris, g³adz±c resztki swojej brody.~
+Descr Ten stary krasnolud jest s³ynnym na praktycznie ca³y ¶wiat alchemikiem,
+Tefaris nosi miano. A s³awa jego p³ynie z tego, i¿ jak na alchemika
+przysta³o potrafi siê doskonale wysadzaæ w powietrze. Przez lata jego
+eksperymentów jego broda skarla³a i poskrêca³a siê, staj±c siê tward± i
+trudnopaln± skorup± jak± jest teraz. Ten cudowny przyk³ad krasnoludzkiej
+ewolucji jest wspomagany przez zaklêcia czarodzieji, których biedny alchemik
+musia³ siê nauczyæ by wzmocniæ swoj± odporno¶æ na ogieñ. Jak na alchemika
+przysta³o, rzadko udaje mu siê odkryæ co¶ przydatnego do poprawienia jako¶ci
+¿ycia, za to stra¿ Fortecy od dawna przygl±da siê jego eksperymentom pod
+k±tem militarnym. 
+~
+Race krasnolud~
+ActExt 0|AGR
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 2
+Level 10
+Hitroll 2
+HP 8d5+100
+Damage 1d6+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 6 6 6 8
+Stats 108 120 72 96 120 60 60
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew death 71_death ABCDEFGHI 50~
+MobprogNew onload 71_onload ABCDEFGHI 100~
+Spells 266 194 6 2
+Spells 87 203 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 72
+Name Grandal sprzedawca~
+Odmiana Melchiora~Melchiorowi~Melchiora~Melchiorem~Melchiorze~
+Short Grandal Horr~
+Long Grandal Horr, aptekarz i zielarz prowadzi tutaj swoj± zielarnie.~
+Descr Grandal Horr, znany w ca³ej wschodniej Tamerze zielarz i aptekarz
+prowadzi tutaj swoj± zielarnie. Specjalnie przyby³ do Fortecy, gdy¿ w
+tutejszych niezbadanych, dzikich lasach i górach ro¶n± najprzeró¿niejsze
+zio³a i alchemiczne specyfiki. Chodz± plotki, i¿ Grandel próbuje odkryæ
+przepis na panceum na wszystkie choroby i rany, gdy¿ w duszy nie chcê siê
+k³aniaæ ¿adnemu z bogów, za¶ do kap³anów i ich mocy uzdrawiania podchodzi
+równie niechêtnie. 
+~
+Race krasnolud~
+ActExt 0|ABIJKLQRSTad/2|E
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 0
+Group 0
+Lang ABCN
+Speaks 0
+Level 40
+Hitroll 0
+HP 30d6+970
+Damage 2d10+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 1 2 1 4
+Stats 108 144 138 108 102 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 180000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 100
+Name smok czerwony~
+Odmiana Czerwonego smoka~Czerwonemu smokowi~Czerwonego smoka~Czerwonym smokiem~Czerwonym smoku~
+Short Czerwony smok~
+Long Wielki, czerwony smok siedzi tutaj.~
+Descr ~
+Race smok~
+ActExt 0|ABDRT
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 0
+Group 0
+Lang AV
+Speaks 19
+Level 38
+Hitroll 4
+HP 20d15+1100
+Damage 8d8+15
+Dammagic 0
+Weaponbonus 15
+Damflags 0
+Attack none
+XAC -5 -5 -5 -5
+Stats 150 18 150 150 150 78 78
+Off RXZ
+OffExt 0|RXZ/1|J
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AHZ
+Parts ACDEFGHIJKPQRSUVX
+Size giant
+Material unknown
+Spells 91 184 177 92
+Spells 149 169 163 0
+Skin 100
+ExpMultiplier 100
+Resist 4 75
+Resist 5 100
+Resist 7 50
+Resist 8 50
+Resist 9 50
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 128
+Name gwerdrin gnomka przysadzista jubilerka~
+Odmiana Gwerdrin~Gwerdrin~Gwerdrin~Gwerdrin~Gwerdrin~
+Short Gwerdrin~
+Long Przysadzista gnomka obraca w rêkach jaki¶ b³yszcz±cy kamieñ.~
+Descr Gwerdrin niedawno przyby³a do miasta, podobno zachêcona zas³yszanymi od
+pewnego maga informacjami o zapotrzebowaniu na drogie kamienie i bi¿uteriê w
+Fortecy i jej najbli¿szych okolicach. Faktycznie - przez wiele lat
+krasnoludy, co mo¿e dziwiæ, obywa³y siê jako¶ bez jubilera. Na szczê¶cie
+Gwerdrin, której ojciec i dziad byli górnikami, zna siê na szlachetnych
+kamieniach jak nikt. Tote¿ interes rozkrêca siê coraz lepiej, z po¿ytkiem
+dla klientów i dla samej zainteresowanej. 
+~
+Race gnom~
+ActExt 0|ABCGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d1+0
+Damage 34d45+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 900000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give que_faraz_gwerd FGI 433~
+MobprogNew onload 128 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 129
+Name dowódca stra¿y masywny~
+Odmiana dowódcy~dowódcy~dowódcê~dowódc±~dowódcy~
+Short dowódca stra¿y~
+Long Miejscowy dowódca stra¿y, stoi tutaj.~
+Descr To dziwne, spotkaæ cz³owieka, w fortecy krasnoludów, a jeszcze
+dziwniejsze, ¿e wygl±da na tutejszego dowódce. Na dodatek, na pierwszy
+rzut oka nie wyró¿niaj±cego siê niczym szczególnym. Jednak jego dumne i
+chmurne spojrzenie i przenikliwy, ch³odny wzrok sprawiaj±, ¿e masz ochotê
+zaraz przyznaæ siê do wszystkich swoich grzechów i grzeszków. W oczach
+dowódcy stra¿y widzisz tak¿e niezwyk³± wrêcz m±dro¶æ, ¶wiadcz±c± o tym, ¿e
+oprócz w³adania mieczem potrafi on tak¿e pos³ugiwaæ siê magi±. Je¶li
+podobnie jak on jeste¶ paladynem, byæ mo¿e bêdzie móg³ nauczyæ ciê kilku
+przydatnych czarów i umiejêtno¶ci. 
+~
+Race cz³owiek~
+ActExt 0|ABIJKQT
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 5
+Hitroll 0
+HP 5d6+95
+Damage 2d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 96 60 84 84 96 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 2
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 100 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 130
+Name sprzedawca mag Melchior~
+Odmiana Melchiora~Melchiorowi~Melchiora~Melchiorem~Melchiorze~
+Short Melchior~
+Long Melchior, sprzedawca magicznych przedmiotów stoi za lada.~
+Descr Melchior wygl±da co najmniej dziwnie. Siwe w³osy ma zmierzwione, zalatuje
+od niego siarka czy czym¶ podobnym. Mamrocze do siebie bez ustanku
+przek³adaj±c jakie¶ tabletki i buteleczki na polkach. Przy tym jednak jest
+to niezwykle mi³y i ujmuj±cy staruszek. 
+~
+Race cz³owiek~
+ActExt 0|ABR/2|G
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 0
+Group 0
+Lang ABCN
+Speaks 0
+Level 40
+Hitroll 0
+HP 30d6+970
+Damage 2d10+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 1 2 1 4
+Stats 108 144 138 108 102 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random 37 FGI 10~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 36
+Name stalowy rogaty he³m~
+Odmiana rogatego he³mu~rogatemu he³mowi~rogaty he³m~rogatym he³mem~rogatym he³mie~
+Short rogaty he³m~
+Descr Stalowy, ciê¿ki he³m z przytwierdzonymi dwoma rogami.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 5 3 10 12 0 0
+Repair 0 0 0 0
+Length 0
+Weight 55
+Cost 3300
+Cond 100
+Itemdesc Ten potê¿ny he³m, ca³kowicie wykonany ze stali ozdobiony zosta³ dwoma
+potê¿nymi rogami. Ciekawe do kogo wcze¶niej nale¿a³y? Mo¿e do jakiego¶
+byka... Kto wie. Na pewno dodaj± temu okryciu g³owy nieludzkiego wygl±du.
+Nosz±cy go przy sprzyjaj±cych warunkach mo¿e wygl±daæ jak jaki¶ demon! Sam
+he³m natomiast jest zrobiony ca³kiem przyzwoicie i zapewnia solidn± ochronê
+g³owy. Chocia¿ do idea³u mu jeszcze trochê brakuje. 
+~
+Comments ~
+Objend
+#Vnum 44
+Name ozdobny pas d³ugi~
+Odmiana ozdobnego pasa~ozdobnemu pasu~ozdobny pas~ozdobnym pasem~ozdobnym pasie~
+Short ozdobny pas~
+Descr D³ugi, ozdobny pas le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 19
+Cost 12000
+Cond 75
+Itemdesc Wykonany z grubej, wypolerowanej i barwionej na czerwono skóry pas,
+prezentuje siê znakomicie. Na jego zewnêtrznej powierzchni zosta³y
+wyci¶niête sceny z ¿ycia krasnoludzkiej kopalni, w której wydobywane s±
+kamienie szlachetne, a dok³adniej rubiny, do prezentacji których, artysta
+wykorzysta³ ja¶niejsze kawa³ki skóry. Masywna srebrna sprz±czka wraz z
+osadzonym na niej rubinem sugeruje, ¿e nie jest to za tania ozdoba. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 46
+Name bransoleta drewniana~
+Odmiana {ydrewnianej bransoletki{x~{ydrewnianej bransoletce{x~{ydrewniana bransoletke{x~{ydrewniana bransoletka{x~{ydrewnianej bransoletce{x~
+Short {ydrewniana bransoletka{x~
+Descr {yBransoletka wykonana z drewna.{x~
+Material drewno~
+Type jewelry
+ExtraExt 0
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Zwyk³y, do¶æ topornie obrobiony kawa³ek drewna, maj±cy kszta³t
+bransoletki. Na powierzchni w niektórych miejscach widaæ zadziorne drzazgi,
+które mog± powodowaæ ukucia. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 47
+Name ¶cierka szmata kolorowa~
+Odmiana kolorowej ¶cierece~kolorowej ¶cierki~kolorow± ¶cierkê~kolorow± ¶cierk±~kolorowej ¶cierce~
+Short kolorowa ¶cierka~
+Descr Kolorowa ¶cierka le¿y zwiniêta w k³êbek.~
+Material p³ótno~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 1
+Cond 75
+Itemdesc Zwyczjany kwa³ek materia³u z obrobionymi krawêdziami. Przez ca³o¶æ
+przebiega parê ró¿nokolorowych pasów. 
+~
+Comments ~
+Objend
+#Vnum 65
+Name plecak~
+Odmiana plecaka~plecakowi~plecak~plecakiem~plecaku~
+Short plecak~
+Descr Plecak le¿y tutaj.~
+Material skóra~
+Type container
+ExtraExt 1|C
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 30 1 0 30 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 600
+Cond 100
+Itemdesc Ca³kiem zwyczajny, przestronny, mocny, skórzany plecak podró¿ny. Zosta³
+tak zaprojektowany, ¿eby móg³ pomie¶ciæ wiele ró¿nych przedmiotów. U³atwiaj±
+to szczególnie liczne kieszenie na drobiazgi. 
+~
+Comments ~
+Objend
+#Vnum 66
+Name prosta fajka~
+Odmiana prostej fajki~prostej fajce~prost± fajkê~prost± fajk±~prostej fajce~
+Short prosta fajka~
+Descr Prosta, drewniana fajka wykonana z drewna.~
+Material drewno~
+Type pipe
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 1200
+Cond 100
+Itemdesc Ta oto fajka to jeden z masowych wyrobów krasnoludzkich na³ogowych
+palaczy ziela fajkowego. W konstrukcji tej fajeczki po³o¿ono g³ownie nacisk
+na jako¶æ ni¿ estetyke. Pró¿no doszukiwaæ siê tutaj zdobieñ. Fajka jest
+prosta, przeznaczona tylko i wy³±cznie do palenia - nie chwalenia. Aby
+dowiedzieæ siê wiêcej, we¼ fajke do rêki i wpisz {Rfpomoc{S. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 67
+Name drewniana skrzynka~
+Odmiana drewnianej skrzynki~drewnianej skrzynce~drewnian± skrzynkê~drewniana skrzynka~drewnianej skrzynce~
+Short drewniana skrzynka~
+Descr Drewniana skrzynka le¿y tutaj.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 40 5 0 20 110 0 0
+Repair 0 0 0 0
+Length 0
+Weight 85
+Cost 2700
+Cond 100
+Itemdesc Dosyæ du¿a, wykonana z drewna skrzynka. Pomie¶ci ona spor± liczbê rzeczy,
+jednak bez w±tpienia nie jest to jedna z najprzyjemniejszych czêsci twojego
+ekwipunku jak± chcia³<&by¶/aby¶/oby¶> dzwigaæ. Zauwa¿asz, ¿e wzmocniona jest
+elementami ¿elaza, które lekko zaczê³y ju¿ rdzewieæ. 
+~
+Comments ~
+Objend
+#Vnum 74
+Name tablica og³oszeñ~
+Odmiana tablicy og³oszeñ~tablicy og³oszeñ~tablice og³oszeñ~tablica og³oszeñ~tablicy og³oszeñ~
+Short tablica og³oszeñ~
+Descr Tablica og³oszeñ wisi na ¶cianie.~
+Material drewno~
+Type board
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 14 1 10 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 0
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 75
+Name monetka~
+Odmiana m~m~m~m~m~
+Short monetka~
+Descr Monetka~
+Material mithril~
+Type gem
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Komponent 1 525600
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments Testowa duperelka do bugów z kas± - {RRysand{x ({CWed Sep  2 23:33:13 2009{x)
+~
+Objend
+#Vnum 79
+Name opoñcza we³niana~
+Odmiana {wwe³nianej opoñczy{x~{wwe³nianej opoñczy{x~{wwe³nian± opoñczê{x~{wwe³nian± opoñcz±{x~{wwe³nianej opoñczy{x~
+Short {wwe³niana opoñcza{x~
+Descr {wOpoñcza{x, zrobiona z grubej we³ny górskich owiec le¿y na ziemi.~
+Material we³na~
+Type armor
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 10 9 9 10 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 32
+Cost 840
+Cond 80
+Itemdesc Ta opoñcza jest wykonana z grubej we³ny górskich owiec i trzeba przyznaæ,
+¿e jest naprawdê ciep³a. Za³o¿ona na zimnej kolczudze czy zbroi ca³kiem
+przyzwoicie chroni przed mrozem w zimie. Wygl±da te¿ elegancko i dosyæ
+reprezentantywnie... Je¿eli chodzi o plemiona barbarzyñców pó³nocy. 
+~
+Comments ~
+Objend
+#Vnum 81
+Name runiczny miecz dwurêczny~
+Odmiana dwurêcznego miecza runicznego~dwurêcznemu mieczowi runicznemu~dwurêczny miecz runiczny~dwurêcznym mieczem runicznym~dwurêcznym mieczu runicznym~
+Short dwurêczny miecz runiczny~
+Descr Dwurêczny, ca³y pokryty runami miecz le¿y tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|CGKa
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 4 5 42 32 1 1
+Repair 0 0 0 0
+Length 150
+Weight 400
+Cost 87600
+Cond 75
+Itemdesc Jest to ca³y pokryty runami dwurêczny miecz.
+~
+Comments ~
+Objend
+#Vnum 82
+Name zbroja skórzana wspania³a mumaka~
+Odmiana zbroi ze skóry mumaka~zbroi ze skóry mumaka~zbrojê ze skóry mumaka~zbroj± ze skóry mumaka~zbroi ze skóry mumaka~
+Short zbroja ze skóry mumaka~
+Descr Wspania³a zbroja wykonana ze skóry bojowego s³onia, mumaka.~
+Material skóra~
+Type armor
+ExtraExt 0|a
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Length 0
+Weight 80
+Cost 24000
+Cond 75
+Comments ~
+Objend
+#Vnum 83
+Name moneta z³ota b³yszcz±ca~
+Odmiana z³otej monety~z³otej monecie~z³ot± monetê~z³ot± monet±~z³otej monecie~
+Short z³ota moneta~
+Descr Le¿y tutaj b³yszcz±ca z³ota moneta.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 600
+Cond 100
+Objprog input 83 rzuæ moneta~
+Itemdesc Moneta wygl±da na bardzo star±, pokrywaj±ce j± napisy s± kompletnie
+niezrozumia³e. Jedyne co udaje ci siê rozpoznaæ to trójg³owy orze³ na jednej
+stronie, siedz±cy na nagim mieczu. No ale przynajmniej mo¿esz sobie t±
+monet± porzucaæ, ciekawe co wypadnie? 
+~
+Comments ~
+Objend
+#Vnum 87
+Name torba zielarska~
+Odmiana {Gtorby zielarskiej{x~{Gtorbie zielarskiej{x~{Gtorbê zielarsk±{x~{Gtorb± zielarsk±{x~{Gtorbie zielarskiej{x~
+Short {Gtorba zielarska{x~
+Descr Widzisz tu {Gtorbe zielarska{x.~
+Material skóra~
+Type container
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 50 1 0 2 50 42 -1
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 2400
+Cond 100
+Comments ~
+Objend
+#Vnum 102
+Name fontanna~
+Odmiana fontanny~fontannie~fontannê~fontanna~fontannie~
+Short kamienna fontanna~
+Descr Kamienna, okr±g³a {Bfontanna{x pluszcze sobie cichutko.~
+Material kamieñ~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2000
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 108
+Name amulet wybrañca~
+Odmiana amuletu wybrañca~amuletowi wybrañca~amulet wybrañca~amuletem wybrañca~amulecie wybrañca~
+Short amulet {rwybrañca{x~
+Descr Niewielki amulet b³yszczy siê tutaj.~
+Material kryszta³~
+Type jewelry
+ExtraExt 0|ADG
+Wear ACO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 100
+Aff 1 28 0 10 0 0
+Comments ~
+Objend
+#Vnum 112
+Name d³uga peleryna~
+Odmiana d³ugiej peleryny~d³ugiej pelerynie~d³uga pelerynê~d³uga peleryna~d³ugiej pelerynie~
+Short d³uga peleryna~
+Descr D³uga peleryna u¿ywana przez stra¿ników z Fortecy.~
+Material we³na~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 40
+Cond 82
+Aff 1 12 8 5 0 0
+Extradesc symbol~
+Symbol przedstawia dwa skrzy¿owane m³oty pod którymi widaæ kawa³ek
+miejskiego muru. 
+~
+Itemdesc Wykonana z we³ny, d³uga peleryna zapewnia stra¿ników w Fortecy ciep³o w
+zimne dni, chroni ich przed deszczem i wiatrem w czasie s³oty. Jest wykonany
+bardzo starannie, a na piersi, po prawej stronie widaæ wyszyty symbol
+przedstawiaj±cy dwa skrzy¿owane m³oty, pod którymi widaæ kawa³ek miejskiego
+muru. 
+~
+Comments ~
+Objend
+#Vnum 113
+Name amulet stra¿niczy~
+Odmiana amuletu~amuletowi~amulet~amuletem~amulecie~
+Short amulet stra¿niczy~
+Descr Ten amulet jest insygnium w³adzy stra¿ników w Fortecy.~
+Material srebro~
+Type jewelry
+ExtraExt 0|d
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 180
+Cond 10
+Aff 1 29 -1 0 0 0
+Aff 1 12 12 10 0 0
+Comments ~
+Objend
+#Vnum 122
+Name medalion s³oneczny~
+Odmiana {Ymedalionu{x~{Ymedalionowi{x~{Ymedalion{x~{Ymedalionem{x~{Ymedalionie{x~
+Short {Ys³oneczny medalion{x~
+Descr {YS³oneczny medalion rozsiewa tutaj z³ote promienie.{x~
+Material srebro~
+Type turn_item
+ExtraExt 0|AKL
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 600
+Cond 100
+Itemdesc {YTen medalion mo¿e pomoc tym, którzy zwalczaj± nieumar³ych w imiê
+¦wiat³o¶ci. {x 
+~
+Comments ~
+Objend
+#Vnum 123
+Name ¶wiêty symbol~
+Odmiana {Csymbolu{x~{Csymbolowi{x~{Csymbol{x~{Csymbolem{x~{Csymbolu{x~
+Short {Cswiety symbol{x~
+Descr {CPokryty fragmentami modlitw ¶wiêty symbol poniewiera siê w kurzu.{x~
+Material srebro~
+Type turn_item
+ExtraExt 0|JK
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 600
+Cond 100
+Itemdesc {CJest to symbol s³u¿±cy klerykom, którzy nie opowiadaj± siê ani za
+Dobrem, ani za Z³em, do niszczenia nieumar³ych. {x 
+~
+Comments ~
+Objend
+#Vnum 124
+Name talizman mroczny~
+Odmiana {ctalizmanu{x~{ctalizmanowi{x~{ctalizman{x~{ctalizmanem{x~{ctalizmanie{x~
+Short {cmroczny talizman{x~
+Descr {cMroczny talizman zosta³ tutaj przez kogo¶ porzucony.{x~
+Material srebro~
+Type turn_item
+ExtraExt 0|EJL
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 600
+Cond 100
+Itemdesc {cTen talizman przydaje siê s³ugom ciemno¶ci do niszczenia efektów czarnej
+magii - nekromancji. {x 
+~
+Comments ~
+Objend
+#Vnum 127
+Name monety kilka~
+Odmiana monet~monetom~monety~monetami~monetach~
+Short kilka monet~
+Descr Kilka rozrzuconych na ziemi monet.~
+Material srebro~
+Type money
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 130
+Name wisiorek lzy amulet~
+Odmiana wisiorka~wisiorkowi~wisiorek~wisiorkiem~wisiorku~
+Short wisiorek w ksztalcie {Wlzy{x~
+Descr Piekny wisiorek w ksztalcie lzy pokrywa sie kurzem.~
+Material kryszta³~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 2100
+Cond 75
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 31
+Name {DPlac Vamyra{x~
+Descr Stoisz na g³ównym placu Fortecy Krasnoludzkiej, która ju¿ dawno utraci³a
+swoj± warown± rolê i przekszta³ci³a siê w kupieckie miasto. Mimo, ¿e
+rozbudowywano j± uwzglêdniaj±c g³ownie warunki obronne, posiada ona swój
+urok. Plac ten nosi nazwê od krasnoludzkiego boga Vamyra, który obdarzy³
+swój lud wieloma ³askami, tak¿e wojennymi. Grunt w kierunku pó³nocnym lekko
+siê obni¿a, dziêki czemu masz wspania³y widok na t± cze¶æ miasta. Na
+zachodzie dostrzegasz niewyra¼ne, zamglone wierzcho³ki górskie
+majestatycznie wznosz±ce siê nad lini± murów. 
+~
+FlagsExt 0
+Sector 1
+Extra niebo~
+Widzisz piêkne niebo!
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32
+ExitExtEnd
+Exit 3
+~
+~
+0 0 32
+Roomprog reset load_yergiza 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 32
+Name Zachodnia Aleja~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez calutka krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej uliczce znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. Ponad g³ow±
+zauwa¿asz lekko zblak³y, drewniany szyld. 
+~
+FlagsExt 0
+Sector 1
+Extra zblak³y~
+{Y ,--------------------.
+ / {G Zak³ad stolarski {Y\
+| {G Gumumrana Khaulira {Y|
+ \{g na po³udnie i wschód {Y/
+ `--------------------'{x
+~
+Extra drewniany~
+{Y ,--------------------.
+ / {G Zak³ad stolarski {Y\
+| {G Gumumrana Khaulira {Y|
+ \{g na po³udnie i wschód {Y/
+ `--------------------'{x
+~
+Extra szyld~
+{Y ,--------------------.
+ / {G Zak³ad stolarski {Y\
+| {G Gumumrana Khaulira {Y|
+ \{g na po³udnie i wschód {Y/
+ `--------------------'{x
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Ku¼nia~
+ExitExtTextOut $n wchodzi do mrocznej ku¼ni Joerga.~
+ExitExtTextIn $n wychodzi z ulicy do ku¼ni.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 45
+ExitExtEnd
+Exit 0
+~
+VName Ku¼nia~
+TextOut $n wchodzi do mrocznej ku¼ni Joerga.~
+TextIn $n wychodzi z ulicy do ku¼ni.~
+~
+16384 0 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 31
+ExitExtEnd
+Exit 1
+~
+~
+0 0 31
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Zielarnia~
+ExitExtTextOut $n wchodzi do zielarni.~
+ExitExtTextIn $n wychodzi z ulicy do zielarni.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 112
+ExitExtEnd
+Exit 2
+~
+VName Zielarnia~
+TextOut $n wchodzi do zielarni.~
+TextIn $n wychodzi z ulicy do zielarni.~
+~
+0 0 112
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 51
+ExitExtEnd
+Exit 3
+~
+~
+0 0 51
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33
+Name Wschodnia Aleja~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Bank~
+ExitExtTextOut $n wchodzi do banku.~
+ExitExtTextIn $n wchodzi do banku.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 107
+ExitExtEnd
+Exit 0
+~
+VName Bank~
+TextOut $n wchodzi do banku.~
+TextIn $n wchodzi do banku.~
+~
+16384 0 107
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sklep~
+ExitExtTextOut $n wchodzi do sklepu Melchiora.~
+ExitExtTextIn $n wchodzi do sklepu Melchiora.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 131
+ExitExtEnd
+Exit 2
+~
+VName Sklep~
+TextOut $n wchodzi do sklepu Melchiora.~
+TextIn $n wchodzi do sklepu Melchiora.~
+~
+16384 0 131
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 31
+ExitExtEnd
+Exit 3
+~
+~
+0 0 31
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34
+Name Pó³nocna aleja~
+Descr Pó³nocna aleja. Szeroka, bardzo dobrze utrzymana droga. Ca³a jest
+wy³o¿ona g³adkimi, granitowymi p³ytami szczelnie do siebie przylegaj±cymi. W
+tym miejscu droga na po³udnie zaczyna siê rozszerzaæ przechodz±c w g³ówny
+plac mieszcz±cy siê w centrum Fortecy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 36
+ExitExtEnd
+Exit 0
+~
+~
+0 0 36
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17186
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17186
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 31
+ExitExtEnd
+Exit 2
+~
+~
+0 0 31
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 35
+Name Po³udniowa Aleja~
+Descr Szeroka, wy³o¿ona g³adkimi, b³yszcz±cymi p³ytami droga. Biegnie ona lekko
+pod górê w kierunku pó³nocnym. Po obu stronach drogi wznosz± siê niewysokie,
+budowane po krasnoludzku, kamienne domy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 31
+ExitExtEnd
+Exit 0
+~
+~
+0 0 31
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 57
+ExitExtEnd
+Exit 2
+~
+~
+0 0 57
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Karczma~
+ExitExtTextOut Widzisz jak $n znika w drzwiach karczmy.~
+ExitExtTextIn $n w³a¶nie przysz<&ed³/³a/³o> z ulicy.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 108
+ExitExtEnd
+Exit 3
+~
+VName Karczma~
+TextOut Widzisz jak $n znika w drzwiach karczmy.~
+TextIn $n w³a¶nie przysz<&ed³/³a/³o> z ulicy.~
+~
+16384 0 108
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 36
+Name Pó³nocna aleja~
+Descr Pó³nocna szeroka, bardzo dobrze utrzymana droga. Ca³a jest wy³o¿ona
+g³adkimi, granitowymi p³ytami szczelnie do siebie przylegaj±cymi. Po obu
+stronach drogi widzisz charakterystyczne dla krasnoludów domy. Niskie,
+roz³o¿yste chatki z ma³ymi otworami okiennymi. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 37
+ExitExtEnd
+Exit 0
+~
+~
+0 0 37
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Kantor~
+ExitExtTextOut $n wchodzi cichaczem do kantoru.~
+ExitExtTextIn $n w<&szed³/esz³a/esz³o> do ¶rodka.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 17194
+ExitExtEnd
+Exit 3
+~
+VName Kantor~
+TextOut $n wchodzi cichaczem do kantoru.~
+TextIn $n w<&szed³/esz³a/esz³o> do ¶rodka.~
+~
+16384 0 17194
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 37
+Name Pó³nocna aleja~
+Descr Pó³nocna droga Szeroka, bardzo dobrze utrzymana droga. Ca³a jest wy³o¿ona
+g³adkimi, granitowymi p³ytami szczelnie do siebie przylegaj±cymi. Po obu
+stronach drogi widzisz charakterystyczne dla krasnoludów domy. Niskie,
+roz³o¿yste chatki z ma³ymi otworami okiennymi. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38
+ExitExtEnd
+Exit 0
+~
+~
+0 0 38
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 36
+ExitExtEnd
+Exit 2
+~
+~
+0 0 36
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Gospoda~
+ExitExtTextOut $n wchodzi do gospody.~
+ExitExtTextIn $n wchodzi do gospody.~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 17196
+ExitExtEnd
+Exit 3
+~
+VName Gospoda~
+TextOut $n wchodzi do gospody.~
+TextIn $n wchodzi do gospody.~
+~
+3 0 17196
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 38
+Name Pó³nocna aleja~
+Descr Szeroka, bardzo dobrze utrzymana droga. Ca³a jest wy³o¿ona g³adkimi,
+granitowymi p³ytami szczelnie do siebie przylegaj±cymi. Po obu stronach
+drogi widzisz charakterystyczne dla krasnoludów domy. Niskie, roz³o¿yste
+chatki z ma³ymi otworami okiennymi. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17198
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17198
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 37
+ExitExtEnd
+Exit 2
+~
+~
+0 0 37
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName ¦wi±tynia~
+ExitExtTextOut $n wchodzi powoli do ¶wi±tyni.~
+ExitExtTextIn $n w³a¶nie w<&szed³/esz³a/esz³o> do ¶rodka.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 124
+ExitExtEnd
+Exit 3
+~
+VName ¦wi±tynia~
+TextOut $n wchodzi powoli do ¶wi±tyni.~
+TextIn $n w³a¶nie w<&szed³/esz³a/esz³o> do ¶rodka.~
+~
+16384 0 124
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39
+Name Pó³nocna aleja~
+Descr Szeroka, bardzo dobrze utrzymana droga. Ca³a jest wy³o¿ona g³adkimi,
+granitowymi p³ytami szczelnie do siebie przylegaj±cymi. Po obu stronach
+drogi widzisz charakterystyczne dla krasnoludów domy. Niskie, roz³o¿yste
+chatki z ma³ymi otworami okiennymi. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40
+ExitExtEnd
+Exit 0
+~
+~
+0 0 40
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17187
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17187
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 40
+Name Pó³nocne skrzy¿owanie~
+Descr W tym miejscu w±ska droga id±ca przy murze przecina Pó³nocna Alejê. Na
+pó³nocy widzisz wysoki mur i g³ówn± bramê. Droga na po³udnie pnie siê lekko
+pod gore, zmierzaj±c w stronê centralnego placu Fortecy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 63
+ExitExtEnd
+Exit 1
+~
+~
+0 0 63
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 106
+ExitExtEnd
+Exit 3
+~
+~
+0 0 106
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 41
+Name Pó³nocna brama Fortecy~
+Descr Patrz±c na t± wielk± bramê zastanawiasz siê, jakie si³y by³yby j± w
+stanie roztrzaskaæ. Jest ona prawie metrowej grubo¶ci, tworz± j± szerokie
+dêbowe bele, okute centymetrow± stal±. Potwornie ciê¿kie wrota umieszczono
+na szczê¶cie w dobrze naoliwionych zawiasach. Nad bram± znajduje siê,
+solidnie podtrzymywana wie¿a z której krasnoludzcy kusznicy w razie ataku,
+zasypi± wrogów morzem be³tów. Nie widaæ st±d nic, a nic nieba, jednak
+kamienna konsturkcja, jest niew±tpliwie wytworem krasnoludzkich mistrzów
+rzemios³a. Jest co podziwiaæ. 
+~
+FlagsExt 0|e
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n wychodzi za bramê.~
+ExitExtTextIn $n wychodzi z bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 132
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+TextOut $n wychodzi za bramê.~
+TextIn $n wychodzi z bramy.~
+brama~
+3 0 132
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40
+ExitExtEnd
+Exit 2
+~
+~
+0 0 40
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 42
+Name Wschodnia droga~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Zbrojmistrz~
+ExitExtTextOut $n wchodzi do zbrojmistrza.~
+ExitExtTextIn $n wchodzi do zbrojmistrza.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 43
+ExitExtEnd
+Exit 0
+~
+VName Zbrojmistrz~
+TextOut $n wchodzi do zbrojmistrza.~
+TextIn $n wchodzi do zbrojmistrza.~
+~
+16384 0 43
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46
+ExitExtEnd
+Exit 1
+~
+~
+0 0 46
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Sklep~
+ExitExtTextOut $n wchodzi do sklepu.~
+ExitExtTextIn $n wchodzi do sklepu.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 44
+ExitExtEnd
+Exit 2
+~
+VName Sklep~
+TextOut $n wchodzi do sklepu.~
+TextIn $n wchodzi do sklepu.~
+~
+16384 0 44
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43
+Name Sklep Grazila~
+Descr Jeste¶ w ca³kiem sporym sklepie, panuje tutaj idealny porz±dek. Pod
+¶cianami stoj± pó³ki, a na nich najró¿niejsze typy uzbrojenia. Mo¿na tutaj
+oczywi¶cie znale¼æ najzwyklejsza bron, ale zdarza siê czasem, ¿e powracaj±cy
+z dalekiej wyprawy wêdrowcy sprzedadz± Grazilowi naprawdê rzadkie okazy,
+trudno dostêpne na rynku. Sam kowal stoi za wielka lada, zawalona w ca³o¶ci
+rozmaitymi narzêdziami do zadawania bólu i cierpienia... 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi ze sklepu.~
+ExitExtTextIn $n wyszed³ ze sklepu zbrojmistrza.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 42
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi ze sklepu.~
+TextIn $n wyszed³ ze sklepu zbrojmistrza.~
+~
+16384 0 42
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 44
+Name Sklep wielobran¿owy~
+Descr Niezbyt du¿e pomieszczenie, jednak¿e wygl±da do¶æ przytulnie i schludnie.
+Na ¶rodku stoi kilka sto³ów zastawionych wszelakiej ma¶ci towarami. Pod
+¶ciana widaæ kilka ¶redniej wielko¶ci gablotek, w których znajduj± siê ró¿ne
+pami±tki. Ca³y pokój o¶wietla zdobiona, kryszta³owa lampa zawieszona na
+suficie. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wysz<&ed³/³a/³o> ze sklepu.~
+ExitExtTextIn $n wyszed³ ze sklepu.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 42
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wysz<&ed³/³a/³o> ze sklepu.~
+TextIn $n wyszed³ ze sklepu.~
+~
+16384 0 42
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 45
+Name Ku¼nia Joerga~
+Descr Obszerna, ale do¶æ mroczna ku¼nia. Dominuj±cym ¼ród³em ¶wiat³a jest
+wielkie, rozpalone do czerwono¶ci palenisko, stoj±ce na ¶rodku. Na ¶cianach
+wisz± ro¿ne niedokoñczone pancerze, tarcze, b³yszcz±ce zbroje oraz rozmaite
+narzêdzia kowalskie. Ju¿ po chwili czujesz zbieraj±cy siê pod ubraniem pot,
+który sp³ywa, ³askocz±c ciê nieprzyjemnie. Niestety nic nie mo¿esz na to
+poradziæ, bo oprócz ¶wiat³a, palenisko emanuje niezno¶nym wprost ciep³em.
+Lepiej za³atw wszystko co potrzebujesz za³atwiæ i zmykaj do baru na zimne
+piwko. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z ku¼ni Joerga.~
+ExitExtTextIn $n wysz<&ed³/³a/³o> z ku¼ni.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 32
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z ku¼ni Joerga.~
+TextIn $n wysz<&ed³/³a/³o> z ku¼ni.~
+~
+16384 0 32
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 46
+Name Wschodnia droga~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+Extra drzwi~
+Na pó³nocy widzisz monumentalne drzwi br±zowe o dekoracji figuralnej,
+obramowanych bordiura z wicia ro¶linna i motywami zwierzêcymi stanowi±cymi
+swoisty komentarz sformu³owany w jêzyku symboli i alegorii. Na drzwiach
+widzisz antabê w formie lwiej g³owy. 
+~
+Extra antaba~
+Metalowy uchwyt umocowany na potê¿nych br±zowych drzwiach s³u¿±cy z jako
+ko³atk±, wyrze¼biony w kszta³t lwiej g³owy z obrêcz± w pysku.
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 47
+ExitExtEnd
+Exit 1
+~
+~
+0 0 47
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42
+ExitExtEnd
+Exit 3
+~
+~
+0 0 42
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 47
+Name Wschodnia droga~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription Monumentalne drzwi br±zowe o dekoracji figuralnej, obramowanych bordiura
+z wicia ro¶linna i motywami zwierzêcymi stanowi±cymi swoisty komentarz
+sformu³owany w jêzyku symboli i alegorii. Na drzwiach widzisz antabê w
+formie lwiej g³owy. Tu¿ nad drzwiami widzisz niewielki okr±g³y otwór,
+ciekawe co to takiego... ? 
+~
+ExitExtBiernik drzwi~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 49159
+ExitExtKey 0
+ExitExtToVnum 17200
+ExitExtEnd
+Exit 0
+Monumentalne drzwi br±zowe o dekoracji figuralnej, obramowanych bordiura
+z wicia ro¶linna i motywami zwierzêcymi stanowi±cymi swoisty komentarz
+sformu³owany w jêzyku symboli i alegorii. Na drzwiach widzisz antabê w
+formie lwiej g³owy. Tu¿ nad drzwiami widzisz niewielki okr±g³y otwór,
+ciekawe co to takiego... ? 
+~
+drzwi~
+49159 0 17200
+Exittrap 0 46
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 48
+ExitExtEnd
+Exit 1
+~
+~
+0 0 48
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 46
+ExitExtEnd
+Exit 3
+~
+~
+0 0 46
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 48
+Name Wschodnia droga~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+Extra wrota~
+Wielkie drewniane drzwi prowadz±ce do jednej z wielu miejskich kamienic.
+Przepiêknie rze¼bione sceny walki, smoki i rycerze. Na te drzwi mo¿na
+patrzeæ godzinami. To nie drzwi, to dzie³o sztuki. Ciekawe kto mieszka za
+takimi wrotami.
+~
+Extra drzwi~
+Wielkie drewniane drzwi prowadz±ce do jednej z wielu miejskich kamienic.
+Przepiêknie rze¼bione sceny walki, smoki i rycerze. Na te drzwi mo¿na
+patrzeæ godzinami. To nie drzwi, to dzie³o sztuki. Ciekawe kto mieszka za
+takimi wrotami. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 49
+ExitExtEnd
+Exit 1
+~
+~
+0 0 49
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 17156
+ExitExtEnd
+Exit 2
+~
+drzwi~
+16387 0 17156
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 47
+ExitExtEnd
+Exit 3
+~
+~
+0 0 47
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 49
+Name Wschodnie skrzy¿owanie~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 73
+ExitExtEnd
+Exit 0
+~
+~
+0 0 73
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50
+ExitExtEnd
+Exit 1
+~
+~
+0 0 50
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 74
+ExitExtEnd
+Exit 2
+~
+~
+0 0 74
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 48
+ExitExtEnd
+Exit 3
+~
+~
+0 0 48
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 50
+Name Brama G³ówna Fortecy~
+Descr Du¿a, kwadratowa, stalowa brama. Ro¿ni siê wygl±dem od wszystkiego co tu
+mo¿na zobaczyæ, prawdopodobnie postawiona ja tu stosunkowo niedawno. Nad
+brama dostrzegasz skomplikowany mechanizm, który w przypadku ataku zasypie
+to przej¶cie kilkoma tonami g³azów. Czujesz siê do¶æ nieswojo przechodz±c
+pod t± gór± kamieni. Nad bram± znajduje siê, solidnie podmurowana wie¿a z
+której krasnoludzcy kusznicy w razie ataku, zasypi± wrogów morzem be³tów.
+Nie widaæ st±d nic a nic nieba, jednak kamienna konstrukcja, jest
+niew±tpliwie wytworem krasnoludzkich mistrzów rzemios³a. Jest co podziwiaæ. 
+~
+FlagsExt 0|e
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n wychodzi za bramê.~
+ExitExtTextIn $n wyszedl z bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5602
+ExitExtEnd
+Exit 1
+~
+VName Brama~
+TextOut $n wychodzi za bramê.~
+TextIn $n wyszedl z bramy.~
+brama~
+3 0 5602
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 49
+ExitExtEnd
+Exit 3
+~
+~
+0 0 49
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 51
+Name Zachodnia Aleja~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Jubiler~
+ExitExtTextOut $n wchodzi do jubilera.~
+ExitExtTextIn $n wchodzi do sklepu.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 5619
+ExitExtEnd
+Exit 0
+~
+VName Jubiler~
+TextOut $n wchodzi do jubilera.~
+TextIn $n wchodzi do sklepu.~
+~
+16384 0 5619
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32
+ExitExtEnd
+Exit 1
+~
+~
+0 0 32
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17179
+ExitExtEnd
+Exit 2
+~
+~
+0 0 17179
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52
+ExitExtEnd
+Exit 3
+~
+~
+0 0 52
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 52
+Name Zachodnia Aleja~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Sala treningowa~
+ExitExtTextOut $n wchodzi do sali treningowej.~
+ExitExtBiernik drzwi~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 128
+ExitExtEnd
+Exit 0
+~
+VName Sala treningowa~
+TextOut $n wchodzi do sali treningowej.~
+drzwi~
+16387 0 128
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 51
+ExitExtEnd
+Exit 1
+~
+~
+0 0 51
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Akademia~
+ExitExtTextOut $n wchodzi do tajemniczej akademii.~
+ExitExtTextIn $n wszed³ do budynku.~
+ExitExtBiernik drzwi~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 126
+ExitExtEnd
+Exit 2
+~
+VName Akademia~
+TextOut $n wchodzi do tajemniczej akademii.~
+TextIn $n wszed³ do budynku.~
+drzwi~
+16387 0 126
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 53
+ExitExtEnd
+Exit 3
+~
+~
+0 0 53
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 53
+Name Zachodnia Aleja~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 52
+ExitExtEnd
+Exit 1
+~
+~
+0 0 52
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5618
+ExitExtEnd
+Exit 2
+~
+~
+0 0 5618
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 54
+ExitExtEnd
+Exit 3
+~
+~
+0 0 54
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 54
+Name Zachodnia Aleja~
+Descr Stoisz na szerokiej, wy³o¿onej granitowymi p³ytami, drodze. Przechodzi
+ona przez cala krasnoludzka Fortece, ci±gnie siê od zachodniego do
+wschodniego muru. Ze wzglêdu na to, ¿e przy tej drodze znajduj± siê
+wszystkie sklepy Fortecy zwie siê ja tez czasami droga kupiecka. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 110
+ExitExtEnd
+Exit 0
+~
+~
+0 0 110
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 53
+ExitExtEnd
+Exit 1
+~
+~
+0 0 53
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55
+ExitExtEnd
+Exit 3
+~
+~
+0 0 55
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 55
+Name Zachodnie skrzy¿owanie~
+Descr Stoisz na skrzy¿owaniu zachodniej alei i Stra¿niczej drogi. Na zachodzie,
+ponad murami otaczaj±cymi Fortece, dostrzegasz monumentalne górskie szczyty
+pokryte ¶niegiem i lodem. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 96
+ExitExtEnd
+Exit 0
+~
+~
+0 0 96
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 54
+ExitExtEnd
+Exit 1
+~
+~
+0 0 54
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 95
+ExitExtEnd
+Exit 2
+~
+~
+0 0 95
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 56
+ExitExtEnd
+Exit 3
+~
+~
+0 0 56
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 56
+Name Zachodnia brama~
+Descr Stoisz przed do¶æ ma³a, metalowa brama. Zardzewia³a k³ódka ¶wiadczy o
+niezbyt czêstym u¿ywaniu tej bramy. Pewnie dlatego ze droga wiod±ca na
+zachód jest do¶æ uci±¿liwa, przynajmniej w jej górskim odcinku. Nad brama
+znajduje sie, solidnie podtrzymywana wieza z której krasnoludzcy kusznicy w
+razie ataku, zasypia wrogow morzem beltow. Nie widac stad nic a nic nieba,
+jednak kamienna konsturkcja, jest niewatpliwie wytoworem krasnoludzkich
+mistrzow rzemiosla. Jest co podziwiac. 
+~
+FlagsExt 0|e
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55
+ExitExtEnd
+Exit 1
+~
+~
+0 0 55
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtTextOut $n wychodzi za bramê.~
+ExitExtTextIn $n wyszed³ z masywnej bramy.~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 222
+ExitExtEnd
+Exit 3
+~
+VName Brama~
+TextOut $n wychodzi za bramê.~
+TextIn $n wyszed³ z masywnej bramy.~
+brama~
+3 0 222
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 57
+Name Po³udniowa Aleja~
+Descr Szeroka, wy³o¿ona g³adkimi, b³yszcz±cymi p³ytami droga. Biegnie ona lekko
+pod gore w kierunku po³udniowym. Po obu stronach drogi wznosz± siê
+niewysokie, budowane po krasnoludzku, kamienne domy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35
+ExitExt 1
+ExitExtDescription Potê¿ne, dêbowe drzwi wzmacniane stalowymi æwiekami.
+~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 130
+ExitExtEnd
+Exit 1
+Potê¿ne, dêbowe drzwi wzmacniane stalowymi æwiekami.
+~
+drzwi~
+16387 0 130
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 58
+ExitExtEnd
+Exit 2
+~
+~
+0 0 58
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 58
+Name Po³udniowa Aleja~
+Descr Szeroka, wy³o¿ona g³adkimi, b³yszcz±cymi p³ytami droga. Biegnie ona lekko
+pod gore w kierunku po³udniowym. Po obu stronach drogi wznosz± siê
+niewysokie, budowane po krasnoludzku, kamienne domy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 57
+ExitExtEnd
+Exit 0
+~
+~
+0 0 57
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Sanktuarium~
+ExitExtTextOut $n znika w cieniu s±cz±cym siê z Sanktuarium Variotha.~
+ExitExtTextIn $n wchodzi do ¶rodka.~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 17192
+ExitExtEnd
+Exit 1
+~
+VName Sanktuarium~
+TextOut $n znika w cieniu s±cz±cym siê z Sanktuarium Variotha.~
+TextIn $n wchodzi do ¶rodka.~
+drzwi~
+16387 0 17192
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 59
+ExitExtEnd
+Exit 2
+~
+~
+0 0 59
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 17176
+ExitExtEnd
+Exit 3
+~
+~
+16387 0 17176
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 59
+Name Po³udniowa Aleja~
+Descr Szeroka, wy³o¿ona g³adkimi, b³yszcz±cymi p³ytami droga. Biegnie ona lekko
+pod gore w kierunku po³udniowym. Po obu stronach drogi wznosz± siê
+niewysokie, budowane po krasnoludzku, kamienne domy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 58
+ExitExtEnd
+Exit 0
+~
+~
+0 0 58
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 113
+ExitExtEnd
+Exit 1
+~
+~
+0 0 113
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60
+ExitExtEnd
+Exit 2
+~
+~
+0 0 60
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Rze¼nik~
+ExitExtTextOut $n wchodzi do sklepu rze¼niczego.~
+ExitExtTextIn $n wchodzi do sklepu.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17193
+ExitExtEnd
+Exit 3
+~
+VName Rze¼nik~
+TextOut $n wchodzi do sklepu rze¼niczego.~
+TextIn $n wchodzi do sklepu.~
+~
+0 0 17193
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 60
+Name Po³udniowa Aleja~
+Descr Szeroka, wy³o¿ona g³adkimi, b³yszcz±cymi p³ytami droga. Biegnie ona lekko
+pod gore w kierunku po³udniowym. Po obu stronach drogi wznosz± siê
+niewysokie, budowane po krasnoludzku, kamienne domy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 59
+ExitExtEnd
+Exit 0
+~
+~
+0 0 59
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 61
+ExitExtEnd
+Exit 2
+~
+~
+0 0 61
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 17197
+ExitExtEnd
+Exit 3
+~
+drzwi~
+16387 0 17197
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 61
+Name Po³udniowe skrzy¿owanie~
+Descr Stoisz na skrzy¿owaniu po³udniowej alei i drogi stra¿niczej. W kierunku
+pó³nocnym rozci±ga siê wspania³a panorama ca³ej Fortecy. Setki kolistych,
+regularnie roz³o¿onych kamiennych dachów krasnoludzkich domostw, wysokie
+baszty stra¿nicze wznosz±ce siê na nad murami, maj±cz±ce w oddali wysokie,
+o¶nie¿one, górskie szczyty. Byæ mo¿e nie dla ka¿dego jest to wspania³y
+widok, jednak¿e krasnoludy maj± w³asn± opinie na ten temat. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60
+ExitExtEnd
+Exit 0
+~
+~
+0 0 60
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 84
+ExitExtEnd
+Exit 1
+~
+~
+0 0 84
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20333
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20333
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 85
+ExitExtEnd
+Exit 3
+~
+~
+0 0 85
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 62
+Name Brama do kopalni~
+Descr Stoisz przed stara, drewniana brama szczelnie zamykaj±c± przej¶cie w
+wykutym w skale chodniku. Pajêczyny oraz wielka stalowa sztaba przybita do
+bramy ¶wiadczy o tym, ¿e kopalnia od dawna ju¿ jest nieczynna. Przez chwile
+zastanawiasz siê czy to zabezpieczenie jest po to by nieproszeni go¶cie nie
+wchodzili do kopalni czy tez ¿eby co¶ przypadkiem z kopalni nie wysz³o. 
+~
+FlagsExt 0|C
+Sector 1
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 63
+Name Na wschód od pó³nocnego skrzy¿owania~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 64
+ExitExtEnd
+Exit 1
+~
+~
+0 0 64
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40
+ExitExtEnd
+Exit 3
+~
+~
+0 0 40
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 64
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 63
+ExitExtEnd
+Exit 3
+~
+~
+0 0 63
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 65
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 66
+ExitExtEnd
+Exit 1
+~
+~
+0 0 66
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 64
+ExitExtEnd
+Exit 3
+~
+~
+0 0 64
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 66
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 67
+ExitExtEnd
+Exit 1
+~
+~
+0 0 67
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65
+ExitExtEnd
+Exit 3
+~
+~
+0 0 65
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 67
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 68
+ExitExtEnd
+Exit 1
+~
+~
+0 0 68
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 66
+ExitExtEnd
+Exit 3
+~
+~
+0 0 66
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 68
+Name Droga przy murze~
+Descr W tym miejscu stykaj± siê ze sob± pod k±tem prostym dwa mury, opasuj±ce
+Fortecê ochronnym pier¶cieniem od pó³nocy i wschodu. Si³± rzeczy droga
+zakrêca tutaj, u stóp umiejscowionej w miejscu zetkniêcia murów wysokiej i
+potê¿nej baszty. Z podziwem patrzysz na ni±, rozmy¶laj±c o kunszcie
+architektów i budowniczych tej Fortecy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 69
+ExitExtEnd
+Exit 2
+~
+~
+0 0 69
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 67
+ExitExtEnd
+Exit 3
+~
+~
+0 0 67
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 69
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 68
+ExitExtEnd
+Exit 0
+~
+~
+0 0 68
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 70
+ExitExtEnd
+Exit 2
+~
+~
+0 0 70
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 70
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 69
+ExitExtEnd
+Exit 0
+~
+~
+0 0 69
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 71
+ExitExtEnd
+Exit 2
+~
+~
+0 0 71
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 71
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 70
+ExitExtEnd
+Exit 0
+~
+~
+0 0 70
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 72
+ExitExtEnd
+Exit 2
+~
+~
+0 0 72
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Kamieniczka~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 27308
+ExitExtEnd
+Exit 3
+~
+VName Kamieniczka~
+~
+1 0 27308
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 72
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 71
+ExitExtEnd
+Exit 0
+~
+~
+0 0 71
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 73
+ExitExtEnd
+Exit 2
+~
+~
+0 0 73
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 73
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 72
+ExitExtEnd
+Exit 0
+~
+~
+0 0 72
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 49
+ExitExtEnd
+Exit 2
+~
+~
+0 0 49
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 74
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 49
+ExitExtEnd
+Exit 0
+~
+~
+0 0 49
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 75
+ExitExtEnd
+Exit 2
+~
+~
+0 0 75
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 75
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 74
+ExitExtEnd
+Exit 0
+~
+~
+0 0 74
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 76
+ExitExtEnd
+Exit 2
+~
+~
+0 0 76
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Kamieniczka~
+ExitExtLiczba 1
+ExitExtInfo 1
+ExitExtKey 0
+ExitExtToVnum 27315
+ExitExtEnd
+Exit 3
+~
+VName Kamieniczka~
+~
+1 0 27315
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 76
+Name Droga obok Fortecznego muru~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 75
+ExitExtEnd
+Exit 0
+~
+~
+0 0 75
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 77
+ExitExtEnd
+Exit 2
+~
+~
+0 0 77
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 77
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 76
+ExitExtEnd
+Exit 0
+~
+~
+0 0 76
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 78
+ExitExtEnd
+Exit 2
+~
+~
+0 0 78
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 78
+Name Droga stra¿nicza~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 77
+ExitExtEnd
+Exit 0
+~
+~
+0 0 77
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 79
+ExitExtEnd
+Exit 2
+~
+~
+0 0 79
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 79
+Name Po³udniowo-wschodni naro¿nik Fortecy~
+Descr W tym miejscu stykaj± siê ze sob± pod k±tem prostym dwa mury, opasuj±ce
+Fortecê ochronnym pier¶cieniem od po³udnia i wschodu. Si³± rzeczy droga
+zakrêca tutaj, u stóp umiejscowionej w miejscu zetkniêcia murów wysokiej i
+potê¿nej baszty. Z podziwem patrzysz na ni±, rozmy¶laj±c o kunszcie
+architektów i budowniczych tej Fortecy.
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 78
+ExitExtEnd
+Exit 0
+~
+~
+0 0 78
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 80
+ExitExtEnd
+Exit 3
+~
+~
+0 0 80
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 80
+Name Droga obok muru~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 79
+ExitExtEnd
+Exit 1
+~
+~
+0 0 79
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81
+ExitExtEnd
+Exit 3
+~
+~
+0 0 81
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 81
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 80
+ExitExtEnd
+Exit 1
+~
+~
+0 0 80
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 82
+ExitExtEnd
+Exit 3
+~
+~
+0 0 82
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 82
+Name Przy murze Fortecy~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 81
+ExitExtEnd
+Exit 1
+~
+~
+0 0 81
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 83
+ExitExtEnd
+Exit 3
+~
+~
+0 0 83
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 83
+Name Droga przy murze~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 82
+ExitExtEnd
+Exit 1
+~
+~
+0 0 82
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 84
+ExitExtEnd
+Exit 3
+~
+~
+0 0 84
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 84
+Name Na wschód od po³udniowego skrzy¿owania~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 83
+ExitExtEnd
+Exit 1
+~
+~
+0 0 83
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 61
+ExitExtEnd
+Exit 3
+~
+~
+0 0 61
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 85
+Name Na zachód od po³udniowego skrzy¿owania~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 61
+ExitExtEnd
+Exit 1
+~
+~
+0 0 61
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 86
+ExitExtEnd
+Exit 3
+~
+~
+0 0 86
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 86
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 85
+ExitExtEnd
+Exit 1
+~
+~
+0 0 85
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 87
+ExitExtEnd
+Exit 3
+~
+~
+0 0 87
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 87
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 86
+ExitExtEnd
+Exit 1
+~
+~
+0 0 86
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 88
+ExitExtEnd
+Exit 3
+~
+~
+0 0 88
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 88
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24439
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24439
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 87
+ExitExtEnd
+Exit 1
+~
+~
+0 0 87
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 89
+ExitExtEnd
+Exit 3
+~
+~
+0 0 89
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 89
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 88
+ExitExtEnd
+Exit 1
+~
+~
+0 0 88
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 90
+ExitExtEnd
+Exit 3
+~
+~
+0 0 90
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 90
+Name Po³udniowo-zachodni naro¿nik Fortecy~
+Descr W tym miejscu stykaj± siê ze sob± pod k±tem prostym dwa mury, opasuj±ce
+Fortecê ochronnym pier¶cieniem od po³udnia i zachodu. Si³± rzeczy droga
+zakrêca tutaj, u stóp umiejscowionej w miejscu zetkniêcia murów wysokiej i
+potê¿nej baszty. Z podziwem patrzysz na ni±, rozmy¶laj±c o kunszcie
+architektów i budowniczych tej Fortecy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 91
+ExitExtEnd
+Exit 0
+~
+~
+0 0 91
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 89
+ExitExtEnd
+Exit 1
+~
+~
+0 0 89
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 91
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 92
+ExitExtEnd
+Exit 0
+~
+~
+0 0 92
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 90
+ExitExtEnd
+Exit 2
+~
+~
+0 0 90
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 92
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 93
+ExitExtEnd
+Exit 0
+~
+~
+0 0 93
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 91
+ExitExtEnd
+Exit 2
+~
+~
+0 0 91
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 93
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 94
+ExitExtEnd
+Exit 0
+~
+~
+0 0 94
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 92
+ExitExtEnd
+Exit 2
+~
+~
+0 0 92
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 94
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 95
+ExitExtEnd
+Exit 0
+~
+~
+0 0 95
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 93
+ExitExtEnd
+Exit 2
+~
+~
+0 0 93
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 95
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55
+ExitExtEnd
+Exit 0
+~
+~
+0 0 55
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 94
+ExitExtEnd
+Exit 2
+~
+~
+0 0 94
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 96
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 97
+ExitExtEnd
+Exit 0
+~
+~
+0 0 97
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 97
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 98
+ExitExtEnd
+Exit 0
+~
+~
+0 0 98
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 96
+ExitExtEnd
+Exit 2
+~
+~
+0 0 96
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 98
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 99
+ExitExtEnd
+Exit 0
+~
+~
+0 0 99
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 97
+ExitExtEnd
+Exit 2
+~
+~
+0 0 97
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 99
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 100
+ExitExtEnd
+Exit 0
+~
+~
+0 0 100
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 98
+ExitExtEnd
+Exit 2
+~
+~
+0 0 98
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 100
+Name Stra¿nicza droga~
+Descr Stoisz na drodze najczê¶ciej zwanej stra¿nicza. Wziê³o siê to stad, ze
+droga ta okr±¿a Fortece, biegn±c praktycznie przy samym murze. W zwi±zku z
+tym najczê¶ciej jest ona u¿ywana przez stra¿ników. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 101
+ExitExtEnd
+Exit 0
+~
+~
+0 0 101
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 99
+ExitExtEnd
+Exit 2
+~
+~
+0 0 99
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 101
+Name Pó³nocno-zachodni naro¿nik Fortecy~
+Descr W tym miejscu stykaj± siê ze sob± pod k±tem prostym dwa mury, opasuj±ce
+Fortecê ochronnym pier¶cieniem od pó³nocy i zachodu. Si³± rzeczy droga
+zakrêca tutaj, u stóp umiejscowionej w miejscu zetkniêcia murów wysokiej i
+potê¿nej baszty. Z podziwem patrzysz na ni±, rozmy¶laj±c o kunszcie
+architektów i budowniczych tej Fortecy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 102
+ExitExtEnd
+Exit 1
+~
+~
+0 0 102
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 100
+ExitExtEnd
+Exit 2
+~
+~
+0 0 100
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 102
+Name Zwê¿enie stra¿niczej drogi~
+Descr Stoisz na drodze, która jako taka nie posiada swojej nazwy. Jednak z
+racji tego, ¿e najczê¶ciej u¿ywaj± jej stra¿nicy, nazywana jest drog±
+stra¿nicz±. Biegnie ona tu¿ pod murami, ³±cz±c ze sob± rogi Fortecy i bramy
+miasta. Z racji wa¿nej funkcji obronnej, nie ma tutaj ¿adnych sklepów czy
+straganów, a i mieszkañcy nie tak czêsto têdy chodz±, no chyba ¿e akurat
+gdzie¶ im siê spieszy.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 103
+ExitExtEnd
+Exit 1
+~
+~
+0 0 103
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 101
+ExitExtEnd
+Exit 3
+~
+~
+0 0 101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 103
+Name Droga pod murami~
+Descr Stoisz na drodze, która jako taka nie posiada swojej nazwy. Jednak z
+racji tego, ¿e najczê¶ciej u¿ywaj± jej stra¿nicy, nazywana jest drog±
+stra¿nicz±. Biegnie ona tu¿ pod murami, ³±cz±c ze sob± rogi Fortecy i bramy
+miasta. Z racji wa¿nej funkcji obronnej, nie ma tutaj ¿adnych sklepów czy
+straganów, a i mieszkañcy nie tak czêsto têdy chodz±, no chyba ¿e akurat
+gdzie¶ im siê spieszy.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 104
+ExitExtEnd
+Exit 1
+~
+~
+0 0 104
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 102
+ExitExtEnd
+Exit 3
+~
+~
+0 0 102
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 104
+Name Stra¿nicza droga~
+Descr Stoisz na drodze, która jako taka nie posiada swojej nazwy. Jednak z
+racji tego, ¿e najczê¶ciej u¿ywaj± jej stra¿nicy, nazywana jest drog±
+stra¿nicz±. Biegnie ona tu¿ pod murami, ³±cz±c ze sob± rogi Fortecy i bramy
+miasta. Z racji wa¿nej funkcji obronnej, nie ma tutaj ¿adnych sklepów czy
+straganów, a i mieszkañcy nie tak czêsto têdy chodz±, no chyba ¿e akurat
+gdzie¶ im siê spieszy.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 105
+ExitExtEnd
+Exit 1
+~
+~
+0 0 105
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 103
+ExitExtEnd
+Exit 3
+~
+~
+0 0 103
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 105
+Name Droga stra¿nicza~
+Descr Stoisz na drodze, która jako taka nie posiada swojej nazwy. Jednak z
+racji tego, ¿e najczê¶ciej u¿ywaj± jej stra¿nicy, nazywana jest drog±
+stra¿nicz±. Biegnie ona tu¿ pod murami, ³±cz±c ze sob± rogi Fortecy i bramy
+miasta. Z racji wa¿nej funkcji obronnej, nie ma tutaj ¿adnych sklepów czy
+straganów, a i mieszkañcy nie tak czêsto têdy chodz±, no chyba ¿e akurat
+gdzie¶ im siê spieszy.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 106
+ExitExtEnd
+Exit 1
+~
+~
+0 0 106
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 104
+ExitExtEnd
+Exit 3
+~
+~
+0 0 104
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 106
+Name Na zachód od pó³nocnego skrzy¿owania~
+Descr Stoisz na drodze, która jako taka nie posiada swojej nazwy. Jednak z
+racji tego, ¿e najczê¶ciej u¿ywaj± jej stra¿nicy, nazywana jest drog±
+stra¿nicz±. Biegnie ona tu¿ pod murami, ³±cz±c ze sob± rogi Fortecy i bramy
+miasta. Z racji wa¿nej funkcji obronnej, nie ma tutaj ¿adnych sklepów czy
+straganów, a i mieszkañcy nie tak czêsto têdy chodz±, no chyba ¿e akurat
+gdzie¶ im siê spieszy. 
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 105
+ExitExtEnd
+Exit 3
+~
+~
+0 0 105
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 107
+Name Bank~
+Descr Wchodzisz do do¶æ ma³ego pomieszczenia. Jest ono bardzo skromnie
+urz±dzone. W ¶cianie naprzeciw wej¶cia widzisz zakratowane okienko, przez
+kraty dostrzegasz sêdziwego krasnoluda. 
+~
+FlagsExt 0|HU
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n w³a¶nie wychodzi na ulicê~
+ExitExtTextIn $n w³a¶nie wychodzi z banku~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 33
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n w³a¶nie wychodzi na ulicê~
+TextIn $n w³a¶nie wychodzi z banku~
+~
+16384 0 33
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 108
+Name Karczma~
+Descr Jest to jedna z mniejszych karczm jakie kiedykolwiek widzia³e¶. Jedna ze
+¶cian zajmuje du¿y, zdobiony kominek. Miedzy kominkiem a sto³em ustawiono
+d³uga, drewniana ³awê. Pod³oga wy³o¿ona jest dêbowymi deskami, trzeszcz±cymi
+przy ka¿dym kroku. 
+~
+FlagsExt 0|CDH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z karczmy.~
+ExitExtTextIn $n wysz<&ed³/³a/³o> z karczmy.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 35
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z karczmy.~
+TextIn $n wysz<&ed³/³a/³o> z karczmy.~
+~
+16384 0 35
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 109
+ExitExtEnd
+Exit 2
+~
+~
+0 0 109
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 17195
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 17195
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 109
+Name Przy kontuarze w Fortecy~
+Descr Stoi tutaj tylko kilka sto³ków, a na samym kontuarze wielka beczu³ka z
+kranikiem. S±dz±c po zapachu chmielu pe³na piwa. Oprócz dokonania zakupu
+rozmaitych dóbr mo¿esz tutaj dogadaæ siê z karczmarzem co do wynajmu pokoi.
+W tym celu przeczytaj zawieszone na ¶cianie INSTRUKCJE. 
+~
+FlagsExt 0|CDGHKW/1|C
+Sector 0
+Extra instrukcje~
+Instrukcja 'Jak wynaj±æ pokój':
+-napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
+-napisz 'offer' aby zobaczyæ ile bêdzie ciê kosztowa³ rent
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 108
+ExitExtEnd
+Exit 0
+~
+~
+0 0 108
+Heal 10
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 110
+Name Droga do wiezienia~
+Descr Mocno ju¿ zniszczona uliczka ci±gnie siê pomiêdzy szarymi murami. Dziur w
+niej co niemiara, a w ka¿dej kilka ³adnych wiader b³ota by siê znalaz³o.
+Ruch tutaj tak¿e jakby mniejszy, ale wynika to z charakteru drogi. Je¶li ju¿
+kto¶ ni± pod±¿a to zwykle ma "honorowa" obstawê z³o¿ona z miejskich
+stra¿ników. No i nie wraca zbyt szybko... 
+~
+FlagsExt 0|C
+Sector 1
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wiêzienie~
+ExitExtTextOut $n wchodzi do wiêzienia.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 111
+ExitExtEnd
+Exit 0
+~
+VName Wiêzienie~
+TextOut $n wchodzi do wiêzienia.~
+~
+0 0 111
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 54
+ExitExtEnd
+Exit 2
+~
+~
+0 0 54
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 111
+Name Wiezienie~
+Descr Obskurny budynek, ¿adnych mebli ozdób tylko surowe ¶ciany. Polowe
+pomieszczenia zajmuje wielka cela odgrodzona od reszty grubymi metalowymi
+prêtami. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z wiêzienia.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 110
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z wiêzienia.~
+~
+0 0 110
+Roomprog reset 37 100~
+Roomprog exit 32 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 112
+Name Zielarnia~
+Descr Znajdujesz siê w niewielkim pomieszczeniu które w ca³o¶ci przesycone jest
+zapachem zió³ i przypraw. Reszta pomieszczenia znajduj±ca siê za lad± tonie
+w pó³mroku, w³a¶ciciel wiêc musi mieæ wzrok niczym sowa by dojrzeæ co¶ w tym
+na pierwszy rzut oka ciemnym ba³aganie. Jednak sklepik sprawia przyjazne,
+ciep³e wra¿enie i na pewno bêdziesz móg³ tutaj kupiæ lub sprzedaæ ró¿ne
+zio³a. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z zielarni.~
+ExitExtTextIn $n wyszed³ z zielarni.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 32
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z zielarni.~
+TextIn $n wyszed³ z zielarni.~
+~
+0 0 32
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 113
+Name Droga do parku~
+Descr Po obu stronach ulicy rosn± niewysokie, kunsztownie ostrzy¿one drzewka. 
+Nawierzchnia u³o¿ona jest z regularnych, po³yskuj±cych granitowych p³yt. 
+S³yszysz, dochodz±ce ze wschodu, szemranie wody, ¶piew ptaków. 
+~
+FlagsExt 0|C
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 114
+ExitExtEnd
+Exit 1
+~
+~
+0 0 114
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 59
+ExitExtEnd
+Exit 3
+~
+~
+0 0 59
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 114
+Name Droga do parku~
+Descr Po obu stronach ulicy rosn± niewysokie, kunsztownie ostrzy¿one drzewka.
+Nawierzchnia u³o¿ona jest z regularnych, po³yskuj±cych granitowych p³yt.
+S³yszysz, dochodz±ce ze wschodu, szemranie wody, ¶piew ptaków.
+~
+FlagsExt 0
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 115
+ExitExtEnd
+Exit 1
+~
+~
+0 0 115
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 113
+ExitExtEnd
+Exit 3
+~
+~
+0 0 113
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 115
+Name Park~
+Descr Do¶æ spory, jak na warunki Fortecy, placyk. W±skie, granitowe chodniki
+prowadza do dalszych czê¶ci parku, wij±c siê miedzy krotko przystrzy¿ona
+murawa. Co kilka kroków ro¶nie kar³owate, ostrzy¿one drzewko. Widaæ kto¶
+wk³ada sporo pracy w utrzymanie tu porz±dku. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 118
+ExitExtEnd
+Exit 0
+~
+~
+0 0 118
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 116
+ExitExtEnd
+Exit 1
+~
+~
+0 0 116
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 121
+ExitExtEnd
+Exit 2
+~
+~
+0 0 121
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 114
+ExitExtEnd
+Exit 3
+~
+~
+0 0 114
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 116
+Name Przy fontannie~
+Descr Fontanna otoczona jest czarnymi, b³yszcz±cymi p³ytami, a ca³o¶æ otacza
+rz±d drzewek. Przygl±daj±c siê temu wszystkiemu, zapominasz o zmêczeniu.
+Chcesz, chocia¿ na chwile, usi±¶æ na ³aweczce, ws³uchaæ siê w szum wody i
+¶piew ptaków. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 117
+ExitExtEnd
+Exit 1
+~
+~
+0 0 117
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 122
+ExitExtEnd
+Exit 2
+~
+~
+0 0 122
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 115
+ExitExtEnd
+Exit 3
+~
+~
+0 0 115
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 117
+Name Park~
+Descr Czujesz, jak pod wp³ywem otaczaj±cej ciê zieleni, opuszcza ciê zmêczenie.
+W±skie, granitowe chodniki prowadza do dalszych czê¶ci parku, wij±c siê
+miedzy krotko przystrzy¿ona murawa. Co kilka kroków ro¶nie kar³owate,
+ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 119
+ExitExtEnd
+Exit 2
+~
+~
+0 0 119
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 116
+ExitExtEnd
+Exit 3
+~
+~
+0 0 116
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 118
+Name Park~
+Descr Czujesz, jak pod wp³ywem otaczaj±cej ciê zieleni, opuszcza ciê zmêczenie.
+W±skie, granitowe chodniki prowadza do dalszych czê¶ci parku, wij±c siê
+miedzy krotko przystrzy¿ona murawa. Co kilka kroków ro¶nie kar³owate,
+ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 115
+ExitExtEnd
+Exit 2
+~
+~
+0 0 115
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 119
+Name Park~
+Descr Czujesz, jak pod wp³ywem otaczaj±cej ciê zieleni, opuszcza ciê zmêczenie.
+W±skie, granitowe chodniki prowadza do dalszych czê¶ci parku, wij±c siê
+miedzy krotko przystrzy¿ona murawa. Co kilka kroków ro¶nie kar³owate,
+ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 117
+ExitExtEnd
+Exit 0
+~
+~
+0 0 117
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 122
+ExitExtEnd
+Exit 3
+~
+~
+0 0 122
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 120
+Name Sala treningowa~
+Descr Znajdujesz siê w obszernej, dobrze o¶wietlonej sali treningowej. Dooko³a
+ciebie wrze walka, uczniowie pilnie trenuj± swoje umiejêtno¶ci walki na
+manekinach æwiczebnych, rozmieszczonych w ró¿nych miejscach. Byæ mo¿e
+znajdziesz tutaj kogo¶, kto móg³by podszkoliæ ciê w umiejêtno¶ciach walki? 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 129
+ExitExtEnd
+Exit 1
+~
+~
+0 0 129
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 121
+Name Park~
+Descr Czujesz, jak pod wp³ywem otaczaj±cej ciê zieleni, opuszcza ciê zmêczenie.
+W±skie, granitowe chodniki prowadza do dalszych czê¶ci parku, wij±c siê
+miedzy krotko przystrzy¿ona murawa. Co kilka kroków ro¶nie kar³owate,
+ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 115
+ExitExtEnd
+Exit 0
+~
+~
+0 0 115
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 122
+ExitExtEnd
+Exit 1
+~
+~
+0 0 122
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 122
+Name Altana~
+Descr W±ski chodnik prowadzi prosto do zacienionej, drewnianej altany. ¦cianki
+altany porasta b³yszcz±cy krzew, ciemnozielone li¶cie lekko odbijaj±
+¶wiat³o. Przed altana stoi wysoka latarnia gazowa. 
+~
+FlagsExt 0|H
+Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 116
+ExitExtEnd
+Exit 0
+~
+~
+0 0 116
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 119
+ExitExtEnd
+Exit 1
+~
+~
+0 0 119
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 121
+ExitExtEnd
+Exit 3
+~
+~
+0 0 121
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 123
+Name Sala treningowa~
+Descr Znajdujesz siê w obszernej, dobrze o¶wietlonej sali treningowej. Dooko³a
+ciebie wrze walka, uczniowie pilnie trenuj± swoje umiejêtno¶ci walki na
+manekinach æwiczebnych, rozmieszczonych w ró¿nych miejscach. Byæ mo¿e
+znajdziesz tutaj kogo¶, kto móg³by podszkoliæ ciê w umiejêtno¶ciach walki? 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 129
+ExitExtEnd
+Exit 3
+~
+~
+0 0 129
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 124
+Name Droga do ¦wi±tyni Vamyra~
+Descr Znajdujesz siê na szerokich, stromych kamiennych schodach prowadz±cych do
+¶wi±tyni krasnoludzkiego boga Vamyra na zachodzie. Po obu stronach
+wznosz±cych siê do góry schodów rosn± wspaniale wypielêgnowane trawniki i
+klomby z kwiatami. Widaæ, ¿e kap³ani przywi±zuj± ogromn± wagê do otoczenia
+swojego miejsca kultu. Kto by sie tego spodziewa³ po krasnoludach? Na
+zachodzie widzisz owalny portal wej¶ciowy do ¶wi±tyni. 
+~
+FlagsExt 0|C
+Sector 1
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi ze ¶wi±tyni.~
+ExitExtTextIn $n schodz±c po schodkach wychodzi ze ¶wiatyni.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 38
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+TextOut $n wychodzi ze ¶wi±tyni.~
+TextIn $n schodz±c po schodkach wychodzi ze ¶wiatyni.~
+~
+16384 0 38
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 125
+ExitExtEnd
+Exit 3
+~
+~
+0 0 125
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 125
+Name ¦wi±tynia Vamyra~
+Descr Znajdujesz siê w ¶rodku ¶wi±tyni krasnoludzkiego boga Vamyra. Sk³ada siê
+ona w zasadzie z jednej tylko, ale za to wielkiej, owalnej komnaty, której
+strop zosta³ podparty kilkunastoma, do¶æ masywnymi kolumnami. Na ¶rodku
+dostrzegasz podwy¿szenie, a na nim o³tarz przyozdobiony kwiatami. Poza tym
+nie ma tutaj innego wyposa¿enia, je¶li nie liczyæ kilku {Wmosiê¿nych tablic{S
+wisz±cych na ¶cianach oraz ³awek i klêczników ustawionych pod ¶cian± a tak¿e
+o¶wietlaj±cych pomieszczenie, p³on±cych jasno pochodni. 
+~
+FlagsExt 0|BCH
+Sector 0
+Extra tablice~
+Na tych ogromnych, wykonanych z mosi±dzu tablicach przedstawiono liczne
+historie i legendy zwi±zane z Vamyrem i jego rozlicznymi ³askami oraz darami
+dla krasnoludów. Ko³o ka¿dej partii tekstu znajduje siê p³askorze¼ba j±
+ilustruj±ca. Twoj± uwagê szczególnie przykuwa jedna, na której potê¿ny Vamyr
+wbija swoje toporzysko w wij±ce siê ohydnie cielsko czerwonego smoka, który
+w zamierzch³ych czasach napada³ na Krasnoludzk± Fortecê wraz z hordami
+trolli. Przypominasz sobie, ¿e w tych terenach ju¿ dawno nie ma smoków,
+jednak ciekawe czy to rzeczywi¶cie Vamyr je w³asnorêcznie u¶mierci³. 
+~
+Extra tablica~
+Na tych ogromnych, wykonanych z mosi±dzu tablicach przedstawiono liczne
+historie i legendy zwi±zane z Vamyrem i jego rozlicznymi ³askami oraz darami
+dla krasnoludów. Ko³o ka¿dej partii tekstu znajduje siê p³askorze¼ba j±
+ilustruj±ca. Twoj± uwagê szczególnie przykuwa jedna, na której potê¿ny Vamyr
+wbija swoje toporzysko w wij±ce siê ohydnie cielsko czerwonego smoka, który
+w zamierzch³ych czasach napada³ na Krasnoludzk± Fortecê wraz z hordami
+trolli. Przypominasz sobie, ¿e w tych terenach ju¿ dawno nie ma smoków,
+jednak ciekawe czy to rzeczywi¶cie Vamyr je w³asnorêcznie u¶mierci³. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 124
+ExitExtEnd
+Exit 1
+~
+~
+0 0 124
+Heal 150
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 126
+Name Akademia magiczna~
+Descr Spiralne schody prowadza w gore, do komnaty mistrza Zaihona. W ¶cianie
+dostrzegasz jakie¶ dziwne, ¶wiêc±ce kamienie, o¶wietlaj±ce ca³o¶æ
+nieziemskim, zielonym ¶wiat³em. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n wyszed³ z tajemniczego budynku.~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 52
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n wyszed³ z tajemniczego budynku.~
+~
+16387 0 52
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 127
+ExitExtEnd
+Exit 4
+~
+~
+0 0 127
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 127
+Name Pokój mistrza~
+Descr By³by to ca³kiem ³adny i przestronny pokój gdyby nie uginaj±ce siê pod
+ksiêgami szafy stoj±ce przy ka¿dej ze ¶cian. Roztaczaj±cy siê od nich zapach
+starodruków i kurzu przyt³acza ci zmys³ powonienia. Na ¶rodku widzisz jaki¶
+dziwny instrument z umieszczona na ¶rodku kryszta³owa kula. Wydobywaj±ce siê
+ze ¶rodka kuli ¶wiat³o, przybiera na ¶cianach fantasmagoryczne kszta³ty,
+czasem ¶miesz±c, choæ czê¶ciej przera¿aj±c. 
+~
+FlagsExt 0|FH
+Sector 0
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 126
+ExitExtEnd
+Exit 5
+~
+~
+0 0 126
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 128
+Name Akademia wojskowa~
+Descr Szerokie schody prowadza na pó³noc, gdzie za ogromnymi dêbowymi wrotami
+znajduje siê akademia wojskowa mistrza Ghariona. Wojownicy, ale nie tylko,
+poznaj± tam tajniki pos³ugiwania siê ro¿nymi rodzajami broni oraz inne
+przydatne w ¿yciu umiejêtno¶ci. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 129
+ExitExtEnd
+Exit 0
+~
+~
+0 0 129
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi z sali treningowej.~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 52
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+TextOut $n wychodzi z sali treningowej.~
+~
+16387 0 52
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 129
+Name Sala æwiczeñ~
+Descr Jeste¶ w obszernej, jasno o¶wietlonej komnacie. Wszêdzie widzisz stojaki
+z mieczami, toporami i innym orê¿em, s± tak¿e s³u¿±ce do æwiczenia pchniêæ i
+ciosów drewniane manekiny. Panuje tutaj spory ruch i zamieszanie, szczek
+broni miesza siê z krokami wchodz±cych i wychodz±cych osób, podnosz±cych
+swoje kwalifikacje. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 123
+ExitExtEnd
+Exit 1
+~
+~
+0 0 123
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 128
+ExitExtEnd
+Exit 2
+~
+~
+0 0 128
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 120
+ExitExtEnd
+Exit 3
+~
+~
+0 0 120
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 130
+Name Siedziba stra¿ników~
+Descr Niespecjalnie okazale wygl±da owa siedziba. W kacie stoi jakie¶ biurko.
+Bardzo male, chyba nikt tutaj od ju¿ wielu lat nie zajmowa³ siê papierami.
+Pod ¶cianami rozstawiono lawy a nad nimi zamocowano haki i dêbowe polki na
+bron i inne akcesoria. Wisi trochê tego na nich, mo¿e nie wszystko pierwszej
+nowo¶ci, ale trzyma siê chyba dobrze i z cala pewno¶ci± nadal nadaje do
+u¿ytku.
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 57
+ExitExtEnd
+Exit 3
+~
+drzwi~
+16387 0 57
+Roomprog reset 35 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 131
+Name Tajemniczy sklep~
+Descr Có¿ za dziwny sklep... Okna pozas³aniane s± grubymi aksamitnymi kotarami,
+w powietrzu unosi siê niesamowity, ciê¿ki zapach zió³ i jaki¶ chemicznych
+odczynników. W szklanych gablotach dostrzegasz mnóstwo flaszeczek, s³oików
+i jaki¶ zwojów. Za lada stoi, odziany do¶æ ekstrawagancko, u¶miechaj±cy
+siê do ciebie osobnik. Choæ nie jest to tanie, to mo¿esz w tym miejscu poznaæ
+w³asciwo¶ci prawie ka¿dego przedmiotu jaki nosisz, wystarczy odpowiednio
+zapytaæ sprzedawcê, a pomo¿e przy {Yidentyfikacji{x przedmiotu. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n wychodzi na ulicê.~
+ExitExtTextIn $n w³a¶nie wysz<&ed³/³a/³o> ze sklepu.~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 33
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+TextOut $n wychodzi na ulicê.~
+TextIn $n w³a¶nie wysz<&ed³/³a/³o> ze sklepu.~
+~
+16384 0 33
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+32 0 9 46 9 0 120 75 7 20 * 0
+33 0 5 0 0 0 100 75 7 22 * 43
+41 41 0 0 0 0 120 50 0 23 * 0
+43 15 19 8 1 40 110 65 7 22 * 44
+44 19 0 0 0 0 100 100 0 23 * 109
+46 5 9 33 0 0 120 30 0 23 * 0
+72 0 42 0 0 0 120 80 7 21 * 0
+128 32 33 8 0 0 160 80 1 22 * 0
+130 37 2 26 3 10 120 70 7 21 * 0
+0
+
+
+
+#BANKS
+53 4 6 22 * 0
+0
+
+
+
+#SPECIALS
+M 31 spec_patrolman
+M 34 spec_patrolman
+M 40 spec_patrolman
+M 42 spec_patrolman
+M 45 spec_patrolman
+M 48 spec_thief
+M 61 spec_patrolman
+M 62 spec_patrolman
+M 63 spec_patrolman
+M 64 spec_patrolman
+M 65 spec_patrolman
+S
+
+
+
+#RESETS
+M 100 67 3 31 1
+M 100 66 5 31 1
+M 100 65 1 31 1
+M 100 60 2 31 1
+M 100 59 2 31 1
+M 100 57 3 31 1
+O 100 5601 0 31
+M 100 48 4 31 1
+M 100 47 10 31 1
+M 100 54 8 31 1
+M 100 69 1 31 1
+M 100 56 20 32 2
+M 100 54 8 32 1
+M 100 47 10 32 1
+M 100 56 20 33 2
+M 100 54 8 33 1
+M 100 47 10 33 1
+M 100 66 5 36 1
+M 100 71 1 36 1
+M 100 67 3 38 1
+M 100 40 5 38 1
+M 100 68 8 40 1
+M 100 56 20 40 2
+M 100 54 8 40 1
+M 100 47 10 40 1
+M 100 64 4 41 1
+M 100 63 4 41 1
+M 100 33 1 43 1
+E 100 4418 0 8
+E 100 4409 0 7
+G 100 3172 0
+G 100 3157 0
+G 100 3179 0
+G 100 3306 0
+G 100 3097 0
+G 100 3300 0
+G 100 3296 0
+G 100 3164 0
+G 100 3145 0
+G 100 3127 0
+G 100 3128 0
+G 100 3149 0
+G 100 3161 0
+O 100 2363 0 43
+G 100 3135 0
+M 100 43 1 44 1
+E 100 4426 0 12
+E 100 4417 0 8
+G 100 3324 0
+G 100 2499 0
+G 100 2497 0
+G 100 2450 0
+G 100 3185 0
+G 100 65 0
+G 100 67 0
+G 100 534 0
+G 100 3330 0
+G 100 3363 0
+O 100 2363 0 44
+M 100 32 1 45 1
+G 100 3366 0
+G 100 3001 0
+G 100 4369 0
+E 100 3082 0 10
+G 100 3066 0
+G 100 3050 0
+G 100 3018 0
+G 100 3033 0
+G 100 3081 0
+G 100 3049 0
+G 100 3017 0
+G 85 3291 0
+G 40 3029 0
+G 40 3077 0
+G 40 3061 0
+G 40 3003 0
+G 40 3045 0
+O 100 2363 0 45
+M 100 48 4 46 1
+M 100 40 5 47 1
+M 100 56 20 48 2
+M 100 54 8 48 1
+M 100 47 10 48 1
+M 100 64 4 50 1
+M 100 63 4 50 1
+M 100 56 20 51 2
+M 100 54 8 51 1
+M 100 47 10 51 1
+M 100 56 20 52 2
+M 100 54 8 52 1
+M 100 47 10 52 1
+M 100 40 5 52 1
+M 100 48 4 53 1
+M 100 48 4 54 1
+M 100 56 20 54 2
+M 100 54 8 54 1
+M 100 47 10 54 1
+M 100 60 2 54 1
+M 100 59 2 54 1
+M 100 57 3 54 1
+M 100 55 5 55 1
+M 100 58 4 55 1
+M 100 64 4 56 1
+M 100 63 4 56 1
+M 100 40 5 59 1
+M 100 67 3 61 1
+M 100 56 20 61 2
+M 100 54 8 61 1
+M 100 47 10 61 1
+M 100 48 4 64 1
+M 100 56 20 65 2
+M 100 54 8 65 1
+M 100 47 10 65 1
+M 100 66 5 67 1
+M 100 56 20 67 2
+M 100 54 8 67 1
+M 100 47 10 67 1
+M 100 68 8 68 1
+M 100 68 8 68 1
+M 100 55 5 68 1
+M 100 58 4 68 1
+M 100 60 2 68 1
+M 100 59 2 68 1
+M 100 57 3 68 1
+M 100 56 20 69 2
+M 100 54 8 69 1
+M 100 47 10 69 1
+M 100 68 8 72 1
+M 100 48 4 72 1
+M 100 56 20 73 2
+E 100 4409 0 7
+E 100 4406 0 6
+E 100 4416 0 8
+M 100 54 8 73 1
+E 100 4409 0 7
+E 100 4368 0 5
+E 100 4398 0 9
+M 100 47 10 73 1
+E 100 4416 0 8
+E 100 4409 0 7
+M 100 67 3 74 1
+M 100 68 8 75 1
+M 100 55 5 76 1
+M 100 58 4 76 1
+M 100 66 5 78 1
+M 100 68 8 79 1
+M 100 68 8 79 1
+M 100 68 8 79 1
+M 100 55 5 79 1
+M 100 58 4 79 1
+M 100 66 5 81 1
+M 100 48 4 83 1
+M 100 56 20 83 2
+M 100 54 8 83 1
+M 100 47 10 83 1
+M 100 68 8 84 1
+M 100 68 8 85 1
+M 100 55 5 85 1
+M 100 58 4 85 1
+M 100 56 20 86 2
+M 100 54 8 86 1
+M 100 47 10 86 1
+M 100 66 5 88 1
+M 100 56 20 88 2
+M 100 54 8 88 1
+M 100 47 10 88 1
+M 100 40 5 88 1
+M 100 68 8 89 1
+M 100 55 5 90 1
+M 100 58 4 90 1
+M 100 56 20 90 2
+M 100 54 8 90 1
+M 100 47 10 90 1
+M 100 68 8 93 1
+M 100 55 5 95 1
+M 100 58 4 95 1
+M 100 55 5 96 1
+M 100 58 4 96 1
+M 100 68 8 97 1
+M 100 66 5 97 1
+M 100 66 5 101 1
+M 100 68 8 101 1
+M 100 55 5 101 1
+M 100 58 4 101 1
+M 100 68 8 102 1
+M 100 68 8 103 1
+M 100 55 5 104 1
+M 100 58 4 104 1
+M 100 67 3 105 1
+M 100 68 8 106 1
+M 100 53 1 107 1
+E 100 66 0 17
+E 100 3050 0 7
+E 100 4369 0 5
+E 100 3099 0 13
+E 100 3001 0 8
+M 100 47 10 108 10
+O 100 2363 0 108
+O 100 2362 0 108
+O 100 74 0 108
+M 100 44 1 109 1
+E 100 47 0 17
+E 100 46 0 14
+G 100 3381 0
+E 100 130 0 3
+E 100 3099 0 13
+E 100 79 0 12
+E 100 3050 0 7
+E 100 4369 0 5
+E 100 3001 0 8
+G 100 2450 0
+G 100 2451 0
+G 100 17164 0
+M 100 42 1 111 1
+O 100 2364 0 111
+E 100 3097 0 16
+O 100 2363 0 112
+M 100 72 1 112 1
+M 100 35 1 116 1
+O 100 2363 0 116
+M 100 37 1 116 1
+O 100 102 0 116
+G 100 66 0
+M 100 36 5 118 1
+E 100 3001 0 8
+E 100 4409 0 7
+M 100 70 1 120 1
+M 100 36 5 121 1
+E 100 4409 0 7
+E 100 3001 0 8
+M 100 36 5 122 1
+E 100 4409 0 7
+M 100 38 1 123 1
+E 100 3003 0 8
+E 100 3029 0 5
+E 100 3045 0 6
+E 100 3050 0 7
+E 100 3127 0 16
+M 100 41 1 125 1
+G 100 122 0
+G 100 123 0
+G 100 124 0
+E 100 3001 0 8
+E 100 4395 0 5
+E 100 4425 0 13
+E 100 123 0 17
+G 25 574 0
+M 100 50 1 127 1
+M 100 39 1 127 1
+E 100 3159 0 16
+E 100 4416 0 8
+E 100 4361 0 5
+M 100 129 1 130 1
+M 100 130 1 131 1
+G 100 3260 0
+E 100 4361 0 5
+G 100 6104 0
+G 100 3109 0
+G 100 4361 0
+G 50 2318 0
+G 50 3110 0
+G 50 3125 0
+O 100 2363 0 131
+S
+
+
+
+#MOBPROGSNEW
+#100
+~
+mob equip self 3025
+mob equip self 3045
+mob equip self 3050
+mob equip self 3001
+if rand 50
+mob equip self 3099
+endif
+if rand 50
+mob equip self 79
+endif
+if rand 50
+mob equip self 3066
+else
+mob equip self 3073
+endif
+~
+#101
+~
+mob equip self 4426
+~
+#102
+~
+mob equip self 44
+mob equip self 4418
+mob equip self 3050
+mob equip self 4426
+mob equip self 3082
+mob equip self 3066
+~
+#103
+~
+mob equip self 4401
+mob equip self 4418
+mob equip self 3050
+mob equip self 4371
+~
+#104
+~
+mob equip self 4418
+mob equip self 4386
+if rand 50
+  mob oload 2450
+else
+  mob oload 2499
+endif
+~
+#105
+~
+mob equip self 4418
+mob equip self 4364
+mob equip self 3050
+~
+#106
+~
+mob equip self 4384
+mob equip self 4416
+if rand 50
+  mob oload 3382
+else
+  mob oload 3324
+endif
+~
+#107
+~
+mob equip self 3001
+mob equip self 4413
+mob equip self 4370
+~
+#108
+~
+mob equip self 4395
+mob equip self 4425
+mob equip self 3001
+if rand 50
+  mob oload 3363
+endif
+~
+#109
+~
+mob equip self 4428
+mob equip self 4418
+mob equip self 3098
+~
+#110
+~
+mob equip self 3050
+mob equip self 3001
+mob equip self 4363
+if rand 50
+  mob oload 569
+endif
+~
+#111
+~
+mob equip self 4418
+mob equip self 3050
+mob equip self 4369
+if rand 50
+  mob oload 3381
+endif
+~
+#112
+~
+mob equip self 4410
+mob equip self 3001
+mob equip self 4369
+~
+#113
+~
+mob equip self 4426
+mob equip self 4418
+~
+#128
+Przycialem losowene do tego sklepu randomy kolczyki/pierscionki/wisiorki/branzoletki - Kainti.
+2004-12-13: no i ja troszkê zmodyfikowa³em tego proga. doda³em jeszcze 2-ki
+~
+if rand 50
+  mob oload 28648
+endif
+# ³adujemy gemiki
+if rand 90
+  if rand 90
+    mob oload gem 7
+  else
+    mob oload gem 6
+  endif
+else
+  if rand 90
+    mob oload gem 5
+  else
+    mob oload gem 4
+  endif
+endif
+if rand 50
+  mob oload gem 3
+  mob oload gem 3
+endif
+if rand 50
+  mob oload gem 2
+  mob oload gem 2
+endif
+mob oload gem 1
+mob oload gem 1
+mob oload gem 1
+# ³adujemy bi¿uteriê
+if rand 50
+  if rand 50
+    mob oload wrist 2
+  else
+    mob oload neck 2
+  endif
+else
+  if rand 50
+    mob oload ear 2
+  else
+    mob oload finger 2
+  endif
+endif
+
+#UBIOR MOBA GWERDRIN
+
+mob equip self 3003
+mob equip self 3019
+mob equip self 3057
+~
+#129
+~
+if hasflag $n fortbandit
+  bash $n
+  minidelay 1
+  yell Pomocy! Potrzebujê pomocy! Z³apa³em morderce!
+  say ARRRGH! Morderca! Za zabójstwo stró¿a prawa spotka ciê kara!
+  say Broñ siê, ¶mieciu!
+  if rand 50
+    mob removeflag $n fortbandit
+  endif
+endif
+~
+#130
+~
+emote charczy i pluje krwi±, po chwili gasn±cym wzrokiem spogl±da na ciebie...
+say U...umieram, ale pamiêtaj... zostanê pomszczony a ty nie ujdziesz wolno...
+emote nie ¿yje!!
+emote pada na ziemie ... MARTWY.
+if hasflag $n fortbandit
+  mob oload gem 2 r
+else
+  mob oload gem 4 r
+  if rand 50
+    mob oload weapon 4 r
+  else
+    mob oload weapon 3 r
+  endif
+  if rand 50
+    mob oload shield 3 r
+  else
+    mob oload shield 2 r
+  endif
+endif
+mob setflag $n fortbandit 48
+~
+#31
+~
+mob echoat $n Czujesz, ¿e kto¶ ciê obserwuje. Odwracasz siê i dostrzegasz przygl±daj±cego ci siê stra¿nika.
+~
+#32
+~
+if hasflag $n Forteca
+else
+tell $n Widzê, ¿e jeste¶ tu <&nowy/nowa/nowo>. Lepiej zachowuj siê rozs±dnie, nie tolerujemy tu ³amania prawa.
+mob setflag $n Forteca -1
+endif
+~
+#33
+~
+if ispc $N
+say Nie bêdê tolerowa³ tego w naszym mie¶cie!!
+say Posiedzisz sobie $N w wiezieniu i przemy¶lisz to.
+mob echoaround $N Stra¿nik zaci±ga $N do wiezienia.
+mob echoat $N Stra¿nik zaci±ga ciê do wiezienia.
+mob setflag $N bandzior 10
+mob transfer $N 112
+endif
+~
+#34
+~
+emote przerywa na chwile drzemkê, zaci±gaj±c siê swoja fajka.
+~
+#35
+~
+if rand 50
+emote schyla siê i delikatnie przycina murawê swoimi no¿ycami.
+else
+emote przygl±da ci siê z uwaga.
+endif
+~
+#36
+~
+flee
+flee
+~
+#37
+~
+if rand 50
+  if rand 50
+    , mruczy niewyra¼nie pod nosem.
+  else
+    , ogl±da siê za siebie.
+  endif
+else
+  if rand 50
+    , spogl±da gdzie¶ przez okno.
+  else
+    if rand 70
+      get a
+    endif
+    if rand 70
+      get b
+    endif
+    if rand 70
+      get c
+    endif
+    if rand 70
+      get d
+    endif
+    if rand 70
+      get e
+    endif
+    if rand 70
+      get f
+    endif
+    if rand 70
+      get g
+    endif
+    if rand 70
+      get h
+    endif
+    if rand 70
+      get i
+    endif
+    if rand 70
+      get j
+    endif
+    if rand 70
+      get k
+    endif
+    if rand 70
+      get l
+    endif
+    if rand 70
+      get m
+    endif
+    if rand 70
+      get n
+    endif
+    if rand 70
+      get o
+    endif
+    if rand 70
+      get p
+    endif
+    if rand 70
+      get q
+    endif
+    if rand 70
+      get r
+    endif
+    if rand 70
+      get s
+    endif
+    if rand 70
+      get t
+    endif
+    if rand 70
+      get u
+    endif
+    if rand 70
+      get v
+    endif
+    if rand 70
+      get w
+    endif
+    if rand 70
+      get x
+    endif
+    if rand 70
+      get y
+    endif
+    if rand 70
+      get z
+    endif
+  endif
+endif
+~
+#37_krasn
+~
+if rand 66
+  przeci±g
+else
+  emote przerywa na chwilê swoj± drzemkê, zaci±gaj±c siê fajk±.
+endif
+~
+#38
+~
+if rand 50
+  mob equip self 3025
+else
+  mob equip self 3018
+endif
+mob equip self 3045
+mob equip self 3050
+mob equip self 3001
+mob equip self 3082
+mob equip self 3066
+mob equip self 3366
+~
+#39
+~
+if rand 50
+delay 20
+else
+if rand 50
+if rand 50
+cast shield
+else
+cast 'mirror image'
+endif
+else
+if rand 50
+cast haste
+else
+cast 'reflect spell II'
+endif
+endif
+rest
+delay 12
+stand
+endif
+~
+#40
+~
+if isevil $n
+emote k³adzie rêkê na rêkoje¶ci miecza...
+endif
+if level $n <= 20
+if sex $n == 1
+say Szukasz czego¶, synku?
+else
+say Szukasz czego¶, dziecko?
+endif
+endif
+if level $n > 20
+say Dobrze siê zastanów, zanim co¶ zrobisz.
+endif
+~
+#41
+~
+if pos $i sitting
+break
+endif
+if players < 1
+ break
+endif
+if rand 70
+ mob remember $r
+ if hastarget $i
+ if hasflag $q 41bless
+ mob forget
+ break
+ endif
+ mob echoat $q M³ody kap³an unosi rêce nad twoja g³ow±.
+ mob cast bless $q
+ usm $q
+ mob setflag $q 41bless 14
+ endif
+ mob forget
+ break
+endif
+mob remember $r
+if isnpc $q
+ break
+endif
+if hastarget $i
+ if level $q < 12
+ if hpcnt $q < 65
+ if rand 50
+ if rand 50
+ c 'cure li' $q
+ else
+ c 'aid' $q
+ endif
+ else
+ if rand 50
+ c 'cure cri' $q
+ else
+ c 'cure ser' $q
+ endif
+ endif
+ endif 
+ endif
+endif 
+~
+#42
+~
+if rand 50
+mob equip self 3157
+else
+mob equip self 3164
+endif
+mob equip self 3366
+mob oload 2497
+mob equip self 3018
+mob equip self 4418
+mob equip self 3066
+sit ³awka
+~
+#44
+~
+if hasflag $n arrasznak
+  if class $n zlodziej
+    if hasflag $n nohi
+      if carries $n 10801
+        tell $n Och, dziêkuje, czeka³em d³ugo na wie¶ci od tego starego draba...
+        usmiech
+        emote odbiera przesy³kê.
+        mob remove $n 10801
+        tell $n Przyjmij skromne wynagrodzenie.
+        mob echoat $n Karczmarz daje ci kupkê srebrnych monet.
+        if level $n > 26
+          mob reward $n level 10
+          mob reward $n silver 2000
+        else
+          if level $n > 20
+            mob reward $n level 15
+            mob reward $n silver 1500
+          else
+            if level $n > 15
+              mob reward $n level 20
+              mob reward $n silver 1000
+            else
+              if level $n > 10
+                mob reward $n level 25
+                mob reward $n silver 1000
+              else
+                if level $n > 4
+                  mob reward $n exp 40000
+                  mob reward $n silver 1000
+                else
+                  mob reward $n exp 2000
+                  mob reward $n silver 300
+                endif
+              endif
+            endif
+          endif
+        endif
+        mob removeflag $n nohi
+        mob setflag $n nohiok -1
+      endif
+    endif
+  endif
+endif
+~
+#44_random
+~
+$_rand = int_random 1 21
+if numeval $_rand == 1
+  emote wyciera kieliszek do czysta.
+endif
+if numeval $_rand == 2
+  emote wyciera ¶cierk± kontuar.
+endif
+if numeval $_rand == 3
+  emote przelicza swoje pieni±dze.
+endif
+if numeval $_rand == 3
+  say Czy komu¶ podaæ wy¶mienitej kie³basy z piwem?
+endif
+if numeval $_rand == 4
+  usmiech $q
+  minidelay 1
+  mob oload 3381
+  give butelka $q
+  tell $q To na koszt zak³adu.
+  mob setflag $q 44_piwo 72
+endif
+if numeval $_rand == 5
+  say Ponoæ barbarzyñca Brahadhan zabi³ ostatnio sam ko¶cianego smoka!
+endif
+if numeval $_rand == 6
+  say Dosz³y mnie sluchy, i¿ kapral Ordalys lubi mocne, zamorskie ziele.
+  chich
+endif
+if numeval $_rand == 7
+  say Ogry prawdopodobnie szykuj± niet³ugo kolejny najaazd na nasz± ukochan± Fortecê...
+endif
+if numeval $_rand == 8
+  say S³ysza³em, ¿e driada stra¿niczka zakocha³a siê w jednym gnollu.
+endif
+if numeval $_rand == 9
+  say Doniesiono mi, jakoby wódz barbarzynców z dalekiej pó³nocy mia³ nied³ugo odwiedziæ Z³ote Miasto ze swoj± band±. Mo¿e wtedy podnios± siê moje dochody?
+endif
+if numeval $_rand == 10
+  say Prawdopodobnie ostatnio podniós³ siê poziom wód na pó³noc od Carralak.
+endif
+if numeval $_rand == 11
+  say To wino z Easterial wcale nie by³o zatrute, tylko ³by s³abe, ha!
+endif          
+if numeval $_rand == 12
+  say Ponoæ znowu jaka¶ grupa wpad³a w przepa¶æ... tragedia, tragedia... tak to jest, jak po pijaku biegaj±.
+endif
+if numeval $_rand == 13
+  tell $q Czy podaæ mo¿e co¶ do picia?
+endif
+if numeval $_rand == 14
+  say Co za czasy co za czasy, ka¿dy tylko gada o pieni±dzach.
+endif
+if numeval $_rand == 15
+  wzde
+  say Karczmarz, karczmarz... ciêzka praca. Ponoæ u Signusa siedzia³ ostatnio czterorêki demon!
+endif
+if numeval $_rand == 16
+  say Ponoæ w mie¶cie pojawi³ siê jaki¶ podejrzany stary dziad w idiotycznym czerwonym kubraczku. Ale to nic! Ludzie mówi±, ¿e on ró¿ne rzeczy za darmo rozdaje...
+endif
+if numeval $_rand == 17
+  say Pods³ucha³em niedawno, jak jeden z drugim mówili o czterech wielkich ¿ó³wiach i przero¶niêtym gryzoniu... Co to niby w kana³ach biegaj± i jedz± jakie¶ okr±g³e placki, haha!
+endif
+if numeval $_rand == 18
+  sayto $r Wygl±dasz mi na osobê, co z niejednego kufla pi³a. Mo¿e spróbujesz moich trunków?
+endif
+if numeval $_rand == 19
+  sayto $r Ponoæ gnomy w laboratorium s± bliskie jakiego¶ wielkiego odkrycia, ale kto by wierzy³ w te kurewskie zgredy. 
+endif
+if numeval $_rand == 20
+  sayto $r Nie dawno by³ u mnie potê¿ny mag, sp³uka³ siê w karty i próbowa³ mi opchn±æ jakie¶ rogi.
+  minidelay 2
+  sayto $r Zarzeka³ siê, ¿e to s± autentyczne rogi z jakiego¶ demona.
+  minidelay 2
+  sayto $r Powiedzia³em mu, ¿eby je sobie wsadzi³ i wykopa³em za drzwi. Tak tak, nie p³acisz - wylatujesz.
+endif
+if numeval $_rand == 21
+  say Ostatnio s³ysza³em, ¿e jaki¶ mag niedaleko arras zamkn±³ siê w swojej wierzy i przysi±g, ¿e nie wyjdzie puki nie wymy¶li sposobu na wzmocnienie czarów.
+  minidelay 2
+  say Pare dni pó¼niej widziano go z dziwkami w "Zatrutej strzale".
+  minidelay 2
+  say te czarowniki to dziwni ludzie.
+emote krêci g³ow±.
+endif
+~
+#45
+~
+if rand 50
+	mob oload weapon 4
+	wear all
+endif
+~
+#46
+~
+# mprog do ubierania krasnoludzkich stra¿ników
+##########################################################################
+# body
+mob equip self 3018
+##########################################################################
+# feet
+if rand 50
+mob equip self 3001
+else
+mob equip self 4418
+endif
+##########################################################################
+# about
+if rand 50
+mob equip self 112
+endif
+##########################################################################
+# legs
+mob equip self 3050
+##########################################################################
+# neck or finger
+if rand 50
+mob equip self 113
+else
+mob equip self 9122
+endif
+##########################################################################
+# wield
+if rand 50
+mob equip self 3178
+else
+if rand 50
+mob oload weapon 4
+wear all
+endif
+endif
+~
+#48
+~
+mob equip self 3157
+mob equip self 4426
+if rand 95
+  mob equip self 4430
+endif
+~
+#49
+~
+emote chwyta swój wspania³y miecz i nie bacz±c na rany z wrzaskiem ³amie
+go na kolanie. Po chwili martwy osuwa siê na ziemiê. 
+~
+#50
+~
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 3
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 3
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 2
+mob oload weapon 3
+ 
+ 
+~
+#51
+~
+say Dziêki ci $n!
+say Ju¿ prawie zapomnia³em, jak smakuje porz±dna wódeczka!
+chich
+delay 1
+emote odkorkowuje flaszkê trzês±cymi siê z niecierpliwo¶ci rêkoma...
+delay 1
+emote zdecydowanym ruchem przechyla butelkê i jednym haustem wypija zawarto¶æ!
+delay 1
+say Taaaak... tego w³a¶nie mi brakowa³o!
+say W nagrodê mo¿e kogo¶ czego¶ nauczyæ?
+mob remember self
+mob mload 52
+if carries $q 81
+ mob equip y'erg 81
+endif
+if carries $q 3128
+ mob equip y'erg 3128
+endif
+if carries $q 82
+ mob equip y'erg 82
+endif
+if carries $q 85
+ mob equip y'erg 85
+endif
+if carries $q 3019
+ mob equip y'erg 3019
+endif
+mob purge self
+~
+#52
+~
+delay 10
+ 
+emote upuszcza ¿alnick± ja³owcówkê.
+mob echo Butelka ¿alnickiej ja³owcówki rozpryskuje siê na kawa³eczki.
+mob remember self
+mob mload 51
+if carries $q 81
+ mob equip y'erg 81
+endif
+if carries $q 3128
+ mob equip y'erg 3128
+endif
+if carries $q 82
+ mob equip y'erg 82
+endif
+if carries $q 85
+ mob equip y'erg 85
+endif
+if carries $q 3019
+ mob equip y'erg 3019
+endif
+mob purge self
+~
+#53
+~
+if rand 50
+if rand 50
+emote wzdycha ciê¿ko.
+say Mój wewnêtrzny g³os mówi mi, ¿e czas siê czego¶ napiæ...
+else
+emote spogl±da na ciebie z uwag±.
+say Nie masz mo¿e przypadkiem jakiej¶ zbêdnej flaszeczki wódeczki?
+endif
+else
+if rand 50
+emote przeklina paskudnie pod nosem.
+say Ahh, ¿alnicka ja³owcówka... ten smak i aromat...
+else
+say Paskudnie zasch³o mi w gardle...
+emote rozgl±da siê dooko³a, a potem patrzy na ciebie z wyczekiwaniem.
+endif
+endif
+~
+#53_bank
+~
+sayto $n nie wspó³pracujê z bandytami!
+~
+#54
+~
+if mobhere 52
+ break
+endif
+if rand 25
+ mob equip self 3019
+else
+ if rand 50
+ mob equip self 85
+ else
+ mob equip self 82
+ endif
+endif
+if rand 25
+ mob equip self 3128
+else
+ mob equip self 81
+endif
+~
+#55
+~
+flee
+~
+#56
+~
+if affected $n paralyze
+or affected $n blind
+  break
+endif
+#mob prog [kill] dla bankiera [vnum: 53]
+foreachingroup $n
+  if ishere $n
+    mob setflag $n 53_atakowal 360
+    tell $n Wyno¶ sie st±d i ju¿ nigdy nie wracaj!
+    mob transfer $n 33
+  endif
+endfor
+~
+#57
+~
+if affected $n paralyze
+  of affected $n blind
+  break
+endif
+if hasflag $n 53_atakowal
+  mob echoat $n Bankier przygl±da ci siê z niechêci±.  
+  mob echoaround $n Bankier przygl±da siê z niechêci± $z.
+sayto $n Nie jeste¶ tu mile widzian<&y/a/e>.
+  mob echoat $n Bankier wyrzuca ciê na ulicê.
+  mob echoaround $n Bankier wyrzuca $z na ulicê.
+  mob force $n wyj¶cie
+endif
+if rand 60
+  if !hasflag $n 53_witalsie
+    minidelay 1
+    if rand 30
+      witaj $n
+      mob setflag $n 53_witalsie 24
+    else
+      powitaj $n
+      mob setflag $n 53_witalsie 24
+    endif
+  endif
+endif
+### ostrzezonko dla przychodzacego ###
+if rand 70
+  if !hasflag $n 53_ostrzegal
+    minidelay 1
+    if rand 50
+      tell $n Je¿eli mnie zaatakujesz, wyrzucê ciê i d³ugo nie bêdê chcia³ obs³ugiwaæ.
+      mob setflag $n 53_ostrzegal 20
+    else
+      tell $n Nie radzê mnie atakowaæ, w mie¶cie jest pe³no stra¿y.
+      mob setflag $n 53_ostrzegal 20
+    endif
+  endif
+endif
+sock
+~
+#70_learn
+~
+if hasflag $n poprosil.o.nauke.70
+  mob command
+else
+  if rand 50
+    sayto $n Hmmm je¶li mnie ³adnie poprosisz, to byæ mo¿e nauczê ciê paru rzeczy.
+  else
+    sayto $n Widzisz, wymagam nieco kultury. Musisz mnie najpierw poprosiæ.
+  endif
+endif
+~
+#70_prosi
+~
+if hasflag $n poprosil.o.nauke.70
+  break
+endif
+mob setflag $n poprosil.o.nauke.70 -1
+minidelay 1
+emote spogl±da na ciebie.
+minidelay 1
+if rand 50
+  sayto $n Hmm, skoro tak ³adnie prosisz, to czemu nie?
+else
+  sayto $n Tak lepiej, niech ci bêdzie.
+endif
+~
+#71_death
+~
+if class $n mag
+mob oload 2016
+else
+if class $n kleryk
+mob oload 2017
+else
+if class $n druid
+mob oload 2018
+else
+if rand 50
+mob oload 2016
+else
+if rand 50
+mob oload 2017
+else
+if rand 50
+mob oload 2018
+endif
+endif
+endif
+endif
+endif
+endif
+emote pada na ziemie.... MARTWY!
+~
+#71_onload
+~
+mob equip self 3164
+mob equip self 3098
+mob equip self 4375
+mob equip self 4416
+mob oload 66
+mob oload 6188
+~
+#gr_straz
+~
+if rand 48
+  mob addgroup 31
+else
+  if rand 50
+    mob addgroup 34
+  else
+    mob addgroup 45
+  endif
+endif
+
+if rand 25 
+  if rand 50
+    mob addgroup 34
+  else
+    mob addgroup 45
+  endif
+endif
+
+if rand 85
+  if rand 50
+    mob addgroup 31
+  else
+    mob addgroup 34
+  endif
+endif
+
+if rand 90
+  if rand 50
+    mob addgroup 61
+  else
+    mob addgroup 62
+  endif
+endif
+~
+#grazil_bribe
+~
+$_0 = str_to_int $_0
+if !hasflag $n fortz_juz_chce
+  tell $n Narazie nie z³o¿y³e¶ ¿adnego zamówienia.
+  mob echoat $n Grazil mamrocze przez chwile, jakby siê zastanawiaj±c nad czym¶. Po chwili jednak z smutnym wyrazem twarzy oddaje ci pieni±dze.
+  mob reward $n silver $_0
+  break
+else
+  if hasflag $n fort_chce_miecz
+  and numeval $_0 >= 80
+    goto przedmiot_1
+  endif
+  if hasflag $n fort_chce_mlot
+  and numeval $_0 >= 350
+    goto przedmiot_2
+  endif
+  if hasflag $n fort_chce_topor
+  and numeval $_0 >= 150
+    goto przedmiot_3
+  endif
+  tell $n Nie przypominam sobie, ¿ebym da³ ci jaki¶ upust. Jak nie masz wiêcej srebra to id¼, okradnij kogo¶ i dopiero wróæ.
+  mob echoat $n Grazil wzdycha poczym oddaje ci twoje pieni±dze.
+  mob reward $n silver $_0
+  break
+endif
+:przedmiot_1
+tell $n Dobra, za pare dni mo¿esz zwróciæ siê po swój krótki ¿elazny miecz.
+po odbiór.
+mob setflag $n fort_zaplacil_miecz -1
+mob setflag $n fortz_musi_odczekac 18
+$_0 = int_sub $_0 80
+if numeval $_0 > 0
+  tell $n Szlag, ¿eby nie moja uczciwa dusza nie odzyska³by¶ tych pieniêdzy.
+  mob echoat $n Grazil odlicza czê¶æ pieniêdzy i oddaje ci resztê.
+  mob reward $n silver $_0
+endif
+break
+:przedmiot_2
+tell $n Zrobiæ dwurêczny m³ot to nie chop siup. Zg³o¶ siê po niego za parê dni.
+mob setflag $n fort_zaplacil_mlot -1
+mob setflag $n fortz_musi_odczekac 30
+$_0 = int_sub $_0 350
+if numeval $_0 > 0
+  Emote przelicza pieni±dze po czym z wyra¼n± z³o¶ci± zwraca siê do ciebie.
+  minidelay 1
+  tell $n Cholera, naucz siê liczyæ pieni±dze i dawaæ odliczone kwoty.
+  mob echoat $n Grazil oddaje ci resztê.
+  mob reward $n silver $_0
+endif
+break
+:przedmiot_3
+tell $n Nad tym ¿elaznym toporem bêdê siê musia³ pomêczyæ. Za jaki¶ czas bêdzie gotowy.
+mob setflag $n fort_zaplacil_topor -1
+mob setflag $n fortz_musi_odczekac 24
+$_0 = int_sub $_0 150
+if numeval $_0 >= 1
+  tell $n Masz tu reszte, $_0 monet.
+  mob echoat $n Grazil odlicza odpowiedni± sumê i oddaje ci j±.
+  mob reward $n silver $_0
+endif
+break
+break
+end
+~
+#grazil_greet
+~
+if hasflag $n fortz_slyszal
+or hasflag $n fortz_musi_odczekac
+  goto przedmioty
+endif
+mob echoat $n Grazil zwraca na ciebie uwagê, gdy wchodzisz do ku¼ni.
+tell $n Witam. Oprócz tego co mam teraz na zbyciu moge tak¿e zrobiæ broñ na zamówienie. Daj znaæ je¶li chcesz us³yszeæ jaka jest moja OFERTA.
+mob setflag $n fortz_slyszal 5
+:przedmioty
+if hasflag $n fortz_musi_odczekac
+  tell $n Witaj. Niestety nie ukoñczy³em jeszcze twojego przedmiotu. Spróbuj zg³osiæ siê pó¼niej.
+  break
+endif
+if hasflag $n fort_zaplacil_miecz
+  goto przedmiot_1
+endif
+if hasflag $n fort_zaplacil_mlot
+  goto przedmiot_2
+endif
+if hasflag $n fort_zaplacil_topor
+  goto przedmiot_3
+endif
+break
+:przedmiot_1
+mob echoat $n Grazil  odk³ada narzêdzia, idzie na zaplecze i wraca z krótkim mieczem.
+tell $n Witaj. Troche to trwa³o, ale twój przedmiot jest gotowy do odbioru.
+mob oload 3179
+give mieczkrotki $n
+mob removeflag $n fort_zaplacil_miecz
+break
+:przedmiot_2
+mob echoat $n Grazil odk³ada narzêdzia i patrzy na ciebie, dumnie prezentuj±c ci w³asnie ukoñczony mlot.
+tell $n Witaj. Troche to trwa³o, ale twój przedmiot jest gotowy do odbioru.
+mob oload 3349
+give mlot $n
+mob removeflag $n fort_zaplacil_mlot
+break
+:przedmiot_3
+mob echoat $n Grazil z u¶miechniêtym wyrazem twarzy odk³ada narzêdzia i podchodzi do ciebie.
+tell $n Witaj. Troche to trwa³o, ale twój przedmiot jest gotowy do odbioru.
+mob oload 3178
+give "topor bojowy" $n
+mob removeflag $n fort_zaplacil_topor
+break
+end
+~
+#grazil_oferta
+~
+tell $n Mogê wykonaæ na zamówienie krótki ¿elazny miecz, stalowy dwurêczny m³ot, b±d¼ dwurêczny ¿elazny topór. Gwarantuje najwy¿sz± jako¶æ psia krew! Zaintersowany?
+responsedelay 10 "nie" "tak"
+if response 1
+  tell $n Chyba w ogóle siê nie znasz na broni.
+  break
+endif
+if response 2
+  goto zamawianie
+endif
+break
+:zamawianie
+if hasflag $n fortz_musi_odczekac
+  tell $n O czym¶ ju¿ rozmawiali¶my, nie mam tyle czasu, ¿eby przyjmowaæ wiêcej ni¿ jedno zlecenie od jednej osoby na raz.
+  break
+endif
+if hasflag $n fortz_juz_chce
+  tell $n Ale¿ ju¿ co¶ zamówi³e¶! Mo¿na zamówic tylko jeden przedmiot na raz!
+  break
+endif
+mob echoat $n Grazil odk³ada narzêdzia, spluwa na pod³oge i podchodzi do ciebie.
+tell $n Co chcesz zamówiæ? Miecz, m³ot czy topór?   
+responsedelay 10 "miecz" "mlot" "topor"
+if response 1
+  goto przedmiot_1
+endif
+if response 2
+  goto przedmiot_2
+endif
+if response 3
+  goto przedmiot_3
+endif
+break
+:przedmiot_1
+tell $n Prosty, krótki, ¿elazny miecz. Nadaje siê do odcinania g³ów i krojenia kie³basy.
+minidelay 1
+tell $n Jest przy nim troche roboty, nie dostaniesz go od razu. Kosztuje 80 miedzanych monet. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n fortz_juz_chce 4 
+  mob setflag $n fort_chce_miecz 4 
+  tell $n Jak dasz mi pieni±dze na niego to pogadamy wiêcej.
+  break
+endif
+if response 2
+  mob echoat $n Grazil wzrusza ramionami i wraca do pracy.
+  break
+endif
+:przedmiot_2
+tell $n Oj wa¿y ten m³ot swoje. Ale jak i pierdzielniesz to i zbieraæ z ziemi nie bêdzie czego. Idzie nim ¶ciany burzyæ. Robie go z stali. 
+minidelay 1
+tell $n Kupa roboty jest przy takim m³ocie, ale to moja ulubiona broñ. Pare dni mi zejdzie zanim go skoñcze. Kosztuje 350 miedzanych monet, ale warto. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n fortz_juz_chce 4
+  mob setflag $n fort_chce_mlot 4
+tell $n Daj miedziaki, a biorê siê za kucie. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote Spluwa na ziemie i wraca do normalnej pracy.
+  break
+endif
+:przedmiot_3
+tell $n Dwurêczny topór to ³adna rzecz do siekania. Mo¿na go te¿ powiesiæ na ¶cianie. Ogólnie rzecz bior±c, mo¿na nim ¶miertelnie zabiæ.
+minidelay 1
+tell $n Kosztuje 150 miedzanych monet. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n fortz_juz_chce 4
+  mob setflag $n fort_chce_topor 4
+  tell $n Zap³ata z góry, inaczej nie kiwne palcem.
+  break
+endif
+if response 2
+  emote odwraca siê i wraca do roboty.
+  break
+endif
+end
+~
+#joerg_bribe
+~
+$_0 = str_to_int $_0
+if !hasflag $n fortk_juz_chce
+  tell $n Narazie nie z³o¿y³e¶ ¿adnego zamówienia. Nie wiem na co dajesz mi te pieni±dze.
+  Emote wyciera brodê w fartuch i oddaje ci pieni±dze.
+  mob reward $n silver $_0
+  break
+else
+  if hasflag $n fort_chce_nareczaki
+  and numeval $_0 >= 80
+    goto przedmiot_1
+  endif
+  if hasflag $n fort_chce_kolczuga
+  and numeval $_0 >= 150
+    goto przedmiot_2
+  endif
+  if hasflag $n fort_chce_buty
+  and numeval $_0 >= 80
+    goto przedmiot_3
+  endif
+  if hasflag $n fort_chce_helm
+  and numeval $_0 >= 100
+    goto przedmiot_4
+  endif
+  if hasflag $n fort_chce_spodniczka
+  and numeval $_0 >= 120
+    goto przedmiot_5
+  endif
+  tell $n Nie przypominam sobie, ¿ebym da³ ci jaki¶ upust. Jak nie masz wiêcej srebra to id¼, okradnij kogo¶ i dopiero wróæ.
+  Emote wzdycha poczym oddaje ci twoje pieni±dze.
+  mob reward $n silver $_0
+  break
+endif
+:przedmiot_1
+tell $n A teraz id¼ sobie gdzie¶ na piwo, troche minie zanim wykonam te narêczaki.
+mob setflag $n fort_zaplacil_nareczaki -1
+mob setflag $n fortk_musi_odczekac 18
+$_0 = int_sub $_0 80
+if numeval $_0 > 0
+  tell $n Szlag, ¿eby nie moja uczciwa dusza nie odzyska³by¶ tych pieniêdzy.
+  mob echoat $n Joerg odlicza czê¶æ pieniêdzy i oddaje ci resztê.
+  mob reward $n silver $_0
+endif
+break
+:przedmiot_2
+tell $n Masz teraz troche czasu na wypicie piwa, póki tego nie skoñcze.
+mob setflag $n fort_zaplacil_kolczuga -1
+mob setflag $n fortk_musi_odczekac 30
+$_0 = int_sub $_0 150
+if numeval $_0 > 0
+  Emote przelicza pieni±dze po czym z wyra¼n± z³o¶ci± zwraca siê do ciebie.
+  minidelay 1
+  tell $n Cholera, naucz siê liczyæ pieni±dze i dawaæ odliczone kwoty.
+  Emote oddaje ci reszte.
+  mob reward $n silver $_0
+endif
+break
+:przedmiot_3
+tell $n Jaki¶ czas bêdziesz musia³ biegaæ na bosaka, ale za pare chwil buty bêd± zrobione.
+mob setflag $n fort_zaplacil_buty -1
+mob setflag $n fortk_musi_odczekac 10
+$_0 = int_sub $_0 80
+if numeval $_0 >= 1
+  tell $n Masz tu reszte, $_0 monet.
+  Emote odlicza odpowiedni± sumê i oddaje ci j±.
+  mob reward $n silver $_0
+endif
+break
+:przedmiot_4
+tell $n Wporz±dku. He³m bêdzie gotowy za jaki¶ czas. Skocz zgwa³ciæ sobie jakiego¶ ylfa.
+mob setflag $n fort_zaplacil_helm -1
+mob setflag $n fortk_musi_odczekac 13
+$_0 = int_sub $_0 100
+if numeval $_0 >= 1
+  tell $n Masz tu reszte, $_0 monet.
+  Emote odlicza odpowiedni± sumê i oddaje ci j±.
+  mob reward $n silver $_0
+endif
+break
+:przedmiot_5
+tell $n Mam nadzieje, ¿e masz co za³o¿yæ na dupe, bo na t± spódniczkê trzeba bêdzie poczekaæ.
+mob setflag $n fort_zaplacil_spodniczka -1
+mob setflag $n fortk_musi_odczekac 10
+$_0 = int_sub $_0 120
+if numeval $_0 >= 1
+  tell $n Masz tu reszte, $_0 monet.
+  Emote odlicza odpowiedni± sumê i oddaje ci j±.
+  mob reward $n silver $_0
+endif
+break
+break
+end
+ 
+~
+#joerg_greet
+~
+if hasflag $n fortk_slyszal
+goto przedmioty
+endif
+Emote zwraca na ciebie uwagê gdy wchodzisz do ku¼ni.
+tell $n Rozejrzyj siê dooko³a, pewne rzeczy moge sprzedaæ odrazu, ale moge te¿ wykonaæ co¶ na zamówienie. Daj znaæ je¶li chcesz us³yszeæ jaka jest moja OFERTA.
+mob setflag $n fortk_slyszal 1
+:przedmioty
+if hasflag $n fortk_musi_odczekac
+tell $n Witaj. Nie skoñczy³em jeszcze twojego przedmiotu, wróæ za jaki¶ czas.
+break
+endif
+if hasflag $n fort_zaplacil_nareczaki
+goto przedmiot_1
+endif
+if hasflag $n fort_zaplacil_kolczuga
+goto przedmiot_2
+endif
+if hasflag $n fort_zaplacil_buty
+goto przedmiot_3
+endif
+if hasflag $n fort_zaplacil_helm
+goto przedmiot_4
+endif
+if hasflag $n fort_zaplacil_spodniczka
+goto przedmiot_5
+endif
+break
+:przedmiot_1
+mob echoat $n Joerg  wyci±ga narêczaki zza kowad³a.
+tell $n Ty to zamówi³e¶ z tego co pamiêtam.
+mob oload 3089
+give narfort $n
+mob removeflag $n fort_zaplacil_nareczaki
+break
+:przedmiot_2
+mob echoat $n Joerg odk³ada narzêdzia,wychodzi na zaplecze i wraca z twoj± kolczug±.
+tell $n Witaj. Troche to trwa³o, ale kolczuga gotowa do odbioru.
+mob oload 3025
+give "lekka kolczuga" $n
+mob removeflag $n fort_zaplacil_kolczuga
+break
+:przedmiot_3
+mob echoat $n Joerg z u¶miechniêtym wyrazem twarzy odk³ada narzêdzia i podchodzi do ciebie.
+tell $n Witaj. Nie musisz ju¿ chodziæ boso.
+mob oload 3013
+give "polplytowe buty" $n
+mob removeflag $n fort_zaplacil_buty
+break
+:przedmiot_4
+mob echoat $n Joerg  wyci±ga he³m zza kowad³a.
+tell $n Pamiêtaj, ¿e przed kacem nie chroni.
+mob oload 29205
+give helmfort $n
+mob removeflag $n fort_zaplacil_helm
+break
+:przedmiot_5
+mob echoat $n Joerg odk³ada narzêdzia,wychodzi na zaplecze i wraca z twoj± spódniczk±.
+tell $n Witaj. Troche to trwa³o, ale spodniczka jest gotowa.
+mob oload 3057
+give "spodniczka kolcza" $n
+mob removeflag $n fort_zaplacil_spodniczka
+break
+end
+ 
+~
+#joerg_oferta
+~
+tell $n Je¶li chcesz mogê dla ciebie wykuæ... niech no sobie przypomne. Kolecze narêczaki, krasnoludzk± kolczugê, podkute krasnoludzkie buty, stalowy otwarty he³m, mocn±, kolcz± spódniczkê. Zainteresowany czym¶?
+responsedelay 10 "nie" "tak"
+if response 1
+tell $n Wiêc nie marnuj mojego czasu.
+break
+endif
+if response 2
+goto zamawianie
+endif
+break
+:zamawianie
+if hasflag $n fortk_musi_odczekac
+tell $n Ci±gle pracuje jeszcze nad twoim przedmiotem. Jak go skoñcze, pogadamy o nastêpnych zamówieniach.
+break
+endif
+if hasflag $n fortk_juz_chce
+tell $n O czym¶ ju¿ gadali¶my, czekam na srebrniki.
+break
+endif
+mob echoat $n Joerg odk³ada narzêdzia, spluwa na pod³oge i podchodzi do ciebie.
+tell $n Co mam dla ciebie wykonaæ? Narêczaki, kolczuge, buty, he³m czy spódniczke?   
+responsedelay 10 "nareczaki" "kolczuge" "buty" "helm" "spodniczke"
+if response 1
+goto przedmiot_1
+endif
+if response 2
+goto przedmiot_2
+endif
+if response 3
+goto przedmiot_3
+endif
+if response 4
+goto przedmiot_4
+endif
+if response 5
+goto przedmiot_5
+endif
+break
+:przedmiot_1
+tell $n Zwyk³e kolcze narêczaki. Lekkie, tanie i solidne.
+minidelay 1
+tell $n Zanim je zrobie up³ynê³oby troche czasu. Kosztuj± 80 monet, zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+mob setflag $n fortk_juz_chce 4 
+mob setflag $n fort_chce_nareczaki 4 
+tell $n Jak dasz mi pieni±dze na niego to pogadamy wiêcej.
+break
+endif
+if response 2
+emote wzrusza ramionami i wraca do pracy.
+break
+endif
+:przedmiot_2
+tell $n Solidna krasnoludzka robota. Nie wa¿y du¿o, mimo,¿e robie j± z ¿elaza.
+minidelay 1
+tell $n Jest przy niej kupa roboty. Pare dni mi zejdzie zanim j± skoñcze. Kosztuje 150 monet. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+mob setflag $n fortk_juz_chce 4
+mob setflag $n fort_chce_kolczuga 4
+tell $n Daj z³oto, a biorê siê za kucie. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+break
+endif
+if response 2
+emote Spluwa na ziemie i wraca do normalnej pracy.
+break
+endif
+:przedmiot_3
+tell $n Porz±dnie podkute krasnoludzkie buty. Robie je z ¿elaza, odciski zapewnione, ale nogi o kamieñ nie skaleczysz.
+minidelay 1
+tell $n Kosztuj± 80 monet. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+mob setflag $n fortk_juz_chce 4
+mob setflag $n fort_chce_buty 4
+tell $n Zap³ata z góry, inaczej nie kiwne palcem.
+break
+endif
+if response 2
+emote odwraca siê i wraca do roboty.
+break
+endif
+ 
+:przedmiot_4
+tell $n He³m wykonuje z stali. Dziêki temu, ¿e jest otwarty, mo¿esz lepiej nacieszyæ siê widokiem zdychaj±cego elfa.
+minidelay 1
+tell $n Za he³m chce 100 srebrników. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+mob setflag $n fortk_juz_chce 4
+mob setflag $n fort_chce_helm 4
+tell $n Zap³ata z góry, inaczej nie kiwne palcem.
+break
+endif
+if response 2
+emote odwraca siê i wraca do roboty.
+break
+endif
+:przedmiot_5
+tell $n Tej spódniczce mo¿na powierzyæ swoje jaja. To znaczy, gwarancji nie daje. 
+Robie j± z ¿elaza.
+minidelay 1
+tell $n Wycaniam j± na 120 monet. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+mob setflag $n fortk_juz_chce 4
+mob setflag $n fort_chce_spodniczka 4
+tell $n Daj z³oto, a biorê siê za kucie. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+break
+endif
+if response 2
+emote Spluwa na ziemie i wraca do normalnej pracy.
+break
+endif
+end
+~
+#karczmarz_tak
+~
+sayto $n Oto co mo¿na tutaj kupiæ.
+mob force $n list
+~
+#najem_onload
+~
+#wield
+if rand 50
+mob equip self 3179
+endif
+mob equip self 3157
+#feet
+if rand 50
+mob equip self 3001
+else
+mob equip self 4418
+endif
+#legs
+mob equip self 3050
+#body
+if rand 50
+mob equip self 4369
+else
+mob equip self 3018
+endif
+#about
+mob equip self 79
+#arms
+mob equip self 3066
+~
+#onload_elita
+~
+#wield i hold
+mob equip self 3306
+mob oload 3179
+hold krotki
+#feet
+if rand 50
+  mob equip self 3001
+else
+  mob equip self 4418
+endif
+#legs
+if rand 50
+  mob equip self 3050
+else
+  mob equip self 3057
+endif
+#waist
+if rand 50
+  mob equip self 3099
+else
+  mob equip self 3098
+endif
+#body
+if rand 50
+  mob equip self 3025
+else
+  mob equip self 3029
+endif
+#about
+if rand 50
+  mob equip self 79
+else
+  mob equip self 112
+endif
+#arms
+if rand 50
+  mob equip self 3090
+endif
+#hands
+if rand 50
+  mob equip self 3066
+else
+  mob equip self 3071
+endif
+#head
+if rand 50
+  mob equip self 3045
+else
+  mob equip self 3045
+endif
+if rand 48
+  mob addgroup 31
+else
+  if rand 50
+    mob addgroup 34
+  else
+    mob addgroup 45
+  endif
+endif
+if rand 25 
+  if rand 50
+    mob addgroup 34
+  else
+    mob addgroup 45
+  endif
+endif
+if rand 75
+  if rand 50
+    mob addgroup 31
+  else
+    mob addgroup 34
+  endif
+endif
+if rand 80
+  if rand 50
+    mob addgroup 61
+  else
+    mob addgroup 62
+  endif
+endif
+who
+~
+#onload_wart
+~
+mob equip self 112
+mob equip self 3149
+mob equip self 3073
+mob equip self 3025
+mob equip self 3001
+mob equip self 3082
+mob equip self 3050
+mob equip self 113
+~
+#str_vam_onload
+~
+#wield i hold
+mob equip self 3306
+mob oload 3179
+hold krotki
+#feet
+if rand 50
+mob equip self 3001
+else
+mob equip self 4418
+endif
+#legs
+if rand 50
+mob equip self 3050
+else
+mob equip self 3057
+endif
+#waist
+if rand 50
+mob equip self 3099
+else
+mob equip self 3098
+endif
+#body
+if rand 50
+mob equip self 3025
+else
+mob equip self 3029
+endif
+#about
+if rand 50
+mob equip self 79
+else
+mob equip self 112
+endif
+#arms
+if rand 50
+mob equip self 3090
+endif
+#hands
+if rand 50
+mob equip self 3066
+else
+mob equip self 3071
+endif
+#head
+if rand 50
+mob equip self 3045
+else
+mob equip self 3045
+endif
+~
+#tander_zamow
+~
+if hasflag $n arras_musi_odczekac
+  tell $n Ale¿ ju¿ co¶ zamówi³e¶! Mo¿na zamówic tylko jeden przedmiot na raz! Jeszcze nie wykona³em twojego przedmiotu.
+  break
+endif
+if hasflag $n arras_juz_chce
+  tell $n Ale¿ ju¿ co¶ zamówi³e¶! Mo¿na zamówic tylko jeden przedmiot na raz!
+  break
+endif
+Emote odk³ada narzêdzia, wyciera rêce o fartuch.
+tell $n A wiêc chcesz co¶ zamówiæ? Lista towarów jakie mogê wykonaæ jest na tabliczce. Co mam dla Ciebie wykonaæ?   
+responsedelay 10 "miecz" "dlugi stalowy miecz" "rohatyne" "dluga rohatyne" "okuty kostur" "kostur" "pancerz" "paskowy pancerz" "helm" "otwarty helm" "rekawice" "wzmocnione rekawice" "wzmocnione buty" "buty" "spodnie" "paskowe spodnie"
+if response 1
+  goto przedmiot_1
+endif
+if response 2
+goto przedmiot_1
+endif
+if response 3
+goto przedmiot_2
+endif
+if response 4
+goto przedmiot_2
+endif
+if response 5
+goto przedmiot_3
+endif
+if response 6
+goto przedmiot_3
+endif
+if response 7
+goto przedmiot_4
+endif
+if response 8
+goto przedmiot_4
+endif
+if response 9
+goto przedmiot_5
+endif
+if response 10
+goto przedmiot_5
+endif
+if response 11
+goto przedmiot_6
+endif
+if response 12
+goto przedmiot_6
+endif
+if response 13
+goto przedmiot_7
+endif
+if response 14
+goto przedmiot_7
+endif
+if response 15
+goto przedmiot_8
+endif
+if response 16
+goto przedmiot_8
+endif
+break
+:przedmiot_1
+tell $n D³ugi miecz wykonuje z doskona³ej stali, co zapewnia, ¿e wiele g³ów mo¿na nim uci±c zanim siê stêpi. Jest stosunkowo lekki, co wiêkszo¶c wojaków sobie bardzo ceni, gdy¿ mo¿na nim w³adaæ tak¿e s³absz± rêk±.
+minidelay 1
+tell $n Na jego wykonanie musisz trochê poczekaæ. Cena jest na tabliczce. Jeste¶ zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_miecz 4
+  tell $n Czekam wiêc na pieni±dze. Je¶li zbyt d³ugo zwlekniesz z zap³at±, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+:przedmiot_2
+tell $n Nie jedn± bron drzewcow± ju¿ robi³em, ale ta d³uga rohatyna to jeden z lepszych orê¿y jakie wykuwam. Jest solidna i porêczna. Bez obaw mog³aby wej¶æ jako podstawowe uzbrojenie stra¿ników. 
+minidelay 1
+tell $n Na jej wykonanie musisz trochê poczekaæ. Cena jest na tabliczce. Jeste¶ zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_rohatyna 4
+  tell $n Daj mi wiêc z³oto, a wezmê siê do roboty. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+:przedmiot_3
+tell $n Normalne drewniane kostury zbyt szybko siê niszcz±, a te stalowe s± zbyt ciê¿kie dla niektórych. Drewniany kostur okuty miejscami stal± jest wiêc z³otym ¶rodekiem. Jest stosunkowo wytrzyma³y, a do tego nie uprzykrza drogi. No i niechcia³by¶ poczuæ go na g³owie.
+minidelay 1
+tell $n Na jego wykonanie musisz trochê poczekaæ. Cena jest na tabliczce. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_kostur 4
+  tell $n Zap³ate pobieram z góry. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+:przedmiot_4
+tell $n Wzmacniany paskowy pancerz jest dobrym wyborem, je¶li zale¿y ci jednocze¶nie na ochronie i wygodzie. Jest te¿ l¿ejszy od stalowego.
+minidelay 1
+tell $n Na jego wykonanie musisz trochê poczekaæ. Ceny s± wypisane na tabliczce. Jeste¶ zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_pancerz 4
+  tell $n Musisz zap³aciæ za niego z góry. Jak dostane srebro, wezme siê do roboty.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+end
+:przedmiot_5
+tell $n Wzmacniany otwarty he³m to przyzwoita ochrona. Co prawda smok nadal utnie ci g³owe bez problemu, ale kilka ciosów maczug± mo¿e wytrzymasz.
+minidelay 1
+tell $n Na jego wykonanie musisz trochê poczekaæ. Cena na tabliczce. Zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_helm 4
+  tell $n Zap³ate pobieram z góry. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+end
+:przedmiot_6
+tell $n Te skorzane rêkawice zosta³y wzmocnione stal±, co z pewno¶ci± docenisz gdy przyjdzie ci komu¶ obiæ twarz. S± wygodne, choæ nie tak mocne jak stalowe.
+minidelay 1
+tell $n Na ich wykonanie musisz trochê poczekaæ. Cennik wisi na ¶cianie. Jeste¶ zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_rekawice 4
+  tell $n Daj mi wiêc z³oto, a wezmê siê do roboty. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+:przedmiot_7
+tell $n Te zwyk³e skórzane buty zosta³y wzmocnione stal±, co poprawi³o ich wytrzyma³o¶æ. Pozosta³y przy tym lekkie i wygodne.
+minidelay 1
+tell $n Na ich wykonanie musisz trochê poczekaæ. Cenê znajdziesz na tabliczce. Jeste¶ zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_buty 4
+  tell $n Zap³ate pobieram z góry. Je¶li zbyt d³ugo z tym zwlekniesz, anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+:przedmiot_8
+tell $n Paskowe spodnie to dobry wybor dla tych, którzy szukaj± czego¶ wygodniejszego od standardowych stalowych nagolenników, a jednocze¶nie zapewniaj±cych podobn± ochronê.
+minidelay 1
+tell $n Na ich wykonanie musisz trochê poczekaæ. Cena jest na tabliczce. Jeste¶ zainteresowany?
+responsedelay 10 "tak" "nie"
+if response 1
+  mob setflag $n arras_juz_chce 4
+  mob setflag $n arras_chce_spodnie 4
+  tell $n Daj mi wiêc z³oto, a wezmê siê do roboty. Je¶li zbyt d³ugo z tym zwlekniesz, 
+  anuluje zamówienie.
+  break
+endif
+if response 2
+  emote wzrusza ramionami i wraca do pracy.
+  break
+endif
+end
+~
+#0
+
+#OBJPROGSNEW
+#100
+~
+mob addgroup 41
+~
+#31
+~
+mob echoat $n Odrywasz kawa³ek miêsa z pieczeni i zaczynasz go prze¿uwaæ.
+mob echoaround $n $n odrywa kawa³ek miêsa z pieczeni i zaczyna siê nim delektowaæ.
+~
+#32
+~
+mob echoat $n Odci±gasz korek i bierzesz kilka ³yków. Ahhh, wspaniale piwo, choæ mog³oby byæ trochê ch³odniejsze.
+if sex $n == 2
+mob echoaround $n $n wyci±ga korek z butelki i bierze kilka ³yków. Widaæ po twarzy ze jej smakowa³o.
+else
+mob echoaround $n $n wyci±ga korek z butelki i bierze kilka ³yków. Widaæ po jego twarzy ze mu smakowa³o.
+endif
+~
+#33
+~
+mob echoat $n Odgryzasz kawa³ek kie³basy, nie jest mo¿e naj¶wie¿sza jednak smakuje ca³kiem nie¼le.
+mob echoaround $n $n odgryza kawa³ek kie³basy i w milczeniu prze¿uwa go.
+~
+#41
+~
+mob asound $p zaczyna gwa³townie b³yskaæ.
+~
+#66
+~
+mob echoaround $n $n zaci±ga siê g³êboko fajk±.
+mob echoat $n Zaci±gasz siê g³êboko fajk±.
+~
+#83
+~
+if rand 50
+mob echoat $n Podrzucasz wysoko monetê, ta wiruj±c opada na Twoj± otwart± d³oñ.
+mob echoaround $n $n wysoko podrzuca monetê, która wiruj±c opada na $s d³oñ.
+if rand 50
+if players > 2
+mob echoat $n Pokazujesz wszystkim or³a.
+mob echoaround $n $n pokazuje wszystkim or³a.
+else
+mob echoat $n Tym razem wypad³ orze³.
+mob echoaround $n $n pokazuje, ¿e wypad³ orze³.
+endif
+else
+if players > 2
+mob echoat $n Pokazujesz wszystkim reszkê.
+mob echoaround $n $n pokazuje wszystkim reszkê.
+else
+mob echoat $n Przygl±dasz siê i stwierdzasz, ¿e wypad³a reszka.
+mob echoaround $n $n pokazuje, ¿e wypad³a reszka.
+endif
+endif
+else
+mob echoat $n Rzucasz monet± o ziemiê, ta odbija siê i l±duje w Twojej d³oni.
+mob echoaround $n $n rzuca o ziemiê monet± tak zrêcznie, ¿e ta odbija siê i l±duje na $s d³oni.
+if rand 50
+if players > 2
+mob echoat $n Pokazujesz wszystkim or³a.
+mob echoaround $n $n pokazuje wszystkim or³a.
+else
+mob echoat $n Orze³! Twoja ulubiona strona monety.
+mob echoaround $n $n pokazuje, ¿e wypad³ orze³.
+endif
+else
+if players > 2
+mob echoat $n Pokazujesz wszystkim reszkê.
+mob echoaround $n $n pokazuje wszystkim reszkê.
+else
+mob echoat $n Reszka... no, ale czasem i ona musi wypa¶æ.
+mob echoaround $n $n pokazuje, ¿e wypad³a reszka.
+endif
+endif
+endif
+~
+#on_load_elita
+~
+#wield i hold
+mob equip self 3306
+mob oload 3179
+hold krotki
+#feet
+if rand 50
+  mob equip self 3001
+else
+  mob equip self 4418
+endif
+#legs
+if rand 50
+  mob equip self 3050
+else
+  mob equip self 3057
+endif
+#waist
+if rand 50
+  mob equip self 3099
+else
+  mob equip self 3098
+endif
+#body
+if rand 50
+  mob equip self 3025
+else
+  mob equip self 3029
+endif
+#about
+if rand 50
+  mob equip self 79
+else
+  mob equip self 112
+endif
+#arms
+if rand 50
+  mob equip self 3090
+endif
+#hands
+if rand 50
+  mob equip self 3066
+else
+  mob equip self 3071
+endif
+#head
+if rand 50
+  mob equip self 3045
+else
+  mob equip self 3045
+endif
+if rand 48
+  mob addgroup 31
+else
+  if rand 50
+    mob addgroup 34
+  else
+    mob addgroup 45
+  endif
+endif
+if rand 25 
+  if rand 50
+    mob addgroup 34
+  else
+    mob addgroup 45
+  endif
+endif
+if rand 85
+  if rand 50
+    mob addgroup 31
+  else
+    mob addgroup 34
+  endif
+endif
+if rand 90
+  if rand 50
+    mob addgroup 61
+  else
+    mob addgroup 62
+  endif
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#31
+~
+if hasflag $n bandzior
+mob echoat $n Niestety, musisz jeszcze trochê posiedzieæ.
+else
+mob transfer $n 32
+endif
+~
+#32
+~
+mob echoat $n Musisz sobie "zas³u¿yæ" na ta przyjemno¶æ. Lepiej nie próbuj tam wchodziæ, to nie jest mile widziane.
+~
+#35
+~
+mob force all fol elita
+mob force elit group 2.stra
+mob force elit group 3.stra
+mob force elit group 4.stra
+mob unlock w
+mob open w
+mob force elita w
+mob close w
+~
+#37
+~
+mob force wiezienia rest krzes³o
+~
+#50
+~
+mob echoat $n Nie mo¿esz tego zrobiæ.
+~
+#load_yergiza
+~
+if !mobexists y'ergiz
+mob mload 51
+endif
+~
+#0
+
+#TRAPS
+#Vnum 46
+Active 1
+Level 4
+Type 2
+Triggered mob echoat $n Ledwo tylko otwierasz drzwi z widniej±cej nad nimi dziurki wylatuje be³t i ugadza ciê w pier¶!
+mob echoaround $n Ledwo tylko drzwi zosta³y otwarte z widniej±cej nad nimi dziurki wylatuje be³t i ugadza $c w pier¶!
+mob damageex $n 2 40 80 muahahaha
+~
+Disarmed mob echoat $n Zrêcznie rozbrajasz zamontowan± na drzwiach pu³apkê!
+mob echoaround $n $n zrêcznie rozbraja zamontowan± na drzwiach pu³apkê!
+~
+Failed mob echoat $n Próbujesz rozbroiæ zamontowan± na drzwiach pu³apkê, ale ci siê nie udaje.
+mob echoaround $n $n próbuje rozbroiæ zamontowan± na drzwiach pu³apkê, ale $s siê to nie udaje.
+~
+Limit 1314822
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 100
+DescRand ~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+32 13 0 150 1 7 23 * 0
+32 14 0 150 1 0 0 * 0
+32 15 0 150 1 0 0 * 0
+32 16 0 150 1 0 0 * 0
+32 17 0 150 1 0 0 * 0
+32 22 0 150 1 0 0 * 0
+33 0 0 100 1 7 22 * 43
+33 23 0 100 1 0 0 * 0
+128 21 0 130 20 0 0 * 0
+128 19 0 125 10 0 0 * 0
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,686 @@
+#AREADATA
+Name +# Niedzwiedzia Gawra~
+Builders None~
+VNUMs 2871 2880
+Credits Marcin.Pietrzak@mud.pl~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 2871
+Name G³odna br±zowa nied¼wiedzica~
+Odmiana g³odnej nied¼wiedzicy~g³odnej nied¼wiedzicy~g³odn± nied¼wiedzicê~g³odn± nied¼wiedzic±~g³odnej nied¼wiedzicy~
+Short g³odna nied¼wiedzica~
+Long £azi tu br±zowa nied¼wiedzica szukaj±c czego¶ do jedzenia.~
+Descr Jest to doros³a nied¼wiedzica o br±zowym futrze. Przygotowuje siê teraz
+do snu zimowego, dlatego te¿ nie dziwi fakt, ¿e mimo posiadania ogromnych
+zwa³ów t³uszczu ci±gle szuka jedzenia. Ma m±dre, br±zowe oczy, którymi
+potrafi wy¶ledziæ nawet ma³e istoty. W nocy za¶ kieruje siê g³ównie wêchem,
+co bywa u niej równie skuteczne jak wzrok. 
+~
+Race nied¼wied¼~
+ActExt 0|A
+Affected 544 0 0 0
+AffectedExt 0|FJ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 11
+Hitroll 1
+HP 11d6+220
+Damage 1d3+5
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack gryzienie
+XAC 5 5 5 5
+Stats 120 108 96 120 120 90 108
+Off CD
+OffExt 0|CD
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGV
+Parts ABCDEFHJKRSUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2872
+Name niedzwiadek niedzwiedz~
+Odmiana niedzwiadka~niedzwiadkowi~niedzwiadka~niedzwiadkiem~niedzwiadku~
+Short niedzwiadek~
+Long Maly niedzwiedz szuka czegos w poblizu.~
+Descr ~
+Race nied¼wied¼~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 6
+Hitroll 0
+HP 6d6+125
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack none
+XAC 8 8 8 8
+Stats 102 54 54 66 60 78 78
+Off DEO
+OffExt 0|DEO
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ABCDEFHJKRSUV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 2873
+Name druid sajuk~
+Odmiana druida Sajuka~druidowi Sajukowi~druida Sajuka~druidem Sajukiem~druidzie Sajuku~
+Short druid Sajuk~
+Long Druid Sajuk stoi tutaj.~
+Descr Druid Sajuk jest ju¿ starym elfem, który jak mówi± opowie¶ci, zwiedzi³
+ca³y stary kontynent. Niegdy¶ by³ jednym z najpotê¿niejszych elfów po tej
+stronie Oceanu, lecz wiek robi swoje. Mimo swojej wiedzy i inteligencji nie
+pokona³ by teraz bandy rzezimieszków. Przemierza kontynent, spaceruj±c po
+lasach zjanduj±cych siê daleko na zimnej pó³nocy a¿ po puszcze na pó³wyspie
+Vanion. 
+~
+Race elf~
+ActExt 0|ABL
+Affected 33554440 0 0 0
+AffectedExt 0|DZ
+Align 0
+Group 0
+Lang AB
+Speaks 0
+Level 25
+Hitroll 0
+HP 20d5+500
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 7 7 7 8
+Stats 120 126 138 114 108 108 90
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 2873 ABCDEFGHI 100~
+Spells 91 297 259 26
+Spells 240 50 273 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 2871
+Name runiczny kamieñ~
+Odmiana runicznego kamiena~runicznemu kamieniowi~runiczny kamien~runicznym kamieniem~runicznym kamieniu~
+Short runiczny kamieñ~
+Descr Jaki¶ dziwny kamieñ le¿y na ziemi.~
+Material granit~
+Type gem
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 60000
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 2871
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2872
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2872
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2874
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2874
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15700
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15700
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2872
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2873
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2873
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2875
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2875
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2871
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2871
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2873
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2876
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2876
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2872
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2872
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2874
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2871
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2871
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2875
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2875
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2877
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2877
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15699
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15699
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2875
+Name Posrodku gestych zarosli~
+Descr Przed soba widzisz potezna dziure w ziemi, z której unosi sie ciezki
+pizmowy zapach. Wszedzie widac slady wielkiego niedzwiedzia, który zapewnie
+mieszka w tej norze. Wielkie drzewa dookola ciebie naznaczone sa bliznami
+powstalymi przez szarpanie wielkimi pazurami. 
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2872
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2872
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2876
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2876
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2878
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2878
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2874
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2874
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2880
+ExitExtEnd
+Exit 5
+~
+~
+0 0 2880
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2876
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2873
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2873
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2879
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2879
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2875
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2875
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2877
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2874
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2874
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2878
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2878
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15698
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15698
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2878
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2875
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2875
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2879
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2879
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2877
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2877
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2879
+Name Geste zarosla~
+Descr Znajdujesz sie w gestych, ciernistych zaroslach posplatanych w fantazyjne
+wzorki. Ciemnozielony, lekko brunatny kolor lisci nie wyglada przyjaznie,
+a pnie wysokich sosen nosza slady poteznych pazurow, tak jakby wielki
+niedzwiedz znaczyl swoje terytorium. Rowniez na podlozu widac wyraznie
+odcisniety trop poteznego niedzwiedzia, co ciekawe obok zauwazasz pelno
+pomniejszonych sladow, czyzby male?
+~
+FlagsExt 0
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2876
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2876
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2878
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2878
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 2880
+Name Niedzwiedzia gawra~
+Descr Znajdujesz sie w niedzwiedziej gawrze, jezeli jeszcze zyjesz, to oznacza
+ze zabiles niedzwiedzice chroniaca swoje terytorium. Smrod unoszacy sie w
+powietrzu jest maksymalnie przytlaczajacy. Wszedzie dookola widzisz kawalki
+starej siersci. 
+~
+FlagsExt 0|AV
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2875
+ExitExtEnd
+Exit 4
+~
+~
+0 0 2875
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 2871 1 2880 1
+S
+
+
+
+#MOBPROGSNEW
+#2873
+Ubranie Druida.
+~
+mob equip 2873
+mob equip 4415
+mob oload gem 4
+mob oload gem 4
+mob oload ear 5
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

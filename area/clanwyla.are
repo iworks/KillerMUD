@@ -1,0 +1,682 @@
+#AREADATA
+Name {RCLAN{x: Wybrañcy lasu~
+Builders Klan~
+VNUMs 19061 19099
+Credits senhan@tlen.pl
+ 
+link: 32032 west -> 19061
+~
+Locked ~
+Security 9
+ResetAge 40
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 19061
+Name potê¿ny drzewiec~
+Odmiana potê¿nego drzewca~potê¿nemu drzewcowi~potê¿nego drzewca~potê¿nym drzewcem~potê¿nym drzewcu~
+Short potê¿ny {gdrzewiec{x~
+Long Potê¿ny {gdrzewiec{x stoi tutaj i czeka na ¶mia³ków ³ami±cych prawo lasu.~
+Descr Ten ogromny drzewiec ma kore w kolorze czerni. Jego nienawistne oczy
+spogl±daj± na ciebie. Wielkie ga³êziste rêce wznosz± sie ponad twoj± g³owê.
+Ogromne nogi s± w stanie zgnie¶æ wiêkszo¶æ ¿yj±cych istot. Korona li¶ci
+tworzy z niego prawdziwego króla lasu. 
+~
+Race drzewiec~
+ActExt 0|ABT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AR
+Speaks 16
+Level 25
+Hitroll 1
+HP 1d1+600
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 2 2 2 9
+Stats 138 72 72 90 120 60 90
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CE
+Parts JK
+Size medium
+Material unknown
+MobprogNew speech 19063 FGI ¿egnaj~
+MobprogNew onload 19061 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 19064
+Name le¶ny lesny sklepikarz~
+Odmiana le¶nego sklepikarza~le¶nemu sklepikarzowi~le¶nego sklepikarza~le¶nym sklepikarzem~le¶nym sklepikarzu~
+Short {Gle¶ny sklepikarz{x~
+Long {GLe¶ny sklepikarz{x stoi tutaj oferuj±c swoje towary.~
+Descr Spogl±dasz na starego sklepikarza. Ma on poczciw± twarz, spogl±daj±c± na
+Ciebiê niebieskimi oczami. Posiada d³ug± siw± brodê oraz w³osy siêgaj±ce do
+pasa. Jego silne ramiona potrafi± ud¼wign±æ naprawdê du¿o towarów. Sam
+sklepikarz ma wiele do zaoferowania. 
+~
+Race elf~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 1d1+100
+Damage 1d1+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 19061
+Name tablica wpisów wpisow~
+Odmiana tablicy wpisów~tablicy wpisów~tablicê wpisów~tablic± wpisów~tablicy wpisów~
+Short tablica wpisów~
+Descr Tablica wpisów stoi wbita w ziemiê.~
+Material drewno~
+Type board
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 20 20 20 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 60
+Cond 75
+Itemdesc Widzisz tablicê, na której mo¿na siê podpisaæ lub zostawiæ komu¶ wiadomo¶æ.
+~
+Comments ~
+Objend
+#Vnum 19066
+Name fontanna le¶na lesna~
+Odmiana fontanny~fontannie~fontannê~fontann±~fontannie~
+Short {Gle¶na {Bfontanna{x~
+Descr {GLe¶na {Bfontanna{x stoi tutaj tryskaj±c wod±.~
+Material z³oto~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 60
+Cond 75
+Itemdesc Piêkna fontanna zrobiona ze z³ota stoi po¶ród krzewów i tryska wod± na
+wszystkie kierunki. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 19067
+Name zielony klucz~
+Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
+Short zielony klucz~
+Descr Ma³y zielony klucz le¿y tutaj.~
+Material stal~
+Type key
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to niewielki, zielony klucz do le¶nej bramy.
+~
+Comments ~
+Objend
+#Vnum 19070
+Name tron czarnej smoczycy~
+Odmiana tronu~tronowi~tron~tronem~tronie~
+Short Tron {DCzarnej Smoczycy{x~
+Descr Tron {DCzarnej Smoczycy{x stoi tutaj.~
+Material mithril~
+Type furniture
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 56 3216 105 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1103
+Cost 1
+Cond 75
+Itemdesc Widzisz potê¿ny tron zbudowany specjalnie dla przywódcy "Wybrañców Lasu". Jest on czarny i podobny do postaci siedz±cej czarnej smoczycy.
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 19061
+Name Zielona brama~
+Descr Po chwili pojawiasz siê przed zielon± ¶cian±. Konary drzew rozsuwaj± siê,
+pod wp³ywem Twej obecno¶ci, potêguj±c jeszcze bardziej wra¿enie
+tajemniczo¶ci, tego niedostêpnego miejsca. W tym ciemnym borze dostrzegasz
+strumieñ ¶wiat³a wskazuj±cy ci drogê na pó³noc. Mimo, ¿e nie masz pojêcia,
+co mo¿e znajdywaæ siê dalej, odczuwasz pewn± dziwn± aurê spokoju unosz±c±
+siê nad t± krain±. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 19067
+ExitExtToVnum 19062
+ExitExtEnd
+Exit 0
+~
+~
+0 19067 19062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19062
+Name Dziwna polana~
+Descr Znajdujesz siê na do¶æ dziwnej polanie. Otaczaj± ciê ró¿norodne ro¶liny,
+które w pewien, wrêcz dziwny sposób poruszaj± siê, przysuwaj±c do ciebie
+oraz odchylaj±c na boki. Mimo tych szczegó³ów, stwierdzasz, ¿e to miejsce to
+istny raj dla osób lubuj±cych spêdzaæ czas no ³onie natury. Piêkne, kolorowe
+kwiaty otaczaj± ciê z ka¿dej strony. Tak¿e cienie drzew zapewniaj± ochronê
+przed S³oñcem. Po namy¶le stwierdzasz, ¿e to bardzo piêkne miejsce. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19065
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19065
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19063
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19063
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 19067
+ExitExtToVnum 19061
+ExitExtEnd
+Exit 2
+~
+~
+0 19067 19061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19063
+Name Droga do sklepu~
+Descr SklepuWchodzisz na ma³± dró¿kê, prowadz±c± do sklepu. Z ponad wiecznie
+zielonych krzewów dostrzegasz solidny budynek. Stwierdzasz, ¿e ów budowla
+jest w pewnym sensie sza³asem, zbudowanym z ga³êzi, gliny oraz li¶ci.
+Budynek ten na pewno nie jest zbyt wytrzyma³y, ale nie mo¿esz byæ tego taki
+pewien, w koñcu stoi kilkadziesi±t metrów dalej. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19064
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19064
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19062
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19064
+Name Sklep~
+Descr Mimo, ¿e sza³as od zewn±trz wydawa³ siê niestabilny, w ¶rodku jest jednak
+zupe³nie inaczej. Ga³êzie które by³y szkieletem budynku, okaza³y siê m³odymi
+drzewami silnie zakorzenionymi w ziemie. Sklep od wewn±trz wydaje siê o
+wiele milszy i przestronniejszy. Wokó³ znajduje siê wiele dziwacznych
+przedmiotów, jednak wiêkszo¶æ z nich nie jest na sprzeda¿, a co najwy¿ej
+mo¿e pocieszyæ oko kupuj±cych. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19063
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19063
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19065
+Name Droga do ¦wiêtego Gaju~
+Descr Ca³a dolina pokryta jest nieprzeniknion± mg³±. Obok le¶nej ¶cie¿ki, któr±
+pod±¿asz, wzd³u¿ drogi, biegnie pas ogromnych monolitów. Przygl±daj±c siê im
+bli¿ej, stwierdzasz, ¿e nie jest to dzie³o natury, a ju¿ na pewno nie
+cz³owieka. Potê¿ne kamienie emanuj± tajemnicz±, wewnêtrzn± magi±. To do¶æ
+niezwyk³e, ale zdaje ci siê, ¿e te bloki pulsuj±, zmniejszaj±c siê i
+zwiêkszaj±c. Posuwaj±c siê na pó³noc, droga staje siê ciemniejsza. Powoli
+zaczyna ogarniaæ ciê narastaj±cy niepokój. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19066
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19066
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19062
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19066
+Name ¦wiêty gaj~
+Descr Gdy wkraczasz w to nienaturalne miejsce, ca³e twe cia³o przeszywa
+niezwyk³a energia. Czujesz, ¿e twe oczy zaczynaj± mieniæ siê jaskraw±
+zieleni±. To niesamowite, ale ca³a ta kraina pokryta jest ciemnym
+'p³aszczem' nocy. Czarne niebo pokrywaj± liczne, jasne gwiazdy. Na ¶rodku
+tej polany, znajduje siê potê¿ny kamienny kr±g, a w jego ¶rodku, o³tarz
+emanuj±cy magi± lasu. Dochodzisz do wniosku, ¿e to musi byæ inny równoleg³y
+wymiar, lub miejsce z odleg³ych czasów, gdy pradawni druidzi odprawiali tu
+swe rytua³y. Jednak czy to mo¿liwe ¿eby¶ przeniós³ siê w przesz³o¶æ? To
+chyba najdziwniejsze miejsce jakie kiedykolwiek widzia³e¶. Ciemne konary
+drzew wznosz± siê monumentalnie, niczym marmurowe kolumny, tworz±c atmosferê
+grozy i tajemniczo¶ci. Swoimi zmys³ami czujesz muzykê dzikiej,
+nieokie³znanej natury. Czy tu nie jest piêknie? Jednak twój instynkt
+podpowiada ci by nie zak³ócaæ porz±dku tej okolicy i szybko j± opu¶ciæ, a
+ju¿ na pewno nie zbli¿aæ siê do kamiennego o³tarza. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19070
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19070
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19068
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19068
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19065
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19065
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19067
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19067
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19067
+Name Przed sal± treningow±~
+Descr Na zachodzie dostrzegasz salê treningow±. Chyba to w³a¶nie tam,
+'Wybrañcy' doskonal± swe umiejêtno¶ci. Id±c po¶ród drzew, s³yszysz ¶piew
+ptaków oraz szum li¶ci powodowany lekkim wiatrem. W trawie co jaki¶ czas
+s³yszysz pobrzêkiwania owadów. Masz wra¿enie, ¿e wszystko wokó³ ciebie ¿yje
+i przygl±da siê tobie z uwag±. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19066
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19066
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19071
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19071
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19068
+Name Droga przez las~
+Descr Pod±¿asz zielon± ¶cie¿k±, prowadz±c± do sypialni 'Wybrañców Lasu'.
+Bêdziesz móg³ tam w spokoju zapamiêtaæ zaklêcia, odpocz±æ oraz przespaæ siê.
+Id±c drog±, dostrzegasz kamieñ pokryty starymi runami. Przygl±dasz siê
+napisom, jednak nic z tego nie mo¿esz zrozumieæ. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19069
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19069
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19066
+ExitExtEnd
+Exit 3
+~
+~
+0 0 19066
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19069
+Name Sypialnia~
+Descr Wchodzisz na piêkn± ³±kê. Znajduje siê tu dziwna formacja, otoczona
+wielkimi li¶æmi oraz spl±tana korzeniami. To co na pierwszy rzut oka
+wydawa³o siê jakim¶ wytworem natury, okazuje siê ³ó¿kiem. Korony drzew
+zapewniaj± ochronê przed s³oñcem i daj± mi³y cieñ. Jest tu cicho i
+spokojnie, co zapewnia warunki godnego wypoczynku. 
+~
+FlagsExt 0|BEFH
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19068
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19068
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19070
+Name Siedziba w³adcy lasu~
+Descr Dochodzisz do najbardziej wysuniêtego miejsca na pó³noc. Tu koñczy siê
+twoja droga. Woko³o znajduje siê bujny las. Na polanie, na której siê
+znajdujesz, wznosi siê monumentalny granitowy tron, poro¶niêty ró¿norodn±
+ro¶linno¶ci±. Bogato ornamentowany, przedstawiaj±cy sceny z ¿ycia lasu.
+Czujesz tu ogrom mocy natury. W g³owie czujesz ciche, pulsuj±ce s³owa..
+Chwa³a tobie potê¿na naturo... S³owa te wzmagaj± siê z ka¿d± chwil±...
+Chwa³a tobie za stworzenie mroku... Po chwili stwierdzasz, ¿e to, co
+wcze¶niej s³ysza³e¶ w w³asnej g³owie, teraz wydobywa siê z twoich w³asnych
+ust... 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19066
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19066
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 19071
+Name Sala treningowa~
+Descr Wreszcie dotar³e¶ do sali treningowej. Znajdujesz siê w sporym budynku
+zrobionym z grubych k³ód drewna. Na ¶rodku znajduje siê kuk³a, która z
+pewno¶ci± s³u¿y po to by wojownicy mogli doskonaliæ pos³ugiwanie siê sw±
+broni±, a magowie byli w stanie wypróbowaæ swe nowe czary. Znajduje siê tu
+wiele innych przedmiotów, jednak po dok³adniejszych oglêdzinach, stwierdzasz
+z przykro¶ci±, ¿e s± one zniszczone. 
+~
+FlagsExt 0|H
+Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19067
+ExitExtEnd
+Exit 1
+~
+~
+0 0 19067
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+19064 0 0 0 0 0 100 100 0 23 * 0
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 19061 1 19061 1
+O 100 19061 0 19062
+M 100 19064 1 19064 1
+G 100 3380 0
+G 100 2499 0
+G 100 4424 0
+O 100 19066 0 19066
+O 100 2358 0 19069
+O 100 19070 0 19070
+S
+
+
+
+#MOBPROGSNEW
+#19061
+~
+mob oload 19067
+~
+#19063
+~
+if clan $n WYBRANIEC
+  sayto $n ¯egnaj Wybrañcu Lasu.
+  close north
+  lock north
+endif
+~
+#0
+
+#OBJPROGSNEW
+#19061
+Sprawdzianik
+~
+if clan $n WYBRANIEC
+  mob echoat $n Nak³adasz li¶ciasty pas "{GWybraniec Lasu{x".
+  mob echoaround $n $n nak³ada li¶ciasty pas "{GWybraniec Lasu{x".
+  obj wear
+else
+  mob echoat $n Magiczna si³a sprawia, ¿e pas upada na ziemiê i zamienia siê w kupkê li¶ci.
+  zamienia siê w kupkê li¶ci.
+endif
+~
+#19065
+~
+if clan $n WYBRANIEC
+  mob echoat $n Wypuszczasz li¶æ, który po chwili zaczyna lewitowaæ nad twoj± g³ow±
+  mob echoaround $n $n wypuszcza li¶æ, który po chwili zaczyna lewitowaæ nad $ns g³ow±.
+  obj wear
+else
+  mob echoat $n Magiczna sila sprawia, ze li¶æ rozb³yskuje swiat³em i rozpryskuje siê na kawa³eczki.
+  mob remove $n li¶æ
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

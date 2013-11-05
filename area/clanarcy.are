@@ -1,0 +1,727 @@
+#AREADATA
+Name {RCLAN{X: Gildia Arcymagów~
+Builders Klan~
+VNUMs 39844 39864
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 39845
+Name wielki mag mê¿czyzna~
+Odmiana wielkiego maga~wielkiemu magowi~wielkiego maga~wielkim magiem~wielkim magu~
+Short {Dwielki zakapturzony mag{x~
+Long {DWielki jak na maga mê¿czyzna w ciemnym p³aszczu stoi tu pilnuj±c czego¶.{x~
+Descr ~
+Race cz³owiek~
+ActExt 0|ABR
+Affected 33554472 0 0 8224
+AffectedExt 0|DFZ/3|FN
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+700
+Damage 5d5+6
+Dammagic 2
+Weaponbonus 10
+Damflags 4
+Attack ssanie
+XAC 10 10 10 10
+Stats 144 150 150 120 120 120 120
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew exit stra¿nik_magów FGI 0~
+Spells 296 92 2 93
+Spells 185 161 311 216
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 39854
+Name Magiczna iluzja gnomiego sprzedawcy~
+Odmiana iluzji gnomiego sprzedawcy~iluzji gnomiego sprzedawcy~iluzjê gnomiego sprzedawcy~iluzj± gnomiego sprzedawcy~iluzji gnomiego sprzedawcy~
+Short Iluzja gnomiego sprzedawcy~
+Long Iluzja gnomiego sprzedawcy lewituje nad ziemi± oferuj±c towary.~
+Descr ~
+Race gnom~
+ActExt 0|ABRb
+Affected 128 0 0 0
+AffectedExt 0|H
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 39845
+Name zakrwawiony list~
+Odmiana {Rz{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Re{rg{Ro{x listu~{Rz{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Re{rm{Ru{x listowi~{Rz{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Ry{x list~{Rz{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Ry{rm{x listem~{Rz{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Ry{rm{x li¶cie~
+Short {Rz{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Ry{x list~
+Descr {RZ{ra{Rk{rr{Rw{ra{Rw{ri{Ro{rn{Ry{x list le¿y na ziemi.~
+Material papier~
+Type trash
+ExtraExt 0|HMY
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 75
+Aff 1 13 -10 0 0 0
+Itemdesc Ostro¿nie otwierasz list i próbujesz rozczytaæ zamazane przez krew
+litery. Udaje ci siê rozczytaæ zdanie "Ten, który ma ten list w rêku zosta³
+przeklêty."  Co dalej? Nic nie da siê rozczytaæ, ciekawe o co chodzi z tym,
+¿e zostanie siê przeklêtym? 
+~
+Comments ~
+Objend
+#Vnum 39853
+Name eteryczny p³aszcz 'Tajemnica Maga'~
+Odmiana {Weterycznego p³aszcza {s'{dTajemnica Maga{s'{x~{Weterycznemu p³aszczowi {s'{dTajemnica Maga{s'{x~{Weteryczny p³aszcz {s'{dTajemnica Maga{s'{x~{Weterycznym p³aszczem {s'{dTajemnica Maga{s'{x~{Weterycznym p³aszczu {s'{dTajemnica Maga{s'{x~
+Short {Weteryczny p³aszcz {s'{dTajemnica Maga{s'{x~
+Descr {WEteryczny p³aszcz{x lewituje nad ziemi± ¶wiec±c ró¿nymi kolorami.~
+Material smocze ³uski~
+Type container
+ExtraExt 0|HMP
+Wear AK
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 40 1 0 30 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 3600
+Cond 0
+Objprog prewear p³aszcz_magów 100~
+Comments ~
+Objend
+#Vnum 39854
+Name diamentowa korona 'oko Venreeh'meyela'~
+Odmiana {Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{Ce{Wj {Wk{Co{Wr{Co{Wn{Cy {B'{ROko Venreeh'meyela{B'{x~{Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{Ce{Wj {Wk{Co{Wr{Co{Wn{Ci{We {B'{ROko Venreeh'meyela{B'{x~{Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{C± {Wk{Co{Wr{Co{Wn{Cê {B'{ROko Venreeh'meyela{B'{x~{Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{C± {Wk{Co{Wr{Co{Wn{C± {B'{ROko Venreeh'meyela{B'{x~{Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{Ce{Wj {Wk{Co{Wr{Co{Wn{Ci{We {B'{ROko Venreeh'meyela{B'{x~
+Short {Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{Ca {Wk{Co{Wr{Co{Wn{Ca {B'{ROko Venreeh'meyela{B'{x~
+Descr {WD{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{Ca {Wk{Co{Wr{Co{Wn{Ca {B'{ROko Venreeh'meyela{B'{x le¿y na ziemi ¶wiec±c potê¿n± moc±.~
+Material diament~
+Type jewelry
+ExtraExt 0|HMPUY
+Wear AE
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 6000
+Cond 75
+Aff 1 12 4 14 0 0
+Extradesc 1~
+Spogl±daj±c na {R$c{x widzisz przepiêkn± koronê. Zastanawiasz siê kto
+podarowa³ $x tak przepiêkny przedmiot. Korona wykonana jest z diamentu, a po
+¶rodku korony zosta³o wt³oczone wielkie oko ko¶cianego smoka Venreeh'meyela.
+To chyba jaki¶ dar dla magów. 
+~
+Objprog prewear korona_magów 100~
+Itemdesc {WD{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{Ca {Wk{Co{Wr{Co{Wn{Ca {B'{ROko Venreeh'meyela{B'{x jest bardzo potê¿nym przedmiotem.
+Dziêki niemu mo¿na zapamiêtaæ o wiele wiêcej czarów. Jest to dar od smoka
+Venreeh'meyela w przeproszeniu za dawne sprzeczki z magami. 
+~
+Comments do skasowania - {RWicia{x ({CFri Mar 16 14:21:20 2007{x)
+albo diametralnie zmienic nazwe - {RWicia{x ({CFri Mar 16 14:21:48 2007{x)
+~
+Objend
+#Vnum 39861
+Name marmurowa ³awka~
+Odmiana marmurowej ³awki~marmurowej ³awce~marmurow± ³awkê~marmurow± ³awk±~marmurowej ³awce~
+Short marmurowa ³awka~
+Descr {WM{xa{Wr{xm{Wu{xr{Wo{xw{Wa {x³{Wa{xw{Wk{xa{x stoi pod ¶cian± ¶wiec±c magiczn± moc±.~
+Material marmur~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 2 0 4088 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10000
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 39844
+Name Zej¶cie do jaskiñ~
+Descr Podchodzisz do do¶æ sporej groty prowadz±cej na dó³. Jeste¶ w podziemiach
+lecz z do³u dochodzi do¶æ mi³y zapach, bardzo ³agodny, ale troszkê drapi±cy
+w twym nosie. Wszystko do oko³a okrywa p³aszcz pó³mroku. Jest tu bardzo
+cicho i nawet przyjemnie. Kto wie co jest na dole? Mo¿e czeka ciê tam
+¶mieræ, a mo¿e co innego? 
+~
+FlagsExt 0|AC
+Sector 14
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39845
+ExitExtEnd
+Exit 5
+~
+~
+0 0 39845
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39845
+Name Magiczna brama~
+Descr Wkraczasz do dziwnego pomieszczenia, które przypomina jakby jakie¶
+miejsce mod³ów czy co¶ w tym stylu. W rogu pomieszczenia widzisz jakby
+{Dportal{x, który mo¿e gdzie¶ prowadziæ. Jest to pewnie niebezpieczne, ale
+spróbowaæ zawsze mo¿na. Ciekawe co siê kryje za tym magicznym przej¶ciem. 
+~
+FlagsExt 0|CHJ
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 39846
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+~
+16384 0 39846
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39844
+ExitExtEnd
+Exit 4
+~
+~
+0 0 39844
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39846
+Name Wyj¶cie z siedziby~
+Descr Wkraczasz na tereny Gildi Arcymagów. Panuje tu niepowtarzalna cisza. Do
+oko³a na ¶cianach wisz± przepiêkne obrazy, najprawdopodobniej s± to obrazy
+ze staro¿ytnej bitwy magów dobra i z³a. S± to piêkne lecz krwawe ilustracje.
+Nic prócz tych obrazów nie ma w tym pokoju. Aby opu¶ciæ to miejscie udaj siê
+do {Dwyj¶cia{x. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39847
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39847
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39850
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39850
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 39845
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+16384 0 39845
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39847
+Name Korytarz~
+Descr Znajdujesz siê w dziwnym korytarzu, który nie wiadomo gdzie prowadzi.
+Mo¿e w przepa¶æ, a mo¿e do nieba? W ka¿dym razie jak pójdziesz dalej to
+napewno siê dowiesz. Po chwili zauwa¿asz na ¶cianie malunek, jest to portret
+ko¶cianego smoka Venreeh'meyela, bardzo piêkne malowid³o. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39848
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39848
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39846
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39846
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39848
+Name Korytarz~
+Descr Znajdujesz siê w dziwnym korytarzu, który nie wiadomo gdzie prowadzi.
+Mo¿e w przepa¶æ, a mo¿e do nieba? W ka¿dym razie jak pójdziesz dalej to na
+pewno siê dowiesz. Panuje tu pó³mrok i nie wszystko dok³adnie widaæ. Przy
+suficie unosi siê magiczny p³omieñ ¶wiat³a, który o¶wietla pomieszczenie. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39849
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39849
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39847
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39847
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39849
+Name Miejsce spotkañ {WArcymagów{x~
+Descr Wchodzisz do przedziwnego pokoju. To chyba tutaj magowie Gildi Arcymagów
+ucz± siê nowych zaklêæ i u¿ywaj± sprawdzaj±c ich dzia³anie. Na {Wwschodzie{x
+widzisz tak jakby jakie¶ pomieszczenie, ciekawe co tam jest? I ciekawe czy
+jest tam te pomieszczenie, czy mo¿e to tylko iluzja? 
+~
+FlagsExt 0|FH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 39860
+ExitExtEnd
+Exit 1
+~
+~
+16 0 39860
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39848
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39848
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39850
+Name Korytarz~
+Descr Znajdujesz siê w dziwnym korytarzu, który nie wiadomo gdzie prowadzi.
+Mo¿e w przepa¶æ, a mo¿e do nieba? W ka¿dym razie jak pójdziesz dalej to na
+pewno siê dowiesz. Panuje tu pó³mrok i nie wszystko dok³adnie widaæ. Przy
+suficie unosi siê magiczny p³omieñ ¶wiat³a, który o¶wietla pomieszczenie. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39854
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39854
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39846
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39846
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39851
+Name ~
+Descr ~
+FlagsExt 0|CH
+Sector 28
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39852
+Name ~
+Descr ~
+FlagsExt 0|H
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39853
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39853
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39853
+Name ~
+Descr ~
+FlagsExt 0|H
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39852
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39852
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39854
+Name Sklep starego gnoma~
+Descr Wchodzisz do sklepu, który prowadzi stary gnom. Na ¶cianach widaæ
+wszêdzie prawie puste pó³ki, na niektórych widzisz jakie¶ dziwne korony. W
+rogu pokoju stoi wieszak, na którym powieszone s± jakie¶ dziwne
+pó³przezroczyste eteryczne p³aszcze. To tu chyba ubieraj± siê legendarni
+cz³onkowie Gildi Arcymagów. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39850
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39850
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39855
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39856
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39857
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39858
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39859
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39860
+Name Ukryty pokój~
+Descr Wkraczasz do pokoju, o którym ju¿ dawno zapomniano. To tutaj lektor
+spotyka³ siê z arcymagiem by omówiæ sprawy klanowe. Tylko oni od czasu do
+czasu wchodz± tu i rozmawiaj±. Nikt nie przebywa w tym miejscu, pewnie jest
+to surowo karane przez przywódców Gildi Arcymagów. Gdy pójdziesz na {Wzachód{x
+mo¿liwe, ¿e wyjdziesz z tego pomieszczenia. 
+~
+FlagsExt 0|CFHL
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 39849
+ExitExtEnd
+Exit 3
+~
+~
+16 0 39849
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39861
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39862
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39863
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39864
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+39854 0 0 0 0 0 100 100 0 23 * 0
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 39845 1 39845 1
+E 100 39853 0 12
+E 100 39854 0 6
+E 100 3380 0 18
+E 100 39845 0 17
+O 100 1722 0 39849
+M 100 39854 1 39854 1
+G 100 2499 0
+G 100 2450 0
+G 100 39853 0
+G 100 3380 0
+O 100 430 0 39854
+O 100 39861 0 39860
+S
+
+
+
+#MOBPROGSNEW
+#39870
+~
+~
+#39960
+~
+~
+#stra¿nik_magów
+~
+if clan $n MAG
+mob transfer $n 39846
+else
+tell $n Tylko czlonkowie Gildii Arcymagow moga tam wejsc!
+endif
+~
+#0
+
+#OBJPROGSNEW
+#korona_magów
+~
+if clan $n MAG
+mob echoat $n Nak³adasz {Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{C± {Wk{Co{Wr{Co{Wn{Cê{x na swoj± g³owê.
+mob echoaround $n Zak³ada {Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{C± {Wk{Co{Wr{Co{Wn{Cê{x na swoj± g³owê.
+obj wear
+else
+mob echoat $n Próbujesz za³o¿yæ {Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{C± {Wk{Co{Wr{Co{Wn{Cê{x na swoj± g³owê.
+mob echoaround $n Widzisz, jak $n próbuje za³o¿yæ {Wd{Ci{Wa{Cm{We{Cn{Wt{Co{Ww{C± {Wk{Co{Wr{Co{Wn{Cê{x.
+endif
+~
+#p³aszcz_magów
+~
+if clan $n MAG
+mob echoat $n Narzucasz {Weteryczny p³aszcz{x na swoje cia³o.
+mob echoaround $n Narzuca {Weteryczny p³aszcz{x na swoje cia³o.
+obj wear
+else
+mob echoat $n Próbujesz za³o¿yæ {Weteryczny p³aszcz{x na swoje cia³o, lecz co¶ ciê uwiera.
+mob echoaround $n Widzisz, jak $n trudzi siê z za³o¿eniem {Weterycznego p³aszcza{x, na pró¿no.
+endif
+~
+#p³omieñ_magów
+~
+if clan $n MAG
+mob echoat $n Dotykasz magiczny {Rp{Y³{Ro{Ym{Ri{Ye{Rñ{x, a ten zaczyna lewitowaæ nad twoj± g³ow±.
+ mob echoaround $n Dotyka magiczny {Rp{Y³{Ro{Ym{Ri{Ye{Rñ{x, który po chwili zaczyna lewitowaæ.
+obj wear
+else
+mob echoat $n Próbujesz za³o¿yæ magiczny {Rp{Y³{Ro{Ym{Ri{Ye{Rñ{x, ale ci siê nie udaje.
+mob echoaround $n Widzisz, jak $n próbuje za³o¿yæ magiczny {Rp{Y³{Ro{Ym{Ri{Ye{Rñ{x lecz po chwili rezygnuje.
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

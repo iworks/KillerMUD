@@ -1,0 +1,5091 @@
+#AREADATA
+Name +# Martwe stepy~
+Builders None~
+VNUMs 6900 6999
+Credits Twórca: Feerial, Poprawki: Garloop
+Poprawki polskich znaków, stylu: slhl <slhl@tlen.pl> [2008-04-16]
+~
+Locked ~
+Security 9
+ResetAge 15
+Region 95
+End
+
+
+
+#MOBILES
+#Vnum 6900
+Name wojowniczka kobieta stara przygarbiona~
+Odmiana wojowniczki~wojowniczce~wojowniczkê~wojowniczka~wojowniczce~
+Short stara wojowniczka~
+Long Jaka¶ przygarbiona kobieta wlecze siê têdy, podzwaniaj±c mieczem.~
+Descr W³a¶ciwie to trudno by³oby oceniæ, z kim masz do czynienia, gdyby nie
+pewne charakterystyczne gesty, pozwalaj±ce dopatrywaæ siê w tej kobiecie
+do¶wiadczonej i wytrawnej wojowniczki. Trzyma ona w d³oniach potê¿ny,
+dwurêczny miecz, który opiera sobie na barku, a którego jest gotowa w ka¿dej
+chwili u¿yæ. Tak wiêc nie daj siê nabraæ na to, ¿e jest to zgrzybia³a
+staruszka, to normalna najemniczka, tyle ¿e ju¿ na emeryturze. 
+~
+Race cz³owiek~
+ActExt 0|ACETX
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 23
+Hitroll 0
+HP 18d2+470
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 8
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 10
+Stats 145 84 84 100 128 78 78
+Off EKXb
+OffExt 0|EKXb/1|BC
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 1000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload 6900 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 6901
+Name kap³an kleryk m³ody krasnolud kap³an_isoryka~
+Odmiana kap³ana Isoryka~kap³anowi Isoryka~kap³ana Isoryka~kap³anem Isoryka~kap³anie Isoryka~
+Short kap³an Isoryka~
+Long Stoi tutaj krasnolud, bêd±cy kap³anem Isoryka.~
+Descr Ten krasnolud jest oddelegowanym do tej kapliczki kap³anem Isoryka. W
+przeciwieñstwie do wiêkszo¶ci kap³anów tego Boga, ten nie wygl±da na
+bieg³ego uzdrowiciela, gotowego walczyæ zêbami i pazurami o swoich
+pacjentów. 
+~
+Race krasnolud~
+ActExt 0|ABEQ
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align 750
+Group 0
+Lang C
+Speaks 2
+Level 10
+Hitroll 0
+HP 10d10+150
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 5 5 5 10
+Stats 90 78 138 78 102 96 78
+Off V
+OffExt 0|V
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 3 137 12 273
+Spells 55 26 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 6903
+Name drogowskaz tablica drewniany~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yNiewielki drogowskaz stoi tutaj, krzywo wbity w ziemie.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 160
+Cost 0
+Cond 100
+Itemdesc Do CARRALLAK chc±c doj¶æ id¼ na PO£UDNIE,
+do ARRAS za¶ wyprowadzi ciê szlak ci±gn±cy siê stad na WSCHÓD.
+ 
+{Dtylko ... siê traktu i .. ..d¼ tak jak i ja polaz³em do lasu
+dziwnego co jest na p...niu{x
+~
+Comments ~
+Objend
+#Vnum 6905
+Name malutki o³tarzyk~
+Odmiana o³tarzyka~o³tarzykowi~o³tarzyk~o³tarzykiem~o³tarzyku~
+Short malutki o³tarzyk~
+Descr Ma³y o³tarz ozdobiony symbolem kropli krwi stoi tutaj.~
+Material marmur~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 460
+Cost 1
+Cond 75
+Itemdesc Niewielki, ³adnie zdobiony o³tarz, zrobiony z bia³ego marmuru. Po¶rodku
+jest niewielkie wy¿³obienie, s³u¿±ce do rytua³u oczyszczenia, a od przodu
+widnieje symbol kropli krwi, zrobionej najprawdopodobniej z czerwonego
+szk³a. 
+~
+Comments ~
+Objend
+#Vnum 6906
+Name szara ksiega ksiazka~
+Odmiana szarej ksiêgi~szarej ksiêdze~szar± ksiêgê~szar± ksiêg±~szarej ksiêdze~
+Short szara ksiêga~
+Descr Szara ksiêga w twardej, porysowanej oprawie le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|ET
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1 30 25 27 0 0
+Repair 0 0 0 0
+Length 0
+Weight 45
+Cost 600
+Cond 50
+Itemdesc Jest to najzwyklejsza ksiêga, w nienajlepszym stanie.
+~
+Comments ~
+Objend
+#Vnum 6919
+Name drogowskaz tablica drewniany~
+Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
+Short drogowskaz~
+Descr {yDrewniany {Rdrogowskaz{y wbito w ziemie na rozstajach.{x~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 160
+Cost 0
+Cond 100
+Itemdesc -----------------------------------------------
+-----------ZAJAZD "{GKRAKEN{x" ZAPRASZA!-----------
+---SMACZNA {CDOMOWA KUCHNIA{x, MO¯LIWO¦Æ {CNOCLEGU{x---
+-----------ZAPEWNIAMY {CPE£N¡ OBS£UGÊ{x------------
+-WSTAP DO NAS! - JEDYNIE {C3 MILE{x ST¡D {CNA WSCHÓD{x-
+-----------------------------------------------
+-----------------------------------------------
+Do {YArras{x - na {Gpó³noc{x, droga miêdzy {RSzczelinami{x,
+Do {cCarrallak{x - droga na {Gpoludnie{x.
+-----------------------------------------------
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 6900
+Name Skrzy¿owanie na równinie~
+Descr Stoisz na twardej i równej powierzchni drogi biegn±cej przez równinê
+siêgaj±c± horyzontu. Bezkresne ³±ki monotonnej i nudnej zieleni. Nic nie
+zak³óca powolnego rytmu wschodów i zachodów s³oñca. Ciebie dla odmiany
+cieszy ta chwila spokoju, czego zupe³nie nie bêd± pojmowaæ istoty, którym
+pó¼niej opowiesz o swojej podro¿y. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6901
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6901
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 192
+ExitExtEnd
+Exit 2
+~
+~
+0 0 192
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 16101
+ExitExtEnd
+Exit 3
+~
+~
+0 0 16101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6901
+Name Droga przez równinê~
+Descr Stoisz na twardej i równej powierzchni drogi biegn±cej przez równinê
+siêgaj±ca horyzontu. Bezkresne ³±ki monotonnej i nudnej zieleni. Nic nie
+zak³óca powolnego rytmu wschodów i zachodów s³oñca. Ciebie dla odmiany
+cieszy ta chwila spokoju, czego zupe³nie nie bêd± pojmowaæ istoty,
+którym po¼niej opowiesz o swojej podró¿y.
+~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18225
+ExitExtEnd
+Exit 0
+~
+~
+16 0 18225
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6902
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6902
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18185
+ExitExtEnd
+Exit 2
+~
+~
+16 0 18185
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6900
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6902
+Name Droga przez trawiast± równinê~
+Descr Stoisz na twardej i równej powierzchni drogi biegn±cej przez równinê
+siêgaj±c± horyzontu. Bezkresne ³±ki monotonnej i nudnej zieleni. Nic nie
+zak³óca powolnego rytmu wschodów i zachodów s³oñca. Ciebie dla odmiany
+cieszy ta chwila spokoju, czego zupe³nie nie bêd± pojmowaæ istoty,
+którym pó¼niej opowiesz o swojej podró¿y.
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6903
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6903
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18207
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18207
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18186
+ExitExtEnd
+Exit 2
+~
+~
+16 0 18186
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6901
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6903
+Name Droga przez step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami widzisz scie¿kê, któr± pod±¿asz
+tak wytrwale. Dooko³a siebie nie widzisz niczego, co mog³oby ci siê
+spodobaæ, a monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie
+masz jeszcze wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana
+otaczaj±cego ciê krajobrazu.
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6904
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6904
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18209
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18209
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6902
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6902
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18225
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18225
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6904
+Name Droga przez step~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6905
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6905
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18210
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18210
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6903
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6903
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18226
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18226
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6905
+Name Droga przez posêpny step~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6906
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6906
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18211
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18211
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6904
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6904
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18227
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18227
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6906
+Name Droga przez posêpny step~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6907
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6907
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18212
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18212
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6905
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6905
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18228
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18228
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6907
+Name Droga przez posêpny step~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6908
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6908
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18213
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18213
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6906
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18229
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18229
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6908
+Name Rozstaje dróg na posêpnym stepie~
+FlagsExt 0
+Sector 28
+Extra drogowskaz~
+Szlak ³±cz±cy trakt z Carralak z Drog± Po³udniow± miasta Arras
+biegnie z pó³nocy na po³udnie. Ze wschodu na zachód za¶ prowadzi
+scie¿ka poprzez Stepy - zwane czasem Martwymi, Posêpnymi lub
+Piaszczystymi, zale¿nie od rejonu.
+ 
+Wêdrowcze je¿eli chcesz bezpiecznie doj¶æ do jakiego¶ o¶rodka
+cywilizacji trzymaj siê g³ównego szlaku N-S a ¿adna kreatura
+nie powinna przest±piæ Ci drogi.
+ 
+Feerial - Mag Opiekun
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6909
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6909
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18214
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18214
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6907
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6907
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18230
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18230
+DayRDesc 6900
+Roomprog random 6909 20~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6909
+Name Trakt przez suchy, posêpny step~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6913
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6913
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18215
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18215
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6908
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6908
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18231
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18231
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6910
+Name Szlak przez Martwy Step~
+Descr Stoisz na szlaku przez Martwy Step, runiczne znaki przydro¿ne
+koñcz± siê tutaj i chyba na wschód st±d nie bêdzie ju¿ tak
+bezpiecznie, nie mniej jednak ¶cie¿ka jest wyra¼na.
+Woko³o widaæ ¶lady jakich¶ dziwnych zwierz±t i kawa³ki
+drewna... jakie¶ po³amane ko³o od wozu....
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6911
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6911
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6911
+Name ¦cie¿ka przez Martwy Step~
+Descr Stoisz na ¶cie¿ce prowadz±cej z zachodu na wschód, poprzez martwy step -
+to kraina do¶æ z³owroga i ma³o uczêszczana przez rozs±dnych ¶miertelników.
+Na wschodzie droga staje siê bardziej piaszczysta. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6910
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6910
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6912
+Name ¦cie¿ka przez Piaszczysty Step~
+Descr Stoisz na ¶cie¿ce prowadz±cej ze wschodu na zachód, mro¼ny
+wiatr z pó³nocy i pusta, piaszczysta okolica nie sugeruj±
+nic dobrego. W okolicy zaczyna robiæ siê szarawo od
+unosz±cego siê z wiatrem py³u.
+~
+FlagsExt 0|C
+Sector 28
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6913
+Name Droga przez stepy~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6914
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6914
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18216
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18216
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6909
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6909
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18232
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18232
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6914
+Name Droga przez stepy~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6915
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6915
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18217
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18217
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6913
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6913
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18233
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18233
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6915
+Name Droga przez stepy~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6916
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6916
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18218
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18218
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6914
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6914
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18234
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18234
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6916
+Name Droga przez stepy~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6917
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6917
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18219
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18219
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6915
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6915
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18235
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18235
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6917
+Name Droga przez stepy~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12025
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12025
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18220
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18220
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6916
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6916
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18236
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18236
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6918
+Name Droga przez stepy~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6919
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6919
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18291
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18291
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12000
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12000
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18292
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18292
+DayRDesc 6900
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6919
+Name Rozstaje dróg przy zaje¼dzie~
+Descr W tym miejscu musisz podj±æ pewn± decyzje: dok±d teraz? Ka¿da z dróg
+wydaje siê byæ jednakowo dobra. W oddali, na wschód st±d, widzisz du¿y niski
+budynek, znad którego unosi siê cienka stru¿ka dymu. Jest tutaj tak¿e spory
+drogowskaz, który mo¿e byæ pewn± pomoc± przy wyborze dalszej drogi. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6920
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6920
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6921
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6921
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6918
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6918
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18293
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18293
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6920
+Name Trakt nad Szczelin± Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6922
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6922
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18295
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18295
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6919
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6919
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18294
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18294
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6921
+Name Droga do zajazdu~
+Descr Mijasz skrzy¿owanie i wychodzisz na wê¿szy szlak, prowadz±cy ku
+wschodowi. Idziesz sobie po "górce" miedzy dwoma koleinami w trawie,
+wyje¿d¿onymi przez wozy. Po obu stronach drogi ci±gnie siê ko¶lawy p³ot, a
+dalej s± niedu¿e pastwiska na których pasie siê kilka krów, najwidoczniej
+zaopatruj± zajazd w mleko i sery. Droga ci±gnie siê dalej na wschód, widzisz
+juz zarysy budynku. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18295
+ExitExtEnd
+Exit 0
+~
+~
+16 0 18295
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10760
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10760
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18291
+ExitExtEnd
+Exit 2
+~
+~
+16 0 18291
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6919
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6919
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6922
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6923
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6923
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18297
+ExitExtEnd
+Exit 1
+~
+~
+16 0 18297
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6920
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6920
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18296
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18296
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6923
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6924
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6924
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18299
+ExitExtEnd
+Exit 1
+~
+~
+0 0 18299
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6922
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6922
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 18298
+ExitExtEnd
+Exit 3
+~
+~
+0 0 18298
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6924
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24713
+ExitExtEnd
+Exit 0
+~
+~
+16 0 24713
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24701
+ExitExtEnd
+Exit 1
+~
+~
+16 0 24701
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6923
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6923
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6925
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6925
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6925
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6926
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6926
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6924
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6924
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 18298
+ExitExtEnd
+Exit 2
+~
+~
+8192 0 18298
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24731
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24731
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6926
+Name Szczeliny Nicosci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6927
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6927
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24713
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24713
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6925
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2801
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2801
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6927
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6928
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6928
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24712
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24712
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6926
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6926
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24733
+ExitExtEnd
+Exit 3
+~
+~
+16 0 24733
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6928
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6929
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6929
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24711
+ExitExtEnd
+Exit 1
+~
+~
+16 0 24711
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6927
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6927
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2808
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2808
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6929
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6930
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6930
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24710
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24710
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6928
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6928
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24738
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24738
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6930
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24728
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24728
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24709
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24709
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6929
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6929
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6931
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6931
+Name Szczeliny Nico¶ci~
+Descr Ponura okolica w której siê znajdujesz jest pozosta³o¶ci± po czym¶
+nieokre¶lonym. Nikt nie wie dlaczego ca³a ta okolica poszarpana jest
+ciemnymi i bardzo g³êbokimi szczelinami prowadz±cymi, tak na oko, do
+niezmierzonych g³êbi. Gdzieniegdzie unosz± siê gor±ce opary siarki.
+Wszystko pokryte jest niewielk± warstewk± szarego i drobnego py³u.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6950
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6950
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6930
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6930
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24738
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24738
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24739
+ExitExtEnd
+Exit 3
+~
+~
+16 0 24739
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6932
+Name Gdzie¶ po¶ród stepu~
+Descr Stoisz gdzie¶ po¶ród bezkresnego Martwego Stepu, doskonale przejezdna
+wcze¶niej droga zosta³a prawie ca³kowicie przysypana przez wyschniêt± ziemiê
+i piach, którego systematycznie przybywa wraz z zacinaj±cym wiatrem. Woko³o
+niewiele widaæ. Spore, piaszczyste wydmy z wolna osypuj± siê w ciemn±
+czelu¶æ Szczeliny Nico¶ci. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6933
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6933
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6950
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6950
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24751
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24751
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6933
+Name Gdzie¶ po¶ród stepu~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6934
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6934
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24729
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24729
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6932
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6932
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24753
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24753
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6934
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6935
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6935
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24811
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24811
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6933
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6933
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24812
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24812
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6935
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6936
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6936
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24813
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24813
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6934
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6934
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24814
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24814
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6936
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6937
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6937
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24815
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24815
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6935
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6935
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24816
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24816
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6937
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6938
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6938
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24817
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24817
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6936
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6936
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24818
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24818
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6938
+Name Trawiasty Step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, która pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ci±
+krajobrazu. Na wschód odchodzi ¶cie¿ka, ledwie widoczna miêdzy wysokimi
+trawami, o ile mo¿esz siê zorientowaæ nieco dalej widaæ ca³kiem poka¼n±
+grupê starych drzew. 
+~
+FlagsExt 0
+Sector 33
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6939
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6939
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24819
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24819
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6937
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6937
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24820
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24820
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6939
+Name Droga przez Trawiasty Step~
+Descr Wytrwale pod±¿asz przez step, mijaj±c kolejne pagórki, pokryte traw± i
+smagane ostrym wiatrem. Krajobraz jest monotonny i nudny, gdyby nie wyra¼na
+droga ³atwo by³o by straciæ orientacjê i zagubiæ siê na tej ogromnej
+przestrzeni. Twoj± uwagê przyci±ga jaka¶ dziwna skalna budowla na zachodzie,
+wygl±da, jakby jaki gigant bawi³ siê ogromnymi kamieniami... Ciekawe co to
+takiego? 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6940
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6940
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24839
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24839
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6938
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6938
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17155
+ExitExtEnd
+Exit 3
+~
+~
+0 0 17155
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6940
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6941
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6941
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24840
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24840
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6939
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6939
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24832
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24832
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6941
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6942
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6942
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24841
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24841
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6940
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6940
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24833
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24833
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6942
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6943
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6943
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24842
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24842
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6941
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6941
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24837
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24837
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6943
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6944
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6944
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24843
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24843
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6942
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6942
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24838
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24838
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6944
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6945
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6945
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24850
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24850
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6943
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6943
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24846
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24846
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6945
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6946
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6946
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24851
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24851
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6944
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6944
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24847
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24847
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6946
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6947
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6947
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24852
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24852
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6945
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6945
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24848
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24848
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6947
+Name Pagórkowaty step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6948
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6948
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24853
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24853
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6946
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6946
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24849
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24849
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6948
+Name Zakrêt drogi na Pagórkowatym Stepie~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6951
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6951
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6947
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6947
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6949
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6949
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6949
+Name Droga do Wiecznego Mostu~
+Descr Znajdujesz siê na drodze prowadz±cej do Wiecznego Mostu. Oczywi¶cie
+mo¿esz powiedzieæ, ¿e ta droga prowadzi z Wiecznego Mostu, ale nie bêdziesz
+mia³ ani krztyny racji. Czasem po prostu tak jest, ¿e droga prowadzi do, nie
+z. Dooko³a ciebie nie dzieje siê nic, co mog³oby zwróciæ twoj± uwagê na
+d³u¿ej, ni¿ trwa przelotne spojrzenie. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6997
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6997
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6948
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6948
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24849
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24849
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24864
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24864
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6950
+Name Gdzie¶ po¶ród stepu~
+Descr Stoisz gdzie¶ po¶ród bezkresnego Martwego Stepu, doskonale przejezdna
+wcze¶niej droga zosta³a prawie ca³kowicie przysypana przez wyschniêt± ziemiê
+i piach, którego systematycznie przybywa wraz z zacinaj±cym wiatrem. Woko³o
+niewiele widaæ. Spore, piaszczyste wydmy z wolna osypuj± siê w ciemn±
+czelu¶æ Szczeliny Nico¶ci. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6932
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6932
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24728
+ExitExtEnd
+Exit 1
+~
+~
+16 0 24728
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6931
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6931
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 24752
+ExitExtEnd
+Exit 3
+~
+~
+16 0 24752
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6951
+Name Droga przez Pagórkowaty Step~
+Descr Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Pod swoimi nogami masz ¶cie¿kê, któr± pod±¿asz tak
+wytrwale. Dooko³a ciebie nie ma niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza do nudno¶ci. Niestety dla ciebie masz jeszcze
+wiele, wiele do przej¶cia, zanim nast±pi jakakolwiek zmiana otaczaj±cego ciê
+krajobrazu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6952
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6952
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24853
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24853
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6948
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6948
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6952
+Name Droga miêdzy Szczelinami~
+Descr Jeste¶ na drodze, a w³a¶ciwie szerokiej ¶cie¿ce, któr± ¶mia³o
+poprowadzono miêdzy gro¼nymi Szczelinami, rozci±gaj±cymi siê po obu jej
+stronach. W dawnych czasach, gdy nie by³o jeszcze Mostu Chwili ¶cie¿ka ta
+by³a podstawowym szlakiem, ³±cz±cym Carrallak na po³udniu z miastami
+Pó³nocy. Obecnie jest ona mniej uczêszczana, jako ¿e droga przez most jest
+nie tylko wygodniejsza, ale przede wszystkim du¿o krótsza. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6953
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6953
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24857
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24857
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6951
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6951
+Roomprog entry rasz_load_kapl 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6953
+Name Droga miedzy Szczelinami~
+Descr Jeste¶ na drodze, a w³a¶ciwie szerokiej ¶cie¿ce, któr± ¶mia³o
+poprowadzono miêdzy gro¼nymi Szczelinami, rozci±gaj±cymi siê po obu jej
+stronach. W dawnych czasach, gdy nie by³o jeszcze Mostu Chwili ¶cie¿ka ta
+by³a podstawowym szlakiem, ³±cz±cym Carrallak na po³udniu z miastami
+Pó³nocy. Obecnie jest ona mniej uczêszczana, jako ¿e droga przez most jest
+nie tylko wygodniejsza, ale przede wszystkim du¿o krótsza. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6956
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6956
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6954
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6954
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6952
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6952
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6954
+Name {RUrwisko nad szczelin± lawy{x~
+Descr Stoisz na krawêdzi urwiska - przed tob± stoi otworem jeden z cudów tego
+¶wiata, jednak¿e nie jest to dzie³o ¿adnej ze ¶miertelnych istot. To
+szczelina do planu elementarnego ognia - jedna z kilku szczelin utworzonych
+setki lat temu przez magiczn± katastrofê w centrum Wielkiej Równiny. Ta,
+któr± masz przed sob± wype³niona jest na wpó³ zastyg³± magm± - w kilku
+miejscach gor±ca lawa rozpryskuje siê wysokim gejzerem, jednak wiêksza czê¶æ
+jej powierzchni zakrzep³a i w niebo emanuje gorej±ca po¶wiata. Z wnêtrza
+bije gor±ce, duszne i zatrute gazami powietrze, które nie pozwala swobodnie
+oddychaæ. W±ska szczelina prowadzi w dó³, gdzie po¶ród kilku kamieni
+widniej± szcz±tki jakich¶ humanoidalnych istot. 
+~
+FlagsExt 0|C
+Sector 33
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6953
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6953
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24861
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24861
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24859
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24859
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24857
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24857
+ExitExt 5
+ExitExtDescription Ka¿dy, kto chcia³by zej¶æ do wnêtrza tej szczeliny jest samobójc±.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6955
+ExitExtEnd
+Exit 5
+Ka¿dy, kto chcia³by zej¶æ do wnêtrza tej szczeliny jest samobójc±.
+~
+~
+0 0 6955
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6955
+Name {RWewn±trz szczeliny lawy{x~
+Descr St±pasz ostro¿nie po niewielkiej pó³ce skalnej, gor±c tego miejsca jest
+wprost niemo¿liwy do wytrzymania, a jedno po¶lizgniêcie skoñczy siê spadkiem
+do rzeki roztopionej magmy która przep³ywa w dole. Sam lot jednak potrwa
+do¶æ d³ugo i zanim zanurzysz siê w przep³ywaj±cej ni¿ej ognistej ¶mierci to
+ca³e ¿ycie stanie ci przed oczami. Mo¿e warto zastanowiæ siê, czy wchodziæ
+dalej? 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6954
+ExitExtEnd
+Exit 4
+~
+~
+0 0 6954
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6956
+Name W±ska ¶cie¿ka przy urwiskach~
+Descr Jeste¶ na drodze, a w³a¶ciwie szerokiej ¶cie¿ce, któr± ¶mia³o
+poprowadzono miêdzy gro¼nymi Szczelinami, rozci±gaj±cymi siê po obu jej
+stronach. W dawnych czasach, gdy nie by³o jeszcze Mostu Chwili ¶cie¿ka ta
+by³a podstawowym szlakiem, ³±cz±cym Carrallak na po³udniu z miastami
+Pó³nocy. Obecnie jest ona mniej uczêszczana, jako ¿e droga przez most jest
+nie tylko wygodniejsza, ale przede wszystkim du¿o krótsza.
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6957
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6957
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24861
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24861
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6953
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6953
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6957
+Name W±ska ¶cie¿ka~
+Descr Jeste¶ na drodze, a w³a¶ciwie szerokiej ¶cie¿ce, któr± ¶mia³o
+poprowadzono miêdzy gro¼nymi Szczelinami, rozci±gaj±cymi siê po obu jej
+stronach. W dawnych czasach, gdy nie by³o jeszcze Mostu Chwili ¶cie¿ka ta
+by³a podstawowym szlakiem, ³±cz±cym Carrallak na po³udniu z miastami
+Pó³nocy. Obecnie jest ona mniej uczêszczana, jako ¿e droga przez most jest
+nie tylko wygodniejsza, ale przede wszystkim du¿o krótsza.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6958
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6958
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24862
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24862
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6956
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6956
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6958
+Name Stromy podjazd ¶cie¿ki~
+Descr Jeste¶ na drodze, a w³a¶ciwie szerokiej ¶cie¿ce, któr± ¶mia³o
+poprowadzono miêdzy gro¼nymi Szczelinami, rozci±gaj±cymi siê po obu jej
+stronach. W dawnych czasach, gdy nie by³o jeszcze Mostu Chwili ¶cie¿ka ta
+by³a podstawowym szlakiem, ³±cz±cym Carrallak na po³udniu z miastami
+Pó³nocy. Obecnie jest ona mniej uczêszczana, jako ¿e droga przez most jest
+nie tylko wygodniejsza, ale przede wszystkim du¿o krótsza.
+~
+FlagsExt 0
+Sector 4
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6959
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6959
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6957
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6957
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6959
+Name ¦cie¿ka nad Szczelin± Pary~
+Descr Jeste¶ na szlaku, mijaj±c w bezpo¶redniej blisko¶ci gro¼n± Szczelinê
+Pary. Stale unosi siê nad ni± mg³a, opadaj±ca na okolice i sprawiaj±ca, ¿e
+wszystko tutaj jest mokre, a ro¶linno¶æ a¿ puchnie od wilgoci. S³yszysz
+niewyra¼ny bulgot gotuj±cej siê gdzie¶ na dnie szczeliny wody, a co jaki¶
+czas w niebo wystrzeliwuje strumieñ gor±cej pary, z jednej z licznych
+fumaroli. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6960
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6960
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6958
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6958
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6960
+Name Szeroka ¶cie¿ka nad Szczelin± Pary~
+Descr Jeste¶ na szlaku, mijaj±c w bezpo¶redniej blisko¶ci gro¼n± Szczelinê
+Pary. Stale unosi siê nad ni± mg³a, opadaj±ca na okolice i sprawiaj±ca, ¿e
+wszystko tutaj jest mokre, a ro¶linno¶æ a¿ puchnie od wilgoci. S³yszysz
+niewyra¼ny bulgot gotuj±cej siê gdzie¶ na dnie szczeliny wody, a co jaki¶
+czas w niebo wystrzeliwuje strumieñ gor±cej pary, z jednej z licznych
+fumaroli.
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6961
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6961
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6959
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6959
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6961
+Name Droga nad Szczelin± Pary~
+Descr Jeste¶ na szlaku, mijaj±c w bezpo¶redniej blisko¶ci gro¼n± Szczelinê
+Pary. Stale unosi siê nad ni± mg³a, opadaj±ca na okolice i sprawiaj±ca, ¿e
+wszystko tutaj jest mokre, a ro¶linno¶æ a¿ puchnie od wilgoci. S³yszysz
+niewyra¼ny bulgot gotuj±cej siê gdzie¶ na dnie szczeliny wody, a co jaki¶
+czas w niebo wystrzeliwuje strumieñ gor±cej pary, z jednej z licznych
+fumaroli.
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6962
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6962
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6960
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6960
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6962
+Name Droga miêdzy szczelinami~
+Descr Jeste¶ na drodze, a w³a¶ciwie szerokiej ¶cie¿ce, któr± ¶mia³o
+poprowadzono miêdzy gro¼nymi Szczelinami, rozci±gaj±cymi siê po obu jej
+stronach. W dawnych czasach, gdy nie by³o jeszcze Mostu Chwili ¶cie¿ka ta
+by³a podstawowym szlakiem, ³±cz±cym Carrallak na po³udniu z miastami
+Pó³nocy. Obecnie jest ona mniej uczêszczana, jako ¿e droga przez most jest
+nie tylko wygodniejsza, ale przede wszystkim du¿o krótsza.
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6963
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6963
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6961
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6961
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6963
+Name Droga nad Szczelin± Wody~
+Descr Droga jest tutaj ca³kiem szeroka, a to zapewne za spraw± okolicy, która
+tak¿e jest spokojniejsza i bardziej sprzyjaj±ca do wytyczenia porz±dnego,
+solidnego traktu. Wprawdzie i tutaj jest jedna ze szczelin, ale to Szczelina
+Wody - ogromna pod³u¿na rozpadlina, wype³niona wod±. Tak wiêc bezpo¶redniego
+zagro¿enia dla podró¿nych nie ma. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6964
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6964
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6962
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6962
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6964
+Name Zakrêt drogi nad Szczelin± Wody~
+Descr Droga jest tutaj ca³kiem szeroka, a to zapewne za spraw± okolicy, która
+tak¿e jest spokojniejsza i bardziej sprzyjaj±ca do wytyczenia porz±dnego,
+solidnego traktu. Wprawdzie i tutaj jest jedna ze szczelin, ale to Szczelina
+Wody - ogromna pod³u¿na rozpadlina, wype³niona wod±. Tak wiêc bezpo¶redniego
+zagro¿enia dla podró¿nych nie ma.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6965
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6965
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6963
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6963
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6965
+Name Kapliczka nad Szczelina Wody~
+Descr Znajdujesz siê na pó³nocnym koñcu drogi, która wchodzi pomiêdzy Szczeliny
+i lawiruj±c miêdzy nimi wyprowadza na stepy na po³udniu. Trzeba przyznaæ, ¿e
+okolica i po³o¿enie drogi jest bardzo malownicze. Z jednej strony, najwy¿ej
+kilkadziesi±t kroków st±d na zachodzie widzisz pocz±tek przera¿aj±co
+g³êbokiej Szczeliny Wody, z drugiej za¶ stoi stara, zdewastowana kapliczka. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6966
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6966
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Kapliczka~
+ExitExtLiczba 1
+ExitExtInfo 16384
+ExitExtKey 0
+ExitExtToVnum 27685
+ExitExtEnd
+Exit 1
+~
+VName Kapliczka~
+~
+16384 0 27685
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6964
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6964
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6966
+Name Droga na Rozerwanym Stepie~
+Descr Idziesz drog± poprzez niezmierzon± równinê, nosz±c± nazwê Rozerwanego
+Stepu. Nazwa jej pochodzi zapewne od niesamowitych tworów, jakimi s± owiane
+legendami, znajduj±ce siê na po³udnie st±d Szczeliny. Nikt nie wie w jaki
+sposób powsta³y, ale niemal wszyscy zgadzaj± siê co do tego, ¿e ich
+otoczenie, choæ posêpne i surowe, jest niezwykle piêkne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6965
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6965
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6967
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6967
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6967
+Name Droga przez Rozerwany Step~
+Descr Idziesz drog± poprzez niezmierzon± równinê, nosz±c± nazwê Rozerwanego
+Stepu. Nazwa jej pochodzi zapewne od niesamowitych tworów, jakimi s± owiane
+legendami, znajduj±ce siê na po³udnie st±d Szczeliny. Nikt nie wie w jaki
+sposób powsta³y, ale niemal wszyscy zgadzaj± siê co do tego, ¿e ich
+otoczenie, choæ posêpne i surowe, jest niezwykle piêkne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6966
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6966
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6968
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6968
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6968
+Name Rozerwany Step~
+Descr Idziesz drog± poprzez niezmierzon± równinê, nosz±c± nazwê Rozerwanego
+Stepu. Nazwa jej pochodzi zapewne od niesamowitych tworów, jakimi s± owiane
+legendami, znajduj±ce siê na po³udnie st±d Szczeliny. Nikt nie wie w jaki
+sposób powsta³y, ale niemal wszyscy zgadzaj± siê co do tego, ¿e ich
+otoczenie, choæ posêpne i surowe, jest niezwykle piêkne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6967
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6967
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6969
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6969
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6969
+Name Szeroka droga przez Rozerwany Step~
+Descr Idziesz drog± poprzez niezmierzon± równinê, nosz±c± nazwê Rozerwanego
+Stepu. Nazwa jej pochodzi zapewne od niesamowitych tworów, jakimi s± owiane
+legendami, znajduj±ce siê na po³udnie st±d Szczeliny. Nikt nie wie w jaki
+sposób powsta³y, ale niemal wszyscy zgadzaj± siê co do tego, ¿e ich
+otoczenie, choæ posêpne i surowe, jest niezwykle piêkne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6968
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6968
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6970
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6970
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6970
+Name Droga po¶ród Rozerwanego Stepu~
+Descr Idziesz drog± poprzez niezmierzon± równinê, nosz±c± nazwê Rozerwanego
+Stepu. Nazwa jej pochodzi zapewne od niesamowitych tworów, jakimi s± owiane
+legendami, znajduj±ce siê na po³udnie st±d Szczeliny. Nikt nie wie w jaki
+sposób powsta³y, ale niemal wszyscy zgadzaj± siê co do tego, ¿e ich
+otoczenie, choæ posêpne i surowe, jest niezwykle piêkne. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6969
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6969
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6971
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6971
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6971
+Name Obrze¿a Wielkich Martwych Stepów~
+Descr Ten odcinek drogi ³±czy ze sob± ¶cie¿kê wyprowadzaj±c± na rozpiêty nad
+Szczelin± Czasu most z Rozerwanym Stepem. Trakt jest ca³kiem szeroki, a brak
+¶ladów pobytu ludzi zdaje siê wskazywaæ, ¿e jest on niezbyt uczêszczany. Na
+po³udnie st±d rozci±ga siê ogromna Szczelina Wody, natomiast na pó³nocy,
+je¶li Ciê wzrok nie myli, majacz± jakie¶ górskie szczyty. Nieco bli¿ej za¶
+znajduje siê spory obszar pokryty ró¿nej wielko¶ci pagórkami i wzgórzami. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6970
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6970
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6972
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6972
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6972
+Name Droga w pobli¿u Mostu nad Szczelin± Czasu~
+Descr Ten odcinek drogi ³±czy ze sob± ¶cie¿kê wyprowadzaj±c± na rozpiêty nad
+Szczelin± Czasu most z Rozerwanym Stepem. Trakt jest ca³kiem szeroki, choæ
+zauwa¿asz, ¿e na zachodzie zwê¿a siê nieco. Na po³udnie st±d rozci±ga siê
+ogromna Szczelina Wody, natomiast na pó³nocy, je¶li Ciê wzrok nie myli,
+majacz± jakie¶ górskie szczyty. Nieco bli¿ej za¶ znajduje siê spory obszar
+pokryty ró¿nej wielko¶ci pagórkami i wzgórzami. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6971
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6971
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6973
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6973
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6973
+Name Wjazd na Most nad Szczelin± Czasu~
+Descr Droga zawê¿a siê tutaj nieco do takiej szeroko¶ci, aby swobodnie wnikn±æ
+miêdzy dwa wysokie, pokryte p³askorze¼bami kamienne pylony. Teren ³agodnie
+wznosi siê w górê, dziêki czemu z ka¿d± chwil± ods³ania siê coraz wiêkszy
+kawa³ek przeciwleg³ej, pionowej ¶ciany Szczeliny. Jej widok niemal pora¿a
+Ciê groz± i potêga, ale najwiêksze wra¿enie robi na Tobie przerzucona nad
+ni± budowla - wspania³y ³ukowaty most, zdaj±cy siê niemal wisieæ w
+powietrzu.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24887
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24887
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6972
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6972
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6974
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6974
+Roomprog entry rasz_load_kapl 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6974
+Name Most nad Szczelin± Czasu~
+Descr Wysoki, kamienny ³uk mostu odwa¿nie przerzucono nad siêgaj±c± trzewi
+ziemi przepa¶ci±, nosz±c± nazwê Szczeliny Czasu. Kto wie, sk±d nazwa ta siê
+wziê³a? ¦wiadczy to tylko o jej prastarym rodowodzie. Most jest szeroki i
+wygodny, ale jako¶ nie bardzo masz ochotê podej¶æ na jego brzeg, aby
+popatrzeæ w dó³. Jak powiadaj±, czasem przychodz± tutaj samobójcy, aby
+skoñczyæ ze sob±. Ale ty chyba nie jeste¶ samobójc±? 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24886
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24886
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6973
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6973
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6975
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6975
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6975
+Name Podjazd na most~
+Descr Droga zwê¿a siê tutaj nieco do takiej szeroko¶ci, aby swobodnie wnikn±æ
+miêdzy dwa wysokie, pokryte p³askorze¼bami kamienne pylony. Teren ³agodnie
+wznosi siê w górê, dziêki czemu z ka¿d± chwil± ods³ania siê coraz wiêkszy
+kawa³ek przeciwleg³ej, pionowej ¶ciany Szczeliny. Jej widok niemal pora¿a
+Ciê groz± i potêg±, ale najwiêksze wra¿enie robi na Tobie przerzucona nad
+ni± budowla - wspania³y ³ukowaty most, zdaj±cy siê niemal wisieæ w
+powietrzu. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24885
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24885
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6974
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6974
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6976
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6976
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6976
+Name Droga przez Martwy Zagajnik~
+Descr Droga wiedzie przez ¶rodek niewielkiej grupki drzew, zupe³nie odmiennych
+od Pierwotnej Puszczy na pó³nocnym wschodzie. Drzewa te swym wygl±dem
+¶wiadcz± niezbicie o tym, ¿e w tworzeniu tej czê¶ci ¶wiata znaczny udzia³
+mia³y si³y pozaziemskie. Poza faktem, ¿e drzewa te wygl±daj± na kompletnie
+martwe, przera¿a jeszcze fakt, ¿e nie daj± ¿adnego cienia ani ochrony przed
+deszczem, czy wiatrem, jakiej mo¿na by by³o siê spodziewaæ po gêstym
+szaro-bordowym listowiu. Ziemia wokó³ drzew w Martwym Zagajniku jest
+zupe³nie g³adka poprzerywana jedynie niewielkimi bruzdami i nieco g³êbszymi
+szczelinami o niezbadanej g³êboko¶ci. W duchu modlisz siê by Opiekunowie
+Drogi nie mylili siê co do po³o¿enia tego szlaku i aby nie zaprowadzi³ ciê
+on do serca ciemno¶ci. Mimo tych okrutnych wra¿eñ droga nie zmieni³a swego
+kierunku ani kszta³tu, to w dalszym ci±gu jest solidny trakt. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24884
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24884
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6975
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6975
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6977
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6977
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6977
+Name Rozstaje dróg na pó³nocnym krañcu Martwych Stepów~
+Descr W tym miejscu musisz podj±æ pewna decyzje: gdzie teraz? Ka¿da z dróg
+wydaje siê byæ tak samo dobra i tak samo atrakcyjna. Brak jakichkolwiek
+wskazówek jest mocno irytuj±cy, ale przecie¿ dasz sobie radê i nie poddasz
+siê tylko dlatego, ¿e nie wiesz tak naprawdê którêdy i¶æ. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6978
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6978
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6976
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6976
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6987
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6987
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6978
+Name Kamienny trakt~
+Descr S³yszysz rytm wystukiwany przez twoje buty na równej powierzchni
+traktu, którym idziesz. Takie warunki podró¿owania to jest to, co lubisz,
+¿adne tam bagna, ³±ki czy mokrad³a - porz±dnie wykonany trakt po którym szybko
+i wygodnie mo¿na przebyæ wiele mil.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6979
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6979
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24884
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24884
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6977
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6977
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24871
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24871
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6979
+Name Kamienny trakt~
+Descr S³yszysz rytm wystukiwany przez twoje buty na równej powierzchni
+traktu, którym idziesz. Takie warunki podró¿owania to jest to, co lubisz,
+¿adne tam bagna, ³±ki czy mokrad³a - porz±dnie wykonany trakt po którym szybko
+i wygodnie mo¿na przebyæ wiele mil.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6980
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6980
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24883
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24883
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6978
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6978
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24873
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24873
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6980
+Name Kamienny trakt~
+Descr S³yszysz rytm wystukiwany przez twoje buty na równej powierzchni
+traktu, którym idziesz. Takie warunki podró¿owania to jest to, co lubisz,
+¿adne tam bagna, ³±ki czy mokrad³a - porz±dnie wykonany trakt po którym szybko
+i wygodnie mo¿na przebyæ wiele mil.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6981
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6981
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24882
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24882
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6979
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6979
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24874
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24874
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6981
+Name Kamienny trakt~
+Descr S³yszysz rytm wystukiwany przez twoje buty na równej powierzchni
+traktu, którym idziesz. Takie warunki podró¿owania to jest to, co lubisz,
+¿adne tam bagna, ³±ki czy mokrad³a - porz±dnie wykonany trakt po którym szybko
+i wygodnie mo¿na przebyæ wiele mil.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6982
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6982
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24881
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24881
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6980
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6980
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24875
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24875
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6982
+Name Kamienny trakt~
+Descr S³yszysz rytm wystukiwany przez twoje buty na równej powierzchni traktu,
+którym idziesz. Takie warunki podró¿owania to jest to, co lubisz, ¿adne tam
+bagna, ³±ki czy mokrad³a - porz±dnie wykonany trakt po którym szybko i
+wygodnie mo¿na przebyæ wiele mil. Na wschodzie dostrzegasz niewielk±
+kapliczkê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6983
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6983
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6998
+ExitExtEnd
+Exit 1
+~
+~
+3 0 6998
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6981
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6981
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24876
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24876
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6983
+Name Fragmenty kamiennego traktu~
+Descr S³yszysz rytm wystukiwany przez twoje buty na równej powierzchni
+traktu,którym idziesz. Takie warunki podró¿owania to jest to, co lubisz,
+¿adne tam bagna, ³±ki czy mokrad³a - porz±dnie wykonany trakt po którym szybko
+i wygodnie mo¿na przebyæ wiele mil. Widzisz, ¿e w tym miejscu odchodzi na
+wschód jaka¶ wy³o¿ona kamiennym t³uczniem droga. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19472
+ExitExtEnd
+Exit 0
+~
+~
+0 0 19472
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27680
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27680
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6982
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6982
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24877
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24877
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6984
+Name Zalana droga~
+Descr S³yszysz chlupot rozchlapywanej przez ciebie wody zbieraj±cej siê
+w dziurach równej powierzchni traktu, którym idziesz. Zmieniaj±ce siê
+warunki podró¿owania nie wró¿± niczego dobrego, obawiasz siê, ¿e droga
+mo¿e staæ siê zupe³nie niemo¿liwa do przebycia.
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6985
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6985
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 19451
+ExitExtEnd
+Exit 2
+~
+~
+0 0 19451
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 27870
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 27870
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6985
+Name Grzêzawisko~
+Descr Tak jak mo¿na by³o przypuszczaæ, trakt znik³, zamieniaj±c siê w
+¶mierdz±ce grzêzawisko pe³ne b³ota, wody i dziwnych, opl±tuj±cych nogi,
+ro¶lin. Jedyne wyj¶cie, to szybko opu¶ciæ tak ma³o przyjazny kawa³ek traktu.
+Po³amany powóz le¿±cy obok drogi oznacza, ¿e kto¶ nie mia³ tyle szczê¶cia co
+ty i rozbi³ siê w tym mokrym miejscu. 
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6986
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6986
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6984
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6984
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 27869
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 27869
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6986
+Name Podmok³a droga~
+Descr S³yszysz chlupot rozchlapywanej przez ciebie wody zbieraj±cej siê
+w dziurach równej powierzchni traktu, którym idziesz. Zmieniaj±ce siê
+warunki podró¿owania nie wró¿± niczego dobrego, obawiasz siê, ¿e droga
+mo¿e staæ siê zupe³nie niemo¿liwa do przebycia.
+~
+FlagsExt 0
+Sector 44
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2646
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2646
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6985
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6985
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 27861
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 27861
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6987
+Name W±ska ¶cie¿ka w kierunku Szczeliny Wody~
+Descr W tym miejscu musisz podj±æ pewn± decyzjê: gdzie teraz? Ka¿da z dróg
+wydaje siê byæ tak samo dobra i tak samo atrakcyjna. Brak jakichkolwiek
+wskazówek jest mocno irytuj±cy, ale przecie¿ dasz sobie radê i nie
+poddasz siê tylko dlatego, ¿e nie wiesz tak naprawdê dok±d i¶æ.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24871
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24871
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6977
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6977
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6988
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6988
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6988
+Name Rozwidlenie dróg nad Szczelina Wody~
+Descr W tym miejscu musisz podj±æ pewn± decyzjê: gdzie teraz? Ka¿da z dróg
+wydaje siê byæ tak samo dobra i tak samo atrakcyjna. Brak jakichkolwiek
+wskazówek jest mocno irytuj±cy, ale przecie¿ dasz sobie radê i nie
+poddasz siê tylko dlatego, ¿e nie wiesz tak naprawdê dok±d i¶æ.
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24870
+ExitExtEnd
+Exit 0
+~
+~
+0 0 24870
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6987
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6987
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6995
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6995
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24868
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24868
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6995
+Name Podej¶cie na Most Chwili~
+Descr Niedaleko st±d na Po³udnie rozci±ga siê ogromna Szczelina Wody,
+przecinaj±ca Rozerwany Step z zachodu na wschód. To w³a¶nie nad ni± wieki
+temu kto¶ zbudowa³ tak zwany Most Chwili - obecnie najkrótsze po³±czenie
+szlaków wybiegaj±cych z Carrallak i Arras na stepy. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6988
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6988
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6996
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6996
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24867
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24867
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6996
+Name Most Chwili~
+Descr Znajdujesz siê na przepiêknie wykonanym mo¶cie zwanym Mostem Chwili. Geneza
+jego nazwy zaginê³a gdzie¶ w mrokach dziejów, poniewa¿ wtedy, gdy przyszli
+ludzie, most ju¿ sta³, a pytane o niego elfy, mówi³y, ze most sta³ zawsze,
+a oni nie wiedz± kto go zbudowa³.
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6995
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6995
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6997
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6997
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24864
+ExitExtEnd
+Exit 2
+~
+~
+0 0 24864
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24866
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24866
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6997
+Name Wieczny Most~
+Descr Znajdujesz siê na przepiêknie wykonanym kamiennym mo¶cie, zwanym Mostem
+Chwili. Geneza jego nazwy zaginê³a gdzie¶ w mrokach dziejów, poniewa¿ wtedy,
+gdy przyszli ludzie, most ju¿ sta³, a pytane o niego elfy, mówi³y, ¿e most
+sta³ zawsze odk±d tylko siêga ich pamiêæ i nie wiedz±, kto go zbudowa³. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6949
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6949
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6996
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6996
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6999
+ExitExtEnd
+Exit 5
+~
+~
+0 0 6999
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6998
+Name Kaplica Isoryka~
+Descr Znajdujesz siê w nowej, po¶wiêconej Isorykowi kamienno-marmurowej
+kapliczce. Na ¶cianach powieszono hafty przedstawiaj±ce co ciekawsze
+historie opowiadaj±ce o Bogu Cierpienia. Mimo, ¿e nie wszystkie nadaj± siê
+do ogl±dania, zauwa¿asz, ¿e nie opowiadaj± one tylko o cierpieniach i
+uzdrowieniach. Prawd± jest te¿, ¿e cierpi±cy prosz± przede wszystkim tego
+Boga o si³ê i moc, do przezwyciê¿enia przeciwno¶ci losu i s³abo¶ci samych
+siebie. Na ¶rodku kapliczki zbudowano niewielki o³tarzyk. 
+~
+FlagsExt 0|DH
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6982
+ExitExtEnd
+Exit 3
+~
+~
+3 0 6982
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6999
+Name Kamienny wystêp nad Szczelin± Wody~
+Descr Znajdujesz siê na kamiennym wystêpie, a w³a¶ciwie pó³ce skalnej, która
+zwiesza siê nad Szczelin± Wody. Pod sob±, setki stóp ni¿ej, widzisz g³adk± i
+czarn±, niezm±con± najmniejszym powiewem tafle wody. Groza tego widoku
+dos³ownie przykuwa ciê do ¶ciany skalnej, tak ¿e chwytasz siê jej kurczowo. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6997
+ExitExtEnd
+Exit 4
+~
+~
+0 0 6997
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 100 6903 0 6900
+O 100 6919 0 6919
+M 100 6900 1 6919 1
+O 100 6905 0 6998
+M 100 6901 1 6998 1
+E 100 3001 0 8
+E 100 4395 0 5
+E 100 4425 0 13
+E 100 3050 0 7
+E 100 3145 0 16
+G 60 6906 0
+S
+
+
+
+#MOBPROGSNEW
+#6900
+~
+mob equip self 3128
+mob equip self 3005
+mob equip self 3029
+mob equip self 4411
+mob equip self 4429
+mob equip self 4406
+mob equip self 3067
+if rand 50
+  mob oload neck 2
+else
+  mob oload wrist 2
+endif
+if rand 50
+  mob oload ear 3
+else
+  mob oload finger 3
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#6909
+~
+if rand 90
+  mob echo Z pó³nocy wieje zimny wiatr.
+else
+  mob echo Powiew mro¼nego wiatru budzi trwogê.
+endif
+~
+#6955
+~
+if affected $n fly
+else
+mob echoat $n To naprawdê ju¿ koniec, ¿ycie powoli ucieka z ciebie wraz z cuchn±cymi
+mob echoat $n ob³oczkami czarnego dymu, jaki wydziela siê z Twego p³on±cego cia³a. Jedna
+mob echoat $n my¶l nieustannie kr±¿y ci w oszo³omionym umy¶le: TY G£UPCZE! CZEMU NIE
+mob echoat $n SPOJRZA£E¦ W DÓ£ ZANIM TU ZSZED£E¦! ? !  Ale Twoja dusza odchodzi w
+mob echoat $n spokoju, bezsilno¶æ tragicznego po³o¿enia spowodowa³a zanik woli walki o
+mob echoat $n ¿ycie, je¶li masz jakich¶ bogów - módl siê do nich o ponown± szansê miejsca
+mob echoat $n - miejsca klêski, braku rozwagi i cudownie mieni±cych siê kolorów lawy. 
+mob echoaround $n $n pogr±¿a siê w rzece lawy.
+mob damage $n 2000 2000 ginskurwielu
+mob purge
+endif
+~
+#6985
+~
+mob setflag room scia 0
+~
+#rasz_load_kapl
+~
+if hasflag $n modl_kapl
+if !hasflag $n juz_zaladowal_widmo
+if !mobexists 27681
+mob at 27682 mload 27681
+mob setflag $n juz_zaladowal_widmo 20
+endif
+endif
+endif
+end
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 6900
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name konc7~
+Desc Masz wra¿enie, jakby step po raz kolejny zafalowa³, chocia¿ nie czujesz
+¿adnego wiatru. To z³owrogi znak. 
+~
+Group 3
+End
+#Name konc6~
+Desc Ciekawe czy kto¶ kiedy¶ odwa¿y³ siê zej¶æ z go¶ciñca i zwiedziæ resztê
+tego ogromnego, trawiastego stepu? 
+~
+Group 3
+End
+#Name konc5~
+Desc Niespodziewanie do twojej g³owy przychodzi dziwne pytanie: ile k³osów
+trawy jest na takim stepie? 
+~
+Group 3
+End
+#Name konc4~
+Desc Masz wra¿enie, ¿e otaczaj±cy ciê obraz stepu powtarza siê co chwilê i
+nigdy nie koñczy! 
+~
+Group 3
+End
+#Name konc3~
+Desc Z lekkim zniechêceniem spogl±dasz na dalsz± drogê, tam gdzie prowadzi
+go¶ciniec, gdzie¶ daleko do upragnionego celu. 
+~
+Group 3
+End
+#Name konc2~
+Desc W pewnym sensie podró¿owanie takim szlakiem jest w miarê bezpieczne, bo
+nikt nie napadnie ciê znienacka, wszystko widaæ jak na d³oni. 
+~
+Group 3
+End
+#Name konc1~
+Desc Niestety masz jeszcze wiele, wiele do przej¶cia, zanim nast±pi
+jakakolwiek zmiana otaczaj±cego ciê terenu. 
+~
+Group 3
+End
+#Name rozw5~
+Desc Rozgl±dasz siê uwa¿nie dooko³a, próbuj±c dok³adnie wybadaæ otoczenie. Ani
+jednego drzewa, ani krzewu, ani praktycznie niczego co zaburzy³oby spokojny,
+p³aski krajobraz. 
+~
+Group 2
+End
+#Name rozw4~
+Desc Nie ma w±tpliwo¶ci, ¿e otoczenie nie nale¿y do najciekawszych. Jest po
+prostu jednolite i wygl±da tak samo jak kilkana¶cie stajów na pó³noc,
+po³udnie, wschód czy zachód. Jedyn± ró¿nic± w tym punkcie jest trakt. 
+~
+Group 2
+End
+#Name rozw3~
+Desc Dooko³a siebie nie widzisz niczego, co mog³oby ci siê spodobaæ, a
+monotonno¶æ widoku doprowadza ciê wrêcz do zniechêcenia i ziewania. 
+~
+Group 2
+End
+#Name rozw2~
+Desc Pod swoimi nogami wyczuwasz i co bardziej charakterystyczne widzisz
+sciezke, która pod±¿asz tak wytrwale, od d³u¿szego kawa³ka czasu po¶ród tych
+rozleg³ych stepów. 
+~
+Group 2
+End
+#Name rozw1~
+Desc Masz dziwne wra¿enie, jakby go¶ciniec, nie, nie go¶ciniec, otoczenie
+go¶ciñca siê rusza³o! Przecierasz oczy ze zdumienia i stwierdzasz, ¿e to
+jedynie trawy faluj±. 
+~
+Group 2
+End
+#Name pocz6~
+Desc Niesamowite uczucie, podró¿owaæ traktem, który niczym nó¿ wbija siê w
+¶rodek zielonego, faluj±cego stepu, poro¶niêtego bujn± traw±. 
+~
+Group 1
+End
+#Name pocz5~
+Desc Pod±¿aj±c dalej tym d³ugim, lekko krêtym traktem masz wra¿enie, jakby¶
+p³yn<&±³/ê³a/ê³o> w morzu... Oceanie zielonej, bujnej, wysokiej trawy, która
+lekko faluje na wietrze. 
+~
+Group 1
+End
+#Name pocz4~
+Desc Idziesz tym twardym, kamiennym, brukowanym traktem pogr±¿onym w zielonym
+morzu traw. Tak wygl±da prawdziwy step, nie ¿adna tania podróbka. O czym¶
+takim pisz± w wielkich ksi±¿kach, czasami te¿ i wiersze. 
+~
+Group 1
+End
+#Name pocz3~
+Desc Zdaje ci siê, ¿e trakt ten nie jest zbyt czêsto odwiedzany przez innych
+podró¿nych. Ogromne po³acie p³askiej, jedynie lekko faluj±cej trawy otaczaj±
+ciê dooko³a. 
+~
+Group 1
+End
+#Name pocz2~
+Desc Trakt prowadzi przez wiêkszo¶æ stepu prosto jak strza³a, do celu. Nie ma
+tu ¿adnych szczególnych wzniesieñ, czy terenowych przeszkód, które
+zmusza³yby trakt to gwa³townych zakrêtów. 
+~
+Group 1
+End
+#Name pocz1~
+Desc Gdzie siê nie rozejrzysz widzisz tylko niezmierzone po³acie zieleni, na
+lekko faluj±cym terenie. Oto jak wygl±da klasyczna, stepowa równina.
+~
+Group 1
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

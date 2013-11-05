@@ -1,0 +1,3037 @@
+#AREADATA
+Name +# Podwodna jaskinia Sahuaginów~
+Builders Deggial Razor Maro~
+VNUMs 4500 4549
+Credits Oryginal: Maro (marek@tele2.pl)
+Rozbudowa, pl-krzaki, poprawki: Wicia
+~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 4500
+Name nereida przezroczysta~
+Odmiana nereidy~nereidzie~nereide~nereida~nereidzie~
+Short {Cnereida{x~
+Long {CPrawie zupe³nie przezroczysta nereida sunie w twoj± stronê.{x~
+Descr Ledwie cokolwiek w wodzie dostrzegasz. Stworzenie to jest praktycznie
+przezroczyste. Z boków widaæ trochê tworz±cej siê wskutek kontaktu z wod±
+piany. Kiedy siê uwa¿nie przypatrzeæ mo¿na ujrzeæ lekko z³ocisty b³ysk b³ony
+okrywaj±cej co¶ co chyba mo¿na nazwaæ cia³em od zewn±trz. Jakby kto¶ obsypa³
+j± {Yz³otym py³em{x. 
+~
+Race ryba~
+ActExt 0|AFGHS
+Affected 167772160 1024 0 0
+AffectedExt 0|Zb/1|K
+Align -500
+Group 0
+Lang R
+Speaks 16
+Level 7
+Hitroll 0
+HP 2d20+125
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack walniecie
+XAC 7 8 7 8
+Stats 90 108 108 108 102 78 78
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGHMVb
+Parts ABCDEFGHIJKLOQRX
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 200
+Resist 4 50
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 4501
+Name wojownik sahuagin umiê¶niony boss~
+Odmiana wojownika sahuaginów~wojownikowi sahuaginów~wojownika sahuaginów~wojownikiem sahuaginów~wojowniku sahuaginów~
+Short wojownik sahuaginów~
+Long Wysoki, umiê¶niony sahuagin rozgl±da sie gro¼nym wzrokiem dooko³a.~
+Descr Z podziwem spogl±dasz na potêzne musku³y tego rybo-cz³owieka. Mimo, ¿e
+jego cia³a nie okrywa zbroja, to kto wie, czy naturalne, ciemne ³uski nie
+stanowi± lepszej ochrony? Dodatkowo twoje obawy wzbudza rz±d d³ugich,
+bia³ych zêbów, które wyrastaj± z paszczy sahuagina. Jedno k³apniêcie i nie
+masz rêki albo nogi... 
+~
+Race sahuagin~
+ActExt 0|ABFGT/2|C
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 4500
+Lang R
+Speaks 16
+Level 18
+Hitroll 4
+HP 6d10+460
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack gryzienie
+XAC -1 -1 -1 -1
+Stats 156 132 156 120 144 126 132
+Off CKLRYb
+OffExt 0|CKLRYb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 250
+Form AFGHMVYb
+Parts ABCDEFGHIJKLOQRU
+Size large
+Material unknown
+MobprogNew onload 4501 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 10 45
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 4502
+Name kap³an kleryk sahuagin boss~
+Odmiana kap³ana sahuaginów~kap³anowi sahuaginów~kap³ana sahuaginów~kap³anem sahuaginów~kap³anie sahuaginów~
+Short kap³an sahuaginów~
+Long Kap³an sahuaginów zanosi tutaj mod³y do dawno zapomnianych bogów.~
+Descr Rybo-cz³owiek o dziwnym kolorze pleców, przypominaj±cym nieco zielony
+kolor przyproszony jak±¶ chropowat±, sproszkowan±, czarn± substancj±. Ma
+wielkie oczy, w których mo¿na prawie uton±æ kiedy siê w nie patrzy, s± tak
+pe³ne smutku i g³êbokie. Ca³e cia³o pokryte jest ³uskami, a wszystkie palce
+d³ugie i proste. Do tego bardzo ostre, wystaj±ce zêby. 
+~
+Race sahuagin~
+ActExt 0|ABFQ/2|C
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 4500
+Lang R
+Speaks 16
+Level 20
+Hitroll 4
+HP 6d10+440
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack gryzienie
+XAC 0 0 0 0
+Stats 132 150 150 120 132 78 78
+Off RV
+OffExt 0|RV
+Pos_start stand
+Pos_def rest
+Sex male
+Wealth 250
+Form AFGMVYb
+Parts ABCDEFGHIJKOQRU
+Size large
+Material unknown
+MobprogNew death boss_drop_30 ABCDEFGHI 100~
+MobprogNew onload 4502 ABCDEFGHI 100~
+Spells 30 50 231 26
+Spells 54 141 3 151
+Spells 272 10 39 55
+Spells 230 149 271 0
+Skin 100
+ExpMultiplier 100
+Resist 10 55
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 4503
+Name kobieta sahuaginka czarodziejka wysoka magiczka boss~
+Odmiana czarodziejki sahuaginów~czarodziejce sahuaginów~czarodziejkê sahuaginów~czarodziejk± sahuaginów~czarodziejce sahuaginów~
+Short czarodziejka sahuaginów~
+Long Wysoka kobieta sahuaginów wykonuje w skupieniu jakie¶ dziwne gesty.~
+Descr Wysoka, podobna do ryby kobieta, ubrana w jakie¶ dziwne ciuchy z
+wodorostów zdaje sie ¶piewaæ w jakim¶ pradawnym jêzyku s³owa ró¿nych zaklêæ.
+Z pewno¶ci± jest to jakiego¶ rodzaju szamanka, czy mo¿e nawet czarodziejka. 
+~
+Race sahuagin~
+ActExt 0|AFGHRST/2|C
+Affected 520 0 0 0
+AffectedExt 0|DJ
+Align -1000
+Group 4500
+Lang R
+Speaks 16
+Level 19
+Hitroll 2
+HP 6d10+450
+Damage 2d5+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walniecie
+XAC 1 1 1 1
+Stats 120 156 156 120 120 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def rest
+Sex female
+Wealth 250
+Form AFGMVYb
+Parts ABCDEFGHIJKOQRU
+Size medium
+Material unknown
+MobprogNew death 4500 ABCDEFGHI 100~
+MobprogNew onload 4503 ABCDEFGHI 100~
+Spells 163 181 194 202
+Spells 149 201 203 228
+Spells 137 60 2 1
+Spells 167 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 10 50
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 4504
+Name sahuagin mezczyzna~
+Odmiana mê¿czyzny sahuaginów~mê¿czy¼nie sahuaginów~mê¿czyznê sahuaginów~mê¼czyzn± sahuaginem~mê¿czy¼nie sahuaginów~
+Short mê¿czyzna sahuagin~
+Long Mê¿czyzna sahuagin powoli drepcze k³api±c o pod³o¿e b³oniastymi stopami.~
+Descr Masz przed sob± stworzenie, które ma czarnawo zielone ³uski na plecach,
+przechodz±ce trochê bardziej w zielone na brzuchu. Palce d³oni i stóp ma
+spiete b³on± p³awn±. Skóra jest pokryta g³adkimi ³uskami, oczy g³êbokie i
+beznamiêtne, podobne do rybich. 
+~
+Race sahuagin~
+ActExt 0|AFGT
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 15
+Hitroll 0
+HP 3d20+350
+Damage 4d3+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC -2 -3 -2 -2
+Stats 90 84 90 96 102 78 78
+Off CEIR
+OffExt 0|CEIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGMVYb
+Parts ABCDEFGHIJKOQRU
+Size medium
+Material unknown
+MobprogNew onload 4505 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4505
+Name sahuagin kobieta sahuaginka~
+Odmiana kobiety sahuaginów~kobiecie sahuaginów~kobietê sahuaginów~kobiet± sahuaginów~kobiecie sahuaginów~
+Short kobieta sahuagin~
+Long Kobieta sahuagin obserwuje uwa¿nie wszystko wokó³.~
+Descr Ma czarnawo-zielon± skórê na plecach, przechodz±c± w zielonkaw± na
+brzuchu. Cia³o pokryte ³uskami. Czasami do¶æ trudno rozró¿nic kobiety od
+mê¿czyzn. W³a¶ciwie, gdyby nie mniejsze nieco rozmiary by³yby pewne problemy
+z ustaleniem na pierwszy rzut oka czy to kobieta. 
+~
+Race sahuagin~
+ActExt 0|AFGHL
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 2d20+280
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC -1 0 -1 0
+Stats 84 90 90 90 90 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGHMVYb
+Parts ABCDEFGHIJKLOQRU
+Size medium
+Material unknown
+MobprogNew onload 4504 ABCDEFGHI 100~
+Spells 12 30 96 133
+Spells 241 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4506
+Name dziecko sahuaginów sahuagin m³ody dzieciak~
+Odmiana dziecka sahuaginów~dziecku sahuaginów~dziecko sahuaginów~dzieckiem sahuaginów~dziecku sahuaginów~
+Short dziecko sahuaginów~
+Long Dziecko sahuaginów drepcze nieopodal lustruj±c ciê zaciekawionym wzrokiem.~
+Descr Dzieciak jest chyba bardzo m³ody, nie jest jakim¶ dopiero co przysz³ym na
+¶wiat niemowlakiem, ale widaæ wyra¼nie, ¿e jeszcze trochê czasu zajmie mu
+dorastanie. Skóra ma jasnozielon± w niektórych miejscach leciutko, ledwie
+dostrzegalnie ciemnieje dopiero. 
+~
+Race sahuagin~
+ActExt 0|AFG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang R
+Speaks 16
+Level 10
+Hitroll 0
+HP 2d10+210
+Damage 4d2+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 4 3 4 3
+Stats 78 84 84 84 84 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 2
+Form AFGMVYb
+Parts ABCDEFGHIJKOQRU
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4507
+Name wiezien wojownik mistrz Gregor~
+Odmiana mistrza Gregora~mistrzowi Gregorowi~mistrza Gregora~mistrzem Gregorem~mistrzu Gregorze~
+Short mistrz Gregor~
+Long Mistrz Gregor stoi tutaj, patrz±c na ciebie podejrzliwym wzrokiem.~
+Descr Stoi tutaj mistrz Gregor, który przemierzy³ ¶wiat, wiele widzia³ a tak¿e
+ogromn± wiedzê posiad³ któr± za odpowiedni± cenê mo¿e siê z tob± podzieliæ. 
+~
+Race krasnolud~
+ActExt 0|ABIJKQSTd/2|E
+Affected 8 0 0 0
+AffectedExt 0|D
+Align 1000
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 8
+HP 4d10+340
+Damage 3d10+20
+Dammagic 0
+Weaponbonus 20
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 150 96 120 120 144 78 78
+Off CIKRXY
+OffExt 0|CIKRXY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGHJMVY
+Parts ABCDEFGHIJKQRU
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 14 100
+Mobend
+#Vnum 4508
+Name mewa biala~
+Odmiana {Wmewy{x~{Wmewie{x~{Wmewe{x~{Wmewa{x~{Wmewie{x~
+Short {Wmewa{x~
+Long Jaka¶ {Wmewa{x ko³uje nad twoj± g³ow±, skrzecz±c przera¼liwie.~
+Descr Mewa jak to mewa - nie zwraca na ciebie specjalnej uwagi, gdy¿ zajêta
+jest wypatrywaniem potencjalnej zdobyczy na piasku pla¿y lub w wodzie. Je¶li
+tylko zauwa¿y jak±¶ zdech³± rybê lub inne stworzenie, natychmiast pikuje w
+dó³ i chwyta po¿ywienie. 
+~
+Race ptak~
+ActExt 0|AG
+Affected 524288 0 0 0
+AffectedExt 0|T
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 3
+Hitroll 0
+HP 3d6+50
+Damage 1d5+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack dziobanie
+XAC 7 8 7 10
+Stats 48 36 24 120 84 78 78
+Off FRXY
+OffExt 0|FRXY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFGJWY
+Parts ACDEFHKPRST
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4509
+Name albatros~
+Odmiana {wal{Wbatr{wosa{x~{wal{Wbatr{wosowi{x~{wal{Wbatr{wosa{x~{wal{Wbatr{wosem{x~{wal{Wbatr{wosie{x~
+Short {wal{Wbatr{wos{x~
+Long {wAl{Wbatr{wos{x przelatuje nad toba z rozpostartymi majestatycznie skrzydlami.~
+Descr Piekny ptak o bialym tulowiu i ciemnoszarawych, przechodzacych miejcami w
+czarne skrzydlach. Skrzydla blisko tulowia sa jeszcze biale by juz kawalek
+dalej przejsc a zdecydowanie ciemny kolor. Ogon jest calkowicie czarny i
+wyglada troche jak pioropusz. Lepek ptaka jest zolty, a dziob lekko
+rozowawy. Kiedy przelatuje nad toba masz wrazenie stycznosci z calym
+majestatem i spokojem jaki tylko pozostal na tym padole. 
+~
+Race ptak~
+ActExt 0|A
+Affected 524288 0 0 0
+AffectedExt 0|T
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 4d8+85
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack dziobanie
+XAC 6 6 6 6
+Stats 54 30 18 90 90 78 78
+Off FRX
+OffExt 0|FRX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGJWY
+Parts ACDEFHKPRST
+Size medium
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 4510
+Name stary zgarbiony sahuagin~
+Odmiana starego sahuagina~staremu sahuaginowi~starego sahuagina~starym sahuaginem~starym sahuaginie~
+Short stary sahuagin~
+Long Stary, mocno zgarbiony sahuagin k³apie o pod³oge b³oniastymi stopami.~
+Descr Masz przed sob± starego, do¶æ mocno zgarbionego sahuagina. Jest on bardzo
+podobny do pozosta³ych. Zielone ³uski na plecach i trochê ja¶niejsze zielone
+na brzuchu. Palce d³oni i stóp spiête b³on± p³awn±. Skóra jest pokryta
+g³adkimi ³uskami, oczy g³êbokie i beznamiêtne, podobne do rybich. 
+~
+Race sahuagin~
+ActExt 0|AFI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang R
+Speaks 16
+Level 13
+Hitroll 0
+HP 2d2+250
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 2 0 2 2
+Stats 102 90 90 90 102 90 102
+Off DJc
+OffExt 0|DJc/1|G
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 10
+Form AFMVb
+Parts ABCDEFGHIJKOQRU
+Size medium
+Material unknown
+MobprogNew onload 4510 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4511
+Name m³ody sahuagin~
+Odmiana m³odego sahuagina~m³odemu sahuaginowi~m³odego sahuagina~m³odym sahuaginem~m³odym sahuaginie~
+Short m³ody sahuagin~
+Long M³ody sahuagin k³apie o pod³o¿e b³oniastymi stopami.~
+Descr Masz przed sob± m³odego sahuagina. Jest on bardzo podobny do pozosta³ych.
+Zielone ³uski na plecach i trochê ja¶niejsze zielone na brzuchu. Palce d³oni
+i stóp spiête b³on± p³awn±. Skóra jest pokryta g³adkimi ³uskami, oczy
+g³êbokie i beznamiêtne, podobne do rybich. 
+~
+Race sahuagin~
+ActExt 0|AFTX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang R
+Speaks 16
+Level 10
+Hitroll 0
+HP 13d4+196
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack gryzienie
+XAC 2 0 2 2
+Stats 96 90 90 90 96 72 90
+Off CEIb
+OffExt 0|CEIb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFMVb
+Parts ABCDEFGHIJKOQRU
+Size medium
+Material unknown
+MobprogNew onload 4511 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4512
+Name niewysoki arystokrata sahuagin~
+Odmiana sahuagina arystokraty~sahuaginowi arystokracie~sahuagina arystokrate~sahuaginem arystokrat±~sahuaginie arystokracie~
+Short sahuagin arystokrata~
+Long Niewysoki sahuagin, arystokrata k³apie b³oniastymi stopami.~
+Descr Masz przed sob± niewysokiego arystokratê, nie ró¿ni siê on od pozosta³ych
+sahuaginów prawie niczym. Ma zielone ³uski na plecach i trochê ja¶niejsze
+zielone na brzuchu. Palce d³oni i stóp spiête b³on± p³awn±. Skóra jest
+pokryta g³adkimi ³uskami, oczy g³êbokie i beznamiêtne, podobne do rybich. 
+~
+Race sahuagin~
+ActExt 0|ATX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 19
+Hitroll 1
+HP 61d2+373
+Damage 3d6+3
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack gryzienie
+XAC 1 0 1 1
+Stats 96 84 84 90 96 84 96
+Off CEIb
+OffExt 0|CEIb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60
+Form AFMVb
+Parts ABCDEFGHIJKOQRU
+Size medium
+Material unknown
+MobprogNew onload 4512 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 4513
+Name rekin spory~
+Odmiana rekina~rekinowi~rekina~rekinem~rekinie~
+Short rekin~
+Long Spory rekin z wielk± p³etw± ogonow± p³ywa tutaj.~
+Descr Masz przed sob± sporego rekina. Charakteryzuje siê on niezwykle d³ug±
+p³etw± ogonow±, której u¿ywa do og³uszenia swojej ofiary podczas ¿erowania.
+Si³a uderzenia p³etw± jest na tyle du¿a, ¿e mo¿e zwaliæ z nóg ogra. Sam nie
+wiesz czy mo¿na siê do niego z której¶ strony zbli¿yæ. 
+~
+Race ryba~
+ActExt 0|AFX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang R
+Speaks 16
+Level 14
+Hitroll 3
+HP 11d5+245
+Damage 5d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 5 3 5 5
+Stats 90 102 90 102 90 72 90
+Off M
+OffExt 0|M
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AGb
+Parts ADFOQRSX
+Size medium
+Material unknown
+Skin 230
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 4500
+Name szklany klucz spory~
+Odmiana {Cszklanego klucza{x~{Cszklanemu kluczowi{x~{Cszklany klucz{x~{Cszklanym kluczem{x~{Cszklanym kluczu{x~
+Short {Cszklany klucz{x~
+Descr {CSpory, szklany klucz le¿y tutaj.{x~
+Material szk³o~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 0
+Cond 100
+Itemdesc {CJest to spory klucz wykonany w ca³o¶ci ze szk³a. Ciekaw jeste¶ w jaki
+sposób nie kruszy siê on w zamku. Wydaje siê to co najmniej nieco dziwne. Ma
+on g³ówkê zdobion± jakim¶ ma³ym, wyrze¼bionym rysunkiem przedstawiaj±cym
+jakiego¶ wojownika. Sam klucz ma dziwny kszta³t oszczepu. {x 
+~
+Comments ~
+Objend
+#Vnum 4509
+Name siata siatka~
+Odmiana siatki~siatce~siatke~siatka~siatce~
+Short siatka~
+Descr Le¿y tutaj siatka o do¶æ du¿ych okach.~
+Material p³ótno~
+Type trash
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 20
+Cond 75
+Itemdesc Siatka o du¿ych okach, wykonana z dobrego, impregnowanego sznurka. Do
+siatki przymocowane s± ma³e haki, czyni±c z niej znacznie bardziej skuteczne
+narzêdzie w walce. Kiedy ju¿ zostanie na kogo¶ zarzucona, ciê¿ko j± zrzuciæ,
+gdy¿ haki wbijaj± siê w cia³o. 
+~
+Comments ~
+Objend
+#Vnum 4510
+Name zakurzona ksiêga stara~
+Odmiana zakurzonej ksiêgi~zakurzonej ksiêdze~zakurzon± ksiêge~zakurzon± ksiêg±~zakurzonej ksiêdze~
+Short zakurzona ksiêga~
+Descr Stara, zakurzona, zdobiona szk³em ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 5 171 161 162 380 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 20940
+Cond 100
+Comments ~
+Objend
+#Vnum 4511
+Name zakurzona ksiega stara ksiazka~
+Odmiana zakurzonej ksiêgi~zakurzonej ksiêdze~zakurzon± ksiêgê~zakurzon± ksiêg±~zakurzonej ksiêdze~
+Short zakurzona ksiêga~
+Descr Stara, zakurzona, zdobiona szk³em ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 7 62 39 144 137 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 35520
+Cond 100
+Comments ~
+Objend
+#Vnum 4513
+Name szklana bransoleta~
+Odmiana {Cszklanej bransolety{x~{Cszklanej bransolecie{x~{Cszklan± bransoletê{x~{Cszklan± bransolet±{x~{Cszklanej bransolecie{x~
+Short {Cszklana bransoleta{x~
+Descr Bransoleta w ca³o¶ci wykonana ze szk³a b³yszczy tutaj.~
+Material szk³o~
+Type jewelry
+ExtraExt 0|G
+Wear AM
+Wear2Ext 0
+Bonus 4520
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 6
+Cost 3000
+Cond 85
+Aff 1 12 5 3 0 0
+Aff 1 27 1 1 0 0
+Itemdesc Jest to niedu¿a, wykonana w ca³o¶ci ze szk³a bransoleta. Kiedy j±
+nak³adasz masz wra¿enie, ¿e te magiczne szk³o ogrzewa twój nadgarstek. Na
+ca³ej zewnêtrznej powierzchni bransolety wyrze¼bione zosta³y niewielkie
+rysunki, przedstawiaj±ce jakby ¿ywio³y. 
+~
+Comments ~
+Objend
+#Vnum 4514
+Name szklany kolczyk~
+Odmiana {Cszklanego kolczyka{x~{Cszklanemu kolczykowi{x~{Cszklany kolczyk{x~{Cszklanym kolczykiem{x~{Cszklanym kolczyku{x~
+Short {Cszklany kolczyk{x~
+Descr {CPiêkny, w ca³o¶ci wykonany ze szk³a kolczyk le¿y tutaj, lekko pob³yskuj±c.{x~
+Material szk³o~
+Type jewelry
+ExtraExt 0|G
+Wear AT
+Wear2Ext 0
+Bonus 4520
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 3000
+Cond 85
+Aff 1 12 8 2 0 0
+Aff 1 13 1 0 0 0
+Itemdesc Jest to ma³y, wykonany w ca³o¶ci ze szk³a b³yszcz±cy kolczyk. Kiedy
+nosisz go na swoim uchu masz wra¿enie, ¿e te magiczne szk³o ogrzewa twoje
+ucho. Jest on okr±g³y i w jednym miejscu ma ma³±, ozdobn± kuleczkê. 
+~
+Comments ~
+Objend
+#Vnum 4515
+Name zbroja rekinia skóra~
+Odmiana {czbroi z rekiniej skóry{x~{czbroi z rekiniej skóry{x~{czbrojê z rekiniej skóry{x~{czbroj± z rekiniej skóry{x~{czbroi z rekiniej skóry{x~
+Short {czbroja z rekiniej skóry{x~
+Descr Zbroja z rekiniej skóry le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 9 9 8 10 6 0 0
+Repair 0 0 0 0
+Length 0
+Weight 70
+Cost 3600
+Cond 80
+Itemdesc Jest to spory, kawa³ rekiniej skóry, którego mo¿na u¿ywaæ jako
+napier¶nika. Zbroja jest do¶æ gruba, bardzo wytrzyma³a i starannie wykonana.
+Kto¶ musia³ siê nie¼le napracowaæ, ¿eby zrobiæ tak przyzwoity kawa³ek zbroi.
+~
+Comments ~
+Objend
+#Vnum 4516
+Name nakolanniki rekinia skóra~
+Odmiana {cnakolanników z rekiniej skóry{x~{cnakolannikom z rekiniej skóry{x~{cnakolanniki z rekiniej skóry{x~{cnakolannikami z rekiniej skóry{x~{cnakolannikach z rekiniej skóry{x~
+Short {cnakolanniki z rekiniej skóry{x~
+Descr Nakolanniki z rekiniej skóry le¿± tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 6 0 0
+Repair 0 0 0 0
+Length 0
+Weight 40
+Cost 2400
+Cond 80
+Itemdesc Jest to spory, kawa³ rekiniej skóry, którego mo¿na u¿ywaæ jako
+ochraniaczy na nogi. Zbroja jest do¶æ gruba, bardzo wytrzyma³a i starannie
+wykonana. Kto¶ musia³ siê nie¼le napracowaæ, ¿eby zrobiæ tak przyzwoite
+nakolaniki. 
+~
+Comments ~
+Objend
+#Vnum 4518
+Name he³m rekinia skóra~
+Odmiana {che³mu z rekiniej skóry{x~{che³mowi z rekiniej skóry{x~{che³m z rekiniej skóry{x~{che³mem z rekiniej skóry{x~{che³mie z rekiniej skóry{x~
+Short {che³m z rekiniej skóry{x~
+Descr He³m wykonany z rekiniej skóry le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 6 0 0
+Repair 0 0 0 0
+Length 0
+Weight 20
+Cost 2400
+Cond 80
+Itemdesc Jest to spory, kawa³ rekiniej skóry, którego mo¿na u¿ywaæ jako he³mu.
+He³m jest do¶æ gruby, bardzo wytrzyma³y i starannie wykonany. Kto¶ musia³
+siê nie¼le napracowaæ, ¿eby zrobiæ tak przyzwoity i dobrze wygl±daj±cy he³m.
+~
+Comments ~
+Objend
+#Vnum 4520
+Name szklany medalion~
+Odmiana {Cszklanego medalionu{x~{Cszklanemu medalionowi{x~{Cszklany medalion{x~{Cszklanym medalionem{x~{Cszklanym medalionie{x~
+Short {Cszklany medalion{x~
+Descr {CSzklany, lekko podniszczony medalion le¿y tutaj.{x~
+Material szk³o~
+Type turn_item
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 4520
+LiczbaMnoga 0
+Gender 0
+Value 7 17 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 3000
+Cond 85
+Itemdesc Jest do niedu¿y, szklany medalion w kszta³cie trójk±ta. Jego zewnêtrzna
+strona jest bogato zdobiona ró¿nokolowymi, ma³ymi, b³yszcz±cymi szkie³kami i
+niewielkim, rze¼bionym rysunkiem przestawiaj±cym modl±cego siê kap³ana.
+Strona wewnêtrzna jest bardziej uboga, przedstawia jedynie ma³±, kap³añsk±
+ksiêgê obit± w szk³o. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 4500
+Name Ko³o du¿ego stawu~
+Descr Z boku jest spory staw. Woda z niego do¶c intensywnie paruje i miejscami
+bulgocze. W powietrzu unosz± siê leniwie, lekko s³onawe opary. Jest tu
+bardzo wilgotno, wszelkie p³ócienne ubranie b³yskawicznie nasi±ka wod±.
+Pewnie te¿ trzeba uwa¿aæ na wszelkie metalowe czê¶ci ekwipunku, ¿eby nie
+pordzewia³y. Zalet± tego wszystkiego jest to, ¿e jest tu stosunkowo ciep³o. 
+~
+FlagsExt 0|C
+Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4529
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4529
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4501
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4501
+Name Zej¶cie do stawu z paruj±c±, ciep³± wod±~
+Descr W tym miejscu staw jest p³ytki. Kiedy do niego wchodzisz, wyra¼nie
+odczuwasz, ¿e temperatura wody jest wyra¼nie wy¿sza od temperatury twojego
+cia³a. Bulgotanie i delikatny ruch wody dzia³aj± na ciebie rozlu¼niaj±co i
+relaksuj±co. Dno stawu jest tu bardzo jasne, niebiesko-szare. Troszkê dalej
+woda ciemnieje gwa³townie, chyba jest tam znacznie g³êbiej ni¿ tu. 
+~
+FlagsExt 0
+Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4500
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4500
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4502
+ExitExtEnd
+Exit 5
+~
+~
+0 0 4502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4502
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4503
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4503
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4501
+ExitExtEnd
+Exit 4
+~
+~
+0 0 4501
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4503
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0|C
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4504
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4504
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4502
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4504
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4505
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4505
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4503
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4503
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4505
+Name {bWodna odnoga{x~
+Descr {bOdnoka tworzy co¶ na kszta³t okr±g³ego tunelu o ¶rednicy równej mniej
+wiêcej pó³tora wzrostu wyro¶niêtego ogra. Ciemno tu i ch³odniej trochê ni¿
+wszêdzie indziej. ¦ciany s± poro¶niête jakimi¶ dziwnymi szorstkawymi
+glonami. Bulgotanie wody jest tu jakby mniej intensywnei co jaki¶ czas
+wyczuwasz, ¿e pod tob± czy te¿ obok ciebie porusza siê jakie¶ ¶liskie
+stworzenie. Brrr... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4507
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4507
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4506
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4506
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4504
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4504
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4506
+Name {bWodna odnoga{x~
+Descr {bOdnoka tworzy co¶ na kszta³t okr±g³ego tunelu o ¶rednicy równej mniej
+wiêcej pó³tora wzrostu wyro¶niêtego ogra. Ciemno tu i ch³odniej trochê ni¿
+wszêdzie indziej. ¦ciany s± poro¶niête jakimi¶ dziwnymi szorstkawymi
+glonami. Bulgotanie wody jest tu jakby mniej intensywnei co jaki¶ czas
+wyczuwasz, ¿e pod tob± czy te¿ obok ciebie porusza siê jakie¶ ¶liskie
+stworzenie. Brrr... {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4505
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4505
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4507
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0|C
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4505
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4505
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4508
+ExitExtEnd
+Exit 4
+~
+~
+0 0 4508
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4508
+Name Wodny syfon~
+Descr {BSam syfon nie jest du¿y, raptem kilkana¶cie metrów ¶rednicy. Woda lekko
+faluje, kiedy siê patrzy g³êbiej mimo czystej wody widaæ tylko ciemno¶æ.
+Prawopodobnie w³a¶nie w tej ciemno¶ci bêdzie trzeba poszukaæ wyj¶cia z
+miejsca, w którym zdarzy³o ci sie w³a¶nie znale¼æ. {x 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4509
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4509
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4511
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4511
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4507
+ExitExtEnd
+Exit 5
+~
+~
+0 0 4507
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4509
+Name {BPod niebiesk±, ¶lisk± ¶cian±{x~
+Descr {BNa wprost ciebie znajduje siê ¶liska ¶ciana. Kiedy jej dotykasz stru¿ki
+cieczy sp³ywaj± po twoich palcach. Gdzie¶ z góry ca³y czas nacieka bardzo
+powoli woda. Gromadzi siê ona potem w ma³ym rowku i odp³ywa powoli pod³og±
+dalej. Trudno powiedzieæ czy ¶ciana zosta³a tutaj ustawiona czy te¿ jest
+tworem naturalnym. Ma nieregularne kszta³ty, ale nigdy nie widzia³e¶, ¿eby
+co¶ takiego wystêpowa³o w przyrodzie. Nie szk³o, co¶ innego, w zagadkowy
+sposób ciep³ego w dotyku. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4510
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4510
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4508
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4508
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4523
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4523
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4510
+Name {BNiebieski tunel{x~
+Descr {BJest to spory tunel. Po obydwu jego pokach stoj± solidne podpory, s³upy
+wyrze¿bione z jakiej¶ niebieskiej barwy krystalicznej ska³y. ¦wiat³o z
+podwieszonych pod sufitem pochodni odbija siê w ¶cianach powoduj±c, ¿e
+miejsce to wygl±da do¶æ czarownie w³a¶ciwie. Jak wszêdzie jest tu ciep³o i
+bardzo wigotno. Co chwila skroplona para skapuje na ciebie z góry. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4509
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4509
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4511
+Name Wy³o¿ona zielonym szk³em pod³oga~
+Descr {gPod³oga zosta³a wy³o¿ona jakim¶ pot³uczonym na drobno zielonym szk³em
+zalanym potem dziwn±, przezroczyst± mas±. Trudno powiedzieæ po co w³a¶ciwie
+kto¶ co¶ takiego tutaj zrobi³. Byc mo¿e mia³ zamiar co¶ zbudowaæ. Zacza³
+jednak od pod³ogi i to chyba nie by³ najlepszy pomys³. O¶wietlenie jest tu
+bardzo sk±pe, w³a¶ciwie nie ma go w ogóle i tylko dzieki refleksom ¶wiat³a
+przebijaj±cym siê z innych partii podziemi cokolwiek widaæ. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4512
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4512
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4508
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4508
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4512
+Name Wy³o¿ona zielonym szk³em pod³oga~
+Descr {gPod³oga zosta³a wy³o¿ona jakim¶ pot³uczonym na drobno zielonym szk³em
+zalanym potem dziwn±, przezroczyst± mas±. Trudno powiedzieæ po co w³a¶ciwie
+kto¶ co¶ takiego tutaj zrobi³. Byc mo¿e mia³ zamiar co¶ zbudowaæ. Zacza³
+jednak od pod³ogi i to chyba nie by³ najlepszy pomys³. O¶wietlenie jest tu
+bardzo sk±pe, w³a¶ciwie nie ma go w ogóle i tylko dzieki refleksom ¶wiat³a
+przebijaj±cym siê z innych partii podziemi cokolwiek widaæ. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4511
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4511
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4513
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4513
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4513
+Name {BPrzestronny korytarz{x~
+Descr {BDu¿o tu miejsca. Pod ¶cianami stoj± jakie¶ skrzynie. Wiêkszo¶æ
+pozamykana, w tych pootwieranych jednak widaæ jakies pot³uczone szk³o,
+piasek i inne tym podobne rzeczy. S³u¿± one pewnie jako materia³y budowlane
+na co¶ co ju¿ tu zaczê³o zdaje siê powstawaæ. Jaki¶ podwodny pa³ac, czy co¶
+takiego. Nie mo¿na chyba znale¼æ gorszego miejsca pod zbudowanie sobie domu,
+ni¿ tutaj, pod wod±. No ale, jaki kraj takie obyczaje... {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4514
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4514
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4517
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4517
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4512
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4512
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4514
+Name {BPo³okr±g³o sklepiony korytarz{x~
+Descr {BSufit jest tutaj do¶æ wysoko, wy¿ej ni¿ w innych fragmentach korytarza.
+Prawdopodobnie kto¶ ma jak±¶ wiêksz± wizjê ca³o¶ci i wydawa³o mu siê, ¿e
+bêdzie to siê wszystko ³adnie z reszt± komponowa³o. Beczkowe sklepienie
+zosta³o nawet wy³o¿one jakimi¶ drobnymi p³ytami o metalicznej barwie. W
+miejscu w którym ów pó³okr±g³y kszta³t przechodzi w pionow± ¶cianê widaæ
+nawet fragmenty rysunków. W wiêkszo¶ci wodorosty i ma³e rybki, czasami
+jakie¶ wiêksze i gro¼ne potwory. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4515
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4515
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4513
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4513
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4515
+Name {BZakrêt korytarza{x~
+Descr {BKorytarz zakrêca tu szerokim ³ukiem. ¦ciany nie zosta³y niczym wy³o¿one,
+zarzucone tylko jak±¶ bardo chropowat± i tward± substancj±. Ma chyba ona t±
+w³a¶ciwo¶æ, ¿e twardnieje po na³o¿eniu. Kto¶ kto to robi³ chyba nie w³o¿y³ w
+to specjalnie wiele wysi³ku. Wszêdzie widaæ jakie¶ nierówno¶ci i dziury, na
+pod³odze tu¿ przy ¶cianie le¿y ma³a sterta owej, dziwnej substancji.
+Prawdopodobnie jednak pó¼niej wszystko to zostanie poprawione i wy³o¿one
+szk³em. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4516
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4516
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4514
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4514
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4516
+Name {BPo³okr±g³o sklepiony korytarz{x~
+Descr {BSufit jest tutaj do¶æ wysoko, wy¿ej ni¿ w innych fragmentach korytarza.
+Prawdopodobnie kto¶ ma jak±¶ wiêksz± wizjê ca³o¶ci i wydawa³o mu siê, ¿e
+bêdzie to siê wszystko ³adnie z reszt± komponowa³o. Beczkowe sklepienie
+zosta³o nawet wy³o¿one jakimi¶ drobnymi p³ytami o metalicznej barwie. W
+miejscu w którym ów pó³okr±g³y kszta³t przechodzi w pionow± ¶cianê widaæ
+nawet fragmenty rysunków. W wiêkszo¶ci wodorosty i ma³e rybki, czasami
+jakie¶ wiêksze i gro¼ne potwory. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4530
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4530
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4515
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4515
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4517
+Name {WSzklany chodnik{x~
+Descr {WIdziesz w±skim, ale ca³kiem wysokim tunelem, którego pod³oga, sufit i
+¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a. Tafle te
+s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian. Jednak
+najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4513
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4513
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4518
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4518
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4518
+Name {WSzklany chodnik{x~
+Descr {WIdziesz w±skim, ale ca³kiem wysokim tunelem, którego pod³oga, sufit i
+¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a. Tafle te
+s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian. Jednak
+najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4537
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4537
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4517
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4517
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4519
+Name {WOgromna szklana komnata{x~
+Descr {WPomieszczenie te jest tak wysokie i przestronne, ¿e gdyby nie wisz±ce
+gdzie¶ wysoko szklane kule z dziwnym ¶wiec±cym p³ynem, pewnie nie uda³oby ci
+siê dostrzec sufitu. Oczywi¶cie, tak jak i gdzie indzej, ¶ciany, pod³oga i
+sklepienie pokryte jest szk³em. Jednak tutaj jest ono niezwykle przejrzyste
+i g³adkie. Z ciekawo¶ci± próbujesz zarysowaæ trochê szklan± powierzchniê,
+ale nie pozostaje na niej najmniejszy nawet ¶lad. Po chwili dostrzegasz
+du¿e, szklane, zdobione wrota na po³udniu. {x 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4549
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4549
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4520
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4520
+ExitExt 2
+ExitExtDescription ~
+ExitExtBiernik wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 4500
+ExitExtToVnum 4522
+ExitExtEnd
+Exit 2
+~
+wrota~
+39 4500 4522
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4521
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4521
+Roomprog open 4500 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4520
+Name {WSzklany pokój{x~
+Descr {WZnajdujesz siê w niedu¿ym pokoiku, spora jego czê¶æ zawalona jest
+szklanymi u³omkami. Jest tutaj tak¿e trochê ziemi i urobku skalnego. Jedna
+ze ¶cian nie jest pokryta jeszcze szk³em, tylko podparta paroma drewnianymi
+stemplami, najwyra¼niej bêdzie têdy w przysz³o¶ci przebiega³ nowy korytarz.
+W tej chwili jednak jedyne wyj¶cie znajduje siê na zachodzie. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4519
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4519
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4521
+Name {WSzklany chodnik{x~
+Descr {WZnajdujesz sie w niedu¿ej, ale ca³kiem wysokiej komnacie, której pod³oga,
+sufit i ¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a.
+Tafle te s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian.
+Jednak najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? Szklany korytarz rozchodzi siê w trzech
+kierunkach: po³noc, po³udnie i wschód. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4547
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4547
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4519
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4519
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4548
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4548
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4522
+Name Sekretny pokój~
+Descr {WJeste¶ w niedu¿ym pokoju. Pod ¶cianami stoi kilka kamieni ociosanych z
+grubsza i wyg³adzonych u góry. Chyba maj± s³u¿yæ za sto³y, siedzenia czy
+inne tego typu sprzêty. W rogu pokoju jest co¶ na kszta³t p³askiej wanny z
+lekko paruj±c± wod±. Wanna jest wy³o¿ona czym¶ przypominaj±cym g±bke czy
+jakie¶ sprê¿yste sukno. Nie masz pojêcia do czego takie co¶ mog³oby s³u¿yæ,
+ale po chwili dochodzisz do wniosku, ¿e byæ mo¿e jest to jakie¶ ³ó¿ko.
+Trochê mo¿e ekstrawakanckie, ale je¶li kto¶ siê przyzwyczai, to spi siê tu
+chyba ca³kiem wygodnie. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 4500
+ExitExtToVnum 4519
+ExitExtEnd
+Exit 0
+~
+~
+39 4500 4519
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4523
+Name {BNiebieski tunel{x~
+Descr {BPokój wy³o¿ony niebieskimi kamykami wymieszanymi ze szk³em czy czym¶
+innym, krystalicznym. W ten w³a¶nie sposób wykonana jest zarówno pod³oga jak
+i sufit. Poniewa¿ pomieszczenie jest stosunkowo sporych rozmiarów, w miejscu
+gdzie ¶ciana zbiega siê z pod³og± widaæ tylko jakby lekk± liniê po chwili
+wpatrywania siê tam, tak ciê¿ko to zauwa¿yæ. O¶wietlenie jest do¶æ sk±pe,
+umieszczone w górnych rogach niewielkie lampiony daj± ma³o ¶wiat³a
+pozostawiaj±c wszystko w lekkim pó³mroku. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4509
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4509
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4524
+Name Ciemna plaza~
+Descr {cPlaza jest co chwila ostatnim wysilkiem naplywajacej fali zalewana plytka
+warstwa wody. Za kazdym razem piasek zostaje wzburzony i miliony ziaren
+jakiegos drobnego ciemnoszarego czy czarnego pylu sa zabierane przez morze
+by powrocic z nastepna fala. Pelno tu drobin roznych muszli, w wiekszosci
+bardzo malych i dawno polamanych. Pospolu z ziarenkami jakiejs czarnej skaly
+tworza one tutaj cos na ksztalt dwubarwnego i - co nienaturalne - ruchomego
+dywanu. Mieszanina ta jest na tyle gesta, ze gdyby nie byla co jakis czas
+wzburzana powracajacymi plywami pewnie zastyglaby z czasem we wcale trwaly i
+ladny chodnik. W malym dolku nieopodal lezy kloda nadgnilego drewna. Jest
+cala czarna i pozbawiona jakiejkolwiek kory. {x
+~
+FlagsExt 0|C
+Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4525
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4525
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4525
+Name Ciemna plaza~
+Descr {cPlaza jest co chwila ostatnim wysilkiem naplywajacej fali zalewana plytka
+warstwa wody. Za kazdym razem piasek zostaje wzburzony i miliony ziaren
+jakiegos drobnego ciemnoszarego czy czarnego pylu sa zabierane przez morze
+by powrocic z nastepna fala. Pelno tu drobin roznych muszli, w wiekszosci
+bardzo malych i dawno polamanych. Pospolu z ziarenkami jakiejs czarnej skaly
+tworza one tutaj cos na ksztalt dwubarwnego i - co nienaturalne - ruchomego
+dywanu. Mieszanina ta jest na tyle gesta, ze gdyby nie byla co jakis czas
+wzburzana powracajacymi plywami pewnie zastyglaby z czasem we wcale trwaly i
+ladny chodnik.{x
+~
+FlagsExt 0
+Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4526
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4526
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4524
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4524
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4526
+Name Ciemna plaza~
+Descr {cPlaza jest co chwila ostatnim wysilkiem naplywajacej fali zalewana plytka
+warstwa wody. Za kazdym razem piasek zostaje wzburzony i miliony ziaren
+jakiegos drobnego ciemnoszarego czy czarnego pylu sa zabierane przez morze
+by powrocic z nastepna fala. Pelno tu drobin roznych muszli, w wiekszosci
+bardzo malych i dawno polamanych. Pospolu z ziarenkami jakiejs czarnej skaly
+tworza one tutaj cos na ksztalt dwubarwnego i - co nienaturalne - ruchomego
+dywanu. Mieszanina ta jest na tyle gesta, ze gdyby nie byla co jakis czas
+wzburzana powracajacymi plywami pewnie zastyglaby z czasem we wcale trwaly i
+ladny chodnik. Jakies ptaki albo mo¿e zolwie pozostawily w zaglebieniu kilka
+metrow od miejsca do którego juz nie siega woda swoje jaja. Nie bylo to
+chyba najszczesliwsze miejsce, wszystkie skorupy sa porozbijane. Pewnie
+jakies wrogie stworzenie znalazlo je i zwyczajnie zjadlo zanim cokolwiek
+zdarzylo sie z nich wykluc. {x
+~
+FlagsExt 0
+Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4527
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4527
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4525
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4525
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4527
+Name Ciemna plaza~
+Descr {cPlaza jest co chwila ostatnim wysilkiem naplywajacej fali zalewana plytka
+warstwa wody. Za kazdym razem piasek zostaje wzburzony i miliony ziaren
+jakiegos drobnego ciemnoszarego czy czarnego pylu sa zabierane przez morze
+by powrocic z nastepna fala. Pelno tu drobin roznych muszli, w wiekszosci
+bardzo malych i dawno polamanych. Pospolu z ziarenkami jakiejs czarnej skaly
+tworza one tutaj cos na ksztalt dwubarwnego i - co nienaturalne - ruchomego
+dywanu. Mieszanina ta jest na tyle gesta, ze gdyby nie byla co jakis czas
+wzburzana powracajacymi plywami pewnie zastyglaby z czasem we wcale trwaly i
+ladny chodnik.{x
+~
+FlagsExt 0
+Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4528
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4528
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4526
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4526
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4528
+Name Mala wydma~
+Descr {yNiewielka gorka piasku. Chyba niedawno zostala uformowana, nic bowiem
+na niej nie rosnie, nawet drobna trawa. Piasek nie jest rowniez ulezany i
+nie zdziwiloby cie to zupelnie gdyby kiedys zdarzylo ci sie zobaczyc owa
+wydme jakies{x {ykilkadziesiat metrow dalej. Czasami wydmy siega woda
+wyrzucajac na nia resztki bazaltowej skaly, kawaleczki muszli i ziarenka
+piasku w sporej ilosci. Tworzy to u jej podnoza malutkie ale regularne
+usypisko. Czesc z niego woda co{x {yjakis czas zabiera tak jak wczesniej
+przyniosla, ale w zasadzie owa mala gorka u podnoza chroni wydme przed
+bezustannym podmywaniem i pewnie w konsekwencji zniszczeniem. {x
+~
+FlagsExt 0
+Sector 29
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4527
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4527
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4529
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4529
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4529
+Name Mala wydma~
+Descr {yNiewielka gorka piasku. Chyba niedawno zostala uformowana, nic bowiem
+na niej nie rosnie, nawet drobna trawa. Piasek nie jest rowniez ulezany i
+nie zdziwiloby cie to zupelnie gdyby kiedys zdarzylo ci sie zobaczyc owa
+wydme jakies{x {ykilkadziesiat metrow dalej. Czasami wydmy siega woda
+wyrzucajac na nia resztki bazaltowej skaly, kawaleczki muszli i ziarenka
+piasku w sporej ilosci. Tworzy to u jej podnoza malutkie ale regularne
+usypisko. Czesc z niego woda co{x {yjakis czas zabiera tak jak wczesniej
+przyniosla, ale w zasadzie owa mala gorka u podnoza chroni wydme przed
+bezustannym podmywaniem i pewnie w konsekwencji zniszczeniem. {x
+~
+FlagsExt 0
+Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4528
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4528
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4500
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4500
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4530
+Name {BSzeroki korytarz{x~
+Descr {BIdziesz przed szeroki korytarz. Du¿o tu miejsca i wolnej przestrzeni,
+dominuje szk³o i w niektórych miejscach sklepienia. Pod ¶cianami stoj±
+dziwne skrzynie. Wiêkszo¶æ pozamykana, w tych pootwieranych jednak widaæ
+jakies pot³uczone szk³o, piasek i inne tym podobne rzeczy. S³u¿± one pewnie
+jako materia³y budowlane na co¶ co ju¿ tu zaczê³o zdaje siê powstawaæ. Jaki¶
+podwodny pa³ac, czy co¶ takiego. Nie mo¿na chyba znale¼æ gorszego miejsca
+pod zbudowanie sobie domu, ni¿ tutaj, pod wod±. No ale, jaki kraj takie
+obyczaje... {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4531
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4531
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4516
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4516
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4534
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4534
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4531
+Name {BPo³okr±g³o sklepiony korytarz{x~
+Descr {BSufit jest tutaj do¶æ wysoko, wy¿ej ni¿ w innych fragmentach korytarza.
+Prawdopodobnie kto¶ ma jak±¶ wiêksz± wizjê ca³o¶ci i wydawa³o mu siê, ¿e
+bêdzie to siê wszystko ³adnie z reszt± komponowa³o. Beczkowe sklepienie
+zosta³o nawet wy³o¿one jakimi¶ drobnymi p³ytami o metalicznej barwie. W
+miejscu w którym ów pó³okr±g³y kszta³t przechodzi w pionow± ¶cianê widaæ
+nawet fragmenty rysunków. W wiêkszo¶ci wodorosty i ma³e rybki, czasami
+jakie¶ wiêksze i gro¼ne potwory. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4532
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4532
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4535
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4535
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4530
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4530
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4532
+Name {BSzeroki korytarz{x~
+Descr {BIdziesz przed szeroki korytarz. Du¿o tu miejsca i wolnej przestrzeni,
+dominuje szk³o i w niektórych miejscach sklepienia. Pod ¶cianami stoj±
+dziwne skrzynie. Wiêkszo¶æ pozamykana, w tych pootwieranych jednak widaæ
+jakies pot³uczone szk³o, piasek i inne tym podobne rzeczy. S³u¿± one pewnie
+jako materia³y budowlane na co¶ co ju¿ tu zaczê³o zdaje siê powstawaæ. Jaki¶
+podwodny pa³ac, czy co¶ takiego. Nie mo¿na chyba znale¼æ gorszego miejsca
+pod zbudowanie sobie domu, ni¿ tutaj, pod wod±. No ale, jaki kraj takie
+obyczaje... {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4533
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4533
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4531
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4531
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4533
+Name {BKoniec korytarza{x~
+Descr {BTutaj szklany, dziwny korytarz siê koñczy. Jak wszêdzie sporo tu miejsca,
+wolnej przestrzeni i szk³a. Nic co wyró¿nia³oby t± czê¶æ korytarza spo¶ród
+innych. Pod ¶cianami stoj± spore, zamkniête chyba skrzynie. Gdzieniegdzie
+pod nogami wala siê pot³uczone szk³o i kawa³ki dziwnej zaschniêtej
+substancji, któr± widaæ te¿ ówdzie na ¶cianach. Nie mo¿na chyba znale¼æ
+gorszego miejsca pod zbudowanie sobie domu, ni¿ tutaj, pod wod±. No ale,
+jaki kraj takie obyczaje... {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4532
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4532
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4536
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4536
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4534
+Name {WSzklany pokój{x~
+Descr {WZnajdujesz siê w sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit
+i pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4530
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4530
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4535
+Name {WSzklany pokój{x~
+Descr Znajdujesz siê w sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit
+i pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4531
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4531
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4536
+Name {WSzklany pokój{x~
+Descr Znajdujesz siê w sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit
+i pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4533
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4533
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4537
+Name {WSzklany chodnik{x~
+Descr {WIdziesz w±skim, ale ca³kiem wysokim tunelem, którego pod³oga, sufit i
+¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a. Tafle te
+s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian. Jednak
+najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4538
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4538
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4518
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4518
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4538
+Name {WSzklany chodnik{x~
+Descr {WIdziesz w±skim, ale ca³kiem wysokim tunelem, którego pod³oga, sufit i
+¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a. Tafle te
+s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian. Jednak
+najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4539
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4539
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4542
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4542
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4537
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4537
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4539
+Name {WSzklany chodnik{x~
+Descr {WIdziesz w±skim, ale ca³kiem wysokim tunelem, którego pod³oga, sufit i
+¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a. Tafle te
+s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian. Jednak
+najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4546
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4546
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4541
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4541
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4538
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4538
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4540
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4540
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4540
+Name {WSzklana komnata{x~
+Descr {WZnajdujesz siê sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit i
+pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4539
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4539
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4541
+Name {WSzklana komnata{x~
+Descr {WZnajdujesz siê sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit i
+pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4539
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4539
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4542
+Name {WSzklana komnata{x~
+Descr {WZnajdujesz siê w sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit
+i pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. W rogu pomieszczenia widzisz
+ma³± dziurê któr± mo¿esz zej¶æ na dó³. {x 
+~
+FlagsExt 0|C
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4538
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4538
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4543
+ExitExtEnd
+Exit 5
+~
+~
+0 0 4543
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4543
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4545
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4545
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4542
+ExitExtEnd
+Exit 4
+~
+~
+0 0 4542
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4544
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4545
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4545
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4549
+ExitExtEnd
+Exit 4
+~
+~
+0 0 4549
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4545
+Name {bW wodzie{x~
+Descr {bStosunkowo ciemno wokó³. Dno znajduje siê blisko, kilka metrów pod tob±.
+Nie widaæ tam jednak ¿adnej ro¶linno¶ci, nawet najmniejszej. Le¿y tam trochê
+kamieni i szarawego chyba ¿wiru, ale nie porasta tego nawet bodaj jeden
+glon. Nie dostrzegasz te¿ kompletnie ¿±dnych ryb ani mniejszych ¿yj±tek
+jakiegokolwiek rozmiaru. Woda jest prawie idealnie przezroczysta i gdyby nie
+bulgotanie widoczno¶æ w niej by³aby dobra na kilkadziesi±t metrów przy
+lepszym o¶wietleniu. Nie nadaje siê ona jednak zupe³nie do ¿ycia. {x 
+~
+FlagsExt 0
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4544
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4544
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4543
+ExitExtEnd
+Exit 3
+~
+~
+0 0 4543
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4546
+Name {WSzklana komnata{x~
+Descr {WZnajdujesz siê sporym i zadziwiaj±cym ciê pomieszczeniu. ¦ciany, sufit i
+pod³oga wykonane s± ze s³abo przezroczystego szk³a. Na ¶cianach widzisz
+ró¿ne rysunki wyrze¼bione na szkle, przedstawiaj±ce ryby, czy te¿ du¿e i
+gro¼ne wodne potwory. Niektóre prezentuj± tak¿e postacie wojowników maj±cych
+p³etwy zamiast nóg. Du¿e, wy³upiaste oczy, dziwne uszy i p³etwê biegn±c±
+przez ca³y grzbiet. Dzier¿± one w rêkach oszczepy lub trójzêby i s± ca³kiem
+podobne do osobników których mo¿na tutaj spotkaæ. Na ziemi walaj± siê
+pot³uczone szkie³ka i le¿a du¿e, szklane kafle. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4539
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4539
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4547
+Name {WSzklany pokój{x~
+Descr {WZnajdujesz siê w niedu¿ym pokoiku, spora jego czê¶æ zawalona jest
+szklanymi u³omkami. Jest tutaj tak¿e trochê ziemi i urobku skalnego. Jedna
+ze ¶cian nie jest pokryta jeszcze szk³em, tylko podparta paroma drewnianymi
+stemplami, najwyra¼niej bêdzie têdy w przysz³o¶ci przebiega³ nowy korytarz.
+W tej chwili jednak jedyne wyj¶cie znajduje siê na po³udniu. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4521
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4521
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4548
+Name {WSzklany pokój{x~
+Descr {WZnajdujesz siê w niedu¿ym pokoiku, spora jego czê¶æ zawalona jest
+szklanymi u³omkami. Jest tutaj tak¿e trochê ziemi i urobku skalnego. Jedna
+ze ¶cian nie jest pokryta jeszcze szk³em, tylko podparta paroma drewnianymi
+stemplami, najwyra¼niej bêdzie têdy w przysz³o¶ci przebiega³ nowy korytarz.
+W tej chwili jednak jedyne wyj¶cie znajduje siê na pó³nocy. {x 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4521
+ExitExtEnd
+Exit 0
+~
+~
+0 0 4521
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 4549
+Name {WSzklany chodnik{x~
+Descr {WIdziesz w±skim, ale ca³kiem wysokim tunelem, którego pod³oga, sufit i
+¶ciany ob³o¿ono p³ytami z niezbyt przezroczystego, bia³ego szk³a. Tafle te
+s± dosyæ grube. Zauwa¿asz, ¿e ¶ci¶le przylegaj± do skalnych ¶cian. Jednak
+najdziwniejsze jest to, ¿e zdaj± siê one emanowaæ ledwie zauwa¿aln±,
+delikatn± po¶wiat±. Zastanawiasz siê, kto i dlaczego tak siê napracowa³, nad
+upiêkszeniem tej jaskini? {x 
+~
+FlagsExt 0|C
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4519
+ExitExtEnd
+Exit 2
+~
+~
+0 0 4519
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4544
+ExitExtEnd
+Exit 5
+~
+~
+0 0 4544
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 4500 1 4504 1
+M 100 4505 3 4509 1
+M 100 4506 2 4513 1
+M 100 4504 3 4513 1
+M 100 4505 4 4516 1
+M 100 4511 2 4518 1
+M 100 4510 1 4518 1
+M 100 4504 4 4518 1
+M 100 4501 1 4519 1
+M 100 4507 1 4522 1
+E 100 4417 0 8
+E 100 4364 0 5
+E 100 3050 0 7
+E 100 3098 0 13
+M 100 4508 1 4525 1
+M 100 4509 2 4527 2
+M 100 4509 2 4529 2
+M 100 4505 1 4530 1
+M 100 4506 3 4530 1
+M 100 4511 3 4531 1
+M 100 4505 5 4533 1
+M 100 4512 1 4533 1
+M 100 4510 3 4536 1
+M 100 4505 2 4536 1
+M 100 4504 7 4537 1
+M 100 4504 1 4537 1
+M 100 4506 1 4538 1
+M 100 4504 1 4539 1
+M 100 4504 2 4540 1
+M 100 4511 1 4541 1
+M 100 4512 2 4541 1
+M 100 4513 2 4543 2
+M 100 4513 2 4544 2
+M 100 4504 6 4546 1
+M 100 4510 2 4546 1
+S
+
+
+
+#MOBPROGSNEW
+#4500
+~
+emote nie ¿yje!!
+emote pada na ziemiê... MARTWA.
+
+if rand 1
+  mob oload 4500
+  mob echo S³yszysz jaki¶ brzêk czego¶ szklanego, dok³adnie w momencie, w którym sahuaginka wali siê na ziemiê. Przez moment widzisz lekki b³ysk, czy¿by jaki¶ klucz?
+endif
+~
+#4501
+dupa
+~
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+mob equip self 3066
+mob equip self 4367
+
+if rand 90
+  mob equip self 3156
+else
+  if rand 65
+    mob equip self 3300
+  else
+    mob equip self 3179
+    mob equip self 3179 hold
+  endif
+endif
+ 
+mob addgroup 4502
+mob addgroup 4503
+~
+#4502
+~
+mob equip self 3301
+mob equip self 4367
+
+if rand 65
+  mob oload 4511
+endif
+
+# {Cszklana bransoleta{x
+if rand 70
+  mob equip self 4513
+endif
+
+# {Cszklany medalion{x
+if rand 70
+  mob equip self 4520
+endif
+
+if rand 90
+  mob equip self 9151
+endif
+~
+#4503
+~
+if rand 70
+  mob equip self 9129
+endif
+if rand 70
+  mob equip self 9129
+endif
+
+mob equip self 4367
+
+if rand 65
+  mob oload 4510
+endif
+
+# {Cszklana bransoleta{x
+if rand 70
+  mob equip self 4513
+endif
+# {Cszklany kolczyk{x
+if rand 70
+  mob equip self 4514
+endif
+
+# {cZbrojka{x
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+
+# Prog l±duj±cy zwoje, dla zaawansowanych mobow-magów.
+if rand 96
+  mob oload 29701
+else
+  if rand 97
+    mob oload 29703
+  else
+    if rand 98
+      mob oload 29705
+    else
+      if rand 99
+        mob oload 29704
+      endif
+    endif
+  endif
+endif
+~
+#4504
+~
+if rand 10
+  mob equip self 3157
+else
+  mob equip self 3171
+endif
+
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+mob equip self 3066
+~
+#4505
+~
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+mob equip self 3066
+
+if rand 50
+  mob equip self 4367
+endif
+
+if rand 70
+  mob equip self 3156
+else
+  mob equip self 3157
+~
+#4510
+~
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+mob equip self 3066
+
+if rand 70
+  mob equip self 3156
+else
+  if rand 60
+    mob equip self 3171
+  else
+    mob equip self 3157
+  endif
+endif
+
+if rand 50
+  mob equip self 4367
+endif
+~
+#4511
+~
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+mob equip self 3066
+if rand 70
+  mob equip self 3156
+else
+  if rand 60
+    mob equip self 3171
+  else
+    mob equip self 3157
+  endif
+endif
+if rand 50
+  mob equip self 4367
+endif
+~
+#4512
+~
+mob equip self 4515
+mob equip self 4516
+mob equip self 3082
+mob equip self 4518
+mob equip self 3066
+mob equip self 4367
+
+if rand 60
+  mob equip self 3171
+  mob equip self 3157 hold
+else
+  if rand 50
+    mob equip self 3156
+  else
+    mob equip self 3179
+    mob equip self 3157 hold
+  endif
+endif
+
+if rand 80
+  mob equip self 4513
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#4500
+~
+mob echoat $n Przez chwile manipulujesz przy czyms na ksztalt dzwigni w prawie niewidocznie zarysowanych {Clodowych wrotach{x, po pewnym czasie slyszysz lekki syk, dzwignia opada a {Cwrota{x sie odsuwaja.
+mob echoaround $n $n przez chwile manipuluje przy czyms na ksztalt dzwigni w prawie niewidocznie zarysowanych {Clodowych wrotach{x, po pewnym czasie slyszysz lekki syk, dzwignia opada a {Cwrota{x sie odsuwaja.
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 4520
+Name {CSzklane ozdoby wodnego ludu{x~
+Desc A niech gracze maj± co¶ z tego, ¿e zbieraj± takie ¶wiecide³ka...
+Losuj± siê one niezbyt czêsto.
+~
+Aff 1 12 4 3 0 0
+Aff 1 12 12 5 0 0
+Aff 1 12 14 5 0 0
+WearProg mob echoat $n Twoje cia³o otacza siê ledwo widoczn±, pó³przezroczyst± aur±.
+mob echoaround $n $n otacza siê ledwo widoczn±, pó³przezroczyst± aur±.
+~
+RemoveProg mob echoat $n Pó³przezroczysta aura otaczaj±ca twoje cia³o znika.
+mob echoaround $n Pó³przezroczysta aura otaczaj±ca $c znika. 
+~
+Extradesc _opis~
+Dostrzegasz, ¿e za po¶rednictwem szklanych przedmiotów, noszonych przez
+$c, $s cia³o otacza ledwo widoczna, przezroczysta aura. 
+~
+BonusEnd
+#Vnum 0
+
+#$

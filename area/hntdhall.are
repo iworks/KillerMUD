@@ -1,0 +1,5911 @@
+#AREADATA
+Name +# Nawiedzone Hale~
+Builders Deggial~
+VNUMs 33000 33150
+Credits quanchi@icpnet.plsl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 33000
+Name duch~
+Odmiana ducha~duchowi~ducha~duchem~duchu~
+Short duch poszukiwacza skarbów~
+Long Duch poszukiwacza skarbów zaczyna ¶miaæ siê na twój widok. ~
+Descr ~
+Race duch~
+ActExt 0|ABGO
+Affected 35127808 0 0 0
+AffectedExt 0|JTUZ
+Align -750
+Group 0
+Lang AM
+Speaks 12
+Level 1
+Hitroll 0
+HP 1d1+10
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 10 10 10 10
+Stats 60 120 120 60 60 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33001
+Name licz krol wladca groslug boss~
+Odmiana {DGrosluga{x~{DGroslugowi{x~{DGrosluga{x~{DGroslugiem{x~{DGroslugu{x~
+Short {DGroslug{x~
+Long {DGroslug, w³adca liczy, unosi nad ziemi± swe niematerialne istnienie.{x~
+Descr Groslug jest demi-liczem. Liczem tak staro¿ytnym, ¿e jego cia³o dawno ju¿
+rozpad³o siê w proch i py³, powoduj±c, ¿e jego dusza zachowa³a niematerialn±
+formê swojego nieumar³ego cia³a. Ostatecznie odseparowany od niego, jest
+jednak zdolny do u¿ywania najpotê¿niejszej magii, a jego stalowa,
+kszta³towana przez setki lat wola jest nie do z³amania. Niby niepozorne
+widmo, rozmtyty szkielet w rozmytej, purpurowej szacie. Tak naprawdê, jeden
+z najpotê¿niejszych czarodziejów w naszym ¶wiecie. Spotkanie z demi liczem
+jest ¶miertelnym zagro¿eniem, ma³o kto potrafi uj¶æ wzrokowi jego gorej±cych
+z³em oczu. 
+~
+Race licz~
+ActExt 0|ABEFGOR/2|C
+Affected 35127336 805306368 524288 8192
+AffectedExt 0|DFTUZ/1|cd/2|T/3|N
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 40
+Hitroll 8
+HP 40d10+2100
+Damage 4d6+6
+Dammagic 5
+Weaponbonus 4
+Damflags 4
+Attack uderzenie
+XAC -10 -10 -10 -8
+Stats 108 168 168 168 60 90 156
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20000
+Form CIM
+Parts ABCGHIJK
+Size large
+Material unknown
+Comments level, hp exp multiplier - {RKainti{x ({CFri Dec  9 22:23:17 2005{x)
+~
+MobprogNew hpcnt groszek_hilfe H 80~
+MobprogNew onload groslug_onl ABCDEFGHI 100~
+Spells 392 201 228 94
+Spells 13 310 311 216
+Spells 380 229 71 364
+Spells 44 98 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 500
+Resist 1 32
+Resist 2 28
+Resist 3 25
+Resist 4 50
+Resist 5 15
+Resist 6 15
+Resist 7 75
+Resist 8 100
+Resist 10 100
+Resist 11 4
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Resist 17 50
+Mobend
+#Vnum 33002
+Name licz~
+Odmiana licza~liczowi~licza~liczem~liczu~
+Short licz~
+Long Otoczony magiczn± po¶wiat± licz stoi tutaj.~
+Descr Ta potê¿na istota to jedno z najwy¿szych stadiów nieumar³ego. Licz to
+szkielet, który dodatkowo potrafi pos³ugiwaæ siê zabójcz± magi±. W jego
+oczodo³ach widzisz dwa ma³e ogniste p³omyki. 
+~
+Race licz~
+ActExt 0|ACFGOR
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 5
+HP 30d5+425
+Damage 3d4+4
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 1 2 1 2
+Stats 84 126 120 108 120 78 78
+Off RU
+OffExt 0|RU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 30
+Form CIM
+Parts ABCGHIJK
+Size medium
+Material unknown
+MobprogNew onload lich_onload ABCDEFGHI 100~
+Spells 196 96 16 90
+Spells 17 2 71 228
+Spells 163 149 296 218
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 7 100
+Resist 8 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 33
+Mobend
+#Vnum 33003
+Name staro¿ytny licz~
+Odmiana staro¿ytnego licza~staro¿ytnemu liczowi~staro¿ytnego licza~staro¿ytnym liczem~staro¿ytnym liczu~
+Short staro¿ytny licz~
+Long Wysoki licz niemal przepala ciê na wylot swym nienawistnym spojrzeniem.~
+Descr Ta potê¿na istota to jedno z najwy¿szych stadiów nieumar³ego. Licz to
+szkielet, który dodatkowo potrafi pos³ugiwaæ siê zabójcz± magi±. W jego
+oczodo³ach p³onie prawdziwy ogieñ, pe³en w¶ciek³o¶ci i nienawi¶ci! 
+~
+Race licz~
+ActExt 0|ACFGOR
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 25
+Hitroll 6
+HP 30d5+500
+Damage 3d3+12
+Dammagic 2
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC -1 0 -1 0
+Stats 84 138 132 108 120 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form CIM
+Parts ABCGHIJK
+Size medium
+Material unknown
+Comments Zmieniam damtype z drain na magic - powód? Upiorni trenowali sobie na nim skille nic mu nie robi±c, w czasie gdy on.. no nic im nie robi³. - {RDrake{x ({CSat Jul 16 09:20:16 2005{x)
+~
+MobprogNew onload a_lich_onload ABCDEFGHI 100~
+Spells 228 201 185 16
+Spells 199 194 203 149
+Spells 296 94 91 0
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 4 15
+Resist 7 100
+Resist 8 100
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 66
+Mobend
+#Vnum 33004
+Name gnij±ce zombi~
+Odmiana zombi~zombi~zombi~zombi~zombi~
+Short gnij±ce zombi~
+Long Gnij±ce zombi zmierza w twoj± stronê.~
+Descr Straszliwy smród i aura choroby i rozk³adu, jak± roztacza to zombi
+dos³ownie ciê odrzuca. Masz ochotê na nic nie zwa¿aj±c cofn±æ siê, byle
+dalej od tego stwora z piek³a rodem. 
+~
+Race zombi~
+ActExt 0|AFGOT
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 0
+HP 20d6+1000
+Damage 4d5+8
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 6
+Stats 108 72 72 96 156 78 78
+Off IX
+OffExt 0|IX
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 10
+Form ABIc
+Parts ABCGHIR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 1 10
+Resist 2 10
+Resist 3 10
+Resist 10 100
+Resist 12 30
+Resist 16 100
+Mobend
+#Vnum 33005
+Name szkielet wojownika antycznego antyczny~
+Odmiana szkieletu wojownika~szkieletowi wojownika~szkielet wojownika~szkieletem wojownika~szkielecie wojownika~
+Short szkielet wojownika~
+Long Szkielet antycznego wojownika niezmordowanie szuka jakiej¶ ofiary.~
+Descr Z przera¿eniem spogl±dasz na ten szkielet, który zdaje siê byæ poruszany
+przez jakie¶ nieczyste moce i najwyra¼niej spragniony jest ¶wie¿ej krwi. 
+~
+Race upiorny rycerz~
+ActExt 0|ACEGOd
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 23
+Hitroll 4
+HP 20d5+320
+Damage 5d5+3
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 0 2 1 4
+Stats 78 78 78 78 78 78 78
+Off UY
+OffExt 0|UY/1|ABCD
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form EFMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew onload ancient_warrior ABCDEFGHI 100~
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 4 75
+Resist 8 50
+Resist 10 100
+Resist 12 100
+Resist 13 50
+Resist 16 100
+Mobend
+#Vnum 33006
+Name mumia postaæ wysoka~
+Odmiana mumii~mumii~mumiê~mumi±~mumii~
+Short mumia~
+Long Wysoka postaæ odziana w banda¿e zbli¿a siê chwiejnym krokiem.~
+Descr Jest to postaæ wzrostu cz³owieka, ca³a od stóp do g³ów owiniêta
+banda¿ami. Porusza siê ca³kiem szybko, choæ jej ruchy przypominaj± ruchy
+pijaka. W niektórych miejscach banda¿e s± zetla³e i podziurawione, a ca³a
+mumia ma liczne przebarwienia, jakby od zasch³ej krwi. 
+~
+Race mumia~
+ActExt 0|ACEFGOQ
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 21
+Hitroll 0
+HP 21d5+500
+Damage 6d3+5
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 1 2 4
+Stats 132 108 108 120 144 78 78
+Off UV
+OffExt 0|UV
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 75
+Form CIJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+MobprogNew onload mumia_wdzianko ABCDEFGHI 100~
+Spells 96 137 12 39
+Spells 149 0 0 0
+Corpse 33008
+Skin 100
+ExpMultiplier 100
+Resist 5 -20
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 16 100
+Mobend
+#Vnum 33007
+Name szkielet kryptowiec niewielkich~
+Odmiana kryptowca~kryptowcowi~kryptowca~kryptowcem~kryptowcu~
+Short kryptowiec~
+Long Niewielkich rozmiarów szkielet biega tutaj szybko.~
+Descr Kryptowiec to niewielkich rozmiarów szkielet, zwykle odziany w przygodnie
+znalezione szmaty lub pozosta³o¶ci szat. Potrafi pos³ugiwaæ siê s³ab± magi±,
+w walce tak¿e niczym szczególnym siê nie odznacza. Niestety, podstawowy
+problem z kryptowcami polega na tym, ¿e zwykle wystêpuj± w grupach, czasem
+licz±cych po kilkadziesi±t "osobników". Swoj± nazwê natomiast zawdziêcza
+miejscom, w których najchêtniej przebywa: s± to cmentarze, stare krypty i
+grobowce. 
+~
+Race kryptowiec~
+ActExt 0|AEFGORT
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 14d5+185
+Damage 3d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 7 6 7
+Stats 102 108 108 108 108 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 5
+Form EIMXc
+Parts ABCGHIJKQU
+Size medium
+Material unknown
+MobprogNew onload kryptowiec_onl ABCDEFGHI 100~
+Spells 194 195 69 0
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 12 100
+Resist 14 75
+Resist 16 30
+Mobend
+#Vnum 33008
+Name nietoperz wielki~
+Odmiana nietoperza~nietoperzowi~nietoperza~nietoperzem~nietoperzu~
+Short {Dnietoperz{x~
+Long {DWielki nietoperz wisi tutaj g³ow± w dó³.{x~
+Descr {DZwyczajny, dosyæ dobrze odkarmiony nietoperz.{x
+~
+Race nietoperz~
+ActExt 0|ABEG
+Affected 34078760 0 0 0
+AffectedExt 0|DFTZ
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 3
+Hitroll 0
+HP 3d5+20
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack klapniecie
+XAC 10 10 10 10
+Stats 48 30 30 90 54 78 78
+Off FR
+OffExt 0|FR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKPRS
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33009
+Name troll wodny~
+Odmiana trolla~trollowi~trolla~trollem~trollu~
+Short wodny troll~
+Long Wodny troll czeka tutaj na jaki¶ posi³ek.~
+Descr Spogl±dasz na jedno z najdziwniejszych stworzeñ, jakie mia³y okazjê
+ogl±daæ twoje oczy. Wodny troll w niewielkim stopniu przypomina swoich
+l±dowych kuzynów. Przede wszystkim jest nieco mniejszy i nie tak muskularny.
+Posiada skrzela, dziêki czemu mo¿e oddychaæ pod wod±. W ogóle robi wra¿enie
+bardziej cywilizowanego, je¶li mo¿na tak powiedzieæ o istocie ¿yj±cej w
+wodzie, g³êboko pod ziemi±. Z drugiej jednak strony to wci±¿ troll - potê¿ne
+i silne stworzenie, zdolne do b³yskawicznej regeneracji ran i kto wie czy
+nie obdarzone szczególnymi umiejêtno¶ciami. W twojej g³owie kie³kuje tak¿e
+pytanie na temat diety tego trolla, bo raczej nie wygl±da on na takiego,
+który ¿ywi siê glonami i porostami. 
+~
+Race troll~
+ActExt 0|ABCEFGIT
+Affected 301990408 1024 0 0
+AffectedExt 0|DJZc/1|K
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 25d5+800
+Damage 4d5+5
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC -2 -2 -2 0
+Stats 150 60 120 108 168 78 78
+Off CDRY
+OffExt 0|CDRY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form ABFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 5 -5
+Resist 10 25
+Resist 11 1
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 33010
+Name goblin przera¿ony wychudzony~
+Odmiana goblina~goblinowi~goblina~goblinem~goblinie~
+Short przera¿ony goblin~
+Long Wychudzony goblin kuli siê w k±cie z wyrazem przera¿enia na twarzy.~
+Descr Mimo ca³ej niechêci, jak± darzysz rasê goblinów na widok tego
+wyg³odnia³ego goblina robi ci siê niemal przykro. Prawdopodobnie zab³±dzi³
+on gdzie¶ w jaskiniach i przez przypadek dosta³ siê do Nawiedzonych Hal.
+Przera¿ony spotkanymi tutaj potworami postanowi³ schowaæ siê w tej dziurze,
+w nadziei, ¿e nikt ani nic go nie znajdzie. Niestety, twoja obecno¶æ jest
+dowodem na to, ¿e siê myli³. 
+~
+Race goblin~
+ActExt 0|ABCG
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align -1000
+Group 0
+Lang O
+Speaks 14
+Level 7
+Hitroll 0
+HP 7d5+65
+Damage 1d6+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 8 8 8 8
+Stats 96 72 72 108 96 78 78
+Off IR
+OffExt 0|IR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 3
+Form AEFGHMV
+Parts ABCDEFGHIJKQRV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33011
+Name rycerz wysoki upiorny boss~
+Odmiana rycerza~rycerzowi~rycerza~rycerzem~rycerzu~
+Short upiorny rycerz~
+Long Upiorny rycerz roztacza wokó³ siebie aurê mroku i grozy.~
+Descr Czujesz, jak na widok tej postaci uginaj± siê pod tob± kolana, a ³ydki
+zaczynaj± dr¿eæ tak rytmicznie, ¿e pierwsz± nagrodê na konkursie tañca
+mia³<&by¶/aby¶/oby¶> zapewnion±. Ale to nie taniec, no chyba ¿e ze ¶mierci±.
+Od rycerza bije taka groza, ¿e zimny pot momentalnie oblewa ca³e twoje
+cia³o. 
+~
+Race upiorny rycerz~
+ActExt 0|ABEFGOd/2|C
+Affected 33554984 536870912 0 0
+AffectedExt 0|DFJZ/1|d
+Align -1000
+Group 0
+Lang AR
+Speaks 0
+Level 31
+Hitroll 6
+HP 30d10+1300
+Damage 3d5+11
+Dammagic 2
+Weaponbonus 5
+Damflags 4
+Attack mwalniecie
+XAC 0 0 0 5
+Stats 168 108 108 138 156 156 102
+Off Y
+OffExt 0|Y/1|ABDI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 1000
+Form EFIMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+Comments Podnosze level na 31. - {RSeinar{x ({CSat Aug  8 16:56:45 2009{x)
+~
+MobprogNew death boss_drop_35 ABCDEFGHI 100~
+MobprogNew onload upiorny_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 200
+Resist 4 25
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Mobend
+#Vnum 33012
+Name skorupiak drapie¿ny olbrzymi~
+Odmiana skorupiaka~skorupiakowi~skorupiaka~skorupiakiem~skorupiaku~
+Short drapie¿ny skorupiak~
+Long Ogromnych rozmiarów skorupiak p³ywa tutaj.~
+Descr Spogl±dasz na naprawdê przera¿aj±cego potwora. W ogólnym zarysie
+przypomina on co¶ w rodzaju homara, ma d³ugie czu³ki, kilka par odnó¿y i
+szczypce. Grzbiet stworzenia jest opancerzony chitynowymi p³ytkami, na
+pancerzu stwór posiada kilka ostrych kolców. Wszystko by³oby w porz±dku,
+gdyby nie fakt, ¿e stawonóg ten mierzy niemal dwa metry d³ugo¶ci! Jednak
+najniezwyklejsz± jego cech± jest zupe³ny brak koloru - ¿ycie w podziemiach
+bez dostêpu ¶wiat³a sprawi³o, ¿e zwierzê jest zupe³nie prze¼roczyste, je¶li
+nie liczyæ czê¶ci chitynowego szkieletu i czarnych, paciorkowatych oczu. 
+~
+Race skorupiak olbrzymi~
+ActExt 0|AEFGTX
+Affected 134217728 1024 0 0
+AffectedExt 0|b/1|K
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 0
+HP 20d5+450
+Damage 3d6+8
+Dammagic 0
+Weaponbonus 0
+Damflags 128
+Attack claw
+XAC 0 0 0 5
+Stats 96 48 48 144 108 78 78
+Off UY
+OffExt 0|UY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form MQV
+Parts ABCDGHIJM
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 9 25
+Resist 10 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 33013
+Name w³adca mroku~
+Odmiana w³adcy mroku~w³adcy mroku~w³adcê mroku~w³adc± mroku~w³adcy mroku~
+Short w³adca mroku~
+Long W³adca mroku roztacza wokó³ siebie aurê rozk³adu i grozy.~
+Descr Czujesz, jak na widok tej postaci uginaj± siê pod tob± kolana, a ³ydki
+zaczynaj± dr¿eæ tak rytmicznie, ¿e pierwsz± nagrodê na konkursie tañca
+mia³<&by¶/aby¶/oby¶> zapewnion±. Ale to nie taniec, no chyba ¿e ze ¶mierci±.
+Od rycerza bije taka groza, ¿e zimny pot momentalnie oblewa ca³e twoje
+cia³o. 
+~
+Race upiorny rycerz~
+ActExt 0|AEGKOd
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align -1000
+Group 0
+Lang AR
+Speaks 0
+Level 26
+Hitroll 2
+HP 30d10+1300
+Damage 3d5+7
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack mwalniecie
+XAC 5 5 5 5
+Stats 168 168 168 168 168 78 78
+Off CEKVY
+OffExt 0|CEKVY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 2000
+Form EFIMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33014
+Name siewca zag³ady czarny rycerz~
+Odmiana {RSie{rwc{Ry Z{rag³{Rady{x~{RSie{rwc{Ry Z{rag³{Rady{x~{RSie{rwc{Rê Z{rag³{Rady{x~{RSie{rwc{R± Z{rag³{Rady{x~{RSie{rwc{Ry Z{rag³{Rady{x~
+Short {RSie{rwc{Ra Z{rag³{Rady{x~
+Long {DOd przera¿aj±cego {RSie{rwc{Ry Z{rag³{Rady{D rozchodzi siê d³awi±cy zapach siarki.{x~
+Descr {DTen potê¿ny stwór, przyby³y z najg³êbszych czelu¶ci Otch³ani, gdzie Chaos
+spó³kuje ze Z³em i Zapomnieniem, wygl±da jak kolosalny, spi¿owy pancerz
+wype³niony ogniem. Piekielne jêzyki czerwonych p³omieni zdaj± siê wyp³ywaæ
+zza zbroi, li¿±c delikatnie metal, rozgrzewaj±c go do czerwono¶ci. Ten
+piekielny potwór zamiast oczu ma dwie pary p³on±cych na zimny, niebieski
+kolor, iskier. Groteskowe po³±czenie ch³odu i gor±ca. Za {RSie{rwc{R± Z{rag³{Rady{D
+pod±¿a jego nieod³±czny kompan - ostry, d³awi±cy i dusz±cy zapach siarki,
+który sprawia, ¿e chce ci siê wymiotowaæ. Nie zniesiesz przebywania w
+pobli¿u tego stwora d³u¿ej ni¿ jest to konieczne! {x 
+~
+Race upiorny rycerz~
+ActExt 0|ABEFGMObd
+Affected 40 528387 524288 8192
+AffectedExt 0|DF/1|ABMT/2|T/3|N
+Align -1000
+Group 0
+Lang R
+Speaks 16
+Level 26
+Hitroll 8
+HP 21d4+800
+Damage 3d5+3
+Dammagic 4
+Weaponbonus 5
+Damflags 20
+Attack lupniecie
+XAC -10 -10 -10 0
+Stats 156 96 78 120 144 108 102
+Off 0
+OffExt 1|ABCD
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form EFMV
+Parts ABCDEFGHIJK
+Size large
+Material unknown
+MobprogNew onload load_siewca ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 1 50
+Resist 4 75
+Resist 5 100
+Resist 6 100
+Resist 8 -15
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Resist 17 15
+Resist 18 50
+Mobend
+#Vnum 33015
+Name emanacja mroku zjawa duch dusza~
+Odmiana {Demanacji mroku{x~{Demanacji mroku{x~{Demanacje mroku{x~{Demanacj± mroku{x~{Demanacji mroku{x~
+Short {Demanacja mroku{x~
+Long {DNiewielka, ca³kowicie czarna emanacja mroku unosi siê nad ziemi±.{x~
+Descr {DCzym jest emanacja mroku? To dobre pytanie. Widzisz j± jako niewielk±,
+czarn± plamê unosz±c± siê niewysoko nad ziemi±. Zdaje siê byæ dwuwymiarowa,
+bowiem za ka¿dym razem jak na ni± patrzysz, wydaje ci siê, ¿e widzisz po
+prostu czarne, p³askie ko³o. Jednak emanacja od czasu do czasu zdaje siê
+poruszaæ. "Wyrastaj±" jej wtedy dziwne, czarne nibynó¿ki. Przesuwa siê wtedy
+ona powoli z miejsca na miejsce. Poza tym wygl±da na niegro¼n±... Je¿eli
+braæ pod uwagê tylko jej wygl±d. Nie wiesz jakie piekielne moce mog± siê
+kryæ wewn±trz tej pulsuj±cej magi± czarnej kropki. I szczerze mówi±c, chyba
+nie chcesz siê szybko dowiadywaæ. {x 
+~
+Race duch~
+ActExt 0|ABEFOR
+Affected 268959784 268435456 67108928 2
+AffectedExt 0|DFTc/1|c/2|Ga/3|B
+Align -500
+Group 0
+Lang R
+Speaks 16
+Level 25
+Hitroll 4
+HP 10d50+400
+Damage 2d6+2
+Dammagic 5
+Weaponbonus 5
+Damflags 6
+Attack chlod
+XAC 5 5 5 0
+Stats 90 150 150 90 96 150 150
+Off d
+OffExt 0|d
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form IL
+Parts ABCGHI
+Size tiny
+Material unknown
+Spells 296 141 137 13
+Spells 92 403 304 228
+Spells 71 48 138 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33016
+Name staro¿ytna mumia król wielka~
+Odmiana staro¿ytnej mumii~staro¿ytnej mumii~staro¿ytn± mumie~staro¿ytn± mumi±~staro¿ytnej mumii~
+Short staro¿ytna mumia~
+Long Staro¿ytna mumia w bandarzach stoi tutaj, czekaj±c na ofiary.~
+Descr Potê¿ny nieumar³y, przywrócony do nie¿ycia przez czarn± magiê Grosluga.
+Kiedy¶ by³ królem, dla którego wybudowali ów grobowy kompleks, który - gdy
+tylko magia obudzi³a go i powiadomi³a o wtargniêciu intruza - odby³ z
+potêznym nekromant±, wtedy jeszcze ¿ywym, pojedynek. Przegra³ i zosta³
+unicestwiony, a jego dusza pochwycona przez plugawe czary i na nowo
+wt³oczona do gnij±cego cia³a, tym razem by s³u¿yæ nekromancie. Za swoich
+czasów by³ potê¿nym kap³anem i wojownikiem swego ludu, teraz s³u¿y swoj±
+przebieg³o¶ci± i si³± królowi liczy. 
+~
+Race mumia wiêksza~
+ActExt 0|ABEFOQT
+Affected 310378536 0 0 0
+AffectedExt 0|DFXZc
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 28
+Hitroll 4
+HP 28d10+800
+Damage 3d7+5
+Dammagic 0
+Weaponbonus 6
+Damflags 0
+Attack mwalniecie
+XAC 0 0 0 2
+Stats 156 96 168 60 168 78 78
+Off VY
+OffExt 0|VY/1|I
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 750
+Form CIJM
+Parts ABCGHIJK
+Size large
+Material unknown
+MobprogNew death boss_drop_30 ABCDEFGHI 100~
+Spells 59 230 77 5
+Spells 137 144 10 0
+Skin 100
+ExpMultiplier 200
+Resist 1 10
+Resist 2 10
+Resist 4 -20
+Resist 8 100
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Resist 17 15
+Mobend
+#Vnum 33017
+Name gnij±ce zombi~
+Odmiana zombi~zombi~zombi~zombi~zombi~
+Short gnij±ce zombi~
+Long Gnij±ce zombi zmierza w twoj± stronê.~
+Descr Straszliwy smród i aura choroby i rozk³adu, jak± roztacza to zombi
+dos³ownie ciê odrzuca. Masz ochotê na nic nie zwa¿aj±c cofn±æ siê, byle
+dalej od tego stwora z piek³a rodem. 
+~
+Race zombi~
+ActExt 0|AFGOT
+Affected 33554952 0 0 0
+AffectedExt 0|DJZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 0
+HP 20d6+1000
+Damage 4d5+8
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 6
+Stats 108 72 72 96 156 78 78
+Off IX
+OffExt 0|IX
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 10
+Form ABIc
+Parts ABCGHIR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 33150
+Name s³uga nuurag~
+Odmiana s³ugi~s³udze~s³ugê~s³ug±~s³udze~
+Short s³uga Deggiala~
+Long Nuurag, s³uga Deggiala, czeka na rozkazy swego pana.~
+Descr Jest to licz, stworzony z cia³a gracza, który robi³ multi.
+~
+Race unique~
+ActExt 0|ABOR
+Affected 34603648 0 0 0
+AffectedExt 0|HJUZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 1d1+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CIM
+Parts ABCGHJK
+Size medium
+Material unknown
+MobprogNew speech nuuraglecz FGI uzdrowienie~
+Skin 100
+ExpMultiplier 100
+Resist 7 100
+Resist 8 100
+Resist 11 4
+Resist 12 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 33000
+Name onyksowy amulet prastary~
+Odmiana onyksowego amuletu~onyksowemu amuletowi~onyksowy amulet~onyksowym amuletem~onyksowym amulecie~
+Short onyksowy amulet~
+Descr Prastary amulet pokryty runami le¿y tutaj.~
+Material kamieñ~
+Type jewelry
+ExtraExt 0|CDEGJ
+Wear AC
+Wear2Ext 0|BKL
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 90000
+Cond 100
+Aff 1 5 -6 0 0 0
+Aff 1 3 18 0 0 0
+Aff 1 24 -3 0 0 0
+Extradesc _onyx~
+Na szyi $z zauwa¿asz jaki¶ niewielki talizman, czy amulet. Masz
+nieodpart± chêc przyjrzeæ mu siê bli¿ej, lub ju¿ nigdy nie odrywaæ od niego
+wzroku... Ah! Wyrywasz siê nagle ze stanu dziwnego og³upienia, w który
+niespodziewanie wpad³<&e¶/a¶/o¶>. Ciekawe, czy przyczyn± tego by³ owy
+talizman? 
+~
+Itemdesc Patrzysz z niedowierzaniem na wisior, który znajduje siê przed tob±. Na
+grubym pasie skóry wisi przedziurawiony w ¶rodku okr±g. Przygl±daj±c pasowi
+skóry szybko odrzucasz od siebie amulet. Jest to niczym nie impregnowana i
+nie wyprawiona ludzka, gnij±ca skóra. Jej s³odkawy odór roznosi siê na kilka
+metrów. Z oddali widzisz robaki, które pe³zaj± leniwie w¶ród jej fa³dów.
+Wisior natomiast zrobiony jest z jednolitego kawa³ka onyksu. Na ca³ej jego
+powierzchni, z obu stron widniej± jakie¶ znaki. S± to staro¿ytne runy.
+Prze³amuj±c obrzydzenie podnosisz jeszcze raz amulet, aby przyjrzeæ siê
+dok³adniej wyrytym znakom. Nie jeste¶ w stanie jednak zrozumieæ ani s³owa,
+ani jednej litery. Na ¶rodku okrêgu, w wywierconej dziurze osadzony jest
+malutki kawa³ek ciemno¿ó³tego kryszta³u. Emanuje on zgni³ym blaskiem ra¿±c
+twe oczy. Czujesz p³yn±c± z tego przedmiotu magiczn± moc. 
+~
+Identdesc Amulet ten jest niezniszczalnym magicznym przedmiotem, którego nie mog±
+u¿ywaæ przedstawiciele kasty kap³añskiej. Modyfikuje on inteligencjê i
+szczê¶cie nosz±cej go osoby, a tak¿e zwiêksza znacznie jej odporno¶æ na
+czary. Specyficzn± cech± amuletu jest to, ¿e ulega on dezintegracji w
+momencie ¶mierci w³a¶ciciela. 
+~
+Comments aktualizacja statow - {RGorst{x ({CWed May  8 04:36:07 2013{x)
+~
+Objend
+#Vnum 33001
+Name laska s³oñca~
+Odmiana laski~lasce~laskê~lask±~lasce~
+Short {Ylaska s³oñca{x~
+Descr {YLaska emanuj±ca moc± rzuca jasny blask na wszystko wokó³.{x~
+Material drewno~
+Type weapon
+ExtraExt 0|DGIKL
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 4 2 7 32 5 2
+Repair 0 0 0 0
+Length 150
+Weight 45
+Cost 48000
+Cond 100
+Identdesc Jest to magiczny, niezniszczalny i b³ogos³awiony przedmiot. Mog± go
+u¿ywaæ wy³±cznie osoby o dobrym charakterze. 
+~
+Comments ~
+Objend
+#Vnum 33002
+Name ko¶ciana bransoleta~
+Odmiana {Wko¶cianej bransolety{x~{Wko¶cianej bransolecie{x~{Wko¶cian± bransoletê{x~{Wko¶cian± bransolet±{x~{Wko¶cianej bransolecie{x~
+Short {Wko¶ciana bransoleta{x~
+Descr {WKo¶ciana bransoleta{x po³yskuje ukryt± moc±.~
+Material ko¶æ~
+Type jewelry
+ExtraExt 0|GJ
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 7000
+Cond 100
+Aff 1 17 -8 0 0 0
+Itemdesc Masz w rêkach ko¶cian± bransoletê, która a¿ kipi magi±. Czujesz jak
+wibruje, na pewno nie jest to zwyk³a bransoleta, ciekawe tylko jaki magiczny
+afekt posiada. Bransoleta ta jest wykona z ludzkich ko¶ci i na pewno dobra
+osoba jej nie za³o¿y. Ciekawe co za okrutna istota mog³a wykonaæ ten
+przedmiot. 
+~
+Comments ~
+Objend
+#Vnum 33008
+Name banda¿e stare~
+Odmiana banda¿y~banda¿om~banda¿e~banda¿ami~banda¿ach~
+Short stare banda¿e~
+Descr Trochê starych banda¿y le¿y rozwleczonych na ziemi.~
+Material len~
+Type clothing
+ExtraExt 0|CEGMZ
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 30
+Cost 0
+Cond 10
+Aff 1 13 -25 0 0 0
+Itemdesc Ogl±dasz kupê starych banda¿y. Nie mo¿na powiedzieæ, ¿eby nadawa³y siê
+one jeszcze do u¿ytku. Wprawdzie niektóre odcinki wygl±daj± na ca³kiem
+mocne, ale s±dz±c po ich "przyjemnym" zapachu i nieciekawej,
+¿ó³tawo-czerwonej barwie, mog± one tylko zakaziæ krew, zamiast s³u¿yæ
+lepszemu gojeniu siê ran. Lepiej nie bierz nawet tego ¶wiñstwa do rêki. 
+~
+Comments ~
+Objend
+#Vnum 33009
+Name pier¶cieñ skarabeusz~
+Odmiana {Cpier¶cienia ze skarabeuszem{x~{Cpier¶cieniowi ze skarabeuszem{x~{Cpier¶cieñ ze skarabeuszem{x~{Cpier¶cieniem ze skarabeuszem{x~{Cpier¶cieniu ze skarabeuszem{x~
+Short {Cpier¶cieñ ze skarabeuszem{x~
+Descr Dziwny pier¶cieñ w kszta³cie chrz±szcza le¿y tutaj.~
+Material szk³o~
+Type jewelry
+ExtraExt 0|AGK
+Wear AB
+Wear2Ext 0|DKM
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 11100
+Cond 100
+Aff 1 13 -8 0 0 0
+Aff 1 12 5 -5 0 0
+Aff 1 27 1 1 0 0
+Aff 1 30 8 0 0 0
+Itemdesc Pier¶cieñ ten jest niezwyk³y z dwóch powodów: po pierwsze jego ozdobê
+stanowi nietypowo wygl±daj±cy chrz±szcz, po drugie ca³y pier¶cieñ wykonano z
+jednego kawa³ka szk³a. Dlatego lepiej obchodziæ siê z nim ostro¿nie. 
+~
+Identdesc Pier¶cieñ ten jest magicznym przedmiotem, który zwiêksza szczê¶cie
+nosz±cego, a tak¿e pozwala zapamiêtaæ wiêcej czarów z 1 krêgu. Zwiêksza on
+tak¿e podatno¶æ nosz±cej go osoby na ataki oparte na ogniu. Pier¶cienia ze
+skarabeuszem nie mog± u¿ywaæ osoby o z³ym charakterze. 
+~
+Comments ~
+Objend
+#Vnum 33010
+Name sarkofag zniszczony~
+Odmiana sarkofagu~sarkofagowi~sarkofag~sarkofagiem~sarkofagu~
+Short potrzaskany sarkofag~
+Descr Le¿y tutaj zniszczony sarkofag ze strzaskanym wiekiem.~
+Material marmur~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10000 0 0 1000 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 30000
+Cost 60
+Cond 10
+Itemdesc Musia³ to byæ zapewne piêkny i okaza³y sarkofag. W tej chwili jednak
+marmurowe p³yty s± popêkane i potrzaskane, wszêdzie widaæ ¶lady dzia³ania
+czasu, wilgoci i pewnie kilku innych jeszcze czynników. 
+~
+Comments ~
+Objend
+#Vnum 33011
+Name wnêka~
+Odmiana wnêki~wnêce~wnêkê~wnêk±~wnêce~
+Short wnêka w ¶cianie~
+Descr W ¶cianê wbudowana jest niewielka wnêka.~
+Material stal~
+Type container
+ExtraExt 0|DF
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 10000 271 33023 10000 100 37 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 100
+Itemdesc Jest to niezbyt du¿a wnêka w ¶cianie, zamkniêta solidnymi, metalowymi
+drzwiczkami. S±dz±c po rozmiarach zamka pasuje do nich do¶æ nietypowy klucz.
+Ciekawe co znajduje siê w ¶rodku? 
+~
+Comments ~
+Trap 33000
+Objend
+#Vnum 33015
+Name cialo wojownika goblinskiego~
+Odmiana cia³a~cia³u~cia³o~cia³em~ciele~
+Short cia³o wojownika goblinów~
+Descr Zmasakrowane cia³o gobliñskiego wojownika le¿y tutaj.~
+Material nieznany~
+Type npc_corpse
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 750
+Cost 0
+Cond 10
+Itemdesc S±dz±c po szerokich i d³ugich ranach, ten goblin zgin±³ stosunkowo
+szybko. Na jego niesympatycznej gêbie widzisz zastyg³y wyraz bezgranicznego
+przera¿enia, dobrze widoczny mimo zniekszta³conych rysów twarzy. Nagle
+przychodzi ci do g³owy, ¿e warto zastanowiæ siê, kto lub co wykoñczy³o tak
+bezb³êdnie tê zielon± paskudê. 
+~
+Comments ~
+Objend
+#Vnum 33016
+Name korona z³ota b³yszcz±ca piêkna~
+Odmiana korony~koronie~koronê~koron±~koronie~
+Short {Yz³ota korona{x~
+Descr {YNa ziemi le¿y piêkna, b³yszcz±ca z³ota korona.{x~
+Material z³oto~
+Type jewelry
+ExtraExt 0|AGS
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 450000
+Cond 100
+Aff 1 29 12 0 0 0
+Aff 1 14 5 0 0 0
+Aff 1 27 4 1 0 0
+Aff 1 27 5 1 0 0
+Extradesc _opiswygladu~
+$n ma na g³owie przecudown±, skrz±c± siê i migocz±c± od drogich kamieni
+z³ot± koronê. Wra¿enie, jakie wywiera na tobie $n w tej koronie dziwi nawet
+ciebie, dos³ownie masz ochotê przyklêkn±æ przed $v, a potem pasc do $s nóg. 
+~
+Itemdesc Jest to niew±tpliwie bardzo cenny, a przy tym piêkny przedmiot. Korona
+zrobiona jest z masywnego, ciê¿kiego z³ota i bogato rze¼biona, w jakie¶
+dziwne, barbarzyñskie wzory. Z przodu osadzonych jest w niej kilkana¶cie
+ma³ych diamentów, szafirów i topazów, które skrz± siê wspaniale. 
+~
+Identdesc Korona jest magicznym przedmiotem, który podnosi charyzmê swego
+w³a¶ciciela, a ponadto pozwala zapmiêtaæ o jedno zaklêcie z 5 krêgu wiêcej.
+Przedmiot ten ¶wieci w³asnym, magicznym ¶wiat³em. 
+~
+Comments aktualizacja charyzmy - nowe staty - {RGorst{x ({CWed May  8 04:34:54 2013{x)
+~
+Objend
+#Vnum 33017
+Name fiolka ¶wiec±ca fosforyzuj±ca szklana~
+Odmiana fiolki ze ¶wiec±cym p³ynem~fiolce ze ¶wiec±cym p³ynem~fiolkê ze ¶wiec±cym p³ynem~fiolk± ze ¶wiec±cym p³ynem~fiolce ze ¶wiec±cym p³ynem~
+Short fiolka ze ¶wiec±cym p³ynem~
+Descr Spoczywa tutaj fosforyzuj±ca jasno szklana fiolka z jak±¶ ciecz±.~
+Material szk³o~
+Type light
+ExtraExt 0|AU
+Wear AR
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 0 5 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 55
+Cond 100
+Itemdesc Fiolka ma niewielkie rozmiary, za to ¶wieci ca³kiem intensywnie. P³yn w
+jej wnêtrzu przypomina konsystencj± miód, ale najniezwyklejsz± jego cech±
+jest to, ¿e wydziela on zimne, ale jasne ¶wiat³o. Wygl±da to tak
+interesuj±co, ¿e przez d³u¿sz± chwilê po prostu gapisz siê na fiolkê i
+poruszasz ni±, obserwuj±c przelewaj±cy siê wewn±trz p³yn. Fiolka zamkniêta
+jest szklanym korkiem, który kto¶ dok³adnie obla³ woskiem czy inn± podobn±
+substancj±, jakby chc±c fiolkê uszczelniæ. 
+~
+Identdesc Fiolka ta mo¿e wytwarzaæ ¶wiat³o tak¿e pod wod±.
+~
+Comments ~
+Objend
+#Vnum 33019
+Name onyksowy amulet prastary~
+Odmiana amuletu~amuletowi~amulet~amuletem~amulecie~
+Short onyksowy amulet~
+Descr Prastary amulet pokryty runami le¿y tutaj.~
+Material kamieñ~
+Type jewelry
+ExtraExt 0|CDEGMZ
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 0
+Cond 100
+Aff 1 3 -1 0 0 0
+Aff 1 24 3 0 0 0
+Aff 1 30 -3 0 0 0
+Itemdesc Patrzysz z niedowierzaniem na wisior, który znajduje siê przed tob±. Na
+grubym pasie skóry wisi przedziurawiony w ¶rodku okr±g. Przygl±daj±c pasowi
+skóry szybko odrzucasz od siebie amulet. Jest to niczym nie impregnowana i
+nie wyprawiona ludzka, gnij±ca skóra. Jej s³odkawy odór roznosi siê na kilka
+metrów. Z oddali widzisz robaki, które pe³zaj± leniwie w¶ród jej fa³dów.
+Wisior natomiast zrobiony jest z jednolitego kawa³ka onyksu. Na ca³ej jego
+powierzchni, z obu stron widniej± jakie¶ znaki. S± to staro¿ytne runy.
+Prze³amuj±c obrzydzenie podnosisz jeszcze raz amulet, aby przyjrzeæ siê
+dok³adniej wyrytym znakom. Nie jeste¶ w stanie jednak zrozumieæ ani s³owa,
+ani jednej litery. Na ¶rodku okrêgu, w wywierconej dziurze osadzony jest
+malutki kawa³ek ciemno¿ó³tego kryszta³u. Emanuje on zgni³ym blaskiem ra¿±c
+twe oczy. Czujesz p³yn±c± z tego przedmiotu magiczn± moc. 
+~
+Identdesc Amulet ten jest ob³o¿ony siln± kl±tw±, przez co obni¿a szczê¶cie i
+inteligencjê nosz±cej go osoby, a tak¿e zwiêksza jej podatno¶æ na czary. 
+~
+Comments ~
+Objend
+#Vnum 33023
+Name klucz diamentowy~
+Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
+Short {Wdiamentowy klucz{x~
+Descr B³yszcz±cy jasno klucz, magicznie wyrze¼biony z diamentu.~
+Material diament~
+Type key
+ExtraExt 0|Ad
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 33068
+Name laska magiczna~
+Odmiana laski~lasce~laskê~lask±~lasce~
+Short magiczna laska Deggiala~
+Descr Magiczna laska Deggiala czeka na swego prawowitego w³a¶ciciela.~
+Material mithril~
+Type weapon
+ExtraExt 0|CDEGH
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 9 3 6 7 0 2 2
+Repair 0 0 0 0
+Length 130
+Weight 55
+Cost 60
+Cond 100
+Aff 0 13 0 0 1 J
+Aff 0 13 0 0 1 K
+Aff 0 13 0 0 0 Z
+Aff 0 13 0 0 0 F
+Aff 0 13 0 0 0 D
+Itemdesc Tê laskê Deggial wykona³, gdy zorientowa³ siê, ¿e HOLYLIGHT nie zawsze
+ujawnia to, co niewidzialne i ukryte. Poza tym ten u¿yteczny przedmiot
+przydaje siê Deggialowi do testowania si³y mobów, dziêki swym przyzwoitym
+"kostkom" Deggial mo¿e napierdalaæ w mobiki jak barbarian bez konieczno¶ci
+³adowania kopii "Bitewnego Za¶piewu" :-) 
+~
+Comments ~
+Objend
+#Vnum 33069
+Name portal czarny czarna tafla gladka~
+Odmiana {Dportalu{x~{Dportalowi{x~{Dportal{x~{Dportalem{x~{Dportalu{x~
+Short {Dportal{x~
+Descr {DIdealnie g³adka, czarna tafla portalu osadzona w srebrze wisi w powietrzu.{x~
+Material srebro~
+Type portal
+ExtraExt 0|CDG
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 6611 9394 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 0
+Cond 100
+Itemdesc Powierzchnia portalu najbardziej chyba przypomina g³adk±, gêst± smo³ê,
+która nieustannie przelewa siê, tworz±c na swojej powierzchni pó³koliste
+bruzdy i zarysowania. Chwilami masz wra¿enie, ¿e jest to twarda i mocna
+powierzchnia, ale wiesz, ¿e w rzeczywisto¶ci portal to nic innego jak
+ca³kowicie niematerialny wlot do jednego z magicznych korytarzy, otwartego i
+ustabilizowanego przez jakiego¶ nieznanego ci z imienia maga. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 33000
+Name Skalny szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 15991
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 15991
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33001
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33001
+Name Skalny szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33000
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33000
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33002
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33002
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33002
+Name W szybie~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33001
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33001
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33003
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33003
+Name W szybie~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33002
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33002
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33004
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33004
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33004
+Name W skalnym szybie~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33003
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33003
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33005
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33005
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33005
+Name Ciasny szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33004
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33004
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33006
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33006
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33006
+Name Szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33005
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33005
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33007
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33007
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33007
+Name Szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33006
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33006
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33008
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33008
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33008
+Name Dno szybu~
+Descr Uff, w tym miejscu przynajmniej mo¿na spokojnie i pewnie stan±æ, bez
+obawy osuniêcia siê w dó³ i bez tego nerwowego napiêcia, towarzysz±cego
+wspinaczce. Widzisz ponad sob± d³ugi wykuty w skale komin, natomiast na
+pó³nocy jest jaki¶ tunel, prowadz±cy w niewiadom±. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33009
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33009
+ExitExt 4
+ExitExtDescription ~
+ExitExtTextOut $n spogl±da w górê z rezygnacj±, po czym zaczyna siê wspinaæ.~
+ExitExtTextIn Sypie siê na ciebie trochê ¿wiru i po chwili $n nadchodzi z góry.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33007
+ExitExtEnd
+Exit 4
+~
+TextOut $n spogl±da w górê z rezygnacj±, po czym zaczyna siê wspinaæ.~
+TextIn Sypie siê na ciebie trochê ¿wiru i po chwili $n nadchodzi z góry.~
+~
+0 0 33007
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33009
+Name Zakrêt podziemnego tunelu~
+Descr W tym miejscu dawny szyb zosta³ zast±piony przez biegn±cy w miarê
+poziomo, zakrêcony tunel. Pod³ogê pokrywa gruba warstwa odchodów nietoperzy,
+kiedy zadzierasz g³owê do góry widzisz kilka przyczepionych wysoko na
+suficie. Masz nadziejê, ¿e nie s± to nietoperze-wampiry. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33010
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33010
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33008
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33010
+Name Szyb do wnêtrza ziemi~
+Descr Po raz kolejny stoisz przed trudn± decyzj±: korytarz urywa siê tu nagle i
+zamienia w biegn±cy pod du¿ym k±tem, niemal pionowo w dó³, szyb. Próbujesz
+po¶wieciæ sobie nieco, ¿eby oceniæ jego g³êboko¶æ, ale bezskutecznie - dna
+nie widaæ. Jedynie czarna pustka majaczy poni¿ej. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33009
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33009
+ExitExt 5
+ExitExtDescription ~
+ExitExtTextOut $n zaczyna szybko spuszczaæ siê szybem w dó³.~
+ExitExtTextIn Nagle z szybu wynurza siê g³owa $z.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33011
+ExitExtEnd
+Exit 5
+~
+TextOut $n zaczyna szybko spuszczaæ siê szybem w dó³.~
+TextIn Nagle z szybu wynurza siê g³owa $z.~
+~
+0 0 33011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33011
+Name Szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33010
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33010
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33012
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33012
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33012
+Name G³êboko w trzewiach ziemi~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33011
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33011
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33013
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33013
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33013
+Name Szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu.
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33012
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33012
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33014
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33014
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33014
+Name Ciasny szyb~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33013
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33013
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33015
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33015
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33015
+Name G³êboko w trzewiach ziemi~
+Descr Przemieszczasz siê wewn±trz szybu, wydr±¿onego w ziemi. Trudno jest ci
+oceniæ jego g³êboko¶æ, ale z pewno¶ci± p³ytki nie jest, bowiem nie tylko nie
+widzisz dna, ale nawet mimowolnie spuszczane przez ciebie w dó³ kamyczki
+lec± bardzo d³ugo w dó³, odg³osu ich uderzenia o dno prawie nie s³yszysz.
+Masz irracjonalne wra¿enie, ¿e ¶ciany napieraj± na ciebie, a stromizna wci±¿
+ro¶nie, niebezpiecznie zbli¿aj±c siê do pionu. 
+~
+FlagsExt 0|NY
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33014
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33014
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33016
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33016
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33016
+Name Ponad pustk±~
+Descr Szyb koñczy siê tutaj niespodziewanie. W dole nie widzisz nic, poza
+czarn± i zimn± pustk±. Decyzja, czy skoczyæ w dó³ czy nie nale¿y do ciebie.
+Jednak lepiej dobrze siê zastanów, bo potem mo¿esz ju¿ nie wróciæ na
+powierzchniê... 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33015
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33015
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33017
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33017
+Name Po¶ród ko¶ci i ¶mieci~
+Descr Niespodziewanie l±dujesz w bardzo zimnym i ciemnym miejscu. Kiedy
+pobie¿nie rozgl±dasz siê dooko³a, widzisz kupê ¶mieci, po³amanych i
+zardzewia³ych sprzêtów, ale nade wszystko kilkana¶cie niekompletnych
+szkieletów, jakie¶ pokruszone ko¶ci, kawa³ki drewna i metalu oraz gruz,
+piach i kamienie. Po chwili zdajesz sobie sprawê, ¿e jeste¶ chyba w jakiej¶
+wielkiej, ciemnej sali. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33020
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33020
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33018
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33018
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33021
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33019
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33018
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi. Na wschodzie widzisz szerokie
+wej¶cie do jakiego¶ korytarza. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33023
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33023
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33024
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33024
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33022
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33022
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33017
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33017
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33019
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi. 
+~
+Nightdescr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33025
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33025
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33017
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33017
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33026
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33026
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33020
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest Ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33023
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33023
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33017
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33017
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33025
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33025
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33021
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest Ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33017
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33017
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33022
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33022
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33026
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33026
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33022
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest Ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33018
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33018
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33021
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33021
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33023
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest Ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33018
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33018
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33020
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33020
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33024
+Name Szeroki korytarz~
+Descr Idziesz typowym, prostym korytarzem wykutym w skale. Jedyn± cech±
+niezwyk³± s± jego rozmiary, musisz przyznaæ ze naprawdê imponuj±ce. Zapewne
+wykucie tego korytarza zajê³o lata, je¶li nie dziesi±tki lat. Ciekawe czy
+zrobi³y to krasnoludy czy przedstawiciele innej rasy? 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33027
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33027
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33018
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33018
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33025
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest Ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi. 
+~
+FlagsExt 0|CN
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33020
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33020
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33019
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33026
+Name Wielka hala~
+Descr Jest to ogromnych rozmiarów pomieszczenie, ze wzglêdu na panuj±ce
+ciemno¶ci trudno jest Ci dok³adnie oceniæ jak du¿e, ale z pewno¶ci± liczy
+sobie co najmniej kilkadziesi±t metrów d³ugo¶ci i szeroko¶ci oraz
+kilkana¶cie wysoko¶ci. Wszystko tutaj zrobione jest z jednakowej barwy,
+szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
+nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
+stêchlizna, typowa dla piwnic czy podziemi. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33019
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33019
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33021
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33021
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33027
+Name Korytarz przy stra¿nicach~
+Descr Idziesz typowym, prostym korytarzem wykutym w skale. Jedyn± cech±
+niezwyk³± s± jego rozmiary, musisz przyznaæ ze naprawdê imponuj±ce. Zapewne
+wykucie tego korytarza zajê³o lata, je¶li nie dziesi±tki lat. Ciekawe czy
+zrobi³y to krasnoludy czy przedstawiciele innej rasy? Na pó³nocy i po³udniu
+widzisz niewielki odnogi, prowadz±ce do czego¶ w rodzaju nisz w ¶cianach. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33028
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33028
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33030
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33030
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33029
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33029
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33024
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33024
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33028
+Name Stra¿nica~
+Descr S± tutaj resztki starej stra¿nicy czy te¿ punktu kontrolnego, który
+chroni³ niegdy¶ pobliski korytarz. Obecno¶æ takiej budowli ¶wiadczy o tym,
+¿e niegdy¶ musia³o byæ tutaj ludne i têtni±ce ¿yciem podziemne miasto.
+Kiedy¶... Bo teraz ruiny nie na darmo nosz± miano Nawiedzonych Hal. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33027
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33027
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33029
+Name Stra¿nica~
+Descr S± tutaj resztki starej stra¿nicy czy te¿ punktu kontrolnego, który
+chroni³ niegdy¶ pobliski korytarz. Obecno¶æ takiej budowli ¶wiadczy o tym,
+¿e niegdy¶ musia³o byæ tutaj ludne i têtni±ce ¿yciem podziemne miasto.
+Kiedy¶... Bo teraz ruiny nie na darmo nosz± miano Nawiedzonych Hal. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33027
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33027
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33030
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj. Na zachodzie widzisz wej¶cie do jakiego¶ szerokiego korytarza. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33038
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33038
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33031
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33031
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33032
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33032
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33027
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33027
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33031
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33034
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33034
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33035
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33035
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33033
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33033
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33030
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33030
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33032
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj. Wydaje ci siê, ¿e na po³udniu jest jakie¶ mniejsze, boczne
+pomieszczenie. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33030
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33030
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33033
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33033
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33039
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33039
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33033
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33031
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33031
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33037
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33037
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33032
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33034
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33036
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33036
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33031
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33031
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33038
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33038
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33035
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33036
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33036
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33037
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33037
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33031
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33031
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33036
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33035
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33035
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33034
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33034
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33037
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33035
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33035
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33033
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33033
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33038
+Name Sala kolumnowa~
+Descr Sufit tej sali podparty jest dziesi±tkami, nie, setkami kolumn. Maj± one
+przekrój kwadratu, a ich zwieñczenia nikn± gdzie¶ w mroku. Niektóre kolumny
+zosta³y zniszczone i teraz le¿± powalone u twoich stóp. Wygl±d tego
+pomieszczenia sprawia, ¿e trudno zachowaæ tutaj orientacjê, dlatego lepiej
+siê pilnuj.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33034
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33034
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33030
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33030
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33039
+Name Boczna hala~
+Descr Ta hala jest du¿o mniejsza, a przede wszystkim ni¿sza od pozosta³ych.
+Kamienie dooko³a nie stanowi± zbyt pasjonuj±cego widoku, dlatego ze
+znu¿eniem odwracasz wzrok, kiedy spogl±dasz po raz kolejny na te same,
+jednolicie szare ¶ciany i posadzki.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33032
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33032
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33042
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33042
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33040
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33040
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33041
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33041
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33040
+Name Boczna hala~
+Descr Ta hala jest du¿o mniejsza, a przede wszystkim ni¿sza od pozosta³ych.
+Kamienie dooko³a nie stanowi± zbyt pasjonuj±cego widoku, dlatego ze
+znu¿eniem odwracasz wzrok, kiedy spogl±dasz po raz kolejny na te same,
+jednolicie szare ¶ciany i posadzki. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33039
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33039
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33044
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33044
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33046
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33046
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33041
+Name Boczna hala~
+Descr Ta hala jest du¿o mniejsza, a przede wszystkim ni¿sza od pozosta³ych.
+Kamienie dooko³a nie stanowi± zbyt pasjonuj±cego widoku, dlatego ze
+znu¿eniem odwracasz wzrok, kiedy spogl±dasz po raz kolejny na te same,
+jednolicie szare ¶ciany i posadzki.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33039
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33039
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33046
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33046
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33042
+Name Boczna hala~
+Descr Ta hala jest du¿o mniejsza, a przede wszystkim ni¿sza od pozosta³ych.
+Kamienie dooko³a nie stanowi± zbyt pasjonuj±cego widoku, dlatego ze
+znu¿eniem odwracasz wzrok, kiedy spogl±dasz po raz kolejny na te same,
+jednolicie szare ¶ciany i posadzki.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33043
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33043
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33044
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33044
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33039
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33039
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33043
+Name Boczna hala~
+Descr Ta hala jest du¿o mniejsza, a przede wszystkim ni¿sza od pozosta³ych.
+Kamienie dooko³a nie stanowi± zbyt pasjonuj±cego widoku, dlatego ze
+znu¿eniem odwracasz wzrok, kiedy spogl±dasz po raz kolejny na te same,
+jednolicie szare ¶ciany i posadzki. Na po³udniu dostrzegasz grupê
+ustawionych blisko siebie kolumn. Co¶ w ich wygl±dzie ci nie pasuje, ale
+sa<&m/ma/mo> dok³adnie nie wiesz co... 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription Twój szósty zmys³ ostrzega ciê, ¿e na po³udniu czai siê niebezpieczeñstwo!
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33045
+ExitExtEnd
+Exit 2
+Twój szósty zmys³ ostrzega ciê, ¿e na po³udniu czai siê niebezpieczeñstwo!
+~
+~
+0 0 33045
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33042
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33042
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33044
+Name Wyrwa w posadzce~
+Descr W tym miejscu dostrzegasz sporej wielko¶ci wyrwê w posadzce. Wygl±da jak
+zej¶cie na ni¿szy poziom podziemi. Zastanawiaj±ce jest tylko to, ¿e brzegi
+wyrwy wygl±daj± tak, jakby zosta³a ona przebita od do³u, a nie od góry.
+Ciekawe. Poza tym rozgl±daj±c siê dooko³a zauwa¿asz kilkana¶cie stoj±cych
+blisko siebie kamiennych kolumn na wschodzie. Wygl±daj± nader podejrzanie...
+~
+FlagsExt 0|N
+Sector 14
+Extra wyrwa~
+Wyrwa w posadzce wygl±da na wystarczaj±co szerok±, aby ka¿dy móg³
+swobodnie siê w ni± wcisn±æ. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33042
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33042
+ExitExt 1
+ExitExtDescription Twój szósty zmys³ ostrzega ciê, ¿e na wschodzie czai siê niebezpieczeñstwo!
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33045
+ExitExtEnd
+Exit 1
+Twój szósty zmys³ ostrzega ciê, ¿e na wschodzie czai siê niebezpieczeñstwo!
+~
+~
+0 0 33045
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33040
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33040
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Wyrwa~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33047
+ExitExtEnd
+Exit 5
+~
+VName Wyrwa~
+~
+0 0 33047
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33045
+Name Miêdzy dziwnymi kolumnami~
+Descr Wchodzisz miêdzy grupê kwadratowych w przekroju, kamiennych kolumn. Od
+razu wyczuwasz, ¿e co¶ jest tutaj nie w porz±dku - wszystkie one maj± co
+kilka centrymetrów dziwne ciemne plamy. W twoim umy¶le b³yska jedna my¶l -
+uciekaj! , ale jest ju¿ za pó¼no. Z kolumn niespodziewanie wysuwaj± siê
+setki i tysi±ce stalowych, zaostrzonych prêtów. Gasn±cym wzrokiem ogarniasz
+swoje podziurawione jak sito, zmasakrowane cia³o... 
+~
+FlagsExt 0|CN
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33043
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33043
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33044
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33044
+Roomprog entry death_trap 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33046
+Name Boczna hala~
+Descr Ta hala jest du¿o mniejsza, a przede wszystkim ni¿sza od pozosta³ych.
+Kamienie dooko³a nie stanowi± zbyt pasjonuj±cego widoku, dlatego ze
+znu¿eniem odwracasz wzrok, kiedy spogl±dasz po raz kolejny na te same,
+jednolicie szare ¶ciany i posadzki. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33041
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33041
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33040
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33040
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33047
+Name Stromy tunel~
+Descr Jeste¶ w zwyk³ym ziemnym tunelu. Jest on najwyra¼niej przebity
+amatorskimi metodami, ani sufit ani ¶ciany nie s± wzmocnione drewnianymi
+stemplami. Najwyra¼niej kto¶, wiedz±c o istnieniu drugiego, ni¿szego poziomu
+hal chcia³ siê koniecznie tam dostaæ. A ¿e nie móg³ znale¼æ normalnego
+wej¶cia to wykopa³ ten tunel.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtVName Wyrwa~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33044
+ExitExtEnd
+Exit 4
+~
+VName Wyrwa~
+~
+0 0 33044
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33048
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33048
+Name Ciasny tunel~
+Descr Jeste¶ w zwyk³ym ziemnym tunelu. Jest on najwyra¼niej przebity
+amatorskimi metodami, ani sufit ani ¶ciany nie s± wzmocnione drewnianymi
+stemplami. Najwyra¼niej kto¶, wiedz±c o istnieniu drugiego, ni¿szego poziomu
+hal chcia³ siê koniecznie tam dostaæ. A ¿e nie móg³ znale¼æ normalnego
+wej¶cia to wykopa³ ten tunel. Oczywi¶cie istnieje te¿ inna opcja. Co¶ z do³u
+przebi³o tunel, aby wydostaæ siê na górê...
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33049
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33049
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33047
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33047
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33049
+Name Tunel~
+Descr Jeste¶ w zwyk³ym ziemnym tunelu. Jest on najwyra¼niej przebity
+amatorskimi metodami, ani sufit ani ¶ciany nie s± wzmocnione drewnianymi
+stemplami. Najwyra¼niej kto¶, wiedz±c o istnieniu drugiego, ni¿szego poziomu
+hal chcia³ siê koniecznie tam dostaæ. A ¿e nie móg³ znale¼æ normalnego
+wej¶cia to wykopa³ ten tunel. Oczywi¶cie istnieje te¿ inna opcja. Co¶ z do³u
+przebi³o tunel, aby wydostaæ siê na górê... 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33048
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33048
+ExitExt 3
+ExitExtDescription Tunel na zachód st±d gwa³townie siê zwê¿a.
+~
+ExitExtLiczba 1
+ExitExtInfo 24576
+ExitExtKey 0
+ExitExtToVnum 33050
+ExitExtEnd
+Exit 3
+Tunel na zachód st±d gwa³townie siê zwê¿a.
+~
+~
+24576 0 33050
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33050
+Name Bardzo w±ski tunel~
+Descr W tym miejscu tunel zwê¿a siê wyra¼nie. Jego ¶ciany stanowi bowiem nie
+jak gdzie indziej ziemia, ale lita ska³a. Po prostu przy prymitywnych
+narzêdziach, jakich najprawdopodobniej u¿yto do jego wykopania poszerzenie
+go w tym miejscu by³o niemo¿liwe. Nie ma mowy, ¿eby w tym w±skim przej¶ciu
+zmie¶ci³y siê dwie osoby. 
+~
+FlagsExt 0|LNV
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 24576
+ExitExtKey 0
+ExitExtToVnum 33049
+ExitExtEnd
+Exit 1
+~
+~
+24576 0 33049
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33051
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 33051
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33051
+Name Wielka hala stra¿nicza~
+Descr Jest to ¶redniej wielko¶ci hala, jej sufit jest równie¿ zadziwiaj±co
+nisko, zaledwie jakie¶ osiem metrów ponad posadzk±. ¦ciany zdobione s±
+barbarzyñskimi w stylu, prostymi malowid³ami. Przedstawiaj± one nieco scen
+batalistycznych, ale dominuj±cym motywem s± stoj±cy jeden obok drugiego
+rycerze, jakby wartownicy czy stra¿nicy. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33053
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33053
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33050
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 33050
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33054
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33054
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33052
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33052
+Name Wielka hala stra¿nicza~
+Descr Jest to ¶redniej wielko¶ci hala, jej sufit jest równie¿ zadziwiaj±co
+nisko, zaledwie jakie¶ osiem metrów ponad posadzk±. ¦ciany zdobione s±
+barbarzyñskimi w stylu, prostymi malowid³ami. Przedstawiaj± one nieco scen
+batalistycznych, ale dominuj±cym motywem s± stoj±cy jeden obok drugiego
+rycerze, jakby wartownicy czy stra¿nicy.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33056
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33056
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33051
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33051
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33055
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33055
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33053
+Name Wielka hala stra¿nicza~
+Descr Jest to ¶redniej wielko¶ci hala, jej sufit jest równie¿ zadziwiaj±co
+nisko, zaledwie jakie¶ osiem metrów ponad posadzk±. ¦ciany zdobione s±
+barbarzyñskimi w stylu, prostymi malowid³ami. Przedstawiaj± one nieco scen
+batalistycznych, ale dominuj±cym motywem s± stoj±cy jeden obok drugiego
+rycerze, jakby wartownicy czy stra¿nicy.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33051
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33051
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33056
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33056
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33054
+Name Wielka hala stra¿nicza~
+Descr Jest to ¶redniej wielko¶ci hala, jej sufit jest równie¿ zadziwiaj±co
+nisko, zaledwie jakie¶ osiem metrów ponad posadzk±. ¦ciany zdobione s±
+barbarzyñskimi w stylu, prostymi malowid³ami. Przedstawiaj± one nieco scen
+batalistycznych, ale dominuj±cym motywem s± stoj±cy jeden obok drugiego
+rycerze, jakby wartownicy czy stra¿nicy.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33051
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33051
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33055
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33055
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33055
+Name Wielka hala stra¿nicza~
+Descr Jest to ¶redniej wielko¶ci hala, jej sufit jest równie¿ zadziwiaj±co
+nisko, zaledwie jakie¶ osiem metrów ponad posadzk±. ¦ciany zdobione s±
+barbarzyñskimi w stylu, prostymi malowid³ami. Przedstawiaj± one nieco scen
+batalistycznych, ale dominuj±cym motywem s± stoj±cy jeden obok drugiego
+rycerze, jakby wartownicy czy stra¿nicy.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33052
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33052
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33054
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33054
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33056
+Name Wielka hala stra¿nicza~
+Descr Jest to ¶redniej wielko¶ci hala, jej sufit jest równie¿ zadziwiaj±co
+nisko, zaledwie jakie¶ osiem metrów ponad posadzk±. ¦ciany zdobione s±
+barbarzyñskimi w stylu, prostymi malowid³ami. Przedstawiaj± one nieco scen
+batalistycznych, ale dominuj±cym motywem s± stoj±cy jeden obok drugiego
+rycerze, jakby wartownicy czy stra¿nicy.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33053
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33053
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33052
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33052
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33057
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33057
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33057
+Name W±ski korytarz~
+Descr Znajdujesz siê w typowym kamiennym korytarzu o prostej budowie. Korytarz
+ma przekrój postawionego na swym krótszym boku prostok±ta, ¶ciany, sufit i
+pod³oga wy³o¿one s± jednakowymi, kwadratowymi kamiennymi p³ytami bez ¿adnych
+ozdób. Na zachodzie widzisz wej¶cie do jakiego¶ niskiego pomieszczenia, obok
+w zawiasach wisz± zardzewia³e metalowe drzwiczki. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33078
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33078
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33056
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33056
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Krypta~
+ExitExtName drzwiczki~
+ExitExtLiczba 1
+ExitExtInfo 8195
+ExitExtKey 0
+ExitExtToVnum 33058
+ExitExtEnd
+Exit 3
+~
+VName Krypta~
+drzwiczki~
+8195 0 33058
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33058
+Name Stara krypta~
+Descr Jeste¶ w starej krypcie grobowej, wszêdzie widzisz kupy gruzu,
+przemieszane z kawa³kami drewna i mnóstwem ¶mieci oraz pajêczyn. Kiedy
+trochê rozgl±dasz siê dooko³a widzisz, ¿e sufit w tym pomieszczeniu wygl±da
+na nienaruszony, natomiast pod³oga jest w op³akanym stanie - ca³a spêkana i
+dziurawa jak sito. Na wschodzie widzisz wyj¶cie z krypty. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtName drzwiczki~
+ExitExtLiczba 1
+ExitExtInfo 8195
+ExitExtKey 0
+ExitExtToVnum 33057
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+drzwiczki~
+8195 0 33057
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33060
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33060
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33059
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33059
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33059
+Name Stara krypta~
+Descr Jeste¶ w starej krypcie grobowej, wszêdzie widzisz kupy gruzu,
+przemieszane z kawa³kami drewna i mnóstwem ¶mieci oraz pajêczyn. Kiedy
+trochê rozgl±dasz siê dooko³a widzisz, ¿e sufit w tym pomieszczeniu wygl±da
+na nienaruszony, natomiast pod³oga jest w op³akanym stanie - ca³a spêkana i
+dziurawa jak sito. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33058
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33058
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33061
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33060
+Name Stara krypta~
+Descr Jeste¶ w starej krypcie grobowej, wszêdzie widzisz kupy gruzu,
+przemieszane z kawa³kami drewna i mnóstwem ¶mieci oraz pajêczyn. Kiedy
+trochê rozgl±dasz siê dooko³a widzisz, ¿e sufit w tym pomieszczeniu wygl±da
+na nienaruszony, natomiast pod³oga jest w op³akanym stanie - ca³a spêkana i
+dziurawa jak sito. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33058
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33058
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33061
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33061
+Name Wilgotna krypta~
+Descr W tym miejscu pod³oga jest wilgotna, ca³a poro¶niêta mchem albo jakimi¶
+porostami, trudno dociec co to za ro¶liny. Dawniej by³ tu chyba naro¿nik
+krypty, ale teraz chyba ska³y siê przemie¶ci³y, w ka¿dym razie widzisz
+sporej wielko¶ci szczelinê w pod³odze, z której jedzie stêchlizn± oraz
+niezbyt szerok± rozpadlinê w po³udniowej skale. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33059
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33059
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33060
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33060
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Rozpadlina~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33100
+ExitExtEnd
+Exit 2
+~
+VName Rozpadlina~
+~
+0 0 33100
+ExitExt 5
+ExitExtDescription Widzisz czarn± taflê wody.
+~
+ExitExtLiczba 1
+ExitExtInfo 24576
+ExitExtKey 0
+ExitExtToVnum 33079
+ExitExtEnd
+Exit 5
+Widzisz czarn± taflê wody.
+~
+~
+24576 0 33079
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33062
+Name ¦lepa odnoga~
+Descr Ten korytarz jest nie tylko szeroki, ale tak¿e wysoki, tak wysoki, ¿e z
+trudem tylko dostrzegasz pokryty wyblak³ymi malowid³ami sufit. Na ¶cianach
+s± liczne p³askorze¼by i dziwaczne, niepokoj±ce motywy. Z kolei posadzka
+wykonana jest z ozdobnych p³ytek, bia³ych i czarnych, które kto¶ pracowicie
+u³o¿y³ w tajemnicze geometryczne wzory. W tym miejscu korytarz koñczy siê
+niespodziewanie, niewyg³adzona ¶ciana zdaje siê ¶wiadczyæ, ¿e roboty
+przerwane zosta³y gwa³townie i nagle. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33063
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33063
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33063
+Name Szeroki korytarz~
+Descr Ten korytarz jest nie tylko szeroki, ale tak¿e wysoki, tak wysoki, ¿e z
+trudem tylko dostrzegasz pokryty wyblak³ymi malowid³ami sufit. Na ¶cianach
+s± liczne p³askorze¼by i dziwaczne, niepokoj±ce motywy. Z kolei posadzka
+wykonana jest z ozdobnych p³ytek, bia³ych i czarnych, które kto¶ pracowicie
+u³o¿y³ w tajemnicze geometryczne wzory. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33064
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33064
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33078
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33078
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33062
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33062
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33064
+Name Zdobiony korytarz~
+Descr Ten korytarz jest nie tylko szeroki, ale tak¿e wysoki, tak wysoki, ¿e z
+trudem tylko dostrzegasz pokryty wyblak³ymi malowid³ami sufit. Na ¶cianach
+s± liczne p³askorze¼by i dziwaczne, niepokoj±ce motywy. Z kolei posadzka
+wykonana jest z ozdobnych p³ytek, bia³ych i czarnych, które kto¶ pracowicie
+u³o¿y³ w tajemnicze geometryczne wzory.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33065
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33065
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33063
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33063
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33065
+Name Koniec zdobionego freskami korytarza~
+Descr Ten korytarz jest nie tylko szeroki, ale tak¿e wysoki, tak wysoki, ¿e z
+trudem tylko dostrzegasz pokryty wyblak³ymi malowid³ami sufit. Na ¶cianach
+s± liczne p³askorze¼by i dziwaczne, niepokoj±ce motywy. Z kolei posadzka
+wykonana jest z ozdobnych p³ytek, bia³ych i czarnych, które kto¶ pracowicie
+u³o¿y³ w tajemnicze geometryczne wzory. Na pó³nocy jest chyba jakie¶ du¿e
+pomieszczenie. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33066
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33066
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33064
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33064
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33066
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci. Na po³udniu jest
+wyj¶cie do szerokiego korytarza. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33067
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33067
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33076
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33076
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33065
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33065
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33077
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33077
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33067
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33068
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33068
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33075
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33075
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33066
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33066
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33074
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33074
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33068
+Name Obsydianowy tron~
+Descr Jest to centralne miejsce tej ogromnej sali, znajduje siê tutaj ma³e
+kamienne podwy¿szenie, na nim za¶ stoi kamienny tron z obsydianu. Ca³e
+otoczenie i ten dziwny tron robi± na tobie raczej przygnêbiaj±ce wra¿enie.
+Jaka¶ nieuchwytna aura niepokoju unosi siê w powietrzu, uczucie to
+spotêgowane jest bij±c± z pó³nocy dziwn± magiczn± po¶wiat±... 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33069
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33069
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33072
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33072
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33067
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33067
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33073
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33073
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33069
+Name Magiczny portal~
+Descr W tym niezwyk³ym miejscu wyczuwasz wyra¼nie silne pole energii magicznej.
+I nic dziwnego, bowiem pod³oga pokryta jest dziwnymi symbolami i znakami, a
+tak¿e runami, jakich nigdy wcze¶niej nie mia³<&e¶/a¶/e¶> okazji widzieæ.
+Centralne miejsce zajmuje, w niepojêty sposób wisz±cy w powietrzu, magiczny
+portal. Ciekawe dok±d prowadzi? 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33071
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33071
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33068
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33068
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33070
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33070
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33070
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33069
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33069
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33073
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33073
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33071
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33072
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33072
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33069
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33069
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33072
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33071
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33071
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33075
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33075
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33068
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33068
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33073
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33070
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33070
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33068
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33068
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33074
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33074
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33074
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33073
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33073
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33067
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33067
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33077
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33077
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33075
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33072
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33072
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33076
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33076
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33067
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33067
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33076
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33075
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33075
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33066
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33066
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33077
+Name Sala tronowa~
+Descr Znajdujesz siê we wspania³ej, ogromnej sali. Nie masz ani cienia
+w±tpliwo¶ci, ¿e musi to byæ jedna z najwa¿niejszych sal w tym podziemnym
+kompleksie, prawdopodobnie sala tronowa. ¦wiadcz± o tym zniszczone, ale
+wci±¿ robi±ce du¿e wra¿enie zdobienia, a tak¿e kolumny, ustawione w rzêdach
+w ten sposób, aby robiæ na widzu wra¿enie w³asnej ma³o¶ci. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33074
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33074
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33066
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33066
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33078
+Name Zakrêt korytarza~
+Descr Znajdujesz siê w typowym kamiennym korytarzu o prostej budowie. Korytarz
+ma przekrój postawionego na swym krótszym boku prostok±ta, ¶ciany, sufit i
+pod³oga wy³o¿one s± jednakowymi, kwadratowymi kamiennymi p³ytami bez ¿adnych
+ozdób. Korytarz zakrêca w tym miejscu gwa³townie, jedna odnoga biegnie na
+po³udnie, a druga na zachód. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33057
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33057
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33063
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33063
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33079
+Name Zalane przej¶cie~
+Descr Posuwasz siê ostro¿nie ca³kowicie zalanym wod± korytarzem. Jego ¶ciany i
+sufit s± pokryte ciemnym nalotem, natomiast sama woda, choæ ciemna, jest
+prze¼roczysta, bowiem nie dociera tutaj naturalne ¶wiat³o, a co za tym idzie
+w wodzie nie kwitn± glony. 
+~
+FlagsExt 0|N
+Sector 34
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33080
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33080
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 24576
+ExitExtKey 0
+ExitExtToVnum 33061
+ExitExtEnd
+Exit 4
+~
+~
+24576 0 33061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33080
+Name Zalane przej¶cie~
+Descr Posuwasz siê ostro¿nie ca³kowicie zalanym wod± korytarzem. Jego ¶ciany i
+sufit s± pokryte ciemnym nalotem, natomiast sama woda, choæ ciemna, jest
+prze¼roczysta, bowiem nie dociera tutaj naturalne ¶wiat³o, a co za tym idzie
+w wodzie nie kwitn± glony.
+~
+FlagsExt 0|N
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33079
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33079
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33081
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33081
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33081
+Name Zalane przej¶cie~
+Descr Posuwasz siê ostro¿nie ca³kowicie zalanym wod± korytarzem. Jego ¶ciany i
+sufit s± pokryte ciemnym nalotem, natomiast sama woda, choæ ciemna, jest
+prze¼roczysta, bowiem nie dociera tutaj naturalne ¶wiat³o, a co za tym idzie
+w wodzie nie kwitn± glony.
+~
+FlagsExt 0|N
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33080
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33080
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33082
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33082
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33082
+Name Zalane przej¶cie~
+Descr Posuwasz siê ostro¿nie ca³kowicie zalanym wod± korytarzem. Jego ¶ciany i
+sufit s± pokryte ciemnym nalotem, natomiast sama woda, choæ ciemna, jest
+prze¼roczysta, bowiem nie dociera tutaj naturalne ¶wiat³o, a co za tym idzie
+w wodzie nie kwitn± glony. 
+~
+FlagsExt 0|N
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33081
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33081
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33090
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33090
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33083
+ExitExtEnd
+Exit 4
+~
+~
+8192 0 33083
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33083
+Name Mokre schody~
+Descr Jeste¶ na schodach, które w swojej dolnej czê¶ci zanurzone s± w zimnej i
+ciemnej wodzie. Najwyra¼niej natomiast prowadz± w górê, do jakiego¶
+pomieszczenia. Twoj± uwagê natychmiast zwraca niesamowity, wrêcz powalaj±cy
+i odbieraj±cy zmys³y smród, który stamt±d dobiega. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33084
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33084
+ExitExt 5
+ExitExtDescription Widzisz czarn± taflê wody.
+~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33082
+ExitExtEnd
+Exit 5
+Widzisz czarn± taflê wody.
+~
+~
+8192 0 33082
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33084
+Name ¦liskie schody~
+Descr Jeste¶ na schodach, które w swojej dolnej czê¶ci zanurzone s± w zimnej i
+ciemnej wodzie. Najwyra¼niej natomiast prowadz± w górê, do jakiego¶
+pomieszczenia. Twoj± uwagê natychmiast zwraca niesamowity, wrêcz powalaj±cy
+i odbieraj±cy zmys³y smród, który stamt±d dobiega. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33085
+ExitExtEnd
+Exit 4
+~
+~
+0 0 33085
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33083
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33083
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33085
+Name Krypta rozk³adu~
+Descr Jeste¶ w niskim i ciemnym pomieszczeniu w kszta³cie równoramiennego
+krzy¿a. Najprawdopodobniej jest to stara krypta grobowa. ¦mierdzi tutaj
+niesamowicie rozk³adaj±cym siê miêsem, masz wra¿enie ¿e dos³ownie trupi jad
+sp³ywa po ¶cianach i kapie na ciebie. 
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33086
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33086
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33088
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 33088
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33089
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33089
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33087
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33087
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33084
+ExitExtEnd
+Exit 5
+~
+~
+0 0 33084
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33086
+Name Krypta rozk³adu~
+Descr Jeste¶ w niskim i ciemnym pomieszczeniu w kszta³cie równoramiennego
+krzy¿a. Najprawdopodobniej jest to stara krypta grobowa. ¦mierdzi tutaj
+niesamowicie rozk³adaj±cym siê miêsem, masz wra¿enie ¿e dos³ownie trupi jad
+sp³ywa po ¶cianach i kapie na ciebie.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33085
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33085
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33087
+Name Krypta rozk³adu~
+Descr Jeste¶ w niskim i ciemnym pomieszczeniu w kszta³cie równoramiennego
+krzy¿a. Najprawdopodobniej jest to stara krypta grobowa. ¦mierdzi tutaj
+niesamowicie rozk³adaj±cym siê miêsem, masz wra¿enie ¿e dos³ownie trupi jad
+sp³ywa po ¶cianach i kapie na ciebie.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33085
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33085
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33088
+Name Krypta rozk³adu~
+Descr Jeste¶ w niskim i ciemnym pomieszczeniu w kszta³cie równoramiennego
+krzy¿a. Najprawdopodobniej jest to stara krypta grobowa. ¦mierdzi tutaj
+niesamowicie rozk³adaj±cym siê miêsem, masz wra¿enie ¿e dos³ownie trupi jad
+sp³ywa po ¶cianach i kapie na ciebie.
+~
+FlagsExt 0|CGHN
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33085
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 33085
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33089
+Name Krypta rozk³adu~
+Descr Jeste¶ w niskim i ciemnym pomieszczeniu w kszta³cie równoramiennego
+krzy¿a. Najprawdopodobniej jest to stara krypta grobowa. ¦mierdzi tutaj
+niesamowicie rozk³adaj±cym siê miêsem, masz wra¿enie ¿e dos³ownie trupi jad
+sp³ywa po ¶cianach i kapie na ciebie.
+~
+FlagsExt 0|N
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33085
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33085
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33090
+Name Zalany korytarz~
+Descr Posuwasz siê ostro¿nie ca³kowicie zalanym wod± korytarzem. Jego ¶ciany i
+sufit s± pokryte ciemnym nalotem, natomiast sama woda, choæ ciemna, jest
+prze¼roczysta, bowiem nie dociera tutaj naturalne ¶wiat³o, a co za tym idzie
+w wodzie nie kwitn± glony. Na zachodzie korytarz rozszerza siê, prowadz±c do
+jakiego¶ du¿ego, tak¿e zalanego wod± pomieszczenia. 
+~
+FlagsExt 0|N
+Sector 34
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33082
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33082
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33091
+ExitExtEnd
+Exit 3
+~
+~
+8192 0 33091
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33091
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo. Na wschodzie widaæ jaki¶ zalany wod±
+korytarz. 
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33092
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33092
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 33090
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 33090
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33093
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33093
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33094
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33094
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33092
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo. 
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33091
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33091
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33095
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33095
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33093
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo.
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33091
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33091
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33096
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33096
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33094
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo. 
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33095
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33095
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33091
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33091
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33096
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33096
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33097
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33097
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33095
+Name Sucha hala~
+Descr Znajdujesz siê w hali, która jakim¶ cudem nie jest zalana tak jak reszta
+podziemi. Byæ mo¿e dlatego, ¿e znajduje siê wy¿ej. Widaæ wszystko by³o
+kiedy¶ czêsci± jakiego¶ kompleksu, a to pomieszczenie by³o po³o¿one do¶æ
+wysoko. Jest relatywnie nietkniête, chocia¿ w powietrzu czuæ stêchliznê
+wielu dziesi±tek lat. 
+~
+FlagsExt 0|Y
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33092
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33092
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33094
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33094
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33098
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33098
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33096
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo.
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33094
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33094
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33093
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33093
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33099
+ExitExtEnd
+Exit 3
+~
+~
+0 0 33099
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33097
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo. 
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33098
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33098
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33094
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33094
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33099
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33099
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33098
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo. 
+~
+FlagsExt 0|CY
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33095
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33095
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33097
+ExitExtEnd
+Exit 2
+~
+~
+0 0 33097
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33099
+Name Zalana hala~
+Descr Jeste¶ w du¿ej hali, podobnej do tych, jakie mia³<&e¶/a¶/e¶> okazjê mijaæ
+i ogl±daæ ju¿ wcze¶niej. Ró¿nica jednak polega na tym, ze ta hala od pod³ogi
+a¿ po sufit zalana jest wod±. Wod±, dodajmy, zimn± i ciemn±, choæ nie mêtn±.
+Mimo wszystko wra¿enie jest dosyæ mroczne i nieprzyjemne, w tym obcym dla
+siebie ¶rodowisku czujesz siê nieswojo.
+~
+FlagsExt 0|Y
+Sector 34
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33097
+ExitExtEnd
+Exit 0
+~
+~
+0 0 33097
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33096
+ExitExtEnd
+Exit 1
+~
+~
+0 0 33096
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 33100
+Name Rozpadlina w ¶cianie~
+Descr Jest tutaj niezwykle ciasno, tak ciasno, ¿e mimo i¿ pochylasz siê mocno,
+to jednak z najwy¿szym tylko trudem udaje ci siê tutaj obróciæ. Dopiero
+nieco g³êbiej rozpadlina trochê siê rozszerza, tworz±c co¶ w rodzaju skalnej
+jamy. 
+~
+FlagsExt 0|CJ
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Krypta~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 33061
+ExitExtEnd
+Exit 0
+~
+VName Krypta~
+~
+0 0 33061
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+M 33004 spec_poison
+M 33012 spec_poison
+S
+
+
+
+#RESETS
+M 100 33008 4 33009 4
+M 100 33008 4 33009 4
+M 100 33008 4 33009 4
+M 100 33008 4 33009 4
+O 100 33015 0 33017
+P 100 3179 1 33015 1
+M 100 33003 2 33018 2
+M 100 33006 4 33019 4
+M 100 33006 4 33027 4
+M 100 33005 4 33030 4
+M 100 33002 3 33031 3
+M 100 33005 4 33044 4
+M 100 33000 1 33045 1
+M 100 33006 4 33048 4
+M 100 33011 1 33051 1
+M 100 33003 2 33052 2
+O 100 33010 0 33058
+M 100 33007 3 33059 3
+M 100 33007 3 33060 3
+M 100 33007 3 33061 3
+M 100 33004 3 33062 3
+M 100 33002 3 33063 3
+M 45 33001 1 33068 1
+O 100 33069 0 33069
+M 100 33005 4 33070 4
+M 100 33013 1 33073 1
+M 100 33005 4 33075 4
+M 100 33002 3 33077 3
+M 100 33017 1 33078 1
+M 100 33009 1 33081 1
+M 100 33004 3 33085 3
+M 100 33006 4 33085 4
+M 100 33004 3 33088 3
+O 100 33011 0 33088
+M 100 33012 3 33092 3
+M 100 33012 3 33094 3
+M 75 33016 1 33098 1
+E 15 3172 0 16
+O 100 33010 0 33098
+M 100 33012 3 33099 3
+M 100 33010 1 33100 1
+G 100 33017 0
+S
+
+
+
+#MOBPROGSNEW
+#a_lich_onload
+~
+if rand 90
+  mob equip self 4377
+else
+  mob equip self 4378
+endif
+if rand 98
+mob equip self 29818
+endif
+ 
+if rand 98
+  mob oload 29701
+else
+  if rand 99
+    mob oload 29703
+  else
+    if rand 99
+      if rand 50
+        mob oload 29705
+      endif
+    endif
+  endif
+endif
+~
+#ancient_warrior
+~
+mob equip self 3029
+if rand 95
+mob equip self 3175
+else
+mob equip self 3175
+endif
+ 
+if rand 90
+mob oload head 5
+endif
+ 
+if rand 95
+mob oload neck 5
+endif
+ 
+if rand 99
+mob oload random 7
+endif
+ 
+wear all
+wield all
+~
+#groslug_onl
+~
+if rand 95
+  if canloadarte 33016
+mob aload 33016
+  endif
+endif
+
+if rand 90
+  mob oload 33002
+endif
+
+if rand 50
+  mob oload 33023
+endif
+
+Mob oload 29701
+if rand 80
+  mob oload 29701
+else
+  if rand 90
+    mob oload 29703
+  else
+    if rand 95
+      mob oload 29705
+      if rand 95
+        mob oload 29704
+        if rand 99
+          mob onload 29702
+        endif
+      endif
+    endif
+  endif
+endif
+
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 7
+mob oload gem 6
+mob oload gem 7
+mob oload gem 7
+mob oload gem 6
+mob oload gem 6
+mob oload gem 6
+mob oload gem 7
+if rand 50
+  mob oload gem 7
+endif
+if rand 50
+  mob oload gem 7
+endif
+
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload shield 7
+~
+#groszek_hilfe
+~
+if hasflag $i wezwal_helpa
+else
+mob echo Groslug wymawia dziwne s³owa, w jakim¶ pradawnym jêzyku.
+  delay 1
+mob echo {DCzujesz ciarki, kiedy mijaj± ciê wiry magicznej energi.{x
+  mob goto 33067
+  if !mobhere 33014
+    if rand 50
+      mob mload 33014
+    endif
+  endif
+  mob goto 33074
+  if !mobhere 33014
+    if rand 20
+      mob mload 33014
+    endif
+  endif
+  mob goto 33073
+  if !mobhere 33014
+    if rand 15
+      mob mload 33014
+    endif
+  endif
+  mob goto 33070
+  if !mobhere 33014
+    if rand 5
+      mob mload 33014
+    endif
+  endif
+  mob goto 33069
+  if !mobhere 33014
+    if rand 70
+      mob mload 33014
+    endif
+  endif
+  mob goto 33071
+  if !mobhere 33014
+    if rand 60
+      mob mload 33014
+    endif
+  endif
+  mob goto 33072
+  if !mobhere 33014
+    if rand 35
+      mob mload 33014
+    endif
+  endif
+  mob goto 33075
+  if !mobhere 33014
+    if rand 33
+      mob mload 33014
+    endif
+  endif
+  mob goto 33068
+  mob setflag $i wezwal_helpa 56
+kill $r
+endif
+~
+#kryptowiec_onl
+~
+if rand 50
+mob equip self 4377
+endif
+if rand 75
+mob equip self 3179
+endif
+if rand 95
+mob oload gem 4
+endif
+~
+#lich_onload
+~
+if rand 98
+  mob equip self 4377
+else
+  mob equip self 4378
+endif
+if canloadarte 33000
+  if rand 95
+    mob aload 33000
+  else
+    mob equip self 33019
+  endif
+endif
+wear all
+
+if rand 98
+  mob oload 29701
+else
+  if rand 99
+    mob oload 29703
+  else
+    if rand 99
+      if rand 50
+        mob oload 29705
+      endif
+    endif
+  endif
+endif
+~
+#load_siewca
+~
+mob addgroup 33015
+~
+#mumia_wdzianko
+~
+if rand 90
+mob equip self 33009
+endif
+~
+#nuuraglecz
+Prog, który leczy z feebleminda buildera, który testowal moby z tym
+czarem - rzuca restoration. 
+~
+if name $n Deggial
+mob cast restoration $n 30
+else
+say Spadaj cieciu, tylko moj pan mo¿e mi rozkazywac!
+wzr
+break
+endif
+~
+#upiorny_onload
+~
+if rand 90
+  mob oload finger 6
+else
+  if rand 60
+    mob oload finger 4
+  endif
+endif
+
+if rand 60
+  mob oload neck 4
+endif
+# LADOWANIE 3 WERSJI MIECZA DWURECZNEGO:
+
+if rand 98
+  if rand 40
+    if canloadarte 29050
+      mob aload 29050 w
+      end
+    endif
+  endif
+endif
+
+if rand 90
+and canloadarte 29063
+  mob aload 29063 w
+else
+  mob equip self 3148
+endif
+wear all
+wield all
+
+if rand 90
+  mob oload 172 w
+endif
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#death_trap
+~
+minidelay 1
+mob damage $n 5000 6000 ginglupcze
+~
+#0
+
+#TRAPS
+#Vnum 33000
+Active 1
+Level 5
+Type 65
+Triggered mob echoat $n Wk³adasz klucz do zamka i przekrêcasz go. W nastêpnej chwili widzisz, jak spod drzwiczek wnêki zaczyna wydobywaæ siê jaki¶ gêsty, ciemny ob³ok...
+mob echoaround $n $n wk³ada diamentowy klucz do zamka i przekrêca go. W nastêpnej chwili widzisz, jak spod drzwiczek wnêki zaczyna wydobywaæ siê jaki¶ gêsty, ciemny ob³ok...
+if rand 50
+  mob echoat $n Mimowolnie wdychasz pewn± ilo¶æ gazu i czujesz ze siê dusisz!
+  mob echoaround $n $n nie mo¿e z³apañ tchu, gaz zdaje siê mieæ dusz±ce w³a¶ciwo¶ci!
+  mob cast poison $r 25
+  mob damage $n 1000 2000 diemotherfucker
+else
+  mob echo Gaz rozprzestrzenia siê b³yskawicznie, chc±c nie chc±c wdychasz go trochê i czujesz jak momentalnie tracisz si³y...
+  mob cast poison $r 25
+  mob cast poison $r 25
+  mob damageex all 8 75 100
+endif
+code
+~
+Disarmed mob echoat $n Uwa¿nie przygl±dasz siê wnêce. Po chwili widzisz z boku drzwiczek niewielki zacisk, który zrêcznie zdejmujesz, przyciskaj±c jednocze¶nie drzwiczki drug± rêk±. Ze ¶rodka dobiega cichy trzask.
+mob echoaround $n $n uwa¿nie ogl±da wnêkê. Po chwili widzisz, jak manipuluje palcami w jednym miejscu, jednocze¶nie mocno naciskaj±c drzwiczki drug± rêk±. S³yszysz cichy trzask.
+~
+Failed mob echoat $n Uwa¿nie ogl±dasz wnêkê. Wydaje ci siê, ¿e wiesz ju¿ jak dzia³a ta pu³apka, pewnym ruchem naciskasz drzwiczki, jednocze¶nie manipuluj±c przy zacisku po ich prawej stronie. Niestety co¶ musia³<&e¶/a¶/e¶> zrobiæ ¼le, bo spod drzwiczek zaczyna wydobywaæ siê gêsty, czarny gaz...
+mob echoaround $n $n uwa¿nie ogl±da wnêkê. Po chwili widzisz jak $n grzebie palcem w jednym miejscu, jednocze¶nie mocno przyciskaj±c drzwiczki drug± rêk±. Przez chwilê nic siê nie dzieje, dopiero po chwili widzisz, jak spod drzwiczek wyp³ywa niewielka ilo¶æ gêstego, czarnego gazu...
+mob echo Gaz rozprzestrzenia siê b³yskawicznie, chc±c nie chc±c wdychasz go trochê i czujesz siê naprawdê ¼le...
+mob cast poison $r 25
+mob cast poison $r 25
+mob force $r kasz
+mob damageex all 8 75 100
+endif
+~
+Limit 1381910
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

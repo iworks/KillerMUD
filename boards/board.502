@@ -1,0 +1,73 @@
+Messages
+M950825168
+Agron~
+MUD Thu Feb 17 23:06:08 2000
+~
+Wprowadzajac zmiany do pierwotnego kodu muda chcielismy osiagnac jak najbardziej realistyczny swiat (a takze zblizyc sie konwencja do rpg AD&D), biorac pod uwage zarowno wyglad jak i mozliwosci , dlatego :
+- nie ma darmowego recalla
+- jest PK
+- czary trzeba zapamietywac
+- inny sposob uczenia sie
+- wprowadzone jezyki (krasnoludzki, elficki...)
+- randomowe przedmioty (oczywiscie nie wszystkie)
+- ---||----- moby w pisaniu
+{R Polecam komendy help i help killer {c Feerial{X
+~
+M950825216
+Agron~
+Uczenie sie Thu Feb 17 23:06:56 2000
+~
+Zmienione sa zasady uczenia sie skilli i spelli.
+Sa pewne okreslone osoby ktore ucza skilli i spelli, kazda z nich ma
+okreslone to czego dokladnie moze nauczyc. Tak wiec jakis kleryk moze
+nauczyc czarow kleryckich. mistrz magi moze uczyc czarow dla magow.
+Ale nalezy pamietac ze kazdy mob ma unikalne skille, spelle ktorych uczy
+Kazdego skilla lub spella mozna sie probowac nauczyc tylko raz na level, 
+tak wiec jesli nie udalo ci sie jakiegos nauczyc na 5levelu to na nastepna
+probe nauki musisz poczekac do nastepnego levelu.
+Spelli  uczy sie tylko raz, natomiast system nauki skilli jest troche inny.
+Skille maja wrtosci procentowe. Uzywajac skilla podczas grania podnosisz
+sobie prawdopodobienstwo ze podczas uczenia twoja w nim sprawnosc wzrosnie
+Wiec aby sie czegos nowego nauczyc lub podciagnac sobie skill ktorego uzywalismy nalezy udac sie do odpowiedniego nauczyciela, jest ich troche na mudzie i pisac 'learn'
+wtedy otrzymamy liste rzeczy ktorych mozemy sie nauczyc lub poduczyc.
+Nastepnie piszemy 'learn <nazwa skilla/spella>' lub po prostu 'learn all'.
+~
+M950825253
+Agron~
+Czary Thu Feb 17 23:07:33 2000
+~
+Zmieniony zostal system uzywania czarow.
+Teraz aby uzyc czru trzeba go najpierw zapamietac.
+Sluzy do tego polecenie MEMORIZE
+UZYCIE:
+memorize <nazwa czaru> <- dodanie czaru do listy zapamietywanych
+memorize stop <nazwa czaru> <- wymazanie czaru z listy zapamietywanych
+forget <nazwa czaru> <- wymazanie zapamietanego czaru
+automem <- wlaczenie opcji automatycznego zapamietywania czaru po jego rzuceniu
+memorize <- auktualny stan zapamietywanych i zapamietanych czarow
+Uwaga : czary zapamietyuje sie tylko w pozycji REST, w kazdej innej pozycji zapamietywanie nie jest kontynlowane.
+Oczywiscie powyzsze wynurzenia dotycza tylko klas czarujacych.
+Uwaga 2: gdy jakies czary sa aktualnie zapamietywane to w prompcie pojawia sie nowa komorka okreslajaca ilosc tikow potrzebna do calkowitego zapamietania aktualnie zadeklarowanych czarow
+Czary zostaly podzielone w inny sposob.
+Sa tzw. 'kregi czarow' (jak w AD&D), klerycy maja 9 ,a magowie 11 kregow.
+Kazdy krag to inny poziom magi....
+Kazda postac ma okreslona ilosc mozliwych do jednoczesnego zapamietania czarow z kazdego kregu...
+Agron
+~
+M951062243
+Agron~
+rent Sun Feb 20 16:57:23 2000
+~
+Wprowadzilismy w pewnych nam znanych tylko celach polecenie RENT.
+Sluzy ono do wychodzenia z muda....
+Czym sie rozni RENT od QUIT ???
+W naszej zmienionej wersji po wpisaniu polecenia QUIT postac normalnie wychodzi z gry....
+jednak wszystkie rzeczy ktore miala przy sobie spadaja na ziemie w miejscu w ktorym sie ostatnio znajdowala...
+Aby nie tracic sprzetu podczas wychodzenia z muda trzeba uzywac polecenia RENT.
+Mozna go uzywac w barach, gospodach... jest to nic innego jak wynajecie
+pokoju (przechowalni) na czas nieobecnosci na mudzie (postaci).
+Po uzyciu RENT widzimy cene dla kazdego przedmiotu i calkowita cene wszystkiego, jest to suma jaka musimy zaplacic za przechowywanie naszego sprzetu (jest to cena za jeden rzczywisty dzien przechowywania w RL).
+Czyli jesli nie bedzie nas przez trzy dni to cena*3....itd.....
+Agron
+~
+S

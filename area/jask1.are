@@ -1,0 +1,2055 @@
+#AREADATA
+Name +# Jaskinie ogrow~
+Builders Maro  Razor~
+VNUMs 15901 15950
+Locked ~
+Security 9
+ResetAge 20
+Region 100
+End
+
+
+
+#MOBILES
+#Vnum 15901
+Name wlochaty ogr~
+Odmiana wlochatego ogra~wlochatemu ogrowi~wlochatego ogra~wlochatym ogrem~wlochatym ogrze~
+Short wlochaty ogr~
+Long Wielki, wlochaty ogr stoi tutaj wypatrujac nowej ofiary.~
+Descr Zerkasz do gory zeby sie dobrze przyjrzec ogrowi. Imponujaca postura,
+muskularne ramiona, wielkie lapska zakonczone dlugimi, czarnymi od brudu
+pazurami. Nie bedzie latwo pokonac te bestie, na szczescie ogry nie sa
+obdarzone zbyt bystrym umyslem. 
+~
+Race ogr~
+ActExt 0|ABCFM
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang E
+Speaks 4
+Level 16
+Hitroll 3
+HP 9d10+450
+Damage 2d6+6
+Dammagic 0
+Weaponbonus 6
+Damflags 0
+Attack walenie
+XAC 0 0 0 0
+Stats 150 72 72 96 150 78 78
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AEFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 15902
+Name ogr wlochaty mag~
+Odmiana ogra maga~ogrowi magowi~ogra maga~ogrem magiem~ogrze magu~
+Short ogr mag~
+Long Wielki, wlochaty ogr stoi tutaj wypatrujac nowej ofiary.~
+Descr Wyglada tak jak kazdy ogr, potezna postura, wlochate cialo, ogromne kly
+wystajace z paszczy. Na szyi zawieszone ma kilka amuletow z jakichs rzemykow
+i kawalkow skor. Kiedy tak mu sie przygladasz napotykasz jego spojrzenie i
+przechodza cie ciarki. Nie jest to bezmyslne spojrzenie typowe dla ogrow, w
+jego oczach czai sie cos demonicznego. 
+~
+Race ogr~
+ActExt 0|ABCFMR
+Affected 33554440 0 0 0
+AffectedExt 0|DZ
+Align -1000
+Group 0
+Lang E
+Speaks 4
+Level 17
+Hitroll 4
+HP 9d10+450
+Damage 2d6+2
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walenie
+XAC 0 0 0 0
+Stats 138 132 120 120 150 78 78
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 60
+Form AEFHMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+MobprogNew onload 15902 ABCDEFGHI 100~
+MobprogNew death 15903 ABCDEFGHI 100~
+Spells 149 137 203 93
+Spells 92 193 88 69
+Spells 163 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 15903
+Name Ork~
+Odmiana orka~orkowi~orka~orkiem~orku~
+Short ork~
+Long Stoi przed toba z piana na pysku ork czegos szukajac.~
+Descr ~
+Race ork~
+ActExt 0|ABT
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 6d10+300
+Damage 2d5+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack walenie
+XAC 1 1 1 1
+Stats 120 60 60 108 120 78 78
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AEFGHMV
+Parts ABCDEFGHIJKQRV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 15904
+Name ork szaman~
+Odmiana orka szamana~orkowi szamanowi~orka szamana~orkiem szamanem~orku szamanie~
+Short ork szaman~
+Long Stoi przed toba z piana na pysku ork czegos szukajac.~
+Descr ~
+Race ork~
+ActExt 0|ABL
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 0
+HP 6d10+300
+Damage 2d5+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walenie
+XAC 1 1 1 1
+Stats 120 90 90 108 120 78 78
+Off R
+OffExt 0|R
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AEFGHMV
+Parts ABCDEFGHIJKQRV
+Size medium
+Material unknown
+Spells 166 150 133 30
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 15901
+Name skrzynia wielka debowa~
+Odmiana {ywielkiej dêbowej skrzyni{x~{ywielkiej dêbowej skrzyni{x~{ywielk± dêbow± skrzyniê{x~{ywielk± dêbow± skrzyni±{x~{ywielkiej dêbowej skrzyni{x~
+Short {ywielka dêbowa skrzynia{x~
+Descr {yWielka debowa skrzynia{x z wieloma solidnymi metalowymi okuciami.~
+Material drewno~
+Type container
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 20000 7 15902 1000 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2000
+Cost 6000
+Cond 100
+Objprog objunlock 15902 100~
+Itemdesc Wielka debowa skrzynia z solidnymi, ogromnymi metalowymi okuciami.
+Dziwne, ze znajduje sie tutaj. Wyglada na niezwykle fachowo wykonana rzecz.
+Ze znawstwem i wyczuciem. Zamek jest tu zaledwie jakas okragla dziura, ale z
+mnostwem zapadek widocznych juz u wylotu po lekkim podswietleniu go z boku.
+Skrzynia wyglada na wykonana na zamowienie i to kogos bardzo, bardzo
+majetnego. Az cie ciekawi kim tez mogl byc poprzedni, prawowity
+prawdopodobnie, jej wlasciciel. Na wieku ktos wygrawerowal na zelaznej
+klamrze wyrazny napis: {C"Lepiej, kimkolwiek bys nie byl, nie otwieraj tego
+nawet jesli masz klucz. Naprawde dobrze, ale to dobrze, od serca, ci radze.
+Nie wszystko jest tym na co wyglada". {x 
+~
+Comments ~
+Trap 15901
+Objend
+#Vnum 15902
+Name wielki metalowy klucz~
+Odmiana {Cwiel{ckiego me{Ctal{cowego {Cklu{ccza{x~{Cwiel{ckiemu me{Ctal{cowemu {Cklu{cczowi{x~{Cwiel{cki me{Ctal{cowy {Cklu{ccz{x~{Cwiel{ckim me{Ctal{cowym {Cklu{cczem{x~{Cwiel{ckim me{Ctal{cowym {Cklu{cczu{x~
+Short {Cwiel{cki me{Ctal{cowy {Cklu{ccz{x~
+Descr Jakis {Cwiel{cki me{Ctal{cowy {Cklu{ccz{x o przedziwnej rekojesci lezy tu.~
+Material ¿elazo~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 0
+Cond 100
+Objprog connect 15901 100~
+Itemdesc Wielki klucz z rekojescia o ksztalcie dziwnie rozciagnietego jaja. Na
+ostrzu klucza, na jego koncu jest szereg naciec, nadpilowan i dziur. Nie
+byle kto ten klucz widac robil i do nie byle jakiego zamka musi on pasowac. 
+~
+Comments ~
+Objend
+#Vnum 15903
+Name walec metalowy~
+Odmiana {cmetalowego walca{x~{cmetalowemu walcowi{x~{cmetalowy walec{x~{cmetalowym walcem{x~{cmetalowym walcu{x~
+Short {cmetalowy walec{x~
+Descr Podluzny, okragly kawal metalu z nadpilowanymi dziwnymi rowkami na koncu.~
+Material ¿elazo~
+Type piece
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 15904 15902 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 0
+Cond 75
+Itemdesc Kawalek metalowego, grubego preta, dlugosci mo¿e poltorej piedzi
+wyrosnietego krasnoluda. Na obydwu koncach ktos w przemyslny sposob
+nadpilowal rozne rowki i porobil otwory, zupelnie jakby ten walec mial do
+czegos pasowac i to wlasnie z obydwu stron. Roznica jest taka, ze z jednej
+strony nadpilowania sa proste, w zasadzie 2 na krzyz plytkie i jedno
+glebsze, pod którym znajduje sie spory otwor. Z drugiej strony zas jest ich
+istny labirynt. Tylko mistrz sztuki kowalskiej a wlasciwie chyba jubilerstwa
+bardziej mialby szanse na powtorzenie takiej kombinacji. 
+~
+Comments ~
+Objend
+#Vnum 15904
+Name elipsoidalna bryla~
+Odmiana {Celipsoidalnej bryly{x~{Celipsoidalnej bryle{x~{Celipsoidalna bryle{x~{Celipsoidalna bryla{x~{Celipsoidalnej bryle{x~
+Short {Celipsoidalna bryla{x~
+Descr Jakas bryla o ksztalcie rozciagnietego jaja z grubsza biorac.~
+Material kryszta³~
+Type piece
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 15903 15902 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 0
+Cond 75
+Itemdesc Kawa³ szlachetnego, wypolerowanego z wielk± pieczo³owito¶ci± i ¶wiec±cego
+do¶æ jasno metalu. Ma on kszta³t elipsoidalny a przek³adaj±c to na jêzyk
+zrozumia³y dla przeciêtnego orka; gdyby kiedy¶ komu¶ uda³o siê chwyciæ jajo
+kurze za jego dwa koñce i rozci±gn±æ to prawdopodobnie przybra³oby ono
+kszta³d zbli¿ony do tego jaki tu mamy okazje zobaczyæ. Noo, musia³oby to byæ
+baardzo du¿e kurze jajo, bo bry³a ma d³ugo¶æ równ± szeroko¶ci ma³ego
+ogrzynka w uszach, ale ... W spodniej czê¶ci jest nawierconych kilka rowków
+i dziur, zupe³nie jakby co¶ tam trzeba by³o w³o¿yæ. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 15901
+Name Wejscie do jaskini~
+Descr Wej¶cie do jakiej¶ sporej jaskini, korytarze ci±gn± siê bardzo daleko
+w g³±b, nie widaæ w ogóle ich koñca. Masz nieodparte wra¿enie, ¿e gdzie¶
+tam dalej s³yszysz jakie¶ odg³osy. Powietrze przy wej¶ciu jest ca³kiem
+¶wie¿e, gdzie¶ tylko z g³êbi dociera do twych nozdrzy lekki odór.
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8220
+ExitExtEnd
+Exit 0
+~
+~
+0 0 8220
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 67405
+ExitExtEnd
+Exit 1
+~
+~
+0 0 67405
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 67393
+ExitExtEnd
+Exit 2
+~
+~
+0 0 67393
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 67390
+ExitExtEnd
+Exit 3
+~
+~
+0 0 67390
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15902
+ExitExtEnd
+Exit 5
+~
+~
+0 0 15902
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15902
+Name W jaskini~
+Descr Zarowno korytarze jak i jaskinie miedzy nimi sa bardzo wysokie, solidne
+kilka metrow, kazdy chyba bez problemow tu przejdzie. Troche tu wilgotno i
+nie da sie ukryc ze gdzieniegdzie porzadnie smierdzi, ale prawdopodobnie da
+sie tu przezyc, skryc na jakis czas czy wykorzystac te naruralne przejscia
+podziemnie w jakims innym celu. Trudno powiedziec czy kryja sie tu jakies
+mineraly czy nie. Jesli tak to nikt nie wlozyl zadnego wysilku aby je
+odnalezc i wydobyc. Wiele znakow wskazuje ze ktos jesli nie przez caly czas
+to na pewno od czasu do czasu tutaj mieszka. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15904
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15904
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15903
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15903
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15901
+ExitExtEnd
+Exit 4
+~
+~
+0 0 15901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15903
+Name Odnoga korytarza~
+Descr Jedna z licznych odnog korytarzy. Jest ich tu na tyle sporo, ze chyba z
+latwoscia mozna sie tu zgubic. Ta jest akurat bardzo waska i bardzo latwo
+wrocic z niej do punktu wyjscia, ale inne moga byc niebezpieczne. Trzeba
+wszedzie uwazac zeby sie nie zgubic i koniecznie miec ze soba swiatlo,
+Diabli wiedza co nas mo¿e dopasc w ciemnosciach. W ziemi dostrzegasz jak±¶
+niewielk± dziurê. 
+~
+FlagsExt 0
+Sector 17
+Extra dziura~
+W ziemi dostrzegasz niewielk± dziurê, jednak nie dasz rady chyba do niej
+wej¶æ. 
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15902
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15902
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15904
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15902
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15902
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15905
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15905
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15913
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15913
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15905
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15906
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15904
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15906
+Name Zakret korytarzy~
+Descr Korytarz tutaj zakreca. Nie jest to mo¿e zbyt krzepiace, gdyz latwo mozna
+sie zgubic. Jest na tyle ciemno, ze wlasciwie nawet gdyby ktos probowal
+zaznaczac cos na scianach i potem szukal swoich znakow z pochodnia mialby z
+tym znaczace trudnosci. Wiekszosc scian wyglda wlasciwie tak samo. Niektore
+maja jakies tam znaki szczegolne, ale chyba jest ich zbyt malo. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15907
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15907
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15905
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15907
+Name Korytarze~
+Descr Ktos cos tu popisal na scianach, przynajmniej takie to sprawia wrazenie.
+Uzyl chyba do tego jakiejsc swiecy czy czegos i sklecil jakies zdanie. Nie
+masz jednak bladego pojecia co mogloby ono oznaczac, gdyz nie jest to w
+zadnym ze znanych ci jezykow. Litery sa jakies straszliwie nieksztaltne i
+koslawe, a napis niezwykle stary, wiekiem siega chyba starozytnosci.
+Niestarannosci napisu dziwic sie jednak nie nalezy, ktos chyba pisal to
+kopcaca sie pochodnia . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15908
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15908
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15906
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15906
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15908
+Name Korytarze~
+Descr Ciemniej tu troche niz gdzie indziej. Od sufitu zwisa ogromny stalaktyt
+prawie laczac sie z innym mniejszym na podlodze. Sciany sa poryte jakimis
+pazurami czy czyms, leza tu jakies polamane kije, troche potrzaskanych
+glinianych garow i maczuga. Chyba calkiem niedawno rozgrywala sie tu jakas
+walka. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15909
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15909
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15907
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15907
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15909
+Name Male skrzyzowanie~
+Descr Korytarze krzyzuja sie w tym miejscu, jednak kiedy patrzysz na wschod
+wydaje ci sie, ze korytarz chyba tam sie konczy i nigdzie chyba dalej nie
+prowadzi. Tak samo sprawa wyglada z innymi kierunkami. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15910
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15910
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15912
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15912
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15911
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15911
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15908
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15908
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15910
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15909
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15911
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15909
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15912
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15909
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15913
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15904
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15904
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15914
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15914
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15914
+Name Zakret~
+Descr Korytarz skreca tutaj dosc ostro. Pod stopami czujesz jakies bloto czy
+ziemie moze. Trudno powiedziec. Sciany po zewnetrznej stronie zakretu sa
+gleboko wyzlobione, zupelnie jakby kiedys plynela tedy woda. Hmm, moze
+plynela. Swiadczyc o tym mo¿e rowniez fakt, iz sciany sa bardzo, bardzo
+gladkie. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15913
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15913
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15915
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15915
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15915
+Name Korytarze~
+Descr Ktos cos tu popisal na scianach, przynajmniej takie to sprawia wrazenie.
+Uzyl chyba do tego jakiejsc swiecy czy czegos i sklecil jakies zdanie. Nie
+masz jednak bladego pojecia co mogloby ono oznaczac, gdyz nie jest to w
+zadnym ze znanych ci jezykow. Litery sa jakies straszliwie nieksztaltne i
+koslawe, a napis niezwykle stary, wiekiem siega chyba starozytnosci.
+Niestarannosci napisu dziwic sie jednak nie nalezy, ktos chyba pisal to
+kopcaca sie pochodnia . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15914
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15914
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15916
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15916
+Name Korytarze~
+Descr Ktos cos tu popisal na scianach, przynajmniej takie to sprawia wrazenie.
+Uzyl chyba do tego jakiejsc swiecy czy czegos i sklecil jakies zdanie. Nie
+masz jednak bladego pojecia co mogloby ono oznaczac, gdyz nie jest to w
+zadnym ze znanych ci jezykow. Litery sa jakies straszliwie nieksztaltne i
+koslawe, a napis niezwykle stary, wiekiem siega chyba starozytnosci.
+Niestarannosci napisu dziwic sie jednak nie nalezy, ktos chyba pisal to
+kopcaca sie pochodnia . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15915
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15915
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15917
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15917
+Name Korytarze~
+Descr Sciany sa okopcone dymem z pochodni. W niektórych miejscach sa wlasciwie
+calkowicie czarne. Na tym tle ktos chyba probowal wyskrobywac jakies
+malunki, ale prawie ich nie widac, przykryla je nowa warstwa sadzy. Mialy to
+chyba byc jakies sceny polowan czy inne takie, ale ciezko sie tego domyslic,
+wszysto to jest jakies totalnie nieksztaltne. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15918
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15918
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15916
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15916
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15918
+Name Korytarze~
+Descr Sciany sa okopcone dymem z pochodni. W niektórych miejscach sa wlasciwie
+calkowicie czarne. Na tym tle ktos chyba probowal wyskrobywac jakies
+malunki, ale prawie ich nie widac, przykryla je nowa warstwa sadzy. Mialy to
+chyba byc jakies sceny polowan czy inne takie, ale ciezko sie tego domyslic,
+wszysto to jest jakies totalnie nieksztaltne. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15919
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15919
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15921
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15921
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15917
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15917
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15919
+Name Korytarze~
+Descr Sciany sa okopcone dymem z pochodni. W niektórych miejscach sa wlasciwie
+calkowicie czarne. Na tym tle ktos chyba probowal wyskrobywac jakies
+malunki, ale prawie ich nie widac, przykryla je nowa warstwa sadzy. Mialy to
+chyba byc jakies sceny polowan czy inne takie, ale ciezko sie tego domyslic,
+wszysto to jest jakies totalnie nieksztaltne. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15920
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15920
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15918
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15918
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15920
+Name Slepy zaulek~
+Descr Chyba nigdzie dalej nie pojdziesz. Przed toba jest lita sciana i nic
+wiecej. Na scianie widac slady krwi. Ktos albo tutaj zginal albo probowal
+moze przebic sie dalej. W takim wypadku musial byc rzeczywiscie ciezko
+zdesperowany. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15919
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15919
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15921
+Name Wielkie skrzyzowanie~
+Descr Spore skrzyzowanie korytarzy, jest tu mnostwo miejsca, wokol leza jakies
+skory i szmaty z których uformowane sa wielkie poslania. Sa chyba uzywane.
+Ktos zwyczajnie tutaj mieszka. Kiedy patrzysz w gore widzisz bardzo wysoko
+sufit, chyba nawet siega on stad powierzchni ziemi. Prawdopodobnie wlasnie
+dzieki temu mozna bylo tu rozpalic ognisko. Olbrzymie palenisko jest w samym
+centrum, kiedy sie zblizasz widzisz, ze pare szczap leciutko bardzo jeszcze
+sie tli. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15918
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15918
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15932
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15932
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15927
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15927
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15922
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15922
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15922
+Name Korytarze~
+Descr Sciany sa okopcone dymem z pochodni. W niektórych miejscach sa wlasciwie
+calkowicie czarne. Na tym tle ktos chyba probowal wyskrobywac jakies
+malunki, ale prawie ich nie widac, przykryla je nowa warstwa sadzy. Mialy to
+chyba byc jakies sceny polowan czy inne takie, ale ciezko sie tego domyslic,
+wszysto to jest jakies totalnie nieksztaltne. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15921
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15921
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15923
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15923
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15923
+Name Korytarze~
+Descr Ktos cos tu popisal na scianach, przynajmniej takie to sprawia wrazenie.
+Uzyl chyba do tego jakiejsc swiecy czy czegos i sklecil jakies zdanie. Nie
+masz jednak bladego pojecia co mogloby ono oznaczac, gdyz nie jest to w
+zadnym ze znanych ci jezykow. Litery sa jakies straszliwie nieksztaltne i
+koslawe, a napis niezwykle stary, wiekiem siega chyba starozytnosci.
+Niestarannosci napisu dziwic sie jednak nie nalezy, ktos chyba pisal to
+kopcaca sie pochodnia . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15922
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15922
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15924
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15924
+Name Rozwidlenie korytarzy~
+Descr Korytarzy w tym miejscu rozchodza sie w dwoch kierunkach. Trudno
+powiedziec czy którys z nich prowadzi do wyjscia czy nie, bo jest tu
+wszedzie strasznie ciemno, ale bez watpienia któryms z nich nalezy podazyc
+dalej. Pod stopami chrzeszcza ci chyba jakies ulamki i cale kosci.
+Pozostawili je pewnie mieszkancy okolicznych jaskin i korytarzy. To i
+oczywiscie spora dawke smrodu. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15925
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15925
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15923
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15923
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15926
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15926
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15925
+Name Zakonczenie korytarza~
+Descr Korytarz konczy sie jakas sciana, nic specjalnego, jak chyba wszedzie
+dookola. Troche dziwny jest kolor tej skaly, leciutko czerwony, zupelnie
+jakby gdzies tutaj bylo male zloze zelaza czy jakiegos innego mineralu.
+Tubylcy chyba jednak tego nie zauwazyli, nie widac zadnych sladow wykopow
+czy jakichs podobnych rzeczy. Nie zauwazyli, albo zwyczajnie nie zajmuja sie
+takimi rzeczami i zwyczajnie zignorowali obecnosc byc mo¿e zrodla bogactwa i
+pieniedzy. Hmmm, po co jednak od razu zakladac, ze oni wiedza co to jest
+ruda, hmm, mimowolnie przechodza ci ciarki po plecach. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15924
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15926
+Name Korytarze~
+Descr Sciany sa okopcone dymem z pochodni. W niektórych miejscach sa wlasciwie
+calkowicie czarne. Na tym tle ktos chyba probowal wyskrobywac jakies
+malunki, ale prawie ich nie widac, przykryla je nowa warstwa sadzy. Mialy to
+chyba byc jakies sceny polowan czy inne takie, ale ciezko sie tego domyslic,
+wszysto to jest jakies totalnie nieksztaltne. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15924
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15924
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15927
+Name Korytarze~
+Descr Sciany sa okopcone dymem z pochodni. W niektórych miejscach sa wlasciwie
+calkowicie czarne. Na tym tle ktos chyba probowal wyskrobywac jakies
+malunki, ale prawie ich nie widac, przykryla je nowa warstwa sadzy. Mialy to
+chyba byc jakies sceny polowan czy inne takie, ale ciezko sie tego domyslic,
+wszysto to jest jakies totalnie nieksztaltne. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15921
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15921
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15928
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15928
+Name Korytarze~
+Descr Ktos cos tu popisal na scianach, przynajmniej takie to sprawia wrazenie.
+Uzyl chyba do tego jakiejsc swiecy czy czegos i sklecil jakies zdanie. Nie
+masz jednak bladego pojecia co mogloby ono oznaczac, gdyz nie jest to w
+zadnym ze znanych ci jezykow. Litery sa jakies straszliwie nieksztaltne i
+koslawe, a napis niezwykle stary, wiekiem siega chyba starozytnosci.
+Niestarannosci napisu dziwic sie jednak nie nalezy, ktos chyba pisal to
+kopcaca sie pochodnia . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15927
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15927
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15929
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15929
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15929
+Name Korytarze~
+Descr Ktos cos tu popisal na scianach, przynajmniej takie to sprawia wrazenie.
+Uzyl chyba do tego jakiejsc swiecy czy czegos i sklecil jakies zdanie. Nie
+masz jednak bladego pojecia co mogloby ono oznaczac, gdyz nie jest to w
+zadnym ze znanych ci jezykow. Litery sa jakies straszliwie nieksztaltne i
+koslawe, a napis niezwykle stary, wiekiem siega chyba starozytnosci.
+Niestarannosci napisu dziwic sie jednak nie nalezy, ktos chyba pisal to
+kopcaca sie pochodnia . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15930
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15930
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15928
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15928
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15930
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15929
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15929
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15931
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15931
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15931
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15930
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15930
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15932
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15933
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15933
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15921
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15921
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15933
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15934
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15934
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15937
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15937
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15932
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15932
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15934
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15935
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15935
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15933
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15935
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15936
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15936
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15934
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15934
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15936
+Name Kloaka~
+Descr Ooooo, straszliwa kloaka, nie jestes pewien ale chyba miejsce to robi za
+mniej lub bardziej oficjalny wychodek. Wykopano tu nawet dosc gleboki dol,
+niewiele to jednak pomaga. Dol jest wypelniony prawie po brzegi i wszystko
+smierdzi wprost niesamowicie. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15935
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15935
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15937
+Name Korytarze~
+Descr Powietrze jest tutaj jakies zatechle, zgnile i lekko wilgotne, chyba
+niewiele go tu przeplywa w ciagu dnia. Prawdopodobnie jednak stworzeniom,
+ktore tu mieszkaja zupelnie to nie przeszkadza. No coz, wlasciwie chyba
+kwestia przyzwyczajenia, chociaz . . . 
+~
+FlagsExt 0|C
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15938
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15938
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15940
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15940
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15933
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15933
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15938
+Name Zbrojownia~
+Descr Trudno to oczywiscie okreslic zbrojownia, ale chyba takie funkcje
+spelnia. Bez wielkiego ladu i skladu leza tu porzucone olbrzymie dragi,
+paly, nawet pare pordzewialych lekko mieczy. Troche tych akcesoriow
+wojennych stoi oparte o sciane. Zdecydowana wiekszosc jest jednak w miare
+bezwkladnie porzucona. Resztki porzadku zachowuje tylko kupa dragow i innych
+rupieci na stercie pod sciana. Widac tam poza uzbrojeniem jakies kapoty,
+skory, kilka niewiarygodnie prymitywnych, drewnianych tarcz i inne smieci. W
+ziemi dostrzegasz ca³kiem spor± dziurê. 
+~
+FlagsExt 0
+Sector 17
+Extra dziura~
+Jest to ca³kiem spora dziura w ziemi. Jest na tyle du¿a, ¿e móg³by¶ bez problemu do niej wej¶æ.
+~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15937
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15937
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15942
+ExitExtEnd
+Exit 4
+~
+~
+0 0 15942
+Roomprog input 6500 wejd¼ do dziury~
+Roomprog input 6500 enter dziura~
+Roomprog input 6500 wejd¼ w dziurê~
+Roomprog input 6500 wejd¼ dziura~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15940
+Name Korytarze~
+Descr Sporo tu miejsca, zmieszcza sie chyba nawet wielkie parumetrowe stwory.
+Korytarz ma okragly ksztalt z ociosana podloga, która chyba kiedys przez
+kogos zostala wyrownana i dzisiaj stabilnie mozna po niej stapac. Z rzadka
+tu i owdzie popalaja sie jakies pochodnie. Nie sa one jednak rozmiarow tych,
+ktore sa spotykane w zamkach, sa znacznie, ale to znacznie wieksze. 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15937
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15937
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15941
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15941
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15941
+Name Zaulek~
+Descr Zakonczenie korytarza, nie ma tu kompletnie nic godnego uwagi, jesli nie
+liczyc tego wielkiego kamulca, który ktos tu przytoczyl bez zadnego
+wyraznego celu. 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15940
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15940
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15942
+Name Wielka komnata~
+Descr Pomieszczenie wyglada na czyjes legowisko i miejsce zamieszkania. W rogu
+lezy wielkie poslanie ze skor, pod którymi lezy sterta galezi przyrzucona
+sianem. Loze owe nie jest wielkie tylko zwyczajnie olbrzymie. Ma jakies trzy
+metry szerokosci i pewnie ze cztery dlugosci. Obok stoi wielka beczka z
+dolatujacym do ciebie dosc intensywnym zapachem czegos jak piwo moze. Z boku
+zawieszony jest potezny czerpak. Jesli ktos naczerpuje z beczki czyms takim
+musi byc zlopem nie lada. Posrodku pomieszczenia stoja sciete cztery pniaki
+jakiegos gigantycznego drzewa na których polozono kawal wypolerowanego
+prawie na plasko od gory kamienia. Wokol tego, co przypomina stol,
+porozstawiano mniejsze pniaki, na których mozna usiasc i przyjrzec sie
+uwazniej czemus na stole. Poza poobgryzanymi koscmi i jakimis dzidami
+niewiele na nim jednak lezy, Nie wydaje ci sie zeby ktos na nim przegladal
+mapy. Obok stolu wetknieto w sciane spora pochodnie. 
+~
+FlagsExt 0|H
+Sector 17
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15938
+ExitExtEnd
+Exit 5
+~
+~
+0 0 15938
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 8201 8 15901 1
+M 100 8200 20 15902 1
+M 100 8200 20 15913 1
+M 100 8200 20 15915 1
+M 100 8201 8 15916 1
+M 100 8200 20 15917 1
+M 100 8200 20 15918 1
+M 100 8200 20 15920 1
+M 100 8201 8 15921 1
+M 20 8204 1 15921 1
+M 100 8200 20 15923 1
+M 100 8200 20 15928 1
+M 100 8200 20 15930 1
+M 100 8200 20 15931 1
+M 100 8200 20 15933 1
+M 100 8200 20 15935 1
+M 100 15902 1 15938 1
+M 100 8200 20 15940 1
+M 50 8216 1 15942 1
+G 40 14060 0
+S
+
+
+
+#MOBPROGSNEW
+#15901
+~
+mob purge skrzynia
+mob oload weapon 5
+mob oload body 5
+
+mob oload 15901
+mob unlock skrz
+mob open skrz
+
+if rand 90
+  mob oload random 7
+  put all skrzynia
+  mob close skrzynia
+  mob lock skrzynia
+  end
+endif
+
+if rand 70
+  mob oload weapon 4
+  mob oload random 6
+  put all skrzynia
+  mob close skrzynia
+  mob lock skrzynia
+  end
+endif
+
+put all skrzynia
+mob close skrzynia
+mob lock skrzynia
+
+if rand 50
+  mob oload gem 6
+else
+  mob oload gem 5
+endif
+
+if rand 92
+  mob equip self 9348
+endif
+if rand 90
+  mob equip self 3349
+endif
+~
+#15902
+~
+mob addgroup 15901
+mob addgroup 15901
+# Prog l±duj±cy zwoje, dla wiêkszo¶ci mobow-magów.
+if rand 98
+  mob oload 29701
+else
+  if rand 99
+    mob oload 29703
+  else
+    if rand 99
+      if rand 50
+        mob oload 29705
+      endif
+    endif
+  endif
+endif
+~
+#15903
+~
+mob oload 15903 r
+emote nie ¿yje!!
+emote pada na ziemiê... MARTWY.
+~
+#15904
+~
+mob oload weapon 4
+mob oload weapon 4
+ 
+if rand 75
+    mob oload body 4
+endif
+if rand 90
+    mob oload body 6
+endif
+~
+#97_target_wodza
+~
+foreachinroom $n
+  if ispc $n
+    if class $n kleryk
+      target $n
+      end
+    else
+      if class $n mag
+        target $n
+        end
+      else
+        if class $n druid
+          target $n
+          end
+        else
+          end
+        endif
+      endif
+    endif
+  endif
+endfor
+~
+#0
+
+#OBJPROGSNEW
+#15901
+~
+mob echoat $n Przez chwile starasz sie dopasowac metalowy pret do jajowatej rekojesci celujac nazlobieniami na siebie. Po chwili ci sie to udaje. Slyszysz lekki trzask, jakby cos zaskoczylo i za moment cichy syk. Z otworu w rekojesci wydobywa sie maly, lekko drazniacy nozdrza opar jakiegos kleju czy innego dziwnego spoiwa i powstaje klucz, o którym nigdy nikt by nie pomyslal, ze nie od zawsze stanowil jedna calosc.
+mob echoaround $n $n przez chwile stara sie dopasowac metalowy pret do jajowatej rekojesci celujac nazlobieniami na siebie. Po chwili udaje sie to $no. Slyszysz lekki trzask, jakby cos zaskoczylo i za moment cichy syk. Z otworu w rekojesci wydobywa sie maly, lekko drazniacy nozdrza opar jakiegos kleju czy innego dziwnego spoiwa i powstaje klucz, o którym, nigdy nikt by nie pomyslal, ze nie od zawsze stanowil jedna calosc.
+~
+#15902
+~
+mob remove $n 15902
+mob echoat $n Przekrasz klucz w zamku, slyszysz ciche *klik*.
+mob echoaround $n $n ostroznie przekreca klucz w zamku, slyszysz ciche *klik*.
+~
+#0
+
+#ROOMPROGSNEW
+#15938
+~
+mob purge
+if rand 30
+mob oload feets 2 r
+mob oload weapon 1 r
+endif
+if rand 80
+mob oload shield 3 r
+mob oload weapon 3 r
+endif
+if rand 90
+mob oload neck 4 r
+endif
+if rand 94
+mob oload finger 5 r
+endif
+mob oload weapon 2 r
+mob oload weapon 2 r
+mob oload weapon 2 r
+~
+#6500
+~
+if affected $n fly
+  mob echoat $n Wlatujesz do dziury w ziemi.
+  mob echoaround $n $n wlatuje do dziury.
+  mob gtransfer $n 6501
+else
+  mob echoat $n Wchodzisz do wielkiej dziury, po chwili orientujesz siê, ¿e nie masz na czym stan±æ i obsuwasz siê.
+  mob echoaround $n $n wchodzi do dziury.
+  mob gtransfer $n 6501
+  mob at 6501 mob damage all 10 50
+endif
+~
+#0
+
+#TRAPS
+#Vnum 15901
+Active 1
+Level 3
+Type 1
+Triggered mob echoat $n Pochylasz sie nad skrzynia i probujesz ja odkluczyc. Umiejetnie jak ci sie wydaje wkladasz klucz, ale cos chrzesci kiedy dopychasz go do konca. Slyszysz cichutki stuk, jakby cos trafilo na swoje miejsce. Rozlega sie niewyrazny odglos tykania czy przesuwania czegos po czym slyszysz jeszcze jedno, gluche stuk i {RFALA PLOMIENI{x eksplodujace ze skrzyni pochlania twoje cialo palac skore na dloniach, piersi i wszedzie!!!
+mob echoaround $n $n pochyla sie nad skrzynia i probuje ja odkluczyc. Umiejetnie jak ci sie wydaje wklada klucz, ale cos chrzesci kiedy dopycha go do konca. Slyszysz cichutki stuk, jakby cos trafilo na swoje miejsce. Rozlega sie niewyrazny odglos tykania czy przesuwania czegos po czym slyszysz jeszcze jedno, gluche stuk i {RFALA PLOMIENI{x eksplodujaca ze skrzyni pochlania twoje cialo palac skore na dloniach, piersi i wszedzie!!!
+ 
+if rand 15
+if class $n zlodziej
+mob asound Slyszysz straszliwy huk po czym goracy powiew omywa lekko twa twarz.
+mob damageex all 4 150 250 kill
+else
+mob asound Slyszysz straszliwy huk po czym goracy powiew omywa lekko twa twarz.
+mob damageex all 4 250 400 kill
+end
+endif
+endif
+ 
+if class $n zlodziej
+mob damageex all 4 150 250 kill
+mob asound Slyszysz straszliwy huk po czym goracy powiew omywa lekko twa twarz.
+else
+mob damageex all 4 500 1000 kill
+mob asound Slyszysz straszliwy huk po czym goracy powiew omywa twa twarz.
+endif
+~
+Disarmed mob echoat $n Manipulujesz przez kilka sekund przy zamku obejrzawszy wczesniej skrzynie ze wszystkich stron. W pewnym momencie slychac trzask, po nim lekki wybuch, mala chmurka dymu omywa ci twarz i troche parzy palce. 
+mob echoaround $n $n manipuluje przez kilka sekund przy zamku obejrzawszy wczesniej skrzynie ze wszystkich stron. W pewnym momencie slychac trzask, po nim lekki wybuch, mala chmurka dymu omywa $x twarz i troche parzy palce. 
+ 
+mob damageex $n 4 5 10
+ 
+~
+Failed mob echoat $n Podchodzisz do skrzyni, ogladasz ja uwaznie ze wszystkich stron poszukujac pulapki i kiedy znajdujesz cos podejrzanegoi probujesz to rozbroic. Po chwili mala strzalka zwolniona przez jakas sprezyne wystrzeliwuje ze skrzyni i wbija ci sie w reke. Konczy sie na chwilowym bolu, jednak zaraz pozniej chmura {ROGNIA{x rzuca cie na ziemie.
+mob echoaround $n $n podchodzi do skrzyni, oglada ja uwaznie ze wszystkich stron poszukujac pulapki i kiedy znajduje cos podejrzanego probuj to  rozbroic. Po chwili mala strzalka zwolniona przez jakas sprezyne wystrzeliwuje ze skrzyni i wbija sie w $s reke. Grymas bolu wykwita przez moment na $s twarzy jakby stosunkow niewiele sie stalo, jednak zaraz pozniej chmura {ROGNIA{x rzuca $v na ziemie.
+ 
+mob damageex all 4 50 90
+mob damageex $n 8 30 50
+mob addaply poison $n 4
+mob asound Slyszysz straszliwy huk po czym goracy powiew omywa twa twarz.
+~
+Limit 3281935
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

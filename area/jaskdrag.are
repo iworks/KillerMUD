@@ -1,0 +1,519 @@
+#AREADATA
+Name {R#{DPodmrok{x - Jaskinie dragazharów~
+Builders Seinar    Podmrok~
+VNUMs 15260 15269
+Credits Twórca: Annor
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 15260
+Name dragazhar~
+Odmiana dragazhara~dragazharowi~dragazhara~dragazharem~dragazharze~
+Short dragazhar~
+Long Dragazhar lata szukaj±c swojej ofiary.~
+Descr Dragazhar jest to gigantyczny nietoperz unosz±cy siê na czarnych
+skrzyd³ach. Stworzenie te ma d³ug±, szczurz± g³owê, podobny do bicza ogon.
+Zakoñczony ostrym, trójk±tnym szpikulcem, oraz d³ugie, zakrzywione uszy.
+Dwumetrowa rozpiêto¶æ sprawia, ¿e dragazhar jest najniebezpieczniejszym
+nietoperzem Podmorku. 
+~
+Race nietoperz~
+ActExt 0|AG
+Affected 524288 0 0 0
+AffectedExt 0|T
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 1
+HP 10d10+300
+Damage 2d5+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 3 3 3 3
+Stats 102 72 84 90 108 54 54
+Off FR
+OffExt 0|FR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKPRS
+Size medium
+Material unknown
+MobprogNew fight 15260 H 5~
+Skin 150
+ExpMultiplier 100
+Mobend
+#Vnum 15261
+Name wielki dragazhar~
+Odmiana dragazhara~dragazharowi~dragazhara~dragazharem~dragazharze~
+Short wielki dragazhar~
+Long Wielki dragazhar wlepia w ciebie swoje fioletowe ¶lepia.~
+Descr Dragazhar jest to gigantyczny nietoperz unosz±cy siê na czarnych
+skrzyd³ach. Stworzenie te ma d³ug±, szczurz± g³owê, podobny do bicza ogon.
+Zakoñczony ostrym, trójk±tnym szpikulcem, oraz d³ugie, zakrzywione uszy. Ten
+okaz jest na najwiêkszy ze swoich braci i chyba sprawuje role przywódcy
+stada. 
+~
+Race nietoperz~
+ActExt 0|AG
+Affected 524288 0 0 0
+AffectedExt 0|T
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 2
+HP 10d10+430
+Damage 3d5+10
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 3 3 3 3
+Stats 114 84 96 102 120 66 66
+Off FR
+OffExt 0|FR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKPRS
+Size medium
+Material unknown
+MobprogNew fight 15260 H 5~
+Skin 250
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 15260
+Name Jaskinia~
+Descr Stoisz w jaskini, w której jest wilgotno. Nie ma zbyt du¿ej powierzchni i
+na dodatek przeszkadzaj± w poruszaniu twory skalne. Wszêdzie czuæ zapach
+zgnilizny, a¿ nie idzie wytrzymaæ. Pod nogami walaj± siê ko¶ci jaki¶ gryzoni
+i niedu¿ych stworzeñ, upolowanych przez "nocnych ³owców". Lepiej uwa¿aj i
+ty, ¿eby nie staæ siê ich ofiar±. Wiêc uwa¿aj bardzo lub po prostu zmykaj
+st±d. 
+~
+FlagsExt 0|AC
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15262
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15262
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15261
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15261
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15261
+Name Jaskinia~
+Descr Jeste¶ w piêknej wielkiej jaskini. Woko³o widzisz wisz±ce stalaktyty
+mierz±ce od metra do piêciu metrów. S± tutaj te¿ ró¿nokszta³tne stalagmity,
+ale dobrze, ¿e nie utrudniaj± ci podró¿owania. Widzisz tutaj du¿o ko¶ci i
+jakie¶ odchody co oznacza, ¿e jakie¶ stworzenie zamieszkuje tê jaskinie i na
+pewno nie je ro¶lin, dlatego mo¿e rozwa¿ysz czy op³aca siê tutaj przebywaæ. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15269
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15269
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15260
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15262
+Name Jaskinia~
+Descr Jeste¶ w piêknej wielkiej jaskini. Woko³o widzisz wisz±ce stalaktyty
+mierz±ce od metra do piêciu metrów. S± tutaj te¿ ró¿nokszta³tne stalagmity,
+ale dobrze, ¿e nie utrudniaj± ci podró¿owania. Widzisz tutaj du¿o ko¶ci i
+jakie¶ odchody co oznacza, ¿e jakie¶ stworzenie zamieszkuje tê jaskinie i na
+pewno nie je ro¶lin, dlatego mo¿e rozwa¿ysz czy op³aca siê tutaj przebywaæ. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15263
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15263
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15260
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15260
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15266
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15266
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15263
+Name Jaskinia~
+Descr Znajdujesz siê w czê¶ci jaskini, wygl±daj±cej do¶æ podobnie do wiêkszo¶ci
+podziemi. Z wyg³adu spokojna grota, ale mo¿e niepokoiæ trzepot skrzyde³
+dobiegaj±cy nie wiadomo sk±d. Jaskinie s± zagadkami mo¿na w nich znale¼æ
+wszytko czego siê nie spodziewamy. A szczególnie bestie, które czekaj±, ¿eby
+nas po¿reæ. No, ale ¿eby co¶ osi±gn±æ trzeba w ¿yciu ryzykowaæ. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15264
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15264
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15262
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15262
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15265
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15265
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15264
+Name Jaskinia~
+Descr Jeste¶ w piêknej wielkiej jaskini. Woko³o widzisz wisz±ce stalaktyty
+mierz±ce od metra do piêciu metrów. S± tutaj te¿ ró¿nokszta³tne stalagmity,
+ale dobrze, ¿e nie utrudniaj± ci podró¿owania. Widzisz tutaj du¿o ko¶ci i
+jakie¶ odchody co oznacza, ¿e jakie¶ stworzenie zamieszkuje tê jaskinie i na
+pewno nie je ro¶lin, dlatego mo¿e rozwa¿ysz czy op³aca siê tutaj przebywaæ. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 1582
+ExitExtEnd
+Exit 1
+~
+~
+16 0 1582
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15263
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15263
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15265
+Name Jaskinia~
+Descr Granitowe ska³y, które tworz± ¶ciany tej jaskini sprawiaj±
+przyt³aczaj±ce, klaustrofobiczne wra¿enie. Wilgoæ i ciemno¶æ s±
+niemalwszechobecne. Rosn±ce na ¶cianach grzyby uk³adaj± siê w dziwne
+kszta³ty, z których wyobra¼nia sk³ada najró¿niejsze obrazy. Ale w tej
+jaskini lepiej nie przygl±daæ siê ¶cianom, a raczej trzeba rozejrzeæ za
+niebezpieczeñstwami. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15263
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15263
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15266
+Name Jaskinia~
+Descr Stoisz w jaskini, w której jest wilgotno. Nie ma zbyt du¿ej powierzchni i
+na dodatek przeszkadzaj± w poruszaniu twory skalne. Wszêdzie czuæ zapach
+zgnilizny, a¿ nie idzie wytrzymaæ. Pod nogami walaj± siê ko¶ci jaki¶ gryzoni
+i niedu¿ych stworzeñ, upolowanych przez "nocnych ³owców". Lepiej uwa¿aj i
+ty, ¿eby nie staæ siê ich ofiar±. Wiêc uwa¿aj bardzo lub po prostu zmykaj
+st±d. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15262
+ExitExtEnd
+Exit 1
+~
+~
+0 0 15262
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15267
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15267
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15267
+Name Jaskinia~
+Descr Znajdujesz siê w jaskini gdzie s± ró¿ne szczeliny i zakamarki najwiêksza
+znajdujê siê na zachodzie byæ mo¿e uda³o by ci siê tam zmie¶ciæ. Dziwne
+tutaj te¿ maj± kszta³ty stalaktyty i stalagmity, ale w krainach Podmroku nie
+jedna rzecz ciê zdziwi i lepiej, ¿eby to by³y wytwory skalne ni¿ mieszkañcy
+tych jaskiñ. Ale lepiej pomy¶leæ na tym co jest teraz i poszukaæ innej drogi
+ni¿ pó³nocna. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15266
+ExitExtEnd
+Exit 0
+~
+~
+0 0 15266
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 15268
+ExitExtEnd
+Exit 3
+~
+~
+16 0 15268
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15268
+Name Ma³a grota~
+Descr Znajdujesz siê w ma³ej grocie, w której jest bardzo ciasno. Starasz siê
+nie zahaczyæ o zwisaj±ce stalaktyty. Odczuwasz w jaskini jaki¶ dziwny zapach
+jakby sw±t martwych zwierz±t. Mog± to byæ pozosta³o¶ci po posi³ku
+dragazhara, albo jakiego¶ cz³owieka zgubionego w ciemnych jaskiniach. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 15267
+ExitExtEnd
+Exit 1
+~
+~
+16 0 15267
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 15269
+Name Jaskinia~
+Descr Stoisz w jaskini, w której jest wilgotno. Nie ma zbyt du¿ej powierzchni i
+na dodatek przeszkadzaj± w poruszaniu twory skalne. Wszêdzie czuæ zapach
+zgnilizny, a¿ nie idzie wytrzymaæ. Pod nogami walaj± siê ko¶ci jaki¶ gryzoni
+i niedu¿ych stworzeñ, upolowanych przez "nocnych ³owców". Lepiej uwa¿aj i
+ty, ¿eby nie staæ siê ich ofiar±. Wiêc uwa¿aj bardzo lub po prostu zmykaj
+st±d. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15261
+ExitExtEnd
+Exit 2
+~
+~
+0 0 15261
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 15260 5 15261 1
+M 100 15260 5 15262 1
+M 100 15260 5 15262 1
+M 100 15260 5 15266 1
+M 100 15260 5 15267 1
+M 100 15261 1 15268 1
+M 100 15260 5 15269 1
+S
+
+
+
+#MOBPROGSNEW
+#15260
+~
+mob echoaround $n {W$i szybuje w górê i uderza $z ogonem.{x
+mob echoat $n {W$i szybuje w górê i uderza ciebie ogonem.{x
+mob damage $n 10 20 pwk
+mob cast poi $n 15
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

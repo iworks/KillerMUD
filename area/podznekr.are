@@ -1,0 +1,3300 @@
+#AREADATA
+Name {R#{x{DPodmrok{x - Podziemna Nekropolia~
+Builders Podmrok  Seinar~
+VNUMs 27001 27100
+Credits Sprawdzaj±cy: Drake
+Budujacy: Athlar
+Ilo¶æ przyznanych punktów: 28
+Komentarze: Krainka zrobiona z rozmachem, z piêknymi opisami, ciekawymi progami i ciê¿kim, podziemnym klimatem. Nie moge siê doczekaæ, a¿ zostanie dopuszczona do Orga.
+~
+Locked ~
+Security 9
+ResetAge 30
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 27001
+Name przeklêta dusza ~
+Odmiana przeklêtej duszy ~przeklêtej duszy ~przeklêt± dusze~przeklêt± dusz±~przeklêtej duszy ~
+Short przeklêta dusza~
+Long Przeklêta dusza lewituje nad ziemi±, roztaczaj±c aurê strachu.~
+Descr Jest to jedna z wielu dusz która zosta³a przyci±gniêta przez mroczn± aurê
+tej ziemi. Przeklêta nie mog±ca zaznaæ spokoju ¿ywi siê tylko nienawi¶ci± do
+wszystkiego co ¿ywe. Jej niematerialne cia³o wije siê w konwulsjach
+piekielnej udrêki. 
+~
+Race duch~
+ActExt 0|AO
+Affected 1573376 0 0 0
+AffectedExt 0|JTU
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 15
+Hitroll 1
+HP 15d10+180
+Damage 4d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 1 1 1 1
+Stats 102 54 48 108 102 54 54
+Off RX
+OffExt 0|RX
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+MobprogNew fight 27001 H 20~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 27002
+Name zmora~
+Odmiana zmory~zmorze~zmor±~zmor±~zmorze~
+Short zmora~
+Long Bezcielesna zmora unosi siê tu w powietrzu.~
+Descr Te niematerialne stwory karmi± siê rozpacz± i strachem ¿ywych istot. Ci
+cisi zabójcy nigdy nie zaspokoj± swojej bezkresnej rz±dzy. 
+~
+Race duch~
+ActExt 0|AFO
+Affected 1573376 0 0 0
+AffectedExt 0|JTU
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 18
+Hitroll 0
+HP 18d10+220
+Damage 4d5+0
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack chlod
+XAC 3 3 3 5
+Stats 78 78 78 78 78 78 78
+Off RX
+OffExt 0|RX
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 27003
+Name potê¿ny ko¶ciotrup~
+Odmiana potê¿nego ko¶ciotrupa~potê¿nemu ko¶ciotrupowi~potê¿nego ko¶ciotrupa~potê¿nym ko¶ciotrupem ~potê¿nym ko¶ciotrupie~
+Short potê¿ny szkielet ~
+Long Potê¿ny ko¶ciotrup stoi tutaj, przywo³any by wypatrywaæ intruzów.~
+Descr Ten z³o¿ony ze szcz±tków innych istot ko¶ciotrup stworzony zosta³ tylko
+po to by zabiæ tych którzy sprofanowali miejsce pochówku jego pana. W
+pustych oczodo³ach tl± siê czerwone ogniki. Ponadczasowa nienawi¶ci i
+nienasycona chêæ mordu s± tym co zamienia zwyk³e zw³oki w chodz±cy koszmar. 
+~
+Race szkielet~
+ActExt 0|AFO
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 24
+Hitroll 2
+HP 48d5+400
+Damage 3d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 0
+Stats 114 54 54 54 108 24 78
+Off IOY
+OffExt 0|IOY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CIJ
+Parts ABCGHIJKR
+Size medium
+Material unknown
+MobprogNew death szkielet1 ABCDEFGHI 100~
+MobprogNew death 27002 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 15 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 27004
+Name Olbrzymia {W mumia {x~
+Odmiana olbrzymiej {Wmumii{x~olbrzymiej {Wmumii{x~olbrzymi± {Wmumiê{x~olbrzymi± {Wmumi±{x~olbrzymiej {Wmumii{x~
+Short olbrzymia {Wmumia{x~
+Long Olbrzymia {Wmumia{x przechadza siê têdy, szukaj±c intruzów.~
+Descr Ten nieumar³y stwór jest jednym z wielu, które o¿ywi³a magia tego
+przeklêtego przez bogów i ludzi miejsca. Banda¿e, które zapewniæ mu mia³y
+nie¶miertelno¶æ, teraz s± w strzêpach i nie³adzie. Wielkie piê¶ci s±
+najgro¼niejsz± broni± tego umrzyka. 
+~
+Race mumia~
+ActExt 0|ABFO
+Affected 0 0 0 0
+AffectedExt 0
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 26
+Hitroll 3
+HP 26d10+500
+Damage 3d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 5
+Stats 144 48 78 42 144 42 90
+Off CY
+OffExt 0|CY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 60
+Form CIJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 27005
+Name prastary {Dupiorny rycerz{x~
+Odmiana prastarego {Dupiornego rycerza{x ~prastaremu {Dupiornemu rycerzowi{x ~prastarego {Dupiornego rycerza{x ~prastarym {Dupiornym rycerzem{x ~prastarym {Dupiornym rycerzu{x~
+Short prastary {Dupiorny rycerz{x~
+Long Prastary {Dupiorny rycerz{x stoi tutaj, emanuj±c aur± strachu.~
+Descr Ten martwiaczy rycerz wydaje siê byæ awatarem ¶mierci i zniszczenia.
+Tylko najbardziej okrutni ludzie, którzy za ¿ycia dokonywali
+najstraszliwszych rzezi i dopuszczali siê najwiêkszych blu¼nierstw, maj±
+szanse powróciæ po ¶mierci jako upiorni rycerze. Przyszed³e¶ tu ¿eby
+zobaczyæ oblicze ¶mierci - oto One. 
+~
+Race upiorny rycerz~
+ActExt 0|ABFOd/2|C
+Affected 33554440 0 64 0
+AffectedExt 0|DZ/2|G
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 29
+Hitroll 3
+HP 28d15+700
+Damage 3d9+5
+Dammagic 1
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 0 1 0 0
+Stats 150 90 96 114 138 150 60
+Off Y
+OffExt 0|Y/1|ABD
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form EMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+MobprogNew kill 27007 ABCDEFGHI 100~
+MobprogNew death 27006 ABCDEFGHI 100~
+MobprogNew onload 27003 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 200
+Resist 1 15
+Resist 2 15
+Resist 3 15
+Resist 4 75
+Resist 8 100
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Resist 16 100
+Resist 17 20
+Resist 18 100
+Mobend
+#Vnum 27006
+Name strachulec~
+Odmiana strachulca~strachulcowi~strachulca~strachulcem ~strachulcu~
+Short strachulec~
+Long Strachulec wolno przechadza siê têdy, ci±gn±æ za sob± resztki banda¿y. ~
+Descr Ten nieumar³y przypomina mumie, jednak wiêkszo¶ci owijaj±cych go banda¿y
+dawno odpad³a. Z pomiêdzy szarych skrawków materia³u wystaje przegnite
+cia³o. Jego ruch przypomina poruszanie siê jakiej¶ upiornej marionetki. Nie
+daj siê jednak temu zwie¶æ, ten potwór jest szalenie niebezpieczny. 
+~
+Race mumia~
+ActExt 0|AFO
+Affected 301989888 0 0 0
+AffectedExt 0|Zc
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 20
+Hitroll 1
+HP 20d10+270
+Damage 3d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 7 7 7 7
+Stats 138 60 60 42 120 42 90
+Off RVX
+OffExt 0|RVX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CIJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+MobprogNew death 27004 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 8 100
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Resist 15 100
+Resist 16 100
+Resist 18 100
+Mobend
+#Vnum 27007
+Name wielki strachulec~
+Odmiana wielkiego strachulca ~wielkiemu strachulcowi~wielkiego strachulca~wielkim strachulcem ~wilkim strachulcu ~
+Short wielki strachulec~
+Long Wielki strachulec wolno przechadza siê têdy, ci±gn±æ za sob± resztki banda¿y.~
+Descr Ten nieumar³y przypomina mumie, jednak wiêkszo¶ci owijaj±cych go banda¿y
+dawno odpad³a. Z pomiêdzy szarych skrawków materia³u wystaje przegnite
+cia³o. Jego ruch przypomina poruszanie siê jakiej¶ upiornej marionetki. Nie
+daj siê jednak temu zwie¶æ, ten potwór jest szalenie niebezpieczny. 
+~
+Race mumia~
+ActExt 0|AFO
+Affected 301989888 0 0 0
+AffectedExt 0|Zc
+Align -1000
+Group 0
+Lang M
+Speaks 12
+Level 24
+Hitroll 1
+HP 24d10+480
+Damage 3d6+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 138 60 60 42 120 42 90
+Off CX
+OffExt 0|CX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form CIJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+MobprogNew death 27005 ABCDEFGHI 100~
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 27010
+Name ko¶ci olbrzymiego zwierzêcia ~
+Odmiana olbrzymich ko¶ci~olbrzymim ko¶ciom ~olbrzymie ko¶ci ~olbrzymimi ko¶cmi~olbrzymich ko¶ciach~
+Short {wko¶ci olbrzymiego zwierzêcia{x~
+Descr {w Ko¶ci olbrzymiego zwerzêcia le¿± tutaj. {x~
+Material ko¶æ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 1
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Le¿± tu ko¶ci olbrzymiego zwierza, które najprawdopodobniej by³o gadem,
+sze¶æ metrów d³ugo¶ci szkieletu robi imponuj±ce wra¿enie. 
+~
+Comments ~
+Objend
+#Vnum 27020
+Name sarkofag~
+Odmiana sarkofagu~sarkofagowi~sarkofag~sarkofagiem~sarkofagu~
+Short sarkofag ~
+Descr Poka¼nych rozmiarów sarkofag le¿y tutaj.~
+Material kamieñ~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 200 5 0 100 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Objprog onload 27002 100~
+Objprog objopen 27001 100~
+Itemdesc Sarkofag jest wyj±tkowo solidny i masywny, wykonany w ca³o¶ci z
+szlachetnego kamienia. W znacznej czê¶ci pokryty jest licznymi rze¼bieniami,
+które w swoim zamiarze, mia³y przedstawiaæ przysz³e bajeczne ¿ycie
+pochowanej w ¶rodku istoty. 
+~
+Comments ~
+Objend
+#Vnum 27021
+Name klucz sarkofag~
+Odmiana null~null~null~null~null~
+Short klucz sarkofag~
+Descr ~
+Material unused~
+Type key
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 27029
+Name granitowy pos±g~
+Odmiana granitowego pos±gu ~granitowemu pos±gowi~granitowy pos±g~granitowym pos±giem ~granitowym pos±gu~
+Short granitowy pos±g~
+Descr Granitowy pos±g stoi tutaj, miedzy licznymi nagrobkami.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Ten granitowy pos±g przedstawia p³acz±c± kobietê. Klêczy ona w swojej
+rozpaczy zas³aniaj±c twarz d³oñmi. Jak± wielk± tragediê móg³ upamiêtniaæ ten
+pomnik ? 
+~
+Comments ~
+Objend
+#Vnum 27030
+Name rozrzucone ko¶ci ~
+Odmiana rozrzuconych ko¶ci~rozrzuconym ko¶ciom~rozrzucone ko¶ci~rozrzuconymi ko¶æmi~rozrzuconych ko¶ciach ~
+Short rozrzucone ko¶ci~
+Descr Rozrzucone w nie³adzie ko¶ci le¿± tutaj, utrudniaj±c przej¶cie.~
+Material ko¶æ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Przygl±dasz siê z zaciekawieniem szcz±tkom ró¿nych istot. W tej bez³adnej
+masie tego, co kiedy¶ by³o koñczynami, g³owami czy potêznymi torsami, ciê¿ko
+wyodrêbniæ jak±kolwiek ca³o¶æ. Jednak prawd± jest to, o czym mówi± mêdrcy -
+po ¶mierci wszyscy s± równi. 
+~
+Comments ~
+Objend
+#Vnum 27040
+Name rozbity sarkofag~
+Odmiana rozbitego sarkofagu~rozbitemu sarkofagowi~rozbity sarkofag~rozbitym sarkofagiem~rozbitym sarkofagu~
+Short rozbity sarkofag~
+Descr Rozbity sarkofag stoi tutaj.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Ten sarkofag musia³ kiedy¶ wygl±daæ naprawdê okazale, teraz jednak
+bardziej przypomina stertê gruzu, ni¿ wspania³e miejsce ostatecznego
+spoczynku. 
+~
+Comments ~
+Objend
+#Vnum 27054
+Name monumentalny sarkofag~
+Odmiana monumentalnego sarkofagu ~monumentalnemu sarkofagowi~monumentalny sarkofag~monumentalnym sarkofagiem~monumentalnym sarkofagu~
+Short monumentalny sarkofag~
+Descr Monumentalny sarkofag stoi tutaj.~
+Material kamieñ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Ten monumentalny sarkofag jest imponuj±cych rozmiarów. Delikatnie mieni
+siê, znamionuj±c magiczn± moc, która zdaje siê podtrzymywaæ wiêkszo¶æ z
+nieumar³ych stworów w ich przeklêtym pó³-¿yciu. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 27001
+Name Droga na cmentarzysko~
+Descr Droga ta prowadzi nieustannie na pó³noc. W czarnych jak noc ¶cianach
+przeb³yskuj± z rzadka ró¿nego rodzaju kamyki. Wilgoæ i ciemno¶æ, które tu
+panuj±, zdaj± siê otulaæ przestrzeñ niczym szczelny p³aszcz. Wszêdzie panuje
+cisza, któr± od czasu do czasu przerywa odg³os kapi±cej wody. 
+~
+FlagsExt 0|D
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27002
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27002
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 55116
+ExitExtEnd
+Exit 2
+~
+~
+0 0 55116
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27002
+Name Droga na cmentarzysko~
+Descr Granitowe ska³y, które tworz± ¶ciany tego podziemnego korytarza sprawiaj±
+przyt³aczaj±ce, klaustrofobiczne wra¿enie. Wilgoæ i ciemno¶æ s± niemal
+wszechobecne. Rosn±ce na ¶cianach grzyby uk³adaj± siê w dziwne kszta³ty, z
+których wyobra¼nia sk³ada najró¿niejsze obrazy. 
+~
+FlagsExt 0|D
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27003
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27003
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27001
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27003
+Name Droga na cmentarzysko~
+Descr Ta nieu¿ywana podziemna droga, wydaje siê byæ wydr±¿ona w litej skale
+przez jak±¶ potê¿na si³ê. Gdzieniegdzie rosn± ró¿ne porosty i ma³e grzyby.
+Wszêdzie woko³o panuje cisza któr± od czasu do czasu przerywa odg³os
+kapi±cej wody. 
+~
+FlagsExt 0|D
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27004
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27004
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27002
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27002
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27004
+Name Brama nekropolii~
+Descr Znajdujesz siê przy wielkiej cmentarnej bramie, która ponuro wznosi siê
+nad reszt± terenu. Bogate ornamenty z symbolami dawno zapomnianych bogów s±
+zapowiedzi± niesamowito¶ci, czekaj±cych na tych, którzy o¶miel± siê
+przekroczyæ bramê cmentarzyska. Monumentalne kolumny po obu stronach bramy
+¶wiadcz± o pysze i mocy tych, którzy je stawiali. 
+~
+FlagsExt 0|D
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 27005
+ExitExtEnd
+Exit 0
+~
+wrota~
+3 0 27005
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27003
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27003
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27005
+Name Cmentarzysko ~
+Descr Rozbite nagrobki i ko¶ci to mroczna codzienno¶æ tego miejsca. Szcz±tki
+ró¿nych istot mieszaj± siê tutaj, tworz±c liczne stosy i przedziwne
+konstrukcje. Ile tysiêcy istot tu zmar³o? Ile wieków maj± te prastare ko¶ci?
+Na te pytania najpewniej nigdy nie bêdzie odpowiedzi. Ciemno¶ci, które
+spowijaj± to miejsce, s± trudne do roz¶wietlenia nawet dla magii, nie mówi±c
+o zwyk³ych ¼ród³ach ¶wiat³a. 
+~
+FlagsExt 0|AD
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27014
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27014
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27008
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27008
+ExitExt 2
+ExitExtDescription ~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 27004
+ExitExtEnd
+Exit 2
+~
+wrota~
+3 0 27004
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27006
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27006
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27006
+Name Cmentarzysko~
+Descr W powietrzu daje siê wyczuæ delikatny s³odkawy odór padliny. W oddali
+mo¿na zauwa¿yæ lekko ju¿ nadgnite zw³oki jakiego¶ stworzenia. Na niektórych
+nagrobkach, mo¿na zauwa¿yæ pismo w jakim¶ dziwnym jêzyku, s± to pewnie
+imiona tych, którzy spoczywaj± pod tymi kamieniami. Nie trud¼ siê jednak,
+aby odszyfrowaæ te napisy. Nie da siê odczytaæ znaków w jêzyku zapomnianym
+nawet przez bogów. 
+~
+FlagsExt 0|AD
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27013
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27013
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27005
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27005
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27007
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27007
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27007
+Name Cmentarzysko~
+Descr Zaro¶niêta grzybami ¶cie¿ka prowadzi do czê¶ci cmentarza, w której
+znajduj± siê prastare, omsza³e nagrobki. Wiêkszo¶æ z nich nie opar³a siê
+up³ywowi czasu, choæ na niektórych widoczne s± jeszcze resztki wyrytych
+przed wiekami inskrypcji. Popêkane i poro¶niête dziwnym, zielonkawym mchem
+p³yty grobowców, le¿a tutaj w nie³adzie, jakby rzucone niedbale przez
+jakiego¶ olbrzyma. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27011
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27011
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27006
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27006
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27008
+Name Cmentarzysko~
+Descr Ten opuszczony cmentarz robi imponuj±ce wra¿enie, setki nagrobków,
+pos±gów, i tysi±ce bielej±cych tu ko¶ci sk³adaj± siê w upiorn± ca³o¶æ.
+Ko¶cisty krajobraz tej alei wydaje siê byæ w swojej monotonii mieæ jaki¶
+upiorny urok, mo¿e zapomnianych historii, których nikt nigdy nie wys³ucha.
+Nikt oprócz licznych ma³ych stworzeñ zamieszkuj±cych ten cmentarz- niemych,
+bezmy¶lnych ¶wiadków. 
+~
+FlagsExt 0|AD
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27015
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27015
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27009
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27009
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27005
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27005
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27009
+Name Cmentarzysko~
+Descr Zaro¶niêta grzybami ¶cie¿ka prowadzi do czê¶ci cmentarza, w której
+znajduj± siê prastare, omsza³e nagrobki. Wiêkszo¶æ z nich nie opar³a siê
+up³ywowi czasu, choæ na niektórych widoczne s± jeszcze resztki wyrytych
+przed wiekami inskrypcji. Ten opuszczony cmentarz robi imponuj±ce wra¿enie,
+setki nagrobków, pos±gów, i tysi±ce bielej±cych tu ko¶ci sk³adaj± siê w
+upiorn± ca³o¶æ. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27016
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27016
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27010
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27010
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27008
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27008
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27010
+Name Szcz±tki gada~
+Descr Spoczywaj± tu ko¶ci olbrzymiego gada. Có¿ za potê¿na istota musia³a byæ
+to za ¿ycia. Ka¿da z potê¿nych ko¶ci mog³aby byæ broni± giganta, chyba tylko
+tak silna istota by³a by w stanie podnie¶æ najwiêksze z tych wspania³ych
+gnatów. Olbrzymia czaszka le¿y roztrzaskana a wielkie oczodo³y, w których
+kiedy¶ musia³y znajdowaæ siê pe³ne furii i gniewu oczy, teraz s± puste
+niczym bezdenna otch³añ. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27017
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27017
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27009
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27009
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27011
+Name Przed krypt±~
+Descr Znajdujesz siê w czê¶ci cmentarza, w której ulokowane s± siê niewielkie
+krypty, mog± to byæ groby jaki¶ dostojników albo nawet ca³ych, bogatych
+kiedy¶ rodzin. Grobowce wykonane s± z granitu, i tylko dlatego opar³y siê
+próbie czasu. Drzwi do grobowca, wykonane z szarego kamienia, pokryte s±
+wspania³ymi freskami, przedstawiaj±cymi zakazane rytua³y i dawno zapomniane
+ceremonie. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27018
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27018
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27013
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27013
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27007
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27007
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Krypta ~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 27012
+ExitExtEnd
+Exit 3
+~
+VName Krypta ~
+~
+16387 0 27012
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27012
+Name Krypta ~
+Descr Powietrze wewn±trz tej krypty jest stêch³e i pe³ne trupiego odoru. W
+bocznych nieckach znajduj± siê liczne zw³oki, owiniête w resztki szat, które
+teraz wygl±daj± jak najzwyklejsze ³achmany. Na ¶cianach widaæ resztki
+uchwytów na pochodnie i oliwne kaganki. W centralnym miejscu znajduje siê
+dosyæ du¿y zdobiony sarkofag. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 0
+ExitExtInfo 16387
+ExitExtKey 27021
+ExitExtToVnum 27011
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+~
+16387 27021 27011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27013
+Name Cmentarzysko ~
+Descr Podziemny slup wysoko¶ci paru metrów wznosi siê tutaj. To musia³a byæ
+jedna z olbrzymich latarni, które przed wiekami roz¶wietla³a tereny
+cmentarza Ko¶cisty krajobraz tej alei wydaje siê byæ w swojej monotonii mieæ
+jaki¶ upiorny urok, mo¿e zapomnianych historii, których nikt nigdy nie
+wys³ucha. Nikt oprócz licznych ma³ych stworzeñ zamieszkuj±cych ten cmentarz-
+niemych, bezmy¶lnych ¶wiadków. 
+~
+FlagsExt 0|AD
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27014
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27014
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27006
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27006
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27011
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27014
+Name Przed hypogeum~
+Descr Budowla ta wygl±da przedziwnie, wznosi siê nad ca³ym cmentarzem niczym
+olbrzym góruj±cy nad dolin±. Hypogeum pokryte jest z zewn±trz wspania³ymi
+zdobieniami przedstawiaj±cymi ludzi, sk³adaj±cych ofiary jakiej¶ potê¿nej
+istocie. Mimo up³ywu lat ca³o¶æ wygl±da bardzo solidnie. Potê¿ne kolumny,
+które maj± zdobiæ ten wspania³y grobowiec, wydaj± siê byæ nienaruszone.
+Olbrzymie kamienne drzwi, wysokie na cztery metry, zdaj± siê byæ granic±
+miedzy ¶wiatem ¿ywych, a domem umar³ych. 
+~
+FlagsExt 0|AD
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Hypogeum~
+ExitExtLiczba 0
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 27031
+ExitExtEnd
+Exit 0
+~
+VName Hypogeum~
+~
+16387 0 27031
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27015
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27015
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27005
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27005
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27013
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27013
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27015
+Name Cmentarzysko~
+Descr Popêkane i poro¶niête dziwnym, zielonkawym mchem p³yty grobowców, le¿a
+tutaj w nie³adzie, jakby rzucone niedbale przez jakiego¶ olbrzyma. Spo¶ród
+wielu ko¶ci mo¿na wyró¿niæ czaszki ró¿nych inteligentnych istot, te
+wygl±daj± wyj±tkowo przygnêbiaj±co, przygniecione przez sterty gruzu i
+szcz±tki innych istot. 
+~
+FlagsExt 0|AD
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27016
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27016
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27008
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27014
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27014
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27016
+Name Aleja pos±gów~
+Descr Po obu stronach tej niewielkiej alei znajduj± siê pos±gi przedstawiaj±ce
+ro¿ne postacie. Niektóre zdaj± siê byæ przyjazne, inne wrogie, a jeszcze
+inne naiwne lub pogr±¿one w smutku. Mimo ¿e pos±gi s± mocno zniszczone przez
+czas, nie straci³y nic ze swojej wyrazisto¶ci i charakteru. Emocje, które
+odzwierciedlaj± siê na twarzach pos±gów s± tak sugestywne, ¿e ciê¿ko oprzeæ
+siê ich zniewalaj±cej mocy 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27029
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27029
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27017
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27017
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27009
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27009
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27015
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27015
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27017
+Name Cmentarzysko ~
+Descr Na niektórych nagrobkach, mo¿na zauwa¿yæ pismo w jakim¶ dziwnym jêzyku,
+s± to pewnie imiona tych, którzy spoczywaj± pod tymi kamieniami. Nie trud¼
+siê jednak, aby odszyfrowaæ te napisy. Nie da siê odczytaæ znaków w jêzyku
+zapomnianym nawet przez bogów. W ciemno¶ciach rozlega siê cichy wysoki pisk,
+ten krótki d¼wiêk zdaje siê pobrzmiewaæ jeszcze trochê, zanim znika na
+dobre. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27030
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27030
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27010
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27010
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27016
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27016
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27018
+Name Cmentarzysko~
+Descr Wiele spo¶ród tych grobów musi mieæ setki stuleci, niektóre kamienne
+p³yty musia³y byæ bogato zdobione, jednak hieny cmentarne i rozliczni
+rabusie grobów skutecznie rozprawili siê ze wszystkimi kosztowno¶ciami.
+Spo¶ród wielu ko¶ci mo¿na wyró¿niæ czaszki ró¿nych inteligentnych istot, te
+wygl±daj± wyj±tkowo przygnêbiaj±co, przygniecione przez sterty gruzu i
+szcz±tki innych istot. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27019
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27019
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27011
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27011
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27019
+Name Przed krypt±~
+Descr Znajdujesz siê w czê¶ci cmentarza, w której ulokowane s± siê niewielkie
+krypty, mog± to byæ groby jaki¶ dostojników albo nawet ca³ych, bogatych
+kiedy¶ rodzin. Grobowce wykonane s± z granitu, i tylko dlatego opar³y siê
+próbie czasu. Drzwi do grobowca, wykonane z szarego kamienia, pokryte s±
+wspania³ymi freskami, przedstawiaj±cymi zakazane rytua³y i dawno zapomniane
+ceremonie. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27021
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27021
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27018
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27018
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Krypta~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 27020
+ExitExtEnd
+Exit 3
+~
+VName Krypta~
+~
+16387 0 27020
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27020
+Name Krypta~
+Descr Powietrze wewn±trz tej krypty jest stêch³e i pe³ne trupiego odoru. W
+bocznych nieckach znajduj± siê liczne zw³oki, owiniête w resztki szat, które
+teraz wygl±daj± jak najzwyklejsze ³achmany. Na ¶cianach widaæ resztki
+uchwytów na pochodnie i oliwne kaganki. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie ~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 27019
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie ~
+~
+16387 0 27019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27021
+Name Cmentarzysko ~
+Descr Ten opuszczony cmentarz robi imponuj±ce wra¿enie, setki nagrobków,
+pos±gów, i tysi±ce bielej±cych tu ko¶ci sk³adaj± siê w upiorn± ca³o¶æ. W
+powietrzu daje siê wyczuæ delikatny s³odkawy odór padliny. W oddali mo¿na
+zauwa¿yæ lekko ju¿ nadgnite zw³oki jakiego¶ stworzenia. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27022
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27022
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27019
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27019
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27022
+Name Cmentarzysko~
+Descr Ko¶cisty krajobraz tej alei wydaje siê byæ w swojej monotonii mieæ jaki¶
+upiorny urok, mo¿e zapomnianych historii, których nikt nigdy nie wys³ucha.
+Nikt oprócz licznych ma³ych stworzeñ zamieszkuj±cych ten cmentarz- niemych,
+bezmy¶lnych ¶wiadków. Podziemny slup wysoko¶ci paru metrów wznosi siê tutaj.
+To musia³a byæ jedna z olbrzymich latarni, które przed wiekami roz¶wietla³a
+tereny cmentarza. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27023
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27023
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27021
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27021
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27023
+Name Cmentarzysko ~
+Descr Olbrzymie pn±cza prawie zupe³nie zniszczy³y tê czê¶æ cmentarza.
+Wszêdobylskie pêdy zamieni³y to niegdy¶ wspania³e miejsce w totaln± ruinê -
+szybciej ni¿ nieub³agany czas, rabusie, czy dzikie bestie. Zaro¶niêta
+grzybami ¶cie¿ka prowadzi do czê¶ci cmentarza, w której znajduj± siê
+prastare, omsza³e nagrobki. Wiêkszo¶æ z nich nie opar³a siê up³ywowi czasu,
+choæ na niektórych widoczne s± jeszcze resztki wyrytych przed wiekami
+inskrypcji. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27024
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27024
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27022
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27022
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27024
+Name Cmentarzysko ~
+Descr Wiele spo¶ród tych grobów musi mieæ setki stuleci, niektóre kamienne
+p³yty musia³y byæ bogato zdobione, jednak hieny cmentarne i rozliczni
+rabusie grobów skutecznie rozprawili siê ze wszystkimi kosztowno¶ciami.
+Popêkane i poro¶niête dziwnym, zielonkawym mchem p³yty grobowców, le¿a tutaj
+w nie³adzie, jakby rzucone niedbale przez jakiego¶ olbrzyma. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27025
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27025
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27023
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27023
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27025
+Name Cmentarzysko ~
+Descr Popêkane i poro¶niête dziwnym, zielonkawym mchem p³yty grobowców, le¿a
+tutaj w nie³adzie, jakby rzucone niedbale przez jakiego¶ olbrzyma. Spo¶ród
+wielu ko¶ci mo¿na wyró¿niæ czaszki ró¿nych inteligentnych istot, te
+wygl±daj± wyj±tkowo przygnêbiaj±co, przygniecione przez sterty gruzu i
+szcz±tki innych istot. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27026
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27026
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27027
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27027
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27024
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27024
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27026
+Name Cmentarzysko~
+Descr Rozbite nagrobki i ko¶ci to mroczna codzienno¶æ tego miejsca. Szcz±tki
+ró¿nych istot mieszaj± siê tutaj, tworz±c liczne stosy i przedziwne
+konstrukcje. Ile tysiêcy istot tu zmar³o? Ile wieków maj± te prastare ko¶ci?
+Na te pytania najpewniej nigdy nie bêdzie odpowiedzi. Ciemno¶ci, które
+spowijaj± to miejsce, s± trudne do roz¶wietlenia nawet dla magii, nie mówi±c
+o zwyk³ych ¼ród³ach ¶wiat³a. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27028
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27028
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27025
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27025
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27027
+Name Aleja pos±gów~
+Descr Po obu stronach tej niewielkiej alei znajduj± siê pos±gi przedstawiaj±ce
+ro¿ne postacie. Niektóre zdaj± siê byæ przyjazne, inne wrogie, a jeszcze
+inne naiwne lub pogr±¿one w smutku. Mimo ¿e pos±gi s± mocno zniszczone przez
+czas, nie straci³y nic ze swojej wyrazisto¶ci i charakteru. Emocje, które
+odzwierciedlaj± siê na twarzach pos±gów s± tak sugestywne, ¿e ciê¿ko oprzeæ
+siê ich zniewalaj±cej mocy 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27025
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27025
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27028
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27028
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27029
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27029
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27028
+Name Cmentarzysko ~
+Descr Olbrzymie pn±cza prawie zupe³nie zniszczy³y tê czê¶æ cmentarza.
+Wszêdobylskie pêdy zamieni³y to niegdy¶ wspania³e miejsce w totaln± ruinê -
+szybciej ni¿ nieub³agany czas, rabusie, czy dzikie bestie. Na niektórych
+nagrobkach, mo¿na zauwa¿yæ pismo w jakim¶ dziwnym jêzyku, s± to pewnie
+imiona tych, którzy spoczywaj± pod tymi kamieniami. Nie trud¼ siê jednak,
+aby odszyfrowaæ te napisy. Nie da siê odczytaæ znaków w jêzyku zapomnianym
+nawet przez bogów. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27026
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27026
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27030
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27030
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27027
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27027
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27029
+Name Aleja pos±gów~
+Descr Po obu stronach tej niewielkiej alei znajduj± siê pos±gi przedstawiaj±ce
+ro¿ne postacie. Niektóre zdaj± siê byæ przyjazne, inne wrogie, a jeszcze
+inne naiwne lub pogr±¿one w smutku. Mimo ¿e pos±gi s± mocno zniszczone przez
+czas, nie straci³y nic ze swojej wyrazisto¶ci i charakteru. Emocje, które
+odzwierciedlaj± siê na twarzach pos±gów s± tak sugestywne, ¿e ciê¿ko oprzeæ
+siê ich zniewalaj±cej mocy 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27027
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27027
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27030
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27030
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27016
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27016
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27030
+Name Cmentarzysko~
+Descr Olbrzymie pn±cza prawie zupe³nie zniszczy³y tê czê¶æ cmentarza.
+Wszêdobylskie pêdy zamieni³y to niegdy¶ wspania³e miejsce w totaln± ruinê -
+szybciej ni¿ nieub³agany czas, rabusie, czy dzikie bestie. Podziemny slup
+wysoko¶ci paru metrów wznosi siê tutaj. To musia³a byæ jedna z olbrzymich
+latarni, które przed wiekami roz¶wietla³a tereny cmentarza. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27028
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27028
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27017
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27017
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27029
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27029
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27031
+Name Grobowiec~
+Descr Znajdujesz siê w komnacie poka¼nej wielko¶ci, na posadzce le¿± szcz±tki
+ceramiki, która kiedy¶ musia³a w przepiêkny sposób zdobiæ to miejsce.
+Pod³oga grobowca wy³o¿ona jest kamiennymi p³ytkami, które teraz przykryte s±
+dosyæ spor± ilo¶ci± gruzu i wszêdobylskiego grzyba. 
+~
+FlagsExt 0|AD
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27035
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27035
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27033
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27033
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 27014
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+16387 0 27014
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27032
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27032
+Name Grobowiec~
+Descr Budowniczy tego miejsca musieli byæ wielkimi mistrzami w swoim fachu,
+wypuk³a kopu³a, która spe³nia role dachu, wygl±da niezwykle okazale. Pod³oga
+grobowca wy³o¿ona jest kamiennymi p³ytkami, które teraz przykryte s± dosyæ
+spor± ilo¶ci± gruzu i wszêdobylskiego grzyba 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27034
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27034
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27031
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27031
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27033
+Name Grobowiec~
+Descr Przy ¶cianach grobowca mo¿na zauwa¿yæ posagi rycerzy, w swoich kamiennych
+d³oniach dzier¿± oni potê¿ne miecze i topory. Niektórym z nich brakuje
+jednak broni, czê¶ci twarzy, albo nawet ca³ych koñczyn. Czas nie oszczêdzi³
+nawet tych nieruchomych stra¿ników. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27036
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27036
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27031
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27031
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27034
+Name Grobowiec~
+Descr Przy ¶cianach grobowca mo¿na zauwa¿yæ posagi rycerzy, w swoich kamiennych
+d³oniach dzier¿± oni potê¿ne miecze i topory. Niektórym z nich brakuje
+jednak broni, czê¶ci twarzy, albo nawet ca³ych koñczyn. Czas nie oszczêdzi³
+nawet tych nieruchomych stra¿ników. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27035
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27035
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27032
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27032
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27035
+Name Grobowiec~
+Descr Jest to jak siê zdaje naziemna czê¶æ grobowca, która s³u¿y³a
+odwiedzaj±cym za miejsce kultu. ¦wiadcz± o tym szcz±tki kamiennych ³aw, a
+tak¿e szatki rozbitego o³tarza, który znajduje siê zaraz przy pó³nocnej
+¶cianie. Na pod³odze mo¿na zauwa¿yæ resztki ozdób, które kiedy¶ upiêksza³y
+to miejsce. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27036
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27036
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27031
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27031
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27034
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27034
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27036
+Name Schody w g³±b grobowca ~
+Descr Schody, które znajduj± siê w tej czê¶ci pomieszczenia, zdaj± siê
+prowadziæ g³êboko w trzewia ziemi. Niektóre stopnie s± prawie ca³kowicie
+zniszczone, co na pewno utrudni drogê w dó³. Znajdujesz siê w komnacie
+poka¼nej wielko¶ci, na posadzce le¿± szcz±tki ceramiki, która kiedy¶ musia³a
+w przepiêkny sposób zdobiæ to miejsce. 
+~
+FlagsExt 0|D
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27033
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27033
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27035
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27035
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27037
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27037
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27037
+Name Podziemy grobowiec~
+Descr Te korytarze prowadz± g³êbiej w odmêty ziemi. O jakich prastarych czasach
+mog± ¶wiadczyæ umieszczone na tych ¶cianach wzory? Schody w górê zdaj± siê
+prowadziæ na sam± powierzchniê, korytarz wiod±cy w dó³ - drog± prowadz±c± do
+królestw Bogini Sa`fuhr. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27038
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27038
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27036
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27036
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27038
+Name Podziemy grobowiec~
+Descr Znajdujesz siê w podziemiach nekropolii. ¦ciany grobowca s± pe³ne wnêk, w
+których najwyra¼niej chowani byli zmarli - mo¿na to stwierdziæ po wielu
+spoczywaj±cych w nich ko¶ciach. Brunatny grzyb pokrywa spor± czê¶æ sufitu i
+lewej ¶ciany. Powietrze jest gêste od wszêdobylskich zarodników. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27039
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27039
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27042
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27042
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27037
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27037
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27039
+Name Podziemy grobowiec~
+Descr Teren grobowca jest nierówny, a droga któr± idziesz musia³a byæ
+nieu¿ywana od naprawdê d³ugiego czasu. Wszêdzie znajduj± siê niewielkie
+rozpadliny, które utrudniaj± piesz± wêdrówkê. W tej czê¶ci korytarza
+znajduje siê niewielki strumyk, w którym p³ynie co¶, co tylko ludzie bez
+wyobra¼ni mogliby nazwaæ brudn± wod±. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27040
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27040
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27038
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27038
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27040
+Name Podziemy grobowiec~
+Descr Korytarz zosta³ wykopany solidnie i nie grozi zawaleniem, walaj±ce siê
+jednak wszêdzie ko¶ci wywo³uj± wiêksz± grozê ni¿ odg³os skrzypi±cych stropów
+w krasnoludzkich korytarzach. Brunatny grzyb pokrywa spor± czê¶æ sufitu i
+lewej ¶ciany. Powietrze jest gêste od wszêdobylskich zarodników. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27041
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27041
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27039
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27039
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27041
+Name Podziemna krypta~
+Descr Podziemna krypta jest oddzielona od korytarzy niewielkim kamiennym
+³ukiem. ¦ciany wykonane s± z czarnego kamienia, który najwyra¼niej opar³ siê
+próbie czasu, pozosta³y one niemal tak g³adkie, jak w momencie ukoñczenia
+grobowca. Dooko³a znajduj± siê liczne uchwyty na pochodnie i lampy, które
+kiedy¶ musia³y roz¶wietlaæ komnatê. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27040
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27040
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27042
+Name Podziemy grobowiec~
+Descr Olbrzymie po³acie niszczej±cych ludzkich szcz±tków to wiêcej ni¿
+wystarczaj±co, ¿eby przestraszyæ nawet barbarzyñców ¿yj±cych na dalekiej,
+mro¼nej pó³nocy. ¯aden grobowiec nie zosta³by zbudowany na tak wielk± liczbê
+grobów. Sk±d wziê³y siê tutaj te wszystkie ko¶ci? 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27038
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27038
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27043
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27043
+Name Podziemy grobowiec~
+Descr Znajdujesz siê w podziemiach nekropolii. ¦ciany grobowca s± pe³ne wnêk, w
+których najwyra¼niej chowani byli zmarli - mo¿na to stwierdziæ po wielu
+spoczywaj±cych w nich ko¶ciach. Brunatny grzyb pokrywa spor± czê¶æ sufitu i
+lewej ¶ciany. Powietrze jest gêste od wszêdobylskich zarodników. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27042
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27042
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27045
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27045
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27044
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27044
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27044
+Name Podziemna krypta ~
+Descr Podziemna krypta jest oddzielona od korytarzy niewielkim kamiennym
+³ukiem. ¦ciany wykonane s± z czarnego kamienia, który najwyra¼niej opar³ siê
+próbie czasu, pozosta³y one niemal tak g³adkie, jak w momencie ukoñczenia
+grobowca. Dooko³a znajduj± siê liczne uchwyty na pochodnie i lampy, które
+kiedy¶ musia³y roz¶wietlaæ komnatê. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27043
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27045
+Name Podziemy grobowiec~
+Descr W korytarzach tych panuje wszêdobylski stêch³y odór. W niektórych
+miejscach obrzydliwy smród jest niemal nie do wytrzymania. Taki zapach mog±
+wytwarzaæ tylko rozk³adaj±ce siê zw³oki. W tej czê¶ci korytarza znajduje siê
+niewielki strumyk, w którym p³ynie co¶, co tylko ludzie bez wyobra¼ni
+mogliby nazwaæ brudn± wod±. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27046
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27046
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27043
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27043
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27046
+Name Podziemy grobowiec~
+Descr Teren grobowca jest nierówny, a droga któr± idziesz, musia³a byæ
+nieu¿ywana od naprawdê d³ugiego czasu. Wszêdzie znajduj± siê niewielkie
+rozpadliny, które utrudniaj± piesz± wêdrówkê. Olbrzymi g³az prawie
+ca³kowicie blokuje drogê, bêdzie potrzeba wiele wysi³ku, by têdy przej¶æ. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27045
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27045
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27047
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27047
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27047
+Name Podziemy grobowiec~
+Descr Olbrzymie po³acie niszczej±cych ludzkich szcz±tków to wiêcej ni¿
+wystarczaj±co, ¿eby przestraszyæ nawet barbarzyñców ¿yj±cych na dalekiej,
+mro¼nej pó³nocy. ¯aden grobowiec nie zosta³by zbudowany na tak wielk± liczbê
+grobów. Sk±d wziê³y siê tutaj te wszystkie ko¶ci? 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27046
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27046
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27048
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27048
+Name Olbrzymia sala~
+Descr To jest wej¶cie do najwiêkszego pomieszczenia w tej czê¶ci hypogeum. Sala
+prezentuje siê naprawdê monumentalnie. Jaka rasa mog³a wybudowaæ a¿ tak
+wielk± podziemn± komnatê, która równaæ siê mo¿e tylko z grobowcami
+krasnoludzkich królów? To pytanie na zawsze pozostanie bez odpowiedzi. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27049
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27049
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27051
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27051
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27054
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27054
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27047
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27047
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27049
+Name Olbrzymia sala~
+Descr Ta wielka sala musi byæ centrum grobowca. W okresie swojej ¶wietno¶ci
+musia³a prezentowaæ siê doprawdy wspaniale. Marmurowa, mozaikowa posadzka
+pokryta jest teraz spor± warstw± py³u i kurzu. Gdzieniegdzie sporej
+wielko¶ci kamienie wyrastaj± z posadzki niczym olbrzymie grzyby. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27050
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27050
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27048
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27050
+Name Olbrzymia sala~
+Descr Freski na ¶cianach grobowca pokazuj± sceny z ¿ycia jakiego¶ dostojnika.
+Spo¶ród wielu ca³kiem zniszczonych, czê¶æ zachowa³a siê w stanie, który
+pozwala na zidentyfikowanie zawartych tam scen. Pomiêdzy rycinami
+przedstawiaj±cymi bitewne sceny, mo¿na zobaczyæ te¿ takie, które
+przedstawiaj± codzienne ¿ycie w³odarza wype³nione przepychem i dostatkiem. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27057
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27057
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27051
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27051
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27049
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27049
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27051
+Name Olbrzymia sala~
+Descr Znajdujesz siê w centralnym miejscu tej sali. Du¿e podwy¿szenie, otoczone
+z czterech stron kolumnami, zapowiada miejsce spoczynku kogo¶ naprawdê
+wa¿nego. Podwy¿szenie ozdabiaj± magiczne symbole, które zapewne trzymaæ
+mia³y z daleka rabusiów i ró¿nej ma¶ci awanturników. Znaki czarnoksiêskie
+ju¿ dawno straci³y sw± magiczn± moc, teraz s± nie bardziej gro¼ne, ni¿
+odg³os kapi±cej wody w odleg³ych korytarzach. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27050
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27050
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27056
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27056
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27052
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27052
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27048
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27048
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27052
+Name Olbrzymia sala~
+Descr Freski na ¶cianach grobowca pokazuj± sceny z ¿ycia jakiego¶ dostojnika.
+Spo¶ród wielu ca³kiem zniszczonych, czê¶æ zachowa³a siê w stanie, który
+pozwala na zidentyfikowanie zawartych tam scen. Pomiêdzy rycinami
+przedstawiaj±cymi bitewne sceny, mo¿na zobaczyæ te¿ takie, które
+przedstawiaj± codzienne ¿ycie w³odarza wype³nione przepychem i dostatkiem. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27051
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27051
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27055
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27055
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27053
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27053
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27054
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27054
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27053
+Name Podziemna krypta~
+Descr Podziemna krypta jest oddzielona od korytarzy niewielkim kamiennym
+lukiem. ¦ciany wykonane s± z czarnego kamienia który najwyra¼niej opar³ siê
+próbie czasu, pozosta³y one niemal tak g³adkie, jak w momencie ukoñczenia
+grobowca. Dooko³a znajduj± siê liczne uchwyty na pochodnie i lampy, które
+kiedy¶ musia³y roz¶wietlaæ komnatê. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27052
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27054
+Name Olbrzymia sala~
+Descr Ta wielka sala musi byæ centrum grobowca. W okresie swojej ¶wietno¶ci
+musia³a prezentowaæ siê doprawdy wspaniale. Marmurowa, mozaikowa posadzka
+pokryta jest teraz spor± warstw± py³u i kurzu. Gdzieniegdzie sporej
+wielko¶ci kamienie wyrastaj± z posadzki niczym olbrzymie grzyby. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27048
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27048
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27052
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27055
+Name Olbrzymia sala~
+Descr Ta wielka sala musi byæ centrum grobowca. W okresie swojej ¶wietno¶ci
+musia³a prezentowaæ siê doprawdy wspaniale. Marmurowa, mozaikowa posadzka
+pokryta jest teraz spor± warstw± py³u i kurzu. Gdzieniegdzie sporej
+wielko¶ci kamienie wyrastaj± z posadzki niczym olbrzymie grzyby. 
+~
+Nightdescr Ta wielka sala musi byæ centrum grobowca. W okresie swojej ¶wietno¶ci
+musia³a prezentowaæ siê doprawdy wspaniale. Marmurowa, mozaikowa posadzka
+pokryta jest teraz spor± warstw± py³u i kurzu. Gdzieniegdzie sporej
+wielko¶ci kamienie wyrastaj± z posadzki niczym olbrzymie grzyby. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27056
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27056
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27052
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27052
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27056
+Name Olbrzymia sala~
+Descr Znajdujesz siê w czê¶ci krypty najbardziej oddalonej od wej¶cia. Ta czê¶æ
+tego wielkiego grobowca jest doszczêtnie zawalona gruzem i olbrzymimi
+kamieniami. Jakie wspania³o¶ci musia³y zostaæ pogrzebane pod tonami g³azów ?
+Tego pewnie nigdy siê nie dowiesz. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27057
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27057
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27055
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27055
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27051
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27051
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27057
+Name Olbrzymia sala~
+Descr Ta wielka sala musi byæ centrum grobowca. W okresie swojej ¶wietno¶ci
+musia³a prezentowaæ siê doprawdy wspaniale. Marmurowa, mozaikowa posadzka
+pokryta jest teraz spor± warstw± py³u i kurzu. Gdzieniegdzie sporej
+wielko¶ci kamienie wyrastaj± z posadzki niczym olbrzymie grzyby. 
+~
+FlagsExt 0|D
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27056
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27056
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27050
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27050
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27058
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27061
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27062
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27062
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15138
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15138
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27062
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27061
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27061
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27063
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27063
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27063
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27062
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27062
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27064
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27064
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27064
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27063
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27063
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27065
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27065
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27065
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27066
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27066
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27064
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27064
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27066
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27065
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27065
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27067
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27067
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27067
+Name Podziemny tunel~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38881
+ExitExtEnd
+Exit 1
+~
+~
+0 0 38881
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27066
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27066
+DayRDesc 15101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 30 27030 0 27006
+O 30 27030 0 27007
+M 100 27001 15 27007 3
+O 30 27030 0 27008
+O 30 27030 0 27009
+O 100 27010 0 27010
+M 100 27002 7 27010 3
+O 30 27030 0 27011
+M 100 27001 15 27011 3
+O 100 27020 0 27012
+M 100 27001 15 27013 3
+O 30 27030 0 27014
+M 100 27001 15 27014 3
+O 30 27030 0 27015
+M 100 27001 15 27015 3
+M 100 27002 7 27016 3
+O 30 27030 0 27019
+M 100 27002 7 27019 3
+M 100 27002 7 27022 3
+O 30 27030 0 27023
+M 100 27002 7 27025 3
+O 30 27030 0 27026
+M 100 27001 15 27026 3
+O 30 27030 0 27027
+M 100 27002 7 27027 3
+O 100 27029 0 27029
+M 100 27001 15 27029 3
+O 30 27030 0 27030
+M 100 27001 15 27030 3
+M 100 27006 10 27035 3
+M 100 27006 10 27037 3
+M 100 27007 2 27040 1
+M 100 27004 1 27041 1
+O 100 27040 0 27041
+M 100 27006 10 27042 3
+M 100 27006 10 27043 3
+O 100 27040 0 27044
+M 100 27004 2 27044 1
+M 100 27006 10 27046 3
+M 100 27006 10 27048 3
+M 100 27006 10 27050 3
+M 100 27005 1 27051 1
+E 100 3032 0 5
+O 100 27054 0 27051
+M 100 27006 10 27052 3
+O 100 27040 0 27053
+M 100 27004 3 27053 1
+M 100 27007 2 27056 1
+O 100 3157 0 27058
+S
+
+
+
+#MOBPROGSNEW
+#27001
+~
+if rand 50
+  mob echoat $n Przeklêta dusza rzuca siê na ciebie z piekieln± furi±.
+else
+  mob echo Nieumar³y wyje przera¼liwie i z nienawi¶ci± kontynuuje ataki.
+endif
+~
+#27002
+~
+Mob echo Ko¶ci z których sk³ada³ siê nieumar³y rozsypuj± siê po ca³ym pomieszczeniu.
+Mob unlock wyj¶cie
+~
+#27003
+Zak³adanie broni 
+~
+if rand 20
+  mob equip self 3153
+else
+  mob equip self 3154
+endif
+~
+#27004
+kamienie
+~
+mob oload gem 2
+if rand 50
+mob oload gem 3
+else
+mob oload gem 2
+if rand 50
+mob oload gem 2
+endif
+endif
+mob echo Strachulec pada na ziemie krzycz±c w agoni. Jego cia³o znika, a na ziemi pojawiaj± siê drogocenne kamienie.
+~
+#27005
+kamienie duzy
+~
+if rand 80
+mob oload gem 4
+else
+mob oload gem 3
+endif
+~
+#27006
+kamienie rycerz
+~
+mob oload gem 3
+mob oload gem 3
+mob oload gem 4
+mob oload gem 5
+mob oload neck 5
+if rand 50
+  mob oload gem 6
+else
+  mob oload gem 7
+endif
+~
+#27007
+Przemowa Rycerza
+~
+say TEN KTO ZAK£ÓCA SPOKÓJ UMAR£YCH, GINIE.
+~
+#szkielet1
+~
+mob setflag room szkielet 20
+Mob echo Ko¶ci z których sk³ada³ siê nieumar³y rozsypuj± siê po ca³ym pomieszczeniu.
+Mob unlock wyj¶cie
+~
+#0
+
+#OBJPROGSNEW
+#27001
+~
+If roomhasflag szkielet
+Or mobhere 27003
+  Break
+else
+  mob echo S³yszysz przera¼liwy ¶wist po czym spod pokrywy sarkofagu unosi siê niebieska mg³a.
+  Mob close wyj¶cie
+  Mob lock wyj¶cie 
+  Minidelay 1
+  Mob echo Z przera¿eniem zdajesz sobie sprawê z tego, ¿e drzwi za tob± zamykaj± siê.
+  Minidelay 1
+  Mob echo Pod wp³ywem niebieskiej mg³y, z licznych ko¶ci tu zgromadzonych, zaczyna siê formowaæ upiorna sylwetka
+  Minidelay 1
+  Mob echo Ponury stra¿nik, z³o¿ony z posklejanych przez magie ko¶ci, zostaje przywo³any by strzec tego grobu. Walcz albo giñ.
+  Mob mload 27003
+endif
+~
+#27002
+skarby w skrzyni 
+~
+mob oload gem 3 i 27020
+mob oload weapon 3 i 27020
+~
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 27015
+DescRand ble ble ble 
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

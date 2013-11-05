@@ -1,0 +1,687 @@
+#AREADATA
+Name {RCLAN{x: Armia Sojuszu~
+Builders Klan~
+VNUMs 39828 39843
+Credits Senhan
+poprawki: Wicia
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 39828
+Name wielki dwug³owy pies~
+Odmiana {Wwielkiego dwuglowego psa{x~{Wwielkiemu dwuglowemu psu{x~{Wwielkiego dwuglowego psa{x~{Wwielkim dwuglowym psem{x~{Wwielkim dwuglowym psie{x~
+Short {Dwielki dwug³owy pies{x~
+Long {DWielki dwuglowy pies stoi na strazy.{x~
+Descr {DWielki dwug³owy pies{x stoi przed bram±. Widzisz na jego szyji obro¿ê do
+której jest przyczepiony ogromny ³añcuch koñcz±cy siê wmurowaniem w
+fortyfikacjê. Ta bestia to jedna ze zdobyczy wojennych {BSacrianny{x, pojmany i
+zmuszony do strze¿enia siedziby klanu. 
+~
+Race pó³elf~
+ActExt 0|ABT
+Affected 33554440 524288 0 0
+AffectedExt 0|DZ/1|T
+Align 2
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+600
+Damage 3d5+2
+Dammagic 2
+Weaponbonus 2
+Damflags 8
+Attack gryzienie
+XAC 4 5 2 1
+Stats 150 120 120 144 120 120 90
+Off CZc
+OffExt 0|CZc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size giant
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 39829
+Name sprzedawca sajgon sklepikarz~
+Odmiana sklepikarza sajgona~sklepikarzowi sajgonowi~sklepikarza sajgona~sklepikarzem sajgonem~sklepikarzu sajgonie~
+Short sprzedawca Sajgon~
+Long Sprzedawca Sajgon oferuje ci swoje towary.~
+Descr Zmêczony ¿yciem starzec siedzi tu ca³ymi dniami i sprzedaje swoje towary.
+Mimo, ¿e nie zarabia na tym wiele to nie chce ani zrezygnowaæ ani odsprzedaæ
+swojego straganu. Patrz±c na niego nie jeste¶ pewien czy jest w stanie
+zaoferowaæ ci co¶ godnego twojej uwagi. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+1000
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 144 120 90 90 96 108 108
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 39828
+Name kolczyk promyk nadziei~
+Odmiana kolczyka "{RPro{Ymyk Nad{Rziei{x"~kolczykowi "{RPro{Ymyk Nad{Rziei{x"~kolczyk "{RPro{Ymyk Nad{Rziei{x"~kolczykiem "{RPro{Ymyk Nad{Rziei{x"~kolczyku "{RPro{Ymyk Nad{Rziei{x"~
+Short kolczyk "{RPro{Ymyk Nad{Rziei{x"~
+Descr Kolczyk "{RPro{Ymyk Nad{Rziei{x" ¶wieci magicznym blaskiem.~
+Material adamantyt~
+Type jewelry
+ExtraExt 0|HMY
+Wear AT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1500
+Cond 75
+Aff 1 12 4 10 0 0
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 39828
+Name Wej¶cie do obozowiska~
+Descr Wkraczasz na jakie¶ dziwne tereny. Dokoko³a panuje pó³mrok, lecz jest tu
+do¶æ mi³o i przyjemnie. Nie bardzo wiesz gdzie siê znajdujesz. Mo¿e to sen,
+a mo¿e jawa. Jest to jakie¶ magiczne miejsce i czujesz siê trochê
+niebezpiecznie. W rogu tego pomieszczenia s± jakie¶ magiczne {Dwrota{x, bardzo
+s³abo widoczne. Ciekawe co siê za nimi kryje? 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wrota~
+ExitExtName wrota~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 39829
+ExitExtEnd
+Exit 0
+~
+VName Wrota~
+wrota~
+16 0 39829
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39829
+Name Plac apelowy~
+Descr Stoisz na rozleg³ym placu, na którym widaæ trzy wysokie maszty z
+powiewaj±cymi na nich chor±gwiami dowódcy i dwoch genera³ów. Plac jest
+bardzo du¿y i zadbany, bez problemu mo¿e na nim sie zmie¶ciæ cala armia.
+Zosta³ wy³ozony granitow± kostk± jedna obok drugiej. Tworz± one przeró¿ne
+wzory dekoracyjne. Wyglada to dosyæ ciekawie. W rogu placu widzisz magiczne
+przej¶cie, to chyba {Dwyj¶cie{x z tego miejsca. 
+~
+FlagsExt 0|H
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39837
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39837
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39830
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39830
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 39828
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+16 0 39828
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39831
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39831
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39830
+Name Korytarz~
+Descr Dobrze o¶wietlony korytarz wysprz±tany i odnowiony, zastanawiasz siê
+dlaczego, ale po chwili ju¿ wiesz gdy¿ zapach unosz±cy siê w powietrzu to
+zapach smacznego jedzenia. Ju¿ wiesz gdzie prowadzi ten korytarz, do jadalni
+przy¶pieszasz kroku, bo nie mo¿esz siê doczekaæ tego, co tak ³adnie pachnie.
+~
+FlagsExt 0|H
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39838
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39838
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39840
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39840
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39841
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39841
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39829
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39829
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39831
+Name Korytarz~
+Descr Do¶æ obskurny i w±ski korytarz prowadz±cy do sali æwiczeñ, wydaje ci±gn±c
+siê w nieskoñczono¶æ czuæ tu trochê stêchlizn± i potem dochodz±cym z sali.
+Id±c korytarzem wydaje ci siê, ¿e zaraz ciê zgniot± zbli¿aj±ce siê ¶ciany,
+na szczê¶cie to tylko twoja wyobra¼nia. 
+~
+FlagsExt 0|H
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39835
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39835
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39829
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39829
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39832
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39832
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39834
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39834
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39832
+Name Sklepik w przejsciu~
+Descr Wchodz±c w korytarz zauwa¿asz, ¿e z prawej strony stoi ma³y kontuar i
+sprzedawcê, który oferuje ci swoje towary. Ma³y, ¼le ubrany i strasznie
+mizerny sprzedawca stoi za kontuarem. Je¶li go poprosisz to mo¿e co¶ Ci
+sprzeda. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39831
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39831
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39833
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39833
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39833
+Name Wie¿a obserwacyjna~
+Descr Wysoka wie¿a, na której w czasie zagro¿enia mog± staæ ³ucznicy i atakowaæ
+przeciwnika gradem strza³. Stoj±c na niej widzisz ze siedziba posiada cztery
+takie same wierze z czterech stron ¶wiata, co, pozawala na sta³± i pe³n±
+obserwacjê okolicy, ¿eby nie zostaæ zaskoczonym przez wroga. 
+~
+FlagsExt 0|H
+Sector 36
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39832
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39832
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39834
+Name Sala æwieczeñ~
+Descr Widzisz w tej sali wiele sprzêtów do æwiczeñ i przedziwnych gimnastyk.
+Jest to miejsce gdzie ¿o³nierze wylewaj± z siebie litry potu i mêcz± a¿ do
+upad³ego ¿eby byæ chod¼ trochê lepszymi i bardziej sprawnymi. Widzisz tutaj
+ró¿ne kuk³y, manekiny i dr±¿ki do æwiczeñ. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39831
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39831
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39835
+Name Zbrojownia~
+Descr Wchodz±c do zbrojowni dostrzegasz ogromne skrzynie wisz±ce na ¶cianach,
+dziwi ciê fakt, i¿ w takiej ma³ej zbrojowni mo¿e siê zmie¶ciæ a¿ tyle skrzyñ
+z broni±, w ka¿dej skrzynie pewnie ka¿dy by znalaz³ co¶ dla siebie,
+poczynaj±c od w³óczni, a koñcz±c na mieczu. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39836
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39836
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39831
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39831
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39836
+Name Wie¿a obserwacyjna~
+Descr Wysoka wie¿a, na której w czasie zagro¿enia mog± staæ ³ucznicy i atakowaæ
+przeciwnika gradem strza³. Stoj±c na niej widzisz ze siedziba posiada cztery
+takie same wierze z czterech stron ¶wiata, co, pozawala na sta³± i pe³n±
+obserwacjê okolicy, ¿eby nie zostaæ zaskoczonym przez wroga. 
+~
+FlagsExt 0|H
+Sector 36
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39835
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39835
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39837
+Name Sala narad~
+Descr D³ugi stó³ na ¶rodku z wieloma rozrzuconymi mapami i zapisanymi kartkami.
+Do¶æ dziwne miejsce jak na pierwszy rzut oka, ale jest to sala narad prze i
+po bitwach. Rozwa¿anie strateg i podstêpów, sztuczek i forteli ¿eby ³atwiej
+i szybciej pokonaæ przeciwnika odbywa siê w³a¶nie tutaj. Nad g³ównym
+miejscem u szczytu sto³u wisi wielka chor±giew z herbem armii, wielka g³owa
+lwa, a w tle skrzy¿owane dwa topory. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39829
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39829
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39838
+Name Kaplica~
+Descr Wchodz±c do tej ma³ej kaplicy dostrzegasz krzy¿, do którego najczê¶ciej
+modl± siê kap³ani i magowie, przy modlitwie kap³an czy mag najczê¶ciej
+zapamiêtuj± czary. Emanuje w tym miejscu tajemnicza aura, która ogrzewa tw±
+twarz. Posadzka wy³o¿ona jest bia³ym marmurem, a wogó³ krzy¿a stoj± ró¿ne
+pos±¿ki i ozdobniki. 
+~
+FlagsExt 0|BFH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39839
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39839
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39830
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39830
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39839
+Name Wie¿a obserwacyjna~
+Descr Wysoka wie¿a, na której w czasie zagro¿enia mog± staæ ³ucznicy i atakowaæ
+przeciwnika gradem strza³. Stoj±c na niej widzisz ze siedziba posiada cztery
+takie same wierze z czterech stron ¶wiata, co, pozawala na sta³± i pe³n±
+obserwacjê okolicy, ¿eby nie zostaæ zaskoczonym przez wroga. 
+~
+FlagsExt 0|H
+Sector 36
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39838
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39838
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39840
+Name Jadalnia~
+Descr Spota, obszerna izba, w której poustawiane s± sto³y i krzes³a. Nic
+nadzwyczajnego, zwyk³a przytulna jadalnia gdzie mo¿na w spokoju i ciszy
+zje¶æ ciep³y i smacznu posi³ek po trudnych walkach i ciê¿kich æwieczeniach.
+W powietrzu unosi siê smakowity zapach grochówki. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39830
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39830
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39841
+Name Sala odpoczynku~
+Descr Wchodzisz do sali odpoczynku i zdajesz sobie sprawê jakby w tej sali
+gromadzi³a siê si³a dobra, która przy¶pieszy ci leczenie. Jest tu ciep³o i
+przyjemnie. Nic tylko nieruszaæ siê z miejsca. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39830
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39830
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39842
+ExitExtEnd
+Exit 1
+~
+~
+0 0 39842
+Heal 105
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39842
+Name Wie¿a obserwacyjna~
+Descr Wysoka wie¿a, na której w czasie zagro¿enia mog± staæ ³ucznicy i atakowaæ
+przeciwnika gradem strza³. Stoj±c na niej widzisz ze siedziba posiada cztery
+takie same wierze z czterech stron ¶wiata, co, pozawala na sta³± i pe³n±
+obserwacjê okolicy, ¿eby nie zostaæ zaskoczonym przez wroga. 
+~
+FlagsExt 0|H
+Sector 36
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39841
+ExitExtEnd
+Exit 3
+~
+~
+0 0 39841
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+39829 0 1 33 15 0 100 100 0 23 * 39832
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 39828 1 39828 1
+M 100 39829 29832 39832 1
+G 100 39828 0
+G 100 3380 0
+G 100 3370 0
+O 100 2362 0 39837
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

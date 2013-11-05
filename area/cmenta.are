@@ -1,0 +1,2435 @@
+#AREADATA
+Name +# Cmentarzysko~
+Builders Feerial~
+VNUMs 6770 6799
+Credits Twórca: Feerial, Poprawki: Garloop~
+Locked ~
+Security 9
+ResetAge 15
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 6770
+Name szczur gryzoñ~
+Odmiana szczura~szczurowi~szczura~szczurem~szczurze~
+Short dziwny szczur~
+Long Dziwny szczur o nienaturalnie d³ugim ogonie biega tutaj.~
+Descr Ten dziwaczny szczur o szarym futerku ma nienaturalnie d³ugi ogon, który
+jest parokrotnie wiêkszy od samego stworzenia. Do³±czaj±c do tego dwa
+nienaturalnie du¿e, czerwone ¶lepia powstaje istnie koszmarny widok. 
+~
+Race szczur~
+ActExt 0|AH
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -50
+Group 0
+Lang J
+Speaks 9
+Level 1
+Hitroll 0
+HP 2d5+10
+Damage 1d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 9 9 9 10
+Stats 60 60 60 120 60 78 78
+Off FU
+OffExt 0|FU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size tiny
+Material unknown
+Corpse 6782
+Skin 100
+ExpMultiplier 130
+Resist 4 -5
+Mobend
+#Vnum 6771
+Name duch mê¿czyzna duch mê¿czyzny stra¿nik wartownik boss~
+Odmiana {wducha stra¿nika{x~{wduchowi stra¿nikowi{x~{wducha stra¿nika{x~{wduchem stra¿nikiem{x~{wduchu stra¿niku{x~
+Short {wduch stra¿nik{x~
+Long {wMglisty duch mê¿czyzny ubrany w zbrojê lewituje nad ziemi±.{x~
+Descr Z pocz±tku ten dziwny, mleczny ob³ok wydaje siê byæ jedynie par± wodn±.
+Gdy jednak przygl±dasz mu siê uwa¿nie zauwa¿asz twarz, tu³ów, rêce i nogi.
+To niew±tpliwie duch. Zjawa majaczy kilka metrów nad ziemi± i patrzy na
+ciebie swoimi pustymi, czarnymi ¶lepiami. Wygl±da na to, ¿e to jaki¶
+stra¿nik, ciekawe czego pilnuje? 
+~
+Race upiorny rycerz~
+ActExt 0|ABOd/2|C
+Affected 80 0 0 0
+AffectedExt 0|EG
+Align -500
+Group 0
+Lang A
+Speaks 0
+Level 17
+Hitroll 0
+HP 10d12+400
+Damage 2d7+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 0
+Stats 138 132 102 138 132 78 78
+Off CKX
+OffExt 0|CKX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form EFMV
+Parts ABCDEFGHIJK
+Size medium
+Material unknown
+Comments Spolszczylem, desc, podciagnalem lvl z 3-ego bo paranoja byla. Poprawilem long i short. - {RGarloop{x ({CSat Jan 11 19:28:17 2003{x)
+Dodalem mu eq z proga. - {RGarloop{x ({CSat Jan 11 20:30:47 2003{x)
+~
+MobprogNew death modl_quest ABCDEFGHI 100~
+MobprogNew random 6771 FGI 5~
+MobprogNew onload 6770 ABCDEFGHI 100~
+Spells 10 31 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 11 1
+Resist 13 100
+Resist 14 100
+Mobend
+#Vnum 6772
+Name zjawa duch upiór niematerialna pó³prze¼roczysta~
+Odmiana zjawy~zjawie~zjawê~zjaw±~zjawie~
+Short pó³prze¼roczysta zjawa~
+Long Niematerialna, pó³prze¼roczysta zjawa unosi siê nad ziemi±.~
+Descr ~
+Race duch~
+ActExt 0|ACGOR
+Affected 557058 0 0 0
+AffectedExt 0|BPT
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 10d9+110
+Damage 1d5+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack chlod
+XAC 6 6 6 6
+Stats 60 96 102 78 60 78 78
+Off GY
+OffExt 0|GY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form IL
+Parts ABCGHI
+Size medium
+Material unknown
+Comments Poprawilem odmiane, short, long, desc, dodalem damtype i kilka name. - {RGarloop{x ({CSat Jan 11 20:33:07 2003{x)
+~
+Spells 12 16 163 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 1 50
+Resist 2 50
+Resist 3 20
+Mobend
+#Vnum 6773
+Name ponura wied¼ma czarownica~
+Odmiana wied¼my~wied¼mie~wied¼me~wied¼m±~wied¼mie~
+Short ponura wied¼ma~
+Long Ponura wied¼ma siedzi przy kocio³ku.~
+Descr Gdy przygl±dasz siê tej okropnej maszkarze zdajesz sobie sprawê, ¿e to
+cz³owiek, a raczej elf. Jej d³ugi haczykowaty nos jest ozdobiony przez
+okropn±, w³ochat± brodawkê. Na g³owie nosi przetart± tiarê a ca³a ubrana
+jest w co¶, co wygl±da jak zlepek najgorszych szmat jakie mo¿na by³o
+odszukaæ. S³owem wypisz, wymaluj rasowa wied¼ma. Na dodatek siedzi przy
+kocio³ku i wa¿y mikstury. 
+~
+Race elf~
+ActExt 0|ABKQRW
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -700
+Group 0
+Lang AB
+Speaks 0
+Level 20
+Hitroll 5
+HP 61d5+695
+Damage 4d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 9
+Stats 90 138 138 96 90 78 78
+Off 0
+OffExt 0
+Pos_start sit
+Pos_def stand
+Sex female
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give 6774 FGI 6782~
+MobprogNew random 6773 FGI 5~
+Spells 26 86 229 137
+Spells 15 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 6775
+Name ob³±kany kap³an wariat szalony kleryk me¿czyzna cz³owiek~
+Odmiana ob³±kanego kap³ana~ob³±kanemu kap³anowi~ob³±kanego kap³ana~ob³±kanym kap³anem~ob³±kanym kap³anie~
+Short ob³±kany kap³an~
+Long Ob³±kany kap³an stoi tu i wpatruje siê w ziemiê.~
+Descr Ten cz³owiek ju¿ z daleka wygl±da na wariata. Zauwa¿asz, ¿e ci±gle
+wymachujê koñczynami na boki i robi g³upie miny do ¶cian. Od czasu do czasu
+co¶ sobie mruknie, najczê¶ciej ca³kowicie niezrozumiale, do siebie. Ubrany
+jest w podarty, szarawy p³aszcz a jego d³ugie, jasne blond w³osy opadaj± na
+ramiona. Twarz porasta mu gêsta, szczeciniasta broda i grube w±sy. Ogólnie
+wygl±da odra¿aj±co. 
+~
+Race cz³owiek~
+ActExt 0|ABCQ
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 13
+Hitroll 0
+HP 5d10+200
+Damage 2d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 7 7 7 10
+Stats 96 126 138 126 108 78 78
+Off P
+OffExt 0|P
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments zmiani³em assist_players na assist_all bo gracze nim mobty zmiekczali - {RGurthg{x ({CSun Sep 14 23:54:47 2003{x)
+~
+Spells 12 30 31 149
+Spells 137 89 86 166
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 6776
+Name szczur gryzoñ~
+Odmiana szczura~szczurowi~szczura~szczurem~szczurze~
+Short ma³y szczur~
+Long Malutki, szary szczur biega dooko³a.~
+Descr Ten dziwaczny szczur o szarym futerku ma nienaturalnie d³ugi ogon, który
+jest parokrotnie wiêkszy od samego stworzenia. Do³±czaj±c do tego dwa
+nienaturalnie du¿e, czerwone ¶lepia powstaje istnie koszmarny widok. 
+~
+Race szczur~
+ActExt 0|AH
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -50
+Group 0
+Lang J
+Speaks 9
+Level 1
+Hitroll 0
+HP 2d5+7
+Damage 1d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 9 9 9 10
+Stats 60 60 60 120 60 78 78
+Off FRU
+OffExt 0|FRU
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRS
+Size tiny
+Material unknown
+Corpse 6782
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 6777
+Name wielka mumia zabanda¿owany wiêksza mumia_c~
+Odmiana {Wwielkiej mumii{x~{Wwielkiej mumii{x~{Wwielk± mumiê{x~{Wwielk± mumi±{x~{Wwielkiej mumii{x~
+Short {Wwiêksza mumia{x~
+Long {WWiêksza mumia z nieludzkim jêczeniem cz³apie po okolicy.{x~
+Descr Tego nieumar³ego chyba nikomu przedstawiaæ nie trzeba. Mumia jakich
+spotyka siê wiele w starych grobowcach i katakumbach. Ten okaz jest
+wyj±tkowo du¿y i zachowuje siê wyj±tkowo gro¼nie. 
+~
+Race mumia~
+ActExt 0|ACEFGOT
+Affected 560 0 0 0
+AffectedExt 0|EFJ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 14
+Hitroll 3
+HP 12d10+240
+Damage 2d8+1
+Dammagic 1
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 4 4 4 0
+Stats 144 120 120 96 132 78 78
+Off CVXc
+OffExt 0|CVXc
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form CIJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+MobprogNew death mumia_death ABCDEFGHI 100~
+MobprogNew onload 6775 ABCDEFGHI 100~
+Spells 12 228 86 31
+Spells 149 0 0 0
+Corpse -1
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 10
+Resist 3 40
+Resist 5 -10
+Resist 7 10
+Resist 8 100
+Resist 12 100
+Resist 13 100
+Resist 16 100
+Mobend
+#Vnum 6778
+Name kosciany szkielet~
+Odmiana szkieleta~szkieletowi~szkielet~szkieletem~szkielecie~
+Short szkielet~
+Long Klekocz±cy swoimi nagimi gnatami szkielet z pustymi, czarnymi oczodo³ami.~
+Descr ~
+Race szkielet~
+ActExt 0|AFMOT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang 0
+Speaks 0
+Level 12
+Hitroll 0
+HP 4d4+300
+Damage 2d5+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 5
+Stats 96 78 78 102 102 78 78
+Off CI
+OffExt 0|CI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form CIJ
+Parts ABCGHIJKR
+Size medium
+Material unknown
+Corpse 3369
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 6779
+Name wysoki mê¿czyzna czarny stra¿nik~
+Odmiana czarnego stra¿nika~czarnemu stra¿nikowi~czarnego stra¿nika~czarnym stra¿nikiem~czarnym stra¿niku~
+Short czarny stra¿nik~
+Long Wysoki mê¿czyzna w czarnym he³mie przechodzi têdy strzeg±c grobów przed rabusiami.~
+Descr ~
+Race pó³elf~
+ActExt 0|AGKd
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 3
+HP 1d1+500
+Damage 2d4+1
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 144 72 72 108 144 120 84
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 6771
+Name suche martwe drzewo~
+Odmiana drzewa~drzewu~dzewo~drzewem~drzewie~
+Short drzewo~
+Descr Suche, martwe drzewo stoi tu strasz±c swoim wygl±dem.~
+Material drewno~
+Type trash
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Objprog input 6777 zlam drzewo~
+Objprog input 6777 zlam drzewko~
+Itemdesc To suche drzewo wygl±da na dosyæ kruche. Mo¿esz spróbowaæ je z³amaæ,
+jednak jaki mia³by byæ tego cel? W okolicy nie dostrzegasz inaczej
+wygl±daj±cych ro¶lin. Wszystkie zdaj± siê byæ suche. Martwe. 
+~
+Comments Zmienilem long - {RGarloop{x ({CFri Jan 17 11:13:01 2003{x)
+a ja poprawi³em typo w longu - {RGurthg{x ({CTue Feb 11 11:11:25 2003{x)
+~
+Objend
+#Vnum 6772
+Name nagrobek zaro¶niêty p³yta 6772~
+Odmiana nagrobka~nagrobkowi~nagrobek~nagrobkiem~nagrobku~
+Short nagrobek~
+Descr Widzisz tu podniszczony i zaro¶niêty traw± nagrobek.~
+Material marmur~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 0
+Cond 100
+Comments Poprawilem long - {RGarloop{x ({CFri Jan 17 11:14:02 2003{x)
+~
+Objend
+#Vnum 6779
+Name du¿y garnek kocio³ek~
+Odmiana kocio³ka~kocio³kowi~kocio³ek~kocio³kiem~kocio³ku~
+Short {Ddu¿y kocio³ek{x~
+Descr {DDu¿y kocio³ek{x ustawiony nad niewielkim {Yogniskiem{x.~
+Material ¿elazo~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 50 0 0 40 -1 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 60
+Cond 100
+Itemdesc Ten du¿y, ¿elazny kocio³ek przypomina ci dobre, domowe czasy, kiedy
+babcia gotowa³a zupy na obiad. Jednak zawarto¶æ tego garnka jest daleka od
+uznania za apetyczn±. Zauwa¿asz w nim p³ywaj±ce ga³ki oczne, ogony, ³uski i
+inne dziwne czê¶ci cia³±. Tak¿e zapach unosz±cy siê z nad kocio³ka nie jest
+zbyt mi³y. Kocio³ek ustawiony jest nad pal±cym siê ogniskiem i co chwile
+jaki¶ wiêkszy jêzor ognia oplata garnek. 
+~
+Comments ~
+Objend
+#Vnum 6780
+Name drewniana ³y¿ka~
+Odmiana drewnianej ³y¿ki~drewnianej ³y¿ce~drewnian± ³y¿kê~drewnian± ³y¿k±~drewnianej ³y¿ce~
+Short drewniana ³y¿ka~
+Descr Prosta drewniana ³y¿ka wygl±da na porzucon±.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc To oto jest zwyk³a, prosta ³y¿ka wykonana z drewna jakich wiele we
+wszystkich szanuj±cych wygodê domostwach. Ten egzemplarz nie wyró¿nia siê
+niczym szczególnym, poza faktem, ¿e kiedy¶ nale¿a³ do pewnej odra¿aj±cej
+wied¼my. 
+~
+Comments ~
+Objend
+#Vnum 6781
+Name kartka przepis receptura~
+Odmiana kartki~kartce~kartkê~kartk±~kartce~
+Short kartka ze sk³adnikami wywaru~
+Descr Kartka ze sk³adnikami jakiego¶ czarodziejskiego wywaru lub mikstury.~
+Material papier~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Na do sporz±dzenia magicznego wywaru potrzebuje:
+- 1 ksiêgi "Necronumericon" gdzie tajemne inkantacje s± zawarte
+- 1 fiolki z krwi± strasznego Starszego Mózgu ³upie¿ców umys³u
+- 1 pukla w³osów nimfy wodnej
+~
+Comments ~
+Objend
+#Vnum 6782
+Name cia³o szczura corpse~
+Odmiana cia³a szczura~cia³u szczura~cia³o szczura~cia³em szczura~ciele szczura~
+Short {Dcia³o szczura{x~
+Descr Niewielkie, wci±¿ ciep³e {Dcia³o szczura{x le¿y tutaj.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 8
+Cost 60
+Cond 50
+Itemdesc To cia³o kiedy¶ nale¿a³o, do weso³ego, bystrego, wiecznie szczê¶liwego
+szczurka, którego kto¶ pozbawi³ ¿ycia. Cia³o jest jeszcze ciep³e, a futerko
+je obrastaj±ce miêkkie, choæ niezbyt pachn±ce. 
+~
+Identdesc Nie udaje ci siê dowiedzieæ nic szczególnego o ciele szczura. Cia³o jak
+cia³o, inne nie bêdzie. Nie ma tu nic wyj±tkowego. 
+~
+Comments Zmniejszam wagê - co to za szczur, którego cia³o wa¿y 2kg? teraz jest realniej i lepiej dla newbiaków - {RQuarius{x ({CSun Feb 27 19:07:02 2011{x)
+~
+Objend
+#Vnum 6784
+Name kamienny sarkofag grobowiec trumna~
+Odmiana sarkofagu~sarkofagowi~sarkofag~sarkofagiem~sarkofagu~
+Short kamienny sarkofag~
+Descr Piêknie zdobiony sarkofag wykonany z kamienia.~
+Material kamieñ~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 90 5 0 -1 1 0 0
+Repair 0 0 0 0
+Length 0
+Weight 7000
+Cost 60
+Cond 75
+Objprog objopen 6776 100~
+Itemdesc Ten sarkofag zosta³ wykonany w kamieniu. Pokrywaj± go liczne zdobienia
+przedstawiaj±ce normalne, ¿yciowe sceny a tak¿e sceny z legend i ba¶ni.
+Dostrzegasz obrazy wielkiej bitwy jak i rytua³y sk³adania ofiar. Zapewne
+pochowany jest tu kto¶ kto w swoich czasach by³ naprawdê wa¿ny i znamienity.
+~
+Comments ~
+Objend
+#Vnum 6785
+Name kupka banda¿y banda¿e banda¿e-mumii komponent~
+Odmiana {wkupki banda¿y{x~{wkupce banda¿y{x~{wkupkê banda¿y{x~{wkupk± banda¿y{x~{wkupce banda¿y{x~
+Short {wkupka banda¿y{x~
+Descr Kupka {wbia³ych banda¿y{x oraz odrobina prochu to jedyne co pozosta³o po mumii.~
+Material len~
+Type trash
+ExtraExt 0|E
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Komponent 1 6000
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 10
+Cost 1
+Cond 100
+Itemdesc Gdy przygl±dasz siê bli¿ej kupce banda¿y nachodz± ciê w±tpliwo¶ci jakim
+cudem jeszcze nie tak dawno temu w te lniane skrawki by³ ubrany okropny
+potwór. I co siê z nim sta³o po ¶mierci. Wygl±da na to, ¿e wyparowa³.
+Niemniej banda¿e wygl±daj± na naprawde stare, lecz ¶wietnie zachowane. Przez
+chwilê wydaje ci siê, ¿e czujesz nik³y aromat olejków zapachowych, ale to
+chyba tylko z³udzenie. 
+~
+Identdesc Banda¿e, pozosta³o¶æ po nieumar³ych mumiach, s± wysoko cenionym i silnym
+komponentem magii nekromanckiej. Przesi±kniête s± moc± negatywnej energii,
+która za '¿ycia' pulsowa³a w ciele nieumar³ej abominacji. 
+~
+Comments ~
+Objend
+#Vnum 6786
+Name z³amane drzewo~
+Odmiana z³amanego drzewa~z³amanemu drzewu~z³amane drzewo~z³amanym drzewem~z³amanym drzewie~
+Short z³amane drzewo~
+Descr Z³amane na dwa kawa³ki drzewo le¿y tutaj.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Z³amane na dwie czê¶ci przez kogo¶, lub przez co¶, drzewo.
+~
+Comments ~
+Objend
+#Vnum 6796
+Name dziupla~
+Odmiana dziupli~dziupli~dziuple~dziupla~dziupli~
+Short dziupla~
+Descr Widzisz tu jakies wpol martwe drzewo.~
+Material drewno~
+Type container
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 100 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Extradesc drzewo~
+Stare sczerniale drzewo rosnie kolo sciezki, chociaz
+zamiast slowa 'rosnie' lepsze by bylo 'stoi' - gdyz
+cala otaczajaca cie przyroda wyglada na obumarla.
+W drzewie znajduje sie spora dziupla.
+~
+Comments ~
+Objend
+#Vnum 6797
+Name ka³u¿a dziwnej cieczy~
+Odmiana ka³u¿y~ka³u¿y~ka³u¿e~ka³u¿±~ka³u¿y~
+Short ka³u¿a~
+Descr Ma³a ka³u¿a dziwnej cieczy rozlana w rogu kaplicy.~
+Material jedzenie~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1000 1000 13 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 0
+Cost 0
+Cond 100
+Objprog consume 6797 100~
+Itemdesc Gdy przygl±dasz siê bli¿ej ka³u¿y, zauwa¿asz, ¿e to nie jest zwyk³a woda.
+Ciecz ma dziwny, czerwonawy kolor. Brr, to nie wygl±da zbyt apetycznie. 
+~
+Comments ~
+Objend
+#Vnum 6799
+Name odklejacz plastrow~
+Odmiana oklejacza plastrow~odklejaczowi plastrow~odklejacza plastrow~odklejacem plastrow~odklejaczu plastrow~
+Short odklejacz plastrow~
+Descr Wielki odklejacz plastrow!~
+Material stal~
+Type trash
+ExtraExt 0|T
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Objprog use 6799 def~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 6770
+Name Posepna Droga~
+Descr Stoisz na szarej sciezce. Pod nogami lekko unosi siê z ziemi siwy pyl.
+Okoliczne drzewa i krzewy pozbawione s± li¶ci, a nieliczne zwierzeta
+przemykaja szybko i ciezko im sie lepiej przyjrzec. Z zachodu dobiega do
+ciebie cichy szum wiatru. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14755
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14755
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2640
+ExitExtEnd
+Exit 1
+~
+~
+0 0 2640
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14758
+ExitExtEnd
+Exit 2
+~
+~
+0 0 14758
+ExitExt 3
+ExitExtDescription ~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6771
+ExitExtEnd
+Exit 3
+~
+brama~
+3 0 6771
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6771
+Name Kamienna Brama~
+Descr Stoisz wewnatrz sporej kamiennej bramy, runy wyryte na jej filarach nie
+pozwalaja zrodzonym tu potworom ani zadnej istocie która tu powstala oddalic
+sie na zbyt duza odleglosc, ma to uchronic sasiadujace miasto przed
+tragedia. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6770
+ExitExtEnd
+Exit 1
+~
+brama~
+3 0 6770
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6772
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6772
+Roomprog random 6770 5~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6772
+Name Male skrzyzowanie na glownej alei~
+Descr Stoisz na skrzyzowaniu sciezek cmentarnych, na tle otaczajacej cie mgly
+ciemnym konturem odcinaja sie nagrobki, niskie drzewa i jakies pomniki, a
+raczej to, co z nich zostalo. Wszystko to wygl±da bardzo mrocznie i masz
+wra¿enie, ¿e ciemno¶æ jest gotowa aby wyci±gn±æ po ciebie swe o¶lizg³e
+macki. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6791
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6791
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6771
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6771
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6794
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6794
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6773
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6773
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6773
+Name Glowna aleja~
+Descr Stoisz na zakurzonej sciezce na cmentarzu, na tle otaczajacej cie mgly
+ciemnym konturem odcinaja sie nagrobki, niskie drzewa i jakies pomniki, a
+raczej to, co z nich zostalo. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6790
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6790
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6772
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6772
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6789
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6789
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6774
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6774
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6774
+Name Glowna aleja~
+Descr Stoisz na zakurzonej sciezce na cmentarzu, na tle otaczajacej cie mgly
+ciemnym konturem odcinaja sie nagrobki, niskie drzewa i jakies pomniki, a
+raczej to, co z nich zostalo. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35505
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35505
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6773
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6773
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35503
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35503
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6775
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6775
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6775
+Name Glowna aleja~
+Descr Stoisz na zakurzonej sciezce na cmentarzu, na tle otaczajacej cie mgly
+ciemnym konturem odcinaja sie nagrobki, niskie drzewa i jakies pomniki, a
+raczej to, co z nich zostalo. Z zachodu wieje nieprzyjemny, zimny wiatr. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6788
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6788
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6774
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6774
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6787
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6787
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6776
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6776
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6776
+Name Koniec glownej alei~
+Descr Stoisz na malym skrzyzowaniu sciezek cmentarnych. Spowija cie gesta mgla,
+jedynie kilka nagrobkow majaczy dookola. Sciezka z ponocy na po³udnie
+biegnie wzd³u¿ muru okalaj±cego cmentarz. Na zachodzie, w owym murze,
+znajduje siê brama prowadz±ca do starej czê¶ci cmentarza. Na wschodzie za¶
+biegnie aleja zwieñczona g³ówn± bram±. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6777
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6777
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6775
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6775
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6779
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6779
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtBiernik bramê~
+ExitExtName brama~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5101
+ExitExtEnd
+Exit 3
+~
+VName Brama~
+brama~
+3 0 5101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6777
+Name Aleja przy murze~
+Descr Stoisz na sciezce biegnacej przy zewnetrznym murze, posrod gestej mgly.
+Powietrze jest tu dosc chlodne i wilgotne, a otaczajace cie drzewa dodaja
+jedynie grozy krajobrazowi. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6778
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6778
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6788
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6788
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6776
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6776
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6778
+Name Aleja przy murze~
+Descr Stoisz na sciezce biegnacej przy zewnetrznym murze, posrod gestej mgly.
+Powietrze jest tu dosc chlodne i wilgotne, a otaczajace cie drzewa dodaja
+jedynie grozy krajobrazowi. Na pó³nocy dostrzegasz star±, lecz regularnie
+naoliwian± furtkê, stanowi±c± boczne wyj¶cie z cmentarza. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtBiernik furtkê~
+ExitExtName furtka~
+ExitExtLiczba 0
+ExitExtInfo 8195
+ExitExtKey 0
+ExitExtToVnum 14733
+ExitExtEnd
+Exit 0
+~
+furtka~
+8195 0 14733
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6777
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6777
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6779
+Name Aleja przy murze~
+Descr Stoisz na sciezce biegnacej przy zewnetrznym murze, posrod gestej mgly.
+Powietrze jest tu dosc chlodne i wilgotne, a otaczajace cie drzewa dodaja
+jedynie grozy krajobrazowi. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6776
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6776
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6787
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6787
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6780
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6780
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6780
+Name Aleja przy murze~
+Descr Stoisz na sciezce biegnacej przy zewnetrznym murze, posrod gestej mgly.
+Powietrze jest tu dosc chlodne i wilgotne, a otaczajace cie drzewa dodaja
+jedynie grozy krajobrazowi. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6779
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6779
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35500
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35500
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6781
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6781
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6781
+Name W ciemnym zakatku cmentarza~
+Descr Stoisz na krancu sciezki, w ciemnym zakatku cmentarza, spowija cie gesta
+mgla, tak ze nie za bardzo jestes w stanie dokladnie okreslic swego
+polozenia, jedno co sie nie zmienilo odkad tu wszedles to sylwetki ciemnych
+nagrobkow i posepnych drzew. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6780
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6780
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6784
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6784
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6782
+Name Na krancu cmentarnej sciezki~
+Descr Stoisz na krancu sciezki, w ciemnym zakatku cmentarza, spowija cie gesta
+mgla, tak ze nie za bardzo jestes w stanie dokladnie okreslic swego
+polozenia, jedno co sie nie zmienilo odkad tu wszedles to sylwetki ciemnych
+nagrobkow i posepnych drzew. 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6783
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6783
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6783
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc stary i zaniedbany
+grob. Niewielki nagrobek ciemnym ksztaltem odcina sie na tle
+bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle. 
+~
+FlagsExt 0
+Sector 32
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6782
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6782
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6784
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc stary i zaniedbany
+grob. Niewielki nagrobek ciemnym ksztaltem odcina sie na tle
+bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle. 
+~
+FlagsExt 0
+Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35500
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35500
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35504
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35504
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6781
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6781
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6785
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc stary i zaniedbany
+grob. Niewielki nagrobek ciemnym ksztaltem odcina sie na tle
+bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle. 
+~
+FlagsExt 0
+Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35483
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35483
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35484
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35484
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5108
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5108
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6786
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc stary i zaniedbany
+grob. Niewielki nagrobek ciemnym ksztaltem odcina sie na tle
+bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle. 
+~
+FlagsExt 0
+Sector 32
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35499
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35499
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6787
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc
+stary i zaniedbany grob. Niewielki nagrobek ciemnym ksztaltem
+odcina sie na tle bladoniebieskawej mgly. Otaczajace cie rosliny
+wygladaja na obumarle.
+~
+FlagsExt 0
+Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6775
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6775
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35503
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35503
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35500
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35500
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6779
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6779
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6788
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc
+stary i zaniedbany grob. Niewielki nagrobek ciemnym ksztaltem
+odcina sie na tle bladoniebieskawej mgly. Otaczajace cie rosliny
+wygladaja na obumarle.
+~
+FlagsExt 0
+Sector 32
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35505
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35505
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6775
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6775
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6777
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6777
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6789
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc stary i zaniedbany
+grob. Niewielki nagrobek ciemnym ksztaltem odcina sie na tle
+bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle. 
+~
+FlagsExt 0
+Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6773
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6773
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6794
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6794
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35502
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35502
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35503
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35503
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6790
+Name Nad grobem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc stary i zaniedbany
+grob. Niewielki nagrobek ciemnym ksztaltem odcina sie na tle
+bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle. 
+~
+FlagsExt 0
+Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35507
+ExitExtEnd
+Exit 0
+~
+~
+0 0 35507
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6791
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6791
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6773
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6773
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35505
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35505
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6791
+Name Boczna alejka na cmentarzu~
+Descr Stoisz w bocznej alejce na cmentarzu. Otaczajacy cie krajobraz
+jest co najmniej przygnebiajacy. wszystko spowija blekitnawa
+mgielka a przedmioty, drzewa i groby pokryte sa cienka warstewka
+popiolu. Nic szczegolnego tu nie ma...
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6793
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6793
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6792
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6792
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6772
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6772
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6790
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6790
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6792
+Name Nad grobowcem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc
+stary i zaniedbany grob. Niewielki nagrobek ciemnym ksztaltem
+odcina sie na tle bladoniebieskawej mgly. Otaczajace cie rosliny
+wygladaja na obumarle.
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6791
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6791
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6793
+Name Nad grobowcem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc
+stary i zaniedbany grob. Niewielki nagrobek ciemnym ksztaltem
+odcina sie na tle bladoniebieskawej mgly. Otaczajace cie rosliny
+wygladaja na obumarle.
+~
+FlagsExt 0|H
+Sector 32
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35508
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35508
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6791
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6791
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35507
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35507
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6794
+Name Boczna alejka cmentarna~
+Descr Stoisz w bocznej alejce na cmentarzu. Otaczajacy cie krajobraz
+jest co najmniej przygnebiajacy. wszystko spowija blekitnawa
+mgielka a przedmioty, drzewa i groby pokryte sa cienka warstewka
+popiolu. Nic szczegolnego tu nie ma...
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6772
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6772
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35509
+ExitExtEnd
+Exit 1
+~
+~
+0 0 35509
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6795
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6795
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6789
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6789
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6795
+Name Boczna alejka cmentarna~
+Descr Stoisz w bocznej alejce na cmentarzu. Otaczajacy cie krajobraz
+jest co najmniej przygnebiajacy. wszystko spowija blekitnawa
+mgielka a przedmioty, drzewa i groby pokryte sa cienka warstewka
+popiolu. Nic szczegolnego tu nie ma...
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6794
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6794
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6799
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6799
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6796
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6796
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35502
+ExitExtEnd
+Exit 3
+~
+~
+0 0 35502
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6796
+Name Boczna alejka cmentarna~
+Descr Stoisz w bocznej alejce na cmentarzu. Otaczajacy cie krajobraz
+jest co najmniej przygnebiajacy. wszystko spowija blekitnawa
+mgielka a przedmioty, drzewa i groby pokryte sa cienka warstewka
+popiolu. Nic szczegolnego tu nie ma...
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6795
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6795
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6797
+ExitExtEnd
+Exit 1
+~
+~
+3 0 6797
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6798
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6798
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6797
+Name Kaplica~
+Descr Znajdujesz sie w malutkiej kapliczce na cmentarzu. Wszystko jest tu
+zakurzone a wokol smierdzi szczurzymi odchodami. Jezeli kiedykolwiek ta
+kaplica spelniala swe pierwotne funkcje to bylo to bardzo dawno temu. Sciany
+pokrywaja resztki polek ale wszystko rozkradziono. 
+~
+FlagsExt 0|AD
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 6796
+ExitExtEnd
+Exit 3
+~
+~
+3 0 6796
+Roomprog reset 6797 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6798
+Name Nad Grobowcem~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc
+stary i zaniedbany grob. Niewielki nagrobek ciemnym ksztaltem
+odcina sie na tle bladoniebieskawej mgly. Otaczajace cie rosliny
+wygladaja na obumarle.
+~
+FlagsExt 0
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6796
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6796
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6799
+Name Nad Grobowcem rodzinnym~
+Descr Stoisz gdzies na cmentarzu, przed toba widnieje dosyc
+stary i mocno zaniedbany grobowiec rodzinny. Solidna
+kamienna plyta przekrywa rownie wielki monument.
+Wszystko przysypane jest cieniutka warstewka dziwnego
+popiolu a otaczajaca mgla poteguje wrazenie grozy.
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6795
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6795
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 6770 10 6770 1
+M 100 6771 1 6771 1
+M 100 6770 10 6772 2
+M 100 6770 10 6773 10
+M 100 6770 10 6774 2
+M 100 6772 5 6774 5
+O 100 6771 0 6775
+M 100 6776 5 6775 2
+M 100 6770 10 6776 2
+M 100 6776 5 6776 2
+O 100 6771 0 6779
+M 100 6776 5 6780 2
+O 100 6772 0 6783
+M 100 6772 5 6783 5
+O 100 6772 0 6784
+O 100 6796 0 6784
+M 100 6772 5 6784 5
+O 100 6772 0 6785
+O 100 6772 0 6786
+M 100 6772 5 6786 5
+O 100 6772 0 6787
+O 100 6772 0 6788
+M 100 6770 10 6788 10
+M 100 6779 1 6788 1
+E 100 3025 0 5
+E 100 3127 0 16
+E 100 3003 0 8
+O 100 6772 0 6789
+O 100 6772 0 6790
+M 100 6772 5 6790 5
+O 100 6771 0 6791
+O 100 6779 0 6793
+M 100 6773 1 6793 1
+E 100 6780 0 17
+O 100 6771 0 6794
+O 100 6796 0 6796
+P 100 3185 1 6796 1
+O 100 6797 0 6797
+M 100 6775 1 6797 1
+E 100 4369 0 5
+O 100 6784 0 6797
+M 100 6770 10 6798 10
+S
+
+
+
+#MOBPROGSNEW
+#6770
+~
+if rand 80
+mob equip self 3057
+endif
+if rand 80
+mob equip self 3041
+endif
+if rand 80
+mob equip self 3025
+endif
+if rand 80
+mob equip self 3301
+endif
+if rand 80
+mob equip self 4419
+endif
+mob equip self 3129
+~
+#6771
+~
+if rand 80
+  mob echo Masz wra¿enie, ¿e duch na chwilê rozmywa siê w powietrzu.
+else
+  if rand 75
+    if carries $i 3129
+      mob echo Duch stra¿nika przek³ada miecz z jednej rêki do drugiej.
+      end
+    else
+      if rand 67
+        'Nie pozwole zbeszcze¶ciæ cmentarza doputy stoje na jego warcie!
+      else
+        if rand 50
+          mob echo Duch stra¿nika rozgl±da siê czujnie dooko³a.
+        else
+          'Eh, to by³y czasy kiedy siê ¿y³o, teraz bieda, mróz i niematerialno¶æ...
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#6773
+~
+if rand 50
+'Potrzebuje szczurów! Martwych szczurów! Do wywaru!
+else
+if rand 50
+'Kupie ciala szczurow, duzo daje... trza wytepic te szkodniki... i zrobic wywar!
+else
+'Daj mi cialo szczura a ugotuje jak kocura!
+hmm
+endif
+endif
+~
+#6774
+~
+if rand 50
+  'Aaah, dziêkuje! Tego potrzebowa³am! Prosze, oto ma³a nagroda!
+  mob echo Wied¼ma przetrz±sa kieszenie swojej podartej tuniki.
+  mob echoat $n Wiedzma dajê ci dwie srebrne monety.
+  mob echoaround $n $n otrzymujê dwie srebrne monety od wiedzmy.
+  mob reward $n silver 120
+  mob junk all.szczur
+else
+  'Taak, kolejny szczur do wywaru. Dam ci co¶ za t± trudn± pracê!
+  mob echo Wied¼ma szybko przetrz±sa kieszenie swojej podartej tuniki.
+  mob reward $n silver 60
+  mob echoat $n Wiedzma dajê ci jedn± srebrn± monetê.
+  mob echoaround $n $n otrzymujê srebrn± monetê od wiedzmy.
+  mob junk all.szczur
+endif
+~
+#6775
+~
+mob oload gem 2
+if rand 50
+mob oload gem 3
+endif
+if rand 80
+mob oload gem 4
+endif
+if rand 85
+mob oload gem 4
+endif
+if rand 96
+mob oload gem 5
+endif
+~
+#merusroz
+Jest to prog, który rekomensuje Merusowi stracenie arta przez b³ad muda, W dodatku Merus oddaje innego arta.
+~
+mob oload 1158
+say Dzieki ci Merusie. Niech ta ro¿dzka ci pomo¿e w dominacji nad ¶wiatem.
+give rodz merus
+mob echo Z kuchni Merusa dobiegaj± g³osy. {CArtur wyrzuæ smieci{x.
+~
+#modl_quest
+~
+mob forget
+  mob remember $r
+  foreachinroom $q
+if !hasflag $i rozdal
+    if hasflag $n modl_arr
+      mob setflag $n zab_ducc_q -1
+      mob setflag $i rozdal 2
+    endif
+endif
+    nextfor
+  endfor
+end
+~
+#mumia_death
+~
+mob echo Wiêksza mumia patrzy przed siebie mêtnym wzrokiem, po czym pada na ziemie...MARTWA.
+mob oload 6785 r
+~
+#nagq
+~
+if name Merus
+  say Witaj Merusie masz co¶ dla mnie?
+endif
+~
+#0
+
+#OBJPROGSNEW
+#6770
+~
+mob echoat $n Z trudem i chrzêstem ko¶ci wciskasz sie w pancerz.
+mob echoaround $n $n z trudem i chrzêstem ko¶ci wciska siê w swój ko¶ciany pancerz.
+~
+#6771
+~
+mob echoat $n Z trudem i chrzêstem ko¶ci wciskasz nogi w {wko¶ciane nakolanniki{x.
+mob echoaround $n $n z trudem i chrzêstem ko¶ci wciska nogi w {wko¶ciane nakolanniki{x.
+~
+#6771_rozkop
+~
+if hasflag $o rozkopany
+  mob echoat $n Kto¶ ju¿ rozkopa³ ten grób.
+else
+  if isgood $n
+    mob echoat $n Bezczeszczenie grobów raczej nie jest dla ciebie...
+  endif
+  if !carries $n 6192
+    mob echoat $n Postaraj siê najpierw o jak±¶ ³opatê!
+  else
+    mob reward $n wait 2
+    mob echoat $n Mocniej chwytasz ³opatê i wbijasz j± w ziemiê.
+    mob echoaround $n $n mocniej chwyta ³opatê i wbija j± w ziemiê.
+    mob reward $n move -5
+    delay 2
+    mob reward $n wait 2
+    mob echoat $n Rozkopujesz wierzchnie warstwy ziemi.
+    mob echoaround $n $n rozkopuje wierzchnie warstwy ziemi.
+    mob reward $n move -5
+    delay 2
+    mob reward $n wait 2
+    mob echoat $n Kopiesz i kopiesz...
+    mob echoaround $n $n niez³omnie kopie dalej.
+    mob reward $n move -2
+    delay 2
+    mob reward $n wait 2
+    mob echoat $n Ostatnimi machniêciami ³opaty rozkopujesz grób do koñca.
+    mob echoaround $n $n ostatnimi machniêciami ³opaty rozkopuje grób do koñca.
+    mob reward $n move -2
+    obj setflag rozkopany
+    mob objstring target long Widzisz tu podniszczony, rozkopany grób.
+    if rand 10
+      if rand 50
+        mob oload ring 1 room
+      else
+        mob oload neck 1 room
+      endif
+    else
+      if rand 50
+        if rand 50
+          mob oload ring 2 room
+        else
+          mob oload neck 2 room
+        endif
+      else
+        mob oload wrist 2 room
+      endif
+    else
+      if rand 70
+        if rand 50
+          mob oload ring 3 room
+        else
+          mob oload neck 3 room
+        endif
+      else
+        mob oload wrist 3 room
+      endif
+    else
+      mob mload 3018
+      mob echoaround Rozkopanie grobu chyba nie spodoba³o siê jego w³a¶cicielowi!
+      mob force zombie kill $n
+    endif
+  endif
+endif
+~
+#6772_rozkop
+~
+if roomhasflag 6772_rozkopany
+  mob echoat $n Kto¶ ju¿ rozkopa³ ten grób.
+else
+  if isgood $n
+    mob echoat $n Bezczeszczenie grobów? Nieee... to nie dla ciebie.
+    break
+  endif
+  if !carries $n 6192
+    mob echoat $n Postaraj siê najpierw o jak±¶ ³opatê...
+  else
+    mob reward $n wait 2
+    mob echoat $n Mocniej chwytasz ³opatê i wbijasz j± w ziemiê.
+    mob echoround $n $n mocniej chwyta ³opatê i wbija j± w ziemiê.
+    mob wait 2
+    mob reward $n wait 2
+    mob echoat $n Kopiesz i kopiesz, zag³êbiaj±c siê coraz bardziej.
+    mob echoaround $n $n wkopuje siê coraz g³êbiej.
+    mob wait 2
+    mob reward $n wait 2
+    mob echoat $n W koñcu udaje Ci siê rozkopaæ grób!
+    mob echoaround $n Dziêki staraniom $n, grób zosta³ rozkopany!
+~
+#6774
+~
+mob echoat $n S³ysz±c chrzêst ko¶ci mocno chwytasz {wko¶cian± tarczê{x.
+mob echoaround $n $n chwyta {wko¶cian± tarczê{x, która trzeszczy przy tym niemi³osiernie.
+~
+#6775
+~
+mob echoat $n Z trudem i chrzêstem ko¶ci wciskasz swoje ramiona w {wko¶ciane naramienniki{x.
+mob echoaround $n $n z trudem i chrzêstem ko¶ci wciska swoje ramiona w {wko¶ciane naramienniki{x.
+~
+#6776
+~
+if roomhasflag sarkofag
+mob echoat $n Otwierasz kamienny sarkofag.
+mob echoaround $n $n otwiera kamienny sarkofag.
+else 
+mob setflag room sarkofag 25
+mob echoat $n Ostro¿nie otwierasz kamienny sarkofag.
+mob echoaround $n $n ostro¿nie otwiera kamienny sarkofag z którego wychodzi okropna mumia!
+mob mload 6777
+mob force mumia_c kill $n
+endif
+~
+#6777
+~
+if !pos $n standing
+  mob echoat $n Najpierw stañ na nogi.
+  break
+endif
+if statstr $n >= 24
+  mob echoat $n Jednym mocnym ciosem ³amiesz drzewo na kawa³ki.
+  mob echoaround $n $n jednym mocnym ciosem ³amie drzewo na kawa³ki.
+  mob purge drzewo
+  mob oload 6786 R
+else
+  mob echoat $n Nie czujesz siê na si³ach by to zrobiæ.
+endif
+
+#dodaje if_pos i wymagana sila 18->24 (Wicia)
+~
+#6797
+~
+mob echoat $n Na wszystkich bogów! Ta ciecz to zatruta krew!
+mob echoat $n Próbujesz wypluæ krew z ust, ale jest ju¿ za pó¼no, czujesz jak trucizna rozchodzi siê po ciele.
+mob echoaround $n $n pluje wariacko dooko³a.
+mob setaff $n poison 2
+~
+#6799
+~
+mob delaff $t 'zaklejone usta'
+mob echoat $t Czujesz jak jaka¶ niewidzialna si³a zwalnia u¶cisk twoich ust i znów mo¿esz mówiæ!
+~
+#0
+
+#ROOMPROGSNEW
+#6770
+~
+if rand 80
+mob zecho Masz wra¿enie, ¿e kto¶ lub co¶ ciê obserwuje.
+else
+if rand 75
+mob zecho S³yszysz cichy szum drzew na wietrze.
+else
+if rand 67
+mob zecho Gdzie¶ z daleka dobiega ciê dzwiêk g³uchych kroków.
+else
+if rand 50
+mob zecho Nagle zauwa¿asz jak±¶ sylwetkê w oddali, która po chwili znika.
+else
+mob zecho Nad jednym z nagrobków zauwa¿asz z³owrogi cieñ.
+endif
+endif
+endif
+endif
+~
+#6797
+~
+mob close sarkofag
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

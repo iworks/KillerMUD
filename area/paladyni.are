@@ -1,0 +1,492 @@
+#AREADATA
+Name +# Carrallak - komnata paladynów~
+Builders Carrallak~
+VNUMs 18361 18371
+Credits jediloop@go2.pl <-- uwagi~
+Locked ~
+Security 9
+ResetAge 15
+Region 500
+End
+
+
+
+#MOBILES
+#Vnum 18361
+Name paladyn cz³owiek mê¿czyzna Salug Abenerum boss~
+Odmiana Saluga Abeneruma~Salugowi Abenerumowi~Saluga Abeneruma~Salugiem Abenerumem~Salugu Abenerumie~
+Short Salug Abenerum~
+Long Wysoki rycerz Salug Abenerum rozglada sie nerwowo.~
+Descr Ten wysoki mê¿czyzna ca³kowicie zakuty w lsniaca zbroje to Salug
+Abenerum, jeden z najstarszych i najslynniejszych paladynow Portena z
+Carrallak. Od najmlodszych lat przebywal w miejskiej swiatyni i szkolil sie
+pod okiem wyrozumialych na jego wybryki mnichow. Kiedy osiagnal wiek
+dojrzaly przyjal paladynskie sluby i wyruszyl na swoja pierwsza wyprawe,
+która przyniosla mu najwieksza slawe. Dzis po latach podrozy wrocil do
+rodzinnego miasta i osiadl w jednej z kamienic. 
+~
+Race cz³owiek~
+ActExt 0|ABEJ/2|C
+Affected 40 1 0 0
+AffectedExt 0|DF/1|A
+Align -1000
+Group 987
+Lang A
+Speaks 0
+Level 27
+Hitroll 4
+HP 2d20+590
+Damage 3d8+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 1
+Stats 138 120 114 108 138 78 78
+Off CEILQVY
+OffExt 0|CEILQVY/1|D
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 105
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments To za zdrajcy - ¬LI paladyni, wiec align nie ruszac! - {RGarloop{x ({CSat Jun 21 12:59:28 2003{x)
+~
+MobprogNew death boss_drop_30 ABCDEFGHI 100~
+MobprogNew onload 18361 ABCDEFGHI 100~
+MobprogNew grall 18365 ABCDEFGHI 100~
+MobprogNew kill 18366 ABCDEFGHI 100~
+Spells 230 152 271 54
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 18362
+Name paladyn cz³owiek mê¿czyzna Erweriusz Geddyn boss~
+Odmiana Erweriusza Geddyna~Erweriuszowi Geddynowi~Erweriusza Geddyna~Erweriuszem Geddynem~Erweriuszu Geddynie~
+Short Erweriusz Geddyn~
+Long Erweriusz Geddyn spoglada dzielnie przed siebie.~
+Descr Erweriusz Geddyn to rycerz niskiego wzrostu lecz wielkiej odwagi.
+Opowiesci o jego bohaterskich czynach znajduja sie we wszystkich kronikach.
+Nie ma barda w krainach, który nie napisalby ani jednej ballady o
+niesamowitych dokonaniach tego czlowieka. Erweriusz tak jak Salug pochodzi z
+Carrallak i tu spedzil swoje szczeniece lata. Kiedy Salug wyruszal na swoja
+pierwsza wyprawe Geddyn towarzyszyl mu jako giermek. Od tamtego czasu wiele
+sie zmienilo, dzis slawa Erweriusza jest niepomiernie wieksza i bardziej
+chwalebna niz Saluga, lecz na szczescie obaj zyja w jako takiej przyjazni. 
+~
+Race cz³owiek~
+ActExt 0|ABEJ/2|C
+Affected 40 1 0 0
+AffectedExt 0|DF/1|A
+Align -1000
+Group 987
+Lang A
+Speaks 0
+Level 27
+Hitroll 4
+HP 3d40+590
+Damage 5d4+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack uderzenie
+XAC 0 0 0 1
+Stats 138 120 114 108 138 78 78
+Off CEILQVX
+OffExt 0|CEILQVX/1|D
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 65
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments To za zdrajcy - ¬LI paladyni, wiec align nie ruszac! - {RGarloop{x ({CSat Jun 21 12:59:56 2003{x)
+~
+MobprogNew onload 18361 ABCDEFGHI 100~
+MobprogNew kill 18367 ABCDEFGHI 100~
+Spells 230 60 160 12
+Spells 39 0 0 0
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Resist 15 50
+Resist 16 100
+Resist 17 100
+Mobend
+#Vnum 18363
+Name Veditth Ven kobieta drow drowka zlodziejka boss~
+Odmiana Veditth Ven~Veditth Ven~Veditth Ven~Veditth Ven~Veditth Ven~
+Short Veditth Ven~
+Long Niska drowka Veditth Ven przemyka sie w cieniu.~
+Descr Ta niska drowka to jedna z przywodczyn Pazurow Mroku, zlodziejskiego
+cechu z podmroku. Nie masz pojecia co ta mroczna elfka robi tutaj na
+powierzchni, na dodatek w towarzystwie dwoch paladynow Portena. Cala ta
+sprawa wyglada bardzo podejrzanie. 
+~
+Race drow~
+ActExt 0|ABES/2|C
+Affected 98856 0 0 0
+AffectedExt 0|DFJPQ
+Align -1000
+Group 987
+Lang AB
+Speaks 1
+Level 27
+Hitroll 4
+HP 10d5+670
+Damage 2d5+3
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack uderzenie
+XAC -2 -2 -2 0
+Stats 144 120 120 156 132 78 78
+Off BFKNY
+OffExt 0|BFKNY
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size medium
+Material unknown
+MobprogNew onload 18362 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 35
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 18364
+Name obserwator zakapturzony~
+Odmiana obserwatora~obserwatorowi~obserwatora~obserwatorem~obserwatorze~
+Short obserwator~
+Long Zakapturzony obserwator sprawdza, czy nie nadchodzi jakies niebezpieczenstwo.~
+Descr W jego ruchach widzisz wrecz kocia zrecznosc. Twarz skrywa za szarym
+kapturem, jednak co jakis czas gdy odwraca glowe mozesz dostrzec surowe,
+zahartowane wiatrem i deszczem rysy jego twarzy. I pare zimnych,
+nieugietych, niebieskich oczu. 
+~
+Race cz³owiek~
+ActExt 0|ABEGS
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 19
+Hitroll 0
+HP 4d10+400
+Damage 1d15+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 120 144 150 144 120 78 78
+Off BEFNY
+OffExt 0|BEFNY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 40
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 18365
+Name poorany bliznami cz³owiek pracownik gildii~
+Odmiana pracownika Gildii~pracownikowi Gildii~pracownika Gildii~pracownikiem Gildii~pracowniku Gildii~
+Short poorany bliznami cz³owiek~
+Long Oszpecony wieloma bliznami pracownik Gildii £owców G³ów stoi tutaj.~
+Descr Przygl±dasz siê uwa¿nie temu specyficznemu pracownikowi Gildii £owców
+G³ów i stwierdzasz, ¿e z pewno¶ci± pracowa³ on wiele "w terenie" zanim
+zosta³ przydzielony do tego biura... Mo¿e nawet uczestniczy³ w jakim¶
+wiêkszym zabójstwie, kto wie? Liczba blizn na jego twarzy jest naprawdê
+imponuj±ca i ¶wiadczy o burzliwej karierze. 
+~
+Race cz³owiek~
+ActExt 0|ABEK
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
+Group 0
+Lang ABC
+Speaks 0
+Level 8
+Hitroll 0
+HP 7d7+100
+Damage 1d3+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 8 8 10
+Stats 66 96 102 90 90 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 7
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 18362
+Name barbuta~
+Odmiana barbuty~barbucie~barbute~barbuta~barbucie~
+Short barbuta~
+Descr Wielki helm z ksztaltnym wycieciem na przodzie.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 6 9 6 10 4 0 0
+Repair 0 0 0 0
+Length 0
+Weight 50
+Cost 3600
+Cond 73
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 18361
+Name Cela medytacji~
+Descr To olbrzymie pomieszczenie sluzy paladynom Portena jako miejsce
+odosobnienia, medytacji i kontemplacji nad soba samym. Bardzo czesto
+odbywaja sie tu rytualy i obrzedy ku chwale i potedze dobra i
+sprawiedliwosci. Cale pomieszczenie jest zupelnie puste, nie ma tu zadnych
+mebli. Podloga wylozona jest wspanialym marmurem a strop ozdabiaja liczne
+freski przedstawiajace wielkie, historyczne czyny paladynow Portena.
+Zachodnia czesc komnaty, ozdobiona kolorowymi witrazami, jest zbudowana na
+bazie polkola, laczacego sie z reszta swiatyni. Przebywajac tutaj czujesz
+jak ogarnia cie wszechobecny spokoj i cisza, sprzyjajace samotnym
+kontemplacja. 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 911
+ExitExtEnd
+Exit 1
+~
+~
+0 0 911
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 18362
+Name Biuro {RGildii £owców G³ów{x~
+Descr Znajdujesz siê w obszernym pomieszczeniu w jednej z kamienic Carrallak.
+Na jego ¶rodku stoi drewniane biurko, za którym siedzi poorany bliznami
+cz³owiek i zapisuje co¶ na arkuszu papieru. Na ¶cianach wisi wiele plakatów
+z wizerunkami poszukiwanych. Miêdzy nimi zauwa¿asz ma³±, stalow± {ctabliczkê{S.
+Na której kto¶ co¶ napisa³. 
+~
+Nightdescr Znajdujesz siê w obszernym pomieszczeniu w jednej z kamienic Carrallak.
+Na jego ¶rodku stoi drewniane biurko, za którym siedzi poorany bliznami
+cz³owiek i zapisuje co¶ na arkuszu papieru. Na ¶cianach wisi wiele plakatów
+z wizerunkami poszukiwanych. Miêdzy nimi zauwa¿asz ma³±, stalow± {ctabliczkê{S.
+Na której kto¶ co¶ napisa³. W ca³ym pomieszczeniu jest do¶æ jasno ze wzglêdu
+na mngo¶æ ¶wiec w kandelabrach. 
+~
+FlagsExt 0|CHP
+Sector 0
+Extra tabliczka~
+Z trudem odczytujesz tekst z tabliczki:
+{c#==================================================#{x
+{c|{x Witaj podró¿niku w {RGildii £owców G³ów{x!           {c|{x
+{c|{x Zapraszamy do skorzystania z us³ug!              {c|{x
+{c|{x                                                  {c|{x
+{c|{x By:                                              {c|{x
+{c|{x * odebraæ nagrodê wpisz '{Gbounty{x'.                {c|{x
+{c|{x * zobaczyæ listê wpisz '{Gbounty list{x'.            {c|{x
+{c|{x * wyznaczyæ nagrodê wpisz '{Gbounty <imie> <cena>{x' {c|{x
+{c|{x   Uwaga: Twoja ofiara musi byæ w grze.           {c|{x
+{c|{x                                                  {c|{x
+{c|{x Dziêkujemy za uwagê,                             {c|{x
+{c|{x Gildia £owców G³ów, filia w Carrallak.           {c|{x
+{c#==================================================#{x
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 593
+ExitExtEnd
+Exit 0
+~
+~
+0 0 593
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 18361 1 18361 1
+M 100 18363 1 18361 1
+M 100 18362 1 18361 1
+M 100 18365 1 18362 1
+S
+
+
+
+#MOBPROGSNEW
+#18361
+~
+mob equip self 3329
+mob equip self 18362
+mob equip self 3069
+mob equip self 3291
+mob equip self 3093
+mob equip self 3349
+if rand 80
+mob oload weapon 5
+endif
+ 
+if rand 60
+mob oload body 5
+endif
+ 
+mob oload random 4
+wear all
+~
+#18362
+~
+mob equip self 3018
+mob equip self 3033
+mob equip self 3157
+if rand 70
+  mob oload ear 4 w
+endif
+~
+#18363
+~
+if rand 50
+  mob oload weapon 5
+endif
+~
+#18364
+~
+mob force veditth bs $n
+mob force Veditth say Na chwale Lloth! Gin poczwaro!
+'Zdemaskowales nasze plany!
+'Teraz musisz zginac!
+~
+#18365
+~
+if hasflag $n ostrzegalem
+else
+mob echo Cicha rozmowa prowadzona przez paladynow nagle milknie kiedy wchodzisz do komnaty.
+parskaj $n
+delay 1
+'Czego tu chcecie? Nie widzicie ze jestesmy zajeci! Juz, uciekac!
+delay 1
+mob force erweriusz pluj
+mob force erweriusz say Ulryku! Jak ja nienawidze upierdliwych osob!
+mob setflag $n ostrzegalem 10
+delay 7
+'Ostrzegalem!
+delay 1
+kill $n
+mob force veditth bs $n
+endif
+~
+#18366
+~
+minidelay 100
+mob force erweriusz kill $n
+mob force veditth bs $n
+mob force Veditth say Na chwale Lloth! Gin poczwaro!
+'Zdemaskowales nasze plany!
+'Teraz musisz zginac!
+~
+#18367
+~
+minidelay 100
+mob force salug kill $n
+mob force veditth bs $n
+mob force Veditth say Na chwale Lloth! Gin poczwaro!
+'Zdemaskowales nasze plany!
+'Teraz musisz zginac!
+~
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,1221 @@
+#AREADATA
+Name +# Ogry - jaskinie w górach smoczych~
+Builders Trakt_cf~
+VNUMs 12101 12200
+Credits Midian
+MIDJAN666@interia.pl
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 12101
+Name wielki smierdz±cy ogr~
+Odmiana wielkiego ogra~wielkiemu ogrowi~wielkiego ogra~wielkim ogrem~wielkim ogrze~
+Short wielki ogr~
+Long Wielki, ¶mierdz±cy ogr czeka tutaj na co¶.~
+Descr Jest to okropna kreatura, cz³ekokszta³tne monstrum któremu z pyska
+wycieka ¶lina a smród bij±cy od niego sprawia i¿ samo przebywanie w jego
+towarzystwie to cierpienie. Ma on ogromne k³y które wystaj± mu z pyska i
+wielkie miê¶nie. Lepiej nie zbli¿aæ siê do niego. 
+~
+Race ogr~
+ActExt 0|AFIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 21
+Hitroll 2
+HP 16d1+500
+Damage 3d6+2
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 0 0 0 0
+Stats 150 78 78 138 138 84 84
+Off CDIR
+OffExt 0|CDIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 12102
+Name wielki ogr szaman~
+Odmiana ogra szamana~ogrowi szamanowi~ogra szamana~ogrem szamanem~ogrze szamanie~
+Short ogr szaman~
+Long Wielki ogr szaman rzuca tutaj zaklêcia.~
+Descr Jest to wielkich rozmiarów ogr, w przeciwieñstwie od innych ogrów w³ada
+on prymitywnymi zaklêciami. Jest szamanem, ca³e jego cia³o pokrywa grube
+futro a z pyska toczy siê ¶lina. Z g³owy wyrastaj± mu dwa wielkie rogi
+których nie zawacha siê u¿yæ gdy nadarzy siê okazja. 
+~
+Race ogr~
+ActExt 0|AFR
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 23
+Hitroll 0
+HP 340d1+300
+Damage 4d4+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 0 0 0 0
+Stats 138 114 114 114 114 114 114
+Off CIR
+OffExt 0|CIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 150
+Form AEFMV
+Parts ABCDEFGHIJKRUV
+Size large
+Material unknown
+Spells 163 92 93 203
+Spells 69 0 0 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 12101
+Name Wielka jaskinia~
+FlagsExt 0|C
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12102
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12102
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12131
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 12131
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12102
+Name Wielka jaskinia~
+FlagsExt 0|C
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12103
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12103
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12101
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12101
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12103
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12104
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12104
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12102
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12102
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12104
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12106
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12106
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12103
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12103
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12105
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12106
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12106
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12106
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12107
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12107
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12104
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12104
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12105
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12105
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12107
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12109
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12109
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12106
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12106
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12108
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12109
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12109
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12109
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12111
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12111
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12110
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12110
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12107
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12107
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12108
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12108
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12110
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12109
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12109
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12111
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12112
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12112
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12109
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12109
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12112
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12116
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12116
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12111
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12111
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12113
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12113
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12113
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12114
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12114
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12112
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12112
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12114
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12115
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12115
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12113
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12113
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12115
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12114
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12114
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12116
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12117
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12117
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12112
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12112
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12117
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12118
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12118
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12116
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12116
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12118
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 17839
+ExitExtEnd
+Exit 1
+~
+~
+0 0 17839
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12119
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12119
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12117
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12117
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12119
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12118
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12118
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12121
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12121
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12120
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12121
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12121
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12121
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12119
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12119
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12122
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12122
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12120
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12120
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12122
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12121
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12121
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12123
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12123
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12123
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12124
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12124
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12122
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12122
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12124
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12125
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12125
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12123
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12123
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12125
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12126
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12126
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12129
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12129
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12124
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12124
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12126
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12125
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12125
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12127
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12128
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12128
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12128
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12130
+ExitExtEnd
+Exit 2
+~
+~
+0 0 12130
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12127
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12127
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12129
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12130
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12130
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12125
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12125
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12130
+Name Wielka jaskinia~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12128
+ExitExtEnd
+Exit 0
+~
+~
+0 0 12128
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12129
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12129
+DayRDesc 12101
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 12131
+Name Przed jaskini±~
+Descr Kompletnie zboczy³e¶ z planowanej ¶cie¿ki. Znajdujesz siê przed ogromn±
+jaskini±, mo¿liwe, ¿e jest przez kogo¶ zamieszkiwania. P³atki ¶niegu lekko
+opadaj± na ciebie, wszystko dooko³a jest bia³e. Tylko ta jaskinia.. Wyró¿nia
+siê w tym krajobrazie, mo¿e znajdziesz w niej schronienie. 
+~
+FlagsExt 0|C
+Sector 5
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Jaskinia~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12101
+ExitExtEnd
+Exit 1
+~
+VName Jaskinia~
+~
+0 0 12101
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5861
+ExitExtEnd
+Exit 4
+~
+~
+0 0 5861
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 12101 20 12101 1
+M 100 12102 13 12102 1
+M 100 12101 20 12103 2
+M 100 12102 13 12104 1
+M 100 12101 20 12105 1
+M 100 12101 20 12106 2
+M 100 12102 13 12107 1
+M 100 12101 20 12108 1
+M 100 12101 20 12109 1
+M 100 12101 20 12111 1
+M 100 12102 13 12111 1
+M 100 12101 20 12112 1
+M 100 12102 13 12112 1
+M 100 12101 20 12113 1
+M 100 12102 13 12113 1
+M 100 12101 20 12115 1
+M 100 12102 13 12115 1
+M 100 12102 13 12116 1
+M 100 12101 20 12117 1
+M 100 12102 13 12117 1
+M 100 12102 13 12118 1
+M 100 12101 20 12119 1
+M 100 12102 13 12120 1
+M 100 12101 20 12121 1
+M 100 12102 13 12121 1
+M 100 12101 20 12122 1
+M 100 12101 20 12124 1
+M 100 12101 20 12125 1
+M 100 12101 20 12126 1
+M 100 12101 20 12127 1
+M 100 12101 20 12128 1
+M 100 12101 20 12129 1
+M 100 12101 20 12130 1
+S
+
+
+
+#MOBPROGSNEW
+#0
+
+#OBJPROGSNEW
+#0
+
+#ROOMPROGSNEW
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 12101
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 0
+
+#DESC
+#Name smród1~
+Desc Znajdujesz siê w w±skim przej¶ciu prowadz±cym przez jaskinie ogrów.
+Panuj±cy tutaj smród gnij±cego miêsta by³ by w stanie powaliæ nawet konia. 
+~
+Group 1
+End
+#Name smród2~
+Desc Jest to do¶æ w±ski odcinek jaskini, w miejscu tym jest ciemno i brudno.
+Na ¶cianie znajduj± siê jakie¶ napisy, lecz nie bardzo mo¿na rozczytaæ co
+tam jest napisane. 
+~
+Group 1
+End
+#Name smród3~
+Desc Miejsce to jest strasznie ciemnie i brudne, wszystko jest jakby
+przesi±kniête smrodem gnij±cych cia³. Na pod³odze walaj± sie szcz±tki ko¶ci
+i innych obiektów. 
+~
+Group 1
+End
+#Name smród4~
+Desc Znajdujesz siê w mittejscu które zasadniczo niczym siê nie ró¿ni od
+pozosta³ych czê¶ci tej jaskini. Jest tu ciemno i zimno, a smród który ciê
+otacza jest nie do wytrzymania. 
+~
+Group 1
+End
+#Name mieso1~
+Desc Wszystko wydaje siê dziwne, ozieb³e i srogie. Co jaki¶ czas do twych uszu
+docieraj± jakie¶ jeki i ryki, od samego my¶lenia co to mo¿e byæ przechodz±
+ciê dreszcze. 
+~
+Group 2
+End
+#Name mieso2~
+Desc Panuje tu dziwna ciemno¶æ, jaskinia ta nie ró¿ni siê praktycznie niczym
+od tych spotykanych na ca³ym swiecie, no mo¿e tylko tym straszliwym smrodem
+i szlamem który pokrywa to miejsce. 
+~
+Group 2
+End
+#Name mieso3~
+Desc Jest tu tak duszno i zimno ¿e ³atwo tu o omdlenie. Ciê¿ko jest siê tu
+poruszaæ, to sprawka odchodów i resztek zgni³ego miêsa w których ci±gle
+brodzisz, a które siêgaj± ci po kostki. 
+~
+Group 2
+End
+#Name mieso4~
+Desc W tym miejscu wygl±d jaskini widocznie siê zmienia, tak jakby kto¶ celowo
+pomniejszy³ to przej¶cie. Wszedzie odczuæ mo¿na straszliwy zamêt i gêsto¶æ
+przesi±kniêtego wilgoci± powietrza. 
+~
+Group 2
+End
+#Name ogry1~
+Desc Co jaki¶ czas spod stóp uciekaj± ci jakie¶ ma³e larwy i robaki powoduj±c
+i¿ oddanie nastêpnego kroku graniczy z cudem - to przez ten strach który ciê
+opeta³. Za rogiem co¶ jakby zaszelesci³o. 
+~
+Group 3
+End
+#Name ogry2~
+Desc Krocz±c tym korytarzem dostrzec mo¿na jak taka prymitywna rasa ogrów
+zrobi³a sobie siedzibe. Jaskinia ta jest strasznie przesi±kniêta smrodem i
+wilgoci±. 
+~
+Group 3
+End
+#Name ogry3~
+Desc Co jaki¶ czas na g³owê smadaj± ci krople wody która skrapla siê na
+suficie tworz±c ogromne skalne sople. Z daleka dobiega jaki¶ ³oskot, ciekawe
+co to. 
+~
+Group 3
+End
+#Name ogry4~
+Desc Jest tu pa³no wszelkiego rodzaju ko¶ci, powoduje to trudno¶ci w
+poruszaniu siê. Ogry zamieszkuj±ce tê jaskinie widocznie nie s± zbytnio
+przyjazne w stosunku do go¶ci. 
+~
+Group 3
+End
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

@@ -1,0 +1,5151 @@
+#AREADATA
+Name +# Karczma w Obilonie~
+Builders Obilon Gorst~
+VNUMs 27400 27450
+Credits # by Gorst
+# gorst.killermud@gmail.com
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 27400
+Name gruby karczmarz~
+Odmiana grubego karczmarza~grubemu karczmarzowi~grubego karczmarza~grubym karczmarzem~grubym karczmarzu~
+Short Gruby karczmarz~
+Long Gruby karczmarz, w³a¶ciciel lokalu stoi tutaj za lad±.~
+Descr Masz przed sob± grubego, têgiej budowy karczmarza, który
+najprawdopodobniej jest w³a¶cicielem lokalu, w którym w³a¶nie siê
+znajdujesz. Po jego t³ustej twarzy widaæ, ¿e dawno siê ju¿ nie goli³, nie
+mówi±c ju¿ o jakiejkolwiek formie k±pieli. Widniej±ca na jego czubku g³owy,
+spora ³ysina a¿ ¶wieci siê od nadmiaru ³oju. Po¿ó³k³e resztki szarawego
+stroju zapewne kiedy¶ by³y bia³e. Mo¿na zauwa¿yæ, ¿e od czasu do czasu
+karczmarz uwa¿nie ci siê przygl±da w do¶æ podejrzany sposób. 
+~
+Race cz³owiek~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -150
+Group 0
+Lang A
+Speaks 0
+Level 10
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 84 132 72 66 78 54 150
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give mistrz_give3 FGI 4348~
+MobprogNew random karczmarz_opisy FGI 5~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27401
+Name m³odziutka elfia kurtyzana~
+Odmiana m³odej kurtyzany~m³odej kurtyzanie~m³od± kurtyzanê~m³od± kurtyzan±~m³odej kurtyzanie~
+Short elfia kurtyzana~
+Long M³odziutka, elfia kurtyzana u¶miecha siê do ciebie zalotnie...~
+Descr Masz przed sob± bardzo atrakcyjn±, elfi± kobietê o piêknej twarzy i
+doskona³ej sylwetce. D³ugie, br±zowe w³osy zaplecione w dwa kitki po dwóch
+stronach g³owy b³yszcz± siê w ¶wietle. Cudne, b³êkitne oczy wpatruj± siê w
+nico¶æ, a do¶æ spore, symetryczne piersi okrywa sk±py, cieniutki materia³,
+który oddaje ich kszta³t. Mo¿na ³atwo zauwa¿yæ, ¿e kobieta ta doskonale
+zdaje sobie sprawê ze swej urody i wie jak jej u¿ywaæ. Ciekawe czy osi±gnê³a
+ju¿ pe³niê wieku... 
+~
+Race elf~
+ActExt 0|ABK
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 1d2+1
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 10 10 10 10
+Stats 54 114 108 138 78 162 90
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech kurtyzana_zaczn FGI gotowy~
+MobprogNew speech kurtyzana_zaczn FGI zacznij~
+MobprogNew speech kurtyzana_r_nie FGI przenigdy~
+MobprogNew speech kurtyzana_r_nie FGI nigdy~
+MobprogNew speech kurtyzana_r_nie FGI nie~
+MobprogNew speech kurtyzana_r_tak FGI ta~
+MobprogNew speech kurtyzana_r_tak FGI oczywi¶cie~
+MobprogNew speech kurtyzana_r_tak FGI jasne~
+MobprogNew bribe kurtyzana_bribe FGI 1000~
+MobprogNew speech kurtyzana_r_tak FGI tak~
+MobprogNew greet kurtyzana_greet FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27402
+Name zakapturzona postaæ~
+Odmiana zakapturzon± postaæ~zakapturzonej postaci~zakapturzon± postaæ~zakapturzon± postaci±~zakapturzonej postaci~
+Short zakapturzona postaæ~
+Long Jaka¶ zakapturzona postaæ w czarnym p³aszczu bacznie wszystkich obserwuje.~
+Descr Ca³kiem niedaleko ciebie stoi sobie tutaj jaka¶ zakapturzona postaæ w
+d³ugim, czarnym p³aszczu podró¿nym z kapturem naci±gniêtym na g³owê. Ju¿ na
+pierwszy rzut oka mo¿na zauwa¿yæ, ¿e owy podejrzany osobnik bacznie
+wszystkim siê przypatruje jakby czekaj±c na jak±¶ okazjê. Mo¿na byæ pewnym,
+¿e nie nale¿y jej siê zbyt d³ugo przygl±daæ gdy¿ postaæ ta mo¿e to zauwa¿yæ,
+a nie bardzo mog³oby jej to odpowiadaæ. 
+~
+Race gnom~
+ActExt 0|ABKS
+Affected 32768 0 0 0
+AffectedExt 0|P
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 3
+HP 11d6+674
+Damage 3d3+4
+Dammagic 0
+Weaponbonus 6
+Damflags 8
+Attack uderzenie
+XAC 0 0 0 3
+Stats 114 126 96 132 78 90 108
+Off BFHNY
+OffExt 0|BFHNY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 260
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give postac_give FGI 2464~
+MobprogNew precommand zlodziej_steal ABCDEFGHI learn~
+MobprogNew greet postac_do_zero FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27403
+Name krasnolud podchmielony weso³y~
+Odmiana podchmielonego krasnoluda~podchmielonemu krasnoludowi~podchmielonego krasnoluda~podchmielonym krasnoludem~podchmielonym krasnoludzie~
+Short podchmielony krasnolud~
+Long Wesolutki, {gpodchmielony{x krasnolud wci±ga tutaj w siebie kolejne kufle korzennego piwa.~
+Descr Masz przed sob± niewielkiego, grubego krasnoluda, który wygl±da na
+nie¼le podchmielonego, a co za tym idzie, tak¿e weso³ego i radosnego. Jest
+on sta³ym go¶ciem tutejszej karczmy, podobno topi wszelkie swoje
+traumatyczne wspomnienia w korzennym piwie. Niegdy¶ by³ wielkim wojownikiem,
+ale z czasem siê zestarza³ i sta³ siê zwyk³ym, tanim najemnikiem. 
+~
+Race krasnolud~
+ActExt 0|ABEI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 26
+Hitroll 2
+HP 24d10+480
+Damage 4d5+6
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 7
+Stats 115 90 96 100 100 90 90
+Off DJXc
+OffExt 0|DJXc/1|H
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 800
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Comments ma³a poprawka - {RRisan{x ({CSat Jul  2 08:25:25 2011{x)
+~
+MobprogNew kill podchmiel_wield ABCDEFGHI 100~
+MobprogNew random podchmiel_rand FGI 3~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27404
+Name mistrz z³odziejski~
+Odmiana z³odziejskiego mistrza~z³odziejskiemu mistrzowi~z³odziejskiego mistrza~z³odziejskim mistrzem~z³odziejskim mistrzu~
+Short z³odziejski mistrz~
+Long Jeden z wygnanych, z³odziejskich mistrzów siedzi tutaj w rogu i rozmy¶la.~
+Descr Masz przed sob± jednego z niewielu pozosta³ych na ¶wiecie mistrzów
+z³odziejskich. Po st³umieniu wielkiej rebelii ³otrów w Arras, zmuszeni byli
+pochowaæ siê w ró¿nych, niedostêpnych dla arrasyjskiej w³adzy miejscach. Ten
+osobnik zdaje siê byæ typowym przedstawicielem do¶wiadczonego z³odzieja.
+Jest lekko zgarbiony i do¶c wysoki, a jego zwinne ruchy potwierdzaj± jego
+umiejêtno¶ci. 
+~
+Race cz³owiek~
+ActExt 0|ABKS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -250
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 5
+HP 19d4+921
+Damage 4d4+3
+Dammagic 0
+Weaponbonus 7
+Damflags 0
+Attack none
+XAC -2 -2 -2 3
+Stats 132 144 120 150 78 102 114
+Off BFNY
+OffExt 0|BFNY
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 270000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give mistrz_give6 FGI 27420~
+MobprogNew give mistrz_give4 FGI 3149~
+MobprogNew give mistrz_give2 FGI 549~
+MobprogNew give mistrz_give1 FGI 2451~
+MobprogNew speech mistrz_quest FGI co¶ do roboty~
+MobprogNew speech mistrz_quest FGI zadanie~
+MobprogNew greet mistrz_greet FGI 100~
+MobprogNew precommand sklep_mistrz ABCDEFGHI buy~
+MobprogNew precommand sklep_mistrz ABCDEFGHI list~
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Mobend
+#Vnum 27405
+Name najemny wojownik~
+Odmiana najemnego wojownika~najemnemu wojownikowi~najemnego wojownika~najemnym wojownikiem~najemnym wojowniku~
+Short najemny wojownik~
+Long Najemny wojownik wynajêty przez wêdrownego kupca broni swojego pana.~
+Descr Ca³kiem wysoki jak na krasnoluda, najemny wojownik jest typowym
+osobnikiem jego pokroju. Ma ju¿ pewne do¶wiadczenie ze ¶wiatem jednak
+brakuje mu pieniêdzy, tak wiêc zaci±gn±³ siê u jakiego¶ kupca za parê groszy
+i teraz jest jego prywatn± eskort±. 
+~
+Race krasnolud~
+ActExt 0|ABET
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 1
+Lang A
+Speaks 0
+Level 18
+Hitroll 4
+HP 10d4+464
+Damage 4d4+3
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack none
+XAC 3 3 3 7
+Stats 132 90 114 138 78 102 108
+Off CEKb
+OffExt 0|CEKb/1|A
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 420
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload najemnik_obslug ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 12 20
+Mobend
+#Vnum 27406
+Name bogaty kupiec kupiec_gorst~
+Odmiana bogatego kupca~bogatemu kupcowi~bogatego kupca~boatym kupcem~bogatym kupcu~
+Short bogaty kupiec~
+Long Bogaty kupiec zaszczyca ciê sw± obecno¶ci± snobistycznie zadzieraj±c nosa.~
+Descr Ten grubiutki cz³owiek przed tob± to jeden z bogatszych kupców, którzy
+wraz ze swym towarem wêdruj± z miasta do miasta. Widaæ ten interes siê
+op³aca, bo kupiec ten ma na sobie przepiêkne, jedwabne szaty obszywane z³ot±
+nitk±, wspania³y, purpurowy beret z pawim piórem, a w rêku trzyma doskonale
+oszlifowan±, czarn± laskê ze srebrnymi rze¼bieniami. 
+~
+Race cz³owiek~
+ActExt 0|ABET
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 1
+Lang A
+Speaks 0
+Level 15
+Hitroll 1
+HP 8d4+296
+Damage 3d4+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack none
+XAC 7 7 7 7
+Stats 96 132 144 72 78 54 126
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random kupiec_zachowan FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27408
+Name spory yeti~
+Odmiana sporego yeti~sporemu yeti~sporego yeti~sporym yeti~sporym yeti~
+Short spory yeti~
+Long Spory, ¶nie¿ny yeti stoi tutaj z rêk± zwi±zan± ³añcuchem.~
+Descr To spore, dzikie i pokryte bia³ym futrem monstrum to w³a¶nie yeti, stwór
+zamieszkuj±cy zwykle wysoko po³o¿one, pokryte ju¿ ¶niegiem partie gór. Ten
+osobnik jest jakby bardziej zgarbiony i mo¿e trochê mniej nieobliczalny.
+Chodz± plotki, ¿e niektórzy ludzie wykorzystuj± doros³e, ¶nie¿ne yeti do
+wytwarzania sztucznego ch³odu, przyk³adowo w celach przechowawczych. 
+~
+Race yeti~
+ActExt 0|ABEI
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 19
+Hitroll 2
+HP 20d3+529
+Damage 4d4+2
+Dammagic 0
+Weaponbonus 2
+Damflags 0
+Attack walniecie
+XAC 9 5 9 8
+Stats 138 114 90 126 78 42 84
+Off DEJc
+OffExt 0|DEJc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 70
+Form AFHMV
+Parts ABCDEFGHIJKRS
+Size large
+Material unknown
+MobprogNew death yeti_onkill ABCDEFGHI 100~
+Skin 1000
+ExpMultiplier 100
+Resist 7 50
+Resist 8 50
+Mobend
+#Vnum 27409
+Name szalony gnom alchemik~
+Odmiana szalonego alchemika~szalonemu alchemikowi~szalonego alchemika~szalonym alchemikiem~szalonym alchemiku~
+Short szalony alchemik~
+Long Lekko stukniêty alchemik przelewa tutaj jakie¶ mikstury.~
+Descr Ten przedziwny osobnik jest podstarza³ym ju¿ przedstawicielem rasy
+gnomów. Jego zgarbiona postawa, zniszczona skóra i miêsiste palce ¶wiadcz± o
+tym, ¿e w pe³ni odda³ siê swemu powo³aniu - alchemii. Jak widaæ, mimo
+podesz³ego wieku nadal spêdza d³ugie wieczory nad przeró¿nymi miksturami. 
+~
+Race gnom~
+ActExt 0|ABGST
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 2
+HP 16d7+1550
+Damage 4d4+4
+Dammagic 0
+Weaponbonus 6
+Damflags 0
+Attack walniecie
+XAC 7 7 7 7
+Stats 108 120 126 132 78 78 108
+Off CFINXb
+OffExt 0|CFINXb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 800
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew death alchemik_ondeat ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27410
+Name hazardzista~
+Odmiana hazardzisty~hazardzi¶cie~hazardzistê~hazardzist±~hazardzi¶cie~
+Short hazardzista~
+Long Stary hazardzista siedzi tutaj przy stoliku bezmy¶lnie bawi±c siê kostkami.~
+Descr Cz³owiek ten ju¿ na pierwszy rzut oka wygl±da na najwiêkszego kanciarza w
+okolicy. Siedzi zgarbiony w cieniu unikaj±c blasku ¶wiec, z za³o¿onym
+kapturem i bezmy¶lnie przerzuca w rêkach ko¶ci do gry. Jego cia³o nie oddaje
+¿adnych emocji, jest zapewne mistrzem oszustwa i krêtactwa, lub jak kto
+woli, jest do¶wiadczony w swoim zawodzie. Zapytaj go, mo¿e zaoferuje ci
+partyjkê? 
+~
+Race cz³owiek~
+ActExt 0|ABGK
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 0
+HP 1d1+1
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start sit
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech hazardzista_tak FGI jasne~
+MobprogNew speech hazardzista_thr FGI rzucam~
+MobprogNew bribe hazardzista_tys FGI 1000~
+MobprogNew bribe hazardzista_dzi FGI 10000~
+MobprogNew bribe hazardzista_pie FGI 5000~
+MobprogNew speech hazardzista_nie FGI nie~
+MobprogNew speech hazardzista_tak FGI tak~
+MobprogNew greet hazardzista_gre FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27411
+Name stary ³owca cerhuiq~
+Odmiana Cerhuiqa~Cerhuiqowi~Cerhuiqa~Cerhuiqiem~Cerhuiqu~
+Short Cerhuiq~
+Long Stary ³owca {GCerhuiq{x spokojnie spêdza tutaj lata swej staro¶ci.~
+Descr Masz przed sob± jeden z najokazalszych przyk³adów do¶wiadczonych ³owców
+maj±cych swoje lata ¶wietno¶ci zdecydowanie za sob±. Siwy, pomarszczony,
+zgarbiony staruch zdaje siê byæ bardzo zadowolony ze swojego ¿ycia i wcale
+nie wygl±da na os³abionego swoim wiekiem, wrêcz przeciwnie, wygl±da na
+krzepkiego cz³owieka z klas±. Siedzi tutaj pod ¶cian±, lekko pykaj±c
+drewnian± fajeczkê i popijaj±c wspania³e, korzenne piwo. Czego jeszcze mu
+trzeba do szczê¶cia? Widaæ zdecydowa³ siê odpocz±æ po latach trudnych
+polowañ. 
+~
+Race cz³owiek~
+ActExt 0|ABG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300000
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27412
+Name wêdrowny rabu¶~
+Odmiana rabusia~rabusiowi~rabusia~rabusiem~rabusiu~
+Short wêdrowny rabu¶~
+Long Jaki¶ pod³y, {Dwêdrowny rabu¶{x czai siê tutaj na zagubionych wêdrowców.~
+Descr Wêdrowny rabu¶ jest m³odym, choæ ju¿ ca³kiem do¶wiadczonym, ³otrem
+najgorszego pokroju. Po jego wrednej mordzie widaæ, ¿e ju¿ kiedy by³
+m³okosem podkrada³ najlepszym kumplom wszystko co siê da³o. Jego d³ugie,
+szorstkie rêce oraz leciutko zarysowany biceps nadaj± mu naprawdê gro¼ny
+wygl±d. 
+~
+Race cz³owiek~
+ActExt 0|ACEGS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -200
+Group 9
+Lang A
+Speaks 0
+Level 20
+Hitroll 1
+HP 21d2+498
+Damage 3d3+2
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 4 4 4 4
+Stats 90 102 114 78 84 108 78
+Off BFINY
+OffExt 0|BFINY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 300
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew greet rabus_backstab FGI 90~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27413
+Name zgarbiony przywodca zakapturzony czlowiek rabus~
+Odmiana przywódcy~przywódcy~przywódcê~przywódc±~przywódcy~
+Short przywódca rabusiów~
+Long Zgarbiony, zakapturzony cz³owiek dok³adnie lustruje wszystkich dooko³a.~
+Descr Ju¿ na pierwszy rzut oka przywódca rabusiów zdaje siê byæ doskona³ym
+³otrzykiem. Jego ca³a zabli¼niona morda, nieogolony zarost, zgarbiona
+postawa i niezwykle delikatny sposób poruszania siê ¶wiadcz± jedynie o tym,
+¿e jest niesamowicie do¶wiadczony w swoim fachu. Dziki b³ysk w jego oku
+czyni jego spojrzenie bardzo przenikliwym. Miej siê na baczno¶ci, bo jest to
+typ, który opêdzluje ci ca³± sakiewkê lub wyr±bie dziurê przez plecy na
+wylot zanim w ogóle zd±¿ysz siê zorientowaæ. 
+~
+Race cz³owiek~
+ActExt 0|ACS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -500
+Group 9
+Lang A
+Speaks 0
+Level 23
+Hitroll 3
+HP 10d7+775
+Damage 3d5+2
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 120 132 144 78 96 114 78
+Off BFNY
+OffExt 0|BFNY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+MobprogNew onload rabus_eq ABCDEFGHI 100~
+MobprogNew greet rabus_magobij FGI 70~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27414
+Name siwy staruch mistrz inwokacji tsiv mag~
+Odmiana mistrza inwokacji~mistrzowi inwokacji~mistrza inwokacji~mistrzem inwokacji~mistrzu inwokacji~
+Short mistrz {GTsiv{x~
+Long Do¶æ stary mag inwokacji {GTsiv{x, jeden z ostatnich mistrzów zakonu Vigorsterei wypoczywa tutaj rozmy¶laj±c.~
+Descr Ten staruszek wydaje siê pe³en ¿ycia i werwy, chocia¿ zapewne nigdy nie
+s³ysza³e¶ o imieniu Tsiv, a tymbardziej o mistrzu magii o takim imieniu.
+Przypominaj± ci siê za to plotki o jakim¶ staro¿ytnym zakonie magów, którzy
+swoj± chciwo¶ci± mocy i bogactw dopu¶cili siê okropnych czynów, za co
+zostali wygnani z krain. Mimo, ¿e ten staruszek wygl±da z pozoru na
+dobrotliwego dziadka, to przez chwile w jego oczach, gdy patrzy na ciebie,
+go¶ci wyraz pogardy. A mo¿e to tylko z³udzenie? 
+~
+Race cz³owiek~
+ActExt 0|ABGR
+Affected 40 0 0 32
+AffectedExt 0|DF/3|F
+Align 300
+Group 0
+Lang A
+Speaks 0
+Level 31
+Hitroll 2
+HP 31d6+1200
+Damage 2d2+1
+Dammagic 3
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 10 10 10 10
+Stats 120 162 150 120 78 168 162
+Off X
+OffExt 0|X
+Pos_start sit
+Pos_def sit
+Sex male
+Wealth 3100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew kill vizyerei_onkill ABCDEFGHI 100~
+Spells 13 149 296 141
+Spells 229 216 91 163
+Spells 48 0 0 0
+Skin 100
+ExpMultiplier 200
+Resist 4 20
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 16 100
+Mobend
+#Vnum 27415
+Name ogromy nied¼wied¼~
+Odmiana ogromnego nied¼wiedzia~ogromnemu nied¼wiedziowi~ogromnego nied¼wiedzia~ogromnym nied¼wiedziem~ogromnym nied¼wiedziu~
+Short ogromny nied¼wied¼~
+Long Ogromny nied¼wied¼ wa¿±cy chyba tonê biegnie w twoim kierunku!~
+Descr Masz przed sob± olbrzymich rozmiarów nied¼wiedzia. Jeste¶ prawie pewien,
+¿e mo¿e bez specjalnego wysi³ku zgnie¶æ ciê w potê¿nym u¶cisku, a jego
+wielkie, ¿ó³te zêbiska spokojnie mog± oddzieliæ twoj± g³owê od tu³owia zanim
+siê w ogóle zorientujesz. Zauwa¿asz, ¿e swoimi wy³upiastymi, przekrwionym
+¶lepiami dok³adnie obserwuje ka¿dy twój ruch! 
+~
+Race nied¼wied¼~
+ActExt 0|AFGI
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 0
+HP 9d9+400
+Damage 2d5+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 7 7 7 7
+Stats 156 78 96 108 78 42 84
+Off CD
+OffExt 0|CD
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ABCDEFHJKRSUV
+Size huge
+Material unknown
+Skin 300
+ExpMultiplier 100
+Mobend
+#Vnum 27416
+Name podpijaczony mê¿czyzna~
+Odmiana podpijaczonego mê¿czyzny~podpijaczonego mê¿czyznie~podpijaczonego mê¿czyznê~podpijaczonym mê¿czyzn±~podpijaczonym mê¿czy¼nie~
+Short podpijaczony mê¿czyzna~
+Long Jaki¶ podpijaczony mê¿czyzna ko³ysze siê tutaj na boki...~
+Descr Jest to mocno styrany ¿yciem mê¿czyzna, który zatapia swoje smutki w
+przezroczystej butelce. Zerka z wielkim po¿±daniem na twoj± sakiewkê, a¿
+móg³by¶ przysi±c ¿e jest on w stanie ciê zabiæ dla nêdznej garstki z³ota.
+Jego twarz zdobi± blizny które zdoby³ pewnie w karczemnych bójkach. 
+~
+Race gnom~
+ActExt 0|AGS
+Affected 512 0 0 0
+AffectedExt 0|J
+Align -300
+Group 0
+Lang A
+Speaks 0
+Level 20
+Hitroll 5
+HP 11d6+614
+Damage 3d4+4
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 5 5 5 5
+Stats 108 90 90 126 78 30 102
+Off BINX
+OffExt 0|BINX
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 50
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 27417
+Name wêdrowny zielarz~
+Odmiana zielarza~zielarzowi~zielarza~zielarzem~zielarzu~
+Short wêdrowny zielarz~
+Long Wêdrowny zielarz z podejrzanym u¶mieszkiem rozgl±da siê dooko³a.~
+Descr Siwizna na g³owie i zmarszczki na twarzy wskazuj±, ¿e ten cz³owiek
+prze¿y³ ju¿ swoje najlepsze lata, a nawet, ¿e ostatnie lata te¿ mu siê zaraz
+skoñcz±. Kolor jego oczu jest bardzo dziwny, co¶ jak purpura, a do³o¿yæ do
+tego to, ¿e wydaje siê ca³y czas nieobecny, to sprawia wra¿enie ca³kowitego
+szaleñca. Na twarzy nosi podejrzany u¶mieszek - ciekawe czym handluje... 
+~
+Race cz³owiek~
+ActExt 0|AG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew onload zielarz_onload ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 4 20
+Mobend
+#Vnum 27418
+Name uzdrawiacz elf pijany ~
+Odmiana uzdrawiacza~uzdrawiaczowi~uzdrawiacza~uzdrawiaczem~uzdrawiaczu~
+Short pijany uzdrawiacz~
+Long Elfi uzdrawiacz prowadzi tutaj intesywny dialog z grawitacj± dopijaj±c kolejne piwo.~
+Descr Ten elf cuchnie niemi³osiernie, najprawdopodobniej libacja w której
+uczestniczy trwa ju¿ od kilku dobrych dni. Jest chudy tak bardzo, ¿e widaæ
+wszystkie ko¶ci, a na g³owie zosta³y mu resztki w³osów przyprószone siwizn±.
+Nie masz pojêcia jak on mo¿e w tym wieku wytrzymywaæ ilo¶ci alkoholu, które
+powali³yby ros³ego krasnoluda. Na czole ma tatua¿, mo¿liwe ¿e jest
+miejscowych uzdrawiaczem, a ¿yje tylko dlatego, ¿e jest lubiany przez swoich
+bogów. 
+~
+Race cz³owiek~
+ActExt 0|ABKQ
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 15
+Hitroll 0
+HP 20d6+280
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 120 102 108 114 120 78 78
+Off EFHKMNY
+OffExt 0|EFHKMNY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 200
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew random uzdrowic_rand FGI 5~
+Spells 28 26 151 61
+Spells 30 150 230 231
+Spells 50 38 39 0
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 27400
+Name grzybki~
+Odmiana grzybków~grzybkom~grzybki~grzybkami~grzybkach~
+Short grzybki~
+Descr Rosn± sobie tutaj na ziemi jakie¶ smakowicie wygl±daj±ce grzybki.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 2
+Value 12 0 0 1 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 1
+Cond 100
+Objprog consume grzybki_consume 100~
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 27402
+Name ogromna beczka~
+Odmiana ogromnej beczki~ogromnej beczce~ogromn± beczkê~ogromn± beczk±~ogromnej beczce~
+Short ogromna beczka~
+Descr Ogromna beczka korzennego piwa stoi tutaj i kusi swoim kurkiem.~
+Material drewno~
+Type fountain
+ExtraExt 0|D
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1000 1000 16 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 9001
+Cost 60
+Cond 100
+Itemdesc Masz przed sob± ogromn± beczkê wype³nion± s³ynnym na ca³y kontynent,
+wspania³ym piwem korzennym. Aromat tego trunku rozsiewa siê po okolicy
+zachêcaj±c do degustacji. 
+~
+Comments ~
+Objend
+#Vnum 27407
+Name ró¿owy kluczyk~
+Odmiana ró¿owego kluczyka~ró¿owemu kluczykowi~ró¿owy kluczyk~ró¿owym kluczykiem~ró¿owym kluczyku~
+Short ró¿owy kluczyk~
+Descr Jaki¶ ma³y, ró¿owy kluczyk le¿y tutaj.~
+Material doskona³a stal~
+Type key
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jaki¶ ma³y ró¿owy kluczyk otwieraj±cy zapewne co¶ ciekawego... 
+~
+Comments ~
+Objend
+#Vnum 27410
+Name potrawka z wróbla~
+Odmiana potrawki z wróbla~potrawce z wróbla~potrawkê z wróbla~potrawk± z wróbla~potrawce z wróbla~
+Short potrawka z wróbla w {yk{go{yr{gz{ye{gn{yn{gy{ym{x piwie~
+Descr ¦wietnie pachn±ca potrawka z wróbla le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 18 48 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 15
+Cond 75
+Itemdesc Jest to ³adnie podana potrawka z wróbla w sosie ze s³ynnego na ca³y
+kontynent, korzennego piwa. 
+~
+Comments ~
+Objend
+#Vnum 27411
+Name od¶wie¿aj±ce zió³ka~
+Odmiana {god¶wie¿aj±cych{x zió³ek~{god¶wie¿aj±cym{x zió³kom~{god¶wie¿aj±ce{x zió³ka~{god¶wie¿aj±cymi{x zió³kami~{god¶wie¿aj±cych{x zió³kach~
+Short {god¶wie¿aj±ce{x zió³ka~
+Descr Pêk {god¶wie¿aj±cyh{x zió³ek le¿y tutaj na ziemi.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 3
+Value 1 72 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 10000
+Cond 100
+Objprog consume ziolka_consume 100~
+Itemdesc Jest to niewielki pêk od¶wie¿aj±cych zió³ek zebranych z lasu
+Obiloñskiego. Ta odmiana jest rzadko spotykana i wysoce ceniona nie tylko
+przez druidów. Niestety dzia³aj± one tylko na bardzo zmêczone osoby. 
+~
+Comments ~
+Objend
+#Vnum 27414
+Name fiolka~
+Odmiana fiolki z {ybrunatnym{x p³ynem~fiolce z {ybrunatnym{x p³ynem~fiolkê z {ybrunatnym{x p³ynem~fiolk± z {ybrunatnym{x p³ynem~fiolce z {ybrunatnym{x p³ynem~
+Short fiolka z {ybrunatnym{x p³ynem~
+Descr Jaka¶ spora fiolka z brunatnym p³ynem le¿y tutaj na ziemi.~
+Material szk³o~
+Type envenomer
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 10 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 8700
+Cond 100
+Itemdesc Jest to spora fiolka z brunatnym p³ynem s³u¿±ca do zatruwania broni.
+Dra¿ni±cy nozdrza zapach przedziera siê nawet przez szklane ¶cianki
+buteleczki. 
+~
+Comments w sklepach niech nie bêdzie trucizn silniejszych ni¿ s³abe - {RGurthg{x ({CSun Jan  3 11:05:22 2010{x)
+~
+Objend
+#Vnum 27415
+Name spora szafa~
+Odmiana sporej szafy~sporej szafie~spor± szafê~spor± szaf±~sporej szafie~
+Short spora szafa~
+Descr Ca³kiem spora szafa stoi tutaj przy zachodniej ¶cianie.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 550 5 0 100 100 5 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Objprog objclosek szafa_close 100~
+Objprog objopen szafa_instynkt 100~
+Itemdesc Masz przed sob± spor±, masywn± szafê z dêbowego drewna, której drzwi
+zdaj± siê byæ jakby mniej zakurzone. Wygl±da na to, ¿e jest to jedyny obiekt
+w tym pokoju, który by³ ca³kiem niedawno u¿ywany. 
+~
+Comments ~
+Objend
+#Vnum 27417
+Name spora szafa~
+Odmiana sporej szafy~sporej szafie~spor± szafê~spor± szaf±~sporej szafie~
+Short spora szafa~
+Descr Ca³kiem spora szafa stoi tutaj przy zachodzniej ¶cianie.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 550 13 27419 100 100 13 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Masz przed sob± spor±, masywn± szafê z dêbowego drewna. Jest to jeden z
+niewielu mebli w tym pokoiku. Zmêczeni podró¿ni mog± schowaæ w niej swoje
+dobra i trzymaæ je pod kluczem. Podobno szafa ta wyposa¿ona jest w swego
+rodzaju zabezpieczenia przed z³odziejami. 
+~
+Comments ~
+Trap 27400
+Objend
+#Vnum 27419
+Name ma³y kluczyk~
+Odmiana kluczyka~kluczykowi~kluczyk~kluczykiem~kluczyku~
+Short ma³y kluczyk~
+Descr Kto¶ zgubi³ tutaj jaki¶ ma³y kluczyk.~
+Material stal~
+Type key
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 4
+Cost 1
+Cond 75
+Itemdesc Jest to ma³y kluczyk na kó³ku.
+~
+Comments ~
+Objend
+#Vnum 27420
+Name niewielki tobo³ek~
+Odmiana niewiekiego tobo³ka~niewielkiemu tobo³kowi~niewielki tobo³ek~niewielkim tobo³kiem~niewielkim tobo³ku~
+Short niewielki tobo³ek~
+Descr Jaki¶ niewielki tobo³ek le¿y tutaj na ziemi.~
+Material len~
+Type trash
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 120
+Cost 1
+Cond 75
+Itemdesc Jest to niewielki, lniany tobo³ek z do¶æ ciê¿k± zawarto¶ci±. Ciekawe co
+jest w ¶rodku... 
+~
+Comments ~
+Objend
+#Vnum 27421
+Name szklaneczka chwiejkroku~
+Odmiana szklaneczki "{CCh{bwiej{Ckr{boku{x"~szklaneczce "{CCh{bwiej{Ckr{boku{x"~szklaneczkê "{CCh{bwiej{Ckr{boku{x"~szklaneczk± "{CCh{bwiej{Ckr{boku{x"~szklaneczce "{CCh{bwiej{Ckr{boku{x"~
+Short szklaneczka "{CCh{bwiej{Ckr{boku{x"~
+Descr Niewielka szklaneczka "{CCh{bwiej{Ckr{boku{x" stoi tutaj na ziemi.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 1 36 0 3333 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 730
+Cond 75
+Objprog consume chwiejkrok_cons 100~
+Itemdesc Szklaneczka trunku, który trzymasz w d³oni zawiera jeden z najrzadszych i
+najlepszych alkoholi na ca³ej Tamerze. Leciutka nutka wisienek zza
+Wschodniego Morza nadaje temu napojowi ekstrawaganckiego, ale i delikatnego
+zapachu. "Chwiejkrok" wypija siê gdy trzeba uczciæ co¶ naprawdê
+szczególnego. 
+~
+Comments ~
+Objend
+#Vnum 27422
+Name skrzynka z narzêdziami~
+Odmiana skrzynki z narzêdziami~skrzynce z narzêdziami~skrzynkê z narzêdziami~skrzynk± z narzêdziami~skrzynce z narzêdziami~
+Short skrzynka z narzêdziami~
+Descr Jaka¶ malutka skrzynka z narzêdziami stoi tutaj.~
+Material stal~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 62
+Cost 310
+Cond 80
+Aff 1 26 128 15 0 0
+Itemdesc Znajduj±ca siê w twoim posiadaniu skrzynka jest podstawowym elementem
+ekwipunku ka¿dego z³odzieja. Znajdziesz w niej miêdzy innymi przeró¿ne
+wytrychy, ³omy, ¶rubokrêty, m³otki i wszelkie inne narzêdzia mog±ce stanowiæ
+pomoc przy otwieraniu zamków. 
+~
+Comments ~
+Objend
+#Vnum 27424
+Name ko¶ci~
+Odmiana ko¶ci~ko¶ciom~ko¶ci~ko¶ciami~ko¶ciach~
+Short ko¶ci do gry~
+Descr I tak long desc nie widac jak mob trzyma to cos w lapie ;)~
+Material unused~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 27425
+Name buteleczka zielonym~
+Odmiana buteleczki~buteleczce~buteleczkê~buteleczk±~buteleczce~
+Short buteleczka z {gzielon±{x ciecz±~
+Descr Jaka¶ niewielka buteleczka z {gzielonym{x p³ynem.~
+Material kryszta³~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 2 3 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 9000
+Cond 80
+Itemdesc Jest to niewielka, zakurzona buteleczka ze zgni³o {gzielon±{x ciecz±. Na
+po¿ó³k³ej ju¿ etykiecie widnieje napis w jakim¶ dziwnym jêzyku "vhenenoso
+sesso de galhina". 
+~
+Comments ~
+Objend
+#Vnum 27426
+Name buteleczka jaskrawa niebieska~
+Odmiana buteleczki~buteleczce~buteleczkê~buteleczk±~buteleczce~
+Short buteleczka z jaskrawo {Bniebiesk±{x ciecz±~
+Descr Niewielka buteleczka wype³niona jaskraw± {Bniebiesk±{x ciecz± le¿y tutaj na ziemi.~
+Material kryszta³~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 4 1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 48000
+Cond 75
+Itemdesc Jest to niewielka, zakurzona buteleczka z jaskrawo {Bniebiesk±{x ciecz±. Na
+po¿ó³k³ej ju¿ etykiecie widnieje napis w jakim¶ dziwnym jêzyku "rhongo
+vhenenoso en pollvo". 
+~
+Comments ~
+Objend
+#Vnum 27427
+Name buteleczka czerwonaw±~
+Odmiana buteleczki~buteleczce~buteleczkê~buteleczk±~buteleczce~
+Short buteleczka z {rczerwonaw±{x ciecz±~
+Descr Niewielka buteleczka z {rczerwonaw±{x ciecz± le¿y tutaj.~
+Material unused~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 3 2 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 19200
+Cond 75
+Itemdesc Jest to niewielka, zakurzona buteleczka z {rczerwonaw±{x ciecz±. Na po¿ó³k³ej
+ju¿ etykiecie widnieje napis w jakim¶ dziwnym jêzyku "extractus de
+lagartijha larva". 
+~
+Comments ~
+Objend
+#Vnum 27428
+Name hebanowe pude³ko~
+Odmiana pude³ka~pude³ku~pude³ko~pude³kiem~pude³ku~
+Short {yhebanowe{x pude³ko~
+Descr Do¶æ spore, {yhebanowe{x pude³ko le¿y tutaj na ziemi~
+Material drewno~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 6 3 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 22
+Cost 3000
+Cond 75
+Itemdesc Do¶æ spore, piêknie zdobione pude³ko wykonane z hebanu i przyozdabiane
+drogimi kamieniami wype³nione jest jak±¶ szklist±, ale nie do koñca
+przezroczyst± substancj± o bardzo gêstej konsystencji. Zbli¿aj±c do niej
+nozdrza mo¿esz poczuæ jak jej k³uj±cy zapach mocno szczypie ciê w oczy,
+mo¿na nawet straciæ na chwilê wzrok! Na wierzchu pude³ka widnieje stara,
+po¿ó³k³a ju¿ etykieta "Noscleraci extractus av salivus de endriagus
+cornudo". 
+~
+Comments Kto¶ zdecydowanie przegi±³ z cen± (90k). Zmniejszam do 3k, zwiêkszam rent do 100, zmniejszam ilo¶c ³adowañ do 3 - {RRysand{x ({CMon Dec 21 21:22:47 2009{x)
+~
+Objend
+#Vnum 27429
+Name pude³ko beczu³ka~
+Odmiana pude³ka~pude³ku~pude³ko~pude³kiem~pude³ku~
+Short pude³ko z narysowan± {Dczaszk±{x gnolla~
+Descr Le¿y tutaj jaka¶ malutka beczu³ka z narysowan± czaszk± gnolla na ¶rodku.~
+Material unused~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 7 1 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 43
+Cost 180000
+Cond 75
+Itemdesc Jest to ogromne pude³ko wielko¶ci niektórych beczu³ek po brzegi
+wype³nione roztworem jakiego¶ zielonego proszku. Zapach wydzielany przez tê
+substancjê parali¿uje natychmiastowo twoje nozdrza tak, ¿e mo¿na straciæ
+wêch na parê dobrych chwil. Na wieczku pude³ka znajduje siê d³ugi, w±ski
+otwór, a tu¿ obok niego widnieje instrukcja ze strza³k± na niego wskazuj±c±
+oraz narysowanym ostrzem zatruwanego orê¿a. Dla broni obuchowych, jako ¿e
+rzadziej siê je zatruwa, narysowano pude³ko do góry nogami i po prostu
+wylewaj±ca siê z niego ciecz. Na po¿ó³k³ej etykiecie widnieje napis "pare
+ankh kuraraus", a tu¿ pod nim narysowany szkielet jakiego¶ gnoma i ma³a
+notka "Nie u¿ywaæ nie znaj±c w³a¶ciwo¶ci. Grozi gorszym ni¿ ¶mieræ". 
+~
+Comments ~
+Objend
+#Vnum 27431
+Name ogromny kufer kufer_kurtyzany~
+Odmiana ogromnego kufra~ogromnemu kufrowi~ogromny kufer~ogromnym kufrem~ogromnym kufru~
+Short ogromny kufer~
+Descr Ca³kiem spory kufer do przechowywania rzeczy klientów elfki stoi tutaj.~
+Material stal~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1000000 0 0 10000 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Ogromny kufer kurtyzany stoi tutaj pod ¶cian±.
+~
+Comments ~
+Objend
+#Vnum 27437
+Name bagniste ¼róde³ko~
+Odmiana {ybagnistego{x ¼róde³ka~{ybagnistemu{x ¼róde³ku~{ybagniste{x ¼róde³ko~{ybagnistym{x ¼róde³kiem~{ybagnistym{x ¼róde³ku~
+Short {ybagniste{x ¼róde³ko~
+Descr Ca³kiem spore, {ybagniste{x ¼róde³ko wyp³ywa tutaj spod ogromnego g³azu...~
+Material unused~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 0 -1 38 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc To niewielkie, {ybagniste{x ¼róde³ko wyp³ywaj±ce spod ogromnego g³azu zdaje
+siê byæ doskona³ym miejscem na k±piele relaksacyjne dla krasnoludów,
+pó³orków i ró¿nych innych brudasów. Z pewno¶ci± jest to tak¿e spe³nienie
+koszmarów ka¿dego elfa. Podobno znajduj±ce siê tutaj b³oto ma w³a¶ciwo¶ci
+lecznicze! 
+~
+Comments ~
+Objend
+#Vnum 27439
+Name woreczek z li¶æmi koki~
+Odmiana woreczka~woreczkowi~woreczek~woreczkiem~woreczku~
+Short woreczek zielarski~
+Descr Dziwny woreczek na li¶cie lezy tutaj.~
+Material len~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 1500
+Cond 100
+Objprog use koka_consume self~
+Itemdesc Ten zielarski woreczek jest wykonany w ca³o¶ci z lnu, a linka, któr±
+mo¿esz go zamkn±æ to zwyk³y rzemieñ. Jest on zu¿yty, pewnie przeszed³ ju¿
+przez wiele r±k. Pachnie naprawdê egzotycznie, pewnie by³o w nim
+przechowywane jakie¶ rzadko spotykane ziele, które ka¿dy chce mieæ. Mo¿e
+warto by³oby {Gu¿yæ{x jego zawarto¶ci? 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 27440
+Name zielarska lupa szk³o powiêkszaj±ce~
+Odmiana zielarskiej lupy~zielarskiej lupie~zielarsk± lupê~zielarsk± lup±~zielarskiej lupie~
+Short zielarska lupa~
+Descr Ciekawej budowy szko³o powiêkszaj±ce na patyku le¿y tutaj.~
+Material szk³o~
+Type trash
+ExtraExt 0|Ga
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 500
+Cond 100
+Aff 1 26 261 5 0 0
+Itemdesc Trzymasz w rêkach precyzyjnie wykonane szk³o powiêkszaj±ce, które pozwala
+na dok³adniejsze ogl±danie ro¶lin. Idealnie wyprofilowane, dobrze ustawione
+znacznie u³atwia rozpoznawanie poszczególnych czêsci zbieranych zió³, tym
+samym u³atwiaj±c ich klasyfikacjê. 
+~
+Comments ~
+Objend
+#Vnum 27441
+Name klucz~
+Odmiana null~null~null~null~null~
+Short klucz~
+Descr ~
+Material unused~
+Type key
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments klucz do tsiva, nie laduje sie i tak ma zostac - {RLaszlo{x ({CSat Jul 11 22:38:43 2009{x)
+~
+Objend
+#Vnum 27442
+Name buteleczka jaskrawa niebieska~
+Odmiana buteleczki~buteleczce~buteleczkê~buteleczk±~buteleczce~
+Short buteleczka z jaskrawo {Bniebiesk±{x ciecz±~
+Descr Niewielka buteleczka wype³niona jaskraw± {Bniebiesk±{x ciecz± le¿y tutaj na ziemi.~
+Material kryszta³~
+Type envenomer
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 4 3 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 5
+Cost 48000
+Cond 75
+Itemdesc Jest to niewielka, zakurzona buteleczka z jaskrawo {Bniebiesk±{x ciecz±. Na
+po¿ó³k³ej ju¿ etykiecie widnieje napis w jakim¶ dziwnym jêzyku "rhongo
+vhenenoso en pollvo". 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 27400
+Name {gKamienna ¶cie¿ka poro¶niêta mchem{x~
+Descr Podró¿ujesz sobie zaro¶niêt±, kamienn± ¶cie¿k±, któr± ju¿ prawie ca³±
+zaros³a gruba warstwa ro¶linno¶ci, a przede wszystkim mchu. Na niedalekiej
+pó³nocy widzisz zarysy jakiego¶ sporego budynku. Jest to zapewne owiana z³±
+s³aw± karczma, w której dziej± siê bardzo dziwne, tajemnicze i zakazane
+sprawy, o które lepiej nie pytaæ. Jednak¿e wspania³y ¶piew otaczaj±cych ciê
+ptaków koi strach, w³a¶ciwie czy trzeba siê baæ tajemnicy? {x 
+~
+Nightdescr Podró¿ujesz sobie zaro¶niêt±, kamienn± ¶cie¿k±, któr± ju¿ prawie ca³±
+zaros³a gruba warstwa ro¶linno¶ci, a przede wszystkim mchu. Na niedalekiej
+pó³nocy widzisz zarysy jakiego¶ sporego budynku, jednak ciê¿ko ci jest go
+dostrzec ze wzglêdu na to, ¿e jest noc. Wilgotne, le¶ne powietrze, które ju¿
+teraz sta³o siê lodowate, doskonale przewodzi zimno. {x 
+~
+FlagsExt 0|C
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27401
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27401
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27508
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27508
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27401
+Name {gKamienna ¶cie¿ka poro¶niêta mchem{x~
+Descr Pod±¿asz w³a¶nie wzd³u¿ wysadzanej kamieniami ¶cie¿ki, która poro¶niêta
+jest zielonym mchem. Zarówno z zachodu jak i ze wschodu otacza ciê szumi±cy
+las. S³yszysz koj±cy ¶piew radosnych ptaków oraz szum drzew. Gdyby nie
+u³o¿one wzd³u¿ drogi, bia³e kamienie to nikt nie by³by w stanie jej
+odnale¼æ. {x 
+~
+Nightdescr Pod±¿asz w³a¶nie wzd³u¿ wysadzanej kamieniami ¶cie¿ki, która poro¶niêta
+jest zielonym mchem. Zarówno z zachodu jak i ze wschodu otacza ciê szumi±cy
+las. Ogarniêty ciemno¶ci± wydaje siê byæ ponury i jakby tajemniczy. A¿
+strach by³oby siê zapuszczaæ weñ samemu. Trzês±ce siê co jaki¶ czas krzaki
+po bokach drogi nie wró¿± niczego dobrego. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27402
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27402
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27400
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27400
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27402
+Name {gZakrêt kamiennej ¶cie¿ki{x~
+Descr Podró¿ujesz sobie zaro¶niêt±, kamienn± ¶cie¿k±, któr± ju¿ prawie ca³±
+zaros³a gruba warstwa ro¶linno¶ci, a przede wszystkim mchu. Na niedalekiej
+pó³nocy widzisz zarysy jakiego¶ sporego budynku. Jest to zapewne owiana z³±
+s³aw± karczma, w której dziej± siê bardzo dziwne, tajemnicze i zakazane
+sprawy, o które lepiej nie pytaæ. Jednak¿e wspania³y ¶piew otaczaj±cych ciê
+ptaków koi strach, w³a¶ciwie czy trzeba siê baæ tajemnicy? {x 
+~
+Nightdescr Podró¿ujesz sobie zaro¶niêt±, kamienn± ¶cie¿k±, któr± ju¿ prawie ca³±
+zaros³a gruba warstwa ro¶linno¶ci, a przede wszystkim mchu. Na niedalekiej
+pó³nocy widzisz zarysy jakiego¶ sporego budynku, jednak ciê¿ko ci jest go
+dostrzec ze wzglêdu na to, ¿e jest noc. Wilgotne, le¶ne powietrze, które ju¿
+teraz sta³o siê lodowate doskonale przewodzi zimno. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27401
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27401
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27403
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27403
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27403
+Name {gKamienna ¶cie¿ka poro¶niêta mchem{x~
+Descr Pod±¿asz w³a¶nie wzd³u¿ wysadzanej kamieniami ¶cie¿ki, która poro¶niêta
+jest zielonym mchem. Zarówno z zachodu jak i ze wschodu otacza ciê szumi±cy
+las. S³yszysz koj±cy ¶piew radosnych ptaków oraz szum drzew. Gdyby nie
+u³o¿one wzd³u¿ drogi, bia³e kamienie to nikt nie by³by w stanie jej
+odnale¼æ. {x 
+~
+Nightdescr Pod±¿asz w³a¶nie wzd³u¿ wysadzanej kamieniami ¶cie¿ki, która poro¶niêta
+jest zielonym mchem. Zarówno z zachodu jak i ze wschodu otacza ciê szumi±cy
+las. Ogarniêty ciemno¶ci± wydaje siê byæ ponury i jakby tajemniczy. A¿
+strach by³oby siê zapuszczaæ weñ samemu. Trzês±ce siê co jaki¶ czas krzaki
+po bokach drogi nie wró¿± niczego dobrego. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27404
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27404
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27402
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27402
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27404
+Name {gKamienna ¶cie¿ka poro¶niêta mchem{x~
+Descr Znajdujesz siê w³a¶nie przed sporymi, obitymi zmursza³ymi deskami
+drzwiami miejscowej karczmy. Jest to miejsce najczê¶ciej odwiedzane przez
+pracuj±cych w kamienio³omach na pó³nocy ludzi. Podobno ostatnio dzieje siê
+tu wiele tajemniczych rzeczy, przewija siê tu mnóstwo zakapturzonych
+wêdrowców oraz dzieje siê tutaj wiele podejrzanych spraw. Chc±c omin±æ
+karczmê by pod±¿aæ na pó³noc nale¿y skierowaæ siê na wschód. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Karczma~
+ExitExtLiczba 1
+ExitExtInfo 24579
+ExitExtKey 0
+ExitExtToVnum 27405
+ExitExtEnd
+Exit 0
+~
+VName Karczma~
+~
+24579 0 27405
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27444
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27444
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27403
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27403
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27405
+Name {DWewn±trz karczmy{x~
+Descr {DZnajdujesz siê wewn±trz tajemniczej karczmy, której to unikaj± zwykli
+podró¿ni. Zreszt± powiniene¶ o tym wiedzieæ, bo skoro ju¿ tu jeste¶ to
+musisz mieæ w tym jaki¶ cel. Wszystko dooko³a zrobione zosta³o z brudnych,
+szarawych desek i na swój sposób ozdobione nieudolnie wyprawionymi skórami
+dzikich zwierz±t. Na pó³nocy znajduje siê obszerna sala gdzie mo¿na czego¶
+siê napiæ lub zje¶æ, na wschodzie za¶ widaæ jaki¶ w±ski korytarzyk
+prowadz±cy zapewne do pokoi do wynajêcia. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27406
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27406
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27410
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27410
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 24579
+ExitExtKey 0
+ExitExtToVnum 27404
+ExitExtEnd
+Exit 2
+~
+VName Wyj¶cie~
+~
+24579 0 27404
+Roomprog random wejsc_rand_opis 2~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27406
+Name {DObszerna sala{x~
+Descr {DTak jak ca³a karczma pogr±¿ona jest w pó³ciemno¶ci tak to miejsce
+ca³kowicie siê od reszty nie ró¿ni. Wszystko przez to, ¿e nie ma tutaj
+¿adnych okien, a do tego chyba nikt tutaj od lat nie sprz±ta³, bo delikatnie
+rzecz ujmuj±c, brud na pewno góruje tutaj nad czysto¶ci±. No mo¿e jest jedna
+rzecz, która wyró¿nia ten kawa³ek obszernej sali, nie ma tutaj ¿adnego
+stolika, a to zapewne dlatego, ¿e zastawia³ on by przej¶cie. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27407
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27407
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27411
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27411
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27405
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27405
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27408
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27408
+Roomprog random sala_rand_opisy 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27407
+Name {DObszerna sala{x~
+Descr {DW tym kawa³ku obszernej sali znajduje siê chyba najbardziej
+reprezentacyjna czê¶æ karczmy. ¦lady odgarniêtego nog± kurzu ¶wiadcz± o tym,
+¿e albo kto¶ siê tutaj nudzi³ i dla zabawy szura³ sobie butem albo kto¶
+niedawno próbowa³ od niechcenia tu posprz±taæ. Na wschodniej ¶cianie wisz±
+zakurzone skóry gro¼nych zwierz±t takich jak nied¼wiedzie, wilki, dziki, a
+nad wszystkim góruje wypchana g³owa ³osia, która ju¿ pod ciê¿arem rogów
+trochê przekrzywi³a siê w prawo. Na pó³nocy znajduje siê tylne wyj¶cie z
+karczmy. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 24579
+ExitExtKey 0
+ExitExtToVnum 27421
+ExitExtEnd
+Exit 0
+~
+VName Wyj¶cie~
+~
+24579 0 27421
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27406
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27406
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27409
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27409
+Roomprog random sala_rand_opisy 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27408
+Name {DObszerna sala{x~
+Descr {DZnajdujesz siê w³a¶nie w obszernej sali karczemnej ca³kowicie zbudowanej
+z obdrapanych, szarych desek. Z ³±cz±cych dwie ¶ciany belkach pod dachem
+zwisaj± ¿elazne ¿yrandole z kilkoma ¶wieczkami, które prawie w ogóle nie
+daj± ¶wiat³a co wraz z kr±¿±cym wokó³ zapachem dymu tworzy tajemniczy
+klimat. Spogl±daj±c na dach zauwa¿asz, ¿e zosta³ on wykonany w do¶æ
+oryginalny sposób, a mianowicie jego wype³niony zwierzêcymi skórami, s³om±
+oraz obro¶niêty mchem szkielet jest oparty na poziomych listwach
+podtrzymywanych przez pionowe, drewniane kolumny. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27409
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27409
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27406
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27406
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27418
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27418
+Roomprog random sala_rand_opisy 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27409
+Name {DObszerna sala{x~
+Descr {DJest to pogr±¿ona w pó³mroku sala bez jakichkolwiek okien wype³niona
+ca³kowicie zapachem dymu ¶wiec oraz palonych zió³. Dach wspieraj± drewniane
+kolumny podtrzymuj±ce poziomo zawieszone zbutwia³e, drewniane belki.
+Wszystko wokó³ zrobione zosta³o z tych samych, szarych desek, które nadaj±
+tej karczmie jeszcze bardziej tajemniczy klimat. Kto¶ wyra¼nie próbowa³
+ozdobiæ ¶ciany skórami zwierz±t lecz wysz³o mu jeszcze gorzej ni¼li mo¿na
+by³oby siê spodziewaæ. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27419
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27419
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27407
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27407
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27408
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27408
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27417
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27417
+Roomprog random sala_rand_opisy 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27410
+Name {DZaniedbany korytarzyk{x~
+Descr {DZaniedbany korytarzyk, po którym w³a¶nie siê przemieszczasz ca³y zawalony
+jest kurzem i ró¿nymi, mniejszymi ¶mieciami. Widaæ, ¿e nikomu nie zale¿y
+tutaj na klientach, i ¿e czerpie siê tutaj zyski z zupe³nie innej
+dzia³alno¶ci. Na pó³nocy dostrzegasz barek z lad± gdzie zapewne mo¿esz kupiæ
+sobie co¶ do jedzenia i napiæ siê s³ynnego na ca³y kontynent piwa. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27411
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27411
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27412
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27412
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27405
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27405
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27411
+Name {DObskurny barek{x~
+Descr {DMiejsce to zosta³o przeznaczone na barek, stoi tutaj bardzo d³uga i
+wysoka lada, która ci±gnie siê od wschodniej ¶ciany i zakrêca do pó³nocnej
+oddzielaj±c miejsce pracy karczmarza od obszernej sali. Prosty, obity
+deskami, zakurzony sufit informuje co inteligentniejszych, ¿e nad nim
+znajduje siê jakie¶ pomieszczenie. Na wschodzie za lad± znajduj± siê drzwi
+na karczemne zaplecze. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 135
+ExitExtKey 27407
+ExitExtToVnum 27413
+ExitExtEnd
+Exit 1
+~
+~
+135 27407 27413
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27410
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27410
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27406
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27406
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27412
+Name {DZaniedbany korytarzyk{x~
+Descr {DSpogl±daj±c na ten strasznie zaniedbany korytarzyk zaczynasz w±tpiæ w
+uczciwo¶æ tutejszego karczmarza. Wszystko wokó³ jest tak niechlujne, ¿e albo
+w³a¶ciciel karczmy ma problemy ze wzrokiem, albo ta karczma to jedyny
+mo¿liwy wybór co do noclegu w okolicy, albo po prostu zyski czerpane s± z
+nielegalnych ¼róde³ co patrz±c na odwiedzaj±cych to miejsce tajemniczych
+go¶ci, wydaje siê byæ najbardziej prawdopodobne. Na pó³nocy zauwa¿asz drzwi
+zapewne prowadz±ce na zaplecze. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 135
+ExitExtKey 27419
+ExitExtToVnum 27413
+ExitExtEnd
+Exit 0
+~
+~
+135 27419 27413
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27414
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27414
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27410
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27410
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27413
+Name {DKarczemne zaplecze{x~
+Descr {DZnajdujesz siê na karczemnym zapleczu. Pó³ki na rozpadaj±cych siê
+rega³ach ca³kowicie wype³nione s± wszelkimi produktami spo¿ywczymi nie
+potrzebuj±cymi zimna. Jest tutaj tak¿e spory, kamienny piec, w którym
+przygotowuje siê przeró¿ne potrawy. Wszêdzie wokó³ porozrzucane s± kuchenne
+narzêdzia oraz jakie¶ ¶cinki warzyw, miêsa i jakich¶ zió³. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 135
+ExitExtKey 0
+ExitExtToVnum 27412
+ExitExtEnd
+Exit 2
+~
+~
+135 0 27412
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 135
+ExitExtKey 0
+ExitExtToVnum 27411
+ExitExtEnd
+Exit 3
+~
+~
+135 0 27411
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27433
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27433
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27414
+Name {DZaniedbany korytarzyk{x~
+Descr {DW tym miejscu korytarzyk zakrêca prowadz±c do starych, drewnianych
+schodów lub patrz±c z drugiej strony, w kierunku obszernej sali. Pod³oga, po
+której siê poruszasz strasznie skrzypi, a fakt, ¿e okna w tej karczmie s±
+tylko na piêtrze daje siê odczuæ w gor±cym, wrêcz dusznym powietrzu
+ogarniaj±cym to miejsce. Na wschodniej ¶cianie widzisz przybit± prostym
+gwo¼dziem, po¿ó³k³± karteczkê. {x 
+~
+FlagsExt 0|H
+Sector 0
+Extra karteczka~
+Zostaw tam to co trzeba i natychmiast do mnie przyb±d¼. Pamiêtaj o tym co
+ci mówi³em gdy ostatni raz siê widzieli¶my. 
+ 
+                                            Nohi.
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27415
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27415
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27412
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27412
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27415
+Name {DZakurzone, krête schody{x~
+Descr {DZnajdujesz siê u stóp schodów prowadz±cych na piêtro karczmy, do pokoi
+noclegowych. Za odpowiedni± op³at± u karczmarza, mo¿esz wynaj±æ jeden z
+nich. Mo¿na zauwa¿yæ, ¿e schody s± ju¿ stare, bo nie do¶æ, ¿e strasznie
+skrzypi± to zbutwia³e stopnie s± jakby zaokr±glone do wewn±trz. Spogl±daj±c
+na szczyt schodów widzisz tylko ciemno¶æ.{x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27414
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27414
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27416
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27416
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27416
+Name {DW±ski korytarz{x~
+Descr {DJest to bardzo w±ski, ca³kowicie zrobiony z szarych desek korytarz,
+zreszt± jak ca³a karczma. Lataj±ce wokó³, bia³e cz±steczki kurzu wpadaj± ci
+do nosa powoduj±c, ¿e chce ci siê kichaæ. Z bardzo niskiego sufitu, który
+w³a¶ciwie jest dachem zwisa ¿elazny ¿yrandol na ¶wiece, jednak nie ma w nim
+ani jednej. Czujesz jak przy silniejszych podmuchach wiatru ca³a konstrukcja
+karczmy strasznie siê ko³ysze. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 135
+ExitExtKey 27441
+ExitExtToVnum 27442
+ExitExtEnd
+Exit 0
+~
+~
+135 27441 27442
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 27443
+ExitExtEnd
+Exit 2
+~
+~
+3 0 27443
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27435
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27435
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27415
+ExitExtEnd
+Exit 5
+~
+~
+0 0 27415
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27417
+Name {DObszerna sala{x~
+Descr {DZnajdujesz siê w³a¶nie w obszernej sali karczemnej ca³kowicie zbudowanej
+z obdrapanych, szarych desek. Z ³±cz±cych dwie ¶ciany belkach pod dachem
+zwisaj± ¿elazne ¿yrandole z kilkoma ¶wieczkami, które prawie w ogóle nie
+daj± ¶wiat³a co wraz z kr±¿±cym wokó³ zapachem dymu tworzy tajemniczy
+klimat. Spogl±daj±c na dach zauwa¿asz, ¿e zosta³ on wykonany w do¶æ
+oryginalny sposób, a mianowicie jego wype³niony zwierzêcymi skórami, s³om±
+oraz obro¶niêty mchem szkielet jest oparty na poziomych listwach
+podtrzymywanych przez pionowe, drewniane kolumny. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27420
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27420
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27409
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27409
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27418
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27418
+Roomprog random sala_rand_opisy 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27418
+Name {DObszerna sala{x~
+Descr {DJest to pogr±¿ona w pó³mroku sala bez jakichkolwiek okien wype³niona
+ca³kowicie zapachem dymu ¶wiec oraz palonych zió³. Dach wspieraj± drewniane
+kolumny podtrzymuj±ce poziomo zawieszone zbutwia³e, drewniane belki.
+Wszystko wokó³ zrobione zosta³o z tych samych, szarych desek, które nadaj±
+tej karczmie jeszcze bardziej tajemniczy klimat. Kto¶ wyra¼nie próbowa³
+ozdobiæ ¶ciany skórami zwierz±t lecz wysz³o mu jeszcze gorzej ni¼li mo¿na
+by³oby siê spodziewaæ. {x 
+~
+FlagsExt 0|HN
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27417
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27417
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27408
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27408
+Roomprog exit hazard_exit2 1~
+Roomprog exit hazard_exit1 0~
+Roomprog random sala_rand_opisy 1~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27419
+Name {DBoczny kawa³ek obszernej sali{x~
+Descr {DBoczny kawa³ek obszernej sali jest doskona³ym miejscem na uciêcie sobie
+jakiej¶ wa¿nej pogaduszki o zakazanych, tajemniczych lub po prostu
+niemoralnych sprawach, o których niebezpiecznie by³oby rozmawiaæ w obecno¶ci
+innych. Siedz±c tutaj w rogu istnieje bardzo ma³e ryzyko bycia pods³uchanym.
+Mo¿na st±d obserwowaæ spokojnie ca³± salê, a brak dobrego ¶wiat³a zapewnia
+anonimowo¶æ. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27409
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27409
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27420
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27420
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27420
+Name {DOgarniêty mrokiem k±t obszernej sali{x~
+Descr {DOgarniêty mrokiem k±t obszernej sali zdaje siê byæ najbardziej pogr±¿onym
+w pó³mroku miejscem w tej przedziwnej karczmie. Jedyne, blade ¶wiat³o
+pochodzi od wypalonej ju¿ do po³owy ¶wiecy. Wszystko wokó³, jak ca³a
+karczma, zbudowane jest z szarych desek lub po prostu s± one tak brudne.
+Widzisz wszêdzie walaj±ce siê resztki jedzenia, kawa³ki st³uczonych kufli
+oraz kurz. Unosi siê tutaj zapach zbutwia³ego drewna, ple¶ni oraz dymu ze
+¶wiec i fajek. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27419
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27419
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27417
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27417
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27421
+Name {gZakrêt ¶cie¿ki{x~
+Descr Stoisz na zakrêcie poro¶niêtej mchem ¶cie¿ki, która prowadzi na
+pó³nocny-wschód do kamienio³omów lub patrz±c w drug± stronê, wprost na Trakt
+Obiloñski. Na niedalekim zachodzie widaæ ju¿ gêst± ¶cianê lasu. Miejsce, w
+którym stoisz jest ju¿ o¶wietlane przez s³oñce podczas dnia ze wzglêdu na
+¶ciête drzewa do budowy karczmy, do której tylne drzwi znajduj± siê na
+po³udniu. Z piêtra w karczmie zwisa sobie jaka¶ lina z zawi±zanymi co jaki¶
+czas sup³ami. {x 
+~
+FlagsExt 0
+Sector 28
+Extra lina~
+Uwa¿niej przypatruj±c siê zamaskowanej linie zwisaj±cej z jednego z
+niewielu okien karczmy zauwa¿asz, ¿e tylko przypadek sprawi³, ¿e j±
+zauwa¿y³e¶. Nachodzi ciê my¶l ¿eby siê wspi±æ do góry, ale lina jest chyba
+zbyt wysoko nad ziemi±. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27423
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27423
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27422
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27422
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Karczma~
+ExitExtLiczba 1
+ExitExtInfo 24579
+ExitExtKey 0
+ExitExtToVnum 27407
+ExitExtEnd
+Exit 2
+~
+VName Karczma~
+~
+24579 0 27407
+Roomprog input lina_wspinaj climb~
+Roomprog input lina_wspinaj wspinaj~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27422
+Name {gZaro¶niêta ¶cie¿ka{x~
+Descr Znajdujesz siê na w±skiej ¶cie¿ce okr±¿aj±cej karczmê, na pewno nie
+zosta³a usypana przez w³a¶ciciela, ale raczej wydeptana przez ludzi chc±cych
+omin±æ karczmê otoczon± wieczn± tajemnic±, zmowami, hazardem, zdrad± no i
+oczywi¶cie seksem. Patrz±c na wschód mo¿esz zobaczyæ nieprzebyty, gêsty las,
+który nawet w dzieñ otacza ze wschodu karczmê mrokiem co czyni j± jeszcze
+bardziej tajemnicz±. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27448
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27448
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27421
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27421
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27423
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Wy³o¿ona swego rodzaju brukiem, ta szeroka ¶cie¿ka przecina las w jego
+chyba najgêstszym miejscu. Kto¶ jednak wyra¼nie siê stara³ buduj±c tê
+¶cie¿kê i próbowa³ j± wykonaæ w jak najprostszej linii. Chodz± plotki, ¿e
+podobno próbuj±c karczowaæ niektóre drzewa zosta³ napadniêty przez
+miejscowych druidów i zosta³ wraz ze swoimi robotnikami stracony na miejscu.
+Wszystko dooko³a ju¿ dawno zaros³y ro¶liny, ze wzglêdu na niesamowicie gêste
+korony drzew ¶wiat³o nie dociera tutaj nawet w dzieñ. { {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27424
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27424
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27421
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27421
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27424
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Podró¿ujesz w³a¶nie szerok±, prawie ca³kowicie zaro¶niêt± ¶cie¿k±, która
+prowadzi od rozwidlenia dróg patrz±c w stronê kamienio³omów, przez
+tajemnicz± karczmê wprost na Trakt Obiloñski. Wokó³ panuje z³owieszcza
+cisza, a najmniejszy szelest czy pêkniêcie drobnego patyczka pod stop± zdaje
+siê byæ ha³a¶liwe. Ze wzglêdu na otaczaj±ce ciê zewsz±d wysokie drzewa z
+gêstymi koronami panuje tutaj wieczny mrok. {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27425
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27425
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27423
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27423
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27425
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Przedzieraj±c siê przez rosn±ce tu wszêdzie, gêste chaszcze spogl±dasz z
+b³agalnie w stronê zas³oniêtego olbrzymimi koronami drzew niebu z nadziej±
+na jakikolwiek prze¶wit s³onecznego ¶wiat³a jednak na pró¿no. G³ucha cisza
+otaczaj±ca to miejsce oraz niesamowita duchota sprawiaj±, ¿e mo¿na tutaj
+naprawdê zwariowaæ! {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27426
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27426
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27424
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27424
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27426
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Wy³o¿ona swego rodzaju brukiem, ta szeroka ¶cie¿ka przecina las w jego
+chyba najgêstszym miejscu. Kto¶ jednak wyra¼nie siê stara³ buduj±c tê
+¶cie¿kê i próbowa³ j± wykonaæ w jak najprostszej linii. Chodz± plotki, ¿e
+podobno próbuj±c karczowaæ niektóre drzewa zosta³ napadniêty przez
+miejscowych druidów i zosta³ wraz ze swoimi robotnikami stracony na miejscu.
+Wszystko dooko³a ju¿ dawno zaros³y ro¶liny, ze wzglêdu na niesamowicie gêste
+korony drzew ¶wiat³o nie dociera tutaj nawet w dzieñ. { {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27427
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27427
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27425
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27425
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27427
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Podró¿ujesz w³a¶nie szerok±, prawie ca³kowicie zaro¶niêt± ¶cie¿k±, która
+prowadzi od rozwidlenia dróg patrz±c w stronê kamienio³omów, przez
+tajemnicz± karczmê wprost na Trakt Obiloñski. Wokó³ panuje z³owieszcza
+cisza, a najmniejszy szelest czy pêkniêcie drobnego patyczka pod stop± zdaje
+siê byæ ha³a¶liwe. Ze wzglêdu na otaczaj±ce ciê zewsz±d wysokie drzewa z
+gêstymi koronami panuje tutaj wieczny mrok. {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27428
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27428
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27426
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27426
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27428
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Przedzieraj±c siê przez rosn±ce tu wszêdzie, gêste chaszcze spogl±dasz z
+b³agalnie w stronê zas³oniêtego olbrzymimi koronami drzew niebu z nadziej±
+na jakikolwiek prze¶wit s³onecznego ¶wiat³a jednak na pró¿no. G³ucha cisza
+otaczaj±ca to miejsce oraz niesamowita duchota sprawiaj±, ¿e mo¿na tutaj
+naprawdê zwariowaæ! {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27429
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27429
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27427
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27427
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27429
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Wy³o¿ona swego rodzaju brukiem, ta szeroka ¶cie¿ka przecina las w jego
+chyba najgêstszym miejscu. Kto¶ jednak wyra¼nie siê stara³ buduj±c tê
+¶cie¿kê i próbowa³ j± wykonaæ w jak najprostszej linii. Chodz± plotki, ¿e
+podobno próbuj±c karczowaæ niektóre drzewa zosta³ napadniêty przez
+miejscowych druidów i zosta³ wraz ze swoimi robotnikami stracony na miejscu.
+Wszystko dooko³a ju¿ dawno zaros³y ro¶liny, ze wzglêdu na niesamowicie gêste
+korony drzew ¶wiat³o nie dociera tutaj nawet w dzieñ. { {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27430
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27430
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27428
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27428
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27430
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Podró¿ujesz w³a¶nie szerok±, prawie ca³kowicie zaro¶niêt± ¶cie¿k±, która
+prowadzi od rozwidlenia dróg patrz±c w stronê kamienio³omów, przez
+tajemnicz± karczmê wprost na Trakt Obiloñski. Wokó³ panuje z³owieszcza
+cisza, a najmniejszy szelest czy pêkniêcie drobnego patyczka pod stop± zdaje
+siê byæ ha³a¶liwe. Ze wzglêdu na otaczaj±ce ciê zewsz±d wysokie drzewa z
+gêstymi koronami panuje tutaj wieczny mrok. {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27431
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27431
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27429
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27429
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27431
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Przedzieraj±c siê przez rosn±ce tu wszêdzie, gêste chaszcze spogl±dasz z
+b³agalnie w stronê zas³oniêtego olbrzymimi koronami drzew niebu z nadziej±
+na jakikolwiek prze¶wit s³onecznego ¶wiat³a jednak na pró¿no. G³ucha cisza
+otaczaj±ca to miejsce oraz niesamowita duchota sprawiaj±, ¿e mo¿na tutaj
+naprawdê zwariowaæ! {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27432
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27432
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27430
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27430
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27432
+Name {gZaro¶niêta ¶cie¿ka przez gêsty las{x~
+Descr Wy³o¿ona swego rodzaju brukiem, ta szeroka ¶cie¿ka przecina las w jego
+chyba najgêstszym miejscu. Kto¶ jednak wyra¼nie siê stara³ buduj±c tê
+¶cie¿kê i próbowa³ j± wykonaæ w jak najprostszej linii. Chodz± plotki, ¿e
+podobno próbuj±c karczowaæ niektóre drzewa zosta³ napadniêty przez
+miejscowych druidów i zosta³ wraz ze swoimi robotnikami stracony na miejscu.
+Wszystko dooko³a ju¿ dawno zaros³y ro¶liny, ze wzglêdu na niesamowicie gêste
+korony drzew ¶wiat³o nie dociera tutaj nawet w dzieñ. { {x 
+~
+FlagsExt 0|A
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8192
+ExitExtKey 0
+ExitExtToVnum 55161
+ExitExtEnd
+Exit 1
+~
+~
+8192 0 55161
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27431
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27431
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27433
+Name {DDu¿a piwniczka{x~
+Descr {DDo¶æ spora piwniczka znajduj±ca siê pod karczm± s³u¿y karczmarzowi do
+przechowywania miêsa, piwa, wina i wszelkich innych produktów spo¿ywczych
+wymagaj±cych niskiej temperatury by pozostaæ ¶wie¿ym. Rzeczywi¶cie panuje
+tutaj potworne zimno, a¿ oddech zamienia siê w parê. Trochê to dziwne, bo
+ch³ód znajduj±cy siê pod ziemi± nie mo¿e byæ a¿ tak lodowaty. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27434
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27434
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27413
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27413
+Roomprog entry piwo_entry 100~
+Roomprog input piwo_rozlej pour out~
+Roomprog input piwo_rozlej rozlej~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27434
+Name {DSpora wnêka w ¶cianie piwniczki{x~
+Descr {DJest to spora wnêka w piwniczce, zapewne przeznaczona do trzymania w
+zimnie wymagaj±cych tego potraw i trunków. Na zachodniej ¶cianie zauwa¿asz
+przykute do niej, pokrwawione ³añcuchy, a na ziemi oprócz walaj±cych siê
+wszêdzie ko¶ci, porozlewana jest te¿ krew. Czujesz, ¿e gdyby siê tak tu
+d³u¿ej zatrzymaæ to spokojnie mo¿na by by³o zamarzn±æ. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27433
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27433
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27435
+Name {DW±ski korytarz{x~
+Descr {DW±ski, brudny korytarz, w którym w³a¶nie siê znajdujesz wygl±da na nigdy
+nie sprz±tany, jednak patrz±c na najbardziej reprezentacyjn±, obszern± salê
+na parterze to co do czysto¶ci to chyba nic ciê ju¿ nie zdziwi. Spogl±daj±c
+w górê zauwa¿asz dach zrobiony ze s³omy i skór zwierzêcych, oparty na
+grubych, drewnianych belkach. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131335
+ExitExtKey 27441
+ExitExtToVnum 27450
+ExitExtEnd
+Exit 0
+~
+~
+131335 27441 27450
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27416
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27416
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27436
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27436
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27436
+Name {DW±ski korytarz{x~
+Descr {DJest to bardzo w±ski, ca³kowicie zrobiony szarych desek korytarz, zreszt±
+jak ca³a karczma. Lataj±ce wokó³, bia³e cz±steczki kurzu wpadaj± ci do nosa
+powoduj±c, ¿e chce ci siê kichaæ. Z bardzo niskiego sufitu, który w³a¶ciwie
+jest dachem zwisa ¿elazny ¿yrandol na ¶wiece, jednak nie ma w nim ani
+jednej. Czujesz jak przy silniejszych podmuchach wiatru ca³a konstrukcja
+karczmy strasznie siê ko³ysze. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 27419
+ExitExtToVnum 27441
+ExitExtEnd
+Exit 0
+~
+~
+7 27419 27441
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27435
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27435
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27437
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27437
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27437
+Name {DW±ski korytarz{x~
+Descr {DW±ski, brudny korytarz, w którym w³a¶nie siê znajdujesz wygl±da na nigdy
+nie sprz±tany, jednak patrz±c na najbardziej reprezentacyjn±, obszern± salê
+na parterze to co do czysto¶ci to chyba nic ciê ju¿ nie zdziwi. Spogl±daj±c
+w górê zauwa¿asz dach zrobiony ze s³omy i skór zwierzêcych, oparty na
+grubych, drewnianych belkach. {x 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 27438
+ExitExtEnd
+Exit 0
+~
+~
+3 0 27438
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27436
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27436
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 27407
+ExitExtToVnum 27440
+ExitExtEnd
+Exit 2
+~
+~
+7 27407 27440
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27438
+Name {DCiemny pokój{x~
+Descr {DJest to jeden z kilku pokoi noclegowych, które mo¿na wynaj±æ u
+karczmarza. Ten, w którym siê w³a¶nie znajdujesz nie posiada okna, które na
+pewno by³oby niema³ym udogodnieniem. Jednak mo¿na tutaj spokojnie przespaæ
+jedn± noc, bo na pewno lepsze to ni¿ spaæ pod go³ym niebem. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 27437
+ExitExtEnd
+Exit 2
+~
+~
+3 0 27437
+Roomprog input szafa_przejscie przejd¼~
+Roomprog input szafa_przejscie wejd¼~
+Roomprog input szafa_przejscie enter~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27439
+Name {DMalutki pokoik{x~
+Descr {DTo niewielkie, tajne pomieszczenie jest kwater± g³ówn± z³odziejskiej
+organizacji znanej wiêkszo¶ci ³otrów na ¶wiecie. S³u¿y ona mistrzowi tego
+cechu jako kryjówka przed ¶cigaj±cymi go organami prawa. Znajduje siê tutaj
+niedu¿e ³ó¿ko, jaka¶ prosta szafka i wygodny fotel. Warunki te zdaj± siê byæ
+wystarczaj±ce do ¿ycia chocia¿ wydaje ci siê, ¿e ciê¿ko by³oby d³u¿ej
+egzystowaæ w tak ma³ym pokoiku.{x 
+~
+FlagsExt 0|HJ
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27449
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27449
+Roomprog entry nad_stop_gildia 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27440
+Name {mRó¿owy {Mpokój {mrozkoszy{x~
+Descr {mZnalaz³e¶ {Msiê {mw {Mca³kiem {mprzytulnym {Mpokoju {mudekorowanym {Mca³kowicie {mna
+{Mró¿owo. {m¦ciany {Mobite {mzosta³y {Mjakim¶ {mmiêciutkim {Mmateria³em, {ma {Mna {mpod³odze
+{Mle¿y {mutkany {Mz {mmi³ej {Mw {mdotyku {Mwe³ny {mdywanik. {MUnosi {msiê {Mtutaj {mzapach {Malkoholu
+{mi {Mstarego {mpotu, {Mdo {mktórego {Mpo {md³u¿szej {Mchwili {msiê {Mprzyzwyczajasz. {mJako, {M¿e
+{mnie {Mma {mtutaj {Mokna {mto {Mjedynym {m¶wiat³em {Mw {mtym {Mpomieszczeniu {ms± {Mtrzy {mczerwone,
+{Md³ugie {m¶wieczki. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 27407
+ExitExtToVnum 27437
+ExitExtEnd
+Exit 0
+~
+~
+7 27407 27437
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27441
+Name {DPokój noclegowy{x~
+Descr {DMasz przed sob± jeden z kilku pokoi, które mo¿esz wynaj±æ w tej karczmie.
+Jest niedu¿y, ale jak na jedn±, góra dwie noce to lepiej ni¿ spaæ pod go³ym
+niebem. Widaæ, ¿e nie ma tutaj a¿ tak du¿o kurzu, a to prawdopodobnie
+dlatego, ¿e jest tutaj co¶ czego brakuje na parterze - okno. Ledwo
+dostrzegasz prze³o¿on± przez nie linê z jakimi¶ sup³ami. Chc±c zachowywaæ
+siê cicho trzeba uwa¿aæ na skrzypi±c± pod³ogê. {x 
+~
+FlagsExt 0|H
+Sector 0
+Extra lina~
+Zwyk³a lina z sup³ami wystaj±ca przez okno. Mo¿e da siê po niej spu¶ciæ?
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 27419
+ExitExtToVnum 27436
+ExitExtEnd
+Exit 2
+~
+~
+7 27419 27436
+Roomprog entry entry_kupiecpok 100~
+Roomprog input lina_zejscie descend~
+Roomprog input lina_zejscie spu¶æ~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27442
+Name {DPokój noclegowy{x~
+Descr {DPokój ten ju¿ na samo wej¶cie widocznie ró¿ni siê od pozosta³ych. Choæ
+zbudowany i urz±dzony jest tak samo jak pozosta³e pokoje to jednak jego
+lokator do¶æ znacznie wp³yn±³ na jego wystrój. Znajduje siê tu wiele szafek
+i pó³ek ca³kowicie obstawionych przeró¿nymi preparatami i przyrz±dami
+alchemicznymi. Od butelek i kolb wype³nionych po brzegi kolorowymi p³ynami,
+przez przeró¿ne, dziwne kamienie do s³ojów ze zmumifikowanymi czê¶ciami cia³
+ró¿nych stworów. Ca³a kolekcja wygl±da naprawdê okazale. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 135
+ExitExtKey 27441
+ExitExtToVnum 27416
+ExitExtEnd
+Exit 2
+~
+~
+135 27441 27416
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27443
+Name {DPokój noclegowy{x~
+Descr {DNa pierwszy rzut oka mo¿na zauwa¿yæ, ¿e ten pokój nie ró¿ni siê prawie w
+ogóle od innych. Zapewne kiedy budowano tê karczmê to by³ to jaki¶ tam styl,
+którego chciano siê trzymaæ. Brudne, nad³amane, szare deski wype³niaj± ca³±
+powierzchniê sta³±, dos³ownie wszystko w tym pokoju. No, mo¿e poza oknem,
+choæ zabicie go deskami nic by w³a¶ciwie nie zmieni³o, bo jest ono tak
+brudne i porysowane, ¿e i tak nie dociera przez nie ¿adne ¶wiat³o. {x 
+~
+FlagsExt 0|HW
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 27416
+ExitExtEnd
+Exit 0
+~
+~
+3 0 27416
+Rentrate 105
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27444
+Name {gZaro¶niêta ¶cie¿ka{x~
+Descr Przemieszczasz siê w³a¶nie po w±skiej ¶cie¿ce okr±¿aj±cej du¿± karczmê,
+jest ona przeznaczona dla tych, którzy nie chc± mieæ nic wspólnego z
+tajemniczymi sprawami zakapturzonych ludzi, którzy w niej rezyduj±. Co
+odwa¿niejsi pracownicy kamienio³omów odwiedzaj± czasem ten zajazd poniewa¿
+serwuj± tam podobno najlepsze piwo w okolicy. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27445
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27445
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27404
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27404
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27445
+Name {gZaro¶niêta ¶cie¿ka{x~
+Descr Znajdujesz siê na w±skiej ¶cie¿ce okr±¿aj±cej karczmê, na pewno nie
+zosta³a usypana przez w³a¶ciciela, ale raczej wydeptana przez ludzi chc±cych
+omin±æ karczmê otoczon± wieczn± tajemnic±, zmowami, hazardem, zdrad± no i
+oczywi¶cie seksem. Patrz±c na wschód mo¿esz zobaczyæ nieprzebyty, gêsty las,
+który nawet w dzieñ otacza ze wschodu karczmê mrokiem co czyni j± jeszcze
+bardziej tajemnicz±. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27446
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27446
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27444
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27444
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27446
+Name {gZaro¶niêta ¶cie¿ka{x~
+Descr Przemieszczasz siê w³a¶nie po w±skiej ¶cie¿ce okr±¿aj±cej du¿± karczmê,
+jest ona przeznaczona dla tych, którzy nie chc± mieæ nic wspólnego z
+tajemniczymi sprawami zakapturzonych ludzi, którzy w niej rezyduj±. Co
+odwa¿niejsi pracownicy kamienio³omów odwiedzaj± czasem ten zajazd poniewa¿
+serwuj± tam podobno najlepsze piwo w okolicy. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27447
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27447
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27445
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27445
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27447
+Name {gZaro¶niêta ¶cie¿ka{x~
+Descr Znajdujesz siê na w±skiej ¶cie¿ce okr±¿aj±cej karczmê, na pewno nie
+zosta³a usypana przez w³a¶ciciela, ale raczej wydeptana przez ludzi chc±cych
+omin±æ karczmê otoczon± wieczn± tajemnic±, zmowami, hazardem, zdrad± no i
+oczywi¶cie seksem. Patrz±c na wschód mo¿esz zobaczyæ nieprzebyty, gêsty las,
+który nawet w dzieñ otacza ze wschodu karczmê mrokiem co czyni j± jeszcze
+bardziej tajemnicz±. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27448
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27448
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27446
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27446
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27448
+Name {gZaro¶niêta ¶cie¿ka{x~
+Descr Przemieszczasz siê w³a¶nie po w±skiej ¶cie¿ce okr±¿aj±cej du¿± karczmê,
+jest ona przeznaczona dla tych, którzy nie chc± mieæ nic wspólnego z
+tajemniczymi sprawami zakapturzonych ludzi, którzy w niej rezyduj±. Co
+odwa¿niejsi pracownicy kamienio³omów odwiedzaj± czasem ten zajazd poniewa¿
+serwuj± tam podobno najlepsze piwo w okolicy. {x 
+~
+FlagsExt 0
+Sector 28
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27447
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27447
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27422
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27422
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27449
+Name {DTajne pomieszczenie{x~
+Descr {DTo niewielkie, tajne pomieszczenie jest ca³e w czarnym kolorze przez co
+panuje tutaj swego rodzaju pó³mrok. Pod³oga wy³o¿ona jest miêciutkim
+dywanikiem, tak samo jak ¶ciany i sufit. Wy¿sze osoby musz± naprawdê uwa¿aæ
+by nie waln±æ g³ow± w sklepienie. Na po³udniu widaæ bardzo ma³± komnatê, a
+na id±c na wschód mo¿esz wróciæ do jednego z pokoi w karczmie. {x 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27438
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27438
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27439
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27439
+Roomprog entry nad_stop_gildia 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 27450
+Name {DJeden z kilku noclegowych pokoi{x~
+Descr {DMiejsce, w którym w³a¶nie siê znalaz³e¶ to jeden z kilku pokoi mo¿liwych
+do wynajêcia w tej karczmie. Zdaje siê, ¿e obecny lokator wykupi³ go na
+w³asno¶æ i zamieszka³ tutaj na d³ugie lata. Widzisz, ¿e wymieni³ sobie
+po¶ciel na ³ó¿ku, obstawi³ rega³y ksi±¿kami, a tak¿e wybi³ szybê w oknie
+pozwalaj±c ¶wie¿emu, le¶nemu powietrzu dostaæ siê tutaj. Pokój jest
+o¶wietlony, ale nie widaæ w pobli¿u ¿adnego ¼ród³a ¶wiat³a. {x 
+~
+FlagsExt 0|HN
+Sector 0
+Extra okno~
+Jest to ca³kiem spore, drewniane okno. Zawsze w razie wypadku mo¿na przez
+nie wyskoczyæ, ale to mo¿e byæ bardzo ryzykowne... 
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 131335
+ExitExtKey 27441
+ExitExtToVnum 27435
+ExitExtEnd
+Exit 2
+~
+~
+131335 27441 27435
+Roomprog input okno_wyskocz wyskocz~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+27400 0 0 0 0 0 110 90 0 23 * 27411
+27404 0 0 0 0 0 300 100 0 23 * 27439
+27411 43 42 0 0 0 100 100 0 23 * 0
+27417 0 0 0 0 0 100 100 0 23 * 0
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+M 27412 spec_thief
+M 27413 spec_thief
+M 27416 spec_thief
+S
+
+
+
+#RESETS
+M 100 27413 1 27401 1
+M 100 27412 2 27401 2
+E 100 3171 0 16
+M 100 27412 2 27401 2
+E 100 3171 0 16
+O 100 2364 0 27408
+O 100 2362 0 27408
+M 100 27401 1 27408 1
+G 100 27407 0
+O 100 2364 0 27409
+O 100 2362 0 27409
+O 100 2363 0 27411
+M 100 27403 1 27411 1
+G 100 3335 0
+G 15 3349 0
+M 100 27400 1 27411 1
+G 100 3381 0
+G 100 27410 0
+G 100 27421 0
+G 100 2450 0
+G 100 2467 0
+G 100 27411 0
+O 100 2364 0 27417
+O 100 2362 0 27417
+M 100 27411 1 27417 1
+O 100 2364 0 27418
+O 100 2362 0 27418
+M 100 27410 1 27418 1
+E 100 27424 0 17
+O 100 2364 0 27419
+O 100 2362 0 27419
+M 100 27402 1 27419 1
+E 100 3157 0 16
+O 100 2364 0 27420
+O 100 2362 0 27420
+M 100 27416 1 27420 1
+E 100 3157 0 16
+E 50 3157 0 17
+M 100 27418 1 27420 1
+M 10 27415 1 27428 1
+O 100 27437 0 27428
+O 100 27402 0 27433
+M 100 27408 1 27434 1
+O 100 27415 0 27438
+O 100 2358 0 27438
+M 100 27404 1 27439 1
+E 100 3157 0 16
+G 100 3157 0
+G 100 4426 0
+G 100 27414 0
+G 100 27422 0
+G 100 9123 0
+O 100 2355 0 27440
+O 100 27431 0 27440
+O 100 2358 0 27441
+O 100 27417 0 27441
+M 100 27406 1 27441 1
+G 100 27419 0
+M 100 27405 1 27441 1
+P 100 27420 1 27417 1
+O 100 2358 0 27442
+M 100 27409 1 27442 1
+E 100 3157 0 16
+G 3 27429 0
+G 2 27428 0
+G 20 27427 0
+G 7 27426 0
+G 30 27425 0
+E 100 4397 0 5
+O 100 2358 0 27443
+O 100 2358 0 27450
+M 100 27414 1 27450 1
+E 100 4416 0 8
+E 100 4361 0 5
+E 33 9120 0 2
+S
+
+
+
+#MOBPROGSNEW
+#alchemik_ondeat
+~
+mob echo Szalony alchemik padaj±c na ziemiê próbuje ostatkiem si³ zas³oniæ owoce swej wieloletniej pracy. Niestety, zawarto¶æ sakiewki wysypuje mu siê na ziemiê!
+$_rand = int_random 1 3
+if numeval $_rand == 1
+  mob oload gem 5 r
+  mob oload gem 2 r
+endif
+if numeval $_rand == 2
+  mob oload gem 6 r
+endif
+if numeval $_rand == 3
+  mob oload gem 4 r
+  mob oload gem 4 r
+endif 
+~
+#hazardzista_dzi
+~
+if !hasflag $n reg_gra_w_kosci
+  chich
+  break
+endif
+mob setflag $n reg_kosci
+mob setflag $n reg_dal_dziesiec
+sayto $n No no no, to jest to!
+sayto $n Przed rozpoczêciem poinformuj mnie, ¿e RZUCASZ
+sayto $n Muszê ciê dok³adnie obserwowaæ czy nie oszukujesz
+sayto $n W puli znajduje siê 20000 monet!
+usm
+~
+#hazardzista_gre
+~
+if !roomhasflag reg_gra_w_toku
+say Hej ty!
+ws $n
+minidelay 2
+say Masz ochotê zagraæ partyjkê w ko¶ci?
+~
+#hazardzista_nie
+~
+wzd
+sayto $n To powiedz mi jak siê zdecydujesz...
+~
+#hazardzista_pie
+~
+if !hasflag $n reg_gra_w_kosci
+  chich
+  break
+endif
+mob setflag $n reg_kosci
+mob setflag $n reg_dal_piec
+sayto $n No, nareszcie jaka¶ porz±dna oferta!
+sayto $n Przed rozpoczêciem poinformuj mnie, ¿e RZUCASZ
+sayto $n Muszê ciê dok³adnie obserwowaæ czy nie oszukujesz
+sayto $n W puli znajduje siê 10000 monet!
+usm
+~
+#hazardzista_tak
+~
+if roomhasflag reg_gra_w_toku
+  sayto $n Przykro mi, ale w tej chwili ju¿ kto¶ gra, poczekaj jeszcze trochê
+  break
+endif
+sayto $n Ok, no to zaczynamy
+minidelay 2
+sayto $n Stawki s± ustalone
+sayto $n 1000, 5000 lub 10000 monet
+sayto $n Daj mi kasê i mo¿emy rzucaæ
+mob setflag room reg_gra_w_toku
+mob setflag $n reg_gra_w_kosci
+~
+#hazardzista_thr
+~
+$_rand = int_random 1 3
+$_rand2 = int_random 1 3
+$_rand3 = int_random 1 6
+$_rand4 = int_random 1 6
+$_rand5 = int_random 1 3
+$_rand6 = int_random 1 3
+$_rand7 = int_random 1 6
+$_rand8 = int_random 1 6
+$_rand9 = int_random 1 2
+$_suma_pc = int_add $_rand3 $_rand7
+$_suma_haz = int_add $_rand4 $_rand8
+mob reward $n wait 500
+if !hasflag $n reg_kosci
+  hm
+  break
+endif
+if numeval $_rand == 1
+  mob echoat $n D³ugo grzechoczesz kostk± w d³oniach po czym otwierasz je nad stolikiem!
+  mob echoaround $n $n d³ugo grzechocze kostk± w d³oniach po czym otwiera je nad stolikiem!
+endif
+if numeval $_rand == 2
+  mob echoat $n Udaj±c profesjonalistê podrzucasz kostkê szybkim machniêciem nadgarstka!
+  mob echoaround $n $n udaj±c profesjonalistê podrzuca kostkê szybkim machniêciem nadgarstka!
+endif
+if numeval $_rand == 3
+  mob echoat $n Chwytasz ko¶æ dwoma palcami, a nastêpnie z ca³ej si³y strzelasz w ni± prztyczkiem tak, ¿e l±duje ona na ¶rodku 
+  sto³u!
+  mob echoaround $n $n chwyta ko¶æ dwoma palcami, a nastêpnie z ca³ej si³y strzela w ni± prztyczkiem tak, ¿e l±duje ona na 
+  ¶rodku sto³u!
+endif
+delay 1
+if numeval $_rand2 == 1
+  mob echo Kostka d³ugo wiruje robi±c niewielkie kó³ka...
+endif
+if numeval $_rand2 == 2
+  mob echo Kostka tocz±c siê prawie spada ze sto³u!
+endif
+if numeval $_rand2 == 3
+  mob echo Kostka lekko jeszcze wiruj±c l±duje wprost na ¶rodku sto³u!
+endif
+delay 1
+if numeval $_rand3 == 1
+  mob echoat $n Niech to szlag! A by³o tak blisko! {RJEDEN{x
+  mob echoaround $n Widzisz jak $n wali piê¶ci± w stó³! {RJEDEN{x
+endif
+if numeval $_rand3 == 2
+  mob echoat $n Grrr... A by³o tak blisko... {RDWA{x
+  mob echoaround $n $n przeklina tak g³o¶no, ¿e ca³a karczemna sala siê cichnie na chwilê! {RDWA{x
+endif
+if numeval $_rand3 == 3
+  mob echoat $n Eh... Zawsze mog³o byæ gorzej...  {rTRZY{x
+  mob echoaround $n $n wzdycha g³o¶no... {rTRZY{x
+endif
+if numeval $_rand3 == 4
+  mob echoat $n No... Powiedzmy, ¿e jest przynajmniej dobrze... {gCZTERY{x
+  mob echoaround $n Twarz $z pozostaje praktycznie niewzruszona. {gCZTERY{x
+endif
+if numeval $_rand3 == 5
+  mob echoat $n No no, oby tak dalej! {GPIÊÆ{x
+  mob echoaround $n Widzisz jak $n z u¶miechem pociera rêce! {GPIÊÆ{x
+endif
+if numeval $_rand3 == 6
+  mob echoat $n Super! Czy¿ hazard nie jest wspania³y? {GSZE¦Æ{x
+  mob echoaround $n Widzisz jak $n podskakuje z rado¶ci±! {GSZE¦Æ{x
+endif
+minidelay 4
+mob echo Teraz kolej hazardzisty.
+delay 1
+mob echo Hazardzista chwyta kostkê w dwa palce i podrzuca wysoko w powietrze!
+minidelay 4
+mob echo Po chwili ³apie kostkê w rêkê i wykonuje profesjonalny rzut!
+minidelay 4
+if numeval $_rand4 == 1
+  mob echo Hazardzista wstaje gwa³townie od sto³u i ze z³o¶ci± kopie w ¶ciane! {RJEDEN{x
+endif
+if numeval $_rand4 == 2
+  mob echo Hazardzista wali piê¶ci± w stó³ tak, ¿e ten skrzypi g³o¶no! {RDWA{x
+endif
+if numeval $_rand4 == 3
+  mob echo Hazardzista wzdycha g³êboko...  {rTRZY{x
+endif
+if numeval $_rand4 == 4
+  mob echo Hazardzista u¶miecha siê lekko... {gCZTERY{x
+endif
+if numeval $_rand4 == 5
+  mob echo Hazardzista chichocze g³o¶no wpatruj±c siê w ko¶æ! {GPIÊÆ{x
+endif
+if numeval $_rand4 == 6
+  mob echo Hazardzista zastyga w ge¶cie rado¶ci wydaj±c z siebie dziki ryk! {GSZE¦Æ{x
+endif
+minidelay 4
+if numeval $_rand3 == $_rand4
+  mob echo {RPóki co jest remis.{x
+endif
+if numeval $_rand3 > $_rand4
+  mob echoat $n {RPóki co wygrywasz!{x
+  mob echoaround $n {RPóki co $n wygrywa!{x
+endif
+if numeval $_rand3 < $_rand4
+  mob echo {RPóki co wygrywa hazardzista!{x
+endif
+minidelay 2
+mob echo Czas na drugi rzut.
+minidelay 4
+if numeval $_rand5 == 1
+  mob echoat $n Troszkê niepewnym ruchem rzucasz kostkê, która zaczyna siê toczyæ po stole...
+  mob echoaround $n Troszkê niepewnym ruchem $n rzuca kostkê, która zaczyna siê toczyæ po stole...
+endif
+if numeval $_rand5 == 2
+  mob echoat $n Szybkim ruchem rzucasz kostk± o stó³, a ta odbija siê od niego i spada na ziemiê!
+  mob echoaround $n $n szybkim ruchem rzuca kostk± o stó³, a ta odbija siê od niego i spada na ziemiê!
+endif
+if numeval $_rand5 == 3
+  mob echoat $n Rzucaj±c kostkê na stó³ potykasz siê o co¶ i o ma³y w³os nie przewracasz na ziemiê!
+  mob echoaround $n $n rzucaj±c kostkê na stó³ potyka siê o co¶ i o ma³y w³os nie przewraca na ziemiê!
+endif
+delay 1
+mob echo Uwa¿nie przypatrujesz siê lekko wiruj±cej jeszcze kostce...
+delay 1
+if numeval $_rand7 == 1
+  mob echoat $n Niech to szlag! A by³o tak blisko! {RJEDEN{x
+  mob echoaround $n Widzisz jak $n wali piê¶ci± w stó³! {RJEDEN{x
+endif
+if numeval $_rand7 == 2
+  mob echoat $n Grrr... A by³o tak blisko... {RDWA{x
+  mob echoaround $n $n przeklina tak g³o¶no, ¿e ca³a karczemna sala cichnie na chwilê! {RDWA{x
+endif
+if numeval $_rand7 == 3
+  mob echoat $n Eh... Zawsze mog³o byæ gorzej...  {rTRZY{x
+  mob echoaround $n $n wzdycha g³o¶no... {rTRZY{x
+endif
+if numeval $_rand7 == 4
+  mob echoat $n No... Powiedzmy, ¿e jest przynajmniej dobrze... {gCZTERY{x
+  mob echoaround $n Twarz $z pozostaje praktycznie niewzruszona. {gCZTERY{x
+endif
+if numeval $_rand7 == 5
+  mob echoat $n No no, To jest to! {GPIÊÆ{x
+  mob echoaround $n Widzisz jak $n z u¶miechem pociera rêce! {GPIÊÆ{x
+endif
+if numeval $_rand7 == 6
+  mob echoat $n Super! Czy¿ hazard nie jest wspania³y? {GSZE¦Æ{x
+  mob echoaround $n Widzisz jak $n podskakuje z rado¶ci±! {GSZE¦Æ{x
+endif
+minidelay 4
+mob echo Teraz kolej hazardzisty.
+delay 1
+mob echo Hazardzista chwyta kostkê w dwa palce i podrzuca wysoko w powietrze!
+minidelay 4
+mob echo Po chwili ³apie kostkê w rêkê i wykonuje profesjonalny rzut!
+minidelay 4
+if numeval $_rand8 == 1
+  mob echo Hazardzista wstaje gwa³townie od sto³u i ze z³o¶ci± kopie w ¶ciane! {RJEDEN{x
+endif
+if numeval $_rand8 == 2
+  mob echo Hazardzista wali piê¶ci± w stó³ tak, ¿e ten skrzypi g³o¶no! {RDWA{x
+endif
+if numeval $_rand8 == 3
+  mob echo Hazardzista wzdycha g³êboko...  {rTRZY{x
+endif
+if numeval $_rand8 == 4
+  mob echo Hazardzista u¶miecha siê lekko... {gCZTERY{x
+endif
+if numeval $_rand8 == 5
+  mob echo Hazardzista chichocze g³o¶no wpatruj±c siê w ko¶æ! {GPIÊÆ{x
+endif
+if numeval $_rand8 == 6
+  mob echo Hazardzista zastyga w ge¶cie rado¶ci wydaj±c z siebie dziki ryk! {GSZE¦Æ{x
+endif
+minidelay 4
+if numeval $_suma_haz > $_suma_pc
+  emote chichocze g³o¶no zgarniaj±c pieni±dze do sakiewki przy pasku...
+  sayto $n Tym razem wygra³em! Mo¿e spróbujesz jeszcze raz?
+endif
+if numeval $_suma_haz < $_suma_pc
+  emote wali piê¶ci± w stó³ przeklinaj±c g³o¶no!
+  sayto $n No, uda³o ci siê tym razem. Co powiesz na ma³y rewan¿yk?
+  mob echoat $n Hazardzista wrêcza ci wygran±.
+  mob echoaround $n Hazardzista wrêcza zwyciêscy wygran±.
+  if hasflag $n reg_dal_tysiac
+    mob reward $n silver 2000
+  endif
+  if hasflag $n reg_dal_piec
+    mob reward $n silver 10000
+  endif
+  if hasflag $n reg_dal_dziesiec
+    mob reward $n silver 20000
+  endif
+endif
+if numeval $_suma_haz == $_suma_pc
+  sayto $n Eh, wiêc wysz³o, ¿e jest remis...
+  sayto $n W takich sytuacjach zawsze rzuca siê monet±.
+  sayto $n Wybieram awers monety, a ty?
+  minidelay 2
+  sayto $n Ah... no tak.. ty wybierasz rewers...
+  chich
+  minidelay 4
+  mob echo Hazardzista podrzuca wysoko monetê, która po chwili opada na jego d³oñ!
+  if numeval $_rand9 == 1
+    mob echo Hazardzista pokazuje wszystkim monetê, która opad³a na awers!
+    chich
+    sayto $n Wygra³em! Masz ochotê na ma³y rewan¿yk?
+  else
+    wzd
+    sayto $n Wygra³e¶... Mo¿e zagramy rewan¿?
+    mob echoat $n Hazardzista wrêcza ci wygran±.
+    mob echoaround $n Hazardzista wrêcza zwyciêscy wygran±.
+    if hasflag $n reg_dal_tysiac
+      mob reward $n silver 2000
+    endif
+    if hasflag $n reg_dal_piec
+      mob reward $n silver 10000
+    endif
+    if hasflag $n reg_dal_dziesiec
+      mob reward $n silver 20000
+    endif
+  endif
+endif
+mob at $n mob removeflag $n reg_gra_w_kosci
+mob at $n mob removeflag $n reg_dal_tysiac
+mob at $n mob removeflag $n reg_dal_dziesiec
+mob at $n mob removeflag $n reg_dal_piec
+mob removeflag room reg_gra_w_toku
+mob at $n mob removeflag $n reg_kosci
+~
+#hazardzista_tys
+~
+if !hasflag $n reg_gra_w_kosci
+  chich
+  break
+endif
+mob setflag $n reg_kosci
+mob setflag $n reg_dal_tysiac
+sayto $n Wiêc zaczynasz od dolnej pó³ki...
+sayto $n Przed rozpoczêciem poinformuj mnie, ¿e RZUCASZ
+sayto $n Muszê ciê dok³adnie obserwowaæ czy nie oszukujesz
+sayto $n W puli znajduje siê 2000 monet!
+usm
+~
+#karczmarz_buy
+~
+~
+#karczmarz_opisy
+~
+$_rand = int_random 1 22
+if objhere 27401
+  if numeval $_rand == 1 
+    mob echo Gruby karczmarz wyciera brudny kieliszek jeszcze brudniejsz± szmatk±.
+  endif
+  if numeval $_rand == 2
+    mob echo Widzisz jak jaka¶ zakapturzona postaæ siada przy barze i zaczyna mówi co¶ na ucho karczmarzowi, któremu natychmiast blednie mina.
+  endif
+  if numeval $_rand == 3
+    mob echo Gruby karczmarz my¶l±c, ¿e nikt go nie widzi, ukradkiem drapie siê po dupie.
+  endif 
+  if numeval $_rand == 4
+    mob echo Gruby karczmarz uwa¿nie ci siê przypatruje.
+  endif 
+  if numeval $_rand == 5
+    mob echo Gruby karczmarz sieka tasakiem jakie¶ zio³a.
+  endif 
+  if numeval $_rand == 6
+    mob say Serwujê najlepsze piwo w okolicy, zapraszam do p³atnej degustacji!
+  endif 
+  if numeval $_rand == 7
+    mob say S³ysza³em, ¿e w Silei mo¿na znale¼æ dobre panienki, heh, ciekawe czy s± choæ w po³owie tak dobre jak ta co j± zatrudni³em
+  endif 
+  if numeval $_rand == 8
+    mob say Co s±dzisz o moim wspania³ym piwie? Czujesz tê miodowo-korzenn± nutkê smaku?
+  endif 
+  if numeval $_rand == 9
+    mob echo Jaki¶ tajemniczy mê¿czyzna w p³aszczu przechodzi ko³o ciebie uwa¿nie ci siê przygl±daj±c.
+  endif 
+  if numeval $_rand == 10
+    mob echo Gruby karczmarz nuci sobie jak±¶ bardzo popularn± melodyjkê.
+  endif 
+  if numeval $_rand == 11
+    mob say S³ysza³em, ¿e ksi±¿e Walkar bêdzie siê stara³ o przejêcie kamienio³omów na pó³nocy, podobno przynosz± wysokie zyski.
+  endif 
+  if numeval $_rand == 12
+    mob say Eh... jak¿e smutne jest to, ¿e teraz na ¶wiecie liczy siê tylko pieni±dz... w³a¶ciwie mo¿e to i dobrze...
+    mob echo Gruby karczmarz u¶miecha siê diabelsko.
+  endif 
+  if numeval $_rand == 13
+    mob say Zapraszam, zapraszam do wygodnych pokoików noclegowych!
+  endif 
+  if numeval $_rand == 14
+    mob say Spójrz na tê ¶licznotkê tam na sali, id¼ z ni± pogadaæ, a za odpowiedni± op³at±...
+    mob echo Gruby karczmarz u¶miecha siê szeroko ukazuj±c garnitur swoich ¿ó³tych zêbów.
+  endif 
+  if numeval $_rand == 15
+    mob echo Gruby karczmarz wy³awia jak±¶ zdech³± muchê ze sporej beczki na piwo.
+  endif 
+  if numeval $_rand == 16
+    mob echo Gruby karczmarz rozgl±da siê dooko³a i bierze sporego ³yka z jakiej¶ butelki my¶l±c, ¿e nikt nie patrzy.
+  endif 
+  if numeval $_rand == 17
+    mob echo Gruby karczmarz bezczelnie wpatruje siê w zgrabny ty³eczek przechodz±cej niedaleko, elfiej kelnerki.
+  endif 
+  if numeval $_rand == 18
+    mob echo Nagle zdnajdujesz w swojej kieszeni czyj±¶ rêkê!
+  endif 
+  if numeval $_rand == 19
+    mob say Kto nie zazna³ piwnej rozkoszy niechaj sypnie parê groszy!
+    mob echo Gruby karczmarz chichocze sobie pod nosem.
+  endif 
+  if numeval $_rand == 20
+    mob say Wyobra¼ sobie, ¿e ci cholerni ³owcy potroili ceny miêsa! Wokó³ jest mnóstwo zwierzyny! Chyba bêdê musia³ podnie¶æ cenê moich specja³ów!
+  endif 
+  if numeval $_rand == 21
+    mob say Muszê co¶ zrobiæ z tym dachem, ostatnio zacz±³ strasznie przeciekaæ...
+  endif 
+  if numeval $_rand == 22
+    mob echo Jaki¶ zakapturzony osobnik podchodzi do lady i potajemnie podaje jak±¶ karteczkê karczmarzowi, który szybko j± zwija i chowa za pazuchê.
+  endif
+endif
+~
+#kupiec_zachowan
+~
+if hour > 6
+  if objhere 2358
+    stand
+    say Eh, chyba pójdê siê czego¶ napiæ...
+    mob walk 27436
+    close n
+    lock n
+    mob walk 27409
+    sit lozko
+  endif
+endif
+if hour < 6
+  if objhere 2362
+    stand
+    mob walk 27441
+    close s
+    lock s
+    mob echo Kupiec zieeewa.
+    sleep lozko
+  endif
+endif
+~
+#kurtyzana_bribe
+~
+if hasflag $n kurtyzana_chce_kasy
+  mob removeflag $n kurtyzana_chce_kasy
+  mob say Dobrze wiêc, chod¼ za mn±.
+  mob echo M³odziutka, elfia kurtyzana rumieni siê z lekka i u¶miecha szeroko.
+  minidelay 2
+  mob echoaround $n Elfia kurtyzana prowadzi $z na wschód.
+  mob echoat $n Elfia kurtyzana prowadzi ciê przez ca³± karczmê, na piêtro do ostatniego pokoju wychodz±cego na po³udnie.
+  mob transfer $n 27440
+  mob goto 27440
+  mob echo Elfia kurtyzana powoli oblizuje swoje usta patrz±c ci prosto w oczy.
+  mob say Powiedz mi kochaniutki jak bêdziesz GOTOWY...
+  mob echo Elfia kurtyzana delikatnie g³aszcze ciê po klatce piersiowej.
+  mob echo Czujesz, ¿e zaczyna ci siê robiæ gor±co...
+endif
+~
+#kurtyzana_greet
+~
+if objhere 2362
+  delay 1
+  if sex $n == 1
+    if statcha $n > 11
+      tell $n Heeej przystojniaczku, chcia³by¶ siê zabawiæ?
+      mob echoat $n Elfia kurtyzana mruga do ciebie uwodzicielsko.
+      mob setflag $n kurtyzana_zagadala 1
+    endif
+  else
+    mob cancel
+  endif
+else
+  mob cancel
+endif
+~
+#kurtyzana_r_nie
+~
+if hasflag $n kurtyzana_zagadala
+  mob removeflag $n kurtyzana_zagadala
+  minidelay 1
+  mob say Przemy¶l to jeszcze.
+  mob echo Elfia kurtyzana u¶miecha siê weso³o.
+endif
+~
+#kurtyzana_r_tak
+~
+mob setflag $n kurtyzana_chce_kasy 5
+if hasflag $n kurtyzana_zagadala
+  mob removeflag $n kurtyzana_zagadala
+  minidelay 1
+  if hasflag $n reg_kurtyzanil_raz
+    mob sayto $n No dobra, powiedzmy... okr±g³y tysi±c i jestem twoja...
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+  if hasflag $n reg_kurtyzanil_dwa
+    minidelay 2
+    mob sayto $n No to dawaj tysi±c monet i mo¿emy i¶æ na górê...
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+  if hasflag $n reg_kurtyzanil_trzy
+    mob sayto $n No, witaj jeszcze raz $n... sypnij tysi±c monet i znowu bêdê twoja...
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+  if hasflag $n reg_kurtyzanil_cztery
+    mob sayto $n No to jak, dajesz tysi±c srebrników i powtórzymy to co by³o 
+    ostatnio
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+  if hasflag $n reg_kurtyzanil_piec
+    mob sayto $n Chcia³by¶ to powtórzyæ? Tysi±c monet bêdzie odpowiednie{g'.{x
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+  if hasflag $n reg_kurtyzanil_szesc
+    mob sayto $n No dobra, dajesz te tysi±c srebrników i robimy to co zawsze
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+  if hasflag $n reg_stary_bywalec
+    mob sayto $n No, jeste¶ jednym z moich najlepszych klientów...
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  else
+    sayto $n Hmm... Nie kojarze jeszcze ciebie, tysi±c monet i mo¿emy zaczynaæ
+    mob echoaround $n Elfia kurtyzana szepcze co¶ na ucho $x.
+  endif
+endif
+~
+#kurtyzana_zaczn
+~
+mob echo {gElfia kurtyzana szepcze ci na ucho '{GZdejmuj wszystko z siebie kochaniutki{g'.{x
+mob echo Jej cieplutki oddech na twojej szyi wprawia ciê w ca³kiem przyjemne drgawki...
+mob force $n remove all
+mob force $n put all kufer_kurtyzany
+mob force $n sit ³ó¿ko
+minidelay 4
+mob echo M³odziutka, elfia kurtyzana powoli zaczyna zdejmowaæ z siebie ubranie tak, ¿e po chwili zostaje w samej bieli¼nie!
+minidelay 4
+mob echo Szybkim ruchem zrzuca z siebie haftowany staniczek ukazuj±c swoje obfite walory p³ciowe...
+minidelay 4
+mob echo Powoli podchodzi do ciebie i zaczyna ciê namiêtnie ca³owaæ,a jej jêzyk dociera wszêdzie tam gdzie chcesz...
+minidelay 4
+mob echo Mmm... Ona wie co robi...
+minidelay 4
+mob echo Elfka wstaje nagle i odsuwa siê w bok. Czujesz narastaj±ce podniecenie. Masz ochotê na wiêcej.
+minidelay 4
+mob echo M³odziutka kobieta odrzuca na bok ostatni± czê¶æ swego ubrania i zaczyna przed tob± kusz±co tañczyæ.
+minidelay 4
+mob echo Po chwili siada okrakiem na twoich kolanach i przewraca ciê do ty³u.
+minidelay 4
+if statstr $n < 22
+  mob echo Kurtyzana z ³atwo¶ci± rozk³ada ciê na ³opatki i zaczyna poruszaæ siê coraz szybciej.
+else
+  mob echo Próbóje ciê roz³o¿yæ na ³opatki, ale udaje siê jej dopiero po tym jak jej na to pozwalasz.
+endif
+minidelay 4
+mob echo Jej gor±ce cia³o porusza siê coraz to szybciej i szybciej!
+minidelay 4
+mob echo Elfia kurtyzana zaczyna dziko podskakiwaæ wydaj±c z siebie odg³osy prawdziwej rozkoszy...
+minidelay 4
+mob echo Dobrze wiesz, ¿e jeszcze trochê i bêdzie po wszystkim.
+minidelay 4
+mob echo No... o... jeszcze chwila... i... iii... ju¿...
+minidelay 4
+mob echo Rozlu¼niasz wszystkie miê¶nie i dysz±c le¿ysz na ³ó¿ku.
+minidelay 4
+mob echo Elfka u¶miechaj±c siê do ciebie wstaje i powoli zaczyna siê ubieraæ.
+minidelay 4
+mob force $n stand
+mob echo {gElfka nuci '{GId¼ ju¿, muszê doprowadziæ siê do porz±dku{g'.{x
+minidelay 4
+mob force $n take all kufer_kurtyzany
+if !hasflag $n reg_kurtyzanil_raz
+or !hasflag $n reg_kurtyzanil_dwa
+or !hasflag $n reg_kurtyzanil_trzy
+or !hasflag $n reg_kurtyzanil_cztery
+or !hasflag $n reg_kurtyzanil_piec
+or !hasflag $n reg_kurtyzanil_szesc
+or !hasflag $n reg_stary_bywalec
+  mob setflag $n reg_kurtyzanil_raz
+  say i jak by³o misiaczku?
+  mru $n
+endif
+if hasflag $n reg_kurtyzanil_raz
+  mob removeflag $n reg_kurtyzanil_raz
+  mob setflag $n reg_kurtyzanil_dwa
+endif
+if hasflag $n reg_kurtyzanil_dwa
+  mob removeflag $n reg_kurtyzanil_dwa
+  mob setflag $n reg_kurtyzanil_trzy
+endif
+if hasflag $n reg_kurtyzanil_trzy
+  mob removeflag $n reg_kurtyzanil_trzy
+  mob setflag $n reg_kurtyzanil_cztery
+endif
+if hasflag $n reg_kurtyzanil_cztery
+  mob removeflag $n reg_kurtyzanil_cztery
+  mob setflag $n reg_kurtyzanil_piec
+endif
+if hasflag $n reg_kurtyzanil_piec
+  mob removeflag $n reg_kurtyzanil_piec
+  mob setflag $n reg_kurtyzanil_szesc
+endif
+if hasflag $n reg_kurtyzanil_szesc
+  mob removeflag $n reg_kurtyzanil_szesc
+  mob setflag $n reg_stary_bywalec
+endif
+if hasflag $n reg_stary_bywalec
+  usm
+  mob addaff $n hp +50 5
+endif
+say Miauu... Kochanie, jeste¶ boski... miauu... najlepszy...
+minidelay 4
+say Id¼ ju¿, muszê doprowadziæ siê do porz±dku
+mob echo Kurtyzana delikatnie pomaga ci opu¶ciæ pokój.
+mob transfer $n 27437
+delay 5
+mob walk 27437
+close s
+lock s
+mob walk 27408
+~
+#mistrz_give1
+~
+if hasflag $n reg_wzial_zad_zero
+  mob at $n mob removeflag $n reg_wzial_zad_zero
+  mob at $n mob removeflag $n reg_stopien_zero
+  mob at $n mob setflag $n reg_stopien_jeden
+  if level $n < 14
+    mob reward $n level 20
+    goto koncowka
+  endif
+  if level $n > 14
+    mob reward $n level 12
+    goto koncowka
+  endif
+  if level $n > 23
+    mob reward $n level 8
+    goto koncowka
+  endif
+  if level $n > 28
+    mob reward $n level 3
+    goto koncowka
+  endif
+  if level $n > 30
+    mob reward $n level 2
+    goto koncowka
+  endif
+else
+  drop petko
+endif
+:koncowka
+tell $n No nie¼le, nie powiem. Nie spodziewa³em siê tego po tobie
+tell $n Chyba rzeczywi¶cie ci na tym zale¿y
+pokl $n
+mob questlog currentdesc $n obilon-gildia Wykona³e¶ pierwsze zadanie. 
+~
+#mistrz_give2
+~
+if hasflag $n reg_wzial_zad_jeden
+  mob at $n mob removeflag $n reg_wzial_zad_jeden
+  mob at $n mob removeflag $n reg_stopien_jeden
+  mob at $n mob setflag $n reg_stopien_dwa
+  if level $n < 14
+    mob reward $n level 15
+    goto koncowka
+  endif
+  if level $n > 14
+    mob reward $n level 9
+    goto koncowka
+  endif
+  if level $n > 23
+    mob reward $n level 1
+    goto koncowka
+  endif
+  if level $n > 28
+    mob reward $n level 5
+    goto koncowka
+  endif
+  if level $n > 30
+    mob reward $n exp 150000
+    goto koncowka
+  endif
+else
+  drop peranskie
+endif
+:koncowka
+tell $n Powiedzmy, ¿e jestem bardzo mile zaskoczony twoim oddaniem sprawie
+tell $n Wiêc nie myli³em siê co do ciebie, bêdzie z ciebie prawdziwy lotr!
+tell $n Choæ przed tob± jeszcze d³uga droga
+pokl $n
+mob questlog currentdesc $n obilon-gildia Wykona³e¶ drugie zadanie. 
+~
+#mistrz_give3
+~
+if hasflag $n reg_wzial_zad_dwa
+  mob at $n mob removeflag $n reg_wzial_zad_dwa
+  mob at $n mob removeflag $n reg_stopien_dwa
+  mob at $n mob setflag $n reg_stopien_trzy
+  if level $n < 14
+    mob reward $n level 25
+    goto koncowka
+  endif
+  if level $n > 14
+    mob reward $n level 12
+    goto koncowka
+  endif
+  if level $n > 23
+    mob reward $n level 6
+    goto koncowka
+  endif
+  if level $n > 28
+    mob reward $n level 3
+    goto koncowka
+  endif
+  if level $n > 30
+    mob reward $n exp 150000
+    goto koncowka
+  endif
+endif
+:koncowka
+usm $n
+tell $n Ah ten ³otr! Jednak pamiêta o starym kumplu!
+tell $n W koñcu gdyby nie ja... eh... niewa¿ne...
+tell $n Id¼, podziêkuj mu w moim imieniu
+mob questlog currentdesc $n obilon-gildia Wykona³e¶ trzecie zadanie. 
+~
+#mistrz_give4
+~
+if hasflag $n reg_wzial_zad_trzy
+  $_object = obj_first_carried $i 
+  if !hasflag $_object krewstraznika
+    tell $n Próbujesz mnie oszukaæ?!
+    mob echoat $n Z³odziejski mistrz wyrzuca ciê z pomieszczenia!
+    mob force $n north
+    end
+  endif
+  mob at $n mob removeflag $n reg_wzial_zad_trzy
+  mob at $n mob removeflag $n reg_stopien_trzy
+  mob at $n mob setflag $n reg_stopien_cztery
+  if level $n < 14
+    mob reward $n level 22
+    goto koncowka
+  endif
+  if level $n > 14
+    mob reward $n level 12
+    goto koncowka
+  endif
+  if level $n > 23
+    mob reward $n level 8
+    goto koncowka
+  endif
+  if level $n > 28
+    mob reward $n level 3
+    goto koncowka
+  endif
+  if level $n > 30
+    mob reward $n exp 250000
+    goto koncowka
+  endif
+else
+  drop halabarda
+endif
+:koncowka
+tell $n Doskonale! Naprawdê ci siê uda³o, teraz jest mi wstyd...
+tell $n Jak ja mog³em w ciebie w±tpiæ! No no, byle tak dalej!
+braw $n
+mob questlog currentdesc $n obilon-gildia Wykona³e¶ czwarte zadanie. Byle tak dalej! 
+~
+#mistrz_give6
+~
+if hasflag $n reg_wzial_zad_piec
+  mob at $n mob removeflag $n reg_wzial_zad_piec
+  mob at $n mob removeflag $n reg_stopien_piec
+  mob at $n mob setflag $n reg_stopien_szesc
+  if level $n < 14
+    mob reward $n level 35
+    goto koncowka
+  endif
+  if level $n > 14
+    mob reward $n level 25
+    goto koncowka
+  endif
+  if level $n > 23
+    mob reward $n level 15
+    goto koncowka
+  endif
+  if level $n > 28
+    mob reward $n level 5
+    goto koncowka
+  endif
+  if level $n > 30
+    mob reward $n exp 400000
+    goto koncowka
+  endif
+else
+  end
+endif
+:koncowka
+tell $n Dowiod³e¶ w koñcu, ¿e swym cz³onkostwem zaszczycisz nasz± gildiê
+tell $n Od tej chwili jeste¶ jej prawowitym cz³onkiem!
+tell $n Mo¿esz ¶mia³o wynajmowaæ do pomocy m³odych adeptów lub najemników
+tell $n I korzystaæ z wszelkich innych przywileji jakie ci teraz przys³uguj±
+rek $n
+mob questlog state $n obilon-gildia finished
+mob questlog inform $n
+~
+#mistrz_greet
+~
+if hasflag $n reg_wzial_zad_cztery
+  if hasflag $n reg_zabil_yeti
+    if hasflag $n reg_rozlal_piwsko
+      mob at $n mob removeflag $n reg_wzial_zad_cztery
+      mob at $n mob removeflag $n reg_stopien_cztery
+      mob at $n mob setflag $n reg_stopien_piec
+      if level $n < 14
+        mob reward $n level 30
+        goto koncowka
+      endif
+      if level $n > 14
+        mob reward $n level 20
+        goto koncowka
+      endif
+      if level $n > 23
+        mob reward $n level 15
+        goto koncowka
+      endif
+      if level $n > 28
+        mob reward $n level 3
+        goto koncowka
+      endif
+      if level $n > 30
+        mob reward $n exp 500000
+        goto koncowka
+      endif
+    endif
+  endif
+endif
+if hasflag $n reg_stopien_zero
+or hasflag $n reg_stopien_jeden
+or hasflag $n reg_stopien_dwa
+  mob echoat $n Z³odziejski mistrz wita ciê podnosz±c jedn± rêkê do góry.
+  mob echoaround $n Z³odziejski mistrz wita siê z $ podnosz±c jedn± rêkê do góry.
+else
+  if hasflag $n reg_stopien_trzy
+    mob sayto $n Witaj bracie z³odzieju
+  else
+    if hasflag $n reg_stopien_cztery
+    or hasflag $n reg_stopien_piec
+    or hasflag $n reg_stopien_szesc
+      ukl $n
+      usm
+    else
+      hm
+      tell $n Wybacz, najpierw musisz do nas do³±czyæ.
+      mob echoaround $n Z³odziejski mistrz jakim¶ sposobem otwiera zapadniê w pod³odze, widzisz jak $n wpada do ¶rodka!
+      mob echoat $n Z³odziejski mistrz jakim¶ sposobem otwiera zapadniê w pod³odze, lecisz w dó³!
+      mob transfer $n 27405
+      mob at $n mob echoat $n Wypadasz nagle z krêtego tunelu i l±dujesz na pod³odze!
+      mob at $n mob echoaround $n Nagle z sufitu wypada $n!
+      mob at $n mob setpos $n sitting
+    endif
+  endif
+endif
+break
+:koncowka
+tell $n Brawo! Naprawdê jestem pod wra¿eniem! Teraz karczmarz bêdzie siê musia³
+tell $n Powa¿nie zastanowiæ zanim znowu palnie jakie¶ g³upstwo
+tell $n Teraz mo¿esz kupiæ ode mnie przeró¿ne, z³odziejskie zabawki
+mob questlog currentdesc $n obilon-gildia Wykona³e¶ pi±te zadanie. Jeste¶ prawie pe³noprawnym cz³onkiem gildii! 
+mru $n
+mob at $n mob questlog inform $n
+~
+#mistrz_quest
+~
+if hasflag $n reg_wzial_zad_zero
+or hasflag $n reg_wzial_zad_jeden
+or hasflag $n reg_wzial_zad_dwa
+or hasflag $n reg_wzial_zad_trzy
+or hasflag $n reg_wzial_zad_cztery
+or hasflag $n reg_wzial_zad_piec
+  tell $n Wykonaj najpierw jedno zadanie zanim poprosisz o drugie
+  break
+endif
+if hasflag $n reg_stopien_szesc
+  tell $n Póki co nie potrzebujê pomocy, zg³o¶ siê pó¼niej, mo¿e co¶ dla ciebie znajdê bracie
+endif
+if hasflag $n reg_stopien_zero
+  tell $n Zdaje mi siê, ¿e znajdê co¶ dla ciebie...
+  minidelay 2
+  hmm
+  tell $n Niech ja pomy¶lê...
+  minidelay 4
+  tell $n Ju¿ wiem
+  tell $n By staæ siê jednym z nas musisz udowodniæ, ¿e znasz ¶wiat, po którym siê poruszamy
+  tell $n Tak wiêc skieruj siê w stronê krasnoludzkiej fortecy na dalekim zachodzie
+  minidelay 4
+  tell $n Choæ karczmarz powi±zany jest z inn±, z³odziejsk± gildi± to jednak chwilowo jest on nietykalny
+  tell $n Trzeba ich trochê postraszyæ, bo jeszcze poczuj±, ¿e maj± jak±kolwiek w³adzê
+  tell $n Najzwyczajniej w ¶wiecie pojaw siê tam ze sztyletem w rêku, kup pêtko kie³basy i przynie¶ mi, tutaj
+  mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
+  mob force $n north
+  mob at $n mob setflag $n reg_wzial_zad_zero
+  mob at $n mob questlog currentdesc $n obilon-gildia Zastrasz karczmarza w krasnoludzkiej fortecy sztyletem i przynie¶ pêtko kie³basy mistrzowi.
+  mob at $n mob questlog inform $n
+endif
+if hasflag $n reg_stopien_jeden
+  tell $n Poprzednim zadaniem dowiod³e¶, ¿e znasz zachodnie trakty i nie boisz siê reprezentowaæ naszej Gildii na ¶wiecie
+  tell $n Tak wiêc tym razem bêdziesz musia³ pokazaæ, ¿e znasz tak¿e krainy po³udniowe
+  tell $n Skieruj siê daleko na po³udnie, do miasta Carrallak
+  minidelay 4
+  tell $n Uwa¿aj, bo jest ono opanowane przez inn± z³odziejsk± gildiê
+  tell $n Zakup najsilniejsz± truciznê w sklepie zielarskim i przynie¶ j± do mnie
+  minidelay 4
+  tell $n No, my¶lê, ¿e to ju¿ wystarczy, id¼ ju¿!
+  mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
+  mob questlog currentdesc $n obilon-gildia Przynie¶ mistrzowi najsilniejsz± truciznê dostêpn± w Carrallak.
+  mob force $n north
+  mob at $n mob setflag $n reg_wzial_zad_jeden
+  mob at $n mob questlog inform $n
+endif
+if hasflag $n reg_stopien_dwa
+  tell $n No, no, dowiod³e¶, ¿e znasz ju¿ trochê ¶wiata i nie boisz siê niebezpieczeñstw
+  tell $n Muszê ciê zmartwiæ bowiem nastêpne zadanie niewiele ró¿ni siê od poprzednich
+  tell $n Otó¿, s³uchaj...
+  minidelay 4
+  tell $n Udasz siê teraz na po³udniowy-zachód, do krainy ¿yj±cej w pokoju z natur± i takie tam brednie
+  tell $n Pójdziesz tam i podobnie jak przy pierwszej robocie, ze sztyletem pojawisz siê w karczmie
+  minidelay 4
+  tell $n Zakup tam elfie wino o przedziwnej nazwie i zanie¶ je naszemu karczmarzowi, nale¿y mu siê
+  tell $n Od zawsze go chcia³ spróbowaæ
+  tell $n No, czas na ciebie
+  mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
+  mob questlog currentdesc $n obilon-gildia Przynie¶ obiloñskiemu karczmarzowi elfie wino o przedziwnej nazwie.
+  mob force $n north
+  mob at $n mob questlog inform $n
+  mob at $n mob setflag $n reg_wzial_zad_dwa
+endif
+if hasflag $n reg_stopien_trzy
+  tell $n Wiêc tak jak mówi³em, przygotuj siê na powa¿niejsz± robotê
+  tell $n Stra¿ miejska w Carrallak od niedawna zaczê³a wysy³aæ patrole w stronê naszej siedziby
+  tell $n Prawdopodobnie który¶ ze szpiegów jakim¶ cudem j± odkry³
+  minidelay 4
+  tell $n Trzeba jak najszybciej ich uciszyæ i pokazaæ im co potrafimy
+  tell $n Pójd¼ tam, zabij jednego ze stra¿ników i na dowód swego czynu przynie¶ mi jego halabardê
+  tell $n Tylko postaraj siê zrobiæ to jak najprêdzej, bo chyba nie chcesz, ¿eby stra¿nicy zaczêli siê tu pa³êtaæ.
+  mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
+  mob questlog currentdesc $n obilon-gildia Zabij stra¿nika w Carrallak i przynie¶ jego halabardê.
+  mob force $n north
+  mob at $n mob questlog inform $n
+  mob at $n mob setflag $n reg_wzial_zad_trzy
+endif
+if hasflag $n reg_stopien_cztery
+  tell $n Ostatnim swym wyczynem pokaza³e¶, ¿e jeste¶ w stanie uczyniæ wszystko dla dobra gildii
+  tell $n Po wykonaniu tego zadania staniesz siê jednym z nas
+  tell $n Otó¿ s³uchaj...
+  minidelay 4
+  tell $n Karczmarz ostatnio bardzo siê skar¿y³ na dzia³alno¶æ naszej gildii
+  tell $n No wiesz... ¿e przyjezdni mówi±, ¿e tu jest niebezpiecznie i wogóle
+  tell $n to nie my, ale on mo¿e mieæ problem
+  minidelay 4
+  tell $n Choæ powiedzia³em mu, ¿e my siê st±d nie ruszymy to jeden z naszych szpiegów pods³ucha³
+  tell $n Jak karczmarz rozmawia³ z jakim¶ ³owc± w sprawie pozbycia siê nas!
+  tell $n Trzeba go mocno nastraszyæ by da³ nam spokój
+  minidelay 4
+  tell $n Zakradnij siê, najlepiej w nocy, do jego spi¿arki i zabij pewne stworzenie
+  tell $n Które s³u¿y mu do oziêbiania piwnicy oraz rozlej trochê jego korzennego piwa po pod³odze
+  tell $n Id¼ ju¿ i wracaj zaraz
+  mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
+  mob questlog currentdesc $n obilon-gildia W³am siê do piwnicy karczmarza, zabij istotê któr± tam znajdziesz i rozlej piwo.
+  mob force $n north
+  mob at $n mob setflag $n reg_wzial_zad_cztery
+  mob at $n mob questlog inform $n
+endif
+if hasflag $n reg_stopien_piec
+  tell $n Jeste¶ ju¿ do¶wiadczonym ³otrem, mam dla ciebie ostatnie, najtrudniejsze zadanie
+  tell $n Udasz siê do pokoju obok, mieszka tam jeden z bogatych kupców wêdrownych
+  tell $n Podobno gdzie¶ ukry³ tobo³ek wype³niony szczerym z³otem
+  minidelay 4
+  tell $n Zdob±d¼ ten tobo³ek i przynie¶ go tutaj, a bêdziesz móg³ w pe³ni szczyciæ siê swym cz³onkostwem
+  tell $n Id¼ ju¿
+  mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
+  mob questlog currentdesc $n obilon-gildia Przynie¶ tobo³ek kupca mistrzowi.
+  mob force $n north
+  mob at $n mob setflag $n reg_wzial_zad_piec
+  mob at $n mob questlog inform $n
+endif
+~
+#najemnik_obslug
+~
+mob equip self 3128
+foll kupiec_gorst
+~
+#podchmiel_rand
+~
+$_rand = int_random 1 5
+if numeval $_rand == 1
+  mob echo Podchmielony krasnolud beka dono¶nie koñcz±c kolejny kufel piwa.
+endif 
+if numeval $_rand == 2 
+  mob say Pijê by ¿yæ, ¿yjê by piæ, ot co!
+endif
+if numeval $_rand == 3
+  mob say Pyszne pokoje i brudne piwo, najlepsza karczma pod s³oñcem!
+endif
+if numeval $_rand == 4
+  mob sayto $n Napij siê ze mn±, a mo¿e co¶ ci ciekawego opowiem...
+endif
+if numeval $_rand == 5
+  mob echo Podchmielony krasnolud stara siê co¶ tobie powiedzieæ, ale nie jeste¶ w stanie us³yszeæ nic wiêcej poza nic nieznacz±cym be³kotem.
+endif
+~
+#podchmiel_wield
+~
+wield super_berdysz_do_wieldowania
+~
+#postac_do_zero
+~
+if hasflag $n konk_gil_zlo
+  break
+endif
+if class $n zlodziej
+  if !hasqlog $n obilon-gildia
+    mob at $n mob setflag $n reg_aspiruje_na_zero
+    mob echo Zakapturzona postac rozglada sie nerwowo po okolicy.
+    tell $n Pssst! Witaj m³ody z³odzieju...
+    tell $n Mam dla ciebie robótkê...
+    tell $n Je¶li chcesz, ¿ebym cie zwerbowa³ do pewnej, z³odziejskiej gildii
+    minidelay 4
+    mob echo Zakapturzona postaæ sprawdza czy nikt nie pods³uchuje.
+    tell $n Przynies mi proszê chocia¿ jedno jab³ko z arrasyjskiego parku.
+    tell $n Mam na nie niesamowit± ochotê... i pamiêtaj!
+    tell $n Ma byc ¶wie¿e!
+    mob questlog add $n obilon-gildia Wykonaj polecenia cz³onków z³odziejskiej gildii, aby przyjêli ciê do swojego grona.
+    mob questlog title $n obilon-gildia Rekrutacja
+    mob questlog currentdesc $n obilon-gildia Przynie¶ jab³ko z arrasyjskiego parku z³odziejowi w Obilonie.
+    mob questlog inform $n
+  else
+    if hasflag $n reg_przyniosl_jablko
+    else
+      tell $n No id¼ juz! Czujê narastajac± ochotê na to jab³ko...
+    endif
+  endif
+endif
+~
+#postac_give
+~
+if hasflag $n reg_aspiruje_na_zero
+  mob at $n mob removeflag $n reg_aspiruje_na_zero
+  mob at $n mob setflag $n reg_stopien_zero
+  mob at $n mob setflag $n reg_przyniosl_jablko
+  tell $n Dobrze siê spisa³e¶, podpowiem ci, ¿e gdzie¶ tutaj znajduje siê
+  tell $n Oddzia³ pewnej z³odziejskiej gildii, szukaj a znajdziesz
+  mru $n
+  mob questlog currentdesc $n obilon-gildia Znajd¼ siedzibê z³odziei w karczmie i popro¶ o zadanie.
+endif
+~
+#rabus_backstab
+~
+if class $n mag
+or class $n kleryk
+or class $n druid
+  backstab $n
+endif
+~
+#rabus_eq
+~
+if rand 95
+  mob equip self 3171
+else
+  mob equip self 3157
+endif
+mob equip self 4417
+mob equip self 3018
+~
+#rabus_magobij
+~
+if !hasflag $n '27413_look_24h'
+  minidelay 2
+  mob echoat $n Kto¶ lustruje ciê uwa¿nie.
+  mob setflag $n 27413_look_24h 24
+endif
+if class $n mag
+  stand
+  if rand 80
+    emote mruczy niewyra¼nie.
+  endif
+  backstab $n
+endif
+~
+#rabus_sztylet
+~
+mob equip self 3157
+oload gem 4
+~
+#sklep_mistrz
+~
+if hasflag $n reg_stopien_szesc
+or hasflag $n reg_stopien_piec
+  mob echoat $n Z³odziejski mistrz ods³ania przed tob± wnêtrze swojego p³aszcza.
+  mob echoaround $n Z³odziesjki mistrz pokazuje co¶ $x.
+  mob command
+else
+  mob echo Z³odziejski mistrz zaprzecza stanowczo.
+  sayto $n Wybacz, ale przedmioty, które sprzedajê s± przeznaczone dla ³otrow wy¿szych stopniem
+endif
+~
+#uzdrowic_rand
+~
+if rand 66
+  mob echo Uzdrowiciel zatacza siê lekko zawziêcie mrugaj±c oczami.
+  break
+endif
+if rand 66
+  mob echo Elfi uzdrowiciel u¶miecha siê b³ogo nie do koñca pewnie wiedz±c dlaczego.
+  break
+endif
+if rand 66
+  say Ziñdybry panom i paniom
+  minidelay 3
+  say Potrzymasz mi kluseczki jak bêdê wtedy?
+  break
+endif
+if rand 66
+  say A mo¿e ty te¿ masz siostrê która szuka drugiej po³óweczki?
+  minidelay 2
+  mob echo Pijany elf uzdrowiciel rechocze wydziel±c zdecydowanie za du¿o ¶liny.
+  say Wódeczki!
+  break
+endif
+~
+#vizyerei_onkill
+~
+mob echo Tsiv w mgnieniu oka skupia otaczaj±c± go energiê w malutk± kulê, a nastêpnie wysy³a j± w stronê wyj¶cia na po³udnie tworz±c nieprzebyt± barierê mocy! Nie ma ju¿ szans na ucieczkê!
+~
+#woz_uzyc!!
+~
+mob mload 27418
+follow 27418
+~
+#yeti_onkill
+~
+if hasflag $n reg_wzial_zad_cztery
+  mob setflag $n reg_zabil_yeti
+  if hasflag $n reg_rozlal_piwsko
+    mob questlog currentdesc $n obilon-gildia Wykona³e¶ zadanie. Wróæ do mistrza.
+    mob at $n mob questlog inform $n
+  else
+    mob questlog currentdesc $n obilon-gildia Jeszcze tylko rozlej piwo i wracaj do mistrza.
+    mob at $n mob questlog inform $n
+  endif
+endif
+~
+#zielarz_onload
+~
+mob oload 27439
+~
+#zlodziej_steal
+~
+if !hasflag $n reg_stopien_szesc
+  sayto $n Hê? Poszukaj gdzie indziej przyb³êdo.
+else
+  mob command
+endif
+~
+#0
+
+#OBJPROGSNEW
+#chwiejkrok_cons
+~
+mob echoat $n wznosisz szklaneczkê "{CCh{bwiej{Ckr{boku{x" do góry i ze smakiem opró¿niasz zawarto¶æ.
+mob echoat $n Wyra¼nie masz powody do ¶wiêtowania!
+mob echoaround $n $n wznosi szklaneczkê "{CCh{bwiej{Ckr{boku{x" do góry i ze smakiem przechyla j± w stronê swojego gard³a.
+mob echoaround $n Tak wykwintny trunek wskazuje na to, ¿e $n ma powód do {G¶wiêtowania{G.
+~
+#grzybki_consume
+~
+if hasflag $o reg_zjedzony_jeden
+  mob echoat $n Ze smakiem wpychasz sobie ostatnie pare grzybków do gêby.
+  mob echoaround $n $n wpycha sobie ze smakiem pare grzybków do gêby.
+  mob addaff $n halucynacje_faza 5
+  mob addaff $n poison 2
+  mob reward $n hunger -60
+  mob reward $n sleepy -48
+else
+  mob echoat $n Odrywasz kilka grzybków, zgniatasz w d³oni i wpychasz sobie do gêby.
+  mob echoaround $n $n odrywa kilka grzybków, zgniata w d³oni i wpycha je sobie do gêby.
+  mob setflag $o reg_zjedzony_jeden
+  mob addaff $n maze 5
+  mob addaff $n daze 5
+endif
+~
+#koka_consume
+~
+if hasflag $o wyjeta_calosc
+  mob echoat $n Woreczek jest pusty...
+  mob echoaround $n $n p³acze cicho... Woreczek na li¶cie koki jest pusty!
+  break
+endif
+if hasflag $n wzial_koke_do_geby
+  mob echoat $n Przecie¿ ju¿ w³a¶nie to robisz!
+  break
+endif
+mob setflag $o wyjeta_calosc -1
+mob setflag $n wzial_koke_do_geby -1
+mob echoat $n Wyjmujesz li¶cie koki z woreczka, wk³adasz do buzi i zaczynasz prze¿uwaæ.
+mob echoaround $n $n wyjmuje li¶cie koki z woreczka, wk³ada do buzi i zaczyna prze¿uwaæ.
+delay 5
+mob echoat $n U¶miechasz siê mimowolnie... i po³ykasz li¶cie.
+mob echoaround $n $n u¶miecha siê mimowolnie... i po³yka li¶cie.
+mob removeflag $n wzial_koke_do_geby
+delay 5
+if hasflag $n pod_dzialaniem_koki
+  mob removeflag $n pod_dzialaniem_koki
+  mob setflag $n pod_dzialaniem_koki_x2 -1
+  minidelay 10
+  if rand 90
+    mob removeflag $n pod_dzialaniem_koki_x2
+    if sex $n == 0
+      mob echoat $n Przedawkowa³a¶! Czujesz, ¿e zbli¿a siê twój koniec. Dusisz siê, ka¿dy minimalny 
+      wdech to ból nie do zniesienia i choæ starasz siê go prze³amaæ to jest to po prostu nie 
+      mo¿liwe. Ostatnie spojrzenie na ¶wiat i...
+    endif
+    if sex $n == 1
+      mob echoat $n Przedawkowa³e¶! Czujesz, ¿e zbli¿a siê twój koniec. Dusisz siê, ka¿dy minimalny 
+      wdech to ból nie do zniesienia i choæ starasz siê go prze³amaæ to jest to po prostu nie 
+      mo¿liwe. Ostatnie spojrzenie na ¶wiat i...
+    endif
+    mob echoaround $n $n nie wytrzymuje braku powietrza. Dusi siê i d³awi po czym... umiera.
+    mob damage $n 5000 5000 gorst!
+    break
+  endif
+  minidelay 10
+  mob echoat $n Czujesz przyp³yw euforii! Ah! Jakie ¿ycie jest wspania³e!
+  mob echoaround $n $n patrzy siê w przestrzeñ zamglonym wzrokiem...
+  mob reward $n sleepy 24
+  minidelay 10
+  mob echoat $n Twoja si³a i wytrzyma³o¶æ znacznie wzrasta, a zmêczenie mija prawie ca³kowicie!
+  mob echoaround $n $n u¶miecha siê weso³o i napina miê¶nie!
+  mob addaff $n strenght 1 6
+  mob reward $n mv 60
+  delay 5
+  mob echoaround $n $n dostaje strasznego szczêko¶cisku!
+  delay 10
+  mob reward $n mv 60
+  delay 20
+  mob removeflag $n pod_dzialaniem_koki_x2
+  mob echoat $n Przestajesz odczuwaæ cudown± euforiê.
+  delay 5
+  mob echoat $n MUSISZ zdobyæ kolejn± porcjê tych zió³!
+  break
+endif
+if hasflag $n pod_dzialaniem_koki_x2
+  mob removeflag $n pod_dzialaniem_koki_x2
+  if sex $n == 0
+    mob echoat $n Przedawkowa³a¶! Twoje serce momentalnie przestaje biæ. Czujesz dziwny ból 
+    rozsadzaj±cy ciê jakby od ¶rodka. Ta bezsilno¶æ jest straszna... umierasz...
+  endif
+  if sex $n == 1
+    mob echoat $n Przedawkowa³e¶! Twoje serce momentalnie przestaje biæ. Czujesz dziwny ból 
+    rozsadzaj±cy ciê jakby od ¶rodka. Ta bezsilno¶æ jest straszna... umierasz...
+  endif
+  mob echoaround $n $n ³apie siê kurczowo za pier¶ i umiera na zawa³!
+  mob damage $n 5000 5000 gorst!
+  break
+endif
+mob setflag $n pod_dzialaniem_koki -1
+minidelay 10
+mob echoaround $n $n u¶miecha siê i rozmarzonym wzrokiem wpatruje w przestrzeñ.
+mob echoat $n Euforia, euforia, euforia! Tak, tak, tak! To jest to co teraz czujesz!
+minidelay 10
+mob echoat $n Prawie w ogóle nie chce ci siê spaæ!
+mob reward $n sleepy 48
+minidelay 10
+mob addaff $n strenght 1 6
+mob reward $n mv 100
+mob echoat $n Czujesz, ¿e móg³by¶ rozgniataæ kamienie na py³! Zmêczenie? A co to jest?!
+mob echoaround $n Wszystkie miê¶nie $z dziwnie drgaj±. Na jego twarzy widaæ chêæ do dzia³ania!
+delay 10
+mob reward $n mv 50
+mob addaff $n free_action 10
+mob echoat $n Czujesz, ¿e zmêczenie mija jeszcze bardziej!
+mob echoaround $n $n napina miê¶nie i wykonuje szybkie ruchy jakby szykowa³ siê do sprintu!
+delay 20
+mob removeflag $n pod_dzialaniem_koki
+mob echoat $n Przestajesz odczuwaæ cudown± euforiê.
+delay 10
+mob echoat $n Zdobyæ li¶cie koki, zdobyæ li¶cie koki!
+delay 5
+mob echoat $n Sk±d wzi±æ wiêcej li¶ci?! Potrzebujesz tego zio³a!
+# by Gorst
+~
+#nalezy_gildia
+~
+if !hasflag $n reg_stopien_szesc
+  mob echoat $n Jaka¶ przedziwna si³a nie pozwala ci u¿yæ tego przedmiotu!
+else
+  obj wear
+  if name $o ostrze
+    mob echoat $n Lekkim ruchem dobywasz z³odziejskiego ostrza.
+    mob echoaround $n $n lekkim ruchem dobywa z³odziejskiego ostrza.
+  else
+    mob echoat $n Szybkim ruchem zak³adasz {Dczarny{x p³aszcz okrêcaj±c go wokó³ siebie.
+    mob echoaround $n $n szybkim ruchem zak³ada {Dczarny{x p³aszcz zamiataj±c wszystko dooko³a.
+  endif
+endif
+~
+#sygnet_emote
+~
+if rand 60
+  mob echoaround $n $n u¶miecha siê cynicznie.
+  break
+endif
+if rand 30
+  mob echoaround $n Dostrzegasz jaki¶ tajemniczy b³ysk w oku $z.
+  break
+endif
+mob echoaround $n $n wygl±da bardzo tajemniczo. To chyba przez ten sygnet...
+~
+#sygnet_wear
+~
+mob echoat $n Zak³adajaæ sygnet z³odziejskiego cechu czujesz jakby parê niweielkich igie³ek wbi³o ci siê w palec!
+mob echoaround $n $n zak³adaj±c sygnet z³odziejskiego cechu krzywi siê lekko z bólu...
+~
+#szafa_close
+~
+mob echoat $n Pewnym ruchem zatrzaskujesz drzwi szafy.
+mob echoaround $n $n pewnym ruchem zatrzaskuje drzwi szafy.
+mob removeflag room reg_otwarta_szafa
+~
+#szafa_instynkt
+~
+mob echoat $n Drzwi szafy skrzypi± g³o¶no gdy je otwierasz.
+if class $n zlodziej
+  mob echoat $n Twój z³odziejski instynkt podpowiada ci, ¿e w szafie jest tajne przej¶cie!
+  mob echoat $n Hmm... chyba wystarczy tam {Gwej¶æ{x.
+endif
+mob echoaround $n S³yszysz g³o¶ne skrzypniêcie! Ah, to tylko $n otworzy³ szafê.
+mob setflag room reg_otwarta_szafa
+~
+#ziolka_consume
+~
+if level $n < 10
+  mob reward $n move 50
+else
+  mob reward $n move 25
+endif
+mob echoat $n Szybko po³ykasz parê zió³ek. Czujesz niesamowit± energiê w ciele!
+mob echoaround $n $n szybko po³yka parê zió³ek i otrz±sa siê weso³o.
+mob reward $n sleepy 12
+if move $n < 55
+  mob reward $n move 25
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#entry_kupiecpok
+~
+mob echo Drzwi zatrzaskuj± siê z hukiem!
+mob close s
+mob lock s
+~
+#hazard_exit1
+~
+if hasflag $n reg_kosci
+  mob echoat $n Lepiej skoñcz grê.
+  break
+endif
+mob removeflag $n reg_gra_w_kosci
+mob removeflag $n reg_dal_tysiac
+mob removeflag $n reg_dal_dziesiec
+mob removeflag $n reg_dal_piec
+mob removeflag room reg_gra_w_toku
+mob removeflag $n reg_kosci
+mob reward $n move -1
+mob echoaround $n $n opuszcza kat sali w kierunku polnocnym.
+mob transfer $n 27417
+~
+#hazard_exit2
+~
+if hasflag $n reg_kosci
+  mob echoat $n Lepiej skoñcz grê.
+  break
+endif
+mob removeflag $n reg_gra_w_kosci
+mob removeflag $n reg_dal_tysiac
+mob removeflag $n reg_dal_dziesiec
+mob removeflag $n reg_dal_piec
+mob removeflag room reg_gra_w_toku
+mob removeflag $n reg_kosci
+mob reward $n move -1
+mob echoaround $n $n opuszcza k±t sali w kierunku wschodnim.
+mob transfer $n 27408
+~
+#lina_wspinaj
+~
+mob echoat $n Wci±gasz siê po linie do góry.
+mob echoaround $n $n wci±ga siê po linie do góry.
+mob transfer $n 27441
+~
+#lina_zejscie
+~
+mob echoat $n Zrêcznie opuszczasz siê po linie w dó³.
+mob echoaround $n $n zrêcznie opuszcza siê po linie w dó³.
+mob transfer $n 27421
+~
+#okno_wyskocz
+~
+if pos $n fighting
+  mob echoat $n Nie mo¿esz tego zrobiæ.
+  break
+endif
+mob echoat $n Biegniesz ile si³ w nogach w stronê okna i z niesamowitem impetem siê przez nie rzucasz!
+mob echoaround $n $n biegnie ile si³ w nogach w stronê okna i z niesamowitem impetem siê przez nie rzuca!
+mob reward $n wait 1
+mob damage $n 40 150 pwk
+mob transfer $n 27422
+~
+#piwo_entry
+~
+if roomhasflag wylane_piwo
+mob echoat $n Wchodz±c do tego pomieszczenia zauwa¿asz, ¿e ca³e zalane jest aromatycznym, korzennym piwem!
+endif
+~
+#piwo_rozlej
+~
+if !room $n == 27433
+  break
+endif
+if !roomhasflag wylane_piwo 
+  mob setflag room wylane_piwo 12
+  mob echoat $n Z szyderczym u¶miechem na ustach rozlewasz sporo piwa po pod³odze.
+  mob echoaround $n Z nutk± satysfakcji w oczach $n rozlewa sporo piwa po pod³odze.
+  if hasflag $n reg_wzial_zad_cztery and !hasflag $n reg_rozlal_piwsko
+    if hasflag $n reg_zabil_yeti
+      mob questlog currentdesc $n obilon-gildia Wykona³e¶ zadanie. Wróæ do mistrza.
+      mob at $n mob questlog inform $n
+    else
+      mob questlog currentdesc $n obilon-gildia Zabij yeti i wróæ do mistrza.
+      mob at $n mob questlog inform $n
+    endif
+  endif
+  mob at $n mob setflag $n reg_rozlal_piwsko
+else
+  mob echoat $n Przecie¿ prawie ca³a pod³oga zalana jest ju¿ piwem!
+endif
+~
+#sala_rand_opisy
+~
+$_rand = int_random 1 10
+if numeval $_rand == 1
+  mob echo Widzisz jak jaka¶ tajemnicza postaæ nagle jakby rozp³ywa siê w powietrzu.
+endif
+if numeval $_rand == 2
+  mob echo Siedz±cy niedaleko, gruby gnom wali z ca³ej si³y kuflem w stó³ wylewaj±c po³owê zawarto¶ci na ziemiê.
+endif
+if numeval $_rand == 3
+  mob echo Kto¶ próbowa³ ciê okra¶æ.
+endif
+if numeval $_rand == 4
+  mob echo Kto¶ uwa¿nie ciê obserwuje.
+endif
+if numeval $_rand == 5
+  mob echo Tajemnicza, zakapturzona postaæ przemyka cicho za twoimi plecami.
+endif
+if numeval $_rand == 6
+  mob echo Widzisz jak jaki¶ paskudny nizio³ek wyrywa komu¶ sakiwekê z pieniêdzmi!
+endif
+if numeval $_rand == 7
+  mob echo Nagle odnajdujesz czyj±¶ rêkê w swojej kieszeni!
+endif
+if numeval $_rand == 8
+  mob echo Tajemnicza postaæ w szarym p³aszczu nagle jakby rozp³ywa siê w t³umie.
+endif
+if numeval $_rand == 9
+  mob echo Jakie¶ dziwne szepty dochodz± do twych uszu.
+endif
+if numeval $_rand == 10
+  mob echo Jaki¶ umiê¶niony krasnolud jednym ³ykiem wci±ga zawarto¶æ swego kufla.
+endif
+~
+#szafa_przejscie
+~
+if roomhasflag reg_otwarta_szafa
+  if class $n z³odziej
+    mob echoat $n Przechodzisz przez tajne przejscie w szafie.
+    mob echoaround $n $n nagle znika w szafie!
+    mob transfer $n 27449
+  else
+    mob echoat $n Huh?
+  endif
+endif
+~
+#wejsc_rand_opis
+~
+$_rand = int_random 1 6
+if numeval $_rand == 1
+  mob echo W drzwiach karczmy staje jaka¶ zakapturzona postaæ, rozgl±da siê nerwowo dooko³a po czym szybko wychodzi.
+endif
+if numeval $_rand == 2
+  mob echo S³yszysz g³o¶ne krzyki dobiegaj±ce z pó³nocy.
+endif
+if numeval $_rand == 3
+  mob echoat $n Kichasz g³o¶no, zapewne za spraw± wszechobecnego tutaj kurzu.
+  mob echoaround $n $n kicha g³o¶no, zapewne za spraw± wszechobecnego tutaj kurzu.
+endif
+if numeval $_rand == 4
+  mob echo S³yszysz g³o¶ne skrzypienie dochodz±ce jakby od góry.
+endif
+if numeval $_rand == 5
+  mob echo Tajemnicza, zakapturzona postaæ wchodzi do karczmy.
+endif
+if numeval $_rand == 6
+  mob echo Skulony gnom okryty czarnym p³aszczem podró¿nym wybiega szybko z karczmy.
+endif
+~
+#woz_podat_load
+~
+if mobexists 27417 
+or mobexists 27418
+  break
+endif
+mob mload 27418
+mob mload 27417
+mob force obilon_woz follow obilon_konie
+mob force obilon_konie group obilon_woz
+mob force obilon konie walk 27405
+~
+#0
+
+#TRAPS
+#Vnum 27400
+Active 1
+Level 5
+Type 32
+Triggered mob echoat $n Otwierasz szafê wytrychem jednak tym samym wzbudzasz d¼wiêk malutkiego dzwonka w k±ciku szafy.
+mob echoaround $n  $n Otwiera szafê wytrychem jednak tym samym wzbudza d¼wiêk malutkiego dzwonka w k±ciku szafy.
+mob echoat $n Ogromny berdysz opada na ciebie uderzaj±c od ty³u!
+mob echoaround $n Ogromny berdysz opada na $z uderzaj±c od ty³u!
+mob damage $n 1 15000 kill
+~
+Disarmed mob echoat $n Szybkim, pewnym ciêciem odcinasz linkê ³±cz±c± drzwi szafy z dzwonkiem w jej k±ciku.
+mob echoaround $n $n szybkim, pewnym ciêciem odcina linkê ³±cz±c± drzwi szafy z dzwonkiem w jej k±ciku.
+~
+Failed mob echoat $n Próbujesz przeci±æ linkê ³±cz±c± wewnêtrzn± klamkê szafy z dzwonkiem. Niestety, przypadkiem popychasz drzwi szafy, które skrzypi± g³o¶no!
+mob echoaround $n $n majstruje co¶ przy zawiasach szafy jednek przypadkiem zahacza o drzwi, które g³o¶no skrzypi±!
+mob echoat $n Ogromny berdysz opada na ciebie uderzaj±c od ty³u!
+mob echoaround $n Ogromny berdysz opada na $z uderzaj±c od ty³u!
+mob damage $n 1 2000 kill
+~
+Limit 1315342
+Trapend
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$

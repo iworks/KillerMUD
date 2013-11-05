@@ -1,0 +1,3398 @@
+#AREADATA
+Name {R#{DPodmrok{x - Iglica~
+Builders Podmrok~
+VNUMs 34900 34969
+Credits Twórca: Gorst
+~
+Locked ~
+Security 9
+ResetAge 20
+Region 0
+End
+
+
+
+#MOBILES
+#Vnum 34900
+Name Feshejk legendarny wojownik~
+Odmiana Feshejka~Feshejkowi~Feshejka~Feshejkiem~Feshejku~
+Short Feshejk~
+Long {DFeshejk{x, legendarny wojownik ukrywa siê tutaj przed kim¶.~
+Descr Znajduj±cy siê przed tob±, legendarny wojownik jest sporym, zgarbionym
+cz³owiekiem o bardzo szerokich barkach i sporej budowie. Po jego posturze i
+sposobie poruszania siê widaæ od razu, ¿e nie raz mia³ do czynienia z
+niebezpieczeñstwem przez co jest bardzo do¶wiadczony i pewny siebie, a brak
+têczówek w jego wy³upiastych oczach czyni jego spojrzenie jakby
+onie¶mielaj±cym. Feshejk znany jest ci jedynie z jaki¶ legend s³u¿±cych do
+straszenia ma³ych dzieci. Niegdy¶, kiedy jeszcze by³ cz³owiekiem, walczy³ w
+imiê dobra i sprawiedliwo¶ci jednak do swych celów wykorzystywa³ tak¿e
+magiczn± moc, któr± zapewnia³ mu jeden ze staro¿ytnych magów. Wbrew zasadzie
+zachowania swej mocy jedynie dla siebie, owy mag odda³ jej spor± czê¶æ
+w³a¶nie Feshejkowi. Ten szybko nauczy³ siê j± wykorzystywaæ przez co sta³
+siê niesamowicie potê¿ny. Pewnego razu jaki¶ nieznany demon zaproponowa³ mu
+wymianê duszy za nie¶miertelno¶æ. Feshejk za¶lepiony chciwo¶ci± przyj±³
+propozycjê i od tamtego czasu s³u¿y tym, których zawsze pragn±³ zniszczyæ. 
+~
+Race cz³owiek~
+ActExt 0|ABCEFIT
+Affected 33554944 0 0 0
+AffectedExt 0|JZ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 27
+Hitroll 4
+HP 16d5+990
+Damage 3d4+2
+Dammagic 1
+Weaponbonus 10
+Damflags 0
+Attack uderzenie
+XAC -2 -2 -2 3
+Stats 150 120 132 84 150 36 84
+Off CDY
+OffExt 0|CDY/1|HI
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 34900_onload ABCDEFGHI 100~
+MobprogNew kill 34902 ABCDEFGHI 100~
+MobprogNew fight 34901 H 12~
+Skin 100
+ExpMultiplier 100
+Resist 4 10
+Resist 10 100
+Resist 12 100
+Resist 14 80
+Mobend
+#Vnum 34901
+Name Uriell upad³y demon~
+Odmiana Uriella~Uriellowi~Uriella~Uriellem~Uriellu~
+Short Uriell~
+Long {DUriell{x, upad³y demon stoi tutaj przykuty do grubego s³upa.~
+Descr Wielki, upad³y demon nazywany przez niektórych Uriellem ma pokryte czarna
+skora cia³o oraz dwa olbrzymie, czarne skrzyd³a o wrêcz nieproporcjonalnej
+do cia³a d³ugo¶ci. Jego paskudna, ciemna twarz ukazuje ból, cierpienie, ale
+przede wszystkim niewyobra¿alny gniew oraz rz±dzê zemsty. Dwa wielkie,
+wy³upiaste ¶lepia pozbawione s± têczówek i ¼renic co czyni go stworzeniem
+przera¿aj±cym i jakby nieprzewidywalnym. Kilkunastocentymetrowe zêbiska
+wystaj±ce mu z paszczy wygl±daj± tak potwornie, ¿e mo¿na byæ pewnym, ¿e
+nawet najtwardszy pancerz nie jest dla nich przeszkod±. Przera¼liwa aura
+ch³odu bij±ca od jego postaci wydaje siê zamra¿aæ tw± odwagê oraz silê woli.
+~
+Race demon~
+ActExt 0|ABEKQT
+Affected 34079368 0 0 0
+AffectedExt 0|DHJTZ
+Align -1000
+Group 0
+Lang AR
+Speaks 16
+Level 35
+Hitroll 4
+HP 22d5+1290
+Damage 4d4+6
+Dammagic 5
+Weaponbonus 8
+Damflags 0
+Attack chlod
+XAC -2 -2 -2 -2
+Stats 144 126 138 144 78 168 102
+Off CHTYb
+OffExt 0|CHTYb/1|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 950
+Form C
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+Spells 137 39 10 61
+Skin 100
+ExpMultiplier 100
+Resist 1 20
+Resist 2 20
+Resist 3 20
+Resist 4 5
+Resist 5 10
+Resist 6 10
+Resist 7 10
+Resist 8 10
+Resist 9 10
+Resist 10 10
+Resist 11 1
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 10
+Resist 16 10
+Mobend
+#Vnum 34902
+Name malutki nietoperz~
+Odmiana ma³ego nietoperza~ma³ym nietoperzem~ma³ego nietoperza~ma³ym nietoperzem~ma³ym nietoperzu~
+Short malutki nietoperz~
+Long Malutki nietoperz, typowy mieszkaniec podziemii lata sobie tutaj.~
+Descr Jest to zwyk³y, ma³y nietoperz, który wyra¼nie niedawno nauczy³ siê
+lataæ, bo nawet lekki powiew wiatru zwiewa go z jego kursu. Mo¿e jest jaki¶
+sposób, ¿eby mu pomóc? 
+~
+Race nietoperz~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 2d2+43
+Damage 1d2+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack k±sanie
+XAC 9 9 9 9
+Stats 78 18 18 72 78 24 42
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKPRS
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 34903
+Name wiêkszy nietoperz~
+Odmiana wiêkszego nietoperza~wiêkszemu nietoperzowi~wiêkszego nietoperza~wiêkszym nietoperzem~wiêkszym nietoperzu~
+Short wiêkszy nietoperz~
+Long Jeden z wiêkszych nietoperzy przelatuje sobie przez okolicê.~
+Descr Jest to jeden z wiêkszych nietoperzy jakie lataj± w okolicy. Widzisz, ¿e
+choæ jest du¿y to jednak nie daje sobie rady z wiatrem, który co chwila
+znosi go w innym kierunku. Sam nietoperz jednak wygl±da na szczê¶liwego, w
+koñcu wbrew lodowatej temperaturze on wci±¿ ¿yje. 
+~
+Race nietoperz~
+ActExt 0|A
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 3d2+74
+Damage 1d2+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack k±sanie
+XAC 9 9 9 9
+Stats 84 42 18 96 78 18 48
+Off F
+OffExt 0|F
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKPRS
+Size small
+Material unknown
+Skin 20
+ExpMultiplier 100
+Mobend
+#Vnum 34905
+Name uriell upad³y demon~
+Odmiana Uriella~Uriellowi~Uriella~Uriellem~Uriellu~
+Short Uriell~
+Long {DUriell{x, upad³y demon rusza na ciebie!~
+Descr Wielki, upad³y demon nazywany przez niektórych Uriellem ma pokryte czarna
+skora cia³o oraz dwa olbrzymie, czarne skrzyd³a o wrêcz nieproporcjonalnej
+do cia³a d³ugo¶ci. Jego paskudna, ciemna twarz ukazuje ból, cierpienie, ale
+przede wszystkim niewyobra¿alny gniew oraz rz±dzê zemsty. Dwa wielkie,
+wy³upiaste ¶lepia pozbawione s± têczówek i ¼renic co czyni go stworzeniem
+przera¿aj±cym i jakby nieprzewidywalnym. Kilkunastocentymetrowe zêbiska
+wystaj±ce mu z paszczy wygl±daj± tak potwornie, ¿e mo¿na byæ pewnym, ¿e
+nawet najtwardszy pancerz nie jest dla nich przeszkod±. Przera¼liwa aura
+ch³odu bij±ca od jego postaci wydaje siê zamra¿aæ tw± odwagê oraz silê woli.
+~
+Race demon~
+ActExt 0|ABEFQT
+Affected 34079240 524288 0 0
+AffectedExt 0|DJTZ/1|T
+Align -1000
+Group 0
+Lang AR
+Speaks 16
+Level 36
+Hitroll 6
+HP 35d10+1500
+Damage 4d4+3
+Dammagic 3
+Weaponbonus 15
+Damflags 0
+Attack drapanie
+XAC -9 -9 -9 -9
+Stats 168 150 150 150 168 102 168
+Off CHTY
+OffExt 0|CHTY/1|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 320000
+Form C
+Parts ABCDEFGHIJKR
+Size large
+Material unknown
+MobprogNew onload 34906 ABCDEFGHI 100~
+MobprogNew death 34905 ABCDEFGHI 100~
+Spells 39 10 137 0
+Skin 100
+ExpMultiplier 200
+Resist 1 50
+Resist 2 50
+Resist 3 50
+Resist 5 10
+Resist 7 10
+Resist 9 20
+Resist 10 100
+Resist 11 2
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 50
+Resist 16 50
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 34900
+Name aksamitna poduszka~
+Odmiana {Raksamitnej{x poduszki~{Raksamitnej{x poduszce~{Raksamitn±{x poduszkê~{Raksamitn±{x poduszk±~{Rakasmitnej{x poduszce~
+Short {Raksamitna{x poduszka~
+Descr Piêknie uszyta {Rakasmitna{x poduszka le¿y tutaj na ¶rodku.~
+Material at³as~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 0 1168 120 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 67
+Cost 500
+Cond 75
+Itemdesc Masz przed sob± zwyk³±, aksamitn± poduszkê wykoñczon± at³asem. Piêkne
+hafty nadaj± poduszce blasku i wzmagaj± uczucie respektu dla tego kto na
+niej siedzi. Magiczne runy zapewne dobrze oddzia³ywaj± na twoje zdrowie.
+Zauwa¿y³e¶, ¿e gdy dotkn±³e¶ poduszki malutkie zadrapanie natychmiast siê
+zagoi³o. 
+~
+Comments ~
+Objend
+#Vnum 34902
+Name zardzewia³y klucz~
+Odmiana {rz{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{ye{Yg{ro {Yk{rl{Ru{yc{Yz{ra{x~{rz{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{ye{Ym{ru {Rk{yl{Yu{rc{Rz{yo{Yw{ri{x~{rz{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{yy {Yk{rl{Ru{yc{Yz{x~{rz{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{yy{Ym {rk{Rl{yu{Yc{rz{Re{ym{x~{rz{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{yy{Ym {rk{Rl{yu{Yc{rz{Ru{x~
+Short {rZ{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{yy {Yk{rl{Ru{yc{Yz{x~
+Descr {rZ{Ra{yr{Yd{rz{Re{yw{Yi{ra{R³{yy {Yk{rl{Ru{yc{Yz{x le¿y tutaj.~
+Material adamantyt~
+Type key
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 23
+Cost 1
+Cond 75
+Itemdesc Jest to spory, bardzo zardzewia³y klucz. Praktycznie niczym siê nie ró¿ni
+od zwyk³ych starych kluczy, no mo¿e tym, ¿e jest stosunkowo do¶æ ciê¿ki.
+Ciekawe jaki zamek otwiera? 
+~
+Comments ~
+Objend
+#Vnum 34904
+Name po¿ó³k³a ksiêga~
+Odmiana {ypo¿{Yó³k{y³ej {Yks{yiê{Ygi{x~{ypo¿{Yó³k{y³ej {Yks{yiê{Ygdze{x~{ypo¿{Yó³k{y³± {Yks{yiê{Ygê{x~{ypo¿{Yó³k{y³± {Yks{yiê{Yg±{x~{ypo¿{Yó³k{y³ej {Yks{yiê{Ydze{x~
+Short {ypo¿{Yó³k{y³a {Yks{yiê{Yga{x bez ok³adki~
+Descr {yPo¿{Yó³k{y³a {Yks{yiê{Yga{x bez ok³adki wala siê tutaj w nie³adzie.~
+Material papier~
+Type board
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Identdesc ~
+Comments ~
+Objend
+#Vnum 34905
+Name prastary pergamin~
+Odmiana {yprastarego pergaminu{x~{yprastaremu pergaminowi{x~{yprastary pergamin{x~{yprastarym pergaminem{x~{yprastarym pergaminie{x~
+Short {yprastary pergamin{x~
+Descr {yPrastary pergamin{x, pob³yskuje tutaj magiczn± moc±.~
+Material papier~
+Type board
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 34907
+Name mroczna tar¿a~
+Odmiana {Dmrocznej tar¿y{x~{Dmrocznej tar¿y{x~{Dmroczn± tar¿ê{x~{Dmroczn± tar¿±{x~{Dmrocznej tar¿y{x~
+Short {Dmroczna tar¿a{x~
+Descr Prastara, mroczna tar¿a le¿y tutaj na ziemi.~
+Material mithril~
+Type shield
+ExtraExt 0|AGJ
+Wear AJ
+Wear2Ext 0
+Bonus 34900
+LiczbaMnoga 0
+Gender 3
+Value 3 4 30 10 2 2 0
+Repair 0 0 0 0
+Length 0
+Weight 211
+Cost 42000
+Cond 100
+Itemdesc Demoniczna tar¿a, na któr± w³a¶nie sobie spogl±dasz jest swego rodzaju
+arcydzie³em w swojej dziedzinie. Ca³a wykonana zosta³a z mithrilu znanego
+jako jeden z najbardziej twardych metali na ¶wiecie. Na wierzchu tar¿y
+widniej± piêkne rze¼bienia przedstawiaj±ce bitwy demonów z celestialami za
+czasów wojen bogów. Mo¿na byæ pewnym, ¿e przedmiot ten jest przepe³niony
+magiczn± moc±. 
+~
+Comments ~
+Objend
+#Vnum 34908
+Name demoniczny amulet~
+Odmiana {Ddemonicznego amuletu{x~{Ddemonicznemu amuletowi{x~{Ddemoniczny amulet{x~{Ddemonicznym amuletem{x~{Ddemonicznym amulecie{x~
+Short {Ddemoniczny amulet{x~
+Descr Prastary, demoniczny amulet le¿y tutaj.~
+Material mithril~
+Type jewelry
+ExtraExt 0|AGJ
+Wear AC
+Wear2Ext 0
+Bonus 34900
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 3
+Cost 54000
+Cond 100
+Aff 1 17 -5 0 0 0
+Itemdesc Demoniczny amulet, na który w³a¶nie sobie spogl±dasz jest swego rodzaju
+arcydzie³em w swojej dziedzinie. Zrobiony zosta³ z poz³acanego mithrilu i
+osadzonego na samym jego ¶rodku, oszlifowanego rubinu, ewidentnie nie jest
+to robota demonów. Mo¿na byæ pewnym, ¿e przedmiot ten jest przepe³niony
+magiczn± moc±. Na jego wierzchu widnieje wygrawerowany, czarny demon,
+którego rubionowe oczy zdaj± siê emanowaæ czerwon± po¶wiat±. 
+~
+Comments ~
+Objend
+#Vnum 34909
+Name magiczne ³añcuchy~
+Odmiana magicznych ³añcuchów~magicznym ³añcuchom~magiczne ³añcuchy~magicznymi ³añcuchami~magicznych ³añcuchach~
+Short magiczne ³añcuchy~
+Descr Okryte {Cb³êkitna{x aura magiczne ³añcuchy skuwaj± rêce Uriella.~
+Material mithril~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 100
+Itemdesc Grube, mithrilowe ³añcuchy, które otacza delikatna, b³êkitna aura, s±
+zapewne przesi±kniête magicznymi zaklêciami ochronnymi. Przy wielkim,
+mithrilowym kole, do którego s± przyczepione znajduje siê malutka tabliczka.
+Mo¿e warto by³oby na ni± spojrzeæ. 
+~
+Comments ~
+Objend
+#Vnum 34910
+Name magiczny portal~
+Odmiana portalu~portalem~portal~portalem~portalu~
+Short magiczny portal~
+Descr Magiczny portal otworzy³ siê nieopodal.~
+Material eteryczny~
+Type portal
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 50 0 0 34963 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to magicznie utworzony portal o srebrnym odcieniu. Ciekawe dok±d
+prowadzi, trzeba to sprawdziæ szybko bo jeszcze zniknie. Aby z niego
+skorzystaæ nale¿y weñ tylko {Cwej¶æ{x. 
+~
+Comments ~
+Objend
+#Vnum 34912
+Name adamantytowy klucz~
+Odmiana {Dadamantytowego klucza{x~{Dadamantytowemu kluczowi{x~{Dadamantytowy klucz{x~{Dadamantytowym kluczem{x~{Dadamantytowym kluczu{x~
+Short {Dadamantytowy klucz{x~
+Descr Adamantytowy klucz o dziwnym wzorze le¿u tutaj.~
+Material adamantyt~
+Type key
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to adamantytowy klucz o do¶æ dziwnym kszta³cie. Ciekawe jakie drzwi
+mo¿esz nim otworzyæ. 
+~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 34900
+Name W±ski kamienny most~
+Descr {DPrzechodzisz w³a¶nie bardzo w±skim mostem kamiennym, który zawieszony
+zosta³ nad g³êbok± przepa¶ci±. Z zaciekawieniem patrzysz w g³±b otch³ani
+lecz nie widzisz jej dna! Przypadkowo kopiesz kamyczek, który spada w dó³,
+ale nie wydaje ¿adnego d¼wiêku. Mo¿e przepa¶æ jest tak g³êboka, ¿e nie ma
+dna? {x 
+~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34901
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34901
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 34969
+ExitExtEnd
+Exit 1
+~
+~
+16 0 34969
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 35021
+ExitExtEnd
+Exit 2
+~
+~
+0 0 35021
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 34960
+ExitExtEnd
+Exit 3
+~
+~
+16 0 34960
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34901
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34902
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34902
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34903
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34903
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34900
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34900
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34904
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34902
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34907
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34907
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34906
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34906
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34901
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34901
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34905
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34903
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34906
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34901
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34904
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34905
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34905
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34901
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34901
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34905
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34909
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34909
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34902
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34902
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34904
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34904
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34906
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34908
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34908
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34903
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34903
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34902
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34902
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34907
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34911
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34911
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34908
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34908
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34902
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34902
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34909
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34909
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34908
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34906
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34906
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34907
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34907
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34909
+Name Wyschniête kamienne pole~
+Descr {DZnalaz³e¶ siê na wyschniêtym, kamiennym polu, które zewsz±d otoczone jest
+g³êbok± przepa¶ci±. To miejsce wydaje siê jakby wysepk± l±du po¶ród morza
+czelu¶ci. Grunt jest stabilny i prosty. Gdzieniegdzie walaj± siê tutaj
+kamienie i od³amki skalne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34907
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34907
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34905
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34905
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34910
+Name Wyschniête kamienne pole~
+Descr ~
+FlagsExt 0|C
+Sector 17
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34911
+Name U stóp krêtej spirali~
+Descr {DWidzisz przed sob± schody prowadz±ce na szczyt Iglicy. Trudno nazwaæ je
+schodami, bo s± ca³kowicie p³askie. Wyrze¼bione zosta³y spiralnie wij±c siê
+wokó³ wysokiej wie¿y. Na po³udniu s± ja³owe, kamienne pola przez które
+dostaæ siê mo¿esz na w±ski most. Na zachodzie natomiast, znajduj± siê
+tajemnicze, czarne drzwi pokryte jakimi¶ {rrunami{x{D. Ciekawe co siê za nimi
+znajduje? {x 
+~
+FlagsExt 0
+Sector 17
+Extra runy~
+>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<
+{DNa tajemniczych, czarnych drzwiach znajduj± siê przedziwne runy:{x
+{r =\    |=    )-(    )- (    +-     :''/    >\\   ''\    /\    ]-''{x
+{r /=    /=     \/     \-\    \\|    \\|     :0|    ;/     --    '-/{x
+>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<>===<
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34907
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34907
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8295
+ExitExtKey 0
+ExitExtToVnum 34961
+ExitExtEnd
+Exit 3
+~
+~
+8295 0 34961
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34912
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34912
+Roomprog speech 34901 gawahli~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34912
+Name Dolna czê¶æ spirali~
+Descr {DBardzo powoli i mozolnie podró¿ujesz po p³askim wzniesieniu spiralnie
+zawieszonym na wysokiej Iglicy. Jeste¶ bardzo niedaleko dolnego wej¶cia.
+Czujesz tutaj niemi³y, zimny wiatr, ale nie jest tak okropnie dokuczliwy jak
+wy¿ej. Musisz bardzo uwa¿aæ, bo jeden niew³a¶ciwy krok i zlecisz w dó³, a
+choæ nie jeste¶ bardzo wysoko to mo¿esz byæ pewien, ¿e spadaj±c z tego
+miejsca na pewno siê zabijesz. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34913
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34913
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34911
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34911
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34913
+Name Dolna czê¶æ spirali~
+Descr {DBardzo powoli i mozolnie podró¿ujesz po p³askim wzniesieniu spiralnie
+zawieszonym na wysokiej Iglicy. Jeste¶ bardzo niedaleko dolnego wej¶cia.
+Czujesz tutaj niemi³y, zimny wiatr, ale nie jest tak okropnie dokuczliwy jak
+wy¿ej. Musisz bardzo uwa¿aæ, bo jeden niew³a¶ciwy krok i zlecisz w dó³, a
+choæ nie jeste¶ bardzo wysoko to mo¿esz byæ pewien, ¿e spadaj±c z tego
+miejsca na pewno siê zabijesz. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34912
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34912
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34914
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34914
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34914
+Name Dolna czê¶æ spirali~
+Descr {DBardzo powoli i mozolnie podró¿ujesz po p³askim wzniesieniu spiralnie
+zawieszonym na wysokiej Iglicy. Jeste¶ bardzo niedaleko dolnego wej¶cia.
+Czujesz tutaj niemi³y, zimny wiatr, ale nie jest tak okropnie dokuczliwy jak
+wy¿ej. Musisz bardzo uwa¿aæ, bo jeden niew³a¶ciwy krok i zlecisz w dó³, a
+choæ nie jeste¶ bardzo wysoko to mo¿esz byæ pewien, ¿e spadaj±c z tego
+miejsca na pewno siê zabijesz. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34913
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34913
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34915
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34915
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34915
+Name Dolna czê¶æ spirali~
+Descr {DBardzo powoli i mozolnie podró¿ujesz po p³askim wzniesieniu spiralnie
+zawieszonym na wysokiej Iglicy. Jeste¶ bardzo niedaleko dolnego wej¶cia.
+Czujesz tutaj niemi³y, zimny wiatr, ale nie jest tak okropnie dokuczliwy jak
+wy¿ej. Musisz bardzo uwa¿aæ, bo jeden niew³a¶ciwy krok i zlecisz w dó³, a
+choæ nie jeste¶ bardzo wysoko to mo¿esz byæ pewien, ¿e spadaj±c z tego
+miejsca na pewno siê zabijesz. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34916
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34916
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34914
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34914
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34916
+Name Dolna czê¶æ spirali~
+Descr {DBardzo powoli i mozolnie podró¿ujesz po p³askim wzniesieniu spiralnie
+zawieszonym na wysokiej Iglicy. Jeste¶ bardzo niedaleko dolnego wej¶cia.
+Czujesz tutaj niemi³y, zimny wiatr, ale nie jest tak okropnie dokuczliwy jak
+wy¿ej. Musisz bardzo uwa¿aæ, bo jeden niew³a¶ciwy krok i zlecisz w dó³, a
+choæ nie jeste¶ bardzo wysoko to mo¿esz byæ pewien, ¿e spadaj±c z tego
+miejsca na pewno siê zabijesz. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34915
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34915
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34917
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34917
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34917
+Name ¦rodkowa czê¶æ spirali~
+Descr {DJeste¶ ju¿ do¶æ wysoko, ¿eby mówiæ, ¿e podró¿uj±c spiral± igrasz ze
+¶mierci±. Jeden fa³szywy ruch i wyl±dujesz pod Iglic± robi±c za po¿ywienie
+dla ró¿nych stworzonek. Czujesz przejmuj±cy {x{Cch³ód{x{D niesiony silnym
+wiatrem. Dmie z tak± si³±, ¿e mimowolnie zamykasz ³zawi±ce oczy co jest
+bardzo niebezpieczne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34918
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34918
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34916
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34916
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34918
+Name ¦rodkowa czê¶æ spirali~
+Descr {DJeste¶ ju¿ do¶æ wysoko, ¿eby mówiæ, ¿e podró¿uj±c spiral± igrasz ze
+¶mierci±. Jeden fa³szywy ruch i wyl±dujesz pod Iglic± robi±c za po¿ywienie
+dla ró¿nych stworzonek. Czujesz przejmuj±cy {x{Cch³ód{x{D niesiony silnym
+wiatrem. Dmie z tak± si³±, ¿e mimowolnie zamykasz ³zawi±ce oczy co jest
+bardzo niebezpieczne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34917
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34917
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34919
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34919
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34919
+Name ¦rodkowa czê¶æ spirali~
+Descr {DJeste¶ ju¿ do¶æ wysoko, ¿eby mówiæ, ¿e podró¿uj±c spiral± igrasz ze
+¶mierci±. Jeden fa³szywy ruch i wyl±dujesz pod Iglic± robi±c za po¿ywienie
+dla ró¿nych stworzonek. Czujesz przejmuj±cy {x{Cch³ód{x{D niesiony silnym
+wiatrem. Dmie z tak± si³±, ¿e mimowolnie zamykasz ³zawi±ce oczy co jest
+bardzo niebezpieczne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34918
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34918
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34920
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34920
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34920
+Name ¦rodkowa czê¶æ spirali~
+Descr {DJeste¶ ju¿ do¶æ wysoko, ¿eby mówiæ, ¿e podró¿uj±c spiral± igrasz ze
+¶mierci±. Jeden fa³szywy ruch i wyl±dujesz pod Iglic± robi±c za po¿ywienie
+dla ró¿nych stworzonek. Czujesz przejmuj±cy {x{Cch³ód{x{D niesiony silnym
+wiatrem. Dmie z tak± si³±, ¿e mimowolnie zamykasz ³zawi±ce oczy co jest
+bardzo niebezpieczne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34921
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34921
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34919
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34919
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34921
+Name ¦rodkowa czê¶æ spirali~
+Descr {DJeste¶ ju¿ do¶æ wysoko, ¿eby mówiæ, ¿e podró¿uj±c spiral± igrasz ze
+¶mierci±. Jeden fa³szywy ruch i wyl±dujesz pod Iglic± robi±c za po¿ywienie
+dla ró¿nych stworzonek. Czujesz przejmuj±cy {x{Cch³ód{x{D niesiony silnym
+wiatrem. Dmie z tak± si³±, ¿e mimowolnie zamykasz ³zawi±ce oczy co jest
+bardzo niebezpieczne. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34920
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34920
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34922
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34922
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34922
+Name ¦rodkowa czê¶æ spirali~
+Descr {DPotworne zimno, które tu panuje przyprawia ciê o dreszcze. Mimowolnie
+krzy¿ujesz rêce na piersi staraj±c siê ogrzaæ. Oddech, który wydychasz
+momentalnie zamienia siê w gêst± parê, która po chwili odlatuje wraz z
+wiatrem. Byæ mo¿e spirala zosta³a magicznie nieukoñczona by wykoñczyæ
+wszystkich ciekawych podró¿ników, którzy mieli ochotê odkryæ co jest na
+górze? {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34923
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34923
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34921
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34921
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34923
+Name ¦rodkowa czê¶æ spirali~
+Descr {DPotworne zimno, które tu panuje przyprawia ciê o dreszcze. Mimowolnie
+krzy¿ujesz rêce na piersi staraj±c siê ogrzaæ. Oddech, który wydychasz
+momentalnie zamienia siê w gêst± parê, która po chwili odlatuje wraz z
+wiatrem. Byæ mo¿e spirala zosta³a magicznie nieukoñczona by wykoñczyæ
+wszystkich ciekawych podró¿ników, którzy mieli ochotê odkryæ co jest na
+górze? {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34922
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34922
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34924
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34924
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34924
+Name ¦rodkowa czê¶æ spirali~
+Descr {DPotworne zimno, które tu panuje przyprawia ciê o dreszcze. Mimowolnie
+krzy¿ujesz rêce na piersi staraj±c siê ogrzaæ. Oddech, który wydychasz
+momentalnie zamienia siê w gêst± parê, która po chwili odlatuje wraz z
+wiatrem. Byæ mo¿e spirala zosta³a magicznie nieukoñczona by wykoñczyæ
+wszystkich ciekawych podró¿ników, którzy mieli ochotê odkryæ co jest na
+górze? {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34923
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34923
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34925
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34925
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34925
+Name ¦rodkowa czê¶æ spirali~
+Descr {DPotworne zimno, które tu panuje przyprawia ciê o dreszcze. Mimowolnie
+krzy¿ujesz rêce na piersi staraj±c siê ogrzaæ. Oddech, który wydychasz
+momentalnie zamienia siê w gêst± parê, która po chwili odlatuje wraz z
+wiatrem. Byæ mo¿e spirala zosta³a magicznie nieukoñczona by wykoñczyæ
+wszystkich ciekawych podró¿ników, którzy mieli ochotê odkryæ co jest na
+górze? {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34926
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34926
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34924
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34924
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34926
+Name ¦rodkowa czê¶æ spirali~
+Descr {DPotworne zimno, które tu panuje przyprawia ciê o dreszcze. Mimowolnie
+krzy¿ujesz rêce na piersi staraj±c siê ogrzaæ. Oddech, który wydychasz
+momentalnie zamienia siê w gêst± parê, która po chwili odlatuje wraz z
+wiatrem. Byæ mo¿e spirala zosta³a magicznie nieukoñczona by wykoñczyæ
+wszystkich ciekawych podró¿ników, którzy mieli ochotê odkryæ co jest na
+górze? {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34925
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34925
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34927
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34927
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34927
+Name ¦rodkowa czê¶æ spirali~
+Descr {DCzujesz w sobie tak± rozpacz, ¿e masz ochotê usi±¶æ i zacz±æ p³akaæ.
+Niestety zamra¿aj±cy wiatr ci na to nie pozwala. Po co wchodzi³e¶ tak
+wysoko? Srogie podmuchy zimna k³uj± ciê w twarz. Wygl±da na to, ¿e spirala
+bêdzie siê ci±gn±æ jeszcze bardzo d³ugo. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34928
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34928
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34926
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34926
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34928
+Name ¦rodkowa czê¶æ spirali~
+Descr {DCzujesz w sobie tak± rozpacz, ¿e masz ochotê usi±¶æ i zacz±æ p³akaæ.
+Niestety zamra¿aj±cy wiatr ci na to nie pozwala. Po co wchodzi³e¶ tak
+wysoko? Srogie podmuchy zimna k³uj± ciê w twarz. Wygl±da na to, ¿e spirala
+bêdzie siê ci±gn±æ jeszcze bardzo d³ugo. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34927
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34927
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34929
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34929
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34929
+Name ¦rodkowa czê¶æ spirali~
+Descr {DCzujesz w sobie tak± rozpacz, ¿e masz ochotê usi±¶æ i zacz±æ p³akaæ.
+Niestety zamra¿aj±cy wiatr ci na to nie pozwala. Po co wchodzi³e¶ tak
+wysoko? Srogie podmuchy zimna k³uj± ciê w twarz. Wygl±da na to, ¿e spirala
+bêdzie siê ci±gn±æ jeszcze bardzo d³ugo. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34928
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34928
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34930
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34930
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34930
+Name ¦rodkowa czê¶æ spirali~
+Descr {DCzujesz w sobie tak± rozpacz, ¿e masz ochotê usi±¶æ i zacz±æ p³akaæ.
+Niestety zamra¿aj±cy wiatr ci na to nie pozwala. Po co wchodzi³e¶ tak
+wysoko? Srogie podmuchy zimna k³uj± ciê w twarz. Wygl±da na to, ¿e spirala
+bêdzie siê ci±gn±æ jeszcze bardzo d³ugo. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34931
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34931
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34929
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34929
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34931
+Name ¦rodkowa czê¶æ spirali~
+Descr {DCzujesz w sobie tak± rozpacz, ¿e masz ochotê usi±¶æ i zacz±æ p³akaæ.
+Niestety zamra¿aj±cy wiatr ci na to nie pozwala. Po co wchodzi³e¶ tak
+wysoko? Srogie podmuchy zimna k³uj± ciê w twarz. Wygl±da na to, ¿e spirala
+bêdzie siê ci±gn±æ jeszcze bardzo d³ugo. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34930
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34930
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34932
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34932
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34932
+Name ¦rodkowa czê¶æ spirali~
+Descr {DSpirala w tym miejscu jest bardzo stroma. Musisz stawiaæ d³u¿sze kroki
+bardzo uwa¿aj±c na ¶liskie pod³o¿e. Niesamowicie silny wiatr ju¿ kilka razy
+o ma³o ciê nie zabi³. Po d³u¿szym pobycie na tej spirali czujesz, ¿e
+wiêkszo¶æ twoich miê¶ni jakby zastyg³a w miejscu. To jest efekt panuj±cego
+tutaj, potwornego zimna. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34933
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34933
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34931
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34931
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34933
+Name ¦rodkowa czê¶æ spirali~
+Descr {DSpirala w tym miejscu jest bardzo stroma. Musisz stawiaæ d³u¿sze kroki
+bardzo uwa¿aj±c na ¶liskie pod³o¿e. Niesamowicie silny wiatr ju¿ kilka razy
+o ma³o ciê nie zabi³. Po d³u¿szym pobycie na tej spirali czujesz, ¿e
+wiêkszo¶æ twoich miê¶ni jakby zastyg³a w miejscu. To jest efekt panuj±cego
+tutaj, potwornego zimna. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34932
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34932
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34934
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34934
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34934
+Name ¦rodkowa czê¶æ spirali~
+Descr {DSpirala w tym miejscu jest bardzo stroma. Musisz stawiaæ d³u¿sze kroki
+bardzo uwa¿aj±c na ¶liskie pod³o¿e. Niesamowicie silny wiatr ju¿ kilka razy
+o ma³o ciê nie zabi³. Po d³u¿szym pobycie na tej spirali czujesz, ¿e
+wiêkszo¶æ twoich miê¶ni jakby zastyg³a w miejscu. To jest efekt panuj±cego
+tutaj, potwornego zimna. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34933
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34933
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34935
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34935
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34935
+Name ¦rodkowa czê¶æ spirali~
+Descr {DSpirala w tym miejscu jest bardzo stroma. Musisz stawiaæ d³u¿sze kroki
+bardzo uwa¿aj±c na ¶liskie pod³o¿e. Niesamowicie silny wiatr ju¿ kilka razy
+o ma³o ciê nie zabi³. Po d³u¿szym pobycie na tej spirali czujesz, ¿e
+wiêkszo¶æ twoich miê¶ni jakby zastyg³a w miejscu. To jest efekt panuj±cego
+tutaj, potwornego zimna. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34936
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34936
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34934
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34934
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34936
+Name ¦rodkowa czê¶æ spirali~
+Descr {DSpirala w tym miejscu jest bardzo stroma. Musisz stawiaæ d³u¿sze kroki
+bardzo uwa¿aj±c na ¶liskie pod³o¿e. Niesamowicie silny wiatr ju¿ kilka razy
+o ma³o ciê nie zabi³. Po d³u¿szym pobycie na tej spirali czujesz, ¿e
+wiêkszo¶æ twoich miê¶ni jakby zastyg³a w miejscu. To jest efekt panuj±cego
+tutaj, potwornego zimna. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34935
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34935
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34937
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34937
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34937
+Name ¦rodkowa czê¶æ spirali~
+Descr {DTutejszy wiatr przesuwa ci ko³o nosa okropne, ciemne chmury. Jeste¶ tak
+wysoko, ¿e nie masz odwagi spojrzeæ za siebie. Bardzo nieprzyjemny wiatr
+niezmiernie pcha ciê w dó³ Iglicy jednak nadal stawiasz zaciêty opór.
+Podczas podró¿owania t± okropn± spiral± wymrozi³e¶ sobie koñczyny do tego
+stopnia, ¿e ju¿ ich nie czujesz co jednak bardzo ci siê podoba. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34938
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34938
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34936
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34936
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34938
+Name ¦rodkowa czê¶æ spirali~
+Descr {DTutejszy wiatr przesuwa ci ko³o nosa okropne, ciemne chmury. Jeste¶ tak
+wysoko, ¿e nie masz odwagi spojrzeæ za siebie. Bardzo nieprzyjemny wiatr
+niezmiernie pcha ciê w dó³ Iglicy jednak nadal stawiasz zaciêty opór.
+Podczas podró¿owania t± okropn± spiral± wymrozi³e¶ sobie koñczyny do tego
+stopnia, ¿e ju¿ ich nie czujesz co jednak bardzo ci siê podoba. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34937
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34937
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34939
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34939
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34939
+Name ¦rodkowa czê¶æ spirali~
+Descr {DTutejszy wiatr przesuwa ci ko³o nosa okropne, ciemne chmury. Jeste¶ tak
+wysoko, ¿e nie masz odwagi spojrzeæ za siebie. Bardzo nieprzyjemny wiatr
+niezmiernie pcha ciê w dó³ Iglicy jednak nadal stawiasz zaciêty opór.
+Podczas podró¿owania t± okropn± spiral± wymrozi³e¶ sobie koñczyny do tego
+stopnia, ¿e ju¿ ich nie czujesz co jednak bardzo ci siê podoba. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34938
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34938
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34940
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34940
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34940
+Name ¦rodkowa czê¶æ spirali~
+Descr {DTutejszy wiatr przesuwa ci ko³o nosa okropne, ciemne chmury. Jeste¶ tak
+wysoko, ¿e nie masz odwagi spojrzeæ za siebie. Bardzo nieprzyjemny wiatr
+niezmiernie pcha ciê w dó³ Iglicy jednak nadal stawiasz zaciêty opór.
+Podczas podró¿owania t± okropn± spiral± wymrozi³e¶ sobie koñczyny do tego
+stopnia, ¿e ju¿ ich nie czujesz co jednak bardzo ci siê podoba. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34941
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34941
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34939
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34939
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34941
+Name ¦rodkowa czê¶æ spirali~
+Descr {DTutejszy wiatr przesuwa ci ko³o nosa okropne, ciemne chmury. Jeste¶ tak
+wysoko, ¿e nie masz odwagi spojrzeæ za siebie. Bardzo nieprzyjemny wiatr
+niezmiernie pcha ciê w dó³ Iglicy jednak nadal stawiasz zaciêty opór.
+Podczas podró¿owania t± okropn± spiral± wymrozi³e¶ sobie koñczyny do tego
+stopnia, ¿e ju¿ ich nie czujesz co jednak bardzo ci siê podoba. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34940
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34940
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34942
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34942
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34942
+Name ¦rodkowa czê¶æ spirali~
+Descr {DZnalaz³e¶ siê tak wysoko, ¿e gdyby Pomrok nie by³ pod ziemi± i by³ choæ
+trochê o¶wietlony to widzia³by¶ niesamowity widoczek. Iglica jest tak
+olbrzymia, ¿e spokojnie móg³by¶ zobaczyæ teren w obrêbie kilku kilometrów!
+Niestety, nie czas my¶leæ o tym co mog³oby byæ. Silne podmuchy wiatru i
+przera¼liwe zimno uci±¿liwie staraj± siê ciebie wykoñczyæ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34943
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34943
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34941
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34941
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34943
+Name ¦rodkowa czê¶æ spirali~
+Descr {DZnalaz³e¶ siê tak wysoko, ¿e gdyby Pomrok nie by³ pod ziemi± i by³ choæ
+trochê o¶wietlony to widzia³by¶ niesamowity widoczek. Iglica jest tak
+olbrzymia, ¿e spokojnie móg³by¶ zobaczyæ teren w obrêbie kilku kilometrów!
+Niestety, nie czas my¶leæ o tym co mog³oby byæ. Silne podmuchy wiatru i
+przera¼liwe zimno uci±¿liwie staraj± siê ciebie wykoñczyæ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34942
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34942
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34944
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34944
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34944
+Name ¦rodkowa czê¶æ spirali~
+Descr {DZnalaz³e¶ siê tak wysoko, ¿e gdyby Pomrok nie by³ pod ziemi± i by³ choæ
+trochê o¶wietlony to widzia³by¶ niesamowity widoczek. Iglica jest tak
+olbrzymia, ¿e spokojnie móg³by¶ zobaczyæ teren w obrêbie kilku kilometrów!
+Niestety, nie czas my¶leæ o tym co mog³oby byæ. Silne podmuchy wiatru i
+przera¼liwe zimno uci±¿liwie staraj± siê ciebie wykoñczyæ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34943
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34943
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34945
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34945
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34945
+Name ¦rodkowa czê¶æ spirali~
+Descr {DZnalaz³e¶ siê tak wysoko, ¿e gdyby Pomrok nie by³ pod ziemi± i by³ choæ
+trochê o¶wietlony to widzia³by¶ niesamowity widoczek. Iglica jest tak
+olbrzymia, ¿e spokojnie móg³by¶ zobaczyæ teren w obrêbie kilku kilometrów!
+Niestety, nie czas my¶leæ o tym co mog³oby byæ. Silne podmuchy wiatru i
+przera¼liwe zimno uci±¿liwie staraj± siê ciebie wykoñczyæ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34946
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34946
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34944
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34944
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34946
+Name ¦rodkowa czê¶æ spirali~
+Descr {DZnalaz³e¶ siê tak wysoko, ¿e gdyby Pomrok nie by³ pod ziemi± i by³ choæ
+trochê o¶wietlony to widzia³by¶ niesamowity widoczek. Iglica jest tak
+olbrzymia, ¿e spokojnie móg³by¶ zobaczyæ teren w obrêbie kilku kilometrów!
+Niestety, nie czas my¶leæ o tym co mog³oby byæ. Silne podmuchy wiatru i
+przera¼liwe zimno uci±¿liwie staraj± siê ciebie wykoñczyæ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34945
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34945
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34947
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34947
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34947
+Name Wysoko na krêtej spirali~
+Descr {DMasz ju¿ absolutnie do¶æ wspinaczki po spirali. Podró¿owanie po niej to
+istny koszmar! Niesamowicie silny wiatr jakby specjalnie próbuje ciê
+zepchn±æ w dó³ Iglicy. {CCh³ód{x{D coraz bardziej zaczyna ci dokuczaæ. Gdyby¶ na
+chwilê przysta³ to jeste¶ pewien, ¿e mog³oby ciê zamroziæ! {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34948
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34948
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34946
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34946
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34948
+Name Wysoko na krêtej spirali~
+Descr {DMasz ju¿ absolutnie do¶æ wspinaczki po spirali. Podró¿owanie po niej to
+istny koszmar! Niesamowicie silny wiatr jakby specjalnie próbuje ciê
+zepchn±æ w dó³ Iglicy. {CCh³ód{x{D coraz bardziej zaczyna ci dokuczaæ. Gdyby¶ na
+chwilê przysta³ to jeste¶ pewien, ¿e mog³oby ciê zamroziæ! {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34947
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34947
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34949
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34949
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34949
+Name Wysoko na krêtej spirali~
+Descr {DMasz ju¿ absolutnie do¶æ wspinaczki po spirali. Podró¿owanie po niej to
+istny koszmar! Niesamowicie silny wiatr jakby specjalnie próbuje ciê
+zepchn±æ w dó³ Iglicy. {CCh³ód{x{D coraz bardziej zaczyna ci dokuczaæ. Gdyby¶ na
+chwilê przysta³ to jeste¶ pewien, ¿e mog³oby ciê zamroziæ! {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34948
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34948
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34950
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34950
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34950
+Name Wysoko na krêtej spirali~
+Descr {DMasz ju¿ absolutnie do¶æ wspinaczki po spirali. Podró¿owanie po niej to
+istny koszmar! Niesamowicie silny wiatr jakby specjalnie próbuje ciê
+zepchn±æ w dó³ Iglicy. {CCh³ód{x{D coraz bardziej zaczyna ci dokuczaæ. Gdyby¶ na
+chwilê przysta³ to jeste¶ pewien, ¿e mog³oby ciê zamroziæ! {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34951
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34951
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34949
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34949
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34951
+Name Wysoko na krêtej spirali~
+Descr {DMasz ju¿ absolutnie do¶æ wspinaczki po spirali. Podró¿owanie po niej to
+istny koszmar! Niesamowicie silny wiatr jakby specjalnie próbuje ciê
+zepchn±æ w dó³ Iglicy. {CCh³ód{x{D coraz bardziej zaczyna ci dokuczaæ. Gdyby¶ na
+chwilê przysta³ to jeste¶ pewien, ¿e mog³oby ciê zamroziæ! {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34950
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34950
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34952
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34952
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34952
+Name Koñcówka spirali~
+Descr {DWidzisz, ¿e spirala koñczy siê bardzo niedaleko, a ¶wiadcz± o tym bardzo
+krótkie zakrêty. Jest tutaj minimalnie cieplej ni¿ trochê ni¿ej, ale to nie
+oznacza, ¿e nie marzn± ci wszystkie cz³onki. Masz ochotê rozejrzeæ siê po
+okolicy jednak wszêdzie panuje nieprzenikniona ciemno¶æ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34953
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34953
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34951
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34951
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34953
+Name Koñcówka spirali~
+Descr {DWidzisz, ¿e spirala koñczy siê bardzo niedaleko, a ¶wiadcz± o tym bardzo
+krótkie zakrêty. Jest tutaj minimalnie cieplej ni¿ trochê ni¿ej, ale to nie
+oznacza, ¿e nie marzn± ci wszystkie cz³onki. Masz ochotê rozejrzeæ siê po
+okolicy jednak wszêdzie panuje nieprzenikniona ciemno¶æ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34952
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34952
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34954
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34954
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34954
+Name Koñcówka spirali~
+Descr {DWidzisz, ¿e spirala koñczy siê bardzo niedaleko, a ¶wiadcz± o tym bardzo
+krótkie zakrêty. Jest tutaj minimalnie cieplej ni¿ trochê ni¿ej, ale to nie
+oznacza, ¿e nie marzn± ci wszystkie cz³onki. Masz ochotê rozejrzeæ siê po
+okolicy jednak wszêdzie panuje nieprzenikniona ciemno¶æ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34953
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34953
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34955
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34955
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34955
+Name Koñcówka spirali~
+Descr {DWidzisz, ¿e spirala koñczy siê bardzo niedaleko, a ¶wiadcz± o tym bardzo
+krótkie zakrêty. Jest tutaj minimalnie cieplej ni¿ trochê ni¿ej, ale to nie
+oznacza, ¿e nie marzn± ci wszystkie cz³onki. Masz ochotê rozejrzeæ siê po
+okolicy jednak wszêdzie panuje nieprzenikniona ciemno¶æ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34956
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34956
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34954
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34954
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34956
+Name Koñcówka spirali~
+Descr {DWidzisz, ¿e spirala koñczy siê bardzo niedaleko, a ¶wiadcz± o tym bardzo
+krótkie zakrêty. Jest tutaj minimalnie cieplej ni¿ trochê ni¿ej, ale to nie
+oznacza, ¿e nie marzn± ci wszystkie cz³onki. Masz ochotê rozejrzeæ siê po
+okolicy jednak wszêdzie panuje nieprzenikniona ciemno¶æ. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34955
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34955
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34957
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34957
+Roomprog random 34902 3~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34957
+Name Niedaleko szczytu~
+Descr {DProsta, kamienna droga znacznie u³atwia podró¿owanie w panuj±cej tutaj
+temperaturze. Silny wiatr atakuje ciê coraz mocniej swymi mro¿±cymi
+podmuchami jednak starasz siê broniæ. Powietrze wydychane w tym miejscu nie
+zamienia siê ju¿ w gêst± mgie³kê lecz natychmiast zamra¿a siê tworz±c
+prawdziwy szron. To uczucie jest naprawdê niesamowite. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34958
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34958
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34956
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34956
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34958
+Name Niedaleko szczytu~
+Descr {DProsta, kamienna droga znacznie u³atwia podró¿owanie w panuj±cej tutaj
+temperaturze. Silny wiatr atakuje ciê coraz mocniej swymi mro¿±cymi
+podmuchami jednak starasz siê broniæ. Powietrze wydychane w tym miejscu nie
+zamienia siê ju¿ w gêst± mgie³kê lecz natychmiast zamra¿a siê tworz±c
+prawdziwy szron. To uczucie jest naprawdê niesamowite. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34959
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34959
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34957
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34957
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34959
+Name Szczyt Iglicy~
+Descr {DDotar³e¶ na sam szczyt wysokiej Iglicy. Znajduje siê tutaj niewielka
+platforma wykonana z granitu. Okropne zimno zanik³o, a wszystkie zmarzniête
+cz³onki powoli dopuszczaj± do siebie ciep³± krew, która przywraca ci czucie.
+Tego ci brakowa³o. Przed sob± masz niematerialne schody prowadz±ce gdzie¶
+bardzo wysoko. Niestety nie jeste¶ w stanie zobaczyæ gdzie, bo widok
+zas³ania ci olbrzymia, ciemna chmura. {x 
+~
+FlagsExt 0
+Sector 17
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34964
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34964
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34958
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34958
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34960
+Name G³êboka przepa¶æ~
+Descr {DLecisz w dó³ podziwiaj±c wytwory skalne, które z ledwo¶ci± omijasz. Gdy
+ju¿ znajdujesz siê niedaleko pod³o¿a zauwa¿asz du¿a kupê ko¶ci i ró¿nych
+broni czy zrobi. S± to na pewno pozosta³o¶ci po istotach, które spad³y z
+mostu. Ty masz szczê¶cie, ¿e umiesz lataæ. Ale uwa¿aj, ¿eby te miejsce nie
+by³o ostatnim w twoim ¿yciu. {x 
+~
+FlagsExt 0|CH
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 34900
+ExitExtEnd
+Exit 1
+~
+~
+16 0 34900
+Roomprog entry 34900 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34961
+Name Za magicznymi drzwiami~
+Descr Jeste¶ w ma³ym pokoiku za czarnymi drzwiami. Widzisz, ¿e maj± one dobry
+metr d³ugo¶ci i o dziwo zamki wygl±daj± na zamykane z zewn±trz. W³a¶ciwie po
+co kto¶ budowa³ tutaj drzwi skoro mo¿na tutaj siê przeteleportowaæ? Zreszt±
+ca³e to miejsce jest jakie¶ bardzo dziwne. Jedyna droga prowadzi na dó³ po
+symetrycznie wykutych w skale schodach. 
+~
+FlagsExt 0|A
+Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 8295
+ExitExtKey 0
+ExitExtToVnum 34911
+ExitExtEnd
+Exit 1
+~
+~
+8295 0 34911
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34962
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34962
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34962
+Name Po schodkach w dó³~
+Descr Schody te s± bardzo ¶liskie ze wzglêdu na sp³ywaj±c± po nich wodê. Panuje
+tutaj nienaturalna ciemno¶æ i niesamowita cisza, która nawet jak na
+opuszczone miejsce wydaje siê byæ bardzo podejrzana. Z zachodu leciutko
+powiewa bardzo zimny wiatr, który zamienia twój oddech w gêst± parê. Brr... 
+~
+FlagsExt 0|A
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34963
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34963
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34961
+ExitExtEnd
+Exit 4
+~
+~
+0 0 34961
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34963
+Name {DMagiczna komnata{x~
+Descr {DJest to olbrzymia sala ca³kowicie wykuta w ciemnej skale. Panuje tu
+niesamowita ciemno¶æ i bardzo ponury klimat. Sklepienie pomieszczenia ukryte
+jest w dziwnej, ciemnej mgle; widaæ tam jedynie czubki wisz±cych
+stalaktytów. Po ¶rodku tego miejsca znajduje siê bardzo gruby, skalny s³up
+pokryty nieznanymi ci runami, które s± zapewne odpowiedzialne za panuj±ce
+tutaj skupienie mocy, które wyczuwalne jest nawet dla najprostszego orka.
+Unosz±cy siê w tym miejscu dziwny zapach przyprawia ciê o zawroty g³owy. {x 
+~
+FlagsExt 0|c
+Sector 14
+Extra tabliczka~
+{D
+   Oto s± s³owa mocy,
+               których nigdy nie nale¿y u¿yæ,
+                                     bowiem uwolni± one ¶mieræ,
+   Któr± tutaj¿em zamkn±³
+               na wieczno¶æ by ju¿ nigdy
+                                     nie dopad³a mnie jak to ju¿
+   niegdy¶ próbowa³a
+               za spraw± demona, który to
+                                     siê mnie pozbyæ chcia³ by³.
+ 
+========<'Vaandan, alhonsso hakarri cubbicaz abbadgorsthan azzaar'>=======
+{x
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34962
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34962
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 34912
+ExitExtToVnum 34968
+ExitExtEnd
+Exit 3
+~
+~
+39 34912 34968
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34964
+Name {DNa ciemnej chmurze{x~
+Descr {DNiesamowite! Znajdujesz siê w³a¶nie na prawdziwej, ciemnej chmurze.
+Wchodz±c tutaj by³e¶ pewien, ¿e spadniesz w dó³ jednak czujesz stabilny
+grunt pod nogami. Takiej si³y magicznej nie posiadaj± zwykli magowie wiêc
+lepiej uwa¿aæ, bo gdzie¶ tutaj mo¿e czaiæ siê co¶ niebezpiecznego. {x 
+~
+FlagsExt 0
+Sector 27
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34965
+ExitExtEnd
+Exit 1
+~
+~
+0 0 34965
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34959
+ExitExtEnd
+Exit 5
+~
+~
+0 0 34959
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34965
+Name {DNa ciemnej chmurze{x~
+Descr {DNiesamowite! Znajdujesz siê w³a¶nie na prawdziwej, ciemnej chmurze.
+Wchodz±c tutaj by³e¶ pewien, ¿e spadniesz w dó³ jednak czujesz stabilny
+grunt pod nogami. Takiej si³y magicznej nie posiadaj± zwykli magowie wiêc
+lepiej uwa¿aæ, bo gdzie¶ tutaj mo¿e czaiæ siê co¶ niebezpiecznego. Na
+pó³nocy widzisz jak±¶ b³yszcz±c± komnatê. {x 
+~
+FlagsExt 0
+Sector 27
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34966
+ExitExtEnd
+Exit 0
+~
+~
+0 0 34966
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34964
+ExitExtEnd
+Exit 3
+~
+~
+0 0 34964
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34966
+Name {YB³y{yszcz{Y±ca {YKom{yna{Yta{x~
+Descr {YZna{ylaz{Y³e¶ {ysiê {Yw {yol¶{Ynie{ywa{Yj±{ycej {Yblas{ykiem {Yko{ymna{Ycie {yo {Yspo{yrych {Yroz{ymia{Yrach.
+{yWszy{Ystko {ytu{Ytaj {yzos{Yta{y³o {Ywy{yko{Yna{yne {Yz {yma{Yter{yia³{Yów {ytak{Yich {yjak {Yz³o{yto, {Ysre{ybro {Yor{yaz
+{Ypla{yty{Yna {yi {Yu{yzu{Ype³{ynio{Yne {yszla{Yche{ytny{Ymi {yka{Ymie{ynia{Ymi. {yZ {Ysu{yfi{Ytu {yzwis{Yaj± {ykry{Yszta{y³owe
+{Y¿y{yran{Ydo{yle, {Ya {ypod{Y³o{ygê {Ypo{ykry{Ywa{yj± {Ygru{ybe, {Yak{ysa{Ymit{yne dy{Ywa{yny. {YNa {y¶ro{Ydku {yte{Ygo
+{ypom{Yieszcz{yenia {Yle{y¿y {Ywiel{yka {Yi {yza{Ypew{yne {Ybar{ydzo {Ywy{ygod{Yna {ypo{Ydusz{yka. {YNiesa{ymo{Ywita
+{yau{Yra {y¶wi{Yat³a {yo¶le{Ypia {yciê {Yunie{ymo¿l{Yiwia{yj±c {Ydok{y³ad{Yne {yprzyj{Yrzenie {ysiê {Yte{ymu
+{Ymiej{yscu. {YCzu{yjesz, {Y¿e {ygdy{Yby¶ {ymóg³ {Yto {yza{Ybra³{yby¶ {Yto {ymiej{Ysce {yze {Ysob±! {x
+~
+FlagsExt 0|AH
+Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtBiernik drzwi~
+ExitExtLiczba 1
+ExitExtInfo 263
+ExitExtKey 34902
+ExitExtToVnum 34967
+ExitExtEnd
+Exit 0
+~
+~
+263 34902 34967
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 34965
+ExitExtEnd
+Exit 2
+~
+~
+0 0 34965
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34967
+Name Biblioteka Feshejka~
+Descr Wszed³e¶ w³a¶nie do prastarej biblioteki Feshejka, miejsca z zapomnianych
+legend o najwiêkszych zbiorach dzie³ zwi±zanych z jêzykami. Spogl±daj±c na
+jeden, jedyny rega³ stoj±cy po ¶rodku stosunkowo ma³ego pokoju mo¿na
+stwierdziæ, ¿e legendy rzeczywi¶cie zawieraj± tylko ¼dziebko prawdy.
+Jednak¿e zapach starych, zmursza³ych ksi±g panuj±cy tutaj wprawi³by w
+zachwyt niejednego uczonego. 
+~
+FlagsExt 0|H
+Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 263
+ExitExtKey 34902
+ExitExtToVnum 34966
+ExitExtEnd
+Exit 2
+~
+~
+263 34902 34966
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34968
+Name {DMagiczna komnata{x~
+Descr {DJest to olbrzymia sala ca³kowicie wykuta w ciemnej skale. Panuje tu
+niesamowita ciemno¶æ i bardzo ponury klimat. Sklepienie pomieszczenia ukryte
+jest w dziwnej, ciemnej mgle; widaæ tam jedynie czubki wisz±cych
+stalaktytów. Po ¶rodku tego miejsca znajduje siê bardzo gruby, skalny s³up
+pokryty nieznanymi ci runami, które sa zapewne odpowiedzialne za panuj±ce
+tutaj skupienie mocy, które wyczuwalne jest nawet dla najprostszego orka.
+Unosz±cy sie w tym miejscu dziwny zapach przyprawia cie o zawroty g³owy. {x 
+~
+FlagsExt 0|C
+Sector 14
+Extra tabliczka~
+{D
+   Oto s± s³owa mocy,
+               których nigdy nie nale¿y u¿yæ,
+                                     bowiem uwolni± one ¶mieræ,
+   Któr± tutaj¿em zamkn±³
+               na wieczno¶æ by ju¿ nigdy
+                                     nie dopad³a mnie jak to ju¿
+   niegdy¶ próbowa³a
+               za sprawê ojca mego, który to
+                                     siê mnie pozbyæ chcia³ by³.
+ 
+========<'Vaandan, alhonsso hakarri cubbicaz abbadgorsthan azzaar'>=======
+{x
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 39
+ExitExtKey 0
+ExitExtToVnum 34963
+ExitExtEnd
+Exit 1
+~
+~
+39 0 34963
+Roomprog input 34904 wejd¼~
+Roomprog input 34904 wejdz~
+Roomprog input 34904 enter~
+Roomprog reset 34905 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 34969
+Name G³êboka przepa¶æ~
+Descr {DLecisz w dó³ podziwiaj±c wytwory skalne, które z ledwo¶ci± omijasz. Gdy
+ju¿ znajdujesz siê niedaleko pod³o¿a zauwa¿asz du¿a kupê ko¶ci i ró¿nych
+broni czy zrobi. S± to na pewno pozosta³o¶ci po istotach, które spad³y z
+mostu. Ty masz szczê¶cie, ¿e umiesz lataæ. Ale uwa¿aj, ¿eby te miejsce nie
+by³o ostatnim w twoim ¿yciu. {x 
+~
+FlagsExt 0
+Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 34900
+ExitExtEnd
+Exit 3
+~
+~
+16 0 34900
+Roomprog entry 34900 100~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 34902 5 34900 5
+M 100 34902 5 34901 5
+M 100 34902 5 34904 5
+M 100 34902 5 34905 5
+M 100 34902 5 34906 5
+M 100 34902 5 34907 5
+M 100 34903 6 34915 6
+M 100 34903 6 34925 6
+M 100 34903 6 34935 6
+M 100 34903 6 34940 6
+M 100 34903 6 34945 6
+M 100 34903 6 34955 6
+M 100 34900 1 34966 1
+E 100 3178 0 16
+G 100 34902 0
+O 100 34900 0 34966
+O 100 3386 0 34967
+P 100 34904 1 3386 1
+P 100 34905 1 3386 1
+P 100 34912 1 3386 1
+M 100 34905 1 34968 1
+S
+
+
+
+#MOBPROGSNEW
+#34900
+~
+mob echoat $n Feshejk wznosi wysoko swój topór chcêc wykonaæ zabójcze ciêcie z obrotem.
+delay 2
+mob echoat $n Topór '{DTchnienie Wichury{x' opada w dó³ rani±c wszystkich woko³o!!
+mob damage all 150 200 kill
+~
+#34900_onload
+~
+mob oload random 4
+wear all
+mob oload gem 5
+~
+#34901
+~
+if rand 90
+  mob say Czy¿ to nie marnotractwo czasu wdrapywaæ siê a¿ tutaj? Nie lepiej by³oby siê zabiæ samemu, na dole?
+  mob echoat $n Feshejk odchyla ³eb do ty³u i rechocze ze w¶ciek³± rado¶ci±!
+  mob echoaround $n Feshejk odchyla ³eb do ty³u i rechocze ze w¶ciek³± rado¶ci±!
+else
+  if rand 90
+    mob say Nigdy nie dacie mi rady!
+  else
+    if rand 90
+      mob say Czemu zak³ócacie mój spoczynek? Czeka was za to ¶mieræ!
+    else
+      if rand 90
+        mob say $n, zapamiêtam ciê, niewiele moich obiadów tak d³ugo mo¿e sobie po¿yæ!
+      else
+        if rand 90
+          mob echoat $n Feshejk warczy gro¼nie i uderza ze zdwojon± furi±!!
+        else
+          if rand 90
+            mob say Wolisz ¿ebym ciê ugotowa³, upiek³ czy usma¿y³?
+            mob echoat $n Feshejk chichocze pod nosem.
+            mob echoaround $n Feshejk chichocze pod nosem.
+          else
+            if rand 90
+              mob say Coraz bardziej mnie to denerwuje!
+            else
+              if rand 90
+                mob say Odejd¼ z t±d póki jeszcze mo¿esz!
+              else
+              endif
+            endif
+          endif
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#34902
+~
+if rand 65
+mob zecho {c Feshejk wrzeszczy '{CGiñcie, ¶miertelnicy!{c'{x
+else
+endif
+~
+#34903
+~
+mob echo Nagle Feshejk wykonuje potê¿ny zamach i z niesamowit± si³± uderza robi±c piruet trafiaj±c ka¿dego, który sta³ nieopodal niego!
+mob peace
+mob reward all wait 50
+mob setpos all sit
+delay 1
+mob echo Si³a uderzenia by³a tak du¿a, ¿e cios pos³a³ ciê dobre kilkana¶cie metrów w dal!
+delay 1
+mob echo Feshejk odchyla ³eb do ty³u i rechocze ze w¶ciek³± rado¶ci±!
+delay 1
+mob echoat $n Feshejk szar¿uje na ciebie szaleñczo wywijaj±c m³ynka mistycznym toporem!
+mob echoaround $n Feshejk szar¿uje na $z szaleñczo wywijaj±c m³ynka mistycznym toporem!
+delay 1
+mob echoat $n Potê¿ny cios trafia ciê prosto w klatke piersiow±! Czujesz, ¿e nie mo¿esz nabraæ powietrza!
+mob echoaround $n Potê¿ny cios trafia $z prosto w klatke piersiow±! Widzisz, ¿e nie mo¿e nabraæ powietrza!
+mob damage $n 90 150 kill
+mob force $n kill feshejk
+~
+#34904
+~
+~
+#34905
+~
+mob oload 34910 r
+mob echo Niedaleko grubego s³upa otworzy³ siê portal. Szybko!
+~
+#34906
+~
+if rand 10
+  mob oload gem 7
+endif
+if rand 50
+  mob oload gem 7
+endif
+if rand 90
+  mob oload armor 4
+endif
+if rand 35
+  mob oload weapon 6
+endif
+if rand 95
+  mob oload weapon 7
+endif
+if rand 80
+  mob oload body 7
+endif
+mob equip self 34907
+if rand 70
+  mob equip self 3129
+else
+  mob equip self 3152
+endif
+if rand 80
+mob oload 34908 wear
+endif
+mob oload random 7
+mob oload random 7
+mob oload random 7
+mob oload gem 7
+mob oload gem 7
+mob oload shield 7
+mob oload gem 6
+mob oload gem 1
+mob oload gem 1
+mob oload gem 2
+mob oload gem 2
+mob oload random 5
+mob oload random 5
+mob oload random 5
+mob oload random 5
+mob oload random 5
+mob oload random 5
+mob oload random 5
+mob oload random 5
+mob oload random 5
+~
+#34908
+~
+~
+#0
+
+#OBJPROGSNEW
+#34900
+~
+~
+#0
+
+#ROOMPROGSNEW
+#34900
+przepasc
+~
+if affected $n fly
+  break
+else
+  mob echoat $n {RSkaczesz w przepa¶æ{x. 
+mob damage $n 10000 10000 pwk
+endif
+~
+#34901
+~
+if mobexists 34905
+  mob reward $n wait 4 
+  mob echo Olbrzymia kula swiatla wylatuje prosto w ciebie!
+  minidelay 1
+  mob echoat $n Powoli bezwladnie wznosisz sie do gory.
+  mob echoaround $n $n powoli bezwladnie wznosi sie do gory.
+  minidelay 1
+  mob echoat $n Nagle zostales oslepiony!
+  mob echoaround $n $n wyglada na oslepionego!
+  minidelay 1
+  mob echo Slyszysz jakies przedziwne glosy w nieznanym ci jezyku!
+  minidelay 1
+  mob echoat $n czujesz mocne szarpniecie w okolicach pepka!
+  mob echoaround $n $n znika w ciemnym swietle!
+  mob transfer $n 34961
+else
+  mob cancel
+endif
+~
+#34902
+~
+$_rand = int_random 1 6
+if numeval $_rand == 1
+  mob echo Nag³y atak gradu uderza prosto w twoj± twarz.
+endif
+if numeval $_rand == 2
+  mob echo Gwaltowny przyplyw wiatru sprowadza na ciebie sniezna zawieruche!
+endif
+if numeval $_rand == 3
+  mob echo Przerazliwe zimno przenika przez wszystkie noszone przez ciebie przedmioty.
+endif
+if numeval $_rand == 4
+  mob echo Na mysl o otaczajacym cie zimnie lapia cie dreszcze!
+endif
+if numeval $_rand == 5
+  mob echo Widzisz jak ledwo lecacy nietoperz zostaje zdmuchniety przez wiatr prosto w kamienna iglice!
+endif
+~
+#34903
+~
+mob reward all wait 5
+mob echo Widzisz nagle jak skuwaj±ce Uriella kajdany puszczaj±!
+delay 1
+mob echo Magiczna sfera otaczaj±ca jego postaæ nagle znika!
+delay 1
+mob echo Mocny wstrz±s zasypuje drogê ucieczki na wschód!
+mob transfer all 34968
+~
+#34904
+~
+if objhere 34910
+mob transfer all 34911
+else
+mob cancel
+endif
+~
+#34905
+~
+mob purge portal
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 34900
+Name {Ddem{ronic{Dzny {rs{Det{x~
+Aff 1 19 1 0 0 0
+Aff 1 12 15 20 0 0
+WearProg mob echoaround $n Widzisz jak zak³adaj±c ostatni± czê¶æ zestawu, wokó³ $z pojawia siê czerwona aura, która jednak znika po chwili.
+mob echoat $n Zak³adaj±c ostatni± czê¶æ zestawu czujesz, ¿e jaka¶ mroczna moc otacza ciê niczym kokon.
+mob mobstring $n desc add Woko³o $z pojawia siê i znika w nieregularnych odstepach czasu czerwona otoczka.
+~
+RemoveProg mob echoaround $n Widzisz jak $n krzywi±c siê zdejmuje jedn± z czêsci zestawu. Czerwona otoczka momentalnie przygasa i niknie.
+mob echoat $n Zdejmuj±c jedn± z czêsci zestawu widzisz, jak czerwona aura ga¶nie.
+mob mobstring $n desc clear
+~
+BonusEnd
+#Vnum 0
+
+#$

@@ -1,0 +1,43 @@
+CCACHE  := $(shell which ccache 2>/dev/null)
+CC      = $(CCACHE) gcc
+COMMON  = -Wall -pg -ggdb -Wp,-D_FORTIFY_SOURCE=2
+C_FLAGS = $(COMMON) -DHASHSTR -DMCCP 
+L_FLAGS =  $(COMMON) -lz -lpcre -pthread
+CYG_C_FLAGS = $(COMMON) -DHASHSTR -DCYGWIN
+CYG_L_FLAGS = $(COMMON) pcre.dll
+CYG = cyg/
+OBJ = obj/
+OCAML = ocm/
+
+# wersja OFFLINE:
+ifdef OFFLINE
+  C_FLAGS += -DOFFLINE 
+  CYG_C_FLAGS += -DOFFLINE
+endif
+
+O_FILES := $(addprefix $(OBJ),$(patsubst %.c,%.o,$(wildcard *.c)))
+CYG_O_FILES := $(addprefix $(CYG),$(patsubst %.c,%.o,$(wildcard *.c)))
+
+rom: $(O_FILES)
+	rm -f rom
+	$(LINK_HASKELL)
+	$(CC) $(L_FLAGS) -o rom $(O_FILES) $(L_FILES)
+
+cygwin: $(CYG_O_FILES)
+	rm -f rom
+	$(CC) $(CYG_L_FLAGS) -o rom $(CYG_O_FILES)
+
+ocaml:
+	ocamlopt str.cmxa spell_syn.ml -o $(OCAML)syn.exe
+	cp $(OCAML)* ../area/
+	rm -f *.cmx *.cmi *.o
+
+$(OBJ)%.o: %.c
+	$(CC) -c $(C_FLAGS) $< -o $@
+
+$(CYG)%.o: %.c
+	$(CC) -c $(CYG_C_FLAGS) $< -o $@
+
+.PHONY: clean rom
+clean:
+	rm -f *.o $(OBJ)*.o $(CYG)*.o rom rom.exe *.cmx *.cmi

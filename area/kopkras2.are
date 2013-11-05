@@ -1,0 +1,4644 @@
+#AREADATA
+Name {R#{DPodmrok{x - Krasnoludzkie kopalnie~
+Builders Podmrok~
+VNUMs 43400 43469
+Credits blanciq@o2.plKhannan
+ 
+Sprawdzaj±cy: Drake
+Twórca: Khannan
+Ilo¶æ przyznanych punktów: 22
+Komentarze: Punkty przyznane za rozbudowe/upgrade krainki. Chocia¿ poprzednia jej wersja te¿ by³a Khannana. Genialne progi.
+~
+Locked ~
+Security 9
+ResetAge 22
+Region 43400
+End
+
+
+
+#MOBILES
+#Vnum 43400
+Name krasnoludzki gornik wydobywca~
+Odmiana krasnoludzkiego gornika~krasnoludzkiemu gornikowi~krasnoludzkiego gornika~krasnoludzkim gornikiem~krasnoludzkim gorniku~
+Short górnik wydobywca~
+Long Krasnoludzki górnik wydobywa surowiec wal±c kilofem w scianê.~
+Descr Górnik stoj±cy przed tob± ma obowi±zek wydobyæ w jak najkrótszym czasie
+jak najwiêcej bry³ek surowca, a nastêpnie przekazaæ je m³odszym górnikom.
+Patrz±c po jego wygl±dzie - jest ca³y spocony i zdyszany - bardzo zale¿y mu
+na tej pracy i wykonuje j± solidnie. 
+~
+Race krasnolud~
+ActExt 0|ABCEG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 400
+Group 0
+Lang AC
+Speaks 0
+Level 10
+Hitroll 2
+HP 3d20+180
+Damage 2d3+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 4 4 4 8
+Stats 96 108 120 96 120 78 78
+Off EIb
+OffExt 0|EIb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew entry 43428 FGI 100~
+MobprogNew random 43401 FGI 5~
+MobprogNew onload 43410 ABCDEFGHI 100~
+MobprogNew speech 43401 FGI test~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43401
+Name ma³y w³ochaty paj±k~
+Odmiana w³ochatego paj±ka~w³ochatemu paj±kowi~w³ochatego paj±ka~w³ochatym paj±kiem~w³ochatym paj±ku~
+Short wlochaty paj±k~
+Long Ma³y, w³ochaty paj±k chodzi po scianie korytarza.~
+Descr Paj±k nie wygl±da szczególnie dziwnie, jest to raczej zwyczajny paj±k. Ma
+krótkie nó¿ki i w³ochaty korpus, nie powinien zrobiæ takiemu osobnikowi jak
+ty zbyt wielkiej krzywdy. 
+~
+Race paj±k~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 2
+HP 1d10+30
+Damage 1d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 60 30 30 90 60 60 60
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACK
+Size small
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43402
+Name wielki paj±k boss~
+Odmiana wielkiego paj±ka~wielkiemu paj±kowi~wielkiego paj±ka~wielkim paj±kiem~wielkim paj±ku~
+Short wielki paj±k~
+Long Wielki paj±k chowa siê w szczelinê pomiêdzy kamieniami.~
+Descr Jest to wielki paj±k, jego koñczyny s± niesamowicie d³ugie. Jego oczy s±
+czerwone jak krew, a zeby wygl±daj± na bardzo ostre, to tobie dobrze nie
+wró¿y. Wygl±da na bardzo g³odnego i niebezpiecznego. 
+~
+Race paj±k~
+ActExt 0|ABF/2|C
+Affected 98816 0 0 0
+AffectedExt 0|JPQ
+Align -700
+Group 0
+Lang A
+Speaks 0
+Level 22
+Hitroll 1
+HP 5d10+600
+Damage 4d4+0
+Dammagic 2
+Weaponbonus 5
+Damflags 128
+Attack gryzienie
+XAC 2 2 2 5
+Stats 120 60 30 108 60 60 60
+Off FY
+OffExt 0|FY
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACKS
+Size medium
+Material unknown
+MobprogNew death 43415 ABCDEFGHI 100~
+Skin 500
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 43403
+Name paj±k ludojad~
+Odmiana paj±ka ludojada~paj±kowi ludojadowi~paj±ka ludojada~paj±kiem ludojadem.~paj±ku ludojadzie~
+Short paj±k ludojad~
+Long Olbrzymi paj±k z zakrwawion± paszcz± stoi przed tob±.~
+Descr Widzisz wielkiego paj±ka o w³ochatych nogach i korpusie. Z jego paszczy
+wystaj± dwie, pokryte star± krwi±, zêby. 
+~
+Race paj±k~
+ActExt 0|AB
+Affected 2162696 0 0 0
+AffectedExt 0|DQV
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 25
+Hitroll 3
+HP 1d100+800
+Damage 5d6+5
+Dammagic 2
+Weaponbonus 0
+Damflags 128
+Attack gryzienie
+XAC 10 10 10 10
+Stats 120 90 30 90 30 30 30
+Off FY
+OffExt 0|FY
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form GP
+Parts ACK
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43404
+Name oblesny czerw robal~
+Odmiana oble¶nego czerwia~oble¶nemu czerwiowi~oble¶nego czerwia~oble¶nym czerwiem~oble¶nym czerwiu~
+Short oble¶ny czerw~
+Long Oble¶ny, bia³y robal pe³za tutaj.~
+Descr Robak o ob³ym kszta³cie, beznogi, ma³o ruchliwy. Z gruczo³ów znajduj±cych
+siê na jego ciele wci±¿ wydziela siê ¶luz u³atwiaj±cy mu poruszanie siê.
+Zajêty wy³±cznie wegetacj± i sk³adaniem jaj, wydaje siê niegro¼ny. 
+~
+Race owad pe³zaj±cy~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 3d5+60
+Damage 3d5+3
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 6 6 6 6
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GR
+Parts AC
+Size tiny
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43405
+Name maly czerw robal robak~
+Odmiana ma³ego czerwa~ma³emu czerwowi~ma³ego czerwa~ma³ym czerwem~ma³ym czerwie~
+Short ma³y czerw~
+Long Ma³y robaczek pe³znie w twoim kierunku.~
+Descr Robak o ob³ym kszta³cie, beznogi, ma³o ruchliwy. Z por na jego ciele
+wci±¿ wydziela siê ¶luz u³atwiaj±cy mu poruszanie siê. Zajêty wy³±cznie
+wegetacj± i sk³adaniem jaj, wydaje siê niegro¼ny. 
+~
+Race owad pe³zaj±cy~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll -1
+HP 2d3+15
+Damage 2d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GR
+Parts AC
+Size tiny
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43406
+Name czerwony paj±k~
+Odmiana {Rczerwonego paj±ka{x~{Rczerwonemu paj±kowi{x~{Rczerwonego paj±ka{x~{Rczerwonym paj±kiem{x~{Rczerwonym paj±ku{x~
+Short {Rczerwony paj±k{x~
+Long {RCzerwony paj±k{x wpartujê siê w ciebie jak na posi³ek.~
+Descr ~
+Race paj±k~
+ActExt 0|A
+Affected 544 0 0 0
+AffectedExt 0|FJ
+Align -1000
+Group 0
+Lang A
+Speaks 0
+Level 18
+Hitroll 1
+HP 5d7+400
+Damage 4d3+2
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack walniecie
+XAC 3 3 3 3
+Stats 102 42 42 84 84 18 60
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACK
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 10 100
+Resist 18 90
+Mobend
+#Vnum 43407
+Name Bebilith~
+Odmiana null~null~null~null~null~
+Short Bebilith~
+Long (no long description)~
+Descr Jest to gigantyczny paj±k siêgaj±cy rozmiarów doros³ego smoka. Nazywany
+jest tak, ¿e pajêczym demonem, bowiem poluje tak¿e na demony. Jego odnó¿a s±
+ostre niczym miecz i s± w stanie rozbiæ najmocniejszy pancerz. Bebilithy s±
+jednymi z najgro¼niejszych stworzeñ Podmroku. Dlatego, gdy zobaczysz jego
+lepiej nie wdawaæ siê w walkê tylko uciekaæ. Szczególnie, ¿e te paj±ki
+poluj± stadami,. 
+~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43408
+Name wycieñczony górnik krasnoludzki wydobywca~
+Odmiana wycieñczonego górnika~wycieñczonemu górnikowi~wycieñczonego górnika~wycieñczonym górnikiem~wycieñczonym górniku~
+Short wycieñczony górnik~
+Long Wycieñczony krasnoludzki górnik wydobywca zwija siê w agonii.~
+Descr Przed oczami masz obraz nêdzy i rozpaczy. Kiedy¶ dumny krasnoludzki
+górnik, wydobywaj±cy kruszce w tych g³êbokich kopalniach, a dzi¶... Ciê¿ko
+sprecyzowaæ co dzi¶... Jedno jest pewne, krasnolud którego masz przed oczami
+przeszed³ piek³o. Zamkniêty przez lata w tych zatêch³ych korytarzach ¿ywi³
+siê zapewne grzybami i wszelkimi robakami jakie uda³o mu siê z³owiæ. W jego
+oczach dostrzegasz szaleñstwo, które ogarne³o go przez tak d³ugi okres
+zamkniêcia. Z ekwipunku jaki posiada³ nie pozosta³y ju¿ nawet strzêpy. 
+~
+Race krasnolud~
+ActExt 0|ABCEG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AC
+Speaks 0
+Level 20
+Hitroll 4
+HP 10d15+250
+Damage 4d3+3
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack walniecie
+XAC 2 2 2 5
+Stats 112 108 120 101 120 88 98
+Off FIYb
+OffExt 0|FIYb
+Pos_start sit
+Pos_def sit
+Sex none
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43409
+Name elf~
+Odmiana elf~elf~elf~elf~elf~
+Short elf~
+Long Elf stoi tutaj.~
+Descr ~
+Race elf~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 50d50+500
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 13 13 13 13 13 13 13
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43410
+Name m³odszy górnik tragarz~
+Odmiana m³odszego górnika~m³odszemu górnikowi~m³odszego górnika~m³odszym górnikiem~m³odszym górniku~
+Short górnik tragarz~
+Long M³odszy górnik biega z plecakiem i przenosi surowiec.~
+Descr Jest to m³ody stopniem górnik, którego obowi±zkiem jest pchaæ wózek z
+sórowcami, lub przenosiæ surowiec w rêkach od górników wydobywaj±cych go do
+punktu zbiorczego lub za³adunkowego. 
+~
+Race krasnolud~
+ActExt 0|ABCG
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 700
+Group 0
+Lang AC
+Speaks 0
+Level 5
+Hitroll -1
+HP 2d3+90
+Damage 2d6+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 9 9 9 9
+Stats 96 66 66 96 84 78 78
+Off CIK
+OffExt 0|CIK
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew speech test FGI test~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43411
+Name górnik dozorca~
+Odmiana dozorcy górników~dozorcy górników~dozorcê górników~dozorc± górników~dozorcy górników~
+Short górnik dozorca~
+Long Dozorca górników nadzoruje pracê swoich podopiecznych.~
+Descr Jest to starszy stopniem górnik, zwany przez innych nadzorc± kopaczy,
+którego wszyscy tutaj siê boj±. Nie jest on wysoki, ot taki przeciêtny
+krasnolud, lecz za to jest szeroki i umiê¶niony, lepiej nie wszczynaæ z nim
+bójki. 
+~
+Race krasnolud~
+ActExt 0|ABCEIT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 600
+Group 0
+Lang AC
+Speaks 0
+Level 13
+Hitroll 3
+HP 1d50+300
+Damage 3d4+1
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 3 3 3 8
+Stats 132 120 120 102 120 78 78
+Off DJ
+OffExt 0|DJ/1|G
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 25
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew give wykonal_1a FGI 43423~
+MobprogNew greet misja_1a FGI 100~
+MobprogNew kill 43413 ABCDEFGHI 100~
+MobprogNew random 43414 FGI 20~
+MobprogNew onload 43412 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43412
+Name wielki pe³zacz~
+Odmiana wielkiego pe³zacza~wielkiemu pe³zaczowi~wielkiego pe³zacza~wielkim pe³zaczem~wielkim pe³zaczu~
+Short wielki pe³zacz~
+Long Wielki, obrzydliwy pe³zacz poszujuje ofiary.~
+Descr Du¿y, paskudny insekt pokryty twardym pancerzem to pe³zacz Z wyg³adu
+przypomina trochê mrówkê tyle, ¿e jest od niej du¿o wiêkszy, bowiem liczy
+co¶ ponad dwa metry. Pe³zacze zamieszkuj± kopalnie i jaskinie, g³ownie
+siedz±c pod ziemi± i czyhaj±c na swoje ofiary, które rozszarpujê swoimi
+¿uwaczkami. Lepiej uwa¿aj, ¿eby nie wpa¶æ w sid³a tego potwora. 
+~
+Race paj±k~
+ActExt 0|AF
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align -1000
+Group 0
+Lang I
+Speaks 8
+Level 24
+Hitroll 2
+HP 4d11+550
+Damage 2d7+6
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack drapanie
+XAC 3 3 3 3
+Stats 120 60 60 120 102 30 48
+Off Y
+OffExt 0|Y
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form GP
+Parts ACK
+Size large
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 1 15
+Resist 2 10
+Resist 3 20
+Resist 10 100
+Resist 12 100
+Resist 13 100
+Mobend
+#Vnum 43413
+Name stra¿nik bramy~
+Odmiana stra¿nika bramy~stra¿nikowi bramy~stra¿nika bramy~stra¿nikiem bramy~stra¿niku bramy~
+Short stra¿nik bramy~
+Long Stra¿nik pilnuje drewnianych drzwi.~
+Descr Krasnoludzki stra¿nik jest bardzo dobrze zbudowany. Jego zadaniem jest
+bronienie przej¶cia przez drewnian± bramê, je¶li chcesz przez ni± przej¶æ
+powiniene¶ najpierw spytaæ jego o pozwolenie. Jego w³osy s± rude, tak samo
+jak i jego broda, która jest zapleciona w dwa, zadbane warkocze. 
+~
+Race krasnolud~
+ActExt 0|ABCEGT
+Affected 552 0 0 1024
+AffectedExt 0|DFJ/3|K
+Align 700
+Group 0
+Lang AC
+Speaks 0
+Level 32
+Hitroll 5
+HP 23d6+500
+Damage 5d4+4
+Dammagic 0
+Weaponbonus 3
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 6
+Stats 120 120 90 72 120 72 72
+Off EVYb
+OffExt 0|EVYb/1|AB
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 500
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew greet 43420 FGI 100~
+MobprogNew onload 43419 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 70
+Mobend
+#Vnum 43414
+Name krasnoludzki gornik wydobywca~
+Odmiana krasnoludzkiego gornika~krasnoludzkiemu gornikowi~krasnoludzkiego gornika~krasnoludzkim gornikiem~krasnoludzkim gorniku~
+Short górnik wydobywca~
+Long Krasnoludzki górnik wydobywa surowiec wal±c kilofem w scianê.~
+Descr Górnik stoj±cy przed tob± ma obowi±zek wydobyæ w jak najkrótszym czasie
+jak najwiêcej bry³ek surowca, a nastêpnie przekazaæ je m³odszym górnikom.
+Patrz±c po jego wygl±dzie - jest ca³y spocony i zdyszany - bardzo zale¿y mu
+na tej pracy i wykonuje j± solidnie. 
+~
+Race krasnolud~
+ActExt 0|ACEGX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 400
+Group 0
+Lang AC
+Speaks 0
+Level 10
+Hitroll 2
+HP 1d30+180
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 4 4 4 8
+Stats 96 108 120 96 120 78 78
+Off EIb
+OffExt 0|EIb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew entry 43429 FGI 100~
+MobprogNew random 43403 FGI 10~
+MobprogNew onload 43410 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 43415
+Name dozorca kopalni~
+Odmiana dozorcy kopalni~dozorcy kopalni~dozorcê kopalni~dozorc± kopalni~dozorcy kopalni~
+Short Dozorca kopalni~
+Long Potê¿nie zbudowany dozorca kopalni stoi tutaj.~
+Descr Patrz±c na stoj±cego przed tob± dozorcê czujesz respekt. Jest on bardzo
+porz±dnie ubrany i wygl±da na bardzo bogatego. Jego zadaniem jest pilnowanie
+porz±dku w kopalni, wiêc lepiej nie próbuj go zak³ócaæ. 
+~
+Race krasnolud~
+ActExt 0|ABCEGT
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 400
+Group 0
+Lang AC
+Speaks 0
+Level 18
+Hitroll 3
+HP 3d25+400
+Damage 3d5+1
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack uderzenie
+XAC 2 2 2 8
+Stats 132 132 132 132 132 90 90
+Off EIb
+OffExt 0|EIb/1|AB
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 100
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Comments zwiekszam mnoznik expa, bo strasznie mocno bije jak na taka ilosc expa ktora sie za niego dostaje - {RTener{x ({CSat May 17 04:25:58 2008{x)
+~
+MobprogNew speech misja_1 FGI witaj~
+MobprogNew greet dozorca1 FGI 100~
+MobprogNew onload 43431 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 150
+Mobend
+#Vnum 43416
+Name krasnoludzki gornik wydobywca~
+Odmiana krasnoludzkiego gornika~krasnoludzkiemu gornikowi~krasnoludzkiego gornika~krasnoludzkim gornikiem~krasnoludzkim gorniku~
+Short górnik wydobywca~
+Long Krasnoludzki górnik wydobywa surowiec wal±c kilofem w scianê.~
+Descr Górnik stoj±cy przed tob± ma obowi±zek wydobyæ w jak najkrótszym czasie
+jak najwiêcej bry³ek surowca, a nastêpnie przekazaæ je m³odszym górnikom.
+Patrz±c po jego wygl±dzie - jest ca³y spocony i zdyszany - bardzo zale¿y mu
+na tej pracy i wykonuje j± solidnie. 
+~
+Race krasnolud~
+ActExt 0|ACEGX
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 400
+Group 0
+Lang AC
+Speaks 0
+Level 10
+Hitroll 2
+HP 1d30+180
+Damage 2d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 4 4 4 8
+Stats 96 108 120 96 120 78 78
+Off EIb
+OffExt 0|EIb
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew entry 43430 FGI 100~
+MobprogNew random 43402 FGI 10~
+MobprogNew onload 43410 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 0
+
+
+
+#OBJECTS
+#Vnum 43401
+Name cia³o~
+Odmiana cia³a~cia³u~cia³o~cia³em~ciele~
+Short cia³o~
+Descr W pajêczynie widzisz zjedzone do po³owy cia³o.~
+Material skóra~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1536 0 0 100 43402 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Przygl±daj±c siê z bliska dostrzegasz, ¿e jest to cia³o jakiego¶ elfa.
+Jego skóra jest machoniowa, co najprawdopodobniej ¶wiadczy o tym, i¿ by³ to
+mroczny elf zamieszkuj±cy podmrok. Zastanawiasz siê, co te cia³o mo¿e tutaj
+robiæ. 
+~
+Comments ~
+Objend
+#Vnum 43404
+Name podziemne jezioro~
+Odmiana jeziora~jeziorze~jezioro~jeziorem~jeziorze~
+Short jezioro~
+Descr {BPodziemne jezioro{X emanuje jasnym ¶wiat³em.~
+Material unused~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1000 1000 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Przygl±daj±c siê temu dziwnemu zbiornikowi dostrzegasz blask bij±cy z
+dna, wygl±da to jak kamienie, ¶wiec±ce kamienie. Mo¿esz spróbowaæ wyj±æ
+jeden, czy dwa z nich. Woda z tego jeziora wygl±da na czyst± i na pewno jest
+zdatna do picia. 
+~
+Comments ~
+Objend
+#Vnum 43405
+Name górniczy wózek~
+Odmiana górniczego wózka~górniczemu wózkowi~górniczy wózek~górniczym wózkiem~górniczym wózku~
+Short górniczy wózek~
+Descr Wózek s³u¿±cy do przewo¿enia surowców stoi tu i czeka na transport.~
+Material stal~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 50 0 0 3 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1000
+Cost 60
+Cond 75
+Objprog precommand wozek take~
+Objprog precommand wozek get~
+Objprog random odjazd_wozka 20~
+Itemdesc Jest to wielki, masywny wózek, z którego wystaj± olbrzymie, b³yszcz±ce
+bry³y mithrilu. A¿ korci Ciê, ¿eby schowaæ jedn± do kieszeni, lecz wszêdzie
+woko³o pe³no jest górników, którzy z pewno¶ci± by to zauwa¿y³i. 
+~
+Comments ~
+Objend
+#Vnum 43406
+Name wielka pajeczyna~
+Odmiana pajêczyny~pajêczynie~pajêczynê~pajêczyn±~pajêczynie~
+Short wielka pajeczyna~
+Descr W rogu legowiska dostrzegasz wielk± pajêczynê.~
+Material eteryczny~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to wielka pajêczyna, która napewno jest, albo by³a legowiskiem dla
+olbrzymiego paj±ka. Je¶li nie brzydzisz siê takich rzeczy to mo¿esz j±
+przeszukaæ, mo¿e co¶ ciekawego w niej znajdziesz, bo kto wie, co takie
+paj±ki trzymaj± w swoich gniazdach. 
+~
+Comments ~
+Objend
+#Vnum 43407
+Name mala skrzynka~
+Odmiana ma³ej skrzynki~ma³ej skrzynce~ma³± skrzynkê~ma³± skrzynk±~ma³ej skrzynce~
+Short ma³a skrzynka~
+Descr Ma³a skrzynka opl±tana w pajêczynê le¿y tutaj.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 5 0 1 100 33 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 600
+Cond 75
+Itemdesc Jest to niewielka skrzynka do trzymania bi¿uterii, która ca³a opl±tana
+jest pajêczyn±. Prawdopodobnie le¿a³a gdzie¶ na strychu, albo jaki¶
+nieszczê¶nik "upu¶ci³" j± w legowisku paj±ka. 
+~
+Comments ~
+Objend
+#Vnum 43408
+Name kupka monet~
+Odmiana kupki monet~kupce monet~kupkê monet~kupk± monet~kupce monet~
+Short kupka srebrnych monet~
+Descr Na ziemi b³yszczy kupka srebrnych monet.~
+Material srebro~
+Type money
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 200 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to b³yszcz±ca kupka srebrnych monet.
+~
+Comments ~
+Objend
+#Vnum 43409
+Name wózek~
+Odmiana wózka~wózkowi~wózek~wózkiem~wózku~
+Short wózek na surowce~
+Descr Wózek do transportu surowców stoi tutaj~
+Material stal~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 0 0 1 100 0 -1
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Ten wózek s³u¿y do wywo¿enia surowca na powierzniê, górnicy-tragarze
+nape³niaj± go, a nastêpnie inni górnicy wywo¿± go do góry, na powierzchniê.
+Tak, w³a¶nie dzia³aj± krasnoludy. Nazywaj± to prac± grupow±. 
+~
+Comments ~
+Objend
+#Vnum 43410
+Name okruchy mithrill surowiec~
+Odmiana okruchów mithrilu~okruchom mithrilu~okruchy mithrilu~okruchami mithrilu~okruchach mithrilu~
+Short okruchy mithrilu~
+Descr Dostrzegasz kawa³eczki mithrilu le¿±ce na ziemi.~
+Material mithril~
+Type treasure
+ExtraExt 0|W
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 3
+Value 0 0 0 0 0 -1 1
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 360
+Cond 100
+Comments ~
+Objend
+#Vnum 43416
+Name kawa³ki srebra okruchy srebro~
+Odmiana okruchów srebra~okruchom srebra~okruchy srebra~okruchami srebra~okruchach srebra~
+Short okruchy srebra~
+Descr Drobne okruchy srebra b³yszcz± delikatnie.~
+Material srebro~
+Type treasure
+ExtraExt 0|W
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 180
+Cond 100
+Comments ~
+Objend
+#Vnum 43417
+Name okruchy z³oto z³ota kawa³ki surowiec~
+Odmiana okruchów z³ota~okruchom z³ota~okruchy z³ota~okruchami z³ota~okruchach z³ota~
+Short okruchy z³ota~
+Descr Okruchy z³otego surowca le¿± na ziemi.~
+Material z³oto~
+Type treasure
+ExtraExt 0|W
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 240
+Cond 100
+Comments ~
+Objend
+#Vnum 43419
+Name okruchy wêgiel wêgla kawa³ki surowiec~
+Odmiana okruchów wêgla~okruchom wêgla~okruchy wêgla~okruchami wêgla~okruchach wêgla~
+Short okruchy wêgla~
+Descr Okruchy czarnego surowca le¿± na ziemi.~
+Material z³oto~
+Type treasure
+ExtraExt 0|W
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 2
+Cost 60
+Cond 100
+Comments ~
+Objend
+#Vnum 43426
+Name przewrócona taczka~
+Odmiana przewróconej taczki~przewróconej taczce~przewrócon± taczke~przewrócon± taczk±~przewróconej taczce~
+Short przewrócona taczka~
+Descr Przewrócona taczka le¿y z boku korytarza.~
+Material drewno~
+Type trash
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Length 0
+Weight 10000
+Cost 1
+Cond 100
+Itemdesc Widzisz drewnian± taczkê, przewrócon± na bok i porzucon± przez swoich
+w³a¶cicieli. Najwidoczniej bardzo spieszyli siê skoro nie zabrali swoich
+rzeczy. Taczka jest niewielkich rozmiarów, prawdopodobnie pos³ugiwali siê
+ni± krasnoludzcy górnicy. 
+~
+Comments ~
+Objend
+#Vnum 43428
+Name du¿y drewniany klucz~
+Odmiana {ydu¿ego drewnianego klucza{x~{ydu¿emu drewnianemu kluczowi{x~{ydu¿y drewniany klucz{x~{ydu¿ym drewnianym kluczem{x~{ydu¿ym drewnianym kluczu{x~
+Short {ydu¿y drewniany klucz{x~
+Descr {yDu¿y drewniany klucz{x z ma³ym mosiê¿nym kó³eczkiem, le¿y tutaj.~
+Material unused~
+Type key
+ExtraExt 0|d
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 100
+Length 0
+Weight 5
+Cost 100
+Cond 100
+Itemdesc {yDu¿y drewniany klucz{x na ma³ym mosiê¿nym kó³eczku prawdopodobnie wykonany
+przez krasnoludzkich ¶lusarzy. Jako¿e wykonano go z drewna, mo¿e ³atwo ulec
+uszkodzeniu. Lepiej pos³ugiwaæ siê nim z ostro¿no¶ci±. 
+~
+Comments ~
+Objend
+#Vnum 43468
+Name drowia ró¿d¿ka~
+Odmiana ró¼dzki~rozdzce~rozdzke~rozdzka~rozdzce~
+Short drowia ró¿d¿ka~
+Descr Taka sobie ró¿d¿ka le¿y tutaj.~
+Material mithril~
+Type staff
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Length 0
+Weight 1
+Cost 60
+Cond 75
+Objprog use rozdzka off~
+Comments ~
+Objend
+#Vnum 0
+
+
+
+#ROOMS
+#Vnum 43400
+Name ¯y³a wêgla~
+Descr Jest to ju¿ koniec szybu górniczego, ci±gn±cego siê z po³udnia. Górnicy
+tutaj pracuj± nad przed³u¿eniem szybu, bo na pó³nocnej ¶cianie dostrzegasz
+du¿e pok³ady wêgla. S± one tak du¿e, ¿e prawdopodobnie w tym miejscu
+powstanie nowy korytarz z którego bêd± wywoziæ tyle wêgla, ¿e innym rasom
+siê to nawet nie ¶ni³o. 
+~
+FlagsExt 0|ACH
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43460
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43460
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43401
+Name Stary korytarz~
+Descr Znajdujesz siê w starym, górniczym korytarzu biegn±cym daleko na zachód.
+Musia³ on byæ dawno zamkniêty, bo jest on bardzo zaniedbany. Kawa³ki ska³
+le¿a wszêdzie na ziemi, z trudem mo¿na têdy przej¶æ. ¦mierdzi tutaj stêch³ym
+powietrzem, ciê¿ko jest wytrzymaæ taki odór. 
+~
+FlagsExt 0|ACD
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43460
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43460
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43402
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43402
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43402
+Name Stary korytarz~
+Descr Znajdujesz siê w starym, górniczym korytarzu biegn±cym daleko na zachód.
+Musia³ on byæ dawno zamkniêty, bo jest on bardzo zaniedbany. Kawa³ki ska³
+le¿a wszêdzie na ziemi, z trudem mo¿na têdy przej¶æ. ¦mierdzi tutaj stêch³ym
+powietrzem, ciê¿ko jest wytrzymaæ taki odór. 
+~
+FlagsExt 0|AD
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43401
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43401
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43403
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43403
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43403
+Name Stary korytarz~
+Descr Jeste¶ mniej wiêcej w po³owie starego korytarza prowadz±cego na zachód,
+sciany tutaj zaczynaj± byæ coraz wê¿sze, ale s± wystarczaj±co szerokie, ¿eby
+bez problemu przej¶æ. Ca³y czas czuæ ten odór. St±d nie widaæ ju¿ ¿adnej
+¿ywej duszy, tylko gdzie¶ daleko na wschodzie s³ychaæ uderzenia kilofem o
+ska³ê. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43402
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43402
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43404
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43404
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43404
+Name Stary korytarz~
+Descr Jeste¶ ju¿ na koñcu tego starego korytarza, przynajmniej teraz. Widaæ, ¿e
+kiedy¶ ten korytarz prowadzi³ dalej na zachód, ale niestety ska³y ca³kowicie
+zawali³y przej¶cie. Tutaj ju¿ nawet nie s³ychaæ górników pracuj±cych na
+wschodzie. Na suficie widaæ ogromne pajêczyny, w tym korytarzu musi byæ
+mnóstwo paj±ków, albo musz± byæ bardzo wielkie. Na po³udniowej scianie jest
+wielka pajêczyna, która ma bardzo nienaturalny kszta³t. 
+~
+FlagsExt 0|A
+Sector 15
+Extra pajêczyna~
+Ta pajêczyna ma bardzo nienaturalny kszta³t, jakby by³a zrobiona po to,
+aby zas³oniæ jakie¶ przej¶cie, albo wnêkê. Bardzo mo¿liwe, ¿e za t±
+pajêczyn± jest legowisko jakiego¶ paj±ka. Mo¿esz spróbowaæ zerwaæ pajêczynê.
+~
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43403
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43403
+Roomprog reset 43405 100~
+Roomprog input 43401 zerwij pajêczynê~
+Roomprog input 43401 zedrzyj pajêczynê~
+Roomprog input 43401 podrzyj pajêczynê~
+Roomprog input 43401 zerwij~
+Roomprog input 43401 zedrzyj~
+Roomprog input 43401 podrzyj~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43405
+Name Legowisko paj±ka~
+Descr Znajdujesz siê w legowisku jakiego¶ du¿ego, bardzo du¿ego paj±ka. Nie
+jest tutaj, ani przyjemnie, ani mi³o. Wszêdzie jest pajêczyna i resztki
+po¿ywienia. W rogu, w pajêczynie dostrzegasz nadgni³± rêkê krasnoluda,
+biedak chyba zab³±dzi³ i przypadkiem trafi³ do tego piekielnego miejsca,
+niestety by³a to ostatnia rzecz w jego ¿yciu. Mo¿liwe, ¿e olbrzymi paj±k
+czai siê gdzie¶ i ma ciê na oku. 
+~
+FlagsExt 0|ACJ
+Sector 15
+Roomprog input 43400 zerwij pajêczynê~
+Roomprog reset purge_room 100~
+Roomprog input 43403 przeszukaj pajêczynê~
+Roomprog input 43403 obszukaj pajêczynê~
+Roomprog input 43403 zbadaj pajêczynê~
+Resources 0 35 50 10 1 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43406
+Name Zawalony chodnik~
+Descr Znajdujesz siê w starej czê¶ci kopalni, która zosta³a zawalona jaki¶ czas
+temu. Wszêdzie naoko³o le¿y gruz. Chodnik biegnie z po³udnia na pó³noc, a
+dziura, która mog³aby byæ teraz wyj¶ciem jest za wysoko, ¿eby do niej
+doskoczyæ. Musisz szukaæ innego wyj¶cia. Wszêdzie dooko³a jest pe³no
+pajêczyn, widaæ, ¿e paj±ki zadomowi³y siê tutaj na dobre. 
+~
+FlagsExt 0|AN
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43407
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43407
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43409
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43409
+Resources 0 0 30 10 0 0 10 7 
+Capacity 40
+Roomend
+#Vnum 43407
+Name Stary chodnik~
+Descr Jeste¶ w starym chodniku kopalni, zosta³ on zapewne ju¿ dawno zasypany.
+Teraz zamieszkuj± go tylko paj±ki i robaki. ¦mierdzi tutaj niesamowicie,
+ledwo co mo¿esz oddychaæ. Wszêdzie jest pe³no od³amków ska³ i pajêczyn,
+przechodzi ciê nieprzyjemny dreszcz na my¶l o tym pomieszczeniu. 
+~
+FlagsExt 0|AN
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43408
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43408
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43406
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43406
+Resources 0 0 30 10 0 0 10 7 
+Capacity 40
+Roomend
+#Vnum 43408
+Name Stary chodnik~
+Descr Jest to ju¿ koniec chodnika, poniewa¿ droga na pó³noc zosta³a ca³kowicie
+zasypana ska³ami. Pomiêdzy ska³ami widaæ czerwone oczy, mo¿na siê bardzo
+³atwo domy¶liæ, ¿e s± to pj±ki, poniewa¿ wszêdzie pe³no jest pajêczyn.
+Wzdrygasz siê na my¶l o tych wszystkich w³ochatych stworzeniach. 
+~
+FlagsExt 0|AN
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43407
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43407
+Resources 0 0 30 10 0 0 10 7 
+Capacity 40
+Roomend
+#Vnum 43409
+Name Stary chodnik~
+Descr Jeste¶ w starym chodniku kopalni, który zosta³ ju¿ dawno czê¶ciowo
+zasypany. Teraz zamieszkuja go tylko paj±ki i robaki. Smierdzi tutaj
+niesamowicie, z trudem zmuszasz sie do oddechu. Wszedzie jest pelno odlamkow
+skal i pajêczyn, przechodzi ciê nieprzyjemny dreszcz, gdy pomy¶lisz, ¿e
+mo¿esz st±d nigdy nie wyj¶æ. 
+~
+FlagsExt 0|AN
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43406
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43406
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43410
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43410
+Resources 0 0 30 10 0 0 10 7 
+Capacity 40
+Roomend
+#Vnum 43410
+Name Zakret starego chodnika~
+Descr W tym miejscu stary chodnik zakrêca na zachód, lecz na wschodzie te¿
+widzisz ¶lady po jakim¶ korytarzu, lecz zosta³ on ju¿ dawno zawalony. Jest
+tutaj jeszcze wiêcej pajêczyn. Czujesz coraz wiêkszy wstrêt do tych
+osobników. 
+~
+FlagsExt 0|ACN
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43409
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43409
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43411
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43411
+Resources 0 0 30 10 0 0 10 7 
+Capacity 40
+Roomend
+#Vnum 43411
+Name Legowisko pajaków~
+Descr Tutaj jest wiêcej pajêczyn, ni¿ móg³by¶ to sobie wyobraziæ. W pajêczynach
+dostrzegasz kokony z jajmi paj±ków oraz resztki pokarmu. ¦mierdzi tu
+niesamowicie, teraz dopiero naprawdê zaczynasz ¿a³owaæ, ¿e siê tutaj
+znalaz³e¶. Przy pólnocnej ¶cianie widzisz jakie¶ cia³o zapl±tane w
+pajêczyny. 
+~
+FlagsExt 0|AN
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43410
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43410
+Resources 0 0 30 10 0 0 10 7 
+Capacity 40
+Roomend
+#Vnum 43412
+Name Pochy³y pó³nocny korytarz~
+Descr Znajdujesz siê na pó³noc od wielkiej drewnianej bramy. Korytarz w tym
+miejscu gwa³townie opada w dó³. Prawdopodobnie krasnoludzcy górnicy odkryli
+w tym miejscu g³êbokie pok³ady drogocennych kruszców. Niestety czas odcisn±³
+swoje piêtno na tym miejscu, strop popêka³ w wielu miejscach, a na ¶cianie
+zauwa¿alna jest wilgoæ i grzyb. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43469
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43469
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43413
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43413
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43413
+Name Zakrêt kopalnianego korytarza~
+Descr Jestes na szerokim zakrêcie kopalnianego korytarza. Na wschód prowadzi
+zachowana w dobrym stanie podziemna droga, ³±cz±ca górne pok³ady kopalni, z
+tymi które z niewyja¶nionych przyczyn zosta³y porzucone. Do góry wiedzie
+strome podej¶cie, kiedy¶ ob³o¿one drewnianymi belami w celu zachowania
+wiêkszej stabilno¶ci gruntu, dzi¶ nie wiele zosta³o z tych umocnieñ. 
+~
+FlagsExt 0
+Sector 45
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43414
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43414
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43412
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43412
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43414
+Name Krawêd¼ przy szybie~
+Descr Docierasz nad krawêd¼ stromego szybu prowadz±cego w g³±b kopalni.
+Rozgl±daj±c siê po otoczeniu nie dostrzegasz niedawnej aktywno¶ci górników,
+prawdopodobnie opu¶cili ten teren ju¿ dawno temu. Mo¿esz spróbowaæ zej¶æ w
+dó³ szybu lub skierowaæ swoje kroki w kierunku zachodnim, ku wyj¶ciu z
+kopalni. Tak czy inaczej, powiniene¶ zachowaæ ostro¿no¶æ. Nie wiadomo czy te
+czê¶ci kopalni nie gro¿± zawaleniem. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43413
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43413
+ExitExt 5
+ExitExtDescription ~
+ExitExtVName Szyb~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43465
+ExitExtEnd
+Exit 5
+~
+VName Szyb~
+~
+0 0 43465
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43415
+Name Szeroki korytarz~
+Descr Znajdujesz siê w do¶æ szerokim korytarzu, który ci±gnie siê daleko na
+zachód. Na po³udniu widzisz w±ski szyb. Nie s³ychaæ z tamtej strony odg³osów
+górników, wiêc pewnie jest on nieu¿ywany. Przy scianach le¿± porozwalane,
+górnicze narzêdzia. 
+~
+FlagsExt 0|A
+Sector 15
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27568
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27568
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43416
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43416
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43416
+Name W±ski szyb~
+Descr Jest to bardzo w±ski szyb, który od bardzo dawna jest nieu¿ywany, co
+widaæ po jego stanie. Czê¶ciowo jest zawalony, oraz bardzo zaniedbany.
+Po³amane i zardzewia³e narzêdzia s± wszêdzie porozrzucane, jakby górnicy
+uciekali st±d w pop³ochu. Zapach w tym szybie jest bardzo nieprzyjemny. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43415
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43415
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43417
+Name Pocz±tek korytarza~
+Descr Znajdujesz siê w szerokim na 5 metrów korytarzu, który ci±gnie siê na
+wschód. Na pó³nocy za¶ dostrzegasz wielk± pieczarê, która s³u¿y do
+sk³adowania surowców wydobytych w tej kopalni. Górnicy, których jest
+naprawdê sporo biegaj± w grupach, raz po wózki z surowcami, a raz odwie¶æ
+wydobywaj±cym surowiec górnikom wózek. Na po³udniu dostrzegasz ciemny szyb,
+lecz mimo i¿ jest on ciemny pracuje w nim wcale niema³o górników. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43458
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43458
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43418
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43418
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43418
+Name G³owny korytarz~
+Descr Znajdujesz siê w g³ównym korytarzu tej krasnoludzkiej kopalni. Ruch w tym
+miejscu jest uporz±dkowany, górnicy z pe³nymi wózkami id± w zwartym szyku po
+jednej stronie, a górnicy z pustymi wózkami id± po drugiej stronie. Ka¿dy
+pilnuje swojej grupy i dyscypliny w niej. Krasnoludy wygl±daj± na bardzo
+pracowite i obowi±zkowe istoty, bo korytarz ten jest bardzo zadbany, a
+¶ciany i strop s± solidnie podparte i zabezpieczone. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43419
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43419
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43424
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43424
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43417
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43417
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43419
+Name G³owny korytarz~
+Descr Znajdujesz siê w g³ównym korytarzu tej krasnoludzkiej kopalni. Ruch w tym
+miejscu jest uporz±dkowany, górnicy z pe³nymi wózkami id± w zwartym szyku po
+jednej stronie, a górnicy z pustymi wózkami idê po drugiej stronie. Wózki
+pchane przez górników przemieszczaj± siê na szynach, co ma u³atwiæ ich
+pchanie. Stró¿ki wody p³yn± specjalnie wy¿³obionymi do tego korytami przy
+¶cianach korytarza. Na pó³nocy widaæ stary, od dawna nie u¿ywany korytarz. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43420
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43420
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43438
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43438
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43418
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43418
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43420
+Name Stary korytarz~
+Descr Znajdujesz siê w starym korytarzu, o czym ¶wiadcz± wy¿³obione w pod³o¿u
+koleiny od sp³ywaj±cej têdy latami wody. Lecz mimo to zauwa¿asz, i¿ niektóre
+podpórki s± nowe, z czego wynika i¿ ten korytarz jest nadal u¿ywany, mo¿e
+nawet gdzie¶ na koñcu jest on w³a¶nie przed³u¿any... Kiedy ju¿ masz i¶æ
+dalej, jedna rzecz przyci±ga twój wzrok, dziwny kamien, nienaturalnie
+wkomponowany w zachodni± ¶cianê... 
+~
+FlagsExt 0
+Sector 15
+Extra kamieñ~
+Przygl±dasz siê bli¿ej temu dziwiacznemu kamieniowi... Wygl±da jakby
+zas³ania³ wej¶cie do jakiej¶ wnêki, ale co by taka wnêka tutaj robi³a...
+Hmm, jest on bardzo wielki, ale mo¿esz spróbowaæ go przesun±æ. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43421
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43421
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43419
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43419
+Roomprog input 27565 przesuñ kamieñ~
+Roomprog input 27565 przesuñ~
+Roomprog reset 27566 100~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43421
+Name Stary korytarz~
+Descr Znajdujesz siê w starym, prawdopodobnie ju¿ nieu¿ywanym korytarzu, lecz
+mimo to panuje tu do¶æ du¿y ruch, co mo¿e wskazywaæ na to, i¿ w dalszej
+czê¶ci korytarza prowadzone s± prace wydobywcze. Tylko, co mog± wydobywaæ z
+tak starego korytarza? Chyba, ¿e w dalszej czê¶ci jest jaki¶ ¶wie¿o wykopany
+szyb. Droga na pó³noc jest coraz wê¿sza. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43425
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43425
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43420
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43420
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43422
+Name Ciemny szyb~
+Descr Strasznie tu ciemno... Widzisz tutaj górnikow wydobywaj±cych srebro i
+mithril... Tak, oczy przekona³y twój umys³, to naprawdê wielkie bogactwo,
+dlatego krasnoludy tak dbaj± o t± kopalniê. To co¶ wiêcej ni¿ przys³owiowa
+kopalnia z³ota. Ju¿ wiesz, sk±d krasnoludy maj± tyle mithrilu... Tutaj jest
+wydobywany, by potem zostac przetworzony w Fortecy. Na zachodzie widzisz
+¶wiat³o... 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43430
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43430
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43423
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43423
+Roomprog reset 43408 100~
+Resources 0 35 50 50 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43423
+Name Ma³y korytarz~
+Descr W korytarzu, w którym stoisz górnicy pracuj± nad wydobyciem surowca,
+jakim jest wêgiel. Ich ubrania s± a¿ czarne od unosz±cego siê w powietrzu
+py³u. Jest to miêkki surowiec wiêc do jego wydobycia u¿ywaj± ma³ych kilofów.
+Niektórzy z górników bior± od wydobywców bry³ki i nios± je na pó³noc. 
+~
+FlagsExt 0|H
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43424
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43424
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43422
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43422
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43461
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43461
+Roomprog reset 43407 100~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43424
+Name Ma³y korytarz~
+Descr Znajdujesz siê w ma³ym korytarzu, w którym górnicy wydobywaj± wêgiel.
+Wszêdzie w powietrzu unosi siê py³, który osadza siê na ubraniu. Belki s±
+do¶æ ciemne, co ¶wiadczy o wieku tego korytarza. Na pó³nocy znajduje siê
+g³ówny korytarz, a na po³udniu dostrzegasz ciê¿ko pracuj±cych górników,
+którzy wydobywaj± ten czarny surowiec. 
+~
+FlagsExt 0|H
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43418
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43418
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43423
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43423
+Roomprog reset 43407 100~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43425
+Name W±ski korytarz~
+Descr Przeciskasz siê w±skim korytarzem, najwyra¼niej nieczêsto uczêszczanym
+Ostatnimi czasy. Podpieraj±ce strop belki s± nadgnite, s± tu ju¿ od lat. Pod
+¶cianami dostrzegasz pozostawione w nie³adzie uszkodzone kilofy i ³opaty, a
+¶rodkiem korytarza biegn± wy¿³obione koleiny. Dostrzegasz w ¶cianie drobiny
+srebra a na pod³o¿u bry³y mithrilu.. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43426
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43426
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43421
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43421
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43426
+Name Kopalniany korytarz~
+Descr Korytarz rozszerza siê tworz±c miniaturow± komorê. Panuj±ca wilgoæ i
+ciemno¶æ nie napawaj± optymizmem. Smród wdziera Ci siê do nozdrzy, co¶
+gnije. Spostrzegasz jaja z³o¿one tu przez jakie¶ stworzenie. Najwyra¼niej
+co¶ tu gniazduje. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43427
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43427
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43425
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43425
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43427
+Name ¦wie¿y korytarz~
+Descr Z sufitu ¶wie¿o rozkopanej komory kapie jeszcze woda. Górnicy dopiero co
+skoñczyli tutaj pracê, w powietrzu czujesz jeszcze pot. Pod ¶cian± le¿±
+narzêdzia i dwie skrzynki na wydobywane minera³y. St±pasz po do¶æ sporych
+grudach mokrej gliny, stopy grzêzn± Ci w tym b³ocie, jednak bez problemu
+przejdziesz dalej. Na scianach dostrzegasz du¿e ilo¶ci srebrnego surowca. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43428
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43428
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43426
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43426
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43428
+Name Z³o¿e~
+Descr Trafiasz na fragment korytarza przechodz±cy przez ¿y³ê surowca. ¦ciany
+po³yskuj± srebrem, wystarczy³oby mieæ kilof, a bez problemu mo¿naby ob³owiæ
+siê tym kruszcem, tak ¿e nie potrzeba by by³o ju¿ pracowaæ do koñca ¿ycia.
+A¿ dziwne, ¿e nikogo tu nie ma, kto wydobywa³by to i spieniê¿a³ na
+powierzchni. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43429
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43429
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43427
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43427
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43429
+Name Przodek chodnikowy~
+Descr ¦wie¿a ziemia wymieszana z glin± wala siê tu wszêdzie, górnicy nie
+zd±¿yli jej jeszcze wywie¼æ. Sam korytarz jest niski, szanuj±cy siê pó³ork
+czy elf musia³by siê schylaæ przechodz±c têdy. Jedynie krasnoludy s± tego
+nikczemnego wzrostu, ¿eby tu staæ prosto, bo przecie¿ nizio³ki pod ziemiê
+nie schodz±... Dopiero teraz zauwa¿asz, ¿e wcze¶niej korytarz siêga³ do
+wysoko¶ci przeciêtnego wysiêgu ramion przeciêtnego krasnoluda. Znak to, ¿e
+prace wydobywcze siê tu jeszcze nie zaczê³y na dobre. Sciany pokryte s±
+bry³ami srebra. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43428
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43428
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43430
+Name Ciemny szyb~
+Descr Strasznie tu ciemno... Widzisz tutaj gornikow wydobywajacych srebro i
+mithril... Tak, oczy przekonaly twoj umysl, to naprawde wielkie bogactwo,
+dlatego krasnoludy tak dbaja o ta kopalnie. To cos wiecej niz przyslowiowa
+kopalnia zlota. Juz wiesz, skad krasnoludy maja tyle mithrilu... Tutaj jest
+wydobywany, by potem zostac przetworzony w Fortecy. Szyb ci±gnie siê dalej
+na wschód. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43431
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43431
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43422
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43422
+Roomprog reset 43408 100~
+Resources 0 35 50 50 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43431
+Name Ciemny szyb~
+Descr Strasznie tu ciemno... Widzisz tutaj górników wydobywaj±cych srebro i
+mithril... Tak, oczy przekona³y twój umys³, to naprawdê wielkie bogactwo,
+dlatego krasnoludy tak dbaj± o ta kopalnie. To cos wiêcej niz. Przys³owiowa
+kopalnia z³ota. Ju¿ wiesz, sk±d krasnoludy maja tyle mithrilu... Tutaj jest
+wydobywany, by potem zostaæ przetworzony w Fortecy. Na wschodzie widzisz
+szeroki korytarz, do którego ten szyb prowadzi. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43432
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43432
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43430
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43430
+Roomprog reset 43408 100~
+Resources 0 35 50 80 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43432
+Name Szeroki Korytarz~
+Descr Jest to szeroki na prawie piêæ metrów korytarz. Panuje tutaj wzmo¿ony
+ruch. Górnicy biegaj± z pó³nocy na po³udnie i odwrotnie. Pod nogami widzisz
+tory, s³u¿± one pewnie do szybszego przemieszczania wózków z surowcami.
+Czujesz pot i s³yszysz gwizdy krasnoludzkich górników. Na ¶cianach nie
+dostrzegasz ju¿ ani ¶ladu surowców, poniewa¿ ju¿ dawno zosta³y st±d
+wydobyte. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43434
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43434
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43433
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43433
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43431
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43431
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43433
+Name Koniec szerokiego korytarza~
+Descr W tym miejscu szeroki korytarz rozwidla siê, jedna odnoga idzie na wschód
+druga za¶ na po³udniowy zachód, lecz ¿adna z nich nie jest ju¿ tak szeroka
+jak obecny korytarz. Tory w tym miejscu siê koñcz±, górnicy z pomniejszych
+szybów muszê surowiec przynosiæ tutaj w inny sposób. Panuje tutaj wielkie
+zamieszanie, gdy górnicy nape³niaj± i wypychaj± na pó³noc kolejne wózki z
+surowcami. ¦mierdzi tutaj potem i mokrymi od niego ubraniami górników. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43432
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43432
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43434
+Name Szeroki korytarz~
+Descr Znajdujesz siê w bardzo szerokim, jak na t± kopalniê korytarzu. Jest on
+równie¿ wysoki jak na standardy kar³owatych krasnoludów, mo¿na z tego
+wywnioskowaæ, i¿ jest to g³ówny, albo jeden z g³ównych korytarzy. Górnicy
+krz±taj± siê wwo¿±c puste wózki na po³udnie, a wywo¿±c pe³ne na pó³noc po
+torach, które zapewne bardzo u³atwiaj± im pracê. Czujesz odrzucaj±cy smród
+brudnych, spoconych ubrañ. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43435
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43435
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43432
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43432
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43435
+Name Szeroki korytarz~
+Descr Jest to szeroki na prawie piêæ metrów korytarz. Panuje tutaj wzmo¿ony
+ruch. Górnicy biegaj± z pó³nocy na po³udnie i odwrotnie. Pod nogami widzisz
+tory, s³u¿± one pewnie do szybszego przemieszczania wózków z surowcami. Na
+pó³nocy dostrzegasz g³ówne skrzy¿owanie korytarzy w tej kopalni. Je¶li
+okre¶liæ ruch w tym miejscu s³owem du¿y, to tam jest on naprawdê ogromny!
+Woda ¶ciekaj±ca stró¿kami po ¶cianach, sp³ywa w specjalnie przygotowanych do
+tego zag³êbieniach przy brzegach korytarza. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43436
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43436
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43434
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43434
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43436
+Name G³owne skrzy¿owanie korytarzy~
+Descr Znajdujesz siê w samym centrum krasnoludzkiej kopalni. W tym miejscu
+krzy¿uj± siê dwa najwiêksze korytarze. To miejscu wygl±da jak niewielka
+grota, z której wychodz± cztery korytarze, rozmieszczone prawie identycznie,
+jak kierunki na tarczy kompasu. Wszêdzie panuje ³ad i porz±dek, a górnicy,
+których jest tutaj naprawdê ogromna liczba, maszeruj± w zwartych szykach.
+Wózki, które przyje¿d¿aj± s± wype³nione po brzegi surowcami, tylko te
+nadje¿d¿aj±ce z zachodu s± puste. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43439
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43439
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43441
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43441
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43435
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43435
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43437
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43437
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43437
+Name G³owny korytarz~
+Descr Stoisz w g³ównym korytarzu tej wielkiej kopalni, w której pracuje wiele
+krasnoludzkich osobników. S± oni ¶wietnie zorganizowani i zdyscyplinowani,
+nie widaæ ¿adnego wa³êsaj±cego siê górnika, wszyscy id± w zwartych
+szeregach, pchaj±c przed sob± wózek. Korytarz jest bardzo szeroki i wysoki,
+bez w±tpienia jest to najwiêkszy korytarz jaki mo¿na ujrzeæ w tej kopalni.
+Na wschodzie widzisz jak±¶ wielk± grotê z du¿± liczb± pracowników. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43436
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43436
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43438
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43438
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43438
+Name G³owny korytarz~
+Descr Dooko³a widzisz krasnoludzkich górników pchaj±cych raz pe³ne, raz puste
+wózki po szynach. Pe³ne wózki przywo¿one s± ze wschodu, a puste za¶ z
+zachodu. Korytarz w którym stoisz jest bardzo szeroki i wysoki jak na
+standardy tych niewielkich osobników. Korytarz jest czysty i schludny, co
+dobrze ¶wiadczy o pracownikach tej kopalni. W powietrzu unosi siê zapach
+¶wie¿o wydobytych surowców i spracowanych górników. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43437
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43437
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43419
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43419
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43439
+Name Pó³nocny korytarz~
+Descr Znajdujesz siê w jednym z korytarzy które wychodzi³y z tej wielkiej groty
+na po³udniu. Wygl±da on na do¶æ stary, lecz jak widaæ po obecno¶ci górników,
+nadal u¿ywany. Na ¶cianach nie zosta³o ju¿ du¿o surowca, praktycznie w
+ogóle, aktualnie korytarz ten s³u¿y do przenoszenia surowca z pó³nocy, do
+wyj¶cia z kopalni. Jest tutaj do¶æ wilgotno i czuæ ten nieprzyjemny zapach,
+który pozostawiaj± po sobie spoceni górnicy. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43440
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43440
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43436
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43436
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43440
+Name Koniec pó³nocnego korytarza~
+Descr Na pó³nocy dostrzegasz drewnian± bramê, a w tym miejscu tory, po których
+je¿d¿± wózki górnicze siê koñcz±. Tutaj odbywa siê za³adunek surowców
+przyniesionych przez górników-tragarzy z pomniejszych szybów. Najwiêkszy z
+nich prowadzi na pó³nocny-zachód i wygl±da ju¿ na bardzo stary, lecz mimo to
+górnicy-tragarze wynosz± z niego nieustannie du¿e ilo¶ci cennego surowca,
+jakim jest srebro, rzadziej z³oto. Krasnoludy dziêki tej kopalni musz± byæ
+naprawdê bogaci, ciekawe co oni robi± z tymi surowcami! 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43463
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43463
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43439
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43439
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43451
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43451
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43441
+Name Wschodni korytarz~
+Descr Jeste¶ we wschodnim korytarzu tej¿e kopalni. Trwaj± tu prace nad
+przenoszeniem surowców z pobliskich chodników na zachód, w kierunku wyj¶cia.
+Jeste¶ ju¿ przyzwyczajony do widoku górników maszeruj±cych w zorganizowanych
+grupach i pchaj±cych te swoje wózki z surowcami. Masz wra¿enie, ¿e korytarz
+zaczyna lekko nachylaæ siê w dó³, stró¿ki wody p³yn±cej po brzegach
+korytarza s± coraz wiêksze, lecz nadal p³yn± w wyznaczonych dla nich
+korytach. Gdzieniegdzie w ¶cianach dostrzegasz b³yszcz±ce kawa³ki miedzi. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43442
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43442
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43436
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43436
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43442
+Name Wschodni korytarz~
+Descr Daleko na wschodzie dostrzegasz wiêksz± grupê górników. Zajmuj± siê oni
+najprawdopodobniej za³adowywaniem surowca do wózków, które nastêpnie zostan±
+przewiezione po szynach na zachód, gdzie jest punkt zbiorczy surowców. Ca³y
+czas nie mo¿esz wyj¶æ z podziwu obserwuj±c tak wspaniale zaplanowan± pracê.
+Szyb nadal jest prosty, podparcia stropu wygl±daj± solidnie, obite s±
+metalem, prawdopodobnie mirthilem, ¿eby wykluczyæ mo¿liwo¶æ wypadku. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43443
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43443
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43441
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43441
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43443
+Name Koniec korytarza~
+Descr Zajêciem wiêkszo¶ci obecnych tutaj górników jest za³adunek surowca do
+wózka, pozostali górnicy zajmuj± siê przynoszeniem surowca z chodników
+wydobywczych, lub transportowaniem pe³nych wózków w kierunku punktu
+zbiorczego, który le¿y daleko na zachodzie. Szyny które do tej pory ci±gnê³y
+siê wzd³u¿ korytarza tutaj siê koñcz±, lecz stró¿ki wody p³yn± dalej,
+wiêkszo¶æ z nich sp³ywa do pó³nocnego chodnika, poniewa¿ jest on najbardziej
+pochylony w dó³.
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43444
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43444
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43442
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43442
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43444
+Name Pocz±tek chodnika~
+Descr Znajdujesz siê w wej¶ciu do nowego chodnika wydobywczego. Drewno
+podpieraj±ce strop jest jeszcze jasne i pachnie lasemi. Nie widaæ nawet
+¶ladów zgnilizny, mimo i¿ po pod³odze i po scianach p³yn± stru¿ki wody.
+Chodnik schodzi pod lekkim k±tem w dó³. Górnicy przez ca³y czas wynosz±
+stamt±d mithril. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43445
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43445
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43443
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43443
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43445
+Name Chodnik wydobywczy~
+Descr Jest to nowy szyb górniczy. Na ¶cianach widzisz du¿e z³o¿a mithrilu,
+które to górnicy zawziêcie wykopuj± swoimi kilofami. Nastêpnie surowiec
+przenoszony jest przez górników-tragarzy do punktu za³adunku, sk±d trafia on
+wózkami do wyj¶cia kopalni. Krasnoludy na pewno zarabiaj± na tym krocie.
+Szyb, który prowadzi dalej na pó³noc, opada coraz bardziej w dó³. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43446
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43446
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43444
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43444
+Resources 0 35 50 1 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43446
+Name Chodnik wydobywczy~
+Descr Znajdujesz siê w niedawno wykopanym chodniku. Panuje tutaj wielkie
+poruszenie. Jedni górnicy wydobywaj± mithril, a inni go wynosz± w górê. Na
+zachodzie widzisz w±sk± szczelinê. Wygl±da jak pêkniêcie po jakim¶ wiêkszym
+wstrz±sie, bez problemu jeste¶ w stanie siê przez ni± przecisn±æ. W
+powietrzu wyczuwasz coraz wiêksz± wilgoæ. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43447
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43447
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43445
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43445
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43447
+Name Chodnik wydobywczy~
+Descr Tutaj dostrzegasz jeszcze wiêcej pracuj±cych górników oraz jeszcze wiêcej
+mithrilowych plam na ¶cianach. Deski podpieraj±ce sufit maj± trochê
+ciemniejszy kolor, poniewa¿ ze stropu kapie woda. Albo na powierzchni pada
+deszcz, albo nad szybem jest jakie¶ podziemne ¼ród³o. Po ¶cianach sp³ywaj±
+cienkie stró¿ki, które na ziemi ³±cz± siê w wiêksze i sp³ywaj± razem z wod±
+p³yn±c± z po³udnia. Nie ma ju¿ tutaj specjalnie wy¿³obionych w tym celu
+zag³êbieñ, poniewa¿ jest ju¿ tej wody za du¿o. Dostrzegasz tutaj tyko kilku
+najbardziej wytrwa³ych pracowników kopalni, którzy wydobywaj± wszechobecny
+mithril. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43448
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43448
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43446
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43446
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43448
+Name Chodnik wydobywczy~
+Descr Pod³oga pod twoimi stopami wygl±da ju¿ jak p³ytki, wartki strumieñ, który
+siêga ci do kostek. Drewno podpieraj±ce strop i ¶ciany jest prawie czarne od
+wilgoci, mimo i¿ wcale nie jest stare. Nie dostrzegasz ju¿ tutaj ¿adnego
+pracuj±cego górnika, bo ¿aden z nich nie by³by w stanie pracowaæ w tak
+trudnych warunkach. Na pó³nocy jest spory spadek, a tuz za nim dostrzegasz
+podziemie jezioro, od którego bije dziwne ¶wiat³o, dziwne poniewa¿ wszêdzie
+dooko³a panuje mrok. 
+~
+FlagsExt 0
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43449
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43449
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43447
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43447
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43449
+Name Koniec chodnika~
+Descr W tym miejscu chodnik wydobywczy siê koñczy, woda p³yn±ca po pod³odze
+wygl±da ju¿ jak wcale niema³y strumieñ i wpada do po³o¿onego ni¿ej
+podziemnego jeziora. Tu¿ obok siebie widzisz zej¶cie do niego. Znajduje siê
+ono w wielkiej, jasnej grocie. Czujesz siê znakomicie w tym pe³nym ¶wie¿ego
+i rze¶kiego powietrza korytarzu, po d³ugiej wêdrówce po ¶mierdz±cych i
+dusznych korytarzach kopalni. 
+~
+FlagsExt 0|C
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43448
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43448
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43450
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43450
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43450
+Name Grota z {Bpodziemnym jeziorem{X~
+Descr Jeste¶ w olbrzymiej grocie, w której znajduje siê jezioro. Z dna jeziora
+bije tajemnicze ¶wiat³o, przy którym mithril na ¶cianach przepiêknie l¶ni
+odbijaj±c owe ¶wiat³o. Ca³e to miejsce wydaje siê byæ magiczne i powoduje u
+Ciebie dziwne odczucie lekko¶ci i senno¶ci. Mo¿e to jest pu³apka? Mo¿e kto¶
+chce u¶piæ twoj± czujno¶æ i zabiæ ciebie w tym miejscu. Ale zdajesz sobie
+sprawê, ¿e by³oby to niemo¿liwe, od tego miejsca emanuje naprawdê dobra
+aura, ¿adne si³y z³a nie mog³yby wej¶æ do tego miejsca. Mimo i¿ znajdujesz
+siê g³êboko pod ziemi± czujesz delikatny powiew ¶wie¿ego, wilgotnego
+powietrza, co jeszcze bardziej rozpromienia twoj± twarz. Czujesz siê w tym
+miejscu po prostu bezpiecznie. Miejscami w ¶cianach groty udaje ci siê
+dostrzec jakie¶ b³yszcz±ce kawa³ki kamieni i miedzi. 
+~
+FlagsExt 0|BCEFHV
+Sector 15
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43449
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43449
+Heal 110
+Roomprog random 43406 5~
+Resources 0 35 50 10 1 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43451
+Name W±ski korytarz~
+Descr Wokó³ siebie widzisz górników-tragarzy, którzy biegaj± z pojemnikami
+pe³nymi z³ota lub srebra na zachód. Korytarz ten jest bardzo w±ski, przy
+panuj±cym tutaj ruchu przemieszczanie sprawia ci trud. Wyra¼nie czuæ smród
+unosz±cy siê od pracuj±cych górników. Ten korytarz ma ju¿ swoje lata, co
+mo¿na bez problemu poznaæ po kolorze belek podpieraj±cych strop. W rogach
+dostrzegasz ¶lady pajêczyn oraz jaja robaków, które zapewne zamieszkuj±
+dalsze czê¶ci tego korytarza. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43440
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43440
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43452
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43452
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43452
+Name W±ski korytarz~
+Descr Znajdujesz siê wewn±trz bardzo w±skiego korytarza. W zwi±zku z
+szeroko¶ci± korytarza oraz liczb± transportuj±cych surowiec górników jest
+tutaj ciasno i z trudem poruszasz siê omijaj±c ruchliwe krasnoludy. Korytarz
+nie jest na pewno ¶wie¿y, na suficie dostrzegasz pajêczyny, a na pod³odze
+gniazda paskudnych robali. Na ¶cianach widaæ znikome ¶lady z³ota, lecz
+widz±c ilo¶æ bry³ek przynoszonych z zachodu przez tragarzy, wnioskujesz, i¿
+krasnoludy musia³y znale¼æ wiêksz± ¿y³ê tego kruszcu na zachodzie. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43451
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43451
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43453
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43453
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43453
+Name Koniec korytarza~
+Descr W tym miejscu korytarz siê rozwidla na dwa mniejsze szyby wydobywcze. Z
+pó³nocnego, który jest znacznie szerszy od po³udniowego, górnicy przynosz±
+z³oto, z po³udniowego za¶ - srebro. Surowca jest bardzo du¿o, wydaje siê, i¿
+górnicy nie nad±¿aj± przynosiæ surowca w tempem jego wydobywania. Na
+zachodniej ¶cianie dostrzegasz wielk± pajêczynê, o rzadko spotykanym
+kszta³cie. Nie jest ona zamieszkana przez ¿adnego wielkiego paj±ka, a je¶li
+nawet by³a, to zosta³ on ju¿ dawno st±d przepêdzony, a pajêczyna zosta³a ze
+wzglêdu na jej ciekawy wygl±d. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43462
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43462
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43452
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43452
+Roomprog reset 43409 100~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43454
+Name Zej¶cie do kopalni~
+Descr Powoli zag³êbiasz siê w g³±b ziemi. Szyb nie wydaje sie g³êboki, ale
+szybko okazuje siê, ¿e to tylko z³udzienie. Po kilku krokach ¶wiat³o
+s³onecznie przestaje dochodzic do szybu. Jedynym ¼ródlem ¶wiat³a pozostaj±
+wisz±ce na ¶cianach pochodnie. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43455
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43455
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27556
+ExitExtEnd
+Exit 4
+~
+~
+0 0 27556
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43455
+Name Zej¶æie do kopalni~
+Descr Idziesz dalej uwa¿nie wypatruj±c kolejnej odnogi korytarza. Tunele s±
+bardzo w±skie, zbudowanie specjalnie dla krasnoludow. Po kilku minutach
+ponownie natrafiasz na nagly spadek chodnika. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43454
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43454
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43456
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43456
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43456
+Name Zej¶cie do kopalni~
+Descr Chodnik ci±gnie siê w nieskonczono¶æ. Ska³y s± zimne i nieprzyjemne.
+Dookola czuæ wszechogarniaj±c± wilgoæ i duszno¶æ. Warunki niezbyt przyjazne
+dla ¿yjacych ogranizmow. Dlatego tak niewiele z nich zamieszkuje na stale
+podziemia. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43457
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43457
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43455
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43455
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43457
+Name Zej¶cie do kopalni~
+Descr Na szcze¶cie twoj trud nie poszedl na marne, a i obawy by³y z³udne.
+Kopalnia nie jest bynajmniej opuszczona, panuje tu nawet spory ruch. Co
+chwile mijasz grupki górnikow ca³ych usmarowanych na czarno. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43456
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43456
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43458
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43458
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43458
+Name Podziemna grota~
+Descr Widz±c to wspaniale miejsce a¿ zapar³o ci dech w piersiach. Jest to jedna
+z tych naturalnych podziemnych grot, które s± wykorzystywane w kopalniach
+krasnoludów jako miejsca prze³adunkowe wydobywanego surowca. Nawet w tej
+chwili widzisz tu spory t³umek krasnoludów ³adujacych pok³ady rudy srebra.
+Taak... Twoj wzrok ciê nie myli. Widzisz st±d ca³y wóz rudy srebra. Kiedy
+wreszcie odrywasz oczy od wozu, widzisz kilkanascie mniejszych chodnikow
+prowadzacych w rozne strony. Dwa najwieksze prowadza na zachód i po³udnie. 
+~
+FlagsExt 0|H
+Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43417
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43417
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43459
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43459
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43457
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43457
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43459
+Name Chodnik~
+Descr Pod±¿asz d³ugim chodnikiem, ledwo rozpoznaj±c czy korytarz ci±gnie siê
+dalej czy to ju¿ koniec przej¶cia. Co chwila mijaja ciê zapoceni, ¶mierdz±cy
+górnicy lub zamêczone konie, zaprzêgniete do wózków pe³ych wêgla. Zaczynasz
+przesi±kaæ tym samym zapachem. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43460
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43460
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43458
+ExitExtEnd
+Exit 1
+~
+~
+0 0 43458
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43460
+Name Rozga³êzienie chodnika~
+Descr Co chwila mijaj± ciê zapoceni, ¶mierdz±cy górnicy lub zamêczone konie,
+zaprzêgniête do wózków pe³nych wêgla. W tym miejscu szyb siê rozga³êzia.
+Widzisz trzy drogi, jedna z nich, prowadz±ca na zachód, wygl±da na
+nieu¿ywany ju¿ korytarz. Daleko na pó³nocy widzisz koniec szybu, droga na
+po³udnie prowadzi do g³ównego szybu. 
+~
+FlagsExt 0|H
+Sector 15
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43400
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43400
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43459
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43459
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43401
+ExitExtEnd
+Exit 3
+~
+~
+0 0 43401
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43461
+Name Ma³y korytarz~
+Descr W tym miejscu korytarz siê koñczy. Praktycznie nie dostrzegasz ju¿ wêgla
+na ¶cianach, a co za tym idzie i ruch w tym miejscu nie jest a¿ tak
+intensywny. Na po³udniu jest sterta zawalonych g³azów, a po¶ród nich
+dostrzegasz ca³kiem niema³± szczelinê, w któr± da³by¶ radê siê wcisn±æ. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43423
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43423
+Roomprog reset 43407 100~
+Roomprog input 27577 enter~
+Roomprog input 27577 enter szczelina~
+Roomprog input 27577 wejd¼ w szczelinê~
+Roomprog input 27577 wejd¼ do szczeliny~
+Roomprog input 27577 wci¶nij~
+Roomprog input 27577 wci¶nij~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43462
+Name Szyb wydobywczy~
+Descr Jest to ca³kiem spory szyb wydobywczy, w którym krasnoludzcy górnicy
+wydobywaj± z³oto. Tego surowca jest pe³no na ¶cianach. W tym miejscu jest
+chyba najwiêksza ¿y³a z³ota w tej kopalni. Gdyby tylko mieæ kilof i potrafiæ
+siê nim pos³ugiwaæ... No i oczywi¶cie, gdyby krasnoludy ci na to pozwoli³y.
+Ale raczej jest to niemo¿liwe. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43464
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43464
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43453
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43453
+Roomprog reset 43410 100~
+Resources 0 35 50 0 0 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43463
+Name {yPrzed drewnian± bram±{x~
+Descr Stoisz przed drewnian± bram±, która oddziela pozosta³± czê¶æ kopalni.
+Wygl±da na solidn±, wiêc prawdopodobnie jej zadaniem jest strze¿enie
+górników pracuj±cych w tej czê¶ci od niebezpiecznych stworów. W wielkiej
+bramie s± ma³e drzwi, wystarczaj±co du¿e, aby wyprostowany krasnoludzki
+górnik móg³ przez nie przej¶æ, lecz elf, czy cz³owiek móg³by mieæ z tym
+k³opoty. 
+~
+FlagsExt 0|H
+Sector 14
+Extra ma³e~
+Te ma³e drzwi maj± oko³o pó³tora metra wysoko¶ci, za nimi mo¿e byæ
+wszystko... Z³oto, rzeka, potwory, a mo¿e smok? Nie ma innego sposobu na
+sprawdzenie tego, jak tylko przez nie przej¶æ... Tylko jest ma³y problem.
+Drzwi te s± zamkniête na klucz, który zapewne posiada... No ten co go
+posiada. 
+~
+Extra drzwi~
+Te ma³e drzwi maj± oko³o pó³tora metra wysoko¶ci, za nimi mo¿e byæ
+wszystko... Z³oto, rzeka, potwory, a mo¿e smok? Nie ma innego sposobu na
+sprawdzenie tego, jak tylko przez nie przej¶æ... Tylko jest ma³y problem.
+Drzwi te s± zamkniête na klucz, który zapewne posiada... No ten co go
+posiada. 
+~
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 43428
+ExitExtToVnum 43469
+ExitExtEnd
+Exit 0
+~
+VName Brama~
+~
+7 43428 43469
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43440
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43440
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43464
+Name Szyb wydobywczy~
+Descr Znajdujesz siê w do¶æ starym szybie wydobywczym, lecz mimo jego wieku na
+¶cianach dostrzegasz du¿e z³o¿a z³ota, z których górnicy wydobywaj± ten
+cenny kruszec. Zastanawiasz siê ile ten ca³y surowiec z kopalni mo¿e byæ
+wart... Miliony, setki milionów! Ale wydobywanie go to ciê¿ka praca. 
+~
+FlagsExt 0
+Sector 47
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43462
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43462
+Roomprog reset 43410 100~
+Resources 0 35 50 10 1 0 0 0 
+Capacity 14
+Roomend
+#Vnum 43465
+Name Zasypany szyb~
+Descr Dotar³e¶ do dna zasypanego szybu. Ca³e dno pokryte jest starym
+zawaliskiem, które musia³o osun±æ siê na dno ju¿ dawno temu. Prawdopodobnie
+osuwisko powsta³o w czasach kiedy krasnoludzcy górnicy aktywnie korzystali z
+tych czê¶ci kopalni. W pó³mroku jaki tu panuje dostrzegasz cienie na
+pó³nocnej ¶cianie szybu, które mog± ¶wiadczysz o ma³ym prawie nie
+zauwa¿alnym przej¶ciu w tym kierunku. Mo¿e wystarczy siê {Wprzecisn±æ{x by móc
+kontynuowaæ podró¿? 
+~
+FlagsExt 0
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtVName przecisnij~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 43466
+ExitExtEnd
+Exit 0
+~
+VName przecisnij~
+~
+16 0 43466
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43414
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43414
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43466
+Name Szyb~
+Descr Mimo, ¿e po³udniowy szyb uleg³ niemal ca³kowitemu zawaleniu to
+krasnoludzcy górnicy po raz kolejny popisali siê swoimi umiejêtno¶ciami. W
+poszukiwaniu wiêkszej ilo¶ci bogact wydr±¿yli równoleg³y szyb, dziêki
+któremu mo¿na kontynuowaæ podró¿ w g³±b ziemi. Na po³udniu widaæ szczelinê
+przez któr± mo¿na próbowaæ siê {Wprzecisn±æ{x. Szyb biegn±cy w dó³ zosta³
+wyposa¿ony w kamienne stopnie, u³atwiaj±ce wej¶cie i zej¶cie. 
+~
+FlagsExt 0|C
+Sector 45
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName przecisnij~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 43465
+ExitExtEnd
+Exit 2
+~
+VName przecisnij~
+~
+16 0 43465
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43467
+ExitExtEnd
+Exit 5
+~
+~
+0 0 43467
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43467
+Name Na dnie szybu~
+Descr Dotar³e¶ chyba do kresu tego morderczego komina. Szyb w tym miejscu
+przechodzi w ³agodny kopalniany korytarz, prowadz±cy prosto na pó³noc. O ile
+to pó³noc... Na tej g³êboko¶ci ³atwo pomyliæ kierunek. Dobrym pomys³em mo¿e
+okazaæ siê odpoczynek przed kontynuowaniem podró¿y. Zarówno droga w górê jak
+i alternatywa wymagaj± sporego wysi³ku. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43468
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43468
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43466
+ExitExtEnd
+Exit 4
+~
+~
+0 0 43466
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43468
+Name Ch³odny i mroczny korytarz~
+Descr Znajdujesz siê na pó³noc od ostatniego znanego ci szybu. Przed tob±
+rozpo¶ciera siê szeroki na blisko dziesiêæ metrów górniczy korytarz, nie
+jeste¶ w stanie odgadn±æ po co górnicy wy¿³obili tak szerokie przej¶cie.
+Jedyne rozs±dne przypuszczenie to to, ¿e mo¿liwe i¿ górnicy traktowali ten
+korytarz jako swego rodzaju magazyn, wkoñcu ciê¿ko by im by³o codziennie
+wywoziæ urobek na powierzchniê. 
+ 
+~
+FlagsExt 0|C
+Sector 45
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50900
+ExitExtEnd
+Exit 0
+~
+~
+0 0 50900
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43467
+ExitExtEnd
+Exit 2
+~
+~
+0 0 43467
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 43469
+Name {yZa drewnian± bram±{x~
+Descr Znajdujesz siê za drewnian± bram±, która oddziela t± czê¶æ krasnoludzkich
+kopalni od jej po³udniowej czê¶ci. Prowadzone tu by³y prace remontowe, o
+czym ¶wiadcz± porozrzucane narzêdzia i pomoce budowlane. Najwidoczniej
+krasnoludzi w po¶piechu omijali t± czê¶æ kopalni. 
+~
+FlagsExt 0
+Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 43412
+ExitExtEnd
+Exit 0
+~
+~
+0 0 43412
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName Brama~
+ExitExtLiczba 1
+ExitExtInfo 7
+ExitExtKey 43428
+ExitExtToVnum 43463
+ExitExtEnd
+Exit 2
+~
+VName Brama~
+~
+7 43428 43463
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 0
+
+
+
+#SHOPS
+0
+
+
+
+#BANKS
+0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 100 43401 8 43403 2
+M 100 43401 8 43403 2
+M 100 43401 8 43404 3
+M 100 43401 8 43404 3
+O 100 43406 0 43405
+M 100 43402 1 43405 1
+M 100 43408 3 43413 1
+M 100 43414 5 43422 1
+M 100 43414 5 43424 1
+M 100 43405 4 43426 2
+M 100 43405 4 43426 2
+M 100 43404 1 43426 1
+O 100 43405 0 43433
+M 100 43411 3 43433 1
+O 100 43405 0 43440
+M 100 43411 3 43440 1
+M 100 43411 3 43443 1
+O 100 43405 0 43443
+M 100 43400 5 43444 1
+M 100 43400 5 43445 1
+M 100 43400 5 43446 1
+M 100 43400 5 43447 1
+M 100 43400 5 43448 1
+O 100 43404 0 43450
+M 100 43405 4 43451 1
+M 100 43401 8 43451 1
+M 100 43416 3 43453 1
+M 100 43415 1 43458 1
+M 100 43414 5 43461 1
+M 100 43413 1 43463 1
+M 100 43416 3 43464 1
+M 100 43408 3 43465 1
+M 100 43408 3 43467 1
+O 100 43426 0 43469
+S
+
+
+
+#MOBPROGSNEW
+#43400
+Ubranko dla tego pana
+~
+mob oload 3275
+wield oskard
+mob equip self 3018
+mob equip self 27563
+mob equip self 3045
+mob equip self 3374
+mob equip self 3010
+~
+#43401
+Wygrzebywanie bry³ek - Górnicy od mithrilu
+~
+if roomhasflag wykopal
+   break
+endif
+$_wykopanych = char_flag_value $i "reg_wykopanych"
+if numeval $_wykopanych > 10
+   $_home = char_flag_value $i "reg_home"
+   echo Krasnoludzki górnik patrzy na zebrane kawa³ki surowca.
+   if rand 80
+      minidelay 1
+      mob say Chyba pójdê to odnie¶æ...
+   endif
+   mob walk 43443
+   break
+endif
+if rand 20
+   if rand 98
+      mob echo Górnik po raz kolejny uderza mocno w ska³ê, gdy nagla ska³a kruszy siê, a za ni± b³yszczy czysty adamentyt! Górnik zawziêcie wyci±ga go ze ska³y.
+      mob oload 19039
+      mob modflag $i mod "reg_wykopanych"  +8
+   else
+      if rand 90
+         mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y bry³kê mithrilu!
+         mob oload 19028
+         mob modflag $i mod "reg_wykopanych"  +6
+      else
+         if rand 70
+            mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê mithrilu, która kruszy siê na ma³e kawa³eczki.
+            mob oload 43410
+            mob oload 43410
+            mob modflag $i mod "reg_wykopanych"  +5
+         else
+            mob oload 43410
+            if rand 50
+               mob echo Krasnoludzki górnik wygrzebuje kawa³eczki mithrilu.
+            else
+               mob echo Widzisz jak krasnoludzki górnik chce wyd³ubaæ du¿y kawa³ek mithrilu, lecz tylko od³amki zostaj± mu w d³oniach.
+            endif
+            mob modflag $i mod "reg_wykopanych"  +2
+         endif
+      endif
+   endif
+else
+   mob echo Widzisz jak krasnoludzki górnik mruczy co¶ pod nosem i wykonuje silny zamach.
+   mob modflag $i mod "reg_wykopanych"  +1
+endif
+mob setflag room wykopal 8
+~
+#43402
+Wygrzebywanie bry³ek - Górnicy od z³ota i srebra
+~
+if roomhasflag wykopal
+   break
+endif
+$_wykopanych = char_flag_value $i "reg_wykopanych"
+if numeval $_wykopanych > 10
+   mob echo Krasnoludzki górnik patrzy na zebrane kawa³ki surowca.
+   if rand 80
+      minidelay 1
+      mob say Chyba pójdê to odnie¶æ...
+   endif
+   mob walk 43440
+   break
+endif
+if rand 10
+   $_rodzaj = room_flag_value (room_by_char $i) "reg_rodzaj"
+   if numeval $_rodzaj == 2
+   if rand 98
+      mob echo Górnik po raz kolejny uderza mocno w ska³ê, ska³a kruszy siê, a za ni± b³yszczy czysty adamentyt! Górnik zawziêcie wyci±ga go ze ska³y.
+      mob oload 19039
+      mob modflag $i mod "reg_wykopanych"  +8
+   else
+      if rand 80
+            mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y bry³kê srebra!
+            mob oload 19027
+            mob modflag $i mod "reg_wykopanych"  +6
+      else
+      if rand 70
+               mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê srebra, która kruszy siê na ma³e kawa³eczki.
+               mob oload 43416
+               mob oload 43416
+               mob modflag $i mod "reg_wykopanych"  +4
+      else
+               mob oload 43416
+               if rand 50
+                  mob echo Krasnoludzki górnik wygrzebuje kawa³eczki srebra.
+               else
+                  mob echo Widzisz jak krasnoludzki górnik chce wyd³ubaæ du¿y kawa³ek srebra, lecz tylko od³amki zostaj± mu w d³oniach.
+               endif               
+               mob modflag $i mod "reg_wykopanych"  +2
+      endif
+      endif
+   endif
+   endif
+   if numeval $_rodzaj == 1
+   if rand 98
+      mob echo Górnik po raz kolejny uderza mocno w ska³ê, ska³a kruszy siê, a za ni± b³yszczy czysty adamentyt! Górnik zawziêcie wyci±ga go ze ska³y.
+      mob oload 19039
+      mob modflag $i mod "reg_wykopanych"  +8
+   else
+      if rand 80
+            mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y bry³kê z³ota!
+            mob oload 19026
+            mob modflag $i mod "reg_wykopanych"  +6
+      else
+      if rand 70
+               mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê z³ota, która kruszy siê na ma³e kawa³eczki.
+               mob oload 43417
+               mob oload 43417
+               mob modflag $i mod "reg_wykopanych"  +4
+      else
+         mob oload 43417
+               if rand 50
+                  mob echo Krasnoludzki górnik wygrzebuje kawa³eczki z³ota.
+               else
+                  mob echo Widzisz jak krasnoludzki górnik chce wyd³ubaæ du¿y kawa³ek z³ota, lecz tylko od³amki zostaj± mu w d³oniach.
+               endif  
+         mob modflag $i mod "reg_wykopanych"  +2
+      endif
+      endif
+   endif   
+   endif
+else
+   mob echo Widzisz jak krasnoludzki górnik mruczy co¶ pod nosem i wykonuje silny zamach.
+   mob modflag $i mod "reg_wykopanych"  +1
+endif
+mob setflag room wykopal 8
+~
+#43403
+Wygrzebywanie bry³ek - Górnicy od srebra/mithrilu oraz wêgla
+~
+if roomhasflag wykopal
+   break
+endif
+$_wykopanych = char_flag_value $i "reg_wykopanych"
+if numeval $_wykopanych > 10
+   mob echo Krasnoludzki górnik patrzy na zebrane kawa³ki surowca.
+   if rand 80
+      minidelay 1
+      mob say Chyba pójdê to odnie¶æ...
+   endif
+   mob walk 43433
+   break
+endif
+if rand 10
+$_rodzaj = room_flag_value (room_by_char $i) "reg_rodzaj"
+   if numeval $_rodzaj == 2
+   if rand 99
+      mob echo Górnik po raz kolejny uderza mocno w ska³ê, ska³a kruszy siê, a za ni± b³yszczy czysty adamentyt! Górnik zawziêcie wyci±ga go ze ska³y.
+      mob oload 19039
+      mob modflag $i mod "reg_wykopanych"  +8
+   else
+      if rand 80
+            if rand 50
+               mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y bry³kê mithrilu!
+               mob oload 19028
+               mob modflag $i mod "reg_wykopanych"  +6
+            else
+               mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y bry³kê srebra!
+               mob oload 19027
+               mob modflag $i mod "reg_wykopanych"  +6
+            endif
+      else
+      if rand 70
+               if rand 50
+                  mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê mithrilu, która kruszy siê na ma³e kawa³eczki.
+                  mob oload 43410
+                  mob oload 43410
+                  mob modflag $i mod "reg_wykopanych"  +4
+               else
+                  mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê srebra, która kruszy siê na ma³e kawa³eczki.
+                  mob oload 43416
+                  mob oload 43416
+                  mob modflag $i mod "reg_wykopanych"  +4
+               endif
+      else
+         if rand 50
+                  mob oload 43410
+                  if rand 50
+                     mob echo Krasnoludzki górnik wygrzebuje kawa³eczki mithrilu.
+                  else
+                     mob echo Widzisz jak krasnoludzki górnik chce wyd³ubaæ du¿y kawa³ek mithrilu, lecz tylko od³amki zostaj± mu w d³oniach.
+                  endif
+               else
+                  mob oload 43416
+                  if rand 50
+                     mob echo Krasnoludzki górnik wygrzebuje kawa³eczki srebra.
+                  else
+                     mob echo Widzisz jak krasnoludzki górnik chce wyd³ubaæ du¿y kawa³ek srebra, lecz tylko od³amki zostaj± mu w d³oniach.
+                  endif               
+               endif
+               mob modflag $i mod "reg_wykopanych"  +2
+      endif
+      endif
+   endif
+   endif
+   if numeval $_rodzaj == 1
+   if rand 80
+      mob echo Górnik po raz kolejny uderza mocno w ska³ê, gdy nagla ska³a kruszy siê, dostrzegasz bry³ê rudy! Górnik zawziêcie wyci±ga j± ze ska³y.
+      mob oload 19040
+      mob modflag $i mod "reg_wykopanych"  +6
+   else
+      if rand 80
+            mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y du¿± bry³kê wêgla!
+            mob oload 19023
+            mob modflag $i mod "reg_wykopanych"  +4
+      else
+      if rand 50
+               mob echo Górnik wydobywca wygrzebuje bry³kê wêgla ze ¶ciany.
+               mob oload 19022
+               mob modflag $i mod "reg_wykopanych"  +3
+      else
+         mob oload 43419
+               mob echo Górnik próbuj±c wygrzebaæ bry³kê wêgla przypadkiem kruszy j± i wyci±ga tylko okruchy
+         mob modflag $i mod "reg_wykopanych"  +1
+      endif
+      endif
+   endif   
+   endif
+else
+   mob echo Widzisz jak krasnoludzki górnik mruczy co¶ pod nosem i wykonuje silny zamach.
+   mob modflag $i mod "reg_wykopanych"  +1
+endif
+mob setflag room wykopal 8
+~
+#43404
+Górnicy - srebro i mithril
+~
+if roomhasflag wykopal
+  break
+endif
+$_wykopanych = char_flag_value $i "reg_wykopanych"
+if numeval $_wykopanych > 15
+   $_home = char_flag_value $i "reg_home"
+   mob echo Krasnoludzki górnik patrzy na zebrane kawa³ki surowca.
+   if rand 60
+      mob say Chyba pójdê to odnie¶æ...
+   endif
+   minidelay 1
+   mob walk 43433
+   if numeval $_home == 43422
+      minidelay 16
+   else
+      minidelay 12
+   endif
+   put all woz
+   $_wozek = obj_in_room_by_name (room_by_char $i) "wozek"
+   if !hasflag $_wozek "reg_surowcow"
+      mob setflag $_wozek "reg_surowcow" 0
+   endif
+   mob modflag $_wozek mod "reg_surowcow" $_wykopanych
+   minidelay 2
+   mob walk $_home
+   mob setflag $i "reg_wykopanych" 0
+   break
+endif
+if rand 20
+   if rand 95
+      mob echo Górnik po raz kolejny uderza mocno w ska³ê, gdy nagla ska³a kruszy siê, a za ni± b³yszczy czysty adamentyt! Górnik zawziêcie wyci±ga go ze ska³y.
+      mob oload 19039
+      mob modflag $i mod "reg_wykopanych"  +8
+   else
+      if rand 60
+         if rand 25
+            mob echo Widzisz jak krasnoludzki górnik w pocie czo³a wykuwa ze ska³y bry³kê srebra!
+            mob oload 19027
+         else
+            mob echo Widzisz jak krasnoludzki zauwa¿a bry³kê mithrilu i zawziêcie j± wykuwa.
+            mob oload 19028
+         endif
+         mob modflag $i mod "reg_wykopanych"  +5
+      else
+         if rand 60
+            if rand 30
+               mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê srebra, która kruszy siê na ma³e kawa³eczki.
+                 mob oload 43416
+                    mob oload 43416
+                 else
+                    mob echo Górnik wydobywca bierze wielki zamach i trafia prosto w bry³ê mithrilu, która kruszy siê na ma³e kawa³eczki.
+                 mob oload 43410
+                    mob oload 43410            
+                 endif
+                 mob modflag $i mod "reg_wykopanych"  +5
+              else
+            mob oload 43416
+              if rand 50
+                    mob echo Krasnoludzki górnik wygrzebuje kawa³eczki srebra.
+                 else
+                    mob echo Widzisz jak krasnoludzki górnik chce wyd³ubaæ kawa³ek srebra, lecz tylko od³amki zostaj± mu w d³oniach.
+                 endif
+                 mob modflag $i mod "reg_wykopanych"  +2
+              endif
+      endif
+   endif
+else
+   mob echo Widzisz jak krasnoludzki górnik mruczy co¶ pod nosem i wykonuje silny zamach.
+   mob modflag $i mod "reg_wykopanych"  +1
+endif
+mob setflag room wykopal 5
+~
+#43407
+~
+~
+#43410
+Ubranko dla wydobywców
+~
+mob oload 3276
+hold kilof
+mob equip self 3018
+mob equip self 27563
+mob equip self 3045
+mob equip self 3374
+mob equip self 3010
+$_home = room_by_char $i
+mob setflag $i "reg_wykopanych" 0
+mob setflag $i "reg_home" $_home.vnum
+mob equip self 3050
+~
+#43411
+Ubranko tragarza
+~
+mob equip self 3018
+mob equip self 27563
+mob equip self 3010
+mob equip self 3066
+mob equip self 3374
+~
+#43412
+Ubranko dla nadzorcy kopaczy
+~
+mob equip self 3045
+mob equip self 3010
+mob equip self 3127
+mob equip self 3050
+mob equip self 3019
+~
+#43413
+Dozorca bierze broñ.
+~
+:poczatek
+if affected $i paralyze
+  delay 1
+  goto poczatek
+else
+  wield topor
+  mob setflag $i ma_bron 3
+  goto koniec
+endif
+:koniec
+~
+#43414
+Dozorca odk³ada broñ
+~
+if !hasflag $i ma_bron
+  remove topor
+endif
+~
+#43415
+"£adowanie" gratów do pajêczyny.
+~
+mob echo Wielki paj±k w ostatniej chwili rzuca siê do ucieczki i próbuje schowaæ 
+mob echo siê w swej pajêczynie, lecz zanim do niej dobiega wydaje z siebie
+mob echo przera¼liwy krzyk i wygina siê w nienaturalny sposób...
+mob echo Wielki paj±k nie ¿yje!!
+mob echo Wielki paj±k pada na ziemie... MARTWY.
+mob setflag room pajêczyna_pe³na -1
+~
+#43416
+Droga górnika do punktu zbiornego
+~
+$_pokoik = room_by_char $i
+if numeval $_pokoik.vnum > 43444
+  if numeval $_pokoik.vnum <= 43449
+    if rand 50
+      mob echo Patrzysz jak górnik bierze od wydobywców kawa³ki surowca.
+      minidelay 4
+      mob oload 43410
+      if rand 50
+        mob oload 43410
+      endif
+      if rand 75
+        mob oload 43410
+      endif
+      if rand 90
+        mob oload 19028
+      endif
+      open plecak
+      minidelay 2
+      put mith plec
+      minidelay 4
+      put mith plec
+      minidelay 4
+      put mith plec
+      minidelay 4
+      put mith plec
+      close plecak
+      minidelay 2
+      if rand 75
+        'Zaniose to do punktu zbiorczego.
+      endif
+      mob setflag $i mam_³adunek -1
+      mob walk 43458
+    else
+      if rand 50
+        mob echo M³odszy górnik szuka surowca gotowego do transportu, ale go nie znajduje.
+      else
+        mob echo Górnik-tragarz wierci siê i czeka na surowiec, który móg³by zabraæ do punktu zbiorczego.
+      endif
+    endif
+  endif
+endif
+~
+#43417
+Wyprawa po surowiec
+~
+$_pokoik = room_by_char $i
+if numeval $_pokoik.vnum == 43458
+  if !hasflag $i mam_³adunek
+    mob walk 43448
+    break
+  endif
+  mob echo Górnik gwi¿d¿e u¿ywaj±c dwóch palców.
+  minidelay 3
+  mob echo Spoceni górnicy przywo¿± wózek.
+  minidelay 1
+  open plecak
+  minidelay 1
+  get all plecak
+  minidelay 1
+  mob junk all.mith
+  mob echo Górnik wrzuca ca³y kruszec do wózka.
+  minidelay 3
+  close plecak
+  minidelay 1
+  mob echo Górnik gwi¿d¿e u¿ywaj±c dwóch palców.
+  mob removeflag $i mam_³adunek
+  minidelay 2
+  'Nied³ugo przyniosê kolejn± dostawê.
+  minidelay 1
+  mob echo Wózek odje¿d¿a do góry pchany przez górników.
+  if rand 75
+    mob walk 43445
+  else 
+    if rand 66
+      mob walk 43447
+    else
+      if rand 50
+        mob walk 43446
+      else
+        mob walk 43445
+      endif
+    endif
+  endif
+endif
+~
+#43418
+~
+$_pokoik = room_by_char $i
+call roomprog 43405 $_pokoik
+mob echo Wywo³a³em!
+~
+#43419
+Ubranko dla Stra¿nika bramy.
+~
+mob equip self 3145
+mob equip self 3016
+mob equip self 3029
+mob oload 43428
+if rand 50
+mob oload gem 4
+mob oload gem 3
+mob oload shield 3
+endif
+~
+#43420
+Powiadomienie o zamkniêtej bramie.
+~
+tell $n Brama na pó³noc jest zamkniêta! Jest tam zdecydowanie zbyt niebezpiecznie!
+~
+#43427
+~
+if sex $n == 0
+say Chrrrr, widzze, ¿...¿e ³adna pani przy..sz...przysz³a do karcz..my!
+emote przewraca siê o le¿±cy na ziemi kufel.
+else
+say Cz..czego tu szukasz przy..przyb³êdo?
+endif
+~
+#43428
+[MITHRIL] Górnik wyrzuca bry³ki do wózka
+~
+if !room $i == 43443
+   break
+else
+   $_wykopanych = char_flag_value $i "reg_wykopanych"
+   $_home = char_flag_value $i "reg_home"
+   $_wozek = obj_in_room_by_name (room_by_char $i) "wozek"
+   minidelay 1
+   put all wozek
+   if !hasflag $_wozek "reg_surowcow"
+      mob setflag $_wozek "reg_surowcow" 0
+   endif
+   mob modflag $_wozek mod "reg_surowcow" $_wykopanych
+   $_flaga = obj_flag_value $_wozek "reg_surowcow"
+   minidelay 2
+   if numeval $_flaga > 20 
+      mob echo Górnik gwi¿d¿e ¿eby górnicy podstawili nowy wózek.
+      minidelay 2
+   endif
+   mob setflag $i "reg_wykopanych" 0
+   mob walk $_home
+endif
+~
+#43429
+[WÊGIEL I SREBRO] Górnik wyrzuca bry³ki do wózka
+~
+if !room $i == 43433
+   break
+else
+   $_wykopanych = char_flag_value $i "reg_wykopanych"
+   $_home = char_flag_value $i "reg_home"
+   $_wozek = obj_in_room_by_name (room_by_char $i) "wozek"
+   minidelay 1
+   put all wozek
+   if !hasflag $_wozek "reg_surowcow"
+      mob setflag $_wozek "reg_surowcow" 0
+   endif
+   mob modflag $_wozek mod "reg_surowcow" $_wykopanych
+   $_flaga = obj_flag_value $_wozek "reg_surowcow"
+   minidelay 2
+   if numeval $_flaga > 20 
+      mob echo Górnik gwi¿d¿e ¿eby górnicy podstawili nowy wózek.
+      minidelay 2
+   endif
+   mob setflag $i "reg_wykopanych" 0
+   mob walk $_home
+endif
+~
+#43430
+[SREBRO I Z£OTO] Górnik wyrzuca bry³ki do wózka
+~
+if !room $i == 43440
+   break
+else
+   $_wykopanych = char_flag_value $i "reg_wykopanych"
+   $_home = char_flag_value $i "reg_home"
+   $_wozek = obj_in_room_by_name (room_by_char $i) "wozek"
+   minidelay 1
+   put all wozek
+   if !hasflag $_wozek "reg_surowcow"
+      mob setflag $_wozek "reg_surowcow" 0
+   endif
+   mob modflag $_wozek mod "reg_surowcow" $_wykopanych
+   $_flaga = obj_flag_value $_wozek "reg_surowcow"
+   minidelay 2
+   if numeval $_flaga > 20 
+      mob echo Górnik gwi¿d¿e ¿eby górnicy podstawili nowy wózek.
+      minidelay 2
+   endif
+   mob setflag $i "reg_wykopanych" 0
+   mob walk $_home
+endif
+~
+#43431
+Ubranko dla Dozorcy Kopalni
+~
+mob equip self 3128
+mob equip self 3016
+mob equip self 3029
+mob equip self 3094
+mob equip self 3045
+~
+#bonus_na_elfy
+~
+~
+#dozorca1
+Dozorca kopalni wita siê z przybyszem
+~
+if affected $i paralyze
+or affected $i blind
+or affected $i daze
+   break
+endif
+if hasflag $n kopkras_1
+   minidelay 1
+   say Witaj w naszej kopalni, $n!
+else
+   minidelay 1
+   sayto $n Witaj podró¿niku w krasnoludzkich kopalniach.
+endif
+~
+#misja_1
+Misja naprawienia kilofów.
+~
+if affected $i paralyze
+or affected $i blind
+break
+endif
+if level $n == 1
+   break
+endif
+if hasflag $n kopkras_1
+   minidelay 1
+   say Mi³o mi ciê znowu widzieæ, $n.
+else
+   minidelay 1
+   sayto $n Widzê, ¿e jeste¶ porz±dnym podró¿nikiem.
+   minidelay 1
+   sayto $n Ja nazywam siê Thurr i jestem dozorc± tej¿e kopalni.
+   sayto $n Mo¿e chcia³by¶ siê przys³u¿yæ naszej spo³eczno¶ci?
+   responsedelay 4 "tak" "nie"
+   if response 0
+      sayto $n Szkoda, ale jako¶ sobie poradzimy.
+   endif
+   if response 2
+      sayto $n Trudno, a wiêc bywaj podró¿niku.
+      zegnaj $n
+   endif
+   if response 1
+      sayto $n Bardzo mi mi³o, a wiêc zg³o¶ siê do którego¶ z moich pomocników.
+      sayto $n Znajdziesz ich przy wózkach z kruszcem.
+      mob setflag $n kopkras_1a -1
+   endif
+endif
+~
+#misja_1a
+Dozorca górników daje kilofy i wysy³a je do naprawy.
+~
+if hasflag $n kopkras_1b
+   minidelay 2
+   sayto $n I jak? Uda³o cie siê je naprawiæ? Je¶li tak to daj mi je.
+endif
+if hasflag $n kopkras_1a
+   minidelay 2
+   say Witaj, $nb, Thurr przekaza³ mi, ¿e siê tu pojawisz.
+   sayto $n Mam dla Ciebie zadanie, mamy tutaj du¿o zniszczonych kilofów.
+   sayto $n Lecz wszyscy górnicy zajêci siê robot±, wiêc nie ma ich kto naprawiæ.
+   minidelay 4
+   sayto $n Je¶li chcesz siê nam przydaæ, to we¼ te kilofy, napraw i przynie¶ spowrotem.
+   minidelay 2
+   mob echo Dozorca górników grzebie w g³êbokim worku i wyci±ga 3 zniszczone kilofy.
+   minidelay 2
+   mob oload 3275
+   mob oload 3275
+   mob oload 3275
+   give kilof $n
+   give kilof $n
+   give kilof $n
+   minidelay 2
+   sayto $n Tylko przynie¶ mi je w ci±gu 24 godzin!
+   mob removeflag $n kopkras_1a
+   mob setflag $n kopkras_1b 24
+   if hasflag $n "reg_oddal"
+      mob removeflag $n "reg_oddal"
+   endif
+endif
+~
+#opó¼nienie
+Zwalnianie gornika tragarza
+~
+mob echo WSZEDL!
+~
+#pajak_ludojad
+Jak paj±k zginie, pier¶cieñ ma siê za³adowaæ do cia³a
+~
+mob echo Paj±k ludojad wydaje z siebie ostatnie tchnienie.
+mob echo Paj±k ludojad... NIE ¯YJE!!!
+~
+#start
+Wprowadza potrzebne flagi przy ladowaniu sie moba
+~
+$_home = room_by_char $i
+mob setflag $i "reg_wykopanych" 0
+mob setflag $i "reg_home" $_home.vnum
+mob say Mam na sobie flagi
+~
+#test
+~
+$_room = room_by_vnum 43441
+if sector $_room "jaskinia"
+mob echo TAK!
+else
+mob echo NIE!
+endif
+~
+#test2
+~
+mob tell khannan Krok
+if room $i == 43434
+   mob tell khannan Dotarlem!
+   mob walk 43433
+endif
+~
+#test3
+~
+$_home = char_flag_value $i "reg_home"
+mob say Pochodzê z $_(home).
+mob say I tam wlasnie ide
+mob walk $_home
+$_czas = 2
+delay $_czas
+mob say Min±³ czas!
+~
+#wykonal_1a
+Gracz odda³ kilofy
+~
+if hasflag $n kopkras_1b
+   if !hasflag $n "reg_oddal"
+      mob setflag $n "reg_oddal" 0
+   endif
+   minidelay 1
+   mob echo Dozorca uwa¿nie ogl±da kilof.
+   if objstcondition $o == 100
+      minidelay 1
+      kiw
+      say Ten jest dobry.
+      mob modflag $n mod "reg_oddal"  +1
+      $_oddal = char_flag_value $n "reg_oddal"
+      if numeval $_oddal == 3
+         minidelay 2
+         sayto $n Wykonales swoj± robotê. Oto nagroda.
+         mob oload 19028
+         give bryl $n
+         if level $n < 5
+            mob reward $n exp 1500
+         else
+            if level $n < 10
+               mob reward $n exp 10000
+            else
+               if level $n < 20
+                  mob reward $n exp 50000
+               else
+                  mob reward $n exp 100000
+               endif
+            endif
+         endif
+         mob removeflag $n kopkras_1b
+         mob removeflag $n "reg_oddal"
+         mob setflag $n kopkras_1 -1
+      else
+         minidelay 1
+         $_max = 3
+         $_zostalo = int_sub $_max $_oddal
+         if numeval $_zostalo == 1
+            sayto $n Jeszcze jeden kilof.
+         endif
+         if numeval $_zostalo == 2
+            sayto $n Jeszcze dwa kilofy.
+         endif
+      endif
+   else
+      potrz
+      say Ten kilof nie jest naprawiony!
+      give kilof $n
+   endif
+endif
+~
+#0
+
+#OBJPROGSNEW
+#43400
+pier¶cieñ mrocznego elfa
+~
+~
+#43401
+~
+obj remove
+~
+#odjazd_wozka
+~
+if objflag $o "reg_surowcow" > 20
+   mob echo Dwóch górników pchaj±cych pusty wózek przybiega tutaj, zostawiaj± pusty wózek i zabieraj± pe³ny.
+   mob oload 43405 r
+   obj remove
+endif
+~
+#rozdzka
+~
+mob echoat $n Ró¿d¿ka wypala jasnym ¶wiat³em prosto w $i
+mob echoaround $n $n celuje ró¿d¿k± w przeciwnika, a z ró¿d¿ki wylatuje jasne ¶wiat³o i zabija $i.
+mob damage $t 5000 5000 1
+mob damage $t 5000 5000 1
+mob damage $t 5000 5000 1
+~
+#wozek
+~
+if mobhere 43411
+   if !hasflag $n "dozorca_ostrzegl"
+      mob force dozorca sayto $n Ani mi sie waz tego dotykac!
+      mob force dozorca sayto $n Drugi raz Ciê ostrzegaæ nie bêdê!
+      mob force dozorca mob setflag $n "dozorca_ostrzegl" 20
+   else
+      mob force dozorca sayto $n Tego tutaj robiæ nie wolno! Giñ z³odzieju!
+      mob force dozorca wield topor
+      mob force dozorca charge $n
+   endif
+else
+   mob command
+endif
+~
+#0
+
+#ROOMPROGSNEW
+#43400
+upadek z wysoko¶ci
+~
+mob echoat $n Zrywasz pajeczyne rekami, resztki pajeczyny zostaja ci na palcach.
+mob echoaround $n $n podchodzi do wielkiej pajeczyny i zaczyna ja energicznie zrywac.
+mob exit pó³noc link 43404
+~
+#43401
+pajeczyna
+~
+mob echoat $n Zrywasz pajeczyne rekami, resztki pajeczyny zostaja ci na palcach.
+mob echoaround $n $n podchodzi do wielkiej pajeczyny i zaczyna ja energicznie zrywac.
+mob exit po³udnie link 43405
+~
+#43402
+Ubranko górnika
+~
+mob oload 3275
+wield oskard
+
+mob equip self 3018
+mob equip self 27563
+mob equip self 3045
+mob equip self 3374
+mob equip self 3010
+~
+#43403
+Przeszukiwanie pajêczyny
+~
+if roomhasflag pajeczyna_pelna
+  mob removeflag room pajeczyna_pelna
+  mob echoat $n Gdy rozgrzebujesz pajeczyne dostrzegasz w niej mala skrzyneczke.
+  mob echoaround $n Gdy $n rozgrzebuje pajeczyne, zauwazasz, ze cos sie w niej znajduje.
+  mob oload 43407 r
+  mob oload 43408 i 43407
+  if rand 90
+     break
+  endif
+  mob oload gem 4 i 43407
+  if rand 80
+    mob oload gem 5 i 43407
+  endif
+  if rand 75
+    if rand 80
+      mob oload finger 5 i 43407
+    else
+      mob oload finger 4 i 43407
+    endif
+  endif
+  if rand 75
+    if rand 80
+      mob oload neck 5 i 43407
+    else
+      mob oload neck 4 i 43407
+    endif
+  endif
+  if rand 75
+    if rand 80
+      mob oload wrist 5 i 43407
+    else
+      mob oload wrist 4 i 43407
+    endif
+  endif
+  if rand 75
+    if rand 80
+      mob oload ear 5 i 43407
+    else
+      mob oload ear 4 i 43407
+    endif
+  endif
+else
+  mob echoat $n Przeszukujesz pajeczyne, ale nic w niej nie znajdujesz.
+  mob echoaround $n $n przeszukuje pajeczyne, ale nic w niej nie znajduje. 
+endif
+~
+#43404
+~
+mob equip $n 3128
+~
+#43405
+Zablokowanie wyj¶cia
+~
+mob exit po³udnie delete
+~
+#43406
+Leczenie przy ¼róde³ku
+~
+if players > 0
+  mob remember $r
+  if hpcnt $q < 90
+    if rand 70
+      mob echoat $q Z jeziorka unosi siê ciep³a para, która nastêpnie skrapla siê nad twoim cia³em. Czujesz siê lepiej.
+      mob echoaround $q Z jeziorka unosi siê ciep³a para, która nastêpnie skrapla siê nad $qv.
+      mob damage $q -15 -20
+    else
+      if rand 50
+        mob echo Dostrzegasz parê wodn±, która unosi siê znad jeziorka.
+      else
+        mob echo Widzisz parê unosz±c± siê z nad jeziorka.
+      endif
+    endif
+  endif
+endif
+~
+#43407
+Ustawienie rodzaju surowca - wêgiel
+~
+mob setflag room "reg_rodzaj" 1
+~
+#43408
+Ustawienie rodzaju surowca - srebro i mithril
+~
+mob setflag room "reg_rodzaj" 2
+~
+#43409
+Ustawienie rodzaju surowca - srebro
+~
+mob setflag room "reg_rodzaj" 2
+~
+#43410
+Ustawienie rodzaju surowca - z³oto
+~
+mob setflag room "reg_rodzaj" 1
+~
+#kopalnia_echo
+Randomowe echosy w sektorze kopalnia(aktywna)
+~
+~
+#odjazd_wozka
+~
+~
+#purge_room
+~
+mob purge
+~
+#remove_flag
+~
+mob removeflag room wykopal
+mob modflag room mod wykopal 0
+~
+#0
+
+#TRAPS
+#Vnum 0
+
+#RANDDESC
+#Vnum 0
+
+#DESC
+#DescEnd
+
+#REPAIRS
+0
+
+
+
+#BONUS_SET
+#Vnum 0
+
+#$
