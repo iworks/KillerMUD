@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Jaron Krzysztof       (chris.jaron@gmail.com           ) [Razor   ] *
  * Pietrzak Marcin       (marcin@iworks.pl                ) [Gurthg  ] *
@@ -25,8 +25,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: act_obj.c 12195 2013-03-28 18:35:27Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/act_obj.c $
+ * $Id: act_obj.c 12052 2013-02-19 20:41:24Z raszer $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/act_obj.c $
  *
  */
 #if defined(macintosh)
@@ -50,10 +50,6 @@
 
 void raw_damage     args ( (CHAR_DATA *ch, CHAR_DATA *victim, int dam ) );
 void spell_identify args ( ( int sn, int level, CHAR_DATA *ch, void *vo, int target ) );
-
-/**
- * act_move.c
- */
 void turn_into_dust_objects_sensitive_to_light args( ( CHAR_DATA *ch, int dmg ) );
 
 /*
@@ -72,7 +68,7 @@ void wield_weapon          args( ( CHAR_DATA *ch, OBJ_DATA *obj, bool primary ) 
 int  find_door             args( ( CHAR_DATA *ch, char *arg ) );
 bool mp_precommand_trigger args( ( CHAR_DATA *mob, CHAR_DATA *victim, OBJ_DATA *obj, DO_FUN * fun, char *fun_name, char *argument ) );
 bool op_precommand_trigger args( ( CHAR_DATA *ch, OBJ_DATA *obj1, OBJ_DATA *obj2, DO_FUN * fun, char *fun_name, char *argument ) );
-bool arte_can_load         args( (unsigned int vnum) );
+bool arte_can_load         args( (ush_int vnum) );
 void one_hit	           args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second ) );
 void                       poison_from_food( OBJ_DATA *obj, CHAR_DATA *victim );
 REPAIR_DATA *              get_repair_data( REPAIR_DATA *list, OBJ_DATA *obj );
@@ -546,13 +542,7 @@ void do_put( CHAR_DATA *ch, char *argument )
 			return;
 		}
 
-        if( IS_SET( container->value[1], CONT_COMP ) && !obj->is_spell_item)
-	{ 
-	    send_to_char( "W tym pojemniku mo¿esz przechowywaæ tylko komponenty.\n\r", ch);
-	    return;
-	}
-
-	if ( container->value[ 5 ] > 0 )
+        if ( container->value[ 5 ] > 0 )
         {
             bool dont_match = TRUE;
             if
@@ -620,9 +610,6 @@ void do_put( CHAR_DATA *ch, char *argument )
 				           obj->item_type == ITEM_WEAPON && ( obj->value[ 0 ] != container->value[ 6 ] || container->value[ 6 ] == -1 ) ) )
 				        continue;
 				}
-
-				if( IS_SET( container->value[1], CONT_COMP ) && !obj->is_spell_item) 
-                                    continue;
 
 				/*artefact*/
 				if ( container->in_room )  //jesli w roomie to sie gosc pozbywa
@@ -2277,8 +2264,16 @@ void herb_hallucinations( CHAR_DATA *ch )
 			af.modifier = 20;
 			affect_to_char( ch, &af, NULL, TRUE );
 
-        }
-        act( "¦wiat dooko³a traci barwy, ogarnia ciê smutek i przygnêbienie.", ch, NULL, ch, TO_CHAR );
+		}
+		if ( ch != ch )
+		{
+			act( "$N spuszcza mêtny ju¿ wzrok i wzdycha ciê¿ko.", ch, NULL, ch, TO_CHAR );
+			act( "¦wiat dooko³a traci barwy, ogarnia ciê smutek i przygnêbienie.", ch, NULL, ch, TO_VICT );
+		}
+		else
+		{
+			act( "¦wiat dooko³a traci barwy, ogarnia ciê smutek i przygnêbienie.", ch, NULL, ch, TO_CHAR );
+		}
 		act( "$N spuszcza mêtny ju¿ wzrok i wzdycha ciê¿ko.", ch, NULL, ch, TO_NOTVICT );
 		if ( IS_NPC ( ch ) && can_see( ch, ch ) && can_move( ch ) && ch->fighting == NULL )
 			multi_hit( ch, ch, TYPE_UNDEFINED );
@@ -2327,7 +2322,15 @@ void herb_hallucinations( CHAR_DATA *ch )
 			affect_to_char( ch, &af, NULL, TRUE );
 
 		}
-        act( "Nagle ¶wiat doko³a ciebie rozb³yskuje têczowymi kolorami! Jak piêknie! Jak wspaniale!", ch, NULL, ch, TO_CHAR );
+		if ( ch != ch )
+		{
+			act( "$N rozgl±da siê dooko³a, g³upawo siê u¶miechaj±c.", ch, NULL, ch, TO_CHAR );
+			act( "Nagle ¶wiat doko³a ciebie rozb³yskuje têczowymi kolorami! Jak piêknie! Jak wspaniale!", ch, NULL, ch, TO_VICT );
+		}
+		else
+		{
+			act( "Nagle ¶wiat doko³a ciebie rozb³yskuje têczowymi kolorami! Jak piêknie! Jak wspaniale!", ch, NULL, ch, TO_CHAR );
+		}
 		act( "$N rozgl±da siê dooko³a, g³upawo siê u¶miechaj±c.", ch, NULL, ch, TO_NOTVICT );
 		if ( IS_NPC ( ch ) && can_see( ch, ch ) && can_move( ch ) && ch->fighting == NULL )
 			multi_hit( ch, ch, TYPE_UNDEFINED );
@@ -3089,7 +3092,7 @@ void do_water_body(CHAR_DATA * ch, char pojony [ MAX_INPUT_LENGTH ], char napite
 	char buf[ MAX_STRING_LENGTH ];
 	CHAR_DATA *victim;
 	OBJ_DATA *obj;
-	int liquid = 0, amount=0;
+	int liquid, amount=0;
 
 	if ( pojony[ 0 ] == '\0')
 	{
@@ -5338,7 +5341,7 @@ void do_steal( CHAR_DATA *ch, char *argument )
 		}
 	}
 
-	if ( is_safe( ch, victim, TRUE ) || ( !IS_NPC( victim ) && IS_IMMORTAL( victim ) ) )
+	if ( is_safe( ch, victim ) || ( !IS_NPC( victim ) && IS_IMMORTAL( victim ) ) )
 	{
 		print_char( ch, "Nie mo¿esz okra¶æ %s.\n\r", victim->name2 );
 		return;
@@ -8444,7 +8447,7 @@ void do_use( CHAR_DATA *ch, char *argument )
 			}
 		}
 
-		if ( is_safe( ch, victim, TRUE ) && victim != ch )
+		if ( is_safe( ch, victim ) && victim != ch )
 		{
 			send_to_char( "Na ten cel nie da rady.\n\r", ch );
 			return;
@@ -8647,31 +8650,17 @@ void do_ucho(CHAR_DATA *ch, char *argument)
 void do_double_grip( CHAR_DATA *ch, char *argument )
 {
 	char arg [MAX_INPUT_LENGTH];
-	OBJ_DATA *obj = NULL;
+	OBJ_DATA *obj;
 
     argument = one_argument( argument, arg );
 
-    if ( arg[ 0 ] == '\0' && ( obj = get_eq_char ( ch, WEAR_WIELD ) ) == NULL )
-    {
-        send_to_char( "Któr± broñ chcesz chwyciæ w obie rêce?\n\r", ch );
-        return;
-    }
-    
-    if ( obj )
-    {
-        if ( IS_WEAPON_STAT( obj, WEAPON_TWO_HANDS ) )
-        {
-            send_to_char( "Ju¿ trzymasz tê broñ oburêcznie.\n\r", ch );
-            return;
-        }
-        if ( get_hand_slots( ch, WEAR_WIELD ) >= 1 )
-        {
-            send_to_char( "Masz ju¿ dwie zajête rêce. Zdejmij co¶.\n\r", ch );
-            return;
-        }
-    }
+    if ( arg[ 0 ] == '\0' )
+	{
+		send_to_char( "Któr± broñ chcesz chwyciæ w obie rêce?\n\r", ch );
+		return;
+	}
 
-	if ( !obj && ( obj = get_obj_carry( ch, arg, ch ) ) == NULL )
+	if ( ( obj = get_obj_carry( ch, arg, ch ) ) == NULL )
 	{
 		send_to_char( "Nie masz takiej rzeczy.\n\r", ch );
 		return;
@@ -8688,8 +8677,6 @@ void do_double_grip( CHAR_DATA *ch, char *argument )
 		send_to_char( "Tej broni nie dasz rady z³apaæ obiema rêkami.\n\r", ch );
 		return;
 	}
-    
-    unequip_char( ch, obj );
 
 	if( IS_WEAPON_STAT( obj, WEAPON_TWO_HANDS ) )
 	{
@@ -8710,40 +8697,6 @@ void do_double_grip( CHAR_DATA *ch, char *argument )
     }
 
     return;
-}
-
-void do_ungrip( CHAR_DATA *ch, char *argument )
-{
-	char arg [MAX_INPUT_LENGTH];
-	OBJ_DATA *obj;
-
-    argument = one_argument( argument, arg );
-
-    if ( ( obj = get_eq_char ( ch, WEAR_WIELD ) ) == NULL )
-    {
-        send_to_char( "Nie dobywasz ¿adnej broni.\n\r", ch );
-        return;
-    }
-    
-    if( IS_WEAPON_STAT( obj, WEAPON_TWO_HANDS ) && !IS_OBJ_STAT( obj, ITEM_DOUBLE_GRIP ) )
-    {
-        send_to_char( "Nie mo¿esz chwyciæ tej broni w jedn± rêkê.\n\r" , ch );
-        return;
-    }
-    
-    if( !IS_OBJ_STAT( obj, ITEM_DOUBLE_GRIP ) )
-    {
-        send_to_char( "Nie trzymasz ¿adnej broni dwurêcznie\n\r", ch );
-        return;
-    }
-    
-    if( check_only_weight_cant_equip( ch, obj ) )
-    {
-        return;
-    }
-    
-    unequip_char( ch, obj );
-    wield_weapon( ch, obj, TRUE );
 }
 
 void do_uncloak( CHAR_DATA *ch, char *argument )

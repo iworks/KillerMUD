@@ -56,6 +56,43 @@ ExpMultiplier 100
 Resist 5 -10
 Resist 8 50
 Mobend
+#Vnum 1462
+Name no name~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Long (no long description)~
+Descr ~
+Race golem~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off O
+OffExt 0|O
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form CEJM
+Parts ABCGHIJK
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 1467
 Name szczur~
 Odmiana szczura~szczura~szczura~szczurem~szczurze~
@@ -252,6 +289,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 1472
+Name {ydebowe biurko{x~
+Odmiana {ydebowego biurka{x~{ydebowemu biurkowi{x~{ydebowe biurko{x~{ydebowym biurkiem[x~{ydebowym biurku{x~
+Short {ydebowe biurko{x~
+Descr Stoi tu wielkie {ydebowe biurko{x.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 0
+Cond 100
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -271,14 +329,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24543
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24543
+16 0 24543
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -351,14 +409,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24546
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24546
+16 0 24546
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -385,14 +443,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24544
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24544
+16 0 24544
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -407,14 +465,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24547
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24547
+16 0 24547
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -455,14 +513,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24543
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24543
+16 0 24543
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -477,14 +535,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24544
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24544
+16 0 24544
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -901,6 +959,17 @@ Exit 1
 ~
 ~
 0 0 1472
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 196
+ExitExtEnd
+Exit 4
+~
+~
+0 0 196
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1046,7 +1115,7 @@ polnocy zlac sie w zwarte zbocze gory Erethe. Pomiedzy kepy krzakow na
 polnocy slicznie wkomponowala sie jakas stara szopa. 
 ~
 FlagsExt 0
-Sector 2
+Sector 8
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1157,14 +1226,14 @@ S
 
 #RESETS
 M 100 1476 1 1464 1
-E 8 4410 0 7
+E 8 206 0 7
 M 100 1475 2 1465 2
-E 100 3017 0 5
+E 100 3008 0 5
 M 100 1467 3 1467 3
 M 100 1472 3 1472 3
 M 100 1461 1 1474 1
 M 100 1475 2 1475 2
-E 100 3017 0 5
+E 100 3008 0 5
 M 100 1472 3 1477 3
 M 100 1479 1 1479 1
 S
@@ -1193,7 +1262,7 @@ mob cast 'hold person' $n
 mob cast 'plague' $n
 mob cast 'fear' $n
 if clones < 8
-mob mload 15030
+mob mload 10880
 mob force wrona kill $n
 endif
 ~
@@ -1209,8 +1278,8 @@ endif
 #1476
 ubranie wedrowca
 ~
-mob equip self 3017
-mob equip self 3003
+mob equip self 3008
+mob equip self 3072
 ~
 #0
 

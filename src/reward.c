@@ -31,7 +31,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 2009-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 2009-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * ZMIENIA£E¦ CO¦? DOPISZ SIÊ!                                         *
  *                                                                     *
@@ -39,8 +39,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: reward.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/reward.c $
+ * $Id: reward.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/reward.c $
  *
  */
 #include <sys/types.h>
@@ -492,7 +492,7 @@ void do_reward( CHAR_DATA *ch, char *argument )
             {
                 rewarder_found = FALSE;
                 /* start with a random number */
-                for ( vnum = 30; vnum < MAX_VNUM; vnum = number_range( 31, MAX_VNUM ) )
+                for ( vnum = 30; vnum < 65536; vnum = number_range( 31, 65535 ) )
                 {
                     /*make it a random room */
                     if ( ( room = get_room_index(vnum) ) != NULL )

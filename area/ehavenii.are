@@ -1,6 +1,6 @@
 #AREADATA
 Name +# Easterial II~
-Builders Kainti City Easterial Annor~
+Builders Kainti City Easterial~
 VNUMs 2061 2100
 Credits Tworca: Feerial, poprawki: Kainti~
 Locked ~
@@ -87,6 +87,7 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew death kabraxis_kill_3 ABCDEFGHI 100~
 MobprogNew fight 2089 H 100~
 MobprogNew greet 2062 FGI 100~
 MobprogNew death 2063 ABCDEFGHI 100~
@@ -221,6 +222,7 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew death kabraxis_kill_3 ABCDEFGHI 100~
 MobprogNew fight 2089 H 100~
 MobprogNew death 2063 ABCDEFGHI 100~
 MobprogNew greet 2062 FGI 100~
@@ -232,16 +234,14 @@ Resist 13 50
 Resist 16 75
 Mobend
 #Vnum 2066
-Name bankier Roneol cz³owiek~
+Name siwy bankier stary mê¿czyzna~
 Odmiana bankiera~bankierowi~bankiera~bankierem~bankierze~
-Short bankier Roneol ~
-Long Mê¿czyna w ¶rednim wieku siedzi na krze¶le i oblicza co¶ na kartce papieru.~
-Descr Ten mê¿czyzna ma na oko trzydzie¶ci lat. Jego sylwetka jest szczup³a, a
-jego wzrost ¶redni. Jego twarz jest u¶miechniêta od ucha do ucha, dlatego,
-¿e jest on bankierem, a interes idzie znakomicie. Roneol odziedziczy³ spory
-maj±tek po zmar³ym ojcu, który by³ jednym z najmo¿niejszych ludzi w
-Easterial. Roneol widaæ ma lepsz± g³owê do robienia pieniêdzy, bo obracaj±c
-cudzym dobytkiem znacz±co siê wzbogaci³. 
+Short siwy bankier~
+Long Stary mê¿czyzna z przeb³yskuj±c± siwizn± we w³osach siedzi przy ³awie wpatruj±c siê w jaki¶ ¶wistek. ~
+Descr Jest to ju¿ do¶æ stary mê¿czyzna, pracownik jednej z dywizji banku
+Arrasyjskiego, mieszcz±cej siê w Easterial. W tym momencie siedzi przy
+drewnianej ³awie i przygl±da siê z uwag± jakiej¶ kartce papieru, podjadaj±c
+przy okazji trzymany w d³oni chleb. 
 ~
 Race cz³owiek~
 ActExt 0|ABK
@@ -275,131 +275,40 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 2067
-Name Mag Burmes cz³owiek~
-Odmiana maga Burmesa~magowi Burmesowi~maga Burmesa~magiem Burmesem~magu Burmesie~
-Short mag Burmes~
-Long Widzisz starego cz³owiek, który zaciekle przewraca papiery na stole.~
-Descr Widzisz przed sob± niewielkiego cz³owieka, który ca³e swoje ¿ycie
-po¶wiêci³ magii. Jest to stary i siwy mêdrzec, który jest lekko
-przygarbiony. W jego oczach zielonych widaæ staro¶æ i zmêczenie, lecz to
-tylko pozory. Jego umys³ jest silny, a jego magia potê¿na. Jest jedynym i
-magiem zamieszkuj±cym Easterial , ale wkrótce nie jedynym, bowiem ju¿ zacz±³
-uczyæ ma³ego ch³opca swej sztuki magii. 
+Name pracownik gildii ³owców g³ów pó³elf~
+Odmiana pó³elfa pracownika Gildii~pó³elfowi pracownikowi Gildii~pó³elfa pracownika Gildii~pó³elfem pracownikiem Gildii~pó³elfie pracowniku Gildii~
+Short pó³elf pracownik Gildii~
+Long Nieprzyjemnie wygl±daj±cy pó³elf przyjmuje "zamówienia".~
+Descr Ten nieprzyjemnie wygl±daj±cy pó³elf raczej nie wygl±da na pracownika
+biurowego. Jest to podejrzanie wygl±daj±cy typ, jakich wielu w Gildii £owców
+G³ów. Przyjmuje on wszelkiego rodzaju zamówienia na pozbawienie kogo¶ ¿ycia.
+Nie jest to praca przyjemna, jednak to indywiduum chyba czerpie z niej jak±¶
+przyjemno¶æ. 
 ~
-Race cz³owiek~
-ActExt 0|ABR
-Affected 40 0 32 0
-AffectedExt 0|DF/2|F
-Align 0
+Race pó³elf~
+ActExt 0|ABEK
+Affected 0 0 0 0
+AffectedExt 0
+Align 1000
 Group 0
-Lang A
+Lang AB
 Speaks 0
-Level 21
-Hitroll 1
-HP 1d13+333
-Damage 1d4+6
+Level 8
+Hitroll 0
+HP 7d7+100
+Damage 1d3+1
 Dammagic 0
 Weaponbonus 0
 Damflags 0
 Attack uderzenie
-XAC 7 7 7 7
-Stats 70 130 125 80 90 100 100
+XAC 10 8 8 10
+Stats 66 96 102 90 90 78 78
 Off 0
 OffExt 0
 Pos_start stand
 Pos_def stand
 Sex male
-Wealth 5000
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Spells 163 168 1 185
-Spells 88 0 0 0
-Skin 100
-ExpMultiplier 100
-Resist 4 20
-Resist 10 20
-Resist 12 60
-Resist 14 20
-Mobend
-#Vnum 2068
-Name Otean Mylly ~
-Odmiana Oteana~Oteanowi~Oteana~Oteanem~Oteanie~
-Short Otean Mylly ~
-Long Otean sto przy ¶cianie ogl±daj±c swoje trofea.~
-Descr Otean Mylly jest lekko postarza³ym cz³owiekiem. O marnej posturze i
-brakiem miêsni. Jego twrz jest u¶miechniêta i pe³na rado¶ci, widaæ te¿ na
-niej zmêczenie ¿yciem. Niegdy¶ nie raz bra³ udzia³ w wyprawach na ró¿ne
-bestie, z których ma trofea w swoim domu. Du¿o ludzi siê jednak z niego
-na¶miewa, mówi±æ ¿e zasmiast walczyæ to zbiera³ trofea. 
-~
-Race cz³owiek~
-ActExt 0|AB
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 0
-Lang A
-Speaks 0
-Level 7
-Hitroll 0
-HP 4d5+100
-Damage 1d3+8
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 8 8 8 8
-Stats 70 70 70 70 70 70 70
-Off I
-OffExt 0|I
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 100
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Mobend
-#Vnum 2069
-Name Ostera Mylly~
-Odmiana Ostery~Osterze~Osterê~Oster±~Osterze~
-Short Ostera Mylly~
-Long Ostera Mylly robi porz±dki w swojej chacie.~
-Descr Ostera jest kobieta po trzydziestym roku ¿ycia. O d³ugich czarnych
-w³osach i br±zowych oczach. Jej cia³o, jaki twarz jest bardzo zadbane,
-delikatna skóra i zupe³ny brak t³uszczu. Jej ruchy wykonywane s± z gracja i
-pe³nym wdziêkiem, które na pewno nie jednego mê¿czyznê wprawi³yby o szybsze
-bicie serca. 
-~
-Race cz³owiek~
-ActExt 0|AB
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 0
-Lang A
-Speaks 0
-Level 5
-Hitroll 0
-HP 3d3+100
-Damage 1d4+1
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 10 10 10 10
-Stats 70 70 70 70 70 70 78
-Off 0
-OffExt 0
-Pos_start stand
-Pos_def stand
-Sex female
-Wealth 50
+Wealth 7
 Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
@@ -408,10 +317,10 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 2100
-Name garbarz stary Loryvil~
-Odmiana Loryvila~Loryvilowi~Loryvila~Loryvilem~Loryvilu~
-Short garbarz Loryvil~
-Long Stary garbarz Loryvil, czeka na kolejn± osobê, która sprzeda mu skórê.~
+Name garbarz ivyrol ~
+Odmiana Ivyrola~Ivyrolowi~Ivyrola~Ivyrolem~Ivyrolu~
+Short Garbarz Ivyrol~
+Long Przygarbiony garbarz Ivyrol skupuje tutaj skóry.~
 Descr Widzisz starego, zgarbionego mê¿czyznê prowadz±cego w Easterial sklep
 garbarski. Ciemno ubrany cz³owiek przygl±da ci siê przez chwilkê lekko
 przymkniêtym okiem, po czym wraca do przegl±dania skór. 
@@ -463,11 +372,11 @@ ExtraExt 0|Y
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 60
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3500
 Cost 0
 Cond 100
@@ -475,24 +384,30 @@ Identdesc ~
 Comments ~
 Objend
 #Vnum 2062
-Name g³owa nied¼wiedzia polarnego~
+Name g³owa byk~
 Odmiana g³owy byka~g³owie byka~g³owy byka~g³ow± byka~g³owie byka~
-Short g³owa nied¼wiedzia polarnego~
-Descr G³owa nied¼wiedzia polarnego wisi na ¶cianie.~
+Short g³owa byka~
+Descr G³owa byka wisi jako trofeum na ¶cianie.~
 Material ko¶æ~
 Type trash
 ExtraExt 0|d
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 400
 Cost 0
 Cond 100
+Extradesc glowa~
+Hmmm, po dluzszej obserwacji dostrzegasz, ze glowa ta
+zrobiona jest z malutkich metalowych czesci, nie wyglada
+to na robote zadnej ze znanych ci ras. Calosc pokryta jest
+paskudna zielona warstewka.  To glowa STALOWEGO GOLEMA !
+~
 Comments ~
 Objend
 #Vnum 2063
@@ -506,11 +421,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -523,25 +438,31 @@ Na p³ytce widzisz ma³± inskrypcjê.
 Comments ~
 Objend
 #Vnum 2064
-Name ³eb smocz±tka~
+Name ³eb~
 Odmiana ³ba~³bu~³eb~³bem~³bie~
-Short ³eb smocz±tka~
-Descr £eb ma³ego smoczka jest mocno przymocowany do ¶ciany.~
+Short ³eb stwora~
+Descr £eb jakiego¶ paskudnego stwora wisi majestatycznie.~
 Material ko¶æ~
 Type trash
 ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
-Itemdesc ~
+Extradesc leb~
+Grube gumowate macki zwisaja smetnie z lba przypominajacego
+raczej kalamarnice niz jakas chocby cwiercinteligentna
+bestie. Jej tepe czarne oczy wlepione sa w ciebie, jak
+gdyby ten stwor obserwowal w milczeniu twe poczynania.
+Fuuj...
+~
 Comments ~
 Objend
 #Vnum 2065
@@ -555,11 +476,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
@@ -584,6 +505,194 @@ EASTERIAL, BEDZIE TO SPOKOJNE I BEZPIECZNE MIASTO.
 ~
 Comments ~
 Objend
+#Vnum 2066
+Name chleb razowy razowiec~
+Odmiana razowego chleba~razowemu chlebu~razowy chleb~razowym chlebem~razowym chlebie~
+Short razowy chleb~
+Descr Kawa³ razowego chleba le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 30 96 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 100
+Comments ~
+Objend
+#Vnum 2067
+Name suszone rybie miêso~
+Odmiana suszonego rybiego miesa~suszonemu rybiemu miesu~suszone rybie mieso~suszonym rybim miesem~suszonym rybim miesie~
+Short kawa³ suszonego rybiego miêsa~
+Descr Spory kawa³ suszonego rybiego miêsa le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 60 72 0 0 0 0 0
+Repair 0 0 0 0
+Weight 80
+Cost 20
+Cond 100
+Itemdesc Jest to do¶æ spory kawa³ suszonego rybiego miêsa.
+~
+Comments ~
+Objend
+#Vnum 2071
+Name tunika~
+Odmiana tuniki~tunice~tunike~tunika~tunice~
+Short lniana tunika~
+Descr Dluga, lniana tunika~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 10
+Cond 100
+Itemdesc Jest to zwyk³a tunika wykonana z lnu.
+~
+Comments ~
+Objend
+#Vnum 2072
+Name ciê¿ki stalowy kirys~
+Odmiana ciê¿kiego stalowego kirysu~ciê¿kiemu stalowemu kirysowi~ciê¿ki stalowy kirys~ciê¿kim stalowym kirysem~ciê¿kim stalowym kirysie~
+Short ciê¿ki stalowy kirys~
+Descr Ciê¿ki stalowy kirys le¿y tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 50
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 450
+Cost 5400
+Cond 100
+Itemdesc To element pancerza sk³adaj±cy siê z dwóch stalowych p³yt, tak
+wyprofilowanych i dostosowanych do cia³a, by tworzy³y napier¶nik i
+naplecznik. Oba te elementy po³±czono grub± skóra i rzemieniami a ³±czenia
+wzmocniono kolczug±. Na zbroi tej wygrawerowano jak±¶ ³ódkê, miecz i rybê. 
+~
+Comments ~
+Objend
+#Vnum 2074
+Name ciê¿kie stalowe narêczaki~
+Odmiana ciê¿kich stalowych narêczaków~ciê¿kim stalowym narêczakom~ciê¿kie stalowe narêczaki~ciê¿kimi stalowymi narêczakami~ciê¿kich stalowych narêczakach~
+Short ciê¿kie stalowe narêczaki~
+Descr Ciê¿kie stalowe narêczaki le¿± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 1
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 2700
+Cond 100
+Itemdesc S± to do¶æ typowe ciê¿kie stalowe narêczaki.
+~
+Comments ~
+Objend
+#Vnum 2075
+Name ciê¿kie stalowe nabioderniki~
+Odmiana ciê¿kich stalowych nabioderników~ciê¿kim stalowym nabiodernikom~ciê¿kie stalowe nabioderniki~ciê¿kimi stalowymi nabiodernikami~ciê¿kich stalowych nabiodernikach~
+Short ciê¿kie stalowe nabioderniki~
+Descr Ciê¿kie, stalowe nabioderniki le¿± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 1
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 2700
+Cond 100
+Itemdesc To bardzo specyficzny element zbroi ochraniaj±cy biodra i uda. Ten
+egzemplarz chroni dodatkowo kolana poprzez do³±czenie nakolanników. Cia³o
+chronione jest elementami grubej stalowej profilowanej p³yty, ³±czonej za
+pomoc± grubej skóry, rzemieni i kolczugi. 
+~
+Comments ~
+Objend
+#Vnum 2077
+Name ciê¿kie okute buty~
+Odmiana ciê¿kich okutych butów~ciê¿kim okutym butom~ciêzkie okute buty~ciê¿kimi okutymi butami~ciê¿kich okutych butach~
+Short ciê¿kie okute buty~
+Descr Ciê¿kie okute buty le¿± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 1
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 120
+Cost 2700
+Cond 100
+Itemdesc Jest to do¶æ dobrze wykonana para kolczych butów okutych blach±. 
+~
+Comments ~
+Objend
+#Vnum 2078
+Name ciê¿ki topór bojowy~
+Odmiana ciê¿kiego topora bojowego~ciê¿kiemu toporowi bojowemu~ciê¿ki topór bojowy~ciê¿kim toporem bojowym~ciê¿kim toporze bojowym~
+Short ciê¿ki topór bojowy~
+Descr Ciê¿ki topór bojowy le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0|S
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+Rent 65
+LiczbaMnoga 0
+Gender 2
+Value 5 3 4 25 0 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 15000
+Cond 60
+Itemdesc Jest to do¶æ ciê¿ki jednorêczny topór bojowy wykonany ze stali.
+~
+Comments ~
+Objend
 #Vnum 2081
 Name cia³a dzieci ma³ych~
 Odmiana cia³ ma³ych dzieci~cia³om ma³ych dzieci~cia³a ma³ych dzieci~cia³ami ma³ych dzieci~cia³ach ma³ych dzieci~
@@ -595,14 +704,39 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2200
 Cost 60
 Cond 75
+Comments ~
+Objend
+#Vnum 2082
+Name krótkie spodenki~
+Odmiana krótkich spodenek~krótkimi spodenkami~krótkie spodenki~krótkimi spodenkami~krótkich spodenkach~
+Short krótkie spodenki~
+Descr Krótkie spodenki le¿± tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 3
+Cond 75
+Itemdesc S± to zwyk³e p³ócienne spodenki. uszyte pewnie dla ma³ego ch³opca.
+~
+Identdesc S± to zwyk³e p³ócienne spodenki. uszyte pewnie dla ma³ego ch³opca.
+~
 Comments ~
 Objend
 #Vnum 2088
@@ -616,11 +750,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 24 24 0 0 3331 0 0
 Repair 0 0 0 0
-Length 0
 Weight 44
 Cost 3
 Cond 75
@@ -639,14 +773,79 @@ ExtraExt 0|Dad
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 1 -1 32 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
+Comments ~
+Objend
+#Vnum 2090
+Name lekki kaptur kolczy~
+Odmiana lekkiego kolczego kaptura ~lekkiemu kolczemu kapturowi~lekki kolczy kaptur~lekkim kolczym kapturem~lekkim kolczym kapturze~
+Short lekki kolczy kaptur~
+Descr Lekki kaptur kolczy le¿y tutaj.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 6 8 5 10 7 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 2100
+Cond 75
+Comments ~
+Objend
+#Vnum 2095
+Name lekki kolczy napier¶nik~
+Odmiana lekkiego kolczego napier¶nika~lekkiemu kolczemu napier¶nikowi~lekki kolczy napier¶nik~lekkim kolczym napier¶nikiem~lekkim kolczym napier¶niku~
+Short lekki kolczy napier¶nik~
+Descr Lekki kaptur kolczy le¿y tutaj.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear ADEF
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 6 8 5 10 7 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 2100
+Cond 75
+Comments ~
+Objend
+#Vnum 2096
+Name mocarny korbacz~
+Odmiana mocarnego korbacza~mocarnemu korbaczowi~mocarny korbacz~mocarnym korbaczem~mocarnym korbaczu~
+Short mocarny korbacz~
+Descr Wielki, wrêcz mocarny, korbacz le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|IJ
+Bonus 0
+Rent 45
+LiczbaMnoga 0
+Gender 0
+Value 6 3 5 8 32 0 1
+Repair 0 0 0 0
+Weight 150
+Cost 12000
+Cond 100
+Itemdesc Jest to mocarnych rozmiarów korbacz.
+~
 Comments ~
 Objend
 #Vnum 2097
@@ -660,11 +859,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 600
 Cond 100
@@ -717,11 +916,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 45
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 1
 Cond 100
@@ -741,11 +940,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 35
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -764,11 +963,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 35
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1050,6 +1249,19 @@ Droga prowadzi dalej na po³udnie, by za chwilê znikn±æ za skarp±.
 ~
 ~
 0 0 2065
+ExitExt 3
+ExitExtDescription Widzisz ¶cie¿kê do chaty rybackiej.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2080
+ExitExtEnd
+Exit 3
+Widzisz ¶cie¿kê do chaty rybackiej.
+~
+~
+0 0 2080
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1129,6 +1341,21 @@ Glowna droga prowadzi dalej na pó³noc w kierunku swiatyni.
 ~
 ~
 0 0 2065
+ExitExt 1
+ExitExtDescription Widzisz wej¶cie na pagórek, zza którego wy³ania siê wiêksza chata - to
+chyba pracownia rytownika. 
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2077
+ExitExtEnd
+Exit 1
+Widzisz wej¶cie na pagórek, zza którego wy³ania siê wiêksza chata - to
+chyba pracownia rytownika. 
+~
+~
+0 0 2077
 ExitExt 2
 ExitExtDescription Na po³udniu widac duzy dom, albo raczej barak wcinajacy
 sie w nadbrzezna skarpe z tarasem podpartym na palach
@@ -1150,6 +1377,21 @@ ze w tym budynku miesci sie jakis sklep, sklad czy magazyn.
 ~
 ~
 0 0 2069
+ExitExt 3
+ExitExtDescription Widzisz przed soba typowa chate rybacka.
+~
+ExitExtVName Bank~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 2074
+ExitExtEnd
+Exit 3
+Widzisz przed soba typowa chate rybacka.
+~
+VName Bank~
+~
+16387 0 2074
 ExitExt 4
 ExitExtDescription Widzisz wspanialy pagorek widokowy.
 ~
@@ -1352,14 +1594,16 @@ baru w karczmie.
 ~
 FlagsExt 0|CH
 Sector 0
-ExitExt 1
-ExitExtDescription ~
+ExitExt 2
+ExitExtDescription Widzisz dalsza czesc magazynu.
+~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 2072
 ExitExtEnd
-Exit 1
+Exit 2
+Widzisz dalsza czesc magazynu.
 ~
 ~
 0 0 2072
@@ -1389,14 +1633,14 @@ baru w karczmie.
 ~
 FlagsExt 0|CH
 Sector 0
-ExitExt 3
+ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 2071
 ExitExtEnd
-Exit 3
+Exit 0
 ~
 ~
 0 0 2071
@@ -1632,17 +1876,33 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2074
-Name Bank~
+Name Drewniana chata~
 Descr To typowa a chata w Easterial, na scianie na przeciw wejscia znajduje sie
 kominek, którego cieplo rozchodzi sie po calym domu, pod scianami mozesz
 znalezc oparte drobne sprzety rybackie. Podloge pokrywa gruby dywan a w
 kacie po prawej dostrzegasz maly stol i kilka krzesel. Poza kominkiem
 jedynym zrodlem swiatla sa rozwieszone na scianach lampki oliwne, poniewaz
-okiennice zwykle ¶a pozamykane ze wzglêdu na zimno. Jest ona przekszta³cona
-na Bank, prowadzony przez Roneola. 
+okiennice zwykle sa pozamykane ze wzgledu na zimno. Akurat ta chata zosta³a
+wynajêta przez Wielki Bank Arrasyjski, który to utworzy³ tutaj swoj±
+dywizjê. 
 ~
 FlagsExt 0|CHU
 Sector 0
+ExitExt 1
+ExitExtDescription Widzisz wyjscie na zewnatz na glowna droge.
+~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 16387
+ExitExtKey 0
+ExitExtToVnum 2066
+ExitExtEnd
+Exit 1
+Widzisz wyjscie na zewnatz na glowna droge.
+~
+VName Wyj¶cie~
+~
+16387 0 2066
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1719,7 +1979,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2077
-Name {RFree{x~
+Name Droga przez pagórek~
 Descr Sciezka prowadzaca przez pagorek konczy sie u progu chaty rytownika.
 Topniejacy snieg troche utrudnia marsz ale dojscie jest dosyc dobrze
 utrzymane. Co wiecej, ktos nawet postaral sie i zamiotl snieg z tarasu. 
@@ -1739,11 +1999,22 @@ Widzisz drzwi prowadz±ce do pracowni i mieszkania rytownika.
 ~
 ~
 3 0 2078
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2066
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2066
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 2078
-Name {RFree{x~
+Name Pracownia rytownika~
 Descr To prawdziwy raj dla szperaczy, stoisz w pracowni rytownika. Wszedzie
 pelno zakamarkow, i roznych drobiazgow. W gablotce na scianie widac jego
 starannie wypolerowane kosciane arcydziela. Stol po prawej stronie pokoju
@@ -1782,7 +2053,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2079
-Name {RFree{x~
+Name Skladzik~
 Descr W tej rupieciarni ciezko sie polapac, stoja tu drewniane skrzynie,
 beczki, kilka regalow i - o dziwo - lozko. Jak mozna spac w takim balaganie.
 Pod nogami walesaja sie kawalki kosci i metalowe dlutka. Ogolnie bardzo tu
@@ -1807,7 +2078,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2080
-Name Taras {YF{x~
+Name Taras~
 Descr Stoisz na w±skiej ¶cie¿ce miêdzy krzewami a ¶nie¿nymi zaspami. Jest tu
 bardzo cicho i nieomal¿e mo¿na us³yszeæ odg³os padaj±cego ¶niegu. Dró¿ka
 wiedzie z pó³nocy na po³udnie i jak mo¿na stwierdziæ po ¶ladach - nie jest
@@ -1815,6 +2086,19 @@ zbyt uczêszczana.
 ~
 FlagsExt 0|H
 Sector 1
+ExitExt 1
+ExitExtDescription Widzisz wyj¶cie na g³ówn± drogê, po jej przeciwnej stronie widaæ nabrze¿e. 
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2064
+ExitExtEnd
+Exit 1
+Widzisz wyj¶cie na g³ówn± drogê, po jej przeciwnej stronie widaæ nabrze¿e. 
+~
+~
+0 0 2064
 ExitExt 3
 ExitExtDescription Widzisz przed sob± typow± chatê ryback±.
 ~
@@ -1832,7 +2116,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2081
-Name Chata rybacka {YF{x~
+Name Chata rybacka~
 Descr To typowa a chata w Easterial, na ¶cianie naprzeciw wej¶cia znajduje siê
 kominek, którego ciep³o rozchodzi siê po ca³ym domu, pod ¶cianami mo¿esz
 znale¼æ oparte drobne sprzêty rybackie. Pod³ogê pokrywa gruby dywan a w
@@ -2003,14 +2287,14 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2085
-Name Chatka Burmesa~
-Descr Znajdujesz siê w obszernej chacie, w której jest pe³no szafek
-wype³nionych ksi±¿kami. W k±cie umiejscowione jest pojedyncze ³ózko, a na
-¶rodku izby stoi stolik, zawalony papierzyskami. Chatka jest trochê nie
-zadbana, ale w³a¶ciciel tego domu siê nie przejmujê tym, na pewno ma jakie¶
-ciekawsze zajêcia. 
+Name Gabinet w {RGildii £owców G³ów{x~
+Descr Znajdujesz siê w obszernej drewnianej chacie w Easterial. Na jej ¶rodku
+stoi drewniane biurko, za którym siedzi poorany bliznami pó³elf i zapisuje
+co¶ na arkuszu papieru. Na ¶cianach wisi wiele plakatów z wizerunkami
+poszukiwanych. Miêdzy nimi zauwa¿asz ma³±, {cstalow± tabliczkê{S, na której kto¶
+co¶ napisa³. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|CHP
 Sector 0
 Extra tabliczka~
 By odebraæ nagrodê wpisz 'bounty' (pl - 'nagroda').
@@ -2511,7 +2795,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2097
-Name Chata Myllych~
+Name Chata Hrothgara~
 Descr Chata sk³ada siê z ogromnego pokoju i ma³ej sypialni na zachodzie. Na
 d³u¿szej, zachodniej ¶cianie po ¶rodku stoi kominek, roztaczaj±c wokó³
 przyjemne ciep³o, obok niego kto¶ skrzêtnie przygotowa³ polana. W k±cie po
@@ -2559,7 +2843,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2098
-Name Sypialnia~
+Name Sypialnia Hrothgara~
 Descr Sypialnia urz±dzona jest bardzo skromnie, jedynie du¿y czerwony dywan
 przypomina o statusie w³a¶ciciela. Poza tym pustkê wype³nia du¿e ³ó¿ko,
 kilka pó³ek, rega³ i du¿a skrzynia w nogach ³ó¿ka. 
@@ -2593,7 +2877,7 @@ Roomend
 
 
 #BANKS
-2066 8 7 22 * 0
+2066 10 7 22 * 0
 0
 
 
@@ -2607,72 +2891,66 @@ S
 
 #RESETS
 M 100 2062 4 2061 1
-E 100 3029 0 5
-E 100 3045 0 6
-E 100 3093 0 10
-E 100 3061 0 7
-E 100 3077 0 9
-E 100 3013 0 8
-E 100 3178 0 16
-E 100 3366 0 11
+E 100 2072 0 5
+E 100 3068 0 6
+E 100 2074 0 10
+E 100 2075 0 7
+E 100 3357 0 9
+E 100 2077 0 8
+E 100 2078 0 16
+E 100 3996 0 11
 M 100 2061 5 2062 1
-E 100 3050 0 7
-E 100 3017 0 5
-E 100 3157 0 16
+E 100 3382 0 7
+E 100 3008 0 5
+E 100 3071 0 16
 M 100 3983 1 2063 1
 O 100 6006 0 2071
-O 100 2362 0 2071
+O 100 3981 0 2071
 M 100 2066 1 2074 1
-E 100 6185 0 17
-E 100 3050 0 7
-E 100 3017 0 5
+E 100 2066 0 17
+E 100 3382 0 7
+E 100 3008 0 5
 M 100 2063 1 2075 1
 M 100 2065 1 2075 1
-E 100 3041 0 6
-E 100 3089 0 10
-E 100 3009 0 8
-E 100 3073 0 9
-E 100 3057 0 7
-E 100 3025 0 5
-E 100 3097 0 16
+E 100 2090 0 6
+E 100 3141 0 10
+E 100 3139 0 8
+E 100 3142 0 9
+E 100 3140 0 7
+E 100 2095 0 5
+E 100 2096 0 16
 M 100 2064 1 2076 1
-O 100 2362 0 2078
+O 100 3981 0 2078
 O 100 6006 0 2078
-O 100 2358 0 2079
+O 100 3399 0 2079
 O 100 6006 0 2079
 O 100 3987 0 2079
 P 100 3125 1 3987 1
 M 100 3972 6 2080 1
-E 100 4379 0 5
-E 100 3157 0 16
+E 100 2071 0 12
+E 100 3071 0 16
 O 100 2061 0 2083
 O 100 2061 0 2083
 O 100 2061 0 2083
 O 100 2061 0 2083
 M 100 3972 6 2084 1
-E 100 3157 0 16
-E 100 4379 0 5
+E 100 3071 0 16
+E 100 2071 0 12
 M 100 2067 1 2085 1
-E 100 4415 0 8
-E 100 4361 0 12
 M 100 2100 1 2095 1
-E 100 3013 0 8
-E 100 3050 0 7
-E 100 3017 0 5
-O 100 2359 0 2096
+E 100 2077 0 8
+E 100 3382 0 7
+E 100 3008 0 5
+O 100 6005 0 2096
+O 100 6008 0 2096
+O 100 6008 0 2096
 O 100 2062 0 2097
 O 100 2064 0 2097
-M 100 2068 1 2097 1
-E 100 4417 0 8
-E 100 4364 0 5
-E 100 4412 0 7
+O 100 2063 0 2097
 O 100 3987 0 2098
 P 100 3132 1 3987 1
-O 100 2358 0 2098
 O 100 6006 0 2098
-M 100 2069 1 2098 1
-E 100 6400 0 12
-E 100 4416 0 8
+P 100 2065 1 6006 1
 S
 
 

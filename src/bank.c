@@ -26,7 +26,7 @@
  ***********************************************************************
  *
  * $Id: bank.c 10701 2011-12-02 16:03:39Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/bank.c $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/bank.c $
  *
  */
 #if defined(macintosh)

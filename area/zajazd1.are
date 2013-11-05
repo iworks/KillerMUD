@@ -48,7 +48,7 @@ Pos_def stand
 Sex female
 Wealth 0
 Form AFGV
-Parts ABCDEJKQRS
+Parts ABCDEJKQRST
 Size large
 Material unknown
 MobprogNew random 10760 FGI 35~
@@ -1087,6 +1087,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 10760
+Name kanapka ser~
+Odmiana kanapki~kanapce~kanapke~kanapka~kanapce~
+Short kanapka z {Yserem{x~
+Descr Dwie pajdy chleba prze³o¿one plasterkiem {Y¿ó³tego sera{x.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 6 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4
+Cond 100
+Comments ~
+Objend
 #Vnum 10761
 Name szyld tabliczka~
 Odmiana {cszyldu{x~{cszyldowi{x~{cszyld{x~{cszyldem{x~{cszyldzie{x~
@@ -1098,11 +1119,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 0
 Cond 100
@@ -1116,6 +1137,113 @@ Itemdesc ------{Bj  a{x------
 ~
 Comments ~
 Objend
+#Vnum 10762
+Name kanapka szynka~
+Odmiana kanapki~kanapce~kanapke~kanapka~kanapce~
+Short kanapka z {yszynka{x~
+Descr Dwie du¿e pajdy chleba prze³o¿ono plastrem szynki.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 8 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 100
+Comments ~
+Objend
+#Vnum 10763
+Name jajka bekon~
+Odmiana jajek na bekonie~jajkom na bekonie~jajka na bekonie~jajkami na bekonie~jajkach na bekonie~
+Short {Yjajka{x na {ybekonie{x~
+Descr ¯ó³ciutkie jajka usma¿ono na kawa³ku bekonu.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 9 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 6
+Cond 100
+Comments ~
+Objend
+#Vnum 10764
+Name bulion kura~
+Odmiana bulionu z kury~bulionowi z kury~bulion z kury~bulionem z kury~bulionie z kury~
+Short {Cbulion z kury{x~
+Descr Pachn±cy, ¶wie¿y bulion na kurzym miêsie.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 4 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 3
+Cond 100
+Comments ~
+Objend
+#Vnum 10765
+Name zupa grzybowa~
+Odmiana zupy grzybowej~zupie grzybowej~zupe grzybowa~zupa grzybowa~zupie grzybowej~
+Short zupa {ygrzybowa{x~
+Descr Talerz ciep³ej zupy z le¶nych grzybów.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 12 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 7
+Cond 100
+Objprog consume consume_zupa 100~
+Comments ~
+Objend
+#Vnum 10766
+Name zupa furmañska~
+Odmiana zupy "{BFurmañskiej{x"~zupie "{BFurmañskiej{x"~zupe "{BFurmañska{x"~zupa "{BFurmañska{x"~zupie "{BFurmañskiej{x"~
+Short zupa "{BFurmañska{x"~
+Descr Talerz zupy wed³ug przepisu starego Reigla.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 13 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 8
+Cond 100
+Objprog consume consume_zupa 100~
+Comments ~
+Objend
 #Vnum 10767
 Name wo³owina cebulowym~
 Odmiana {rwo³owiny{x w sosie {Gcebulowym{x~{rwo³owinie{x w sosie {Gcebulowym{x~{rwo³owine{x w sosie {Gcebulowym{x~{rwo³owina{x w sosie {Gcebulowym{x~{rwo³owinie{x w sosie {Gcebulowym{x~
@@ -1127,11 +1255,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 8
 LiczbaMnoga 0
 Gender 3
 Value 26 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 14
 Cost 14
 Cond 100
@@ -1148,11 +1276,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 7
 LiczbaMnoga 0
 Gender 0
 Value 15 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 13
 Cost 12
 Cond 100
@@ -1169,11 +1297,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 12 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 4
 Cond 100
@@ -1190,11 +1318,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 18 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 26
 Cond 100
@@ -1211,11 +1339,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 6 6 40 0 3332 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 2
 Cond 100
@@ -1233,14 +1361,77 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 6 6 10 0 3332 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 6
 Cond 70
+Comments ~
+Objend
+#Vnum 10774
+Name szklanka herbata~
+Odmiana szklanki {yherbaty{x~szklance {yherbaty{x~szklankê {yherbaty{x~szklank± {yherbaty{x~szklance {yherbaty{x~
+Short szklanka {yherbaty{x~
+Descr Szklanka aromatycznej herbaty stoi tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 3
+Value 4 4 11 0 3333 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 100
+Comments ~
+Objend
+#Vnum 10775
+Name porter "{bKapitañski{x"~
+Odmiana portera "{bKapitañski{x"~porterowi "{bKapitañski{x"~porter "{bKapitañski{x"~porterem "{bKapitañski{x"~porterze "{bKapitañski{x"~
+Short porter "{bKapitañski{x"~
+Descr Butelka wybornego miejscowego portera.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 12 12 4 0 3331 0 0
+Repair 0 0 0 0
+Weight 12
+Cost 11
+Cond 100
+Comments ~
+Objend
+#Vnum 10776
+Name wino elfie~
+Odmiana elfiego {Gwina{x "Totil-a"~elfiemu {Gwinu{x "Totil-a"~elfie {Gwino{x "Totil-a"~elfim {Gwinem{x "Totil-a"~elfim {Gwinie{x "Totil-a"~
+Short elfie {Gwino{x "Totil-a"~
+Descr Butelka z d³ug± szyjk± sygnowan± znakiem elfich winiarni.~
+Material jedzenie~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 8
+LiczbaMnoga 0
+Gender 0
+Value 18 18 17 0 3331 0 0
+Repair 0 0 0 0
+Weight 16
+Cost 54
+Cond 100
 Comments ~
 Objend
 #Vnum 10777
@@ -1254,11 +1445,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 6
 LiczbaMnoga 0
 Gender 0
 Value 18 18 7 0 3331 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 30
 Cond 100
@@ -1270,16 +1461,16 @@ Odmiana szufli~szufli~szufle~szufla~szufli~
 Short szufla do chleba~
 Descr D³uga drewniana ³opata, u¿ywana do wyci±gania chleba z pieca.~
 Material drewno~
-Type trash
+Type weapon
 ExtraExt 0
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 0 0
+Value 6 1 11 7 32 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 2400
 Cond 100
@@ -1296,15 +1487,62 @@ ExtraExt 0
 Wear ACO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
 Identdesc Ten dziwny klucz zdaje siê byæ magicznie bezu¿yteczny.
+~
+Comments ~
+Objend
+#Vnum 10785
+Name pantofle miêkkie~
+Odmiana {ymiêkkiej skórzanej kurtki{x~{ymiêkkiej skórzanej kurtce{x~{ymiêkk± skórzan± kurtkê{x~{ymiêkk± skórzan± kurtk±{x~{ymiêkkiej skórzanej kurtce{x~
+Short {ymiêkka skórzana kurtka{x~
+Descr Lekka, ale wytrzyma³a {ykurtka z miêkkiej skóry{x.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 8
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 12
+Cond 100
+Comments ~
+Objend
+#Vnum 10786
+Name opoñcza we³niana~
+Odmiana {wwe³nianej opoñczy{x~{wwe³nianej opoñczy{x~{wwe³nian± opoñczê{x~{wwe³nian± opoñcz±{x~{wwe³nianej opoñczy{x~
+Short {wwe³niana opoñcza{x~
+Descr {wOpoñcza{x, zrobiona z grubej we³ny górskich owiec le¿y na ziemi.~
+Material jedwab~
+Type armor
+ExtraExt 0|Y
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 6
+LiczbaMnoga 0
+Gender 3
+Value 10 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 32
+Cost 1080
+Cond 100
+Itemdesc Opoñczê tê wykonano niezwykle starannie, nie ma wprawdzie ozdób
+czy kolorowych wzorów, charakterystycznych dla wyrobów górali
+spod Erethe, ale grube nici po³±czy³a z pewno¶ci± mistrzowska
+d³oñ. Opoñcza wygl±da na ciep³±, lekk± i wygodn±.
 ~
 Comments ~
 Objend
@@ -1314,19 +1552,62 @@ Odmiana {Wczepka{x~{Wczepkowi{x~{Wczepek{x~{Wczepkiem{x~{Wczepku{x~
 Short {Wczepek{x~
 Descr Zmiêty kawa³ek {Wbia³ego p³ótna{x le¿y na ziemi.~
 Material jedwab~
-Type clothing
+Type armor
 ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 0 0
+Value 10 10 10 10 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 180
 Cond 100
+Comments ~
+Objend
+#Vnum 10788
+Name bia³y kitel~
+Odmiana {Wbia³ego kitla{x~{Wbia³emu kitlowi{x~{Wbia³y kitel{x~{Wbia³ym kitlem{x~{Wbia³ym kitlu{x~
+Short {Wbia³y kitel{x~
+Descr {WBia³y kitel{x, u¿ywany przez kucharki, wala siê po ziemi.~
+Material jedwab~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 10 10 10 10 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 300
+Cond 100
+Comments ~
+Objend
+#Vnum 10789
+Name okragly stolik~
+Odmiana okraglego stolika~okraglemu stolikowi~okragly stolik~okraglym stolikiem~okraglym stoliku~
+Short okragly stolik~
+Descr Okr±g³y stolik jadalny stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 3 -1 72 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Identdesc ~
 Comments ~
 Objend
 #Vnum 10790
@@ -1340,17 +1621,89 @@ ExtraExt 0|Yd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 25
 Cost 0
 Cond 100
 Itemdesc Ta {wpodkowa{x musia³a z pewno¶ci± nale¿eæ do jakiego¶ wielkiego
 i ciê¿kiego rumaka.
 ~
+Comments ~
+Objend
+#Vnum 10791
+Name pasek skórzany 10791_pasek~
+Odmiana {ypaska{x~{ypaskowi{x~{ypasek{x~{ypaskiem{x~{ypasku{x~
+Short {ypasek{x~
+Descr Skórzany pasek z prosta, metalowa sprz±czk± le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 55
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 20
+Cond 100
+Aff 1 14 5 0 0 0
+Aff 1 17 -5 0 0 0
+Objprog prewear 10791_pasek 100~
+Comments zmieni³em typ grata na clothing - {RGurthg{x ({CTue Oct 14 16:39:10 2003{x)
+doda³em proga nie pozwalaj±cego na zak³adanie bez zrobienia questu - {RGurthg{x ({CTue Oct 14 16:39:31 2003{x)
+~
+Objend
+#Vnum 10792
+Name studnia kamienna~
+Odmiana {ckamiennej studni{x~{ckamiennej studni{x~{ckamienn± studnie{x~{ckamienn± studni±{x~{ckamiennej studni{x~
+Short {ckamienna studnia{x~
+Descr Stara {ckamienna studnia{x wygl±da na nieu¿ywan±... ciekawe dlaczego?~
+Material kamieñ~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 14 0 0 0 0
+Repair 0 0 0 0
+Weight 12000
+Cost 0
+Cond 100
+Itemdesc Studnia zbudowana jest ca³kiem porz±dnie, okolona sporymi
+kamieniami. Twoj± uwagê zwraca fakt, ze s± one od wewn±trz
+pokryte grubym {Wbia³ym nalotem{x...
+~
+Comments ~
+Objend
+#Vnum 10793
+Name stol stolik~
+Odmiana stolika do gry w karty~stolikowi do gry w karty~stolik do gry w karty~stolikiem do gry w karty~stoliku do gry w karty~
+Short stolik do gry w karty~
+Descr Stolik do gry w karty stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 5 0 10 100 0 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 0
+Cond 100
 Comments ~
 Objend
 #Vnum 10799
@@ -1364,16 +1717,43 @@ ExtraExt 0|a
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 2
 Value 10 1 0 5 90 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 60
 Cond 75
 Itemdesc Masz w rêkach niewielkich rozmiarów tobo³ek przygotowany do podró¿y.
 Cokolwiek tam w³o¿ysz - bêdzie ci zdecydowanie ³atwiej to nie¶æ. 
+~
+Comments ~
+Objend
+#Vnum 10800
+Name szafa graj±ca~
+Odmiana {Cs{x{cz{x{Ca{x{cf{x{Cy{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{ce{x{Cj{x~{Cs{x{cz{x{Ca{x{cf{x{Ci{x{ce{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{ce{x{Cj{x~{Cs{x{cz{x{Ca{x{cf{x{Ce{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{c±{x~{Cs{x{cz{x{Ca{x{cf{x{Ca{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{ca{x~{Cs{x{cz{x{Ca{x{cf{x{Ci{x{ce{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{ce{x{Cj{x~
+Short {Cs{x{cz{x{Ca{x{cf{x{Ca{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{ca{x~
+Descr Piêknie rze¼biona, b³yszcz±ca {Cs{x{cz{x{Ca{x{cf{x{Ca{x {cg{x{Cr{x{ca{x{Cj{x{c±{x{Cc{x{ca{x mo¿e zagraæ dla Ciebie jak±¶ piosenkê.~
+Material drewno~
+Type jukebox
+ExtraExt 0|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2400
+Cost 0
+Cond 100
+Itemdesc No proszê, oto prawdziwy cud techniki i dowód na to, ze wspó³praca
+ponadnarodowa jest mo¿liwa. Metalowe czê¶ci i okucia wykona³y krasnoludy,
+rze¼bione w drewnie ozdoby elfy, za¶ ca³o¶æ zaprojektowali gnomi
+in¿ynierowie. Niestety nie masz informacji kto skomponowa³ przeboje,
+jakie mo¿na dziêki tej szafie us³yszeæ... a ¿e s± to przeboje mo¿esz
 ~
 Comments ~
 Objend
@@ -1388,11 +1768,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 1
 Cond 100
@@ -1409,16 +1789,37 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 10 10 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
 Itemdesc Jest to ca³kiem zwyk³y talerz, najlepiej s³u¿±cy do jedzenia zupy. 
 ~
+Comments ~
+Objend
+#Vnum 10803
+Name kaftan kolczy mocny~
+Odmiana kolczego kaftana~kolczemu kaftanowi~kolczy kaftan~kolczym kaftanem~kolczym kaftanie~
+Short kolczy kaftan~
+Descr Mocny kaftan kolczy blyszczy w kurzu.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 5 7 6 10 8 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 1920
+Cond 100
 Comments ~
 Objend
 #Vnum 10809
@@ -1432,11 +1833,11 @@ ExtraExt 0|CEGJLY
 Wear AK
 Wear2Ext 0|G
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 5 5 5 3 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 0
 Cond 100
@@ -1459,7 +1860,18 @@ budynek z prawej i lewej strony. Id±c na wschód trafisz przed drzwi
 wej¶ciowe do zajazdu. 
 ~
 FlagsExt 0
-Sector 28
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10761
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10761
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1483,8 +1895,55 @@ widaæ, ze interes nastawiony jest na zyski i obs³uga nie toleruje ¿adnych
 awantur. W±skie ¶cie¿ki prowadz± na pó³noc i po³udnie st±d, okr±¿aj±c
 budynek. Natomiast wej¶cie jest na wschodzie.
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10787
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10787
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Zajazd~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10762
+ExitExtEnd
+Exit 1
+~
+VName Zajazd~
+~
+0 0 10762
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10788
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10788
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10760
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10760
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1497,6 +1956,30 @@ jeszcze dalej na wschodzie.
 ~
 FlagsExt 0|CDH
 Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10763
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10763
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10761
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+~
+0 0 10761
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1509,8 +1992,52 @@ z ochrony lokalu. W pó³nocno-wschodnim rogu sali dostrzegasz bar, przed
 którym k³êbi siê grupka spragnionych wêdrowców, natomiast na po³udniowym
 wschodzie s± schody prowadz±ce do pokojów go¶cinnych. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10764
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10764
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10767
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10767
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10765
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10765
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10762
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10762
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1522,8 +2049,30 @@ to na pewno znajdziesz gdzie¶ wolne miejsce. Pod ¶cianami zamiast krzese³
 ustawiono d³ugie ³awy, wy³o¿one owcz± skor± - wygl±daj± na bardzo wygodne.
 Na wschód st±d jest bar. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10766
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10766
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10763
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10763
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1535,8 +2084,30 @@ obite miêkk± skor±, na których wygrzewa siê jaki¶ staruch. Oprócz tego s± tu
 oczywi¶cie normalne miejsca do jedzenia i siedzenia. Na wschód st±d s±
 schody prowadz±ce na piêtro. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10763
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10763
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10768
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10768
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1548,18 +2119,40 @@ wegetarianinem. Na ¶cianie widzisz przybite aktualne MENU. Za szynkwasem
 siedzi w³a¶ciciel ca³ego tego interesu, rudy jak marchewka Sven; u¶miecha
 siê do Ciebie przyja¼nie... 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
-Extra menu~
-Polecamy pe³en wybór alkoholi, napitków zimnych i gor±cych, zupy ró¿ne i
-miêsiwa, dla wybrednych kawa³ chleba z miêsiwem. Wszystko to mo¿esz
-sprawdziæ u ober¿ysty, chyba ¿e gdzie¶ sobie aktualnie wyszed³. 
-~
 Extra aktualne~
 Polecamy pe³en wybór alkoholi, napitków zimnych i gor±cych, zupy ró¿ne i
 miêsiwa, dla wybrednych kawa³ chleba z miêsiwem. Wszystko to mo¿esz
 sprawdziæ u ober¿ysty, chyba ¿e gdzie¶ sobie aktualnie wyszed³. 
 ~
+Extra menu~
+Polecamy pe³en wybór alkoholi, napitków zimnych i gor±cych, zupy ró¿ne i
+miêsiwa, dla wybrednych kawa³ chleba z miêsiwem. Wszystko to mo¿esz
+sprawdziæ u ober¿ysty, chyba ¿e gdzie¶ sobie aktualnie wyszed³. 
+~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10767
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10767
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10764
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10764
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1571,8 +2164,53 @@ z drzwi na wschodzie wypada grubas w bia³ym kitlu, nios±c wazê z zup± i po
 chwili znów znika w kuchni. Na pó³noc st±d jest bar gdzie mo¿esz spróbowaæ
 tutejszych specja³ów, za¶ na po³udniu wej¶cie do czê¶ci "hotelowej" zajazdu.
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10766
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10766
+ExitExt 1
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10769
+ExitExtEnd
+Exit 1
+~
+drzwi~
+3 0 10769
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10768
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10768
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10763
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10763
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1584,8 +2222,41 @@ ob³adowany sprzêtem. Wydaje ci siê ¿e miejsce to jest bezpieczne i spokojne,
 pewnie jest jeszcze jakie¶ wolne miejsce je¶li nie w mniejszych pokojach to
 mo¿e chocia¿ w sali wieloosobowej? 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10767
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10767
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10765
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10765
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10781
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10781
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1601,86 +2272,42 @@ FlagsExt 0|CDH
 Sector 0
 Extra piec~
 ~
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10770
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10771
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10772
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10773
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10774
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10775
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10776
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10777
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10778
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10779
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10780
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10780
+ExitExt 1
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10791
+ExitExtEnd
+Exit 1
+~
+drzwi~
+3 0 10791
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10767
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 10767
+Roomprog random 10769 25~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1694,8 +2321,32 @@ a tak¿e gotuj±ce siê na ogniu potrawy. Przy oknie w pó³nocnej
 przyprawy. W pod³odze dostrzegasz spora klapê... jakby ja czym¶
 podwa¿yæ to mo¿e uda siê zej¶æ na dó³?
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10769
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10769
+ExitExt 5
+ExitExtDescription ~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10799
+ExitExtEnd
+Exit 5
+~
+klapa~
+3 0 10799
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1709,6 +2360,39 @@ standard"...
 ~
 FlagsExt 0|CH
 Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10782
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10782
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10783
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10783
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10768
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10768
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1718,8 +2402,30 @@ Descr Jeste¶ w krótkim korytarzyku, biegn±cym od schodów do sali wieloosobowej,
 gdzie mo¿esz wynaj±æ ló¿ko. ¦ciany pokryte s± podobnie jak w przedsionku
 zajazdu sosnow± boazeri±. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10786
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10786
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10781
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10781
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1729,8 +2435,42 @@ Descr Jeste¶ w krótkim korytarzyku o ¶cianach wy³o¿onych boazeri±. Na pó³nocy
 jest pokój go¶cinny, a na po³udniu ma³e drzwi do jakiego¶ pomieszczenia,
 najwyra¼niej zamkniête na g³ucho. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10784
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10784
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10781
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10781
+ExitExt 2
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 103
+ExitExtKey 10783
+ExitExtToVnum 10785
+ExitExtEnd
+Exit 2
+~
+drzwi~
+103 10783 10785
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1741,9 +2481,9 @@ prawdziwy luksus. Mo¿esz zostawiæ tutaj swoje rzeczy, jak równie¿ wynaj±æ
 ³ó¿ko dla siebie. Na ¶cianie dostrzegasz oprawione w drewniane ramki
 INSTRUKCJE. Jedyne wyj¶cie prowadzi na po³udnie. 
 ~
-FlagsExt 0|CHW
+FlagsExt 0|HW
 Sector 0
-Extra instrukcje~
+Extra instrukcja~
 Instrukcja 'Jak wynaj±æ pokój':
 -napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
 -napisz 'offer' aby zobaczyæ ile bêdzie Ciê kosztowa³ rent
@@ -1753,11 +2493,22 @@ Instrukcja 'Jak wynaj±æ pokój':
 -napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
 -napisz 'offer' aby zobaczyæ ile bêdzie Ciê kosztowa³ rent
 ~
-Extra instrukcja~
+Extra instrukcje~
 Instrukcja 'Jak wynaj±æ pokój':
 -napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
 -napisz 'offer' aby zobaczyæ ile bêdzie Ciê kosztowa³ rent
 ~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10783
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10783
 Rentrate 90
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1770,8 +2521,19 @@ dop³yw ¶wie¿ego powietrza zapewniaj± szpary miêdzy deskami w ¶cianie. Widaæ
 przez nie dach stajni obok zajazdu. Pod jedn± ze ¶cian jest niewielka
 le¿anka. 
 ~
-FlagsExt 0|CHV
+FlagsExt 0|HV
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 103
+ExitExtKey 10783
+ExitExtToVnum 10783
+ExitExtEnd
+Exit 0
+~
+~
+103 10783 10783
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1783,9 +2545,9 @@ poupychanego w podró¿ne torby i sakwy. Mo¿esz wynaj±æ tutaj ló¿ko i pewnie
 znajdzie siê trochê miejsca na twoje graty. Na ¶cianie widzisz du¿± p³achtê
 papieru z wypisanymi INSTRUKCJAMI. 
 ~
-FlagsExt 0|CHW
+FlagsExt 0|HW
 Sector 0
-Extra plachta~
+Extra instrukcje~
 Instrukcja 'Jak wynaj±æ pokój':
 -napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
 -napisz 'offer' aby zobaczyæ ile bêdzie Ciê kosztowa³ rent
@@ -1796,12 +2558,23 @@ Instrukcja 'Jak wynaj±æ pokój':
 -napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
 -napisz 'offer' aby zobaczyæ ile bêdzie Ciê kosztowa³ rent
 ~
-Extra instrukcje~
+Extra plachta~
 Instrukcja 'Jak wynaj±æ pokój':
 -napisz 'rent' aby pozostawiæ swoje przedmioty, wychodz±c przy tym z muda
 -napisz 'offer' aby zobaczyæ ile bêdzie Ciê kosztowa³ rent
 -je¶li nie masz ¿adnych przedmiotów u¿yj polecenia 'quit'
 ~
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10782
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10782
 Rentrate 90
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1812,8 +2585,31 @@ Descr Jeste¶ przy rogu budynku, na po³udniu widaæ wej¶cie gdzie ci±gle kto¶ siê
 krêci, za¶ na wschodzie jest dalsza czê¶æ ¶cie¿ki, obiegaj±ca zajazd od
 pólnocy. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10790
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10790
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10761
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10761
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1824,8 +2620,41 @@ po³udniu jest powozownia, podró¿ni poruszaj±cy siê na wozach czy bryczkach
 tam w³a¶nie je zostawiaj±. Je¶li natomiast kto¶ przyjecha³ na wierzchowcu
 mo¿e zostawiæ go w stajni na wschód st±d. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10761
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10761
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10789
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10789
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10802
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10802
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1837,8 +2666,19 @@ zdziwieniem zauwa¿asz ¿e stajenny nie wyci±ga do Ciebie rêki po napiwek. To
 naprawdê niezwyk³e w dzisiejszych czasach. Mo¿na st±d wyj¶æ na zachód na
 ¶cie¿kê przed stajni±. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|H
 Sector 0
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10788
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10788
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1850,8 +2690,42 @@ pó³nocy jak okiem siêgn±æ rozci±gaj± siê monotonne równinne stepy. Mo¿esz
 st±d i¶æ przez tylne wej¶cie do zajazdu na po³udnie lub wróciæ na zachód. Ze
 wschodu dobiega charakterystyczny zapach gnij±cych w wodzie ro¶lin. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 2
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10803
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10803
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10791
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10791
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10787
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10787
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1863,8 +2737,54 @@ przejmuje i pomyje wylewa w³a¶nie tutaj. Na zachodzie s± zbite z grubych
 desek drzwi, za¶ na wschodzie widzisz wysokie trawy i malutk± ¶cie¿kê. Na
 po³udniu za¶ za niskim drewnianym p³otkiem rozci±ga siê niedu¿y ogródek. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10790
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10790
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10793
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10793
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10792
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10792
+ExitExt 3
+ExitExtDescription ~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10769
+ExitExtEnd
+Exit 3
+~
+drzwi~
+3 0 10769
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1879,6 +2799,28 @@ drewniane konstrukcje.
 ~
 FlagsExt 0|C
 Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10791
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10791
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10804
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10804
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1889,8 +2831,42 @@ Dooko³a Ciebie szumi morze traw, siêgaj± Ci prawie do pasa. Widzisz ze sucha
 cze¶æ ³±ki ci±gnie siê dalej na wschód, a na pó³nocy mocno siê obni¿a. Id±c
 na zachód trafisz przed tylne drzwi zajazdu. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10803
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10803
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10794
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10794
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10791
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10791
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1901,8 +2877,31 @@ chwili i¶æ nie mo¿esz... Za w±skim pasem wydm jest wysoki klif. Widzisz ¿e
 ¶cie¿ka skrêca na po³udnie, do zagajnika z³o¿onego z niedu¿ych drzewek o
 bia³ej korze. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 32
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10795
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10795
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10793
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10793
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1913,8 +2912,31 @@ wiej±cego nieustannie od morza wiatru wygiê³y siê w stronê l±du. Na wschód
 st±d klif obni¿a siê na tyle, ze mo¿na siê po nim w miarê bezpiecznie zsun±æ
 na dó³, na pla¿ê. Na pó³nocy jest ³±ka, pokryta soczyst± traw±. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10794
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10794
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10796
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10796
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1928,6 +2950,29 @@ drewna mo¿esz tam zej¶æ, zachowaj jednak ostro¿no¶æ!
 ~
 FlagsExt 0|C
 Sector 4
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10795
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10795
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10797
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10797
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1939,8 +2984,31 @@ klifowe wybrze¿e. Wieje tutaj jakby trochê mniej, ale mimo to masz wra¿enie
 rozkoszuj±c siê jego s³onym smakiem. Id±c na górê wyjdziesz na szczyt klifu,
 natomiast na wschodzie jest ju¿ woda. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10798
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10798
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10796
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10796
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1952,8 +3020,53 @@ nadeptujesz na trójk±tny kawa³ek wulkanicznego szk³a, który nieomal rozcina
 {cci podeszwê. Najwyra¼niej gdzie¶ w pobli¿u musi byæ aktywny wulkan, a morze
 wyrzuca tutaj popio³y i kawa³ki bazaltu - pozosta³o¶ci po erupcjach. {x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10805
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10805
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10809
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10809
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10806
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10806
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10797
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10797
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1964,8 +3077,43 @@ wej¶æ. ¦ciany s± tutaj pokryte wilgoci±, ale zaduchu za bardzo siê nie
 czuje. Ma³e korytarzyki w zachodniej i po³udniowej ¶cianie prowadz± do
 dalszych pomieszczeñ. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 14
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10801
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10801
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10800
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10800
+ExitExt 4
+ExitExtDescription ~
+ExitExtBiernik klapê~
+ExitExtName klapa~
+ExitExtLiczba 0
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 10780
+ExitExtEnd
+Exit 4
+~
+klapa~
+3 0 10780
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1977,8 +3125,19 @@ pustych butelek, najwyra¼niej kto¶ z obs³ugi popija sobie w czasie pracy...
 W powietrzu czujesz charakterystyczny zapach dojrzewaj±cego wina i drewna, z
 którego zrobiono beczki. Mo¿na st±d i¶æ na wschód, do piwnicy. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 14
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10799
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10799
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1991,8 +3150,19 @@ kompotami, a tak¿e beczki z kiszon± kapust±. Na widok tych smako³yków masz
 ochotê czym prêdzej pobiec na górê do gospodarza i zamówiæ ma³e co nieco.
 Jedyne wyj¶cie znajduje siê na pó³nocy. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 14
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10799
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10799
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2003,8 +3173,19 @@ aby zmie¶ci³o siê tutaj kilka wozów czy dyli¿ansów, Ty tak¿e mo¿esz zostawiæ
 swój pojazd, je¶li takowym siê poruszasz. Je¶li natomiast przybywasz na
 wierzchowcu udaj siê do stajni na wschód st±d. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 0
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10788
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10788
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2016,8 +3197,31 @@ kêpy trawy. Kilka zwalonych drzew gnije w b³ocie. Na po³udniu zauwa¿asz ¿e
 teren jakby lekko siê podnosi³, mo¿e tam jest nieco pewniejszy grunt?
 Natomiast na zachodzie jest dró¿ka okalaj±ca zajazd. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 12
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10793
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10793
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10790
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10790
+Roomprog entry 10795 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2030,8 +3234,19 @@ oregano i kminek, a tak¿e ca³e mnóstwo innych gatunków ro¶lin, których nie
 umiesz zidentyfikowaæ. Jedyne wyj¶cie z tego ogródka znajduje siê na
 pólnocy. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 2
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10792
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10792
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2045,8 +3260,19 @@ dono¶nie. Kawa³ek dalej jest ju¿ za g³êboko aby dosiêgn±æ dna. Natomiast na
 wschodzie przej¶cie do klifu blokuje Ci zwalona kupa ¿wiru, piachu i
 wyrzuconych przez morze szcz±tków. {x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 6
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10798
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10798
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2058,8 +3284,30 @@ ska³y. Zauwa¿asz kilka mew, bij±cych siê zawziêcie o jaki¶ kawa³ek wyrzuconej
 przez morze zdech³ej ryby. Mo¿esz st±d i¶æ na pó³noc, lub za¿yæ k±pieli,
 wchodz±c do morza, które jest na wschodzie. {x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10798
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10798
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10808
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10808
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2075,6 +3323,17 @@ tragicznie. {x
 ~
 FlagsExt 0|C
 Sector 34
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10808
+ExitExtEnd
+Exit 4
+~
+~
+0 0 10808
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2088,6 +3347,39 @@ stronê. {x
 ~
 FlagsExt 0|C
 Sector 6
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10809
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10809
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10806
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10806
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10807
+ExitExtEnd
+Exit 5
+~
+~
+0 0 10807
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2100,8 +3392,41 @@ natomiast w kierunku po³udniowym dno gwa³townie opada i jest tam na pewno
 du¿o g³êbiej, poznajesz to po ciemnym odcieniu wody i fakcie ¿e nie widzisz
 dna. {x{x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 4524
+ExitExtEnd
+Exit 1
+~
+~
+0 0 4524
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10808
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10808
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10798
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10798
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2128,8 +3453,83 @@ S
 
 
 #RESETS
+M 100 10760 2 10760 2
 O 100 10761 0 10761
-O 100 2359 0 10764
+M 100 10762 1 10762 1
+E 100 3022 0 16
+E 100 3065 0 5
+E 100 3382 0 7
+E 100 3380 0 8
+M 100 10763 1 10762 1
+E 100 3065 0 5
+E 100 3382 0 7
+E 100 3380 0 8
+M 100 10809 1 10764 1
+M 100 10764 1 10764 1
+E 100 3095 0 16
+E 100 3095 0 19
+E 100 10786 0 12
+O 100 10789 0 10764
+O 100 10793 0 10764
+M 100 10765 1 10765 1
+M 100 10766 1 10766 1
+E 100 10788 0 6
+G 100 10760 0
+G 100 10762 0
+G 100 10763 0
+G 100 10764 0
+G 100 10765 0
+G 100 10766 0
+G 100 10767 0
+G 100 10768 0
+G 100 10769 0
+G 100 10770 0
+G 100 3001 0
+G 100 10772 0
+G 100 10773 0
+G 100 10774 0
+G 100 10775 0
+G 100 10777 0
+M 100 10768 1 10768 1
+E 100 3382 0 7
+E 100 3380 0 8
+E 100 3022 0 16
+E 100 3065 0 5
+M 100 10769 1 10769 1
+E 100 10782 0 16
+E 100 10788 0 5
+M 100 10799 1 10780 1
+E 100 10787 0 6
+E 100 10788 0 5
+M 100 10780 1 10780 1
+E 100 10787 0 6
+E 100 10788 0 5
+M 100 10785 1 10785 1
+E 100 3095 0 16
+E 100 10785 0 5
+M 100 10787 1 10787 1
+M 100 10789 1 10789 1
+M 100 10788 1 10789 1
+O 100 10792 0 10791
+M 100 10800 1 10791 1
+E 100 10945 0 5
+E 100 10942 0 16
+E 100 3380 0 8
+G 100 10799 0
+M 100 10792 1 10792 1
+M 100 10761 1 10794 1
+M 100 10797 4 10797 4
+M 100 10797 4 10797 4
+M 100 10797 4 10798 4
+M 100 10805 2 10798 2
+M 100 10808 1 10798 1
+M 100 10802 1 10802 1
+E 100 10777 0 17
+M 100 10803 2 10803 2
+M 100 10803 2 10803 2
+M 100 10797 4 10805 4
+M 100 10805 2 10806 2
+M 100 10807 1 10807 1
 S
 
 
@@ -2205,7 +3605,7 @@ endif
 #10764b
 buty zakapturzonego
 ~
-mob equip self 3001
+mob equip self 3380
 ~
 #10765
 ~
@@ -2288,9 +3688,9 @@ endif
 #10765_ubr_zed
 ubranie zedka
 ~
-mob equip self 3001
-mob equip self 3050
-mob equip self 79
+mob equip self 3380
+mob equip self 10780
+mob equip self 10786
 ~
 #10769
 ~
@@ -2411,7 +3811,7 @@ else
     delay 1
     tell $n Przyjmij proszê ten skromny znak mojej podziêki.
     mob junk podkowa
-    mob oload 4424
+    mob oload 10791
     give pasek $n
     mob removeflag $n widzial_podkowa
     mob removeflag $n dzq_01
@@ -2541,15 +3941,15 @@ mob setflag $n dz_001 24
 ~
 #10806_onload
 ~
-mob equip self 3025
+mob equip self 10803
 mob equip self 3149
-mob equip self 3057
-mob equip self 3001
+mob equip self 3088
+mob equip self 3380
 ~
 #10809_onload
 ~
 mob addgroup 10806
-mob equip self 4361
+mob equip self 3009
 if rand 60
   mob oload 1407
 endif
@@ -2557,6 +3957,20 @@ endif
 #0
 
 #OBJPROGSNEW
+#10791_pasek
+Prog zapobiega nak³adaniu paska questowego przez tych, którzy owego questa
+nie zrobili. 
+~
+if hasflag $n dzq_wins
+  mob echoat $n Zak³adasz pasek.
+  mob echoaround $n $n zak³ada pasek.
+  obj wear
+else
+  mob echoat $n Próbujesz zapi±æ pasek, ale sprz±czka wymyka ci siê z r±k.
+  mob echoaround $n $n Próbuje zapiaæ pasek, ale sprz±czka wymyka siê <&mu/jej/temu> z rak.
+  mob force $n drop 10791_pasek
+endif
+~
 #consume_zupa
 ~
 mob echoat $n Wypijasz trochê zupy.

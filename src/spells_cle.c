@@ -23,11 +23,11 @@
  * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
  * Trebicki Marek        (maro@killer.radom.net         ) [Maro      ] *
  * Zdziech Tomasz        (tzdziech@gmail.com            ) [Agron     ] *
- *                                                                     *
+ * Mikolajski Krystian   (krs256@gmail.com              ) [Raszer    ]                                                                    *
  ***********************************************************************
  *
- * $Id: spells_cle.c 11986 2013-01-23 13:13:07Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/spells_cle.c $
+ * $Id: spells_cle.c 12017 2013-02-07 18:11:55Z raszer $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/spells_cle.c $
  *
  */
 #if defined(macintosh)
@@ -347,8 +347,8 @@ void spell_cure_light( int sn, int level, CHAR_DATA *ch, void *vo, int target )
            if (paf->modifier < -40) holy_heal_mod -= 30;
            if (paf->modifier < -20) holy_heal_mod -= 30;
        }
-     if(holy_heal_mod > 100) send_to_char( "{gCzujesz jak si³a twojego zaklêcia ro¶nie.{x\n\r", ch);
-     if(holy_heal_mod < 100) send_to_char( "{rCzujesz jak si³a twojego zaklêcia s³abnie.{x\n\r", ch);
+     if(holy_heal_mod > 100) send_to_char( " Czujesz jak si³a twojego zaklêcia ro¶nie. \n\r", ch);
+     if(holy_heal_mod < 100) send_to_char( " Czujesz jak si³a twojego zaklêcia s³abnie. \n\r", ch);
 
 
 
@@ -473,8 +473,8 @@ if ( ( paf = affect_find( ch->affected, gsn_prayer_last )) != NULL )
            if (paf->modifier < -40) holy_heal_mod -= 30;
            if (paf->modifier < -20) holy_heal_mod -= 30;
        }
-     if(holy_heal_mod > 100) send_to_char( "{gCzujesz jak si³a twojego zaklêcia ro¶nie.{x\n\r", ch);
-     if(holy_heal_mod < 100) send_to_char( "{rCzujesz jak si³a twojego zaklêcia s³abnie.{x\n\r", ch);
+     if(holy_heal_mod > 100) send_to_char( " Czujesz jak si³a twojego zaklêcia ro¶nie. \n\r", ch);
+     if(holy_heal_mod < 100) send_to_char( " Czujesz jak si³a twojego zaklêcia s³abnie. \n\r", ch);
 
 	if ( IS_NPC( ch ) || ch->class == CLASS_CLERIC )
     {
@@ -591,8 +591,8 @@ void spell_cure_serious( int sn, int level, CHAR_DATA *ch, void *vo, int target 
         if (paf->modifier < -40) holy_heal_mod -= 30;
         if (paf->modifier < -20) holy_heal_mod -= 30;
     }
-    if(holy_heal_mod > 100) send_to_char( "{gCzujesz jak si³a twojego zaklêcia ro¶nie.{x\n\r", ch);
-    if(holy_heal_mod < 100) send_to_char( "{rCzujesz jak si³a twojego zaklêcia s³abnie.{x\n\r", ch);
+    if(holy_heal_mod > 100) send_to_char( " Czujesz jak si³a twojego zaklêcia ro¶nie. \n\r", ch);
+    if(holy_heal_mod < 100) send_to_char( " Czujesz jak si³a twojego zaklêcia s³abnie. \n\r", ch);
 
     if ( IS_NPC( ch ) || ch->class == CLASS_CLERIC )
     {
@@ -1605,9 +1605,9 @@ void spell_cure_blindness( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 
 	affect_strip( victim, gsn_blindness );
 	affect_strip( victim, gsn_wind_charger );
-	affect_strip( victim, gsn_power_word_blindness );
-	affect_strip( victim, gsn_pyrotechnics );
-	affect_strip( victim, gsn_sunscorch );
+	affect_strip( victim, 215 ); //pwb
+	affect_strip( victim, 51 ); //pyrotechnics
+	affect_strip( victim, 240 ); //sunscorch
 	EXT_REMOVE_BIT( victim->affected_by, AFF_BLIND );
 
 	act( "$n odzyskuje wzrok.", victim, NULL, NULL, TO_ROOM );
@@ -2416,13 +2416,13 @@ void spell_command( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	/* no to trzeba jakis wzorek wymyslec, coby siê nie zawsze wyszlo
 	 * trza by to jakos od inta uzaleznic i troche losowosci dodac
 	 */
-	if ( is_safe( ch, vch, TRUE ) )
+	if ( is_safe( ch, vch ) )
 	{
 		send_to_char( "Nic siê nie sta³o.\n\r", ch );
 		return;
 	}
 
-	if ( IS_AFFECTED( vch, AFF_MINOR_GLOBE ) || IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) )
+	if ( IS_AFFECTED( vch, AFF_MINOR_GLOBE ) || IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) || IS_AFFECTED( vch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
 	{
 		act( "Twoje zaklêcie znika przy zetkniêciu ze sfer± otaczaj±c± $C.", ch, NULL, vch, TO_CHAR );
 		act( "Zaklêcie $z znika przy zetkniêciu z otaczaj±c± ciê sfer±.\n\r", ch, NULL, vch, TO_VICT );
@@ -4791,7 +4791,7 @@ void spell_pyrotechnics( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
 	for ( vch = ch->in_room->people;vch;vch = vch->next_in_room )
 	{
-		if ( IS_AFFECTED( vch, AFF_BLIND ) || is_safe( ch, vch, TRUE ) || is_same_group( vch, ch ) || IS_AFFECTED( vch, AFF_PERFECT_SENSES ) || is_undead(vch) )
+		if ( IS_AFFECTED( vch, AFF_BLIND ) || is_safe( ch, vch ) || is_same_group( vch, ch ) || IS_AFFECTED( vch, AFF_PERFECT_SENSES ) || is_undead(vch) )
 			continue;
 
 		if ( dice( 2, level ) < vch->level || saves_spell_new( vch, skill_table[sn].save_type, skill_table[sn].save_mod, ch, sn ) )
@@ -5295,7 +5295,7 @@ void spell_divine_power( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
 	if ( number_range( 0, luck + LUCK_BASE_MOD ) == 0 )
 	{
-		send_to_char( "Nie uda³o ci siê zdobyæ boskiej mocy.\n\r", ch );
+		send_to_char( "Nie uda³o ci zdobyæ boskiej mocy.\n\r", ch );
 		return;
 	}
 
@@ -5643,7 +5643,7 @@ void spell_chill_metal( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 		if ( ( pAff = affect_find( obj->affected, gsn_heat_metal ) ) )
 		{
-			act( "$p przestaje ¶wiecic g³êbok± czerwienia i wraca do normalnej temperatury.", ch, obj, NULL, TO_CHAR );
+			act( "$p przestaje swiecic gleboka czerwienia i wraca do normalnej temperatury.", ch, obj, NULL, TO_CHAR );
 			affect_remove_obj( obj, pAff );
 			return;
 		}
@@ -5658,7 +5658,7 @@ void spell_chill_metal( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 		affect_to_obj( obj, &aff );
 
-		act( "$p pokrywa siê grub± warstwa szronu.", ch, obj, NULL, TO_ALL );
+		act( "$p pokrywa siê gruba warstwa szronu.", ch, obj, NULL, TO_ALL );
 		return;
 	}
 
@@ -5737,25 +5737,25 @@ void spell_chill_metal( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 			case WEAR_LEGS:
 			case WEAR_HANDS:
 			case WEAR_ARMS:
-				act( "$p pokrywaj± siê grub± warstw± szronu.", ch, obj, NULL, TO_ALL );
+				act( "$p pokrywaja siê gruba warstwa szrony.", ch, obj, NULL, TO_ALL );
 				break;
 			default:
-				act( "$p pokrywa siê grub± warstw± szronu.", ch, obj, NULL, TO_ALL );
+				act( "$p pokrywa siê gruba warstwa szronu.", ch, obj, NULL, TO_ALL );
 				break;
 		}
 
 		if ( IS_NPC( victim ) )
 		{
 			if ( obj->item_type == ITEM_ARMOR )
-				act( "$n jêczy i w wielkim po¶piechu zdejmuje $h!", victim, obj, NULL, TO_ROOM );
+				act( "$n jeczy i w wielkim pospiechu zdejmuje $h!", victim, obj, NULL, TO_ROOM );
 			else if ( obj->item_type == ITEM_WEAPON )
-				act( "$p wypada $x z d³oni.", victim, obj, NULL, TO_ROOM );
+				act( "$p wypada $x z dloni.", victim, obj, NULL, TO_ROOM );
 
 			if ( !IS_OBJ_STAT( obj, ITEM_NOREMOVE ) )
 				unequip_char( victim, obj );
 		}
 		else
-			act( "$p zamra¿a twoj± skórê!", victim, obj, NULL, TO_CHAR );
+			act( "$p zamraza twoja skore!", victim, obj, NULL, TO_CHAR );
 
 		if ( items == 1 )
 			break;
@@ -5829,6 +5829,7 @@ void spell_luck( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
 	AFFECT_DATA af;
+	int vnum_unluck = 292;
 
 	if ( is_affected( victim, gsn_luck ) )
 	{
@@ -5839,11 +5840,11 @@ void spell_luck( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if ( is_affected( victim, gsn_misfortune ) )
+	if ( is_affected( victim, vnum_unluck ) )
 	{
 		act( "Otaczaj±ca $x {yzgni³o{x-{Gzielona{x aura nieszczê¶cia zanika.", victim, NULL, NULL, TO_ROOM );
 		send_to_char( "Otaczaj±ca ciê {yzgni³o{x-{Gzielona{x aura nieszczê¶cia zanika.\n\r", victim );
-		affect_strip( victim, gsn_misfortune );
+		affect_strip( victim, vnum_unluck );
 		return;
 	}
 
@@ -6352,7 +6353,7 @@ void spell_curse( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		{
 			AFFECT_DATA * paf;
 
-			paf = affect_find( obj->affected, gsn_bless );
+			paf = affect_find( obj->affected, skill_lookup( "bless" ) );
 			if ( !saves_dispel( level, paf != NULL ? paf->level :   /* obj->level*/1, 0 ) )
 			{
 				if ( paf != NULL )
@@ -6585,14 +6586,14 @@ void spell_mass_bless( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
 	{
-		if ( !is_same_group( gch, ch ) || is_affected( gch, gsn_bless ) )
+		if ( !is_same_group( gch, ch ) || is_affected( gch, 3 ) )
 			continue;
 
 		if ( gch->class == CLASS_BLACK_KNIGHT )
 			continue;
 
 		af.where = TO_AFFECTS;
-		af.type = gsn_bless;
+		af.type = 3;
 		af.level = level;
 		af.duration = 2 + level / 7.5; af.rt_duration = 0;
 		af.location = APPLY_HITROLL;
@@ -6625,6 +6626,7 @@ void spell_mass_luck( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	AFFECT_DATA af;
 	CHAR_DATA *gch;
 	int count = 0;
+	int vnum_unluck = 292;
 /*
 	if ( ch->position == POS_FIGHTING || ch->fighting )
 	{
@@ -6647,11 +6649,11 @@ void spell_mass_luck( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 		count++;
 
-		if ( is_affected( gch, gsn_misfortune ) )
+		if ( is_affected( gch, vnum_unluck ) )
 		{
 			act( "Otaczaj±ca $x {yzgni³o{x-{Gzielona{x aura nieszczê¶cia zanika.", gch, NULL, NULL, TO_ROOM );
 			send_to_char( "Otaczaj±ca ciê {yzgni³o{x-{Gzielona{x aura nieszczê¶cia zanika.\n\r", gch );
-			affect_strip( gch, gsn_misfortune );
+			affect_strip( gch, vnum_unluck );
 			continue;
 		}
 
@@ -7885,67 +7887,4 @@ void spell_holy_bolt( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	spell_damage( ch, victim, dam, sn, DAM_HOLY, FALSE );
 	return;
-}
-
-void spell_resurrection( int sn, int level, CHAR_DATA *ch, void *vo, int target )
-{
-    OBJ_DATA * obj = ( OBJ_DATA * ) vo, *item, *item_next;
-    CHAR_DATA * victim = NULL;
-    AFFECT_DATA af;
-    char buf[ MAX_INPUT_LENGTH ];
-
-    if ( obj->item_type != ITEM_CORPSE_PC )
-    {
-            print_char( ch, "Nic siê nie sta³o.\n\r" );
-            return;
-    }
-
-    SPIRIT_DATA * duch;
-    for ( duch = spirits; duch != NULL; duch = duch->next )
-    {
-        if ( duch->corpse == obj )
-        {
-            victim = duch->ch;
-        }
-    }
-
-    if ( victim == NULL )
-    {
-            print_char( ch, "Nie jeste¶ ju¿ w stanie wskrzesiæ tych zw³ok.\n\r" );
-            return;
-    }
-
-    if ( victim->pcdata->corpse )
-    {
-        victim->pcdata->corpse = NULL;
-    }
-
-    del_spirit( victim );
-    char_to_room( victim, ch->in_room );
-
-    for ( item = obj->contains; item != NULL; item = item_next )
-    {
-            OBJ_NEXT_CONTENT( item, item_next );
-            obj_from_obj( item );
-            obj_to_char( item, victim ); 
-    }    
-
-    extract_obj( obj );
-
-    act( "Wskrzeszasz $C.", ch, NULL, victim, TO_CHAR );
-    act( "$N wskrzesza $C.", ch, NULL, victim, TO_NOTVICT );
-    switch ( victim->sex )
-    {
-        case 0:
-            act( "Jeste¶ wskrzeszone!", ch, NULL, victim, TO_VICT );
-            break;
-        case 2:
-            act( "Zosta³as wskrzeszona!", ch, NULL, victim, TO_VICT );
-            break;
-        default:
-            act( "Zosta³es wskrzeszony!", ch, NULL, victim, TO_VICT );
-            break;
-    }
-
-    return;
 }

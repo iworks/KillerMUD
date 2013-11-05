@@ -27,7 +27,7 @@ void	convert_obj(OBJ_INDEX_DATA *obj);
 #define MAGIC_NUM 52571214
 
 /* func from db.c */
-extern void assign_area_vnum( unsigned int vnum );                    /* OLC */
+extern void assign_area_vnum( ush_int vnum );                    /* OLC */
 
 /* from db2.c */
 

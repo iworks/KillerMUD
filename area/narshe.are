@@ -1,6 +1,6 @@
 #AREADATA
 Name +# Narshe~
-Builders Kainti Trakt_cf Annor~
+Builders Kainti Trakt_cf~
 VNUMs 28000 28149
 Credits kainti@go2.pl~
 Locked ~
@@ -802,6 +802,47 @@ Material unknown
 MobprogNew death 28012 ABCDEFGHI 100~
 Skin 100
 ExpMultiplier 100
+Mobend
+#Vnum 28018
+Name pusty mob~
+Odmiana {X~{X~{X~{x~{x~
+Short {X~
+Long {X~
+Descr Hmm, przecie¿ to jest zwyk³a ¶ciana! Jak mog³e¶ siê tak pomyliæ....
+~
+Race unique~
+ActExt 0|AB
+Affected 2 0 0 0
+AffectedExt 0|B
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 1d1+999
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form C
+Parts ABJK
+Size medium
+Material unknown
+MobprogNew onload 28013 ABCDEFGHI 100~
+Skin 100
+ExpMultiplier 100
+Resist 0 100
+Resist 4 100
 Mobend
 #Vnum 28019
 Name Carbun sprzedawca pó³elf miecznik~
@@ -1822,6 +1863,28 @@ Mobend
 
 
 #OBJECTS
+#Vnum 28000
+Name pika zwyk³a ¿o³nierska~
+Odmiana ¿o³nierskiej piki~¿o³nierskiej pice~¿o³niersk± pikê~¿o³niersk± pik±~¿o³nierskiej pice~
+Short zwyk³a pika~
+Descr Zwyk³a ¿o³nierska pika stoi tutaj krzywo wbita w ziemie.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 3 1 9 34 32 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1800
+Cond 75
+Itemdesc Jest to zwyk³a ¿o³nierska pika, czyli trzy metry drewna i metalowy grot. 
+~
+Comments ~
+Objend
 #Vnum 28003
 Name kusza lekka zwyk³a ¿o³nierska~
 Odmiana lekkiej kuszy~lekkiej kuszy~lekk± kuszê~lekk± kusz±~lekkiej kuszy~
@@ -1837,12 +1900,107 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 50
 Cond 75
 Itemdesc Jest to zwyk³a ¿o³nierska lekka kusza. Niestety nie posiadasz ¿adnych
 be³tów. 
+~
+Comments ~
+Objend
+#Vnum 28004
+Name szara peleryna ukrycia z³odziejska~
+Odmiana zlodziejskiej peleryny~zlodziejskiej pelerynie~zlodziejsk± pelerynê~zlodziejsk± peleryn±~zlodziejskiej pelerynie~
+Short {Dszara peleryna{X~
+Descr Z³odziejska {Dszara peleryna {xle¿y tu i brudzi siê.~
+Material skóra~
+Type clothing
+ExtraExt 1|A
+Wear ACDFILM
+Wear2Ext 0|P
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 200
+Cond 100
+Aff 1 26 124 3 0 0
+Itemdesc Jest to z³odziejska peleryna szarej barwy, pozwalaj±ca lepiej ukryæ siê w
+cieniu. Jest wykonana ze skór szarych wilków. 
+~
+Identdesc Jest to z³odziejska peleryna szarej barwy, pozwalaj±ca lepiej ukryæ siê w
+cieniu. Nale¿a³a kiedy¶ do drowa w Narshe. Jest wykonana ze skór szarych
+wilków. 
+~
+Comments ~
+Objend
+#Vnum 28005
+Name lekkie ciche z³odziejskie buty~
+Odmiana lekkich butów~lekkim butom~lekkie buty~lekkimi butami~lekkich butach~
+Short lekkie z³odziejskie buty~
+Descr Lekkie z³odziejskie buty cichego chodzenia le¿a tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0|P
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 12000
+Cond 75
+Aff 1 26 129 3 0 0
+Itemdesc S± to ma³ych rozmiarów lekkie buciki z³odziejskie. Dziêki temu, ze s±
+wykonane ze skór zwierzêcych mo¿na siê w nich bardzo dyskretnie poruszaæ. 
+~
+Comments ~
+Objend
+#Vnum 28008
+Name szklanka woda~
+Odmiana szklanki wody~szklance wody~szklankê wody~szklank± wody~szklance wody~
+Short szklanka wody~
+Descr Szklanka wody stoi tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0|U
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 3 0 0 3333 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 1
+Cond 5
+Itemdesc Szklanka, po prostu szklanka.
+~
+Comments ~
+Objend
+#Vnum 28009
+Name Sucha bulka~
+Odmiana suchej bulki~suchej bulce~sucha bulke~sucha bulka~suchej bulce~
+Short sucha bulka~
+Descr Sucha bulka le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 4 120 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1
+Cond 75
+Itemdesc Bulka, sucha, ale da siê zje¶æ.
 ~
 Comments ~
 Objend
@@ -1861,11 +2019,32 @@ LiczbaMnoga 0
 Gender 2
 Value 2 500000 1168 130 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 500
 Cond 75
 Itemdesc Jest to wielkie dwuosobowe ³o¿e.
+~
+Comments ~
+Objend
+#Vnum 28011
+Name cep magiczny~
+Odmiana elfiego cepa bojowego~elfiemu cepowi bojowemu~elfi cep bojowy~elfim cepem bojowym~elfim cepie bojowym~
+Short magiczny cep bojowy~
+Descr Elfi magiczny cep bojowy le¿y tutaj i przyci±ga uwagê przechodniów.~
+Material elfia stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0|E
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 6 2 5 8 1024 1 1
+Repair 0 0 0 0
+Weight 60
+Cost 24000
+Cond 100
+Itemdesc Jest to perfekcyjnie wykonany Cep Bojowy. Material wygl±da na Elfi± stal. Stalowa kula z b³yszcz±cymi æwiekami przyczepiona jest do mocnego ³añcucha, a ten natomiast jest pod³±czony do drewnianej, obronionej z³ota obwódk± i wysadzanej drogimi kamieniami rêkoje¶ci. 
 ~
 Comments ~
 Objend
@@ -1884,13 +2063,34 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 75
 Itemdesc Jest to zabrudzona, lecz bardzo bogato i mistycznie zdobiona rêkoje¶æ,
 pewnie od jakiego¶ wspania³ego miecza. Niestety zosta³ on dawno temu od niej
 od³amany. 
+~
+Comments ~
+Objend
+#Vnum 28015
+Name skórzany bidon~
+Odmiana bidonu~bidonowi~bidon~bidonem~bidonie~
+Short bidon~
+Descr Niewielki skórzany bidon le¿y tu.~
+Material skóra~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 16 16 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 2
+Cond 50
+Itemdesc Jest to ma³ych rozmiarów bidon na wodê wykonany ze skory.
 ~
 Comments ~
 Objend
@@ -1909,13 +2109,168 @@ LiczbaMnoga 0
 Gender 2
 Value 9 2 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 6000
 Cond 100
 Itemdesc Jest to skórzana tykwa wype³niona po brzegi ¶mierdz±cym amoniakiem
 przeznaczonym do pokrywania nim broni. Osoba do której krwi dostanie siê
 amoniak zostanie mocno os³abiona. 
+~
+Comments ~
+Objend
+#Vnum 28018
+Name p³aszcz czerwony~
+Odmiana {Rczerwonego p³aszcza{x~{Rczerwonemu p³aszczowi{x~{Rczerwony p³aszcz{x~{Rczerwonym p³asczem{x~{Rczerwonym p³aszczu{x~
+Short {RCzerwony p³aszcz{x~
+Descr {RCzerwony p³aszcz{x gwardzistów Narshe le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 150
+Cond 75
+Itemdesc Jest to czerwoniutki p³aszcz u¿ywany przez gwardzistów Narshe.
+~
+Identdesc Jest to czerwoniutki p³aszcz u¿ywany przez gwardzistów Narshe. Pozwala Ci on rozmawiaæ po Elfiemu, oraz zwiêksza twe rzuty obronne. 
+~
+Comments ~
+Objend
+#Vnum 28019
+Name du¿e wielkie ³o¿e ³ó¿ko~
+Odmiana wielkiego ³o¿a~wielkiemu ³o¿u~wielkie lo¿e~wielkim ³o¿em~wielkim ³o¿u~
+Short wielkie ³o¿e~
+Descr Du¿e drewniane ³o¿e stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 5000 1168 200 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 75
+Itemdesc Wielkie drewniane lo¿e, nie po¶cielone.
+~
+Comments ~
+Objend
+#Vnum 28020
+Name miedziana kolczuga~
+Odmiana miedzianej kolczugi~miedzianej kolczudze~miedzian± kolczugê~miedzian± kolczug±~miedzienej kolczudze~
+Short miedziana kolczuga~
+Descr Miedziana kolczuga le¿y tutaj.~
+Material mied¼~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 6 8 5 10 7 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1500
+Cond 75
+Itemdesc Lekka miedziana kolczuga.
+~
+Comments ~
+Objend
+#Vnum 28021
+Name miedziana tarcza~
+Odmiana miedzianej tarczy~miedzianej tarczy~miedzian± tarczê~miedzian± tarcz±~miedzianej tarczy~
+Short miedziana tarcza~
+Descr Wielka miedziana tarcza le¿y tutaj.~
+Material mied¼~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 2 18 1 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1200
+Cond 75
+Itemdesc Wielka miedziana tarcza.
+~
+Comments ~
+Objend
+#Vnum 28022
+Name miedziane nagolenniki~
+Odmiana miedzianych nagolenninków~miedzianym nagolennikom~miedziane nagolenniki~miedzianymi nagolennikami~miedzianych nagolennikach~
+Short miedziane nagolenniki~
+Descr Miedziane nagolenniki le¿± tutaj.~
+Material mied¼~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 2
+Value 6 8 5 10 7 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1200
+Cond 75
+Itemdesc Lekkie Miedziane nagolenniki.
+~
+Comments ~
+Objend
+#Vnum 28023
+Name miedziane naramienniki~
+Odmiana miedzianych naramienników~miedzianym naramiennikom~miedziane naramienniki~miedzianymi naramiennikami~miedzianych naramiennikach~
+Short miedziane naramienniki~
+Descr Miedziane naramienniki le¿± tutaj.~
+Material mied¼~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 6 8 5 10 7 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 900
+Cond 75
+Itemdesc Lekkie miedziane naramienniki.
+~
+Comments ~
+Objend
+#Vnum 28024
+Name fotel~
+Odmiana granitowego fotela~granitowemu fotelowi~granitowy fotel~granitowym fotelem~granitowym fotelu~
+Short granitowy fotel~
+Descr Granitowy fotel okryty we³n± stoi tu.~
+Material granit~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 20000 2336 50 200 0 0
+Repair 0 0 0 0
+Weight 1500
+Cost 0
+Cond 100
+Itemdesc Masywny, bardzo ciê¿ki, granitowy fotel.
 ~
 Comments ~
 Objend
@@ -1934,7 +2289,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
@@ -1958,11 +2312,78 @@ LiczbaMnoga 0
 Gender 2
 Value 500 16 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1500
 Cost 0
 Cond 75
 Itemdesc Ciê¿ki granitowy stó³, wala siê po nim wiele dziwnych mikstur i zwojów.
+~
+Comments ~
+Objend
+#Vnum 28027
+Name rega³ drewniany~
+Odmiana rega³u~rega³owi~rega³~rega³em~regale~
+Short drewniany rega³~
+Descr Stary rozpadaj±cy siê rega³ stoi pod ¶cian±~
+Material drewno~
+Type container
+ExtraExt 0|Yd
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 16 0 1 200 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 0
+Cond 5
+Itemdesc Stary rozpadaj±cy siê rega³.
+~
+Comments ~
+Objend
+#Vnum 28028
+Name pa³asz ¿ywotno¶ci zdobiony~
+Odmiana pa³asza {g¿ywotno¶ci{x~pa³aszowi {g¿ywotno¶ci{x~pa³asza {g¿ywotno¶ci{x~pa³aszem {g¿ywotno¶ci{x~pa³aszu {g¿ywotno¶ci{x~
+Short zdobiony pa³asz {g¿ywotno¶ci{x~
+Descr Pa³asz o zdobionej rêkoje¶ci le¿y tutaj.~
+Material elfia stal~
+Type weapon
+ExtraExt 0|GKLS
+Wear ANOZ
+Wear2Ext 0|V
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 3 4 1 0 1 1
+Repair 0 0 0 0
+Weight 120
+Cost 24000
+Cond 100
+Aff 1 13 5 0 0 0
+Itemdesc Jest to piêkny pa³asz wykonany z elfiej stali. Rêkoje¶æ jest piêknie
+zdobiona topazami i ametystami. 
+~
+Comments ~
+Objend
+#Vnum 28029
+Name puklerz zdobiony~
+Odmiana zdobionego puklerza~zdobionemu puklerzowi~zdobiony puklerz~zdobionym puklerzem~zdobionym puklerzu~
+Short zdobiony puklerz~
+Descr Ma³y zdobiony puklerz le¿y tutaj.~
+Material elfia stal~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 2 18 0 2 2 0
+Repair 0 0 0 0
+Weight 30
+Cost 3000
+Cond 75
+Itemdesc Jest to ma³y puklerz zdobiony zlotem na obrze¿ach.
 ~
 Comments ~
 Objend
@@ -1981,12 +2402,55 @@ LiczbaMnoga 0
 Gender 3
 Value 7 1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 9000
 Cond 75
 Itemdesc Ma³a przezroczysta butelka wype³niona bezbarwna i bezwonna ciecz± do
 pokrywania broni. Podobno to trucizna parali¿uj±ca. 
+~
+Comments ~
+Objend
+#Vnum 28031
+Name Seledynowa szata~
+Odmiana {GSzaty m±dro¶ci natury{x~{GSzacie m±dro¶ci natury{x~{GSzatê m±dro¶ci natury{x~{GSzat± m±dro¶ci natury{x~{GSzacie m±dro¶ci natury{x~
+Short {Gszata m±dro¶ci natury{x~
+Descr {GDruidzka szata m±dro¶ci natury le¿y tu.{x~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|Q
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 100
+Cond 75
+Itemdesc Jest to piêkna wykonana z p³ótna szata, farbowana na zielono.
+~
+Comments ~
+Objend
+#Vnum 28032
+Name Seledynowa szata~
+Odmiana {Gzielonej szaty{x~{Gzielonej szacie{x~{Gzielon± szatê{x~{Gzielon± szat±{x~{Gzielonej szacie{x~
+Short {Gzielona szata{x~
+Descr {GZielona szata druidzka{x le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|Q
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 100
+Cond 75
+Itemdesc Jest to piêkna wykonana z p³ótna szata, farbowana na zielono.
 ~
 Comments ~
 Objend
@@ -2005,7 +2469,6 @@ LiczbaMnoga 0
 Gender 0
 Value 500 16 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 0
 Cond 75
@@ -2028,7 +2491,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 14 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 3000
 Cond 75
@@ -2052,7 +2514,6 @@ LiczbaMnoga 0
 Gender 3
 Value 2 6 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 6600
 Cond 75
@@ -2076,12 +2537,56 @@ LiczbaMnoga 0
 Gender 3
 Value 500 16 0 500 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
 Itemdesc Zwykla drewniana polka przyczepiona do sciany.
 ~
+Comments ~
+Objend
+#Vnum 28038
+Name druidzka okuta ksiêga~
+Odmiana okutej ksiêgi~okutej ksiêdze~okut± ksiegê~okut± ksieg±~okutej ksiêdze~
+Short okuta druidzka ksiêga~
+Descr Wielka Druidzka ksiêga okuta stal± le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|TWd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 5 0 91 41 96 50 137
+Repair 0 0 0 0
+Weight 1
+Cost 120000
+Cond 75
+Itemdesc Jest to wielka, bardzo stara i cholernie du¿o warta druidzka ksiêga. Jest przesycona przera¼liwie silna magia natury. 
+~
+Comments nie na orgu - {RKainti{x ({CMon May  9 15:57:47 2005{x)
+~
+Objend
+#Vnum 28040
+Name tabletka odtruwaj±ca antidotum~
+Odmiana tabletki~tabletce~tabletkê~tabletk±~tabletce~
+Short {Wtabletka odtruwaj±ca{x~
+Descr Ponoæ to doskona³e antidotum na zatrucia.~
+Material jedzenie~
+Type pill
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 30 29 -1 -1 -1 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 7200
+Cond 100
+Itemdesc ~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 28042
@@ -2099,13 +2604,34 @@ LiczbaMnoga 0
 Gender 3
 Value 0 35 34 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 18000
 Cond 4
 Itemdesc Ma³a buteleczka z purpurowa ciecz±.
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 28044
+Name stalowy morgensztern~
+Odmiana stalowego morgenszternu~stalowemu morgeszternowi~stalowy morgensztern~stalowym morgenszternem~stalowym morgenszternie~
+Short stalowy morgensztern~
+Descr Du¿y stalowy morgensztern le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 4 2 5 8 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 1500
+Cond 75
+Itemdesc Du¿y stalowy patyk nabijany æwiekami.
+~
 Comments ~
 Objend
 #Vnum 28045
@@ -2123,11 +2649,224 @@ LiczbaMnoga 0
 Gender 2
 Value 9 2 5 7 32 1 0
 Repair 0 0 0 0
-Length 220
 Weight 30
 Cost 12000
 Cond 75
 Itemdesc Wielki kij z wykonany z adamantytu.
+~
+Comments ~
+Objend
+#Vnum 28046
+Name skórzany bat~
+Odmiana skórzanego bata~skórzanemu batowi~skórzany bat~skórzanym batem~skórzanym bacie~
+Short skórzany bat~
+Descr Mocny skórzany bat le¿y tutaj.~
+Material mocna skóra~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 7 3 3 4 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 2400
+Cond 75
+Itemdesc Mocny skórzany bat.
+~
+Comments ~
+Objend
+#Vnum 28047
+Name Szeroki elfi miecz~
+Odmiana szerokiego miecza~szerokiemu mieczowi~szeroki miecz~szerokim mieczem~szerokim mieczu~
+Short szeroki elfi miecz~
+Descr Szeroki elfi miecz le¿y tu i po³yskuje w s³oñcu.~
+Material elfia stal~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 2 5 1 0 1 0
+Repair 0 0 0 0
+Weight 40
+Cost 3000
+Cond 75
+Itemdesc Szeroki miecz wykonany z elfiej stali.
+~
+Comments ~
+Objend
+#Vnum 28049
+Name szata panów natury~
+Odmiana {Gszaty panów natury{x~{Gszacie panów natury{x~{Gszate panów natury{x~{Gszata panów natury{x~{Gszacie panów natury{x~
+Short {Gszata panów natury{x~
+Descr {GSzata panów natury{x le¿y tu i brudzi siê.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|Q
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 300
+Cond 75
+Aff 1 27 3 1 0 0
+Itemdesc Lniana szata farbowana na zielono.
+~
+Comments ~
+Objend
+#Vnum 28050
+Name ³awka spróchnia³a~
+Odmiana spróchnia³ej ³awki~spróchnia³ej ³awce~spróchnia³± ³awkê~spróchnia³± ³awk±~spróchnia³ej ³awce~
+Short spróchnia³a ³awka~
+Descr Stara spróchnia³a i prze¿arta przez korniki ³awka stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0|Yd
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 10 16 110 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 0
+Cond 0
+Itemdesc Jak tak patrzysz na ³awkê, to zaczynasz siê dziwiæ jakim cudem to siê jeszcze nie rozlecia³o...
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 28052
+Name lodowy kostur~
+Odmiana {Clodowego kostura{x~{Clodowemu kosturowi{x~{Clodowy kostur{x~{Clodowym kosturem{x~{Clodowym kosturze{x~
+Short {Clodowy kostur{x~
+Descr Wielki {CLodowy Kostur{x le¿y tutaj i och³adza otoczenie.~
+Material elfia stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 2 4 7 34 1 1
+Repair 0 0 0 0
+Weight 10
+Cost 90000
+Cond 75
+Aff 1 27 4 1 0 0
+Aff 1 27 2 1 0 0
+Itemdesc Jest to d³ugi, dwumetrowy kostur wykonany z elfiej stali i nasaczony
+potê¿n± magiczna moc±. Czujesz od niego przera¼liwe zimno. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 28053
+Name pas mocy~
+Odmiana {Mpasa mocy{x~{Mpasu mocy{x~{Mpas mocy{x~{Mpasem mocy{x~{Mpasie mocy{x~
+Short {Mpas mocy{x~
+Descr Magiczny {Mpas mocy{x lezy tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0|G
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 800
+Cond 75
+Aff 1 27 3 1 0 0
+Itemdesc Skórzany pas nas±czony magiczna moc±.
+~
+Comments ~
+Objend
+#Vnum 28054
+Name dziwny we³niany sweter~
+Odmiana we³nianego swetra~we³nianemu swetrowi~we³niany sweter~we³nianym swetrem~we³nianym swetrze~
+Short dziwny we³niany sweter~
+Descr Dziwny we³niany sweter le¿y tutaj.~
+Material we³na~
+Type clothing
+ExtraExt 0|M
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 50
+Cond 75
+Aff 0 13 0 0 0 K
+Aff 1 22 -1 0 0 0
+Aff 1 23 -1 0 0 0
+Aff 1 17 10 0 0 0
+Objprog get 28000 100~
+Itemdesc Bardzo podejrzany sweter...
+~
+Identdesc Ze strachem orientujesz siê, ze nie do¶æ, ze gdy ten sweter ubierzesz nie bêdziesz móg³ go zdj±æ, to jeszcze bêdziesz mniej odporny na petryfikacje i
+smocze oddechy, to nawet twoja klasa pancerza wyra¼nie spadnie. 
+~
+Comments ~
+Objend
+#Vnum 28055
+Name zatruty tulich~
+Odmiana {gzatrutego{x tulicha~{gzatrutemu{x tulichowi~{gzatruty{x tulich~{gzatrutym{x tulichem~{gzatrutym{x tulichu~
+Short {gzatruty {xtulich~
+Descr Szeroki {gzatruty {xtulich le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0|DKM
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 5 2 128 1 1
+Repair 0 0 0 0
+Weight 0
+Cost 18000
+Cond 75
+Itemdesc Jest to tulich - czyli sztylet ale posiadaj±cy ostrza po obu stronach -
+pokryty siln± {gtrucizn±{x.
+~
+Comments ~
+Objend
+#Vnum 28058
+Name fartuszek bia³y~
+Odmiana bia³ego fartuszka~bia³emu fartuszkowi~bia³y fartuszek~bia³ym fartuszkiem~bia³ym fartuszku~
+Short bia³y fartuszek~
+Descr £adnie wyprasowany bia³y fartuszek le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 40
+Cond 75
+Itemdesc Jest to po prostu zwyk³y p³ócienny fartuszek.
 ~
 Comments ~
 Objend
@@ -2146,7 +2885,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
@@ -2169,7 +2907,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 1
 Cond 75
@@ -2190,6 +2927,124 @@ w takie stworzenia.
 Identdesc ~
 Comments ~
 Objend
+#Vnum 28061
+Name oszlifowane naramienniki~
+Odmiana oszlifowanych naramienników~oszlifowanym naramiennikom~oszlifowane naramienniki~oszlifowanymi naramiennikami~oszlifowanych naramiennikach~
+Short oszlifowane naramienniki~
+Descr £adne oszlifowane naramienniki le¿± tutaj.~
+Material elfia stal~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0|Z
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 2 2 2 8 14 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 2700
+Cond 75
+Itemdesc Piekne oszlifowane naramienniki wykonane z elfiej stali.
+~
+Comments ~
+Objend
+#Vnum 28062
+Name czapka maga nakrycie~
+Odmiana czapki maga~czapce maga~czapkê maga~czapk± maga~czapce maga~
+Short czapka maga~
+Descr Le¿y tutaj nakrycie g³owy maga, kapelusz o zaostrzonym czubku.~
+Material skóra~
+Type clothing
+ExtraExt 0|G
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 700
+Cond 75
+Aff 0 13 0 0 0 E
+Itemdesc Widzisz tutaj typowe nakrycie g³owy maga. Jest to potocznie zwana czapka,
+ma ona spiczasty czubek przypominaj±cy sto¿ek. Rondo zdobione jest wielka
+ilo¶ci± z³otej nici. Co bardziej ciekawscy mog± zauwa¿yæ, ¿e wnêtrze skor±
+jest utwardzane. 
+~
+Comments ~
+Objend
+#Vnum 28063
+Name staro¿ytna ksiêga wywo³ywañ~
+Odmiana {Ystaro¿ytnej ksiêgi wywo³ywañ{x~{Ystaro¿ytnej ksiêdze wywo³ywañ{x~{Ystaro¿ytn± ksiêgê wywo³ywañ{x~{Ystaro¿ytn± ksiêg± wywo³ywañ{x~{Ystaro¿ytnej ksiêdze wywo³ywañ{x~
+Short {Ystaro¿ytna ksiêga wywo³ywañ{x~
+Descr Wielka stara ksiêga wywo³ywañ le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|DTWd
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 183 185 181 163 0
+Repair 0 0 0 0
+Weight 0
+Cost 288000
+Cond 75
+Itemdesc Piêkna ksiêga okuta z³ot± oprawa. Jest naprawdê bardzo stara i pewnie
+niewyobra¿alnie cenna. Na grzbiecie wyryte s± srebrne runy w jakim¶ bardzo
+dziwnym jêzyku. 
+~
+Comments nie na orgu - {RKainti{x ({CMon May  9 15:57:58 2005{x)
+tutaj maja byc tylko spelle co specka zauroczen nie moze - {RKainti{x ({CSat Oct  7 22:51:14 2006{x)
+~
+Objend
+#Vnum 28065
+Name zbroja ³uskowa ¶mierdz±ca~
+Odmiana ¶mierdz±cej zbroi ³uskowej~¶mierdz±cej zbroi ³uskowej~¶mierdz±c± zbrojê ³uskow±~¶mierdz±c± zbroj± ³uskow±~¶mierdz±cej zbroi ³uskowej~
+Short ¶mierdz±ca zbroja ³uskowa~
+Descr Le¿y tutaj dziwna zbroja ³uskowa, któr± to ju¿ czu³e¶ z daleka.~
+Material unused~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 600
+Cond 30
+Itemdesc Zwyk³a zbroja ³uskowa, która ro¿ni siê od innych jedynie tym, ze strasznie od niej ¶mierdzi. 
+~
+Comments ~
+Objend
+#Vnum 28066
+Name ¶mierdz±cy szyszak ³uskowy~
+Odmiana ¶mierdz±cego szyszaka~¶mierdz±cemu szyszakowi~¶mierdz±cy szyszak~¶mierdz±cym szyszakiem~¶mierdz±cym szyszaku~
+Short ¶mierdz±cy szyszak~
+Descr Szyszak ³uskowy le¿y tutaj.~
+Material unused~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 420
+Cond 40
+Itemdesc £uskowy szyszak, strasznie ¶mierdzi.
+~
+Comments ~
+Objend
 #Vnum 28067
 Name maczuga ogona~
 Odmiana maczugi z ogona {CVen-nofre{x~maczudze z ogona {CVen-nofre{x~maczugê z ogona {CVen-nofre{x~maczug± z ogona {CVen-nofre{x~maczudze z ogona {CVen-nofre{x~
@@ -2205,7 +3060,6 @@ LiczbaMnoga 0
 Gender 3
 Value 4 3 5 8 1026 0 1
 Repair 0 0 0 0
-Length 80
 Weight 250
 Cost 120000
 Cond 100
@@ -2232,7 +3086,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 500
 Cond 100
@@ -2256,18 +3109,17 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 500
 Cost 0
 Cond 75
-Objprog input 28002 oderwij ogon od cia³a~
-Objprog input 28002 wyrwij ogon z cia³a~
-Objprog input 28001 obedrzyj cia³o ze skory~
-Objprog input 28001 zerwij skore z cia³a~
-Objprog input 28001 *zerwij skore z cia³a~
-Objprog input 28001 *obedrzyj cia³o ze skory~
-Objprog input 28002 *wyrwij ogon z cia³a~
 Objprog input 28002 *oderwij ogon od cia³a~
+Objprog input 28002 *wyrwij ogon z cia³a~
+Objprog input 28001 *obedrzyj cia³o ze skory~
+Objprog input 28001 *zerwij skore z cia³a~
+Objprog input 28001 zerwij skore z cia³a~
+Objprog input 28001 obedrzyj cia³o ze skory~
+Objprog input 28002 wyrwij ogon z cia³a~
+Objprog input 28002 oderwij ogon od cia³a~
 Comments ~
 Objend
 #Vnum 28070
@@ -2285,11 +3137,32 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 240
 Cost 0
 Cond 75
 Itemdesc Jest to ko¶æ ogonowa, pokryta jeszcze jakimi¶ szcz±tkami niebieskiego cia³a.
+~
+Comments ~
+Objend
+#Vnum 28071
+Name rega³~
+Odmiana rega³u~rega³owi~rega³~rega³em~regale~
+Short szeroki rega³ na ksi±¿ki~
+Descr Szeroki rega³ na ksi±¿ki stoi pod ¶cian±.~
+Material drewno~
+Type container
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 200 16 0 100 20 0 0
+Repair 0 0 0 0
+Weight 1500
+Cost 0
+Cond 75
+Itemdesc Po prostu rega³.
 ~
 Comments ~
 Objend
@@ -2308,7 +3181,6 @@ LiczbaMnoga 0
 Gender 0
 Value -1 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -2339,7 +3211,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -2362,7 +3233,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 0
 Cond 75
@@ -2384,7 +3254,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -2410,10 +3279,32 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
+Comments ~
+Objend
+#Vnum 28077
+Name tasak kuchenny~
+Odmiana tasaka kuchennego~tasakowi kuchennemu~tasak kuchenny~tasakiem kuchennym~tasaku kuchennym~
+Short tasak kuchenny~
+Descr Wielki tasak kuchenny le¿y tutaj i rdzewieje.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 1 13 1 0 -1 0
+Repair 0 0 0 0
+Weight 0
+Cost 10800
+Cond 50
+Itemdesc Jest to trochê pokryty rdza do¶æ ostry tasak kuchenny.
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 28078
@@ -2431,11 +3322,77 @@ LiczbaMnoga 0
 Gender 0
 Value 1 3000 16 102 102 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 0
 Cond 75
 Itemdesc Ma³y drewniany sto³ek.
+~
+Comments ~
+Objend
+#Vnum 28079
+Name skórzana æwiekowana zbroja~
+Odmiana skórzanej zbroi æwiekowanej~skórzanej zbroi æwiekowanej~skórzan± zbrojê æwiekowan±~skórzan± zbroj± æwiekowan±~skórzanej zbroi æwiekowanej~
+Short kap³añska zbroja skórzana æwiekowana~
+Descr Kap³añska zbroja skórzana nabijana stalowymi æwiekami le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|ACDM
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1800
+Cond 75
+Itemdesc Jest to br±zowawa skórzana zbroja nabijana stalowymi æwiekami
+przeznaczona do u¿ytku dla osób maj±cych cos wspólnego z kap³añstwem. 
+~
+Comments ~
+Objend
+#Vnum 28080
+Name skórzana æwiekowana spódniczka~
+Odmiana spódniczki~spódniczce~spódniczkê~spódniczk±~spódniczce~
+Short kap³añska spódniczka æwiekowana~
+Descr Kap³añska spódniczka æwiekowana le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0|ACDM
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Wykonana ze skory spódniczka nabijana stalowymi æwiekami przeznaczona do u¿ycia dla osób maj±cych cos wspólnego z kap³añstwem. 
+~
+Comments ~
+Objend
+#Vnum 28082
+Name têpy nó¼~
+Odmiana têpego no¿a~têpemu no¿owi~têpy nó¿~têpym no¿em~têpym no¿u~
+Short têpy nó¼~
+Descr Pordzewia³y têpy nó¼ le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 3 2 11 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 900
+Cond 75
+Itemdesc Jest to do¶æ stary bardzo stêpiony nó¼ mocno pokryty rdza.
 ~
 Comments ~
 Objend
@@ -2454,7 +3411,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2477,7 +3433,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2498,15 +3453,14 @@ Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 3
-Value 3 3 3 10 15 0 0
+Value 7 7 7 10 10 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 390000
 Cond 75
-Aff 0 13 0 0 1 c
-Aff 1 12 8 50 0 0
 Aff 1 12 5 -10 0 0
+Aff 1 12 8 50 0 0
+Aff 0 13 0 0 1 c
 Itemdesc Jest to piêkna zbroja p³ytowa okryta magiczn± skór± króla lodowych
 salamander Ven-nofre. Ka¿da osoba nosz±ca ten wspania³y wytwór zbrojmistrza
 jest otoczona lodow± po¶wiat±. 
@@ -2533,7 +3487,6 @@ LiczbaMnoga 0
 Gender 3
 Value 50 13 0 5 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 3000
 Cond 75
@@ -2554,7 +3507,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 18000
 Cond 75
@@ -2581,7 +3533,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60000
 Cond 75
@@ -2610,7 +3561,6 @@ LiczbaMnoga 0
 Gender 0
 Value 400 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2633,7 +3583,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 48000
 Cond 75
@@ -2657,7 +3606,6 @@ Gender 0
 Komponent 10 6000
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 42000
 Cond 75
@@ -4258,9 +5206,9 @@ Exit 2
 ~
 ~
 0 0 28040
-Roomprog input 28002 przesuñ rega³~
-Roomprog input 28002 przesun regal~
 Roomprog reset 28003 100~
+Roomprog input 28002 przesun regal~
+Roomprog input 28002 przesuñ rega³~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5737,7 +6685,7 @@ stoi granitowy posag piêknej kobiety. Dooko³a posagu klêczy kilka m³odych
 kobiet, a kap³anki rozgl±daj± siê, czy aby na pewno wszêdzie jest czysto. W
 powietrzu czujesz wspania³a magiczna aurê. 
 ~
-FlagsExt 0|DH
+FlagsExt 0|BDEFHK
 Sector 30
 ExitExt 1
 ExitExtDescription ~
@@ -6713,8 +7661,8 @@ VName Sufit~
 TextOut $n odlatuje w gore.~
 ~
 0 0 28139
-Roomprog random 28008 5~
 Roomprog entry 28008 10~
+Roomprog random 28008 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -8316,30 +9264,30 @@ E 100 28003 0 17
 M 100 28002 3 28007 3
 E 100 28003 0 17
 M 100 28001 3 28009 3
-E 100 3179 0 16
+E 100 3022 0 16
 E 100 3366 0 11
 M 100 28000 3 28011 3
-E 100 3300 0 16
+E 100 28000 0 16
 M 100 28000 3 28011 3
-E 100 3300 0 16
+E 100 28000 0 16
 M 100 28000 3 28011 3
-E 100 3300 0 16
+E 100 28000 0 16
 M 100 28040 1 28011 1
-E 100 3300 0 16
+E 100 28000 0 16
 M 100 28006 7 28012 7
 M 100 28007 4 28013 1
 M 100 28038 4 28013 1
 M 100 28007 4 28014 1
 M 100 28038 4 28014 1
 M 100 28003 1 28017 1
-E 100 4431 0 12
-E 100 3001 0 8
-E 100 3157 0 16
-E 100 3171 0 19
-E 100 4363 0 5
-O 100 2364 0 28018
+E 100 28004 0 12
+E 100 28005 0 8
+E 100 3071 0 16
+E 100 28055 0 19
+E 100 3012 0 5
+O 100 3250 0 28018
 M 100 28004 1 28018 1
-G 100 3333 0
+G 100 34143 0
 O 100 28010 0 28019
 M 100 28006 1 28020 1
 M 100 28039 7 28021 7
@@ -8351,75 +9299,81 @@ M 100 28039 7 28024 7
 M 100 28007 4 28025 1
 M 100 28006 7 28025 7
 M 100 28008 1 28026 1
-G 100 2450 0
-G 100 2499 0
-G 100 6188 0
+G 100 3001 0
+G 100 3025 0
+G 100 28015 0
 G 100 3185 0
 M 100 28009 1 28029 1
-E 100 3057 0 7
-E 100 3002 0 8
-O 100 2355 0 28030
-O 100 3386 0 28030
-P 100 28072 1 3386 1
+E 100 4902 0 12
+E 100 3088 0 7
+E 100 3098 0 8
+O 100 28019 0 28030
+O 100 28071 0 28030
+P 100 28072 1 28071 1
 M 100 28007 5 28031 1
 M 100 28039 7 28032 7
 M 100 28036 4 28033 1
 M 100 28010 1 28034 1
-G 100 3025 0
-G 100 3368 0
-G 100 3057 0
-G 100 3089 0
+G 100 28020 0
+G 100 28021 0
+G 100 28022 0
+G 100 28023 0
 M 100 28011 1 28037 1
-O 100 2351 0 28039
+O 100 28024 0 28039
 M 100 28012 1 28039 1
-P 100 3291 1 28026 1
+P 100 28029 1 28026 1
 O 100 28026 0 28040
 O 100 28033 0 28041
 M 100 28015 1 28041 1
 O 100 28037 0 28050
+P 100 28038 1 28037 1
 M 100 28006 5 28056 1
 M 100 28006 5 28056 1
 M 100 28050 1 28057 1
+G 100 28040 0
 M 100 28019 1 28060 1
-G 100 3300 0
-G 100 3160 0
+G 100 3307 0
+G 100 28044 0
 G 100 28045 0
-G 100 3161 0
-G 100 3169 0
-G 100 3149 0
-G 100 3172 0
+G 100 28046 0
+G 100 28047 0
+G 100 3049 0
+G 100 3021 0
 M 100 28038 4 28061 1
-O 100 2361 0 28066
+O 100 28050 0 28066
 M 100 28021 1 28067 1
+E 100 4902 0 12
 M 100 28020 1 28070 1
-E 50 3385 0 16
-E 50 4424 0 13
+E 50 28052 0 16
+E 50 28053 0 13
+E 50 28054 0 5
 G 100 28059 0
-E 50 4402 0 6
-O 100 2358 0 28071
+E 50 28062 0 6
+O 100 3398 0 28071
 M 100 28022 2 28071 1
-E 100 4397 0 5
+E 100 30060 0 5
 M 100 28027 2 28075 2
 M 100 28027 2 28076 2
-O 100 3386 0 28078
+O 100 28027 0 28078
+P 100 28063 1 28027 1
 M 100 28024 1 28080 1
-E 100 3018 0 5
-E 100 3051 0 7
+E 100 28079 0 5
+E 100 28080 0 7
 M 100 28025 1 28082 1
 M 100 28026 1 28084 1
 M 100 28028 2 28087 2
 M 100 28029 10 28090 5
-E 100 3179 0 16
-E 100 3329 0 5
-E 100 3045 0 6
+E 100 3022 0 16
+E 100 28065 0 5
+E 100 28066 0 6
 M 100 28029 10 28092 5
-E 100 3179 0 16
-E 100 3329 0 5
-E 100 3045 0 6
+E 100 3022 0 16
+E 100 28065 0 5
+E 100 28066 0 6
 M 100 28029 10 28095 5
-E 100 3329 0 5
-E 100 3045 0 6
-E 100 3179 0 16
+E 100 28065 0 5
+E 100 28066 0 6
+E 100 3022 0 16
 M 100 28030 6 28101 1
 M 100 28031 1 28107 1
 M 100 28030 6 28109 1
@@ -8430,7 +9384,7 @@ M 100 28030 6 28121 1
 M 100 28034 3 28126 1
 M 100 28034 3 28128 1
 M 100 28033 1 28129 1
-E 100 3352 0 16
+E 100 28077 0 17
 M 100 28034 3 28131 1
 M 100 28032 1 28132 1
 G 100 28073 0
@@ -8443,11 +9397,11 @@ G 100 28042 0
 G 100 28017 0
 G 100 28035 0
 G 100 28036 0
-O 100 3320 0 28142
+O 100 3058 0 28142
 M 100 28028 2 28144 2
 M 100 28086 1 28145 1
 G 100 28030 0
-E 100 3135 0 16
+E 100 17950 0 16
 S
 
 
@@ -8465,9 +9419,9 @@ tell $n Witamy w wiosce Narshe, prosimy o zachowanie porz±dku.
 ~
 #28002
 ~
-mob equip self 3297
+mob equip self 28011
 mob equip self 3366
-mob equip self 3095
+mob equip self 28061
 ~
 #28003
 ~
@@ -8585,12 +9539,12 @@ mob addaff self ac -75 -1
 #28007
 ~
 mob oload 28025
-mob equip self 4367
+mob equip self 28049
 mob cast 'flame blade' self 50
 ~
 #28008
 ~
-mob equip self 4367
+mob equip self 28031
 mob cast 'flame blade' self 50
 ~
 #28009
@@ -8603,7 +9557,7 @@ mob purge self
 #28010
 ~
 sit fotel
-mob equip self 4367
+mob equip self 28032
 ~
 #28011
 ~
@@ -8944,8 +9898,11 @@ endif
 #28022
 ~
 mob echo {MMadduvien{x zdejmuje pa³asz i puklerz ze ¶ciany.
-mob equip self 3352
-mob equip self 3291
+mob oload 28028 w
+mob oload 28029 w
+
+
+
 if hasflag $n narshe_killer
   mob removeflag $n narshe_killer
 endif
@@ -8991,7 +9948,8 @@ hide
 ~
 #28026
 ~
-mob equip self 3157
+mob oload 28082
+wield noz
 ~
 #28027
 ~
@@ -9095,8 +10053,8 @@ endif
 ~
 #28032
 ~
-mob equip self 3158
-mob equip self 4391
+mob equip self 3069
+mob equip self 4904
 ~
 #28033
 ~

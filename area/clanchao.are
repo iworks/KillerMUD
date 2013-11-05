@@ -139,6 +139,48 @@ Mobend
 
 
 #OBJECTS
+#Vnum 39865
+Name Katana {RChaosu{X~
+Odmiana Katany~Katanie~Katane~Katan±~Katanie~
+Short Katana {RChaosu{x~
+Descr Potê¿na Katana {RChaosu{x le¿y na ziemi b³yszcz±c magiczn± moc±.~
+Material mithril~
+Type weapon
+ExtraExt 0|DHMPY
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 4 4 1 32 1 1
+Repair 0 0 0 0
+Weight 200
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 39867
+Name p³aszcz~
+Odmiana {Wp³aszcza obszytego skór±{x~{Wp³aszczowi obszytemu skór±{x~{Wp³aszcz obszyty skór±{x~{Wp³asczem obszytym skór±{x~{Wp³aszczu obszytym skór±{x~
+Short {Wp³aszcz obszyty smocz± skór±{x~
+Descr Na ziemi le¿y jaki¶ p³aszcz obszyty skór±.~
+Material smocze ³uski~
+Type container
+ExtraExt 1|A
+Wear ADL
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 40 5 0 25 100 0 -1
+Repair 0 0 0 0
+Weight 100
+Cost 3000
+Cond 50
+Comments ~
+Objend
 #Vnum 39869
 Name pos±g chaosu~
 Odmiana pos±gu chaosu~pos±gowi chaosu~pos±g chaosu~pos±giem chaosu~pos±gu chaosu~
@@ -150,11 +192,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -163,6 +205,28 @@ s³u¿y on do sk³adania ofiar i to pewnie dlatego jest ca³y oblany krwi±. Czuæ
 od niego zgnilizn±. Pos±g jest w krzta³cie jakiego¶ dziwnego czterorêkiego
 demona. To naprawdê wielki i odra¿aj±cy pos±g. 
 ~
+Comments ~
+Objend
+#Vnum 39878
+Name przesi±gniêta krwi± kula chaosu~
+Odmiana {Rk{ruli {RC{rhaosu{x~{Rk{ruli {RC{rhaosu{x~{Rk{rule {RC{rhaosu{x~{Rk{rula {RC{rhaosu{x~{Rk{ruli {RC{rhaosu{x~
+Short {R({rPromieniuje{R) {RP{rrzesiaknieta {RK{rrwia {RK{rula {RC{rhaosu{x~
+Descr Przesi±kniêta krwi± kula le¿y na ziemi.~
+Material szk³o~
+Type light
+ExtraExt 0|U
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 3
+Value 0 0 23 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4
+Cond 75
+Objprog prewear 39865 100~
 Comments ~
 Objend
 #Vnum 39879
@@ -176,11 +240,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 10 10 38 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2
 Cond 75
@@ -197,11 +261,11 @@ ExtraExt 0
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 7200
 Cond 67
@@ -237,6 +301,17 @@ Exit 0
 VName Brama~
 ~
 3 0 39866
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6970
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6970
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -394,6 +469,14 @@ wrogów. Strach przenika przez twoje cia³o, na ziemi wszêdzie s± ka³u¿e krwi
 wrogów. ¦ciany znajduj± siê bardzo blisko siebie, nie pozwalaj±c przechodziæ
 wiêcej ni¿ jednej osobie naraz. 
 ~
+FlagsExt 0|CH
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 39871
+Name {Yfree{x~
+Descr ~
 FlagsExt 0|CH
 Sector 8
 Resources 0 0 0 0 0 0 0 0 
@@ -584,11 +667,12 @@ S
 
 #RESETS
 M 100 39865 1 39865 1
-E 100 3128 0 19
+E 100 39865 0 16
 O 100 39869 0 39869
 M 100 39880 1 39880 1
 M 100 39881 1 39881 1
-G 100 3185 0
+G 100 39867 0
+G 100 39878 0
 G 100 39881 0
 M 100 39881 1 39881 1
 S

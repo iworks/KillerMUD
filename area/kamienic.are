@@ -509,7 +509,7 @@ Damage 1d12+0
 Dammagic 0
 Weaponbonus 1
 Damflags 0
-Attack uderzenie
+Attack none
 XAC 5 5 5 7
 Stats 78 60 66 54 90 78 78
 Off X
@@ -807,6 +807,109 @@ Mobend
 
 
 #OBJECTS
+#Vnum 17156
+Name liberia ¿ó³to czerwona ¿ó³ta czerwona zdobiona~
+Odmiana liberii~liberii~liberiê~liberi±~liberii~
+Short ¿ó³to-czerwona liberia~
+Descr Przepiêknie zdobiona {Y¿ó³to{x-{Rczerwona{x liberia migocze z³otymi niæmi.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 10
+Cond 90
+Comments ~
+Objend
+#Vnum 17157
+Name szarawary spodnie bufiaste d³ugie~
+Odmiana szarawarów~szarawarom~szarawary~szarawarami~szarawarach~
+Short szarawary~
+Descr D³ugie bufiaste spodnie le¿± z³o¿one w równ± kostkê.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 8
+Cond 100
+Comments ~
+Objend
+#Vnum 17158
+Name posto³y skórzane buty plecione~
+Odmiana posto³ów~posto³om~posto³y~posto³ami~posto³ach~
+Short skórzane posto³y~
+Descr Zrobione z lipowego ³yka posto³y stoj± tutaj.~
+Material drewno~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 4
+Cond 90
+Itemdesc Zrobione z lipowego ³yka wygodne posto³y. Utkane technik± krzy¿ow±,
+bardzo wygodne buty.
+~
+Comments ~
+Objend
+#Vnum 17159
+Name chusta kosztowna zdobiona droga~
+Odmiana chusty~chu¶cie~chustê~chusta~chu¶cie~
+Short bogato zdobiona chusta~
+Descr Bogato zdobiona chusta noszona zazwyczaj na szyi.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 20
+Cond 95
+Comments ~
+Objend
+#Vnum 17160
+Name pleciony pas rzemieñ kawa³ek~
+Odmiana pasa~pasowi~pas~pasem~pasie~
+Short {ypleciony pas{x~
+Descr Niedbale porzucony kawa³ek {yrzemienia{x le¿y na ziemi.~
+Material skóra~
+Type container
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 5 0 1 100 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 600
+Cond 50
+Comments ~
+Objend
 #Vnum 17161
 Name klucz ma³y ¿elazny~
 Odmiana ¿elaznego klucza~¿elaznemu kluczowi~¿elazny klucz~¿elaznym kluczem~¿elaznym kluczu~
@@ -822,10 +925,29 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 50
+Comments ~
+Objend
+#Vnum 17162
+Name regal~
+Odmiana rega³u~rega³owi~rega³~rega³em~regale~
+Short rega³~
+Descr Dosyæ wysoki rega³ z mnóstwem pó³ek stoi tu.~
+Material drewno~
+Type container
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 200 0 0 200 5 0 0
+Repair 0 0 0 0
+Weight 800
+Cost 1200
+Cond 97
 Comments ~
 Objend
 #Vnum 17164
@@ -843,10 +965,49 @@ LiczbaMnoga 0
 Gender 0
 Value 10 300 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 1
 Cond 87
+Comments ~
+Objend
+#Vnum 17165
+Name chochla~
+Odmiana chochli~chochli~chochlê~chochl±~chochli~
+Short chochla~
+Descr Widzisz chochlê, któr± zgubi³ jaki¶ kucharz.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 1 4 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 600
+Cond 45
+Comments ~
+Objend
+#Vnum 17166
+Name czekman~
+Odmiana czekmana~czekmanowi~czekman~czekmanem~czekmanie~
+Short czekman~
+Descr Ozdobny czekman czeka na podniesienie.~
+Material p³ótno~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 720
+Cond 100
 Comments ~
 Objend
 #Vnum 17167
@@ -864,13 +1025,52 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 7
 Cost 250
 Cond 93
 Itemdesc Wysoka filcowa czapka o jajowatym kszta³cie, ciasno przylegaj±ca do skroni.
 Pokryta drobnymi zielonymi runami znamionuj±cymi magiczno¶æ przedmiotu.
 ~
+Comments ~
+Objend
+#Vnum 17168
+Name espadon miecz dwurêczny wielki~
+Odmiana espadona~espadonowi~espadon~espadonem~espadonie~
+Short espadon~
+Descr Wielki, dwurêczny miecz le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 2 7 21 32 0 0
+Repair 0 0 0 0
+Weight 250
+Cost 4200
+Cond 100
+Comments ~
+Objend
+#Vnum 17169
+Name ³ó¿ko lo¿e du¿e~
+Odmiana ³ó¿ka~³ó¿ku~³ó¿ko~³ó¿kiem~³ó¿ku~
+Short wygodne ³ó¿ko~
+Descr Potê¿ne i wygl±daj±ce na wygodne ³ó¿ko kusi ciê by¶ chwilê odpocz±³.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 -1 1170 105 115 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 0
+Cond 100
 Comments ~
 Objend
 #Vnum 17171
@@ -888,12 +1088,31 @@ LiczbaMnoga 0
 Gender 0
 Value -1 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 6
 Cost 120
 Cond 87
 Objprog get 17156 50~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 17172
+Name pantofelki~
+Odmiana pantofelków~pantofelkom~pantofelki~pantofelkami~pantofelkach~
+Short {ppantofelki{x~
+Descr Zgrabne pantofelki stoj± równo obok siebie.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 12
+Cond 72
 Comments ~
 Objend
 #Vnum 17174
@@ -911,7 +1130,6 @@ LiczbaMnoga 0
 Gender 0
 Value 9 9 9 10 1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 1200
 Cond 85
@@ -932,10 +1150,69 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 17175 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1800
 Cost 0
 Cond 98
+Comments ~
+Objend
+#Vnum 17176
+Name chochla~
+Odmiana chochli~chochli~chochlê~chochl±~chochli~
+Short chochla~
+Descr Widzisz chochlê która zgubi³ jaki¶ kucharz.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 1 4 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 600
+Cond 45
+Comments ~
+Objend
+#Vnum 17179
+Name spodnica~
+Odmiana spódnicy~spódnicy~spódnicê~spódnic±~spódnicy~
+Short spódnica~
+Descr Widzisz brudn± spódnicê.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0|D
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 3
+Cond 100
+Comments ~
+Objend
+#Vnum 17180
+Name zwykla prosta koszula~
+Odmiana koszuli~koszuli~koszulê~koszul±~koszuli~
+Short koszula~
+Descr Le¿y tu zwyk³a prosta koszula.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 5
+Cond 50
 Comments ~
 Objend
 #Vnum 17181
@@ -944,16 +1221,15 @@ Odmiana d³uta~d³utu~d³uto~d³utem~d³ucie~
 Short d³uto~
 Descr Zwyk³e d³uto do obróbki drewna.~
 Material stal~
-Type tool
+Type weapon
 ExtraExt 0
 Wear AN
 Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 1 -1
+Value 2 2 2 11 8 1 -1
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 360
 Cond 78
@@ -974,7 +1250,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 0 1 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 900
 Cond 92
@@ -996,7 +1271,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 1
 Cond 100
@@ -1017,7 +1291,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 999
 Cost 0
 Cond 100
@@ -1038,12 +1311,31 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 2
 Cond 80
 Itemdesc Jest to zwyczajna, prosta, szmaciana lalka.
 ~
+Comments ~
+Objend
+#Vnum 17186
+Name tulich sztylet ostry~
+Odmiana tulicha~tulichowi~tulich~tulichem~tulichu~
+Short ostry tulich~
+Descr Szpiczasto zakoñczony ostry, obosieczny tulich.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 4 11 0 -2 0
+Repair 0 0 0 0
+Weight 4
+Cost 600
+Cond 80
 Comments ~
 Objend
 #Vnum 17187
@@ -1061,10 +1353,217 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 600
 Cost 0
 Cond 79
+Comments ~
+Objend
+#Vnum 17188
+Name cingulum pasek~
+Odmiana cingulum~cingulum~cingulum~cingulum~cingulum~
+Short cingulum~
+Descr D³ugi skórzany pasek le¿y zwiniêty w k±cie.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 2
+Cond 89
+Comments ~
+Objend
+#Vnum 17189
+Name szata liturgiczna czarna~
+Odmiana szaty~szacie~szatê~szat±~szacie~
+Short czarna szata liturgiczna~
+Descr Czarna, liturgiczna szata nie posiada ¿adnych zdobieñ.~
+Material jedwab~
+Type clothing
+ExtraExt 0|MZ
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 13
+Cost 4
+Cond 100
+Aff 1 2 -1 0 0 0
+Aff 1 26 126 10 0 0
+Comments ~
+Objend
+#Vnum 17190
+Name poplamiony fartuch~
+Odmiana poplamionego fartucha~poplamionemu fartuchowi~poplamiony fartuch~poplamionym fartuchem~poplamionym fartuchu~
+Short poplamiony fartuch~
+Descr Poplamiony krwi±, skórzany fartuch.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 2
+Cond 71
+Comments ~
+Objend
+#Vnum 17191
+Name tasak zakrwawiony~
+Odmiana tasaka~tasakowi~tasak~tasakiem~tasaku~
+Short zakrwawiony tasak~
+Descr Zakrwawiony tasak starego Blofa ze sklepu rze¼niczego.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 2 4 0 0 0 1
+Repair 0 0 0 0
+Weight 0
+Cost 1500
+Cond 75
+Extradesc plama~
+Wielka plama zaschniêtej krwi rozci±gaj±ca siê na ca³y trzonek.
+~
+Extradesc ostrze~
+Przepiêknie wyszlifowane, ostre jak nieszczê¶cie.
+~
+Comments ~
+Objend
+#Vnum 17192
+Name w±tróbka miêso królika~
+Odmiana w±tróbki królika~w±tróbce królika~w±tróbkê królika~w±tróbk± królika~w±tróbce królika~
+Short w±tróbka królika~
+Descr Le¿y tu kawa³ek jakiego¶ miêsa.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 9 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 2
+Cond 100
+Comments ~
+Objend
+#Vnum 17193
+Name mieso surowe~
+Odmiana surowego miêsa~surowemu miêsu~surowe miêso~surowym miêsem~surowym miêsie~
+Short surowe miêso~
+Descr Kilogram surowego miêsa le¿y tu.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 12 12 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 3
+Cond 100
+Comments ~
+Objend
+#Vnum 17194
+Name serce wolowe~
+Odmiana serca~sercu~serce~sercem~sercu~
+Short serce wo³owe~
+Descr Zakrwawione serce wo³owe.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 4
+Cond 25
+Comments ~
+Objend
+#Vnum 17195
+Name chusta kolorowa zdobiona~
+Odmiana kolorowej chusty~kolorowej chu¶cie~kolorow± chustê~kolorow± chust±~kolorowej chu¶cie~
+Short kolorowa chusta~
+Descr Przepiêknie ozdobiona, kolorowa chusta wygl±da na tak± w sam raz na szyjê.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear ACE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 17196
+Name pieczeñ~
+Odmiana pieczeni~pieczeni~pieczeñ~pieczeni±~pieczeni~
+Short pieczeñ~
+Descr Pachn±ca, soczysta pieczeñ.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 12 96 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 17197
+Name bu³ka bu³eczka chrupi±ca~
+Odmiana chrupi±cej bu³eczki~chrupi±cej bu³eczce~chrupi±c± bu³eczkê~chrupi±c± bu³eczk±~chrupi±cej bu³eczce~
+Short chrupi±ca bu³eczka~
+Descr Chrupi±ca bu³eczka, lekko przyprószona bia³± m±k±.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 100
 Comments ~
 Objend
 #Vnum 17200
@@ -1082,7 +1581,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 1
 Cond 1
@@ -1104,6 +1602,13 @@ zniszczysz. Na ¶cianie widzisz misternie utkany gobelin.
 ~
 FlagsExt 0|H
 Sector 0
+Extra schody~
+Wy³o¿one bia³ym, poprzecinanym zielonymi ¿y³kami, marmurem prowadz±ce gdzie¶ na
+górê. Przepiêknie zdobione, rêcznie kute barierki zapraszaj±co kusz±, by
+po³o¿yæ na nich swoje d³onie. Ca³o¶æ harmonijna i lekka, mimo rzeczywistej
+wielko¶ci. Mo¿na by podziwiaæ je godzinami i czujesz, ¿e nie by³aby to strata
+czasu. 
+~
 Extra gobelin~
 {W              .   ,
 {W            '{R. '.  \  \
@@ -1127,13 +1632,6 @@ Extra gobelin~
 {w                      /={y`^^{w={y`""{w/`)-.
 {b                 jgs  {w\ =  _ =     =\
 {w                       `""` `--. =   ;{x
-~
-Extra schody~
-Wy³o¿one bia³ym, poprzecinanym zielonymi ¿y³kami, marmurem prowadz±ce gdzie¶ na
-górê. Przepiêknie zdobione, rêcznie kute barierki zapraszaj±co kusz±, by
-po³o¿yæ na nich swoje d³onie. Ca³o¶æ harmonijna i lekka, mimo rzeczywistej
-wielko¶ci. Mo¿na by podziwiaæ je godzinami i czujesz, ¿e nie by³aby to strata
-czasu. 
 ~
 ExitExt 0
 ExitExtDescription Potê¿ne, dêbowe, rze¼bione drzwi ozdobione splecionymi ze sob± symbolami
@@ -2101,12 +2599,12 @@ rozkosznie, ale pamiêtaj, ¿eby nie zasypiaæ w wannie.
 ~
 FlagsExt 0|CL
 Sector 30
-Roomprog input 17157 stand~
-Roomprog input 17157 stan~
-Roomprog input 17157 sta~
-Roomprog input 17156 res~
-Roomprog input 17156 rest~
 Roomprog entry 17156 100~
+Roomprog input 17156 rest~
+Roomprog input 17156 res~
+Roomprog input 17157 sta~
+Roomprog input 17157 stan~
+Roomprog input 17157 stand~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2541,7 +3039,7 @@ ko¶lawymi literami.
 ~
 FlagsExt 0
 Sector 1
-Extra jasny~
+Extra litery~
 {x                           ,--.
    .---.__,-'\___,---.--._/    ",_   ,-.__
   /                               `-'     \
@@ -2552,7 +3050,28 @@ Extra jasny~
 |      ,---.__           ______/
 `---._/       `---._,---'
 ~
-Extra skora~
+Extra zamek~
+Potê¿ny zamek ma zabezpieczaæ przed wej¶ciem do budynku. Ciekawe
+tylko z jakiego powodu? Mo¿e obejrzenie tego co jest napisane na
+kawa³ku jaskrawej skóry wyja¶ni³oby problem. 
+~
+Extra k³ódka~
+Potê¿ny zamek ma zabezpieczaæ przed wej¶ciem do budynku. Ciekawe tylko z
+jakiego powodu? Mo¿e obejrzenie tego co jest napisane na kawa³ku jaskrawej
+skóry wyja¶ni³oby problem. 
+~
+Extra jaskrawy~
+{x                           ,--.
+   .---.__,-'\___,---.--._/    ",_   ,-.__
+  /                               `-'     \
+ /   {RP R O S Z E  N I E   W C H O D Z I Æ{x  \
+ `|    {YG R O Z I   Z A W A L E N I E M{x  ,--'
+  |                                 ___/
+,-`        poprzedni w³a¶ciciel _.-'
+|      ,---.__           ______/
+`---._/       `---._,---'
+~
+Extra napis~
 {x                           ,--.
    .---.__,-'\___,---.--._/    ",_   ,-.__
   /                               `-'     \
@@ -2575,7 +3094,7 @@ Extra kawalek~
 `---._/       `---._,---'
  
 ~
-Extra napis~
+Extra skora~
 {x                           ,--.
    .---.__,-'\___,---.--._/    ",_   ,-.__
   /                               `-'     \
@@ -2586,28 +3105,7 @@ Extra napis~
 |      ,---.__           ______/
 `---._/       `---._,---'
 ~
-Extra jaskrawy~
-{x                           ,--.
-   .---.__,-'\___,---.--._/    ",_   ,-.__
-  /                               `-'     \
- /   {RP R O S Z E  N I E   W C H O D Z I Æ{x  \
- `|    {YG R O Z I   Z A W A L E N I E M{x  ,--'
-  |                                 ___/
-,-`        poprzedni w³a¶ciciel _.-'
-|      ,---.__           ______/
-`---._/       `---._,---'
-~
-Extra k³ódka~
-Potê¿ny zamek ma zabezpieczaæ przed wej¶ciem do budynku. Ciekawe tylko z
-jakiego powodu? Mo¿e obejrzenie tego co jest napisane na kawa³ku jaskrawej
-skóry wyja¶ni³oby problem. 
-~
-Extra zamek~
-Potê¿ny zamek ma zabezpieczaæ przed wej¶ciem do budynku. Ciekawe
-tylko z jakiego powodu? Mo¿e obejrzenie tego co jest napisane na
-kawa³ku jaskrawej skóry wyja¶ni³oby problem. 
-~
-Extra litery~
+Extra jasny~
 {x                           ,--.
    .---.__,-'\___,---.--._/    ",_   ,-.__
   /                               `-'     \
@@ -2879,17 +3377,17 @@ Brr.. Co za nonsensowne my¶li ciê nachodz±.
 ~
 FlagsExt 0|Hc
 Sector 0
-Extra posag~
-Prosty, czarny pos±¿ek ustawiony nad drzwiami wej¶ciowymi symbolizuje
-Variotha, boga chaosu.
+Extra ¶wiece~
+Ustawione gdzieniegdzie ¶wiece rozrzedzaj± panuj±ce tu ciemno¶ci, jednak
+ich ¶wiat³o jest za s³abe aby ca³kowicie rozproszyæ mrok. 
 ~
 Extra pos±¿ek~
 Prosty, czarny pos±¿ek ustawiony nad drzwiami wej¶ciowymi symbolizuje
 Variotha, boga chaosu.
 ~
-Extra ¶wiece~
-Ustawione gdzieniegdzie ¶wiece rozrzedzaj± panuj±ce tu ciemno¶ci, jednak
-ich ¶wiat³o jest za s³abe aby ca³kowicie rozproszyæ mrok. 
+Extra posag~
+Prosty, czarny pos±¿ek ustawiony nad drzwiami wej¶ciowymi symbolizuje
+Variotha, boga chaosu.
 ~
 ExitExt 3
 ExitExtDescription ~
@@ -2921,22 +3419,22 @@ miêsiw. Ich stosy le¿± tak¿e pod ¶cianami i na drewnianej ladzie.
 ~
 FlagsExt 0|H
 Sector 0
-Extra miêsiwa~
-Le¿± dos³ownie wszêdzie - ¶wiñskie ³by, schaby, cynaderki, podgardla i...
-A w³a¶nie. Co to takiego? 
-~
-Extra miêso~
-Le¿± dos³ownie wszêdzie - ¶wiñskie ³by, schaby, cynaderki, podgardla i...
-A w³a¶nie. Co to takiego? 
+Extra lada~
+Wykonana z dêbu, potê¿na lada ju¿ dawno zmieni³a swój kolor na
+rdzawo-czerwony, ale przecie¿ nie mog³o byæ inaczej, skoro ka¿dego dnia
+sp³ywa po niej kilkadziesi±t litrów posoki. 
 ~
 Extra haki~
 Potê¿ne stalowe haki s± mocno wprawione w mur. Mo¿na na jednym powiesiæ
 ca³ego cielaka i nie powinien siê nawet ugi±æ. S± chlub± starego Blofa. 
 ~
-Extra lada~
-Wykonana z dêbu, potê¿na lada ju¿ dawno zmieni³a swój kolor na
-rdzawo-czerwony, ale przecie¿ nie mog³o byæ inaczej, skoro ka¿dego dnia
-sp³ywa po niej kilkadziesi±t litrów posoki. 
+Extra miêso~
+Le¿± dos³ownie wszêdzie - ¶wiñskie ³by, schaby, cynaderki, podgardla i...
+A w³a¶nie. Co to takiego? 
+~
+Extra miêsiwa~
+Le¿± dos³ownie wszêdzie - ¶wiñskie ³by, schaby, cynaderki, podgardla i...
+A w³a¶nie. Co to takiego? 
 ~
 ExitExt 1
 ExitExtDescription ~
@@ -2970,31 +3468,31 @@ lampa stoj±ca na ladzie naprzeciw wej¶cia.
 ~
 FlagsExt 0|H
 Sector 0
-Extra lada~
-Lada odgrodzona jest od g³ównego pomieszczenia kratk±, zapewniaj±c
-bezpieczeñstwo osobie obs³uguj±cej klientów. 
+Extra krata~
+Krat± zabezpieczone zosta³y okna, mniejsz± oddzielono tak¿e ladê i
+zaplecze od g³ównej czê¶ci kantoru. 
 ~
-Extra ¶ciany~
-Zwyk³e ¶ciany, które s± pomalowane na bia³o.
+Extra lampy~
+Jedyne ¼ród³o ¶wiat³a w tym pomieszczeniu.
+~
+Extra lampki~
+Jedyne ¼ród³o ¶wiat³a w tym pomieszczeniu.
+~
+Extra firany~
+Ciê¿kie, siêgaj±ce do samej pod³ogi firany w ciemnym odcieniu, nie
+przechodzi przez nie nawet najmniejszy promyczek s³oñca z zewn±trz. 
 ~
 Extra p³ytki~
 S± to kwadratowe p³ytki o jakim¶ br±zowawym odcieniu. Wygl±daj± trochê
 jak drewno, trochê jak kamieñ i zupe³nie nie wiesz z czego mog± byæ
 zrobione. Za to wiesz na pewno, ¿e by³y zapewne kosztowne. 
 ~
-Extra firany~
-Ciê¿kie, siêgaj±ce do samej pod³ogi firany w ciemnym odcieniu, nie
-przechodzi przez nie nawet najmniejszy promyczek s³oñca z zewn±trz. 
+Extra ¶ciany~
+Zwyk³e ¶ciany, które s± pomalowane na bia³o.
 ~
-Extra lampki~
-Jedyne ¼ród³o ¶wiat³a w tym pomieszczeniu.
-~
-Extra lampy~
-Jedyne ¼ród³o ¶wiat³a w tym pomieszczeniu.
-~
-Extra krata~
-Krat± zabezpieczone zosta³y okna, mniejsz± oddzielono tak¿e ladê i
-zaplecze od g³ównej czê¶ci kantoru. 
+Extra lada~
+Lada odgrodzona jest od g³ównego pomieszczenia kratk±, zapewniaj±c
+bezpieczeñstwo osobie obs³uguj±cej klientów. 
 ~
 ExitExt 1
 ExitExtDescription ~
@@ -3028,8 +3526,25 @@ wyciêtym u góry otworem. Drewniane drzwi wyposa¿one s± w skobel.
 ~
 FlagsExt 0|H
 Sector 0
-Extra lampa~
-Wisz±ca przy wej¶ciu lampa olejna daje nieco ¶wiat³a.
+Extra drzwi~
+Drewniane drzwi zaopatrzone w metalowy skobel.
+~
+Extra skobel~
+Metalowy skobel pozwalaj±cy zaryglowaæ drzwi.
+~
+Extra dziura~
+Najzwyklejsza w ¶wiecie dziura.
+~
+Extra siedzisko~
+Drewniane siedzisko, z wyciêtym w górnej czê¶ci otworem.
+~
+Extra napisy~
+S± to zazwyczaj obsceniczne rysunki i ko¶lawe napisy, do tego w ro¿nych
+jêzykach. 
+~
+Extra wzory~
+S± to zazwyczaj obsceniczne rysunki i ko¶lawe napisy, do tego w ro¿nych
+jêzykach. 
 ~
 Extra ¶ciany~
 Kamienne ¶ciany s± brudne i cale odrapane, w dodatku smród jaki od nich
@@ -3037,25 +3552,8 @@ bije ka¿e przypuszczaæ, ze korzystaj±cy z wychodka nie zawsze zadawali sobie
 trudu by za³atwiæ siê do otworu. Na ¶cianach widniej± przeró¿ne, wyryte
 ostrym narzêdziem napisy i wzory. 
 ~
-Extra wzory~
-S± to zazwyczaj obsceniczne rysunki i ko¶lawe napisy, do tego w ro¿nych
-jêzykach. 
-~
-Extra napisy~
-S± to zazwyczaj obsceniczne rysunki i ko¶lawe napisy, do tego w ro¿nych
-jêzykach. 
-~
-Extra siedzisko~
-Drewniane siedzisko, z wyciêtym w górnej czê¶ci otworem.
-~
-Extra dziura~
-Najzwyklejsza w ¶wiecie dziura.
-~
-Extra skobel~
-Metalowy skobel pozwalaj±cy zaryglowaæ drzwi.
-~
-Extra drzwi~
-Drewniane drzwi zaopatrzone w metalowy skobel.
+Extra lampa~
+Wisz±ca przy wej¶ciu lampa olejna daje nieco ¶wiat³a.
 ~
 ExitExt 1
 ExitExtDescription Drewniane drzwi zaopatrzone w metalowy skobel.
@@ -3091,20 +3589,20 @@ w lichtarzach na ¶cianach oraz na kominku.
 ~
 FlagsExt 0|H
 Sector 0
-Extra kominek~
-Kominek wybudowany jest z jasnego piaskowca i ma gzyms ozdobiony wzorem
-przedstawiaj±cym li¶cie wierzby. Stoj± na nim dwa z³ociste lichtarze
-zawieraj±ce zielone ¶wiece. 
-~
-Extra plecionki~
-S± to wykonane z wikliny ozdoby, przedstawiaj±ce przeró¿ne sceny
-skomponowane z misternie splecionych, barwionych w³ókien. 
-~
 Extra ¶wiece~
 W ca³ym pomieszczeniu znajduje siê kilkana¶cie ¶wiec. Czê¶æ z nich wisi w
 metalowych lichtarzach na ¶cianach oraz na kominku. Z jednej strony baru
 stoi kolekcja niedopalonych ogarków ¶wiec zebrana w malownicz± grupê. Wydaje
 ci siê, ze to od nich pochodzi sosnowy zapach. 
+~
+Extra plecionki~
+S± to wykonane z wikliny ozdoby, przedstawiaj±ce przeró¿ne sceny
+skomponowane z misternie splecionych, barwionych w³ókien. 
+~
+Extra kominek~
+Kominek wybudowany jest z jasnego piaskowca i ma gzyms ozdobiony wzorem
+przedstawiaj±cym li¶cie wierzby. Stoj± na nim dwa z³ociste lichtarze
+zawieraj±ce zielone ¶wiece. 
 ~
 ExitExt 1
 ExitExtDescription ~
@@ -3139,13 +3637,13 @@ nich nieustanny gwar.
 ~
 FlagsExt 0|H
 Sector 0
+Extra papierzyska~
+W k±cie le¿y stos papierów, podartych kopert i rozprutych paczek.
+~
 Extra biurko~
 Biurko widaæ ods³u¿y³o ju¿ w tym miejscu swoje lata. Jest do¶æ
 poplamione, a jego blat jest z jednej strony po³upany jakim¶ ostrym
 narzêdziem. 
-~
-Extra papierzyska~
-W k±cie le¿y stos papierów, podartych kopert i rozprutych paczek.
 ~
 ExitExt 1
 ExitExtDescription ~
@@ -3172,18 +3670,18 @@ piaskowcem u³o¿onym w wielkie p³yty.
 ~
 FlagsExt 0
 Sector 1
-Extra kratka~
-Malutka stalowa kratka, wygl±daj±ca na tak±, któr± mo¿na podnie¶æ je¿eli
-ma siê wystarczaj±c± ilo¶æ si³y. Po bli¿szym przyjrzeniu siê kratce
-dostrzegasz delikatn± po¶wiatê gdzie¶ z g³êbi. 
+Extra p³yty~
+Wielkie szaro-¿ó³te p³yty zbitego piaskowca na których widaæ ¶lady po
+ostatnim deszczu. 
 ~
 Extra ¶lady~
 Przebiegaj±ce przez ca³y plac dziwne zacieki zbiegaj± siê w jednym
 miejscu - przy niewielkiej stalowej kratce w pó³nocno-zachodnim rogu placyku.
 ~
-Extra p³yty~
-Wielkie szaro-¿ó³te p³yty zbitego piaskowca na których widaæ ¶lady po
-ostatnim deszczu. 
+Extra kratka~
+Malutka stalowa kratka, wygl±daj±ca na tak±, któr± mo¿na podnie¶æ je¿eli
+ma siê wystarczaj±c± ilo¶æ si³y. Po bli¿szym przyjrzeniu siê kratce
+dostrzegasz delikatn± po¶wiatê gdzie¶ z g³êbi. 
 ~
 ExitExt 3
 ExitExtDescription ~
@@ -3196,19 +3694,19 @@ Exit 3
 ~
 ~
 0 0 38
-Roomprog input 17161 podnie¶ kratkê~
-Roomprog input 17161 podnie¶ kratê~
-Roomprog input 17161 podnie¶ stalow±~
-Roomprog input 17161 otwórz stalow±~
-Roomprog input 17161 otwórz kratê~
-Roomprog input 17161 otwórz kratkê~
-Roomprog reset 17162 100~
-Roomprog input 17161 otwórz kratka~
-Roomprog input 17161 otwórz krata~
-Roomprog input 17161 otwórz stalowa~
-Roomprog input 17161 open stalowa~
-Roomprog input 17161 open krata~
 Roomprog input 17161 open kratka~
+Roomprog input 17161 open krata~
+Roomprog input 17161 open stalowa~
+Roomprog input 17161 otwórz stalowa~
+Roomprog input 17161 otwórz krata~
+Roomprog input 17161 otwórz kratka~
+Roomprog reset 17162 100~
+Roomprog input 17161 otwórz kratkê~
+Roomprog input 17161 otwórz kratê~
+Roomprog input 17161 otwórz stalow±~
+Roomprog input 17161 podnie¶ stalow±~
+Roomprog input 17161 podnie¶ kratê~
+Roomprog input 17161 podnie¶ kratkê~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3268,16 +3766,16 @@ nadaj± pomieszczeniu do¶æ mroczny wygl±d.
 ~
 FlagsExt 0|H
 Sector 0
+Extra drzwi~
+Wykonane z ciemnego drewna, osadzone w potê¿nej o¶cie¿nicy, ca³e
+wzmacniane metalowymi æwiekami. 
+~
 Extra gobelin~
 Gruby gobelin przedstawia mnóstwo batalistycznych scen, podzielonych
 tematycznie. Na samej górze widaæ rycerzy ubranych w pó³p³ytówki z
 pó³torarêcznymi mieczami. Po prawej stronie artysta odda³ szar¿uj±cy pu³k
 lekkiej jazdy, której buñczuki powiewaj± jak ¿ywe. Na dole widaæ scenê przy
 grobie i widaæ, ¿e ¿egnany by³ kim¶ naprawdê potê¿nym. 
-~
-Extra drzwi~
-Wykonane z ciemnego drewna, osadzone w potê¿nej o¶cie¿nicy, ca³e
-wzmacniane metalowymi æwiekami. 
 ~
 ExitExt 1
 ExitExtDescription Wykonane z ciemnego drewna, osadzone w potê¿nej o¶cie¿nicy, ca³e
@@ -3345,120 +3843,121 @@ S
 #RESETS
 M 100 17156 1 17156 1
 M 100 17157 1 17156 1
-E 100 4383 0 5
-E 100 4409 0 7
-E 100 4418 0 8
-E 100 246 0 6
-E 100 3155 0 13
+E 100 17156 0 5
+E 100 17157 0 7
+E 100 17158 0 8
+E 100 17159 0 3
+E 100 17160 0 13
 G 100 17161 0
 M 100 17158 2 17157 2
-E 100 4411 0 7
-E 100 4418 0 8
+E 100 17157 0 7
+E 100 17158 0 8
 E 100 323 0 16
-E 100 3155 0 13
-E 100 3017 0 5
-O 100 3386 0 17158
-P 100 3132 20 3386 20
-P 100 17164 20 3386 20
+E 100 17160 0 13
+E 100 17166 0 5
+O 100 17162 0 17158
+P 100 3132 20 17162 20
+P 100 17164 20 17162 20
 M 100 17160 1 17160 1
-E 100 4383 0 5
-E 100 4413 0 7
-E 100 3155 0 13
+E 100 17156 0 5
+E 100 17157 0 7
+E 100 17160 0 13
 G 100 3132 0
 G 100 17164 0
-E 100 4416 0 8
+E 100 3013 0 8
 M 100 17159 1 17162 1
-E 100 4409 0 7
-E 100 4418 0 8
-E 100 3155 0 13
+E 100 17157 0 7
+E 100 17158 0 8
+E 100 17160 0 13
 E 100 17167 0 6
-O 100 3386 0 17162
-P 100 17171 1 3386 1
-O 100 3386 0 17163
-P 20 1733 2 3386 1
-O 100 2358 0 17164
-O 100 2358 0 17165
+O 100 17162 0 17162
+P 100 17171 1 17162 1
+O 100 17162 0 17163
+P 20 1739 2 17162 1
+O 100 17169 0 17164
+O 100 17169 0 17165
 O 100 1727 0 17165
 M 100 17162 1 17167 1
-E 100 4421 0 8
-E 100 4384 0 5
+E 100 17172 0 8
+E 100 588 0 5
 E 100 17174 0 12
-O 100 2362 0 17169
-O 100 2364 0 17169
-O 100 2364 0 17169
-O 100 2364 0 17169
+O 100 3251 0 17169
+O 100 3250 0 17169
+O 100 3250 0 17169
+O 100 3250 0 17169
 M 100 17158 2 17171 2
-E 100 3155 0 13
-E 100 3017 0 5
+E 100 17160 0 13
+E 100 17166 0 5
 E 100 323 0 16
-E 100 4418 0 8
-E 100 4409 0 7
-O 100 2358 0 17172
+E 100 17158 0 8
+E 100 17157 0 7
+O 100 17169 0 17172
 M 100 17161 1 17173 2
-O 100 2358 0 17173
-E 100 3155 0 13
-E 100 4414 0 7
-E 100 4418 0 8
-E 100 4368 0 5
+O 100 17169 0 17173
+E 100 17160 0 13
+E 100 17179 0 7
+E 100 17158 0 8
+E 100 17180 0 5
 O 100 17175 0 17174
-O 100 3370 0 17176
-P 100 127 1 3370 1
+O 100 128 0 17176
+P 100 127 1 128 1
 M 100 17163 1 17177 1
 E 100 17182 0 16
-E 100 4410 0 7
-E 100 4418 0 8
-E 100 3155 0 13
-E 100 4364 0 5
+E 100 17157 0 7
+E 100 17158 0 8
+E 100 17160 0 13
+E 100 17180 0 5
 E 100 17181 0 19
 O 100 17184 0 17178
 M 100 17166 1 17179 1
-E 100 3171 0 16
-E 100 4416 0 8
-E 100 3017 0 5
-E 100 4409 0 7
+E 100 17186 0 16
+E 100 3013 0 8
+E 100 17166 0 5
+E 100 17157 0 7
 M 100 17164 3 17180 3
 M 100 17165 1 17181 1
 G 100 17185 0
 M 100 17185 1 17185 1
 M 100 17167 1 17190 1
-E 100 4411 0 7
-E 100 4418 0 8
-E 100 4368 0 5
-E 100 3155 0 13
+E 100 17157 0 7
+E 100 17158 0 8
+E 100 17180 0 5
+E 100 17160 0 13
 M 100 17168 1 17192 1
 M 100 17169 1 17193 1
-E 100 4416 0 8
-E 100 4409 0 7
-E 100 4396 0 5
-E 100 3352 0 16
-G 100 2453 0
-G 100 2458 0
-G 100 2457 0
-G 100 2456 0
-G 100 2455 0
-G 100 2454 0
-O 100 2363 0 17193
+E 100 3013 0 8
+E 100 17157 0 7
+E 100 50371 0 5
+E 100 17191 0 16
+G 100 3101 0
+G 100 3106 0
+G 100 3105 0
+G 100 3104 0
+G 100 3103 0
+G 100 3102 0
+O 100 106 0 17193
 M 100 17170 1 17194 1
-E 100 4411 0 7
-E 100 4416 0 8
-E 100 3155 0 13
-E 100 4368 0 5
+E 100 17157 0 7
+E 100 3013 0 8
+E 100 17160 0 13
+E 100 17180 0 5
 M 100 17171 1 17196 1
-E 100 4416 0 8
-E 100 246 0 6
-E 100 4425 0 13
-E 100 4414 0 7
-G 100 17164 0
-G 100 2450 0
+E 100 3013 0 8
+E 100 17159 0 6
+G 100 588 0
+E 100 17188 0 13
+E 100 17179 0 7
+G 100 17196 0
+G 100 17197 0
 G 100 3100 0
-G 100 2452 0
+G 100 3056 0
 M 100 17172 1 17197 1
-E 100 4409 0 7
-E 100 3155 0 13
-E 100 4368 0 5
-E 100 3171 0 16
-E 100 4416 0 8
-E 100 246 0 6
+E 100 17157 0 7
+E 100 17160 0 13
+E 100 17180 0 5
+E 100 17186 0 16
+E 100 3013 0 8
+E 100 17195 0 3
 S
 
 
@@ -3467,10 +3966,10 @@ S
 #17156
 ~
 stand
-if wears $i 3150
+if wears $i 17168
 else
   mob echo $i  wyci±ga wielki, gro¼nie wygl±daj±cy miecz.
-  mob equip self 3150
+  mob oload 17168
   wield espadon
 endif
 ~
@@ -3937,16 +4436,16 @@ tell $n Nie krzywdz mnie, bo przyjdzie moj tata i da Ci klapsa.
 #17174
 ~
 if rand 50
-mob equip self 4418
+mob equip self 17158
 else
-mob equip self 4416
+mob equip self 3013
 endif
 if rand 50
-mob equip self 3155
+mob equip self 17160
 else
-mob equip self 4425
+mob equip self 17188
 endif
-mob equip self 4377
+mob equip self 17189
 ~
 #17175
 ~
@@ -4049,12 +4548,15 @@ endif
 ~
 #17185
 ~
-mob equip self 4406
-mob equip self 4394
-mob equip self 4418
+mob equip self 44390
+mob equip self 44389
+mob equip self 17158
 if rand 40
   mob oload 14062
 endif
+~
+#17186
+~
 ~
 #zorpeem_laska
 ~

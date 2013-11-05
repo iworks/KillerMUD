@@ -1,396 +1,335 @@
 Messages
-M960314555
-Razor~
-{B[tytulowa strona                 ]{x {WTue Jun  6 20:02:35 2000
-{x~
-{B^f#######    #######      #######     ######      ##
-##    ##   ##    ##    ##    ##    ##    ##     ##
-##    ##   ##    ##    ##    ##    ##           ## 
-#######    #######     ##    ##    ##    ###    ##
-##         ##    ##    ##    ##    ##    ##     ##
-##         ##    ##    ##    ##    ##    ##     ##
-##         ##     ##    ######      ######      ##{x
-
-                {BCzê¶æ druga.{x
-       Czê¶æ pierwsza ma numer 10010
-
-       {GWielka ksiega objawien i rewelacji!!!{x
-       
-Widzisz na nastepnej stronie dlugi spis tresci....
-       
+M954242194
+Agron~
+Nazwa muda Tue Mar 28 13:16:34 2000
+~
+Wyszla na swiatlo dnia kwestia nazwy dla naszego muda, prosze na tej tablicy umieszczac swoje propozycje..
+no i oczywiscie poparcia dla propozycji innych :)
+Agron
+~
+M954242262
+Furgas~
+Propozycja nr 1 Tue Mar 28 13:17:42 2000
+~
+Ta tabliczka sluzy do proponowania nazwy MUDa wiec to robie:)
+- Riven
+- Ripper
+- TubularWorld
+- NibyLandia
+- BlackVoid
+- Overmind
+- Nexus
+- Liberty
  
+Na razie wsio ide dalej myslec:)
 ~
-M960314696
-Razor~
-{B[spis tresci                     ]{x {WTue Jun  6 20:04:56 2000
-{x~
->  1. Spis tresci
-  2. Zabawa z flagami
-  3. Delay co i jak
-  4. Skladnia progow
-  5. Pulapki ({R^fNOWOSC{x) 
+M954242934
+Gollum~
+propozycja 2 Tue Mar 28 13:28:54 2000
+~
+Black Hole
+Red Dwarf
+Atlantis
+Riverstide
+~
+M954253327
+Maro~
+Nazwa Tue Mar 28 16:22:07 2000
+~
+Nie wiem, specjalnie sie nie nadaje do wymyslania nazw. hmmm
+Wrota Chaosu?
+zeby bylo groznie, efektownie, etc. 
+Czas Apokalipsy?
+A co, hehe. Oczywiscie nazwy bez znakow zapytania.
+No to tyle na razie
+~
+M954314924
+Morgoth~
+nazwa Wed Mar 29 09:28:44 2000
+~
+Odchlan
+Smocza Ziemia
+Brama
+Siedem Gwiazd
+Plomien
+----
+z Tolkiena:
+Aldalome (cien drzewa albo serce lasu)
+Amon Sul       (wzgorze <gora> wiatru, albo Wichrowe Wzgorza)
+Barad-Dur (czarna wieza)Dol Guldur     (wzgorze czarow)
+Efel Duath     (mury z ciemnosci)
+Emyn Arnen     (krolewskie wzgorza)
+Fen Hollen     (zamkniete drzwi)
+Henneth Annun  (oko zachodzacego slonca)
+Imlad Morgul   (dolina zlych czarow)
+Ithilien (ziemia ksiezyca)
+Kalakirya (przelecz swiatla)
+Karach Angren  (zelazna paszcza)
+Mallorn (zlote drzewo)
+Methedras (ostatni szczyt)
+Minas Anor     (wieza zachodzacego slonca).s
+Minas Ithil    (wieza wschodzacego ksiezyca)
+Minas Morgul   (wieza zlych czarow)
+Miruvor (nektar albo napoj bogow)
+Morannon (czarna brama)
+Narbeleth (schylek slonca)
+Nenuial (jezioro zmierzchu)
+Numenor (serce zachodu)
+Osgiliath (cytadela gwiazd)
+Pinnath Gelin  (zielone gory)
  
+to na razie tyle
 ~
-M979472079
-Razor~
-{B[progfun                         ]{x {WSun Jan 14 12:34:39 2001
-{x~
-{RFLAGI{x
-
-Dla tych co sa nie w temacie maly wstep :).
-Flagi powstaly ogolnie jako dopelnienie zmiennych progowych, jednak
-w skutek mojego lenistwa zmiennych na razie nie ma. Jednakze calkiem
-sporo rzeczy mozna zrobic na flagach. Flagi mozna podzielic na 2 
-kategorie: czasowe i zmienne. Te pierwsze nakladane sa na jakis czas,
-jesli na 0 to do reboota, -1 na zawsze (tylko dla postaci i obiektow).
-Jednostka czasu jest tick/hour.
-Druga kategoria flag nie jest modyfikowana co tick. Mozna je zmieniac tylko
-z poziomu progow. Rozroznianie odbywa sie przez nazwe, flagi zaczynajace 
-sie od 'reg...' uznawane sa za flagi zmienne, reszta za czasowe.
-
-
-Dostepne sa komendy warunkowe:
-- hasflag, roomhasflag  - sprawdzajace czy obiekt/room/postac maja
-			  okreslona flage.
-
-sprawdzanie flagi na postaciach badz obiektach
-{Cif hasflag $n leszcz
-say Czesc leszczu.
-else
-say Czesc.
-endif{x
-
-sprawdzanie flag w roomach
-{Cif roomhasflag leszcz
-mob echoat $n Widzisz wielki napis 'LESZCZ' na ziemi.
-endif{x
-
-
-- objflag, roomflag, charflag - pozwala na dokladnie sprawdzenie wartosci
-				duration flagi.
-				
-obiekty:
-{Cif objflag $o reg1 > 10
-    mob echoat $n Pierscionek rozsypuje sie.
-    obj remove
-endif{x
-Jesli wartosc flagi reg1 przekroczyla 10 przedmiot znika.
-
-postacie
-{Cif charflag $n reg2 > 5
-say Mam juz piec kamieni, musisz jeszcze znalezc costam.
-endif{x
-Wiadomo o co chodzi.
-
-roomy
-{Cif roomflag $n reg1 > 1
-mob echoat $n Juz mi sie pomysly skonczyly.
-endif{x
-
-Komendy tworzace i ustawiajace flagi:
-1.mob setflag - ta komenda mozna nalozyc flage na postacz badz room.
-skladnia: mob setflag room/name_postaci nazwa_flagi wartosc_poczatkowa
-{Cmob setflag room xok 0
-mob setflag $n zabil 0{x
-2.mob modflag - sluzy do modyfikowania licznika flagi.
-skladnia: mob modflag room/name_postaci 'mod/set' nazwa_flagi wartosc.
-'mod/set' okresla czy modyfikujemy czy tez ustawiamy wartosc.
-{Cmob modflag $n mod reg1 1{x - flaga $n reg1 zwiekszy sie o 1
-{Cmob modflag $n mod reg1 -2{x - flaga $n reg1 zmniejszy sie o 2
-{Cmob modflag $n set reg1 1{x - flaga $n reg1 rowna sie 1
-{Cmob modflag $n set reg1 0{x - flaga $n reg1 rowna sie 0
-3.mob removeflag to samo co mob setflag - usuwa flage
-Identyczny zestaw komend jest takze dla obj xxx:
-1.obj setflag
-2.obj modflag
-Dzialanie jest identyczne.
-
-
-	
-			 
-
-
+M954320998
+Furgas~
+Furgas Wed Mar 29 11:09:58 2000
 ~
-M979472087
-Razor~
-{B[delay and stuff                 ]{x {WSun Jan 14 12:34:47 2001
-{x~
-Delay jest dosc prosty w osbludze, aczkolwiek nie moge powiedziec
-ze jest w 100% sprawny :). Dzialanie polega na przerwaniu wykonywania
-proga i wznowienia go za jakis czas (argument delay). Dzialanie delay
-dla mob i room progow lekko sie rozni, natomiast obiekty nie maja
-delay. Mob prog delay bedzie sie wykonywal nawet jak nikogo nie bedzie w
-roomie, oprocz moba wykonywujacego proga. Room prog juz nie jest taki sprytny
-i nie wykona sie do konca jesli nie bedzie zadnego gracza w roomie.
-Oprocz tego, nie mozna uruchomic innego proga jesli jest wykonywany delay.
-Dla zainteresowanych tematem, algorytm delay jest podobny do multitaskingu,
-progi(procesy) w przypadku wystapienia delay, zapisuja sobie stan proga:
-adres instrukcji aktualnej, argumenty proga, stan tablic warunkowych.
-Po skonczeniu odliczania delay, kod muda kontynuuje wykonywanie proga.
-Jest to dosc skomplikowane i mozliwe ze sa jakies w tym bugi.
-Jednostka czasowa jest cos okolo sekundy:), sam ogolnie nie wiem.
+Forgotten Place ew. Zapomniane Miejsce
+Circle of Time ew. Kolo Czasu
+Rivendell
+a moze po prostu Kraina
+na razie
 ~
-M979472093
-Razor~
-{B[parser                          ]{x {WSun Jan 14 12:34:53 2001
-{x~
-Tu bedzie kilka slow na temat skladni progow (mob room i obj),
-mozliwe konstrukcje etc.
-
-Najprostszy prog moze wygladac nastepujaco:
-{Csay czesc
-smile
-emote cos tam robi
-mob damage $N -5 -15{x
-Nie ma zadnych ifcheckow, prosta sekwencja komend. Jakby ktos nie wiedzial,
-mob damage z ujemnymi obrazeniami leczy ;).
-
-Ciut bardziej skomplikowane progi moga zawierac instrukcje warunkowe:
-zwane potocznie ifcheckami, pelna lista kilka kartek wczesniej.
-
-{Cif level $n < 15
- say Spadaj stad mieczaku!
- fume $n
-else
- tickl $n
- squeal $n
- say Witaj Mistrzu!!!
- mob transfer $n 31
-endif{x
-
-No ten prog pasuje np do trigera exit dla mob progow. Jakis straznik sobie stoi
-i przepuszcza ludzi dla danego wyjscia tylko od 15 levela.
-
-Skladnia ifcheckow moze zawierac operatory logiczne (and, or)
-np:
-
-{Cif level $n < 15 and hpcnt $n >95
- say Spadaj stad mieczaku!
- fume $n
-else
- tickl $n
- squeal $n
- say Witaj Mistrzu!!!
- mob transfer $n 31
-endif{x
-
-Tutaj oprocz wymaganego 15 levela, gracz musi miec przynajmniej 95% swoich hp.
-
-{Cif level $n < 15 or hasflag $n leszcz
- say Spadaj stad mieczaku!
- fume $n
-else
- tickl $n
- squeal $n
- say Witaj Mistrzu!!!
- mob transfer $n 31
-endif{x
-
-W tym przypadku gracz, jesli ma level mniejszy niz 15 albo flage leszcz,
-zostanie potraktowany niezbyt mile.
-
-
-Nastepny patent:
-{Cif hasflag $n questuje
-else
-mob echoat $n Mobik nie zwraca na ciebie uwagi.
-end
-endif
-
-emote questuje: Musisz mi pomoc! Jakis debil zabral mi moje durne lopaty i gdzies schowal.
-emote questuje: Lopaty mozna znalezc w sklepie z zelastwem.
-{x
-
-Pierwsza czesc kodu pokazuje jak mozna zrobic negacje logiczna (wiem ze to 
-banaly), czasami wygodniej jest sprawdzic jakis warunek odwrotny i wyjsc
-niz tworzyc coraz to nowe petle ifcheckow. Mozna sobie skrocic pisanie.
-Zapomnialbym, istnieje cos takiego jak 'end' albo 'break'. Powoduje to 
-natychmiastowe zakonczenie wykonywania proga. Tez ogolnie przydatne hehe.
-
-
-No teraz z grubej rury.
-Jak mozna zrobic emulacje rozdzek i berl na komendzie use:
-Ten prog podczepiamy pod obiekt komenda:
-addp XXX use off (czyli uzycie obiektu bedzie powodowac atak ofiary)
-Tresc proga:
-{C
-if hasflag $o used
-else
- obj setflag used -1
- obj setflag reg1 0
-endif
-
-
-if objflag $o reg1 > 9
- mob echoat $n $O zaczyna wibrowac i po chwili znika w blysku swiatla.
- obj remove
-end
-endif
-
-mob echoat $n $O rozblyskuje na chwile oslepiajacym swiatlem.
-char cast 'shocking g' $t 10
-char cast 'magic mi' $r 10
-obj modflag mod reg1 1{x
-
-Taki przedmiot bedzie sie zachowywal jak rozdzka z 10 ladunkami czarow 
-'magic missile' i 'shocking grasp' na poziomie 10. Po wyczerpaniu ladunkow
-obiekt znika. Nalezy pamietac ze, w obiekt na poczatku nie flagi reg1, w
-zwiazku z tym komenda modflag nic nie zrobi. Mozna sie posluzyc dodatkowa 
-flaga 'np: used'. Nastepna ciekawostka to komenda char xxx: jest to po prostu
-normalna komenda mob xxx, tyle ze wykonywana przez gracza.
-Komendy obj xxx, char xxx, modflag, flagi typu regX powstaly dla
-obj progow i komendy use. 
-
-
-
-Nalezy sie kilka slow dla specjalnych flag dla obiektow typu regX. Napisalem
-juz kilka slow na ten temat, jednak nie zaszkodzi przypomniec to jeszcze raz.
-Te flagi nie sa zmniejszane co tick, jak wszystkie flagi sa zapisywane w pliku
-gracza. Mozna je modyfikowac tylko przy uzyci komend obj modflag.
-Normalne flagi moga sluzyc do odmierzania czasu, flagi regX moga sluzyc
-jako zmienne typu calkowitego.
-
-{RKwestia $n, $N ... wiadomo czego:{x
-
-Osoby:
-1.typowe: $n,$N,$t,$T -duze litery to short description dla mobow
-2.odmiana: $z,$Z,$x,$X,$c,$C,$v,$V,$b,$B - po kolei od dopelniacza
-3.roznorakie: $r,$R - losowa postac w roomie
-4.specjalne: $q, $Q - name i short descriptions celu moba
-5.hmm: $j - on,one ono zaleznie od plci moba
-6.     $e - to samo ale dla ch
-
-Obiekty:
-1. $o,$O,$p,$P obiekty (moga byc 2 :))
-
-Ogolnie to nie znam nikogo kto by sie orientowal jak, gdzie, ktory $... 
-dziala. Jedyny sposob zeby jakos sobie z tym radzic to zrobic na 
-poczatek zrobic proga w stylu:
-say $n
-say $N
-say $o
-say $O
-say ....
-i tak wstawiac te say az znajdziemy interesujacy nas $... :)
-wydaje mi sie ze w przypadku jakis glupot raczej mudzik sie nie wywali...
-btw ja tak robie i jest ok hehe...
-
-
-{RDynamicznie zmiana opisy i wyjsc roomow{x
-Z poziomu progow mozna dowolnie modyfikowac wyjscia z roomow oraz opisy roomow.
-Wiaze sie z tym kilka niedogodnosci, jednakze daje to tez spore mozliwosci.
-Po pierwsze kod muda ma jedna liste roomow, wiec jesli zmienimy wyjscie badz
-opis roomu i zrobimy asave world, to zapiszemy aktualny wyglada roomu czyli 
-zmodyfikowany juz room. No ale zawsze jest jakis sposob. Jest sobie calkiem
-przydatny triger roomprogow 'reset' ktory calkowicie ten problem rozwiazuje.
-Co prawda jest to troche czasochlonne, ale efekty sa na tyle fajne ze warto.
-Po pierwsze jesli dany room w zwiazku z jakims zdarzeniem zostanie zmieniony,
-np trigger 'input' badz cokolwiek sobie ktos wymysli, to nalezy od razu 
-zaczac skrobac proga ustawiajacego opis i wyjscia do stanu poczatkowego oraz 
-podczepic go pod triger 'reset'.No wlasciwie po drugie nie bedzie ;)
-Jesli ktos nie chce zeby w przyszlosci reset krainki przywrocil wartosci 
-poczatkowe to moze sie posluzyc flaga i wstawic do proga 'reset' testowanie
-owej flagi. Jest do ogolnie jedna z prostszych rzeczy wiec nie bede juz nudzil.
-No i walne przyklad z mojej krainki:
-{RProg 3707 podczepiony jest pod 'reset'{x
-{C
-#3707
-mob exit gora delete
-mob roomdesc clear
-mob roomdesc add Przejscie konczy sie sterta ziemi i dosc sporych kamieni.
-mob roomdesc add Spogladajac do gory dostrzegasz cienki nitki korzeni 
-             wystajace ze sklepienia.
-mob roomdesc add Czujesz delikatny powiew swiezego powietrza, prawdopodobnie 
-             gdzies tu moze byc wyjscie na powierzchnie.
-mob roomdesc format
-
-{RProg 3708 podczepiony jest pod 'input' 'pociagnij za korzen'{x
-{C
-#3708
-if exithere 4
-mob echoat $n Przygladasz sie obwalisku w poszukiwaniu jakiegos korzenia.
-mob echoaround $n $n intensywnie przyglada sie obwalisku.
-end
-else
-mob echoat $n Chwytasz wystajaca czesc korzenia i mocno ciagniesz.
-              Po kilku sekundach silowania korzen peka, przewracasz 
-              sie i dotkliwie uderzajac plecami o scianie.
-mob echoat $n Kilka grudek ziemi odrywa sie od sufitu, nagle cala lawina 
-              ziemi spada prosto przed toba.Caly korytarz wypelnia sie kurzem, 
-              po chwili spogladasz w gore i dostrzegasz wyjscie na powierzchnie.
-
-mob echoaround $n $n chwyta wystajaca czesc korzenia i mocno ciagnie.Po kilku 
-             sekundach silowania korzen peka, $n przewraca sie i uderza 
-             plecami o scianie.
-mob echoaround $n Kilka grudek ziemi odrywa sie od sufitu, nagle cala lawina 
-             ziemi spada prosto przed Ciebie.Caly korytarz wypelnia sie 
-             kurzem, po chwili spogladasz w gore i dostrzegasz wyjscie na 
-             powierzchnie.
-
-mob roomdesc clear
-mob roomdesc add Stoisz przed sporym kopcem ziemi i gruzu, utworzonym z 
-             oberwanego sklepienia.
-mob roomdesc add Spogladajac ku gorze, dostrzegasz spora dziure otoczona 
-             cienkimi nitkami korzeni.
-mob roomdesc add Byc moze uda ci sie dosiegnac otworu, jesli wejdziesz 
-             na szczyt kopca.
-mob roomdesc format
-
-mob exit gora room 3738
-endif
-{x
-No i tak to w praktyce wyglada. No i zeby nie popadac w paranoje ;), nie 
-kazdy room musi byc specjalny, naladowany jakimis pokretlami, wajchami,
-badz korzeniami. Jak wiadomo najwazniejszy jest klimat, umiarkowana 
-trudnosc, no i sensownosc krainki.
-
-{RQuesty etc{x
-Co do questow, to nie przewiduje jakis debilnych systemow opartych na jakis
-kluczowych zdarzeniach. Przy uzyciu flag mozna stworzyc dowolny quest, no 
-moze prawie dowolny :). Co prawda wymaga to sporego nakladu pracy, ale tak
-to juz jest. Nalezy pamietac o jednym, zapisywane sa tylko flagi na graczach
-badz na obiektach w posiadaniu graczy. Flagi na mobach i roomach nie sa 
-zapisywane. (jesli ktos mnie przekona zeby zapisywac to spoko :))
-
+M954408898
+Gollum~
+glos Thu Mar 30 11:34:58 2000
 ~
-M982846047
-Razor~
-{B[Trapsy                        ]{x {WThu Feb 22 13:47:27 2001
+z wymienionych podobaja mi sie:
+Numenor
+Amon Sul
+ 
+pozdrawiam
+~
+M954429639
+Feerial~
+nazwy Thu Mar 30 17:20:39 2000
+~
+Videns
+Reality
+Masiv
+Inferno
+Wisnia ;)
+sorki ale mam dzis najgorszy dzien w zyciu... jak na razie
+nie bede trul wam czemu.... jak sie cos spodoba to mowcie
+jak uznacie ze to glupoty to nie mowcie...
+-alternatywna historia czasu
+-Ziemie Przylegle
+-Furia 158
+-Prawo Tronu
+-Najdalszy Brzeg
+-Lepsze Czasy :)
+,...bleee mam wyprany mozg, ide sie napic
+nie traktujcie tego ^^^  wszystkiego powaznie
+~
+M954437696
+Azradun~
+Glos Thu Mar 30 19:34:56 2000
+~
+Proponuje nazwy:
+-Heartland
+-Rowniny Chaosu
+-Annuminas (z Tolkiena)
+i to by bylo na tyle... jak cos sobie przypomne jeszcze, to napisze:)
+~
+M954595124
+Maro~
+nazwy Sat Apr  1 15:18:44 2000
+~
+Hmm, podob mi sie najdalszy brzeg, tylko jakos z czyms mi sie kojarz. Hmm, z jakas tandetna piosenka, hmm
+ 
+           Maro
+~
+M954745861
+Agron~
+nazwa Mon Apr  3 09:11:01 2000
+~
+zainspirowany nazwa Siedem Gwiazd wpadlem na pomysl coby:
+zrobic na przyklad x miast startowych i nazwac muda: X Miast....
+albo cos jakos tak.
+fajne sa :
+ziemie przylegle
+brama
+~
+M954772388
+Feerial~
+{B[echhhhh                         ]{x {WMon Apr  3 16:33:08 2000
 {x~
-Pulapki w pewnym stopniu sa po prostu progami, z pewnymi jednak roznicami.
-Pulapke tworzy sie przy uzyciu komend 'tedit create vnum'.
-W OLC widoczne sa nastepujace 'atrybuty':
-{CActive{x - czy pulapka jest aktywna, nieaktywna to tak jakby jej nie bylo
-{CLevel{x - poziom pulapki od 0 (prostacka)  do 10(jakas abstakcyjna). od
-            poziomu zalezy jak trudno pulapke znalezc i rozbroic oraz ile
-	    expa w nagrode sie dostanie.
-{CType{x - czyli typ pulapki. moze byc nastepujacy:
-           -unlock - przy odkluczaniu (obiekty i exity)
-	   -open   - przy otwieraniu  (obiekty i exity)
-	   -wear   - przy zakladaniu  (tylko obiekty)
-	   -drop   - przy upuszczaniu (tylko obiekty)
-	   -get    - przy podnoszeniu (tylko obiekty)
-{CLevel limit{x - jaki jest minimalny poziom potrzebny zeby udalo sie rozbroic
-{CDex limit{x - jaka jest minimalna zrecznosc aby sie udalo rozbroic
-{CSkill limit{x - wymagany poziom umiejetnosc do robrojenia
-
-Z rzeczy niewidocznych, dostepne sa komendy:
--triggered - wchodzi w edycje 'proga' podczepionego pod wyzwolenie pulapki
--failed    - wchodzi w edycja 'proga' podczepionego pod nieudane rozbrojenie
--disarmed  - wchodzi w edycje 'proga' podczepionego pod rozbrojenie pulapki
-
-Te 'progi pisze sie identycznie jak inne progi, nie mozna jednak uzywac
-np: 'delay'.
-
-Jedna pulapka moze byc podczepiona pod kilka obiektow i exitow jednoczesnie.
-To czy bedzie wyzwalana w danej sytuacji zalezy od typu. Jesli obiekt ma cos 
-robic jesli jest podnoszony, pulapka powinna miec ustawiony typ {Cget{x.
-Jesli ta sama pulapka jest zamocowana na jakims exicie i ma sie odpalac przy
-otwieraniu, nalezy ustawic typ {Copen{x.
-W oedit i redit jest komenda {Ctrap{x pozwalajace zamocowac pulapke. Na exitach
-pulapki zastawia sie pod redit komenda np: north trap 1
-
-
-
+znowu przydoluje ....
+nie bawmy sie w bogow, zrobmy dobra gre...
+sam koszmarnie duzo wdupilem przez Muda i mam dylemat
+(bo moj entuzjazm i zauroczenie minelo) czy moge wciagac
+innych w to 'oszustwo' pozornego wygrywania i 'innego swiata'
+wracajac
+X Miast to jest cool pomysl, a Najdalszy Brzeg to jak sie okazalo
+tytul jednej cz. serii 'Ziemiomorze' Ursuli Le Guinn
+jak dla mnie mud moze sie nawet nazywac 'Toxic' albo 'Signus' :)
+tudziez Kurek, Oko Proroka, Yankee-dooddle, Kataryniarz, 
+a moze Wszystkie Swiatynie Swiata ? ....
+Katharsis ? Jaspis, Ozyryz, Nemezis, Muchachos ? :))))
+Antracyt, Andemonit, Syderyt, Magnetyt, Ruda , Koks ? :))))
+Atladntyda, Kasjopea, Mglawica Smoka, Ksiezyc :)
+'Swiat na Dysku' :)))
+Feerial the Furious Anger
+~
+M954924899
+Vovin~
+{B[Vovin                           ]{x {WWed Apr  5 10:54:59 2000
+{x~
+Nazwa powinna byc latwa do wymowienia i zapamietania!
+Nie wiem czy powinna byc po polsku czy angielsku.
+Czy w obu. Mnie podobaja sie nazwy: Morannon (czarna brama), Osgiliath (cytadela gwiazd), Ithilien (ziemia ksiezyca).
+Sam zaproponuje cos pozniej.   
+~
+M954934185
+Razor~
+{B[hmmm                            ]{x {WWed Apr  5 13:29:45 2000
+{x~
+Jako ze brakuje mojej ksywki na tej tablicy, i nie chce sie w jakis
+sposob odcinac od tej akcji
+oswiadczam ze glowy do takich rzeczy nie mam :)
+nie bede nawet probowal czegos splodzic, bo mnie wybrechtacie ;)
+~
+M955016204
+Vovin~
+{B[nazwy                           ]{x {WThu Apr  6 12:16:44 2000
+{x~
+Juz wczesniej pisalem, ze nazwa powinna byc prosta i latwa do zapamietania
+oto moje skromne propozycje:
+ 
+1)  Dor Dungortheb  to z literatury J.R.R. Tolkiena zlepek zrobiony przezemnie
+i oznacza doslownie kraj (lad) okropnej smierci
+ 
+2)    Enchanted Lands (zaczarowane krainy)  oklepane, ale fajne i latwo wpadajace w ucho
+ 
+3)   Akallabeth = "Upadly" z prozy powyzszego autora, Agarwaen = "Splamiony Krwia"
+Avathar = "cienie"  , Balrog = "Demon Mocy"  ,  Dol Guldur = "Wzgorze czarow"
+Elerrina = "Uwienczona gwiazdami"   ,   Glaurung= smok  ,  Gothmog = wodz Balrogow, poteznych demonow   , 
+Isil = ksiezyc ,  i na koniec "Kurchan Lez" w quenejskim jest to prawie nie do wymowienia
+ 
+To na tyle pomyslow. Slabo, ale jek na cos ciekawszego wpadne to smarne pozniej.
+ 
+z powazaniem   Vovin
+~
+M955145205
+Cormac~
+{B[nazwy!                          ]{x {WSat Apr  8 00:06:45 2000
+{x~
+Hi:))
+ 
+Coz przeczytalem notki i tez swoje dziwne pomysly dopisze:))
+ 
+Wolfshade (Cien wilka)
+Wolfheart
+Numenor (poludnie - chyba juz bylo)
+Bruinena (grzmiaca woda)
+Anarya (dzien slonca)
+Ossiriand 
+Zelazne Wrota
+ 
+Moze cos wam sie przyda:)))
+Jak cos jeszcze mi przyjdzie do glowy to napisze.
+ 
+Cormac
+~
+M955149532
+Cormac~
+{B[e jeszcze cos:)                 ]{x {WSat Apr  8 01:18:52 2000
+{x~
+cos my przyszlo na mysl:))
+Moze Opium:)))
+ 
+heh to tyle ;))
+Cormac
+~
+M955299865
+Arcturus~
+{B[nazwa                           ]{x {WSun Apr  9 19:04:25 2000
+{x~
+A moze Nowa Aleksandria?
+ 
+Arcturus (raczej bez pomyslow).
+~
+M955378450
+Furgas~
+{B[moje ostatnie propozycje        ]{x {WMon Apr 10 16:54:10 2000
+{x~
+-Zapomniane Miasta
+Katharsis (bylo juz jest fajne)
+- Dominium (Azraduncia)
+- Eclipse
+- Voyager
+- Gemini
+- Syrius
+- Nirwana
+- Mirror
+- Destiny
+- Urbania (to hest ciekawe)
+- Mammagamma ;)
+- Stereotomy ;)
+to wsio
+Furgasek
+~
+M955582917
+Azradun~
+{B[Dodatkowe                       ]{x {WThu Apr 13 01:41:57 2000
+{x~
+Z wymienionych nazw podoba mi sie Dominium...
+A na powaznie:
+Dominium;)
+Mirror, ale z zamiana na Myrror (bo tak fajniej brzmi)
+A z nazw piosenek (Furgas:))) mogloby byc:
+Grunt Pod (Jej?) Stopami:)))
+ 
+I to na tyle, he he:)
+Azra Doon
+~
+M955657234
+Feerial~
+{B[hmmmm                           ]{x {WThu Apr 13 22:20:34 2000
+{x~
+1) poczekajmy jeszcze, wierze w przeznaczenie i cos czuje ze
+kiedys wpadnie komus taka nazwa, ze nie bedzie zadnych uwag :)))
+2) to moze Fatum ? :)))))
+3)moje nowe propozycje:
+Adrenaline
+Wszystkie Zjednoczone Ziemie
+Trakt , Trakt Do Nikad, Droga, Droga w ktora idziesz sam...
+swiat, inny swiat, swiat ktorego nie znamy, 
+Erethe ...
+^^^ to masyw goorski kolo Arras
+Atlantis ...
+Gerapa :)))
+papa
+Feerial the Multiplier
+~
+M957285499
+Tullaris~
+{B[nazwa                           ]{x {WTue May  2 18:38:19 2000
+{x~
+to i jak dam 5 groszy
+Nosferatu
+to w jakims jezyku znaczy nieumierajacy
+~
+M957815943
+Gheiiran~
+{B[nazwa                           ]{x {WMon May  8 21:59:03 2000
+{x~
+ja tak tylko sobie pomyslalem ze moze najpierw wymyslic jakas fabule
+a potem wg niej wymyslic nazwe?
+~
+M970003626
+Razor~
+{B[glosowanie                      ]{x {WTue Sep 26 23:27:06 2000
+{x~
+na kazdym zebraniu jest taki moment ze ktor musi zaczac....
+hmm... no wiec jaka metoda wybierzemy metode glosowania?
+hryhry
+~
+M970819326
+Agron~
+{B[glosowanie 2                    ]{x {WFri Oct  6 10:02:06 2000
+{x~
+no bo sa trzy metody glosowania
+Agron
 ~
 S

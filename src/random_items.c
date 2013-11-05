@@ -18,7 +18,6 @@
  * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
@@ -27,7 +26,7 @@
  ***********************************************************************
  *
  * $Id: update.c 8611 2010-02-23 21:24:03Z void
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/random_items.c $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/random_items.c $
  *
  ***********************************************************************
  *
@@ -205,36 +204,6 @@ void generate_bracelet( OBJ_DATA *obj, int* points );
 BITVECT_DATA * get_bitvector ();
 int get_cost_of_bitvector(BITVECT_DATA * bitv);
 int	generate_aff_duration( int *points, int *koszt );
-
-/**
- * material dla specialnych przedmiotow
- */
-
-int get_special_material()
-{
-    switch( number_range( 0, 11 ) )
-    {
-        case 0:
-            return  2; //stal
-        case 1:
-            return  4; //doskonala stal
-        case 2:
-            return  5; //miedz
-        case 3:
-            return  8; //mithril
-        case 4:
-            return  9; //zloto
-        case 5:
-            return 10; //srebro
-        case 6:
-            return 13; //zelazo
-        case 7:
-            return 33; //illit
-        case 8:
-            return 34; //platyna
-    }
-    return 7; //adamantyt
-}
 
 /*
  * procedurka wpisujaca do extra_flags i wear_flags2
@@ -840,7 +809,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
 
                 case 1://miecze jednoreczne zwykle
                     obj->weight = number_range( 90, 220 );
-                    obj->length = number_range( 70, 109 );
 
                     /* kostki obra¿eñ */
                     {
@@ -874,7 +842,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                                 name4_fir = "d³ugi";
                                 name5_fir = "d³ugim";
                                 name6_fir = "d³ugim";
-                                obj->length = number_range( 95, 130 );
                                 break;
                             case 2:
                                 name_fir = "ostry";
@@ -1415,7 +1382,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                                 name4_des = " bastard";
                                 name5_des = " bastardem";
                                 name6_des = " bastardzie";
-                                obj->length = number_range( 110, 140 );
                                 break;
                             case 6:
                                 name_des = " lancknecht";
@@ -1497,7 +1463,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                                 name4_des = " miecz pó³torareczny";
                                 name5_des = " mieczem pó³torarêcznym";
                                 name6_des = " mieczu pó³torarêcznym";
-                                obj->length = number_range( 110, 140 );
                                 break;
                             case 15:
                                 name_des = " szamszir";
@@ -1522,7 +1487,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                                 name4_fir = "d³ug±";
                                 name5_fir = "d³ug±";
                                 name6_fir = "d³ugiej";
-                                obj->length = number_range( 95, 130 );
                                 break;
                             case 2:
                                 name_fir = "ostra";
@@ -2088,7 +2052,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                 case 2://shorty
                     obj->weight = number_range( 50, 150 );
                     obj->value[ 0 ] = WEAPON_SHORTSWORD;
-                    obj->length = number_range( 40, 69 );
 
                     /* kostki obra¿eñ */
                     {
@@ -3049,7 +3012,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     break;
                 case 3://2h
                     obj->weight = number_range( 150, 350 );
-                    obj->length = number_range( 100, 200 );
                     SET_BIT( obj->value[4], WEAPON_TWO_HANDS );
 
                     /* kostki obra¿eñ */
@@ -3079,7 +3041,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             name4_fir = "d³ugi";
                             name5_fir = "d³ugim";
                             name6_fir = "d³ugim";
-                            obj->length = number_range( 170, 200 );
                             break;
                         case 2:
                             name_fir = "ostry";
@@ -3690,7 +3651,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
             obj->value[ 6 ] = 0;
 
             obj->weight = 25;
-            obj->length = number_range( 10, 39 );
 
             switch ( number_range( 1, 21 ) )
             {
@@ -3759,8 +3719,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     name5 = "dlugim sztyletem";
                     name6 = "dlugim sztylecie";
 
-                    obj->length = number_range( 20, 39 );
-
                     switch ( number_range( 1, wer ) )
                     {
                         case 1:
@@ -3789,8 +3747,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     name4 = "krótki sztylet";
                     name5 = "krótkim sztyletem";
                     name6 = "krótkim sztylecie";
-
-                    obj->length = number_range( 10, 20 );
 
                     switch ( number_range( 1, wer ) )
                     {
@@ -4219,8 +4175,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     name5 = "d³ug± mizerykordi±";
                     name6 = "d³ugiej mizerykordi";
 
-                    obj->length = number_range( 30, 39 );
-
                     switch ( number_range( 1, wer ) )
                     {
                         case 1:
@@ -4356,7 +4310,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
             obj->value[ 6 ] = 0;
             obj->value[ 3 ] = 2;
             obj->weight = 80;
-            obj->length = number_range( 80, 140 );
 
             switch ( number_range( 1, 8 ) )
             {
@@ -4375,7 +4328,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 2 ] = 10;
                             obj->value[ 6 ] = 1;
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                            obj->length = number_range( 130, 300 );
                             obj->weight = 170;
                             break;
                         case 2:
@@ -4387,7 +4339,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 1 ] = 2;
                             obj->value[ 2 ] = 7;
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                            obj->length = number_range( 130, 300 );
                             obj->weight = 200;
                             break;
                         case 4:
@@ -4395,7 +4346,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 2 ] = 8;
                             obj->value[ 5 ] = -1;
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                            obj->length = number_range( 130, 300 );
                             obj->weight = 370;
                             break;
                     }
@@ -4419,14 +4369,12 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                         case 2:
                             obj->value[ 2 ] = 9;
                             obj->value[ 6 ] = 2;
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                         case 3:
                             obj->value[ 1 ] = 3;
                             obj->value[ 2 ] = 5;
                             obj->value[ 5 ] = -1;
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -4445,20 +4393,17 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                         case 1:
                             obj->value[ 2 ] = 10;
                             obj->value[ 6 ] = 2;
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                         case 2:
                             obj->value[ 2 ] = 9;
                             obj->value[ 6 ] = 3;
                             obj->value[ 5 ] = -1;
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                         case 3:
                             obj->value[ 2 ] = 12;
                             obj->value[ 5 ] = -1;
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -4488,7 +4433,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 2 ] = 5;
                             obj->value[ 5 ] = -2;
                             obj->value[ 6 ] = number_range( 0, 1 );
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -4508,7 +4452,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 5 ] = -1;
                     obj->value[ 6 ] = 2;
                     obj->weight = number_range( 160, 360 );
-                    obj->length = number_range( 130, 300 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     break;
                 case 6:
@@ -4525,7 +4468,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                         case 1:
                             obj->value[ 2 ] = number_range( 6, 10 );
                             obj->value[ 6 ] = number_range( 0, 1 );
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                         case 2:
@@ -4537,7 +4479,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 2 ] = number_range( 4, 5 );
                             obj->value[ 5 ] = number_range( -2, 0 );
                             obj->value[ 6 ] = number_range( 0, 2 );
-                            obj->length = number_range( 130, 300 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -4610,7 +4551,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 6 ] = number_range( 0, 2 );
                             break;
                     }
-                    obj->length = number_range( 130, 300 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = number_range( 300, 500 );
                     obj->value[ 3 ] = 15;
@@ -4624,7 +4564,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
         case WEAPON_MACE:
 
             obj->material = 1;
-            obj->length = number_range( 40, 80 );
 
             obj->value[ 1 ] = 1;
             obj->value[ 2 ] = 2;
@@ -4922,7 +4861,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 2 ] = 8;
                             obj->value[ 5 ] = -1;
                             obj->value[ 6 ] = -1;
-                            obj->length = number_range( 100, 150 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -5020,7 +4958,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 3 ] = 8;
                     obj->weight = 380;
                     obj->material = 32;
-                    obj->length = number_range( 100, 150 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     break;
                 case 13:
@@ -5054,7 +4991,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 5 ] = number_range( 0, -2 );
                     obj->value[ 3 ] = 8;
                     obj->weight = 360;
-                    obj->length = number_range( 100, 150 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     break;
                 case 14:
@@ -5101,7 +5037,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
         case WEAPON_AXE:
 
             obj->material = 2;
-            obj->length = number_range( 60, 100 );
             obj->value[ 3 ] = 25; // damtype "ciêcie"
             obj->value[ 1 ] = 2;
             obj->value[ 2 ] = 2;
@@ -5219,7 +5154,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 5 ] = -1;
                     obj->value[ 6 ] = 1;
                     obj->value[ 3 ] = 3;
-                    obj->length = number_range( 80, 120 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = 320;
                     break;
@@ -5236,7 +5170,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 2 ] = UMIN( 6, 2 + number_range( 1, wer ) );
                     obj->value[ 5 ] = -2;
                     obj->value[ 6 ] = 2;
-                    obj->length = number_range( 80, 120 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = number_range( 250, 425 );
                     break;
@@ -5426,7 +5359,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     }
                     obj->value[ 5 ] = number_range(-2,-1);
                     obj->value[ 6 ] = number_range(1,2);
-                    obj->length = number_range( 80, 120 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = 300 + number_range( 0, 200 );
                     break;
@@ -5459,7 +5391,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             break;
                     }
                     obj->value[ 5 ] = -1;
-                    obj->length = number_range( 80, 120 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = 180 + number_range( 0, 180 );
                     break;
@@ -5631,7 +5562,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     }
                     obj->value[ 6 ] = number_range(1,2);
                     obj->value[ 3 ] = 25;
-                    obj->length = number_range( 80, 120 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     EXT_SET_BIT( obj->wear_flags2, ITEM_ONLYHALFORC );
                     obj->weight = number_range( 320, 400 );
@@ -5668,7 +5598,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 6 ] = number_range( 0, 3 );
                     obj->value[ 3 ] = 25;
                     obj->material = 16;
-                    obj->length = number_range( 80, 120 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = number_range( 300, 500 );
                     break;
@@ -5680,7 +5609,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
         case WEAPON_FLAIL:
 
             obj->material = 2;
-            obj->length = number_range( 60, 100 );
 
             obj->value[ 1 ] = 1;
             obj->value[ 2 ] = 2;
@@ -5751,7 +5679,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             break;
                         case 4:
                             obj->value[ 2 ] = 10;
-                            obj->length = number_range( 80, 250 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -5770,14 +5697,9 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     obj->value[ 6 ] = 1;
                     obj->value[ 3 ] = 37;
                     if ( number_range( 1, 4 ) != 1 )
-                    {
-                        obj->length = number_range( 80, 250 );
                         SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                    }
                     else
-                    {
                         SET_BIT( obj->value[ 4 ], WEAPON_PRIMARY );
-                    }
 
                     obj->weight = number_range( 325, 420 );
 
@@ -5799,7 +5721,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             obj->value[ 1 ] = 2;
                             obj->value[ 2 ] = 8;
                             obj->value[ 6 ] = 1;
-                            obj->length = number_range( 80, 250 );
                             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                             break;
                     }
@@ -5833,14 +5754,9 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     }
                     obj->value[ 3 ] = 37;
                     if ( number_range( 1, 3 ) == 1 )
-                    {
                         SET_BIT( obj->value[ 4 ], WEAPON_PRIMARY );
-                    }
                     else if ( number_range( 1, 3 ) == 1 )
-                    {
-                        obj->length = number_range( 80, 250 );
                         SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                    }
 
                     obj->weight = 110;
                     obj->material = 13;
@@ -5879,14 +5795,9 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     }
                     obj->value[ 3 ] = 37;
                     if ( number_range( 1, 3 ) == 1 )
-                    {
                         SET_BIT( obj->value[ 4 ], WEAPON_PRIMARY );
-                    }
                     else if ( number_range( 1, 3 ) == 1 )
-                    {
-                        obj->length = number_range( 80, 250 );
                         SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                    }
 
                     obj->weight = 75;
                     obj->material = 8;
@@ -5923,7 +5834,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                             break;
                     }
                     obj->value[ 3 ] = 37;
-                    obj->length = number_range( 80, 250 );
                     SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
                     obj->weight = 180;
                     obj->material = number_range( 2, 5 );
@@ -5960,14 +5870,9 @@ void generate_weapon( OBJ_DATA *obj, int* points )
                     }
                     obj->value[ 3 ] = 37;
                     if ( number_range( 1, 3 ) == 1 )
-                    {
                         SET_BIT( obj->value[ 4 ], WEAPON_PRIMARY );
-                    }
                     else if ( number_range( 1, 3 ) == 1 )
-                    {
-                        obj->length = number_range( 80, 250 );
                         SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
-                    }
 
                     obj->weight = 180;
                     obj->material = number_range( 2, 5 );
@@ -6554,7 +6459,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
             obj->value[ 6 ] = 2;
 
             obj->weight = 150 + number_range( 0, 50 );
-            obj->length = number_range( 180, 300 );
             /**
              * WEAPON_POLEARM ma byc zawsze dwureczny
              */
@@ -6890,7 +6794,6 @@ void generate_weapon( OBJ_DATA *obj, int* points )
 
         case WEAPON_STAFF:
             obj->material = 1;
-            obj->length = number_range( 120, 250 );
             SET_BIT( obj->value[ 4 ], WEAPON_TWO_HANDS );
             obj->value[ 1 ] = 1;
             obj->value[ 2 ] = 2;
@@ -10378,14 +10281,6 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 	sprintf( text, "%s po³yskuje magicznym blaskiem.", capitalize( sh_desc ) );
 	obj->description = str_dup( text );
 
-    /**
-     * ustaw material
-     */
-    if ( c < 19 )
-    {
-        obj->material = get_special_material();
-    }
-
 	//drugi -s-w-i-t-c-h-(-)- -> affect i apply'ie
 	switch ( c )
 	{
@@ -10393,42 +10288,51 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 			add_new_affect( obj, 0, APPLY_DEX, 2, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_STR, -1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_dagger, 10, &AFF_NONE, -1, TRUE );
+			obj->material = 7;
 			obj->cost += 10 * COST_APPLY_SKILL + 2 * COST_APPLY_STAT;
 			break;
 		case 2: //amulet czarnej d³oni
 			add_new_affect( obj, 0, APPLY_DEX, -2, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_STR, 1, 0, &AFF_NONE, -1, TRUE );
+			obj->material = 7;
 			obj->cost += COST_APPLY_STAT;
 			break;
 		case 3: //wê¿owy amulet si³y
 			add_new_affect( obj, 0, APPLY_STR, 1, 0, &AFF_SNEAK, -1, TRUE );
 			obj->cost += COST_APPLY_STAT + 1500;
+			obj->material = 7;
 			break;
 		case 4: //wê¿owy amulet
 			val = -2; //obj->cost += val * COST_APPLY_STAT;
 			add_new_affect( obj, 0, APPLY_DEX, val, 0, &AFF_SLOW, -1, TRUE );
+			obj->material = 7;
 			break;
 		case 5: //fascinum szybkoci
 			val = -2;obj->cost += COST_AFF_HASTE;
 			add_new_affect( obj, 0, APPLY_LUC, val, 0, &AFF_HASTE, -1, TRUE );
+			obj->material = 9;
 			break;
 		case 6: //talizman os³ony
 			add_new_affect( obj, 0, APPLY_AC, -20, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_DEX, 1, 0, &AFF_NONE, -1, TRUE );
+			obj->material = 5;
 			obj->cost += 20 * COST_APPLY_AC + COST_APPLY_STAT;
 			break;
 		case 7: //wisiorze ataku lwa
 			add_new_affect( obj, 0, APPLY_STR, 1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_disarm, 10, &AFF_NONE, -1, TRUE );
+			obj->material = 4;
 			obj->cost += COST_APPLY_STAT + 10 * COST_APPLY_SKILL;
 			break;
 		case 8: //przeczycia
 			add_new_affect( obj, 0, APPLY_WIS, 1, 0, &AFF_DETECT_EVIL, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_NONE, 0, 0, &AFF_DETECT_GOOD, -1, TRUE );
+			obj->material = 4;
 			obj->cost += 2 * COST_AFF_DETECT_ALIGMENT + COST_APPLY_STAT;
 			break;
 		case 9: //wyczucia
 			add_new_affect( obj, 0, APPLY_WIS, -1, 0, &AFF_NONE, -1, TRUE );
+			obj->material = 13;
 			obj->cost += COST_APPLY_STAT;
 			break;
 		case 10: //krasnoludzki amulet si³y
@@ -10436,6 +10340,7 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 			add_new_affect( obj, 0, APPLY_CON, 1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_DEX, -1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_axe, 5, &AFF_NONE, -1, TRUE );
+			obj->material = 13;
 			obj->cost += 2 * COST_APPLY_STAT + 5 * COST_APPLY_SKILL;
 			break;
 		case 11: //krasnoludzki amulet
@@ -10447,6 +10352,7 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 			add_new_affect( obj, 0, APPLY_LUC, -1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_CHA, -1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_axe, -5, &AFF_NONE, -1, TRUE );
+			obj->material = 13;
 			obj->cost += 4 * COST_APPLY_STAT;
 			break;
 		case 12: //fetysz ¿ywio³ów
@@ -10464,26 +10370,29 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 			break;
 		case 14: //oko boga
 			add_new_affect( obj, 0, APPLY_NONE, 0, 0, &AFF_DETECT_INVIS, -1, TRUE );
+			obj->material = 4;
 			obj->cost += COST_AFF_DETECT_INVIS;
 			break;
 		case 15: //oko bo¿ka
 			add_new_affect( obj, 0, APPLY_NONE, 0, 0, &AFF_BLIND, -1, TRUE );
+			obj->material = 4;
 			obj->cost += COST_AFF_DETECT_INVIS;
 			break;
 		case 16: //kamieñ ol¶nienia
 			add_new_affect( obj, 0, APPLY_INT, 1, 0, &AFF_COMPREHEND_LANGUAGES, -1, TRUE );
-			obj->material = 16;
+			obj->material = 4;
 			obj->cost += COST_AFF_COMPREHEND_LANGUAGES + COST_APPLY_STAT;
 			break;
 		case 17: //kamieñ l¶nienia
 			add_new_affect( obj, 0, APPLY_WIS, -1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_INT, -1, 0, &AFF_NONE, -1, TRUE );
-			obj->material = 16;
+			obj->material = 4;
 			obj->cost += 2 * COST_APPLY_STAT;
 			break;
 		case 18: //amulet z dwoma mieczami
 			add_new_affect( obj, 0, APPLY_STR, 1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_sword, 10, &AFF_NONE, -1, TRUE );
+			obj->material = 13;
 			obj->cost += COST_APPLY_STAT + 10 * COST_APPLY_SKILL;
 			break;
 
@@ -10526,12 +10435,13 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 				los = number_range( 5, 14 );
 				switch ( los )
 				{
+/* WY£¡CZAM: Gurthg - 2005-02-20
 					case 1: //str
 						loc = APPLY_STR;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
@@ -10539,8 +10449,8 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_INT;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
@@ -10548,8 +10458,8 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_WIS;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
@@ -10557,8 +10467,8 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_DEX;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
@@ -10566,8 +10476,8 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_CON;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
@@ -10575,8 +10485,8 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_CHA;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
@@ -10584,11 +10494,12 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_LUC;
 						if ( number_percent() > NUMBER_PERCENT_FOR_STAT )
 						{
-							mod = number_range( 1, 3 );
-							obj->cost += mod * COST_APPLY_STAT;
+							mod = 1;
+							obj->cost += COST_APPLY_STAT;
 						}
 						else mod = -1;
 						break;
+*/
 					case 8: //mov
 						loc = APPLY_MOVE;
 						mod = number_range( 1, 10 );
@@ -10624,10 +10535,14 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_DAMROLL;
 						switch( number_range(1,11))
 						{
+							case 1:
+							case 2:
+							case 3:
+							case 4:
 							case 5:
-							case 6:
-								mod = 0;
+								mod = -1;
 								break;
+							case 6:
 							case 7:
 							case 8:
 							case 9:
@@ -10636,9 +10551,6 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 								break;
 							case 11:
 								mod = 2;
-								break;
-                            default:
-								mod = -1;
 								break;
 						}
 						koszt += COST_APPLY_DAMROLL * mod;
@@ -10647,10 +10559,14 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 						loc = APPLY_HITROLL;
 						switch( number_range(1,11))
 						{
+							case 1:
+							case 2:
+							case 3:
+							case 4:
 							case 5:
-							case 6:
-								mod = 0;
+								mod = -1;
 								break;
+							case 6:
 							case 7:
 							case 8:
 							case 9:
@@ -10659,9 +10575,6 @@ void generate_amulet( OBJ_DATA *obj, int* points )
 								break;
 							case 11:
 								mod = 2;
-								break;
-                            default:
-								mod = -1;
 								break;
 						}
 						koszt += COST_APPLY_HITROLL * mod;
@@ -11838,14 +11751,14 @@ void generate_gem( OBJ_DATA *obj, int* points )
                     item_description = "Kamieñ wygl±da jak kañciasty od³upek czego¶ powrzechnego, ale to b³êdna i niedok³adna ocena.";
                     break;
                 default:
-                    name = "portenid";
-                    sh_desc = "portenid jasny";
-                    name2 = "portenida";
-                    name3 = "portenidowi";
-                    name4 = "portenid";
-                    name5 = "portenidem";
-                    name6 = "portenidzie";
-                    item_description = "Do¶æ jasny kamieñ, pe³en spokoju i wewnêtrznego ciep³a. Idealny w celu skupienia siê na modlitwie.";
+                    name = "gurthgyr";
+                    sh_desc = "gurthgyr";
+                    name2 = "gurthgyra";
+                    name3 = "gurthgyrowi";
+                    name4 = "gurthgyr";
+                    name5 = "gurthgyrem";
+                    name6 = "gurthgyrze";
+                    item_description = "Dziwny ten kamieñ, pogr±¿ony we w³asnym bycie-niebycie, dobry do czego¶ bardzo nieokre¶lonego.";
                     break;
             }
             obj->is_spell_item = TRUE;
@@ -12423,6 +12336,35 @@ void generate_cape( OBJ_DATA *obj, int* points )
 	return;
 }
 
+/*
+void add_new_affect( OBJ_DATA *obj, int type, int loc, int mod, int level, BITVECT_DATA * bitv, int dur, bool last )
+{
+	AFFECT_DATA * pAf;
+
+	if ( dur == 0 )
+		return;
+
+	pAf	= new_affect();
+	pAf->where	= TO_AFFECTS;
+	pAf->type	= type;
+	pAf->location = loc;
+	pAf->modifier = mod;
+	pAf->level	= level;
+	pAf->bitvector = bitv;
+
+	pAf->duration = dur;
+	pAf->rt_duration = 0;
+	obj->enchanted = TRUE;
+	pAf->next = obj->affected;
+	obj->affected = pAf;
+
+	if ( !last )
+		pAf = NULL;
+
+	return;
+}
+*/
+
 void generate_earring( OBJ_DATA *obj, int* points )
 {
 	char txt[ MAX_INPUT_LENGTH ];
@@ -12464,16 +12406,15 @@ void generate_earring( OBJ_DATA *obj, int* points )
     // domy¶lny rodzaj mêski
     obj->gender = GENDER_MESKI;
 
-    /*
-     *                               | str | con | dex | int | vis | cha | luc | extra
-     * 1: kolczyk wszystkich bogów   |     |     |     | -1  | +2  |     |     | +10 gsn_meditation, +1 mem na 5 lub 6 krag
-     * 2: kolczyk zapomnianej bogini |     |     |     | +1  | -2  |     | +1  | infrared, + 1 mem na 5, 6, 7 lub 8 krag
-     * 3: klips wolno¶ci             |     |     |  +1 |     |     |     |     | free_action
-     * 4: klips swobody              |     |     |  -2 |     |     |     |     | float
-     * 5: ¶lepia czerwonego smoka    |     |     |     |     |     | -2  |     | eyes_of_the_torturer
-     * 6: ³zy bia³ej smoczycy        |     |     |     |     |     | +2  |     | detect_aggressive, save vs spell -4, save vs breath -4
-     * 7: kolczyk zas³oniêtego oka   |     |     |     | -2  |     |     |     | scrying_shield
-     */
+	/*
+								   | str | con | dex | int | vis | cha | luc | extra
+	 1: kolczyk wszystkich bogów   |     |     |     | -1  | +2  |     |     | +10 gsn_meditation, +1 mem na 5 lub 6 krag
+	 2: kolczyk zapomnianej bogini |     |     |     | +1  | -2  |     | +1  | infrared, + 1 mem na 5, 6, 7 lub 8 krag
+	 3: klips wolno¶ci             |     |     |  +1 |     |     |     |     | free_action
+	 4: klips swobody              |     |     |  -2 |     |     |     |     | float
+	 5: ¶lepia czerwonego smoka    |     |     |     |     |     | -2  |     | eyes_of_the_torturer
+	 6: ³zy bia³ej smoczycy        |     |     |     |     |     | +2  |     | detect_aggressive, save vs spell -4, save vs breath -4
+	*/
 	//pierwszy -s-w-i-t-c-h-(-)- -> nazwy i normy potrzebne do stworzenia
 	switch ( c = number_range( 1, 800 ) )
 	{ //no powiedzmy mozna zmienic
@@ -12535,15 +12476,6 @@ void generate_earring( OBJ_DATA *obj, int* points )
             name6 = "³zach bia³ej smoczycy";
             obj->liczba_mnoga = TRUE;
             obj->gender = GENDER_ZENSKOOSOBOWY;
-			break;
-		case 7:
-			name = "kolczyk zas³oniêtego oka";
-			sh_desc = "kolczyk zas³oniêtego oka";
-			name2 = "kolczyka zas³oniêtego oka";
-			name3 = "kolczykowi zas³oniêtego oka";
-			name4 = "kolczyk zas³oniêtego oka";
-			name5 = "kolczykiem zas³oniêtego oka";
-            		name6 = "kolczyku zas³oniêtego oka";
 			break;
 
 		default:    //czyli kompletnie losowy kolczyk
@@ -13188,7 +13120,27 @@ void generate_earring( OBJ_DATA *obj, int* points )
 
     if ( c < 7 )
     {
-        obj->material = get_special_material();
+        switch( number_range( 1, 8 ) )
+        {
+            case 1:
+                obj->material =  8; //mithril
+                break;
+            case 2:
+                obj->material =  9; //zloto
+                break;
+            case 3:
+                obj->material = 10; //srebro
+                break;
+            case 4:
+                obj->material = 33; //illit
+                break;
+            case 5:
+                obj->material = 34; //platyna
+                break;
+            default:
+                obj->material =  7; //adamantyt
+                break;
+        }
     }
 
 	switch ( c )
@@ -13225,10 +13177,6 @@ void generate_earring( OBJ_DATA *obj, int* points )
 			add_new_affect( obj, 0, APPLY_SAVING_SPELL, -number_range(2,5), 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SAVING_BREATH, -number_range(2,5), 0, &AFF_NONE, -1, TRUE );
 			obj->cost += 4 * COST_APPLY_SAVING + COST_APPLY_STAT;
-			break;
-		case 7:    //kolczyk zas³oniêtego oka
-			add_new_affect( obj, 0, APPLY_INT, -number_range(3,12), 0, &AFF_SCRYING_SHIELD, -1, TRUE );
-			obj->cost += COST_APPLY_STAT + 1500;
 			break;
 
 		default:
@@ -15227,16 +15175,6 @@ void generate_bracelet( OBJ_DATA *obj, int* points )
 	sprintf( text, "%s po³yskuje magicznym blaskiem.", capitalize( obj->short_descr ) );
 	obj->description = str_dup( text );
 
-
-    /**
-     * ustaw material
-     */
-    if ( c < 7 )
-    {
-        obj->material = get_special_material();
-    }
-
-
 	switch ( c )
 	{
 		case 1:    //bransoletka kamiennego golema
@@ -15249,11 +15187,13 @@ void generate_bracelet( OBJ_DATA *obj, int* points )
 		case 2:    //bransoletka miesnego golema
 			add_new_affect( obj, 0, APPLY_DEX, 2, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_RESIST, RESIST_BASH, 10, &AFF_NONE, -1, TRUE );
+			obj->material = 7; //adamantyt
 			obj->cost += 2 * COST_APPLY_STAT + 20 * COST_APPLY_RESIST;//bash czyli *2 koszt
 			break;
 		case 3:    //brasnoleta sfery
 			add_new_affect( obj, 0, APPLY_SAVING_SPELL, 2, 0, &AFF_MINOR_GLOBE, -1, TRUE );
 			obj->cost += 2500;
+			obj->material = 7;
 			break;
 		case 4:    //bransoleta z sierpem i mlotem
 			add_new_affect( obj, 0, APPLY_STR, 2, 0, &AFF_NONE, -1, FALSE );
@@ -15261,13 +15201,14 @@ void generate_bracelet( OBJ_DATA *obj, int* points )
 			add_new_affect( obj, 0, APPLY_INT, -1, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_mace, 10, &AFF_NONE, -1, TRUE );
 			obj->cost += 2 * COST_APPLY_STAT + 10 * COST_APPLY_SKILL;
+			obj->material = 7;
 			break;
 		case 5:    //skóra psiego demona
 			add_new_affect( obj, 0, APPLY_MOVE, 20, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_SKILL, gsn_track, 20, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_DEX, 1, 0, &AFF_NONE, -1, TRUE );
 			obj->cost += 1 * COST_APPLY_STAT + 20 * COST_APPLY_SKILL + 20 * COST_APPLY_SKILL;
-			obj->material = ( number_percent() > 30 )? 8:44; // skora:mocna
+			obj->material = 8;
 			break;
 		case 6:    //skóra ghula
 			add_new_affect( obj, 0, APPLY_SAVING_DEATH, -5, 0, &AFF_NONE, -1, FALSE );
@@ -15277,7 +15218,7 @@ void generate_bracelet( OBJ_DATA *obj, int* points )
 			add_new_affect( obj, 0, APPLY_CHA, -2, 0, &AFF_NONE, -1, FALSE );
 			add_new_affect( obj, 0, APPLY_LUC, -2, 0, &AFF_NONE, -1, TRUE );
 			obj->cost += 5 * COST_APPLY_SAVING + 50 * COST_APPLY_RESIST;
-			obj->material = ( number_percent() > 30 )? 8:44; // skora:mocna
+			obj->material = 8;
 			break;
 
 		default:

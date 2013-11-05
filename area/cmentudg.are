@@ -51,6 +51,7 @@ Form CIMW
 Parts ABCGHIJKPU
 Size medium
 Material unknown
+MobprogNew onload 28801_widmo ABCDEFGHI 100~
 MobprogNew onload mag_boss_onload ABCDEFGHI 100~
 Spells 91 163 194 228
 Spells 203 96 16 199
@@ -105,7 +106,7 @@ Parts ABCGHIJKR
 Size medium
 Material unknown
 MobprogNew onload szkielet_onload ABCDEFGHI 95~
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 12 100
@@ -210,6 +211,54 @@ Mobend
 
 
 #OBJECTS
+#Vnum 28801
+Name korzeñ~
+Odmiana du¿ego korzenia~du¿emu korzeniowi~du¿y korzeñ~du¿ym korzeniem~du¿ym korzeniu~
+Short du¿y korzeñ~
+Descr Spogl±dasz na ten du¿y korzeñ, mo¿e uda siê go dobyæ jako maczugê?~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 4 2 5 0 0 -2 0
+Repair 0 0 0 0
+Weight 100
+Cost 60
+Cond 75
+Itemdesc Do¶æ poka¼ny korzeñ jakiego¶ drzewa, zapewne mo¿na go u¿yæ w walce. Nie
+jest on jednak zbyt porêczny.
+~
+Comments ~
+Objend
+#Vnum 28802
+Name porwana toga~
+Odmiana porwanej togi~porwanej todze~porwan± togê~porwan± tog±~porwanej todze~
+Short porwana toga~
+Descr Spogl±dasz na tê ¿a³osn± porwan± togê.~
+Material len~
+Type clothing
+ExtraExt 1|A
+Wear ACDFG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 75
+Itemdesc Zwyk³a czarno niebieska toga. Widaæ, ¿e ma wiele lat. Brakuje jej rêkawów
+i kaptura, który zosta³ kiedys oderwany. 
+~
+Comments ~
+Objend
 #Vnum 28803
 Name rubinowa korona~
 Odmiana {rrubinowej korony{x~{rrubinowej koronie{x~{rrubinow± koronê{x~{rrubinow± koron±{x~{rrubinowej koronie{x~
@@ -221,11 +270,11 @@ ExtraExt 0|DGHJMYZ
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 150
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 22
 Cost 1600
 Cond 75
@@ -248,6 +297,135 @@ ni± piêkne, czerwone rubiny wielko¶ci ludzkiego oka. Zagl±dasz w ¶rodek tej
 korony i zauwa¿asz wystaj±ce ostrza rubinów. Dziwne.. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 28804
+Name ¿elazna karacena~
+Odmiana ¿elaznej karaceny~¿elaznej karacenie~¿elazn± karacenê~¿elazn± karacen±~¿elaznej karacenie~
+Short ¿elazna karacena~
+Descr Widzisz tutaj star± ¿elazn± karacenê.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 222
+Cost 3000
+Cond 75
+Itemdesc Spogl±dasz na ten pancerz z metalowych ³usek zamocowanych na skórzanym
+podk³adzie. 
+~
+Comments ~
+Objend
+#Vnum 28805
+Name ksiêga czarna z³owroga~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short czarna ksiêga~
+Descr Le¿y tutaj z³owrogo wygl±daj±ca, czarna ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 80
+LiczbaMnoga 0
+Gender 3
+Value 0 4 201 228 321 293 258
+Repair 0 0 0 0
+Weight 16
+Cost 14460
+Cond 100
+Itemdesc Ta ksiêga zawiera w sobie chyba jak±¶ niezbyt jasn±, ¿eby nie powiedzieæ
+¿e czarn±, magiê. 
+~
+Comments ksiega upadlego licza - {RKainti{x ({CMon May  9 16:00:03 2005{x)
+~
+Objend
+#Vnum 28806
+Name krótkie czarne ostrze~
+Odmiana krótkiego czarnego ostrza~krótkiemu czarnemu ostrzowi~krótkie czarne ostrze~krótkim czarnym ostrzem~krótkim czarnym ostrzu~
+Short {Dkrótkie czarne ostrze{x~
+Descr Krótkie czarne ostrze le¿y tutaj na ziemi po³yskuj±c z³owrogo.~
+Material stal~
+Type weapon
+ExtraExt 0|EGJ
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 2 2 4 41 0 1 1
+Repair 0 0 0 0
+Weight 50
+Cost 7500
+Cond 75
+Itemdesc To krótkie ostrze bez rêkoje¶ci spokojnie mog³o by s³u¿yæ jako sztylet.
+Dziwisz siê co mog³o sprawiæ, ¿e ostrze z dobrej stali szczernia³o
+kompletnie, jednak nic, poza mrocznymi rytua³ami nie przychodzi ci do g³owy.
+~
+Identdesc To ostrze dziêki magicznym rytua³om nie mo¿e byæ dzier¿one przez dobre i
+praworz±dne osoby, jednak poziom jego umagicznienia wynosi +1. 
+~
+Comments ~
+Objend
+#Vnum 28807
+Name d³ugie czarne ostrze~
+Odmiana d³ugiego czarnego ostrza~d³ugiemu czarnemu ostrzu~d³ugie czarne ostrze~d³ugim czarnym ostrzem~d³ugim czarnym ostrzu~
+Short {Dd³ugie czarne ostrze{x~
+Descr D³ugie ostrze wykonane z czarnej stali le¿y tutaj w kurzu.~
+Material stal~
+Type weapon
+ExtraExt 0|EGJ
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 41 0 1 1
+Repair 0 0 0 0
+Weight 90
+Cost 7500
+Cond 75
+Itemdesc Ten d³ugi miecz zosta³ wykonany z czarnej stali i mimo ze jest broni±
+dobrej jako¶ci, to wydaje ci siê, ¿e otacza co¶ jakoby aura z³a. Mo¿e warto
+by odwiedziæ jakiego¶ czarodzieja celem identyfikacji? 
+~
+Identdesc To ostrze dziêki magicznym rytua³om nie mo¿e byæ dzier¿one przez dobre i
+praworz±dne osoby, jednak poziom jego umagicznienia wynosi +1. 
+~
+Comments ~
+Objend
+#Vnum 28812
+Name pier¶cien ukradzionego ¿ywota srebrny pier¶cionek niewielki~
+Odmiana pier¶cienia ukradzionego ¿ywota~pier¶cieniowi ukradzionego ¿ywota~pier¶cieñ ukradzionego ¿ywota~pier¶cieniem ukradzionego ¿ywota~pier¶cieniu ukradzionego ¿ywota~
+Short pier¶cien ukradzionego ¿ywota~
+Descr Le¿y tutaj na ziemi niewielki, srebrny pier¶cionek.~
+Material srebro~
+Type jewelry
+ExtraExt 0|EGJS
+Wear AB
+Wear2Ext 0
+Bonus 0
+Rent 250
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 20
+Cost 105000
+Cond 100
+Aff 1 13 25 0 0 0
+Itemdesc Niewielki pier¶cieñ, wykonany w ca³o¶ci ze srebra. Czujesz, ¿e jest w nim co¶ co budzi twój niepokój.
+~
 Comments ~
 Objend
 #Vnum 0
@@ -1338,27 +1516,27 @@ S
 
 #RESETS
 M 100 28804 5 28801 1
-E 100 3158 0 16
+E 100 28801 0 16
 M 100 28805 5 28801 1
 M 100 28804 5 28805 1
-E 100 3158 0 16
+E 100 28801 0 16
 M 100 28805 5 28805 1
 M 100 28805 5 28807 1
 M 100 28804 5 28808 1
-E 100 3158 0 16
+E 100 28801 0 16
 M 100 28805 5 28811 1
 M 100 28804 5 28812 1
-E 100 3158 0 16
+E 100 28801 0 16
 M 100 28805 5 28813 1
 M 100 28804 5 28814 1
-E 100 3158 0 16
+E 100 28801 0 16
 M 100 28802 6 28815 1
 M 100 28802 6 28819 1
 M 100 28802 6 28821 1
 M 100 28802 6 28822 1
 M 100 28802 6 28826 1
 M 100 28801 1 28828 1
-E 100 4362 0 5
+E 100 28802 0 12
 E 15 28803 0 6
 M 100 28802 6 28831 1
 S
@@ -1370,47 +1548,53 @@ S
 ~
 force mob 28801 wear toga
 ~
+#28801_widmo
+~
+if rand 50
+  mob oload 28805 
+endif
+~
 #szkielet_onload
 ~
 $_wskaz = int_random 1 6
 #Miecz, tarcza, kolczuga i buty
 if numeval $_wskaz == 1
-mob equip self 3179
+mob equip self 3022
 mob equip self 3366
-mob equip self 3025
-mob equip self 3001
+mob equip self 3372
+mob equip self 3380
 endif
 #korbacz, skorzana zbroja, buty
 if numeval $_wskaz == 2
-mob equip self 3097
-mob equip self 3018
-mob equip self 3001
+mob equip self 6694
+mob equip self 45474
+mob equip self 3380
 endif
 #trojz±b, kolczuga, spodnie, naramienniki
 if numeval $_wskaz == 3
-mob equip self 3156
-mob equip self 3025
-mob equip self 4409
-mob equip self 3090
+mob equip self 6626
+mob equip self 3372
+mob equip self 3093
+mob equip self 3376
 endif
 #lancuch, skorzana zbroja, naramienniki
 if numeval $_wskaz == 4
-mob equip self 3162
-mob equip self 3018
-mob equip self 3090
+mob equip self 14017
+mob equip self 45474
+mob equip self 3376
 endif
 #dwa miecze, buty
 if numeval $_wskaz == 5
-mob equip self 3179
-mob equip self 3179 hold
-mob equip self 3001
+mob equip self 3022
+mob equip self 3022 hold
+mob equip self 3380
 endif
 #tarcza, korbacz, skórzana zbroja, buty
 if numeval $_wskaz == 6
 mob equip self 3366
-mob equip self 3097
-mob equip self 3018
-mob equip self 3001
+mob equip self 6694
+mob equip self 45474
+mob equip self 3380
 endif
  
 ~

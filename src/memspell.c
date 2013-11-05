@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: memspell.c 12203 2013-03-29 13:35:28Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/memspell.c $
+ * $Id: memspell.c 12187 2013-03-27 06:04:22Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/memspell.c $
  *
  */
 #if defined(macintosh)
@@ -298,15 +298,8 @@ void mem_update_count( CHAR_DATA *ch )
 void mem_done( CHAR_DATA *ch )
 {
 	if ( !ch || !ch->memspell || !ch->memming || ch->memming->done )
-	{
-        return ;
-    }
+		return ;
 
-    if ( IS_AFFECTED(ch, AFF_MEDITATION) )
-    {
-        check_trick( ch, ch, SN_TRICK_ENLIGHTENMENT );
-    }
-    
 	ch->memming->done = TRUE;
 	mem_update_count( ch );
 	echo_mem( ch, MEM_DONE );
@@ -2120,24 +2113,7 @@ void do_memorize( CHAR_DATA *ch, char *argument )
                 "memorize set - lista zestawów zaklêæ\n\r"
                 "memorize set 'nazwa zestawu' - ustawienie listy zapamiêtywanch czarów jako zestaw 'nazwa zestawu'\n\r"
                 "memorize set 'nazwa zestawu' save - ustawienie aktualnej listy czarów jako zestaw 'nazwa zestawu'\n\r"
-                "memorize set 'nazwa zestawu' remove - usuniêcie danego zestawu 'nazwa zestawu'\n\r"
-                "memorize where 'czar' - pokazuje kr±g na którym znajduje siê dany czar\n\r", ch );
-    }
-    else if ( !str_cmp( arg1, "where" ) )
-    {
-        argument = one_argument( argument, arg2 );
-        if (
-                ( sn = find_spell_new( ch, arg2, TRUE ) ) >= 1
-                && skill_table[ sn ].spell_fun != spell_null
-                && knows_spell( ch, sn )
-           )
-        {
-            print_char( ch, "\n\r{GKr±g %d{x: %s\n\r", spell_circle( ch, sn ), skill_table[ sn ].name );
-        }
-        else
-        {
-            send_to_char( "Nie znasz takiego zaklêcia.\n\r", ch );
-        }
+                "memorize set 'nazwa zestawu' remove - usuniêcie danego zestawu 'nazwa zestawu'\n\r", ch );
     }
     else
     {
@@ -2370,7 +2346,7 @@ void add_spells_failed( CHAR_DATA *ch, CHAR_DATA *mob, sh_int spell )
 	return ;
 }
 
-void load_spells_failed( CHAR_DATA *ch, unsigned int mob_vnum, sh_int spell )
+void load_spells_failed( CHAR_DATA *ch, ush_int mob_vnum, sh_int spell )
 {
 	SPELL_FAILED * new_element;
 

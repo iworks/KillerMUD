@@ -27,11 +27,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 100
 Cond 100
@@ -57,6 +57,59 @@ Itemdesc Forteca
 ~
 Comments ~
 Objend
+#Vnum 10262
+Name skórzany kañczug stra¿ Vamyra~
+Odmiana skórzanego kañczuga '{YStra¿ Vamyra{x'~skórzanemu kañczugowi '{YStra¿ Vamyra{x'~skórzany kañczug '{YStra¿ Vamyra{x'~skórzanym kañczugiem '{YStra¿ Vamyra{x'~skórzanym kañczugu '{YStra¿ Vamyra{x'~
+Short skórzany kañczug '{YStra¿ Vamyra{x'~
+Descr Piêkny skórzany kañczug promieni±cy dziwn± ciep³± energi± le¿y na ziemi.~
+Material mocna skóra~
+Type weapon
+ExtraExt 0|ADGIK
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 10000
+LiczbaMnoga 0
+Gender 2
+Value 7 4 2 4 8 3 3
+Repair 0 0 0 0
+Weight 30
+Cost 50000
+Cond 100
+Aff 0 2 1 0 2 F
+Extradesc _opis1~
+Widzisz, ¿e $n dzier¿y w d³oni wspania³y, skórzany bicz. Wyczuwa siê z
+niego emanuj±c± aurê dobra. Po chwili zauwa¿asz delikatn± po¶wiatê
+otaczaj±c± t± piêkn± broñ. Niew±tpliwie $n musi byæ potê¿nym bohaterem
+walcz±cym przeciwko z³u, je¿eli pos³uguje siê tak± broni±. 
+~
+Objprog prewear 10262_wear 100~
+Objprog preremove 10262_remove 100~
+Objprog fight 10262_fight2 20~
+Objprog fight 10262_fight 10~
+Objprog use 10262_use 100~
+Itemdesc Masz przed sob± naprawdê doskona³e dzie³o kowalskiego fechtunku. Zosta³o
+ono zrobione z mocnej skóry i dêbowego drewna. Emanuje on dziwn± ciep³±
+po¶wiat±, któr± podzieli³ siê sam Porten w ramach wdziêczno¶ci za pomnik
+jakim obdarowali go mieszkañcy Tamery. Broñ ta zosta³a stworzon± z my¶l± o
+tym, aby strzeg³a dzieñ i noc dzielnego wojownika u¿ywaj±cej jej do obrony
+¶wi±tyni i kap³anów Portena. Rêkoje¶æ bardzo dobrze le¿y w d³oni co
+powoduje, ¿e pos³ugiwanie siê tym kañczugiem nie sprawia najmniejszego
+problemu. Ju¿ przy lekkim ruchu rêkoje¶ci± bicz jakby kierowany bosk± moc±
+wprawia siê w ruch wywo³uj±c g³o¶ne trzaski, które mog± zadaæ niema³e
+obra¿enia. 
+~
+Identdesc Broñ ta zosta³a po¶wiêcona przez samego boga sprawiedliwo¶ci i ochrony -
+Portena. Boska moc zawarta w broni powoduje, ¿e je¶li przeciwnikiem jest
+osoba o negatywnym nastawieniu na ¶wiat, otrzyma ona zwiêkszone obra¿enia.
+Bicz ma równie¿ zdolno¶ci do b³ogos³awienia swojego w³a¶ciciela. 
+~
+Comments ~
+SpecDamExt 3 100 0 1 -100 0 2 0
+SpecDamExt 3 100 1 1 -100 0 -1 0
+SpecDamExt 1 15 10 -100 -100 0 3 0
+SpecDamExt 8 100 -100 -100 -100 0|O 4 1
+Objend
 #Vnum 10396
 Name drogowskaz drewniany du¿y trójramienny~
 Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
@@ -68,11 +121,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 100
 Cond 100
@@ -115,17 +168,6 @@ Exit 0
 ~
 ~
 0 0 10261
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63684
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63684
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -168,12 +210,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 63675
+ExitExtToVnum 38981
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 63675
+0 0 38981
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -797,8 +839,30 @@ Capacity 0
 Roomend
 #Vnum 10273
 Name Trakt przez bezkresn± równinê~
-FlagsExt 0|C
+FlagsExt 0
 Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 65201
+ExitExtEnd
+Exit 1
+~
+~
+0 0 65201
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10321
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10321
 DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -818,17 +882,6 @@ Exit 0
 ~
 ~
 0 0 10260
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63693
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63693
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -859,17 +912,6 @@ Exit 0
 ~
 ~
 0 0 10274
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63702
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63702
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -900,17 +942,6 @@ Exit 0
 ~
 ~
 0 0 10275
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63711
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63711
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -941,17 +972,6 @@ Exit 0
 ~
 ~
 0 0 10276
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63720
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63720
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -982,17 +1002,6 @@ Exit 0
 ~
 ~
 0 0 10277
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63729
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63729
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1023,17 +1032,6 @@ Exit 0
 ~
 ~
 0 0 10278
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63738
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63738
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1064,17 +1062,6 @@ Exit 0
 ~
 ~
 0 0 10279
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63747
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63747
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1105,17 +1092,6 @@ Exit 0
 ~
 ~
 0 0 10280
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63756
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63756
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1146,17 +1122,6 @@ Exit 0
 ~
 ~
 0 0 10281
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63765
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63765
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1187,17 +1152,6 @@ Exit 0
 ~
 ~
 0 0 10282
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63774
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63774
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1228,17 +1182,17 @@ Exit 0
 ~
 ~
 0 0 10283
-ExitExt 1
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 10291
+ExitExtToVnum 10285
 ExitExtEnd
-Exit 1
+Exit 2
 ~
 ~
-0 0 10291
+0 0 10285
 DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1252,23 +1206,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 10296
+ExitExtToVnum 10284
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 10296
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63786
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63786
+0 0 10284
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1299,17 +1242,6 @@ Exit 0
 ~
 ~
 0 0 10285
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63789
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63789
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1359,17 +1291,6 @@ Roomend
 Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63789
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63789
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1400,17 +1321,6 @@ Roomend
 Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63790
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63790
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1441,39 +1351,17 @@ Roomend
 Name Na zakrêcie trawiastego traktu~
 FlagsExt 0|C
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63791
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63791
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 89502
-ExitExtEnd
-Exit 1
-~
-~
-0 0 89502
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 65225
+ExitExtToVnum 10291
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 65225
+0 0 10291
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1490,7 +1378,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 10291
-Name Trakt przez bezkresn± równine~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
 ExitExt 0
@@ -1498,154 +1386,50 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 63774
+ExitExtToVnum 10290
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 63774
-ExitExt 1
+0 0 10290
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10292
 ExitExtEnd
-Exit 1
+Exit 2
 ~
 ~
 0 0 10292
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10284
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10284
 DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10292
-Name Trakt przez bezkresn± równine~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
 ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63775
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63775
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10293
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10293
-ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10291
 ExitExtEnd
-Exit 3
+Exit 0
 ~
 ~
 0 0 10291
-DayRDesc 10260
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10293
-Name Trakt przez bezkresn± równine~
-FlagsExt 0|C
-Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63776
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63776
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10294
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10294
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10292
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10292
-DayRDesc 10260
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10294
-Name Trakt przez bezkresn± równine~
-FlagsExt 0|C
-Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63777
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63777
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10295
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10295
-ExitExt 3
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10293
 ExitExtEnd
-Exit 3
+Exit 2
 ~
 ~
 0 0 10293
@@ -1653,8 +1437,8 @@ DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10295
-Name Trakt przez bezkresn± równine~
+#Vnum 10293
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
 ExitExt 0
@@ -1662,31 +1446,20 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 63778
+ExitExtToVnum 10292
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 63778
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10296
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10296
-ExitExt 3
+0 0 10292
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10294
 ExitExtEnd
-Exit 3
+Exit 2
 ~
 ~
 0 0 10294
@@ -1694,8 +1467,8 @@ DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10296
-Name Trakt przez bezkresn± równine~
+#Vnum 10294
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
 ExitExt 0
@@ -1703,42 +1476,20 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 63779
+ExitExtToVnum 10293
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 63779
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63783
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63783
+0 0 10293
 ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10285
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10285
-ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10295
 ExitExtEnd
-Exit 3
+Exit 2
 ~
 ~
 0 0 10295
@@ -1746,10 +1497,81 @@ DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10297
-Name {YFree{x~
+#Vnum 10295
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10294
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10294
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10296
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10296
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10296
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10295
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10295
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10297
+ExitExtEnd
+Exit 2
+~
+~
+0 0 10297
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10297
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10296
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10296
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1766,7 +1588,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 10298
-Name {YFree{x~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
 ExitExt 0
@@ -1796,7 +1618,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 10299
-Name {YFree{x~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
 Sector 18
 ExitExt 0
@@ -1815,448 +1637,80 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 65250
+ExitExtToVnum 10300
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 65250
+0 0 10300
 DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10300
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
+Name Na zakrêcie trawiastego traktu~
+FlagsExt 0|C
+Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 40279
+ExitExtToVnum 10299
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 40279
+0 0 10299
 ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40273
-ExitExtEnd
-Exit 1
-~
-~
-0 0 40273
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 19980
-ExitExtEnd
-Exit 2
-~
-~
-0 0 19980
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10306
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10306
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10301
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 18357
-ExitExtEnd
-Exit 0
-~
-~
-0 0 18357
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40275
-ExitExtEnd
-Exit 1
-~
-~
-0 0 40275
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10302
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10302
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 18359
-ExitExtEnd
-Exit 3
-~
-~
-0 0 18359
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10302
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10301
 ExitExtEnd
-Exit 0
-~
-~
-0 0 10301
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40276
-ExitExtEnd
 Exit 1
 ~
 ~
-0 0 40276
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10303
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10303
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10307
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10307
+0 0 10301
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10303
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
+#Vnum 10301
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10302
 ExitExtEnd
-Exit 0
+Exit 1
 ~
 ~
 0 0 10302
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40277
-ExitExtEnd
-Exit 1
-~
-~
-0 0 40277
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10304
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10304
 ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10308
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10308
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10304
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10303
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10303
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40278
-ExitExtEnd
-Exit 1
-~
-~
-0 0 40278
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10305
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10305
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10309
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10309
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10305
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10304
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10304
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40279
-ExitExtEnd
-Exit 1
-~
-~
-0 0 40279
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10306
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10306
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10310
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10310
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10306
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10305
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10305
-ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 10300
 ExitExtEnd
-Exit 1
+Exit 3
 ~
 ~
 0 0 10300
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 19981
-ExitExtEnd
-Exit 2
-~
-~
-0 0 19981
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10311
-ExitExtEnd
-Exit 3
-~
-~
-0 0 10311
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10307
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 18359
-ExitExtEnd
-Exit 0
-~
-~
-0 0 18359
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10302
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10302
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10308
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10308
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28511
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28511
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 10308
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10307
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10307
+#Vnum 10302
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2268,47 +1722,25 @@ Exit 1
 ~
 ~
 0 0 10303
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10309
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10309
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 60566
+ExitExtToVnum 10301
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 60566
+0 0 10301
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10309
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10308
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10308
+#Vnum 10303
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2320,47 +1752,25 @@ Exit 1
 ~
 ~
 0 0 10304
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10310
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10310
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 60594
+ExitExtToVnum 10302
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 60594
+0 0 10302
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10310
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10309
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10309
+#Vnum 10304
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2372,47 +1782,25 @@ Exit 1
 ~
 ~
 0 0 10305
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10311
-ExitExtEnd
-Exit 2
-~
-~
-0 0 10311
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 60622
+ExitExtToVnum 10303
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 60622
+0 0 10303
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10311
-Name {gLas{x~
-Descr ~
-FlagsExt 0
-Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10310
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10310
+#Vnum 10305
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2424,182 +1812,498 @@ Exit 1
 ~
 ~
 0 0 10306
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 19982
-ExitExtEnd
-Exit 2
-~
-~
-0 0 19982
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 60649
+ExitExtToVnum 10304
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 60649
+0 0 10304
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10306
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10307
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10307
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10305
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10305
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10307
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10308
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10308
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10306
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10306
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10308
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10309
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10309
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10307
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10307
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10309
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10310
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10310
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10308
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10308
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10310
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10311
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10311
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10309
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10309
+DayRDesc 10260
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 10311
+Name Trakt przez bezkresn± równinê~
+FlagsExt 0|C
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10312
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10312
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10310
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10310
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10312
-Name {gLas{x~
-Descr Znajdujesz siê na trakcie biegn±cym przez bezkresne, trawiaste równiny,
-faluj±ce zawsze gdy co¶ powiejej, daj±c u³udê ruchu w przepiêknych falach.
-Niedaleko ro¶nie sporo ró¿nych krzaczastych ro¶lin, niektóre zgromadzone
-rosn±ce w kole wygl±daj± jak naturalny ostrokó³, ciekawe czy s± ostre i
-dlaczego rosn± w³a¶nie tak, a nie inaczej. Wêdrowanie tym traktem to czysta
-przyjmno¶æ. No mo¿e przez wszechogarniaj±c± nudê nie jest a¿ tak ró¿nowo,
-ale generalnie trakt jest doskonale wybudowany i nie masz k³opotów z jego
-przemierzaniem. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10313
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10313
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10311
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10311
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10313
-Name {gLas{x~
-Descr Trakt ci±gnie siê przez równinê, tu i ówdzie wij±c siê nieznacznie, co
-prawie nie wp³ywa na odczuwanie bezkresnej dali. Bujna trawa ko³ysze siê
-nieustannie, szeleszcz±c przy tym momentami wrêcz niezno¶nie. Podrywane
-wiatrem py³ki osiadaj± na ekwipunku tworz±c cienitk± warstwê zielono-¿ó³tego
-py³u. Ciemna, postrzêpiona kreska gór Smoczych, towarzyszy ci jak niemy
-¶wiadek podró¿y, zajmuj±c kawa³ pó³nocno-zachodniego horyzontu. Przypatruj±c
-siê uwa¿anie dostrzegasz gdzieniegdzie bia³e czapy na wysokich szczytach. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10314
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10314
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10312
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10312
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10314
-Name {gLas{x~
-Descr Trakt ci±gnie siê przez równinê, tu i ówdzie wij±c siê nieznacznie, co
-prawie nie wp³ywa na odczuwanie bezkresnej dali. Niedaleko ro¶nie sporo
-ró¿nych krzaczastych ro¶lin, niektóre zgromadzone rosn±ce w kole wygl±daj±
-jak naturalny ostrokó³, ciekawe czy s± ostre i dlaczego rosn± w³a¶nie tak, a
-nie inaczej. Ciemna, postrzêpiona kreska gór Smoczych, towarzyszy ci jak
-niemy ¶wiadek podró¿y, zajmuj±c kawa³ pó³nocno-zachodniego horyzontu.
-Przypatruj±c siê uwa¿anie dostrzegasz gdzieniegdzie bia³e czapy na wysokich
-szczytach. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10315
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10315
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10313
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10313
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10315
-Name {gLas{x~
-Descr Twarda, brukowana powierzchnia, przecina bezkresn± równinê z po³udnia na
-pó³noc, nie pozostawiaj±c zbyt wielkiego wyboru co do kierunku, w t± lub w
-tamt±. W zaro¶lach coraz s³ychaæ, zapewne niedu¿e, przemykaj±ce zwierze.
-Szelest i chrobot po chwili zamiera, a ca³a okolica wygl±da jakby tylko na
-co¶ czeka³a. Monotonia poruszania siê po tak dobrym trakcie jest
-deprymuj±ca. Masz ochotê wyskoczyæ gdzie¶ na bok i choæ wytyt³aæ siê w
-trawie. Cokolwiek. Tak dla odmiany. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10316
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10316
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10314
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10314
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10316
-Name {gLas{x~
-Descr Wy³o¿ona kamieniami droga ci±gnie siê przed siebie sprawiaj±c wra¿enie
-nieskoñczonego szlaku. W zaro¶lach coraz s³ychaæ, zapewne niedu¿e,
-przemykaj±ce zwierze. Szelest i chrobot po chwili zamiera, a ca³a okolica
-wygl±da jakby tylko na co¶ czeka³a. Ciemna, postrzêpiona kreska gór
-Smoczych, towarzyszy ci jak niemy ¶wiadek podró¿y, zajmuj±c kawa³
-pó³nocno-zachodniego horyzontu. Przypatruj±c siê uwa¿anie dostrzegasz
-gdzieniegdzie bia³e czapy na wysokich szczytach. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10317
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10317
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10315
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10315
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10317
-Name {gLas{x~
-Descr Jest to solidnie wybrukowany trakt, przecinaj±cy równinê z po³nocy na
-po³udnie, bez chwili wytchnienia, bez szans na inn± drogê, choæ to ostatnie
-to tylko wra¿enie. Niedaleko ro¶nie sporo ró¿nych krzaczastych ro¶lin,
-niektóre zgromadzone rosn±ce w kole wygl±daj± jak naturalny ostrokó³,
-ciekawe czy s± ostre i dlaczego rosn± w³a¶nie tak, a nie inaczej. Wêdrowanie
-tym traktem to czysta przyjmno¶æ. No mo¿e przez wszechogarniaj±c± nudê nie
-jest a¿ tak ró¿nowo, ale generalnie trakt jest doskonale wybudowany i nie
-masz k³opotów z jego przemierzaniem. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10318
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10318
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10316
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10316
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10318
-Name {gLas{x~
-Descr Trakt ci±gnie siê przez równinê, tu i ówdzie wij±c siê nieznacznie, co
-prawie nie wp³ywa na odczuwanie bezkresnej dali. Wiatr wygwizduje swoj±
-melodiê, raz po raz bujaj±c bujne trawy, to na prawo, to na lewo. Pochylaj±c
-pe³ne k³osy traw wprost pod twoje nogi. Poruszanie siê tutaj nie sprawia
-wiêkszych k³opotów, trzeba przyznaæ, ¿e ten, który o to zadba³, wykona³
-pracê skrupulatnie. Czasem tylko jaki¶ wyst±j±cy kamieñ narusza ogólne
-wra¿enie lub równowagê. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10319
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10319
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10317
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10317
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10319
-Name {gLas{x~
-Descr Niewielkie kamyczki le¿±ce na drodze, czasem wystaj±cy kamieñ, to jedyne
-skazy jakie mo¿na zauwa¿ w twardym i równym trakcie z którego korzystasz.
-Niedaleko ro¶nie sporo ró¿nych krzaczastych ro¶lin, niektóre zgromadzone
-rosn±ce w kole wygl±daj± jak naturalny ostrokó³, ciekawe czy s± ostre i
-dlaczego rosn± w³a¶nie tak, a nie inaczej. Monotonia poruszania siê po tak
-dobrym trakcie jest deprymuj±ca. Masz ochotê wyskoczyæ gdzie¶ na bok i choæ
-wytyt³aæ siê w trawie. Cokolwiek. Tak dla odmiany. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10320
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10320
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10318
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10318
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10320
-Name {gLas{x~
-Descr Trakt ci±gnie siê przez równinê, tu i ówdzie wij±c siê nieznacznie, co
-prawie nie wp³ywa na odczuwanie bezkresnej dali. Niedaleko ro¶nie sporo
-ró¿nych krzaczastych ro¶lin, niektóre zgromadzone rosn±ce w kole wygl±daj±
-jak naturalny ostrokó³, ciekawe czy s± ostre i dlaczego rosn± w³a¶nie tak, a
-nie inaczej. Ciemna, postrzêpiona kreska gór Smoczych, towarzyszy ci jak
-niemy ¶wiadek podró¿y, zajmuj±c kawa³ pó³nocno-zachodniego horyzontu.
-Przypatruj±c siê uwa¿anie dostrzegasz gdzieniegdzie bia³e czapy na wysokich
-szczytach. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10321
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10321
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10319
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10319
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 10321
-Name {gLas{x~
-Descr Wy³o¿ona równo cisanymi kamieniami droga ci±gnie siê przed siebie
-sprawiaj±c wra¿enie nieskoñczonego szlaku, prowadz±cego tak daleko, ¿e ju¿
-odechciewa siê i¶æ. Wiatr wygwizduje swoj± melodiê, raz po raz bujaj±c bujne
-trawy, to na prawo, to na lewo. Pochylaj±c pe³ne k³osy traw wprost pod twoje
-nogi. Monotonia poruszania siê po tak dobrym trakcie jest deprymuj±ca. Masz
-ochotê wyskoczyæ gdzie¶ na bok i choæ wytyt³aæ siê w trawie. Cokolwiek. Tak
-dla odmiany. 
-~
+Name Trakt przez bezkresn± równinê~
 FlagsExt 0|C
-Sector 3
+Sector 18
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10273
+ExitExtEnd
+Exit 1
+~
+~
+0 0 10273
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10320
+ExitExtEnd
+Exit 3
+~
+~
+0 0 10320
+DayRDesc 10260
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2607,17 +2311,6 @@ Roomend
 Name Droga przez las~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53117
-ExitExtEnd
-Exit 0
-~
-~
-0 0 53117
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2648,17 +2341,6 @@ Roomend
 Name Droga przez las~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53116
-ExitExtEnd
-Exit 0
-~
-~
-0 0 53116
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2689,17 +2371,6 @@ Roomend
 Name Droga przez las~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53115
-ExitExtEnd
-Exit 0
-~
-~
-0 0 53115
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2730,17 +2401,6 @@ Roomend
 Name Droga przez las~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53114
-ExitExtEnd
-Exit 0
-~
-~
-0 0 53114
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2771,17 +2431,6 @@ Roomend
 Name Droga przez las~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53113
-ExitExtEnd
-Exit 0
-~
-~
-0 0 53113
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2812,17 +2461,6 @@ Roomend
 Name Zakrêt le¶nej drogi~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53112
-ExitExtEnd
-Exit 0
-~
-~
-0 0 53112
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2845,17 +2483,6 @@ Exit 2
 ~
 ~
 0 0 10328
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53128
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53128
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2886,17 +2513,6 @@ Exit 2
 ~
 ~
 0 0 10329
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53133
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53133
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2927,17 +2543,6 @@ Exit 2
 ~
 ~
 0 0 10330
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53136
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53136
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2968,17 +2573,6 @@ Exit 2
 ~
 ~
 0 0 10331
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53137
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53137
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3411,17 +3005,6 @@ Exit 0
 ~
 ~
 0 0 10341
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63666
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63666
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3452,17 +3035,6 @@ Exit 0
 ~
 ~
 0 0 10342
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63657
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63657
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3493,17 +3065,6 @@ Exit 0
 ~
 ~
 0 0 10343
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63648
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63648
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3534,17 +3095,6 @@ Exit 0
 ~
 ~
 0 0 10344
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63639
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63639
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3575,17 +3125,6 @@ Exit 0
 ~
 ~
 0 0 10345
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63630
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63630
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3616,17 +3155,6 @@ Exit 0
 ~
 ~
 0 0 10346
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63621
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63621
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3657,17 +3185,6 @@ Exit 0
 ~
 ~
 0 0 10347
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63612
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63612
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3698,17 +3215,6 @@ Exit 0
 ~
 ~
 0 0 10348
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63603
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63603
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3739,17 +3245,6 @@ Exit 0
 ~
 ~
 0 0 10349
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63594
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63594
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3780,17 +3275,6 @@ Exit 0
 ~
 ~
 0 0 10350
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63585
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63585
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3821,17 +3305,6 @@ Exit 0
 ~
 ~
 0 0 10351
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63576
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63576
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3862,17 +3335,6 @@ Exit 0
 ~
 ~
 0 0 10352
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63567
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63567
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3903,17 +3365,6 @@ Exit 0
 ~
 ~
 0 0 10353
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63558
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63558
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3944,17 +3395,6 @@ Exit 0
 ~
 ~
 0 0 10354
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63549
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63549
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3985,17 +3425,6 @@ Exit 0
 ~
 ~
 0 0 10355
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63540
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63540
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4015,28 +3444,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64008
-ExitExtEnd
-Exit 0
-~
-~
-0 0 64008
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63531
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63531
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4067,17 +3474,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64007
-ExitExtEnd
-Exit 0
-~
-~
-0 0 64007
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4108,17 +3504,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64006
-ExitExtEnd
-Exit 0
-~
-~
-0 0 64006
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4149,17 +3534,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64005
-ExitExtEnd
-Exit 0
-~
-~
-0 0 64005
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4190,17 +3564,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64004
-ExitExtEnd
-Exit 0
-~
-~
-0 0 64004
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4272,17 +3635,6 @@ Exit 0
 ~
 ~
 0 0 10362
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64004
-ExitExtEnd
-Exit 1
-~
-~
-0 0 64004
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4313,17 +3665,6 @@ Exit 0
 ~
 ~
 0 0 10363
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63999
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63999
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4354,17 +3695,6 @@ Exit 0
 ~
 ~
 0 0 10364
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63994
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63994
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4395,17 +3725,6 @@ Exit 0
 ~
 ~
 0 0 10365
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63989
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63989
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4436,17 +3755,6 @@ Exit 0
 ~
 ~
 0 0 10366
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63984
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63984
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4477,17 +3785,6 @@ Exit 0
 ~
 ~
 0 0 10367
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63979
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63979
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4518,17 +3815,6 @@ Exit 0
 ~
 ~
 0 0 10368
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63974
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63974
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4559,17 +3845,6 @@ Exit 0
 ~
 ~
 0 0 10369
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63969
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63969
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4600,17 +3875,6 @@ Exit 0
 ~
 ~
 0 0 10370
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63964
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63964
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4641,17 +3905,6 @@ Exit 0
 ~
 ~
 0 0 10371
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63959
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63959
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4682,17 +3935,6 @@ Exit 0
 ~
 ~
 0 0 10372
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63954
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63954
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4723,17 +3965,6 @@ Exit 0
 ~
 ~
 0 0 10373
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63949
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63949
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4764,17 +3995,6 @@ Exit 0
 ~
 ~
 0 0 10374
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63944
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63944
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4805,17 +4025,6 @@ Exit 0
 ~
 ~
 0 0 10375
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63939
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63939
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4835,28 +4044,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63928
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63928
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63934
-ExitExtEnd
-Exit 1
-~
-~
-0 0 63934
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4887,17 +4074,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63927
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63927
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4928,17 +4104,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63926
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63926
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4969,17 +4134,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63925
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63925
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5010,17 +4164,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63924
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63924
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5051,17 +4194,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 63923
-ExitExtEnd
-Exit 0
-~
-~
-0 0 63923
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5092,17 +4224,6 @@ Roomend
 Name U podnó¿a gór~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 64018
-ExitExtEnd
-Exit 0
-~
-~
-0 0 64018
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5136,14 +4257,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 64024
+ExitExtToVnum 13303
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 64024
+16 0 13303
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5218,14 +4339,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 64024
+ExitExtToVnum 13303
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 64024
+16 0 13303
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5259,14 +4380,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 64023
+ExitExtToVnum 13302
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 64023
+16 0 13302
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5300,14 +4421,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 64022
+ExitExtToVnum 13301
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 64022
+16 0 13301
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5341,14 +4462,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 64021
+ExitExtToVnum 13300
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 64021
+16 0 13300
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5382,14 +4503,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44399
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44399
+16 0 44399
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5412,25 +4533,25 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 8
 ExitExtKey 0
 ExitExtToVnum 44395
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 44395
+8 0 44395
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44397
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44397
+16 0 44397
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5505,14 +4626,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44395
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44395
+16 0 44395
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5546,14 +4667,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44394
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44394
+16 0 44394
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5587,14 +4708,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44393
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44393
+16 0 44393
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5628,14 +4749,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44391
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44391
+16 0 44391
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5669,14 +4790,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44390
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44390
+16 0 44390
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5768,14 +4889,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44390
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 44390
+16 0 44390
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5809,25 +4930,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44388
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44388
+16 0 44388
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44389
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 44389
+16 0 44389
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5861,14 +4982,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44386
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44386
+16 0 44386
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5902,14 +5023,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44273
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44273
+16 0 44273
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5943,14 +5064,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44272
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44272
+16 0 44272
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5962,17 +5083,6 @@ Exit 2
 ~
 ~
 0 0 10400
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53082
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53082
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5995,14 +5105,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44271
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44271
+16 0 44271
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6014,17 +5124,6 @@ Exit 2
 ~
 ~
 0 0 10401
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53063
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53063
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6047,14 +5146,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44270
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44270
+16 0 44270
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6066,17 +5165,6 @@ Exit 2
 ~
 ~
 0 0 10402
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53044
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53044
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6099,14 +5187,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44269
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44269
+16 0 44269
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6118,17 +5206,6 @@ Exit 2
 ~
 ~
 0 0 10403
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53025
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53025
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6151,14 +5228,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44268
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44268
+16 0 44268
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6170,17 +5247,6 @@ Exit 2
 ~
 ~
 0 0 10404
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 53006
-ExitExtEnd
-Exit 3
-~
-~
-0 0 53006
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6203,14 +5269,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44267
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44267
+16 0 44267
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6222,17 +5288,6 @@ Exit 2
 ~
 ~
 0 0 10405
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52987
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52987
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6244,25 +5299,25 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 8
 ExitExtKey 0
 ExitExtToVnum 44264
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 44264
+8 0 44264
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44266
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44266
+16 0 44266
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6315,28 +5370,6 @@ Exit 1
 ~
 ~
 0 0 10407
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52987
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52987
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52968
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52968
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6359,14 +5392,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44264
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44264
+16 0 44264
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6378,17 +5411,6 @@ Exit 2
 ~
 ~
 0 0 10408
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52950
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52950
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6411,14 +5433,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44263
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44263
+16 0 44263
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6430,17 +5452,6 @@ Exit 2
 ~
 ~
 0 0 10409
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52932
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52932
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6463,14 +5474,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44262
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44262
+16 0 44262
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6482,17 +5493,6 @@ Exit 2
 ~
 ~
 0 0 10410
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52914
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52914
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6515,14 +5515,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44261
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44261
+16 0 44261
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6534,17 +5534,6 @@ Exit 2
 ~
 ~
 0 0 10411
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52896
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52896
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6567,14 +5556,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44260
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44260
+16 0 44260
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6586,17 +5575,6 @@ Exit 2
 ~
 ~
 0 0 10412
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52878
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52878
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6619,14 +5597,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44259
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44259
+16 0 44259
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6638,17 +5616,6 @@ Exit 2
 ~
 ~
 0 0 10413
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52860
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52860
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6671,14 +5638,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44258
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44258
+16 0 44258
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6690,17 +5657,6 @@ Exit 2
 ~
 ~
 0 0 10414
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52842
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52842
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6723,14 +5679,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44257
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44257
+16 0 44257
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6742,17 +5698,6 @@ Exit 2
 ~
 ~
 0 0 10415
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52824
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52824
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6775,14 +5720,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44256
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44256
+16 0 44256
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6794,17 +5739,6 @@ Exit 2
 ~
 ~
 0 0 10416
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52806
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52806
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6827,14 +5761,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44255
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44255
+16 0 44255
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6846,17 +5780,6 @@ Exit 2
 ~
 ~
 0 0 10417
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52788
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52788
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6865,17 +5788,6 @@ Roomend
 Name Zakrêt le¶nej drogi~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52079
-ExitExtEnd
-Exit 0
-~
-~
-0 0 52079
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6898,17 +5810,6 @@ Exit 2
 ~
 ~
 0 0 10418
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52770
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52770
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6917,17 +5818,6 @@ Roomend
 Name Droga przez las~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52080
-ExitExtEnd
-Exit 0
-~
-~
-0 0 52080
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6942,14 +5832,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 8
 ExitExtKey 0
 ExitExtToVnum 44255
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 44255
+8 0 44255
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6983,25 +5873,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 24
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44252
 ExitExtEnd
 Exit 1
 ~
 ~
-24 0 44252
+16 0 44252
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 8
 ExitExtKey 0
 ExitExtToVnum 44254
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 44254
+8 0 44254
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7035,14 +5925,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44251
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44251
+16 0 44251
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7054,17 +5944,6 @@ Exit 2
 ~
 ~
 0 0 10421
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52080
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52080
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7087,14 +5966,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44250
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44250
+16 0 44250
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7106,17 +5985,6 @@ Exit 2
 ~
 ~
 0 0 10422
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52072
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52072
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7139,14 +6007,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44249
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44249
+16 0 44249
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7158,17 +6026,6 @@ Exit 2
 ~
 ~
 0 0 10423
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52064
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52064
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7191,14 +6048,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44248
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44248
+16 0 44248
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7210,17 +6067,6 @@ Exit 2
 ~
 ~
 0 0 10424
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52056
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52056
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7243,14 +6089,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44247
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44247
+16 0 44247
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7262,17 +6108,6 @@ Exit 2
 ~
 ~
 0 0 10425
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52048
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52048
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7295,14 +6130,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44246
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44246
+16 0 44246
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7314,17 +6149,6 @@ Exit 2
 ~
 ~
 0 0 10426
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52040
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52040
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7347,14 +6171,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44245
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44245
+16 0 44245
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7366,17 +6190,6 @@ Exit 2
 ~
 ~
 0 0 10427
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52032
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52032
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7399,14 +6212,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 44244
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 44244
+16 0 44244
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7418,17 +6231,6 @@ Exit 2
 ~
 ~
 0 0 10428
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52024
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52024
 DayRDesc 10389
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7462,7 +6264,7 @@ S
 #MOBPROGSNEW
 #10262_random2
 ~
-if wears $n 29092
+if wears $n 10262
   if !affected $n brave_cloak
     mob echoat $n Boska moc zawarta w '{YStra¿y Portena{X' powoduje, ¿e czujesz siê znacznie pewniej.
     mob echoaround $n Boska moc zawarta w '{YStra¿y Portena{X' powoduje, ¿e $n czuje siê znacznie pewniej.
@@ -7473,6 +6275,71 @@ endif
 #0
 
 #OBJPROGSNEW
+#10262_fight
+~
+mob echo Skórzany kañczug '{YStra¿ Vamyra{x' emanuje ciep³±, bosk± energi±, która leczy rany $z.
+mob cast 'cure serious' $n
+~
+#10262_fight2
+~
+mob echoat $t Koñcówka kañczuga '{YStra¿ Vamyra{x', trzymanego przez $c wypuszcza promieñ ¶wiêtej energii, który pora¿a twe cia³o.
+mob echoaround $t Koñcówka kañczuga '{YStra¿ Vamyra{x' robi siê nagle bardzo jasna i wypuszcza promieñ ¶wiêtej energi, który pora¿a cia³o $tz!
+mob damageex $t 10 10 20
+~
+#10262_random
+~
+if players > 0
+    if wears $n 10262 
+      if !hasflag $n dostal_bless
+        mob echoat $n Boska moc zawarta w skórzanym kañczugu b³ogos³awi ciê.
+        mob echoaround $n Boska moc zawarta w trzymanym przez $c skórzanym kañczugu b³ogos³awi <&go/&j±/&to>.
+        mob cast bless $n 35
+        mob setflag $n dostal_bless 10
+      endif
+    endif
+  endif
+~
+#10262_random2
+~
+if players > 0
+  if wears $n 10262
+    if !hasflag $n brejw
+      mob echoat $n Boska moc zawarta w '{YStra¿y Portena{x' powoduje, ¿e czujesz siê znacznie pewniej.
+      mob echoaround $n Boska moc zawarta w '{YStra¿y Portena{X' powoduje, ¿e $n czuje siê znacznie pewniej.
+      mob cast brave $n 35
+      mob setflag $n brejw 8
+    endif
+  endif
+endif
+~
+#10262_remove
+~
+mob echoaround $n $n przestaje u¿ywaæ skórzanego kañczuga '{YStra¿ Vamyra{x', a otaczaj±cy <&go/&j±/&to> pancerz zanika.
+mob echoat $n Przestajesz u¿ywaæ skórzanego kañczuga '{YStra¿ Vamyra{X', a otaczaj±cy ciê pancerz zanika.
+obj unwear
+~
+#10262_use
+~
+if !hasflag $n brejw
+  if rand 50
+    mob echoat $n Boska moc zawarta w skórzanym kañczugu b³ogos³awi ciê.
+    mob echoaround $n Boska moc zawarta w trzymanym przez $c skórzanym kañczugu b³ogos³awi <&go/&j±/&to>.
+    mob cast bless $n 35
+    mob setflag $n brejw 5
+  else
+    mob echoat $n Boska moc zawarta w '{YStra¿y Vamyra{X' powoduje, ¿e czujesz siê znacznie pewniej.
+    mob echoaround $n Boska moc zawarta w '{YStra¿y Vamyra{X' powoduje, ¿e $n czuje siê znacznie pewniej.
+    mob cast brave $n 35
+    mob setflag $n brejw 6
+  endif
+endif
+~
+#10262_wear
+~
+mob echoaround $n $n bierze dumnie do rêki skórzany kañczug '{YStra¿ Vamyra{x', który rozb³yska przez chwilê i okrywa $nc magicznym pancerzem.
+mob echoat $n Bierzesz dumnie do rêki skórzany kañczug '{YStra¿ Vamyra{X', który rozb³yska przez chwilê i okrywa ciê magicznym pancerzem.
+obj wear
+~
 #0
 
 #ROOMPROGSNEW

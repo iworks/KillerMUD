@@ -54,7 +54,7 @@ Parts ABCDEFGHIJKQRU
 Size medium
 Material unknown
 MobprogNew death 24768 ABCDEFGHI 100~
-Corpse 3369
+Corpse 24768
 Skin 100
 ExpMultiplier 100
 Resist 1 20
@@ -283,7 +283,7 @@ Descr Masz przed sob± ducha starego wêdrowca, owa zjawa za ¿ycia by³a potêznym
 magiem i poszukiwaczem przygód. Tu¿ przed koñcem swojego ¿ycia wyruszy³ w
 ostatni± podró¿, krótko potem s³uch o nim zagin±³...
 ~
-Race duch~
+Race unique~
 ActExt 0|AOR
 Affected 301989928 0 524288 0
 AffectedExt 0|DFZc/2|T
@@ -305,9 +305,9 @@ Off Z
 OffExt 0|Z
 Pos_start stand
 Pos_def stand
-Sex male
+Sex none
 Wealth 5000
-Form ACFHILMVW
+Form ACFHIMVW
 Parts ABCDEFGHIJKPRU
 Size medium
 Material unknown
@@ -335,6 +335,26 @@ Mobend
 
 
 #OBJECTS
+#Vnum 24768
+Name kupa ko¶ci szcz±tki szkielet cia³o~
+Odmiana kosci szkieletu~kosciom szkieletu~kosci szkieletu~koscmi szkieletu~kosciach szkieletu~
+Short kosci szkieletu~
+Descr Spora kupa kosci lezy tutaj.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 800
+Cost 0
+Cond 100
+Comments ~
+Objend
 #Vnum 24769
 Name kupka monet~
 Odmiana kupki monet~kupce monet~kupkê monet~kupk± monet~kupce monet~
@@ -350,11 +370,134 @@ LiczbaMnoga 1
 Gender 0
 Value 0 25 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Itemdesc Jest to b³yszcz±ca kupka srebrnych monet.
+~
+Comments ~
+Objend
+#Vnum 24770
+Name czarna opaska z³odzieja~
+Odmiana {Dopaski z³odzieja{x~{Dopasce z³odzieja{x~{Dopaskê z³odzieja{x~{Dopask± z³odzieja{x~{Dopasce z³odzieja{x~
+Short {Dczarna opaska z³odzieja{x~
+Descr Czarna, d³uga opaska czêsto u¿ywana przez najwy¿szych rang± z³odzieji wala sie po ziemii.~
+Material smocze ³uski~
+Type armor
+ExtraExt 0|DZ
+Wear AE
+Wear2Ext 0|P
+Bonus 24769
+LiczbaMnoga 0
+Gender 3
+Value 6 8 6 10 6 0 0
+Repair 20 0 1 100
+Weight 4
+Cost 1
+Cond 100
+Aff 1 12 4 6 0 0
+Aff 1 14 2 0 0 0
+Aff 1 17 -1 0 0 0
+Itemdesc Ze zdziwieniem maluj±cym siê na twarzy przygl±dasz siê przepiêknej,
+czarnej opasce. Opaska jest przedmiotem najczê¶ciej i najchêtniej u¿ywanym
+przez skrytobójców wraz z d³ugim czarnym p³aszczem tworzy idealne przykrycie
+g³owy. Ta opaska jest jednak szczególnym przedmiotem bowiem zosta³a wykonana
+z ³usek czarnego smoka, zwanego równie¿ {D¶mierci±{x. Tylko najznamienitsi i
+prawdziwi arcymistrzowie w¶ród z³odziei mieli zaszczyt nosiæ ow± opaskê.
+Teraz owa opaska jest w twoich rêkach, pytanie czy jestes godzieñ j±
+nosiæ... 
+~
+Comments ~
+Objend
+#Vnum 24771
+Name szata Adra'thila chciwego mistrza~
+Odmiana szaty {DAdra'thila chcwiego{x~szacie {DAdra'thila chciwego{x~szatê {DAdra'thila chciwego{x~szat± {DAdra'thila chciwego{x~szacie {DAdra'thila chciwego{x~
+Short szata {DAdra'thila chciwego{X~
+Descr Ciemnej barwy szata, z³o¿ona w zgrabn± kupkê le¿y tutaj.~
+Material jedwab~
+Type clothing
+ExtraExt 0|D/1|A
+Wear ADEFHIL
+Wear2Ext 0|P
+Bonus 24769
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 10
+Cost 1
+Cond 100
+Aff 1 12 2 5 0 0
+Aff 1 26 124 1 0 0
+Aff 1 12 8 5 0 0
+Itemdesc Przepiêkna szata o czarnej barwie z d³ugim kapturem obszytym srebrn±
+nici± przyci±ga twój wzrok. Niegdy¶ owy p³aszcz, gdy¿ to okre¶lenie lepiej
+pasuje do owego odzienia nale¿a³ do jednego z najwiêkszych mistrzów
+z³odziejskiego fachu Adra'thila chciwego. Gdy dni wspania³ego mistrza
+dobieg³y koñca jego uczeñ obj±³ pieczê nad ekwipunkiem mistrza. Nied³ugo po
+tym wydarzeniu zagin±³ a wraz z nim wspania³y ekwipunek mistrza... 
+~
+Comments ~
+Objend
+#Vnum 24772
+Name naramienniki Utrundal~
+Odmiana {Dnaramienników Utrundal{x~{Dnaramiennikom Utrundal{x~{Dnaramienniki Utrundal{x~{Dnaramiennikami Utrundal{x~{Dnaramiennikach Utrundal{x~
+Short {Dnaramienniki Utrundal{x~
+Descr Piêkne naramienniki z czarnymi insygniami w kszta³cie litery "U".~
+Material smocze ³uski~
+Type armor
+ExtraExt 0|D
+Wear AI
+Wear2Ext 0|P
+Bonus 24769
+LiczbaMnoga 1
+Gender 2
+Value 6 8 6 10 6 0 0
+Repair 20 0 1 100
+Weight 30
+Cost 1
+Cond 100
+Aff 1 12 3 4 0 0
+Aff 1 17 -2 0 0 0
+Aff 1 12 2 1 0 0
+Itemdesc Piêkne skórzane naramienniki wykonane z barwionych smoczych ³usek
+przyci±gaj twój wzrok. Naramienniki dziêki magii zaklêtej w nich idealnie
+dopasowuj± siê do sylwetki w³a¶ciciela. Zarówna na lewym jak i prawym
+wierzcho³ku naramienników wygrawerowane zosta³y inicja³y pierwotnego
+w³a¶ciciela naramienników {DUntrundal{x . Untrundal by³a jedyn± kobiet± w ¿yciu
+Adra'thila chciwego. Krótko po ¶mierci ukochanego grupa zwiadowców ze
+z³otego miasta znalaz³a zbezczeszczone zw³oki kobiety pod lokaln± wiosk±
+przy trakcie Obiloñskim. 
+~
+Comments ~
+Objend
+#Vnum 24773
+Name skórzany pancerz Opieka Adra'thila~
+Odmiana {Ropieki {DAdra'thila{x~{Ropiece {DAdra'thila{x~{Ropiekê {DAdra'thila{x~{Ropiek± {DAdra'thila{x~{Ropiece {DAdra'thila{x~
+Short {Ropieka {DAdra'thila{x~
+Descr Skórzana zbroja o krwistoczerwonym odcieniu szuka nowego w³a¶ciciela.~
+Material smocze ³uski~
+Type armor
+ExtraExt 0|D
+Wear AD
+Wear2Ext 0|P
+Bonus 24769
+LiczbaMnoga 0
+Gender 2
+Value 6 8 6 10 6 0 0
+Repair 20 0 1 100
+Weight 70
+Cost 100000
+Cond 100
+Aff 1 12 1 10 0 0
+Aff 1 17 -1 0 0 0
+Aff 1 2 2 0 0 0
+Itemdesc Znakomity pancerz o krwistej barwie przyci±ga twój wzrok. Jest to jeden z
+wielu elementów ekwipunku wspania³ego mistrza z³odziejskiego cechu
+{DAdra'thila{x, niektórzy nazywali go {DAdra'thilem chciwym{x, jeszcze inni nadali
+mu przydomek {Drêki mroku{x. Nikt jednak kto stan±³ na jego drodze nie oddycha³
+d³u¿ej ni¿ do wschodu s³oñca dnia nastêpnego. Mroczna aura tajemniczo¶ci
+spowi³a wiêksz± czê¶æ historii owego pancerza. 
 ~
 Comments ~
 Objend
@@ -373,18 +516,72 @@ LiczbaMnoga 0
 Gender 0
 Value 2 0 0 1 100 0 -1
 Repair 20 0 1 100
-Length 0
 Weight 1
 Cost 10000
 Cond 100
-Aff 1 13 1 0 0 0
-Aff 1 26 117 3 0 0
 Aff 1 12 3 2 0 0
+Aff 1 26 117 3 0 0
+Aff 1 13 1 0 0 0
 Itemdesc Wspaniale zdobiony pas wysadzany {Rrubinami{x przyci±ga twój wzrok. Jest to
 wyj±tkowo lekki i praktyczny przedmiot. Twórca pasa zadba³ nie tylko o
 idealn± ochronê u¿ywaj±cego ale i o jego praktyczny aspekt. Pas bowiem
 zosta³ wyposa¿any w niewielkie sakiewki, w które z powodzeniem mo¿na schowaæ
 mniejsze przedmioty. 
+~
+Comments ~
+Objend
+#Vnum 24775
+Name skórzane nogawice czerñ nocy~
+Odmiana skórzanych nogawic {Dczerñ {bnocy{x~skórzanym nogawicom {Dczerñ {bnocy{x~skórzane nogawice {Dczerñ {bnocy{x~skórzanymi nogawicami {Dczerñ {bnocy{x~skórzanym nogawicom {Dczerñ {bnocy{x~
+Short skórzane nogawice {Dczerñ {bnocy{x~
+Descr Atramentowo {Dczarne{x nogawice znajduj± sie tutaj...~
+Material skóra~
+Type armor
+ExtraExt 0|D
+Wear AF
+Wear2Ext 0|P
+Bonus 24769
+LiczbaMnoga 0
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 20 0 1 100
+Weight 17
+Cost 125000
+Cond 100
+Aff 1 18 1 0 0 0
+Aff 1 17 -1 0 0 0
+Itemdesc Niezwyk³e nogawice przyci±gaj± twój wzrok ich niesamowita atramentowa
+{Dczerñ{x przyprawia ciê o gêsi± skórkê. Zastanów siê czy jeste¶ w stanie nosiæ
+owy tajemniczy przedmiot... 
+~
+Comments ~
+Objend
+#Vnum 24776
+Name szelest wiatru lekkie buty~
+Odmiana lekkich butów {Cszelest wiatru{x~lekkim butom {Cszelest wiatru{x~lekkie buty {Cszelest wiatru{x~lekkimi butami {Cszelest wiatru{x~lekkich butach {Cszelest wiatru{x~
+Short lekkie buty {Cszelest wiatru{x~
+Descr Zwyczajne, lekkie buty walaj± siê tutaj...~
+Material nieznany~
+Type armor
+ExtraExt 0|D
+Wear AG
+Wear2Ext 0|P
+Bonus 24769
+LiczbaMnoga 0
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 20 0 1 100
+Weight 4
+Cost 12000
+Cond 100
+Aff 0 13 0 0 3 C
+Aff 1 26 129 5 0 0
+Itemdesc Tajemnicze buty przyci±gaj± twój wzrok. Niesamowicie lekkie i wygodne
+obuwie z pewno¶ci± u³atwia podró¿owanie. Szelest wiatru bo tak nazwano te
+buty, s± wyj±tkowo zagadkowym przedmiotem, historia owego obuwia jest
+niezwykle tajemnicza, ka¿dy kto s³ysza³ jak±kolwiek wzmiankê o lekkich
+butach jest wstanie jedynie odpowiedzieæ, "tak s³ysza³em co¶ o tym, one
+istniej± od zawsze"... 
 ~
 Comments ~
 Objend
@@ -396,7 +593,7 @@ Objend
 #Vnum 24701
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -437,18 +634,7 @@ Roomend
 #Vnum 24702
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2814
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2814
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -500,7 +686,7 @@ Roomend
 #Vnum 24703
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -530,7 +716,7 @@ Roomend
 #Vnum 24704
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -564,17 +750,6 @@ Exit 2
 ~
 ~
 0 0 24703
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2814
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2814
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -593,7 +768,7 @@ Roomend
 #Vnum 24705
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -605,17 +780,6 @@ Exit 0
 ~
 ~
 0 0 24706
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2813
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2813
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -645,7 +809,7 @@ Roomend
 #Vnum 24706
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -679,17 +843,6 @@ Exit 2
 ~
 ~
 0 0 24705
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2809
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2809
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -697,7 +850,7 @@ Roomend
 #Vnum 24707
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -709,17 +862,6 @@ Exit 0
 ~
 ~
 0 0 24723
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2812
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2812
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -749,18 +891,7 @@ Roomend
 #Vnum 24708
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2810
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2810
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -772,17 +903,6 @@ Exit 1
 ~
 ~
 0 0 24707
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2809
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2809
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -801,7 +921,7 @@ Roomend
 #Vnum 24709
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -838,14 +958,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6930
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6930
+16 0 6930
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -864,7 +984,7 @@ Roomend
 #Vnum 24710
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -876,17 +996,6 @@ Exit 0
 ~
 ~
 0 0 24709
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2809
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2809
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -901,14 +1010,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6929
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6929
+16 0 6929
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -916,7 +1025,7 @@ Roomend
 #Vnum 24711
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -968,7 +1077,7 @@ Roomend
 #Vnum 24712
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -980,17 +1089,6 @@ Exit 0
 ~
 ~
 0 0 24711
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2814
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2814
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1005,14 +1103,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6927
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6927
+16 0 6927
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1020,7 +1118,7 @@ Roomend
 #Vnum 24713
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1057,14 +1155,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6926
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6926
+16 0 6926
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1072,7 +1170,7 @@ Roomend
 #Vnum 24714
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1095,17 +1193,6 @@ Exit 2
 ~
 ~
 0 0 24719
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2812
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2812
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1124,18 +1211,7 @@ Roomend
 #Vnum 24715
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2809
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2809
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1147,17 +1223,6 @@ Exit 1
 ~
 ~
 0 0 24705
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2814
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2814
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1176,18 +1241,7 @@ Roomend
 #Vnum 24716
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2813
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2813
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1217,7 +1271,7 @@ Roomend
 #Vnum 24717
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1258,7 +1312,7 @@ Roomend
 #Vnum 24718
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1281,17 +1335,6 @@ Exit 2
 ~
 ~
 0 0 24717
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2813
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2813
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1299,7 +1342,7 @@ Roomend
 #Vnum 24719
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1340,18 +1383,7 @@ Roomend
 #Vnum 24720
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2812
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2812
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1363,17 +1395,6 @@ Exit 1
 ~
 ~
 0 0 24719
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2813
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2813
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1403,7 +1424,7 @@ Roomend
 #Vnum 24721
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1433,7 +1454,7 @@ Roomend
 #Vnum 24722
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1445,17 +1466,6 @@ Exit 1
 ~
 ~
 0 0 24721
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2812
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2812
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1474,7 +1484,7 @@ Roomend
 #Vnum 24723
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1508,17 +1518,6 @@ Exit 2
 ~
 ~
 0 0 24707
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2810
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2810
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1537,7 +1536,7 @@ Roomend
 #Vnum 24724
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1549,17 +1548,6 @@ Exit 0
 ~
 ~
 0 0 24727
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2810
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2810
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1589,7 +1577,7 @@ Roomend
 #Vnum 24725
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1619,7 +1607,7 @@ Roomend
 #Vnum 24726
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1631,17 +1619,6 @@ Exit 1
 ~
 ~
 0 0 24725
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2810
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2810
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1660,7 +1637,7 @@ Roomend
 #Vnum 24727
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1712,18 +1689,7 @@ Roomend
 #Vnum 24728
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2811
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2811
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1738,14 +1704,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6930
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6930
+16 0 6930
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1764,7 +1730,7 @@ Roomend
 #Vnum 24729
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1790,14 +1756,14 @@ Exit 1
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6933
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6933
+16 0 6933
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1805,7 +1771,7 @@ Roomend
 #Vnum 24730
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1835,40 +1801,18 @@ Roomend
 #Vnum 24731
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2801
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2801
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6925
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6925
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2815
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2815
+16 0 6925
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1887,7 +1831,7 @@ Roomend
 #Vnum 24732
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1910,28 +1854,6 @@ Exit 1
 ~
 ~
 0 0 24731
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2816
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2816
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2794
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2794
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1939,18 +1861,7 @@ Roomend
 #Vnum 24733
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2808
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2808
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1962,17 +1873,6 @@ Exit 1
 ~
 ~
 16 0 6927
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2801
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2801
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1991,7 +1891,7 @@ Roomend
 #Vnum 24734
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2025,17 +1925,6 @@ Exit 2
 ~
 ~
 0 0 24735
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2802
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2802
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2043,7 +1932,7 @@ Roomend
 #Vnum 24735
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2055,17 +1944,6 @@ Exit 0
 ~
 ~
 0 0 24734
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2801
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2801
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2095,7 +1973,7 @@ Roomend
 #Vnum 24736
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2107,17 +1985,6 @@ Exit 0
 ~
 ~
 0 0 24737
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2808
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2808
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2147,7 +2014,7 @@ Roomend
 #Vnum 24737
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2181,17 +2048,6 @@ Exit 2
 ~
 ~
 0 0 24736
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2806
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2806
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2210,40 +2066,18 @@ Roomend
 #Vnum 24738
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6931
-ExitExtEnd
-Exit 0
-~
-~
-0 0 6931
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6929
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6929
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2808
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2808
+16 0 6929
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2262,7 +2096,7 @@ Roomend
 #Vnum 24739
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2314,18 +2148,7 @@ Roomend
 #Vnum 24740
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2807
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2807
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2337,17 +2160,6 @@ Exit 1
 ~
 ~
 0 0 24739
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2806
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2806
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2366,7 +2178,7 @@ Roomend
 #Vnum 24741
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2400,17 +2212,6 @@ Exit 2
 ~
 ~
 0 0 24742
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2805
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2805
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2418,7 +2219,7 @@ Roomend
 #Vnum 24742
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2430,17 +2231,6 @@ Exit 0
 ~
 ~
 0 0 24741
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2806
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2806
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2470,18 +2260,7 @@ Roomend
 #Vnum 24743
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2806
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2806
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2493,17 +2272,6 @@ Exit 1
 ~
 ~
 0 0 24736
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2802
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2802
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2522,7 +2290,7 @@ Roomend
 #Vnum 24744
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2556,17 +2324,6 @@ Exit 2
 ~
 ~
 0 0 24745
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2803
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2803
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2585,7 +2342,7 @@ Roomend
 #Vnum 24745
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2597,17 +2354,6 @@ Exit 0
 ~
 ~
 0 0 24744
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2802
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2802
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2637,7 +2383,7 @@ Roomend
 #Vnum 24746
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2660,28 +2406,6 @@ Exit 1
 ~
 ~
 0 0 24747
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2795
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2795
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2789
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2789
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2689,18 +2413,7 @@ Roomend
 #Vnum 24747
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2802
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2802
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2712,17 +2425,6 @@ Exit 1
 ~
 ~
 0 0 24735
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2794
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2794
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2741,7 +2443,7 @@ Roomend
 #Vnum 24748
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2753,17 +2455,6 @@ Exit 0
 ~
 ~
 0 0 24749
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2807
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2807
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2793,18 +2484,7 @@ Roomend
 #Vnum 24749
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30158
-ExitExtEnd
-Exit 0
-~
-~
-0 0 30158
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2827,17 +2507,6 @@ Exit 2
 ~
 ~
 0 0 24748
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30170
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30170
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -2845,7 +2514,7 @@ Roomend
 #Vnum 24750
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2868,17 +2537,6 @@ Exit 1
 ~
 ~
 0 0 24751
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2807
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2807
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2908,7 +2566,7 @@ Roomend
 #Vnum 24751
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2923,14 +2581,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6932
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6932
+16 0 6932
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2960,7 +2618,7 @@ Roomend
 #Vnum 24752
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2994,17 +2652,6 @@ Exit 2
 ~
 ~
 0 0 24739
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2807
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2807
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3023,7 +2670,7 @@ Roomend
 #Vnum 24753
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3038,14 +2685,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6933
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6933
+16 0 6933
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3075,18 +2722,7 @@ Roomend
 #Vnum 24754
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30144
-ExitExtEnd
-Exit 0
-~
-~
-0 0 30144
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3109,17 +2745,6 @@ Exit 2
 ~
 ~
 0 0 24750
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30158
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30158
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3127,18 +2752,7 @@ Roomend
 #Vnum 24755
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30170
-ExitExtEnd
-Exit 0
-~
-~
-0 0 30170
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3150,17 +2764,6 @@ Exit 1
 ~
 ~
 0 0 24748
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2805
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2805
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3179,18 +2782,7 @@ Roomend
 #Vnum 24756
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30171
-ExitExtEnd
-Exit 0
-~
-~
-0 0 30171
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3213,17 +2805,6 @@ Exit 2
 ~
 ~
 0 0 24757
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30181
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30181
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3231,7 +2812,7 @@ Roomend
 #Vnum 24757
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3243,17 +2824,6 @@ Exit 0
 ~
 ~
 0 0 24756
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2805
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2805
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3283,7 +2853,7 @@ Roomend
 #Vnum 24758
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3317,17 +2887,6 @@ Exit 2
 ~
 ~
 0 0 24762
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2804
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2804
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3335,18 +2894,7 @@ Roomend
 #Vnum 24759
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2805
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2805
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3358,17 +2906,6 @@ Exit 1
 ~
 ~
 0 0 24742
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2803
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2803
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3398,18 +2935,7 @@ Roomend
 #Vnum 24760
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2803
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2803
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3421,17 +2947,6 @@ Exit 1
 ~
 ~
 0 0 24745
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2789
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2789
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3461,7 +2976,7 @@ Roomend
 #Vnum 24761
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3484,28 +2999,6 @@ Exit 1
 ~
 ~
 0 0 24760
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2790
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2790
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2785
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2785
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3513,7 +3006,7 @@ Roomend
 #Vnum 24762
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3525,17 +3018,6 @@ Exit 0
 ~
 ~
 0 0 24758
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2803
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2803
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3565,18 +3047,7 @@ Roomend
 #Vnum 24763
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30181
-ExitExtEnd
-Exit 0
-~
-~
-0 0 30181
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3588,17 +3059,6 @@ Exit 1
 ~
 ~
 0 0 24757
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2804
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2804
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3617,18 +3077,7 @@ Roomend
 #Vnum 24764
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30182
-ExitExtEnd
-Exit 0
-~
-~
-0 0 30182
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3651,17 +3100,6 @@ Exit 2
 ~
 ~
 0 0 24765
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30189
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30189
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3669,7 +3107,7 @@ Roomend
 #Vnum 24765
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3681,17 +3119,6 @@ Exit 0
 ~
 ~
 0 0 24764
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2804
-ExitExtEnd
-Exit 1
-~
-~
-0 0 2804
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3703,17 +3130,6 @@ Exit 2
 ~
 ~
 0 0 24766
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30195
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30195
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3721,7 +3137,7 @@ Roomend
 #Vnum 24766
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
+Sector 40
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3744,28 +3160,6 @@ Exit 1
 ~
 ~
 0 0 24767
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2786
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2786
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2780
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2780
 DayRDesc 24701
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -3773,18 +3167,7 @@ Roomend
 #Vnum 24767
 Name {DMartwe{S pola~
 FlagsExt 0
-Sector 4
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2804
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2804
+Sector 40
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3796,17 +3179,6 @@ Exit 1
 ~
 ~
 0 0 24762
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2785
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2785
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5427,14 +4799,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6934
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6934
+16 0 6934
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5457,14 +4829,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6934
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6934
+16 0 6934
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5476,17 +4848,6 @@ Exit 2
 ~
 ~
 0 0 24753
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30144
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30144
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5520,14 +4881,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6935
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6935
+16 0 6935
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5550,14 +4911,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6935
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6935
+16 0 6935
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5613,14 +4974,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6936
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6936
+16 0 6936
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5643,14 +5004,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6936
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6936
+16 0 6936
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5706,14 +5067,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6937
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6937
+16 0 6937
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5736,14 +5097,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6937
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6937
+16 0 6937
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5799,14 +5160,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6938
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6938
+16 0 6938
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5818,25 +5179,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17155
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 17155
+16 0 17155
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6938
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6938
+16 0 6938
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5851,14 +5212,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17154
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 17154
+16 0 17154
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5870,14 +5231,14 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17154
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 17154
+16 0 17154
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5993,28 +5354,6 @@ Exit 1
 ~
 ~
 0 0 24814
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30144
-ExitExtEnd
-Exit 2
-~
-~
-0 0 30144
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30131
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30131
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6026,25 +5365,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17153
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 17153
+16 0 17153
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17154
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 17154
+16 0 17154
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6149,28 +5488,6 @@ Exit 1
 ~
 ~
 0 0 24822
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30131
-ExitExtEnd
-Exit 2
-~
-~
-0 0 30131
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30119
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30119
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6201,28 +5518,6 @@ Exit 1
 ~
 ~
 0 0 24825
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30119
-ExitExtEnd
-Exit 2
-~
-~
-0 0 30119
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 30108
-ExitExtEnd
-Exit 3
-~
-~
-0 0 30108
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6264,17 +5559,6 @@ Exit 2
 ~
 ~
 0 0 24827
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28468
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28468
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6297,14 +5581,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17153
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 17153
+16 0 17153
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6316,17 +5600,6 @@ Exit 2
 ~
 ~
 0 0 24828
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28457
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28457
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6335,17 +5608,6 @@ Roomend
 Name {WCieniste{x stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28434
-ExitExtEnd
-Exit 0
-~
-~
-0 0 28434
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6368,17 +5630,6 @@ Exit 2
 ~
 ~
 0 0 24829
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28446
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28446
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6401,25 +5652,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17152
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 17152
+16 0 17152
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17153
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 17153
+16 0 17153
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6453,14 +5704,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6940
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6940
+16 0 6940
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6475,14 +5726,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17152
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 17152
+16 0 17152
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6505,14 +5756,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6941
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6941
+16 0 6941
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6568,14 +5819,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 17152
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 17152
+16 0 17152
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6595,17 +5846,6 @@ Roomend
 Name {WCieniste{x stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28421
-ExitExtEnd
-Exit 0
-~
-~
-0 0 28421
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6628,17 +5868,6 @@ Exit 2
 ~
 ~
 0 0 24831
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28434
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28434
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6647,17 +5876,6 @@ Roomend
 Name {WCieniste{x stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28407
-ExitExtEnd
-Exit 0
-~
-~
-0 0 28407
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6680,17 +5898,6 @@ Exit 2
 ~
 ~
 0 0 24834
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28421
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28421
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6713,14 +5920,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6942
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6942
+16 0 6942
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6765,14 +5972,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6943
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6943
+16 0 6943
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6784,17 +5991,6 @@ Exit 2
 ~
 ~
 0 0 24837
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28407
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28407
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6839,14 +6035,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6939
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6939
+16 0 6939
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6880,14 +6076,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6940
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6940
+16 0 6940
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6921,14 +6117,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6941
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6941
+16 0 6941
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -6973,14 +6169,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6942
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6942
+16 0 6942
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7014,14 +6210,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6943
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6943
+16 0 6943
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7082,14 +6278,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6944
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6944
+16 0 6944
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7101,17 +6297,6 @@ Exit 2
 ~
 ~
 0 0 24838
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28393
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28393
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7134,14 +6319,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6945
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6945
+16 0 6945
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7153,17 +6338,6 @@ Exit 2
 ~
 ~
 0 0 24846
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 28379
-ExitExtEnd
-Exit 3
-~
-~
-0 0 28379
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7186,14 +6360,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6946
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6946
+16 0 6946
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7205,17 +6379,6 @@ Exit 2
 ~
 ~
 0 0 24847
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41215
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41215
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7227,25 +6390,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6949
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6949
+16 0 6949
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6947
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6947
+16 0 6947
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7312,14 +6475,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6944
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6944
+16 0 6944
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7364,14 +6527,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6945
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6945
+16 0 6945
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7416,14 +6579,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6946
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6946
+16 0 6946
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7435,14 +6598,14 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6951
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6951
+16 0 6951
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7468,14 +6631,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6947
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6947
+16 0 6947
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7621,25 +6784,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6952
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6952
+16 0 6952
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6954
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6954
+16 0 6954
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7703,14 +6866,14 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6954
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6954
+16 0 6954
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7785,14 +6948,14 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6956
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6956
+16 0 6956
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7818,14 +6981,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6954
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6954
+16 0 6954
 DayRDesc 24811
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7837,14 +7000,14 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6957
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6957
+16 0 6957
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7886,28 +7049,6 @@ Exit 1
 ~
 ~
 0 0 24849
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41215
-ExitExtEnd
-Exit 2
-~
-~
-0 0 41215
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41177
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41177
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -7919,25 +7060,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6996
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 6996
+16 0 6996
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6949
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6949
+16 0 6949
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7990,28 +7131,6 @@ Exit 1
 ~
 ~
 0 0 24864
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41177
-ExitExtEnd
-Exit 2
-~
-~
-0 0 41177
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41166
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41166
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8034,14 +7153,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6996
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6996
+16 0 6996
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8053,17 +7172,6 @@ Exit 2
 ~
 ~
 0 0 24865
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41155
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41155
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8086,14 +7194,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6995
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6995
+16 0 6995
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8105,17 +7213,6 @@ Exit 2
 ~
 ~
 0 0 24866
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41144
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41144
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8138,14 +7235,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6988
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6988
+16 0 6988
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8157,17 +7254,6 @@ Exit 2
 ~
 ~
 0 0 24867
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41133
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41133
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8176,17 +7262,6 @@ Roomend
 Name Stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41110
-ExitExtEnd
-Exit 0
-~
-~
-0 0 41110
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8209,17 +7284,6 @@ Exit 2
 ~
 ~
 0 0 24868
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41122
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41122
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8253,14 +7317,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6988
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6988
+16 0 6988
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8294,25 +7358,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6978
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6978
+16 0 6978
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6987
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6987
+16 0 6987
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8365,17 +7429,6 @@ Exit 2
 ~
 ~
 0 0 24870
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41110
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41110
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8398,14 +7451,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6979
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6979
+16 0 6979
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8450,14 +7503,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6980
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6980
+16 0 6980
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8502,14 +7555,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6981
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6981
+16 0 6981
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8554,14 +7607,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6982
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6982
+16 0 6982
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8606,14 +7659,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6983
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 6983
+16 0 6983
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8647,25 +7700,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 34471
+ExitExtToVnum 19526
 ExitExtEnd
 Exit 0
 ~
 ~
-8192 0 34471
+16 0 19526
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 19472
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 19472
+16 0 19472
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8677,17 +7730,6 @@ Exit 2
 ~
 ~
 0 0 24877
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 19195
-ExitExtEnd
-Exit 3
-~
-~
-0 0 19195
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8696,17 +7738,6 @@ Roomend
 Name Stepy~
 FlagsExt 0|C
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 8192
-ExitExtKey 0
-ExitExtToVnum 34473
-ExitExtEnd
-Exit 0
-~
-~
-8192 0 34473
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8721,25 +7752,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 27680
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 27680
+16 0 27680
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 19472
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 19472
+16 0 19472
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8803,14 +7834,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6981
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6981
+16 0 6981
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8855,14 +7886,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6980
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6980
+16 0 6980
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8907,14 +7938,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6979
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6979
+16 0 6979
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8948,25 +7979,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6976
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6976
+16 0 6976
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6978
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 6978
+16 0 6978
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -9000,14 +8031,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6975
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6975
+16 0 6975
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9052,14 +8083,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6974
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6974
+16 0 6974
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9082,14 +8113,14 @@ Sector 33
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6973
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 6973
+16 0 6973
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9251,28 +8282,17 @@ Roomend
 Name Stepy~
 FlagsExt 0|C
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 8192
-ExitExtKey 0
-ExitExtToVnum 34474
-ExitExtEnd
-Exit 0
-~
-~
-8192 0 34474
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 27672
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 27672
+16 0 27672
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9292,17 +8312,6 @@ Roomend
 Name Stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 19195
-ExitExtEnd
-Exit 0
-~
-~
-0 0 19195
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9325,17 +8334,6 @@ Exit 2
 ~
 ~
 0 0 24894
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41062
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41062
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -9500,17 +8498,6 @@ Roomend
 Name Stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41062
-ExitExtEnd
-Exit 0
-~
-~
-0 0 41062
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9533,17 +8520,6 @@ Exit 2
 ~
 ~
 0 0 24898
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41078
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41078
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -9626,28 +8602,6 @@ Exit 1
 ~
 ~
 0 0 24896
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41110
-ExitExtEnd
-Exit 2
-~
-~
-0 0 41110
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41099
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41099
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -9656,17 +8610,6 @@ Roomend
 Name Stepy~
 FlagsExt 0
 Sector 33
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41078
-ExitExtEnd
-Exit 0
-~
-~
-0 0 41078
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9678,28 +8621,6 @@ Exit 1
 ~
 ~
 0 0 24898
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41099
-ExitExtEnd
-Exit 2
-~
-~
-0 0 41099
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 41089
-ExitExtEnd
-Exit 3
-~
-~
-0 0 41089
 DayRDesc 24863
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -9816,10 +8737,10 @@ mob oload random 5
 #karhu
 ~
 if rand 95
-  mob equip self 4425
+  mob equip self 221
 endif
 if rand 97
-  mob equip self 4403
+  mob equip self 223
 endif
 ~
 #karhu_death
@@ -9851,16 +8772,10 @@ endif
 #Vnum 0
 
 #RANDDESC
-#Vnum 24701
-DescRand #grouprand 1
-#grouprand 2
-#grouprand 3
-~
-RandDescEnd
-#Vnum 24768
-DescRand #grouprand 4
-#grouprand 5
-#grouprand 6
+#Vnum 24863
+DescRand #grouprand 21
+#grouprand 22
+#grouprand 23
 ~
 RandDescEnd
 #Vnum 24811
@@ -9869,238 +8784,25 @@ DescRand #grouprand 10
 #grouprand 12
 ~
 RandDescEnd
-#Vnum 24863
-DescRand #grouprand 21
-#grouprand 22
-#grouprand 23
+#Vnum 24768
+DescRand #grouprand 4
+#grouprand 5
+#grouprand 6
+~
+RandDescEnd
+#Vnum 24701
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
 ~
 RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 09~
-Desc Dlugotrwale przebywanie tutaj ma coraz powazniejsze konsekwencje.
-Oddychanie zaczyna sprawiac ci trudnosc, a kazdy krok jest coraz
-trudniejszy. 
-~
-Group 3
-End
-#Name 08~
-Desc Dlugie przebywanie w tym miejscu zaczyna wychodzic ci bokiem. Masz coraz
-wieksze trudnosci z oddychaniem, a kazdy kolejny krok wymaga wiecej wysilku.
-~
-Group 3
-End
-#Name 07~
-Desc Im dluzej tu przebywasz tym bardziej jest ci niedobrze. Najwyzsza pora by
-ruszac w dalsza podróz, nim twe pluca doszczetnie wypelnia trujace gazy. 
-~
-Group 3
-End
-#Name 06~
-Desc Gorace popioly, wydobywajace sie z kazda chwila z rozpadlin, nasiakniete
-sa wonia siarki. Nie jest to przyjemny zapach, po dluzszej chwili zaczynasz
-odczuwac nudnosci. 
-~
-Group 2
-End
-#Name 05~
-Desc Powloka popiolu, grubosci zapewne metra, ugina sie lekko nawet przy
-najmniejszym nacisku, podbijajac tumany kurzu utrudniajace oddychanie oraz
-zmniejszajace widocznosc. 
-~
-Group 2
-End
-#Name 04~
-Desc Popiól pokrywajacy caly teren jest w dalszym ciagu goracy, gdzieniegdzie
-dostrzegasz drobne iskry ognia, które nie zdazyly jeszcze wygasnac. Dziwny
-to jest widok. 
-~
-Group 2
-End
-#Name 03~
-Desc Martwe pola rozciagajace sie w tym regionie az po horyzont. Z glebokich
-rozpadlin wydobywaja sie tumany dymu, pelne zabójczych gazów i siarki. 
-~
-Group 1
-End
-#Name 02~
-Desc Martwe pola otaczaja cie z kazdej strony, pozostalosci po aktywnosci
-sejsmicznej, która nawiedzila ten region. Okolice pokrywa gruba warstwa
-popiolu. 
-~
-Group 1
-End
-#Name 01~
-Desc Martwe pola, po których dane jest ci podrózowac, sa pokryte gruba warstwa
-popiolu. Dym wydobywajacy sie z rozpadlin jest gesty i duszacy. 
-~
-Group 1
-End
-#Name i1~
-Desc ~
-Group 0
-End
-#Name 10~
-Desc Waska pólka zawieszona nad otchlania, na dnie otchlani dostrzegasz
-rozpalona lawe. Wszedzie unosi sie opar siarki i topionych skal. 
-~
-Group 4
-End
-#Name 11~
-Desc Jest to sciezka, o zaledwie kilku lokciach szerokosci, zawieszona nad
-kilkunastu metrowa otchlania lawy i cieklej magmy. 
-~
-Group 4
-End
-#Name 12~
-Desc Jest tu niezwykle malo miejsca, podazasz zaledwie kilku metrowa sciezka
-zawieszona nad morzem plynnego bazaltu i magmy. 
-~
-Group 4
-End
-#Name 13~
-Desc Pod nogami dostrzegasz resztki smialków, którzy postanowili zapuscic sie
-w te tunele. Wszedzie porozrzucane sa kawalki kosci i stopione resztki
-ekwipunków. 
-~
-Group 5
-End
-#Name 14~
-Desc Temperatura jest tutaj bardzo wysoka. Po drodze dostrzegasz resztki
-wedrowców, którzy chcieli zglebic tutejsze tereny, niestety nie wiele z nich
-pozostalo. 
-~
-Group 5
-End
-#Name 15~
-Desc Resztki podrózników zaslaniaja niemal calkowicie podloze, jednak mozesz
-byc niemal pewny, ze podazasz po twardej bazaltowej sciezce, która nie
-stopila sie w plynna lawe. 
-~
-Group 5
-End
-#Name 16~
-Desc Gorac i spiekota panujaca tutaj jest tak ogromna, ze bardzo ciezko jest
-ci oddychac. Musisz uwazac by nie dolaczyc do tych setek, których resztki
-spoczywaja w tych tunelach. 
-~
-Group 6
-End
-#Name 17~
-Desc Skwar i duchota, jaka panuje w otaczajacym cie tunelu, jest nie do
-zniesienia. Oddychajac masz wrazenie, ze wdychasz wrzace powietrze, które z
-kazdym chelstem topi twe pluca. 
-~
-Group 6
-End
-#Name 18~
-Desc Taki gorac jest nie do zniesienia, kazda kolejna minuta to udreka,
-zastanów sie czy dobrym pomyslem jest zapuszczanie sie w te tereny, kazdy
-blad moze kosztowac cie twoje zycie. 
-~
-Group 6
-End
-#Name 20~
-Desc Wszedzie wkolo siebie dostrzegasz morze traw, jednak nie przypominaja one
-tych które widywales do tej pory. 
-~
-Group 10
-End
-#Name 21~
-Desc Wkolo ciebie rosna morza traw, poruszajace sie na wietrze niczym morskie
-fale. Nie sa to zwyczajne trawy. 
-~
-Group 10
-End
-#Name 22~
-Desc Do okola ciebie rosna przerózne gatunki traw. Jednak nie zwyczajnych,
-jakie widywales do tej pory. 
-~
-Group 10
-End
-#Name 23~
-Desc Trawy wygladaja na ciemniejsze niz zwyczajne, masz wrazenie, ze bije od
-nich lekki mrok. 
-~
-Group 11
-End
-#Name 24~
-Desc Niezwyczajne trawy, o ciemnym, wrecz cienistym zabarwieniu porastaja caly
-teren. 
-~
-Group 11
-End
-#Name 25~
-Desc Cieniste trawy, o ciemnym zabarwieniu porastaja ten teren. Bije od nich
-lekka poswiata mroku. 
-~
-Group 11
-End
-#Name 26~
-Desc Miejsce to musialo zostac przeklete przed wiekami. Caly teren zdaje sie
-wrecz promieniowac zlem i mrokiem. Lepiej opuscic to miejsce. 
-~
-Group 12
-End
-#Name 27~
-Desc Przekleta ziemia, przeklete stepy. W kolo ciebie, niemal namacalny, mrok
-emanuje zlem i wystepkiem, mrozacy do szpiku kosci. 
-~
-Group 12
-End
-#Name 28~
-Desc Przeklete stepy, pelne mroku i zla, emanujacego z niemal kazdego zdzbla
-trawy. Przeklete miejsce, które lepiej opuscic. 
-~
-Group 12
-End
-#Name 30~
-Desc A wiec tak wyglada step - jak okiem siegnac wielka równina porosnieta
-bujna roslinnoscia. Ale w gruncie rzeczy to tylko trawa, trawa i trawa. No i
-z rzadka tylko krzak gdzies wystaje. 
-~
-Group 21
-End
-#Name 31~
-Desc Rozgladasz sie uwaznie dookola. Trawy faluja jak morze. I rzeczywiscie.
-Wiatr porusza szczyty traw i uklada je w pofaldowane grzbiety grzywaczy
-morskich. 
-~
-Group 21
-End
-#Name 32~
-Desc Gdziekolwiek bys nie popatrzyl, to tylko falujace morze traw.
-Poprzetykane jest tylko w niektórych miejscach niskimi krzakami lub
-wystajacymi ponad powierzchnie traw ostrymi ostami. 
-~
-Group 21
-End
-#Name 33~
-Desc Z dusza na ramieniu wchodzisz w trawy. Ciekawe, co takiego kryje sie w
-tej jednostajne i gestej roslinnosci. Nie przekonasz sie póki nie
-sprawdzisz. 
-~
-Group 22
-End
-#Name 34~
-Desc Z dusza na ramieniu wchodzisz i brniesz dalej posród wielkich lodyg
-nieznanych ci roslin. Dokola slyszysz tylko szum poruszanych wiatrem
-wyrosnietych zdziebel trawy. 
-~
-Group 22
-End
-#Name 35~
-Desc Z dusza na ramieniu i sercem w gardle wkraczasz w coraz to gestrze trawy.
-Niewiadomo coz za niebezpieczenstwo moze sie tu kryc. Lepiej zachowac
-ostroznosc. 
-~
-Group 22
-End
-#Name 36~
-Desc Zeby tylko nie zweszyl cie zaden drapiezny zwierzak, zwlaszcza tygrys
-szablastozebny. Tutaj przeciez tak latwo podkrasc sie niepostrzezenie
-czolgajac sie w tej trawie. 
+#Name 38~
+Desc W oddali rozbrzmiewa skowyt dzikich zwierzat, prawdopodobnie wilków.
+Lepiej uwazac gdyz glodne moga byc niezwykle niebezpieczne, trzeba zachowac
+dystans. 
 ~
 Group 23
 End
@@ -10111,12 +8813,231 @@ Desc W oddali slyszysz kwik zagryzanego zwierzaka, oby tylko calkiem zaspokoil
 ~
 Group 23
 End
-#Name 38~
-Desc W oddali rozbrzmiewa skowyt dzikich zwierzat, prawdopodobnie wilków.
-Lepiej uwazac gdyz glodne moga byc niezwykle niebezpieczne, trzeba zachowac
-dystans. 
+#Name 36~
+Desc Zeby tylko nie zweszyl cie zaden drapiezny zwierzak, zwlaszcza tygrys
+szablastozebny. Tutaj przeciez tak latwo podkrasc sie niepostrzezenie
+czolgajac sie w tej trawie. 
 ~
 Group 23
+End
+#Name 35~
+Desc Z dusza na ramieniu i sercem w gardle wkraczasz w coraz to gestrze trawy.
+Niewiadomo coz za niebezpieczenstwo moze sie tu kryc. Lepiej zachowac
+ostroznosc. 
+~
+Group 22
+End
+#Name 34~
+Desc Z dusza na ramieniu wchodzisz i brniesz dalej posród wielkich lodyg
+nieznanych ci roslin. Dokola slyszysz tylko szum poruszanych wiatrem
+wyrosnietych zdziebel trawy. 
+~
+Group 22
+End
+#Name 33~
+Desc Z dusza na ramieniu wchodzisz w trawy. Ciekawe, co takiego kryje sie w
+tej jednostajne i gestej roslinnosci. Nie przekonasz sie póki nie
+sprawdzisz. 
+~
+Group 22
+End
+#Name 32~
+Desc Gdziekolwiek bys nie popatrzyl, to tylko falujace morze traw.
+Poprzetykane jest tylko w niektórych miejscach niskimi krzakami lub
+wystajacymi ponad powierzchnie traw ostrymi ostami. 
+~
+Group 21
+End
+#Name 31~
+Desc Rozgladasz sie uwaznie dookola. Trawy faluja jak morze. I rzeczywiscie.
+Wiatr porusza szczyty traw i uklada je w pofaldowane grzbiety grzywaczy
+morskich. 
+~
+Group 21
+End
+#Name 30~
+Desc A wiec tak wyglada step - jak okiem siegnac wielka równina porosnieta
+bujna roslinnoscia. Ale w gruncie rzeczy to tylko trawa, trawa i trawa. No i
+z rzadka tylko krzak gdzies wystaje. 
+~
+Group 21
+End
+#Name 28~
+Desc Przeklete stepy, pelne mroku i zla, emanujacego z niemal kazdego zdzbla
+trawy. Przeklete miejsce, które lepiej opuscic. 
+~
+Group 12
+End
+#Name 27~
+Desc Przekleta ziemia, przeklete stepy. W kolo ciebie, niemal namacalny, mrok
+emanuje zlem i wystepkiem, mrozacy do szpiku kosci. 
+~
+Group 12
+End
+#Name 26~
+Desc Miejsce to musialo zostac przeklete przed wiekami. Caly teren zdaje sie
+wrecz promieniowac zlem i mrokiem. Lepiej opuscic to miejsce. 
+~
+Group 12
+End
+#Name 25~
+Desc Cieniste trawy, o ciemnym zabarwieniu porastaja ten teren. Bije od nich
+lekka poswiata mroku. 
+~
+Group 11
+End
+#Name 24~
+Desc Niezwyczajne trawy, o ciemnym, wrecz cienistym zabarwieniu porastaja caly
+teren. 
+~
+Group 11
+End
+#Name 23~
+Desc Trawy wygladaja na ciemniejsze niz zwyczajne, masz wrazenie, ze bije od
+nich lekki mrok. 
+~
+Group 11
+End
+#Name 22~
+Desc Do okola ciebie rosna przerózne gatunki traw. Jednak nie zwyczajnych,
+jakie widywales do tej pory. 
+~
+Group 10
+End
+#Name 21~
+Desc Wkolo ciebie rosna morza traw, poruszajace sie na wietrze niczym morskie
+fale. Nie sa to zwyczajne trawy. 
+~
+Group 10
+End
+#Name 20~
+Desc Wszedzie wkolo siebie dostrzegasz morze traw, jednak nie przypominaja one
+tych które widywales do tej pory. 
+~
+Group 10
+End
+#Name 18~
+Desc Taki gorac jest nie do zniesienia, kazda kolejna minuta to udreka,
+zastanów sie czy dobrym pomyslem jest zapuszczanie sie w te tereny, kazdy
+blad moze kosztowac cie twoje zycie. 
+~
+Group 6
+End
+#Name 17~
+Desc Skwar i duchota, jaka panuje w otaczajacym cie tunelu, jest nie do
+zniesienia. Oddychajac masz wrazenie, ze wdychasz wrzace powietrze, które z
+kazdym chelstem topi twe pluca. 
+~
+Group 6
+End
+#Name 16~
+Desc Gorac i spiekota panujaca tutaj jest tak ogromna, ze bardzo ciezko jest
+ci oddychac. Musisz uwazac by nie dolaczyc do tych setek, których resztki
+spoczywaja w tych tunelach. 
+~
+Group 6
+End
+#Name 15~
+Desc Resztki podrózników zaslaniaja niemal calkowicie podloze, jednak mozesz
+byc niemal pewny, ze podazasz po twardej bazaltowej sciezce, która nie
+stopila sie w plynna lawe. 
+~
+Group 5
+End
+#Name 14~
+Desc Temperatura jest tutaj bardzo wysoka. Po drodze dostrzegasz resztki
+wedrowców, którzy chcieli zglebic tutejsze tereny, niestety nie wiele z nich
+pozostalo. 
+~
+Group 5
+End
+#Name 13~
+Desc Pod nogami dostrzegasz resztki smialków, którzy postanowili zapuscic sie
+w te tunele. Wszedzie porozrzucane sa kawalki kosci i stopione resztki
+ekwipunków. 
+~
+Group 5
+End
+#Name 12~
+Desc Jest tu niezwykle malo miejsca, podazasz zaledwie kilku metrowa sciezka
+zawieszona nad morzem plynnego bazaltu i magmy. 
+~
+Group 4
+End
+#Name 11~
+Desc Jest to sciezka, o zaledwie kilku lokciach szerokosci, zawieszona nad
+kilkunastu metrowa otchlania lawy i cieklej magmy. 
+~
+Group 4
+End
+#Name 10~
+Desc Waska pólka zawieszona nad otchlania, na dnie otchlani dostrzegasz
+rozpalona lawe. Wszedzie unosi sie opar siarki i topionych skal. 
+~
+Group 4
+End
+#Name i1~
+Desc ~
+Group 0
+End
+#Name 01~
+Desc Martwe pola, po których dane jest ci podrózowac, sa pokryte gruba warstwa
+popiolu. Dym wydobywajacy sie z rozpadlin jest gesty i duszacy. 
+~
+Group 1
+End
+#Name 02~
+Desc Martwe pola otaczaja cie z kazdej strony, pozostalosci po aktywnosci
+sejsmicznej, która nawiedzila ten region. Okolice pokrywa gruba warstwa
+popiolu. 
+~
+Group 1
+End
+#Name 03~
+Desc Martwe pola rozciagajace sie w tym regionie az po horyzont. Z glebokich
+rozpadlin wydobywaja sie tumany dymu, pelne zabójczych gazów i siarki. 
+~
+Group 1
+End
+#Name 04~
+Desc Popiól pokrywajacy caly teren jest w dalszym ciagu goracy, gdzieniegdzie
+dostrzegasz drobne iskry ognia, które nie zdazyly jeszcze wygasnac. Dziwny
+to jest widok. 
+~
+Group 2
+End
+#Name 05~
+Desc Powloka popiolu, grubosci zapewne metra, ugina sie lekko nawet przy
+najmniejszym nacisku, podbijajac tumany kurzu utrudniajace oddychanie oraz
+zmniejszajace widocznosc. 
+~
+Group 2
+End
+#Name 06~
+Desc Gorace popioly, wydobywajace sie z kazda chwila z rozpadlin, nasiakniete
+sa wonia siarki. Nie jest to przyjemny zapach, po dluzszej chwili zaczynasz
+odczuwac nudnosci. 
+~
+Group 2
+End
+#Name 07~
+Desc Im dluzej tu przebywasz tym bardziej jest ci niedobrze. Najwyzsza pora by
+ruszac w dalsza podróz, nim twe pluca doszczetnie wypelnia trujace gazy. 
+~
+Group 3
+End
+#Name 08~
+Desc Dlugie przebywanie w tym miejscu zaczyna wychodzic ci bokiem. Masz coraz
+wieksze trudnosci z oddychaniem, a kazdy kolejny krok wymaga wiecej wysilku.
+~
+Group 3
+End
+#Name 09~
+Desc Dlugotrwale przebywanie tutaj ma coraz powazniejsze konsekwencje.
+Oddychanie zaczyna sprawiac ci trudnosc, a kazdy krok jest coraz
+trudniejszy. 
+~
+Group 3
 End
 #DescEnd
 
@@ -10127,12 +9048,12 @@ End
 
 #BONUS_SET
 #Vnum 24769
-Name Rynsztunek z³odzieja~
-Aff 1 18 3 0 0 0
-Aff 0 17 -10 0 2 F
-Aff 1 2 1 0 0 0
-Aff 1 14 15 0 0 0
+Name Set mistrzów z³odziejskiego fachu~
 Aff 1 26 130 5 0 0
+Aff 1 14 15 0 0 0
+Aff 1 2 1 0 0 0
+Aff 0 17 -10 0 2 F
+Aff 1 18 3 0 0 0
 WearProg mob echoat $n Czujesz jak wraz za³o¿eniem ostatniej czê¶ci zbroi twoje cia³o wype³nia dziwny spokój i pewno¶æ siebie.
 mob echoaround $n Widzisz jak $n zak³ada ostatni± czê¶æ zbroi i w tym momencie wydaje siê byæ nieco odmienion± osob±... Czujesz jak dziwny strach wype³nia twoje cia³o...
 ~

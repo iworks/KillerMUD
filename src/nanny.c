@@ -25,8 +25,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: nanny.c 11146 2012-03-23 13:57:00Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/nanny.c $
+ * $Id: nanny.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/nanny.c $
  *
  */
 #if defined(macintosh)
@@ -2102,7 +2102,7 @@ void show_classes( DESCRIPTOR_DATA *d )
 
 	for ( race = 1, iClass = 0; iClass < MAX_CLASS; iClass++ )
 	{
-		if ( iClass == CLASS_MONK || iClass == CLASS_BARD )
+		if ( iClass == CLASS_MONK || iClass == CLASS_BARD || iClass == CLASS_SHAMAN )
 		continue;
 
 		if ( new_class_ok( d->new_char_data, iClass ) )

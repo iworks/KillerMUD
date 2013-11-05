@@ -18,10 +18,10 @@ typedef struct ss_form                  SS_FORM;
 #define DRUID_SUPR_MOD                  -10
 
 // Przedmioty ladowane
-#define SS_BEAR_ITEM                    10865
-#define SS_DEER_ITEM                    10866
-#define SS_EAGLE_ITEM                   10867
-#define SS_TIGER_ITEM                   10868
+#define SS_BEAR_ITEM                    3362
+#define SS_EAGLE_ITEM                   3364
+#define SS_TIGER_ITEM                   3363
+#define SS_DEER_ITEM                    3365
 
 // Wait przy przemianie w jedn± b±d¼ drug± stronê
 #define WAIT_SHAPESHIFT                 6

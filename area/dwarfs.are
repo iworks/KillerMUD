@@ -226,7 +226,7 @@ Damage 2d6+0
 Dammagic 0
 Weaponbonus 5
 Damflags 0
-Attack uderzenie
+Attack none
 XAC 7 7 7 7
 Stats 96 108 102 120 120 78 78
 Off EKR
@@ -891,9 +891,9 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size large
 Material unknown
-MobprogNew give 51 FGI 2497~
 MobprogNew random 53 FGI 20~
 MobprogNew onload 54 ABCDEFGHI 100~
+MobprogNew give 51 FGI 3006~
 Skin 100
 ExpMultiplier 250
 Resist 4 50
@@ -1959,7 +1959,7 @@ podobnie jak on jeste¶ paladynem, byæ mo¿e bêdzie móg³ nauczyæ ciê kilku
 przydatnych czarów i umiejêtno¶ci. 
 ~
 Race cz³owiek~
-ActExt 0|ABIJKQT
+ActExt 0|ABIJKQT/2|E
 Affected 0 0 0 0
 AffectedExt 0
 Align 1000
@@ -2037,6 +2037,92 @@ Mobend
 
 
 #OBJECTS
+#Vnum 31
+Name ciê¿ki ¿elazny topór ~
+Odmiana ¿elaznego topora~¿elaznemu toporowi~¿elazny topór~¿elaznym toporem~¿elaznym toporze~
+Short ¿elazny topór~
+Descr Ciê¿ki, ¿elazny topór krótkim, drewnianym styliskiem.~
+Material stal~
+Type weapon
+ExtraExt 0|GKS
+Wear AN
+Wear2Ext 0|ABCF
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 3 5 25 0 1 1
+Repair 0 0 0 0
+Weight 50
+Cost 3000
+Cond 80
+Comments ~
+Objend
+#Vnum 32
+Name gruba ciê¿ka kolczuga~
+Odmiana grubej kolczugi~grubej kolczudze~gruba kolczugê~gruba kolczugom~grubej kolczudze~
+Short gruba kolczuga~
+Descr Ciê¿ka, gruba krasnoludzka kolczuga.~
+Material stal~
+Type armor
+ExtraExt 0|S
+Wear AD
+Wear2Ext 0|AFIJ
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 160
+Cost 5700
+Cond 58
+Aff 1 2 -1 0 0 0
+Itemdesc Ta kolczuga jest wyj±tkowo mocna i w dodatku misternie wykonana. Jednak
+zbli¿ona jest bardziej do zbroi p³ytowej ni¿ klasycznej kolczugi, bowiem jej
+grubo¶æ sprawia, ¿e niesamowicie krêpuje ruchy! Z pewno¶ci± nie jest
+wygodna, jednak czasami za dobr± ochronê trzeba s³ono p³aciæ. 
+~
+Comments ~
+Objend
+#Vnum 34
+Name prycza drewniana~
+Odmiana drewnianej pryczy~drewnianej pryczy~drewniana prycze~drewnian± prycz±~drewnianej pryczy~
+Short drewniana prycza~
+Descr Drewniana prycza stoi pod ¶cian±.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 0 1168 20 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 35
+Name stalowy napier¶nik~
+Odmiana stalowego napier¶nika~stalowemu napier¶nikowi~stalowy napier¶nik~stalowym napier¶nikiem~stalowym napier¶niku~
+Short stalowy napier¶nik~
+Descr Piêknie wykonany stalowy napier¶nik.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 3 2 10 14 0 0
+Repair 0 0 0 0
+Weight 230
+Cost 13200
+Cond 100
+Comments ~
+Objend
 #Vnum 36
 Name stalowy rogaty he³m~
 Odmiana rogatego he³mu~rogatemu he³mowi~rogaty he³m~rogatym he³mem~rogatym he³mie~
@@ -2050,9 +2136,8 @@ Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 0
-Value 4 5 3 10 12 0 0
+Value 4 5 3 10 9 0 0
 Repair 0 0 0 0
-Length 0
 Weight 55
 Cost 3300
 Cond 100
@@ -2065,13 +2150,60 @@ g³owy. Chocia¿ do idea³u mu jeszcze trochê brakuje.
 ~
 Comments ~
 Objend
+#Vnum 41
+Name skórzane naramienniki~
+Odmiana skórzanych naramienników~skórzanym naramiennikom~skórzane naramienniki~skórzanymi naramiennikami~skórzanych naramiennikach~
+Short skórzane naramienniki~
+Descr Skórzane naramienniki le¿a tutaj.~
+Material skóra~
+Type armor
+ExtraExt 1|C
+Wear AI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 10 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 300
+Cond 100
+Comments ~
+Objend
+#Vnum 43
+Name krasnoludzki p³aszcz~
+Odmiana krasnoludzkiego p³aszcza~krasnoludzkiemu p³aszczu~krasnoludzki p³aszcz~krasnoludzkim p³aszczem~krasnoludzkim p³aszczu~
+Short krasnoludzki p³aszcz~
+Descr Krasnoludzki p³aszcz le¿y tutaj zwiniêty.~
+Material skóra~
+Type clothing
+ExtraExt 0|G/1|A
+Wear ADILM
+Wear2Ext 0|Y
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 200
+Cond 80
+Aff 1 12 8 10 0 0
+Aff 1 12 4 2 0 0
+Itemdesc Klasyczny krasnoludzki p³aszcz, powsta³y z wieloletniego naszywania
+nowych ³at na stare, wycierania brudnych r±k, oraz przemierzania wielu,
+wielu mil w naprawdê paskudnych warunkach. Jest doskona³± ochron± przed
+zimnem. 
+~
+Comments ~
+Objend
 #Vnum 44
 Name ozdobny pas d³ugi~
 Odmiana ozdobnego pasa~ozdobnemu pasu~ozdobny pas~ozdobnym pasem~ozdobnym pasie~
 Short ozdobny pas~
 Descr D³ugi, ozdobny pas le¿y tutaj.~
 Material skóra~
-Type clothing
+Type jewelry
 ExtraExt 0
 Wear AL
 Wear2Ext 0
@@ -2080,7 +2212,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 19
 Cost 12000
 Cond 75
@@ -2095,7 +2226,7 @@ Identdesc ~
 Comments ~
 Objend
 #Vnum 46
-Name bransoleta drewniana~
+Name brasnoletka drewniana~
 Odmiana {ydrewnianej bransoletki{x~{ydrewnianej bransoletce{x~{ydrewniana bransoletke{x~{ydrewniana bransoletka{x~{ydrewnianej bransoletce{x~
 Short {ydrewniana bransoletka{x~
 Descr {yBransoletka wykonana z drewna.{x~
@@ -2109,7 +2240,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -2135,13 +2265,97 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 1
 Cond 75
 Itemdesc Zwyczjany kwa³ek materia³u z obrobionymi krawêdziami. Przez ca³o¶æ
 przebiega parê ró¿nokolorowych pasów. 
 ~
+Comments ~
+Objend
+#Vnum 58
+Name drewniana laska~
+Odmiana drewnianej laski~drewnianej lasce~drewniana laskê~drewniana laska~drewnianej lasce~
+Short drewniana laska~
+Descr D³uga drewniana laska, chêtnie u¿ywana zw³aszcza przez magów.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 1 8 7 32 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 600
+Cond 100
+Itemdesc Nic specjalnego w tej lasce nie widaæ, ot d³ugi na prawie dwa metry
+kawa³ek drewna z dwoma wyprofilowanymi uchwytami na d³onie. Imponuj±co mo¿e
+nie wygl±da, ale przy pewnej wprawie mo¿na przetr±ciæ komu¶ szczêkê lub
+wybiæ oko nim ten zd±¿y zorientowaæ siê co siê w ogóle dzieje. 
+~
+Comments ~
+Objend
+#Vnum 61
+Name habit prosty ubogi~
+Odmiana habitu~habitowi~habit~habitem~habicie~
+Short prosty habit~
+Descr Prosty lniany habit le¿y na ziemi~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 4
+Cond 75
+Comments ~
+Objend
+#Vnum 62
+Name cingulum pasek~
+Odmiana cingulum~cingulum~cingulum~cingulum~cingulum~
+Short cingulum~
+Descr D³ugi skórzany pasek le¿y zwiniêty w kacie.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 2
+Cond 89
+Comments ~
+Objend
+#Vnum 64
+Name latarnia~
+Odmiana latarni~latarni~latarnie~latarnia~latarni~
+Short latarnia~
+Descr Zwyczajna latarnia le¿y tutaj.~
+Material drewno~
+Type light
+ExtraExt 0
+Wear AR
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 5 16 0 0 0 0
+Repair 0 0 0 0
+Weight 26
+Cost 9
+Cond 100
 Comments ~
 Objend
 #Vnum 65
@@ -2159,7 +2373,6 @@ LiczbaMnoga 0
 Gender 2
 Value 30 1 0 30 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 600
 Cond 100
@@ -2184,7 +2397,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 1200
 Cond 100
@@ -2212,7 +2424,6 @@ LiczbaMnoga 0
 Gender 0
 Value 40 5 0 20 110 0 0
 Repair 0 0 0 0
-Length 0
 Weight 85
 Cost 2700
 Cond 100
@@ -2220,6 +2431,53 @@ Itemdesc Dosyæ du¿a, wykonana z drewna skrzynka. Pomie¶ci ona spor± liczbê rzecz
 jednak bez w±tpienia nie jest to jedna z najprzyjemniejszych czêsci twojego
 ekwipunku jak± chcia³<&by¶/aby¶/oby¶> dzwigaæ. Zauwa¿asz, ¿e wzmocniona jest
 elementami ¿elaza, które lekko zaczê³y ju¿ rdzewieæ. 
+~
+Comments ~
+Objend
+#Vnum 70
+Name pieczeñ~
+Odmiana pieczeni~pieczeni~pieczeñ~pieczeni±~pieczeni~
+Short pieczeñ~
+Descr Pachn±ca, soczysta pieczeñ.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 24 30 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 20
+Cond 100
+Objprog consume 31 100~
+Comments ~
+Objend
+#Vnum 72
+Name dwurêczny topór~
+Odmiana dwurêcznego topora~dwurêcznemu toporowi~dwurêczny topór~dwurêcznym toporem~dwurêcznym toporze~
+Short dwurêczny topór~
+Descr Ostrze wielkiego dwurêcznego topora bojowego pob³yskuje lekko.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 2 6 1 32 -1 1
+Repair 0 0 0 0
+Weight 160
+Cost 3000
+Cond 100
+Itemdesc Ten topór nie jest mo¿e arcydzie³em sztuki kowalskiej, ale na pewno to
+solidna robota. Szerokie ostrze, ulubione przez krasnoludy, osadzono na
+d³ugim i ciê¿kim, przez co równowa¿±cym wagê g³owni, drewnianym stylisku.
+Nie wdaj±c siê w d³ugie dyskusje mo¿na powiedzieæ, ¿e roz³upanie czaszki tym
+sprzêtem nie jest specjalne trudne. O ile oczywi¶cie dobrze wymierzysz cios.
 ~
 Comments ~
 Objend
@@ -2238,7 +2496,6 @@ LiczbaMnoga 0
 Gender 0
 Value 14 1 10 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 0
 Cond 100
@@ -2261,12 +2518,36 @@ Gender 0
 Komponent 1 525600
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Comments Testowa duperelka do bugów z kas± - {RRysand{x ({CWed Sep  2 23:33:13 2009{x)
 ~
+Objend
+#Vnum 78
+Name skórzany pas nabijany kolcami~
+Odmiana pasa z kolcami~pasowi z kolcami~pas z kolcami~pasem z kolcami~pasie z kolcami~
+Short pas z kolcami~
+Descr Le¿y tu skórzany pas nabijany kolcami.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 10 9 10 2 0 0
+Repair 0 0 0 0
+Weight 12
+Cost 720
+Cond 50
+Itemdesc Ten pas wykonany ze skóry jest obficie naszywany ró¿nego rodzaju
+æwiekami. S± tu æwieki kwadratowe, okr±g³e, trójk±tne, niektóre p³askie,
+niektóre wypuk³e. Zdobi± go te¿ wystaj±ce, d³ugie stalowe kolce. Wygl±daj±
+one naprawde gro¼nie, ale ciekawe czy nie utrudniaj± zanadto poruszania siê.
+~
+Comments ~
 Objend
 #Vnum 79
 Name opoñcza we³niana~
@@ -2283,7 +2564,6 @@ LiczbaMnoga 0
 Gender 3
 Value 10 9 9 10 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 32
 Cost 840
 Cond 80
@@ -2291,6 +2571,33 @@ Itemdesc Ta opoñcza jest wykonana z grubej we³ny górskich owiec i trzeba przyzna
 ¿e jest naprawdê ciep³a. Za³o¿ona na zimnej kolczudze czy zbroi ca³kiem
 przyzwoicie chroni przed mrozem w zimie. Wygl±da te¿ elegancko i dosyæ
 reprezentantywnie... Je¿eli chodzi o plemiona barbarzyñców pó³nocy. 
+~
+Comments ~
+Objend
+#Vnum 80
+Name ciê¿kie rêkawice z br±zu~
+Odmiana ciêzkich rêkawic z br±zu~ciê¿kim rêkawicom z br±zu~ciê¿kie rêkawice z br±zu~ciê¿kimi rêkawicami z br±zu~ciê¿kich rêkawicach z br±zu~
+Short ciê¿kie rêkawice z br±zu~
+Descr Ciê¿kie rêkawice z br±zu le¿± tutaj porzucone.~
+Material br±z~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 6 6 6 10 12 0 0
+Repair 0 0 0 0
+Weight 80
+Cost 900
+Cond 83
+Itemdesc Te rêkawice wykonano z czystego br±zu, co nadaje im... No w³asnie,
+br±zowawy kolor. Nie nale¿± one do najbardziej wytrzyma³ych, to fakt, nie s±
+te¿ wygodne. Natomiast gruba warstwa metalu zapewnia przyzwoit± ochronê
+przed obra¿eniami. Niestety rêkawice te maj± jedn± wielk± wadê - s±
+niesamowicie ciê¿kie, co prowadzi nawet do krêpowania ruchów i mo¿liwo¶ci
+manualnych. 
 ~
 Comments ~
 Objend
@@ -2309,7 +2616,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 4 5 42 32 1 1
 Repair 0 0 0 0
-Length 150
 Weight 400
 Cost 87600
 Cond 75
@@ -2332,7 +2638,6 @@ LiczbaMnoga 0
 Gender 3
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 80
 Cost 24000
 Cond 75
@@ -2353,7 +2658,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 600
 Cond 100
@@ -2363,6 +2667,49 @@ niezrozumia³e. Jedyne co udaje ci siê rozpoznaæ to trójg³owy orze³ na jednej
 stronie, siedz±cy na nagim mieczu. No ale przynajmniej mo¿esz sobie t±
 monet± porzucaæ, ciekawe co wypadnie? 
 ~
+Comments ~
+Objend
+#Vnum 85
+Name pe³na kolczuga~
+Odmiana pe³nej kolczugi~pe³nej kolczudze~pe³na kolczugê~pe³na kolczuga~pe³nej kolczudze~
+Short pe³na kolczuga~
+Descr Ciê¿ka, kuta na zimno kolczuga ze skórzanymi paskami le¿y gotowa do u¿ycia.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 220
+Cost 31200
+Cond 89
+Aff 1 17 -5 0 0 0
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 86
+Name æwiekowany kaftan~
+Odmiana kaftana~kaftanowi~kaftan~kaftanem~kaftanie~
+Short æwiekowany kaftan~
+Descr Solidny æwiekowany kaftan.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 8 8 9 10 2 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 720
+Cond 100
+Itemdesc ~
 Comments ~
 Objend
 #Vnum 87
@@ -2380,11 +2727,198 @@ LiczbaMnoga 0
 Gender 3
 Value 50 1 0 2 50 42 -1
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 2400
 Cond 100
 Comments ~
+Objend
+#Vnum 90
+Name ma³y kilof~
+Odmiana ma³ego kilofa~ma³emu kilofowi~ma³y kilof~ma³ym kilofem~ma³ym kilofie~
+Short ma³y kilof~
+Descr Ma³y kilof le¿y tutaj.~
+Material ¿elazo~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 1200
+Cond 75
+Itemdesc Jest to niewielkich rozmiarów kilof. Narzêdzie to bardziej przypomina
+zabawkê albo przyrz±d do nauki górniczego zawodu. 
+~
+Comments ~
+Objend
+#Vnum 91
+Name szeroki kilof~
+Odmiana szerokiego kilofa~szerokiemu kilofowi~szeroki kilof~szerokim kilofem~szerokim kilofie~
+Short szeroki kilof~
+Descr Szeroki, stalowy kilof znajduje siê tutaj.~
+Material stal~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 4 30 0 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 7200
+Cond 75
+Itemdesc Ten szeroki kilof jest dobrym narzêdziem do górniczej pracy. Potrzeba
+jednak odrobinê wprawy by sprawnie siê nim pos³ugiwaæ. 
+~
+Comments ~
+Objend
+#Vnum 92
+Name zardzewialy kilof~
+Odmiana zardzewia³ego kilofu~zardzewia³emu kilofu~zardzewia³y kilof~zardzewia³ym kilofem~zardzewia³ym kilofie~
+Short zardzewia³y kilof~
+Descr Pokryty spor± warstw± rdzy kilof wala siê tu po ziemi.~
+Material stal~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 2 30 0 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 3300
+Cond 75
+Itemdesc Jest to ¶rednich rozmiarów kilof, który by³ ju¿ raczej d³ugo u¿ywany.
+Prawdopodobnie odes³ano go z kopalni do jakiego¶ sklepu, ¿eby choæ jakie¶
+grosze odzyskaæ. Zawsze to lepiej ni¿ na ¶mietnik wyrzuciæ... Mo¿na by nim
+jeszcze troche powydobywaæ, ale bêdzie to raczej uci±¿liwe. 
+~
+Comments ~
+Objend
+#Vnum 93
+Name solidny kilof solidny_kilof~
+Odmiana solidnego kilofu~solidnemu kilofu~solidny kilof~solidnym kilofem~solidnym kilofie~
+Short solidny kilof~
+Descr Wygl±daj±cy na bardzo solidny, kilof le¿y tutaj.~
+Material stal~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 5 40 0 0 0 0 0
+Repair 0 0 0 0
+Weight 90
+Cost 12000
+Cond 90
+Itemdesc Spogl±dasz z podziewem na tej fachowej roboty kilof. Na mocnym trzonku
+osadzona jest stalowa g³ownia z wygrawerowanym imieniem krasnoludzkiego
+kowala Grazila. Z pewno¶ci± bêdzie dobrze spe³niaæ swoje zadanie. 
+~
+Comments ~
+Objend
+#Vnum 94
+Name mithrliowy kilof~
+Odmiana mithrilowego kilofu~mithrilowemu kilofowi~mithrilowy kilof~mithrilowym kilofem~mithrilowym kilofie~
+Short mithrilowy kilof~
+Descr Wygl±daj±cy na bardzo solidny kilof le¿y tutaj.~
+Material mithril~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 6 50 0 0 0 0 0
+Repair 0 0 0 0
+Weight 110
+Cost 39000
+Cond 90
+Itemdesc Spogl±dasz z podziewem na tej fachowej roboty kilof. Na mocnym trzonku
+osadzona jest stalowa g³ownia z wygrawerowanym imieniem krasnoludzkiego
+kowala Grazila. Z pewno¶ci± bêdzie dobrze spe³niaæ swoje zadanie. 
+~
+Comments ~
+Objend
+#Vnum 95
+Name adamantytowy kilof adamantytowy_kilof~
+Odmiana adamantytowego kilofa~adamantytowemu kilofowi~adamantytowy kilof~adamantytowym kilofem~adamantytowym kilofie~
+Short adamantytowy kilof~
+Descr Jaki¶ ³adnie wykonany kilof le¿y na ziemi.~
+Material adamantyt~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 7 60 0 0 0 0 0
+Repair 0 0 0 0
+Weight 110
+Cost 52200
+Cond 90
+Itemdesc Spogl±dasz z podziewem na tej fachowej roboty kilof. Na mocnym trzonku
+osadzona jest stalowa g³ownia z wygrawerowanym imieniem krasnoludzkiego
+kowala Grazila. Z pewno¶ci± bêdzie dobrze spe³niaæ swoje zadanie. 
+~
+Comments ~
+Objend
+#Vnum 96
+Name adamantytowy kilof adamantytowy_kilof~
+Odmiana adamantytowego kilofa~adamantytowemu kilofowi~adamantytowy kilof~adamantytowym kilofem~adamantytowym kilofie~
+Short adamantytowy kilof~
+Descr Adamantytowy kilof solidnie wykonany, le¿y tutaj.~
+Material adamantyt~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 8 70 0 0 0 0 0
+Repair 0 0 0 0
+Weight 110
+Cost 59400
+Cond 90
+Itemdesc Spogl±dasz z podziewem na tej fachowej roboty kilof. Na mocnym trzonku
+osadzona jest stalowa g³ownia z wygrawerowanym imieniem krasnoludzkiego
+kowala Grazila. Z pewno¶ci± bêdzie dobrze spe³niaæ swoje zadanie. 
+~
+Comments ~
+Objend
+#Vnum 100
+Name ³awka~
+Odmiana ³awki~³awce~³awkê~³awka~³awce~
+Short drewniana ³awka~
+Descr Drewniana, szeroka ³awka stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 4 0 144 103 0 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 0
+Cond 100
+Comments ¦cinam heal_bonus (120->103). To ³awka, a nie jakie¶ ³ó¿ko. - {RWicia{x ({CMon Aug 21 12:59:15 2006{x)
+~
 Objend
 #Vnum 102
 Name fontanna~
@@ -2401,10 +2935,73 @@ LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 0
 Cond 100
+Comments ~
+Objend
+#Vnum 104
+Name ciê¿ki ¿elazny topór ~
+Odmiana ¿elaznego topora~¿elaznemu toporowi~¿elazny topór~¿elaznym toporem~¿elaznym toporze~
+Short ¿elazny topór~
+Descr Ciê¿ki, ¿elazny topór krótkim, drewnianym styliskiem.~
+Material stal~
+Type weapon
+ExtraExt 0|GKS
+Wear AN
+Wear2Ext 0|ABCF
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 3 5 25 0 1 1
+Repair 0 0 0 0
+Weight 50
+Cost 3000
+Cond 80
+Comments ~
+Objend
+#Vnum 105
+Name pêtko kie³basa~
+Odmiana pêtka kie³basy~pêtku kie³basy~pêtko kie³basy~pêtkiem kie³basy~pêtku kie³basy~
+Short pêtko kie³basy~
+Descr Do¶æ d³ugi kawa³ek kie³basy le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 30 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 2
+Cond 100
+Objprog consume 33 100~
+Comments ~
+Objend
+#Vnum 106
+Name lada~
+Odmiana lady~ladzie~lade~lada~ladzie~
+Short lada~
+Descr Solidna sklepowa lada oddziela tutaj sprzedawce od klientów.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 100 100 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Solidna lada wykonana z jakiego¶ g³adkiego drewna, stoi tutaj dla wygody
+sprzedawcy i klientów. 
+~
 Comments ~
 Objend
 #Vnum 108
@@ -2422,7 +3019,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -2444,7 +3040,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 40
 Cond 82
@@ -2476,12 +3071,176 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 180
 Cond 10
 Aff 1 29 -1 0 0 0
 Aff 1 12 12 10 0 0
+Comments ~
+Objend
+#Vnum 114
+Name pier¶cieñ stra¿niczy~
+Odmiana pier¶cienia~pier¶cieniowi~pier¶cieñ~pier¶cieniem~pier¶cieniu~
+Short pier¶cieñ stra¿niczy~
+Descr Ten pier¶cieñ jest insygnium w³adzy stra¿ników w Fortecy.~
+Material srebro~
+Type jewelry
+ExtraExt 0|d
+Wear AB
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 0
+Cond 10
+Aff 1 29 -1 0 0 0
+Aff 1 12 12 10 0 0
+Comments ~
+Objend
+#Vnum 115
+Name topór solidny stalowy~
+Odmiana stalowego topora~stalowemu toporowi~stalowy topór~stalowym toporem~stalowym toporze~
+Short stalowy topór~
+Descr Solidny, stalowy topór le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 3 4 1 0 0 0
+Repair 0 0 0 0
+Weight 35
+Cost 900
+Cond 80
+Comments ~
+Objend
+#Vnum 116
+Name Elegancki kapelusz~
+Odmiana {Deleganckiego kapelusza{x~{Deleganckim kapeluszu{x~{Delegancki kapelusz{x~{Deleganckim kapeluszem{x~{Deleganackim kapeluszu{x~
+Short {Delegancki kapelusz{x~
+Descr {DElegancki kapelusz{x wyglada znakomicie.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 5
+Cond 75
+Itemdesc {DElegancki kapelusz{x g³ównie noszony przez zamo¿ne osoby. Wykonany z
+tkaniny zwanej dywetyna, miêkki materia³ podobny do zamszu, znakomicie
+pasuj±cy w s³oneczny, a tak¿e deszczowy dzieñ. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 117
+Name Nieprzemakalny p³aszcz~
+Odmiana {Ynieprzemakalnego p³aszcza{x~{Ynieprzemakalnemu p³aszczowi{x~{Ynieprzemakalny p³aszcz{x~{Ynieprzemakalnym p³aszczem{x~{Ynieprzemakalnym p³aszczu{x~
+Short {Ynieprzemakalny p³aszcz{x~
+Descr {YNieprzemakalny p³aszcz{x doskona³y na wyj¶cie, gdy pada deszcz.~
+Material p³ótno~
+Type clothing
+ExtraExt 1|A
+Wear ACDEILMT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 15
+Cond 75
+Itemdesc {YNieprzemakalny p³aszcz{x, zrobiony jest z ¶liskiego i odpornego na wodê
+p³ótna w kolorze jasno-¿ó³tym. D³ugie rêkawy, kaptur i to, ¿e siêga poza
+kolana sprawiaj±, i¿ jest bardzo skuteczny przed mocnymi deszczami. Bardzo
+wygodny i modny pasuj±cy te¿ do s³onecznej pogody. 
+~
+Comments ~
+Objend
+#Vnum 118
+Name oryginalne okulary~
+Odmiana oryginalnych okularów~oryginalnym okularom~oryginalne okulary~oryginalnymi okularami~oryginalnym okularom~
+Short oryginalne okulary~
+Descr Oryginalne okulary prezentuj± siê znakomicie.~
+Material szk³o~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 75
+Itemdesc Oryginalne okulary z {Dczarnymi oprawkami{x, które s± zrobione z ¿elaza, w które s± wprawione dwa szkie³ka o grubo¶ci pó³ centymetra. W tych okularach osoby wygl±daj± dosyæ powa¿nie i inteligentnie. Oprawki dok³adnie zrobione, dlatego idealnie pasuj± ci na nosie.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 119
+Name czerwona sukienka~
+Odmiana {Rczerwonej sukienki{x~{Rczerwonej sukience{x~{Rczerwon± sukienke{x~{Rczerwon± sukienk±{x~{Rczerwonej sukience{x~
+Short {Rczerwona sukienka{x~
+Descr Jedwabna {Rczerwona sukienka{x wygl±da wspaniale.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 17
+Cost 5
+Cond 75
+Itemdesc Piêkna {Rczerwona sukienka{x. Zrobiona z jedwabiu. Jest przeznaczona dla
+odwa¿nych i nie boj±cych pokazaæ trochê swojego cia³a, gdy¿ ma du¿y dekolt i
+z rozszerzeniem w talii. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 121
+Name podarta koszula~
+Odmiana podartej koszuli~podartej koszuli~podart± koszule~podart± koszul±~podartej koszuli~
+Short podarta koszula~
+Descr Koszula podarta na rêkawach i z kilkoma dziurami~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 1
+Cond 75
+Itemdesc Podarta koszula nie nadajê siê do niczego tylko jest do wyrzucenia, no
+chyba, ¿e by siê mistrz krawiectwa za ni± zabra³. Noszona tylko przez
+ubogich ludzi, których nie staæ na przeciêtne ¿ycie. Potargane rêkawy, kilka
+ró¿nych rozmiarów dziur. A¿ wstyd nosiæ t± koszulê. 
+~
 Comments ~
 Objend
 #Vnum 122
@@ -2499,7 +3258,6 @@ LiczbaMnoga 0
 Gender 0
 Value 5 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 600
 Cond 100
@@ -2523,7 +3281,6 @@ LiczbaMnoga 0
 Gender 0
 Value 5 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 600
 Cond 100
@@ -2547,7 +3304,6 @@ LiczbaMnoga 0
 Gender 0
 Value 5 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 600
 Cond 100
@@ -2571,11 +3327,33 @@ LiczbaMnoga 0
 Gender 0
 Value 5 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
 Comments ~
+Objend
+#Vnum 128
+Name skrzynia stara~
+Odmiana starej skrzyni~starej skrzyni~star± skrzyniê~star± skrzyni±~starej skrzyni~
+Short stara skrzynia~
+Descr Jaka¶ stara skrzynia stoi w k±cie.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1000 5 0 100 100 0 -1
+Repair 0 0 0 0
+Weight 500
+Cost 60
+Cond 20
+Itemdesc Stara skrzynia, wzmacniaj±ce j± metalowe prêty s± ju¿ mocno zardzewia³e. 
+~
+Comments ~
+Trap 128
 Objend
 #Vnum 130
 Name wisiorek lzy amulet~
@@ -2592,12 +3370,35 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2100
 Cond 75
 Itemdesc ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 131
+Name okuta tarcza~
+Odmiana okutej tarczy~okutej tarczy~okuta tarcze~okuta tarcza~okutej tarczy~
+Short okuta tarcza~
+Descr ¦redniej wielko¶ci okuta tarcza, z emblematem przedstawiaj±cym srebrny topór.~
+Material ¿elazo~
+Type shield
+ExtraExt 0|N
+Wear AJ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 1 20 2 0 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 3300
+Cond 100
+Itemdesc Na tej tarczy widnieje emblemat srebrnego topora, po wewnêtrznej stronie
+tak¿e literka J. Prawdopodobnie jest to tarcza pochodz±ca z Ku¼ni Joerga w
+fortecy. 
+~
 Comments ~
 Objend
 #Vnum 0
@@ -6113,6 +6914,17 @@ Chcesz, chocia¿ na chwile, usi±¶æ na ³aweczce, ws³uchaæ siê w szum wody i
 ~
 FlagsExt 0|H
 Sector 38
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 119
+ExitExtEnd
+Exit 0
+~
+~
+0 0 119
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6158,17 +6970,6 @@ ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku.
 ~
 FlagsExt 0|H
 Sector 38
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 119
-ExitExtEnd
-Exit 2
-~
-~
-0 0 119
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6192,6 +6993,17 @@ ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku.
 ~
 FlagsExt 0|H
 Sector 38
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 119
+ExitExtEnd
+Exit 1
+~
+~
+0 0 119
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6215,28 +7027,28 @@ ostrzy¿one drzewko. Kto¶ siê mocno napracowa³ w utrzymaniu tu porz±dku.
 ~
 FlagsExt 0|H
 Sector 38
-ExitExt 0
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 117
+ExitExtToVnum 116
 ExitExtEnd
-Exit 0
+Exit 2
 ~
 ~
-0 0 117
+0 0 116
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 122
+ExitExtToVnum 118
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 122
+0 0 118
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -6316,17 +7128,6 @@ Exit 0
 ~
 ~
 0 0 116
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 119
-ExitExtEnd
-Exit 1
-~
-~
-0 0 119
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6672,7 +7473,7 @@ Roomend
 44 19 0 0 0 0 100 100 0 23 * 109
 46 5 9 33 0 0 120 30 0 23 * 0
 72 0 42 0 0 0 120 80 7 21 * 0
-128 32 33 8 0 0 160 80 1 22 * 0
+128 32 33 8 0 0 160 80 10 18 * 0
 130 37 2 26 3 10 120 70 7 21 * 0
 0
 
@@ -6729,56 +7530,56 @@ M 100 47 10 40 1
 M 100 64 4 41 1
 M 100 63 4 41 1
 M 100 33 1 43 1
-E 100 4418 0 8
-E 100 4409 0 7
-G 100 3172 0
-G 100 3157 0
-G 100 3179 0
+E 100 3087 0 8
+E 100 3093 0 7
+G 100 3021 0
+G 100 3071 0
+G 100 3022 0
 G 100 3306 0
 G 100 3097 0
-G 100 3300 0
+G 100 3295 0
 G 100 3296 0
-G 100 3164 0
-G 100 3145 0
-G 100 3127 0
-G 100 3128 0
+G 100 58 0
+G 100 3023 0
+G 100 72 0
+G 100 3048 0
 G 100 3149 0
-G 100 3161 0
-O 100 2363 0 43
+G 100 5606 0
+O 100 106 0 43
 G 100 3135 0
 M 100 43 1 44 1
-E 100 4426 0 12
-E 100 4417 0 8
-G 100 3324 0
-G 100 2499 0
-G 100 2497 0
-G 100 2450 0
+E 100 43 0 12
+E 100 3014 0 8
+G 100 3026 0
+G 100 3025 0
+G 100 3006 0
+G 100 3001 0
 G 100 3185 0
 G 100 65 0
 G 100 67 0
 G 100 534 0
 G 100 3330 0
-G 100 3363 0
-O 100 2363 0 44
+G 100 3035 0
+O 100 106 0 44
 M 100 32 1 45 1
 G 100 3366 0
-G 100 3001 0
-G 100 4369 0
-E 100 3082 0 10
-G 100 3066 0
-G 100 3050 0
-G 100 3018 0
-G 100 3033 0
-G 100 3081 0
-G 100 3049 0
-G 100 3017 0
-G 85 3291 0
-G 40 3029 0
-G 40 3077 0
-G 40 3061 0
-G 40 3003 0
-G 40 3045 0
-O 100 2363 0 45
+G 100 3380 0
+G 100 3379 0
+G 100 41 0
+G 100 3378 0
+G 100 3382 0
+G 100 3381 0
+G 100 3054 0
+G 100 3053 0
+G 100 3052 0
+G 100 3051 0
+G 85 131 0
+G 40 3066 0
+G 40 3357 0
+G 40 3358 0
+G 40 27622 0
+G 40 3068 0
+O 100 106 0 45
 M 100 48 4 46 1
 M 100 40 5 47 1
 M 100 56 20 48 2
@@ -6831,16 +7632,16 @@ M 100 47 10 69 1
 M 100 68 8 72 1
 M 100 48 4 72 1
 M 100 56 20 73 2
-E 100 4409 0 7
-E 100 4406 0 6
-E 100 4416 0 8
+E 100 3007 0 7
+E 100 561 0 6
+E 100 3013 0 8
 M 100 54 8 73 1
-E 100 4409 0 7
-E 100 4368 0 5
-E 100 4398 0 9
+E 100 3007 0 7
+E 100 3130 0 5
+E 100 3335 0 9
 M 100 47 10 73 1
-E 100 4416 0 8
-E 100 4409 0 7
+E 100 3013 0 8
+E 100 3007 0 7
 M 100 67 3 74 1
 M 100 68 8 75 1
 M 100 55 5 76 1
@@ -6893,77 +7694,78 @@ M 100 67 3 105 1
 M 100 68 8 106 1
 M 100 53 1 107 1
 E 100 66 0 17
-E 100 3050 0 7
-E 100 4369 0 5
-E 100 3099 0 13
-E 100 3001 0 8
+E 100 3382 0 7
+E 100 3379 0 5
+E 100 78 0 13
+E 100 3380 0 8
 M 100 47 10 108 10
-O 100 2363 0 108
-O 100 2362 0 108
+O 100 100 0 108
+O 100 3251 0 108
 O 100 74 0 108
 M 100 44 1 109 1
 E 100 47 0 17
 E 100 46 0 14
-G 100 3381 0
+G 100 3074 0
 E 100 130 0 3
-E 100 3099 0 13
+E 100 78 0 13
 E 100 79 0 12
-E 100 3050 0 7
-E 100 4369 0 5
-E 100 3001 0 8
-G 100 2450 0
-G 100 2451 0
+E 100 3382 0 7
+E 100 3379 0 5
+E 100 3380 0 8
+G 100 3001 0
+G 100 105 0
 G 100 17164 0
 M 100 42 1 111 1
-O 100 2364 0 111
+O 100 3250 0 111
 E 100 3097 0 16
-O 100 2363 0 112
+O 100 106 0 112
 M 100 72 1 112 1
 M 100 35 1 116 1
-O 100 2363 0 116
+O 100 100 0 116
 M 100 37 1 116 1
 O 100 102 0 116
 G 100 66 0
 M 100 36 5 118 1
-E 100 3001 0 8
-E 100 4409 0 7
+E 100 563 0 5
+E 100 3380 0 8
+E 100 40517 0 7
 M 100 70 1 120 1
 M 100 36 5 121 1
-E 100 4409 0 7
-E 100 3001 0 8
+E 100 40517 0 7
+E 100 3380 0 8
 M 100 36 5 122 1
-E 100 4409 0 7
+E 100 40517 0 7
 M 100 38 1 123 1
-E 100 3003 0 8
-E 100 3029 0 5
-E 100 3045 0 6
-E 100 3050 0 7
-E 100 3127 0 16
+E 100 3309 0 8
+E 100 35 0 5
+E 100 36 0 6
+E 100 3382 0 7
+E 100 72 0 16
 M 100 41 1 125 1
 G 100 122 0
 G 100 123 0
 G 100 124 0
-E 100 3001 0 8
-E 100 4395 0 5
-E 100 4425 0 13
+E 100 3380 0 8
+E 100 61 0 12
+E 100 62 0 13
 E 100 123 0 17
 G 25 574 0
 M 100 50 1 127 1
 M 100 39 1 127 1
-E 100 3159 0 16
-E 100 4416 0 8
-E 100 4361 0 5
+E 100 634 0 16
+E 100 3013 0 8
+E 100 3009 0 5
 M 100 129 1 130 1
 M 100 130 1 131 1
-G 100 3260 0
-E 100 4361 0 5
+G 100 3253 0
+E 100 3009 0 5
 G 100 6104 0
 G 100 3109 0
-G 100 4361 0
+G 100 3009 0
 G 50 2318 0
 G 50 3110 0
 G 50 3125 0
-O 100 2363 0 131
+O 100 106 0 131
 S
 
 
@@ -6971,117 +7773,126 @@ S
 #MOBPROGSNEW
 #100
 ~
-mob equip self 3025
-mob equip self 3045
-mob equip self 3050
-mob equip self 3001
+mob oload 3306
+mob oload 3306
+ 
+wield d³ugi
+hold d³ugi
+ 
+mob equip self 32
+mob equip self 36
+mob equip self 3382
+mob equip self 3380
 if rand 50
-mob equip self 3099
+mob equip self 78
 endif
 if rand 50
 mob equip self 79
 endif
 if rand 50
-mob equip self 3066
+mob equip self 3378
 else
-mob equip self 3073
+mob equip self 80
 endif
 ~
 #101
 ~
-mob equip self 4426
+mob equip self 43
 ~
 #102
 ~
 mob equip self 44
-mob equip self 4418
-mob equip self 3050
-mob equip self 4426
-mob equip self 3082
-mob equip self 3066
+mob equip self 3087
+mob equip self 3382
+mob equip self 43
+mob equip self 41
+mob equip self 3378
 ~
 #103
 ~
-mob equip self 4401
-mob equip self 4418
-mob equip self 3050
-mob equip self 4371
+mob equip self 116
+mob equip self 3087
+mob equip self 3382
+mob equip self 312
 ~
 #104
 ~
-mob equip self 4418
-mob equip self 4386
-if rand 50
-  mob oload 2450
+Mob equip self 3087
+Mob equip self 953
+If rand 50
+  Mob oload  3001
 else
-  mob oload 2499
+  Mob oload  3025
 endif
 ~
 #105
 ~
-mob equip self 4418
-mob equip self 4364
-mob equip self 3050
+mob equip self 3087
+mob equip self 3015
+mob equip self 3382
 ~
 #106
 ~
-mob equip self 4384
-mob equip self 4416
+mob equip self 119
+mob equip self 3013
 if rand 50
-  mob oload 3382
+  mob oload 3024
 else
-  mob oload 3324
+  mob oload 3026
 endif
 ~
 #107
 ~
-mob equip self 3001
-mob equip self 4413
-mob equip self 4370
+Mob equip self 560
+Mob equip self 951
+Mob equip self 558
 ~
 #108
 ~
-mob equip self 4395
-mob equip self 4425
-mob equip self 3001
-if rand 50
-  mob oload 3363
+Mob equip self 61
+Mob equip self 62
+Mob equip self 3380
+If rand 50
+  Mob oload 3035
 endif
 ~
 #109
 ~
-mob equip self 4428
-mob equip self 4418
-mob equip self 3098
+mob equip self 117
+mob equip self 3087
+mob equip self 3017
 ~
 #110
 ~
-mob equip self 3050
-mob equip self 3001
-mob equip self 4363
+mob equip self 3382
+mob equip self 3380
+mob equip self 121
 if rand 50
   mob oload 569
 endif
 ~
 #111
 ~
-mob equip self 4418
-mob equip self 3050
-mob equip self 4369
-if rand 50
-  mob oload 3381
+Mob equip self 3087
+Mob equip self 3382
+Mob equip self 3379
+If rand 50
+  Mob oload 3074
 endif
 ~
 #112
 ~
-mob equip self 4410
-mob equip self 3001
-mob equip self 4369
+Mob equip self 3016
+Mob equip self 3380
+Mob equip self 3379
 ~
 #113
 ~
-mob equip self 4426
-mob equip self 4418
+mob equip self 43
+mob equip self 3087
+if rand 60
+  mob equip self 118
+endif
 ~
 #128
 Przycialem losowene do tego sklepu randomy kolczyki/pierscionki/wisiorki/branzoletki - Kainti.
@@ -7132,9 +7943,9 @@ endif
 
 #UBIOR MOBA GWERDRIN
 
-mob equip self 3003
-mob equip self 3019
-mob equip self 3057
+mob equip self 27622
+mob equip self 86
+mob equip self 3144
 ~
 #129
 ~
@@ -7316,15 +8127,15 @@ endif
 #38
 ~
 if rand 50
-  mob equip self 3025
+mob equip self 32
 else
-  mob equip self 3018
+mob equip self 3381
 endif
-mob equip self 3045
-mob equip self 3050
-mob equip self 3001
-mob equip self 3082
-mob equip self 3066
+mob equip self 36
+mob equip self 3382
+mob equip self 3380
+mob equip self 41
+mob equip self 3378
 mob equip self 3366
 ~
 #39
@@ -7416,15 +8227,15 @@ endif
 #42
 ~
 if rand 50
-mob equip self 3157
+mob equip self 3071
 else
-mob equip self 3164
+mob equip self 58
 endif
 mob equip self 3366
-mob oload 2497
-mob equip self 3018
-mob equip self 4418
-mob equip self 3066
+mob oload 3006
+mob equip self 3065
+mob equip self 3087
+mob equip self 3378
 sit ³awka
 ~
 #44
@@ -7491,7 +8302,7 @@ endif
 if numeval $_rand == 4
   usmiech $q
   minidelay 1
-  mob oload 3381
+  mob oload 3074
   give butelka $q
   tell $q To na koszt zak³adu.
   mob setflag $q 44_piwo 72
@@ -7571,13 +8382,13 @@ endif
 # mprog do ubierania krasnoludzkich stra¿ników
 ##########################################################################
 # body
-mob equip self 3018
+mob equip self 3065
 ##########################################################################
 # feet
 if rand 50
-mob equip self 3001
+mob equip self 3380
 else
-mob equip self 4418
+mob equip self 3087
 endif
 ##########################################################################
 # about
@@ -7586,18 +8397,18 @@ mob equip self 112
 endif
 ##########################################################################
 # legs
-mob equip self 3050
+mob equip self 3382
 ##########################################################################
 # neck or finger
 if rand 50
 mob equip self 113
 else
-mob equip self 9122
+mob equip self 114
 endif
 ##########################################################################
 # wield
 if rand 50
-mob equip self 3178
+mob equip self 115
 else
 if rand 50
 mob oload weapon 4
@@ -7607,10 +8418,10 @@ endif
 ~
 #48
 ~
-mob equip self 3157
-mob equip self 4426
+mob equip self 3071
+mob equip self 43
 if rand 95
-  mob equip self 4430
+  mob oload 174 w
 endif
 ~
 #49
@@ -7653,8 +8464,8 @@ mob mload 52
 if carries $q 81
  mob equip y'erg 81
 endif
-if carries $q 3128
- mob equip y'erg 3128
+if carries $q 3048
+ mob equip y'erg 3048
 endif
 if carries $q 82
  mob equip y'erg 82
@@ -7662,8 +8473,8 @@ endif
 if carries $q 85
  mob equip y'erg 85
 endif
-if carries $q 3019
- mob equip y'erg 3019
+if carries $q 86
+ mob equip y'erg 86
 endif
 mob purge self
 ~
@@ -7678,8 +8489,8 @@ mob mload 51
 if carries $q 81
  mob equip y'erg 81
 endif
-if carries $q 3128
- mob equip y'erg 3128
+if carries $q 3048
+ mob equip y'erg 3048
 endif
 if carries $q 82
  mob equip y'erg 82
@@ -7687,8 +8498,8 @@ endif
 if carries $q 85
  mob equip y'erg 85
 endif
-if carries $q 3019
- mob equip y'erg 3019
+if carries $q 86
+ mob equip y'erg 86
 endif
 mob purge self
 ~
@@ -7722,7 +8533,7 @@ if mobhere 52
  break
 endif
 if rand 25
- mob equip self 3019
+ mob equip self 86
 else
  if rand 50
  mob equip self 85
@@ -7731,7 +8542,7 @@ else
  endif
 endif
 if rand 25
- mob equip self 3128
+ mob equip self 3048
 else
  mob equip self 81
 endif
@@ -7852,10 +8663,10 @@ emote pada na ziemie.... MARTWY!
 ~
 #71_onload
 ~
-mob equip self 3164
-mob equip self 3098
-mob equip self 4375
-mob equip self 4416
+mob equip self 58
+mob equip self 6038
+mob equip self 4862
+mob equip self 3013
 mob oload 66
 mob oload 6188
 ~
@@ -7987,22 +8798,22 @@ break
 :przedmiot_1
 mob echoat $n Grazil  odk³ada narzêdzia, idzie na zaplecze i wraca z krótkim mieczem.
 tell $n Witaj. Troche to trwa³o, ale twój przedmiot jest gotowy do odbioru.
-mob oload 3179
+mob oload 3022
 give mieczkrotki $n
 mob removeflag $n fort_zaplacil_miecz
 break
 :przedmiot_2
 mob echoat $n Grazil odk³ada narzêdzia i patrzy na ciebie, dumnie prezentuj±c ci w³asnie ukoñczony mlot.
 tell $n Witaj. Troche to trwa³o, ale twój przedmiot jest gotowy do odbioru.
-mob oload 3349
-give mlot $n
+mob oload 20300
+give mlotfort $n
 mob removeflag $n fort_zaplacil_mlot
 break
 :przedmiot_3
 mob echoat $n Grazil z u¶miechniêtym wyrazem twarzy odk³ada narzêdzia i podchodzi do ciebie.
 tell $n Witaj. Troche to trwa³o, ale twój przedmiot jest gotowy do odbioru.
-mob oload 3178
-give "topor bojowy" $n
+mob oload 20301
+give topfort $n
 mob removeflag $n fort_zaplacil_topor
 break
 end
@@ -8028,7 +8839,7 @@ if hasflag $n fortz_juz_chce
   tell $n Ale¿ ju¿ co¶ zamówi³e¶! Mo¿na zamówic tylko jeden przedmiot na raz!
   break
 endif
-mob echoat $n Grazil odk³ada narzêdzia, spluwa na pod³oge i podchodzi do ciebie.
+Mob echoat $n Grazil odk³ada narzêdzia, spluwa na pod³oge i podchodzi do ciebie.
 tell $n Co chcesz zamówiæ? Miecz, m³ot czy topór?   
 responsedelay 10 "miecz" "mlot" "topor"
 if response 1
@@ -8215,36 +9026,36 @@ break
 :przedmiot_1
 mob echoat $n Joerg  wyci±ga narêczaki zza kowad³a.
 tell $n Ty to zamówi³e¶ z tego co pamiêtam.
-mob oload 3089
+mob oload 20342
 give narfort $n
 mob removeflag $n fort_zaplacil_nareczaki
 break
 :przedmiot_2
 mob echoat $n Joerg odk³ada narzêdzia,wychodzi na zaplecze i wraca z twoj± kolczug±.
 tell $n Witaj. Troche to trwa³o, ale kolczuga gotowa do odbioru.
-mob oload 3025
-give "lekka kolczuga" $n
+mob oload 20343
+give kolczfort $n
 mob removeflag $n fort_zaplacil_kolczuga
 break
 :przedmiot_3
 mob echoat $n Joerg z u¶miechniêtym wyrazem twarzy odk³ada narzêdzia i podchodzi do ciebie.
 tell $n Witaj. Nie musisz ju¿ chodziæ boso.
-mob oload 3013
-give "polplytowe buty" $n
+mob oload 20344
+give butfort $n
 mob removeflag $n fort_zaplacil_buty
 break
 :przedmiot_4
 mob echoat $n Joerg  wyci±ga he³m zza kowad³a.
 tell $n Pamiêtaj, ¿e przed kacem nie chroni.
-mob oload 29205
+mob oload 20345
 give helmfort $n
 mob removeflag $n fort_zaplacil_helm
 break
 :przedmiot_5
 mob echoat $n Joerg odk³ada narzêdzia,wychodzi na zaplecze i wraca z twoj± spódniczk±.
 tell $n Witaj. Troche to trwa³o, ale spodniczka jest gotowa.
-mob oload 3057
-give "spodniczka kolcza" $n
+mob oload 20346
+give spofort $n
 mob removeflag $n fort_zaplacil_spodniczka
 break
 end
@@ -8271,7 +9082,7 @@ if hasflag $n fortk_juz_chce
 tell $n O czym¶ ju¿ gadali¶my, czekam na srebrniki.
 break
 endif
-mob echoat $n Joerg odk³ada narzêdzia, spluwa na pod³oge i podchodzi do ciebie.
+Mob echoat $n Joerg odk³ada narzêdzia, spluwa na pod³oge i podchodzi do ciebie.
 tell $n Co mam dla ciebie wykonaæ? Narêczaki, kolczuge, buty, he³m czy spódniczke?   
 responsedelay 10 "nareczaki" "kolczuge" "buty" "helm" "spodniczke"
 if response 1
@@ -8378,57 +9189,57 @@ mob force $n list
 ~
 #wield
 if rand 50
-mob equip self 3179
+mob equip self 3022
 endif
-mob equip self 3157
+mob equip self 3071
 #feet
 if rand 50
-mob equip self 3001
+mob equip self 3380
 else
-mob equip self 4418
+mob equip self 3087
 endif
 #legs
-mob equip self 3050
+mob equip self 3382
 #body
 if rand 50
-mob equip self 4369
+mob equip self 3379
 else
-mob equip self 3018
+mob equip self 3381
 endif
 #about
 mob equip self 79
 #arms
-mob equip self 3066
+mob equip self 3378
 ~
 #onload_elita
 ~
 #wield i hold
 mob equip self 3306
-mob oload 3179
+mob oload 3022
 hold krotki
 #feet
 if rand 50
-  mob equip self 3001
+  mob equip self 3380
 else
-  mob equip self 4418
+  mob equip self 3087
 endif
 #legs
 if rand 50
-  mob equip self 3050
+  mob equip self 3382
 else
-  mob equip self 3057
+  mob equip self 3140
 endif
 #waist
 if rand 50
-  mob equip self 3099
+  mob equip self 78
 else
-  mob equip self 3098
+  mob equip self 5604
 endif
 #body
 if rand 50
-  mob equip self 3025
+  mob equip self 32
 else
-  mob equip self 3029
+  mob equip self 5605
 endif
 #about
 if rand 50
@@ -8438,19 +9249,19 @@ else
 endif
 #arms
 if rand 50
-  mob equip self 3090
+  mob equip self 5607
 endif
 #hands
 if rand 50
-  mob equip self 3066
+  mob equip self 3378
 else
-  mob equip self 3071
+  mob equip self 5608
 endif
 #head
 if rand 50
-  mob equip self 3045
+  mob equip self 36
 else
-  mob equip self 3045
+  mob equip self 5609
 endif
 if rand 48
   mob addgroup 31
@@ -8488,42 +9299,42 @@ who
 ~
 mob equip self 112
 mob equip self 3149
-mob equip self 3073
-mob equip self 3025
-mob equip self 3001
-mob equip self 3082
-mob equip self 3050
+mob equip self 80
+mob equip self 32
+mob equip self 3380
+mob equip self 41
+mob equip self 3382
 mob equip self 113
 ~
 #str_vam_onload
 ~
 #wield i hold
 mob equip self 3306
-mob oload 3179
+mob oload 3022
 hold krotki
 #feet
 if rand 50
-mob equip self 3001
+mob equip self 3380
 else
-mob equip self 4418
+mob equip self 3087
 endif
 #legs
 if rand 50
-mob equip self 3050
+mob equip self 3382
 else
-mob equip self 3057
+mob equip self 3140
 endif
 #waist
 if rand 50
-mob equip self 3099
+mob equip self 78
 else
-mob equip self 3098
+mob equip self 5604
 endif
 #body
 if rand 50
-mob equip self 3025
+mob equip self 32
 else
-mob equip self 3029
+mob equip self 5605
 endif
 #about
 if rand 50
@@ -8533,19 +9344,19 @@ mob equip self 112
 endif
 #arms
 if rand 50
-mob equip self 3090
+mob equip self 5607
 endif
 #hands
 if rand 50
-mob equip self 3066
+mob equip self 3378
 else
-mob equip self 3071
+mob equip self 5608
 endif
 #head
 if rand 50
-mob equip self 3045
+mob equip self 36
 else
-mob equip self 3045
+mob equip self 5609
 endif
 ~
 #tander_zamow
@@ -8818,31 +9629,31 @@ endif
 ~
 #wield i hold
 mob equip self 3306
-mob oload 3179
+mob oload 3022
 hold krotki
 #feet
 if rand 50
-  mob equip self 3001
+  mob equip self 3380
 else
-  mob equip self 4418
+  mob equip self 3087
 endif
 #legs
 if rand 50
-  mob equip self 3050
+  mob equip self 3382
 else
-  mob equip self 3057
+  mob equip self 3140
 endif
 #waist
 if rand 50
-  mob equip self 3099
+  mob equip self 78
 else
-  mob equip self 3098
+  mob equip self 5604
 endif
 #body
 if rand 50
-  mob equip self 3025
+  mob equip self 32
 else
-  mob equip self 3029
+  mob equip self 5605
 endif
 #about
 if rand 50
@@ -8852,19 +9663,19 @@ else
 endif
 #arms
 if rand 50
-  mob equip self 3090
+  mob equip self 5607
 endif
 #hands
 if rand 50
-  mob equip self 3066
+  mob equip self 3378
 else
-  mob equip self 3071
+  mob equop self 5608
 endif
 #head
 if rand 50
-  mob equip self 3045
+  mob equip self 36
 else
-  mob equip self 3045
+  mob equip self 5609
 endif
 if rand 48
   mob addgroup 31
@@ -8931,10 +9742,41 @@ mob force wiezienia rest krzes³o
 ~
 mob echoat $n Nie mo¿esz tego zrobiæ.
 ~
+#70_free
+~
+~
+#free1
+~
+~
+#free2
+~
+~
 #load_yergiza
 ~
 if !mobexists y'ergiz
 mob mload 51
+endif
+~
+#rasz_rand
+~
+$_rand = int_random 1 6
+if numeval $_rand == 1
+sayto $n 1
+endif
+if numeval $_rand == 2
+sayto $n 2
+endif
+if numeval $_rand == 3
+sayto $n 3
+endif
+if numeval $_rand == 4
+sayto $n 4
+endif
+if numeval $_rand == 5
+sayto $n 5
+endif
+if numeval $_rand == 6
+sayto $n 6
 endif
 ~
 #0
@@ -8956,6 +9798,26 @@ Failed mob echoat $n Próbujesz rozbroiæ zamontowan± na drzwiach pu³apkê, ale ci 
 ~
 Limit 1314822
 Trapend
+#Vnum 128
+Active 1
+Level 1
+Type 2
+Triggered mob echoat $n Rado¶nie otwierasz skrzyniê i... czujesz jak du¿a ig³a wbija siê w twój palec. Auæ!
+mob echoaround $n Z u¶miechem na twarzy $n otwiera skrzyniê i doznaje zawodu, gdy w $s palec wbija siê sprytnie ukryta w wieku ig³a.
+if rand 80
+mob cast poison $n 1
+endif
+mob damageex $n 2 10 15
+~
+Disarmed mob echoat $n W wieku skrzyni dostrzegasz ukryt± ig³ê, która zrêcznym ruchem wyginasz w bok, po czym spokojnie ju¿ otwierasz skrzyniê.
+mob echoaround $n $n znajduje ig³ê w wieku skrzyni, wygina j± w bok, po czym ju¿ bez obaw otwiera skrzyniê.
+~
+Failed mob echoat $n Podwa¿asz wieko skrzyni i starasz siê wygi±æ tkwi±c± tam metalow± ig³ê, ale robisz to tak "profesjonalnie", ¿e wbijasz j± sobie w palec... auuuu!
+mob echoaround $n $n z pewn± siebie min± podwa¿a wieko skrzyni i stara siê wygi±æ tkwi±c± w nim ig³ê. Niestety najwyra¼niej $x brakuje nieco umiejêtno¶ci, bo wbija sobie ig³ê w palec. Zabawne, no nie?
+mob damageex $n 2 1 4
+~
+Limit 134661
+Trapend
 #Vnum 0
 
 #RANDDESC
@@ -8976,6 +9838,7 @@ RandDescEnd
 32 22 0 150 1 0 0 * 0
 33 0 0 100 1 7 22 * 43
 33 23 0 100 1 0 0 * 0
+128 20 0 130 20 10 18 * 0
 128 21 0 130 20 0 0 * 0
 128 19 0 125 10 0 0 * 0
 0

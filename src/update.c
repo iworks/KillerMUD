@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -28,7 +28,7 @@
  ***********************************************************************
  *
  * $Id: update.c 8611 2010-02-23 21:24:03Z void
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/update.c $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/update.c $
  *
  */
 #if defined (macintosh)
@@ -916,7 +916,7 @@ int hit_gain ( CHAR_DATA *ch )
     /*
      * aura of improve healing bonus
      */
-    if ( is_affected( ch, gsn_aura_of_improved_healing ) )
+    if ( is_affected( ch, skill_lookup( "aura of improve healing" ) ) )
     {
         gain *= 3;
         gain /= 2;
@@ -1150,7 +1150,7 @@ int move_gain ( CHAR_DATA *ch )
     /*
      * aura of vigor bonus
      */
-    if ( is_affected( ch, gsn_aura_of_vigor ) )
+    if ( is_affected( ch, skill_lookup( "aura of vigor" ) ) )
     {
         gain *= 2;
         gain = UMAX( gain, 5 );
@@ -1738,7 +1738,6 @@ void char_update(void)
                         stop_fighting(ch, TRUE);
 
                     send_to_char("Przenosisz siê do niebytu.\n\r", ch);
-		    do_release_spirit(ch, NULL);
                     save_char_obj(ch, FALSE, FALSE);
                 }
             }
@@ -1934,7 +1933,7 @@ void char_update(void)
 
             for (vch = ch->in_room->people; vch != NULL; vch = vch->next_in_room)
             {
-                if ( !is_safe(vch, ch, TRUE) && !saves_spell(plague.level - 2, vch,
+                if ( !is_safe(vch, ch) && !saves_spell(plague.level - 2, vch,
                             DAM_DISEASE) && !IS_IMMORTAL ( vch ) && !IS_AFFECTED ( vch, AFF_PLAGUE ) && number_bits( 4) == 0)
                 {
                     send_to_char("Masz gor±czkê i czujesz siê do¶æ kiepsko.\n\r", vch);
@@ -2220,18 +2219,17 @@ void obj_update ( void )
             if ( obj->spell_item_timer > 0 )
             {
                 --obj->spell_item_timer;
-                if ( obj->spell_item_timer < 1 )
+                if ( obj->spell_item_timer == 0 )
                 {
                     obj->is_spell_item = FALSE;
                     slot = spell_item_get_slot_by_item_name( obj );
-                    if ( slot > -1 && spell_items_table[slot].item_blows_timer )
-                    {
+                    if ( slot >= 0 && spell_items_table[slot].item_blows_timer )
                         spell_item_destroy( TRUE, obj, spell_items_table[slot].key_number );
-                    }
-                    else if ( obj->carried_by && !IS_NPC(obj->carried_by) && number_percent() < 30 && know_magic_of_item( obj->carried_by, obj ) )
-                    {
-                        print_char( obj->carried_by, "Czujesz, ¿e %s traci swoj± moc.", obj->short_descr );
-                    }
+                    else
+                        if ( obj->carried_by )
+                            if ( number_percent() < 30 )
+                                if ( !IS_NPC(obj->carried_by) && know_magic_of_item( obj->carried_by, obj ) )
+                                    print_char( obj->carried_by, "Czujesz, ¿e %s traci swoj± moc.", obj->short_descr );
                 }
             }
         }
@@ -2265,11 +2263,9 @@ void obj_update ( void )
                 {
                     if ( HAS_OTRIGGER ( obj, TRIG_FLAGOFF ) )
                         op_flagoff_trigger ( pflag->id, obj );
-                    if ( IS_VALID( obj ) )
-                    {
-                        removeobjflag ( obj, pflag->id );
-                        found = TRUE;
-                    }
+
+                    removeobjflag ( obj, pflag->id );
+                    found = TRUE;
                     break;
                 }
             }
@@ -2689,7 +2685,7 @@ void aggr_update ( void )
             if ( !IS_NPC ( ch )
                  || ( !EXT_IS_SET ( ch->act, ACT_AGGRESSIVE ) && !is_hating ( ch, wch ) && !check_nature_curse_aggressive( ch, wch ))
                  || !can_see ( ch, wch )
-                 || is_safe ( ch, wch, TRUE )
+                 || is_safe ( ch, wch )
                  || IS_AFFECTED ( ch, AFF_CALM )
                  || ch->fighting != NULL
                  || IS_AFFECTED ( ch, AFF_CHARM )

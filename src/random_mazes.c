@@ -1,52 +1,3 @@
-/***********************************************************************
- *                                                                     *
- * Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,     *
- * Michael Seifert, Hans-Henrik Stæfeldt, Tom Madsen and Katja Nyboe   *
- *                                                                     *
- * Merc Diku Mud improvements copyright (C) 1992, 1993 by              *
- * Michael Chastain, Michael Quan, and Mitchell Tse                    *
- *                                                                     *
- *   ROM 2.4 is copyright 1993-1998 Russ Taylor                        *
- *        Russ Taylor (rtaylor@hypercube.org)                          *
- *        Gabrielle Taylor (gtaylor@hypercube.org)                     *
- *        Brian Moore (zump@rom.org)                                   *
- *   By using this code, you have agreed to follow the terms of the    *
- *   ROM license, in the file Rom24/doc/rom.license                    *
- *                                                                     *
- ***********************************************************************
- *                                                                     *
- * random_mazes.c and associated patches copyright 2002 by Killer MUD  *
- *                                                                     *
- * In order to use any part of this ROM Merc Diku code you must comply *
- * the original Diku license in 'license.doc' as well the Merc license *
- * in 'license.txt' and also the ROM license in 'rom.license', each to *
- * be found in doc/. Using the reward.c code without conforming to the *
- * requirements of each of these documents is violation of any and all *
- * applicable copyright laws. In particular, you may not remove any of *
- * these copyright notices or claim other's work as your own.          *
- *                                                                     *
- * Much time and thought has gone into this software you are using.    *
- * We hope that you share your improvements, too.                      *
- * "What goes around, comes around."                                   *
- *                                                                     *
- ***********************************************************************
- *                                                                     *
- * KILLER MUD is copyright 2002-2013 Killer MUD Staff (alphabetical)   *
- *                                                                     *
- * ZMIENIA£E¦ CO¦? DOPISZ SIÊ!                                         *
- *                                                                     *
- * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
- * Mierzwa Michal        (nil.michal@googlewave.com     ) [Rellik    ] *
- * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
- * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
- * Skrzetnicki Krzysztof (gtener@gmail.com              ) [Tener     ] *
- *                                                                     *
- ***********************************************************************
- *
- * $Id: random_mazes.c 12180 2013-03-23 11:35:29Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/random_mazes.c $
- *
- */
 #if defined(macintosh)
 #include <types.h>
 #include <time.h>
@@ -62,12 +13,16 @@
 #include "tables.h"
 #include "olc.h"
 
-//chance
-#define EXIT2 95
-#define EXIT3 3
-#define EXIT4 2
 
-#define MAP_SIZE 100
+
+
+//chance
+#define EXIT2		95
+#define EXIT3		3
+#define EXIT4	    2
+
+#define MAX_VNUM	65535
+#define MAP_SIZE	100
 
 struct map_data
 {
@@ -87,6 +42,8 @@ int map_x;
 int map_y;
 
 int max_wizgroup( CHAR_DATA *ch );
+
+
 
 /* na razie bez argumentow */
 void generate_map( CHAR_DATA *ch, int size_x, int size_y, int count_rooms, int density )
@@ -399,7 +356,7 @@ int add_room( int rnd, int density )
     return rooms;
 }
 
-int free_vnum( unsigned int vnum )
+int free_vnum( ush_int vnum )
 {
     AREA_DATA * pArea;
 
@@ -411,14 +368,14 @@ int free_vnum( unsigned int vnum )
 }
 
 
-bool generate_area( CHAR_DATA *ch, CHAR_DATA *victim, unsigned int starting_vnum )
+bool generate_area( CHAR_DATA *ch, CHAR_DATA *victim, int starting_vnum )
 {
     int rooms = 0;
     int x, y;
     char buf[MAX_STRING_LENGTH];
-    unsigned int big_map_vnums[ map_y ][ map_x ];
+    ush_int big_map_vnums[ map_y ][ map_x ];
     ROOM_INDEX_DATA *Room_table[ map_y ][ map_x ];
-    unsigned int max, min, counter, vnum = MAX_VNUM;
+    int max, min, counter, vnum = MAX_VNUM;
     AREA_DATA *pArea;
     ROOM_INDEX_DATA *pRoom;
     int iHash;
@@ -607,8 +564,7 @@ void do_rmap( CHAR_DATA *ch, char *argument )
     char arg2[MAX_STRING_LENGTH];
     char arg3[MAX_STRING_LENGTH];
     char arg4[MAX_STRING_LENGTH];
-    unsigned int x, y;
-    int rooms, density;
+    int x, y, rooms, density;
 
     argument = one_argument( argument, arg1 );
 
@@ -724,16 +680,13 @@ void do_rmap( CHAR_DATA *ch, char *argument )
     }
     else
     {
-        send_to_char
-            (
-             "Sk³adnia:\n\r"
-             "rmap generate <x> <y> [<lokacje>] [<gêsto¶æ>] - wygenerowanie losowej mapy\n\r"
-             "rmap edit - edycja wygenerowanej mapy\n\r"
-             "rmap show [<imiê>] - wy¶wietlenie aktualnej mapy\n\r"
-             "rmap create [<imiê>] <vnum startowy> - stworzenie krainy na podstawie aktualnej mapy\n\r",
-             ch
-            );
+        send_to_char( "Sk³adnia:\n\r"
+                      "rmap generate <x> <y> [<lokacje>] [<gêsto¶æ>] - wygenerowanie losowej mapy\n\r"
+                      "rmap edit - edycja wygenerowanej mapy\n\r"
+                      "rmap show [<imiê>] - wy¶wietlenie aktualnej mapy\n\r"
+                      "rmap create [<imiê>] <vnum startowy> - stworzenie krainy na podstawie aktualnej mapy\n\r", ch );
     }
+
+
     return;
 }
-

@@ -15,9 +15,8 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
@@ -26,8 +25,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: magic.h 12233 2013-04-09 09:54:32Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/magic.h $
+ * $Id: magic.h 10841 2012-01-09 14:44:12Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/magic.h $
  *
  * Spell functions.
  * Defined in magic.c.
@@ -232,7 +231,6 @@ DECLARE_SPELL_FUN(	spell_dismiss_person			);
 DECLARE_SPELL_FUN(	spell_dismiss_monster			);
 DECLARE_SPELL_FUN(	spell_dismiss_undead			);
 DECLARE_SPELL_FUN(	spell_psionic_blast				);
-DECLARE_SPELL_FUN(	spell_lesser_psionic_blast		);
 DECLARE_SPELL_FUN(	spell_chaotic_shock				);
 DECLARE_SPELL_FUN(	spell_mind_strike		);
 DECLARE_SPELL_FUN(	spell_mind_blast		);
@@ -258,7 +256,6 @@ DECLARE_SPELL_FUN(	spell_floating_skull			);
 DECLARE_SPELL_FUN(	spell_banshees_howl				);
 DECLARE_SPELL_FUN(	spell_draining_hands			);
 DECLARE_SPELL_FUN(	spell_revive					);
-DECLARE_SPELL_FUN(	spell_resurrection                              );
 DECLARE_SPELL_FUN(	spell_bonelace					);
 
 /* mag, Przemiany */
@@ -298,6 +295,7 @@ DECLARE_SPELL_FUN(	spell_protection_from_summon	);
 DECLARE_SPELL_FUN(	spell_lesser_magic_resist		);
 DECLARE_SPELL_FUN(	spell_force_field				);
 DECLARE_SPELL_FUN(	spell_resist_weapon				);
+DECLARE_SPELL_FUN(	spell_absolute_magic_protection	);
 DECLARE_SPELL_FUN(	spell_mantle					);
 DECLARE_SPELL_FUN(	spell_major_globe				);
 DECLARE_SPELL_FUN(	spell_repayment					);
@@ -313,7 +311,6 @@ DECLARE_SPELL_FUN(  spell_perfect_senses			);
 DECLARE_SPELL_FUN(  spell_mind_fortess				);
 DECLARE_SPELL_FUN(  spell_fortitude					);
 DECLARE_SPELL_FUN(  spell_brainwash					);
-DECLARE_SPELL_FUN(  spell_scrying_shield					);
 
 /* mag, Poznanie */
 DECLARE_SPELL_FUN(	spell_eyes_of_the_torturer		);
@@ -474,8 +471,6 @@ DECLARE_SPELL_FUN(	spell_spiritual_guidance		);
 DECLARE_SPELL_FUN(	spell_seal_of_doom		);
 DECLARE_SPELL_FUN(	spell_lesser_cure_poison	    );
 DECLARE_SPELL_FUN(	spell_greater_cure_poison	    );
-DECLARE_SPELL_FUN(	spell_seal_of_atrocity	    );
-DECLARE_SPELL_FUN(	spell_seal_of_despair	    );
 
 ///tutaj tricki wale bo nie chce nowego pliku robic
 DECLARE_TRICK_FUN(	trick_null 						);
@@ -499,8 +494,6 @@ DECLARE_TRICK_FUN(	trick_thousandslayer			);
 DECLARE_TRICK_FUN(	trick_glorious_impale			);
 DECLARE_TRICK_FUN(	trick_divine_impact				);
 DECLARE_TRICK_FUN(	trick_dreadful_strike			);
-DECLARE_TRICK_FUN(	trick_rampage			        );
-DECLARE_TRICK_FUN(	trick_enlightenment		        );
 
 
 const char *spell_translate( char *source );
@@ -549,10 +542,4 @@ bool helper_make_portal args ( ( CHAR_DATA *ch, bool is_portal, int sn ) );
 int damage_modifier_by_spell_type   args ( ( int dam, int spell_type, CHAR_DATA *ch ) );
 int damage_modifier_by_moon_phase   args ( ( int dam ) );
 int duration_modifier_by_spell_type args ( ( int duration, int spell_type, CHAR_DATA *ch ) );
-
-/**
- * heal_specific_race_type
- */
-void heal_specific_race_type args( ( int sn, int level, CHAR_DATA *ch, void *vo, int target, const char comm_bad_race[], int target_type, int dice_rolls, int dice_sides, int level_mod, const char heal_msg_table[6][MAX_STRING_LENGTH] ) );
-
 

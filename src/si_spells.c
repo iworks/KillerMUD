@@ -1,39 +1,3 @@
-/***********************************************************************
- *                                                                     *
- * Original Diku Mud copyright (C) 1990, 1991 by Sebastian Hammer,     *
- * Michael Seifert, Hans-Henrik Stæfeldt, Tom Madsen and Katja Nyboe   *
- *                                                                     *
- * Merc Diku Mud improvements copyright (C) 1992, 1993 by              *
- * Michael Chastain, Michael Quan, and Mitchell Tse                    *
- *                                                                     *
- *   ROM 2.4 is copyright 1993-1998 Russ Taylor                        *
- *        Russ Taylor (rtaylor@hypercube.org)                          *
- *        Gabrielle Taylor (gtaylor@hypercube.org)                     *
- *        Brian Moore (zump@rom.org)                                   *
- *   By using this code, you have agreed to follow the terms of the    *
- *   ROM license, in the file Rom24/doc/rom.license                    *
- *                                                                     *
- ***********************************************************************
- *                                                                     *
- * KILLER MUD is copyright 2002-2012 Killer MUD Staff (alphabetical)   *
- *                                                                     *
- * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
- * Grunai                (grunaddmud@gmail.com          ) [Grunai    ] *
- * Jaromir Klisz         (jklisz@gmail.com              ) [Drake     ] *
- * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
- * Mierzwa Michal        (nil.michal@googlewave.com     ) [Rellik    ] *
- * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
- * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
- * Skrzetnicki Krzysztof (gtener@gmail.com              ) [Tener     ] *
- * Trebicki Marek        (maro@killer.radom.net         ) [Maro      ] *
- *                       (                              ) [Rysand    ] *
- *                                                                     *
- ***********************************************************************
- *
- * $Id: si_spells.c 11434 2012-06-15 09:34:40Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/si_spells.c $
- *
- */
 
 #if defined(macintosh)
 #include <types.h>
@@ -291,6 +255,7 @@ struct si_spell_data si_spell_info[MAX_SPELL_INFO][MAX_SPELLS] =
 	{ "endure acid", 0, 30, 0, check_affect, NULL }, //druid
 	{ "endure lightning", 0, 30, 0, check_affect, NULL }, //druid
 	{ "endure fire", 0, 30, 0, check_affect, NULL }, //druid
+	{ "absolute magic protection", 0, 100, 0, check_affect, NULL },
 	{ "blink", 				0, 70, 0, check_affect, NULL },
 	{ "divine shield", 		0, 40, 0, check_affect, NULL },
 	{ "perfect senses", 	0, 40, 0, check_affect, NULL },
@@ -844,24 +809,24 @@ bool check_si_dispel(CHAR_DATA *ch, CHAR_DATA *victim, int type, int spell)
 	if( is_affected(victim, gsn_antimagic_manacles )) return TRUE;
 
 	//sprawdza kilka powerniejszych affectow, ktore wystarczy, ze bedzie jeden idzie dispel
-	if( is_affected(victim, gsn_minor_globe_of_invulnerability )) return FALSE;
-	if( is_affected(victim, gsn_globe_of_invulnerability )) return FALSE;
-	if( is_affected(victim, gsn_major_globe_of_invulnerability )) return FALSE;
-	if( is_affected(victim, gsn_resist_normal_weapon )) return FALSE;
-	if( is_affected(victim, gsn_resist_magic_weapon )) return FALSE;
-	if( is_affected(victim, gsn_resist_weapon )) return FALSE;
-	if( is_affected(victim, gsn_giant_strength )) return FALSE;
-	if( is_affected(victim, gsn_nimbleness )) return FALSE;
-	if( is_affected(victim, gsn_draconic_wisdom )) return FALSE;
-	if( is_affected(victim, gsn_insight )) return FALSE;
-	if( is_affected(victim, gsn_behemot_toughness )) return FALSE;
-	if( is_affected(victim, gsn_resist_elements )) return FALSE;
-	if( is_affected(victim, gsn_storm_shell )) return FALSE;
-	if( is_affected(victim, gsn_haste )) return FALSE;
-	if( is_affected(victim, gsn_free_action )) return FALSE;
-	if( is_affected(victim, gsn_eyes_of_the_torturer )) return FALSE;
-	if( is_affected(victim, gsn_deflect_wounds )) return FALSE;
-	if( is_affected(victim, gsn_breath_of_life )) return FALSE;
+	if( is_affected(victim, 204 )) return FALSE;//minor globe
+	if( is_affected(victim, 205 )) return FALSE;//globe
+	if( is_affected(victim, 366 )) return FALSE;//major globe
+	if( is_affected(victim, 176 )) return FALSE;//r n w
+	if( is_affected(victim, 177 )) return FALSE;//r m w
+	if( is_affected(victim, 364 )) return FALSE;//r w
+	if( is_affected(victim, 58 )) return FALSE;//giant strenght
+	if( is_affected(victim, 487 )) return FALSE;// nimbleness
+	if( is_affected(victim, 488 )) return FALSE;// draconic wisdom
+	if( is_affected(victim, 489 )) return FALSE;// insight
+	if( is_affected(victim, 490 )) return FALSE;// behemot toughness
+	if( is_affected(victim, 178 )) return FALSE;//resist elements
+	if( is_affected(victim, 246 )) return FALSE;//storm shell
+	if( is_affected(victim, 60 )) return FALSE;//haste
+	if( is_affected(victim, 161 )) return FALSE;//free action
+	if( is_affected(victim, 306 )) return FALSE;//eyes of the torturer
+	if( is_affected(victim, 393 )) return FALSE;//deflect wounds
+	if( is_affected(victim, 528 )) return FALSE;//breath of life
 	if( is_affected(victim, gsn_regenerate )) return FALSE;
 	if( is_affected(victim, gsn_mirror_image )) return FALSE;
 	if( is_affected(victim, gsn_stone_skin )) return FALSE;
@@ -879,7 +844,7 @@ bool check_si_dispel(CHAR_DATA *ch, CHAR_DATA *victim, int type, int spell)
 	if( is_affected(victim, gsn_resist_fire )) ++count;
 	if( is_affected(victim, gsn_resist_cold )) ++count;
 	if( is_affected(victim, gsn_resist_lightning )) ++count;
-	if( is_affected(victim, gsn_resist_acid )) ++count;
+	if( is_affected(victim, 175 )) ++count;//res aci
 	if( is_affected(victim, gsn_energy_shield )) ++count;
 	if( is_affected(victim, gsn_resist_magic )) ++count;
 	if( is_affected(victim, gsn_brave_cloak )) ++count;
@@ -897,24 +862,24 @@ bool check_si_dispel(CHAR_DATA *ch, CHAR_DATA *victim, int type, int spell)
 	if( is_affected(victim, gsn_summon_distortion )) ++count;
 	if( is_affected(victim, gsn_mind_fortess )) ++count;
 	if( is_affected(victim, gsn_defense_curl )) ++count;
-	if( is_affected(victim, gsn_razorblade_hands )) ++count;
-	if( is_affected(victim, gsn_beast_claws )) ++count;
-	if( is_affected(victim, gsn_stability )) ++count;
-	if( is_affected(victim, gsn_perfect_senses )) ++count;
-	if( is_affected(victim, gsn_fortitude )) ++count;
-	if( is_affected(victim, gsn_bull_strength )) ++count;
-	if( is_affected(victim, gsn_cat_grace )) ++count;
-	if( is_affected(victim, gsn_owl_wisdom )) ++count;
-	if( is_affected(victim, gsn_fox_cunning )) ++count;
-	if( is_affected(victim, gsn_bear_endurance )) ++count;
-	if( is_affected(victim, gsn_eagle_splendor )) ++count;
-	if( is_affected(victim, gsn_ethereal_armor )) ++count;
-	if( is_affected(victim, gsn_spirit_of_life )) ++count;
-	if( is_affected(victim, gsn_spirit_armor )) ++count;
-	if( is_affected(victim, gsn_spiritual_guidance )) ++count;
-	if( is_affected(victim, gsn_darkvision )) ++count;
-	if( is_affected(victim, gsn_protection_evil )) ++count;
-	if( is_affected(victim, gsn_protection_good )) ++count;
+	if( is_affected(victim, 329 )) ++count;//razorblade
+	if( is_affected(victim, 331 )) ++count;//beast claws
+	if( is_affected(victim, 136 )) ++count;//stability
+	if( is_affected(victim, 441 )) ++count;//perfect senses
+	if( is_affected(victim, 444 )) ++count;//fortitude
+	if( is_affected(victim, 481 )) ++count; // bull strenght
+	if( is_affected(victim, 482 )) ++count; // cat grace
+	if( is_affected(victim, 483 )) ++count; // owl wisdom
+	if( is_affected(victim, 484 )) ++count; // fox cunning
+	if( is_affected(victim, 485 )) ++count; // bear endurance
+	if( is_affected(victim, 486 )) ++count; // eagle splendor
+	if( is_affected(victim, 199 )) ++count;//ethereal arm
+	if( is_affected(victim, 527 )) ++count;// spirit of life
+	if( is_affected(victim, 285 )) ++count;// spirit armor
+	if( is_affected(victim, 529 )) ++count;// spiritual guidance
+	if( is_affected(victim, 245 )) ++count;//darkvis
+	if( is_affected(victim, 79 )) ++count;//prot evi
+	if( is_affected(victim, 80 )) ++count;//prot goo
 
 	if( count > 1 ) return FALSE;
 

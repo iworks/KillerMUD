@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 2003-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 2003-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Mierzwa Michal        (nil.michal@googlewave.com     ) [Rellik    ] *
@@ -24,8 +24,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: olc_bonus_set.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/olc_bonus_set.c $
+ * $Id: olc_bonus_set.c 10998 2012-02-19 18:00:57Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/olc_bonus_set.c $
  *
  */
 #if defined(macintosh)
@@ -141,7 +141,7 @@ void do_bsedit( CHAR_DATA *ch, char *argument )
 
 	if ( is_number( command ) )
 	{
-		unsigned int vnum = atoi( command );
+		ush_int vnum = atoi( command );
 
 		AREA_DATA *ad;
 

@@ -149,6 +149,30 @@ Mobend
 
 
 #OBJECTS
+#Vnum 43470
+Name czerwone jab³ko~
+Odmiana czerwonego jab³ka~czerwonemu jab³ku~czerwone jab³ko~czerwonym jab³kiem~czerwonym jab³ku~
+Short {Rczerwone jab³ko{X~
+Descr Le¿y tutaj soczyste, {Rczerwone jab³ko{X.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 12 25 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Objprog flagoff jablko_die j_dziala~
+Objprog onload jablko_onl 100~
+Objprog consume str_jablko none~
+Comments ~
+Objend
 #Vnum 43471
 Name srebrny klucz~
 Odmiana srebrnego klucza~srebrnemu kluczowi~srebrny klucz~srebrnym kluczem~srebrnym kluczu~
@@ -160,11 +184,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1
 Cond 75
@@ -173,6 +197,191 @@ Stra¿ników £adu. Je¶li go posiadasz, to znaczy, ¿e zabi³e¶ stra¿nika, co
 napewno nie bêdzie ci podarowane. 
 ~
 Comments ~
+Objend
+#Vnum 43472
+Name katana sprawiedliwosci~
+Odmiana katany sprawiedliwosci~katanie sprawiedliwosci~katane sprawiedliwosci~katana sprawiedliwosci~katanie sprawiedliwosci~
+Short katana sprawiedliwo¶ci~
+Descr ¦wiêty miecz katana sprawiedliwo¶ci b³yszczy na ziemi.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 90
+LiczbaMnoga 0
+Gender 2
+Value 1 3 5 41 32 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 6000
+Cond 50
+Objprog prewear str_katan 100~
+Comments only moby - {RKainti{x ({CFri Mar 11 19:05:04 2005{x)
+~
+Objend
+#Vnum 43474
+Name kula plomieni buklak plonacy~
+Odmiana {Rp³on±cego{x buk³aka~{Rp³on±cemu{x buk³akowi~{Rp³on±cy{x buk³ak~{Rp³on±cym{x buk³akiem~{Rp³on±cym{x buk³aku~
+Short {Rp³on±cy{x buk³ak~
+Descr Na ziemi le¿y ma³a kula {Rp³omieni{x.~
+Material skóra~
+Type drink
+ExtraExt 0|BH
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 24 24 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 5
+Cond 80
+Objprog get str_bukl 100~
+Itemdesc Trzymasz w rêkach buk³ak. Nie by³by on niczym niezwyk³ym, gdyby nie to,
+¿e p³onie on {Rogniem{x! Ale jeszcze dziwniejsze jest to, ¿e ów ogieñ ciebie nie
+pali! A skoro tak jest, to napewno jeste¶ osob± wybran±! 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 43475
+Name ¿alnicka ja³owcówka wódka butelka~
+Odmiana ¿alnickiej ja³owcówki~¿alnickiej ja³owcówce~¿alnick± ja³owcówkê~¿alnick± ja³owcówk±~¿alnickiej ja³owcówce~
+Short butelka ¿alnickiej ja³owcówki~
+Descr Butelka ¿alnickiej ja³owcówki.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 18 18 23 0 3331 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 5
+Cond 95
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 43476
+Name ¶wietlisty kryszta³~
+Odmiana {C¶wietlistego kryszta³u{x~{C¶wietlistemu kryszta³owi{x~{C¶wietlisty kryszta³{x~{C¶wietlistym kryszta³em{x~{C¶wietlistym krysztale{x~
+Short {C¶wietlisty kryszta³{x~
+Descr Na ziemi le¿y kawa³ek {Wszarego{x kryszta³u.~
+Material eteryczny~
+Type light
+ExtraExt 0|U
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 12 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 20
+Cond 75
+Objprog get str_krysztal 100~
+Objprog precommand str_gikrysztal give~
+Itemdesc ~
+Identdesc ~
+Comments wywalam proga str_drkrysztal, bo wywala muda - {RWicia{x ({CWed Jan 10 19:10:10 2007{x)
+~
+Objend
+#Vnum 43477
+Name tarcza~
+Odmiana tarczy~tarczy~tarczê~tarcz±~tarczy~
+Short mithrilowa tarcza~
+Descr Widzisz na ziemi wypolerowan± tarczê.~
+Material mithril~
+Type shield
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 3 4 25 3 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 75
+Objprog prewear str_tar 100~
+Itemdesc Wykonana z mithrilu potê¿na tarcza dzier¿ona zazwyczaj przez stra¿ników,
+z piêknym zdobieniem przedstawiaj±cym dwie ¶cieraj±ce siê armie. 
+~
+Identdesc ~
+Comments only moby - {RKainti{x ({CFri Mar 11 19:04:49 2005{x)
+~
+Objend
+#Vnum 43478
+Name pas sprawiedliwo¶ci~
+Odmiana {Cpasa sprawiedliwo¶ci{x~{Cpasowi sprawiedliwo¶ci{x~{Cpas sprawiedliwo¶ci{x~{Cpasem sprawiedliwo¶ci{x~{Cpasie sprawiedliwo¶ci{x~
+Short {Cpas sprawiedliwo¶ci{x~
+Descr Pas pokryty mithrilem le¿y przed tob±.~
+Material mithril~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 250
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 800
+Cond 100
+Aff 1 24 -2 0 0 0
+Aff 1 12 7 2 0 0
+Objprog prewear pas_spr 100~
+Objprog preremove pas_spr2 100~
+Itemdesc Spogl±dasz na pas zwany pasem sprawiedliwo¶ci, z pewno¶ci± nale¿y do
+jakiego¶ Stra¿nika. Lepiej bêdzie je¶li czym prêdzej go oddasz pierwszemu
+napotkanemu Stra¿nikowi. Teraz jednak bacznie przygl±dasz siê pasowi,
+piêknie zdobione mithrilowe pakiety przeplataj± siê z pasami wycinanymi z
+najtwardszej skóry, i razem pozszywanymi w ca³o¶æ. Pas wygl±da na niezwykle
+mocny. 
+~
+Comments ~
+Objend
+#Vnum 43479
+Name pancerna skrzynia~
+Odmiana pancernej skrzyni~pancernej skrzyni~pancern± skrzyniê~pancern± skrzyni±~pancernej skrzyni~
+Short pancerna skrzynia~
+Descr Pancerna skrzynia le¿y tu, zapewne zgubi³ j± który¶ ze Stra¿ników £adu.~
+Material elfia stal~
+Type container
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 2
+Value 40 1 0 20 100 0 -1
+Repair 0 0 0 0
+Weight 100
+Cost 0
+Cond 100
+Itemdesc Pancerna skrzynia wygl±da do¶æ solidnie. Jest na tyle du¿a aby zmie¶ciæ w
+niej sporo sprzêtu, do pokrywy ma przyczepiony uchwyt co z pewno¶ci± u³atwia
+jej przenoszenie. Na ka¿dym z boków dostrzegasz ¶wietliste kryszta³y, dodaje
+to uroku temu przedmiotowi. 
+~
+Comments wywalam proga na get - {RWicia{x ({CSun Sep 10 18:09:58 2006{x)
+~
 Objend
 #Vnum 0
 
@@ -188,14 +397,14 @@ dostrzegasz dno.
 ~
 FlagsExt 0
 Sector 28
-Extra most~
-Spogl±daj±c na zwodzony most widzisz solidn± drewnian± konstrukcjê.
-Prowadzi on do przepiêknie po³o¿onej twierdzy Stra¿ników £adu. 
-~
 Extra fosa~
 Spogl±daj±c na t± przejrzy¶cie czyst± taflê wody a¿ zapiera ci dech w
 piersiach. Fosa ta jest niesamowicie zadbana i czysta, dok³adnie widaæ
 p³ywaj±ce w niej ryby... Czy¿by to by³y piranie? 
+~
+Extra most~
+Spogl±daj±c na zwodzony most widzisz solidn± drewnian± konstrukcjê.
+Prowadzi on do przepiêknie po³o¿onej twierdzy Stra¿ników £adu. 
 ~
 ExitExt 0
 ExitExtDescription ~
@@ -232,13 +441,13 @@ czê¶ci± systemu obronnego twierdzy. Przed tob± znajduj± siê ogromne,
 ~
 FlagsExt 0|H
 Sector 0
-Extra wrota~
+Extra zamkniête~
 Na wrotach dostrzegasz wygrawerowany na srebrnej tarczy herb 'Stra¿ników
 £adu'. Przedstawia on rycersk± rêkawicê z wymalowanym na niej otwartym
 okiem. Znak ten jest symbolem boga Helma, który jest patronem Stra¿ników
 £adu. 
 ~
-Extra zamkniête~
+Extra wrota~
 Na wrotach dostrzegasz wygrawerowany na srebrnej tarczy herb 'Stra¿ników
 £adu'. Przedstawia on rycersk± rêkawicê z wymalowanym na niej otwartym
 okiem. Znak ten jest symbolem boga Helma, który jest patronem Stra¿ników
@@ -280,15 +489,15 @@ stajnia. Na po³udniu znajduj± siê solidnie zbudowane wrota.
 ~
 FlagsExt 0|H
 Sector 36
-Extra d¼wignia~
-T± d¼wigni± mo¿na otworzyæ g³ówne wrota. Wystarczy j± poci±gn±æ. 
+Extra owoce~
+Wielkie, soczyste jab³ka wisz± na jab³oni.
 ~
 Extra wrota~
 S± t± solidnie wykonane wrota. Jest to jedyne wyj¶cie z twierdzy. Obok
 nich widzisz wielk± d¼wigniê, s³u¿y zapewne ona do otwierania tych wrót. 
 ~
-Extra owoce~
-Wielkie, soczyste jab³ka wisz± na jab³oni.
+Extra d¼wignia~
+T± d¼wigni± mo¿na otworzyæ g³ówne wrota. Wystarczy j± poci±gn±æ. 
 ~
 ExitExt 0
 ExitExtDescription ~
@@ -334,8 +543,8 @@ Exit 3
 ~
 ~
 0 0 43474
-Roomprog input 43471 poci±gnij d¼wigniê~
 Roomprog input 43470 zerwij jab³ko~
+Roomprog input 43471 poci±gnij d¼wigniê~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -698,6 +907,17 @@ Exit 0
 ~
 ~
 0 0 43470
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 64950
+ExitExtEnd
+Exit 1
+~
+~
+0 0 64950
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -747,16 +967,16 @@ S
 
 #RESETS
 M 100 43471 1 43471 1
-E 100 3128 0 19
+E 100 43472 0 16
 E 100 43471 0 3
-E 100 3366 0 11
+E 100 43477 0 11
 M 100 43473 1 43474 1
 M 100 43472 1 43476 1
-G 100 2499 0
-G 100 3380 0
-G 100 2450 0
-G 100 3099 0
-G 100 3370 0
+G 100 43474 0
+G 100 43476 0
+G 100 3001 0
+G 100 43478 0
+G 100 43479 0
 S
 
 
@@ -808,6 +1028,39 @@ endif
 #0
 
 #OBJPROGSNEW
+#jablko_die
+~
+mob echo Jab³ko rozk³ada siê.
+obj remove
+~
+#jablko_onl
+~
+obj setflag j_dziala 20
+done
+~
+#pas_spr
+Nak³adanie pasa
+~
+if clan $n STRAZNIK
+  mob echoat $n Nak³adasz pas sprawiedliwo¶ci. Czujesz dreszcz rozchodz±cy siê po twoim ciele do najdalszych jego zak±tków. Z prawego oka p³ynie po twoim policzku ³za...
+mob echoaround $n $n zak³ada pas. Widzisz jak mimowolnie $ns cia³o przechodzi dreszcz, gdy rozchodzi siê po nim magia zawarta w pasie. Zauwa¿asz ledwo dostrzegalny b³ysk w prawym oku $z, a po chwili sp³ywaj±c± po policzku ³zê.
+  obj wear
+else
+  mob echoat $n Ostro¿nie owijasz siê stra¿niczym pasem sprawiedliwo¶ci, nie wiesz co to da poza niew±tpliwym efektem wizualnym. Zapinasz ostatnie zapiêcie pasa i ... czujesz up³ywaj±c± z ciebie energiê ¿yciow±!
+  mob echoat $n Natychmiast zdejmujesz pas!
+  mob echoaround $n Widzisz jak $n zak³ada przepiêknie zdobiony pas. Staranie owijaj±c go dooko³a cia³a, nie zauwa¿a delikatnego b³ysku, który pojawi³ siê na mithrilu...
+  mob echoaround $n $n krzywi siê z bólu i zdejmuje pas.
+  mob damageex $n 10 40 70 ubij
+  mob force $n drop sprawiedliwosci
+endif
+~
+#pas_spr2
+Zdejmowanie pasa
+~
+Mob echoat $n Zdejmujesz pas sprawiedliwo¶ci i starannie go sk³adasz. Czujesz, ¿e utrzymuj±ce siê dotychczas napiêcie miê¶ni znika. Odprê¿asz siê.
+Mob echoaround $n $n zdejmuje swój pas i sk³ada ze szczególn± staranno¶ci±. Blask w jego oczach przygasa. $n ciê¿ko wzdycha.
+Obj Unwear
+~
 #str_bukl
 ~
 if clan $n straznik
@@ -829,6 +1082,26 @@ obj remove
 ~
 mob echo bach!
 ~
+#str_jablko
+Zrywamy jablko z drzewa
+~
+if clan $n straznik
+  mob echoat $n Czujesz, jak moc Incarus'a przenika ciebie, czujesz siê lepiej.
+  mob damage $n -5 -10
+else
+  mob echoat $n To jab³ko ma jaki¶ dziwny smak. Czujesz siê jakby l¿ejszy. Ale nic siê nie dzieje, widocznie ci siê wydawa³o.
+endif
+mob echoaround $n $n zjada jab³ko.
+~
+#str_katan
+~
+if ispc $n
+  mob echoat $n Czujesz jak jaka¶ magiczna si³a nie pozwala ci dobyæ katany.
+else
+  mob echo $i dobywa katanê.
+  obj wear
+endif
+~
 #str_krysztal
 ~
 if !clan $n straznik
@@ -844,6 +1117,14 @@ if !clan $n straznik
   mob cast blind $n 1
 endif
 ~
+#str_tar
+~
+if ispc $n
+mob echoat $n Czujesz jak jaka¶ magiczna si³a nie pozwala ci u¿yæ tarczy.
+else
+obj wear
+endif
+~
 #0
 
 #ROOMPROGSNEW
@@ -856,7 +1137,7 @@ if roomhasflag 43472brak_jablek
 else
   mob echoat $n Wspinasz siê na palce i zrywasz wielkie, soczyste jab³ko.
   mob echoaround $n $n zrywa czerwone jab³ko z drzewa.
-  mob equip $n 2464
+  mob equip $n 43470
   mob setflag room 43472brak_jablek 24
 endif
 ~

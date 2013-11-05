@@ -1,6 +1,6 @@
 #AREADATA
 Name +# Karczma w Obilonie~
-Builders Obilon Gorst~
+Builders Obilon~
 VNUMs 27400 27450
 Credits # by Gorst
 # gorst.killermud@gmail.com
@@ -155,8 +155,8 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
-MobprogNew give postac_give FGI 2464~
 MobprogNew precommand zlodziej_steal ABCDEFGHI learn~
+MobprogNew give postac_give FGI 1702~
 MobprogNew greet postac_do_zero FGI 100~
 Skin 100
 ExpMultiplier 100
@@ -247,10 +247,10 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew give mistrz_give4 FGI 3049~
 MobprogNew give mistrz_give6 FGI 27420~
-MobprogNew give mistrz_give4 FGI 3149~
 MobprogNew give mistrz_give2 FGI 549~
-MobprogNew give mistrz_give1 FGI 2451~
+MobprogNew give mistrz_give1 FGI 105~
 MobprogNew speech mistrz_quest FGI co¶ do roboty~
 MobprogNew speech mistrz_quest FGI zadanie~
 MobprogNew greet mistrz_greet FGI 100~
@@ -868,12 +868,38 @@ LiczbaMnoga 1
 Gender 2
 Value 12 0 0 1 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 1
 Cond 100
 Objprog consume grzybki_consume 100~
 Itemdesc ~
+Comments ~
+Objend
+#Vnum 27401
+Name lada~
+Odmiana lady~ladzie~ladê~lad±~ladzie~
+Short lada~
+Descr D³uga lada barowa z miêkkimi, lekko zakurzonymi siedzieniami stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0|D
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 3 1000 8 100 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to zwyk³a, zrobiona z drewna lada barowa, za ni± zapewne stoi
+karczmarz gotowy spe³niæ twe ¿yczenia co do trunków, jedzenia czy te¿
+noclegu. Widaæ, ¿e zosta³a ona wykonana z tego samego rodzaju drewna co ca³a
+karczma. Wierzch lady jest bardzo wytarty, widaæ na nim wgniecenia, dziury i
+ró¿ne inne ubytki. Jest ona na tyle wysoka, ¿e mniejsze istoty chc±c pogadaæ
+z karczmarzem musz± chyba najpierw przy niej usi±¶æ. 
+~
 Comments ~
 Objend
 #Vnum 27402
@@ -891,13 +917,113 @@ LiczbaMnoga 0
 Gender 3
 Value 1000 1000 16 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 9001
 Cost 60
 Cond 100
 Itemdesc Masz przed sob± ogromn± beczkê wype³nion± s³ynnym na ca³y kontynent,
 wspania³ym piwem korzennym. Aromat tego trunku rozsiewa siê po okolicy
 zachêcaj±c do degustacji. 
+~
+Comments ~
+Objend
+#Vnum 27403
+Name butelka piwo korzenne~
+Odmiana butelki {yk{go{yr{gz{ye{gn{yn{ge{yg{go{x piwa~butelce {yk{go{yr{gz{ye{gn{yn{ge{yg{go{x piwa~butelkê {yk{go{yr{gz{ye{gn{yn{ge{yg{go{x piwa~butelk± {yk{go{yr{gz{ye{gn{yn{ge{yg{go{x piwa~butelce {yk{go{yr{gz{ye{gn{yn{ge{yg{go{x piwa~
+Short butelka {yk{go{yr{gz{ye{gn{yn{ge{yg{go{x piwa~
+Descr Szklana butelka wype³niona doskona³ym, korzennym piwem le¿y tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 10 16 0 27404 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 35
+Cond 100
+Objprog consume piwo_consume 100~
+Itemdesc Doskona³y trunek jaki znajduje siê w twoim posiadaniu to w³a¶nie
+najs³ynniejsze piwo korzenne na ca³ym kontynencie. Zwany czasem piwem
+Obiloñskim, trunek ten ma najd³u¿szy proces wytwarzania ze wszystkich
+alkoholi tego rodzaju. Doskona³y zapach wydzielaj±cy siê spod korkowej
+zakrêtki zdaje siê rozlu¼niaæ twe miê¶nie i napawaæ uczuciem g³êbokiego
+relaksu. Na zrobionej z kawa³ka skóry etykiecie widnieje napis {y"Piwo
+korzenne najlepszej jako¶ci"{x.
+~
+Comments ~
+Objend
+#Vnum 27404
+Name szklana butelka~
+Odmiana szklanej butelki~szklanej butelce~szklan± butelkê~szklan± butelk±~szklanej butelce~
+Short szklana butelka~
+Descr Zwyk³a, szklana butelka wala siê tutaj w nie³adzie.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 10 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 100
+Itemdesc Jest to zwyk³a, szklana butelka s³u¿±ca do przetrzymywania przeró¿nych
+trunków. 
+~
+Comments ~
+Objend
+#Vnum 27405
+Name obdrapany stolik~
+Odmiana obdrapanego stolika~obdrapanemu stolikowi~obdrapany stolik~obdrapanym stolikiem~obdrapanym stoliku~
+Short stary, obdrapany stolik~
+Descr Stary,{D obdrapany stolik{x stoi tutaj.~
+Material drewno~
+Type container
+ExtraExt 0|D
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 14 16 0 14 100 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Masz przed sob± zwyk³y, zrobiony z szarych desek stolik o obdrapanym
+blacie. Mo¿na zauwa¿yæ na nim typowe ¶lady u¿ytkowania, tutaj kto¶ wbi³
+sobie dla zabawy nó¿, tam wywali³ dziurê na wylot wal±c kuflem, trochê dalej
+wydrapa³ jaki¶ g³upkowaty napis. S±dz±c po osmalonym kancie sto³u ¶wieczka
+s³u¿y niektórym te¿ do zabawy. 
+~
+Comments ~
+Objend
+#Vnum 27406
+Name stare krzes³o~
+Odmiana starego krzesla~staremu krzes³u~stare krzes³o~starym krzes³em~starym krze¶le~
+Short stare krzes³o~
+Descr Stare krzes³o stoi tutaj przy stoliku.~
+Material drewno~
+Type furniture
+ExtraExt 0|D
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 1 150 144 100 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Stare, zrobione z zeschniêtego ju¿ drewna krzes³o stoi tutaj czekaj±c a¿
+kto¶ na nim usi±dzie. 
 ~
 Comments ~
 Objend
@@ -916,11 +1042,54 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Itemdesc Jaki¶ ma³y ró¿owy kluczyk otwieraj±cy zapewne co¶ ciekawego... 
+~
+Comments ~
+Objend
+#Vnum 27408
+Name wielkie ³ó¿ko~
+Odmiana wielkiego ³ó¿ka~wielkiemu ³ó¿ku~wielkie ³ó¿ko~wielkim ³ó¿kiem~wielkim ³ó¿ku~
+Short wielkie ³ó¿ko~
+Descr Wielkie ³ó¿ko w kszta³cie {Rserca{x stoi tutaj po ¶rodku pokoju.~
+Material unused~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 150 1168 130 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 27409
+Name spory kafar tajny_kafarek_gorst~
+Odmiana sporego kafara~sporemu kafarowi~spory kafar~sporym kafarem~sporym kafarze~
+Short spory kafar~
+Descr Ca³kiem spory kafar wydaje siê byæ doskona³± broni±.~
+Material stal~
+Type weapon
+ExtraExt 0|a
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 4 4 5 37 32 -2 -1
+Repair 0 0 0 0
+Weight 120
+Cost 13800
+Cond 95
+Itemdesc Jest to zwyk³y, dwurêczny m³ot bojowy ze sporym, ale dobrze wywa¿onym
+obuchem. W rêkach odpowiednio wyszkolonego wojownika mo¿e staæ siê naprawdê
+mordercz± broni±. 
 ~
 Comments ~
 Objend
@@ -939,7 +1108,6 @@ LiczbaMnoga 0
 Gender 3
 Value 18 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 15
 Cond 75
@@ -963,7 +1131,6 @@ LiczbaMnoga 1
 Gender 3
 Value 1 72 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 10000
 Cond 100
@@ -971,6 +1138,70 @@ Objprog consume ziolka_consume 100~
 Itemdesc Jest to niewielki pêk od¶wie¿aj±cych zió³ek zebranych z lasu
 Obiloñskiego. Ta odmiana jest rzadko spotykana i wysoce ceniona nie tylko
 przez druidów. Niestety dzia³aj± one tylko na bardzo zmêczone osoby. 
+~
+Comments ~
+Objend
+#Vnum 27412
+Name krótkie z³odziejskie ostrze~
+Odmiana {Dkrótkiego z³odziejskiego ostrza{x~{Dkrótkiemu z³odziejskiemu ostrzu{x~{Dkrótkie z³odziejskie ostrze{x~{Dkrótkim z³odziejskim ostrzem{x~{Dkrótkim z³odziejskim ostrzu{x~
+Short {Dkrótkie z³odziejskie ostrze{x~
+Descr Krótkie, z³odziejskie ostrze le¿y tutaj na ziemi.~
+Material adamantyt~
+Type weapon
+ExtraExt 0|GPa
+Wear AN
+Wear2Ext 0|P
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 2 3 3 34 1032 1 1
+Repair 0 0 0 0
+Weight 32
+Cost 15000
+Cond 100
+Objprog prewear nalezy_gildia 100~
+Itemdesc Znajduj±ce siê w twoim posiadaniu, krótkie, z³odziejskie ostrze jest
+doskona³± broni± dla ³otra. Zosta³o wykonane na specjalne zamówienie u
+pewnego krasnoludzkiego kowala, a nastêpnie zaklête przez najemnego maga. T±
+broni± nie pogardz± nawet najbardziej do¶wiadczeni z³odzieje. Zwieñczenie
+rêkoje¶ci stanowi g³owa wê¿a z jêzykiem owiniêtym wokó³ malutkiego sztyletu
+i zdaje siê, ¿e jego oczy b³yskaj± co jaki¶ czas czerwonym ¶wiat³em. 
+~
+Comments Sztylet zostaje ¶ci±ty do ¶redniej 7+1 i sharp, jako lekko ulepszona wersja oficerskiego sztyletu - proszê ju¿ tego nie zmieniaæ. - {RGorst{x ({CWed May 13 22:29:00 2009{x)
+~
+Objend
+#Vnum 27413
+Name czarny p³aszcz~
+Odmiana {Dczarnego{x p³aszcza z kapturem~{Dczarnemu{x p³aszczu z kapturem~{Dczarny{x p³aszcz z kapturem~{Dczarnym{x p³aszczem z kapturem~{Dczarnym{x p³aszczu z kapturem~
+Short {Dczarny{x p³aszcz z kapturem~
+Descr D³ugi, {Dczarny{x p³aszcz z kapturem wala siê tutaj w nie³adzie.~
+Material mocna skóra~
+Type clothing
+ExtraExt 1|A
+Wear ACDEFILMT
+Wear2Ext 0|P
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 17
+Cost 220
+Cond 100
+Aff 1 26 113 2 0 0
+Extradesc _opisl~
+Owiniêty wokó³ cia³a $z, {Dczarny{x p³aszcz z kapturem ma na plecach
+wyhaftowan± g³owê wê¿a z jêzykiem oplataj±cym niewielki sztylet. Jest to
+znak rozpoznawczy jednej z najbardziej szanuj±cych siê, z³odziejskich gildii
+na ¶wiecie. 
+~
+Objprog prewear nalezy_gildia 100~
+Itemdesc Znajduj±cy siê w twoim posiadaniu czarnym p³aszcz z kapturem zdaje siê
+byæ krawieckim dzie³em sztuki. Jest on wykonany z mocnej, ale leciutkiej
+skóry, która zdaje siê byæ odporna na wszelkie trudy podró¿y. Z ty³u
+czarnego p³aszcza wyhaftowana jest srebrn± nitk± g³owa wê¿a, którego jêzyk
+owiniêty jest wokó³ malutkiego sztyletu. Jest to znak jednej z najlepszych,
+z³odziejskich gildii na ¶wiecie. 
 ~
 Comments ~
 Objend
@@ -989,7 +1220,6 @@ LiczbaMnoga 0
 Gender 3
 Value 1 10 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 8700
 Cond 100
@@ -1015,15 +1245,39 @@ LiczbaMnoga 0
 Gender 3
 Value 550 5 0 100 100 5 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
-Objprog objclosek szafa_close 100~
 Objprog objopen szafa_instynkt 100~
+Objprog objclosek szafa_close 100~
 Itemdesc Masz przed sob± spor±, masywn± szafê z dêbowego drewna, której drzwi
 zdaj± siê byæ jakby mniej zakurzone. Wygl±da na to, ¿e jest to jedyny obiekt
 w tym pokoju, który by³ ca³kiem niedawno u¿ywany. 
+~
+Comments ~
+Objend
+#Vnum 27416
+Name niewielkie ³ó¿ko~
+Odmiana ³ó¿ka~³ó¿ku~³ó¿ko~³ó¿kiem~³ó¿ku~
+Short niewielkie ³ó¿ko~
+Descr Niewielkie, ale zapewne wygodne ³ó¿ko stoi tutaj przy ¶cianie.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 1 110 1168 110 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to niewielkie ³ó¿ko przeznaczone raczej dla osobników o niedu¿ych
+rozmiarach. Po¶ciel wygl±da na nigdy nie pran±, a materac na przynajmniej
+bardzo zu¿yty. W³a¶ciwie to chyba lepiej by³oby spaæ na pod³odze, tam chyba
+jest bardziej czysto. 
 ~
 Comments ~
 Objend
@@ -1042,7 +1296,6 @@ LiczbaMnoga 0
 Gender 3
 Value 550 13 27419 100 100 13 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -1069,7 +1322,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 1
 Cond 75
@@ -1092,7 +1344,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 120
 Cost 1
 Cond 75
@@ -1116,7 +1367,6 @@ LiczbaMnoga 0
 Gender 0
 Value 2 1 36 0 3333 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 730
 Cond 75
@@ -1144,7 +1394,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 62
 Cost 310
 Cond 80
@@ -1171,7 +1420,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1192,7 +1440,6 @@ LiczbaMnoga 0
 Gender 3
 Value 2 3 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 9000
 Cond 80
@@ -1217,7 +1464,6 @@ LiczbaMnoga 0
 Gender 3
 Value 4 1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 48000
 Cond 75
@@ -1242,7 +1488,6 @@ LiczbaMnoga 0
 Gender 3
 Value 3 2 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 19200
 Cond 75
@@ -1267,7 +1512,6 @@ LiczbaMnoga 0
 Gender 1
 Value 6 3 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 22
 Cost 3000
 Cond 75
@@ -1297,7 +1541,6 @@ LiczbaMnoga 0
 Gender 1
 Value 7 1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 43
 Cost 180000
 Cond 75
@@ -1312,6 +1555,26 @@ wylewaj±ca siê z niego ciecz. Na po¿ó³k³ej etykiecie widnieje napis "pare
 ankh kuraraus", a tu¿ pod nim narysowany szkielet jakiego¶ gnoma i ma³a
 notka "Nie u¿ywaæ nie znaj±c w³a¶ciwo¶ci. Grozi gorszym ni¿ ¶mieræ". 
 ~
+Comments ~
+Objend
+#Vnum 27430
+Name zdobiona fajeczka~
+Odmiana null~null~null~null~null~
+Short zdobiona fajeczka~
+Descr I tak tego zaden gracz nie zobaczy - tzw ozdobka~
+Material unused~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
 Comments ~
 Objend
 #Vnum 27431
@@ -1329,11 +1592,147 @@ LiczbaMnoga 0
 Gender 0
 Value 1000000 0 0 10000 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
 Itemdesc Ogromny kufer kurtyzany stoi tutaj pod ¶cian±.
+~
+Comments ~
+Objend
+#Vnum 27432
+Name sygnet vigorsterei~
+Odmiana sygnetu Vigorsterei~sygnetowi Vigorsterei~sygnet Vigorsterei~sygnetem Vigorsterei~sygnecie Vigorsterei~
+Short sygnet Vigorsterei~
+Descr Emanuj±cy staro¿ytn± moc±, przepiêkny sygnet le¿y tutaj na ziemi.~
+Material kryszta³~
+Type jewelry
+ExtraExt 0|M
+Wear AB
+Wear2Ext 0|OU
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 87000
+Cond 100
+Aff 1 27 4 1 0 0
+Aff 1 1 -1 0 0 0
+Aff 1 2 -1 0 0 0
+Aff 1 27 5 1 0 0
+Itemdesc Znajduj±cy siê w twoim posiadaniu, prastary sygnet magów z zakonu
+Vigorsterei zdaje siê emanowaæ staro¿ytn± magi±. 
+~
+Identdesc Przedmiot ten przepe³niony jest tajemn± magi± Zakonu Vigorsterei.
+Niestety opiera siê ona na zbyt zaawansowanych schematach runnicznej mocy
+planimetrii inercjalnej, bêd±cej podstaw± zaklinania przedmiotów na pocz±tku
+ustalania ogólnych zasad w tej kwestii, by¶ móg³ cokolwiek zrozumieæ.
+Powszechnie wiadomo jednak, ¿e sygnety zakonników Vigorsterei pomaga³y im
+opêtaæ pewne demony w czasach wojny, a tak¿e powiêksz±³y im pamiêæ. 
+~
+Comments ~
+Objend
+#Vnum 27433
+Name prastara oprawiona zielona ksiêga wiedzy zakonu Vigorsterei~
+Odmiana ksiêgi wiedzy zakonu Vigorsterei~ksiêdze wiedzy zakonu Vigorsterei~ksiêgê wiedzy zakonu Vigorsterei~ksiêg± wiedzy zakonu Vigorsterei~ksiêdze wiedzy zakonu Vigorsterei~
+Short ksiêga wiedzy zakonu Vigorsterei~
+Descr Prastara ksiêga oprawiona w skórê {Gzielonego{x smoka le¿y tutaj.~
+Material mocna skóra~
+Type spellbook
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 7 217 379 42 177 161
+Repair 0 0 0 0
+Weight 25
+Cost 35520
+Cond 100
+Itemdesc Znajdujesz siê w posidaniu piêknie zdobionej ksiêgi, wygl±daj±cej na
+bardzo star±. Prawdopodobnie jest zbiorem potê¿nych czarów, które mistrz
+Tsiv zbiera³ przez lata. Na ok³adce widnieje piêknie zdobiona litera "{DV{x".
+~
+Comments ~
+Objend
+#Vnum 27434
+Name zdobione sai~
+Odmiana sai~sai~sai~sai~sai~
+Short sai~
+Descr Piêknie zdobione, d³ugie sai a¿ prosi siê o podniesienie.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 1
+Value 2 3 2 34 1024 1 3
+Repair 0 0 0 0
+Weight 30
+Cost 21000
+Cond 100
+Aff 1 26 113 3 0 0
+Itemdesc To przepiêknie zdobione sai jest w ca³o¶ci wykonane z damasceñskiej
+stali. Jego g³ówne ostrze jest na tyle d³ugie, by po wbiciu ostrza w plecy
+cz³owieka spokojnie spenetrowaæ jego klatkê piersiow±, a nawet przebiæ siê
+na drug± stronê! Boczne szpikulce zosta³y specjalnie zaostrzone tak, aby
+doskonale przebijaæ zbrojê oraz uszkadzaæ jak najwiêcej narz±dów
+wewnêtrznych ofiary. Tak potê¿na broñ w rêkach do¶wiadczonego ³otra czyni z
+niego bardzo niebezpiecznego przeciwnika. 
+~
+Comments ~
+Objend
+#Vnum 27435
+Name ostra daka~
+Odmiana ostrej daki~ostrej dace~ostr± dakê~ostr± dak±~ostrej dace~
+Short ostra daka~
+Descr Niesamowicie ostra daka pob³yskuje tutaj na ziemi.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 2 3 2 34 8 0 2
+Repair 0 0 0 0
+Weight 40
+Cost 60
+Cond 85
+Itemdesc Daka zosta³a wykonana z wielokrotnie przetapianej stali, co umo¿liwi³o
+kowalowi naostrzenie jej na sta³e. Prawdopodobnie nie ma lepszej technicznie
+broni do przebijania wszelkiego rodzaju pancerzy i kolczug. 
+~
+Comments ~
+Objend
+#Vnum 27436
+Name sygnet z³odziejskiego cechu~
+Odmiana sygnetu~sygnetowi~sygnet~sygnetem~sygnecie~
+Short sygnet z³odziejskiego cechu~
+Descr Jaki¶ niewielki sygnet wala siê po ziemi.~
+Material mithril~
+Type trash
+ExtraExt 0|GMa
+Wear AB
+Wear2Ext 0|P
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5000
+Cond 75
+Objprog random sygnet_emote 4~
+Objprog wear sygnet_wear 100~
+Itemdesc Znajduj±cy siê w twoim posiadaniu sygnet z³odziejskiego cechu zdaje siê
+lekko podrygiwaæ w rytm twojego serca. Zauwa¿asz jaki¶ przezroczysty kabelek
+owijaj±cy siê wokó³ herbu z dwoma sztyletami wygrawerowanymi w adamantycie. 
 ~
 Comments ~
 Objend
@@ -1352,7 +1751,6 @@ LiczbaMnoga 0
 Gender 1
 Value 0 -1 38 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -1361,6 +1759,32 @@ siê byæ doskona³ym miejscem na k±piele relaksacyjne dla krasnoludów,
 pó³orków i ró¿nych innych brudasów. Z pewno¶ci± jest to tak¿e spe³nienie
 koszmarów ka¿dego elfa. Podobno znajduj±ce siê tutaj b³oto ma w³a¶ciwo¶ci
 lecznicze! 
+~
+Comments ~
+Objend
+#Vnum 27438
+Name podniszczony berdysz super_berdysz_do_wieldowania~
+Odmiana podniszczonego berdysza~podniszczonemu berdyszowi~podniszczony berdysz~podniszczonym berdyszem~podniszczonym berdyszu~
+Short podniszczony berdysz~
+Descr Stary, podniszczony berdysz le¿y tutaj na ziemi.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 8 2 7 1 32 1 1
+Repair 0 0 0 0
+Weight 130
+Cost 7200
+Cond 100
+Itemdesc Znajduj±cy siê w twoim posiadaniu, podniszczony berdysz by³by zapewne
+potê¿n± broni± gdyby nie to, ¿e wygl±da na mocno zu¿yty i potwornie stary.
+Kiedy¶ móg³ byæ doskona³ym narzêdziem do pozbawiania ¿ycia, ale jego stan
+nie wskazuje na to, ¿eby nadal takim by³, choæ na pewno nie powinno siê tej
+broni lekcewa¿yæ. 
 ~
 Comments ~
 Objend
@@ -1379,7 +1803,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1500
 Cond 100
@@ -1408,7 +1831,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 500
 Cond 100
@@ -1435,7 +1857,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1457,13 +1878,42 @@ LiczbaMnoga 0
 Gender 3
 Value 4 3 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 48000
 Cond 75
 Itemdesc Jest to niewielka, zakurzona buteleczka z jaskrawo {Bniebiesk±{x ciecz±. Na
 po¿ó³k³ej ju¿ etykiecie widnieje napis w jakim¶ dziwnym jêzyku "rhongo
 vhenenoso en pollvo". 
+~
+Comments ~
+Objend
+#Vnum 27443
+Name d³ugi smoczy sztylet~
+Odmiana d³ugiego smoczego sztyletu~d³ugiemu smoczemu sztyletowi~d³ugi smoczy sztylet~d³ugim smoczym sztyletem~d³ugim smoczym sztylecie~
+Short d³ugi smoczy sztylet~
+Descr Piêkny sztylet o bladym {Costrzu{x l¶ni z³owieszczo.~
+Material smoczy z±b~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 3 2 81920 3 3
+Repair 20 0 1 100
+Weight 35
+Cost 12000
+Cond 100
+Aff 1 26 294 5 0 0
+Itemdesc Piêkny sztylet o bladym ostrzu zosta³ wykonany ze smoczego zêba wiele lat
+temu przez pewnego pogromcê smoków. Pogromca wykorzystywa³ owy przedmiot do
+¶ci±gania i oprawiania skór z najpotê¿niejszych gadzich stworzeñ, jednak
+pewnego razu poleg³ on na placu boju a s³uch o tym sztylecie zagin±³.
+Wierz±c plotkom sztylet zosta³ nas±czony niesamowicie potê¿n± magi±. 
+~
+Identdesc Sztylet zosta³ nas±czony niezwykle potê¿n± magi±, dziêki której walka jak
+i ¶ci±ganie skór z najpotê¿niejszych smoków jest nieco ³atwiejsze. 
 ~
 Comments ~
 Objend
@@ -2365,9 +2815,9 @@ Exit 1
 ~
 ~
 0 0 27408
-Roomprog exit hazard_exit2 1~
-Roomprog exit hazard_exit1 0~
 Roomprog random sala_rand_opisy 1~
+Roomprog exit hazard_exit1 0~
+Roomprog exit hazard_exit2 1~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2497,8 +2947,8 @@ Exit 2
 VName Karczma~
 ~
 24579 0 27407
-Roomprog input lina_wspinaj climb~
 Roomprog input lina_wspinaj wspinaj~
+Roomprog input lina_wspinaj climb~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2931,9 +3381,9 @@ Exit 4
 ~
 ~
 0 0 27413
-Roomprog entry piwo_entry 100~
-Roomprog input piwo_rozlej pour out~
 Roomprog input piwo_rozlej rozlej~
+Roomprog input piwo_rozlej pour out~
+Roomprog entry piwo_entry 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3120,9 +3570,9 @@ Exit 2
 ~
 ~
 3 0 27437
-Roomprog input szafa_przejscie przejd¼~
-Roomprog input szafa_przejscie wejd¼~
 Roomprog input szafa_przejscie enter~
+Roomprog input szafa_przejscie wejd¼~
+Roomprog input szafa_przejscie przejd¼~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3202,9 +3652,9 @@ Exit 2
 ~
 ~
 7 27419 27436
-Roomprog entry entry_kupiecpok 100~
-Roomprog input lina_zejscie descend~
 Roomprog input lina_zejscie spu¶æ~
+Roomprog input lina_zejscie descend~
+Roomprog entry entry_kupiecpok 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3532,79 +3982,81 @@ S
 #RESETS
 M 100 27413 1 27401 1
 M 100 27412 2 27401 2
-E 100 3171 0 16
+E 100 3095 0 16
 M 100 27412 2 27401 2
-E 100 3171 0 16
-O 100 2364 0 27408
-O 100 2362 0 27408
+E 100 3095 0 16
+O 100 27406 0 27408
+O 100 27405 0 27408
 M 100 27401 1 27408 1
 G 100 27407 0
-O 100 2364 0 27409
-O 100 2362 0 27409
-O 100 2363 0 27411
+O 100 27406 0 27409
+O 100 27405 0 27409
+O 100 27401 0 27411
 M 100 27403 1 27411 1
-G 100 3335 0
-G 15 3349 0
+G 100 27438 0
+G 15 27409 0
 M 100 27400 1 27411 1
-G 100 3381 0
+G 100 27403 0
 G 100 27410 0
 G 100 27421 0
-G 100 2450 0
-G 100 2467 0
+G 100 3001 0
+G 100 10765 0
 G 100 27411 0
-O 100 2364 0 27417
-O 100 2362 0 27417
+O 100 27406 0 27417
+O 100 27405 0 27417
 M 100 27411 1 27417 1
-O 100 2364 0 27418
-O 100 2362 0 27418
+E 100 27430 0 17
+O 100 27406 0 27418
+O 100 27405 0 27418
 M 100 27410 1 27418 1
 E 100 27424 0 17
-O 100 2364 0 27419
-O 100 2362 0 27419
+O 100 27406 0 27419
+O 100 27405 0 27419
 M 100 27402 1 27419 1
-E 100 3157 0 16
-O 100 2364 0 27420
-O 100 2362 0 27420
+E 100 3071 0 16
+O 100 27406 0 27420
+O 100 27405 0 27420
 M 100 27416 1 27420 1
-E 100 3157 0 16
-E 50 3157 0 17
+E 100 27435 0 16
+E 3 27434 0 17
 M 100 27418 1 27420 1
 M 10 27415 1 27428 1
 O 100 27437 0 27428
 O 100 27402 0 27433
 M 100 27408 1 27434 1
 O 100 27415 0 27438
-O 100 2358 0 27438
+O 100 27416 0 27438
 M 100 27404 1 27439 1
-E 100 3157 0 16
-G 100 3157 0
-G 100 4426 0
+E 100 27412 0 16
+G 100 27412 0
+G 100 27413 0
 G 100 27414 0
 G 100 27422 0
-G 100 9123 0
-O 100 2355 0 27440
+G 100 27436 0
+O 100 27408 0 27440
 O 100 27431 0 27440
-O 100 2358 0 27441
+O 100 27416 0 27441
 O 100 27417 0 27441
 M 100 27406 1 27441 1
 G 100 27419 0
 M 100 27405 1 27441 1
 P 100 27420 1 27417 1
-O 100 2358 0 27442
+O 100 27416 0 27442
 M 100 27409 1 27442 1
-E 100 3157 0 16
+E 100 3071 0 16
 G 3 27429 0
 G 2 27428 0
 G 20 27427 0
 G 7 27426 0
 G 30 27425 0
-E 100 4397 0 5
-O 100 2358 0 27443
-O 100 2358 0 27450
+E 100 34139 0 12
+O 100 27416 0 27443
+O 100 27416 0 27450
 M 100 27414 1 27450 1
-E 100 4416 0 8
-E 100 4361 0 5
-E 33 9120 0 2
+E 100 3013 0 8
+E 100 3009 0 5
+G 33 27433 0
+E 33 27432 0 2
 S
 
 
@@ -4002,18 +4454,18 @@ endif
 #kupiec_zachowan
 ~
 if hour > 6
-  if objhere 2358
+  if objhere 27416
     stand
     say Eh, chyba pójdê siê czego¶ napiæ...
     mob walk 27436
     close n
     lock n
     mob walk 27409
-    sit lozko
+    sit krzes³o
   endif
 endif
 if hour < 6
-  if objhere 2362
+  if objhere 27405
     stand
     mob walk 27441
     close s
@@ -4042,7 +4494,7 @@ endif
 ~
 #kurtyzana_greet
 ~
-if objhere 2362
+if objhere 27405
   delay 1
   if sex $n == 1
     if statcha $n > 11
@@ -4233,8 +4685,7 @@ endif
 :koncowka
 tell $n No nie¼le, nie powiem. Nie spodziewa³em siê tego po tobie
 tell $n Chyba rzeczywi¶cie ci na tym zale¿y
-pokl $n
-mob questlog currentdesc $n obilon-gildia Wykona³e¶ pierwsze zadanie. 
+pokl $n 
 ~
 #mistrz_give2
 ~
@@ -4270,7 +4721,6 @@ tell $n Powiedzmy, ¿e jestem bardzo mile zaskoczony twoim oddaniem sprawie
 tell $n Wiêc nie myli³em siê co do ciebie, bêdzie z ciebie prawdziwy lotr!
 tell $n Choæ przed tob± jeszcze d³uga droga
 pokl $n
-mob questlog currentdesc $n obilon-gildia Wykona³e¶ drugie zadanie. 
 ~
 #mistrz_give3
 ~
@@ -4304,18 +4754,10 @@ usm $n
 tell $n Ah ten ³otr! Jednak pamiêta o starym kumplu!
 tell $n W koñcu gdyby nie ja... eh... niewa¿ne...
 tell $n Id¼, podziêkuj mu w moim imieniu
-mob questlog currentdesc $n obilon-gildia Wykona³e¶ trzecie zadanie. 
 ~
 #mistrz_give4
 ~
 if hasflag $n reg_wzial_zad_trzy
-  $_object = obj_first_carried $i 
-  if !hasflag $_object krewstraznika
-    tell $n Próbujesz mnie oszukaæ?!
-    mob echoat $n Z³odziejski mistrz wyrzuca ciê z pomieszczenia!
-    mob force $n north
-    end
-  endif
   mob at $n mob removeflag $n reg_wzial_zad_trzy
   mob at $n mob removeflag $n reg_stopien_trzy
   mob at $n mob setflag $n reg_stopien_cztery
@@ -4346,7 +4788,6 @@ endif
 tell $n Doskonale! Naprawdê ci siê uda³o, teraz jest mi wstyd...
 tell $n Jak ja mog³em w ciebie w±tpiæ! No no, byle tak dalej!
 braw $n
-mob questlog currentdesc $n obilon-gildia Wykona³e¶ czwarte zadanie. Byle tak dalej! 
 ~
 #mistrz_give6
 ~
@@ -4374,17 +4815,13 @@ if hasflag $n reg_wzial_zad_piec
     mob reward $n exp 400000
     goto koncowka
   endif
-else
-  end
+  :koncowka
+  tell $n Dowiod³e¶ w koñcu, ¿e swym cz³onkostwem zaszczycisz nasz± gildiê
+  tell $n Od tej chwili jeste¶ jej prawowitym cz³onkiem!
+  tell $n Mo¿esz ¶mia³o wynajmowaæ do pomocy m³odych adeptów lub najemników
+  tell $n I korzystaæ z wszelkich innych przywileji jakie ci teraz przys³uguj±
+  rek $n
 endif
-:koncowka
-tell $n Dowiod³e¶ w koñcu, ¿e swym cz³onkostwem zaszczycisz nasz± gildiê
-tell $n Od tej chwili jeste¶ jej prawowitym cz³onkiem!
-tell $n Mo¿esz ¶mia³o wynajmowaæ do pomocy m³odych adeptów lub najemników
-tell $n I korzystaæ z wszelkich innych przywileji jakie ci teraz przys³uguj±
-rek $n
-mob questlog state $n obilon-gildia finished
-mob questlog inform $n
 ~
 #mistrz_greet
 ~
@@ -4448,9 +4885,7 @@ break
 tell $n Brawo! Naprawdê jestem pod wra¿eniem! Teraz karczmarz bêdzie siê musia³
 tell $n Powa¿nie zastanowiæ zanim znowu palnie jakie¶ g³upstwo
 tell $n Teraz mo¿esz kupiæ ode mnie przeró¿ne, z³odziejskie zabawki
-mob questlog currentdesc $n obilon-gildia Wykona³e¶ pi±te zadanie. Jeste¶ prawie pe³noprawnym cz³onkiem gildii! 
 mru $n
-mob at $n mob questlog inform $n
 ~
 #mistrz_quest
 ~
@@ -4482,8 +4917,6 @@ if hasflag $n reg_stopien_zero
   mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
   mob force $n north
   mob at $n mob setflag $n reg_wzial_zad_zero
-  mob at $n mob questlog currentdesc $n obilon-gildia Zastrasz karczmarza w krasnoludzkiej fortecy sztyletem i przynie¶ pêtko kie³basy mistrzowi.
-  mob at $n mob questlog inform $n
 endif
 if hasflag $n reg_stopien_jeden
   tell $n Poprzednim zadaniem dowiod³e¶, ¿e znasz zachodnie trakty i nie boisz siê reprezentowaæ naszej Gildii na ¶wiecie
@@ -4491,14 +4924,12 @@ if hasflag $n reg_stopien_jeden
   tell $n Skieruj siê daleko na po³udnie, do miasta Carrallak
   minidelay 4
   tell $n Uwa¿aj, bo jest ono opanowane przez inn± z³odziejsk± gildiê
-  tell $n Zakup najsilniejsz± truciznê w sklepie zielarskim i przynie¶ j± do mnie
+  tell $n Zakup pewn± truciznê w sklepie zielarskim i przynie¶ j± do mnie
   minidelay 4
   tell $n No, my¶lê, ¿e to ju¿ wystarczy, id¼ ju¿!
   mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
-  mob questlog currentdesc $n obilon-gildia Przynie¶ mistrzowi najsilniejsz± truciznê dostêpn± w Carrallak.
   mob force $n north
   mob at $n mob setflag $n reg_wzial_zad_jeden
-  mob at $n mob questlog inform $n
 endif
 if hasflag $n reg_stopien_dwa
   tell $n No, no, dowiod³e¶, ¿e znasz ju¿ trochê ¶wiata i nie boisz siê niebezpieczeñstw
@@ -4512,9 +4943,7 @@ if hasflag $n reg_stopien_dwa
   tell $n Od zawsze go chcia³ spróbowaæ
   tell $n No, czas na ciebie
   mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
-  mob questlog currentdesc $n obilon-gildia Przynie¶ obiloñskiemu karczmarzowi elfie wino o przedziwnej nazwie.
   mob force $n north
-  mob at $n mob questlog inform $n
   mob at $n mob setflag $n reg_wzial_zad_dwa
 endif
 if hasflag $n reg_stopien_trzy
@@ -4526,9 +4955,7 @@ if hasflag $n reg_stopien_trzy
   tell $n Pójd¼ tam, zabij jednego ze stra¿ników i na dowód swego czynu przynie¶ mi jego halabardê
   tell $n Tylko postaraj siê zrobiæ to jak najprêdzej, bo chyba nie chcesz, ¿eby stra¿nicy zaczêli siê tu pa³êtaæ.
   mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
-  mob questlog currentdesc $n obilon-gildia Zabij stra¿nika w Carrallak i przynie¶ jego halabardê.
   mob force $n north
-  mob at $n mob questlog inform $n
   mob at $n mob setflag $n reg_wzial_zad_trzy
 endif
 if hasflag $n reg_stopien_cztery
@@ -4548,10 +4975,8 @@ if hasflag $n reg_stopien_cztery
   tell $n Które s³u¿y mu do oziêbiania piwnicy oraz rozlej trochê jego korzennego piwa po pod³odze
   tell $n Id¼ ju¿ i wracaj zaraz
   mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
-  mob questlog currentdesc $n obilon-gildia W³am siê do piwnicy karczmarza, zabij istotê któr± tam znajdziesz i rozlej piwo.
   mob force $n north
   mob at $n mob setflag $n reg_wzial_zad_cztery
-  mob at $n mob questlog inform $n
 endif
 if hasflag $n reg_stopien_piec
   tell $n Jeste¶ ju¿ do¶wiadczonym ³otrem, mam dla ciebie ostatnie, najtrudniejsze zadanie
@@ -4561,15 +4986,13 @@ if hasflag $n reg_stopien_piec
   tell $n Zdob±d¼ ten tobo³ek i przynie¶ go tutaj, a bêdziesz móg³ w pe³ni szczyciæ siê swym cz³onkostwem
   tell $n Id¼ ju¿
   mob echoat $n Z³odziejski mistrz wypycha ciê na pó³noc.
-  mob questlog currentdesc $n obilon-gildia Przynie¶ tobo³ek kupca mistrzowi.
   mob force $n north
   mob at $n mob setflag $n reg_wzial_zad_piec
-  mob at $n mob questlog inform $n
 endif
 ~
 #najemnik_obslug
 ~
-mob equip self 3128
+mob oload 3048 w
 foll kupiec_gorst
 ~
 #podchmiel_rand
@@ -4601,7 +5024,7 @@ if hasflag $n konk_gil_zlo
   break
 endif
 if class $n zlodziej
-  if !hasqlog $n obilon-gildia
+  if !hasflag $n reg_aspiruje_na_zero
     mob at $n mob setflag $n reg_aspiruje_na_zero
     mob echo Zakapturzona postac rozglada sie nerwowo po okolicy.
     tell $n Pssst! Witaj m³ody z³odzieju...
@@ -4612,15 +5035,8 @@ if class $n zlodziej
     tell $n Przynies mi proszê chocia¿ jedno jab³ko z arrasyjskiego parku.
     tell $n Mam na nie niesamowit± ochotê... i pamiêtaj!
     tell $n Ma byc ¶wie¿e!
-    mob questlog add $n obilon-gildia Wykonaj polecenia cz³onków z³odziejskiej gildii, aby przyjêli ciê do swojego grona.
-    mob questlog title $n obilon-gildia Rekrutacja
-    mob questlog currentdesc $n obilon-gildia Przynie¶ jab³ko z arrasyjskiego parku z³odziejowi w Obilonie.
-    mob questlog inform $n
   else
-    if hasflag $n reg_przyniosl_jablko
-    else
-      tell $n No id¼ juz! Czujê narastajac± ochotê na to jab³ko...
-    endif
+    tell $n No id¼ juz! Czujê narastajac± ochotê na to jab³ko...
   endif
 endif
 ~
@@ -4629,11 +5045,9 @@ endif
 if hasflag $n reg_aspiruje_na_zero
   mob at $n mob removeflag $n reg_aspiruje_na_zero
   mob at $n mob setflag $n reg_stopien_zero
-  mob at $n mob setflag $n reg_przyniosl_jablko
   tell $n Dobrze siê spisa³e¶, podpowiem ci, ¿e gdzie¶ tutaj znajduje siê
   tell $n Oddzia³ pewnej z³odziejskiej gildii, szukaj a znajdziesz
   mru $n
-  mob questlog currentdesc $n obilon-gildia Znajd¼ siedzibê z³odziei w karczmie i popro¶ o zadanie.
 endif
 ~
 #rabus_backstab
@@ -4647,12 +5061,12 @@ endif
 #rabus_eq
 ~
 if rand 95
-  mob equip self 3171
+  mob equip self 27443
 else
-  mob equip self 3157
+  mob equip self 27412
 endif
-mob equip self 4417
-mob equip self 3018
+mob equip self 3014
+mob equip self 3065
 ~
 #rabus_magobij
 ~
@@ -4671,7 +5085,7 @@ endif
 ~
 #rabus_sztylet
 ~
-mob equip self 3157
+mob equip self 3071
 oload gem 4
 ~
 #sklep_mistrz
@@ -4723,13 +5137,6 @@ follow 27418
 ~
 if hasflag $n reg_wzial_zad_cztery
   mob setflag $n reg_zabil_yeti
-  if hasflag $n reg_rozlal_piwsko
-    mob questlog currentdesc $n obilon-gildia Wykona³e¶ zadanie. Wróæ do mistrza.
-    mob at $n mob questlog inform $n
-  else
-    mob questlog currentdesc $n obilon-gildia Jeszcze tylko rozlej piwo i wracaj do mistrza.
-    mob at $n mob questlog inform $n
-  endif
 endif
 ~
 #zielarz_onload
@@ -4886,6 +5293,11 @@ else
   endif
 endif
 ~
+#piwo_consume
+~
+mob echoat $n Powoli odkrêcasz kurek butelki i delektuj±c siê smakiem korzennego piwa bierzesz parê ³yków.
+mob echoaround $n $n powoli odkrêca kurek butelki i delektuj±c siê smakiem doskona³ego piwa korzennego bierze parê ³yków.
+~
 #sygnet_emote
 ~
 if rand 60
@@ -5013,15 +5425,6 @@ if !roomhasflag wylane_piwo
   mob setflag room wylane_piwo 12
   mob echoat $n Z szyderczym u¶miechem na ustach rozlewasz sporo piwa po pod³odze.
   mob echoaround $n Z nutk± satysfakcji w oczach $n rozlewa sporo piwa po pod³odze.
-  if hasflag $n reg_wzial_zad_cztery and !hasflag $n reg_rozlal_piwsko
-    if hasflag $n reg_zabil_yeti
-      mob questlog currentdesc $n obilon-gildia Wykona³e¶ zadanie. Wróæ do mistrza.
-      mob at $n mob questlog inform $n
-    else
-      mob questlog currentdesc $n obilon-gildia Zabij yeti i wróæ do mistrza.
-      mob at $n mob questlog inform $n
-    endif
-  endif
   mob at $n mob setflag $n reg_rozlal_piwsko
 else
   mob echoat $n Przecie¿ prawie ca³a pod³oga zalana jest ju¿ piwem!

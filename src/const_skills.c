@@ -18,7 +18,6 @@
  * KILLER MUD is copyright 2008-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Koper Tadeusz         (jediloop@go2.pl               ) [Garloop   ] *
  * Pietrzak Marcin       (marcin.pietrzak@mud.pl        ) [Gurthg    ] *
@@ -33,8 +32,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: const_skills.c 11986 2013-01-23 13:13:07Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/const_skills.c $
+ * $Id: const_skills.c 11502 2012-07-27 10:34:29Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/const_skills.c $
  *
  */
 #if defined(macintosh)
@@ -126,7 +125,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_bless,
         TAR_OBJ_CHAR_DEF,
         POS_STANDING,
-        &gsn_bless,
+        NULL,
         -1,
         0,
         12,
@@ -422,7 +421,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_continual_light,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_continual_light,
+        NULL,
         -1,
         0,
         12,
@@ -730,7 +729,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_detect_hidden,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_detect_hidden,
+        NULL,
         -1,
         0,
         12,
@@ -750,7 +749,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_detect_invis,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_detect_invis,
+        NULL,
         -1,
         0,
         12,
@@ -994,8 +993,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         FALSE,
         Poznanie,
         SPELL_COLOUR_LOWWHITE,
-        SPELL_COLOUR_LOWYELLOW,
-        "Twój wzrok siêga dalej ni¿ zwykle"
+        SPELL_COLOUR_LOWYELLOW
     },
 
     {
@@ -1063,7 +1061,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_pyrotechnics,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_pyrotechnics,
+        NULL,
         SAVE_SPELL,
         -2,
         24,
@@ -1143,7 +1141,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_spirit_hammer,
         TAR_IGNORE,
         POS_FIGHTING,
-        &gsn_spirit_hammer,
+        NULL,
         -1,
         0,
         24,
@@ -1200,7 +1198,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_giant_strength,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_giant_strength,
+        NULL,
         -1,
         0,
         24,
@@ -1240,7 +1238,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_haste,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_haste,
+        NULL,
         -1,
         0,
         12,
@@ -1618,7 +1616,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_protection_evil,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_protection_evil,
+        NULL,
         -1,
         0,
         12,
@@ -1639,7 +1637,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_protection_good,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_protection_good,
+        NULL,
         -1,
         0,
         12,
@@ -1679,7 +1677,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_recharge,
         TAR_OBJ_INV,
         POS_STANDING,
-        &gsn_recharge,
+        NULL,
         -1,
         0,
         24,
@@ -1840,7 +1838,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_slow,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_slow,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -1902,7 +1900,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_blur,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_blur,
+        NULL,
         -1,
         0,
         24,
@@ -1923,7 +1921,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_summon,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_summon,
+        NULL,
         -1,
         0,
         24,
@@ -1962,7 +1960,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_weaken,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_weaken,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -1983,7 +1981,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_word_of_recall,
         TAR_CHAR_SELF,
         POS_RESTING,
-        &gsn_word_of_recall,
+        NULL,
         -1,
         0,
         12,
@@ -2005,7 +2003,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_finger_of_death,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_finger_of_death,
+        NULL,
         SAVE_DEATH,
         0,
         24,
@@ -2024,7 +2022,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_elemental_devastation,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_elemental_devastation,
+        NULL,
         SAVE_SPELL,
         -2,
         24,
@@ -2062,7 +2060,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_gas_breath,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_gas_breath,
+        NULL,
         SAVE_BREATH,
         -3,
         24,
@@ -2605,7 +2603,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_summon_animals,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_summon_animals,
+        NULL,
         -1,
         0,
         24,
@@ -2662,7 +2660,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_stability,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_stability,
+        NULL,
         -1,
         0,
         24,
@@ -3165,7 +3163,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_free_action,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_free_action,
+        NULL,
         -1,
         0,
         24,
@@ -3272,7 +3270,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_strength,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_strength,
+        NULL,
         -1,
         0,
         12,
@@ -3314,7 +3312,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_deafness,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_deafness,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -3429,7 +3427,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_resist_acid,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_resist_acid,
+        NULL,
         -1,
         0,
         12,
@@ -3450,7 +3448,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_resist_normal_weapon,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_resist_normal_weapon,
+        NULL,
         -1,
         0,
         24,
@@ -3470,7 +3468,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_resist_magic_weapon,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_resist_magic_weapon,
+        NULL,
         -1,
         0,
         24,
@@ -3490,7 +3488,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_resist_elements,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_resist_elements,
+        NULL,
         -1,
         0,
         24,
@@ -3884,7 +3882,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_ethereal_armor,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_ethereal_armor,
+        NULL,
         -1,
         0,
         12,
@@ -3984,7 +3982,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_minor_globe,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_minor_globe_of_invulnerability,
+        NULL,
         -1,
         0,
         24,
@@ -4004,7 +4002,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_globe,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_globe_of_invulnerability,
+        NULL,
         -1,
         0,
         24,
@@ -4180,7 +4178,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_power_word_blindness,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_power_word_blindness,
+        NULL,
         -1,
         0,
         24,
@@ -4238,7 +4236,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_dimension_door,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_dimension_door,
+        NULL,
         -1,
         0,
         24,
@@ -4447,7 +4445,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_divine_favor,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_divine_favor,
+        NULL,
         -1,
         0,
         24,
@@ -4626,7 +4624,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_sunscorch,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_sunscorch,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -4722,7 +4720,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_darkvision,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_darkvision,
+        NULL,
         -1,
         0,
         12,
@@ -4742,7 +4740,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_storm_shell,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_storm_shell,
+        NULL,
         -1,
         0,
         24,
@@ -5274,7 +5272,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_divine_shield,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_divine_shield,
+        NULL,
         -1,
         0,
         24,
@@ -5439,7 +5437,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_spirit_armor,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_spirit_armor,
+        &gsn_armor,
         -1,
         0,
         12,
@@ -5497,7 +5495,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_champions_strength,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_champion_strength,
+        NULL,
         -1,
         0,
         12,
@@ -5583,7 +5581,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_misfortune,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_misfortune,
+        NULL,
         -1,
         0,
         24,
@@ -5734,7 +5732,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_major_haste,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_major_haste,
+        NULL,
         -1,
         0,
         24,
@@ -5813,7 +5811,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_daze,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_daze,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -5853,7 +5851,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_eyes_of_the_torturer,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_eyes_of_the_torturer,
+        NULL,
         -1,
         0,
         24,
@@ -6290,7 +6288,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_razorblade_hands,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_razorblade_hands,
+        NULL,
         -1,
         0,
         24,
@@ -6947,7 +6945,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_resist_weapon,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_resist_weapon,
+        NULL,
         -1,
         0,
         24,
@@ -6962,22 +6960,24 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Dodaje efekt ca³kowitej ochrony przed atakami zwyk³± broni±"
     },
     {
-        "lesser psionic blast",
-        { 16, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
-        spell_lesser_psionic_blast,
-        TAR_CHAR_OFFENSIVE,
+        "absolute magic protection",
+        { 25, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
+        spell_absolute_magic_protection,
+        TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_lesser_psionic_blast,
+        NULL,
         -1,
         0,
         24,
-        "lesser psionic blast",
         "",
+        "Chroni±ca ciê przed magi± kopu³a zanika.",
         "",
-        FALSE,
-        Inwokacje,
-        SPELL_COLOUR_HIYELLOW,
-        SPELL_COLOUR_HIRED
+        TRUE,
+        Odrzucanie|SpellSpec,
+        SPELL_COLOUR_HIMAGNETA,
+        SPELL_COLOUR_LOWCYAN,
+        "Otacza ciê kopu³a chronion±ca ciê ca³kowicie przed magi±",
+        "Dodaje efekt ca³kowitej ochrony przed magi±"
     },
     {
         "major globe of invulnerability",
@@ -6985,7 +6985,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_major_globe,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_major_globe_of_invulnerability,
+        NULL,
         -1,
         0,
         24,
@@ -7488,7 +7488,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_deflect_wounds,
         TAR_CHAR_SELF,
         POS_FIGHTING,
-        &gsn_deflect_wounds,
+        NULL,
         -1,
         0,
         24,
@@ -7544,7 +7544,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_psionic_blast,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_psionic_blast,
+        NULL,
         -1,
         0,
         24,
@@ -7583,7 +7583,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_wood_master,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_wood_master,
+        NULL,
         -1,
         0,
         24,
@@ -7661,7 +7661,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_wizard_eye,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_wizard_eye,
+        NULL,
         -1,
         0,
         36,
@@ -7841,7 +7841,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_singing_ruff,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_singing_ruff,
+        NULL,
         -1,
         0,
         12,
@@ -7931,7 +7931,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Twoja obecno¶æ stabilizuje siê w tym planie egzystencji.",
         "",
         TRUE,
-        Przywolanie|SpellSpec,
+        Iluzje|SpellSpec,
         SPELL_COLOUR_LOWWHITE,
         SPELL_COLOUR_HIBLUE,
         "Migoczesz miêdzy ro¿nymi planami egzystencji",
@@ -8383,7 +8383,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_perfect_senses,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_perfect_senses,
+        NULL,
         -1,
         0,
         12,
@@ -8443,7 +8443,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_fortitude,
         TAR_CHAR_DEFENSIVE,
         POS_FIGHTING,
-        &gsn_fortitude,
+        NULL,
         -1,
         0,
         12,
@@ -8862,7 +8862,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_aura_of_improved_healing,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_aura_of_improved_healing,
+        NULL,
         -1,
         0,
         24,
@@ -8883,7 +8883,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_aura_of_vigor,
         TAR_IGNORE,
         POS_STANDING,
-        &gsn_aura_of_vigor,
+        NULL,
         -1,
         0,
         24,
@@ -9152,7 +9152,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_bull_strength,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_bull_strength,
+        NULL,
         -1,
         0,
         12,
@@ -9173,7 +9173,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_cat_grace,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_cat_grace,
+        NULL,
         -1,
         0,
         12,
@@ -9194,7 +9194,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_owl_wisdom,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_owl_wisdom,
+        NULL,
         -1,
         0,
         12,
@@ -9215,7 +9215,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_fox_cunning,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_fox_cunning,
+        NULL,
         -1,
         0,
         12,
@@ -9236,7 +9236,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_bear_endurance,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_bear_endurance,
+        NULL,
         -1,
         0,
         12,
@@ -9257,7 +9257,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_eagle_splendor,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_eagle_splendor,
+        NULL,
         -1,
         0,
         12,
@@ -9278,7 +9278,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_nimbleness,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_nimbleness,
+        NULL,
         -1,
         0,
         24,
@@ -9299,7 +9299,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_draconic_wisdom,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_draconic_wisdom,
+        NULL,
         -1,
         0,
         24,
@@ -9320,7 +9320,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_insight,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_insight,
+        NULL,
         -1,
         0,
         24,
@@ -9341,7 +9341,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_behemot_toughness,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_behemot_toughness,
+        NULL,
         -1,
         0,
         24,
@@ -9361,7 +9361,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         spell_inspiring_presence,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_inspiring_presence,
+        NULL,
         -1,
         0,
         24,
@@ -9696,7 +9696,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         FALSE
     },
-    { //508
+    {
         "gsn_art_destroy",
         { 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_null,
@@ -9711,7 +9711,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         FALSE
     },
-    { //509
+    {
         "fire breath",
         { 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_null,
@@ -9726,7 +9726,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         TRUE
     },
-    { //510
+    {
         "frost breath",
         { 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_null,
@@ -9741,7 +9741,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         TRUE
     },
-    { //511
+    {
         "acid breath",
         { 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_null,
@@ -9756,7 +9756,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         TRUE
     },
-    { //512
+    {
         "lightning breath",
         { 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_null,
@@ -9771,7 +9771,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         TRUE
     },
-    { //513
+    {
         "slam",
         { 32, 32, 32, 32, 32, 32, 10, 32, 32, 5, 32 },
         spell_null,
@@ -9785,7 +9785,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         ""
     },
-    { //514
+    {
         "invoke spirit",
         { 32, 32, 32,  32, 32, 32, 32, 32, 32, 32, 10 },
         spell_null,
@@ -9800,7 +9800,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         FALSE
     },
-    { //515
+    {
         "spirit of vision",
         {  32,  32, 32, 32, 32, 32, 32, 32, 32, 32, 10 },
         spell_spirit_of_vision,
@@ -9820,13 +9820,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Mo¿esz widzieæ w ciemno¶ciach",
         "Umo¿liwia widzenie w ciemno¶ciach"
     },
-    { //516
+    {
         "subdue spirits",
         {  32,  32, 32, 32, 32, 32, 32, 32, 32, 32, 10 },
         spell_subdue_spirits,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_subdue_spirits,
+        NULL,
         -1,
         0,
         12,
@@ -9840,7 +9840,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Posiadasz przychylno¶æ duchów",
         "Przywo³uje b³ogos³awieñstwo duchów"
     },
-    { //517
+    {
         "spirit walk",
         {  32,  32, 32, 32, 32, 32, 32, 32, 32, 32, 10 },
         spell_spirit_walk,
@@ -9860,7 +9860,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Nie zostawiasz ¶ladów",
         "Duchy zacieraj± twoje ¶lady"
     },
-    { //518
+    {
         "healing salve",
         { 32,  32, 32, 32, 32, 32, 32, 32, 32, 32, 10  },
         spell_healing_salve,
@@ -9880,13 +9880,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Twoje rany zabli¼niaj± siê szybciej",
         "Dodaje efekt szybszego zabli¼niania siê ran"
     },
-    { //519
+    {
         "seal of weakness",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 10 },
         spell_seal_of_weakness,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_seal_of_weakness,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -9900,13 +9900,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Zosta³<&e¶/a¶/o¶> os³abion<&y/a/e>",
         ""
     },
-    { //520
+    {
         "ancestors wisdom",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 25 },
         spell_ancestors_wisdom,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_ancestors_wisdom,
+        NULL,
         -1,
         0,
         12,
@@ -9920,13 +9920,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Duchy przodków szepcz± ci s³owa zapomnianych m±dro¶ci",
         ""
     },
-    { //521
+    {
         "ancestors protection",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 25 },
         spell_ancestors_protection,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_ancestors_protection,
+        NULL,
         -1,
         0,
         12,
@@ -9940,13 +9940,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Duchy przodków ochraniaj± ciê sw± moc±",
         ""
     },
-    { //522
+    {
         "ancestors favor",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 25 },
         spell_ancestors_favor,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_ancestors_favor,
+        NULL,
         -1,
         0,
         12,
@@ -9960,13 +9960,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Duchy przodków pozwalaj± ci lepiej pos³ugiwaæ siê ¿yciodajn± energi±",
         ""
     },
-    { //523
+    {
         "ancestors vision",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 25 },
         spell_ancestors_vision,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_ancestors_vision,
+        NULL,
         -1,
         0,
         12,
@@ -9980,13 +9980,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Duchy przodków pozwalaj± ci widzieæ to co ukryte i niewidoczne",
         ""
     },
-    { //524
+    {
         "ancestors fury",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 25 },
         spell_ancestors_fury,
         TAR_CHAR_SELF,
         POS_STANDING,
-        &gsn_ancestors_fury,
+        NULL,
         -1,
         0,
         12,
@@ -10000,7 +10000,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Duchy przodków potêguj± moc twojej furii",
         ""
     },
-    { //525
+    {
         "dismiss outsider",
         { 7, 32, 32, 32, 32, 16, 32, 32, 32, 32, 15 },
         spell_dismiss_outsider,
@@ -10018,7 +10018,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         SPELL_COLOUR_LOWRED,
         SPELL_COLOUR_LOWRED
     },
-    { //526
+    {
         "spirit shackle",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 20 },
         spell_spirit_shackle,
@@ -10036,13 +10036,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         SPELL_COLOUR_LOWRED,
         SPELL_COLOUR_LOWRED
     },
-    { //527
+    {
         "spirit of life",
         { 32,  32, 32, 32, 32, 32, 32, 32, 32, 32, 20  },
         spell_spirit_of_life,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_spirit_of_life,
+        NULL,
         -1,
         0,
         24,
@@ -10056,13 +10056,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Lecznicza energia wype³nia twoje cia³o",
         "Dodaje efekt szybszego zabli¼niania siê ran"
     },
-    { //528
+    {
         "breath of life",
         { 32,  32, 32, 32, 32, 32, 32, 32, 32, 32, 25  },
         spell_breath_of_life,
         TAR_CHAR_DEFENSIVE,
         POS_STANDING,
-        &gsn_breath_of_life,
+        NULL,
         -1,
         0,
         24,
@@ -10076,13 +10076,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Potê¿na lecznicza energia wype³nia twoje cz³onki",
         "Dodaje efekt szybszego zabli¼niania siê ran"
     },
-    { //529
+    {
         "spiritual guidance",
         { 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 20 },
         spell_spiritual_guidance,
         TAR_OBJ_CHAR_DEF,
         POS_STANDING,
-        &gsn_spiritual_guidance,
+        NULL,
         -1,
         0,
         12,
@@ -10096,13 +10096,13 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Duchy prowadz± twoj± rêke w walce",
         ""
     },
-    { //530
+    {
         "seal of doom",
         {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 20 },
         spell_seal_of_doom,
         TAR_CHAR_OFFENSIVE,
         POS_FIGHTING,
-        &gsn_seal_of_doom,
+        NULL,
         SAVE_SPELL,
         0,
         24,
@@ -10116,7 +10116,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Zosta³e¶ pozbawiony jednego ze swych zmys³ów",
         ""
     },
-    { //531
+    {
         "lesser cure poison",
         { 32,  8, 32, 32, 17, 32, 32, 32, 32, 32, 32  },
         spell_lesser_cure_poison,
@@ -10134,7 +10134,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         SPELL_COLOUR_HIBLUE,
         SPELL_COLOUR_HIGREEN
     },
-    { //532
+    {
         "greater cure poison",
         { 32,  24, 32, 32, 29, 32, 32, 32, 32, 32, 32  },
         spell_greater_cure_poison,
@@ -10152,7 +10152,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         SPELL_COLOUR_HIBLUE,
         SPELL_COLOUR_HIGREEN
     },
-    { //533
+    {
         "sap",
         { 32, 32,  1, 32, 32, 32, 32, 32, 32, 32, 32  },
         spell_null,
@@ -10167,7 +10167,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         FALSE
     },
-    { //534
+    {
         "claw-weapons",
         {  32,  32,  32,  32, 32, 1, 1, 32, 32, 32, 1 },
         spell_null,
@@ -10182,7 +10182,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         FALSE
     },
-    { //535
+    {
         "sense fatigue",
         {  32,  32, 32, 32, 32, 4, 32, 32, 32, 32, 32  },
         spell_sense_fatigue,
@@ -10202,7 +10202,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "Potrafisz dostrzec wyczerpanie innych",
         "Umo¿liwia dostrzeganie wyczerpanie innych."
     },
-    { //536
+    {
         "playerquityes",
         { 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41 },
         spell_null,
@@ -10217,7 +10217,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         "",
         FALSE
     },
-    { //537
+    {
         "playerdeathlearnpenalty",
         { 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41 },
         spell_null,
@@ -10233,7 +10233,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         FALSE
     },
 
-    { //538
+    {
         "sense presence",
         { 25, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_sense_presence,
@@ -10254,7 +10254,7 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         ""
     },
 
-    { //539
+    {
         "light nova",
         { 16, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
         spell_light_nova,
@@ -10273,106 +10273,6 @@ const	struct	skill_type	skill_table	[MAX_SKILL]	=
         SPELL_COLOUR_LOWRED,
         "Zostales o¶lepion<&y/a/e> magiczn± flar± ¶wiat³a",
         "Umo¿liwia o¶lepienie du¿ej liczby wrogów"
-    },
-
-    { //540
-        "scrying shield",
-        { 16, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32 },
-        spell_scrying_shield,
-        TAR_CHAR_DEFENSIVE,
-        POS_STANDING,
-        &gsn_scrying_shield,
-        SAVE_SPELL,
-        0,
-        24,
-        "",
-        "Tarcza chroni±ca ciê przed magicznym wzrokiem znika.",
-        "",
-        FALSE,
-        Odrzucanie|SpellSpecAndGeneral,
-        SPELL_COLOUR_HIMAGNETA,
-        SPELL_COLOUR_LOWRED,
-        "Jeste¶ chroniony przed magicznym wzrokiem",
-        "Chroni przed wizard eye"
-    },
-    { //541
-        "seal of atrocity",
-        {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 20 },
-        spell_seal_of_atrocity,
-        TAR_CHAR_OFFENSIVE,
-        POS_FIGHTING,
-        NULL,
-        SAVE_SPELL,
-        0,
-        24,
-        "",
-        "",
-        "",
-        FALSE,
-        Zauroczenie,
-        SPELL_COLOUR_LOWMAGNETA,
-        SPELL_COLOUR_LOWRED,
-        "Pewno¶æ odp³yne³a z twoich r±k",
-        ""
-    },
-    { //542
-        "seal of despair",
-        {  32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 20 },
-        spell_seal_of_despair,
-        TAR_CHAR_OFFENSIVE,
-        POS_FIGHTING,
-        &gsn_seal_of_despair,
-        SAVE_SPELL,
-        0,
-        24,
-        "",
-        "",
-        "",
-        FALSE,
-        Odrzucanie,
-        SPELL_COLOUR_DARK,
-        SPELL_COLOUR_LOWRED,
-        "Przestajesz widzieæ ods³oniête miejsca na ciele przeciwników",
-        ""
-    },
-
-    { //543
-        "rampage",
-        { 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41 },
-        spell_null,
-        TAR_IGNORE,
-        POS_FIGHTING,
-        &gsn_rampage,
-        -1,
-        0,
-        0,
-        "",
-        "",
-        "",
-        TRUE,
-        -1,
-        -1,
-        -1,
-        ""
-     },
-
-     {
-        "resurrection",
-        { 32, 24, 32, 32, 32, 32, 32, 32, 32, 32, 32  },
-        spell_resurrection,
-        TAR_OBJ_ROOM,
-        POS_FIGHTING,
-        NULL,
-        -1,
-        0,
-        24,
-        "",
-        "",
-        "",
-        FALSE,
-        Nekromancja,
-        SPELL_COLOUR_HIGREEN,
-        SPELL_COLOUR_HIGREEN
     },
 
 };

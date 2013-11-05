@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: board.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/board.c $
+ * $Id: board.c 10864 2012-01-16 18:01:32Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/board.c $
  *
  */
 #if defined(macintosh)
@@ -53,7 +53,7 @@ bool fread_object args (( FILE *fp ));
 #define T2000 -1                        /* Terminator for files... */
 
 void	load_board( BOARD_DATA *board );
-void save_board( CHAR_DATA * ch, unsigned int vnum );
+void save_board( CHAR_DATA * ch, ush_int vnum );
 void show_message( CHAR_DATA *ch , int mess_num, OBJ_DATA * obj );
 void show_contents( CHAR_DATA * ch, OBJ_DATA * obj );
 void show_message1( CHAR_DATA *ch , int mess_num, OBJ_DATA * obj );
@@ -746,7 +746,7 @@ void show_contents( CHAR_DATA * ch, OBJ_DATA * obj )
 
 
 
-void save_board( CHAR_DATA * ch, unsigned int vnum )
+void save_board( CHAR_DATA * ch, ush_int vnum )
 {
     char buf[ MAX_STRING_LENGTH ];
     FILE * board_file;

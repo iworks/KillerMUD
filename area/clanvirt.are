@@ -108,6 +108,32 @@ Mobend
 
 
 #OBJECTS
+#Vnum 50512
+Name fontanna wspania³a mleko~
+Odmiana fontanny~fontannie~fontanne~fontann±~fontannie~
+Short {xfonanna bogini {CVirtus{x~
+Descr Wspania³a fontanna {Cbogini Virtus{x jest nape³niona po brzegi mlekiem.~
+Material kryszta³~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value -1 -1 10 0 0 0 0
+Repair 0 0 0 0
+Weight 10000
+Cost 60
+Cond 75
+Itemdesc Spogl±dasz na wspania³± fontannê, zdaje ci siê, ¿e jest ona po brzegi
+wype³niona mlekiem. My¶lisz sobie... Napiæ siê czy nie? Mo¿e to jaka¶
+zasadzka? Jednak nie, czuæ ¿e to prawdziwe mleko. Fontanna ta wykonana jest
+z prawdziwego kryszta³u!
+~
+Comments ~
+Objend
 #Vnum 50513
 Name antyczna bransoleta virtus~
 Odmiana antycznej bransolety~antycznej bransolecie~antyczn± bransoletê~antyczn± bransolet±~antycznej bransolecie~
@@ -119,11 +145,11 @@ ExtraExt 0|M
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 60
 Cond 100
@@ -140,6 +166,58 @@ tak zwanym wybrañcem bogini i obdarzony jest wielk± moc± ...
 ~
 Comments ~
 Objend
+#Vnum 50514
+Name niebiañska kula ¶wiat³a~
+Odmiana niebiañskiej kuli ¶wiat³a~niebiañskiej kuli ¶wiat³a~niebiañsk± kulê ¶wiat³a~niebiañsk± kul± ¶wiat³a~niebiañskiej kuli ¶wiat³a~
+Short {Cniebiañska kula ¶wiat³a{x~
+Descr {CNiebiañska kula ¶wiat³a{x unosi siê nad ziemi±.~
+Material eteryczny~
+Type light
+ExtraExt 0
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 24 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 10
+Cond 100
+Objprog prewear virtus_kula 100~
+Itemdesc Jest to wspania³a kula ¶wiat³a, która o¶wietla wszystko dooko³a, przed
+wiekami ta kula zosta³a nazwana, niebiañsk± kul± ¶wiat³a i do tej pory
+wszyscy u¿ywaj± tej nazwy. 
+~
+Comments ~
+Objend
+#Vnum 50516
+Name antyczna skrzynia~
+Odmiana antycznej skrzyni~antycznej skrzyni~antyczn± skrzyniê~antyczn± skrzyni±~antycznej skrzyni~
+Short {Wantyczna skrzynia{x~
+Descr Widzisz na ziemi piêkn± antyczn± skrzyniê.~
+Material mithril~
+Type container
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 3
+Value 40 1 0 20 100 0 -1
+Repair 0 0 0 0
+Weight 240
+Cost 6000
+Cond 75
+Itemdesc Skrzynia wykonana jest ca³a z mithrilu, spe³nia wspania³± rolê i mo¿e
+pomie¶ciæ w sobie niewiarygodnie du¿± ilo¶æ przedmiotów. Skrzynia
+promieniuje magicznym blaskiem najwidoczniej jest b³ogos³awiona. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 50517
 Name klips dotyk za¶wiatów~
 Odmiana klipsa '{DDotyk Za¶wiatów{x'~klipsowi '{DDotyk Za¶wiatów{x'~klips '{DDotyk Za¶wiatów{x'~klipsem '{DDotyk Za¶wiatów{x'~klipsie '{DDotyk Za¶wiatów{x'~
@@ -151,11 +229,11 @@ ExtraExt 0|MP
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2040
 Cond 75
@@ -181,11 +259,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 3 0 1152 0 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -202,11 +280,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -228,11 +306,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -559,11 +637,11 @@ S
 
 #RESETS
 M 100 50511 1 50511 1
-O 100 2367 0 50512
+O 100 50512 0 50512
 M 100 50515 1 50515 50515
 G 100 50513 0
-G 100 3370 0
-G 100 3185 0
+G 100 50516 0
+G 100 50514 0
 G 100 50517 0
 O 100 50518 0 50518
 O 100 50519 0 50520
@@ -612,6 +690,16 @@ if clan $n RYCERZ
 else
   mob echoat $n Nie mo¿esz za³o¿yæ bransolety!
   mob echoaround $n $n próbuje za³o¿yæ bransoletê.
+endif
+~
+#virtus_kula
+~
+if clan $n RYCERZ
+  mob echoat $n Niebiañska kula zaczyna lewitowaæ nad twoj± g³ow±.
+  mob echoaround $n $n unosi niebiañsk± kulê nad swojê g³owê.
+  obj wear
+else
+  mob echoat $n Nie mo¿esz na³o¿yæ niebiañskiej kuli!
 endif
 ~
 #0

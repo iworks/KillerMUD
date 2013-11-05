@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: progs_vars.c 11232 2012-04-06 21:53:02Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/progs_vars.c $
+ * $Id: progs_vars.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/progs_vars.c $
  *
  */
 #if defined(macintosh)
@@ -101,7 +101,6 @@ const	struct	var_cmd_type	var_cmd_table	[] =
 	{	"obj_next_in_list",			vc_common_next_in_list,		1,			PROG_VAR_OBJ,		{ PROG_VAR_OBJ, -1 },						"zwraca nastepny obiekt w liscie"	},
 	{	"obj_in_room_by_name",		vc_obj_in_room_by_name,		2,			PROG_VAR_OBJ,		{ PROG_VAR_ROOM, PROG_VAR_STRING, -1 },		"zwraca obiekt o podanej nazwie le¿±cy w podanym roomie"	},
 	{	"obj_in_room_by_vnum",		vc_obj_in_room_by_vnum,		2,			PROG_VAR_OBJ,		{ PROG_VAR_ROOM, PROG_VAR_INT, -1 },		"zwraca obiekt o podanym vnumie le¿±cy w podanym roomie"	},
-	{	"obj_in_obj_by_vnum",		vc_obj_in_obj_by_vnum,		2,			PROG_VAR_OBJ,		{ PROG_VAR_ROOM, PROG_VAR_INT, -1 },		"zwraca pierwszy obiekt w pojemniku o podanym vnumie le¿±cy w podanym roomie"	},
 	{	"obj_char_eq_slot",			vc_obj_char_eq_slot,		2,			PROG_VAR_OBJ,		{ PROG_VAR_CHAR, PROG_VAR_STRING, -1 },		"zwraca obiekt noszony przez postaæ w podanym miejscu na ciele"	},
 	{	"obj_flag_value",			vc_common_flag_value,		2,			PROG_VAR_INT,		{ PROG_VAR_OBJ, PROG_VAR_STRING, -1 },		"zwraca warto¶æ flagi o podanej nazwie na³o¿onej na podany obiekt"	},
 	{	"obj_first_flag",			vc_common_first_flag,		1,			PROG_VAR_STRING,	{ PROG_VAR_OBJ, -1 },						"zwraca nazwê pierwszej flagi na li¶cie flag na³o¿onych na podany obiekt"	},
@@ -1258,42 +1257,6 @@ VAR_CMD( vc_obj_in_room_by_vnum )
 		return NULL;
 
 	return new_prog_var( "result", obj, PROG_VAR_OBJ );
-}
-
-VAR_CMD( vc_obj_in_obj_by_vnum )
-{
-	ROOM_INDEX_DATA * pRoom;
-	OBJ_DATA * obj = NULL, * vobj;
-	int vnum = 0;
-	PROG_VAR * arg1;
-	PROG_VAR * arg2;
-
-	arg1 = pop_var( args, 1 );
-	arg2 = pop_var( args, 2 );
-
-	pRoom = get_room_var( arg1 );
-
-	if ( !pRoom || !pRoom->contents )
-		return NULL;
-
-	vnum = get_int_var( arg2 );
-
-	if ( vnum == UNDEFINED_INT )
-		return NULL;
-
-	for ( vobj = pRoom->contents; vobj; vobj = vobj->next_content )
-	{
-		if ( vobj->pIndexData && vobj->pIndexData->vnum == vnum )
-		{
-			obj = vobj;
-			break;
-		}
-	}
-
-	if ( !obj || ( !obj && !obj->contains ) )
-		return NULL;
-
-	return new_prog_var( "result", obj->contains, PROG_VAR_OBJ );
 }
 
 VAR_CMD( vc_obj_char_eq_slot )

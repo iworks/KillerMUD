@@ -430,6 +430,125 @@ Mobend
 
 
 #OBJECTS
+#Vnum 17704
+Name mizerny topór~
+Odmiana mizernego topora~mizernemu toporowi~mizerny topór~mizernym toporem~mizernym toporze~
+Short mizerny topór~
+Descr Mizernie zdobiony topór le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0|ABCL
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 5 2 25 0 -1 1
+Repair 0 0 0 0
+Weight 40
+Cost 600
+Cond 75
+Itemdesc Jest to jednorêczny toporek. Do drewnianego kija, zrêcznie przywi±zano
+stalowe ostrze, tworz±c prost± lecz skuteczn± broñ. 
+~
+Comments ~
+Objend
+#Vnum 17706
+Name d³ugi p³aszcz~
+Odmiana d³ugiego p³aszczu~d³ugiemu p³aszczu~d³ugi p³aszcz~d³ugim p³aszczem~d³ugim p³aszczu~
+Short d³ugi p³aszcz~
+Descr D³ugi p³aszcz zrobiony ze skóry jakiego¶ zwierza le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 1|A
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 20
+Cond 75
+Itemdesc Jest to dosyæ ³adnie wykonany p³aszcz. Zosta³ zrobiony ze skóry jakiego¶
+sporego zwierzêcia, prawdopodobnie dzika. Doskonale chroni przed zimnem. 
+~
+Comments ~
+Objend
+#Vnum 17707
+Name stary topór dwurêczny~
+Odmiana starego toporu dwurêcznego~staremu toporowi dwurêcznemu~stary topór dwurêczny~starym toporem dwurêcznym~starym toporze dwurêcznym~
+Short stary topór dwurêczny~
+Descr Stary i lekko zardzewia³y topór le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|ABCL
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 2 7 1 32 -2 1
+Repair 0 0 0 0
+Weight 250
+Cost 1200
+Cond 50
+Itemdesc Na d³ugim drewnianym troznie osadzono ¿elazn± g³owiæe tworz±c dosyæ
+potê¿n± broñ. Na pewno taka niegdy¶ by³a, ale teraz ten topór ma ju¿ swoje
+lata, i nied³ugo najprawdopodobniej siê rozpadnie. Jednak nadal w
+odpowiednich rêkach stanowi dosyæ zabójcz± broñ. 
+~
+Comments ~
+Objend
+#Vnum 17708
+Name drewniana maczuga~
+Odmiana drewnianej maczugi~drewnianej maczudze~drewnian± maczuge~drewnian± maczug±~drewnianej maczudze~
+Short drewniana maczuga~
+Descr Du¿a, drewniana maczuga le¿y tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0|AC
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 2 4 37 0 0 0
+Repair 0 0 0 0
+Weight 120
+Cost 1200
+Cond 75
+Itemdesc Ta maczuga ma kszta³t pa³ki rozszerzaj±cej siê na jednym koñcu. Szersz±
+czê¶æ tej broni stanowi g³owica nabijana kamieniami. Dostanie takim czym¶ w
+g³owê mo¿e skoñczyæ siê tragicznie. 
+~
+Comments ~
+Objend
+#Vnum 17709
+Name futrzana czapa~
+Odmiana futrzanej czapy~futrzanej czapie~futrzan± czapê~futrzan± czap±~futrzanej czapie~
+Short futrzana czapa~
+Descr Futrzana czapa lêzy na ziemi.~
+Material w³osie~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 70
+Cond 100
+Itemdesc Jest to dosyæ starannie wykonana czapa. Zrobiono j± najprawdopodobniej z
+futra jednego z lisów zamieszkuj±cych las Obiloñski. Jest naprawdê ³adna i
+na pewno jest te¿ sporo warta. 
+~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -1781,14 +1900,6 @@ TextIn $n wychodzi z sza³asu.~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 17749
-Name ~
-Descr ~
-FlagsExt 0
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
 #Vnum 0
 
 
@@ -1810,64 +1921,64 @@ S
 
 #RESETS
 M 100 17707 1 17701 1
-E 100 3300 0 16
-E 100 3001 0 8
-E 100 4426 0 12
+E 100 3307 0 16
+E 100 3380 0 8
+E 100 17706 0 12
 M 100 17702 2 17705 1
-E 100 3300 0 16
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 3307 0 16
+E 100 3380 0 8
+E 100 3379 0 5
 M 100 17702 2 17714 1
-E 100 3172 0 16
-E 100 3172 0 17
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 17704 0 16
+E 100 17704 0 17
+E 100 3380 0 8
+E 100 3379 0 5
 M 100 17703 1 17718 1
-E 100 3157 0 16
-E 100 3001 0 8
-E 100 4426 0 12
+E 100 3020 0 16
+E 100 3380 0 8
+E 100 17706 0 12
 M 100 17708 2 17719 1
-E 100 4369 0 5
-E 100 3001 0 8
-E 100 3127 0 16
+E 100 3379 0 5
+E 100 3380 0 8
+E 100 17707 0 16
 M 100 17706 1 17722 1
-E 100 3172 0 16
-E 100 3172 0 17
-E 100 3001 0 8
-E 100 4426 0 12
+E 100 17704 0 16
+E 100 17704 0 17
+E 100 3380 0 8
+E 100 17706 0 12
 M 100 17705 1 17724 1
-E 100 3157 0 16
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 3020 0 16
+E 100 3380 0 8
+E 100 3379 0 5
 M 100 17710 2 17726 1
-E 100 3356 0 16
-E 100 4426 0 12
-E 100 3001 0 8
+E 100 17708 0 16
+E 100 17706 0 12
+E 100 3380 0 8
 M 100 17710 2 17728 1
-E 100 4404 0 6
-E 100 4369 0 5
-E 100 3001 0 8
-G 100 3157 0
-E 100 3127 0 16
+E 100 17709 0 6
+E 100 3379 0 5
+E 100 3380 0 8
+G 100 3020 0
+E 100 17707 0 16
 M 100 17709 1 17730 1
-E 100 3356 0 16
-E 100 3001 0 8
-E 100 4404 0 6
-E 100 4426 0 12
+E 100 17708 0 16
+E 100 3380 0 8
+E 100 17709 0 6
+E 100 17706 0 12
 M 100 17704 1 17731 1
-E 100 3300 0 16
-E 100 3018 0 5
-E 100 4404 0 6
-E 100 4418 0 8
-E 100 3017 0 5
-E 100 3098 0 13
-E 100 3050 0 7
-E 100 3066 0 9
+E 100 3295 0 16
+E 100 3381 0 30000
+E 100 542 0 6
+E 100 3087 0 8
+E 100 3008 0 5
+E 100 3017 0 13
+E 100 3382 0 7
+E 100 3378 0 9
 E 100 3201 0 21
 M 100 17701 2 17732 1
-E 100 3300 0 16
-E 100 4369 0 5
-E 100 3001 0 8
+E 100 3307 0 16
+E 100 3379 0 5
+E 100 3380 0 8
 S
 
 

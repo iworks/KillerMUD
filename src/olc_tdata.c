@@ -1,5 +1,5 @@
 /*
-	$Id: olc_tdata.c 11987 2013-01-23 13:56:44Z illi $
+	$Id: olc_tdata.c 10360 2011-06-30 08:07:28Z illi $
 */
 #if defined(macintosh)
 #include <types.h>
@@ -114,7 +114,7 @@ void do_tedit(CHAR_DATA *ch, char *argument)
 
     if( is_number(command) )
     {
-	unsigned int vnum = atoi(command);
+	ush_int vnum = atoi(command);
 
 	AREA_DATA *ad;
 

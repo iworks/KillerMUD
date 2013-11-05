@@ -99,8 +99,6 @@ Form AEFHMV
 Parts ABCDEFGHIJKRUV
 Size large
 Material unknown
-Comments Dodany resist charm 100%. Powód - mob z summonem, mo¿liwy do charmowania? Mo¿na by sobie summonowaæ graczy nie bêd±c summonerem. - {RHorg{x ({CTue Apr  2 22:48:07 2013{x)
-~
 MobprogNew onload mag_zwy_onload ABCDEFGHI 40~
 Spells 149 137 203 93
 Spells 92 193 88 69
@@ -108,7 +106,6 @@ Spells 163 201 94 182
 Spells 296 0 0 0
 Skin 100
 ExpMultiplier 100
-Resist 12 100
 Resist 14 100
 Mobend
 #Vnum 6503
@@ -284,11 +281,45 @@ Mobend
 
 
 #OBJECTS
+#Vnum 6500
+Name kosc golen dluga~
+Odmiana d³ugiej ko¶ci~d³ugiej ko¶ci~d³ug± ko¶æ~d³ug± ko¶ci±~d³ugiej ko¶ci~
+Short d³uga ko¶æ~
+Descr D³uga i ciê¿ka ko¶æ lezy tutaj.~
+Material ko¶æ~
+Type weapon
+ExtraExt 0|d
+Wear AN
+Wear2Ext 0|EFGHIJ
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 2 8 27 0 -2 0
+Repair 0 0 0 0
+Weight 300
+Cost 0
+Cond 100
+Itemdesc Dluga i ciezka kosc jakiegos zwierzecia. Na calej dlugosci widac slady
+zarysowan i pekniec, prawdopodobnie uzywano jej jako broni. Wlasciciel tego
+'oreza' musial byc naprawde silny, ledwo mozesz kosc utrzymac w rece a co
+dopiero tym wywijac. 
+~
+Comments ~
+Objend
 #Vnum 0
 
 
 
 #ROOMS
+#Vnum 6500
+Name {gPokój techniczny{x~
+Descr ~
+FlagsExt 0|CT
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 6501
 Name Ciemna odnoga korytarza~
 FlagsExt 0|A
@@ -3008,7 +3039,8 @@ S
 #MOBPROGSNEW
 #6500
 ~
-mob equip self 3158
+mob equip self 6500
+
 if rand 90
   mob addgroup 6500
 else
@@ -3016,6 +3048,7 @@ else
     mob addgroup 6501
   endif
 endif
+
 if rand 95
   mob oload random 4
 endif

@@ -108,10 +108,8 @@ Sex male
 Wealth 12000
 Form AFHMV
 Parts ABCDEFGHIJKR
-Size huge
+Size large
 Material unknown
-Comments Zmiana size z 'large' na 'huge' - jak kolos to kolos. - {RHorg{x ({CThu May 23 16:57:43 2013{x)
-~
 MobprogNew fight acheron_fight_3 H 10~
 MobprogNew death smierc_boga ABCDEFGHI 100~
 MobprogNew fight 46559 H 10~
@@ -377,11 +375,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 100 40976 50 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4000
 Cost 1
 Cond 100
@@ -403,11 +401,11 @@ ExtraExt 0|Ad
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 1
 Cond 100
@@ -427,11 +425,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 19000
 Cost 1
 Cond 100
@@ -439,6 +437,30 @@ Itemdesc Pos±g ten przedstawia olbrzymi± postaæ jakiego¶ cz³owieka o niezwykle
 g³adkich rysach twarzy, olbrzymich miê¶niach. Oczy zosta³y wykonane z jaki¶
 rzadkich kamieni szlachetnych gdy¿ ¶wiec± na {Rczerwono{x. Zaprawdê, ten pos±g
 musia³ wyrze¼biæ jaki¶ bóg, gdy¿ jest doskona³y. 
+~
+Comments ~
+Objend
+#Vnum 46544
+Name wygodne ³ó¿ko~
+Odmiana wygodnego ³ó¿ka~wygodnemu ³ó¿ku~wygodne ³ó¿ko~wygodnym ³ó¿kiem~wygodnym ³ó¿ku~
+Short wygodne ³ó¿ko~
+Descr Dosyc wygodne ³ó¿ko, pokryte kurzem stoi w rogu komnaty.~
+Material stal~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 120 144 0 100 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 1
+Cond 100
+Itemdesc Wygodne ³ó¿ko przeznaczone dla kap³anów ¿yj±cych kiedy¶ w tej ¶wi±tyni.
+Jest nieco obskurne ale nadal nadaje siê do odpoczynku. 
 ~
 Comments ~
 Objend
@@ -453,16 +475,40 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 1
 Cond 50
 Itemdesc Jest to stary klucz wykonany ze stali. Pasuje prawdopodobnie do równie
 starych drzwi. 
+~
+Comments ~
+Objend
+#Vnum 46546
+Name {ydêbowy stó³{x~
+Odmiana {ydêbowego sto³u{x~{ydêbowemu sto³owi{x~{ydêbowy stó³{x~{ydêbowym sto³em{x~{ydêbowym stole{x~
+Short {ydêbowy stó³{x~
+Descr Stary, {ydêbowy stó³{x stoi na ¶rodku komnaty.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 100 8200 100 100 0 0
+Repair 0 0 0 0
+Weight 1300
+Cost 1
+Cond 80
+Itemdesc Stary stó³ wykonany z mocnego, dêbowego drewna. Chocia¿ wydaje siê to
+dziwne, mimo up³ywu wielu lat stó³ ten wydajê siê trzymaæ ca³kiem nie¼le. 
 ~
 Comments ~
 Objend
@@ -477,18 +523,18 @@ ExtraExt 0|DG
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 250
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 30000
 Cond 100
-Aff 1 30 6 0 0 0
-Aff 1 3 6 0 0 0
-Aff 1 1 6 0 0 0
-Aff 1 4 6 0 0 0
+Aff 1 1 1 0 0 0
+Aff 1 4 1 0 0 0
+Aff 1 3 1 0 0 0
+Aff 1 30 1 0 0 0
 Objprog wear 46547 100~
 Itemdesc {YNaszyjnik{x {Bnieskoñczonej{x {Rmocy{x zosta³ stworzony jeszcze zanim powsta³
 istniej±cy ¶wiat. Powsta³o kilka takich naszyjników, w które nas±czono
@@ -506,6 +552,206 @@ niewyobra¿alne wrecz rany u ka¿dej istoty, która go za³o¿y.
 ~
 Comments ~
 Objend
+#Vnum 46548
+Name kielich~
+Odmiana {Ykielicha{x~{Ykielichowi{x~{Ykielich{x~{Ykielichem{x~{Ykielichu{x~
+Short {Ykielich{x~
+Descr {YKielich{x le¿y porzucony na ziemi.~
+Material z³oto~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 40
+LiczbaMnoga 0
+Gender 0
+Value 1 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 120
+Cond 50
+Itemdesc Jest to rytualny kielich, którego u¿ywa siê do odprawiania ¶wiêtych
+nabo¿eñstw lub innych rytua³ów. Ten jest bardzo stary, gdy¿ z³oto z którego
+by³ zrobiony straci³o swój blask bardzo dawno temu. 
+~
+Comments ~
+Objend
+#Vnum 46549
+Name zbroja mroku~
+Odmiana {Dzbroji mroku{x~{Dzbroji mroku{x~{Dzbroje mroku{x~{Dzbroj± mroku{x~{Dzbroji mroku{x~
+Short {Dzbroja mroku{x~
+Descr Piêkna zbroja wykonana z {Dadamatytu{x le¿y tutaj.~
+Material adamantyt~
+Type armor
+ExtraExt 0|AGPT
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 60
+Cond 100
+Aff 1 17 -20 0 0 0
+Itemdesc Jest to wzmacniana zbroja p³ytowa w ca³o¶ci wykonana z {Dadamatytu{x.
+Nas±czona jest olbrzymi± moc± gdy¿ emanuje niesamowitym, mrocznym i ch³odnym
+blaskiem. 
+~
+Comments ~
+Objend
+#Vnum 46550
+Name ogniste sanda³y~
+Odmiana {Rognistych sanda³ów{x~{Rognistym sanda³om{x~{Rogniste sanda³y{x~{Rognistymi sanda³ami{x~{Rognistych sanda³ach{x~
+Short {Rogniste sanda³y{x~
+Descr Sanda³y, które otacza lekka, czerwona po¶wiata, le¿± tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0|DGPT
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 80
+Cost 60
+Cond 100
+Aff 1 12 5 10 0 0
+Itemdesc Skórzane sanda³y, dosyæ du¿ych rozmiarów. Emanuje od nich dziwna moc, a
+same otoczone s± czerwon± po¶wiat±, która powoduje, ¿e wygl±daj± jak para
+pal±cych siê butów. 
+~
+Comments ~
+Objend
+#Vnum 46551
+Name stary miecz~
+Odmiana starego miecza~staremu mieczowi~stary miecz~starym mieczem~starym mieczu~
+Short stary miecz~
+Descr Stary miecz le¿y tutaj porzucony przez kogo¶.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 1 2 4 1 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 300
+Cond 10
+Itemdesc Ten miecz niegdy¶ by³ napewno dobr± broni±, lecz teraz nie nadaje siê ju¿
+do walki. Jest stary, nad³amany w niektórych miejscach i przy mocniejszym
+uderzeniu mo¿e siê z³amaæ. 
+~
+Comments ~
+Objend
+#Vnum 46552
+Name szkielet podró¿nika~
+Odmiana szkieletu podró¿nika~szkieletowi podró¿nika~szkielet podró¿nika~szkieletem podró¿nika~szkielecie podró¿nika~
+Short szkielet podró¿nika~
+Descr Po¿ó³k³y ju¿ szkielet jakiego¶ podró¿nika le¿y miêdzy filarami.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 1000
+Cost 60
+Cond 60
+Itemdesc Po¿ó³k³y szkielet jakiego¶ biednego podró¿nika. Ko¶ci maj± barwê zó³t±
+wiec le¿y tutaj napewno od niepamiêtnych czasów. Nie zgino³ ¶mierci±
+naturaln± gdy¿ co¶ uraw³o mu kilka ¿eber. 
+~
+Comments ~
+Objend
+#Vnum 46554
+Name gnomi pancerz~
+Odmiana gnomiego pancerza~gnomiemu pancerzowi~gnomi pancerz~gnomim pancerzem~gnomim pancerzu~
+Short gnomi pancerz~
+Descr Malutki pancerz wykonany z br±zu le¿y na ziemi.~
+Material br±z~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|W
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 4 4 4 10 10 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 60
+Cond 80
+Itemdesc Jest to pancerz, wykonany z br±zu. Jego rozmiary pozwalaj± my¶leæ, ¿e
+za³o¿y go jedynie jaka¶ ma³a istota. 
+~
+Comments ~
+Objend
+#Vnum 46555
+Name buty z br±zu~
+Odmiana butów z br±zu~butom z br±zu~buty z br±zu~butami z br±zu~butach z br±zu~
+Short buty z br±zu~
+Descr Buty wykonane z br±zu le¿± tutaj.~
+Material br±z~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0|ACLM
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 4 4 4 10 10 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 1800
+Cond 100
+Itemdesc Buty wykonane z br±zu. Stanowi± doskona³± ochronê stóp. 
+~
+Comments ~
+Objend
+#Vnum 46556
+Name stalowy zardzewia³y he³m~
+Odmiana zardzewia³ego stalowego he³mu~zardzewia³emu stalowemu he³mowi~zardzewia³y stalowy he³m~zardzewia³ym stalowym he³mem~zardzewia³ym stalowym he³mie~
+Short zardzewia³y stalowy he³m~
+Descr Stary, zardzewia³y ju¿ he³m, le¿y tutaj na ziemi.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0|ACLM
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 7 8 3 10 9 0 0
+Repair 0 0 0 0
+Weight 70
+Cost 600
+Cond 60
+Itemdesc Jest to he³m wykonany z po¿±dnej, stali. Zapewnia doskona³a ochronê
+g³owy, gdy¿ zabezpiecza dobrze g³owê. Kark równie¿ jest dobrze
+zabezpieczony, dziêki stalowej wypustce w dolnej czê¶ci. He³m jest jednak
+nieco starawy i napewno du¿o mniej odporny ni¿ kiedy¶. 
+~
+Comments ~
+Objend
 #Vnum 46559
 Name {cstara szmata{x~
 Odmiana {cstarej szamty{x~{cstarej szmacie{x~{cstar± szmate{x~{cstar± szmat±{x~{cstarej szmacie{x~
@@ -517,11 +763,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 75
@@ -541,11 +787,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 33 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 20000
 Cond 75
@@ -567,11 +813,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 3
 Value 0 1 33 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 20000
 Cond 100
@@ -592,11 +838,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 3
 Value 0 0 33 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 20000
 Cond 75
@@ -617,11 +863,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1000 200 10 2 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1538,34 +1784,34 @@ S
 #RESETS
 M 100 46556 1 46541 1
 E 100 46559 0 5
-E 100 3045 0 6
+E 100 3068 0 6
 E 100 3097 0 16
 M 100 46553 2 46542 2
-O 100 3369 0 46544
-O 100 3179 0 46544
+O 100 46552 0 46544
+O 100 46551 0 46544
 M 100 46553 2 46545 2
 O 100 46541 0 46547
-O 100 3339 0 46547
+O 100 46548 0 46547
 M 100 46550 1 46550 1
-E 100 3145 0 16
+E 100 3023 0 16
 G 100 46542 0
 G 100 46561 0
 O 100 46543 0 46553
 M 100 46552 1 46554 1
-E 100 3145 0 16
+E 100 3023 0 16
 G 100 46545 0
 M 100 46551 1 46555 1
-E 100 4416 0 8
-E 100 3017 0 5
-O 100 2358 0 46556
-O 100 2362 0 46556
+E 100 46550 0 8
+E 100 46549 0 5
+O 100 46544 0 46556
+O 100 46546 0 46556
 M 100 46554 1 46557 1
 M 100 46555 1 46560 1
-E 100 3051 0 7
-E 100 3179 0 17
-E 100 3179 0 16
-E 100 3025 0 5
-E 100 3001 0 8
+E 100 3092 0 7
+E 100 3022 0 17
+E 100 3022 0 16
+E 100 46554 0 5
+E 100 46555 0 8
 O 100 15701 0 46563
 S
 
@@ -1615,7 +1861,13 @@ if rand 50
   endif
 endif
 
-mob equip self 3349
+##£ADOWANIE ARTEFAKTÓW
+##   dwurêczny m³ot 'Ramie Trwogi'
+if rand 95
+  if canloadarte 182
+    mob aload 182 wield
+  endif
+endif
 
 ##  naszyjnik nieskoñczonej mocy
 if rand 95

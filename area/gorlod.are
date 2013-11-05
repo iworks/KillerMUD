@@ -345,6 +345,29 @@ Mobend
 
 
 #OBJECTS
+#Vnum 17801
+Name ksiazka ksiega zakurzona~
+Odmiana zakurzonej ksiegi~zakurzonej ksiedze~zakurzona ksiege~zakurzona ksiega~zakurzonej ksiedze~
+Short magiczna ksiêga~
+Descr Le¿y tutaj zakurzona, magiczna ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 116
+LiczbaMnoga 0
+Gender 0
+Value 0 5 142 362 141 15 0
+Repair 0 0 0 0
+Weight 10
+Cost 20940
+Cond 100
+Itemdesc Zakurzona ksiega, w dosc solidnej oprawie, z grubymi, wyblaklymi kartkami.
+~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -1089,6 +1112,10 @@ mob cast 'lightning bolt' $n
 mob cast 'lightning bolt' $n
 endif
 ~
+#17805
+~
+mob oload 17801 r 
+~
 #17808
 ~
 if rand 50
@@ -1115,6 +1142,10 @@ endif
 ~
 mob echo Obserwator nie ¿yje!
 mob echo Obserwator pada na ziemiê...MARWY!!
+if rand 60
+  mob echo Jaka¶ dziwna, niewielka ksiêga nagle upada na ziemiê.
+  mob oload 17801 r
+endif
 mob oload 20361 r
 ~
 #0

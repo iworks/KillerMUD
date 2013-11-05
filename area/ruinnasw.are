@@ -57,7 +57,7 @@ MobprogNew entry 21902 FGI 100~
 MobprogNew onload 21901 ABCDEFGHI 100~
 Spells 230 231 30 28
 Spells 160 152 275 272
-Spells 38 55 0 0
+Spells 38 0 0 0
 Skin 100
 ExpMultiplier 100
 Resist 12 100
@@ -176,11 +176,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 3 600 16 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 9000
 Cost 1
 Cond 50
@@ -200,11 +200,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4000
 Cost 1
 Cond 75
@@ -224,11 +224,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 25500
 Cost 1
 Cond 75
@@ -249,11 +249,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20000
 Cost 1
 Cond 75
@@ -277,11 +277,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 6000
 Cost 1
 Cond 75
@@ -1243,6 +1243,17 @@ Exit 2
 ~
 ~
 0 0 21921
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15649
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15649
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1630,14 +1641,14 @@ S
 #MOBPROGSNEW
 #21901
 ~
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3016
-mob equip self 3045
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 3297
+mob equip self 3068
 mob oload shield 3 wear
-
-mob equip self 3145 hold
+mob equip self 3023
+mob equip self 3023 hold
 mob oload 46562
 ~
 #21902

@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -33,8 +33,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: interp.h 12408 2013-06-12 12:29:02Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/interp.h $
+ * $Id: interp.h 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/interp.h $
  *
  */
 void do_function args((CHAR_DATA *ch, DO_FUN *do_fun, char *argument));
@@ -125,6 +125,7 @@ DECLARE_DO_FUN(	do_brandish	);
 DECLARE_DO_FUN(	do_bug		);
 DECLARE_DO_FUN(	do_buy		);
 DECLARE_DO_FUN(	do_cast		);
+DECLARE_DO_FUN( do_changes	);
 DECLARE_DO_FUN( do_clone	);
 DECLARE_DO_FUN(	do_close	);
 DECLARE_DO_FUN(	do_colour	);
@@ -227,6 +228,7 @@ DECLARE_DO_FUN( do_mpdump	);
 DECLARE_DO_FUN(	do_murde	);
 DECLARE_DO_FUN( do_music	);
 DECLARE_DO_FUN( do_newlock	);
+DECLARE_DO_FUN( do_news		);
 DECLARE_DO_FUN( do_nochannels	);
 DECLARE_DO_FUN(	do_noemote	);
 DECLARE_DO_FUN( do_nofollow	);
@@ -234,6 +236,7 @@ DECLARE_DO_FUN( do_noloot	);
 DECLARE_DO_FUN(	do_north	);
 DECLARE_DO_FUN(	do_noshout	);
 /*DECLARE_DO_FUN( do_nosummon	);*/
+DECLARE_DO_FUN(	do_note		);
 DECLARE_DO_FUN(	do_blocktell	);
 DECLARE_DO_FUN( do_blocknewbie );
 DECLARE_DO_FUN(	do_ofind	);
@@ -353,6 +356,7 @@ DECLARE_DO_FUN(	do_typ		);
 DECLARE_DO_FUN(	do_typo		);
 DECLARE_DO_FUN( do_unalias	);
 DECLARE_DO_FUN(	do_unlock	);
+DECLARE_DO_FUN( do_unread	);
 DECLARE_DO_FUN(	do_up		);
 DECLARE_DO_FUN(	do_value	);
 DECLARE_DO_FUN(	do_visible	);
@@ -392,6 +396,7 @@ DECLARE_DO_FUN( do_dismount	);
 DECLARE_DO_FUN( do_prewait	);
 DECLARE_DO_FUN(	do_track	);
 DECLARE_DO_FUN(	do_turn		);
+DECLARE_DO_FUN(	do_test		);
 DECLARE_DO_FUN(	do_rmap		);
 DECLARE_DO_FUN(	do_names	);
 DECLARE_DO_FUN(	do_secret	);
@@ -482,7 +487,6 @@ DECLARE_DO_FUN( abort_healing_touch );
 DECLARE_DO_FUN( do_bounty           );
 DECLARE_DO_FUN( do_reward           );
 DECLARE_DO_FUN( do_double_grip      );
-DECLARE_DO_FUN( do_ungrip           );
 DECLARE_DO_FUN( do_pipe             );
 DECLARE_DO_FUN( do_moon_phase       );
 DECLARE_DO_FUN( do_throw            );
@@ -491,7 +495,6 @@ DECLARE_DO_FUN( do_blows            );
 DECLARE_DO_FUN( do_uncloak          );
 DECLARE_DO_FUN( do_pre_holy_prayer  );
 DECLARE_DO_FUN( do_holy_prayer      );
-DECLARE_DO_FUN( do_invoke           );
 DECLARE_DO_FUN( do_sanct			);
 DECLARE_DO_FUN( do_tricks			);
 DECLARE_DO_FUN( do_introduce		);
@@ -520,4 +523,3 @@ DECLARE_DO_FUN( do_acid_breath ); //j/w tyle ¿e kwasem
 DECLARE_DO_FUN( do_lightning_breath ); //j/w tyle ¿e piorunami
 DECLARE_DO_FUN( do_fvlist           ); // FREE VNUM LISTING by The Mage (c) 1998
 DECLARE_DO_FUN( do_identify ); // identyfikowanie przedmiotow u moba
-DECLARE_DO_FUN( do_release_spirit );

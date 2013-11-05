@@ -230,6 +230,30 @@ Mobend
 
 
 #OBJECTS
+#Vnum 17001
+Name podarta koszula~
+Odmiana podartej koszuli~podartej koszuli~podarta koszule~podarta koszula~podartej koszuli~
+Short podarta koszula~
+Descr Sfatygowana podarta koszula bez guzikow lezy tutaj.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 20
+Itemdesc Zabrudzona i postrzêpiona koszule, obficie pokryta dziurami zrobionymi w
+materiale poprzez ostre pazury nieznanych ci zwierz±t. 
+~
+Comments ~
+Objend
 #Vnum 17002
 Name sterta gruzu sterta17002~
 Odmiana serty gruzu~sercie gruzu~sertê gruzu~sert± gruzu~sercie gruzu~
@@ -241,11 +265,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -268,11 +292,11 @@ ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 500 0 0 0 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 700
 Cost 60
 Cond 10
@@ -295,11 +319,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 400
 Cost 0
 Cond 100
@@ -308,6 +332,60 @@ Itemdesc G³az ten jest okazem wielkiego hamulca, który odpa¶æ musia³ albo od
 ¶cian, albo od stropu kopalni bardzo dawno temu. Pokryty jest licznymi
 pêkniêciami i jest du¿a mo¿liwo¶æ, iz w takowym znajdowaæ siê mo¿e jaki¶
 ukryty minera³. 
+~
+Comments ~
+Objend
+#Vnum 17005
+Name Porozrzucane ¶mieci~
+Odmiana porozrzucanych ¶mieci~porozrzucanych ¶mieciom~porozrzucane ¶mieci~porozrzucanymi ¶mieciami~porozrzucanych ¶mieciach~
+Short porozrzucane ¶mieci~
+Descr Porozrzucane ¶mieci walaj± siê po ziemi.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 0
+Cond 75
+Itemdesc Widzisz kupkê brzydkich, ¶mierdz±cych porozrzucanych ¶mieci.
+Prawdopodobnie kupka ta zosta³a uformowana przez wiatr, który zebra³ ¶mieci
+w jedno miejsce. W³a¶ciwie nie da siê rozpoznaæ z czego dok³adnie sk³adaj±
+siê ¶mieci, s± one ju¿ tak przegnite i stare, ¿e nie da siê zidentyfikowaæ
+czym by³y parê miesiêcy temu. Chyba lepiej tego nie ruszaæ. 
+~
+Comments ~
+Objend
+#Vnum 17007
+Name po³amany topór~
+Odmiana po³amanego topora~po³amanemu toporowi~po³amany topór~po³amanym toporem~null~
+Short po³amany topór~
+Descr Po³amany topór le¿y tutaj i prosi siê o naprawê.~
+Material unused~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Widzisz brzydki, stary po³amany topór wojenny. Prawdopodobnie by³ to
+dobry i ostry topór, ale jakie¶ 100 lat temu, aktualnie nadaje siê on na
+z³om. Ostrze ju¿ dawno zardzewia³o i wykrzywi³o siê, a trzon wygl±da jakby
+zaraz mia³ siê po³amaæ. Szkoda, ¿e taka piêkna broñ sta³a siê bezu¿yteczna,
+tylko dlatego, ¿e kto¶ o niej zapomnia³. 
 ~
 Comments ~
 Objend
@@ -322,11 +400,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1661,18 +1739,18 @@ S
 
 
 #RESETS
-O 100 3321 0 17001
 M 100 17004 4 17001 1
+O 100 17005 0 17001
 M 100 17001 1 17002 1
-E 100 4363 0 5
+E 100 17001 0 5
 M 100 17004 6 17003 1
 O 100 17004 0 17003
 M 100 17010 4 17003 1
 M 100 17004 1 17004 1
 M 100 17020 6 17004 1
-O 100 3321 0 17005
+O 100 17005 0 17005
 M 100 17010 7 17006 1
-O 100 3178 0 17007
+O 100 17007 0 17007
 M 100 17020 5 17007 1
 M 100 17009 1 17009 1
 M 100 17009 2 17010 1
@@ -1680,17 +1758,18 @@ M 100 17010 1 17010 1
 M 100 17004 8 17012 1
 M 100 17010 2 17012 1
 M 100 17009 3 17013 1
-O 100 3178 0 17014
+O 100 17007 0 17014
 M 100 17020 4 17014 1
 M 100 17004 6 17015 1
 O 100 17017 0 17015
+O 100 17005 0 17016
 M 100 17020 1 17017 1
 O 100 17017 0 17017
 M 100 17020 1 17018 1
 M 100 17020 1 17019 1
-O 100 3321 0 17020
+O 100 17005 0 17020
 O 100 17017 0 17020
-O 100 3321 0 17021
+O 100 17005 0 17021
 M 100 17020 2 17021 1
 M 100 17010 5 17021 1
 M 100 17009 6 17029 1

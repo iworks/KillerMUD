@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -26,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: olc.c 12232 2013-04-09 09:39:52Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/olc.c $
+ * $Id: olc.c 10996 2012-02-19 11:33:02Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/olc.c $
  *
  */
 #if defined(macintosh)
@@ -51,7 +51,7 @@
 /*
  * Local functions.
  */
-AREA_DATA *get_area_data	args( ( unsigned int vnum ) );
+AREA_DATA *get_area_data	args( ( ush_int vnum ) );
 char *getline_olc args( ( char *str, char *buf ) );
 
 /* Executed from comm.c. Minimizes compiling when changes are made. */
@@ -419,7 +419,6 @@ const struct olc_cmd_type oedit_table[] =
 	{	"v5",			oedit_value5		},
 	{	"v6",			oedit_value6		},
 	{	"weight",		oedit_weight		},
-	{	"length",		oedit_length		},
 	{	"extra",		oedit_extra			},
 	{	"exwear",		oedit_exwear		},
 	{	"wear",			oedit_wear			},
@@ -522,7 +521,7 @@ Name:		get_area_data
 Purpose:	Returns pointer to area with given vnum.
 Called by:	do_aedit(olc.c).
  ****************************************************************************/
-AREA_DATA *get_area_data( unsigned int vnum )
+AREA_DATA *get_area_data( ush_int vnum )
 {
 	AREA_DATA *pArea;
 
@@ -1350,18 +1349,9 @@ void display_resets( CHAR_DATA *ch )
 				}
 
 				pMob = pMobIndex;
-                sprintf
-                    (
-                     buf,
-                     "M[%5d] %-13.13s in room        %3d  R[%5d] %2d-%2d %-15.15s\n\r",
-                     pReset->arg1,
-                     strip_colour_codes( pMob->short_descr ),
-                     pReset->arg0,
-                     pReset->arg3,
-                     pReset->arg2,
-                     pReset->arg4,
-                     strip_colour_codes( pRoomIndex->name )
-                    );
+				sprintf( buf, "M[%5d] %-13.13s in room        %3d  R[%5d] %2d-%2d %-15.15s\n\r",
+						pReset->arg1, pMob->short_descr,pReset->arg0, pReset->arg3,
+						pReset->arg2, pReset->arg4, pRoomIndex->name );
 				strcat( final, buf );
 
 				/*
@@ -1372,10 +1362,9 @@ void display_resets( CHAR_DATA *ch )
 					ROOM_INDEX_DATA *pRoomIndexPrev;
 
 					pRoomIndexPrev = get_room_index( pRoomIndex->vnum - 1 );
-					if ( pRoomIndexPrev && EXT_IS_SET( pRoomIndexPrev->room_flags, ROOM_PET_SHOP ) )
-                    {
+					if ( pRoomIndexPrev
+							&& EXT_IS_SET( pRoomIndexPrev->room_flags, ROOM_PET_SHOP ) )
 						final[5] = 'P';
-                    }
 				}
 
 				break;
@@ -1383,7 +1372,8 @@ void display_resets( CHAR_DATA *ch )
 			case 'O':
 				if ( !( pObjIndex = get_obj_index( pReset->arg1 ) ) )
 				{
-					sprintf( buf, "Load Object - Bad Object %d\n\r", pReset->arg1 );
+					sprintf( buf, "Load Object - Bad Object %d\n\r",
+							pReset->arg1 );
 					strcat( final, buf );
 					continue;
 				}
@@ -1397,16 +1387,10 @@ void display_resets( CHAR_DATA *ch )
 					continue;
 				}
 
-                sprintf
-                    (
-                     buf,
-                     "O[%5d] %-13.13s in room        %3d  R[%5d]       %-15.15s\n\r",
-                     pReset->arg1,
-                     strip_colour_codes( pObj->short_descr ),
-                     pReset->arg0,
-                     pReset->arg3,
-                     strip_colour_codes( pRoomIndex->name )
-                    );
+				sprintf( buf, "O[%5d] %-13.13s in room        %3d  "
+						"R[%5d]       %-15.15s\n\r",
+						pReset->arg1, pObj->short_descr,pReset->arg0,
+						pReset->arg3, pRoomIndex->name );
 				strcat( final, buf );
 
 				break;
@@ -1414,7 +1398,8 @@ void display_resets( CHAR_DATA *ch )
 			case 'P':
 				if ( !( pObjIndex = get_obj_index( pReset->arg1 ) ) )
 				{
-					sprintf( buf, "Put Object - Bad Object %d\n\r", pReset->arg1 );
+					sprintf( buf, "Put Object - Bad Object %d\n\r",
+							pReset->arg1 );
 					strcat( final, buf );
 					continue;
 				}
@@ -1423,23 +1408,20 @@ void display_resets( CHAR_DATA *ch )
 
 				if ( !( pObjToIndex = get_obj_index( pReset->arg3 ) ) )
 				{
-					sprintf( buf, "Put Object - Bad To Object %d\n\r", pReset->arg3 );
+					sprintf( buf, "Put Object - Bad To Object %d\n\r",
+							pReset->arg3 );
 					strcat( final, buf );
 					continue;
 				}
 
-                sprintf
-                    (
-                     buf,
-                     "O[%5d] %-13.13s inside         %3d  O[%5d] %2d-%2d %-15.15s\n\r",
-                     pReset->arg1,
-                     strip_colour_codes( pObj->short_descr ),
-                     pReset->arg0,
-                     pReset->arg3,
-                     pReset->arg2,
-                     pReset->arg4,
-                     strip_colour_codes( pObjToIndex->short_descr )
-                    );
+				sprintf( buf,
+						"O[%5d] %-13.13s inside         %3d  O[%5d] %2d-%2d %-15.15s\n\r",
+						pReset->arg1,
+						pObj->short_descr,pReset->arg0,
+						pReset->arg3,
+						pReset->arg2,
+						pReset->arg4,
+						pObjToIndex->short_descr );
 				strcat( final, buf );
 
 				break;
@@ -1448,7 +1430,8 @@ void display_resets( CHAR_DATA *ch )
 			case 'E':
 				if ( !( pObjIndex = get_obj_index( pReset->arg1 ) ) )
 				{
-					sprintf( buf, "Give/Equip Object - Bad Object %d\n\r", pReset->arg1 );
+					sprintf( buf, "Give/Equip Object - Bad Object %d\n\r",
+							pReset->arg1 );
 					strcat( final, buf );
 					continue;
 				}
@@ -1464,30 +1447,23 @@ void display_resets( CHAR_DATA *ch )
 
 				if ( pMob->pShop )
 				{
-                    sprintf
-                        (
-                         buf,
-                         "O[%5d] %-13.13s inv S[%5d]   %3d     %-15.15s\n\r",
-                         pReset->arg1,
-                         strip_colour_codes( pObj->short_descr ),
-                         pMob->vnum,
-                         pReset->arg0,
-                         strip_colour_codes( pMob->short_descr )
-                        );
+					sprintf( buf,
+							"O[%5d] %-13.13s inv S[%5d]   %3d     %-15.15s\n\r",
+							pReset->arg1,
+							pObj->short_descr,
+							pMob->vnum,pReset->arg0,
+							pMob->short_descr  );
 				}
 				else
-                    sprintf
-                        (
-                         buf,
-                         "O[%5d] %-13.13s %-14.14s %3d  M[%5d]       %-15.15s\n\r",
-                         pReset->arg1,
-                         strip_colour_codes( pObj->short_descr ),
-                         (pReset->command == 'G') ?
-                         flag_string( wear_loc_strings, WEAR_NONE )
-                         : flag_string( wear_loc_strings, pReset->arg3 ),pReset->arg0,
-                         pMob->vnum,
-                         strip_colour_codes( pMob->short_descr )
-                        );
+					sprintf( buf,
+							"O[%5d] %-13.13s %-14.14s %3d  M[%5d]       %-15.15s\n\r",
+							pReset->arg1,
+							pObj->short_descr,
+							(pReset->command == 'G') ?
+							flag_string( wear_loc_strings, WEAR_NONE )
+							: flag_string( wear_loc_strings, pReset->arg3 ),pReset->arg0,
+							pMob->vnum,
+							pMob->short_descr );
 				strcat( final, buf );
 
 				break;
@@ -1499,15 +1475,11 @@ void display_resets( CHAR_DATA *ch )
 				 */
 			case 'D':
 				pRoomIndex = get_room_index( pReset->arg1 );
-                sprintf
-                    (
-                     buf,
-                     "R[%5d] %s door of %-19.19s reset to %s\n\r",
-                     pReset->arg1,
-                     capitalize( dir_name[ pReset->arg2 ] ),
-                     strip_colour_codes( pRoomIndex->name ),
-                     flag_string( door_resets, pReset->arg3 ) 
-                    );
+				sprintf( buf, "R[%5d] %s door of %-19.19s reset to %s\n\r",
+						pReset->arg1,
+						capitalize( dir_name[ pReset->arg2 ] ),
+						pRoomIndex->name,
+						flag_string( door_resets, pReset->arg3 ) );
 				strcat( final, buf );
 
 				break;
@@ -1517,12 +1489,14 @@ void display_resets( CHAR_DATA *ch )
 			case 'R':
 				if ( !( pRoomIndex = get_room_index( pReset->arg1 ) ) )
 				{
-					sprintf( buf, "Randomize Exits - Bad Room %d\n\r", pReset->arg1 );
+					sprintf( buf, "Randomize Exits - Bad Room %d\n\r",
+							pReset->arg1 );
 					strcat( final, buf );
 					continue;
 				}
 
-				sprintf( buf, "R[%5d] Exits are randomized in %s\n\r", pReset->arg1, pRoomIndex->name );
+				sprintf( buf, "R[%5d] Exits are randomized in %s\n\r",
+						pReset->arg1, pRoomIndex->name );
 				strcat( final, buf );
 
 				break;
@@ -1897,29 +1871,25 @@ void do_alist( CHAR_DATA *ch, char *argument )
     char result [ MAX_STRING_LENGTH * 2 ];	/* May need tweaking. */
     char author [ MAX_STRING_LENGTH ];
     AREA_DATA *pArea, *area_min = NULL;
-    unsigned int min_vnm = 0, vnm = 0;
+    int min_vnm = -1, vnm = -1;
     BUFFER *buffer;
     bool all = FALSE;
     bool found = FALSE;
-    unsigned int vnum, rooms, objects, mobiles;
+    ush_int vnum, rooms, objects, mobiles;
 
     argument = one_argument( argument, author );
 
     if ( IS_NPC( ch ) )
-    {
-        return;
-    }
+        return ;
 
     if ( author[ 0 ] != '\0' )
-    {
         author[ 0 ] = UPPER( author[ 0 ] );
-    }
 
     while ( !all )
     {
         for ( pArea = area_first; pArea; pArea = pArea->next )
         {
-            if ( vnm < 1 && pArea->min_vnum > min_vnm )
+            if ( vnm < 0 && pArea->min_vnum > min_vnm )
             {
                 vnm = pArea->min_vnum;
                 area_min = pArea;
@@ -1931,16 +1901,13 @@ void do_alist( CHAR_DATA *ch, char *argument )
             }
         }
 
-
         if ( area_min )
         {
-            if (
-                    author[ 0 ] != '\0'	&&
+            if ( author[ 0 ] != '\0'	&&
                     !strstr( area_min->builders, "All" ) &&
-                    !strstr( area_min->builders, author )
-               )
+                    !strstr( area_min->builders, author ) )
             {
-                vnm = 0;
+                vnm = -1;
                 min_vnm = area_min->max_vnum;
                 area_min = NULL;
                 continue;
@@ -1987,24 +1954,18 @@ void do_alist( CHAR_DATA *ch, char *argument )
                 add_buf( buffer, buf );
             }
 
-            vnm = 0;
+            vnm = -1;
             min_vnm = area_min->max_vnum;
             area_min = NULL;
         }
         else
-        {
             all = TRUE;
-        }
     }
 
     if ( found )
     {
         page_to_char( buf_string( buffer ), ch );
         free_buf( buffer );
-    }
-    else
-    {
-        send_to_char( "Nie znaleziono zadnej krainy.\n\r", ch );
     }
     return ;
 }
@@ -2074,7 +2035,7 @@ void do_mlist( CHAR_DATA *ch, char *argument )
 	char		arg  [ MAX_INPUT_LENGTH    ];
 	bool fAll = FALSE, detailed = FALSE;
 	bool found;
-	unsigned int vnum;
+	ush_int vnum;
 	int  colors;
 	int  col = 0;
 
@@ -2166,7 +2127,7 @@ void do_tlist( CHAR_DATA *ch, char *argument )
 	char buffer[ MAX_STRING_LENGTH   ];
 	BUFFER *buf;
 	bool found = FALSE;
-	unsigned int vnum;
+	ush_int vnum;
 	OBJ_INDEX_DATA *pObj;
 	int index, i;
 	ROOM_INDEX_DATA *pRoom;
@@ -2263,7 +2224,7 @@ void do_olist( CHAR_DATA *ch, char *argument )
     char arg [ MAX_INPUT_LENGTH ];
     bool fAll = FALSE, detailed = FALSE;
     bool found;
-    unsigned int vnum;
+    ush_int vnum;
     int col = 0;
     int colors;
 
@@ -2357,8 +2318,7 @@ void do_rlist( CHAR_DATA *ch, char *argument )
     BUFFER *buf1;
     char arg [ MAX_INPUT_LENGTH ];
     bool found = FALSE, detailed = FALSE;;
-    unsigned int vnum;
-    ush_int col = 0;
+    ush_int vnum, col = 0;
     int colors;
 
     one_argument( argument, arg );
@@ -2944,7 +2904,7 @@ void do_bslist( CHAR_DATA *ch, char *argument )
 	int count1 = 0;
 	int count2 = 0;
 	int colors;
-	unsigned int vnum;
+	ush_int vnum;
 	bool fAll;
 
 	buffer = new_buf();
@@ -3018,8 +2978,7 @@ void do_bslist( CHAR_DATA *ch, char *argument )
  */
 void do_fvlist (CHAR_DATA *ch, char *argument)
 {
-    unsigned int i,j = 0;
-    int column = 10;
+    int i,j = 0, column = 10;
     char arg[MAX_INPUT_LENGTH];
     char *string;
     string = one_argument(argument,arg);
@@ -3031,9 +2990,6 @@ void do_fvlist (CHAR_DATA *ch, char *argument)
         send_to_char("  fvlist room\n\r",ch);
         return;
     }
-    /**
-     * Objects
-     */
     if (!str_cmp(arg,"obj"))
     {
         printf_to_char(ch,"{WFree {C%s{W vnum listing for area {C%s{x\n\r", arg, ch->in_room->area->name );
@@ -3051,13 +3007,8 @@ void do_fvlist (CHAR_DATA *ch, char *argument)
                 else j++;
             }
         }
-        send_to_char("\n\r",ch);
-        return;
     }
-    /**
-     * Mobiles
-     */
-    if (!str_cmp(arg,"mob"))
+    else if (!str_cmp(arg,"mob"))
     {
         printf_to_char(ch,"{WFree {C%s {Wvnum listing for area {C%s{x\n\r", arg, ch->in_room->area->name);
         printf_to_char(ch,"{Y=============================================================================={x\n\r");
@@ -3074,14 +3025,9 @@ void do_fvlist (CHAR_DATA *ch, char *argument)
                 else j++;
             }
         }
-        send_to_char("\n\r",ch);
-        return;
     }
-    /**
-     * Locations
-     */
 
-    if (!str_cmp(arg,"room"))
+    else if (!str_cmp(arg,"room"))
     {
         printf_to_char(ch,"{WFree {C%s {Wvnum listing for area {C%s{x\n\r", arg, ch->in_room->area->name);
         printf_to_char(ch,"{Y=============================================================================={x\n\r");
@@ -3097,12 +3043,14 @@ void do_fvlist (CHAR_DATA *ch, char *argument)
                 else j++;
             }
         }
-        send_to_char("\n\r",ch);
-        return;
     }
-    send_to_char("Syntax:\n\r",ch);
-    send_to_char("  fvlist obj\n\r",ch);
-    send_to_char("  fvlist mob\n\r",ch);
-    send_to_char("  fvlist room",ch);
+    else
+    {
+        send_to_char("Syntax:\n\r",ch);
+        send_to_char("  fvlist obj\n\r",ch);
+        send_to_char("  fvlist mob\n\r",ch);
+        send_to_char("  fvlist room",ch);
+    }
     send_to_char("\n\r",ch);
 }
+

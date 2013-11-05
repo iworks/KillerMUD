@@ -15,10 +15,9 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
@@ -27,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: spells_mag.c 12400 2013-06-11 16:48:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/spells_mag.c $
+ * $Id: spells_mag.c 12217 2013-04-03 21:27:31Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/spells_mag.c $
  *
  */
 #if defined(macintosh)
@@ -66,7 +65,6 @@ CHAR_DATA *get_char_area( CHAR_DATA *ch, char *argument );
 
 bool check_dispel          args( ( int dis_level, CHAR_DATA *victim, int sn ) );
 bool check_improve_strenth args( ( CHAR_DATA *ch, CHAR_DATA *victim, bool verbose ) );
-bool transmute_strength_luck_dice  args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool check_shaman_invoke args( ( CHAR_DATA *ch ) );
 bool saves_dispel          args( ( int dis_level, int spell_level, int duration ) );
 int	find_door	           args( ( CHAR_DATA *ch, char *arg ) );
@@ -536,7 +534,7 @@ void spell_mass_invis( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		send_to_char( "Powoli znikasz.\n\r", gch );
 
 		af.where = TO_AFFECTS;
-		af.type = gsn_invis;
+		af.type = 65;
 		af.level = af_level;
 		af.duration = duration;
         af.rt_duration = 0;
@@ -1405,16 +1403,8 @@ void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo, int target )
             send_to_char( buf, ch );
             if ( obj->value[ 4 ] != 100 )
             {
-		if(!IS_SET( obj->value[1], CONT_COMP ))
-                {
-                    sprintf( buf, "Mno¿nik wagi: %d%%\n\r",
-                            obj->value[ 4 ] );
-                }
-		else
-                {
-                    sprintf( buf, "¯ywotno¶æ komponentów: %d%%\n\r",
-		    	    obj->value[ 4 ] );
-                }
+                sprintf( buf, "Mno¿nik wagi: %d%%\n\r",
+                        obj->value[ 4 ] );
                 send_to_char( buf, ch );
             }
             break;
@@ -1852,41 +1842,67 @@ void spell_haste( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 void spell_giant_strength( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-    CHAR_DATA * victim = ( CHAR_DATA * ) vo;
-    AFFECT_DATA af;
-    int luck, duration, mod;
+	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
+	AFFECT_DATA af;
+	int luck, duration, mod;
 
-    /**
-     * sprawdz affekty i forme
-     */
+	    	if (is_undead(victim) || IS_SET( victim->form, FORM_CONSTRUCT ) )
+	{
+		act( "Te zaklêcie nie zadzia³a na $C.", ch, NULL, victim, TO_CHAR );
+		return;
+	}
+
     if ( check_improve_strenth ( ch, victim, TRUE ) )
-    {
-        return;
-    }
+	{
+		if ( victim == ch )
+		{
+			send_to_char( "Jeste¶ ju¿ tak siln<&y/a/e> jak tylko potrafisz!\n\r", ch );
+		}
+		else
+		{
+			switch ( victim->sex )
+			{
+				case 0:
+					act( "$N nie mo¿e byæ ju¿ silniejsze.", ch, NULL, victim, TO_CHAR );
+					break;
+				case 1:
+					act( "$N nie mo¿e byæ ju¿ silniejszy.", ch, NULL, victim, TO_CHAR );
+					break;
+				default :
+					act( "$N nie mo¿e byæ ju¿ silniejsza.", ch, NULL, victim, TO_CHAR );
+					break;
+			}
+		}
+		return;
+	}
 
-    /**
-     * rzut na szczescie
-     */
-    if ( transmute_strength_luck_dice( ch, victim ) )
-    {
-        return;
-    }
+	luck = get_curr_stat_deprecated( ch, STAT_LUC );
 
-    duration = 20 +  level / 2;
-    mod = number_range( 2, 4 ) + level / 5;
+	/* zaleznosc od szczescia */
+	if ( number_range( 0, luck + LUCK_BASE_MOD ) == 0 )
+	{
+		if ( victim == ch )
+			send_to_char( "Nie uda³o ci siê zwiêkszyæ swejej si³y.\n\r", ch );
+		else
+			act( "Nie uda³o ci siê zwiêkszyæ si³y $Z.", ch, NULL, victim, TO_CHAR );
+		return;
+	}
 
-    af.where = TO_AFFECTS;
-    af.type = sn;
-    af.level = level;
-    af.duration = duration; af.rt_duration = 0;
-    af.location = APPLY_STR;
-    af.modifier = mod;
-    af.bitvector = &AFF_NONE;
+	duration = 4 +  level/ 10;
+	mod = number_range( 2, 4 );
 
-    affect_to_char( victim, &af, NULL, TRUE );
-    send_to_char( "Twoje miê¶nie zaczynaj± dzia³aæ ze znacznie zwiêkszon± sprawno¶ci±!\n\r", victim );
-    act( "Miê¶nie $z zaczynaj± dzia³aæ ze znacznie zwiêkszon± sprawno¶ci±.", victim, NULL, NULL, TO_ROOM );
-    return;
+	af.where = TO_AFFECTS;
+	af.type = sn;
+	af.level = level;
+	af.duration = duration; af.rt_duration = 0;
+	af.location = APPLY_STR;
+	af.modifier = mod;
+	af.bitvector = &AFF_NONE;
+
+	affect_to_char( victim, &af, NULL, TRUE );
+	send_to_char( "Twoje miê¶nie zaczynaj± dzia³aæ ze znacznie zwiêkszon± sprawno¶ci±!\n\r", victim );
+	act( "Miê¶nie $z zaczynaj± dzia³aæ ze znacznie zwiêkszon± sprawno¶ci±.", victim, NULL, NULL, TO_ROOM );
+	return;
 }
 
 void spell_fly( int sn, int level, CHAR_DATA *ch, void *vo, int target )
@@ -2044,7 +2060,7 @@ void spell_fireball( int sn, int level, CHAR_DATA *ch, void *vo, int target )
       dam += 10;
     }
 
-    	if ( IS_AFFECTED( vch, AFF_MINOR_GLOBE ) || IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) )
+    	if ( IS_AFFECTED( vch, AFF_MINOR_GLOBE ) || IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) || IS_AFFECTED( vch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
     	{
 			act( "Twoja fala p³omieni znika przy zetkniêciu ze sfer± otaczaj±c± $C.", ch, NULL, vch, TO_CHAR );
 			act( "Fala p³omieni $z znika przy zetkniêciu z otaczaj±c± ciê sfer±.\n\r", ch, NULL, vch, TO_VICT );
@@ -2402,7 +2418,7 @@ void spell_enchant_weapon( int sn, int level, CHAR_DATA *ch, void *vo, int targe
                         act( "$p wybucha $x prosto w $s oczy!", ch, obj, NULL, TO_ROOM );
                     }
 					af.where = TO_AFFECTS;
-					af.type = gsn_blindness;
+					af.type = 5;
 					af.level = level;
 					af.location = APPLY_NONE;
 					af.modifier = 0;
@@ -2424,7 +2440,7 @@ void spell_enchant_weapon( int sn, int level, CHAR_DATA *ch, void *vo, int targe
                     act( "$p wybucha rani±c $x i rozrywaj±c $c cia³o!", ch, obj, NULL, TO_ROOM );
                 }
                 af.where = TO_AFFECTS;
-				af.type = gsn_weaken;
+				af.type = 96;
 				af.level = level;
 				af.duration = UMAX( 1, hit_bonus + dam_bonus ); af.rt_duration = 0;
 				af.location = APPLY_STR;
@@ -2454,7 +2470,7 @@ void spell_enchant_weapon( int sn, int level, CHAR_DATA *ch, void *vo, int targe
                         act( "$p wybucha prosto w twarz $x!", ch, obj, NULL, TO_ROOM );
                     }
 					af.where = TO_AFFECTS;
-					af.type = gsn_deafness;
+					af.type = 169;
 					af.level = level;
 					af.duration = 4; af.rt_duration = 0;
 					af.location = APPLY_NONE;
@@ -2671,7 +2687,7 @@ void spell_enchant_armor( int sn, int level, CHAR_DATA *ch, void *vo, int target
                         act( "$p wybucha $x prosto w $s oczy!", ch, obj, NULL, TO_ROOM );
                     }
                     af.where = TO_AFFECTS;
-                    af.type = gsn_blindness;
+                    af.type = 5;
 					af.level = level;
 					af.location = APPLY_NONE;
 					af.modifier = 0;
@@ -2693,7 +2709,7 @@ void spell_enchant_armor( int sn, int level, CHAR_DATA *ch, void *vo, int target
                     act( "$p wybucha rani±c $x i rozrywaj±c $c cia³o!", ch, obj, NULL, TO_ROOM );
                 }
                 af.where = TO_AFFECTS;
-				af.type = gsn_weaken;
+				af.type = 96;
 				af.level = level;
 				af.duration = duration; af.rt_duration = 0;
 				af.location = APPLY_STR;
@@ -3000,7 +3016,7 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 	if ( !IS_NPC( ch ) && IS_IMMORTAL( victim ) )
 		return;
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( victim == ch )
@@ -3146,7 +3162,7 @@ void spell_charm_monster( int sn, int level, CHAR_DATA *ch, void *vo, int target
 	if ( !IS_NPC( ch ) && IS_IMMORTAL( victim ) )
 		return;
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	// je¿eli victim to gracz
@@ -3768,67 +3784,92 @@ void spell_weaken( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	return;
 }
 
+
+
 /* taki sobie czarek na drugi krag maga */
 void spell_strength( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-    CHAR_DATA * victim = ( CHAR_DATA * ) vo;
-    AFFECT_DATA af;
-    int mod, duration;
-    int luck = get_curr_stat_deprecated( ch, STAT_LUC );
+	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
+	AFFECT_DATA af;
+	int mod;
+	int luck = get_curr_stat_deprecated( ch, STAT_LUC );
 
-    /**
-     * sprawdz affekty i forme
-     */
-    if ( check_improve_strenth ( ch, victim, TRUE ) )
-    {
-        return;
-    }
+	int dur = 2 + level / 10;
 
-    /**
-     * rzut na szczescie
-     */
-    if ( transmute_strength_luck_dice( ch, victim ) )
-    {
-        return;
-    }
+    if ( check_improve_strenth ( ch, victim, TRUE ) ) return;
 
-    duration = 5 + level / 8;
-    mod = number_range( 1, 3 ) + level / 10;
+	if ( number_range( 0, 25 + luck ) < 1 )
+	{
+		if ( victim == ch )
+			send_to_char( "Nie uda³o ci siê zwiêkszyæ w³asnej si³y.\n\r", ch );
+		else
+			act( "Nie uda³o ci siê zwiêkszyæ si³y $Z.", ch, NULL, victim, TO_CHAR );
+		return;
+	}
 
-    /* Bonus dla specjalisty */
-    if ( !IS_NPC( ch ) )
-    {
-        if ( ch->pcdata->mage_specialist >= 0 && IS_SET( skill_table[ sn ].school, school_table[ ch->pcdata->mage_specialist ].flag ) )
-        {
-            duration += 2;
-            mod += number_range( 1, 2 );
-        }
-    }
+	switch ( victim->class )
+	{
+		case CLASS_MAG:
+			mod = 1;
+			break;
+		case CLASS_CLERIC:
+		case CLASS_THIEF:
+		case CLASS_BARD:
+		case CLASS_DRUID:
+			if ( get_curr_stat_deprecated( victim, STAT_STR ) > 20 )
+				mod = 1;
+			else
+				mod = number_range( 1, 3 );
+			break;
+		case CLASS_WARRIOR:
+		case CLASS_PALADIN:
+		case CLASS_BARBARIAN:
+		case CLASS_SHAMAN:
+		case CLASS_MONK:
+		case CLASS_BLACK_KNIGHT:
+			if ( get_curr_stat_deprecated( victim, STAT_STR ) > 23 )
+				mod = 1;
+			else
+				mod = number_range( 2, 3 );
+			break;
 
-    af.where = TO_AFFECTS;
-    af.type = sn;
-    af.level = level;
-    af.duration = duration;
+		default: mod = 1;break;
+	}
+
+	if ( ch == victim ) ++mod;
+
+	/* Bonus dla specjalisty */
+	if ( !IS_NPC( ch ) )
+	{
+		if ( ch->pcdata->mage_specialist >= 0 && IS_SET( skill_table[ sn ].school, school_table[ ch->pcdata->mage_specialist ].flag ) )
+		{
+			dur = 3 + level / 10;
+			if ( number_range(1,2) == 1 )
+			{
+				++mod;
+			}
+		}
+	}
+
+	af.where = TO_AFFECTS;
+	af.type = sn;
+	af.level = level;
+	af.duration = dur;
     af.rt_duration = 0;
-    af.location = APPLY_STR;
-    af.modifier = mod;
-    af.bitvector = &AFF_NONE;
-    affect_to_char( victim, &af, NULL, TRUE );
+	af.location = APPLY_STR;
+	af.modifier = mod;
+	af.bitvector = &AFF_NONE;
+	affect_to_char( victim, &af, NULL, TRUE );
 
-    send_to_char( "Czujesz dziwn± energiê rozchodz±c± siê po twoim ciele!\n\r", victim );
+	send_to_char( "Czujesz dziwn± energiê rozchodz±c± siê po twoim ciele!\n\r", victim );
 
-    switch ( victim->sex )
-    {
-        case SEX_FEMALE:
-            act( "$n wydaje siê byc silniejsza.", victim, NULL, NULL, TO_ROOM );
-            break;
-        case SEX_MALE:
-            act( "$n wydaje siê byc silniejszy.", victim, NULL, NULL, TO_ROOM );
-            break;
-        default:
-            act( "$n wydaje siê byc silniejsze.", victim, NULL, NULL, TO_ROOM );
-            break;
-    }
+	if ( victim->sex == SEX_FEMALE )
+		act( "$n wydaje siê byc silniejsza.", victim, NULL, NULL, TO_ROOM );
+	else if ( victim->sex == SEX_MALE )
+		act( "$n wydaje siê byc silniejszy.", victim, NULL, NULL, TO_ROOM );
+	else
+		act( "$n wydaje siê byc silniejsze.", victim, NULL, NULL, TO_ROOM );
+	return;
 }
 
 void spell_web( int sn, int level, CHAR_DATA *ch, void *vo, int target )
@@ -5188,7 +5229,7 @@ void spell_healing_sleep( int sn, int level, CHAR_DATA *ch, void *vo, int target
 	{
 		act( "$n opada na ziemiê.", victim, NULL, NULL, TO_ROOM );
 		send_to_char( "Powoli opadasz na ziemiê.\n\r", victim );
-		affect_strip( victim, gsn_float );
+		affect_strip( victim, 52 );
 	}
 
   if (ch->class == CLASS_SHAMAN)
@@ -5313,7 +5354,7 @@ void spell_domination( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	if ( !IS_NPC( ch ) && IS_IMMORTAL( victim ) )
 		return;
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( victim == ch )
@@ -5642,7 +5683,8 @@ void spell_minor_globe( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	if ( IS_AFFECTED( ch, AFF_MINOR_GLOBE ) ||
 	     IS_AFFECTED( ch, AFF_GLOBE ) ||
-	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) )
+	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) ||
+	     IS_AFFECTED( ch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
 	{
 		if ( ch->sex == SEX_NEUTRAL )
 		{
@@ -5700,7 +5742,8 @@ void spell_globe( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	if ( IS_AFFECTED( ch, AFF_MINOR_GLOBE ) ||
 	     IS_AFFECTED( ch, AFF_GLOBE ) ||
-	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) )
+	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) ||
+	     IS_AFFECTED( ch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
 	{
 		if ( ch->sex == SEX_NEUTRAL )
 		{
@@ -6562,8 +6605,6 @@ void spell_create_lesser_undead( int sn, int level, CHAR_DATA *ch, void *vo, int
 	AFFECT_DATA af;
 	char buf[ MAX_INPUT_LENGTH ];
 	int i, made_dur = 5;
-	bool no_component = FALSE;
-	int malf_mod = 0;
 
 	if ( obj->item_type != ITEM_CORPSE_NPC ||
 	     obj->value[ 0 ] <= 0 ||
@@ -6601,11 +6642,11 @@ void spell_create_lesser_undead( int sn, int level, CHAR_DATA *ch, void *vo, int
 
 	if ( !spell_item_check( ch, sn, NULL ) )
 	{
-	    no_component = TRUE;
-	    malf_mod = 900;
+		print_char( ch, "Cia³u które chcia³by¶ o¿ywiæ brakuje jeszcze ma³ej czê¶ci.\n\r" );
+		return;
 	}
 
-	if ( number_range( 1,(1000 - malf_mod) ) == 1 )
+	if ( number_range( 1,1000 ) == 1 )
 	{
 		extract_obj( obj );
 		summon_malfunction( ch, sn );
@@ -6688,11 +6729,8 @@ void spell_create_lesser_undead( int sn, int level, CHAR_DATA *ch, void *vo, int
 	zombie->level = URANGE( 8, number_range( level / 2, 2 * level / 3 ), 16 );
 
 	/* HP */
-	for ( zombie->hit = 0, i = zombie->level; i >= 1; i-- ) {
-		zombie->hit += 16;
-		if (no_component == FALSE) zombie->hit += number_range( 1, 6 );
-
-	}
+	for ( zombie->hit = 0, i = zombie->level; i >= 1; i-- )
+		zombie->hit += 16 + number_range( 1, 6 );
 
 	zombie->hit += level;
 	zombie->max_hit = zombie->hit;
@@ -6704,10 +6742,6 @@ void spell_create_lesser_undead( int sn, int level, CHAR_DATA *ch, void *vo, int
 	zombie->perm_stat[ STAT_CON ] = number_range( 100, 130 );
     zombie->perm_stat[ STAT_CHA ] = number_range(  20,  40 );
     zombie->perm_stat[ STAT_LUC ] = number_range(   1, 100 );
-    if (no_component == FALSE) {
-        zombie->perm_stat[ STAT_STR ] += number_range(  5, 10 );
-        zombie->perm_stat[ STAT_DEX ] += number_range(  0, 10 );
-    }
 
 	zombie->size = mob->size;
 
@@ -6819,8 +6853,6 @@ void spell_raise_ghul( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	MOB_INDEX_DATA *mob = NULL;
 	AFFECT_DATA af;
 	int i, made_dur = 5;
-	bool no_component = FALSE;
-	int malf_mod = 0;
 
 	if ( obj->item_type != ITEM_CORPSE_NPC ||
 	     obj->value[ 0 ] <= 0 ||
@@ -6844,14 +6876,13 @@ void spell_raise_ghul( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-
 	if ( !spell_item_check( ch, sn, NULL) )
 	{
-	    no_component = TRUE;
-	    malf_mod = 400;
+		send_to_char( "Do o¿ywienia ghula potrzebne bêdzie co¶ z jego cia³a.\n\r", ch );
+		return;
 	}
 
-	if ( number_range( 1,(800 - malf_mod) ) == 1 )
+	if ( number_range( 1,800 ) == 1 )
 	{
 		extract_obj( obj );
 		summon_malfunction( ch, sn );
@@ -6898,10 +6929,8 @@ void spell_raise_ghul( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	ghul->level = URANGE( 8, number_range( level / 2, 2 * level / 3 ), 17 );
 
 	/* HP */
-	for ( ghul->hit = 0, i = ghul->level; i >= 1; i-- ) {
-		ghul->hit += 18;
-		if (no_component == FALSE) ghul->hit += number_range( 1, 6 );
-	}
+	for ( ghul->hit = 0, i = ghul->level; i >= 1; i-- )
+		ghul->hit += 18 + number_range( 1, 6 );
 
 	ghul->hit += level;
 	ghul->max_hit = ghul->hit;
@@ -6914,10 +6943,6 @@ void spell_raise_ghul( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	ghul->perm_stat[ STAT_CON ] = number_range( 108, 132 );
     ghul->perm_stat[ STAT_CHA ] = number_range(  40,  60 );
     ghul->perm_stat[ STAT_LUC ] = number_range(   1,  50 );
-    if (no_component == FALSE) {
-        ghul->perm_stat[ STAT_STR ] += number_range(  5, 10 );
-        ghul->perm_stat[ STAT_DEX ] += number_range(  5, 10 );
-    }
 
 	ghul->size = mob->size;
 
@@ -6960,8 +6985,7 @@ void spell_raise_ghul( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		default: break;
 	}
 
-	ghul->damroll += URANGE( 0, level / 7, 3 );
-	if (no_component == FALSE) ghul->damroll += URANGE(0, level/7, 3);
+	ghul->damroll += URANGE( 0, level / 5, 5 );
 
 	//stale ac
 	for ( i = 0; i < 4; i++ )
@@ -7033,7 +7057,6 @@ void spell_raise_ghast( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	AFFECT_DATA af;
 	int i, made_dur = 5;
 	int mal_chance = 600;
-	bool no_component = FALSE;
 
 	if ( obj->item_type != ITEM_CORPSE_NPC ||
 	     obj->value[ 0 ] <= 0 ||
@@ -7059,11 +7082,12 @@ void spell_raise_ghast( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	if ( !spell_item_check( ch, sn, NULL) )
 	{
-	    //zamiast szanse na nieudanie zaklecia z mylacym komunikatem - tworzone ghasty bez componentu beda slabsze
-
-	    //bez komponentu wieksza szansa na malfunction
-	    no_component = TRUE;
-	    mal_chance = 60;
+		if ( number_range(1,3) == 1)
+		{
+			send_to_char( "Do o¿ywienia ghasta potrzebne bêdzie co¶ z jego cia³a.\n\r", ch );
+			return;
+		}
+		mal_chance = 60;
 	}
 
 
@@ -7113,16 +7137,13 @@ void spell_raise_ghast( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	ghast->level = URANGE( 8, number_range( level / 2, 2 * level / 3 ), 19 );
 
-    //Raszer - lack of spell component affects negatively the hp of the mob (compared to what it was like before)
 	/* HP */
-	for ( ghast->hit = 0, i = ghast->level; i >= 1; i-- ) {
-		ghast->hit += 19;
-		if (no_component == FALSE) ghast->hit += number_range( 2, 4 );
-	}
+	for ( ghast->hit = 0, i = ghast->level; i >= 1; i-- )
+		ghast->hit += 19 + number_range( 2, 4 );
 
+	ghast->hit += level;
 	ghast->max_hit = ghast->hit;
 
-	//Raszer - using a component boosts stats of the mob, compared to how it was before
 	/* STATS */
     ghast->perm_stat[ STAT_STR ] = number_range( 100, 140 );
 	ghast->perm_stat[ STAT_DEX ] = number_range(  96, 126 );
@@ -7131,10 +7152,6 @@ void spell_raise_ghast( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	ghast->perm_stat[ STAT_CON ] = number_range( 108, 132 );
     ghast->perm_stat[ STAT_CHA ] = number_range(  20,  40 );
     ghast->perm_stat[ STAT_LUC ] = number_range(   1, 100 );
-    if (no_component == FALSE) {
-        ghast->perm_stat[ STAT_STR ] += number_range( 5, 20 );
-        ghast->perm_stat[ STAT_DEX ] += number_range(  5, 10 );
-    }
 
 	ghast->size = mob->size;
 
@@ -7176,11 +7193,8 @@ void spell_raise_ghast( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 		default: break;
 	}
-    //cut the standard value
-	ghast->damroll += URANGE( 0, level / 7, 5 );
-	//added a component modifier
-	if (no_component == FALSE) ghast->damroll += URANGE( 0, level / 7, 5 );
 
+	ghast->damroll += URANGE( 0, level / 5, 7 );
 
 	//stale ac
 	for ( i = 0; i < 4; i++ )
@@ -7420,10 +7434,10 @@ void spell_might( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	switch ( number_range(1,7) )
 	{
 		case 1:
-			if ( is_affected( victim, gsn_strength ) || is_affected( victim, gsn_giant_strength ) )
+			if ( is_affected( victim, 167 /*2 kregowy strenght*/ ) || is_affected( victim, 58 /*8 kregowy giant strength*/ ) )
 			{
 				location = APPLY_STR;
-				type = gsn_strength; //strenght 2 kregowy
+				type = 167; //strenght 2 kregowy
 				send_to_char( "Twoje miê¶nie zaczynaj± dzia³aæ ze zwiekszon± sprawno¶ci±!\n\r", victim );
 				act( "Miê¶nie $z zaczynaj± dzia³aæ ze zwiekszon± sprawno¶ci±.", victim, NULL, NULL, TO_ROOM );
 				break;
@@ -8121,7 +8135,7 @@ void spell_misfortune( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
 	AFFECT_DATA af;
-	int luck;
+	int vnum_luck = 272, luck;
 
 	/* luck */
 	luck = get_curr_stat_deprecated( ch, STAT_LUC );
@@ -8131,11 +8145,11 @@ void spell_misfortune( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if ( is_affected( victim, gsn_luck ) )
+	if ( is_affected( victim, vnum_luck ) )
 	{
 		act( "Otaczaj±ca $x {Gzielono{x-{Yz³ota{x aura szczê¶cia zanika.", victim, NULL, NULL, TO_ROOM );
 		send_to_char( "Otaczaj±ca ciê {Gzielono{x-{Yz³ota{x aura szczê¶cia zanika.\n\r", victim );
-		affect_strip( victim, gsn_luck );
+		affect_strip( victim, vnum_luck );
 		return;
 	}
 
@@ -8336,7 +8350,7 @@ void spell_major_haste ( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
 	for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
 	{
-		if ( !is_same_group( gch, ch ) || is_affected( gch, gsn_haste ) || is_affected( gch, gsn_major_haste ) || IS_AFFECTED( gch, AFF_HASTE ) || EXT_IS_SET( gch->off_flags, OFF_FAST ) )
+		if ( !is_same_group( gch, ch ) || is_affected( gch, 60 ) || is_affected( gch, 300 ) || IS_AFFECTED( gch, AFF_HASTE ) || EXT_IS_SET( gch->off_flags, OFF_FAST ) )
 			continue;
 
 		af.where = TO_AFFECTS;
@@ -8347,11 +8361,11 @@ void spell_major_haste ( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 		af.modifier = 0;
 		af.bitvector = &AFF_HASTE;
 
-		if ( is_affected( gch, gsn_slow ) )
+		if ( is_affected( gch, 90 ) )
 		{
 			act( "Szybko¶æ ruchów $z powraca do normy.", gch, NULL, NULL, TO_ROOM );
 			send_to_char( "Szybko¶æ twych ruchów powraca do normy.\n\r", gch );
-			affect_strip( gch, gsn_slow );
+			affect_strip( gch, 90 );
 			continue;
 		}
 
@@ -10818,7 +10832,7 @@ void spell_enchant_instrument( int sn, int level, CHAR_DATA *ch, void *vo, int t
 				act( "$p wybucha rani±c ciê i rozrywaj±c twoje cia³o!", ch, obj, NULL, TO_CHAR );
 				act( "$p wybucha rani±c $x i rozrywaj±c $c cia³o!", ch, obj, NULL, TO_ROOM );
 				af.where = TO_AFFECTS;
-				af.type = gsn_weaken;
+				af.type = 96;
 				af.level = level;
 				af.duration = UMAX( 1, bonus ); af.rt_duration = 0;
 				af.location = APPLY_STR;
@@ -10830,7 +10844,7 @@ void spell_enchant_instrument( int sn, int level, CHAR_DATA *ch, void *vo, int t
 				{
 					act( "$n pod wp³ywem ciê¿aru opada na ziemiê.", ch, NULL, NULL, TO_ROOM );
 					send_to_char( "Pod wp³ywem obci±¿enia opadasz na ziemiê.\n\r", ch );
-					affect_strip( ch, gsn_float );
+					affect_strip( ch, 52 );
 				}
 				break;
 
@@ -10840,7 +10854,7 @@ void spell_enchant_instrument( int sn, int level, CHAR_DATA *ch, void *vo, int t
 					act( "$p wybucha, po czym wszystko dooko³a milknie!", ch, obj, NULL, TO_CHAR );
 					act( "$p wybucha prosto w twarz $x!", ch, obj, NULL, TO_ROOM );
 					af.where = TO_AFFECTS;
-					af.type = gsn_deafness;
+					af.type = 169;
 					af.level = level;
 					af.duration = 4; af.rt_duration = 0;
 					af.location = APPLY_NONE;
@@ -11168,7 +11182,7 @@ void spell_hallucinations( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 	vluck = get_curr_stat_deprecated( victim, STAT_LUC );
 	intt = get_curr_stat_deprecated( victim, STAT_INT );
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( number_range( 0, LUCK_BASE_MOD + luck - vluck ) == 0 ) //psucie z lucka
@@ -11696,64 +11710,63 @@ void spell_detect_aggressive( int sn, int level, CHAR_DATA *ch, void *vo, int ta
 
 void spell_changestaff( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-    CHAR_DATA * golem;
-    OBJ_DATA *staff = ( OBJ_DATA * ) vo;
-    AFFECT_DATA af;
-    char buf[ MAX_STRING_LENGTH ];
-    int luck = get_curr_stat( ch, STAT_LUC );
-    int intt = get_curr_stat( ch, STAT_INT );
-    int charisma = get_curr_stat( ch, STAT_CHA );
+	CHAR_DATA * golem;
+	OBJ_DATA *staff = ( OBJ_DATA * ) vo;
+	AFFECT_DATA af;
+	char buf[ MAX_STRING_LENGTH ];
+	int luck = get_curr_stat( ch, STAT_LUC );
+	int intt = get_curr_stat( ch, STAT_INT );
+	int charisma = get_curr_stat( ch, STAT_CHA );
 
-    // jak kto¶ nie chce byæ followany
-    if ( EXT_IS_SET( ch->act, PLR_NOFOLLOW ) )
-    {
-        send_to_char( "Przecie¿ nie chcesz ¿eby kto¶ za tob± chodzi³.\n\r", ch );
-        return;
-    }
+	// jak kto¶ nie chce byæ followany
+	if ( EXT_IS_SET( ch->act, PLR_NOFOLLOW ) )
+	{
+		send_to_char( "Przecie¿ nie chcesz ¿eby kto¶ za tob± chodzi³.\n\r", ch );
+		return;
+	}
 
-    if ( staff->item_type != ITEM_WEAPON )
-    {
-        send_to_char( "To nie jest laska.\n\r", ch );
-        return;
-    }
+	if ( staff->item_type != ITEM_WEAPON )
+	{
+		send_to_char( "To nie jest laska.\n\r", ch );
+		return;
+	}
 
-    if ( staff->value[ 0 ] != WEAPON_STAFF && staff->value[ 0 ] != WEAPON_SPEAR && staff->value[ 0 ] != WEAPON_POLEARM && !IS_OBJ_STAT(staff, ITEM_UNDESTRUCTABLE) )
-    {
-        send_to_char( "Tej broni nie da siê o¿ywiæ.\n\r", ch );
-        return;
-    }
+	if ( staff->value[ 0 ] != WEAPON_STAFF && staff->value[ 0 ] != WEAPON_SPEAR && staff->value[ 0 ] != WEAPON_POLEARM && !IS_OBJ_STAT(staff, ITEM_UNDESTRUCTABLE) )
+	{
+		send_to_char( "Tej broni nie da siê o¿ywiæ.\n\r", ch );
+		return;
+	}
 
-    if ( number_range( 0, luck/6 + LUCK_BASE_MOD ) == 0 )
-    {
-        send_to_char( "Nie uda³o ci siê tego o¿ywiæ.\n\r", ch );
-        staff->condition = UMAX( staff->condition - number_range( 0, 2 ), 1 );
-        return;
-    }
+	if ( number_range( 0, luck/6 + LUCK_BASE_MOD ) == 0 )
+	{
+		send_to_char( "Nie uda³o ci siê tego o¿ywiæ.\n\r", ch );
+		return;
+	}
 
-    if ( ch->counter[ 4 ] != 0 && !IS_IMMORTAL( ch ) )
-    {
-        if ( ch->counter[ 4 ] == 1 )
-            send_to_char( "Musisz jeszcze trochê odpocz±æ przed przywo³aniem nastêpnej istoty.\n\r", ch );
-        else
-            send_to_char( "Niefortunne przywo³anie tego potwora zabra³o ci zbyt du¿o si³, odpocznij trochê.\n\r", ch );
-        return;
-    }
+	if ( ch->counter[ 4 ] != 0 )
+	{
+		if ( ch->counter[ 4 ] == 1 )
+			send_to_char( "Musisz jeszcze trochê odpocz±æ przed przywo³aniem nastêpnej istoty.\n\r", ch );
+		else
+			send_to_char( "Niefortunne przywo³anie tego potwora zabra³o ci zbyt du¿o si³, odpocznij trochê.\n\r", ch );
+		return;
+	}
 
-    if ( number_range( 1, intt/6 + level ) < 10 ) //Raszer , zmniejszenie szansy na nieudane rzucenie czaru
-    {
-        send_to_char( "W ostatniej chwili mylisz siê i kula materii znika bez ¶ladu.\n\r", ch );
-        act( "Kula materii przez chwilê migocze, po czym znika bez ¶ladu.", ch, NULL, NULL, TO_ROOM );
-        staff->condition = UMAX( staff->condition - number_range( 10, 20 ), 1 );
-        return;
-    }
+	if ( number_range( 1, intt/6 + level ) < 10 ) //Raszer , zmniejszenie szansy na nieudane rzucenie czaru
+	{
+		send_to_char( "W ostatniej chwili mylisz siê i kula materii ulega dezintegracji.\n\r", ch );
+		act( "Kula materii przez chwilê migocze, po czym znika bez ¶ladu.", ch, NULL, NULL, TO_ROOM );
+		extract_obj( staff );
+		return;
+	}
 
-    // jak kto¶ ma mniej ni¿ 12 charyzmy, to niech spada
-    if ( charisma < 72 )
-    {
-        print_char( ch, "Z tak± charyzm± nigdy nie dasz rady zmusiæ golema by ci s³u¿y³.\n\r" );
-        staff->condition = UMAX( staff->condition - number_range( 1, 50 ), 1 );
-        return;
-    }
+	// jak kto¶ ma mniej ni¿ 12 charyzmy, to niech spada
+	if ( charisma < 72 )
+	{
+		print_char( ch, "Z tak± charyzm± nigdy nie dasz rady zmusiæ golema by ci s³u¿y³.\n\r" );
+		extract_obj( staff );
+		return;
+	}
 
     if ( staff->material == 45 )
     {
@@ -11762,51 +11775,41 @@ void spell_changestaff( int sn, int level, CHAR_DATA *ch, void *vo, int target )
         return;
     }
 
-    if ( number_range( 1, 650 ) == 1 )
-    {
-        extract_obj( staff );
-        summon_malfunction( ch, sn );
-        return;
-    }
+	if ( number_range( 1, 650 ) == 1 )
+	{
+		extract_obj( staff );
+		summon_malfunction( ch, sn );
+		return;
+	}
 
-    golem = create_mobile( get_mob_index( MOB_VNUM_GOLEM ) );
-    char_to_room( golem, ch->in_room );
-    EXT_SET_BIT( golem->act, ACT_NO_EXP );
+	golem = create_mobile( get_mob_index( MOB_VNUM_GOLEM ) );
+	char_to_room( golem, ch->in_room );
+	EXT_SET_BIT( golem->act, ACT_NO_EXP );
+
+	sprintf( buf, golem->name, material_table[ staff->material ].adjective );
+	free_string( golem->name );
+	golem->name = str_dup( buf );
+
+	sprintf( buf, golem->short_descr, material_table[ staff->material ].adjective );
+	free_string( golem->short_descr );
+	golem->short_descr = str_dup( buf );
+
+	sprintf( buf, golem->long_descr, material_table[ staff->material ].adjective );
+	free_string( golem->long_descr );
+	golem->long_descr = str_dup( buf );
+
+	sprintf( buf, golem->description, material_table[ staff->material ].adjective );
+	free_string( golem->description );
+	golem->description = str_dup( buf );
+
     money_reset_character_money ( golem );
-
-    sprintf( buf, golem->name, material_table[ staff->material ].adjective );
-    free_string( golem->name );
-    golem->name = str_dup( buf );
-
-    sprintf( buf, golem->short_descr, material_table[ staff->material ].adjective );
-    free_string( golem->short_descr );
-    golem->short_descr = str_dup( buf );
-
-    sprintf( buf, golem->long_descr, material_table[ staff->material ].adjective );
-    free_string( golem->long_descr );
-    golem->long_descr = str_dup( buf );
-
-    sprintf( buf, golem->description, material_table[ staff->material ].adjective );
-    free_string( golem->description );
-    golem->description = str_dup( buf );
-
-    /**
-     * golem level
-     */
-    golem->level = level/3 + dice( staff->value[ 1 ], staff->value[ 2 ] ) + staff->value[ 6 ];
-
-    /**
-     * golem hitroll & damage
-     */
-    golem->damage[ DICE_NUMBER ] = staff->value[ 1 ];
-    golem->damage[ DICE_TYPE ] = staff->value[ 2 ];
-    golem->damage[ DICE_BONUS ] = staff->value[ 6 ];
-    golem->hitroll = staff->value[ 5 ] + level / 5;
-
-    /**
-     * golem max hit points
-     */
-    golem->max_hit = 10 + number_range( 18, 24 ) * golem->level;
+	golem->level = level / 3 + dice( staff->value[ 1 ], staff->value[ 2 ] ) + staff->value[ 6 ];
+	golem->hit = 10 + number_range(18,24) * golem->level;
+	golem->max_hit = golem->hit;
+	golem->damage[ DICE_NUMBER ] = staff->value[ 1 ];
+	golem->damage[ DICE_TYPE ] = staff->value[ 2 ];
+	golem->damage[ DICE_BONUS ] = staff->value[ 6 ];
+	golem->hitroll = staff->value[ 5 ] + level / 5;
 
     /**
      * afekty sa niezalezne. moze ich byc wicej
@@ -11853,266 +11856,238 @@ void spell_changestaff( int sn, int level, CHAR_DATA *ch, void *vo, int target )
      */
     golem->magical_damage = UMIN( golem->magical_damage, 4 );
 
-    switch( staff->material )
-    {
-        case 0://do dupy
-        case 6:
-        case 12:
-        case 17:
-        case 18:
-        case 20:
-        case 24:
-        case 25:
-        case 26:
-        case 29:
-        case 30:
-        case 35:
-        case 37:
-        case 38:
-        case 46:
-        case 47:
+	switch( staff->material )
+	{
+		case 0://do dupy
+		case 6:
+		case 12:
+		case 17:
+		case 18:
+		case 20:
+		case 24:
+		case 25:
+		case 26:
+		case 29:
+		case 30:
+		case 35:
+		case 37:
+		case 38:
+		case 46:
+		case 47:
         case 51: // pierze
-            golem->level = (golem->level*2)/3;
-            golem->max_hit /= 2;
-            --golem->damage[ DICE_NUMBER ];
-            golem->damage[ DICE_TYPE ] /= 2;
-            golem->damage[ DICE_BONUS ] /= 2;
-            golem->hitroll /= 2;
-            break;
-        case 1://prawie do dupy
-        case 11:
-        case 15:
-        case 19:
-        case 31:
-        case 39:
-        case 44:
+			golem->level = (golem->level*2)/3;
+			golem->max_hit /= 2;
+			--golem->damage[ DICE_NUMBER ];
+			golem->damage[ DICE_TYPE ] /= 2;
+			golem->damage[ DICE_BONUS ] /= 2;
+			golem->hitroll /= 2;
+			break;
+		case 1://prawie do dupy
+		case 11:
+		case 15:
+		case 19:
+		case 31:
+		case 39:
+		case 44:
         case 50: // bursztyn
-            golem->level = (golem->level*4)/5;
-            --golem->damage[ DICE_TYPE ];
-            --golem->damage[ DICE_BONUS ];
-            --golem->hitroll;
-            break;
-            //decent
-        case 2:  // stal
-        case 5:  // doskonala stal
-        case 9:
-        case 10:
-        case 13:
-        case 14:
-        case 16:
-        case 21:
-        case 28:
-        case 34:
-        case 40:
-        case 43:
-        case 48: // drewno debowe
+			golem->level = (golem->level*4)/5;
+			--golem->damage[ DICE_TYPE ];
+			--golem->damage[ DICE_BONUS ];
+			--golem->hitroll;
+			break;
+		case 2://decent
+		case 5:
+		case 9:
+		case 10:
+		case 13:
+		case 14:
+		case 16:
+		case 21:
+		case 28:
+		case 34:
+		case 40:
+		case 43:
+		case 48: // drewno debowe
         case 52: // luska
-        default:
-            golem->max_hit += golem->max_hit/10;
-            break;
-        case 3://fine
-        case 4:
-        case 22:
-        case 23:
-        case 27:
-        case 33:
-            ++golem->level;
-            golem->max_hit += golem->max_hit/6 + 20;
-            ++golem->damage[ DICE_TYPE ];
-            ++golem->damage[ DICE_BONUS ];
-            ++golem->hitroll;
-            break;
+		default:
+			golem->max_hit += golem->hit/10;
+			break;
+		case 3://fine
+		case 4:
+		case 22:
+		case 23:
+		case 27:
+		case 33:
+			++golem->level;
+			golem->max_hit += golem->hit/6 + 20;
+			++golem->damage[ DICE_TYPE ];
+			++golem->damage[ DICE_BONUS ];
+			++golem->hitroll;
+			break;
             /**
              * great
              */
-        case  7: // adamantyt
-        case  8: // mithril
-        case 32: // damasceñska stal
+		case  7: // adamantyt
+		case  8: // mithril
+		case 32: // damasceñska stal
         case 49: // stalodrzew
-            golem->level += 3;
-            golem->max_hit += golem->max_hit/5 + 25;
-            ++golem->damage[ DICE_NUMBER ];
-            ++golem->damage[ DICE_TYPE ];
-            golem->damage[ DICE_BONUS ] += 2;
-            golem->hitroll += 2;
-            break;
+			golem->level += 3;
+			golem->max_hit += golem->hit/5 + 25;
+			++golem->damage[ DICE_NUMBER ];
+			++golem->damage[ DICE_TYPE ];
+			golem->damage[ DICE_BONUS ] += 2;
+			golem->hitroll += 2;
+			break;
             /**
              * super great
              */
-        case 36: // diament
-        case 41: // smocze luski
-        case 42: // smoczy zab
-            golem->level += 6;
-            golem->max_hit += golem->max_hit/3 + 50;
-            ++golem->damage[ DICE_NUMBER ];
-            golem->damage[ DICE_TYPE ] += 2;
-            golem->damage[ DICE_BONUS ] += 4;
-            golem->hitroll += 4;
+		case 36: // diament
+		case 41: // smocze luski
+		case 42: // smoczy zab
+			golem->level += 6;
+			golem->max_hit += golem->hit/3 + 50;
+			++golem->damage[ DICE_NUMBER ];
+			golem->damage[ DICE_TYPE ] += 2;
+			golem->damage[ DICE_BONUS ] += 4;
+			golem->hitroll += 4;
             ++golem->magical_damage;
-            break;
-    }
+			break;
+	}
 
-    //Agron: dopalka przy udanym rzucie na int+char i poziom, przy sumie wiekszej od 260
-    if( number_range(65,100) < (intt+charisma+ch->level)/4 )
-    {
-        golem->max_hit += number_range( 20,80); ;
-        golem->damage[ DICE_BONUS ] += number_range(1,2);
-        golem->hitroll += 1;
-    }
+	//Agron: dopalka przy udanym rzucie na int+char i poziom, przy sumie wiekszej od 260
+	if( number_range(65,100) < (intt+charisma+ch->level)/4 )
+	{
+		golem->max_hit += number_range( 20,80); ;
+		golem->damage[ DICE_BONUS ] += number_range(1,2);
+		golem->hitroll += 1;
+	}
 
-    /**
-     * hit points - modyfikacja wzgledem kondycji broni
-     */
-    golem->hit = golem->max_hit;
-    if ( staff->condition < 75 )
-    {
-        golem->hit *= UMAX( 1, staff->condition );
-        golem->hit /= 100;
-    }
-    if ( golem->hit < 2 * level )
-    {
-        golem->hit = 2 * level;
-    }
+	golem->hit = get_max_hp(golem);
 
-    /**
-     * bonusowe afekty zwiazane z materialem
-     */
-    if ( material_table[ staff->material ].flag == MAT_METAL )
-    {
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = material_table[ staff->material ].cold_res;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_COLD;
-        af.bitvector = &AFF_RESIST_COLD;
-        affect_to_char( golem, &af, NULL, FALSE );
+	if ( material_table[ staff->material ].flag == MAT_METAL )
+	{
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = material_table[ staff->material ].cold_res;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_COLD;
+		af.bitvector = &AFF_RESIST_COLD;
+		affect_to_char( golem, &af, NULL, FALSE );
 
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = -100;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_ELECTRICITY;
-        af.bitvector = &AFF_RESIST_LIGHTNING;
-        affect_to_char( golem, &af, NULL, FALSE );
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = -100;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_ELECTRICITY;
+		af.bitvector = &AFF_RESIST_LIGHTNING;
+		affect_to_char( golem, &af, NULL, FALSE );
 
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = material_table[ staff->material ].fire_res;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_FIRE;
-        af.bitvector = &AFF_RESIST_FIRE;
-        affect_to_char( golem, &af, NULL, FALSE );
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = material_table[ staff->material ].fire_res;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_FIRE;
+		af.bitvector = &AFF_RESIST_FIRE;
+		affect_to_char( golem, &af, NULL, FALSE );
 
         /**
          * PIERCE
          */
         af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = UMAX( 1, material_table[ staff->material ].hardness / 10 );
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_PIERCE;
-        af.bitvector = &AFF_NONE;
-        affect_to_char( golem, &af, NULL, FALSE );
-    }
-    else if ( material_table[ staff->material ].flag == MAT_EASYBREAK )
-    {
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = -35;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_BASH;
-        af.bitvector = &AFF_NONE;
-        affect_to_char( golem, &af, NULL, FALSE );
+		af.type = sn;
+		af.level = UMAX( 1, material_table[ staff->material ].hardness / 10 );
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_PIERCE;
+		af.bitvector = &AFF_NONE;
+		affect_to_char( golem, &af, NULL, FALSE );
+	}
+	else if ( material_table[ staff->material ].flag == MAT_EASYBREAK )
+	{
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = -35;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_BASH;
+		af.bitvector = &AFF_NONE;
+		affect_to_char( golem, &af, NULL, FALSE );
 
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = -10;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_SLASH;
-        af.bitvector = &AFF_NONE;
-        affect_to_char( golem, &af, NULL, FALSE );
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = -10;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_SLASH;
+		af.bitvector = &AFF_NONE;
+		affect_to_char( golem, &af, NULL, FALSE );
 
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = -10;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_PIERCE;
-        af.bitvector = &AFF_NONE;
-        affect_to_char( golem, &af, NULL, FALSE );
-    }
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = -10;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_PIERCE;
+		af.bitvector = &AFF_NONE;
+		affect_to_char( golem, &af, NULL, FALSE );
+	}
     /**
      * latwopalne
      */
     else if ( material_table[ staff->material ].fire_res == 0 )
-    {
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = -100;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_FIRE;
-        af.bitvector = &AFF_RESIST_FIRE;
-        affect_to_char( golem, &af, NULL, FALSE );
+	{
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = -100;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_FIRE;
+		af.bitvector = &AFF_RESIST_FIRE;
+		affect_to_char( golem, &af, NULL, FALSE );
 
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = -30;
-        af.duration = -1; af.rt_duration = 0;
-        af.location = APPLY_RESIST;
-        af.modifier = RESIST_ACID;
-        af.bitvector = &AFF_RESIST_ACID;
-        affect_to_char( golem, &af, NULL, FALSE );
+		af.where = TO_AFFECTS;
+		af.type = sn;
+		af.level = -30;
+		af.duration = -1; af.rt_duration = 0;
+		af.location = APPLY_RESIST;
+		af.modifier = RESIST_ACID;
+		af.bitvector = &AFF_RESIST_ACID;
+		affect_to_char( golem, &af, NULL, FALSE );
+	}
+
+	if ( !add_charm( ch, golem, TRUE ) )
+	{
+		extract_char( golem, TRUE );
+		return;
+	}
+
+	act( "Z tej kulistej materii formuje siê $N i zaczyna s³u¿yæ $x.", ch, staff, golem, TO_ROOM );
+	act( "Z tej kulistej materii formuje siê $N i zaczyna ci s³u¿yæ.", ch, staff, golem, TO_CHAR );
+
+	af.where = TO_AFFECTS;
+	af.type = gsn_domination;
+	af.level = level;
+	af.duration = -1; af.rt_duration = 0;
+	af.location = 0;
+	af.modifier = 0;
+	af.bitvector = &AFF_CHARM;
+	affect_to_char( golem, &af, NULL, TRUE );
+
+	add_follower( golem, ch, FALSE );
+
+	ch->counter[4] = 1;
+
+	if ( ch->fighting )
+    {
+		set_fighting( golem, ch->fighting );
     }
 
-    if ( !add_charm( ch, golem, TRUE ) )
-    {
-        extract_char( golem, TRUE );
-        return;
-    }
-
-    act( "Z tej kulistej materii formuje siê $N i zaczyna s³u¿yæ $x.", ch, staff, golem, TO_ROOM );
-    act( "Z tej kulistej materii formuje siê $N i zaczyna ci s³u¿yæ.", ch, staff, golem, TO_CHAR );
-
-    af.where = TO_AFFECTS;
-    af.type = gsn_domination;
-    af.level = level;
-    af.duration = -1;
-    af.rt_duration = 0;
-    af.location = 0;
-    af.modifier = 0;
-    af.bitvector = &AFF_CHARM;
-    affect_to_char( golem, &af, NULL, TRUE );
-
-    add_follower( golem, ch, FALSE );
-
-    ch->counter[4] = 1;
-
-    if ( ch->fighting )
-    {
-        set_fighting( golem, ch->fighting );
-    }
-
-    //	create_event( EVENT_EXTRACT_CHAR, 480 * number_range( ( level / 2 ), ( level / 2 ) + 6 ) , golem, NULL, 0 );
-    /**
-     * delikatna szansa na zostawienie przedmiotu
-     */
-    if ( number_range( 0, 100 - level ) < 10 )
-    {
-        staff->condition = UMAX( staff->condition - number_range( 1, 50 ), 1 );
-        act( "Krótko przed znikniêciem kuli, wypada z niej jaki¶ przedmiot.", ch, NULL, NULL, TO_ALL );
-    }
-    else
-    {
-        extract_obj( staff );
-    }
-    return;
+//	create_event( EVENT_EXTRACT_CHAR, 480 * number_range( ( level / 2 ), ( level / 2 ) + 6 ) , golem, NULL, 0 );
+	extract_obj( staff );
+	return;
 }
 
 /* Zamet (skladnia: cast confusion)
@@ -12551,6 +12526,40 @@ void spell_resist_weapon( int sn, int level, CHAR_DATA *ch, void *vo, int target
 	return;
 }
 
+void spell_absolute_magic_protection( int sn, int level, CHAR_DATA *ch, void *vo, int target )
+{
+	AFFECT_DATA af;
+	int luck;
+	/* luck */
+	luck = get_curr_stat_deprecated( ch, STAT_LUC );
+	if ( number_range( 0, 25 + luck ) < 1 )
+	{
+		send_to_char( "Nie uda³o ci siê stworzyæ kopu³y niewra¿liwo¶ci absolutnej.\n\r", ch );
+		return;
+	}
+
+	if ( IS_AFFECTED( ch, AFF_MINOR_GLOBE ) ||
+	     IS_AFFECTED( ch, AFF_GLOBE ) ||
+	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) ||
+	     IS_AFFECTED( ch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
+	{
+		send_to_char( "Nic siê nie dzieje.\n\r", ch );
+	}
+
+	af.where = TO_AFFECTS;
+	af.type = sn;
+	af.level = level;
+	af.duration = 4 + level / 10; af.rt_duration = 0;
+	af.modifier = 0;
+	af.location = APPLY_NONE;
+	af.bitvector = &AFF_ABSOLUTE_MAGIC_PROTECTION;
+	affect_to_char( ch, &af, NULL, TRUE );
+
+	send_to_char( "Wokó³ ciebie tworzy siê potê¿na kopu³a niewra¿liwo¶ci absolutnej.\n\r", ch );
+	act( "Wokó³ $z tworzy siê potê¿na kopu³a niewra¿liwo¶ci absolutnej.", ch, NULL, NULL, TO_ROOM );
+	return;
+}
+
 void spell_mantle( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	AFFECT_DATA af;
@@ -12606,7 +12615,8 @@ void spell_major_globe( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 
 	if ( IS_AFFECTED( ch, AFF_MINOR_GLOBE ) ||
 	     IS_AFFECTED( ch, AFF_GLOBE ) ||
-	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) )
+	     IS_AFFECTED( ch, AFF_MAJOR_GLOBE ) ||
+	     IS_AFFECTED( ch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
 	{
 		send_to_char( "Nic siê nie dzieje.\n\r", ch );
 	}
@@ -12635,7 +12645,7 @@ void spell_puppet_master( int sn, int level, CHAR_DATA *ch, void *vo, int target
 	if ( !IS_NPC( ch ) && IS_IMMORTAL( victim ) )
 		return;
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( victim == ch || IS_AFFECTED( ch, AFF_CHARM ) )
@@ -13305,7 +13315,7 @@ void spell_repayment( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if( is_safe( ch, victim, TRUE ) || is_safe( victim, old_master, TRUE ) )
+	if( is_safe( ch, victim ) || is_safe( victim, old_master ) )
 		return;
 
 	if ( victim == ch || IS_AFFECTED( ch, AFF_CHARM ) )
@@ -13976,13 +13986,6 @@ void spell_wizard_eye( int sn, int level, CHAR_DATA *ch, void *vo, int target )
         send_to_char( "Nie uda³o ci siê.\n\r", ch );
         return;
     }
-
-    if ( IS_AFFECTED( victim, AFF_SCRYING_SHIELD ) )
-    {
-        print_char( ch, "Gdy tylko próbujesz odnale¼æ %s, syczysz z bólu i pocierasz piek±ce ¿ywym ogniem oczy.\n\r", victim->name4 );
-        return;
-    }
-
     /**
      * test szczescia
      */
@@ -14019,18 +14022,6 @@ void spell_wizard_eye( int sn, int level, CHAR_DATA *ch, void *vo, int target )
         af.bitvector = &AFF_NONE;
         affect_to_char( ch, &af, NULL, FALSE );
     }
-
-    //wykorzystanie affectu scrying shield do pomijania osob ukrytych przed wizardem
-    af.where = TO_AFFECTS;
-    af.type = gsn_scrying_shield;
-    af.level = 1;
-    af.duration = 1;
-    af.rt_duration = 0;
-    af.location = APPLY_NONE;
-    af.modifier = 0;
-    af.bitvector = &AFF_SCRYING_SHIELD;
-    affect_to_char( ch, &af, NULL, FALSE );
-
     /**
      * popatrz tam gdzie trzeba
      */
@@ -14040,19 +14031,6 @@ void spell_wizard_eye( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     do_function( ch, &do_look, "auto" );
     char_from_room( ch );
     char_to_room( ch, original );
-
-    AFFECT_DATA *aff, *aff_next;
-    for ( aff = ch->affected; aff; aff = aff_next )
-    {
-        aff_next = aff->next;
-        if ( aff->type != gsn_scrying_shield )
-            continue;
-        if ( aff->level == 1 )
-        {
-            affect_remove( ch, aff );
-        }
-    }
-
     return;
 }
 
@@ -14699,7 +14677,7 @@ void spell_banshees_howl( int sn, int level, CHAR_DATA *ch, void *vo, int target
 	{
 		vch_next = vch->next_in_room;
 
-		if ( is_undead(vch) || IS_SET(vch->form, FORM_CONSTRUCT) || is_safe( ch, vch, TRUE ) )
+		if ( is_undead(vch) || IS_SET(vch->form, FORM_CONSTRUCT) || is_safe( ch, vch ) )
 			continue;
 
 	if ( ch == vch  )
@@ -15524,17 +15502,6 @@ void spell_psionic_blast( int sn, int level, CHAR_DATA *ch, void *vo, int target
 	return;
 }
 
-void spell_lesser_psionic_blast( int sn, int level, CHAR_DATA *ch, void *vo, int target )
-{
-	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
-
-	if( !IS_SET( victim->parts, PART_BRAINS ) )
-		return;
-
-	spell_damage( ch, victim, number_range( 150, 200 ), sn, DAM_MENTAL , TRUE );
-	return;
-}
-
 void spell_inspire( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
@@ -15700,13 +15667,13 @@ void spell_mental_barrier( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 		return;
 	}
 
-    if ( IS_AFFECTED( victim, AFF_GLOBE ) || IS_AFFECTED( victim, AFF_MAJOR_GLOBE ) )
+    if ( IS_AFFECTED( victim, AFF_GLOBE ) || IS_AFFECTED( victim, AFF_MAJOR_GLOBE ) || IS_AFFECTED( victim, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
     {
 		act( "Twoje zaklêcie znika przy zetkniêciu ze sfer± otaczaj±c± $C.", ch, NULL, victim, TO_CHAR );
 		act( "Zaklêcie $z znika przy zetkniêciu z otaczaj±c± ciê sfer±.\n\r", ch, NULL, victim, TO_VICT );
 		act( "Zaklêcie $z znika przy zetkniêciu z otaczaj±c± $C sfer±.", ch, NULL, victim, TO_NOTVICT );
 
-		if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch, TRUE ) )
+		if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch ) )
 		{
 			if( victim->position < POS_STANDING )
 				do_stand( victim, "" );
@@ -15721,7 +15688,7 @@ void spell_mental_barrier( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 		print_char( victim, "Zaklêcie %s odbija siê od ochronnej tarczy.\n\r", ch->name2 );
 		act( "Zaklêcie $z odbija siê od ochronnej tarczy $Z.", ch, NULL, victim, TO_NOTVICT );
 
-		if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch, TRUE ) )
+		if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch ) )
 		{
 			if( victim->position < POS_STANDING )
 				do_stand( victim, "" );
@@ -15736,7 +15703,7 @@ void spell_mental_barrier( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 		act( "$x nie uda³o siê ograniczyæ twego zasobu zaklêæ.", ch, NULL, victim, TO_VICT );
 		act( "$x nie uda³o siê ograniczyæ zasobu zaklêæ $Z.", ch, NULL, victim, TO_NOTVICT );
 
-		if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch, TRUE ) )
+		if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch ) )
 		{
 			if( victim->position < POS_STANDING )
 				do_stand( victim, "" );
@@ -15769,7 +15736,7 @@ void spell_mental_barrier( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 	print_char( ch, "Tworzysz w umy¶le %s mentaln± barierê, uniemo¿liwiaj±c± rzucenie zaklêcia '%s'.\n\r", PERS( victim, ch ), skill_table[ czarek ].name );
 	act( "$n tworzy w umy¶le $Z mentaln± barierê.", ch, NULL, victim, TO_NOTVICT );
 
-	if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch, TRUE ) )
+	if( victim->fighting == NULL && can_move(victim) && can_see( victim, ch ) && IS_AWAKE(victim) && !is_safe( victim, ch ) )
 	{
 		if( victim->position < POS_STANDING )
 			do_stand( victim, "" );
@@ -16065,13 +16032,6 @@ void spell_fortitude( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 void spell_farsight( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	char * tar = ( char * ) vo;
-	AFFECT_DATA af;
-
-        if ( is_affected( ch, sn ) )
-        {
-                send_to_char( "Widzisz ju¿ tak daleko jak tylko mo¿esz.\n\r", ch );
-                return;
-        }
 
 	if ( IS_AFFECTED( ch, AFF_BLIND ) )
 	{
@@ -16089,15 +16049,6 @@ void spell_farsight( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		}
 		return;
 	}
-
-        af.where = TO_AFFECTS;
-        af.type = sn;
-        af.level = level;
-        af.duration = UMAX( 1, level/2 ); af.rt_duration = 0;
-        af.location = APPLY_NONE;
-        af.modifier = 0;
-        af.bitvector = &AFF_FARSIGHT;
-        affect_to_char( ch, &af, NULL, TRUE );
 
 	if ( !tar || tar[ 0 ] == '\0' )
 		do_function( ch, &do_scan, "" );
@@ -17027,7 +16978,7 @@ void spell_psychic_scream( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 		return;
 	}
 
-    	if (IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) )
+    	if (IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) || IS_AFFECTED( vch, AFF_ABSOLUTE_MAGIC_PROTECTION  ))
     	{
 			act( "Twój psychiczny krzyk znika przy zetkniêciu ze sfer± otaczaj±c± $C.", ch, NULL, vch, TO_CHAR );
 			act( "Moc zaklêcia $z znika przy zetkniêciu z otaczaj±c± ciê sfer±.\n\r", ch, NULL, vch, TO_VICT );
@@ -17062,26 +17013,28 @@ void spell_psychic_scream( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 //przerobiony na nowe staty
 void spell_bull_strength( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-    CHAR_DATA * victim = ( CHAR_DATA * ) vo;
-    AFFECT_DATA af;
-    int mod;
-    int dur = 4 + level / 10;
+	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
+	AFFECT_DATA af;
+	int mod;
+	int luck = get_curr_stat( ch, STAT_LUC );
+	int dur = 4 + level / 10;
 
-    /**
-     * sprawdz affekty i forme
-     */
-    if ( check_improve_strenth ( ch, victim, TRUE ) )
-    {
-        return;
-    }
+    if ( check_improve_strenth ( ch, victim, TRUE ) ) return;
 
-    /**
-     * rzut na szczescie
-     */
-    if ( transmute_strength_luck_dice( ch, victim ) )
-    {
-        return;
-    }
+        	if (is_undead(victim) || IS_SET( victim->form, FORM_CONSTRUCT ) )
+	{
+		act( "Te zaklêcie nie zadzia³a na $C.", ch, NULL, victim, TO_CHAR );
+		return;
+	}
+
+  	if ( number_range( 0, 25 + luck/6 ) < 1 )
+	{
+		if ( victim == ch )
+			send_to_char( "Nie uda³o ci siê zwiêkszyæ w³asnej si³y.\n\r", ch );
+		else
+			act( "Nie uda³o ci siê zwiêkszyæ si³y $Z.", ch, NULL, victim, TO_CHAR );
+		return;
+	}
 
     switch ( ch->class )
     {
@@ -17100,38 +17053,38 @@ void spell_bull_strength( int sn, int level, CHAR_DATA *ch, void *vo, int target
             break;
     }
 
-    /* Bonus dla specjalisty */
-    if ( !IS_NPC( ch ) )
-    {
-        if ( ch->pcdata->mage_specialist >= 0 && IS_SET( skill_table[ sn ].school, school_table[ ch->pcdata->mage_specialist ].flag ) )
-        {
-            dur = 5 + level / 10;
-            if ( number_range(1,2) == 1 )
-            {
-                mod = mod + number_range( 2, 5 );;
-            }
-        }
-    }
+	/* Bonus dla specjalisty */
+	if ( !IS_NPC( ch ) )
+	{
+		if ( ch->pcdata->mage_specialist >= 0 && IS_SET( skill_table[ sn ].school, school_table[ ch->pcdata->mage_specialist ].flag ) )
+		{
+			dur = 5 + level / 10;
+			if ( number_range(1,2) == 1 )
+			{
+				mod = mod + number_range( 2, 5 );;
+			}
+		}
+	}
 
-    af.where = TO_AFFECTS;
-    af.type = sn;
-    af.level = level;
-    af.duration = dur;
-    af.rt_duration = 0;
-    af.location = APPLY_STR;
-    af.modifier = mod;
-    af.bitvector = &AFF_NONE;
-    affect_to_char( victim, &af, NULL, TRUE );
+	af.where = TO_AFFECTS;
+	af.type = sn;
+	af.level = level;
+	af.duration = dur;
+	af.rt_duration = 0;
+	af.location = APPLY_STR;
+	af.modifier = mod;
+	af.bitvector = &AFF_NONE;
+	affect_to_char( victim, &af, NULL, TRUE );
 
-    send_to_char( "Czujesz dziwn± energiê rozchodz±c± siê po twoim ciele!\n\r", victim );
+	send_to_char( "Czujesz dziwn± energiê rozchodz±c± siê po twoim ciele!\n\r", victim );
 
-    if ( victim->sex == SEX_FEMALE )
-        act( "$n wydaje siê byc silniejsza.", victim, NULL, NULL, TO_ROOM );
-    else if ( victim->sex == SEX_MALE )
-        act( "$n wydaje siê byc silniejszy.", victim, NULL, NULL, TO_ROOM );
-    else
-        act( "$n wydaje siê byc silniejsze.", victim, NULL, NULL, TO_ROOM );
-    return;
+	if ( victim->sex == SEX_FEMALE )
+		act( "$n wydaje siê byc silniejsza.", victim, NULL, NULL, TO_ROOM );
+	else if ( victim->sex == SEX_MALE )
+		act( "$n wydaje siê byc silniejszy.", victim, NULL, NULL, TO_ROOM );
+	else
+		act( "$n wydaje siê byc silniejsze.", victim, NULL, NULL, TO_ROOM );
+	return;
 }
 
 //przerobiony na nowe staty
@@ -17160,7 +17113,7 @@ void spell_cat_grace( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_nimbleness ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 487 /*8 kregowy nimbleness*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17256,7 +17209,7 @@ void spell_owl_wisdom( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_draconic_wisdom ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 488 /*8 kregowy draconic wisdom*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17337,7 +17290,7 @@ void spell_fox_cunning( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_insight ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 489 /*8 kregowy insight*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17424,7 +17377,7 @@ void spell_bear_endurance( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 			return;
 		}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_behemot_toughness ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 490 /*8 kregowy behemot toughness*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17519,7 +17472,7 @@ void spell_eagle_splendor( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_inspiring_presence ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 491 /*8 kregowy inspiring presence*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17595,7 +17548,7 @@ void spell_nimbleness( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_cat_grace ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 482 /*2 kregowy cat grace*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17655,7 +17608,7 @@ void spell_draconic_wisdom( int sn, int level, CHAR_DATA *ch, void *vo, int targ
 	AFFECT_DATA af;
 	int luck, duration, mod;
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_owl_wisdom ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 483 /*2 kregowy owl wisdom*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17715,7 +17668,7 @@ void spell_insight( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	AFFECT_DATA af;
 	int luck, duration, mod;
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_fox_cunning ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 484 /*2 kregowy fox cunning*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17726,13 +17679,13 @@ void spell_insight( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 			switch ( victim->sex )
 			{
 				case 0:
-					act( "$N nie mo¿e byæ ju¿ inteligentniejsze.", ch, NULL, victim, TO_CHAR );
+					act( "$N nie mo¿e byæ ju¿ inteligêtniejsze.", ch, NULL, victim, TO_CHAR );
 					break;
 				case 1:
-					act( "$N nie mo¿e byæ ju¿ inteligentniejszy.", ch, NULL, victim, TO_CHAR );
+					act( "$N nie mo¿e byæ ju¿ inteligêtniejszy.", ch, NULL, victim, TO_CHAR );
 					break;
 				default :
-					act( "$N nie mo¿e byæ ju¿ inteligentniejsza.", ch, NULL, victim, TO_CHAR );
+					act( "$N nie mo¿e byæ ju¿ inteligêtniejsza.", ch, NULL, victim, TO_CHAR );
 					break;
 			}
 		}
@@ -17781,7 +17734,7 @@ void spell_behemot_toughness( int sn, int level, CHAR_DATA *ch, void *vo, int ta
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_bear_endurance ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 485 /*2 kregowy bear endurance*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -17852,7 +17805,7 @@ void spell_inspiring_presence( int sn, int level, CHAR_DATA *ch, void *vo, int t
 		return;
 	}
 
-	if ( is_affected( victim, sn ) || is_affected( victim, gsn_eagle_splendor ) )
+	if ( is_affected( victim, sn ) || is_affected( victim, 486 /*2 kregowy eagle splendor*/ ) )
 	{
 		if ( victim == ch )
 		{
@@ -18714,160 +18667,11 @@ void spell_light_nova( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   return;
 }
 
-void spell_scrying_shield( int sn, int level, CHAR_DATA *ch, void *vo, int target )
-{
-	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
-	AFFECT_DATA af;
-	int luck, dur;
-
-	if ( IS_AFFECTED( victim, AFF_SCRYING_SHIELD ) )
-	{
-	    if ( ch == victim )
-	    {
-	        print_char( ch, "Jeste¶ ju¿ otoczon%s tarcz± chroni±c± przed magicznym spojrzeniem.\n\r", ch->sex == SEX_FEMALE ? "a" : ch->sex == SEX_NEUTRAL ? "e" : "y" );
-	    }
-	    else
-	    {
-	        switch ( victim->sex )
-	        {
-		    case 0:
-		        act( "$N jest ju¿ otoczone tarcz± chroni±c± przed magicznym spojrzeniem.", ch, NULL, victim, TO_CHAR );
-		        break;
-                    case 1:
-		        act( "$N jest ju¿ otoczony tarcz± chroni±c± przed magicznym spojrzeniem.", ch, NULL, victim, TO_CHAR );
-		        break;
-                    default:
-		        act( "$N jest ju¿ otoczona tarcz± chroni±c± przed magicznym spojrzeniem.", ch, NULL, victim, TO_CHAR );
-		        break;
-	        }
-	    }
-            return;
-	}
-
-	luck = get_curr_stat_deprecated( ch, STAT_LUC );
-	if ( number_range( 0, LUCK_BASE_MOD + luck ) < 1 )
-	{
-	    if ( victim == ch )
-	    {
-	        send_to_char( "Nie uda³o ci siê ukryæ przed magicznym wzrokiem.\n\r", ch );
-	    }
-	    else
-	    {
-	        act( "Nie uda³o ci siê ukryæ $Z przed magicznym wzrokiem.", ch, NULL, victim, TO_CHAR );
-	    }
-	    return;
-	}
-
-	dur = 4;
-	if ( !IS_NPC( ch ) )
-	{
-	    if ( ch->pcdata->mage_specialist >= 0 && IS_SET( skill_table[ sn ].school, school_table[ ch->pcdata->mage_specialist ].flag ) )
-	    {
-		dur = 4 + level / 10;
-	    }
-	}
-
-	af.where = TO_AFFECTS;
-	af.type = sn;
-	af.level = level;
-	af.duration = dur;
-	af.rt_duration = 0;
-	af.location = APPLY_NONE;
-	af.modifier = 0;
-	af.bitvector = &AFF_SCRYING_SHIELD;
-	affect_to_char( victim, &af, NULL, TRUE );
-
-	switch ( victim->sex )
-	{
-		case SEX_NEUTRAL:
-			act( "$n zostaje otoczone ledwie widoczn± tarcz±.", victim, NULL, NULL, TO_ROOM );
-			break;
-		case SEX_MALE:
-			act( "$n zostaje otoczony ledwie widoczn± tarcz±.", victim, NULL, NULL, TO_ROOM );
-			break;
-		case SEX_FEMALE:
-		default:
-			act( "$n zostaje otoczona ledwie widoczn± tarcz±.", victim, NULL, NULL, TO_ROOM );
-			break;
-	}
-	if ( victim == ch )
-    	{
-        	send_to_char( "Otaczasz siê ledwie widoczn± tarcz±.\n\r", ch );
-    	}
-	else
-    	{
-        	act( "$n otacza ciê ledwie widoczn± tarcz±.", ch, NULL, victim, TO_VICT );
-    	}
-
-	return;
-}
-
 void spell_reflect_lightning( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 }
 
 void spell_mend_golem( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-    CHAR_DATA *victim = vo;
-    OBJ_DATA *obj;
-    OBJ_DATA *obj_next;
-    int time;
-    time = ch->level * 2;
-
-    if( str_cmp( race_table[ GET_RACE( victim ) ].name, "golem" ) )
-    {
-        act( "$n nie wyglada na golema.", victim, NULL, ch, TO_VICT );
-        return;
-    }
-
-    for ( obj = ch->in_room->contents; obj != NULL; obj = obj_next )
-    {
-        OBJ_NEXT_CONTENT( obj, obj_next );
-        if ( obj->item_type == ITEM_MONEY )
-        {
-            continue;
-        }
-        if ( !str_prefix(material_table[ obj->material ].adjective, victim->name ) && can_see_obj( ch, obj ) )
-        {
-            break;
-        }
-    }
-
-    if( obj )
-    {
-        if( obj->item_type == ITEM_GEM && obj->weight > 90 )
-        {
-            heal_specific_race_type( sn, level, ch, victim, target, "$N chyba nie jest golemem?", MONSTER, 12, 6, 3, heal_golem_msg_table );
-            time = time * 4/3;
-        }
-        else if ( obj->item_type == ITEM_GEM )
-        {
-            heal_specific_race_type( sn, level, ch, victim, target, "$N chyba nie jest golemem?", MONSTER, 10, 6, 2, heal_golem_msg_table );
-        }
-        else if ( obj->weight > 90 )
-        {
-            heal_specific_race_type( sn, level, ch, victim, target, "$N chyba nie jest golemem?", MONSTER, 8, 6, 1, heal_golem_msg_table );
-            time = time * 3/4;
-        }
-        else
-        {
-            heal_specific_race_type( sn, level, ch, victim, target, "$N chyba nie jest golemem?", MONSTER, 4, 6, 1, heal_golem_msg_table );
-            time = time / 2;
-        }
-
-        send_to_char( "Ostro¿nie operuj±c materia³em uzupe³niasz nim golema.\n\r", ch );
-        extract_obj( obj );
-    }
-    else
-    {
-        act( "Brakuje ci odpowiedniego materia³u.", ch, NULL, NULL, TO_CHAR );
-        return;
-    }
-
-
-    if( IS_NPC( victim ) && EXT_SET_BIT( victim->act, ACT_NO_EXP ) )
-    {
-        remove_event( EVENT_EXTRACT_CHAR, victim, NULL, 0 );
-        create_event( EVENT_EXTRACT_CHAR, 4*60*time , victim, NULL, 0 );
-    }
 }
+

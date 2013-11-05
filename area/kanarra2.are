@@ -430,14 +430,41 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 60
 Cond 75
+Comments ~
+Objend
+#Vnum 43701
+Name brudna poszarpana szata~
+Odmiana brudnej szaty~brudnej szacie~brudn± szate~brudn± szat±~brudnej szacie~
+Short brudna szata~
+Descr Brudna, poszarpana szata, wala siê po ziemi, oblepiona b³otem i innymi nieczysto¶ciami.~
+Material jedwab~
+Type clothing
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|O
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 200
+Cond 100
+Aff 1 13 -5 0 0 0
+Aff 1 12 8 1 0 0
+Itemdesc D³uga, jednak niezwykle poszarpana szata, która widzisz jest niczym innym
+jak pozosta³o¶ciami po magowskiej szacie, niegdy¶ do¶æ ³adnej i obszernej,
+teraz ca³ej w dziurach i brudzie. 
+~
 Comments ~
 Objend
 #Vnum 0
@@ -445,6 +472,14 @@ Objend
 
 
 #ROOMS
+#Vnum 43700
+Name ~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 43701
 Name W±ski kana³ ¶ciekowy~
 Descr Brudna woda plynie leniwie w dole kanalu, jest gleboka na kilka piedzi
@@ -5019,7 +5054,7 @@ S
 #MOBPROGSNEW
 #43708
 ~
-mob equip self 4375
+mob equip self 43701
 mob oload 11852
 ~
 #0
@@ -5045,6 +5080,8 @@ mob oload 11852
 
 
 #BONUS_SET
+#Vnum 43700
+BonusEnd
 #Vnum 0
 
 #$

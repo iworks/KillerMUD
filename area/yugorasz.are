@@ -228,11 +228,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 1
 Gender 5
 Value 100 0 0 15 100 32 -1
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 1
 Cond 50
@@ -259,11 +259,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 1
 Cond 75
@@ -289,11 +289,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 1
 Cond 75
@@ -315,11 +315,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -347,11 +347,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 20 0 0 64925 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -377,11 +377,11 @@ ExtraExt 0|ADG
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -405,12 +405,12 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1000
 LiczbaMnoga 0
 Gender 2
 Komponent 3 3000
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 1
 Cost 11000
 Cond 90
@@ -1414,6 +1414,10 @@ else
     mob oload gem 4
     mob oload gem 3
   endif
+endif
+#ksiega
+if rand 62
+  mob oload 25670
 endif
 #komponent do blinka
 mob oload 64921

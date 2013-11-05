@@ -28,7 +28,7 @@
  ***********************************************************************
  *
  * $Id: skills_base.c 10701 2011-12-02 16:03:39Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/skills_base.c $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/skills_base.c $
  *
  */
 #if defined(macintosh)

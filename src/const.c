@@ -28,8 +28,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: const.c 12203 2013-03-29 13:35:28Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/const.c $
+ * $Id: const.c 10910 2012-01-29 14:33:25Z raszer $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/const.c $
  *
  */
 #if defined(macintosh)
@@ -791,7 +791,7 @@ const	struct	pc_race_type	pc_race_table	[]	=
 	{
 	"elf",
 	"Elf",
-   	1|2|4|8|32|256|1024,
+   	1|2|4|8|32|256,
 	{ 0, 0,  0, 1, 0, 1, 0},
 	{ "" },
 	SIZE_SMALL,
@@ -821,7 +821,7 @@ const	struct	pc_race_type	pc_race_table	[]	=
 	{
 	"gnom",
 	"Gnom",
-	1|2|4|8|32|1024,
+	1|2|4|8|32,
 	{ 0, 1, -1, 0, 0, 0, 0},
 	{ "" },
 	SIZE_SMALL,
@@ -836,7 +836,7 @@ const	struct	pc_race_type	pc_race_table	[]	=
 	{
 	"pó³elf",
 	"Pó³elf",
-	1|2|4|8|128|256|512|1024,
+	1|2|4|8|128|256|512,
 	{ 0, 0, 0, 0, 0, 0, 0},
 	{ "" },
 	SIZE_MEDIUM,
@@ -851,7 +851,7 @@ const	struct	pc_race_type	pc_race_table	[]	=
 	{
 	"nizio³ek",
 	"Nizio³ek",
-	2|4|8|1024,
+	2|4|8,
 	{ -1, 0, 0, 1, 0, 0, 2 },
 	{ "sneak","hide" },
 	SIZE_SMALL,
@@ -3304,7 +3304,7 @@ const 	struct monster_body_parts	body_parts_table	[]		=
     { // 8
         "³apka zajêcza zajeczalapka", "{W³apki zajêczej{x", "{W³apce zajêczej{x", "{W³apka zajêcza{x", "{W³apk± zajêcz±{x", "{W³apce zajêczej{x",
         "{W³apka zajêcza{x", "Na ziemi le¿y sobie zajêcza ³apka", "{WZajêcza ³apka{x, pewnie przynosi szczê¶cie.",
-        "zaj±c", 0, A, 15, 70, 60, SEX_FEMALE, TRUE, TRUE, "{W", TRUE
+        "zaj±c", 0, A, 30, 70, 60, SEX_FEMALE, TRUE, TRUE, "{W", TRUE
     },
     { // 9
         "serce kolosa", "{sserca kolosa{x", "{ssercu kolosa{x", "{sserce kolosa{x", "{ssercem kolosa{x", "{ssercu kolosa{x",
@@ -3695,30 +3695,6 @@ const	struct	trick_type	trick_table	[MAX_TRICKS]	=
 	40,//4% przy ciosie overwhelmingiem kiedy ma sie naladowanego tormenta
 	10,
 	},
-
-	{//21
-	"rampage",
-	239, //damage reduction
-	115, //berserk
-	-1,
-	75,
-	trick_rampage,
-	5,
-	5,//0,5% przy otrzymywaniu obrazen
-	10,
-	},
-
-	{//22
-	"enlightenment",
-	126, //meditation
-	-1,
-	-1,
-	80,
-	trick_enlightenment,
-	3,
-	50,//5% po zapamiêtaniu czaru
-	10,
-	},
 };
 
 //rellik: komponenty, struktura wi±¿±ca czar z komponentem.
@@ -3740,110 +3716,151 @@ const struct spell_items_type spell_items_table[] =
        czy posiada specjaln± funkcjê sprawdzaj±c±
        numer grupy ( od 1 do 30 ) - je¶li 0 to nie jest elementem grupy, max 30 grup per sn i 30 komponentow w grupie
      */
-    {  1,  94, "summon PC", "kielsmoka", "Kie³ smoka", "Czubek k³a l¶ni b³êkitnym ¶wiat³em gdy kumuluje siê na nim energia, po czym jej w±ska wi±zka wystrzeliwuje w górê.", TRUE, FALSE, FALSE, 0 },
-    {  2,  63, "ident jak poznaniak", "lisc-zwyczajny", "{gli¶æ{x", "{gLi¶æ{x zwija siê i kurczy.", TRUE, FALSE, FALSE, 1 },
-    {  3,  63, "ident jak poznaniak", "skrzydlo-nietoperza", "{sskrzyd³o{x nietoperza", "{sskrzyd³o{x nietoperza trzepocze po¶miertnym skurczem miê¶ni.", TRUE, FALSE, FALSE, 1 },
-    {  4,  63, "ident jak poznaniak", "ogon-szczura", "szczurzy {wogon{x", "szczurzy {wogon{x wyprê¿a siê.", TRUE, FALSE, FALSE, 1 },
-    {  5,  63, "ident jak poznaniak", "nefryt", "{Gnefryt{x", "Przez chwilê zieleñ {gnefrytu{x staje siê g³êbsza.", FALSE, FALSE, FALSE, 1 },
-    {  6, 278, "raise ghoul", "szpony-ghula", "{bszpony{x {sghula{x", "{bSzpony{x {sghula{x wbijaj± siê g³êboko w cia³o.", TRUE, TRUE, FALSE, 0 },
-    {  7, 279, "raise ghast", "szpony-ghasta", "{bszpony{x {sghasta{x", "{bSzpony{x {sghasta{x wbijaj± siê g³êboko w cia³o.", TRUE, TRUE, FALSE, 0 },
-    {  8,  92, "mirror", "lustro-mirror", "{Clustro{x", "Czar odbija siê w {Clustrze{x powoduj±c powstanie dodatkowych odbiæ.", TRUE, FALSE, FALSE, 0 },
-    {  9, 258, "raise zombie", "trupi-palec", "{strupi palec{x", "{sTrupi palec{x przy³o¿ony do cia³a wrasta i zdaje siê je o¿ywiaæ.", TRUE, TRUE, FALSE, 0 },
-    { 10, 281, "orb of entropy", "kamienny-pierscien", "{wkamienny pier¶cieñ{x", "{wkamienny pier¶cieñ{x dr¿y przepe³niony moc±.{x", TRUE, FALSE, TRUE, 0 },
-    { 11, 135, "liveoak slaby", "drobne-kawalki-kory", "{ydrobne kawa³ki kory{x", "Z {ydrobnych kawa³ków kory{x tworzy siê poka¼ne drzewo.", TRUE, FALSE, FALSE, 0 },
-    { 12, 135, "liveoak mocny", "kawalki-kory", "{ykawa³ki kory{x", "Z {ykawa³ków kory{x tworzy siê ogromne drzewo.", TRUE, FALSE, FALSE, 0 },
+    {  1, 94, "summon PC", "kielsmoka", "Kie³ smoka", "Czubek k³a l¶ni b³êkitnym ¶wiat³em gdy kumuluje siê na nim energia, po czym jej w±ska wi±zka wystrzeliwuje w górê.", TRUE, FALSE, FALSE, 0 },
+    {  2, 63, "ident jak poznaniak", "lisc-zwyczajny", "{gli¶æ{x", "{gLi¶æ{x zwija siê i kurczy.", TRUE, FALSE, FALSE, 1 },
+    {  3, 63, "ident jak poznaniak", "skrzydlo-nietoperza", "{sskrzyd³o{x nietoperza", "{sskrzyd³o{x nietoperza trzepocze po¶miertnym skurczem miê¶ni.", TRUE, FALSE, FALSE, 1 },
+    {  4, 63, "ident jak poznaniak", "ogon-szczura", "szczurzy {wogon{x", "szczurzy {wogon{x wyprê¿a siê.", TRUE, FALSE, FALSE, 1 },
+    {  5, 63, "ident jak poznaniak", "nefryt", "{Gnefryt{x", "Przez chwilê zieleñ {gnefrytu{x staje siê g³êbsza.", FALSE, FALSE, FALSE, 1 },
+    /* * free 6-18 */
+    { 20, 278, "raise ghoul", "szpony-ghula", "{bszpony{x {sghula{x", "{bSzpony{x {sghula{x wbijaj± siê g³êboko w cia³o.", TRUE, TRUE, FALSE, 0 },
+    { 21, 279, "raise ghast", "szpony-ghasta", "{bszpony{x {sghasta{x", "{bSzpony{x {sghasta{x wbijaj± siê g³êboko w cia³o.", TRUE, TRUE, FALSE, 0 },
+    { 22, 92, "mirror", "lustro-mirror", "{Clustro{x", "Czar odbija siê w {Clustrze{x powoduj±c powstanie dodatkowych odbiæ.", TRUE, FALSE, FALSE, 0 },
+    { 23, 258, "raise zombie", "trupi-palec", "{strupi palec{x", "{sTrupi palec{x przy³o¿ony do cia³a wrasta i zdaje siê je o¿ywiaæ.", TRUE, TRUE, FALSE, 0 },
+    { 24, 281, "orb of entropy", "kamienny-pierscien", "{wkamienny pier¶cieñ{x", "{wkamienny pier¶cieñ{x dr¿y przepe³niony moc±.{x", TRUE, FALSE, TRUE, 0 },
+    { 25, 135, "liveoak slaby", "drobne-kawalki-kory", "{ydrobne kawa³ki kory{x", "Z {ydrobnych kawa³ków kory{x tworzy siê poka¼ne drzewo.", TRUE, FALSE, FALSE, 0 },
+    { 26, 135, "liveoak mocny", "kawalki-kory", "{ykawa³ki kory{x", "Z {ykawa³ków kory{x tworzy siê ogromne drzewo.", TRUE, FALSE, FALSE, 0 },
+
+    /**
+     * druid
+     */
     /* druid: Sn: 368 Spell: ring of vanion */
-    { 13, 368, "ring of vanion", "liscwielkiegodebu", "{Gwielki zielony lisc{x", "{GWielki zielony li¶æ{x traci swój kolor, robi siê coraz cieñszy, po czym rozpada siê bez ¶ladu.", TRUE, TRUE, FALSE, 0 },
-    { 14, 368, "ring of vanion", "zoladzwielkiegodebu", "{Wsrebrzysto po³yskuj±cy, ma³y ¿o³±d¼{x", "{SSrebrzysto po³yskuj±cy ¿o³±d¼{x kurczy siê, po czym znika z cichym trzaskiem.", TRUE, FALSE, FALSE, 0 },
+    { 19, 368, "ring of vanion", "liscwielkiegodebu", "{Gwielki zielony lisc{x", "{GWielki zielony li¶æ{x traci swój kolor, robi siê coraz cieñszy, po czym rozpada siê bez ¶ladu.", TRUE, TRUE, FALSE, 0 },
+    { 29, 368, "ring of vanion", "zoladzwielkiegodebu", "{Wsrebrzysto po³yskuj±cy, ma³y ¿o³±d¼{x", "{SSrebrzysto po³yskuj±cy ¿o³±d¼{x kurczy siê, po czym znika z cichym trzaskiem.", TRUE, FALSE, FALSE, 0 },
     /* druid: Sn: 369 Spell: circle of vanion */
-    { 15, 369, "circle of vanion", "liscwielkiegodebu", "{Gwielki zielony li¶æ{x", "{GWielki zielony li¶æ{x traci swój kolor, robi siê coraz cieñszy, po czym rozpada siê bez ¶ladu.", TRUE, TRUE, FALSE, 1 },
-    { 16, 369, "circle of vanion", "zoladzwielkiegodebu", "{Wsrebrzysto po³yskuj±cy, ma³y ¿o³±d¼{x", "{SSrebrzysto po³yskuj±cy ¿o³±d¼{x kurczy siê, po czym znika z cichym trzaskiem.", TRUE, FALSE, FALSE, 1 },
+    { 27, 369, "circle of vanion", "liscwielkiegodebu", "{Gwielki zielony li¶æ{x", "{GWielki zielony li¶æ{x traci swój kolor, robi siê coraz cieñszy, po czym rozpada siê bez ¶ladu.", TRUE, TRUE, FALSE, 1 },
+    { 28, 369, "circle of vanion", "zoladzwielkiegodebu", "{Wsrebrzysto po³yskuj±cy, ma³y ¿o³±d¼{x", "{SSrebrzysto po³yskuj±cy ¿o³±d¼{x kurczy siê, po czym znika z cichym trzaskiem.", TRUE, FALSE, FALSE, 1 },
     /* druid: Sn: 241 Spell: alicorn lance */
-    { 17, 241, "alicorn lance", "rogjednorozca", "{Wróg jednorozca{x", "Zawarta w rogu magiczna moc jednoro¿ca uwalnia siê.", TRUE, FALSE, FALSE, 0 },
+    { 30, 241, "alicorn lance", "rogjednorozca", "{Wróg jednorozca{x", "Zawarta w rogu magiczna moc jednoro¿ca uwalnia siê.", TRUE, FALSE, FALSE, 0 },
+
+    /**
+     * acid spells
+     */
     /* Sn:   1 Spell: acid blast                       Szkola: Inwokacje     Profesje: Mag*/
-    {  18,   1, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+    {  31,   1, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 175 Spell: resist acid                      Szkola: Odrzucanie    Profesje: Mag Kleryk Druid*/
-    {  19, 175, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+    {  33, 175, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 193 Spell: acid hands                       Szkola: Przemiany     Profesje: Mag*/
-    {  20, 193, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+    {  34, 193, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 268 Spell: endure acid                      Szkola: Odrzucanie    Profesje: Mag Kleryk Druid*/
-    {  21, 268, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+    {  35, 268, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 405 Spell: acid arrow                       Szkola:               Profesje: Mag*/
-    {  22, 405, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+    {  36, 405, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+
+    /**
+     * lighting spells
+     */
     /* Sn: 269 Spell: endure lightning                 Szkola: Odrzucanie    Profesje: Mag Kleryk Druid */
-    {  23, 269, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  37, 269, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 146 Spell: resist lightning                 Szkola: Odrzucanie    Profesje: Mag Kleryk Druid */
-    {  24, 146, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  32, 146, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn:  69 Spell: lightning bolt */
-    {  25, 69, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  53, 69, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn:  88 Spell: shocking grasp    */
-    {  26, 88, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  54, 88, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn:  13 Spell: chain lightning */
-    {  27, 13, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  55, 13, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 296 Spell: thunder bolt*/
-    {  28, 296, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  56, 296, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+
+    /**
+     * fire based spells
+     */
     /* Sn: 266 Spell: endure fire                      Szkola: Odrzucanie    Profesje: Mag Kleryk Druid */
-    {  29, 266, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  38, 266, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 143 Spell: resist fire*/
-    {  30, 143, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  57, 143, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn:  48 Spell: fireball*/
-    {  31, 48, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  58, 48, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 477 Spell: flame lace */
-    {  32, 477, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  59, 477, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 264 Spell: burst of flame */
-    {  33, 264, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  60, 264, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 265 Spell: burst of fire */
-    {  34, 265, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  61, 265, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 240 Spell: sunscorch  */
-    {  35, 240, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  62, 240, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
     /* Sn:  50 Spell: flamestrike   */
-    {  36, 50, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  63, 50, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+
+    /**
+     * cold based spells
+     */
     /* Sn: 267 Spell: endure cold                      Szkola: Odrzucanie    Profesje: Mag Kleryk Druid */
-    {  37, 267, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    {  39, 267, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 145 Spell: resist fire*/
-    {  38, 145, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    {  64, 145, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 196 Spell: cold snap  */
-    {  39, 196, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    {  65, 196, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 195 Spell: frost hands */
-    {  40, 195, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    {  66, 195, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 185 Spell: cone of cold */
-    {  41, 185, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    {  67, 185, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 284 Spell: frost rift */
-    {  42, 284, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    {  68, 284, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
     /* Sn: 299 Spell: ice bolt */
-    {  43, 299, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
-    /* mag: enchant weapon */
+    {  69, 299, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    /**
+     * enchant weapon
+     * */
     {  40,  43, "enchant sredni", "sercebehemota", "{Rserce{x {rbehemota{x", "{Rserce{x {rbehemota{x zaczyna pulsowaæ nagle czerwonym ¶wiat³em!", TRUE, FALSE, FALSE, 0 },
-    {  45,  43, "enchant mocny", "sercesmoka", "{Rserce{x {Gzielonego smoka{x", "{Rserce{x {Gzielonego smoka{x rozb³yska nagle niezwyk³ym ¶wiat³em!", TRUE, FALSE, FALSE, 0 },
-    /* mag animate dead */
-    {  46, 232, "Animate z licza", "czaszka-licza", "{Wczaszka licza{x", "{WCzaszka licza{x otacza siê czerwon± aur±!", TRUE, FALSE, FALSE, 0},
-    {  47, 232, "Animate z wampira", "k³y-wampira", "{Dwampirze k³y{x", "{Dwampirze k³y{x otaczaj± siê czerwon± aur± i rozpadaj± w py³!", TRUE, FALSE, FALSE, 0},
-    {  48, 232, "Animate z mumii", "banda¿e-mumii", "kupka bandazy", "Banda¿e mumii otaczaj± siê czerwon± aur± i rozpadaj± w py³!", TRUE, FALSE, FALSE, 0},
-    {  49, 232, "Animate z upiora", "upiorny-py³", "kupka popiolu", "Upiorny py³ po³yskuje czerwon± aur± i rozwiewa siê!", TRUE, FALSE, FALSE, 0},
-    /* kleryk: heal */
-    {  50,  61, "komponent do heal", "³za-isoryka", "fiolka z ³z± Isoryka", "Fiolka z ³z± Isoryka otacza sie bia³ym ¶wiat³em!", TRUE, FALSE, FALSE, 0},
-    /* kleryk: harm */
-    {  51,  59, "komponent do harm", "czaszka-licza", "{Wczaszka licza{x", "{WCzaszka licza{x otacza siê czerwon± aur±!", TRUE, FALSE, FALSE, 0},
-    /* * spell_mending */
-    {  52, 170, "komponent do mend", "ksiezycowyproszek", "{Wksiê¿ycowy proszek{x", "Ksiê¿ycowy proszek znika w dalikatnym b³ysku ¶wiat³a.", FALSE, FALSE, FALSE, 0 },
-    /* spell_elemental_devastation */
-    {  53,  99, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
-    {  54,  99, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
-    {  55,  99, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
-    {  56,  99, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
-    /* blink */
-    {  57, 415, "longer blink", "iluzorycznypyl", "{DIluzoryczny {Wpy³{x", "{DIluzoryczny {Wpy³ {Ymigocze przez chwilê{x.", TRUE, TRUE, FALSE, 0 },
-    /* create greater illusion */
-    { 58, 315, "cgilvl2", "magiczny-pryzmat", "{Bmagiczny {Ypryzmat{x", "{BMagiczny {Ypryzmat {Rrozb³yskujê szkar³atnym ¶wiat³em{x.", TRUE, TRUE, FALSE, 0 },
-    { 59, 315, "cgilvl1", "oko-smoka", "oko smoka", "¬renica oka smoka powiêksza siê na chwilê.", TRUE, TRUE, FALSE, 0 },
-    { 60, 402, "wac1", "oko-obserwatora", "oko obserwatora", "¬renica oka obserwatora powiêksza siê na chwilê.", TRUE, TRUE, FALSE,0 },
+    {  41,  43, "enchant mocny", "sercesmoka", "{Rserce{x {Gzielonego smoka{x", "{Rserce{x {Gzielonego smoka{x rozb³yska nagle niezwyk³ym ¶wiat³em!", TRUE, FALSE, FALSE, 0 },
+    /**
+     * animate dead
+     * */
+    {  42, 232, "Animate z licza", "czaszka-licza", "{Wczaszka licza{x", "{WCzaszka licza{x otacza siê czerwon± aur±!", TRUE, FALSE, FALSE, 0},
+    {  43, 232, "Animate z wampira", "k³y-wampira", "{Dwampirze k³y{x", "{Dwampirze k³y{x otaczaj± siê czerwon± aur± i rozpadaj± w py³!", TRUE, FALSE, FALSE, 0},
+    {  44, 232, "Animate z mumii", "banda¿e-mumii", "kupka bandazy", "Banda¿e mumii otaczaj± siê czerwon± aur± i rozpadaj± w py³!", TRUE, FALSE, FALSE, 0},
+    {  45, 232, "Animate z upiora", "upiorny-py³", "kupka popiolu", "Upiorny py³ po³yskuje czerwon± aur± i rozwiewa siê!", TRUE, FALSE, FALSE, 0},
+       /**
+     * Heal & Harm
+     * */
+    {  46,  61, "komponent do heal", "³za-isoryka", "fiolka z ³z± Isoryka", "Fiolka z ³z± Isoryka otacza sie bia³ym ¶wiat³em!", TRUE, FALSE, FALSE, 0},
+    {  47,  59, "komponent do harm", "czaszka-licza", "{Wczaszka licza{x", "{WCzaszka licza{x otacza siê czerwon± aur±!", TRUE, FALSE, FALSE, 0},
+
+    /**
+     * spell_mending
+     */
+    {  48, 170, "komponent do mend", "ksiezycowyproszek", "{Wksiê¿ycowy proszek{x", "Ksiê¿ycowy proszek znika w dalikatnym b³ysku ¶wiat³a.", FALSE, FALSE, FALSE, 0 },
+    /**
+     * spell_elemental_devastation
+     */
+    {  49,  99, "acid based spell", "buteleczkazkwasem", "{gbuteleczka z kwasem{x", "{gKropla kwasu znika w powietrzu{x.", TRUE, FALSE, FALSE, 0 },
+    {  50,  99, "lighting based spell", "bursztyn", "{ykawa³ek bursztynu{x", "{yDrobne {Yiskry{y skacz± po bursztynie{x.", TRUE, FALSE, FALSE, 0 },
+    {  51,  99, "fire based spell", "agatognisty", "{ragat {Rognisty{x", "{rAgat {Rognisty{r b³yska ciep³ym ¶wiat³em{x.", TRUE, FALSE, FALSE, 0 },
+    {  52,  99, "cold based spell", "srebrnyproszek", "{Dsrebrny proszek{x", "Odrobina {Dsrebrnego proszku{x rozmywa siê w powietrzu.", TRUE, FALSE, FALSE, 0 },
+    /**
+    *blink
+    **/
+    {  70,  415 , "longer blink", "iluzorycznypyl", "{DIluzoryczny {Wpy³{x", "{DIluzoryczny {Wpy³ {Ymigocze przez chwilê{x.", TRUE, TRUE, FALSE, 0 },
+    /**
+    *create greater illusion
+    **/
+     {  71,  315 , "cgilvl2", "magiczny-pryzmat", "{Bmagiczny {Ypryzmat{x", "{BMagiczny {Ypryzmat {Rrozb³yskujê szkar³atnym ¶wiat³em{x.", TRUE, TRUE, FALSE, 0 },
+     {  72,  315 , "cgilvl1", "oko-smoka", "oko smoka", "¬renica oka smoka powiêksza siê na chwilê.", TRUE, TRUE, FALSE, 0 },
+
+     {  73, 402, "wac1", "oko-obserwatora", "oko obserwatora", "¬renica oka obserwatora powiêksza siê na chwilê.", TRUE, TRUE, FALSE,0 },
+    /**
+     * full haste decrising caster wait time after casting
+     * spell: haste
+     * sn:    60
+     */
+
     /*
      * UWAGA!
      *
      * Dodajac nowy komponent sprawdz, zeby pierwsza liczba byla NOWA
-     * ABSOLUTNIE nie wolno zmieniac tych liczb w innym momencie niz
-     * player wipe poniewaz sa one wiaza w pliku gracza informacje
-     * o znanych komponentach.
+     * ABSOLUTNIE nie wolno zmieniac tych liczb, bo sa one wiaza w pliku
+     * gracza informacje o znanych komponentach.
      *
      * dodatkowo w pliku merc.h ZMIEN wartosc stalej MAX_COMPONENTS
      *
@@ -4178,29 +4195,3 @@ struct repair_item_type repair_item_table[] =
     {	NULL,			0,			NULL			}
 };
 
-const char heal_plant_msg_table [6][MAX_STRING_LENGTH] = {
-   "Niemal wszystkie uszkodzenia $z goj± siê",
-   "Wiekszo¶æ masywnych zniszczeñ $z goi siê.",
-   "Kilka du¿ych uszkodzeñ $z goi siê.",
-   "Kilka uszkodzeñ $z goi siê.",
-   "Kilka zranieñ $z znika.",
-   "Niektóre z zadrapañ $z znikaj±."
-};
-
-const char heal_animal_msg_table [6][MAX_STRING_LENGTH] = {
-   "Prawie wszystkie rany $z goj± siê.",
-   "Wiêkszo¶æ ran $z goi siê.",
-   "Kilka g³êbokich ran $z goi siê.",
-   "Kilka ran $z goi siê.",
-   "Kilka zranieñ $z znika.",
-   "Niektóre z siniaków $z znikaj±."
-};
-
-const char heal_golem_msg_table [6][MAX_STRING_LENGTH] = {
-   "Prawie prawie ca³a struktura $z regeneruje siê.",
-   "Wiêkszo¶æ uszkodzeñ $z regeneruje siê.",
-   "Kilka g³êbokich ubytków $z uzupe³nia siê.",
-   "Kilka ubytków $z wype³nia siê.",
-   "Kilka rys $z znika.",
-   "Niektóre z zarysowañ $z znikaj±."
-};

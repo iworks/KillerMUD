@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -26,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: magic.c 12233 2013-04-09 09:54:32Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/magic.c $
+ * $Id: magic.c 11016 2012-02-23 12:22:02Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/magic.c $
  *
  */
 #if defined(macintosh)
@@ -54,7 +54,6 @@ extern void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd );
  */
 void say_spell                      args( ( CHAR_DATA *ch, int sn ) );
 bool check_improve_strenth          args( ( CHAR_DATA *ch, CHAR_DATA *victim, bool verbose ) );
-bool transmute_strength_luck_dice   args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool check_shaman_invoke            args( ( CHAR_DATA *ch, int sn ) );
 void remove_memorized_spell         args( ( CHAR_DATA *ch, int sn ) );
 int  helper_do_cast_wait_wand_bonus args( ( CHAR_DATA *ch, int sn ) );
@@ -433,108 +432,9 @@ void do_study( CHAR_DATA *ch, char *argument )
         chance += chance/4;
     }
     chance = UMAX(chance,1);
-    if (IS_OBJ_STAT( book, ITEM_COMPONENTONLY ))
-    {
-        //musi znac spell
-        if ( ch->pcdata->learned[sn] > 0 )
-        {
-            //jesli zna wszystkie komponenty do danego zaklecia to nic ciekawego sie nie dowie
-            if (spell_items_know_all( ch, sn ))
-            {
-                print_char(ch,"Z uwag± przyglad±sz siê %s kartkuj±c kolejno strony. ", book->name3);
-                print_char(ch,"Nie udaje ci siê jednak znale¼æ niczego warto¶ciowego lub nowego. ");
-                print_char(ch,"Po chwili %s rozb³yskuje jasnym ¶wiat³em i zamienia siê w kupkê popio³u.\n\r", book->short_descr);
-                // Â³adowanie popioÂ³u
-                obj = create_object( get_obj_index( OBJ_VNUM_ASH ), FALSE );
-                obj->timer = UMAX(3,number_percent()/10);
-                obj_to_room( obj, ch->in_room );
-
-                sprintf(wpis_do_loga,"%s study %s[%d], components already known.", ch->name, book->short_descr, book->pIndexData->vnum );
-                log_string( wpis_do_loga );
-                if(book->wear_loc != WEAR_NONE)
-                {
-                    unequip_char( ch, book );
-                }
-                /*artefact*/
-                if( is_artefact(book) && !IS_NPC(ch) && !IS_IMMORTAL(ch) )
-                {
-                    artefact_to_char( book, ch);
-                }
-                obj_from_char( book );
-                /*artefact*/
-                if( is_artefact(book) )
-                {
-                    extract_artefact(book);
-                }
-                extract_obj( book );
-                WAIT_STATE(ch,12);
-                return;
-            } else {
-                if ( ( rand = number_percent() ) < chance || ( rand2 = number_percent() ) < chance )
-                {
-                    spell_item_get_knowledge( ch, sn ); //losuje wiedzÃª o komponencie dla gracza dot. sn
-                    sprintf(wpis_do_loga,"%s study %s[%d], learned component.", ch->name, book->short_descr, book->pIndexData->vnum );
-                    log_string( wpis_do_loga );
-                } else {
-                    print_char(ch,"Przegl±dasz %s zafascynowan<&y/a/e> ogromem nowej wiedzy. ", book->name4);
-                    print_char(ch,"Próbujesz zrozumieæ skomplikowane procesy opisane w ksiêdze, jednak po chwili zdajesz sobie sprawe, ¿e ci siê to raczej nie uda. ");
-                    print_char(ch,"Docierasz do po³owy, gdy %s rozb³yskuje i zamienia siê w kupkê popio³u.\n\r", book->short_descr);
-
-                    // Â³adowanie popioÂ³u
-                    obj = create_object( get_obj_index( OBJ_VNUM_ASH ), FALSE );
-                    obj->timer = UMAX(3,number_percent()/10);
-                    obj_to_room( obj, ch->in_room );
-                    sprintf(wpis_do_loga,"%s study %s[%d], failed to learn component.", ch->name, book->short_descr, book->pIndexData->vnum );
-                    log_string( wpis_do_loga );
-                }
-                if(book->wear_loc != WEAR_NONE) unequip_char( ch, book );
-                /*artefact*/
-                if( is_artefact(book) && !IS_NPC(ch) && !IS_IMMORTAL(ch) ) artefact_to_char( book, ch);
-                obj_from_char( book );
-                /*artefact*/
-                if( is_artefact(book) ) extract_artefact(book);
-                extract_obj( book );
-                WAIT_STATE(ch,12);
-                return;
-            }
-
-        } else {
-            //nie zna czarku, wiec nie zrozumie przeznaczenia komponentu
-            print_char(ch,"Z uwaga przygl±dasz siê %s kartkuj±c kolejno strony. ", book->name3);
-            print_char(ch,"Znajdujesz informacje opisuj±ce pewne zaawansowane procesy, których nie jeste¶ w stanie jednak zrozumieæ. ");
-            print_char(ch,"Po chwili zdajesz sobie sprawê, ¿e nie jeste¶ jeszcze gotow<&y/a/e> na t± wiedzê.");
-            print_char(ch,"Nagle %s rozb³yskuje jasnym ¶wiat³em i zamienia siê w kupkê popio³u.\n\r", book->short_descr);
-
-            // Â³adowanie popioÂ³u
-            obj = create_object( get_obj_index( OBJ_VNUM_ASH ), FALSE );
-            obj->timer = UMAX(3,number_percent()/10);
-            obj_to_room( obj, ch->in_room );
-            sprintf(wpis_do_loga,"%s study %s[%d], tried to learn component, but didnt know the spell.", ch->name, book->short_descr, book->pIndexData->vnum );
-            log_string( wpis_do_loga );
-            if(book->wear_loc != WEAR_NONE)
-            {
-               unequip_char( ch, book );
-            }
-            /*artefact*/
-            if( is_artefact(book) && !IS_NPC(ch) && !IS_IMMORTAL(ch) )
-            {
-               artefact_to_char( book, ch);
-            }
-            obj_from_char( book );
-            /*artefact*/
-            if( is_artefact(book) )
-            {
-                extract_artefact(book);
-            }
-            extract_obj( book );
-            WAIT_STATE(ch,12);
-            return;
-       }
-
-
-    }
     /* zna juz? no to dowidzenia, to samo specjalisci */
-    if( ch->pcdata->learned[sn] > 0 || !can_learn_spell(ch, sn))
+    //rellik: components, czy zna wszystkie mo¿liwe components do zaklêcia?
+    if( ( ch->pcdata->learned[sn] > 0 && spell_items_know_all( ch, sn ) ) || !can_learn_spell(ch, sn))
     {
         print_char(ch,"Z uwaga przyglad±sz siê %s kartkuj±c kolejno strony. ", book->name3);
         print_char(ch,"Nie udaje ci siê jednak znale¼æ niczego warto¶ciowego b±d¼ czego¶ nowego. ");
@@ -563,6 +463,35 @@ void do_study( CHAR_DATA *ch, char *argument )
         {
             extract_artefact(book);
         }
+        extract_obj( book );
+        WAIT_STATE(ch,12);
+        return;
+    }
+
+    //rellik: components, ok, umie ju¿ zaklêcie to dajmy mu siê komponentów nauczyæ
+    if ( ch->pcdata->learned[sn] > 0 )
+    {
+        if ( ( rand = number_percent() ) < chance || ( rand2 = number_percent() ) < chance )
+        {
+            spell_item_get_knowledge( ch, sn ); //losuje wiedzê o komponencie dla gracza dot. sn
+        }
+        else
+        {
+            print_char(ch,"Przegl±dasz %s zafascynowan<&y/a/e> ogromem nowej wiedzy. ", book->name4);
+            print_char(ch,"Probujesz co¶ zrozumieæ, jednak po chwili zdajesz sobie sprawe, ¿e ci siê to raczej nie uda. ");
+            print_char(ch,"Docierasz do po³owy, gdy %s rozb³yskuje i zamienia siê w kupkê popio³u.\n\r", book->short_descr);
+
+            // ³adowanie popio³u
+            obj = create_object( get_obj_index( OBJ_VNUM_ASH ), FALSE );
+            obj->timer = UMAX(3,number_percent()/10);
+            obj_to_room( obj, ch->in_room );
+        }
+        if(book->wear_loc != WEAR_NONE) unequip_char( ch, book );
+        /*artefact*/
+        if( is_artefact(book) && !IS_NPC(ch) && !IS_IMMORTAL(ch) ) artefact_to_char( book, ch);
+        obj_from_char( book );
+        /*artefact*/
+        if( is_artefact(book) ) extract_artefact(book);
         extract_obj( book );
         WAIT_STATE(ch,12);
         return;
@@ -1551,7 +1480,7 @@ void do_cast( CHAR_DATA *ch, char *argument )
                 }
             }
 
-            if ( is_safe( ch, victim, TRUE ) && victim != ch )
+            if ( is_safe( ch, victim ) && victim != ch )
             {
                 /* wymawiamy slowka */
                 say_spell( ch, sn );
@@ -2678,7 +2607,7 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
 				send_to_char( "Nie mo¿esz tego zrobiæ.\n\r", ch );
 				return;
 			}
-			if ( is_safe( ch, victim, TRUE ) && ch != victim )
+			if ( is_safe( ch, victim ) && ch != victim )
 			{
 				send_to_char( "Co¶ siê tu nie zgadza...\n\r", ch );
 				return;
@@ -4074,6 +4003,7 @@ bool check_reflect_spell( CHAR_DATA *victim, sh_int circle )
 
 bool check_globes( CHAR_DATA *victim, sh_int circle )
 {
+	if ( IS_AFFECTED( victim, AFF_ABSOLUTE_MAGIC_PROTECTION ) && circle < 10 ) return TRUE;
 	if ( IS_AFFECTED( victim, AFF_MAJOR_GLOBE ) && circle < 6 ) return TRUE;
 	if ( IS_AFFECTED( victim, AFF_GLOBE ) && circle < 5 ) return TRUE;
 	if ( IS_AFFECTED( victim, AFF_MINOR_GLOBE ) && circle < 4 ) return TRUE;
@@ -4327,7 +4257,7 @@ bool check_shaman_invoke ( CHAR_DATA *ch, int sn )
    if ( ch->condition[ COND_DRUNK ] > DRUNK_FULL ) spirit_chance += 5;
 
    /*Je¶li jest pod dzia³aniem czaru 'Subdue Spirits' to ³atwiej udaje mu siê nawi±zywaæ kontakt */
-   if ( is_affected( ch, gsn_subdue_spirits ) ) spirit_chance += 10;
+   if ( is_affected( ch, 516 )) spirit_chance += 10;
 
    /*Mobom siê prawie zawsze udaje*/
    if ( IS_NPC(ch)) spirit_chance = 100;
@@ -4344,6 +4274,7 @@ bool check_shaman_invoke ( CHAR_DATA *ch, int sn )
      }
 }
 
+
 /**
  * check_improve_strenth
  *
@@ -4353,20 +4284,11 @@ bool check_shaman_invoke ( CHAR_DATA *ch, int sn )
  */
 bool check_improve_strenth ( CHAR_DATA *ch, CHAR_DATA *victim, bool verbose )
 {
-    if ( is_undead( victim ) || IS_SET( victim->form, FORM_CONSTRUCT ) )
-    {
-        if ( verbose )
-        {
-            act( "Te zaklêcie nie zadzia³a na $C.", ch, NULL, victim, TO_CHAR );
-        }
-        return TRUE;
-    }
-
     if (
-            is_affected( victim, gsn_giant_strength ) ||
-            is_affected( victim, gsn_strength ) ||
-            is_affected( victim, gsn_champion_strength ) ||
-            is_affected( victim, gsn_bull_strength )
+            is_affected( victim,  58 ) || /* giant strenght */
+            is_affected( victim, 167 ) || /* strenght       */
+            is_affected( victim, 288 ) || /* champion strenght  */
+            is_affected( victim, 481 )    /* bull strenght  */
        )
     {
         if ( verbose )
@@ -4391,29 +4313,6 @@ bool check_improve_strenth ( CHAR_DATA *ch, CHAR_DATA *victim, bool verbose )
                         break;
                 }
             }
-        }
-        return TRUE;
-    }
-    return FALSE;
-}
-
-/**
- * transmute_strength_luck_dice
- *
- * rzut na sprawdzanie szczescia przy czarach dodajacych sile
- *
- */
-bool transmute_strength_luck_dice( CHAR_DATA *ch, CHAR_DATA *victim )
-{
-    if ( number_range( 0, get_curr_stat( ch, STAT_LUC ) ) < 5 )
-    {
-        if ( victim == ch )
-        {
-            send_to_char( "Nie uda³o ci siê zwiêkszyæ w³asnej si³y.\n\r", ch );
-        }
-        else
-        {
-            act( "Nie uda³o ci siê zwiêkszyæ si³y $Z.", ch, NULL, victim, TO_CHAR );
         }
         return TRUE;
     }
@@ -4563,10 +4462,7 @@ bool spell_item_has( CHAR_DATA *ch, int sn, char *sname, OBJ_DATA *items_group[3
      	for ( komponent = ch->carrying; komponent; )
       {
      		//print_char( ch, "Sprawdzam w inv: %s\n\r", komponent->name );
-	if((komponent->item_type == ITEM_CONTAINER) && IS_SET( komponent->value[1], CONT_COMP) && !IS_SET( komponent->value[ 1 ], CONT_CLOSED ))
-        {
-	    if(komponent->contains) komponent=komponent->contains;
-	}
+
         //czy nazwa siê zgadza
         if ( is_name( spell_items_table[i].spell_item_name, komponent->name ) )
         {
@@ -4588,11 +4484,7 @@ bool spell_item_has( CHAR_DATA *ch, int sn, char *sname, OBJ_DATA *items_group[3
             }
           }
         }
-        if((!komponent->next_content) && komponent->in_obj && komponent->in_obj->item_type==ITEM_CONTAINER)
-        {
-	    komponent = komponent->in_obj;
-        }
-	komponent = komponent->next_content;
+        komponent = komponent->next_content;
       }
       //je¶li nie znale¼li¶my komponenentu to sprawd¼my czy nale¿a³ do grupy aby j± zdelegalizowaæ
       if ( !komponent )
@@ -5287,7 +5179,7 @@ bool helper_make_portal( CHAR_DATA *ch, bool is_portal, int sn )
     ROOM_INDEX_DATA *to_room, *from_room;
     int timer;
     /**
-     * uciekaj jezeli nic nie trzyma oraz to nie jest kamien
+     * uciekaj jezeli nic nie trzyma oraz to nie jest kamien 
      */
     if ( stone == NULL || stone->item_type != ITEM_PORTAL )
     {
@@ -5468,91 +5360,5 @@ int duration_modifier_by_spell_type( int duration, int spell_type, CHAR_DATA *ch
         duration /= 100;
     }
     return duration;
-}
-
-/* Tener: refaktoring czarów lecz±cych i poprawienie komunikatów [20080523] */
-
-void heal_specific_race_type( int sn, int level, CHAR_DATA *ch, void *vo, int target, const char comm_bad_race[], int target_type, int dice_rolls, int dice_sides, int level_mod, const char heal_msg_table[6][MAX_STRING_LENGTH] )
-{
-
-    CHAR_DATA * victim = ( CHAR_DATA * ) vo;
-    int luck = get_curr_stat_deprecated( ch, STAT_LUC ), heal_value;
-    int heal_percent;
-
-    if ( !IS_SET( race_table[ GET_RACE( victim ) ].type , target_type ) )
-    {
-        act( comm_bad_race, ch, NULL, victim, TO_CHAR );
-        return;
-    }
-
-    heal_value = dice( dice_rolls, dice_sides ) + level*level_mod;
-
-    if ( level > 30 ) heal_value += 10;
-
-    // modyfikator zale¿ny od szczê¶cia dodatni
-    if ( number_range( 0, luck ) > 15 ) heal_value = ( heal_value * 105 ) / 100;
-    // modyfikator zale¿ny od szczê¶cia ujemny
-    if ( number_range( 0, luck + LUCK_BASE_MOD ) < 3 ) heal_value = ( heal_value * 9 ) / 10;
-    // modyfikator dla strasznego pecha
-    if ( number_range( 0, luck + LUCK_BASE_MOD ) == 0 )
-    {
-        send_to_char( "Nie uda³o ci siê.\n\r", ch );
-        return;
-    }
-
-    if( victim->hit == get_max_hp( victim ) )
-    {
-        return;
-    }
-
-    heal_percent = UMIN( get_max_hp( victim ) + 11 - victim->hit, heal_value );
-    heal_percent = 100 * heal_percent / get_max_hp( victim );
-
-    victim->hit = UMIN( victim->hit + heal_value, get_max_hp( victim ) );
-
-
-    if ( victim->hit == victim->max_hit )
-    {
-        switch (victim->sex)
-        {
-            case 0:
-                act( "$n wygl±da na w pe³ni zdrowe.", victim, NULL, NULL, TO_ROOM );
-                break;
-            case 1:
-                act( "$n wygl±da na w pe³ni zdrowego.", victim, NULL, NULL, TO_ROOM );
-                break;
-            default:
-            case 2:
-                act( "$n wygl±da na w pe³ni zdrow±.", victim, NULL, NULL, TO_ROOM );
-                break;
-        }
-    }
-    else if ( heal_percent > 75 )
-    {
-        act( heal_msg_table[0], victim, NULL, NULL, TO_ROOM );
-    }
-    else if ( heal_percent > 50 )
-    {
-        act( heal_msg_table[1], victim, NULL, NULL, TO_ROOM );
-    }
-    else if ( heal_percent > 35 )
-    {
-        act( heal_msg_table[2], victim, NULL, NULL, TO_ROOM );
-    }
-    else if ( heal_percent > 20 )
-    {
-        act( heal_msg_table[3], victim, NULL, NULL, TO_ROOM );
-    }
-    else if ( heal_percent > 5 )
-    {
-        act( heal_msg_table[4], victim, NULL, NULL, TO_ROOM );
-    }
-    else if ( heal_percent > 0 )
-    {
-        act( heal_msg_table[5], victim, NULL, NULL, TO_ROOM );
-    }
-
-    update_pos( victim );
-    return;
 }
 

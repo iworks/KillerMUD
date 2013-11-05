@@ -161,11 +161,11 @@ ExtraExt 0|D
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -3083,11 +3083,11 @@ S
 #RESETS
 O 100 14881 0 14900
 M 100 14882 1 14900 1
-E 100 3158 0 16
+E 100 3069 0 16
 M 100 14883 2 14900 2
-E 100 3171 0 16
+E 100 3095 0 16
 M 100 14883 2 14900 2
-E 100 3171 0 16
+E 100 3095 0 16
 M 100 14881 1 14959 1
 S
 
@@ -3122,10 +3122,10 @@ mob at $n mob echoaround $n $n w³a¶nie przyszed³ z po³udnia.
 ~
 #thief_clothing
 ~
-mob equip self 3018
-mob equip self 3099
-mob equip self 3051
-mob equip self 4418
+mob oload 50410 w
+mob oload 50399 w
+mob oload 3092 w
+mob oload 50469 w
 follow wysl_obilon_v2
 group gugu_v2
 ~
@@ -3143,6 +3143,9 @@ endif
 #0
 
 #OBJPROGSNEW
+#14881_free
+~
+~
 #0
 
 #ROOMPROGSNEW

@@ -27,11 +27,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 85
@@ -52,11 +52,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -77,11 +77,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 300
 Cond 85
@@ -130,11 +130,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 300
 Cond 85
@@ -191,7 +191,7 @@ stanowczo cos tutaj jest nie w porzadku...
 ~
 FlagsExt 0|BCEF
 Sector 33
-Extra plycie~
+Extra plyta~
 Cala plyta pokryta jest runami i znakami mocy, ulozono je w skomplikowane
 wzory i geometryczne figury, tworzac niezwykle pogmatwany i szczerze mowiac
 niezbyt czytelny wzor. 
@@ -201,7 +201,7 @@ czy tez mo¿e migotanie z dolu. Probojesz patrzec pod roznym katem i
 widzisz wyraznie, ze ktos zadal sobie wiele trudu aby ukryc cos co masz
 pod stopami przed oczyma smiertelnikow...
 ~
-Extra plyta~
+Extra plycie~
 Cala plyta pokryta jest runami i znakami mocy, ulozono je w skomplikowane
 wzory i geometryczne figury, tworzac niezwykle pogmatwany i szczerze mowiac
 niezbyt czytelny wzor. 
@@ -285,25 +285,25 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24834
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24834
+16 0 24834
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24832
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24832
+16 0 24832
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -318,14 +318,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24831
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24831
+16 0 24831
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -343,14 +343,14 @@ Sector 33
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24831
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24831
+16 0 24831
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -365,25 +365,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24824
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24824
+16 0 24824
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24829
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24829
+16 0 24829
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -412,36 +412,36 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24820
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24820
+16 0 24820
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24821
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24821
+16 0 24821
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24824
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24824
+16 0 24824
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -482,14 +482,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24820
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24820
+16 0 24820
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -636,6 +636,14 @@ mob reward $n silver 15000
   mob oload 17154
   give mapaquestowazamku $n
 endif
+~
+#free7
+{RFREE FREE FREE{x
+~
+~
+#free8
+{RFREE FREE FREE{x
+~
 ~
 #0
 

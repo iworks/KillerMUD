@@ -14,6 +14,47 @@ End
 
 
 #MOBILES
+#Vnum 28251
+Name free~
+Odmiana mlodego rycerza~mlodemu rycerzowi~mlodego rycerza~mlodym rycerzem~mlodym rycerzu~
+Short {Yfree{x~
+Long -~
+Descr ~
+Race cz³owiek~
+ActExt 0|ABET
+Affected 67109416 128 0 0
+AffectedExt 0|DFJa/1|H
+Align 5000
+Group 1929
+Lang A
+Speaks 0
+Level 25
+Hitroll 6
+HP 1d100+550
+Damage 2d5+5
+Dammagic 3
+Weaponbonus 4
+Damflags 0
+Attack walniecie
+XAC -7 -8 -7 -7
+Stats 156 132 120 156 144 78 78
+Off CDFHQXc
+OffExt 0|CDFHQXc
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 13 100
+Resist 14 100
+Resist 15 100
+Mobend
 #Vnum 28252
 Name m³ody wartownik stra¿nik bramy mê¿czyzna rycerz zakonu~
 Odmiana wartownika bramy~wartownikowi bramy~wartownika bramy~wartownikiem bramy~wartowniku bramy~
@@ -417,6 +458,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 28251
+Name stol piekny mahoniowy okragly~
+Odmiana piêknego mahoniowego sto³u~piêknemu mahoniowemu sto³owi~piêkny mahoniowy stó³~piêknym mahoniowym sto³em~piêknym mahoniowym stole~
+Short okr±g³y stó³~
+Descr Piêkny, mahoniowy, okr±g³y stó³ obrad stoi na ¶rodku sali.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 20 2000 72 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
 #Vnum 28252
 Name maszt z flaga biala orla~
 Odmiana masztu z flaga~masztowi z flaga~maszt z flaga~masztem z flaga~maszcie z flaga~
@@ -428,15 +490,71 @@ ExtraExt 0|IK
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 300
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 1
 Cond 75
 Objprog random 28251 3~
+Comments ~
+Objend
+#Vnum 28253
+Name ³awa d³uga drewniana~
+Odmiana dlugiej lawy~dlugiej lawie~dluga lawe~dluga lawa~dlugiej lawie~
+Short d³uga ³awa~
+Descr D³uga drewniana ³awa stoi przed karczm±.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 1000 16 0 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 28254
+Name szare pioro~
+Odmiana {wszarego pióra{x~{wszaremu pióru{x~{wszare pióro{x~{wszarym piórem{x~{wszarym piórze{x~
+Short {wszare pióro{x~
+Descr Unosz±c siê delikatnie nad ziemi± {wszare pióro{x o¶wietla ca³± okolicê.~
+Material chityna~
+Type light
+ExtraExt 0|U
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 24 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 1
+Cond 75
+Objprog prewear pioro_wear 100~
+Itemdesc Te niezwyk³e pióro pochodzi od legendarnych Or³ów Olbrzymich, jedynie
+najstarsi Zakonnicy wiedz± gdzie znale¼æ te pióra i które z nich bêd±
+jeszcze odpowiednio d³ugo ¶wieciæ aby warto je by³o zabraæ na jak±¶ d³u¿sz±
+wyprawê. Same pióro jest bardzo d³ugie i szerokie, a jego magiczna natura
+nieogranicza siê tylko do wydzielania ¶wiat³a. Wed³ug legendy Olbrzymie Or³y
+zosta³y stworzone przez Bogów ¦wiat³o¶ci by strzeg³y górskich prze³eczy za
+dnia i w nocy, pierwsi Zakonnicy zafascynowani majestatem i potêg± tych
+wspania³ych istot nadali swemu zakonowi nazwê. Od tego dnia licz± siê dni
+istnienia Zakonu, a Or³y w podziêce obdarzy³y Zakonników moc± korzystania z
+ich piór, dziêki której unosz± siê one nad g³ow± i o¶wietlaj± drogê s³ugom
+¶wiat³o¶ci. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 28255
@@ -450,14 +568,16 @@ ExtraExt 0
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 60
 Cond 100
+Objprog wear 28252 100~
+Objprog use 28258 def~
 Itemdesc Widzisz ma³±, prost±, po³yskliw± bransoletê wykonana ze szczerego
 mithrilu. Przez ¶rodek bransolety ci±gnie siê w±ski pasek z bli¿ej
 nieznanego ci minera³u. Na pierwszy rzut oka wydaje siê ¿e to kryszta³,
@@ -472,6 +592,29 @@ Comments Resist na magic 10? I to na bransy? Nieladnie. - {RFurgas{x ({CSat Aug 
 Usuwam mem na 4 krag. Wychodzi, ze kosztuje on 640 pkt. klanowych. W polaczeniu z 800 pkt za resista z kolczyka to troche za duzo. - {RBrohacz{x ({CFri Apr 18 00:23:33 2008{x)
 ~
 Objend
+#Vnum 28256
+Name bochenek chleba~
+Odmiana bochenka chleba~bochenkowi chleba~bochenek chleba~bochenkiem chleba~bochenku chleba~
+Short bochenek chleba~
+Descr £adnie przyrumieniony bochenek chleba wygl±da na bardzo smaczny.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 16 56 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 28257
 Name stalowa manierka~
 Odmiana stalowej manierki~stalowej manierce~stalow± manierkê~stalow± manierk±~stalowej manierce~
@@ -483,13 +626,37 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 30 24 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 1
+Cond 100
+Objprog consume 28254 100~
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 28258
+Name butelka rycerski bimberek niewielki niewielka~
+Odmiana butelki rycerskigo bimbru~butelce rycerskiego bimbru~butelkê rycerskiego bimbru~butelk± rycerskiego bimbru~butelce rycerskiego bimbru~
+Short butelka rycerskiego bimbru~
+Descr Niewielka butelka wype³niona s³ynnym rycerskim bimberkiem.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 18 18 23 0 3331 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 10
 Cond 100
 Itemdesc ~
 Identdesc ~
@@ -506,11 +673,11 @@ ExtraExt 0|U
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 3
 Cond 75
@@ -529,17 +696,19 @@ ExtraExt 0|BHS
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 120
 Cond 75
 Aff 1 12 4 10 0 0
-Objprog input social_z_okrzyk zokrzyk~
+Objprog prewear kolczyk_wear 100~
+Objprog remove kolczyk_remove 100~
 Objprog input social_z_okrzyk z_okrzyk~
+Objprog input social_z_okrzyk zokrzyk~
 Itemdesc Gdy spogl±dasz na to dzie³o sztuki jubilerskiej, przechodzi cie drescz...
 Kto potrafi³ zrobiæ co¶ takiego? Nawet gnomy znane ze swojego talentu do
 obróbki drogocennych kruszców nie potrafi³yby stworzyæ czego¶ tak idealnego.
@@ -559,11 +728,11 @@ ExtraExt 0|H
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 3
 Value 40 1 0 40 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 1800
 Cond 50
@@ -588,6 +757,27 @@ Comments Co to jest? Skrzynia w klanie z diamentu daj±ca 20% zysk noszenia? bez 
 Zdejmuje proga, bo by³ chamski i bezsensowny. - {RGurthg{x ({CSun Sep 10 18:01:45 2006{x)
 ~
 Objend
+#Vnum 28264
+Name Szesciokatny stol~
+Odmiana stolu~stolowi~stol~stolem~stole~
+Short stó³~
+Descr Masywny szesciokatny stol stoi tu na srodku sali.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 8 2000 1170 0 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 0
+Cond 100
+Comments ~
+Objend
 #Vnum 28265
 Name skrzynia du¿a drewniana~
 Odmiana skrzyni~skrzyni~skrzyniê~skrzyni±~skrzyni~
@@ -599,14 +789,38 @@ ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 100 5 28259 50 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 0
 Cond 100
+Comments ~
+Objend
+#Vnum 28266
+Name piekne srebrne rekawice zakon_rekawice~
+Odmiana {Wpiêknych rêkawic{x~{Wpiêknym rêkawica{x~{Wpiêkne rêkawice{x~{Wpiêknymi rêkawicami{x~{Wpiêknych rêkawicach{x~
+Short {Wpiêkne srebrne rêkawice{x~
+Descr {WPiêkne srebrne rêkawice z wygrawerowanym symbolem Srebrnego Or³a.{x~
+Material srebro~
+Type armor
+ExtraExt 0|G
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 1
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 30000
+Cond 100
+Objprog wear 28267 100~
+Identdesc Piekne srebrne rekawice z wygrawerowanym symbolem Srebrnego Orla.
+~
 Comments ~
 Objend
 #Vnum 28267
@@ -620,15 +834,63 @@ ExtraExt 0|DGKN
 Wear AK
 Wear2Ext 0|A
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 0
 Value 8 9 8 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 1800
 Cond 100
+Objprog wear 28253 100~
 Comments ~
+Objend
+#Vnum 28268
+Name regal~
+Odmiana ragalu~regalowi~regal~regalem~regale~
+Short regal~
+Descr Wysoki rega³ z wieloma pó³kami stoi przy ¶cianie.~
+Material drewno~
+Type container
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 200 0 0 200 5 0 0
+Repair 0 0 0 0
+Weight 800
+Cost 1200
+Cond 97
+Comments ~
+Objend
+#Vnum 28269
+Name katana sprawiedliwosci~
+Odmiana katany {Wsprawiedliwosci{x~katanie {Wsprawiedliwosci{x~katane {Wsprawiedliwosci{x~katana {Wsprawiedliwosci{x~katanie {Wsprawiedliwosci{x~
+Short katana {Wsprawiedliwosci{x~
+Descr Piêkna katana sprawiedliwo¶ci stoi tutaj wbita w ziemiê.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|AGHMUY
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 3
+Value 1 2 8 41 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 6000
+Cond 75
+Objprog prewear zakon_katana 100~
+Itemdesc Jest to wspaniala katana z ostrym jednosciecznym ostrzem.
+~
+Comments Zabra³em flagi "wieldsec" oraz "hold" - poniewa¿ klanowe graty nie mog± mieæ takich flag!!! - {RGurthg{x ({CTue Jul 27 22:31:48 2004{x)
+gratu nie moga uzywac gracze - {RKainti{x ({CSun Mar  6 20:36:47 2005{x)
+~
 Objend
 #Vnum 28270
 Name Duza tablica og³oszeñ zakonnych.~
@@ -641,11 +903,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 15 20 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -684,6 +946,17 @@ wchodziæ.
 ~
 brama~
 1 0 28252
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 47008
+ExitExtEnd
+Exit 2
+~
+~
+0 0 47008
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -769,11 +1042,11 @@ Exit 2
 ~
 ~
 0 0 28252
-Roomprog input 28253 w~
-Roomprog input 28253 wr~
-Roomprog input 28253 wri~
-Roomprog input 28253 writ~
 Roomprog input 28253 write~
+Roomprog input 28253 writ~
+Roomprog input 28253 wri~
+Roomprog input 28253 wr~
+Roomprog input 28253 w~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1172,6 +1445,14 @@ Exit 1
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
+#Vnum 28266
+Name Zakonna stajnia~
+Descr ~
+FlagsExt 0|CH
+Sector 0
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 0
 
 
@@ -1195,24 +1476,24 @@ S
 
 #RESETS
 M 100 28252 1 28251 1
-E 100 3128 0 19
+E 100 28269 0 16
 O 100 28252 0 28252
 M 100 28255 1 28253 1
 O 100 28270 0 28253
-O 100 2363 0 28254
+O 100 28253 0 28254
 M 100 28256 1 28256 1
 M 100 28257 1 28257 1
 M 100 28254 1 28259 1
-O 100 2362 0 28260
+O 100 28251 0 28260
 M 100 28259 1 28260 1
 M 100 28258 1 28263 1
 G 100 28257 0
 G 100 28260 0
-G 100 6102 0
-G 100 568 0
-G 100 3380 0
+G 100 28256 0
+G 100 28258 0
+G 100 28254 0
 G 100 28261 0
-O 100 3386 0 28264
+O 100 28268 0 28264
 O 100 28265 0 28265
 S
 
@@ -1333,6 +1614,24 @@ else
   mob damage $n 50 100
 endif
 ~
+#28261
+~
+if clan $n ZAKON
+mob echoat $n Powoli wsuwasz piekne srebrne rekawice na nadgarstek. Po chwili stwierdzasz
+iz ona idealnie pasuje do twojej reki, tak jakby ktos ja zrobil specjalnie
+dla ciebie. Czujesz, ze nie mozesz dopuscic aby podniesc bezprawnie na nikogo ta reke na
+ktora zalozyles rekawice. Zdaje ci sie, ze otoczyla cie tajemnicza,
+acz ciepla, dobra aura.
+mob echoaround $n $n Powoli i dokladnie wsuwa piekne srebrne rekawice na rece.
+Dostrzegasz, ze robi to z bardzo powazna mina. $n przez chwile stoi w bezruchu
+jakby myslal o czyms bardzo waznym, lecz po chwili wraca do siebie.
+else
+mob echoat $n Zakladajac piekne srebrne rekawice czujesz jak jakas dziwna energia
+$n zaczyna palic cie w dlon! Odruchowo wyciagasz z nich rece!
+mob damage $n 10 20
+mob remove $n 28266
+endif
+~
 #0
 
 #OBJPROGSNEW
@@ -1443,6 +1742,39 @@ mob echoat $n Usmiechasz siê delikatnie. Teraz wiesz ju¿ wszystko co chcia³es wi
 mob setflag $n uzyl_bran 10
 endif
 endif
+endif
+~
+#28266
+~
+if ispc $n
+if clan $n ZAKON
+mob echoat $n dobywasz doskonala katane sprawiedliwosci i od razu czujesz sie pewniej.
+mob echoaround $n $n dobywa katane sprawiedliwosci.
+else
+mob echoat $n Tej broni moga uzywac tylko prawdziwi obroncy sprawiedliwosci!
+mob echoat $n katana migocze przez chwile i znika!
+mob remove $n 28269
+mob echoaround $n Ledwo tylko dlon $c probowala dobyc katany sprawiedliwosci, ta zniknela.
+mob damage $n 300 400
+endif
+endif
+~
+#28267
+~
+if clan $n ZAKON
+mob echoat $n Powoli wsuwasz piekne srebrne rekawice na nadgarstek. Po chwili stwierdzasz
+iz ona idealnie pasuje do twojej reki, tak jakby ktos ja zrobil specjalnie
+dla ciebie. Czujesz, ze nie mozesz dopuscic aby podniesc bezprawnie na nikogo ta reke na
+ktora zalozyles rekawice. Zdaje ci sie, ze otoczyla cie tajemnicza,
+acz ciepla, dobra aura.
+mob echoaround $n $n Powoli i dokladnie wsuwa piekne srebrne rekawice na rece.
+Dostrzegasz, ze robi to z bardzo powazna mina. $n przez chwile stoi w bezruchu
+jakby myslal o czyms bardzo waznym, lecz po chwili wraca do siebie.
+else
+mob echoat $n Zakladajac piekne srebrne rekawice czujesz jak jakas dziwna energia
+$n zaczyna palic cie w dlon! Odruchowo wyciagasz z nich rece!
+mob damage $n 10 20
+mob remove $n 28266
 endif
 ~
 #kolczyk_remove

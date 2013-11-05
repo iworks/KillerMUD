@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
@@ -25,8 +25,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: track.c 11460 2012-06-29 07:43:35Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/track.c $
+ * $Id: track.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/track.c $
  *
  */
 #if defined( macintosh )
@@ -503,7 +503,7 @@ void found_prey( CHAR_DATA *ch, CHAR_DATA *victim )
 	if ( !can_see( ch, victim ) )
 	return;
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 	return;
 
 	stop_hunting( ch );

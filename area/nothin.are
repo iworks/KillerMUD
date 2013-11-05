@@ -60,7 +60,7 @@ Long Zajac stoi tu.~
 Descr Zajac patrzy na ciebie swoimi wielkimi oczkami.  Bylbys w stanie zabic te
 bezbronne, przestraszone zwierzatko? Taaa, pewnie tak.
 ~
-Race zaj±c~
+Race zwierze~
 ActExt 0|AGHU
 Affected 0 0 0 0
 AffectedExt 0
@@ -85,10 +85,10 @@ Pos_def stand
 Sex male
 Wealth 0
 Form AFGV
-Parts ACDEFHJKRS
+Parts ACDEFHJKQRSV
 Size small
 Material unknown
-Skin 70
+Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 15663
@@ -334,6 +334,143 @@ Mobend
 
 
 #OBJECTS
+#Vnum 15661
+Name grzyb podgrzybek~
+Odmiana {ypodgrzybka{x~{ypodgrzybkowi{x~{ypodgrzybka{x~{ypodgrzybkiem{x~{ypodgrzybku{x~
+Short {ypodgrzybek{x~
+Descr Wsrod trawy dostrzegasz {ypodgrzybka{x.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 1 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 2
+Cond 100
+Comments ~
+Objend
+#Vnum 15662
+Name glaz kamien~
+Odmiana glazu~glazowi~glaz~glazem~glazie~
+Short glaz~
+Descr G³az pokryty niedba³ym pismem przykuwa twój wzrok.~
+Material kamieñ~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1000 146 50 0 0 0
+Repair 0 0 0 0
+Weight 85
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 15663
+Name galaz~
+Odmiana galezi~galezi~galaz~galezia~galezi~
+Short galazka~
+Descr Potezna galaz przeszkadza w przechodzeniu.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 5 5
+Repair 0 0 0 0
+Weight 10
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 15665
+Name czarne trzewiki~
+Odmiana czarnych trzewików~czarnym trzewikom~czarne trzewiki~czarnymi trzewikami~czarnych trzewikach~
+Short czarne trzewiki~
+Descr Le¿± przed tob± czarne lniane trzewiki.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Spogl±dasz na czarne lniane trzewiki. Maj± one ju¿ swoje lata. S³u¿y³y
+one komu¶ wiernie, a¿ do takiego stopnia, ¿e porwa³y siê one w paru
+miejscach. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 15667
+Name czarna opaska~
+Odmiana opaski~opasce~opaske~opaska~opasce~
+Short czarna opaska~
+Descr Dziwna czarna opaska stanowi mroczna ozdobe.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 3
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 15668
+Name kostur solidny drewniany~
+Odmiana kostura~kosturowi~kostur~kosturem~kosturze~
+Short drewniany kostur~
+Descr Widzisz solidny kostur wykonany z drewna dêbowego.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 2
+Value 9 3 3 7 32 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 3000
+Cond 100
+Itemdesc Jest to kostór wykonany z mocnego, dêbowego drewna. Jest solidnie
+zbudowany i na pewno przetrwa wiele bitew. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 15670
 Name liscie~
 Odmiana lisci~lisciom~liscie~lisciami~lisciach~
@@ -345,11 +482,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 80
@@ -362,10 +499,10 @@ Objend
 #ROOMS
 #Vnum 15661
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -394,14 +531,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 606
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 606
+16 0 606
 Roomprog entry 15661 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -409,9 +546,9 @@ Roomend
 #Vnum 15662
 Name Niewielki lasek~
 Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
+pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
+kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -454,10 +591,10 @@ Capacity 0
 Roomend
 #Vnum 15663
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
-gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -500,10 +637,10 @@ Capacity 0
 Roomend
 #Vnum 15664
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
+trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -547,9 +684,9 @@ Roomend
 #Vnum 15665
 Name Niewielki lasek~
 Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -581,8 +718,8 @@ Capacity 0
 Roomend
 #Vnum 15666
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
-dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
 szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
 kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
@@ -613,14 +750,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 600
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 600
+16 0 600
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -638,10 +775,10 @@ Capacity 0
 Roomend
 #Vnum 15667
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
-dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
-niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -695,9 +832,9 @@ Capacity 0
 Roomend
 #Vnum 15668
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
 gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
@@ -752,10 +889,10 @@ Capacity 0
 Roomend
 #Vnum 15669
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -809,10 +946,10 @@ Capacity 0
 Roomend
 #Vnum 15670
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
-niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -855,10 +992,10 @@ Capacity 0
 Roomend
 #Vnum 15671
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
-dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
-niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -887,14 +1024,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 601
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 601
+16 0 601
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -969,10 +1106,10 @@ Capacity 0
 Roomend
 #Vnum 15673
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
-trudem przebijaja sie na powierzchnie. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
+niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1026,10 +1163,10 @@ Capacity 0
 Roomend
 #Vnum 15674
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
+niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1083,10 +1220,10 @@ Capacity 0
 Roomend
 #Vnum 15675
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
+pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1129,12 +1266,12 @@ Capacity 0
 Roomend
 #Vnum 15676
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
+kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
-FlagsExt 0
+FlagsExt 0|A
 Sector 3
 ExitExt 0
 ExitExtDescription ~
@@ -1161,14 +1298,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 602
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 602
+16 0 602
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1186,12 +1323,12 @@ Capacity 0
 Roomend
 #Vnum 15677
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
-FlagsExt 0
+FlagsExt 0|A
 Sector 3
 ExitExt 0
 ExitExtDescription ~
@@ -1243,10 +1380,10 @@ Capacity 0
 Roomend
 #Vnum 15678
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
+trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1302,8 +1439,8 @@ Roomend
 Name Niewielki lasek~
 Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
 dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
-gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
+kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1359,8 +1496,8 @@ Roomend
 Name Niewielki lasek~
 Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
 gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
-gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
+kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1403,10 +1540,10 @@ Capacity 0
 Roomend
 #Vnum 15681
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
-trudem przebijaja sie na powierzchnie. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
+kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1435,14 +1572,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 607
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 607
+16 0 607
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1460,10 +1597,10 @@ Capacity 0
 Roomend
 #Vnum 15682
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
+trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1517,10 +1654,10 @@ Capacity 0
 Roomend
 #Vnum 15683
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
 gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1574,10 +1711,10 @@ Capacity 0
 Roomend
 #Vnum 15684
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1631,9 +1768,9 @@ Capacity 0
 Roomend
 #Vnum 15685
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
 gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
@@ -1677,10 +1814,10 @@ Capacity 0
 Roomend
 #Vnum 15686
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
-trudem przebijaja sie na powierzchnie. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1709,14 +1846,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 608
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 608
+16 0 608
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1734,10 +1871,10 @@ Capacity 0
 Roomend
 #Vnum 15687
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
+niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1791,10 +1928,10 @@ Capacity 0
 Roomend
 #Vnum 15688
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
-niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1849,9 +1986,9 @@ Roomend
 #Vnum 15689
 Name Niewielki lasek~
 Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
-trudem przebijaja sie na powierzchnie. 
+sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1905,10 +2042,10 @@ Capacity 0
 Roomend
 #Vnum 15690
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
-trudem przebijaja sie na powierzchnie. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
+pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -1951,10 +2088,10 @@ Capacity 0
 Roomend
 #Vnum 15691
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -1983,14 +2120,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 609
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 609
+16 0 609
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2008,10 +2145,10 @@ Capacity 0
 Roomend
 #Vnum 15692
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
-poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
-Wystajace kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2065,10 +2202,10 @@ Capacity 0
 Roomend
 #Vnum 15693
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
-niepokryta nawet kawalkiem mchu. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
+kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
 ~
 FlagsExt 0
 Sector 3
@@ -2122,10 +2259,10 @@ Capacity 0
 Roomend
 #Vnum 15694
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
-dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
+sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
+trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2179,10 +2316,10 @@ Capacity 0
 Roomend
 #Vnum 15695
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
-gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
+trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2227,8 +2364,8 @@ Roomend
 Name Niewielki lasek~
 Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
 dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Wystajace
-kamienie swieca lysina niepokryta nawet kawalkiem mchu. 
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2246,14 +2383,14 @@ Exit 0
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 610
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 610
+16 0 610
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2272,9 +2409,9 @@ Roomend
 #Vnum 15697
 Name Niewielki lasek~
 Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Otaczajace cie drzewa
-sa dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
-szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
-gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+sa dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
+tworza miekkie, choc elastyczne poszycie. Rosnace gdzieniegdzie grzyby z
+trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2317,9 +2454,9 @@ Capacity 0
 Roomend
 #Vnum 15698
 Name Niewielki lasek~
-Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
+dla ciebie prawie nierozroznialne. Geste poszycie utrudnia poruszanie, a
+szelesty nieznanego pochodzenia draznia swoja intensywnoscia. Rosnace
 gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
@@ -2374,10 +2511,10 @@ Capacity 0
 Roomend
 #Vnum 15699
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Wielkie drzewa pokryte
-gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
-pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
-gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Geste poszycie utrudnia
+poruszanie, a szelesty nieznanego pochodzenia draznia swoja intensywnoscia.
+Rosnace gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2431,10 +2568,10 @@ Capacity 0
 Roomend
 #Vnum 15700
 Name Niewielki lasek~
-Descr Stoisz na lekko zalesionym pagorkowatym terenie. Otaczajace cie drzewa sa
-dla ciebie prawie nierozroznialne. Gnijace liscie pomieszane z ilgliwiem
-tworza miekkie, choc elastyczne poszycie. Wystajace kamienie swieca lysina
-niepokryta nawet kawalkiem mchu. 
+Descr Stoisz w niewielkim poprzecinanym pagorkami lesie. Wielkie drzewa pokryte
+gruba spekana kora tworza groznie wygladajacy krag. Gnijace liscie
+pomieszane z ilgliwiem tworza miekkie, choc elastyczne poszycie. Rosnace
+gdzieniegdzie grzyby z trudem przebijaja sie na powierzchnie. 
 ~
 FlagsExt 0
 Sector 3
@@ -2498,25 +2635,27 @@ S
 M 100 15664 4 15669 4
 O 100 15670 0 15670
 M 100 15663 4 15674 3
-O 100 27400 0 15679
+O 100 15661 0 15679
 M 100 15679 10 15679 1
-O 20 2357 0 15680
-O 20 2357 0 15682
+O 20 15662 0 15680
+O 20 15662 0 15682
 M 100 15661 5 15683 1
-O 100 32000 0 15684
+O 100 15663 0 15684
 M 100 15679 4 15685 1
 M 100 15676 2 15686 2
-O 100 32000 0 15688
+O 100 15663 0 15688
 M 100 15662 4 15690 3
-O 20 2357 0 15693
+O 20 15662 0 15693
+O 40 15661 0 15693
 M 100 15669 5 15694 3
-O 100 32000 0 15700
+O 40 15661 0 15699
+O 100 15663 0 15700
 M 100 15677 1 15700 1
-E 100 3371 0 16
-E 100 4406 0 6
-E 100 4368 0 5
-E 100 4418 0 8
-E 100 4413 0 7
+E 100 15668 0 16
+E 100 15667 0 6
+E 100 3130 0 5
+E 100 15665 0 8
+E 100 3091 0 7
 S
 
 

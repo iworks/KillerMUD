@@ -378,6 +378,52 @@ MobprogNew random 2651 FGI 5~
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 2659
+Name pies psisko kundel~
+Odmiana psa~psu~psa~psem~psie~
+Short pies~
+Long Jaki¶ pies biega w pobli¿u.~
+Descr Ma jakie¶ dwie stopy wysoko¶ci, jest wiec sporym psiskiem, Trudno
+powiedzieæ jaka to rasa, na pewno mieszaniec, skrzy¿owanie chyba jakiego¶
+wilka z czymkolwiek. Sier¶æ nie za bardzo charakterystyczna, szarawa, nie
+wiadomo czy bardziej w skutek naturalnego takiego w³a¶nie jej odcienia czy
+brudu. Pies jak wszystkie okoliczne psy nale¿y chyba zwyczajnie do ca³ej
+wioski. W chwilach, w których nie szczeka i nie udaje ze zarabia na rzucona
+mu co jaki¶ czas ko¶æ zwyczajnie szwenda siê po okolicy. 
+~
+Race pies~
+ActExt 0|AG
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang J
+Speaks 9
+Level 2
+Hitroll -1
+HP 2d5+20
+Damage 1d2+0
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack gryzienie
+XAC 8 8 7 8
+Stats 60 24 24 54 66 78 78
+Off H
+OffExt 0|H
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRSUV
+Size small
+Material unknown
+MobprogNew random 2652 FGI 7~
+Corpse 2655
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 2660
 Name krzykacz~
 Odmiana krzykacza~krzykaczowi~krzykacza~krzykaczem~krzykaczu~
@@ -829,6 +875,28 @@ Mobend
 
 
 #OBJECTS
+#Vnum 2650
+Name chleb razowy razowiec~
+Odmiana razowego chleba~razowemu chlebowi~razowy chleb~razowym chlebem~razowym chlebie~
+Short razowy chleb~
+Descr Kawa³ razowego chleba le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 40 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 100
+Objprog consume 2650 100~
+Comments ~
+Objend
 #Vnum 2652
 Name fajeczka~
 Odmiana fajeczki~fajeczce~fajeczkê~fajeczka~fajeczce~
@@ -840,14 +908,35 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 100
+Comments ~
+Objend
+#Vnum 2653
+Name czapka czapeczka niebieska~
+Odmiana czapki~czapce~czapkê~czapka~czapce~
+Short niebieska czapka~
+Descr Lekko zakurzona lekka marynarska czapeczka le¿y tutaj.~
+Material p³ótno~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 240
+Cond 89
 Comments ~
 Objend
 #Vnum 2654
@@ -861,11 +950,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 120
 Cond 10
@@ -887,11 +976,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 55
 Cost 0
 Cond 100
@@ -913,11 +1002,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -939,11 +1028,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 120
 Cost 0
 Cond 100
@@ -965,11 +1054,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 250
 Cost 0
 Cond 100
@@ -989,11 +1078,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1010,15 +1099,40 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 55
 Cost 0
 Cond 100
 Itemdesc Kto¶ chyba musia³ pastwiæ siê nad tym biednym zwierzakiem, Mo¿e i by³ do¶æ nieprzyjemnym kundlem, ale chyba nie zas³u¿y³ na taki los.
+~
+Comments ~
+Objend
+#Vnum 2661
+Name znicz~
+Odmiana znicza~zniczowi~znicz~zniczem~zniczu~
+Short znicz~
+Descr Du¿y znicz.~
+Material szk³o~
+Type light
+ExtraExt 0|NU
+Wear AR
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 2 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 1
+Cond 100
+Itemdesc Zwyk³y znicz, do¶æ wysoki i w±ski, ma jakie¶ prawie trzy cale ¶rednicy
+przy wiêkszym z otworów. Ze ¶rodka sterczy olbrzymi knot, Ca³o¶æ ocieka
+obficie parafina. 
 ~
 Comments ~
 Objend
@@ -1033,11 +1147,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1054,17 +1168,166 @@ ExtraExt 0
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1440
 Cond 75
 Itemdesc Do¶æ niedu¿y, za to bardzo fantazyjny kawa³ek metalu, który bez k³opotu
 mo¿esz sobie wpi±æ w ucho, o czym ¶wiadczy niewielka zapinka, dziêki której
 nie wypadnie ci on z ucha. 
+~
+Comments ~
+Objend
+#Vnum 2668
+Name dwurêczny miecz truj±ca brzytwa~
+Odmiana dwureczny miecz '{RTrujaca Brzytwa{x'~dwurecznemu mieczowi '{RTrujaca Brzytwa{x'~dwureczny miecz '{RTrujaca Brzytwa{x'~dwurecznym mieczem '{RTrujaca Brzytwa{x'~dwurecznym mieczu '{RTrujaca Brzytwa{x'~
+Short dwureczny miecz '{RTrujaca Brzytwa{x'~
+Descr Dwureczny miecz '{RTrujaca Brzytwa{x' lezy tutaj.~
+Material mithril~
+Type weapon
+ExtraExt 0|DG
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 350
+LiczbaMnoga 0
+Gender 0
+Value 1 3 5 42 176 4 3
+Repair 0 0 0 0
+Weight 250
+Cost 90000
+Cond 100
+Objprog hit 2668 10~
+Itemdesc Dwureczny miecz '{RTrujaca Brzytwa{x' wykonany jest z ciemnej odmiany
+mithrilu. Przejawia ona bardzo silne wlasciwosci magiczne. Kowal wykonujacy
+te ostrze musial byc geniuszem w swoim fachu, obróbka tegoz materialu jest
+niezwykle trudna. Miecz ów wykonano z ogromna starannoscia, ostrze zostalo
+spreparowane tak by zadajac rany wyzwalalo trujace substancje, które
+starannie dodawano w czasie kucia. Wykorzystana w tym przypadku trujaca
+mieszanka toksycznych roslin i jadów, w polaczeniu z magia, potrafia
+natychmiastowo usmiercic przeciwnika. Niestety wraz z uplywem czasu moc
+owych zaklec wiazacych ulega oslabieniu. Mimo to dwureczny miecz '{RTrujaca
+Brzytwa{x' pozostaje niezwykle smiercionosna bronia. Ostrze takich mieczów z
+latwoscia pokona kazda napotkana przeszkode. 
+~
+Identdesc Dwureczny miecz '{RTrujaca Brzytwa{x' wykonany jest z ciemnej odmiany
+mithrilu. Przejawia ona bardzo silne wlasciwosci magiczne. Kowal wykonujacy
+te ostrze musial byc geniuszem w swoim fachu, obróbka tegoz materialu jest
+niezwykle trudna. Miecz ów wykonano z ogromna starannoscia, ostrze zostalo
+spreparowane tak by zadajac rany wyzwalalo trujace substancje, które
+starannie dodawano w czasie kucia. Wykorzystana w tym przypadku trujaca
+mieszanka toksycznych roslin i jadów, w polaczeniu z magia, potrafia
+natychmiastowo usmiercic przeciwnika. Niestety wraz z uplywem czasu moc
+owych zaklec wiazacych ulega oslabieniu. Mimo to dwureczny miecz '{RTrujaca
+Brzytwa{x' pozostaje niezwykle smiercionosna bronia. Ostrze takich mieczów z
+latwoscia pokona kazda napotkana przeszkode. 
+~
+Comments ~
+SpecDamExt 3 100 -100 1 -100 0 -2 0
+SpecDamExt 3 100 -100 0 -100 0 1 0
+SpecDamExt 3 100 -100 2 -100 0 1 0
+SpecDamExt 2 50 15 -100 -100 0 1 0
+Objend
+#Vnum 2670
+Name wytarte spodnie~
+Odmiana wytartych spodni~wytartym spodniom~wytarte spodnie~wytartymi spodniami~wytartych spodniach~
+Short wytarte spodnie~
+Descr Wytarte skórzane spodnie le¿± tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 9
+Cost 3
+Cond 40
+Itemdesc S± to stare i widaæ ¿e czêsto u¿ywane skórzane spodnie.
+~
+Comments ~
+Objend
+#Vnum 2671
+Name bluza szara~
+Odmiana szarej bluzy~szarej bluzie~szar± bluzê~szar± bluz±~szarej  bluzie~
+Short szara bluza~
+Descr Szara kupka p³ótna le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4
+Cond 75
+Aff 1 12 8 1 0 0
+Itemdesc Zwyk³a, do¶æ ciep³a bluza, która pozwala na du¿± swobodê w czasie pracy,
+a jednocze¶nie zapewnia pewn± ochronê. 
+~
+Comments ~
+Objend
+#Vnum 2672
+Name czarna opaska~
+Odmiana opaski~opasce~opaskê~opaska~opasce~
+Short czarna opaska~
+Descr Czarna opaska le¿y przed tob±.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 3
+Itemdesc Bardzo miêkko wygarbowana skóra, która zosta³a ufarbowana na czarno.
+Tworzy do¶æ cienk± opaskê, któr± bez k³opotu mo¿na przytrzymaæ sobie w³osy,
+tak, ¿eby nie przeszkadza³y. 
+~
+Comments ~
+Objend
+#Vnum 2673
+Name ¿elazny ³añcuch~
+Odmiana ¿elaznego ³añcucha~¿elaznemu ³añcuchowi~¿elazny ³añcuch~¿elaznym ³añcuchem~¿elaznym ³añcuchu~
+Short ¿elazny ³añcuch~
+Descr Na ziemi le¿y jaki¶ zardzewia³y, wykonany z ¿elaza ³añcuch.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|J
+Wear ANZ
+Wear2Ext 0|I
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 7 1 5 27 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 600
+Cond 50
+Itemdesc Ten d³ugi, ju¿ lekko podniszczony ³añcuch nadaje siê od biedy jako broñ.
+Trzeba byæ jednak niezmiernie silnym i sprawnym, ¿eby siê ni± dobrze
+pos³ugiwaæ. Jednak faktem jest, ¿e widz±c kogo¶ szar¿uj±cego na ciebie z
+takim ³añcuchem w d³oni cz³owieka od razu napada strach. 
 ~
 Comments ~
 Objend
@@ -1079,11 +1342,11 @@ ExtraExt 0
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 720
 Cond 98
@@ -1102,11 +1365,11 @@ ExtraExt 0
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 15000
 Cond 75
@@ -1115,6 +1378,58 @@ dooko³a którego spiralnie zawiniêty jest drobny, rze¼biony drucik. Srebrna
 ga³±zka obiega trzy razy czerwony kamyczek po czym odwija siê w przeciwn±
 stronê. Zakoñczona jest ma³±, wypolerowan± kulk±. 
 ~
+Comments ~
+Objend
+#Vnum 2678
+Name p³ócienna koszula~
+Odmiana p³óciennej koszuli~p³ociennej koszuli~p³ócienn± koszulê~p³ócienn± koszul±~p³óciennej koszuli~
+Short p³ócienna koszula~
+Descr Jasna p³ócienna koszula le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 4
+Cond 75
+Itemdesc Jest to zwyk³a p³ócienna koszula jasnego koloru, zapewne kiedys by³a
+bia³a... 
+~
+Comments ~
+Objend
+#Vnum 2679
+Name szary p³aszcz~
+Odmiana {wszarego p³aszcza{x~{wszaremu p³aszczowi{x~{wszary p³aszcz{x~{wszarym p³aszczem{x~{wszarym p³aszczu{x~
+Short {wszary p³aszcz{x~
+Descr {wSzary p³aszcz z ko³nierzem le¿y tutaj.{x~
+Material we³na~
+Type clothing
+ExtraExt 0|S/1|A
+Wear ACDFGILM
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 1
+Repair 0 0 0 0
+Weight 10
+Cost 15
+Cond 60
+Aff 1 12 8 2 0 0
+Itemdesc Ju¿ na pierwszy rzut oka widaæ, ¿e ten gruby we³niany p³aszcz bêdzie
+doskonale chroni³ ciê przed zimnem. D³ugie rêkawy oraz równie d³ugie po³y
+p³aszcza pozwol± w czasie odpoczynku owin±æ siê nim dok³adnie. Regularnie
+rozmieszczone pêtelki pozwalaj± na jego szczelne zamkniêcie. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 2680
@@ -1128,11 +1443,11 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 12
 Cond 75
@@ -1142,22 +1457,114 @@ swobodne ruchy, a szerokie rêkawy pozwalaj± co¶ w nich schowaæ.
 ~
 Comments ~
 Objend
+#Vnum 2681
+Name spódnica prosta~
+Odmiana spódnicy~spódnicy~spódnicê~spódnic±~spódnicy~
+Short prosta spódnica~
+Descr Widzisz le¿±c± na ziemi prost± spódnicê.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 5
+Cond 85
+Itemdesc Zwyczajna lniana spódnica, nawet do¶æ czysta, co zauwa¿asz nie bez
+zdziwienia. 
+~
+Comments ~
+Objend
+#Vnum 2682
+Name gustowne sanda³y~
+Odmiana gustownych sanda³ów~hustownym sanda³om~gustowne sanda³y~gustownymi sanda³ami~gustownych sanda³ach~
+Short gustowne sanda³y~
+Descr Le¿y tutaj para ozdobnych, gustownych sanda³ów.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 11
+Cost 2
+Cond 70
+Itemdesc Sanda³y te, pomimo faktu, ¿e s± kiepskim obuwiem je¿eli chodzi o podró¿e
+i jakiekolwiek eskapady nale¿± do wysokiego gatunku butów. S± naprawde
+misternie zrobione i zapewne nie bêdzie wstydem pokazanie siê w nich w
+jakim¶ du¿ym mie¶cie pokroju Arras czy Carrallak. 
+~
+Comments ~
+Objend
+#Vnum 2683
+Name chusta kolorowa zdobiona~
+Odmiana kolorowej chusty~kolorowej chu¶cie~kolorow± chustê~kolorow± chust±~kolorowej chu¶cie~
+Short kolorowa chusta~
+Descr Przepiêknie ozdobiona, kolorowa chusta wygl±da na tak± w sam raz na szyjê.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear ACE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 2684
+Name pleciony pas rzemieñ kawa³ek~
+Odmiana pasa~pasowi~pas~pasem~pasie~
+Short {ypleciony pas{x~
+Descr Niedbale porzucony kawalek {yrzemienia{x lezy na ziemi.~
+Material skóra~
+Type container
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 1 1 0 1 100 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 600
+Cond 80
+Comments ~
+Objend
 #Vnum 2685
 Name dluto~
 Odmiana dluta~dlutu~dluto~dlutem~dlucie~
 Short dluto~
 Descr Zwykle dluto do obrobki drewna.~
 Material stal~
-Type tool
+Type weapon
 ExtraExt 0
 Wear ANZ
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 1 -1
+Value 2 1 4 11 8 1 -1
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 360
 Cond 78
@@ -1174,14 +1581,137 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 -1
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 6
 Cond 78
+Comments ~
+Objend
+#Vnum 2688
+Name koszulka~
+Odmiana koszulki~koszulce~koszulkê~koszulk±~koszulce~
+Short koszulka~
+Descr Koszulka le¿y na ziemi.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3
+Cond 80
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2690
+Name zdobione skórzane buty inkrustowane~
+Odmiana zdobionych butów~zdobionym butom~zdobione buty~zdobionymi butami~zdobionych butach~
+Short zdobione skórzane buty~
+Descr Zdobione z³otem, elfiej roboty buty le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 1
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 7
+Cost 2400
+Cond 50
+Itemdesc Widzisz inkrustowane z³otem buty, na którym zrêczny rzemie¶lnik, umie¶ci³
+sceny polowania z soko³em. Na prawym bucie widaæ my¶liwego na koniu z
+soko³em na lewym przedramieniu. Na drugiej stronie tego buta widaæ soko³a
+zrywaj±cego siê do lotu. Na drugim bucie sokó³ w locie chwyta przera¿on±
+przepiórke, a na drugiej stronie buta widaæ my¶liwego nagradzaj±cego swojego
+soko³a. 
+~
+Comments ~
+Objend
+#Vnum 2691
+Name skorzana zdobiona kurtka~
+Odmiana skorzanej kurtki~skorzanej kurtce~skorzana kurtka~skorzana kurtka~skorzanej kurtce~
+Short skorzana zdobiona kurtka~
+Descr Skórzana zdobiona kurtka czeka na nowego w³a¶ciciela.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 9 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 1800
+Cond 60
+Itemdesc Lata swojej ¶wietno¶ci ta kurtka ma ju¿ dawno za sob±, co prawda mo¿na j±
+nareperowaæ i bêdzie prawie jak nowa, ale to jednak nie to samo. Mimo to,
+wiesz, ¿e jest to ca³kiem niepospolity przedmiot. Zdobione epolety wygl±daj±
+mo¿e nieco jarmarcznie, ale dodaj± szyku. 
+~
+Comments ~
+Objend
+#Vnum 2693
+Name chusta~
+Odmiana chusty~chuscie~chuste~chusta~chuscie~
+Short chusta~
+Descr Le¿y tu porzucona chusta.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear ACE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Lekka, lniana chusta na g³owê. Nie zapewnia ona ¿adnej ochrony przed
+zimnem, jednak przydaje siê osobom z d³ugimi w³osami. Skrojona jest w prosty
+kwadrat, zapewne zrobiona przez jak±¶ wie¶niaczkê. 
+~
+Comments ~
+Objend
+#Vnum 2694
+Name harpun d³ugi rybacki~
+Odmiana d³ugiego harpuna~d³ugiemu harpunowi~d³ugi harpun~d³ugim harpunem~d³ugim harpunie~
+Short d³ugi harpun~
+Descr D³ugi, rybacki harpun le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|I
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 3 3 4 2 32 -1 1
+Repair 0 0 0 0
+Weight 167
+Cost 1500
+Cond 80
 Comments ~
 Objend
 #Vnum 0
@@ -2143,12 +2673,7 @@ ca³kiem mi³y zapach zió³.
 ~
 FlagsExt 0
 Sector 0
-Extra powa³a~
-Pod powa³± zwisaj± pêki ususzonych kwiatów, które wygl±daj± zupe³nie jak
-pokrzyk wilcza jagoda. Mo¿e uda ci siê zdj±æ z belki choæ jeden taki
-kwiatek. 
-~
-Extra ga³±zki~
+Extra kwiaty~
 Pod powa³± zwisaj± pêki ususzonych kwiatów, które wygl±daj± zupe³nie jak
 pokrzyk wilcza jagoda. Mo¿e uda ci siê zdj±æ z belki choæ jeden taki
 kwiatek. 
@@ -2158,7 +2683,12 @@ Pod powa³± zwisaj± pêki ususzonych kwiatów, które wygl±daj± zupe³nie jak
 pokrzyk wilcza jagoda. Mo¿e uda ci siê zdj±æ z belki choæ jeden taki
 kwiatek. 
 ~
-Extra kwiaty~
+Extra ga³±zki~
+Pod powa³± zwisaj± pêki ususzonych kwiatów, które wygl±daj± zupe³nie jak
+pokrzyk wilcza jagoda. Mo¿e uda ci siê zdj±æ z belki choæ jeden taki
+kwiatek. 
+~
+Extra powa³a~
 Pod powa³± zwisaj± pêki ususzonych kwiatów, które wygl±daj± zupe³nie jak
 pokrzyk wilcza jagoda. Mo¿e uda ci siê zdj±æ z belki choæ jeden taki
 kwiatek. 
@@ -2174,9 +2704,9 @@ Exit 3
 ~
 ~
 0 0 2673
-Roomprog input 2674_zerwij urwij~
-Roomprog input 2674_zerwij zerwij~
 Roomprog input 2674_zerwij zdejmij~
+Roomprog input 2674_zerwij zerwij~
+Roomprog input 2674_zerwij urwij~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2390,6 +2920,17 @@ Skala wygl±da jak ogromna kula wbita w ziemie z ogromna si³±.  Jej
 powierzchnia jest niezwykle g³adka, w wielu miejscach jednak bardzo spêkana,
 szczeliny s± wielko¶ci du¿ego dziecka...  
 ~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2685
+ExitExtEnd
+Exit 0
+~
+~
+0 0 2685
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2514,12 +3055,23 @@ Sector 2
 Extra szczelina~
 Jak±¶ szczelina, prawdopodobnie gdyby w³o¿yæ w to trochê wysi³ku uda³oby ci siê przez ni± przecisn±æ.
 ~
-Roomprog input 2680 enter szczelina~
-Roomprog input 2680 wejdz szczelina~
-Roomprog input 2680 wejdz w szczelinê~
-Roomprog input 2680 wejdz do szczeliny~
-Roomprog input 2680 przecisnij siê szczelina~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2681
+ExitExtEnd
+Exit 2
+~
+~
+0 0 2681
 Roomprog input 2680 przecisnij siê przez szczelinê~
+Roomprog input 2680 przecisnij siê szczelina~
+Roomprog input 2680 wejdz do szczeliny~
+Roomprog input 2680 wejdz w szczelinê~
+Roomprog input 2680 wejdz szczelina~
+Roomprog input 2680 enter szczelina~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2555,15 +3107,21 @@ Exit 1
 ~
 ~
 0 0 2691
-ExitExt 4
+ExitExt 2
 ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtTextOut $n w³a¶nie wysz<&ed³/³a/³o> na zewn±trz przez szczelinê.~
+ExitExtTextIn $n w³a¶nie przesz<&ed³/³a/³o> przez szczelinê.~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 2685
 ExitExtEnd
-Exit 4
+Exit 2
 ~
+VName Wyj¶cie~
+TextOut $n w³a¶nie wysz<&ed³/³a/³o> na zewn±trz przez szczelinê.~
+TextIn $n w³a¶nie przesz<&ed³/³a/³o> przez szczelinê.~
 ~
 0 0 2685
 Resources 0 0 0 0 0 0 0 0 
@@ -2951,79 +3509,80 @@ S
 
 
 #RESETS
-M 100 21933 1 2650 1
+M 100 2659 1 2650 1
 M 100 2665 1 2651 1
-E 100 4409 0 7
-E 100 3003 0 8
-E 100 4391 0 5
-E 50 4406 0 6
-E 20 3162 0 16
+E 100 2670 0 7
+E 100 3072 0 8
+E 100 2671 0 5
+E 50 2672 0 6
+E 20 2673 0 16
 M 100 2658 1 2652 1
-E 100 4413 0 7
-E 100 4368 0 5
-E 100 3003 0 8
+E 100 3091 0 7
+E 100 3130 0 5
+E 100 3072 0 8
 E 10 2666 0 22
 E 5 2666 0 21
-E 100 3098 0 13
+E 100 3017 0 13
 M 100 2652 1 2660 3
 G 100 2652 0
-E 100 4368 0 5
-E 100 3003 0 8
-E 100 3049 0 7
-G 60 2499 0
-E 60 3157 0 16
+E 100 3130 0 5
+E 100 3072 0 8
+E 100 2670 0 7
+G 60 3025 0
+E 60 3020 0 16
 O 30 684 0 2660
 M 100 2654 1 2661 1
-E 100 4408 0 6
-E 100 4411 0 7
-E 100 3001 0 8
-E 100 3018 0 5
+E 100 2653 0 6
+E 100 3090 0 7
+E 100 2690 0 8
+E 100 2691 0 5
 M 100 2652 1 2662 3
-E 50 3003 0 8
-E 50 3157 0 16
-E 100 4368 0 5
-E 100 3050 0 7
-G 60 2499 0
+E 50 3072 0 8
+E 50 3020 0 16
+E 100 2678 0 5
+E 100 3382 0 7
+G 60 3025 0
 G 100 2652 0
 M 100 2653 1 2662 3
-E 100 3050 0 7
-E 30 4368 0 5
-E 50 3157 0 16
-E 70 3003 0 8
-G 60 2499 0
+E 100 2670 0 7
+E 30 2678 0 5
+E 50 3020 0 16
+E 70 3072 0 8
+G 60 3025 0
 M 100 2662 1 2663 1
 M 100 2653 1 2664 3
-E 100 3050 0 7
-E 100 4368 0 5
-E 100 4416 0 8
+E 100 3382 0 7
+E 100 2688 0 5
+E 100 3013 0 8
 M 100 2652 1 2665 3
 G 100 2652 0
-E 100 4416 0 8
-E 100 3050 0 7
-E 20 4368 0 5
-G 60 2499 0
-E 20 246 0 6
-E 40 3300 0 16
+E 100 3013 0 8
+E 100 3382 0 7
+E 20 3130 0 5
+G 60 3025 0
+E 20 2693 0 6
+E 20 2693 0 3
+E 40 2694 0 16
 M 100 2668 1 2666 1
-E 100 4413 0 7
-E 100 4368 0 5
-E 100 3155 0 13
+E 100 3091 0 7
+E 100 2678 0 5
+E 100 2684 0 13
 G 100 2686 0
 G 100 2685 0
 M 100 2650 1 2669 1
-G 100 6185 0
-G 100 3380 0
-G 100 2499 0
+G 100 2650 0
+G 100 2661 0
+G 100 3025 0
 E 100 2680 0 5
-E 100 4414 0 7
-E 100 4416 0 8
-E 100 246 0 6
+E 100 2681 0 7
+E 100 2682 0 8
+E 100 2683 0 6
 M 100 2651 1 2675 1
-E 100 4368 0 5
-E 100 3157 0 16
-E 100 3003 0 8
-E 100 4413 0 7
-E 100 4426 0 12
+E 100 3020 0 16
+E 100 3072 0 8
+E 100 3091 0 7
+E 100 2678 0 5
+E 100 2679 0 12
 M 100 2656 3 2676 3
 M 100 2656 3 2677 3
 M 100 2657 2 2677 2
@@ -3032,8 +3591,8 @@ M 100 2656 3 2679 3
 O 100 2659 0 2682
 M 100 2664 1 2682 1
 M 100 2666 1 2684 1
-E 100 4416 0 8
-E 100 4367 0 5
+E 100 3013 0 8
+E 100 3011 0 12
 E 50 2676 0 14
 E 5 2676 0 15
 E 4 2677 0 22
@@ -3301,7 +3860,7 @@ emote ostrzy d³uto do strugania o jaki¶ kamieñ na stole.
 #2665_onload
 ~
 if rand 20
-  mob equip self 3157 hold
+  mob equip self 3020 hold
 endif
 if rand 95
   if rand 95

@@ -1082,6 +1082,55 @@ Mobend
 
 
 #OBJECTS
+#Vnum 16500
+Name szyszak~
+Odmiana {yszyszaka{x~{yszyszakowi{x~{yszyszak{x~{yszyszakiem{x~{yszyszaku{x~
+Short {yszyszak{x~
+Descr Widzisz tutaj szyszak zrobiony z br±zu.~
+Material br±z~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 2
+Value 6 7 7 10 10 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 240
+Cond 100
+Itemdesc Szyszak ten zosta³ zrobiony z br±zu i nosi na sobie znamiê czasu.
+Zauwa¿asz na nim wiele wgniecieñ i wiele rys. Widocznie poprzedni
+w³a¶ciciel prze¿y³ wiele morderczych walk.
+~
+Comments ~
+Objend
+#Vnum 16501
+Name paradny sztylet~
+Odmiana paradnego sztyletu~paradnemu sztyletowi~paradny sztylet~paradnym sztyletem~paradnym sztylecie~
+Short paradny sztylet~
+Descr Paradny sztylet o porêcznej rêkoje¶ci.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 2
+Value 2 1 4 0 0 0 -1
+Repair 0 0 0 0
+Weight 3
+Cost 720
+Cond 75
+Itemdesc Wygl±daj±cy, na raczej bardziej paradny, niz bojowy, dwusieczny sztylet o
+porêcznej i wygodnej rekoje¶ci. 
+~
+Comments ~
+Objend
 #Vnum 16502
 Name pêk kluczy~
 Odmiana pêku kluczy~pêkowi kluczy~pêk kluczy~pêkiem kluczy~pêku kluczy~
@@ -1093,11 +1142,11 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 0
 Cond 100
@@ -1114,11 +1163,11 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 10 0 0 2 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 13
 Cost 1200
 Cond 80
@@ -1126,6 +1175,27 @@ Itemdesc Zauwa¿asz tutaj poka¼nej wielko¶ci szatê. Badaj±c j± dok³adniej
 zauwa¿asz, ¿e zwinne palce potrafi³yby schowaæ w niej parê rzeczy. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 16504
+Name czarny kind¿a³~
+Odmiana czarnego kin¿a³u~czarnemu kind¿a³owi~czarny kind¿a³~czarnym kind¿a³em~czarnym kind¿ale~
+Short czarny kind¿a³~
+Descr Widzisz tutaj jeden z rzadkich czarnych kind¿a³ów z adamantytu.~
+Material adamantyt~
+Type weapon
+ExtraExt 0|JS
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 2
+Value 2 2 5 34 0 0 0
+Repair 0 0 0 0
+Weight 14
+Cost 1500
+Cond 80
 Comments ~
 Objend
 #Vnum 16505
@@ -1139,11 +1209,11 @@ ExtraExt 0
 Wear AL
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 14
 Cost 4
 Cond 70
@@ -1159,19 +1229,70 @@ Odmiana {cskalpela{x~{cskalpelowi{x~{cskalpel{x~{cskalpelem{x~{cskalpelu{x~
 Short skalpel~
 Descr Widzisz tutaj po³yskuj±cy ostry skalpel.~
 Material stal~
-Type tool
+Type weapon
 ExtraExt 0
 Wear ANZ
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
-Value 9 0 0 0 0 -2 0
+Value 2 1 5 1 0 -2 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 60
 Cond 95
+Comments ~
+Objend
+#Vnum 16507
+Name okulary z br±zu~
+Odmiana okularów z br±zu~okularom z br±zu~okulary z br±zu~okularami z br±zu~okularach z br±zu~
+Short okulary z br±zu~
+Descr Le¿± tutaj pobrudzone okulary alchemika.~
+Material br±z~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 3
+Cond 70
+Objprog input 16507 popraw~
+Itemdesc ¦redniej jako¶ci okulary z twardymi oprawkami, wykonane zosta³y z br±zu.
+Je¶li masz je na sobie i ¼le le¿± to mo¿esz spróbowaæ je poprawiæ. 
+~
+Comments Doda³em ma³ego proga do poprawiania okularów. - {RWicia{x ({CTue May 17 23:22:38 2005{x)
+~
+Objend
+#Vnum 16509
+Name kap³añska toga~
+Odmiana kap³añskiej togi~kap³añskiej todze~kap³añsk± togê~kap³añsk± tog±~kap³añskiej todze~
+Short kap³añska toga~
+Descr Widzisz tutaj zwiniêt± w rulonik kap³añsk± togê.~
+Material we³na~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0|R
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 16
+Cost 5
+Cond 80
+Itemdesc Toga zosta³a uszyta z cienkich, metalicznych niteczek, przypominaj±cych
+najprawdziwsze z³oto. Zastanawiasz siê jaki kult móg³by u¿ywaæ takich szat,
+lecz niczego nie mo¿esz sobie przypomnieæ. 
+~
 Comments ~
 Objend
 #Vnum 16510
@@ -1185,11 +1306,11 @@ ExtraExt 0
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 9 3 3 7 32 -1 1
 Repair 0 0 0 0
-Length 150
 Weight 0
 Cost 1200
 Cond 100
@@ -1209,11 +1330,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 1 -1 1168 105 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1228,6 +1349,33 @@ pozwoliæ sobie na stworzenie tak piêknego przedmiotu.
 ~
 Comments ~
 Objend
+#Vnum 16512
+Name zniszczony stó³~
+Odmiana zniszczonego sto³u~zniszczonemu sto³owi~zniszczony stó³~zniszczonym sto³em~zniszczonym stole~
+Short zniszczony stó³~
+Descr Stoi tutaj poka¼nej wielko¶ci zniszczony stó³.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 1 200 1152 0 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 1
+Cond 75
+Itemdesc Spogl±dasz ciekawskim wzrokiem na stó³. Widaæ, ¿e alchemik który z niego
+korzysta jest bez lito¶ci. Kwas, który pewnie przez przypadek wyla³ siê na
+ten stó³ wy¿ar³ w nim dziurê wielko¶ci twojej g³owy. Zastanawiasz siê czy
+czerñ to jest jego naturalna barwa czy tylko i wy³±cznie konsekwencja
+nieudanych eksperymentów... 
+~
+Comments ~
+Objend
 #Vnum 16513
 Name jaskiniowe ¼ród³o~
 Odmiana jaskiniowego ¼ród³a~jaskiniowemu ¼ródle~jaskiniowe ¼ród³o~jaskiniowym ¼ród³em~jaskiniowym ¼ródle~
@@ -1239,11 +1387,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 100
@@ -1264,11 +1412,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 1000 0 0 1000 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 100
@@ -1289,11 +1437,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1323,11 +1471,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 100
@@ -1344,11 +1492,11 @@ ExtraExt 0|PU
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1
 Cond 100
@@ -1368,17 +1516,231 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 1
 Value 100 269 16517 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 100
 Itemdesc Spogl±dasz na malutkie, diamentowe pude³ko. ¦wiat³o, które na nie pada
 rozszczepia siê na wiele barw. Zaiste piêkny to widok. 
 ~
+Comments ~
+Objend
+#Vnum 16519
+Name morgenstern z ko¶ci~
+Odmiana morgensterna z ko¶ci~morgensternowi z ko¶ci~morgenstern z ko¶ci~morgensternem z ko¶ci~morgensternie z ko¶ci~
+Short morgenstern z ko¶ci~
+Descr Widzisz tutaj morgenstern z czaszk± osadzon± na trzonku.~
+Material ko¶æ~
+Type weapon
+ExtraExt 0|EHS
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 8
+LiczbaMnoga 0
+Gender 0
+Value 4 3 3 7 1024 1 -1
+Repair 0 0 0 0
+Weight 10
+Cost 2400
+Cond 75
+Objprog wear 16501 100~
+Objprog remove 16500 100~
+Itemdesc Morgenstern zrobiony z ko¶ci. Zamiast ciê¿kiej, nabijanej kolcami kuli
+widzisz czaszkê jakiego¶ stworzenia. Zosta³a na ni± nabite onyksowe,
+polerowane do ostro¶ci kamienie. Wyobra¿asz sobie ile trwa³o wytworzenie
+takiego przedmiotu i có¿ za chory umys³ móg³ siê tego podj±æ. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 16520
+Name ¿elazna kolczuga~
+Odmiana ¿elaznej kolczugi~¿elaznej kolczudze~¿elazna kolczugê~¿elazn± kolczug±~¿elaznej kolczudze~
+Short ¿elazna kolczuga~
+Descr ¯elazna, krasnoludzka kolczuga.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|FHb
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 3
+Value 5 7 5 10 8 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 4500
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 16521
+Name ciê¿ki berdysz~
+Odmiana ciê¿kiego berdysza~ciê¿kiemu berdyszowi~ciê¿ki berdysz~ciê¿kim berdyszem~ciê¿kim berdyszu~
+Short ciê¿ki berdysz~
+Descr Do¶æ ciê¿ki berdysz le¿y tu na ziemi.~
+Material stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 2
+Value 8 3 5 42 32 1 1
+Repair 0 0 0 0
+Weight 320
+Cost 24000
+Cond 98
+Itemdesc Ten berdysz do z³udzenia przypomina topór, osadzony na bardzo d³ugim
+stylisku. Jest do¶æ ciê¿ki i mo¿e nie³atwo siê nim w³ada, ale po wyæwiczeniu
+tej umiejêtno¶ci stanowi ¶mierciono¶n± broñ. Ostrze berdysza jest lekko
+wyszczerbione na obu koñcach i osadzone na zardzewia³ej tulei, któr±
+przymocowano do styliska dodatkowo trzema piórami. 
+~
+Comments ~
+Objend
+#Vnum 16523
+Name gruby batog skorzany~
+Odmiana grubego batoga~grubemu batogowi~gruby batog~grubym batogiem~grubym batogu~
+Short gruby batog~
+Descr Gruby batog z mocnej skóry wala siê tu pod nogami.~
+Material mocna skóra~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 7 2 6 4 65536 0 0
+Repair 0 0 0 0
+Weight 17
+Cost 2400
+Cond 75
+Comments ~
+Objend
+#Vnum 16524
+Name zdobina misiurka~
+Odmiana zdobionej misiurki~zdobionej misiurce~zdobion± misiurkê~zdobion± misiurk±~zdobionej misiurce~
+Short zdobiona misiurka~
+Descr Kto¶ wyrzuci³ tutaj misiurka ozdobiona delikatnym rytem.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 2
+Value 5 7 5 10 8 0 0
+Repair 0 0 0 0
+Weight 22
+Cost 1200
+Cond 75
+Comments ~
+Objend
+#Vnum 16525
+Name adamantytowy m³ot bojowy~
+Odmiana adamantytowego m³ota bojowego~adamantytowemu m³otowi bojowemu~adamantytowy m³ot bojowy~adamantytowym m³otem bojowym~adamantytowym m³ocie bojowym~
+Short adamantytowy m³ot bojowy~
+Descr Adamantytowy m³ot bojowy le¿y tu porzucony.~
+Material adamantyt~
+Type weapon
+ExtraExt 0|J
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 2
+Value 4 2 4 13 0 1 1
+Repair 0 0 0 0
+Weight 100
+Cost 4500
+Cond 98
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 16527
+Name masywna ciezka kolczuga~
+Odmiana ciezkiej kolczugi~ciezkiej kolczudze~ciezk± kolczugê~ciezk± kolczug±~ciezkiej kolczudze~
+Short ciê¿ka kolczuga~
+Descr Ciê¿ka kolczuga o masywnym splocie le¿y tu porzucona.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 2100
+Cond 80
+Itemdesc Widzisz masywn± kolczugê uplecion± z kó³ek zgrubego drutu, który nadaje
+jej spor± masê. Kó³ka dodatkowo s± lutowane, co jeszcze bardziej wzmacnia
+ochronê nosz±cego. Ponadto dobrze dopasowuje siê do ksza³tów cia³a i nie
+krêpuje w ten sposób ruchów w³a¶ciciela. 
+~
+Comments ~
+Objend
+#Vnum 16528
+Name drewniane sanda³y~
+Odmiana {ydrewnianych sanda³ów{x~{ydrewnianym sanda³om{x~{ydrewniane sanda³y{x~{ydrawnianymi sanda³ami{x~{ydrewnianych sanda³ach{x~
+Short {ydrewniane sanda³y{x~
+Descr Sanda³y wykonane z solidnego, dêbowego drewna le¿a tu.~
+Material drewno dêbowe~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 30
+Cond 75
+Aff 1 14 3 0 0 0
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 16529
+Name czarny bat skorzany~
+Odmiana {Dczarnego{x bata~{Dczarnemu{x batowi~{Dczarnego{x bata~{Dczarnym{x batem~{Dczarnym{x bacie~
+Short {Dczarny{x bat~
+Descr Jaki¶ {Dczarny{x bat wykonany z mocnej skóry le¿y tu porzucony.~
+Material mocna skóra~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 55
+LiczbaMnoga 0
+Gender 2
+Value 7 3 4 4 0 1 1
+Repair 0 0 0 0
+Weight 50
+Cost 9000
+Cond 88
+Itemdesc ~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 16530
@@ -1392,11 +1754,11 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 16500
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1420,11 +1782,11 @@ ExtraExt 0
 Wear AL
 Wear2Ext 0
 Bonus 16500
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 10 100 52 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -1434,6 +1796,80 @@ sprz±czkê z podwójnym bolcem. Pas jest ju¿ znoszony i szary - widaæ od dawna
 s³u¿y³ jakiemu¶ górnikowi, by móg³ do niego zamocowaæ jaki¶ kilof lub inne
 narzêdzie do r±bania ska³. Oprócz pasa chcia³oby siê jeszcze ochroniæ czym¶
 g³owê i rêce, przed ostrymi kawa³kami ³upanej ska³y. 
+~
+Comments ~
+Objend
+#Vnum 16532
+Name znoszone rekawice gornicze~
+Odmiana {Dznoszonych{x rekawic górniczych~{Dznoszonym{x rekawicom górniczym~{Dznoszone{x rekawice górnicze~{Dznoszonymi{x rekawicami górniczymi~{Dznoszonych{x rekawicach górniczych~
+Short {Dznoszone{x rekawice górnicze~
+Descr {DZnoszone{x rekawice górnicze pokrywa tu kurz.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 16500
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Aff 1 26 507 1 0 0
+Itemdesc S± to rêkawice u¿ywane przez górników krasnoludzkich w wielu kopalniach
+¶wiata, chroni±ce przed urazami i od³amkami ³upanych ska³. Wygl±daj± na
+mocno u¿ywane, ale wytrzymaj± jeszcze niejedn± robotê. Doskonale komponowa³y
+by siê z kaskiem i pasem górniczym, ale same te¿ pomagaj± w kopaniu. 
+~
+Comments ~
+Objend
+#Vnum 16533
+Name eteryczne kajdany~
+Odmiana eterycznych kajdan~eterycznym kajdanom~eteryczne kajdany~eterycznymi kajdanami~eterycznych kajdanach~
+Short eteryczne kajdany~
+Descr Kajdany z po³materialnego materia³u le¿± na ziemi.~
+Material eteryczny~
+Type clothing
+ExtraExt 0|PU
+Wear G
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 16534
+Name duze poslanie~
+Odmiana du¿ego pos³ania~du¿emu pos³aniu~du¿e pos³anie~du¿ym pos³aniem~du¿ym pos³aniu~
+Short du¿e pos³anie~
+Descr Du¿e pos³anie le¿y tu pod ¶cian±.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 1
+Value 2 300 1168 115 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 1
+Cond 75
+Itemdesc Jest to du¿e pos³anie wykonane z szarego siennika, wypchanego suszonymi
+li¶æmi jakiej¶ ro¶liny i obci±gniêtego poprudzonym lekko p³ótnem. Unosi siê
+na dnim zapach le¶nego ziela, które zapewne dosta³o siê do ¶rodka podczas
+produkcji pos³ania. Kto wie jakie mia³o dzia³anie... 
 ~
 Comments ~
 Objend
@@ -1448,11 +1884,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1469,11 +1905,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1490,11 +1926,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1511,14 +1947,189 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
+Comments ~
+Objend
+#Vnum 16539
+Name szmaciaki brudne zniszczone~
+Odmiana zniszczonych szmaciaków~zniszczonym szmaciakom~zniszczone szmaciaki~zniszczonymi szmaciakami~zniszczonych szmaciakach~
+Short zniszczone szmaciaki~
+Descr Kto¶ zzu³ tu ze stóp zniszczone szmaciaki.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 9
+Cost 1
+Cond 50
+Itemdesc Rzucasz okiem na szmaciaki i zastanawiasz siê, jakim cudem ca³a ta sterta
+brudnych szmat trzyma siê razem i s³u¿y jako obuwie. Przypomina ono bardziej
+onuce do okrêcania stóp przed w³o¿eniem w buty z cholewk± ni¿ normalne buty.
+Brak jest twardej podeszwy, a zamiast dostrzegasz pod szmaciakami gruba
+warstwê zastyg³ego popio³u, kurzu albo b³ota, co daje jako tak± ochronê
+stopy. 
+~
+Comments ~
+Objend
+#Vnum 16540
+Name podarte kamasze skórzane czarne~
+Odmiana podartych kamaszy~podartym kamaszom~podarte kamasze~podartymi kamaszami~podartych kamaszach~
+Short podarte kamasze~
+Descr Podarte kamasze wykonane z czarnej skóry stoj± tu i niszczej± powoli. ~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 10
+Cond 75
+Itemdesc Patrzysz na skórzane kamasze z d³ug± cholewka wykonane z farbowanej na
+{Wczarno{x skóry, która z biegiem lat przetar³a sie i podar³a w kilku miejscach.
+Tym niemniej podeszwa nie jest rozcz³apana, a noga w bucie trzyma siê
+jeszcze mocno, wiêc pos³u¿y d³ugo nowemu w³a¶cicielowi. 
+~
+Comments ~
+Objend
+#Vnum 16542
+Name duergarska kolczuga zelazna~
+Odmiana duergarskiej kolczugi~duergarskiej kolczudze~duergarsk± kolczugê~duergarsk± kolczug±~duergarskiej kolczudze~
+Short duergarska kolczuga~
+Descr ¯elazna kolczuga jakiego¶ duergara le¿y tu w nie³adzie.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 79
+Aff 1 26 239 2 0 0
+Itemdesc Jest kolczuga wykonana solidnie z nitowanych ¿elaznych kó³eczek. Nale¿a³a
+kiedy¶ do jakiego¶ duergara, który pewnie z najzwyklejszych powodów ja
+utraci³. Kolczuga zakrywa korpus i biodra nosz±cego, chroni±c ten w sposób
+wiêksz± czê¶æ cia³a w³a¶ciciela. 
+~
+Comments ~
+Objend
+#Vnum 16543
+Name stalowy brzeszczot~
+Odmiana stalowego brzeszczotu~stalowemu brzeszczotowi~stalowy brzeszczot~stalowym brzeszczotem~stalowym brzeszczocie~
+Short stalowy brzeszczot~
+Descr Stalowa klinga pob³yskuje tu zachêcaj±co.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 1 4 2 25 16384 -1 0
+Repair 0 0 0 0
+Weight 70
+Cost 500
+Cond 85
+Comments ~
+Objend
+#Vnum 16544
+Name zdobiony topór bojowy~
+Odmiana zdobionego topora bojowego~zdobionemu toporowi bojowemu~zdobiony topór bojowy~zdobionym toporem bojowym~zdobionym toporze bojowym~
+Short zdobiony topór bojowy~
+Descr Kto¶ porzuci³ tu topór bojowy ze zdobieniami.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 5 4 3 42 196640 -2 1
+Repair 0 0 0 0
+Weight 260
+Cost 500
+Cond 93
+Itemdesc Oksza topora, który ogl±dasz, ma kszta³t pó³ksiê¿yca z wypuk³ym ostrzem i
+ozdobiona jest ornamentem ro¶linnym, lekko inkrustowana z³otem i nabijana
+wzd³u¿ ostrza nitami mosiê¿nymi. Osadzona zosta³a na mocnej szyjce,
+rozszerzaj±cej siê pionowo w profilowan± tulejê na drzewce i zakoñczonej
+kwadratowym obuchem. Toporzysko jest drewniane, okr±g³e w przekroju oraz
+pokryte blach± srebrn± repusowan± w sceny figuralne, wzorowane na sztuce
+drowów. 
+~
+Comments ~
+Objend
+#Vnum 16545
+Name szara kurtka krótka~
+Odmiana szarej kurtki~szarej kurtce~szar± kurtkê~szar± kurtk±~szarej kurtce~
+Short szara kurtka~
+Descr Szara kurtka le¿y tu zmiêta na ziemi.~
+Material we³na~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 19
+Cost 10
+Cond 75
+Comments ~
+Objend
+#Vnum 16546
+Name czarny bat skorzany~
+Odmiana {Dczarnego{x bata~{Dczarnemu{x batowi~{Dczarnego{x bata~{Dczarnym{x batem~{Dczarnym{x bacie~
+Short {Dczarny{x bat~
+Descr Jaki¶ {Dczarny{x bat wykonany z mocnej skóry le¿y tu porzucony.~
+Material mocna skóra~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 55
+LiczbaMnoga 0
+Gender 2
+Value 7 3 4 4 0 0 -1
+Repair 0 0 0 0
+Weight 50
+Cost 9000
+Cond 88
+Itemdesc ~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 0
@@ -2124,10 +2735,10 @@ Exit 1
 ~
 wrota~
 3 0 16522
-Roomprog open wrota_e 1~
-Roomprog input 16502 wcisnij hieroglif~
-Roomprog reset 16503 100~
 Roomprog entry 16516 50~
+Roomprog reset 16503 100~
+Roomprog input 16502 wcisnij hieroglif~
+Roomprog open wrota_e 1~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2366,9 +2977,9 @@ Exit 3
 ~
 wrota~
 3 0 16515
-Roomprog open wrota_e 3~
-Roomprog input 16500 pociagnij dzwignie~
 Roomprog reset 16501 100~
+Roomprog input 16500 pociagnij dzwignie~
+Roomprog open wrota_e 3~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2572,8 +3183,8 @@ Exit 3
 ~
 ~
 0 0 16523
-Roomprog reset 16505 100~
 Roomprog input 16504 rozerwij pajeczyne~
+Roomprog reset 16505 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2620,16 +3231,16 @@ zachodzie widzisz wielka pajêczynê, która przes³ania ci widok.
 ~
 FlagsExt 0|CDH
 Sector 15
-Extra wielka~
-Spogl±dasz na wielk± pajêczynê, zas³ania ci ona widok na zachód. Cóz mo¿e
-da siê j± rozerwaæ? 
-~
 Extra pajêczyna~
 Spogl±dasz na wielk± pajêczynê, zas³ania ci ona widok na zachód. Cóz mo¿e
 da siê j± rozerwaæ? 
 ~
-Roomprog reset 16507 100~
+Extra wielka~
+Spogl±dasz na wielk± pajêczynê, zas³ania ci ona widok na zachód. Cóz mo¿e
+da siê j± rozerwaæ? 
+~
 Roomprog input 16506 rozerwij pajeczyne~
+Roomprog reset 16507 100~
 Resources 0 60 0 30 0 10 0 0 
 Capacity 30
 Roomend
@@ -2903,10 +3514,10 @@ Exit 2
 ~
 ~
 0 0 16536
-Roomprog reset 16508 100~
-Roomprog input 16509 wcisnij kamien~
-Roomprog input 16509 pchnij kamien~
 Roomprog input 16509 popchnij kamien~
+Roomprog input 16509 pchnij kamien~
+Roomprog input 16509 wcisnij kamien~
+Roomprog reset 16508 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2923,8 +3534,8 @@ Sector 15
 Extra przycisk~
 Widzisz malutki przycisk wystaj±cy ze ¶ciany.
 ~
-Roomprog reset 16511 100~
 Roomprog input 16510 wcisnij przycisk~
+Roomprog reset 16511 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4029,18 +4640,18 @@ M 100 16512 2 16500 2
 M 100 16515 5 16502 1
 O 100 16538 0 16502
 M 100 16515 5 16503 1
-O 100 2352 0 16503
+O 100 16534 0 16503
 M 100 16502 1 16506 1
 G 100 16502 0
 E 100 16503 0 5
-E 100 3171 0 16
+E 100 16504 0 16
 M 100 16514 2 16509 2
 M 100 16517 1 16511 1
 M 100 16503 1 16511 1
 E 100 16505 0 13
 E 100 16506 0 16
-E 100 4407 0 6
-O 100 2362 0 16511
+E 100 16507 0 6
+O 100 16512 0 16511
 M 100 16504 2 16513 1
 M 100 16504 1 16513 1
 M 100 16515 5 16515 1
@@ -4050,7 +4661,7 @@ M 100 16515 5 16517 1
 O 100 16537 0 16517
 M 100 16524 1 16517 1
 M 100 16505 1 16518 1
-E 100 4362 0 5
+E 100 16509 0 5
 E 100 16510 0 16
 O 100 16511 0 16518
 M 100 16523 4 16519 4
@@ -4103,6 +4714,7 @@ M 15 16521 7 16540 2
 M 15 16520 7 16540 2
 M 15 16519 7 16540 2
 M 100 16510 1 16541 1
+E 100 16533 0 8
 M 10 16516 4 16542 1
 M 10 16513 4 16542 1
 M 15 16521 7 16542 2
@@ -4244,12 +4856,12 @@ endif
 ubiera mobki 16519 16520 16521
 ~
 if rand 50
-  mob equip self 4421
+  mob equip self 16539
 else
-  mob equip self 3001
+  mob equip self 16540
 endif
 if rand 10
-  mob equip self 4413
+  mob equip self 3091
 endif
 ~
 #kniewol_gadka
@@ -4279,31 +4891,27 @@ mob oload 16517
 #ruha_brodaty
 ubiera straznika 16515
 ~
-mob equip self 4419
-mob equip self 3061
-mob equip self 3025
-mob equip self 3151
+mob equip self 3134
+mob equip self 3358
+mob equip self 16527
+mob equip self 16525
 ~
 #ruha_grasant
 ubiera grasanta
 ~
-mob equip self 3025
-mob equip self 3051
-mob equip self 3010
-mob equip self 3129
+mob equip self 16542
+mob equip self 3092
+mob equip self 3994
+mob equip self 16543
 ~
 #ruha_nadzorca
 ubiera nadzorce 16513
 ~
-mob equip self 3001
-mob equip self 3057
-mob equip self 3018
-if rand 50
-  mob equip self 3161
-else
-  mob equip self 3161
-endif
-mob equip self 3041
+mob equip self 3380
+mob equip self 3088
+mob equip self 3381
+mob equip self 16523
+mob equip self 16524
 if rand 60
   if rand 99
     if canloadarte 29085
@@ -4316,27 +4924,31 @@ endif
 #ruha_podaniacz
 ubiera poganiacza 16516
 ~
-mob equip self 4416
-mob equip self 4410
-mob equip self 3018
-mob equip self 3066
-mob equip self 3161
+mob equip self 16528
+mob equip self 3563
+mob equip self 50410
+mob equip self 3378
+if rand 97
+mob equip self 16529
+else
+mob equip self 16546
+endif
 ~
 #ruha_rachmistrz
 ubiera rachmistrza 16518
 ~
-mob equip self 3049
-mob equip self 3001
-mob equip self 4369
+mob equip self 3052
+mob equip self 3380
+mob equip self 16545
 ~
 #ruha_wartownik
 ubiera wartownika 16512
 ~
-mob equip self 3001
-mob equip self 3051
-mob equip self 3335
-mob equip self 3025
-mob equip self 3045
+mob equip self 3380
+mob equip self 3092
+mob equip self 16521
+mob equip self 16520
+mob equip self 3067
 ~
 #set_death
 ~
@@ -4349,7 +4961,7 @@ if rand 3
     mob oload 16531
   endif
   if numeval $_rand == 3
-    mob oload 3066
+    mob oload 16532
   endif
 endif
 ~
@@ -4455,20 +5067,20 @@ endif
 #tegi_grupka
 ubiera przywodce 16517 i dodaje mu grupke 16518
 ~
-mob equip self 3178
-mob equip self 3057
-mob equip self 3025
-mob equip self 4419
+mob equip self 16544
+mob equip self 3088
+mob equip self 16542
+mob equip self 3134
 mob addgroup 16518
 ~
 #upadly_stroj
 ubiera upadlego kaplana 16510
 ~
-mob equip self 3160
+mob equip self 16519
 if rand 50
 mob oload 1404
 endif
-mob equip self 4362
+mob equip self 16509
 ~
 #wart_death
 daje flage do questa u zlotego kaplana@
@@ -4529,6 +5141,11 @@ mob echoaround $n S³yszysz cichy ¶miech dochodz±cy z morgensterna w chwili gdy $
 ~
 mob echoat $n Widzisz jak ostre kamyki onyksu zaczynaj± lekko ¶wieciæ na morgensternie.
 mob echoaround $n Widzisz jak kamyki onyksu na morgensternie $z zaczynaj± lekko ¶wieciæ.
+~
+#16507
+~
+mob echoat $n Poprawiasz swoje okulary.
+mob echoaround $n $n poprawia swoje okulary.
 ~
 #drop_pudelko
 laduje kamyki do pudelka 16518

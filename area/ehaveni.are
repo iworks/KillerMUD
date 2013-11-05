@@ -1,11 +1,11 @@
 #AREADATA
 Name +# Easterial I~
-Builders Feerial Kainti Easterial Annor~
+Builders Feerial Kainti Easterial~
 VNUMs 3971 3999
 Credits Tworca: Feerial, poprawki: Kainti~
 Locked ~
 Security 9
-ResetAge 1000
+ResetAge 20
 Region 3971
 End
 
@@ -266,21 +266,18 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 3977
-Name Geerm Weralvel karczmarz~
-Odmiana Geerma Weralvela~Geermowi Weralvelowi~Geerma Weralvela~Geermem Weralvelem~Geermie Weralvelu~
-Short Geerm Weralvel~
-Long W³a¶ciciel karczmy Geerm Weralvel stoi za barem.~
-Descr Greem Weralvel to podstarza³y ju¿ mê¿czyzna. Jest gruby i wysoki, jego
-twarz pokrywa gruby zarost bardzo przydatny w ¶nie¿ne dni. Ten puszysty
-mê¿czyzna jest w³a¶cicielem tej karczmy i prowadzi j± wraz ze swoj± ¿on±, a
-tak¿e niewielkiej pomocy swojej córki. Jego karczma jest bardzo dobrze
-zaopatrzona i z doskona³ymi sypialniami. 
+Name Quimby w³a¶ciciel ~
+Odmiana Quimby'ego~Quimby'emu~Quimby'ego~Quimby'm~Quimby'm~
+Short Quimby~
+Long W³a¶ciciel gospody, stary Quimby, stoi za barem i obs³uguje nielicznych klientów.~
+Descr Jest to stary Quimby, w³a¶ciciel gospody '¦nie¿na Zaspa'. Stoi w³a¶nie za
+barem i ob³uguje siedz±cych przy nim klientów. 
 ~
 Race cz³owiek~
 ActExt 0|ABEK
 Affected 4 0 0 0
 AffectedExt 0|C
-Align 0
+Align 600
 Group 0
 Lang ABC
 Speaks 0
@@ -302,7 +299,7 @@ Sex male
 Wealth 1800
 Form AFHMV
 Parts ABCDEFGHIJKR
-Size medium
+Size large
 Material unknown
 MobprogNew random 3977_random FGI 2~
 MobprogNew greet quimby FGI 100~
@@ -313,10 +310,10 @@ Resist 14 100
 Resist 16 100
 Mobend
 #Vnum 3978
-Name stary rybak kabuz~
-Odmiana Kabuza~Kabuzowi~Kabuza~Kabuzem~Kabuzie~
-Short kabuz~
-Long Stary rybak Kabuz siedzi tutaj i patroszy ryby.~
+Name stary rybak jed~
+Odmiana starego Jeda~staremu Jedowi~starego Jeda~starym Jedem~starym Jedzie~
+Short stary Jed~
+Long Stary rybak Jed siedzi tutaj i patroszy ryby.~
 Descr ~
 Race cz³owiek~
 ActExt 0|ABET
@@ -328,7 +325,7 @@ Lang A
 Speaks 0
 Level 5
 Hitroll 0
-HP 1d2+90
+HP 5d5+70
 Damage 1d5+1
 Dammagic 0
 Weaponbonus 1
@@ -351,10 +348,10 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 3979
-Name Ogasar ryba~
-Odmiana Ogasara~Ogasarowi~Ogasara~Ogasarem~Ogasarze~
+Name Gaspar rybiarz~
+Odmiana Gaspara~Gasparowi~Gaspara~Gasparem~Gasparze~
 Short Gaspar~
-Long Ogasar, rybak stoi tutaj.~
+Long Gaspar, rybiarz stoi obok.~
 Descr ~
 Race cz³owiek~
 ActExt 0|ABET
@@ -717,313 +714,127 @@ MobprogNew onload eltar_burmistrz ABCDEFGHI 100~
 Skin 100
 ExpMultiplier 100
 Mobend
-#Vnum 3991
-Name Lewap Poczo~
-Odmiana Lewapa~Lewapowi~Lewapa~Lewapem~Lewapie~
-Short Lewap Poczo~
-Long Lewap u¶miecha siê weso³o do siebie.~
-Descr Ten ludzki mê¿czyzna, który przed tob± stoi, to Lewap Poczo. Jego go
-wzrost jest du¿y, tak jak jego sylwetka. Jego budowa cia³a nie jest
-atletyczna, lecz odwrotnie. Jest on Wysokim grubaskiem z lekkim zarysem
-miê¶ni. W jego g³ownie jednak jest, jego si³a. Ten mê¿czyzna o
-kruczoczarnych w³osach jest adeptem magii i chyba nie najgorszym, bo w
-Easterial jest szanowan± osob±. 
-~
-Race cz³owiek~
-ActExt 0|AR
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 53
-Lang A
-Speaks 0
-Level 15
-Hitroll 1
-HP 5d5+320
-Damage 3d3+0
-Dammagic 0
-Weaponbonus 8
-Damflags 0
-Attack uderzenie
-XAC 4 4 4 4
-Stats 100 120 120 100 100 100 100
-Off R
-OffExt 0|R
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 1000
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Spells 163 71 1 185
-Spells 194 137 0 0
-Skin 100
-ExpMultiplier 100
-Resist 10 20
-Resist 12 20
-Mobend
-#Vnum 3992
-Name Aloiva Poczo~
-Odmiana Aloivy~Aloivie~Aloive~Aloiv±~Aloivie~
-Short Aloiva Poczo~
-Long M³oda dziewczyna przechadza siê tutaj tanecznym krokiem.~
-Descr Patrzysz, z zaciekawieniem na m³od± i piêkn± dziewczynê rasy ludzkiej.
-Jest ona ¶redniego wzrostu, a sylwetka do¶æ szczup³a. Ma ona niebieskie
-oczy, które wraz z jej d³ugimi blond w³osami dodaj± jej wiele uroku. Sposób
-z jakim siê porusz± wskazuje, ¿e jest dobra tancerka lub wojowniczk±.
-Wzbudza ona swoim spojrzeniem zaufanie, wiêc nie ma co siê jej obawiaæ. 
-~
-Race cz³owiek~
-ActExt 0|A
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 53
-Lang A
-Speaks 0
-Level 10
-Hitroll 1
-HP 4d5+100
-Damage 2d4+1
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 6 6 6 6
-Stats 80 80 80 80 80 80 78
-Off IRY
-OffExt 0|IRY
-Pos_start stand
-Pos_def stand
-Sex female
-Wealth 435
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Mobend
-#Vnum 3993
-Name Kecaj Poczo~
-Odmiana Kecaja~Kecajowi~Kecaja~Kecajem~Kecaju~
-Short Kecaj Poczo~
-Long Kecaj stoi tutaj i patrzy w sufit.~
-Descr Poczo jest to stary mê¿czyzna. Jego twarz wyra¼nie to podkre¶la, a
-sylwetka nie jest ju¿ taka powabna i gibka jak za parêna¶cie lat temu. Kecaj
-jest g³ow± rodziny Poczo, która ma du¿e wp³ywy w Easterial i jest bardzo
-zamo¿na. Jednak to jego synowie przejêli po nim powiêkszanie i dba o maj±tek
-rodu Poczo 
-~
-Race cz³owiek~
-ActExt 0|A
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 53
-Lang A
-Speaks 0
-Level 8
-Hitroll 0
-HP 5d6+200
-Damage 2d4+2
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 10 10 10 10
-Stats 90 90 90 90 90 90 90
-Off I
-OffExt 0|I
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 500
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Mobend
-#Vnum 3994
-Name Agiwda Poczo~
-Odmiana Agwidy~Agwidzie~Agwidê~Agwid±~Agwidzie~
-Short Agiwda Poczo~
-Long Agiwda chodzi po domu i sprawdza jego czysto¶æ.~
-Descr Agiwda Poczo to kobieta po czterdziestym roku ¿ycia. Jej wzrost to sto
-siedemdziesi±t centymetrów i na szczêscie zero nadwagi. Ma zielone oczy i
-w³osy koloru czarnego siêgaj±ce daleko za ramiona. Twarz jest jej lekko
-ponura, tak jakby j± co¶ trapi³o. Mo¿e to, ¿e jest ju¿ od kilkudziesiêciu
-lat w zwi±zku z Kecajem. 
-~
-Race cz³owiek~
-ActExt 0|A
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 53
-Lang A
-Speaks 0
-Level 5
-Hitroll 0
-HP 4d5+100
-Damage 1d2+3
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 10 10 10 10
-Stats 70 70 70 70 70 70 70
-Off 0
-OffExt 0
-Pos_start stand
-Pos_def stand
-Sex female
-Wealth 100
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Mobend
-#Vnum 3995
-Name Naitsryk Poczo~
-Odmiana Naitsryka~Naitsrykowi~Naitsryka~Naitsrykiem~Naitsryku~
-Short Naitsryk Poczo~
-Long Naitsryk patrzy na ciebie uwa¿nie.~
-Descr Spogl±dasz na doros³ego mê¿czyznê, który ma oko³o dwadzie¶cia piêæ lat.
-Jest on wysoki i bardzo dobrze umiê¶niony. Spogl±da on na ciebie, swoimi
-zielonymi oczami, z lekk± pogard±. Ten ogolony na ³yso mê¿czyzna rusza siê
-do¶æ nerwowo, pewnie dlatego, ¿e jego poziom testosteronu jest zbyt du¿y.
-Naitsryk wygl±da na osobê, z któr± lepiej nie wchodzi w ¿adne spory, bo si³a
-miê¶ni pewnie szybko je rozwi±¿e. 
-~
-Race cz³owiek~
-ActExt 0|AI
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 0
-Lang A
-Speaks 0
-Level 20
-Hitroll 2
-HP 10d10+500
-Damage 3d4+4
-Dammagic 0
-Weaponbonus 7
-Damflags 0
-Attack uderzenie
-XAC 2 2 2 2
-Stats 110 100 100 110 110 100 100
-Off DJVY
-OffExt 0|DJVY
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 1000
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Resist 10 10
-Resist 12 40
-Resist 13 80
-Mobend
-#Vnum 3996
-Name Akmad Poczo~
-Odmiana Akmada~Akmadowi~Akmada~Akmadem~Akmadzie~
-Short Akmad Poczo~
-Long Chudy me¿czyzna stoi tutaj bezczynnie.~
-Descr Ten szczup³y i zarazem wysoki mê¿czyna to Akmad, najm³odszy. Jego wzrost
-siêga ponad dwa metry, a jego waga nie dobija nawet do siedemdziesiêciu
-kilogramów. Przez co dosta³ przezwisko chudy. Ten dwudziestoletni cz³owiek,
-jest bardzo nieufnym i cichym mê¿czyn±. Co mo¿na zauwa¿yæ w jego ciemno
-br±zowych oczach. Zdenerwowany twoj± obcno¶ci±, co jaki¶ czas drapie siê po
-w³osach na g³owie, które s± krótkie i czarne. 
-~
-Race cz³owiek~
-ActExt 0|A
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 53
-Lang A
-Speaks 0
-Level 9
-Hitroll 0
-HP 5d9+200
-Damage 2d4+2
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 5 5 5 0
-Stats 80 80 80 80 78 78 78
-Off I
-OffExt 0|I
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 300
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Mobend
-#Vnum 3997
-Name spokojny pies~
-Odmiana psa~psu~psa~psem~psie~
-Short spokojny pies~
-Long Brunatnobia³y pies chodzi tu¿ ko³o ciebie, merdaj±c ogonem.~
-Descr Jest to bruntny pies z bia³ymi ³atkami, które ma na ³apach i zaraz ko³o
-uszu. Jego zachowanie nie jest agresywne, ale na pewno siê zmieni, gdy kto¶
-bêdzie chcia³ zrobiæ krzywde jego panu. 
-~
-Race pies~
-ActExt 0|A
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 53
-Lang A
-Speaks 0
-Level 6
-Hitroll 0
-HP 3d3+80
-Damage 2d3+1
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack gryzienie
-XAC 10 10 10 10
-Stats 60 60 60 60 60 60 60
-Off 0
-OffExt 0
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 0
-Form AFGV
-Parts ACDEFHJKRSUV
-Size medium
-Material unknown
-Skin 70
-ExpMultiplier 100
-Mobend
 #Vnum 0
 
 
 
 #OBJECTS
+#Vnum 3971
+Name butelka zimowe wino~
+Odmiana butelki Zimowego Wina~butelce Zimowego Wina~butelkê Zimowego Wina~butelk± Zimowego Wina~butelce Zimowego Wina~
+Short butelka 'Zimowego Wina'~
+Descr Butelka s³abego 'Zimowego Wina' stoi tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 18 18 30 0 3331 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 4
+Cond 100
+Itemdesc Jest to butelka taniego lodowego wina, zwanego 'Zimowym Winem'.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 3972
+Name miód kufel gliniany~
+Odmiana kufla miodu pitnego~kuflowi miodu pitnego~kufel miodu pitnego~kuflem miodu pitnego~kuflu miodu pitnego~
+Short kufel miodu pitnego~
+Descr Gliniany kufel miodu pitnego stoi tutaj.~
+Material glina~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 10 10 20 0 3336 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 10
+Cond 100
+Itemdesc Jest to gliniany kufel wype³niony miodem pitnym.
+~
+Comments ~
+Objend
+#Vnum 3973
+Name lemoniada szklanka mro¿ona zó³ty gigant~
+Odmiana szklanki lemoniady~szklance lemoniady~szklankê lemoniady~szklank± lemoniady~szklance lemoniady~
+Short szklanka lemoniady '¯o³ty Gigant'~
+Descr Szklanka orze¼wiaj±cej lemoniady robionej z topniej±cych ¶niegów i jakich¶ owoców stoi tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 4 6 0 3333 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 2
+Cond 10
+Itemdesc Jest to szklanka wype³niona orze¼wiaj±c± lemoniad±.
+~
+Comments ~
+Objend
+#Vnum 3974
+Name kufel specja³ piwo Griselli~
+Odmiana piwa Griselli~piwie Griselli~piwo Griselli~piwem Griselli~piwie Griselli~
+Short piwo Griselli~
+Descr Kufel specia³u barmanki Griselli stoi tutaj.~
+Material glina~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 12 12 3 0 3336 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 2
+Cond 100
+Itemdesc Jest to gliniany kufel wype³niony jasnym piwem, zwanym piwem Griselli.
+~
+Comments ~
+Objend
+#Vnum 3976
+Name kieliszek brandy~
+Odmiana kieliszka brandy~kieliszkowi brandy~kieliszek brandy~kieliszkiem brandy~kieliszku brandy~
+Short kieliszek brandy~
+Descr Kieliszek dobrej po³udniowej brandy stoi tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 6 6 27 0 3340 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 25
+Cond 50
+Itemdesc Jest to ma³y szklany kieliszek wype³niony dobr± po³udniow± brandy.
+~
+Comments ~
+Objend
 #Vnum 3977
 Name kieliszek lodolamacz drink jablkowy~
 Odmiana kieliszka z drinkiem~kieliszkowi z drinkiem~kieliszek z drinkiem~kieliszkiem z drinkiem~kieliszku z drinkiem~
@@ -1035,11 +846,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 6 6 8 0 3340 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 4
 Cond 100
@@ -1058,11 +869,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 8 -1 72 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1079,11 +890,11 @@ ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 -1 144 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 0
 Cond 100
@@ -1100,14 +911,89 @@ ExtraExt 0|T
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 1200
 Cond 100
+Comments ~
+Objend
+#Vnum 3981
+Name stó³ solidny dêbowy~
+Odmiana sto³u~stó³~stó³~sto³em~stole~
+Short solidny dêbowy stó³~
+Descr Solidny dêbowy stó³ z czterema krzese³kami stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0|Yd
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 -1 72 100 100 0 0
+Repair 0 0 0 0
+Weight 400
+Cost 5
+Cond 100
+Comments ~
+Objend
+#Vnum 3982
+Name lekki topór bojowy~
+Odmiana topora bojowego~toporowi bojowemu~topór bojowy~toporem bojowym~toporze bojowym~
+Short lekki topór bojowy~
+Descr Lekki stalowy topór bojowy le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0|ABCL
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 5 1 9 1 0 0 1
+Repair 0 0 0 0
+Weight 95
+Cost 480
+Cond 100
+Extradesc topor~
+Najbardziej popularna wersja topora bojowego. Sk³ada siê ze stalowego
+jednostronnego ostrza zamocowanego na stylisku d³ugo¶ci oko³o 1 - 1,2 metra.
+To broñ jednorêczna. 
+~
+Itemdesc Jest to zwyk³y topór bojowy wykonany ze stali.
+~
+Identdesc Jest to zwyk³y topór bojowy wykonany ze stali.
+~
+Comments ~
+Objend
+#Vnum 3985
+Name prycza~
+Odmiana pryczy~przyczy~pryczê~prycz±~pryczy~
+Short drewniana prycza~
+Descr Niedu¿a za¶cielona prycza stoi tutaj, a pos³anie le¿y obok niej.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 -1 1168 105 105 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 5
+Cond 100
+Extradesc poslanie~
+To zwiniêty w rulon materac i jaki¶ pled.
+~
 Comments ~
 Objend
 #Vnum 3986
@@ -1121,11 +1007,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 35 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 15
 Cond 100
@@ -1144,11 +1030,11 @@ ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 200 0 0 200 5 13 -1
 Repair 0 0 0 0
-Length 0
 Weight 800
 Cost 1200
 Cond 100
@@ -1165,11 +1051,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 600
 Cond 100
@@ -1210,35 +1096,234 @@ Extradesc mapa~
 ~
 Comments ~
 Objend
+#Vnum 3990
+Name zbroja paskowa~
+Odmiana zbroi paskowej~zbroi paskowej~zbrojê paskow±~zbroj± paskow±~zbroi paskowej~
+Short paskowa zbroja~
+Descr Mocna zbroja paskowa le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 3
+Value 4 5 4 10 9 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 1920
+Cond 50
+Comments ~
+Objend
+#Vnum 3991
+Name naramienniki paskowe~
+Odmiana naramienników paskowych~naramiennikom paskowym~naramienniki paskowe~naramiennikami paskowymi~naramiennikach paskowych~
+Short paskowe naramienniki~
+Descr Mocne naramienniki paskowe le¿± tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 1
+Gender 0
+Value 4 5 4 10 9 0 0
+Repair 0 0 0 0
+Weight 80
+Cost 1200
+Cond 100
+Itemdesc S± to mocne skórzane rêkawice wzmacniane stal±.
+~
+Comments ~
+Objend
+#Vnum 3992
+Name paskowe rêkawice~
+Odmiana rêkawic paskowych~rêkawicom paskowym~rêkawice paskowe~rêkawicami paskowymi~rêkawicach paskowych~
+Short paskowe rêkawice~
+Descr Mocne rêkawice wzmacniane stal± le¿± tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 4 5 4 10 9 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 420
+Cond 100
+Itemdesc S± to mocne skórzane rêkawice wzmacniane stal±.
+~
+Comments ~
+Objend
+#Vnum 3994
+Name buty paskowe~
+Odmiana butów paskowych~butom paskowym~buty paskowe~butami paskowymi~butach paskowych~
+Short paskowe buty~
+Descr Mocne paskowe buty wzmacniane stal± stoj± tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 1
+Gender 5
+Value 4 5 4 10 9 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 1140
+Cond 100
+Itemdesc S± to mocne skórzane buty wzmacniane stal±.
+~
+Comments ~
+Objend
+#Vnum 3995
+Name he³m paskowy~
+Odmiana he³mu paskowego~he³mowi paskowemu~he³m paskowy~he³mem paskowym~he³mie paskowym~
+Short paskowy he³m~
+Descr Mocny he³m wzmacniany pasami stali le¿y tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 4 5 4 10 9 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 780
+Cond 100
+Itemdesc Jest to mocny skórzany he³m wzmacniany pasami stali.
+~
+Comments ~
+Objend
+#Vnum 3996
+Name ¶rednia tarcza~
+Odmiana ¶redniej tarczy~¶redniej tarczy~¶redni± tarczê~¶redni± tarcz±~¶redniej tarczy~
+Short ¶rednia tarcza~
+Descr ¦rednia tarcza wykonana z drewna le¿y tutaj.~
+Material drewno~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0|A
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 2 2 20 5 0 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 900
+Cond 78
+Itemdesc Jest to zwyk³a ¶rednia tarcza wykonana z drewna.
+~
+Comments ~
+Objend
+#Vnum 3997
+Name puklerz~
+Odmiana puklerza~puklerzowi~puklerz~puklerzem~puklerzu~
+Short puklerz~
+Descr Ma³y, stalowy puklerz le¿y tutaj.~
+Material stal~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0|A
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 2
+Value 0 1 5 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 300
+Cond 94
+Itemdesc Jest to ma³y stalowy puklerz, nie widzisz w nim nic wyj±tkowego. 
+~
+Comments ~
+Objend
+#Vnum 3998
+Name tarcza ma³a zakurzona metalowa~
+Odmiana ma³ej tarczy~ma³ej tarczy~ma³± tarczê~ma³± tarcz±~ma³ej tarczy~
+Short ma³a tarcza~
+Descr Ma³a metalowa tarcza le¿y lekko zakurzona.~
+Material stal~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0|A
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 1 2 16 3 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 360
+Cond 59
+Itemdesc Do¶æ niewielka, metalowa tarcza z lekko poszczerbionymi krawêdziami. Z
+przodu, na metalu widaæ rysunek, który jest tak zatarty, ¿e nie mo¿na
+odgadn±æ co on w³a¶ciwie przedstawia. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 0
 
 
 
 #ROOMS
 #Vnum 3971
-Name Karczma "{W¦nie¿na Nora{c"{x~
-Descr Znajdujesz siê w du¿ej sali go¶cinnej gospody " ¦nie¿na Nora ". Jest tu
+Name Gospoda 'Sniezna Zaspa'~
+Descr Znajdujesz siê w du¿ej sali go¶cinnej gospody '¦nie¿na Zaspa'. Jest tu
 stosunkowo ciemno, jedynie kilka ¶wieczników, w których prawie po³owa
 ¶wieczek, to tl±ce siê ostatnim wysi³kiem ogarki, o¶wietla to surowe
 pomieszczenie. Widzisz tutaj d³ugi, drewniany bar z ksiêg± go¶ci i ma³y,
 mosiê¿ny dzwoneczek stoj±cy na gustownym stojaczku. W rogu po prawej pustkê
 wype³niaj± dwa sto³y i kilka krzese³. Z korytarza na wschodzie bije, koj±ce
-cia³o, ciep³o. Mo¿na w tej karczmie tak¿e wynaj±æ pokój tylko musisz siê
-bardziej rozejrzeæ. 
+cia³o, ciep³o. Mo¿na tu biesiadaæ oraz wynajmowaæ pokoje noclegowe. Za lad±
+widzisz kilka beczek z ró¿nymi trunkami. 
 ~
-FlagsExt 0|CHW
+FlagsExt 0|CDGHKW
 Sector 0
-ExitExt 0
+ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 3973
+ExitExtToVnum 3972
 ExitExtEnd
-Exit 0
+Exit 1
 ~
 ~
-0 0 3973
+0 0 3972
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtName drzwi~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 3977
+ExitExtEnd
+Exit 3
+~
+VName Wyj¶cie~
+drzwi~
+3 0 3977
 Heal 5
 Rentrate 85
 Resources 0 0 0 0 0 0 0 0 
@@ -1252,6 +1337,21 @@ lub zajrzeæ do g³ównej sali albo pokoju.
 ~
 FlagsExt 0|DH
 Sector 0
+ExitExt 0
+ExitExtDescription Widzisz tam wej¶cie do wiêkszej sali w gospodzie. Z daleka widaæ ogieñ
+ra¼no trzaskaj±cy na kominku, jaki¶ stolik i kilka drobnych sprzêtów. 
+~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 3974
+ExitExtEnd
+Exit 0
+Widzisz tam wej¶cie do wiêkszej sali w gospodzie. Z daleka widaæ ogieñ
+ra¼no trzaskaj±cy na kominku, jaki¶ stolik i kilka drobnych sprzêtów. 
+~
+~
+3 0 3974
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1285,34 +1385,38 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 3974
+ExitExtToVnum 3971
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 3974
+0 0 3971
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 3973
-Name Przedsionek w karczmie~
+Name Koniec korytarza~
 Descr Stoisz na koncu ciemnego korytarza wewnatrz gospody. Na drewnianej
 podlodze lezy dlugi dywan o dosc nieokreslonym kolorze. Jedyne wyjscie
 prowadzi do malego pokoju. 
 ~
-FlagsExt 0|DH
+FlagsExt 0|ADH
 Sector 0
 ExitExt 2
-ExitExtDescription ~
+ExitExtDescription Przed toba stoi otworem maly pokoik, doskonale
+nadajacy sie do prywatnych rozmow, czy odpoczynku.
+~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 3
 ExitExtKey 0
-ExitExtToVnum 3971
+ExitExtToVnum 3976
 ExitExtEnd
 Exit 2
+Przed toba stoi otworem maly pokoik, doskonale
+nadajacy sie do prywatnych rozmow, czy odpoczynku.
 ~
 ~
-0 0 3971
+3 0 3976
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1338,28 +1442,19 @@ niewielk± szafkê.
 ~
 FlagsExt 0|DHL
 Sector 0
-ExitExt 1
-ExitExtDescription ~
+ExitExt 2
+ExitExtDescription Widzisz wyj¶cie na g³ówny korytarz.
+~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 3
 ExitExtKey 0
 ExitExtToVnum 3972
 ExitExtEnd
-Exit 1
+Exit 2
+Widzisz wyj¶cie na g³ówny korytarz.
 ~
 ~
-0 0 3972
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 3977
-ExitExtEnd
-Exit 3
-~
-~
-0 0 3977
+3 0 3972
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1395,8 +1490,21 @@ siê zdrzemn±c, porozmawiaæ na osobno¶ci z kompanami lub wynaj±æ go na
 d³u¿ej. Wyposa¿enie jest do¶æ skromne, jedynie dwie ma³e prycze i szafka,
 zreszt± do tego pokoju i tak niewiele wiêcej by wesz³o. 
 ~
-FlagsExt 0|CDHV
+FlagsExt 0|DHV
 Sector 0
+ExitExt 0
+ExitExtDescription Widzisz wyj¶cie na g³ówny korytarz.
+~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 3973
+ExitExtEnd
+Exit 0
+Widzisz wyj¶cie na g³ówny korytarz.
+~
+~
+3 0 3973
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1451,16 +1559,26 @@ okolicy sk³adzik, gdzie mo¿na zaopatrzyæ siê w wiêkszo¶æ potrzebnych rzeczy.
 ~
 0 0 3985
 ExitExt 1
-ExitExtDescription ~
+ExitExtDescription Przed tob± stoi ma³y budynek, jego dach kryty jest drewnianymi deskami, a
+z komina unosi siê dym. Do ¶rodka prowadz± niedu¿e drzwi a okiennice s±
+lekko przymkniête. Nad twoj± g³ow± znajduje siê {y+ SZYLD +{x 
+~
+ExitExtVName Gospoda~
+ExitExtTextOut $n wchodzi do gospody.~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 3
 ExitExtKey 0
-ExitExtToVnum 3974
+ExitExtToVnum 3971
 ExitExtEnd
 Exit 1
+Przed tob± stoi ma³y budynek, jego dach kryty jest drewnianymi deskami, a
+z komina unosi siê dym. Do ¶rodka prowadz± niedu¿e drzwi a okiennice s±
+lekko przymkniête. Nad twoj± g³ow± znajduje siê {y+ SZYLD +{x 
 ~
+VName Gospoda~
+TextOut $n wchodzi do gospody.~
 ~
-0 0 3974
+3 0 3971
 ExitExt 2
 ExitExtDescription Droga prowadzi dalej na po³udnie, na most którym doj¶æ mo¿na do ¦nie¿nych
 Zasp przez kana³ dochodz±cy do Jeziora Dinneshere. 
@@ -1521,6 +1639,21 @@ zachód.
 ~
 ~
 0 0 3977
+ExitExt 1
+ExitExtDescription Niedaleko na wschodzie znajduj± siê stojaki, na których mieszkañcy susz±
+pstr±gi. Dalej widaæ skaliste zbocze. 
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3980
+ExitExtEnd
+Exit 1
+Niedaleko na wschodzie znajduj± siê stojaki, na których mieszkañcy susz±
+pstr±gi. Dalej widaæ skaliste zbocze. 
+~
+~
+0 0 3980
 ExitExt 2
 ExitExtDescription Droga prowadzi dalej na po³udnie, na most, którym doj¶æ mo¿na do
 ¦nie¿nych Zasp przez kana³ dochodz±cy do Jeziora Dinneshere. 
@@ -1599,14 +1732,29 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 3980
-Name Na ty³ach gospody {YF{x~
+Name Na ty³ach gospody~
 Descr Znajdujesz siê na ty³ach gospody. Nie ma tu nic ciekawego. Woko³o tylko
 ¶nieg, skaliste zbocza gro¼nych, niemych gór i wszechobecny zapach susz±cych
 siê ryb, który jest nie do zniesienia. Mo¿e dlatego, ¿e stoisz obok stojaka
 z susz±cymi siê rybami. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 16
+ExitExt 3
+ExitExtDescription Widzisz wyj¶cie na bit± droge, po jej drugiej stronie widaæ ma³± chatkê,
+molo i stojaki z susz±cymi siê rybami, zupe³nie jak tutaj. 
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 3978
+ExitExtEnd
+Exit 3
+Widzisz wyj¶cie na bit± droge, po jej drugiej stronie widaæ ma³± chatkê,
+molo i stojaki z susz±cymi siê rybami, zupe³nie jak tutaj. 
+~
+~
+0 0 3978
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2118,14 +2266,18 @@ zewn±trz. Stoi tu kilka sto³ów a gdzie¶ w okolicy powinna byæ barmanka.
 ~
 FlagsExt 0|DH
 Sector 0
-ExitExt 1
-ExitExtDescription ~
+ExitExt 0
+ExitExtDescription Widzisz przed sob± spory bar i sto³ki, a za nimi pó³ki z butelkami,
+kuflami i kilka ¶wieczników. 
+~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 3991
 ExitExtEnd
-Exit 1
+Exit 0
+Widzisz przed sob± spory bar i sto³ki, a za nimi pó³ki z butelkami,
+kuflami i kilka ¶wieczników. 
 ~
 ~
 0 0 3991
@@ -2162,14 +2314,16 @@ Sector 0
 Extra s~
 Widzisz drug± czê¶æ sali w karczmie.
 ~
-ExitExt 3
-ExitExtDescription ~
+ExitExt 2
+ExitExtDescription Widzisz drug± czê¶æ sali w karczmie.
+~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 3990
 ExitExtEnd
-Exit 3
+Exit 2
+Widzisz drug± czê¶æ sali w karczmie.
 ~
 ~
 0 0 3990
@@ -2460,175 +2614,178 @@ S
 
 #RESETS
 M 100 3977 1 3971 1
-E 100 4404 0 6
+E 100 3057 0 6
 E 100 3201 0 22
 E 100 3201 0 21
-E 100 4425 0 13
-E 100 4410 0 7
-E 100 3001 0 8
-E 100 3017 0 5
-G 100 2452 0
-G 100 2451 0
-G 100 2450 0
+E 100 3018 0 13
+E 100 3016 0 7
+E 100 3380 0 8
+E 100 3008 0 5
+G 100 3056 0
+G 100 3055 0
+G 100 3001 0
 G 100 3977 0
-G 100 2494 0
-G 100 3373 0
-G 100 3381 0
-G 100 6077 0
-G 100 2495 0
+G 100 3976 0
+G 100 3075 0
+G 100 3974 0
+G 100 3973 0
+G 100 3972 0
+G 100 3971 0
 G 100 3132 0
 O 100 3978 0 3971
 O 100 3980 0 3971
-O 100 2362 0 3971
-O 100 2362 0 3974
+O 100 3981 0 3971
+O 100 3981 0 3974
 O 100 6015 0 3974
-O 100 16172 0 3974
 O 100 6015 0 3975
-O 100 2352 0 3975
-O 100 2352 0 3975
+O 100 3985 0 3975
+O 100 3985 0 3975
 P 50 3986 1 6015 1
 O 100 6015 0 3976
-O 100 2352 0 3976
+O 100 3985 0 3976
 P 50 3986 1 6015 1
 M 100 3984 2 3979 2
-E 100 3019 0 5
-E 100 3003 0 8
-E 100 3067 0 9
-E 100 3300 0 16
+E 100 3308 0 5
+E 100 3309 0 8
+E 100 3310 0 9
+E 100 3307 0 16
 M 100 3984 2 3979 2
-E 100 3019 0 5
-E 100 3003 0 8
-E 100 3067 0 9
-E 100 3300 0 16
+E 100 3308 0 5
+E 100 3309 0 8
+E 100 3310 0 9
+E 100 3307 0 16
 M 100 3972 8 3981 1
-E 100 4379 0 5
-E 100 3157 0 16
+E 100 2071 0 12
+E 100 3071 0 16
 M 100 3971 8 3981 1
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3157 0 16
+E 100 3008 0 5
+E 100 3382 0 7
+E 100 3071 0 16
 M 100 3972 8 3982 1
-E 100 4379 0 5
-E 100 3157 0 16
+E 100 2071 0 12
+E 100 3071 0 16
 M 100 3978 1 3983 1
-E 100 3017 0 5
-E 100 3050 0 7
+E 100 3008 0 5
+E 100 3382 0 7
 E 100 3136 0 16
 M 100 3971 8 3985 1
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3157 0 16
+E 100 3008 0 5
+E 100 3382 0 7
+E 100 3071 0 16
 M 100 2062 4 3985 1
-E 100 3029 0 5
-E 100 3045 0 6
-E 100 3093 0 10
-E 100 3061 0 7
-E 100 3077 0 9
-E 100 3013 0 8
-E 100 3178 0 16
-E 100 3366 0 11
+E 100 2072 0 5
+E 100 3068 0 6
+E 100 2074 0 10
+E 100 2075 0 7
+E 100 3357 0 9
+E 100 2077 0 8
+E 100 2078 0 16
+E 100 3996 0 11
 M 100 3976 1 3986 1
-G 100 3017 0
-G 100 3178 0
-G 100 3051 0
-G 100 3127 0
 G 100 3132 0
-G 100 3009 0
-G 100 3089 0
-G 100 3073 0
-G 100 3057 0
-G 100 3185 0
-G 100 3041 0
-G 100 3291 0
-G 100 3367 0
-G 100 3312 0
-G 100 3349 0
-G 100 3366 0
-G 100 3066 0
-G 100 3001 0
-G 100 3050 0
 G 100 3988 0
-G 100 3019 0
-G 100 3090 0
-G 100 3074 0
-G 100 3010 0
-G 100 3042 0
-G 100 3034 0
-G 100 3082 0
-G 100 3067 0
-G 100 3003 0
-G 100 3083 0
-G 100 3019 0
-G 100 3025 0
+G 100 3349 0
+G 100 3982 0
+G 100 3127 0
+G 100 3997 0
+G 100 3998 0
+G 100 3996 0
+G 100 3312 0
+G 100 3008 0
+G 100 3382 0
+G 100 6028 0
+G 100 3380 0
+G 100 3378 0
+G 100 6025 0
+G 100 6037 0
+G 100 6036 0
+G 100 3092 0
+G 100 6032 0
+G 100 6034 0
+G 100 6033 0
+G 100 3139 0
+G 100 3142 0
+G 100 6040 0
+G 100 3144 0
+G 100 3141 0
+G 100 6045 0
+G 100 3990 0
+G 100 3995 0
+G 100 3994 0
+G 100 3092 0
+G 100 3992 0
+G 100 3991 0
+G 100 3185 0
 O 100 3987 0 3987
 M 100 3975 5 3990 5
-E 100 3157 0 16
-E 100 3050 0 7
-E 100 3017 0 5
-E 100 3373 0 17
+E 100 3071 0 16
+E 100 3382 0 7
+E 100 3008 0 5
+E 100 3075 0 17
 M 100 3975 5 3990 5
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3157 0 16
-E 100 3381 0 17
+E 100 3008 0 5
+E 100 3382 0 7
+E 100 3071 0 16
+E 100 3974 0 17
 M 100 3975 5 3990 5
-E 100 3373 0 17
-E 100 3157 0 16
-E 100 3017 0 5
-E 100 3050 0 7
+E 100 3075 0 17
+E 100 3071 0 16
+E 100 3008 0 5
+E 100 3382 0 7
 M 100 3974 1 3991 1
-G 100 6185 0
-E 100 4414 0 7
-G 100 2452 0
+E 100 10856 0 7
+G 100 2067 0
+G 100 2066 0
 G 100 2088 0
-G 100 2452 0
+G 100 3056 0
 G 70 3977 0
-G 100 3373 0
-G 50 3381 0
-G 100 6077 0
-G 100 2495 0
-G 100 3132 0
+G 30 3976 0
+G 100 3075 0
+G 50 3974 0
+G 100 3973 0
+G 100 3972 0
+G 100 3971 0
 O 100 3978 0 3991
 O 100 3979 0 3991
 O 100 3979 0 3991
 O 100 3979 0 3991
 O 100 3979 0 3991
 M 100 3975 5 3991 5
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3157 0 16
+E 100 3008 0 5
+E 100 3382 0 7
+E 100 3071 0 16
 M 100 3975 5 3991 5
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3157 0 16
+E 100 3008 0 5
+E 100 3382 0 7
+E 100 3071 0 16
 M 100 3973 5 3992 5
 M 100 3973 5 3992 5
 M 100 3973 5 3992 5
 M 100 3973 5 3992 5
 M 100 3973 5 3992 5
 M 100 3971 8 3993 1
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3157 0 16
+E 100 3008 0 5
+E 100 3382 0 7
+E 100 3071 0 16
 M 100 3981 2 3993 2
 M 100 3985 2 3993 2
 M 100 3985 2 3993 2
 M 100 3981 2 3993 2
 M 100 3986 1 3993 1
 M 100 3980 1 3994 1
-E 100 3001 0 8
-E 100 3098 0 13
-E 100 4368 0 5
-E 100 3050 0 7
+E 100 3380 0 8
+E 100 3017 0 13
+E 100 3130 0 5
+E 100 3382 0 7
 M 100 3987 1 3994 1
-O 100 2359 0 3996
+O 100 6005 0 3996
 M 100 3979 1 3996 1
-E 100 3017 0 5
-E 100 3050 0 7
+E 100 3008 0 5
+E 100 3382 0 7
 E 100 3136 0 16
-O 100 2358 0 3997
+O 100 3399 0 3997
 M 100 3982 1 3997 1
-E 100 4409 0 7
+E 100 2082 0 7
 S
 
 
@@ -2803,7 +2960,7 @@ if numeval $_rand == 19
   say Gnomy handluj± kradzionymi kamieniami, ahh, to ³ajdaki...
 endif
 if numeval $_rand == 20
-say Mówi±, ¿e ma przyj¶c straszny zimny wicher. Lepiej zbieraæ zapasy, bo ca³e miasto mo¿e pogr±¿yæ w ¶niegu.
+  say Gulhur mi mówi³, ¿e Hunghu mu powiedzia³, ¿e Brungh us³ysza³ od Furgla, ¿e jaka¶ kap³anka z Carrallak wcale nie jest kobiet±... Dasz wiarê?!
 endif
 if numeval $_rand == 21
   say £oo bogowie, ³oo bogowie... Anio³y ¶mierci st±paj± po ziemi! Lada dzieñ nadejdzie koniec ¶wiata! Tak s³ysza³em...
@@ -2846,12 +3003,12 @@ endif
 ~
 #3983
 ~
-mob equip self 3019
-mob equip self 3090
-mob equip self 3074
-mob equip self 3051
-mob equip self 3010
-mob equip self 3042
+mob equip self 3990
+mob equip self 3991
+mob equip self 3992
+mob equip self 3092
+mob equip self 3994
+mob equip self 3995
 ~
 #3984
 ~
@@ -2883,32 +3040,36 @@ endif
 ~
 #eltar_burmistrz
 ~
-mob equip self 4364
+mob equip self 3015
 # spodnie
 if rand 50
-  mob equip self 4410
+  mob equip self 3016
 else
-  mob equip self 3051
+  mob equip self 3092
 endif
-mob equip self 3098
+mob equip self 3017
 # brandy
 if rand 80
-  mob equip self 2494
+  mob equip self 3976
 endif
 # buty
 if rand 50
   if rand 50
-    mob equip self 4417
+    mob equip self 3014
   else
-    mob equip self 3003
+    mob equip self 3072
   endif
 else
   if rand 50
-    mob equip self 3003
+    mob equip self 3309
   else
-    mob equip self 3010
+    mob equip self 3994
   endif
 endif
+~
+#free5
+{RFREE FREE FREE
+~
 ~
 #grisella
 ~
@@ -2931,7 +3092,15 @@ endif
 ~
 #quimby
 ~
-Say Witaj w mojej karczmie. Czym moge s³u¿yæ?
+if hasflag $n Easterial_morderca
+  tell $n Nie przyjmuje morderców, wynocha!
+  open wyj
+  mob force $n wyjscie
+endif
+~
+#quimby_rent
+{RFREE FREE{x
+~
 ~
 #0
 
@@ -2939,6 +3108,13 @@ Say Witaj w mojej karczmie. Czym moge s³u¿yæ?
 #0
 
 #ROOMPROGSNEW
+#3979
+~
+~
+#quimby_rent
+{RFREE FREE{x
+~
+~
 #0
 
 #TRAPS

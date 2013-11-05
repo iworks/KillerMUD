@@ -200,7 +200,7 @@ Damage 2d2+1
 Dammagic 0
 Weaponbonus 0
 Damflags 0
-Attack drapanie
+Attack none
 XAC 9 9 9 9
 Stats 60 54 60 102 72 78 78
 Off FH
@@ -753,7 +753,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 8 50
@@ -799,7 +799,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 8 50
@@ -844,7 +844,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 8 50
@@ -889,7 +889,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -932,7 +932,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 8 50
@@ -981,7 +981,7 @@ Size large
 Material unknown
 MobprogNew death 9210 ABCDEFGHI 100~
 MobprogNew greet 9203 FGI 100~
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 5 80
@@ -1246,6 +1246,31 @@ Mobend
 
 
 #OBJECTS
+#Vnum 9201
+Name zbutwiala skrzynia~
+Odmiana zbutwialej skrzyni~zbutwialej skrzyni~zbutwiala skrzynie~zbutwiala skrzynia~zbutwialej skrzyni~
+Short zbutwiala skrzynia~
+Descr Zanurzona do polowy w blocie zbutwiala skrzynia.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 40 333 9211 20 100 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Mimo, ze wygl±da na rozpadaj±c± sie, skrzynia zazdro¶nie strze¿e swoich
+skarbów. Zapewne jest zabezpieczona w jaki¶ magiczny sposób przed czyj±¶
+ciekawo¶ci±. W bocznej ¶ciance dostrzegasz jakie¶ wg³êbienie w runicznym
+kszta³cie. 
+~
+Comments ~
+Objend
 #Vnum 9202
 Name wielki kociol~
 Odmiana wielkiego kotla~wielkiemu kotlu~wielki kociol~wielkim kotlem~wielkim kotle~
@@ -1261,13 +1286,39 @@ LiczbaMnoga 0
 Gender 0
 Value 100 100 13 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 0
 Cond 100
 Itemdesc Kocio³ek stoi na trójnogu zbudowanym z trollich ko¶ci. Gotowany w nim
 wywar ma kolor zbutwia³ego próchna i przera¼liwie ¶mierdzi. Wied¼ma, co po
 chwila wrzuca do niego dodatki wed³ug tylko jej znanej receptury. 
+~
+Comments ~
+Objend
+#Vnum 9203
+Name opalizuj±cy pier¶cieñ 9203_pier¶cieñ~
+Odmiana opalizujacego pierscienia~opalizujacemu pierscieniowi~opalizujacy pierscien~opalizujacym pierscieniem~opalizujacym pierscieniu~
+Short opalizujacy pierscien~
+Descr Ma³y opalizuj±cy pier¶cieñ.~
+Material br±z~
+Type jewelry
+ExtraExt 0|A
+Wear AB
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 30000
+Cond 100
+Aff 1 17 -10 0 0 0
+Objprog prewear 9203_zaloz 100~
+Itemdesc Trzymasz w rêku ma³y b³yskaj±cy niebieskim swiat³em pier¶cien. Bije od
+niego bardzo silna magiczna aura. Dziwi ciê to, ¿e w takim ma³ym przedmiocie
+kto¶ zdo³a³ umie¶cic tak potê¿ny ladunek magiczny. Musia³ byc to naprawde
+wprawny mag, badz magiczka. Pier¶cien mimo, ¿e z br±zu prawie nic nie wa¿y. 
 ~
 Comments ~
 Objend
@@ -1286,7 +1337,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 0
 Cond 100
@@ -1296,12 +1346,61 @@ Metrów. Na samym szczycie znajduje siê czarny jak noc diadem.
 ~
 Comments ~
 Objend
+#Vnum 9205
+Name wysluzony kostur~
+Odmiana wysluzonego kostura~wysluzonemu kosturowi~wysluzony kostur~wysluzonym kosturem~wysluzonym kosturze~
+Short wysluzony kostur~
+Descr Skrzy¿owanie powykrêcanej laski z motyk±.~
+Material drewno~
+Type weapon
+ExtraExt 0|EMU
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 9 2 5 37 96 2 2
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 20
+Aff 1 9 25 0 0 0
+Itemdesc Do¶c d³ugi kostur, w sumie to bardziej laska. Widac ze ma juz swoje lata
+i z pewnoscia rozpad³a by siê ju¿ dawno temu gdyby kto¶ nienas±czy³ jej
+potê¿n± dawka magii. 
+~
+Comments ~
+Objend
+#Vnum 9206
+Name zdobiony sztylet~
+Odmiana sztyletu ofiarnego~sztyletowi ofiarnemu~sztylet ofiarny~sztyletem ofiarnym~sztylecie ofiarnym~
+Short sztylet ofiarny~
+Descr Sztylet ofiarny pokryty prastarymi runami.~
+Material br±z~
+Type weapon
+ExtraExt 0|EGJU
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 2 3 3 0 8 1 1
+Repair 0 0 0 0
+Weight 15
+Cost 18000
+Cond 100
+Itemdesc Sztylet ofiarny pokryty prastarymi runami. Powierzchnia ostrza
+splamiona jest rdza która nieodparnie przypomina zaschnieta krew.
+Caly sztylet jest chlodny, bije od niego blada poswiata.
+~
+Comments ~
+Objend
 #Vnum 9207
 Name perlowobialy kamien~
 Odmiana perlowobialego kamienia~perlowobialemu kamieniowi~perlowobialy kamien~perlowobialym kamieniem~perlowobialym kamieniu~
 Short perlowobialy kamien~
 Descr Perlowobialy kamien.~
-Material kamieñ~
+Material unused~
 Type jewelry
 ExtraExt 0
 Wear A
@@ -1311,7 +1410,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 7
 Cost 7200
 Cond 100
@@ -1337,15 +1435,38 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 12
 Cost 12900
 Cond 100
-Aff 1 2 -3 0 0 0
+Aff 1 2 -1 0 0 0
 Aff 1 19 2 0 0 0
 Itemdesc Wykonany z bardzo rzadkiego metalu, adamantytu diadem le¿y tutaj. Zosta³
 on najprawdopodobniej u¿yty podczas rytua³u jakiegos fanatycznego kultu.
 Mimo tego ten przedmiot jest z pewno¶cia wart do¶c pokazn± kupke srebra. 
+~
+Comments ~
+Objend
+#Vnum 9209
+Name gorejacy miecz~
+Odmiana gorejacego miecza~gorejacemu mieczowi~gorejacy miecz~gorejacym mieczem~gorejacym mieczu~
+Short gorejacy miecz~
+Descr Gorej±cy miecz pob³yskuje ogniem.~
+Material elfia stal~
+Type weapon
+ExtraExt 0|AGJ
+Wear AHN
+Wear2Ext 0|ABCDEGHKLbc/1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 3 6 1 41 1 1
+Repair 0 0 0 0
+Weight 200
+Cost 54000
+Cond 100
+Itemdesc Ten miecz jest potê¿nym wytworem magii, jednak wydaje ci siê ¿e za³o¿yc
+go mog³ jedynie poprzedni wlasciciel. Miecz co chwila pob³yskuje magicznym
+plomieniem. Ah gdyby¶ tylko mog³ go dobyc! 
 ~
 Comments ~
 Objend
@@ -1364,7 +1485,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 70
 Cost 1
 Cond 75
@@ -1389,7 +1509,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 1
 Cond 75
@@ -1428,14 +1547,14 @@ Exit 0
 ExitExt 4
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 16
+ExitExtInfo 8208
 ExitExtKey 0
-ExitExtToVnum 7107
+ExitExtToVnum 7099
 ExitExtEnd
 Exit 4
 ~
 ~
-16 0 7107
+8208 0 7099
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1619,13 +1738,13 @@ przeszkodzilo jej w pracy. Na wysluzonym fotelu przeciaga sie kot.
 ~
 FlagsExt 0|C
 Sector 0
-Extra down~
-Zejscie.
-~
 Extra kostur~
 Stary kostur pokryty jest wieloma sekami. Drzewno z którego byl zrobiony
 musialo byc niesamowicie powykrecane. Dookola niego zdaje sie bic jakas
 zielonkawa aura. Wiedzma opiera sie na nim.
+~
+Extra down~
+Zejscie.
 ~
 ExitExt 5
 ExitExtDescription ~
@@ -4248,8 +4367,8 @@ M 100 9200 15 9203 2
 M 100 9204 1 9205 1
 O 100 9202 0 9205
 M 100 9205 1 9205 1
-E 100 3371 0 16
-E 100 4377 0 5
+E 100 9205 0 16
+E 100 310 0 12
 M 100 9200 15 9206 2
 M 100 9200 15 9207 2
 M 100 9222 1 9207 1
@@ -4263,11 +4382,12 @@ M 100 9216 1 9215 1
 M 100 9227 1 9215 1
 M 100 9217 1 9216 1
 M 100 9221 1 9216 1
-E 100 3129 0 16
+E 100 9209 0 16
 M 100 9203 4 9218 1
 O 100 9207 0 9219
 M 100 9226 1 9221 1
-O 100 3370 0 9223
+O 100 9201 0 9223
+P 7 9203 1 9201 1
 M 100 9201 10 9224 2
 M 100 9200 15 9230 2
 M 100 9200 15 9232 2
@@ -4404,7 +4524,6 @@ and !hasflag $n zrobione_ghata
   endif
   mob echoat $n {GCzujesz siê bardziej do¶wiadczony!{x
 endif
-
 ~
 #9210
 ~
@@ -4424,6 +4543,19 @@ mob echoat $n {CWidzisz jak z koñca kostura wylatuje piorun i trafia ciê w pier¶
 #0
 
 #OBJPROGSNEW
+#9203_zaloz
+prog zeby bez questa nie zalozyc
+~
+if hasflag $n zrobione_ghata
+  mob echoat $n Wsuwasz pier¶cien na palec.
+  mob echoaround $n $n wsuwa pier¶cieñ na palec.
+  obj wear
+else
+  mob echoat $n Usi³ujesz za³o¿yæ pier¶cieñ, nie mo¿esz trafiæ palcem w ¶rodek pier¶cienia.
+  mob echoaround $n $n usi³uje za³o¿yæ pier¶cieñ, nie mo¿e pocelowaæ palcem w ¶rodek pier¶cienia.
+  mob force $n drop 9203_pier¶cieñ
+endif
+~
 #0
 
 #ROOMPROGSNEW

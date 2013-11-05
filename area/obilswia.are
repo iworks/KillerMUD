@@ -100,7 +100,7 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 19702
-Name makabryczny potwór bagienny pokiereszowany bagienny_gorst boss~
+Name makabryczny pokiereszowany potwór bagienny~
 Odmiana bagiennego potwora~bagiennemu potworowi~bagiennego potwora~bagiennym potworem~bagiennym potworze~
 Short bagienny potwór~
 Long Makabryczna, pó³p³ynna masa bagna faluje tutaj niczym jaka¶ ¿ywa istota!~
@@ -137,11 +137,9 @@ Pos_def stand
 Sex male
 Wealth 0
 Form AGLb
-Parts 0
+Parts ADFOQRX
 Size giant
 Material unknown
-Comments trzeba dodac ksiege! - {RGorst{x ({CSun May 12 16:04:37 2013{x)
-~
 MobprogNew fight bagienny_kler H 8~
 MobprogNew grall bagienny_grall ABCDEFGHI 100~
 MobprogNew fight bagienny_target H 5~
@@ -294,7 +292,7 @@ Parts ABCGHIJKR
 Size small
 Material unknown
 MobprogNew fight 19706 H 15~
-Corpse 3364
+Corpse 19721
 Skin 100
 ExpMultiplier 100
 Resist 12 100
@@ -575,11 +573,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 1
 Gender 5
 Value 0 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -597,11 +595,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -611,22 +609,169 @@ znajdujesz.
 ~
 Comments ~
 Objend
+#Vnum 19702
+Name wlocznia obsydianowym~
+Odmiana w³óczni z {Dobsydianowym{x grotem~w³óczni z {Dobsydianowym{x grotem~w³óczniê z {Dobsydianowym{x grotem~w³óczni± z {Dobsydianowym{x grotem~w³óczni z {Dobsydianowym{x grotem~
+Short w³ócznia z {Dobsydianowym{x grotem~
+Descr Jaka¶ prosta, ale bardzo dobrze wykonana w³ócznia le¿y tutaj na ziemi.~
+Material ko¶æ~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 70
+LiczbaMnoga 0
+Gender 1
+Value 3 2 7 34 40 0 2
+Repair 0 0 0 0
+Weight 230
+Cost 20400
+Cond 100
+Itemdesc Ta prosta, ale mocna w³ócznia wykonana zosta³a z d³ugiej ko¶ci jakiego¶
+sporego zwierza, a do jej koñca doczepiono doskonale ociosany, obsydianowy
+grot. Obsydian jest kamieniem ostrzejszym nawet od szlifowanego diamentu co
+czyni tê broñ naprawdê gro¼n±. 
+~
+Comments bez jaj, kutwa w³ócznia która wa¿y 1.6 kg? zwiêkszam wagê. - {RRisan{x ({CWed Mar 23 16:50:35 2011{x)
+~
+Objend
+#Vnum 19704
+Name z³odziejski pancerz~
+Odmiana {Dz³odziejskiego pancerza{x~{Dz³odziejskiemu pancerzowi{x~{Dz³odziejski pancerz{x~{Dz³odziejskim pancerzem{x~{Dz³odziejskim pancerzu{x~
+Short {Dz³odziejski pancerz{x~
+Descr Precyzyjnie szyty i preparowany, z³odziejski pancerz wala siê tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0|E
+Wear AD
+Wear2Ext 0|FGHP
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 2
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 300000
+Cond 90
+Aff 1 17 -5 0 0 0
+Itemdesc {DZ³odziejski pancerz znajduj±cy siê w twoim posiadaniu wykonany zosta³ z
+trzech warstw doskonale spreparowanych i po³±czonych w jedno¶æ. Pierwsza
+warstwa to t³umi±ce uderzenia obuchowe, pikowane futro ¶nie¿nego yeti. Drug±
+warstw± jest niesamowicie lekka, mithrilowa kolczuga, a trzeci± utwardzana i
+specjalnie preparowana, mocna skóra. Ca³o¶æ tworzy kompozycjê niesamowicie
+odporn±, niekrêpuj±c± i wygodn±, a przede wszystkim nietworz±c± krzty ha³asu
+mog±cego zniszczyæ efekt zaskoczenia u ofiary. Takiego arcydzie³a móg³
+dokonaæ tylko najwybitniejszy z p³atnerskich mistrzów, a przedmiot ten jest
+bezcenny. {x 
+~
+Comments ~
+Objend
+#Vnum 19705
+Name z³odziejskie naramienniki~
+Odmiana {Dz³odziejskich naramienników{x~{Dz³odziejskim naramiennikom{x~{Dz³odziejskie naramienniki{x~{Dz³odziejskimi naramiennikami{x~{Dz³odziejskich naramiennikach{x~
+Short {Dz³odziejskie naramienniki{x~
+Descr Precyzyjnie szyte i preparowane, z³odziejskie naramienniki walaj± siê tutaj po ziemi.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0|FGHP
+Bonus 0
+Rent 100
+LiczbaMnoga 1
+Gender 3
+Value 9 9 8 10 6 0 0
+Repair 0 0 0 0
+Weight 35
+Cost 300000
+Cond 90
+Aff 1 17 -5 0 0 0
+Itemdesc {DZ³odziejskie naramienniki znajduj±ce siê w twoim posiadaniu wykonane
+zosta³y z trzech warstw doskonale spreparowanych i po³±czonych w jedno¶æ.
+Pierwsza warstwa to t³umi±ce uderzenia obuchowe, pikowane futro ¶nie¿nego
+yeti. Drug± warstw± jest niesamowicie lekka, mithrilowa kolczuga, a trzeci±
+utwardzana i specjalnie preparowana, mocna skóra. Ca³o¶æ tworzy kompozycjê
+niesamowicie odporn±, niekrêpuj±c± i wygodn±, a przede wszystkim nietworz±c±
+krzty ha³asu mog±cego zniszczyæ efekt zaskoczenia u ofiary. Takiego
+arcydzie³a móg³ dokonaæ tylko najwybitniejszy z p³atnerskich mistrzów, a
+przedmiot ten jest bezcenny. {x 
+~
+Comments ~
+Objend
+#Vnum 19706
+Name z³odziejskie nakolanniki~
+Odmiana {Dz³odziejskich nakolanników{x~{Dz³odziejskim nakolannikom{x~{Dz³odziejskie nakolanniki{x~{Dz³odziejskimi nakolannikami{x~{Dz³odziejskich nakolannikach{x~
+Short {Dz³odziejskie nakolanniki{x~
+Descr Precyzyjnie szyte i preparowane, z³odziejskie nakolanniki walaj± siê tutaj po ziemi.~
+Material drewno~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0|FGHP
+Bonus 0
+Rent 100
+LiczbaMnoga 1
+Gender 3
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 300000
+Cond 90
+Aff 1 17 -5 0 0 0
+Itemdesc {DZ³odziejskie nakolanniki znajduj±ce siê w twoim posiadaniu wykonane
+zosta³y z trzech warstw doskonale spreparowanych i po³±czonych w jedno¶æ.
+Pierwsza warstwa to t³umi±ce uderzenia obuchowe, pikowane futro ¶nie¿nego
+yeti. Drug± warstw± jest niesamowicie lekka, mithrilowa kolczuga, a trzeci±
+utwardzana i specjalnie preparowana, mocna skóra. Ca³o¶æ tworzy kompozycjê
+niesamowicie odporn±, niekrêpuj±c± i wygodn±, a przede wszystkim nietworz±c±
+krzty ha³asu mog±cego zniszczyæ efekt zaskoczenia u ofiary. Takiego
+arcydzie³a móg³ dokonaæ tylko najwybitniejszy z p³atnerskich mistrzów, a
+przedmiot ten jest bezcenny. {x 
+~
+Comments ~
+Objend
+#Vnum 19707
+Name zdobiona cinquedea~
+Odmiana zdobionej cinquedei~zdobionej cinquedei~zdobion± cinquedee~zdobion± cinquede±~zdobionej cinquedei~
+Short zdobiona cinquedea~
+Descr Piêkna, zdobiona cinquedea spoczywa tutaj na ziemi.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 40
+LiczbaMnoga 0
+Gender 3
+Value 2 3 3 34 1024 2 1
+Repair 0 0 0 0
+Weight 25
+Cost 14820
+Cond 95
+Itemdesc Solidnie wykonana i ciekawie zdobiona cinquedea na pewno doskonale
+spe³nia swoj± rolê. 
+~
+Comments ~
+Objend
 #Vnum 19708
 Name runniczny naszyjnik~
 Odmiana {Yzlotego lanczuszka{X~{Yzlotemu lancuszkowi{X~{Yzloty lancuszek{X~{Yzlotym lancuszkiem{X~{Yzlotym lancuszku{X~
 Short runniczny naszyjnik~
-Descr Runniczny, z³oty naszyjnik le¿y tutaj.~
+Descr Dupa~
 Material z³oto~
 Type jewelry
 ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 6000
 Cond 100
@@ -638,22 +783,50 @@ cudem kamien mo¿e przej¶æ smrodem w³a¶ciciela? Musi to magia jaka¶!
 ~
 Comments ~
 Objend
+#Vnum 19709
+Name sple¶nia³a szata~
+Odmiana szaty maga~szacie maga~szatê maga~szata maga~szacie maga~
+Short sple¶nia³a szata~
+Descr Dupa~
+Material jedwab~
+Type clothing
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|O
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 200
+Cond 100
+Itemdesc Masz przed sob± dziwny kawa³ek lnianego materia³u, który swojego czasu
+robi³ chyba za jakiego¶ rodzaju szatê. W ca³o¶ci pokryty jest ró¿nokolorow±
+ple¶ni± oraz grzybami, których kszta³ty i zapach przyprawiaj± o ból g³owy.
+Sama szata wygl±da jakby siê mia³a rozpa¶æ lada moment, jednak dziwnym
+trafem dalej trzyma siê w jednym kawa³kiem. Zapewne ple¶æ i grzyb dzia³aj±
+jako spoiwo. 
+~
+Comments ~
+Objend
 #Vnum 19710
 Name naszyjnik z sercem kruka~
 Odmiana {Yzlotego lanczuszka{X~{Yzlotemu lancuszkowi{X~{Yzloty lancuszek{X~{Yzlotym lancuszkiem{X~{Yzlotym lancuszku{X~
 Short naszyjnik z sercem kruka~
-Descr Dzwiny, z³oty ³añcuszek wala siê tutaj.~
+Descr Dupa~
 Material z³oto~
 Type jewelry
 ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 6000
 Cond 100
@@ -667,6 +840,121 @@ historia jest prawdziwa.
 ~
 Comments ~
 Objend
+#Vnum 19711
+Name wyszczerbiony pier¶cieñ~
+Odmiana {Cpier¶cienia bogini{x~{Cpier¶cieniowi bogini{x~{Cpier¶cieñ bogini{x~{Cpier¶cieniem bogini{x~{Cpier¶cieniu bogini{x~
+Short wyszczerbiony pier¶cieñ~
+Descr £adny, szklany pier¶cieñ le¿y tutaj na ziemi.~
+Material szk³o~
+Type jewelry
+ExtraExt 0|NUe
+Wear AB
+Wear2Ext 0
+Bonus 0
+Rent 80
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 27000
+Cond 100
+Itemdesc Ten metalowy okr±g jest najprawdopodobniej wykonany ze srebra i kiedy¶
+by³ warto¶ciowym przedmiotem. Dostrzegalne s± na nim miejsca po szlachetnych
+kamieniach i wytarte inicja³y pierwszego w³a¶ciciela. W aktualnym stanie
+jest on jednak jedynie pami±tk± zamierzch³ych czasów, która przypomina, jak
+dobrze by³o kiedy¶. Pier¶cieñ jest ca³y wyszczerbiony, ¶lady wygl±daj± jakby
+kto¶ uderza³ w niego miniaturowym mieczem. Bardzo dziwne zjawisko. 
+~
+Comments ~
+Objend
+#Vnum 19712
+Name szorstkie rêkawice~
+Odmiana skorzanych rekawic~skorzanym rekawicom~skórzane rêkawice~skorzanymi rekawicami~skorzanych rekawicach~
+Short szorstkie rêkawice~
+Descr Wygodne, skórzane rêkawice le¿± tutaj.~
+Material skóra~
+Type armor
+ExtraExt 1|C
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 9 9 8 10 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 180
+Cond 100
+Itemdesc Te ochraniacze na rêce zosta³y zrobione ze zwierzêcych skór. S± bardzo
+niewygodne, poniewa¿ niæ, któr± zszyto poszczególne kawa³ki wchodzi do
+¶rodka i rozcina skórê palców. Samo wykonanie równie¿ pozostawia wiele do
+¿yczenia. Czê¶ci s± nierówne, palce nie maj± odpowiednich d³ugo¶ci, a na
+dodatek w niektórych miejscach s± rêce s± niczym niezabezpieczone ze wzglêdu
+na dziury. Rêkawice te s± noszone tylko z konieczno¶ci. 
+~
+Comments ~
+Objend
+#Vnum 19713
+Name sztylet obsydianowym ostrzem~
+Odmiana zdobionej cinquedei~zdobionej cinquedei~zdobion± cinquedee~zdobion± cinquede±~zdobionej cinquedei~
+Short sztylet z {Dobsydianowym{x ostrzem~
+Descr Piêkna, zdobiona cinquedea spoczywa tutaj na ziemi.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 40
+LiczbaMnoga 0
+Gender 3
+Value 2 3 3 34 1024 2 1
+Repair 0 0 0 0
+Weight 25
+Cost 14820
+Cond 95
+Itemdesc Kiedy patrzysz na ten sztylet, od razu dostrzegasz ca³y kunszt i serce,
+jaki w³o¿y³ w jej wykonanie twórca, mimo prymitywnych materia³ów. Drzewiec z
+jesionowego drewna, wyg³adzony przez lata u¿ywania, kusi swoj± g³adko¶ci±. Z
+kolei ostrze, wykonane z czarnego obsydianu, sprawia wra¿enie niezwykle
+ostrego. Kiedy na niego patrzysz, wydaje ci siê ¿e srebrzyste niteczki
+zatopione w czerni kamienia migotaj± i poruszaj± siê. Mrugaj±c oczami,
+dostrzegasz wokó³ ostrza mleczn± po¶wiatê. Czuj±c jak dreszcze przebiegaj±
+ci po krzy¿u, przypominasz sobie historiê o plemionach ludzi, wyrywaj±cych
+serca z klatki piersiowej przy u¿yciu podobnych narzêdzi. 
+~
+Comments ~
+Objend
+#Vnum 19714
+Name d³ugi totem~
+Odmiana okutej maczugi~okutej maczudze~okut± maczugê~okut± maczug±~okutej maczudze~
+Short d³ugi totem~
+Descr TWOHANDED~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 3
+Value 4 3 4 7 0 -2 0
+Repair 0 0 0 0
+Weight 140
+Cost 3000
+Cond 45
+Itemdesc Ten d³ugi, nieforemny kawa³ek drewna zosta³ mistrzowsk± rêk± uformowany
+na kszta³t g³owy rosomaka, któremu rze¼biarz nada³ gro¼ny, wrêcz
+przera¿aj±cy wyraz twarzy. D³uga na pó³torej metra rêkoje¶æ rekompensuje
+trochê nik³± u¿yteczno¶æ bojow± tego rytualnego przedmiotu, który wydaje siê
+byæ bardziej religijnym symbolem ni¿ broni±. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 19715
 Name cynowa bransoleta~
 Odmiana misternie zdobionej bransoletki~misternie zdobionej bransoletce~misternie zdobiona bransoletke~misternie zdobiona bransoletka~misternie zdobionej bransoletce~
@@ -678,17 +966,14 @@ ExtraExt 0|GN
 Wear AM
 Wear2Ext 0|O
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 7
 Cost 51000
 Cond 100
-Aff 1 14 5 0 0 0
-Aff 1 13 5 0 0 0
-Aff 1 12 4 5 0 0
 Itemdesc Trudno ci uwierzyæ, ¿e ta bransoleta zosta³a wykonana przez osobnika z
 dzikiego plemienia. Jest piêkna i finezyjnie zrobiona, mimo ¿e twórca mia³
 oprócz prymitywnych narzêdzi jedynie swój talent. Ornamenty jej, choæ
@@ -712,11 +997,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 6000
 Cond 100
@@ -726,8 +1011,77 @@ to jak zwyk³a ozdoba prymitywnych ludzi, jednak przygl±daj±c siê uwa¿niej,
 dostrzegasz, ¿e pióra zosta³y czym¶ pofarbowane. Bior±c pod uwagê osobliwo¶æ
 tego naszyjnika, nie wykluczone, ¿e barwnikiem by³a w tym przypadku w jaki¶
 sposób zakonserwowana krew. 
- 
 ~
+Comments ~
+Objend
+#Vnum 19717
+Name d³uga maczuga~
+Odmiana okutej maczugi~okutej maczudze~okut± maczugê~okut± maczug±~okutej maczudze~
+Short d³uga maczuga~
+Descr TWOHANDED~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 3
+Value 4 3 4 7 0 -2 0
+Repair 0 0 0 0
+Weight 140
+Cost 3000
+Cond 45
+Itemdesc Patrz±c na drewnian± maczugê ³atwo dochodzisz do wniosku, i¿ nie jest to
+broñ idealna. Ciê¿ka i nieporêczna, gro¼n± broni± mo¿e zostaæ tylko w ³apach
+ogromnego osi³ka, który nie zastanawia siê czy uderzyæ, tylko jak mocno.
+Dolna czê¶æ owiniêta poszarpan± szmat± ma s³u¿yæ za rêkoje¶æ, ciekawe tylko
+jak to jest w praktyce. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 19719
+Name jednorêczny miecz treningowy~
+Odmiana miecza~mieczowi~miecz~mieczem~mieczu~
+Short jednorêczny miecz treningowy~
+Descr Jednorêczny miecz treningowy wykonany z kamienia.~
+Material kamieñ~
+Type weapon
+ExtraExt 0|N
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 2
+Value 1 1 4 1 1024 0 -1
+Repair 0 0 0 0
+Weight 156
+Cost 1800
+Cond 75
+Comments ~
+Objend
+#Vnum 19721
+Name resztki manekina~
+Odmiana resztek~resztkom~resztki~resztkami~resztkach~
+Short resztki manekina~
+Descr Resztki szmat, kawa³ków drewna i ¿elaznych p³ytek walaj± siê po pod³odze.~
+Material drewno~
+Type npc_corpse
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 250
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 890
+Cost 300
+Cond 75
 Comments ~
 Objend
 #Vnum 19748
@@ -741,11 +1095,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 5 700 1168 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 10000
 Cond 100
@@ -766,11 +1120,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 4 999 1168 0 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 698
 Cost 1
 Cond 75
@@ -2650,14 +3004,14 @@ O 100 19700 0 19702
 O 100 19700 0 19703
 O 100 19700 0 19704
 M 100 19701 2 19705 2
-E 100 3300 0 16
+E 100 19702 0 16
 O 100 19700 0 19707
 O 100 19700 0 19708
 O 100 19700 0 19709
 O 100 19701 0 19710
 M 100 19700 1 19710 1
 M 100 19701 2 19713 2
-E 100 3300 0 16
+E 100 19702 0 16
 O 100 19750 0 19720
 S
 
@@ -2753,23 +3107,6 @@ mob oload random 4
 mob oload random 6
 mob oload random 6
 mob oload random 4
-mob oload random 7
-mob oload gem 8
-mob oload gem 8
-mob oload gem 8
-mob oload gem 8
-mob oload gem 8
-mob oload gem 8
-mob oload gem 8
-mob oload wrist 7
-mob oload wrist 7
-mob oload ear 7
-mob oload ear 7
-mob oload ear 7
-mob oload random 7
-mob oload random 7
-mob oload random 7
-mob oload random 7
 mob oload random 7
 if rand 90
   if canloadarte 50871

@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 2002-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 2002-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Skrzetnicki Krzysztof (tener@tenet.pl                ) [Tener     ] *
@@ -24,8 +24,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: artefact.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/artefact.c $
+ * $Id: artefact.c 11032 2012-02-25 11:25:45Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/artefact.c $
  */
 #include <stdio.h>
 #include <string.h>
@@ -1016,7 +1016,7 @@ void get_money_from_rent( CHAR_DATA* ch, OBJ_DATA* obj )
   return;
 }
 
-void remove_artefact_remote( char *name, unsigned int vnum )
+void remove_artefact_remote( char *name, ush_int vnum )
 {
 	CHAR_DATA * ch;
 	OBJ_DATA *obj;
@@ -1091,7 +1091,7 @@ typedef struct artefact_storer ARTEFACT_STORER;
 struct artefact_storer
 {
 	char *name;
-	unsigned int vnum;
+	ush_int vnum;
 	ARTEFACT_STORER *next;
 	bool valid;
 };

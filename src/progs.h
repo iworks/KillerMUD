@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -29,8 +29,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: progs.h 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/progs.h $
+ * $Id: progs.h 10781 2011-12-23 16:43:52Z raszer $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/progs.h $
  *
  */
 //rozne define
@@ -361,13 +361,13 @@ count_people_room	( CHAR_DATA *mob, int iFlag );
 int
 get_order			( CHAR_DATA *ch );
 bool
-has_item			( CHAR_DATA *ch, unsigned int vnum, sh_int item_type, bool fWear );
+has_item			( CHAR_DATA *ch, ush_int vnum, sh_int item_type, bool fWear );
 bool
-carries_item		( CHAR_DATA *ch, unsigned int vnum, sh_int item_type );
+carries_item		( CHAR_DATA *ch, ush_int vnum, sh_int item_type );
 bool
-get_mob_vnum_room	( CHAR_DATA *ch, unsigned int vnum );
+get_mob_vnum_room	( CHAR_DATA *ch, ush_int vnum );
 bool
-get_obj_vnum_room	( CHAR_DATA *ch, unsigned int vnum );
+get_obj_vnum_room	( CHAR_DATA *ch, ush_int vnum );
 PROG_ENV *
 new_prog_env		( void );
 MEMDAT *
@@ -603,7 +603,6 @@ DECLARE_VAR_CMD_FUN( vc_obj_first_carried );
 DECLARE_VAR_CMD_FUN( vc_obj_first_in_room );
 DECLARE_VAR_CMD_FUN( vc_obj_in_room_by_name );
 DECLARE_VAR_CMD_FUN( vc_obj_in_room_by_vnum );
-DECLARE_VAR_CMD_FUN( vc_obj_in_obj_by_vnum );
 DECLARE_VAR_CMD_FUN( vc_obj_char_eq_slot );
 DECLARE_VAR_CMD_FUN( vc_str_concat );
 DECLARE_VAR_CMD_FUN( vc_str_substr );

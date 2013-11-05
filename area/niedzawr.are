@@ -13,36 +13,31 @@ End
 
 #MOBILES
 #Vnum 2871
-Name G³odna br±zowa nied¼wiedzica~
-Odmiana g³odnej nied¼wiedzicy~g³odnej nied¼wiedzicy~g³odn± nied¼wiedzicê~g³odn± nied¼wiedzic±~g³odnej nied¼wiedzicy~
-Short g³odna nied¼wiedzica~
-Long £azi tu br±zowa nied¼wiedzica szukaj±c czego¶ do jedzenia.~
-Descr Jest to doros³a nied¼wiedzica o br±zowym futrze. Przygotowuje siê teraz
-do snu zimowego, dlatego te¿ nie dziwi fakt, ¿e mimo posiadania ogromnych
-zwa³ów t³uszczu ci±gle szuka jedzenia. Ma m±dre, br±zowe oczy, którymi
-potrafi wy¶ledziæ nawet ma³e istoty. W nocy za¶ kieruje siê g³ównie wêchem,
-co bywa u niej równie skuteczne jak wzrok. 
-~
+Name niedzwiedz niedziwdzica potezna~
+Odmiana {yniedzwiedzicy{x~{yniedzwiedzicy{x~{yniedzwiedzice{x~{yniedzwiedzica{x~{yniedzwiedzicy{x~
+Short {yniedzwiedzica{x~
+Long Potezna niedzwiedzica dyszy glosno.~
+Descr ~
 Race nied¼wied¼~
-ActExt 0|A
-Affected 544 0 0 0
-AffectedExt 0|FJ
+ActExt 0|ABFT
+Affected 0 0 0 0
+AffectedExt 0
 Align 0
 Group 0
-Lang A
-Speaks 0
-Level 11
-Hitroll 1
-HP 11d6+220
-Damage 1d3+5
+Lang J
+Speaks 9
+Level 10
+Hitroll 0
+HP 10d6+200
+Damage 2d4+1
 Dammagic 0
 Weaponbonus 1
 Damflags 0
-Attack gryzienie
-XAC 5 5 5 5
-Stats 120 108 96 120 120 90 108
-Off CD
-OffExt 0|CD
+Attack uderzenie
+XAC 10 10 10 10
+Stats 102 48 48 48 102 78 78
+Off CDEO
+OffExt 0|CDEO
 Pos_start stand
 Pos_def stand
 Sex female
@@ -96,8 +91,8 @@ Name druid sajuk~
 Odmiana druida Sajuka~druidowi Sajukowi~druida Sajuka~druidem Sajukiem~druidzie Sajuku~
 Short druid Sajuk~
 Long Druid Sajuk stoi tutaj.~
-Descr Druid Sajuk jest ju¿ starym elfem, który jak mówi± opowie¶ci, zwiedzi³
-ca³y stary kontynent. Niegdy¶ by³ jednym z najpotê¿niejszych elfów po tej
+Descr Druid Sajuk jest, ju¿ starym elfem który, jak mówi± opowie¶ci, zwiedzi³
+ca³y znany ¶wiat. Niegyd¶ by³ jednym z najpotê¿niejszych elfów po tej
 stronie Oceanu, lecz wiek robi swoje. Mimo swojej wiedzy i inteligencji nie
 pokona³ by teraz bandy rzezimieszków. Przemierza kontynent, spaceruj±c po
 lasach zjanduj±cych siê daleko na zimnej pó³nocy a¿ po puszcze na pó³wyspie
@@ -131,9 +126,8 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
-MobprogNew onload 2873 ABCDEFGHI 100~
-Spells 91 297 259 26
-Spells 240 50 273 0
+Spells 91 297 259 272
+Spells 240 0 0 0
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -153,11 +147,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 200
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 60000
 Cond 75
@@ -650,13 +644,7 @@ S
 
 #MOBPROGSNEW
 #2873
-Ubranie Druida.
 ~
-mob equip 2873
-mob equip 4415
-mob oload gem 4
-mob oload gem 4
-mob oload ear 5
 ~
 #0
 

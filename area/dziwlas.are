@@ -434,6 +434,46 @@ Material unknown
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 5640
+Name Unused~
+Odmiana Podziemnego wilka~Podziemnemu wilkowi~Podziemnego wilka~Podziemnym wilkiem~Podziemny Wilku~
+Short Podziemny wilk~
+Long Podziemny wilk, wielkie straszne zwierze czeka tutaj na cos.~
+Descr Podziemne Wilki to krzyzowka koni z wilkiem, sa straszne, wielkie i maja
+nieprzyjemny oddech . W latach pokoju nie sa uzywane przez gnolle tak czesto
+jak w latach Wojny ale dalej chetnie sa przez nich uzywane. 
+~
+Race wilk~
+ActExt 0|ABD
+Affected 33554432 0 0 0
+AffectedExt 0|Z
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 5
+Hitroll 0
+HP 3d5+80
+Damage 2d4+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 78 78 78 78 102 78 78
+Off CIR
+OffExt 0|CIR
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFJKQRSV
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 5641
 Name straznik gnoll~
 Odmiana straznika gnolla~straznikowi gnollowi~straznika gnolla~straznikiem gnollem~strazniku gnollu~
@@ -460,7 +500,7 @@ Weaponbonus 0
 Damflags 0
 Attack walniecie
 XAC 8 8 8 8
-Stats 120 100 150 80 80 80 80
+Stats 96 108 150 84 84 78 78
 Off ILR
 OffExt 0|ILR
 Pos_start stand
@@ -560,6 +600,87 @@ Spells 93 161 0 0
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 5648
+Name unsued~
+Odmiana Lidia~Lidii~Lidia~Lidia~Lidia~
+Short Lidia~
+Long Stoi tu piekna Drowia nauczycielka magii, Lidia sie zwie.~
+Descr Ta drowka poswiecila sie uczac powieszchniakow sztuki walki z drowami,
+gdyz wie ze drowy knuja wielki spisek zeby przejac wreszcie upragniona
+powierzchnie. 
+~
+Race drow~
+ActExt 0|AER
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang AB
+Speaks 1
+Level 1
+Hitroll 0
+HP 10d5+0
+Damage 1d2+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 5 5 5 5
+Stats 78 78 78 78 78 78 78
+Off FK
+OffExt 0|FK
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKLR
+Size medium
+Material unknown
+Spells 94 182 61 100
+Skin 100
+ExpMultiplier 100
+Resist 4 35
+Mobend
+#Vnum 5649
+Name unused~
+Odmiana Niewolnicy Roskoszy~Niewolnice Rozkoszy~Niewolnicy Rozkoszy~Niewolnica Rozkoszy~Niewolnicy Rozkoszy~
+Short Niewolnica Roszkoszy~
+Long Stoi tu Niewolnica Rozkoszy...~
+Descr Niewolnica Alavandera stoi tutaj i wpatruje sie w... Ekhm patrzy sie a
+ciebie 
+~
+Race elf~
+ActExt 0|AD
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 1
+Hitroll 0
+HP 10d10+1000
+Damage 5d10+4
+Dammagic 0
+Weaponbonus 4
+Damflags 0
+Attack none
+XAC 0 0 0 0
+Stats 18 18 18 144 102 78 78
+Off DEFHIVa
+OffExt 0|DEFHIVa
+Pos_start stand
+Pos_def stand
+Sex female
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 0
 
 
@@ -576,15 +697,36 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
 Itemdesc ~
+Comments ~
+Objend
+#Vnum 5631
+Name pordzewialy zardzewialy korbacz~
+Odmiana korbacza~korbaczowi~korbacz~korbaczem~korbaczu~
+Short zardzewialy korbacz~
+Descr Ciezki, zardzewialy korbacz lezy tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|ACIJ
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 6 2 4 7 1024 -1 0
+Repair 0 0 0 0
+Weight 60
+Cost 360
+Cond 75
 Comments ~
 Objend
 #Vnum 5632
@@ -593,20 +735,111 @@ Odmiana lachy~lachom~lacha~lachami~lachach~
 Short lachy~
 Descr Na ziemi leza w nieladzie lachy.~
 Material skóra~
-Type clothing
+Type armor
 ExtraExt 0
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 0 0
+Value 10 10 10 10 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 60
 Cond 75
 Itemdesc Lachy - ni to zbroja, ni to ubranie 
+~
+Comments ~
+Objend
+#Vnum 5633
+Name skorzana czapka~
+Odmiana skorzanej czapki~skorzanej czapce~skorzana czapke~skorzana czapke~skorzanej czapce~
+Short skorzana czapka~
+Descr Jakas obskurna skorzana czapka lezy tu.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 10 9 10 1 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 5634
+Name przegnile trzewiki~
+Odmiana przegnilych trzewikow~przegnilym trzewikom~przegnile trzewiki~przegnilymi trzewikami~przegnilych trzewikach~
+Short przegnile trzewiki~
+Descr Na ziemi walaja sie olbrzymie, przegnile trzewiki z wieloma dziurami.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 9 9 9 10 1 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 60
+Cond 75
+Itemdesc Przegnile trzewiki z wieloma dziurami byly najprawdopodobniej noszone
+przez duze, wlochate istoty. 
+~
+Comments ~
+Objend
+#Vnum 5635
+Name poszczerbiona halabarda~
+Odmiana poszczerbionej halabardy~poszczerbionej halabardzie~poszczerbiona halabarde~poszczerbiona halabarda~poszczerbionej halabardzie~
+Short {Wpo{wsz{Wcz{wer{Wbi{won{Wa h{wal{Wab{war{Wda{x~
+Descr Poszczerbiona halabarda o dlugim drzewcu lezy tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 8 2 5 1 32 0 0
+Repair 0 0 0 0
+Weight 105
+Cost 600
+Cond 100
+Comments ~
+Objend
+#Vnum 5636
+Name plomienisty miecz dwureczny flamberg~
+Odmiana {Ypl{Rom{Yie{Rni{Yst{Reg{Yo{x flamberga~{Ypl{Rom{Yie{Rni{Yst{Rem{Yu{x flambergowi~{Ypl{Rom{Yie{Rni{Yst{Ry{x flamberg~{Ypl{Rom{Yie{Rni{Yst{Rym{x flambergiem~{Ypl{Rom{Yie{Rni{Yst{Rym{x flambergu~
+Short {Ypl{Rom{Yie{Rni{Yst{Ry{x flamberg~
+Descr Wspanialy miecz dwureczny o plomienistym ostrzu wala sie tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0|AG
+Wear AN
+Wear2Ext 0|FHIJ
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 1 2 7 21 40 1 1
+Repair 0 0 0 0
+Weight 160
+Cost 6600
+Cond 100
+Itemdesc Ten wielki dwureczny miecz o {Ypl{Rom{Yie{Rnn{Yym{x ostrzu zostal zapewne
+zrobiony przy uzyciu magii, gdyz zaden kowal nie umialby zrobic tak pieknego
+ognistego ostrza. 
 ~
 Comments ~
 Objend
@@ -621,11 +854,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 4
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 2700
 Cond 100
@@ -642,17 +875,17 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 10 10000000 8 20 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
-Objprog input 5631 wyciagnij rece do ogniska~
-Objprog input 5631 wyciagnij rece~
 Objprog input 5630 przeskocz ognisko~
+Objprog input 5631 wyciagnij rece~
+Objprog input 5631 wyciagnij rece do ogniska~
 Itemdesc To niewielkie ognisko przyciaga twoja uwage malymi rozmiarami a zarazem
 kunsztownym i dokladnym ulozeniem drzewa opalowego pochodzacego z
 podziemnego lasu, w którym sie znajdujesz. Po chwili nachodzi cie chec
@@ -672,15 +905,83 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 1 48 0 1 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
 Objprog get 5632 100~
+Comments ~
+Objend
+#Vnum 5640
+Name pika dluga zakrwawiona~
+Odmiana d³ugiej piki~d³ugiej pice~d³ug± pikê~d³ug± pik±~d³ugiej pice~
+Short d³uga pika~
+Descr Dluga zakrawawiona pika poniewiera sie tu.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|ABCIJ
+Bonus 0
+Rent 6
+LiczbaMnoga 0
+Gender 0
+Value 3 2 6 2 0 0 -1
+Repair 0 0 0 0
+Weight 110
+Cost 2100
+Cond 75
+Itemdesc Do¶æ d³ugie, lekko zakrzywione drzewce z wypolerowanego drewna,
+zwieñczone kawa³kiem paskudnie wygl±daj±cego ¿ela¼ca, z jednej strony
+wyklepanego w ostry szpikulec, a z drugiej posiadaj±cego niewielkie, zadarte
+zadziory. 
+~
+Comments ~
+Objend
+#Vnum 5641
+Name spodnie dziurawe~
+Odmiana dziurawych spodni~dziurawym spodniom~dziurawe spodnie~dziurawymi spodniami~dziurawych spodniach~
+Short dziurawe spodnie~
+Descr Dziurwe spodnie leza tu w kurzu.~
+Material filc~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 5642
+Name szpiczasty kapelusz~
+Odmiana szpiczastego kapelusza~null~szpiczasty kapelusz~szpiczastym kapeluszem~null~
+Short szpiczasty kapelusz~
+Descr Szpiczasty kapelusz porzucony przez kogo¶ niedawno, kurzy siê na ziemi.~
+Material len~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0|O
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 6000
+Cond 100
 Comments ~
 Objend
 #Vnum 5646
@@ -694,16 +995,79 @@ ExtraExt 0|Dd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 120
 Cost 0
 Cond 100
 Itemdesc Oderwana od reszty cia³a g³owa pokonanego Umbrowego Kolosa. 
 ~
+Comments ~
+Objend
+#Vnum 5647
+Name gruba sekata laska~
+Odmiana sekatej laski~sekatej lasce~sekata laske~sekata laska~sekatej lasce~
+Short sekata laska~
+Descr Gruba sekata laska.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 9 3 3 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 600
+Cond 80
+Comments ~
+Objend
+#Vnum 5648
+Name szary kaftan~
+Odmiana szarego kaftana~szaremu kaftanowi~szary kaftan~szarym kaftanem~szarym kaftanie~
+Short szary kaftan~
+Descr Szary kaftan.~
+Material p³ótno~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 9 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 60
+Cond 100
+Comments ~
+Objend
+#Vnum 5649
+Name material szary kaptur~
+Odmiana szarego kaptura~szaremu kapturowi~szary kaptur~szarym kapturem~szarym kapturze~
+Short szary kaptur~
+Descr Kawalek szarego materialu wala sie tutaj.~
+Material len~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 100
 Comments ~
 Objend
 #Vnum 0
@@ -1390,14 +1754,14 @@ zblizasz sie do powierzchni.
 ~
 FlagsExt 0|ACD
 Sector 14
-ExitExt 2
+ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 5648
 ExitExtEnd
-Exit 2
+Exit 1
 ~
 ~
 0 0 5648
@@ -1424,17 +1788,6 @@ niewielka chata.
 ~
 FlagsExt 0|D
 Sector 14
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 5647
-ExitExtEnd
-Exit 0
-~
-~
-0 0 5647
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1446,6 +1799,17 @@ Exit 2
 ~
 ~
 3 0 5649
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5647
+ExitExtEnd
+Exit 3
+~
+~
+0 0 5647
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1515,11 +1879,11 @@ S
 #MOBPROGSNEW
 #5630
 ~
-mob equip self 3097
+mob equip self 5631
 mob equip self 5632
-mob equip self 3034
-mob equip self 4418
-mob equip self 4409
+mob equip self 5633
+mob equip self 5634
+mob equip self 5641
 if rand 50
 mob oload gem 1
 else
@@ -1530,28 +1894,28 @@ endif
 ~
 #5631
 ~
-mob equip self 3034
-mob equip self 4418
-mob equip self 3149
-mob equip self 4369
-mob equip self 4409
+mob equip self 5633
+mob equip self 5634
+mob equip self 5635
+mob equip self 3379
+mob equip self 5641
 ~
 #5632
 ~
-mob equip self 3034
-mob equip self 4418
+mob equip self 5633
+mob equip self 5634
 mob equip self 5637
-mob equip self 4369
-mob equip self 4409
+mob equip self 3379
+mob equip self 5641
 mob addgroup 5641
 mob addgroup 5641
 if rand 90
   mob oload wrist 1 w
 endif
 if rand 99
-  mob equip self 3160
+  mob equip self 5835
 else
-  mob equip self 3128
+  mob equip self 5636
 endif
 ~
 #5633
@@ -1674,16 +2038,16 @@ endif
 ~
 #5642
 ~
-mob equip self 3034
-mob equip self 4418
-mob equip self 4369
-mob equip self 3300
+mob equip self 5633
+mob equip self 5634
+mob equip self 3379
+mob equip self 5640
 ~
 #5645
 ~
-mob equip self 3164
-mob equip self 3017
-mob equip self 3033
+mob equip self 5647
+mob equip self 5648
+mob equip self 5649
 ~
 #5647
 ~

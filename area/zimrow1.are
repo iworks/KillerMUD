@@ -164,11 +164,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 31073
 Cost 1
 Cond 75
@@ -190,17 +190,67 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
 Itemdesc Jest to szkielet jakiego¶ du¿ego zwierzêcia, mo¿e konia albo czego¶
 takiego. Trudno jest siê domy¶liæ co to by³o, bo szkieletowi brakuje g³owy i
 kilku wa¿niejszych ko¶ci. 
+~
+Comments ~
+Objend
+#Vnum 42518
+Name szkielet cz³owieka~
+Odmiana szkieletu cz³owieka~szkieletowi cz³owieka~szkielet cz³owieka~szkieletem cz³owieka~szkielecie cz³owieka~
+Short szkielet cz³owieka~
+Descr Szkielet jakiego¶ cz³owieka, le¿y tutaj.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Jest to szkielet jakiego¶ nieszczê¶nika, który trafi³ na lodowego robala.
+Zosta³ przez niego rozszarpany i pos³u¿y³ jako pokarm jego m³odym. 
+~
+Comments ~
+Objend
+#Vnum 42519
+Name lodowy sztylet~
+Odmiana {Clodowego sztyletu{x~{Clodowemu sztyletowi{x~{Clodowy sztylet{x~{Clodowym sztyletem{x~{Clodowym sztylecie{x~
+Short {Clodowy sztylet{x~
+Descr Sztylet od którego bije jaki¶ ch³ód, le¿y tutaj.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0|G
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 50
+LiczbaMnoga 0
+Gender 0
+Value 2 2 4 34 2 1 1
+Repair 0 0 0 0
+Weight 40
+Cost 12000
+Cond 100
+Itemdesc Jest to sztylet wykonany z doskona³ej stali. Nie ró¿ni siê niczym od
+innych sztyletów poza tym, ¿e bije od niego niesamowity ch³ód. Mo¿na by
+rzec, ¿e nawet najgor±tszy ogieñ nie rozgrzeje tego sztyletu do czerwono¶ci.
+Zaiste ciekawa to broñ. 
 ~
 Comments ~
 Objend
@@ -5064,16 +5114,11 @@ M 100 42567 5 42536 1
 O 100 42516 0 42546
 O 100 3732 0 42546
 M 100 42567 5 42553 1
-M 100 40885 1 42559 1
-E 100 3017 0 5
-E 100 3050 0 7
-E 100 3002 0 8
-E 100 3128 0 16
 M 100 42565 1 42566 1
 O 100 42517 0 42584
 M 100 42566 2 42584 2
-O 100 3369 0 42584
-O 20 3157 0 42584
+O 100 42518 0 42584
+O 20 42519 0 42584
 M 100 42567 5 42589 1
 M 100 42567 5 42601 1
 S

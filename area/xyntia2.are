@@ -386,9 +386,9 @@ ExpMultiplier 100
 Mobend
 #Vnum 6436
 Name stary mnich Vereia~
-Odmiana mnicha Verei~mnichowi Verei~mnicha Vereia~mnichem Verei±~mnichu Verei~
-Short mnich Verei~
-Long Stary mnich Verei czyta jak±¶ ksiêgê.~
+Odmiana mnicha Vereia~mnichowi Vereiowi~mnicha Vereia~mnichem Vereiom~mnichu Verei~
+Short mnich Vereia~
+Long Stary mnich Vereia czyta jak±¶ ksiêgê.~
 Descr Stary mnich Verei nie zajmuje siê w ¦wi±tyni niczym szczególnym. Jego
 wiek nie pozwala mu na spe³nianie wa¿nych funkcji. Lecz ze wzglêdu na jego
 wcze¶niejsze liczne zas³ugi pozwolono mu tutaj zostaæ i zaj±æ siê badaniem
@@ -424,7 +424,6 @@ Parts ABCDEFGHIJKR
 Size medium
 Material unknown
 Spells 149 90 5 48
-Spells 71 137 30 0
 Skin 100
 ExpMultiplier 100
 Resist 4 10
@@ -1132,14 +1131,36 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 30
 Cond 100
+Comments ~
+Objend
+#Vnum 6401
+Name butelka woda ognista~
+Odmiana butelki wody {Ro{rg{Rn{ri{Rs{rt{Re{rj{x~butelce wody {Ro{rg{Rn{ri{Rs{rt{Re{rj{x~butelkê wody {Ro{rg{Rn{ri{Rs{rt{R±{x~butelk± wody {Ro{rg{Rn{ri{Rs{rt{Re{rj{x~butelce wody {Ro{rg{Rn{ri{Rs{rt{Re{rj{x~
+Short butelka wody {Ro{rg{Rn{ri{Rs{rt{Re{rj{x~
+Descr Le¿y tutaj butelka wody {Ro{rg{Rn{ri{Rs{rt{Re{rj{x, która na pewno zaspokoi twoje pragnienie.~
+Material szk³o~
+Type drink
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 18 18 5 0 3331 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 10
+Cond 100
+Identdesc ~
 Comments ~
 Objend
 #Vnum 6402
@@ -1153,11 +1174,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 0
 Cond 100
@@ -1179,15 +1200,63 @@ ExtraExt 0
 Wear AH
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 1
 Gender 0
 Value 100 100 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 100
 Cond 100
 Objprog consume 6403 100~
+Comments ~
+Objend
+#Vnum 6404
+Name stolik stol~
+Odmiana {gstolika{x~{gstolikowi{x~{gstolik{x~{gstolikiem{x~{gstoliku{x~
+Short {gstolik{x~
+Descr Kunsztowny {ystolik{x wykonany z {Gzielonych pn±czy{x.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 8194 100 0 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 6405
+Name sztylet sztylecik qsztylet~
+Odmiana {Wsrebrnego sztyletu{x~{Wsrebrnemu sztyletowi{x~{Wsrebrny sztylet{x~{Wsrebrnym sztyletem{x~{Wsrebrnym sztylecie{x~
+Short {Wsrebrny sztylecik{x~
+Descr Przepiêkny {Wsrebrny sztylecik{x le¿y w kurzu.~
+Material srebro~
+Type weapon
+ExtraExt 0|G
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 0
+Value 2 2 4 34 8 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 2400
+Cond 100
+Aff 1 26 129 -5 0 0
+Aff 1 26 124 -5 0 0
+Itemdesc Ten oto przepiêkny {Wsrebrny sztylecik{x to idealna broñ do cichego ataku na
+niczego niespodziewaj±cych siê przeciwników. Jednak jego po³yskliwe ostrze
+mo¿e w nieoczekiwany sposób zdradziæ ukrywaj±ce siê postacie. 
+~
 Comments ~
 Objend
 #Vnum 6406
@@ -1201,11 +1270,11 @@ ExtraExt 0|G
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1800
 Cond 100
@@ -1229,11 +1298,11 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 10
 Cond 100
@@ -1250,11 +1319,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1000 15 6410 400 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 0
 Cond 100
@@ -1271,11 +1340,11 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
@@ -1300,13 +1369,34 @@ ExtraExt 0|T
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 6412
+Name kolczuga ³uskowa elfia miêkka lekka wytrzyma³a~
+Odmiana kolczugi~kolczudze~kolczugê~kolczug±~kolczudze~
+Short elfia kolczuga ³uskowa~
+Descr Niezwykle miêkka i lekka, a przy tym wytrzyma³a kolczuga z ³usek elfiej roboty.~
+Material elfia stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 45
+Cost 16500
 Cond 100
 Comments ~
 Objend
@@ -1321,11 +1411,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 1
 Gender 5
 Value 0 0 0 100 100 0 0
 Repair 20 0 1 100
-Length 0
 Weight 10
 Cost 15
 Cond 75
@@ -1336,22 +1426,177 @@ zwraca te¿ obudowa, wykonana w bardzo misterny i mi³y dla oka sposób.
 ~
 Comments ~
 Objend
+#Vnum 6414
+Name kamienna studnia~
+Odmiana {Wkamiennej studni{x~{Wkamiennej studni{x~{Wkamienn± studniê{x~{Wkamienn± studni±{x~{Wkamiennej studni{x~
+Short {Wkamienna studnia{x~
+Descr Kamienna studnia z przejrzyst± wod±, która ugasi twoje pragnienie.~
+Material kamieñ~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 0
+Cond 100
+Itemdesc Wykonana z kamienia studnia posiada najczystsz± wodê w ca³ym mie¶cie.
+Sama studnia pokryta jest piêknymi p³askorze¼bami przedstawiaj±cymi sceny
+sakralne z ¿ycia elfickich bogów. 
+~
+Comments ~
+Objend
+#Vnum 6415
+Name butelka ró¿owej lemoniady lemoniada~
+Odmiana butelki {Mró¿owej lemoniady{x~butelce {Mró¿owej lemoniady{x~butelke {Mró¿owej lemoniady{x~butelka {Mró¿owej lemoniady{x~butelce {Mró¿owej lemoniady{x~
+Short butelka {Mró¿owej lemoniady{x~
+Descr Butelka pe³na przepysznie wygl±daj±cej {Mró¿owej lemoniady{x stoi przed tob±.~
+Material szk³o~
+Type drink
+ExtraExt 0|NU
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 18 18 6 0 3331 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 2
+Cond 100
+Itemdesc Butelka pe³na smakowitego p³ynu znanego jako ró¿owa lemoniada. Mniam!
+~
+Comments ~
+Objend
+#Vnum 6416
+Name szklanka wody ¼ródlanej woda~
+Odmiana szklanki {Bwody ¼ródlanej{x~szklance {Bwody ¼ródlanej{x~szklankê {Bwody ¼ródlanej{x~szklank± {Bwody ¼ródlanej{x~szklanka {Bwody ¼ródlanej{x~
+Short szklanka {Bwody ¼ródlanej{x~
+Descr Szklanka pe³na krystalicznie czystej {Bwody ¼ródlanej{x.~
+Material szk³o~
+Type drink
+ExtraExt 0|NU
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 4 4 0 0 3333 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 1
+Cond 100
+Itemdesc Ta szklanka wype³niona jest po krawêd¼ przejrzyst±, krystalicznie czyst±
+wod± ¼ródlan± uzyskiwan± z najlepszych ¼róde³ u szczytu ¦wiêtej Góry. 
+~
+Comments ~
+Objend
+#Vnum 6417
+Name ma³y drewniany stolik stó³~
+Odmiana {yma³ego drewnianego stolika{x~{yma³emu drewnianemu stolikowi{x~{yma³y drewniany stolik{x~{yma³ym drewnianym stolikiem{x~{yma³ym drewnianym stoliku{x~
+Short {yma³y drewniany stolik{x~
+Descr Stoi tu niewielkich rozmiarów {ydrewniany stolik{x.~
+Material drewno~
+Type furniture
+ExtraExt 0|O
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 5 -1 4680 105 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 100
+Cond 100
+Comments ~
+Objend
+#Vnum 6418
+Name d³ugi sêkaty kij~
+Odmiana {Dsêkatego kija{x~{Dsêkatemu kijowi{x~{Dsêkaty kij{x~{Dsêkatym kijem{x~{Dsêkatym kiju{x~
+Short {Dsêkaty kij{x~
+Descr D³ugi, drewniany, {Dsêkaty kij{x wala siê tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0|d
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 9 2 4 0 0 4 -1
+Repair 0 0 0 0
+Weight 20
+Cost 24000
+Cond 100
+Extradesc napis~
+Odczytujesz blady {Dnapis{x znajduj±cy siê na lasce:
+ 
+Sêkaty kij przesi±kniêty antymagi± prosto ze sk³adu Larreny.
+~
+Itemdesc Ta d³uga laska zosta³a wykonana z bukowego drewna. Jednak ca³a pokryta
+jest szpec±cymi sêkami. Nie wiedzieæ czemu, to w³a¶nie te sêki nada³y jej
+magicznych w³a¶ciwo¶ci. Na kiju zauwa¿asz blady {Dnapis{x. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 6419
+Name b³êkitna laska~
+Odmiana {Cb³êkitnej laski{x~{Cb³êkitnej lasce{x~{Cb³êkitn± laskê{x~{Cb³êkitn± lask±{x~{Cb³êkitnej lasce{x~
+Short {Cb³êkitna laska{x~
+Descr Niewielkich rozmiarów {Cb³êkitna laska{x.~
+Material adamantyt~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 9 1 6 0 0 -1 1
+Repair 0 0 0 0
+Weight 10
+Cost 2700
+Cond 100
+Aff 1 12 8 2 0 0
+Extradesc napisy~
+Odczytujesz lekko p³on±ce {Rnapisy{x na {Cb³êkitnej lasce{x:
+ 
+Wspania³a b³êkitna laska ze sk³adziku Larreny.
+~
+Itemdesc Niewielka laska o b³êkitnym kolorze wykonana z adamantytu a¿ drga od
+rozpieraj±cej jej magicznej mocy. Zauwa¿asz na niej lekko p³on±ce magiczne
+{Rnapisy{x. 
+~
+Comments ~
+Objend
 #Vnum 6422
 Name napój jasnowidzenia~
 Odmiana {Cnapoju jasnowidzenia{x~{Cnapojowi jasnowidzenia{x~{Cnapój jasnowidzenia{x~{Cnapojem nasnowidzenia{x~{Cnapoju jasnowidzenia{x~
 Short {Cnapój jasnowidzenia{x~
 Descr {CNapój jasnowidzenia{x znajduj±cy siê w ma³ej buteleczce.~
 Material szk³o~
-Type drink
+Type potion
 ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
-Value 1 1 0 0 3389 0 0
+Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 20400
 Cond 100
@@ -1366,6 +1611,56 @@ Na fiolce spostrzegasz jasny, magiczny {Bnapis{x.
 ~
 Comments ~
 Objend
+#Vnum 6427
+Name Elfi miecz~
+Odmiana elfiego miecza~elfiemu mieczowi~elfi miecz~elfim mieczem~elfim mieczu~
+Short elfi miecz~
+Descr Ostrze wykute ze szlachetnej stali poniewiera siê tutaj.~
+Material elfia stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 1 0 0 0
+Repair 0 0 0 0
+Weight 120
+Cost 4500
+Cond 100
+Comments ~
+Objend
+#Vnum 6428
+Name d³uga w³ócznia z bia³ej stali~
+Odmiana w³óczni z bia³ej stali~w³óczni z bia³ej stali~w³ócznie z bia³ej stali~w³óczni± z bia³ej stali~w³óczni z bia³ej stali~
+Short w³ócznia z bia³ej stali~
+Descr W³ócznia wykonana ze stali prawie bia³ego koloru le¿y tutaj na ziemi.~
+Material elfia stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 45
+LiczbaMnoga 0
+Gender 0
+Value 3 2 7 34 32 1 1
+Repair 0 0 0 0
+Weight 160
+Cost 12960
+Cond 100
+Itemdesc Ta dwurêczna w³ócznia zosta³a wykonana z elfiej stali, której kolor jest
+prawie metalicznie bia³y. Jest to na pewno niezwyk³y widok, ale poza
+niezwyk³ym piêknem, jakim charakteryzuj± siê wszystkie elfie wyroby - jest
+to tak¿e broñ do walki. 
+~
+Identdesc Na t± w³ócznie na³o¿ono magiczne zaklêcia, które powoduj±, ¿e jest
+traktowana jako broñ +1. 
+~
+Comments ~
+Objend
 #Vnum 6430
 Name d³ugi morski p³aszcz~
 Odmiana {cmorskiego p³aszcza{x~{cmorskiemu p³aszczowi{x~{cmorski p³aszcz{x~{cmorskim p³aszczem{x~{cmorskim p³aszczu{x~
@@ -1377,17 +1672,153 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 9 9 8 10 1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 1200
 Cond 100
 Itemdesc Ten d³ugi p³aszcz w morskim kolorze wygl±da na wyrób elfów. Jest zrobiony
 z przedniego jedwabiu. 
 ~
+Comments ~
+Objend
+#Vnum 6431
+Name purpurowa suknia~
+Odmiana {Mpurpurowej sukni{x~{Mpurpurowej sukni{x~{Mpurpurowa sukniê{x~{Mpurpurow± sukni±{x~{Mpurpurowej sukni{x~
+Short {Mpurpurowa sukienka{x~
+Descr Piêkna, jedwabna suknia w kolorze {Mpurpury{x.~
+Material jedwab~
+Type clothing
+ExtraExt 0|A
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 30
+Cond 100
+Objprog wear 6431 100~
+Comments ~
+Objend
+#Vnum 6432
+Name pajêczy p³aszczyk~
+Odmiana {Wpajêczego p³aszczyka{x~{Wpajêczemu p³aszczykowi{x~{Wpajêczy p³aszczyk{x~{Wpajêczym p³aszczykiem{x~{Wpajêczym p³aszczyku{x~
+Short {Wpajêczy p³aszczyk{x~
+Descr {WPajêczy p³aszczyk{x wykonany z przedziwnie delikatnej tkaniny.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|CDK
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 100
+Cond 100
+Aff 1 14 5 0 0 0
+Itemdesc Pajêczy p³aszczyk wykonany jest z dziwnej, bardzo lekkiej tkaniny. Gdy go
+dotykasz, ledwie wyczuwasz, ¿e masz co¶ na d³oni. Mimo, i¿ jest on taki
+cienki to chroni przed wod± i ogrzewa. 
+~
+Comments ~
+Objend
+#Vnum 6433
+Name rêkawiczki~
+Odmiana {grêkawiczek{x~{grêkawiczkom{x~{grêkawiczki{x~{grêkawiczkami{x~{grêkawiczkach{x~
+Short {grêkawiczki{x~
+Descr {gPiêkne, zielone rêkawiczki{x.~
+Material jedwab~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 480
+Cond 100
+Comments ~
+Objend
+#Vnum 6434
+Name jedwabna chustka chusteczka~
+Odmiana {Cjedwabnej chusteczki{x~{Cjedwabnej chusteczce{x~{Cjedwabn± chusteczkê{x~{Cjedwabn± chusteczk±{x~{Cjedwabnej chusteczce{x~
+Short {Cjedwabna chusteczka{x~
+Descr Prze¶liczna {Cjedwabna chusteczka{x trzepocze siê delikatnie na wietrze.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 8
+Cond 100
+Itemdesc Wspania³a, delikatna chusteczka w niebieskim kolorze wykonana z jedwabiu.
+~
+Comments ~
+Objend
+#Vnum 6435
+Name kap³añska szata~
+Odmiana {Wkap³añskiej szaty{x~{Wkap³añskiej szacie{x~{Wkap³añsk± szatê{x~{Wkap³añsk± szat±{x~{Wkap³añskiej szacie{x~
+Short {Wkap³añska szata{x~
+Descr D³uga, siêgaj±ca do kostek, {Wkap³añska szata{x.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0|CDK
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 15
+Cond 100
+Comments ~
+Objend
+#Vnum 6436
+Name Elfi miecz~
+Odmiana elfiego miecza~elfiemu mieczowi~elfi miecz~elfim mieczem~elfim mieczu~
+Short elfi miecz~
+Descr Ostrze wykute ze szlachetnej stali poniewiera siê tutaj.~
+Material elfia stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 1 0 0 0
+Repair 0 0 0 0
+Weight 120
+Cost 4500
+Cond 100
+Itemdesc ~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 6437
@@ -1401,11 +1832,11 @@ ExtraExt 0|A
 Wear P
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 10 2000 584 110 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1420,6 +1851,30 @@ uko³ysze ³agodnie do piêknego i spokojnego snu.
 Comments Zmiejszy³em heal rate z 300 na 110 - {RGurthg{x ({CMon Mar  3 19:08:42 2003{x)
 ~
 Objend
+#Vnum 6439
+Name habit~
+Odmiana {yhabitu{x~{yhabitowi{x~{yhabit{x~{yhabitem{x~{yhabicie{x~
+Short {yhabit{x~
+Descr Le¿y tu zwyczajny {yhabit{x.~
+Material skóra~
+Type clothing
+ExtraExt 1|A
+Wear ACDFIL
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 10
+Cond 100
+Itemdesc Le¿y tu zwyczajny {yhabit{x. W przesz³o¶ci nale¿a³ on zapewne do jakiego¶
+mnicha. 
+~
+Comments ~
+Objend
 #Vnum 6440
 Name stara ksiêga~
 Odmiana {cstarej ksiêgi{x~{cstarej ksiêdze{x~{cstar± ksiêge{x~{cstar± ksiêg±{x~{cstarej ksiêdze{x~
@@ -1431,11 +1886,11 @@ ExtraExt 0|FGT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 3
 Value 0 1 63 442 149 318 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 600
 Cond 100
@@ -1456,11 +1911,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1480,14 +1935,37 @@ ExtraExt 0|T
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 48
 LiczbaMnoga 0
 Gender 2
 Value 1 3 476 66 49 30 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 8580
 Cond 100
+Comments ~
+Objend
+#Vnum 6443
+Name stolik stol~
+Odmiana {gstolika{x~{gstolikowi{x~{gstolik{x~{gstolikiem{x~{gstoliku{x~
+Short {gstolik{x~
+Descr Kunsztowny {ystolik{x wykonany z {Gzielonych pn±czy{x.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 8194 100 0 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 0
+Cond 100
+Itemdesc ~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 6444
@@ -1495,20 +1973,96 @@ Name d³ugi niebieski p³aszcz~
 Odmiana d³ugiego {Bniebieskiego p³aszcza{x~d³ugiemu {Bniebieskiemu p³aszczowi{x~d³ugi {Bniebieski p³aszcz{x~d³ugim {Bniebieskim p³aszczem{x~d³ugim {Bniebieskim p³aszczu{x~
 Short d³ugi {Bniebieski p³aszcz{x~
 Descr Le¿y tutaj d³ugi, {Bniebieski p³aszcz{x.~
-Material jedwab~
+Material skóra~
 Type clothing
 ExtraExt 0
 Wear AK
 Wear2Ext 0|EI
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
-Weight 30
-Cost 5000
+Weight 50
+Cost 10
 Cond 100
+Comments ~
+Objend
+#Vnum 6445
+Name {ysêkaty kostur{x~
+Odmiana {ysêkatego kostura{x~{ysêkatemu kosturowi{x~{ysêkaty kostur{x~{ysêkatym kosturze{x~{ysêkatym kosturze{x~
+Short {ysêkaty kostur{x~
+Descr D³ugi, dêbowy, {ysêkaty kostur{x le¿y na ziemi.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 9 2 4 13 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 600
+Cond 100
+Itemdesc D³ugi sêkaty kostur to ulubiona broñ magów i kap³anów. Ten egzemplarz
+wykonany jest z dêbowego drewna. 
+~
+Comments ~
+Objend
+#Vnum 6446
+Name koszula jedwabna~
+Odmiana jedwabnej koszuli~jedwabnej koszuli~jedwabna koszule~jedwabna koszula~jedwabnej koszuli~
+Short jedwabna koszula~
+Descr Ca³kiem ³adna, du¿a, jedwabna koszula.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 10
+Cond 100
+Comments ~
+Objend
+#Vnum 6449
+Name zielony pierscien~
+Odmiana {gzielonego pier¶cienia{x~{gzielonemu pier¶cieniowi{x~zielony pier¶cieñ~{gzielonym pier¶cieniem{x~{gzielonym pier¶cieniu{x~
+Short zielony pier¶cieñ~
+Descr {GZielony pier¶cieñ ze z³owieszcz± ¿mijk±.{x~
+Material ko¶æ~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0|Q
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2400
+Cond 60
+Aff 1 12 5 5 0 0
+Aff 1 27 1 1 0 0
+Itemdesc Przepiêknie wykonany zielony pier¶cieñ ze z³owieszcz± ¿mijk± wij±c± siê
+dooko³a. Po za³o¿eniu pier¶cieñ wygl±da jakby ta w³a¶nie ¿mijka owinê³a siê
+dooko³a palca. Drobne, bardzo misternie wykonane ³uski pozwalaj± zachwycaæ
+siê kunsztem rzemie¶lnika, który wykona³ ten pier¶cieñ. 
+~
+Identdesc Nosz±cy go druid, b±d¼ te¿ druidka mo¿e zapamiêtaæ jeden czar wiêcej z
+pierwszego krêgu. Jest tak¿e czê¶ciowo chroniona przed ogniem. 
+~
 Comments ~
 Objend
 #Vnum 6450
@@ -1522,11 +2076,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 900
 Cond 80
@@ -1535,6 +2089,27 @@ rzemie¶lników, o czym ¶wiadczy delikatno¶æ ³añcuszka, przy jego niew±tpliwej
 odporno¶ci na zerwanie. Kulka wisz±ca na ³añcuszku ozdobiona jest motywem 
 dêbowego li¶cia i trzech ¿o³êdzi. 
 ~
+Comments ~
+Objend
+#Vnum 6452
+Name elfia szata~
+Odmiana {Welfiej szaty{x~{Welfiej szacie{x~elfi± szatê~elfi± szat±~{Welfiej szacie{x~
+Short {Welfia szata{x~
+Descr {WLekka i zwiewna elfia szata.{x~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0|EHI
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 20
+Cond 100
 Comments ~
 Objend
 #Vnum 6453
@@ -1548,11 +2123,11 @@ ExtraExt 0|Na
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 30 14 -1 -1 -1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 18000
 Cond 100
@@ -1561,6 +2136,96 @@ przezroczysta ciecz, wygl±daj±ca jak woda. Od wody odró¿nia ja jednak fakt,
 ze fiolka emanuje delikatnym, dziwnie przyjemnym ciep³em. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 6454
+Name elfia szata~
+Odmiana {gelfiej szaty{x~{gelfiej szacie{x~{gelfi± szatê{x~{gelfi± szat±{x~{gelfiej szacie{x~
+Short {gelfia szata{x~
+Descr {gPiêkna, zielona elfia szata.{x~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0|EHI
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 10
+Cond 100
+Comments ~
+Objend
+#Vnum 6455
+Name bransoletka drewniana~
+Odmiana {ydrewnianej bransoletki{x~{ydrewnianej bransoletce{x~{ydrewnian± bransoletkê{x~{ydrewnian± bransoletk±{x~{ydrewnianej bransoletce{x~
+Short {ydrewniana bransoletka{x~
+Descr {yBransoletka wykonana z drewna.{x~
+Material drewno~
+Type jewelry
+ExtraExt 0
+Wear AM
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 60
+Cond 100
+Aff 1 13 2 0 0 0
+Objprog wear 6400 20~
+Itemdesc Zwyk³y, do¶æ topornie obrobiony kawa³ek drewna, maj±cy kszta³t
+bransoletki. Na powierzchni w niektórych miejscach widaæ zadziorne drzazgi,
+które mog± powodowaæ uk³ucia. 
+~
+Comments ~
+Objend
+#Vnum 6456
+Name okulary~
+Odmiana okularów w drucianych oprawkach~okularom w drucianych oprawkach~okulary w drucianych oprawkach~okularami w drucianych oprawkach~okularach w drucianych oprawkach~
+Short okulary w drucianych oprawkach~
+Descr Le¿± tu okulary w drucianych oprawkach.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0|DIK
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 300
+Cond 100
+Comments ~
+Objend
+#Vnum 6457
+Name bursztynowy syrop~
+Odmiana {Yb{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Ye{yg{Yo {Ysyropu{x~{Yb{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Ye{ym{Yu {Ysyropowi{x~{Yb{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Yy {Ysyrop{x~{Yb{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Yy{ym {Ysyropem{x ~{Yb{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Yy{ym {Ysyropie{x~
+Short {YB{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Yy {Ysyrop{x~
+Descr {YB{yu{Yr{ys{Yz{yt{Yy{yn{Yo{yw{Yy {Ysyrop{x. Ciekawe, z jakiej dolegliwo¶ci ciê wyleczy?~
+Material szk³o~
+Type potion
+ExtraExt 0|Nd
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 34 35 36 -1 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2700
+Cond 100
 Comments ~
 Objend
 #Vnum 6458
@@ -1574,11 +2239,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1
 Cond 100
@@ -1595,11 +2260,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 1
 Cond 100
@@ -1616,13 +2281,34 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 1
 Gender 0
 Value 18 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 3
+Cond 100
+Comments ~
+Objend
+#Vnum 6461
+Name stek barani~
+Odmiana steku {Wbaraniego{x~stekowi {Wbaraniemu{x~stek {Wbarani{x~stekiem {Wbaranim{x~steku {Wbaranim{x~
+Short stek {Wbarani{x~
+Descr Smakowicie wygl±daj±cy stek {Wbarani{x. Tylko go schrupaæ!~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 2
+Value 30 70 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 5
 Cond 100
 Comments ~
 Objend
@@ -1637,16 +2323,81 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 9
 Cond 100
 Itemdesc Zwiewna, króciutka, {mfio³kowa sukienka{x wykonana przez najlepszych elfich krawców.
 ~
+Comments ~
+Objend
+#Vnum 6464
+Name stol stolik~
+Odmiana stolika do gry w karty~stolikowi do gry w karty~stolik do gry w karty~stolikiem do gry w karty~stoliku do gry w karty~
+Short stolik do gry w karty~
+Descr Stolik do gry w karty stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 8 100 0 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 6465
+Name elfi skórzany kaftan~
+Odmiana skórzanego kaftana~skórzanemu kaftanowi~skórzany kaftan~skórzanym kaftanem~skórzanym kaftanie~
+Short elfi skórzany kaftan~
+Descr Skórzany kaftan lezy tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 6466
+Rent 4
+LiczbaMnoga 0
+Gender 2
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 600
+Cond 100
+Itemdesc Wygodny, puchowy, skórzany kaftan wykonany przez przednich elfich rzemie¶lników.
+~
+Comments ~
+Objend
+#Vnum 6467
+Name szata arcykap³ana~
+Odmiana szaty arcykap³ana~szacie arcykap³ana~szatê arcykap³ana~szat± arcykap³ana~szacie arcykap³ana~
+Short szata arcykap³ana~
+Descr Le¿y tu szata Arcykap³ana Aesaocorana.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 700
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 10
+Cond 100
 Comments ~
 Objend
 #Vnum 6468
@@ -1660,11 +2411,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1200
 Cond 100
@@ -1682,11 +2433,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 5 -1 2336 105 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1703,11 +2454,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1724,11 +2475,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 1
 Cond 100
@@ -1745,12 +2496,12 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 0
 Komponent 25 18000
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 1800
 Cond 100
@@ -1769,11 +2520,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
@@ -1790,14 +2541,152 @@ ExtraExt 0|N
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 12 24 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 2
 Cond 100
+Comments ~
+Objend
+#Vnum 6477
+Name sygnet wojownika~
+Odmiana sygnetu wojownika~sygnetowi wojownika~sygnet wojownika~sygnetem wojownika~sygnecie wojownika~
+Short sygnet wojownika~
+Descr Prze¶liczny sygnet wojownika le¿y na ziemi b³yszcz±c siê delikatnie.~
+Material illit~
+Type jewelry
+ExtraExt 0|D
+Wear AB
+Wear2Ext 0|N
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 26 206 2 0 0
+Aff 1 26 211 3 0 0
+Objprog prewear 6477 6477~
+Itemdesc Ten wspania³y pier¶cieñ ma wygrawerowany symbol miecza. Czujesz jak emanuje dziwnie magiczn± moc±.
+~
+Comments ~
+Objend
+#Vnum 6478
+Name sygnet barbarzyñcy~
+Odmiana sygnetu barbarzyñcy~sygnetowi barbarzyñcy~sygnet barbarzyñcy~sygnetem barbarzyñcy~sygnecie barbarzyñcy~
+Short sygnet barbarzyñcy~
+Descr Prze¶liczny sygnet barbarzyñcy le¿y na ziemi b³yszcz±c siê delikatnie.~
+Material illit~
+Type jewelry
+ExtraExt 0|D
+Wear AB
+Wear2Ext 0|T
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 26 115 2 0 0
+Aff 1 26 212 3 0 0
+Objprog prewear 6478 6478~
+Itemdesc Ten wspania³y pier¶cieñ ma wygrawerowany symbol wielkiego miecza
+dwurêcznego. Czujesz jak emanuje dziwnie magiczn± moc±. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 6479
+Name sygnet z³odzieja~
+Odmiana sygnetu z³odzieja~sygnetowi z³odzieja~sygnet z³odzieja~sygnetem z³odzieja~sygnecie z³odzieja~
+Short sygnet z³odzieja~
+Descr Prze¶liczny sygnet z³odzieja le¿y na ziemi b³yszcz±c siê delikatnie.~
+Material illit~
+Type jewelry
+ExtraExt 0|D
+Wear AB
+Wear2Ext 0|P
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 26 113 2 0 0
+Aff 1 26 236 3 0 0
+Objprog prewear 6479 6479~
+Itemdesc Ten wspania³y pier¶cieñ ma wygrawerowany symbol niewielkiego sztyletu.
+Czujesz jak emanuje dziwnie magiczn± moc±. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 6480
+Name pier¶cieñ czarów~
+Odmiana pier¶cienia czarów~pier¶cieniowi czarów~pier¶cieñ czarów~pier¶cieniem czarów~pier¶cieniu czarów~
+Short pier¶cieñ czarów~
+Descr Prze¶liczny pier¶cieñ czarów le¿y na ziemi b³yszcz±c siê delikatnie.~
+Material illit~
+Type jewelry
+ExtraExt 0|D
+Wear AB
+Wear2Ext 0|CDKM
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 27 1 1 0 0
+Aff 1 24 -1 0 0 0
+Objprog prewear 6480 6480~
+Itemdesc Ten wspania³y pier¶cieñ czarów ma wygrawerowany symbol gwiazdy. Czujesz
+jak emanuje dziwnie magiczn± moc±. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 6481
+Name sygnet paladyna~
+Odmiana sygnetu paladyna~sygnetowi paladyna~sygnet paladyna~sygnetem paladyna~sygnecie paladyna~
+Short sygnet paladyna~
+Descr Prze¶liczny sygnet paladyna le¿y na ziemi b³yszcz±c siê delikatnie.~
+Material illit~
+Type jewelry
+ExtraExt 0|D
+Wear AB
+Wear2Ext 0|S
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 26 225 3 0 0
+Aff 1 26 211 3 0 0
+Objprog prewear 6481 6481~
+Itemdesc Ten wspania³y pier¶cieñ ma wygrawerowany symbol jasnego s³oñca.
+Czujesz jak emanuje dziwnie magiczn± moc±. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 6482
@@ -1811,11 +2700,11 @@ ExtraExt 0|a
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 241
 LiczbaMnoga 0
 Gender 0
 Value 4 7 272 29 66 483 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 43320
 Cond 75
@@ -1835,11 +2724,11 @@ ExtraExt 0|T
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 197
 LiczbaMnoga 0
 Gender 0
 Value 4 5 30 66 275 416 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 35520
 Cond 100
@@ -1847,6 +2736,126 @@ Itemdesc ~
 Identdesc ~
 Comments zmniejszam trudnosc, bo 8 spalonych ksiag pod rzad demotywuje - {RRaszer{x ({CTue Feb 23 14:26:16 2010{x)
 ~
+Objend
+#Vnum 6485
+Name zbroja ze skorupy ¿ukoro¿ca~
+Odmiana {czbroii ze skorupy ¿ukoro¿ca{x~{czbroii ze skorupy ¿ukoro¿ca{x~{czbrojê ze skorupy ¿ukoro¿ca{x~{czbroj± ze skorupy ¿ukoro¿ca{x~{czbroii ze skorupy ¿ukoro¿ca{x~
+Short Le¿y tu {czbroja ze skorupy ¿ukoro¿ca{x~
+Descr ~
+Material skóra~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 6487
+Name pier¶cieñ kartografa~
+Odmiana {Ypier¶cienia kartografa{x~{Ypier¶cieniowi kartografa{x~{Ypier¶cieñ kartografa{x~{Ypier¶cieniem kartografa{x~{Ypier¶cieniu kartografa{x~
+Short {Ypier¶cieñ kartografa{x~
+Descr Piekny {Ypier¶cieñ{x boskiego kartografa po³yskuje w s³oñcu.~
+Material z³oto~
+Type jewelry
+ExtraExt 0|AI
+Wear AB
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 6488
+Name jedwabne podwi±zki~
+Odmiana {Rpodwi±zek{x~{Rpodwi±zkom{x~{Rpodwi±zki{x~{Rpodwi±zkami{x~{Rpodwi±zkach{x~
+Short {Rpodwi±zki{x~
+Descr Le¿± tu sobie niewinnie jakie¶ {Rpodwi±zki{x. Hmm.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0|DEIK
+Bonus 0
+Rent 2
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 10
+Cond 100
+Comments ~
+Objend
+#Vnum 6490
+Name sygnet czarnego rycerza~
+Odmiana sygnetu czarnego rycerza~sygnetowi czarnego rycerza~sygnet czarnego rycerza~sygnetem czarnego rycerza~sygnecie czarnego rycerza~
+Short sygnet czarnego rycerza~
+Descr Prze¶liczny sygnet czarnego rycerza le¿y na ziemi b³yszcz±c siê delikatnie.~
+Material illit~
+Type jewelry
+ExtraExt 0|D
+Wear AB
+Wear2Ext 0|e
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 26 430 2 0 0
+Aff 1 26 212 3 0 0
+Objprog prewear 6490 6490~
+Itemdesc Ten wspania³y pier¶cieñ ma wygrawerowany symbol wielkiego miecza
+dwurêcznego. Czujesz jak emanuje dziwnie magiczn± moc±. 
+~
+Comments ~
+Objend
+#Vnum 6498
+Name kunsztowne delikatne rêkawiczki ze skóry wypatrywacza~
+Odmiana Rêkawic~Rêkawicom~Rêkawice~Rêkawicami~Rêkawicach~
+Short delikatne rêkawiczki ze skóry wypatrywacza~
+Descr Le¿± tutaj delikatne rêkawice, zrobione ze skóry jakiego¶ dziwnego stwora.~
+Material mocna skóra~
+Type armor
+ExtraExt 0|BG
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 3 6 3 8 12 0 0
+Repair 0 0 0 0
+Weight 26
+Cost 36000
+Cond 100
+Aff 1 12 9 5 0 0
+Aff 1 12 10 5 0 0
+Itemdesc Te delikatne, skórzane rêkawice na pierwszy rzut oka mog± wydawaæ siê
+zwyk³ym ubraniem zrobionym z ekstrawaganckiej skóry. Jednak pozory myl±,
+skóra z której kto¶ je zrobi³ jest bardzo wytrzyma³a i elastyczna a same
+rêkawice s± niezwykle lekkie i odporne. Niezwykle trudno jest przeci±æ t±
+skórê, dlatego te¿ kowale wykonuj±cy rêkawice z niej s³ono ka¿± sobie
+p³aciæ. 
+~
+Comments ~
 Objend
 #Vnum 0
 
@@ -1937,14 +2946,14 @@ Sector 1
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 3
+ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 2415
+ExitExtToVnum 6499
 ExitExtEnd
 Exit 0
 ~
 ~
-3 0 2415
+0 0 6499
 ExitExt 1
 ExitExtDescription Ulica klonowa ci±gnie siê dalej na wschód.
 ~
@@ -2102,28 +3111,13 @@ Exit 0
 ~
 ~
 0 0 6485
-ExitExt 1
-ExitExtDescription ~
-ExitExtVName Ogrody~
-ExitExtBiernik furtkê~
-ExitExtName furtka~
-ExitExtLiczba 0
-ExitExtInfo 3
-ExitExtKey 0
-ExitExtToVnum 26944
-ExitExtEnd
-Exit 1
-~
-VName Ogrody~
-furtka~
-3 0 26944
 ExitExt 2
 ExitExtDescription ~
 ExitExtVName Brama~
 ExitExtBiernik bramê~
 ExitExtName brama~
 ExitExtLiczba 0
-ExitExtInfo 8193
+ExitExtInfo 3
 ExitExtKey 0
 ExitExtToVnum 4353
 ExitExtEnd
@@ -2131,13 +3125,13 @@ Exit 2
 ~
 VName Brama~
 brama~
-8193 0 4353
-Roomprog input otwieraæ pull lina~
-Roomprog input otwieraæ poci±gnij linê~
-Roomprog input otwieraæ *ciagnij~
-Roomprog input otwieraæ ciagnij linê~
-Roomprog input otwieraæ *pull~
+3 0 4353
 Roomprog input otwieraæ *poci±gnij~
+Roomprog input otwieraæ *pull~
+Roomprog input otwieraæ ciagnij linê~
+Roomprog input otwieraæ *ciagnij~
+Roomprog input otwieraæ poci±gnij linê~
+Roomprog input otwieraæ pull lina~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2161,17 +3155,6 @@ Exit 0
 ~
 ~
 0 0 4353
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 26901
-ExitExtEnd
-Exit 1
-~
-~
-0 0 26901
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2183,17 +3166,6 @@ Exit 2
 ~
 ~
 0 0 18485
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 33604
-ExitExtEnd
-Exit 3
-~
-~
-0 0 33604
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2336,7 +3308,7 @@ Descr Doszed³e¶ do jasnego, przestronnego holu. Na piêtrze znajduj± siê pokoje
 mieszkalne. Po prawej stronie znajduje siê wej¶cie na balkon, z którego
 mo¿esz podziwiaæ elfie miasto. 
 ~
-FlagsExt 0|DH
+FlagsExt 0|D
 Sector 0
 ExitExt 1
 ExitExtDescription ~
@@ -2399,7 +3371,7 @@ która sw± doskona³o¶ci± jest ponad wszystko inne. Widaæ st±d doskonale ulicê
 przebiegaj±c± przez centrum miasta, a tak¿e pobliskie budynki i przechodniów.
 ~
 FlagsExt 0
-Sector 1
+Sector 0
 Extra miasto~
 Widzisz dwie g³ówne ulice krzy¿uj±ce siê w centrum miasta. Przy nich
 w³a¶nie umiejscowione s± g³ówne budynki. Mo¿esz te¿ znale¼æ parê sklepików,
@@ -2427,7 +3399,7 @@ jest lekko przyciemnione, jednak w niczym to nie przeszkadza i jeste¶ w
 stanie dojrzeæ najdrobniejszy szczegó³ ka¿dego obrazu z galerii
 wywieszonej na ¶cianach. 
 ~
-FlagsExt 0|DH
+FlagsExt 0|D
 Sector 0
 ExitExt 0
 ExitExtDescription Przed tob± ci±gnie siê korytarz prowadz±cy do ró¿nych pomieszczeñ w
@@ -2788,10 +3760,10 @@ Jaki¶ wewnêtrzny g³os ka¿e ci pod±¿aæ dalej, ku wnêtrzu ¶wi±tyni.
 ~
 FlagsExt 0|DH
 Sector 0
-Extra kule~
+Extra kryszta³owe~
 Do ¶cian przytwierdzone s± niewielkie {Wkryszta³owe kule{x.
 ~
-Extra kryszta³owe~
+Extra kule~
 Do ¶cian przytwierdzone s± niewielkie {Wkryszta³owe kule{x.
 ~
 ExitExt 2
@@ -2868,13 +3840,6 @@ Na ¶cianie zauwa¿asz tak¿e du¿ych rozmiarów {Ccennik us³ug{S.
 ~
 FlagsExt 0|CH
 Sector 0
-Extra palenisko~
-{RO{rg{Ri{re{Rñ{x pali wszystko, czego tylko dotknie...
-~
-Extra kowad³o~
-Stoi tutaj ogromne kowad³o. Jest to jedno z najwa¿niejszych narzêdzi
-kowala. 
-~
 Extra cennik~
 {cSpogl±dasz na cennik i widzisz:{x
  
@@ -2884,6 +3849,13 @@ Extra cennik~
 {W -> {GRêkawice ze skóry mantykory - wymagana skóra z mantykory i 750 miedzianych monet.{x
   
 {c Uwaga! Realizujê tylko jedno zamówienie na raz, wiêc nie rêczê za ¿adne utraty mienia.{x
+~
+Extra kowad³o~
+Stoi tutaj ogromne kowad³o. Jest to jedno z najwa¿niejszych narzêdzi
+kowala. 
+~
+Extra palenisko~
+{RO{rg{Ri{re{Rñ{x pali wszystko, czego tylko dotknie...
 ~
 ExitExt 0
 ExitExtDescription ~
@@ -3346,10 +4318,10 @@ przez które przechodzi jedynie w±ska stru¿ka ¶wiat³a.
 ~
 FlagsExt 0|DH
 Sector 0
-Extra lampy~
+Extra oliwne~
 {YOliwne lampy{x wisz±ce na ¶cianach roz¶wietlaj± panuj±cy tutaj mrok.
 ~
-Extra oliwne~
+Extra lampy~
 {YOliwne lampy{x wisz±ce na ¶cianach roz¶wietlaj± panuj±cy tutaj mrok.
 ~
 ExitExt 3
@@ -3484,14 +4456,14 @@ równie¿ parê kêpek kwiatów.
 ~
 FlagsExt 0
 Sector 1
-Extra kwiatki~
-Ro¶nie tu kilka kêpek kwiatków, {Wbia³e stokrotki{x i {Bniebieskie chabry{x.
+Extra drzewo~
+Stare drzewo o roz³o¿ystych ga³êziach.
 ~
 Extra kwiaty~
 Ro¶nie tu kilka kepek kwiatków, {Wbia³e stokrotki{x i {Bniebieskie chabry{x.
 ~
-Extra drzewo~
-Stare drzewo o roz³o¿ystych ga³êziach.
+Extra kwiatki~
+Ro¶nie tu kilka kêpek kwiatków, {Wbia³e stokrotki{x i {Bniebieskie chabry{x.
 ~
 ExitExt 1
 ExitExtDescription ~
@@ -3581,7 +4553,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 6441
-Name Skrzy¿owanie ulicy {yKasztanowej{x z Alej± Gwiazd~
+Name {WAleja gwiazd{x~
 Descr Alejka koñczy siê w tym miejscu. W±ska droga miedzy budynkami prowadzi na
 pó³noc st±d. Na drzwiach na zachód st±d dostrzegasz jaki¶ {yszyld{S. Stamt±d
 te¿ rozchodzi siê po okolicy zapach kadzide³ i pachn±cych olejków. Domek
@@ -3654,7 +4626,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 6442
-Name Skrzy¿owanie ulic {gKlonowej{x z {yKasztanow±{x~
+Name {WUlica {gKlonowa{x~
 Descr Stoisz na samym skraju ulicy {gKlonowej{S. Na po³udniu dostrzegasz jakie¶
 zabudowania. Maleñkie domki stoj± jeden przy drugim. Na pó³nocy dostrzegasz
 wielkie drzewa, a miedzy nimi ma³± dró¿kê, która prowadzi nie wiadomo gdzie.
@@ -3666,12 +4638,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 2414
+ExitExtToVnum 6464
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 2414
+0 0 6464
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3720,17 +4692,6 @@ Exit 0
 VName Wyj¶cie~
 drzwi~
 3 0 6441
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 8192
-ExitExtKey 0
-ExitExtToVnum 33608
-ExitExtEnd
-Exit 3
-~
-~
-8192 0 33608
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3774,7 +4735,7 @@ ró¿nych pami±tek z dawnych czasów zalegaj± pod ¶cianami. Ksiêgi i kroniki
 oprawione w skory, przykryte kurzem, skrywaj± siê przed ¶wiatem. Na biurku
 spostrzegasz tl±c± siê ma³ym p³omieniem ¶wiecê. 
 ~
-FlagsExt 0|CDH
+FlagsExt 0|CD
 Sector 0
 ExitExt 3
 ExitExtDescription ~
@@ -3886,17 +4847,6 @@ Exit 0
 VName Wyj¶cie~
 ~
 3 0 6440
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2416
-ExitExtEnd
-Exit 2
-~
-~
-0 0 2416
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3929,7 +4879,7 @@ Descr Ca³y pokój mo¿esz przej¶æ robi±c tylko trzy niewielkie kroki. Po prawej
 stronie stoi biblioteczka z poka¼nym zbiorem ksi±g. Tu¿ obok znajduj± siê
 dwa wygodne fotele, a miedzy nimi siêgaj±ca niemal sufitu lampa. 
 ~
-FlagsExt 0|DH
+FlagsExt 0|D
 Sector 0
 ExitExt 0
 ExitExtDescription ~
@@ -3964,7 +4914,7 @@ pêdy ro¶lin. Parê stoj±cych tu mebli przykrytych jest delikatnym at³asem w
 kolorze ciemnego wina. Sufit pokryty jest delikatnymi freskami
 przedstawiaj±cymi sceny z dziewiczego lasu. 
 ~
-FlagsExt 0|DH
+FlagsExt 0|D
 Sector 0
 ExitExt 3
 ExitExtDescription ~
@@ -3988,7 +4938,7 @@ niedokoñczone obrazy. Przyda³oby siê otworzyæ jakie¶ okno. Brzydki zapach
 farby krêci w nosie i wwierca siê we wnêtrzno¶ci. Widocznie wielki mistrz
 przyzwyczai³ siê do takich warunków.
 ~
-FlagsExt 0|DH
+FlagsExt 0|D
 Sector 0
 ExitExt 3
 ExitExtDescription ~
@@ -4482,6 +5432,39 @@ Extra korzenie~
 Spod ¶ció³ki przebijaj± siê, wystaj±ce z ziemi potê¿ne korzenie starych
 drzew, pokryte skór± wygl±daj±c± jak wiekowa kora. 
 ~
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6465
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6465
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6499
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6499
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6442
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6442
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4494,8 +5477,30 @@ Co jaki¶ czas która¶ z ga³êzi przelatuje tu¿ nad twoj± g³ow±, a li¶cie
 delikatnie sp³ywaj± po twojej twarzy. ¦cie¿ka ci±gnie siê dalej na pó³nocny
 zachód. {x 
 ~
-FlagsExt 0|CJ
+FlagsExt 0|J
 Sector 11
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6464
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6464
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6466
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6466
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4507,8 +5512,30 @@ za ni± rozros³a siê trzcina. Byæ mo¿e jest tam jakie¶ jezioro? Drogê na
 po³udnie zagradzaj± drzewa, jednak nie powiniene¶ mieæ raczej k³opotów, ¿eby
 siê miedzy nimi przecisn±æ. {x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6467
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6467
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6465
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6465
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4521,8 +5548,30 @@ dwa metry. Dalej na pó³nocy zauwa¿asz jezioro. Woda w nim ma kolor b³êkitno
 szafirowy. Zapewne pe³no w niej ró¿nych gatunków ryb i innych wodnych
 stworzeñ. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6468
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6468
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6466
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6466
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4533,8 +5582,41 @@ wody widaæ przejrzysty piasek i drobne kamienie le¿±ce na dnie. Na
 powierzchni wody widzisz odbicia otaczaj±cych j± lasów. Co jaki¶ czas mo¿esz
 zauwa¿yæ przep³ywaj±ca gdzie¶ nieopodal kaczkê lub ³abêdzia. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6472
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6472
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6467
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6467
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6469
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6469
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4546,8 +5628,30 @@ piasek i drobne kamienie le¿±ce na dnie. Na powierzchni wody widzisz odbicia
 otaczaj±cych ja lasów. Co jaki¶ czas mo¿esz zauwa¿yæ przep³ywaj±c± gdzie¶
 nieopodal kaczkê lub ³abêdzia. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6468
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6468
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6470
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6470
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4559,36 +5663,61 @@ piasek i drobne kamienie le¿±ce na dnie. Na powierzchni wody widzisz odbicia
 otaczaj±cych ja lasów. Co jaki¶ czas mo¿esz zauwa¿yæ przep³ywaj±c± gdzie¶
 nieopodal kaczkê lub ³abêdzia. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 32
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
-#Vnum 6471
-Name W domku garbarza~
-Descr Jeste¶ w domu starego garbarza. Nie jest to miejsce zbyt chêtnie
-odwiedzane przez mieszkañców Doliny, lecz ciê¿ko powiedzieæ do czego elfy
-tak naprawdê ¿ywi± niechêæ - do zabijania zwierz±t dla skór czy te¿ do
-starego gnoma? Nie wiadomo. Wiadomo jednak, ¿e gnom ów jest kapkê zgry¼liwym
-starcem i nie ka¿demu przypada do gustu, lecz przynajmniej ceny jakie
-oferuje s± zadowalaj±ce. Samo pomieszczenie za¶ jest do¶æ przestronne, lecz
-strasznie zagracone, jako ¿e jest to zarazem dom, pracownia i sklep gnoma.
-Widocznie gnomie standardy mieszkaniowe nieco ró¿ni± siê od elfickich czy
-choæby ludzkich. 
-~
-FlagsExt 0|CH
-Sector 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 3
+ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 6494
+ExitExtToVnum 6469
 ExitExtEnd
 Exit 1
 ~
 ~
-3 0 6494
+0 0 6469
+ExitExt 3
+ExitExtDescription ~
+ExitExtVName Sza³as~
+ExitExtName sza³as~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6471
+ExitExtEnd
+Exit 3
+~
+VName Sza³as~
+sza³as~
+0 0 6471
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6471
+Name {YSza³as na koñcu ¶cie¿ki{x~
+Descr Tutaj ¶cie¿ka prowadz±ca dooko³a jeziorka siê koñczy. Teoretycznie mo¿na
+przej¶æ dalej, lecz na ¶rodku ¶cie¿ki wznosi siê w górê szczelisty sza³as,
+postawiony przez jakiego¶ osobnika. W tym miejscu pla¿a ca³kowicie zanika, a
+wraz z ni± scielankowy nastrój okolicznego miejsca. Do twoich nozdrzy
+dociera odór oprawianych skór, mieszkaniec tego sza³asu musi byæ garbarzem.
+Jedyna rozs±dna droga prowadzi spowrotem na wschód. 
+~
+FlagsExt 0|H
+Sector 13
+ExitExt 1
+ExitExtDescription ~
+ExitExtVName Wyj¶cie~
+ExitExtName wyj¶cie~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6470
+ExitExtEnd
+Exit 1
+~
+VName Wyj¶cie~
+wyj¶cie~
+0 0 6470
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4600,8 +5729,30 @@ le¿±ce na dnie. Na powierzchni wody widzisz odbicia drzew otaczaj±cych
 jezioro. Co jaki¶ czas mo¿esz zauwa¿yæ przep³ywaj±c± gdzie¶ nieopodal kaczkê
 lub ³abêdzia. Jezioro zdaje siê byæ lekko ciep³e - idealne do k±pieli. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6473
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6473
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6468
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6468
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4614,8 +5765,30 @@ jaki¶ czas mo¿esz zauwa¿yæ przep³ywaj±c± gdzie¶ nieopodal kaczkê lub
 ³abêdzia. Jezioro emanuje delikatn± magiczn± aur±, tak jakby mieszkaj±ce w
 pobli¿u elfy rzuci³y na nie jaki¶ dobry czar. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6474
+ExitExtEnd
+Exit 1
+~
+~
+0 0 6474
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6472
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6472
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4628,8 +5801,30 @@ magiczn± aur±, tak jakby mieszkaj±ce w pobli¿u elfy rzuci³y na nie jaki¶
 dobry czar. W tym miejscu pla¿a widocznie zwê¿a siê ustêpuj±c miejsca gêstym
 szuwarom. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6475
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6475
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6473
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6473
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4641,8 +5836,30 @@ przep³ywa ma³a rybka lub kilka ptaków zrywa siê sp³oszonych niespodziewanym
 ha³asem. Jezioro jest w tym miejscu bardziej muliste i nie wygl±da tak
 ³adnie jak na piaszczystym, po³udniowym brzegu. S³yszysz cichy szum wody. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 32
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6476
+ExitExtEnd
+Exit 0
+~
+~
+0 0 6476
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6474
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6474
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4656,14 +5873,38 @@ ju¿ z oddali wydaje {Cniewielka rzeczka{S, która wpada do jeziorka. Gdy
 spogl±dasz dalej na wschód zauwa¿asz, ¿e rzeczka ci±gnie siê dalej na
 pó³nocny-wschód. 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
-Extra rzeczka~
-Ma³a, acz g³êboka rzeczka wp³ywa tutaj do jeziorka.
-~
 Extra rzeka~
 Ma³a, acz g³êboka rzeczka wp³ywa tutaj do jeziorka.
 ~
+Extra rzeczka~
+Ma³a, acz g³êboka rzeczka wp³ywa tutaj do jeziorka.
+~
+ExitExt 1
+ExitExtDescription Zauwa¿asz, ¿e rzeczka ci±gnie siê ku pó³nocnemu-wschodowi zmierzaj±c w kierunku wielkiego ogrodu.
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6477
+ExitExtEnd
+Exit 1
+Zauwa¿asz, ¿e rzeczka ci±gnie siê ku pó³nocnemu-wschodowi zmierzaj±c w kierunku wielkiego ogrodu.
+~
+~
+0 0 6477
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6475
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6475
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4675,10 +5916,91 @@ delikatny ch³ód gdy woda obmywa twoje stopy. Rzeczka p³ynie ku wschodowi w
 kierunku wielkiego ogrodu. Zauwa¿asz kilka kana³ów prowadz±cych od rzeczki
 do ogrodu. Je¿eli chcesz to mo¿esz spróbowaæ {Cwej¶æ do rzeczki{S. 
 ~
+FlagsExt 0
+Sector 19
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6476
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6476
+Roomprog input 6479 enter rzeczka~
+Roomprog input 6479 wejdz do rzeczki~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6478
+Name {CW rzeczce{x~
+Descr P³yniesz powolutku p³ytk± rzeczk±, pozwalaj±c by delikatny nurt spokojnie
+op³ywa³ twoje cia³o. Woda jest lekko ciep³a, idealna na k±piel. Co ciekawe,
+¿yj±ce tu ryby i inne zwierzaki zdaj± siê byæ przyzwyczajone do obecno¶ci
+wiêkszych od siebie istot i nie p³osz± siê na twój widok. Naprawdê mi³o tak
+sobie p³yn±æ. 
+~
 FlagsExt 0|C
 Sector 19
-Roomprog input 6479 wejdz do rzeczki~
-Roomprog input 6479 enter rzeczka~
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6479
+Name {WRzeczka{x~
+Descr ~
+FlagsExt 0|C
+Sector 6
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6480
+Name {WRzeczka{x~
+Descr ~
+FlagsExt 0|C
+Sector 6
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6481
+Name {WRzeczka{x~
+Descr Tu p³ynie rzeczka!
+~
+FlagsExt 0|C
+Sector 6
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6482
+Name {WRzeczka{x~
+Descr ~
+FlagsExt 0|C
+Sector 6
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6483
+Name {WRzeczka{x~
+Descr ~
+FlagsExt 0|C
+Sector 6
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 6484
+Name {WPrzy ogromnej skale{x~
+Descr Znajdujesz siê przy ogromnej skale. Patrz±c w górê dostrzegasz i¿ jej
+zbocze jest tak strome, ¿e niemo¿liwe jest wspinanie siê na ni±. Z ma³ej
+szczelinki wyp³ywa {Bstrumieñ{x, który zaraz przemieni siê w ma³± rzeczkê. Na
+wschodzie dostrzegasz wysokie góry tak zdradliwe, ¿e jeszcze nikt nie
+odwa¿y³ siê po nich wêdrowaæ. 
+~
+FlagsExt 0|C
+Sector 6
+Extra strumien~
+{BStrumieñ wyp³ywa z ma³ej szczelinki w tej ogromnej skale.{x
+~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4747,7 +6069,7 @@ Descr {gMiejsce to skryte jest w cieniu drzew. Ciep³y powiew wiatru lekko porusz
 {gzapachach.{x
 ~
 FlagsExt 0|H
-Sector 38
+Sector 0
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4913,7 +6235,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 6494
-Name Ulica {yKasztanowa{x~
+Name W±ska uliczka~
 Descr Znalaz³e¶ siê na w±skiej uliczce ³±cz±cej ulicê Klonow± z {wAlej± Gwiazd{S.
 Jest tu bardzo w±sko. Tak w±sko i¿ dwa wozy nie mia³y prawa by siê tu min±æ.
 Nie jest to problem gdy¿ uliczka stanowi raczej skrót dla pieszych
@@ -4944,17 +6266,6 @@ Exit 2
 ~
 ~
 0 0 6441
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 3
-ExitExtKey 0
-ExitExtToVnum 6471
-ExitExtEnd
-Exit 3
-~
-~
-3 0 6471
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5109,8 +6420,30 @@ wy³aniaj± siê drobne, {Cniebieskie kwiatuszki{x. Panuje tu cisza i spokój. Masz
 wrêcz wra¿enie i¿ to miejsce jest zaczarowane. Marzy ci siê aby usi±¶æ w
 cieniu dêbów i zostaæ tu ju¿ na zawsze... 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 38
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6401
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6401
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6464
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6464
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5139,77 +6472,76 @@ M 100 4353 3 6400 1
 M 100 4358 2 6400 2
 M 100 4355 3 6401 1
 M 100 4341 1 6402 1
-E 100 3003 0 8
-E 100 4371 0 5
-E 100 3050 0 7
+E 100 3072 0 8
+E 100 6446 0 5
+E 100 3382 0 7
 M 100 4348 1 6412 1
-O 100 3375 0 6414
+O 100 6414 0 6414
 M 100 4336 1 6415 1
 M 100 6464 1 6415 1
 M 100 6465 1 6415 1
 M 100 4354 3 6416 1
 M 100 4342 5 6417 1
-O 100 2359 0 6418
+O 100 6417 0 6418
 M 100 4343 1 6418 1
-E 100 4369 0 5
-E 100 3050 0 7
+E 100 3379 0 12
+E 100 3382 0 7
 G 100 4350 0
 M 100 4337 1 6419 1
-E 100 3300 0 16
-E 100 3025 0 5
-E 100 3050 0 7
-E 100 3001 0 8
-E 100 4427 0 12
+E 100 6428 0 16
+E 100 6412 0 5
+E 100 3382 0 7
+E 100 3380 0 8
+E 100 3375 0 12
 M 100 4338 1 6422 1
 E 100 559 0 17
-G 100 3178 0
-G 100 3157 0
-G 100 3179 0
+G 100 3084 0
+G 100 3071 0
+G 100 6427 0
 G 100 3097 0
 M 100 4339 1 6425 1
 E 100 6462 0 12
 M 100 4340 1 6425 1
-E 100 3003 0 8
-E 100 4367 0 5
-E 100 9132 0 1
-G 100 3333 0
-G 100 1733 0
-G 100 6077 0
-G 100 3132 0
-G 100 2460 0
+E 100 3072 0 8
+E 100 6454 0 5
+E 100 6449 0 1
+G 100 6416 0
+G 100 6401 0
+G 100 6415 0
+G 100 4348 0
+G 100 6461 0
 G 100 6460 0
 G 100 6476 0
-G 100 4348 0
-O 100 2358 0 6431
-O 100 2359 0 6431
+O 100 3399 0 6431
+O 100 6443 0 6431
 M 100 6417 8 6431 2
-E 100 4362 0 5
-E 100 4416 0 8
+E 100 6435 0 5
+E 100 3013 0 8
 M 100 6417 8 6431 2
-E 100 4362 0 5
-E 100 4416 0 8
+E 100 6435 0 5
+E 100 3013 0 8
 O 100 6470 0 6432
 M 100 6417 8 6432 1
-E 100 4416 0 8
+E 100 3013 0 8
 M 100 6417 8 6433 1
-E 100 4416 0 8
-E 100 4362 0 5
+E 100 3013 0 8
+E 100 6435 0 5
 M 100 6417 8 6435 2
-E 100 4416 0 8
-E 100 4362 0 5
+E 100 3013 0 8
+E 100 6435 0 5
 M 100 6417 8 6435 2
-E 100 4416 0 8
-E 100 4362 0 5
+E 100 3013 0 8
+E 100 6435 0 5
 E 100 6442 0 17
 O 100 6441 0 6435
 M 100 6436 1 6436 1
-E 100 4416 0 8
-E 100 4395 0 5
+E 100 3013 0 8
+E 100 6439 0 5
 E 75 6440 0 17
 O 100 6437 0 6437
 M 100 6437 1 6437 1
-E 100 4416 0 8
-E 100 4362 0 5
+E 100 3013 0 8
+E 100 6435 0 5
 M 100 4356 2 6438 1
 M 100 4354 3 6439 1
 M 100 4355 3 6440 1
@@ -5218,13 +6550,13 @@ M 100 4354 3 6441 1
 M 100 4356 2 6441 1
 M 100 4342 5 6442 1
 M 100 4346 1 6443 1
-E 100 9132 0 1
-E 100 3371 0 16
-E 100 3003 0 8
-E 100 4371 0 5
-E 100 3050 0 7
+E 100 6449 0 1
+E 100 6445 0 16
+E 100 3072 0 8
+E 100 3382 0 7
+E 100 6446 0 5
 E 100 6444 0 12
-O 100 2358 0 6443
+O 100 3399 0 6443
 O 100 1727 0 6443
 O 100 6413 0 6444
 O 100 6413 0 6444
@@ -5234,61 +6566,61 @@ O 100 6413 0 6444
 M 100 4344 1 6444 1
 E 100 3138 0 16
 E 100 6468 0 3
-E 100 4367 0 5
+E 100 6452 0 12
 G 100 6453 0
 G 100 6422 0
-G 100 3164 0
-G 100 3159 0
-G 100 3363 0
+G 100 6419 0
+G 100 6418 0
+G 100 3035 0
 M 100 4347 1 6445 1
 E 100 6450 0 3
-E 100 3371 0 16
-E 100 3003 0 8
+E 100 6445 0 16
+E 100 3072 0 8
 E 100 6444 0 12
-E 100 4371 0 5
-E 100 3050 0 7
-E 100 9132 0 1
-O 100 2358 0 6445
+E 100 6446 0 5
+E 100 3382 0 7
+E 100 6449 0 1
+O 100 3399 0 6445
 O 100 6409 0 6445
 P 100 6411 1 6409 1
 M 100 4345 1 6446 1
 G 100 6430 0
-E 100 6400 0 5
-G 100 4429 0
-G 100 3065 0
-G 100 4412 0
-G 100 246 0
+G 100 6431 0
+G 100 6432 0
+G 100 6433 0
+G 100 6488 0
+G 100 6434 0
 M 100 6458 5 6448 1
 E 100 6459 0 17
-E 100 4367 0 5
-E 100 3003 0 8
-O 100 2359 0 6448
+E 100 6454 0 5
+E 100 3072 0 8
+O 100 6404 0 6448
 M 100 4349 1 6448 1
 E 100 6407 0 6
 E 100 6406 0 15
 E 100 6406 0 14
-E 100 4367 0 5
-E 100 3003 0 8
-E 100 4427 0 12
-O 100 2359 0 6451
+E 100 6452 0 5
+E 100 3072 0 8
+E 100 3375 0 12
+O 100 6417 0 6451
 M 100 6451 1 6451 1
-E 100 4427 0 12
-E 100 3321 0 17
-E 100 3003 0 8
-E 100 4367 0 5
-E 100 9132 0 1
+E 100 3375 0 12
+E 100 6455 0 14
+E 100 3072 0 8
+E 100 6454 0 5
+E 100 6449 0 1
 M 100 6452 1 6452 1
 M 100 4355 3 6454 1
 M 100 6460 1 6455 1
 M 100 6456 1 6456 1
-E 100 4407 0 6
-E 100 4395 0 5
-O 100 2359 0 6457
+E 100 6456 0 6
+E 100 6439 0 5
+O 100 6464 0 6457
 M 100 6461 3 6457 1
-E 100 3179 0 16
-E 100 3018 0 5
-E 100 3050 0 7
-E 100 3066 0 9
+E 100 6427 0 16
+E 100 6465 0 5
+E 100 3382 0 7
+E 100 3378 0 9
 M 100 6406 1 6462 1
 M 100 6407 1 6463 1
 M 100 4353 3 6464 1
@@ -5298,15 +6630,15 @@ M 100 6459 1 6486 1
 E 100 6475 0 17
 E 100 6450 0 3
 E 100 4331 0 6
-E 100 4367 0 5
-E 100 3003 0 8
+E 100 6454 0 5
+E 100 3072 0 8
 E 100 6406 0 15
-O 100 2358 0 6486
+O 100 3399 0 6486
 O 100 6472 0 6486
 M 100 6458 5 6487 1
 E 100 6458 0 17
-E 100 3003 0 8
-E 100 4367 0 5
+E 100 3072 0 8
+E 100 6454 0 5
 O 100 6469 0 6487
 O 100 6471 0 6487
 M 100 6404 1 6488 1
@@ -5503,7 +6835,7 @@ if hasflag $n p_item
 if hasflag $n end_item
 else
 tell $n A wiêc jeste¶ paladynem! Wiêc oto co mam dla ciebie!
-mob oload 9124
+mob oload 6481
 give sygnet $n
 mob setflag $n end_item -1
 endif
@@ -5515,7 +6847,7 @@ if hasflag $n p_item
 if hasflag $n end_item
 else
 tell $n A wiêc jeste¶ wojownikiem! Wiêc oto co mam dla ciebie!
-mob oload 9122
+mob oload 6477
 give sygnet $n
 mob setflag $n end_item -1
 endif
@@ -5527,8 +6859,8 @@ if hasflag $n p_item
 if hasflag $n end_item
 else
 tell $n A wiêc jeste¶ barbarzyñc±! Wiêc oto co mam dla ciebie!
-mob oload 9125
-give "pierscien z brazu" $n
+mob oload 6478
+give sygnet $n
 mob setflag $n end_item -1
 endif
 endif
@@ -5538,7 +6870,7 @@ endif
 if hasflag $n p_item
   if !hasflag $n end_item
     tell $n A wiêc jeste¶ z³odziejem! Wiêc oto co mam dla ciebie!
-    mob oload 9123
+    mob oload 6479
     give sygnet $n
     mob setflag $n end_item -1
     break
@@ -5555,7 +6887,7 @@ if hasflag $n p_item
 if hasflag $n end_item
 else
 tell $n A wiêc masz do czynienia z magi±! Wiêc oto co mam dla ciebie!
-mob oload 9121
+mob oload 6480
 give pier¶cieñ $n
 mob setflag $n end_item -1
 endif
@@ -5574,11 +6906,11 @@ endif
 ~
 #6466
 ~
-mob equip self 3066
-mob equip self 3050
-mob equip self 3003
-mob equip self 3018
-mob equip self 3179
+mob equip self 3378
+mob equip self 3382
+mob equip self 3072
+mob equip self 6465
+mob equip self 6427
 ~
 #6490
 ~
@@ -5587,8 +6919,8 @@ if hasflag $n p_item
   if hasflag $n end_item
   else
     tell $n A wiêc jeste¶ czarnym rycerzem! Wiêc oto co mam dla ciebie!
-    mob oload 9133
-    give "szary krazek" $n
+    mob oload 6490
+    give sygnet $n
     mob setflag $n end_item -1
   endif
 endif
@@ -5715,7 +7047,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 $_bribe = 0
 if hasflag $n reg_ky_bribe
@@ -5740,7 +7072,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 if hasflag $n ky_wait
   $_czas = char_flag_value $n "ky_wait"
@@ -5804,7 +7136,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 $_type = 1
 $_bribe = 0
@@ -5859,7 +7191,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 $_type = 2
 $_bribe = 0
@@ -5914,7 +7246,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 $_type = 3
 $_bribe = 0
@@ -5969,7 +7301,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 $_type = 4
 $_bribe = 0
@@ -6023,7 +7355,7 @@ $_money_mant2 = 1000
 $_vnum_mant3 = 7803
 $_money_mant3 = 1500
 * rekawice
-$_vnum_mant4 = 29122
+$_vnum_mant4 = 7804
 $_money_mant4 = 750
 
 $_bribe = 0
@@ -6203,7 +7535,7 @@ if hasflag $n dal_mantykora
 if hasflag $n zaplacil_mantykora
 if hasflag $n reka_manty
 'A oto i twoje wspania³e rêkawice!
-mob oload 29122
+mob oload 7804
 give reka_manty $n
 mob removeflag $n dal_mantykora
 mob removeflag $n zaplacil_mantykora
@@ -6288,32 +7620,34 @@ endif
 #6422
 ~
 mob echoat $n Wypijasz szybko napój.
+delay 20
 mob echoat $n Tracisz na chwilê trze¼wo¶æ umys³u.
-minidelay 20
+mob reward $n wait 200
+delay 20
 mob echoat $n Powietrze faluje lekko przed Twymi oczami.
 mob echoaround $n $n wpatruje siê dziwnie przed siebie
-minidelay 20
+delay 20
 mob echoat $n Naga kobieta przybywa.
 mob echoaround $n $n wzdryga siê.
-minidelay 20
+delay 20
 mob echoat $n Rycerz chaosu rzuca siê do ataku na Ciebie!
 mob echoaround $n $n krzyczy g³o¶no unikaj±c niewidocznego ataku
-minidelay 20
+delay 20
 mob echoat $n S³yszysz krzyk jakiej¶ kobiety.
 mob echoaround $n $n dziwi siê.
-minidelay 20
+delay 20
 mob echoat $n Kto¶ ³apie Ciê za ramiê.
 mob echoaround $n $n zrzuca co¶ ze swego ramienia.
-minidelay 20
+delay 20
 mob echoat $n Upiór pojawia siê przed Tob± mówi±c 'Przyszed³em po Twoj± duszê'.
 mob echoaround $n Na ustach $n zamiera cichy krzyk.
-minidelay 20
+delay 20
 mob echoat $n Padasz na ziemiê ³api±c siê za g³owê.
 mob echoaround $n $n pada na ziemie ³api±c siê za g³owê.
-minidelay 20
+delay 20
 mob echoat $n Czujesz jak twoim cia³em targa ogromna energia pchaj±c ciê lekko do ty³u.
 mob echoaround $n $n zatoczy³ siê lekko do ty³u.
-minidelay 20
+delay 20
 mob echoat $n Czarny kot przebiega ci drogê.
 mob echoaround $n $n spluwa przez ramie.
 ~
@@ -6328,10 +7662,73 @@ mob echoat $n Jako¶ inaczej siê teraz czujesz.
 mob echoaround $n $n wygl±da teraz nieco... hmm... inaczej.
 endif
 ~
+#6464
+~
+~
 #6472
 ~
 mob echoat $n W {Wzwierciadle{x widzisz swoje odbicie.{x
 mob echoaround $n $n przygl±da siê swojemu odbiciu w {Wzwierciadle{x.
+~
+#6477
+~
+if wears $n 6477
+mob echoat $n Niestety nie mo¿esz nosiæ dwóch sygnetów.
+else
+obj wear 6477
+mob echoat $n Nak³adasz sygnet na palec.
+mob echoaround $n $n nak³ada sygnet na palec.
+endif
+~
+#6478
+~
+if wears $n 6478
+mob echoat $n Niestety nie mo¿esz nosiæ dwóch sygnetów.
+else
+obj wear 6478
+mob echoat $n Nak³adasz sygnet na palec.
+mob echoaround $n $n nak³ada sygnet na palec.
+endif
+~
+#6479
+~
+if wears $n 6479
+mob echoat $n Niestety nie mo¿esz nosiæ dwóch sygnetów.
+else
+obj wear 6479
+mob echoat $n Nak³adasz sygnet na palec.
+mob echoaround $n $n nak³ada sygnet na palec.
+endif
+~
+#6480
+~
+if wears $n 6480
+mob echoat $n Niestety nie mo¿esz nosiæ dwóch pier¶cieni czarów.
+else
+obj wear 6480
+mob echoat $n Nak³adasz pier¶cieñ czarów na palec.
+mob echoaround $n $n nak³ada pier¶cieñ czarów na palec.
+endif
+~
+#6481
+~
+if wears $n 6481
+mob echoat $n Niestety nie mo¿esz nosiæ dwóch sygnetów.
+else
+obj wear 6481
+mob echoat $n Nak³adasz sygnet na palec.
+mob echoaround $n $n nak³ada sygnet na palec.
+endif
+~
+#6490
+~
+if wears $n 6490
+  mob echoat $n Niestety nie mo¿esz nosiæ dwóch sygnetów.
+else
+  obj wear 6490
+  mob echoat $n Nak³adasz sygnet na palec.
+  mob echoaround $n $n nak³ada sygnet na palec.
+endif
 ~
 #6499
 ~
@@ -6340,9 +7737,16 @@ mob force arcturus placz
 #0
 
 #ROOMPROGSNEW
+#318
+{RFREE FREE FREE{x
+~
+~
 #6400
 ~
 mob echo Z po³udnia dochodzi g³o¶ny metaliczny d¼wiêk.
+~
+#6414
+~
 ~
 #6422
 ~

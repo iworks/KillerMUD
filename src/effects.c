@@ -26,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: effects.c 11986 2013-01-23 13:13:07Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/effects.c $
+ * $Id: effects.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/effects.c $
  *
  */
 #if defined(macintosh)
@@ -861,7 +861,7 @@ void sound_effect( void *vo, int level, int dam, int target )
             if ( number_percent() < dam - victim->resists[RESIST_SOUND]  )
             {
 				af.where = TO_AFFECTS;
-				af.type = gsn_deafness;
+				af.type = 169;
 				af.level = level;
 				af.duration = 3;
 				af.rt_duration = 0;

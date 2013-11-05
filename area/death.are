@@ -496,7 +496,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 12 100
@@ -724,7 +724,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 10 100
@@ -819,7 +819,7 @@ Mobend
 Name wampir wampirzyca mulghasha~
 Odmiana {rMulghashy{x~{rMulghashy{x~{rMulghashe{x~{rMulghash±{x~{rMulghashy{x~
 Short {rMulghasha{x~
-Long Wampir~
+Long {rWampirzyca Mulghasha, strazniczka Gildii Nekromantów stoi tutaj.{x~
 Descr Mulghasha by³a niegdy¶ s³ynna i nieustraszona wojowniczka, ws³awiona w
 licznych bitwach. Gdy zmar³a z honorami godnymi królowej pochowano ja na
 pobliskim cmentarzu. Jednak¿e nie by³o jej dane spoczywaæ w spokoju. Jej
@@ -1285,6 +1285,38 @@ Mobend
 
 
 #OBJECTS
+#Vnum 14011
+Name pier¶cieñ o³owiany szare kó³eczko~
+Odmiana {co³owianego pier¶cienia{x~{co³owianemu pier¶cieniowi{x~{co³owiany pier¶cieñ{x~{co³owianym pier¶cieniem{x~{co³owianym piersciepier¶cieniu{x~
+Short {co³owiany pier¶cieñ{x~
+Descr {cSzare kó³eczko z o³owiu turla sie po ziemi.{x~
+Material o³ów~
+Type jewelry
+ExtraExt 0|CG
+Wear AB
+Wear2Ext 0|B
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 6900
+Cond 100
+Aff 1 27 2 1 0 0
+Aff 1 13 -2 0 0 0
+Aff 1 12 5 3 0 0
+Extradesc napisy~
+Napisy na pier¶cieniu s± ca³kowicie nieczytelne.
+~
+Itemdesc {cTen niewielki pier¶cieñ ca³y wykonany jest z o³owiu, wygl±da na bardzo
+stary i ju¿ lekko zniszczony, o ile mo¿na tak powiedzieæ o bi¿uterii Kiedy¶
+pokrywa³y go jakie¶ napisy, mo¿e runy, lecz teraz zatar³y siê one
+ca³kowicie. {s 
+~
+Comments ~
+Objend
 #Vnum 14013
 Name szkielet~
 Odmiana szkieletu~szkieletowi~szkielet~szkieletem~szkielecie~
@@ -1296,11 +1328,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1317,11 +1349,11 @@ ExtraExt 0|CEG
 Wear AC
 Wear2Ext 1|Q
 Bonus 0
+Rent 40
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 3000
 Cond 100
@@ -1331,6 +1363,75 @@ nie ograniczyli sie tylko do wykorzystania cia³a umar³ego, ale sprowadzili z
 krainy cieni jego dusze. Ta zosta³a uwieziona w klejnocie i chc±c nie chc±c
 musi teraz chroniæ u¿ytkownika amuletu. 
 ~
+Comments ~
+Objend
+#Vnum 14015
+Name kaptur czarny pomiêty~
+Odmiana {Dkaptura{x~{Dkapturowi{x~{Dkaptur{x~{Dkapturem{x~{Dkapturze{x~
+Short {Dczarny kaptur{x~
+Descr Pomiêty kawa³ek czarnego materia³u poniewiera sie w kurzu.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 100
+Comments ~
+Objend
+#Vnum 14016
+Name kostur zakrwawiony d³ugi drewniany~
+Odmiana {rzakrwawionego kostura{x~{rzakrwawionemu kosturowi{x~{rzakrwawiony kostur{x~{rzakrwawionym kosturem{x~{rzakrwawionym kosturze{x~
+Short {rzakrwawiony kostur{x~
+Descr {rD³ugi drewniany kostur, pokryty zakrzep³a krwi± i tajemniczymi runami le¿y tutaj.{x~
+Material drewno~
+Type weapon
+ExtraExt 0|CEG
+Wear AN
+Wear2Ext 1|Q
+Bonus 0
+Rent 45
+LiczbaMnoga 0
+Gender 0
+Value 9 2 6 7 32 0 1
+Repair 0 0 0 0
+Weight 65
+Cost 10500
+Cond 100
+Itemdesc {rJest stosunkowo d³ugi i ciê¿ki, co powoduje ze u¿ywanie go wymaga pewnej
+wprawy. Za to jak juz kto¶ nim oberwie to mo¿e sie to skoñczyæ dla niego
+tragicznie. Kostur posiada dwa wygodne uchwyty i okute stal± koñce Kiedy
+bli¿ej przygl±dasz sie runom widzisz, ze bron ta wygl±da na dzie³o mrocznych
+magów {x 
+~
+Comments ~
+Objend
+#Vnum 14017
+Name ³añcuch zardzewialy~
+Odmiana zardzewia³ego ³añcucha~zardzewia³emu ³añcuchowi~zardzewia³y ³añcuch~zardzewia³ym ³añcuchem~zardzewia³ym lancuchu~
+Short zardzewia³y ³añcuch~
+Descr Zardzewia³y ³añcuch, prawdopodobnie ukradziony z jakiego¶ grobu.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 7 3 4 7 1024 -1 -1
+Repair 0 0 0 0
+Weight 120
+Cost 0
+Cond 100
 Comments ~
 Objend
 #Vnum 14019
@@ -1344,11 +1445,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1000 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1365,11 +1466,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 156
 LiczbaMnoga 0
 Gender 3
 Value 0 6 141 362 180 162 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 28020
 Cond 100
@@ -1379,6 +1480,202 @@ zawartej w niej mocy.
 Identdesc ~
 Comments ksiega oblakanego starucha - {RBrohacz{x ({CTue Sep  2 12:21:17 2008{x)
 ~
+Objend
+#Vnum 14021
+Name sanda³y czarne skóra~
+Odmiana {Dsanda³ów z czarnej skóry{x~{Dsanda³om z czarnej skóry{x~{Dsanda³y z czarnej skóry{x~{Dsanda³ami z czarnej skóry{x~{Dsanda³ach z czarnej skóry{x~
+Short {Dsanda³y z czarnej skóry{x~
+Descr Sanda³y wykonane z czarnej jak smo³a skóry le¿± tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 14011
+Rent 10
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 25
+Cond 75
+Objprog preremove 14013 100~
+Objprog prewear 14012 100~
+Itemdesc Spogl±dasz na te sanda³y wykonane z czarnej skóry, zastanawiasz siê czy
+stworzenie które nosi³o tê skórê by³o czarne czy mo¿e by wykonaæ tak czarne
+sanda³y wykorzystano odrobinê magii? 
+~
+Comments ~
+Objend
+#Vnum 14022
+Name cingulum pasek~
+Odmiana cingulum~cingulum~cingulum~cingulum~cingulum~
+Short cingulum~
+Descr D³ugi skórzany pasek le¿y zwiniêty w kacie.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 2
+Cond 89
+Comments ~
+Objend
+#Vnum 14023
+Name bechter zbroja~
+Odmiana bechtera~bechterowi~bechter~bechterem~bechterze~
+Short bechter~
+Descr Ciê¿ka, ale bardzo dobra zbroja le¿y w nie³adzie.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 125
+Cost 4800
+Cond 100
+Itemdesc To odmiana pancerza, wykonana z pod³u¿nych, nachodz±cych na siebie
+p³ytek, po³±czonych w pionowe rzêdy przy pomocy plecionki kolczej. Jest
+zbroj± o konstrukcji bardzo funkcjonalnej i przemy¶lanej. P³ytki w pionowych
+rzêdach nachodz± na siebie w oko³o 2/3 d³ugo¶ci. W momencie ciêcia czy
+sztychu trafiona p³ytka ¶ci±ga pod siebie dwie s±siednie - ochrona wzrasta
+trzykrotnie. 
+~
+Comments ~
+Objend
+#Vnum 14024
+Name bia³a szata~
+Odmiana bia³ej szaty~bia³ej szacie~bia³± szatê~bia³± szat±~bia³ej szacie~
+Short bia³a szata~
+Descr Na ziemi le¿y zwiniêta, ¶nie¿nobia³a szata.~
+Material jedwab~
+Type clothing
+ExtraExt 1|A
+Wear ACDI
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 10
+Cond 89
+Itemdesc ¦nie¿no bia³a szata o grubym podbiciu. Jest obszyta szerokim
+jasnopopielatym futrem na krawêdziach. Z tego samego futra zrobiony jest
+wysoki ko³nierz dziêki czemu szata doskonale ochrania przed zimnem. 
+~
+Comments ~
+Objend
+#Vnum 14025
+Name ber³o bojowe~
+Odmiana bojowego ber³a~bojowemu berle~bojowe ber³o~bojowym ber³em~bojowym berle~
+Short bojowe ber³o~
+Descr Bojowe ber³o z oplecionym rzemieniem, drewnianym trzonkiem.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 4 2 6 8 0 -1 1
+Repair 0 0 0 0
+Weight 100
+Cost 3300
+Cond 100
+Itemdesc Ber³o bojowe jest metalowa maczuga z gro¼nie wygl±daj±ca kula
+wyodrêbniona poni¿ej wierzcho³ka i z drewnianym, oplecionym skórzanym
+rzemieniem, uchwytem. 
+~
+Comments ~
+Objend
+#Vnum 14026
+Name barbuta he³m~
+Odmiana barbuty~barbucie~barbute~barbuta~barbucie~
+Short barbuta~
+Descr Wielki he³m z wyciêciem w kszta³cie litery T.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 4 5 4 10 9 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 3600
+Cond 100
+Itemdesc Potê¿ny, zas³aniaj±cy policzki he³m. Jedyna szczelina jest do¶æ szeroka,
+wyciêta w kszta³cie litery T, dziêki czemu he³m chroni równie¿ twarz przed
+cisami wroga, prawie tak dobrze jak he³m pe³en. 
+~
+Comments ~
+Objend
+#Vnum 14028
+Name tarcza solidna okr±g³a ¿elazna~
+Odmiana okr±g³ej ¿elaznej tarczy~okr±g³ej ¿elaznej tarczy~okr±g³± ¿elazn± tarcze~okr±g³± ¿elazn± tarcz±~okr±g³ej ¿elaznej tarczy~
+Short okr±g³a ¿elazna tarcza~
+Descr Solidna ¿elazna tarcza zosta³a tu przez kogo¶ porzucona.~
+Material ¿elazo~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 2 2 13 2 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 1800
+Cond 100
+Comments ~
+Objend
+#Vnum 14029
+Name okute skórzane buty~
+Odmiana okutych butów~okutym butom~okute buty~okutymi butami~okutych butach~
+Short okute skórzane buty~
+Descr Okute stal±, skórzane buty walaj± siê tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 1
+Gender 3
+Value 6 8 6 10 7 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 1200
+Cond 100
+Itemdesc Widzisz przed sob± pare solidnych, okutych skórzanych butów.
+~
+Identdesc ~
+Comments ~
 Objend
 #Vnum 14030
 Name trupi palec trupi-palec~
@@ -1391,12 +1688,12 @@ ExtraExt 0|E
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Komponent 1 6000
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 75
@@ -1417,12 +1714,12 @@ ExtraExt 0|E
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Komponent 1 3600
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 100
@@ -1446,11 +1743,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -1467,11 +1764,11 @@ ExtraExt 0|E
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1480,6 +1777,27 @@ poczernia³a. Potyliczna czê¶æ jest nieco pêkniêta, dok³adnie tam gdzie
 brakuje kawa³ka ko¶ci. Jest do¶æ ma³a jak na czaszkê cz³owieka, lecz nie
 w±tpisz w to, ¿e jej w³a¶ciciel nale¿a³ do tej rasy. 
 ~
+Comments ~
+Objend
+#Vnum 14034
+Name kosa krotka~
+Odmiana krótkiej kosy~krótkiej kosie~krotka kose~krotka kosa~krótkiej kosie~
+Short krotka kosa~
+Descr Niezbyt d³uga kosa o ostrzu pokrytym zakrzep³± krwi± le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 12
+LiczbaMnoga 0
+Gender 0
+Value 8 2 4 1 32 0 1
+Repair 0 0 0 0
+Weight 60
+Cost 1800
+Cond 70
 Comments ~
 Objend
 #Vnum 14035
@@ -1493,11 +1811,11 @@ ExtraExt 0|GS
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 55
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 27000
 Cond 15
@@ -1518,24 +1836,77 @@ Type clothing
 ExtraExt 0|CEGJL
 Wear AD
 Wear2Ext 0|O
-Bonus 0
+Bonus 14011
+Rent 15
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 55
 Cond 100
-Objprog prewear 14011 100~
 Objprog preremove 14014 100~
-Itemdesc Ta piêkna szata uszyta z czarnego i bardzo g³adkiego jedwabiu b³yszczy
-siê wszystkimi kolorami czerni. Jest zapewne droga i ekstrawagancka, jednak
-ca³e wra¿enie psuj± symbole czaszek i ko¶ci po bokach szaty. Kiedy¶ nale¿a³a
-chyba do jakiego¶ nekromanty. 
+Objprog prewear 14011 100~
+Itemdesc Ta piêkna szata uszyta z czarnego jedwabiu b³yszczy siê wszystkimi
+kolorami czerni. Jest zapewne droga i ekstrawagancka, jednak ca³e wra¿enie
+psuj± symbole czaszek i ko¶ci po bokach szaty. Kiedy¶ nale¿a³a chyba do
+jakiego¶ nekromanty. 
 ~
 Identdesc Szata ta zosta³a przeklêta mroczn± magi± tak ¿e tylko naprawdê ¼li
 magowie bêd± mogli j± za³o¿yæ. 
+~
+Comments ~
+Objend
+#Vnum 14037
+Name d³uga czarna suknia~
+Odmiana {Dd³ugiej, czarnej sukni{x~{Dd³ugiej, czarnej sukni{x~{Dd³ug±, czarn± sukniê{x~{Dd³ug±, czarn± sukni±{x~{Dd³ugiej, czarnej sukni{x~
+Short {Dd³uga, czarna suknia{x~
+Descr Le¿y tutaj piêkna, czarna suknia i czeka na now± w³a¶cicielkê.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 20
+Cond 100
+Itemdesc Spogl±dasz na piêknie skrojon± czarn± sukniê wykonan± z jedwabiu. Szewc
+który wykona³ to odzienie musia³ siê nie¼le namêczyæ by wykonaæ taki kawa³ek
+piêknego ubrania. Zastanawiasz siê tylko czy nie maczano w tym troszkê magii
+bo ino materia³ jest równo zabarwiony na czarny kolor. 
+~
+Comments ~
+Objend
+#Vnum 14051
+Name p³aszcz czarny~
+Odmiana {Dczarnego p³aszcza z zapink±{x~{Dczarnemu p³aszczowi z zapink±{x~{Dczarny p³aszcz z zapink±{x~{Dczarnym p³aszczem z zapink±{x~{Dczarnym p³aszczu z zapink±{x~
+Short {Dczarny p³aszcz z zapink±{x~
+Descr Czarny skórzany p³aszcz z klamr± poniewiera siê tutaj...~
+Material skóra~
+Type clothing
+ExtraExt 0|CEJL
+Wear AK
+Wear2Ext 0
+Bonus 14011
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 26
+Cost 20
+Cond 78
+Objprog preremove 14016 100~
+Objprog prewear 14015 100~
+Itemdesc Spogl±dasz na czarny skórzany p³aszcz, twój wzrok przyci±ga klamra która
+zosta³a wykonana z jakiej¶ dziwnie bia³ej ko¶ci, przechodzi ciê dreszcz gdy
+u¶wiadamiasz sobie, ¿e od tego p³aszcza bije jaka¶ dziwna mroczna aura. 
 ~
 Comments ~
 Objend
@@ -1550,11 +1921,11 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1574,11 +1945,11 @@ ExtraExt 0|FGT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 156
 LiczbaMnoga 0
 Gender 3
 Value 0 6 179 136 436 413 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 28020
 Cond 100
@@ -1600,11 +1971,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0|O
 Bonus 0
+Rent 48
 LiczbaMnoga 0
 Gender 0
 Value 0 3 481 443 493 357 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 8580
 Cond 100
@@ -1623,20 +1994,20 @@ ExtraExt 0|ADEGHJLMYZ
 Wear AQ
 Wear2Ext 0|BCDKLMc
 Bonus 0
+Rent 140
 LiczbaMnoga 0
 Gender 0
 Value 1 0 -1 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 6000
 Cond 100
-Aff 1 27 3 1 0 0
-Aff 1 4 -2 0 0 0
-Aff 1 27 2 1 0 0
-Aff 1 27 1 1 0 0
-Aff 1 9 10 0 0 0
 Aff 1 12 15 10 0 0
+Aff 1 9 10 0 0 0
+Aff 1 27 1 1 0 0
+Aff 1 27 2 1 0 0
+Aff 1 4 -2 0 0 0
+Aff 1 27 3 1 0 0
 Extradesc _czaszka~
 Przez chwilê wydaje ci siê, ¿e szczêka uderzy ci o ziemiê na widok $z!
 Trudno w to uwierzyæ... Ale nad $s unosi siê autentyczna, bia³a, strasz±ca
@@ -1644,8 +2015,8 @@ pustymi oczodo³ami {wczaszka{x! Z przera¿eniem zauwa¿asz, ¿e jej oczodo³y jednak
 nie s± takie puste, pal± siê w nich dwa zimne, b³êkitne ognie, które zdaj±
 siê o¶wietlaæ $x drogê. Makabryczny widok! 
 ~
-Objprog wear 14063 100~
 Objprog random zla_czaszka_gg 10~
+Objprog wear 14063 100~
 Itemdesc Jest to bardzo potê¿ny artefakt, sporz±dzony przed wiekami przez
 nieznanego z imienia maga. Zaklêta w czaszce moc pozwala w³a¶cicielowi na
 doskonalsze panowanie nad Magi±, sprawia równie¿, ¿e jej posiadacz chroniony
@@ -1669,11 +2040,11 @@ ExtraExt 0|EG
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 0 0 17151 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1690,11 +2061,11 @@ ExtraExt 0|AS
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 8
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 4500
 Cond 100
@@ -1715,14 +2086,41 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 2100
 Cost 0
 Cond 75
+Comments ~
+Objend
+#Vnum 14069
+Name ksiêga magiczna~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short magiczna ksiêga z czarem 'uderzenie mocy'~
+Descr Le¿y tu ksiêga, na której kartach zapisano formu³ê jakiego¶ zaklêcia.~
+Material papier~
+Type spellbook
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 10 163 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2834040
+Cond 100
+Itemdesc Jest to zwyk³a ksiêga, bez ¿adnych ozdób. Papierowe karty s± czyste i nie
+pogniecione. Widaæ, ¿e ksiêga ta ca³kiem niedawno wysz³a spod rêki jakiego¶
+kopisty. Zawiera ona w sobie wszystkie informacje na temat jednego,
+wybranego zaklêcia. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 14070
@@ -1736,11 +2134,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 10 1 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 1046640
 Cond 100
@@ -1763,11 +2161,11 @@ ExtraExt 0|GTd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 7 436 0 295 213 73
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 54000
 Cond 100
@@ -1789,11 +2187,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0|O
 Bonus 0
+Rent 20
 LiczbaMnoga 0
 Gender 0
 Value 0 2 69 482 65 149 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 3600
 Cond 100
@@ -1814,11 +2212,11 @@ ExtraExt 0|GTd
 Wear AO
 Wear2Ext 0|O
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 3 373 71 443 404 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 12000
 Cond 100
@@ -1838,11 +2236,11 @@ ExtraExt 0|GTd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 4 232 201 198 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2400
 Cond 100
@@ -1863,11 +2261,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 156
 LiczbaMnoga 0
 Gender 3
 Value 0 6 204 477 479 163 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 28020
 Cond 100
@@ -1889,11 +2287,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 197
 LiczbaMnoga 0
 Gender 0
 Value 0 7 176 182 178 218 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 35520
 Cond 100
@@ -1915,11 +2313,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 80
 LiczbaMnoga 0
 Gender 0
-Value 0 4 228 0 353 459 232
+Value 0 4 228 441 353 481 232
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 14460
 Cond 100
@@ -1941,11 +2339,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 48
 LiczbaMnoga 0
 Gender 0
 Value 0 3 484 69 65 381 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 8580
 Cond 100
@@ -1967,11 +2365,11 @@ ExtraExt 0|Td
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 300
 LiczbaMnoga 0
 Gender 0
 Value 1 5 476 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 30000
 Cond 100
@@ -2001,25 +2399,36 @@ ExitExtDescription ~
 ExitExtBiernik bramê~
 ExitExtName brama~
 ExitExtLiczba 0
-ExitExtInfo 8195
+ExitExtInfo 3
 ExitExtKey 0
 ExitExtToVnum 14012
 ExitExtEnd
 Exit 0
 ~
 brama~
-8195 0 14012
+3 0 14012
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 16120
+ExitExtToVnum 18410
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 16120
+0 0 18410
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 18184
+ExitExtEnd
+Exit 3
+~
+~
+16 0 18184
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2051,14 +2460,14 @@ ExitExtDescription ~
 ExitExtBiernik bramê~
 ExitExtName brama~
 ExitExtLiczba 0
-ExitExtInfo 8195
+ExitExtInfo 3
 ExitExtKey 0
 ExitExtToVnum 14011
 ExitExtEnd
 Exit 2
 ~
 brama~
-8195 0 14011
+3 0 14011
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3444,6 +3853,17 @@ Exit 0
 ~
 ~
 0 0 14051
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40184
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40184
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3921,14 +4341,14 @@ podlodze.
 ~
 FlagsExt 0
 Sector 0
-Extra klapa~
-Klapa jest dosyc ciezka i okuta brazowa blacha, jak sie zawezmiesz to uda
-Ci sie ja otworzyc. A jak nie to lepiej potrenuj miesnie. 
-~
 Extra zacieki~
 No, dziura to tego jeszcze nazwac nie mozna, ale jak ktos sie za ten
 pekajacy mur nie wezmie to pewnie w ciagu kilku lat sytuacja tylko sie
 pogorszy. 
+~
+Extra klapa~
+Klapa jest dosyc ciezka i okuta brazowa blacha, jak sie zawezmiesz to uda
+Ci sie ja otworzyc. A jak nie to lepiej potrenuj miesnie. 
 ~
 ExitExt 5
 ExitExtDescription ~
@@ -4515,39 +4935,39 @@ S
 M 100 14013 1 14013 1
 O 100 14013 0 14013
 M 100 14019 5 14014 5
-E 100 3163 0 16
+E 100 14034 0 16
 M 100 14011 2 14015 2
-E 100 3158 0 16
+E 100 3069 0 16
 M 100 14019 5 14017 5
-E 100 3162 0 16
+E 100 14017 0 16
 M 100 14019 5 14019 5
-E 100 3163 0 16
+E 100 14034 0 16
 O 30 14013 0 14020
 M 100 14011 2 14021 2
-E 100 3158 0 16
+E 100 3069 0 16
 O 30 14013 0 14022
 M 100 14033 1 14022 1
 E 100 2884 0 5
 M 100 14019 5 14025 5
-E 100 3163 0 16
+E 100 14034 0 16
 M 100 14027 1 14027 1
 O 30 14013 0 14030
 M 100 14031 1 14031 1
 M 100 14034 1 14034 1
 M 100 14019 5 14035 5
-E 100 3162 0 16
+E 100 14017 0 16
 M 100 14012 1 14037 1
 O 100 14013 0 14038
 M 100 11806 1 14039 1
 M 100 14069 1 14043 1
-E 100 3016 0 8
-E 100 3301 0 11
-E 100 3051 0 7
-E 100 3042 0 6
-E 100 3160 0 16
-E 100 4375 0 5
-E 100 3025 0 5
-E 100 4425 0 13
+E 100 14029 0 8
+E 100 14028 0 11
+E 100 3092 0 7
+E 100 14026 0 6
+E 100 14025 0 16
+E 100 14024 0 12
+E 100 14023 0 5
+E 100 14022 0 13
 O 30 14013 0 14045
 M 100 14046 2 14045 2
 E 100 3149 0 16
@@ -4560,52 +4980,52 @@ M 100 14045 6 14048 6
 M 100 14045 6 14048 6
 M 100 14045 6 14048 6
 M 100 14051 1 14051 1
-E 100 3050 0 7
-E 100 3001 0 8
-E 100 3018 0 5
-E 100 3171 0 19
-E 100 3152 0 16
-E 100 4426 0 12
+E 100 3382 0 7
+E 100 3380 0 8
+E 100 3381 0 5
+E 100 28806 0 19
+E 100 28807 0 16
+E 100 14051 0 12
 O 100 14068 0 14051
 O 30 14013 0 14056
 M 100 14061 1 14061 1
-E 100 4363 0 5
-E 100 4416 0 8
-E 100 4406 0 6
+E 100 3012 0 5
+E 100 3013 0 8
+E 100 14015 0 6
 M 100 14057 1 14061 1
-E 100 4363 0 5
-E 100 4416 0 8
-E 100 4406 0 6
+E 100 3012 0 5
+E 100 3013 0 8
+E 100 14015 0 6
 M 100 14063 1 14063 1
-E 100 4416 0 8
-E 100 3371 0 16
+E 100 3013 0 8
+E 100 14016 0 16
 E 60 14014 0 3
-E 100 4406 0 6
+E 100 14015 0 6
 E 100 14036 0 5
 M 100 14064 1 14064 1
-E 100 4363 0 5
-E 100 4416 0 8
+E 100 3012 0 5
+E 100 3013 0 8
 M 100 14066 1 14064 1
-E 100 4363 0 5
-E 100 4416 0 8
+E 100 3012 0 5
+E 100 3013 0 8
 E 100 14067 0 6
-E 100 4363 0 5
-E 100 4416 0 8
+E 100 3012 0 5
+E 100 3013 0 8
 E 100 14067 0 6
-G 100 4406 0
-G 100 4363 0
+G 100 14015 0
+G 100 3012 0
 G 100 14036 0
-G 100 4426 0
-G 100 4390 0
-G 100 3057 0
-G 100 4398 0
-G 100 4415 0
+G 100 14051 0
+G 100 14037 0
+G 100 3088 0
+G 100 3335 0
+G 100 14021 0
 G 100 14059 0
-G 100 3057 0
+G 100 3088 0
 M 100 14067 1 14067 1
 E 100 14067 0 6
-E 100 4416 0 8
-E 100 4390 0 5
+E 100 3013 0 8
+E 100 14037 0 5
 M 100 14016 2 14075 1
 M 100 14018 1 14076 1
 M 100 14016 2 14078 1
@@ -4771,7 +5191,7 @@ endif
 #14016
 ~
 if rand 75
-  mob equip self 9120
+  mob equip self 14011
 endif
 if rand 55
   mob oload 14072
@@ -5201,6 +5621,17 @@ mob transfer $n 14059
 
 
 #BONUS_SET
+#Vnum 14011
+Name {DCzarne okrycie u nekromanty{x~
+Aff 1 21 -5 0 0 0
+Aff 1 20 -2 0 0 0
+WearProg mob echoat $n Ubierasz siê ca³y w czarny, mroczny strój.
+mob echoaround $n Spogl±dasz ze zdziwieniem na $c zauwa¿aj±c, ¿e $ns postaæ okryta jest czarn± szat±.
+~
+RemoveProg mob echoat $n Czujesz siê trochê mniej pewnie, gdy zdejmujesz z siebie czarne okrycie.
+mob echoaround $n Spogl±dasz ze zdziwieniem na $c zauwa¿aj±c, ¿e $s postaæ nie jest okryta ju¿ czarn± szat±.
+~
+BonusEnd
 #Vnum 0
 
 #$

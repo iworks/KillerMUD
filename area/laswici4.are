@@ -877,8 +877,6 @@ Form CIMW
 Parts ABCGHIJKPU
 Size large
 Material unknown
-Comments doda³em resisty od ognia, kwasu i elektrycznosci. - {RAnnor{x ({CThu Jan 10 06:50:10 2013{x)
-~
 MobprogNew death widmo_wilk ABCDEFGHI 100~
 Spells 415 185 201 177
 Spells 310 87 94 311
@@ -888,10 +886,7 @@ Corpse -1
 Skin 100
 ExpMultiplier 200
 Resist 4 25
-Resist 5 20
-Resist 7 100
 Resist 8 100
-Resist 9 20
 Resist 10 100
 Resist 11 3
 Resist 12 100
@@ -1296,10 +1291,10 @@ Size medium
 Material unknown
 MobprogNew death ko¶ciej_death ABCDEFGHI 100~
 Spells 216 199 281 183
-Spells 367 91 366 185
+Spells 367 91 365 185
 Spells 296 310 228 229
 Spells 307 364 391 0
-Corpse 3369
+Corpse 25667
 Skin 100
 ExpMultiplier 230
 Resist 1 20
@@ -2099,7 +2094,7 @@ Parts VXYZ
 Size medium
 Material unknown
 MobprogNew death lisciotrup_deat ABCDEFGHI 100~
-Corpse 3369
+Corpse 25804
 Skin 100
 ExpMultiplier 100
 Resist 1 25
@@ -2152,7 +2147,7 @@ Material unknown
 Comments za du¿y resist na k³uj±ce - 10 zamiast 25 wystarczy - {RRysand{x ({CTue Jul 28 00:00:18 2009{x)
 ~
 MobprogNew death lisciotrup_deat ABCDEFGHI 100~
-Corpse 3369
+Corpse 25804
 Skin 100
 ExpMultiplier 100
 Resist 1 10
@@ -2206,7 +2201,7 @@ Material unknown
 Comments za du¿y resist na k³uj±ce - 10 zamiast 25 wystarczy - {RRysand{x ({CTue Jul 28 00:01:29 2009{x)
 ~
 MobprogNew death lisciotrup_deat ABCDEFGHI 100~
-Corpse 3369
+Corpse 25804
 Skin 100
 ExpMultiplier 110
 Resist 1 10
@@ -2343,7 +2338,7 @@ Group 0
 Lang AC
 Speaks 2
 Level 16
-Hitroll 2
+Hitroll 4
 HP 81d2+320
 Damage 2d5+0
 Dammagic 0
@@ -2443,6 +2438,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 25001
+Name d³uga ga³±¼~
+Odmiana d³ugiej ga³êzi~d³ugiej ga³êzi~d³ug± ga³±¼~d³ug± ga³êzi±~d³ugiej ga³êzi~
+Short d³uga ga³±¼~
+Descr Znad ¶ció³ki le¶nej wystaje d³uga ga³±¼.~
+Material drewno~
+Type trash
+ExtraExt 0|X
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 1
+Cond 75
+Comments ~
+Objend
 #Vnum 25002
 Name kamieñ du¿y mech~
 Odmiana kamienia~kamieniowi~kamieñ~kamieniem~kamieniu~
@@ -2454,12 +2470,33 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 25003
+Name ga³±¼ niedu¿a mech~
+Odmiana ga³êzi~ga³êzi~ga³±¼~ga³êzi±~ga³êzi~
+Short ga³±¼~
+Descr Niedu¿a, pokryta mchem ga³±¼, wystaje lekko znad ¶ció³ki.~
+Material drewno~
+Type trash
+ExtraExt 0|X
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 300
 Cost 1
 Cond 75
 Comments ~
@@ -2475,11 +2512,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 1
 Cond 75
@@ -2496,11 +2533,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2521,11 +2558,11 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 16
 Cost 1
 Cond 75
@@ -2539,6 +2576,27 @@ blaskiem.
 ~
 Comments ~
 Objend
+#Vnum 25400
+Name magiczna ksiêga czarów~
+Odmiana magicznej ksiêgi czarów~magicznej ksiêdze czarów~magiczn± ksiêgê czarów~magiczn± ksiêg± czarów~magicznej ksiêdze czarów~
+Short magiczna ksiêga czarów~
+Descr Magiczna ksiêga czarów pulsuje ukryt± moc±.~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 197
+LiczbaMnoga 0
+Gender 0
+Value 0 7 218 70 333 141 0
+Repair 0 0 0 0
+Weight 1
+Cost 35520
+Cond 75
+Comments ~
+Objend
 #Vnum 25651
 Name bry³ka z³ota z³oto spora l¶ni±ca~
 Odmiana {Ybry³ki z³ota{x~{Ybry³ce z³ota{x~{Ybry³kê z³ota{x~{Ybry³k± z³ota{x~{Ybry³ce z³ota{x~
@@ -2550,14 +2608,49 @@ ExtraExt 0|ASWe
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 567
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 45
 Cost 28800
 Cond 75
+Comments ~
+Objend
+#Vnum 25652
+Name d³uga kaszmirowa szara szata~
+Odmiana {wszarej szaty{x~{wszarej szacie{x~{wszar± szatê{x~{wszar± szat±{x~{wszarej szacie{x~
+Short {wszara szata{x~
+Descr {wD³ugie, szare przykrycie cia³a, le¿y tutaj.{x~
+Material kaszmir~
+Type clothing
+ExtraExt 0|GHJT/1|A
+Wear ADIL
+Wear2Ext 0
+Bonus 0
+Rent 92
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 112
+Cond 75
+Aff 1 27 5 1 0 0
+Aff 1 13 -7 0 0 0
+Extradesc _25652~
+{wWidzisz, ¿e $n ma na sobie mroczn±, szar± szatê, dziêki której wygl±da
+tajemniczo i mrocznie. Twarz $z wygl±da jakby powa¿niej, inaczej, zupe³nie
+jakby szata mia³a na to jaki¶ wp³yw... {x
+~
+Itemdesc Jest to do¶æ d³uga, we³niana, ciemnoszara szata. Bije od niej tajemnicza,
+ciemna, mroczna aura. Na tylnej czê¶ci ma ona co¶, co jest chyba malowid³em,
+przedstawiaj±cym wysokiego, mrocznego nekromante z dziwnym grymasem twarzy,
+wyci±gaj±cemu dwie rêce wysoko w górê. Najprawdopodobniej w trakcie rzucania
+zaklêcia. Dziwna, nekromancka magia, która oddzia³uje na szatê sprawia, ¿e
+zabiera ona u¿ywaj±cemu j± nieco si³ witalnych. 
+~
 Comments ~
 Objend
 #Vnum 25655
@@ -2571,11 +2664,11 @@ ExtraExt 0|Xd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 0
 Cond 75
@@ -2592,11 +2685,11 @@ ExtraExt 0|GHd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 25656 25657 25658 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 5400
 Cond 75
@@ -2618,11 +2711,11 @@ ExtraExt 0|Gd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 25656 25657 25658 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 4200
 Cond 75
@@ -2644,11 +2737,11 @@ ExtraExt 0|Gd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 8400
 Cond 75
@@ -2670,11 +2763,11 @@ ExtraExt 0|Gd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 25658 25659 25660 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 6000
 Cond 75
@@ -2695,11 +2788,11 @@ ExtraExt 0|Gd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 100
 Cond 75
@@ -2707,6 +2800,178 @@ Itemdesc Jest to do¶æ du¿y, srebrny klucz. Ró¿ni sie on od innych kluczy tym, ¿e
 pulsuje jak±¶ niezwyk³±, magiczn± moc±. W jednym miejscu dostrzegasz ma³y,
 wyryty rusunek, przedstawi±cy pulsuj±c± czerwonym ¶wiat³em, pomarszczon±
 rêkê jakiego¶ starca. Poza tym nie ma on ¿adnych znaków szczególnych. 
+~
+Comments ~
+Objend
+#Vnum 25661
+Name antyczna kosa~
+Odmiana antycznej kosy~antycznej kosie~antyczn± kosê~antyczn± kos±~antycznej kosie~
+Short antyczna kosa~
+Descr Antyczna kosa le¿y tutaj porzucona.~
+Material stal~
+Type weapon
+ExtraExt 0|BGJLMS
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 295
+LiczbaMnoga 0
+Gender 3
+Value 8 4 4 1 160 1 0
+Repair 0 0 0 0
+Weight 200
+Cost 54000
+Cond 75
+Itemdesc Jest to ¶redniej wielko¶ci kosa. Nie wyró¿nia siê w sumie niczym
+wyj±tkowym, poza tym, ¿e jej ostrze wydaje siê byæ lekko poszczerbione i
+poplamione dziwnymi plamami. 
+~
+Comments ~
+Objend
+#Vnum 25662
+Name antyczna zbroja~
+Odmiana {Dantycznej zbroi{x~{Dantycznej zbroi{x~{Dantyczn± zbrojê{x~{Dantyczn± zbroj±{x~{Dantycznej zbroi{x~
+Short {Dantyczna zbroja{x~
+Descr Antyczna, okuta zbroja emanuje mroczn± aur±.~
+Material stal~
+Type armor
+ExtraExt 0|BCEGJL
+Wear AD
+Wear2Ext 0|ABCM
+Bonus 25660
+Rent 78
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 18000
+Cond 75
+Aff 1 17 -5 0 0 0
+Aff 1 4 -1 0 0 0
+Aff 1 12 8 5 0 0
+Aff 1 29 -1 0 0 0
+Aff 1 5 -1 0 0 0
+Comments ~
+Objend
+#Vnum 25663
+Name antyczna przy³bica~
+Odmiana {Dantycznej przy³bicy{x~{Dantycznej przy³bicy{x~{Dantyczn± przy³bicê{x~{Dantyczn± przy³bic±{x~{Dantycznej przy³bicy{x~
+Short {Dantyczna przy³bica{x~
+Descr {DAntyczna przy³bica emanuje mroczn± aur±.{x~
+Material stal~
+Type armor
+ExtraExt 0|BCEGJLS
+Wear AE
+Wear2Ext 0|ABCM
+Bonus 25660
+Rent 66
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 9000
+Cond 75
+Itemdesc Spogl±dasz na kawa³ek stali, mrocznej stali. Wygl±da na to, ¿e jaki¶
+zdolny kowal wykona³ ten he³m z jednego stalowego kawa³ka. Chocia¿ przy³bica
+jest jakby przymocowana do reszty za pomoc± czego¶, co przypomina zawiasy.
+Pomimo, ¿e he³m jest zapewne wiekowy, niejeden rycerz chcialby taki
+posiadaæ... 
+~
+Comments ~
+Objend
+#Vnum 25664
+Name antyczne buty~
+Odmiana {Dantycznych butów{x~{Dantycznym butom{x~{Dantyczne buty{x~{Dantycznymi butami{x~{Dantycznych butach{x~
+Short {Dantyczne buty{x~
+Descr {DAntyczne buty emanuj± mroczn± aur±.{x~
+Material stal~
+Type armor
+ExtraExt 0|BCEGJLS
+Wear AG
+Wear2Ext 0|ABCM
+Bonus 25660
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Masz przed sob± parê stalowych butów, te dwa kawa³ki mrocznej stali maj±
+przynajmniej kilkaset lat. Pomimo, ¿e wygl±daj± na bardzo stare, to nie s±
+zbyt mocno zniszczone. Bije od nich niezwyk³a, zimna i mroczna aura. Nie
+jeste¶ pew<&ien/na/ne>, czy warto je zak³adaæ. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 25665
+Name okute buty~
+Odmiana okutych butów~okutym butom~okute buty~okutymi butami~okutych butach~
+Short okute buty~
+Descr Okute buty emanuj± mroczn± aur±.~
+Material stal~
+Type armor
+ExtraExt 0|BCEGJLS
+Wear AG
+Wear2Ext 0|ABCM
+Bonus 0
+Rent 12
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 75
+Identdesc ~
+Comments ~
+Objend
+#Vnum 25666
+Name okuty he³m~
+Odmiana okutego he³mu~okutemu he³mowi~okuty he³m~okutym he³mem~okutym he³mie~
+Short okuty he³m~
+Descr Okuty he³m emanuje mroczn± aur±.~
+Material stal~
+Type armor
+ExtraExt 0|BCEGJLS
+Wear AE
+Wear2Ext 0|ABCM
+Bonus 0
+Rent 16
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 3000
+Cond 75
+Comments ~
+Objend
+#Vnum 25667
+Name ko¶ci kupka~
+Odmiana kupki ko¶ci~kupce ko¶ci~kupkê ko¶ci~kupk± ko¶ci~kupce ko¶ci~
+Short kupka ko¶ci~
+Descr Niedu¿a kupka ko¶ci le¿y tu w nie³adzie.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 200
+Cost 60
+Cond 50
+Itemdesc Jest to spora kupka ko¶ci le¿±cych na ziemi w nie³adzie. Jest to
+pozosta³o¶æ po jakim¶ liczu... 
 ~
 Comments ~
 Objend
@@ -2721,11 +2986,11 @@ ExtraExt 0|D
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 335 25660 100 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 60
 Cond 75
@@ -2735,6 +3000,71 @@ ogl±daæ. Po bokach ma ona dwie, du¿e srebrne r±czki, ale mimo wszystko nie
 ma najmniejszych szans jej podnie¶æ. Na górnej, zamykanej czê¶ci widnieje
 jaki¶ znak, przedstawiaj±cy czaszkê ziej±c± ogniem. 
 ~
+Comments ~
+Objend
+#Vnum 25669
+Name magiczna ksiêga czarna skóra skórzana~
+Odmiana {Dczarnej ksiêgi{x~{Dczarnej ksiêdze{x~{Dczarn± ksiêgê{x~{Dczarn± ksiêg±{x~{Dczarnej ksiêdze{x~
+Short {Dczarna ksiêga{x~
+Descr {DMagiczna ksiêga oprawiona w czarn± skórê pulsuje moc±.{x~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 9 279 311 217 312 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 25670
+Name ksiêga zaklêæ tajemnicza magiczna~
+Odmiana {wtajemniczej ksiêgi zaklêæ{x~{wtajemniczej ksiêdze zaklêæ{x~{wtajemnicz± ksiêgê zaklêæ{x~{wtajemnicz± ksiêg± zaklêæ{x~{wtajemniczej ksiêdze zaklêæ{x~
+Short {wtajemnicza ksiêga zaklêæ{x~
+Descr {wTajemnicza ksiêga zaklêæ pulsuje ukryt± moc±.{x~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+Rent 197
+LiczbaMnoga 0
+Gender 0
+Value 0 7 489 406 487 316 73
+Repair 0 0 0 0
+Weight 1
+Cost 35520
+Cond 75
+Itemdesc Ksiêga ta jest ju¿ w bardzo kiepskim stanie, na pewno liczy sobie wiele lat.
+~
+Comments ~
+Objend
+#Vnum 25671
+Name ksiêga tajemna magii magiczna tajemnicza~
+Odmiana ksiêgi tajmenej magii~ksiêdze tajemnej magii~ksiêgê tajemnej magii~ksiêg± tajemnej magii~ksiêdze tajemnej magii~
+Short {Dksiêga tajemnej magii{x~
+Descr {DKsiêga tajemnej magii pulsuje magiczn± moc±.{x~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 4 402 0 402 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 300000
+Cond 80
 Comments ~
 Objend
 #Vnum 25800
@@ -2748,23 +3078,54 @@ ExtraExt 0|CGd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1000
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
-Objprog input 25800 rzucaj~
-Objprog input 25800 rzuc~
 Objprog input 25800 rzuc~
 Objprog input 25800 rzucaj~
 Objprog input 25800 rzucaj~
 Objprog input 25800 rzuc~
+Objprog input 25800 rzuc~
+Objprog input 25800 rzucaj~
 Itemdesc {DDziwna jest ta ko¶æ do gry, krwistoczerwona ze s³owami miast liczb.
 Sprawia na tobie z³owieszcze wra¿enie, jakby w ¶rodku czai³ sie jaki¶
 pradawny, z³y duch gotowy spe³niæ wyroki na ¶cinach ko¶ci zapisane.{x 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 25801
+Name pradawna kosa ostra ze smoczego zêbu~
+Odmiana pradawnej kosy~pradawnej kosie~pradawn± kose~pradawn± kos±~pradawnej kosie~
+Short pradawna zakrwawiona kosa~
+Descr Le¿y tutaj na ziemi kosa, pokryta rdz± jednak ci±gle ostra niczym brzytwa.~
+Material smoczy z±b~
+Type weapon
+ExtraExt 0|BGJL
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 666
+LiczbaMnoga 0
+Gender 3
+Value 8 3 5 42 168 3 3
+Repair 0 0 0 0
+Weight 350
+Cost 300000
+Cond 100
+Itemdesc Ta olbrzymia kosa bojowa kiedy¶ na pewno by³a arcydzie³em, jednak obecnie
+zdobienia stopi³y siê a drewno przegni³o. Broñ ta przetrwa³a d³ugie
+tysi±celecia by w koñcu dostaæ siê w rêce jednego Ksi±¿±t otch³ani. Po
+heroicznej walce, demon zosta³ pokonany i odes³any do rodzimego wymiaru,
+jednak jego broñ zosta³a. Kiedy¶ by³a to napewno broñ godna Bogów, ¶cina³a
+niezliczone ilo¶ci stworzeñ tak i¿ aromat krwi unosi siê dooko³a niej. Tylko
+naprawde z³a istota mo¿e dzierzyæ t± broñ. Zosta³a ona wykonana z ko¶ci
+smoków na pocz±tku czasu i przetrwa, w tej czy innej postaci po jego koniec.
 ~
 Identdesc ~
 Comments ~
@@ -2780,11 +3141,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 100 0 0 100 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -2807,11 +3168,11 @@ ExtraExt 0|ADd
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 1000
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 15000000
 Cond 100
@@ -2825,6 +3186,175 @@ amuletu emanuje potê¿na, wrêcz namacalna magia. Mo¿e warto?
 Identdesc ~
 Comments ~
 Objend
+#Vnum 25804
+Name kupka ko¶ci~
+Odmiana kupki ko¶ci~kupce ko¶ci~kupkê ko¶ci~kupk± ko¶ci~kupce ko¶ci~
+Short kupka ko¶ci~
+Descr Kupka po¿ó³k³ych ko¶ci powi±zanych ze sob± jakim¶ bluszczem le¿y tutaj.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 352
+Cost 60
+Cond 1
+Itemdesc Ta spora kupka ko¶ci to zapewne pozosta³o¶æ po jakim¶ li¶ciotrupie. Mocno
+pogruchotane, po³amane i powykrzywiane ko¶ci nadal przypominaj± swym
+u³o¿eniem jakiego¶ humanoida, a znajduj±ce siê w jego wnêtrzu, gêsto rosn±ce
+ro¶linki poprzyczepia³y siê do chyba ka¿dej jego ko¶ci przejmuj±c nad
+szkieletem kontrolê. Przez stan w jakim ten li¶ciotrup siê teraz znajduje
+mo¿na byæ pewnym, ¿e ci krzywdy nie wyrz±dzi. 
+~
+Comments ~
+Objend
+#Vnum 25805
+Name pancerz lsniacy wpolerowany~
+Odmiana l¶ni±cego pancerza~l¶ni±cemu pancerzowi~l¶ni±cy pancerz~l¶ni±cym pancerzem~l¶ni±cym pancerzu~
+Short {Wl{Y¶{Wn{Yi{W±{Yc{Wy{x {Wp{Ya{Wn{Yc{We{Yr{Wz{x~
+Descr Niesamowicie wypolerowany pancerz le¿y tutaj.~
+Material unused~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 25806
+Name stalowe nabioderniki~
+Odmiana nabioderników~nabiodernikom~nabioderniki~nabiodernikami~nabiodernikach~
+Short {Wstalowe nabioderniki{x~
+Descr Nabioderniki wykonane z stali le¿± tutaj.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Nabioderniki wykonane z mocnej stali. Z pewno¶cia stanowi± przyzwoit± os³one nóg.
+~
+Comments ~
+Objend
+#Vnum 25808
+Name ¶rednia tarcza~
+Odmiana ¶redniej tarczy~¶redniej tarczy~¶redni± tarczê~¶redni± tarcz±~¶redniej tarczy~
+Short {Wt{wa{Wr{wc{Wz{wa{x z {Yherbem{x~
+Descr ¦rednia tarcza wykonana z drewna le¿y tutaj.~
+Material drewno~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0|A
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 2 2 20 5 0 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 900
+Cond 78
+Itemdesc Jest to zwyk³a ¶rednia tarcza wykonana z drewna.
+~
+Comments ~
+Objend
+#Vnum 25901
+Name podkute metalowe buty czarne~
+Odmiana podkutych butów~podkutym butom~podkute buty~podkutymi butami~podkutych butach~
+Short {Wpodkute buty{x~
+Descr Podkute buty czerniej± tu obok ciebie.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 70
+Cost 6000
+Cond 80
+Comments ~
+Objend
+#Vnum 25902
+Name wzmocniony kolczasty ki¶cieñ~
+Odmiana wzmocnionego kolczastego ki¶cienia~wzmocnionemu kolczastego ki¶cieniowi~wzmocniony kolczasty ki¶cieñ~wzmocnionym kolczastym ki¶cieniem~wzmocnionym kolczastym ki¶cieniu~
+Short wzmocniony kolczaty ki¶cieñ~
+Descr Le¿y tutaj w kurzu na ziemi jaki¶ ki¶cieñ.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 6 3 5 8 32 2 2
+Repair 0 0 0 0
+Weight 240
+Cost 66000
+Cond 100
+Itemdesc Wykonany z dobrej jako¶ci stali, ten ki¶cieñ, zakoñczony na koñcu
+spiczastymi kolcami wygl±da na broñ solidn± i niebezpieczn±. Lepiej
+znajdowaæ siê po stronie która trzyma za jego trzonek, ni¿ po stronie w
+któr± leci wielka, kolczasta kula! 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 25903
+Name zdobiony srebrny pier¶cieñ~
+Odmiana zdobionego srebrnego pier¶cienia~zdobionemu srebrnemu pier¶cieniowi~zdobiony srebrny pier¶cieñ~zdobionym srebrnym pier¶cieniem~zdobionym srebrnym pier¶cieniu~
+Short zdobiony srebrny pier¶cieñ~
+Descr Piêkny kryszta³owy pier¶cieñ z jakim¶ herbem.~
+Material srebro~
+Type jewelry
+ExtraExt 0|G
+Wear AB
+Wear2Ext 0
+Bonus 0
+Rent 50
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 8600
+Cond 100
+Aff 1 18 1 0 0 0
+Itemdesc £adnie zdobiony, pier¶cieñ wykonany ze srebra. Wyczuwasz w nim co¶ dziwnego.
+~
+Identdesc Pier¶cieñ ten wp³ywa pozytywnie na nasz± celno¶æ.
+~
+Comments ~
+Objend
 #Vnum 25952
 Name tablica 10000~
 Odmiana tablicy~tablicy~tablicê~tablic±~tablicy~
@@ -2836,11 +3366,11 @@ ExtraExt 0|O
 Wear P
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -2857,17 +3387,6 @@ Objend
 Name ¦cie¿ka przez las~
 FlagsExt 0|C
 Sector 28
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52686
-ExitExtEnd
-Exit 0
-~
-~
-0 0 52686
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2879,17 +3398,6 @@ Exit 1
 ~
 ~
 0 0 8380
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52485
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52485
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2932,28 +3440,6 @@ Exit 1
 ~
 ~
 0 0 25001
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52484
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52484
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52669
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52669
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -2974,17 +3460,6 @@ Exit 0
 ~
 ~
 0 0 25004
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52686
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52686
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2996,17 +3471,6 @@ Exit 2
 ~
 ~
 0 0 25002
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52685
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52685
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -3027,17 +3491,6 @@ Exit 0
 ~
 ~
 0 0 25005
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52687
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52687
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3049,17 +3502,6 @@ Exit 2
 ~
 ~
 0 0 25003
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52675
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52675
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -3080,17 +3522,6 @@ Exit 0
 ~
 ~
 0 0 25006
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52688
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52688
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3125,25 +3556,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25201
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25201
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52689
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52689
+16 0 25201
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3178,14 +3598,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25206
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25206
+16 0 25206
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3220,14 +3640,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25211
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25211
+16 0 25211
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3253,14 +3673,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25216
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25216
+16 0 25216
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -3281,17 +3701,6 @@ Exit 0
 ~
 ~
 0 0 25008
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52674
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52674
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3315,14 +3724,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25216
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25216
+16 0 25216
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3334,17 +3743,6 @@ Exit 1
 ~
 ~
 0 0 25009
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52673
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52673
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3368,14 +3766,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25221
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25221
+16 0 25221
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3387,17 +3785,6 @@ Exit 1
 ~
 ~
 0 0 25010
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52672
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52672
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3421,14 +3808,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25226
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25226
+16 0 25226
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3440,17 +3827,6 @@ Exit 1
 ~
 ~
 0 0 25011
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52671
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52671
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3493,28 +3869,17 @@ Exit 1
 ~
 ~
 0 0 25012
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52670
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52670
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25199
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25199
+16 0 25199
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -3686,25 +4051,25 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25231
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25231
+16 0 25231
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25229
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25229
+16 0 25229
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3739,14 +4104,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25236
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25236
+16 0 25236
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3761,14 +4126,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25196
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25196
+16 0 25196
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3792,14 +4157,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25241
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25241
+16 0 25241
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3814,14 +4179,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25191
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25191
+16 0 25191
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3845,14 +4210,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25246
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25246
+16 0 25246
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3867,14 +4232,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25186
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25186
+16 0 25186
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3920,25 +4285,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25181
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25181
+16 0 25181
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25173
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25173
+16 0 25173
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -4057,25 +4422,25 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25251
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25251
+16 0 25251
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25248
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25248
+16 0 25248
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4110,14 +4475,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25256
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25256
+16 0 25256
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4132,14 +4497,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25171
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25171
+16 0 25171
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4163,14 +4528,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25261
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25261
+16 0 25261
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4185,14 +4550,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25161
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25161
+16 0 25161
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4216,14 +4581,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25266
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25266
+16 0 25266
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4238,14 +4603,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25151
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25151
+16 0 25151
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4269,14 +4634,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25271
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25271
+16 0 25271
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4291,14 +4656,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25141
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25141
+16 0 25141
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4322,14 +4687,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25276
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25276
+16 0 25276
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4344,14 +4709,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25131
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25131
+16 0 25131
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4375,14 +4740,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25281
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25281
+16 0 25281
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4408,14 +4773,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25287
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25287
+16 0 25287
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -4439,14 +4804,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25131
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25131
+16 0 25131
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4461,14 +4826,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25286
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25286
+16 0 25286
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -4492,25 +4857,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25132
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25132
+16 0 25132
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25126
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25126
+16 0 25126
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4534,14 +4899,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25286
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25286
+16 0 25286
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4556,14 +4921,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25121
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25121
+16 0 25121
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4587,14 +4952,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25291
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25291
+16 0 25291
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4609,14 +4974,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25116
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25116
+16 0 25116
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4640,14 +5005,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25296
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25296
+16 0 25296
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4662,14 +5027,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25111
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25111
+16 0 25111
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4693,14 +5058,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25301
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25301
+16 0 25301
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4715,14 +5080,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25106
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25106
+16 0 25106
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4746,14 +5111,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25306
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25306
+16 0 25306
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4768,14 +5133,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25101
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25101
+16 0 25101
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4799,14 +5164,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25311
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25311
+16 0 25311
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4821,14 +5186,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25096
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25096
+16 0 25096
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4874,25 +5239,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25091
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25091
+16 0 25091
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25087
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25087
+16 0 25087
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -4916,14 +5281,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25311
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25311
+16 0 25311
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4938,14 +5303,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25086
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25086
+16 0 25086
 DayRDesc 25001
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -4958,14 +5323,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25316
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25316
+16 0 25316
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5000,14 +5365,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25321
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25321
+16 0 25321
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5022,14 +5387,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25086
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25086
+16 0 25086
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5053,14 +5418,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25326
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25326
+16 0 25326
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5075,14 +5440,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25081
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25081
+16 0 25081
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5106,14 +5471,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25331
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25331
+16 0 25331
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5128,14 +5493,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25076
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25076
+16 0 25076
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5159,14 +5524,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25336
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25336
+16 0 25336
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5181,14 +5546,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25071
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25071
+16 0 25071
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5212,14 +5577,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25341
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25341
+16 0 25341
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5234,14 +5599,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25066
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25066
+16 0 25066
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5265,14 +5630,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25346
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25346
+16 0 25346
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5287,14 +5652,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25061
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25061
+16 0 25061
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5318,14 +5683,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25351
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25351
+16 0 25351
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5340,14 +5705,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25056
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25056
+16 0 25056
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5393,14 +5758,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25051
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25051
+16 0 25051
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5432,17 +5797,6 @@ Exit 1
 ~
 ~
 0 0 25049
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67402
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67402
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5466,14 +5820,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25049
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25049
+16 0 25049
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5496,17 +5850,6 @@ Exit 2
 ~
 ~
 0 0 25052
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67402
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67402
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -5549,17 +5892,6 @@ Exit 2
 ~
 ~
 0 0 25053
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67413
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67413
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -5602,17 +5934,6 @@ Exit 2
 ~
 ~
 0 0 25054
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67422
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67422
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -5655,17 +5976,6 @@ Exit 2
 ~
 ~
 0 0 25055
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67437
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67437
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -5697,28 +6007,6 @@ Exit 1
 ~
 ~
 0 0 25060
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67444
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67444
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67438
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67438
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -5731,14 +6019,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25048
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25048
+16 0 25048
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5962,17 +6250,6 @@ Exit 1
 ~
 ~
 0 0 25065
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67445
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67445
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5996,14 +6273,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25047
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25047
+16 0 25047
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6227,17 +6504,6 @@ Exit 1
 ~
 ~
 0 0 25070
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67446
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67446
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6261,14 +6527,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25046
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25046
+16 0 25046
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6492,17 +6758,6 @@ Exit 1
 ~
 ~
 0 0 25075
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67447
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67447
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6526,14 +6781,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25045
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25045
+16 0 25045
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6757,17 +7012,6 @@ Exit 1
 ~
 ~
 0 0 25080
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67448
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67448
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6791,14 +7035,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25044
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25044
+16 0 25044
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7022,17 +7266,6 @@ Exit 1
 ~
 ~
 0 0 25085
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67449
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67449
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7056,14 +7289,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25043
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25043
+16 0 25043
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7287,17 +7520,6 @@ Exit 1
 ~
 ~
 0 0 25090
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67450
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67450
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7321,25 +7543,25 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25042
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25042
+16 0 25042
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25040
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25040
+16 0 25040
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7385,14 +7607,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25039
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25039
+16 0 25039
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7552,17 +7774,6 @@ Exit 1
 ~
 ~
 0 0 25093
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67451
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67451
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7586,14 +7797,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25039
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25039
+16 0 25039
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -7775,17 +7986,6 @@ Exit 2
 ~
 ~
 0 0 25095
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67451
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67451
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -7817,28 +8017,6 @@ Exit 1
 ~
 ~
 0 0 25100
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67468
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67468
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67459
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67459
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -7851,14 +8029,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25038
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25038
+16 0 25038
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8093,17 +8271,6 @@ Exit 1
 ~
 ~
 0 0 25105
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67469
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67469
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8127,14 +8294,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25037
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25037
+16 0 25037
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8358,17 +8525,6 @@ Exit 1
 ~
 ~
 0 0 25110
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67470
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67470
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8392,14 +8548,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25036
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25036
+16 0 25036
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8623,17 +8779,6 @@ Exit 1
 ~
 ~
 0 0 25115
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67471
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67471
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8657,14 +8802,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25035
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25035
+16 0 25035
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8888,17 +9033,6 @@ Exit 1
 ~
 ~
 0 0 25120
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67472
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67472
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8922,14 +9056,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25034
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25034
+16 0 25034
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9153,17 +9287,6 @@ Exit 1
 ~
 ~
 0 0 25125
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67473
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67473
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9187,14 +9310,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25033
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25033
+16 0 25033
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9418,17 +9541,6 @@ Exit 1
 ~
 ~
 0 0 25130
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67474
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67474
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9452,14 +9564,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25032
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25032
+16 0 25032
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9683,17 +9795,6 @@ Exit 1
 ~
 ~
 0 0 25137
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67475
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67475
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9717,14 +9818,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25029
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25029
+16 0 25029
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9750,14 +9851,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25031
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25031
+16 0 25031
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -9803,14 +9904,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25032
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25032
+16 0 25032
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -10118,17 +10219,6 @@ Exit 2
 ~
 ~
 0 0 25139
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67475
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67475
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -10171,17 +10261,6 @@ Exit 2
 ~
 ~
 0 0 25140
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67486
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67486
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -10213,28 +10292,6 @@ Exit 1
 ~
 ~
 0 0 25150
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67506
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67506
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67496
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67496
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -10247,14 +10304,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25028
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25028
+16 0 25028
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10743,17 +10800,6 @@ Exit 1
 ~
 ~
 0 0 25160
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52470
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52470
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10777,14 +10823,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25027
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25027
+16 0 25027
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11273,17 +11319,6 @@ Exit 1
 ~
 ~
 0 0 25170
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52471
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52471
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11307,14 +11342,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25026
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25026
+16 0 25026
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11803,17 +11838,6 @@ Exit 1
 ~
 ~
 0 0 25180
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52472
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52472
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11837,14 +11861,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25025
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25025
+16 0 25025
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11954,14 +11978,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25021
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25021
+16 0 25021
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12269,17 +12293,6 @@ Exit 0
 ~
 ~
 0 0 25178
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52676
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52676
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12322,28 +12335,6 @@ Exit 0
 ~
 ~
 0 0 25179
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52660
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52660
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52473
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52473
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12367,14 +12358,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25021
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25021
+16 0 25021
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12598,17 +12589,6 @@ Exit 1
 ~
 ~
 0 0 25190
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52676
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52676
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12632,14 +12612,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25020
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25020
+16 0 25020
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12863,17 +12843,6 @@ Exit 1
 ~
 ~
 0 0 25195
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52677
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52677
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12897,14 +12866,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25019
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25019
+16 0 25019
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13128,17 +13097,6 @@ Exit 1
 ~
 ~
 0 0 25200
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52678
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52678
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13162,14 +13120,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25018
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 25018
+16 0 25018
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13332,14 +13290,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25013
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25013
+16 0 25013
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13382,28 +13340,6 @@ Exit 0
 ~
 ~
 0 0 25199
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52670
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52670
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52679
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52679
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13435,28 +13371,17 @@ Exit 0
 ~
 ~
 0 0 25202
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52690
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52690
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25006
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25006
+16 0 25006
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13488,17 +13413,6 @@ Exit 0
 ~
 ~
 0 0 25203
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52691
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52691
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13541,17 +13455,6 @@ Exit 0
 ~
 ~
 0 0 25204
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52692
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52692
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13594,17 +13497,6 @@ Exit 0
 ~
 ~
 0 0 25205
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52693
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52693
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13692,14 +13584,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25007
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25007
+16 0 25007
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -13935,14 +13827,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25008
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25008
+16 0 25008
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -14133,25 +14025,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25008
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25008
+16 0 25008
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25010
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25010
+16 0 25010
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -14398,14 +14290,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25011
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25011
+16 0 25011
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -14652,14 +14544,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25012
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25012
+16 0 25012
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -14822,14 +14714,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25017
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25017
+16 0 25017
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -14906,14 +14798,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25017
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25017
+16 0 25017
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -15116,14 +15008,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25018
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25018
+16 0 25018
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -15370,14 +15262,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25019
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25019
+16 0 25019
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -15624,14 +15516,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25020
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25020
+16 0 25020
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -15741,14 +15633,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25024
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25024
+16 0 25024
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -15878,14 +15770,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25024
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25024
+16 0 25024
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -16099,14 +15991,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25025
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25025
+16 0 25025
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -16353,14 +16245,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25026
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25026
+16 0 25026
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -16607,14 +16499,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25027
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25027
+16 0 25027
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -16861,14 +16753,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25028
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25028
+16 0 25028
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -17115,14 +17007,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25029
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25029
+16 0 25029
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -17369,14 +17261,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25030
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25030
+16 0 25030
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -17590,25 +17482,25 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25031
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25031
+16 0 25031
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25033
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25033
+16 0 25033
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -17643,14 +17535,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25030
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 25030
+16 0 25030
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -17855,14 +17747,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25034
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25034
+16 0 25034
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -18109,14 +18001,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25035
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25035
+16 0 25035
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -18363,14 +18255,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25036
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25036
+16 0 25036
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -18617,14 +18509,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25037
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25037
+16 0 25037
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -18871,25 +18763,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25038
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25038
+16 0 25038
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25040
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 25040
+16 0 25040
 DayRDesc 25051
 Roomprog random echo_las 4~
 Resources 0 0 0 0 0 0 0 0 
@@ -19114,14 +19006,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25041
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25041
+16 0 25041
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -19360,14 +19252,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25042
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25042
+16 0 25042
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -19627,14 +19519,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25043
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25043
+16 0 25043
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -19890,14 +19782,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25044
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25044
+16 0 25044
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -20148,14 +20040,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25045
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25045
+16 0 25045
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -20402,14 +20294,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25046
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25046
+16 0 25046
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -20656,14 +20548,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25047
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25047
+16 0 25047
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -20910,14 +20802,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 25048
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 25048
+16 0 25048
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -29738,44 +29630,44 @@ szybko znale¼æ wyj¶cie z tej sytuacji! {x
 ~
 FlagsExt 0|AC
 Sector 0
-Roomprog input dziurorobienie uderz w ¶cianê~
-Roomprog random polkniety_kwas 100~
-Roomprog input dziurorobienie przetnij ¶cianê~
-Roomprog input dziurorobienie tnij ¶cianê~
-Roomprog input dziurorobienie wybij dziurê~
-Roomprog input dziurorobienie rozwal ¶cianê~
-Roomprog input polkniety_1mysl rozwal~
-Roomprog input polkniety_1mysl wybij~
-Roomprog input polkniety_1mysl tnij~
-Roomprog input polkniety_1mysl wytnij~
-Roomprog input polkniety_1mysl walnij~
-Roomprog input polkniety_1mysl niszcz~
-Roomprog input polkniety_1mysl zaatakuj~
-Roomprog input polkniety_1mysl rozerwij~
-Roomprog input polkniety_mysli znajdz rozwi±zanie~
-Roomprog input polkniety_mysli *kombinuj~
-Roomprog input polkniety_mysli *my¶l~
-Roomprog input polkniety_wydos *ucieknij~
-Roomprog input polkniety_wydos *wyjdz~
-Roomprog input polkniety_wydos ucieknij~
-Roomprog input polkniety_wydos uciekaj~
-Roomprog input dziurorobienie wybij wyj¶cie~
-Roomprog input dziurorobienie wytnij wyj¶cie~
-Roomprog input dziurorobienie tnij brzuch~
-Roomprog input dziurorobienie wytnij drogê~
-Roomprog input dziurorobienie przebij brzuch~
-Roomprog input dziurorobienie rozwal brzuch~
-Roomprog input dziurorobienie przetnij brzuch~
-Roomprog input dziurorobienie przebij brzuch~
-Roomprog input dziurorobienie przebij ¶cianê~
-Roomprog input dziurorobienie przebij ¿o³±dek~
-Roomprog input dziurorobienie walnij w ¶cianê~
-Roomprog input dziurorobienie zaatakuj ¶cianê~
-Roomprog input dziurorobienie zrób dziurê~
-Roomprog input dziurorobienie wytnij dziurê~
-Roomprog input polkniety_wydos wydostañ~
-Roomprog input polkniety_wydos wydostañ siê~
 Roomprog input polkniety_wydos wyjd¼~
+Roomprog input polkniety_wydos wydostañ siê~
+Roomprog input polkniety_wydos wydostañ~
+Roomprog input dziurorobienie wytnij dziurê~
+Roomprog input dziurorobienie zrób dziurê~
+Roomprog input dziurorobienie zaatakuj ¶cianê~
+Roomprog input dziurorobienie walnij w ¶cianê~
+Roomprog input dziurorobienie przebij ¿o³±dek~
+Roomprog input dziurorobienie przebij ¶cianê~
+Roomprog input dziurorobienie przebij brzuch~
+Roomprog input dziurorobienie przetnij brzuch~
+Roomprog input dziurorobienie rozwal brzuch~
+Roomprog input dziurorobienie przebij brzuch~
+Roomprog input dziurorobienie wytnij drogê~
+Roomprog input dziurorobienie tnij brzuch~
+Roomprog input dziurorobienie wytnij wyj¶cie~
+Roomprog input dziurorobienie wybij wyj¶cie~
+Roomprog input polkniety_wydos uciekaj~
+Roomprog input polkniety_wydos ucieknij~
+Roomprog input polkniety_wydos *wyjdz~
+Roomprog input polkniety_wydos *ucieknij~
+Roomprog input polkniety_mysli *my¶l~
+Roomprog input polkniety_mysli *kombinuj~
+Roomprog input polkniety_mysli znajdz rozwi±zanie~
+Roomprog input polkniety_1mysl rozerwij~
+Roomprog input polkniety_1mysl zaatakuj~
+Roomprog input polkniety_1mysl niszcz~
+Roomprog input polkniety_1mysl walnij~
+Roomprog input polkniety_1mysl wytnij~
+Roomprog input polkniety_1mysl tnij~
+Roomprog input polkniety_1mysl wybij~
+Roomprog input polkniety_1mysl rozwal~
+Roomprog input dziurorobienie rozwal ¶cianê~
+Roomprog input dziurorobienie wybij dziurê~
+Roomprog input dziurorobienie tnij ¶cianê~
+Roomprog input dziurorobienie przetnij ¶cianê~
+Roomprog random polkniety_kwas 100~
+Roomprog input dziurorobienie uderz w ¶cianê~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -29799,13 +29691,13 @@ S
 
 
 #RESETS
-O 100 32000 0 25017
+O 100 25003 0 25017
 M 100 25017 1 25019 1
-O 100 32000 0 25021
+O 100 25001 0 25021
 O 100 25004 0 25024
-O 100 32000 0 25030
+O 100 25003 0 25030
 O 100 25002 0 25032
-O 100 32000 0 25039
+O 100 25001 0 25039
 O 100 25005 0 25041
 M 100 25004 4 25060 5
 M 100 25013 1 25063 3
@@ -29863,7 +29755,6 @@ M 100 25010 2 25305 3
 M 100 25002 4 25305 5
 M 100 25001 4 25309 10
 M 100 11811 1 25320 1
-E 100 4367 0 12
 M 100 25804 1 25324 1
 M 100 25803 4 25329 4
 M 100 25802 3 25330 3
@@ -29927,10 +29818,10 @@ M 70 25653 1 25697 1
 M 100 25900 1 25698 1
 M 70 25655 1 25701 1
 M 100 25805 1 25725 1
-E 100 3029 0 5
-E 100 3061 0 7
-E 100 4419 0 8
-E 100 3366 0 17
+E 100 25805 0 5
+E 100 25806 0 7
+E 100 3134 0 8
+E 100 25808 0 17
 S
 
 
@@ -29943,15 +29834,15 @@ if rand 95
 and canloadarte 11863
   mob aload 11863 w
 else
-  mob equip self 3003
+  mob equip self 6034
 endif
 
 #Ladownie zbroi
 if rand 95
-and canloadarte 29116
-  mob aload 29116 w
+and canloadarte 11864
+  mob aload 11864 w
 else
-  mob equip self 3019
+  mob equip self 6037
 endif
 
 #Ladowanie spodni
@@ -29959,15 +29850,15 @@ if rand 95
 and canloadarte 11865
   mob aload 11865 w
 else
-  mob equip self 3051
+  mob equip self 3092
 endif
 
 #Ladowanie naramiennikow
 if rand 95
-and canloadarte 29194
-  mob aload 29194 w
+and canloadarte 11866
+  mob aload 11866 w
 else
-  mob equip self 3083
+  mob equip self 6036
 endif
 
 #Ladowanie rekawic
@@ -29975,20 +29866,24 @@ if rand 95
 and canloadarte 11867
   mob aload 11867 w
 else
-  mob equip self 3067
+  mob equip self 6033
 endif
 
 #Ladowanie broni
 if rand 75
-  mob equip self 3385
+  mob equip self 11868
 else
-  mob equip self 3366
-  mob equip self 3097
+  mob equip self 11870
+  if rand 50
+    mob equip self 11869
+  else
+    mob equip self 3097
+  endif
 endif
 
 #Ladownie helmu
 if rand 50
-  mob equip self 3034
+  mob equip self 11871
 endif
 if rand 50
   mob oload gem 6
@@ -30043,39 +29938,38 @@ if rand 95
   mob oload random 6
 endif
 if rand 78
-  mob equip self 3160
+  mob oload 25902 w
 else
-mob equip self 3297
+mob oload 34582 w
 endif
 if rand 82
-  mob oload 9120
+  mob oload 25903
 endif
-mob equip self 3089
-mob equip self 3009
-mob equip self 3073
-mob equip self 3041
-mob equip self 3025
-mob equip self 3050
+mob equip self 3141
+mob equip self 3139
+mob equip self 3142
+mob equip self 6040
+mob equip self 6045
+mob equip self 3382
 ~
 #25807_onl
 ~
 ~
 #25807_onload
 ~
-mob equip self 3089
-mob equip self 3009
-mob equip self 3073
-mob equip self 3041
-mob equip self 3025
-mob equip self 3050
-mob equip self 3172
-mob equip self 3172 hold
+mob equip self 3141
+mob equip self 3139
+mob equip self 3142
+mob equip self 6040
+mob equip self 6045
+mob equip self 3382
+mob equip self 17908
+mob oload 17908
+hold toporek
 ~
 #antyczny_drop
 ~
 mob echo Antyczny rycerz pada na ziemiê MARTWY!!!
-mob oload gem 7
-mob oload gem 7
 mob oload gem 7
 if rand 60
   mob oload gem 7
@@ -30136,7 +30030,7 @@ if rand 50
   if rand 20
     mob oload ear 5
   endif
-mob oload random 6
+  mob oload random 2
   mob oload random 3
 if rand 98
 if canloadarte 29908
@@ -30151,39 +30045,39 @@ if canloadarte 2892
   if rand 99
     mob aload 2892 W
   else
-    mob equip self 3163
+    mob equip self 25661
   endif
 else
-  mob equip self 3163
+  mob equip self 25661
 endif
 
 # LADOWANIE ANTYCZNEGO SETU
-mob equip self 3032
+mob equip self 25662
 
 # BUTY
 if rand 94
-  mob equip self 3016
+  mob equip self 25664
 else
-  mob equip self 3016
+  mob equip self 25665
 endif
 
 # PRZY£BICA
 if rand 94
-  mob equip self 3048
+  mob equip self 25663
 else
-  mob equip self 3048
+  mob equip self 25666
 endif
 
 
 if rand 80
-  mob equip self 3152
+  mob oload 204
 endif
 ~
 #equip_zgarbiony
 ubiera zgarbionego demona 25900
 ~
-mob equip self 3128
-mob equip self 3013
+mob oload 3048 w
+mob oload 25901 w
 ~
 #ghul_addgroup
 ~
@@ -30206,7 +30100,7 @@ if rand 70
   mob oload 25651 r
 else
   if rand 60
-    mob oload 4366 r
+    mob oload 25652 r
   endif
 endif
 if rand 20
@@ -30217,6 +30111,9 @@ mob oload gem 6
 endif
 if rand 80
 mob oload gem 6
+endif
+if rand 85
+mob oload 25669
 endif
 ~
 #gregzagg_fight
@@ -30256,7 +30153,7 @@ endif
 ~
 #gregzagg_onload
 ~
-mob equip self 4366
+mob equip self 3133
 mob addgroup 25657
 mob addgroup 25658
 mob addgroup 25657
@@ -30518,6 +30415,9 @@ mob echo Portal rozp³ywa siê a magma wsi±ka z powrotem do ziemi. Po szczelinie n
 mob mload 25800
 obj remove
 ~
+#free
+~
+~
 #0
 
 #ROOMPROGSNEW
@@ -30628,17 +30528,10 @@ endif
 #Vnum 0
 
 #RANDDESC
-#Vnum 25400
-DescRand #grouprand 20
-#grouprand 21
-#grouprand 22
-#grouprand 23
-~
-RandDescEnd
-#Vnum 25001
-DescRand #grouprand 1
-#grouprand 2
-#grouprand 3
+#Vnum 25052
+DescRand #grouprand 10
+#grouprand 11
+#grouprand 12
 ~
 RandDescEnd
 #Vnum 25051
@@ -30647,195 +30540,79 @@ DescRand #grouprand 10
 #grouprand 12
 ~
 RandDescEnd
-#Vnum 25052
-DescRand #grouprand 10
-#grouprand 11
-#grouprand 12
+#Vnum 25001
+DescRand #grouprand 1
+#grouprand 2
+#grouprand 3
+~
+RandDescEnd
+#Vnum 25400
+DescRand #grouprand 20
+#grouprand 21
+#grouprand 22
+#grouprand 23
 ~
 RandDescEnd
 #Vnum 0
 
 #DESC
-#Name ddd3~
-Desc Wygl±da na to, ¿e kto¶ tutaj mieszka. Na ziemi dostrzegasz jakie¶,
-niedu¿e ¶lady. 
-~
-Group 23
-End
-#Name ddd2~
-Desc Brud i smród otacza ciê z ka¿dej strony. Na pod³o¿u dostrzegasz jakie¶
-¶lady, bêd±ce oznak±, ¿e kto¶ lub co¶ tutaj mieszka. 
-~
-Group 23
-End
-#Name ddd1~
-Desc Otacz±j±cy ciê smród stêchliny i zgnilizny staje siê coraz bardziej
-nasilony. 
-~
-Group 23
-End
-#Name ccc1~
-Desc Na jednej ze ¶cian dostrzegasz ¶lady krwi. Najprawdopodobniej kto¶ tutaj
-zgina³, lub walczy³. 
-~
-Group 22
-End
-#Name ccc2~
-Desc Masz wra¿enie, ¿e ¶ciany zawal± siê zaraz na ciebie. Rozgl±dasz siê
-spokojnie obserwuj±c otaczaj±c± ciê ziemiê zmieszan± z glin±. Po chwili
-orientujesz siê, ¿e by³o to tylko z³udne przeczucie. 
-~
-Group 22
-End
-#Name ccc3~
-Desc Jaskinia w której siê znajdujesz z ka¿dej strony otacza ciê ziemi± i
-glin±, jednak nie jest to ³atwo spostrzegalne, poniewa¿ wszystko jest dobrze
-ubite i przypomina zwyk³e, brudne ¶ciany. 
-~
-Group 22
-End
-#Name ccc4~
-Desc ¦ciany otaczaj±ce ciê s± w ca³o¶ci z ziemi i gliny. W³a¶ciwie to ciê¿ko
-nazwaæ je ¶cianami. 
-~
-Group 22
-End
-#Name bbb4~
-Desc Wci±gasz do p³uc stêch³e i wigotne powietrze. Przez twoj± g³owê
-przechodzi my¶l o ¶wie¿ym i czystym powietrzu, którego niestety tutaj
-brakuje. 
-~
-Group 21
-End
-#Name bbb3~
-Desc Nie czujesz tutaj ¿adnego przeci±gu, czy chocia¿ odrobiny ¶wie¿ego
-powietrza, którym móg³by¶ siê zaci±gn±æ. 
-~
-Group 21
-End
-#Name bbb2~
-Desc Wilgoæ, stêchlizna i zgnilizna w powietrzu, wydaj± siê coraz bardziej
-nasilaæ. 
-~
-Group 21
-End
-#Name bbb1~
-Desc Powietrze jest tutaj zatêch³e, zgni³e i wilgotne. Wygl±da jednak na to,
-¿e istotom mieszk±cym tutaj, zupe³nie to nie przeszkadza. 
-~
-Group 21
-End
-#Name aaa4~
-Desc Korytarz ci±gnie siê przed siebie, do¶æ czêsto zakrêca. Czasami masz
-wra¿enie, ¿e jeste¶ w jakim¶ labiryncie. 
-~
-Group 20
-End
-#Name aaa3~
-Desc Ciemny, ci±gn±cy siê i zakrêcaj±cy korytarz wydaje siê prowadziæ do nik±d. 
-~
-Group 20
-End
-#Name aaa2~
-Desc Idziesz ciemnym i w±skim korytarzem przed siebie. Czasem masz w±tpiwo¶ci
-czy on w ogóle gdzie¶ prowadzi. 
-~
-Group 20
-End
-#Name aaa1~
-Desc Znajdujesz siê w jakim¶ w±skim, ciemnym i wilgotnym korytarzu. 
-~
-Group 20
-End
-#Name a1~
-Desc Idziesz udeptan±, le¶n± ¶cie¿yn±. Dooko³a ciebie rozci±ga siê gêsty,
-zielony las. Wygl±da na to, ¿e jest to do¶æ czêsto uczêszczana ¶cie¿ka.
-Gdzieniegdzie widaæ nawet ¶wie¿e ¶lady. 
-~
-Group 1
-End
-#Name a2~
-Desc Znajdujesz siê na dobrze udeptanej, le¶nej ¶cie¿ce. Wygl±da na to, ¿e
-jest ona do¶æ czêsto uczêszczana przez podró¿ników. 
-~
-Group 1
-End
-#Name a3~
-Desc St±pasz przed siebiê po dywanie wy³o¿onym przez ¶ció³kê le¶n±. ¦cie¿ka
-jest tutaj troszkê gorzej ubita, ale za to wydaje siê byæ przyjemniej i
-bardziej zielono. 
-~
-Group 1
-End
-#Name a4~
-Desc Przedzierasz siê przez krzaki, które wy³o¿y³y siê na ¶cie¿ynê lekko
-utrudniaj±c przej¶cie. Pocieszne jest jednak to, ¿e ¶cie¿ka prowadzi do¶æ
-wyra¼nie przez las. 
-~
-Group 1
-End
-#Name b1~
-Desc Wspania³e le¶ne, czyste powietrze pomaga siê odprê¿yæ, czy te¿ z³apaæ
-g³êbszy oddech. 
-~
-Group 2
-End
-#Name b2~
-Desc Le¶ne, czyste powietrze jest tak lekkie i przyjemne, ¿e momentami nie
-masz ochoty siê st±d ruszaæ. 
-~
-Group 2
-End
-#Name b3~
-Desc Zaci±gaj±c siê powietrzem czujesz jego czysto¶æ, ¶wie¿o¶æ i lekko¶æ.
-Niezwyk³ym doznaniem jest oddychanie w takim lesie. 
-~
-Group 2
-End
-#Name b4~
-Desc Niezwykle czyste powietrze przyprawia ciê o chwilkê rozkojarzenia,
-lekko¶ci. 
-~
-Group 2
-End
-#Name c1~
-Desc Otaczaj±ce ciê, wysokie drzewa ko³ysz± siê na wietrze. Zazwyczaj
-spokojnie, niczym w rytm graj±cego na ich li¶ciach wiatru. 
-~
-Group 3
-End
-#Name c2~
-Desc Wysokie, bujne drzewa rosn± ca³kiem nieregularnie. Czasem jedno przy
-drugim, albo w dalekich odstêpach od siebie tworz±c ma³e polany. 
-~
-Group 3
-End
-#Name c3~
-Desc Strzeliste drzewa otaczaj±ce ciê wydaj± siê w szumie nucic jak±¶ melodie. 
-~
-Group 3
-End
-#Name c4~
-Desc ¦piew ptaków wydaje siê wpl±tywaæ, w nuc±cy jak±¶ melodiê, szum
-strzelistych drzew. 
-~
-Group 3
-End
-#Name c5~
+#Name cc5~
 Desc Id±c przed siebiê, od czasu do czasu pêkaj± pod twoimi nogami ga³êzie,
 których raczej nie warto omijaæ. 
 ~
-Group 3
+Group 12
 End
-#Name aa1~
-Desc Idziesz w¶ród wysoko wzbijaj±cych siê, zielonych drzew, które otaczaj±
-ciê z ka¿dej strony. 
+#Name cc4~
+Desc ¦piew ptaków wydaje siê wpl±tywaæ, w nuc±cy jak±¶ melodiê, szum
+strzelistych drzew. 
 ~
-Group 10
+Group 12
 End
-#Name aa2~
-Desc Znajdujesz siê w gêstym, zielonym lesie. Drzewa otaczaj± ciê z ka¿dej
-strony, tworz±c li¶ciasty dach i ociemniaj±c lekko okolicê. 
+#Name cc3~
+Desc Strzeliste drzewa otaczaj±ce ciê wydaj± siê w szumie nucic jak±¶ melodie. 
+~
+Group 12
+End
+#Name cc2~
+Desc Wysokie, bujne drzewa rosn± ca³kiem nieregularnie. Czasem jedno przy
+drugim, albo w dalekich odstêpach od siebie tworz±c ma³e polany. 
+~
+Group 12
+End
+#Name cc1~
+Desc Otaczaj±ce ciê, wysokie drzewa ko³ysz± siê na wietrze. Zazwyczaj
+spokojnie, niczym w rytm graj±cego na ich li¶ciach wiatru. 
+~
+Group 12
+End
+#Name bb4~
+Desc Niezwykle czyste powietrze przyprawia ciê o chwilkê rozkojarzenia,
+lekko¶ci. 
+~
+Group 11
+End
+#Name bb3~
+Desc Zaci±gaj±c siê powietrzem czujesz jego czysto¶æ, ¶wie¿o¶æ i lekko¶æ.
+Niezwyk³ym doznaniem jest oddychanie w takim lesie. 
+~
+Group 11
+End
+#Name bb2~
+Desc Le¶ne, czyste powietrze jest tak lekkie i przyjemne, ¿e momentami nie
+masz ochoty siê st±d ruszaæ. 
+~
+Group 11
+End
+#Name bb1~
+Desc Wspania³e le¶ne, czyste powietrze pomaga siê odprê¿yæ, czy te¿ z³apaæ
+g³êbszy oddech. 
+~
+Group 11
+End
+#Name aa4~
+Desc St±pasz przed siebiê po delikatym dywanie wy³o¿onym przez ¶ció³kê le¶n±.
+Pod³o¿e jest tutaj jest do¶æ miêkkie, wydaje ci siê, ¿e jest tu przyjemniej
+i bardziej zielono. 
 ~
 Group 10
 End
@@ -30846,65 +30623,188 @@ Desc Przedzierasz siê przez gêste krzaki i krzewy rosn±ce tu wyj±tkowo gêsto i
 ~
 Group 10
 End
-#Name aa4~
-Desc St±pasz przed siebiê po delikatym dywanie wy³o¿onym przez ¶ció³kê le¶n±.
-Pod³o¿e jest tutaj jest do¶æ miêkkie, wydaje ci siê, ¿e jest tu przyjemniej
-i bardziej zielono. 
+#Name aa2~
+Desc Znajdujesz siê w gêstym, zielonym lesie. Drzewa otaczaj± ciê z ka¿dej
+strony, tworz±c li¶ciasty dach i ociemniaj±c lekko okolicê. 
 ~
 Group 10
 End
-#Name bb1~
-Desc Wspania³e le¶ne, czyste powietrze pomaga siê odprê¿yæ, czy te¿ z³apaæ
-g³êbszy oddech. 
+#Name aa1~
+Desc Idziesz w¶ród wysoko wzbijaj±cych siê, zielonych drzew, które otaczaj±
+ciê z ka¿dej strony. 
 ~
-Group 11
+Group 10
 End
-#Name bb2~
-Desc Le¶ne, czyste powietrze jest tak lekkie i przyjemne, ¿e momentami nie
-masz ochoty siê st±d ruszaæ. 
-~
-Group 11
-End
-#Name bb3~
-Desc Zaci±gaj±c siê powietrzem czujesz jego czysto¶æ, ¶wie¿o¶æ i lekko¶æ.
-Niezwyk³ym doznaniem jest oddychanie w takim lesie. 
-~
-Group 11
-End
-#Name bb4~
-Desc Niezwykle czyste powietrze przyprawia ciê o chwilkê rozkojarzenia,
-lekko¶ci. 
-~
-Group 11
-End
-#Name cc1~
-Desc Otaczaj±ce ciê, wysokie drzewa ko³ysz± siê na wietrze. Zazwyczaj
-spokojnie, niczym w rytm graj±cego na ich li¶ciach wiatru. 
-~
-Group 12
-End
-#Name cc2~
-Desc Wysokie, bujne drzewa rosn± ca³kiem nieregularnie. Czasem jedno przy
-drugim, albo w dalekich odstêpach od siebie tworz±c ma³e polany. 
-~
-Group 12
-End
-#Name cc3~
-Desc Strzeliste drzewa otaczaj±ce ciê wydaj± siê w szumie nucic jak±¶ melodie. 
-~
-Group 12
-End
-#Name cc4~
-Desc ¦piew ptaków wydaje siê wpl±tywaæ, w nuc±cy jak±¶ melodiê, szum
-strzelistych drzew. 
-~
-Group 12
-End
-#Name cc5~
+#Name c5~
 Desc Id±c przed siebiê, od czasu do czasu pêkaj± pod twoimi nogami ga³êzie,
 których raczej nie warto omijaæ. 
 ~
-Group 12
+Group 3
+End
+#Name c4~
+Desc ¦piew ptaków wydaje siê wpl±tywaæ, w nuc±cy jak±¶ melodiê, szum
+strzelistych drzew. 
+~
+Group 3
+End
+#Name c3~
+Desc Strzeliste drzewa otaczaj±ce ciê wydaj± siê w szumie nucic jak±¶ melodie. 
+~
+Group 3
+End
+#Name c2~
+Desc Wysokie, bujne drzewa rosn± ca³kiem nieregularnie. Czasem jedno przy
+drugim, albo w dalekich odstêpach od siebie tworz±c ma³e polany. 
+~
+Group 3
+End
+#Name c1~
+Desc Otaczaj±ce ciê, wysokie drzewa ko³ysz± siê na wietrze. Zazwyczaj
+spokojnie, niczym w rytm graj±cego na ich li¶ciach wiatru. 
+~
+Group 3
+End
+#Name b4~
+Desc Niezwykle czyste powietrze przyprawia ciê o chwilkê rozkojarzenia,
+lekko¶ci. 
+~
+Group 2
+End
+#Name b3~
+Desc Zaci±gaj±c siê powietrzem czujesz jego czysto¶æ, ¶wie¿o¶æ i lekko¶æ.
+Niezwyk³ym doznaniem jest oddychanie w takim lesie. 
+~
+Group 2
+End
+#Name b2~
+Desc Le¶ne, czyste powietrze jest tak lekkie i przyjemne, ¿e momentami nie
+masz ochoty siê st±d ruszaæ. 
+~
+Group 2
+End
+#Name b1~
+Desc Wspania³e le¶ne, czyste powietrze pomaga siê odprê¿yæ, czy te¿ z³apaæ
+g³êbszy oddech. 
+~
+Group 2
+End
+#Name a4~
+Desc Przedzierasz siê przez krzaki, które wy³o¿y³y siê na ¶cie¿ynê lekko
+utrudniaj±c przej¶cie. Pocieszne jest jednak to, ¿e ¶cie¿ka prowadzi do¶æ
+wyra¼nie przez las. 
+~
+Group 1
+End
+#Name a3~
+Desc St±pasz przed siebiê po dywanie wy³o¿onym przez ¶ció³kê le¶n±. ¦cie¿ka
+jest tutaj troszkê gorzej ubita, ale za to wydaje siê byæ przyjemniej i
+bardziej zielono. 
+~
+Group 1
+End
+#Name a2~
+Desc Znajdujesz siê na dobrze udeptanej, le¶nej ¶cie¿ce. Wygl±da na to, ¿e
+jest ona do¶æ czêsto uczêszczana przez podró¿ników. 
+~
+Group 1
+End
+#Name a1~
+Desc Idziesz udeptan±, le¶n± ¶cie¿yn±. Dooko³a ciebie rozci±ga siê gêsty,
+zielony las. Wygl±da na to, ¿e jest to do¶æ czêsto uczêszczana ¶cie¿ka.
+Gdzieniegdzie widaæ nawet ¶wie¿e ¶lady. 
+~
+Group 1
+End
+#Name aaa1~
+Desc Znajdujesz siê w jakim¶ w±skim, ciemnym i wilgotnym korytarzu. 
+~
+Group 20
+End
+#Name aaa2~
+Desc Idziesz ciemnym i w±skim korytarzem przed siebie. Czasem masz w±tpiwo¶ci
+czy on w ogóle gdzie¶ prowadzi. 
+~
+Group 20
+End
+#Name aaa3~
+Desc Ciemny, ci±gn±cy siê i zakrêcaj±cy korytarz wydaje siê prowadziæ do nik±d. 
+~
+Group 20
+End
+#Name aaa4~
+Desc Korytarz ci±gnie siê przed siebie, do¶æ czêsto zakrêca. Czasami masz
+wra¿enie, ¿e jeste¶ w jakim¶ labiryncie. 
+~
+Group 20
+End
+#Name bbb1~
+Desc Powietrze jest tutaj zatêch³e, zgni³e i wilgotne. Wygl±da jednak na to,
+¿e istotom mieszk±cym tutaj, zupe³nie to nie przeszkadza. 
+~
+Group 21
+End
+#Name bbb2~
+Desc Wilgoæ, stêchlizna i zgnilizna w powietrzu, wydaj± siê coraz bardziej
+nasilaæ. 
+~
+Group 21
+End
+#Name bbb3~
+Desc Nie czujesz tutaj ¿adnego przeci±gu, czy chocia¿ odrobiny ¶wie¿ego
+powietrza, którym móg³by¶ siê zaci±gn±æ. 
+~
+Group 21
+End
+#Name bbb4~
+Desc Wci±gasz do p³uc stêch³e i wigotne powietrze. Przez twoj± g³owê
+przechodzi my¶l o ¶wie¿ym i czystym powietrzu, którego niestety tutaj
+brakuje. 
+~
+Group 21
+End
+#Name ccc4~
+Desc ¦ciany otaczaj±ce ciê s± w ca³o¶ci z ziemi i gliny. W³a¶ciwie to ciê¿ko
+nazwaæ je ¶cianami. 
+~
+Group 22
+End
+#Name ccc3~
+Desc Jaskinia w której siê znajdujesz z ka¿dej strony otacza ciê ziemi± i
+glin±, jednak nie jest to ³atwo spostrzegalne, poniewa¿ wszystko jest dobrze
+ubite i przypomina zwyk³e, brudne ¶ciany. 
+~
+Group 22
+End
+#Name ccc2~
+Desc Masz wra¿enie, ¿e ¶ciany zawal± siê zaraz na ciebie. Rozgl±dasz siê
+spokojnie obserwuj±c otaczaj±c± ciê ziemiê zmieszan± z glin±. Po chwili
+orientujesz siê, ¿e by³o to tylko z³udne przeczucie. 
+~
+Group 22
+End
+#Name ccc1~
+Desc Na jednej ze ¶cian dostrzegasz ¶lady krwi. Najprawdopodobniej kto¶ tutaj
+zgina³, lub walczy³. 
+~
+Group 22
+End
+#Name ddd1~
+Desc Otacz±j±cy ciê smród stêchliny i zgnilizny staje siê coraz bardziej
+nasilony. 
+~
+Group 23
+End
+#Name ddd2~
+Desc Brud i smród otacza ciê z ka¿dej strony. Na pod³o¿u dostrzegasz jakie¶
+¶lady, bêd±ce oznak±, ¿e kto¶ lub co¶ tutaj mieszka. 
+~
+Group 23
+End
+#Name ddd3~
+Desc Wygl±da na to, ¿e kto¶ tutaj mieszka. Na ziemi dostrzegasz jakie¶,
+niedu¿e ¶lady. 
+~
+Group 23
 End
 #DescEnd
 
@@ -30916,10 +30816,10 @@ End
 #BONUS_SET
 #Vnum 25660
 Name Secik losuj±cy siê na antyczym rycerzu~
-Aff 1 4 1 0 0 0
-Aff 1 29 1 0 0 0
-Aff 1 5 1 0 0 0
 Aff 0 24 0 0 1 e
+Aff 1 5 1 0 0 0
+Aff 1 29 1 0 0 0
+Aff 1 4 1 0 0 0
 WearProg mob echoaround $n Oczy $nz nagle rozb³yskuj± czerwonym blaskiem!
 mob echoat $n Co¶ dziwnego dzieje siê z twoimi oczami, nagle rozb³yskuj± na chwilê czerwonym blaskiem!
 ~

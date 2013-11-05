@@ -172,7 +172,7 @@ u¶cisn±c jego d³oñ, oddaæ mu wszystkie pieni±dze a tak¿e dom i rodzine je¶li
 takowe posiadasz. Tak, masz przed sob± mistrza Zauroczenia i mimo, i¿
 sugestia w twojej g³owie wydaje siê naturalna, to wiesz i¿ to tylko jeszcze
 jeden sprytnie utkany urok. Mo¿e gdy bendziesz mi³y i zapytasz go, nauczy
-ciê jakich¶ zaklêæ. Uwa¿aj jednak, Hvel ma reputacje rozpustnika i
+ciê jaki¶ zaklêæ. Uwa¿aj jednak, Hvel ma reputacje rozpustnika i
 kobieciarza, a tak¿e najprzebieglejszego z mistrzów magii, no mo¿e poza
 samym Kelebornem. 
 ~
@@ -566,8 +566,8 @@ MobprogNew death keleborn2 ABCDEFGHI 70~
 MobprogNew fight keleborn1 H 5~
 Spells 296 15 229 91
 Spells 203 184 180 163
-Spells 138 92 228 102
-Spells 13 1 0 0
+Spells 1 92 228 102
+Spells 13 138 0 0
 Corpse -1
 Skin 100
 ExpMultiplier 300
@@ -897,7 +897,6 @@ Gender 2
 Komponent 10 5000
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 10
 Cost 42000
 Cond 75
@@ -924,7 +923,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 1 268 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 2400
 Cond 75
@@ -947,7 +945,6 @@ LiczbaMnoga 0
 Gender 0
 Value 5 1 268 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 2400
 Cond 75
@@ -970,7 +967,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 1 268 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 2400
 Cond 75
@@ -993,7 +989,6 @@ LiczbaMnoga 0
 Gender 3
 Value 7 1 8 -2 3 -2 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 180000
 Cond 100
@@ -1006,6 +1001,61 @@ rzuceniu czaru o 2.
 ~
 Comments Przywracam zeby byla tylko dla ogolnego maga. Jesli komus nie pasuje - niech da znac. A tak w ogole to czemu ktos ja zmienial i nie zostawil komentarza? Tak sie nie robi moi drodzy. - {RLaszlo{x ({CSun Jan 17 00:57:46 2010{x)
 ~
+Objend
+#Vnum 26970
+Name szata mistrza czarna zdobiona szata maga~
+Odmiana czarnej zdobionej szaty maga~czarnej zdobionej szacie maga~czarn± zdobion± szate maga~czarn± zdobion± szat± maga~czarnej zdobionej szacie maga~
+Short czarna zdobiona szata maga~
+Descr Le¿y tutaj czarna szata maga, z niezwyk³ymi, z³otymi zdobieniami.~
+Material jedwab~
+Type clothing
+ExtraExt 0|DGW
+Wear AD
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 1000
+Cond 100
+Aff 1 24 -2 0 0 0
+Aff 1 28 19 20 0 0
+Itemdesc Piêknie zdobiona szata wykonana z czarnego jedwabiu. Widaæ i¿ przy jej
+tworzeniu obecna musia³a byæ magia, z³ote wzory i zdobienia uk³adaj± siê
+doskonale kontrastuj±c z czerni± szaty. Od ca³ej szaty bije jaka¶ dziwna,
+koj±ca moc. 
+~
+Identdesc Czujesz i¿ szata ta zwieksza odporno¶æ na negatywne efekty czarów a tak¿e
+pozwala porozumiewaæ siê ogranicznon± telepati±. 
+~
+Comments ~
+Objend
+#Vnum 26971
+Name sanda³y ze skóry bazyliszka~
+Odmiana sanda³ów~sanda³om~sanda³y~sanda³ami~sanda³ach~
+Short sanda³y ze skóry bazyliszka~
+Descr Le¿y tu para sanda³ów wykonanych z mocnej skóry bazyliszka.~
+Material mocna skóra~
+Type clothing
+ExtraExt 0|BG
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 150
+Cond 100
+Itemdesc Sanda³y te zosta³y wkonane z mocnej, wyprawionej skóry bazliszka. Nie
+wiesz jakim cudem to egoztyczne zwierze zosta³o przerobione na sanda³y.
+Jednak napewno mo¿na za nie dostaæ sporo monet, a oprócz tego trudno je
+zniszczyæ - s± ca³kowicie odporne na dzia³anie ognia. 
+~
+Comments ~
 Objend
 #Vnum 26973
 Name le¿anka wygodna miêkka~
@@ -1022,7 +1072,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 0 1170 110 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 0
 Cond 75
@@ -1046,7 +1095,6 @@ LiczbaMnoga 0
 Gender 0
 Value 2 0 1170 110 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 0
 Cond 75
@@ -1070,13 +1118,32 @@ LiczbaMnoga 0
 Gender 2
 Value 9 2 7 7 32 2 2
 Repair 0 0 0 0
-Length 190
 Weight 8
 Cost 90000
 Cond 100
 Itemdesc ~
 Comments Zabieram onlymag. Powod - brak stafow dla wojowników. - {RLaszlo{x ({CSun Jun 28 16:06:03 2009{x)
 ~
+Objend
+#Vnum 26976
+Name opoñcza czarna ciemna lniana~
+Odmiana opoñczy~opoñczy~opoñczê~opoñcz±~opoñczy~
+Short {Dczarna opoñcza{x~
+Descr {DTa ciemna lniana opoñcza dobrze chroni przed wiatrem i ch³odem.{x~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 1
+Cond 100
+Comments ~
 Objend
 #Vnum 26977
 Name ksiega~
@@ -1093,9 +1160,48 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 15
+Cond 100
+Comments ~
+Objend
+#Vnum 26978
+Name kaptur czarny pomiety~
+Odmiana kaptura~kapturowi~kaptur~kapturem~kapturze~
+Short {Dczarny kaptur{x~
+Descr Pomiêty kawa³ek czarnego materia³u poniewiera siê w kurzu.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 100
+Comments ~
+Objend
+#Vnum 26979
+Name szata zwyczajna~
+Odmiana szarej szaty~szarej szacie~szara szate~szara szata~szarej szacie~
+Short szara szata~
+Descr Zwyczajna szara szata z d³ugimi, szerokimi rêkawami i bez ozdób.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 1
 Cond 100
 Comments ~
 Objend
@@ -1114,7 +1220,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1135,7 +1240,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1156,7 +1260,6 @@ LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 600
 Cost 0
 Cond 100
@@ -1181,7 +1284,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1202,7 +1304,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 24 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 480
 Cond 100
@@ -1227,10 +1328,38 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
+Comments ~
+Objend
+#Vnum 26986
+Name szata dla adeptów kaszmirowa maga~
+Odmiana kaszmirowej szaty~kaszmirowej szacie~kaszmirow± szatê~kaszmirow± szat±~kaszmirowej szacie~
+Short kaszmirowa szata~
+Descr Le¿y tutaj kaszmirowa, lekko zakurzona szata dla magów.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|GN
+Wear AD
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2100
+Cond 100
+Aff 1 2 -1 0 0 0
+Aff 1 24 -1 0 0 0
+Aff 1 29 1 0 0 0
+Itemdesc Delikatna szata, zrobiona z przedniego kaszmiru któr± trzymasz, jest
+przeznaczona tylko i wy³±cznie dla magów. Delikatne zdobienia na czerwonych
+brzegach szaty powoduj±, i¿ wygl±da ona bardzo dostojnie, a osoba która j±
+nosi wygl±da bardziej ³adnie i dostojniej. Sama szata emanujê delikatn±
+magiczn± moc±. 
+~
 Comments ~
 Objend
 #Vnum 26987
@@ -1248,7 +1377,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1269,7 +1397,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1290,7 +1417,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 25
 Cond 100
@@ -1321,7 +1447,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1340,11 +1465,10 @@ Wear2Ext 0|O
 Bonus 0
 LiczbaMnoga 0
 Gender 0
-Value 1 0 16 0 0 0 0
+Value 0 0 15 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
-Cost 1041
+Cost 400
 Cond 100
 Itemdesc Ten piêkny, z³oty medalion ma zatopiony w ¶rodku jak±¶ tajemn± technik±
 fioletowy ametysty, pod wspania³ym klejnotem pisz± nastêpuj±ce s³owa "Dies
@@ -1372,7 +1496,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 0 1170 110 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 0
 Cond 75
@@ -1396,7 +1519,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 7
 Cost 51000
 Cond 100
@@ -1408,6 +1530,57 @@ kszta³tu rêki, i pasuje na wszystkich - czy to na elfi± panne, czy to na
 wielkiego rycerza czy nieokrzesanego krasnoluda. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 26995
+Name fiolka zbrunatn± ciecz±~
+Odmiana fiolki z {ybrunatn± ciecz±{x~fiolce z {ybrunatn± ciecz±{x~fiolkê z {ybrunatn± ciecz±{x~fiolk± z {ybrunatn± ciecz±{x~fiolce z {ybrunatn± ciecz±{x~
+Short fiolka z {ybrunatn± ciecz±{x~
+Descr Jaka¶ dziwna, szklana fiolka wype³niona {ybrunatn± ciecz±{x le¿y tutaj.~
+Material szk³o~
+Type potion
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 25 76 77 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 9000
+Cond 5
+Itemdesc Ta fiolke zawiera jak±¶ gêst±, brunatn± ciecz. Nie wygl±da to zbyt
+dobrze. Masz wra¿enie, ¿e p³yn pulsuje, delikatnie pieni siê i w ogole jest
+dziwny. Alchemicy czasami maj± nierówno pod sufitem ¿eby tworzyæ takie
+okropnie wygl±daj±ce mikstury. Ciekawe do czego ona s³u¿y? 
+~
+Comments ~
+Objend
+#Vnum 26996
+Name zdobiony kostur drewniany~
+Odmiana zdobionego kostura~zdobionemu kosturowi~zdobiony kostur~zdobionym kosturem~zdobionym kosturze~
+Short zdobiony kostur~
+Descr Le¿y tutaj na ziemi zdobiony kawa³ek kija, ton±c w kurzu.~
+Material drewno~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 2 4 8 32 1 0
+Repair 0 0 0 0
+Weight 100
+Cost 17940
+Cond 100
+Itemdesc Ten piêknie zdobiony kostur wyszed³ z pod rêki Mistrza Alvegarda z Silei,
+znanego na ca³± Tamere wytrwórce magicznych kosturów i ró¼dzek. Ten produkt
+spe³nia wszelkie oczekiwania, jest solidny, ³adnie wygl±da i jest wprost
+doskona³y dla powa¿nych uzytkowników magii udaj±cych siê na spotkania z
+przyjació³mi po fachu. Kawa³ dobrej roboty. 
+~
 Comments ~
 Objend
 #Vnum 26997
@@ -1425,7 +1598,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 35
 Cost 500
 Cond 100
@@ -1449,6 +1621,30 @@ siê urywa, a ty jeszcze przez chwile czujesz ciarki na plecach.
 Identdesc ~
 Comments ~
 Objend
+#Vnum 26998
+Name ksiêga mocy pulsuj±ca~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga mocy~
+Descr Le¿y tutaj pulsuj±ca moc± ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1 92 292 373 90 0
+Repair 0 0 0 0
+Weight 1
+Cost 600
+Cond 100
+Itemdesc Jest to niewielkich rozmiarów ksiêga, która zdaje siê a¿ pulsowaæ od
+zawartej w niej mocy. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 26999
 Name kostur potêgi oksydowany granitowy emanuj±cy kielich wampira kielichwampira~
 Odmiana kostura '{DKielichu Wampira{X'~kosturowi '{DKielichowi Wampira{X'~kostur '{DKielich Wampira{X'~kosturem '{Dkielichem Wampira{X'~kosturze '{DKielichu Wampira{X'~
@@ -1464,7 +1660,6 @@ LiczbaMnoga 0
 Gender 0
 Value 9 3 5 8 36 3 3
 Repair 0 0 0 0
-Length 200
 Weight 100
 Cost 300000
 Cond 100
@@ -2373,32 +2568,32 @@ M 100 26979 1 26979 1
 E 100 26980 0 17
 M 100 26981 1 26981 1
 E 100 26981 0 17
-O 100 2362 0 26981
+O 100 3251 0 26981
 M 100 26983 1 26983 1
 E 100 26983 0 17
 M 100 26973 1 26983 1
 M 100 26974 1 26984 1
-E 100 4416 0 8
-E 100 4361 0 5
+E 100 3013 0 8
+E 100 26979 0 5
 G 100 26984 0
-G 5 4361 0
+G 5 26986 0
 G 50 26992 0
 G 80 26994 0
-G 25 27414 0
-G 40 3371 0
+G 25 26995 0
+G 40 26996 0
 G 5 26997 0
 G 80 26990 0
-G 100 3382 0
+G 100 3061 0
 G 35 3110 0
 G 100 3109 0
-G 100 3260 0
+G 100 3253 0
 G 100 26968 0
 G 100 2318 0
 M 100 26985 1 26985 1
 E 100 26985 0 17
 M 20 26992 1 26986 1
-E 100 4416 0 8
-E 100 4361 0 5
+E 100 26971 0 8
+E 100 26970 0 5
 E 100 26975 0 16
 M 100 26987 1 26987 1
 E 100 26987 0 17
@@ -2408,8 +2603,9 @@ M 100 26993 1 26990 1
 M 100 26991 1 26991 1
 E 100 26991 0 17
 M 100 26998 1 26992 1
-E 100 3001 0 8
-E 100 4379 0 5
+E 100 3380 0 8
+E 100 6048 0 12
+G 60 26998 0
 O 100 26993 0 26993
 O 100 26974 0 26993
 O 100 26973 0 26993
@@ -2475,8 +2671,8 @@ endif
 ~
 #26979
 ~
-mob equip self 4361
-mob equip self 4416
+mob equip self 26979
+mob equip self 3013
 ~
 #keleb_onload
 ~
@@ -2486,19 +2682,9 @@ if rand 97
   endif
 endif
 mob oload gem 7
-mob oload gem 5
-mob oload gem 5
-mob oload gem 6
-mob oload gem 7
 mob oload gem 6
 mob oload gem 3
 mob oload random 5
-mob olaod radnom 4
-mob olaod radnom 4
-mob olaod radnom 5
-mob olaod radnom 5
-mob olaod radnom 7
-mob olaod radnom 7
 mob oload random 4
 
 if rand 50

@@ -10,7 +10,7 @@
  *   Zdziech Tomasz      (t.zdziech@elka.pw.edu.pl      ) [Agron   ] *
  *                                                                   *
  *********************************************************************/
-/* $Id: weather.c 11439 2012-06-18 19:26:06Z grunai $*/
+/* $Id: weather.c 10701 2011-12-02 16:03:39Z illi $*/
 #if defined(macintosh)
 
 #include <types.h>
@@ -620,10 +620,10 @@ void weather_update( bool update_time )
 	{
 		if ( !d->character || d->connected < 0 ) continue;
 		if ( d->connected == CON_PLAYING &&
+		     IS_OUTSIDE( d->character ) &&
 		     IS_AWAKE( d->character ) &&
 		     d->character &&
 		     d->character->in_room &&
-		     IS_OUTSIDE( d->character ) &&
 		     !EXT_IS_SET( d->character->in_room->room_flags, ROOM_NO_WEATHER ) &&
 		     !IS_SET( sector_table[ d->character->in_room->sector_type ].flag, SECT_NOWEATHER ) &&
 		     buf[ d->character->in_room->sector_type ][ 0 ] != '\0' &&
@@ -642,9 +642,9 @@ void weather_update( bool update_time )
 		if ( !d->character  || d->connected < 0 ) continue;
 
 		if ( d->connected == CON_PLAYING &&
+		     IS_OUTSIDE( d->character ) &&
 		     d->character &&
 		     d->character->in_room	&&
-		     IS_OUTSIDE( d->character ) &&
 		     !IS_SET( sector_table[ d->character->in_room->sector_type ].flag, SECT_NOWEATHER ) )
 		{
 			if ( weather_info[ d->character->in_room->sector_type ].sky == SKY_LIGHTNING )

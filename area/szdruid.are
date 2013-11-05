@@ -482,11 +482,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -509,11 +509,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -536,6 +536,71 @@ jeste¶ gotowy, wróæ do skrzy¿owania i udaj siê na wschód.
 ~
 Comments ~
 Objend
+#Vnum 34503
+Name bochenek chleba~
+Odmiana bochenka chleba~bochenkowi chleba~bochenek chleba~bochenkiem chleba~bochenku chleba~
+Short bochenek chleba~
+Descr Spory bochenek chleba le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 18 96 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 75
+Itemdesc Jest to bochenek zwyk³ego chleba.
+~
+Comments ~
+Objend
+#Vnum 34507
+Name skórzane naramienniki~
+Odmiana skórzanych naramienników~skórzanym naramiennikom~skórzane naramienniki~skórzanymi naramiennikami~skórzanych naramiennikach~
+Short skórzane naramienniki~
+Descr Skórzane naramienniki le¿a tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0|A
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 10 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 300
+Cond 100
+Comments ~
+Objend
+#Vnum 34512
+Name kostur solidny drewniany~
+Odmiana kostura~kosturowi~kostur~kosturem~kosturze~
+Short drewniany kostur~
+Descr Drewniany kostur wygl±daj±cy na bardzo solidny.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 3 3 7 32 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 300
+Cond 30
+Comments ~
+Objend
 #Vnum 34515
 Name czarna skórzana peleryna~
 Odmiana peleryny z kapturem~pelerynie z kapturem~pelerynê z kapturem~peleryn± z kapturem~pelerynie z kapturem~
@@ -547,11 +612,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 25
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 125
 Cond 75
@@ -1502,17 +1567,17 @@ S
 
 #RESETS
 O 100 34500 0 34501
-O 100 3320 0 34501
+O 100 3058 0 34501
 M 100 34501 1 34502 1
 E 100 3365 0 16
-E 100 3018 0 5
-E 100 3050 0 7
-E 100 3001 0 8
+E 100 3065 0 5
+E 100 3382 0 7
+E 100 3380 0 8
 M 100 34506 1 34507 1
-E 100 3017 0 5
-E 100 3049 0 7
-E 100 3081 0 10
-E 100 3033 0 6
+E 100 3051 0 5
+E 100 3052 0 7
+E 100 3053 0 10
+E 100 3054 0 6
 E 100 3365 0 16
 M 100 34507 5 34512 5
 M 100 34507 5 34512 5
@@ -1529,30 +1594,30 @@ O 100 34501 0 34521
 M 100 34502 1 34521 1
 E 100 1605 0 12
 E 100 3135 0 16
-E 100 3018 0 5
-E 100 3050 0 7
-E 100 3001 0 8
+E 100 3381 0 5
+E 100 3382 0 7
+E 100 3380 0 8
 G 100 3185 0
 G 100 3097 0
-G 100 3371 0
+G 100 34512 0
 G 100 3366 0
-G 100 3179 0
-G 100 3356 0
-G 100 3001 0
-G 100 3082 0
-G 100 3050 0
-G 100 3018 0
-G 100 2499 0
-G 100 6102 0
-G 100 3363 0
+G 100 3022 0
+G 100 3370 0
+G 100 3380 0
+G 100 34507 0
+G 100 3382 0
+G 100 3381 0
+G 100 3025 0
+G 100 34503 0
+G 100 3035 0
 M 100 34511 1 34523 1
 E 100 34515 0 12
-E 100 3179 0 19
-E 100 3179 0 16
-E 100 3001 0 8
-E 100 3050 0 7
-E 100 3082 0 10
-E 100 3018 0 5
+E 100 3022 0 19
+E 100 3022 0 16
+E 100 3380 0 8
+E 100 3382 0 7
+E 100 34507 0 10
+E 100 3381 0 5
 S
 
 
@@ -1711,7 +1776,7 @@ if pos $n standing
   endif
   mob echoat $n Stajesz na palcach, a¿ co¶ ci trzeszczy w krzy¿u i zrywasz jab³ko.
   mob echo Jab³ko upada na ziemie.
-  mob oload 2464 room
+  mob oload 1702 room
 else
   mob echoat $n Nic w³a¶ciwie siê nie dzieje.
 endif

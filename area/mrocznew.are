@@ -1,6 +1,6 @@
 #AREADATA
 Name +  Mroczne Ruiny~
-Builders Sprawdz~
+Builders None~
 VNUMs 35861 35920
 Credits Builders: [Iskand Seinar]
 Sprawdza³: Laszlo
@@ -562,6 +562,51 @@ Mobend
 
 
 #OBJECTS
+#Vnum 35861
+Name Cienisty Bicz 'Gniew Isoryka'~
+Odmiana {WCienistego Bicza{x '{RGniew Isoryka{x'~{WCienistemu Biczowi{x '{RGniew Isoryka{x'~{WCienisty Bicz{x '{RGniew Isoryka{x'~{WCienistym Biczem{x '{RGniew Isoryka{x'~{WCienistym Biczu{x '{RGniew Isoryka{x'~
+Short {WCienisty Bicz{x '{RGniew Isoryka{x'~
+Descr {WCienisty Bicz{x '{RGniew Isoryka{x' rozblyskuje magicznym blaskiem.~
+Material unused~
+Type weapon
+ExtraExt 0|MPUY
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 7 4 4 4 0 3 3
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 35862
+Name smuga cienia~
+Odmiana {Dsm{Wugi{x cie{Wnia{x~{Dsm{Wud{wze{x cie{Wnia{x~{Dsm{Wugê{x cie{Wnia{x~{Dsm{Wug±{x cie{Wnia{x~{Dsm{Wud{wze{x cie{Wnia{x~
+Short {Dsm{Wuga{x {wcie{Wnia{x~
+Descr Eteryczny pasek {Dsm{Wuga{x cie{Wnia{x.~
+Material eteryczny~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 30
+Cond 100
+Objprog prewear 35865 100~
+Itemdesc Jest to eteryczny pasek {Dsm{Wuga{x cie{Wnia{x. Stworzony zosta³ za pomoc± magii,
+ale to nic dziwnego w miejscu gdzie mo¿na go kupiæ kipi a¿ od niej. 
+~
+Comments ~
+Objend
 #Vnum 35863
 Name ob³ok mg³y~
 Odmiana {Wob{w³o{Dku {Wm{wg³{Dy{x~{Wob{w³ok{Dowi {Wm{wg³{Dy{x~{Wob{w³o{Dk {Wm{wg³{Dy{x~{Wob{w³ok{Diem {Wm{wg³{Dy{x~{Wob{w³o{Dku {Wm{wg³{Dy{x~
@@ -577,7 +622,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 24 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 5
 Cond 100
@@ -604,7 +648,6 @@ LiczbaMnoga 0
 Gender 2
 Value 40 5 0 25 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 50
 Cost 50
 Cond 100
@@ -633,7 +676,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -647,6 +689,137 @@ moje cienie, idzcie i pilnuje ladu na swiecie. Niech nikt was nie zauwazy,
 niech nikt was nieuslyszy, ale kiedy sproboje przekroczyc bariere rownowagi
 miedzy dobrem i zlem, niech poczuje moj gniew, ktory teraz w was wpajam". {x
 ~
+Comments ~
+Objend
+#Vnum 35866
+Name Rekawice otoczone cieniem~
+Odmiana {WReka{wwic oto{Wczonych {wcie{Wniem{x~{WReka{wwicom oto{Wczonym {wcie{Wniem{x~stalowe rêkawice~{WReka{wwicami oto{Wczonymi {wcie{Wniem{x~{WReka{wwicach oto{Wczonymi {wcie{Wniem{x~
+Short {WReka{wwice oto{Wczone {wcie{Wniem{x~
+Descr {WReka{wwice oto{Wczone {wcie{Wniem{x lewituja blisko ziemi.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 48
+Cost 1680
+Cond 100
+Objprog prewear 35863 100~
+Itemdesc Widzisz przed sob± dosyæ ciê¿kie rekawice, wykonane ze stali. Nie sa to
+jednak zwyczajne stalowe rekawice znane z wojsk na po³udnie od z³otego
+miasta Arras. Sa to rekawice, które otacza przedziwna mg³a. Jest to jakby
+cienista, mroczna, lepka materia, która lewituje woko³o rekawic. 
+~
+Comments ~
+Objend
+#Vnum 35867
+Name pancerz stalowy wypolerowany~
+Odmiana {WPan{wcerza oto{Wczonego {wcie{Wniem{x~{WPan{wcerzowi oto{Wczonemu {wcie{Wniem{x~{WPan{wcerz oto{Wczony {wcie{Wniem{x~{WPan{wcerzem oto{Wczonym {wcie{Wniem{x~{WPan{wcerzu oto{Wczonym {wcie{Wniem{x~
+Short {WPan{wcerz oto{Wczony {wcie{Wniem{x~
+Descr {WPan{wcerz oto{Wczony {wcie{Wniem{x lewituje nisko nad ziemia.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 220
+Cost 4500
+Cond 100
+Objprog prewear 35863 100~
+Itemdesc Widzisz przed sob± dosyæ ciê¿ki pancerz, wykonane ze stali. Nie jest to
+jednak zwyczajny pancerz znany z wojsk na po³udnie od z³otego miasta Arras.
+Jest to pancerz, który otacza przedziwna mg³a. Jest to jakby cienista,
+mroczna, lepka materia, która lewituje woko³o pancerza. 
+~
+Comments ~
+Objend
+#Vnum 35868
+Name Nagolenice otoczone cieniem~
+Odmiana {WNago{welnic oto{Wczonych {wcie{Wniem{x~{WNago{welnicom oto{Wczonymi {wcie{Wniem{x~{WNago{welnice oto{Wczone {wcie{Wniem{x~{WNago{welnicami oto{Wczonymi {wcie{Wniem{x~{WNago{welnicach oto{Wczonymi {wcie{Wniem{x~
+Short {WNago{welnice oto{Wczone {wcie{Wniem{x~
+Descr {WNago{welnice oto{Wczone {wcie{Wniem{x lewituja nisko nad ziemia.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0|K
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 75
+Cost 2280
+Cond 90
+Objprog prewear 35863 100~
+Itemdesc Widzisz przed sob± dosyæ ciê¿kie nagolenice, wykonane ze stali. Nie sa to
+jednak zwyczajne nagolenice znane z wojsk na po³udnie od z³otego miasta
+Arras. Sa to nagolenice, które otacza przedziwna mg³a. Jest to jakby
+cienista, mroczna, lepka materia, która lewituje woko³o nagolenic. 
+~
+Comments ~
+Objend
+#Vnum 35869
+Name Buty otoczone cieniem~
+Odmiana {WBut{wow oto{Wczonych {wcie{Wniem{x~{WBut{wom oto{Wczonym {wcie{Wniem{x~{WBut{wy oto{Wczone {wcie{Wniem{x~{WBut{wami oto{Wczonymi {wcie{Wniem{x~{WBut{wach oto{Wczonymi {wcie{Wniem{x~
+Short {WBut{wy oto{Wczone {wcie{Wniem{x~
+Descr {WBut{wy oto{Wczone {wcie{Wniem{x lewituja nad ziemia.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 2100
+Cond 100
+Objprog prewear 35863 100~
+Itemdesc Widzisz przed sob± dosyæ ciê¿kie buty, wykonane ze stali. Nie sa to
+jednak zwyczajne stalowe buty znany z wojsk na po³udnie od z³otego miasta
+Arras. Sa to buty, które otacza przedziwna mg³a. Jest to jakby cienista,
+mroczna, lepka materia, która lewituje woko³o butów. 
+~
+Comments ~
+Objend
+#Vnum 35870
+Name Helm otoczony cieniem~
+Odmiana {WHel{wmu oto{Wczonego {wcie{Wniem{x~{WHel{wmowi oto{Wczonemu {wcie{Wniem{x~{WHel{wm oto{Wczony {wcie{Wniem{x~{WHel{wmem oto{Wczonym {wcie{Wniem{x~{WHel{wmie oto{Wczonym {wcie{Wniem{x~
+Short {WHel{wm oto{Wczony {wcie{Wniem{x~
+Descr {WHel{wm oto{Wczony {wcie{Wniem{x lezy na ziemi, ledwo widoczny.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 2280
+Cond 100
+Objprog prewear 35863 100~
+Itemdesc Widzisz przed sob± dosyæ ciê¿ki he³m, wykonany ze stali. Nie jest to
+jednak zwyczajny stalowy he³m znany z wojsk na po³udnie od z³otego miasta
+Arras. Jest to he³m, który otacza przedziwna mg³a. Jest to jakby cienista,
+mroczna, lepka materia, która lewituje woko³o he³mu. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 35871
@@ -664,12 +837,11 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 21000
 Cond 100
-Aff 1 13 -2 0 0 0
 Aff 1 24 -1 0 0 0
+Aff 1 13 -2 0 0 0
 Itemdesc Niewielka metalowa obr±czka, na pierwszy rzut oka przypomina pier¶cieñ
 bez zdobieñ. Stal z której zosta³a wykonana jest zimna w dotyku i matowa. 
 ~
@@ -682,13 +854,49 @@ witalne w³a¶ciciela.
 Comments Drop ze stratega. - {RDrake{x ({CThu Jul 23 23:09:44 2009{x)
 ~
 Objend
+#Vnum 35872
+Name bu³awa ozdobna ozdobiona matowa~
+Odmiana ozdobnej matowej bu³awy~ozdobn± matow± bu³aw±~ozdobn± matow± bu³awê~ozdobn± matow± bu³aw±~ozdobnej matowej bu³awie~
+Short ozdobna matowa bu³awa~
+Descr £adnie ozdobiona bu³awa le¿y tutaj w kurzu.~
+Material stal~
+Type weapon
+ExtraExt 0|G
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 3 4 8 0 1 1
+Repair 0 0 0 0
+Weight 120
+Cost 7500
+Cond 100
+Extradesc napis~
+F..e. Gy... Str.t.. I. .. L.C.
+~
+Extradesc napisy~
+F..e. Gy... Str.t.. I. .. L.C.
+~
+Itemdesc Ten kawa³ek stali nosi na sobie ¶lady lat, jednak mimo up³ywu czasu
+zachowa³ siê w jednym kawa³ku. Dowodzi to tylko jednego, prawdopodobnie jest
+magiczny. Wygl±da na bu³awê stratega, jednak {ynapisy{x które by³y wyryte na
+broni zatar³y siê dawno temu. 
+~
+Identdesc Magia zawarta w tej broni pozwala jej byæ traktowana jako broñ +2, je¶li
+chodzi o przebijanie odporno¶ci istot na magiczn± broñ. 
+~
+Comments Drop ze stratega. - {RDrake{x ({CThu Jul 23 23:09:36 2009{x)
+~
+SpecDamExt 3 100 -100 -100 -100 0 2 1
+Objend
 #Vnum 35873
 Name resztki spi¿owej bramy potrzaskane brama~
 Odmiana resztek spi¿owej bramy~resztkom spi¿owej bramy~resztki spi¿owej bramy~resztkami spi¿owej bramy~resztkach spi¿owej bramy~
 Short resztki spi¿owej bramy~
 Descr Potrzaskane resztki spi¿owej bramy walaj± siê tutaj dooko³a.~
 Material br±z~
-Type trash
+Type jewelry
 ExtraExt 0
 Wear 0
 Wear2Ext 0
@@ -697,7 +905,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 19999
 Cost 0
 Cond 100
@@ -1425,11 +1632,11 @@ Exit 5
 ~
 139264 0 35884
 DayRDesc 35862
-Roomprog random 35862 2~
-Roomprog input 35861 dow~
-Roomprog input 35861 do~
-Roomprog input 35861 d~
 Roomprog input 35861 down~
+Roomprog input 35861 d~
+Roomprog input 35861 do~
+Roomprog input 35861 dow~
+Roomprog random 35862 2~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2078,8 +2285,8 @@ Exit 3
 ~
 0 0 35904
 DayRDesc 35862
-Roomprog random 35862 2~
 Roomprog random 35863 2~
+Roomprog random 35862 2~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2683,7 +2890,7 @@ S
 #RESETS
 M 80 35867 1 35861 1
 E 12 35871 0 2
-E 15 3160 0 16
+E 15 35872 0 16
 M 100 35864 4 35862 1
 M 100 35863 8 35863 1
 M 100 35864 4 35865 1
@@ -2710,11 +2917,14 @@ M 100 35866 8 35882 1
 M 100 35861 1 35883 1
 O 100 35865 0 35890
 M 100 35865 1 35890 1
-G 100 3013 0
-G 100 3029 0
+G 100 35870 0
+G 100 35869 0
+G 100 35868 0
+G 100 35867 0
+G 100 35866 0
 G 100 35864 0
 G 100 35863 0
-G 100 4424 0
+G 100 35862 0
 M 100 35863 8 35891 1
 M 100 35866 8 35891 1
 M 100 35863 8 35893 1
@@ -2837,6 +3047,17 @@ endif
 mob echo {WOb{w³o{Dk {Wm{wg³{Dy{x znika przy zetkniêciu siê z ziemi±.
 mob purge ob³ok mg³y
 ~
+#35863
+Klanowe Stalowki, ogrniczenie
+~
+if clan $n CIEN
+     obj wear
+   mob echoat $n Zakladasz $o.
+   mob echoaround $n $n zaklada $o.
+else
+ mob echoat $n Magiczna sila nie pozwala ci zalozyc $o.
+endif 
+~
 #35864
 ~
 if clan $n CIEN
@@ -2845,6 +3066,16 @@ if clan $n CIEN
   mob echoaround $n Po chwili {Wob{w³o{Dk {Wm{wg³{Dy{x zaczyna lewitowaæ nad g³ow± $z.
 else
   mob echoat $n Magiczna si³a nie pozwala ci za³o¿yæ {Wob{w³o{Dku {Wm{wg³{Dy{x.
+endif
+~
+#35865
+~
+if clan $n CIEN
+  obj wear
+  mob echoat $n Zak³adasz {Dsm{Wugê{x cie{Wnia{x wokó³ pasa.
+  mob echoaround $n $n zak³ada {Dsm{Wugê{x cie{Wnia{x wokó³ pasa.
+else
+  mob echoat $n Magiczna si³a nie pozwala ci za³o¿yæ {Dsm{Wugi{x cie{Wnia{x wokó³ pasa.
 endif
 ~
 #0
@@ -2900,13 +3131,6 @@ bald
 #Vnum 0
 
 #RANDDESC
-#Vnum 35862
-DescRand #grouprand 5
-#grouprand 6
-#grouprand 7
-#grouprand 8
-~
-RandDescEnd
 #Vnum 35861
 DescRand #grouprand 1
 #grouprand 2
@@ -2914,116 +3138,18 @@ DescRand #grouprand 1
 #grouprand 4
 ~
 RandDescEnd
+#Vnum 35862
+DescRand #grouprand 5
+#grouprand 6
+#grouprand 7
+#grouprand 8
+~
+RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 8_1~
-Desc Wszystko spowija mroczna, cienista mg³a, która zdaje siê ciebie powoli
-otaczaæ. 
- 
-~
-Group 8
-End
-#Name 7_2~
-Desc Zjawy i widma to jedynie co mo¿na spotkaæ na tym przybijaj±cym cmentarzu. 
-~
-Group 7
-End
-#Name 7_1~
-Desc To miejsce bardzo ro¿ni siê od innych tego typu cmenatrzy - o ile mo¿na
-to tak nazwaæ - nie ma tu gryzoni, ma³ych zwierz±t, b±d¼ zadnych innych
-¿ywych stworzeñ. 
-~
-Group 7
-End
-#Name 6_3~
-Desc Uczucia jakie w jednym momencie pojawi³y siê w umys³ach ludzi, którzy
-niegdy¶ tu ¿yli, przed katastrofa jaka siê tu wydarzy³a, wrêcz przesycaj±
-cale pomieszczenie. 
-~
-Group 6
-End
-#Name 6_2~
-Desc Smutek, gniew, rozczarowanie, têsknota - to jedne z wielu uczuæ, które
-wrêcz przesycaj± powietrze tutaj. 
-~
-Group 6
-End
-#Name 6_1~
-Desc Czuæ tutaj tylko gniew, cierpienie i nienawi¶æ. 
-~
-Group 6
-End
-#Name 5_4~
-Desc {WZnajdujesz siê na terenie czego¶ co zazwyczaj ludzie nazywaj± gniewem
-bo¿ym, potê¿na magia uderzy³a w to miejsce bezlito¶nie niszcz±c wszystko co
-siê tu znajdowa³o pozostawiaj±c po sobie jedynie ruiny i zgliszcza. 
-~
-Group 5
-End
-#Name 5_3~
-Desc {WZnajdujesz siê na terenie jakiej¶ powa¿nej bitwy magicznej, która
-pozostawi³a po sobie jedynie ruiny i zgliszcza. 
-~
-Group 5
-End
-#Name 5_2~
-Desc {WZnajdujesz siê na terenie ruin - niewiadomo w³a¶ciwie czego, tak jakby
-jaka¶ potê¿na magia uderzy³a w to miejsce i zostawi³a jedynie zgliszcza i
-widma postaci. 
-~
-Group 5
-End
-#Name 5_1~
-Desc {WZnajdujesz siê na terenie ruin jakiego¶ dawno zniszczonego miasta. 
-~
-Group 5
-End
-#Name 4_1~
-Desc {WCalosc spowija ciemna, mroczna mgla przypominajaca cien.{x
-~
-Group 4
-End
-#Name 3_2~
-Desc {WZjawy i widma to jedynie co mozna spotkac na tym przybijajacym cmentarzu.{x
-~
-Group 3
-End
-#Name 3_1~
-Desc {WTo miejsce bardzo ro¿ni siê od innych tego typu cmenatrzy - o ile mo¿na
-to tak nazwaæ - nie ma tu gryzoni, ma³ych zwierz±t, b±d¼ zadnych innych
-¿ywych stworzeñ. 
-~
-Group 3
-End
-#Name 2_3~
-Desc {WUczucia jakie w jednym momencie pojawi³y siê w umys³ach ludzi, którzy
-niegdy¶ tu ¿yli, przed katastrofa jaka siê tu wydarzy³a, wrêcz przesycaj±
-cale pomieszczenie. 
-~
-Group 2
-End
-#Name 2_2~
-Desc {WSmutek, gniew, rozczarowanie, têsknota - to jedne z wielu uczuæ, które
-wrêcz przesycaj± powietrze tutaj. 
-~
-Group 2
-End
-#Name 2_1~
-Desc {WCzuæ tutaj tylko gniew, cierpienie i nienawi¶æ. {x 
-~
-Group 2
-End
-#Name 1_4~
-Desc {WZnajdujesz siê na terenie czego¶ co zazwyczaj ludzie nazywaj± gniewem
-bo¿ym, potê¿na magia uderzy³a w to miejsce bezlito¶nie niszcz±c wszystko co
-siê tu znajdowa³o pozostawiaj±c po sobie jedynie ruiny i zgliszcza. {x 
-~
-Group 1
-End
-#Name 1_3~
-Desc {WZnajdujesz sie na terenie jakiejs powaznej bitwy magicznej, ktora
-pozostawila po sobie jedynie ruiny i zgliszcza. {x 
+#Name 1_1~
+Desc {WZnajdujesz siê na terenie ruin jakiego¶ dawno zniszczonego miasta. {x 
 ~
 Group 1
 End
@@ -3034,10 +3160,115 @@ Desc {WZnajdujesz siê na terenie ruin - niewiadomo w³a¶ciwie czego, tak jakby
 ~
 Group 1
 End
-#Name 1_1~
-Desc {WZnajdujesz siê na terenie ruin jakiego¶ dawno zniszczonego miasta. {x 
+#Name 1_3~
+Desc {WZnajdujesz sie na terenie jakiejs powaznej bitwy magicznej, ktora
+pozostawila po sobie jedynie ruiny i zgliszcza. {x 
 ~
 Group 1
+End
+#Name 1_4~
+Desc {WZnajdujesz siê na terenie czego¶ co zazwyczaj ludzie nazywaj± gniewem
+bo¿ym, potê¿na magia uderzy³a w to miejsce bezlito¶nie niszcz±c wszystko co
+siê tu znajdowa³o pozostawiaj±c po sobie jedynie ruiny i zgliszcza. {x 
+~
+Group 1
+End
+#Name 2_1~
+Desc {WCzuæ tutaj tylko gniew, cierpienie i nienawi¶æ. {x 
+~
+Group 2
+End
+#Name 2_2~
+Desc {WSmutek, gniew, rozczarowanie, têsknota - to jedne z wielu uczuæ, które
+wrêcz przesycaj± powietrze tutaj. 
+~
+Group 2
+End
+#Name 2_3~
+Desc {WUczucia jakie w jednym momencie pojawi³y siê w umys³ach ludzi, którzy
+niegdy¶ tu ¿yli, przed katastrofa jaka siê tu wydarzy³a, wrêcz przesycaj±
+cale pomieszczenie. 
+~
+Group 2
+End
+#Name 3_1~
+Desc {WTo miejsce bardzo ro¿ni siê od innych tego typu cmenatrzy - o ile mo¿na
+to tak nazwaæ - nie ma tu gryzoni, ma³ych zwierz±t, b±d¼ zadnych innych
+¿ywych stworzeñ. 
+~
+Group 3
+End
+#Name 3_2~
+Desc {WZjawy i widma to jedynie co mozna spotkac na tym przybijajacym cmentarzu.{x
+~
+Group 3
+End
+#Name 4_1~
+Desc {WCalosc spowija ciemna, mroczna mgla przypominajaca cien.{x
+~
+Group 4
+End
+#Name 5_1~
+Desc {WZnajdujesz siê na terenie ruin jakiego¶ dawno zniszczonego miasta. 
+~
+Group 5
+End
+#Name 5_2~
+Desc {WZnajdujesz siê na terenie ruin - niewiadomo w³a¶ciwie czego, tak jakby
+jaka¶ potê¿na magia uderzy³a w to miejsce i zostawi³a jedynie zgliszcza i
+widma postaci. 
+~
+Group 5
+End
+#Name 5_3~
+Desc {WZnajdujesz siê na terenie jakiej¶ powa¿nej bitwy magicznej, która
+pozostawi³a po sobie jedynie ruiny i zgliszcza. 
+~
+Group 5
+End
+#Name 5_4~
+Desc {WZnajdujesz siê na terenie czego¶ co zazwyczaj ludzie nazywaj± gniewem
+bo¿ym, potê¿na magia uderzy³a w to miejsce bezlito¶nie niszcz±c wszystko co
+siê tu znajdowa³o pozostawiaj±c po sobie jedynie ruiny i zgliszcza. 
+~
+Group 5
+End
+#Name 6_1~
+Desc Czuæ tutaj tylko gniew, cierpienie i nienawi¶æ. 
+~
+Group 6
+End
+#Name 6_2~
+Desc Smutek, gniew, rozczarowanie, têsknota - to jedne z wielu uczuæ, które
+wrêcz przesycaj± powietrze tutaj. 
+~
+Group 6
+End
+#Name 6_3~
+Desc Uczucia jakie w jednym momencie pojawi³y siê w umys³ach ludzi, którzy
+niegdy¶ tu ¿yli, przed katastrofa jaka siê tu wydarzy³a, wrêcz przesycaj±
+cale pomieszczenie. 
+~
+Group 6
+End
+#Name 7_1~
+Desc To miejsce bardzo ro¿ni siê od innych tego typu cmenatrzy - o ile mo¿na
+to tak nazwaæ - nie ma tu gryzoni, ma³ych zwierz±t, b±d¼ zadnych innych
+¿ywych stworzeñ. 
+~
+Group 7
+End
+#Name 7_2~
+Desc Zjawy i widma to jedynie co mo¿na spotkaæ na tym przybijaj±cym cmentarzu. 
+~
+Group 7
+End
+#Name 8_1~
+Desc Wszystko spowija mroczna, cienista mg³a, która zdaje siê ciebie powoli
+otaczaæ. 
+ 
+~
+Group 8
 End
 #DescEnd
 

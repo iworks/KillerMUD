@@ -485,6 +485,55 @@ Mobend
 
 
 #OBJECTS
+#Vnum 42820
+Name rêkawice rêkawiczki Nashasesiela z³ote~
+Odmiana {Wrêkawic {YNashasesiela{x~{Wrêkawicom {YNashasesiela{x~{Wrêkawice {YNashasesiela{x~{Wrêkawicami {YNashasesiela{x~{Wrêkawicach {YNashasesiela{x~
+Short {Wrêkawice {YNashasesiela{x~
+Descr Le¿± tutaj przepiêkne, ca³e pokryte {Yz³otem{x, {Wrêkawice{x.~
+Material mocna skóra~
+Type clothing
+ExtraExt 0|DGKL
+Wear AH
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 5500
+Cond 100
+Extradesc _extra_desc~
+Widzisz, ¿e $n nosi na rêkach wspania³e, {Yz³ote {Wrêkawiczki{x. Mimo ¿e stoisz
+kilka kroków od niego wyczuwasz potê¿n± energiê, która jest w nich zawarta.
+Ich wygl±d jest równie¿ niezwyk³y. Ka¿dy mag chcia³by takie posi±¶æ.
+Wywo³a³y one zazdro¶æ ju¿ u nie jednego. $n u¶miecha siê do ciebie, kiedy
+widzi ¿e patrzysz na jego {Wrêkawice{x. 
+~
+Objprog prewear 42820 100~
+Itemdesc Te rêkawice wykonane s± ze skóry. Zafarbowana jest ona na kolor {Yz³oty{x,
+przez co {Wrêkawice{x wygl±daj± tak cudownie. Jak g³osi legenda zosta³y one
+wykonane przez samego {Ycelestiala Nashasesiela{x! Da³ on je pewnemu arcymagowi,
+który mia³ pokonaæ bardzo gro¼nego nekromantê. Mia³y mu w tym pomóc. Ów
+nekromanta chcia³ zaw³adn±æ ¶wiatem. Ka¿d± napotkan± istotê zabija³. By³
+najokrutniejsz± osob± na ¶wiecie. Tu¿ przed swoj± ¶mierci±, pu¶ci³ on na
+swojego przeciwnika, arcymaga Iharodra, kl±twê, która mia³a wywo³aæ u
+Iharodra mutacjê. Mia³ on siê zamieniæ w straszliwego {Dgryfa{x. Wiedzia³ co siê
+stanie, wiêc odlecia³, wraz z {Wrêkawicami{x, w jak najmniej dostêpne dla
+mieszkañców ¶wiata miejsce. Kilka wieków po tym wydarzeniu, pewna grupa
+podró¿ników zabi³a {Dgryfa{x, uwalniaj±c przy tym duszê arcymaga. Dru¿yna ta
+odnalaz³a przy ciele owe {Wrêkawice{x, a teraz... Posiadasz je ty.
+~
+Identdesc Czujesz, ¿e w tych rêkawicach zawarta jest najczystsza energia magiczna.
+Jest ona bardzo potê¿na. Tego przedmiotu mog± u¿ywaæ tylko magowie o dobrym
+nastawieniu do ¶wiata. Wp³ywaj± one na zdolno¶ci magiczne osoby nosz±cej je
+oraz na ochronê i odporno¶æ przed magi±. Rêkawice te, mimo ¿e wykonane s± ze
+skóry, wa¿±, jakby by³y zrobione z papieru. 
+~
+Comments przypakowalem (doda³em minor globa), w koñcu jak art to art - {RKainti{x ({CThu Aug 26 21:54:14 2004{x)
+art przeniesiony do krainki artowej, tu wyczyscilem affectty - {RKarlam{x ({CSat Oct  8 10:34:51 2011{x)
+~
+Objend
 #Vnum 42821
 Name cia³o arcymag Iharodra~
 Odmiana cia³a arcymaga~cia³u arcymaga~cia³o arcymaga~cia³em arcymaga~ciele arcymaga~
@@ -500,7 +549,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 1100
 Cost 60
 Cond 50
@@ -525,7 +573,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 65
 Cost 0
 Cond 40
@@ -551,7 +598,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 0
 Cond 35
@@ -576,7 +622,6 @@ LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 0
 Cond 100
@@ -602,7 +647,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 1103
 Cost 0
 Cond 50
@@ -611,6 +655,30 @@ Le¿y ono ju¿ tutaj parê dni, poniewa¿ krew nie wygl±da na ¶wie¿±. Ciekawe,
 co mog³o staæ siê tej, tak m³odej, osobie.
 ~
 Comments ~
+Objend
+#Vnum 42826
+Name druidzka okuta ksiêga~
+Odmiana okutej ksiêgi~okutej ksiêdze~okut± ksiegê~okut± ksieg±~okutej ksiêdze~
+Short okuta druidzka ksiêga~
+Descr Wielka Druidzka ksiêga okuta stal± le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|TW
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 8 91 369 350 400 504
+Repair 0 0 0 0
+Weight 1
+Cost 43320
+Cond 75
+Itemdesc Jest to wielka, bardzo stara i cholernie du¿o warta druidzka ksiêga. Jest przesycona przera¼liwie silna magia natury. 
+~
+Comments ksiega czarnego gryfa - {RKainti{x ({CMon May  9 16:01:07 2005{x)
+ksiega druidzkiego mistrza - {RDrake{x ({CFri May  2 09:53:36 2008{x)
+~
 Objend
 #Vnum 42827
 Name gryfie scierwo cia³o~
@@ -627,7 +695,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 60
 Cond 50
@@ -636,6 +703,100 @@ to wielki, czarny gryf, ale ¶lady k³ów, pazurów i przypalone lotki piór
 niew±tpliwie ¶wiadcz± o tym, ¿e pad³ ofiar± jeszcze potê¿niejszej bestii.
 Prawdopodobnie smoka... Ale co by smok robi³ w tej okolicy? ! 
 ~
+Comments ~
+Objend
+#Vnum 42828
+Name drewniane sanda³y~
+Odmiana {ydrewnianych sanda³ów{x~{ydrewnianym sanda³om{x~{ydrewniane sanda³y{x~{ydrawnianymi sanda³ami{x~{ydrewnianych sanda³ach{x~
+Short {ydrewniane sanda³y{x~
+Descr Sanda³y wykonane z solidnego, dêbowego drewna le¿a tu.~
+Material drewno dêbowe~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 30
+Cond 75
+Aff 1 14 5 0 0 0
+Aff 1 13 5 0 0 0
+Itemdesc Proste sanda³y u¿ywane przez druidów. Wykonane s± z solidnego, dêbowego
+drewna. Wygl±daj± na ca³kiem wygodne. 
+~
+Comments ~
+Objend
+#Vnum 42829
+Name sanda³y z w³osia~
+Odmiana {gsanda³ów z w³osia{x~{gsanda³om z w³osia{x~{gsanda³y z w³osia{x~{gsanda³ami z w³osia{x~{gsanda³ach z w³osia{x~
+Short {gsanda³y z w³osia{x~
+Descr Le¿± tu dziwne sanda³y, wykonane z w³osia.~
+Material w³osie~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0|BCDKM/1|A
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 350
+Cond 75
+Objprog random 42829_sandaly 100~
+Itemdesc Masz przed sob± niezwykle dziwnie wykonane sanda³y. Pozlepiane s± jakim¶
+dziwnym w³osiem i zio³ami, które mimo logice wydzielaj± bardzo przyjemny,
+orze¼wiaj±cy zapach. 
+~
+Comments ~
+Objend
+#Vnum 42830
+Name prosty habit~
+Odmiana prostego habitu~prostemu habitowi~prosty habit~prostym habitem~prostym habicie~
+Short prosty habit~
+Descr Prostu habit jakiego¶ druida le¿y na ziemi.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 60
+Cond 75
+Itemdesc Masz przed sob± zwyczajny habit. Najprawdopodobniej zosta³ wykonany z
+lnu. Jest ca³y szary, gdzieniegdzie pokryty zielonkawymi plamami. Chyba ma
+ju¿ swoje lata. 
+~
+Comments ~
+Objend
+#Vnum 42831
+Name d³ugi kij~
+Odmiana d³ugiego kija~d³ugiemu kijowi~d³ugi kij~d³ugim kijem~d³ugim kiju~
+Short d³ugi kij~
+Descr D³ugi kij le¿y tu.~
+Material stalodrzew~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 2 7 13 32 1 1
+Repair 0 0 0 0
+Weight 7
+Cost 9000
+Cond 100
 Comments ~
 Objend
 #Vnum 0
@@ -653,6 +814,17 @@ lata. Jednak ta podró¿ bêdzie mêcz±ca i wyczerpuj±ca.
 ~
 FlagsExt 0
 Sector 35
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 42666
+ExitExtEnd
+Exit 1
+~
+~
+0 0 42666
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3540,8 +3712,8 @@ mob oload gem 7 r
 if rand 50
   mob oload gem 7 r
   if rand 97
-    if canloadarte 29111
-      mob aload 29111 r
+    if canloadarte 42820
+      mob aload 42820 r
     endif
   endif
 endif
@@ -3559,10 +3731,7 @@ if rand 65
 endif
 emote pada na ziemiê... MARTWY.
 mob oload gem 7 r
-mob oload gem 5
-mob oload gem 6
-mob oload gem 7
-mob oload gem 7
+mob oload gem 7 r
 mob oload random 7 r
 if rand 50
   mob oload gem 7 r
@@ -3583,10 +3752,6 @@ if rand 50
     endif
   endif
 endif
-mob oload random 4
-mob oload random 4
-mob oload random 5
-mob oload random 6
 #compo do circle of vanion (Karlam)
 if rand 85
   mob oload 1676 r
@@ -3597,12 +3762,12 @@ endif
 mob addgroup 42829
 mob addgroup 42829
 if rand 90
-  mob equip self 4415
+  mob equip self 42829
 else
-  mob equip self 4416
+  mob equip self 42828
 endif
-mob equip self 4395
-mob equip self 3159
+mob equip self 42830
+mob equip self 42831
 ~
 #42821
 ~
@@ -3653,6 +3818,32 @@ obj wear
 mob echoaround $n Kaszcz bierze do rêki kamienne narzêdzie.
 else
 mob echoat $n Nie wiesz, jak siê tym pos³ugiwaæ!
+endif
+~
+#42829_sandaly
+~
+mob forget
+mob remember $r
+if !ispc $q 
+  break
+endif
+if !wears $q 42829
+  break
+endif
+$_move = int_random 1 100
+if hasflag $o 42829_sandal_used
+  if rand 99
+    if rand 75
+      mob echoat $q {WSanda³y, które nosisz zaczynaj± ciê uwieraæ i gry¼æ. Strasznie swêdzi!{x
+      mob reward $q move -$_move
+    endif
+  endif
+else
+  if rand 99
+    mob setflag $o 42829_sandal_used 24
+    mob echoat $q {GZ sanda³ów zaczyna wydzielaæ siê bardzo mi³y, orze¼wiaj±cy zapach.{x
+    mob reward $q move $_move
+  endif
 endif
 ~
 #0

@@ -186,6 +186,31 @@ Mobend
 
 
 #OBJECTS
+#Vnum 13001
+Name gruba koszula~
+Odmiana koszuli~koszuli~koszulê~koszul±~koszuli~
+Short gruba koszula~
+Descr Le¿y tu zwyk³a koszula.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 1
+Cond 50
+Itemdesc Gruba, bia³a koszula, zrobiona z lnu i sznurka prezentuje siê nawet
+³adnie, lecz ¶mierdzi potem i poprzednim posi³kiem w³a¶ciciela. Dostrzegasz na niej ma³e plamy krwi.
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -1336,8 +1361,8 @@ Exit 1
 ~
 ~
 0 0 13027
-Roomprog time 13105 12~
 Roomprog time 13104 9~
+Roomprog time 13105 12~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4575,8 +4600,8 @@ Exit 1
 ~
 ~
 0 0 13095
-Roomprog time 13105 8~
 Roomprog time 13104 4~
+Roomprog time 13105 8~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4989,14 +5014,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18558
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18558
+16 0 18558
 DayRDesc 13000
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5511,17 +5536,6 @@ Exit 1
 ~
 ~
 16 0 20075
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 20526
-ExitExtEnd
-Exit 2
-~
-~
-0 0 20526
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5686,17 +5700,17 @@ Exit 0
 ~
 ~
 0 0 13127
-ExitExt 1
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 20526
+ExitExtToVnum 13132
 ExitExtEnd
-Exit 1
+Exit 2
 ~
 ~
-0 0 20526
+0 0 13132
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5755,8 +5769,41 @@ Capacity 0
 Roomend
 #Vnum 13132
 Name Potê¿ny las~
-FlagsExt 0|C
+FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 13130
+ExitExtEnd
+Exit 0
+~
+~
+0 0 13130
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 13134
+ExitExtEnd
+Exit 2
+~
+~
+0 0 13134
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 13133
+ExitExtEnd
+Exit 3
+~
+~
+0 0 13133
 DayRDesc 13000
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -5776,6 +5823,17 @@ Exit 0
 ~
 ~
 0 0 13131
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 13132
+ExitExtEnd
+Exit 1
+~
+~
+0 0 13132
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5795,6 +5853,17 @@ Roomend
 Name Potê¿ny las~
 FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 13132
+ExitExtEnd
+Exit 0
+~
+~
+0 0 13132
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6168,6 +6237,14 @@ DayRDesc 13000
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
+#Vnum 13144
+Name free----~
+FlagsExt 0|C
+Sector 3
+DayRDesc 13000
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 13145
 Name Potê¿ny las~
 FlagsExt 0
@@ -6371,6 +6448,8 @@ M 100 13001 25 13133 1
 M 100 13002 25 13136 1
 M 100 13001 25 13139 1
 M 100 13000 15 13142 1
+M 100 13002 25 13144 1
+M 100 13000 15 13144 1
 S
 
 
@@ -6426,51 +6505,10 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 09~
-Desc Niezwykly las pelen poteznych tworów matki natury. Wspanialy,
-ponadczasowy i niezwyciezony dowód na to, ze niema potezniejszej mocy
-tworzacej ten swiat. 
-~
-Group 3
-End
-#Name 08~
-Desc Kolejny dowód, ze potega matki natury to najwieksza moc na swiecie.
-Ogromne i niezwykle potezne drzewa porastaja caly teren, nic ani nikt
-niebylby w stanie ich zniszczyc. 
-~
-Group 3
-End
-#Name 07~
-Desc Potega natury po raz kolejny pokazuje swoja moc w calej swojej
-okazalosci, ten las prezentuje sie naprawde bardzo imponujaco. Oby takich
-wiecej. 
-~
-Group 3
-End
-#Name 06~
-Desc Konary drzew sa bardzo grube, niektóre potrafia osiagac grubosc ponad
-trzech metrów. Miedzy nimi rosna mniejsze drzewa, które dopiero zmieniaja
-sie w tak potezne twory. 
-~
-Group 2
-End
-#Name 05~
-Desc Niektóre z konarów sa tak grube, ze nawet dorosly troll czy ogr nie bylby
-w stanie objac ich swymi poteznymi lapami. Inne odrobine mniejsze potrzebuja
-czasu, by osiagnac taki rozmiar. 
-~
-Group 2
-End
-#Name 04~
-Desc Najmniejsze z pni sa grubosci doroslego czlowieka, jednak niektóre sa
-znacznie wieksze, swoim obwodem przekraczaja nawet trzy metry, zaprawde sa
-to potezne twory natury. 
-~
-Group 2
-End
-#Name 03~
-Desc Wszelkiego rodzaju drzewa porastaja ten obszar. Duze, masywne drzewa pna
-sie w góre uniemozliwiajac mlodszym zaczerpniecie swiatla. Jest ich mnóstwo.
+#Name 01~
+Desc Zielony las porasta cala przestrzen, silne wiekowe drzewa pna sie dumnie
+ku niebu. Nawet ogromna nawalnica nie byla by w stanie zniszczyc takiej
+potegi. 
 ~
 Group 1
 End
@@ -6481,12 +6519,53 @@ Desc Ogromny, zielony las rosnie tutaj od wieków. Rozlozyste galezie
 ~
 Group 1
 End
-#Name 01~
-Desc Zielony las porasta cala przestrzen, silne wiekowe drzewa pna sie dumnie
-ku niebu. Nawet ogromna nawalnica nie byla by w stanie zniszczyc takiej
-potegi. 
+#Name 03~
+Desc Wszelkiego rodzaju drzewa porastaja ten obszar. Duze, masywne drzewa pna
+sie w góre uniemozliwiajac mlodszym zaczerpniecie swiatla. Jest ich mnóstwo.
 ~
 Group 1
+End
+#Name 04~
+Desc Najmniejsze z pni sa grubosci doroslego czlowieka, jednak niektóre sa
+znacznie wieksze, swoim obwodem przekraczaja nawet trzy metry, zaprawde sa
+to potezne twory natury. 
+~
+Group 2
+End
+#Name 05~
+Desc Niektóre z konarów sa tak grube, ze nawet dorosly troll czy ogr nie bylby
+w stanie objac ich swymi poteznymi lapami. Inne odrobine mniejsze potrzebuja
+czasu, by osiagnac taki rozmiar. 
+~
+Group 2
+End
+#Name 06~
+Desc Konary drzew sa bardzo grube, niektóre potrafia osiagac grubosc ponad
+trzech metrów. Miedzy nimi rosna mniejsze drzewa, które dopiero zmieniaja
+sie w tak potezne twory. 
+~
+Group 2
+End
+#Name 07~
+Desc Potega natury po raz kolejny pokazuje swoja moc w calej swojej
+okazalosci, ten las prezentuje sie naprawde bardzo imponujaco. Oby takich
+wiecej. 
+~
+Group 3
+End
+#Name 08~
+Desc Kolejny dowód, ze potega matki natury to najwieksza moc na swiecie.
+Ogromne i niezwykle potezne drzewa porastaja caly teren, nic ani nikt
+niebylby w stanie ich zniszczyc. 
+~
+Group 3
+End
+#Name 09~
+Desc Niezwykly las pelen poteznych tworów matki natury. Wspanialy,
+ponadczasowy i niezwyciezony dowód na to, ze niema potezniejszej mocy
+tworzacej ten swiat. 
+~
+Group 3
 End
 #DescEnd
 

@@ -90,6 +90,7 @@ Form EFM
 Parts ABCGHIJKR
 Size medium
 Material unknown
+MobprogNew death wodna_death ABCDEFGHI 100~
 MobprogNew onload 27752 ABCDEFGHI 100~
 Spells 137 26 272 299
 Spells 166 241 270 77
@@ -142,6 +143,7 @@ Form EFM
 Parts ABCGHIJKR
 Size medium
 Material unknown
+MobprogNew death lesna_death ABCDEFGHI 100~
 MobprogNew onload 27753 ABCDEFGHI 100~
 Spells 50 26 150 242
 Spells 166 240 298 0
@@ -1009,11 +1011,11 @@ ExtraExt 0|A
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 200 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 1
 Cond 100
@@ -1030,11 +1032,11 @@ ExtraExt 0
 Wear AOT
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
@@ -1051,12 +1053,12 @@ ExtraExt 0|Dd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Komponent 2 300
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1073,11 +1075,11 @@ ExtraExt 0|Dd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1094,11 +1096,11 @@ ExtraExt 0|Dd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1116,11 +1118,11 @@ ExtraExt 0|Dd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1161,11 +1163,11 @@ ExtraExt 0|AD
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 100
@@ -1178,6 +1180,55 @@ Identdesc ~
 Comments Wyci±³em jeden resist na poison, poniewa¿ by³ zdublowany wpis. - {RGurthg{x ({CSat Mar  1 14:45:13 2003{x)
 ~
 Objend
+#Vnum 27780
+Name bu³awa drewniana~
+Odmiana drewnianej bu³awy~drewnianej bu³awie~drewniana bu³awe~drewniana bu³awa~drewnianej bu³awie~
+Short drewniana bu³awa~
+Descr Niezbyt ciê¿ka drewniana bu³awa le¿y tutaj na ziemi.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 4 3 2 7 0 0 0
+Repair 0 0 0 0
+Weight 45
+Cost 1500
+Cond 100
+Itemdesc Ta bron nie jest najwy¿szej jako¶ci i raczej nie nadaje siê do niszczenia
+zbroi. Ale siniaka mo¿na ni± nabiæ i to porz±dnego! 
+~
+Comments ~
+Objend
+#Vnum 27781
+Name szata kap³añska druidyczna~
+Odmiana szaty~szacie~szatê~szata~szacie~
+Short {Gszata kap³anów Natury{x~
+Descr {GD³uga zielona szata, ozdobiona druidycznym symbolem spoczywa tutaj.{x~
+Material kaszmir~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0|Q
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 5
+Cond 100
+Aff 1 27 1 1 0 0
+Itemdesc Ta piêkna szata pokryta jest symbolami i runami, ¶wiadcz±cymi o tym, ze
+jej moc mo¿e byæ wykorzystywana wy³±cznie przez druidów. 
+~
+Comments ~
+Objend
 #Vnum 27805
 Name skrzynka ¿elazna zardzewia³a~
 Odmiana skrzynki~skrzynce~skrzynkê~skrzynka~skrzynce~
@@ -1189,11 +1240,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 8
 LiczbaMnoga 0
 Gender 3
 Value 30 5 0 30 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 0
 Cond 95
@@ -1203,6 +1254,77 @@ prostu siê rozsypaæ. Jest zamkniêta, a raczej zasklepiona warstw± rdzy i na
 wpó³ skamienia³ego mu³u, ale przy odrobinie wytrwa³o¶ci pewnie uda ci siê j±
 otworzyæ. 
 ~
+Comments ~
+Objend
+#Vnum 27828
+Name ksiêga zielona poro¶niêta~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short {Gzielona ksiêga{x~
+Descr {GLe¿y tutaj ksiêga, ca³a poro¶niêta mchem.{x~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 116
+LiczbaMnoga 0
+Gender 0
+Value 5 5 483 495 499 143 0
+Repair 0 0 0 0
+Weight 40
+Cost 20940
+Cond 100
+Identdesc ~
+Comments ~
+Objend
+#Vnum 27829
+Name ksiêga zielona poro¶niêta~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short {Gzielona ksiêga{x~
+Descr {GLe¿y tutaj ksiêga, ca³a poro¶niêta mchem.{x~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 116
+LiczbaMnoga 0
+Gender 0
+Value 5 5 501 219 299 483 298
+Repair 0 0 0 0
+Weight 40
+Cost 20940
+Cond 100
+Itemdesc Przygl±dasz siê bli¿ej ksiêdze i zauwa¿asz, ¿e porasta j± mech! Ciekaw
+jeste¶ sk±d siê wzi±³? Czy¿by pradawna druidzka magia by³a zamkniêta na jej
+stronicach? Z boku wystaje malutka k³ódeczka, czujesz ze tylko druid mo¿e ja
+otworzyæ. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 27830
+Name ksiêga ksi±¿ka wy¶wiechtana~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga czarów~
+Descr Wy¶wiechtana ksi±¿ka wala siê po ziemi.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 3
+Value 0 1 355 441 65 46 140
+Repair 0 0 0 0
+Weight 40
+Cost 600
+Cond 100
+Identdesc ~
 Comments ~
 Objend
 #Vnum 0
@@ -1327,7 +1449,7 @@ na to, ¿e najwy¿sze i najstarsze drzewa rosn± na po³udnie i wschód stad -
 bezkresna puszcza rozci±ga siê w tamta stronê. 
 ~
 FlagsExt 0
-Sector 3
+Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1621,7 +1743,7 @@ zwierzêce tropy - znak, ¿e le¶ne zwierzêta czêsto przechodz± tedy w drodze
 do wodopoju, a potem wracaj± by wygrzewaæ siê na s³oñcu na lace. 
 ~
 FlagsExt 0
-Sector 3
+Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1891,7 +2013,7 @@ obracasz g³owê i w zdumieniu patrzysz na jakie¶ ogromne drzewo, gdy to
 wynurza siê zza zakrêtu ¶cie¿ki. 
 ~
 FlagsExt 0
-Sector 3
+Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2014,14 +2136,14 @@ Sector 3
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 188
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 188
+16 0 188
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3362,6 +3484,7 @@ M 100 27751 2 27751 2
 O 100 27753 0 27754
 M 100 27755 2 27755 2
 M 100 27830 1 27756 1
+G 55 27830 0
 M 100 27775 2 27757 2
 M 100 27758 1 27758 1
 M 100 27751 2 27759 2
@@ -3377,11 +3500,11 @@ G 100 1422 0
 M 100 27775 2 27775 2
 O 50 11211 0 27777
 M 100 27781 1 27778 1
-E 100 4367 0 5
+E 100 3011 0 5
 M 100 27779 1 27779 1
 M 100 27780 1 27780 1
-E 100 3160 0 16
-E 100 4362 0 5
+E 100 27780 0 16
+E 100 27781 0 5
 M 100 27755 2 27783 2
 M 100 27765 8 27788 4
 O 50 11211 0 27790
@@ -3421,11 +3544,11 @@ emote pada na ziemiê... MARTWY.
 ~
 #27752
 ~
-mob equip self 4367
+mob equip self 4504
 ~
 #27753
 ~
-mob equip self 4363
+mob equip self 3012
 ~
 #27755
 ~
@@ -3734,6 +3857,27 @@ mob echoaround $n $n pada na ziemie, z nogami oplecionymi przez ro¶liny...
 mob echo ¯ywodrzew zaczyna smagaæ ga³êziami wszystko w swoim zasiêgu!
 kill $n
 endif
+~
+#free6
+{RFREE FREE FREE FREE{x
+~
+~
+#lesna_death
+~
+if rand 65
+  mob oload 27828 r
+endif
+emote pada na ziemiê... MARTWA.
+~
+#orta_onl
+~
+~
+#wodna_death
+~
+if rand 65
+  mob oload 27829
+endif
+emote pada na ziemiê... MARTWA.
 ~
 #0
 

@@ -126,7 +126,7 @@ Weaponbonus 2
 Damflags 0
 Attack walniecie
 XAC 6 6 6 6
-Stats 120 80 80 80 80 80 80
+Stats 96 84 84 90 90 78 78
 Off ILR
 OffExt 0|ILR
 Pos_start stand
@@ -555,6 +555,80 @@ Mobend
 
 
 #OBJECTS
+#Vnum 19305
+Name skorzana spodniczka~
+Odmiana skorzanej spodniczki~skorzanej spodniczce~skorzana spodniczke~skorzana spodniczka~skorzanej spodniczce~
+Short skorzana spodniczka~
+Descr Krotka spodniczka z czarnej skory.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 3
+Value 9 9 9 10 1 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 300
+Cond 75
+Itemdesc Skorzana spodnica, chociazby taka jak ta, od zawsze stanowi jeden z
+wazniejszych elementow ekwipunku prawdziwej wojowniczki. Kobieta czuje sie w
+mniej nie tylko wygodnie. O wiele wazniejszy jest tworzony w ten sposob
+wizerunek. 
+~
+Comments ~
+Objend
+#Vnum 19306
+Name powyginana laska~
+Odmiana powyginanej laski~powyginanej lasce~powyginan± laskê~powyginan± lask±~powyginanej lasce~
+Short powyginana laska~
+Descr D³uga, powyginana laska le¿y na ¶rodku pomieszczenia.~
+Material drewno~
+Type weapon
+ExtraExt 0|B
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 9 2 4 8 32 0 1
+Repair 0 0 0 0
+Weight 100
+Cost 4200
+Cond 75
+Itemdesc Laska wykonana z wij±cego siê na wszystkie strony drewna sprawia do¶c
+przygnêbiaj±ce wra¿enie, którego wcale nie usuwaja jakie¶ dziwne znaki w
+jêzyku goblinów wyciête po bokach. 
+~
+Comments ~
+Objend
+#Vnum 19307
+Name szata szmata kawa³ek podarta~
+Odmiana podartej szaty~podartej szacie~podarta szata~podart± szat±~podartej szacie~
+Short podarta szata~
+Descr Kawa³ek szmaty le¿y na ziemie.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 20
+Cond 100
+Itemdesc Ta stara, podarta szata wygl±da jakby swój najlepszy okres mia³a dawno za sob±.
+~
+Comments ~
+Objend
 #Vnum 19308
 Name pos±¿ek figurka porcelanowa~
 Odmiana porcelanowej figurki~porcelanowej figurce~porcelanow± figurkê~porcelanow± figurk±~porcelanowej figurce~
@@ -566,11 +640,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 33
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 7200
 Cond 100
@@ -580,6 +654,32 @@ Pewnie zrabowa³ j±, albo innemu goblinowi albo jakiemu¶ kupcowi czy
 podró¼nikowi. W ka¿dym razie jest nie¼le wykonana i utrzymana, musi byæ
 warta pare monet. 
 ~
+Comments ~
+Objend
+#Vnum 19309
+Name du¿a drewniana tarcza prostok±tna~
+Odmiana drewnianej tarczy ~drewnianej tarczy ~drewniana tarcze ~drewniana tarcza ~drewnianej tarczy ~
+Short du¿a, drewniana tarcza~
+Descr Du¿a, prostok±tna, drewniana tarcza le¿y tutaj.~
+Material drewno~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 2 1 18 2 -1 1 0
+Repair 0 0 0 0
+Weight 60
+Cost 1200
+Cond 45
+Itemdesc Widzisz przed sob± du¿±, prostok±tn±, brzydko ociosan± tarcze wykonana z
+drewna. Na ¶rodku tarczy kto¶ przybi³ przerdzewia³ym gwo¼dziem czaszke wo³a.
+Na tarczy widaæ tak¿e czerwone zacieki w paru miejscach. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 19315
@@ -593,14 +693,110 @@ ExtraExt 0|A
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
+Comments ~
+Objend
+#Vnum 19316
+Name pordzewia³y topór dwurêczny~
+Odmiana pordzewia³ego topora~pordzewia³emu toporowi~pordzewia³y topór~pordzewia³ym toporem~pordzewia³ym toporze~
+Short pordzewia³y topór~
+Descr Pordzewia³y topór le¿y tutaj w b³ocie.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|a
+Wear AN
+Wear2Ext 0|IL
+Bonus 0
+Rent 18
+LiczbaMnoga 0
+Gender 2
+Value 5 3 4 1 32 1 0
+Repair 0 0 0 0
+Weight 120
+Cost 2400
+Cond 60
+Itemdesc Jest to do¶æ mocno zardzewia³y dwurêczny topór. U¿ywaj± go tutejsze
+gobliny. Po stanie topora widaæ, ¿e gobliny przechowuj± je chyba w b³ocie.
+Ostrze pokryte jest wyschniêt± krwi±, dziêki tym toporom gobliny zdobywaj±
+sobie po¿ywienie. 
+~
+Comments ~
+Objend
+#Vnum 19324
+Name gobliñski kilof~
+Odmiana gobliñskiego kilofa~gobliñskiemu kilofowi~gobliñski kilof~gobliñskim kilofem~gobliñskim kilofie~
+Short gobliñski kilof~
+Descr Kilof wykonany przez gobliny rdzewieje na ziemi.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0|A
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 2
+Value 5 2 5 8 0 -1 -1
+Repair 0 0 0 0
+Weight 30
+Cost 0
+Cond 50
+Itemdesc Jest to zwyk³y kilof u¿ywany przez gobliñskich górników. 
+~
+Comments ~
+Objend
+#Vnum 19325
+Name brudna kurtka~
+Odmiana brudnej kurtki~brudnej kurtce~brudn± kurtkê~brudn± kurtk±~brudnej kurtce~
+Short brudna kurtka~
+Descr Jaka¶ brudna kurtka le¿y na ziemi.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0|A
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 0
+Cond 50
+Itemdesc Zwyk³a brudna kurtka, która chyba ju¿ swoje wys³u¿y³a. 
+~
+Comments ~
+Objend
+#Vnum 19326
+Name lampa górnicza~
+Odmiana lampy górniczej~lamie górniczej~lampê górnicz±~lamp± górnicz±~lampie górniczej~
+Short lampa górnicza~
+Descr Na ziemi le¿y jaka¶ górnicza lampa.~
+Material ¿elazo~
+Type light
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 3
+Value 0 1 18 2 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 0
+Cond 75
+Itemdesc Zwyk³a rêczna lampa górnicza, ukradziona przez gobliny.
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 19327
@@ -614,11 +810,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 16960
 Cost 1
 Cond 75
@@ -628,6 +824,80 @@ demona, czy te¿ mo¿e rycerza trzymaj±cego wielki miecz dwurêczny w d³oniach.
 Ubrany w piekieln± zbrojê wykonan± z ludzkich czaszek oraz okryty d³ugim
 czarnym p³aszczem z kapturem. Postaæ ta wygl±da na prawdê gro¼nie, na
 szczê¶cie takich potworów na ¶wiecie nie ma. 
+~
+Comments ~
+Objend
+#Vnum 19363
+Name kosa krotka~
+Odmiana krótkiej kosy~krótkiej kosie~krotka kose~krotka kosa~krótkiej kosie~
+Short krotka kosa~
+Descr Niezbyt d³uga kosa o ostrzu pokrytym zakrzep³± krwi± le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 8 2 4 1 32 0 1
+Repair 0 0 0 0
+Weight 60
+Cost 1800
+Cond 70
+Comments ~
+Objend
+#Vnum 19380
+Name plaszcz podarty stary~
+Odmiana stary plaszcz~staremu plaszczowi~stary plaszcz~starym plaszczem~starym plaszczu~
+Short stary podarty plaszcz~
+Descr Poniewiera tu sie w koncie stary podarty plaszcz.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 20
+Cond 14
+Itemdesc Stary, podarty plaszcz któremu sie przygladasz wyglada jakby nosilo go
+wiele pokolen wojownikow. Wiele dziur i prób cerowania na tym w koncu kiedys
+wspanialym plaszczu koloru szkarlatnego dzis zmienily jego kolor na
+praktycznie tencze barw. Plaszcz ten niewapliwie byl kiedys wart spora
+fortune lecz dzis trudno bylo by go sprzedac. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 19393
+Name zab³ocone nagolenniki~
+Odmiana zab³oconych nagolenników~zab³oconym nagolennikom~zab³ocone nagolenniki~zab³oconymi nagolennikami~zab³oconych nagolennikach~
+Short zab³ocone nagolenniki~
+Descr Brzydkie i zab³ocone nagolenniki le¿± na ziemi.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 12
+LiczbaMnoga 1
+Gender 2
+Value 8 7 7 10 3 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2460
+Cond 75
+Itemdesc Patrzysz na do¶æ masywne brudne i zaniedbane nagolenniki. Raczej ma³o kto
+chcia³by siê w takie ubraæ, mo¿e ludzie biedni to tak, ale nie jaki¶ wielki
+rycerz. 
 ~
 Comments ~
 Objend
@@ -642,16 +912,141 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 2
-Value 6 6 5 10 12 0 0
+Value 6 8 5 10 7 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 3600
 Cond 75
 Itemdesc Troche wyszczerbiony i zadu¿y na goblin¶k± g³owe he³m, z którego boków
 wystaj± dwa ¿elaze rogi. Ciekawe komu go ukradli? 
+~
+Comments ~
+Objend
+#Vnum 19396
+Name brudne dziurawe skórzane rêkawiczki~
+Odmiana rêkawiczek~rêkawiczkom~rêkawiczki~rêkawiczkami~rêkawiczkach~
+Short brudne skórzane rekawiczki~
+Descr Poniewiera siê tu para dziurawych, skórzanych rêkawiczek.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 1
+Gender 3
+Value 9 9 9 10 1 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 600
+Cond 20
+Itemdesc S± to znoszone, stare rêkawiczki. Nie zapewniaj± prawie ¿adnej ochrony.
+Maj± tyle dziur, ¿e z powodzeniem mo¿na powiedzieæ, ze cios prêdzej trafi w
+skórê w³a¶ciciela ni¿ skórzan± rêkawiczke. 
+~
+Comments ~
+Objend
+#Vnum 19397
+Name zbroja pancerz znoszony gobliñski~
+Odmiana znoszonego gobliñskiego pancerza~znoszonemu gobliñskiemu pancerzowi~znoszony gobliñski pancerz~znoszonym gobliñskim pancerzem~znoszonym gobliñskim pancerzu~
+Short znoszony gobliñski pancerz~
+Descr Le¿y tutaj dziwna, podniszczona zbroja.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 3
+Value 5 6 4 10 11 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 4200
+Cond 70
+Itemdesc Jest to stara i zniszczona ju¿ zbroja zrobiona ze skóry jakiego¶
+zwierzêcia. Jest to stara, skórzane zbroja która mimo to wydaje siê solidna.
+Zosta³a wykonana przez gobliny, które do kiepsko uszytej, skórzanej zbroji
+doda³y ró¼ne ko¶ciano-b³yszcz±ce elementy. Skorupa która powsta³a z tego
+po³±czenia, wprawdzie ogranicza troche ruchy, ale zapewnia o wiele wieksz±
+ochrone ni¿ zwyk³a zbroja skórzana. 
+~
+Comments ~
+Objend
+#Vnum 19398
+Name zardzewia³e naramienniki~
+Odmiana {yzardzewia³ych{x naramienników~{yzardzewia³ym{x naramiennikom~{yzardzewia³e{x naramienniki~{yzardzewia³ymi{x
+naramiennikami~{yzardzewia³ych{x naramiennikach~
+Short {yzardzewia³e{x naramienniki~
+Descr Naramienniki s± bardzo zardzewia³e i trochê ¶mierdza zgnilizn±.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 3
+Value 7 8 7 10 7 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 1200
+Cond 25
+Comments ~
+Objend
+#Vnum 19399
+Name p³aszcz skóra ludzka~
+Odmiana p³aszcza z ludzkiej skóry~p³aszczowi z ludzkiej skóry~p³aszcz z ludzkiej skóry~p³aszczem z ludzkiej skóry~p³aszczu z ludzkiej skóry~
+Short p³aszcz z ludzkiej skóry~
+Descr Plaszcz wykonany z pozszywanych kawa³ków skóry... ludzkiej skóry...~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|G
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 19400
+Name wyszczerbiony brzeszczot miecz~
+Odmiana wyszczerbionego brzeszczota~wyszczerbionemu brzeszczotowi~wyszczerbiony brzeszczot~wyszczerbionym brzeszczotem~wyszczerbionym brzeszczocie~
+Short wyszczerbiony brzeszczot~
+Descr Le¿y tutaj na ziemi miecz z wyszczerbion± kling±.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 40
+LiczbaMnoga 0
+Gender 2
+Value 1 2 6 1 1032 -1 0
+Repair 0 0 0 0
+Weight 110
+Cost 4500
+Cond 100
+Itemdesc Ten miecz, niegdy¶ bardzo solidnie zrobiony przeszed³ ju¿ tyle bitew i
+wypi³ tyle krwi, ¿e ledwo mo¿na rozponaæ, ¿e ten brzeszczot kiedy¶ by³
+mieczem. Jelec rozpad³ siê dawno temu, grañ pokry³a siê brudem i skrzep³±
+krwia, g³owica odpad³a dawno temu. Ostrze zosta³o tak¿e lekko 'ulepszone'
+przez gobliny, którzy przyczepili z jednej strony pare kawa³ków metalu.
+Obecnie ten miecz bardziej przypomina tasak lub brzytwe, a nazwany zosta³
+brzeszczotem. 
 ~
 Comments ~
 Objend
@@ -5045,192 +5440,192 @@ S
 
 #RESETS
 M 100 19363 6 19302 1
-E 100 3163 0 16
-E 100 3001 0 8
+E 100 19363 0 16
+E 100 3380 0 8
 M 100 19305 3 19303 1
-E 100 4414 0 7
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 19305 0 7
+E 100 3380 0 8
+E 100 19325 0 5
 M 100 19305 3 19305 1
-E 100 4414 0 7
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 19305 0 7
+E 100 3380 0 8
+E 100 19325 0 5
 M 100 19363 6 19308 1
-E 100 3163 0 16
-E 100 3001 0 8
+E 100 19363 0 16
+E 100 3380 0 8
 M 100 19375 3 19309 1
-E 100 3025 0 5
-E 100 3128 0 16
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3048 0 16
+E 100 3380 0 8
 M 100 19301 3 19309 1
-E 100 3025 0 5
-E 100 3128 0 16
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3048 0 16
+E 100 3380 0 8
 M 100 19305 3 19310 1
-E 100 4414 0 7
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 19305 0 7
+E 100 3380 0 8
+E 100 19325 0 5
 M 100 19363 6 19311 1
-E 100 3163 0 16
-E 100 3001 0 8
+E 100 19363 0 16
+E 100 3380 0 8
 M 100 19363 6 19313 1
-E 100 3163 0 16
-E 100 3001 0 8
+E 100 19363 0 16
+E 100 3380 0 8
 M 100 19316 1 19316 1
-E 100 3127 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 19316 0 16
+E 100 3380 0 8
+E 100 3372 0 5
 G 100 19315 0
 M 100 19319 8 19319 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19321 5 19321 1
-E 100 3001 0 8
+E 100 3380 0 8
 E 100 3296 0 16
-E 100 3025 0 5
+E 100 3372 0 5
 M 100 19322 8 19322 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19319 8 19324 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19321 5 19326 1
 E 100 3296 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19322 8 19328 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19319 8 19331 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19322 8 19333 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19322 8 19335 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19319 8 19337 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19323 1 19337 1
-E 100 3374 0 17
+E 100 19326 0 17
 M 100 19322 8 19339 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19319 8 19340 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19321 5 19341 1
 E 100 3296 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19322 8 19343 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19322 8 19344 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19321 5 19347 1
 E 100 3296 0 16
-E 100 3025 0 5
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3380 0 8
 M 100 19319 8 19348 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19319 8 19350 1
-E 100 3001 0 8
-E 100 3276 0 17
-E 100 4369 0 5
-E 100 3374 0 17
+E 100 3380 0 8
+E 100 19324 0 16
+E 100 19325 0 5
+E 100 19326 0 17
 M 100 19321 5 19356 1
 E 100 3296 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19301 3 19357 1
-E 100 3025 0 5
-E 100 3128 0 16
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3048 0 16
+E 100 3380 0 8
 M 100 19375 3 19357 1
-E 100 3128 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3048 0 16
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19302 1 19358 1
-E 100 3089 0 10
-E 100 3025 0 5
-E 100 3045 0 6
-E 100 4418 0 8
-E 100 3066 0 9
-E 100 4426 0 12
+E 100 19398 0 10
+E 100 19397 0 5
+E 100 19395 0 6
+E 100 3087 0 8
+E 100 19396 0 7
+E 100 19380 0 12
 M 100 19363 6 19363 1
-E 100 3163 0 16
-E 100 3001 0 8
+E 100 19363 0 16
+E 100 3380 0 8
 M 100 19400 1 19364 1
 G 50 19308 0
-E 100 4377 0 5
-E 100 3159 0 16
-E 100 4428 0 12
+E 100 19307 0 5
+E 100 19306 0 16
+E 100 19399 0 12
 M 100 19375 7 19364 1
-E 100 3025 0 5
-E 100 3128 0 16
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3048 0 16
+E 100 3380 0 8
 M 100 19375 7 19365 1
-E 100 3128 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3048 0 16
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19375 7 19370 1
-E 100 3025 0 5
-E 100 3128 0 16
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3048 0 16
+E 100 3380 0 8
 M 100 19375 3 19372 1
-E 100 3025 0 5
-E 100 3128 0 16
-E 100 3001 0 8
+E 100 3372 0 5
+E 100 3048 0 16
+E 100 3380 0 8
 M 100 19301 3 19372 1
-E 100 3128 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3048 0 16
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19363 6 19373 1
-E 100 3163 0 16
-E 100 3001 0 8
+E 100 19363 0 16
+E 100 3380 0 8
 M 100 19375 7 19378 1
-E 100 3128 0 16
-E 100 3001 0 8
-E 100 3025 0 5
+E 100 3048 0 16
+E 100 3380 0 8
+E 100 3372 0 5
 M 100 19379 2 19379 1
-E 100 3001 0 8
-E 100 3157 0 16
-E 100 4426 0 12
+E 100 3380 0 8
+E 100 3071 0 16
+E 100 19380 0 12
 M 100 19379 2 19399 1
-E 100 3001 0 8
-E 100 3157 0 16
-E 100 4426 0 12
+E 100 3380 0 8
+E 100 3071 0 16
+E 100 19380 0 12
 S
 
 
@@ -5239,10 +5634,10 @@ S
 #garkulg_eq
 ~
 if rand 50
-mob equip self 3128
+mob equip self 3048
 else
-mob equip self 3366
-mob equip self 3129
+mob equip self 19309
+mob equip self 19400
 endif
 mob addgroup 19303
 mob addgroup 19303
@@ -5252,20 +5647,20 @@ endif
 ~
 #gob_przy_eq
 ~
-mob equip self 3025
-mob equip self 3001
-mob equip self 3089
-mob equip self 3066
+mob equip self 19397
+mob equip self 3380
+mob equip self 19398
+mob equip self 19396
 if rand 60
-mob equip self 3127
+mob equip self 19316
 else
 if rand 60
 mob equip self 3296
 else
 if rand 60
-mob equip self 3128
+mob equip self 3048
 else
-mob equip 3163
+mob equip 19363
 endif
 endif
 endif
@@ -5274,24 +5669,24 @@ endif
 ~
 # broñ
 if rand 90
-  mob equip self 3129
+  mob equip self 19400
 else
-  mob equip self 3128
+  mob equip self 3048
 endif
 
 # naramienniki
 if rand 90
-  mob equip self 3089
+  mob equip self 19398
 else
-  mob equip self 3093
+  mob equip self 6675
 endif
 
-mob equip self 4418
+mob equip self 3087
 mob equip self 19393
 mob equip self 19395
-mob equip self 3066
-mob equip self 3025
-mob equip self 4428
+mob equip self 19396
+mob equip self 19397
+mob equip self 19399
 ~
 #rycerz
 ~

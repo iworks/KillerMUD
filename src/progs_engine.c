@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -29,8 +29,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: progs_engine.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/progs_engine.c $
+ * $Id: progs_engine.c 10864 2012-01-16 18:01:32Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/progs_engine.c $
  *
  */
 #if defined(macintosh)
@@ -115,7 +115,7 @@ const struct prog_check prog_trigs[] =
     {	"preremove",	FALSE,	TRUE,	FALSE	},
     {	"mount",    	TRUE,	FALSE,	FALSE	},
     {	"dismount", 	TRUE,	FALSE,	FALSE	},
-    {	"precommand", 	TRUE,	TRUE,	TRUE	},
+    {	"precommand", 	TRUE,	TRUE,	FALSE	},
     {	"stand",		FALSE,	FALSE,	TRUE	},
     {	"horn",			FALSE,	TRUE,	FALSE	},
     {	"preget",		FALSE,	TRUE,	FALSE	},
@@ -1071,7 +1071,7 @@ int get_order( CHAR_DATA *ch )
  * item_type: item type or 0
  * fWear: TRUE: item must be worn, FALSE: don't care
  */
-bool has_item( CHAR_DATA *ch, unsigned int vnum, sh_int item_type, bool fWear )
+bool has_item( CHAR_DATA *ch, ush_int vnum, sh_int item_type, bool fWear )
 {
     OBJ_DATA *obj;
     for ( obj = ch->carrying; obj; obj = obj->next_content )
@@ -1082,7 +1082,7 @@ bool has_item( CHAR_DATA *ch, unsigned int vnum, sh_int item_type, bool fWear )
     return FALSE;
 }
 
-bool carries_item( CHAR_DATA *ch, unsigned int vnum, sh_int item_type )
+bool carries_item( CHAR_DATA *ch, ush_int vnum, sh_int item_type )
 {
     OBJ_DATA *obj;
     for ( obj = ch->carrying; obj; obj = obj->next_content )
@@ -1094,7 +1094,7 @@ bool carries_item( CHAR_DATA *ch, unsigned int vnum, sh_int item_type )
 }
 
 //czy ma zalozony artef
-bool wears_arte(CHAR_DATA *ch, unsigned int vnum)
+bool wears_arte(CHAR_DATA *ch, ush_int vnum)
 {
     OBJ_DATA *obj;
 
@@ -1112,7 +1112,7 @@ bool wears_arte(CHAR_DATA *ch, unsigned int vnum)
 }
 
 //czy ma artef
-bool has_arte(CHAR_DATA *ch, unsigned int vnum)
+bool has_arte(CHAR_DATA *ch, ush_int vnum)
 {
     OBJ_DATA *obj;
 
@@ -1125,7 +1125,7 @@ bool has_arte(CHAR_DATA *ch, unsigned int vnum)
 }
 
 //czy mozna zaladowac artefakt
-bool arte_can_load (unsigned int vnum)
+bool arte_can_load (ush_int vnum)
 {
     ARTEFACT_DATA *art = NULL;
 
@@ -1146,7 +1146,7 @@ bool arte_can_load (unsigned int vnum)
 /*
  * Check if there's a mob with given vnum in the room
  */
-bool get_mob_vnum_room( CHAR_DATA *ch, unsigned int vnum )
+bool get_mob_vnum_room( CHAR_DATA *ch, ush_int vnum )
 {
     CHAR_DATA *mob;
     for ( mob = ch->in_room->people; mob; mob = mob->next_in_room )
@@ -1158,7 +1158,7 @@ bool get_mob_vnum_room( CHAR_DATA *ch, unsigned int vnum )
 /*
  * Check if there's a mob with given vnum in the world
  */
-bool get_mob_vnum_world( unsigned int vnum )
+bool get_mob_vnum_world( ush_int vnum )
 {
     CHAR_DATA *mob;
 	for ( mob = char_list; mob != NULL ; mob = mob->next )
@@ -1172,7 +1172,7 @@ bool get_mob_vnum_world( unsigned int vnum )
 /*
  * Check if there's an object with given vnum in the room
  */
-bool get_obj_vnum_room( CHAR_DATA *ch, unsigned int vnum )
+bool get_obj_vnum_room( CHAR_DATA *ch, ush_int vnum )
 {
     OBJ_DATA *obj;
     for ( obj = ch->in_room->contents; obj; obj = obj->next_content )

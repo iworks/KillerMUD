@@ -387,6 +387,30 @@ Mobend
 
 
 #OBJECTS
+#Vnum 19200
+Name ko¶ci szkielet krasnoluda~
+Odmiana szkieleta krasnoluda~szkieletowi krasnoluda~szkielet krasnoluda~szkieletem krasnoluda~szkielecie krasnoluda~
+Short szkielet krasnoluda~
+Descr Spogl±dasz na ko¶ci jakiego¶ zmar³ego krasnoluda.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 400
+Cost 60
+Cond 75
+Itemdesc Spogl±dasz na te krasnoludzkie ko¶ci, zastanawiasz siê ile lat musia³y
+byæ one poddane próbie czasu by wygl±daæ tak bia³o jak teraz. 
+~
+Comments ~
+Objend
 #Vnum 19201
 Name stara taczka~
 Odmiana starej taczki~starej taczce~star± taczkê~star± taczk±~starej taczce~
@@ -398,11 +422,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 100 0 0 100 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
@@ -422,16 +446,16 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 19211
+Rent 10
 LiczbaMnoga 0
 Gender 3
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 600
 Cond 75
-Objprog prewear 19201 100~
 Objprog preremove 19202 100~
+Objprog prewear 19201 100~
 Itemdesc Ta maska utworzona z chitynowego pancerza nie do¶æ, ¿e jest lekka, nie
 ogranicza pola widzenia to jeszcze do¶æ dobrze chroni nosz±cego przed
 urazami. 
@@ -449,16 +473,16 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0
 Bonus 19211
+Rent 10
 LiczbaMnoga 0
 Gender 0
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 600
 Cond 75
-Objprog prewear 19203 100~
 Objprog preremove 19204 100~
+Objprog prewear 19203 100~
 Itemdesc Ciemno br±zowy pancerz chitynowy, nie do¶æ, ¿e jest lekki i wygodny w
 noszeniu to jeszcze w dodatku nie blokuje ¿adnych ruchów. 
 ~
@@ -475,16 +499,16 @@ ExtraExt 0
 Wear AF
 Wear2Ext 0
 Bonus 19211
+Rent 10
 LiczbaMnoga 1
 Gender 0
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 600
 Cond 75
-Objprog prewear 19205 100~
 Objprog preremove 19206 100~
+Objprog prewear 19205 100~
 Itemdesc Ciemno br±zowej barwy nakolanniki które mo¿na za³o¿yæ sobie na nogi. S±
 wygodne, lekkie i nie krêpuj± ruchów. 
 ~
@@ -501,21 +525,164 @@ ExtraExt 0
 Wear AI
 Wear2Ext 0
 Bonus 19211
+Rent 10
 LiczbaMnoga 1
 Gender 5
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 600
 Cond 75
-Objprog preremove 19208 100~
 Objprog prewear 19207 100~
+Objprog preremove 19208 100~
 Itemdesc Ciemno br±zowe naramienniki wykonane z chityny. Specjalne rzemyczki
 umocowane po ka¿dej stronie pozwalaj± na zapiêcie ich wokó³ ramion poprzez
 co nie krêpuja ruchów no i ta lekka waga. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 19208
+Name ciemnozielony plaszcz~
+Odmiana ciemnozielonego p³aszcza~ciemnozielonemu p³aszczowi~ciemnozielony p³aszcz~ciemnozielonym p³aszczem~ciemnozielonym p³aszczu~
+Short ciemnozielony p³aszcz~
+Descr Ciemnozielony p³aszcz z kapturem le¿y tutaj.~
+Material len~
+Type clothing
+ExtraExt 1|A
+Wear ACDEFIL
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 10
+Cond 75
+Extradesc _opis~
+$n ma na sobie ciemnozielony p³aszcz z kapturem, na którym
+wyhaftowano podziemnego ¿uka. Spinaj±ca go z przodu, b³yszcz±ca zapinka,
+wykonana z ma³ych szczypców, zosta³a umieszczona tu¿ pod $s szyj±.
+~
+Itemdesc Ciemno zielony p³aszcz z kapturem wykonanym z lnu nadaje siê do okrycia
+swojego cia³a. 
+~
+Comments ~
+Objend
+#Vnum 19209
+Name platynowy nadziak~
+Odmiana platynowego nadziaka~platynowemu nadziakowi~platynowy nadziak~platynowym nadziakiem~platynowym nadziaku~
+Short platynowy nadziak~
+Descr Spogl±dasz na jednorêczny platynowy nadziak le¿±cy przy twoich stopach.~
+Material platyna~
+Type weapon
+ExtraExt 0|G
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 4 2 3 13 0 1 1
+Repair 0 0 0 0
+Weight 150
+Cost 30000
+Cond 75
+Itemdesc Spogl±dasz na dziwny m³ot, z jednej strony zakoñczony ostrym, wrêcz prze
+ostrym kolcem a z drugiej strony standardowym têpym zakoñczeniem m³ota.
+Zamiast drewnianej r±czki g³ownia osadzona zosta³a na platynowym trzonku co
+prowadzi do wielkiej wytrzyma³o¶ci tego bojowego przedmiotu. 
+~
+Comments ~
+Objend
+#Vnum 19210
+Name grudki platyny~
+Odmiana grudki platyny~grudkom platyny~grudki platyny~grudkami platyny~grudkach platyny~
+Short platynowe grudki~
+Descr Spogl±dasz na b³yszcz±ce siê grudki twardej platyny.~
+Material platyna~
+Type treasure
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 50
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 15000
+Cond 75
+Itemdesc Spogl±dasz na wiele platynowych grudek, mo¿e by je tak zebraæ? Podobno
+ten materia³ jest do¶æ ceniony przez jubilerów. 
+~
+Comments ~
+Objend
+#Vnum 19211
+Name czarna orkowa zbroja~
+Odmiana {Dczarnej orkowej zbroi{x~{Dczarnej orkowej zbroi{x~{Dczarn± orkow± zbrojê{x~{Dczarn± orkow± zbroj±{x~{Dczarnej orkowej zbroi{x~
+Short {Dczarna orkowa zbroja{x~
+Descr Widzisz pozostawiona w nie³adzie, czarna orkow± kolczugê z insygniami.~
+Material stal~
+Type armor
+ExtraExt 0|J
+Wear AD
+Wear2Ext 0|a
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 3
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 160
+Cost 5000
+Cond 100
+Aff 1 26 115 3 0 0
+Aff 1 26 187 5 0 0
+Aff 1 17 -5 0 0 0
+Itemdesc Patrzysz na wykonana z niezwykle wytrzyma³ego stopu, orkow± kolczugê.
+Czarny kolor oraz insygnia dawno zapomnianego kultu, umieszczone na
+ramionach, ¶wiadcz± o niezwyk³o¶ci tej zbroi. Rozmiary przedmiotu wskazuj±
+na postawna osobê, a raczej osobnika, wiec w³a¶ciciel zbroi musia³ byæ
+ogromnej postury. Im d³u¿ej przygl±dasz siê kolczudze, tym wiêkszy niepokój
+wdziera siê w twoje my¶li. Z niesmakiem i przera¿eniem odwracasz wzrok.
+Prawda o tym przedmiocie jest mroczna i pe³na nienawi¶ci. Dawnym
+w³a¶cicielem tej czarnej kolczugi by³ ork, wysoko postawiony w hierarchii
+orkowej armii siepacz, ¶lepo oddany s³uga swojego pana, Gruumsha. St±d jej
+czarny wygl±d. Sama kolczuga prawdopodobnie zosta³a pob³ogos³awiona przez
+Gruumsha, w zamian za zas³ugi jej w³a¶ciciela. Miejsce, w którym zosta³a
+znaleziona, ¶wiadczy o za¿artej walce grupy orków, którzy prawdopodobnie
+chcieli odebraæ ten niezwykle cenny przedmiot swemu dowódcy. 
+~
+Comments ~
+Objend
+#Vnum 19212
+Name mithrilowe buty~
+Odmiana mithrilowych butów~mithrilowym butom~mithrilowe buty~mithrilowymi butami~mithrilowych butach~
+Short mithrilowe buty~
+Descr Buty wykonane z mithrilu le¿± tutaj.~
+Material mithril~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 0
+Weight 80
+Cost 5000
+Cond 100
+Aff 1 26 119 6 0 0
+Itemdesc S± to buty wykute z rzadkiego i drogiego metalu zwanym mithril. Wygodne i
+wspaniale chroni±ce twoje stopy, a na dodatek maj± podkute podeszwy przez co
+kopniêcia zadane nimi zadaj± wiêksze obra¿enia. 
+~
 Comments ~
 Objend
 #Vnum 19213
@@ -529,11 +696,11 @@ ExtraExt 0|G
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 6400
 Cond 100
@@ -555,11 +722,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -576,11 +743,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 19217
 Repair 0 0 0 0
-Length 0
 Weight 470
 Cost 5012
 Cond 75
@@ -598,11 +765,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 19216
 Repair 0 0 0 0
-Length 0
 Weight 2400
 Cost 1
 Cond 75
@@ -3812,8 +3979,10 @@ M 100 2570 50 19202 1
 M 100 2566 50 19203 1
 M 100 19201 2 19225 1
 M 100 19201 2 19230 1
-O 10 3369 0 19237
+O 10 19200 0 19237
 O 100 19201 0 19237
+P 100 19209 1 19200 1
+P 100 19210 1 19200 1
 M 100 19200 50 19238 1
 M 100 19200 50 19240 1
 M 100 19200 50 19242 2
@@ -3845,9 +4014,9 @@ E 100 19202 0 6
 E 100 19203 0 5
 E 100 19204 0 7
 E 100 19205 0 10
-E 100 3179 0 19
-E 100 3157 0 16
-E 100 4429 0 12
+E 100 3022 0 19
+E 100 3071 0 16
+E 100 19208 0 12
 O 100 19217 0 19284
 M 100 19204 1 19285 1
 O 100 19214 0 19285
@@ -3893,29 +4062,29 @@ else
 endif
 
 #do barbowego questa
-mob oload 3127
+mob oload 2133
 ~
 #19204
 ~
 mob addgroup 19203
 mob addgroup 19205
 
-mob equip self 3045
-mob equip self 3077
-mob equip self 3029
-mob equip self 3152
+mob equip self 3068
+mob equip self 3357
+mob equip self 3066
+mob oload 27628 wield
 if rand 92
-  mob equip self 3016
+  mob equip self 19212
 else
-  mob equip self 3003
+  mob equip self 27622
 endif
-mob equip self 3318
+mob equip self 27310
 
 if rand 80
   #za czity nie bedzie dalszego dropu (Karlam)
   break
 else
-  mob equip self 3152
+  mob equip self 27628
 endif
 # RANDOMY!
 mob oload shield 5
@@ -3925,35 +4094,36 @@ mob oload gem 6
 #19205
 ~
 if rand 92
-  mob equip self 3025
+  mob equip self 19211
 else
-  mob equip self 3025
+  mob equip self 19011
 endif
-mob equip self 3089
-mob equip self 3041
-mob equip self 3057
-mob equip self 3009
-mob equip self 3073
-mob equip self 4431
+mob equip self 19007
+mob equip self 19008
+mob equip self 19009
+mob equip self 3139
+mob equip self 19012
+mob equip self 19018
 
 # randomy
 mob oload gem 5
 mob oload random 4
 mob oload wrist 4 wear
-mob equip self 3149
+mob equip self 3049
+#Czitowana bron ladowana z innej krainki / scinam (Karlam)
 ~
 #19206
 ~
-mob equip self 3041
-mob equip self 3067
-mob equip self 3003
-mob equip self 3051
-mob equip self 3083
-mob equip self 3019
+mob equip self 6032
+mob equip self 6033
+mob equip self 6034
+mob equip self 3092
+mob equip self 6036
+mob equip self 6037
 if rand 92
 mob equip self 19213
 endif
-mob equip self 3160
+mob oload 6156 wield
  
 # randomy
 if rand 90
@@ -4052,67 +4222,55 @@ mob oload gem 5
 #Vnum 0
 
 #RANDDESC
-#Vnum 19201
-DescRand #grouprand 4
-#grouprand 5
-~
-RandDescEnd
 #Vnum 19200
 DescRand #grouprand 1
 #grouprand 2
 #grouprand 3
 ~
 RandDescEnd
+#Vnum 19201
+DescRand #grouprand 4
+#grouprand 5
+~
+RandDescEnd
 #Vnum 0
 
 #DESC
-#Name pw~
-Desc {BZimna, wrêcz lodowata woda ws±cza ci siê w ubranie, dotyka twojej skóry.
-Woda która ciê otacza zdaje siê swoim ch³odem wysysa z ciebie resztki
-energii.{x 
+#Name sw3~
+Desc {y{BPodziemny, zalany tunel zosta³ przez kogos wydr±¿ony w litej skale.
+P³yn±c z otwartymi oczami w krystalicznej wodzie mo¿esz dostrzec ró¿ne inne
+pomniejsze tunele. 
+~
+Group 5
+End
+#Name sw2~
+Desc {BKrystalicznie czysta woda pozwala ci p³yn±æ przez ni± z otwartymi oczami
+poprzez co umo¿liwia ci ogl±danie litej ska³y która jest wokó³ ciebie. 
+~
+Group 5
+End
+#Name sw1~
+Desc {BP³yniesz z otwartymi oczami by przez przypadek nie uderzyæ g³ow± w lity
+kamieñ który jest wokó³ ciebie, zastanawiasz siê któ¿ móg³ wydr±¿yæ owy
+tunel. 
+~
+Group 5
+End
+#Name pw3~
+Desc {BWoda w której siê znajdujesz zdaje siê byæ zimniejsza od stali, swoim
+ch³odem wysysa z ciebie energiê. 
 ~
 Group 4
 End
-#Name ppq~
-Desc {yId±c krok za krokiem s³yszysz ciche chlupanie twoich stóp zanurzajacych
-siê miarowo z grz±skiej mazi. 
+#Name pw2~
+Desc {B{B{BLodowata woda która ws±czy³a ci siê w ubranie zdaje siê wysysaæ z ciebie
+resztki energii. Z ka¿dym ruchem czujesz siê coraz bardziej zmêczony.{x 
 ~
-Group 1
+Group 4
 End
-#Name pp2~
-Desc {yTrzymaj±c{y siê b³otnistej ¶ciany tego tunelu kroczysz w ciemno¶ci s³ysz±c
-jedynie ciche chlupanie twoich stóp w grz±skiej mazi po której st±pasz. 
-~
-Group 1
-End
-#Name pp3~
-Desc {yZ odraz± kroczysz tym b³otnistym podziemnym tunelem, zastanawiasz siê có¿
-mog³o go stworzyæ tyle metrów pod ziemi±. 
-~
-Group 1
-End
-#Name ps~
-Desc Z sufitu zwisaj± d³ugie bia³e korzenie jakich¶ dziwnych naziemnych a mo¿ê
-podziemnych ro¶lin. 
-~
-Group 2
-End
-#Name ps2~
-Desc Dziwne korzenie które zwisaj± a raczej wyrastaj± z sufitu przeszkadzaj±
-ci w penetracji tych podziemnych tuneli. 
-~
-Group 2
-End
-#Name ps3~
-Desc Dziwne korzenie zwisaj±ce z sufitu przeszkadzaj± ci w penetracji tej
-podziemnej sieci tuneli, zauwa¿asz jak po ów korzeniach ³a¿± jakie¶ prawie,
-¿e przezroczyste ¿uki. 
-~
-Group 2
-End
-#Name pk1~
-Desc Czujesz jak twoje nozdrza przepe³nia dziwna woñ zgnilizny, to chyba przez
-owe korzenie.{x 
+#Name pk3~
+Desc Coraz wiêksza odraza ciê przepe³nia gdy krok za krokiem czujesz jak
+korzenie muskaj± ciê w twarz.{x {x 
 ~
 Group 3
 End
@@ -4123,43 +4281,55 @@ Desc Uzmys³awiasz sobie, ¿e od pewnego czasu czujesz dziwn± woñ zgnilizny, sam
 ~
 Group 3
 End
-#Name pk3~
-Desc Coraz wiêksza odraza ciê przepe³nia gdy krok za krokiem czujesz jak
-korzenie muskaj± ciê w twarz.{x {x 
+#Name pk1~
+Desc Czujesz jak twoje nozdrza przepe³nia dziwna woñ zgnilizny, to chyba przez
+owe korzenie.{x 
 ~
 Group 3
 End
-#Name pw2~
-Desc {B{B{BLodowata woda która ws±czy³a ci siê w ubranie zdaje siê wysysaæ z ciebie
-resztki energii. Z ka¿dym ruchem czujesz siê coraz bardziej zmêczony.{x 
+#Name ps3~
+Desc Dziwne korzenie zwisaj±ce z sufitu przeszkadzaj± ci w penetracji tej
+podziemnej sieci tuneli, zauwa¿asz jak po ów korzeniach ³a¿± jakie¶ prawie,
+¿e przezroczyste ¿uki. 
+~
+Group 2
+End
+#Name ps2~
+Desc Dziwne korzenie które zwisaj± a raczej wyrastaj± z sufitu przeszkadzaj±
+ci w penetracji tych podziemnych tuneli. 
+~
+Group 2
+End
+#Name ps~
+Desc Z sufitu zwisaj± d³ugie bia³e korzenie jakich¶ dziwnych naziemnych a mo¿ê
+podziemnych ro¶lin. 
+~
+Group 2
+End
+#Name pp3~
+Desc {yZ odraz± kroczysz tym b³otnistym podziemnym tunelem, zastanawiasz siê có¿
+mog³o go stworzyæ tyle metrów pod ziemi±. 
+~
+Group 1
+End
+#Name pp2~
+Desc {yTrzymaj±c{y siê b³otnistej ¶ciany tego tunelu kroczysz w ciemno¶ci s³ysz±c
+jedynie ciche chlupanie twoich stóp w grz±skiej mazi po której st±pasz. 
+~
+Group 1
+End
+#Name ppq~
+Desc {yId±c krok za krokiem s³yszysz ciche chlupanie twoich stóp zanurzajacych
+siê miarowo z grz±skiej mazi. 
+~
+Group 1
+End
+#Name pw~
+Desc {BZimna, wrêcz lodowata woda ws±cza ci siê w ubranie, dotyka twojej skóry.
+Woda która ciê otacza zdaje siê swoim ch³odem wysysa z ciebie resztki
+energii.{x 
 ~
 Group 4
-End
-#Name pw3~
-Desc {BWoda w której siê znajdujesz zdaje siê byæ zimniejsza od stali, swoim
-ch³odem wysysa z ciebie energiê. 
-~
-Group 4
-End
-#Name sw1~
-Desc {BP³yniesz z otwartymi oczami by przez przypadek nie uderzyæ g³ow± w lity
-kamieñ który jest wokó³ ciebie, zastanawiasz siê któ¿ móg³ wydr±¿yæ owy
-tunel. 
-~
-Group 5
-End
-#Name sw2~
-Desc {BKrystalicznie czysta woda pozwala ci p³yn±æ przez ni± z otwartymi oczami
-poprzez co umo¿liwia ci ogl±danie litej ska³y która jest wokó³ ciebie. 
-~
-Group 5
-End
-#Name sw3~
-Desc {y{BPodziemny, zalany tunel zosta³ przez kogos wydr±¿ony w litej skale.
-P³yn±c z otwartymi oczami w krystalicznej wodzie mo¿esz dostrzec ró¿ne inne
-pomniejsze tunele. 
-~
-Group 5
 End
 #DescEnd
 
@@ -4171,10 +4341,10 @@ End
 #BONUS_SET
 #Vnum 19211
 Name Chitynowy pancerz~
-Aff 1 1 1 0 0 0
-Aff 1 26 124 3 0 0
-Aff 1 26 129 3 0 0
 Aff 1 17 -20 0 0 0
+Aff 1 26 129 3 0 0
+Aff 1 26 124 3 0 0
+Aff 1 1 1 0 0 0
 WearProg mob echoat $n Zak³adaj±c ostatni± czê¶æ chitynowego pancerza czujesz siê jak by pewniej...
 mob echoaround $n $n ze zdziwieniem spogl±da na przed chwil± za³o¿ony chitynowy pancerz.
 ~

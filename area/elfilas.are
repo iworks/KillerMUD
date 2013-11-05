@@ -1,7 +1,7 @@
 #AREADATA
 Name +# Elfi las~
 Builders Nevdring~
-VNUMs 1601 1657
+VNUMs 1600 1659
 Credits Gollum~
 Locked ~
 Security 9
@@ -12,6 +12,45 @@ End
 
 
 #MOBILES
+#Vnum 1600
+Name elfi stra¿nik~
+Odmiana stra¿nika~stra¿nikowi~stra¿nika~stra¿nikiem~stra¿niku~
+Short elfi stra¿nik~
+Long Elfi stra¿nik pilnuje wej¶cia do miasta.~
+Descr Widzisz wysmuk³ego dobrze zbudowanego Elfa,
+lepiej mu w drogê nie wchodziæ.
+~
+Race elf~
+ActExt 0|AB
+Affected 512 0 0 0
+AffectedExt 0|J
+Align 850
+Group 0
+Lang B
+Speaks 1
+Level 10
+Hitroll 0
+HP 10d9+120
+Damage 3d3+1
+Dammagic 0
+Weaponbonus 1
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 90 60 60 90 102 78 78
+Off T
+OffExt 0|T
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 20
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 1601
 Name elfi wojownik~
 Odmiana wojownika~wojownikowi~wojownika~wojownikiem~wojowniku~
@@ -335,6 +374,122 @@ Mobend
 
 
 #OBJECTS
+#Vnum 1600
+Name elfi kapelusz~
+Odmiana kapelusza~kapeluszowi~kapelusz~kapeluszem~kapeluszu~
+Short elfi kapelusz~
+Descr Le¿y tu kapelusz, pewnie zgubi³ go jaki¶ elf.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0|V
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 20
+Cond 75
+Itemdesc Jest to zwyk³y, wykonany ze skóry elfi kapelusz.
+~
+Comments ~
+Objend
+#Vnum 1601
+Name kamizelka elfia~
+Odmiana kamizelki~kamizelce~kamizelkê~kamizelka~kamizelce~
+Short elfia kamizelka~
+Descr Jaki¶ elf zapomnia³ chyba swojej kamizelki.~
+Material jedwab~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|V
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 10 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1800
+Cond 75
+Itemdesc Jest to zwyk³a, wykonana z jedwabiu elfia kamizelka.
+~
+Comments ~
+Objend
+#Vnum 1602
+Name leginsy elfie~
+Odmiana leginsów~leginsom~leginsy~leginsami~leginsach~
+Short leginsy~
+Descr Jakie¶ leginsy le¿a nieopodal.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 1
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 420
+Cond 75
+Itemdesc S± to zwyk³e, wykonane ze skóry elfie ci¿emki.
+~
+Comments ~
+Objend
+#Vnum 1603
+Name ci¿emki skórzane~
+Odmiana ci¿emek~ci¿emkom~ci¿emki~ci¿emkami~ci¿emkach~
+Short ci¿emki~
+Descr Para umagicznionych przez magie elfów skórzanych ci¿emek.~
+Material skóra~
+Type clothing
+ExtraExt 0|G
+Wear AG
+Wear2Ext 0|IJ
+Bonus 0
+Rent 15
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 50
+Cond 75
+Aff 1 14 2 0 0 0
+Itemdesc Te ci¿emki wykonane z piêknej skóry pochodz± z elfich szwalni. Ta para
+zosta³a dodatkowo delikatnie umagiczniona, aby zapewniæ u¿ytkownikowi
+wygodne poruszanie siê. 
+~
+Comments ~
+Objend
+#Vnum 1604
+Name pleciony pas rzemieñ~
+Odmiana pasa~pasowi~pas~pasem~pasie~
+Short pleciony pas~
+Descr Niedbale porzucony kawa³ek rzemienia le¿y na ziemi.~
+Material skóra~
+Type armor
+ExtraExt 0|H
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 2
+Value 10 10 9 10 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 120
+Cond 75
+Comments ~
+Objend
 #Vnum 1605
 Name peleryna my¶liwego~
 Odmiana peleryny~pelerynie~pelerynê~peleryna~pelerynie~
@@ -346,15 +501,36 @@ ExtraExt 0|G
 Wear AK
 Wear2Ext 0|D
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 25
 Cond 75
 Aff 1 14 2 0 0 0
+Comments ~
+Objend
+#Vnum 1606
+Name elfia tarcza~
+Odmiana tarczy~tarczy~tarcze~tarcza~tarczy~
+Short elfia tarcza~
+Descr Le¿y tu tarcza zrobiona z jednego kawa³ka drewna.~
+Material drewno~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0|ABIJ
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 1 2 25 1 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 900
+Cond 75
 Comments ~
 Objend
 #Vnum 1608
@@ -368,11 +544,11 @@ ExtraExt 0|NU
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 75
@@ -389,11 +565,11 @@ ExtraExt 0|N
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 10 96 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 180
 Cond 75
@@ -410,11 +586,11 @@ ExtraExt 0|N
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 10 89 -1 -1 -1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 900
 Cond 75
@@ -431,14 +607,35 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 4 4 10 0 3331 0 0
 Repair 0 0 0 0
-Length 0
 Weight 22
 Cost 2
 Cond 80
+Comments ~
+Objend
+#Vnum 1612
+Name wêdzona szynka~
+Odmiana szynki~szynce~szynkê~szynka~szynce~
+Short {rwedzona szynka{x~
+Descr Le¿y tutaj smakowicie wygl±daj±cy kawa³ek {rwedzonej szynki{x.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 12 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 5
+Cond 90
 Comments ~
 Objend
 #Vnum 1613
@@ -452,11 +649,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 0
 Cond 75
@@ -467,6 +664,21 @@ Objend
 
 
 #ROOMS
+#Vnum 1600
+Name {YFREE{x~
+Descr W±ska ¶cie¿ka prowadzi ciê w g³±b wielkiego lasu. Panuje tu g³ucha cisza.
+Nie czujesz najmniejszego nawet podmuchu wiatru. Masz wra¿enie jakby las
+ciê obserwowa³. Jednak za drzewami na pó³nocy widaæ ju¿ jaki¶ trakt. 
+~
+Nightdescr W±ska ¶cie¿ka prowadzi ciê w g³±b wielkiego lasu. Panuje tu g³ucha cisza
+nawet najmniejszy podmuch wiatru, nie dolatuje ciê. Masz wra¿enie jakby las
+Ciê obserwowa³. Jednak za drzewami na pó³nocy widaæ ju¿ jaki¶ trakt. 
+~
+FlagsExt 0|C
+Sector 3
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 1601
 Name W±ska ¶cie¿ka~
 Descr Otaczaj ciê splatane ga³êzie drzew, wyci±gaj± siê w twoja stronê jakby
@@ -508,17 +720,6 @@ Exit 2
 ~
 ~
 0 0 1602
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1607
-ExitExtEnd
-Exit 3
-~
-~
-0 0 1607
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -579,7 +780,9 @@ Capacity 0
 Roomend
 #Vnum 1603
 Name Splatane chaszcze~
-Descr ~
+Descr Wokó³ splatane chaszcze chwytaj± ciê za ubranie jak czyje¶ rêce, które
+chcia³y by ciê zatrzymaæ na zawsze
+~
 FlagsExt 0|A
 Sector 3
 ExitExt 0
@@ -615,17 +818,6 @@ Exit 2
 ~
 ~
 0 0 1606
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81297
-ExitExtEnd
-Exit 3
-~
-~
-0 0 81297
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -649,17 +841,6 @@ Exit 0
 ~
 ~
 0 0 24979
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 5820
-ExitExtEnd
-Exit 1
-~
-~
-0 0 5820
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -728,17 +909,6 @@ Exit 2
 ~
 ~
 0 0 1608
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1606
-ExitExtEnd
-Exit 3
-~
-~
-0 0 1606
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -761,39 +931,6 @@ Exit 0
 ~
 ~
 0 0 1603
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1605
-ExitExtEnd
-Exit 1
-~
-~
-0 0 1605
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81312
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81312
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81298
-ExitExtEnd
-Exit 3
-~
-~
-0 0 81298
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -805,28 +942,6 @@ pozostaje tylko siê ostro¿nie wycofaæ.
 ~
 FlagsExt 0|A
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6804
-ExitExtEnd
-Exit 0
-~
-~
-0 0 6804
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1601
-ExitExtEnd
-Exit 1
-~
-~
-0 0 1601
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -838,17 +953,6 @@ Exit 2
 ~
 ~
 0 0 1603
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81296
-ExitExtEnd
-Exit 3
-~
-~
-0 0 81296
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -895,17 +999,6 @@ Exit 2
 ~
 ~
 0 0 1609
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81312
-ExitExtEnd
-Exit 3
-~
-~
-0 0 81312
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -976,17 +1069,6 @@ magicznym blaskiem.
 ~
 FlagsExt 0|C
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81312
-ExitExtEnd
-Exit 0
-~
-~
-0 0 81312
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1014,12 +1096,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 81300
+ExitExtToVnum 1611
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 81300
+0 0 1611
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1042,6 +1124,17 @@ Exit 0
 ~
 ~
 0 0 1612
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1610
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1610
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1074,17 +1167,6 @@ Exit 0
 ~
 ~
 0 0 1614
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1613
-ExitExtEnd
-Exit 1
-~
-~
-0 0 1613
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1123,12 +1205,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 1612
+ExitExtToVnum 1614
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 1612
+0 0 1614
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1151,6 +1233,17 @@ Exit 0
 ~
 ~
 0 0 1648
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1613
+ExitExtEnd
+Exit 1
+~
+~
+0 0 1613
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2175,7 +2268,7 @@ siê na spoczynek kieruj±c siê ku pomieszczeniu do którego prowadzi
 po³udniowe wyj¶cie. Konar na którym stoisz jest wylo¿ony miêkkim, le¶nym
 runem. 
 ~
-FlagsExt 0|CH
+FlagsExt 0|CHW
 Sector 0
 ExitExt 0
 ExitExtDescription ~
@@ -2468,6 +2561,17 @@ przeznaczeniu.
 ~
 FlagsExt 0
 Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 5821
+ExitExtEnd
+Exit 0
+~
+~
+0 0 5821
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2518,12 +2622,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 5819
+ExitExtToVnum 5801
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 5819
+0 0 5801
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2755,7 +2859,7 @@ Roomend
 
 
 #SPECIALS
-M 1601 spec_patrolman
+M 1600 spec_patrolman
 M 1604 spec_thief
 S
 
@@ -2763,56 +2867,56 @@ S
 
 #RESETS
 M 100 1603 5 1611 1
-E 100 4403 0 6
-E 100 3017 0 5
-E 100 4412 0 7
-E 100 3155 0 13
-E 100 3171 0 16
+E 100 1600 0 6
+E 100 1601 0 5
+E 100 1602 0 7
+E 100 1604 0 13
+E 100 3094 0 16
 G 100 1609 0
-M 100 1601 2 1616 2
-E 100 4403 0 6
-E 100 3017 0 5
-E 100 4412 0 7
-E 100 4418 0 8
-E 100 3155 0 13
+M 100 1600 2 1616 2
+E 100 1600 0 6
+E 100 1601 0 5
+E 100 1602 0 7
+E 100 1603 0 8
+E 100 1604 0 13
 E 100 1605 0 12
-E 100 3366 0 11
-E 100 3171 0 16
-M 100 1601 2 1616 2
-E 100 3171 0 16
-E 100 3366 0 11
+E 100 1606 0 11
+E 100 3094 0 16
+M 100 1600 2 1616 2
+E 100 3094 0 16
+E 100 1606 0 11
 E 100 1605 0 12
-E 100 3155 0 13
-E 100 4418 0 8
-E 100 4412 0 7
-E 100 3017 0 5
-E 100 4403 0 6
+E 100 1604 0 13
+E 100 1603 0 8
+E 100 1602 0 7
+E 100 1601 0 5
+E 100 1600 0 6
 M 100 1605 1 1628 1
 G 100 1608 0
 G 100 1609 0
 G 100 1610 0
 M 100 1608 1 1629 1
-G 100 4403 0
-G 100 4412 0
-E 100 3155 0 13
-G 100 3366 0
+G 100 1600 0
+G 100 1602 0
+G 100 1604 0
+G 100 1606 0
 M 100 1602 1 1640 1
-E 100 3017 0 5
-E 100 4412 0 7
-E 100 4418 0 8
+E 100 1601 0 5
+E 100 1602 0 7
+E 100 1603 0 8
 M 100 1606 1 1643 1
-G 100 6122 0
+G 100 1612 0
 G 100 1611 0
 M 100 1601 3 1648 1
-E 100 3171 0 16
-E 100 3366 0 11
-E 100 3017 0 5
-E 100 4412 0 7
-E 100 4403 0 6
+E 100 3094 0 16
+E 100 1606 0 11
+E 100 1601 0 5
+E 100 1602 0 7
+E 100 1600 0 6
 M 100 1604 1 1654 1
-E 100 4412 0 7
-E 100 3171 0 16
-E 100 3017 0 5
+E 100 1602 0 7
+E 100 3094 0 16
+E 100 1601 0 5
 G 100 1610 0
 S
 

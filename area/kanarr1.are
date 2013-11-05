@@ -368,16 +368,16 @@ Odmiana zwlok~zwlokom~zwloki~zwlokami~zwlokach~
 Short ¶mierdz±ce zw³oki kobiety~
 Descr Le¿± tutaj przegni³e i ¶mierdz±ce zw³oki jakiej¶ kobiety.~
 Material jedzenie~
-Type npc_corpse
+Type container
 ExtraExt 0|Y
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 0 0
+Value 20 5 0 20 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1500
 Cost 60
 Cond 75
@@ -399,11 +399,11 @@ ExtraExt 0|GK
 Wear AN
 Wear2Ext 0|BK
 Bonus 0
+Rent 25
 LiczbaMnoga 0
 Gender 3
 Value 9 2 4 13 32 1 1
 Repair 0 0 0 0
-Length 200
 Weight 80
 Cost 18000
 Cond 75
@@ -426,11 +426,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 0
 Cond 100
@@ -1936,6 +1936,17 @@ Exit 1
 ~
 ~
 0 0 6885
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 44106
+ExitExtEnd
+Exit 3
+~
+~
+16 0 44106
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2316,7 +2327,7 @@ M 100 6852 3 6865 3
 M 100 6855 4 6868 4
 M 100 6850 5 6874 5
 M 100 6895 1 6878 1
-E 100 3157 0 16
+E 100 3071 0 16
 M 100 6851 8 6879 8
 M 100 6855 4 6882 4
 M 100 6852 3 6886 3

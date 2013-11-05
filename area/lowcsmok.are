@@ -253,9 +253,9 @@ Comments Zaden @#$@#$ Atevius! Wielki Lowca to Wielki Lowca. Ten mob to odzwierc
 ~
 MobprogNew onload 40539 ABCDEFGHI 100~
 Spells 200 163 185 216
-Spells 171 177 183 181
+Spells 396 177 183 181
 Spells 178 205 93 2
-Spells 87 92 149 0
+Spells 87 92 149 171
 Skin 100
 ExpMultiplier 100
 Resist 4 25
@@ -369,11 +369,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 99999 99999 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 60
 Cond 100
@@ -394,29 +394,83 @@ ExtraExt 0
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 36000
 Cond 100
 Aff 1 12 4 10 0 0
-Objprog input c_ls_wzrok_se lswzrok self~
-Objprog input c_ls_rechocz_se lsrechocz self~
-Objprog input c_ls_wzrok lswzrok~
-Objprog input c_ls_witaj lswitaj~
-Objprog input c_ls_rozejrzyj lsrozejrzyj~
-Objprog input c_ls_rechocz lsrechocz~
-Objprog input c_ls_pogarda lspogarda~
-Objprog input c_ls_groz lsgroz~
 Objprog prewear lowcy_brans 100~
+Objprog input c_ls_groz lsgroz~
+Objprog input c_ls_pogarda lspogarda~
+Objprog input c_ls_rechocz lsrechocz~
+Objprog input c_ls_rozejrzyj lsrozejrzyj~
+Objprog input c_ls_witaj lswitaj~
+Objprog input c_ls_wzrok lswzrok~
+Objprog input c_ls_rechocz_se lsrechocz self~
+Objprog input c_ls_wzrok_se lswzrok self~
 Itemdesc Widzisz bransolete wykonan± ze smoczej ³uski oraz wprawionym w ni±
 piêkne, du¿e oko smoka. Jest to jeden z klanowych przedmiotów £owców Smoków.
 ~
 Identdesc ~
 Comments ~
+Objend
+#Vnum 40535
+Name racja mieso~
+Odmiana pieczonego miêsa~pieczonemu miêsu~pieczone miêso~pieczonym miêsem~pieczonym miêsie~
+Short pieczone miêso smoka~
+Descr Le¿y tutaj ¶wierze, pieczone miêso smoka.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 16 108 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 4
+Cond 100
+Itemdesc Widzisz pieczone miêso smoka. Czujesz piêkny zapach. Z chêci± zjad³by¶ je
+ca³e. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 40536
+Name buk³ak~
+Odmiana buk³aka ze smoczej ³uski~buk³akowi ze smoczej ³uski~buk³ak ze smoczej ³uski~buk³akiem ze smoczej ³uski~buk³aku ze smoczej ³uski~
+Short buk³ak ze smoczej ³uski~
+Descr Buk³ak ze smoczej ³uski le¿y na ziemi.~
+Material smocze ³uski~
+Type drink
+ExtraExt 0|B
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 20 20 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 10
+Cond 100
+Itemdesc Widzisz buk³ak ze smoczej ³uski. Jest to podstawowe wyposa¿enie ka¿dego
+£owcy Smoków. Ka¿dy z nich nosi taki buk³ak przy sobie. Jednak ich zawarto¶æ
+jest ró¿na: od wody do wódki. Zazwyczaj rzeczy zrobione ze smoczej ³uski
+wykazuj± siê wiêksz± odporno¶ci± na ogieñ, wiêc zapewne to jest powodem dla
+którego wykorzystano ten materia³. 
+~
+Identdesc ~
+Comments zmniejszy³em pojemno¶æ, doda³em odporno¶æ na ogieñ - {RGurthg{x ({CFri Jul  1 10:47:51 2011{x)
+~
 Objend
 #Vnum 40537
 Name plaszcz c_l_plaszcz~
@@ -429,30 +483,55 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 10 10 10 10 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 3480
 Cond 100
-Objprog input c_ls_otrzep_se lsotrzep self~
-Objprog input c_ls_rechocz_se lsrechocz self~
-Objprog input c_ls_wzrok_se lswzrok self~
-Objprog input c_ls_wzrok lswzrok~
-Objprog input c_ls_witaj lswitaj~
-Objprog input c_ls_rozejrzyj lsrozejrzyj~
-Objprog input c_ls_rechocz lsrechocz~
-Objprog input c_ls_pogarda lspogarda~
-Objprog input c_ls_otrzep lsotrzep~
-Objprog input c_ls_groz lsgroz~
 Objprog prewear plaszcz_lowca 100~
+Objprog input c_ls_groz lsgroz~
+Objprog input c_ls_otrzep lsotrzep~
+Objprog input c_ls_pogarda lspogarda~
+Objprog input c_ls_rechocz lsrechocz~
+Objprog input c_ls_rozejrzyj lsrozejrzyj~
+Objprog input c_ls_witaj lswitaj~
+Objprog input c_ls_wzrok lswzrok~
+Objprog input c_ls_wzrok_se lswzrok self~
+Objprog input c_ls_rechocz_se lsrechocz self~
+Objprog input c_ls_otrzep_se lsotrzep self~
 Itemdesc Jest to piêkny p³aszcz. Na czê¶ci okrywaj±cej plecy namalowana jest
 wielka g³owa {Rczerwonego{x smoka. Nie jedna osoba, ju¿ siê jej wystaszy³a i
 uciek³a wpanice. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 40538
+Name fotel~
+Odmiana fotela~fotelowi~fotel~fotelem~fotelu~
+Short fotel Wielkiego £owcy~
+Descr Stoi tu fotel Wielkiego £owcy, na którym lubi on odpoczywaæ.~
+Material skóra~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 1000 288 100 100 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 1
+Cond 100
+Itemdesc Jest to bardzo stary fotel, wykonany ze skór przeró¿nych zwierz±t. W
+g³ównej czê¶ci wykonany jest jednak ze skór potworów: mantykory oraz
+wyverny. 
+~
 Comments ~
 Objend
 #Vnum 40539
@@ -466,11 +545,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 1
 Cond 100
@@ -493,11 +572,11 @@ ExtraExt 0|DG
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 70
 LiczbaMnoga 0
 Gender 0
 Value 9 3 5 13 32 3 3
 Repair 0 0 0 0
-Length 150
 Weight 120
 Cost 300000
 Cond 100
@@ -512,6 +591,62 @@ ona parokrotnie obra¿enia zadawane wszystkim innym stworzeniom zamieszuj±cym
 ~
 Comments ~
 Objend
+#Vnum 40541
+Name bicz pogromca smoków~
+Odmiana bicza '{bPogromca Smoków{x'~biczowi '{bPogromca Smoków{x'~bicz '{bPogromca Smoków{x'~biczem '{bPogromca Smoków{x'~biczu '{bPogromca Smoków{x'~
+Short bicz '{bPogromca Smoków{x'~
+Descr Piêkny bicz wykonany z ko¶ci smoka Venreeh'meyala le¿y tutaj.~
+Material ko¶æ~
+Type weapon
+ExtraExt 0|DG
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 7 5 3 4 32 3 3
+Repair 0 0 0 0
+Weight 240
+Cost 48000
+Cond 100
+Objprog onehit atak_bicz 100~
+Itemdesc Bicz, na który patrzysz, jest wyj±tkowo du¿y. Zosta³ wykonany z jednej z
+ko¶ci smoka Venreeh'meyala. Jego rêkoje¶æ jest tak wykonana, aby wygodnie
+mo¿na by³o go trzymaæ dwoma rêkami. 
+~
+Identdesc Bicz ten zosta³ tak stworzony, aby podczas walki ze smokiem, powiêksza³
+on maksymalnie obra¿enia. Jak siê niestety potem okaza³o, obra¿enia zadane
+przez niego innym istotom, s± bardzo, ale to bardzo ma³e. 
+~
+Comments ~
+Objend
+#Vnum 40542
+Name zdobiony m³ot bojowy~
+Odmiana zdobionego m³ota bojowego~zdobionemu m³otowi bojowemu~zdobiony m³ot bojowy~zdobionym m³otem bojowym~zdobionym m³ocie bojowym~
+Short zdobiony m³ot bojowy~
+Descr Pozostawiony tutaj przez kogo¶ zdobiony m³ot bojowy le¿y tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 4 3 4 8 0 1 1
+Repair 0 0 0 0
+Weight 180
+Cost 9000
+Cond 100
+Itemdesc Widzisz zdobiony m³ot bojowy. S± wyryte na nim przeró¿ne wzorki. Jednak
+ka¿dy z nich jest jako¶ zwi±zany z jedn± tematyk± - smoki. Gdzie¶ widzisz
+g³owê, obok ogon. Jednak g³ówn± ozdob±, jest wielki, {Gzielony smok{x Syrvern. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 40544
 Name drewniana skrzynia drewnianaskrzynia³owców~
 Odmiana drewnianej skrzyni~drewnianej skrzyni~drewnian± skrzyniê~drewnian± skrzyni±~drewnianej skrzyni~
@@ -523,11 +658,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1000 271 40545 30 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
@@ -547,11 +682,11 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 0
 Cond 5
@@ -950,8 +1085,8 @@ Exit 5
 ~
 ~
 0 0 40538
-Roomprog sit 40532 40538~
 Roomprog rest 40532 40538~
+Roomprog sit 40532 40538~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1177,50 +1312,59 @@ S
 
 #RESETS
 M 100 40531 1 40531 1
-E 100 3145 0 16
+E 100 40542 0 16
 E 100 40537 0 12
-G 100 2499 0
+G 50 40535 0
+G 100 40536 0
 M 100 40533 4 40532 2
-E 100 3145 0 16
-G 100 2499 0
+E 100 40542 0 16
+G 100 40536 0
+G 50 40535 0
 E 100 40537 0 12
 M 100 40533 4 40534 2
-E 100 3145 0 16
-G 100 2499 0
+E 100 40542 0 16
+G 100 40536 0
+G 50 40535 0
 E 100 40537 0 12
 O 100 40531 0 40534
 M 100 40532 2 40536 1
 E 100 3300 0 16
-G 100 2499 0
+G 100 40536 0
 E 100 40537 0 12
+G 33 40535 0
+G 33 40535 0
 M 100 40533 4 40537 2
-E 100 3145 0 16
-G 100 2499 0
+E 100 40542 0 16
+G 100 40536 0
+G 50 40535 0
 E 100 40537 0 12
 M 100 40539 1 40539 1
 E 100 40534 0 14
 G 30 40545 0
-G 100 2461 0
-G 100 2461 0
-G 100 2499 0
+G 100 40535 0
+G 100 40535 0
+G 100 40536 0
 E 100 40537 0 12
 M 100 40559 1 40539 1
-O 100 2351 0 40539
+O 100 40538 0 40539
 O 100 40539 0 40539
 M 100 40533 4 40540 2
-E 100 3145 0 16
-G 100 2499 0
+E 100 40542 0 16
+G 100 40536 0
+G 50 40535 0
 E 100 40537 0 12
 M 100 40532 2 40541 1
 E 100 3300 0 16
-G 100 2499 0
+G 100 40536 0
 E 100 40537 0 12
-O 100 2358 0 40542
-O 100 2358 0 40542
+G 33 40535 0
+G 33 40535 0
+O 100 3399 0 40542
+O 100 3399 0 40542
 M 100 40545 1 40545 1
 E 100 40537 0 12
 E 10 40534 0 15
-G 100 2499 0
+G 100 40536 0
 S
 
 
@@ -1262,28 +1406,23 @@ endif
 ~
 #40538
 ~
-mob oload 2499
-mob oload 2461
+mob oload 40536
+mob oload 40535
 mob oload 40537
 wear plaszcz
-mob equip self 3145
-mob equip self 3145 hold
+mob oload 40542
+mob oload 40542
+wield mlot
+hold mlot
 if rand 20
-  mob equip self 40534
+  mob oload 40534
+  wear bransoleta
 endif
-mob oload gem 7
-mob oload gem 7
-mob oload gem 7
-mob oload random 7
 ~
 #40539
 ~
 mob addgroup 40538
 rest fotel
-mob oload gem 6
-mob oload gem 6
-mob oload gem 6
-mob oload random 6
 ~
 #0
 
@@ -1475,8 +1614,8 @@ if rand 94
       mob oload 40540 i 40544
     endif
   else
-    if canloadarte 29106
-      mob oload 29106 i 40544
+    if canloadarte 40541
+      mob oload 40541 i 40544
     endif
   endif
 else

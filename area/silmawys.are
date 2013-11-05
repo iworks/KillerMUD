@@ -1,6 +1,6 @@
 #AREADATA
 Name # Mala wyspa kolo Silei (podprogowac)~
-Builders Obilon Sekan Geril Sprawdz~
+Builders Obilon Sekan Geril~
 VNUMs 8991 9029
 Credits Stworzy³: Sekan
 ~
@@ -204,11 +204,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 4 1 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 11
 Cost 150
 Cond 75
@@ -231,11 +231,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 1
 Cond 75
@@ -256,11 +256,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 10 13 9024 0 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 250
 Cost 60
 Cond 75
@@ -282,11 +282,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 4 50 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 10
 Cond 75
@@ -303,11 +303,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -317,6 +317,59 @@ pla¿y, ale w±tpisz by¶ móg³ znale¼æ tam co¶ cennego. Doko³a le¿y pe³no
 wypuk³ych, od d³ugiego czasu przebywania w wodzie, desek. Wszystkie metalowe
 elementy pokry³a rdza. Do resztek po³amanego masztu przyczepione s± jeszcze
 kawa³ki sieci. 
+~
+Comments ~
+Objend
+#Vnum 9028
+Name bastard~
+Odmiana bastarda~bastardowi~bastarda~bastardem~bastardzie~
+Short bastard~
+Descr Pó³torarêczny miecz zwany bastardem czeka na w³a¶ciciela.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 1 2 6 1 8 0 0
+Repair 0 0 0 0
+Weight 69
+Cost 6000
+Cond 75
+Itemdesc Jest to pó³torarêczny miecz, o szerokim p³azie i du¿ej g³owni. Wydaje
+siê, ¿e powinien byæ ciê¿ki, jednak pozory myl± i gdy tylko chwytasz bastard
+do rêki unosisz go z zadziwiaj±c± lekko¶ci±. Widaæ to robota elfów. Kilka
+zawijasów zdobi p³az, a powierzchnia rêkoje¶ci jest chropowata co sprawia,
+¿e miecz idealnie przylega do rêki. 
+~
+Comments ~
+Objend
+#Vnum 9029
+Name butelka wody~
+Odmiana butelki wody~butelce wody~butelkê wody~butelk± wody~butelce wody~
+Short butelka {Cwody{x~
+Descr Butelka {Cwody{x stoi tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 4 4 0 0 9029 0 0
+Repair 0 0 0 0
+Weight 9
+Cost 1
+Cond 75
+Itemdesc Jest to butelka, w której sprzedajê siê wodê pitn±. Szko³o pokryte jest
+siatk±, która czê¶ciowo amortyzuje upadek. Na korku, którym zatyka siê
+butelkê zosta³a postawiona pieczêæ w kszta³cie statku handlowego o trzech
+masztach. 
 ~
 Comments ~
 Objend
@@ -1876,9 +1929,9 @@ Exit 3
 ~
 ~
 0 0 9025
+Roomprog input 9026 pusc~
+Roomprog input 9026 pusc~
 Roomprog input 9026 kaczka~
-Roomprog input 9026 pusc~
-Roomprog input 9026 pusc~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2021,9 +2074,9 @@ M 100 9003 1 9003 8
 M 100 9003 1 9013 8
 M 100 9003 1 9013 8
 M 100 9025 1 9014 1
-E 100 3152 0 16
+E 100 9028 0 16
 O 100 9025 0 9025
-P 100 2088 2 9025 2
+P 100 9029 2 9025 2
 P 100 9026 4 9025 4
 O 100 9027 0 9027
 S
@@ -2117,9 +2170,9 @@ endif
 #obserw_klucz
 ~
 mob oload 9024
-mob equip self 3029
-mob equip self 3050
-mob equip self 3001
+mob equip self 3066
+mob equip self 3382
+mob equip self 3380
 ~
 #odp_wyspa
 ~

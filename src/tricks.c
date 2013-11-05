@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -28,8 +28,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: tricks.c 12203 2013-03-29 13:35:28Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/tricks.c $
+ * $Id: tricks.c 10691 2011-11-30 19:04:42Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/tricks.c $
  *
  */
 #if defined(macintosh)
@@ -1185,7 +1185,7 @@ void trick_thundering_whack( int sn, CHAR_DATA *ch, CHAR_DATA *victim )
 	dur /= 3;
 
 	af.where = TO_AFFECTS;
-	af.type = gsn_daze;
+	af.type = 304;//daze
 	af.level = ch->level;
 	af.location = APPLY_NONE;
 	af.duration = URANGE( 1, dur, 6 ); af.rt_duration = 0;
@@ -1530,7 +1530,7 @@ void trick_ravaging_orb( int sn, CHAR_DATA *ch, CHAR_DATA *victim )
 		dur /= 3;
 
 		af.where = TO_AFFECTS;
-		af.type = gsn_daze;
+		af.type = 304;//daze
 		af.level = ch->level;
 		af.location = APPLY_NONE;
 		af.duration = URANGE( 1, dur, 6 ); af.rt_duration = 0;
@@ -2101,7 +2101,6 @@ void trick_dreadful_strike( int sn, CHAR_DATA *ch, CHAR_DATA *victim )
 
             switch ( number_range( 1, 7 ) )
             {
-                default:
                 case 1:
                     if ( ( zombie = create_mobile( get_mob_index( MOB_VNUM_ZOMBIE ) ) ) == NULL )
                     {
@@ -2271,49 +2270,4 @@ void trick_dreadful_strike( int sn, CHAR_DATA *ch, CHAR_DATA *victim )
             return;
         }
     }
-}
-
-void trick_rampage( int sn, CHAR_DATA *ch, CHAR_DATA *victim )
-{
-	if ( is_affected( ch, gsn_rampage ) || !is_affected( ch, gsn_berserk ) )
-        return;
-
-    act("{vKolejne rany rozpali³y w tobie jeszcze wiêkszy gniew! Rozjuszon<&y/&a/&e> zaczynasz atakowaæ jeszcze zacieklej, wyprowadzaj±c druzgocz±ce uderzenia! {x", ch, NULL, NULL, TO_CHAR );
-    act("{v$n warczy gard³owo, a <&jego/&jej/&tego> ciosy staj± sie jeszcze bardziej mordercze! Musi byc piekielnie wkurzon<&y/&a/&e>!{x", ch, NULL, NULL, TO_ROOM );
-
-	AFFECT_DATA rampage;
-
-	rampage.where = TO_AFFECTS;
-	rampage.type = gsn_rampage;
-	rampage.level = 50;
-	rampage.duration = URANGE(2,ch->level/7.5, 5 ); rampage.rt_duration = 0;
-	rampage.location = APPLY_DAMROLL;
-	rampage.modifier = 8 + ( 100 - ch->hit*100/get_max_hp(ch) )/15; // 8 + 2 dmg za kazde brakujace 30% hp
-	rampage.bitvector = &AFF_NONE;
-	affect_to_char( ch, &rampage, NULL, TRUE );
-
-	return;
-}
-
-void trick_enlightenment( int sn, CHAR_DATA *ch, CHAR_DATA *victim )
-{
-    MSPELL_DATA * for_mspell;
-    bool found = FALSE;
-    
-	ch->memming->done = TRUE;
-    
-    if( count_mspells_by_sn( ch, ch->memming->spell, FALSE, FALSE) > 0 )
-    {
-        for( for_mspell = ch->memspell; for_mspell && !found; for_mspell = for_mspell->next )
-        {
-            if ( !for_mspell->done && (for_mspell->spell == ch->memming->spell) )
-            {
-                for_mspell->done = TRUE;
-                act("{vPogr±¿aj±c siê jeszcze bardziej w medytacji zapamiêtujesz dodatkowy czar.{x", ch, NULL, NULL, TO_CHAR );
-                found = TRUE;
-            }
-        }
-    }
-    
-	return;
 }

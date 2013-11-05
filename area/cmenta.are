@@ -114,9 +114,9 @@ Short pó³prze¼roczysta zjawa~
 Long Niematerialna, pó³prze¼roczysta zjawa unosi siê nad ziemi±.~
 Descr ~
 Race duch~
-ActExt 0|ACGOR
-Affected 557058 0 0 0
-AffectedExt 0|BPT
+ActExt 0|ACOR
+Affected 524290 0 0 0
+AffectedExt 0|BT
 Align 0
 Group 0
 Lang A
@@ -374,7 +374,7 @@ Form CIJ
 Parts ABCGHIJKR
 Size medium
 Material unknown
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -412,6 +412,7 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew greet nagq FGI 100~
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -431,16 +432,16 @@ ExtraExt 0|O
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
-Objprog input 6777 zlam drzewo~
 Objprog input 6777 zlam drzewko~
+Objprog input 6777 zlam drzewo~
 Itemdesc To suche drzewo wygl±da na dosyæ kruche. Mo¿esz spróbowaæ je z³amaæ,
 jednak jaki mia³by byæ tego cel? W okolicy nie dostrzegasz inaczej
 wygl±daj±cych ro¶lin. Wszystkie zdaj± siê byæ suche. Martwe. 
@@ -450,7 +451,7 @@ a ja poprawi³em typo w longu - {RGurthg{x ({CTue Feb 11 11:11:25 2003{x)
 ~
 Objend
 #Vnum 6772
-Name nagrobek zaro¶niêty p³yta 6772~
+Name nagrobek zaro¶niêty p³yta~
 Odmiana nagrobka~nagrobkowi~nagrobek~nagrobkiem~nagrobku~
 Short nagrobek~
 Descr Widzisz tu podniszczony i zaro¶niêty traw± nagrobek.~
@@ -460,15 +461,179 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
-Gender 2
+Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
-Weight 1000
+Weight 0
 Cost 0
 Cond 100
 Comments Poprawilem long - {RGarloop{x ({CFri Jan 17 11:14:02 2003{x)
+~
+Objend
+#Vnum 6773
+Name ko¶ciane nakolanniki ko¶ci ko¶æ~
+Odmiana {wko¶cianych nakolanników{x~{wko¶cianym nakolannikom{x~{wko¶ciane nakolanniki{x~{wko¶cianymi nakolannikami{x~{wko¶cianych nakolannikach{x~
+Short {wko¶ciane nakolanniki{x~
+Descr Nakolanniki zrobione z du¿ych ko¶ci po³±czoncyh mocnym rzemieniem.~
+Material ko¶æ~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 6787
+Rent 15
+LiczbaMnoga 1
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2100
+Cond 100
+Objprog wear 6771 100~
+Itemdesc Widzisz przed soba dwie wielkie smocze ko¶ci. Ka¿da ma przypiête rzemyki
+po bokach. Mo¿e da siê je za³o¿yæ jako nakolanniki? Slysza³e¶ wiele o
+smoczej odporno¶ci i nie masz w±tpliwo¶ci, ¿e pos³u¿a ci one dobrze. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 6774
+Name ko¶ciany he³m ko¶æ ko¶ci~
+Odmiana {wko¶cianego he³mu{x~{wko¶cianemu he³mowi{x~{wko¶ciany he³m{x~{wko¶cianym he³mem{x~{wko¶cianym he³mie{x~
+Short {wko¶ciany he³m{x~
+Descr He³m wykonany z mlecznobia³ej, mocnej, zapewne smoczej, ko¶ci.~
+Material ko¶æ~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 6787
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 1800
+Cond 100
+Objprog wear 6772 100~
+Itemdesc Czaszka pisklêcia smoka, któr± posiadasz mo¿e s³u¿yæ jako he³m. Kto¶
+specjalnie oczy¶ci³ i wyszlifowa³ otwory na oczy. Nad ³ukiem brwiowym ¶wieci
+niewielki rubin. Malutkie rogi, które smocz±tko posiada³o, same w sobie s±
+piêkne. 
+~
+Comments ~
+Objend
+#Vnum 6775
+Name ko¶ciana zbroja ko¶æ ko¶ci~
+Odmiana {wko¶cianej zbroi{x~{wko¶cianej zbroi{x~{wko¶cian± zbrojê{x~{wko¶cian± zbroj±{x~{wko¶cianej zbroi{x~
+Short {wko¶ciana zbroja{x~
+Descr Ko¶ciana zbroja wykonana z klatki piersiowej jakiej¶ istoty.~
+Material ko¶æ~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 6787
+Rent 20
+LiczbaMnoga 0
+Gender 3
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 90
+Cost 2700
+Cond 100
+Objprog wear 6773 100~
+Itemdesc Zbroja, która jest klatk± piersiow± jakiego¶ nieszczê¶nika, zosta³a
+wykonana z wielk± precyzj±. W miejscu gdzie rozchodz± siê ¿ebra zosta³y
+w³o¿one ma³e, lecz piêknie wyszlifowane rubiny. Ciekaw jeste¶ kto by³
+wla¶cicielem tej 'zbroi'... 
+~
+Comments ~
+Objend
+#Vnum 6776
+Name ko¶ciana tarcza ko¶æ ko¶ci~
+Odmiana {wko¶cianej tarczy{x~{wko¶cianej tarczy{x~{wko¶cian± tarczê{x~{wko¶cian± tarcz±{x~{wko¶cianej tarczy{x~
+Short {wko¶ciana tarcza{x~
+Descr Widzisz tutaj tarczê zrobion± z masywnych kawa³ków ko¶ci.~
+Material ko¶æ~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 2 3 28 8 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2400
+Cond 100
+Aff 1 13 5 0 0 0
+Objprog wear 6774 100~
+Itemdesc Tarcza ta wykonana zosta³a z poka¼nych kawa³ków ko¶ci. Grawerowane i
+spi³owane tak by nie by³y tylko przedmiotem obrony lecz tak¿e przera¿aj±cym
+upiêkszeniem. Ko¶ci wydaj± siê byæ ca³kiem du¿e. Z pewno¶ci± nale¿a³y do
+czego¶ wiêkszego ni¿ cz³owiek. 
+~
+Comments przerobilem z type armor na type shield - {RKainti{x ({CFri Jul 30 22:00:18 2004{x)
+~
+Objend
+#Vnum 6777
+Name ko¶ciane naramienniki ko¶æ ko¶ci~
+Odmiana {wko¶cianych naramienników{x~{wko¶cianym naramiennikom{x~{wko¶ciane naramienniki{x~{wko¶cianymi naramiennikami{x~{wko¶cianych naramiennikach{x~
+Short {wko¶ciane naramienniki{x~
+Descr Masywne naramienniki wykonane z dziwnych ko¶ci.~
+Material ko¶æ~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 6787
+Rent 15
+LiczbaMnoga 1
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 1500
+Cond 100
+Objprog wear 6775 100~
+Itemdesc Te dziwne naramienniki zosta³y wykonane z mlecznobia³ej, zapewne smoczej
+ko¶ci. Konstrukcja trzyma siê razem za pomoc± mocnych rzemieni i zapewne
+odrobiny magii. Naramienniki nie tylko zapewniaja nosz±cemu je ochronê ale
+tak¿e sprawiaj± gro¼ne wra¿enie. 
+~
+Comments ~
+Objend
+#Vnum 6778
+Name d³ugi ostry kord~
+Odmiana d³ugiego kordu~d³ugiemu kordowi~d³ugi kord~d³ugim kordem~d³ugim kordzie~
+Short d³ugi kord~
+Descr D³ugi, ostry kord le¿y tutaj na ziemi.~
+Material damasceñska stal~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 1 8 0 0
+Repair 0 0 0 0
+Weight 44
+Cost 3600
+Cond 75
+Itemdesc Kord jest broni± przypominaj±c± du¿y nó¿ o lekko wygiêtej g³owni.
+Rêkoje¶æ kszta³tem przypomina rêkoje¶æ sztyletu. Kordy czêsto pojawia³y
+wyposa¿eniu piechoty poniewa¿ by³y zazwyczaj sporo tañsze od mieczy. Ten
+egzemplarz wydaje siê byæ dosyæ stary. 
+~
+Comments Zdj±³em mu trzoszkê dam z 2d7 na 2d5 skoro jest d³ugim sztyletem :-) - {RGurthg{x ({CSat Feb 15 19:11:42 2003{x)
 ~
 Objend
 #Vnum 6779
@@ -482,11 +647,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 50 0 0 40 -1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 100
@@ -510,11 +675,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -536,11 +701,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -562,11 +727,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 60
 Cond 50
@@ -591,11 +756,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 90 5 0 -1 1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 7000
 Cost 60
 Cond 75
@@ -618,12 +783,12 @@ ExtraExt 0|E
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Komponent 1 6000
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 1
 Cond 100
@@ -651,11 +816,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -674,11 +839,11 @@ ExtraExt 0|O
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 100 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -701,11 +866,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1000 1000 13 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -726,11 +891,11 @@ ExtraExt 0|T
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -752,17 +917,6 @@ ciebie cichy szum wiatru.
 ~
 FlagsExt 0
 Sector 28
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14755
-ExitExtEnd
-Exit 0
-~
-~
-0 0 14755
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -774,17 +928,6 @@ Exit 1
 ~
 ~
 0 0 2640
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14758
-ExitExtEnd
-Exit 2
-~
-~
-0 0 14758
 ExitExt 3
 ExitExtDescription ~
 ExitExtBiernik bramê~
@@ -808,7 +951,7 @@ pozwalaja zrodzonym tu potworom ani zadnej istocie która tu powstala oddalic
 sie na zbyt duza odleglosc, ma to uchronic sasiadujace miasto przed
 tragedia. 
 ~
-FlagsExt 0
+FlagsExt 0|A
 Sector 28
 ExitExt 1
 ExitExtDescription ~
@@ -958,17 +1101,6 @@ raczej to, co z nich zostalo.
 ~
 FlagsExt 0
 Sector 28
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35505
-ExitExtEnd
-Exit 0
-~
-~
-0 0 35505
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -980,17 +1112,6 @@ Exit 1
 ~
 ~
 0 0 6773
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35503
-ExitExtEnd
-Exit 2
-~
-~
-0 0 35503
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1064,9 +1185,7 @@ Roomend
 Name Koniec glownej alei~
 Descr Stoisz na malym skrzyzowaniu sciezek cmentarnych. Spowija cie gesta mgla,
 jedynie kilka nagrobkow majaczy dookola. Sciezka z ponocy na po³udnie
-biegnie wzd³u¿ muru okalaj±cego cmentarz. Na zachodzie, w owym murze,
-znajduje siê brama prowadz±ca do starej czê¶ci cmentarza. Na wschodzie za¶
-biegnie aleja zwieñczona g³ówn± bram±. 
+biegnie wzdluz zewnetrznego muru. Wschodnia zas - do bramy. 
 ~
 FlagsExt 0
 Sector 28
@@ -1103,21 +1222,6 @@ Exit 2
 ~
 ~
 0 0 6779
-ExitExt 3
-ExitExtDescription ~
-ExitExtVName Brama~
-ExitExtBiernik bramê~
-ExitExtName brama~
-ExitExtLiczba 0
-ExitExtInfo 3
-ExitExtKey 0
-ExitExtToVnum 5101
-ExitExtEnd
-Exit 3
-~
-VName Brama~
-brama~
-3 0 5101
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1140,17 +1244,6 @@ Exit 0
 ~
 ~
 0 0 6778
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6788
-ExitExtEnd
-Exit 1
-~
-~
-0 0 6788
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1162,6 +1255,17 @@ Exit 2
 ~
 ~
 0 0 6776
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6786
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6786
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1169,24 +1273,21 @@ Roomend
 Name Aleja przy murze~
 Descr Stoisz na sciezce biegnacej przy zewnetrznym murze, posrod gestej mgly.
 Powietrze jest tu dosc chlodne i wilgotne, a otaczajace cie drzewa dodaja
-jedynie grozy krajobrazowi. Na pó³nocy dostrzegasz star±, lecz regularnie
-naoliwian± furtkê, stanowi±c± boczne wyj¶cie z cmentarza. 
+jedynie grozy krajobrazowi. 
 ~
 FlagsExt 0
 Sector 28
 ExitExt 0
 ExitExtDescription ~
-ExitExtBiernik furtkê~
-ExitExtName furtka~
-ExitExtLiczba 0
-ExitExtInfo 8195
+ExitExtLiczba 1
+ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 14733
+ExitExtToVnum 6782
 ExitExtEnd
 Exit 0
 ~
-furtka~
-8195 0 14733
+~
+0 0 6782
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1198,6 +1299,17 @@ Exit 2
 ~
 ~
 0 0 6777
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6763
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6763
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1220,17 +1332,6 @@ Exit 0
 ~
 ~
 0 0 6776
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6787
-ExitExtEnd
-Exit 1
-~
-~
-0 0 6787
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1264,17 +1365,6 @@ Exit 0
 ~
 ~
 0 0 6779
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35500
-ExitExtEnd
-Exit 1
-~
-~
-0 0 35500
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1286,6 +1376,17 @@ Exit 2
 ~
 ~
 0 0 6781
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6785
+ExitExtEnd
+Exit 3
+~
+~
+0 0 6785
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1343,6 +1444,28 @@ Exit 1
 ~
 ~
 0 0 6783
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 6778
+ExitExtEnd
+Exit 2
+~
+~
+0 0 6778
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 3
+ExitExtKey 0
+ExitExtToVnum 5101
+ExitExtEnd
+Exit 3
+~
+~
+3 0 5101
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1376,28 +1499,6 @@ bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle.
 ~
 FlagsExt 0
 Sector 32
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35500
-ExitExtEnd
-Exit 0
-~
-~
-0 0 35500
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35504
-ExitExtEnd
-Exit 1
-~
-~
-0 0 35504
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1420,39 +1521,17 @@ bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle.
 ~
 FlagsExt 0
 Sector 32
-ExitExt 0
+ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 35483
+ExitExtToVnum 6780
 ExitExtEnd
-Exit 0
+Exit 1
 ~
 ~
-0 0 35483
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35484
-ExitExtEnd
-Exit 2
-~
-~
-0 0 35484
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 5108
-ExitExtEnd
-Exit 3
-~
-~
-0 0 5108
+0 0 6780
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1464,17 +1543,17 @@ bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle.
 ~
 FlagsExt 0
 Sector 32
-ExitExt 3
+ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 35499
+ExitExtToVnum 6777
 ExitExtEnd
-Exit 3
+Exit 1
 ~
 ~
-0 0 35499
+0 0 6777
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1498,39 +1577,6 @@ Exit 0
 ~
 ~
 0 0 6775
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35503
-ExitExtEnd
-Exit 1
-~
-~
-0 0 35503
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35500
-ExitExtEnd
-Exit 2
-~
-~
-0 0 35500
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6779
-ExitExtEnd
-Exit 3
-~
-~
-0 0 6779
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1543,17 +1589,6 @@ wygladaja na obumarle.
 ~
 FlagsExt 0
 Sector 32
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35505
-ExitExtEnd
-Exit 1
-~
-~
-0 0 35505
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1565,17 +1600,6 @@ Exit 2
 ~
 ~
 0 0 6775
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6777
-ExitExtEnd
-Exit 3
-~
-~
-0 0 6777
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1598,39 +1622,6 @@ Exit 0
 ~
 ~
 0 0 6773
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6794
-ExitExtEnd
-Exit 1
-~
-~
-0 0 6794
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35502
-ExitExtEnd
-Exit 2
-~
-~
-0 0 35502
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35503
-ExitExtEnd
-Exit 3
-~
-~
-0 0 35503
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1642,28 +1633,6 @@ bladoniebieskawej mgly. Otaczajace cie rosliny wygladaja na obumarle.
 ~
 FlagsExt 0
 Sector 32
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35507
-ExitExtEnd
-Exit 0
-~
-~
-0 0 35507
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6791
-ExitExtEnd
-Exit 1
-~
-~
-0 0 6791
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1675,17 +1644,6 @@ Exit 2
 ~
 ~
 0 0 6773
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35505
-ExitExtEnd
-Exit 3
-~
-~
-0 0 35505
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1731,17 +1689,6 @@ Exit 2
 ~
 ~
 0 0 6772
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6790
-ExitExtEnd
-Exit 3
-~
-~
-0 0 6790
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1777,17 +1724,6 @@ wygladaja na obumarle.
 ~
 FlagsExt 0|H
 Sector 32
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35508
-ExitExtEnd
-Exit 1
-~
-~
-0 0 35508
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1799,17 +1735,6 @@ Exit 2
 ~
 ~
 0 0 6791
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35507
-ExitExtEnd
-Exit 3
-~
-~
-0 0 35507
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1833,17 +1758,6 @@ Exit 0
 ~
 ~
 0 0 6772
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35509
-ExitExtEnd
-Exit 1
-~
-~
-0 0 35509
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1855,17 +1769,6 @@ Exit 2
 ~
 ~
 0 0 6795
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 6789
-ExitExtEnd
-Exit 3
-~
-~
-0 0 6789
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1877,7 +1780,7 @@ mgielka a przedmioty, drzewa i groby pokryte sa cienka warstewka
 popiolu. Nic szczegolnego tu nie ma...
 ~
 FlagsExt 0
-Sector 28
+Sector 0
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1911,17 +1814,6 @@ Exit 2
 ~
 ~
 0 0 6796
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 35502
-ExitExtEnd
-Exit 3
-~
-~
-0 0 35502
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1945,16 +1837,17 @@ Exit 0
 ~
 ~
 0 0 6795
-ExitExt 1
+ExitExt 2
 ExitExtDescription ~
+ExitExtName drzwi~
 ExitExtLiczba 1
 ExitExtInfo 3
 ExitExtKey 0
 ExitExtToVnum 6797
 ExitExtEnd
-Exit 1
+Exit 2
 ~
-~
+drzwi~
 3 0 6797
 ExitExt 3
 ExitExtDescription ~
@@ -1979,16 +1872,17 @@ pokrywaja resztki polek ale wszystko rozkradziono.
 ~
 FlagsExt 0|AD
 Sector 0
-ExitExt 3
+ExitExt 0
 ExitExtDescription ~
+ExitExtName wrota~
 ExitExtLiczba 1
 ExitExtInfo 3
 ExitExtKey 0
 ExitExtToVnum 6796
 ExitExtEnd
-Exit 3
+Exit 0
 ~
-~
+wrota~
 3 0 6796
 Roomprog reset 6797 100~
 Resources 0 0 0 0 0 0 0 0 
@@ -2085,9 +1979,9 @@ O 100 6772 0 6787
 O 100 6772 0 6788
 M 100 6770 10 6788 10
 M 100 6779 1 6788 1
-E 100 3025 0 5
+E 100 860 0 5
 E 100 3127 0 16
-E 100 3003 0 8
+E 100 27622 0 8
 O 100 6772 0 6789
 O 100 6772 0 6790
 M 100 6772 5 6790 5
@@ -2100,9 +1994,10 @@ O 100 6796 0 6796
 P 100 3185 1 6796 1
 O 100 6797 0 6797
 M 100 6775 1 6797 1
-E 100 4369 0 5
+E 100 3379 0 5
 O 100 6784 0 6797
 M 100 6770 10 6798 10
+O 100 6771 0 6799
 S
 
 
@@ -2111,21 +2006,21 @@ S
 #6770
 ~
 if rand 80
-mob equip self 3057
+mob equip self 6773
 endif
 if rand 80
-mob equip self 3041
+mob equip self 6774
 endif
 if rand 80
-mob equip self 3025
+mob equip self 6775
 endif
 if rand 80
-mob equip self 3301
+mob equip self 6776
 endif
 if rand 80
-mob equip self 4419
+mob equip self 6777
 endif
-mob equip self 3129
+mob equip self 6778
 ~
 #6771
 ~
@@ -2133,8 +2028,8 @@ if rand 80
   mob echo Masz wra¿enie, ¿e duch na chwilê rozmywa siê w powietrzu.
 else
   if rand 75
-    if carries $i 3129
-      mob echo Duch stra¿nika przek³ada miecz z jednej rêki do drugiej.
+    if carries $i 6778
+      mob echo Duch stra¿nika przek³ada kord z jednej rêki do drugiej.
       end
     else
       if rand 67
@@ -2149,6 +2044,9 @@ else
     endif
   endif
 endif
+~
+#6772
+~
 ~
 #6773
 ~
@@ -2244,95 +2142,15 @@ mob echoaround $n $n z trudem i chrzêstem ko¶ci wciska siê w swój ko¶ciany pance
 mob echoat $n Z trudem i chrzêstem ko¶ci wciskasz nogi w {wko¶ciane nakolanniki{x.
 mob echoaround $n $n z trudem i chrzêstem ko¶ci wciska nogi w {wko¶ciane nakolanniki{x.
 ~
-#6771_rozkop
+#6772
 ~
-if hasflag $o rozkopany
-  mob echoat $n Kto¶ ju¿ rozkopa³ ten grób.
-else
-  if isgood $n
-    mob echoat $n Bezczeszczenie grobów raczej nie jest dla ciebie...
-  endif
-  if !carries $n 6192
-    mob echoat $n Postaraj siê najpierw o jak±¶ ³opatê!
-  else
-    mob reward $n wait 2
-    mob echoat $n Mocniej chwytasz ³opatê i wbijasz j± w ziemiê.
-    mob echoaround $n $n mocniej chwyta ³opatê i wbija j± w ziemiê.
-    mob reward $n move -5
-    delay 2
-    mob reward $n wait 2
-    mob echoat $n Rozkopujesz wierzchnie warstwy ziemi.
-    mob echoaround $n $n rozkopuje wierzchnie warstwy ziemi.
-    mob reward $n move -5
-    delay 2
-    mob reward $n wait 2
-    mob echoat $n Kopiesz i kopiesz...
-    mob echoaround $n $n niez³omnie kopie dalej.
-    mob reward $n move -2
-    delay 2
-    mob reward $n wait 2
-    mob echoat $n Ostatnimi machniêciami ³opaty rozkopujesz grób do koñca.
-    mob echoaround $n $n ostatnimi machniêciami ³opaty rozkopuje grób do koñca.
-    mob reward $n move -2
-    obj setflag rozkopany
-    mob objstring target long Widzisz tu podniszczony, rozkopany grób.
-    if rand 10
-      if rand 50
-        mob oload ring 1 room
-      else
-        mob oload neck 1 room
-      endif
-    else
-      if rand 50
-        if rand 50
-          mob oload ring 2 room
-        else
-          mob oload neck 2 room
-        endif
-      else
-        mob oload wrist 2 room
-      endif
-    else
-      if rand 70
-        if rand 50
-          mob oload ring 3 room
-        else
-          mob oload neck 3 room
-        endif
-      else
-        mob oload wrist 3 room
-      endif
-    else
-      mob mload 3018
-      mob echoaround Rozkopanie grobu chyba nie spodoba³o siê jego w³a¶cicielowi!
-      mob force zombie kill $n
-    endif
-  endif
-endif
+mob echoat $n Z trudem wciskasz {wko¶ciany he³m{x na swoj± g³owê.
+mob echoaround $n $n z wyra¼nym trudem wciska {wko¶ciany he³m{x na swoj± g³owê.
 ~
-#6772_rozkop
+#6773
 ~
-if roomhasflag 6772_rozkopany
-  mob echoat $n Kto¶ ju¿ rozkopa³ ten grób.
-else
-  if isgood $n
-    mob echoat $n Bezczeszczenie grobów? Nieee... to nie dla ciebie.
-    break
-  endif
-  if !carries $n 6192
-    mob echoat $n Postaraj siê najpierw o jak±¶ ³opatê...
-  else
-    mob reward $n wait 2
-    mob echoat $n Mocniej chwytasz ³opatê i wbijasz j± w ziemiê.
-    mob echoround $n $n mocniej chwyta ³opatê i wbija j± w ziemiê.
-    mob wait 2
-    mob reward $n wait 2
-    mob echoat $n Kopiesz i kopiesz, zag³êbiaj±c siê coraz bardziej.
-    mob echoaround $n $n wkopuje siê coraz g³êbiej.
-    mob wait 2
-    mob reward $n wait 2
-    mob echoat $n W koñcu udaje Ci siê rozkopaæ grób!
-    mob echoaround $n Dziêki staraniom $n, grób zosta³ rozkopany!
+mob echoat $n Z trudem i chrzêstem ko¶ci wciskasz sie w {wko¶cian± zbrojê{x.
+mob echoaround $n $n z trudem i chrzêstem ko¶ci wciska siê w swój± {wko¶cian± zbrojê{x.
 ~
 #6774
 ~
@@ -2430,6 +2248,19 @@ mob close sarkofag
 
 
 #BONUS_SET
+#Vnum 6787
+Name {wZbroja ze smoczych ko¶ci{x~
+Aff 1 23 -5 0 0 0
+Aff 1 22 -5 0 0 0
+Aff 1 13 20 0 0 0
+Aff 1 29 -1 0 0 0
+WearProg mob echoat $n Po ubraniu ostatniej czê¶ci zbroi ze smoczych ko¶ci czujesz nad sob± opiekê staro¿ytnych smoków.
+mob echoaround $n Po ubraniu ostatniej czê¶ci zbroi ze smoczych ko¶ci nad $v zaczynaj± czuwaæ staro¿ytne smoki.
+~
+RemoveProg mob echoat $n Opieka staro¿ytnych smoków opuszcza ciê.
+mob echoaround $n Opieka staro¿ytnych smoków opuszcza $c.
+~
+BonusEnd
 #Vnum 0
 
 #$

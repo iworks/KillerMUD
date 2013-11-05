@@ -12,6 +12,43 @@ End
 
 
 #MOBILES
+#Vnum 613
+Name no name~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Long (no long description)~
+Descr ~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 0
 
 
@@ -28,11 +65,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 0
@@ -55,11 +92,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 100
@@ -76,17 +113,45 @@ ExtraExt 0|Y
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 1 -1 144 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 177
 Cost 0
 Cond 20
 Itemdesc Do¶æ du¿y kamieñ, na którym obesch³o b³oto tworz±c brudn± otoczkê. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 603
+Name d³uga szata~
+Odmiana d³ugiej szaty ze {Yz{y³o{Yty{ymi {Yzd{yob{Yie{yni{Yami~d³ugiej szacie ze {Yz{y³o{Yty{ymi {Yzd{yob{Yie{yni{Yami~d³ug± szatê ze {Yz{y³o{Yty{ymi {Yzd{yob{Yie{yni{Yami~d³ug± szat± ze {Yz{y³o{Yty{ymi {Yzd{yob{Yie{yni{Yami~d³ugiej szacie ze {Yz{y³o{Yty{ymi {Yzd{yob{Yie{yni{Yami~
+Short d³uga szata ze {Yz{y³o{Yty{ymi {Yzd{yob{Yie{yni{Yami~
+Descr D³uga, piêknie wyszywana szata le¿y tutaj na ziemi.~
+Material jedwab~
+Type clothing
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|EI
+Bonus 0
+Rent 45
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 13
+Cost 244
+Cond 100
+Aff 1 27 5 1 0 0
+Aff 1 27 4 2 0 0
+Itemdesc To krawieckie arcydzie³o z pewno¶ci± nie zosta³o stworzone jedynie w
+celach ozdobnych. Ju¿ na pierwszy rzut oka widaæ, ¿e ma jakie¶ w³a¶ciwo¶ci
+magiczne, gdy¿ magiczne runy wyszywane z³otymi niæmi zdaj± siê lekko buczeæ
+zawart± w nich tajemnicz± moc±. 
+~
 Comments ~
 Objend
 #Vnum 604
@@ -100,11 +165,11 @@ ExtraExt 0|G
 Wear AE
 Wear2Ext 0|EI
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 2
 Value 3 3 3 8 12 0 0
 Repair 0 0 0 0
-Length 0
 Weight 90
 Cost 15000
 Cond 100
@@ -130,6 +195,160 @@ zamkn±æ lub otworzyæ.
 ~
 Comments ~
 Objend
+#Vnum 605
+Name czarne naramienniki~
+Odmiana {Dczarnych{x naramienników z doskona³ej stali~{Dczarnym{x naramiennikom z doskona³ej stali~{Dczarne{x naramienniki z doskona³ej stali~{Dczarnymi{x naramiennikami z doskona³ej stali~{Dczarnych{x naramiennikach z doskona³ej stali~
+Short {Dczarne{x naramienniki z doskona³ej stali~
+Descr Piêkne, czarne naramienniki z doskona³ej stali le¿± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|EI
+Bonus 0
+Rent 50
+LiczbaMnoga 1
+Gender 3
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 87
+Cost 15000
+Cond 100
+Itemdesc Znajduj±ce siê w twoim posiadaniu czarne naramienniki wykonano z
+najlepszej jako¶ci stali o minimalnej zawarto¶ci wêgla. Po zdobionym znaku
+na wewnêtrznej stronie tego przedmiotu mo¿na poznaæ, i¿ wykonano go w jednej
+z najlepszych ku¼ni krasnoludzkich na ca³ej Tamerze. Do jego wykonania
+specjalnie u¿yto stali gdy¿ jest jednym z najtañszych materia³ów do
+produkcji pancerzy, a odpowiednio spreparowana jest twarda i wytrzyma³a
+niczym adamantyt. G³ówn± warstwê metalu podbito od spodu miêkk±, ale mocno
+ubit± skór± jakiego¶ zwierzêcia, nastêpnie wpleciono weñ kolczugê o w miarê
+szerokich kó³kach i wszelkie braki uzupe³niono poch³aniaj±cym uderzenia
+w³osiem yeti. Na samym koñcu wy³o¿ono wewnêtrzn± stronê naramienników
+pikowan± zbroj±. 
+~
+Comments ~
+Objend
+#Vnum 606
+Name czarny pancerz~
+Odmiana {Dczarnego{x pancerza z doskona³ej stali~{Dczarnemu{x pancerzowi z doskona³ej stali~{Dczarny{x pancerz z doskona³ej stali~{Dczarnego{x pancerza z doskona³ej stali~{Dczarnym{x pancerzu z doskona³ej stali~
+Short {Dczarny{x pancerz z doskona³ej stali~
+Descr Piêkny, czarny pancerz z doskona³ej stali le¿y tutaj~
+Material doskona³a stal~
+Type armor
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|EI
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 2
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 230
+Cost 33000
+Cond 100
+Itemdesc Znajduj±cy siê w twoim posiadaniu czarny pancerz wykonano z najlepszej
+jako¶ci stali o minimalnej zawarto¶ci wêgla. Po zdobionym znaku na
+wewnêtrznej stronie tego przedmiotu mo¿na poznaæ, i¿ wykonano go w jednej z
+najlepszych ku¼ni krasnoludzkich na ca³ej Tamerze. Do jego wykonania
+specjalnie u¿yto stali gdy¿ jest jednym z najtañszych materia³ów do
+produkcji pancerzy, a odpowiednio spreparowana jest twarda i wytrzyma³a
+niczym adamantyt. G³ówn± warstwê metalu podbito od spodu miêkk±, ale mocno
+ubit± skór± jakiego¶ zwierzêcia, nastêpnie wpleciono weñ kolczugê o w miarê
+szerokich kó³kach i wszelkie braki uzupe³niono poch³aniaj±cym uderzenia
+w³osiem yeti. Na samym koñcu wy³o¿ono wewnêtrzn± stronê pancerza pikowan±
+zbroj±. 
+~
+Comments ~
+Objend
+#Vnum 607
+Name czarne nagolenniki~
+Odmiana {Dczarnych{x nagolenników z doskona³ej stali~{Dczarnym{x nagolennikom z doskona³ej stali~{Dczarne{x nagolenniki z doskona³ej stali~{Dczarnymi{x nagolennikami z doskona³ej stali~{Dczarnych{x nagolennikach z doskona³ej stali~
+Short {Dczarne{x nagolenniki z doskona³ej stali~
+Descr Piêkne, czarne nagolenniki z doskona³ej stali le¿± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0|G
+Wear AF
+Wear2Ext 0|EI
+Bonus 0
+Rent 50
+LiczbaMnoga 1
+Gender 3
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 95
+Cost 15000
+Cond 100
+Itemdesc Znajduj±ce siê w twoim posiadaniu czarne nagolenniki wykonano z
+najlepszej jako¶ci stali o minimalnej zawarto¶ci wêgla. Po zdobionym znaku
+na wewnêtrznej stronie tego przedmiotu mo¿na poznaæ, i¿ wykonano go w jednej
+z najlepszych ku¼ni krasnoludzkich na ca³ej Tamerze. Do jego wykonania
+specjalnie u¿yto stali gdy¿ jest jednym z najtañszych materia³ów do
+produkcji pancerzy, a odpowiednio spreparowana jest twarda i wytrzyma³a
+niczym adamantyt. G³ówn± warstwê metalu podbito od spodu miêkk±, ale mocno
+ubit± skór± jakiego¶ zwierzêcia, nastêpnie wpleciono weñ kolczugê o w miarê
+szerokich kó³kach i wszelkie braki uzupe³niono poch³aniaj±cym uderzenia
+w³osiem yeti. Na samym koñcu wy³o¿ono wewnêtrzn± stronê nagolenników
+pikowan± zbroj±. 
+~
+Comments ~
+Objend
+#Vnum 608
+Name czarne buty~
+Odmiana {Dczarnych{x butów z ostrogami~{Dczarnym{x butom z ostrogami~{Dczarne{x buty z ostrogami~{Dczarnymi{x butami z ostrogami~{Dczarnych{x butach z ostrogami~
+Short {Dczarne{x buty z ostrogami~
+Descr Piêkne, czarne nagolenniki z doskona³ej stali le¿± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0|G
+Wear AG
+Wear2Ext 0|EI
+Bonus 0
+Rent 50
+LiczbaMnoga 1
+Gender 3
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 70
+Cost 15000
+Cond 100
+Itemdesc Znajduj±ce siê w twoim posiadaniu czarne buty z ostrogami wykonano z
+najlepszej jako¶ci stali o minimalnej zawarto¶ci wêgla. Po zdobionym znaku
+na wewnêtrznej stronie tego przedmiotu mo¿na poznaæ, i¿ wykonano go w jednej
+z najlepszych ku¼ni krasnoludzkich na ca³ej Tamerze. Do jego wykonania
+specjalnie u¿yto stali gdy¿ jest jednym z najtañszych materia³ów do
+produkcji pancerzy, a odpowiednio spreparowana jest twarda i wytrzyma³a
+niczym adamantyt. G³ówn± warstwê metalu podbito od spodu miêkk±, ale mocno
+ubit± skór± jakiego¶ zwierzêcia, nastêpnie wpleciono weñ kolczugê o w miarê
+szerokich kó³kach i wszelkie braki uzupe³niono poch³aniaj±cym uderzenia
+w³osiem yeti. Na samym koñcu wy³o¿ono wewnêtrzn± stronê butów z ostrogami
+pikowan± zbroj±. 
+~
+Comments ~
+Objend
+#Vnum 609
+Name prosta bia³a szata~
+Odmiana prostej {Wbia³ej szaty{x~prostej {Wbia³ej szacie{x~prost± {Wbia³± szatê{x~prost± {Wbia³± szat±{x~prostej {Wbia³ej szacie{x~
+Short prosta {Wbia³a szata{x~
+Descr Le¿y tutaj na ziemi jaka¶ prosta, ale schludna, bia³a szata.~
+Material len~
+Type clothing
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 11
+Cost 65
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -148,14 +367,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15666
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15666
+16 0 15666
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -167,17 +386,6 @@ Exit 1
 ~
 ~
 0 0 601
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52428
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52428
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -205,14 +413,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15671
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15671
+16 0 15671
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -224,17 +432,6 @@ Exit 1
 ~
 ~
 0 0 602
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52431
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52431
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -265,14 +462,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15676
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15676
+16 0 15676
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -284,17 +481,6 @@ Exit 1
 ~
 ~
 0 0 607
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52434
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52434
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -334,17 +520,6 @@ Exit 1
 ~
 ~
 0 0 604
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52453
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52453
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -383,17 +558,6 @@ Exit 1
 ~
 ~
 0 0 615
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52454
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52454
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -459,14 +623,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15661
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15661
+16 0 15661
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -478,17 +642,6 @@ Exit 1
 ~
 ~
 0 0 600
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52425
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52425
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -517,14 +670,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15681
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15681
+16 0 15681
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -536,17 +689,6 @@ Exit 1
 ~
 ~
 0 0 608
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52437
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52437
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -575,14 +717,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15686
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15686
+16 0 15686
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -594,17 +736,6 @@ Exit 1
 ~
 ~
 0 0 609
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52440
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52440
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -633,14 +764,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15691
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15691
+16 0 15691
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -691,14 +822,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 15696
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 15696
+16 0 15696
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -757,17 +888,6 @@ Exit 1
 ~
 ~
 0 0 612
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52445
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52445
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -793,17 +913,6 @@ Exit 1
 ~
 ~
 0 0 613
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52447
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52447
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -887,17 +996,6 @@ Exit 2
 ~
 ~
 0 0 616
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52447
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52447
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -981,28 +1079,6 @@ Exit 1
 ~
 ~
 0 0 617
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52092
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52092
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52448
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52448
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1028,17 +1104,6 @@ Exit 1
 ~
 ~
 0 0 618
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52093
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52093
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1075,17 +1140,6 @@ Exit 1
 ~
 ~
 0 0 619
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52094
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52094
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1122,17 +1176,6 @@ Exit 1
 ~
 ~
 0 0 620
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52095
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52095
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1169,17 +1212,6 @@ Exit 1
 ~
 ~
 0 0 621
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52096
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52096
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1216,17 +1248,6 @@ Exit 1
 ~
 ~
 0 0 622
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52097
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52097
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1263,17 +1284,6 @@ Exit 1
 ~
 ~
 0 0 623
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52098
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52098
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1310,17 +1320,6 @@ Exit 1
 ~
 ~
 0 0 624
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52099
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52099
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1357,17 +1356,6 @@ Exit 1
 ~
 ~
 0 0 625
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52100
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52100
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1404,28 +1392,6 @@ Exit 0
 ~
 ~
 0 0 626
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52449
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52449
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52101
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52101
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1498,17 +1464,6 @@ Exit 1
 ~
 ~
 0 0 628
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52449
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52449
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1545,17 +1500,6 @@ Exit 1
 ~
 ~
 0 0 629
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52450
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52450
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1603,17 +1547,6 @@ Exit 1
 ~
 ~
 0 0 630
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52451
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52451
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1650,17 +1583,6 @@ Exit 1
 ~
 ~
 0 0 603
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52452
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52452
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1

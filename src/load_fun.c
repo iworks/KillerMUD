@@ -15,14 +15,14 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  *                                                                     *
  ***********************************************************************
  *
- * $Id: load_fun.c 12163 2013-03-20 11:12:37Z vigud $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/load_fun.c $
+ * $Id: load_fun.c 10989 2012-02-18 11:33:25Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/load_fun.c $
  *
  */
 #include <stdio.h>
@@ -54,7 +54,7 @@ bool fread_mobile( FILE *fp )
     bool match = FALSE;
     bool vnum_found = FALSE;
     char letter;
-    unsigned int vnum = 0;
+    ush_int vnum = 0;
     int iHash;
     char *word;
     bool newmp = FALSE;
@@ -286,25 +286,9 @@ bool fread_mobile( FILE *fp )
                 }
                 else if ( !str_cmp( word, "Mobend" ) )
                 {
-                    MOB_INDEX_DATA *prev;
                     fread_to_eol( fp );
 
-                    fBootDb = 0;
-                    if ( ( prev = get_mob_index( pMobIndex->vnum ) ) )
-                    {
-                        char buf[ MAX_STRING_LENGTH ];
-                        sprintf( buf, "vnum moba %u (%s) powielony! Poprzedni to %s z %s.",
-                            pMobIndex->vnum, strip_colour_codes( pMobIndex->short_descr ),
-                            strip_colour_codes( prev->short_descr ), prev->area->file_name );
-
-                        bug( buf, 0 );
-                    }
-                    else
-                    {
-                        top_mob_index++;
-                        newmobs++;
-                    }
-                    fBootDb = 1;
+                    newmobs++;
 
                     ext_flags_copy( ext_flags_sum( pMobIndex->act, ext_flag_value( act_flags, race_table[ pMobIndex->race ].act ) ), pMobIndex->act );
                     ext_flags_copy( ext_flags_sum( pMobIndex->off_flags, ext_flag_value( off_flags, race_table[ pMobIndex->race ].off ) ), pMobIndex->off_flags );
@@ -315,6 +299,7 @@ bool fread_mobile( FILE *fp )
                     iHash = vnum % MAX_KEY_HASH;
                     pMobIndex->next = mob_index_hash[ iHash ];
                     mob_index_hash[ iHash ] = pMobIndex;
+                    top_mob_index++;
                     top_vnum_mob = top_vnum_mob < vnum ? vnum : top_vnum_mob;
                     assign_area_vnum( vnum );
                     kill_table[ URANGE( 0, 0, MAX_LEVEL - 1 ) ].number++;
@@ -516,7 +501,7 @@ bool fread_mobile( FILE *fp )
             case 'V':
                 if ( !str_cmp( word, "Vnum" ) )
                 {
-                    unsigned int vnum;
+                    ush_int vnum;
 
                     vnum = fread_number( fp );
                     if ( vnum == 0 )
@@ -633,7 +618,7 @@ bool fread_object( FILE *fp )
     bool match = FALSE;
     bool vnum_found = FALSE;
     char letter;
-    unsigned int vnum = 0;
+    ush_int vnum = 0;
     int iHash;
     char *word;
     BOARD_DATA *brd = NULL;
@@ -818,17 +803,12 @@ bool fread_object( FILE *fp )
           				break;
           			}
           			break;
-            case 'L':
+			case 'L':
                 if ( !str_cmp( word, "LiczbaMnoga" ) )
                 {
                     Obj->liczba_mnoga = fread_number( fp );
                     match = TRUE;
                     break;
-                }
-                if ( !str_cmp( word, "Length" ) )
-                {
-                    Obj->length = fread_number( fp );
-                    match = TRUE;
                 }
                 break;
             case 'M':
@@ -1017,7 +997,7 @@ bool fread_object( FILE *fp )
                 }
                 else if ( !str_cmp( word, "Vnum" ) )
                 {
-                    unsigned int vnum;
+                    ush_int vnum;
 
                     vnum = fread_number( fp );
 
@@ -1121,7 +1101,7 @@ bool fread_room( FILE *fp )
 	bool match = FALSE;
 	bool vnum_found = FALSE;
 	char letter;
-	unsigned int vnum = 0;
+	ush_int vnum = 0;
 	int iHash;
 	char *word;
 	int i, x;
@@ -1594,7 +1574,7 @@ bool fread_room( FILE *fp )
 		case 'V':
 			if ( !str_cmp( word, "Vnum" ) )
 			{
-				unsigned int vnum;
+				ush_int vnum;
 				int door;
 
 				vnum = fread_number( fp );
@@ -2141,7 +2121,7 @@ bool fread_bonus_set( FILE * fp )
             case 'V':
                 if ( !str_cmp( word, "Vnum" ) )
                 {
-                    unsigned int vnum;
+                    ush_int vnum;
 
                     vnum = fread_number( fp );
 

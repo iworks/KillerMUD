@@ -136,7 +136,7 @@ ExpMultiplier 100
 Resist 7 50
 Mobend
 #Vnum 33254
-Name Giovanii Dardes~
+Name {G Giovanii Dardes{x~
 Odmiana {GGiovaniego Dardes{x~{GGiovaniemu Dardes{x~{GGiovaniegu Dardes{x~{GGiovanim Dardes{x~{GGiovanim Dardes{x~
 Short {GGiovanii Dardes{x~
 Long {GGiovanii Dardes{x w³a¶nie æwiczy z {Wjednoro¿cem{x.~
@@ -641,11 +641,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -693,11 +693,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -714,17 +714,41 @@ ExtraExt 0
 Wear AQ
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 5
 Cond 100
 Itemdesc Kolorowy balonik zrobiony z gumy jest przymocowany do niebieskiego
 sznurka. Jaki¶ dziwny gaz znajduj±cy siê w ¶rodku balonika powoduje, ¿e
 unosi siê on w powietrzu. 
+~
+Comments ~
+Objend
+#Vnum 33254
+Name s³odki napój~
+Odmiana napoju~napojowi~napój~napojem~napoju~
+Short s³odki napój~
+Descr Jaka¶ butelka z ró¿ow± ciecz± turla siê po ziemi.~
+Material szk³o~
+Type drink
+ExtraExt 0|U
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 3 3 6 0 0 0 0
+Repair 0 0 0 0
+Weight 7
+Cost 10
+Cond 75
+Itemdesc Napój znajduje siê w niewielkiej szklanej butelce zamkniêtej korkiem.
+Ciecz jest koloru ró¿owego i wygl±da raczej na apetyczn±. 
 ~
 Comments ~
 Objend
@@ -739,11 +763,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 13 48 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 8
 Cond 100
@@ -763,11 +787,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 4
 LiczbaMnoga 0
 Gender 0
 Value 16 24 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 10
 Cond 100
@@ -787,11 +811,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 15
 Cond 100
@@ -808,11 +832,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 7
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 20
 Cond 100
@@ -820,6 +844,27 @@ Itemdesc Jest to oko³o metrowej d³ugo¶ci ¶nie¿nobia³y w³os. Jednak, czy aby na
 pewno jest to w³os jednoro¿ca? A mo¿e po prostu wyrwali go jakiemu¶ bia³emu
 koniowi. 
 ~
+Comments ~
+Objend
+#Vnum 33260
+Name {Y¯ó³te buty{x~
+Odmiana {Y¿ó³tych butów{x~{Y¿ó³tym butom{x~{Y¿ó³te buty{x~{Y¿ó³tymi butami{x~{Y¿ó³tych butach{x~
+Short {Y¿ó³te buty{x~
+Descr ¯ó³te buty le¿a na ziemi.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 100
 Comments ~
 Objend
 #Vnum 33261
@@ -833,14 +878,77 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 1
 Cond 100
+Comments ~
+Objend
+#Vnum 33262
+Name zielone spodnie~
+Odmiana {Gzielonych spodni{x~{Gzielonym spodniom{x~{Gzielone spodnie{x~{Gzielonymi spodniami{x~{Gzielonych spodniach{x~
+Short {Gzielone spodnie{x~
+Descr {GZielone spodnie ³adnie z³o¿one w kostkê le¿± tutaj.{x~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 33263
+Name ró¿owa koszula~
+Odmiana {Mró¿owej koszuli{x~{Mró¿owej koszuli{x~{Mró¿ow± koszulê{x~{Mró¿ow± koszul±{x~{Mró¿owej koszuli{x~
+Short {Mró¿owa koszula{x~
+Descr {MRó¿owa koszula le¿y zabrudzona na ziemi.{x~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 33264
+Name Tacka z przekaskami~
+Odmiana null~null~null~null~null~
+Short taca z przekaskami~
+Descr Taca z przekaskami lezy tutaj.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 5 0 0 1 100 19 -1
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
 Comments ~
 Objend
 #Vnum 33265
@@ -854,11 +962,11 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 17
 Cond 75
@@ -877,11 +985,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 340
 Cost 10
 Cond 100
@@ -901,12 +1009,33 @@ ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 33269
+Name Biurko~
+Odmiana biurka~biurku~biurko~biurkiem~biurku~
+Short drewniane biurko~
+Descr Drewniane biurko wy³o¿one stert± papierów stoi tutaj.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 500
 Cost 1
 Cond 75
 Comments ~
@@ -922,11 +1051,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 1
 Cond 75
@@ -935,6 +1064,27 @@ podobne do borsuków. Jednak ich ubarwienie nie jest identyczne z tymi, które
 masz mo¿liwo¶æ widzenia w swoich okolicach. Od zwierz±t oddzielaj± ciê
 metalowe prêty. 
 ~
+Comments ~
+Objend
+#Vnum 33271
+Name Grzyb podgrzybek~
+Odmiana podgrzybka~podgrzybkowi~podgrzybka~podgrzybkiem~podgrzybku~
+Short smakowity podgrzybek~
+Descr Niewielki, smakowity podgrzybek ro¶nie po¶ród trawy.~
+Material ro¶lina~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 6 0 0 1 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
 Comments ~
 Objend
 #Vnum 33272
@@ -948,11 +1098,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 1
 Cond 100
@@ -971,11 +1121,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 2 150 1170 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 90
 Cost 1
 Cond 100
@@ -992,11 +1142,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 1 200 146 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 90
 Cost 1
 Cond 100
@@ -1052,14 +1202,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18204
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18204
+16 0 18204
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1267,7 +1417,7 @@ do nied¼wiedzia. Do twoich uszu stale docieraj± od³osy tych stworzeñ, a nos
 dra¿ni odór odchodów. 
 ~
 FlagsExt 0
-Sector 0
+Sector 8
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2505,7 +2655,7 @@ niewyobra¿alny wyczyn. Klatka wy³o¿ona jest suchym sianem. Jednak dawno tu
 nikt nie sprz±ta³, bo zalatuje zgnilizn± i odchodami. 
 ~
 FlagsExt 0
-Sector 0
+Sector 2
 ExitExt 2
 ExitExtDescription ~
 ExitExtVName Wyjscie~
@@ -2551,38 +2701,38 @@ O 100 33268 0 33261
 M 100 33262 5 33262 5
 M 100 33265 2 33262 2
 M 100 33262 5 33264 5
-O 100 27400 0 33264
+O 100 33271 0 33264
 O 100 33268 0 33265
 M 100 33262 5 33266 5
 M 100 33265 2 33266 2
 M 100 33260 1 33267 1
 E 100 33266 0 17
 M 100 33255 1 33270 1
-O 100 2358 0 33271
+O 100 3399 0 33271
 M 100 33263 1 33271 1
 G 100 33252 0
 G 100 33272 0
-O 100 2350 0 33272
+O 100 33269 0 33272
 M 100 33261 1 33273 1
-O 100 2358 0 33273
+O 100 3399 0 33273
 O 100 33273 0 33274
 O 100 33274 0 33274
 M 100 33256 1 33275 1
-O 100 2361 0 33276
+O 100 3131 0 33276
 M 100 33258 1 33276 1
 G 100 33265 0
-O 100 2361 0 33277
+O 100 3131 0 33277
 M 100 33257 1 33277 1
 G 100 33265 0
 M 100 33252 1 33278 1
 G 100 33265 0
 M 100 33264 1 33278 1
-O 100 2361 0 33279
+O 100 3131 0 33279
 M 100 33259 1 33279 1
 M 100 33258 5 33279 5
 G 100 33265 0
 G 100 33265 0
-O 100 2361 0 33280
+O 100 3131 0 33280
 M 100 33257 5 33280 5
 G 100 33265 0
 M 100 33258 5 33280 5
@@ -2594,18 +2744,20 @@ G 100 33258 0
 G 100 33257 0
 G 100 33256 0
 G 100 33255 0
-G 100 6077 0
+G 100 33254 0
 G 100 33253 0
-O 100 2361 0 33281
-E 100 4419 0 8
+O 100 3131 0 33281
+E 100 33260 0 8
 E 100 33261 0 6
-E 100 4372 0 5
+E 100 33262 0 7
+E 100 33263 0 5
 E 100 33253 0 17
+E 100 33264 0 16
 M 100 33259 5 33281 5
 G 100 33265 0
 M 100 33257 5 33281 5
 G 100 33265 0
-O 100 2361 0 33282
+O 100 3131 0 33282
 M 100 33259 5 33282 5
 G 100 33265 0
 M 100 33259 5 33282 5

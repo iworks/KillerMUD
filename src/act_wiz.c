@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -28,8 +28,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: act_wiz.c 12380 2013-06-05 12:17:45Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/act_wiz.c $
+ * $Id: act_wiz.c 11364 2012-05-22 05:59:42Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/act_wiz.c $
  *
  */
 #if defined(macintosh)
@@ -67,7 +67,7 @@
 * Local functions.
 */
 ROOM_INDEX_DATA * find_location args( ( CHAR_DATA *ch, char *arg ) );
-AREA_DATA * get_area_data args( ( unsigned int vnum ) );
+AREA_DATA * get_area_data args( ( ush_int vnum ) );
 bool check_stat_range args( ( CHAR_DATA *ch, int value ) );
 
 /*fstat, fset */
@@ -128,9 +128,9 @@ void do_wizkomendy( CHAR_DATA *ch, char *argument )
      */
 	if (
             FALSE
+            || !str_cmp( ch->name, "Agron"  )
             || !str_cmp( ch->name, "Furgas" )
             || !str_cmp( ch->name, "Gurthg" )
-            || !str_cmp( ch->name, "Horg" )
        )
 	{
 		SET_BIT( ch->pcdata->wiz_conf, W1 );
@@ -1631,14 +1631,6 @@ void do_ostat( CHAR_DATA *ch, char *argument )
     sprintf ( buf, "{GWeight{x:       [%5d] ({G%.2f kg{x)\n\r", obj->weight, (float) obj->weight / 22.05);
     send_to_char( buf, ch );
     /**
-     * length
-     */
-    if ( obj->item_type == ITEM_WEAPON )
-    {
-        sprintf ( buf, "{GLength{x:       [%5d]{x\n\r", obj->length);
-        send_to_char( buf, ch );
-    }
-    /**
      * cost
      */
     sprintf ( buf, "{GCost{x:         [%5d] %s\n\r", obj->cost, money_string_short( obj->cost ));
@@ -2429,78 +2421,87 @@ void do_mstat( CHAR_DATA *ch, char *argument )
 
 void do_vnum( CHAR_DATA *ch, char *argument )
 {
-    char arg[ MAX_INPUT_LENGTH ];
-    char *string;
+	char arg[ MAX_INPUT_LENGTH ];
+	char *string;
 
-    string = one_argument( argument, arg );
+	string = one_argument( argument, arg );
 
-    if ( arg[ 0 ] == '\0' )
-    {
-        send_to_char( "Syntax:\n\r", ch );
-        send_to_char( "  vnum obj <name>\n\r", ch );
-        send_to_char( "  vnum mob <name>\n\r", ch );
-        send_to_char( "  vnum skill <skill or spell>\n\r", ch );
-        send_to_char( "  vnum race <race>\n\r", ch );
-        return;
-    }
+	if ( arg[ 0 ] == '\0' )
+	{
+		send_to_char( "Syntax:\n\r", ch );
+		send_to_char( "  vnum obj <name>\n\r", ch );
+		send_to_char( "  vnum mob <name>\n\r", ch );
+		send_to_char( "  vnum skill <skill or spell>\n\r", ch );
+		send_to_char( "  vnum race <race>\n\r", ch );
+		return;
+	}
 
-    if ( !str_cmp( arg, "obj" ) )
-    {
-        do_function( ch, &do_ofind, string );
-        return;
-    }
+	if ( !str_cmp( arg, "obj" ) )
+	{
+		do_function( ch, &do_ofind, string );
+		return;
+	}
 
-    if ( !str_cmp( arg, "mob" ) || !str_cmp( arg, "char" ) )
-    {
-        do_function( ch, &do_mfind, string );
-        return;
-    }
+	if ( !str_cmp( arg, "mob" ) || !str_cmp( arg, "char" ) )
+	{
+		do_function( ch, &do_mfind, string );
+		return;
+	}
 
-    if ( !str_cmp( arg, "skill" ) || !str_cmp( arg, "spell" ) )
-    {
-        do_function ( ch, &do_slookup, string );
-        return;
-    }
+	if ( !str_cmp( arg, "skill" ) || !str_cmp( arg, "spell" ) )
+	{
+		do_function ( ch, &do_slookup, string );
+		return;
+	}
 
-    if ( !str_cmp( arg, "race" ) )
-    {
-        int race;
+	if ( !str_cmp( arg, "race" ) )
+	{
+		int race;
 
-        race = race_lookup( string );
-        print_char( ch, "Nr: {C%3d{x Nazwa: {C%s{x\n\r", race, race_table[race].name );
-        return;
-    }
-    /* do both */
-    do_function( ch, &do_mfind, argument );
-    do_function( ch, &do_ofind, argument );
+		race = race_lookup( string );
+		print_char( ch, "Nr: {C%3d{x Nazwa: {C%s{x\n\r", race, race_table[race].name );
+		return;
+	}
+	/* do both */
+	do_function( ch, &do_mfind, argument );
+	do_function( ch, &do_ofind, argument );
 }
 
 void do_mfind( CHAR_DATA *ch, char *argument )
 {
-    extern unsigned int top_mob_index;
-    char buf[ MAX_STRING_LENGTH ];
-    char arg[ MAX_INPUT_LENGTH ];
-    MOB_INDEX_DATA *pMobIndex;
-    unsigned int vnum;
-    bool fAll;
-    bool found;
+	extern unsigned int top_mob_index;
+	char buf[ MAX_STRING_LENGTH ];
+	char arg[ MAX_INPUT_LENGTH ];
+	MOB_INDEX_DATA *pMobIndex;
+	ush_int vnum;
+	int nMatch;
+	bool fAll;
+	bool found;
 
-    one_argument( argument, arg );
-    if ( arg[ 0 ] == '\0' )
-    {
-        send_to_char( "Find whom?\n\r", ch );
-        return;
-    }
+	one_argument( argument, arg );
+	if ( arg[ 0 ] == '\0' )
+	{
+		send_to_char( "Find whom?\n\r", ch );
+		return;
+	}
 
-    fAll = FALSE; /* !str_cmp( arg, "all" ); */
-    found = FALSE;
+	fAll	= FALSE; /* !str_cmp( arg, "all" ); */
+	found	= FALSE;
+	nMatch	= 0;
 
-    for ( vnum = 0; vnum < MAX_VNUM; vnum++ )
-    {
-        if ( ( pMobIndex = get_mob_index( vnum ) ) != NULL )
-        {
-            if ( fAll || is_name( argument, pMobIndex->player_name ) )
-            {
+	/*
+		* Yeah, so iterating over all vnum's takes 10,000 loops.
+		* Get_mob_index is fast, and I don't feel like threading another link.
+		* Do you?
+		* -- Furey
+		*/
+	for ( vnum = 0; nMatch < top_mob_index; vnum++ )
+	{
+		if ( ( pMobIndex = get_mob_index( vnum ) ) != NULL )
+		{
+			nMatch++;
+			if ( fAll || is_name( argument, pMobIndex->player_name ) )
+			{
                 found = TRUE;
                 sprintf
                     (
@@ -2511,45 +2512,52 @@ void do_mfind( CHAR_DATA *ch, char *argument )
                      pMobIndex->area->name
                     );
                 send_to_char( buf, ch );
-            }
-        }
-    }
+			}
+		}
+	}
 
-    if ( !found )
-    {
-        send_to_char( "No mobiles by that name.\n\r", ch );
-    }
+	if ( !found )
+		send_to_char( "No mobiles by that name.\n\r", ch );
 
-    return;
+	return;
 }
 
 void do_ofind( CHAR_DATA *ch, char *argument )
 {
-    extern unsigned int top_obj_index;
-    char buf[ MAX_STRING_LENGTH ];
-    char arg[ MAX_INPUT_LENGTH ];
-    OBJ_INDEX_DATA *pObjIndex;
-    unsigned int vnum;
-    bool fAll;
-    bool found;
+	extern unsigned int top_obj_index;
+	char buf[ MAX_STRING_LENGTH ];
+	char arg[ MAX_INPUT_LENGTH ];
+	OBJ_INDEX_DATA *pObjIndex;
+	ush_int vnum;
+	int nMatch;
+	bool fAll;
+	bool found;
 
-    one_argument( argument, arg );
-    if ( arg[ 0 ] == '\0' )
-    {
-        send_to_char( "Find what?\n\r", ch );
-        return;
-    }
+	one_argument( argument, arg );
+	if ( arg[ 0 ] == '\0' )
+	{
+		send_to_char( "Find what?\n\r", ch );
+		return;
+	}
 
-    fAll = FALSE; /* !str_cmp( arg, "all" ); */
-    found = FALSE;
+	fAll	= FALSE; /* !str_cmp( arg, "all" ); */
+	found	= FALSE;
+	nMatch	= 0;
 
-    for ( vnum = 0; vnum < MAX_VNUM; vnum++ )
-    {
-        if ( ( pObjIndex = get_obj_index( vnum ) ) != NULL )
-        {
-            if ( fAll || is_name( argument, pObjIndex->name ) )
-            {
-                found = TRUE;
+	/*
+		* Yeah, so iterating over all vnum's takes 10,000 loops.
+		* Get_obj_index is fast, and I don't feel like threading another link.
+		* Do you?
+		* -- Furey
+		*/
+	for ( vnum = 0; nMatch < top_obj_index; vnum++ )
+	{
+		if ( ( pObjIndex = get_obj_index( vnum ) ) != NULL )
+		{
+			nMatch++;
+			if ( fAll || is_name( argument, pObjIndex->name ) )
+			{
+				found = TRUE;
                 sprintf
                     (
                      buf,
@@ -2558,17 +2566,15 @@ void do_ofind( CHAR_DATA *ch, char *argument )
                      pObjIndex->short_descr,
                      pObjIndex->area->name
                     );
-                send_to_char( buf, ch );
-            }
-        }
-    }
+				send_to_char( buf, ch );
+			}
+		}
+	}
 
-    if ( !found )
-    {
-        send_to_char( "No objects by that name.\n\r", ch );
-    }
+	if ( !found )
+		send_to_char( "No objects by that name.\n\r", ch );
 
-    return;
+	return;
 }
 
 void do_owhere( CHAR_DATA *ch, char *argument )
@@ -6433,8 +6439,7 @@ void do_otype( CHAR_DATA *ch, char *argument )
 	int count = 1;
 	short int xtype = -1;
 	int x;
-	unsigned int vnum;
-    ush_int match;
+	ush_int vnum, match;
 	int col = 0;
 
 	extern int port;
@@ -6521,7 +6526,7 @@ void do_owear( CHAR_DATA *ch, char *argument )
 	char buf[ MAX_INPUT_LENGTH ];
 	BUFFER *buffer;
 	int count = 1;
-	unsigned int vnum;
+	ush_int vnum;
 	int match;
 	int wear_flag = 0;
 	int bit, x;
@@ -6831,8 +6836,7 @@ void do_fset( CHAR_DATA *ch, char *argument )
 
 void do_rlookup( CHAR_DATA *ch, char *argument )
 {
-	unsigned int vnum;
-    ush_int min, max, i;
+	ush_int vnum, min, max, i;
 	ROOM_INDEX_DATA *pRoom;
 	RESET_DATA *pReset;
 	char arg1[ MAX_STRING_LENGTH ];
@@ -6927,8 +6931,6 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 	LEARN_DATA *ld = NULL;
 	LEARN_LIST *ls = NULL;
 	MOB_INDEX_DATA *mob;
-	ROOM_INDEX_DATA *pRoom;
-	bool room;
 	int vn;
 	BUFFER *buffer = NULL;
 
@@ -7072,7 +7074,6 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 		int sn;
 		int colors;
 		bool found;
-		bool room;
 
 		if ( ( sn = spell_only_lookup( argument ) ) < 0 )
 		{
@@ -7090,27 +7091,14 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 			min_vnum = 100000;
 			for ( ld = learn_system; ld; ld = ld->next )
 			{
-				room = ld->room;
-
-				if ( !room && ( pMob = get_mob_index( ld->vnum ) ) == NULL )
-				{
+				if ( ( pMob = get_mob_index( ld->vnum ) ) == NULL )
 					continue;
-				}
-				if ( room && ( pRoom = get_room_index( ld->vnum ) ) == NULL )
-				{
-					continue;
-				}
 
 				for ( ls = ld->list; ls; ls = ls->next )
 				{
-					if ( !room && pMob && ls->sn == sn && pMob->vnum > prev_min && pMob->vnum < min_vnum )
+					if ( pMob && ls->sn == sn && pMob->vnum > prev_min && pMob->vnum < min_vnum )
 					{
 						min_vnum = pMob->vnum;
-						found = TRUE;
-					}
-					if ( room && pRoom && ls->sn == sn && pRoom->vnum > prev_min && pRoom->vnum < min_vnum )
-					{
-						min_vnum = pRoom->vnum;
 						found = TRUE;
 					}
 				}
@@ -7123,19 +7111,12 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 				found = FALSE;
 				for ( ld = learn_system; ld; ld = ld->next )
 				{
-					room = ld->room;
-					if ( !room && ( pMob = get_mob_index( ld->vnum ) ) == NULL )
-					{
+					if ( ( pMob = get_mob_index( ld->vnum ) ) == NULL )
 						continue;
-					}
-					if ( room && ( pRoom = get_room_index( ld->vnum ) ) == NULL )
-					{
-						continue;
-					}
 
 					for ( ls = ld->list; ls; ls = ls->next )
 					{
-						if ( !room && pMob && ls->sn == sn && pMob->vnum == min_vnum )
+						if ( pMob && ls->sn == sn && pMob->vnum == min_vnum )
 						{
 							colors = 20 + count_colors( pMob->short_descr, 0 );
 
@@ -7150,22 +7131,8 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 							found = TRUE;
 							break;
 						}
-						if ( room && pRoom && ls->sn == sn && pRoom->vnum == min_vnum )
-						{
-							colors = 20 + count_colors( pRoom->name, 0 );
-
-							sprintf( buf, "{CCh:{x %2d {CRoom{x: [%5d] %-*.*s {CArea{x: %10s\n\r",
-									 ls->chance,
-									 pRoom->vnum,
-									 colors, colors,
-									 pRoom->name,
-									 pRoom->area->name );
-							add_buf( buffer, buf );
-							count++;
-							found = TRUE;
-							break;
-						}	
 					}
+					if ( found ) break;
 				}
 				found = TRUE;
 			}
@@ -7239,10 +7206,6 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 		{
 			act = ACT_BLACK_KNIGHT;
 		}
-		else if ( class == CLASS_SHAMAN )
-		{
-			act = ACT_SHAMAN;
-		}
 		else
 		{
 			send_to_char( "Nie ma takiej klasy.\n\r", ch );
@@ -7258,28 +7221,15 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 			min_vnum = 100000;
 			for ( ld = learn_system; ld; ld = ld->next )
 			{
-				room = ld->room;
-
-				if ( !room && ( pMob = get_mob_index( ld->vnum ) ) == NULL )
-				{
+				if ( ( pMob = get_mob_index( ld->vnum ) ) == NULL )
 					continue;
-				}
-				if ( room && ( pRoom = get_room_index( ld->vnum ) ) == NULL )
-				{
-					continue;
-				}
 
 
 				for ( ls = ld->list; ls; ls = ls->next )
 				{
-					if ( !room && pMob && EXT_IS_SET( pMob->act, act ) && pMob->vnum > prev_min && pMob->vnum < min_vnum )
+					if ( pMob && EXT_IS_SET( pMob->act, act ) && pMob->vnum > prev_min && pMob->vnum < min_vnum )
 					{
 						min_vnum = pMob->vnum;
-						found = TRUE;
-					}
-					if ( room && pRoom && EXT_IS_SET( pRoom->room_flags, ROOM_INVOKE ) && pRoom->vnum > prev_min && pRoom->vnum < min_vnum )
-					{
-						min_vnum = pRoom->vnum;
 						found = TRUE;
 					}
 				}
@@ -7292,16 +7242,8 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 				found = FALSE;
 				for ( ld = learn_system; ld; ld = ld->next )
 				{
-					room = ld->room;
-
 					if ( ( pMob = get_mob_index( ld->vnum ) ) == NULL )
-					{
 						continue;
-					}
-					if ( ( pRoom = get_room_index( ld->vnum ) ) == NULL )
-					{
-						continue;
-					}
 
 					for ( ls = ld->list; ls; ls = ls->next )
 					{
@@ -7309,7 +7251,7 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 						{
 							colors = 20 + count_colors( pMob->short_descr, 0 );
 
-							sprintf( buf, "{CMob{x:  [%5d] %-*.*s {CArea{x: %10s\n\r",
+							sprintf( buf, "{CMob{x: [%5d] %-*.*s {CArea{x: %10s\n\r",
 									 pMob->vnum,
 									 colors, colors,
 									 pMob->short_descr,
@@ -7319,20 +7261,6 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 							found = TRUE;
 							break;
 						}
-						if ( pRoom && EXT_IS_SET( pRoom->room_flags, ROOM_INVOKE ) && pRoom->vnum == min_vnum )
-						{
-							colors = 20 + count_colors( pRoom->name, 0 );
-
-							sprintf( buf, "{CRoom{x: [%5d] %-*.*s {CArea{x: %10s\n\r",
-									 pRoom->vnum,
-									 colors, colors,
-									 pRoom->name,
-									 pRoom->area->name );
-							add_buf( buffer, buf );
-							count++;
-							found = TRUE;
-							break;
-						}	
 					}
 					if ( found ) break;
 				}
@@ -7360,26 +7288,15 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 	{
 		vn = atoi( arg );
 
-		argument = one_argument( argument, arg );
-		if( !str_cmp( arg, "room") )
-		{
-			room = TRUE;
-		}
-
-		if ( !room && !get_mob_index( vn ) )
+		if ( !get_mob_index( vn ) )
 		{
 			send_to_char( "Nie ma takiego moba.\n\r", ch );
-			return;
-		}
-		if ( room && !get_room_index( vn ) )
-		{
-			send_to_char( "Nie ma takiego rooma.\n\r", ch );
 			return;
 		}
 
 		for ( ld = learn_system; ld; ld = ld->next )
 		{
-			if ( ld->vnum == vn && ld->room == room )
+			if ( ld->vnum == vn )
 			{
 				if ( ld->list == NULL )
 				{
@@ -7389,25 +7306,12 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 				else
 				{
 					buffer = new_buf();
-					if( !room )
-					{
-						sprintf( buf, "Skille/spelle ustawione dla moba: {C%s{x [{C%5d{x]\n\r\n\r",
-								 get_mob_index( vn ) ->player_name,
-								 vn );
-						add_buf( buffer, buf );
-						add_buf( buffer, "                                             Zakres/\n\r" );
-						add_buf( buffer, "Rodzaj   Nazwa                               Szansa   % op³aty P³atne od\n\r" );
-					}
-					else
-					{
-						sprintf( buf, "Spelle ustawione dla rooma: {C%s{x [{C%5d{x]\n\r\n\r",
-								 get_room_index( vn )->name,
-								 vn );
-						add_buf( buffer, buf );
-						add_buf( buffer, "                                             Zakres/\n\r" );
-						add_buf( buffer, "Rodzaj   Nazwa                               Szansa\n\r" );
-
-					}
+					sprintf( buf, "Skille/spelle ustawione dla moba: {C%s{x [{C%5d{x]\n\r\n\r",
+							 get_mob_index( vn ) ->player_name,
+							 vn );
+					add_buf( buffer, buf );
+					add_buf( buffer, "                                             Zakres/\n\r" );
+					add_buf( buffer, "Rodzaj   Nazwa                               Szansa   % op³aty P³atne od\n\r" );
 
 					for ( ls = ld->list; ls; ls = ls->next )
 					{
@@ -7433,7 +7337,7 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 					{
 						if ( skill_table[ ls->sn ].spell_fun != spell_null )
 						{
-							sprintf( buf, "({Mspell{X) [%-30s] |    {C%-3d{x    |\n\r",
+							sprintf( buf, "({Mspell{X) [%-30s] |    {C%-3d{x    |   --   |    -    |\n\r",
 									 skill_table[ ls->sn ].name,
 									 ls->chance );
 							add_buf( buffer, buf );
@@ -7464,54 +7368,37 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 
 			for ( ld = learn_system; ld; ld = ld->next )
 			{
-				room = ld->room;
-				if ( !room && ( mob = get_mob_index( ld->vnum ) ) == NULL )
-				{
+				if ( ( mob = get_mob_index( ld->vnum ) ) == NULL )
 					continue;
-				}
-				if ( room && ( pRoom = get_room_index( ld->vnum ) ) == NULL )
-				{
-					continue;
-				}
 
 				prof[ 0 ] = '\0';
-				if ( !room )
-				{
-					if ( EXT_IS_SET( mob->act, ACT_MAGE ) )
-						strcat( prof, "mag " );
-					if ( EXT_IS_SET( mob->act, ACT_CLERIC ) )
-						strcat( prof, "kleryk " );
-					if ( EXT_IS_SET( mob->act, ACT_THIEF ) )
-						strcat( prof, "z³odziej " );
-					if ( EXT_IS_SET( mob->act, ACT_WARRIOR ) )
-						strcat( prof, "wojownik " );
-					if ( EXT_IS_SET( mob->act, ACT_PALADIN ) )
-						strcat( prof, "paladyn " );
-					if ( EXT_IS_SET( mob->act, ACT_DRUID ) )
-						strcat( prof, "druid " );
-					if ( EXT_IS_SET( mob->act, ACT_BARBARIAN ) )
-						strcat( prof, "barbarzyñca " );
-					if ( EXT_IS_SET( mob->act, ACT_MONK ) )
-						strcat( prof, "mnich " );
-					if ( EXT_IS_SET( mob->act, ACT_BARD ) )
-						strcat( prof, "bard " );
-					if ( EXT_IS_SET( mob->act, ACT_BLACK_KNIGHT ) )
-						strcat( prof, "czarny_rycerz " );
-					if ( EXT_IS_SET( mob->act, ACT_SHAMAN ) )
-						strcat( prof, "szaman " );
-					sprintf( buf, "[%-5d] : %-31.31s {CProf{x: %s\n\r",
-						 	 ld->vnum,
-							 mob->player_name,
-							 prof );
-				}
-				else
-				{
+				if ( EXT_IS_SET( mob->act, ACT_MAGE ) )
+					strcat( prof, "mag " );
+				if ( EXT_IS_SET( mob->act, ACT_CLERIC ) )
+					strcat( prof, "kleryk " );
+				if ( EXT_IS_SET( mob->act, ACT_THIEF ) )
+					strcat( prof, "z³odziej " );
+				if ( EXT_IS_SET( mob->act, ACT_WARRIOR ) )
+					strcat( prof, "wojownik " );
+				if ( EXT_IS_SET( mob->act, ACT_PALADIN ) )
+					strcat( prof, "paladyn " );
+				if ( EXT_IS_SET( mob->act, ACT_DRUID ) )
+					strcat( prof, "druid " );
+				if ( EXT_IS_SET( mob->act, ACT_BARBARIAN ) )
+					strcat( prof, "barbarzyñca " );
+				if ( EXT_IS_SET( mob->act, ACT_MONK ) )
+					strcat( prof, "mnich " );
+				if ( EXT_IS_SET( mob->act, ACT_BARD ) )
+					strcat( prof, "bard " );
+				if ( EXT_IS_SET( mob->act, ACT_BLACK_KNIGHT ) )
+					strcat( prof, "czarny_rycerz " );
+				if ( EXT_IS_SET( mob->act, ACT_SHAMAN ) )
 					strcat( prof, "szaman " );
-					sprintf( buf, "[%-5d] : %-31.31s {CProf{x: %s\n\r",
-						 	 ld->vnum,
-							 pRoom->name,
-							 prof );
-				}
+
+				sprintf( buf, "[%-5d] : %-31.31s {CProf{x: %s\n\r",
+						 ld->vnum,
+						 mob->player_name,
+						 prof );
 
 				add_buf( buffer, buf );
 			}
@@ -7568,7 +7455,7 @@ void do_lstat( CHAR_DATA *ch, char *argument )
 		{
 			send_to_char( "Sk³adnia:\n\r"
 						  "{Clstat all{x     - lista mobów ucz±cych czegokolwiek\n\r"
-						  "{Clstat <vnum> [room]{x  - lista tego co uczy mob o danym vnumie\n\r"
+						  "{Clstat <vnum>{x  - lista tego co uczy mob o danym vnumie\n\r"
 						  "{Clstat skill <skill> [<profesja>]{x - lista mobów ucz±cych danego skilla danej profesji (opcja)\n\r"
 						  "{Clstat spell <spell>{x - lista mobów ucz±cych danego spella\n\r"
 						  "{Clstat class <klasa>{x - lista mobów ucz±cych dan± profesjê\n\r"
@@ -7634,19 +7521,18 @@ void do_lset( CHAR_DATA *ch, char *argument )
 	LEARN_DATA *ld = NULL, *tmpld = NULL;
 	LEARN_LIST *ls = NULL, *tmpls = NULL, *tmpls_prev;
 	MOB_INDEX_DATA *pMob;
-	ROOM_INDEX_DATA *pRoom;
 	int vn;
 	sh_int val1 = 0, val2 = 0, val3 = 0, val4 = 0, sn, x = 0;
-	bool spell = FALSE, room = FALSE;
+	bool spell = FALSE;
 
 
 	if ( argument[ 0 ] == '\0' )
 	{
 		send_to_char( "Komenda sluzy do modyfikowania tablicy systemu cwiczenia skilli/spelli.\n\r"
 					  "lset add  <vnum> <skill> <min> <max> [<od ilu>] [<% oplaty>]\n\r"
-					  "lset add [room] <vnum> <spell> <szansa>\n\r"
+					  "lset add  <vnum> <spell> <szansa>\n\r"
 					  "lset paid <vnum> <skill> <od ilu> <% oplaty>\n\r"
-					  "lset del [room] <vnum> <skill>\n\r"
+					  "lset del  <vnum> <skill>\n\r"
 					  "lset save\n\r"
 					  "lset help\n\r", ch );
 		return;
@@ -7689,37 +7575,17 @@ void do_lset( CHAR_DATA *ch, char *argument )
 
 		argument = one_argument( argument, arg );
 
-		if ( !str_cmp( arg, "room" ) )
-		{
-			room = TRUE;
-			argument = one_argument( argument, arg );
-		}
-
 		if ( is_number( arg ) )
-		{
 			vn = atoi( arg );
-		}
 		else
 		{
-			if ( room )
-			{
-				send_to_char( "Blednie podales vnum roomu.\n\r", ch );
-			}
-			else
-			{
-				send_to_char( "Blednie podales vnum moba.\n\r", ch );
-			}
+			send_to_char( "Blednie podales vnum moba.\n\r", ch );
 			return;
 		}
 
-		if ( !room && ( pMob = get_mob_index( vn ) ) == NULL )
+		if ( ( pMob = get_mob_index( vn ) ) == NULL )
 		{
 			send_to_char( "Taki mob nie istnieje.\n\r", ch );
-			return;
-		}
-		else if ( room && ( pRoom = get_room_index( vn ) ) == NULL )
-		{
-			send_to_char( "Taki room nie istnieje.\n\r", ch );
 			return;
 		}
 
@@ -7758,12 +7624,6 @@ void do_lset( CHAR_DATA *ch, char *argument )
 
 		if ( !spell )
 		{
-			if ( room )
-			{
-				send_to_char( "Do pomieszczen mozna przypisywac tylko czary.\n\r", ch );
-				return;
-			}
-
 			argument = one_argument( argument, arg );
 
 			if ( arg[ 0 ] == '\0' )
@@ -7807,15 +7667,8 @@ void do_lset( CHAR_DATA *ch, char *argument )
 			}
 		}
 
-		if ( !room && !EXT_IS_SET( pMob->act, ACT_PRACTICE ) )
-		{
+		if ( !EXT_IS_SET( pMob->act, ACT_PRACTICE ) )
 			EXT_SET_BIT( pMob->act, ACT_PRACTICE );
-		}
-		else if ( room && !EXT_IS_SET( pRoom->room_flags, ROOM_INVOKE ) )
-		{
-			EXT_SET_BIT( pRoom->room_flags, ROOM_INVOKE );
-			SET_BIT( pRoom->area->area_flags, AREA_CHANGED );
-		}
 
 		ls = new_learn_list();
 		ls->next = NULL;
@@ -7842,7 +7695,7 @@ void do_lset( CHAR_DATA *ch, char *argument )
 
 		for ( tmpld = learn_system; tmpld; tmpld = tmpld->next )
 		{
-			if ( tmpld->vnum == vn && tmpld->room == room )
+			if ( tmpld->vnum == vn )
 			{
 				for ( tmpls = tmpld->list; tmpls; tmpls = tmpls->next )
 				{
@@ -7869,7 +7722,6 @@ void do_lset( CHAR_DATA *ch, char *argument )
 			{
 				ld = new_learn_data();
 				ld->vnum = vn;
-				ld->room = room;
 				tmpld->next = ld;
 				ld->list = ls;
 				send_to_char( "Skill/spell dodany.\n\r", ch );
@@ -7881,7 +7733,6 @@ void do_lset( CHAR_DATA *ch, char *argument )
 		{
 			ld = new_learn_data();
 			ld->vnum = vn;
-			ld->room = room;
 			ld->next = NULL;
 			ld->list = ls;
 			learn_system = ld;
@@ -8015,35 +7866,17 @@ void do_lset( CHAR_DATA *ch, char *argument )
 
 		argument = one_argument( argument, arg );
 
-		if ( !str_cmp( arg, "room" ) )
-		{
-			room = TRUE;
-			argument = one_argument( argument, arg );
-		}
-
 		if ( is_number( arg ) )
 			vn = atoi( arg );
 		else
-                {
-                        if ( room )
-                        {
-                                send_to_char( "Blednie podales vnum roomu.\n\r", ch );
-                        }
-                        else
-                        {
-                                send_to_char( "Blednie podales vnum moba.\n\r", ch );
-                        }
-                        return;
-                }
-
-		if ( !room && ( pMob = get_mob_index( vn ) ) == NULL )
 		{
-			send_to_char( "Taki mob nie istnieje.\n\r", ch );
+			send_to_char( "B³êdnie poda³e¶ vnum moba.\n\r", ch );
 			return;
 		}
-		else if ( room && ( pRoom = get_room_index( vn ) ) == NULL )
+
+		if ( get_mob_index( vn ) == NULL )
 		{
-			send_to_char( "Taki room nie istnieje.\n\r", ch );
+			send_to_char( "Taki mob nie istnieje.\n\r", ch );
 			return;
 		}
 
@@ -8064,7 +7897,7 @@ void do_lset( CHAR_DATA *ch, char *argument )
 		tmpls_prev = NULL;
 
 		for ( ld = learn_system; ld; ld = ld->next )
-			if ( ld->vnum == vn && ld->room == room )
+			if ( ld->vnum == vn )
 			{
 				for ( ls = ld->list; ls; ls = ls->next, x++ )
 				{
@@ -8109,14 +7942,7 @@ void do_lset( CHAR_DATA *ch, char *argument )
 		{
 			if ( ld->list != NULL )
 			{
-				if( !ld->room )
-				{
-					fprintf( fp, "m %d\n", ld->vnum );
-				}
-				else
-				{
-					fprintf( fp, "r %d\n", ld->vnum );
-				}
+				fprintf( fp, "m %d\n", ld->vnum );
 
 				for ( ls = ld->list; ls; ls = ls->next )
 				{
@@ -9330,53 +9156,8 @@ int check_objfilter( OBJ_INDEX_DATA *pObjIndex, int filter )
 				}
 			}
 			return FALSE;
-		case 20:     //length
-			return ( pObjIndex->item_type == ITEM_WEAPON && num_eval( pObjIndex->length, lookup_filter_list[ filter ].val1, lookup_filter_list[ filter ].val2 ) );
-			break;
-                case 21:     //material
-                        if ( lookup_filter_list[ filter ].val1 == 0 )
-                                return ( pObjIndex->material == lookup_filter_list[ filter ].val2 );
-                        else
-                                return ( pObjIndex->material != lookup_filter_list[ filter ].val2 );
 	}
 	return TRUE;
-}
-
-char * objlookup_helper_object_print( CHAR_DATA *ch, OBJ_INDEX_DATA *pObjIndex, int i2 )
-{
-    static char buf [ MAX_STRING_LENGTH ];
-    int value_number;
-    sprintf( buf, "%3d. [%6d] %s [%s]", i2, pObjIndex->vnum, pObjIndex->name, pObjIndex->area->name );
-    switch ( pObjIndex->item_type )
-    {
-        case ITEM_SCROLL:
-        case ITEM_POTION:
-        case ITEM_PILL:
-            sprintf( buf, "%s {R(%d){D", buf, pObjIndex->value[ 0 ] );
-            for (value_number = 1;value_number<5;value_number++)
-            {
-                if ( pObjIndex->value[ value_number ] > 0 && pObjIndex->value[ value_number ] < MAX_SKILL )
-                {
-                    sprintf( buf, "%s, %s", buf, skill_table[ pObjIndex->value[ value_number ] ].name );
-                }
-            }
-            break;
-        case ITEM_SHIELD:
-            sprintf( buf, "%s {y%s{x", buf, ShieldList[ pObjIndex->value[ 0 ] ].name );
-            break;
-        case ITEM_ARMOR:
-            sprintf( buf, "%s {y%s{x", buf, armor_name( pObjIndex->value[ 4 ] ) );
-            break;
-        case ITEM_WEAPON:
-            sprintf( buf, "%s {y%s{x", buf, flag_string( weapon_class, pObjIndex->value[ 0 ] ) );
-            break;
-    }
-    if ( !str_cmp( ch->name, "Gurthg" ) )
-    {
-        sprintf( buf, "%s{x %s", buf, pObjIndex->area->file_name );
-    }
-    sprintf( buf, "%s{x\n\r", buf );
-    return buf;
 }
 
 void do_objlookup( CHAR_DATA *ch, char *argument )
@@ -9387,8 +9168,7 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 			"wear", "extra", "exwear", "cost",
 			"weight", "rent", "affect", "bitvector",
 			"value", "null", "specdam", "bonus", "name",
-			"spell", "spell_class_conflict", "length", 
-			"material", NULL
+			"spell", "spell_class_conflict", NULL
 		};
 	char	buf [ MAX_STRING_LENGTH ];
 	char	par [ MAX_INPUT_LENGTH ];
@@ -9429,7 +9209,6 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 		add_buf( buffer, "{C#exwear [-]<flaga exwear>   {x- szukanie przedmiotów o okre¶lonych flagach exwear\n\r" );
 		add_buf( buffer, "{C#cost <operator> <liczba>   {x- szukanie przedmiotów o okre¶lonej cenie\n\r" );
 		add_buf( buffer, "{C#weight <operator> <liczba> {x- szukanie przedmiotów o okre¶lonej wadze\n\r" );
-		add_buf( buffer, "{C#length <operator> <liczba> {x- szukanie przedmiotów o okre¶lonej dlugosci\n\r" );
 		add_buf( buffer, "{C#rent <operator> <liczba>   {x- szukanie przedmiotów o okreslonym koszcie renta\n\r" );
 		add_buf( buffer, "{C#affect any|<typ affecta> <operator> <liczba>\n\r" );
 		add_buf( buffer, "                            {x- szukanie przedmiotów o okre¶lonych affectach\n\r" );
@@ -9444,7 +9223,6 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 		add_buf( buffer, "                              czarów\n\r" );
 		add_buf( buffer, "{C#null                       {x- szukanie przedmiotów, które nie maj± odmiany,\n\r" );
 		add_buf( buffer, "                              shorta lub longa\n\r" );
-		add_buf( buffer, "{C#material [-]<string>       {x- szukanie przedmiotów z okre¶lonego materialu\n\r" );
 		add_buf( buffer, "Przedmiot musi spe³niæ wszystkie warunki aby zosta³ wy¶wietlony.\n\r" );
 		page_to_char( buf_string( buffer ), ch );
 		free_buf( buffer );
@@ -9647,7 +9425,6 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 			case 8:     //cost
 			case 9:     //weight
 			case 10:     //rent
-			case 20:     //length...
 				argument = one_argument( argument, val1 );
 				argument = one_argument( argument, val2 );
 
@@ -9792,40 +9569,6 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 
 				par_count++;
 				break;
-                        case 21:     //material
-                                argument = one_argument( argument, val2 );
-                                if ( val2[ 0 ] == '\0' )
-                                {
-                                        print_char( ch, "Nieprawid³owa sk³adnia parametru: %s\n\r", par );
-                                        return;
-                                }
-
-                                ival1 = 0;
-                                if ( val2[ 0 ] == '-' )
-                                {
-                                        ival1 = 1;
-                                        sprintf( val2, "%s", val2 + 1 );
-                                }
-
-                                ival2 = -1;
-                                for ( i = 0; material_table[ i ].name ; i++ )
-                                        if ( NOPOL( val2[ 0 ] ) == NOPOL( material_table[ i ].name[ 0 ] ) && !str_prefix( val2, material_table[ i ].name ) )
-                                        {
-                                                ival2 = i;
-                                                break;
-                                        }
-
-                                if ( ival2 < 0 )
-                                {
-                                        print_char( ch, "Nieprawidlowy material: %s\n\r", val2 );
-                                        return;
-                                }
-                                lookup_filter_list[ par_count ].parameter = parameter;
-                                lookup_filter_list[ par_count ].val1 = ival1;
-                                lookup_filter_list[ par_count ].val2 = ival2;
-
-                                par_count++;
-                                break;
 			default:
 				print_char( ch, "Nieprawid³owy parametr: %s\n\r", par );
 				return;
@@ -9857,7 +9600,8 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 			{
 				if ( start == 0 || i >= start )
 				{
-                    add_buf( buffer, objlookup_helper_object_print( ch, pObjIndex, i2 ) );
+					sprintf( buf, "%3d. [%6d] %s [%s]\n\r", i2, pObjIndex->vnum, pObjIndex->name, pArea->name );
+					add_buf( buffer, buf );
 					i2++;
 				}
 				i++;
@@ -9866,6 +9610,7 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 	}
 	else
 	{
+        int value_number;
 		i = 0;
         i2 = 0;
         DEBUG_INFO("objlookup:print:for:before");
@@ -9880,18 +9625,34 @@ void do_objlookup( CHAR_DATA *ch, char *argument )
 			passed = TRUE;
 
 			for ( ifilter = 0; ifilter < par_count; ifilter++ )
-            {
 				if ( check_objfilter ( pObjIndex, ifilter ) == 0 )
-                {
 					passed = FALSE;
-                }
-            }
 
 			if ( passed )
             {
                 if ( start == 0 || i >= start )
                 {
-                    add_buf( buffer, objlookup_helper_object_print( ch, pObjIndex, i2 ) );
+                    sprintf( buf, "%3d. [%6d] %s [%s]", i2, pObjIndex->vnum, pObjIndex->name, pObjIndex->area->name );
+                    add_buf( buffer, buf );
+                    switch ( pObjIndex->item_type )
+                    {
+                        case ITEM_SCROLL:
+                        case ITEM_POTION:
+                        case ITEM_PILL:
+                            sprintf( buf, " {R(%d){D", pObjIndex->value[ 0 ] );
+                            add_buf( buffer, buf);
+                            for (value_number = 1;value_number<5;value_number++)
+                            {
+                                if ( pObjIndex->value[ value_number ] > 0 && pObjIndex->value[ value_number ] < MAX_SKILL )
+                                {
+                                    sprintf( buf, ", %s", skill_table[ pObjIndex->value[ value_number ] ].name );
+                                    add_buf( buffer, buf );
+                                }
+                            }
+                            break;
+                    }
+                    sprintf( buf, "{x\n\r" );
+                    add_buf( buffer, buf );
                     i2++;
                 }
                 i++;
@@ -12047,6 +11808,295 @@ void do_destroy ( CHAR_DATA* ch, char* argument )
 	return;
 }
 
+void do_test ( CHAR_DATA *ch, char *argument )
+{
+	//generate_random_feat( ch );
+	//return;
+
+	CHAR_DATA *vch;
+	char arg1[ MAX_INPUT_LENGTH ];
+	char buf[ MAX_STRING_LENGTH ];
+	int level;
+	int iLevel;
+	int zm;
+
+	if (
+		str_cmp( ch->name, "Furgas" )
+	    && str_cmp( ch->name, "Agron" )
+		//&& str_cmp( ch->name, "Builder" )
+		)
+		return;
+
+	argument = one_argument( argument, arg1 );
+
+	if ( ( vch = get_char_world( ch, arg1 ) ) == NULL )
+	{
+		send_to_char( "Nie ma nikogo takiego.\n\r", ch );
+		return;
+	}
+
+	argument = one_argument( argument, arg1 );
+
+	if ( !str_cmp( arg1, "exp" ) )
+	{
+		if ( !is_number( argument ) )
+			return;
+
+		gain_exp( vch, UMAX( 0, atoi( argument ) ), FALSE );
+	}
+	else if ( !str_cmp( arg1, "level" ) )
+	{
+		if ( argument[ 0 ] == '\0' || !is_number( argument ) )
+		{
+			send_to_char( "Sk³adnia: test level <level>.\n\r", ch );
+			return;
+		}
+
+		if ( ( level = atoi( argument ) ) < 1 || level > LEVEL_HERO )
+		{
+			send_to_char( "Level mo¿e byæ pomiêdzy 1 a 31 w³±cznie.\n\r", ch );
+			return;
+		}
+
+		if ( level <= vch->level )
+		{
+			send_to_char( "Obnizanie poziomu!\n\r", ch );
+			for ( zm = vch->level - level;zm > 0;zm-- )
+			{
+				delevel( vch, FALSE );
+				vch->exp = exp_per_level( vch, vch->level - 1 );
+			}
+			return;
+		}
+		else
+		{
+			send_to_char( "Podwy¿szanie poziomu!\n\r", ch );
+		}
+
+		for ( iLevel = vch->level ; iLevel < level; iLevel++ )
+		{
+			advance_level( vch, TRUE );
+		}
+
+		print_char( ch, "Masz teraz poziom %d.\n\r", vch->level );
+		vch->exp = exp_per_level( vch, vch->level - 1 );
+
+		vch->trust = 0;
+		if ( vch->level < 2 )
+		{
+#ifndef S_SPLINT_S
+			sprintf( buf, "%s%s", PLAYER_DIR, capitalize( vch->name ) );
+#endif
+                        unlink( buf );
+		}
+		save_char_obj( vch, FALSE, FALSE );
+	}
+	else if ( !str_cmp( arg1, "skill" ) )
+	{
+		argument = one_argument( argument, arg1 );
+
+		zm = skill_lookup( arg1 );
+
+		if ( zm < 0 )
+		{
+			send_to_char( "Nie ma takiego skilla/spella.\n\r", ch );
+			return;
+		}
+
+		if ( !is_number( argument ) )
+		{
+			send_to_char( "Drugi parametr ma byæ liczb± w zakresie 0-100.\n\r", ch );
+			return;
+		}
+
+
+		level = atoi( argument );
+		if ( level < 0 || level > 100 )
+		{
+			send_to_char( "Drugi parametr ma byæ liczb± w zakresie 0-100.\n\r", ch );
+			return;
+		}
+
+		if ( skill_table[ zm ].spell_fun == spell_null )
+		{
+			vch->pcdata->learned[ zm ] = atoi( argument );
+
+			vch->pcdata->learned[ zm ] = URANGE( 0, vch->pcdata->learned[ zm ], 100 );
+
+			print_char( ch, "Zmieniono poziom wyuczenia skilla '%s' na %d.\n\r", skill_table[ zm ].name, vch->pcdata->learned[ zm ] );
+			return;
+		}
+		else
+		{
+			if ( level > 0 )
+			{
+				vch->pcdata->learned[ zm ] = 1;
+				print_char( ch, "Umiesz teraz czar '%s'.\n\r", skill_table[ zm ].name );
+			}
+			else
+			{
+				vch->pcdata->learned[ zm ] = 0;
+				print_char( ch, "Nie umiesz ju¿ czaru '%s'.\n\r", skill_table[ zm ].name );
+			}
+		}
+	}
+	else if ( !str_cmp( arg1, "plus" ) )
+	{
+		argument = one_argument( argument, arg1 );
+
+		zm = skill_lookup( arg1 );
+
+		if ( zm < 0 )
+		{
+			send_to_char( "Nie ma takiego skilla/spella.\n\r", ch );
+			return;
+		}
+
+		if ( !is_number( argument ) )
+		{
+			send_to_char( "Drugi parametr ma byæ liczb± w zakresie 0-100.\n\r", ch );
+			return;
+		}
+
+
+		level = atoi( argument );
+		if ( level < 0 || level > 100 )
+		{
+			send_to_char( "Drugi parametr ma byæ liczb± w zakresie 0-100.\n\r", ch );
+			return;
+		}
+
+		if ( skill_table[ zm ].spell_fun == spell_null )
+		{
+			vch->pcdata->learning[ zm ] = atoi( argument );
+
+			vch->pcdata->learning[ zm ] = URANGE( 0, vch->pcdata->learning[ zm ], 100 - vch->pcdata->learned[ zm ] );
+            
+            vch->pcdata->learning_rasz[ zm ] = atoi( argument );
+
+			vch->pcdata->learning_rasz[ zm ] = URANGE( 0, vch->pcdata->learning_rasz[ zm ], 100 - vch->pcdata->learned[ zm ] );
+			print_char( ch, "Zmieniono liczbê plusów przy skillu '%s' na %d.\n\r", skill_table[ zm ].name, vch->pcdata->learned[ zm ] );
+			return;
+		}
+		else
+		{
+			send_to_char( "To nie jest skill.\n\r", ch );
+		}
+	}
+	else if ( !str_cmp( arg1, "class" ) )
+	{
+		int class;
+
+		class = class_lookup( argument );
+
+		if ( class == -1 || class == CLASS_MONK || class == CLASS_BARD )
+		{
+			char buf[ MAX_STRING_LENGTH ];
+
+			strcpy( buf, "Mo¿liwe profesje: " );
+			for ( class = 0; class < MAX_CLASS; class++ )
+			{
+				if ( class == CLASS_MONK || class == CLASS_BARD )
+					continue;
+
+				if ( class > 0 )
+					strcat( buf, " " );
+
+				strcat( buf, class_table[ class ].name );
+			}
+			strcat( buf, ".\n\r" );
+
+			send_to_char( buf, ch );
+			return;
+		}
+
+		vch->class = class;
+		send_to_char( "Zmieniono profesjê.\n\r", ch );
+	}
+	else if ( !str_cmp( arg1, "spec" ) )
+	{
+		int spec = -1, school;
+
+		if ( vch->class != CLASS_MAG )
+		{
+			send_to_char( "Tylko dla graczy magow.\n\r", ch );
+			return;
+		}
+
+		if ( !str_cmp( argument, "none" ) )
+		{
+			send_to_char( "Usuniêto specjalizacjê.\n\r", ch );
+			vch->pcdata->mage_specialist = -1;
+			return;
+		}
+
+		for ( school = 0; school < MAX_SCHOOL; school++ )
+		{
+			if ( !str_prefix( argument, school_table[ school ].name ) )
+			{
+				spec = school;
+				break;
+			}
+		}
+
+		if ( school == -1 )
+		{
+			send_to_char( "Nie ma takiej specjalizacji.\n\r", ch );
+			return;
+		}
+		vch->pcdata->mage_specialist = spec;
+		send_to_char( "Zmieniono specjalizacjê.\n\r", ch );
+	}
+	else if ( !str_cmp( arg1, "copper" ) )
+	{
+		if ( argument[0] == '\0' || !is_number( argument ) )
+		{
+			send_to_char( "Nie poda³e¶ liczby miedzi.\n\r", ch );
+			return;
+		}
+
+		vch->copper = UMAX( 0, atoi( argument ) );
+		print_char( ch, "Masz teraz %d miedzi.\n\r", vch->copper );
+	}
+	else if ( !str_cmp( arg1, "herb" ) )
+	{
+		HERB_IN_ROOM_DATA *temp;
+
+        	print_char( ch, "Ziola:\n\r");
+       		if( !(temp = vch->in_room->first_herb)) return;
+        	//print_char( ch, "%d %s\n\r",temp->herb, herb_table[temp->herb].lname);
+        	/*if (temp->next)
+       		{
+           		temp = temp->next;
+           		print_char( ch, "%d %s\n\r",temp->herb, herb_table[temp->herb].lname);
+
+        	}*/
+	    	for(temp = vch->in_room->first_herb;temp;temp = temp->next)
+	    	{
+			//temp->herb_status = 1;
+		    	print_char( ch, "%d %s szansa wystapienia:%d, status:%d, trudnosc:%d\n\r",temp->herb, herb_table[temp->herb].lname, herb_table[temp->herb].sectors[vch->in_room->sector_type],temp->herb_status,herb_table[temp->herb].difficult);
+
+		}
+        	print_char( ch, "reset_time: %d",vch->in_room->herb_update_timer);
+	}
+	else
+	{
+		send_to_char( "Sk³adnia:\n\r"
+					  "test exp <liczba> - dodawanie/odejmowanie expa\n\r"
+					  "test level <liczba> - ustawianie poziomu na podany\n\r"
+					  "test skill <skill/spell> <liczba> - ustawianie znajomo¶ci skilla/spella na podan± liczbê (0-100)\n\r"
+					  "test plus <skill/spell> <liczba> - ustawianie liczby plusów dla skilla/spella na podan± liczbê\n\r"
+					  "test class <profesja> - ustawianie profesji na podan±\n\r"
+					  "test spec <specjalizacja> - ustawianie specjalizacji na podan± (none - usuwa specjalizacjê)\n\r"
+					  "test copper <kasa> - ustawianie posiadanej miedzi\n\r"
+					  "test stat - pokazuje aktualne staty postaci\n\r"
+					  "test stat roll - pokazuje przyk³adowe losowanie statów ({RNie przypisuje ich postaci{x)\n\r"
+					  "test stat reset - po zej¶ciu na 1 level mo¿na zresetowaæ staty na poziom po za³o¿eniu postaci\n\r", ch );
+	}
+
+	return;
+}
+
 void do_timeshift ( CHAR_DATA* vch, char* argument )
 {
 	send_to_char("Przesuwam godzinê...\n\r",vch);
@@ -12329,7 +12379,7 @@ void do_silist( CHAR_DATA *ch, char *argument )
 {
 	extern unsigned int top_obj_index;
 	OBJ_INDEX_DATA *pObjIndex;
-	unsigned int vnum;
+	ush_int vnum;
 	int nMatch=0;
 
 	for (vnum = 0; nMatch < top_obj_index; vnum++)

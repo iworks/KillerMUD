@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Koper Tadeusz         (jediloop@go2.pl               ) [Garloop   ] *
@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: special.c 11460 2012-06-29 07:43:35Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/special.c $
+ * $Id: special.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/special.c $
  *
  */
 #if defined(macintosh)
@@ -129,7 +129,7 @@ bool spec_troll_member( CHAR_DATA *ch )
             continue;
 
         if ( !str_cmp( race_table[ GET_RACE(vch) ].name, "ogr" )
-             && ch->level > vch->level - 2 && !is_safe( ch, vch, TRUE ) )
+             && ch->level > vch->level - 2 && !is_safe( ch, vch ) )
         {
             if ( number_range( 0, count ) == 0 )
                 victim = vch;
@@ -185,7 +185,7 @@ bool spec_ogre_member( CHAR_DATA *ch )
             continue;
 
         if ( !str_cmp( race_table[ GET_RACE(vch) ].name, "troll" )
-             && ch->level > vch->level - 2 && !is_safe( ch, vch, TRUE ) )
+             && ch->level > vch->level - 2 && !is_safe( ch, vch ) )
         {
             if ( number_range( 0, count ) == 0 )
                 victim = vch;
@@ -611,7 +611,7 @@ bool spec_thief( CHAR_DATA *ch )
         v_next = victim->next_in_room;
 
         if ( IS_NPC( victim )
-             || is_safe( ch, victim, TRUE )
+             || is_safe( ch, victim )
              || victim->level >= LEVEL_IMMORTAL
              || number_bits( 5 ) != 0
              || !can_see( ch, victim )
@@ -653,7 +653,7 @@ bool spec_hunter( CHAR_DATA *ch )
         if ( !IS_NPC( vch ) || ch == vch )
             continue;
 
-		if( is_safe( ch, vch, TRUE ) )
+		if( is_safe( ch, vch ) )
 			continue;
 
 		if( vch->fighting )

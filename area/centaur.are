@@ -542,6 +542,49 @@ Mobend
 
 
 #OBJECTS
+#Vnum 1200
+Name tarcza br±zowa zdobiona mocna ciê¿ka~
+Odmiana tarczy~tarczy~tarczê~tarcz±~tarczy~
+Short zdobiona br±zowa tarcza~
+Descr Mocna, ale niestety dosyæ ciê¿ka tarcza z br±zu, pokryta fantazyjnymi zdobieniami.~
+Material br±z~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 25 5 0 0 0
+Repair 0 0 0 0
+Weight 75
+Cost 4800
+Cond 100
+Comments ~
+Objend
+#Vnum 1201
+Name lanca krótka ostra porêczna~
+Odmiana lancy~lancy~lancê~lanc±~lancy~
+Short krótka lanca~
+Descr Niezbyt d³uga, ale za to ostra i porêczna lanca spoczywa tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 3 4 3 15 1024 -1 0
+Repair 0 0 0 0
+Weight 110
+Cost 9000
+Cond 100
+Identdesc ~
+Comments ~
+Objend
 #Vnum 1202
 Name obro¿a metalowa posrebrzana~
 Odmiana obro¿y~obro¿y~obro¿ê~obro¿±~obro¿y~
@@ -553,11 +596,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0|ACM
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 12000
 Cond 100
@@ -566,6 +609,27 @@ Itemdesc Naprawdê ³adny przedmiot, w zasadzie powinien s³u¿yæ tylko jako ozdoba,
 ale nie da siê ukryæ, ¿e w pewnym stopniu tak¿e chroni to wra¿liwe miejsce,
 jakim jest szyja. 
 ~
+Comments ~
+Objend
+#Vnum 1203
+Name maczuga dêbowa spora ciê¿ka~
+Odmiana maczugi~maczudze~maczugê~maczug±~maczudze~
+Short ciê¿ka dêbowa maczuga~
+Descr Spora maczuga z twardego dêbowego drewna le¿y na ziemi.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 4 4 7 1056 0 0
+Repair 0 0 0 0
+Weight 195
+Cost 1800
+Cond 75
 Comments ~
 Objend
 #Vnum 1205
@@ -579,11 +643,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0|Q
 Bonus 0
+Rent 4
 LiczbaMnoga 0
 Gender 2
 Value 10 5 0 10 100 42 -1
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1800
 Cond 75
@@ -605,11 +669,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 5100
 Cond 100
@@ -627,11 +691,11 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0|Q
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 40
 Cond 75
@@ -649,11 +713,11 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 60
 Cond 75
@@ -670,11 +734,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0|R
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 40
 Cond 75
@@ -691,11 +755,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 197
 LiczbaMnoga 0
 Gender 0
 Value 1 7 226 146 143 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 35520
 Cond 75
@@ -5846,7 +5910,7 @@ S
 #MOBPROGSNEW
 #1200
 ~
-mob equip self 3356
+mob equip self 1203
 ~
 #1201
 ~
@@ -5862,7 +5926,7 @@ mob equip self 1209
 ~
 #1204
 ~
-mob equip self 3158
+mob equip self 3096
 ~
 #1205
 ~
@@ -5872,8 +5936,8 @@ mob equip self 1207
 ~
 #1209
 ~
-mob equip self 3312
-mob equip self 3296
+mob equip self 1200
+mob equip self 1201
 mob equip self 1202
 mob addgrou 1200
 mob addgrou 1200

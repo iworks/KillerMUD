@@ -21,35 +21,35 @@ Short stara wojowniczka~
 Long Jaka¶ przygarbiona kobieta wlecze siê têdy, podzwaniaj±c mieczem.~
 Descr W³a¶ciwie to trudno by³oby oceniæ, z kim masz do czynienia, gdyby nie
 pewne charakterystyczne gesty, pozwalaj±ce dopatrywaæ siê w tej kobiecie
-do¶wiadczonej i wytrawnej wojowniczki. Trzyma ona w d³oniach potê¿ny,
-dwurêczny miecz, który opiera sobie na barku, a którego jest gotowa w ka¿dej
-chwili u¿yæ. Tak wiêc nie daj siê nabraæ na to, ¿e jest to zgrzybia³a
-staruszka, to normalna najemniczka, tyle ¿e ju¿ na emeryturze. 
+do¶wiadczonej i wytrawnej wojowniczki. Bezwiednie trzyma ona d³oñ na
+rêkoje¶ci miecza, gotowa w ka¿dej chwili go u¿yæ. Tak, wiêc nie daj siê
+nabraæ na to, ¿e jest to zgrzybia³a staruszka, to normalna najemniczka, tyle
+¿e ju¿ na emeryturze. 
 ~
 Race cz³owiek~
-ActExt 0|ACETX
+ActExt 0|ACEGT
 Affected 0 0 0 0
 AffectedExt 0
-Align 0
+Align -200
 Group 0
 Lang A
 Speaks 0
-Level 23
+Level 15
 Hitroll 0
-HP 18d2+470
+HP 15d5+250
 Damage 2d4+0
 Dammagic 0
-Weaponbonus 8
+Weaponbonus 0
 Damflags 0
 Attack uderzenie
 XAC 9 9 9 10
-Stats 145 84 84 100 128 78 78
-Off EKXb
-OffExt 0|EKXb/1|BC
+Stats 126 84 84 84 108 78 78
+Off EKV
+OffExt 0|EKV
 Pos_start stand
 Pos_def stand
 Sex female
-Wealth 1000
+Wealth 20
 Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
@@ -59,7 +59,7 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 6901
-Name kap³an kleryk m³ody krasnolud kap³an_isoryka~
+Name duergar kap³an kleryk m³ody krasnolud kaplan_isoryka~
 Odmiana kap³ana Isoryka~kap³anowi Isoryka~kap³ana Isoryka~kap³anem Isoryka~kap³anie Isoryka~
 Short kap³an Isoryka~
 Long Stoi tutaj krasnolud, bêd±cy kap³anem Isoryka.~
@@ -106,6 +106,69 @@ Mobend
 
 
 #OBJECTS
+#Vnum 6900
+Name kaptur czarny pomiêty~
+Odmiana kaptura~kapturowi~kaptur~kapturem~kapturze~
+Short czarny kaptur~
+Descr Pomiêty kawa³ek czarnego materia³u poniewiera siê w kurzu.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 100
+Comments ~
+Objend
+#Vnum 6901
+Name miecz ciê¿ki szeroki~
+Odmiana ciê¿kiego miecza~ciê¿kiemu mieczowi~ciê¿ki miecz~ciê¿kim mieczem~ciê¿kim mieczu~
+Short ciê¿ki miecz~
+Descr Miecz o szerokiej i ciê¿kiej g³owni, chêtnie u¿ywany przez zaciê¿nych ¿o³nierzy.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 2 6 1 1024 -1 0
+Repair 0 0 0 0
+Weight 75
+Cost 19200
+Cond 100
+Comments ~
+Objend
+#Vnum 6902
+Name uboga szata~
+Odmiana szaty~szacie~szatê~szata~szacie~
+Short uboga szata~
+Descr Ubogo wygl±daj±ca p³ócienna szata le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 1
+Cond 100
+Comments ~
+Objend
 #Vnum 6903
 Name drogowskaz tablica drewniany~
 Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
@@ -117,16 +180,17 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 160
 Cost 0
 Cond 100
 Itemdesc Do CARRALLAK chc±c doj¶æ id¼ na PO£UDNIE,
 do ARRAS za¶ wyprowadzi ciê szlak ci±gn±cy siê stad na WSCHÓD.
+Na ZACHÓD chc±c i¶æ w DOLINÊ ELFÓW wejdziesz dzi¶.
  
 {Dtylko ... siê traktu i .. ..d¼ tak jak i ja polaz³em do lasu
 dziwnego co jest na p...niu{x
@@ -144,11 +208,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 460
 Cost 1
 Cond 75
@@ -170,11 +234,11 @@ ExtraExt 0|ET
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 1 1 30 25 27 0 0
 Repair 0 0 0 0
-Length 0
 Weight 45
 Cost 600
 Cond 50
@@ -193,11 +257,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 160
 Cost 0
 Cond 100
@@ -211,6 +275,41 @@ Itemdesc -----------------------------------------------
 Do {YArras{x - na {Gpó³noc{x, droga miêdzy {RSzczelinami{x,
 Do {cCarrallak{x - droga na {Gpoludnie{x.
 -----------------------------------------------
+~
+Comments ~
+Objend
+#Vnum 6921
+Name info~
+Odmiana null~null~null~null~null~
+Short pergamin~
+Descr Kawa³ek pergaminu z informacjami dla Feeriala le¿y tutuaj.~
+Material skóra~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Oka, zarys i uklad roomow juz jest jaki kazdy widzi, nadalem takze
+roomom odpowiednie sector'y. Ustawilem drogowskaz na rozstajach, mam
+nadzieje ze pasuje? :)
+Flage safe dalem tylko w nastepujacych lokacjach: przedsionek,
+glowna sala z barem, schodzy, korytarze i roomy goscinne (do rentowania).
+Gdzie indziej nie widze sensu i bedzie to moim zdaniem nierealistyczne
+ale jak chcesz to oczywiscie zmien.
+Na przedsionek, kuchnie i dol schodow nalozylem dodatkowo flagi no_mob,
+nie mozna wejsc z mobem do srodka, ale kelnerzy czy inne mobiki moga
+sie poruszac po budynku.
+Opisiki bede sukcesywnie dodawal, potme sie wezme za moby.
+ 
+Szczerze oddany gorszej sprawie: Deggial vien Jaunty. :)
 ~
 Comments ~
 Objend
@@ -256,12 +355,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 16101
+ExitExtToVnum 18402
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 16101
+0 0 18402
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -455,14 +554,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18210
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 18210
+16 0 18210
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -477,14 +576,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18226
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18226
+16 0 18226
 DayRDesc 6900
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -611,14 +710,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18213
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 18213
+16 0 18213
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -633,14 +732,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18229
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18229
+16 0 18229
 DayRDesc 6900
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -838,14 +937,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18216
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 18216
+16 0 18216
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -860,14 +959,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18232
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18232
+16 0 18232
 DayRDesc 6900
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -994,14 +1093,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18219
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 18219
+16 0 18219
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1016,14 +1115,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18235
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18235
+16 0 18235
 DayRDesc 6900
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1212,14 +1311,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18295
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 18295
+16 0 18295
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1234,14 +1333,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18294
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18294
+16 0 18294
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1255,7 +1354,7 @@ zaopatruj± zajazd w mleko i sery. Droga ci±gnie siê dalej na wschód, widzisz
 juz zarysy budynku. 
 ~
 FlagsExt 0
-Sector 28
+Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1384,14 +1483,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18299
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 18299
+16 0 18299
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1406,14 +1505,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18298
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 18298
+16 0 18298
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1506,28 +1605,17 @@ Exit 1
 ~
 ~
 0 0 6924
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 8192
-ExitExtKey 0
-ExitExtToVnum 18298
-ExitExtEnd
-Exit 2
-~
-~
-8192 0 18298
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24731
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24731
+16 0 24731
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1555,14 +1643,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24713
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24713
+16 0 24713
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1574,17 +1662,6 @@ Exit 2
 ~
 ~
 0 0 6925
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2801
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2801
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1612,14 +1689,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24712
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24712
+16 0 24712
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1688,17 +1765,6 @@ Exit 2
 ~
 ~
 0 0 6927
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2808
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2808
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1726,14 +1792,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24710
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24710
+16 0 24710
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1748,14 +1814,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24738
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24738
+16 0 24738
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1772,25 +1838,25 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24728
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24728
+16 0 24728
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24709
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24709
+16 0 24709
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1848,17 +1914,6 @@ Exit 1
 ~
 ~
 0 0 6930
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 24738
-ExitExtEnd
-Exit 2
-~
-~
-0 0 24738
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1908,14 +1963,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24751
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24751
+16 0 24751
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1944,14 +1999,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24729
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24729
+16 0 24729
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1966,14 +2021,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24753
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24753
+16 0 24753
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2002,14 +2057,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24811
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24811
+16 0 24811
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2024,14 +2079,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24812
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24812
+16 0 24812
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2060,14 +2115,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24813
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24813
+16 0 24813
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2082,14 +2137,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24814
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24814
+16 0 24814
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2118,14 +2173,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24815
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24815
+16 0 24815
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2140,14 +2195,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24816
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24816
+16 0 24816
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2176,14 +2231,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24817
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24817
+16 0 24817
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2198,14 +2253,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24818
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24818
+16 0 24818
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2236,14 +2291,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24819
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24819
+16 0 24819
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2258,14 +2313,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24820
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24820
+16 0 24820
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2294,14 +2349,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24839
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24839
+16 0 24839
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2352,14 +2407,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24840
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24840
+16 0 24840
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2374,14 +2429,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24832
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24832
+16 0 24832
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2410,14 +2465,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24841
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24841
+16 0 24841
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2432,14 +2487,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24833
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24833
+16 0 24833
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2468,14 +2523,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24842
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24842
+16 0 24842
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2490,14 +2545,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24837
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24837
+16 0 24837
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2526,14 +2581,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24843
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24843
+16 0 24843
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2548,14 +2603,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24838
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24838
+16 0 24838
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2584,14 +2639,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24850
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24850
+16 0 24850
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2606,14 +2661,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24846
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24846
+16 0 24846
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2642,14 +2697,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24851
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24851
+16 0 24851
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2664,14 +2719,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24847
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24847
+16 0 24847
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2700,14 +2755,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24852
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24852
+16 0 24852
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2722,14 +2777,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24848
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24848
+16 0 24848
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2758,14 +2813,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24853
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24853
+16 0 24853
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2780,14 +2835,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24849
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24849
+16 0 24849
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2873,25 +2928,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24849
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24849
+16 0 24849
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24864
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24864
+16 0 24864
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2977,14 +3032,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24853
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24853
+16 0 24853
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3024,14 +3079,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24857
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24857
+16 0 24857
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3123,36 +3178,36 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24861
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24861
+16 0 24861
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24859
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24859
+16 0 24859
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24857
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24857
+16 0 24857
 ExitExt 5
 ExitExtDescription Ka¿dy, kto chcia³by zej¶æ do wnêtrza tej szczeliny jest samobójc±.
 ~
@@ -3219,14 +3274,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24861
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24861
+16 0 24861
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3266,14 +3321,14 @@ Exit 0
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24862
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24862
+16 0 24862
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3736,6 +3791,17 @@ otoczenie, choæ posêpne i surowe, jest niezwykle piêkne.
 ~
 FlagsExt 0
 Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39865
+ExitExtEnd
+Exit 0
+~
+~
+0 0 39865
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3848,14 +3914,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24887
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24887
+16 0 24887
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3896,14 +3962,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24886
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24886
+16 0 24886
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3944,14 +4010,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24885
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24885
+16 0 24885
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3997,14 +4063,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24884
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24884
+16 0 24884
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4098,14 +4164,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24884
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24884
+16 0 24884
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4120,14 +4186,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24871
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24871
+16 0 24871
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4154,14 +4220,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24883
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24883
+16 0 24883
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4176,14 +4242,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24873
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24873
+16 0 24873
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4210,14 +4276,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24882
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24882
+16 0 24882
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4232,14 +4298,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24874
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24874
+16 0 24874
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4266,14 +4332,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24881
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24881
+16 0 24881
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4288,14 +4354,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24875
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24875
+16 0 24875
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4345,14 +4411,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24876
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24876
+16 0 24876
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4402,14 +4468,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24877
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24877
+16 0 24877
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4421,7 +4487,7 @@ warunki podró¿owania nie wró¿± niczego dobrego, obawiasz siê, ¿e droga
 mo¿e staæ siê zupe³nie niemo¿liwa do przebycia.
 ~
 FlagsExt 0
-Sector 44
+Sector 12
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4447,14 +4513,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 27870
 ExitExtEnd
 Exit 3
 ~
 ~
-8192 0 27870
+16 0 27870
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4467,7 +4533,7 @@ Po³amany powóz le¿±cy obok drogi oznacza, ¿e kto¶ nie mia³ tyle szczê¶cia co
 ty i rozbi³ siê w tym mokrym miejscu. 
 ~
 FlagsExt 0
-Sector 44
+Sector 24
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4493,14 +4559,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 27869
 ExitExtEnd
 Exit 3
 ~
 ~
-8192 0 27869
+16 0 27869
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4512,7 +4578,7 @@ warunki podró¿owania nie wró¿± niczego dobrego, obawiasz siê, ¿e droga
 mo¿e staæ siê zupe³nie niemo¿liwa do przebycia.
 ~
 FlagsExt 0
-Sector 44
+Sector 12
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4538,14 +4604,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 27861
 ExitExtEnd
 Exit 3
 ~
 ~
-8192 0 27861
+16 0 27861
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4561,14 +4627,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24871
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24871
+16 0 24871
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4606,14 +4672,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24870
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24870
+16 0 24870
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4639,14 +4705,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24868
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24868
+16 0 24868
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4684,14 +4750,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24867
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24867
+16 0 24867
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4729,25 +4795,25 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24864
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24864
+16 0 24864
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24866
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24866
+16 0 24866
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4867,15 +4933,16 @@ S
 #RESETS
 O 100 6903 0 6900
 O 100 6919 0 6919
-M 100 6900 1 6919 1
+M 100 10760 2 6921 2
 O 100 6905 0 6998
 M 100 6901 1 6998 1
-E 100 3001 0 8
-E 100 4395 0 5
-E 100 4425 0 13
-E 100 3050 0 7
-E 100 3145 0 16
+E 100 3380 0 8
+E 100 61 0 5
+E 100 62 0 13
+E 100 3382 0 7
+E 100 3023 0 16
 G 60 6906 0
+G 5 183 0
 S
 
 
@@ -4883,23 +4950,9 @@ S
 #MOBPROGSNEW
 #6900
 ~
-mob equip self 3128
-mob equip self 3005
-mob equip self 3029
-mob equip self 4411
-mob equip self 4429
-mob equip self 4406
-mob equip self 3067
-if rand 50
-  mob oload neck 2
-else
-  mob oload wrist 2
-endif
-if rand 50
-  mob oload ear 3
-else
-  mob oload finger 3
-endif
+mob equip self 6900
+mob equip self 6901
+mob equip self 6902
 ~
 #0
 

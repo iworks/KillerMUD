@@ -327,11 +327,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 29999
 Cost 1
 Cond 75
@@ -353,11 +353,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4550
 Cost 1
 Cond 100
@@ -377,11 +377,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -389,6 +389,81 @@ Itemdesc S± to, ¶wie¿e ko¶ci jakiego¶ górskiego zwierzêcia, prawdopodobnie kozic
 Co¶ j± po¿ar³o i nie masz zamiaru siê z tym spotkaæ. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 44404
+Name buty ze skóry smoka~
+Odmiana butów ze skóry {Gsmoka{x~butom ze skóry {Gsmoka{x~buty ze skóry {Gsmoka{x~butami ze skóry {Gsmoka{x~butach ze skóry {Gsmoka{x~
+Short buty ze skóry {Gsmoka{x~
+Descr Piêkne buty wykoane ze skóry le¿± tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0|DG
+Wear AG
+Wear2Ext 0|O
+Bonus 0
+Rent 75
+LiczbaMnoga 1
+Gender 5
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 24000
+Cond 100
+Aff 1 12 5 10 0 0
+Itemdesc Piêkne buty które wykonano ze skóry jakiego¶ smoka. Wygl±daj± naprawdê
+piêknie i nie jeden mag chcia³by mieæ co¶ takiego. Emanuje od nich jaka¶
+magiczna aura - czy¿by to efekt magii, czy mo¿e tego i¿ wykonane s± z tak
+specyficznego materia³u. 
+~
+Comments ~
+Objend
+#Vnum 44405
+Name drewniany kij~
+Odmiana drewnianego kija~drewnianemu kijowi~drewniany kij~drewnianym kijem~drewnianym kijem~
+Short drewniany kij~
+Descr Drewniany kij le¿y na ziemi.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 4 3 27 32 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 600
+Cond 50
+Itemdesc Jest to kij, s³u¿±cy jako laska do podpierania siê. Wykonano go z drewna
+i mo¿e pos³u¿yæ jako prowizoryczna broñ. 
+~
+Comments ~
+Objend
+#Vnum 44406
+Name ksiêga magii drowów~
+Odmiana ksiêgi magii drowów~ksiêdze magii drowów~ksiêge magii drowów~ksiêg± magii drowów~ksiêdze magii drowów~
+Short ksiêga magii drowów~
+Descr Ksiêga okuta srebrem le¿y na ziemi.~
+Material srebro~
+Type spellbook
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 8 213 325 185 316 0
+Repair 0 0 0 0
+Weight 100
+Cost 180000
+Cond 75
+Itemdesc Grube tomisko okute srebrem, zawieraj±ce plugawe czary drowów. Na ok³adce
+namalowano bia³a farb± wielkiego paj±ka. 
+~
 Comments ~
 Objend
 #Vnum 0
@@ -3508,6 +3583,17 @@ przyjemne d¼wiêki dla ucha... Wokó³ ¶cie¿ki rosn± mniejsze i wiêksze grzyby.
 ~
 FlagsExt 0
 Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14186
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14186
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5466,6 +5552,17 @@ rzeczka? Daleko na po³udniu, widaæ potê¿ne szczyty górskie.
 ~
 FlagsExt 0
 Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 14184
+ExitExtEnd
+Exit 0
+~
+~
+0 0 14184
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5935,6 +6032,17 @@ Exit 0
 ~
 ~
 0 0 44518
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44600
+ExitExtEnd
+Exit 3
+~
+~
+0 0 44600
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5963,11 +6071,11 @@ M 100 44400 3 44450 1
 M 100 44404 3 44451 1
 O 100 44401 0 44454
 M 100 44402 1 44469 1
-O 100 3369 0 44469
+O 100 44402 0 44469
 M 100 44404 3 44471 1
 M 100 44405 1 44471 1
-E 100 4366 0 5
-E 100 3159 0 16
+E 100 3133 0 5
+E 100 44405 0 16
 M 100 44406 1 44471 1
 O 100 44401 0 44473
 M 100 44403 2 44475 1
@@ -5993,7 +6101,7 @@ endif
 if rand 80
   mob equip self 44404
 else
-  mob equip self 4416
+  mob equip self 3013
 endif
 ~
 #0

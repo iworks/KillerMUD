@@ -50,6 +50,46 @@ Material unknown
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 2102
+Name pies~
+Odmiana psa~psu~psa~psem~psie~
+Short pies~
+Long Pies biega tutaj, g³o¶no szczekaj±c.~
+Descr Szaro-bury podwórkowy kundel merda weso³o ogonem i ujada jak g³upi na
+wszystko i wszystkich. 
+~
+Race pies~
+ActExt 0|AGHW
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 2
+Hitroll 0
+HP 1d10+20
+Damage 2d3+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack gryzienie
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFGV
+Parts ACDEFHJKRSUV
+Size small
+Material unknown
+MobprogNew random 2108 FGI 3~
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 2103
 Name indyk~
 Odmiana indyka~indykowi~indyka~indykiem~indyku~
@@ -757,7 +797,7 @@ wiedzieæ, co zamierzasz. Jest zawsze skory do zaczepki i ³atwo wpada w sza³,
 ale kto wie, jaki bêdzie w stosunku do ciebie. 
 ~
 Race krasnolud~
-ActExt 0|ABIK
+ActExt 0|ABK
 Affected 512 0 0 0
 AffectedExt 0|J
 Align 0
@@ -929,6 +969,48 @@ Mobend
 
 
 #OBJECTS
+#Vnum 2102
+Name biurko~
+Odmiana biurka~biurku~biurko~biurkiem~biurku~
+Short biurko~
+Descr Zawalone papierami biurko stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 600
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 2103
+Name fotel skórzany czarny~
+Odmiana fotela~fotelowi~fotel~fotelem~fotelu~
+Short fotel~
+Descr Jest to du¿y czarny fotel w ca³o¶ci obity czarn± jak aksamit skór±. Idealne miejsce do odpoczynku po d³ugim i ciê¿kim dniu.~
+Material skóra~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 1 250 144 105 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
 #Vnum 2104
 Name sejf~
 Odmiana sejfu~sejfowi~sejf~sejfem~sejfie~
@@ -940,11 +1022,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 100 15 2105 100 0 32 -1
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
@@ -962,15 +1044,82 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Itemdesc Ma³y, ¿elazny kluczyk.
+~
+Comments ~
+Objend
+#Vnum 2106
+Name ciê¿ki ¿elazny topór~
+Odmiana ciê¿kiego ¿elaznego topora~ciê¿kiemu ¿elaznemu toporowi~ciê¿ki ¿elazny topór~ciê¿kim ¿elaznym toporem~ciê¿kim ¿elaznym toporze~
+Short ciê¿ki ¿elazny topór~
+Descr Ciê¿ki, ¿elazny topór le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 5 2 6 1 1024 -1 0
+Repair 0 0 0 0
+Weight 44
+Cost 3000
+Cond 75
+Itemdesc Ciê¿ki, ¿elazny topór.
+~
+Comments ~
+Objend
+#Vnum 2107
+Name ¿elazna kolczuga~
+Odmiana ¿elaznej kolczugi~¿elaznej kolczudze~¿elazna kolczugê~¿elazn± kolczug±~¿elaznej kolczudze~
+Short ¿elazna kolczuga~
+Descr ¯elazna, krasnoludzka kolczuga.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|Y
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 3
+Value 5 7 5 10 8 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 4500
+Cond 75
+Comments ~
+Objend
+#Vnum 2109
+Name ¿elazny topór~
+Odmiana ¿elaznego topora~¿elaznemu toporowi~¿elazny topór~¿elaznym toporem~¿elaznym toporze~
+Short ¿elazny topór~
+Descr ¯elazny topór le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 5 2 5 1 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 2400
+Cond 75
+Itemdesc ¯elazny topór.
 ~
 Comments ~
 Objend
@@ -985,12 +1134,33 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 2111
+Name siekiera~
+Odmiana siekiery~siekierze~siekierê~siekier±~siekierze~
+Short siekiera~
+Descr Zwyk³a siekiera le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 5 2 4 1 0 0 0
+Repair 0 0 0 0
+Weight 40
 Cost 60
 Cond 75
 Comments ~
@@ -1006,11 +1176,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1029,17 +1199,60 @@ ExtraExt 0|N
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 10 5 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
 Itemdesc Kawa³ek czystego p³ótna, nas±czony wywarem z leczniczych zió³.
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 2116
+Name zwyk³a suknia~
+Odmiana zwyk³ej sukni~zwyk³ej sukni~zwyk³± suknie~zwyk³± sukni±~zwyk³ej sukni~
+Short zwyk³a suknia~
+Descr Zwyk³a suknia tutaj le¿y.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 75
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2117
+Name baranina~
+Odmiana baraniny~baraninie~baraninê~baranin±~baraninie~
+Short baranina z ro¿na~
+Descr Kawa³ek baraniny le¿y tutaj.~
+Material jedzenie~
+Type food
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 24 18 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 12
+Cond 75
 Comments ~
 Objend
 #Vnum 2118
@@ -1053,14 +1266,134 @@ ExtraExt 0|N
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 6 10 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2
 Cond 75
+Comments ~
+Objend
+#Vnum 2119
+Name jajecznica~
+Odmiana {Yjajecznicy{x~{Yjajecznicy{x~{Yjajecznicê{x~{Yjajecznic±{x~{Yjajecznicy{x~
+Short {Yjajecznica{x~
+Descr Widzisz na ziemi talerz z {Yjajecznic±{x.~
+Material jedzenie~
+Type food
+ExtraExt 0|N
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 12 12 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 75
+Comments ~
+Objend
+#Vnum 2120
+Name brygantyna~
+Odmiana {Bbrygantyny{x~{Bbrygantynie{x~{Bbrygantynê{x~{Bbrygantyn±{x~{Bbrygantynie{x~
+Short {Bbrygantyna{x~
+Descr Zbroja mieni±ca sie {Bniebieskim{x ¶wiatlem le¿y tutaj.~
+Material ¿elazo~
+Type armor
+ExtraExt 0|HMN
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 1500
+Cond 75
+Aff 1 17 -2 0 0 0
+Objprog random 2101 5~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2121
+Name brygantyna~
+Odmiana {Ybrygantyny{x~{Ybrygantynie{x~{Ybrygantynê{x~{Ybrygantyn±{x~{Ybrygantynie{x~
+Short {Ybrygantyna{x~
+Descr Zbroja mieni±ca sie {Y¿ó³tym{x ¶wiatlem le¿y tutaj.~
+Material o³ów~
+Type armor
+ExtraExt 0|HM
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 6 7 7 10 8 0 0
+Repair 0 0 0 0
+Weight 500
+Cost 60
+Cond 75
+Aff 1 17 20 0 0 0
+Objprog random 2101 5~
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2122
+Name brygantyna~
+Odmiana {Mbrygantyny{x~{Mbrygantynie{x~{Mbrygantynê{x~{Mbrygantyn±{x~{Mbrygantynie{x~
+Short {Mbrygantyna{x~
+Descr Zbroja mieni±ca sie {Mfioletowym{x ¶wiatlem le¿y tutaj.~
+Material br±z~
+Type armor
+ExtraExt 0|HM
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 5 7 5 10 8 0 0
+Repair 0 0 0 0
+Weight 250
+Cost 60
+Cond 75
+Aff 0 0 0 0 1 F
+Objprog random 2101 5~
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2123
+Name brygantyna~
+Odmiana {Gbrygantyny{x~{Gbrygantynie{x~{Gbrygantynê{x~{Gbrygantyn±{x~{Gbrygantynie{x~
+Short {Gbrygantyna{x~
+Descr Zbroja mieni±ca siê {Gzielonym{x ¶wiat³em le¿y tutaj.~
+Material ¿elazo~
+Type armor
+ExtraExt 0|HM
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 60
+Cond 75
+Aff 1 1 -4 0 0 0
+Objprog random 2101 5~
+Itemdesc ~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 2124
@@ -1074,11 +1407,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 80
 LiczbaMnoga 0
 Gender 3
 Value 1 4 137 231 483 476 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 14460
 Cond 100
@@ -1095,13 +1428,58 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 2127
+Name koszulka dzieciêca~
+Odmiana koszulki~koszulce~koszulkê~koszulk±~koszulce~
+Short koszulka~
+Descr Niewielka dzieciêca koszulka le¿y na ziemi.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3
+Cond 80
+Itemdesc Ma³a lniana koszulka, któr± nosi³o jakie¶ dziecko.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 2129
+Name woda syropem klonowym szklanka~
+Odmiana szklanki wody~szklance wody~szklankê wody~szklank± wody~szklance wody~
+Short szklanka wody~
+Descr Szklanka wody z syropem klonowym.~
+Material szk³o~
+Type drink
+ExtraExt 0|U
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 2 2 0 0 3333 0 0
+Repair 0 0 0 0
+Weight 11
+Cost 5
 Cond 75
 Comments ~
 Objend
@@ -1116,16 +1494,72 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 2
 Value 10 0 1 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 50
 Cond 90
 Itemdesc Bardzo ciekawy i pojemny kufel. Wygodnie siê go trzyma i z niego pije.
 Najlepszy przyjaciel krasnoluda. Kufel wykonano z mithrilu. 
+~
+Comments ~
+Objend
+#Vnum 2132
+Name wspania³y dwurêczny topór~
+Odmiana wspania³ego dwurêcznego topora~wspania³emu dwurêcznemu toporowi~wspania³y dwurêczny topór~wspania³ym dwurêcznym toporem~wspania³ym dwurêcznym toporze~
+Short wspania³y dwurêczny topór~
+Descr Wspania³y topór o d³ugim stylsku b³yszczy siê tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0|K/1|A
+Bonus 0
+Rent 75
+LiczbaMnoga 0
+Gender 2
+Value 5 5 3 42 32 2 2
+Repair 0 0 0 0
+Weight 223
+Cost 57000
+Cond 100
+Itemdesc Znajduj±cy siê w twoim posiadaniu topór wydaje siê byæ wspania³± broni±
+dla ka¿dego umiej±cego nim w³adaæ. Misternie wykonany i odpowiednio lekki by
+³atwo by³o nim machaæ, a zarazem odpowiednio ciê¿ki by wprawiony w ruch
+jednym ciêciem rozp³atywa³ czaszkê przeciwnika na dwie czê¶ci. Ostrze
+zosta³o dodatkowo opatrzone magicznymi runami wzmacniaj±cymi moc tej broni. 
+~
+Identdesc ~
+Comments topór z miejscowego questa - {RGorst{x ({CSun Jul 13 03:14:27 2008{x)
+~
+Objend
+#Vnum 2133
+Name stary pordzewia³y topór dwurêczny~
+Odmiana starego topora dwurêcznego~staremu toporowi dwurêcznemu~stary topór dwurêczny~starym toporem dwurêcznym~starym toporze dwurêcznym~
+Short stary pordzewia³y topór dwurêczny~
+Descr Stary, mocno ju¿ pordzewia³y topór dwurêczny le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 2
+Value 5 2 3 1 32 0 1
+Repair 0 0 0 0
+Weight 160
+Cost 3000
+Cond 100
+Itemdesc Trzymasz w³a¶nie w rêkach spory topór zdecydowanie maj±cy swe lata
+¶wietno¶ci za sob±. Ca³y pokryty jest pêkniêciami, g³êbokimi rysami oraz
+lekk± warstw± rdzy. Tak czy owak na pewno stanowi on jak±¶ tam warto¶æ
+sentymentaln± dla poprzedniego w³a¶ciciela, gdy¿ jest on podpisany literami
+D. F. Mo¿e warto by³oby tê osobê odszukaæ? 
 ~
 Comments ~
 Objend
@@ -1140,11 +1574,11 @@ ExtraExt 0
 Wear AS
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 120
 Cost 950
 Cond 100
@@ -1168,11 +1602,11 @@ ExtraExt 0
 Wear AL
 Wear2Ext 0
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 14
 Cost 45
 Cond 100
@@ -1182,6 +1616,112 @@ ostro¿no¶æ obchodz±c siê z tego rodzaju niebezpiecznymi rzeczami. Pojemnik
 ten przyczepiony zosta³ do zwyk³ego, skórzanego paska, dziêki czemu mo¿na
 mieæ ³atwy dostêp do pocisku przy ich ³adowaniu. 
 ~
+Comments ~
+Objend
+#Vnum 2136
+Name kapelusz szary~
+Odmiana szarego kapelusza~szaremu kapeluszowi~szary kapelusz~szarym kapeluszem~szarym kapeluszu~
+Short szary kapelusz~
+Descr Szary kapelusz le¿y tutaj.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 10
+Cond 75
+Comments ~
+Objend
+#Vnum 2137
+Name szary p³aszcz~
+Odmiana szarego p³aszcza~szaremu p³aszczowi~szary p³aszcz~szarym p³aszczem~szarym p³aszczu~
+Short {wszary p³aszcz{x~
+Descr {wSzary p³aszcz le¿y tutaj.{x~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 30
+Cond 75
+Comments ~
+Objend
+#Vnum 2138
+Name sznur d³ugi~
+Odmiana d³ugiego sznura~d³ugiemu sznurowi~d³ugi sznur~d³ugim sznurem~d³ugim sznurze~
+Short d³ugi sznur~
+Descr D³ugi sznur le¿y tutaj.~
+Material we³na~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 10
+Cond 75
+Comments ~
+Objend
+#Vnum 2140
+Name kolczy kaptur~
+Odmiana kolczego kaptura~kolczemu kapturowi~kolczy kaptur~kolczym kapturem~kolczym kapturze~
+Short kolczy kaptur~
+Descr Zwyk³y kolczy kaptur le¿y ko³o ciebie.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 2141
+Name zelazny jednoreczny topor~
+Odmiana jednorêcznego topora~jednorêcznemu toporowi~jednorêczny topór~jednorêcznym toporem~jednorêcznym toporze~
+Short jednorêczny topór~
+Descr Jednorêczny topór o ¿elaznym ostrzu le¿y tu porzucony.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 5 2 5 1 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 2400
+Cond 75
+Itemdesc ~
 Comments ~
 Objend
 #Vnum 0
@@ -1224,17 +1764,6 @@ Exit 1
 ~
 ~
 0 0 2102
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56038
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56038
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1712,14 +2241,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24595
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24595
+16 0 24595
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1769,14 +2298,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24594
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24594
+16 0 24594
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1885,14 +2414,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24586
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24586
+16 0 24586
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1907,14 +2436,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24592
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24592
+16 0 24592
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1956,14 +2485,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24585
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24585
+16 0 24585
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1978,14 +2507,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24591
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24591
+16 0 24591
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2027,14 +2556,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24584
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24584
+16 0 24584
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2049,14 +2578,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24590
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24590
+16 0 24590
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2098,14 +2627,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24583
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24583
+16 0 24583
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2120,14 +2649,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24589
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24589
+16 0 24589
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2169,14 +2698,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24582
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24582
+16 0 24582
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2191,14 +2720,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24588
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24588
+16 0 24588
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3060,14 +3589,14 @@ Exit 0
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 24459
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 24459
+16 0 24459
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3111,17 +3640,6 @@ Exit 1
 ~
 ~
 0 0 2101
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56037
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56037
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3152,17 +3670,6 @@ Exit 1
 ~
 ~
 0 0 2141
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56036
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56036
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3253,28 +3760,6 @@ Exit 0
 ~
 ~
 0 0 2144
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56035
-ExitExtEnd
-Exit 1
-~
-~
-0 0 56035
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56034
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56034
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3305,17 +3790,6 @@ Exit 1
 ~
 ~
 0 0 2145
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56017
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56017
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3346,17 +3820,6 @@ Exit 1
 ~
 ~
 0 0 2146
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56016
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56016
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3417,28 +3880,6 @@ Exit 0
 ~
 ~
 0 0 2148
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56016
-ExitExtEnd
-Exit 1
-~
-~
-0 0 56016
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56013
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56013
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3469,17 +3910,6 @@ Exit 1
 ~
 ~
 0 0 2149
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56012
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56012
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3510,17 +3940,6 @@ Exit 1
 ~
 ~
 0 0 2150
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56011
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56011
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3551,17 +3970,6 @@ Exit 1
 ~
 ~
 0 0 2151
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56010
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56010
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3622,28 +4030,6 @@ Exit 0
 ~
 ~
 0 0 2153
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56010
-ExitExtEnd
-Exit 1
-~
-~
-0 0 56010
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56003
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56003
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3674,17 +4060,6 @@ Exit 1
 ~
 ~
 0 0 2154
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56002
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56002
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3715,17 +4090,6 @@ Exit 1
 ~
 ~
 0 0 2155
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67165
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67165
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3756,17 +4120,6 @@ Exit 1
 ~
 ~
 0 0 2156
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67164
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67164
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3797,17 +4150,6 @@ Exit 1
 ~
 ~
 0 0 2157
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67163
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67163
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3838,17 +4180,6 @@ Exit 1
 ~
 ~
 0 0 2158
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67162
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67162
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3879,17 +4210,6 @@ Exit 1
 ~
 ~
 0 0 2159
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67161
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67161
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3920,17 +4240,6 @@ Exit 1
 ~
 ~
 0 0 2160
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67160
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67160
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3961,17 +4270,6 @@ Exit 1
 ~
 ~
 0 0 2161
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67159
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67159
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4002,17 +4300,6 @@ Exit 1
 ~
 ~
 0 0 2162
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67158
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67158
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4043,17 +4330,6 @@ Exit 1
 ~
 ~
 0 0 2163
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67157
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67157
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4084,17 +4360,6 @@ Exit 1
 ~
 ~
 0 0 2164
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67156
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67156
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4125,17 +4390,6 @@ Exit 1
 ~
 ~
 0 0 2165
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67155
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67155
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4166,17 +4420,6 @@ Exit 0
 ~
 ~
 0 0 2200
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52464
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52464
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4207,17 +4450,6 @@ Exit 1
 ~
 ~
 0 0 2166
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67154
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67154
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4248,17 +4480,6 @@ Exit 1
 ~
 ~
 0 0 2168
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67153
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67153
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4289,17 +4510,6 @@ Exit 1
 ~
 ~
 0 0 2169
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67152
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67152
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4330,17 +4540,6 @@ Exit 1
 ~
 ~
 0 0 2170
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67151
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67151
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4371,17 +4570,6 @@ Exit 1
 ~
 ~
 0 0 2171
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67150
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67150
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4412,17 +4600,6 @@ Exit 1
 ~
 ~
 0 0 2172
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67149
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67149
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4453,28 +4630,6 @@ Exit 0
 ~
 ~
 0 0 2167
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52460
-ExitExtEnd
-Exit 1
-~
-~
-0 0 52460
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52458
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52458
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4505,17 +4660,6 @@ Exit 1
 ~
 ~
 0 0 2173
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67148
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67148
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4546,17 +4690,6 @@ Exit 1
 ~
 ~
 0 0 2175
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67147
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67147
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4587,17 +4720,6 @@ Exit 1
 ~
 ~
 0 0 2176
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67146
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67146
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4633,12 +4755,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 2196
+ExitExtToVnum 2179
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 2196
+0 0 2179
 DayRDesc 2101
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -4647,28 +4769,17 @@ Roomend
 Name Trakt~
 FlagsExt 0
 Sector 18
-ExitExt 1
+ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 2196
+ExitExtToVnum 2178
 ExitExtEnd
-Exit 1
+Exit 0
 ~
 ~
-0 0 2196
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66869
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66869
+0 0 2178
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4699,17 +4810,6 @@ Exit 1
 ~
 ~
 0 0 2179
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66868
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66868
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4740,17 +4840,6 @@ Exit 1
 ~
 ~
 0 0 2180
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66867
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66867
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4781,17 +4870,6 @@ Exit 1
 ~
 ~
 0 0 2181
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66866
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66866
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4822,17 +4900,6 @@ Exit 1
 ~
 ~
 0 0 2182
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66865
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66865
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4863,17 +4930,6 @@ Exit 1
 ~
 ~
 0 0 2183
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66864
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66864
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4904,17 +4960,6 @@ Exit 1
 ~
 ~
 0 0 2184
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66863
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66863
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4945,17 +4990,6 @@ Exit 1
 ~
 ~
 0 0 2185
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66862
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66862
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4986,17 +5020,6 @@ Exit 1
 ~
 ~
 0 0 2186
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66861
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66861
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5041,17 +5064,6 @@ Exit 1
 ~
 ~
 0 0 2187
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66860
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66860
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5082,17 +5094,6 @@ Exit 1
 ~
 ~
 0 0 2189
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66859
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66859
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5123,17 +5124,6 @@ Exit 1
 ~
 ~
 0 0 2190
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66858
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66858
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5164,17 +5154,6 @@ Exit 1
 ~
 ~
 0 0 2191
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66857
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66857
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5205,17 +5184,6 @@ Exit 1
 ~
 ~
 0 0 2192
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52469
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52469
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5246,17 +5214,6 @@ Exit 1
 ~
 ~
 0 0 2193
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52468
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52468
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5287,17 +5244,6 @@ Exit 1
 ~
 ~
 0 0 2194
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52467
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52467
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5314,60 +5260,21 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 2196
-Name Trakt~
-Descr Znajdujesz siê na równym i wygodnym w podró¿owaniu trakcie. Poznajesz, ¿e
-zosta³ wykonany przez krasnoludzkich rzemie¶lników. Chocia¿ nie jest on, jak
-to czasem bywa, wy³ó¿ony kamiennymi p³ytami tylko szutrem i ubitym ¿wirem.
-Wysklepiony po¶rodku umo¿liwia na bezproblemowe sp³ywanie wody do
-znajduj±cych siê po obu stronach rowów. Obok drogi widzisz jakis ruch, choæ
-po skierowaniu tam swojej g³owy nie zauwa¿asz ju¿ niczego wartego uwagi. 
-~
+Name ~
+Descr ~
 FlagsExt 0
-Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2178
-ExitExtEnd
-Exit 0
-~
-~
-0 0 2178
+Sector 8
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 67146
+ExitExtToVnum 2195
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 67146
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 66870
-ExitExtEnd
-Exit 2
-~
-~
-0 0 66870
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 2179
-ExitExtEnd
-Exit 3
-~
-~
-0 0 2179
+0 0 2195
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5386,17 +5293,6 @@ Exit 1
 ~
 ~
 0 0 2195
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52466
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52466
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5427,17 +5323,6 @@ Exit 1
 ~
 ~
 0 0 2197
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52465
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52465
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5468,17 +5353,6 @@ Exit 1
 ~
 ~
 0 0 2198
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52464
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52464
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5556,16 +5430,16 @@ S
 #RESETS
 M 100 2105 5 2105 1
 M 100 2107 5 2105 1
-M 100 21933 4 2105 1
+M 100 2102 4 2105 1
 M 100 2110 5 2105 1
 M 100 2104 4 2106 1
 M 100 2101 4 2107 1
 M 100 2107 5 2107 1
 M 100 2106 2 2108 1
-E 100 4386 0 5
-E 100 3001 0 8
+E 100 2116 0 5
+E 100 3380 0 8
 M 100 2110 5 2108 1
-M 100 21933 4 2109 1
+M 100 2102 4 2109 1
 M 100 2110 5 2109 1
 M 100 2104 4 2110 1
 M 100 2107 5 2110 1
@@ -5575,54 +5449,54 @@ M 100 2105 5 2117 1
 M 100 2116 1 2119 1
 E 100 3135 0 16
 M 100 2118 1 2120 1
-G 100 3172 0
+G 100 2109 0
 M 100 2104 4 2121 1
 M 100 2101 4 2121 1
 M 100 2106 2 2122 1
-E 100 4386 0 5
-E 100 3001 0 8
+E 100 2116 0 5
+E 100 3380 0 8
 M 100 2103 3 2122 1
 M 100 2110 5 2122 1
 M 100 2114 1 2123 1
 G 100 2115 0
 M 100 2105 5 2124 1
 M 100 2107 5 2124 1
-M 100 21933 4 2124 1
+M 100 2102 4 2124 1
 M 100 2101 4 2124 1
 M 100 2103 3 2125 1
-M 100 21933 4 2126 1
+M 100 2102 4 2126 1
 M 100 2109 3 2127 2
 M 100 2105 5 2128 1
 M 100 2107 5 2128 1
 M 100 2110 5 2128 1
 O 100 2110 0 2128
 M 100 2117 1 2128 1
-G 100 3025 0
+G 100 2120 0
 M 100 2120 1 2128 1
 M 100 2103 3 2129 1
 M 100 2101 4 2129 1
 M 100 2113 1 2130 1
-G 100 2460 0
+G 100 2117 0
 G 100 2118 0
-G 100 2463 0
+G 100 2119 0
 G 100 3100 0
-G 100 3333 0
+G 100 2129 0
 M 100 2107 5 2131 1
-O 100 2362 0 2132
+O 100 3251 0 2132
 M 100 2132 1 2132 1
-O 100 2362 0 2133
+O 100 3251 0 2133
 M 100 2108 4 2135 1
 M 100 2108 4 2136 1
 M 100 2108 4 2137 2
 M 100 2115 1 2138 1
 M 100 2109 3 2139 2
-O 100 2350 0 2140
-O 100 2351 0 2140
+O 100 2102 0 2140
+O 100 2103 0 2140
 M 100 2112 1 2140 1
 G 100 2105 0
-E 100 3025 0 5
-E 100 3050 0 7
-E 100 3001 0 8
+E 100 2107 0 5
+E 100 3382 0 7
+E 100 3380 0 8
 O 100 2104 0 2140
 P 90 3283 1 2104 1
 P 10 3282 1 2104 1
@@ -5646,20 +5520,20 @@ endif
 ~
 #2102
 ~
-mob equip wojownik 3172
-mob equip wojownik 3025
+mob equip wojownik 2109
+mob equip wojownik 2107
 if rand 50
-mob equip wojownik 3045
+mob equip wojownik 3067
 endif
-mob equip self 3001
-mob equip self 3050
+mob equip self 3380
+mob equip self 3382
 ~
 #2103
 ~
-mob equip przyboczny 3178
-mob equip przyboczny 3025
-mob equip przyboczny 3045
-mob equip self 3001
+mob equip przyboczny 2106
+mob equip przyboczny 2107
+mob equip przyboczny 3067
+mob equip self 3380
 ~
 #2104
 ~
@@ -5671,9 +5545,9 @@ endif
 mob oload weapon 1
 mob oload weapon 1
  
-mob equip self 4369
-mob equip self 3050
-mob equip self 3001
+mob equip self 3379
+mob equip self 3382
+mob equip self 3380
 ~
 #2105
 ~
@@ -5686,10 +5560,10 @@ tell $n Witam w moich skromnych progach!
 ~
 #2107
 ~
-mob equip drwal 3172
-mob equip drwal 4369
-mob equip self 3050
-mob equip self 3001
+mob equip drwal 2111
+mob equip drwal 3379
+mob equip self 3382
+mob equip self 3380
 ~
 #2108
 ~
@@ -5711,18 +5585,18 @@ endif
 #2109
 ~
 mob equip dziecko 2113
-mob equip self 4364
+mob equip self 2127
 ~
 #2110
 ~
-mob equip gnom 3001
-mob equip self 4369
-mob equip self 3050
+mob equip gnom 3380
+mob equip self 3379
+mob equip self 3382
 ~
 #2111
 ~
-mob equip stary 4369
-mob equip stary 3001
+mob equip stary 3379
+mob equip stary 3380
 ~
 #2112
 ~
@@ -5819,8 +5693,8 @@ tell $n Nie wydaje mnie siem.
 ~
 #2200
 ~
-mob equip self 3001
-mob equip self 4386
+mob equip self 3380
+mob equip self 2116
 ~
 #2201
 ~
@@ -5852,8 +5726,8 @@ sayto $n Jeste¶ wielki $b! Naprawdê! Zas³u¿y³e¶ na nagrodê!
 sayto $n Oto topór, który kiedy¶ zdoby³em od pewnego maga!
 sayto $n Ja i tak wole mój stary, jestem doñ przywi±zany!
 sayto $n A ten jest ju¿ twój!
-mob oload 3127
-give topor $n
+mob oload 2132
+give wspanialy $n
 mob removeflag $n wizal_q_barb_gorst
 mob setflag $n zrobil_q_barb_gorst -1
 mob reward $n level 8
@@ -5935,11 +5809,11 @@ mob setflag $n wzial_q_barb_gorst -1
 ~
 #equip_brzuch
 ~
-mob equip self 3041
-mob equip self 3172
-mob equip self 3025
-mob equip self 3001
-mob equip self 3050
+mob oload 2140 w
+mob oload 2141 w
+mob oload 2107 w
+mob oload 3380 w
+mob oload 3382 w
 ~
 #gorel_bribe
 ~
@@ -6104,15 +5978,14 @@ end
 ~
 #mlody_wed
 ~
-mob equip self 4426
-mob equip self 4401
-mob equip self 4425
+mob equip self 2137
+mob equip self 2136
+mob equip self 2138
 if rand 94
   mob equip self 192
 else
-  mob equip self 3001
+  mob equip self 3380
 endif
- 
 ~
 #pusty!!!
 ~
@@ -6155,6 +6028,41 @@ mob lock sejf
 #0
 
 #OBJPROGSNEW
+#2101
+~
+if wears $n 2120
+or wears $n 2121
+or wears $n 2122
+or wears $n 2123
+  mob remove $n 2120
+  mob remove $n 2121
+  mob remove $n 2122
+  mob remove $n 2123
+else
+  break
+endif
+if rand 50
+  if rand 50
+    mob echoat $n Twoja zbroja rozb³yskuje nagle {Bniebieskim{x ¶wiat³em.
+    mob echoaround $n Zbroja $z rozb³yskuje nagle {Bniebieskim{x ¶wiat³em.
+    mob equip $n 2120
+  else
+    mob echoat $n Twoja zbroja rozb³yskuje nagle {Y¿ó³tym{x ¶wiat³em.
+    mob echoaround $n Zbroja $z rozb³yskuje nagle {Y¿ó³tym{x ¶wiat³em.
+    mob equip $n 2121
+  endif
+else
+  if rand 50
+    mob echoat $n Twoja zbroja rozb³yskuje nagle {Mfioletowym{x ¶wiat³em.
+    mob echoaround $n Zbroja $z rozb³yskuje nagle {Mfioletowym{x ¶wiat³em.
+    mob equip $n 2122
+  else 
+    mob echoat $n Twoja zbroja rozb³yskuje nagle {Gzielonym{x ¶wiat³em.
+    mob echoaround $n Zbroja $z rozb³yskuje nagle {Gzielonym{x ¶wiat³em.
+    mob equip $n 2123
+  endif
+endif
+~
 #2102
 ~
 mob echo {Gggg{x
@@ -6207,93 +6115,8 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 7_5~
-Desc Obok drogi widzisz jaki¶ ruch, choæ po skierowaniu tam swojej g³owy nie zauwa¿asz ju¿ niczego wartego uwagi.
-~
-Group 5
-End
-#Name 6_5~
-Desc Nad twoj± g³ow± potê¿ne drzewo rozci±ga swoje d³ugie ga³êzie.
-~
-Group 5
-End
-#Name 5_5~
-Desc Przy drodze zauwa¿asz du¿± kêpe dziwnych krzaków.
-~
-Group 5
-End
-#Name 4_5~
-Desc Obok siebie widzisz ga³±zkê z paronastoma listkami.
-~
-Group 5
-End
-#Name 3_5~
-Desc Przy krawêdzi drogi widaæ niewielk± kupê kamieni.
-~
-Group 5
-End
-#Name 2_5~
-Desc Przed sob± znajdujesz niewielki okr±g³y kamyczek.
-~
-Group 5
-End
-#Name 1_5~
-Desc Gdzieniegdzie widzisz drobne uszkodzenia nawierzchni traktu.
-~
-Group 5
-End
-#Name 2_4~
-Desc Wysklepiony po¶rodku umo¿liwia na bezproblemowe sp³ywanie wody do znajduj±cych siê po obu stronach rowów.
-~
-Group 4
-End
-#Name 1_4~
-Desc Doskonale wykonane rowy po obu stronach i lekkie wysklepienie drogi u³atwiaj±ce wodzie sp³ywanie na boki.
-~
-Group 4
-End
-#Name 2_3~
-Desc Trakt jest zrobiony z twardego, ubitego ¿wiru wype³nionego szutrem.
-~
-Group 3
-End
-#Name 1_3~
-Desc Chocia¿ nie jest on, jak to czasem bywa, wy³o¿ony kamiennymi p³ytami tylko szutrem i ubitym ¿wirem.
-~
-Group 3
-End
-#Name 4_2~
-Desc Wiesz dobrze, ¿e zosta³ on wykonany przez krasnoludów.
-~
-Group 2
-End
-#Name 3_2~
-Desc Poznajesz, ¿e zosta³ wykonany przez krasnoludzkich rzemie¶lników.
-~
-Group 2
-End
-#Name 2_2~
-Desc Od razu widaæ, ¿e to doskona³a, krasnoludzka robota.
-~
-Group 2
-End
-#Name 1_2~
-Desc Od razu widaæ, ¿e to krasnoludzka robota.
-~
-Group 2
-End
-#Name 5_1~
-Desc Znajdujesz siê na równym i wygodnym w podró¿owaniu trakcie.
-~
-Group 1
-End
-#Name 4_1~
-Desc Pod stopami czujesz perfekcyjnie wykonany trakt.
-~
-Group 1
-End
-#Name 3_1~
-Desc Pod stopami czujesz doskonale wykonany trakt.
+#Name 1_1~
+Desc Poruszasz siê po porz±dnym, do¶æ szerokim traktem.
 ~
 Group 1
 End
@@ -6302,10 +6125,95 @@ Desc Znajdujesz siê na szerokim, porz±dnie zbudowanym trakcie.
 ~
 Group 1
 End
-#Name 1_1~
-Desc Poruszasz siê po porz±dnym, do¶æ szerokim traktem.
+#Name 3_1~
+Desc Pod stopami czujesz doskonale wykonany trakt.
 ~
 Group 1
+End
+#Name 4_1~
+Desc Pod stopami czujesz perfekcyjnie wykonany trakt.
+~
+Group 1
+End
+#Name 5_1~
+Desc Znajdujesz siê na równym i wygodnym w podró¿owaniu trakcie.
+~
+Group 1
+End
+#Name 1_2~
+Desc Od razu widaæ, ¿e to krasnoludzka robota.
+~
+Group 2
+End
+#Name 2_2~
+Desc Od razu widaæ, ¿e to doskona³a, krasnoludzka robota.
+~
+Group 2
+End
+#Name 3_2~
+Desc Poznajesz, ¿e zosta³ wykonany przez krasnoludzkich rzemie¶lników.
+~
+Group 2
+End
+#Name 4_2~
+Desc Wiesz dobrze, ¿e zosta³ on wykonany przez krasnoludów.
+~
+Group 2
+End
+#Name 1_3~
+Desc Chocia¿ nie jest on, jak to czasem bywa, wy³o¿ony kamiennymi p³ytami tylko szutrem i ubitym ¿wirem.
+~
+Group 3
+End
+#Name 2_3~
+Desc Trakt jest zrobiony z twardego, ubitego ¿wiru wype³nionego szutrem.
+~
+Group 3
+End
+#Name 1_4~
+Desc Doskonale wykonane rowy po obu stronach i lekkie wysklepienie drogi u³atwiaj±ce wodzie sp³ywanie na boki.
+~
+Group 4
+End
+#Name 2_4~
+Desc Wysklepiony po¶rodku umo¿liwia na bezproblemowe sp³ywanie wody do znajduj±cych siê po obu stronach rowów.
+~
+Group 4
+End
+#Name 1_5~
+Desc Gdzieniegdzie widzisz drobne uszkodzenia nawierzchni traktu.
+~
+Group 5
+End
+#Name 2_5~
+Desc Przed sob± znajdujesz niewielki okr±g³y kamyczek.
+~
+Group 5
+End
+#Name 3_5~
+Desc Przy krawêdzi drogi widaæ niewielk± kupê kamieni.
+~
+Group 5
+End
+#Name 4_5~
+Desc Obok siebie widzisz ga³±zkê z paronastoma listkami.
+~
+Group 5
+End
+#Name 5_5~
+Desc Przy drodze zauwa¿asz du¿± kêpe dziwnych krzaków.
+~
+Group 5
+End
+#Name 6_5~
+Desc Nad twoj± g³ow± potê¿ne drzewo rozci±ga swoje d³ugie ga³êzie.
+~
+Group 5
+End
+#Name 7_5~
+Desc Obok drogi widzisz jaki¶ ruch, choæ po skierowaniu tam swojej g³owy nie zauwa¿asz ju¿ niczego wartego uwagi.
+~
+Group 5
 End
 #DescEnd
 

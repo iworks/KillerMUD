@@ -89,6 +89,45 @@ MobprogNew greet 5600 FGI 100~
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 5602
+Name pijak~
+Odmiana null~null~null~null~null~
+Short Pijak~
+Long Przy jednym z drewnianych stolow siedzi pijany Karand, wpatrujacy sie w dno swego pustego kufla.~
+Descr ~
+Race cz³owiek~
+ActExt 0|AB
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 34
+Hitroll 0
+HP 1d1+9999
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+MobprogNew bribe 5602 FGI 1000~
+MobprogNew greet 5601 FGI 100~
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 5603
 Name pracownik gildii ³owców g³ów krasnolud~
 Odmiana krasnoluda pracownika Gildii~krasnoludowi pracownikowi Gildii~krasnoluda pracownika Gildii~krasnoludem pracownikiem Gildii~krasnoludzie pracowniku Gildii~
@@ -136,6 +175,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 5600
+Name futrzana karandzka czapka~
+Odmiana czapki~czapce~czapke~czapka~czapce~
+Short futrzana karandzka czapka~
+Descr Ktos wyrzucil tu ciepla czapke.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 5 2 5 3 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 0
+Cond 100
+Comments ~
+Objend
 #Vnum 5601
 Name pos±g pomnik rze¼ba Vamyra Vamyr~
 Odmiana {Dpos±gu Vamyra{x~{Dpos±gowi Vamyra{x~{Dpos±g Vamyra{x~{Dpos±giem Vamyra{x~{Dpos±gu Vamyra{x~
@@ -147,11 +207,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 35 -1 585 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30000
 Cost 0
 Cond 95
@@ -182,11 +242,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 15 -1 585 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -194,6 +254,192 @@ Itemdesc Wygl±da na to, ¿e jest to pos±g jakiej¶ znacznej osoby. Przedstawia
 grubego, bogato odzianego krasnoluda z narzêdziami mierniczymi i
 in¿ynierskimi w d³oniach. Hm, czy¿by by³ to jeden z architektów, którzy
 zbudowali tê Fortecê? 
+~
+Comments ~
+Objend
+#Vnum 5604
+Name gruby skórzany pas~
+Odmiana grubego skórzanego pasa~grubemu skórzanemu pasowi~gruby skórzany pas~grubym skórzanym pasem~grubym skórzanym pasie~
+Short gruby skórzany pas~
+Descr Gruby, wykonany ze skóry pas le¿y tutaj w kurzu.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 10 10 10 10 1 0 0
+Repair 0 0 0 0
+Weight 8
+Cost 900
+Cond 75
+Itemdesc Ten pas, wykonany ca³kowicie za wyj±tkiem sprz±czki ze skóry jest
+niesamowicie mocny i gruby! Zapewne pocz±tkowo kto¶ chcia³ w nim umie¶ciæ
+ró¿nego rodzaju schowki i kieszonki, ale tak sie nie sta³o, nie wiadomo
+dlaczego. Jednak wygl±da on dosyæ wyj±tkowo i z pewno¶ci± szybko siê nie
+rozleci. 
+~
+Comments ~
+Objend
+#Vnum 5605
+Name ¿elazny napier¶nik~
+Odmiana ¿elaznego napier¶nika~¿elaznemu napier¶nikowi~¿elazny napier¶nik~¿elaznym napier¶nikiem~¿elaznym napier¶niku~
+Short ¿elazny napier¶nik~
+Descr Prosty, wygl±daj±cy na wzglêdnie nowy ¿elazny napier¶nik le¿y tutaj.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|Y
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 4 5 3 10 9 0 0
+Repair 0 0 0 0
+Weight 180
+Cost 3600
+Cond 70
+Itemdesc Ten element zbroi, który w³a¶nie ogl±dasz nazywa siê napier¶nikiem.
+Dlaczego? Bowiem ma za zadanie chroniæ klatkê piersiow± u¿ytkownika. Ten
+egzemplarz, wykonany z ¿elaza zdaje siê spe³niaæ wszystkie wymogi
+bezpieczeñstwa, chocia¿ jego kszta³t jest dziwny. Z pewno¶ci± wykonano go z
+my¶l± o krasnoludzie! 
+~
+Comments ~
+Objend
+#Vnum 5606
+Name stary postrzêpiony batog~
+Odmiana postrzêpionego batoga~postrzêpionemu batogowi~postrzêpiony batog~postrzêpionym batogiem~postrzêpionym batogu~
+Short postrzêpiony batog~
+Descr Stary postrzêpiony batog le¿y tutaj.~
+Material mocna skóra~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 2
+Value 7 2 4 4 0 1 0
+Repair 0 0 0 0
+Weight 10
+Cost 600
+Cond 100
+Itemdesc Jest to do¶æ stary i postrzêpiony batog. 
+~
+Comments ~
+Objend
+#Vnum 5607
+Name ¿elazne naramienniki~
+Odmiana ¿elaznych naramienników~¿elaznym naramiennik±~¿elazne naramienniki~¿elaznymi naramiennikami~¿elaznych naramiennikach~
+Short ¿elazne naramienniki~
+Descr Mocne, lekko stare, wykonane z ¿elaza naramienniki le¿± tutaj w kurzu.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 1
+Gender 0
+Value 4 5 3 10 9 0 0
+Repair 0 0 0 0
+Weight 75
+Cost 1500
+Cond 95
+Itemdesc Naramienniki jak sama nazwa wskazuje s³u¿± do ochrony ramion przed
+ciosami wrogich broni. Ten model wykonano z czystego, mocnego ¿elaza. Na
+pewno zapewni± one nosz±cemu jak±¶ ochronê, ale do starszych krewniaków,
+wykonanych ze stali du¿o im brakuje. 
+~
+Comments ~
+Objend
+#Vnum 5608
+Name skórzane karwasze~
+Odmiana skórzanych karwaszy~skórzanym karwaszom~skórzane karwasze~skórzanymi karwaszami~skórzanych karwaszach~
+Short skórzane karwasze~
+Descr Lekko sczernia³e, wykonane ze skóry karwasze le¿± tutaj w pyle.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 10 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 300
+Cond 75
+Itemdesc Karwasze to prosta ochrona d³oni a dok³adnie to okolic nadgarstka.
+Wygl±daj± jak swoisty szeroki pasek zak³adany na rêkê za nadgarstkiem.
+Czêsto bywaj± zdobione, jednak ten egzemplarz jest ca³kowicie pozbawiony
+jakichkolwiek ozdób. 
+~
+Comments ~
+Objend
+#Vnum 5609
+Name stalowy he³m z pióropuszem~
+Odmiana he³mu z pióropuszem~he³mowi z pióropuszem~he³m z pióropuszem~he³mem z pióropuszem~he³mie z pióropuszem~
+Short he³m z pióropuszem~
+Descr Ciêzki, stalowy he³m ozdobiony pióropuszem le¿y tutaj w piasku.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 4 5 3 10 9 0 0
+Repair 0 0 0 0
+Weight 45
+Cost 3000
+Cond 100
+Itemdesc Ten masywny he³m, zrobiony z czystej stali udekorowany zosta³
+majestatycznym, ogromnym pióropuszem wystaj±cym ze szczytu. Pióra s±
+naprawde piêkne, w kolorach czerni i bieli. Sprawiaj± i¶cie majestatyczne
+wra¿enie. 
+~
+Comments ~
+Objend
+#Vnum 5610
+Name podniszczone czarne naramienniki~
+Odmiana podniszczonych czarnych naramienników~podniszczonym czarnym naramiennikom~podniszczone czarne naramienniki~podniszczonymi czarnymi naramiennikami~podniszczonych czarnych naramiennikach~
+Short podniszczone czarne naramienniki~
+Descr Jakie¶ ca³kowicie czarne, lekko zniszczone naramienniki le¿± tutaj.~
+Material adamantyt~
+Type armor
+ExtraExt 0|J
+Wear AI
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 1
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 45
+Cost 7200
+Cond 54
+Itemdesc Te wykonane z adamantytu naramienniki swoje najlepsze lata maj± ju¿ za
+sob±. Wyra¼nie zauwa¿asz plamy rdzy, liczne wgniecenia i inne defekty, które
+czyni± z pary naramienników o wiele gorsz± obronê, ni¿ nowe stalowe
+ochraniacze. Jednak ich wyj±tkowy, metaliczny czarny kolor jest niesamowitym
+atutem, którego nie maj± ¿adne standardowe zbroje. Wygl±daj± po prostu
+nieziemsko. 
+~
+Identdesc Czujesz, ¿e naramienniki te natchnione s± jak±¶ negatywn± magi±, która
+sprawia, i¿ nie mog± one byæ u¿ywane przez osoby o dobrym charakterze. 
 ~
 Comments ~
 Objend
@@ -208,11 +454,11 @@ ExtraExt 0|EJ
 Wear AI
 Wear2Ext 0
 Bonus 0
+Rent 55
 LiczbaMnoga 1
 Gender 0
-Value 1 3 1 8 15 0 0
+Value 1 5 1 8 14 0 0
 Repair 0 0 0 0
-Length 0
 Weight 77
 Cost 23400
 Cond 55
@@ -223,6 +469,59 @@ niezwykle ozdobne, to fakt. Jednak jest w nich co¶ mrocznego, jaka¶ z³a
 skaza. Zarazem ich wyj±tkowy, metaliczny czarny kolor jest niesamowitym
 atutem, którego nie maj± ¿adne standardowe zbroje. Wygl±daj± po prostu
 nieziemsko. 
+~
+Comments ~
+Objend
+#Vnum 5612
+Name stare stalowe rêkawice~
+Odmiana starych stalowych rêkawic~starym stalowym rêkawicom~stare stalowe rêkawice~starymi stalowymi rêkawicami~starych stalowych rêkawicach~
+Short stare stalowe rêkawice~
+Descr Jakie¶ stare stalowe rêkawice le¿± tutaj.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 1
+Gender 0
+Value 4 4 4 10 10 0 0
+Repair 0 0 0 0
+Weight 35
+Cost 1020
+Cond 35
+Itemdesc Te stare, ju¿ dosyæ mocno zniszczone rêkawice ze stali maj± swe ¶wietlane
+czasy za sob±. Wygl±daj± na naprawdê zu¿yte... Ciekawe czy jaki¶ pogromca
+smoków, dzielny paladyn czy bohaterski rycerz je nosi³ przed tob±? Tak czy
+siak, teraz u ka¿dego kowala raczej znajdziesz lepsz± parê ni¿ te. 
+~
+Comments ~
+Objend
+#Vnum 5613
+Name adamantytowe rêkawice~
+Odmiana {Dadamantytowych rêkawic{x~{Dadamantytowym rêkawicom{x~{Dadamantytowe rêkawice{x~{Dadamantytowymi rêkawicami{x~{Dadamantytowych rêkawicach{x~
+Short {Dadamantytowe rêkawice{x~
+Descr Piêkne, wykonane z czarnego adamantytu rêkawice le¿± tutaj.~
+Material adamantyt~
+Type armor
+ExtraExt 0|EJ
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 55
+LiczbaMnoga 1
+Gender 5
+Value 1 3 1 8 14 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 12000
+Cond 65
+Itemdesc Te smolistoczarne rêkawice wykute zosta³y z czystego adamantytu,
+szlachetnego, acz mrocznego metalu o metalicznym czarnym kolorze. B³yszcz±
+siê dziwnie, lekkim z³owieszczym ¶wiat³em, które odbijaj± nawet w nocy, w
+najwiêkszym mroku. Zapewne nasycone s± jak±¶ niewielk± ilo¶ci± magii chaosu.
+Dodatkowo s± wyj±tkowo piêkne, bogato zdobione. 
 ~
 Comments ~
 Objend
@@ -237,11 +536,11 @@ ExtraExt 0|EJL
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 0
 Value 10 7 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 4500
 Cond 65
@@ -263,11 +562,11 @@ ExtraExt 0
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 7200
 Cond 90
@@ -290,11 +589,11 @@ ExtraExt 0|J
 Wear AF
 Wear2Ext 0
 Bonus 0
+Rent 43
 LiczbaMnoga 1
 Gender 0
-Value 1 2 0 8 15 0 0
+Value 1 2 0 8 14 0 0
 Repair 0 0 0 0
-Length 0
 Weight 95
 Cost 15600
 Cond 65
@@ -333,17 +632,6 @@ Exit 1
 ~
 ~
 0 0 606
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52422
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52422
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -381,17 +669,6 @@ Exit 1
 ~
 ~
 0 0 5600
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52419
-ExitExtEnd
-Exit 2
-~
-~
-0 0 52419
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -791,17 +1068,6 @@ nieprzyjemny zapach. Ciekawe sk±d on mo¿e dochodziæ?
 ~
 FlagsExt 0
 Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 665
-ExitExtEnd
-Exit 0
-~
-~
-0 0 665
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -841,6 +1107,17 @@ domys³y.
 ~
 FlagsExt 0
 Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 665
+ExitExtEnd
+Exit 0
+~
+~
+0 0 665
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1142,12 +1419,12 @@ S
 M 100 5603 1 5618 1
 M 100 128 1 5619 1
 G 100 28650 0
-G 100 3200 0
-G 100 9120 0
+G 100 28646 0
+G 100 28647 0
 G 100 28649 0
 G 100 3110 0
 G 100 44243 0
-O 100 2363 0 5619
+O 100 106 0 5619
 S
 
 

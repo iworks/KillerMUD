@@ -26,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: scan.c 11120 2012-03-18 08:32:45Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/scan.c $
+ * $Id: scan.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/scan.c $
  *
  */
 #if defined(macintosh)
@@ -415,7 +415,7 @@ void do_scan( CHAR_DATA *ch, char *argument )
              * imorovmen range for elfs
              * http://forum.mud.pl/viewtopic.php?t=5457
              */
-            if(!str_cmp( race_table[ GET_RACE(ch) ].name, "elf" ) || IS_AFFECTED ( ch, AFF_FARSIGHT ))
+            if(!str_cmp( race_table[ GET_RACE(ch) ].name, "elf" ))
             {
                 max_dist += number_range(0, 2);
             }

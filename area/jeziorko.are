@@ -105,11 +105,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -126,11 +126,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -149,17 +149,41 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
 Itemdesc Jest to najzwyklejszy kamyk, jaki mo¿na znale¼æ prawie wszêdzie.
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 4572
+Name drewniana ga³±¼~
+Odmiana drewnianej ga³êzi~drewnianej ga³êzi~drewnian± ga³±¼~drewnian± ga³êzi±~drewnianej ga³êzi~
+Short drewniana ga³±¼~
+Descr Wielka drewniana ga³±¼ unosi siê na wodzie.~
+Material drewno~
+Type weapon
+ExtraExt 0|Yd
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 1 5 7 32 -1 0
+Repair 0 0 0 0
+Weight 250
+Cost 60
+Cond 10
+Itemdesc Jest to wielka drewniana ga³±¼, najprawdopodobniej klonowa. Ma wiele
+sêków i wygl±da jakby zaraz chcia³a siê rozpa¶æ. 
+~
 Comments ~
 Objend
 #Vnum 4573
@@ -173,26 +197,26 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
-Objprog input 4570 ci±gnij k³±cze~
-Objprog input 4570 wyci±gnij k³±cze~
-Objprog input 4570 wyci±gnij tatarak~
-Objprog input 4570 ci±gnij tatarak~
-Objprog input 4570 wyrwij tatarak~
-Objprog input 4570 wykop tatarak~
-Objprog input 4570 wykop tatarak z ziemi~
-Objprog input 4570 wyrwij tatarak z ziemi~
-Objprog input 4570 wyrwij k³±cze tataraku z ziemi~
-Objprog input 4570 wyrwij k³±cze tataraku~
-Objprog input 4570 wykop k³±cze tataraku~
 Objprog input 4570 wykop k³±cze tataraku z ziemi~
+Objprog input 4570 wykop k³±cze tataraku~
+Objprog input 4570 wyrwij k³±cze tataraku~
+Objprog input 4570 wyrwij k³±cze tataraku z ziemi~
+Objprog input 4570 wyrwij tatarak z ziemi~
+Objprog input 4570 wykop tatarak z ziemi~
+Objprog input 4570 wykop tatarak~
+Objprog input 4570 wyrwij tatarak~
+Objprog input 4570 ci±gnij tatarak~
+Objprog input 4570 wyci±gnij tatarak~
+Objprog input 4570 wyci±gnij k³±cze~
+Objprog input 4570 ci±gnij k³±cze~
 Itemdesc Jest to do¶æ wysoka bagienna ro¶lina o silnie rozga³êzionych k³±czach i
 szablastych li¶ciach. S³ysza³<&e¶/a¶/e¶> o tych k³±czach bardzo wiele.
 Podobno s± to cenione zio³a lecznicze. Tylko podej¶æ, wyrwaæ, i ju¿ bêdzie
@@ -218,11 +242,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1048,12 +1072,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 81225
+ExitExtToVnum 4582
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 81225
+0 0 4582
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1080,12 +1104,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 81225
+ExitExtToVnum 4581
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 81225
+0 0 4581
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1880,7 +1904,8 @@ S
 
 
 #RESETS
-O 100 3320 0 4566
+O 100 3058 0 4566
+O 100 4572 0 4568
 O 100 4571 0 4571
 M 100 4571 1 4573 1
 O 100 4571 0 4578
@@ -1890,7 +1915,7 @@ M 100 4570 2 4587 1
 O 100 4573 0 4588
 O 100 4573 0 4589
 O 100 4573 0 4590
-O 100 3159 0 4591
+O 100 4572 0 4591
 M 100 4570 2 4592 1
 S
 
@@ -1961,22 +1986,12 @@ mob echo Woda w jeziorku cicho pluska, gdy kilka ma³ych rybek wyskakuje nad powi
 #Vnum 0
 
 #RANDDESC
-#Vnum 4570
-DescRand #month > 10 #grouprand 1 #else #month < 2 #grouprand 1 #else #grouprand 0
-#month > 10 #grouprand 400 #else #month < 2 #grouprand 400 #else #grouprand 300
-#month > 10 #grouprand 777 #else #month < 2 #grouprand 777 #else #grouprand 666
-#month > 10 #grouprand 599 #else #month < 2 #grouprand 599 #else #grouprand 593
+#Vnum 4590
+DescRand #month > 10 #grouprand 7655 #else #month < 2 #grouprand 7655 #else #grouprand 7654
 ~
 RandDescEnd
-#Vnum 4571
-DescRand #month > 10 #grouprand 1 #else #month < 2 #grouprand 1 #else #grouprand 0
-#month > 10 #grouprand 13579 #else #month < 2 #grouprand 13579 #else #grouprand 2468
-#month > 10 #grouprand 400 #else #month < 2 #grouprand 400 #else #grouprand 300
-#month > 10 #grouprand 777 #else #month < 2 #grouprand 777 #else #grouprand 666
-~
-RandDescEnd
-#Vnum 4580
-DescRand #month > 10 #grouprand 21 #else #month < 2 #grouprand 21 #else #grouprand 20
+#Vnum 4575
+DescRand #month > 10 #grouprand 123 #else #month < 2 #grouprand 123 #else #grouprand 321
 ~
 RandDescEnd
 #Vnum 4566
@@ -1987,200 +2002,35 @@ DescRand Znajdujesz siê przy ma³ym ¼róde³ku, z którego wyp³ywa na powierzchniê
 przylecia³y z nad oceanu na po³udniu. 
 ~
 RandDescEnd
-#Vnum 4575
-DescRand #month > 10 #grouprand 123 #else #month < 2 #grouprand 123 #else #grouprand 321
+#Vnum 4580
+DescRand #month > 10 #grouprand 21 #else #month < 2 #grouprand 21 #else #grouprand 20
 ~
 RandDescEnd
-#Vnum 4590
-DescRand #month > 10 #grouprand 7655 #else #month < 2 #grouprand 7655 #else #grouprand 7654
+#Vnum 4571
+DescRand #month > 10 #grouprand 1 #else #month < 2 #grouprand 1 #else #grouprand 0
+#month > 10 #grouprand 13579 #else #month < 2 #grouprand 13579 #else #grouprand 2468
+#month > 10 #grouprand 400 #else #month < 2 #grouprand 400 #else #grouprand 300
+#month > 10 #grouprand 777 #else #month < 2 #grouprand 777 #else #grouprand 666
+~
+RandDescEnd
+#Vnum 4570
+DescRand #month > 10 #grouprand 1 #else #month < 2 #grouprand 1 #else #grouprand 0
+#month > 10 #grouprand 400 #else #month < 2 #grouprand 400 #else #grouprand 300
+#month > 10 #grouprand 777 #else #month < 2 #grouprand 777 #else #grouprand 666
+#month > 10 #grouprand 599 #else #month < 2 #grouprand 599 #else #grouprand 593
 ~
 RandDescEnd
 #Vnum 0
 
 #DESC
-#Name potok_slonceswiecinadnami_03~
-Desc S³oñce wisz±c daleko nad horyzontem o¶wietla trasê twej letniej podró¿y.
+#Name rozlewisko_zimka~
+Desc Znajdujesz siê po¶rodku lekko bagiennego, aktualnie jeszcze oblodzonego,
+rozlewiska przep³ywaj±cego nieopodal ma³ego strumyczku. Na szczê¶cie
+uci±¿liwe owady nie przetrwa³y do zimy, i dziêki temu nic nie brzêczy ci nad
+uchem. Niedaleko widzisz jak z pod cienkiej warstwy lodu wystaje kilka
+tataraków i trzcin. Panuje ch³odna zimowa atmosfera. 
 ~
-Group 593
-End
-#Name potok_slonceswiecinadnami_02~
-Desc Patrz±c w czyst± wodê strumyku dostrzegasz lekko pofalowane w³asne oblicze.
-~
-Group 593
-End
-#Name potok_slonceswiecinadnami_01~
-Desc S³oñce wisi wysoko na sklepieniu niebieskim, a tak¿e delitatnie odbija siê w czystej wodzie potoku.
-~
-Group 593
-End
-#Name potok_ozwierz_pizdziwielce_03~
-Desc Na lekko przysypanym ¶niegiem delikatnym lodzie zauwa¿asz ¶lady kilku zwierz±t kopytnych, najprawdopodobniej ³osi.
-~
-Group 777
-End
-#Name potok_ozwierz_pizdziwielce_02~
-Desc Miêdzy drzewami dostrzegasz samotnego jelenia trzês±cego siê z zimna i powoli id±cego w stronê jeziorka.
-~
-Group 777
-End
-#Name potok_ozwierz_pizdziwielce_01~
-Desc Na drzewach widzisz kilka ma³ych ptasich gniazd, aktualnie pustych, gdy¿ ich rezydenci odlecieli pewnie gdzie¶ do ciep³ych krain.
-~
-Group 777
-End
-#Name potok_ozwierz_slonnnnceee_03~
-Desc Miêdzy drzewami zauwa¿asz kilka ma³ych sarenek biegn±cych w stronê jeziorka.
-~
-Group 666
-End
-#Name potok_ozwierz_slonnnnceee_02~
-Desc Na drzewach widzisz kilka ma³ych gniazd, w których piszcz± ma³e ptaszki.
-~
-Group 666
-End
-#Name potok_ozwierz_slonnnnceee_01~
-Desc Patrz±c w niebo widzisz kilka bia³ych mew, które zapewne przylecia³y z nad pobliskiego oceanu.
-~
-Group 666
-End
-#Name potok_noc_lodówka_01~
-Desc Wydaje ci siê, ¿e zanosi siê na jak±¶ wiêksz± ¶nie¿n± zawieruchê.
-~
-Group 13579
-End
-#Name potok_noc_lodówka_02~
-Desc Szorstkie zimowe powietrze z nad wody otacza ciê swym ch³odem.
-~
-Group 13579
-End
-#Name potok_noc_lodówka_03~
-Desc S³abe ¶wiat³o ksiê¿yca o¶wietla trasê twej podró¿y.
-~
-Group 13579
-End
-#Name potok_noc_piekarnik_03~
-Desc Delikatne letnie powietrze z nad wody otacza ciê swym ciep³em.
-~
-Group 2468
-End
-#Name potok_noc_piekarnik_02~
-Desc Twoja twarz delikatnie odbija siê w wodzie.
-~
-Group 2468
-End
-#Name potok_dzien_lato_01~
-Desc Znajdujesz siê na brzegu ma³ego bystrego potoku.
-~
-Group 0
-End
-#Name potok_dzien_lato_02~
-Desc Znajdujesz siê przy lewym brzegu ma³ej czystej rzeczki.
-~
-Group 0
-End
-#Name potok_dzien_lato_03~
-Desc Stoisz zanurzon<&y/a/e> po kolana w letniej wodzie bystrego potoku.
-~
-Group 0
-End
-#Name potok_dzien_nielato_01~
-Desc Znajdujesz siê przy brzegu pokrytego cienk± pokryw± lodu strumyku.
-~
-Group 1
-End
-#Name potok_dzien_nielato_02~
-Desc Stoisz na bardzo cienkim i niepewnym lodzie, który pokrywa bystry strumyk, p³yn±cy aktualnie tu¿ pod twoimi stopami.
-~
-Group 1
-End
-#Name potok_dzien_nielato_03~
-Desc Stoisz po kolana zanurzon<&y/a/e> w lodowatej wodzie bystrego potoku, bo cienka tafla lodu za³ama³a siê pod twym ciê¿arem.
-~
-Group 1
-End
-#Name potok_noc_piekarnik_01~
-Desc Ksiê¿yc wisi wysoko na sklepieniu niebieskim, a tak¿e delikatnie odbija siê w czystej wodzie potoku.
-~
-Group 2468
-End
-#Name potok_otoczenieletnie_01~
-Desc Nad tob± nachylaj± siê wysokie drzewa, których zielone li¶cie szumi± na wietrze.
-~
-Group 300
-End
-#Name potok_otoczenieletnie_02~
-Desc Po obu stronach koryta ro¶nie wiele wysokich drzew, najwiêcej widzisz klonów, dêbów i brzóz.
-~
-Group 300
-End
-#Name potok_otoczenieletnie_03~
-Desc Lekki deszczyk zrasza li¶cie rosn±cych dooko³a drzew.
-~
-Group 300
-End
-#Name potok_otoczeniepodsniegiem_01~
-Desc Wysokie o¶nie¿one drzewa po obu stronach koryta lekko wykrzywiaj± siê od wiatru.
-~
-Group 400
-End
-#Name potok_otoczeniepodsniegiem_02~
-Desc Dooko³a widzisz wiele ¿ó³tawych i br±zowawych li¶ci klonowych i dêbowych le¿±cych pod go³ymi drzewami.
-~
-Group 400
-End
-#Name potok_otoczeniepodsniegiem_03~
-Desc Lekko prósz±cy ¶nieg przysypuje puszczê po obu stronach rzeczki.
-~
-Group 400
-End
-#Name potok_pedzikuligpedzi_01~
-Desc Lód g³o¶no skrzypi pod twoimi stopami.
-~
-Group 599
-End
-#Name potok_pedzikuligpedzi_02~
-Desc Daleko przed tob± ma³y wilk przep³ywa przez wyrwê w lodzie by dostaæ siê na drug± stronê strumyka.
-~
-Group 599
-End
-#Name potok_pedzikuligpedzi_03~
-Desc Na jednym z klonów widzisz zatkan± wiewiórcz± norkê.
-~
-Group 599
-End
-#Name jeziorko_lato~
-Desc Znajdujesz siê przy brzegu ma³ego czystego jeziorka. Letni wiaterek
-rozwiewa twe w³osy. Rosn±ce nieopodal drzewa, w wiêkszo¶ci klony i dêby,
-szumi± na wietrze. Miêdzy nimi zauwa¿asz kilka m³odych ³osi bawi±cych siê
-tarzaj±c po le¶nej ¶ció³ce. S³yszysz piski wielu m³odych piskl±t, które
-najwyra¼niej s± bardzo g³odne i czekaj± a¿ rodzice ich nakarmi±. 
-~
-Group 20
-End
-#Name jeziorko_zima~
-Desc Znajdujesz siê przy brzegu ma³ego zamarzniêtego jeziorka. Mro¼ny zimowy
-wiatr potrz±sa rosn±cymi nieopodal drzewami, które trac± od tego swe
-ostatnie li¶cie. Pod lodem widzisz wiele ma³ych rybek o owalnych kszta³tach
-p³ywaj±cych dooko³a bez wa¿niejszego celu. Kilka saren przystane³o ko³o
-wyrwy w lodzie i pije z niej wodê. 
-~
-Group 21
-End
-#Name jeziorosrodeklato~
-Desc Znajdujesz siê na ¶rodku ma³ego czystego jeziorka. P³ywa w nim bardzo
-wiele ma³ych rybek o owalnych kszta³tach, a na dnie widzisz wiele zielonych
-glonów. Atmosfera tego spokojnego miejsca ogarnia ciê dokumentnie. Na wodzie
-unosi siê trochê ga³êzi i szyszek z drzew rosn±cych na brzegu. 
-~
-Group 321
-End
-#Name jezriorosrodekzima~
-Desc Znajdujesz siê na ¶rodku ma³ego zamarzniêtego jeziora. Pod lodem widzisz
-wiele ma³ych rybek o owalnych kaszta³tach p³ywaj±cych w kó³ko z jednej
-strony jeziora na drug±. Mro¼ny zimowy wiatr przywia³ tu wiele ¿ó³tawych i
-br±zowawych li¶ci, które teraz le¿± na lodzie. 
-~
-Group 123
+Group 7655
 End
 #Name rozlewisko_latko~
 Desc Znajdujesz siê po¶rodku lekko bagiennego rozlewiska ma³ego strumyczku
@@ -2191,14 +2041,189 @@ Desc Znajdujesz siê po¶rodku lekko bagiennego rozlewiska ma³ego strumyczku
 ~
 Group 7654
 End
-#Name rozlewisko_zimka~
-Desc Znajdujesz siê po¶rodku lekko bagiennego, aktualnie jeszcze oblodzonego,
-rozlewiska przep³ywaj±cego nieopodal ma³ego strumyczku. Na szczê¶cie
-uci±¿liwe owady nie przetrwa³y do zimy, i dziêki temu nic nie brzêczy ci nad
-uchem. Niedaleko widzisz jak z pod cienkiej warstwy lodu wystaje kilka
-tataraków i trzcin. Panuje ch³odna zimowa atmosfera. 
+#Name jezriorosrodekzima~
+Desc Znajdujesz siê na ¶rodku ma³ego zamarzniêtego jeziora. Pod lodem widzisz
+wiele ma³ych rybek o owalnych kaszta³tach p³ywaj±cych w kó³ko z jednej
+strony jeziora na drug±. Mro¼ny zimowy wiatr przywia³ tu wiele ¿ó³tawych i
+br±zowawych li¶ci, które teraz le¿± na lodzie. 
 ~
-Group 7655
+Group 123
+End
+#Name jeziorosrodeklato~
+Desc Znajdujesz siê na ¶rodku ma³ego czystego jeziorka. P³ywa w nim bardzo
+wiele ma³ych rybek o owalnych kszta³tach, a na dnie widzisz wiele zielonych
+glonów. Atmosfera tego spokojnego miejsca ogarnia ciê dokumentnie. Na wodzie
+unosi siê trochê ga³êzi i szyszek z drzew rosn±cych na brzegu. 
+~
+Group 321
+End
+#Name jeziorko_zima~
+Desc Znajdujesz siê przy brzegu ma³ego zamarzniêtego jeziorka. Mro¼ny zimowy
+wiatr potrz±sa rosn±cymi nieopodal drzewami, które trac± od tego swe
+ostatnie li¶cie. Pod lodem widzisz wiele ma³ych rybek o owalnych kszta³tach
+p³ywaj±cych dooko³a bez wa¿niejszego celu. Kilka saren przystane³o ko³o
+wyrwy w lodzie i pije z niej wodê. 
+~
+Group 21
+End
+#Name jeziorko_lato~
+Desc Znajdujesz siê przy brzegu ma³ego czystego jeziorka. Letni wiaterek
+rozwiewa twe w³osy. Rosn±ce nieopodal drzewa, w wiêkszo¶ci klony i dêby,
+szumi± na wietrze. Miêdzy nimi zauwa¿asz kilka m³odych ³osi bawi±cych siê
+tarzaj±c po le¶nej ¶ció³ce. S³yszysz piski wielu m³odych piskl±t, które
+najwyra¼niej s± bardzo g³odne i czekaj± a¿ rodzice ich nakarmi±. 
+~
+Group 20
+End
+#Name potok_pedzikuligpedzi_03~
+Desc Na jednym z klonów widzisz zatkan± wiewiórcz± norkê.
+~
+Group 599
+End
+#Name potok_pedzikuligpedzi_02~
+Desc Daleko przed tob± ma³y wilk przep³ywa przez wyrwê w lodzie by dostaæ siê na drug± stronê strumyka.
+~
+Group 599
+End
+#Name potok_pedzikuligpedzi_01~
+Desc Lód g³o¶no skrzypi pod twoimi stopami.
+~
+Group 599
+End
+#Name potok_otoczeniepodsniegiem_03~
+Desc Lekko prósz±cy ¶nieg przysypuje puszczê po obu stronach rzeczki.
+~
+Group 400
+End
+#Name potok_otoczeniepodsniegiem_02~
+Desc Dooko³a widzisz wiele ¿ó³tawych i br±zowawych li¶ci klonowych i dêbowych le¿±cych pod go³ymi drzewami.
+~
+Group 400
+End
+#Name potok_otoczeniepodsniegiem_01~
+Desc Wysokie o¶nie¿one drzewa po obu stronach koryta lekko wykrzywiaj± siê od wiatru.
+~
+Group 400
+End
+#Name potok_otoczenieletnie_03~
+Desc Lekki deszczyk zrasza li¶cie rosn±cych dooko³a drzew.
+~
+Group 300
+End
+#Name potok_otoczenieletnie_02~
+Desc Po obu stronach koryta ro¶nie wiele wysokich drzew, najwiêcej widzisz klonów, dêbów i brzóz.
+~
+Group 300
+End
+#Name potok_otoczenieletnie_01~
+Desc Nad tob± nachylaj± siê wysokie drzewa, których zielone li¶cie szumi± na wietrze.
+~
+Group 300
+End
+#Name potok_noc_piekarnik_01~
+Desc Ksiê¿yc wisi wysoko na sklepieniu niebieskim, a tak¿e delikatnie odbija siê w czystej wodzie potoku.
+~
+Group 2468
+End
+#Name potok_dzien_nielato_03~
+Desc Stoisz po kolana zanurzon<&y/a/e> w lodowatej wodzie bystrego potoku, bo cienka tafla lodu za³ama³a siê pod twym ciê¿arem.
+~
+Group 1
+End
+#Name potok_dzien_nielato_02~
+Desc Stoisz na bardzo cienkim i niepewnym lodzie, który pokrywa bystry strumyk, p³yn±cy aktualnie tu¿ pod twoimi stopami.
+~
+Group 1
+End
+#Name potok_dzien_nielato_01~
+Desc Znajdujesz siê przy brzegu pokrytego cienk± pokryw± lodu strumyku.
+~
+Group 1
+End
+#Name potok_dzien_lato_03~
+Desc Stoisz zanurzon<&y/a/e> po kolana w letniej wodzie bystrego potoku.
+~
+Group 0
+End
+#Name potok_dzien_lato_02~
+Desc Znajdujesz siê przy lewym brzegu ma³ej czystej rzeczki.
+~
+Group 0
+End
+#Name potok_dzien_lato_01~
+Desc Znajdujesz siê na brzegu ma³ego bystrego potoku.
+~
+Group 0
+End
+#Name potok_noc_piekarnik_02~
+Desc Twoja twarz delikatnie odbija siê w wodzie.
+~
+Group 2468
+End
+#Name potok_noc_piekarnik_03~
+Desc Delikatne letnie powietrze z nad wody otacza ciê swym ciep³em.
+~
+Group 2468
+End
+#Name potok_noc_lodówka_03~
+Desc S³abe ¶wiat³o ksiê¿yca o¶wietla trasê twej podró¿y.
+~
+Group 13579
+End
+#Name potok_noc_lodówka_02~
+Desc Szorstkie zimowe powietrze z nad wody otacza ciê swym ch³odem.
+~
+Group 13579
+End
+#Name potok_noc_lodówka_01~
+Desc Wydaje ci siê, ¿e zanosi siê na jak±¶ wiêksz± ¶nie¿n± zawieruchê.
+~
+Group 13579
+End
+#Name potok_ozwierz_slonnnnceee_01~
+Desc Patrz±c w niebo widzisz kilka bia³ych mew, które zapewne przylecia³y z nad pobliskiego oceanu.
+~
+Group 666
+End
+#Name potok_ozwierz_slonnnnceee_02~
+Desc Na drzewach widzisz kilka ma³ych gniazd, w których piszcz± ma³e ptaszki.
+~
+Group 666
+End
+#Name potok_ozwierz_slonnnnceee_03~
+Desc Miêdzy drzewami zauwa¿asz kilka ma³ych sarenek biegn±cych w stronê jeziorka.
+~
+Group 666
+End
+#Name potok_ozwierz_pizdziwielce_01~
+Desc Na drzewach widzisz kilka ma³ych ptasich gniazd, aktualnie pustych, gdy¿ ich rezydenci odlecieli pewnie gdzie¶ do ciep³ych krain.
+~
+Group 777
+End
+#Name potok_ozwierz_pizdziwielce_02~
+Desc Miêdzy drzewami dostrzegasz samotnego jelenia trzês±cego siê z zimna i powoli id±cego w stronê jeziorka.
+~
+Group 777
+End
+#Name potok_ozwierz_pizdziwielce_03~
+Desc Na lekko przysypanym ¶niegiem delikatnym lodzie zauwa¿asz ¶lady kilku zwierz±t kopytnych, najprawdopodobniej ³osi.
+~
+Group 777
+End
+#Name potok_slonceswiecinadnami_01~
+Desc S³oñce wisi wysoko na sklepieniu niebieskim, a tak¿e delitatnie odbija siê w czystej wodzie potoku.
+~
+Group 593
+End
+#Name potok_slonceswiecinadnami_02~
+Desc Patrz±c w czyst± wodê strumyku dostrzegasz lekko pofalowane w³asne oblicze.
+~
+Group 593
+End
+#Name potok_slonceswiecinadnami_03~
+Desc S³oñce wisz±c daleko nad horyzontem o¶wietla trasê twej letniej podró¿y.
+~
+Group 593
 End
 #DescEnd
 

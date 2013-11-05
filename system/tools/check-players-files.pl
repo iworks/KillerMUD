@@ -8,7 +8,7 @@ my %config = (
 	'test_poczatek_player' => 1,
 );
 $config{'number_of_tests'}    = 0;
-$config{'dir'}                = '/staff/mud/mud/player';
+$config{'dir'}                = '/staff/mud/mudp/player';
 $config{'show_damaged_files'} = 1;
 $config{'move_damaged_files'} = 0;
 

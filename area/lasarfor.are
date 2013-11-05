@@ -53,7 +53,7 @@ Skin 250
 ExpMultiplier 100
 Mobend
 #Vnum 12293
-Name my¶liwy stary elf stra¿nik~
+Name my¶liwy~
 Odmiana my¶liwego~my¶liwemu~my¶liwego~my¶liwym~my¶liwym~
 Short my¶liwy~
 Long Stary elf, stra¿nik tego lasu wêdruje po lesie.~
@@ -149,25 +149,25 @@ przypomina swoich pobratymców, to masywne miê¶nie, trzy metry wzrostu i
 budowa godna tarana oblê¿niczego. 
 ~
 Race ogr~
-ActExt 0|ABFGIT
+ActExt 0|ABGIT/2|C
 Affected 33554472 0 0 0
 AffectedExt 0|DFZ
-Align -1000
-Group 10
+Align 0
+Group 0
 Lang AE
 Speaks 0
 Level 22
 Hitroll 5
 HP 5d5+790
-Damage 4d5+9
+Damage 4d5+5
 Dammagic 0
-Weaponbonus 9
+Weaponbonus 3
 Damflags 0
 Attack mwalniecie
 XAC 0 0 0 0
 Stats 150 84 84 108 150 90 90
-Off CDILRY
-OffExt 0|CDILRY
+Off CDILR
+OffExt 0|CDILR
 Pos_start stand
 Pos_def stand
 Sex male
@@ -176,24 +176,23 @@ Form AEFHMV
 Parts ABCDEFGHIJKRUV
 Size large
 Material unknown
-MobprogNew onload 12296 ABCDEFGHI 100~
 Skin 100
 ExpMultiplier 150
 Resist 10 100
-Resist 12 90
+Resist 12 100
 Mobend
 #Vnum 12297
 Name chudy goblin tumtum~
 Odmiana Tumtuma~Tumtumowi~Tumtuma~Tumtumem~Tumtumie~
 Short Tumtum~
-Long Ma³y, ko¶cisty goblin o przezwisku Tumtum siedzi na pniu.~
+Long Ma³y, ko¶cisty goblin o przezwisku Tumtum siedzi na pniu i wali w pieñ maczug±.~
 Descr ~
 Race goblin~
-ActExt 0|ABFGT
+ActExt 0|ABGT
 Affected 33554432 0 0 0
 AffectedExt 0|Z
 Align -1000
-Group 10
+Group 0
 Lang AO
 Speaks 14
 Level 8
@@ -226,11 +225,11 @@ Short Pryszczak~
 Long Potwornie pryszczaty goblin, o przezwisku Pryszczak siedzi obok ogniska wal±c w skórzany bêbenek.~
 Descr ~
 Race goblin~
-ActExt 0|ABFGT
+ActExt 0|ABGT
 Affected 33554432 0 0 0
 AffectedExt 0|Z
 Align -1000
-Group 10
+Group 0
 Lang AO
 Speaks 14
 Level 8
@@ -297,7 +296,7 @@ Mobend
 Name le¶na hydra hydra_le¶na~
 Odmiana le¶nej hydry~le¶nej hydrze~le¶n± hydrê~le¶n± hydr±~le¶nej hydrze~
 Short lesna hydra~
-Long Ogromna bestia, le¶na hydra, jest tutaj.~
+Long Ogromna bestia, le¶na hydra atakuje ciê!~
 Descr Niesamowicie odra¿aj±ce stworzenie zwane hydr±, stoi przed tob±. Czujesz
 niesamowity strach i lêk czaj±cy siê w twoim sercu. Z przera¿eniem patrysz
 jak hydra spogl±da na ciebie swoimi g³owami, dumaj±c przy tym czy zje¶æ ciê
@@ -305,13 +304,13 @@ teraz czy pó¼niej...
 ~
 Race hydra~
 ActExt 0|AFT
-Affected 268435456 0 0 0
-AffectedExt 0|c
+Affected 268435456 0 0 8192
+AffectedExt 0|c/3|N
 Align 0
 Group 0
-Lang K
-Speaks 10
-Level 21
+Lang A
+Speaks 0
+Level 28
 Hitroll 2
 HP 28d10+840
 Damage 5d3+10
@@ -331,7 +330,7 @@ Form CGR
 Parts ACDFHIJKQSUV
 Size huge
 Material unknown
-Skin 1000
+Skin 750
 ExpMultiplier 100
 Resist 5 -5
 Resist 9 75
@@ -384,6 +383,52 @@ Mobend
 
 
 #OBJECTS
+#Vnum 12291
+Name sztylecik my¶liwski~
+Odmiana sztyleciku~sztylecikowi~sztylecik~sztylecikiem~sztyleciku~
+Short sztylet my¶liwski~
+Descr Piêkny sztylet my¶liwski.~
+Material elfia stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 0
+Value 2 2 2 11 8 1 1
+Repair 0 0 0 0
+Weight 20
+Cost 24000
+Cond 75
+Aff 1 26 294 5 0 0
+Aff 1 1 -3 0 0 0
+Comments ~
+Objend
+#Vnum 12300
+Name sanda³ki~
+Odmiana sanda³ków~sanda³kom~sanda³ki~sanda³kami~sanda³kach~
+Short sanda³ki~
+Descr Niedu¿e sanda³ki wykonane ze skóry.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0|V
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 1
+Cond 75
+Identdesc Niedu¿e sanda³ki wykonane ze skóry, chêtnie u¿ywane przez le¶nych elfów. 
+~
+Comments ~
+Objend
 #Vnum 12301
 Name dziwny kamieñ~
 Odmiana kamienia~kamieniowi~kamieñ~kamieniem~kamieniu~
@@ -395,11 +440,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -420,11 +465,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -447,11 +492,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5518
 Cost 1
 Cond 75
@@ -474,11 +519,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 11520
 Cost 1
 Cond 75
@@ -499,11 +544,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -525,11 +570,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -552,11 +597,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -579,11 +624,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -594,6 +639,32 @@ To si³a natury, obelisk chwieje siê gdy wiatr mocniej zawieje, ale wydaje
 siê byæ trwa³ym. Na tyle trwa³ym by przetrwaæ nawet najwiêksze huragany i
 wichury. A wszystko to dziêki mocy w nim zaklêtej, a mo¿e siê mylisz, mo¿e
 to te s³owo:{gxouyvexyzeq{x. 
+~
+Comments ~
+Objend
+#Vnum 12309
+Name zielony p³aszczyk~
+Odmiana p³aszczyka~p³aszczykowi~p³aszczyk~p³aszczykiem~p³aszczyku~
+Short niedu¿y zielony p³aszczyk~
+Descr Jest to niedu¿y p³aszczyk chêtnie u¿ywany przez druidów podró¿uj±cych po ca³ym ¶wiecie.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 20
+Cond 75
+Aff 1 27 1 3 0 0
+Identdesc Wspania³y, wygodny p³aszczyk chêtnie u¿ywany przez druidów, mieni siê w
+promieniach s³oñca. Ma wychaftowany wspania³y wzorek drzewka na plecach,
+jednak nie zdo³a ciê on ochorniæ przed ¶niegiem czy deszczem. 
 ~
 Comments ~
 Objend
@@ -1828,28 +1899,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10562
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10562
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10554
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10554
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1881,28 +1930,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10569
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10569
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10562
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10562
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4213,17 +4240,6 @@ Exit 0
 ~
 ~
 0 0 12360
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10569
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10569
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4266,17 +4282,6 @@ Exit 0
 ~
 ~
 0 0 12403
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10570
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10570
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6545,17 +6550,6 @@ Exit 0
 ~
 ~
 0 0 12404
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10571
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10571
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6598,17 +6592,6 @@ Exit 0
 ~
 ~
 0 0 12447
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10572
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10572
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8813,17 +8796,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10576
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10576
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8866,28 +8838,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10575
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10575
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10573
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10573
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8919,28 +8869,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10586
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10586
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10576
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10576
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -9980,28 +9908,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10596
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10596
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10586
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10586
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10033,17 +9939,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10597
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10597
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10086,17 +9981,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10598
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10598
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10828,17 +10712,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40231
-ExitExtEnd
-Exit 0
-~
-~
-0 0 40231
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10881,17 +10754,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40246
-ExitExtEnd
-Exit 0
-~
-~
-0 0 40246
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10934,17 +10796,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40260
-ExitExtEnd
-Exit 0
-~
-~
-0 0 40260
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -10967,17 +10818,6 @@ Exit 2
 ~
 ~
 0 0 12467
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 19979
-ExitExtEnd
-Exit 3
-~
-~
-0 0 19979
 DayRDesc 12294
 NightRDesc 12294
 Resources 0 0 0 0 0 0 0 0 
@@ -10987,28 +10827,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46271
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46271
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10598
-ExitExtEnd
-Exit 1
-~
-~
-0 0 10598
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11040,17 +10858,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46272
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46272
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11093,17 +10900,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46273
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46273
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11146,17 +10942,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46274
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46274
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11199,17 +10984,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46275
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46275
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11252,17 +11026,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46276
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46276
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11290,12 +11053,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 12494
+ExitExtToVnum 12493
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 12494
+0 0 12493
 DayRDesc 12294
 NightRDesc 12294
 Resources 0 0 0 0 0 0 0 0 
@@ -11303,8 +11066,30 @@ Capacity 0
 Roomend
 #Vnum 12493
 Name {gLas{x~
-FlagsExt 0|C
+FlagsExt 0
 Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12492
+ExitExtEnd
+Exit 1
+~
+~
+0 0 12492
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 12494
+ExitExtEnd
+Exit 3
+~
+~
+0 0 12494
 DayRDesc 12294
 NightRDesc 12294
 Resources 0 0 0 0 0 0 0 0 
@@ -11330,12 +11115,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 12492
+ExitExtToVnum 12493
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 12492
+0 0 12493
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11632,17 +11417,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40227
-ExitExtEnd
-Exit 0
-~
-~
-0 0 40227
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11665,17 +11439,6 @@ Exit 2
 ~
 ~
 0 0 12483
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40231
-ExitExtEnd
-Exit 3
-~
-~
-0 0 40231
 DayRDesc 12294
 NightRDesc 12294
 Resources 0 0 0 0 0 0 0 0 
@@ -11685,17 +11448,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40224
-ExitExtEnd
-Exit 0
-~
-~
-0 0 40224
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11718,17 +11470,6 @@ Exit 2
 ~
 ~
 0 0 12499
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40227
-ExitExtEnd
-Exit 3
-~
-~
-0 0 40227
 DayRDesc 12294
 NightRDesc 12294
 Resources 0 0 0 0 0 0 0 0 
@@ -11738,17 +11479,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40222
-ExitExtEnd
-Exit 0
-~
-~
-0 0 40222
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -11961,17 +11691,6 @@ Exit 0
 ~
 ~
 0 0 12507
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46276
-ExitExtEnd
-Exit 1
-~
-~
-0 0 46276
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12003,28 +11722,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46308
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46308
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46292
-ExitExtEnd
-Exit 1
-~
-~
-0 0 46292
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12056,17 +11753,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 46309
-ExitExtEnd
-Exit 0
-~
-~
-0 0 46309
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12162,17 +11848,6 @@ Roomend
 Name {gLas{x~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 55600
-ExitExtEnd
-Exit 0
-~
-~
-0 0 55600
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12195,17 +11870,6 @@ Exit 2
 ~
 ~
 0 0 12503
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 40222
-ExitExtEnd
-Exit 3
-~
-~
-0 0 40222
 DayRDesc 12294
 NightRDesc 12294
 Resources 0 0 0 0 0 0 0 0 
@@ -12235,19 +11899,19 @@ S
 #RESETS
 M 100 12292 15 12303 1
 M 100 12292 15 12304 1
-O 100 3203 0 12313
-M 100 15020 5 12324 1
-M 100 15020 5 12325 1
+O 100 13514 0 12313
+M 100 10870 5 12324 1
+M 100 10870 5 12325 1
 M 100 12293 15 12350 1
-E 100 3135 0 16
-E 100 4416 0 8
+E 100 12291 0 16
+E 100 12300 0 8
 M 100 631 15 12366 1
 M 100 12295 25 12367 1
 M 100 12295 25 12368 1
 M 100 631 15 12368 1
-M 100 15020 5 12369 1
+M 100 10870 5 12369 1
 M 100 12295 25 12369 1
-M 100 15020 5 12395 1
+M 100 10870 5 12395 1
 M 100 12295 25 12396 1
 M 100 12295 25 12397 1
 M 100 631 15 12397 1
@@ -12269,16 +11933,13 @@ M 100 45413 1 12430 1
 O 100 12306 0 12433
 O 100 12307 0 12434
 O 100 12308 0 12435
-M 100 15020 5 12439 1
+M 100 10870 5 12439 1
 M 100 631 15 12441 1
 O 100 12301 0 12458
 O 100 12305 0 12460
 M 100 12301 1 12460 1
-E 100 4429 0 12
-E 100 4416 0 8
-M 100 12296 1 12468 1
-M 100 12297 1 12468 1
-M 100 12298 1 12468 1
+E 100 12309 0 5
+E 100 3013 0 8
 M 100 631 15 12471 1
 O 100 12302 0 12477
 O 100 12303 0 12478
@@ -12290,21 +11951,6 @@ S
 
 
 #MOBPROGSNEW
-#12296
-Wyposa¿enie Torga.
-~
-mob equip self 3366
-mob equip self 3002
-mob equip self 3018
-mob equip self 3050
-mob oload random 5
-mob oload random 5
-mob oload gem 4
-mob oload gem 4
-mob oload gem 3
-mob oload weapon 4
-mob equip self 3356
-~
 #0
 
 #OBJPROGSNEW
@@ -12333,13 +11979,13 @@ endif
 #Vnum 0
 
 #RANDDESC
-#Vnum 12294
+#Vnum 12291
 DescRand #grouprand 0
 #grouprand 1
 #grouprand 2
 ~
 RandDescEnd
-#Vnum 12291
+#Vnum 12294
 DescRand #grouprand 0
 #grouprand 1
 #grouprand 2
@@ -12348,58 +11994,108 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 17~
-Desc W oddali s³ychaæ le¶ne odg³osy, piêkna melodia. 
-~
-Group 2
-End
-#Name 16~
-Desc Slychaæ uderzajêcego w drzewo dziêcio³a. W górze widaæ lec±cego ptaka. 
-~
-Group 2
-End
-#Name 15~
-Desc Z ponad drzew s³ychaæ uderzenia wielkich skrzydel. Poprzez grub± warstwê
-ga³êzi nie widaæ nieba. 
-~
-Group 2
-End
-#Name 14~
-Desc Z pó³nocy dochodzi mro¿±cy krew w ¿y³ach skowyt wilka. W górze, pomiêdzy
-drzewami widaæ b³êkit nieba. 
-~
-Group 2
-End
-#Name 13~
-Desc Obok swojej stopy zauwa¿asz du¿y trop dzika. Na wisz±cej ponad tob±
-ga³êzi± niewielkie gniazdo. 
-~
-Group 2
-End
-#Name 12~
-Desc Las ¶piewa swoj± pie¶ñ gdy wiatr zawieje silniej. 
-~
-Group 2
-End
-#Name 11~
-Desc Te drzewa s± olbrzymie, zapewne nie jedno pokolenie drwali ju¿ prze¿y³y.
-Widzisz liczne 'blizny'? , bo jak inaczej nazwaæ ¶lady po mieczach czy
-toporach drawli, jednak drzewo ro¶nie dalej. 
+#Name 09~
+Desc Czy¿ to nie idealne miejsce na odpoczynek. Po¶ród tych drzew nikt i nic
+ci nie mo¿e przeszkodziæ we ¶nie czy te¿ odpoczynku, na który zas³u¿y³e¶. 
 ~
 Group 1
 End
-#Name 10~
-Desc I ten skromny las ma swoje sekrety. Zewsz±d s³ychaæ wilcze wycie, które w
-jednej chwili cichnie by znowu zostaæ us³yszanym. Jednak czujesz siê tu
-bezpiecznie, ale nie zapomnij ka¿dy las ma swoje sekrety. 
+#Name 08~
+Desc S³oñce nie dociera do tego miejsca, zastanawiasz siê z jakiego powodu,
+lecz gdy spojrzysz w górê nie widzisz nic innego jak wielkie i potê¿ne
+drzewa. Rosn±ce w ca³ym tym tajemniczym i przyjemnym lesie. 
 ~
 Group 1
 End
-#Name 9~
-Desc Na kilka metrów przez gêste liany, w³a¶nie przez owe li¶cie i jakie¶
-krzaczory nie widaæ prawie nic, Gdyby jakie¶ dzikie zwierze gdzie¶ na ciebie
-siê tu zaczai³o wcze¶niej pewnie by siê da³o poczuæ, ze cos ciê w ty³ek
-ugryz³o ni¿ to, z której strony nadesz³o. 
+#Name 07~
+Desc S³yszysz ryk nied¼wiedzia, i skowyt wilka. Dochodzisz do wniosku, ¿e wilk
+w³a¶nie poniós³ ¶mieræ. Nachodzi ciê my¶l, by uwa¿aæ na tego nied¼wiedzia,
+sam mo¿esz staæ siê jego po¿ywieniem... 
+~
+Group 1
+End
+#Name 06~
+Desc Znajdujesz siê w samym ¶rodku lasu iglastego, pe³no tu drzew iglastych o
+których ga³êzie co i raz zachaczasz swymi biodrami. 
+~
+Group 0
+End
+#Name 05~
+Desc Piêkny las, tylko tyle jeste¶ wstanie powiedzieæ. Dech w piersiach
+zapiera ci niezwyk³a fauna i flora tego miejsca. 
+~
+Group 0
+End
+#Name 04~
+Desc Znajdujesz siê po¶ród zielonego lasu, kolor drzew jest bardzo piêkny. Z
+zachwytam spogl±dasz na niewielki krzaczek znajduj±cy siê tó¿ pod twoimi
+nogami. 
+~
+Group 0
+End
+#Name 03~
+Desc Las. Tu siê w³a¶nie znajdujesz, jednak ten las jest do¶æ specyficzny,
+piêkny i zielony, a¿ mi³o popatrzeæ. 
+~
+Group 0
+End
+#Name 02~
+Desc Spogl±dasz w dal i zdajesz sobie sprawê, z tego i¿ zab³±dzi³e¶.
+Znajdujesz siê w ¶rodku lasu li¶ciastego, pe³no tu drzew li¶ciastych. 
+~
+Group 0
+End
+#Name 01~
+Desc Stoisz po¶ród lasu mieszanego. Pe³no tu ró¿norakich drzew. Stoisz sobie i
+ws³uchujesz siê w jak¿e piêkny spiew ptaków 
+~
+Group 0
+End
+#Name 0~
+Desc Sporo tu drzew o jakich¶ d³ugich i roz³o¿ystych li¶ciach 
+~
+Group 0
+End
+#Name 1~
+Desc Znajdujesz siê w olbrzymim lesie. 
+~
+Group 0
+End
+#Name 2~
+Desc Jeste¶ w piêknym lesie, sporo tu drzew i krzewów. 
+~
+Group 0
+End
+#Name 3~
+Desc M³ody las, pe³no tu niewysokich niskich drzew które czê¶ciowo chroni±
+przed upalnym s³oñcem. 
+~
+Group 0
+End
+#Name 4~
+Desc Gdyby drzewa ros³y tak gêsto jak tutaj nie by³oby nic w ogóle widaæ w tym
+lesie. 
+~
+Group 0
+End
+#Name 5~
+Desc Niewiele tu drzew, za to wszystkie wielkie i imponuj±ce. 
+~
+Group 0
+End
+#Name 6~
+Desc Czê¶æ z nich jest ju¿ nawet trochê leciwych, ale wszystkie w dobrym
+stanie. Szkodniki chyba siê tu jeszcze przypa³êtaæ nie zd±¿y³y. Spod ziemi
+widaæ ¿ó³ty, ¶wie¿y i prawie niebrudny piach. Nadawa³by siê pewnie do
+wysypania drogi czy czego¶. Poza drzewami nic tu akurat nie ro¶nie. 
+~
+Group 1
+End
+#Name 7~
+Desc Patrz±c na niektóre mo¿na ¶mia³o zaryzykowaæ os±d ¿e maja kilkaset lat.
+Pewnie nawet i wszystkie tyle maj±. Dooko³a drzew trawa, ale w pewnym
+oddaleniu od ka¿dego z tych le¶nych olbrzymów. Gdy¿ te drzewa s± naprawdê
+potê¿ne. 
 ~
 Group 1
 End
@@ -12412,110 +12108,60 @@ Desc Tutaj, przez nie i tak ma³o widaæ. Jak kto¶ niewysoki to prawie,jakby w
 ~
 Group 1
 End
-#Name 7~
-Desc Patrz±c na niektóre mo¿na ¶mia³o zaryzykowaæ os±d ¿e maja kilkaset lat.
-Pewnie nawet i wszystkie tyle maj±. Dooko³a drzew trawa, ale w pewnym
-oddaleniu od ka¿dego z tych le¶nych olbrzymów. Gdy¿ te drzewa s± naprawdê
-potê¿ne. 
+#Name 9~
+Desc Na kilka metrów przez gêste liany, w³a¶nie przez owe li¶cie i jakie¶
+krzaczory nie widaæ prawie nic, Gdyby jakie¶ dzikie zwierze gdzie¶ na ciebie
+siê tu zaczai³o wcze¶niej pewnie by siê da³o poczuæ, ze cos ciê w ty³ek
+ugryz³o ni¿ to, z której strony nadesz³o. 
 ~
 Group 1
 End
-#Name 6~
-Desc Czê¶æ z nich jest ju¿ nawet trochê leciwych, ale wszystkie w dobrym
-stanie. Szkodniki chyba siê tu jeszcze przypa³êtaæ nie zd±¿y³y. Spod ziemi
-widaæ ¿ó³ty, ¶wie¿y i prawie niebrudny piach. Nadawa³by siê pewnie do
-wysypania drogi czy czego¶. Poza drzewami nic tu akurat nie ro¶nie. 
+#Name 10~
+Desc I ten skromny las ma swoje sekrety. Zewsz±d s³ychaæ wilcze wycie, które w
+jednej chwili cichnie by znowu zostaæ us³yszanym. Jednak czujesz siê tu
+bezpiecznie, ale nie zapomnij ka¿dy las ma swoje sekrety. 
 ~
 Group 1
 End
-#Name 5~
-Desc Niewiele tu drzew, za to wszystkie wielkie i imponuj±ce. 
-~
-Group 0
-End
-#Name 4~
-Desc Gdyby drzewa ros³y tak gêsto jak tutaj nie by³oby nic w ogóle widaæ w tym
-lesie. 
-~
-Group 0
-End
-#Name 3~
-Desc M³ody las, pe³no tu niewysokich niskich drzew które czê¶ciowo chroni±
-przed upalnym s³oñcem. 
-~
-Group 0
-End
-#Name 2~
-Desc Jeste¶ w piêknym lesie, sporo tu drzew i krzewów. 
-~
-Group 0
-End
-#Name 1~
-Desc Znajdujesz siê w olbrzymim lesie. 
-~
-Group 0
-End
-#Name 0~
-Desc Sporo tu drzew o jakich¶ d³ugich i roz³o¿ystych li¶ciach 
-~
-Group 0
-End
-#Name 01~
-Desc Stoisz po¶ród lasu mieszanego. Pe³no tu ró¿norakich drzew. Stoisz sobie i
-ws³uchujesz siê w jak¿e piêkny spiew ptaków 
-~
-Group 0
-End
-#Name 02~
-Desc Spogl±dasz w dal i zdajesz sobie sprawê, z tego i¿ zab³±dzi³e¶.
-Znajdujesz siê w ¶rodku lasu li¶ciastego, pe³no tu drzew li¶ciastych. 
-~
-Group 0
-End
-#Name 03~
-Desc Las. Tu siê w³a¶nie znajdujesz, jednak ten las jest do¶æ specyficzny,
-piêkny i zielony, a¿ mi³o popatrzeæ. 
-~
-Group 0
-End
-#Name 04~
-Desc Znajdujesz siê po¶ród zielonego lasu, kolor drzew jest bardzo piêkny. Z
-zachwytam spogl±dasz na niewielki krzaczek znajduj±cy siê tó¿ pod twoimi
-nogami. 
-~
-Group 0
-End
-#Name 05~
-Desc Piêkny las, tylko tyle jeste¶ wstanie powiedzieæ. Dech w piersiach
-zapiera ci niezwyk³a fauna i flora tego miejsca. 
-~
-Group 0
-End
-#Name 06~
-Desc Znajdujesz siê w samym ¶rodku lasu iglastego, pe³no tu drzew iglastych o
-których ga³êzie co i raz zachaczasz swymi biodrami. 
-~
-Group 0
-End
-#Name 07~
-Desc S³yszysz ryk nied¼wiedzia, i skowyt wilka. Dochodzisz do wniosku, ¿e wilk
-w³a¶nie poniós³ ¶mieræ. Nachodzi ciê my¶l, by uwa¿aæ na tego nied¼wiedzia,
-sam mo¿esz staæ siê jego po¿ywieniem... 
+#Name 11~
+Desc Te drzewa s± olbrzymie, zapewne nie jedno pokolenie drwali ju¿ prze¿y³y.
+Widzisz liczne 'blizny'? , bo jak inaczej nazwaæ ¶lady po mieczach czy
+toporach drawli, jednak drzewo ro¶nie dalej. 
 ~
 Group 1
 End
-#Name 08~
-Desc S³oñce nie dociera do tego miejsca, zastanawiasz siê z jakiego powodu,
-lecz gdy spojrzysz w górê nie widzisz nic innego jak wielkie i potê¿ne
-drzewa. Rosn±ce w ca³ym tym tajemniczym i przyjemnym lesie. 
+#Name 12~
+Desc Las ¶piewa swoj± pie¶ñ gdy wiatr zawieje silniej. 
 ~
-Group 1
+Group 2
 End
-#Name 09~
-Desc Czy¿ to nie idealne miejsce na odpoczynek. Po¶ród tych drzew nikt i nic
-ci nie mo¿e przeszkodziæ we ¶nie czy te¿ odpoczynku, na który zas³u¿y³e¶. 
+#Name 13~
+Desc Obok swojej stopy zauwa¿asz du¿y trop dzika. Na wisz±cej ponad tob±
+ga³êzi± niewielkie gniazdo. 
 ~
-Group 1
+Group 2
+End
+#Name 14~
+Desc Z pó³nocy dochodzi mro¿±cy krew w ¿y³ach skowyt wilka. W górze, pomiêdzy
+drzewami widaæ b³êkit nieba. 
+~
+Group 2
+End
+#Name 15~
+Desc Z ponad drzew s³ychaæ uderzenia wielkich skrzydel. Poprzez grub± warstwê
+ga³êzi nie widaæ nieba. 
+~
+Group 2
+End
+#Name 16~
+Desc Slychaæ uderzajêcego w drzewo dziêcio³a. W górze widaæ lec±cego ptaka. 
+~
+Group 2
+End
+#Name 17~
+Desc W oddali s³ychaæ le¶ne odg³osy, piêkna melodia. 
+~
+Group 2
 End
 #DescEnd
 

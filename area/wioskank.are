@@ -267,6 +267,66 @@ Mobend
 
 
 #OBJECTS
+#Vnum 16251
+Name sma¿ona ryba~
+Odmiana sma¿onej ryby~sma¿onej rybie~sma¿on± rybê~sma¿on± ryb±~sma¿onej rybie~
+Short sma¿ona ryba~
+Descr Le¿y tutaj sma¿ona ryba i powoli stygnie.~
+Material jedzenie~
+Type food
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 12 37 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3
+Cond 75
+Comments ~
+Objend
+#Vnum 16253
+Name rybie miêso~
+Odmiana rybiego miêsa~rybiemu miêsu~rybie miêso~rybim miêsem~rybim miêsie~
+Short rybie miêso~
+Descr Le¿y tutaj porzucone, rybie miêso.~
+Material jedzenie~
+Type food
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 24 45 0 0 0 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 6
+Cond 75
+Comments ~
+Objend
+#Vnum 16254
+Name stragan~
+Odmiana straganu~straganie~stragan~straganem~straganie~
+Short stragan~
+Descr {yWidzisz przed sob± ma³y stragan z rybami.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
 #Vnum 16259
 Name beczka~
 Odmiana beczki~beczce~beczke~beczk±~beczce~
@@ -282,12 +342,55 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 500
 Cost 1
 Cond 75
 Itemdesc Beczka ta wykonana zosta³a z drewna. S³u¿y³a pewnie do przechowywania
 wody. Teraz stoi tutaj nikomu niepotrzebna. 
+~
+Comments ~
+Objend
+#Vnum 16264
+Name dêbowy stolik~
+Odmiana dêbowego stolika~dêbowemu stolikowi~dêbowy stolik~dêbowym stolikiem~dêbowym stoliku~
+Short dêbowy stolik~
+Descr Jest to mocny, br±zowy stolik zrobiony z dêbowego drzewa.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 2 10 8192 100 100 0 0
+Repair 0 0 0 0
+Weight 800
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 16271
+Name nieprzemakalna kurtka z kapturem~
+Odmiana skórzanej kurtki~skórzanej kurtce~skórzan± kurtkê~skórzan± kurtk±~skórzanej kurtce~
+Short nieprzemakalna kurtka z kapturem~
+Descr Jest to dosyæ ciep³a i nieprzemakalna, skórzana kurtka.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 5
+Cond 75
+Itemdesc Wygl±da na to, i¿ ta kurtka zrobiona zosta³a specjalnie po to, aby mo¿na
+w niej by³o wyp³ywaæ, w dalekie morze. Wyposa¿ona zosta³a w kaptur i ciep³±,
+ko¿uchow± podpinkê. 
 ~
 Comments ~
 Objend
@@ -306,12 +409,31 @@ LiczbaMnoga 1
 Gender 5
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Itemdesc S± to pozszywane z wielu ³at, brudne i bardzo mokre szmaty. 
 ~
+Comments ~
+Objend
+#Vnum 16276
+Name dêbowe krzes³o~
+Odmiana dêbowego krzes³a~dêbowemu krzes³u~dêbowe krzes³o~dêbowym krzes³em~dêbowym krze¶le~
+Short dêbowe krzes³o~
+Descr Stoi tutaj dosyæ mocne, dêbowe krzes³o.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 300 128 100 100 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 1
+Cond 75
 Comments ~
 Objend
 #Vnum 0
@@ -485,6 +607,17 @@ tylko szum fal.
 ~
 FlagsExt 0|C
 Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40396
+ExitExtEnd
+Exit 0
+~
+~
+0 0 40396
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1223,7 +1356,7 @@ to bardzo g³o¶ne miejsce, gdy¿ rybacy i przybysze z nieznanych krain czêsto
 tu przychodz±, aby odpocz±æ po pracy lub d³ugiej podró¿y. Niestety, ci
 pierwsi i ci drudzy, przychodz± tu te¿ czasem w poszukiwaniu zaczepki. 
 ~
-FlagsExt 0|H
+FlagsExt 0|HU
 Sector 0
 ExitExt 2
 ExitExtDescription ~
@@ -1335,6 +1468,17 @@ Exit 0
 ~
 ~
 0 0 16263
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8800
+ExitExtEnd
+Exit 2
+~
+~
+0 0 8800
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1389,59 +1533,59 @@ S
 
 #RESETS
 M 100 16271 1 16253 1
-E 100 3050 0 7
-E 100 4369 0 5
+E 100 3382 0 7
+E 100 16271 0 5
 M 100 16255 1 16255 1
-E 100 3013 0 8
-E 100 3057 0 7
-E 100 3001 0 8
-G 100 2499 0
+E 100 889 0 5
+E 100 3088 0 7
+E 100 3380 0 8
+G 100 3025 0
 G 100 65 0
 G 100 3330 0
 G 100 3147 0
-G 100 3185 0
-G 100 3324 0
+G 100 6189 0
+G 100 581 0
 O 100 45183 0 16256
 O 100 102 0 16256
 M 100 16271 3 16256 2
-E 100 3050 0 7
-E 100 3001 0 8
-E 100 4369 0 5
+E 100 3382 0 7
+E 100 3380 0 8
+E 100 16271 0 5
 O 100 16259 0 16259
 M 100 16271 4 16261 1
-E 100 3001 0 8
-E 100 4369 0 5
-E 100 3050 0 7
+E 100 3380 0 8
+E 100 16271 0 5
+E 100 3382 0 7
 M 100 16264 1 16264 1
-E 100 4428 0 12
-E 100 4409 0 7
+E 100 242 0 12
+E 100 3007 0 7
 E 100 47 0 17
-G 100 2497 0
-G 100 2466 0
+G 100 40884 0
+G 100 1328 0
 G 100 17164 0
 G 100 3100 0
-G 100 3381 0
-G 100 2450 0
+G 100 3074 0
+G 100 3001 0
 M 100 16271 7 16266 1
-E 100 3050 0 7
-E 100 4369 0 5
+E 100 3382 0 7
+E 100 16271 0 5
 M 100 16271 5 16268 1
-E 100 3001 0 8
-E 100 3050 0 7
-E 100 4369 0 5
+E 100 3380 0 8
+E 100 3382 0 7
+E 100 16271 0 5
 M 100 16271 6 16271 1
-E 100 3050 0 7
-E 100 4369 0 5
+E 100 3382 0 7
+E 100 16271 0 5
 M 100 16273 1 16273 1
 E 100 16273 0 5
-O 100 2359 0 16276
-O 100 2364 0 16276
-O 100 2364 0 16276
+O 100 16264 0 16276
+O 100 16276 0 16276
+O 100 16276 0 16276
 M 100 16252 1 16276 1
-E 100 4416 0 8
-E 100 4428 0 12
-O 100 2358 0 16277
-O 100 2358 0 16280
+E 100 14182 0 8
+E 100 242 0 12
+O 100 3399 0 16277
+O 100 3399 0 16280
 S
 
 
@@ -1457,7 +1601,7 @@ endif
 ~
 if room $i == 16267
   mob echo Rybak rozk³ada swój towar na straganie.
-  mob oload 2365
+  mob oload 16254
   minidelay 2
   say Witam, witam! Zapraszam do mojego staganu!
 endif
@@ -1500,7 +1644,8 @@ endif
 ~
 #rybak6
 ~
-mob oload 2452
+mob oload 16251
+mob oload 3056
 mob oload 16253
 ~
 #0
@@ -1515,7 +1660,7 @@ if !mobexists 16251
   if hour > 5
   and hour < 20
     mob at 16267 mob mload 16251
-    mob at 16267 mob oload 2365
+    mob at 16267 mob oload 16254
   else
     mob at 16277 mob mload 16251
   endif

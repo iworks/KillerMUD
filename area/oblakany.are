@@ -397,6 +397,32 @@ Mobend
 
 
 #OBJECTS
+#Vnum 45181
+Name skrzynia granitowa magiczna duza~
+Odmiana skrzyni~skrzyni~skrzyniê~skrzyni±~skrzyni~
+Short skrzynia~
+Descr Du¿a, magiczna, wykonana z granitu skrzynia stoi tutaj zakurzona.~
+Material granit~
+Type container
+ExtraExt 0|DXd
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 150 269 45182 150 100 0 -1
+Repair 0 0 0 0
+Weight 1000
+Cost 60
+Cond 75
+Itemdesc Du¿a, magiczna wykonana ze ska³y g³êbinowej skrzynia. Emanuje od niej
+magiczna moc. Na pokrywie ma wyrze¼bione jakie¶ znaki. ¯eby j± otworzyæ
+bêdzie ci potrzebny klucz wykonany z tego samego tworzywa z którego zosta³a
+wykonana ta skrzynia. 
+~
+Comments ~
+Objend
 #Vnum 45182
 Name magiczny garnitowy klucz~
 Odmiana magicznego klucza~magicznemu kluczowi~magiczny klucz~magicznym kluczem~magicznym kluczu~
@@ -408,11 +434,11 @@ ExtraExt 0|G
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 100
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 5 5
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 10
 Cond 75
@@ -432,11 +458,11 @@ ExtraExt 0
 Wear E
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 5 0 1168 120 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3000
 Cost 1
 Cond 75
@@ -457,11 +483,11 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 9
 Cond 75
@@ -481,11 +507,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 13 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 60
 Cond 75
@@ -506,11 +532,11 @@ ExtraExt 0|X
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -527,11 +553,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 50 0 0 5 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 500
 Cost 60
 Cond 75
@@ -551,17 +577,139 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1
 Cond 100
 Itemdesc Do¶æ niewielki stalowy kluczyk, który mo¿e zostaæ u¿yty na podobnych do
 niego drzwiach. Na uchu klucza widaæ dziwny, wpó³zatarty napis, którego nie
 jeste¶ w stanie rozszyfrowaæ, a u podstawy widaæ jaki¶ dziwny symbol. 
+~
+Comments ~
+Objend
+#Vnum 45189
+Name ³awa d³uga drewniana~
+Odmiana dlugiej lawy~dlugiej lawie~dluga lawe~dluga lawa~dlugiej lawie~
+Short d³uga ³awa~
+Descr D³uga drewniana ³awa.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 1000 1168 105 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 45229
+Name butelka pusta~
+Odmiana butelki~butelce~butelkê~butelk±~butelce~
+Short butelka~
+Descr Pusta butelka po winie {R'{rWi¶niowy Sad{R'{x le¿y tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 10 0 0 0 0 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Na butelce widzisz wytart± etykietê:
+{r         **
+{r*   * * **** **  * * ***** *   * *   *
+{r*   * * *    * * * * *   * *   *  * *  
+{r* * * * **** *  ** * *   * * * *   *
+{r** ** *    * *   * * *   * ** **   *
+{r*   * * **** *   * * ***** *   *   *{x
+ 
+ 
+    {r     **** ***** *** 
+    {r     *    *   * *  *
+    {r     **** ***** *  *
+    {r        * *   * *  *
+    {r     **** *   * ***
+{x
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 45230
+Name wi¶niowy sad wino~
+Odmiana wina {R'{rWi¶niowy Sad{R'{x~winie {R'{rWi¶niowy Sad{R'{x~wino {R'{rWi¶niowy Sad{R'{x~winem {R'{rWi¶niowy Sad{R'{x~winie {R'{rWi¶niowy Sad{R'{x~
+Short {xwino {R'{rWi¶niowy Sad{x{R'{x~
+Descr Butelka wina {R'{rWi¶niowy Sad{R'{x le¿y tutaj porzucona.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 10 10 32 0 45229 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 1
+Cond 75
+Itemdesc Na butelce widzisz etykietê:
+{r         **
+{r*   * * **** **  * * ***** *   * *   *
+{r*   * * *    * * * * *   * *   *  * *  
+{r* * * * **** *  ** * *   * * * *   *
+{r** ** *    * *   * * *   * ** **   *
+{r*   * * **** *   * * ***** *   *   *{x
+ 
+ 
+    {r     **** ***** *** 
+    {r     *    *   * *  *
+    {r     **** ***** *  *
+    {r        * *   * *  *
+    {r     **** *   * ***
+{x
+~
+Comments ~
+Objend
+#Vnum 45231
+Name zardzewia³y nó¿ metal~
+Odmiana zardzewia³ego no¿a~zardzewia³emu no¿owi~zardzewia³y nó¿~zardzewia³ym no¿em~zardzewia³ym no¿u~
+Short zardzewia³y nó¿~
+Descr Widzisz le¿±cy na ziemi, do¶æ mocno zardzewia³y nó¿.~
+Material stal~
+Type weapon
+ExtraExt 0|M
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 14
+LiczbaMnoga 0
+Gender 2
+Value 2 2 3 2 128 -1 1
+Repair 0 0 0 0
+Weight 12
+Cost 900
+Cond 20
+Itemdesc Jest to spory, stalowy nó¿. Nie by³oby w nim nic dziwnego, gdyby nie to,
+¿e ca³y pokryty jest jakimi¶ dziwnie zaschniêtymi i ¶mierdz±cymi plamami
+oraz krwi±. Rêkoje¶æ zosta³a wykonana z dwóch kawa³ków drewna, po³±czonych
+klinami. 
 ~
 Comments ~
 Objend
@@ -595,6 +743,28 @@ Exit 0
 ~
 brama~
 16387 0 45182
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 47096
+ExitExtEnd
+Exit 1
+~
+~
+0 0 47096
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 47144
+ExitExtEnd
+Exit 2
+~
+~
+0 0 47144
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2011,7 +2181,7 @@ Roomend
 #Vnum 45216
 Name Korytarz~
 FlagsExt 0|A
-Sector 0
+Sector 8
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2050,7 +2220,7 @@ ziemi widzisz jakie¶ napisy i znaki, niestety nie jeste¶ w stanie nic z nich
 zrozumieæ. 
 ~
 FlagsExt 0|AC
-Sector 0
+Sector 8
 Extra dziura~
 Widzisz tutaj jak±¶ dziurê w ¶cianie.
 ~
@@ -2128,8 +2298,8 @@ Exit 1
 ~
 ~
 0 0 45216
-Roomprog random 45182 3~
 Roomprog reset 45184 100~
+Roomprog random 45182 3~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2142,7 +2312,7 @@ zamieszka³ych tu ludzi, jednak stan w jakim pozostaje nie pozwala na to w
 ¿adnym wypadku. 
 ~
 FlagsExt 0|A
-Sector 0
+Sector 8
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2417,8 +2587,8 @@ Exit 3
 ~
 ~
 0 0 45214
-Roomprog random 45182 3~
 Roomprog reset 45181 100~
+Roomprog random 45182 3~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2577,7 +2747,7 @@ mo¿na dostrzec plamy krwi. Wszêdzie szwêdaj± siê ob³±kani ludzie mamrocz±c
 co¶ do siebie. 
 ~
 FlagsExt 0|A
-Sector 0
+Sector 8
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3240,7 +3410,7 @@ co lub kto usun±³ z tego miejsca te symbole, ale nic nie przychodzi ci do
 g³owy, a smród którym nadal przesi±kasz zmusza do zaprzestania dywagacji. 
 ~
 FlagsExt 0
-Sector 0
+Sector 8
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3432,8 +3602,8 @@ O 100 45183 0 45231
 O 100 45183 0 45232
 O 100 45183 0 45233
 O 100 45183 0 45234
-O 100 2363 0 45241
-O 100 2363 0 45248
+O 100 45189 0 45241
+O 100 45189 0 45248
 M 100 45188 1 45252 1
 M 100 45187 2 45252 2
 M 100 45187 2 45252 2
@@ -3473,14 +3643,14 @@ else
 endif
 
 if rand 50
-  if carries $i 3132
+  if carries $i 45230
     drink wino
   endif
 endif
 ~
 #45182_onload
 ~
-mob equip self 3137
+mob equip self 45231
 ~
 #45183_random
 ~
@@ -3493,7 +3663,7 @@ endif
 mob equip self 45184
 
 if rand 80
-  mob oload 3132
+  mob oload 45230
 endif
 ~
 #45188_prec
@@ -3539,25 +3709,17 @@ endif
 #45181
 ~
 mob purge skrzynia
-mob oload 3370 room
+mob oload 45181 R
 if rand 50
-  mob oload random 1 i 3370
+  mob oload random 3 i 45181
 endif
+mob oload random 3 i 45181
+mob oload random 2 i 45181
+mob oload random 1 i 45181
 if rand 50
-  mob oload random 1 i 3370
+  mob oload gem 3 i 45181
 endif
-if rand 50
-  mob oload random 1 i 3370
-endif
-if rand 50
-  mob oload random 1 i 3370
-endif
-if rand 50
-  mob oload gem 1 i 3370
-endif
-if rand 50
-  mob oload gem 1 i 3370
-endif
+mob oload gem 2 i 45181
 ~
 #45182
 ~
@@ -3579,21 +3741,21 @@ mob echo Nagle wybucha jakie¶ dziwne, magiczne ¶wiat³o, niemal o¶lepiaj±c ciê!
 ~
 mob purge regal
 mob oload 45187 R
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
-mob oload 3132 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
+mob oload 45230 i 45187
 ~
 #0
 
@@ -3611,8 +3773,54 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name konc3~
-Desc Wszêdzie szwêdaj± siê ob³±kani ludzie mamrocz±c co¶ do siebie. 
+#Name korytarz~
+Desc D³ugi, ciemny, ponury korytarz. Na ¶cianach widzisz jakie¶ obrazy. Panuje
+tutaj bardzo nieprzyjemna atmosfera. 
+~
+Group 1
+End
+#Name ¶ciany~
+Desc Pod ¶cianami stoi sporo zrujnowanych rze¼b i pomników. 
+~
+Group 2
+End
+#Name ogólnie~
+Desc Korytarz jest zaniedbany i brudny. Na pod³odze i ¶cianach mo¿na dostrzec
+plamy krwi. 
+~
+Group 3
+End
+#Name korytarz1~
+Desc D³ugi korytarz zdaje siê prowadziæ do nik±d. 
+~
+Group 1
+End
+#Name korytarz2~
+Desc Id±c korytarzem dobiegaj± ciê jakie¶ dziwne g³osy i jêki. 
+~
+Group 1
+End
+#Name ¶ciany2~
+Desc Na ¶cianach widzisz jakie¶ napisy. Niestety s± one na tyle niewyra¼ne, ¿e
+nie jeste¶ w stanie nic z nich zrozumieæ lub wyczytaæ. 
+~
+Group 2
+End
+#Name sciany1~
+Desc Obrazy wisz±ce na ¶cianach s± na tyle zniszczone, ¿e nie portafisz siê na nich niczego dopatrzeæ.
+~
+Group 2
+End
+#Name ogólnie1~
+Desc Do¶æ ma³a ilo¶æ okien, dzieki którym mo¿e docieraæ ¶wiat³o dzienne
+powoduje, ¿e jest tu do¶æ ciemno, przez co trudno siê czegokolwiek
+dopatrzyæ. 
+~
+Group 3
+End
+#Name konc1~
+Desc Zauwa¿asz, ¿e ¶ciany s± popêkane jakby co¶ lub kto¶ chcia³o siê przez nie
+przebiæ. 
 ~
 Group 4
 End
@@ -3622,56 +3830,10 @@ Desc Na ziemi walaj± siê jakie¶ ¶mieci, a w powietrzu utrzymuje siê odra¿aj±cy
 ~
 Group 4
 End
-#Name konc1~
-Desc Zauwa¿asz, ¿e ¶ciany s± popêkane jakby co¶ lub kto¶ chcia³o siê przez nie
-przebiæ. 
+#Name konc3~
+Desc Wszêdzie szwêdaj± siê ob³±kani ludzie mamrocz±c co¶ do siebie. 
 ~
 Group 4
-End
-#Name ogólnie1~
-Desc Do¶æ ma³a ilo¶æ okien, dzieki którym mo¿e docieraæ ¶wiat³o dzienne
-powoduje, ¿e jest tu do¶æ ciemno, przez co trudno siê czegokolwiek
-dopatrzyæ. 
-~
-Group 3
-End
-#Name sciany1~
-Desc Obrazy wisz±ce na ¶cianach s± na tyle zniszczone, ¿e nie portafisz siê na nich niczego dopatrzeæ.
-~
-Group 2
-End
-#Name ¶ciany2~
-Desc Na ¶cianach widzisz jakie¶ napisy. Niestety s± one na tyle niewyra¼ne, ¿e
-nie jeste¶ w stanie nic z nich zrozumieæ lub wyczytaæ. 
-~
-Group 2
-End
-#Name korytarz2~
-Desc Id±c korytarzem dobiegaj± ciê jakie¶ dziwne g³osy i jêki. 
-~
-Group 1
-End
-#Name korytarz1~
-Desc D³ugi korytarz zdaje siê prowadziæ do nik±d. 
-~
-Group 1
-End
-#Name ogólnie~
-Desc Korytarz jest zaniedbany i brudny. Na pod³odze i ¶cianach mo¿na dostrzec
-plamy krwi. 
-~
-Group 3
-End
-#Name ¶ciany~
-Desc Pod ¶cianami stoi sporo zrujnowanych rze¼b i pomników. 
-~
-Group 2
-End
-#Name korytarz~
-Desc D³ugi, ciemny, ponury korytarz. Na ¶cianach widzisz jakie¶ obrazy. Panuje
-tutaj bardzo nieprzyjemna atmosfera. 
-~
-Group 1
 End
 #DescEnd
 

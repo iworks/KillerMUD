@@ -2,7 +2,7 @@
 Name +# Zamek wyznawców Portena~
 Builders None~
 VNUMs 46581 46600
-Credits Twórca: Annor
+Credits Twórca: Seinar
 ~
 Locked ~
 Security 9
@@ -773,7 +773,7 @@ Speaks 0
 Level 33
 Hitroll 3
 HP 30d4+1200
-Damage 6d3+13
+Damage 6d3+10
 Dammagic 0
 Weaponbonus 10
 Damflags 0
@@ -807,6 +807,53 @@ Mobend
 
 
 #OBJECTS
+#Vnum 46581
+Name ciê¿ka tarcza~
+Odmiana ciê¿kiej tarczy~ciê¿kiej tarczy~ciê¿ki± tarczê~ciê¿ki± tarcz±~ciê¿kiej tarczy~
+Short ciê¿ka tarcza~
+Descr Ciê¿ka tarcza le¿y na ziemi.~
+Material stal~
+Type shield
+ExtraExt 0|K
+Wear AJ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 3 2 25 6 1 0 0
+Repair 0 0 0 0
+Weight 345
+Cost 3000
+Cond 100
+Itemdesc Ta ciê¿ka stalowa tarcza ma za zadanie ochroniæ ¿o³nierza przed prawie
+ka¿dym niebezpieczeñstwem na polu bitwy. Przy jej pomocy mo¿na zas³oniæ
+niemal cala sylwetkê, co umo¿liwia obronê przed wrogimi ³ucznikami i
+mieczami wrogów. 
+~
+Comments ~
+Objend
+#Vnum 46588
+Name paladyñski miecz~
+Odmiana paladyñskiego miecza~paladyñskiemu mieczu~paladyñski miecz~paladyñskim mieczem~paladyñskim mieczu~
+Short paladyñski miecz~
+Descr Paladyñski miecz le¿y na ziemi lekko okurzony.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|K
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 1 3 4 0 0 0 0
+Repair 0 0 0 0
+Weight 130
+Cost 1440
+Cond 100
+Itemdesc Jest to stalowy miecz o wygodnej rêkoje¶ci i ostrym ostrzu. L¶ni±ca stal dodaje wdziêku temu mieczowi i sprawia, ¿e ogólny wygl±d jest piêkny. Paladyñski miecz to ¶wietna broñ dla barbarzyñcy, a tak¿e wojownika.
+~
+Comments ~
+Objend
 #Vnum 46589
 Name klucz bramy~
 Odmiana klucza do bramy~kluczowi do bramy~klucz do bramy~kluczem do bramy~kluczu do bramy~
@@ -822,7 +869,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -846,7 +892,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -870,12 +915,127 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Itemdesc Jest to zloty klucz, który otwiera wrota do skarbca. Mo¿esz siê naprawdê
 cieszyæ , bo ten klucz to przepustka do twojego bogactwa 
+~
+Comments ~
+Objend
+#Vnum 46592
+Name mocna drewniana skrzynia~
+Odmiana mocnej drewnianej skrzyni~mocnej drewnianej skrzyni~mocn± drewnian± skrzyniê~mocn± drewnian± skrzyni±~mocnej drewnianej skrzyni~
+Short mocna drewniana skrzynia~
+Descr Mocna, drewniana skrzynia stoi na ¶rodku skarbca.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 100 0 -1
+Repair 0 0 0 0
+Weight 200
+Cost 60
+Cond 75
+Itemdesc Jest to solidna skrzynia wykonana z drewna i wzmocniona kawa³kami metalu.
+Gdy by³a zamkniêta zapewne by jej nikt, ale có¿ skrzynia jest otwarta. 
+~
+Comments ~
+Objend
+#Vnum 46593
+Name kap³añska toga~
+Odmiana kap³añskiej togi~kap³añskiej todze~kap³añsk± togê~kap³añsk± tog±~kap³añskiej todze~
+Short kap³añska toga~
+Descr Jedwabna, kap³añska toga le¿y lekko pognieciona.~
+Material jedwab~
+Type clothing
+ExtraExt 0|K/1|A
+Wear ADFI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 14
+Cond 100
+Itemdesc Ta kap³añska toga uszyta jest z bia³ego najlepszego rodzaju jedwabiu.
+Wykonywa³y takie togi szwaczki dla wyznawców bogini {CViseen{x. Kap³añska toga z
+pewno¶ci± bêdzie pasowa³a na ka¿dego, mo¿e oprócz z³ych osób. Bowiem mówi±,
+¿e zosta³o rzucone na nie zaklêcie. 
+~
+Comments ~
+Objend
+#Vnum 46594
+Name bia³a szata kapturem~
+Odmiana bia³ej szaty z kapturem~bia³ej szacie z kapturem~bia³± szatê z kapturem~bia³± szat± z kapturem~bia³ej szacie z kapturem~
+Short bia³a szata z kapturem~
+Descr Piêkna, bia³a szata wykonana z miêkkiego materia³u le¿y tutaj.~
+Material jedzenie~
+Type clothing
+ExtraExt 0|K/1|A
+Wear ACDEFGLMT
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 20
+Cond 100
+Itemdesc Bia³a szata z kapturem zosta³a uszyta z najlepszego gatunku jedwabiu. Ma
+piêkne wykoñczenia na rêkawach, szycia na piersi z³otymi niæmi i jaki¶ ma³y
+niewyra¼ny herb. Ciekawe co oznacza mo¿e herb wyznawców bogini {CViseen{x. 
+~
+Comments ~
+Objend
+#Vnum 46596
+Name wielki pos±g~
+Odmiana wielkiego pos±gu~wielkiemu pos±gowi~wielki pos±g~wielkim pos±giem~wielkim pos±gu~
+Short wielki pos±g~
+Descr Wielki pos±g bogini {CViseen{x stoi na ¶rodku holu.~
+Material srebro~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 46597
+Name stalowy cep~
+Odmiana stalowego cepa~stalowemu cepowi~stalowego cepa~stalowym cepem~stalowym cepie~
+Short stalowy cep~
+Descr Stalowy cep jest dobr± broni±, ale jak widaæ jednak kto¶ j± porzuci³. ~
+Material stal~
+Type weapon
+ExtraExt 0|K
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 6 3 2 0 0 0 2
+Repair 0 0 0 0
+Weight 1
+Cost 1200
+Cond 100
+Itemdesc Jest to zwyk³y stalowy cep. Ma d³uga rêkoje¶æ, na której koñcu zaczepiony
+zosta³ metalowy ³añcuch. Na ³añcuchu za¶ wisi du¿a stalowa kula z
+wystaj±cymi kolcami. Broñ ta mo¿e zadaæ spore obra¿enia wrogowi. 
 ~
 Comments ~
 Objend
@@ -894,7 +1054,6 @@ LiczbaMnoga 0
 Gender 2
 Value 6 4 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2400
 Cond 75
@@ -1653,30 +1812,30 @@ M 100 46586 2 46582 2
 M 100 46583 2 46582 2
 M 100 46585 2 46583 2
 M 100 46591 2 46585 2
-E 100 4416 0 8
-E 100 4375 0 5
+E 100 3013 0 8
+E 100 46594 0 12
 M 100 46586 2 46586 2
 M 100 46591 2 46586 2
-E 100 4375 0 5
-E 100 4416 0 8
+E 100 46594 0 12
+E 100 3013 0 8
 M 100 46583 2 46587 2
 M 100 46588 1 46588 1
 M 100 46594 1 46589 1
-E 100 4417 0 8
-E 100 4397 0 5
-E 100 4405 0 6
+E 100 34139 0 5
+E 100 27309 0 8
+E 100 50375 0 6
 M 100 46587 2 46590 2
 M 100 46585 2 46590 2
 M 100 46590 1 46592 1
 M 100 46589 1 46594 1
-E 100 3050 0 7
-E 100 3018 0 5
-E 100 3001 0 8
-E 100 3128 0 16
+E 100 3382 0 7
+E 100 6465 0 5
+E 100 3380 0 8
+E 100 3048 0 16
 M 100 46592 1 46595 1
-E 100 3002 0 8
-E 100 3057 0 7
-E 100 4363 0 5
+E 100 3098 0 8
+E 100 3088 0 7
+E 100 50991 0 5
 M 100 46587 2 46596 2
 M 100 46584 2 46598 2
 M 100 46584 2 46598 2
@@ -1690,12 +1849,12 @@ S
 #46581
 ubieranie umiesnionego paladyna i paladynki
 ~
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3016
-mob equip self 3045
-mob equip self 3128
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 3297
+mob equip self 3068
+mob equip self 3048
 if rand 96
   mob oload 185 wear
 endif
@@ -1703,42 +1862,42 @@ endif
 #46582
 ubieranie kap³amów i kap³anek
 ~
-mob equip self 4362
-mob equip self 4416
-mob equip self 3297
+mob equip self 46593
+mob equip self 3013
+mob equip self 46597
 ~
 #46583
 ubieranie paladyna-klucznika
 ~
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3016
-mob equip self 3045
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 3297
+mob equip self 3068
 mob oload 46590
-mob equip self 3152
+mob equip self 46588
 ~
 #46584
 ubieranie strazników
 ~
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3016
-mob equip self 3045
-mob equip self 3152
-mob equip self 3312
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 3297
+mob equip self 3068
+mob equip self 46588
+mob equip self 46581
 ~
 #46585
 ubieranie straznika bramy
 ~
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3016
-mob equip self 3045
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 3297
+mob equip self 3068
 mob oload 46589
-mob equip self 3149
+mob equip self 3049
 ~
 #46586
 Randomy wypadaj±ce z Mistrza paladynskiego.
@@ -1747,6 +1906,10 @@ emote Pada na ziemie MARTWY!!!
 mob oload 46591
 mob oload gem 6 R
 mob oload gem 6 R
+mob olaod random 5
+mob olaod random 5
+mob olaod random 5
+mob olaod random 6
 mob oload gem 5
 mob oload gem 5
 #¦cinam randomy, bosik za s³aby na tak± rozrzutno¶æ (Karlam)
@@ -1824,6 +1987,12 @@ else
   endif
 endif
 ~
+#46593
+~
+~
+#46594
+~
+~
 #46595
 ~
 if affected $i paralyze
@@ -1848,6 +2017,9 @@ else
   break
 endif
 ~
+#46597
+~
+~
 #46598
 eq Mistrza paladyñskiego.
 ~
@@ -1855,26 +2027,26 @@ if rand 99
   if canloadarte 29087
     mob aload 29087 wield
   else
-    mob equip self 3145
+    mob equip self 3023
   endif
 endif
-mob equip self 3145
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3016
-mob equip self 3045
+mob equip self 3023 hold
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 3297
+mob equip self 3068
 if rand 80
   mob oload 46599 wear
 endif
 ~
 #46599
 ~
-mob equip self 3179
-mob equip self 3179 hold
-mob equip self 3018
-mob equip self 3001
-mob equip self 3050
+mob equip self 3022
+mob equip self 3022 hold
+mob equip self 6465
+mob equip self 3380
+mob equip self 3382
 ~
 #wens_random
 ~
@@ -1906,46 +2078,20 @@ mob echoaround $n Rozwalaj±c kajdanki $n uwalnia Wensauriusa.
 mob echo Dziwna fala mocy przechodzi przez twoje cia³o.
 mob damage all 1000 1000 
 mob purge
-if rand 50
-  mob oload rando 1 
-endif
-if rand 50
-  mob oload weapon 1 r 
-endif
-if rand 50
-  mob oload weapon 1 r
-endif
-if rand 50
-  mob oload weapon 1 r
-endif
-if rand 50
-  mob oload gem 1 r
-endif
-if rand 50
-  mob oload gem 1 r
-endif
-if rand 50
-  mob oload neck 1 r
-endif
-if rand 50
-  mob oload ear 1 r
-endif
-mob oload 3370 room
-if rand 50
-  mob oload weapon 1 i 3370
-endif
-if rand 50
-  mob oload shield 1 i 3370
-endif
-if rand 50
-  mob oload gem 1 i 3370
-endif
-if rand 50
-  mob oload wrist 1 i 3370
-endif
-if rand 50
-  mob oload neck 1 i 3370
-endif
+mob oload random 6 
+mob oload weapon 2 r 
+mob oload weapon 2 r
+mob oload weapon 3 r
+mob oload gem 6 r
+mob oload gem 4 r
+mob oload neck 6 r
+mob oload ear 2 r
+mob oload 46592 r
+mob oload weapon 7 i 46592
+mob oload shield 5 i 46592
+mob oload gem 2 i 46592
+mob oload wrist 1 i 46592
+mob oload neck 2 i 46592
 mob oload 46563
 mob oload 46563 r
 ~
@@ -1977,8 +2123,6 @@ foreachingroup $n
     if ishere $n
       mob echoat $n Przeciskasz sie przez krzaki.
       mob echoaround $n $n przeciska sie z trudem przez krzaki.
-      mob at 42460  mob echo $n wychodzi z krzakow.
-      mob transfer $n  42460
     else
       end
     endif
@@ -1994,6 +2138,9 @@ if !roomhasflag otwarte
     mob echo Krzaki wracaja na stare miejsce. 
   endif
 endif
+~
+#46594
+~
 ~
 #0
 

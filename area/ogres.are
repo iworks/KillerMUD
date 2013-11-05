@@ -67,7 +67,7 @@ przechodz± ciê ciarki. Nie jest to bezmy¶lne spojrzenie typowe dla ogrów, w
 jego oczach czai siê co¶ demonicznego. 
 ~
 Race ogr~
-ActExt 0|ACFGRX
+ActExt 0|ACFR
 Affected 8 0 0 0
 AffectedExt 0|D
 Align -700
@@ -94,15 +94,12 @@ Form AEFHMV
 Parts ABCDEFGHIJKRUV
 Size large
 Material unknown
-Comments Dodany resist charm 100%. Powód - mob z summonem, mo¿liwy do charmowania? Mo¿na by sobie summonowaæ graczy nie bêd±c summonerem. - {RHorg{x ({CTue Apr  2 22:48:25 2013{x)
-~
 MobprogNew onload 8202 ABCDEFGHI 100~
 Spells 149 137 203 93
 Spells 92 193 88 69
 Spells 163 201 94 0
 Skin 100
 ExpMultiplier 100
-Resist 12 100
 Mobend
 #Vnum 8202
 Name Ork~
@@ -809,16 +806,67 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 0
 Cond 100
 Itemdesc ~
 Comments ~
+Objend
+#Vnum 8201
+Name kosc golen dluga~
+Odmiana d³ugiej ko¶ci~d³ugiej ko¶ci~d³uga ko¶æ~d³ug± ko¶ci±~d³ugiej ko¶ci~
+Short d³uga ko¶æ~
+Descr D³uga i cie¿ka ko¶æ le¿y tutaj.~
+Material ko¶æ~
+Type weapon
+ExtraExt 0|d
+Wear AN
+Wear2Ext 0|EFGHIJ
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 2 7 27 32 -2 0
+Repair 0 0 0 0
+Weight 300
+Cost 0
+Cond 100
+Itemdesc Dluga i ciezka kosc jakiegos zwierzecia. Na calej dlugosci widac slady
+zarysowan i pekniec, prawdopodobnie uzywano jej jako broni. Wlasciciel tego
+'oreza' musial byc naprawde silny, ledwo mozesz kosc utrzymac w rece a co
+dopiero tym wywijac. 
+~
+Comments ~
+Objend
+#Vnum 8205
+Name z³oty pier¶cieñ~
+Odmiana z³otego pier¶cienia~z³otemu pier¶cieniowi~z³oty pier¶cieñ~z³otym pier¶cieniem~z³otym pier¶cieniu~
+Short z³oty pier¶cieñ~
+Descr Z³oty pier¶cieñ le¿y tutaj.~
+Material z³oto~
+Type jewelry
+ExtraExt 0|ABG
+Wear AB
+Wear2Ext 0|O
+Bonus 0
+Rent 22
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 13200
+Cond 100
+Aff 1 24 -1 0 0 0
+Aff 1 23 -2 0 0 0
+Comments doda³em flagê burn_prof i magic - {RGurthg{x ({CThu Sep 18 09:17:14 2003{x)
+zdj±³em bonus do AC bo to bzdura, ¿eby pier¶cienie dawa³y tego typu bonus - {RGurthg{x ({CThu Sep 18 09:17:23 2003{x)
+~
 Objend
 #Vnum 8206
 Name talizman adamant adamantowy~
@@ -831,11 +879,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 40
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 6000
 Cond 100
@@ -852,11 +900,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 6000
 Cond 100
@@ -873,11 +921,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 6000
 Cond 100
@@ -894,11 +942,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 6000
 Cond 100
@@ -915,11 +963,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 100
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 12000
 Cond 100
@@ -936,14 +984,115 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 300
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 60000
 Cond 100
+Comments ~
+Objend
+#Vnum 8213
+Name trepy skórzane pdniszczone ogromne buty~
+Odmiana skórzanych trepów~skórzanym trepom~skórzane trepy~skórzanymi trepami~skórzanych trepach~
+Short skórzane trepy~
+Descr Wielkie i rozpadaj±ce siê skórzane trepy.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 180
+Cond 10
+Itemdesc Te ogromne, wykonane ze skóry buty i szczerze mówi±c rozpadaj±ce sie
+obuwie zas³uguje tylko na jedn± nazwê - trep. Zauwa¿asz, ¿e sa okrutnie
+wytarte, a podeszwa powoli odrywa siê od reszty buta. Niemniej stanowi±
+jeszcze ca³kiem przyzwoit± ochronê stóp. 
+~
+Comments ~
+Objend
+#Vnum 8216
+Name gigantyczna maczuga ogromna~
+Odmiana gigantycznej maczugi~gigantycznej maczudze~gigantyczn± maczugê~gigantyczn± maczugê~gigantycznej maczudzê~
+Short gigantyczna maczuga~
+Descr Jaka¶ ogromna maczuga, a w³a¶ciwie kawa³ek drzewa le¿y tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|EHI
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 4 3 5 8 32 -2 0
+Repair 0 0 0 0
+Weight 250
+Cost 3000
+Cond 75
+Itemdesc Jest to ogromnych rozmiarów maczuga. Zosta³a ona wykonana z drewna, ale
+niezbyt starannie. Z pewno¶ci± jaki¶ gigant wyrwa³ sobie kawa³ek drzewa i
+oskroba³, by wykonaæ to co¶. 
+~
+Comments ~
+Objend
+#Vnum 8217
+Name wytarte dziurawe spodnie~
+Odmiana wytartych spodni~wytartym spodniom~wytarte spodnie~wytartymi spodniami~wytartych spodniach~
+Short wytarte spodnie~
+Descr D³ugie, szerokie i bardzo wytarte spodnie.~
+Material filc~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 75
+Itemdesc Te d³ugie i bardzo szerokie spodnie s± strasznie wytarte! Kto¶ musia³ w
+nich chodziæ kawa³ czasu i by³ to kto¶ o wiele wiêkszy ni¿ ty. Czujesz
+nieprzyjemny zapach bij±cy od spodni. A fu! 
+~
+Comments ~
+Objend
+#Vnum 8218
+Name kamienna masywna maczuga wielka~
+Odmiana wielkiej kamiennej maczugi~wielkiej kamiennej maczudze~wielk± kamienn± maczugê~wiek± kamienn± maczug±~wielkiej kamiennej maczudze~
+Short wielka kamienna maczuga~
+Descr Potê¿na, wyciosana ze stalagmitu maczuga.~
+Material kamieñ~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 50
+LiczbaMnoga 0
+Gender 0
+Value 4 3 5 8 32 -2 2
+Repair 0 0 0 0
+Weight 400
+Cost 0
+Cond 99
+Itemdesc Ta ogromna, wyciosana z ogromnego stalagmitu lub stalaktytu maczuga jest
+niesamowicie ciê¿ka! Jak w ogóle mo¿na my¶leæ o walce takim kolosem...
+Zastanawia ciê fakt jaka istota mog³a tego dobywaæ. 
+~
 Comments ~
 Objend
 #Vnum 8219
@@ -952,16 +1101,16 @@ Odmiana zw³ok~zw³okom~zw³oki~zw³okami~zw³okach~
 Short zw³oki cz³owieka~
 Descr Lekko przegni³e zw³oki, najprawdopodobniej cz³owieka, le¿± tutaj.~
 Material ko¶æ~
-Type npc_corpse
+Type container
 ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
-Value 0 0 0 0 0 0 0
+Value 100 0 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2500
 Cost 0
 Cond 30
@@ -985,11 +1134,11 @@ ExtraExt 0|T
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 156
 LiczbaMnoga 0
 Gender 0
 Value 5 6 460 370 301 10 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 28020
 Cond 45
@@ -1009,17 +1158,64 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
 Itemdesc Widzisz do¶æ swie¿e cia³o poszukiwacza przygód. Powinno byæ one dla
 ciebie ostrze¿eniem, przed zapuszczeniem siê w g³±b tych terenów. 
 ~
+Comments ~
+Objend
+#Vnum 8222
+Name przepaska obszarpana skorzana~
+Odmiana skorzanej przepaski~skorzanej przepasce~skorzana przepaske~skorzana przepaska~skorzanej przepasce~
+Short obszarpana, skórzana przepaska~
+Descr Kawa³ obszarpanej skóry le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 10 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 120
+Cond 45
+Comments ~
+Objend
+#Vnum 8223
+Name skóra wilcza~
+Odmiana {Wwilczej skóry{X~{Wwilczej skórze{X~{Wwilcz± skórê{X~{Wwilcz± skór±{X~{Wwilczej skórze{X~
+Short {Wwilcza skóra{X~
+Descr Piêkna{W wilcza skora{X le¿y na ziemi.~
+Material skóra~
+Type armor
+ExtraExt 1|A
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 221
+Cost 1200
+Cond 75
+Itemdesc Przepiêknie wygarbowana, jasna skóra z ogromnego wilka zosta³a obszyta
+ró¿nokolorow± nitk± w któr± wpleciono niewielkie w³ókienka metalu. Dziêki
+temu jej krawêdzie mieni± siê i l¶ni±. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 8224
@@ -1033,11 +1229,11 @@ ExtraExt 0
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 6
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 2400
 Cond 100
@@ -1049,13 +1245,106 @@ znajduj± siê miêdzy brwiami istoty która go za³o¿y.
 ~
 Comments ~
 Objend
+#Vnum 8225
+Name skórzany p³aszcz~
+Odmiana skórzanego p³aszcza~skórzanemu p³aszczowi~skórzany p³aszcz~skórzanym p³aszczem~skórzanym p³aszczu~
+Short skórzany p³aszcz~
+Descr Skórzany p³aszcz le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 1|A
+Wear ADLM
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 310
+Cost 25
+Cond 30
+Itemdesc Wielki i wygl±daj±cy na ciê¿ki p³aszcz, zosta³ wykonany z prymitywnie
+garbowanej, grubej skóry. Nie jest za ciep³y, ale mo¿e chroniæ przed
+niektórymi dziwnymi zjawiskami. 
+~
+Comments ~
+Objend
+#Vnum 8226
+Name skórzany rzemyk malutki porzucony~
+Odmiana skórzanego rzemyka~skórzanemu rzemykowi~skórzany rzemyk~skórzanym rzemykiem~skórzanym rzemyku~
+Short skórzany rzemyk~
+Descr Malutki skórzany rzemyk le¿y porzucony.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AM
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1
+Cond 60
+Comments ~
+Objend
+#Vnum 8227
+Name zniszczona skórzana zbroja~
+Odmiana skórzanej zbroi~skórzanej zbroi~skórzan± zbrojê~skórzan± zbroj±~skórzanej zbroii~
+Short zniszczona skórzana zbroja~
+Descr Le¿y tutaj zniszczona skórzana zbroja.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 600
+Cond 75
+Itemdesc Jest to stara i zniszczona ju¿ zbroja zrobiona ze skóry jakiego¶ zwierzêcia.
+~
+Comments ~
+Objend
+#Vnum 8228
+Name zwierzêce skóry~
+Odmiana zwierzêcych skór~zwierzêcym skórom~zwierzêce skóry~zwierzêcymi skórami~zwierzêcych skórach~
+Short zwierzêce skóry~
+Descr Zwiniête w k³êbek zwierzêce skóry le¿± tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0|S
+Wear AD
+Wear2Ext 0|C
+Bonus 0
+Rent 18
+LiczbaMnoga 0
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 3000
+Cond 75
+Itemdesc S± to skóry zwierzêce niezgrabnie zszyte ze sob±, tworz±ce co¶ na kszta³t
+zbroi. 
+~
+Comments ~
+Objend
 #Vnum 0
 
 
 
 #ROOMS
 #Vnum 8200
-Name {YFree{x~
+Name Waska sciezka~
 Descr Zwykla sciezka, dwoje duzych zwierzat chyba tedy nie przejdzie. Jedno
 bedzie musialo ustapic. Gdyby zas na przyklad nie zwierzeta, ale ogry tedy
 przechodzily moglaby sie latwo wywiazac jakas bitka. W koncu jak wiadomo
@@ -1090,7 +1379,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8201
-Name {YFree{x~
+Name Waska sciezka~
 Descr Zwykla sciezka, dwoje duzych zwierzat chyba tedy nie przejdzie. Jedno
 bedzie musialo ustapic. Gdyby zas na przyklad nie zwierzeta, ale ogry tedy
 przechodzily moglaby sie latwo wywiazac jakas bitka. W koncu jak wiadomo
@@ -1125,7 +1414,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8202
-Name {YFree{x~
+Name Waska sciezka~
 Descr Zwykla sciezka, dwoje duzych zwierzat chyba tedy nie przejdzie. Jedno
 bedzie musialo ustapic. Gdyby zas na przyklad nie zwierzeta, ale ogry tedy
 przechodzily moglaby sie latwo wywiazac jakas bitka. W koncu jak wiadomo
@@ -1160,7 +1449,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8203
-Name {YFree{x~
+Name Mala polanka~
 Descr Nieduza polanka, trawa tutaj jakas nierowna i ciemna, troche zdziczala. Z
 boku polanki leza jakies galezie i liscie, chyba opadlo to wszystko z drzew
 i ktos je tam zaciagnal. Slychac szum drzew, rzadko bo rzadko . . . Hmm,
@@ -1192,11 +1481,22 @@ Exit 2
 ~
 ~
 0 0 8204
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8208
+ExitExtEnd
+Exit 3
+~
+~
+0 0 8208
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 8204
-Name {YFree{x~
+Name Wydeptana sciezka~
 Descr Sciezka kiedys chyba zostala solidnie wydeptana a potem wylozona
 kamieniami, zeby sie to wszystko pewnie nie rozlazilo kiedy byle deszcz
 popada. Czesc z tych kamieni jest porozgniatana czyms jak kopyta konskie
@@ -1230,7 +1530,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8205
-Name {YFree{x~
+Name Wydeptana sciezka~
 Descr Sciezka kiedys chyba zostala solidnie wydeptana a potem wylozona
 kamieniami, zeby sie to wszystko pewnie nie rozlazilo kiedy byle deszcz
 popada. Czesc z tych kamieni jest porozgniatana czyms jak kopyta konskie
@@ -1264,7 +1564,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8206
-Name {YFree{x~
+Name Polana~
 Descr Polane porasta niewysoka trawa, przez srodek, w kierunku
 poludniowo-polnocnym wydeptana jest dosc szeroka sciezka. Z kierunku
 poludniowego slychac jednostajny szum, prawdopodobnie gdzies tam jest jakis
@@ -1298,7 +1598,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8207
-Name {YFree{x~
+Name Polanka ko³o wodospadu~
 Descr Calkiem uroczy zakatek, nieduza polana otoczona z trzech stron lasem. Od
 poludnia majestatycznie wznosi sie skalisty pagorek z którego spada
 wodospad. Byloby to wspaniale miejsce na odpoczynek gdyby nie walajace sie u
@@ -1337,12 +1637,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 8377
+ExitExtToVnum 8203
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 8377
+0 0 8203
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1791,17 +2091,6 @@ Exit 0
 ~
 ~
 0 0 8219
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67394
-ExitExtEnd
-Exit 1
-~
-~
-0 0 67394
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1813,17 +2102,6 @@ Exit 2
 ~
 ~
 0 0 15901
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67387
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67387
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -8139,7 +8417,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8369
-Name {YFree{x~
+Name Piaszczysta ¶cie¿ka~
 FlagsExt 0
 Sector 28
 ExitExt 1
@@ -8169,7 +8447,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8370
-Name {YFree{x~
+Name W±ska ¶cie¿ka~
 FlagsExt 0
 Sector 28
 ExitExt 1
@@ -8199,7 +8477,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8371
-Name {YFree{x~
+Name Na w±skiej ¶cie¿ce~
 FlagsExt 0
 Sector 28
 ExitExt 1
@@ -8229,7 +8507,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8372
-Name {YFree{x~
+Name Lekki zakrêt ¶cie¿ki~
 FlagsExt 0
 Sector 28
 ExitExt 0
@@ -8259,7 +8537,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8373
-Name {YFree{x~
+Name ¦cie¿ka~
 FlagsExt 0
 Sector 28
 ExitExt 1
@@ -8289,7 +8567,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8374
-Name {YFree{x~
+Name Niewielka dró¿ka~
 FlagsExt 0
 Sector 28
 ExitExt 1
@@ -8319,7 +8597,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8375
-Name {YFree{x~
+Name Dró¿ka~
 FlagsExt 0
 Sector 28
 ExitExt 2
@@ -8349,7 +8627,7 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 8376
-Name {YFree{x~
+Name Zakrêt drogi~
 FlagsExt 0
 Sector 28
 ExitExt 0
@@ -8363,6 +8641,17 @@ Exit 0
 ~
 ~
 0 0 8375
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 8377
+ExitExtEnd
+Exit 1
+~
+~
+0 0 8377
 DayRDesc 8200
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8387,12 +8676,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 8208
+ExitExtToVnum 8376
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 8208
+0 0 8376
 DayRDesc 8200
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8453,17 +8742,6 @@ Exit 1
 ~
 ~
 0 0 25050
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67401
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67401
 DayRDesc 8200
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -8472,17 +8750,6 @@ Roomend
 Name Na niewielkiej drodze~
 FlagsExt 0
 Sector 28
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52694
-ExitExtEnd
-Exit 0
-~
-~
-0 0 52694
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8497,14 +8764,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 3799
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 3799
+16 0 3799
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -8568,6 +8835,16 @@ S
 
 
 #RESETS
+M 100 8213 1 8200 1
+E 100 3066 0 5
+E 100 3068 0 6
+E 100 3312 0 11
+E 100 3374 0 16
+E 100 3309 0 8
+E 100 3016 0 7
+E 100 3017 0 13
+E 100 3375 0 12
+E 100 3301 0 3
 M 100 8205 10 8201 1
 M 100 8205 10 8203 1
 M 100 8205 10 8205 1
@@ -8576,10 +8853,10 @@ M 100 8205 10 8208 1
 M 100 8205 10 8209 1
 M 100 8205 10 8211 1
 O 100 8221 0 8211
-P 100 2499 1 8221 1
-P 100 2450 1 8221 1
-P 100 3164 1 8221 1
+P 100 3025 1 8221 1
 P 100 3001 1 8221 1
+P 100 58 1 8221 1
+P 100 3380 1 8221 1
 M 100 8200 20 8214 1
 M 100 8200 20 8217 1
 M 100 8200 20 8219 1
@@ -8613,13 +8890,13 @@ S
 Broñ
 if rand 10
   if rand 66
-    mob equip self 3179
-    mob equip self 3179 hold
+    mob equip self 3022
+    mob equip self 3022 hold
   else
     if rand 50
-mob equip self 3356
+      mob equip self 8216
     else
-      mob equip self 3158
+      mob equip self 8201
       # ------
       # tarcza
       if rand 80
@@ -8628,13 +8905,13 @@ mob equip self 3356
     endif
   endif
 endif
-mob equip self 4413
-mob equip self 3010
+mob equip self 8217
+mob equip self 8213
 # -------
 # zbroja
 if rand 5
   if rand 50
-mob equip self 3018
+mob equip self 8227
   endif
 endif
 # -------
@@ -8643,24 +8920,24 @@ if rand 20
   if rand 20
     say Agreasdr!
   else
-    mob equip self 3045
+    mob equip self 3067
   endif
 else
   if rand 50
-    mob equip self 3045
+    mob equip self 3068
   else
-    mob equip self 3042
+    mob equip self 3311
   endif
 endif
 # -------
 # p³aszcz
 if rand 90
-  mob equip self 4428
+  mob equip self 8225
 endif
 # -------
 # inne
 if rand 90
-mob equip self 553
+  mob equip self 8226
 endif
 ~
 #8202
@@ -8674,18 +8951,18 @@ if rand 50
 endif
 
 if rand 90
-  mob equip self 9121
+  mob equip self 8205
 endif
 # -------------
 if rand 10
   say Roaghaa!
 endif
-mob equip self 4409
+mob equip self 8217
 # -------------
-# przepaska (legs)
-mob equip self 3050
+# pasek
+mob equip self 8222
 # -------------
-mob equip self 3017
+mob equip self 8223
 # -------------
 # diadem
 if rand 50
@@ -8694,7 +8971,11 @@ endif
 # -------------
 # broñ!
 if rand 10
-    mob equip self 3356
+  if rand 50
+mob equip self 8216
+  else
+    mob equip self 3370
+  endif
 endif
 # Prog l±duj±cy zwoje, dla wiêkszo¶ci mobow-magów.
  
@@ -8714,20 +8995,20 @@ endif
 ~
 #8205
 ~
-mob equip self 3128
-mob equip self 3025
-mob equip self 3010
-mob equip self 3050
+mob equip self 3048
+mob equip self 3372
+mob equip self 8213
+mob equip self 8217
 ~
 #8210
 ~
-mob equip self 3128
+mob equip self 3048
 mob addgroup 8211
 mob addgroup 8212
 ~
 #8213
 ~
-mob equip self 3145
+mob equip self 3023
 ~
 #8216
 ~
@@ -8780,7 +9061,10 @@ if mobhere 8208
 ~
 #eq_troll
 ~
-mob equip self 3356
+mob equip self 8218
+~
+#free13
+~
 ~
 #gem
 Losowanie gemow dla trolli na NW od Fortecy.
@@ -8842,7 +9126,7 @@ mob echoaround $n siada i zaczyna odpoczywaæ.
 ~
 #8200
 ~
-mob mload 3128
+mob mload 3048
 ~
 #8201
 ~

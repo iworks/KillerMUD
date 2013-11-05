@@ -69,11 +69,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30000
 Cost 1
 Cond 100
@@ -97,11 +97,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 500
 Cost 1
 Cond 75
@@ -109,6 +109,31 @@ Itemdesc {wJest to bia³y, nagi szkielet cz³owieka wzrostu okolo 180 centymetrów.
 Jego czaszka zosta³a doszczêtnie zdruzgotana. Ciekawe co mu siê przytrafi³a.
 Dostrzegasz, ¿e szkielet nie ma ani skrawka skóry, czy miê¶ni. Tak wiêc
 cia³o le¿a³o tutaj ju¿ do¶æ d³ugo. {x 
+~
+Comments ~
+Objend
+#Vnum 40994
+Name spora beczka~
+Odmiana beczki~beczce~beczkê~beczk±~beczce~
+Short spora beczka~
+Descr Sporej wielko¶ci stara beczka stoi tutaj.~
+Material mithril~
+Type drink
+ExtraExt 0|X
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 40
+LiczbaMnoga 0
+Gender 3
+Value 270 0 0 0 0 0 -1
+Repair 0 0 0 0
+Weight 2000
+Cost 1
+Cond 100
+Objprog get 40992 100~
+Itemdesc Jest to sporej wielko¶ci stara beczka. Jest dosyæ ciê¿ka. Czy¿by nie by³a
+z drewna? 
 ~
 Comments ~
 Objend
@@ -123,11 +148,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 1
 Gender 5
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 800
 Cost 1
 Cond 75
@@ -999,6 +1024,17 @@ Exit 1
 ~
 ~
 0 0 41008
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41012
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41012
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1028,23 +1064,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 9468
+ExitExtToVnum 41011
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 9468
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 9470
-ExitExtEnd
-Exit 1
-~
-~
-0 0 9470
+0 0 41011
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1074,12 +1099,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 9467
+ExitExtToVnum 41014
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 9467
+0 0 41014
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1096,12 +1121,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 9464
+ExitExtToVnum 41020
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 9464
+0 0 41020
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1137,6 +1162,17 @@ Exit 1
 ~
 ~
 0 0 41011
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41013
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41013
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1391,6 +1427,17 @@ Exit 1
 ~
 ~
 0 0 41014
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41020
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41020
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1415,6 +1462,39 @@ daleko ju¿ odp³yn±³e¶ od l±du i jak d³ugo bêdziesz musia³ jeszcze p³yn±æ.{x
 ~
 FlagsExt 0
 Sector 22
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41019
+ExitExtEnd
+Exit 0
+~
+~
+0 0 41019
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41013
+ExitExtEnd
+Exit 1
+~
+~
+0 0 41013
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41021
+ExitExtEnd
+Exit 3
+~
+~
+0 0 41021
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1433,34 +1513,23 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 9459
+ExitExtToVnum 41022
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 9459
+0 0 41022
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 91648
+ExitExtToVnum 41020
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 91648
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 9458
-ExitExtEnd
-Exit 3
-~
-~
-0 0 9458
+0 0 41020
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1496,6 +1565,17 @@ Exit 1
 ~
 ~
 0 0 41019
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 41021
+ExitExtEnd
+Exit 2
+~
+~
+0 0 41021
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2550,7 +2630,7 @@ S
 
 #RESETS
 O 100 40995 0 40992
-O 100 3196 0 40992
+O 100 40994 0 40992
 O 100 40993 0 40994
 O 100 40992 0 40997
 M 100 40992 4 40999 4

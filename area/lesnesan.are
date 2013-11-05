@@ -455,11 +455,11 @@ ExtraExt 0|K
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 35
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 5400
 Cond 100
@@ -479,6 +479,86 @@ prawdopodobnie to tylko z³udzenie.
 Identdesc ~
 Comments ~
 Objend
+#Vnum 24972
+Name szklana latarenka ma³a magiczna~
+Odmiana szklanej latarenki~szklanej latarence~szklan± latarenkê~szklan± latarenk±~szklanej latarence~
+Short szklana latarenka~
+Descr Ma³a szklana latarenka emituje zadziwiaj±co jasne ¶wiat³o.~
+Material szk³o~
+Type light
+ExtraExt 0
+Wear AR
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 0 7 28 0 0 0 0
+Repair 0 0 0 0
+Weight 12
+Cost 35
+Cond 100
+Itemdesc Ta dziwna latarenka wykonana ca³a ze szk³a jest zapewne dzie³em elfów. Ma
+w sobie co¶ dziwnie magicznego, zastanawiaj±cy jest fakt ¿e latarnia nie
+emituje ciep³a. Czy¿by dochodz±ce z niej ¶wiat³o by³o magiczne? 
+~
+Comments ~
+Objend
+#Vnum 24973
+Name porêczny ma³y toporek~
+Odmiana porêcznego toporka~porêcznemu toporkowi~porêczny toporek~porêcznym toporkiem~porêcznym toporku~
+Short porêczny toporek~
+Descr Niewielkich rozmiarów porêczny toporek.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 5 3 4 25 0 1 0
+Repair 0 0 0 0
+Weight 9
+Cost 3600
+Cond 75
+Objprog onehit 24971 100~
+Comments ~
+Objend
+#Vnum 24974
+Name piêkny dwurêczny miecz przeklêty miecz24974~
+Odmiana piêknego dwurêcznego miecza~piêknemu dwurêcznemu mieczowi~piêkny dwurêczny miecz~piêknym dwurêcznym mieczem~piêknym dwurêcznym mieczu~
+Short piêkny dwurêczny miecz~
+Descr Wspaniale zdobiony piêkny, dwurêczny miecz.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|EHJMa
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 200
+LiczbaMnoga 0
+Gender 2
+Value 1 3 6 42 32 1 3
+Repair 0 0 0 0
+Weight 100
+Cost 54000
+Cond 75
+Objprog unequip 24973 100~
+Objprog random 24974 5~
+Objprog wear 24972 100~
+Itemdesc Ten wspania³y miecz zdaje siê emanowaæ jak±¶ tajemnicza, ledwie
+dostrzegalna aura. Ogl±daj±c sama rêkoje¶æ dochodzisz do wniosku, i¿
+w³adanie ta broni± musi byæ niezmiernie wygodne. To bardzo gro¼na bron która
+nabiera rzeczywistej warto¶ci dopiero we wprawnych, silnych d³oniach. Na
+pewno ka¿dy osi³ek chcia³by mieæ taka "zabawkê". 
+~
+Identdesc ~
+Comments Zmieni³em mu te randomowe progi. Po 1 by³y ¼le zrobione, po 2 jakie¶ zbugowane, po 3 nie dzia³a³y. Teraz wszystko siedzi w 1 progu. - {RWicia{x ({CTue Jun 14 00:45:40 2005{x)
+~
+SpecDamExt 7 100 9 -100 -100 0 2 0
+Objend
 #Vnum 24975
 Name odciêta g³owa Keldahra glowak~
 Odmiana g³owy Keldahra~g³owie Keldahra~g³owê Keldahra~g³owa Keldahra~g³owie Keldahra~
@@ -490,15 +570,37 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 0
 Cond 75
 Comments ~
+Objend
+#Vnum 24976
+Name ciemny pancerz zbroja~
+Odmiana {Dciemnego pancerza{x~{Dciemnemu pancerzowi{x~{Dciemny pancerz{x~{Dciemnym pancerzem{x~{Dciemnym pancerzu{x~
+Short {Dciemny pancerz{x~
+Descr Le¿y tutaj jaki¶ pancerz o ciemnym odcieniu.~
+Material elfia stal~
+Type armor
+ExtraExt 0|KQ
+Wear AD
+Wear2Ext 0|V
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 4 5 3 10 9 0 0
+Repair 0 0 0 0
+Weight 130
+Cost 5100
+Cond 85
+Comments zmieni³em wagê, bo wa¿y³a 0.45 kg - {RGurthg{x ({CTue Feb 11 11:59:13 2003{x)
+~
 Objend
 #Vnum 24978
 Name ksiê¿ycowe ostrze~
@@ -511,11 +613,11 @@ ExtraExt 0|AGK
 Wear AN
 Wear2Ext 0|V
 Bonus 0
+Rent 90
 LiczbaMnoga 0
 Gender 0
 Value 1 3 4 1 8 -2 2
 Repair 0 0 0 0
-Length 109
 Weight 10
 Cost 36000
 Cond 100
@@ -525,6 +627,30 @@ jakby drzewce ³uku zamieniono ¶mierciono¶nymi ostrzami. St±d wziê³a siê
 nazwa tego nietypowego miecza: 'Ksiê¿ycowe Ostrze'. Broñ ta wykuta zosta³a w
 ku¼niach nocnych elfów i do dzi¶ jest przekazywana w rodzie protektorów
 le¶nego sanktuarium. 
+~
+Comments ~
+Objend
+#Vnum 24979
+Name ciemna pawê¿~
+Odmiana ciemnej pawê¿y~ciemnej pawê¿y~ciemn± pawê¿~ciemn± pawê¿±~ciemnej pawê¿y~
+Short ciemna pawê¿~
+Descr Dziwna pawê¿ pokryta matow± czarn± farb± le¿y na ziemi.~
+Material elfia stal~
+Type shield
+ExtraExt 0|K
+Wear AJ
+Wear2Ext 0|A
+Bonus 0
+Rent 8
+LiczbaMnoga 0
+Gender 0
+Value 4 2 25 7 0 1 0
+Repair 0 0 0 0
+Weight 200
+Cost 3900
+Cond 60
+Itemdesc Wspania³a pawê¿ pokryta czarn± matow± farb± doskonale spisuje siê jako
+zas³ona w nocy. 
 ~
 Comments ~
 Objend
@@ -539,11 +665,11 @@ ExtraExt 0
 Wear P
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 0
 Cond 100
@@ -560,11 +686,11 @@ ExtraExt 0|Yd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 50
@@ -581,15 +707,40 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
 Itemdesc {GMa³y elfi kluczyk ozdobiony wygrawerowanymi wzorkami w kszta³cie listków.{x
+~
+Comments ~
+Objend
+#Vnum 24983
+Name p³aszcz li¶cie~
+Odmiana {gp³aszcza z li¶ci{x~{gp³aszczowi z li¶ci{x~{gp³aszcz z li¶ci{x~{gp³aszczem z li¶ci{x~{gp³aszczu z li¶ci{x~
+Short {gp³aszcz z li¶ci{x~
+Descr Piêkny elfi p³aszcz zrobiony z ogromnych li¶ci prastarego dêbu.~
+Material p³ótno~
+Type clothing
+ExtraExt 0|S
+Wear AK
+Wear2Ext 0|ADM
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 90
+Cond 100
+Aff 1 17 -1 0 0 0
+Itemdesc Ten piêkny p³aszcz zrobiony jest ze zszytych ze sob± z³ot± nici± grubych
+li¶ci ogromnego, prastarego dêbu ¿ycia. 
 ~
 Comments ~
 Objend
@@ -604,11 +755,11 @@ ExtraExt 0|GT
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 156
 LiczbaMnoga 0
 Gender 0
 Value 5 6 246 247 301 272 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 28020
 Cond 100
@@ -618,6 +769,29 @@ wykonany z dziwnego, skóropodobnego materia³u. Po¶rodku widaæ przepiêknie
 rze¼bione zapiêcie. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 24985
+Name Szeroki elfi miecz~
+Odmiana szerokiego miecza~szerokiemu mieczowi~szeroki miecz~szerokim mieczem~szerokim mieczu~
+Short szeroki elfi miecz~
+Descr Szeroki elfi miecz le¿y tu i po³yskuje w s³oñcu.~
+Material elfia stal~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 7
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 1 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 3000
+Cond 75
+Itemdesc Szeroki miecz wykonany z elfiej stali.
+~
 Comments ~
 Objend
 #Vnum 0
@@ -646,17 +820,6 @@ Exit 1
 ~
 ~
 0 0 24972
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 5820
-ExitExtEnd
-Exit 2
-~
-~
-0 0 5820
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1089,10 +1252,10 @@ S
 #MOBPROGSNEW
 #24971
 ~
-mob equip self 3324
-mob equip self 3026
-mob equip self 3002
-mob equip self 3318
+mob equip self 24972
+mob equip self 24976
+mob equip self 3098
+mob equip self 24979
 mob oload 24982
 ~
 #24972
@@ -1109,7 +1272,7 @@ endif
 #24973
 ~
 if rand 60
-  mob oload 3128 room
+  mob oload 24974 r
 else
   if rand 50
     mob oload gem 4 r
@@ -1132,7 +1295,7 @@ emote ryczy g³o¶no, balansuj±c przez chwilê potê¿nym cia³em po czym upada na zie
 ~
 #24974
 ~
-mob equip self 3172
+mob equip self 24973
 ~
 #24975
 ~
@@ -1226,32 +1389,103 @@ endif
 ~
 #24979_on_load
 ~
-mob equip self 3026
-mob equip self 3002
-mob equip self 3318
-mob equip self 3179
+mob equip self 24976
+mob equip self 3098
+mob equip self 24979
+mob equip self 24985
 ~
 #etharia_on_load
 ~
-mob equip self 3324
-mob equip self 3026
-mob equip self 3002
+mob equip self 24972
+mob equip self 24976
+mob equip self 3098
 if rand 2
-  mob equip self 3318
+  mob equip self 24979
 else
   if canloadarte 29254
     mob aload 29254 w
   else
-    mob equip self 3318
+    mob equip self 24979
   endif
 endif
 mob oload 24982
 mob addgroup 24979
 mob addgroup 24979
 ~
+#free_1
+~
+~
 #0
 
 #OBJPROGSNEW
+#24971
+~
+$_rand = int_random 3 10
+mob onehitmod 0 $_rand
+mob echoat $n Rzucasz porêcznym toporkiem w swojego przeciwnika!
+mob echoaround $n $n rzuca porêcznym toporkiem w swojego przeciwnika.
+mob remove $n 24973
+mob oload 24973 R
+~
+#24972
+~
+mob addaff $n int -15 -1 'szal'
+mob addaff $n dex -5 -1 'szal'
+mob addaff $n hitroll -4 -1 'szal'
+mob setflag $n kierunki -1
+mob echoat $n Dobywaj±c miecza czujesz jak odchodzisz od zmys³ów!
+mob echoaround $n $n dobywa piêknego miecza i momentalnie zaczyna dziwnie siê zachowywaæ!
+~
+#24973
+~
+mob delaff $n 'szal'
+mob removeflag $n kierunki
+mob echoat $n Opuszczaj±c miecz czujesz siê o wiele lepiej.
+mob echoaround $n $n u¶miecha siê delikatnie opuszczaj±c piêkny miecz.
+~
+#24974
+~
+if !isnpc $n
+  if hasflag $n kierunki_miecz
+    break
+  endif
+
+  if rand 66
+    mob force $n north
+    mob force $n west
+    mob setflag $n kierunki_miecz 7
+  else
+    if rand 50
+      mob setflag $n kierunki_miecz 7
+      mob force $n south
+      mob force $n east
+    endif
+  endif
+
+  if hasflag $n rest_sleep_miecz
+    break
+  endif
+
+  if rand 88
+    mob setflag $n rest_sleep_miecz 5
+    mob force $n rest
+  else
+    if rand 50
+      mob setflag $n rest_sleep_miecz 5
+      mob force $n sleep
+    else
+      if rand 50
+        mob setflag $n rest_sleep_miecz 5
+        mob force $n sit
+      endif
+    endif
+  endif
+
+  if rand 66
+    mob force $n kill $d
+  endif
+endif
+~
 #24976
 ~
 mob remember $r
@@ -1262,6 +1496,12 @@ mob echoat $q $n macha w¶ciekle mieczem rani±c ciê!
 mob damage $q 30 45
 mob force $n kill $q
 endif
+~
+#free1
+~
+~
+#free2
+~
 ~
 #0
 

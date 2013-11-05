@@ -13,6 +13,80 @@ End
 
 
 #MOBILES
+#Vnum 20500
+Name zbir~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Long (no long description)~
+Descr ~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 20501
+Name nied¼wied¼~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Long (no long description)~
+Descr ~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 0
 
 
@@ -29,11 +103,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 400
 Cost 1
 Cond 100
@@ -891,20 +965,9 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 20526
-Name U podnó¿y murów~
+Name Brzeg lasu~
 FlagsExt 0
 Sector 3
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 13126
-ExitExtEnd
-Exit 0
-~
-~
-0 0 13126
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -916,23 +979,23 @@ Exit 1
 ~
 ~
 0 0 20527
-ExitExt 3
+ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 13130
+ExitExtToVnum 20529
 ExitExtEnd
-Exit 3
+Exit 2
 ~
 ~
-0 0 13130
+0 0 20529
 DayRDesc 20501
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 20527
-Name Lasek pod murem~
+Name Brzeg lasu przy wierzach~
 FlagsExt 0
 Sector 3
 ExitExt 0
@@ -957,6 +1020,17 @@ Exit 1
 ~
 ~
 16 0 10151
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20528
+ExitExtEnd
+Exit 2
+~
+~
+0 0 20528
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -973,9 +1047,31 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 20528
-Name Pod murami~
+Name Brzeg lasu w pobli¿u gnomich osiedli~
 FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20527
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20527
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 10191
+ExitExtEnd
+Exit 1
+~
+~
+16 0 10191
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -992,9 +1088,20 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 20529
-Name Przy murze~
+Name Brzeg lasu~
 FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 20526
+ExitExtEnd
+Exit 0
+~
+~
+0 0 20526
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1006,17 +1113,6 @@ Exit 1
 ~
 ~
 0 0 20528
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 16
-ExitExtKey 0
-ExitExtToVnum 10151
-ExitExtEnd
-Exit 3
-~
-~
-16 0 10151
 DayRDesc 20501
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1074,32 +1170,28 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 09~
-Desc Gdzie nie spojrzysz widzisz drzewa, widok ten powtarza sie do znudzenia.
-Najwyzsza pora zbierac manatki i ruszac w dalsza podróz. Ku cywilizacji! Ku
-przygodzie! Ewentualnie mozesz zostac tutaj i zapuscic korzenie... 
+#Name 01~
+Desc Zielony las, pelen przeróznych drzew i krzaków, miejsce nie rózni sie
+niczym od innych podobnych lasów i puszczy. 
 ~
-Group 3
+Group 1
 End
-#Name 08~
-Desc Z kazdej strony otaczaja cie drzewa, nic tylko drzewa i drzewa. Zaczyna
-to byc niezwykle nudne. Chyba najwyzsza pora ruszac w dalsza droge, no chyba
-ze postanowiliscie zapuscic tutaj korzenie, tylko po co? 
+#Name 02~
+Desc Pelen zieleni drzew i krzaków las, miejsce standardowe, nie rózniace sie
+niczym od innych, temu podobnych miejsc. 
 ~
-Group 3
+Group 1
 End
-#Name 07~
-Desc Monotonia, to glówny powód zniechecajacy do dalszego postoju tutaj. W
-kolo nic tylko drzewa, drzewa, aaa i jeszcze drzewa... Chyba najwyzszy czas
-ruszac w droge. W przeciwnym wypadku móglbys zapuscic tutaj korzenie i
-dolaczyc do otaczajacych cie... Drzew. 
+#Name 03~
+Desc Standardowy las, nie rózniacy sie niczym od innych. Jest pelny
+przeróznych krztaltów drzew i krzewów, w skrócie nuda. 
 ~
-Group 3
+Group 1
 End
-#Name 06~
-Desc W kolo pelno drzew o roznych ksztaltach, niektóre wygladaja dosc
-karykaturalnie. W okolicy, co jakis czas, slychac przejezdzajacy wóz, to
-zapewne kupcy wedruja ku kolejnym miastom. 
+#Name 04~
+Desc Jedyne co tutaj mozna spotkac to drzewa, jednak nie sadze by byla to
+najlepsza kompania do pogawedki, nie licz na towarzystwo. W okolicy jest
+jakas droga, umozliwiajaca dalsza podróz. 
 ~
 Group 2
 End
@@ -1110,30 +1202,34 @@ Desc Pelne nudy i monotonii miejsce otoczone drzewami z kazdej stron, w
 ~
 Group 2
 End
-#Name 04~
-Desc Jedyne co tutaj mozna spotkac to drzewa, jednak nie sadze by byla to
-najlepsza kompania do pogawedki, nie licz na towarzystwo. W okolicy jest
-jakas droga, umozliwiajaca dalsza podróz. 
+#Name 06~
+Desc W kolo pelno drzew o roznych ksztaltach, niektóre wygladaja dosc
+karykaturalnie. W okolicy, co jakis czas, slychac przejezdzajacy wóz, to
+zapewne kupcy wedruja ku kolejnym miastom. 
 ~
 Group 2
 End
-#Name 03~
-Desc Standardowy las, nie rózniacy sie niczym od innych. Jest pelny
-przeróznych krztaltów drzew i krzewów, w skrócie nuda. 
+#Name 07~
+Desc Monotonia, to glówny powód zniechecajacy do dalszego postoju tutaj. W
+kolo nic tylko drzewa, drzewa, aaa i jeszcze drzewa... Chyba najwyzszy czas
+ruszac w droge. W przeciwnym wypadku móglbys zapuscic tutaj korzenie i
+dolaczyc do otaczajacych cie... Drzew. 
 ~
-Group 1
+Group 3
 End
-#Name 02~
-Desc Pelen zieleni drzew i krzaków las, miejsce standardowe, nie rózniace sie
-niczym od innych, temu podobnych miejsc. 
+#Name 08~
+Desc Z kazdej strony otaczaja cie drzewa, nic tylko drzewa i drzewa. Zaczyna
+to byc niezwykle nudne. Chyba najwyzsza pora ruszac w dalsza droge, no chyba
+ze postanowiliscie zapuscic tutaj korzenie, tylko po co? 
 ~
-Group 1
+Group 3
 End
-#Name 01~
-Desc Zielony las, pelen przeróznych drzew i krzaków, miejsce nie rózni sie
-niczym od innych podobnych lasów i puszczy. 
+#Name 09~
+Desc Gdzie nie spojrzysz widzisz drzewa, widok ten powtarza sie do znudzenia.
+Najwyzsza pora zbierac manatki i ruszac w dalsza podróz. Ku cywilizacji! Ku
+przygodzie! Ewentualnie mozesz zostac tutaj i zapuscic korzenie... 
 ~
-Group 1
+Group 3
 End
 #DescEnd
 

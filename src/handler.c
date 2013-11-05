@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: handler.c 11986 2013-01-23 13:13:07Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/handler.c $
+ * $Id: handler.c 10900 2012-01-27 05:46:14Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/handler.c $
  *
  */
 #if defined(macintosh)
@@ -341,6 +341,8 @@ bool is_old_mob(CHAR_DATA *ch)
 int get_skill( CHAR_DATA *ch, int sn )
 {
     int skill = 0;
+    int wisdom_mod = 100;
+
     if ( sn == -1 )  /* shorthand for level based skills */
     {
         skill = ch->level * 5 / 2;
@@ -627,31 +629,40 @@ int get_skill( CHAR_DATA *ch, int sn )
         {
             skill = ( EXT_IS_SET( ch->act, ACT_WARRIOR ) || EXT_IS_SET( ch->act, ACT_BARBARIAN ) || EXT_IS_SET( ch->act, ACT_PALADIN ) || EXT_IS_SET( ch->act, ACT_BLACK_KNIGHT ) ) ? 30 + ch->level * 2 : 10 + 3 * ch->level / 2;
         }
-        /**
-         * modyfikacja w zaleznosci od wiedzy moba
-         */
-        skill = URANGE( 25, get_curr_stat( ch, STAT_WIS ), 150 ) * skill / 100;
-    }
 
-    if ( skill == 0 )
-    {
-        return skill;
+        switch ( get_curr_stat_deprecated( ch, STAT_WIS ) )
+        {
+            case 8: wisdom_mod = 30; break;
+            case 9: wisdom_mod = 35; break;
+            case 10: wisdom_mod = 40; break;
+            case 11: wisdom_mod = 45; break;
+            case 12: wisdom_mod = 50; break;
+            case 13: wisdom_mod = 60; break;
+            case 14: wisdom_mod = 70; break;
+            case 15: wisdom_mod = 80; break;
+            case 16: wisdom_mod = 90; break;
+            case 17: wisdom_mod = 95; break;
+            case 18: wisdom_mod = 100;break;
+            case 19: wisdom_mod = 105;break;
+            case 20: wisdom_mod = 105;break;
+            case 21: wisdom_mod = 110;break;
+            case 22: wisdom_mod = 115;break;
+            case 23: wisdom_mod = 115;break;
+            case 24: wisdom_mod = 120;break;
+            case 25: wisdom_mod = 130;break;
+            case 26: wisdom_mod = 135;break;
+            case 27: wisdom_mod = 140;break;
+            case 28: wisdom_mod = 150; break;
+            default: wisdom_mod = 25;break;
+        }
+
+        skill = wisdom_mod * skill / 100;
     }
 
     /* jesli ma daze to skille spadaja do 1/4 wartosci */
     if ( ch->daze > 0 && skill > 0 )
-    {
         skill = UMAX( 1, skill / 4 );
-    }
-    if ( IS_AFFECTED( ch, AFF_SEAL_OF_ATROCITY ) && skill > 0 )
-    {
-        AFFECT_DATA *seal;
-        for( seal = ch->affected ; seal; seal = seal->next )
-        {
-            if( seal->type == skill_lookup( "seal of atrocity" ) && seal->bitvector == &AFF_SEAL_OF_ATROCITY )
-                skill = UMAX( 1, skill - skill * seal->modifier / 100 );
-        }
-    }
+
     return URANGE( 0, skill, 100 );
 }
 
@@ -2084,7 +2095,7 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
     }
 
 #ifdef ENABLE_NEW_TRACK
-    save_track_data(ch, pRoomIndex, ch->previous_room, 1);
+    save_track_data(ch, ch->previous_room, pRoomIndex, 0);
 #endif
 
     if ( pRoomIndex == NULL )
@@ -3004,11 +3015,6 @@ void obj_to_obj( OBJ_DATA *obj, OBJ_DATA *obj_to )
     /*    if (obj_to->pIndexData->vnum == OBJ_VNUM_PIT)
           obj->cost = 0; */
 
-    if( IS_SET( obj_to->value[1], CONT_COMP ) )
-    {
-        obj->spell_item_timer = obj->spell_item_timer * WEIGHT_MULT(obj_to) / 100;
-    }
-
     for ( ; obj_to != NULL; obj_to = obj_to->in_obj )
     {
         if ( obj_to->carried_by != NULL )
@@ -3061,11 +3067,6 @@ void obj_from_obj( OBJ_DATA *obj )
             bug( "Obj_from_obj: obj not found.", 0 );
             return;
         }
-    }
-
-    if(IS_SET( obj_from->value[1], CONT_COMP)) 
-    {
-        obj->spell_item_timer = UMAX(1, (obj->spell_item_timer * 100) / WEIGHT_MULT(obj_from));
     }
 
     obj->next_content = NULL;
@@ -3242,8 +3243,6 @@ void extract_char( CHAR_DATA *ch, bool fPull )
                 && ( CHAR_DATA * ) event->arg1 == ch )
             event->deleted = TRUE;
     }
-
-    del_spirit( ch );
 
     DEBUG_INFO( "[extract_char]:removing_from_list" );
     if ( ch == char_list )
@@ -3774,9 +3773,6 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
     if(IS_NPC(victim) && victim->pIndexData->vnum==3)
         return FALSE;
 
-    if( get_spirit( ch ) || get_spirit ( victim ) )
-       return FALSE;
-
     if ( get_trust(ch) < victim->invis_level)
         return FALSE;
 
@@ -3828,11 +3824,6 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim )
             if( dazzling->level == 1 && affect_find( ch->affected, gsn_dazzling_flash)->modifier == dazzling->modifier )
                 return FALSE;
         }
-    }
-    
-    if( affect_find( ch->affected, gsn_scrying_shield) && affect_find( ch->affected, gsn_scrying_shield)->level == 1 && IS_AFFECTED( victim, AFF_SCRYING_SHIELD) )
-    {
-        return FALSE;
     }
 
     return TRUE;
@@ -6492,77 +6483,3 @@ bool check_noremovable_affects( AFFECT_DATA * aff )
     return FALSE;
 }
 
-SPIRIT_DATA * add_spirit( CHAR_DATA *ch, OBJ_DATA *corpse )
-{
-    SPIRIT_DATA * duch;
-    for ( duch = spirits; duch != NULL; duch = duch->next )
-    {
-        if ( duch->ch == ch )
-        {
-            break;
-        }
-    }
-    if ( duch != NULL )
-    {
-        return duch;
-    }
-    
-    duch = new_spirit();
-    duch->ch = ch;
-    duch->corpse = corpse;
-    duch->next = spirits;
-    spirits = duch;
-    return duch;
-}
-
-void del_spirit	( CHAR_DATA *ch )
-{
-    SPIRIT_DATA * duch = spirits;
-    if ( ch == NULL || IS_NPC( ch ) || !duch )
-    {
-         return;
-    }
-
-    if ( duch->ch == ch )
-    {
-        spirits = duch->next;
-    }
-    else
-    {
-        SPIRIT_DATA *prev;
-        for ( prev = spirits; prev != NULL; prev = prev->next )
-        {
-            duch = prev->next;
-            if ( duch && duch->ch == ch )
-            {
-                prev->next = duch->next;
-                duch->next = NULL;
-                free_spirit( duch );
-                duch = NULL;
-                break;
-            }
-        }
-        if ( prev == NULL )
-        {
-            bug( "del_spirit: ch not found.", 0 );
-            return;
-        }
-    }
-
-}
-
-SPIRIT_DATA * get_spirit ( CHAR_DATA *ch )
-{
-    if( IS_NPC( ch ) )
-        return FALSE;
-
-    SPIRIT_DATA * duch;
-    for ( duch = spirits; duch != NULL; duch = duch->next )
-    {
-        if ( duch->ch == ch )
-        {
-            return duch;
-        }
-    }
-    return FALSE;
-}

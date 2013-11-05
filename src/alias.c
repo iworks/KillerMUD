@@ -1,5 +1,5 @@
 /*
-	$Id: alias.c 11439 2012-06-18 19:26:06Z grunai $
+	$Id: alias.c 7666 2009-07-03 12:04:22Z illi $
 */
 #if defined(macintosh)
 #include <types.h>
@@ -25,12 +25,6 @@ void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
 
     ch = d->original ? d->original : d->character;
     if ( !ch ) return;
-
-    if ( get_spirit( ch ) )
-    {
-	interpret(d->character,argument);
-        return;
-    }
 
     /* check for prefix */
     if (ch->prefix[0] != '\0' && str_prefix("prefix",argument)) {
@@ -98,7 +92,6 @@ void substitute_alias(DESCRIPTOR_DATA *d, char *argument)
     &&  HAS_RTRIGGER(ch->in_room, TRIG_INPUT)
     &&  rp_input_trigger(ch,buf))
 	return;
-								DEBUG_INFO( "preinterp" );
 
     interpret(d->character,buf);
 }

@@ -15,20 +15,19 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
- * Skrzetnicki Krzysztof (gtener@gmail.com              ) [Tener     ] *
  * Trebicki Marek        (maro@killer.radom.net         ) [Maro      ] *
  * Zdziech Tomasz        (t.zdziech@elka.pw.edu.pl      ) [Agron     ] *
  *                                                                     *
  ***********************************************************************
  *
- * $Id: mob_cmds.c 12204 2013-03-29 21:17:17Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/mob_cmds.c $
+ * $Id: mob_cmds.c 11032 2012-02-25 11:25:45Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/mob_cmds.c $
  *
  */
 #include <sys/types.h>
@@ -48,7 +47,7 @@
 DECLARE_DO_FUN( do_look );
 extern ROOM_INDEX_DATA *find_location( CHAR_DATA *, char * );
 
-bool arte_can_load       args( ( unsigned int vnum) );
+bool arte_can_load       args( ( ush_int vnum) );
 int  find_door           args( ( CHAR_DATA *ch, char *arg ) );
 int  position_lookup     args( ( const char *name) );
 void do_function         args( ( CHAR_DATA *ch, DO_FUN *do_fun, char *argument ) );
@@ -75,6 +74,7 @@ void do_mob( CHAR_DATA *ch, char *argument )
 #ifdef OFFLINE
             && str_cmp( ch->name, "Builder" )
 #endif //OFFLINE
+            && str_cmp( ch->name, "Agron" )
             && str_cmp( ch->name, "Gurthg" )
             && str_cmp( ch->name, "Karlam" )
        )
@@ -558,7 +558,7 @@ PROGFUN( do_mpmload )
 	char expand[ MAX_INPUT_LENGTH ];
 	MOB_INDEX_DATA *pMobIndex;
 	CHAR_DATA *victim;
-	unsigned int vnum;
+	ush_int vnum;
 
 	one_argument( argument, expand );
 	expand_arg( arg, expand );
@@ -608,8 +608,7 @@ PROGFUN( do_mpoload )
 
 	argument = one_argument( argument, expand );
 	expand_arg( arg1, expand );
-	argument = one_argument( argument, expand );
-	expand_arg( arg2, expand );
+	argument = one_argument( argument, arg2 );
 	argument = one_argument( argument, arg3 );
 
 	//je¶li to oprog to grat bedzie sie ladowal do inventory gracza posiadajacego ten przedmiot
@@ -1603,7 +1602,7 @@ PROGFUN( do_mpvforce )
 	char arg[ MAX_INPUT_LENGTH ];
 	char control[ MAX_INPUT_LENGTH ];
 	char *line;
-	unsigned int vnum;
+	ush_int vnum;
 
 	argument = one_argument( argument, arg );
 
@@ -2083,7 +2082,7 @@ PROGFUN( do_mpremove )
 {
 	CHAR_DATA * victim;
 	OBJ_DATA *obj, *obj_next;
-	unsigned int vnum = 0;
+	ush_int vnum = 0;
 	bool fAll = FALSE;
 	char arg[ MAX_INPUT_LENGTH ];
 	int count = 0;
@@ -3765,7 +3764,7 @@ PROGFUN( do_mpaddgroup )
 	MOB_INDEX_DATA *pMobIndex;
 	CHAR_DATA *victim;
 	CHAR_DATA	*leader;
-	unsigned int vnum;
+	ush_int vnum;
 	char expand[ MAX_INPUT_LENGTH ];
 
 	expand_arg( expand, argument );
@@ -4024,8 +4023,6 @@ PROGFUN( do_mpdamageex )
   mob questlog delete komu <nazwa_questloga>
   mob questlog state komu <nazwa_questloga> (finished|current)
   mob questlog inform kogo
-  mob questlog currentdesc komu <nazwa_questloga> <szczegó³owe informacje na temat zadania>
-  mob questlog title komu <nazwa_questloga> <tytu³>
 
   Questlogi s± identyfikowane przez nazwê. Wypisywane s± kolejno, jak leci w pamiêci.
   Dodanie questloga o nazwie pokrywaj±cej siê z nazw± ju¿ istniej±cego questloga jest b³êdem i nie zmienia nic.
@@ -4040,89 +4037,85 @@ PROGFUN( do_mpdamageex )
 
 bool has_qlog ( CHAR_DATA * ch, char * qlog) /* Sprawdzamy czy gracz wogole ma tego questloga */
 {
-    QL_DATA *tmp;
-    char error_buf[ MAX_STRING_LENGTH ];
+   QL_DATA *tmp;
+   char error_buf[ MAX_STRING_LENGTH ];
 
-    if ( !ch || !qlog )
-    {
-        sprintf( error_buf, "has_qlog: brak celu lub nazwy questloga" );
-        bug_prog_format( error_buf );
-        return FALSE;
-    }
+   if ( !ch || !qlog )
+      {
+	 sprintf( error_buf, "has_qlog: brak celu lub nazwy questloga" );
+	 bug_prog_format( error_buf );
+	 return FALSE;
+      }
 
 
-    if ( IS_NPC(ch) )
-    {
-        return FALSE;
-    }
+   if ( IS_NPC(ch) )
+      return FALSE;
 
-    for(tmp = ch->pcdata->ql_data; tmp != NULL; tmp = tmp->next)
-    {
-        if ( !str_cmp( qlog, tmp->qname ) )
-        {
-            return TRUE;
-        }
-    }
+   for(tmp = ch->pcdata->ql_data; tmp != NULL; tmp = tmp->next)
+      {
+	 if ( !str_cmp( qlog, tmp->qname ) )
+	    return TRUE;
+      }
 
-    return FALSE;
+   return FALSE;
 }
 
 bool add_questlog( CHAR_DATA* ch, char* qlname, char* qltext, int state, int date )
 {
-    QL_DATA *tmp;
-    char error_buf[ MAX_STRING_LENGTH ];
+   QL_DATA *tmp;
+   char error_buf[ MAX_STRING_LENGTH ];
 
-    /* sanity checks */
+   /* sanity checks */
 
-    if (!qlname )
-    {
-        sprintf( error_buf, "mpquestlog add: brak nazwy" );
-        bug_prog_format( error_buf );
-        return FALSE;
-    }
+   if (!qlname )
+      {
+	 sprintf( error_buf, "mpquestlog add: brak nazwy" );
+	 bug_prog_format( error_buf );
+	 return FALSE;
+      }
 
-    if ( !ch )
-    {
-        sprintf( error_buf, "mpquestlog add: brak celu [%s]", qlname );
-        bug_prog_format( error_buf );
-        return FALSE;
-    }
+   if ( !ch )
+      {
+	 sprintf( error_buf, "mpquestlog add: brak celu [%s]", qlname );
+	 bug_prog_format( error_buf );
+	 return FALSE;
+      }
 
-    if ( !qltext )
-    {
-        sprintf( error_buf, "mpquestlog add: brak tekstu [%s]", qlname );
-        bug_prog_format( error_buf );
-        return FALSE;
-    }
+   if ( !qltext )
+      {
+	 sprintf( error_buf, "mpquestlog add: brak tekstu [%s]", qlname );
+	 bug_prog_format( error_buf );
+	 return FALSE;
+      }
 
 
-    if ( IS_NPC( ch ) )
-    {
-        sprintf( error_buf, "mpquestlog add: wykonanie na npc'u [%s]", qlname );
-        bug_prog_format( error_buf );
-        return FALSE;
-    }
+   if ( IS_NPC( ch ) )
+      {
+	 sprintf( error_buf, "mpquestlog add: wykonanie na npc'u [%s]", qlname );
+	 bug_prog_format( error_buf );
+	 return FALSE;
+      }
 
-    if ( has_qlog( ch, qlname ) )
-    {
-        sprintf( error_buf, "mpquestlog add: cel [%s] ju¿ posiada questlog o tej nazwie [%s]", ch->name, qlname );
-        bug_prog_format( error_buf );
-        return FALSE;
-    }
+   if ( has_qlog( ch, qlname ) )
+      {
+	 sprintf( error_buf, "mpquestlog add: cel [%s] ju¿ posiada questlog o tej nazwie [%s]", ch->name, qlname );
+	 bug_prog_format( error_buf );
+	 return FALSE;
+      }
 
-    /* main stuff */
+   /* main stuff */
 
-    CREATE( tmp, QL_DATA, 1 );
+   CREATE( tmp, QL_DATA, 1 );
 
-    tmp->qname = str_dup( qlname );
-    tmp->text = str_dup( qltext );
-    tmp->state = state;
-    tmp->date = date;
+   tmp->qname = str_dup( qlname );
+   tmp->text = format_string( str_dup( qltext ) );
+   tmp->state = state;
+   tmp->date = date;
 
-    tmp->next = ch->pcdata->ql_data;
-    ch->pcdata->ql_data = tmp;
+   tmp->next = ch->pcdata->ql_data;
+   ch->pcdata->ql_data = tmp;
 
-    return TRUE;
+   return TRUE;
 
 }
 
@@ -4131,219 +4124,169 @@ bool add_questlog( CHAR_DATA* ch, char* qlname, char* qltext, int state, int dat
 
 bool del_questlog( CHAR_DATA *ch, char * qname)
 {
-    QL_DATA *tmp;
-    QL_DATA **previous_next; // wska¼nik na zmienn± która wskazywa³a na usuniêtego questloga
-    char error_buf[ MAX_STRING_LENGTH ];
+   QL_DATA *tmp;
+   QL_DATA **previous_next; // wska¼nik na zmienn± która wskazywa³a na usuniêtego questloga
+   char error_buf[ MAX_STRING_LENGTH ];
 
-    previous_next = &(ch->pcdata->ql_data); // gdyby siê okaza³o, ¿e usuwany questlog jest pierwszy na li¶cie
+   previous_next = &(ch->pcdata->ql_data); // gdyby siê okaza³o, ¿e usuwany questlog jest pierwszy na li¶cie
 
-    for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
-    {
-        if ( !str_cmp( tmp->qname, qname ) )
-        {
-            *previous_next = tmp->next;
-            DISPOSE(tmp);
-            return TRUE;
-        }
-        previous_next = &(tmp->next);
-    }
+   for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
+      {
+	 if ( !str_cmp( tmp->qname, qname ) )
+	    {
+	       *previous_next = tmp->next;
+	       DISPOSE(tmp);
+	       return TRUE;
+	    }
+	 previous_next = &(tmp->next);
+      }
 
-    sprintf( error_buf, "mpquestlog delete: nie znaleziono questloga o nazwie [%s]", qname );
-    bug_prog_format( error_buf );
+   sprintf( error_buf, "mpquestlog delete: nie znaleziono questloga o nazwie [%s]", qname );
+   bug_prog_format( error_buf );
 
-    return FALSE;
+   return FALSE;
 }
 
 /* zmienia stan podanego questloga */
 
 bool state_questlog( CHAR_DATA* ch, char* qname, int state )
 {
-    QL_DATA *tmp;
-    char error_buf[ MAX_STRING_LENGTH ];
+   QL_DATA *tmp;
+   char error_buf[ MAX_STRING_LENGTH ];
 
-    for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
-    {
-        if ( !str_cmp( tmp->qname, qname ) )
-        {
-            tmp->state = state;
-            return TRUE;
-        }
-    }
+   for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
+      {
+	 if ( !str_cmp( tmp->qname, qname ) )
+	    {
+	       tmp->state = state;
+	       return TRUE;
+	    }
+      }
 
-    sprintf( error_buf, "mpquestlog state: nie znaleziono questloga o nazwie [%s]", qname );
-    bug_prog_format( error_buf );
+   sprintf( error_buf, "mpquestlog state: nie znaleziono questloga o nazwie [%s]", qname );
+   bug_prog_format( error_buf );
 
-    return FALSE;
+   return FALSE;
 
 }
 
 int ql_compare( const void* a, const void* b )
 {
-    QL_DATA** qa = (QL_DATA**) a;
-    QL_DATA** qb = (QL_DATA**) b;
-    return strcmp( (*qa)->qname, (*qb)->qname );
+   QL_DATA** qa = (QL_DATA**) a;
+   QL_DATA** qb = (QL_DATA**) b;
+   return strcmp( (*qa)->qname, (*qb)->qname );
 }
 
 // sortowanie questlogów wed³ug qname
 void sort_questlogs( CHAR_DATA * ch )
 {
-    // FIXME
-    return;
+   // FIXME
+   return;
 
-    QL_DATA *tmp;
-    QL_DATA **array; // tablica wska¼ników na elementy
-    int count = 0;
+   QL_DATA *tmp;
+   QL_DATA **array; // tablica wska¼ników na elementy
+   int count = 0;
 
-    for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
-    {
-        count++;
-    }
+   for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
+      {
+	 count++;
+      }
 
-    // FIXME
-    //CREATE( array, (QL_DATA*), count+1 );
+   // FIXME
+   //CREATE( array, (QL_DATA*), count+1 );
 
-    array[count] = NULL; // ostatnie pole to wska¼nik na NULL
+   array[count] = NULL; // ostatnie pole to wska¼nik na NULL
 
-    int pos = 0;
+   int pos = 0;
 
-    for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
-    {
-        array[pos] = tmp;
-        pos++;
-    }
+   for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
+      {
+	 array[pos] = tmp;
+	 pos++;
+      }
 
-    qsort( array, count, sizeof(QL_DATA), &ql_compare );
+   qsort( array, count, sizeof(QL_DATA), &ql_compare );
 
-    for(pos=0; pos < count; pos++)
-    {
-        // FIXME
-        array[pos]->next = array[pos+1];
-    }
+   for(pos=0; pos < count; pos++)
+      {
+	 // FIXME
+	 array[pos]->next = array[pos+1];
+      }
 
-    ch->pcdata->ql_data = array[0];
+   ch->pcdata->ql_data = array[0];
 
-    DISPOSE( array );
+   DISPOSE( array );
 }
 
-bool title_questlog( CHAR_DATA* ch, char* qname, char* title )
-{
-    QL_DATA *tmp;
-    char error_buf[ MAX_STRING_LENGTH ];
-
-    for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
-    {
-        if ( !str_cmp( tmp->qname, qname ) )
-        {
-            tmp->title = str_dup( title );
-            return TRUE;
-        }
-    }
-
-    sprintf( error_buf, "mpquestlog title: nie znaleziono questloga o nazwie [%s]", qname );
-    bug_prog_format( error_buf );
-
-    return FALSE;
-}
-
-bool currentdesc_questlog( CHAR_DATA* ch, char* qname, char* currentdesc )
-{
-    QL_DATA *tmp;
-    char error_buf[ MAX_STRING_LENGTH ];
-
-    for(tmp=ch->pcdata->ql_data;tmp != NULL; tmp = tmp->next)
-    {
-        if ( !str_cmp( tmp->qname, qname ) )
-        {
-            tmp->currentdesc = str_dup( currentdesc );
-            return TRUE;
-        }
-    }
-
-    sprintf( error_buf, "mpquestlog title: nie znaleziono questloga o nazwie [%s]", qname );
-    bug_prog_format( error_buf );
-
-    return FALSE;
-}
 
 /*
  * No i komenda progowa
  */
 PROGFUN( do_mpquestlog )
 {
-    CHAR_DATA *cel;
+   return; // Wy³±czam, bo jeszcze nie jest dokoñczone
+   CHAR_DATA *cel;
 
-    char komenda[ MAX_STRING_LENGTH ];
-    char kto[ MAX_STRING_LENGTH ];
-    char qlog[ MAX_STRING_LENGTH ];
+   char komenda[ MAX_STRING_LENGTH ];
+   char kto[ MAX_STRING_LENGTH ];
+   char qlog[ MAX_STRING_LENGTH ];
 
-    char error_buf[ MAX_STRING_LENGTH ];
+   char error_buf[ MAX_STRING_LENGTH ];
 
-    smash_tilde( argument ); // aby nie przypa³êta³a nam siê gdzie¶ tylda
+   smash_tilde( argument ); // aby nie przypa³êta³a nam siê gdzie¶ tylda
 
-    argument = one_argument( argument, komenda );
-    argument = one_argument( argument, kto );
-    argument = one_argument( argument, qlog );
+   argument = one_argument( argument, komenda );
+   argument = one_argument( argument, kto );
+   argument = one_argument( argument, qlog );
 
-    cel = resolve_char_arg( kto );
+   cel = resolve_char_arg( kto );
 
-    if ( !cel )
-    {
-        sprintf( error_buf, "mpquestlog: z³y cel lub brak celu [%s]", kto );
-        bug_prog_format( error_buf );
-        return;
-    }
+   if ( !cel )
+      {
+	 sprintf( error_buf, "mpquestlog: z³y cel lub brak celu [%s]", kto );
+	 bug_prog_format( error_buf );
+	 return;
+      }
 
-    // dopasowanie do poszczególnych komend
-    if ( !str_cmp( komenda, "add" ) ) // dodajemy, domy¶lnie jako aktualny
-    {
-        add_questlog( cel, qlog, argument, QL_STATE_CURRENT, time( 0 ) );
-    }
-    else if ( !str_cmp( komenda, "delete" ) ) // kasujemy
-    {
-        del_questlog( cel, qlog );
-    }
-    else if ( !str_cmp( komenda, "state" ) ) // zmiana stanu
-    {
-        int state;
-        if ( !str_cmp( argument, "current" ) )
-        {
-            state = QL_STATE_CURRENT;
-        }
-        else if ( !str_cmp( argument, "finished" ) )
-        {
-            state = QL_STATE_FINISHED;
-        }
-        else
-        {
-            sprintf( error_buf, "mpquestlog: podano b³êdny stan quesloga: [%s]", argument );
-            bug_prog_format( error_buf );
-            return;
-        }
-        state_questlog( cel, qlog, state );
-    }
-    else if ( !str_cmp( komenda, "inform" ) ) // poinformujemy gracza o zmianie dziennika
-    {
-        send_to_char("{GDziennik zadañ zosta³ aktualizowany.{x\r\n", cel );
-    }
-    else if ( !str_cmp( komenda, "title" ) )
-    {
-        title_questlog( cel, qlog, argument );
-    }
-    else if ( !str_cmp( komenda, "currentdesc" ) )
-    {
-        currentdesc_questlog( cel, qlog, argument );
-    }
-    else // hmm, nic nie pasuje
-    {
-        sprintf( error_buf, "mpquestlog: nieznana komenda [%s]", komenda );
-        bug_prog_format( error_buf );
-        return;
-    }
+   // dopasowanie do poszczególnych komend
+   if ( !str_cmp( komenda, "add" ) ) // dodajemy, domy¶lnie jako aktualny
+      {
+	 add_questlog( cel, qlog, argument, QL_STATE_CURRENT, time( 0 ) );
+      }
+   else if ( !str_cmp( komenda, "delete" ) ) // kasujemy
+      {
+	 del_questlog( cel, qlog );
+      }
+   else if ( !str_cmp( komenda, "state" ) ) // zmiana stanu
+      {
+	 int state;
+	 if ( !str_cmp( argument, "current" ) )
+	    state = QL_STATE_CURRENT;
+	 else if ( !str_cmp( argument, "finished" ) )
+	    state = QL_STATE_FINISHED;
+	 else
+	    {
+	       sprintf( error_buf, "mpquestlog: podano b³êdny stan quesloga: [%s]", argument );
+	       bug_prog_format( error_buf );
+	       return;
+	    }
+	 state_questlog( cel, qlog, state );
+      }
+   else if ( !str_cmp( komenda, "inform" ) ) // poinformujemy gracza o zmianie dziennika
+      {
+	 send_to_char("{GDziennik zadañ zosta³ aktualizowany.{x\r\n", cel );
+      }
+   else // hmm, nic nie pasuje
+      {
+	 sprintf( error_buf, "mpquestlog: nieznana komenda [%s]", komenda );
+	 bug_prog_format( error_buf );
+	 return;
+      }
 
-    // sortowanie questlogów wed³ug qname
-    sort_questlogs( cel );
+   // sortowanie questlogów wed³ug qname
+   sort_questlogs( cel );
 
-    return;
+   return;
 }
 
 /*

@@ -157,11 +157,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 1
 Gender 5
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 1
 Cond 75
@@ -170,6 +170,33 @@ cz³owiekiem b±d¼ elfem, s±dz±c po wielko¶ci. Teraz jednak nie ma to
 wiêkszego znaczenia, le¿± niedaleko drzwi pozbawione niektórych czê¶ci
 cia³a, z szkieletem u³o¿onym w nienaturalnej pozycji. Z pewno¶ci± nie by³a
 to najmilsza ¶mieræ. 
+~
+Comments ~
+Objend
+#Vnum 50933
+Name stara szafa~
+Odmiana {ystarej szafy{x~{ystarej szafie{x~{ystara szafe{x~{ystara szafa{x~{ystarej szafie{x~
+Short {ystara szafa{x~
+Descr Pod sciana stoi {ystara szafa{x.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 100 5 0 600 600 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 0
+Cond 90
+Objprog onload 50933_onload 100~
+Itemdesc Potê¿na, stara szafa, wykonana z dêbowego drewna, zapowiada solidno¶æ,
+mimo wieku. Od razu widaæ, ¿e musia³a przewêdrowaæ po wielu ju¿ domach,
+poniewa¿ na bokach oraz na drzwiach widaæ ¶lady w kszta³cie smug, tak jakby
+kto¶ zawadzi³ o ¶cianê przy przesuwaniu. 
 ~
 Comments ~
 Objend
@@ -184,11 +211,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 100 0 0 100 100 10 -1
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
@@ -210,11 +237,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 100 0 0 100 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
@@ -237,11 +264,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 100 77 0 100 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 60
 Cond 75
@@ -254,6 +281,27 @@ robi siê po to, by trzymaæ w niej buty na zmiane...
 Comments ~
 Trap 50943
 Objend
+#Vnum 50937
+Name skrzynia~
+Odmiana skrzyni~skrzyni~skrzyniê~skrzyni±~skrzyni~
+Short {ydrewniana skrzynia{x~
+Descr {yStara, zakurzona, drewniana skrzynia stoi tutaj.{x~
+Material drewno~
+Type container
+ExtraExt 0|X
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 300 13 0 100 100 0 -1
+Repair 0 0 0 0
+Weight 500
+Cost 60
+Cond 75
+Comments ~
+Objend
 #Vnum 50938
 Name okruchy z³oto z³ota kawa³ki surowiec~
 Odmiana okruchów z³ota~okruchom z³ota~okruchy z³ota~okruchami z³ota~okruchach z³ota~
@@ -265,14 +313,39 @@ ExtraExt 0|W
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 1
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 240
 Cond 100
+Comments ~
+Objend
+#Vnum 50939
+Name fiolka z niebieskim p³ynem~
+Odmiana fiolko~fiolce~fiolkê~fiolk±~fiolce~
+Short fiolka z {Bniebieskim{x p³ynem~
+Descr Niewielka fiolka z {Bniebieskim{x p³ynem stoi tu na ziemi.~
+Material szk³o~
+Type potion
+ExtraExt 0|Ad
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 10 34 0 0 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 6000
+Cond 75
+Itemdesc Z zaciekawieniem spogl±dasz na t± niewielk± fiolkê. Wype³niona jest
+{Bniebieskim{x ¶wiec±cym p³ynem. Có¿ za w³a¶ciwo¶ci mo¿e mieæ ta ciecz? 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 50943
@@ -286,11 +359,11 @@ ExtraExt 0|X
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 3 2
 Repair 0 0 0 0
-Length 0
 Weight 400
 Cost 0
 Cond 75
@@ -312,11 +385,11 @@ ExtraExt 0
 Wear AH
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 1
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 100
@@ -811,7 +884,7 @@ O 100 50931 0 50935
 O 100 50943 0 50938
 M 100 50931 1 50940 3
 O 100 50931 0 50940
-O 100 2354 0 50942
+O 100 50933 0 50942
 M 100 50932 1 50942 2
 G 100 50944 0
 O 100 50943 0 50943
@@ -824,6 +897,12 @@ S
 #0
 
 #OBJPROGSNEW
+#50933_onload
+~
+mob oload 3399 r
+mob oload 3399 r
+mob oload 3399 r
+~
 #50936_onload
 ~
 mob oload gem 2 r
@@ -841,36 +920,40 @@ mob purge
 mob mload 50931
 #skrzynia zdobiona
 mob oload 50936 r
-if rand 50
-  mob oload neck 1 i 50936
+if rand 80
+mob oload neck 4 i 50936
+endif
+if rand 70
+  mob oload finger 4 i 50936
 endif
 if rand 50
-  mob oload finger 1 i 50936
+  mob oload wrist 3 i 50936
+endif
+if rand 90
+  mob oload weapon 5 i 50936
+endif
+if rand 80
+  mob oload gem 5 i 50936
+endif
+if rand 70
+  mob oload gem 4 i 50936
+endif
+if rand 60
+  mob oload gem 4 i 50936
 endif
 if rand 50
-  mob oload wrist 1 i 50936
-endif
-if rand 50
-  mob oload weapon 1 i 50936
-endif
-if rand 50
-  mob oload gem 1 i 50936
-endif
-if rand 50
-  mob oload gem 1 i 50936
-endif
-if rand 50
-  mob oload gem 1 i 50936
-endif
-if rand 50
-  mob oload gem 1 i 50936
+  mob oload gem 4 i 50936
 endif
 if rand 40
-  mob oload gem 1 i 50936
+  mob oload gem 3 i 50936
 endif
 #zw³oki
 mob oload 50934 r
 mob oload 50935 r
+if rand 40
+mob oload 50939 i 50935
+endif
+end
 ~
 #50937_reset
 ~
@@ -908,22 +991,22 @@ if rand 40
   mob oload gem 3 i 50936
 endif
 ### skrzynia debowa
-mob oload 3370 room
+mob oload 50937 r
 if rand 90
-  mob oload weapon 1 i 3370
+  mob oload weapon 3 i 50937
 endif
 if rand 80
-  mob oload ear 1 i 3370
+  mob oload ear 3 i 50937
 endif
 if rand 70
-  mob oload finger 1 i 3370
+  mob oload finger 3 i 50937
 endif
-mob oload 3370 room
+mob oload 50937 r
 if rand 60
-  mob oload gem 1 i 3370
+  mob oload gem 4 i 50937
 endif
 if rand 50
-  mob oload gem 1 i 3370
+  mob oload gem 3 i 50937
 endif
 mob oload 50938 r
 mob oload 50938 r
@@ -987,12 +1070,12 @@ if rand 40
   mob oload gem 3 i 50936
 endif
 #skrzynia debowa
-mob oload 3370 room
+mob oload 50937 r
 if rand 60
-  mob oload gem 1 i 3370
+  mob oload gem 4 i 50937
 endif
 if rand 50
-  mob oload gem 1 i 3370
+  mob oload gem 3 i 50937
 endif
 mob oload gem 1 r
 mob oload gem 1 r

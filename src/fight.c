@@ -29,8 +29,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: fight.c 12241 2013-04-18 13:54:26Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/fight.c $
+ * $Id: fight.c 12183 2013-03-25 11:58:55Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/fight.c $
  *
  */
 #if defined(macintosh)
@@ -57,13 +57,6 @@
 #include "paladin_auras.h"
 
 //#define INFO
-
-/**
- * act_comm.c
- */
-
-void menu_show args ( ( CHAR_DATA *ch ) );
-
 /*
  * Local functions.
  */
@@ -76,8 +69,8 @@ void		dam_message	 args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, bo
 void		death_cry	args( ( CHAR_DATA *ch ) );
 void		group_gain	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool		mob_can_attack	args( ( CHAR_DATA * ch ) );
-bool		is_safe		args( ( CHAR_DATA *ch, CHAR_DATA *victim, bool show_message ) );
-OBJ_DATA *	make_corpse	args( ( CHAR_DATA *ch ) );
+bool		is_safe		args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
+void		make_corpse	args( ( CHAR_DATA *ch ) );
 void		one_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second ) );
 void		mob_hit		args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ) );
 void		raw_kill	args( ( CHAR_DATA *victim , CHAR_DATA *ch ) );
@@ -239,9 +232,9 @@ void violence_update( void )
 			ch->hit = get_max_hp(ch);
 			continue;
 		}
-
-                //stripowanie sneak_invis, moby zorientowaly sie ze gracz stoi w lokacji
-                EXT_REMOVE_BIT( ch->affected_by, AFF_SNEAK_INVIS ); 
+		
+		//stripowanie sneak_invis, moby zorientowaly sie ze gracz stoi w lokacji
+        EXT_REMOVE_BIT( ch->affected_by, AFF_SNEAK_INVIS ); 
 
 		/* moby z summonow znikaja, jak nie maja pana, wylaczajac sytuacje - summowali a nie mogli kontrolowac
 		   (act aggressive) albo jak stracili pana po czarku repayment (czy huntuje pc)*/
@@ -394,6 +387,37 @@ void violence_update( void )
 		/* regeneracja co runde walki */
 		if ( IS_AFFECTED( ch, AFF_REGENERATION ) && ch->hit < get_max_hp(ch) )
 		{
+			AFFECT_DATA * paf_regen;
+			int min, max, level;
+            bool check;
+
+			paf_regen = affect_find( ch->affected, gsn_regenerate );
+
+			if ( paf_regen )
+				level = paf_regen->level;
+			else
+				level = 2;
+
+			switch ( level )
+			{
+				case 1:
+				case 2:
+					min = 1;max = 2;break;
+				case 3:
+					min = 1;max = 3;break;
+				case 4:
+					min = 2;max = 4;break;
+				case 5:
+					min = 2;max = 5;break;
+				case 6:
+					min = 3;max = 6;break;
+				case 7:
+					min = 3;max = 7;break;
+				case 8:
+					min = 4;max = 7;break;
+				default:
+					min = 4;max = 8;break;
+			}
 			update_pos( ch );
 		}
 
@@ -993,7 +1017,7 @@ void violence_update( void )
 			{
 				case 0:
 					victim = get_random_char( ch, FALSE );
-					if ( victim && !is_safe( ch, victim, TRUE ) && ch != victim && victim != ch->fighting )
+					if ( victim && !is_safe( ch, victim ) && ch != victim && victim != ch->fighting )
 					{
 						paf->duration = UMAX( 0, paf->duration - 1 ); paf->rt_duration = 0;
 						ch->fighting = victim;
@@ -1026,15 +1050,37 @@ void violence_update( void )
 		{
 			if( number_range(0,2*(get_curr_stat_deprecated(ch,STAT_INT) + get_curr_stat_deprecated(ch,STAT_WIS))) == 0 )
 			{
+                bool allow_attack = TRUE;
 				victim = get_random_char( ch, FALSE );
-                if ( victim != ch && !is_safe( ch, victim, FALSE ) )
+                if(
+                        victim
+                        && ch->fighting != victim
+                        && victim != ch
+                        && !is_affected( victim, gsn_sanctuary )
+                  )
                 {
-                    act( "Niespodziewanie, w twojej duszy budzi siê jaki¶ prymitywny instynkt. Pragniesz mordowaæ, zabijaæ, siekaæ! Rzucasz siê z impetem na stoj±c± najbli¿ej ciebie osobê.", ch, NULL, victim, TO_CHAR );
-                    act( "Nagle dzieje siê co¶ niespodziewanego. $n zaczyna sapaæ dziko, zdaje siê p³on±æ jak±¶ prymitwyn± si³±, i nagle rzuca siê na ciebie!", ch, NULL, victim, TO_VICT );
-                    act( "Nie mo¿esz uwierzyæ w³asnym oczom! $n zaczyna zachowywaæ siê nad wyraz dziko i w morderczym szale rzuca siê na $C.", ch, NULL, victim, TO_NOTVICT );
-                    stop_fighting( ch, FALSE );
-                    multi_hit( ch, victim, TYPE_UNDEFINED );
-                }
+                    /**
+                     * moby ucz±ce oraz ciê¿ko pracuj±ce nie mog± byæ tak traktowane, prawda?
+                     */
+                    if (
+                            IS_NPC( victim)
+                            && (
+                                EXT_IS_SET( victim->act, ACT_PRACTICE )
+                                || victim->pIndexData->pShop != NULL
+                               )
+                       )
+                    {
+                        allow_attack = FALSE;
+                    }
+                    if ( allow_attack )
+                    {
+                        act( "Niespodziewanie, w twojej duszy budzi siê jaki¶ prymitywny instynkt. Pragniesz mordowaæ, zabijaæ, siekaæ! Rzucasz siê z impetem na stoj±c± najbli¿ej ciebie osobê.", ch, NULL, victim, TO_CHAR );
+                        act( "Nagle dzieje siê co¶ niespodziewanego. $n zaczyna sapaæ dziko, zdaje siê p³on±æ jak±¶ prymitwyn± si³±, i nagle rzuca siê na ciebie!", ch, NULL, victim, TO_VICT );
+                        act( "Nie mo¿esz uwierzyæ w³asnym oczom! $n zaczyna zachowywaæ siê nad wyraz dziko i w morderczym szale rzuca siê na $C.", ch, NULL, victim, TO_NOTVICT );
+                        stop_fighting( ch, FALSE );
+                        multi_hit( ch, victim, TYPE_UNDEFINED );
+                    }
+				}
 			}
 		}
 
@@ -1373,7 +1419,7 @@ void monk_multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 
 
 	/* haste daje 50% na dodatkowy atak z prawej reki */
-	if ( (IS_AFFECTED( ch, AFF_HASTE ) && number_percent() < 50 ) || is_affected(ch, gsn_major_haste ) )
+	if ( (IS_AFFECTED( ch, AFF_HASTE ) && number_percent() < 50 ) || is_affected(ch, 300 ) )
 		one_hit_monk( ch, victim, dt );
 
 	return;
@@ -1904,7 +1950,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
         /**
          * gruba dopalka od haste'a
          */
-        if ( is_affected( ch, gsn_haste ) )
+        if ( is_affected( ch, skill_lookup( "haste" ) ) )
         {
             speed *= 3;
             speed /= 2;
@@ -2022,7 +2068,7 @@ void multi_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
     }
     DEBUG_INFO( "multi_hit:haste_hit" );
     /* haste daje szane na dodatkowy atak z losowej reki */
-    if ( ( IS_AFFECTED( ch, AFF_HASTE ) && number_percent() < 50 ) || is_affected(ch, gsn_major_haste ) )
+    if ( ( IS_AFFECTED( ch, AFF_HASTE ) && number_percent() < 50 ) || is_affected(ch, 300 ) )
     {
         if( get_eq_char( ch, WEAR_SHIELD ) != NULL && number_percent() < 50 )
             one_hit_shield( ch, victim, dt );
@@ -2712,7 +2758,7 @@ void mob_hit ( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	DEBUG_INFO( "mob_hit:haste/fast/slow" );
 	if ( ( IS_AFFECTED( ch, AFF_HASTE ) || EXT_IS_SET( ch->off_flags, OFF_FAST ) ) && !IS_AFFECTED( ch, AFF_SLOW ) )
 	{
-		if (( !IS_AFFECTED(ch,AFF_CHARM ) || number_percent() < 50 ) || is_affected(ch, gsn_major_haste ))
+		if (( !IS_AFFECTED(ch,AFF_CHARM ) || number_percent() < 50 ) || is_affected(ch, 300 ))
 		{
 			if( get_eq_char( ch, WEAR_SECOND ) != NULL && number_percent() < 50 )
 			{
@@ -3098,7 +3144,7 @@ int calculate_spec_damage( CHAR_DATA *ch, CHAR_DATA *vch, OBJ_DATA *weapon, int 
 	return bonus;
 }
 
-void weapon_dispeller( CHAR_DATA *ch, CHAR_DATA *victim )
+void weapon_dispeller( CHAR_DATA *ch, CHAR_DATA *victim, int base_dam )
 {
 	AFFECT_DATA * aff;
 	AFFECT_DATA * aff_next;
@@ -3328,6 +3374,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 	OBJ_DATA *hands;
 	OBJ_DATA *feet;
 	OBJ_DATA *head;
+	OBJ_DATA *bron;
 
 	DEBUG_INFO( "one_hit:checks" );
 	if ( victim == ch || ch == NULL || victim == NULL )
@@ -3736,7 +3783,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 	if ( victim != ch )
 	{
 		DEBUG_INFO( "onehit:is_safe" );
-		if ( is_safe( ch, victim, TRUE ) )
+		if ( is_safe( ch, victim ) )
 			result = FALSE;
 
 		DEBUG_INFO( "onehit:trig_kill" );
@@ -4780,7 +4827,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 
 			if ( ch->fighting == victim && IS_WEAPON_STAT( wield, WEAPON_DISPEL ) )
 			{
-				weapon_dispeller( ch, victim );
+				weapon_dispeller(ch, victim, base_dam);
 			}
 			return;
 		}
@@ -4854,7 +4901,6 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 #ifdef INFO
 		print_char( ch, "DAM - DAMAGE_REDUCTION: %d\n\r", dam );
 #endif
-        check_trick( victim, ch, SN_TRICK_RAMPAGE );
 	}
 
 #ifdef INFO
@@ -5126,6 +5172,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 		hands = get_eq_char( victim, WEAR_HANDS );
 		feet = get_eq_char( victim, WEAR_FEET );
 		head = get_eq_char( victim, WEAR_HEAD );
+		bron = get_eq_char( victim, WEAR_WIELD );
 
 		switch (dice(1,10))
 		{
@@ -5486,7 +5533,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 
 		if ( ch->fighting == victim && IS_WEAPON_STAT( wield, WEAPON_DISPEL ) )
 		{
-			weapon_dispeller( ch, victim );
+			weapon_dispeller(ch, victim, base_dam);
 		}
 
 	}
@@ -5524,7 +5571,7 @@ void one_hit( CHAR_DATA *ch, CHAR_DATA *victim, int dt, bool second )
 bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bool show )
 {
 	OBJ_DATA * obj, *obj_next;
-	bool immune = FALSE;
+	bool immune = FALSE, check;
 
 	save_debug_info("fight.c => damage", NULL, NULL, DEBUG_PROJECT_UNKNOWN, DEBUG_LEVEL_ALL, TRUE );
 
@@ -5541,7 +5588,7 @@ bool damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt, int dam_type, bo
 
 	if ( victim != ch )
 	{
-		if ( is_safe( ch, victim, TRUE ) )
+		if ( is_safe( ch, victim ) )
 			return FALSE;
 
 		if ( victim->position > POS_STUNNED )
@@ -5835,72 +5882,55 @@ bool mob_can_attack( CHAR_DATA * ch )
 	return TRUE;
 }
 
-bool is_safe( CHAR_DATA *ch, CHAR_DATA *victim, bool show_message )
+bool is_safe( CHAR_DATA *ch, CHAR_DATA *victim )
 {
-    if ( ch != victim && is_affected( ch, gsn_sanctuary ) )
-    {
-        affect_strip( ch, gsn_sanctuary );
-    }
-    if ( ch->master && IS_AFFECTED( ch, AFF_CHARM ) && is_affected( ch->master, gsn_sanctuary ) )
-    {
-        affect_strip( ch->master, gsn_sanctuary );
-    }
-    if ( victim->in_room == NULL || ch->in_room == NULL )
-    {
-        return TRUE;
-    }
-    if ( victim->fighting == ch || victim == ch )
-    {
-        return FALSE;
-    }
-    if ( IS_IMMORTAL( ch ) && ch->level > LEVEL_IMMORTAL )
-    {
-        return FALSE;
-    }
-    if ( EXT_IS_SET( victim->in_room->room_flags, ROOM_SAFE ) )
-    {
-        return TRUE;
-    }
-    if ( IS_AFFECTED( victim, AFF_SANCTUARY ) )
-    {
-        return TRUE;
-    }
-    if ( IS_AFFECTED( victim, AFF_FORCE_FIELD ) )
-    {
-        return TRUE;
-    }
-    /* killing mobiles */
-    if ( IS_NPC( victim ) )
-    {
-        if ( victim->pIndexData->pShop != NULL )
-        {
-            if ( show_message )
-            {
-                send_to_char( "Mo¿e lepiej by¶ co¶ kupi³<&/a/o>?\n\r", ch );
-            }
-            return TRUE;
-        }
+	if ( ch != victim && is_affected( ch, gsn_sanctuary ) )
+		affect_strip( ch, gsn_sanctuary );
 
-        if ( victim->pIndexData->pRepair != NULL )
-        {
-            if ( show_message )
-            {
-                send_to_char( "Mo¿e lepiej by¶ co¶ naprawi³<&/a/o>?\n\r", ch );
-            }
-            return TRUE;
-        }
+	if ( ch->master && IS_AFFECTED( ch, AFF_CHARM ) && is_affected( ch->master, gsn_sanctuary ) )
+		affect_strip( ch->master, gsn_sanctuary );
 
-        /* no killing healers, trainers, etc */
-        if ( EXT_IS_SET( victim->act, ACT_PRACTICE ) || EXT_IS_SET( victim->act, ACT_REWARD ) )
-        {
-            if ( show_message )
-            {
-                send_to_char( "Naprawdê nie ma co juz zabijaæ?\n\r", ch );
-            }
-            return TRUE;
-        }
-    }
-    return FALSE;
+	if ( victim->in_room == NULL || ch->in_room == NULL )
+		return TRUE;
+
+	if ( victim->fighting == ch || victim == ch )
+		return FALSE;
+
+	if ( IS_IMMORTAL( ch ) && ch->level > LEVEL_IMMORTAL )
+		return FALSE;
+
+	if ( EXT_IS_SET( victim->in_room->room_flags, ROOM_SAFE ) )
+		return TRUE;
+
+	if ( IS_AFFECTED( victim, AFF_SANCTUARY ) )
+		return TRUE;
+
+	if ( IS_AFFECTED( victim, AFF_FORCE_FIELD ) )
+		return TRUE;
+
+	/* killing mobiles */
+	if ( IS_NPC( victim ) )
+	{
+		if ( victim->pIndexData->pShop != NULL )
+		{
+			send_to_char( "Mo¿e lepiej by¶ co¶ kupi³<&/a/o>?\n\r", ch );
+			return TRUE;
+		}
+
+		if ( victim->pIndexData->pRepair != NULL )
+		{
+			send_to_char( "Mo¿e lepiej by¶ co¶ naprawi³<&/a/o>?\n\r", ch );
+			return TRUE;
+		}
+
+		/* no killing healers, trainers, etc */
+		if ( EXT_IS_SET( victim->act, ACT_PRACTICE ) || EXT_IS_SET( victim->act, ACT_REWARD ) )
+		{
+			send_to_char( "Naprawdê nie ma co juz zabijaæ?\n\r", ch );
+			return TRUE;
+		}
+	}
+	return FALSE;
 }
 
 bool is_safe_spell( CHAR_DATA *ch, CHAR_DATA *victim, bool area )
@@ -6023,6 +6053,7 @@ bool check_parry( CHAR_DATA *ch, CHAR_DATA *victim, int dam, OBJ_DATA *parowana 
 	int parry_skill, dex_mod = 0, chance = 0, percent;
 	int max_dam = 0, prim_skill = 0, offhand_skill = 0, i = 0;
 	OBJ_DATA *prim = NULL, *offhand = NULL;
+    bool check;
 
 	if (!IS_SET( victim->fight_data, FIGHT_PARRY ) )
 	{
@@ -6411,7 +6442,7 @@ void stop_fighting( CHAR_DATA *ch, bool fBoth )
 /*
  * Make a corpse out of a character.
  */
-OBJ_DATA * make_corpse( CHAR_DATA *ch )
+void make_corpse( CHAR_DATA *ch )
 {
     char buf[ MAX_STRING_LENGTH ];
     OBJ_DATA *corpse = NULL;
@@ -6766,7 +6797,7 @@ OBJ_DATA * make_corpse( CHAR_DATA *ch )
 	if ( corpse )
 		obj_to_room( corpse, ch->in_room );
 
-	return corpse;
+	return;
 }
 
 /*
@@ -6826,7 +6857,7 @@ void raw_kill( CHAR_DATA *victim, CHAR_DATA *ch )
 	int i;
 	AFFECT_DATA *aff, *aff_next, noob_new, *noob_old;
 	bool has_silver = FALSE;
-	OBJ_DATA *head, *head_next, *corpse;
+	OBJ_DATA *head, *head_next;
 	char *name;
 	char buf[ MAX_STRING_LENGTH ];
 
@@ -6950,12 +6981,7 @@ void raw_kill( CHAR_DATA *victim, CHAR_DATA *ch )
 	DEBUG_INFO( "raw_kill:death_cry" );
 	death_cry( victim );
 	DEBUG_INFO( "raw_kill:make_corpse" );
-	corpse = make_corpse( victim );
-	if ( !IS_NPC( victim ) )
-	{
-                add_spirit( victim, corpse );
-		victim->pcdata->corpse = corpse;
-	}
+	make_corpse( victim );
 	DEBUG_INFO( "raw_kill:clear_mem" );
 	clear_mem( victim );
 	DEBUG_INFO( "raw_kill:death_stats" );
@@ -7373,7 +7399,7 @@ void do_kill( CHAR_DATA *ch, char *argument )
 		return;
 	}
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( IS_AFFECTED( ch, AFF_CHARM ) && ch->master == victim )
@@ -8959,7 +8985,7 @@ bool spell_damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int sn, int dam_ty
 
 	if ( victim != ch )
 	{
-		if ( is_safe( ch, victim, TRUE ) )
+		if ( is_safe( ch, victim ) )
 			return FALSE;
 
 
@@ -9215,7 +9241,6 @@ bool spell_damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int sn, int dam_ty
 #ifdef INFO
 		print_char( ch, "DAM - DAMAGE_REDUCTION: %d\n\r", dam );
 #endif
-        	check_trick( victim, ch, SN_TRICK_RAMPAGE );
 
 	}
 
@@ -9258,6 +9283,7 @@ int compute_tohit( CHAR_DATA *ch, bool primary )
 	OBJ_DATA *wield;
 	int sn;
 	int fight_style_skill = 0;
+    bool check;
 
 	if ( primary )
 		wield = get_eq_char( ch, WEAR_WIELD );
@@ -9782,14 +9808,7 @@ void raw_damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam )
                     act( "$n rozpada siê na kawa³eczki.", victim, 0, 0, TO_ROOM );
                 }
             }
-            if ( victim->level <= 20 )
-            {
-                send_to_char( "{RUmar³e¶.{x Je¶li chcesz przenie¶æ siê z powrotem do swojego ostatniego renta wpisz: release\n\r\n\r", victim );
-            }
-            else
-            {
-                send_to_char( "Nie ¿yjesz, co za pech!!!\n\r\n\r", victim );
-            }
+            send_to_char( "Nie ¿yjesz, co za pech!!!\n\r\n\r", victim );
             break;
 
         default:
@@ -9828,9 +9847,6 @@ void raw_damage( CHAR_DATA *ch, CHAR_DATA *victim, int dam )
         stop_fighting( victim, FALSE );
 
     DEBUG_INFO( "raw_damage:pos_dead_stuff" );
-    /**
-     * log player death
-     */
     if ( victim->position == POS_DEAD )
     {
         //group_gain( ch, victim );
@@ -13031,7 +13047,7 @@ void check_special_unarmed_hit( CHAR_DATA *ch, CHAR_DATA *victim, int base_dam )
 //  void spell_dispel_magic( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	if ( IS_SET( ch->attack_flags, WEAPON_DISPEL ) )
 	{
-		weapon_dispeller( ch, victim );
+		weapon_dispeller(ch, victim, base_dam);
 	}
 
 	if ( !is_affected(victim,gsn_bleeding_wound) && !is_undead(victim) && ( ( IS_SET( ch->attack_flags, WEAPON_SHARP ) ) || ( IS_SET( ch->attack_flags, WEAPON_VORPAL ) ) || ( IS_SET( ch->attack_flags, WEAPON_INJURIOUS ) ) ) && ( IS_SET( victim->form, FORM_WARM ) || IS_SET( victim->form, FORM_COLD_BLOOD ) ) )
@@ -13165,7 +13181,7 @@ void one_hit_monk( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 	if ( victim != ch )
 	{
 		DEBUG_INFO( "onehit:is_safe" );
-		if ( is_safe( ch, victim, TRUE ) )
+		if ( is_safe( ch, victim ) )
 			result = FALSE;
 
 		DEBUG_INFO( "onehit:trig_kill" );
@@ -13428,7 +13444,6 @@ void one_hit_monk( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 #ifdef INFO
 		print_char( ch, "DAM - DAMAGE_REDUCTION: %d\n\r", dam );
 #endif
-        	check_trick( victim, ch, SN_TRICK_RAMPAGE );
 
 	}
 
@@ -13499,9 +13514,6 @@ void strip_fight_affects( CHAR_DATA * ch )
 
 	if ( is_affected( ch, gsn_glorious_impale ) )
 		affect_strip( ch, gsn_glorious_impale );
-
-	if ( is_affected( ch, gsn_rampage ) )
-		affect_strip( ch, gsn_rampage );
 
 	REMOVE_BIT( ch->fight_data, FIGHT_THOUSANDSLAYER );
 
@@ -13856,7 +13868,7 @@ Druid:
 			if( !IS_AFFECTED(ch, AFF_FEAR))
 			{
 				fear.where = TO_AFFECTS;
-				fear.type = gsn_fear;
+				fear.type = 172;//fear
 				fear.level = victim->level;
 				fear.duration = URANGE(1, victim->level/8, 3);
 				fear.rt_duration = 0;
@@ -15018,8 +15030,6 @@ void one_hit_shield( CHAR_DATA *ch, CHAR_DATA *victim, int dt )
 		print_char( ch, "DAM - DAMAGE_REDUCTION: %d\n\r", dam );
 #endif
 
-        check_trick( victim, ch, SN_TRICK_RAMPAGE );
-
 	}
 
 #ifdef INFO
@@ -15394,7 +15404,7 @@ int	check_critical_hit( CHAR_DATA *ch, CHAR_DATA *victim, int *diceroll, int *dt
         multiplier += number_range(0,1);
     }
 
-    if( (*diceroll >= (20 - chance) || IS_SET( ch->fight_data, FIGHT_THOUSANDSLAYER ) || IS_SET( ch->fight_data, FIGHT_CRITICAL_STRIKE ) ) && !IS_AFFECTED( ch, AFF_SEAL_OF_DESPAIR ) )
+    if( *diceroll >= (20 - chance) || IS_SET( ch->fight_data, FIGHT_THOUSANDSLAYER ) || IS_SET( ch->fight_data, FIGHT_CRITICAL_STRIKE ))
     {
         new_dam = *base_dam;
         new_dam *= multiplier;
@@ -15420,43 +15430,5 @@ int one_hit_check_mastery( CHAR_DATA *ch, CHAR_DATA *victim, int gsn, int check_
         return get_skill( ch, gsn );
     }
     return 0;
-}
-
-void do_release_spirit( CHAR_DATA *ch, char *argument )
-{
-    if( IS_NPC( ch ) || !get_spirit( ch ) )
-    {
-        return;
-    }
-    if ( ch == char_list )
-    {
-        char_list = ch->next;
-    }
-    else
-    {
-        CHAR_DATA *prev;
-        for ( prev = char_list; prev != NULL; prev = prev->next )
-        {
-            if ( prev->next == ch )
-            {
-                prev->next = ch->next;
-                break;
-            }
-        }
-        if ( prev == NULL )
-        {
-            bug( "release_spirit: char not found.", 0 );
-            return;
-        }
-    }
-
-    del_spirit( ch );
-
-    if ( ch->pcdata->corpse )
-    {
-        ch->pcdata->corpse = NULL;
-    }
-    ch->desc->connected = CON_MENU;
-    menu_show( ch );
 }
 

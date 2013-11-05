@@ -504,11 +504,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 32500
 Cost 1
 Cond 75
@@ -516,6 +516,32 @@ Itemdesc Jest to bardzo du¿y kamienny obelisk. Ustawiono go tutaj zapewne bardzo
 dawno temu gdy¿ porasta go mech. Ale co by³o celem aby przytargaæ taki
 wielki kamieñ z kamienio³omów gdziês do serca puszczy? Zaskakuj±ce jest te¿
 to, ¿e od kamienia bije jaka¶ dziwna, mroczna i z³a aura. 
+~
+Comments ~
+Objend
+#Vnum 14182
+Name skórzane sanda³y schodzone~
+Odmiana schodzonych sanda³ów~schodzonym sanda³om~schodzone sanda³y~schodzonymi sanda³ami~schodzonych sanda³ach~
+Short schodzone sanda³y~
+Descr Schodzone sanda³y ze skóry stoj± obok.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 13
+Cost 4
+Cond 50
+Itemdesc Na tych skórzanych sanda³ach w³a¶ciel ju¿ niejedn± drogê przeszed³ i
+niejedno zobaczy³ taki s± schodzone. Wykonane z miekkiej skóry mocowane s±
+rzemieniami w po³owie ³ydki, a wzmocniona podeszwa chroni stopê przed ostrym
+pod³o¿em. 
 ~
 Comments ~
 Objend
@@ -654,6 +680,17 @@ Exit 1
 ~
 ~
 0 0 14185
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44507
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44507
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -727,6 +764,17 @@ Exit 0
 ~
 ~
 0 0 14181
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 44466
+ExitExtEnd
+Exit 2
+~
+~
+0 0 44466
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2503,6 +2551,17 @@ Exit 1
 ~
 ~
 0 0 14232
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2247
+ExitExtEnd
+Exit 3
+~
+~
+0 0 2247
 DayRDesc 14181
 NightRDesc 14181
 Resources 0 0 0 0 0 0 0 0 
@@ -4391,6 +4450,26 @@ Exit 2
 ~
 ~
 0 0 14290
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15602
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15602
+DayRDesc 14181
+NightRDesc 14181
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 14280
+Name free~
+FlagsExt 0|C
+Sector 3
 DayRDesc 14181
 NightRDesc 14181
 Resources 0 0 0 0 0 0 0 0 
@@ -4716,6 +4795,17 @@ Exit 1
 ~
 ~
 0 0 14287
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50960
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50960
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4758,6 +4848,17 @@ Exit 1
 ~
 ~
 0 0 14288
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50959
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50959
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4800,6 +4901,28 @@ Exit 1
 ~
 ~
 0 0 14289
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 50958
+ExitExtEnd
+Exit 2
+~
+~
+0 0 50958
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 15601
+ExitExtEnd
+Exit 3
+~
+~
+0 0 15601
 DayRDesc 14181
 NightRDesc 14181
 Resources 0 0 0 0 0 0 0 0 
@@ -11394,6 +11517,15 @@ NightRDesc 14181
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
+#Vnum 14423
+Name {Yfree{x~
+FlagsExt 0|C
+Sector 3
+DayRDesc 14181
+NightRDesc 14181
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 14424
 Name Las~
 FlagsExt 0
@@ -12004,14 +12136,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 14437
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 14437
+16 0 14437
 DayRDesc 14181
 NightRDesc 14181
 Resources 0 0 0 0 0 0 0 0 
@@ -12035,14 +12167,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 14436
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 14436
+16 0 14436
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -12691,6 +12823,7 @@ M 100 14181 1 14415 4
 M 100 14188 10 14416 1
 M 100 14183 2 14416 2
 M 100 14183 1 14418 2
+M 100 14182 3 14423 3
 M 100 14182 2 14426 3
 M 100 14181 3 14444 4
 S

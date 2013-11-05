@@ -116,11 +116,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -142,14 +142,59 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
+Comments ~
+Objend
+#Vnum 27853
+Name sukienka lniana zwiewna prosta haftowana~
+Odmiana sukienki~sukience~sukienke~sukienka~sukience~
+Short lniana sukienka~
+Descr Zwiewna i prosta lniana sukienka z haftowanymi kwiatami lezy tutaj.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 27855
+Name wianek upleciony stokrotki~
+Odmiana wianka~wiankowi~wianek~wiankiem~wianku~
+Short {Wwi{x{Yan{x{Wek{x {Yze{x {Wst{x{Yok{x{Wro{x{Yte{x{Wk{x~
+Descr {WLezy tutaj wianek, upleciony ze swiezo zerwanych stokrotek.{x~
+Material ro¶lina~
+Type trash
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 0
+Cond 100
+Extradesc stokrotka~
+Jeden z wielu ma³ych, ale jak¿e piêknych kwiatków tworz±cych wianek.
+~
 Comments ~
 Objend
 #Vnum 27856
@@ -163,11 +208,11 @@ ExtraExt 0
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1200
 Cond 100
@@ -184,11 +229,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 6
 Cost 2
 Cond 87
@@ -583,8 +628,9 @@ S
 #RESETS
 O 100 27851 0 27855
 M 100 27851 1 27857 1
-E 100 4386 0 5
-E 100 4416 0 8
+E 100 27853 0 5
+E 100 3013 0 8
+E 100 27855 0 6
 E 100 27856 0 14
 E 100 27857 0 17
 M 100 27852 1 27858 1
@@ -613,33 +659,34 @@ delay 3
 delay 3
 'Bo to jest milosc kobiety,
 'Co jest twej duszy aniolem.
-if rand 40
-  'Jeszcze z raju samego.
-  'Jeszcze z drzewa rajskiego.
-  'Nachylilo sie jablko w moja strone.
-  delay 3
-  'I odgiela sie galaz, 
-  'jablko w dloni zostalo,
-  'Jeszcze cale, 
-  delay 3
-  'a juz podzielone.
-  'Obiegniemy wszystkie sady i ogrody,
-  'I w koscioly ciemnych lasow cie powiode.
-  delay 3
-  'Wiatr nam mocno zwiaze rece jednym wlosem,
-  'A obraczki sa ukryte w slojach sosen.
-  delay 3
-  'Przysiegniemy - lecz nie obcym, ale sobie,
-  'Ty na czysta wode w zrodle, ja na ogien.
 else
-  delay 3
-  'Zasluchane w cisze samotnosci
-  delay 3
-  'i ziemskim mrokiem spowite,
-  delay 3
-  'wszystko darza uczuciem milosci,
-  delay 3
-  'nawet dusze w ciemnosciach ukryte. 
+if rand 40
+'Jeszcze z raju samego.
+'Jeszcze z drzewa rajskiego.
+'Nachylilo sie jablko w moja strone.
+delay 3
+'I odgiela sie galaz, 
+'jablko w dloni zostalo,
+'Jeszcze cale, 
+delay 3
+'a juz podzielone.
+'Obiegniemy wszystkie sady i ogrody,
+'I w koscioly ciemnych lasow cie powiode.
+delay 3
+'Wiatr nam mocno zwiaze rece jednym wlosem,
+'A obraczki sa ukryte w slojach sosen.
+delay 3
+'Przysiegniemy - lecz nie obcym, ale sobie,
+'Ty na czysta wode w zrodle, ja na ogien.
+else
+delay 3
+'Zasluchane w cisze samotnosci
+delay 3
+'i ziemskim mrokiem spowite,
+delay 3
+'wszystko darza uczuciem milosci,
+delay 3
+'nawet dusze w ciemnosciach ukryte. 
 endif
 endif
 ~

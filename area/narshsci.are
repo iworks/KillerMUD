@@ -1,6 +1,6 @@
 #AREADATA
 Name ¦cie¿ka do Narshe ({Rjaskinia!{x)~
-Builders Kainti Loop Wicia_trakt Annor~
+Builders Kainti Loop Wicia_trakt~
 VNUMs 50731 50850
 Locked ~
 Security 9
@@ -61,6 +61,55 @@ Mobend
 
 
 #OBJECTS
+#Vnum 50732
+Name drewniana pa³a d³uga gruba~
+Odmiana drewnianej pa³y~drewnian± pa³ê~drewnian± pa³ê~drewnian± pa³±~drewnianej pale~
+Short drewniana pa³a~
+Descr D³uga i gruba drewniana pa³a le¿y na ziemi.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|EIJ
+Bonus 0
+Rent 18
+LiczbaMnoga 0
+Gender 3
+Value 4 2 9 8 32 0 0
+Repair 0 0 0 0
+Weight 360
+Cost 6000
+Cond 90
+Itemdesc Jest to sporej wielko¶ci maczuga wykonana z drewna, z pewno¶ci± nie
+by³oby mi³o tak± oberwaæ. 
+~
+Comments ~
+Objend
+#Vnum 50733
+Name zbójecki wymiatacz~
+Odmiana zbójeckiego wymiatacza~zbójeckiemu wymiataczowi~zbójecki wymiatacz~zbójeckim wymiataczem~zbójeckim wymiataczu~
+Short zbójecki wymiatacz~
+Descr Butelka 'zbójeckiego wymiatacza' le¿y tutaj.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 2 2 23 0 50728 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Butla tutejszego, zbójeckiego przysmaku, która ju¿ nie jednego zwali³a z
+nóg. P³yn wewn±trz butelki mieni siê wspaniale, chlupocze pod wp³ywem jej
+poruszania, jakby sztorm na morzu. 
+~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -2561,7 +2610,7 @@ S
 
 #RESETS
 M 100 50732 1 50747 1
-E 100 3158 0 16
+E 100 50732 0 16
 S
 
 
@@ -2675,28 +2724,213 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name gory_poczatek~
-Desc Spokojnie idziesz wij±c± siê w¶ród ska³ górsk± ¶cie¿k± podziwiaj±c piêkno natury.
+#Name gory_koniec17~
+Desc Ta czê¶æ gór jest wyj±tkowo malownicza, z tego miejsca jest naprawdê piêkny widok. 
+~
+Group 3
+End
+#Name gory_koniec16~
+Desc Z niepokojem stwierdzasz, ¿e ju¿ w podobnym miejscu by³<&e¶/a¶/o¶>. 
+~
+Group 3
+End
+#Name gory_koniec15~
+Desc Zaczynasz siê lekko niepokoiæ, ¿e nie masz przewodnika znaj±cego te tereny. Tu wszystko wygl±da identycznie.
+~
+Group 3
+End
+#Name gory_koniec14~
+Desc Trochê ciê martwi mnogo¶æ ¶cie¿ek, którymi mo¿na tutaj i¶æ. 
+~
+Group 3
+End
+#Name gory_koniec13~
+Desc Masz dziwne wra¿enie, ¿e kto¶ lub co¶ ciê obserwuje - chocia¿ na takim odludziu by³oby to bardzo dziwne.
+~
+Group 3
+End
+#Name gory_koniec12~
+Desc Odruchowo badasz pod³o¿e, ale nie dostrzegasz ¿adnych niepokoj±cych ¶ladów, poza tymi zwierzêcymi.
+~
+Group 3
+End
+#Name gory_koniec11~
+Desc Tu jest tak dziko i niebezpiecznie. Ciekawe czy sz³a ju¿ têdy jaka¶ inteligentna istota?
+~
+Group 3
+End
+#Name gory_koniec10~
+Desc Korci ciê, ¿eby lekko zboczyæ ze szlaku, wychyliæ siê i spojrzeæ w dó³, prosto w przepa¶æ. 
+~
+Group 3
+End
+#Name gory_koniec9~
+Desc Przez moment tracisz równowagê, ale w ostatniej chwili ³apiesz siê ska³y. Uff, by³o blisko.
+~
+Group 3
+End
+#Name gory_koniec8~
+Desc U¶miechasz siê lekko, dostrzegaj±c zwiewny, bia³y, ¶niegowy puszek na rosn±cej tu trawie.
+~
+Group 3
+End
+#Name gory_koniec7~
+Desc Z niejakim niepokojem stwierdzasz, ¿e szlaki w tej okolicy s± lekko oblodzone.
+~
+Group 3
+End
+#Name gory_koniec6~
+Desc Zdecydowanie ciê¿ej ci siê oddycha na tak du¿ej wysoko¶ci, a przez to szybciej siê mêczysz.
+~
+Group 3
+End
+#Name gory_koniec5~
+Desc Z niepokojem spogl±dasz na niebo, maj±c nadzieje, ¿e pogoda nie pogorszy siê zbyt szybko.
+~
+Group 3
+End
+#Name gory_koniec4~
+Desc Podziwiasz majestatyczne piêkno wielkich, strzelistych gór, po których w³a¶nie wêdrujesz.
+~
+Group 3
+End
+#Name gory_koniec3~
+Desc Góry s± naprawde piêkne, nigdzie nie znajdziesz takich widoków jak tu.
+~
+Group 3
+End
+#Name gory_koniec2~
+Desc Niesamowity widok! Jeste¶ ponad chmurami, które przetaczaj± siê leniwie w dole, pomiêdzy górami.
+~
+Group 3
+End
+#Name gory_koniec1~
+Desc Lekko pruszy ¶nieg pokrywaj±c rosn±c± tu i ówdzie trawê cienk± warstw± bia³egu puchu.
+~
+Group 3
+End
+#Name gory_koniec~
+Desc Dooko³a rozpo¶cieraj± siê malownicze widoki strzelistych, o¶nie¿onych sczytów, majacz±ce na widnokrêgu.
+~
+Group 3
+End
+#Name gory_rozwiniecie14~
+Desc S³yszysz grzmot. Chyba pogoda zaczyna siê zmieniaæ, niestety na gorsze.
+~
+Group 2
+End
+#Name gory_rozwiniecie13~
+Desc Przez moment kr±¿y nad tob± jaki¶ wielki ptak, chyba orze³. Znika jednak tak szybko, jak siê pojawi³.
+~
+Group 2
+End
+#Name gory_rozwiniecie12~
+Desc Gdzie¶ w oddali, przed tob±, majaczy samotna, strzelista góra. Ciekawe czy by³ tam ju¿ jaki¶ cz³owiek?
+~
+Group 2
+End
+#Name gory_rozwiniecie11~
+Desc S±dz±c po krajobrazie, znalaz³<&e¶/a¶/o¶> siê w jakiej¶ niewielkiej kotlince, otoczonej pier¶cieniem szczytów.
+~
+Group 2
+End
+#Name gory_rozwiniecie10~
+Desc Rozgl±daj±c siê dooko³a, widzisz, ¿e wiele jest tutaj powalonych drzew. Czy¿by halny?
+~
+Group 2
+End
+#Name gory_rozwiniecie9~
+Desc Twoj± drogê przecina w tym miejscu zawalone drzewo. Chyba nie ma rady, trzeba je jako¶ przeskoczyæ.
+~
+Group 2
+End
+#Name gory_rozwiniecie8~
+Desc Z zadumy, w któr± wpad³<&e¶/a¶/o¶>, nagle wyrwa³ ciê dziwny ryk, dochodz±cy gdzie¶ z oddali.
+~
+Group 2
+End
+#Name gory_rozwiniecie7~
+Desc Co¶ niewielkiego, chyba jaki¶ spory gryzoñ, przebieg³o ci miêdzy nogami i schowa³o siê w krzakach.
+~
+Group 2
+End
+#Name gory_rozwiniecie6~
+Desc Przedzierasz siê z trudem, przez jakie¶ wysokie krzewy, które bezlito¶nie smagaj± ciê po twarzy.
+~
+Group 2
+End
+#Name gory_rozwiniecie5~
+Desc Na chwilê pogr±¿y³<&³e¶/³a¶/³o¶> siê w zadumie, kontempluj±c piêkno górskiej przyrody. 
+~
+Group 2
+End
+#Name gory_rozwiniecie4~
+Desc Przez moment wydawa³o ci siê, ¿e gdzie¶ z boku, miêdzy drzewami, przeszed³ wielki, br±zowy nied¼wied¼.
+~
+Group 2
+End
+#Name gory_rozwiniecie3~
+Desc Zrobi³o ci siê nagle dosyæ zimno - zapewne wysoko¶æ, na jakiej siê znajdujesz, jest ju¿ znaczna. 
+~
+Group 2
+End
+#Name gory_rozwiniecie2~
+Desc Ra¼nie kroczysz przed siebie, wdychaj±c pe³n± piersi± orze¼wiaj±ce, górskie powietrze.
+~
+Group 2
+End
+#Name gory_rozwiniecie1~
+Desc Podró¿ utrudniaj± ci zalegaj±ce na dró¿ce kamienie, zsypuj±ce siê z lekkim turkotem w dó³ po ka¿dym twoim kroku.
+~
+Group 2
+End
+#Name gory_rozwiniecie~
+Desc Górskie powietrze jest do¶æ mro¼ne, ale ¶wierze i rze¶kie, co pomaga ci w dalszej, trudnej wêdrówce.
+~
+Group 2
+End
+#Name gory_poczatek14~
+Desc Jeste¶ gdzie¶ w wysokich górach. Dooko³a, gdzie¶ w dole, widaæ drzewa, a widnokr±g przys³aniaj± inne wzniesienia.
 ~
 Group 1
 End
-#Name gory_poczatek1~
-Desc Znajdujesz siê na do¶æ w±skiej, urozmaiconej ³adnymi widokami ¶cie¿ce, wysoko w górach.
+#Name gory_poczatek13~
+Desc Ra¼nie kroczysz przed siebie, z zadowoleniem przyjmuj±c jaki¶ równy kawa³ek terenu, po którym mo¿na spokojnie i¶æ.
 ~
 Group 1
 End
-#Name gory_poczatek2~
-Desc Jeste¶ gdzie¶ na ¶rodku wysokogórskiego szlaku, malowniczego, ale dosyæ zdradliwego i niebezpiecznego.
+#Name gory_poczatek12~
+Desc Znajdujesz siê na ¶cie¿ce, prowadz±cej po zboczu jakiego¶ wzniesienia... Lepiej nie patrzyæ w dó³.
 ~
 Group 1
 End
-#Name gory_poczatek3~
-Desc Idziesz w³a¶nie wzd³ó¿ szlaku ci±gn±cego siê w korycie jakiego¶ dawno wyschniêtego strumienia górskiego.
+#Name gory_poczatek11~
+Desc Mêczysz siê niesamowicie! Poruszanie siê w tym miejscu jest wyj±tkowo trudne, ze wzglêdu na skalisty teren.
 ~
 Group 1
 End
-#Name gory_poczatek4~
-Desc Stawiasz kroki powoli i ostro¿nie, uwa¿aj±c, ¿eby nie zrobiæ jakiego¶ fa³szywego ruchu.
+#Name gory_poczatek10~
+Desc Bardzo powoli i z uwag± stawiasz kroki, poniewa¿ jest tutaj wyj±tkowo wilgotno, a przez to ¶lisko.
+~
+Group 1
+End
+#Name gory_poczatek9~
+Desc W tym miejscu szlak jest dosyæ kamienisty, a przez to zdradliwy - trzeba uwa¿aæ, ¿eby siê nie osun±æ.
+~
+Group 1
+End
+#Name gory_poczatek8~
+Desc Znajdujesz siê gdzie¶ wysoko, ju¿ nad poziomem lasów, w malowniczych Górach Smoczych.
+~
+Group 1
+End
+#Name gory_poczatek7~
+Desc Idziesz w±skim szlakiem, prowadz±cym dok³adnie przy zboczu jakiego¶ stromego wzniesienia.
+~
+Group 1
+End
+#Name gory_poczatek6~
+Desc Jeste¶ ju¿ dosyæ wysoko, s±dz±c po znacznej ilo¶ci kosodrzewiny i coraz rzadziej wystêpuj±cych tu drzewach.
 ~
 Group 1
 End
@@ -2706,215 +2940,30 @@ Desc Z dziwn± przyjemno¶ci± ws³uchujesz siê w d¼wiêk chrzêszcz±cych kamyczków
 ~
 Group 1
 End
-#Name gory_poczatek6~
-Desc Jeste¶ ju¿ dosyæ wysoko, s±dz±c po znacznej ilo¶ci kosodrzewiny i coraz rzadziej wystêpuj±cych tu drzewach.
+#Name gory_poczatek4~
+Desc Stawiasz kroki powoli i ostro¿nie, uwa¿aj±c, ¿eby nie zrobiæ jakiego¶ fa³szywego ruchu.
 ~
 Group 1
 End
-#Name gory_poczatek7~
-Desc Idziesz w±skim szlakiem, prowadz±cym dok³adnie przy zboczu jakiego¶ stromego wzniesienia.
+#Name gory_poczatek3~
+Desc Idziesz w³a¶nie wzd³ó¿ szlaku ci±gn±cego siê w korycie jakiego¶ dawno wyschniêtego strumienia górskiego.
 ~
 Group 1
 End
-#Name gory_poczatek8~
-Desc Znajdujesz siê gdzie¶ wysoko, ju¿ nad poziomem lasów, w malowniczych Górach Smoczych.
+#Name gory_poczatek2~
+Desc Jeste¶ gdzie¶ na ¶rodku wysokogórskiego szlaku, malowniczego, ale dosyæ zdradliwego i niebezpiecznego.
 ~
 Group 1
 End
-#Name gory_poczatek9~
-Desc W tym miejscu szlak jest dosyæ kamienisty, a przez to zdradliwy - trzeba uwa¿aæ, ¿eby siê nie osun±æ.
+#Name gory_poczatek1~
+Desc Znajdujesz siê na do¶æ w±skiej, urozmaiconej ³adnymi widokami ¶cie¿ce, wysoko w górach.
 ~
 Group 1
 End
-#Name gory_poczatek10~
-Desc Bardzo powoli i z uwag± stawiasz kroki, poniewa¿ jest tutaj wyj±tkowo wilgotno, a przez to ¶lisko.
+#Name gory_poczatek~
+Desc Spokojnie idziesz wij±c± siê w¶ród ska³ górsk± ¶cie¿k± podziwiaj±c piêkno natury.
 ~
 Group 1
-End
-#Name gory_poczatek11~
-Desc Mêczysz siê niesamowicie! Poruszanie siê w tym miejscu jest wyj±tkowo trudne, ze wzglêdu na skalisty teren.
-~
-Group 1
-End
-#Name gory_poczatek12~
-Desc Znajdujesz siê na ¶cie¿ce, prowadz±cej po zboczu jakiego¶ wzniesienia... Lepiej nie patrzyæ w dó³.
-~
-Group 1
-End
-#Name gory_poczatek13~
-Desc Ra¼nie kroczysz przed siebie, z zadowoleniem przyjmuj±c jaki¶ równy kawa³ek terenu, po którym mo¿na spokojnie i¶æ.
-~
-Group 1
-End
-#Name gory_poczatek14~
-Desc Jeste¶ gdzie¶ w wysokich górach. Dooko³a, gdzie¶ w dole, widaæ drzewa, a widnokr±g przys³aniaj± inne wzniesienia.
-~
-Group 1
-End
-#Name gory_rozwiniecie~
-Desc Górskie powietrze jest do¶æ mro¼ne, ale ¶wierze i rze¶kie, co pomaga ci w dalszej, trudnej wêdrówce.
-~
-Group 2
-End
-#Name gory_rozwiniecie1~
-Desc Podró¿ utrudniaj± ci zalegaj±ce na dró¿ce kamienie, zsypuj±ce siê z lekkim turkotem w dó³ po ka¿dym twoim kroku.
-~
-Group 2
-End
-#Name gory_rozwiniecie2~
-Desc Ra¼nie kroczysz przed siebie, wdychaj±c pe³n± piersi± orze¼wiaj±ce, górskie powietrze.
-~
-Group 2
-End
-#Name gory_rozwiniecie3~
-Desc Zrobi³o ci siê nagle dosyæ zimno - zapewne wysoko¶æ, na jakiej siê znajdujesz, jest ju¿ znaczna. 
-~
-Group 2
-End
-#Name gory_rozwiniecie4~
-Desc Przez moment wydawa³o ci siê, ¿e gdzie¶ z boku, miêdzy drzewami, przeszed³ wielki, br±zowy nied¼wied¼.
-~
-Group 2
-End
-#Name gory_rozwiniecie5~
-Desc Na chwilê pogr±¿y³<&³e¶/³a¶/³o¶> siê w zadumie, kontempluj±c piêkno górskiej przyrody. 
-~
-Group 2
-End
-#Name gory_rozwiniecie6~
-Desc Przedzierasz siê z trudem, przez jakie¶ wysokie krzewy, które bezlito¶nie smagaj± ciê po twarzy.
-~
-Group 2
-End
-#Name gory_rozwiniecie7~
-Desc Co¶ niewielkiego, chyba jaki¶ spory gryzoñ, przebieg³o ci miêdzy nogami i schowa³o siê w krzakach.
-~
-Group 2
-End
-#Name gory_rozwiniecie8~
-Desc Z zadumy, w któr± wpad³<&e¶/a¶/o¶>, nagle wyrwa³ ciê dziwny ryk, dochodz±cy gdzie¶ z oddali.
-~
-Group 2
-End
-#Name gory_rozwiniecie9~
-Desc Twoj± drogê przecina w tym miejscu zawalone drzewo. Chyba nie ma rady, trzeba je jako¶ przeskoczyæ.
-~
-Group 2
-End
-#Name gory_rozwiniecie10~
-Desc Rozgl±daj±c siê dooko³a, widzisz, ¿e wiele jest tutaj powalonych drzew. Czy¿by halny?
-~
-Group 2
-End
-#Name gory_rozwiniecie11~
-Desc S±dz±c po krajobrazie, znalaz³<&e¶/a¶/o¶> siê w jakiej¶ niewielkiej kotlince, otoczonej pier¶cieniem szczytów.
-~
-Group 2
-End
-#Name gory_rozwiniecie12~
-Desc Gdzie¶ w oddali, przed tob±, majaczy samotna, strzelista góra. Ciekawe czy by³ tam ju¿ jaki¶ cz³owiek?
-~
-Group 2
-End
-#Name gory_rozwiniecie13~
-Desc Przez moment kr±¿y nad tob± jaki¶ wielki ptak, chyba orze³. Znika jednak tak szybko, jak siê pojawi³.
-~
-Group 2
-End
-#Name gory_rozwiniecie14~
-Desc S³yszysz grzmot. Chyba pogoda zaczyna siê zmieniaæ, niestety na gorsze.
-~
-Group 2
-End
-#Name gory_koniec~
-Desc Dooko³a rozpo¶cieraj± siê malownicze widoki strzelistych, o¶nie¿onych sczytów, majacz±ce na widnokrêgu.
-~
-Group 3
-End
-#Name gory_koniec1~
-Desc Lekko pruszy ¶nieg pokrywaj±c rosn±c± tu i ówdzie trawê cienk± warstw± bia³egu puchu.
-~
-Group 3
-End
-#Name gory_koniec2~
-Desc Niesamowity widok! Jeste¶ ponad chmurami, które przetaczaj± siê leniwie w dole, pomiêdzy górami.
-~
-Group 3
-End
-#Name gory_koniec3~
-Desc Góry s± naprawde piêkne, nigdzie nie znajdziesz takich widoków jak tu.
-~
-Group 3
-End
-#Name gory_koniec4~
-Desc Podziwiasz majestatyczne piêkno wielkich, strzelistych gór, po których w³a¶nie wêdrujesz.
-~
-Group 3
-End
-#Name gory_koniec5~
-Desc Z niepokojem spogl±dasz na niebo, maj±c nadzieje, ¿e pogoda nie pogorszy siê zbyt szybko.
-~
-Group 3
-End
-#Name gory_koniec6~
-Desc Zdecydowanie ciê¿ej ci siê oddycha na tak du¿ej wysoko¶ci, a przez to szybciej siê mêczysz.
-~
-Group 3
-End
-#Name gory_koniec7~
-Desc Z niejakim niepokojem stwierdzasz, ¿e szlaki w tej okolicy s± lekko oblodzone.
-~
-Group 3
-End
-#Name gory_koniec8~
-Desc U¶miechasz siê lekko, dostrzegaj±c zwiewny, bia³y, ¶niegowy puszek na rosn±cej tu trawie.
-~
-Group 3
-End
-#Name gory_koniec9~
-Desc Przez moment tracisz równowagê, ale w ostatniej chwili ³apiesz siê ska³y. Uff, by³o blisko.
-~
-Group 3
-End
-#Name gory_koniec10~
-Desc Korci ciê, ¿eby lekko zboczyæ ze szlaku, wychyliæ siê i spojrzeæ w dó³, prosto w przepa¶æ. 
-~
-Group 3
-End
-#Name gory_koniec11~
-Desc Tu jest tak dziko i niebezpiecznie. Ciekawe czy sz³a ju¿ têdy jaka¶ inteligentna istota?
-~
-Group 3
-End
-#Name gory_koniec12~
-Desc Odruchowo badasz pod³o¿e, ale nie dostrzegasz ¿adnych niepokoj±cych ¶ladów, poza tymi zwierzêcymi.
-~
-Group 3
-End
-#Name gory_koniec13~
-Desc Masz dziwne wra¿enie, ¿e kto¶ lub co¶ ciê obserwuje - chocia¿ na takim odludziu by³oby to bardzo dziwne.
-~
-Group 3
-End
-#Name gory_koniec14~
-Desc Trochê ciê martwi mnogo¶æ ¶cie¿ek, którymi mo¿na tutaj i¶æ. 
-~
-Group 3
-End
-#Name gory_koniec15~
-Desc Zaczynasz siê lekko niepokoiæ, ¿e nie masz przewodnika znaj±cego te tereny. Tu wszystko wygl±da identycznie.
-~
-Group 3
-End
-#Name gory_koniec16~
-Desc Z niepokojem stwierdzasz, ¿e ju¿ w podobnym miejscu by³<&e¶/a¶/o¶>. 
-~
-Group 3
-End
-#Name gory_koniec17~
-Desc Ta czê¶æ gór jest wyj±tkowo malownicza, z tego miejsca jest naprawdê piêkny widok. 
-~
-Group 3
 End
 #DescEnd
 

@@ -1,7 +1,7 @@
 #AREADATA
 Name +# Biblioteka Naukowa~
-Builders None~
-VNUMs 1300 1450
+Builders Agron~
+VNUMs 1300 1460
 Credits Agron przy pomocy Brohacza i Draka~
 Locked ~
 Security 9
@@ -1075,7 +1075,7 @@ Parts ABCGHIJKR
 Size medium
 Material unknown
 MobprogNew onload 1324 ABCDEFGHI 100~
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 1 50
@@ -1460,6 +1460,7 @@ Form CIMV
 Parts ABCDGHIJKR
 Size medium
 Material unknown
+MobprogNew onload wam_patr_onload ABCDEFGHI 100~
 MobprogNew hit 2001 H 33~
 MobprogNew death 1303 ABCDEFGHI 100~
 Spells 228 216 182 205
@@ -1643,7 +1644,7 @@ Material unknown
 Comments resist pierce z 100% na 65%, ktos chyba sie rozpedzi³ - {RKarlam{x ({CTue Jun  7 15:47:27 2011{x)
 ~
 MobprogNew onload 1323 ABCDEFGHI 100~
-Corpse 3369
+Corpse 3034
 Skin 100
 ExpMultiplier 100
 Resist 1 65
@@ -1958,11 +1959,150 @@ Spells 93 161 0 0
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 1403
+Name no name~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Long (no long description)~
+Descr ~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 78 78 78 78 78 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
+#Vnum 1459
+Name mag stra¿nik~
+Odmiana maga stra¿nika~magowi stra¿nikowi~maga stra¿nika~magiem stra¿nikiem~magu stra¿niku~
+Short mag stra¿nik~
+Long Mag stra¿nik stoi tu na posterunku.~
+Descr ~
+Race elf~
+ActExt 0|ABR
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 40
+Hitroll 0
+HP 100d10+1500
+Damage 4d5+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack mwalniecie
+XAC 10 10 10 10
+Stats 108 150 150 108 108 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 99 101 48 184
+Spells 92 91 0 0
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
+#Vnum 1460
+Name mag stra¿nik~
+Odmiana maga stra¿nika~magowi stra¿nikowi~maga stra¿nika~magiem stra¿nikiem~magu stra¿niku~
+Short mag stra¿nik~
+Long Mag stra¿nik stoi tu na posterunku.~
+Descr ~
+Race elf~
+ActExt 0|ABR
+Affected 33554984 0 0 0
+AffectedExt 0|DFJZ
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 40
+Hitroll 0
+HP 100d10+1500
+Damage 4d5+5
+Dammagic 0
+Weaponbonus 5
+Damflags 0
+Attack mwalniecie
+XAC 10 10 10 10
+Stats 108 150 150 108 108 78 78
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 0
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Spells 99 101 48 184
+Spells 92 91 0 0
+Skin 100
+ExpMultiplier 100
+Resist 12 100
+Resist 14 100
+Mobend
 #Vnum 0
 
 
 
 #OBJECTS
+#Vnum 1300
+Name he³m garnek~
+Odmiana he³mu z garnka~he³mowi z garnka~he³m z garnka~he³mem z garnka~he³mie z garnka~
+Short he³m z garnka~
+Descr He³m wykonany z garnka sporej wielko¶ci le¿y tu.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0|Y
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 6 6 6 10 5 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 2400
+Cond 100
+Comments ~
+Objend
 #Vnum 1301
 Name ¶wiec±ca tulejka~
 Odmiana ¶wiec±cej tulejki~¶wiec±cej tulejce~¶wiec±c± tulejkê~¶wiec±c± tulejk±~¶wiec±cej tulejce~
@@ -1978,7 +2118,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 7 40 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 150
 Cond 100
@@ -2000,12 +2139,31 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 42000
 Cond 100
 Aff 1 26 209 -20 0 0
 Aff 1 26 119 -20 0 0
+Comments ~
+Objend
+#Vnum 1304
+Name toporek~
+Odmiana toporka~toporkowi~toporek~toporkiem~toporku~
+Short toporek~
+Descr Sporych rozmiarów toporek.~
+Material br±z~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0|ABCI
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 3 4 1 32 -1 3
+Repair 0 0 0 0
+Weight 150
+Cost 18000
+Cond 90
 Comments ~
 Objend
 #Vnum 1305
@@ -2023,9 +2181,28 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 1306
+Name laska~
+Odmiana grubej laski~grubej lasce~grub± laskê~grub± lask±~grubej lasce~
+Short gruba laska~
+Descr Gruba laska le¿y tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 3 3 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 600
 Cond 100
 Comments ~
 Objend
@@ -2044,7 +2221,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1500
 Cond 100
@@ -2065,7 +2241,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -2086,9 +2261,28 @@ LiczbaMnoga 0
 Gender 0
 Value 150 16 0 50 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 500
 Cost 0
+Cond 100
+Comments ~
+Objend
+#Vnum 1311
+Name z³oty sztylet smocza g³owa~
+Odmiana z³otego sztyletu~z³otemu sztyletowi~z³oty sztylet~z³otym sztyletem~z³otym sztylecie~
+Short z³oty sztylet~
+Descr Z³oty sztylet ze smokiem na rêkoje¶ci.~
+Material z³oto~
+Type weapon
+ExtraExt 0|KS
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 4 11 0 1 2
+Repair 0 0 0 0
+Weight 10
+Cost 21000
 Cond 100
 Comments ~
 Objend
@@ -2107,7 +2301,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 60
 Cond 100
@@ -2128,11 +2321,30 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 600
 Cond 85
 Itemdesc ~
+Comments ~
+Objend
+#Vnum 1314
+Name prosty habit~
+Odmiana habitu~habitowi~habit~habitem~habicie~
+Short prosty habit~
+Descr Prosty, niczym nie przyozdobiony habit.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 10
+Cost 10
+Cond 75
 Comments ~
 Objend
 #Vnum 1315
@@ -2150,7 +2362,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -2173,12 +2384,53 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 10
 Cond 40
 Itemdesc Ma³a, drewniana ró¿d¿ka, w której ¶lady mocy zostawi³y ma³e rowki. Widaæ, ¿e teraz jest tylko ma³ym, do niczego nieprzydatnym kawa³kiem drewna. 
 ~
+Comments ~
+Objend
+#Vnum 1320
+Name pier¶cieñ~
+Odmiana pier¶cienia~pier¶cieniowi~pier¶cieñ~pier¶cieniem~pier¶cieniu~
+Short pier¶cien~
+Descr Widzisz pier¶cieñ z dziwnego zielonkawego kamienia.~
+Material kamieñ~
+Type jewelry
+ExtraExt 0|G
+Wear AB
+Wear2Ext 0|R
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 24000
+Cond 100
+Aff 1 27 3 1 0 0
+Comments ~
+Objend
+#Vnum 1321
+Name pier¶cieñ~
+Odmiana pier¶cienia~pier¶cieniowi~pier¶cieñ~pier¶cieniem~pier¶cieniu~
+Short pier¶cieñ~
+Descr Widzisz pier¶cieñ z dziwnego zielonkawego kamienia.~
+Material kamieñ~
+Type jewelry
+ExtraExt 0|G
+Wear AB
+Wear2Ext 0|R
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 18000
+Cond 100
+Aff 1 27 4 1 0 0
 Comments ~
 Objend
 #Vnum 1322
@@ -2196,11 +2448,31 @@ LiczbaMnoga 0
 Gender 0
 Value 1 10 227 62 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 100
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1324
+Name br±zowy pier¶cieñ~
+Odmiana br±zowego pier¶cienia~br±zowemu pier¶cieniowi~br±zowy pier¶cieñ~br±zowym pier¶cieniem~br±zowym pier¶cieniu~
+Short br±zowy pier¶cieñ~
+Descr Br±zowy pier¶cieñ z eidocznymi s³ojami.~
+Material drewno~
+Type jewelry
+ExtraExt 0|G
+Wear AB
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 21000
+Cond 100
+Aff 1 27 3 1 0 0
 Comments ~
 Objend
 #Vnum 1325
@@ -2218,11 +2490,31 @@ LiczbaMnoga 0
 Gender 1
 Value 1 5 5 1 0 0 33
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 21000
 Cond 100
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1328
+Name zupa kurczak kluski~
+Odmiana zupy z kurczakiem i kluskami~zupie z kurczakiem i kluskami~zupê z kurczakiem i kluskami~zupa z kurczakiem i kluskami~zupie z kurczakiem i kluskami~
+Short zupa z kurczakiem i kluskami~
+Descr Talerz gor±cej zupy z kurczaka z kluskami stoi przed tob±.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 4
+Cond 100
+Objprog consume 1301 100~
 Comments ~
 Objend
 #Vnum 1330
@@ -2240,7 +2532,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -2263,10 +2554,32 @@ LiczbaMnoga 0
 Gender 0
 Value 0 7 361 313 391 141 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 35520
 Cond 75
+Comments ~
+Objend
+#Vnum 1332
+Name czarny kij~
+Odmiana czarnego kija~czarnemu kijowi~czarny kij~czarnym kijem~czarnym kiju~
+Short czarny kij~
+Descr Czarny kij ze zgrubieniem na g³ówni.~
+Material granit~
+Type weapon
+ExtraExt 0|GJL
+Wear AN
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 3 4 28 32 1 1
+Repair 0 0 0 0
+Weight 70
+Cost 18000
+Cond 75
+Itemdesc Czarny kij ze zgrubieniem na g³owni wydaje siê emanowaæ magiczn± moc±.
+Po bli¿szym przyjrzeniu widaæ znajduj±ce siê na jego koñcu ma³e, ostre zêby.
+~
 Comments ~
 Objend
 #Vnum 1333
@@ -2284,7 +2597,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2305,7 +2617,6 @@ LiczbaMnoga 0
 Gender 0
 Value 31 76 5 31 59 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 3000
 Cond 75
@@ -2327,7 +2638,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -2350,8 +2660,29 @@ LiczbaMnoga 0
 Gender 0
 Value 1250 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
+Cost 0
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1337
+Name drewniany rega³~
+Odmiana drewnianego rega³u~drewnianemu rega³owi~drewniany rega³~drewnianym rega³em~drewnianym regale~
+Short drewniany rega³~
+Descr Drewniany rega³ na ksi±¿ki stoi przy ¶cianie.~
+Material drewno~
+Type container
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 150 16 0 1000 1000 0 0
+Repair 0 0 0 0
+Weight 2000
 Cost 0
 Cond 100
 Itemdesc ~
@@ -2373,9 +2704,103 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1339
+Name srebrny pier¶cieñ dziekana~
+Odmiana pier¶cienia dziekana~pier¶cieniowi dziekana~pier¶cieñ dziekana~pier¶cieniem dziekana~pier¶cieniu dziekana~
+Short srebrny pier¶cieñ dziekana~
+Descr Srebrny pier¶cieñ od Dziekana Thobicusa.~
+Material srebro~
+Type jewelry
+ExtraExt 0|GJK
+Wear AB
+Wear2Ext 0|A
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 27000
+Cond 100
+Aff 1 27 5 1 0 0
+Aff 1 27 4 1 0 0
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1340
+Name z³oty pier¶cieñ dziekana~
+Odmiana pier¶cienia dziekana~pier¶cieniowi dziekana~pier¶cieñ dziekana~pier¶cieniem dziekana~pier¶cieniu dziekana~
+Short z³oty pier¶cieñ dziekana~
+Descr Z³oty pier¶cieñ od Dziekana Thobicusa.~
+Material z³oto~
+Type jewelry
+ExtraExt 0|GJK
+Wear AB
+Wear2Ext 0|A
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 36000
+Cond 100
+Aff 1 27 6 1 0 0
+Aff 1 27 5 1 0 0
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1341
+Name br±zowy pier¶cieñ dziekana~
+Odmiana pier¶cienia dziekana~pier¶cieniowi dziekana~pier¶cieñ dziekana~pier¶cieniem dziekana~pier¶cieniu dziekana~
+Short br±zowy pier¶cieñ dziekana~
+Descr Br±zowy pier¶cieñ od Dziekana Thobicusa.~
+Material drewno~
+Type jewelry
+ExtraExt 0|GJK
+Wear AB
+Wear2Ext 0|A
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 23485
+Cond 100
+Aff 1 27 5 1 0 0
+Aff 1 27 4 1 0 0
+Aff 1 27 3 1 0 0
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1342
+Name zupa kluskami kura kurczak~
+Odmiana zupy z kurczakiem i kluskami~zupie z kurczakiem i kluskami~zupê z kurczakiem i kluskami~zupa z kurczakiem i kluskami~zupie z kurczakiem i kluskami~
+Short zupa z kurczakiem i kluskami~
+Descr Talerz gor±cej zupy z kurczaka i kluskami stoi przed tob±.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 48 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 4
 Cond 100
 Itemdesc ~
 Identdesc ~
@@ -2396,7 +2821,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 1 40 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 600
 Cond 100
@@ -2419,7 +2843,6 @@ LiczbaMnoga 0
 Gender 0
 Value 150 16 0 1000 1000 8 -1
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 0
 Cond 100
@@ -2442,7 +2865,6 @@ LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 60
 Cond 5
@@ -2463,10 +2885,31 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 32 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 6000
 Cond 75
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1351
+Name drewniany rega³~
+Odmiana drewnianego rega³u~drewnianemu rega³owi~drewniany rega³~drewnianym rega³em~drewnianym regale~
+Short drewniany rega³~
+Descr Drewniany rega³ na ksi±¿ki stoi przy ¶cianie.~
+Material drewno~
+Type container
+ExtraExt 0|d
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 150 16 0 1000 1000 0 0
+Repair 0 0 0 0
+Weight 2000
+Cost 0
+Cond 100
+Itemdesc ~
 Identdesc ~
 Comments ~
 Objend
@@ -2485,7 +2928,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 1 32 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 600
 Cond 75
@@ -2507,7 +2949,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 1 32 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 9
 Cost 60
 Cond 75
@@ -2529,7 +2970,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 6 137 182 181 15 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 28020
 Cond 100
@@ -2554,7 +2994,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 1 32 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 75
@@ -2563,6 +3002,54 @@ Na ¶rodku widzisz ledwo widoczny napis: Kilka s³ów o czarnej magii
 nekromanckiej... 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1357
+Name broñ rapier czarny czarna zdobiona~
+Odmiana {Dczarnego rapieru{x~{Dczarnemu rapierowi{x~{Dczarny rapier{x~{Dczarnym rapierem{x~{Dczarnym rapierze{x~
+Short {Dczarny rapier{x~
+Descr D³uga, zdobiona motywami czaszek broñ le¿y tutaj. Wygl±da na rapier.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|GJ
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 1 1024 2 2
+Repair 0 0 0 0
+Weight 80
+Cost 27000
+Cond 100
+Identdesc Czarny rapier promieniuje moc±, mo¿na poznaæ, ¿e ta broñ jest ob³o¿ona
+do¶æ silnymi zaklêciami. Oprócz tego ten zdradziecki, kiedy¶ dzier¿ony przez
+potê¿nego wampira rapier pozwala zadawaæ wiêksze rany ludziom. 
+~
+Comments ~
+SpecDamExt 2 100 1 -100 -100 0 1 0
+SpecDamExt 2 50 1 -100 -100 0 1 0
+Objend
+#Vnum 1358
+Name broñ rapier czarny czarna zdobiona~
+Odmiana {Dczarnego rapieru{x~{Dczarnemu rapierowi{x~{Dczarny rapier{x~{Dczarnym rapierem{x~{Dczarnym rapierze{x~
+Short {Dczarny rapier{x~
+Descr D³uga, zdobiona motywami czaszek broñ le¿y tutaj. Wygl±da na rapier.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|GJ
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 1 1024 1 1
+Repair 0 0 0 0
+Weight 80
+Cost 27000
+Cond 100
+Identdesc Czujesz, ¿e czarny rapier jest broni± umagicznion±.
+~
 Comments ~
 Objend
 #Vnum 1400
@@ -2580,7 +3067,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 1 92 404 486 52 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 600
 Cond 100
@@ -2604,7 +3090,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 1 14 373 484 419 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 600
 Cond 100
@@ -2629,7 +3114,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 2 482 304 65 92 0
 Repair 0 0 0 0
-Length 0
 Weight 11
 Cost 3600
 Cond 75
@@ -2650,7 +3134,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 2 485 34 92 442 0
 Repair 0 0 0 0
-Length 0
 Weight 12
 Cost 3600
 Cond 75
@@ -2671,7 +3154,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 3 486 162 409 285 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 8580
 Cond 75
@@ -2696,7 +3178,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 3 375 69 293 405 0
 Repair 0 0 0 0
-Length 0
 Weight 14
 Cost 8580
 Cond 75
@@ -2721,7 +3202,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 4 295 1 137 381 0
 Repair 0 0 0 0
-Length 0
 Weight 17
 Cost 14460
 Cond 75
@@ -2745,7 +3225,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 4 69 143 60 325 0
 Repair 0 0 0 0
-Length 0
 Weight 17
 Cost 14460
 Cond 100
@@ -2753,6 +3232,30 @@ Itemdesc Ksiêga, na któr± patrzysz, jest praktycznie w idealnym stanie - wygl±da
 jakby nikt, poza osobami j± pisz±cymi, jej do tej pory nie otwiera³. W lewym
 dolnym rogu widzisz poz³acan± literkê {YA{x, która ¶wiadczy o tym, i¿ ksiêga
 zosta³a napisana w Arrasyjskiej Akademii Magii. 
+~
+Comments ~
+Objend
+#Vnum 1408
+Name robocze ogrodniczki brudne wytarte zielone pobrudzone~
+Odmiana brudnych ogrodniczek~brudnym ogrodniczkom~brudne ogrodniczki~brudnymi ogrodniczkami~brudnych ogrodniczkach~
+Short brudne ogrodniczki~
+Descr Pobrudzone, zielone ogrodniczki z szelkami.~
+Material we³na~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 73 0
+Repair 0 0 0 0
+Weight 10
+Cost 60
+Cond 75
+Itemdesc S± to do¶æ typowe spodnie ogrodniczki koloru zielonego. Widaæ, ¿e ich
+w³a¶ciciel czêsto pracuje, gdy¿ s± pobrudzone do¶æ mocno ziemi±. Szczególnie
+brudne s± nogawki przy kolanach. 
 ~
 Comments ~
 Objend
@@ -2771,7 +3274,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 10 200 213 43 43 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 270000
 Cond 90
@@ -2780,6 +3282,31 @@ niezrozumia³y napis w jakim¶ staro¿ytnym jêzyku. Potê¿na moc magiczna
 zawarta w tej ksiêdze sprawia, ¿e mimo ogromu czasu, przez który przele¿a³a
 ona w smoczych jamach, zdaje siê byæ praktycznie niezniszczona. 
 ~
+Comments ~
+Objend
+#Vnum 1410
+Name bransoleta mocarstwa telivirtara~
+Odmiana bransolety {Ymocarstwa {DTelivirtara{x~bransolecie {Ymocarstwa {DTelivirtara{x~bransoletê {Ymocarstwa {DTelivirtara{x~bransolet± {Ymocarstwa {DTelivirtara{x~bransolecie {Ymocarstwa {DTelivirtara{x~
+Short bransoleta {Ymocarstwa {DTelivirtara{x~
+Descr Le¿y tutaj bransoleta {Ymocarstwa {DTelivirtara{x.~
+Material mithril~
+Type jewelry
+ExtraExt 0|BDG
+Wear AM
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 120000
+Cond 100
+Aff 1 1 2 0 0 0
+Aff 1 4 -1 0 0 0
+Aff 1 3 -1 0 0 0
+Aff 1 26 106 10 0 0
+Aff 1 17 -10 0 0 0
 Comments ~
 Objend
 #Vnum 1411
@@ -2797,7 +3324,6 @@ LiczbaMnoga 0
 Gender 1
 Value 11 3 5 2 1024 3 2
 Repair 0 0 0 0
-Length 49
 Weight 50
 Cost 16200
 Cond 100
@@ -2812,8 +3338,51 @@ drobinki piasku wokó³ tej ponurej postaci?
 Identdesc ~
 Comments ~
 Objend
+#Vnum 1412
+Name pawe¿ smoczej ³uski~
+Odmiana pawê¿y ze {Gsmoczej ³uski{x~pawê¿y ze {Gsmoczej ³uski{x~pawê¿ ze {Gsmoczej ³uski{x~pawê¿± ze {Gsmoczej ³uski{x~pawê¿y ze {Gsmoczej ³uski{x~
+Short pawê¿ ze {Gsmoczej ³uski{x~
+Descr Le¿y tutaj pawê¿ ze {Gsmoczej ³uski{x.~
+Material smocze ³uski~
+Type shield
+ExtraExt 0|BDG
+Wear AJ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 6 43 15 1 2 0
+Repair 0 0 0 0
+Weight 200
+Cost 62100
+Cond 75
+Aff 1 26 109 5 0 0
+Comments ~
+Objend
+#Vnum 1415
+Name naramienniki lisiego futra~
+Odmiana {DNar{wamien{Dników {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{DNar{wamien{Dnikom {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{DNar{wamien{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{DNar{wamien{Dnikami {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{DNar{wamien{Dnikach {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~
+Short {DNar{wamien{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~
+Descr Le¿± tutaj {DNar{wamien{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 1420
+LiczbaMnoga 1
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2400
+Cond 75
+Itemdesc S± to ³adnie zdobione z³otem skórzane naramienniki.
+~
+Comments ~
+Objend
 #Vnum 1416
-Name {Dnag{wolen{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~
+Name nagolenniki lisiego futra~
 Odmiana {Dnag{wolen{Dników {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{Dnag{wolen{Dnikom {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{Dnag{wolen{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{Dnag{wolen{Dnikami {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~{Dnag{wolen{Dnikach {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~
 Short {Dnag{wolen{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X~
 Descr Le¿± tutaj {Dnag{wolen{Dniki {wz {DLi{wsie{Dgo {DFu{wtr{Da{X.~
@@ -2827,13 +3396,38 @@ LiczbaMnoga 1
 Gender 0
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 48
 Cost 2400
 Cond 75
 Itemdesc S± to ³adnie zdobione z³otem skórzane nagolenniki.
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1417
+Name zwinieta kita lisa~
+Odmiana {Dzwi{wnie{Dtej K{wit{Dy {wL{Dis{wa{X~{Dzwi{wnie{Dtej K{wit{Dcie {wL{Dis{wa{X~{Dzwi{wnie{Dt± K{wit{Dê {wL{Dis{wa{X~{Dzwi{wnie{Dt± K{wit{D± {wL{Dis{wa{X~{Dzwi{wnie{Dtej K{wic{Die {wL{Dis{wa{X~
+Short {Dzwi{wnie{Dta K{wit{Da {wL{Dis{wa{X~
+Descr Le¿y tutaj {Dzwi{wnie{Dta K{wit{Da {wL{Dis{wa{X.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 1420
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 11
+Cost 40
+Cond 75
+Itemdesc Widzisz inkrustowany z³otem pas, na którym zrêczny rzemie¶lnik, umie¶ci³
+sceny polowania. Po prawiej stronie sprzaczki widaæ my¶liwego szykuj±cego
+siê na polowanie. Z ty³u widaæ jak siê skrada i przyczaja oraz moment
+strza³u, gdy szybka jak sokó³ strza³a zag³êbia siê poka¼nej losze. Po lewej
+stronie sprz±czki widaæ jak my¶liwy oprawia zdobycz i dziali miêso. 
+~
 Comments ~
 Objend
 #Vnum 1418
@@ -2851,7 +3445,6 @@ LiczbaMnoga 1
 Gender 0
 Value 6 8 6 10 6 0 0
 Repair 0 0 0 0
-Length 0
 Weight 7
 Cost 2400
 Cond 100
@@ -2861,6 +3454,30 @@ soko³em na lewym przedramieniu. Na drugiej stronie tego buta widaæ soko³a
 zrywaj±cego siê do lotu. Na drugim bucie sokó³ w locie chwyta przera¿on±
 przepiórke, a na drugiej stronie buta widaæ my¶liwego nagradzaj±cego swojego
 soko³a. 
+~
+Comments ~
+Objend
+#Vnum 1419
+Name rekawice lisiego futra~
+Odmiana {DRê{wkaw{Dic {wz {DLi{wsie{Dgo {DFu{wtr{Da{x~{DRê{wkaw{Dicom {wz {DLi{wsie{Dgo {DFu{wtr{Da{x~{DRê{wkaw{Dice {wz {DLi{wsie{Dgo {DFu{wtr{Da{x~{DRê{wkaw{Dicami {wz {DLi{wsie{Dgo {DFu{wtr{Da{x~{DRê{wkaw{Dicach {wz {DLi{wsie{Dgo {DFu{wtr{Da{x~
+Short {DRê{wkaw{Dice {wz {DLi{wsie{Dgo {DFu{wtr{Da{x~
+Descr Le¿± tutaj {DRê{wkaw{Dice {wz {DLi{wsie{Dgo {DFu{wtr{Da{x.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 1420
+LiczbaMnoga 1
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 3000
+Cond 100
+Itemdesc Widzisz inkrustowane z³otem rêkawice, na których zrêczny elfi rzemie¶lnik
+przedstawi³: mizerykordiê na prawej a sylwetkê skradaj±cego siê elfa na
+lewej. 
 ~
 Comments ~
 Objend
@@ -2879,7 +3496,6 @@ LiczbaMnoga 1
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2900,7 +3516,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -2921,10 +3536,37 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
+Comments ~
+Objend
+#Vnum 1423
+Name ró¿owe buty obcasie r_but~
+Odmiana {Mró¿owych butów{x na obcasie~{Mró¿owym butom{x na obcasie~{Mró¿owe buty{x na obcasie~{Mró¿owymi butami{x na obcasie~{Mró¿owych butach{x na obcasie~
+Short {Mró¿owe buty{x na obcasie~
+Descr Le¿± tutaj {Mró¿owe buty{x na obcasie.~
+Material kaszmir~
+Type armor
+ExtraExt 0|BD
+Wear AG
+Wear2Ext 0|RX
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 60000
+Cond 75
+Aff 0 0 0 0 3 C
+Objprog prewear 1423 100~
+Identdesc Piêkne buty na wysokim obcasie, na pewno nie s± robot± zwyk³ego szewca.
+Przez malutk± stopê w³a¶cicielki biegnie ró¿owy paseczek który ma za zadanie
+sprawiæ aby stopa wygl±da³a na d³u¿sz±. Po zewnêtrznych stronach butów
+dostrzec mo¿esz literkê A która jest przyozdobiona bia³ymi skrzyde³kami. To
+mo¿e byæ znak osoby która je wykona³a. Co¶ sprawia, ¿e pragniesz tych butów.
+~
 Comments ~
 Objend
 #Vnum 1424
@@ -2942,13 +3584,96 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 3000
 Cond 75
 Itemdesc Jest to medal okoliczno¶ciowy za udzia³ w LQ pt. 'Zadania' zorganizowanym
 przez Agrona. Medal ten oznacza, ¿e uczestnik wykona³ przynajmniej jedno
 zadanie. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1425
+Name klucz agrona~
+Odmiana null~null~null~null~null~
+Short klucz agrona~
+Descr Lezy tutaj klucz Agrona.~
+Material unused~
+Type key
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 1426
+Name zwiastun ¶mierci daga~
+Odmiana dagi {R'{DZwiastun ¦mierci{R'{x~dadze {R'{DZwiastun ¦mierci{R'{x~dagê {R'{DZwiastun ¦mierci{R'{x~dag± {R'{DZwiastun ¦mierci{R'{x~dadze {R'{DZwiastun ¦mierci{R'{x~
+Short daga {R'{DZwiastun ¦mierci{R'{x~
+Descr Le¿y tutaj daga {R'{DZwiastun ¦mierci{R'{x.~
+Material mithril~
+Type weapon
+ExtraExt 0|BDGa
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 2 2 5 1 1032 3 4
+Repair 0 0 0 0
+Weight 20
+Cost 120000
+Cond 100
+Objprog time daga1 0~
+Objprog time daga1 6~
+Objprog time daga1 12~
+Objprog time daga1 0~
+Objprog hit daga2 3~
+Itemdesc Z zaciekawieniem na twarzy przygl±dasz siê d³ugiej, czarnej klindze.
+Rêkoje¶æ dagi wykonana zosta³a z dziwnego czarnego tworzywa, dodatkowo
+zosta³a ona ozdobiona licznymi, krwawymi diamentami. D³ugie ostrze sztyletu,
+niezwykle ostre i wykonane z niesamowit± precyzj± zosta³o opatrzone dziwnymi
+insygniami. Tak dziwnymi, i¿ ¿aden ¿yj±cy mag nie jest wstanie ich odczytaæ,
+pradawne insygnia mog± byæ odczytane jedynie przez niektóre, stare niemal
+antyczne smoki... Wed³ug legendy niesamowita magia zosta³a ukryta w owym
+ostrzu, staro¿ytni pisali o dadze {Dzwiastun ¶mierci{x, gdziekolwiek pojawi³a
+siê owa broñ, napotykano jedynie ¶mieræ i zniszczenie, ale to tylko legenda,
+chocia¿... 
+~
+Comments poprawa short desc, odmiany, condition dodaje desca... - {RRisan{x ({CWed Sep 28 19:39:26 2011{x)
+~
+Objend
+#Vnum 1427
+Name pancerz lekki wspania³y ³uska smocza~
+Odmiana {Gpancerza ze smoczej ³uski{x~{Gpancerzowi ze smoczej ³uski{x~{Gpancerz ze smoczej ³uski{x~{Gpancerzem ze smoczej ³uski{x~{Gpancerzu ze smoczej ³uski{x~
+Short {Gpancerz ze smoczej ³uski{x~
+Descr {GWspania³y, lekki i mocny pancerz z ³uski zielonego smoka.{x~
+Material smocze ³uski~
+Type armor
+ExtraExt 0|DGW
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 133
+Cost 60
+Cond 100
+Itemdesc Zbroja ta zostala stworzona w niecnym celu za¿artowania sobie na pewnym osobniku o imieniu Elladris.
+ 
+podpisano : AGRON
+ 
+ma³ymi literami na wewnetrznej stronie pancerza napisane jest : REPLIKA
 ~
 Identdesc ~
 Comments ~
@@ -2968,7 +3693,6 @@ LiczbaMnoga 0
 Gender 0
 Value 2 2 3 2 1024 4 0
 Repair 0 0 0 0
-Length 19
 Weight 20
 Cost 60000
 Cond 75
@@ -3001,7 +3725,86 @@ LiczbaMnoga 0
 Gender 0
 Value 20 20 19 0 3331 0 0
 Repair 0 0 0 0
-Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 1430
+Name seksowna koszulka~
+Odmiana {Rseksownej pó³przezroczystej koszulki{x~{Rseksownej pó³przezroczystej koszulce{x~{Rseksown± pó³przezroczyst± koszulkê{x~{Rseksown± pó³przezroczyst± koszulk±{x~{Rseksownej pó³przezroczystej koszulce{x~
+Short {Rseksowna pó³przezroczysta koszulka{x~
+Descr {RSeksowna pó³przezroczysta koszulka{x le¿y przed tob±.~
+Material kaszmir~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 1431
+Name ponczochy~
+Odmiana {Rpoñczoch 'kabaretek'{x~{Rpoñczochom 'kabaretkom'{x~{Rpoñczochy 'kabaretki'{x~{Rpoñczochami 'kabaretkami'{x~{Rpoñczochach 'kabaretkach'{x~
+Short wyzywaj±ce {Rpoñczochy 'kabaretki'{x~
+Descr Widzisz przed sob± wyzywaj±ce {Rpoñczochy 'kabaretki'{x.~
+Material unused~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 1432
+Name seksowne podwiazki~
+Odmiana {Rseksownych podwi±zek{x~{Rseksownym podwi±zkom{x~{Rseksowne podwi±zki{x~{Rseksownymi podwi±zkami{x~{Rseksownych podwi±zkach{x~
+Short {Rseksowne podwi±zki{x~
+Descr Widzisz przed sob± {Rseksowne podwi±zki{x.~
+Material kaszmir~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 1433
+Name stringi~
+Odmiana {Rpodniecaj±cych stringów{x~{Rpodniecaj±cym stringom{x~{Rpodniecaj±ce stringi{x~{Rpodniecaj±cymi stringami{x~{Rpodniecaj±cych stringach{x~
+Short {Rpodniecaj±ce stringi{x~
+Descr Widzisz {Rpodniecaj±ce stringi{x.~
+Material kaszmir~
+Type trash
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
 Weight 1
 Cost 1
 Cond 75
@@ -3022,11 +3825,54 @@ LiczbaMnoga 0
 Gender 3
 Value 4 5 18 4 3 3 0
 Repair 0 0 0 0
-Length 0
 Weight 244
 Cost 121260
 Cond 75
 Aff 1 26 114 15 0 0
+Comments ~
+Objend
+#Vnum 1435
+Name szata jedwabna anielska~
+Odmiana jedwabnej szaty~jedwabnej szaty~jedwab± szatê~jedwabn± szat±~jedwabnej szacie~
+Short {Canielska szata{x~
+Descr Piêkna jedwabna szata emanuje lekk± {Cniebiesk±{x po¶wiatê.~
+Material jedwab~
+Type armor
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 18000
+Cond 75
+Itemdesc Jest to piêkna, lekka szata, wykonana dla najwierniejszych kap³anek.
+~
+Comments ~
+Objend
+#Vnum 1437
+Name szpiczasty kapelusz~
+Odmiana szpiczastego kapelusza~null~szpiczasty kapelusz~szpiczastym kapeluszem~null~
+Short szpiczasty kapelusz~
+Descr Szpiczasty kapelusz porzucony przez kogo¶ niedawno, kurzy siê na ziemi.~
+Material len~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 6000
+Cond 100
+Aff 1 12 8 2 0 0
+Aff 1 12 5 -1 0 0
 Comments ~
 Objend
 #Vnum 1438
@@ -3044,7 +3890,6 @@ LiczbaMnoga 0
 Gender 4
 Value 0 186 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 5000
 Cond 50
@@ -3054,6 +3899,26 @@ krawêdzie s± nadszarpane, a wst±¿ka, któr± jest przewi±zany z dawna ju¿
 wyblak³a, i przypomina teraz kawa³ek wylenia³ej wilczej skóry. Od zwoju bije
 dziwna, ledwo zauwa¿alna magiczna aura. 
 ~
+Comments ~
+Objend
+#Vnum 1440
+Name habit mnicha~
+Odmiana habitu~habitowi~habit~habitem~habicie~
+Short habit mnicha~
+Descr D³ugi, czarny habit czêsto noszony przez mnichów le¿y tutaj.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 8
+Cost 4
+Cond 75
 Comments ~
 Objend
 #Vnum 0
@@ -8472,14 +9337,6 @@ Sector 8
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 1451
-Name ~
-Descr ~
-FlagsExt 0|C
-Sector 8
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
 #Vnum 0
 
 
@@ -8508,68 +9365,64 @@ O 100 1309 0 1308
 P 100 1308 2 1309 1
 M 100 1304 1 1309 1
 M 100 1332 1 1313 1
-E 100 3352 0 16
-E 100 4363 0 5
-E 100 4411 0 7
-E 100 4419 0 8
-E 100 4398 0 9
 M 100 1317 2 1326 1
 M 100 1328 6 1334 2
-G 100 2466 0
+G 100 1328 0
 M 100 1354 1 1335 1
-G 100 2466 0
+G 100 1328 0
 M 100 1328 6 1336 2
-G 100 2466 0
+G 100 1328 0
 M 100 1328 6 1337 2
-G 100 2466 0
+G 100 1342 0
 M 100 1308 1 1338 1
 G 100 1315 0
-G 100 3386 0
-P 100 1352 1 3386 1
-P 100 1421 1 3386 1
-G 100 3386 0
-G 100 3386 0
+O 100 1337 0 1350
+P 100 1352 1 1337 1
+P 100 1421 1 1337 1
+O 100 1337 0 1351
+O 100 1337 0 1355
 M 100 1303 1 1356 1
 M 100 1305 1 1357 1
 M 100 1309 1 1358 1
 M 100 1327 1 1360 1
 G 20 1350 0
 M 100 1310 1 1361 1
-O 100 2358 0 1361
+O 100 3399 0 1361
 M 100 1317 2 1364 1
 M 100 1317 1 1364 2
 M 100 1300 1 1366 1
-G 100 3386 0
-P 100 1313 1 3386 1
-P 100 1353 1 3386 1
-G 100 3386 0
-P 100 3430 1 3386 1
-G 100 3386 0
-P 100 1343 1 3386 1
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
-G 100 3386 0
+O 100 1337 0 1367
+P 100 1313 1 1337 1
+P 100 1353 1 1337 1
+O 100 1337 0 1368
+P 100 3430 1 1337 1
+O 100 1337 0 1369
+P 100 1343 1 1337 1
+O 100 1337 0 1370
+O 100 1337 0 1371
+O 100 1337 0 1372
+O 100 1337 0 1373
+O 100 1337 0 1374
+O 100 1337 0 1375
+O 100 1337 0 1376
+O 100 1337 0 1377
+O 100 1337 0 1378
+O 100 1337 0 1379
+O 100 1337 0 1380
+O 100 1337 0 1381
+O 100 1337 0 1382
+O 100 1337 0 1383
+O 100 1337 0 1383
+O 100 1337 0 1384
+O 100 1337 0 1385
+O 100 1337 0 1386
 O 50 1345 0 1386
 M 100 1339 1 1387 1
 G 100 1312 0
 O 100 1344 0 1387
 O 100 1344 0 1388
 O 100 1344 0 1389
+O 100 1337 0 1390
 O 50 1345 0 1390
 M 100 1306 1 1392 1
 M 100 1316 1 1393 1
@@ -8593,8 +9446,8 @@ M 100 1338 1 1439 1
 M 100 1313 1 1443 1
 G 100 1333 0
 M 100 20397 1 1448 1
-E 100 4374 0 5
-O 100 3386 0 1449
+E 100 1435 0 5
+O 100 1351 0 1449
 O 100 5007 0 1450
 S
 
@@ -8627,7 +9480,7 @@ endif
 if rand 70
 mob oload weapon 5 w
 else
-mob equip self 3128
+mob equip self 3048
 endif
 if rand 95
 mob oload body 7 w
@@ -8687,13 +9540,13 @@ endif
 ~
 mob addgroup 1307
 
-mob equip Uhgren 3045
-mob equip Uhgren 3158
-mob equip jerh 3172
+mob equip Uhgren 1300
+mob equip Uhgren 3069
+mob equip jerh 1304
 ~
 #1307
 ~
-mob equip histra 3157
+mob equip histra 3071
 ~
 #1308
 ~
@@ -8704,11 +9557,11 @@ if rand 80
 mob oload 3138
 endif
 if rand 80
-mob oload 3157
+mob oload 1311
 endif
-mob equip self 3069
-mob equip self 3179 hold
-mob equip self 4395
+mob equip self 3324
+mob equip self 3324 hold
+mob equip self 1440
 ~
 #1309
 ~
@@ -8758,7 +9611,7 @@ endif
 #1310
 ubranie chaunticleera
 ~
-mob equip self 4395
+mob equip self 1314
 ~
 #1311
 ~
@@ -8802,7 +9655,15 @@ endif
 #1312
 ~
 mob addgroup 1311
-mob equip cadd 9120
+
+if rand 40
+  mob equip cadd 1320
+else
+  if rand 40
+    mob equip cadd 1321
+
+  endif
+endif
 ~
 #1315
 ~
@@ -8814,14 +9675,14 @@ endif
 ~
 mob addgroup 1301
 mob addgroup 1302
-mob equip arcite 3324
+mob equip arcite 3026
 if rand 75
-  mob equip cleo 9125
+  mob equip cleo 1324
 endif
 if rand 85 
   mob equip newander 1325
 endif
-mob equip newander 3164
+mob equip newander 58
 ~
 #1317
 ~
@@ -8843,7 +9704,7 @@ endif
 ~
 mob addgroup 1319
 if rand 50
-  mob equip self 1331
+  mob oload 1331 w
 endif
 if rand 50
   mob addgroup 1323
@@ -8859,7 +9720,7 @@ else
 endif
 
 if rand 95
-  mob equip self 3165
+  mob oload 1332 w
 endif
 
 # Prog l±duj±cy zwoje, dla zaawansowanych mobow-magów.
@@ -8894,7 +9755,7 @@ endif
 #1321
 ~
 if rand 90
-mob equip self 1331
+mob oload 1331 w
 endif
 if rand 20
 
@@ -9072,12 +9933,12 @@ if hasflag $n dziekan_quest
   tell $n Teraz zago¶ci tu wreszcie spokój. Dziêki tobie...
   mob removeflag $n dziekan_quest
   if rand 90
-    mob oload 9121
+    mob oload 1340
   else
     if rand 80
-      mob oload 9120
+      mob oload 1339
     else
-      mob oload 9125
+      mob oload 1341
     endif
   endif
   give pierscien $n
@@ -9114,12 +9975,12 @@ mob oload ear 6
 #1346
 ubranie dozorcy
 ~
-mob equip self 4409
+mob equip self 1408
 ~
 #1402
 ~
-mob equip self 4402
-mob equip self 4361
+mob equip self 1437
+mob equip self 3009
 ~
 #1459
 ~
@@ -9139,6 +10000,14 @@ mob echoaround $n $n Znika gdy Mag stra¿nik wskazuje na niego.
 mob transfer $n 1341
 at $n mob echoat $n $n pojawia siê tu przyniesiony dziwn± sil±.
 ~
+#wam_patr_onload
+~
+if rand 97
+  mob equip self 1357
+else
+  mob equip self 1358
+endif
+~
 #0
 
 #OBJPROGSNEW
@@ -9146,6 +10015,11 @@ at $n mob echoat $n $n pojawia siê tu przyniesiony dziwn± sil±.
 ~
 mob echoat $n Przekrêcasz ¶wiec±c± tulejkê która zaczyna ¶wieciæ jasnym promieniem.
 mob echoaround $n $n przekrêca ¶wiec±c± tulejkê która zaczyna ¶wieciæ jasnym ¶wiat³em.
+~
+#1301
+~
+mob echoat $n Przechylasz talerz i wlewasz sobie kurczaka z zup± do gard³a.
+mob echoaround $n $n Przechyla talerz z zup± i wlewa sobie wszystko do gard³a
 ~
 #1302
 ~
@@ -9155,6 +10029,38 @@ mob remove $n 1334
 #1303
 ~
 mob oload random 2
+~
+#1423
+~
+if name $n Beba
+mob echoaround $n $n zak³ada swoje {Mró¿owe buty{x na obcasie, które delikatnie unosz± j± ponad ziemiê.
+obj wear
+mob echoat $n Zak³adasz {Mró¿owe buty{x na obcasie i delikatnie unosisz siê ponad ziemiê.
+else
+mob echoat $n Nie mo¿esz tego za³o¿yæ, nie jeste¶ gruba Beba.
+mob echoaround $n $n próbuje wcisn±æ siê w {MRó¿owe buty{x na obcasie, ale mu siê nie udaje.
+endif
+~
+#daga1
+~
+mob echoat $n {DMroczne{x insygnia zapisane na ostrzu {Dzwiastuna ¶mierci{x promieniuj± zaklêt± magi±!
+mob echoaround $n {DMroczne{x insygnia zapisane na ostrzu {Dzwiastuna ¶mierci{x promieniuj± zaklêt± magi±!
+~
+#daga2
+~
+mob echoat $n Czujesz niesamowit±, z³± magiê bij±c± od {Rkrwawych diamentów!{x Ostrze {Dzwiastuna ¶mierci{x zaczyna drgaæ gro¼nie...
+mobechoaround $n Widzisz jak ostrze dagi zaczyna drgaæ gro¼nie i promieniowaæ {Rkrwaw±{x aur±!
+if rand 75
+  mob mesg $n $t char {RKrwawa{x po¶wiata emanuje z {Dzwiastuna ¶mierci{x, otaczaj±c $tc!
+  mob mesg $n $t vict {RKrwawa{x po¶wiata emanuje z  {Dzwiastuna ¶mierci{x, otaczaj±c ciê!
+  mob mesg $n $t room {RKrwawa{x po¶wiata emanuje z {Dzwiastuna ¶mierci{x, otaczaj±c $tc!
+  mob damage $t 15 25
+else
+  mob mesg $n $t char {RKrwawe diamenty{x promieniuj± nieasomiwym, {Yjaskrawym{x blaskiem!
+  mob mesg $n $t vict {RKrwawe diamenty{x promieniuj± nieasomiwym, {Yjaskrawym{x blaskiem!
+  mob mesg $n $t room {RKrwawe diamenty{x promieniuj± nieasomiwym, {Yjaskrawym{x blaskiem!
+  mob cast 'BLINDNESS' $t 30
+endif
 ~
 #0
 

@@ -495,11 +495,11 @@ ExtraExt 0|DG
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 650
 LiczbaMnoga 0
 Gender 3
 Value 1 3 5 41 42 3 3
 Repair 0 0 0 0
-Length 160
 Weight 80
 Cost 210000
 Cond 100
@@ -507,10 +507,10 @@ Aff 1 12 8 50 0 0
 Extradesc _yukiakari~
 Trzymana przez $c katana Yukiakari iskrzy siê jak diament, l¶ni±c z³owieszczo.
 ~
-Objprog use 19401 off~
-Objprog wear 19402 75~
-Objprog fight 19403 40~
 Objprog hit 19404 2~
+Objprog fight 19403 40~
+Objprog wear 19402 75~
+Objprog use 19401 off~
 Itemdesc Katana skrzy siê jak pokryta lodem. Jej ostrze l¶ni siê ¶wiat³em,
 wygl±daj±cym jakby by³o odbite od miriad p³atków ¶niegu. 
 ~
@@ -533,9 +533,9 @@ w boju...
 Hiddendesc ~
 Comments dodaje specdamy zgodnie z za³o¿eniami i ¶cie¿k± samuraja Rudei - {RRisan{x ({CThu May 19 19:14:20 2011{x)
 ~
-SpecDamExt 3 100 -100 -100 -100 0 5 1
-SpecDamExt 3 25 0 1 -100 0 4 0
 SpecDamExt 3 100 0 1 -100 0 2 0
+SpecDamExt 3 25 0 1 -100 0 4 0
+SpecDamExt 3 100 -100 -100 -100 0 5 1
 Objend
 #Vnum 19402
 Name lodowa halabarda wspania³a halabarda_19402~
@@ -548,16 +548,16 @@ ExtraExt 0|AGPU
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 8 2 7 7 34 0 2
 Repair 0 0 0 0
-Length 300
 Weight 1
 Cost 60
 Cond 75
-Objprog get halka_19402 100~
 Objprog hit halka_19402 80~
+Objprog get halka_19402 100~
 Itemdesc To potê¿ne ostrze jest czêsto u¿ywane przez lodowe salamandry. Jest
 zbudowane z najczystszego lodu i powi±zane magicznie z w³a¶cicielem, dlatego
 rozpada siê zwykle po jego ¶mierci. 
@@ -576,11 +576,11 @@ ExtraExt 0|ADd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 19404 19405 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 60
 Cond 100
@@ -601,11 +601,11 @@ ExtraExt 0|ADd
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 19403 0 19405 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 60
 Cond 75
@@ -626,11 +626,11 @@ ExtraExt 0|ADGPUd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 1
 Cond 75
@@ -648,14 +648,39 @@ ExtraExt 0|ADGYd
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 200 3 0 8 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 60
 Cond 75
+Comments ~
+Objend
+#Vnum 19407
+Name lodowa ksiêga~
+Odmiana {Clodowej ksiêgi{x~{Clodowej ksiêdze{x~{Clodow± ksiêge{x~{Clodow± ksiêg±{x~{Clodowej ksiêdze{x~
+Short {Clodowa ksiêga{x~
+Descr {CWielka, pokryta szronem, wykonana chyba z lodu, ksiêga.{x~
+Material kryszta³~
+Type spellbook
+ExtraExt 0|T
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 286
+LiczbaMnoga 0
+Gender 0
+Value 0 9 332 205 13 478 296
+Repair 0 0 0 0
+Weight 1
+Cost 51540
+Cond 75
+Itemdesc {CTa dziwna ksiêga wygl±da tak, jakby zosta³a w ca³o¶ci wykonana z
+cieniutkich plastrów lodu, na których wypisano magiczne formu³y...
+Ktokolwiek j± wykona³ musia³ byæ naprawdê zdolnym czarodziejem. {x 
+~
 Comments ~
 Objend
 #Vnum 19408
@@ -669,11 +694,32 @@ ExtraExt 0|AD
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 10000 271 19405 100 0 0 0
 Repair 0 0 0 0
-Length 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 19409
+Name no name~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Descr ~
+Material unused~
+Type spellbook
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 9 489 491 365 327 0
+Repair 0 0 0 0
 Weight 1
 Cost 60
 Cond 75
@@ -690,22 +736,22 @@ ExtraExt 0|DG
 Wear ACHO
 Wear2Ext 0
 Bonus 0
+Rent 300
 LiczbaMnoga 0
 Gender 2
 Komponent -1 0
 Value 7 1 0 0 0 0 8
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 300000
 Cond 75
 Aff 1 12 8 10 0 0
-Objprog random lod_nasz4 1~
-Objprog input lod_nasz3 boxyd tqyku~
-Objprog input lod_nasz2 duwowm jyqr~
-Objprog input lod_nasz1 ojuwlouqr~
-Objprog input odczytaj_napisy odczytaj napisy~
 Objprog input odczytaj_napisy odczytaj~
+Objprog input odczytaj_napisy odczytaj napisy~
+Objprog input lod_nasz1 ojuwlouqr~
+Objprog input lod_nasz2 duwowm jyqr~
+Objprog input lod_nasz3 boxyd tqyku~
+Objprog random lod_nasz4 1~
 Itemdesc Masz przed sob± niezwyk³y naszyjnik. Jest on w ca³o¶ci skuty bardzo
 grubym lodem. Nijak nie idzie siê zorientowaæ z jakiego materia³u by³
 pierwotnie wykonany. Delikatne ogniwa najprawdopodobniej zosta³y wykonane z
@@ -2310,6 +2356,10 @@ mob echo Ostateczny cios zag³êbia siê w ciele demona, ogarnia ciê fala ch³odu, k
 mob echo Nagle jeden z rogow demona odpada i spada na ziemiê!
 mob oload 19404
 mob echo To by³a piêkna bitwa...
+if rand 80
+  mob echo Lodowe szcz±tki demona topniej± odsaniaj±c po sobie {Clodow± ksiêgê{x...
+mob oload 19407 r
+endif
 if mobhere 19410
   mob purge bryla_lodu
   mob mload 19409
@@ -2524,10 +2574,6 @@ endif
 mob purge
 mob mload 19403
 mob oload 19408 room
-mob oload gem 6
-mob oload gem 6
-mob oload gem 7
-mob oload gem 7
 mob oload gem 7
 mob oload gem 7
 if rand 50
@@ -2611,9 +2657,6 @@ if rand 80
 endif
 mob oload neck 2 i 19408
 mob oload neck 4 i 19408
-mob oload random 5
-mob oload random 5
-mob oload random 5
 ~
 #0
 
@@ -2630,143 +2673,8 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 01~
-Desc Wszystko dooko³a jest przysypane ¶niegiem. Zaspy siêgaj± niemal po kolana.
-~
-Group 1
-End
-#Name 02~
-Desc Bia³y ¶nieg pokry³ te lodowe szczyty ca³kowicie.
-~
-Group 1
-End
-#Name 03~
-Desc Jak okiem siêgn±æ, bia³o. Miêkki ¶nieg pokrywa ten teren.
-~
-Group 1
-End
-#Name 04~
-Desc ¦nieg, padaj±cy od niepamiêtnych czasów, pokry³ ten obszar.
-~
-Group 1
-End
-#Name 05~
-Desc Brniesz w zaspach po kolana. Mro¼ny wiatr nawiewa coraz wiêcej ¶niegu.
-~
-Group 1
-End
-#Name 06~
-Desc Wicher wieje coraz mocniej. Dooko³a piêtrz± siê niebotyczne zaspy.
-~
-Group 1
-End
-#Name 07~
-Desc Zaspy w tym miejscu s± tak g³êbokie, ¿e mo¿na w nie wpa¶æ ca³emu.
-~
-Group 1
-End
-#Name 08~
-Desc Miêkki ¶nieg miejscami zaczyna zbijaæ siê w lód.
-~
-Group 1
-End
-#Name 09~
-Desc Bia³a zima objê³a to miejsce w swoje w³adanie i przykry³a ca³unem ¶niegu.
-~
-Group 1
-End
-#Name 10~
-Desc Spomiêdzy zasp ¶niegu prze¶wituj± gdzieniegdzie po³yskliwe p³aty lodu.
-~
-Group 1
-End
-#Name 11~
-Desc Nieopodal znajduje siê niewielkie jeziorko, niestety, ca³kowicie zamarzniête. Je¿eli ³owiæ ryby, to tylko w przerêblu.
-~
-Group 2
-End
-#Name 12~
-Desc Nie widzisz tu nic ciekawego. I nale¿a³o siê tego spodziewaæ po tej opuszczonej przez bogów ziemi. 
-~
-Group 2
-End
-#Name 13~
-Desc Ma³a stru¿ka wody wyp³ywa w jednym miejscu spod lodowca. Magia? Mo¿liwe. Jedynie tym mo¿na by to wyt³umaczyæ.
-~
-Group 2
-End
-#Name 14~
-Desc Kilka ma³ych ko¶ci i jaka¶ czaszka bieleje nieopodal. Prawdopodobnie pozosta³o¶æ po jakim¶ ma³ym zwierz±tku, zaskoczonym przez drapie¿nika.
-~
-Group 2
-End
-#Name 15~
-Desc Nieomal potykasz siê o od³amek lodowca wystaj±cy z gruntu. Nie mieli gdzie tego poustawiaæ? Pretensje do Matki Natury.
-~
-Group 2
-End
-#Name 16~
-Desc Jakie¶ rachityczne drzewo wyrasta po¶rodku stoku. Zastanawiasz siê, jak mog³o przetrwaæ, ba, jak siê w ogóle rozwinê³o.
-~
-Group 2
-End
-#Name 17~
-Desc Du¿a ilo¶æ ko¶ci wskazuje na aktywno¶æ zwierzêc± w tym rejonie. Mo¿liwe, ¿e to jakie¶ cmentarzysko czy co¶ w tym rodzaju.
-~
-Group 2
-End
-#Name 18~
-Desc Niewielki uskok po¶rodku zdaje siê nie stanowiæ wielkiego niebezpieczeñstwa, o ile bêdziesz siê trzymaæ w stosownej, podyktowanej bezpieczeñstwem odleg³o¶ci.
-~
-Group 2
-End
-#Name 19~
-Desc Najdziwniejsze jest to, ¿e po¶rodku pola firnowego wyrasta kamieñ runiczny. Zupe³nie nie wiesz, jak on siê tu móg³ znale¼æ.
-~
-Group 2
-End
-#Name 20~
-Desc Widniej±ca nieopodal ma³a ka³u¿a lodu mo¿e okazaæ siê wbrew pozorom ca³kiem niebezpieczna, je¿eli zaczniesz siê po niej ¶lizgaæ. Uwa¿aj.
-~
-Group 2
-End
-#Name 21~
-Desc Lodowe iglice, niezniszczalne i wieczne, wydaj± siê drwiæ z ciebie i twoich poczynañ.
-~
-Group 3
-End
-#Name 22~
-Desc Odczucie pustki i osamotnienia szarpie twoje serce gdy patrzysz na to miejsce.
-~
-Group 3
-End
-#Name 23~
-Desc Mro¼ny wicher przenika ciê do g³êbi, czujesz, jak nieomal zamarza twoje serce.
-~
-Group 3
-End
-#Name 24~
-Desc Witaj w królestwie lodowca. Mo¿e wrócisz st±d ¿ywy.
-~
-Group 3
-End
-#Name 25~
-Desc Ludzkie uczucia wydaj± siê wrêcz niestosowne w tym czystym i mro¼nym miejscu.
-~
-Group 3
-End
-#Name 26~
-Desc Ruszaj siê, bo inaczej zamarzniesz tutaj na wieki.
-~
-Group 3
-End
-#Name 27~
-Desc Takiego mrozu jak tutaj nie pamiêtaj± nawet najstarsi górale.
-~
-Group 3
-End
-#Name 28~
-Desc Lód wydaje siê zimnym szk³em, odbijaj±cym obraz twej duszy.
+#Name 30~
+Desc Mro¼na para bucha ci z ust. Czujesz, jak razem z ni± opuszcza ciê ¿yciodajne ciep³o.
 ~
 Group 3
 End
@@ -2775,10 +2683,145 @@ Desc Nie istnieje ciep³o. Jedynie mróz, potê¿ny i niepokonany, panuje na tym obs
 ~
 Group 3
 End
-#Name 30~
-Desc Mro¼na para bucha ci z ust. Czujesz, jak razem z ni± opuszcza ciê ¿yciodajne ciep³o.
+#Name 28~
+Desc Lód wydaje siê zimnym szk³em, odbijaj±cym obraz twej duszy.
 ~
 Group 3
+End
+#Name 27~
+Desc Takiego mrozu jak tutaj nie pamiêtaj± nawet najstarsi górale.
+~
+Group 3
+End
+#Name 26~
+Desc Ruszaj siê, bo inaczej zamarzniesz tutaj na wieki.
+~
+Group 3
+End
+#Name 25~
+Desc Ludzkie uczucia wydaj± siê wrêcz niestosowne w tym czystym i mro¼nym miejscu.
+~
+Group 3
+End
+#Name 24~
+Desc Witaj w królestwie lodowca. Mo¿e wrócisz st±d ¿ywy.
+~
+Group 3
+End
+#Name 23~
+Desc Mro¼ny wicher przenika ciê do g³êbi, czujesz, jak nieomal zamarza twoje serce.
+~
+Group 3
+End
+#Name 22~
+Desc Odczucie pustki i osamotnienia szarpie twoje serce gdy patrzysz na to miejsce.
+~
+Group 3
+End
+#Name 21~
+Desc Lodowe iglice, niezniszczalne i wieczne, wydaj± siê drwiæ z ciebie i twoich poczynañ.
+~
+Group 3
+End
+#Name 20~
+Desc Widniej±ca nieopodal ma³a ka³u¿a lodu mo¿e okazaæ siê wbrew pozorom ca³kiem niebezpieczna, je¿eli zaczniesz siê po niej ¶lizgaæ. Uwa¿aj.
+~
+Group 2
+End
+#Name 19~
+Desc Najdziwniejsze jest to, ¿e po¶rodku pola firnowego wyrasta kamieñ runiczny. Zupe³nie nie wiesz, jak on siê tu móg³ znale¼æ.
+~
+Group 2
+End
+#Name 18~
+Desc Niewielki uskok po¶rodku zdaje siê nie stanowiæ wielkiego niebezpieczeñstwa, o ile bêdziesz siê trzymaæ w stosownej, podyktowanej bezpieczeñstwem odleg³o¶ci.
+~
+Group 2
+End
+#Name 17~
+Desc Du¿a ilo¶æ ko¶ci wskazuje na aktywno¶æ zwierzêc± w tym rejonie. Mo¿liwe, ¿e to jakie¶ cmentarzysko czy co¶ w tym rodzaju.
+~
+Group 2
+End
+#Name 16~
+Desc Jakie¶ rachityczne drzewo wyrasta po¶rodku stoku. Zastanawiasz siê, jak mog³o przetrwaæ, ba, jak siê w ogóle rozwinê³o.
+~
+Group 2
+End
+#Name 15~
+Desc Nieomal potykasz siê o od³amek lodowca wystaj±cy z gruntu. Nie mieli gdzie tego poustawiaæ? Pretensje do Matki Natury.
+~
+Group 2
+End
+#Name 14~
+Desc Kilka ma³ych ko¶ci i jaka¶ czaszka bieleje nieopodal. Prawdopodobnie pozosta³o¶æ po jakim¶ ma³ym zwierz±tku, zaskoczonym przez drapie¿nika.
+~
+Group 2
+End
+#Name 13~
+Desc Ma³a stru¿ka wody wyp³ywa w jednym miejscu spod lodowca. Magia? Mo¿liwe. Jedynie tym mo¿na by to wyt³umaczyæ.
+~
+Group 2
+End
+#Name 12~
+Desc Nie widzisz tu nic ciekawego. I nale¿a³o siê tego spodziewaæ po tej opuszczonej przez bogów ziemi. 
+~
+Group 2
+End
+#Name 11~
+Desc Nieopodal znajduje siê niewielkie jeziorko, niestety, ca³kowicie zamarzniête. Je¿eli ³owiæ ryby, to tylko w przerêblu.
+~
+Group 2
+End
+#Name 10~
+Desc Spomiêdzy zasp ¶niegu prze¶wituj± gdzieniegdzie po³yskliwe p³aty lodu.
+~
+Group 1
+End
+#Name 09~
+Desc Bia³a zima objê³a to miejsce w swoje w³adanie i przykry³a ca³unem ¶niegu.
+~
+Group 1
+End
+#Name 08~
+Desc Miêkki ¶nieg miejscami zaczyna zbijaæ siê w lód.
+~
+Group 1
+End
+#Name 07~
+Desc Zaspy w tym miejscu s± tak g³êbokie, ¿e mo¿na w nie wpa¶æ ca³emu.
+~
+Group 1
+End
+#Name 06~
+Desc Wicher wieje coraz mocniej. Dooko³a piêtrz± siê niebotyczne zaspy.
+~
+Group 1
+End
+#Name 05~
+Desc Brniesz w zaspach po kolana. Mro¼ny wiatr nawiewa coraz wiêcej ¶niegu.
+~
+Group 1
+End
+#Name 04~
+Desc ¦nieg, padaj±cy od niepamiêtnych czasów, pokry³ ten obszar.
+~
+Group 1
+End
+#Name 03~
+Desc Jak okiem siêgn±æ, bia³o. Miêkki ¶nieg pokrywa ten teren.
+~
+Group 1
+End
+#Name 02~
+Desc Bia³y ¶nieg pokry³ te lodowe szczyty ca³kowicie.
+~
+Group 1
+End
+#Name 01~
+Desc Wszystko dooko³a jest przysypane ¶niegiem. Zaspy siêgaj± niemal po kolana.
+~
+Group 1
 End
 #DescEnd
 

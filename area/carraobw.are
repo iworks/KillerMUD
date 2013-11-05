@@ -287,7 +287,7 @@ MobprogNew death 11806_death ABCDEFGHI 100~
 MobprogNew onload 11806_onload ABCDEFGHI 100~
 Spells 247 299 284 262
 Spells 270 0 0 0
-Corpse 10899
+Corpse 3060
 Skin 100
 ExpMultiplier 100
 Resist 8 100
@@ -339,7 +339,7 @@ Parts ABCGHI
 Size large
 Material unknown
 MobprogNew death 11807_ondeath ABCDEFGHI 100~
-Corpse 10899
+Corpse 3060
 Skin 100
 ExpMultiplier 200
 Resist 8 100
@@ -577,11 +577,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 2 2 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 2
 Cond 75
@@ -606,11 +606,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 2 2 0 1 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -635,11 +635,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 1 1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -667,13 +667,105 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 0
 Value 230 230 1 0 3337 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2800
 Cost 20
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11806
+Name oddech ognisty butelka~
+Odmiana butelki 'Ognistego oddechu'~butelce 'Ognistego oddechu'~butelke 'Ognistego oddechu'~butelka 'Ognistego oddechu'~butelce 'Ognistego oddechu'~
+Short butelka 'Ognistego oddechu'~
+Descr Butelka z naklejka 'Ognisty oddech' stoi przed toba.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 12 12 7 0 3331 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 4
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11807
+Name butelka bimber lokalny~
+Odmiana butelki lokalnego bimberku~butelce lokalnego bimberku~butelke lokalnego bimberku~butelka lokalnego bimberku~butelce lokalnego bimberku~
+Short butelka lokalnego bimberku~
+Descr Butelka lokalnego bimberku stoi tu.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 12 12 8 0 3331 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 3
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11808
+Name gruba skórzana kurtka~
+Odmiana skórzanej kurtki~skórzanej kurtce~skórzan± kurtkê~skórzan± kurtk±~skórzanej kurtce~
+Short gruba skórzana kurtka~
+Descr Skorzana kurtka z grubej skory.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 1380
+Cond 100
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11809
+Name ochraniacze nog nogi~
+Odmiana ochraniaczy~ochraniaczom~ochraniacze~ochraniaczami~ochraniaczach~
+Short ochraniacze nog~
+Descr Standardowe ochraniacze nog leza tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 1
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 840
 Cond 100
 Itemdesc ~
 Identdesc ~
@@ -690,16 +782,173 @@ ExtraExt 1|C
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 4
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 35
 Cost 8
 Cond 100
 Aff 1 12 8 3 0 0
 Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11811
+Name z³oty pier¶cieñ pierscien_528_q opal~
+Odmiana z³otego pier¶cienia~z³otemu pier¶cieniowi~z³oty pier¶cieñ~z³otym pier¶cieniem~z³otym pier¶cieniu~
+Short {Yz³oty pier¶cieñ{x z {Wopalem{x~
+Descr Na ziemi le¿y prosty z³oty pier¶cieñ.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0|O
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4800
+Cond 98
+Aff 1 27 1 1 0 0
+Extradesc opal~
+Opalizuj±cy, mlecznobia³y kamieñ jest przytrzymywany przez niewielkie
+listki. 
+~
+Extradesc punca~
+{y              _
+{y            _/{G-{y\_
+{y         .-`{G-:{g-:-{y`-.
+{y        /-{G:-:{g-:-:-:{y-\
+{y        \{G:-:{g-:-:-:-:{y/
+{y         |{g`       `{y|
+{y         |  {gFARAZ  {y|
+{y         `\  jgs  /'
+{y           `-._.-'
+{y              `{x
+~
+Itemdesc Do¶æ zwyczajny, wykonany ze z³ota pier¶cieñ, bez ¿adnych znaków
+szczególnych. W jego wnêtrzu widaæ puncê, która mimo swych niewielkich
+rozmiarów jest bardzo czytelna. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11812
+Name z³oty pier¶cieñ pierscien_528_q szafir~
+Odmiana z³otego pier¶cienia~z³otemu pier¶cieniowi~z³oty pier¶cieñ~z³otym pier¶cieniem~z³otym pier¶cieniu~
+Short {Yz³oty pier¶cieñ{x z {Bszafirem{x~
+Descr Na ziemi le¿y prosty z³oty pier¶cieñ.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0|R
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4800
+Cond 98
+Aff 1 27 1 1 0 0
+Extradesc szafir~
+Przepiêkny niebieski kamieñ o nieskomplikowanym szlifie urzeka swoj± barw±. 
+~
+Extradesc punca~
+{y              _
+{y            _/{G-{y\_
+{y         .-`{G-:{g-:-{y`-.
+{y        /-{G:-:{g-:-:-:{y-\
+{y        \{G:-:{g-:-:-:-:{y/
+{y         |{g`       `{y|
+{y         |  {gFARAZ  {y|
+{y         `\  jgs  /'
+{y           `-._.-'
+{y              `{x
+~
+Itemdesc Do¶æ zwyczajny, wykonany ze z³ota pier¶cieñ, bez ¿adnych znaków
+szczególnych. W jego wnêtrzu widaæ puncê, która mimo swych niewielkich
+rozmiarów jest bardzo czytelna. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11813
+Name z³oty pier¶cieñ pierscien_528_q topaz~
+Odmiana z³otego pier¶cienia~z³otemu pier¶cieniowi~z³oty pier¶cieñ~z³otym pier¶cieniem~z³otym pier¶cieniu~
+Short {Yz³oty pier¶cieñ{x z {Gtopazem{x~
+Descr Na ziemi le¿y prosty z³oty pier¶cieñ.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0|Q
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4800
+Cond 98
+Aff 1 27 1 1 0 0
+Extradesc topaz~
+¯ó³to-zielony kamieñ, wypi³owany w owal i osadzony w pier¶cieniu.
+~
+Itemdesc Do¶æ zwyczajny, wykonany ze z³ota pier¶cieñ, bez ¿adnych znaków
+szczególnych. W jego wnêtrzu widaæ puncê, która mimo swych niewielkich
+rozmiarów jest bardzo czytelna. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11814
+Name z³oty pier¶cieñ pierscien_528_q bursztyn~
+Odmiana z³otego pier¶cienia~z³otemu pier¶cieniowi~z³oty pier¶cieñ~z³otym pier¶cieniem~z³otym pier¶cieniu~
+Short {Yz³oty pier¶cieñ{x z {ybursztynem{x~
+Descr Na ziemi le¿y prosty z³oty pier¶cieñ.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0|S
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4800
+Cond 98
+Aff 1 27 1 1 0 0
+Extradesc bursztyn~
+Ciemnobr±zowy kamieñ z niewielkim b±belkiem powietrza w ¶rodku.
+~
+Extradesc punca~
+{y              _
+{y            _/{G-{y\_
+{y         .-`{G-:{g-:-{y`-.
+{y        /-{G:-:{g-:-:-:{y-\
+{y        \{G:-:{g-:-:-:-:{y/
+{y         |{g`       `{y|
+{y         |  {gFARAZ  {y|
+{y         `\  jgs  /'
+{y           `-._.-'
+{y              `{x
+~
+Itemdesc Do¶æ zwyczajny, wykonany ze z³ota pier¶cieñ, bez ¿adnych znaków
+szczególnych. W jego wnêtrzu widaæ puncê, która mimo swych niewielkich
+rozmiarów jest bardzo czytelna. 
+~
 Identdesc ~
 Comments ~
 Objend
@@ -714,11 +963,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 500 13 11816 10 10 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -742,11 +991,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 100
@@ -766,14 +1015,77 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 0
 Cond 90
+Comments ~
+Objend
+#Vnum 11822
+Name skórzany rzemyk malutki porzucony~
+Odmiana skórzanego rzemyka~skórzanemu rzemykowi~skórzany rzemyk~skórzanym rzemykiem~skórzanym rzemyku~
+Short skórzany rzemyk~
+Descr Malutki skórzany rzemyk le¿y porzucony.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AM
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 1
+Cond 60
+Comments ~
+Objend
+#Vnum 11823
+Name skórzana koszula~
+Odmiana skórzanej koszuli~skórzanej koszuli~skórzan± koszulê~skórzan± koszul±~skórzanej koszuli~
+Short skórzana koszula~
+Descr Zrobiona z delikatnej skóry, koszula z ko¶cianymi guzikami.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 12
+Cond 25
+Comments ~
+Objend
+#Vnum 11824
+Name opaska skórzana~
+Odmiana skórzanej opaski~skórzanej opasce~skórzana opaske~skórzana opaska~skórzanej opasce~
+Short skórzana opaska~
+Descr Niewielki pasek, br±zowej skóry.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 2
+Cond 45
 Comments ~
 Objend
 #Vnum 11825
@@ -787,11 +1099,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 0
 Cond 100
@@ -807,6 +1119,55 @@ Itemdesc {B           Zatoka
 Identdesc ~
 Comments ~
 Objend
+#Vnum 11826
+Name czarne lakierki~
+Odmiana czarnych lakierek~czarnym lakierkom~czarne lakierki~czarnymi lakierkami~czarnych lakierkach~
+Short czarne lakierki~
+Descr Elegenckie czarne lakierki le¿± tu i siê kurz±.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 34
+Cond 100
+Itemdesc Poprzedni w³a¶ciciel tych butów musia³ byæ kim¶ bogatym i powa¿anym.
+ 
+Zwyk³a osoba raczej nie kupuje sobie takich eleganckich rzeczy, chyba ¿e
+ 
+chce zwróciæ na siebie uwagê wszelkiego rodzaju opryszków. 
+ 
+~
+Comments ~
+Objend
+#Vnum 11827
+Name czapka kucharska~
+Odmiana czapki kucharskiej~czapce kucharskiej~czapke kucharska~czapka kucharska~czapce kucharskiej~
+Short czapka kucharska~
+Descr Przed sob± widzisz czapkê kucharsk±.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AE
+Wear2Ext 0|I
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 100
+Comments ~
+Objend
 #Vnum 11828
 Name list zapieczêtowany~
 Odmiana listu~listem~list~listem~li¶cie~
@@ -818,11 +1179,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -838,19 +1199,135 @@ Odmiana ozdobnego d³uta~ozdobnemu d³utu~ozdobne d³uto~ozdobnym d³utem~ozdobnym d
 Short ozdobne d³uto~
 Descr Ozdobne d³uto, raczej nie do obróbki drewna.~
 Material stal~
-Type tool
+Type weapon
 ExtraExt 0
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
-Value 0 0 0 0 0 1 -1
+Value 2 2 2 11 8 1 -1
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 360
 Cond 78
+Comments ~
+Objend
+#Vnum 11830
+Name niebieska szata kap³ana Turlitha Turlith~
+Odmiana {Cniebieskiej szaty{x~{Cniebieskiej szacie{x~{Cniebiesk± szatê{x~{Cniebiesk± szat±{x~{Cniebieskiej szacie{x~
+Short {Cniebieska szata{x~
+Descr Niebieska szata kap³ana Turlitha poniewiera siê tu w kurzu.~
+Material kaszmir~
+Type clothing
+ExtraExt 1|C
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 15
+Cond 100
+Itemdesc Ta szata, wykonana z materia³u zafarbowanego na jasnoniebieski kolor na
+pewno rzuca siê w oczy. Wyhaftowano na niej symbole które przedstawiaj± falê
+i sztormy, widaæ wiêc, ¿e jest to szata kap³añska po¶wiêcona Turlithowi,
+panu mórz i oceanów.
+~
+Comments ~
+Objend
+#Vnum 11831
+Name ksiega niebieska okladce ksiazka~
+Odmiana ksiêgi~ksiêdze~ksiêge~ksiêg±~ksiêdze~
+Short ksiêga w niebieskiej ok³adce~
+Descr Le¿y na ziemi ma³a ksiêga, oprawiona w niebiesk± ok³adkê.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 1 1 21 309 5 160 0
+Repair 0 0 0 0
+Weight 45
+Cost 600
+Cond 50
+Itemdesc Jest to najzwyklejsza ksiêga, w nienajlepszym stanie.
+~
+Comments ~
+Objend
+#Vnum 11832
+Name podniszczony modlitewnik ciezki ksiazka~
+Odmiana podniszczonego modlitewnika~podniszczonemu modlitewnikowi~podniszczony modlitewnik~podniszczonym modlitewnikiem~podniszczonym modlitewniku~
+Short podniszczony modlitewnik~
+Descr Ciê¿ki, podniszczony modlitewnik le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GKT
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 0
+Value 1 2 77 21 5 309 0
+Repair 0 0 0 0
+Weight 1
+Cost 3600
+Cond 100
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11833
+Name szmata szata podarta dziurawa~
+Odmiana podartej szaty~podartej szacie~podart± szatê~podartej szacie~podartej szacie~
+Short podarta szata~
+Descr Dziurawa i podarta szmata le¿y na ziemi.~
+Material jedwab~
+Type clothing
+ExtraExt 0|d
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 0
+Cond 100
+Itemdesc Trudno dociec, jakim cudem ta szata trzyma siê jeszcze w jednym kawa³ku,
+tak jest poszarpana, podziurawiona i zniszczona. 
+~
+Comments ~
+Objend
+#Vnum 11834
+Name znoszone sanda³y~
+Odmiana znoszonych sanda³ów~znoszonym sanda³om~znoszone sanda³y~znoszonymi sanda³ami~znoszonych sanda³ach~
+Short znoszone sanda³y~
+Descr Para prostych, skorzanych sandalow lezy tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 1|C
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 3
+Cond 100
 Comments ~
 Objend
 #Vnum 11835
@@ -864,11 +1341,11 @@ ExtraExt 0|GHMS
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 45
 Cost 0
 Cond 100
@@ -896,14 +1373,113 @@ ExtraExt 0|G
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 25
 LiczbaMnoga 0
 Gender 0
 Value 5 5 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 5100
 Cond 100
+Comments ~
+Objend
+#Vnum 11840
+Name szara ksiega ksiazka oprawiona~
+Odmiana szarej ksiêgi~szarej ksiêdze~szar± ksiêgê~szar± ksiêg±~szarej ksiêdze~
+Short szara ksiêga~
+Descr Szara ksiêga w twardej, porysowanej oprawie le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|ET
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 3
+Value 1 2 272 40 56 85 0
+Repair 0 0 0 0
+Weight 45
+Cost 3600
+Cond 50
+Itemdesc Jest to najzwyklejsza ksiêga, w nienajlepszym stanie.
+~
+Comments ~
+Objend
+#Vnum 11842
+Name szara ksiega ksiazka oprawiona~
+Odmiana szarej ksiêgi~szarej ksiêdze~szar± ksiêgê~szar± ksiêg±~szarej ksiêdze~
+Short szara ksiêga~
+Descr Szara ksiêga w twardej, porysowanej oprawie le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 1 2 481 30 151 35 0
+Repair 0 0 0 0
+Weight 45
+Cost 600
+Cond 50
+Itemdesc Jest to najzwyklejsza ksiêga, w nienajlepszym stanie.
+~
+Comments ~
+Objend
+#Vnum 11843
+Name ksiêga magii~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga magii~
+Descr Le¿y tutaj ksiêga, opatrzona znakiem Gildii Nekromantów.~
+Material papier~
+Type spellbook
+ExtraExt 0|GTd
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 0
+Cond 100
+Itemdesc Niezbyt du¿a, ale jakby nienaturalnie ciê¿ka ksiêga w czarnej ok³adce. Na
+przedzie widzisz wyra¼nie z³owrogi znak Gildii Nekromantów: na czarnym owalu
+umieszczono dwie srebrne, równoleg³e b³yskawice. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11844
+Name ksiêga od ty³u~
+Odmiana napisanej od ty³u ksiêgi~napisanej od ty³u ksiêdze~napisan± od ty³u ksiêgê~napisan± od ty³u ksiêg±~napisanej od ty³u ksiêdze~
+Short ksiêga napisana od ty³u~
+Descr Le¿y sobie tutaj jaka¶ ksiêga, chyba napisana od ty³u.~
+Material papier~
+Type spellbook
+ExtraExt 0|GTd
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 60
+Cost 0
+Cond 100
+Itemdesc Znajduj±ca siê w twoim posiadaniu, oprawiona w jak±¶ prost± skórê ksiêga
+niczym by siê nie wyró¿nia³a gdyby nie to, ¿e napisana zosta³a jakim¶
+dziwnym jêzykiem i to od ty³u. Taka forma tekstu na pewno nie wp³ywa
+korzystnie na przyswajanie zawartej w niej wiedzy. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 11845
@@ -917,11 +1493,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -944,11 +1520,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -972,11 +1548,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 1
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -1000,11 +1576,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -1030,11 +1606,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -1059,11 +1635,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -1088,11 +1664,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -1118,11 +1694,11 @@ ExtraExt 0|GT
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 3
 Value 0 5 485 34 92 159 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 0
 Cond 100
@@ -1148,11 +1724,11 @@ ExtraExt 0|GTd
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 0
 Cond 100
@@ -1168,6 +1744,83 @@ wiedzê kto¶ stara³ siê w niej ukryæ
 Identdesc ~
 Comments ~
 Objend
+#Vnum 11854
+Name podniszczony skórzany pancerz~
+Odmiana skórzanego pancerza~skórzanemu pancerzowi~skórzany pancerz~skórzanym pancerzem~skórzanym pancerzu~
+Short podniszczony skórzany pancerz~
+Descr Podniszczony skórzany pancerz le¿y na ziemi.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 2
+Value 7 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 23
+Cost 900
+Cond 100
+Itemdesc Jest to stary, podniszczony pancerz zrobiony ze skór zwierzêcych. Widaæ,
+¿e by³ u¿ywany przez wiele lat. Na jego powierzchni jest wiele za³amañ i
+zadrapañ, jednak nadal spe³nia powierzone mu zadanie. 
+~
+Comments ~
+Objend
+#Vnum 11855
+Name czarny kaptur~
+Odmiana czarnego kaptura~czarnemu kapturowi~czarny kaptur~czarnym kapturem~czarnym kapturze~
+Short czarny kaptur~
+Descr Czarny p³ócienny kaptur le¿y na ziemi.~
+Material p³ótno~
+Type armor
+ExtraExt 1|C
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 2
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 300
+Cond 100
+Itemdesc Jest to stary, czarny p³ócienny kaptur ochraniaj±cy g³owê przed wiatrem i
+s³oñcem. Kaptur wygl±da na do¶æ stary. W niektórych miejscach ma
+przebarwienia i przetarcia. 
+~
+Comments ~
+Objend
+#Vnum 11857
+Name zatrute ostrze~
+Odmiana zatrutego ostrza~zatrutemu ostrzu~zatrute ostrze~zatrutym ostrzem~zatrutym ostrzu~
+Short zatrute ostrze~
+Descr Zatrute ostrze le¿y na ziemi po³yskuj±c.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 1
+Value 2 2 3 34 128 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 3000
+Cond 75
+Itemdesc Jest to sztylet o krótkim, wypolerowanym ostrzu. Na jego powierzchni
+mo¿na znale¼æ cieniutk± pow³okê jakiej¶ substacji o dra¿ni±cym zapachu.
+Rêkoje¶æ zosta³a wykoñczona skór±, co powoduje, ¿e jest do¶æ wygodny w
+trzymaniu. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 11858
 Name buteleczka z muskaryn±~
 Odmiana buteleczki z muskaryn±~buteleczce z muskaryn±~buteleczkê z muskaryn±~buteleczk± z muskaryn±~buteleczce z muskaryn±~
@@ -1179,11 +1832,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 3
 Value 2 3 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 3000
 Cond 75
@@ -1200,17 +1853,110 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 60
 Cond 75
 Itemdesc Najzwyklejsza w ¶wiecie kupka ¶wie¿ego b³ota.
 ~
 Comments ~
+Objend
+#Vnum 11860
+Name podarte szaty szwidmo~
+Odmiana podartych szat~podartym szatom~podarte szaty~podartymi szatami~podartych szatach~
+Short {cpodarte szaty{x~
+Descr Podarte szaty le¿± na ziemi.~
+Material p³ótno~
+Type clothing
+ExtraExt 0|U
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 11861
+Name w³óczniokostur w³ócznia kostur~
+Odmiana w³óczniokostura~w³óczniokosturowi~w³óczniokostur~w³óczniokosturem~w³óczniokosturze~
+Short w³óczniokostur~
+Descr Le¿y tutaj na ziemi kostur z ostrzem, przypominaj±cym ten od w³óczni.~
+Material drewno dêbowe~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|Q
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 9 2 7 2 32 1 1
+Repair 0 0 0 0
+Weight 100
+Cost 10500
+Cond 100
+Itemdesc To co trzymasz w swoich rêkach to s³ynny druidzki w³óczniokostur, broñ
+która w czasie podró¿y jest zwyk³ym, podró¿nym kosturem. Podczas bitwy magia
+w nim zawarta formuje z jednej strony ostrze i ca³a broñ staje siê bardziej
+podobna do w³óczni. 
+~
+Identdesc W³óczniokostur jest broni± wykonan± przez druidów, dla druidów, dlatego
+te¿ tylko druid mo¿e jej u¿ywaæ. Broñ ta otacza tak¿e magiczna aura,
+pozwalaj±ca walczyæ z najs³abszymi istotami odpornymi na niemagiczn± broñ.
+Przeciwko istotom neutralnym jednak broñ ta zadaje s³absze obra¿enia i nie
+jest traktowana jako broñ magiczna. 
+~
+Comments ~
+SpecDamExt 3 100 1 -100 -100 0 1 1
+SpecDamExt 3 100 0 -100 -100 0 1 1
+SpecDamExt 3 100 2 -100 -100 0 0 1
+SpecDamExt 3 50 2 -100 -100 0 -1 0
+Objend
+#Vnum 11862
+Name w³óczniokostur w³ócznia kostur~
+Odmiana w³óczniokostura~w³óczniokosturowi~w³óczniokostur~w³óczniokosturem~w³óczniokosturze~
+Short w³óczniokostur~
+Descr Le¿y tutaj na ziemi kostur z ostrzem, przypominaj±cym ten od w³óczni.~
+Material drewno dêbowe~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|Q
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 9 2 7 2 32 1 1
+Repair 0 0 0 0
+Weight 100
+Cost 10500
+Cond 100
+Itemdesc To co trzymasz w swoich rêkach to s³ynny druidzki w³óczniokostur, broñ
+która w czasie podró¿y jest zwyk³ym, podró¿nym kosturem. Podczas bitwy magia
+w nim zawarta formuje z jednej strony ostrze i ca³a broñ staje siê bardziej
+podobna do w³óczni. 
+~
+Identdesc W³óczniokostur jest broni± wykonan± przez druidów, dla druidów, dlatego
+te¿ tylko druid mo¿e jej u¿ywaæ. Broñ ta otacza tak¿e magiczna aura,
+pozwalaj±ca walczyæ z istotami odpornymi na niemagiczn± broñ. Przeciwko
+istotom neutralnym jednak broñ ta zadaje s³absze obra¿enia i nie jest
+traktowana jako broñ magiczna. 
+~
+Comments dodalem umagicznienie przeciwko evilom - {RTener{x ({CMon May  5 19:19:16 2008{x)
+~
+SpecDamExt 3 100 1 -100 -100 0 2 1
+SpecDamExt 3 100 0 -100 -100 0 2 1
+SpecDamExt 3 100 2 -100 -100 0 0 1
 Objend
 #Vnum 11863
 Name buty ze skóry niedzwiedzia futrzaste~
@@ -1223,11 +1969,11 @@ ExtraExt 0|G
 Wear AG
 Wear2Ext 0
 Bonus 11810
+Rent 30
 LiczbaMnoga 1
 Gender 0
-Value 6 8 6 10 6 0 0
+Value 5 7 4 10 8 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 10500
 Cond 100
@@ -1236,6 +1982,43 @@ niedzwiedzi± skór±. Wygl±daj± do¶æ solidnie i ciep³o.
 ~
 Identdesc S± to buty z zestawu 'Futro Gniewu', wzmacnianej zbroi wykonanej ze skóry
 Gniewnego Pazura, zwierzêcego towarzysza pewnej druidki. Ów niedzwiedz
+pewnego razu przechodz±c siê po puszczy w poszukiwaniu czego¶ do upolowania
+dla swej przyjació³ki i pani sam sta³ siê ofiar±. Paru my¶liwych, widz±c
+piêkne, czarne niedzwiedzie futro postanowi³o zaryzykowaæ. Napadli i zabili
+bestiê. Druidka poczu³a ostatni zew swojego towarzysza i - ze ³zami w oczach
+- po¶pieszy³a w kierunku z którego ów dolecia³. Zd±¿y³a akurat w momencie
+gdy my¶liwy czy¶cili ¶wie¿o zdjêt± skórê, pozdrowili druidkê podniesion±
+rêk±, ta jednak zignorowa³o pozdrowienie. Wyzwoli³a moce natury i zabi³a
+ich, ci±gle zaskoczonych w ci±gu kilku chwil. Skóry swojego przyjaciele
+u¿y³a do uszycia zbroi, która mia³a chroniæ jej serce przed emocj± zwan±
+lito¶ci±. 
+~
+Comments ~
+Objend
+#Vnum 11864
+Name zbroja ze skóry niedzwiedzia futrzasta~
+Odmiana zbroi ze skóry niedzwiedzia~zbroi ze skóry niedzwiedzia~zbrojê ze skóry niedzwiedzia~zbroj± ze skóry niedzwiedzia~zbroi ze skóry niedzwiedzia~
+Short {Dzbroja ze skóry niedzwiedzia{x~
+Descr Solidna, futrzasta zbroja le¿y tutaj w nie³adzie.~
+Material mocna skóra~
+Type armor
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0
+Bonus 11810
+Rent 30
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 120
+Cost 12000
+Cond 100
+Itemdesc Zbroja zrobiona z dziwnego materia³u, z wieszchu obszytego czarn±,
+niedzwiedzia skóra. Wygl±da na do¶æ ciep³± i solidn±. 
+~
+Identdesc Jest to zbroja z zestawu 'Futro Gniewu', wzmacnianej zbroi wykonanej ze
+skóry Gniewnego Pazura, zwierzêcego towarzysza pewnej druidki. Ów niedzwiedz
 pewnego razu przechodz±c siê po puszczy w poszukiwaniu czego¶ do upolowania
 dla swej przyjació³ki i pani sam sta³ siê ofiar±. Paru my¶liwych, widz±c
 piêkne, czarne niedzwiedzie futro postanowi³o zaryzykowaæ. Napadli i zabili
@@ -1260,11 +2043,11 @@ ExtraExt 0|G
 Wear AF
 Wear2Ext 0
 Bonus 11810
+Rent 30
 LiczbaMnoga 1
 Gender 0
-Value 6 8 6 10 6 0 0
+Value 5 7 4 10 8 0 0
 Repair 0 0 0 0
-Length 0
 Weight 60
 Cost 10500
 Cond 100
@@ -1286,6 +2069,43 @@ lito¶ci±.
 ~
 Comments ~
 Objend
+#Vnum 11866
+Name rêkawy ze skóry niedzwiedzia futrzaste~
+Odmiana rêkawów ze skóry niedzwiedzia~rêkawom ze skóry niedzwiedzia~rêkawy ze skóry niedzwiedzia~rêkawami ze skóry niedzwiedzia~rêkawach ze skóry niedzwiedzia~
+Short {Drêkawy ze skóry niedzwiedzia{x~
+Descr Solidne, futrzaste rêkawy le¿± tutaj w nie³adzie.~
+Material mocna skóra~
+Type armor
+ExtraExt 0|G
+Wear AI
+Wear2Ext 0
+Bonus 11810
+Rent 30
+LiczbaMnoga 1
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 10500
+Cond 100
+Itemdesc Para rêkawów z dziwnego materia³u, z wieszchu obszytego czarn±,
+niedzwiedzi± skór±. Wygl±daja na do¶æ solidne i ciep³e. 
+~
+Identdesc Jest to element zbroi z zestawu 'Futro Gniewu', wzmacnianej zbroi
+wykonanej ze skóry Gniewnego Pazura, zwierzêcego towarzysza pewnej druidki.
+Ów niedzwiedz pewnego razu przechodz±c siê po puszczy w poszukiwaniu czego¶
+do upolowania dla swej przyjació³ki i pani sam sta³ siê ofiar±. Paru
+my¶liwych, widz±c piêkne, czarne niedzwiedzie futro postanowi³o zaryzykowaæ.
+Napadli i zabili bestiê. Druidka poczu³a ostatni zew swojego towarzysza i -
+ze ³zami w oczach - po¶pieszy³a w kierunku z którego ów dolecia³. Zd±¿y³a
+akurat w momencie gdy my¶liwy czy¶cili ¶wie¿o zdjêt± skórê, pozdrowili
+druidkê podniesion± rêk±, ta jednak zignorowa³o pozdrowienie. Wyzwoli³a moce
+natury i zabi³a ich, ci±gle zaskoczonych w ci±gu kilku chwil. Skóry swojego
+przyjaciele u¿y³a do uszycia zbroi, która mia³a chroniæ jej serce przed
+emocj± zwan± lito¶ci±. 
+~
+Comments ~
+Objend
 #Vnum 11867
 Name rêkawice ze skóry niedzwiedzia futrzaste~
 Odmiana rêkawic ze skóry niedzwiedzia~rêkawicom ze skóry nied¼wiedzia~rêkawicami ze skóry nied¼wiedzia~rêkawic± ze skóry nied¼wiedzia~rêkawicach ze skóry niedzwiedzia~
@@ -1297,11 +2117,11 @@ ExtraExt 0|G
 Wear AH
 Wear2Ext 0
 Bonus 11810
+Rent 30
 LiczbaMnoga 1
 Gender 3
-Value 6 8 6 10 6 0 0
+Value 5 7 4 10 8 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 10500
 Cond 100
@@ -1323,6 +2143,123 @@ emocj± zwan± lito¶ci±.
 ~
 Comments ~
 Objend
+#Vnum 11868
+Name w³óczniokostur w³ócznia kostur~
+Odmiana w³óczniokostura~w³óczniokosturowi~w³óczniokostur~w³óczniokosturem~w³óczniokosturze~
+Short w³oczniokostur z bia³ego drzewa~
+Descr Le¿y tutaj na ziemi kostur z ostrzem, wykonany z kawa³ka bia³ego drzewa.~
+Material stalodrzew~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|Q
+Bonus 0
+Rent 80
+LiczbaMnoga 0
+Gender 0
+Value 9 2 7 2 32 2 2
+Repair 0 0 0 0
+Weight 160
+Cost 24000
+Cond 100
+Itemdesc Ten w³óczniokostur zosta³ wykonany z olbrzymi± dba³o¶ci± o szczegó³y.
+Wykonany z bia³ego drzewa i nas±czony druidzk± magi±. Na pewno pierwszy
+w³a¶ciciel owego kostura by³ osob± licz±c± siê w krêgu druidów. Z tego
+samego poziomu, do u¿ywania tej egzotycznej broni szkoleni s± tylko druidzi.
+~
+Identdesc W³óczniokostur jest broni± wykonan± przez druidów, dla druidów, dlatego
+tylko druid mo¿e jej u¿ywaæ. Broñ ta otacza tak¿e potê¿na magiczna aura,
+pozwalaj±ca walczyæ z istotami odpornymi na niemagiczn± broñ. Przeciwko
+istotom neutralnym broñ ta jednak zadaje s³absze obra¿enia i nie jest
+traktowana jako broñ magiczna. Druidzi nazwali w³óczniokostury tego typu
+"Pêdami Negacji". 
+~
+Comments ~
+SpecDamExt 3 100 1 -100 -100 0 3 1
+SpecDamExt 3 100 0 -100 -100 0 3 1
+SpecDamExt 3 100 2 -100 -100 0 0 1
+Objend
+#Vnum 11869
+Name drewniany korbacz matowy~
+Odmiana drewnianego korbacza~drewnianemu korbaczowi~drewniany korbacz~drewnianym korbaczem~drewnianym korbaczu~
+Short drewniany korbacz~
+Descr Korbacz zrobiony z po³yskuj±cego matowo drewna le¿y tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 6 2 6 8 0 1 1
+Repair 0 0 0 0
+Weight 120
+Cost 6000
+Cond 100
+Itemdesc Korbacz ten jest zrobiony z drewna, w drewnian± kulê na ¿elaznym ³añcuchu
+kto¶ wbi³ ostre jak szpilki ¿elazne szpikulcze. Jest dziêki temu broni± do¶æ
+lekk±. 
+~
+Identdesc Ten korbacz jest broni± magiczn±, potrafi zraniæ istoty na które potrzeba
+broni magicznej +2 i s³abszej. 
+~
+Comments ~
+SpecDamExt 3 100 -100 -100 -100 0 2 1
+Objend
+#Vnum 11870
+Name ¶rednia drewniana tarcza ze znakiem~
+Odmiana drewnianej tarczy ze znakiem~drewnianej tarczy ze znakiem~drewnian± tarczê ze znakiem~drewnian± tarcz± ze znakiem~drewnianej tarczy ze znakiem~
+Short drewniana tarcza ze znakiem~
+Descr Na ziemi le¿y zwyczajna, ¶rednia drewniana tarcza.~
+Material drewno dêbowe~
+Type shield
+ExtraExt 0|G
+Wear AJ
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 3
+Value 2 3 25 5 1 1 0
+Repair 0 0 0 0
+Weight 130
+Cost 7500
+Cond 100
+Aff 1 12 10 10 0 0
+Itemdesc Jest to ¶redniej wielko¶ci tarcza wykonana z drewna, na której ¶rodku
+zosta³ wymalowany znak w kszta³cie dêbu. 
+~
+Identdesc Tarcza ta zosta³a nas±czona magi± i mo¿e ochroniæ czasami w³a¶ciciela
+przed efektami zatrucia. 
+~
+Comments ~
+Objend
+#Vnum 11871
+Name he³m w kszta³cie wilczego ³ba~
+Odmiana he³mu w kszta³cie wilczego ³ba~he³mowi w kszta³cie wilczego ³ba~he³m w kszta³cie wilczego ³ba~he³mem w kszta³cie wilczego ³ba~he³mie w kszta³cie wilczego ³ba~
+Short he³m w kszta³cie wilczego ³ba~
+Descr Le¿y tutaj he³m w kszta³cie wilczego ³ba.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 1500
+Cond 100
+Itemdesc He³m ten zosta³ zrobiony z ³ba szarego wilka, którego dolna szczêka
+zosta³a oderwana. Nadaje w³a¶cicielowi makabryczny wygl±d. 
+~
+Comments ~
+Objend
 #Vnum 11873
 Name cierniowa bransoleta~
 Odmiana cierniowej branzolety~cierniowej branzolecie~cierniow± branzoletê~cierniow± branzolet±~cierniowej branzolecie~
@@ -1334,11 +2271,11 @@ ExtraExt 0|BG
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 20
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 0
 Cond 100
@@ -1364,11 +2301,11 @@ ExtraExt 0|G
 Wear AC
 Wear2Ext 0|Q
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 7200
 Cond 100
@@ -1380,6 +2317,70 @@ na szyi sprawia zapewne, ¿e nawet w najwiêkszym smrodzie da siê jako¶
 wytrzymaæ. 
 ~
 Comments ~
+Objend
+#Vnum 11875
+Name sygnet krêgu druidzkiego~
+Odmiana sygnetu druidzkiego krêgu~sygnetowi druidzkiego krêgu~sygnet druidzkiego krêgu~sygnetem druidzkiego krêgu~sygnecie druidzkiego krêgu~
+Short sygnet druidzkiego krêgu~
+Descr Le¿y tutaj na ziemi jaki¶ sygnet otoczony zielonkawym p³omyczkiem.~
+Material unused~
+Type jewelry
+ExtraExt 0|G
+Wear AB
+Wear2Ext 0|Q
+Bonus 0
+Rent 20
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3000
+Cond 100
+Aff 1 27 2 1 0 0
+Itemdesc Ten przepiêkny sygnet ma na sobie precyzyjnie wygrawerowany sygnet
+druidzkiego krêgu, tak wiêc osoba, która znajduje siê w jego posiadaniu jest
+zapewne, mniej lub bardziej, z nim powi±zana. Pier¶cionek ten otoczony jest
+jak±¶ dziwn±, zielon± aur± od której bije przyjemne ciepe³ko. 
+~
+Comments ~
+Objend
+#Vnum 11876
+Name w³óczniokostur w³ócznia kostur~
+Odmiana w³óczniostrza~w³óczniostrzu~w³óczniostrze~w³óczniostrzem~w³óczniostrzu~
+Short w³óczniostrze~
+Descr Le¿y tutaj na ziemi kostur z zamontowanym na jednym koñcu ostrzem.~
+Material drewno dêbowe~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|Q
+Bonus 0
+Rent 150
+LiczbaMnoga 0
+Gender 1
+Value 9 2 8 2 32 2 2
+Repair 0 0 0 0
+Weight 180
+Cost 27000
+Cond 100
+Itemdesc W³óczniostrze to lekko zmodyfikowana wersja w³óczniokosturu; jedyna
+ró¿nica to fakt, i¿ jest to broñ znacznie bardziej przystosowana do walki
+ni¿ do wspierania siê podczas podró¿y. Zamiast wyskakuj±cego grotu w³óczni
+zamontowano tutaj du¿o d³u¿sze ostrze przypominaj±ce ze trzy razy skrócony
+jatagan. W koñcu jak ju¿ druidzi wymy¶lili w³óczniokostury, które odnios³y
+ogromny sukces popularno¶ciowy, to zaczêli rozwijaæ ten kierunek. 
+~
+Identdesc W³óczniostrze jest broni± wykonan± przez druidów, dla druidów, dlatego
+te¿ tylko druid mo¿e jej u¿ywaæ. Broñ ta otacza tak¿e magiczna aura,
+pozwalaj±ca walczyæ z istotami odpornymi na niemagiczn± broñ. Przeciwko
+istotom neutralnym jednak broñ ta zadaje s³absze obra¿enia i nie jest
+traktowana jako broñ magiczna. 
+~
+Comments ~
+SpecDamExt 3 100 2 -100 -100 0 0 1
+SpecDamExt 3 100 1 -100 -100 0 4 1
+SpecDamExt 3 100 0 -100 -100 0 4 1
 Objend
 #Vnum 0
 
@@ -1406,17 +2407,6 @@ Exit 0
 ~
 ~
 0 0 544
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81252
-ExitExtEnd
-Exit 1
-~
-~
-0 0 81252
 ExitExt 2
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1457,17 +2447,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11801
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81253
-ExitExtEnd
-Exit 1
-~
-~
-0 0 81253
 ExitExt 2
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1507,17 +2486,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11802
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81254
-ExitExtEnd
-Exit 1
-~
-~
-0 0 81254
 ExitExt 2
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1556,17 +2524,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11803
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81255
-ExitExtEnd
-Exit 1
-~
-~
-0 0 81255
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1662,28 +2619,6 @@ Exit 0
 ~
 ~
 0 0 11804
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81256
-ExitExtEnd
-Exit 1
-~
-~
-0 0 81256
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81248
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81248
 ExitExt 3
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1723,17 +2658,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11806
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81244
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81244
 ExitExt 3
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1774,17 +2698,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11807
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81240
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81240
 ExitExt 3
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1825,17 +2738,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11808
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81236
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81236
 ExitExt 3
 ExitExtDescription Widzisz dalsz± czê¶æ drogi.
 ~
@@ -1876,17 +2778,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11809
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81232
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81232
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2628,17 +3519,6 @@ Widzisz dalsz± czê¶æ drogi.
 ~
 ~
 0 0 11810
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81228
-ExitExtEnd
-Exit 2
-~
-~
-0 0 81228
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4612,17 +5492,6 @@ Exit 0
 ~
 ~
 0 0 528
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 81228
-ExitExtEnd
-Exit 1
-~
-~
-0 0 81228
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4634,6 +5503,18 @@ Exit 2
 ~
 ~
 0 0 32001
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 11872
+Name {Yfree{x~
+Descr Trawa przyjemnie szele¶ci ci pod stopami, a odg³osy z le¿±cej na po³udniu
+puszczy mieszaj± siê z tymi, które dochodz± z dróg przylegaj±cych do tego
+miejsca zarówno zpó³nocy, jak i z zachodu. Dodatkowymi dzwiêkami s± te,
+które dochodz± od le¿±cego za drogami miastra Carrallak. 
+~
+FlagsExt 0|C
+Sector 32
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5430,14 +6311,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18204
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18204
+16 0 18204
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5475,14 +6356,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18203
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18203
+16 0 18203
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5520,14 +6401,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18202
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18202
+16 0 18202
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5565,14 +6446,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18201
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18201
+16 0 18201
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5621,14 +6502,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18200
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18200
+16 0 18200
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5669,14 +6550,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18199
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18199
+16 0 18199
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5715,14 +6596,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18198
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18198
+16 0 18198
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5761,14 +6642,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18197
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18197
+16 0 18197
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5807,14 +6688,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18196
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18196
+16 0 18196
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5842,12 +6723,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 39000
+ExitExtToVnum 11897
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 39000
+0 0 11897
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5864,25 +6745,25 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18195
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18195
+16 0 18195
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 38981
+ExitExtToVnum 11896
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 38981
+0 0 11896
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5910,14 +6791,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18194
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18194
+16 0 18194
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -5956,14 +6837,14 @@ Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 18189
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 18189
+16 0 18189
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -6058,13 +6939,13 @@ S
 O 100 11825 0 11853
 M 100 11801 1 11873 1
 G 100 11816 0
-E 100 4406 0 6
-E 100 4373 0 5
-E 100 553 0 14
-E 100 553 0 15
-E 100 3098 0 13
-E 100 3066 0 9
-E 100 3001 0 8
+E 100 11824 0 6
+E 100 11823 0 5
+E 100 11822 0 15
+E 100 11822 0 14
+E 100 3017 0 13
+E 100 3378 0 9
+E 100 3380 0 8
 O 100 11815 0 11873
 P 100 11817 2 11815 2
 S
@@ -6123,11 +7004,11 @@ rest fotel
 ~
 #11803truciciel
 ~
-mob equip self 3018
-mob equip self 3033
-mob equip self 3050
-mob equip self 3157
-mob equip self 3001
+mob equip self 11854
+mob equip self 11855
+mob equip self 3382
+mob equip self 11857
+mob equip self 3380
 if rand 55
   mob oload 11858
 endif
@@ -6146,12 +7027,12 @@ endif
 ~
 #11806_onload
 ~
-mob equip self 4375
+mob equip self 11860
 ~
 #11810_onload
 ~
-mob equip self 4367
-mob equip self 4416
+mob equip self 3011
+mob equip self 3013
 if rand 65
   mob oload 1671
 endif
@@ -6159,18 +7040,18 @@ mob addgroup 30222
 ~
 #druid_woj_onl
 ~
-mob equip self 3098
-mob equip self 3019
-mob equip self 3083
-mob equip self 3051
-mob equip self 3003
-mob equip self 3067
-mob equip self 3041
+mob equip self 6038
+mob equip self 6037
+mob equip self 6036
+mob equip self 3092
+mob equip self 6034
+mob equip self 6033
+mob equip self 6032
 if rand 50
   mob oload 1664
 endif
 if rand 80
-mob equip self 3385
+mob equip self 11862
 endif
 if rand 92
   mob oload 173
@@ -6189,15 +7070,15 @@ mob cast 'dismiss undead' $n 40
 ~
 #truciciel_dzien
 ~
-if room $i == 15002
-  mob transfer truciciel_123 15012
+if room $i == 10852
+  mob transfer truciciel_123 10862
   mob echo Truciciel chy³kiem umyka przed nadchodz±cym dniem.
 endif
 ~
 #truciciel_noc
 ~
-if room $i == 15012
-  mob transfer truciciel_123 15002
+if room $i == 10862
+  mob transfer truciciel_123 10852
   mob echo Niespodziewanie z mroku nocy wy³ania siê podejrzana postaæ.
 endif
 ~

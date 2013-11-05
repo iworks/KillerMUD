@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: skills.c 12220 2013-04-06 15:18:20Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/skills.c $
+ * $Id: skills.c 12023 2013-02-10 13:22:18Z raszer $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/skills.c $
  *
  */
 #if defined(macintosh)
@@ -74,7 +74,6 @@ void check_defensive_spells args( (CHAR_DATA * ch, CHAR_DATA * victim ) );
 bool check_increase_wounds args( (CHAR_DATA *victim, int dam_type, int *dam) );
 void wait_obj_to_char args ( ( OBJ_DATA *obj, int delay, CHAR_DATA *ch ) ) ;
 void message_when_experience_gain args( ( CHAR_DATA *ch, int experience ) );
-bool rp_precommand_trigger( ROOM_INDEX_DATA *room, CHAR_DATA *victim, OBJ_DATA *obj, DO_FUN * fun, char *fun_name, char *argument );
 
 struct learn_skill_chance_type
 {
@@ -196,7 +195,7 @@ struct learn_skill_chance_type_two
 //na poczatku szansa 2x mniejsza niz
 struct learn_skill_chance_type learn_skill_chance_two[100] =
 {
-    {   0,	  700	 },
+    {   0,	  700	 }, 
     {   1,	  690	 },
     {   2,	  680	 },
     {   3,	  670	 },
@@ -275,7 +274,7 @@ struct learn_skill_chance_type learn_skill_chance_two[100] =
     {  76,	  7	      },
     {  77,	  7	      },
     {  78,	  6	      },
-    {  79,	  6       },
+    {  79,	  6       }, 
     {  80,	  5	      }, //60x roznica
     {  81,	  5	      },
     {  82,	  4	      },
@@ -295,7 +294,7 @@ struct learn_skill_chance_type learn_skill_chance_two[100] =
     {  96,	  1 	  },//100x ponad
     {  97,	  1 	  },
     {  98,	  1 	  },
-    {  99,	  1 	  }
+    {  99,	  1 	  } 
 };
 
 void add_wait_after_miss(CHAR_DATA *ch, int multi)
@@ -620,12 +619,12 @@ void do_spells( CHAR_DATA *ch, char *argument )
                         sprintf( bufik, "*%-23s ", skill_table[ sn ].name );
                     else
                         sprintf( bufik, "%-24s ", skill_table[ sn ].name );
-                }else if (sn == gsn_wizard_eye)
+                }else if (sn == 402)
                  {
                       if ( is_affected( ch, sn ) )
                         sprintf( bufik, "*%-23s ", skill_table[ sn ].name );
                     else
-                        sprintf( bufik, "%-24s ", skill_table[ sn ].name );
+                        sprintf( bufik, "%-24s ", skill_table[ sn ].name ); 
                 }
                 else
                     sprintf( bufik, "%-24s ", skill_table[ sn ].name );
@@ -1023,11 +1022,6 @@ void do_skills( CHAR_DATA *ch, char *argument )
                 if ( is_affected( ch, gsn_holy_prayer ) )
                     na = TRUE;
             }
-            else if ( sn == gsn_invoke_spirit )
-            {
-                if ( is_affected( ch, gsn_invoke_spirit ) )
-                    na = TRUE;
-            }
 	    sprintf( buf, "%s%-14s %1s%-17s",
                         na ? "*" : "",
                         skill_table[ sn ].name,
@@ -1409,9 +1403,9 @@ void do_lay( CHAR_DATA *ch, char *argument )
         {
             affect_strip( victim, gsn_blindness );
             affect_strip( victim, gsn_wind_charger );
-            affect_strip( victim, gsn_power_word_blindness );
-            affect_strip( victim, gsn_pyrotechnics );
-            affect_strip( victim, gsn_sunscorch );
+            affect_strip( victim, 215 ); //pwb
+            affect_strip( victim, 51 ); //pyrotechnics
+            affect_strip( victim, 240 ); //sunscorch
             EXT_REMOVE_BIT( victim->affected_by, AFF_BLIND );
             act( "$n odzyskuje wzrok.", victim, NULL, NULL, TO_ROOM );
             send_to_char( "Odzyskujesz wzrok.\n\r", victim );
@@ -2842,12 +2836,9 @@ void do_lore( CHAR_DATA *ch, char *argument )
                     send_to_char( buf, ch );
                     if ( obj->value[ 4 ] != 100	)
                     {
-			if(!IS_SET( obj->value[1], CONT_COMP ))
-                        {
-                            sprintf( buf, "Mno¿nik wagi: %d%%\n\r",
-                                    obj->value[ 4 ] );
-                            send_to_char( buf, ch );
-			}
+                        sprintf( buf, "Mno¿nik wagi: %d%%\n\r",
+                                obj->value[ 4 ] );
+                        send_to_char( buf, ch );
                     }
                 }
                 else
@@ -2855,12 +2846,9 @@ void do_lore( CHAR_DATA *ch, char *argument )
                     sprintf( buf, "Pojemno¶æ: %d#  Maksymalna no¶no¶æ: %d#  flagi: %s\n\r",
                             number_range(50,250), number_range(50,250), cont_bit_name( obj->value[ 1 ] ));
                     send_to_char( buf, ch );
-		    if(!IS_SET( obj->value[1], CONT_COMP ))
-                    {
-                        sprintf( buf, "Mno¿nik wagi: %d%%\n\r",
-                                number_range(50,300));
-                        send_to_char( buf, ch );
-		    }
+                    sprintf( buf, "Mno¿nik wagi: %d%%\n\r",
+                            number_range(50,300));
+                    send_to_char( buf, ch );
                 }
                 break;
 
@@ -3403,7 +3391,7 @@ void do_stun( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, vch, TRUE ) )
+    if ( is_safe( ch, vch ) )
     {
         send_to_char( "Nie tutaj.\n\r", ch );
         return;
@@ -3574,7 +3562,7 @@ void do_charge( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, vch, TRUE ) )
+    if ( is_safe( ch, vch ) )
     {
         return;
     }
@@ -4066,7 +4054,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
         send_to_char( "Rozpedzasz sie, ale w koncu rezygnujesz, bo tutaj jakos nie wypada.\n\r", ch );
         return;
@@ -4218,8 +4206,8 @@ void do_bash( CHAR_DATA *ch, char *argument )
     if(IS_AFFECTED( victim, AFF_HASTE ))chance-=7;
 
     //blur
-    if( is_affected( victim, gsn_blur )) chance-=10;
-    if( is_affected( ch, gsn_blur )) chance+=5;
+    if( is_affected( victim, skill_lookup("blur") )) chance-=10;
+    if( is_affected( ch, skill_lookup("blur") )) chance+=5;
 
     //web
     if ( IS_AFFECTED( victim, AFF_WEB ) )chance+=20;
@@ -4242,7 +4230,7 @@ void do_bash( CHAR_DATA *ch, char *argument )
     if (!can_see( ch, victim )) chance/=2;
     //print_char( ch, "Szansa po modyfikatorach: %d \n \r", chance );
     if (!can_move(victim)) chance += 50;
-
+    
     //slippery floor
     chance = URANGE(10,chance,95);
     //modyfikatory od pozycji
@@ -4745,7 +4733,7 @@ void do_trip( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
         return;
 
     if ( IS_AFFECTED( victim, AFF_FLYING ) )
@@ -5019,7 +5007,7 @@ void do_sap( CHAR_DATA *ch, char *argument )
     	return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
     	send_to_char( "Machasz rêkoma, ale co¶ ci przeszkadza.\n\r", ch );
         return;
@@ -5227,7 +5215,7 @@ void do_backstab( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
         return;
     }
@@ -5725,7 +5713,7 @@ void do_kick( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
         act( "{5Jako¶ nie dajesz rady kopn±æ $Z.{x", ch, NULL, victim, TO_CHAR );
         return;
@@ -5910,7 +5898,7 @@ void do_crush( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
         send_to_char( "Nie dasz rady.\n\r", ch );
         return;
@@ -6459,7 +6447,7 @@ void do_tail( CHAR_DATA *ch, char *argument )
 		return;
 	}
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( IS_NPC( ch ) )
@@ -6665,20 +6653,20 @@ void do_tail( CHAR_DATA *ch, char *argument )
 //je¶li nie chcemy by z summonów sz³o wycinaæ to tutaj
 bool is_summon_corpse( int vnum )
 {
-	if (   vnum == MOB_VNUM_SQUIRREL
+	if (   vnum == MOB_VNUM_WIEWIORKA
 			|| vnum == MOB_VNUM_WOLF
 			|| vnum == MOB_VNUM_BEAR
-			|| vnum == MOB_VNUM_SQUIRREL_M
-			|| vnum == MOB_VNUM_RAWEN
-			|| vnum == MOB_VNUM_BOAR
-			|| vnum == MOB_VNUM_TIGER_M
-			|| vnum == MOB_VNUM_WOLF_M
-			|| vnum == MOB_VNUM_CONSTRICTOR_M
-			|| vnum == MOB_VNUM_EAGLE_M
-			|| vnum == MOB_VNUM_BADGER
+			|| vnum == MOB_VNUM_WIEWIORKA_M
+			|| vnum == MOB_VNUM_KRUK
+			|| vnum == MOB_VNUM_DZIK
+			|| vnum == MOB_VNUM_TYGRYS_M
+			|| vnum == MOB_VNUM_WILK_M
+			|| vnum == MOB_VNUM_DUSICIEL_M
+			|| vnum == MOB_VNUM_ORZEL_M
+			|| vnum == MOB_VNUM_BORSUK
 			|| vnum == MOB_VNUM_TIGER
 			|| vnum == MOB_VNUM_BEAR_M
-			|| vnum == MOB_VNUM_SPIDER_M
+			|| vnum == MOB_VNUM_PAJAK_M
 			|| vnum == MOB_VNUM_OSA
 			|| vnum == MOB_VNUM_WAZKA
 			|| vnum == MOB_VNUM_ZUK
@@ -6871,7 +6859,7 @@ void carve_do_spec_fun( int cz, CHAR_DATA *ch, OBJ_DATA *corpse, OBJ_DATA *part,
                     {
                         if ( IS_AFFECTED( ch, AFF_BLIND ) )	return;
                         af.where = TO_AFFECTS;
-                        af.type = gsn_blindness;
+                        af.type = 5; //blindness
                         af.level = 31;
                         af.location = APPLY_NONE;
                         af.modifier = 0;
@@ -7321,7 +7309,7 @@ void do_carve( CHAR_DATA *ch, char *argument )
     penalty -= get_curr_stat( ch, STAT_WIS ) / 30; //wiedza pomaga gdy wie sie jak co¶ przyci±æ ¿eby by³o dobrze
     penalty -= get_curr_stat( ch, STAT_STR ) / 40; // sila tez ma znaczenie
 
-    switch ( ch->class )
+   switch ( ch->class )
     {
         case CLASS_BLACK_KNIGHT:
         case CLASS_PALADIN:
@@ -7981,8 +7969,8 @@ void do_skin( CHAR_DATA *ch, char *argument )
             skin_skill += get_skill(ch,gsn_shortsword)/10;
         }
     }
-
-
+    
+  
     skin_broken = 1;
     skin_level  = corpse->value[ 2 ];
     skin_delay  = URANGE( 1, skin_level / 10, 10);
@@ -8229,13 +8217,13 @@ void do_skin( CHAR_DATA *ch, char *argument )
             condition *= number_range( 115, 120 );
             condition /= 100;
         }
-
+        
     skin_potentially = ch->pcdata->learned[ gsn_skin ];//Raszer - przenosze probe nauki tutaj, bo cos czuje, ze kod nie docieral do konca funkcji, ulatwiam 2x
 
     if ( skin_potentially <= max_learn )
     {
         check_improve( ch, NULL, gsn_skin, TRUE, 4 );
-    }
+    }   
     /*tutaj robimy skórkê*/
 
     if ( corpse->weight < 150 )
@@ -8396,7 +8384,7 @@ void do_skin( CHAR_DATA *ch, char *argument )
     else
     {
 
-        skin->cost = skin_level;
+		skin->cost = skin_level;
         if ( !str_cmp( ch->name, "Raszer" ) ) print_char( ch, "Cost 1: %d\n\r", skin->cost );
         skin->cost *= cost_multi;
         skin->cost /= 100;
@@ -8452,7 +8440,7 @@ void do_skin( CHAR_DATA *ch, char *argument )
         wait_obj_to_char( skin, skin_delay, ch );
     }
 
-
+   
 
     return;
 }
@@ -9086,8 +9074,6 @@ skill = skill / 2;
                 return;
             }
 
-
-
             if ( pexit->trap <= 0 ||
                     !IS_SET( pexit->exit_info, EX_TRAP ) ||
                     ( trap = get_trap_index( pexit->trap ) ) == NULL ||
@@ -9467,7 +9453,7 @@ void do_target( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
         return;
 
     WAIT_STATE( ch, PULSE_VIOLENCE );
@@ -9577,7 +9563,7 @@ void do_smite( CHAR_DATA *ch, char *argument )
         if ( ch == vch )
             return;
 
-        if ( is_safe( ch, vch, TRUE ) )
+        if ( is_safe( ch, vch ) )
             return;
         //send_to_char( "Sprawdzanie ostatniej modlitwy. \n\r", ch );
         if ( ( paf = affect_find( ch->affected, gsn_prayer_last )) != NULL )
@@ -9774,7 +9760,7 @@ void do_smite( CHAR_DATA *ch, char *argument )
         if ( ch == vch )
             return;
 
-        if ( is_safe( ch, vch, TRUE ) )
+        if ( is_safe( ch, vch ) )
             return;
 
         chance = skill + charisma_mod;
@@ -9929,7 +9915,6 @@ void do_turn( CHAR_DATA *ch, char *argument )
             charisma_mod = 0;
     }
 
-
     //chance = URANGE( 5, skill/2 + get_curr_stat_deprecated( ch, STAT_WIS ) + luck / 3, 90 );
     chance = URANGE( 5, skill/2 + (get_curr_stat( ch, STAT_WIS )-60)/6 + charisma_mod*2/6 + (luck-10)/6, 90 );
 
@@ -10050,7 +10035,7 @@ void do_turn( CHAR_DATA *ch, char *argument )
     {
         vch_next = vch->next_in_room;
 
-        if ( !is_undead(vch) || is_safe( ch, vch, TRUE ) )
+        if ( !is_undead(vch) || is_safe( ch, vch ) )
             continue;
 
         if ( !turned )
@@ -10433,7 +10418,7 @@ void do_peek( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
         send_to_char( "Nic ciekawego nie widzisz.\n\r", ch );
         return;
@@ -10743,7 +10728,7 @@ void do_persuasion( CHAR_DATA *ch, char *argument )
     }
 
     vint = get_curr_stat_deprecated( victim, STAT_INT);
-    if ( !IS_NPC(victim) || is_safe(ch,victim, TRUE) || vint < 8 || !IS_SET(victim->parts, PART_BRAINS))
+    if ( !IS_NPC(victim) || is_safe(ch,victim) || vint < 8 || !IS_SET(victim->parts, PART_BRAINS))
     {
         act( "{5$N nie zwraca na ciebie najmniejszej nawet uwagi.{x", ch, NULL, victim, TO_CHAR );
         act( "{5$n podchodzi do ciebie i zaczyna rozmowê, jednak ty nie zwracasz na to uwagi i wracasz do swych spraw.{x", ch, NULL, victim, TO_VICT );
@@ -11053,7 +11038,7 @@ void do_torment( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( ( victim == ch && !is_undead(ch) ) || is_safe( ch, victim, TRUE ) )
+    if ( ( victim == ch && !is_undead(ch) ) || is_safe( ch, victim ) )
     {
         send_to_char("Nie mo¿esz tego zrobiæ.\n\r", ch );
         WAIT_STATE( ch, skill_table[ gsn_torment ].beats / 2 );
@@ -11199,7 +11184,7 @@ void do_overwhelming( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if( ch == victim || is_safe( ch, victim, TRUE ) )
+    if( ch == victim || is_safe( ch, victim ) )
     {
         send_to_char( "To siê nie uda.\n\r", ch );
         return;
@@ -11481,7 +11466,7 @@ void do_vertical_slash( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if( ch == victim || is_safe( ch, victim, TRUE ) )
+    if( ch == victim || is_safe( ch, victim ) )
     {
         send_to_char( "To siê nie uda.\n\r", ch );
         return;
@@ -12340,7 +12325,7 @@ void do_control_undead( CHAR_DATA *ch, char *argument )
         if ( !IS_NPC( victim ) )
             continue;
 
-        if ( !is_undead(victim) || !can_see( ch, victim ) || is_safe( ch, victim, TRUE ) || !can_see( victim, ch ) )
+        if ( !is_undead(victim) || !can_see( ch, victim ) || is_safe( ch, victim ) || !can_see( victim, ch ) )
             continue;
 
         if ( victim->master != NULL && !IS_NPC( victim->master ) )
@@ -12549,7 +12534,6 @@ void do_pre_holy_prayer( CHAR_DATA *ch, char *argument )
 
     if ( IS_AFFECTED( ch, AFF_FLYING ) || IS_AFFECTED( ch, AFF_FLOAT ))
     {
-
         if ( skill_table[ gsn_fly ].msg_off )
         {
             send_to_char( skill_table[ gsn_fly ].msg_off, ch );
@@ -13021,34 +13005,6 @@ void do_mine( CHAR_DATA *ch, char *argument )
 		return;
 	};
 
-    if ( !ch->in_room )
-    {
-        return;
-    }
-
-    sk = get_skill( ch, skill_lookup( "mining" ) );
-
-    if(!mine_check(ch, sk))
-    {
-        return;
-    }
-
-    /**
-     * bonus rasowy dla kraznoludow
-     */
-    if ( !str_cmp( race_table[ GET_RACE(ch) ].name, "krasnolud" ) )
-    {
-        sk = UMIN( sk + 5, 100 );
-    }
-
-	//TODO mine_before_trigger
-
-	if ( ch->move < ( ch->max_move / 8 ) )
-	{
-		print_char( ch, "Zmêczenie uniemo¿liwia ci rozpoczêcie wydobycia.\n\r");
-		return;
-	}
-
 	const int mes1 = 9;
 	char *messages1[] =
 	{
@@ -13097,7 +13053,23 @@ void do_mine( CHAR_DATA *ch, char *argument )
 			"Przyk³adasz ucho do ¶ciany i wiesz z ca³± pewno¶ci±, ¿ê za ni± czeka co¶ niebezpiecznego."
 	};
 
+	if ( !ch->in_room )
+		return;
+
 	room = ch->in_room;
+
+	sk = get_skill( ch, skill_lookup( "mining" ) );
+
+	if(!mine_check(ch, sk))
+		return;
+
+	//TODO mine_before_trigger
+
+	if ( ch->move < ( ch->max_move / 8 ) )
+	{
+		print_char( ch, "Zmêczenie uniemo¿liwia ci rozpoczêcie wydobycia.\n\r");
+		return;
+	}
 
 	//wcze¶niej == dzia³a³o, bo lecia³a zazwyczaj jedna bry³ka
 	//po podkrêceniu na 2-3 nale¿a³o poprawiæ na <=
@@ -13267,7 +13239,6 @@ void do_mine( CHAR_DATA *ch, char *argument )
 					brylka = generate_brylka(qu, i, room);
 					wait_obj_to_room( brylka, time, room );
 				} else {
-
 					switch( rawmaterial_table[i].bit )
 					{
 					case RAW_GEMS:
@@ -13443,7 +13414,7 @@ void do_fire_breath( CHAR_DATA *ch, char *argument)
 		return;
 	}
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 
@@ -13562,7 +13533,7 @@ void do_fire_breath( CHAR_DATA *ch, char *argument)
 		return;
 	}
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 
@@ -13681,7 +13652,7 @@ void do_fire_breath( CHAR_DATA *ch, char *argument)
 		return;
 	}
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 
@@ -13800,7 +13771,7 @@ void do_lightning_breath( CHAR_DATA *ch, char *argument)
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
         return;
 
 
@@ -13926,7 +13897,7 @@ void do_slam( CHAR_DATA *ch, char *argument )
         return;
     }
 
-    if ( is_safe( ch, victim, TRUE ) )
+    if ( is_safe( ch, victim ) )
     {
         return;
     }
@@ -14024,8 +13995,8 @@ void do_slam( CHAR_DATA *ch, char *argument )
     if(IS_AFFECTED( victim, AFF_HASTE ))chance-=7;
 
     //blur
-    if( is_affected( victim, gsn_blur )) chance-=10;
-    if( is_affected( ch, gsn_blur )) chance+=5;
+    if( is_affected( victim, skill_lookup("blur") )) chance-=10;
+    if( is_affected( ch, skill_lookup("blur") )) chance+=5;
 
     //web
     if ( IS_AFFECTED( victim, AFF_WEB ) )chance+=20;
@@ -14323,112 +14294,4 @@ void do_slam( CHAR_DATA *ch, char *argument )
     }
 }
 
-void do_invoke( CHAR_DATA *ch, char *argument )
-{
-    CHAR_DATA * victim;
-    AFFECT_DATA af;
-    AFFECT_DATA *paf;
-    AFFECT_DATA *paf_next;
-    int skill;
 
-    if( IS_NPC(ch)) return;
-
-    if ( ( skill = get_skill( ch, gsn_invoke_spirit ) ) <= 0 )
-    {
-        send_to_char( "Huh?\n\r", ch );
-        return;
-    }
-
-    if ( !ch->precommand_pending && HAS_RTRIGGER( ch->in_room, TRIG_PRECOMMAND ) )
-    {
-        if ( rp_precommand_trigger( ch->in_room, ch, NULL, &do_invoke, "invoke", argument ) )
-        {
-            return;
-        }
-    }
-
-    for ( paf = ch->affected; paf != NULL; paf = paf_next )
-    {
-        paf_next = paf->next;
-        if ( paf->bitvector == &AFF_INVOKE )
-        {
-            affect_remove( ch, paf );
-        }
-    }
-
-    if ( is_affected( ch, gsn_invoke_spirit ) )
-    {
-        send_to_char( "Nie jeste¶ w stanie tak czêsto przywo³ywaæ duchów.\n\r", ch );
-        return;
-    }
-
-    if ( !EXT_IS_SET( ch->in_room->room_flags, ROOM_INVOKE ) )
-    {
-        send_to_char( "Przywo³ujesz duchy, ale ¿aden nie jest tob± zainteresowany.\n\r", ch );
-        return;
-    }
-
-
-    LEARN_DATA *ld = NULL;
-    LEARN_LIST *ls = NULL;
-    int chance_mod;
-
-    for ( ld = learn_system ; ld ; ld = ld->next )
-        if ( ld->vnum == ch->in_room->vnum)
-        {
-            break;
-        }
-
-    if ( !ld )
-    {
-        send_to_char( "Tutejsze duchy niczego ciebie nie naucz±.\n\r", ch );
-        return;
-    }
-
-    for ( ls = ld->list ; ls ; ls = ls->next )
-    {
-        if ( skill_table[ ls->sn ].name == NULL )
-            break;
-
-        if ( ch->level < skill_table[ ls->sn ].skill_level[ ch->class ] )
-            continue;
-
-        if ( ch->pcdata->learned[ ls->sn ] == 0 && can_learn_spell( ch, ls->sn ) )
-            break;
-    }
-
-    if ( !ls )
-    {
-        send_to_char( "Wiesz ju¿ wszystko, czego tutejsze duchy chcia³yby ciê nauczyæ przy twoim do¶wiadczeniu.\n\r", ch );
-        return;
-    }
-
-    if ( ls->chance < 0 )
-        chance_mod = ( 25 * ls->chance ) / 100;
-    else
-        chance_mod = ( 15 * ls->chance ) / 100;
-
-    if ( number_percent() < ( chance_to_learn_spell( ch, ls->sn ) + URANGE( -25, chance_mod, 15 ) ) )
-    {
-        ch->pcdata->learned[ ls->sn ] = 1;
-        act( "{BNauczy³e¶ siê wezwania '$t'.{x", ch, skill_table[ ls->sn ].name, NULL, TO_CHAR );
-    }
-    else
-    {
-        act( "{RNie uda³o ci siê nauczyæ wezwania $t.{x", ch, skill_table[ ls->sn ].name, NULL, TO_CHAR );
-    }
-
-
-    af.where	= TO_AFFECTS;
-    af.type	= gsn_invoke_spirit;
-    af.level	= 40;
-    af.duration = 20; af.rt_duration = 0;
-    af.location = APPLY_NONE;
-    af.modifier = 0;
-    af.bitvector = &AFF_NONE;
-    af.visible	 = FALSE;
-    affect_to_char( ch, &af, NULL, FALSE );
-
-    WAIT_STATE( ch, 2 * PULSE_VIOLENCE );
-    return;
-}

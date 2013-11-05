@@ -210,24 +210,3 @@ bool rp_knock_trigger( CHAR_DATA *ch, int door )
 	}
 	return ( FALSE );
 }
-
-bool rp_precommand_trigger( ROOM_INDEX_DATA *room, CHAR_DATA *victim, OBJ_DATA *obj, DO_FUN * fun, char *fun_name, char *argument )
-{
-	PROG_LIST * prg;
-
-	for ( prg = room->progs; prg; prg = prg->next )
-	{
-		if ( prg->trig_type == &TRIG_PRECOMMAND && !str_cmp( prg->trig_phrase, fun_name ) )
-		{
-			victim->precommand_fun = fun;
-			free_string( victim->precommand_arg );
-			victim->precommand_arg = str_dup( argument );
-			victim->precommand_pending = FALSE;
-			create_rprog_env( prg->name, prg->code, room, victim, ( void * ) obj, NULL, prg->trig_type, prg->trig_phrase );
-			release_supermob();
-			program_flow();
-			return TRUE;
-		}
-	}
-	return FALSE;
-}

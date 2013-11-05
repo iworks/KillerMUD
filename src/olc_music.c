@@ -88,7 +88,7 @@ void do_sedit( CHAR_DATA *ch, char *argument )
 
     if ( is_number( command ) )
     {
-        unsigned int number = atoi( command );
+        ush_int number = atoi( command );
 
         if ( ( pSong = get_song_index( number ) ) == NULL )
         {

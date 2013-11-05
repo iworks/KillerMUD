@@ -15,12 +15,11 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Koper Tadeusz         (jediloop@go2.pl               ) [Garloop   ] *
- * Skrzetnicki Krzysztof (gtener@gmail.com              ) [Tener     ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
  * Sawicki Tomasz        (furgas@killer-mud.net         ) [Furgas    ] *
  * Trebicki Marek        (maro@killer.radom.net         ) [Maro      ] *
@@ -28,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: act_info.c 12204 2013-03-29 21:17:17Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/act_info.c $
+ * $Id: act_info.c 11469 2012-07-07 19:21:32Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/act_info.c $
  *
  */
 #if defined(macintosh)
@@ -1271,55 +1270,6 @@ void show_char_extras( CHAR_DATA *victim, CHAR_DATA *ch )
 		}
 	}
 
-	if ( victim->height > ch->height *3/2 )
-	{
-		if( victim->sex == 2 )
-		{
-			act( "$N jest od ciebie znacznie wiêksza.", ch, NULL, victim, TO_CHAR );
-		}
-		else
-		{
-			act( "$N jest od ciebie znacznie wiêkszy.", ch, NULL, victim, TO_CHAR );
-		}
-	}
-	else if ( victim->height > ch->height *11/10 )
-	{
-		if( victim->sex == 2 )
-		{
-			act( "$N jest od ciebie trochê wiêksza.", ch, NULL, victim, TO_CHAR );
-		}
-		else
-		{
-			act( "$N jest od ciebie trochê wiêkszy.", ch, NULL, victim, TO_CHAR );
-		}
-	}
-	else if ( (victim->height > ch->height *9/10) && (victim->height < ch->height *11/10) )
-	{
-		act( "$N jest mniej wiêcej twojego wzrostu.", ch, NULL, victim, TO_CHAR );
-	}
-	else if ( victim->height < ch->height * 2/3 )
-	{
-		if( victim->sex == 2 )
-		{
-			act( "$N jest od ciebie znacznie mniejsza.", ch, NULL, victim, TO_CHAR );
-		}
-		else
-		{
-			act( "$N jest od ciebie znacznie mniejszy.", ch, NULL, victim, TO_CHAR );
-		}
-	}
-	else if ( victim->height < ch->height * 9/10 )
-	{
-		if( victim->sex == 2 )
-		{
-			act( "$N jest od ciebie trochê mniejsza.", ch, NULL, victim, TO_CHAR );
-		}
-		else
-		{
-			act( "$N jest od ciebie trochê mniejszy.", ch, NULL, victim, TO_CHAR );
-		}
-	}
-
 	if ( friend_exist( ch, victim->name, NULL, fr_info, &time, &introduced ) )
 	{
 		print_char( ch, "{w%s{x\n\r", fr_info );
@@ -1345,7 +1295,7 @@ void show_char_extras( CHAR_DATA *victim, CHAR_DATA *ch )
 	{
 		act( "$C otacza magiczny pancerz.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_blur ))
+	if( is_affected(victim, 93 ))//blur
 	{
 		act( "Próbujesz skoncentrowaæ wzrok na $B, lecz $S sylwetka rozmywa ci siê w oczach.", ch, NULL, victim, TO_CHAR );
 	}
@@ -1377,7 +1327,7 @@ void show_char_extras( CHAR_DATA *victim, CHAR_DATA *ch )
 	{
 		act( "Dooko³a $Z wiruj± niewielkie, b³yszcz±ce punkty ¶wiat³a.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_storm_shell ))//storm shell
+	if( is_affected(victim, 246 ))//storm shell
 	{
 		act( "Wokó³ $Z widaæ pulsuj±c± skorupê energii.", ch, NULL, victim, TO_CHAR );
 	}
@@ -1401,19 +1351,19 @@ void show_char_extras( CHAR_DATA *victim, CHAR_DATA *ch )
 	{
 		act( "$C otacza potê¿na, pulsuj±ca pó³przezroczysta magiczna sfera.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_divine_favor ))
+	if( is_affected(victim, 230 ))//divine favor
 	{
 		act( "Rêce $Z otoczone s± aur± ¶wiêtej energii.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_divine_power ))
+	if( is_affected(victim, 231 ))//divine power
 	{
 		act( "$C otacza ¶wietlista boska aura.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_divine_shield ))
+	if( is_affected(victim, 276 ))//divine shield
 	{
 		act( "$C otacza boska tarcza.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_energy_shield ))
+	if( is_affected(victim, 144 ))//energy shield
 	{
 		act( "$C otacza tarcza z pozytywnej energii.", ch, NULL, victim, TO_CHAR );
 	}
@@ -1425,11 +1375,11 @@ void show_char_extras( CHAR_DATA *victim, CHAR_DATA *ch )
 	{
 		act( "$N wygl±da bardzo ¼le, ca³e $S cia³o pokryte jest wrzodami.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_web ))
+	if( is_affected(victim, 168 ))//web
 	{
 		act( "$C oplata magiczna pajêczyna.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_entangle ))
+	if( is_affected(victim, 156 ))//entangle
 	{
 		act( "Ruchy $Z krêpuj± wyrastaj±ce z ziemi korzenie ro¶lin.", ch, NULL, victim, TO_CHAR );
 	}
@@ -1457,7 +1407,7 @@ void show_char_extras( CHAR_DATA *victim, CHAR_DATA *ch )
 	{
 		act( "Sylwetka $Z lekko migocze.", ch, NULL, victim, TO_CHAR );
 	}
-	if( is_affected(victim, gsn_unholy_fury ))
+	if( is_affected(victim, 312 ))//unholy fury
 	{
 		act( "$C ogarnia przeklêta furia.", ch, NULL, victim, TO_CHAR );
 	}
@@ -4265,9 +4215,6 @@ void do_examine( CHAR_DATA *ch, char *argument )
 				case TOOL_PICKAXE:
 					print_char( ch, "Typ narzêdzia to kilof.\n\r" );
 					break;
-				case TOOL_SAW:
-					print_char( ch, "Typ narzêdzia to pi³a.\n\r" );
-					break;
 				default:
 					print_char( ch, "Jest to narzêdzie nieokre¶lonego typu.\n\r" );
 					break;
@@ -4571,9 +4518,6 @@ void do_score( CHAR_DATA *ch, char *argument )
     if ( ch->level < 11 )
     {
         sprintf( buf, "{g¦wiat nazywa ciê prosto: {G%s{x", level_info_common[ ch->level - 1 ] );
-        center_text( buf, center, 79 );
-        center[ MAX_INPUT_LENGTH - 1 ] = '\0';
-        add_buf( buffer, center );
     }
     else if ( ch->level < LEVEL_HERO )
     {
@@ -4992,7 +4936,7 @@ void do_affects( CHAR_DATA *ch, char *argument )
 			}
 			else if ( paf->type == 0 && paf->info )
 			{
-				sprintf( buf_reserved + strlen( buf_reserved ), "%s\n\r",
+				sprintf( buf_reserved + strlen( buf_reserved ), "%s.\n\r",
 						capitalize_first( paf->info ) );
 			}
 			//sprintf(buf, "%-15s", paf->info ? paf->info : skill_table[paf->type].name);
@@ -5983,7 +5927,7 @@ void do_consider( CHAR_DATA *ch, char *argument )
 		return ;
 	}
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 	{
 		send_to_char( "Nawet o tym nie my¶l.\n\r", ch );
 		return ;
@@ -7723,81 +7667,67 @@ int get_hp_notch ( CHAR_DATA *ch, bool usePerfectSelf )
 
 int show_questlogs_to_char( CHAR_DATA* ch, int state )
 {
-    QL_DATA* tmp;
-    char buf[ MAX_STRING_LENGTH ];
-    int counter = 0;
+   QL_DATA* tmp;
+   int counter = 0;
 
-    for( tmp = ch->pcdata->ql_data; tmp != NULL; tmp = tmp->next )
-    {
-        if( tmp->state == state )
-        {
-            sprintf( buf, "\n\r%s\n\r%s\n\r", tmp->title, tmp->text);
-            strcat( buf, (tmp->state ? "{gZadanie {Gwykonane{g.{x\n\r" : "{gZadanie {Yw toku") );
-            if(!tmp->state)
-            {
-                if(tmp->currentdesc && *(tmp->currentdesc) != '\0' && str_cmp( tmp->currentdesc, "null"))
-                {
-                    strcat( buf, "{g:{x ");
-                    strcat( buf, tmp->currentdesc );
-                }
-                else
-                {
-                    strcat( buf, "{g.{x");
-                }
-            }
-            strcat( buf, "\n\r");
-            send_to_char( buf, ch );
-            counter++;
-
-        }
-    }
-    return counter;
+   for( tmp = ch->pcdata->ql_data; tmp != NULL; tmp = tmp->next )
+      {
+	 if( tmp->state == state )
+	    {
+	       send_to_char( "\n\r", ch );
+	       send_to_char( tmp->text, ch );
+	       send_to_char( tmp->state ? "{gZadanie {Gwykonane{g.{x\n\r" : "{gZadanie {Yw toku{g.{x\n\r", ch );
+	       counter++;
+	    }
+      }
+   return counter;
 }
 
 void do_questlog( CHAR_DATA *ch, char* argument )
 {
-    char komenda[ MAX_STRING_LENGTH ];
+   return; // Wy³±czam, bo jeszcze nie jest dokoñczone
+   char komenda[ MAX_STRING_LENGTH ];
 
-    argument = one_argument( argument, komenda );
+   argument = one_argument( argument, komenda );
 
-    //mobom dziêkujemy
-    if( IS_NPC(ch))
-        return;
+   //mobom dziêkujemy
+   if( IS_NPC(ch))
+      return;
 
-    if( ch->position == POS_SLEEPING ) // dobranoc!
-    {
-        send_to_char( "¦nisz o epickich zadaniach.\n\r", ch );
-        return;
-    }
+   if( ch->position == POS_SLEEPING ) // dobranoc!
+      {
+	 send_to_char( "¦nisz o epickich zadaniach.\n\r", ch );
+	 return;
+      }
 
-    if( ! ch->pcdata->ql_data )
-    {
-        send_to_char( "Nie masz w dzienniku zadañ ¿adnych wpisów.\n\r", ch);
-        return;
-    }
+   if( ! ch->pcdata->ql_data )
+      {
+	 send_to_char( "Nie masz w dzienniku zadañ ¿adnych wpisów.\n\r", ch);
+	 return;
+      }
 
-    if ( komenda[ 0 ] == '\0' || !str_prefix( komenda, "current" ) )
-    {
-        if ( ! show_questlogs_to_char( ch, QL_STATE_CURRENT ) )
-            send_to_char( "Nie masz w dzienniku zadañ ¿adnych wpisów na temat aktualnie wykonywanych zadañ.\n\r", ch );
-    }
-    else if ( !str_prefix( komenda, "finished" ) )
-    {
-        if ( ! show_questlogs_to_char( ch, QL_STATE_FINISHED ) )
-            send_to_char( "Nie masz w dzienniku zadañ ¿adnych wpisów na temat zakoñczonych zadañ.\n\r", ch );
-    }
-    else if ( !str_prefix( komenda, "all" ) )
-    {
-        if ( !( show_questlogs_to_char( ch, QL_STATE_CURRENT ) +
-                    show_questlogs_to_char( ch, QL_STATE_FINISHED ) ) )
-        {
-            bug("do_questlog: ch->pcdata->ql_data nie jest NULL, ale mimo to nie wy¶wietlili¶my ¿adnego wpisu. Czy¿by kto¶ zapomnia³ dodaæ obs³ugi nowego stanu questloga?",0);
-        }
-    }
-    else
-    {
-        send_to_char("Które wpisy z dziennika zadañ chcesz obejrzeæ?\n\r", ch );
-    }
+   if ( komenda[ 0 ] == '\0' || !str_prefix( komenda, "current" ) )
+      {
+	 if ( ! show_questlogs_to_char( ch, QL_STATE_CURRENT ) )
+	    send_to_char( "Nie masz w dzienniku zadañ ¿adnych wpisów na temat aktualnie wykonywanych zadañ.\n\r", ch );
+      }
+   else if ( !str_prefix( komenda, "finished" ) )
+      {
+	 if ( ! show_questlogs_to_char( ch, QL_STATE_FINISHED ) )
+	    send_to_char( "Nie masz w dzienniku zadañ ¿adnych wpisów na temat zakoñczonych zadañ.\n\r", ch );
+      }
+   else if ( !str_prefix( komenda, "all" ) )
+      {
+	 if ( !( show_questlogs_to_char( ch, QL_STATE_CURRENT ) +
+	         show_questlogs_to_char( ch, QL_STATE_FINISHED ) ) )
+	    {
+	       bug("do_questlog: ch->pcdata->ql_data nie jest NULL, ale mimo to nie wy¶wietlili¶my ¿adnego wpisu. Czy¿by kto¶ zapomnia³ dodaæ obs³ugi nowego stanu questloga?",0);
+	    }
+      }
+   else
+      {
+	 send_to_char("Które wpisy z dziennika zadañ chcesz obejrzeæ?\n\r", ch );
+      }
 
 }
 

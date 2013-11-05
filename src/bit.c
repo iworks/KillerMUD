@@ -15,9 +15,8 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com           ) [Razor   ] *
  * Koper Tadeusz         (jediloop@go2.pl                 ) [Garloop ] *
  * Pietrzak Marcin       (marcin@iworks.pl                ) [Gurthg  ] *
@@ -27,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: bit.c 12144 2013-03-16 15:32:15Z raszer $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/bit.c $
+ * $Id: bit.c 12183 2013-03-25 11:58:55Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/bit.c $
  *
  */
 #if defined(macintosh)
@@ -144,7 +143,7 @@ BITVECT_DATA AFF_FORCE_FIELD					= {3,	 A};
 BITVECT_DATA AFF_CONFUSION_SHELL				= {3,	 B};
 BITVECT_DATA AFF_FLOAT							= {3,	 C};
 BITVECT_DATA AFF_RESIST_WEAPON					= {3,	 D};
-//free {3,E};
+BITVECT_DATA AFF_ABSOLUTE_MAGIC_PROTECTION		= {3,	 E};
 BITVECT_DATA AFF_MAJOR_GLOBE					= {3,	 F};
 BITVECT_DATA AFF_LOYALTY						= {3,	 G};
 BITVECT_DATA AFF_MAZE							= {3,	 H};
@@ -175,12 +174,7 @@ BITVECT_DATA AFF_SPIRITUAL_GUIDANCE			= {3, ee};
 #endif
 BITVECT_DATA AFF_SENSE_FATIGUE					= {4, B};
 BITVECT_DATA AFF_MAGIC_HASTE					= {4, C};
-BITVECT_DATA AFF_SCRYING_SHIELD					= {4, D};
-BITVECT_DATA AFF_FARSIGHT					= {4, E};
 BITVECT_DATA AFF_SNEAK_INVIS					= {4, F};
-BITVECT_DATA AFF_SEAL_OF_ATROCITY				= {4, G};
-BITVECT_DATA AFF_SEAL_OF_DESPAIR				= {4, H};
-BITVECT_DATA AFF_INVOKE 					= {4, I};
 /*prosibym przy dodawaniu dowych affectow spelli power-upujacych
 dodac je do check_si_dispel w pliku si_spells*/
 
@@ -329,7 +323,7 @@ BITVECT_DATA ITEM_NOUNCURSE        = { 0,  Y };
 BITVECT_DATA ITEM_UNDEAD_INVIS     = { 0,  Z };
 BITVECT_DATA ITEM_NOMAGIC          = { 0, aa };
 BITVECT_DATA ITEM_ANIMAL_INVIS     = { 0, bb };
-BITVECT_DATA ITEM_RAREITEM         = { 0, cc };
+// FREE                            = { 0, cc };
 BITVECT_DATA ITEM_NO_RENT          = { 0, dd };
 BITVECT_DATA ITEM_HIGH_RENT        = { 0, ee };
 BITVECT_DATA ITEM_COVER            = { 1,  A };
@@ -339,7 +333,6 @@ BITVECT_DATA ITEM_DOUBLE_GRIP      = { 1,  D };
 BITVECT_DATA ITEM_SACRED           = { 1,  E };
 // FREE                            = { 1,  F };
 BITVECT_DATA ITEM_NOREPAIR         = { 1,  G };
-BITVECT_DATA ITEM_COMPONENTONLY    = { 1,  H };
 
 /* wear_flags2 (exweary)*/
 BITVECT_DATA ITEM_NOMAG							= {0,	 A};
@@ -487,7 +480,6 @@ BITVECT_DATA ROOM_NO_WEATHER					= {0,	 ee};
 BITVECT_DATA ROOM_WATCH_TOWER					= {1,	 A};
 BITVECT_DATA ROOM_MEMSHA						= {1,	 B};
 BITVECT_DATA ROOM_HOARD					    = {1,	 C};
-BITVECT_DATA ROOM_INVOKE						= {1,	 D};
 
 struct flag_stat_type
 {

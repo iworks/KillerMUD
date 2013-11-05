@@ -163,7 +163,7 @@ MobprogNew onload lich_onload ABCDEFGHI 100~
 Spells 196 96 16 90
 Spells 17 2 71 228
 Spells 163 149 296 218
-Corpse 3369
+Corpse 33013
 Skin 100
 ExpMultiplier 100
 Resist 4 10
@@ -217,7 +217,7 @@ MobprogNew onload a_lich_onload ABCDEFGHI 100~
 Spells 228 201 185 16
 Spells 199 194 203 149
 Spells 296 94 91 0
-Corpse 3369
+Corpse 33013
 Skin 100
 ExpMultiplier 100
 Resist 4 15
@@ -312,7 +312,7 @@ Parts ABCDEFGHIJK
 Size medium
 Material unknown
 MobprogNew onload ancient_warrior ABCDEFGHI 100~
-Corpse 3369
+Corpse 33007
 Skin 100
 ExpMultiplier 100
 Resist 4 75
@@ -415,7 +415,7 @@ Size medium
 Material unknown
 MobprogNew onload kryptowiec_onl ABCDEFGHI 100~
 Spells 194 195 69 0
-Corpse 3369
+Corpse 33007
 Skin 100
 ExpMultiplier 100
 Resist 8 100
@@ -651,6 +651,7 @@ Form MQV
 Parts ABCDGHIJM
 Size large
 Material unknown
+MobprogNew death skorupiak_death ABCDEFGHI 100~
 Skin 100
 ExpMultiplier 100
 Resist 9 25
@@ -967,17 +968,17 @@ ExtraExt 0|CDEGJ
 Wear AC
 Wear2Ext 0|BKL
 Bonus 0
+Rent 100
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 90000
 Cond 100
-Aff 1 5 -6 0 0 0
-Aff 1 3 18 0 0 0
+Aff 1 5 -1 0 0 0
 Aff 1 24 -3 0 0 0
+Aff 1 3 1 0 0 0
 Extradesc _onyx~
 Na szyi $z zauwa¿asz jaki¶ niewielki talizman, czy amulet. Masz
 nieodpart± chêc przyjrzeæ mu siê bli¿ej, lub ju¿ nigdy nie odrywaæ od niego
@@ -1004,8 +1005,7 @@ szczê¶cie nosz±cej go osoby, a tak¿e zwiêksza znacznie jej odporno¶æ na
 czary. Specyficzn± cech± amuletu jest to, ¿e ulega on dezintegracji w
 momencie ¶mierci w³a¶ciciela. 
 ~
-Comments aktualizacja statow - {RGorst{x ({CWed May  8 04:36:07 2013{x)
-~
+Comments ~
 Objend
 #Vnum 33001
 Name laska s³oñca~
@@ -1018,11 +1018,11 @@ ExtraExt 0|DGIKL
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 9 4 2 7 32 5 2
 Repair 0 0 0 0
-Length 150
 Weight 45
 Cost 48000
 Cond 100
@@ -1042,11 +1042,11 @@ ExtraExt 0|GJ
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 70
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 7000
 Cond 100
@@ -1056,6 +1056,156 @@ wibruje, na pewno nie jest to zwyk³a bransoleta, ciekawe tylko jaki magiczny
 afekt posiada. Bransoleta ta jest wykona z ludzkich ko¶ci i na pewno dobra
 osoba jej nie za³o¿y. Ciekawe co za okrutna istota mog³a wykonaæ ten
 przedmiot. 
+~
+Comments ~
+Objend
+#Vnum 33003
+Name krwistoczerwony miecz krótki~
+Odmiana {rkrwistoczerwonego krótkiego miecza{x~{rkrwistoczerwonemu krwistemu mieczowi{x~{rkrwistoczerwony krótki miecz{x~{rkrwistoczerwonym krótkim mieczem{x~{rkrwistoczerwonym krótkim mieczu{x~
+Short {rkrwistoczerwony krótki miecz{x~
+Descr Krótki miecz, o gro¼nie wygl±daj±cym {rkrwistoczerwonym{x ostrzu.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|CEGJL
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 75
+LiczbaMnoga 0
+Gender 2
+Value 11 3 3 1 16384 1 1
+Repair 0 0 0 0
+Weight 120
+Cost 21000
+Cond 100
+Itemdesc Widzisz przed sob± miecz o krótkim ostrzu. Nie oznacza to, ¿e jest to
+kiepska broñ. Wrêcz przeciwnie. Ostra jak brzytwa klinga ma kszta³t
+zwê¿onego u podstawy, lekko rozszerzaj±cego siê i ostro koñcz±cego li¶cia.
+Takim orê¿em wprawny szermierz mo¿e zadaæ ¶miertelne obra¿enia
+przeciwnikowi. Szczególnie je¶li walka odbywa siê w ograniczonej przestrzeni
+i ¶cisku. Ostrze o niespotykanej, krwistoczerwonej barwie wykonane jest z
+lekko chropowatego kamienia po³yskuj±cego nieznacznie. Rêkoje¶æ orê¿a
+wykonana z tego samego materia³u. Pokryta jest dodatkowo skórzanymi
+elementami, aby miecz nie ¶lizga³ siê w walce. Na samym jej koñcu osadzona
+jest stalowa, matowa kula poorana dziwnymi schematami. Linie wyryte na niej
+przecinaj± siê w wielu miejscach tworz±c skomplikowany uk³ad wieloboków. 
+~
+Identdesc Tej magicznej broni mog± u¿ywaæ tylko z³e istoty.
+~
+Comments ~
+Objend
+#Vnum 33004
+Name zbroja antyczna~
+Odmiana antycznej zbroi~antycznej zbroi~antyczna zbrojê~antyczn± zbroj±~antycznej zbroi~
+Short antyczna zbroja~
+Descr Le¿y tutaj do¶æ nietypowo wygl±daj±ca zbroja.~
+Material br±z~
+Type armor
+ExtraExt 0|J
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 3
+Value 3 3 3 10 12 0 0
+Repair 0 0 0 0
+Weight 160
+Cost 18000
+Cond 100
+Aff 1 24 -1 0 0 0
+Itemdesc Zbroja wygl±da naprawdê staro i to bynajmniej nie dlatego, ¿e jest
+uszkodzona. Po prostu styl wykoñczenia i ca³y kszta³t pancerza wskazuje, ¿e
+przedmiot ten wykonano naprawdê dawno temu. 
+~
+Identdesc Tej zbroi nie mog± u¿ywaæ osoby o dobrym charakterze.
+~
+Comments ~
+Objend
+#Vnum 33005
+Name gizarma ciê¿ka~
+Odmiana gizarmy~gizarmie~gizarmê~gizarm±~gizarmie~
+Short ciê¿ka gizarma~
+Descr Ciê¿ka, dwurêczna gizarma le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 3
+Value 8 3 5 34 32 1 1
+Repair 0 0 0 0
+Weight 220
+Cost 24000
+Cond 100
+Itemdesc Z zainteresowaniem ogl±dasz tê nietypow± i oryginaln± broñ. W
+najogólniejszym zarysie przypomina ona halabardê - na d³ugim drzewcu
+osadzony jest metalowy prêt. Ró¿nica polega na tym, ¿e o ile w przypadku
+halabardy na koñcu ¿ele¼ca znajduje siê co¶, co mo¿na przyrównaæ do ostrza
+topora, o tyle tutaj masz do czynienia z jednym du¿ym i kilkoma mniejszymi
+zakrzywionymi hakami. Ca³o¶æ wygl±da naprawdê gro¼nie, ³atwo sobie
+wyobraziæ, ¿e wprawna osoba mo¿e za pomoc± gizarmy dos³ownie wyj±æ
+wnêtrzno¶ci przeciwnika na wierzch jednym zgrabnym ciosem. 
+~
+Comments Sciolem troche, bo byly lepsze od wiekszosci artefaktow - {RDrake{x ({CSat Jun 25 08:23:18 2005{x)
+~
+Objend
+#Vnum 33006
+Name gizarma ciê¿ka~
+Odmiana gizarmy~gizarmie~gizarmê~gizarm±~gizarmie~
+Short ciê¿ka gizarma~
+Descr Ciê¿ka, dwurêczna gizarma le¿y tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 65
+LiczbaMnoga 0
+Gender 3
+Value 8 3 5 34 32 1 2
+Repair 0 0 0 0
+Weight 220
+Cost 24000
+Cond 100
+Itemdesc Z zainteresowaniem ogl±dasz tê nietypow± i oryginaln± broñ. W
+najogólniejszym zarysie przypomina ona halabardê - na d³ugim drzewcu
+osadzony jest metalowy prêt. Ró¿nica polega na tym, ¿e o ile w przypadku
+halabardy na koñcu ¿ele¼ca znajduje siê co¶, co mo¿na przyrównaæ do ostrza
+topora, o tyle tutaj masz do czynienia z jednym du¿ym i kilkoma mniejszymi
+zakrzywionymi hakami. Ca³o¶æ wygl±da naprawdê gro¼nie, ³atwo sobie
+wyobraziæ, ¿e wprawna osoba mo¿e za pomoc± gizarmy dos³ownie wyj±æ
+wnêtrzno¶ci przeciwnika na wierzch jednym zgrabnym ciosem. 
+~
+Comments Sciolem bo jak na bron latwo-dostepna ( Byle czarny rycerz 20+ zdobendzie ) ma sile porownywalna z rarami czy artami. Ba, nawet lepsze jest. - {RDrake{x ({CSun Jun 19 22:01:12 2005{x)
+~
+Objend
+#Vnum 33007
+Name kupa ko¶ci~
+Odmiana kupy ko¶ci~kupie ko¶ci~kupê ko¶ci~kup± ko¶ci~kupie ko¶ci~
+Short kupa ko¶ci~
+Descr Kilkana¶cie rozsypanych ko¶ci le¿y tutaj.~
+Material ko¶æ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 500
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 450
+Cost 0
+Cond 20
+Itemdesc Widzisz spor± kupkê rozsypanych ko¶ci, wiekszo¶æ jest po³amana i
+pokruszona, prawdopodobnie to pozosta³o¶ci po jakim¶ szkielecie, bo ko¶ci
+nie wygl±daj± na przywleczone tutaj przez jakie¶ zwierzê. 
 ~
 Comments ~
 Objend
@@ -1070,11 +1220,11 @@ ExtraExt 0|CEGMZ
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 0
 Cond 10
@@ -1098,18 +1248,18 @@ ExtraExt 0|AGK
 Wear AB
 Wear2Ext 0|DKM
 Bonus 0
+Rent 35
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 11100
 Cond 100
 Aff 1 13 -8 0 0 0
 Aff 1 12 5 -5 0 0
 Aff 1 27 1 1 0 0
-Aff 1 30 8 0 0 0
+Aff 1 30 1 0 0 0
 Itemdesc Pier¶cieñ ten jest niezwyk³y z dwóch powodów: po pierwsze jego ozdobê
 stanowi nietypowo wygl±daj±cy chrz±szcz, po drugie ca³y pier¶cieñ wykonano z
 jednego kawa³ka szk³a. Dlatego lepiej obchodziæ siê z nim ostro¿nie. 
@@ -1132,11 +1282,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 10000 0 0 1000 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 30000
 Cost 60
 Cond 10
@@ -1157,11 +1307,11 @@ ExtraExt 0|DF
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 3
 Value 10000 271 33023 10000 100 37 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 100
@@ -1171,6 +1321,91 @@ Ciekawe co znajduje siê w ¶rodku?
 ~
 Comments ~
 Trap 33000
+Objend
+#Vnum 33012
+Name szata czarna sfatygowana~
+Odmiana sfatygowanej czarnej szaty~sfatygowanej czarnej szacie~sfatygowan± czarn± szatê~sfatygowan± czarn± szat±~sfatygowanej czarnej szacie~
+Short {Dsfatygowana czarna szata{x~
+Descr Nieco sfatygowana szata z czarnego materia³u poniewiera siê na ziemi.~
+Material jedwab~
+Type clothing
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 12
+Cost 75
+Cond 80
+Aff 1 12 4 1 0 0
+Aff 1 24 -1 0 0 0
+Extradesc _opiswygladu~
+$n ma na sobie prost± i nieco podniszczon± szatê z czarnego materia³u.
+Jej szerokie rêkawy nie krêpuj± ruchów, tak w walce, jak i podczas rzucania
+zaklêæ. Dooko³a szyi widzisz wyszyte jakie¶ dziwne napisy i runy,
+prawdopodobnie ich zadaniem jest ochrona w³a¶ciciela szaty przed wrog±
+magi±. 
+~
+Itemdesc Szata ta ma szerokie rêkawy, jak równie¿ dziwne runy, które kto¶
+pracowicie wyhaftowa³ dooko³a szyi i w dolnej czê¶ci tego ubioru. 
+~
+Identdesc Ta magiczna szata zwiêksza odporno¶æ w³a¶ciciela na wrogie czary bojowe,
+a tak¿e na magiê. 
+~
+Comments ~
+Objend
+#Vnum 33013
+Name kupa ko¶ci~
+Odmiana kupy ko¶ci~kupie ko¶ci~kupê ko¶ci~kup± ko¶ci~kupie ko¶ci~
+Short kupa ko¶ci~
+Descr Na ziemi le¿y trochê porozrzucanych ko¶ci i szmat.~
+Material ko¶æ~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 500
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 450
+Cost 0
+Cond 20
+Itemdesc Widzisz spor± kupkê rozsypanych ko¶ci, wiekszo¶æ jest po³amana i
+pokruszona, prawdopodobnie to pozosta³o¶ci po jakim¶ szkielecie, bo ko¶ci
+nie wygl±daj± na przywleczone tutaj przez jakie¶ zwierzê. 
+~
+Comments ~
+Objend
+#Vnum 33014
+Name szmata szata podarta dziurawa~
+Odmiana podartej szaty~podartej szacie~podart± szatê~podartej szacie~podartej szacie~
+Short podarta szata~
+Descr Dziurawa i podarta szmata le¿y na ziemi.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 0
+Cond 100
+Itemdesc Trudno dociec, jakim cudem ta szata trzyma siê jeszcze w jednym kawa³ku,
+tak jest poszarpana, podziurawiona i zniszczona. 
+~
+Comments ~
 Objend
 #Vnum 33015
 Name cialo wojownika goblinskiego~
@@ -1183,11 +1418,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 750
 Cost 0
 Cond 10
@@ -1210,15 +1445,15 @@ ExtraExt 0|AGS
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 500
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 450000
 Cond 100
-Aff 1 29 12 0 0 0
+Aff 1 29 2 0 0 0
 Aff 1 14 5 0 0 0
 Aff 1 27 4 1 0 0
 Aff 1 27 5 1 0 0
@@ -1236,8 +1471,7 @@ Identdesc Korona jest magicznym przedmiotem, który podnosi charyzmê swego
 w³a¶ciciela, a ponadto pozwala zapmiêtaæ o jedno zaklêcie z 5 krêgu wiêcej.
 Przedmiot ten ¶wieci w³asnym, magicznym ¶wiat³em. 
 ~
-Comments aktualizacja charyzmy - nowe staty - {RGorst{x ({CWed May  8 04:34:54 2013{x)
-~
+Comments ~
 Objend
 #Vnum 33017
 Name fiolka ¶wiec±ca fosforyzuj±ca szklana~
@@ -1250,11 +1484,11 @@ ExtraExt 0|AU
 Wear AR
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 2
 Value 1 0 5 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 55
 Cond 100
@@ -1270,6 +1504,44 @@ Identdesc Fiolka ta mo¿e wytwarzaæ ¶wiat³o tak¿e pod wod±.
 ~
 Comments ~
 Objend
+#Vnum 33018
+Name obraczka kosciana~
+Odmiana obr±czki~obr±czce~obr±czkê~obr±czk±~obr±czce~
+Short ko¶ciana obr±czka~
+Descr Ko¶ciana obr±czka le¿y tu zgubiona przez kogo¶.~
+Material ko¶æ~
+Type jewelry
+ExtraExt 0|CEGJL
+Wear AB
+Wear2Ext 0|A
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 30000
+Cond 100
+Aff 1 12 17 10 0 0
+Aff 0 13 0 0 0 E
+Aff 1 13 -5 0 0 0
+Itemdesc Obr±czka nie posiada ¿adnych ozdób, z wyj±tkiem lekkiego rze¼bienia w
+kszta³cie zygzaków, których linie przecinaj± siê tworz±c symetryczne romby.
+Zmursza³a ko¶æ pochodzi zapewne ze szkieletu jakiego¶ legendarnego,
+potê¿nego zwierza. Ma co najmniej kilkaset lat i jest o wiele wytrzymalsza
+ni¿ inne ko¶ci. Patrz±c na ni± zastanawiasz siê z jakiej czê¶ci cia³a
+zosta³a wyciêta i ukszta³towana w okr±g. Po d³u¿szej chwili stwierdzasz, ¿e
+nie sposób to ustaliæ. Jednak to nie ma znaczenia. Prymitywny klejnot bardzo
+ci siê spodoba³. 
+~
+Identdesc Ten magiczny przedmiot mo¿e byæ u¿ywany tylko przez z³ych i nie mog±
+u¿ywaæ go magowie. Zwiêksza ona odporno¶æ na ataki energii pozytywnej,
+umo¿liwia wykrywanie magii, ale za to zmniejsza nieco si³y witalne swego
+w³a¶ciciela. 
+~
+Comments ~
+Objend
 #Vnum 33019
 Name onyksowy amulet prastary~
 Odmiana amuletu~amuletowi~amulet~amuletem~amulecie~
@@ -1281,11 +1553,11 @@ ExtraExt 0|CDEGMZ
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 200
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 100
@@ -1310,6 +1582,91 @@ inteligencjê nosz±cej go osoby, a tak¿e zwiêksza jej podatno¶æ na czary.
 ~
 Comments ~
 Objend
+#Vnum 33020
+Name ksiega nekromancji~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga najwy¿szej nekromancji~
+Descr Le¿y tutaj ksiêga, opatrzona znakiem Gildii Nekromantów.~
+Material papier~
+Type spellbook
+ExtraExt 0|CEGPT
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 333
+LiczbaMnoga 0
+Gender 0
+Value 0 10 155 279 281 414 0
+Repair 0 0 0 0
+Weight 60
+Cost 60000
+Cond 100
+Itemdesc Niezbyt du¿a, ale jakby nienaturalnie ciê¿ka ksiêga w czarnej ok³adce. Na
+przedzie widzisz wyra¼nie z³owrogi znak Gildii Nekromantów: na czarnym owalu
+umieszczono dwie srebrne, równoleg³e b³yskawice. 
+~
+Identdesc Ksiêga ta zawiera w sobie zaklêcia, które opanowaæ mog± tylko nekromanci.
+Przedmiot ten ulega zniszczeniu wraz ze ¶mierci± swego w³a¶ciciela. 
+~
+Comments ~
+Objend
+#Vnum 33021
+Name ksiega magiczna zakurzona~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short magiczna ksiêga~
+Descr Le¿y tutaj zakurzona, magiczna ksiêga.~
+Material papier~
+Type spellbook
+ExtraExt 0|GPT
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 333
+LiczbaMnoga 0
+Gender 0
+Value 0 10 13 200 393 474 402
+Repair 0 0 0 0
+Weight 30
+Cost 60000
+Cond 100
+Itemdesc Zakurzona ksiega, w dosc solidnej oprawie, z grubymi, wyblaklymi kartkami.
+~
+Identdesc Ta magiczna ksiêga znika wraz ze ¶mierci± swego w³a¶ciciela.
+~
+Comments ~
+Objend
+#Vnum 33022
+Name miecz antyczny dwurêczny~
+Odmiana antycznego dwurêcznego miecza~antycznemu dwurêcznemu mieczowi~antyczny dwurêczny miecz~antycznym dwurêcznym mieczem~antycznym dwurêcznym mieczu~
+Short antyczny dwurêczny miecz~
+Descr Dwurêczny miecz o imponuj±cych rozmiarach le¿y tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|GJ
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 200
+LiczbaMnoga 0
+Gender 0
+Value 1 3 6 1 32 2 2
+Repair 0 0 0 0
+Weight 180
+Cost 90000
+Cond 100
+Extradesc _opiswygladu~
+$n dzier¿y w d³oniach wielki dwurêczny miecz. Widok ten przypomina ci
+freski i p³askorze¼by, przedstawiaj±ce dawnych bohaterów, jakie mo¿na
+zobaczyæ w niektórych ¶wi±tyniach. 
+~
+Itemdesc Jest to straszliwie ciê¿ki i d³ugi miecz dwurêczny. Pos³ugiwanie siê nim
+wymaga ogromnej si³y, ale pozwala dziêki temu zadaæ przeciwnikowi wielkie
+obra¿enia. 
+~
+Identdesc T± magiczn± broni± nie mog± siê pos³ugiwaæ istoty o dobrym charakterze.
+~
+Comments ~
+Objend
 #Vnum 33023
 Name klucz diamentowy~
 Odmiana klucza~kluczowi~klucz~kluczem~kluczu~
@@ -1321,14 +1678,119 @@ ExtraExt 0|Ad
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 1
 Cond 100
+Comments ~
+Objend
+#Vnum 33024
+Name ksiega kaplanska szara ksiazka~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short kap³añska ksiêga~
+Descr Le¿y tutaj ksiêga w prostej szarej ok³adce.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 241
+LiczbaMnoga 0
+Gender 3
+Value 1 8 289 227 86 144 291
+Repair 0 0 0 0
+Weight 40
+Cost 43320
+Cond 100
+Itemdesc Nic szczególnego nie widzisz w tej ksiêdze. Jej prosta, szara ok³adka
+jest wrêcz podejrzanie pospolita. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 33025
+Name miecz antyczny dwurêczny~
+Odmiana antycznego dwurêcznego miecza~antycznemu dwurêcznemu mieczowi~antyczny dwurêczny miecz~antycznym dwurêcznym mieczem~antycznym dwurêcznym mieczu~
+Short antyczny dwurêczny miecz~
+Descr Dwurêczny miecz o imponuj±cych rozmiarach le¿y tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|GJ
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 200
+LiczbaMnoga 0
+Gender 0
+Value 1 3 6 1 32 1 1
+Repair 0 0 0 0
+Weight 180
+Cost 90000
+Cond 100
+Itemdesc Jest to straszliwie ciê¿ki i d³ugi miecz dwurêczny. Pos³ugiwanie siê nim
+wymaga ogromnej si³y, ale pozwala dziêki temu zadaæ przeciwnikowi wielkie
+obra¿enia. 
+~
+Identdesc T± magiczn± broni± nie mog± siê pos³ugiwaæ istoty o dobrym charakterze.
+~
+Comments ~
+Objend
+#Vnum 33026
+Name miecz antyczny dwurêczny~
+Odmiana antycznego dwurêcznego miecza~antycznemu dwurêcznemu mieczowi~antyczny dwurêczny miecz~antycznym dwurêcznym mieczem~antycznym dwurêcznym mieczu~
+Short antyczny dwurêczny miecz~
+Descr Dwurêczny miecz o imponuj±cych rozmiarach le¿y tutaj.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|GJS
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 200
+LiczbaMnoga 0
+Gender 0
+Value 1 3 6 1 32 3 3
+Repair 0 0 0 0
+Weight 180
+Cost 90000
+Cond 100
+Itemdesc Jest to straszliwie ciê¿ki i d³ugi miecz dwurêczny. Pos³ugiwanie siê nim
+wymaga ogromnej si³y, ale pozwala dziêki temu zadaæ przeciwnikowi wielkie
+obra¿enia. 
+~
+Identdesc T± magiczn± broni± nie mog± siê pos³ugiwaæ istoty o dobrym charakterze.
+~
+Comments ~
+Objend
+#Vnum 33027
+Name ksiega magii wysokiej spellbook~
+Odmiana ksiêgi magii wysokiej~ksiêdze magii wysokiej~ksiêgê magii wysokiej~ksiêg± magii wysokiej~ksiêdze magii wysokiej~
+Short ksiêga magii wysokiej~
+Descr Pamiêtaj±ca najstarsze ery ksiêga magii wysokiej le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GPT
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 10 474 184 365 364 0
+Repair 0 0 0 0
+Weight 60
+Cost 270000
+Cond 75
+Itemdesc Stara, po¿ó³k³a ksiêga, która z pewno¶ci± pamiêta jeszcze czasy ery
+¦miertelników. Na jej starych kartach spisane jest jedno z potê¿ych zaklêæ. 
+~
+Identdesc Ksiêga ta znika po ¶mierci swojego w³a¶ciciela.
+~
 Comments ~
 Objend
 #Vnum 33068
@@ -1342,11 +1804,11 @@ ExtraExt 0|CDEGH
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
-Gender 3
+Gender 0
 Value 9 3 6 7 0 2 2
 Repair 0 0 0 0
-Length 130
 Weight 55
 Cost 60
 Cond 100
@@ -1374,11 +1836,11 @@ ExtraExt 0|CDG
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 6611 9394 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -1390,6 +1852,96 @@ ca³kowicie niematerialny wlot do jednego z magicznych korytarzy, otwartego i
 ustabilizowanego przez jakiego¶ nieznanego ci z imienia maga. 
 ~
 Comments ~
+Objend
+#Vnum 33070
+Name pancerz chitynowy~
+Odmiana pancerza~pancerzowi~pancerz~pancerzem~pancerzu~
+Short chitynowy pancerz~
+Descr Le¿y tutaj sporych rozmiarów chitynowy pancerz jakiego¶ skorupiaka.~
+Material chityna~
+Type armor
+ExtraExt 0|S
+Wear AD
+Wear2Ext 0|b
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 4 5 3 10 14 0 0
+Repair 0 0 0 0
+Weight 270
+Cost 25500
+Cond 60
+Aff 1 26 173 3 0 0
+Itemdesc Pancerz ten stanowi³ kiedy¶ ochronê jakiego¶ wielkiego skorupiaka, byæ
+mo¿e przero¶niêtego homara czy krewetki. Kiedy dok³adniej mu siê
+przygl±dasz, nie mo¿esz wyj¶æ z podziwu, bowiem pancerz ten jest lekki,
+mocny, a w dodatku sk³ada siê z ruchomych segmentów, dziêki czemu nie
+krêpuje ruchów. Je¶li siê postarasz byæ mo¿e wci¶niesz siê w niego. 
+~
+Identdesc Z racji swojego masywnego umiê¶nienia tej zbroi nie mog± u¿ywaæ pó³orki.
+Ze wzglêdu na swoj± lekko¶æ, chitynowi pancerz nie krêpuje ruchów i u³atwia
+wykonywanie gro¼nej szar¿y w czasie walki. 
+~
+Comments chitynowa kolczuga, bez jaj, skoro taki opis, to musi byc plytowka - {RGurthg{x ({CSun May 18 14:57:21 2008{x)
+~
+Objend
+#Vnum 33071
+Name pancerz chitynowy potrzaskany~
+Odmiana pancerza~pancerzowi~pancerz~pancerzem~pancerzu~
+Short potrzaskany chitynowy pancerz~
+Descr Le¿y tutaj sporych rozmiarów chitynowy pancerz jakiego¶ skorupiaka.~
+Material chityna~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|b
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 600
+Cond 15
+Itemdesc Pancerz ten stanowi³ kiedy¶ ochronê jakiego¶ wielkiego skorupiaka, byæ
+mo¿e przero¶niêtego homara czy krewetki. Niestety jest ca³y potrzaskany i
+popêkany, a przez to niezbyt u¿yteczny. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 33072
+Name topór~
+Odmiana topora o s³onecznym ostrzu~toporowi o s³onecznym ostrzu~topór o s³onecznym ostrzu~toporem o s³onecznym ostrzu~toporze o s³onecznym ostrzu~
+Short topór o s³onecznym ostrzu~
+Descr Kunsztowny toporek, o ostrzu w kszta³cie s³oñca.~
+Material elfia stal~
+Type weapon
+ExtraExt 0|GK
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 5 2 6 1 0 2 2
+Repair 0 0 0 0
+Weight 120
+Cost 21000
+Cond 100
+Itemdesc Kunsztowny topór o ostrzu w kszta³cie po³owy s³oñca jest na pewno broni±
+mocno egzotyczn±. Wykuty najprawdopodobniej dawno temu by³ niew±tpliwie
+cenion± broni±. 
+~
+Identdesc Ta broñ jest silnie umagiczniona, oprócz tego zadaje tak¿e dodatkowo
+obra¿enia nieumar³ym. Ironiczne, z powodu tego, ¿e kiedy¶ by³a w posiadaniu
+potê¿nej mumii. 
+~
+Comments ~
+SpecDamExt 8 50 -100 -100 -100 0|O 1 0
+SpecDamExt 8 100 -100 -100 -100 0|O 1 0
 Objend
 #Vnum 0
 
@@ -2396,7 +2948,7 @@ szarego kamienia, pokrytego tysi±cletnim kurzem i py³em. Dodatkowo
 nieprzyjemne uczucie powiêksza panuj±ca tutaj niska temperatura i
 stêchlizna, typowa dla piwnic czy podziemi. 
 ~
-FlagsExt 0|CN
+FlagsExt 0|N
 Sector 14
 ExitExt 1
 ExitExtDescription ~
@@ -5526,7 +6078,7 @@ M 100 33008 4 33009 4
 M 100 33008 4 33009 4
 M 100 33008 4 33009 4
 O 100 33015 0 33017
-P 100 3179 1 33015 1
+P 100 15954 1 33015 1
 M 100 33003 2 33018 2
 M 100 33006 4 33019 4
 M 100 33006 4 33027 4
@@ -5555,10 +6107,13 @@ M 100 33004 3 33085 3
 M 100 33006 4 33085 4
 M 100 33004 3 33088 3
 O 100 33011 0 33088
+P 7 33027 1 33011 1
+P 7 33020 1 33011 1
 M 100 33012 3 33092 3
 M 100 33012 3 33094 3
 M 75 33016 1 33098 1
-E 15 3172 0 16
+E 15 33072 0 16
+G 25 33024 0
 O 100 33010 0 33098
 M 100 33012 3 33099 3
 M 100 33010 1 33100 1
@@ -5571,12 +6126,12 @@ S
 #a_lich_onload
 ~
 if rand 90
-  mob equip self 4377
+mob equip self 33012
 else
-  mob equip self 4378
+mob equip self 33014
 endif
-if rand 98
-mob equip self 29818
+if rand 90
+mob equip self 33018
 endif
  
 if rand 98
@@ -5595,11 +6150,11 @@ endif
 ~
 #ancient_warrior
 ~
-mob equip self 3029
+mob equip self 33004
 if rand 95
-mob equip self 3175
+mob equip self 33006
 else
-mob equip self 3175
+mob equip self 33005
 endif
  
 if rand 90
@@ -5658,8 +6213,6 @@ mob oload gem 7
 mob oload gem 7
 mob oload gem 7
 mob oload gem 6
-mob oload gem 7
-mob oload gem 7
 mob oload gem 6
 mob oload gem 6
 mob oload gem 6
@@ -5671,12 +6224,6 @@ if rand 50
   mob oload gem 7
 endif
 
-mob oload random 7
-mob oload random 7
-mob oload random 7
-mob oload random 7
-mob oload random 7
-mob oload random 7
 mob oload random 7
 mob oload random 7
 mob oload random 7
@@ -5747,10 +6294,10 @@ endif
 #kryptowiec_onl
 ~
 if rand 50
-mob equip self 4377
+mob equip self 33014
 endif
 if rand 75
-mob equip self 3179
+mob equip self 33003
 endif
 if rand 95
 mob oload gem 4
@@ -5759,9 +6306,9 @@ endif
 #lich_onload
 ~
 if rand 98
-  mob equip self 4377
+  mob equip self 33012
 else
-  mob equip self 4378
+  mob equip self 33014
 endif
 if canloadarte 33000
   if rand 95
@@ -5808,6 +6355,16 @@ wzr
 break
 endif
 ~
+#skorupiak_death
+~
+if rand 90
+mob echo Skorupiak w ostatnim podrygu próbuje zadaæ cios, ale pada z rozbit± g³ow± i jest MARTWY!
+mob oload 33070 r
+else
+mob echo Skorupiak pod wp³ywem otrzymanych obra¿eñ zapada siê w sobie i zmieniony w bezkszta³tn± masê pada MARTWY!
+mob oload 33071 r
+endif
+~
 #upiorny_onload
 ~
 if rand 90
@@ -5833,10 +6390,14 @@ if rand 98
 endif
 
 if rand 90
-and canloadarte 29063
-  mob aload 29063 w
+and canloadarte 33026
+  mob aload 33026 w
 else
-  mob equip self 3148
+  if rand 70
+    mob equip self 33022
+  else
+    mob equip self 33025
+  endif
 endif
 wear all
 wield all

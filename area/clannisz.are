@@ -104,6 +104,48 @@ Mobend
 
 
 #OBJECTS
+#Vnum 50623
+Name niszczycielski m³ot ¶mierci~
+Odmiana niszczycielskiego m³ota {R¶mierci{x~niszczycielskiemu m³otowi {R¶mierci{x~niszczycielski m³ot {R¶mierci{x~niszczycielskim m³otem {R¶mierci{x~niszczycielskim m³otcie {R¶mierci{x~
+Short niszczycielski m³ot {R¶mierci{x~
+Descr Niszczycielski m³ot {R¶mierci{x le¿y na ziemi.~
+Material mithril~
+Type weapon
+ExtraExt 0|HIMPY
+Wear ANO
+Wear2Ext 0|U
+Bonus 0
+Rent 100
+LiczbaMnoga 0
+Gender 2
+Value 4 4 4 8 0 1 1
+Repair 0 0 0 0
+Weight 40
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 50625
+Name fontanna ¶mierci~
+Odmiana {rfontanny {R¶mierci{x~{rfontannie {R¶mierci{x~{rfontannê {R¶mierci{x~{rfontann± {R¶mierci{x~{rfontannie {R¶mierci{x~
+Short {rfontanna {R¶mierci{x~
+Descr {rFontanna {R¶mierci{x stoi tutaj tryskaj±c jakim¶ sokiem.~
+Material kamieñ~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value -1 -1 25 0 0 0 0
+Repair 0 0 0 0
+Weight 19999
+Cost 60
+Cond 75
+Comments ~
+Objend
 #Vnum 50628
 Name wielki kawa³ padliny~
 Odmiana {rwielkiego kawa³u padliny{x~{rwielkiemu kawa³owi padliny{x~{rwielki kawa³ padliny{x~null~{rwielkim kawale padliny{x~
@@ -115,11 +157,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -136,11 +178,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 19999
 Cost 1
 Cond 75
@@ -157,6 +199,125 @@ bardzo piêkny pomnik.
 ~
 Comments ~
 Objend
+#Vnum 50641
+Name kamienny pas je¼dziec rzezi~
+Odmiana {Dkamiennego pasa '{RJe¼dziec Rzezi{D'{x~{Dkamiennemu pasowi '{RJe¼dziec Rzezi{D'{x~{Dkamienny pas '{RJe¼dziec Rzezi{D'{x~{Dkamiennym pasem '{RJe¼dziec Rzezi{D'{x~{Dkamiennym pasie '{RJe¼dziec Rzezi{D'{x~
+Short {Dkamienny pas '{RJe¼dziec Rzezi{D'{x~
+Descr {DKamienny pas '{RJe¼dziec Rzezi{D'{x le¿y w kurzu na ziemi.~
+Material kamieñ~
+Type clothing
+ExtraExt 0|PU
+Wear L
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 15
+Cond 75
+Aff 1 12 4 13 0 0
+Extradesc _pas~
+Widzisz, ¿e $n nosi przepiêkny {Dkamienny pas '{RJe¼dziec Rzezi{D'{x. Tylko
+nieliczni mog± go za³o¿yæ. Widaæ, ze jest to cz³onek legionu {RNiszczycieli{x.
+~
+Objprog prewear kamiennypas 100~
+Objprog input pas5 ngro¼~
+Objprog input pas4 nwitaj~
+Objprog input pas3 nduma~
+Objprog input pas2 nkrzycz~
+Itemdesc Tak, jest to przepiêkny kawa³ kamienia. Kamieñ wyrze¼biony jest na wzór
+pasa. Zaraz, zaraz... Tak to jest pas, {Dkamienny pas '{RJe¼dziec Rzezi{D'{x. Na
+zapince znajduje siê pieknie wygraderowana {rczaszka{x, przygl±daj±c siê bli¿ej
+dostrzegasz, ¿e jest ona poplamiona {rkrwi±{x. Owa krew pochodzi od wszystkich,
+którzy kiedykolwiek stanêli na drodze jakiemu¶ {RNiszczycielowi{x. Ka¿dy
+chcia³by nosiæ ten pas, lecz udaje siê to tylko nielicznym... Tym, których
+zw± {RNiszczycielami{x. 
+~
+Identdesc {D'{RJe¼dziec Rzezi{D'{x tak to on, s³ysza³e¶ niegdy¶ legendy o wielkim
+Niszczycielu {RNostratusie{x, który by³ odziany w ten piêkny {Dkamienny pas{x.
+Patrz±c na ten przedmiot zauwa¿asz, ¿e jego zapinka pulsuje mroczn± energi±.
+Za tym pasem od zawsze chodzi³a ¶mieræ, ten który go nosi musi byæ bardzo
+odwa¿ny. 
+~
+Comments ~
+Objend
+#Vnum 50642
+Name ognisty p³omieñ~
+Odmiana {Rognistego {rp³omnienia{x~{Rognistemu {rp³omnieniowi{x~{Rognisty {rp³omnieñ{x~{Rognistym {rp³omnieniem{x~{Rognistym {rp³omnieniu{x~
+Short {Rognisty {rp³omnieñ{x~
+Descr {ROgnisty {rp³omnieñ{x unosi siê nad ziemi±.~
+Material eteryczny~
+Type light
+ExtraExt 0|U
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 2
+Value 1 0 22 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 75
+Extradesc p³omieñ~
+Widzisz nad $v przepiêkny {Rognisty {rp³omieñ{x roz¶wietlaj±cy drogê. 
+~
+Objprog prewear ognisty 100~
+Itemdesc To chyba zwyk³e ¼ród³o ¶wiat³a. Ró¿ni sie tylko wygl±dem. Nie wiadomo
+sk±d siê wzi±³, ale wygl±da do¶æ gro¼nie. {ROgnisty {rp³omieñ{x jest bardzo lekki,
+a nawet praktycznie nic nie wa¿y. Jest on niezbêdnikiem w podró¿ach
+Niszczycieli. 
+~
+Comments ~
+Objend
+#Vnum 50643
+Name zakrwawiona skrzynia~
+Odmiana {rzakrwawionej {Dskrzyni{x~{rzakrwawionej {Dskrzyni{x~{rzakrwawion± {Dskrzyniê{x~{rzakrwawion± {Dskrzyni±{x~{rzakrwawionej {Dskrzyni{x~
+Short {rzakrwawiona {Dskrzynia{x~
+Descr {rZakrwawiona {Dskrzynia{x le¿y na ziemi.~
+Material mithril~
+Type container
+ExtraExt 0|HM
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 3
+Value 50 1 0 20 95 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 1200
+Cond 75
+Itemdesc {rZakrwawiona {Dskrzynia{x jest to skrzynia legionu Niszczycieli. 
+~
+Comments ~
+Objend
+#Vnum 50644
+Name krwistoczerwona manierka~
+Odmiana {rkrwistoczerwonej {Dmanierki{x~{rkrwistoczerwonej {Dmanierkce{x~{rkrwistoczerwon± {Dmanierkê{x~{rkrwistoczerwon± {Dmanierk±{x~{rkrwistoczerwonej {Dmanierce{x~
+Short {rkrwistoczewrwona {Dmanierka{x~
+Descr {rKrwistoczewrwona {Dmanierka{x le¿y tutaj b³yszcz±c magicznym blaskiem.~
+Material eteryczny~
+Type drink
+ExtraExt 0|U
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 3
+Value 30 30 25 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 2
+Cond 75
+Comments ~
+Objend
 #Vnum 50645
 Name tron wielkiego króla~
 Odmiana {Dtronu wielkiego króla{x~{Dtronowi wielkiego króla{x~{Dtron wielkiego króla{x~{Dtronem wielkiego króla{x~{Dtronie wielkiego króla{x~
@@ -168,11 +329,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 3 300 4032 120 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -710,23 +871,23 @@ S
 #RESETS
 O 100 50628 0 50622
 M 100 50623 1 50623 1
-E 100 3145 0 16
-E 100 3145 0 19
-E 100 4424 0 13
-E 100 3380 0 18
+E 100 50623 0 16
+E 100 50623 0 17
+E 100 50641 0 13
+E 100 50642 0 18
 O 100 50628 0 50623
 O 100 50628 0 50624
-O 100 2367 0 50625
+O 100 50625 0 50625
 O 100 50628 0 50628
 O 100 50628 0 50631
 O 100 50628 0 50632
 O 100 50636 0 50636
 O 100 50628 0 50637
 M 100 50641 1 50641 1
-G 100 4424 0
-G 100 3380 0
-G 100 3370 0
-G 100 2499 0
+G 100 50641 0
+G 100 50642 0
+G 100 50643 0
+G 100 50644 0
 O 100 50645 0 50642
 S
 

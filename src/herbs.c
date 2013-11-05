@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 2009-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 2009-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * ZMIENIA£E¦ CO¦? DOPISZ SIÊ!                                         *
  *                                                                     *
@@ -25,8 +25,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: herbs.c 11347 2012-05-11 14:03:20Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/herbs.c $
+ * $Id: herbs.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/herbs.c $
  *
  */
 
@@ -528,6 +528,10 @@ HERB_IN_ROOM_DATA *temp;
 					skill_roll = number_range(1, 100-herb_diff);
 					find = TRUE;
 
+					if ( FALSE ||  !str_cmp( ch->name, "Agron" ))
+						{
+      					print_char( ch, "\n\rRzut na skill:%d + trudnosc %d  >  skill = %d.\n\r",skill_roll,herb_diff,skill  );
+						}
 					if (skill_roll+herb_diff > skill ) //nie udany rzut na skill,  po prostu koles chujowy skill ma
 					{
 

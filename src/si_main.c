@@ -135,7 +135,7 @@ struct char_desc * check_enemy( CHAR_DATA *ch, struct char_desc *group_list )
         if ( vch->fighting )
             continue;
 
-        if ( !can_see( ch, vch ) || is_safe( ch, vch, TRUE ) )
+        if ( !can_see( ch, vch ) || is_safe( ch, vch ) )
             continue;
 
         for ( tmp = enemy_list; tmp; tmp = tmp->next )

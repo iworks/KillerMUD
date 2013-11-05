@@ -185,11 +185,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 100
 Cond 100
@@ -220,11 +220,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 7 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 85
@@ -241,11 +241,11 @@ ExtraExt 1|C
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -262,11 +262,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -328,11 +328,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -399,11 +399,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -7799,6 +7799,14 @@ mob oload gem 7 r
 #Vnum 0
 
 #RANDDESC
+#Vnum 9601
+DescRand #grouprand 0
+#grouprand 1
+#grouprand 2
+#grouprand 3
+#rand 50 #grouprand 4
+~
+RandDescEnd
 #Vnum 9600
 DescRand #grouprand 0
 #grouprand 1
@@ -7808,139 +7816,11 @@ DescRand #grouprand 0
 #grouprand 5
 ~
 RandDescEnd
-#Vnum 9601
-DescRand #grouprand 0
-#grouprand 1
-#grouprand 2
-#grouprand 3
-#rand 50 #grouprand 4
-~
-RandDescEnd
 #Vnum 0
 
 #DESC
-#Name start_01~
-Desc Znajdujesz siê na do¶æ rozleg³ej ³±ce, na której nie ma ¿adnych ro¶lin poza rozmaitymi odmianami traw.
-~
-Group 0
-End
-#Name start_02~
-Desc Stoisz na do¶æ równym terenie na którym nie ro¶nie nic poza ró¿nymi odmianami traw.
-~
-Group 0
-End
-#Name start_03~
-Desc Stoisz po kolana w trawie, choæ zapewne nie jest jedna trywialna trawa, tylko parê ró¿nych jej odmian.
-~
-Group 0
-End
-#Name start_04~
-Desc Dooko³a ciebie rozci±gaj± siê ³±ki porastane przez wiele ró¿nych gatunków traw.
-~
-Group 0
-End
-#Name start_05~
-Desc Gdzie nie spojrzysz, widzisz otaczaj±ce ciê ³±ki zaro¶niête wrêcz, przez trawy.
-~
-Group 0
-End
-#Name wiatr_01~
-Desc Wiej±cy wiatr delikatnie faluje ³anami traw.
-~
-Group 1
-End
-#Name wiatr_02~
-Desc Mimo ca³kowitego brak wiatru niektóre ³any faluj± w delikatnych powiewach zefirku.
-~
-Group 1
-End
-#Name wiatr_03~
-Desc Wiej±cy wiatr k³adzie d³ugie trawy prawie do samej ziemi.
-~
-Group 1
-End
-#Name wiatr_04~
-Desc Ca³kowity brak wiatru jaki tutaj zapanowa³ jest prawie nie do zniesienia. Nie drga nawet najmniejsze ¼d¼b³o.
-~
-Group 1
-End
-#Name wiatr_05~
-Desc Przyjemny, po³nocny zefirek, muska k³osy traw pochylaj±c je delikatnie do ziemi.
-~
-Group 1
-End
-#Name ¶wiat³o_01~
-Desc Miêkkie rozproszone ¶wiat³o o¶wietla ca³± przestrzeñ dooko³a miejsca w którym stoisz.
-~
-Group 2
-End
-#Name ¶wiat³o_02~
-Desc Przebijaj±ce siê miêdzy chmurami promienie s³oñca o¶wietlaj± ³±ki w nieregularne ¶wietlne wzory.
-~
-Group 2
-End
-#Name ¶wiat³o_03~
-Desc ¦wiat³o odbijaj±ce siê od jaskrawo o¶wietlonych traw nie pozwala na swobodne rozgl±danie siê.
-~
-Group 2
-End
-#Name ¶wiat³o_04~
-Desc Widok soczysto-zielonych przetykane pszeniczno-¿ó³tymi obszarami lekko zesch³ej trawy rozci±ga siê w wszystkich kierunkach.
-~
-Group 2
-End
-#Name dodaki_01~
-Desc Niedaleko siebie widzisz szczególnie wysok± kêpê traw.
-~
-Group 3
-End
-#Name dodaki_02~
-Desc Stoisz na niedu¿ej ³acie porastanej przez niewysok± trawê.
-~
-Group 3
-End
-#Name dodaki_03~
-Desc Niedaleko od ciebie widaæ potê¿ny, wystaj±cy ponad trawê, wielki omsza³y g³az.
-~
-Group 3
-End
-#Name dodaki_04~
-Desc Patrz±c na pó³noc widzisz jedno z nielicznych drzew, które siê zachowa³y na tych p³askim terenie.
-~
-Group 3
-End
-#Name dodaki_05~
-Desc Pod stopami masz kawa³ek prawie go³ej ziemi i zupe³nie nie masz pojêcia dlaczego trawa jest na tym maleñkim obszarze jest taka krótka.
-~
-Group 3
-End
-#Name dodaki_06~
-Desc Przed tob± znajduje siê dziwna kêpa trawy, która co jaki¶ czas porusza siê ca³kiem inaczej ni¿ reszta. Mo¿e lepiej tego nie sprawdzaæ?
-~
-Group 3
-End
-#Name zwierzaki_01~
-Desc Pod swoimi nogami zauwa¿asz parê zajêczych bobków, ale ca³e szczê¶cie s± ju¿ bardzo suche i siê nimi nie pobrudzisz.
-~
-Group 4
-End
-#Name zwierzaki_02~
-Desc Niedaleko od ciebie widaæ niewielk±, okr±g³± dziurê w ziemi, która wygl±da na norkê jakiego¶ stworzenie.
-~
-Group 4
-End
-#Name zwierzaki_03~
-Desc Ponad g³ow± zauwa¿asz lec±cego bociana, który niesie w dziobie co¶, czego nie potrafisz rozpoznaæ.
-~
-Group 4
-End
-#Name zwierzaki_04~
-Desc Z powietrza rozlega siê dono¶ny dzwiêk, podnosisz g³owê, ale nie zauwa¿asz ju¿ niczego co mog³oby taki dzwiêk wydawaæ.
-~
-Group 4
-End
-#Name mury_na_poludniu_01~
-Desc Do¶æ niedaleko na po³udniu widzisz potê¿ne mury otaczaj±ce miasto Carrallak.
+#Name mury_na_poludniu_03~
+Desc Nad okolic± góruje cieñ rzucany przez mury miasta Carrallak.
 ~
 Group 5
 End
@@ -7949,10 +7829,130 @@ Desc Patrz±c na po³udnie bez problemu zauwa¿asz potê¿ne mury otaczaj±ce miasto.
 ~
 Group 5
 End
-#Name mury_na_poludniu_03~
-Desc Nad okolic± góruje cieñ rzucany przez mury miasta Carrallak.
+#Name mury_na_poludniu_01~
+Desc Do¶æ niedaleko na po³udniu widzisz potê¿ne mury otaczaj±ce miasto Carrallak.
 ~
 Group 5
+End
+#Name zwierzaki_04~
+Desc Z powietrza rozlega siê dono¶ny dzwiêk, podnosisz g³owê, ale nie zauwa¿asz ju¿ niczego co mog³oby taki dzwiêk wydawaæ.
+~
+Group 4
+End
+#Name zwierzaki_03~
+Desc Ponad g³ow± zauwa¿asz lec±cego bociana, który niesie w dziobie co¶, czego nie potrafisz rozpoznaæ.
+~
+Group 4
+End
+#Name zwierzaki_02~
+Desc Niedaleko od ciebie widaæ niewielk±, okr±g³± dziurê w ziemi, która wygl±da na norkê jakiego¶ stworzenie.
+~
+Group 4
+End
+#Name zwierzaki_01~
+Desc Pod swoimi nogami zauwa¿asz parê zajêczych bobków, ale ca³e szczê¶cie s± ju¿ bardzo suche i siê nimi nie pobrudzisz.
+~
+Group 4
+End
+#Name dodaki_06~
+Desc Przed tob± znajduje siê dziwna kêpa trawy, która co jaki¶ czas porusza siê ca³kiem inaczej ni¿ reszta. Mo¿e lepiej tego nie sprawdzaæ?
+~
+Group 3
+End
+#Name dodaki_05~
+Desc Pod stopami masz kawa³ek prawie go³ej ziemi i zupe³nie nie masz pojêcia dlaczego trawa jest na tym maleñkim obszarze jest taka krótka.
+~
+Group 3
+End
+#Name dodaki_04~
+Desc Patrz±c na pó³noc widzisz jedno z nielicznych drzew, które siê zachowa³y na tych p³askim terenie.
+~
+Group 3
+End
+#Name dodaki_03~
+Desc Niedaleko od ciebie widaæ potê¿ny, wystaj±cy ponad trawê, wielki omsza³y g³az.
+~
+Group 3
+End
+#Name dodaki_02~
+Desc Stoisz na niedu¿ej ³acie porastanej przez niewysok± trawê.
+~
+Group 3
+End
+#Name dodaki_01~
+Desc Niedaleko siebie widzisz szczególnie wysok± kêpê traw.
+~
+Group 3
+End
+#Name ¶wiat³o_04~
+Desc Widok soczysto-zielonych przetykane pszeniczno-¿ó³tymi obszarami lekko zesch³ej trawy rozci±ga siê w wszystkich kierunkach.
+~
+Group 2
+End
+#Name ¶wiat³o_03~
+Desc ¦wiat³o odbijaj±ce siê od jaskrawo o¶wietlonych traw nie pozwala na swobodne rozgl±danie siê.
+~
+Group 2
+End
+#Name ¶wiat³o_02~
+Desc Przebijaj±ce siê miêdzy chmurami promienie s³oñca o¶wietlaj± ³±ki w nieregularne ¶wietlne wzory.
+~
+Group 2
+End
+#Name ¶wiat³o_01~
+Desc Miêkkie rozproszone ¶wiat³o o¶wietla ca³± przestrzeñ dooko³a miejsca w którym stoisz.
+~
+Group 2
+End
+#Name wiatr_05~
+Desc Przyjemny, po³nocny zefirek, muska k³osy traw pochylaj±c je delikatnie do ziemi.
+~
+Group 1
+End
+#Name wiatr_04~
+Desc Ca³kowity brak wiatru jaki tutaj zapanowa³ jest prawie nie do zniesienia. Nie drga nawet najmniejsze ¼d¼b³o.
+~
+Group 1
+End
+#Name wiatr_03~
+Desc Wiej±cy wiatr k³adzie d³ugie trawy prawie do samej ziemi.
+~
+Group 1
+End
+#Name wiatr_02~
+Desc Mimo ca³kowitego brak wiatru niektóre ³any faluj± w delikatnych powiewach zefirku.
+~
+Group 1
+End
+#Name wiatr_01~
+Desc Wiej±cy wiatr delikatnie faluje ³anami traw.
+~
+Group 1
+End
+#Name start_05~
+Desc Gdzie nie spojrzysz, widzisz otaczaj±ce ciê ³±ki zaro¶niête wrêcz, przez trawy.
+~
+Group 0
+End
+#Name start_04~
+Desc Dooko³a ciebie rozci±gaj± siê ³±ki porastane przez wiele ró¿nych gatunków traw.
+~
+Group 0
+End
+#Name start_03~
+Desc Stoisz po kolana w trawie, choæ zapewne nie jest jedna trywialna trawa, tylko parê ró¿nych jej odmian.
+~
+Group 0
+End
+#Name start_02~
+Desc Stoisz na do¶æ równym terenie na którym nie ro¶nie nic poza ró¿nymi odmianami traw.
+~
+Group 0
+End
+#Name start_01~
+Desc Znajdujesz siê na do¶æ rozleg³ej ³±ce, na której nie ma ¿adnych ro¶lin poza rozmaitymi odmianami traw.
+~
+Group 0
 End
 #DescEnd
 

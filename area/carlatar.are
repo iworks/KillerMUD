@@ -1,7 +1,7 @@
 #AREADATA
 Name +# Stara elfia latarnia morska~
 Builders None~
-VNUMs 2901 2928
+VNUMs 2901 2950
 Credits Drake <blackdrake@interia.pl>~
 Locked ~
 Security 9
@@ -64,19 +64,17 @@ Name mimik skrzynia okuta zêbata~
 Odmiana mimika~mimikowi~mimika~mimikiem~mimiku~
 Short mimik~
 Long Stoi tutaj wielka, okuta skrzynia z zêbami i wielkim czerwonym jêzorem wywalonym na zewn±trz.~
-Descr Ma³o kto przypuszcza³, ¿e taka abominacja mo¿e faktycznie istnieæ. Mimik,
-bo tak zwie siê ów twór, jest konstruktem udaj±cym kufer, który czeka tylko
-a¿ kto¶ otworzy jego wieko, a gdy tak siê stanie... Có¿, w najlepszym
-wypadku ofiara straci palec, choæ rzadko kiedy na tym siê koñczy. Mimik
-po¿era zaskoczone ofiary i powoli je trawi, zapewniaj±c im najgorsze
-przed¶miertne doznania jakie jest sobie w stanie wyobraziæ cz³owiek. Nie
-bardzo wiesz sk±d mimik wzi±³ siê w takim miejscu, lecz skoro jeszcze ¿yjesz
-i masz si³ê walczyæ, to mimik nie jest na wygranej pozycji. 
+Descr Nikt by nie przypuszcza³ ze ta przera¿aj±ca abominacja mog³a kiedykolwiek
+istnieæ - mimik - bo tak siê zwie jest stworzeniem udaj±cym kufer a gdy kto¶
+otworzy wieko... Kufer a raczej mimik pozera go i powoli trawi. Jedna z
+najgorszych ¶mierci. Nie wiesz jakim cudem znalaz³ siê on tutaj jednak jedno
+jest pewnie, je¶li jeszcze ¿yjesz i masz sile walczyæ to mimik nie jest na
+wygranej pozycji. 
 ~
 Race golem~
-ActExt 0|ABFI
-Affected 100663336 0 0 40960
-AffectedExt 0|DFZa/3|NP
+ActExt 0|ABF
+Affected 41943080 0 0 0
+AffectedExt 0|DFXZ
 Align 0
 Group 0
 Lang A
@@ -87,22 +85,20 @@ HP 13d10+250
 Damage 2d6+2
 Dammagic 1
 Weaponbonus 0
-Damflags 8
-Attack gryzienie
+Damflags 128
+Attack none
 XAC 3 3 3 10
 Stats 120 120 120 120 120 78 78
-Off Xc
-OffExt 0|Xc
+Off OY
+OffExt 0|OY
 Pos_start stand
 Pos_def stand
 Sex none
 Wealth 0
-Form CEJc
-Parts KLY
+Form CEJM
+Parts ABCGHIJKY
 Size small
 Material unknown
-Comments Gramatyczna poprawa opisu + grzebanie w partsach (coby mimik nie mia³ g³owy, r±k etc.) i resistach. - {RHorg{x ({CTue May  7 23:47:46 2013{x)
-~
 MobprogNew onload 2904 ABCDEFGHI 100~
 MobprogNew death 2905 ABCDEFGHI 100~
 Corpse -1
@@ -118,6 +114,7 @@ Resist 10 100
 Resist 12 100
 Resist 13 100
 Resist 14 100
+Resist 15 100
 Resist 16 100
 Mobend
 #Vnum 2903
@@ -173,16 +170,133 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
 Itemdesc {GMa³y elfi kluczyk ozdobiony wygrawerowanymi wzorkami w kszta³cie wzdêtych
 ¿agli. {x 
+~
+Comments ~
+Objend
+#Vnum 2903
+Name wytarte spodnie~
+Odmiana wytartych spodni~wytartym spodniom~wytarte spodnie~wytartymi spodniami~wytartych spodniach~
+Short wytarte spodnie~
+Descr Wytarte skórzane spodnie le¿± tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 6
+Cond 75
+Itemdesc S± to stare i widaæ ¿e czêsto u¿ywane skórzane spodnie.
+~
+Comments ~
+Objend
+#Vnum 2905
+Name kaganek ¿elazny~
+Odmiana kaganka~kagankowi~kaganek~kagankiem~kaganku~
+Short zelazny kaganek~
+Descr Zelazny kaganek lezy tutaj czekajac na uzycie.~
+Material stal~
+Type light
+ExtraExt 0
+Wear AR
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 0 0 16 0 0 0 0
+Repair 0 0 0 0
+Weight 32
+Cost 9
+Cond 100
+Itemdesc Jest to zelazny kaganek sluzacy do oswietlania.
+~
+Identdesc Jest to zelazny kaganek sluzacy do oswietlania. Starcza na troche dluzej
+niz zwykla pochodnia. 
+~
+Comments ~
+Objend
+#Vnum 2906
+Name skorzany rzemyk malutki porzucony~
+Odmiana skorzanego rzemyka~skorzanemu rzemykowi~skorzany rzemyk~skorzanym rzemykiem~skorzanym rzemyku~
+Short skorzany rzemyk~
+Descr Malutki skorzany rzemyk lezy porzucony.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 1
+Cond 60
+Comments ~
+Objend
+#Vnum 2907
+Name stol jadalny~
+Odmiana stolu jadalnego~stolowi jadalnemu~stol jadalny~stolem jadalnym~stole jadalnym~
+Short stol jadalny~
+Descr Niewielki stó³ jadalny stoi tutaj z jednym krzes³em przysuniêtym do niego.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 300 0 100 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 2908
+Name pekata drewniana beczka~
+Odmiana beczki~beczce~beczke~beczka~beczce~
+Short beczka~
+Descr Na ziemi stoi pekata drewniana beczka.~
+Material drewno~
+Type container
+ExtraExt 0|X
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 500 5 0 100 100 0 0
+Repair 0 0 0 0
+Weight 350
+Cost 60
+Cond 30
+Itemdesc Do¶æ du¿a beczka, zrobiona z solidnych dêbowych desek z metalowymi
+ok³uciami. W ¶rodku mo¿e znajdowaæ siê wszystko, od oleju po piwo, a beczka
+jest bardzo praktyczna i ³atwo j± toczyæ. 
 ~
 Comments ~
 Objend
@@ -197,11 +311,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 500 5 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 100
@@ -223,11 +337,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 500 5 0 10 100 11 -1
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -247,11 +361,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 150 16 0 10 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 200
 Cost 0
 Cond 5
@@ -269,11 +383,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 10 0 0 3 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 600
 Cost 0
 Cond 100
@@ -1357,18 +1471,18 @@ S
 
 #RESETS
 M 100 2901 1 2906 1
-E 100 4368 0 5
-E 100 4409 0 7
-E 100 3050 0 7
-E 100 553 0 13
-G 100 3324 0
-O 100 2364 0 2906
+E 100 3130 0 5
+E 100 2903 0 7
+E 100 3380 0 8
+E 100 2906 0 13
+G 100 2905 0
+O 100 3250 0 2906
 O 100 2915 0 2906
-O 100 2362 0 2906
+O 100 3251 0 2906
 O 100 2912 0 2906
 M 100 2903 2 2908 2
-O 100 2362 0 2909
-O 100 2364 0 2909
+O 100 2907 0 2909
+O 100 3250 0 2909
 S
 
 
@@ -1442,7 +1556,7 @@ endif
 ~
 #2905
 ~
-mob echo Mimik z g³o¶nym jêkiem rozstaje siê ze ¶wiatem. Okucia pêkaj± i ca³a skrzynia, czy te¿ raczej ca³y stwór, rozpada siê na kawa³ki, zostawiaj±c jedynie kupê drewna, blach i ohydnej mazi.
+mob echo Mimik z g³o¶nym i mro¿±cym krew w ¿y³ach rykiem rozstaje siê z tym ziemskim pado³em, ok³ucia pêkaj± i ca³a skrzynia czy raczej ca³y stwór rozpada siê na kawa³ki drewna i obrzydliwej ma¼i.
 mob oload 2916
 ~
 #0
@@ -1454,7 +1568,7 @@ mob goto 2906
 mob mload 2902
 Mob echoaround $n Skrzynia nagle sama z siebie otwiera wieko, blysnely biale kly i czerwony jak krew jezor a skrzynia rzucila sie wsciekle w kierunku $z i ostre jak brzytwy kly zatapiaja sie w wyciagnietej rece.
 mob echoat $n Nagle skrzynia sama z siebie otwiera wieko i czujesz jak bia³e zêby zg³êbiaj± siê w twojej rêce. Mimowolnie wrzeszczysz z bólu i odrazy.
-mob echoaround $n Slychac ino glosny okrzyk bolu.
+mob echoaound $n Slychac ino glosny okrzyk bolu.
 mob damage $n 40 50 pierce
 mob force mimik kill $n
 mob purge skpurge

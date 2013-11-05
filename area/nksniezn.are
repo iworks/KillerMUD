@@ -322,6 +322,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 16281
+Name {C¦nie¿ny p³aszcz{x~
+Odmiana {C¶nie¿nego p³aszcza{x~{C¶nie¿ny p³aszcz{x~{C¶nie¿ny p³aszcz{x~{C¶nie¿nym p³aszczem{x~{C¶nie¿nym p³aszczu{x~
+Short {C¶nie¿ny p³aszcz{x~
+Descr {C¦nie¿ny p³aszcz{x migocze magiczn± moc±.~
+Material nieznany~
+Type clothing
+ExtraExt 0|AD
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 20 10
+Repair 0 0 0 0
+Weight 50
+Cost 1
+Cond 75
+Comments ~
+Objend
 #Vnum 16282
 Name {Clodowa korona{X~
 Odmiana {Clodowej korony{x~{Clodowej koronie{x~{Clodow± korone{x~{Clodow± koron±{x~{Clodowej koronie{x~
@@ -333,11 +354,32 @@ ExtraExt 0|AD
 Wear AE
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 16283
+Name {Clodowe buty{x~
+Odmiana {Clodowych butów{x~{Clodowym butom{x~{Clodowe buty{x~{Clodowymi butami{x~{Clodowych butach{x~
+Short {Clodowe buty{x~
+Descr {CLodowe buty{x pob³yskuj± magiczn± moc±.~
+Material unused~
+Type clothing
+ExtraExt 0|A
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
 Weight 1
 Cost 1
 Cond 75
@@ -354,11 +396,11 @@ ExtraExt 0|AD
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -375,11 +417,11 @@ ExtraExt 0|A
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 140
 Cond 75
@@ -396,11 +438,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -411,6 +453,36 @@ przypominaj±cego w dotyku jedwab lecz zdecydowanie bardziej wytrzyma³y.
 Ciekawe czy Lodowy Mag mia³by co¶ przeciwko gdyby¶ wszed³ do ¶rodka?
 ,f
 ~
+Comments ~
+Objend
+#Vnum 16287
+Name B³êkitny pasek~
+Odmiana b³ekitnego paska~b³ekitnemu paskowi~b³ekitny pasek~b³ekitnym paskiem~b³ekitnym pasku~
+Short b³ekitny pasek~
+Descr B³ekitny pasek emanuje magiczn± moca.~
+Material nieznany~
+Type clothing
+ExtraExt 0|AG
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 3000
+Cond 75
+Aff 1 17 -7 0 0 0
+Itemdesc Widzisz przed sob± magiczny pasek wykonany z materia³u przypominaj±cego
+lód lecz ciep³ego w dotyku. Byæ mo¿e jest to sprawka magii gdy¿ pas emanuje
+moc±. Jest to z pewno¶ci± jeden z przedmiotów, za które warto zabijaæ, a
+jego cena z pewno¶ci± przekroczy³aby cenê ¿ycia wiêkszo¶ci osób. Pasek
+wydaje siê byæ lekko nadtrawiony, co mo¿e oznaczaæ, ze jego poprzedni
+w³a¶ciciel skoñczy³ w brzuchu jakiego¶ potwora. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 0
@@ -439,8 +511,19 @@ Exit 0
 ~
 ~
 0 0 16282
-Roomprog random 16281 10~
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40968
+ExitExtEnd
+Exit 2
+~
+~
+0 0 40968
 Roomprog entry 16384 3~
+Roomprog random 16281 10~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -476,8 +559,8 @@ Exit 2
 ~
 ~
 0 0 16281
-Roomprog random 16281 10~
 Roomprog entry 16384 3~
+Roomprog random 16281 10~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -551,8 +634,8 @@ Exit 2
 ~
 ~
 0 0 16283
-Roomprog random 16281 10~
 Roomprog entry 16384 3~
+Roomprog random 16281 10~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -589,8 +672,8 @@ Exit 3
 ~
 ~
 0 0 16286
-Roomprog random 16281 10~
 Roomprog entry 16384 3~
+Roomprog random 16281 10~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -627,8 +710,8 @@ Exit 3
 ~
 ~
 0 0 16287
-Roomprog random 16281 10~
 Roomprog entry 16384 3~
+Roomprog random 16281 10~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -676,8 +759,8 @@ Exit 2
 ~
 ~
 0 0 16296
-Roomprog entry 16282 5~
 Roomprog entry 16384 3~
+Roomprog entry 16282 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4807,8 +4890,8 @@ S
 
 #RESETS
 M 100 16282 1 16297 1
-E 100 4427 0 12
-E 100 3010 0 8
+E 100 16281 0 12
+E 100 16283 0 8
 E 100 16284 0 17
 E 100 16282 0 6
 O 100 16286 0 16297
@@ -4960,9 +5043,6 @@ mob setpos $n sit
 #Vnum 0
 
 #RANDDESC
-#Vnum 16282
-DescRand ~
-RandDescEnd
 #Vnum 16281
 DescRand #grouprand 0
 #grouprand 1
@@ -4970,13 +5050,96 @@ DescRand #grouprand 0
 #grouprand 3
 ~
 RandDescEnd
+#Vnum 16282
+DescRand ~
+RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 0003~
-Desc Brodzac w ¶niegu po kolana zastanawiasz siê czy nie lepiej by³oby znale¼æ
-siê na piaszczystej pustyni, odrzucasz t± my¶l, tutaj przynajmniej nie
-umrzesz z pragnienia. 
+#Name 003~
+Desc Nieprzerwanie wiatr atakuje ciê lodowatymi podmuchami nale¿ycie umilaj±c
+ci podró¿. 
+~
+Group 2
+End
+#Name 1~
+Desc Podró¿ujesz przez niekoñcz±c± siê krainê mro¼nych wiatrów i wiecznych
+¶niegów. 
+~
+Group 0
+End
+#Name 2~
+Desc Prawdziwa ¶nie¿na pustynia, ¶rodowisko równie zachêcaj±ce do osadzenia siê co miejskie ¶mietnisko.
+~
+Group 0
+End
+#Name 3~
+Desc Przedzierasz siê przez ¶nie¿ne zaspy, co chwila zapadaj±c siê w ¶niegu.
+~
+Group 0
+End
+#Name 02~
+Desc Dookola nie widaæ ¿ywej duszy, najwyra¼niej jedynie ty jeste¶ na tyle
+szalony by b³±kaæ siê po tych ¶nie¿nych równinach. 
+~
+Group 1
+End
+#Name 01~
+Desc Szybki rzut okiem po okolicy i ju¿ wiesz, ¿e do jedzenia niczego tu nie
+znajdziesz. 
+~
+Group 1
+End
+#Name 03~
+Desc Sam jak palec a woko³o tylko lód, ¶nieg i wszechogarniaj±cy mrz, po
+prostu ¿yæ nie umieraæ! 
+~
+Group 1
+End
+#Name 001~
+Desc Wiatr nieub³aganie smaga ciê swoimi lodowatymi mackami zmuszaj±c ciê do
+zakrywania swej twarzy rêkoma. 
+~
+Group 2
+End
+#Name 002~
+Desc Koszmarnie lodowaty wiatr wzbija do góry chmury ¶niegu, które jak setki
+rozw¶cieczonych os kuj± ciê w twarz. 
+~
+Group 2
+End
+#Name 0001~
+Desc Podsumowuj±c otaczaj±cy ciebie krajobraz mo¿na powiedzieæ i¿ znalaz³e¶
+siê na kompletnym odludziu, miejscu gdzie nikt ci nie pomo¿e nawet jak twoje
+koñczyny przestan± siê ruszaæ, a sam zamienisz siê w bryle lodu. 
+~
+Group 3
+End
+#Name 0~
+Desc ~
+Group 4
+End
+#Name 4~
+Desc Brodzisz po kolana w ¶niegu przemierzaj±c ta mro¼n± równinê blagaj±c by
+bogowie ulitowali siê i obdarzyli cie jasnymi promieniami s³oñca. 
+~
+Group 0
+End
+#Name 04~
+Desc Jedyna pozytywna strona tego odludzia mo¿e siê okazaæ fakt i¿ raczej nikt
+ciê tu nie bêdzie próbowa³ ograbiæ, chocia¿ kto wie? 
+~
+Group 1
+End
+#Name 004~
+Desc Potê¿ne ataki mro¼nego wiatru zdaj± siê przybieraæ na silê. Musisz
+zaslaniaæ swoja twarz obiema rekami. 
+~
+Group 2
+End
+#Name 0004~
+Desc Nieliczne powykrzywiane drzewka s± jedynymi towarzyszami twej morderczej
+wêdrówki. Masz nadzieje ze ta katorga nied³ugo siê zakoñczy. 
 ~
 Group 3
 End
@@ -4987,92 +5150,12 @@ Desc Czujesz, ¿e nieprzerwany ból miê¶ni towarzysz±cy twej wêdrówce przez
 ~
 Group 3
 End
-#Name 0004~
-Desc Nieliczne powykrzywiane drzewka s± jedynymi towarzyszami twej morderczej
-wêdrówki. Masz nadzieje ze ta katorga nied³ugo siê zakoñczy. 
+#Name 0003~
+Desc Brodzac w ¶niegu po kolana zastanawiasz siê czy nie lepiej by³oby znale¼æ
+siê na piaszczystej pustyni, odrzucasz t± my¶l, tutaj przynajmniej nie
+umrzesz z pragnienia. 
 ~
 Group 3
-End
-#Name 004~
-Desc Potê¿ne ataki mro¼nego wiatru zdaj± siê przybieraæ na silê. Musisz
-zaslaniaæ swoja twarz obiema rekami. 
-~
-Group 2
-End
-#Name 04~
-Desc Jedyna pozytywna strona tego odludzia mo¿e siê okazaæ fakt i¿ raczej nikt
-ciê tu nie bêdzie próbowa³ ograbiæ, chocia¿ kto wie? 
-~
-Group 1
-End
-#Name 4~
-Desc Brodzisz po kolana w ¶niegu przemierzaj±c ta mro¼n± równinê blagaj±c by
-bogowie ulitowali siê i obdarzyli cie jasnymi promieniami s³oñca. 
-~
-Group 0
-End
-#Name 0~
-Desc ~
-Group 4
-End
-#Name 0001~
-Desc Podsumowuj±c otaczaj±cy ciebie krajobraz mo¿na powiedzieæ i¿ znalaz³e¶
-siê na kompletnym odludziu, miejscu gdzie nikt ci nie pomo¿e nawet jak twoje
-koñczyny przestan± siê ruszaæ, a sam zamienisz siê w bryle lodu. 
-~
-Group 3
-End
-#Name 002~
-Desc Koszmarnie lodowaty wiatr wzbija do góry chmury ¶niegu, które jak setki
-rozw¶cieczonych os kuj± ciê w twarz. 
-~
-Group 2
-End
-#Name 001~
-Desc Wiatr nieub³aganie smaga ciê swoimi lodowatymi mackami zmuszaj±c ciê do
-zakrywania swej twarzy rêkoma. 
-~
-Group 2
-End
-#Name 03~
-Desc Sam jak palec a woko³o tylko lód, ¶nieg i wszechogarniaj±cy mrz, po
-prostu ¿yæ nie umieraæ! 
-~
-Group 1
-End
-#Name 01~
-Desc Szybki rzut okiem po okolicy i ju¿ wiesz, ¿e do jedzenia niczego tu nie
-znajdziesz. 
-~
-Group 1
-End
-#Name 02~
-Desc Dookola nie widaæ ¿ywej duszy, najwyra¼niej jedynie ty jeste¶ na tyle
-szalony by b³±kaæ siê po tych ¶nie¿nych równinach. 
-~
-Group 1
-End
-#Name 3~
-Desc Przedzierasz siê przez ¶nie¿ne zaspy, co chwila zapadaj±c siê w ¶niegu.
-~
-Group 0
-End
-#Name 2~
-Desc Prawdziwa ¶nie¿na pustynia, ¶rodowisko równie zachêcaj±ce do osadzenia siê co miejskie ¶mietnisko.
-~
-Group 0
-End
-#Name 1~
-Desc Podró¿ujesz przez niekoñcz±c± siê krainê mro¼nych wiatrów i wiecznych
-¶niegów. 
-~
-Group 0
-End
-#Name 003~
-Desc Nieprzerwanie wiatr atakuje ciê lodowatymi podmuchami nale¿ycie umilaj±c
-ci podró¿. 
-~
-Group 2
 End
 #DescEnd
 

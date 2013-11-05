@@ -336,7 +336,6 @@ Comments doda³em mu parê czarków - {RGurthg{x ({CTue Feb 11 15:05:30 2003{x)
 zwiekszy³em staty i punkty ¿ycia, doda³em czar unholy fury, jak bos to bos by³ za s³aby 2 osoby go by³y wstanie zabiæ. - {RKarlam{x ({CSat Apr  2 12:01:16 2011{x)
 kolejne wzmocnienie, zmiana spelli - {RKarlam{x ({CSun Apr  3 21:36:19 2011{x)
 doda³em proga kosciany_fight 15 - {RKarlam{x ({CMon Apr  4 09:31:47 2011{x)
-Doda³em wywolanie roomproga - ladowanie skrzyni ze skarbami na 2 ticki, onlypick, z paskudna pu³apk±. - {RKarlam{x ({CFri Apr 13 12:59:59 2012{x)
 ~
 MobprogNew fight kosciany_fight H 15~
 MobprogNew death kosciany_death ABCDEFGHI 100~
@@ -485,7 +484,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 240
 Cond 100
@@ -509,7 +507,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 0
 Cond 100
@@ -521,7 +518,7 @@ Identdesc ~
 Comments ~
 Objend
 #Vnum 1753
-Name ko¶ciana skrzynia ko¶cianego smoka skrzynia_koscianego_smoka~
+Name Ko¶ciana skrzynia ko¶cianego smoka~
 Odmiana {Wko¶cianej skrzyni{x~{Wko¶cianej skrzyni{x~{Wko¶cian± skrzyniê{x~{Wko¶cian± skrzyni±{x~{Wko¶cianej skrzyni{x~
 Short {Wko¶ciana skrzynia{x~
 Descr Ko¶ciana skrzynia {Wsmoka Venreeh'meyela{x stoi tutaj.~
@@ -533,52 +530,36 @@ Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 3
-Value 200 333 1754 50 100 0 -1
+Value 200 77 0 50 100 0 -1
 Repair 20 0 1 100
-Length 0
 Weight 2200
 Cost 1
 Cond 100
-Objprog onload 1753_load 100~
-Objprog flagoff 1753_unload kosciana_timer~
-Itemdesc Stoi tu naprawdê wielka skrzynia, a przynajmniej co¶ w kszta³cie skrzyni,
-gdy¿ materia³, z którego j± wykonano jest nietypowy. S± to bowiem ko¶ci
-najró¿niejszych gatunków stworzeñ, z³o¿one w kufer. Ramy skrzyni zosta³y
-utworzone z wielkich, najpewniej udowych ko¶ci jakich¶ stworzeñ, najpewniej
-pochodnych tytanów, za¶ ¶ciany stanowi w³a¶ciwie zbita, nierówna masa ko¶ci,
-w których mo¿na niekiedy rozpoznaæ nawet d³onie i czaszki. Wieko za¶
-zrobione jest z krêgos³upów i ¿eber jakich¶ wiêkszych istot, ¶ci¶le ze sob±
-scalonych za pomoc± czarnej magii, która promieniuje ze skrzyni na tyle
-mocno, ¿e niemal namacalnie, a na pewno zauwa¿alnie, gdy¿ sam kufer roztacza
-czarn±, zimn± aurê. 
-~
 Comments ~
 Trap 1753
 Objend
-#Vnum 1754
-Name ko¶ciany klucz smoczy klucz_do_koscianej_skrzyni~
-Odmiana {Wko¶cianego klucza{x~{Wko¶cianemu kluczu{x~{Wko¶ciany klucz{x~{Wko¶cianym kluczem{x~{Wko¶cianym kluczu{x~
-Short {Wko¶ciany klucz{x~
-Descr {WKo¶ciany klucz{x le¿y u twych stóp, sk±pany w magicznym blasku.~
-Material ko¶æ~
-Type key
-ExtraExt 0|ANTZb
-Wear AH
+#Vnum 1759
+Name g³az poro¶niêty mchem~
+Odmiana g³azu poro¶nietego mchem~g³azowi poro¶nietego mchem~g³az poro¶niêty mchem~g³azem poro¶niêtym mchem~g³azie poro¶niêtym mchem~
+Short g³az poro¶niêty mchem~
+Descr Sporej wielko¶ci g³az le¿y tutaj poro¶niêty ¶wie¿ym mchem.~
+Material kamieñ~
+Type furniture
+ExtraExt 0
+Wear 0
 Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
-Gender 2
-Value 0 0 0 0 0 0 0
-Repair 20 0 1 100
-Length 0
-Weight 1
-Cost 2000
-Cond 50
-Itemdesc Widzisz przed sob± wielk±, pod³u¿n± {Wko¶æ{x, najprawdopodobniej udow±. To, z jakiego 
-stworzenia pochodzi, pozostaje da ciebie zagadk±. Mro¼na aura bij±ca z tego przedmiotu a¿ parzy twoje d³onie. Zafascynowany tym nietypowym zjawiskiem dok³adnie ogl±dasz {Wko¶æ{x i dostrzegasz na jej powierzchni jakie¶ 
-zdobienia i naciecia. Nagle zdajesz sobie sprawê, ¿e jest to klucz! Ciekawe tylko co otwiera...
+Gender 0
+Value 1 0 64 133 100 0 0
+Repair 0 0 0 0
+Weight 5000
+Cost 2
+Cond 25
+Itemdesc Jest do sporej wielko¶ci g³az poro¶niêty mchem. Jego waga mo¿e siêgaæ
+nawet wadze doros³ej krowy. Z pewno¶ci± niemo¿liwe jest podniesienie go, ale
+mo¿e mo¿na przy nim trochê odpocz±æ. 
 ~
-Identdesc ~
 Comments ~
 Objend
 #Vnum 1760
@@ -587,16 +568,15 @@ Odmiana uszkodzonej zbroi~uszkodzonej zbroi~uszkodzon± zbrojê~uszkodzon± zbroj±~
 Short uszkodzona zbroja~
 Descr Uszkodzona i powyginana zbroja ze stali le¿y tutaj ubrudzona we krwi.~
 Material stal~
-Type treasure
+Type armor
 ExtraExt 0|G
 Wear AD
 Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 3
-Value 0 0 0 0 0 0 0
+Value 4 5 3 10 9 0 0
 Repair 1 1 0 0
-Length 0
 Weight 100
 Cost 0
 Cond 30
@@ -613,16 +593,15 @@ Odmiana zniszczonej tarczy~zniszczonej tarczy~zniszczon± tarczê~zniszczon± tarcz
 Short zniszczona drewniana tarcza~
 Descr Zniszczona i po³amana drewniana tarcza le¿y na ziemi.~
 Material drewno~
-Type trash
+Type shield
 ExtraExt 0
-Wear AO
+Wear AJ
 Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 3
-Value 0 0 0 0 0 0 0
+Value 1 3 4 0 0 0 0
 Repair 1 1 0 0
-Length 0
 Weight 100
 Cost 0
 Cond 20
@@ -647,7 +626,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 4000
 Cost 1
 Cond 75
@@ -658,21 +636,20 @@ go przewróci³ na bok.
 Comments ~
 Objend
 #Vnum 1763
-Name z³amany miecz~
-Odmiana z³amanego miecza~z³amemu mieczowi~z³amy miecz~z³amanym mieczu~z³amym mieczu~
-Short z³amany miecz~
+Name z³amana ko¶ciana w³ócznia~
+Odmiana z³amanej w³óczni~z³amanej w³óczni~z³aman± w³óczniê~z³aman± w³óczni±~z³amanej w³óczni~
+Short z³amana ko¶ciana w³ócznia~
 Descr Z³amany w po³owie miecz pokryty cienk± warstw± rdzy le¿y na ziemi.~
 Material smoczy z±b~
-Type trash
+Type weapon
 ExtraExt 0
 Wear AN
 Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 2
-Value 0 0 0 0 0 0 0
+Value 3 2 6 0 0 0 0
 Repair 1 1 0 0
-Length 0
 Weight 20
 Cost 0
 Cond 20
@@ -697,7 +674,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 24464
 Cost 3600
 Cond 100
@@ -727,7 +703,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 1
 Repair 0 0 0 0
-Length 0
 Weight 50
 Cost 28800
 Cond 100
@@ -753,7 +728,6 @@ LiczbaMnoga 0
 Gender 2
 Value 1 0 144 110 100 1 1
 Repair 0 0 0 0
-Length 0
 Weight 145
 Cost 1
 Cond 100
@@ -779,7 +753,6 @@ LiczbaMnoga 1
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4464
 Cost 1200
 Cond 30
@@ -806,7 +779,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 -1 -2
 Repair 0 0 0 0
-Length 0
 Weight 120
 Cost 0
 Cond 30
@@ -832,7 +804,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 3 65 34 324 52 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 8580
 Cond 50
@@ -856,7 +827,6 @@ LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 6000
 Cond 100
@@ -883,7 +853,6 @@ LiczbaMnoga 0
 Gender 2
 Value 1771 1771 1770 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 900
 Cond 100
@@ -907,7 +876,6 @@ LiczbaMnoga 0
 Gender 2
 Value 1 3 4 41 4096 1 1
 Repair 0 0 0 100
-Length 70
 Weight 80
 Cost 33000
 Cond 100
@@ -932,9 +900,9 @@ Zmieniam prewear tak, ¿eby nie dawa³ bonusa w czasie walki. - {RGurthg{x ({CFri 
 No to ju¿ Ares-nagroda nie jest Aresem... A tym co widaæ. Oryginalny Ares trafi³ do "{YRare Items{x" [29084] - {RGarloop{x ({CSun Jan 16 17:01:49 2005{x)
 Doda³em w progu if na flagê 'wearares'. - {RWicia{x ({CSat Aug 19 15:37:28 2006{x)
 ~
-SpecDamExt 2 100 -100 -100 -100 0 2 1
-SpecDamExt 3 65 0 1 -100 0 1 0
 SpecDamExt 2 1 7 -100 -100 0 20 0
+SpecDamExt 3 65 0 1 -100 0 1 0
+SpecDamExt 2 100 -100 -100 -100 0 2 1
 Objend
 #Vnum 1773
 Name d³ugi miecz~
@@ -951,7 +919,6 @@ LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 1 1 0 0
-Length 0
 Weight 30
 Cost 0
 Cond 30
@@ -976,7 +943,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 13
 Cost 5
 Cond 100
@@ -1008,7 +974,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 3000 128 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 100
 Cost 0
 Cond 100
@@ -1017,6 +982,51 @@ na nim w³adca tego zamku. Teraz jedyne do czego siê nadaje to zaspakajanie
 potrzeb 'higienicznych' szczurów i innych stworzeñ które zamieszkuj±
 okolice. Zdumiewaj±ce, jak czas mo¿e zrujnowaæ piêknie wykonany mebel... 
 ~
+Comments ~
+Objend
+#Vnum 1776
+Name czarne okute buty~
+Odmiana czarnych butów~czarnym butom~czarne buty~czarnymi butami~czarnych butach~
+Short czarne okute buty~
+Descr Czarne czarne buty wzmacniane stalowymi p³ytkami le¿± tutaj.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 2 2 2 8 14 0 1
+Repair 0 0 0 0
+Weight 5
+Cost 600
+Cond 40
+Itemdesc S± to stalowe buty o g³êbokim, czarnym kolorze. Kowal które je wykona³
+musia³ byæ bardzo bieg³y w swym rzemio¶le - wnioskowaæ to mo¿na, po wysokiej
+jako¶ci wykonaniu butów. Niestety s± one strasznie znoszone i ju¿ nie
+chroni± tak jak kiedy¶. 
+~
+Comments ~
+Objend
+#Vnum 1777
+Name podarta szata liturgiczna~
+Odmiana podartej szaty liturgicznej~podartej szacie liturgicznej~podart± szatê liturgiczn±~podart± szat± liturgiczn±~podartej szacie liturgicznej~
+Short podarta szata liturgiczna~
+Descr Le¿y tu szata z kaszmiru mocno poplamiona krwi±.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 20
+Cond 50
 Comments ~
 Objend
 #Vnum 1778
@@ -1034,12 +1044,53 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
 Itemdesc ciekawe, ciekawe... Jakie¶ zamazane bazgro³y.
 ~
+Comments ~
+Objend
+#Vnum 1779
+Name postrzêpiona czerwona p³achta~
+Odmiana {Rpostrzêpionej, czerwonej p³achty{x~{Rpostrzêpionej, czerwonej p³achcie{x~{Rpostrzêpion±, czerwon± p³achtê{x~{Rpostrzêpion±, czerwon± p³acht±{x~{Rpostrzêpionej, czerwonej p³achcie{x~
+Short {Rpostrzêpiona, czerwona p³achta{x~
+Descr Jaka¶ mocno postrzêpiona p³achta wala siê tutaj.~
+Material drewno~
+Type clothing
+ExtraExt 0|JL/1|A
+Wear ADEFI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 80
+Cond 100
+Aff 1 13 2 0 0 0
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 1780
+Name czarna podarta szata~
+Odmiana czarnej podartej szaty~czarnej podartej szacie~czarn± podart± szatê~czarna podart±szat±~czarnej podartej szacie~
+Short czarna podarta szata~
+Descr Czarna, mocno podarta szata le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0|HK
+Wear AK
+Wear2Ext 0|D
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 90
+Cond 50
 Comments ~
 Objend
 #Vnum 1781
@@ -1057,7 +1108,6 @@ LiczbaMnoga 1
 Gender 5
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 150
 Cost 210000
 Cond 100
@@ -1068,8 +1118,8 @@ najstraszniejsze... Bowiem skrzyd³a poruszaj± siê co chwilê, jakby
 niezale¿nie od czyjejkolwiek woli. Niemniej $n wygl±da z nimi naprawde
 dziwnie i gro¼nie. 
 ~
-Objprog preremove rem_k_s 100~
 Objprog wear kosciane_sk 100~
+Objprog preremove rem_k_s 100~
 Itemdesc Spogl±dasz na monstrualne, ogromne ko¶ciane skrzyd³a z lekk± odraz±. By³y
 one kiedy¶ w³asno¶ci± ko¶cianego smoka Venreeh'meyela zamieszkuj±cego ruiny
 zamku Malerris, niedaleko Carrallak. Niesamowitym wydaje siê fakt, i¿
@@ -1096,12 +1146,34 @@ Gender 0
 Komponent 5 6000
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 21000
 Cond 50
 Aff 1 26 120 2 0 0
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1783
+Name niewielki runiczny sztylet~
+Odmiana {rniewielki, runiczny sztylet{x~{rniewielkiemu, runicznemu sztyletowi{x~{rniewielki, runiczny sztylet{x~{rniewielkim, runicznym sztyletem{x~{rniewielkim, runicznym sztylecie{x~
+Short {rniewielki, runiczny sztylet{x~
+Descr Niewielki, runiczy sztylet przyci±ga twój wzrok.~
+Material stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 4 11 8 1 1
+Repair 0 0 0 0
+Weight 40
+Cost 25200
+Cond 25
+Itemdesc Jest to niewielki sztylet pokryty tajemniczymi, krwisto-czerwonymi
+runami. Doskonale nadaje siê do zadawania precyzyjnych i silnych pchniêæ. 
+~
 Comments ~
 Objend
 #Vnum 1784
@@ -1119,10 +1191,101 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 0
 Cond 10
+Comments ~
+Objend
+#Vnum 1785
+Name zdobiony dwurêczny miecz~
+Odmiana zdobionego dwurêcznego miecza~zdobionemu dwurêcznemu mieczowi~zdobiony dwurêczny miecz~zdobionym dwurêcznym mieczem~zdobionym dwurêcznym mieczu~
+Short zdobiony dwurêczny miecz~
+Descr Piêknie zdobiony dwurêczny miecz le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 3 5 1 32 1 1
+Repair 0 0 0 0
+Weight 230
+Cost 21000
+Cond 1
+Itemdesc Na pierwszy rzut oka miecz ten nie ró¿ni siê niczym od pozosta³ych
+dwurêcznych mieczy spotykanych na ¶wiecie. Jednak po bli¿szym przyjrzeniu
+mo¿na zauwa¿yæ, ¿e ostrze jest przyozdobione jakimi¶ runami. 
+~
+Comments ~
+Objend
+#Vnum 1786
+Name solidny czarny brzeszczot~
+Odmiana {Wsolidnego {Dczarnego{x brzeszczota{x~{Wsolidnemu {Dczarnemu{x brzeszczotowi{x~{Wsolidny {Dczarny{x brzeszczot{x~{Wsolidnym {Dczarnym{x brzeszczotem{x~{Wsolidnym {Dczarnym{x brzeszczocie{x~
+Short {Wsolidny {Dczarny{x brzeszczot{x~
+Descr D³ugi czarny miecz o solidnym ostrzu le¿y tutaj.~
+Material mithril~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 2 6 41 0 1 1
+Repair 0 0 0 0
+Weight 100
+Cost 18000
+Cond 100
+Aff 1 13 2 0 0 0
+Itemdesc Jest to bardzo ostry miecz, kowal który go wyku³ zabarwi³ ostrze na
+czarny, g³êboki kolor dodaj±c tym samym mrocznego charakteru. Brzeszczot
+nadaje siê doskonale do zadawania g³êbokich ciêæ. 
+~
+Comments ~
+Objend
+#Vnum 1787
+Name stare biurko szuflada~
+Odmiana starego biurka~staremu biurku~stare biurko~starym biurkiem~starym biurku~
+Short stare biurko~
+Descr {yStare mocno wypaczone drewniane biurko stoi przy murze.{x~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 30 29 1799 300 100 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 600
+Cond 10
+Comments ~
+Objend
+#Vnum 1788
+Name zakurzone krzes³o~
+Odmiana zakurzonego krzes³a~zakurzonemu krzes³u~zakurzone krzes³o~zakurzonym krzes³em~zakurzonym krze¶le~
+Short zakurzone krzes³o~
+Descr W cieniu stoi sobie zakurzone krzes³o.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 300 8208 102 100 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 40
+Cond 50
+Extradesc oparcie~
+Proste oparcie z piêknymi drzeworytami...
+~
 Comments ~
 Objend
 #Vnum 1789
@@ -1140,10 +1303,63 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 50
 Cost 10
 Cond 10
+Comments ~
+Objend
+#Vnum 1790
+Name dwurêczny rycerski flamberg~
+Odmiana {Wd{cw{Wu{cr{Wê{cc{Wz{cn{We{cg{Wo {cr{Wy{cc{We{cr{Ws{ck{Wi{ce{Wg{co {Wf{cl{Wa{cm{Wb{ce{Wr{cg{Wa{x~{Wd{cw{Wu{cr{Wê{cc{Wz{cn{We{cm{Wu {cr{Wy{cc{We{cr{Ws{ck{Wi{ce{Wm{cu {Wf{cl{Wa{cm{Wb{ce{Wr{cg{Wo{cw{Wi{x~{Wd{cw{Wu{cr{Wê{cc{Wz{cn{Wy {cr{Wy{cc{We{cr{Ws{ck{Wi {Wf{cl{Wa{cm{Wb{ce{Wr{cg{x~{Wd{cw{Wu{cr{Wê{cc{Wz{cn{Wy{cm {cr{Wy{cc{We{cr{Ws{ck{Wi{cm {Wf{cl{Wa{cm{Wb{ce{Wr{cg{Wi{ce{Wm{x~{Wd{cw{Wu{cr{Wê{cc{Wz{cn{Wy{cm {cr{Wy{cc{We{cr{Ws{ck{Wi{cm {Wf{cl{Wa{cm{Wb{ce{Wr{cg{Wu{x~
+Short {Wd{cw{Wu{cr{Wê{cc{Wz{cn{Wy {cr{Wy{cc{We{cr{Ws{ck{Wi {Wf{cl{Wa{cm{Wb{ce{Wr{cg{x~
+Descr Le¿y tutaj wielki dwurêczny miecz u¿ywany przez rycerzy.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 3 5 42 32 2 2
+Repair 0 0 0 0
+Weight 230
+Cost 48000
+Cond 100
+Aff 1 26 225 5 0 0
+Aff 1 26 430 5 0 0
+Itemdesc Jest to zaiste wpsania³y miecz, trudno okre¶liæ jego d³ugo¶æ, lecz z
+³atwo¶ci± mo¿na walczyæ nim z ca³ymi hordami przeciwników. Ostrze jest
+naprawde szerokie i d³ugie, co sprawia, ¿e ³atwo walczyæ nim z kilkoma
+wrogami jednocze¶nie. Rêkoje¶æ za¶ przystosowana jest do trzymania
+oburêcznego co daje jeszcze lepsze mo¿liwo¶ci je¶li chodzi o walkê. 
+~
+Comments ~
+Objend
+#Vnum 1791
+Name zdobiony dwurêczny m³ot~
+Odmiana zdobionego dwurêcznego m³ota~zdobionemu zwurêcznemu m³otowi~zdobiony dwurêczny m³ot~zdobionym dwurêcznym m³otem~zdobionym dwurêcznym m³ocie~
+Short dwurêczny zdobiony m³ot~
+Descr Piêkny stalowy m³ot z dziwnymi zdobieniami na obuchu.~
+Material stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 3 4 8 32 1 2
+Repair 0 0 0 0
+Weight 250
+Cost 22200
+Cond 50
+Itemdesc Jest to dwurêczny m³ot o bardzo d³ugim, metalowym trzonku. Na jego
+szczycie znajduje sie ogromny obuch którym z ³atwo¶ci± mo¿na po³amaæ ko¶ci
+przeciwnika. Na ca³ej jego d³ugo¶ci jaki¶ kowal wykona³ piêkne zdobienia
+przypominaj±ce fale. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 1792
@@ -1161,7 +1377,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 1
 Cond 100
@@ -1182,7 +1397,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 10
 Cond 100
@@ -1208,7 +1422,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1000
 Cost 0
 Cond 100
@@ -1216,6 +1429,26 @@ Itemdesc Zagl±dasz z zaciekawieniem wg³±b studni. Najwyra¼niej jest do¶æ g³êboka
 bo nie mo¿esz dostrzec dna. ¦ciany s± mocno nadgryzione przez czas. Nie
 znajdziesz tutaj nic ciekawego.
 ~
+Comments ~
+Objend
+#Vnum 1796
+Name ciê¿ka skrzynia~
+Odmiana ciê¿kiej skrzyni~ciê¿kiej skrzyni~ciê¿k± skrzyniê~ciê¿k± skrzyni±~ciê¿kiej skrzyni~
+Short ciê¿ka skrzynia~
+Descr Stoi tutaj ciê¿ka drewniana skrzynia z wielk± k³ódk±.~
+Material drewno~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 13 1797 100 100 0 0
+Repair 0 0 0 0
+Weight 800
+Cost 0
+Cond 100
 Comments ~
 Objend
 #Vnum 1797
@@ -1233,10 +1466,33 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 30
 Cond 50
+Comments ~
+Objend
+#Vnum 1798
+Name pod³u¿ny zdobiony toporek~
+Odmiana zdobionego toporka~zdobionemu toporkowi~zdobiony toporek~zdobionym toporkiem~zdobionym toporku~
+Short pod³u¿ny, zdobiony toporek~
+Descr Zdobiony topor o d³ugim trzonku le¿y tutaj.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|G
+Wear ANO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 2 7 1 0 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 6000
+Cond 50
+Itemdesc Ten toporek zosta³ przyozdobiony z³otymi runami, ma kolor czarny. Na
+trzonku wyryto jaki¶ dziwny znak przedstawiaj±cy chyba rune. Jest to lekka i
+poreczna broñ. 
+~
 Comments ~
 Objend
 #Vnum 1799
@@ -1254,14 +1510,134 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 5
 Cond 50
 Comments ~
 Objend
+#Vnum 1800
+Name przy³bica z czarnego kryszta³u~
+Odmiana {Dprzy³bica z czarnego kryszta³u{x~{Dprzy³bicy z czarnego kryszta³u{x~{Dprzy³bicê z czarnego kryszta³u{x~{Dprzy³bic± z czarnego kryszta³u{x~{Dprzy³bicy z czarnego kryszta³u{x~
+Short {Dprzy³bica z czarnego kryszta³u{x~
+Descr Przy³bica wykonana z czarnego kryszta³u le¿y na ziemi po³yskuj±c.~
+Material kryszta³~
+Type armor
+ExtraExt 0|G
+Wear AE
+Wear2Ext 0|L
+Bonus 1751
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 100
+Weight 100
+Cost 7800
+Cond 100
+Itemdesc Jest to elegancka i solidna przy³bica wykonana z jakiego¶ dziwnego
+czarnego kryszta³u. Przy³bica zas³ania ca³± twarz tak, ¿e widaæ tylko dwa
+otwory przez który siê patrzy oraz kilka dziurek do oddychania. Z przy³bicy
+ku górze wychodz± trzy ostre szpikulce, które mog± zrobiæ dodatkow± krzywdê
+przeciwnikowi, je¶li akurat siê napatoczy. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1801
+Name du¿a sze¶ciok±tna tarcza~
+Odmiana sze¶ciok±tnej tarczy~sze¶ciok±tnej tarczy~sze¶ciok±tn± tarczê~sze¶ciok±tn± tarcz±~sze¶ciok±tnej tarczy~
+Short du¿a sze¶ciok±tna tarcza~
+Descr Du¿a tarcza o sze¶ciu k±tach le¿y tutaj.~
+Material doskona³a stal~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 2 3 30 8 -1 3 0
+Repair 0 0 0 0
+Weight 180
+Cost 6000
+Cond 50
+Itemdesc Jest to wielka tarcza wykonana z stali. Zbrojmistrz który j± wyku³ musia³
+byæ nielada rzemie¶lnikiem, poniewa¿ zaprawde piêkny to wyrób, chocia¿
+troche ju¿ podniszczony, jednak stanowi dobr± ochronê. 
+~
+Comments ~
+Objend
+#Vnum 1802
+Name poobijany he³m~
+Odmiana poobijanego he³mu~poobijanemu he³mowi~poobijany he³m~poobijanym he³mem~poobijanym he³mie~
+Short poobijany he³m~
+Descr Widzisz mocno poobijany he³m zapewne z ¿elaza.~
+Material stal~
+Type armor
+ExtraExt 0|M
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 10 7 9 7 0 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 1380
+Cond 50
+Comments ~
+Objend
+#Vnum 1803
+Name naramienniki z czarnego kryszta³u~
+Odmiana {Dnaramienników z czarnego kryszta³u{x~{Dnaramiennikom z czarnego kryszta³u{x~{Dnaramienniki z czarnego kryszta³u{x~{Dnaramiennikami z czarnego kryszta³u{x~{Dnaramiennikach z czarnego kryszta³u{x~
+Short {Dnaramienniki z czarnego kryszta³u{x~
+Descr Naramienniki wykute z czarnego kryszta³u le¿± na ziemi pokryte kurzem.~
+Material kryszta³~
+Type armor
+ExtraExt 0|G
+Wear AI
+Wear2Ext 0|L
+Bonus 1751
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 100
+Weight 100
+Cost 4800
+Cond 100
+Itemdesc Masz przed sob± naramienniki wykonane z dziwnego czarnego kryszta³u.
+Kryszta³ jest ca³kowicie nieprzezroczysty. B³yszczy delikatnie w ¶wietle
+s³oñca. Naramienniki pokrywaj± ca³e ramiona i zachodz± trochê poni¿ej barek.
+Zakoñczenie zosta³o przyzdobione w ma³e ostrza, a na ¶rodku znajduje siê
+p³askorze¼ba przedstawiaj±ca ko¼l± czaszkê. 
+~
+Comments ~
+Objend
+#Vnum 1804
+Name du¿a zakrzywiona rohatyna~
+Odmiana zakrzywionej rohatyny~zakrzywionej rohatynie~zakrzywion± rohatynê~zakrzywion± rohatyn±~zakrzywionej rohatynie~
+Short du¿a, zakrzywiona rohatyna~
+Descr Le¿y tutaj wielka, zakrzywiona rohatyna.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 8 4 4 42 32 1 1
+Repair 0 0 0 0
+Weight 270
+Cost 10200
+Cond 50
+Itemdesc Jest to dosyæ okaza³a broñ, trzonek rohatyny wykonano z dêbowego drewna,
+za¶ ostrze chyba zosta³o wykute ze stali. Prezentuje siê bardzo okazale i
+widaæ, ¿e jest dobr± broni±. 
+~
+Comments ~
+Objend
 #Vnum 1806
-Name blyszczacy helm blyszczacy1806 questitem~
+Name b³yszcz±cy he³m blyszczacy1806~
 Odmiana b³yszcz±cego he³mu~b³yszcz±cemu he³mowi~b³yszcz±cy he³m~b³yszcz±cym he³mem~b³yszcz±cym he³mie~
 Short b³yszcz±cy he³m~
 Descr Widzisz piêknie zdobiony b³yszcz±cy ró¿nymi kolorami he³m.~
@@ -1273,9 +1649,8 @@ Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
 Gender 0
-Value 6 7 6 10 4 0 0
+Value 6 6 6 10 5 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 3600
 Cond 100
@@ -1284,6 +1659,32 @@ mo¿na uzyskaæ. Jego konstrukcja jest niezmiernie prosta, tak aby os³ania³
 g³owê nie utrudniaj±c zarazem rozgl±dania siê na boki. Widaæ, ¿e jest to
 bardzo stary model, wrêcz antyczny, jednak b³yszczy siê jakby by³ przed
 chwil± polerowany! Jakby czas omija³ ten he³m z daleka. Dziwne. 
+~
+Comments ~
+Objend
+#Vnum 1807
+Name pancerz z czarnego kryszta³u~
+Odmiana {Dpancerza z czarnego kryszta³u{x~{Dpancerzowi z czarnego kryszta³u{x~{Dpancerz z czarnego kryszta³u{x~{Dpancerzem z czarnego kryszta³u{x~{Dpancerzu z czarnego kryszta³u{x~
+Short {Dpancerz z czarnego kryszta³u{x~
+Descr Pancerz wykonany z czarnego kryszta³u le¿y tutaj na ziemi.~
+Material kryszta³~
+Type armor
+ExtraExt 0|G
+Wear AD
+Wear2Ext 0|L
+Bonus 1751
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 100
+Weight 150
+Cost 2400
+Cond 100
+Itemdesc Ten przepiêkny pancerz wykonano z niesamowitego kryszta³u koloru
+czarnego. Jest on niesamowicie wytrzyma³y i mocny. Kryszta³ jest ca³kowicie
+nieprzezroczysty, co dodaje mu dodatkowego uroku. Na platce piersiowej
+wstawiony jest poz³acany krzy¿, który powoduje, ¿e osoba nosz±ca go wygl±da
+jeszcze mê¿niej ni¿ wygl±da³a. 
 ~
 Comments ~
 Objend
@@ -1302,7 +1703,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 6
 Cost 4800
 Cond 90
@@ -1330,7 +1730,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 13
 Cost 5
 Cond 100
@@ -1349,6 +1748,31 @@ magicznie zamkniêtych miejsc. Ciekawe jakie drzwi czy wrota otwiera Taris?
 ~
 Comments ~
 Objend
+#Vnum 1810
+Name karwsze z czarnego kryszta³u~
+Odmiana {Dkarwasze z czarnego kryszta³u{x~{Dkarwaszom z czarnego kryszta³u{x~{Dkarwasze z czarnego kryszta³u{x~{Dkarwaszami z czarnego kryszta³u{x~{Dkarwaszach z czarnego kryszta³u{x~
+Short {Dkarwasze z czarnego kryszta³u{x~
+Descr Karawsze wykonane z czarnego kryszta³u le¿± tutaj na ziemi.~
+Material kryszta³~
+Type armor
+ExtraExt 0|G
+Wear AH
+Wear2Ext 0|L
+Bonus 1751
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 100
+Weight 60
+Cost 6000
+Cond 100
+Itemdesc S± to w miarê lekkie, wykonane z czarnego kryszta³u karwasze. Wygl±daj±
+na bardzo wytrzyma³e, a kryszta³ na naprawdê solidny. Maestro, który jest
+stworzy³ musia³ byæ wyj±tkowo uzdolniony. WYgl±da na to, ¿e przy tworzeniu
+tego przedmiotu nie oszdzêdzono równie¿ tajemnej magii. 
+~
+Comments ~
+Objend
 #Vnum 1811
 Name staro¿ytna ksiêga~
 Odmiana {ystaro¿ytnej ksiêgi{x~{ystaro¿ytnej ksiêdze{x~{ystaro¿ytn± ksiêgê{x~{ystaro¿ytn± ksiêg±{x~{ystaro¿ytnej ksiêdze{x~
@@ -1364,13 +1788,104 @@ LiczbaMnoga 0
 Gender 0
 Value 0 9 296 0 91 328 364
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 51540
 Cond 75
 Itemdesc Piêkna ksiêga okuta z³ot± oprawa. Jest naprawdê bardzo stara i pewnie
 niewyobra¿alnie cenna. Na grzbiecie wyryte s± srebrne runy w jakim¶ bardzo
 dziwnym jêzyku. 
+~
+Comments ~
+Objend
+#Vnum 1812
+Name b³êkitna zbroja stalowa~
+Odmiana b³êkitnej zbroi~b³êkitnej zbroi~b³êkitn± zbrojê~b³êkitn± zbroj±~b³êkitnej zbroi~
+Short {Cb³êkitna{x zbroja~
+Descr Stalowa zbroja o {Cb³êkitnym{x odcieniu le¿y tu porzucona.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 1 2 0 8 14 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 1813
+Name nabioderniki z czarnego kryszta³u~
+Odmiana {Dnabioderników z czarnego kryszta³u{x~{Dnabiodernikom z czarnego kryszta³u{x~{Dnabioderniki z czarnego kryszta³u{x~{Dnabiodernikami z czarnego kryszta³u{x~{Dnabiodernikach z czarnego kryszta³u{x~
+Short {Dnabioderniki z czarnego kryszta³u{x~
+Descr Nabioderniki wykonane z czarnego kryszta³u le¿± tutaj.~
+Material kryszta³~
+Type armor
+ExtraExt 0|G
+Wear AF
+Wear2Ext 0|L
+Bonus 1751
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 7 15 0 0
+Repair 0 0 0 100
+Weight 80
+Cost 3000
+Cond 100
+Itemdesc S± to nabioderniki wykonane z czarnego kryszta³u. Wygl±daj± naprawdê
+solidnie. Na z³±czeniu, gdzie znajduj± kolana, znajduje siê dodatkowa
+warstwa kryszta³u, który powoduje, ¿e pancerz jest jeszcze bardziej
+wytrzyma³y. Kryszta³, z którego wykonane s± nabioderniki jest
+nieprzezroczysty i idealnie g³adki. To bardzo wyj±tkowy materia³. 
+~
+Comments ~
+Objend
+#Vnum 1814
+Name stalowe nabiodrniki~
+Odmiana stalowych nabiodrników~stalowym nabiodrnikom~stalowe nabiodrniki~stalowymi nabiodrnikami~stalowych nabiodrnikach~
+Short stalowe nabiodrniki~
+Descr Nabiodrniki wykonane ze stali rdzewiej± na ziemi.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AL
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 3 3 3 8 14 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 1816
+Name buty z czarnego kryszta³u~
+Odmiana {Dbutów z czarnego kryszta³u{x~{Dbutom z czarnego kryszta³u{x~{Dbuty z czarnego kryszta³u{x~{Dbutami z czarnego kryszta³u{x~{Dbutach z czarnego kryszta³u{x~
+Short {Dbuty z czarnego kryszta³u{x~
+Descr Buty wykonane z czarnego kryszta³u le¿± na ziemi.~
+Material kryszta³~
+Type armor
+ExtraExt 0|G
+Wear AG
+Wear2Ext 0|L
+Bonus 1751
+LiczbaMnoga 1
+Gender 5
+Value 0 0 0 7 15 2 0
+Repair 0 0 0 100
+Weight 60
+Cost 4800
+Cond 100
+Itemdesc Masz przed sob± buty wykonane z czarnego kryszta³u. Wygl±daj± one na
+bardzo solidne i wytrzyma³e. W ¶rodku zosta³y wy³o¿one jakim¶ miekkim
+materia³em co sprawia, ¿e chodzenie w nich jest wyj±tkowo przyjemne i nie
+mêczy stóp, które s± obci±¿one noszeniem ca³ego ekwipunku. 
 ~
 Comments ~
 Objend
@@ -1389,43 +1904,42 @@ LiczbaMnoga 0
 Gender 2
 Value 1 2 9 41 65536 3 1
 Repair 0 0 0 0
-Length 109
 Weight 80
 Cost 240000
 Cond 100
-Aff 1 1 5 0 0 0
-Aff 1 29 -5 0 0 0
-Aff 1 26 120 5 0 0
 Aff 1 26 116 5 0 0
-Objprog time 1817_time 0~
-Objprog time 1817_time 0~
-Objprog time 1817_time 23~
-Objprog time 1817_time 22~
-Objprog time 1817_time 21~
-Objprog time 1817_time 20~
-Objprog time 1817_time 19~
-Objprog time 1817_time 18~
-Objprog time 1817_time 17~
-Objprog time 1817_time 16~
-Objprog time 1817_time 15~
-Objprog time 1817_time 14~
-Objprog time 1817_time 13~
-Objprog time 1817_time 12~
-Objprog time 1817_time 11~
-Objprog time 1817_time 10~
-Objprog time 1817_time 9~
-Objprog time 1817_time 8~
-Objprog time 1817_time 7~
-Objprog time 1817_time 6~
-Objprog time 1817_time 5~
-Objprog time 1817_time 4~
-Objprog time 1817_time 3~
-Objprog time 1817_time 1~
-Objprog time 1817_time 2~
-Objprog remove 1817_remove 100~
-Objprog prewear 1817_wield 100~
-Objprog get 1817_get 100~
+Aff 1 26 120 5 0 0
+Aff 1 29 -5 0 0 0
+Aff 1 1 5 0 0 0
 Objprog drop 1817_drop 100~
+Objprog get 1817_get 100~
+Objprog prewear 1817_wield 100~
+Objprog remove 1817_remove 100~
+Objprog time 1817_time 2~
+Objprog time 1817_time 1~
+Objprog time 1817_time 3~
+Objprog time 1817_time 4~
+Objprog time 1817_time 5~
+Objprog time 1817_time 6~
+Objprog time 1817_time 7~
+Objprog time 1817_time 8~
+Objprog time 1817_time 9~
+Objprog time 1817_time 10~
+Objprog time 1817_time 11~
+Objprog time 1817_time 12~
+Objprog time 1817_time 13~
+Objprog time 1817_time 14~
+Objprog time 1817_time 15~
+Objprog time 1817_time 16~
+Objprog time 1817_time 17~
+Objprog time 1817_time 18~
+Objprog time 1817_time 19~
+Objprog time 1817_time 20~
+Objprog time 1817_time 21~
+Objprog time 1817_time 22~
+Objprog time 1817_time 23~
+Objprog time 1817_time 0~
+Objprog time 1817_time 0~
 Itemdesc {DMasz przed sob± przepiêkny i intryguj±cy miecz zwany Niewol± Wiarusa.
 Ostrze tego miecza nie jest idealnie b³adkie i p³askie. Zdobi± go liczne
 przet³oczenia i tajemnicze runy. Na ¶rodku ostrza, id±c od rêkoje¶ci w linii
@@ -1440,9 +1954,11 @@ tego miecza, ani my¶lisz o jakichkolwiek rozmowach, lecz pragniesz po prostu
 walczyæ. {x 
 ~
 Identdesc ~
-Comments ~
-SpecDamExt 7 100 3 -100 -100 0 1 0
+Comments poprawione affecty na -5 +5 z -6 +6 - {RKarlam{x ({CThu Mar 31 14:42:33 2011{x)
+Zabralem affect silence, dodajac co tick 10 dmg. I poprawi³em progi, bo przyu remove i drop wywalo³o muda.. Postaæ wtedy traci³a arta. - {RSeinar{x ({CFri Apr  8 18:13:12 2011{x)
+~
 SpecDamExt 8 100 -100 -100 -100 2|C 4 1
+SpecDamExt 7 100 3 -100 -100 0 1 0
 Objend
 #Vnum 0
 
@@ -1486,9 +2002,9 @@ Exit 2
 ~
 ~
 0 0 1834
-Roomprog reset 1753 100~
-Roomprog input 1752 wywaz brame~
 Roomprog input 1752 wywaz~
+Roomprog input 1752 wywaz brame~
+Roomprog reset 1753 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1524,9 +2040,9 @@ Exit 3
 ~
 ~
 0 0 1753
-Roomprog reset 1753 100~
-Roomprog input 1754 wywaz brame~
 Roomprog input 1754 wywaz~
+Roomprog input 1754 wywaz brame~
+Roomprog reset 1753 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -4788,14 +5304,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 8208
 ExitExtKey 0
 ExitExtToVnum 1842
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 1842
+8208 0 1842
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4900,14 +5416,14 @@ Exit 1
 ~
 ~
 0 0 1836
-ExitExt 3
+ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 1838
 ExitExtEnd
-Exit 3
+Exit 5
 ~
 ~
 0 0 1838
@@ -4925,17 +5441,6 @@ kosztowaæ mnóstwo pieniêdzy.
 ~
 FlagsExt 0
 Sector 18
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1837
-ExitExtEnd
-Exit 1
-~
-~
-0 0 1837
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -4947,6 +5452,17 @@ Exit 2
 ~
 ~
 0 0 1839
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1837
+ExitExtEnd
+Exit 4
+~
+~
+0 0 1837
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5101,14 +5617,14 @@ Exit 2
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 8208
 ExitExtKey 0
 ExitExtToVnum 1834
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 1834
+8208 0 1834
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -5551,7 +6067,7 @@ O 100 1752 0 1837
 O 100 1751 0 1840
 M 100 1752 3 1843 1
 M 100 1752 3 1845 1
-O 100 2357 0 1846
+O 100 1759 0 1846
 M 100 1752 3 1850 1
 S
 
@@ -5564,7 +6080,7 @@ Ubieranie wojownika
 mob equip self 1760
 mob oload gem 2
 if rand 95
-  mob equip self 3152
+  mob equip self 3079
 else
   mob equip self 1763
 endif
@@ -5590,21 +6106,20 @@ mob echo Szkielet pana w³o¶ci rozpada siê na kawa³ki, a na ziemiê upada jaki¶ fr
 if rand 97
   mob oload 1800
 endif
-# czesci czarnego krysztalowego pacenrza
 if rand 97
-  mob oload 29760
+  mob oload 1803
 endif
 if rand 97
-  mob oload 29761
+  mob oload 1807
 endif
 if rand 97
-  mob oload 29762
+  mob oload 1810
 endif
 if rand 97
-  mob oload 29763
+  mob oload 1813
 endif
 if rand 97
-  mob oload 29764
+  mob oload 1816
 endif
 ~
 #1755
@@ -5613,23 +6128,22 @@ Drop pieczêci koscianego monstrum
 mob oload 1771 r
 mob echo Ko¶ciane monstrum pada na ziemiê i rozlatuje siê na kawa³ki, a fragment pieczêci, który wylecia³ z jednej z czaszek, turla siê pod twoje nogi.
 if rand 98
-  mob oload 3048 room
+  mob oload 1800 r
 endif
-# czesci czarnego krysztalowego pacenrza
-if rand 97
-  mob oload 29760 room
-endif
-if rand 97
-  mob oload 29761 room
+if rand 98
+  mob oload 1803 r
 endif
 if rand 97
-  mob oload 29762 room
+  mob oload 1807 r
 endif
 if rand 97
-  mob oload 29763 room
+  mob oload 1810 r
 endif
 if rand 97
-  mob oload 29764 room
+  mob oload 1813 r
+endif
+if rand 99
+  mob oload 1816 r
 endif
 ~
 #1755_monstrum
@@ -5753,13 +6267,13 @@ mob setflag $n straznicy_zabici_1 -1
 ~
 #equip_tarcz
 ~
-mob equip self 3045
-mob equip self 3077
-mob equip self 3029
-mob equip self 3061
-mob equip self 3003
-mob oload weapon 5 w
-mob oload shield 5 w
+mob equip self 3068
+mob equip self 3357
+mob equip self 3066
+mob equip self 3358
+mob equip self 27622
+mob oload weapon 7 w
+mob oload shield 7 w
 ~
 #kosciany_death
 ~
@@ -5792,9 +6306,6 @@ endif
 if rand 70
   mob oload 1781
 endif
-mob oload gem 7
-mob oload gem 6
-mob oload gem 6
 mob oload gem 5
 mob oload gem 5
 mob oload gem 6
@@ -5808,13 +6319,6 @@ if rand 97
     mob aload 1817
   endif
 endif
-mob oload random 7
-mob oload random 6
-mob oload random 5
-mob oload random 4
-mob oload random 3
-$_room = room_by_vnum 1833
-call roomprog 1753_skrzynia $_room
 ~
 #kosciany_fight
 ~
@@ -5955,8 +6459,8 @@ mob equip self 1764
 mob equip self 1767
 mob equip self 1770
 mob equip self 1773
-mob equip self 3016
-mob equip self 3128
+mob equip self 1776
+mob equip self 1790
 ~
 #pusty__12
 ~
@@ -6102,12 +6606,12 @@ if hasflag $n argusdone
 endif
 mob removeflag $n argushave
 if wears $n 1806
-and wears $n 29761
+and wears $n 1807
 and wears $n 1808
   mob setflag $n argushave -1
 endif
 if carries $n 1806
-and carries $n 29761
+and carries $n 1807
 and carries $n 1808
   mob setflag $n argushave -1
 endif
@@ -6127,7 +6631,7 @@ if hasflag $n argushave
     mob echoat $n Podajesz Argusowi b³yszcz±cy naszyjnik, naramienniki i he³m.
     mob echoaround $n $n podaje Argusowi b³yszcz±cy naszyjnik, naramienniki i he³m.
     mob remove $n 1806
-    mob remove $n 29761
+    mob remove $n 1807
     mob remove $n 1808
     delay 1
     emote wyjmuje jak±¶ star± ksiêgê oprawion± w skórê.
@@ -6325,45 +6829,6 @@ mob oload 1751
 #0
 
 #OBJPROGSNEW
-#1753_load
-~
-mob oload gem 7 i 1753
-mob oload random 7  i 1753
-mob oload gem 6 i 1753
-mob oload random 6 i 1753
-mob oload gem 5 i 1753
-mob oload gem 5 i 1753
-mob oload random 5 i 1753
-mob oload random 5 i 1753
-mob oload random 3 i 1753
-mob oload random 2 i 1753
-mob oload random 2 i 1753
-mob oload gem 3 i 1753
-mob oload gem 3 i 1753
-mob oload gem 3 i 1753
-if rand 80
-  mob oload gem 6 i 1753
-  mob oload random 6 i 1753
-  mob oload random 6 i 1753
-else
-  mob oload gem 5 i 1753
-  mob oload gem 4 i 1753
-  mob oload random 3 i 1753
-  mob oload random 4 i 1753
-endif
-if rand 95
-  mob oload gem 7 i 1753
-  mob oload random 7 i 1753
-  mob oload random 6 i 1753
-  mob oload random 5 i 1753
-endif
-obj setflag kosciana_timer 4
-~
-#1753_unload
-~
-mob echo {WKo¶ciana skrzynia{x pozbawiona smoczej magii rozpada siê i znika.
-obj remove
-~
 #1758
 Podnoszenie ko¶ci.
 ~
@@ -6694,12 +7159,6 @@ Reset bramy
 ~
 mob removeflag room brama_otwarta
 ~
-#1753_skrzynia
-~
-delay 2
-mob echo {DPozbawiona smoczej {Bmagii{x {Dzas³ona niewidzialno¶ci skrywaj±ca smoczy skarb znika. Przed tob± pojawia siê {Wko¶ciana skrzynia{x.
-mob oload 1753 r
-~
 #1754
 Otwieranie bramy
 ~
@@ -6835,7 +7294,7 @@ if ispc $n
     mob force $n drop drabina
     mob purge drabina
     mob at 1793 mob purge drabina
-    mob at 1793 mob oload 3152 room
+    mob at 1793 mob oload 3079 room
     mob echoat $n Przystawiasz drabinê do ¶ciany i wspinasz siê po niej do góry.
     mob echoaround $n $n przystawia drabinê do ¶ciany i wspina siê po niej do góry.
     mob transfer $n 1812
@@ -6853,7 +7312,7 @@ endif
 #1766
 ~
 mob at 1793 mob purge drabina
-mob at 1793 mob oload 3152 room
+mob at 1793 mob oload 3079 room
 mob transfer $n 1793
 ~
 #1767
@@ -6976,7 +7435,7 @@ Trapend
 #Vnum 1753
 Active 1
 Level 8
-Type 99
+Type 98
 Triggered mob echoat $n Czujesz jak temperatura {Wko¶cianej skrzyni{x pod twoim niefachowym dotkniêciem gwa³townie spada. 
 mob echoaround $n $n, ten po¶ledni z³odziejaszek chyba co¶ spartoli³, bo czujesz jak temperatura w pomieszczeniu z {Wko¶cian± skrzyni±{x gwa³townie spada. 
 mob echo Z {Wko¶cianej skrzyni{x z sykiem wylatuje {Blodowate{x powietrze zamra¿aj±c wszystko do oko³a.
@@ -7002,7 +7461,7 @@ Failed mob echoat $n Czujesz jak temperatura {Wko¶cianej skrzyni{x pod twoim nie
 endfor
 mob forget
 ~
-Limit 4920340
+Limit 5248020
 Trapend
 #Vnum 0
 
@@ -7018,6 +7477,29 @@ Trapend
 
 
 #BONUS_SET
+#Vnum 1751
+Name Set z czarnego kryszta³u~
+Desc Set g³ównie dla wojowników, paladynów, czarnego.
+~
+Comments normalizacja - {RRisan{x ({CThu Mar 31 13:29:17 2011{x)
+teraz to jest normalizacja set dropi sie na zwyklych mobach i jest 0/0/0 - {RKarlam{x ({CMon Apr  4 09:51:07 2011{x)
+nodruid. - {RRisan{x ({CThu May  5 21:50:19 2011{x)
+doda³em 1 do trafienia - {RRisan{x ({CSun Jul 31 14:46:05 2011{x)
+rar, max 5 sztuk - {RRisan{x ({CSun Jul 31 14:57:18 2011{x)
+~
+Aff 1 18 1 0 0 0
+Aff 1 12 8 2 0 0
+Aff 1 12 10 2 0 0
+Aff 1 12 5 2 0 0
+Aff 1 12 9 2 0 0
+Aff 1 12 7 2 0 0
+Aff 1 17 -5 0 0 0
+WearProg mob echoat $n Po za³o¿eniu ostatniej czê¶ci zbroi z czarnego kryszta³u wygl±dasz jak prawdziwy wojownik.
+mob echoat $n Czujesz siê o wiele silniejszy i bezpieczniejszy.
+~
+RemoveProg mob echoat $n Zdejmuj±c to, czujesz siê trochê s³abszy.
+~
+BonusEnd
 #Vnum 0
 
 #$

@@ -29,7 +29,7 @@ Race elf~
 ActExt 0|AEGT/2|C
 Affected 33554472 0 0 0
 AffectedExt 0|DFZ
-Align -1000
+Align -100
 Group 0
 Lang A
 Speaks 0
@@ -72,6 +72,54 @@ Mobend
 
 
 #OBJECTS
+#Vnum 24451
+Name smuk³y dwurêczny koncerz~
+Odmiana smuk³ego dwurêcznego koncerza~smuk³emu dwurêcznemu koncerzowi~smuk³y dwurêczny koncerz~smuk³ym dwurêcznym koncerzem~smuk³ym dwurêcznym koncerzu~
+Short smuk³y dwurêczny koncerz~
+Descr Smuk³y, pokryty runami dwurêczny miecz le¿y tutaj na ziemi.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0|Eb
+Bonus 0
+Rent 250
+LiczbaMnoga 0
+Gender 0
+Value 1 3 5 42 32 3 3
+Repair 0 0 0 0
+Weight 320
+Cost 87600
+Cond 100
+Itemdesc ~
+Identdesc Potê¿ne umagicznienie na tej elfiej broni sprawia, ¿e krasnoludy i orkowie nie mog± jej dobyæ.
+~
+Comments ~
+Objend
+#Vnum 24452
+Name zdobiony pas rycerski~
+Odmiana zdobionego pasa rycerskiego~zdobionemu pasowi rycerskiemu~zdobiony pas rycerski~zdobionym pasem rycerskim~zdobionym pasie rycerskim~
+Short zdobiony pas rycerski~
+Descr Widzisz le¿±cy na ziemi jaki¶ pas rycerski.~
+Material stal~
+Type clothing
+ExtraExt 0|G
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 50
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 70
+Cost 3750
+Cond 100
+Aff 1 17 -3 0 0 0
+Aff 1 13 10 0 0 0
+Itemdesc ~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -335,14 +383,14 @@ Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 2139
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 2139
+16 0 2139
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -447,28 +495,6 @@ Exit 1
 ~
 ~
 0 0 24460
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56071
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56071
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56070
-ExitExtEnd
-Exit 3
-~
-~
-0 0 56070
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -499,17 +525,6 @@ Exit 2
 ~
 ~
 0 0 24461
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56062
-ExitExtEnd
-Exit 3
-~
-~
-0 0 56062
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -559,17 +574,6 @@ Exit 1
 ~
 ~
 0 0 24463
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56062
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56062
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -611,28 +615,6 @@ Exit 1
 ~
 ~
 0 0 24464
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56061
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56061
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56054
-ExitExtEnd
-Exit 3
-~
-~
-0 0 56054
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -663,17 +645,6 @@ Exit 2
 ~
 ~
 0 0 24465
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56048
-ExitExtEnd
-Exit 3
-~
-~
-0 0 56048
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -734,28 +705,6 @@ Exit 1
 ~
 ~
 0 0 24467
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56048
-ExitExtEnd
-Exit 2
-~
-~
-0 0 56048
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56039
-ExitExtEnd
-Exit 3
-~
-~
-0 0 56039
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -786,17 +735,6 @@ Exit 2
 ~
 ~
 0 0 24468
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 56038
-ExitExtEnd
-Exit 3
-~
-~
-0 0 56038
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1020,12 +958,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 24479
+ExitExtToVnum 24478
 ExitExtEnd
 Exit 1
 ~
 ~
-0 0 24479
+0 0 24478
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1043,8 +981,30 @@ Capacity 0
 Roomend
 #Vnum 24478
 Name W±ska ¶cie¿ka~
-FlagsExt 0|C
+FlagsExt 0
 Sector 28
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24479
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24479
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24477
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24477
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1069,12 +1029,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 24477
+ExitExtToVnum 24478
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 24477
+0 0 24478
 DayRDesc 24481
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -1734,36 +1694,27 @@ S
 #MOBPROGSNEW
 #24451_onl
 ~
-mob equip self 3061
-mob equip self 3077
-mob equip self 3045
-mob equip self 3029
-mob equip self 3003
-mob equip self 3128
-if rand 80
-  mob equip self 3099
-endif
-if rand 10
-  mob oload gem 4
-endif
-if rand 10
-  mob oload gem 4
-endif
-if rand 10
-  mob oload body 4
-endif
-if rand 10
-  mob oload finger 4
-endif
-if rand 10
-  mob oload weapon 4
-endif
-if rand 10
-  mob oload gem 5
+mob equip self 3358
+mob equip self 3357
+mob equip self 3068
+mob equip self 3066
+mob equip self 27622
+if rand 93 and canloadarte 24451
+  mob aload 24451 w
+else
+  mob equip self 3048
 endif
 if rand 80
-  mob equip self 4426
+  mob equip self 24452
 endif
+mob oload gem 4
+mob oload gem 4
+mob oload body 4
+mob oload finger 4
+mob oload weapon 4
+mob oload gem 5
+mob equip self 13544
+ 
 ~
 #0
 

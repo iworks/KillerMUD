@@ -190,11 +190,11 @@ ExtraExt 0|d
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 20000 7 15902 1000 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2000
 Cost 6000
 Cond 100
@@ -224,11 +224,11 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 0
 Cond 100
@@ -250,11 +250,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 15904 15902 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 75
@@ -280,11 +280,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 15903 15902 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 75
@@ -297,6 +297,28 @@ baardzo du¿e kurze jajo, bo bry³a ma d³ugo¶æ równ± szeroko¶ci ma³ego
 ogrzynka w uszach, ale ... W spodniej czê¶ci jest nawierconych kilka rowków
 i dziur, zupe³nie jakby co¶ tam trzeba by³o w³o¿yæ. 
 ~
+Comments ~
+Objend
+#Vnum 15905
+Name zakurzona ksiega ksiazka~
+Odmiana zakurzonej ksiegi~zakurzonej ksiedze~zakurzona ksiege~zakurzona ksiega~zakurzonej ksiedze~
+Short zakurzona ksiega~
+Descr Stara, zakurzona ksiêga le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 156
+LiczbaMnoga 0
+Gender 3
+Value 1 6 171 162 227 400 0
+Repair 0 0 0 0
+Weight 5
+Cost 28020
+Cond 100
+Identdesc ~
 Comments ~
 Objend
 #Vnum 0
@@ -324,39 +346,6 @@ Exit 0
 ~
 ~
 0 0 8220
-ExitExt 1
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67405
-ExitExtEnd
-Exit 1
-~
-~
-0 0 67405
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67393
-ExitExtEnd
-Exit 2
-~
-~
-0 0 67393
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 67390
-ExitExtEnd
-Exit 3
-~
-~
-0 0 67390
 ExitExt 5
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1695,10 +1684,10 @@ Exit 4
 ~
 ~
 0 0 15942
-Roomprog input 6500 wejd¼ do dziury~
-Roomprog input 6500 enter dziura~
-Roomprog input 6500 wejd¼ w dziurê~
 Roomprog input 6500 wejd¼ dziura~
+Roomprog input 6500 wejd¼ w dziurê~
+Roomprog input 6500 enter dziura~
+Roomprog input 6500 wejd¼ do dziury~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1842,6 +1831,10 @@ mob purge skrzynia
 mob oload weapon 5
 mob oload body 5
 
+if rand 60
+  mob oload 15905
+endif
+
 mob oload 15901
 mob unlock skrz
 mob open skrz
@@ -1874,7 +1867,7 @@ else
 endif
 
 if rand 92
-  mob equip self 9348
+  mob oload 171 wear
 endif
 if rand 90
   mob equip self 3349

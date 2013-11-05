@@ -286,11 +286,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -299,6 +299,33 @@ dawno temu. Nic szczególnego nie przykówa twojego wzroku, chocia¿, przez
 moment masz wra¿enie, ¿e co¶ lub kto¶ znajduje siê pod nimi. Mo¿e nale¿a³o
 by je przeszukaæ? 
 ~
+Comments ~
+Objend
+#Vnum 13470
+Name ma³a sakiewka~
+Odmiana ma³ej sakiewki~ma³ej sakiewce~ma³± sakiewkê~ma³± sakiewk±~ma³ej sakiewce~
+Short ma³a sakiewka~
+Descr Ma³a sakiewka le¿y tutaj.~
+Material kamieñ~
+Type container
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 25 5 0 25 80 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 1200
+Cond 100
+Itemdesc Jest to ma³a sakiewka jakich wiele, od innych tego typu odró¿nia j± z
+pewno¶ci± fakt, ¿e zosta³a zrobiona setki lat temu. Do jej wyrobu u¿yto
+sproszkowanego kamienia, a zszyto nie za pomoc± nici, tylko magii. Sakiewka
+wydaje siê bardzo solidna, bardzo ciê¿ko by³o by j± zniszczyæ. 
+~
+Identdesc ~
 Comments ~
 Objend
 #Vnum 13471
@@ -312,17 +339,17 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 10 10000000 72 120 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
-Objprog input 13471 wyci±gnij~
-Objprog input 13471 wyci±gnij rêce do ma³ego ogniska~
 Objprog input 13471 wyci±gnij rêce do ogniska~
+Objprog input 13471 wyci±gnij rêce do ma³ego ogniska~
+Objprog input 13471 wyci±gnij~
 Itemdesc To niewielkie {Rognisko{x przyci±ga twoj± uwagê ma³ymi rozmiarami, a zarazem
 kunsztownym i dok³adnym u³o¿eniem drzewa opa³owego pochodz±cego z pobliskich
 lasów. Po chwili nachodzi ciê chêc ¿eby {Gusi±¶æ{x nieopodal ogniska lub
@@ -2276,8 +2303,8 @@ Exit 2
 ~
 ~
 0 0 13437
-Roomprog time 13473 0~
 Roomprog time 13472 21~
+Roomprog time 13473 0~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2956,12 +2983,12 @@ Exit 1
 ~
 ~
 16 0 13468
-Roomprog input 13469 przesun kamienie~
-Roomprog input 13469 odepchnij kamienie~
-Roomprog input 13469 odepchnij na bok~
-Roomprog input 13469 odepchnij~
-Roomprog input 13469 napieraj~
 Roomprog reset 13470 100~
+Roomprog input 13469 napieraj~
+Roomprog input 13469 odepchnij~
+Roomprog input 13469 odepchnij na bok~
+Roomprog input 13469 odepchnij kamienie~
+Roomprog input 13469 przesun kamienie~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2977,16 +3004,16 @@ niebezpieczniejsze niz ci sie wydaje. {S
 ~
 FlagsExt 0|C
 Sector 15
-Roomprog input 13467 odepchnij na bok~
-Roomprog input 13467 odepchnij kamienie~
-Roomprog input 13467 odepchnij~
-Roomprog input 13467 przesun kamienie~
-Roomprog input 13467 przesun na bok~
-Roomprog reset 13468 100~
-Roomprog input 13467 napieraj~
-Roomprog reset purge_room 100~
-Roomprog input 13466 przeszukaj~
 Roomprog input 13466 przeszukaj stertê~
+Roomprog input 13466 przeszukaj~
+Roomprog reset purge_room 100~
+Roomprog input 13467 napieraj~
+Roomprog reset 13468 100~
+Roomprog input 13467 przesun na bok~
+Roomprog input 13467 przesun kamienie~
+Roomprog input 13467 odepchnij~
+Roomprog input 13467 odepchnij kamienie~
+Roomprog input 13467 odepchnij na bok~
 Resources 0 0 0 0 0 20 0 20 
 Capacity 20
 Roomend
@@ -3008,14 +3035,14 @@ Exit 0
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 5830
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 5830
+16 0 5830
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3066,16 +3093,16 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 5832
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 5832
-Roomprog time 13473 21~
+16 0 5832
 Roomprog time 13472 17~
+Roomprog time 13473 21~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3407,9 +3434,9 @@ mob setflag room sterta_kamienii -1
 ~
 #13471
 ~
-mob equip self 3010
-mob equip self 4370
-mob equip self 3050
+mob oload 3085 wear
+mob oload 13001 wear
+mob oload 3382 wear
 ~
 #0
 
@@ -3524,75 +3551,9 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 1~
-Desc ~
-Group 0
-End
-#Name 01~
-Desc Górskie szczyty nikna z oczu wsród gestych chmur, okrywajacych ich
-wierzcholki. Powietrze tutaj jest o wiele rzadsze, sprawia ci to problemy z
-oddychanie. Musi minac chwila nim przyzwyczaisz sie do takiej wysokosci. 
-~
-Group 1
-End
-#Name 02~
-Desc Górskie szczyty pokrywa gruby kozuch sniegu i lodu. Nalezy zachowac
-szczególna ostroznosc, gdyz kazdy wiekszy halas lub wstrzas moze doprowadzic
-do lawiny. 
-~
-Group 1
-End
-#Name 03~
-Desc Wiekowe skaly pokrywa gruba warstwa sniegu. Na szczescie dla ciebie, nie
-musisz wdrapywac sie na szczyt tych gór. Budowniczy drogi zadbali, by byla
-ona stosunkowo wygodna. 
-~
-Group 1
-End
-#Name 04~
-Desc Górskie szczyty majestatycznie nikna wsród gestych chmur. Droga prowadzi
-przez pobliskie kaniony, umozliwiajace w miare wygodna podróz. 
-~
-Group 1
-End
-#Name 05~
-Desc Kazdy kolejny krop wydaje sie coraz trudniejszy. Im wyzej znajdujesz sie,
-tym trudnij zaczerpnac haust powietrza. Najwidoczniej jest tutaj
-zdecydowanie mniej zyciodajnego gazu. 
-~
-Group 2
-End
-#Name 06~
-Desc Majestatyczny widok rozciaga sie daleko az po horyzont. Przy zachmurzone
-niebie spokojnie mozna dostrzec iglice pobliskich wierzcholków górskich. 
-~
-Group 2
-End
-#Name 07~
-Desc Wedrówka przez te górskie pustkowie nie wydaje sie ani bezpieczna, ani
-przyjemna. Chociaz widoki sa, wrecz zapierajace dech w piersiach, to jednak
-wolalbys juz znalezc sie w spokojnej dolinie. 
-~
-Group 2
-End
-#Name 08~
-Desc Kazdy krok moze zakonczyc sie katastrofa. Pobliskie glazy, znajdujace sie
-ponad twoja glowa, moga w kazdej chwili zsunac sie na ciebie, miazdzac cie
-calkowicie. 
-~
-Group 2
-End
-#Name 09~
-Desc Pustynia kamieni, glazów oraz wszelkiej wielkosci zwiru. Do tego duza
-wysokosc sprawiaja, ze nie trudno tutaj o zawroty glowy. Nalezy zachowac
-szczególna ostroznosc w czasie podrózowania. 
-~
-Group 3
-End
-#Name 10~
-Desc Gdzie nie spojrzysz, widzisz kamienie, glazy i inne zlamki skalne. Cala
-masa zwiru przewija ci sie pod nogami. Bardzo latwo posliznac sie na takiej
-nawierzchni, musisz caly czas byc czujny. 
+#Name 12~
+Desc Ogromne glazy, kamienie i skalne monolity. Glówny element tutejszego
+krajobrazu, niema co sie zatrzymywac, ruszaj w dalsza droge. 
 ~
 Group 3
 End
@@ -3603,11 +3564,77 @@ Desc Dookola ciebie widzisz porozrzucane kamienie, glazy i inne zlamki skalne.
 ~
 Group 3
 End
-#Name 12~
-Desc Ogromne glazy, kamienie i skalne monolity. Glówny element tutejszego
-krajobrazu, niema co sie zatrzymywac, ruszaj w dalsza droge. 
+#Name 10~
+Desc Gdzie nie spojrzysz, widzisz kamienie, glazy i inne zlamki skalne. Cala
+masa zwiru przewija ci sie pod nogami. Bardzo latwo posliznac sie na takiej
+nawierzchni, musisz caly czas byc czujny. 
 ~
 Group 3
+End
+#Name 09~
+Desc Pustynia kamieni, glazów oraz wszelkiej wielkosci zwiru. Do tego duza
+wysokosc sprawiaja, ze nie trudno tutaj o zawroty glowy. Nalezy zachowac
+szczególna ostroznosc w czasie podrózowania. 
+~
+Group 3
+End
+#Name 08~
+Desc Kazdy krok moze zakonczyc sie katastrofa. Pobliskie glazy, znajdujace sie
+ponad twoja glowa, moga w kazdej chwili zsunac sie na ciebie, miazdzac cie
+calkowicie. 
+~
+Group 2
+End
+#Name 07~
+Desc Wedrówka przez te górskie pustkowie nie wydaje sie ani bezpieczna, ani
+przyjemna. Chociaz widoki sa, wrecz zapierajace dech w piersiach, to jednak
+wolalbys juz znalezc sie w spokojnej dolinie. 
+~
+Group 2
+End
+#Name 06~
+Desc Majestatyczny widok rozciaga sie daleko az po horyzont. Przy zachmurzone
+niebie spokojnie mozna dostrzec iglice pobliskich wierzcholków górskich. 
+~
+Group 2
+End
+#Name 05~
+Desc Kazdy kolejny krop wydaje sie coraz trudniejszy. Im wyzej znajdujesz sie,
+tym trudnij zaczerpnac haust powietrza. Najwidoczniej jest tutaj
+zdecydowanie mniej zyciodajnego gazu. 
+~
+Group 2
+End
+#Name 04~
+Desc Górskie szczyty majestatycznie nikna wsród gestych chmur. Droga prowadzi
+przez pobliskie kaniony, umozliwiajace w miare wygodna podróz. 
+~
+Group 1
+End
+#Name 03~
+Desc Wiekowe skaly pokrywa gruba warstwa sniegu. Na szczescie dla ciebie, nie
+musisz wdrapywac sie na szczyt tych gór. Budowniczy drogi zadbali, by byla
+ona stosunkowo wygodna. 
+~
+Group 1
+End
+#Name 02~
+Desc Górskie szczyty pokrywa gruby kozuch sniegu i lodu. Nalezy zachowac
+szczególna ostroznosc, gdyz kazdy wiekszy halas lub wstrzas moze doprowadzic
+do lawiny. 
+~
+Group 1
+End
+#Name 01~
+Desc Górskie szczyty nikna z oczu wsród gestych chmur, okrywajacych ich
+wierzcholki. Powietrze tutaj jest o wiele rzadsze, sprawia ci to problemy z
+oddychanie. Musi minac chwila nim przyzwyczaisz sie do takiej wysokosci. 
+~
+Group 1
+End
+#Name 1~
+Desc ~
+Group 0
 End
 #DescEnd
 

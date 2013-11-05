@@ -282,6 +282,111 @@ Mobend
 
 
 #OBJECTS
+#Vnum 631
+Name smieci~
+Odmiana smieci~smieciom~smieci~smieciami~smieciach~
+Short smieci~
+Descr Kupka pokrytych ohydnym grzybem smieci lezy tu i smierdzi.~
+Material nieznany~
+Type trash
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 0
+Cond 10
+Comments ~
+Objend
+#Vnum 632
+Name czapka z piorkiem~
+Odmiana {Gczapki z piorkiem{x~{Gczapce z piorkiem{x~{Gczapke z piorkiem{x~{Gczapka z piorkiem{x~{Gczapce z piorkiem{x~
+Short {Gczapka z piorkiem{x~
+Descr Znalazles lezaca {Gczapke z piorkiem{x~
+Material p³ótno~
+Type clothing
+ExtraExt 1|C
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 15
+Cost 10
+Cond 100
+Comments ~
+Objend
+#Vnum 633
+Name plaszcz lesniczego~
+Odmiana {Gplaszcza lesniczego{X~{Gplaszczowi lesniczego{X~{Gplaszcz lesniczego{X~{Gplaszczem lesniczego{X~{Gplaszczu lesniczego{X~
+Short {Gplaszcz lesniczego{X~
+Descr Lezy sobie tutaj {Gplaszcz lesniczego{X.~
+Material skóra~
+Type clothing
+ExtraExt 1|C
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 20
+Cond 100
+Comments ~
+Objend
+#Vnum 634
+Name kostur solidny drewniany~
+Odmiana kostura~kosturowi~kostur~kosturem~kosturze~
+Short drewniany kostur~
+Descr Widzisz solidny kostur z dêbowego drewna.~
+Material drewno~
+Type weapon
+ExtraExt 1|C
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 2
+Value 9 2 4 7 32 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 120
+Cond 100
+Comments ~
+Objend
+#Vnum 638
+Name gruba skorzana kurtka~
+Odmiana grubej skórzanej kurtki~grubej skórzanej kurtce~grub± skórzan± kurtkê~grub± skórzan± kurtkê~grubej skórzanej kurtce~
+Short gruba skorzana kurtka~
+Descr Skorzana kurtka z grubej skory.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2400
+Cond 100
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -1063,7 +1168,7 @@ marchewki, chcesz siegnac ale zdajesz sobie sprawe, ze lepiej byloby
 poprosic gospodarza o zgode.  
 ~
 FlagsExt 0
-Sector 38
+Sector 1
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1299,17 +1404,17 @@ S
 
 
 #RESETS
-O 100 3321 0 631
+O 100 631 0 631
 M 100 631 4 631 1
 M 100 632 2 633 2
 M 100 633 1 653 1
-E 100 4404 0 6
-E 100 3371 0 16
-E 100 3001 0 8
-E 100 4409 0 7
-E 100 4426 0 12
-E 100 3098 0 13
-E 100 4369 0 5
+E 100 632 0 6
+E 100 634 0 16
+E 100 3380 0 8
+E 100 3007 0 7
+E 100 633 0 12
+E 100 3017 0 13
+E 100 638 0 5
 M 100 634 1 655 1
 M 100 635 3 657 1
 M 100 637 2 659 2

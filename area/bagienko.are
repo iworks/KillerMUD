@@ -56,53 +56,49 @@ Skin 100
 ExpMultiplier 100
 Mobend
 #Vnum 27862
-Name wojowniczka kobieta muskularna stara orków~
-Odmiana {ystarej{x wojowniczki~{ystarej{x wojowniczce~{ystar±{x wojowniczkê~{ystar±{x wojowniczk±~{ystarej{x wojowniczce~
-Short {ystara{x wojowniczka orków~
-Long Stara, muskularna kobieta orków b³±ka siê po bagnie.~
-Descr Ta wojowniczka orków jest ju¿ stara i zmêczona, co widaæ w jej oczach.
-B³±ka siê po bagnie, po którym zwyk³a chadzaæ za swych m³odzieñczych lat,
-gdy by³a w pe³ni si³ i wigoru. ¯ycie jednak nie by³o dla niej ³askawe - jej
-nieprzeciêtne umiejêtno¶ci bojowe ¶ci±ga³y jej na g³owê ca³e rzesze
-zaklinaczy, którzy ubezw³asnowalniani j± swymi zaklêciami i zmuszali do
-s³u¿enia sobie. Taki ¿ywot wyniszczy³ j±, a zbyt wielka ilo¶æ bitew i
-ciosów, jakie otrzyma³a w g³owê, stêpi³a jej umys³ i umiejêtno¶ci. Teraz
-jest to po prostu stara, zasêpiona orczyca, pa³aj±ca nienawi¶ci± do
-wszelkiego rodzaju uroków i zaklinaczy. 
+Name wojowniczka kobieta muskularna orków~
+Odmiana wojowniczki~wojowniczce~wojowniczkê~wojowniczk±~wojowniczce~
+Short wojowniczka orków~
+Long Muskularna kobieta orków z uwag± szuka czego¶ w bagnie.~
+Descr Ta wojowniczka orków zapu¶ci³a siê na to bagno, najwyra¼niej szukaj±c
+czego¶ konkretnego. Wiadomo przecie¿, jak niechêtnie orki wychodz± na
+powierzchniê. Inna sprawa, ¿e bagienny smrodek mo¿e byæ dla niej ca³kiem
+sympatycznym zapachem, tote¿ zupe³nie siê nim nie przejmuje. 
 ~
 Race ork~
 ActExt 0|AEGTX
-Affected 512 0 0 0
-AffectedExt 0|J
+Affected 33554948 0 0 0
+AffectedExt 0|CJZ
 Align -500
 Group 0
 Lang F
 Speaks 5
-Level 10
-Hitroll -2
-HP 10d5+150
-Damage 2d3+0
+Level 18
+Hitroll 10
+HP 30d5+450
+Damage 5d4+5
 Dammagic 0
-Weaponbonus 2
+Weaponbonus 10
 Damflags 0
 Attack uderzenie
-XAC 9 9 9 4
-Stats 148 60 50 120 150 40 60
-Off CKLRT
-OffExt 0|CKLRT
+XAC -9 -9 -9 -9
+Stats 180 180 50 190 190 90 90
+Off CDEKLRTYb
+OffExt 0|CDEKLRTYb
 Pos_start stand
 Pos_def stand
 Sex female
-Wealth 500
+Wealth 1500
 Form AFHMV
 Parts ABCDEFGHIJKR
 Size large
 Material unknown
+MobprogNew onload 27862 ABCDEFGHI 100~
 Skin 100
 ExpMultiplier 100
 Resist 10 20
-Resist 12 100
 Resist 13 30
+Resist 14 100
 Mobend
 #Vnum 27865
 Name krokodyl ciê¿ki masywny~
@@ -236,6 +232,103 @@ Mobend
 
 
 #OBJECTS
+#Vnum 27861
+Name rapier ciê¿ki ciemny~
+Odmiana rapiera~rapierowi~rapier~rapierem~rapierze~
+Short ciê¿ki rapier~
+Descr Le¿y tutaj ciê¿ki rapier z ciemnej stali.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 15
+LiczbaMnoga 0
+Gender 2
+Value 1 3 4 1 1032 0 1
+Repair 0 0 0 0
+Weight 330
+Cost 5700
+Cond 85
+Itemdesc Ta wykonana z czarnej stali broñ nadaje siê wprost idealnie dla
+wyæwiczonego wojownika. Ciê¿ka klinga wymaga wprawdzie sporej si³y, by
+swobodnie ni± w³adaæ, ale waga ta w po³±czeniu z niezwyk³± ostro¶ci± rapiera
+stanowi w walce trudny do przecenienia atut. 
+~
+Comments ~
+Objend
+#Vnum 27862
+Name tarcza solidna okr±g³a~
+Odmiana tarczy~tarczy~tarczê~tarcz±~tarczy~
+Short okr±g³a tarcza~
+Descr Solidna drewniana tarcza zosta³a tu przez kogo¶ porzucona.~
+Material drewno~
+Type shield
+ExtraExt 0
+Wear AJ
+Wear2Ext 0
+Bonus 0
+Rent 45
+LiczbaMnoga 0
+Gender 3
+Value 2 2 25 3 1 1 0
+Repair 0 0 0 0
+Weight 90
+Cost 1800
+Cond 100
+Comments ~
+Objend
+#Vnum 27863
+Name toporna orcza zbroja prymitywna~
+Odmiana zbroi~zbroi~zbrojê~zbroj±~zbroi~
+Short toporna orcza zbroja~
+Descr ciê¿ka i prymitywna, ale bardzo mocna orkowa zbroja.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 4 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 140
+Cost 7800
+Cond 100
+Itemdesc Zbroja jest wykonana prymitywn± technik± z br±zu. Blacha jest gruba i o
+nierównej grubo¶ci, ale ogólnie nale¿y powiedzieæ, ze stanowi relatywnie
+dobr± ochronê. 
+~
+Comments ~
+Objend
+#Vnum 27864
+Name chrz±szczyk maleñki ¶wietlik ¶wietlik27864~
+Odmiana ¶wietlika~¶wietlikowi~¶wietlika~¶wietlikiem~¶wietliku~
+Short {Y¶wietlik{x~
+Descr {YMaleñki chrz±szczyk emituje ¿ó³taw± po¶wiatê...{x~
+Material unused~
+Type light
+ExtraExt 0|AVd
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 -1 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 20
+Cond 100
+Itemdesc Ten owad, choæ niepozorny, mo¿e ci siê jednak do czego¶ przydaæ, je¶li
+spróbujesz go wypu¶ciæ bêdzie o¶wietla³ ci drogê. Niestety, zwyczajem
+swojego gatunku nad ranem st³umi swój blask... 
+~
+Comments ~
+Objend
 #Vnum 27865
 Name zêby krokodyla b³yszcz±ce ¿ó³tawe~
 Odmiana zêbów~zêbom~zêby~zêbami~zêbach~
@@ -247,16 +340,43 @@ ExtraExt 0|Q
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 0 27872 27871 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 900
 Cond 100
 Itemdesc Te zêby mog± byæ niez³ym trofeum. Mo¿na pochwaliæ siê przed narzeczona,
 ¿e ubi³o siê taka bestie. No, tylko trzeba by je na cos nawlec. 
+~
+Comments ~
+Objend
+#Vnum 27866
+Name he³m powgniatany br±zowy sfatygowany~
+Odmiana he³mu~he³mowi~he³m~he³mem~he³mie~
+Short powgniatany he³m~
+Descr Wykonany z br±zu he³m wygl±da na mocno sfatygowany.~
+Material br±z~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 4 4 4 10 10 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 2100
+Cond 50
+Itemdesc He³m ten musia³ kiedy¶ prezentowaæ siê ca³kiem okazale, zw³aszcza po
+wypolerowaniu. Niestety poprzedni w³a¶ciciel mocno go zapu¶ci³... Wszêdzie
+widzisz byle jak wyklepane ¶lady po uderzeniach broni i brud. Z drugiej
+strony, skoro he³m wytrzyma³ tyle uderzeñ i skutecznie ochroni³ nosz±c± go
+osobê, to pewnie jeszcze parê ciosów jest w stanie wytrzymaæ. 
 ~
 Comments ~
 Objend
@@ -271,18 +391,18 @@ ExtraExt 0|S
 Wear AC
 Wear2Ext 0|L
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 600
 Cond 80
 Aff 1 12 9 10 0 0
-Objprog prewear 27874 100~
-Objprog remove 27875 100~
 Objprog connect 27871 100~
+Objprog remove 27875 100~
+Objprog prewear 27874 100~
 Itemdesc To naprawdê okazale trofeum my¶liwskie. Zêby z ca³± pewno¶ci± pochodz± z
 doros³ego osobnika, tak¿e ten kto zabi³ krokodyla musia³ posiadaæ nie lada
 odwagê. 
@@ -300,16 +420,37 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 27865 0 27871 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 100
 Itemdesc Dzie³o sztuki to to nie jest - ot, w±ski pasek wygarbowanej skory. 
 ~
+Comments ~
+Objend
+#Vnum 27876
+Name ksiêga czarów zu¿yta ksi±¿ka~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short ksiêga czarów~
+Descr Mocno zu¿yta ksi±¿ka le¿y tutaj.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear AO
+Wear2Ext 0|O
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 0 1 159 461 203 324 0
+Repair 0 0 0 0
+Weight 40
+Cost 600
+Cond 100
 Comments ~
 Objend
 #Vnum 0
@@ -330,25 +471,25 @@ Sector 32
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
-ExitExtToVnum 24603
+ExitExtToVnum 24601
 ExitExtEnd
 Exit 0
 ~
 ~
-0 0 24603
+16 0 24601
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6986
 ExitExtEnd
 Exit 1
 ~
 ~
-8192 0 6986
+16 0 6986
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -384,17 +525,6 @@ w ka¿d± odkryta czê¶æ cia³a. {x
 ~
 FlagsExt 0
 Sector 32
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14151
-ExitExtEnd
-Exit 0
-~
-~
-0 0 14151
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -442,17 +572,6 @@ prawdopodobnie nie znajdzie siê tu nic interesuj±cego? No chyba ze kto¶
 ~
 FlagsExt 0
 Sector 12
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14152
-ExitExtEnd
-Exit 0
-~
-~
-0 0 14152
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -507,17 +626,6 @@ substancji gnilnych spowodowa³, ¿e wierzba powoli umiera, coraz bardziej
 pochylaj±c siê w stronê wody. Kiedy¶ upadnie tam i tak jak inne rosn±ce tu
 niegdy¶ drzewa zniknie pod warstwa torfu... 
 ~
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14153
-ExitExtEnd
-Exit 0
-~
-~
-0 0 14153
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -545,12 +653,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 14167
+ExitExtToVnum 27874
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 14167
+0 0 27874
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -564,7 +672,7 @@ prawdopodobnie nie znajdzie siê tu nic interesuj±cego? No chyba ¿e kto¶
 ¶mierci szuka, ale ta jak powiadaj± wcale interesuj±ca nie jest. 
 ~
 FlagsExt 0
-Sector 12
+Sector 29
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -603,12 +711,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 14170
+ExitExtToVnum 27866
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 14170
+0 0 27866
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -620,8 +728,52 @@ Twoja rado¶æ z pobytu w tym w miarê suchym miejscu zak³óca fetor nie¶wie¿ej
 wody, p³yn±cej w rzece otaczaj±cej te okolice. Jednak wszystkie te "aromaty"
 nie przeszkadzaj± najwyra¼niej mieszkaj±cemu w pobli¿u krokodylowi... 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 29
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27874
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27874
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27865
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27865
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27876
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27876
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27875
+ExitExtEnd
+Exit 3
+~
+~
+0 0 27875
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -765,14 +917,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6985
 ExitExtEnd
 Exit 1
 ~
 ~
-8192 0 6985
+16 0 6985
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -822,14 +974,14 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 6984
 ExitExtEnd
 Exit 1
 ~
 ~
-8192 0 6984
+16 0 6984
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -946,17 +1098,6 @@ Exit 1
 ~
 ~
 0 0 27871
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14177
-ExitExtEnd
-Exit 2
-~
-~
-0 0 14177
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1004,28 +1145,17 @@ Exit 1
 ~
 ~
 0 0 27872
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 14178
-ExitExtEnd
-Exit 2
-~
-~
-0 0 14178
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 14174
+ExitExtToVnum 27876
 ExitExtEnd
 Exit 3
 ~
 ~
-0 0 14174
+0 0 27876
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1036,8 +1166,30 @@ skrêca ci kiszki. W wodzie le¿y pe³no kawa³ków butwiej±cego drewna i li¶ci,
 wpadaj± tez do niej oderwane kawa³ki torfu z bagna. Ale najgorsze jest to,
 ¿e czujesz jakby gni³o tutaj miêso, wolisz nie dochodziæ jakie... {x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 19
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27864
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27864
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27866
+ExitExtEnd
+Exit 2
+~
+~
+0 0 27866
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1048,8 +1200,19 @@ skrêca ci kiszki. W wodzie le¿y pe³no kawa³ków butwiej±cego drewna i li¶ci,
 wpadaj± te¿ do niej oderwane kawa³ki torfu z bagna. Ale najgorsze jest to,
 ze czujesz jakby gni³o tutaj miêso, wolisz nie dochodziæ jakie...  {x
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 19
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27866
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27866
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1062,8 +1225,30 @@ ze czujesz jakby gni³o tutaj miêso, wolisz nie dochodziæ jakie...  Rzeczka
 rozszerza siê tutaj nieco, rozlewaj±c siê na szeroko¶ci kilkunastu ³okci i
 tworz±c ma³e bajorko. {x 
 ~
-FlagsExt 0|C
+FlagsExt 0
 Sector 19
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27866
+ExitExtEnd
+Exit 0
+~
+~
+0 0 27866
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 27873
+ExitExtEnd
+Exit 1
+~
+~
+0 0 27873
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1090,16 +1275,11 @@ S
 #RESETS
 M 100 27870 3 27861 3
 M 100 27861 2 27862 2
+M 100 27870 3 27864 3
 M 100 27865 1 27865 1
 G 100 27865 0
 M 100 27861 2 27866 2
 M 100 27862 1 27867 1
-E 100 3352 0 16
-E 100 3366 0 11
-E 100 3025 0 5
-E 100 3001 0 8
-E 100 3077 0 9
-E 100 3045 0 6
 M 100 27870 3 27870 3
 O 100 27872 0 27872
 M 100 27876 1 27876 1
@@ -1108,6 +1288,13 @@ S
 
 
 #MOBPROGSNEW
+#27862
+~
+mob equip self 27861
+mob equip self 27862
+mob equip self 27863
+mob equip self 27866
+~
 #27865
 ~
 mob echoaround $n Krokodyl klapie z ca³ej si³y szczêk± w ostatnim przed¶miertnym podrygu!
@@ -1162,6 +1349,9 @@ endif
 #0
 
 #ROOMPROGSNEW
+#27864
+~
+~
 #0
 
 #TRAPS

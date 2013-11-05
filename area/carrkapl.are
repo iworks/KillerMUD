@@ -1,11 +1,11 @@
 #AREADATA
-Name +# Mroczna kaplica~
+Name Mroczna kaplica~
 Builders Gurthg Risan~
 VNUMs 39441 39495
 Locked ~
 Security 9
 ResetAge 20
-Region 0
+Region 86
 End
 
 
@@ -516,6 +516,111 @@ Mobend
 
 
 #OBJECTS
+#Vnum 39442
+Name mroczna zbroja~
+Odmiana mrocznej zbroi~mrocznej zbroi~mroczn± zbrojê~mroczn± zbroj±~mrocznej zbroi~
+Short mroczna zbroja~
+Descr Zbroja porzucona przez rycerza mroku wala siê po pod³odze.~
+Material stal~
+Type armor
+ExtraExt 0|J
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 6
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 20 0 1 100
+Weight 175
+Cost 130
+Cond 75
+Comments ~
+Objend
+#Vnum 39444
+Name b³ogos³awiony lekki miecz~
+Odmiana lekkiego miecza~lekkiemu mieczowi~lekki miecz~lekkim mieczem~lekkim mieczu~
+Short b³ogos³awiony lekki miecz~
+Descr Wspania³y lekki miecz promieniuje bia³ym ¶wiat³em.~
+Material stal~
+Type weapon
+ExtraExt 0|IJ
+Wear AN
+Wear2Ext 0|S
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 1 3 3 41 66560 2 0
+Repair 20 0 1 100
+Weight 50
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 39445
+Name b³ogos³awiony cep bojowy~
+Odmiana cepa bojowego~cepowi bojowemu~cep bojowy~cepem bojowym~cepie bojowym~
+Short b³ogos³awiony cep bojowy~
+Descr B³ogos³awiony cep bojowy promieniuje bia³ym ¶wiat³em.~
+Material stal~
+Type weapon
+ExtraExt 0|IK
+Wear AN
+Wear2Ext 0|S
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 6 3 3 8 1024 3 0
+Repair 20 0 1 100
+Weight 96
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 39447
+Name stary miecz~
+Odmiana starego miecza~staremu mieczowi~stary miecz~starym mieczem~starym mieczu~
+Short stary miecz~
+Descr Stary, podniszczony miecz przyci±ga twój wzrok.~
+Material stal~
+Type weapon
+ExtraExt 0|J
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 27
+LiczbaMnoga 0
+Gender 2
+Value 1 3 3 1 1024 0 -1
+Repair 20 0 1 100
+Weight 66
+Cost 550
+Cond 75
+Comments ~
+Objend
+#Vnum 39449
+Name zniszczona szata~
+Odmiana zniszczonej szaty~zniszczonej szacie~zniszczon± szatê~zniszczon± szat±~zniszczonej szacie~
+Short zniszczona szata~
+Descr Stara zniszczona szata le¿y tutaj.~
+Material jedwab~
+Type clothing
+ExtraExt 0|J
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 6
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 10
+Cost 120
+Cond 75
+Comments ~
+Objend
 #Vnum 39450
 Name ko¶ci~
 Odmiana ko¶ci~ko¶ciom~ko¶ci~ko¶æmi~ko¶ciach~
@@ -527,11 +632,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -543,19 +648,90 @@ Odmiana pêkniêtej zboi~pêkniêtej zbroi~pêkniêt± zbrojê~pêkniêt± zbroj±~pêknietej
 Short pêkniêta zbroja~
 Descr Stara popêkana zbroja le¿y tu¿ pod ¶cian±.~
 Material br±z~
-Type trash
+Type armor
 ExtraExt 0|JY
 Wear AD
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
-Gender 3
-Value 0 0 0 0 0 0 0
+Gender 0
+Value 9 9 9 10 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 176
 Cost 1
 Cond 75
+Comments ~
+Objend
+#Vnum 39452
+Name buty, buciory, stare~
+Odmiana butów~butom~buty~butami~butach~
+Short stare buty~
+Descr Stare zniszczone buty porzucone przez kogo¶ le¿± tutaj.~
+Material br±z~
+Type armor
+ExtraExt 0|J
+Wear AG
+Wear2Ext 0|I
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 4 4 10 10 0 0
+Repair 20 0 1 100
+Weight 50
+Cost 1
+Cond 75
+Itemdesc Stare, bardzo zniszczone czarne buty zosta³y wykonane z br±zu przez
+miejscowego kowala. Ca³e buty pokryte s± dziwn±, lepk± szkar³atn± mazi±. 
+~
+Comments ~
+Objend
+#Vnum 39453
+Name buty, zniszczone~
+Odmiana zniszczonych butów~zniszczonym butom~zniszczone buty~zniszczonym butom~zniszczonych butach~
+Short zniszczone buty~
+Descr Zniszczone, znoszone ju¿ buty walaj± siê po ziemi.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 9 9 8 10 1 0 0
+Repair 20 0 1 100
+Weight 30
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 39454
+Name czarne, rêkawice~
+Odmiana czarnych rêkawic~czarnym rêkawicom~czarne rêkawice~czarnymi rêkawicami~czarnych rêkawicach~
+Short czarne rêkawice~
+Descr Czarne rêkawice walaj± sie po pod³o¿u.~
+Material br±z~
+Type armor
+ExtraExt 0|J
+Wear AH
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 4 4 4 10 10 0 0
+Repair 20 0 1 100
+Weight 34
+Cost 1
+Cond 75
+Aff 1 13 2 0 0 0
+Itemdesc Poplamione krwi± czarne rêkawice w ca³o¶ci wykonane z br±zu s± dobr±
+ochron± przed s³abymi ciosami. Mo¿e nie s± zbyt idealnie wykonane ale z
+pewno¶ci± pomog± ci przemierzaæ ¶wiat Tamery. 
+~
 Comments ~
 Objend
 #Vnum 39455
@@ -569,11 +745,11 @@ ExtraExt 0
 Wear AM
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 12
 Cost 1
 Cond 75
@@ -611,6 +787,17 @@ Exit 0
 VName Kaplica~
 ~
 0 0 39442
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39500
+ExitExtEnd
+Exit 2
+~
+~
+0 0 39500
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2441,93 +2628,93 @@ M 100 39459 4 39453 1
 M 100 39458 6 39457 1
 M 100 39451 10 39460 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39450 10 39461 1
-E 100 4366 0 5
+E 100 39449 0 5
 M 100 39451 10 39461 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39453 6 39462 1
-E 100 4366 0 5
+E 100 39449 0 5
 M 100 39455 6 39463 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 3022 0 16
 M 100 39453 5 39463 1
-E 100 4366 0 5
+E 100 39449 0 5
 M 100 39455 6 39464 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 3022 0 16
 M 100 39455 6 39465 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 3022 0 16
 O 100 39450 0 39465
 M 100 39453 6 39466 1
-E 100 4366 0 5
+E 100 39449 0 5
 O 100 39450 0 39468
 M 100 39454 10 39469 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39455 6 39470 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 3022 0 16
 M 100 39454 10 39471 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39454 10 39472 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39454 10 39473 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39455 6 39474 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 3022 0 16
 O 100 39450 0 39475
 M 100 39452 1 39475 1
 O 100 39450 0 39476
 M 100 39454 10 39477 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 39447 0 16
 M 100 39450 5 39478 1
-E 100 4366 0 5
+E 100 39449 0 5
 M 100 39451 10 39479 1
 E 100 39451 0 5
-E 100 3179 0 16
+E 100 3022 0 16
 O 100 39450 0 39480
 M 100 39457 2 39481 1
 E 100 39451 0 5
-E 100 3128 0 16
-E 100 3010 0 8
+E 100 3048 0 16
+E 100 39453 0 8
 M 100 39454 10 39482 1
 E 100 39451 0 5
-E 100 3179 0 16
-E 100 3010 0 8
+E 100 39447 0 16
+E 100 39453 0 8
 M 100 39454 10 39483 1
 E 100 39451 0 5
-E 100 3179 0 16
-E 100 3010 0 8
+E 100 39447 0 16
+E 100 39453 0 8
 M 100 39450 10 39484 1
-E 100 4366 0 5
+E 100 39449 0 5
 M 100 39453 10 39485 1
-E 100 4366 0 5
+E 100 39449 0 5
 M 100 39454 10 39486 1
 E 100 39451 0 5
-E 100 3179 0 16
-E 100 3010 0 8
+E 100 39447 0 16
+E 100 39453 0 8
 O 100 39450 0 39486
 M 100 39454 10 39488 1
 E 100 39451 0 5
-E 100 3179 0 16
-E 100 3010 0 8
+E 100 39447 0 16
+E 100 39453 0 8
 M 100 39457 2 39490 1
 E 100 39451 0 5
-E 100 3128 0 16
-E 100 3010 0 8
+E 100 3048 0 16
+E 100 39453 0 8
 O 100 39450 0 39490
 O 100 39450 0 39493
 M 100 39490 1 39495 1
-E 100 3073 0 9
-E 100 3001 0 8
+E 100 39454 0 9
+E 100 39452 0 8
 S
 
 
@@ -2544,18 +2731,18 @@ endif
 #39490
 sprzêt rycerza
 ~
-mob equip self 3029
-mob equip self 3128
+mob oload 39442 w
+mob oload 3048 w
 if rand 65
   $_rand = int_random 1 3
   if numeval $_rand == 1
-    mob oload 3179
+    mob oload 39444
   endif
   if numeval $_rand == 2
-    mob oload 3145
+    mob oload 3023
   endif
   if numeval $_rand == 3
-    mob oload 3297
+    mob oload 39445
   endif
 endif
 mob equip self 39455
@@ -2603,16 +2790,20 @@ if players >= 1
   endif
 endif
 ~
+#39490
+{RFREE FREE FREE{x
+~
+~
 #0
 
 #TRAPS
 #Vnum 0
 
 #RANDDESC
-#Vnum 39459
-DescRand #grouprand 0
-#grouprand 1
-#grouprand 2
+#Vnum 39495
+DescRand #grouprand 11
+#grouprand 12
+#grouprand 13
 ~
 RandDescEnd
 #Vnum 39460
@@ -2621,113 +2812,32 @@ DescRand #grouprand 4
 #grouprand 6
 ~
 RandDescEnd
-#Vnum 39495
-DescRand #grouprand 11
-#grouprand 12
-#grouprand 13
+#Vnum 39459
+DescRand #grouprand 0
+#grouprand 1
+#grouprand 2
 ~
 RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 6~
-Desc Zag³êbiaj±c siê g³êbiej w ruiny zapomnianej ¶wi±tyni z pewno¶ci±
-znajdziesz zej¶cie w podziemia kompleksu. 
+#Name pz36~
+Desc Brn±c dalej w g³±b mrocznego labiryntu dotrzesz do owianej z³± s³aw±
+komnaty mroku. 
 ~
-Group 2
+Group 13
 End
-#Name 5~
-Desc Zaklête runy, umieszczone w ¶cianach ca³ego gmachu promieniuj± ciemn±,
-mroczn± po¶wiat±. 
+#Name pz35~
+Desc Zag³êbiaj±c siê dalej w mrok labiryntu odnajdziesz komnatê mroku. 
 ~
-Group 1
+Group 13
 End
-#Name 4~
-Desc ¦ciany korytarza pokryte zosta³y mistycznymi runami, dziêki magii
-zaklêtej w nich ca³y kompleks wci±¿ trzyma siê kupy. 
+#Name pz34~
+Desc Ca³y dolny poziomy zosta³ opanowany przez nieumar³e istoty, te plamy krwi
+na ka¿dej ze ¶cian to z pewno¶ci± dzie³a tych mrocznych stworzeñ,
+niespokojnych dusz. 
 ~
-Group 1
-End
-#Name 3~
-Desc Hol zrujnowanej kaplicy w którym obecnie siê znajdujesz napawa ciê lekiem
-i smutkiem, niegdy¶ wspania³a budowla, dzi¶ zniszczony obszar. 
-~
-Group 0
-End
-#Name 2~
-Desc Hol w kaplicy wype³niony jest mroczn± aur± zapomnienia i tajemniczo¶ci.
-Ca³y kompleks zrujnowanej ¶wi±tyni emanuje niesamowita magi±. 
-~
-Group 0
-End
-#Name 1~
-Desc Znajdujesz siê w d³ugim holu zapomnianej, zrujnowanej kaplicy.
-Pomieszczenie wype³nione jest mroczn±, smutn± aur± zapomnienia. 
-~
-Group 0
-End
-#Name grupa1~
-Desc Znajdujesz sie w dziwnym kwadratowym pomieszczeniu. Zauwa¿asz, ze strop
-tutaj jakby lekko pi±³ sie do góry. 
-~
-Group 4
-End
-#Name grupa2~
-Desc Znajdujesz w mrocznych lochach kaplicy. 
-~
-Group 4
-End
-#Name grupa3~
-Desc Ciemne pomieszczenie w którym obecnie siê znajdujesz przypomina
-zrujnowan± kryptê. 
-~
-Group 4
-End
-#Name srodek~
-Desc Na wysoko¶ci trzech metrów zawieszony zosta³ wielki granitowy filar
-podtrzymuj±cy strop. ¦ciany które ubrudzone s± czym¶ czerwonym i lepkim
-napawaj± lêkiem. 
-~
-Group 5
-End
-#Name srodek3~
-Desc Doszczêtnie zrujnowane podziemia kompleksu trzymaj± siê kupy dziêki
-ustawionym granitowym filarom. 
-~
-Group 5
-End
-#Name srodek2~
-Desc Ca³y podziemny kompleks wype³nia tajemnicza aura mroku i grozy. Zewsz±d
-dobiega do ciebie okropny ryk nieumartych istot. 
-~
-Group 5
-End
-#Name kon1~
-Desc Wci±gasz powietrze i czujesz jak strasznie niemi³y gryz±cy odór zgni³ych
-cia³ przep³ywa przez twoje nozdrza. 
-~
-Group 6
-End
-#Name kon2~
-Desc Z pewno¶ci± nie jest to przyjemne miejsce do wypoczynku. 
-~
-Group 6
-End
-#Name kon3~
-Desc Czujesz straszliwy odór rozk³adaj±cych siê cia³. 
-~
-Group 6
-End
-#Name pz31~
-Desc Najni¿szy kompleks ca³ej kaplicy w którym obecnie siê znajdujesz wydaje
-siê byæ istnym siedliskiem z³a. 
-~
-Group 11
-End
-#Name pz32~
-Desc Znajdujesz siê w podziemiach mroku, lochach owianych tajemnic± ¶mierci. 
-~
-Group 11
+Group 12
 End
 #Name pz33~
 Desc ¦ciany podobnie jak na wy¿szym poziomie pokryte s± krwi±. Nieumar³e
@@ -2737,23 +2847,104 @@ Desc ¦ciany podobnie jak na wy¿szym poziomie pokryte s± krwi±. Nieumar³e
 ~
 Group 12
 End
-#Name pz34~
-Desc Ca³y dolny poziomy zosta³ opanowany przez nieumar³e istoty, te plamy krwi
-na ka¿dej ze ¶cian to z pewno¶ci± dzie³a tych mrocznych stworzeñ,
-niespokojnych dusz. 
+#Name pz32~
+Desc Znajdujesz siê w podziemiach mroku, lochach owianych tajemnic± ¶mierci. 
 ~
-Group 12
+Group 11
 End
-#Name pz35~
-Desc Zag³êbiaj±c siê dalej w mrok labiryntu odnajdziesz komnatê mroku. 
+#Name pz31~
+Desc Najni¿szy kompleks ca³ej kaplicy w którym obecnie siê znajdujesz wydaje
+siê byæ istnym siedliskiem z³a. 
 ~
-Group 13
+Group 11
 End
-#Name pz36~
-Desc Brn±c dalej w g³±b mrocznego labiryntu dotrzesz do owianej z³± s³aw±
-komnaty mroku. 
+#Name kon3~
+Desc Czujesz straszliwy odór rozk³adaj±cych siê cia³. 
 ~
-Group 13
+Group 6
+End
+#Name kon2~
+Desc Z pewno¶ci± nie jest to przyjemne miejsce do wypoczynku. 
+~
+Group 6
+End
+#Name kon1~
+Desc Wci±gasz powietrze i czujesz jak strasznie niemi³y gryz±cy odór zgni³ych
+cia³ przep³ywa przez twoje nozdrza. 
+~
+Group 6
+End
+#Name srodek2~
+Desc Ca³y podziemny kompleks wype³nia tajemnicza aura mroku i grozy. Zewsz±d
+dobiega do ciebie okropny ryk nieumartych istot. 
+~
+Group 5
+End
+#Name srodek3~
+Desc Doszczêtnie zrujnowane podziemia kompleksu trzymaj± siê kupy dziêki
+ustawionym granitowym filarom. 
+~
+Group 5
+End
+#Name srodek~
+Desc Na wysoko¶ci trzech metrów zawieszony zosta³ wielki granitowy filar
+podtrzymuj±cy strop. ¦ciany które ubrudzone s± czym¶ czerwonym i lepkim
+napawaj± lêkiem. 
+~
+Group 5
+End
+#Name grupa3~
+Desc Ciemne pomieszczenie w którym obecnie siê znajdujesz przypomina
+zrujnowan± kryptê. 
+~
+Group 4
+End
+#Name grupa2~
+Desc Znajdujesz w mrocznych lochach kaplicy. 
+~
+Group 4
+End
+#Name grupa1~
+Desc Znajdujesz sie w dziwnym kwadratowym pomieszczeniu. Zauwa¿asz, ze strop
+tutaj jakby lekko pi±³ sie do góry. 
+~
+Group 4
+End
+#Name 1~
+Desc Znajdujesz siê w d³ugim holu zapomnianej, zrujnowanej kaplicy.
+Pomieszczenie wype³nione jest mroczn±, smutn± aur± zapomnienia. 
+~
+Group 0
+End
+#Name 2~
+Desc Hol w kaplicy wype³niony jest mroczn± aur± zapomnienia i tajemniczo¶ci.
+Ca³y kompleks zrujnowanej ¶wi±tyni emanuje niesamowita magi±. 
+~
+Group 0
+End
+#Name 3~
+Desc Hol zrujnowanej kaplicy w którym obecnie siê znajdujesz napawa ciê lekiem
+i smutkiem, niegdy¶ wspania³a budowla, dzi¶ zniszczony obszar. 
+~
+Group 0
+End
+#Name 4~
+Desc ¦ciany korytarza pokryte zosta³y mistycznymi runami, dziêki magii
+zaklêtej w nich ca³y kompleks wci±¿ trzyma siê kupy. 
+~
+Group 1
+End
+#Name 5~
+Desc Zaklête runy, umieszczone w ¶cianach ca³ego gmachu promieniuj± ciemn±,
+mroczn± po¶wiat±. 
+~
+Group 1
+End
+#Name 6~
+Desc Zag³êbiaj±c siê g³êbiej w ruiny zapomnianej ¶wi±tyni z pewno¶ci±
+znajdziesz zej¶cie w podziemia kompleksu. 
+~
+Group 2
 End
 #DescEnd
 

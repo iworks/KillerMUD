@@ -448,6 +448,80 @@ Mobend
 
 
 #OBJECTS
+#Vnum 11511
+Name ¿elazny topór~
+Odmiana ¿elaznego topora~¿elaznemu toporowi~¿elazny topór~¿elaznym toporem~¿elaznym toporze~
+Short ¿elazny topór~
+Descr Ciê¿ki, ¿elazny topór krótkim, drewnianym styliskiem.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 5 2 3 1 0 -1 1
+Repair 0 0 0 0
+Weight 100
+Cost 300
+Cond 50
+Itemdesc Widzisz przed sob± masywny, ciê¿ki topór. Stylisko toporu nosi ¶lady
+czêstego u¿ywania, jednak ostrze wydaje siê byæ ca³kiem dobre. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11512
+Name stalowa kolczuga~
+Odmiana stalowej kolczugi~stalowej kolczudze~stalow± kolczugê~stalow± kolczug±~stalowej kolczudze~
+Short gruba kolczuga~
+Descr Stalowa kolczuga.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|AIJb
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 7 7 5 10 8 0 0
+Repair 0 0 0 0
+Weight 205
+Cost 2400
+Cond 90
+Itemdesc Widzisz przed sob± troche niechlujnie zrobion±, ale ca³kiem niez³±
+kolczugê. Nie stanowi ona jakiego¶ arcydzie³a sztuki kowalskiej, jednak mo¿e
+byæ przydatna w walce. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 11515
+Name kamienna skrzynia~
+Odmiana kamiennej skrzyni~kamiennej skrzyni~kamienn± skrzyniê~kamienn± skrzyni±~kamiennej skrzyni~
+Short ciê¿ka skrzynia~
+Descr Stoi tutaj ogromna, kamienna skrzynia z du¿± k³ódk±.~
+Material drewno~
+Type container
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 300 13 11516 50 100 0 0
+Repair 0 0 0 0
+Weight 2800
+Cost 0
+Cond 50
+Itemdesc ~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 11516
 Name mosiê¿ny klucz~
 Odmiana mosiê¿nego klucza~mosiê¿nemu kluczowi~mosiê¿ny klucz~mosiê¿nym kluczem~mosiê¿nym kluczu~
@@ -459,11 +533,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 0
 Cond 50
@@ -485,11 +559,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -2345,11 +2419,11 @@ M 100 11513 15 11537 2
 M 100 11515 15 11537 3
 M 100 11511 15 11538 1
 M 100 11517 1 11546 1
-O 100 3370 0 11548
-P 25 3172 1 3370 1
-P 25 3025 1 3370 1
-P 25 3001 1 3370 1
-P 25 3157 1 3370 1
+O 100 11515 0 11548
+P 25 11511 1 11515 1
+P 25 11512 1 11515 1
+P 25 3380 1 11515 1
+P 25 3071 1 11515 1
 S
 
 
@@ -2384,19 +2458,19 @@ if rand 70
 mob addgroup 11520
 endif
 if rand 5
-mob equip self 3172
+mob equip self 11511
 endif
 if rand 10
-mob equip self 3025
+mob equip self 11512
 endif
 if rand 15
-mob equip self 3001
+mob equip self 3380
 endif
 if rand 20
 mob equip self 3366
 endif
 if rand 25
-mob equip self 3077
+mob equip self 3357
 endif
 mob oload 11516
 mob oload gem 1
@@ -2406,19 +2480,19 @@ mob oload gem 2
 #11514
 ~
 if rand 5
-mob equip self 3172
+mob equip self 11511
 endif
 if rand 10
-mob equip self 3025
+mob equip self 11512
 endif
 if rand 15
-mob equip self 3001
+mob equip self 3380
 endif
 if rand 20
 mob equip self 3366
 endif
 if rand 25
-mob equip self 3077
+mob equip self 3357
 endif
 mob oload 11516
 mob oload gem 1
@@ -2439,12 +2513,12 @@ endif
 #11517
 ~
 if rand 50
-mob equip self 3179
+mob equip self 3022
 else
-mob equip self 3157
+mob equip self 3071
 endif
 if rand 25
-mob equip self 3001
+mob equip self 3380
 endif
 if rand 10
 mob equip self 3366

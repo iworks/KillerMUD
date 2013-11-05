@@ -39,8 +39,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: random_spellbooks.c 11426 2012-06-12 14:57:48Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/random_spellbooks.c $
+ * $Id: random_spellbooks.c 10990 2012-02-18 12:11:01Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/random_spellbooks.c $
  *
  */
 #if defined(macintosh)
@@ -221,31 +221,30 @@ OBJ_DATA * generate_random_spellbook( CHAR_DATA *ch, int counter )
          * selekcji dokonal Mistrz Drake
          */
         if (
-                sn ==  gsn_continual_light ||
-                sn ==  gsn_energy_drain ||
-                sn ==  gsn_spirit_hammer ||
-                sn ==  gsn_recharge ||
-                sn ==  gsn_word_of_recall ||
-                sn ==  gsn_finger_of_death ||
-                sn ==  gsn_elemental_devastation ||
-                sn == gsn_frost_breath ||
-                sn == gsn_gas_breath ||
-                sn == gsn_lightning_breath ||
-                sn == gsn_summon_animals ||
-                sn == gsn_strength ||
-                sn == gsn_bladethirst ||
-                sn == gsn_feeblemind ||
-                sn == gsn_psionic_blast ||
-                sn == gsn_lesser_psionic_blast ||
-                sn == gsn_wood_master ||
-                sn == gsn_singing_ruff ||
-                sn == gsn_shield_of_nature ||
-                sn == gsn_astral_journey ||
+                sn ==  18 || // continual light
+                sn ==  44 || // energy drain
+                sn ==  55 || // spiritual hammer
+                sn ==  82 || // recharge
+                sn ==  97 || // word of recall
+                sn ==  98 || // finger of death
+                sn ==  99 || // elemental devastation
+                sn == 100 || // frost breath
+                sn == 101 || // gas breath
+                sn == 102 || // lightning breath
+                sn == 133 || // summon animal
+                sn == 167 || // strength
+                sn == 192 || // bladethirst
+                sn == 229 || // feeblemind
+                sn == 396 || // psionic blast
+                sn == 398 || // wood master
+                sn == 411 || // singing ruff
+                sn == 453 || // shield of nature
+                sn == 397 || // astral journey
                 (
                  class == CLASS_PALADIN &&
                  (
-                  sn == gsn_sanctuary ||
-                  sn == gsn_divine_power
+                  sn ==  85 || // sanctuary
+                  sn == 231    // divine power
                  )
                 )
                 )

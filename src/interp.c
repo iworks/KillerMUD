@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Koper Tadeusz         (jediloop@go2.pl               ) [Garloop   ] *
@@ -28,8 +28,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: interp.c 12408 2013-06-12 12:29:02Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/interp.c $
+ * $Id: interp.c 12183 2013-03-25 11:58:55Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/interp.c $
  *
  */
 #if defined(macintosh)
@@ -126,7 +126,7 @@ const struct cmd_type cmd_table [] =
     { "tell",       "powiedz",      do_tell,        POS_RESTING,    0,  LOG_NORMAL, OPT_NOT_IN_FORCE_FIELD|OPT_COMMUNICATION },
     { "unlock",     "odklucz",      do_unlock,      POS_RESTING,    0,  LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD|NIE_DLA_SHAPESHIFTED },
     { "examine",    "obejrzyj",     do_examine,     POS_RESTING,    0,  LOG_NORMAL, OPT_MAY_REM_LISTEN|OPT_MIND_MOVE|OPT_NIEDLAZAKUTYCH },
-    { "wake",       "obudz",        do_wake,        POS_SLEEPING,   0,  LOG_NORMAL, OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_RECUPERATE },
+    { "wake",       "obudz",        do_wake,        POS_SLEEPING,   0,  LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_RECUPERATE },
     { "evcheck",    "evcheck",      do_evcheck,     POS_SLEEPING,   W1, LOG_NORMAL, OPT_INFORMATION },
     { "study",      "studiuj",      do_study,       POS_RESTING,    0,  LOG_NORMAL, OPT_MINIHOLD|OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN },
     { "addstat",    "addstat",      do_addstat,     POS_SLEEPING,   0,  LOG_NORMAL, OPT_INFORMATION },
@@ -135,7 +135,6 @@ const struct cmd_type cmd_table [] =
     { "reform", 	"powroc",		do_reform,			POS_RESTING,		W1,	LOG_NORMAL,	OPT_NIEDLAZAKUTYCH|OPT_NOT_IN_FORCE_FIELD },
     { "throw",        "rzuæ",          do_throw,         POS_RESTING,    0,  LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD|NIE_DLA_SHAPESHIFTED },
     { "knock",        "zapukaj",          do_knock,         POS_RESTING,    0,  LOG_NORMAL, OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD|NIE_DLA_SHAPESHIFTED },
-    { "release",   "uwolnij",       do_release_spirit,   POS_DEAD,   0, LOG_NORMAL, OPT_MINIHOLD },
 
     /**
      * Informational commands.
@@ -151,6 +150,7 @@ const struct cmd_type cmd_table [] =
     { "help",       "pomoc",        do_help,        POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION|OPT_MIND_MOVE },
     { "levels",     "poziomy",      do_levels,      POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION|OPT_MIND_MOVE },
     { "motd",       "motd",         do_motd,        POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION|OPT_MIND_MOVE },
+    { "news",       "nowosci",      do_news,        POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION|OPT_MIND_MOVE },
     { "rules",      "zasady",       do_rules,       POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION|OPT_MIND_MOVE },
     { "score",      "postac",       do_score,       POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION },
     { "condition",  "kondycja",     do_condition,   POS_DEAD,       0, LOG_NORMAL, OPT_INFORMATION },
@@ -249,7 +249,6 @@ const struct cmd_type cmd_table [] =
     { "water",      "napoi",        do_water,       POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD },
     { "horn",       "dmij",         do_horn,        POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD },
     { "grip",       "uchwyæ",       do_double_grip, POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|NIE_DLA_SHAPESHIFTED },
-    { "ungrip",     "puœ¶æ",         do_ungrip,      POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|NIE_DLA_SHAPESHIFTED },
     { "pipe",       "fajka",        do_pipe,        POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|NIE_DLA_SHAPESHIFTED },
     { "uncloak",    "zdemaskuj",    do_uncloak,     POS_RESTING,    0, LOG_NORMAL, OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|NIE_DLA_SHAPESHIFTED },
     { "illuminate", "rozswietl",    do_illuminate,  POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_MAY_REM_LISTEN|NIE_DLA_SHAPESHIFTED },
@@ -325,7 +324,6 @@ const struct cmd_type cmd_table [] =
     { "pray",       "modl",         do_pre_holy_prayer, POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD },
     { "sanct",      "uswiec",       do_sanct,           POS_RESTING,    0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD },
     { "mine",       "wydobadz",     do_mine,            POS_STANDING,   0, LOG_NORMAL, OPT_NEEDHANDS|OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN|OPT_NOT_IN_FORCE_FIELD|NIE_DLA_SHAPESHIFTED },
-    { "invoke",     "przyzwij",     do_invoke,          POS_RESTING,   0,  LOG_NORMAL, OPT_NIEDLAZAKUTYCH|OPT_REM_LISTEN },
 
      /*
      * Mob command interpreter (placed here for faster scan...)
@@ -457,6 +455,7 @@ const struct cmd_type cmd_table [] =
 	{ "wiznet",     "wiznet",       do_wiznet,      POS_DEAD,      W2,  LOG_NORMAL, 0 },
 //STRA¯NIK
 	{ "advance",    "advance",      do_advance,     POS_DEAD,      W3,  LOG_ALWAYS, 0 },
+	{ "changes",    "changes",      do_changes,     POS_DEAD,      W3,  LOG_NORMAL, 0 },
 	{ "disconnect", "disconnect",   do_disconnect,  POS_DEAD,      W3,  LOG_ALWAYS, 0 },
 	{ "echo",       "echo",         do_recho,       POS_DEAD,      W3,  LOG_ALWAYS, 0 },
 	{ "force",      "force",        do_force,       POS_DEAD,      W3,  LOG_ALWAYS, 0 },
@@ -521,13 +520,17 @@ const struct cmd_type cmd_table [] =
 	{ "log",        "log",          do_log,         POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "lset",       "lset",         do_lset,        POS_SLEEPING,  W6,  LOG_NORMAL, 0 },
 	{ "ltset",      "ltset",        do_ltset,       POS_SLEEPING,  W6,  LOG_NORMAL, 0 },
+	{ "note",       "note",         do_note,        POS_SLEEPING,  W6,  LOG_NORMAL, 0 },
+	{ "penalty",    "penalty",      do_penalty,     POS_DEAD,      W6,  LOG_NORMAL, 0 },
 	{ "protect",    "protect",      do_protect,     POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "reboo",      "reboo",        do_reboo,       POS_DEAD,      W6,  LOG_NORMAL, OPT_HIDEHELP },
 	{ "reboot",     "reboot",       do_reboot,      POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "rename",     "rename",       do_rename,      POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "shutdow",    "shutdow",      do_shutdow,     POS_DEAD,      W6,  LOG_NORMAL, OPT_HIDEHELP },
 	{ "shutdown",   "shutdown",     do_shutdown,    POS_DEAD,      W6,  LOG_ALWAYS, 0 },
+	{ "test",       "test",         do_test,        POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "timeset",    "timeset",      do_timeset,     POS_DEAD,      W6,  LOG_ALWAYS, 0 },
+	{ "unread",     "unread",       do_unread,      POS_SLEEPING,  W6,  LOG_NORMAL, 0 },
 	{ "wizlock",    "wizlock",      do_wizlock,     POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "wizset",     "wizset",       do_wizset,      POS_DEAD,      W6,  LOG_ALWAYS, 0 },
 	{ "wizstat",    "wizstat",      do_wizstat,     POS_DEAD,      W6,  LOG_NORMAL, 0 },
@@ -746,26 +749,19 @@ void interpret( CHAR_DATA *ch, char *argument )
 
 	if ( !IS_NPC( ch ) && ch->pcdata->mind_in )
 	{
-		static char bufor[ MAX_INPUT_LENGTH + 19 ];
 		if ( !IS_SET( cmd_table[ cmd ].options, OPT_MIND_MOVE ) )
 		{
 			send_to_char( "W obecnym stanie nie jeste¶ w stanie kontrolowaæ swojego cia³a.\n\r", ch );
 			return;
 		}
 
-		sprintf( bufor, "%s (astral journey) ", cmd_table[ cmd ].name );
-		DEBUG_INFO( bufor );
+        sprintf( buf, "%s (astral journey) ", cmd_table[ cmd ].name );
+		DEBUG_INFO( buf );
 		( *cmd_table[ cmd ].do_fun ) ( ch, argument );
 		DEBUG_INFO( NULL );
 
 		return;
 	}
-
-    if ( get_spirit( ch ) && cmd_table[ cmd ].do_fun != do_release_spirit )
-    {
-        return;
-    }
-
 
     if ( !IS_IMMORTAL( ch ) && !IS_SET( cmd_table[ cmd ].options, OPT_INFORMATION ) )
     {
@@ -773,22 +769,6 @@ void interpret( CHAR_DATA *ch, char *argument )
         {
             print_char( ch, "Przerywasz medytacje.\n\r" );
             affect_strip( ch, gsn_meditation );
-        }
-
-        if ( IS_AFFECTED( ch, AFF_INVOKE ) )
-        {
-            print_char( ch, "Przerywasz rytual.\n\r" );
-            AFFECT_DATA *paf;
-            AFFECT_DATA *paf_next;
-
-            for ( paf = ch->affected; paf != NULL; paf = paf_next )
-            {
-               paf_next = paf->next;
-                if ( paf->bitvector == &AFF_INVOKE )
-                {
-                    affect_remove( ch, paf );
-                }
-            }
         }
 
         if ( IS_SET( ch->comm, COMM_AFK ) && !IS_IMMORTAL( ch ) )
@@ -806,7 +786,7 @@ void interpret( CHAR_DATA *ch, char *argument )
         {
             EXT_REMOVE_BIT( ch->affected_by, AFF_HIDE );
         }
-
+		
         if (
                 TRUE
                 && cmd_table[ cmd ].do_fun != do_north

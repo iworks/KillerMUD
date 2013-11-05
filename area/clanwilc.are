@@ -50,6 +50,7 @@ Form AFGV
 Parts ACDEFJKQRSV
 Size medium
 Material unknown
+MobprogNew exit 39940 FGHI 0~
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -130,6 +131,7 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew tell 39949 FGI skrzynka~
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -149,11 +151,11 @@ ExtraExt 0|HMY
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 20
 LiczbaMnoga 0
 Gender 0
 Value 40 1 0 20 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 150
 Cost 7200
 Cond 100
@@ -165,22 +167,48 @@ czynniki zewnêtrzne.
 Comments wywalam proga na get - {RWicia{x ({CSun Sep 10 18:09:10 2006{x)
 ~
 Objend
+#Vnum 39941
+Name ma³y ¶wietlik malutki~
+Odmiana malutkiego {y¶wietlika{x~malutkiemu {y¶wietlikowi{x~malutkiego {y¶wietlika{x~malutkim {y¶wietlikiem{x~malutkim {y¶wietliku{x~
+Short malutki {y¶wietlik{x~
+Descr Malutki {y¶wietlik{x lata sobie nad ziemi±.~
+Material nieznany~
+Type light
+ExtraExt 0
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 24 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 50
+Objprog prewear 39941 100~
+Itemdesc Jest to ma³y ¶wietlik, który z chêci± o¶wietla innym drogê. Mimo swej
+wielko¶ci, jego ¶wiat³o roz¶wietla ca³± okolicê, musi w tym byæ trochê
+magii. 
+~
+Comments ~
+Objend
 #Vnum 39942
 Name p³on±cy pas '{GG{gni{re{rw {RWi{rl{gkó{Gw{X'~
 Odmiana {Rp{Y³{Ro{Yn{R±{Yc{Re{Yg{Ro {gpasa{x~{Rp{Y³{Ro{Yn{R±{Yc{Re{Ym{Ru {gpasowi{x~{Rp{Y³{Ro{Yn{R±{Yc{Ry {gpas{x~{Rp{Y³{Ro{Yn{R±{Yc{Ry{Ym {gpasem{x~{Rp{Y³{Ro{Yn{R±{Yc{Ry{Ym {gpasie{x~
 Short {Rp³{Yon{R±c{Yy{x pas '{GG{gni{re{rw {RWi{rl{gkó{Gw{X'~
 Descr P³on±cy pas 'Gniew Wilków' le¿y na ziemi diabelsko b³yszcz±c.~
 Material kryszta³~
-Type armor
+Type jewelry
 ExtraExt 0|HM
 Wear AL
 Wear2Ext 0
 Bonus 0
+Rent 27
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 10740
 Cond 100
@@ -190,11 +218,11 @@ Dostrzegasz, ¿e $n ma na sobie piêkny i tajemniczy pas. Wydaje ci siê, ¿e
 pas p³onie. Jednak $n nie zwraca na to uwagi, najwyra¼niej $s nie parzy. Od
 p³omieni bije dziwna pulsuj±ca aura ogarniaj±ca $c.
 ~
-Objprog input emot3 wpwarcz~
-Objprog input emot2 wpwyj~
-Objprog input emot wpwitaj~
-Objprog prewear 39942 100~
 Objprog input emot4 wpbron~
+Objprog prewear 39942 100~
+Objprog input emot wpwitaj~
+Objprog input emot2 wpwyj~
+Objprog input emot3 wpwarcz~
 Itemdesc Jest to piekielnie b³yszcz±cy siê ogniem pas 'Gniew Wilków'. Wygl±da na
 prawdê cudownie. Zrobiony jest z kryszta³u, a ca³o¶æ okrywa tajemniczy
 ogieñ. Stara legenda mówi, ¿e tylko wybrañcy mog± go nosiæ. Ci, których nie
@@ -213,11 +241,11 @@ ExtraExt 0
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1200
 Cond 50
@@ -227,6 +255,27 @@ zakonserwowanym okiem wilka. Tworzy to niesamowity klimat, oko wygl±da jak
 ¿ywe. Wydaje siê, ¿e obserwuje ca³e otoczenie. Jego bladoniebieski kolor
 przyprawia ciê o dreszcze. 
 ~
+Comments ~
+Objend
+#Vnum 39944
+Name pochodnia ¶cienna~
+Odmiana ¶ciennej pochodni~¶ciennej pochodni~¶cienna pochodniê~¶cienna pochodni±~¶ciennej pochodni~
+Short ¶cienna pochodnia~
+Descr {yDrewniana pochodnia przymocowana do ¶ciany bucha {Rogniem {yo¶wietlaj±c pomieszczenie.{x~
+Material stal~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
 Comments ~
 Objend
 #Vnum 39945
@@ -240,11 +289,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -261,11 +310,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 2 5000 1168 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 500
 Cost 1
 Cond 100
@@ -282,11 +331,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 10000 1170 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 1
 Cond 100
@@ -307,11 +356,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 10000 20 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 60
 Cond 100
@@ -651,8 +700,19 @@ mo¿e spowodowaæ g³êbokie ciêcie w twoim ciele. Lepiej uwa¿aæ i ostro¿nie
 schodziæ w dó³, zw³aszcza, ¿e jest trochê ¶lisko i mokro. Kapi±ca z góry
 woda ¶cieka po ¶cianach w w±skich strugach. 
 ~
-FlagsExt 0|AC
+FlagsExt 0|A
 Sector 14
+ExitExt 5
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 39900
+ExitExtEnd
+Exit 5
+~
+~
+0 0 39900
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -681,37 +741,84 @@ M 100 39940 1 39940 1
 M 100 39941 3 39942 3
 M 100 39941 3 39943 3
 M 100 39941 3 39944 3
-O 100 3185 0 39945
-O 100 3185 0 39946
+G 100 29050 0
+O 100 39944 0 39945
+O 100 39944 0 39946
 O 100 39945 0 39946
 O 100 39948 0 39946
-O 100 3185 0 39947
+O 100 39944 0 39947
 O 100 39946 0 39947
-O 100 3185 0 39948
+O 100 39944 0 39948
 O 100 39946 0 39948
-O 100 3185 0 39949
+O 100 39944 0 39949
 O 100 39947 0 39949
 M 100 39942 1 39949 1
 G 100 39940 0
-G 100 3380 0
+G 100 39941 0
 G 100 39942 0
 G 100 39943 0
-E 100 3093 0 10
-E 100 3061 0 7
-E 100 3077 0 9
-E 100 3029 0 5
-E 100 3045 0 6
-G 100 2450 0
-G 100 2497 0
-G 100 2499 0
+E 100 2074 0 10
+E 100 2075 0 7
+E 100 3357 0 9
+E 100 2072 0 5
+E 100 3068 0 6
+G 100 3001 0
+G 100 3006 0
+G 100 3025 0
 S
 
 
 
 #MOBPROGSNEW
+#39940
+~
+if affected $i domination
+  break
+else
+  if clan $n WILK
+    mob echoat $n Wilk ¶lini siê z rado¶ci na twój widok.
+    mob echoaround $n $n wchodzi do jamy.
+    mob transfer $n 39941
+  else
+    mob echoat $n Wilk w¶ciekle warczy na ciebie i zas³ania wej¶cie do jamy.
+    mob echoaround $n Wilk w¶ciekle warczy na $c i zas³ania mu wej¶cie do jamy.
+  endif
+endif
+~
+#39942
+~
+~
+#39949
+~
+mob oload 39940 r
+mob echo Przyboczny k³adzie skrzynkê na ziemi.
+minidelay 1
+mob say Podaæ co¶ jeszcze?
+~
 #0
 
 #OBJPROGSNEW
+#39941
+~
+if clan $n WILK
+  mob echoat $n Wypuszczasz ¶wietlika z d³oni. ¦wietlik zaczyna lataæ dooko³a ciebie dumnie o¶wietlaj±c drogê.
+  obj wear
+  if sex $n == 1
+    mob echoaround $n Widzisz jak $n wypuszcza co¶ z d³oni. Po chwili okazuje siê to byc ma³y ¶wietlikiem, który zaczyna lataæ dooko³a $z o¶wietlaj±c mu drogê..
+  else
+    mob echoaround $n Widzisz jak $n wypuszcza co¶ z d³oni. Po chwili okazuje siê to byc ma³y ¶wietlikiem, który zaczyna lataæ dooko³a $z o¶wietlaj±c jej drogê..
+  endif
+else
+  if sex $n == 1
+    mob echoaround $n Widzisz jak $n próbuje zmusiæ ¶wietlika, by ten lata³ dooko³a niego. Jednak nie s³ucha siê i odlatuje w sin± dal.
+  else
+    mob echoaround $n Widzisz jak $n próbuje zmusiæ ¶wietlika, by ten lata³ dooko³a niej. Jednak nie s³ucha siê i odlatuje w sin± dal.
+  endif
+  mob echoat $n Próbujesz zmusiæ ¶wietlika, by o¶wietla³ ci drogê. Ten jednak nie s³ucha siê i odlatuje w sin± dal.
+  obj remove
+  mob purge ma³y ¶wietlik
+endif
+~
 #39942
 ~
 if clan $n WILK

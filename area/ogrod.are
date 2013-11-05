@@ -652,7 +652,7 @@ Damage 3d1+0
 Dammagic 0
 Weaponbonus 0
 Damflags 0
-Attack uderzenie
+Attack none
 XAC 10 10 10 10
 Stats 78 78 78 78 78 78 78
 Off 0
@@ -850,11 +850,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -871,11 +871,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value -1 -1 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -885,6 +885,70 @@ elfa, obok którego stoi ¶rebrzy¶cie bia³y jednoro¿ec. Zauwa¿asz, ¿e materia³
 wybrany do wykonania tych rze¼b, czyli srebro i kryszta³ idealnie pasuj± do
 nastroju lekkiej melancholii jaka maluje siê na obliczu elfa. 
 ~
+Comments ~
+Objend
+#Vnum 1702
+Name jab³ko owoc~
+Odmiana {Rjab³ka{x~{Rjab³ku{x~{Rjab³ko{x~{Rjab³kiem{x~{Rjab³ku{x~
+Short {Rjab³ko{x~
+Descr Jaki¶ owoc, chyba {Rjab³ko{x.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 4 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 1
+Cond 100
+Comments ~
+Objend
+#Vnum 1703
+Name grabie~
+Odmiana {ygrabi{x~{ygrabiom{x~{ygrabie{x~{ygrabiami{x~{ygrabiach{x~
+Short {ygrabie{x~
+Descr Na ziemi widzisz le¿±ce {ygrabie{x.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 1
+Gender 5
+Value 8 2 2 27 32 1 0
+Repair 0 0 0 0
+Weight 70
+Cost 600
+Cond 80
+Identdesc ~
+Comments ~
+Objend
+#Vnum 1704
+Name kostur solidny drewniany~
+Odmiana kostura~kosturowi~kostur~kosturem~kosturze~
+Short drewniany kostur~
+Descr Solidny, wykonany z jesionu, kostur.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 3 3 7 32 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 120
+Cond 30
 Comments ~
 Objend
 #Vnum 1705
@@ -898,14 +962,35 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 50 0 0 100 10 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2500
 Cost 0
 Cond 100
+Comments ~
+Objend
+#Vnum 1706
+Name skorzana kurtka gruba~
+Odmiana grubej skórzanej kurtki~grubej skórzanej kurtce~grub± skórzan± kurtkê~grub± skórzan± kurtk±~grubej skórzanej kurtce~
+Short gruba skorzana kurtka~
+Descr Skorzana kurtka z grubej skory.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|A
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 0
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 600
+Cond 35
 Comments ~
 Objend
 #Vnum 1707
@@ -919,14 +1004,41 @@ ExtraExt 0
 Wear AD
 Wear2Ext 0|AB
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 80
 Cost 10
 Cond 100
+Comments ~
+Objend
+#Vnum 1709
+Name stare buty~
+Odmiana {Bstarych butów{x~{Bstarym butom{x~{Bstare buty{x~{Bstarymi butami{x~{Bstarych butach{x~
+Short {Bstare buty{x~
+Descr Troche zabrudzone i znoszone {Bstare buty{x.~
+Material filc~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 10
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 10
+Cond 100
+Aff 1 14 2 0 0 0
+Itemdesc Te stare ju¿, ale nadal nadaj±ce siê do u¿ytku buty s± w rzeczy samej
+bardzo wygodne. Zastanawiasz siê w ogole jakim cudem one jeszcze siê nie
+rozpad³y... Mo¿e jaka¶ kropelka magii zosta³a w to wszystko wmieszana?
+Niemniej ci±gle masz wra¿enie, ¿e te buty le¿± na tobie idealnie. 
+~
 Comments ~
 Objend
 #Vnum 1710
@@ -940,11 +1052,11 @@ ExtraExt 0|Y
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 50
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 882
 Cost 0
 Cond 100
@@ -965,11 +1077,11 @@ ExtraExt 0|S
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 300
 Cond 20
@@ -994,11 +1106,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 0
 Cond 100
@@ -1017,11 +1129,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 100
@@ -1030,6 +1142,30 @@ barwami. Jest naprawde bardzo ³adny a na dodatek skromny. Dobry prezent dla
 <&damy swego serca/mê¿czyzny twojego ¿ycia/kogo¶ kogo lubisz>.
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1714
+Name galazka~
+Odmiana {ygalazki{x~{ygalazce{x~{ygalazke{x~{ygalazka{x~{ygalazce{x~
+Short {yga³±zka{x.~
+Descr Lezy sobie tutaj {ygalazka{x.~
+Material drewno~
+Type trash
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 0
+Cond 100
+Itemdesc Zwyk³a, ju¿ troche uschniêta ga³±zka, która prawdopodobnie zosta³a
+u³amana z jakiego¶ drzewa. 
+~
 Comments ~
 Objend
 #Vnum 1715
@@ -1043,11 +1179,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 1716 1714 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1064,14 +1200,39 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1715 0 1714 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
+Comments ~
+Objend
+#Vnum 1717
+Name z³ota liberia~
+Odmiana liberii~liberii~liberiê~liberi±~liberii~
+Short {Yz³ota{x liberia~
+Descr Piêknie ozdobiona, wykonana ze {Yz³otej{x tkaniny liberia le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 20
+Cond 90
+Itemdesc Ta piêkna, szlachecka liberia jest ca³a w kolorze z³ota. Zauwa¿asz, ¿e ma
+ona wyhaftowany na sobie wielki herb rodziny Levenów z Arras. Zapewne
+w³a¶nie z tamt±d pochodzi ta liberia. 
+~
 Comments ~
 Objend
 #Vnum 1720
@@ -1085,11 +1246,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -1098,22 +1259,47 @@ nie wygl±da smutnie? Szczególnie w tym otoczeniu.
 ~
 Comments ~
 Objend
+#Vnum 1721
+Name du¿e wielkie ³o¿e ³ó¿ko~
+Odmiana wielkiego ³o¿a~wielkiemu ³o¿u~wielkie lo¿e~wielkim ³o¿em~wielkim ³o¿u~
+Short wielkie ³o¿e~
+Descr Du¿e, drewniane ³o¿e z baldachimem stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 2 5000 1168 120 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 75
+Itemdesc Wielkie, drewniane i piêknie zdobione ³o¿e z baldachimem wygl±da naprawde
+okazale... I wygodnie. A¿ kusi, ¿eby siê w nim po³o¿yæ. Tylko ciekawe co na
+to s³u¿ba willi Levenów? 
+~
+Comments ~
+Objend
 #Vnum 1722
 Name marmurowy rega³ na ksi±¿ki~
 Odmiana marmurowego rega³u~marmurowemu rega³owi~marmurowy rega³~marmurowym rega³em~marmurowym regale~
 Short marmurowy rega³~
 Descr Du¿y, marmurowy rega³ stoi tutaj.~
-Material marmur~
+Material granit~
 Type container
 ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 500 16 0 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5000
 Cost 0
 Cond 75
@@ -1133,16 +1319,40 @@ ExtraExt 0|Y
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 200 72 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3000
 Cost 1
 Cond 75
 Itemdesc Ca³kiem ³adny i kunsztowny sekretarzyk stoi tutaj. Ca³y zastawiony jest
 ró¿norakimi przedmiotami, od papierów i map na kielichach koñcz±c. 
+~
+Comments ~
+Objend
+#Vnum 1724
+Name okragly stól~
+Odmiana okr±g³ego sto³u~okr±g³emu sto³owi~okr±g³y stó³~okr±g³ym sto³em~okr±g³ym stole~
+Short okr±g³y, marmurowy stó³.~
+Descr Du¿y, marmurowy stó³ stoi tutaj.~
+Material marmur~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 25 0 72 100 0 0 0
+Repair 0 0 0 0
+Weight 1000
+Cost 0
+Cond 75
+Itemdesc Ten piêkny, ogromny stó³ to jeden z najcenniejszych mebli w domu rodziny
+Levenów. Mo¿e sie przy nim zmie¶ciæ nawet parena¶cie osób. 
 ~
 Comments ~
 Objend
@@ -1157,11 +1367,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 200 0 0 50 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -1169,6 +1379,30 @@ Itemdesc Piec jest zbudowany z jasnego kamienia. Bije od niego du¿e ciep³o, co
 znaczy, ¿e jest przygotowany do tego, ¿eby gotowaæ na nim posi³ek lub mo¿e
 w³a¶nie kto¶ skoñczy³ co¶ na nim gotowaæ. Drzwiczki od pieca s± otwarte i
 widaæ ogieñ pal±cy siê w jego wnêtrzu. 
+~
+Comments ~
+Objend
+#Vnum 1726
+Name ³ó¿ko dwupoziomowe drewniane~
+Odmiana lozka~ló¿ku~³ó¿ko~³ó¿kiem~³ó¿ku~
+Short dwupoziomowe ³ó¿ko~
+Descr Dwupoziomowe ³ó¿ko stoi pod ¶cian±.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 1
+Value 2 250 1168 130 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc £ó¿ko to jest dwupoziomowe, wykonane niedbale z drewna. Nie jest one
+wcale eleganckie. Widaæ, ¿e jest to miejsce noclegu s³u¿by. 
 ~
 Comments ~
 Objend
@@ -1183,12 +1417,12 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Komponent 25 525600
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 10
 Cond 75
@@ -1198,6 +1432,31 @@ swoje odbicie. Wyrób najwy¿szej jako¶ci, prawdopobnie pracowa³y przy nim
 elfy. 
 ~
 Comments ~
+Objend
+#Vnum 1728
+Name wygodny fotel~
+Odmiana fotela~fotelowi~fotel~fotelem~fotelu~
+Short fotel~
+Descr Duzy, wygodny fotel stoi przy regale.~
+Material jedwab~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 0 2336 105 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to du¿y fotel, zdobiony przepiêknym materia³em. Wygl±da na bardzo
+wygodny i napewno ¶wietnie nadaje siê do czytania ksi±¿ek. 
+~
+Comments WRRR ... fotel mial 300% bonusa do leczenia - {RGurthg{x ({CFri Jun 11 16:48:43 2004{x)
+~
 Objend
 #Vnum 1729
 Name lampa~
@@ -1210,11 +1469,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1235,11 +1494,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 0
 Cond 100
@@ -1256,11 +1515,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1281,11 +1540,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 50 0 0 20 100 0 -1
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 60
 Cond 75
@@ -1302,11 +1561,32 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 5 5 5 0 0 0 0
 Repair 0 0 0 0
-Length 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 1734
+Name falbankowa suknia~
+Odmiana sukni~sukni~suknie~sukni±~sukni~
+Short falbankowa suknia~
+Descr Falbankowa suknia le¿y tutaj.~
+Material at³as~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
 Weight 1
 Cost 1
 Cond 75
@@ -1323,16 +1603,41 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 19 20 40 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 403
 Cost 1
 Cond 75
 Itemdesc Do¶æ du¿y gliniany garnek posiadaj±cy dwa wielkie, okr±g³e ucha, dziêki
 którym mo¿na ³atwo go przenosiæ. 
+~
+Comments ~
+Objend
+#Vnum 1736
+Name jedwabna koszula~
+Odmiana jedwabnej koszuli~jedwabnej koszuli~jedwabn± koszulê~jedwabn± koszul±~jedwabnej koszuli~
+Short jedwabna koszula~
+Descr ¦nie¿nobia³a jedwabna koszula z ³adnymi guzikami.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 4
+Cost 30
+Cond 75
+Itemdesc Jest to ca³kiem ³adna i prawdopodobnie do¶æ droga jedwabna koszula.
+Gustowna, elegancka, modna. W sam raz dla bogatego szlachcica lub
+mieszczanina. 
 ~
 Comments ~
 Objend
@@ -1347,11 +1652,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 15
 Cost 4
 Cond 75
@@ -1359,6 +1664,60 @@ Itemdesc Jest to prosty, bia³y kitel u¿ywany przez kucharzy. Posiada on kilka
 du¿ych kieszeni, poza tym jednak niczym innym siê nie wyró¿nia. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 1738
+Name butelka wykwintne wino przysmak arystokraty~
+Odmiana wykwintnego wina~wikwintnym winem~wykwintne wino~wykwintnym winem~wykwintnym winie~
+Short {Mwykwintne wino "przysmak arystokraty"{x~
+Descr Elegancko wygl±daj±ca butelka wraz z nieznan± zawarto¶ci± le¿y tutaj.~
+Material unused~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 17 0 0 0 0
+Repair 20 0 1 100
+Weight 20
+Cost 50000
+Cond 75
+Itemdesc Spogl±dasz z zaciekawieniem na butelkê tego jak ci siê zdajê
+nienajgorszego trunku. Butelka wykonana zosta³a z pomys³em, etykieta zawiera
+opis zawarto¶ci w klilku jêzykach, a zapach trunku znajduj±cego siê w niej
+jest po prostu cudny. Nie wiesz ile czasu zdo³asz j± utrzymaæ zanim nie
+wychylisz zawarto¶ci do w³asnego gard³a. 
+~
+Comments ~
+Objend
+#Vnum 1739
+Name butelka whiskey smak bogactwa~
+Odmiana whiskey~whiskey~whiskey~whiskey~whiskey~
+Short {ywhiskey{x {C"smak bogactwa"{x~
+Descr £adnie wykonana butelka z whiskey le¿y tutaj, kusz±c zawarto¶ci±.~
+Material szk³o~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 1
+Value 2 2 5 0 0 0 0
+Repair 20 0 1 100
+Weight 1
+Cost 80000
+Cond 75
+Itemdesc Jedno spojrzenie wystarcza aby dostrzec klasê tego trunku. Prosto, a
+jednocze¶nie elegancko wykonana butelka, oraz bursztynowy kolor zawartego
+p³ynu zachêcaj± do degustacji. Odkrêcaj±c butelkê do twoich nozdrzy dociera
+przemi³y zapach mocnego whiskey. Z pewno¶ci± nie jest to trunek dla
+pospólstwa. 
+~
 Comments ~
 Objend
 #Vnum 0
@@ -1672,12 +2031,12 @@ Tuz obok na zachodzie widzisz mala budke na narzedzia.
 ~
 ~
 3 0 1706
-Roomprog input 1707_jablka zrywaj~
-Roomprog input 1707_jablka zerwij~
-Roomprog input 1707_jablka zerwij jablko~
-Roomprog input 1707_jablka zrywaj jablko~
-Roomprog input 1707_jablka potrzasnij~
 Roomprog input 1707_jablka trzes~
+Roomprog input 1707_jablka potrzasnij~
+Roomprog input 1707_jablka zrywaj jablko~
+Roomprog input 1707_jablka zerwij jablko~
+Roomprog input 1707_jablka zerwij~
+Roomprog input 1707_jablka zrywaj~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1745,11 +2104,11 @@ Za sadem na tle muru widzisz maly skladzik.
 ~
 ~
 0 0 1704
-Roomprog input 1707_jablka zrywaj~
-Roomprog input 1707_jablka zerwij~
-Roomprog input 1707_jablka zerwij jablko~
-Roomprog input 1707_jablka zrywaj jablko~
 Roomprog input 1707_jablka potrzasnij~
+Roomprog input 1707_jablka zrywaj jablko~
+Roomprog input 1707_jablka zerwij jablko~
+Roomprog input 1707_jablka zerwij~
+Roomprog input 1707_jablka zrywaj~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3433,19 +3792,19 @@ S
 
 #RESETS
 M 100 1701 1 1701 1
-E 100 3371 0 16
-E 100 4369 0 5
+E 100 1704 0 16
+E 100 1706 0 5
 O 100 1713 0 1702
 O 100 1713 0 1702
 O 100 1712 0 1704
 M 100 1704 3 1704 1
 O 100 1705 0 1705
-P 100 2464 3 1705 3
+P 100 1702 3 1705 3
 M 100 1706 1 1706 1
-E 100 5017 0 17
-E 100 4369 0 5
+E 100 1703 0 16
+E 100 1706 0 5
 O 100 1705 0 1707
-P 100 2464 2 1705 1
+P 100 1702 2 1705 1
 M 100 1703 3 1707 1
 M 100 1708 3 1708 1
 O 100 1710 0 1712
@@ -3456,29 +3815,30 @@ M 100 1705 1 1714 1
 M 100 1716 3 1716 3
 O 100 1712 0 1717
 M 100 1717 1 1717 1
-O 100 4417 0 1717
+O 100 1709 0 1717
 M 100 1719 1 1719 1
 E 100 3185 0 0
 M 100 1702 3 1719 1
 O 100 1720 0 1720
 M 100 1704 3 1720 1
 M 100 1704 3 1721 1
-O 100 32000 0 1722
+O 100 1714 0 1722
+M 100 1703 3 1722 1
 M 100 1700 3 1723 1
 O 100 1701 0 1726
 M 100 1703 3 1726 1
 M 100 1700 6 1727 2
 M 100 1708 3 1727 1
-O 100 32000 0 1728
+O 100 1714 0 1728
 M 100 1729 1 1729 1
-E 100 4364 0 5
-E 100 3050 0 7
-E 100 4418 0 8
+E 100 28624 0 5
+E 100 3089 0 7
+E 100 3087 0 8
 G 100 1730 0
 M 100 1702 3 1729 2
-E 100 3050 0 7
-E 100 4369 0 5
-E 100 4418 0 8
+E 100 3089 0 7
+E 100 1706 0 5
+E 100 3087 0 8
 M 100 1707 3 1729 1
 O 100 1711 0 1730
 O 100 1712 0 1731
@@ -3490,29 +3850,29 @@ O 100 1713 0 1737
 M 100 1700 6 1737 2
 M 100 1700 6 1738 2
 O 100 1725 0 1740
-O 100 2356 0 1740
+O 100 1726 0 1740
 M 100 1720 1 1740 1
 O 100 1723 0 1744
 O 100 1732 0 1744
 P 70 1733 1 1732 1
-P 30 3132 1 1732 1
+P 30 1738 1 1732 1
 O 100 1722 0 1745
-O 100 2351 0 1745
+O 100 1728 0 1745
 M 100 1722 1 1745 1
 O 100 1729 0 1745
-O 100 2355 0 1746
+O 100 1721 0 1746
 M 100 1721 1 1746 1
-E 100 4416 0 8
-E 100 4389 0 5
+E 100 2304 0 8
+E 100 1734 0 5
 E 100 1727 0 17
 O 100 1731 0 1747
 M 100 1723 3 1748 1
-O 100 2362 0 1748
+O 100 1724 0 1748
 M 100 1723 3 1749 1
 M 100 1710 1 1750 1
-E 100 3050 0 7
-E 100 4418 0 8
-E 100 4383 0 5
+E 100 3089 0 7
+E 100 3087 0 8
+E 100 1717 0 5
 S
 
 
@@ -3536,9 +3896,9 @@ emote wyczarowuje bialego golebia.
 ~
 #1702
 ~
-mob equip self 4418
-mob equip self 3018
-mob equip self 3050
+mob oload 3087 wear
+mob oload 1706 wear
+mob oload 3089 wear
 ~
 #1703
 ~
@@ -3595,8 +3955,8 @@ emote puszcza kulê ognia!
 #1722_mor_ubr
 ubranie morina
 ~
-mob equip self 3050
-mob equip self 4371
+mob equip self 3089
+mob equip self 1736
 ~
 #1723
 ~
@@ -3673,8 +4033,8 @@ endif
 ~
 #1731
 ~
-mob equip self 3050
-mob equip self 4418
+mob oload 3089 wear
+mob oload 3087 wear
 ~
 #kamer_leven
 ~
@@ -3721,7 +4081,11 @@ mob damage all 200 800 lethal
 ~
 mob echoaround $n $n Wspina sie na palce, az trzeszczy mu w krzyzu i zrywa jablko.
 mob echoat $n Wspinasz sie na palce, az trzeszczy ci w krzyzu i zrywasz jablko.
-mob oload 2464
+mob oload 1702
+~
+#1732_onl
+~
+if rand 80
 ~
 #0
 
@@ -3776,7 +4140,7 @@ if pos $n standing
   endif
   mob echoat $n Stajesz na palcach, a¿ co¶ ci trzeszczy w krzy¿u i zrywasz jab³ko.
   mob echo Jab³ko upada na ziemie.
-  mob oload 2464 room
+  mob oload 1702 room
 else
   mob echoat $n Nic w³a¶ciwie siê nie dzieje.
 endif

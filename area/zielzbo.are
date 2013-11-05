@@ -510,6 +510,20 @@ Exit 3
 ~
 ~
 0 0 1490
+ExitExt 5
+ExitExtDescription Paskudna przepasc !
+~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 1492
+ExitExtEnd
+Exit 5
+Paskudna przepasc !
+~
+~
+0 0 1492
+Roomprog exit 1491 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -583,40 +597,42 @@ Exit 4
 ~
 0 0 1493
 ExitExt 5
-ExitExtDescription ~
+ExitExtDescription Przepasc...
+~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 1492
 ExitExtEnd
 Exit 5
+Przepasc...
 ~
 ~
 0 0 1492
+Roomprog exit 1491 5~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 1492
 Name {RPrzepa¶æ!!!{x~
-Descr Znajdujesz siê pod strom±, skalist± ¶cian±. Rozgl±daj±c siê dooko³a
-widzisz szcz±tki nieszczê¶ników, którzy w odró¿nieniu od ciebie dostali siê
-tu drog± bardziej naturaln± ni¿ wspomagany magicznie lot. Jest tutaj ca³kiem
-przyjemnie nie licz±c, oczywi¶cie, trupów dooko³a. Niemniej jednak jest tu
-ca³kiem spokojnie... Wszak nikt tu raczej nie przychodzi. 
+Descr Twoja noga po¶liznê³a siê i...
+ 
+ 
+ 
+Spadasz...
+ 
+ 
+ 
+w przepa¶æ!
+ 
+ 
+ 
+ 
+{yCzasem warto spojrzeæ gdzie siê idzie... (look down){x
 ~
 FlagsExt 0|CHN
 Sector 0
-ExitExt 4
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 1491
-ExitExtEnd
-Exit 4
-~
-~
-0 0 1491
+Roomprog random 1492 100~
 Roomprog entry 1492 100~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -865,6 +881,17 @@ znajdujesz.
 ~
 FlagsExt 0
 Sector 3
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 40191
+ExitExtEnd
+Exit 1
+~
+~
+0 0 40191
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -930,15 +957,7 @@ endif
 ~
 #1492
 ~
-if !affected $n fly
-  mob echoat $n Krok w przód... brak pod³o¿a!
-  minidelay 2
-  mob echoat $n Spaaaaadaaaaasz...!!!
-  mob damage $n 10000 20000 ups...
-else
-  mob echoat $n Twoja zdolno¶æ latania uchroni³a ciê od ¶miertelnego upadku.
-  mob echoaround $n Widzisz jak $n powoli l±duje na dnie przepa¶ci.
-endif
+mob damage all 10000 20000 papa
 ~
 #1493
 ~

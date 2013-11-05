@@ -1,5 +1,5 @@
 #AREADATA
-Name +# Trakt - Obilon - Eastheaven~
+Name +# Trakt - Silea - Eastheaven~
 Builders Obilon~
 VNUMs 46130 46260
 Locked ~
@@ -206,11 +206,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -218,6 +218,85 @@ Itemdesc Skupiasz swój wzrok na kamieniu w nadziei, ¿e siê poruszy lub co¶ powie
 Masz szeroko otwarte usta i oczy. Zastygasz na parê sekund nieruchomo, ale
 niestety kamieñ le¿y jak le¿a³. Nawet nie pisn±³. Z rezygnacj± odrywasz od
 niego wzrok. 
+~
+Comments ~
+Objend
+#Vnum 46131
+Name skorzana czapka~
+Odmiana skórzanej czapki~skórzanej czapce~skórzan± czapkê~skórzan± czapk±~skórzanej czapce~
+Short {rskórzana{x czapka~
+Descr {rSkórzana{x czapka le¿y tutaj przyci±gaj±c twój wzrok.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 6
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 600
+Cond 75
+Itemdesc Czapka jest wykonana ze skóry. Jest pofarbowana na kolor bordowy, który
+powoduje, ¿e jej posiadacz lepiej mo¿e ukryæ siê w cieniu. Nie jest
+pofarbowana na czarno pewnie ze wzglêdu na wysok± cenê barwnika. Po
+zewnêtrznej stronie czapki w niektórych miejscach s± widoczne szwy. 
+~
+Comments ~
+Objend
+#Vnum 46134
+Name skórzane rêkawy~
+Odmiana skórzanych rêkawów~skórzanym rêkaw±~skórzane rêkawy~skórzanymi rêkawami~skórzanych rêkawach~
+Short {rskórzane{x rêkawy~
+Descr {rSkórzane{x rêkawy le¿± tutaj przyci±gaj±c twój wzrok.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 9 9 8 10 1 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 360
+Cond 75
+Itemdesc Rêkawy s± wykonana ze skóry. S± pofarbowane na kolor bordowy, który
+powoduje, ¿e ich posiadacz lepiej mo¿e ukryæ siê w cieniu. Nie s±
+pofarbowane na czarno pewnie ze wzglêdu na wysok± cenê barwnika. Po
+zewnêtrznej stronie rêkawów w niektórych miejscach s± widoczne szwy. 
+~
+Comments ~
+Objend
+#Vnum 46138
+Name p³aszcz skóry nied¼wiedzia~
+Odmiana p³aszcza ze skóry nied¼wiedzia~p³aszczowi ze skóry nied¼wiedzia~p³aszcz ze skóry nied¼wiedzia~p³aszczem ze skóry nied¼wiedzia~p³aszczu ze skóry nied¼wiedzia~
+Short p³aszcz ze skóry {ynied¼wiedzia{x ~
+Descr P³aszcz ze skóry {ynied¼wiedzia{x le¿y tutaj. ~
+Material skóra~
+Type clothing
+ExtraExt 1|A
+Wear ADILM
+Wear2Ext 0
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 190
+Cond 75
+Itemdesc P³aszcz wykonany jest ze skóry nied¼wiedzia, z fragmentu od szyi do
+ogona. Nigdzie nie ma ¶ladów zniszczenia. Skóra zosta³a zdjêta ze zwierzêcia
+profesjonalnie. £apy przednie ³±czy posrebrzana zapinka, któr± umieszcza siê
+na ramieniu. Dziêki temu p³aszcz mniej uwiera. Skóra jest bardzo ciep³a.
+Idealna do ogrzewania cia³a w trakcie wypraw w mro¼ne partie gór. 
 ~
 Comments ~
 Objend
@@ -1534,6 +1613,17 @@ Exit 3
 ~
 ~
 0 0 46170
+ExitExt 4
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 60151
+ExitExtEnd
+Exit 4
+~
+~
+0 0 60151
 DayRDesc 46130
 NightRDesc 46130
 Resources 0 0 0 0 0 0 0 0 
@@ -4426,17 +4516,17 @@ O 100 46130 0 46165
 O 100 46130 0 46168
 O 100 46130 0 46173
 M 100 46130 1 46175 1
-E 100 4408 0 6
-E 100 3066 0 9
-E 100 3001 0 8
-E 100 3082 0 10
-E 100 3050 0 7
-E 100 3017 0 5
+E 100 46131 0 6
+E 100 3378 0 9
+E 100 3380 0 8
+E 100 46134 0 10
+E 100 3382 0 7
+E 100 3008 0 5
 O 100 46130 0 46175
 E 100 3366 0 11
-E 100 4431 0 12
+E 100 46138 0 12
 M 100 46133 1 46176 1
-G 100 3179 0
+G 100 3022 0
 O 100 46130 0 46182
 M 100 46131 1 46183 40
 O 100 46130 0 46185

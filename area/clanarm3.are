@@ -247,11 +247,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 1 10000 144 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 300
 Cost 1
 Cond 90
@@ -270,15 +270,16 @@ ExtraExt 0|HMY
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 20
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1500
 Cond 50
 Aff 1 12 4 10 0 0
+Objprog prewear armia3_klips 100~
 Comments ~
 Objend
 #Vnum 50853
@@ -292,16 +293,161 @@ ExtraExt 0
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 5
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 10
 Cond 100
 Comments a bo ja wiem po co to tutaj jest - {RGorst{x ({CTue Feb  5 22:04:40 2008{x)
 ~
+Objend
+#Vnum 50854
+Name zdobiony kufer~
+Odmiana {Wzdobionego {Dkufra{x~{Wzdobionemu {Dkufrowi{x~{Wzdobiony {Dkufer{x~{Wzdobionym {Dkufrem{x~{Wzdobionym {Dkufrze{x~
+Short {Wzdobiony {Dkufer{x~
+Descr Le¿y tutaj wielki zdobiony kufer, co jaki¶ czas pob³yskuje na z³oto.~
+Material szk³o~
+Type container
+ExtraExt 0|N
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 50 1 0 20 100 0 -1
+Repair 0 0 0 0
+Weight 220
+Cost 6000
+Cond 75
+Itemdesc Jest to mithrilowy kufer na którym starannie zosta³a wyryta historia
+Armii Gnomów, wygl±da jak nietkniêty przez czas mimo tego ¿e le¿y tu od
+zawsze, nie ma k³ódki ani zawiasów, Wielki Mag Armii, Bromsh ob³o¿y³ go
+czarem dziêki któremu otwieraæ go mog± tylko wybrani. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 50855
+Name 3ognik_armia iskrz±cy ognik~
+Odmiana {Ris{Ykrz{R±cego {rognika{x~{Ris{Ykrz{R±cemu {rognikowi{x~{Ris{Ykrz{R±cy {rognik{x~{Ris{Ykrz{R±cym {rognikiem{x~{Ris{Ykrz{R±cym {rogniku{x~
+Short {Ris{Ykrz{R±cy {rognik{x~
+Descr {RIs{Ykrz{R±cy {rognik{x roz¶wietla blaskiem okolicê.~
+Material eteryczny~
+Type light
+ExtraExt 0
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 2
+Value 0 0 22 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 75
+Objprog prewear armia3_ognik 100~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 50856
+Name wielka skrzynia~
+Odmiana skrzyni~skrzyni~skrzyniê~skrzyni±~skrzyni~
+Short wielka skrzynia~
+Descr Stoi tutaj na ziemi jaka¶ wielka skrzynia do przechowywania rzeczy.~
+Material mithril~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 100 1 0 25 100 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Comments ~
+Objend
+#Vnum 50857
+Name rze¼biona fontanna~
+Odmiana {Br{xz{Be{x¼{Bb{xi{Bo{xn{Be{xj f{Bo{xn{Bt{xa{Bn{xn{By{x~{Br{xz{Be{x¼{Bb{xi{Bo{xn{Be{xj f{Bo{xn{Bt{xa{Bn{xn{Bi{xe~{Br{xz{Be{x¼{Bb{xi{Bo{xn{B±{x f{Bo{xn{Bt{xa{Bn{xn{Bê{x~{Br{xz{Be{x¼{Bb{xi{Bo{xn{B±{x f{Bo{xn{Bt{xa{Bn{xn{B±{x~{Br{xz{Be{x¼{Bb{xi{Bo{xn{Be{xj f{Bo{xn{Bt{xa{Bn{xn{Bi{xe~
+Short {Br{xz{Be{x¼{Bb{xi{Bo{xn{Ba{x f{Bo{xn{Bt{xa{Bn{xn{Ba{x~
+Descr Spora, piêknie {Br{xz{Be{x¼{Bb{xi{Bo{xn{Ba{x f{Bo{xn{Bt{xa{Bn{xn{Ba{x pluska tutaj na ¶rodku polanki.~
+Material unused~
+Type fountain
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value -1 -1 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Masz przed sob± ¶redniej wielko¶ci fontannê wykonan± z kryszta³u.
+Znajduje siê w niej krystalicznie czysta woda, a¿ chcia³o by siê z niej
+napiæ... Kryszta³owa fontanna odbija od siebie ¶wiat³o powoduj±c, ¿e woda
+zmienia swój kolor. 
+~
+Comments jak wiele tych "dziwnych" opisów - to nie ja ;) - {RGorst{x ({CWed Feb  6 19:20:12 2008{x)
+~
+Objend
+#Vnum 50858
+Name du¿y stó³~
+Odmiana sto³u~sto³owi~stó³~sto³em~stole~
+Short du¿y stó³~
+Descr Duzy kamienny stol wykonany po mistrzowsku stoi tutaj.~
+Material kamieñ~
+Type container
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 10000 1 0 100 100 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 75
+Itemdesc Du¿y kamienny stó³ wykonany po mistrzowsku stoi tutaj. Jest bardzo ciê¿ki
+i wniesienie go tutaj zajê³o na pewno du¿o czasu. Na stole le¿± jakie¶
+notatki oraz czaszka ze ¶wiec±, a po rysach i od³amaniach widaæ, ¿e by³ on
+u¿ywany nie raz. 
+~
+Comments ~
+Objend
+#Vnum 50859
+Name kamienna ³awa~
+Odmiana ³awy~³awie~³awê~³aw±~³awie~
+Short kamienna ³awa~
+Descr D³uga na szeroko¶æ sto³u, kamienna ³awa stoi tutaj.~
+Material kamieñ~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 10 2147483647 144 100 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
 Objend
 #Vnum 0
 
@@ -684,6 +830,8 @@ Exit 2
 ~
 ~
 0 0 50856
+Roomprog sit tron_armia 50851~
+Roomprog rest tron_armia 50851~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -759,20 +907,20 @@ S
 
 #RESETS
 M 100 50851 1 50851 1
-O 100 2367 0 50853
+O 100 50857 0 50853
 M 100 50854 1 50855 1
-G 100 2499 0
-G 100 2497 0
-G 100 2450 0
-G 100 3380 0
+G 100 3025 0
+G 100 3006 0
+G 100 3001 0
+G 100 50855 0
 G 100 50852 0
-G 100 3215 0
+G 100 50854 0
 M 100 50855 1 50857 1
 M 100 50853 1 50858 1
 O 100 50851 0 50859
-O 100 2362 0 50859
-O 100 2363 0 50859
-O 100 3370 0 50861
+O 100 50858 0 50859
+O 100 50859 0 50859
+O 100 50856 0 50861
 S
 
 
@@ -792,6 +940,28 @@ endif
 #0
 
 #OBJPROGSNEW
+#armia3_klips
+~
+if !clan $n "ARMIA"
+or wears $n 50852
+  mob echoat $n Klips "{DInsygnium{x Odwagi" dematerializuje siê...
+  mob remove $n 50852
+else
+  obj wear
+  mob echoat $n Przypinasz klips "{DInsygnium{x Odwagi" do swojego ucha.
+  mob echoaround $n $n przypina klips "{DInsygnium{x Odwagi" do swojego ucha.
+endif
+~
+#armia3_ognik
+~
+if !clan $n ARMIA
+  mob echoat $n Czujesz, ¿e ognik nie ma ochoty ci s³u¿yæ...
+else
+  mob echoaround $n Iskrz±cy ognik zaczyna lewitowaæ w pobli¿u g³owy $z.
+  mob echoat $n Iskrz±cy ognik zaczyna lewitowaæ w pobli¿u twojej g³owy.
+  obj wear
+endif
+~
 #0
 
 #ROOMPROGSNEW
@@ -830,6 +1000,15 @@ endif
 #armia3_przepasc
 ~
 mob at 50854 mob echo Ryk bólu prawie rani twoje uszy, zdaje siê, ¿e kto¶ lub co¶ ponios³o ¶mieræ...
+~
+#tron_armia
+~
+if !name $n Bromsh
+  mob echoat $n Gdzie¶ z oddali s³ychaæ g³os Bromsha: "{GBlu¼nierco! Wypad! To mój tron!{x".
+  mob echoat $n Jaka¶ nieludzka si³a zrzuca ciê na ziemiê i wyrzuca z impetem na po³udnie!
+  mob echoaround $n Jaka¶ nieludzka si³a zrzuca $z z tronu Bromsha i wyrzuca go na po³udnie!
+  mob transfer $n 50856
+endif
 ~
 #0
 

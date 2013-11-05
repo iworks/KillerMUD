@@ -1,13 +1,13 @@
 /***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 2001-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 2001-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  *                                                                     *
  ***********************************************************************
  *
- * $Id: si_funcs.c 11460 2012-06-29 07:43:35Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/si_funcs.c $
+ * $Id: si_funcs.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/si_funcs.c $
  *
  */
 #define SI_FUNCS_C
@@ -389,7 +389,7 @@ bool frag_tank( CHAR_DATA *ch, struct char_desc *desc )
 		{
 			for( cel = ch->in_room->people ; cel ; cel = cel->next_in_room )
 			{
-				if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel, TRUE ) )
+				if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel ) )
 					++count;
 			}
 			if( count )
@@ -410,7 +410,7 @@ bool frag_tank( CHAR_DATA *ch, struct char_desc *desc )
     {
     	for( cel = ch->in_room->people ; cel ; cel = cel->next_in_room )
 		{
-			if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel, TRUE ) )
+			if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel ) )
 			{
 				target = create_desc( cel, get_caster(cel), check_tank( cel ), ( 100 * cel->hit ) / UMAX( 1, get_max_hp(cel) ), can_move( cel ) );
 				break;
@@ -893,7 +893,7 @@ bool frag_someone( CHAR_DATA *ch, struct char_desc *desc )
 		{
 			for( cel = ch->in_room->people ; cel ; cel = cel->next_in_room )
 			{
-				if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel, TRUE ) )
+				if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel ) )
 					++count;
 			}
 			if( count )
@@ -914,7 +914,7 @@ bool frag_someone( CHAR_DATA *ch, struct char_desc *desc )
     {
     	for( cel = ch->in_room->people ; cel ; cel = cel->next_in_room )
 		{
-			if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel, TRUE ) )
+			if ( !IS_NPC(cel) && cel->fighting == ch && can_see( ch, cel ) && !is_safe( ch, cel ) )
 			{
 				target = create_desc( cel, get_caster(cel), check_tank( cel ), ( 100 * cel->hit ) / UMAX( 1, get_max_hp(cel) ), can_move( cel ) );
 				break;
@@ -1784,7 +1784,7 @@ bool target_master( CHAR_DATA *ch, struct char_desc *desc )
 	{
 		for( victim = ch->in_room->people ; victim ; victim = victim->next_in_room )
 		{
-			if( !IS_NPC(victim) && can_see(ch,victim) && !is_safe( ch, victim, TRUE ) && victim->fighting == ch && get_caster(victim) == -1 )
+			if( !IS_NPC(victim) && can_see(ch,victim) && !is_safe( ch, victim ) && victim->fighting == ch && get_caster(victim) == -1 )
 			{
 				cel = victim;
 				break;
@@ -1961,7 +1961,7 @@ bool summon_player( CHAR_DATA *ch, struct char_desc *desc )
             return FALSE;
         }
     }
-    force_cast( ch, victim, gsn_summon );
+    force_cast( ch, victim, 94 );
     return TRUE;
 }
 
@@ -1986,7 +1986,7 @@ bool teleport_to_player( CHAR_DATA *ch, struct char_desc *desc )
 		return FALSE;
 	}
 
-	force_cast( ch, victim, gsn_dimension_door );
+	force_cast( ch, victim, 218 );
     return TRUE;
 }
 
@@ -2150,7 +2150,7 @@ bool call_friend( CHAR_DATA *ch, struct char_desc *desc )
             	break;
     	}
 
-    	if( memmed_spells[ best_spell ] ->sn == gsn_summon )
+    	if( memmed_spells[ best_spell ] ->sn == 94 )
     		return FALSE;
 
 	    force_cast( ch, ch, memmed_spells[ best_spell ] ->sn );

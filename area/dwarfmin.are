@@ -109,6 +109,74 @@ Mobend
 
 
 #OBJECTS
+#Vnum 24341
+Name prosty krasnoludzki kilof~
+Odmiana prostego kilofa~prostemu kilofowi~prosty kilof~prostym kilofem~prostym kilofie~
+Short prosty krasnoludzki kilof~
+Descr Prosty krasnoludzki kilof poniewiera siê na ziemi.~
+Material ¿elazo~
+Type tool
+ExtraExt 0
+Wear AO
+Wear2Ext 0|Y
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 1 5 0 0 0 0 0
+Repair 0 0 0 0
+Weight 120
+Cost 1200
+Cond 100
+Itemdesc Widzisz prosty krasnoludzki kilof, idealnie nadaj±cy siê by rozpocz±æ
+swoj± przygodê z górnictwem, je¶li tylko posiad³e¶ ju¿ odrobinê wiedzy na
+temat tej czynno¶ci. 
+~
+Comments ~
+Objend
+#Vnum 24343
+Name ¿elazna kolczuga~
+Odmiana ¿elaznej kolczugi~¿elaznej kolczudze~¿elazna kolczugê~¿elazn± kolczug±~¿elaznej kolczudze~
+Short ¿elazna kolczuga~
+Descr ¯elazna, krasnoludzka kolczuga.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|Y
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 5 7 5 10 8 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 4500
+Cond 75
+Comments ~
+Objend
+#Vnum 24346
+Name lampa górnicza~
+Odmiana lampy górniczej~lampie górniczej~lampê górnicz±~lamp± górnicz±~lampie górniczej~
+Short solidna i ciê¿ka lampa górnicza~
+Descr Znajduj±cy siê w ¶rodku knot os³oniêty jest metalow± siatk±, zapobiegaj±c± wybuchowi metanu, który gromadzi siê pod ziemi±.~
+Material ¿elazo~
+Type light
+ExtraExt 0
+Wear AR
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 1 30 1 0 0 0
+Repair 0 0 0 0
+Weight 22
+Cost 30
+Cond 75
+Identdesc ~
+Comments ~
+Objend
 #Vnum 0
 
 
@@ -2686,6 +2754,17 @@ nich skryæ, ale kto by chcia³ pchaæ siê w objêcia lawy.
 ~
 FlagsExt 0
 Sector 47
+ExitExt 1
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24281
+ExitExtEnd
+Exit 1
+~
+~
+0 0 24281
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3732,8 +3811,8 @@ M 100 24342 15 24394 1
 M 100 24341 20 24396 1
 M 100 24342 15 24397 1
 M 100 24341 20 24399 1
-E 100 3275 0 17
-E 100 3374 0 17
+E 100 24341 0 17
+E 100 24346 0 17
 M 100 24341 20 24407 1
 M 100 24342 15 24408 1
 M 100 24341 20 24409 1
@@ -3756,20 +3835,20 @@ if rand 90
 endif
  
 #£adowanie ciuchów
-mob equip self 3009
-mob equip self 3057
-mob equip self 3025
-mob equip self 3045
-mob oload 3275
+mob equip self 3139
+mob equip self 3140
+mob equip self 24343
+mob equip self 3067
+mob oload 24341
 hold kilof
 ~
 #24342
 ~
-mob equip self 3009
-mob equip self 3057
-mob equip self 3025
-mob equip self 3045
-mob oload 3275
+mob equip self 3139
+mob equip self 3140
+mob equip self 24343
+mob equip self 3067
+mob oload 24341
 hold kilof
 ~
 #0
@@ -3842,13 +3921,13 @@ Trapend
 #Vnum 0
 
 #RANDDESC
-#Vnum 24342
+#Vnum 24341
 DescRand #grouprand 1
 #grouprand 2
 #grouprand 3
 ~
 RandDescEnd
-#Vnum 24341
+#Vnum 24342
 DescRand #grouprand 1
 #grouprand 2
 #grouprand 3
@@ -3857,52 +3936,57 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 18~
-Desc Korytarz prowadzi przez kolejny fragment krasnoludzkiej kopalni. Wszêdzie
-widaæ efekty pracy górników, najwidoczniej nie pró¿nowali. 
+#Name 09~
+Desc Ca³okszta³t prezentuje idealne sztolnie, które s± nie tylko praktyczne
+ale i ich wygl±d jest zadowalaj±cy. 
 ~
 Group 3
 End
-#Name 17~
-Desc Wszêdzie da siê widzieæ pozosta³o¶ci po wcze¶niejszych pracach
-wydobywczych. ¦ciany s± poorane przez kilofy, a po ziemi walaj± siê resztki
-ska³. 
+#Name 08~
+Desc Wykoñczenia i ca³o¶æ robocizny pokazuje w najdrobniejszych elementach
+krasnoludzkie rzemios³o. 
 ~
 Group 3
 End
-#Name 16~
-Desc Pod ¶cianami dostrzegasz pozosta³o¶ci po urobku górniczym. Kamienie,
-kupki ziemi i inne nieczysto¶ci wydobyte ze ¶cian kopalni. 
+#Name 07~
+Desc Piêkne wykoñczenia, dopracowane do najdrobniejszych szczegó³ów. Wszystko
+³±cznie przedstawia wspania³y widok. 
 ~
 Group 3
 End
-#Name 15~
-Desc ¦rodkiem chodnika biegnie solidnie wydeptana ¶cie¿ka, któr± górnicy
-przemierzaj± by udaæ siê w dalszych kierunkach kopalni. 
+#Name 06~
+Desc Jak przysta³o na krasnoludzk± robotê, sztolnia jest bardzo solidnie i
+schludnie umocniona. Pierwszorzêdna robota. 
 ~
 Group 2
 End
-#Name 14~
-Desc Bior±c pod uwagê blisko¶æ fortecy, ³atwo tu nabawiæ siê wra¿enia, ¿e lada
-moment sufit spadnie nam na g³owê, oby to by³o tylko z³udzenie. 
+#Name 05~
+Desc Solidne umocnienia, schludne wykonanie, od razu widaæ, ¿e sztolnie
+wykonywa³y krasnoludzkie rêce. 
 ~
 Group 2
 End
-#Name 13~
-Desc Chodnik zdaje siê byæ na tyle solidny, ¿e nie grozi zawaleniem, jednak
-nikt za to rêczyæ nie mo¿e, lepiej zachowaæ ostro¿no¶æ. 
+#Name 04~
+Desc Silne umocnienia zabezpieczaj± strop przed zawalenie, krasnoludzi
+wykonali naprawdê kawa³ dobrej roboty. 
 ~
 Group 2
 End
-#Name 12~
-Desc Szeroki ale bardzo niski chodnik kopalni, idealnie nadaje siê do dalszej
-obróbki, niestety dla potê¿niejszych istot jest tu odrobinê ciasnawo. 
+#Name 03~
+Desc Robota krasnoludzkich górników, sztolnia która widzisz, prezentuje siê
+bardzo okazale i sprawia wra¿enie wytrzyma³ej. 
 ~
 Group 1
 End
-#Name 11~
-Desc Chodnik jest na tyle szeroki, ¿e bez trudu ros³y krasnolud mo¿e zamachn±æ
-siê kilofem, jednak jego wysoko¶æ pozostawia wiele do ¿yczenia. 
+#Name 02~
+Desc Sztolnia wykuta i umocniona przez krasnoludzkich górników, standardowej
+wielko¶ci, czyli dwa metry na dwa. 
+~
+Group 1
+End
+#Name 01~
+Desc Krasnoludzka sztolnia jakich wiele, dwa metry szeroko¶ci, tyle samo
+wysoko¶ci, nic nadzwyczajnego. 
 ~
 Group 1
 End
@@ -3913,57 +3997,52 @@ Desc W±ski chodnik kopalniany, wybudowany przez krasnoludów i przystosowany
 ~
 Group 1
 End
-#Name 01~
-Desc Krasnoludzka sztolnia jakich wiele, dwa metry szeroko¶ci, tyle samo
-wysoko¶ci, nic nadzwyczajnego. 
+#Name 11~
+Desc Chodnik jest na tyle szeroki, ¿e bez trudu ros³y krasnolud mo¿e zamachn±æ
+siê kilofem, jednak jego wysoko¶æ pozostawia wiele do ¿yczenia. 
 ~
 Group 1
 End
-#Name 02~
-Desc Sztolnia wykuta i umocniona przez krasnoludzkich górników, standardowej
-wielko¶ci, czyli dwa metry na dwa. 
+#Name 12~
+Desc Szeroki ale bardzo niski chodnik kopalni, idealnie nadaje siê do dalszej
+obróbki, niestety dla potê¿niejszych istot jest tu odrobinê ciasnawo. 
 ~
 Group 1
 End
-#Name 03~
-Desc Robota krasnoludzkich górników, sztolnia która widzisz, prezentuje siê
-bardzo okazale i sprawia wra¿enie wytrzyma³ej. 
-~
-Group 1
-End
-#Name 04~
-Desc Silne umocnienia zabezpieczaj± strop przed zawalenie, krasnoludzi
-wykonali naprawdê kawa³ dobrej roboty. 
+#Name 13~
+Desc Chodnik zdaje siê byæ na tyle solidny, ¿e nie grozi zawaleniem, jednak
+nikt za to rêczyæ nie mo¿e, lepiej zachowaæ ostro¿no¶æ. 
 ~
 Group 2
 End
-#Name 05~
-Desc Solidne umocnienia, schludne wykonanie, od razu widaæ, ¿e sztolnie
-wykonywa³y krasnoludzkie rêce. 
+#Name 14~
+Desc Bior±c pod uwagê blisko¶æ fortecy, ³atwo tu nabawiæ siê wra¿enia, ¿e lada
+moment sufit spadnie nam na g³owê, oby to by³o tylko z³udzenie. 
 ~
 Group 2
 End
-#Name 06~
-Desc Jak przysta³o na krasnoludzk± robotê, sztolnia jest bardzo solidnie i
-schludnie umocniona. Pierwszorzêdna robota. 
+#Name 15~
+Desc ¦rodkiem chodnika biegnie solidnie wydeptana ¶cie¿ka, któr± górnicy
+przemierzaj± by udaæ siê w dalszych kierunkach kopalni. 
 ~
 Group 2
 End
-#Name 07~
-Desc Piêkne wykoñczenia, dopracowane do najdrobniejszych szczegó³ów. Wszystko
-³±cznie przedstawia wspania³y widok. 
+#Name 16~
+Desc Pod ¶cianami dostrzegasz pozosta³o¶ci po urobku górniczym. Kamienie,
+kupki ziemi i inne nieczysto¶ci wydobyte ze ¶cian kopalni. 
 ~
 Group 3
 End
-#Name 08~
-Desc Wykoñczenia i ca³o¶æ robocizny pokazuje w najdrobniejszych elementach
-krasnoludzkie rzemios³o. 
+#Name 17~
+Desc Wszêdzie da siê widzieæ pozosta³o¶ci po wcze¶niejszych pracach
+wydobywczych. ¦ciany s± poorane przez kilofy, a po ziemi walaj± siê resztki
+ska³. 
 ~
 Group 3
 End
-#Name 09~
-Desc Ca³okszta³t prezentuje idealne sztolnie, które s± nie tylko praktyczne
-ale i ich wygl±d jest zadowalaj±cy. 
+#Name 18~
+Desc Korytarz prowadzi przez kolejny fragment krasnoludzkiej kopalni. Wszêdzie
+widaæ efekty pracy górników, najwidoczniej nie pró¿nowali. 
 ~
 Group 3
 End

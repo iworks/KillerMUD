@@ -26,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: signals.c 12156 2013-03-19 21:32:23Z vigud $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/signals.c $
+ * $Id: signals.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/signals.c $
  *
  */
 #include <sys/time.h>
@@ -383,11 +383,11 @@ void * addr = NULL;
 void signal_handler(int sig, siginfo_t * info, void * ptr)
 {
 	if ( fatal_error_in_process )
-		return;
+		raise( sig );
 
-	fatal_error_in_process = 1;
+    fatal_error_in_process = 1;
 
-	shutdown_wgrace( translate_error_code( info ) );
+    shutdown_wgrace( translate_error_code( info ) );
 }
 
 void init_signals()

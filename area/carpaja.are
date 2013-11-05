@@ -277,17 +277,41 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Komponent 1 1000
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
 Itemdesc Malutki lisc debu lezy tutaj spokojnie. W okolicy nie widzisz zadnych
 debow na pewno przywial go wiatr. 
+~
+Comments ~
+Objend
+#Vnum 9081
+Name sprochniala galaz~
+Odmiana galezi~galezi~galaz~galezia~galezi~
+Short spróchnia³a ga³±¼~
+Descr Spróchnia³a ga³±¼ le¿y tutaj.~
+Material drewno~
+Type trash
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 1
+Cond 75
+Itemdesc Ga³±¼ jest stosunkowo niewielka, pokrywa j± spora ilo¶æ mchu oraz
+innego rodzaju porostów. Widaæ ¿e tu ju¿ nie od dzi¶.
 ~
 Comments ~
 Objend
@@ -1389,6 +1413,110 @@ Exit 3
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
+#Vnum 9107
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9108
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9109
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9110
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9111
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9112
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9113
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9114
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9115
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9116
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9117
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9118
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 8
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
+#Vnum 9119
+Name {Yfree{x~
+Descr ~
+FlagsExt 0|C
+Sector 3
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 0
 
 
@@ -1418,17 +1546,17 @@ M 100 9085 10 9081 2
 M 100 9081 5 9081 1
 M 100 9083 8 9082 5
 M 100 9083 8 9082 5
-O 100 32000 0 9083
 M 100 9080 8 9083 2
 M 100 9080 8 9083 2
+O 100 9081 0 9083
 M 100 9083 8 9084 5
 M 100 9083 8 9084 5
 O 100 9080 0 9084
 M 100 9084 8 9085 1
 M 100 9081 5 9088 1
-O 100 32000 0 9089
 M 100 9083 8 9089 5
 M 100 9084 8 9089 1
+O 100 9081 0 9089
 M 100 9083 8 9090 5
 O 100 3366 0 9091
 M 100 9082 1 9091 1
@@ -1438,7 +1566,7 @@ M 100 9083 8 9092 5
 M 100 9083 8 9092 5
 M 100 9081 5 9093 1
 O 100 9080 0 9094
-O 100 32000 0 9095
+O 100 9081 0 9095
 M 100 9085 10 9097 2
 M 100 9083 8 9098 5
 M 100 9080 8 9098 2
@@ -1446,14 +1574,14 @@ M 100 9080 8 9098 2
 M 100 9084 8 9099 1
 M 100 9081 5 9099 1
 M 100 9085 10 9100 2
-O 100 32000 0 9101
 M 100 9080 8 9101 2
 M 100 9080 8 9101 2
+O 100 9081 0 9101
 M 100 9083 8 9102 5
 M 100 9084 8 9102 1
 M 100 9081 5 9102 1
 M 100 9082 1 9103 1
-O 100 32000 0 9106
+O 100 9081 0 9106
 S
 
 

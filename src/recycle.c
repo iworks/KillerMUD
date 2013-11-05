@@ -21,8 +21,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: recycle.c 11986 2013-01-23 13:13:07Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/recycle.c $
+ * $Id: recycle.c 11138 2012-03-21 21:22:26Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/recycle.c $
  *
  */
 #if defined(macintosh)
@@ -1185,7 +1185,6 @@ void free_pcdata( PC_DATA *pcdata )
 	free_string( pcdata->afk_text );
 	free_string( pcdata->account_email );
 	free_string( pcdata->new_title );
-	free( pcdata->corpse );
 
 	for ( alias = 0; alias < MAX_ALIAS; alias++ )
 	{
@@ -1856,34 +1855,3 @@ void add_new_affect( OBJ_DATA *obj, int type, int loc, int mod, int level, BITVE
 {
    add_new_affect_rt(obj,type,loc,mod,level,bitv,dur,0,last);
 }
-
-SPIRIT_DATA *spirit_free = NULL;
-SPIRIT_DATA *new_spirit( void )
-{
-	static SPIRIT_DATA spirit_data_zero;
-	SPIRIT_DATA *spirit;
-
-	if ( spirit_free == NULL )
-		CREATE( spirit, SPIRIT_DATA, 1 );
-	else
-	{
-		spirit = spirit_free;
-		spirit_free = spirit_free->next;
-	}
-
-	*spirit = spirit_data_zero;
-	spirit->next = NULL;
-	VALIDATE( spirit );
-	return spirit;
-}
-
-void free_spirit( SPIRIT_DATA *spirit )
-{
-	if ( !IS_VALID( spirit ) ) return ;
-	INVALIDATE( spirit );
-	spirit->next = spirit_free;
-	spirit->ch = NULL;
-	spirit->corpse = NULL;
-	spirit_free = spirit;
-}
-

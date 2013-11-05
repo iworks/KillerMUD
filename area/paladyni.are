@@ -255,8 +255,28 @@ Mobend
 
 
 #OBJECTS
+#Vnum 18361
+Name lsniaca zbroja~
+Odmiana lsniacej zbroi~lsniacej zbroi~lsniaca zbroje~lsniaca zbroja~lsniacej zbroi~
+Short lsniaca zbroja~
+Descr Widzisz piekna, lsniaca zbroje.~
+Material elfia stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|AL
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 6 8 6 10 4 0 0
+Repair 0 0 0 0
+Weight 70
+Cost 720
+Cond 100
+Comments ~
+Objend
 #Vnum 18362
-Name barbuta~
+Name barbuta helm~
 Odmiana barbuty~barbucie~barbute~barbuta~barbucie~
 Short barbuta~
 Descr Wielki helm z ksztaltnym wycieciem na przodzie.~
@@ -267,13 +287,135 @@ Wear AE
 Wear2Ext 0
 Bonus 0
 LiczbaMnoga 0
-Gender 3
+Gender 0
 Value 6 9 6 10 4 0 0
 Repair 0 0 0 0
-Length 0
 Weight 50
 Cost 3600
 Cond 73
+Comments ~
+Objend
+#Vnum 18363
+Name kunsztowne cwiekowane rekawice~
+Odmiana rêkawic~rêkawicom~rêkawice~rêkawicami~rêkawicach~
+Short æwiekowane rêkawice~
+Descr Kunsztownie wykonane cwiekowane rekawice.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0|ABCL
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 6 9 6 10 4 0 0
+Repair 0 0 0 0
+Weight 18
+Cost 240
+Cond 100
+Identdesc ~
+Comments Zabra³em affect +1_hit. - {RWicia{x ({CMon Sep 19 12:41:20 2005{x)
+~
+Objend
+#Vnum 18364
+Name krysztalowy puklerz~
+Odmiana {Wkrysztalowego puklerza{x~{Wkrysztalowemu puklerzowi{x~{Wkrysztalowy puklerz{x~{Wkrysztalowym puklerzem{x~{Wkrysztalowym puklerzu{x~
+Short {Wkrysztalowy puklerz{x~
+Descr Wspanialy puklerz zrobiony z pieknego krysztalu.~
+Material kryszta³~
+Type shield
+ExtraExt 0|LW
+Wear AJ
+Wear2Ext 0|ABCL/1|A
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 1 10 0 0 0 0
+Repair 0 0 0 0
+Weight 65
+Cost 2700
+Cond 100
+Aff 1 29 1 0 0 0
+Comments ~
+Objend
+#Vnum 18366
+Name lsniace naramienniki~
+Odmiana lsniacych naramiennikow~lsniacym naramiennikom~lsniace naramienniki~lsniacymi naramiennikami~lsniacych naramiennikach~
+Short lsniace naramienniki~
+Descr Wspaniale zdobione naramienniki lsnia lekkim blaskiem.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0|A
+Wear AI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 2400
+Cond 100
+Comments ~
+Objend
+#Vnum 18368
+Name ciemny lekki pancerz~
+Odmiana {Dciemnego pancerza{x~{Dciemnemu pancerzowi{x~{Dciemny pancerz{x~{Dciemnym pancerzem{x~{Dciemnym pancerzu{x~
+Short ciemny pancerz~
+Descr Ciemny pancerz wykonany ze skory niedzwiedzia gorskiego.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0|DK
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 75
+Cost 4800
+Cond 100
+Comments ~
+Objend
+#Vnum 18369
+Name szary kaptur~
+Odmiana szarego kaptura~szaremu kapturowi~szary kaptur~szarym kapturem~szarym kapturze~
+Short szary kaptur~
+Descr Niepozorny szary kaptur lezy tutaj.~
+Material len~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 60
+Cond 100
+Comments ~
+Objend
+#Vnum 18370
+Name zakurzona ksiega~
+Odmiana zakurzonej ksiegi~zakurzonej ksiedze~zakurzona ksiege~zakurzona ksiega~zakurzonej ksiedze~
+Short zakurzona ksiega~
+Descr Olbrzymia zakurzona ksiega z wygrawerowanym symbolem Ulryka na obwolucie.~
+Material papier~
+Type spellbook
+ExtraExt 0|T
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 4 5 38 8 273 451 0
+Repair 0 0 0 0
+Weight 10
+Cost 20940
+Cond 75
 Comments ~
 Objend
 #Vnum 0
@@ -388,11 +530,11 @@ S
 #MOBPROGSNEW
 #18361
 ~
-mob equip self 3329
+mob equip self 18361
 mob equip self 18362
-mob equip self 3069
-mob equip self 3291
-mob equip self 3093
+mob equip self 18363
+mob equip self 18364
+mob equip self 18366
 mob equip self 3349
 if rand 80
 mob oload weapon 5
@@ -407,15 +549,21 @@ wear all
 ~
 #18362
 ~
-mob equip self 3018
-mob equip self 3033
-mob equip self 3157
+mob equip self 18368
+mob equip self 18369
+mob equip self 3071
 if rand 70
   mob oload ear 4 w
+endif
+if rand 50
+  mob oload 18370
+else
+  break
 endif
 ~
 #18363
 ~
+mob oload 18370
 if rand 50
   mob oload weapon 5
 endif

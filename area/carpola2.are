@@ -360,7 +360,7 @@ Pos_def stand
 Sex female
 Wealth 0
 Form AFGV
-Parts ABCDEFJKQRS
+Parts ABCDEFJKQRST
 Size medium
 Material unknown
 Skin 100
@@ -576,11 +576,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 10 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 0
 Cond 75
@@ -597,11 +597,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 0
 Cond 75
@@ -618,11 +618,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 100 0 0 1000 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
@@ -639,11 +639,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 0
 Cond 75
@@ -664,11 +664,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 30
 Cond 75
@@ -685,11 +685,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 96 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 0
 Cond 75
@@ -706,11 +706,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 5 15 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 2
 Cost 5
 Cond 75
@@ -931,6 +931,21 @@ ca³e swoje ¿ycie. Tak tu jest piêknie!
 ~
 FlagsExt 0
 Sector 3
+ExitExt 0
+ExitExtDescription ~
+ExitExtTextOut $n przebija siê przez gêstwine krzaków.~
+ExitExtTextIn Widzisz jak $n nagle wychodzi z gêstwiny krzaków.~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 2724
+ExitExtEnd
+Exit 0
+~
+TextOut $n przebija siê przez gêstwine krzaków.~
+TextIn Widzisz jak $n nagle wychodzi z gêstwiny krzaków.~
+~
+0 0 2724
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1781,7 +1796,7 @@ spl±tane ga³êzie krzewów. Chyba musisz zawróciæ, poniewa¿ dalej nie ma ju¿
 raczej nie uda ci siê to, bez wielu zadrapañ. 
 ~
 FlagsExt 0
-Sector 42
+Sector 28
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1804,6 +1819,23 @@ Exit 1
 ~
 ~
 0 0 9606
+ExitExt 2
+ExitExtDescription ~
+ExitExtVName przebij siê~
+ExitExtTextOut $n przebija siê przez gêstwine krzaków.~
+ExitExtTextIn Widzisz jak $n nagle wychodzi z gêstwiny krzaków. ~
+ExitExtLiczba 1
+ExitExtInfo 16
+ExitExtKey 0
+ExitExtToVnum 2704
+ExitExtEnd
+Exit 2
+~
+VName przebij siê~
+TextOut $n przebija siê przez gêstwine krzaków.~
+TextIn Widzisz jak $n nagle wychodzi z gêstwiny krzaków. ~
+~
+16 0 2704
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1871,7 +1903,7 @@ cicho pod nosem, ale có¿ mo¿esz zrobiæ. Chyba tylko zawróciæ lub odpocz±æ
 tutaj. 
 ~
 FlagsExt 0
-Sector 3
+Sector 0
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2090,10 +2122,6 @@ M 100 3083 1 2723 1
 M 100 2701 1 2725 1
 M 80 2706 1 2725 1
 M 100 2713 1 2729 1
-E 100 4409 0 7
-E 100 4400 0 6
-E 100 4368 0 5
-E 100 3001 0 8
 S
 
 

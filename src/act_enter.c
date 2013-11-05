@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Koper Tadeusz         (jediloop@go2.pl               ) [Garloop   ] *
@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: act_enter.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/act_enter.c $
+ * $Id: act_enter.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/act_enter.c $
  *
  */
 #if defined(macintosh)
@@ -53,7 +53,7 @@ ROOM_INDEX_DATA  *get_random_room(CHAR_DATA *ch)
 
 	for ( ; ; )
 	{
-		room = get_room_index( number_range( 0, MAX_VNUM ) );
+		room = get_room_index( number_range( 0, 65535 ) );
 		if ( room != NULL )
 		if ( can_see_room( ch, room )
 		&& !room_is_private( room )

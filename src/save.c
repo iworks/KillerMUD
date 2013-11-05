@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: save.c 12408 2013-06-12 12:29:02Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/save.c $
+ * $Id: save.c 12020 2013-02-09 10:39:41Z raszer $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/save.c $
  *
  */
 #if defined(macintosh)
@@ -406,15 +406,12 @@ void save_char_obj( CHAR_DATA *ch, bool save_newbies, bool remote )
 	/* create god log */
 	if ( IS_IMMORTAL( ch ) || ch->level >= LEVEL_IMMORTAL )
 	{
-		sprintf( strsave, "%s%s", GOD_DIR, capitalize( ch->name ) );
 		fclose( fpReserve );
+		sprintf( strsave, "%s%s", GOD_DIR, capitalize( ch->name ) );
 		if ( ( fp = fopen( strsave, "w" ) ) == NULL )
 		{
-			fpReserve = fopen( NULL_FILE, "r" );
 			bug( "Save_char_obj: fopen", 0 );
 			perror( strsave );
-
-			return;
 		}
 
 		fprintf( fp, "Lev %2d Trust %2d  %s%s\n",
@@ -448,7 +445,7 @@ void save_char_obj( CHAR_DATA *ch, bool save_newbies, bool remote )
         fwrite_char( ch, fp, remote );
 		if ( ch->carrying != NULL )
 		    fwrite_obj( ch, ch->carrying, fp, 0, FALSE, remote );
-
+		
         if ( ch->hoard != NULL )
 		    fwrite_obj( ch, ch->hoard, fp, 0, FALSE, remote );
 
@@ -552,8 +549,13 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp, bool remote )
 	else
 		fprintf( fp, "Plyd %d\n", ch->played + ( int ) ( current_time - ch->logon ) );
 
+	fprintf( fp, "Not  %ld %ld %ld %ld %ld\n",
+	         ch->pcdata->last_note, ch->pcdata->last_idea, ch->pcdata->last_penalty,
+	         ch->pcdata->last_news, ch->pcdata->last_changes	);
+
 	fprintf( fp, "Scro %d\n", ch->lines	);
 	fprintf( fp, "WizGr %s\n", print_flags( ch->pcdata->wiz_conf ) );
+
 
 	if ( ch->in_room && EXT_IS_SET( ch->in_room->room_flags, ROOM_INN ) )
 	{
@@ -703,13 +705,13 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp, bool remote )
 			fprintf( fp, "Mem %d %d %d\n", tmp->spell, tmp->circle, tmp->done );
 		}
 
-		for ( memset = ch->memset; memset; memset = memset->next )
+		for ( memset = ch->memset; memset; memset = memset->next ) 
 		{
 		    fprintf( fp, "MemSet %s", memset->set_name);
 		    for ( x = 0 ; x < MAX_SKILL ; x++ )
 		        if (  memset->set_spells[x] > 0 )
 		            fprintf( fp, " %d %d", x, memset->set_spells[x]);
-
+		    
 		    fprintf( fp, "\n");
 		}
 
@@ -744,7 +746,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp, bool remote )
 		{
 			for ( tmp = ch->pcdata->ql_data;tmp != NULL;tmp = tmp->next )
 			{
-			   fprintf( fp, "QLog %s~%s~%s~%s~%d %d\n", tmp->qname, tmp->title, tmp->text, (tmp->currentdesc?tmp->currentdesc:"null"), tmp->state, tmp->date );
+			   fprintf( fp, "QLog %s~%s~%d %d\n", tmp->qname, tmp->text, tmp->state, tmp->date );
 			}
 		}
 	}
@@ -956,7 +958,7 @@ void fwrite_char( CHAR_DATA *ch, FILE *fp, bool remote )
 				if ( ( skill_table[ sn ].name != NULL ) && ( ( ch->pcdata->learned[ sn ] > 0 ) || ( ch->pcdata->learning[ sn ] > 0 ) || (ch->pcdata->learning_rasz[ sn ] > 0) ))
 				   fprintf( fp, "Sk %d '%s' %d %d %d\n", ch->pcdata->learned[ sn ], skill_table[ sn ].name, ch->pcdata->learning[ sn ], ch->pcdata->learning_rasz[ sn ], ch->pcdata->learning_old[ sn ] );
 		}
-
+		
 
 		for ( sn = 0; sn < MAX_LANG; sn++ )
 			if ( ch->pcdata->language[ sn ] > 0
@@ -1098,7 +1100,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, bool pccorps
 
 	/* these data are only used if they do not match the defaults */
 	if ( obj->vnum_hoard != 0 )
-		fprintf( fp, "Hoard %d\n", obj->vnum_hoard );
+		fprintf( fp, "Hoard %d\n", obj->vnum_hoard );	
 
 	if ( obj->name != obj->pIndexData->name )
 		fprintf( fp, "Name %s~\n", obj->name	);
@@ -1227,10 +1229,9 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, bool pccorps
 				fprintf( fp, "Spell 3 '%s'\n",
 				         skill_table[ obj->value[ 3 ] ].name );
 			}
+
 			break;
 	}
-
-	fprintf( fp, "Length %d\n", obj->length);
 
 	//rellik: nowa wersja affectów z polem real time [20080704]
 	for ( paf = obj->affected; paf != NULL; paf = paf->next )
@@ -1261,7 +1262,7 @@ void fwrite_obj( CHAR_DATA *ch, OBJ_DATA *obj, FILE *fp, int iNest, bool pccorps
 		if ( pflag->duration != 0 || !str_prefix( "reg", pflag->id ) )
 			fprintf( fp, "Pflag %s %d~\n", pflag->id, pflag->duration );
 	}
-
+    
 	fprintf( fp, "End\n\n" );
 
 	if ( obj->contains != NULL )
@@ -1488,7 +1489,7 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 	bool introduced;
 	int bounty_val = 0; //Brohacz: bounty
 
-
+	
 	if ( !remote )
 	{
 		sprintf( buf, "Loading %s.", ch->name );
@@ -1709,7 +1710,7 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 
 					for ( stat = 0; stat < MAX_STATS; stat++ )
 						ch->perm_stat[ stat ] = fread_number(fp);
-
+					
 
 					fMatch = TRUE;
 					break;
@@ -2084,7 +2085,7 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 			case 'H':
 				KEY( "Hitroll", ch->hitroll, fread_number( fp ) );
                 KEY( "Hit", ch->hitroll, fread_number( fp ) );
-
+                
                 /* BEGIN: reward (autoquest) */
                 KEY( "HuntTime", ch->pcdata->hunt_time, fread_number( fp ) );
                 /* END: reward (autoquest) */
@@ -2217,8 +2218,19 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 
 			case 'N':
 				KEYS( "Name", ch->name, fread_string( fp ) );
+				KEY( "Note", ch->pcdata->last_note, fread_number( fp ) );
 				KEYS( "NameDenyTxt", ch->pcdata->name_deny_txt, fread_string( fp ) );
-				if ( !str_cmp( word, "NewTitl" ) )
+				if ( !str_cmp( word, "Not" ) )
+				{
+					ch->pcdata->last_note	= fread_number( fp );
+					ch->pcdata->last_idea	= fread_number( fp );
+					ch->pcdata->last_penalty	= fread_number( fp );
+					ch->pcdata->last_news	= fread_number( fp );
+					ch->pcdata->last_changes	= fread_number( fp );
+					fMatch = TRUE;
+					break;
+				}
+				else if ( !str_cmp( word, "NewTitl" ) )
 				{
 					ch->pcdata->new_title = fread_string( fp );
 					fMatch = TRUE;
@@ -2245,14 +2257,14 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 					memset->set_name = str_dup(fread_word( fp ));
 
 					memset_eol = getc( fp );
-
+					
 					while ( memset_eol != '\n' && memset_eol != '\r' ) {
 					    ungetc( memset_eol, fp );
 					    i = fread_number( fp );
 					    memset->set_spells[ i ] = fread_number( fp );
 					    memset_eol = getc( fp );
 					}
-
+					
                     memset->next = ch->memset;
                     ch->memset   = memset;
                     fMatch = TRUE;
@@ -2271,18 +2283,18 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 					fMatch = TRUE;
 					break;
 				}
-
+				
                 if ( !str_cmp( word, "Money" ) )
                 {
                     ch->bank    = fread_number( fp );
                     ch->copper  = fread_number( fp );
                     ch->silver   = fread_number( fp );
-                    ch->gold    = fread_number( fp );
+                    ch->gold    = fread_number( fp ); 
                     ch->mithril = fread_number( fp );
                     fMatch = TRUE;
                     break;
 				}
-
+                
 				break;
 
 			case 'O':
@@ -2443,7 +2455,7 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 				KEY( "Rent", ch->pcdata->last_rent_cost, fread_number( fp ) );
 				KEY( "RollsCount", ch->pcdata->rolls_count, fread_number( fp ) );
                 KEY( "RollsCountNew", ch->pcdata->new_rolls_count, fread_number( fp ) );
-
+                
                 /* BEGIN: reward (autoquest) */
                 KEY( "Recovery",    ch->pcdata->recovery,    fread_number( fp ) );
                 KEY( "Rewarder",    ch->pcdata->rewarder,    fread_number( fp ) );
@@ -2451,7 +2463,7 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
                 KEY( "RewardMob",    ch->pcdata->reward_mob,    fread_number( fp ) );
                 KEY( "RewardObj",    ch->pcdata->reward_obj,    fread_number( fp ) );
                 /* END: reward (autoquest) */
-
+				
 
 				if ( !str_cmp( word, "Race" ) )
 				{
@@ -2538,34 +2550,34 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
                     //ustawiamy mu wiec stare plusy na 123 i dajemy do pamieci learning_rasz 0!
                     //jak bedziemy chcieli wrocic do starego systemu, to bedzie trza wyzerowac stare plusy
                     //stare plusy przenosimy do learning old
-
+                    
                     if(ch->pcdata->learning[ sn ] != 123){
                                              ch->pcdata->learning_old[ sn ] =  ch->pcdata->learning[ sn ];
                                              ch->pcdata->learning[ sn ] = 123;
                                              ch->pcdata->learning_rasz[ sn ] = 0;
                     }else
                     {
-                    // liczba starych plusow wynosi 123, czyli jedziemy nowym systemem
+                    // liczba starych plusow wynosi 123, czyli jedziemy nowym systemem                        
 					ch->pcdata->learning_rasz[ sn ] = fread_number( fp );
 					if ( ch->pcdata->learning_rasz[ sn ] < 0 )
 						log_string( "fread_char: bug z learning_rasz" );
 					ch->pcdata->learning_old[ sn ] = fread_number( fp );
 					if ( ch->pcdata->learning_old[ sn ] < 0 )
 						log_string( "fread_char: bug z learning_old" );
-                    }
-
+                    }	
+					
 					if ( ch->pcdata->learning_rasz[ sn ] > 13)//maks nowych plusow to 12
                     {
-                          ch->pcdata->learning_rasz[ sn ] = 0;
+                          ch->pcdata->learning_rasz[ sn ] = 0;	
                     };
-
+                    
 					ch->pcdata->learning_rasz[ sn ] = UMAX( 0, ch->pcdata->learning_rasz[ sn ] );
 					ch->pcdata->learned[ sn ] = value;
 
 					fMatch = TRUE;
 					break;
 				}
-
+				
 				if ( !str_cmp(word, "StatPoints"))
 				{
 						ch->statpointsleft = fread_number (fp);
@@ -2578,7 +2590,7 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 				else if ( !str_cmp( word, "Spell_failed" ) )
 				{
 					sh_int spell;
-					unsigned int mob;
+					ush_int mob;
 
 					mob = fread_number( fp );
 					spell = fread_number( fp );
@@ -2662,23 +2674,13 @@ bool fread_char( CHAR_DATA *ch, FILE *fp, bool remote )
 			case 'Q':
 				if ( !str_cmp( word, "QLog" ) )
 				{
-					extern bool add_questlog( CHAR_DATA * ch, char * qname, char * text, int state, int date  );
-					extern bool title_questlog( CHAR_DATA * ch, char * qname, char * title );
-					extern void sort_questlogs( CHAR_DATA * ch );
-					char *qname = fread_string( fp );
-					char *qtitle = fread_string( fp );
-					char *qtext = fread_string( fp );
-					char *qcurrentdesc = fread_string( fp );
-					int qstate = fread_number( fp );
-					int qdate = fread_number( fp );
-                   
-					add_questlog( ch, qname , qtext, qstate, qdate );
-            	    title_questlog( ch, qname, qtitle );
-            	    currentdesc_questlog( ch, qname, qcurrentdesc );
-					sort_questlogs( ch );
+				   extern bool add_questlog( CHAR_DATA * ch, char * qname, char * text, int state, int date  );
+				   extern void sort_questlogs( CHAR_DATA * ch );
+				   add_questlog( ch, fread_string( fp ), fread_string( fp ), fread_number( fp ), fread_number( fp ) );
+				   sort_questlogs( ch );
 
-					fMatch = TRUE;
-					break;
+				   fMatch = TRUE;
+				   break;
 				}
 				break;
 
@@ -2706,7 +2708,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp, bool pccorpse, bool remote )
 	bool first;
 	bool new_format;
 	bool make_new;
-	unsigned int room_vnum = 1;
+	ush_int room_vnum = 1;
 	ROOM_INDEX_DATA* pRoom;
 
 	fVnum = FALSE;
@@ -2718,7 +2720,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp, bool pccorpse, bool remote )
 	word = feof( fp ) ? "End" : fread_word( fp );
 	if ( !str_cmp( word, "Vnum" ) )
 	{
-		unsigned int vnum;
+		ush_int vnum;
 		first = FALSE;  /* fp will be in right place */
 
 		vnum = fread_number( fp );
@@ -2927,7 +2929,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp, bool pccorpse, bool remote )
 							obj = create_object( obj->pIndexData, remote );
 							obj->wear_loc = wear;
 						}
-						if ( iNest == 0 || rgObjNest[ iNest ] == NULL )
+						if ( iNest == 0 || rgObjNest[ iNest ] == NULL || ( rgObjNest[ iNest - 1 ] && rgObjNest[ iNest - 1 ]->item_type != ITEM_CONTAINER ) )
 						{
 							if ( pccorpse )
 							{
@@ -2973,12 +2975,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp, bool pccorpse, bool remote )
 
 			case 'L':
 				KEY( "LiczbaMnoga", obj->liczba_mnoga, fread_number( fp ) );
-				if ( !str_cmp( word, "Length" ) )
-				{
-					obj->length = fread_number( fp );
-					fMatch = TRUE;
-				}
-                break;
+				break;
 
 			case 'M':
 				KEY( "Material", obj->material, material_lookup( fread_string( fp ) ) );
@@ -3105,7 +3102,7 @@ void fread_obj( CHAR_DATA *ch, FILE *fp, bool pccorpse, bool remote )
 
 				if ( !str_cmp( word, "Vnum" ) )
 				{
-					unsigned int vnum;
+					ush_int vnum;
 
 					vnum = fread_number( fp );
 					if ( ( obj->pIndexData = get_obj_index( vnum ) ) == NULL )
@@ -3162,11 +3159,8 @@ void save_pccorpses( void )
 
 	if ( ( fp = fopen( TEMP_FILE, "w" ) ) == NULL )
 	{
-		fpReserve = fopen( NULL_FILE, "r" );
 		bug( "Save_pccorpses: fopen", 0 );
 		perror( strsave );
-
-		return;
 	}
 
 	for ( obj = object_list; obj != NULL; obj = obj_next )

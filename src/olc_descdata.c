@@ -1,5 +1,5 @@
 /*
-	$Id: olc_descdata.c 11987 2013-01-23 13:56:44Z illi $
+	$Id: olc_descdata.c 7666 2009-07-03 12:04:22Z illi $
 */
 #if defined(macintosh)
 #include <types.h>
@@ -110,7 +110,7 @@ void do_rdedit(CHAR_DATA *ch, char *argument)
 
     if( is_number(command) )
     {
-	unsigned int vnum = atoi(command);
+	ush_int vnum = atoi(command);
 
 	AREA_DATA *ad;
 

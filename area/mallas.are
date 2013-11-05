@@ -186,6 +186,53 @@ Mobend
 
 
 #OBJECTS
+#Vnum 4550
+Name kostur~
+Odmiana kostura~kosturowi~kostur~kosturem~kosturze~
+Short kostur~
+Descr Cienki ale dlugi i solidny kostur.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 9 2 4 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 120
+Cond 75
+Itemdesc Nic wielkiego, zwyczajny kostur zagiety przy koncu. Niczym specjalnym sie nie wyroznia mo¿e poza tym ze jest cienszy niz normalnie kostury i przy tym, mimo wszystko, dosc dlugi.
+~
+Comments ~
+Objend
+#Vnum 4551
+Name plaszcz~
+Odmiana Plaszcza~Plaszczowi~Plaszcz~Plaszczem~Plaszczu~
+Short plaszcz~
+Descr Ciemny, dlugi i cienki plaszcz.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 3
+Cond 80
+Itemdesc Ladnie i porzadnie wykonany dlugi i ciemny plaszcz. Mimo tego, ze wyglada na dosc lekki i niegruby jest chyba cieplyu i dobrze chroni przed zimnem, Z tylu zwisa troche niepasujace do niego wielkie i ciezkie kapturzysko, które moze
+stanowic dobra ochrone pewnie nawet i przed sniegiem.
+~
+Comments ~
+Objend
 #Vnum 4552
 Name sakwa wielka~
 Odmiana wielkiej sakwy podroznej~wielkiej sakwie podroznej~wielka sakwe podrozna~wielka sakwa podrozna~wielkiej sakwie podroznej~
@@ -197,11 +244,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 2
 LiczbaMnoga 0
 Gender 0
 Value 25 0 0 15 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 3
 Cost 600
 Cond 75
@@ -220,16 +267,39 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
-Gender 2
-Value 5 34 0 0 0 0 0
+Gender 0
+Value 10 34 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 5
 Cost 2400
 Cond 75
 Itemdesc Nieduza butelka, plywa w niej jakas gestawa, {gzielono{Yzlocista{x ciecz.
 Nie masz pewnosci czy mozna to spokojnie wypic czy tez nie. 
+~
+Comments ~
+Objend
+#Vnum 4554
+Name noz~
+Odmiana nó¿ my¶liwski~no¿owi my¶liwskiemu~nó¿ my¶liwski~no¿em my¶liwskim~no¿u my¶liwskim~
+Short nó¿ my¶liwski~
+Descr D³ugi nó¿ my¶liwski le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 2
+LiczbaMnoga 0
+Gender 0
+Value 2 2 3 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 900
+Cond 75
+Itemdesc D³ugi nó¿ my¶liwski. Jego r±czka jest gruba, solidna i owiniêta skór±. Skóra ma ju¿ chyba swoje lata, jest wy¶lizgana i trochê wytarta. Na czubku rêkoje¶ci kto¶ wygrawerowa³ krzy¿. Na klindze widaæ zatarty ju¿ prawie napis: 'Niech ci s³u¿y.'.
 ~
 Comments ~
 Objend
@@ -267,14 +337,14 @@ Exit 1
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 0
+ExitExtInfo 16
 ExitExtKey 0
 ExitExtToVnum 151
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 151
+16 0 151
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -535,17 +605,6 @@ Exit 2
 ~
 ~
 0 0 11182
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 52711
-ExitExtEnd
-Exit 3
-~
-~
-0 0 52711
 DayRDesc 4550
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
@@ -939,10 +998,10 @@ M 100 4551 2 4555 1
 M 100 4552 2 4556 1
 M 100 4552 2 4560 1
 M 100 4553 1 4561 1
-E 100 3135 0 16
+E 100 4554 0 16
 M 100 4550 1 4562 1
-E 100 3159 0 16
-E 100 4426 0 12
+E 100 4550 0 16
+E 100 4551 0 12
 E 100 4552 0 17
 S
 
@@ -1068,80 +1127,294 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name konie5~
-Desc Wzdrygasz siê na chwile, nie chcia³<&by¶/aby¶/oby¶> siê zgubiæ w tej
-g³uszy. Lepiej pilnowaæ drogi. 
+#Name konie22~
+Desc W ziemi widaæ jak±¶ ma³± jame. Nie bardzo wiadomo kto i po co ja tu
+wykopal. 
 ~
 Group 2
 End
-#Name konie4~
-Desc Obserwujesz kilka kicaj±cych nieopodal wiewiórek z u¶miechem na twarzy.
-Tak, las to mi³e miejsce, cokolwiek by siê na ¶wiecie nie dzia³o. 
+#Name konie21~
+Desc W ziemi widaæ jakas wielka jame. Zapewne zosta³a wykopana przez jakie¶
+du¿e zwierze, mo¿e niedzwiedzia. Tylko po co? 
 ~
 Group 2
 End
-#Name konie3~
-Desc Przez twoje plecy przez chwilê przechodz± zimne dreszcze, kiedy zdaje ci
-siê, ¿e w oddali widzisz niedzwiedzia. Mo¿e lepiej mu nie przeszkadzaæ? 
+#Name konie20~
+Desc Tu i ówdzie wykroty i dziury, trzeba uwa¿ac zeby sobie nogi nie zwichnac
+albo, nie dajcie bogowie, po³amac. 
 ~
 Group 2
 End
-#Name konie2~
-Desc To miejsce, chocia¿ lekko straszne, idealnie nadaje siê na obozowisko. 
+#Name konie19~
+Desc Leniwa atmosfera tego miejsca powoduje, ze nie masz ochoty sie stad
+ruszac, wiesz jednak, ze chwile nieuwagi moglbys przyplacic zyciem. 
 ~
 Group 2
 End
-#Name konie1~
-Desc U¶miechasz siê delikatnie, podziwiaj±c piêkno tego lasu i starasz siê
-odnale¼æ jakie¶ wyj¶cia z g³uszy. 
+#Name konie18~
+Desc Chropowate pnie rosn±cych w okolicy dêbow s± ciekawie porosniete przez
+br±zowaw± hube. 
 ~
 Group 2
 End
-#Name rozw5~
-Desc Oceniasz jaki to w³a¶ciwie jest las i dochodzisz do s³usznego wniosku, ¿e
-mieszany. Du¿o tu dêbów, klonów, buków, ale nie brakuje i sosen czy jode³.
-Gdzie niegdzie znajdzie siê te¿ modrzew czy wyj±tkowo okaz wierzby. 
+#Name konie17~
+Desc W cieniu du¿ych drzew nie¶mia³o wyrastaj± rzadkie kepki delikatnej psiej
+trawki, nad która lekko unosza sie ¿ó³te, migotliwe motyle. 
+~
+Group 2
+End
+#Name konie16~
+Desc Na pniach do wysokosci czlowieka rosnie jakis odrazajacy, bialy,
+sluzowaty grzyb. 
+~
+Group 2
+End
+#Name konie15~
+Desc Pod nogami masz spróchnia³e szcz±tki drzew, których stêch³y zapach unosi
+siê w powietrzu. 
+~
+Group 2
+End
+#Name konie14~
+Desc Wokó³ unosi siê zapach rozgrzanej s³oñcem ¿ywicy. 
+~
+Group 2
+End
+#Name konie13~
+Desc Gdzie¶ w okolicy s³ychac dono¶ne stukanie dziêcio³ów. 
+~
+Group 2
+End
+#Name konie12~
+Desc W wielu miejscach widaæ równie¿ zielone gniazda paproci. 
+~
+Group 2
+End
+#Name konie11~
+Desc Miêdzy rosn±cymi tutaj wierzbami i olchami, w¶ród bujnych paproci, widaæ
+¿ó³te kwiaty kaczeñców. 
+~
+Group 2
+End
+#Name konie10~
+Desc W leszczynie b³yszcz± siê jakie¶ czarne punkciki, chocia¿ nie jeste¶ do
+konca pew<&ien/na/ne> czy nie sa to kleszcze, które czekaja tylko aby wyssac
+z ciebie resztki p³ynow organicznych. 
+~
+Group 2
+End
+#Name konie9~
+Desc Niektóre, widoczne tu z³amane pnie poro¶niête s± pomarañczowymi i ¿ó³tymi
+grzybami oraz mchem 
+~
+Group 2
+End
+#Name konie8~
+Desc Swiatlo przesacza sie przez rozlozyste galezie rzucajac nieregularne
+cienie na rosnace w poblizu krzewy. 
+~
+Group 2
+End
+#Name konie7~
+Desc Pomiêdzy pniami rozrzucone s± wielkie g³azy, prawie w ca³o¶ci poro¶niête
+mchem. W¶rod swie¿o rozwiniêtych li¶ci paproci blyszcz± zawieszone na
+pajêczynie kropelki rosy. 
+~
+Group 2
+End
+#Name konie6~
+Desc Zwieszajace sie, k³uj±ce ga³êzie drzew utrudniaj± ci poruszanie zmuszaj±c
+do kluczenia i wyszukiwania najwygodniejszych przej¶æ. 
+~
+Group 2
+End
+#Name konie~
+Desc Z poszycia le¶nego wybijaj± siê miejscami jakie¶ m³ode drzewka, których
+gatunku nie mo¿esz jeszcze zidentyfikowaæ. 
+~
+Group 2
+End
+#Name rozw13~
+Desc Z poszycia wystaja tez gdzieniegdzie jasnozielone lodygi skrzypow. 
 ~
 Group 1
 End
-#Name rozw4~
-Desc Przez chwilê nachodzi ciê dziwne, przera¿aj±ce wra¿enie jakby jedno z
-drzew przed tob± drgnê³o! Jakby po prostu siê poruszy³o i zwróci³o w twoim
-kierunku. Przecierasz oczy w niedowierzaniu. 
+#Name rozw12~
+Desc Z pojedyñczych, zielonych ¶wierkow zwisaj± na d³ugich nitkach pajêczyny
+kolysane wiatrem, zielone gasienice. 
 ~
 Group 1
 End
-#Name rozw3~
-Desc S³yszysz jak gdzie¶ niedaleko grupa ptaków urz±dzi³a sobie koncert.
-Niesamowite wra¿enie s³uchaæ przeplataj±cych siê melodyjnych æwierkniêæ. 
+#Name rozw11~
+Desc Gdzieniegdzie wyrastaja pierzaste kepy paproci. 
 ~
 Group 1
 End
-#Name rozw2~
-Desc W lesie rozlega siê cichy d¼wiêk dziêcio³a stukaj±cego o drzewo. Przez
-chwile s³uchasz go w milczeniu i pogr±¿asz siê w rozwa¿aniach na temat
-piêkna przyrody. 
+#Name rozw10~
+Desc Aby przemieszczac siê, musisz przedzierac siê przez kêpy leszczyn,
+berberysow i g³ogu. Tu i ówdzie zwracaj± na siebiê twoja uwagê czerwone
+owoce jarzêbiny. 
 ~
 Group 1
 End
-#Name rozw1~
-Desc Gdzie¶ z oddali dochodzi ciê g³uchy d¼wiêk. Jakby uderzenie drewna o
-drewno, czy co¶ podobnego. Zapewne to sprawka jakich¶ zwierz±tek. 
+#Name rozw9~
+Desc Dooko³a ciebie rosn± g³ownie olchy, jesiony i brzozy. Ich kory poro¶niete
+sa mchem. 
 ~
 Group 1
 End
-#Name pocz5~
-Desc Powoli przedzierasz siê przez gêst± warstwê krzaków, chaszczy i innego
-rodzaju zielonego paskudztwa, którego niestety w lesie pe³no. Starasz siê
-rozeznaæ w terenie, ale jest to niemo¿liwe, bowiem widzisz jedynie
-wszechobecne drzewa. 
+#Name rozw8~
+Desc Czujesz unosz±cy siê woko³o intensywny zapach fio³ków i konwalii. 
+~
+Group 1
+End
+#Name rozw7~
+Desc Rosn± tu jawory, gdzieniegdzie tak¿e olchy, graby i buki. 
+~
+Group 1
+End
+#Name rozw6~
+Desc Masz wra¿enie, ¿e powietrze jest tutaj do¶æ wilgotne. 
+~
+Group 1
+End
+#Name rozw~
+Desc Ziemiê porastaj± tu i ówdzie paprocie. Jest ci do¶æ trudno siê poruszaæ,
+poniewa¿ drogê zagradzaj± ci niewielkie krzewy. 
+~
+Group 1
+End
+#Name pocz23~
+Desc Drzewa, choæ niewielkie, tylko trochê wy¿sze od ciebie, rosn± tu tak
+gêsto, ¿e ich ga³êzie przeplatajê siê tworz±c zwart± scianê zieleni. 
 ~
 Group 0
 End
-#Name pocz4~
-Desc Stoisz pod jednym z wysokich drzew rosn±cych w tym lesie. Z lekka doz±
-grozy, ale i podziuwu spogl±dasz na gigantyczny pieñ starego dêbu, który
-jest jednym z najwiêkszych jakie widzia³<&e¶/a¶/o¶> w ¿yciu! 
+#Name pocz22~
+Desc Czujesz otaczaj±cy ciê ze wszystkich stron intensywny zapach kwitn±cej
+czeremchy. Wokó³ jej ¶nie¿nobia³ych kwiatów uwijaj± siê brzecz±ce roje
+pszczó³. 
+~
+Group 0
+End
+#Name pocz21~
+Desc Przedzieraj±c siê przez las dostrzegasz fioletowe kwiaty wrzosu, nad
+którymi unosza sie pszczo³y brzêcz±c g³o¶no. Miejsca miêdzy tymi skupiskami
+porasta dywan traw. 
+~
+Group 0
+End
+#Name pocz20~
+Desc Czerwone owoce bzu koralowego prze¶wituj± pomiêdzy rozlo¿ystymi ga³êziami
+starych jode³. 
+~
+Group 0
+End
+#Name pocz19~
+Desc Wko³o rozci±ga siê monotonny krajobraz nagich kolumn, które niegdy¶ by³y
+zapewne ¶wierkami lub jod³ami. Miêdzy ich uschniêtymi, wygiêtymi w górê
+konarami g³ucho zawodzi wiatr. 
+~
+Group 0
+End
+#Name pocz18~
+Desc Tutaj las przedstawia dosyæ smutny widok. Wokó³ ciebie stoja jasnoszare,
+pozbawione kory pnie i kikuty ga³êzi. 
+~
+Group 0
+End
+#Name pocz17~
+Desc Ciemnozielone ga³êzie ¶wierków zwieszaj± siê a¿ do samej ziemi. W¶ród
+rzadkiej zielonej trawy ¶wiec± bia³o kwiaty nieznanych ci ro¶lin. 
+~
+Group 0
+End
+#Name pocz16~
+Desc Rosn± tutaj wy³acznie drzewa li¶ciaste, w wiêkszo¶ci dêby, trochê grabów,
+niewiele klonów. 
+~
+Group 0
+End
+#Name pocz15~
+Desc W tej czê¶ci lasu jest do¶æ wilgotno. Teren jest grzaski i masz trochê
+trudno¶ci z chodzeniem. Ciekawe dlaczego tu tak wilgotno? 
+~
+Group 0
+End
+#Name pocz14~
+Desc Znajdujesz siê w lekko podmok³ym lesie li¶ciastym. Na pniach drzew widac
+rozmaite, zielonkawe porosty. 
+~
+Group 0
+End
+#Name pocz13~
+Desc Teren jest tutaj bardzo bagnisty i podmok³y. Slyszysz chlupotanie wody
+pod swoimi stopami. Wilgotne powietrze daje ci siê we znaki. 
+~
+Group 0
+End
+#Name pocz12~
+Desc Ten kawa³ek lasu jest najmniej sensowny z tych, które do tej pory
+obejrza³<&e¶/a¶/o¶>. Na trzmielinie siedza trzmiele, których olbrzymie oczy
+obrzucaj± ciê ch³odnym spojrzeniem. 
+~
+Group 0
+End
+#Name pocz11~
+Desc Czê¶æ lasu, w której teraz siê znajdujesz, jest jasna, poniewa¿ przez
+korony grabów, klonów i dêbów przedzieraj± siê grube snopy swiat³a. 
+~
+Group 0
+End
+#Name pocz10~
+Desc W tej czêsci lasu dominuj± ¶wierki. Rosn± one tak gêsto, ¿e przeciskanie
+siê miedzy nimi sprawia ci powa¿ne trudno¶ci. 
+~
+Group 0
+End
+#Name pocz9~
+Desc Trafi³es chyba najgorzej jak mog³<&e¶/a¶/o¶>! To chyba najgêstsza partia
+tego lasu! Wydaje ci siê, ¿e nie ma z tego miejsca wyj¶cia, ale gdzie¶ w
+oddali dostrzegasz promieñ ¶wiat³a. 
+~
+Group 0
+End
+#Name pocz8~
+Desc Tylko niewiele ¶wiat³a przedostaje siê przez zwarte korony starych,
+roz³o¿ystych ¶wierków, które tu dominuj±. 
+~
+Group 0
+End
+#Name pocz7~
+Desc Wydaje siê, ¿e w tej czê¶ci lasu jest nieco ciemniej. To obecno¶æ
+granatowozielonych ¶wierków w¶ród wynios³ych, brunatnych pni sosen sprawia
+takie wra¿enie. 
+~
+Group 0
+End
+#Name pocz6~
+Desc Otaczaj± ciê drzewa, g³ównie s± to buki, ale gdzieniegdzie dostrzegasz
+te¿ poro¶niête mchem dêby i czarne, popêkane olchy. 
+~
+Group 0
+End
+#Name pocz~
+Desc Ma³o drzew, sporo przestrzeni pomiedzy nimi, niedu¿o krzaków i runa
+le¶nego. Widoczno¶æ nawet dobra, na kilkadziesi±t metrów. 
+~
+Group 0
+End
+#Name pocz1~
+Desc Znajdujesz siê w gêstym, klasycznym zielonym lesie. Dooko³a ciebie widaæ
+drzewa, drzewa, krzewy, niskie ro¶liny, ma³e drzewka i wielkie drzewa. No i
+oczywi¶cie drzewa. 
+~
+Group 0
+End
+#Name pocz2~
+Desc Rozgl±dasz siê powoli, staraj±c zorientowac siê w otoczeniu. Jednej
+rzeczy nie mo¿na podwa¿yæ - jeste¶ w klasycznym, gêstym lesie. Zieleñ jest
+wszechogarniaj±ca i w pewnym stopniu koj±ca. Ponoæ zielony to kolor nadziei.
 ~
 Group 0
 End
@@ -1153,294 +1426,80 @@ Desc Otaczaj±cy ciê, jak najbardziej zwyczajny las ma w sobie jak±s dozê
 ~
 Group 0
 End
-#Name pocz2~
-Desc Rozgl±dasz siê powoli, staraj±c zorientowac siê w otoczeniu. Jednej
-rzeczy nie mo¿na podwa¿yæ - jeste¶ w klasycznym, gêstym lesie. Zieleñ jest
-wszechogarniaj±ca i w pewnym stopniu koj±ca. Ponoæ zielony to kolor nadziei.
+#Name pocz4~
+Desc Stoisz pod jednym z wysokich drzew rosn±cych w tym lesie. Z lekka doz±
+grozy, ale i podziuwu spogl±dasz na gigantyczny pieñ starego dêbu, który
+jest jednym z najwiêkszych jakie widzia³<&e¶/a¶/o¶> w ¿yciu! 
 ~
 Group 0
 End
-#Name pocz1~
-Desc Znajdujesz siê w gêstym, klasycznym zielonym lesie. Dooko³a ciebie widaæ
-drzewa, drzewa, krzewy, niskie ro¶liny, ma³e drzewka i wielkie drzewa. No i
-oczywi¶cie drzewa. 
+#Name pocz5~
+Desc Powoli przedzierasz siê przez gêst± warstwê krzaków, chaszczy i innego
+rodzaju zielonego paskudztwa, którego niestety w lesie pe³no. Starasz siê
+rozeznaæ w terenie, ale jest to niemo¿liwe, bowiem widzisz jedynie
+wszechobecne drzewa. 
 ~
 Group 0
 End
-#Name pocz~
-Desc Ma³o drzew, sporo przestrzeni pomiedzy nimi, niedu¿o krzaków i runa
-le¶nego. Widoczno¶æ nawet dobra, na kilkadziesi±t metrów. 
-~
-Group 0
-End
-#Name pocz6~
-Desc Otaczaj± ciê drzewa, g³ównie s± to buki, ale gdzieniegdzie dostrzegasz
-te¿ poro¶niête mchem dêby i czarne, popêkane olchy. 
-~
-Group 0
-End
-#Name pocz7~
-Desc Wydaje siê, ¿e w tej czê¶ci lasu jest nieco ciemniej. To obecno¶æ
-granatowozielonych ¶wierków w¶ród wynios³ych, brunatnych pni sosen sprawia
-takie wra¿enie. 
-~
-Group 0
-End
-#Name pocz8~
-Desc Tylko niewiele ¶wiat³a przedostaje siê przez zwarte korony starych,
-roz³o¿ystych ¶wierków, które tu dominuj±. 
-~
-Group 0
-End
-#Name pocz9~
-Desc Trafi³es chyba najgorzej jak mog³<&e¶/a¶/o¶>! To chyba najgêstsza partia
-tego lasu! Wydaje ci siê, ¿e nie ma z tego miejsca wyj¶cia, ale gdzie¶ w
-oddali dostrzegasz promieñ ¶wiat³a. 
-~
-Group 0
-End
-#Name pocz10~
-Desc W tej czêsci lasu dominuj± ¶wierki. Rosn± one tak gêsto, ¿e przeciskanie
-siê miedzy nimi sprawia ci powa¿ne trudno¶ci. 
-~
-Group 0
-End
-#Name pocz11~
-Desc Czê¶æ lasu, w której teraz siê znajdujesz, jest jasna, poniewa¿ przez
-korony grabów, klonów i dêbów przedzieraj± siê grube snopy swiat³a. 
-~
-Group 0
-End
-#Name pocz12~
-Desc Ten kawa³ek lasu jest najmniej sensowny z tych, które do tej pory
-obejrza³<&e¶/a¶/o¶>. Na trzmielinie siedza trzmiele, których olbrzymie oczy
-obrzucaj± ciê ch³odnym spojrzeniem. 
-~
-Group 0
-End
-#Name pocz13~
-Desc Teren jest tutaj bardzo bagnisty i podmok³y. Slyszysz chlupotanie wody
-pod swoimi stopami. Wilgotne powietrze daje ci siê we znaki. 
-~
-Group 0
-End
-#Name pocz14~
-Desc Znajdujesz siê w lekko podmok³ym lesie li¶ciastym. Na pniach drzew widac
-rozmaite, zielonkawe porosty. 
-~
-Group 0
-End
-#Name pocz15~
-Desc W tej czê¶ci lasu jest do¶æ wilgotno. Teren jest grzaski i masz trochê
-trudno¶ci z chodzeniem. Ciekawe dlaczego tu tak wilgotno? 
-~
-Group 0
-End
-#Name pocz16~
-Desc Rosn± tutaj wy³acznie drzewa li¶ciaste, w wiêkszo¶ci dêby, trochê grabów,
-niewiele klonów. 
-~
-Group 0
-End
-#Name pocz17~
-Desc Ciemnozielone ga³êzie ¶wierków zwieszaj± siê a¿ do samej ziemi. W¶ród
-rzadkiej zielonej trawy ¶wiec± bia³o kwiaty nieznanych ci ro¶lin. 
-~
-Group 0
-End
-#Name pocz18~
-Desc Tutaj las przedstawia dosyæ smutny widok. Wokó³ ciebie stoja jasnoszare,
-pozbawione kory pnie i kikuty ga³êzi. 
-~
-Group 0
-End
-#Name pocz19~
-Desc Wko³o rozci±ga siê monotonny krajobraz nagich kolumn, które niegdy¶ by³y
-zapewne ¶wierkami lub jod³ami. Miêdzy ich uschniêtymi, wygiêtymi w górê
-konarami g³ucho zawodzi wiatr. 
-~
-Group 0
-End
-#Name pocz20~
-Desc Czerwone owoce bzu koralowego prze¶wituj± pomiêdzy rozlo¿ystymi ga³êziami
-starych jode³. 
-~
-Group 0
-End
-#Name pocz21~
-Desc Przedzieraj±c siê przez las dostrzegasz fioletowe kwiaty wrzosu, nad
-którymi unosza sie pszczo³y brzêcz±c g³o¶no. Miejsca miêdzy tymi skupiskami
-porasta dywan traw. 
-~
-Group 0
-End
-#Name pocz22~
-Desc Czujesz otaczaj±cy ciê ze wszystkich stron intensywny zapach kwitn±cej
-czeremchy. Wokó³ jej ¶nie¿nobia³ych kwiatów uwijaj± siê brzecz±ce roje
-pszczó³. 
-~
-Group 0
-End
-#Name pocz23~
-Desc Drzewa, choæ niewielkie, tylko trochê wy¿sze od ciebie, rosn± tu tak
-gêsto, ¿e ich ga³êzie przeplatajê siê tworz±c zwart± scianê zieleni. 
-~
-Group 0
-End
-#Name rozw~
-Desc Ziemiê porastaj± tu i ówdzie paprocie. Jest ci do¶æ trudno siê poruszaæ,
-poniewa¿ drogê zagradzaj± ci niewielkie krzewy. 
+#Name rozw1~
+Desc Gdzie¶ z oddali dochodzi ciê g³uchy d¼wiêk. Jakby uderzenie drewna o
+drewno, czy co¶ podobnego. Zapewne to sprawka jakich¶ zwierz±tek. 
 ~
 Group 1
 End
-#Name rozw6~
-Desc Masz wra¿enie, ¿e powietrze jest tutaj do¶æ wilgotne. 
+#Name rozw2~
+Desc W lesie rozlega siê cichy d¼wiêk dziêcio³a stukaj±cego o drzewo. Przez
+chwile s³uchasz go w milczeniu i pogr±¿asz siê w rozwa¿aniach na temat
+piêkna przyrody. 
 ~
 Group 1
 End
-#Name rozw7~
-Desc Rosn± tu jawory, gdzieniegdzie tak¿e olchy, graby i buki. 
+#Name rozw3~
+Desc S³yszysz jak gdzie¶ niedaleko grupa ptaków urz±dzi³a sobie koncert.
+Niesamowite wra¿enie s³uchaæ przeplataj±cych siê melodyjnych æwierkniêæ. 
 ~
 Group 1
 End
-#Name rozw8~
-Desc Czujesz unosz±cy siê woko³o intensywny zapach fio³ków i konwalii. 
+#Name rozw4~
+Desc Przez chwilê nachodzi ciê dziwne, przera¿aj±ce wra¿enie jakby jedno z
+drzew przed tob± drgnê³o! Jakby po prostu siê poruszy³o i zwróci³o w twoim
+kierunku. Przecierasz oczy w niedowierzaniu. 
 ~
 Group 1
 End
-#Name rozw9~
-Desc Dooko³a ciebie rosn± g³ownie olchy, jesiony i brzozy. Ich kory poro¶niete
-sa mchem. 
+#Name rozw5~
+Desc Oceniasz jaki to w³a¶ciwie jest las i dochodzisz do s³usznego wniosku, ¿e
+mieszany. Du¿o tu dêbów, klonów, buków, ale nie brakuje i sosen czy jode³.
+Gdzie niegdzie znajdzie siê te¿ modrzew czy wyj±tkowo okaz wierzby. 
 ~
 Group 1
 End
-#Name rozw10~
-Desc Aby przemieszczac siê, musisz przedzierac siê przez kêpy leszczyn,
-berberysow i g³ogu. Tu i ówdzie zwracaj± na siebiê twoja uwagê czerwone
-owoce jarzêbiny. 
-~
-Group 1
-End
-#Name rozw11~
-Desc Gdzieniegdzie wyrastaja pierzaste kepy paproci. 
-~
-Group 1
-End
-#Name rozw12~
-Desc Z pojedyñczych, zielonych ¶wierkow zwisaj± na d³ugich nitkach pajêczyny
-kolysane wiatrem, zielone gasienice. 
-~
-Group 1
-End
-#Name rozw13~
-Desc Z poszycia wystaja tez gdzieniegdzie jasnozielone lodygi skrzypow. 
-~
-Group 1
-End
-#Name konie~
-Desc Z poszycia le¶nego wybijaj± siê miejscami jakie¶ m³ode drzewka, których
-gatunku nie mo¿esz jeszcze zidentyfikowaæ. 
+#Name konie1~
+Desc U¶miechasz siê delikatnie, podziwiaj±c piêkno tego lasu i starasz siê
+odnale¼æ jakie¶ wyj¶cia z g³uszy. 
 ~
 Group 2
 End
-#Name konie6~
-Desc Zwieszajace sie, k³uj±ce ga³êzie drzew utrudniaj± ci poruszanie zmuszaj±c
-do kluczenia i wyszukiwania najwygodniejszych przej¶æ. 
+#Name konie2~
+Desc To miejsce, chocia¿ lekko straszne, idealnie nadaje siê na obozowisko. 
 ~
 Group 2
 End
-#Name konie7~
-Desc Pomiêdzy pniami rozrzucone s± wielkie g³azy, prawie w ca³o¶ci poro¶niête
-mchem. W¶rod swie¿o rozwiniêtych li¶ci paproci blyszcz± zawieszone na
-pajêczynie kropelki rosy. 
+#Name konie3~
+Desc Przez twoje plecy przez chwilê przechodz± zimne dreszcze, kiedy zdaje ci
+siê, ¿e w oddali widzisz niedzwiedzia. Mo¿e lepiej mu nie przeszkadzaæ? 
 ~
 Group 2
 End
-#Name konie8~
-Desc Swiatlo przesacza sie przez rozlozyste galezie rzucajac nieregularne
-cienie na rosnace w poblizu krzewy. 
+#Name konie4~
+Desc Obserwujesz kilka kicaj±cych nieopodal wiewiórek z u¶miechem na twarzy.
+Tak, las to mi³e miejsce, cokolwiek by siê na ¶wiecie nie dzia³o. 
 ~
 Group 2
 End
-#Name konie9~
-Desc Niektóre, widoczne tu z³amane pnie poro¶niête s± pomarañczowymi i ¿ó³tymi
-grzybami oraz mchem 
-~
-Group 2
-End
-#Name konie10~
-Desc W leszczynie b³yszcz± siê jakie¶ czarne punkciki, chocia¿ nie jeste¶ do
-konca pew<&ien/na/ne> czy nie sa to kleszcze, które czekaja tylko aby wyssac
-z ciebie resztki p³ynow organicznych. 
-~
-Group 2
-End
-#Name konie11~
-Desc Miêdzy rosn±cymi tutaj wierzbami i olchami, w¶ród bujnych paproci, widaæ
-¿ó³te kwiaty kaczeñców. 
-~
-Group 2
-End
-#Name konie12~
-Desc W wielu miejscach widaæ równie¿ zielone gniazda paproci. 
-~
-Group 2
-End
-#Name konie13~
-Desc Gdzie¶ w okolicy s³ychac dono¶ne stukanie dziêcio³ów. 
-~
-Group 2
-End
-#Name konie14~
-Desc Wokó³ unosi siê zapach rozgrzanej s³oñcem ¿ywicy. 
-~
-Group 2
-End
-#Name konie15~
-Desc Pod nogami masz spróchnia³e szcz±tki drzew, których stêch³y zapach unosi
-siê w powietrzu. 
-~
-Group 2
-End
-#Name konie16~
-Desc Na pniach do wysokosci czlowieka rosnie jakis odrazajacy, bialy,
-sluzowaty grzyb. 
-~
-Group 2
-End
-#Name konie17~
-Desc W cieniu du¿ych drzew nie¶mia³o wyrastaj± rzadkie kepki delikatnej psiej
-trawki, nad która lekko unosza sie ¿ó³te, migotliwe motyle. 
-~
-Group 2
-End
-#Name konie18~
-Desc Chropowate pnie rosn±cych w okolicy dêbow s± ciekawie porosniete przez
-br±zowaw± hube. 
-~
-Group 2
-End
-#Name konie19~
-Desc Leniwa atmosfera tego miejsca powoduje, ze nie masz ochoty sie stad
-ruszac, wiesz jednak, ze chwile nieuwagi moglbys przyplacic zyciem. 
-~
-Group 2
-End
-#Name konie20~
-Desc Tu i ówdzie wykroty i dziury, trzeba uwa¿ac zeby sobie nogi nie zwichnac
-albo, nie dajcie bogowie, po³amac. 
-~
-Group 2
-End
-#Name konie21~
-Desc W ziemi widaæ jakas wielka jame. Zapewne zosta³a wykopana przez jakie¶
-du¿e zwierze, mo¿e niedzwiedzia. Tylko po co? 
-~
-Group 2
-End
-#Name konie22~
-Desc W ziemi widaæ jak±¶ ma³± jame. Nie bardzo wiadomo kto i po co ja tu
-wykopal. 
+#Name konie5~
+Desc Wzdrygasz siê na chwile, nie chcia³<&by¶/aby¶/oby¶> siê zgubiæ w tej
+g³uszy. Lepiej pilnowaæ drogi. 
 ~
 Group 2
 End

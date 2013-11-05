@@ -103,7 +103,7 @@ Descr Patrzac na wystajace mu z pyska wielkie kly zastanawiasz sie
 czy walka to na pewno dobry pomysl.
 ~
 Race dzik~
-ActExt 0|AEUX
+ActExt 0|AEGU
 Affected 0 0 0 0
 AffectedExt 0
 Align 0
@@ -190,7 +190,7 @@ Descr Patrz±c na wystaj±ce z jej z pyska wielkie k³y zastanawiasz siê czy walka
 to na pewno dobry pomys³. 
 ~
 Race ¶winia~
-ActExt 0|AUX
+ActExt 0|AGU
 Affected 0 0 0 0
 AffectedExt 0
 Align 0
@@ -225,6 +225,35 @@ Mobend
 
 
 #OBJECTS
+#Vnum 2951
+Name pierscien paladyna~
+Odmiana pier¶cienia paladyna~pier¶cieniowi paladyna~pier¶cieñ paladyna~pier¶cieniem paladyna~pier¶cieniu paladyna~
+Short pier¶cieñ paladyna~
+Descr Na ziemi le¿y pier¶cien z symbolem krzy¿a.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 9000
+Cond 70
+Itemdesc Skromnie wykonany pier¶cieñ z symbolem krzy¿a nale¿a³ zapewne do jakiego¶
+paladyna. Za dawnych czasów kiedy wiêkszo¶æ rycerzy nie umia³a czytaæ ani
+pisaæ podobne pier¶cienie by³y u¿ywane jako znak rozpoznawczy. Po jego
+okazaniu ka¿dy nieznajomy zostanie przyjêty jako wys³annik wla¶ciciela
+pier¶cienia. Uwa¿aj jednak by nie nadwyrê¿yæ zaufania osoby, która ci go
+da³a. 
+~
+Identdesc ~
+Comments ~
+Objend
 #Vnum 2964
 Name drogowskaz~
 Odmiana drogowskazu~drogowskazowi~drogowskaz~drogowskazem~drogowskazie~
@@ -236,11 +265,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 100
@@ -689,7 +718,7 @@ ciezarem snieznych czap. Droga prowadzi dalej na pó³noc na srodek polany i w
 dol na po³udnie stromo po gorskim zboczu przez dosc gesty las. 
 ~
 FlagsExt 0
-Sector 16
+Sector 4
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -749,45 +778,34 @@ Exit 2
 ~
 ~
 0 0 2962
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 12270
-ExitExtEnd
-Exit 3
-~
-~
-0 0 12270
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 2964
-Name W Faldharskiej stra¿nicy~
-Descr Ongi¶ by³a tu jedynie le¶na polana, lecz teraz stoi tu kamienna
-stra¿nica, której wybudowanie op³aci³y w³adze Arras. Budowla ta stanê³a na
-prze³êczy Faldhar, strategicznym punkcie obrony cywilizowanych ziem przed
-barbarzyñcami z pó³nocy. Takie te¿ jest przeznaczenie owej stra¿nicy i
-zadanie obsadzaj±cych j± ¿o³nierzy - strze¿enie bezpieczeñstwa po³udniowych
-terenów i utrzymywanie kontaktu miêdzy Arras i Easterial - jedyn± ostoj±
-cywilizacji na tych srogich ziemiach. Przy jednej ze ¶cian tunelu, jaki
-przecina budowlê z pó³nocy na po³udnie, widzisz solidn±, drewnian± drabinê,
-prowadz±c± do wnêtrza stra¿nicy. 
+Name Polana na przeleczy Faldhar~
+Descr Jestes na sporej polanie, dokladnie na Przeleczy Faldhar, jak glosi
+tablica, gdzies w Gorach Bialych. Teren nieco lagodnieje i trakt lagodnie
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Daleko na pó³nocy widzisz osniezone szczyty i
+gdzies miedzy chmurami ledwo widoczny, polyskujacy stozek gory, zwanej
+Szarym Krysztalem. Reszta pozostaje za zaslona lasu. Droga na po³udnie
+wiedzie przez polanê, a nastepnie w dol po gorskim zboczu. 
 ~
-FlagsExt 0|H
-Sector 0
+FlagsExt 0
+Sector 18
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 2965
 ExitExtEnd
 Exit 0
 ~
 ~
-8192 0 2965
+0 0 2965
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -821,18 +839,8 @@ Exit 3
 ~
 ~
 0 0 2973
-ExitExt 4
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 12261
-ExitExtEnd
-Exit 4
-~
-~
-0 0 12261
 Roomprog exit 2971 1~
+Roomprog exit 2971 3~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -847,7 +855,7 @@ zwalami zmrozonego sniegu. Droga wiedzie miedzy wysokimi drzewami, miejscami
 ustepujacymi sporym skalno - lodowym wystepom. 
 ~
 FlagsExt 0
-Sector 35
+Sector 4
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -862,14 +870,14 @@ Exit 0
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 8192
+ExitExtInfo 0
 ExitExtKey 0
 ExitExtToVnum 2964
 ExitExtEnd
 Exit 2
 ~
 ~
-8192 0 2964
+0 0 2964
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1131,13 +1139,18 @@ Capacity 0
 Roomend
 #Vnum 2973
 Name Wejscie na Niedzwiedzi Szlak~
-Descr Znajdujesz siê we wnêtrzu stra¿nicy, która - jak siê okazuje - broni
-wiêcej ni¿ jednego przej¶cia. Dowodem na to s± widniej±ce na zachodzie
-drzwi, prowadz±ce na Nied¼wiedzi Szlak. Widzisz tu kilka wisz±cych na
-¶cianach pochodni i herb Arras - z³otego lwa na czerwonym tle. Ponadto jest
-tu ca³kiem pusto, je¶li chodzi o wyposa¿enie - ot, zwyk³a stró¿ówka. 
+Descr Jestes na sporej polanie, dokladnie na Przeleczy Faldhar, jak glosi
+tablica, gdzies w Gorach Bialych. Teren nieco lagodnieje i trakt lagodnie
+przecina lancuch gorski miedzy gora Erethe a Pasmem Niedzwiedzim. Wkolo
+wszystko pokryte jest gruba warstwa sniegu, miejscami jedynie wystaja
+niewielkie krzewy i wysokie kepy traw. Galezie drzew az uginaja sie pod
+ciezarem snieznych czap. Daleko na pó³nocy widzisz osniezone szczyty i
+gdzies miedzy chmurami ledwo widoczny polyskujacy stozek gory zwanej Szarym
+Krysztalem. Reszta pozostaje za zaslona lasu. Droga na po³udnie wiedzie prze
+polane a nastepnie w dol po gorskim zboczu. Na zachodzie rozpoczyna sie
+Niedzwiedzi szlak. 
 ~
-FlagsExt 0|H
+FlagsExt 0
 Sector 0
 ExitExt 1
 ExitExtDescription ~
@@ -1153,22 +1166,22 @@ Exit 1
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 7
-ExitExtKey 12263
+ExitExtInfo 0
+ExitExtKey 0
 ExitExtToVnum 2974
 ExitExtEnd
 Exit 3
 ~
 ~
-7 12263 2974
+0 0 2974
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
 #Vnum 2974
-Name Przej¶cie przez góry~
+Name ~
 Descr ~
 FlagsExt 0
-Sector 15
+Sector 0
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1183,22 +1196,22 @@ Exit 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
-ExitExtInfo 7
-ExitExtKey 12263
+ExitExtInfo 0
+ExitExtKey 0
 ExitExtToVnum 2973
 ExitExtEnd
 Exit 1
 ~
 ~
-7 12263 2973
-Resources 45 20 0 0 0 0 0 0 
-Capacity 14
+0 0 2973
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
 Roomend
 #Vnum 2975
-Name Jaskinia~
+Name ~
 Descr ~
 FlagsExt 0
-Sector 15
+Sector 0
 ExitExt 2
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1221,14 +1234,14 @@ Exit 3
 ~
 ~
 0 0 2976
-Resources 45 20 0 0 0 0 0 0 
-Capacity 14
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
 Roomend
 #Vnum 2976
-Name Skalny tunel~
+Name ~
 Descr ~
 FlagsExt 0
-Sector 15
+Sector 0
 ExitExt 1
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -1240,19 +1253,8 @@ Exit 1
 ~
 ~
 0 0 2975
-ExitExt 3
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 12266
-ExitExtEnd
-Exit 3
-~
-~
-0 0 12266
-Resources 45 20 0 0 0 0 0 0 
-Capacity 14
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
 Roomend
 #Vnum 2977
 Name Droga przez przelecz Faldhar~
@@ -1424,9 +1426,9 @@ S
 #RESETS
 M 100 2953 3 2953 3
 M 100 2953 3 2957 3
-M 100 2965 3 2966 3
+O 100 2964 0 2964
+M 100 2953 3 2965 3
 M 100 2965 1 2968 1
-M 100 12261 1 2973 1
 S
 
 
@@ -1496,80 +1498,12 @@ endif
 #0
 
 #OBJPROGSNEW
-#be³t_load
-~
-mob otransfer be³t 1
-~
-#kusza_shoot
-~
-if !wears $n 12269
-  break
-endif
-if !hasflag $o kusza_za³adowana
-  mob echoat $n Nieza³adowan± kusz± to mo¿esz najwy¿ej w kogo¶ rzuciæ...
-  break
-else
-  mob echoat $n Unosisz kuszê i przymierzasz siê do strza³u.
-  mob echoaround $n $n unosi kuszê i przymierza siê do strza³u.
-  mob reward $n wait 2
-  minidelay 2
-  mob echoaround $t Be³t leci w stronê $tc i trafia!
-  mob echoat $t {RBE£T TRAFIA CIÊ!{x Co za ból!
-  mob reward $n wait 2
-  obj modflag rem kusza_za³adowana
-endif
-if pos $n fighting
-  mob damageex $t 2 25 50 ustrzel
-else
-  if rand 15
-    mob damageex $t 2 50 75 ustrzel
-  else
-    if rand 88
-      mob reward $t move -30
-      mob addaff $t slow 3
-      mob echoat $t Be³t trafi³ ciê w kolano! Zaczynasz utykaæ.
-      mob echoaround $t Be³t trafi³ $tc w kolano! $t zaczyna utykaæ.
-      mob damageex $t 2 50 75 ustrzel
-      mob reward $n wait 2
-    else
-      if rand 97
-        mob addaff $t hitr -8 2
-        mob echoat $t Be³t wbi³ ci siê w oko! {RCOOO ZAAA BÓÓÓL!!!{x
-        mob echoaround $t Be³t wbi³ siê w oko $tc! Z oczodo³u tryska krew!
-        mob damageex $t 2 400 600 ustrzel
-        mob reward $n wait 2
-        break
-      endif
-    endif
-  endif
-endif
-mob reward $n wait 2
-if !ispc $t
-  minidelay 3
-  mob force $t kill $n
-endif
-~
-#kusza_unload
-~
-if !wears $n 12269
-  break
-else
-  if hasflag $o kusza_za³adowana
-    mob echoat $n Zdejmujesz be³t z ³o¿yska kuszy i zwalniasz ciêciwê.
-    mob echoaround $n $n zdejmuje be³t z ³o¿yska kuszy i zwalnia ciêciwê.
-    obj modflag rem kusza_za³adowana
-    mob oload 12270
-  else
-    mob echoat $n Przecie¿ kusza nie jest za³adowana!
-  endif
-endif
-~
 #0
 
 #ROOMPROGSNEW
 #2971
 ~
-mob echoat $n Niestety, droga jest ca³kowicie zasypana ¶niegiem...
+mob echoat $n Niestety droga jest zasypana calkowicie sniegiem ...
 ~
 #pal_loadstart
 ~

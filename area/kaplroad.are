@@ -175,6 +175,27 @@ Mobend
 
 
 #OBJECTS
+#Vnum 27681
+Name szata zolta~
+Odmiana {Yzoltej szaty{x~{Yzoltej szacie{x~{Yzolta szate{x~{Yzolta szata{x~{Yzoltej szacie{x~
+Short {Yzolta szata{x~
+Descr {YLadna szata w kolorze zoltym, z wyszytym symbolem Slonca lezy tutaj.{x~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 6
+Cost 8
+Cond 100
+Comments ~
+Objend
 #Vnum 27682
 Name medalion z³oty runiczny dawnych bogów~
 Odmiana medalionu Dawnych Bogów~medalionowi Dawnych Bogow~medalion Dawnych Bogów~medalionem Dawnych Bogów~medalionie Dawnych Bogow~
@@ -186,11 +207,11 @@ ExtraExt 0
 Wear AC
 Wear2Ext 0
 Bonus 0
+Rent 15
 LiczbaMnoga 0
 Gender 0
 Value 5 5 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 2400
 Cond 100
@@ -199,6 +220,30 @@ magiczne runy s± ju¿ niemal ca³kowicie starte.
 ~
 Comments Troche scialem (zbyt latwo dostepny), zbalansowalem w stosunku do innych turnerow, lepszy niz sklepowe. - {RGarloop{x ({CWed Jun 15 18:35:31 2005{x)
 ~
+Objend
+#Vnum 27683
+Name ksiega kaplanska ksiazka~
+Odmiana ksiêgi~ksiêdze~ksiêgê~ksiêg±~ksiêdze~
+Short kap³añska ksiêga~
+Descr Le¿y tutaj ksiêga w prostej szarej ok³adce.~
+Material papier~
+Type spellbook
+ExtraExt 0|GT
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 116
+LiczbaMnoga 0
+Gender 3
+Value 1 5 227 34 145 26 0
+Repair 0 0 0 0
+Weight 40
+Cost 20940
+Cond 100
+Itemdesc Ta ksiêga wygl±da z jakiego¶ powodu na szczególn±, mo¿e jest magiczna?
+~
+Identdesc ~
+Comments ~
 Objend
 #Vnum 27684
 Name kupka popio³u~
@@ -211,11 +256,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -413,7 +458,9 @@ S
 
 #RESETS
 M 100 27681 1 27682 1
+E 100 27681 0 5
 E 100 27682 0 3
+G 60 27683 0
 S
 
 
@@ -443,7 +490,7 @@ endfor
 ~
 mob addgroup 27682
 if rand 90
-  mob oload 4362
+  mob oload 210
 endif
 ~
 #27683_onload
@@ -461,21 +508,21 @@ endif
 #equip_opêtany
 ubiera opêtanego rycerza 27682
 ~
-mob equip self 3041
-mob equip self 3025
-mob equip self 3061
-mob equip self 3061
-mob equip self 3003
-mob equip self 3128
+mob equip self 20394
+mob equip self 28585
+mob equip self 20392
+mob equip self 3358
+mob equip self 27622
+mob equip self 3048
 ~
 #equip_smutny
 ubiera smutnego rycerza 27683
 ~
-mob equip self 3041
-mob equip self 3032
-mob equip self 3061
-mob equip self 3061
-mob equip self 3009
+mob equip self 20394
+mob equip self 20393
+mob equip self 20392
+mob equip self 3358
+mob equip self 20390
 ~
 #nic
 ~

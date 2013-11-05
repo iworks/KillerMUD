@@ -1,6 +1,6 @@
 #AREADATA
-Name {YOLD-CLAN{x: Poszukiwacze ¶ladów Niraso~
-Builders Oldklan Risan Kamili~
+Name {RCLAN{x: Poszukiwacze ¶ladów Niraso~
+Builders Klan  Risan~
 VNUMs 38811 38860
 Locked ~
 Security 9
@@ -133,6 +133,43 @@ Material unknown
 Skin 100
 ExpMultiplier 100
 Mobend
+#Vnum 38823
+Name no name~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Long (no long description)~
+Descr ~
+Race unique~
+ActExt 0|A
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 0
+Hitroll 0
+HP 0d0+0
+Damage 0d0+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack none
+XAC 10 10 10 10
+Stats 13 13 13 13 13 13 13
+Off 0
+OffExt 0
+Pos_start stand
+Pos_def stand
+Sex none
+Wealth 0
+Form 0
+Parts 0
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 38829
 Name Kap³an Niraso~
 Odmiana Kap³ana Niraso~Kap³anowi Niraso~Kap³ana Niraso~Kap³anem Niraso~Kap³anie Niraso~
@@ -172,6 +209,9 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew precommand 38830 ABCDEFGHI list~
+MobprogNew precommand 38830 ABCDEFGHI buy~
+MobprogNew precommand 38830 ABCDEFGHI sell~
 MobprogNew greet 38829 FGI 100~
 Skin 100
 ExpMultiplier 100
@@ -699,6 +739,7 @@ Parts ABCDEFGHIJKR
 Size medium
 Material unknown
 MobprogNew onload 38822 ABCDEFGHI 100~
+MobprogNew exit 38821 FGI 0~
 Skin 100
 ExpMultiplier 100
 Resist 0 5
@@ -712,6 +753,199 @@ Mobend
 
 
 #OBJECTS
+#Vnum 38811
+Name blêktina szata~
+Odmiana {Cblêktinej{x szaty~{Cblêktinej{x szacie~{Cblêktin±{x szate~{Cblêktin±{x szata~{Cblêktinej{x szacie~
+Short {Cblêktina{x szata~
+Descr B³ekitna szata lêzy tutaj.~
+Material kaszmir~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to piêkna i droga szata, która zosta³a wykonana z kaszmiru, drogiego i ¿adkiego materia³u. Kolor, który góruje na tej szacie to b³ekit.
+~
+Comments ~
+Objend
+#Vnum 38812
+Name b³ogos³awiony pas niraso~
+Odmiana b³ogos³awionego pasa {CNiraso{x~b³ogos³awionemu pasowi {CNiraso{x~b³ogos³awiony pas {CNiraso{x~b³ogos³awionym pasem {CNiraso{x~b³ogos³awionym pasie {CNiraso{x~
+Short b³ogos³awiony pas {CNiraso{x~
+Descr Piêknie zdobiony, b³êkitnej barwy pas pormieniuje zaklêt± w nim magi±.~
+Material smocze ³uski~
+Type clothing
+ExtraExt 0|A
+Wear AL
+Wear2Ext 0
+Bonus 0
+Rent 540
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 1
+Cost 10800
+Cond 75
+Aff 1 12 4 9 0 0
+Objprog prewear 38812 100~
+Itemdesc Piêknie zdobiony b³êkitny pas, któremu siê przygl±dasz jest podarunkiem
+od Niraso dla swych wyznawców. Wokó³ pasa unosi siê dziwna magiczna aura,
+samo wykoñczenie pasa jest mistrzowsk± robot± na ca³ej jego d³ugo¶ci
+osadzono magiczne runy, piêkna robota. 
+~
+Comments ~
+Objend
+#Vnum 38813
+Name wiruj±cy krysztal~
+Odmiana wiruj±cego kryszta³u~wiruj±cemu kryszta³owi~wiruj±cy kryszta³~wiruj±cym kryszta³em~wirujacym krysztale~
+Short wiruj±cy kryszta³~
+Descr Niedu¿y, ¶wiec±cy wiruj±cy krysztal lewituje nad ziemi±.~
+Material kryszta³~
+Type light
+ExtraExt 0|A
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 24 0 0 0 0
+Repair 20 0 1 100
+Weight 1
+Cost 10
+Cond 75
+Objprog prewear 38813 100~
+Itemdesc Przygl±dasz siê niedu¿emy, nieustannie wiruj±cemu kryszta³owi. Kryszta³
+zdaje siê emanowaæ nie tylko ¶wiat³em ale i ciep³±, bia³± aur±. 
+~
+Comments ~
+Objend
+#Vnum 38814
+Name Sukienka z falbankami~
+Odmiana sukienki z falbankami~sukience z falbankami~sukienke z falbankami~sukienk± z falbankami~sukience z falbankami~
+Short sukienka z falbankami~
+Descr Prze¶liczna sukienka z falbankami le¿y tutaj w k±cie.~
+Material jedwab~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 24
+Cost 24
+Cond 75
+Itemdesc Ogl±dasz w³a¶nie prze¶liczn± sukienkê z falbankami. To jeden z
+przedmiotów, o które kobiety sa w stanie siê pozabijaæ. Bia³y odcieñ nadaje
+osobie nosz±cej sukienkê niewinnego wygl±du, jednak nie ogranicza ona
+mo¿liwo¶ci pos³ugiwania siê kobiecymi walorami. W tym stroju na pewno mo¿na
+skupiæ na sobie wzrok mêskiej czê¶ci spo³eczeñstwa. 
+~
+Comments ~
+Objend
+#Vnum 38815
+Name Bia³e obcasy~
+Odmiana bia³ych obcasów~bia³ym obcasom~bia³e obcasy~bia³ymi obcasami~bia³ych obcasach~
+Short bia³e obcasy~
+Descr Le¿a tutaj porzucone przez kogo¶ bia³e obcasy.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 5
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 20
+Cost 26
+Cond 75
+Itemdesc Przygl±dasz siê bia³ym obcasom wykonanym z delikatnej skory. Zosta³y one
+wykonane starannie jednak nie sa niczym niezwyk³ym. Z pewno¶ci± nie
+zobaczysz ich na salonach, jednak na miejskim placu mog± byæ do¶æ
+powszechne. 
+~
+Comments ~
+Objend
+#Vnum 38817
+Name wygodne buty~
+Odmiana wygodnych butów~wygodnym butom~wygodne buty~wygodnymi butami~wygodnych butach~
+Short wygodne buty~
+Descr Piêknie zdobione, wygodne buty le¿± tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 5
+Value 9 9 9 10 0 0 0
+Repair 20 0 1 100
+Weight 10
+Cost 120
+Cond 100
+Aff 1 14 3 0 0 0
+Comments ~
+Objend
+#Vnum 38819
+Name dwurêczny topor znamie Wêdrowca~
+Odmiana dwurêcznego topora~dwurêcznemu toporowi~dwurêczny topór~dwurêcznym toporem~dwurêcznym toporze~
+Short dwurêczny topor {R'{Dznamie {CWêdrowca{R'{x~
+Descr Dwurêczny topór wykonanyu ze stali, le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0|DMUd
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 5 3 5 1 32 2 2
+Repair 20 0 1 100
+Weight 200
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 38820
+Name b³êkitny p³aszcz~
+Odmiana {Cb³êkitnego p³aszcza{x~{Cb³êkitnemu p³aszczowi{x~{Cb³êkitny p³aszcz{x~{Cb³êkitnym p³aszczem{x~{Cb³êkitnym p³aszczu{x~
+Short {Cb³êkitny p³aszcz{x~
+Descr Lniany b³ekityny p³aszcz le¿y tutaj.~
+Material len~
+Type clothing
+ExtraExt 0|DP
+Wear AK
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 20 0 1 100
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
 #Vnum 38821
 Name p³aszcz odzienie Niraso~
 Odmiana {Yodzienia {CNiraso{x~{Yodzieniu {CNiraso{x~{Yodzienie {CNiraso{x~{Yodzieniem {CNiraso{x~{Yodzieniu {CNiraso{x~
@@ -723,11 +957,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 1
 Value 40 5 0 25 100 0 -1
 Repair 20 0 1 100
-Length 0
 Weight 5
 Cost 20
 Cond 100
@@ -738,6 +972,7 @@ piersi p³aszcza, na plecach za¶ zauwa¿asz mieni±cy siê w promieniach s³oñca
 na tysi±c barw napis Niraso. Po d³u¿szym przypatrywaniu siê $x stwierdzasz,
 i¿ p³aszcz idealnie na nim le¿y. 
 ~
+Objprog prewear 38821 100~
 Itemdesc Piêknie zdobiony p³aszcz, któremu siê przygl±dasz jest odzieniem tych,
 którzy zaprzysiêgli s³u¿yæ i wype³niaæ wolê Niraso, boga podró¿ników. Liczne
 zdobienia odzienia wykonane zosta³y z niemal chirurgiczn± precyzj±. Od
@@ -760,11 +995,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 10 10 26 0 3331 0 -1
 Repair 20 0 1 100
-Length 0
 Weight 1
 Cost 20
 Cond 75
@@ -781,11 +1016,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -810,11 +1045,11 @@ ExtraExt 0|A
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -836,11 +1071,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -861,11 +1096,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 0 24 0 0 0 0 0
 Repair 20 0 1 100
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -903,6 +1138,17 @@ Exit 0
 ~
 ~
 0 0 38844
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 38990
+ExitExtEnd
+Exit 2
+~
+~
+0 0 38990
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -1844,7 +2090,7 @@ dalsz± podró¿± przyda siê ka¿demu. Mi³o jest te¿ zje¶æ ciep³y, po¿ywny
 posi³ek popijaj±c przy tym dobry, mocny trunek. 
 ~
 FlagsExt 0
-Sector 28
+Sector 8
 ExitExt 0
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -2060,15 +2306,13 @@ Resources 0 0 0 0 0 0 0 0
 Capacity 0
 Roomend
 #Vnum 38841
-Name Zaplecze~
-Descr Znajdujesz siê na ma³ym, schludnym zapleczu, powsta³ym ze znajduj±cego siê
-tutaj w przesz³o¶ci pokoju sypialnego. Poniewa¿ nie zosta³o ono jeszcze
-zagospodarowane, to nadal ciep³a i przyjemna atmosfera zachêca do oddania
-siê w objêcia snu. Nie ma ju¿ jednak tych wygodnych szafeczek, do których
-mo¿na by³o tutqaj kiedy¶ chowaæ swoje przedmioty przed potencjalnym
-z³upieniem przez wrogów. 
+Name Pokój sypialny~
+Descr Znajdujesz siê w ma³ych, schludnym pokoju sypialnianym. W tym miejscu
+mo¿esz siê przespaæ i odpocz±æ. Ciep³a i przyjemna atmosfera zachêca do
+oddania siê w objêcia snu. Przed dalsz± podró¿± przyda ci siê odpoczynek, a
+osadnicy z pewno¶ci± chêtnie ugoszcz± ka¿dego zmêczonego podró¿nika. 
 ~
-FlagsExt 0|H
+FlagsExt 0|HW/1|C
 Sector 0
 ExitExt 3
 ExitExtDescription ~
@@ -2858,9 +3102,9 @@ M 100 38831 2 38820 2
 O 100 38829 0 38829
 M 100 38829 1 38829 1
 G 100 38821 0
-E 100 4378 0 12
-G 100 3380 0
-G 100 3098 0
+E 100 38811 0 12
+G 100 38813 0
+G 100 38812 0
 O 100 38830 0 38830
 M 100 38832 2 38833 2
 M 100 38821 1 38834 1
@@ -2874,11 +3118,11 @@ M 100 38841 7 38838 4
 M 100 38840 7 38838 1
 M 100 38840 8 38839 2
 M 100 38822 1 38840 1
-E 100 4416 0 8
-E 100 4392 0 5
+E 100 3013 0 8
+E 100 12205 0 5
 G 100 38822 0
-G 100 2498 0
-G 100 2451 0
+G 100 3099 0
+G 100 3055 0
 M 100 38840 7 38846 1
 M 100 38841 7 38846 1
 M 100 38837 8 38847 2
@@ -2931,11 +3175,22 @@ else
   endif
 endif
 ~
+#38821
+wpuszczanie do siedziby
+~
+if clan $n 'WEDROWIEC'
+  mob echoat $n $i pozwala ci przejsc.
+  mob echoaround $n $i pozwala $n przejsc.
+mob transfer $n 38821
+else
+  mob echoat $n $i zagradza ci droge.
+endif
+~
 #38822
 ubranie stra¿nika klanowego
 ~
-mob equip self 3128
-mob equip self 4426
+mob equip self 38819
+mob equip self 38820
 ~
 #38829
 Powietanie kap³ana.
@@ -2945,38 +3200,83 @@ if clan $n 'WEDROWIEC'
   emote k³ania siê nisko.
 endif
 ~
+#38830
+sklep kap³ana
+~
+if clan $n WEDROWIEC
+  say S³u¿e pomoca $x.
+  mob command
+else
+  say Przykro mi, ale nic tobie nie sprzedam.
+endif
+
+~
 #38831
 ubranie mieszkanki i elfki.
 ~
 if rand 50
-  mob equip self 4386
+  mob oload 38814 w
 else
-  mob equip self 4384
+  mob oload 119 w
 endif
-mob equip self 4417
+mob oload 38815 w
 ~
 #38835
 Ubranie mieszczkañców
 ~
-mob equip self 3001
+mob equip self 3380
 if rand 50
-mob equip self 4400
+  mob equip self 10863
 else
-  mob equip self 4401
+  mob equip self 50990
 endif
-mob equip self 4363
-mob equip self 4409
+mob equip self 3012
+mob equip self 3007
 ~
 #38838
 dziecko
 ~
-mob equip self 4417
-mob equip self 3050
-mob equip self 4364
+mob equip self 38817
+mob equip self 3382
+mob equip self 3015
 ~
 #0
 
 #OBJPROGSNEW
+#38812
+prog do pasa
+~
+if clan $n WEDROWIEC
+  obj wear
+  mob echoat $n zak³adasz pas wokó³ cia³a.
+mob echoaround $n $n zak³ada pas wokó³ cia³a.
+else
+  mob echoat $n Nie jestes godzien by ten pas spoczywa³ na twoich biodrach.
+endif
+~
+#38813
+Oj wredny prog, wredny
+~
+if clan $n WEDROWIEC
+  obj wear
+  mob echoat $n wypuszczasz wiruj±cy kryszta³ z rêki, a ten zaczyna wirowaæ wokó³ twojej g³owy roz¶wietluj±c okolicê!
+  mob echoaround $n $n wypuszcza kryszta³ z rêki a ten zaczyna wirowaæ coraz szybciej roz¶wietlaj±c okolicê.
+else
+  mob echoat $n kryszta³ zaczyna wirowaæ coraz szybciej w twoich d³oniach rani±c ciê dotkliwie.
+  mob echoaround $n $n stara siê wyzwoliæ ukryt± moc kryszta³u, gdy ten nagle zaczyna wirowaæ coraz szybciej rani±c $c dotkliwie.
+  #nie ma klanowych itemow zadajacych obrazenia (Karlam)
+endif
+~
+#38821
+~
+if clan $n WEDROWIEC
+  obj wear
+  mob echoat $n Zak³adasz {Yodzienie {CNiraso{x wokó³ cia³a.
+  mob echoaround $n $n zak³ada {Yodzienie {CNiraso{x wokó³ cia³a.
+else
+  mob echoat $n Nie jeste¶ godzieñ by Niraso otoczy³ Ciê sw± ³ask±.
+endif
+~
 #0
 
 #ROOMPROGSNEW

@@ -15,9 +15,8 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com           ) [Razor   ] *
  * Koper Tadeusz         (jediloop@go2.pl                 ) [Garloop ] *
  * Pietrzak Marcin       (marcin@iworks.pl                ) [Gurthg  ] *
@@ -27,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: tables.c 12144 2013-03-16 15:32:15Z raszer $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/tables.c $
+ * $Id: tables.c 11124 2012-03-19 13:54:44Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/tables.c $
  *
  */
 #if defined(macintosh)
@@ -267,6 +266,7 @@ const struct ext_flag_type affect_flags[] =
 	{	"confusion_shell",		&AFF_CONFUSION_SHELL,			   	TRUE	},
 	{	"float",				&AFF_FLOAT,							TRUE	},
 	{	"resist_weapon",		&AFF_RESIST_WEAPON,					FALSE	},
+	{	"absolute_magic_protection",&AFF_ABSOLUTE_MAGIC_PROTECTION,	TRUE	},
 	{	"major_globe",			&AFF_MAJOR_GLOBE,					TRUE	},
 	{	"loyalty",				&AFF_LOYALTY,						FALSE	},
 	{	"maze",					&AFF_MAZE,							FALSE	},
@@ -284,12 +284,7 @@ const struct ext_flag_type affect_flags[] =
 	{	"spirit walk",			&AFF_SPIRIT_WALK,					TRUE	},
 	{	"healing salve",		&AFF_HEALING_SALVE,					TRUE	},
 	{	"sense_fatigue",		&AFF_SENSE_FATIGUE,					TRUE	},
-	{	"scrying_shield",		&AFF_SCRYING_SHIELD,					TRUE	},
-        {	"farsight",			&AFF_FARSIGHT,						TRUE	},
 	{	"aura",				&AFF_AURA,						FALSE	},
-	{	"seal_of_atrocity",		&AFF_SEAL_OF_ATROCITY,					FALSE	},
-	{	"seal_of_despair",		&AFF_SEAL_OF_DESPAIR,					FALSE	},
-	{	"invoke",			&AFF_INVOKE,						FALSE	},
 	{	NULL,				    &AFF_NONE,					        0		}
 };
 
@@ -613,7 +608,6 @@ const struct ext_flag_type room_flags[] =
 	{	"no_weather",		&ROOM_NO_WEATHER,		TRUE	},
 	{	"watch_tower",		&ROOM_WATCH_TOWER,		TRUE	},
 	{	"mem_shaman",		&ROOM_MEMSHA,			TRUE	},
-	{	"invoke",		&ROOM_INVOKE,			TRUE	},
 	{	NULL,				0,						0		}
 };
 
@@ -707,8 +701,6 @@ const struct ext_flag_type extra_flags[] =
     { "undead_invis",     &ITEM_UNDEAD_INVIS,     TRUE  },
     { "undestructable",   &ITEM_UNDESTRUCTABLE,   TRUE  },
     { "visdeath",         &ITEM_VIS_DEATH,        TRUE  },
-    { "rareitem",         &ITEM_RAREITEM,         TRUE  },
-	{ "component_only",   &ITEM_COMPONENTONLY,    TRUE  },
     { NULL,               0,                      0     }
 };
 
@@ -910,7 +902,6 @@ const struct flag_type container_flags[] =
 	{   "eatkey",           CONT_EATKEY,        TRUE    },
 	{   "single_obj",       CONT_SINGLE_OBJ,    TRUE    },
 	{   "only_vnum",        CONT_ONLY_VNUM,     TRUE    },
-	{   "components",       CONT_COMP,          TRUE    },
 	{   NULL,               0,                  0       }
 };
 
@@ -962,38 +953,35 @@ const struct flag_type weapon_class[] =
 
 const struct flag_type weapon_type2[] =
 {
-    { "flaming",     WEAPON_FLAMING,           TRUE },
-    { "frost",       WEAPON_FROST,             TRUE },
-    { "vampiric",    WEAPON_VAMPIRIC,          TRUE },
-    { "sharp",       WEAPON_SHARP,             TRUE },
-    { "vorpal",      WEAPON_VORPAL,            TRUE },
-    { "twohands",    WEAPON_TWO_HANDS,         TRUE },
-    { "shocking",    WEAPON_SHOCKING,          TRUE },
-    { "poison",      WEAPON_POISON,            TRUE },
-    { "dispeller",   WEAPON_DISPEL,            TRUE },
-    { "primary",     WEAPON_PRIMARY,           TRUE },
-    { "toxic",       WEAPON_TOXIC,             TRUE },
-    { "sacred",      WEAPON_SACRED,            TRUE },
-    { "resonant",    WEAPON_RESONANT,          TRUE },
-    { "injurious",   WEAPON_INJURIOUS,         TRUE },
-    { "keen",        WEAPON_KEEN,              TRUE },
-    { "thundering",  WEAPON_THUNDERING,        TRUE },
-    { "unbalanced",  WEAPON_UNBALANCED,        TRUE },
-    { "wicked",      WEAPON_WICKED,            TRUE },
-    { "heartseeker", WEAPON_HEARTSEEKER,       TRUE },
-    { "randommagic", WEAPON_RANDOM_MAGIC_PLUS, TRUE },
-    {  NULL,         0,                        0    }
+	{   "flaming",		WEAPON_FLAMING,		TRUE    },
+	{   "frost",		WEAPON_FROST,		TRUE    },
+	{   "vampiric",		WEAPON_VAMPIRIC,	TRUE    },
+	{   "sharp",		WEAPON_SHARP,		TRUE    },
+	{   "vorpal",		WEAPON_VORPAL,		TRUE    },
+	{   "twohands",		WEAPON_TWO_HANDS,	TRUE    },
+	{	"shocking",		WEAPON_SHOCKING,	TRUE    },
+	{	"poison",		WEAPON_POISON,		TRUE	},
+	{	"dispeller",	WEAPON_DISPEL,		TRUE	},
+	{	"primary",		WEAPON_PRIMARY,		TRUE	},
+	{	"toxic",		WEAPON_TOXIC,		TRUE	},
+	{	"sacred",		WEAPON_SACRED,		TRUE	},
+	{	"resonant",		WEAPON_RESONANT,	TRUE	},
+	{	"injurious",	WEAPON_INJURIOUS,	TRUE	},
+	{	"keen",	WEAPON_KEEN,	TRUE	},
+   {	"thundering",	WEAPON_THUNDERING,	TRUE	},
+   { "unbalanced",  WEAPON_UNBALANCED,  TRUE },
+   { "wicked",      WEAPON_WICKED,      TRUE },
+   { "heartseeker", WEAPON_HEARTSEEKER, TRUE },
+   {   NULL,			0,					0       }
 };
 
 //rellik: mining
 const struct tool_type tool_table[] =
 {
-    { "exotic",  TOOL_EXOTIC  },
-    { "m這t",    TOOL_HAMMER  },
-    { "kowad這", TOOL_ANVIL   },
-    { "pi豉",    TOOL_SAW     },
-    { "kilof",   TOOL_PICKAXE },
-    { NULL, -1 }
+		{ "kilof", TOOL_PICKAXE },
+		{ "m這t", TOOL_HAMMER },
+		{ "kowad這", TOOL_ANVIL },
+		{ NULL, -1 }
 };
 
 //rellik: mining
@@ -1344,81 +1332,3 @@ const int stat_hash [MAX_STATS][MAX_STATS] = {
 /*CHA*/		{0, 0, 0, 0, 0, 100, 0},
 /*LUC*/		{0, 0, 0, 0, 0, 0, 100}
 };
-
-/**
- * toksycznosc
- */
-
-const struct toxic_type toxic_table [] =
-{
-    /* LEGENDA:
-       name         - nazwa
-       descripttion - opis
-       gender       - { GENDER_NONE, GENDER_NIJAKI, GENDER_MESKI, GENDER_ZENSKI, GENDER_MESKOOSOBOWY, GENDER_ZENSKOOSOBOWY }
-       power        - { minimum, maximum }
-
-    {
-        "",
-        "",
-        { "", "", "", "", "",  "", "" },
-        { 0, 0 }
-    },
-
-     */
-
-    // 0
-    {
-        "nietoksyczna",
-        "mikstura nie jest toksyczna, mozna ja pic w dwolnych ilosciach",
-        { "nietoksyczne", "nietoksyczne", "nietoksyczny", "nietoksyczna", "nietoksyczne", "nietoksyczne" },
-        { 0, 1 }
-    },
-
-    // 1
-    {
-        "malo toksyczna",
-        "mikstura jest malo toksyczna, mozna ja pic dosc czesto",
-        { "malo toksyczne", "malo toksyczne", "malo toksyczny", "malo toksyczna", "malo toksyczne", "malo toksyczne" },
-        { 0, 20 }
-    },
-
-    // 2
-    {
-        "srednio toksyczna",
-        "mikstura jest srednio toksyczna, mozna ja pic czasami",
-        { "srednio toksyczne",  "srednio toksyczne",  "srednio toksyczny",  "srednio toksyczna",  "srednio toksczyne",  "srednio toksyczne" },
-        { 10, 30 }
-    },
-
-    // 3
-    {
-        "toksyczna",
-        "mikstura jest toksyczna, mozna ja pic rzadko",
-        { "toksyczne", "toksyczne", "toksyczny", "toksyczna", "toksczyne", "toksyczne" },
-        { 15, 50 }
-    },
-
-    // 4
-    {
-        "bardzo toksyczna",
-        "mikstura jest bardzo toksyczna, kazde sporzycie moze spowodowac smierc",
-        { "bardzo toksyczne",  "bardzo toksyczne",  "bardzo toksyczny",  "bardzo toksyczna",  "bardzo toksczyne",  "bardzo toksyczne" },
-        { 30, 110 }
-    },
-
-    // 3
-    {
-        "smiertelnie toksyczna",
-        "mikstura jest smiertelnie toksyczna, kazde spozycie powoduje smierc",
-        { "smiertelnie toksyczne",  "smiertelnie toksyczne",  "smiertelnie toksyczny",  "smiertelnie toksyczna",  "smiertelnie toksczyne",  "smiertelnie toksyczne" },
-        { 200, 200 }
-    },
-
-    {
-        NULL,
-        NULL,
-        { NULL, NULL, NULL, NULL, NULL,  NULL },
-        { 0, 0 }
-    }
-};
-

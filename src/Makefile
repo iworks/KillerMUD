@@ -1,15 +1,15 @@
 CCACHE  := $(shell which ccache 2>/dev/null)
 CC      = $(CCACHE) gcc
-COMMON  = -ggdb -lz
+COMMON  = -ggdb
 
 ifdef INSANE_OPT
 	COMMON += -Wall -Wp,-D_FORTIFY_SOURCE=2 -mtune=native -march=native -O2 -Wextra
 endif
 
 C_FLAGS = $(COMMON) -DHASHSTR -DMCCP 
-L_FLAGS =  $(COMMON) -lpcre -pthread
+L_FLAGS =  $(COMMON) -lz -lpcre -pthread
 CYG_C_FLAGS = $(COMMON) -DHASHSTR -DCYGWIN
-CYG_L_FLAGS = $(COMMON) /bin/pcre.dll
+CYG_L_FLAGS = $(COMMON) -lz /bin/pcre.dll
 CYG = cyg/
 OBJ = obj/
 OCAML = ocm/

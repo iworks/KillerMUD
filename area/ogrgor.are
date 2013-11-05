@@ -155,7 +155,7 @@ Mobend
 Name wielki pó³ogr~
 Odmiana wielkiego pó³ogra~wielkiemu pó³ogrowi~wielkiego pó³ogra~wielkim pó³ogrem~wielkim pó³ogrze~
 Short wielki pó³ogr~
-Long Widzisz przed sob± wielkiego pó³ogra, który jest najsilniejszy w tym stadzie.~
+Long Widzisz przed sob± wielkiego pó³ogra, najsilniejszego ogra w tym stadzie.~
 Descr Jest to wielka humadoidalna bestia, skrzy¿owana chyba z czym¶ równie
 potwornym. Jego wielkie, ¿ó³te zêbiska ociekaj± ¶lin±. Z przera¿eniem
 patrzysz na jego wielkie musku³y, które naprawde robi± wra¿enie. Jego prawie
@@ -170,7 +170,7 @@ Align -1000
 Group 0
 Lang E
 Speaks 4
-Level 30
+Level 29
 Hitroll 11
 HP 10d25+1300
 Damage 5d8+1
@@ -301,6 +301,51 @@ Mobend
 
 
 #OBJECTS
+#Vnum 17821
+Name pozosta³o¶ci po szkielecie~
+Odmiana pozosta³o¶ci szkieletu~pozosta³o¶ci± szkieletu~pozosta³o¶ci szkieletu~pozosta³o¶ciami szkieletu~pozosta³o¶ciach szkieletu~
+Short pozosta³o¶ci szkieletu~
+Descr Widzisz tutaj pozosta³o¶ci po jakim¶ szkielecie.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 96
+Cost 0
+Cond 75
+Itemdesc To cia³o le¿y tutaj chyba ju¿ z kilkaset lat.
+~
+Comments ~
+Objend
+#Vnum 17822
+Name pozosta³o¶ci po szkielecie~
+Odmiana zw³oków wojownika~zw³ok± wojownika~zw³oki wojownika~zw³okami wojownika~zw³okach wojownika~
+Short zw³oki wojownika~
+Descr Prawie ca³e wysuszone cia³o dawno zmar³ego wojownika le¿y tutaj.~
+Material skóra~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 168
+Cost 0
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
 #Vnum 17823
 Name zw³oki maga~
 Odmiana zw³oków maga~zw³ok± maga~zw³oki maga~zw³okami maga~zw³okach maga~
@@ -312,11 +357,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 123
 Cost 0
 Cond 75
@@ -333,11 +378,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 264
 Cost 0
 Cond 75
@@ -354,12 +399,33 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 194
+Cost 0
+Cond 75
+Comments ~
+Objend
+#Vnum 17826
+Name ko¶ci szkieletu~
+Odmiana ko¶ci szkieletu~ko¶ci± szkieletu~ko¶ci szkieletu~ko¶æmi szkieletu~ko¶ciach szkieletu~
+Short ko¶ci szkieletu~
+Descr Na ziemi le¿± ko¶ci szkieletu.~
+Material ko¶æ~
+Type npc_corpse
+ExtraExt 0|d
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 1 0
+Repair 0 0 0 0
+Weight 66
 Cost 0
 Cond 75
 Comments ~
@@ -375,11 +441,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 1995
 Cost 0
 Cond 75
@@ -396,11 +462,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 850
 Cost 0
 Cond 50
@@ -417,15 +483,65 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 24
 Cost 0
 Cond 75
 Itemdesc Wielkie ¶mierdz±ce odchody, wygl±daj± na ¶wie¿e. Okropnie pachn±. 
+~
+Comments ~
+Objend
+#Vnum 17830
+Name wielka maczuga~
+Odmiana wielkiej maczugi~wielkiej maczudze~wielk± maczuge~wielk± maczug±~wielkiej maczudze~
+Short wielka maczuga~
+Descr Wielka kamienna maczuga, le¿y tutaj na ziemi.~
+Material kamieñ~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 75
+LiczbaMnoga 0
+Gender 0
+Value 4 3 5 8 32 -1 0
+Repair 0 0 0 0
+Weight 280
+Cost 9000
+Cond 90
+Itemdesc Jest to wielkich rozmiarów maczuga wykonana z kamienia. Ni¿sze rasy mia³y
+by za pewne problemy z u¿ywaniem jej, o ile wogóle by j± podnios³y. Mo¿e to
+byæ dobra broñ, ale tylko dla kogo¶ wysokiego i silnego. 
+~
+Comments ~
+Objend
+#Vnum 17831
+Name brudny kaftan~
+Odmiana brudnego kaftanu~brudnemu kaftanowi~brudny kaftan~brudnym kaftanem~brudnym kaftanie~
+Short brudny kaftan~
+Descr Widzisz na ziemi do¶æ du¿ych rozmiarów, brudny, skórzany kaftan.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 2
+Value 9 9 9 10 0 0 0
+Repair 0 0 0 0
+Weight 67
+Cost 300
+Cond 75
+Itemdesc Jest to bardzo du¿ych rozmiarów zab³ocony, skórzany kaftan. Czujesz od
+niego ohydny zapach. Ten kto go nosi³, musia³ go naprawde d³ugo nie
+zdejmowaæ. 
 ~
 Comments ~
 Objend
@@ -440,11 +556,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 43
 Cost 0
 Cond 75
@@ -463,11 +579,11 @@ ExtraExt 0|Dd
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 1 0
 Repair 0 0 0 0
-Length 0
 Weight 2900
 Cost 0
 Cond 75
@@ -475,6 +591,52 @@ Itemdesc Z trudem dostrzegasz wygl±d tego zmar³ego cz³owieka. Na jego czarnych
 w³osach widaæ ¶lady krwi. Ma wyra¼nie zniekszta³cone czo³o, jakby dosta³ tam
 silne uderzenie, którego nie wytrzyma³. By³ bardzo wysoki, mierzy³ tyle co
 nie jeden wysoki ork. 
+~
+Comments ~
+Objend
+#Vnum 17836
+Name maczuga~
+Odmiana Debowej maczugi~Debowej maczudze~Debowa maczuge~Debowa maczuga~Debowej maczudze~
+Short debowa maczuga~
+Descr Kawalek dorodnej debowej galezi lezy tu.~
+Material drewno~
+Type weapon
+ExtraExt 0|CIK
+Wear ANO
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 0
+Value 4 2 3 0 0 0 0
+Repair 0 0 0 0
+Weight 4
+Cost 180
+Cond 100
+Comments ~
+Objend
+#Vnum 17837
+Name wielki kaptur~
+Odmiana kaptura~kapturowi~kaptur~kapturem~kapturze~
+Short wielki {ykaptur{x~
+Descr Du¿y {ybr±zowy{x kaptur le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0|E
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 7 8 7 10 2 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 600
+Cond 100
+Itemdesc Le¿y tu kaptur u¿ywany na ogó³ przez katów. Jest on niezwykle przydatny
+do ukrycia swojej osobowo¶ci, gdy¿ zas³ania ca³a twarz i ma tylko dwa ma³e
+otwory na oczy. 
 ~
 Comments ~
 Objend
@@ -3236,7 +3398,7 @@ jakie¶ odchody, kto¶ tutaj ju¿ by³. Mocno tutaj cuchnie. Masz wra¿enie ¿e
 kto¶ by³ tutaj nie dawno. 
 ~
 FlagsExt 0
-Sector 14
+Sector 8
 ExitExt 3
 ExitExtDescription ~
 ExitExtLiczba 1
@@ -3292,7 +3454,7 @@ O 100 17829 0 17836
 M 100 17821 45 17837 2
 M 100 17822 20 17838 1
 M 100 17823 5 17839 1
-O 100 3369 0 17841
+O 100 17826 0 17841
 M 100 17822 20 17842 2
 M 100 17821 45 17842 4
 O 100 17827 0 17842
@@ -3300,7 +3462,7 @@ M 100 17823 5 17844 1
 O 100 17828 0 17844
 M 100 17822 20 17845 2
 M 100 17821 45 17845 2
-O 100 3369 0 17846
+O 100 17821 0 17846
 O 100 17829 0 17847
 M 100 17823 5 17849 1
 O 100 17829 0 17851
@@ -3309,45 +3471,44 @@ M 100 17821 45 17854 2
 O 100 17824 0 17854
 M 100 17822 20 17855 2
 O 100 17829 0 17855
-O 100 3369 0 17856
+O 100 17821 0 17856
 M 100 17821 45 17856 2
 O 100 17829 0 17857
 M 100 17822 20 17858 2
 M 100 17821 45 17858 3
 M 100 17823 5 17859 1
 M 100 17822 20 17859 2
-O 100 3369 0 17859
+O 100 17821 0 17859
 O 100 17829 0 17860
 O 100 17829 0 17860
 M 100 17821 45 17862 3
-O 100 3369 0 17864
+O 100 17821 0 17864
 O 100 17823 0 17864
-O 100 3369 0 17864
+O 100 17822 0 17864
 M 100 17824 1 17864 1
 G 100 17833 0
-E 100 3356 0 16
 M 100 17826 1 17865 1
-O 100 3369 0 17865
+O 100 17826 0 17865
 O 100 17825 0 17865
 O 100 17824 0 17865
-O 100 3369 0 17865
-O 100 3369 0 17865
+O 100 17821 0 17865
+O 100 17822 0 17865
 O 100 17823 0 17865
 M 100 17825 1 17866 1
-E 100 3128 0 16
+E 100 3048 0 16
 O 100 17827 0 17866
 O 100 17827 0 17866
-O 100 3369 0 17866
-O 100 3369 0 17866
-O 100 3369 0 17866
-O 100 3369 0 17866
+O 100 17821 0 17866
+O 100 17821 0 17866
+O 100 17826 0 17866
+O 100 17826 0 17866
 O 100 17824 0 17866
 O 100 17825 0 17866
 O 100 17827 0 17866
 O 100 17825 0 17867
 M 100 17821 45 17868 3
 M 100 17822 20 17869 2
-O 100 3369 0 17869
+O 100 17826 0 17869
 O 100 17829 0 17869
 M 100 17821 45 17870 3
 M 100 17822 20 17872 2
@@ -3355,7 +3516,7 @@ M 100 17821 45 17872 1
 O 100 17829 0 17872
 M 100 17821 45 17874 1
 O 100 17825 0 17874
-O 100 3369 0 17876
+O 100 17821 0 17876
 M 100 17821 45 17877 2
 O 100 17828 0 17878
 M 100 17822 20 17879 2
@@ -3364,23 +3525,23 @@ M 100 17821 45 17881 3
 O 100 17828 0 17881
 M 100 17823 5 17882 1
 M 100 17822 20 17882 2
-O 100 3369 0 17882
+O 100 17822 0 17882
 M 100 17821 45 17883 3
 O 100 17828 0 17884
-O 100 3369 0 17884
+O 100 17826 0 17884
 M 100 17821 45 17885 3
 O 100 17829 0 17885
-O 100 3369 0 17886
+O 100 17826 0 17886
 O 100 17823 0 17886
 M 100 17823 5 17887 1
 M 100 17822 20 17887 2
 M 100 17821 45 17887 2
 M 100 17821 45 17888 2
-O 100 3369 0 17888
+O 100 17826 0 17888
 O 100 17829 0 17888
 M 100 17822 20 17890 2
 M 100 17821 45 17890 2
-O 100 3369 0 17890
+O 100 17826 0 17890
 M 100 17823 5 17891 1
 O 100 17829 0 17891
 M 100 17822 20 17892 2
@@ -3410,21 +3571,29 @@ mob oload body 5
 mob echo Duch znika, po chwili dostrzegasz w¶ród trupów jego dawne cia³o z tego ¶wiata.
 mob oload weapon 7
 mob oload body 7
+if rand 60
+echo Spostrzegasz równie¿ jak±¶ star± ksiêge, która le¿y nieopodal.
+mob oload 20360 R
+endif
 ~
 #17824
 ~
-mob equip self 3017
-mob equip self 3356
+mob equip self 17831
+mob equip self 17830
 ~
 #17825
 ~
-mob equip self 3017
+mob equip self 17831
 ~
 #17826_onload
 ~
-mob equip self 3158
-mob equip self 3158 hold
-mob equip self 3035
+mob oload 17836
+mob oload 17836
+mob oload 17837
+wield macz
+hold macz
+wear kapt
+end
 ~
 #17826_prec
 ~
@@ -3460,30 +3629,14 @@ mob zecho S³yszysz g³o¶ny ryk dochodz±cy z korytarza obok.
 #Vnum 0
 
 #RANDDESC
-#Vnum 17825
-DescRand Idziesz bardzo d³ugim, brudnym i ciemnym korytarzu. Ca³y czas st±pasz po
-czym¶ wilgotnym, bardzo cuchn±cym. Jest to jaki¶ p³yn, ale nie masz zamiaru
-przekonywaæ siê co to dok³adnie jest. Korytarz jest bardzo szeroki i wysoki,
-nie bardzo wiadomo dok±d prowadzi. Wydaje ci siê ¿e za tob± czai siê wielki
-potwór, to miejsce ciê przera¿a. 
-~
-RandDescEnd
-#Vnum 17824
-DescRand Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
-zwracaj± jakie¶ ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
-Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemy z poruszaniem
-siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w nie m³otem,
-próbuj±c dokopaæ siê dalej. Masz dziwne wra¿enie, ¿e w korytarzu kto¶ za
-tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie z tych korytarzy. 
-~
-RandDescEnd
-#Vnum 17823
-DescRand Korytarz którym idziesz znajduje siê w op³akanym stanie. ¦ciany s±
-podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
-najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
-ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
-nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
-st±panie... 
+#Vnum 17821
+DescRand Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
+jakie¶ wielkie odbite ¶lady, najprawdopodobniej podziemia te zamieszkane s±
+przez jakie¶ potwory. Sufit jest tutaj bardzo wysoki, prawie na 5 stóp, na
+pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
+jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
+¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
+przeczucia. 
 ~
 RandDescEnd
 #Vnum 17822
@@ -3496,14 +3649,30 @@ DescRand Idziesz d³ugim, ciemnym korytarzem. St±pasz po czym¶ wylgotnym i
 jaskini... 
 ~
 RandDescEnd
-#Vnum 17821
-DescRand Znajdujesz siê w ciemnym brudnym i wilgotnym korytarzu. W ziemi widaæ
-jakie¶ wielkie odbite ¶lady, najprawdopodobniej podziemia te zamieszkane s±
-przez jakie¶ potwory. Sufit jest tutaj bardzo wysoki, prawie na 5 stóp, na
-pewno te podziemia nie zosta³y zbudowane przez krasnoludów. Na ziemi wylane
-jest co¶ cuchn±cego i ¶liskiego, prawdopodobnie jest to mocz. Bez ¿adnego
-¼ród³a ¶wiat³a ma³o kto chcia³ by zwiedzaæ te korytarze. Masz z³e
-przeczucia. 
+#Vnum 17823
+DescRand Korytarz którym idziesz znajduje siê w op³akanym stanie. ¦ciany s±
+podniszczone, na ziemi wylany jest jaki¶ klej±cy p³yn, mo¿e to byæ
+najzwyklejszy mocz, ale nie masz zamiaru tego sprawdzaæ. Jest tutaj brudno i
+ciemno. Bez ¿adnego ¼ród³a ¶wiat³a nie zobaczy³ by¶ nawet czubka swojego
+nosa. Masz wra¿enie, ¿e nie chodzisz sam tymi korytarzami, s³yszysz czyje¶
+st±panie... 
+~
+RandDescEnd
+#Vnum 17824
+DescRand Znajdujesz siê w ciemnym, brudnym i wilgotnym korytarzu. Twoj± uwage
+zwracaj± jakie¶ ryki, jak by kto¶ znajdowa³ siê kilka metrów od ciebie.
+Sufit jest tutaj do¶æ wysoko, nawet troll nie mia³ by problemy z poruszaniem
+siê tutaj. ¦ciany s± mocno podniszczone, jakby kto¶ uderza³ w nie m³otem,
+próbuj±c dokopaæ siê dalej. Masz dziwne wra¿enie, ¿e w korytarzu kto¶ za
+tob± idzie. Nie bardzo wiadomo gdzie znajduje siê wyj¶cie z tych korytarzy. 
+~
+RandDescEnd
+#Vnum 17825
+DescRand Idziesz bardzo d³ugim, brudnym i ciemnym korytarzu. Ca³y czas st±pasz po
+czym¶ wilgotnym, bardzo cuchn±cym. Jest to jaki¶ p³yn, ale nie masz zamiaru
+przekonywaæ siê co to dok³adnie jest. Korytarz jest bardzo szeroki i wysoki,
+nie bardzo wiadomo dok±d prowadzi. Wydaje ci siê ¿e za tob± czai siê wielki
+potwór, to miejsce ciê przera¿a. 
 ~
 RandDescEnd
 #Vnum 0

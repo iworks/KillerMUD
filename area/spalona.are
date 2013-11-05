@@ -1,7 +1,7 @@
 #AREADATA
 Name +# Spalona Wie¶~
 Builders None~
-VNUMs 10811 10850
+VNUMs 10810 10849
 Credits Twórca: Feerial
 ~
 Locked ~
@@ -13,6 +13,47 @@ End
 
 
 #MOBILES
+#Vnum 10810
+Name mê¿czyzna ch³op~
+Odmiana ch³opa~ch³opowi~ch³opa~ch³opem~ch³opie~
+Short ch³op~
+Long Solidnie zbudowany mê¿czyzna chodzi tu rozgl±daj±c siê dooko³a.~
+Descr Patrzysz na wysokiego, dobrze zbudowanego mê¿czyznê. S±dz±c po wygl±dzie
+ma oko³o trzydziestu lat, jednak znaj±c jego warunki ¿ycia mo¿na s±dziæ, ¿e
+w rzeczywisto¶ci jest du¿o m³odszy. Ca³a jego twarz pokryta jest g³êbokimi
+zmarszczkami, a skórê ma ciemn±, spalon± w s³oñcu.
+~
+Race cz³owiek~
+ActExt 0|AGT
+Affected 0 0 0 0
+AffectedExt 0
+Align 0
+Group 0
+Lang A
+Speaks 0
+Level 6
+Hitroll 0
+HP 6d6+120
+Damage 1d5+0
+Dammagic 0
+Weaponbonus 0
+Damflags 0
+Attack uderzenie
+XAC 10 10 10 10
+Stats 102 78 78 102 102 78 78
+Off I
+OffExt 0|I
+Pos_start stand
+Pos_def stand
+Sex male
+Wealth 15
+Form AFHMV
+Parts ABCDEFGHIJKR
+Size medium
+Material unknown
+Skin 100
+ExpMultiplier 100
+Mobend
 #Vnum 10811
 Name najemnik~
 Odmiana ogromnego najemnika~ogromnemu najemnikowi~ogromnego najemnika~ogromnym najemnikiem~ogromnym najemniku~
@@ -628,52 +669,39 @@ ExpMultiplier 100
 Resist 4 -20
 Resist 5 -20
 Mobend
-#Vnum 10850
-Name mê¿czyzna ch³op~
-Odmiana ch³opa~ch³opowi~ch³opa~ch³opem~ch³opie~
-Short ch³op~
-Long Solidnie zbudowany mê¿czyzna chodzi tu rozgl±daj±c siê dooko³a.~
-Descr Patrzysz na wysokiego, dobrze zbudowanego mê¿czyznê. S±dz±c po wygl±dzie
-ma oko³o trzydziestu lat, jednak znaj±c jego warunki ¿ycia mo¿na s±dziæ, ¿e
-w rzeczywisto¶ci jest du¿o m³odszy. Ca³a jego twarz pokryta jest g³êbokimi
-zmarszczkami, a skórê ma ciemn±, spalon± w s³oñcu.
-~
-Race cz³owiek~
-ActExt 0|AGT
-Affected 0 0 0 0
-AffectedExt 0
-Align 0
-Group 0
-Lang A
-Speaks 0
-Level 6
-Hitroll 0
-HP 6d6+120
-Damage 1d5+0
-Dammagic 0
-Weaponbonus 0
-Damflags 0
-Attack uderzenie
-XAC 10 10 10 10
-Stats 102 78 78 102 102 78 78
-Off I
-OffExt 0|I
-Pos_start stand
-Pos_def stand
-Sex male
-Wealth 15
-Form AFHMV
-Parts ABCDEFGHIJKR
-Size medium
-Material unknown
-Skin 100
-ExpMultiplier 100
-Mobend
 #Vnum 0
 
 
 
 #OBJECTS
+#Vnum 10810
+Name kamienna studnia niewielka~
+Odmiana studni~studni~studnie~studnia~studni~
+Short studnia~
+Descr Niewielka, kamienna studnia stoi tutaj.~
+Material kamieñ~
+Type trash
+ExtraExt 0|Y
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 0
+Cost 0
+Cond 100
+Itemdesc Stara, kamienna studnia, stoi tutaj na ¶rodku niewielkiego placu. Kiedy¶
+zapewne by³a wykorzystywana przez spo³eczno¶æ tutejszej wioski. Niestety, od
+czasu wielkiego po¿aru, który strawi³ osadê, nie pozosta³ nikt, kto móg³by z
+niej wybieraæ wodê. ¬ród³o, które nie by³o nale¿ycie pielêgnowane, wysch³o.
+Teraz, pusta ju¿, studnia przypomina tylko o tym, ¿e niegdy¶ istnia³a tu
+têtni±ca ¿yciem wioska. 
+~
+Comments ~
+Objend
 #Vnum 10811
 Name drewniana podkowa~
 Odmiana drewnianej podkowy~drewnianej podkowie~drewniana podkowe~drewniana podkowa~null~
@@ -685,11 +713,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 4
 Cost 0
 Cond 100
@@ -710,11 +738,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 0
 Cond 100
@@ -733,11 +761,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 8
 Cost 0
 Cond 100
@@ -760,11 +788,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 16
 Cost 0
 Cond 100
@@ -785,11 +813,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 160
 Cost 0
 Cond 100
@@ -811,11 +839,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 160
 Cost 0
 Cond 100
@@ -839,11 +867,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 160
 Cost 0
 Cond 100
@@ -867,11 +895,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 160
 Cost 0
 Cond 100
@@ -895,16 +923,271 @@ ExtraExt 0|GK
 Wear AO
 Wear2Ext 0|Q
 Bonus 110
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 7 1 4 -20 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 60
 Cond 50
 Comments Zmienilem v3 na -11 z 11, teraz poprawia mema a nie pogarsza - {RTener{x ({CMon May  5 19:11:20 2008{x)
 ~
+Objend
+#Vnum 10820
+Name tunika br±zowa prosta~
+Odmiana {ybr±zowej tuniki{x~{ybr±zowej tunice{x~{ybr±zow± tunikê{x~{ybr±zow± tunik±{x~{ybr±zowej tunice{x~
+Short {ybr±zowa tunika{x~
+Descr Prosta, {ybr±zowa{x tunika le¿y tutaj.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|Q
+Bonus 0
+Rent 5
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 10
+Cond 63
+Itemdesc Ta br±zowa, lniana tunika siêga przeciêtnemu cz³owiekowi a¿ do kostek.
+Jest wyj±tkowo skromna jedynie rêkawy przyozdobiono haftem z runami
+oplecionymi pêdami ro¶lin. 
+~
+Comments ~
+Objend
+#Vnum 10822
+Name skórzana czapka~
+Odmiana skórzanej czapki~skórzanej czapce~skórzana czapke~skórzan± czapk±~skórzanej czapce~
+Short skórzana czapka~
+Descr £adnie skrojona, skórzana czapka le¿y tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 1
+Rent 5
+LiczbaMnoga 0
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 1200
+Cond 100
+Comments ~
+Objend
+#Vnum 10827
+Name skórzane rêkawy~
+Odmiana skórzanych rêkawów~skórzanym rêkawom~skórzane rêkawy~skórzanymi rêkawami~skórzanych rêkawach~
+Short skórzane rêkawy~
+Descr Skórzane rêkawy le¿a tutaj.~
+Material skóra~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 10830
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 6 8 6 10 6 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 780
+Cond 100
+Comments ~
+Objend
+#Vnum 10829
+Name stalowy ³om~
+Odmiana stalowego ³omu~stalowemu ³omowi~stalowy ³om~stalowym ³omem~stalowym ³omie~
+Short stalowy ³om~
+Descr Widzisz d³ugi, stalowy ³om, widaæ niejednokrotnie u¿ywany.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|P
+Bonus 0
+Rent 10
+LiczbaMnoga 0
+Gender 0
+Value 4 1 13 7 0 -2 1
+Repair 0 0 0 0
+Weight 60
+Cost 1200
+Cond 100
+Aff 1 26 128 10 0 0
+Objprog hit 10829 10~
+Comments ~
+Objend
+#Vnum 10831
+Name stalowy morgensztern~
+Odmiana stalowego morgenszternu~stalowemu morgeszternowi~stalowy morgensztern~stalowym morgenszternem~stalowym morgenszternie~
+Short stalowy morgensztern~
+Descr Du¿y stalowy morgensztern le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0|I
+Bonus 0
+Rent 13
+LiczbaMnoga 0
+Gender 0
+Value 4 2 5 8 1024 -1 2
+Repair 0 0 0 0
+Weight 200
+Cost 5640
+Cond 100
+Comments ~
+Objend
+#Vnum 10833
+Name zdobiony dwurêczny topór~
+Odmiana dwurêcznego topora~dwurêcznemu toporowi~dwurêczny topór~dwurêcznym toporem~dwurêcznym toporze~
+Short zdobiony dwurêczny topór~
+Descr Le¿y tutaj na ziemi du¿y dwurêczny topór.~
+Material doskona³a stal~
+Type weapon
+ExtraExt 0|G
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 0
+Value 5 2 6 1 32 1 2
+Repair 0 0 0 0
+Weight 100
+Cost 7500
+Cond 100
+Itemdesc Widzisz przed sob± du¿y, zdobiony dwurêczny topór. Zdobienia po obu
+bokach ostrza uk³adaj± siê w motywy ro¶linne. Widaæ, ¿e topór ten wisia³
+kiedy¶ na ¶cianie i prezentowa³ siê wy¶mienicie. Teraz jednak ostrze,
+têpione i ostrzone naprzemiennie wygl±da gro¼nie a plamy krwi na trzonku
+pokazuj±, ¿e czêsto by³ u¿ywany w ca³kiem nie pokojowych celach. 
+~
+Identdesc Topór ten dziêki zaklêciu które na niego na³o¿ono posiada stopieñ
+umagicznienia +1. 
+~
+Comments ~
+Objend
+#Vnum 10836
+Name topór solidny stalowy~
+Odmiana stalowego topora~stalowemu toporowi~stalowy topór~stalowym toporem~stalowym toporze~
+Short stalowy topór~
+Descr Solidny, stalowy topór le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 9 3 4 1 32 0 0
+Repair 0 0 0 0
+Weight 35
+Cost 900
+Cond 80
+Comments ~
+Objend
+#Vnum 10837
+Name pe³na kolczuga~
+Odmiana pe³nej kolczugi~pe³nej kolczudze~pe³n± kolczuge~pe³n± kolczug±~pe³nej kolczudze~
+Short pe³na kolczuga~
+Descr Kolczuga ze skórzanymi paskami le¿y gotowa do u¿ycia.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 64
+LiczbaMnoga 0
+Gender 0
+Value 6 8 5 10 8 0 0
+Repair 0 0 0 0
+Weight 220
+Cost 23400
+Cond 80
+Comments ~
+Objend
+#Vnum 10845
+Name pier¶cieñ o³owiany szare kó³eczko~
+Odmiana {co³owianego pier¶cienia{x~{co³owianemu pier¶cieniowi{x~{co³owiany pier¶cieñ{x~{co³owianym pier¶cieniem{x~{co³owianym pier¶cieniu{x~
+Short {co³owiany pier¶cieñ{x~
+Descr {cSzare kó³eczko z o³owiu turla siê po ziemi.{x~
+Material o³ów~
+Type jewelry
+ExtraExt 0|CG
+Wear AB
+Wear2Ext 0|FO
+Bonus 0
+Rent 35
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 2
+Cost 18000
+Cond 100
+Aff 1 1 -1 0 0 0
+Aff 1 27 2 1 0 0
+Itemdesc {cTrzymasz w d³oni niewielki, wykonany z o³owiu pier¶cieñ. Emanuje on dosyæ siln± moc± magiczn±. Widzisz wygrawerowany na nim symbol najemników ksiêcia Walkara. Zapewne nale¿a³ on kiedy¶ do jednego z tamtejszych magów.{S
+~
+Comments ~
+Objend
+#Vnum 10846
+Name rolniczy cep~
+Odmiana rolniczego cepa~rolniczemu cepowi~rolniczy cep~rolniczym cepem~rolniczym cepie~
+Short rolniczy cep~
+Descr Wykonany z drewna rolniczy cep le¿y tutaj.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear ANOZ
+Wear2Ext 0
+Bonus 0
+Rent 4
+LiczbaMnoga 0
+Gender 0
+Value 6 2 6 7 0 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 900
+Cond 80
+Itemdesc Jest to wykonany i u¿ywany zazwyczaj przez rolników cep, chocia¿ jak
+znamy z historii powstañ ch³opskich nadaje siê tak¿e na broñ. 
+~
+Comments ~
+Objend
+#Vnum 10847
+Name drelichowe spodnie~
+Odmiana drelichowych spodni~drelichowym spodniom~drelichowe spodnie~drelichowymi spodniami~drelichowych spodniach~
+Short drelichowe spodnie~
+Descr D³ugie, drelichowe spodnie, noszone zwykle przez rolników, le¿± tutaj.~
+Material mocna skóra~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+Rent 3
+LiczbaMnoga 0
+Gender 0
+Value 7 7 7 10 3 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 1200
+Cond 75
+Itemdesc S± to u¿ywane zwykle przez rolników spodnie, wykonane z mocnej skóry. 
+~
+Comments ~
 Objend
 #Vnum 10848
 Name laska ko¶ciana krótka~
@@ -917,11 +1200,11 @@ ExtraExt 0|G
 Wear ANO
 Wear2Ext 0|BK
 Bonus 0
+Rent 30
 LiczbaMnoga 0
 Gender 3
 Value 9 3 4 13 32 2 1
 Repair 0 0 0 0
-Length 120
 Weight 80
 Cost 24000
 Cond 75
@@ -934,6 +1217,41 @@ Objend
 
 
 #ROOMS
+#Vnum 10810
+Name Wyschniêta Studnia~
+Descr Stoisz na niewielkim placyku ze studnia na ¶rodku. Niestety studnia jest
+pusta. Teren woko³o porastaj± krzewy i niewielkie drzewa. Droga wiedzie z
+po³udnia na pó³noc stopniowo lawiruj±c miêdzy wzniesieniami, aby w koñcu
+znikn±æ na pó³nocnym wschodzie miedzy zabudowaniami. Gdzie¶ na po³udniu
+widaæ szeroka drogê. 
+~
+FlagsExt 0
+Sector 18
+ExitExt 0
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 10811
+ExitExtEnd
+Exit 0
+~
+~
+0 0 10811
+ExitExt 2
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 7545
+ExitExtEnd
+Exit 2
+~
+~
+0 0 7545
+Resources 0 0 0 0 0 0 0 0 
+Capacity 0
+Roomend
 #Vnum 10811
 Name Droga do wioski Powro¼niki~
 Descr Idziesz sucha, piaszczysta droga miedzy niewielkimi wzniesieniami. Na ich
@@ -961,12 +1279,12 @@ ExitExtDescription ~
 ExitExtLiczba 1
 ExitExtInfo 0
 ExitExtKey 0
-ExitExtToVnum 10850
+ExitExtToVnum 10810
 ExitExtEnd
 Exit 2
 ~
 ~
-0 0 10850
+0 0 10810
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -2376,41 +2694,6 @@ Exit 1
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
-#Vnum 10850
-Name Wyschniêta Studnia~
-Descr Stoisz na niewielkim placyku ze studnia na ¶rodku. Niestety studnia jest
-pusta. Teren woko³o porastaj± krzewy i niewielkie drzewa. Droga wiedzie z
-po³udnia na pó³noc stopniowo lawiruj±c miêdzy wzniesieniami, aby w koñcu
-znikn±æ na pó³nocnym wschodzie miedzy zabudowaniami. Gdzie¶ na po³udniu
-widaæ szeroka drogê. 
-~
-FlagsExt 0
-Sector 18
-ExitExt 0
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 10811
-ExitExtEnd
-Exit 0
-~
-~
-0 0 10811
-ExitExt 2
-ExitExtDescription ~
-ExitExtLiczba 1
-ExitExtInfo 0
-ExitExtKey 0
-ExitExtToVnum 7545
-ExitExtEnd
-Exit 2
-~
-~
-0 0 7545
-Resources 0 0 0 0 0 0 0 0 
-Capacity 0
-Roomend
 #Vnum 0
 
 
@@ -2432,42 +2715,43 @@ S
 
 
 #RESETS
+O 100 10810 0 10810
 M 100 10811 3 10811 10
 E 100 3127 0 16
-E 100 3041 0 6
-E 100 3073 0 9
-E 100 3009 0 8
-E 100 3057 0 7
-E 100 3089 0 10
-E 100 3025 0 5
+E 100 6040 0 6
+E 100 3142 0 9
+E 100 3139 0 8
+E 100 3144 0 7
+E 100 3141 0 10
+E 100 6045 0 5
 M 100 10845 1 10816 1
-E 100 3001 0 8
-E 100 3050 0 7
-E 100 3178 0 16
-E 100 3025 0 5
-M 100 10850 1 10816 5
-E 100 3297 0 16
-E 100 4413 0 7
-E 100 4400 0 6
+E 100 3380 0 8
+E 100 3382 0 7
+E 100 10836 0 16
+E 100 10837 0 5
+M 100 10810 1 10816 5
+E 100 10846 0 16
+E 100 10847 0 7
+E 100 10863 0 6
 M 100 10814 1 10825 1
 M 100 10842 1 10832 1
 M 100 10816 1 10837 1
-E 100 3127 0 16
-E 100 3009 0 8
-E 100 3057 0 7
-E 100 3025 0 5
-E 100 3073 0 9
-E 100 3089 0 10
-E 100 3041 0 6
+E 100 10833 0 16
+E 100 3139 0 8
+E 100 3144 0 7
+E 100 6045 0 5
+E 100 3142 0 9
+E 100 3141 0 10
+E 100 6040 0 6
 M 100 10817 1 10839 1
-E 100 4377 0 5
-E 100 4416 0 8
+G 60 11832 0
+E 100 11833 0 5
+E 100 11834 0 8
 M 100 884 1 10847 1
 G 55 885 0
-E 100 3001 0 8
-E 100 4411 0 7
-E 100 4363 0 5
-O 100 3375 0 10850
+E 100 3380 0 8
+E 100 3562 0 5
+E 100 12202 0 7
 S
 
 
@@ -2475,53 +2759,54 @@ S
 #MOBPROGSNEW
 #10840
 ~
-mob equip self 3034
+mob equip self 10822
+mob equip self 3008
 mob equip self 3017
-mob equip self 3098
-mob equip self 3050
-mob equip self 3001
-mob equip self 3082
-mob equip self 3066
-mob equip self 3171
-mob equip self 3171 hold
+mob equip self 3382
+mob equip self 3380
+mob equip self 10827
+mob equip self 3378
+mob equip self 3095
+mob equip self 3095 hold
 hold szty
 ~
 #10841
 ~
-mob equip self 3034
-mob equip self 3066
-mob equip self 3001
-mob equip self 3082
-mob equip self 3050
-mob equip self 3017
-mob equip self 3098
-mob equip self 3157 hold
-mob equip self 3157
+mob equip self 6025
+mob equip self 3378
+mob equip self 3380
+mob equip self 6028
+mob equip self 3382
+mob equip self 3008
+mob equip self 6038
+mob equip self 3071 hold
+mob equip self 3071
 hold sztylet
 ~
 #10842
 ~
-mob equip self 3041
-mob equip self 3073
-mob equip self 3009
-mob equip self 3057
-mob equip self 3089
-mob equip self 3025
+mob equip self 6040
+mob equip self 3142
+mob equip self 3139
+mob equip self 3144
+mob equip self 3141
+mob equip self 6045
 if rand 50
   mob equip self 3312
-  mob equip self 3145 hold
+  mob equip self 3023 hold
 else
-  mob equip self 3145
-  mob equip self 3145 hold
+  mob equip self 3023
+  mob equip self 3023 hold
   hold mlot
 endif
+mob oload 10829
 ~
 #10843
 ~
-mob equip self 4361
+mob equip self 3009
 mob equip self 10848
 if rand 20
-mob equip self 9120
+mob equip self 10845
 endif
  
 # Prog l±duj±cy zwoje, dla wiêkszo¶ci mobow-magów.
@@ -2541,12 +2826,12 @@ endif
 ~
 #10844
 ~
-mob equip self 4361
+mob equip self 3009
 mob equip self 10848
 if rand 20
-mob equip self 9120
+mob equip self 10845
 endif
-mob addgroup 10840
+mob addgroup 3095
 mob addgroup 10841
 mob addgroup 10841
 mob addgroup 10843
@@ -2572,6 +2857,9 @@ endif
 gap
 #mob transfer 10844
 ~
+#10846
+~
+~
 #10847
 ~
 if !affected $i paralyze
@@ -2582,8 +2870,8 @@ endif
 #equip_p_d
 ~
 mob equip self 10819
-mob equip self 4380
-mob equip self 4416
+mob equip self 10820
+mob equip self 3013
  
 mob addgroup 10849
 if rand 35
@@ -2596,6 +2884,12 @@ endif
 #0
 
 #OBJPROGSNEW
+#10829
+~
+mob echoat $n Broñ klinuje siê i nie mo¿esz nic zrobiæ !!!
+mob echoaround $n Broñ klinuje siê i $n nie mo¿e nic zrobiæ !!!
+mob reward $n wait 15
+~
 #10830
 ~
 mob echoat $n Zaczynasz dostrzegaæ, ¿e wszystkie elementy twego ubioru tworz± ca³o¶æ.
@@ -2627,11 +2921,11 @@ mob echoat $n Masz nadziejê, ¿e pech nie przeniós³ siê na ciebie ...
 #BONUS_SET
 #Vnum 10830
 Name Komplet mistrza z³odziei~
-Aff 1 30 1 0 0 0
-Aff 1 17 -5 0 0 0
-Aff 1 26 124 5 0 0
-Aff 1 26 129 5 0 0
 Aff 1 26 117 5 0 0
+Aff 1 26 129 5 0 0
+Aff 1 26 124 5 0 0
+Aff 1 17 -5 0 0 0
+Aff 1 30 1 0 0 0
 WearProg mob echoat $n Czujesz, ¿e teraz wygl±dasz jak z³odziej z prawdziwego zdarzenia!
 mob echoaround $n $n zaczyna wygl±daæ, jak z³odziej z prawdziwego zdarzenia!
 ~

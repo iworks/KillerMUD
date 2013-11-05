@@ -52,6 +52,7 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size giant
 Material unknown
+MobprogNew exit straznik FGI 0~
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -112,15 +113,81 @@ ExtraExt 0|HMY
 Wear AT
 Wear2Ext 0
 Bonus 0
+Rent 20
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1500
 Cond 75
 Aff 1 12 4 10 0 0
+Objprog prewear kolczyk_armi 100~
+Comments ~
+Objend
+#Vnum 39829
+Name {DZameczona Dusza{x~
+Odmiana {Dzameczonej duszy{x~{Dzameczonej duszy{x~{Dzameczona dusze{x~{Dzameczona dusza{x~{Dzameczonej duszy{x~
+Short {Dzamêczona dusza{x~
+Descr {DZamêczona dusza{x migocze na ziemi.~
+Material eteryczny~
+Type light
+ExtraExt 0
+Wear AQ
+Wear2Ext 0
+Bonus 0
+Rent 1
+LiczbaMnoga 0
+Gender 3
+Value 0 0 22 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 5
+Cond 75
+Objprog prewear dusza_armi 100~
+Comments ~
+Objend
+#Vnum 39832
+Name drewniany okr±g³y stó³~
+Odmiana okr±g³ego sto³u~okr±g³emu sto³owi~okr±g³y stó³~okr±g³ym sto³em~okr±g³ym stole~
+Short okr±g³y stó³~
+Descr Okr±g³y drewniany stó³ stoi na ¶rodku sali.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 800 30 72 100 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc ~
+Comments ~
+Objend
+#Vnum 39838
+Name skrzynia zdobiona runami~
+Odmiana {Wskrzyni zdobionej {rrunami{x~{Wskrzyni zdobionej {rrunami{x~{Wskrzyniê zdobion± {rrunami{x~{Wskrzynia zdobiona {rrunami{x~{Wskrzyni zdobionej {rrunami{x~
+Short {Wskrzynia zdobiona {rrunami{x~
+Descr Skrzynia zdobiona {rrunami{x le¿y w pyle.~
+Material mithril~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+Rent 30
+LiczbaMnoga 0
+Gender 3
+Value 40 1 0 20 100 0 -1
+Repair 0 0 0 0
+Weight 1
+Cost 6000
+Cond 75
 Comments ~
 Objend
 #Vnum 0
@@ -651,17 +718,48 @@ S
 M 100 39828 1 39828 1
 M 100 39829 29832 39832 1
 G 100 39828 0
-G 100 3380 0
-G 100 3370 0
-O 100 2362 0 39837
+G 100 39829 0
+G 100 39838 0
+O 100 39832 0 39837
 S
 
 
 
 #MOBPROGSNEW
+#straznik
+~
+if clan $n ARMIA
+  mob transfer $n 39829
+else
+  tell $n Tylko czlonkowie Armi Sojuszu moga tam wejsc! Wynocha!
+endif
+~
 #0
 
 #OBJPROGSNEW
+#dusza_armi
+~
+if clan $n ARMIA
+  mob echoat $n Wypuszczasz nad g³owê {Dzamêczon± duszê{x.
+  mob echoaround $n $n wypuszcza nad g³owê {Dzamêczon± duszê{x.
+  obj wear
+else
+  mob echoat $n Chyba ci siê nie uda u¿yæ {Dzamêczonej duszy{x.
+  mob echoaround $n Widzisz, jak $n probuje u¿yæ {Dzamêczonej duszy{x.
+endif
+~
+#kolczyk_armi
+~
+if !wears $n 39828
+  if clan $n ARMIA
+    mob echoat $n Przypinasz kolczyk "{RPro{Ymyk Nad{Rziei{x" do ucha.
+    mob echoaround $n $n przypina kolczyk "{RPro{Ymyk Nad{Rziei{x" do ucha.
+    obj wear
+  else
+    mob echoat $n Probujesz przypi±æ kolczyk "{RPro{Ymyk Nad{Rziei{x" do ucha.
+    mob echoaround $n Widzisz, jak $n probuje przypi±æ kolczyk "{RPro{Ymyk Nad{Rziei{x" do ucha.
+  endif
+~
 #0
 
 #ROOMPROGSNEW

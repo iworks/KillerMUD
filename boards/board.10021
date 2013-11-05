@@ -145,6 +145,24 @@ Jeszcze jedna sprawa, z komentarzami
 pre bless 2 $n rzuca jakies zaklecie.
 oczywiscie opisy nie powinny byc tak glupie :)
 ~
+M957344398
+Tullaris~
+{B[to: Razor                       ]{x {WWed May  3 10:59:58 2000
+{x~
+prewait chyba troche zle dziala
+bo gosc najpierw rzuca czar, a potem wykonyje rozne czynnosci
+przynajmniej tak u mnie dziala setup_prewait
+bo w chainsach to widze
+~
+M957958064
+Maro~
+{B[to: maro                        ]{x {WWed May 10 13:27:44 2000
+{x~
+wyslac do: tomek@savka.prv.pl
+wikus@alpha.net.pl
+i do vovina
+ 
+~
 M958731803
 Maro~
 {B[to: Boyo                        ]{x {WFri May 19 12:23:23 2000
@@ -178,6 +196,30 @@ aa , no i prywatne noty pisze sie tylko note to: Maro
 o tak
  
             Maro
+~
+M959251403
+Razor~
+{B[bajer                           ]{x {WThu May 25 12:43:23 2000
+{x~
+Dodalem bajer przy logowaniu.
+Tzw menu niczym to na arcticu.
+Zmiany: po pierwsze nie ma komendy password, to mozna zrobic tylko z poziomu menu
+po drugie: quit przenosi postac do menu, 'wyciagajac' postac z gry
+po trzecie: kosmetyka, zmiana hasla i usuwanie postaci
+KNOWN BUGS:
+jesli Tullowi sie to zakodowac to mowie co i jak:
+                         -zmiana hasla jest watpliwa, jesli ktos sie zreconnectuje w momencie potwierdzania nowego hasla, zapisze mu sie haslo to ktore wpisal najpierw, KASZANA, trzeba dodac do struktury pc_data, pole tmppwd albo cos takiego
+i zmieniac komusa haslo dopiero jesl ipotwierdzi ww przeciwnym razie zwalniac pamiec w CON_MENU
+wiem ze moglem sam to zrobic, ale nie uwzglednilem tego w momencie pisania
+doszedlem dopiero w fazie testow
+Po drugie, to juz nie bug, ale trzeba zrobic
+Trzeba dodac pole do pc_data short_inta z vnumem ostatniego rentowania/quitowania
+Na pewno przy  quitowwaniu gdzies w terenie powinno byc  zapisane
+miejsce ostatniego  rentowania, prosta sprawa, jedynie jest problem
+na 1 levelu gdy ktos nie ma wpisanego tego
+W innym przypadku jest spoko, wystarczy sprawdzac czy dany room istnieje
+i czy jest to ROOM_INN i dalej wiadomo
+ 
 ~
 M959333006
 Maro~
@@ -2912,7 +2954,7 @@ Jezeli ktos ma pomysl dla mojego nowego miasteczka---> Slijcie do mnie
 M979033532
 Maro~
 {B[Uporzadkowane krainy            ]{x {WTue Jan  9 10:45:32 2001
-{x~
+{x~
 Dzieki Furgasowi, ja tylko przekleilem i sieknalem lekka kosmetyke na poczatku i na koncu :)
  
              Maro

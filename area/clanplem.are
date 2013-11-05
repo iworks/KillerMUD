@@ -99,6 +99,51 @@ Mobend
 
 
 #OBJECTS
+#Vnum 24281
+Name kluski ze spirytusem~
+Odmiana klusek ze spirytusem~kluskom ze spirytusem~kluski ze spirytusem~kluskami ze spirytusem~kluskach ze spirytusem~
+Short kluski ze spirytusem~
+Descr Le¿y tutaj miska pe³na pa³chn±cych klusek.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 2 48 2 0 0 0 0
+Repair 0 0 0 0
+Weight 14
+Cost 3
+Cond 100
+Objprog consume kluski_24281 100~
+Comments ~
+Objend
+#Vnum 24282
+Name wielki runiczny rog~
+Odmiana wielkiego {Wrunicznego{x rogu~wielkiemu {Wrunicznemu{x rogowi~wielki {Wruniczny{x róg~wielkim {Wrunicznym{x rogiem~wielkim {Wrunicznym{x rogu~
+Short wielki {Wruniczny{x róg~
+Descr Wielki róg poniewiera sie po ziemi.~
+Material ko¶æ~
+Type drink
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 200 200 20 0 0 0 0
+Repair 0 0 0 0
+Weight 250
+Cost 1000
+Cond 75
+Aff 1 12 4 10 0 0
+Objprog prewear ex_wear_rog 100~
+Objprog input 24282_rog zagraj~
+Objprog input 24282_rog graj~
+Comments ~
+Objend
 #Vnum 24283
 Name oble¶ny klucz~
 Odmiana oble¶nego klucza~oble¶nemu kluczowi~oble¶ny klucz~oble¶nym kluczem~oble¶nym kluczu~
@@ -114,7 +159,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 100
@@ -125,6 +169,149 @@ strawy, rzygowin i innych bli¿ej nie znanych nieczysto¶ci. Lepiej umyæ rêce
 zaraz po od³o¿eniu tego klucza na jego miejsce, o ile takowe wogóle
 istnieje... 
 ~
+Comments ~
+Objend
+#Vnum 24284
+Name zakurzony kolczy he³m~
+Odmiana {Wzakurzonego{x kolczego he³mu~{Wzakurzonemu{x kolczemu he³mowi~{Wzakurzony{x kolczy he³m~{Wzakurzonym{x kolczym he³mem~{Wzakurzonym{x kolczym he³mie~
+Short {Wzakurzony{x kolczy he³m~
+Descr Zakurzony kolczy he³m le¿y na ziemi~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 500
+Cond 75
+Comments ~
+Objend
+#Vnum 24285
+Name zakurzone kolcze naramienniki~
+Odmiana {Wzakurzonych{x kolczych naramienników~{Wzakurzonym{x kolczym naramiennikom~{Wzakurzone{x kolcze naramienniki~{Wzakurzonymi{x kolczymi naramiennikami~{Wzakurzonych{x kolczych naramiennikach~
+Short {Wzakurzone{x kolcze naramienniki~
+Descr Zakurzone naramienniki le¿± na ziemi.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 25
+Cost 500
+Cond 75
+Identdesc ~
+Comments ~
+Objend
+#Vnum 24286
+Name zakurzona kolcza kolczug~
+Odmiana {Wzakurzonej{x kolczej kolczugi~{wzakurzonej{x kolczej kolczudze~{Wzakurzon±{x kolcz± kolczuge~{Wzakurzon±{x kolcz± kolczug±~{Wzakurzonej{x kolczej kolczudze~
+Short {Wzakurzona{x kolcza kolczuga~
+Descr Zakurzona kolczuga le¿y na ziemi.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 50
+Cost 500
+Cond 75
+Comments ~
+Objend
+#Vnum 24288
+Name zakurzone kolcze spodenki~
+Odmiana {Wzakurzonych{x kolczych spodenek~{Wzakurzonymi{x kolczymi spodenkami~{Wzakurzone{x kolcze spodenki~{Wzakuczonymi{x kolczymi spodenkami~{Wzakurzonych{x kolczych spodenkach~
+Short {Wzakurzone{x kolcze spodenki~
+Descr Zakurzone kolcze spodenki le¿± na ziemi.~
+Material ¿elazo~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 7 4 10 8 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 500
+Cond 75
+Comments ~
+Objend
+#Vnum 24290
+Name dwurêczny topór~
+Odmiana dwurêcznego topora~dwurêcznemu toporowi~dwurêczny topór~null~dwurêcznym toporze~
+Short dwurêczny topór~
+Descr Dwureczny topór le¿y na ziemi~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|MUYa
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 5 4 5 1 48 2 2
+Repair 0 0 0 0
+Weight 150
+Cost 600
+Cond 75
+Objprog prewear ex_wear 100~
+Comments ~
+Objend
+#Vnum 24291
+Name butelka pe³na metnego plynu~
+Odmiana butelki pelnej metnego plynu~butelce pelnej metnego plynu~butelke pelna metnego plynu~butelka pelna metnego plynu~butelce pelnej metnego plynu~
+Short butelka pe³na mêtnego p³ynu~
+Descr Jakas dziwna butelka, pelna metnego plynu lezy tutaj.~
+Material szk³o~
+Type light
+ExtraExt 0|A
+Wear AQ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 15 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 350
+Cond 75
+Objprog prewear ex_wear 100~
+Comments ~
+Objend
+#Vnum 24292
+Name solidny górniczy worek~
+Odmiana {csolidnego {Wgórniczego{x worka~{csolidnym {Wgórniczym{x workiem~{csolidny {Wgórniczy{x worek~{csolidnym {Wgórniczym{x workiem~{csolidnym {Wgórniczym{x worku~
+Short {csolidny {Wgórniczy{x worek~
+Descr Zakurzony górniczy worek le¿y na ziemi~
+Material mocna skóra~
+Type container
+ExtraExt 0
+Wear AI
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 40 1 0 40 100 0 -1
+Repair 0 0 0 0
+Weight 4
+Cost 500
+Cond 75
 Comments ~
 Objend
 #Vnum 0
@@ -157,6 +344,17 @@ Exit 1
 VName Brama~
 ~
 3 0 24282
+ExitExt 3
+ExitExtDescription ~
+ExitExtLiczba 1
+ExitExtInfo 0
+ExitExtKey 0
+ExitExtToVnum 24417
+ExitExtEnd
+Exit 3
+~
+~
+0 0 24417
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -189,6 +387,7 @@ VName Brama~
 ~
 3 0 24281
 DayRDesc 24281
+Roomprog input cziterski sprawdz~
 Resources 0 35 50 0 0 0 0 0 
 Capacity 14
 Roomend
@@ -1787,15 +1986,16 @@ S
 #RESETS
 M 100 24281 1 24281 1
 M 100 24327 1 24327 1
-G 100 3147 0
-G 100 3009 0
-G 100 3380 0
-G 100 3057 0
-G 100 3073 0
-G 100 3025 0
-G 100 3089 0
-G 100 3041 0
-G 100 2495 0
+G 100 24281 0
+G 100 24292 0
+G 100 3139 0
+G 100 24291 0
+G 100 24288 0
+G 100 3142 0
+G 100 24286 0
+G 100 24285 0
+G 100 24284 0
+G 100 24282 0
 S
 
 
@@ -1812,20 +2012,65 @@ endif
 ~
 #24281_wear
 ~
-mob equip self 3041
-mob equip self 3089
-mob equip self 3025
-mob equip self 3073
-mob equip self 3057
-mob equip self 3009
-mob equip self 3127
+mob equip self 24284
+mob equip self 24285
+mob equip self 24286
+mob equip self 3142
+mob equip self 24288
+mob equip self 3139
+mob equip self 24290
 ~
 #0
 
 #OBJPROGSNEW
+#24282_rog
+~
+if wears $n 24282
+  mob echoat $n przytykasz do ust róg i dmiesz w niego potê¿nie. Czujesz jak czysty d¼wiêk rogu dodaje ci si³ i odwagi.
+  mob echoaround $n $n przytyka do ust róg i dmie w niego potê¿nie. Czujesz siê raczej niepewnie.
+endif
+minidelay 2
+mob zecho Dociera do ciebie potê¿ny g³os rogu.
+~
+#24284
+~
+~
+#czit
+~
+~
+#ex_wear
+~
+if clan $n Plemiê
+  obj wear
+else
+  mob echoat $n To na ciebie nie pasuje.
+endif
+~
+#ex_wear_rog
+~
+if clan $n Plemiê
+  if wears $n 24282
+    mob echoat To na ciebie nie pasuje.
+  else
+    obj wear
+    mob echoat $n Z dum± zak³adasz runiczny róg na szyje.
+    mob echoaround $n $n z dum± zak³ada runiczny róg na szyje.
+  endif
+else
+  mob echoat $n To na ciebie nie pasuje.
+endif
+~
+#kluski_24281
+~
+mob echoat $n Delektujesz siê wyszukanym smakiem klusek ze spirytusem i u¶miechasz siê szeroko.
+mob echoaround $n $n ujada troche klusek ze spirytusem i w tym samym momencie dostrzegasz na jego twarzy szeroki, b³ogi u¶miech.
+~
 #0
 
 #ROOMPROGSNEW
+#cziterski
+~
+~
 #0
 
 #TRAPS
@@ -1841,32 +2086,12 @@ RandDescEnd
 #Vnum 0
 
 #DESC
-#Name 1~
-Desc Kroczysz solidnie wybudowanych korytarzem. Zarówno wiêksze, jak i
-mniejsze kamienie, które sk³adaj± siê na pod³o¿e, zosta³y starannie
-wyg³adzone i dopasowane do siebie. W ca³o¶ci tworz±c prawie jednolit±
-nawierzchniê. 
+#Name 002~
+Desc Na ¶cianach dostrzegasz ró¿nego rodzaju minera³y i kamienie szlachetne.
+Krasnoludy mieszkaj±ce w tych czelu¶ciach musz± byæ doprawdy dumne z tych
+kruszców. Prawdopodobnie bêd± ich broniæ do ostatniej kropli krwi. 
 ~
-Group 0
-End
-#Name 2~
-Desc Idziesz ca³kiem solidnym, zbudowanym przez krasnoludy korytarzem. Pod³o¿e
-zosta³o wy³o¿one niezwykle dok³adnie dopasowanymi kamieniami. 
-~
-Group 0
-End
-#Name 01~
-Desc Nastêpnie tysi±ce solidnych, dobrze wyæwiczonych krasnoludzkich nóg,
-przez ca³e lata szlifowa³o okutymi buciorami w celu poprawienia jako¶ci
-drogi. 
-~
-Group 1
-End
-#Name 02~
-Desc Na kamiennych chodnikach dostrzegasz liczne rysy, które zosta³y
-spowodowane najprawdopodobniej okutymi butami. 
-~
-Group 1
+Group 2
 End
 #Name 001~
 Desc Na ¶cianach dostrzegasz b³yski ró¿nych minera³ow i kamieni szlachetnych.
@@ -1875,12 +2100,32 @@ Desc Na ¶cianach dostrzegasz b³yski ró¿nych minera³ow i kamieni szlachetnych.
 ~
 Group 2
 End
-#Name 002~
-Desc Na ¶cianach dostrzegasz ró¿nego rodzaju minera³y i kamienie szlachetne.
-Krasnoludy mieszkaj±ce w tych czelu¶ciach musz± byæ doprawdy dumne z tych
-kruszców. Prawdopodobnie bêd± ich broniæ do ostatniej kropli krwi. 
+#Name 02~
+Desc Na kamiennych chodnikach dostrzegasz liczne rysy, które zosta³y
+spowodowane najprawdopodobniej okutymi butami. 
 ~
-Group 2
+Group 1
+End
+#Name 01~
+Desc Nastêpnie tysi±ce solidnych, dobrze wyæwiczonych krasnoludzkich nóg,
+przez ca³e lata szlifowa³o okutymi buciorami w celu poprawienia jako¶ci
+drogi. 
+~
+Group 1
+End
+#Name 2~
+Desc Idziesz ca³kiem solidnym, zbudowanym przez krasnoludy korytarzem. Pod³o¿e
+zosta³o wy³o¿one niezwykle dok³adnie dopasowanymi kamieniami. 
+~
+Group 0
+End
+#Name 1~
+Desc Kroczysz solidnie wybudowanych korytarzem. Zarówno wiêksze, jak i
+mniejsze kamienie, które sk³adaj± siê na pod³o¿e, zosta³y starannie
+wyg³adzone i dopasowane do siebie. W ca³o¶ci tworz±c prawie jednolit±
+nawierzchniê. 
+~
+Group 0
 End
 #DescEnd
 

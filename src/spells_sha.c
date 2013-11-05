@@ -21,8 +21,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: spells_sha.c 11255 2012-04-15 15:25:44Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/spells_sha.c $
+ * $Id: spells_sha.c 10058 2011-02-10 12:42:58Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/spells_sha.c $
  *
  */
 #if defined(macintosh)
@@ -325,10 +325,10 @@ void spell_seal_of_weakness( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 			   return;
 		}
 
-	if ( is_affected( victim, gsn_seal_of_weakness ) ||
-	     IS_AFFECTED( victim, AFF_SEAL_OF_ATROCITY ) || //AFF_ jest wazny
-	     is_affected( victim, gsn_seal_of_despair ) ||
-	     is_affected( victim, gsn_seal_of_doom ) )
+	if ( is_affected( victim, 519 ) || //seal of weakness
+	     is_affected( victim, 530 ) || //seal of atrocity
+	     is_affected( victim, 531 ) || //seal of despair
+	     is_affected( victim, 532 ) )  //seal of doom
 	{
    	switch ( victim->sex )
 			{
@@ -398,11 +398,11 @@ void spell_ancestors_wisdom( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 	int  spirit_power = get_skill(ch, gsn_invoke_spirit)/3;
 	int  af_level = spirit_power / 2;
 
-	if ( is_affected( victim, gsn_ancestors_wisdom ) ||
-	     is_affected( victim, gsn_ancestors_protection ) ||
-	     is_affected( victim, gsn_ancestors_favor ) ||
-	     is_affected( victim, gsn_ancestors_vision )  ||
-	     is_affected( victim, gsn_ancestors_fury ) )
+	if ( is_affected( victim, 520 ) || //Sn: 520 Spell: ancestors wisdom
+	     is_affected( victim, 521 ) ||
+	     is_affected( victim, 522 ) ||
+	     is_affected( victim, 523 )  ||
+	     is_affected( victim, 524 ) )
 	{
    	act( "Przywo³a³e¶ ju¿ b³ogos³awieñstwo przodków.", ch, NULL, victim, TO_CHAR );
 		return;
@@ -434,11 +434,11 @@ void spell_ancestors_protection( int sn, int level, CHAR_DATA *ch, void *vo, int
 	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
 	AFFECT_DATA af;
 
-	if ( is_affected( victim, gsn_ancestors_wisdom ) ||
-	     is_affected( victim, gsn_ancestors_protection ) ||
-	     is_affected( victim, gsn_ancestors_favor ) ||
-	     is_affected( victim, gsn_ancestors_vision )  ||
-	     is_affected( victim, gsn_ancestors_fury ) )
+	if ( is_affected( victim, 520 ) || //Sn: 520 Spell: ancestors wisdom
+	     is_affected( victim, 521 ) ||
+	     is_affected( victim, 522 ) ||
+	     is_affected( victim, 523 )  ||
+	     is_affected( victim, 524 ) )
 	{
    	act( "Przywo³a³e¶ ju¿ b³ogos³awieñstwo przodków.", ch, NULL, victim, TO_CHAR );
 		return;
@@ -520,11 +520,11 @@ void spell_ancestors_favor( int sn, int level, CHAR_DATA *ch, void *vo, int targ
 	int  spirit_power = get_skill(ch, gsn_invoke_spirit)/3;
 	int  af_level = spirit_power / 2;
 
-	if ( is_affected( victim, gsn_ancestors_wisdom ) ||
-	     is_affected( victim, gsn_ancestors_protection ) ||
-	     is_affected( victim, gsn_ancestors_favor ) ||
-	     is_affected( victim, gsn_ancestors_vision )  ||
-	     is_affected( victim, gsn_ancestors_fury ) )
+	if ( is_affected( victim, 520 ) || //Sn: 520 Spell: ancestors wisdom
+	     is_affected( victim, 521 ) ||
+	     is_affected( victim, 522 ) ||
+	     is_affected( victim, 523 )  ||
+	     is_affected( victim, 524 ) )
 	{
    	act( "Przywo³a³e¶ ju¿ b³ogos³awieñstwo przodków.", ch, NULL, victim, TO_CHAR );
 		return;
@@ -559,11 +559,11 @@ void spell_ancestors_vision( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 	int  spirit_power = get_skill(ch, gsn_invoke_spirit)/3;
 	int  af_level = spirit_power / 2;
 
-	if ( is_affected( victim, gsn_ancestors_wisdom ) ||
-	     is_affected( victim, gsn_ancestors_protection ) ||
-	     is_affected( victim, gsn_ancestors_favor ) ||
-	     is_affected( victim, gsn_ancestors_vision )  ||
-	     is_affected( victim, gsn_ancestors_fury ) )
+	if ( is_affected( victim, 520 ) || //Sn: 520 Spell: ancestors wisdom
+	     is_affected( victim, 521 ) ||
+	     is_affected( victim, 522 ) ||
+	     is_affected( victim, 523 )  ||
+	     is_affected( victim, 524 ) )
 	{
    	act( "Przywo³a³e¶ ju¿ b³ogos³awieñstwo przodków.", ch, NULL, victim, TO_CHAR );
 		return;
@@ -574,10 +574,10 @@ void spell_ancestors_vision( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 
    //Stripujemy detecta jak ma, nie mówi±c o tym - nie chcemy by siê dublowa³.
    if ( IS_AFFECTED( victim, AFF_DETECT_INVIS ) )
-   affect_strip( victim, gsn_detect_invis );
+   affect_strip( victim, 35 );
    //J/W tyle ¿e detect hidden.
 	if ( IS_AFFECTED( victim, AFF_DETECT_HIDDEN ) )
-   affect_strip( victim, gsn_detect_hidden );
+   affect_strip( victim, 34 );
 
    af.where = TO_AFFECTS;
 	af.type = sn;
@@ -627,11 +627,11 @@ void spell_ancestors_fury( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 	int  spirit_power = get_skill(ch, gsn_invoke_spirit)/3;
 	int  af_level = spirit_power / 2;
 
-	if ( is_affected( victim, gsn_ancestors_wisdom ) ||
-	     is_affected( victim, gsn_ancestors_protection ) ||
-	     is_affected( victim, gsn_ancestors_favor ) ||
-	     is_affected( victim, gsn_ancestors_vision )  ||
-	     is_affected( victim, gsn_ancestors_fury ) )
+	if ( is_affected( victim, 520 ) || //Sn: 520 Spell: ancestors wisdom
+	     is_affected( victim, 521 ) ||
+	     is_affected( victim, 522 ) ||
+	     is_affected( victim, 523 )  ||
+	     is_affected( victim, 524 ) )
 	{
    	act( "Przywo³a³e¶ ju¿ b³ogos³awieñstwo przodków.", ch, NULL, victim, TO_CHAR );
 		return;
@@ -1025,13 +1025,12 @@ void spell_spiritual_guidance( int sn, int level, CHAR_DATA *ch, void *vo, int t
 
 
 /*Pieczêæ okrucieñstwa - obcina skille wroga o 1/3. Narazie wy³±czam bo buguje muda.
-  Wróg mo¿e posiadaæ na sobie tylko jedn± kl±twe.*/
+  Wróg mo¿e posiadaæ na sobie tylko jedn± kl±twe.
 void spell_seal_of_atrocity( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
 	AFFECT_DATA af;
-	AFFECT_DATA *aff_count;
-	int duration, count = 0;
+	int duration;
 	int spirit_power = get_skill(ch, gsn_invoke_spirit)/3;
 
 	if ( ch == victim )
@@ -1040,10 +1039,10 @@ void spell_seal_of_atrocity( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 			   return;
 		}
 
-	if ( is_affected( victim, gsn_seal_of_weakness ) || 
-	     IS_AFFECTED( victim, AFF_SEAL_OF_ATROCITY ) || //AFF_ jest wazny
-	     is_affected( victim, gsn_seal_of_despair ) ||
-	     is_affected( victim, gsn_seal_of_doom ) ) 
+	if ( is_affected( victim, 519 ) || //seal of weakness
+	     is_affected( victim, 530 ) || //seal of atrocity
+	     is_affected( victim, 531 ) || //seal of despair
+	     is_affected( victim, 532 ) )  //seal of doom
 	{
    	switch ( victim->sex )
 			{
@@ -1080,38 +1079,21 @@ void spell_seal_of_atrocity( int sn, int level, CHAR_DATA *ch, void *vo, int tar
 	af.level = spirit_power/3;
 	af.duration = duration; af.rt_duration = 0;
 	af.location = APPLY_NONE;
-	af.modifier = spirit_power;
+	af.modifier = -(spirit_power/6);
 	af.bitvector = &AFF_SEAL_OF_ATROCITY;
 	affect_to_char( victim, &af, "Twoje ruchy s± bardziej niezdarne niz zwykle", TRUE );
 
-	for( aff_count = ch->affected ; aff_count; aff_count = aff_count->next )
-	{
-	    if( aff_count->type == skill_lookup( "seal of atrocity" ) && aff_count->location == APPLY_HITROLL )
-                count++;
-	}
+	af.where = TO_AFFECTS;
+	af.type = sn;
+	af.level = spirit_power/3;
+	af.duration =  2; af.rt_duration = 0;
+	af.location  = APPLY_HITROLL;
+	af.modifier  = 1;
+	affect_to_char( ch, &af, NULL, FALSE  );
 
-	if( count < 3 )
-	{
-	    af.where = TO_AFFECTS;
-	    af.type = sn;
-	    af.level = spirit_power/3;
-	    af.duration =  2; af.rt_duration = 0;
-	    af.location  = APPLY_HITROLL;
-	    af.modifier  = 1;
-	    af.bitvector = &AFF_NONE;
-	    affect_to_char( ch, &af, NULL, FALSE  );
-
-	    act( "$n celuje w $C wyci±gniêt± rêk±.", ch, NULL, victim, TO_NOTVICT );
-	    act( "Czujesz jak pewno¶æ odp³ywa z twych r±k.", ch, NULL, victim, TO_VICT );
-	    act( "Celujesz w $C wyci±gniêt± rêk± i poch³aniasz je<&go/j/go> pewno¶æ w pos³ugiwania siê umiejêtno¶ciami.", ch, NULL, victim, TO_CHAR );
-	}
-	else
-	{
-	    act( "$n celuje w $C wyci±gniêt± rêk±.", ch, NULL, victim, TO_NOTVICT );
-	    act( "Czujesz jak pewno¶æ odp³ywa z twych r±k.", ch, NULL, victim, TO_VICT );
-	    act( "Celujesz w $C wyci±gniêt± rêk± i ograniczajac je<&go/j/go> pewno¶æ w pos³ugiwania siê umiejêtno¶ciami.", ch, NULL, victim, TO_CHAR );
-	}
-
+		act( "$n celuje w $C wyci±gniêt± rêk±.", ch, NULL, victim, TO_NOTVICT );
+		act( "Czujesz jak pewno¶æ odp³ywa z twych r±k.", ch, NULL, victim, TO_VICT );
+		act( "Celujesz w $C wyci±gniêt± rêk± i poch³aniasz je<&go/j/go> pewno¶æ w pos³ugiwania siê umiejêtno¶ciami.", ch, NULL, victim, TO_CHAR );
 	return;
   }
   else
@@ -1121,8 +1103,8 @@ void spell_seal_of_atrocity( int sn, int level, CHAR_DATA *ch, void *vo, int tar
   }
 }
 
-//Pieczêæ desperacji - blokuje mo¿liwo¶æ zadawania krytycznych ciosów wrogowi. Wy³±czam bo buguje muda.
-// Wróg mo¿e posiadaæ na sobie tylko jedn± kl±twe.
+Pieczêæ desperacji - blokuje mo¿liwo¶æ zadawania krytycznych ciosów wrogowi. Wy³±czam bo buguje muda.
+  Wróg mo¿e posiadaæ na sobie tylko jedn± kl±twe.
 void spell_seal_of_despair( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
 	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
@@ -1136,10 +1118,10 @@ void spell_seal_of_despair( int sn, int level, CHAR_DATA *ch, void *vo, int targ
 			   return;
 		}
 
-	if ( is_affected( victim, gsn_seal_of_weakness ) ||
-	     IS_AFFECTED( victim, AFF_SEAL_OF_ATROCITY ) || //AFF_ jest wazny
-	     is_affected( victim, gsn_seal_of_despair ) ||
-	     is_affected( victim, gsn_seal_of_doom ) )
+	if ( is_affected( victim, 519 ) || //seal of weakness
+	     is_affected( victim, 530 ) || //seal of atrocity
+	     is_affected( victim, 531 ) || //seal of despair
+	     is_affected( victim, 532 ) )  //seal of doom
 	{
    	switch ( victim->sex )
 			{
@@ -1191,6 +1173,7 @@ void spell_seal_of_despair( int sn, int level, CHAR_DATA *ch, void *vo, int targ
 		return;
   }
 }
+*/
 
 /*Pieczêæ zag³ady - pozbawia wroga losowego zmys³u.
   Wróg mo¿e posiadaæ na sobie tylko jedn± kl±twe. */
@@ -1207,10 +1190,10 @@ void spell_seal_of_doom( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 			   return;
 		}
 
-	if ( is_affected( victim, gsn_seal_of_weakness ) ||
-	     IS_AFFECTED( victim, AFF_SEAL_OF_ATROCITY ) || //AFF_ jest wazny
-	     is_affected( victim, gsn_seal_of_despair ) ||
-	     is_affected( victim, gsn_seal_of_doom ) )
+	if ( is_affected( victim, 519 ) || //seal of weakness
+	     is_affected( victim, 530 ) || //seal of atrocity
+	     is_affected( victim, 531 ) || //seal of despair
+	     is_affected( victim, 532 ) )  //seal of doom
 	{
    	switch ( victim->sex )
 			{

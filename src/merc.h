@@ -15,10 +15,9 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
- * Grunai                (grunai.mud@gmail.com          ) [Grunai    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
  * Koper Tadeusz         (jediloop@go2.pl               ) [Garloop   ] *
  * Pietrzak Marcin       (marcin@iworks.pl              ) [Gurthg    ] *
@@ -29,8 +28,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: merc.h 12408 2013-06-12 12:29:02Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/merc.h $
+ * $Id: merc.h 12183 2013-03-25 11:58:55Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/merc.h $
  *
  */
 #define NOCRYPT
@@ -39,11 +38,14 @@
 #define NORMAL_DEBUG_INFO
 
 #ifdef NORMAL_DEBUG_INFO
+
 /* zamieniam na zwyk³± funkcjê
  #define DEBUG_INFO( string )    last_command = ( string );
 */
 #else
+
 #define DEBUG_INFO( string )
+
 #endif
 
 /**
@@ -70,10 +72,6 @@
 //Rysand - dopa³ka z dagger mastery i dagger do backstaba (mniejszy wait i szansa na zdjêcie zbroi)
 #define ENHANCED_BACKSTAB
 
-/**
- * maksymalny vnum: 2^17-1
- */
-#define MAX_VNUM 131071
 /**
  * maksymalna liczba exitów
  */
@@ -249,17 +247,17 @@ typedef struct   learn_trick_data      LEARN_TRICK_DATA;
 typedef struct   learn_trick_list      LEARN_TRICK_LIST;
 
 /*board system*/
-typedef struct message_data MESSAGE_DATA;
-typedef struct board_data   BOARD_DATA;
+typedef struct message_data              MESSAGE_DATA;
+typedef struct board_data                 BOARD_DATA;
 /*pflag system*/
-typedef struct pflag_data   PFLAG_DATA;
+typedef struct pflag_data                 PFLAG_DATA;
 /*prewait system*/
-typedef struct pre_wait     PRE_WAIT;
-typedef struct pwait_char   PWAIT_CHAR;
-typedef struct event_data   EVENT_DATA;
+typedef struct pre_wait                   PRE_WAIT;
+typedef struct pwait_char                 PWAIT_CHAR;
+typedef struct event_data              EVENT_DATA;
 
-typedef struct clan_data    CLAN_DATA;
-typedef struct clan_stance  CLAN_STANCE;
+typedef struct clan_data				CLAN_DATA;
+typedef struct clan_stance				CLAN_STANCE;
 
 /*randomy*/
 #include "random_items.h"
@@ -268,7 +266,7 @@ typedef struct clan_stance  CLAN_STANCE;
 typedef struct herb_data               HERB_DATA;
 typedef struct herb_in_room_data       HERB_IN_ROOM_DATA;
 
-typedef struct new_char_data           NEW_CHAR_DATA;
+typedef struct new_char_data               NEW_CHAR_DATA;
 
 /*mapka*/
 typedef struct	mapka_data	MAP_DATA;
@@ -276,23 +274,22 @@ typedef struct	mapka_data	MAP_DATA;
 /* FRIEND_WHO: typ listy */
 typedef struct friend_list FRIEND_LIST;
 
-typedef struct spirit_data                 SPIRIT_DATA;
 /*
  * Function types.
  */
-typedef void DO_FUN   args( ( CHAR_DATA *ch, char *argument ) );
+typedef   void DO_FUN   args( ( CHAR_DATA *ch, char *argument ) );
 /*oprogi*/
-typedef void DO_OFUN   args( ( OBJ_DATA *obj, char *argument ) );
-typedef bool SPEC_FUN  args( ( CHAR_DATA *ch ) );
-typedef void SPELL_FUN args( ( int sn, int level, CHAR_DATA *ch, void *vo, int target ) );
-typedef void PROG_FUN  args( ( char *argument ) );
-typedef void TRICK_FUN args( ( int sn, CHAR_DATA *ch, CHAR_DATA *victim ) );
+typedef   void DO_OFUN   args( ( OBJ_DATA *obj, char *argument ) );
+typedef bool SPEC_FUN   args( ( CHAR_DATA *ch ) );
+typedef void SPELL_FUN   args( ( int sn, int level, CHAR_DATA *ch, void *vo, int target ) );
+typedef void PROG_FUN   args( ( char *argument ) );
+typedef void TRICK_FUN   args( ( int sn, CHAR_DATA *ch, CHAR_DATA *victim ) );
 
 #define PROGFUN( fun )	void fun( char *argument )
 
-extern char const * last_command;
+extern char * last_command;
 //rellik: do debugowania, dodaje pamiêtanie te¿ poprzedniego debug_info
-extern char const * previous_command;
+extern char * previous_command;
 //rellik: do debugowania, DEBUF_INFO przerabiam z define na funkcjê
 extern void DEBUG_INFO( const char* string );
 
@@ -350,7 +347,7 @@ extern void DEBUG_INFO( const char* string );
  */
 
 #define MAX_SCHOOL            8
-#define MAX_SKILL           588
+#define MAX_SKILL           584
 #define MAX_LANG             31
 #define MAX_GROUP            30
 #define MAX_IN_GROUP         15
@@ -361,8 +358,8 @@ extern void DEBUG_INFO( const char* string );
 #define MAX_DAMAGE_MESSAGE   46
 #define MAX_LEVEL            40
 #define MAX_COUNTER           5  /* char_data->counter[] */
-#define MAX_TRICKS           23
-#define MAX_COMPONENTS       60
+#define MAX_TRICKS           21
+#define MAX_COMPONENTS       74
 #define MAX_MEMSETS           3
 
 //sta³e na podstawie race_table
@@ -384,7 +381,6 @@ extern void DEBUG_INFO( const char* string );
    counter[2] - damage z przedprzedostatniego ciosu
    counter[3] - berserk i demon aura
    counter[4] - smite evil, smite good i summony mobkow
-   counter[5] - toksycznosc mikstur
 */
 
 
@@ -865,7 +861,7 @@ struct help_area_data
 struct   shop_data
 {
     SHOP_DATA *   next;         /* Next shop in list      */
-    unsigned int   keeper;         /* Vnum of shop keeper mob   */
+    ush_int   keeper;         /* Vnum of shop keeper mob   */
     sh_int   buy_type [MAX_TRADE];   /* Item types shop will buy   */
     sh_int   profit_buy;      /* Cost multiplier for buying   */
     sh_int   profit_sell;      /* Cost multiplier for selling   */
@@ -1137,7 +1133,7 @@ struct spell_failed
 {
 	SPELL_FAILED *	next;
 	bool			valid;
-	unsigned int	vnum;
+	ush_int			vnum;
 	sh_int			spell;
 };
 
@@ -1226,21 +1222,21 @@ struct   kill_data
 //</raisy>
 
 //<summony>
-#define MOB_VNUM_OSA          3001
-#define MOB_VNUM_WAZKA        3002
-#define MOB_VNUM_ZUK          3003
+#define MOB_VNUM_OSA       3001
+#define MOB_VNUM_WAZKA       3002
+#define MOB_VNUM_ZUK       3003
 #define MOB_VNUM_GOBLIN       3004
 #define MOB_VNUM_HOBGOBLIN    3005
 #define MOB_VNUM_TASLOI       3006
-#define MOB_VNUM_GRYF         3007
+#define MOB_VNUM_GRYF       3007
 #define MOB_VNUM_MANTYKORA    3008
 #define MOB_VNUM_HARPIA       3009
-#define MOB_VNUM_SAHUAGIN     3010
+#define MOB_VNUM_SAHUAGIN    3010
 #define MOB_VNUM_GITHYANKI    3011
-#define MOB_VNUM_NAGA         3012
-#define MOB_VNUM_DZINN        3013
-#define MOB_VNUM_JEDNOROZEC   3014
-#define MOB_VNUM_HYDRA        3015
+#define MOB_VNUM_NAGA       3012
+#define MOB_VNUM_DZINN       3013
+#define MOB_VNUM_JEDNOROZEC    3014
+#define MOB_VNUM_HYDRA       3015
 //</summony>
 
 //<iluzje>
@@ -1266,20 +1262,20 @@ struct   kill_data
 //</iluzje>
 
 //<summon animal>
-#define MOB_VNUM_BADGER        10853
-#define MOB_VNUM_BEAR          10851
-#define MOB_VNUM_BEAR_M        10852
-#define MOB_VNUM_BOAR          10855
-#define MOB_VNUM_CONSTRICTOR_M 10854
-#define MOB_VNUM_EAGLE_M       10857
-#define MOB_VNUM_RAWEN         10856
-#define MOB_VNUM_SPIDER_M      10858
-#define MOB_VNUM_SQUIRREL      10861
-#define MOB_VNUM_SQUIRREL_M    10862
-#define MOB_VNUM_TIGER         10859
-#define MOB_VNUM_TIGER_M       10860
-#define MOB_VNUM_WOLF          10863
-#define MOB_VNUM_WOLF_M        10864
+#define MOB_VNUM_WIEWIORKA 3037
+#define MOB_VNUM_WOLF            3066
+#define MOB_VNUM_BEAR            3065
+#define MOB_VNUM_WIEWIORKA_M 3038
+#define MOB_VNUM_KRUK 3039
+#define MOB_VNUM_DZIK 3040
+#define MOB_VNUM_TYGRYS_M 3041
+#define MOB_VNUM_WILK_M 3042
+#define MOB_VNUM_DUSICIEL_M 3043
+#define MOB_VNUM_ORZEL_M 3044
+#define MOB_VNUM_BORSUK 3045
+#define MOB_VNUM_TIGER 3046
+#define MOB_VNUM_BEAR_M 3047
+#define MOB_VNUM_PAJAK_M 10905
 //</summon animal>
 
 //Drake: Dodanie pomniejszych elementali jako wysokopoziomowe summony dla druidów ( i w przysz³oœci dla magów).
@@ -1692,6 +1688,7 @@ extern BITVECT_DATA AFF_FORCE_FIELD;
 extern BITVECT_DATA AFF_CONFUSION_SHELL;
 extern BITVECT_DATA AFF_FLOAT;
 extern BITVECT_DATA AFF_RESIST_WEAPON;
+extern BITVECT_DATA AFF_ABSOLUTE_MAGIC_PROTECTION;
 extern BITVECT_DATA AFF_LOYALTY;
 extern BITVECT_DATA AFF_MAZE;
 extern BITVECT_DATA AFF_DEFLECT_WOUNDS;
@@ -1721,12 +1718,7 @@ extern BITVECT_DATA AFF_SPIRIT_OF_LIFE;
 extern BITVECT_DATA AFF_BREATH_OF_LIFE;
 extern BITVECT_DATA AFF_SPIRITUAL_GUIDANCE;
 extern BITVECT_DATA AFF_MAGIC_HASTE;
-extern BITVECT_DATA AFF_SCRYING_SHIELD;
 extern BITVECT_DATA AFF_SNEAK_INVIS;
-extern BITVECT_DATA AFF_FARSIGHT;
-extern BITVECT_DATA AFF_SEAL_OF_ATROCITY;
-extern BITVECT_DATA AFF_SEAL_OF_DESPAIR;
-extern BITVECT_DATA AFF_INVOKE;
 
 /* bits for act */
 
@@ -1879,8 +1871,6 @@ extern BITVECT_DATA ITEM_FREE_RENT;
 extern BITVECT_DATA ITEM_DOUBLE_GRIP;
 extern BITVECT_DATA ITEM_SACRED;
 extern BITVECT_DATA ITEM_NOREPAIR;
-extern BITVECT_DATA ITEM_RAREITEM;
-extern BITVECT_DATA ITEM_COMPONENTONLY;
 
 /*EXWEAR (wear_flags2) flags for objects */
 extern BITVECT_DATA ITEM_NOMAG;
@@ -2028,7 +2018,6 @@ extern BITVECT_DATA ROOM_MEMBARD;
 extern BITVECT_DATA ROOM_NO_WEATHER;
 extern BITVECT_DATA ROOM_WATCH_TOWER;
 extern BITVECT_DATA ROOM_MEMSHA;
-extern BITVECT_DATA ROOM_INVOKE;
 
 /*
  * Sex.
@@ -2093,8 +2082,8 @@ extern BITVECT_DATA ROOM_INVOKE;
 #define OBJ_VNUM_PORTAL          25//nie uzywane
 #define OBJ_VNUM_WHISTLE       2116//gwizdek patrolmana ze spec_patrolman, raczej nie uzywane
 #define OBJ_VNUM_ROSE          1001//roza? nie uzywane
-#define OBJ_VNUM_GLAZ         10898//glaz, ktory mozna sobie summnac poprzez summon_malfunction
-#define OBJ_VNUM_ASH          10899//popió³ do magicznych ksi±g
+#define OBJ_VNUM_GLAZ          3050//glaz, ktory mozna sobie summnac poprzez summon_malfunction
+#define OBJ_VNUM_ASH           3060//popió³ do magicznych ksi±g
 
 //bron, z ktorymi sie startuje
 #define OBJ_VNUM_SCHOOL_MACE    3700
@@ -2112,33 +2101,33 @@ extern BITVECT_DATA ROOM_INVOKE;
 #define OBJ_VNUM_SCHOOL_SHIELD  3704
 #define OBJ_VNUM_SCHOOL_BANNER  3716
 
-#define OBJ_VNUM_GOODBARRY         29//jagodka z goobarry
-#define OBJ_VNUM_FLAMEBLADE     10872//mieczyk z flame blada
-#define OBJ_VNUM_EYE_OF_VISION  10929//oczko z detectami z eye of vision
-#define OBJ_VNUM_HOLY_HAMMER    10928//mlotek z holy weapons
-#define OBJ_VNUM_HOLY_FLAIL     10914//cepik z holy weapons
-#define OBJ_VNUM_HOLY_SWORD     10927//mieczyk z holy weapons
-#define OBJ_VNUM_SKIN            3733//skora ze skilla skin
-#define OBJ_VNUM_FIREFLIES       3325//swietliki z firefly swarm
-#define OBJ_VNUM_FLOATING_SKULL  3326//czaszka z floating skull (swiatlo)
-#define OBJ_VNUM_SHILLELAGH      3365//kostur ze spella shillelagh
+#define OBJ_VNUM_GOODBARRY        29//jagodka z goobarry
+#define OBJ_VNUM_FLAMEBLADE     3719//mieczyk z flame blada
+#define OBJ_VNUM_EYE_OF_VISION  3323//oczko z detectami z eye of vision
+#define OBJ_VNUM_HOLY_HAMMER    3324//mlotek z holy weapons
+#define OBJ_VNUM_HOLY_FLAIL     3033//cepik z holy weapons
+#define OBJ_VNUM_HOLY_SWORD     3369//mieczyk z holy weapons
+#define OBJ_VNUM_SKIN           3733//skora ze skilla skin
+#define OBJ_VNUM_FIREFLIES      3325//swietliki z firefly swarm
+#define OBJ_VNUM_FLOATING_SKULL 3326//czaszka z floating skull (swiatlo)
+#define OBJ_VNUM_SHILLELAGH     3365//kostur ze spella shillelagh
 
 //drzewka i ich owocki z druidzkiego create tree
-#define OBJ_VNUM_TREE1         10919
-#define OBJ_VNUM_TREE2         10920
-#define OBJ_VNUM_TREE3         10921
-#define OBJ_VNUM_TREE1_FRUIT   10922
-#define OBJ_VNUM_TREE2_FRUIT   10923
-#define OBJ_VNUM_TREE3_FRUIT   10924
-#define OBJ_VNUM_TREE_HOT      10925
-#define OBJ_VNUM_TREE_COLD     10926
+#define OBJ_VNUM_TREE1          3027
+#define OBJ_VNUM_TREE2          3028
+#define OBJ_VNUM_TREE3          3029
+#define OBJ_VNUM_TREE1_FRUIT    3030
+#define OBJ_VNUM_TREE2_FRUIT    3031
+#define OBJ_VNUM_TREE3_FRUIT    3032
+#define OBJ_VNUM_TREE_HOT       3082
+#define OBJ_VNUM_TREE_COLD      3083
 
 
 /* sztyleciki z 'create shadow weapon' */
-#define OBJ_VNUM_SHADOW_DAGGER                10915
-#define OBJ_VNUM_SHADOW_SHORT_SWORD           10916
-#define OBJ_VNUM_SHADOW_SHORT_SWORD_VORPAL    10917
-#define OBJ_VNUM_SHADOW_SHORT_SWORD_DISPELLER 10918
+#define OBJ_VNUM_SHADOW_DAGGER                3002
+#define OBJ_VNUM_SHADOW_SHORT_SWORD           3003
+#define OBJ_VNUM_SHADOW_SHORT_SWORD_VORPAL    3004
+#define OBJ_VNUM_SHADOW_SHORT_SWORD_DISPELLER 3005
 
 //mlotek i pancerz ze spiritual armor/hammer/weapon
 #define OBJ_VNUM_SPIRITUAL_HAMMER       10903
@@ -2151,33 +2140,39 @@ extern BITVECT_DATA ROOM_INVOKE;
 #define OBJ_VNUM_SPIRITUAL_STAFF        10911
 #define OBJ_VNUM_SPIRITUAL_SHORTSWORD   10912
 #define OBJ_VNUM_SPIRITUAL_FLAIL        10913
+
 /* spell 'create symbol' */
-#define OBJ_VNUM_CREATE_SYMBOL_EVIL     10859
-#define OBJ_VNUM_CREATE_SYMBOL_NEUTRAL  10860
-#define OBJ_VNUM_CREATE_SYMBOL_GOOD     10861
+#define OBJ_VNUM_CREATE_SYMBOL_EVIL     3303
+#define OBJ_VNUM_CREATE_SYMBOL_NEUTRAL  3302
+#define OBJ_VNUM_CREATE_SYMBOL_GOOD     3301
+
 /* spell 'razorblade hands' */
-#define OBJ_VNUM_NORMAL_RAZORBLADE     10851
-#define OBJ_VNUM_SHARP_RAZORBLADE      10852
-#define OBJ_VNUM_VORPAL_RAZORBLADE     10853
-#define OBJ_VNUM_FALSE_RAZORBLADE      10854
+#define OBJ_VNUM_NORMAL_RAZORBLADE   3317
+#define OBJ_VNUM_SHARP_RAZORBLADE    3318
+#define OBJ_VNUM_VORPAL_RAZORBLADE   3319
+#define OBJ_VNUM_FALSE_RAZORBLADE    3383
+
 /* spell 'beast claws' */
-#define OBJ_VNUM_NORMAL_CLAW            3320
-#define OBJ_VNUM_SHARP_CLAW             3321
-#define OBJ_VNUM_VORPAL_CLAW            3322
-#define OBJ_VNUM_FALSE_CLAW             3384
+#define OBJ_VNUM_NORMAL_CLAW      3320
+#define OBJ_VNUM_SHARP_CLAW       3321
+#define OBJ_VNUM_VORPAL_CLAW      3322
+#define OBJ_VNUM_FALSE_CLAW       3384
+
 /* spell 'spiritual light' */
-#define OBJ_VNUM_EVIL_BALL              10862
-#define OBJ_VNUM_NEUTRAL_BALL           10863
-#define OBJ_VNUM_GOOD_BALL              10864
+#define OBJ_VNUM_EVIL_BALL        3327
+#define OBJ_VNUM_NEUTRAL_BALL     3328
+#define OBJ_VNUM_GOOD_BALL        3329
+
 //z singing ruff
-#define OBJ_VNUM_RUFF1  10881
-#define OBJ_VNUM_RUFF2  10882
-#define OBJ_VNUM_RUFF3  10883
-#define OBJ_VNUM_RUFF4  10884
-#define OBJ_VNUM_RUFF5  10885
-#define OBJ_VNUM_RUFF6  10886
-#define OBJ_VNUM_RUFF31 10887
-#define OBJ_VNUM_RUFF61 10888
+#define OBJ_VNUM_RUFF1  3036
+#define OBJ_VNUM_RUFF2  3037
+#define OBJ_VNUM_RUFF3  3038
+#define OBJ_VNUM_RUFF4  3039
+#define OBJ_VNUM_RUFF5  3040
+#define OBJ_VNUM_RUFF6  3041
+#define OBJ_VNUM_RUFF31 3042
+#define OBJ_VNUM_RUFF61 3043
+
 //z light nova
 #define OBJ_VNUM_LIGHT_NOVA_BALL OBJ_VNUM_LIGHT_BALL // hack
 
@@ -2330,11 +2325,9 @@ extern BITVECT_DATA ROOM_INVOKE;
 #define WEAPON_CLAWS 12
 
 //rellik: mining, typy narzêdzi
-#define TOOL_EXOTIC  0
-#define TOOL_HAMMER  1
-#define TOOL_ANVIL   2
-#define TOOL_SAW     3
-#define TOOL_PICKAXE 4
+#define TOOL_PICKAXE				0
+#define TOOL_HAMMER					1
+#define TOOL_ANVIL					2
 
 /* wand type */
 #define WAND_NONE			0
@@ -2364,26 +2357,25 @@ extern BITVECT_DATA ROOM_INVOKE;
 #define	WAND_EXTRA_SCHOOL_7        (N)
 
 /* weapon types */
-#define WEAPON_FLAMING           (A) // wali od ognia
-#define WEAPON_FROST             (B) // wali od zimna
-#define WEAPON_VAMPIRIC          (C) // wysysa hapki
-#define WEAPON_SHARP             (D) // ostre, niewielkie premie do dama, moze wrzucic bleeding wound
-#define WEAPON_VORPAL            (E) // bardzo ostre, przebija stona, znaczace premie do dama, moze wrzucic bleeding wound
-#define WEAPON_TWO_HANDS         (F) // trzyma sie to w dwoch lapkach
-#define WEAPON_SHOCKING          (G) // wali od elektrycznosci
-#define WEAPON_POISON            (H) // jebniety dostaje poisona
-#define WEAPON_DISPEL            (I) // teoretycznie castuje przy ciosie dispel magic, ale to chyba nie dziala
-#define WEAPON_RANDOM_MAGIC_PLUS (J) // randomowo dodaje broni ummagicznienie na poziomie 0-3
-#define WEAPON_PRIMARY           (K) // tylko w wiodaca reka
-#define WEAPON_TOXIC             (L) // wali od kwasu
-#define WEAPON_SACRED            (M) // taka swieta bron - dodatkowe damy w undeady
-#define WEAPON_RESONANT          (N) // wali od dzwieku
-#define WEAPON_INJURIOUS         (O) // wrzuca flage bleeding wound na 25% niezaleznie od conow
-#define WEAPON_KEEN              (Q) // Wywarzone ostrze(lub ogolnie - bron) ktorym latwiej jest zadac cios krytyczny
-#define WEAPON_THUNDERING        (R) // W broni zakleta jest esencja sily, udany cios krytyczny zada jeszcze wieksze obrazenia
-#define WEAPON_UNBALANCED        (S) // bron przekleta ze stala szansa na nie trafienie
-#define WEAPON_WICKED            (T) // bron przekleta - wysysa punkty zycia w momencie zadania ciosu z trzymajacego bron
-#define WEAPON_HEARTSEEKER       (U) // bron samodzielnie dazy do serca przeciwnika, bonus dla BS'a oraz hitroll
+#define WEAPON_FLAMING		(A) //wali od ognia
+#define WEAPON_FROST		(B) //wali od zimna
+#define WEAPON_VAMPIRIC		(C) //wysysa hapki
+#define WEAPON_SHARP		(D) //ostre, niewielkie premie do dama, moze wrzucic bleeding wound
+#define WEAPON_VORPAL		(E) //bardzo ostre, przebija stona, znaczace premie do dama, moze wrzucic bleeding wound
+#define WEAPON_TWO_HANDS	(F) //trzyma sie to w dwoch lapkach
+#define WEAPON_SHOCKING		(G) //wali od elektrycznosci
+#define WEAPON_POISON		(H) //jebniety dostaje poisona
+#define WEAPON_DISPEL		(I) //teoretycznie castuje przy ciosie dispel magic, ale to chyba nie dziala
+#define WEAPON_PRIMARY		(K) /*tylko w prawicy*/
+#define WEAPON_TOXIC		(L) //wali od kwasu
+#define WEAPON_SACRED		(M) //taka swieta bron - dodatkowe damy w undeady
+#define WEAPON_RESONANT		(N) //wali od dzwieku
+#define WEAPON_INJURIOUS	(O) //wrzuca flage bleeding wound na 25% niezaleznie od conow
+#define WEAPON_KEEN        (Q) //Wywarzone ostrze(lub ogolnie - bron) ktorym latwiej jest zadac cios krytyczny
+#define WEAPON_THUNDERING   (R) //W broni zakleta jest esencja sily, udany cios krytyczny zada jeszcze wieksze obrazenia
+#define WEAPON_UNBALANCED   (S) // bron przekleta ze stala szansa na nie trafienie
+#define WEAPON_WICKED       (T) // bron przekleta - wysysa punkty zycia w momencie zadania ciosu z trzymajacego bron
+#define WEAPON_HEARTSEEKER  (U) // bron samodzielnie dazy do serca przeciwnika, bonus dla BS'a oraz hitroll
 
 /* gate flags */
 #define GATE_NORMAL_EXIT   (A)
@@ -2468,8 +2460,7 @@ extern BITVECT_DATA ROOM_INVOKE;
 #define CONT_EASY           (H)
 #define CONT_EATKEY         (I)
 #define CONT_SINGLE_OBJ     (J)
-#define CONT_ONLY_VNUM      (K)
-#define CONT_COMP    	    (L)
+#define CONT_ONLY_VNUM    (K)
 
 /*
  * Values for lights (value[1]).
@@ -2751,12 +2742,12 @@ struct herb_in_room_data                //ZROBIC DO TEGO OBSLUGE PAMIECI
 #define WIZCFG_COLOURCONV  (G)
 
 /* wiz_groups */
-#define W1 (C) /* nowy     */
-#define W2 (D) /* tworca   */
-#define W3 (E) /* straznik */
-#define W4 (F) /* regent   */
-#define W5 (G) /* sedzia   */
-#define W6 (H) /* lord     */
+#define W1      (C)    /* standard */
+#define   W2      (D)    /* guest    */
+#define W3      (E)    /* buidler   */
+#define W4      (F)    /* guard    */
+#define W5      (G)    /* judge    */
+#define W6      (H)    /* admin    */
 
 /* opcje dla close_socket */
 #define CS_NORECURSE    (A)
@@ -2774,7 +2765,7 @@ struct   mob_index_data
 	REPAIR_DATA *			pRepair;
 	PROG_LIST *				progs;
 	AREA_DATA *				area;
-	unsigned int			vnum;
+	ush_int					vnum;
 	sh_int					group;
 	bool					new_format;
 	sh_int					count;
@@ -2855,8 +2846,7 @@ struct learn_list
 
 struct learn_data
 {
- unsigned int vnum;       /* numer moba nauczyciela */
- bool room;
+ ush_int vnum;       /* numer moba nauczyciela */
  LEARN_DATA *next;  /* nastepny, do lsty      */
  LEARN_LIST *list;  /*list skilli/spelli      */
  bool valid;
@@ -2867,7 +2857,7 @@ struct learn_data
 /*artefact*/
 struct artefact_data
 {
-   unsigned int avnum;
+   ush_int avnum;
    ush_int count;/*aktualna liczba*/
    ush_int max_count;/*maksymalna liczba*/
    ush_int max_day;/*maksymalnie dni przetrzymywania*/
@@ -2894,7 +2884,7 @@ struct artefact_owner
 struct artefact_loader
 {
     ush_int type;//0 - room, 1 - obj, 2 - mob
-    unsigned int vnum;//vnum powyzszego
+    ush_int vnum;//vnum powyzszego
     ush_int probdown;//prawdopodobienstwo dolne
     ush_int probup;//gorne, sumarycznie down/up czyli np: 5/8
     ARTEFACT_LOADER *next;
@@ -2910,8 +2900,8 @@ struct artefact_loader
 
 struct board_data
 {
-    bool               valid;
-    unsigned int       vnum;
+    bool              valid;
+    ush_int          vnum;
     MESSAGE_DATA    *  message;
     BOARD_DATA      *  next;
 };
@@ -2924,8 +2914,8 @@ struct message_data
     char         *  author;
     char         *  title;
     char         *  message;
-    int             lang;
-    unsigned int    vnum; /*tylko do edycji*/
+    int        lang;
+    ush_int        vnum; /*tylko do edycji*/
     MESSAGE_DATA *  next;
 };
 
@@ -3029,13 +3019,6 @@ struct spell_data
     int      extra;
 };
 
-struct spirit_data
-{
-    bool        valid;
-    CHAR_DATA	* ch;
-    OBJ_DATA	* corpse;
-    SPIRIT_DATA	* next;
-};
 /*
 typedef   struct   lcnv_data      LCNV_DATA;
 typedef   struct   lang_data      LANG_DATA;
@@ -3402,8 +3385,6 @@ typedef struct   death_stats DEATH_STATS;
 struct questlog_data
 {
    char * qname; // nazwa wewnêtrzna
-   char * title; // tytu³ zadania wy¶wietlany graczowi
-   char * currentdesc; // informacja na temat danej czêœci zadania
    char * text; // wiadomo¶æ
    int state; // stan, zakoñczony czy w trakcie wykonywania
    int date; // data dodania
@@ -3438,11 +3419,16 @@ struct   pc_data
 	char *				title;
 	char *				new_title;
 	char *				afk_text;
+	time_t				last_note;
+	time_t				last_idea;
+	time_t				last_penalty;
+	time_t				last_news;
+	time_t				last_changes;
 	sh_int				perm_hit;
 	sh_int				perm_move;
 	sh_int				true_sex;
 	int					last_level;
-	unsigned int		last_rent;
+	ush_int				last_rent;
 	sh_int				mage_specialist;
 	sh_int				learned[MAX_SKILL];
 	sh_int				learning[MAX_SKILL];
@@ -3457,7 +3443,6 @@ struct   pc_data
 	SPELL_FAILED *		spells_failed;
 	DEATH_STATS			death_statistics;
 	CHARM_DATA *		charm_list;
-	OBJ_DATA *			corpse;
 	// Kolorki
 	int					text[3];					/* {t */
 	int					auction[3];					/* {a */
@@ -3604,7 +3589,7 @@ struct   obj_index_data
 	char *					item_description;
 	char *					ident_description;
 	char *					hidden_description;
-	unsigned int			vnum;
+	ush_int					vnum;
 	sh_int					reset_num;
 	sh_int					material;
 	sh_int					item_type;
@@ -3614,7 +3599,6 @@ struct   obj_index_data
 	sh_int					level;
 	sh_int					condition;
 	sh_int					count;
-	sh_int					length;
 	sh_int					weight;
 	int						cost;
 	int						value[7];
@@ -3665,7 +3649,7 @@ struct obj_data
     ROOM_INDEX_DATA *  in_room;
     CHAR_DATA *        prog_target;
     PFLAG_DATA *       pflag_list;
-    unsigned int       vnum_hoard;
+    ush_int            vnum_hoard;
     bool               valid;
     bool               enchanted;
     char *             owner;
@@ -3686,7 +3670,6 @@ struct obj_data
     long               wear_flags2[MAX_VECT_BANK];
     sh_int             wear_loc;
     sh_int             prewear_loc;
-    sh_int             length;
     sh_int             weight;
     int                cost;
     sh_int             condition;
@@ -3732,12 +3715,12 @@ struct   exit_data
 	union
 	{
 		ROOM_INDEX_DATA *	to_room;
-		unsigned int		vnum;
+		ush_int				vnum;
 	} u1;
 	EXIT_DATA *		next;
 	CHAR_DATA *		alarm; /* do czaru maga poznania */
 	int				exit_info;
-	unsigned int	key;
+	ush_int			key;
 	char *			keyword;
 	char *			description;
 	char *			nightdescription;
@@ -3773,11 +3756,11 @@ struct   reset_data
 {
 	RESET_DATA *	next;
 	char			command;
-	unsigned int	arg0;
-	unsigned int	arg1;
+	ush_int			arg0;
+	ush_int			arg1;
 	int				arg2;
 	int				arg3;
-	unsigned int	arg4;
+	ush_int			arg4;
 };
 
 
@@ -3798,8 +3781,8 @@ struct   area_data
 	sh_int			nplayer;
 	sh_int			low_range;
 	sh_int			high_range;
-	unsigned int	min_vnum;
-	unsigned int	max_vnum;
+	ush_int			min_vnum;
+	ush_int			max_vnum;
 	bool			empty;
 	char *			builders;
 	int				vnum;
@@ -3854,7 +3837,7 @@ struct   room_index_data
 	ush_int				day_rand_desc;
 	ush_int				night_rand_desc;
 	char *				owner;
-	unsigned int		vnum;
+	ush_int				vnum;
 	long				room_flags[MAX_VECT_BANK];
 	sh_int				light;
 	sh_int				sector_type;
@@ -3984,7 +3967,7 @@ struct prog_code
 struct trap_data
 {
 	TRAP_DATA *			next;
-	unsigned int		vnum;			/* numer identyfikacyjny */
+	ush_int				vnum;			/* numer identyfikacyjny */
 	bool				active;			/* aktywna/rozbrojona */
 	int					level;			/* poziom trudnosci pulapki */
 	int					type;			/* typ pulapki: room/exit/obj */
@@ -4007,7 +3990,7 @@ struct rand_desc_data
 {
 	RAND_DESC_DATA *	next;
 	AREA_DATA *			area;
-	unsigned int		vnum;			/* numer identyfikacyjny */
+	ush_int				vnum;			/* numer identyfikacyjny */
 	char *				rand_desc;		/* opis z dyrektywami #*/
 };
 
@@ -4050,7 +4033,7 @@ struct bonus_index_data
 	AFFECT_DATA *		affects;
 	AREA_DATA *			area;
 	EXTRA_DESCR_DATA *	extra_descr;
-	unsigned int		vnum;
+	ush_int				vnum;
 	long				prog_flags[MAX_VECT_BANK];
 	char *				name;
 	char *				description;
@@ -4122,18 +4105,6 @@ struct   weed_type
     sh_int   weed_affect[3];
 };
 
-/**
- * toksycznosc mikstur
- */
-struct toxic_type
-{
-    char * name;
-    char * description;
-    char * gender[6];
-    sh_int power[2];
-};
-extern const struct toxic_type toxic_table [];
-
 /*
   A tutaj ziolka (herbs)
 */
@@ -4195,10 +4166,10 @@ struct learn_trick_list
 
 struct learn_trick_data
 {
-    unsigned int       vnum;  /* numer moba nauczyciela */
-    LEARN_TRICK_DATA * next;  /* nastepny, do lsty      */
-    LEARN_TRICK_LIST * list;  /* lista trickow          */
-    bool               valid;
+    ush_int vnum;       /* numer moba nauczyciela */
+    LEARN_TRICK_DATA *next;  /* nastepny, do lsty      */
+    LEARN_TRICK_LIST *list;  /*lista trickow      */
+    bool valid;
 };
 
 /* rellik: carve
@@ -4262,28 +4233,18 @@ extern   sh_int   gsn_rescue;
 extern   sh_int   gsn_second_attack;
 extern   sh_int   gsn_third_attack;
 extern   sh_int   gsn_fire_breath;
-extern   sh_int   gsn_gas_breath;
 extern   sh_int   gsn_frost_breath;
 extern   sh_int   gsn_acid_breath;
 extern   sh_int   gsn_lightning_breath;
 
-extern   sh_int   gsn_deafness;
 extern   sh_int   gsn_blindness;
-extern   sh_int   gsn_power_word_blindness;
-extern   sh_int   gsn_pyrotechnics;
-extern   sh_int   gsn_sunscorch;
 extern   sh_int   gsn_call_lightning;
 extern   sh_int   gsn_summon_lesser_meteor;
 extern   sh_int   gsn_summon_greater_meteor;
-extern   sh_int   gsn_summon_animals;
 extern   sh_int   gsn_charm_person;
 extern   sh_int   gsn_charm_monster;
-extern   sh_int   gsn_daze;
 extern   sh_int   gsn_curse;
 extern   sh_int   gsn_energy_drain;
-extern   sh_int   gsn_detect_invis;
-extern   sh_int   gsn_detect_hidden;
-extern   sh_int   gsn_wizard_eye;
 extern   sh_int   gsn_invis;
 extern   sh_int   gsn_mass_invis;
 extern  sh_int  gsn_plague;
@@ -4322,13 +4283,10 @@ extern sh_int  gsn_sword;
 extern sh_int  gsn_whip;
 extern sh_int  gsn_bash;
 extern sh_int  gsn_berserk;
-extern sh_int  gsn_divine_favor;
 extern sh_int  gsn_divine_power;
-extern sh_int  gsn_divine_shield;
 extern sh_int  gsn_wardance;
 extern sh_int  gsn_damage_reduction;
 extern sh_int  gsn_luck;
-extern sh_int  gsn_misfortune;
 extern sh_int  gsn_slam;
 extern sh_int  gsn_sap;
 extern sh_int  gsn_claws;
@@ -4347,7 +4305,6 @@ extern sh_int  gsn_bleed;
 extern sh_int  gsn_thigh_jab;
 extern sh_int  gsn_weapon_wrench;
 extern sh_int  gsn_glorious_impale;
-extern sh_int  gsn_rampage;
 
 //style walki
 extern sh_int  gsn_two_weapon_fighting;
@@ -4387,7 +4344,6 @@ extern sh_int  gsn_undead_invis;
 extern sh_int  gsn_resist_fire;
 extern sh_int  gsn_resist_cold;
 extern sh_int  gsn_resist_lightning;
-extern sh_int  gsn_resist_acid;
 extern sh_int  gsn_resist_magic;
 extern sh_int  gsn_fear;
 extern sh_int  gsn_brave_cloak;
@@ -4403,10 +4359,6 @@ extern sh_int  gsn_water_breathing;
 extern sh_int  gsn_energy_shield;
 extern sh_int  gsn_stone_skin;
 extern sh_int  gsn_mirror_image;
-extern sh_int  gsn_blur;
-extern sh_int  gsn_summon;
-extern sh_int  gsn_dimension_door;
-extern sh_int  gsn_recharge;
 extern sh_int  gsn_fireshield;
 extern sh_int  gsn_iceshield;
 extern sh_int  gsn_increase_wounds;
@@ -4420,7 +4372,6 @@ extern sh_int  gsn_blade_barrier;
 extern sh_int  gsn_mental_barrier;
 extern sh_int  gsn_immolate;
 extern sh_int  gsn_alicorn_lance;
-extern sh_int  gsn_storm_shell;
 extern sh_int  gsn_devour;
 extern sh_int  gsn_unholy_fury;
 extern sh_int  gsn_resist_summon;
@@ -4446,37 +4397,6 @@ extern sh_int  gsn_mind_fortess;
 extern sh_int  gsn_razorbladed;
 extern sh_int  gsn_shadow_swarm;
 extern sh_int  gsn_dazzling_flash;
-extern sh_int  gsn_scrying_shield;
-extern sh_int  gsn_free_action;
-extern sh_int  gsn_minor_globe_of_invulnerability;
-extern sh_int  gsn_globe_of_invulnerability;
-extern sh_int  gsn_major_globe_of_invulnerability;
-extern sh_int  gsn_resist_normal_weapon;
-extern sh_int  gsn_resist_magic_weapon;
-extern sh_int  gsn_resist_weapon;
-extern sh_int  gsn_nimbleness;
-extern sh_int  gsn_draconic_wisdom;
-extern sh_int  gsn_insight;
-extern sh_int  gsn_behemot_toughness;
-extern sh_int  gsn_inspiring_presence;
-extern sh_int  gsn_resist_elements;
-extern sh_int  gsn_eyes_of_the_torturer;
-extern sh_int  gsn_deflect_wounds;
-extern sh_int  gsn_breath_of_life;
-extern sh_int  gsn_razorblade_hands;
-extern sh_int  gsn_stability;
-extern sh_int  gsn_perfect_senses;
-extern sh_int  gsn_fortitude;
-extern sh_int  gsn_cat_grace;
-extern sh_int  gsn_owl_wisdom;
-extern sh_int  gsn_fox_cunning;
-extern sh_int  gsn_bear_endurance;
-extern sh_int  gsn_eagle_splendor;
-extern sh_int  gsn_ethereal_armor;
-extern sh_int  gsn_darkvision;
-extern sh_int  gsn_continual_light;
-extern sh_int  gsn_finger_of_death;
-extern sh_int  gsn_weaken;
 //monk
 extern sh_int  gsn_flurry_of_blows;
 extern sh_int  gsn_concentration;
@@ -4500,8 +4420,6 @@ extern sh_int gsn_beast_claws;
 extern sh_int gsn_shield_of_nature;
 extern sh_int gsn_fury_of_the_wild;
 extern sh_int gsn_create_spring;
-extern sh_int gsn_wood_master;
-extern sh_int gsn_singing_ruff;
 
 //paladyn
 extern sh_int  gsn_holy_weapons;
@@ -4511,19 +4429,12 @@ extern sh_int  gsn_holy_prayer;
 extern sh_int  gsn_prayer_last;
 extern sh_int  gsn_sanctification;
 extern sh_int  gsn_sacred_group;
-extern sh_int  gsn_aura_of_vigor;
-extern sh_int  gsn_aura_of_improved_healing;
 
 //kleryk
-extern sh_int  gsn_bless;
-extern sh_int  gsn_spirit_hammer;
-extern sh_int  gsn_word_of_recall;
 extern sh_int  gsn_create_symbol;
 extern sh_int  gsn_life_transfer;
 extern sh_int  gsn_first_aid;
 extern sh_int  gsn_healing_touch;
-extern sh_int  gsn_protection_evil;
-extern sh_int  gsn_protection_good;
 
 //bard
 extern sh_int gsn_listen;
@@ -4556,38 +4467,16 @@ extern sh_int gsn_undead_resemblance;
 
 //przemiany
 extern sh_int gsn_basic_shapeshift;
-extern sh_int gsn_slow;
-extern sh_int gsn_major_haste;
-extern sh_int gsn_haste;
-extern sh_int gsn_giant_strength;
-extern sh_int gsn_strength;
-extern sh_int gsn_champion_strength;
-extern sh_int gsn_bull_strength;
 
 //evoker
 extern sh_int gsn_burn;
 extern sh_int gsn_rain_of_blades;
-extern sh_int gsn_elemental_devastation;
-extern sh_int gsn_psionic_blast;
-extern sh_int gsn_lesser_psionic_blast;
 
 //art destroy
 extern sh_int gsn_art_destroy;
 
 //szaman
 extern   sh_int   gsn_invoke_spirit;
-extern   sh_int   gsn_subdue_spirits;
-extern   sh_int   gsn_spirit_of_life;
-extern   sh_int   gsn_spirit_armor;
-extern   sh_int   gsn_spiritual_guidance;
-extern   sh_int   gsn_ancestors_wisdom;
-extern   sh_int   gsn_ancestors_protection;
-extern   sh_int   gsn_ancestors_favor;
-extern   sh_int   gsn_ancestors_vision;
-extern   sh_int   gsn_ancestors_fury;
-extern   sh_int   gsn_seal_of_weakness;
-extern   sh_int   gsn_seal_of_despair;
-extern   sh_int   gsn_seal_of_doom;
 
 //rozne takie
 extern sh_int gsn_none;
@@ -4646,8 +4535,6 @@ extern sh_int gsn_none;
 #define GET_PERCENT_HP(ch)      ((get_max_hp(ch)>0)? (100*ch->hit)/get_max_hp(ch):-1)
 
 #define GET_PERCENT_MV(ch)      ((ch->max_move>0)?(100*ch->move)/ch->max_move:-1)
-
-//#define IS_SPIRIT(ch)       ( ( (ch) && (ch)->pcdata && (ch)->pcdata->corpse ) && (ch)->pcdata->corpse != NULL )
 
 //#define GET_RACE( ch ) ( ch->real_race == 0 || ch->ss_data ? ch->race : ch->real_race )
 //przerobione na funkcje
@@ -4935,7 +4822,6 @@ extern      const char *          real_day_names[7][2];
 extern      const char *          real_month_names[12][2];
 extern      SOCIAL_DATA *         social_list;
 extern      int                   in_thread;
-extern      SPIRIT_DATA *   	spirits;
 
 /*
  * OS-dependent declarations.
@@ -5076,6 +4962,7 @@ char *   crypt      args( ( const char *key, const char *salt ) );
 #define PREWAIT_FILE      "../system/prewait.txt"
 #define SPELLMSG_FILE     "../system/spell_msg.txt"
 #define SPELLS_FILE       "../system/spells_data.txt"
+#define TRAP_FILE         "../system/traps.txt"
 #define PCCORPSES_FILE    "../system/pccorpses.txt"
 #define ARTEFACT_FILE     "../system/artefact.txt"
 #define MISC_FILE         "../system/miscdata.txt"
@@ -5208,17 +5095,17 @@ OD *   create_object   args( ( OBJ_INDEX_DATA *pObjIndex, bool remote) );
 void   clone_object   args( ( OBJ_DATA *parent, OBJ_DATA *clone ) );
 void   clear_char   args( ( CHAR_DATA *ch ) );
 char *   get_extra_descr   args( ( const char *name, EXTRA_DESCR_DATA *ed ) );
-MID *   get_mob_index   args( ( unsigned int vnum ) );
-OID *   get_obj_index   args( ( unsigned int vnum ) );
-RID *   get_room_index   args( ( unsigned int vnum ) );
+MID *   get_mob_index   args( ( ush_int vnum ) );
+OID *   get_obj_index   args( ( ush_int vnum ) );
+RID *   get_room_index   args( ( ush_int vnum ) );
 PGC *   get_mprog_index args( ( char * name ) );
 PGC *   get_oprog_index args( ( char * name ) );
 PGC *   get_rprog_index args( ( char * name ) );
-BONUS_INDEX_DATA *get_bonus_index args( ( unsigned int vnum ) );
+BONUS_INDEX_DATA *get_bonus_index args( ( ush_int vnum ) );
 SONG_DATA *get_song_index   args( ( ush_int number ) );
 HERB_DATA *	get_herb_index	args( ( char * id ) );
-TRAP_DATA * get_trap_index args( ( unsigned int vnum ) );
-RAND_DESC_DATA * get_rdesc_index args( ( unsigned int vnum ) );
+TRAP_DATA * get_trap_index args( ( ush_int vnum ) );
+RAND_DESC_DATA * get_rdesc_index args( ( ush_int vnum ) );
 DESC_DATA * get_desc_index args( ( AREA_DATA* pArea, char* name ) );
 int next_nonspace_before_newline( FILE *fp );
 char   fread_letter   args( ( FILE *fp ) );
@@ -5283,7 +5170,7 @@ void   sound_effect  args( (void *vo, int level, int dam, int target) );
 
 /* fight.c */
 int    GET_AC(CHAR_DATA *ch, int type);
-bool    is_safe      args( (CHAR_DATA *ch, CHAR_DATA *victim, bool show_message ) );
+bool    is_safe      args( (CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool    is_safe_spell   args( (CHAR_DATA *ch, CHAR_DATA *victim, bool area ) );
 void   violence_update   args( ( void ) );
 void   multi_hit   args( ( CHAR_DATA *ch, CHAR_DATA *victim, int dt ) );
@@ -5416,9 +5303,6 @@ void    change_player_name	args( ( CHAR_DATA * ch, char * new_name ) );
 void apply_shamanistic_guide	args( ( CHAR_DATA * ch ) );
 OBJ_DATA * find_boat	args( (CHAR_DATA *ch) );
 int get_curr_stat args ( ( CHAR_DATA *ch, int stat ) );
-SPIRIT_DATA * 	add_spirit	args( ( CHAR_DATA *ch, OBJ_DATA *corpse ) );
-void 		del_spirit	args( ( CHAR_DATA *ch ) );
-SPIRIT_DATA *	get_spirit	args( ( CHAR_DATA *ch ) );
 
 /*
  * Colour Config
@@ -5439,7 +5323,7 @@ char *   case_one_argument   args( ( char *argument, char *arg_first ) );
 /* board.c */
 
 void    show_contents   args( ( CHAR_DATA * ch, OBJ_DATA * obj ) );
-void    save_board   args( ( CHAR_DATA * ch,unsigned int vnum)    );
+void    save_board   args( ( CHAR_DATA * ch,ush_int vnum)    );
 void    load_board   args( (BOARD_DATA *board));
 /* magic.c */
 int   find_skill   args( ( CHAR_DATA *ch, const char *name, bool must_know ) );
@@ -5473,7 +5357,7 @@ int    chance_to_learn_spell args( (CHAR_DATA *ch, sh_int spell) );
 void    clear_spells_failed   args( (CHAR_DATA *ch) );
 void    add_spells_failed   args( (CHAR_DATA *ch, CHAR_DATA *mob, sh_int spell) );
 bool    can_learn_here      args( (CHAR_DATA *ch, CHAR_DATA *mob, sh_int spell) );
-void    load_spells_failed   args( (CHAR_DATA *ch, unsigned int mob_vnum, sh_int spell) );
+void    load_spells_failed   args( (CHAR_DATA *ch, ush_int mob_vnum, sh_int spell) );
 bool   can_learn_spell      args( (CHAR_DATA *ch, sh_int spell) );
 void   echo_mem      args( (CHAR_DATA *ch, int action) );
 void	mspell_update	args( ( void ) );
@@ -6031,8 +5915,6 @@ EFEKTY DZIALANIA ZIOLEK
 #define SN_TRICK_GLORIOUS_IMPALE		18
 #define SN_TRICK_DIVINE_IMPACT			19
 #define SN_TRICK_DREADFUL_STRIKE		20
-#define SN_TRICK_RAMPAGE				21
-#define SN_TRICK_ENLIGHTENMENT			22
 
 /*
  * mno¿nik punktów do¶wiadczenia
@@ -6097,8 +5979,8 @@ SPEC_DAMAGE * copy_specdam( SPEC_DAMAGE* source );
 /**
  * Utils.
  */
-AREA_DATA *get_vnum_area args ( ( unsigned int vnum ) );
-AREA_DATA *get_area_data args ( ( unsigned int vnum ) );
+AREA_DATA *get_vnum_area args ( ( ush_int vnum ) );
+AREA_DATA *get_area_data args ( ( ush_int vnum ) );
 int flag_value           args ( ( const struct flag_type *flag_table, char *argument) );
 char *flag_string        args ( ( const struct flag_type *flag_table, int bits ) );
 void add_reset           args ( ( ROOM_INDEX_DATA *room, RESET_DATA *pReset, int index ) );
@@ -6184,6 +6066,3 @@ extern const char * level_info_shaman       [];
  */
 #define RENT_COST( c ) ( ( c * RENT_COST_RATE ) / 100 )
 
-extern const char heal_plant_msg_table [6][MAX_STRING_LENGTH];
-extern const char heal_animal_msg_table [6][MAX_STRING_LENGTH];
-extern const char heal_golem_msg_table [6][MAX_STRING_LENGTH];

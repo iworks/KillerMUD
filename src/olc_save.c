@@ -34,7 +34,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Jaron Krzysztof       (chris.jaron@gmail.com           ) [Razor   ] *
  * Pietrzak Marcin       (marcin@iworks.pl                ) [Gurthg  ] *
@@ -44,8 +44,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: olc_save.c 11237 2012-04-07 15:23:19Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/olc_save.c $
+ * $Id: olc_save.c 10989 2012-02-18 11:33:25Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/olc_save.c $
  *
  */
 #if defined(macintosh)
@@ -1015,7 +1015,7 @@ void do_asave( CHAR_DATA *ch, char *argument )
                 pArea = ( (MOB_INDEX_DATA *)ch->desc->pEdit )->area;
                 break;
             case ED_HELP:
-                send_to_char( "Zapisywanie plików z pomoc±.", ch );
+                send_to_char( "Grabando area : ", ch );
                 save_other_helps( ch );
                 return;
             default:
@@ -1246,7 +1246,6 @@ void new_save_object( FILE *fp, OBJ_INDEX_DATA *pObjIndex )
          pObjIndex->repair_condition
         );
 
-    fprintf( fp, "Length %d\n",       pObjIndex->length );
     fprintf( fp, "Weight %d\n",       pObjIndex->weight );
     fprintf( fp, "Cost %d\n",         pObjIndex->cost );
     fprintf( fp, "Cond %d\n",         pObjIndex->condition);

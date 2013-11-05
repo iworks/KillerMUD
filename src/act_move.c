@@ -26,8 +26,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: act_move.c 12184 2013-03-25 16:08:25Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/act_move.c $
+ * $Id: act_move.c 12185 2013-03-25 16:08:44Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/act_move.c $
  *
  */
 #if defined(macintosh)
@@ -118,7 +118,7 @@ int get_door( CHAR_DATA *ch, char* argument )
 void turn_into_dust_objects_sensitive_to_light( CHAR_DATA *ch, int dmg )
 {
     OBJ_DATA * obj, *obj_next = NULL, *dust;
-    AFFECT_DATA aff, *pAff;
+	AFFECT_DATA aff, *pAff;
     char buf[ MAX_STRING_LENGTH ];
     /**
      * w ciemny pokoju nie
@@ -155,26 +155,26 @@ void turn_into_dust_objects_sensitive_to_light( CHAR_DATA *ch, int dmg )
         /**
          * adamantytowe kasujemy
          */
-        if ( obj->material == 7 && !IS_OBJ_STAT( obj, ITEM_DARK )) // adamantyt, niechroniony czarem darkness
+		if ( obj->material == 7 && !IS_OBJ_STAT( obj, ITEM_DARK )) // adamantyt, niechroniony czarem darkness
         {
             //raszer - co sie dzieje z przedmiotami adamantytowymi gdy dzialaja na nie promienie sloneczne
             //jesli juz nie sa rozgrzane, to rozgrzwaja sie
             if ( !( pAff = affect_find( obj->affected, gsn_heat_metal ) ) )
             {
-                if ( ( pAff = affect_find( obj->affected, gsn_chill_metal ) ) )
+             	if ( ( pAff = affect_find( obj->affected, gsn_chill_metal ) ) )
                 {
                     act( "Szron pokrywajacy $p znika.", ch, obj, NULL, TO_CHAR );
                     affect_remove_obj( obj, pAff );
                     return;
                 }
 
-                aff.where = TO_OBJECT;
-                aff.type = gsn_heat_metal;
-                aff.level = 30;
+                aff.where	= TO_OBJECT;
+                aff.type	= gsn_heat_metal;
+                aff.level	= 30;
                 aff.duration = 6; aff.rt_duration = 0;
-                aff.location = APPLY_NONE;
-                aff.modifier = 0;
-                aff.bitvector = &AFF_NONE;
+                aff.location	= APPLY_NONE;
+                aff.modifier	= 0;
+                aff.bitvector	= &AFF_NONE;
 
                 affect_to_obj( obj, &aff );
                 if ( obj->liczba_mnoga )
@@ -208,20 +208,22 @@ void turn_into_dust_objects_sensitive_to_light( CHAR_DATA *ch, int dmg )
                     dust = create_object( get_obj_index( OBJ_VNUM_ASH ), FALSE );
                     obj_to_char( dust, ch );
                     sprintf(
-                            buf,
-                            "[%d][adamantyt] %s (%d) loss adamantium item: %s (%d).",
-                            ch->in_room ? ch->in_room->vnum : 0,
-                            ch->name,
-                            ch->level,
-                            strip_colour_codes( obj->short_descr ),
-                            obj->pIndexData->vnum
-                           );
+                    buf,
+                    "[%d][adamantyt] %s (%d) loss adamantium item: %s (%d).",
+                    ch->in_room ? ch->in_room->vnum : 0,
+                    ch->name,
+                    ch->level,
+                    strip_colour_codes( obj->short_descr ),
+                    obj->pIndexData->vnum
+                    );
                     log_string( buf );
                 }
             }
+
         }
+        
     }
-    return;
+	return;
 }
 
 void move_char( CHAR_DATA *ch, int door, bool follow, OBJ_DATA *dragged )
@@ -334,7 +336,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow, OBJ_DATA *dragged )
             EXT_REMOVE_BIT( ch->affected_by, AFF_SNEAK );
         }
     }
-
+	
     if ( !IS_NPC( ch ) && IS_AFFECTED( ch, AFF_SNEAK ) && !dragged )
     {
         if( get_skill(ch,gsn_sneak) > 0 )
@@ -1047,7 +1049,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow, OBJ_DATA *dragged )
         /*
          * aura of vigor bonus
          */
-        if ( is_affected( ch, gsn_aura_of_vigor ) )
+        if ( is_affected( ch, skill_lookup( "aura of vigor" ) ) )
         {
             move = UMAX( 1, move - 1 );
             wait_mod /= 2;
@@ -1297,7 +1299,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow, OBJ_DATA *dragged )
         }
     }
 #ifdef ENABLE_NEW_TRACK
-	save_track_data(ch, ch->in_room, to_room, 0);
+	save_track_data(ch, ch->in_room, to_room, 1);
 #endif
 
 	DEBUG_INFO( "move_char(6):char_from_to");
@@ -2380,17 +2382,17 @@ void do_unlock( CHAR_DATA *ch, char *argument )
 		{
 			send_to_char( "To nie jest zamkniête.\n\r", ch ); return;
 		}
-        /**
-         * klucz zerowy lub brak klucza
-         */
-        if ( pexit->key == 0 || ( key = has_key( ch, pexit->key ) ) == NULL )
-        {
-            send_to_char( "Niestety brakuje ci klucza.\n\r", ch );
-            return;
-        }
+		if ( pexit->key == 0 )
+		{
+			send_to_char( "To nie mo¿e byæ odkluczone.\n\r", ch ); return;
+		}
 		if ( IS_SET( pexit->exit_info, EX_BROKEN ) )
 		{
 			send_to_char( "Kto¶ majstrowa³ przy zamku i go uszkodzi³.\n\r", ch ); return;
+		}
+		if ( ( key = has_key( ch, pexit->key ) ) == NULL )
+		{
+			send_to_char( "Brakuje ci niestety klucza.\n\r", ch ); return;
 		}
 		if ( !IS_SET( pexit->exit_info, EX_LOCKED ) )
 		{

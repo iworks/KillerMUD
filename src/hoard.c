@@ -8,7 +8,7 @@
  ***********************************************************************
  *
  * $Id: hoard.c 10694 2011-11-30 22:21:09Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/hoard.c $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/hoard.c $
  *
  */
 #if defined(macintosh)

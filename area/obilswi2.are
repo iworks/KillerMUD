@@ -27,11 +27,11 @@ ExtraExt 0|G
 Wear AN
 Wear2Ext 0
 Bonus 0
+Rent 350
 LiczbaMnoga 0
 Gender 3
 Value 3 5 2 34 1024 2 2
 Repair 0 0 0 0
-Length 140
 Weight 70
 Cost 90000
 Cond 20
@@ -41,12 +41,33 @@ oka zdaje siê byæ broni± niezwyk³±. Jej przedziwny, pod³ó¿ny grot wygl±da
 jakby by³ zrobiony z... b³ota! Mimo wszystko trzyma siê na swoim miejscu
 gotowy by zanurzyæ siê w cia³ach przeciwników. 
 ~
-Identdesc Za spraw± magicznej aury, otaczaj±cej ten przedmiot, udaje ci siê odkryæ
-w nim jakie¶ prastare, druidzkie zaklêcie... Nie za bardzo siê na tym znasz,
+Identdesc Za spraw± magicznej aury otaczaj±cej ten przedmiot udaje ci siê odkryæ w
+nim jakie¶ prastare, druidzkie zaklêcie... Nie za bardzo siê na tym znasz,
 ale wydaje ci siê, ¿ê ma ono co¶ wspólnego z b³otem... 
 ~
 Comments W³ócznia wypadaj±ca z bagiennego potwora w Obilonie - {RGorst{x ({CThu Apr 23 21:56:30 2009{x)
 ~
+Objend
+#Vnum 50872
+Name ³amacz zaklêæ sai zdobione~
+Odmiana sai "{D£amacz zaklêæ{x"~sai "{D£amacz zaklêæ{x"~sai "{D£amacz zaklêæ{x"~sai "{D£amacz zaklêæ{x"~sai "{D£amacz zaklêæ{x"~
+Short sai "{D£amacz zaklêæ{x"~
+Descr Zdobione sai "{D£amacz zaklêæ{x" le¿y tutaj na ziemi emanuj±c ukryt± moc±.~
+Material smoczy z±b~
+Type weapon
+ExtraExt 0|DEG
+Wear AN
+Wear2Ext 0|P
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 1
+Value 2 2 2 34 1296 0 0
+Repair 0 0 0 0
+Weight 39
+Cost 204720
+Cond 100
+Comments ~
 Objend
 #Vnum 50873
 Name kamieñ~
@@ -59,11 +80,11 @@ ExtraExt 0
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 1
 Cond 75
@@ -1258,7 +1279,7 @@ S
 
 
 #RESETS
-O 100 2358 0 50876
+O 100 3399 0 50876
 M 33 19703 1 50876 1
 M 33 19702 1 50896 1
 S
@@ -1273,14 +1294,13 @@ if roomhasflag blotny_tapniecie
 endif
 if affected $n stablility
 or affected $n fly
-  break
+break
 else
-  mob echoat $n {WPotê¿ne t±pniêcie bagiennej masy powala ciê na ziemiê!
-  mob damage $n 1 10 gorst
-  mob setpos $n sitting
-  mob setflag room blotny_tapniecie 1
-  mob reward $n wait 2
-kill $n
+    mob echoat $n {WPotê¿ne t±pniêcie bagiennej masy powala ciê na ziemiê
+    mob damage $n 1 10 gorst
+    mob setpos $n sitting
+  endif
+mob setflag room blotny_tapniecie 3
 endif
 ~
 #bagienny_kler
@@ -1330,7 +1350,7 @@ mob echoat $n {WBagienny potwór odrzuca ciê w ty³ strumieniem skoncentrowanego b
 mob echoaround $n {WBagienny potwór odrzuca $z w ty³ strumieniem skoncentrowanego b³ota{x!
 mob echoaround $n {W$n leci daleko w ty³{x!
 mob transfer $n 19706
-mob at 19706 mob echoat $n Auc! Zatrzymujesz sie na pniu jakiegos drzewa!
+mob at 19706 mob echoat $n Auc! Zatrzymujesz sie na pniu jakiegos posepnego drzewa!
 mob at 19706 mob damage $n 5 50 gorst!
 ~
 #bagienny_target

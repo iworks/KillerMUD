@@ -226,6 +226,53 @@ Mobend
 
 
 #OBJECTS
+#Vnum 15270
+Name no name~
+Odmiana null~null~null~null~null~
+Short (no short description)~
+Descr ~
+Material unused~
+Type trash
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Comments ~
+Objend
+#Vnum 15271
+Name ¦wi±teczna czapka miko³aja~
+Odmiana ¦wi±tecznej czapki miko³aja~¦wi±tecznej czapce miko³aja~¦wi±teczn± czapkê miko³aja~¦wi±teczn± czapk± miko³aja~¦wi±tecznej czapce miko³aja~
+Short ¦wi±teczna czapka miko³aja~
+Descr ¦wi±teczna czapka miko³aja le¿y tutaj.~
+Material kaszmir~
+Type clothing
+ExtraExt 0|AT
+Wear AE
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Objprog wear czapka_miko³aja 100~
+Objprog random czapka_miko³aja 2~
+Itemdesc Przepiêkna, ¶wi±teczna czapka miko³aja z kaszmiru. Pewnie kto¶ miko³aja
+zabi³, bo z w³asnych chêci napewno by siê z ni± nie rozsta³. 
+~
+Comments ~
+Objend
 #Vnum 15290
 Name Wysoka palma~
 Odmiana wysokiej palmy~wysokiej palmie~wysok± palme~wysok± palm±~wysokiej palmie~
@@ -237,11 +284,11 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 3
 Value 500 16 0 5 100 15291 -1
 Repair 0 0 0 0
-Length 0
 Weight 10000
 Cost 1
 Cond 75
@@ -264,11 +311,11 @@ ExtraExt 0
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 2
 Value 25 15 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 1
 Cond 75
@@ -277,6 +324,57 @@ ale zaraz, zaraz. Dlaczego jest on oko³o 3 razy wiêkszy od normalnego? Widaæ
 owoc ten zerwany z drzewa, które ros³o na magicznej pla¿y równie¿
 zaczerpnê³o trochê magii i wykorzysta³o j± do ro¶niêcia. No có¿ przynajmniej
 siê najesz. 
+~
+Comments ~
+Objend
+#Vnum 15292
+Name D³uga szata~
+Odmiana d³ugiej szty~d³ugiej szacie~null~d³ug± szat±~d³ugiej szacie~
+Short d³uga szata~
+Descr D³uga szata le¿y tutaj.~
+Material unused~
+Type armor
+ExtraExt 0
+Wear D
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 11
+Cond 75
+Itemdesc Masz przed sob± zwyk³± szatê ubieran± przez wiêkszo¶æ uczonych osób.
+Szata w tym stylu odró¿nia wykszta³conych od zwyk³ych 'rêcznych'
+pracowników. D³uga, o zielonkawym odcieniu mo¿e wskazywaæ, i¿ w³a¶cicielem
+jest osobowa lubi±ca naturê, aczkolwiek to nic pewnego. 
+~
+Comments ~
+Objend
+#Vnum 15293
+Name Ksiêga druidzka~
+Odmiana ksiêgi druidzkiej~ksiêdze druidzkiej~ksiêge druidzk±~ksiêg± druidzk±~ksiêdze druidzkiej~
+Short ksiêga druidzka~
+Descr Zabrudzona ksiêga druidzka le¿y tutaj.~
+Material unused~
+Type spellbook
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 3
+Value 5 6 219 502 30 499 0
+Repair 0 0 0 0
+Weight 10
+Cost 1
+Cond 75
+Itemdesc Przypatruj±c siê ksiêdze nie zauwa¿asz w niej nic specjalnego.
+Wybrudzona od b³ota ok³adka nie zachêca do spêdzenia nad ni± wielu godzin
+studiuj±c stronê po stronie. Miejmy nadziejê, ¿e trud siê op³aci 
 ~
 Comments ~
 Objend
@@ -2242,7 +2340,8 @@ M 100 15288 1 15288 1
 O 100 15290 0 15290
 O 100 15291 0 15290
 M 100 15290 1 15290 1
-E 100 4366 0 5
+E 100 15292 0 5
+E 30 15293 0 17
 M 100 15270 1 15292 3
 M 100 15270 1 15299 3
 M 100 15291 1 15305 1

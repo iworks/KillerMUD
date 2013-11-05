@@ -273,6 +273,7 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew death 45557 ABCDEFGHI 100~
 MobprogNew random 45553 FGI 2~
 Spells 228 93 163 1
 Spells 176 2 87 69
@@ -406,6 +407,107 @@ Mobend
 
 
 #OBJECTS
+#Vnum 45551
+Name pordzewia³y topór dwurêczny~
+Odmiana pordzewia³ego topora~pordzewia³emu toporowi~pordzewia³y topór~pordzewia³ym toporem~pordzewia³ym toporze~
+Short pordzewia³y topór~
+Descr Pordzewia³y topór le¿y tutaj w b³ocie.~
+Material stal~
+Type weapon
+ExtraExt 0|a
+Wear AN
+Wear2Ext 0|IL
+Bonus 0
+Rent 18
+LiczbaMnoga 0
+Gender 0
+Value 5 3 4 1 32 1 0
+Repair 0 0 0 0
+Weight 120
+Cost 40
+Cond 50
+Itemdesc Jest to do¶æ mocno zardzewia³y dwurêczny topór. U¿ywaj± go tutejsze
+czarne orki. Po stanie topora widaæ, ¿e orki przechowuj± je chyba w b³ocie.
+Ostrze pokryte jest wyschniêt± krwi±, dziêki tym toporom orki zdobywaj±
+sobie po¿ywienie. 
+~
+Comments ~
+Objend
+#Vnum 45552
+Name zwierzêce skóry~
+Odmiana zwierzêcych skór~zwierzêcym skórom~zwierzêce skóry~zwierzêcymi skórami~zwierzêcych skórach~
+Short zwierzêce skóry~
+Descr Zwierzêce skóry walaj± siê tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0|a
+Wear AD
+Wear2Ext 0
+Bonus 0
+Rent 19
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 10
+Cond 75
+Itemdesc S± to trochê zniszczone zwierzêce skóry, posklejane ze sob± za pomoc±
+¿ywicy. Wygl±daj± na do¶æ wygodne, jednach ich zapach jest ohdny. Pewnie
+dlatego, ¿e walaj± siê w orczych odchodach. 
+~
+Comments ~
+Objend
+#Vnum 45553
+Name czarny pordzewia³y topór~
+Odmiana pordzewia³ego dwurêcznego topora~pordzewia³emu dwurêcznemu toporowi~pordzewia³y dwurêczny topór~pordzewia³ym dwurêcznym toporem~pordzewia³ym dwurêcznym toporze~
+Short pordzewia³y dwurêczny topór~
+Descr Czarny, pordzewia³y, dwurêczny topór le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+Rent 40
+LiczbaMnoga 0
+Gender 0
+Value 5 2 8 25 32 0 0
+Repair 0 0 0 0
+Weight 200
+Cost 70
+Cond 70
+Itemdesc Jest to do¶æ mocno pordzewia³y, czarny dwurêczny topór, jest do¶æ ciê¿ki,
+co sprawia, ¿e trzeba go dzier¿yæ dwurêcznie. Ma czarne stylisko i mocno
+pordzewia³e ostrze, na którym widoczne s± zaschniête plamy krwi. 
+~
+Comments ~
+Objend
+#Vnum 45555
+Name ognisko~
+Odmiana ogniska~ognisku~ognisko~ogniskiem~ognisku~
+Short ognisko~
+Descr Ognisko przy którym mo¿esz siê ogrzaæ, czy te¿ upiec co¶, p³onie tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 5 -1 584 120 100 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1
+Cond 75
+Itemdesc Jest to du¿e ognisko z niezdarnie pouk³adanym drzewem i ¶mieciami.
+Tutejsze orki wykorzystuj± ogniska do pieczenia miêsa które zdo³aj± zdobyæ.
+Dodatkowo mo¿e s³u¿yæ do ogrzania siê. 
+~
+Comments ~
+Objend
 #Vnum 45556
 Name spory tron drewniany gliniany~
 Odmiana tronu~tronowi~tron~tronem~tronie~
@@ -417,17 +519,43 @@ ExtraExt 0
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 0
 Value 1 -1 144 100 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1300
 Cost 1
 Cond 75
 Itemdesc Jest to spory, wykonany z drewna i gliny tron. U¿ywany jest tylko przez
 wodza. Tutejsze legendy mówi±, ¿e kiedy jeden z orków usiad³ na tym tronie,
 to sam wódz odci±³ mu g³owê, a resztki zjad³ z pozosta³ymi orkami. 
+~
+Comments ~
+Objend
+#Vnum 45557
+Name magiczna ksiega~
+Odmiana magicznej ksiêgi~magicznej ksiêdze~magiczn± ksiêgê~magicz± ksiêg±~magicznej ksiêdze~
+Short magiczna ksiêga~
+Descr Magiczna ksiega le¿y tutaj w kurzu.~
+Material papier~
+Type spellbook
+ExtraExt 0|Gd
+Wear AO
+Wear2Ext 0
+Bonus 0
+Rent 0
+LiczbaMnoga 0
+Gender 0
+Value 0 5 324 34 146 203 0
+Repair 0 0 0 0
+Weight 20
+Cost 900
+Cond 75
+Itemdesc Jest to niedu¿a, magiczna ksiêga czarów. Ma do¶c du¿o kartek co sprawia,
+¿e jest gruba i stosunkowo ciê¿ka. Na jej ok³adce widnieje niewyra¼ny napis:
+{Y'waouqkia tguzoa qkabraax'{x. Prócz tego na ok³adce widzisz jakie¶ wzorki.
+Ksiêga wydaje siê a¿ pulsowaæ magiczn± moc±. 
 ~
 Comments ~
 Objend
@@ -3082,210 +3210,210 @@ S
 
 #RESETS
 M 100 45550 1 45557 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45557 2 45557 1
 M 100 45553 1 45558 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 2 45560 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45553 2 45561 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45553 2 45563 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45557 1 45563 1
 M 100 45551 4 45564 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 3 45564 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45556 4 45565 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45553 9 45565 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45551 3 45566 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
-O 100 3203 0 45566
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+O 100 45555 0 45566
 M 100 45556 3 45567 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45553 10 45568 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 4 45568 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45553 3 45570 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
-O 100 3203 0 45570
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+O 100 45555 0 45570
 M 100 45556 5 45571 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45551 5 45572 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45557 3 45573 1
 M 100 45551 6 45574 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45553 4 45574 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
-O 100 3203 0 45574
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+O 100 45555 0 45574
 M 100 45551 7 45576 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45553 6 45576 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
-O 100 3203 0 45576
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+O 100 45555 0 45576
 M 100 45556 6 45577 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45553 7 45578 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45551 8 45579 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45557 4 45579 1
 M 100 45556 7 45580 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45550 8 45581 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45550 9 45584 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45550 11 45585 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45550 14 45589 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45550 12 45590 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45557 5 45591 1
 M 100 45553 11 45592 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
-O 100 3203 0 45593
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+O 100 45555 0 45593
 M 100 45556 2 45595 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45551 2 45595 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 6 45598 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45550 5 45601 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45556 1 45602 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45551 1 45603 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45553 12 45604 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 7 45604 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
-O 100 3203 0 45604
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
+O 100 45555 0 45604
 M 100 45552 1 45607 1
-E 100 3127 0 16
-E 100 3003 0 8
-E 100 4370 0 5
+E 100 45553 0 16
+E 100 3072 0 8
+E 100 45552 0 5
 O 100 45556 0 45607
-O 100 3203 0 45610
+O 100 45555 0 45610
 M 100 45554 1 45613 1
 M 100 45556 8 45615 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45551 9 45617 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 13 45617 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45553 8 45619 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45556 9 45620 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45551 10 45623 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45553 5 45626 1
-E 100 3179 0 16
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 3022 0 16
+E 100 45552 0 5
+E 100 3072 0 8
 M 100 45550 10 45626 1
-E 100 4370 0 5
-E 100 3003 0 8
-E 100 3127 0 16
+E 100 45552 0 5
+E 100 3072 0 8
+E 100 45551 0 16
 M 100 45555 1 45628 1
-E 100 4370 0 5
-E 100 3003 0 8
+E 100 45552 0 5
+E 100 3072 0 8
 S
 
 
@@ -3338,11 +3466,14 @@ endif
 ~
 #45557
 ~
+if rand 60
+  mob oload 45557 R
+endif
 mob oload gem 3 R
 if rand 50
-    mob oload gem 5
-    mob oload rand 5 earring
-    mob oload rand 5 earring
+mob oload gem 5
+mob oload rand 5 earring
+mob oload rand 5 earring
 endif
 ~
 #0
@@ -3395,6 +3526,9 @@ mob echo Wódz krzyczy co¶ g³o¶no do którego¶ z orków!
 #45556
 ~
 mob force wodz rest tron
+~
+#45557
+~
 ~
 #0
 

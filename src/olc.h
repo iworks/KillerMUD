@@ -43,8 +43,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: olc.h 11230 2012-04-05 20:53:29Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/olc.h $
+ * $Id: olc.h 10989 2012-02-18 11:33:25Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/olc.h $
  *
  */
 #define VERSION	"ILAB Online Creation [Beta 1.0, ROM 2.3 modified]\n\r" \
@@ -103,6 +103,7 @@ void    hedit     args( ( CHAR_DATA *, char * ) );
 void    bsedit    args( ( CHAR_DATA *ch, char *argument ) );
 void    sedit     args( ( CHAR_DATA *ch, char *argument ) );
 void    hbedit    args( ( CHAR_DATA *ch, char *argument ) );
+
 
 /*
  * OLC Constants
@@ -248,7 +249,6 @@ DECLARE_OLC_FUN( oedit_value3		);
 DECLARE_OLC_FUN( oedit_value4		);  /* ROM */
 DECLARE_OLC_FUN( oedit_value5		);  /* XROM */
 DECLARE_OLC_FUN( oedit_value6		);  /* XROM */
-DECLARE_OLC_FUN( oedit_length		);
 DECLARE_OLC_FUN( oedit_weight		);
 DECLARE_OLC_FUN( oedit_cost		);
 DECLARE_OLC_FUN( oedit_ed		);

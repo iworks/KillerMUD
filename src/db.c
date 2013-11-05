@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2011 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: db.c 12408 2013-06-12 12:29:02Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/db.c $
+ * $Id: db.c 11356 2012-05-16 20:44:02Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/db.c $
  *
  */
 #include <stdio.h>
@@ -80,9 +80,9 @@ time_t time(time_t *tloc);
 #endif
 
 
-char const * last_command;
+char * last_command;
 //rellik: do debugowania, dodaje te¿ pamiêtanie poprzednieg debug_info
-char const * previous_command;
+char * previous_command;
 
 //rellik: do debugowania, nie wiem czy tu moze byc deklaracja funkcji (definicja w act_wiz)
 void save_debug_info(const char *actual, const char *caller, char *txt,	int nr_proj, int debuglevel, bool include_info);
@@ -139,7 +139,6 @@ ROOM_UPDATE_LIST 	room_update_list;
 BONUS_INDEX_DATA *		bonus_list = NULL;
 SONG_DATA *		song_list = NULL;
 SOCIAL_DATA *	social_list = NULL;
-SPIRIT_DATA *		spirits = NULL;
 
 sh_int			gsn_backstab;
 sh_int			gsn_circle;
@@ -165,23 +164,14 @@ sh_int			gsn_shield_block;
 sh_int			gsn_rescue;
 sh_int			gsn_second_attack;
 sh_int			gsn_third_attack;
-sh_int			gsn_deafness;
 sh_int			gsn_blindness;
-sh_int			gsn_power_word_blindness;
-sh_int			gsn_pyrotechnics;
-sh_int			gsn_sunscorch;
 sh_int			gsn_call_lightning;
 sh_int			gsn_summon_lesser_meteor;
 sh_int			gsn_summon_greater_meteor;
-sh_int			gsn_summon_animals;
 sh_int			gsn_charm_person;
 sh_int			gsn_charm_monster;
-sh_int			gsn_daze;
 sh_int			gsn_curse;
 sh_int			gsn_energy_drain;
-sh_int			gsn_detect_invis;
-sh_int			gsn_detect_hidden;
-sh_int			gsn_wizard_eye;
 sh_int			gsn_invis;
 sh_int			gsn_mass_invis;
 sh_int			gsn_poison;
@@ -203,13 +193,6 @@ sh_int  		gsn_repair;
 sh_int			gsn_bladethirst;
 sh_int			gsn_healing_sleep;
 sh_int			gsn_energize;
-sh_int			gsn_slow;
-sh_int			gsn_haste;
-sh_int			gsn_major_haste;
-sh_int			gsn_giant_strength;
-sh_int			gsn_strength;
-sh_int			gsn_champion_strength;
-sh_int			gsn_bull_strength;
 sh_int  		gsn_shortsword;
 sh_int  		gsn_staff;
 sh_int  		gsn_spear;
@@ -218,8 +201,6 @@ sh_int  		gsn_whip;
 sh_int  		gsn_bash;
 sh_int  		gsn_berserk;
 sh_int  		gsn_divine_power;
-sh_int  		gsn_divine_favor;
-sh_int  		gsn_divine_shield;
 sh_int			gsn_wardance;
 sh_int 			gsn_damage_reduction;
 sh_int  		gsn_slam;
@@ -227,7 +208,6 @@ sh_int  		gsn_slam;
   sh_int  		gsn_hand_to_hand;*/
 sh_int  		gsn_trip;
 sh_int      gsn_fire_breath;
-sh_int      gsn_gas_breath;
 sh_int      gsn_frost_breath;
 sh_int      gsn_acid_breath;
 sh_int      gsn_lightning_breath;
@@ -278,7 +258,6 @@ sh_int			gsn_undead_invis;
 sh_int			gsn_resist_fire;
 sh_int			gsn_resist_cold;
 sh_int			gsn_resist_lightning;
-sh_int			gsn_resist_acid;
 sh_int			gsn_resist_magic;
 sh_int			gsn_resist_summon;
 sh_int			gsn_fear;
@@ -295,10 +274,6 @@ sh_int			gsn_water_breathing;
 sh_int			gsn_energy_shield;
 sh_int			gsn_stone_skin;
 sh_int			gsn_mirror_image;
-sh_int			gsn_blur;
-sh_int			gsn_summon;
-sh_int			gsn_dimension_door;
-sh_int			gsn_recharge;
 sh_int			gsn_fireshield;
 sh_int			gsn_iceshield;
 sh_int			gsn_reflect_spell;
@@ -339,37 +314,6 @@ sh_int			gsn_defense_curl;
 sh_int			gsn_mind_fortess;
 sh_int			gsn_shadow_swarm;
 sh_int			gsn_dazzling_flash;
-sh_int			gsn_scrying_shield;
-sh_int			gsn_free_action;
-sh_int			gsn_minor_globe_of_invulnerability;
-sh_int			gsn_globe_of_invulnerability;
-sh_int			gsn_major_globe_of_invulnerability;
-sh_int			gsn_resist_normal_weapon;
-sh_int			gsn_resist_magic_weapon;
-sh_int			gsn_resist_weapon;
-sh_int			gsn_nimbleness;
-sh_int			gsn_draconic_wisdom;
-sh_int			gsn_insight;
-sh_int			gsn_behemot_toughness;
-sh_int			gsn_inspiring_presence;
-sh_int			gsn_resist_elements;
-sh_int			gsn_eyes_of_the_torturer;
-sh_int			gsn_deflect_wounds;
-sh_int			gsn_breath_of_life;
-sh_int			gsn_razorblade_hands;
-sh_int			gsn_stability;
-sh_int			gsn_perfect_senses;
-sh_int			gsn_fortitude;
-sh_int			gsn_cat_grace;
-sh_int			gsn_owl_wisdom;
-sh_int			gsn_fox_cunning;
-sh_int			gsn_bear_endurance;
-sh_int			gsn_eagle_splendor;
-sh_int			gsn_ethereal_armor;
-sh_int			gsn_darkvision;
-sh_int			gsn_continual_light;
-sh_int			gsn_finger_of_death;
-sh_int			gsn_weaken;
 
 sh_int			gsn_playerquityes;
 sh_int			gsn_playerdeath;
@@ -386,7 +330,6 @@ sh_int			gsn_bleed;
 sh_int			gsn_thigh_jab;
 sh_int			gsn_weapon_wrench;
 sh_int			gsn_glorious_impale;
-sh_int			gsn_rampage;
 
 //monk gsn
 sh_int			gsn_concentration;
@@ -407,18 +350,14 @@ sh_int			gsn_herbs_knowledge;
 sh_int			gsn_immolate;
 sh_int			gsn_lava_bolt;
 sh_int			gsn_luck;
-sh_int			gsn_misfortune;
 sh_int  		gsn_magic_fang;
 sh_int			gsn_nature_curse;
 sh_int			gsn_shapeshift;
 sh_int			gsn_shield_of_nature;
 sh_int			gsn_shillelagh;
-sh_int			gsn_storm_shell;
 sh_int			gsn_wind_charger;
 sh_int			gsn_fury_of_the_wild;
 sh_int			gsn_create_spring;
-sh_int			gsn_wood_master;
-sh_int			gsn_singing_ruff;
 
 //paladyn
 sh_int          gsn_holy_weapons;
@@ -428,19 +367,12 @@ sh_int          gsn_holy_prayer;
 sh_int          gsn_prayer_last;
 sh_int          gsn_sanctification;
 sh_int          gsn_sacred_group;
-sh_int          gsn_aura_of_vigor;
-sh_int          gsn_aura_of_improved_healing;
 
 //kleryk
-sh_int			gsn_bless;
 sh_int			gsn_create_symbol;
-sh_int			gsn_word_of_recall;
-sh_int			gsn_spirit_hammer;
 sh_int			gsn_life_transfer;
 sh_int			gsn_first_aid;
 sh_int			gsn_healing_touch;
-sh_int			gsn_protection_evil;
-sh_int			gsn_protection_good;
 
 //bard
 sh_int			gsn_listen;
@@ -477,24 +409,9 @@ sh_int			gsn_basic_shapeshift;
 //evoker
 sh_int			gsn_burn;
 sh_int			gsn_rain_of_blades;
-sh_int			gsn_elemental_devastation;
-sh_int			gsn_psionic_blast;
-sh_int			gsn_lesser_psionic_blast;
 
 //Szaman
 sh_int			gsn_invoke_spirit;
-sh_int			gsn_subdue_spirits;
-sh_int			gsn_spirit_of_life;
-sh_int			gsn_spirit_armor;
-sh_int			gsn_spiritual_guidance;
-sh_int          gsn_ancestors_wisdom;
-sh_int          gsn_ancestors_protection;
-sh_int          gsn_ancestors_favor;
-sh_int          gsn_ancestors_vision;
-sh_int          gsn_ancestors_fury;
-sh_int          gsn_seal_of_weakness;
-sh_int          gsn_seal_of_despair;
-sh_int          gsn_seal_of_doom;
 
 //niszczenie artów
 sh_int                  gsn_art_destroy;
@@ -579,6 +496,7 @@ void    load_repairs    args( ( FILE *fp ) );
 void	load_banks	    args( ( FILE *fp ) );
 void 	load_socials	args( ( FILE *fp ) );
 void	load_specials	args( ( FILE *fp ) );
+void	load_notes	    args( ( void ) );
 void	load_bans	    args( ( void ) );
 void    save_bans       args( ( void ) );
 void	load_mobprogs	args( ( FILE *fp, bool new ) );
@@ -781,6 +699,10 @@ void boot_db( )
         sprintf( log_buf, "Updating area." );
         log_string( log_buf );
         area_update( );
+
+        sprintf( log_buf, "Loading notes." );
+        log_string( log_buf );
+        load_notes( );
 
         sprintf( log_buf, "Loading bans." );
         log_string( log_buf );
@@ -1009,7 +931,7 @@ void new_load_area( FILE *fp )
 /*
  * Sets vnum range for area using OLC protection features.
  */
-void assign_area_vnum( unsigned int vnum )
+void assign_area_vnum( ush_int vnum )
 {
     if ( area_last->min_vnum == 0 || area_last->max_vnum == 0 )
         area_last->min_vnum = area_last->max_vnum = vnum;
@@ -1259,7 +1181,7 @@ void load_repairs( FILE *fp )
 {
     REPAIR_DATA *repair, *prep;
     MOB_INDEX_DATA *pMobIndex;
-    unsigned int vnum;
+    ush_int vnum;
     char c;
 
     for ( ; ; )
@@ -1469,7 +1391,8 @@ void fix_exits( void )
                         get_obj_index( pReset->arg1 );
                         if ( iLastRoom == NULL )
                         {
-                            bugf( "fix_exits : reset en cuarto %d con iLastRoom NULL, area: %s, obj: %d", pRoomIndex->vnum, pRoomIndex->area->file_name, pReset->arg1 );
+
+                            bugf( "fix_exits : reset en cuarto %d con iLastRoom NULL, area: %s", pRoomIndex->vnum, pRoomIndex->area->file_name );
                             bugf( "przeczytaj komentarz w kodzie to sie rozjasni o co biega.");
                             /* otoz tak. jest bug: jezeli mob ma reset nr. 0, a dalej jest item jako reset nr 1., to po skasowaniu resetu 0. zostaje reset 1. wtedy przy ladowaniu go mud nie wie komu ma go zaladowac i wywala ten bug. fix: usunac felerny reset, ktory to mozna dowiedziec sie ustawiajac debugThis na TRUE */
                             exit( 1 );
@@ -2794,7 +2717,6 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, bool remote )
     obj->value[4]     = pObjIndex->value[4];
     obj->value[5]     = pObjIndex->value[5];
     obj->value[6]     = pObjIndex->value[6];
-    obj->length       = pObjIndex->length;
     obj->weight       = pObjIndex->weight;
     obj->liczba_mnoga = pObjIndex->liczba_mnoga;
     obj->gender       = pObjIndex->gender;
@@ -2877,6 +2799,7 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, bool remote )
         case ITEM_TOTEM:
         case ITEM_TOOL:
         case ITEM_SCROLL:
+        case ITEM_WEAPON:
         case ITEM_SPELLBOOK:
         case ITEM_SPELLITEM:
         case ITEM_ARMOR:
@@ -2904,18 +2827,6 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, bool remote )
             if (!pObjIndex->new_format)
             {
                 obj->value[0] =  obj->cost;
-            }
-            break;
-        case ITEM_WEAPON:
-            if ( IS_SET( obj->value[ 4 ], WEAPON_RANDOM_MAGIC_PLUS ) )
-            {
-                int weapon_magic_bonus = ( number_range( obj->value[5], obj->value[6] ) + number_range( obj->value[5], obj->value[6] ) + number_range( obj->value[5], obj->value[6] ) ) / 3;
-                if ( weapon_magic_bonus > 0 && !IS_OBJ_STAT( obj, ITEM_MAGIC ) )
-                {
-                    EXT_SET_BIT( obj->extra_flags, ITEM_MAGIC );
-                }
-                obj->value[5] = weapon_magic_bonus;
-                obj->value[6] = weapon_magic_bonus;
             }
             break;
     }
@@ -3086,7 +2997,7 @@ char *get_extra_descr( const char *name, EXTRA_DESCR_DATA *ed )
  * Translates mob virtual number to its mob index struct.
  * Hash table lookup.
  */
-MOB_INDEX_DATA *get_mob_index( unsigned int vnum )
+MOB_INDEX_DATA *get_mob_index( ush_int vnum )
 {
     MOB_INDEX_DATA *pMobIndex;
 
@@ -3113,7 +3024,7 @@ MOB_INDEX_DATA *get_mob_index( unsigned int vnum )
  * Translates mob virtual number to its obj index struct.
  * Hash table lookup.
  */
-OBJ_INDEX_DATA *get_obj_index( unsigned int vnum )
+OBJ_INDEX_DATA *get_obj_index( ush_int vnum )
 {
     OBJ_INDEX_DATA *pObjIndex;
 
@@ -3140,7 +3051,7 @@ OBJ_INDEX_DATA *get_obj_index( unsigned int vnum )
  * Translates mob virtual number to its room index struct.
  * Hash table lookup.
  */
-ROOM_INDEX_DATA *get_room_index( unsigned int vnum )
+ROOM_INDEX_DATA *get_room_index( ush_int vnum )
 {
     ROOM_INDEX_DATA *pRoomIndex;
 
@@ -3200,7 +3111,7 @@ PROG_CODE *get_rprog_index( char * name )
     return NULL;
 }
 
-TRAP_DATA *get_trap_index( unsigned int vnum )
+TRAP_DATA *get_trap_index( ush_int vnum )
 {
     TRAP_DATA *trap;
 
@@ -3212,7 +3123,7 @@ TRAP_DATA *get_trap_index( unsigned int vnum )
     return NULL;
 }
 
-RAND_DESC_DATA *get_rdesc_index( unsigned int vnum )
+RAND_DESC_DATA *get_rdesc_index( ush_int vnum )
 {
     RAND_DESC_DATA *rdesc;
 
@@ -3236,7 +3147,7 @@ DESC_DATA *get_desc_index( AREA_DATA* pArea, char* name )
     return NULL;
 }
 
-BONUS_INDEX_DATA *get_bonus_index( unsigned int vnum )
+BONUS_INDEX_DATA *get_bonus_index( ush_int vnum )
 {
     BONUS_INDEX_DATA *bonus;
 
@@ -3873,8 +3784,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     AFFECT_DATA *af;
     FILE *fp;
     MSPELL_DATA *mspell;
-    unsigned int vnum;
-    ush_int nMatch = 0;
+    ush_int vnum,nMatch = 0;
 
     /* open file */
     fclose(fpReserve);
@@ -4100,7 +4010,13 @@ int number_range( int from, int to )
     if ( ( to = to - from + 1 ) <= 1 )
         return from;
 
-    return number_mm( ) % to + from;
+    for ( power = 2; power < to; power <<= 1 )
+        ;
+
+    while ( ( number = number_mm() & (power -1 ) ) >= to )
+        ;
+
+    return from + number;
 }
 
 /*
@@ -4108,7 +4024,12 @@ int number_range( int from, int to )
  */
 int number_percent( void )
 {
-    return 1 + number_mm( ) % 100;
+    int percent;
+
+    while ( (percent = number_mm() & (128-1) ) > 99 )
+        ;
+
+    return 1 + percent;
 }
 
 
@@ -4118,7 +4039,12 @@ int number_percent( void )
  */
 int number_door( void )
 {
-    return number_mm( ) % MAX_DIR;
+    int door;
+
+    while ( ( door = number_mm() & (8-1) ) > 5)
+        ;
+
+    return door;
 }
 
 int number_bits( int width )
@@ -4578,11 +4504,10 @@ void load_learn_system( void )
 
         tmp = fread_letter( fp );
 
-        if ( tmp == 'm' || tmp == 'M' || tmp == 'r' || tmp == 'R' )
+        if ( tmp == 'm' || tmp == 'M' )
         {
             ld          = new_learn_data();
             ld->vnum    = fread_number( fp );
-            ld->room    = ( ( tmp == 'r' || tmp == 'R' ) ? TRUE : FALSE );
             ld->next    = NULL;
             last        = ld;
 
@@ -5196,8 +5121,22 @@ void tail_chain( void )
 //rellik: do debugowania, DEBUG_INFO przerobione na funkcjê
 void DEBUG_INFO( const char string[])
 {
-    previous_command = last_command;
-    last_command = string;
+    if ( ! previous_command )
+    {
+        previous_command = malloc( MAX_STRING_LENGTH );
+        previous_command[0] = '\0';
+    }
+
+    if ( ! last_command )
+    {
+        last_command = malloc( MAX_STRING_LENGTH );
+        last_command[0] = '\0';
+    }
+
+
+    memcpy( previous_command, last_command, MAX_STRING_LENGTH );
+    sprintf(last_command, "%s", string ? string : "BRAK INFORMACJI" );
+
 }
 
 /*

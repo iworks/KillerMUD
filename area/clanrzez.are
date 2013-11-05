@@ -135,6 +135,8 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew kill rz_zdrajca ABCDEFGHI 100~
+MobprogNew greet rz_zdrajca_atak FGI 100~
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -401,6 +403,9 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size giant
 Material unknown
+MobprogNew kill rz_zdrajca ABCDEFGHI 100~
+MobprogNew exit rzez_brama_exit FGI 0~
+MobprogNew grall rzez_brama_ent ABCDEFGHI 100~
 Skin 100
 ExpMultiplier 100
 Resist 10 100
@@ -572,6 +577,8 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew kill rz_zdrajca ABCDEFGHI 100~
+MobprogNew greet rz_zdrajca_atak FGI 100~
 Skin 100
 ExpMultiplier 100
 Mobend
@@ -614,6 +621,8 @@ Form AFHMV
 Parts ABCDEFGHIJKR
 Size medium
 Material unknown
+MobprogNew kill rz_zdrajca ABCDEFGHI 100~
+MobprogNew greet rz_zdrajca_atak FGI 100~
 Spells 28 0 0 0
 Skin 100
 ExpMultiplier 120
@@ -988,6 +997,7 @@ Form AFGV
 Parts ABCDEJKRST
 Size large
 Material unknown
+MobprogNew death 39604 ABCDEFGHI 100~
 Corpse -1
 Skin 100
 ExpMultiplier 100
@@ -1012,13 +1022,201 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 150
 Cost 1
 Cond 75
 Itemdesc Budowa tej wioski zosta³a ufundowana przez przenajwspanialszy arrasyjski cech rze¼ników.
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 39572
+Name dêbowe biurko~
+Odmiana dêbowego biurka~dêbowemu biurku~dêbowe biurko~dêbowym biurkiem~dêbowym biurku~
+Short dêbowe biurko~
+Descr Sporej wielko¶ci dêbowe biurko stoi tutaj.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 8192 100 100 0 0
+Repair 0 0 0 0
+Weight 500
+Cost 1
+Cond 75
+Itemdesc Jest to potê¿ne biurko wykonane z najlepszego, dêbowego biurka. Le¿y na
+nim jaka¶ sterta kartek, kilka piór i s³oiczek z tuszem do pisania. W
+szufladach pewno znajduj± siê wa¿ne dokumenty, napewno zamkniêto je
+porz±dnie. 
+~
+Comments ~
+Objend
+#Vnum 39574
+Name prycza~
+Odmiana pryczy~pryczy~prycze~prycz±~pryczy~
+Short prycza~
+Descr Stalowa prycza stoi w rogu pokoju.~
+Material stal~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 100 1168 100 100 0 0
+Repair 0 0 0 0
+Weight 600
+Cost 1
+Cond 75
+Itemdesc Stalowa, niewygodna prycza. Wiele ich tutaj. Nawet mimo materacu, dalej
+wydaje siê byæ niezbyt komfortowa. Zazwyczaj s³u¿y jako miejsce spêdzania
+nocy, przez tutejszych stra¿ników. 
+ 
+~
+Comments ~
+Objend
+#Vnum 39575
+Name luskowa zbroja~
+Odmiana ³uskowej zbroi~³uskowej zbroi~³uskow± zbrojê~³uskow± zbroj±~³uskowej zbroji~
+Short ³uskowa zbroja~
+Descr £uskowa zbroja le¿y na ziemi.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear A
+Wear2Ext 0|ACLM
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 100
+Cost 1800
+Cond 75
+Itemdesc Jest to pancerz wykonany z du¿ej liczby ³usek, przytwierdzonych do
+skórzanego pod³o¿a. Ten model wygl±da solidnie i zapewnia lepsz± ochronê ni¿
+nie jedna kolczuga. 
+~
+Comments ~
+Objend
+#Vnum 39576
+Name d³ugi rapier~
+Odmiana d³ugiego rapieru~d³ugiemu rapierowi~d³ugi rapier~d³ugim rapierem~d³ugim rapierze~
+Short d³ugi rapier~
+Descr D³ugi, stalowy rapier le¿y na ziemi.~
+Material stal~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0|ACL
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 2 5 41 0 0 0
+Repair 0 0 0 0
+Weight 150
+Cost 1200
+Cond 75
+Itemdesc Rapier ten posiada d³ug±, prost± klingê. Wbrew pozorom jest on stosunkowo
+ciê¿k± i powoln± broni±. Wymaga od pos³uguj±cego siê nim szermierza sporej
+sprawno¶ci fizycznej. 
+~
+Comments ~
+Objend
+#Vnum 39577
+Name szynka~
+Odmiana szynki~szynce~szynkê~szynk±~szynce~
+Short szynka~
+Descr Piêkna szyneczka gotowa do zjedzenia.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 12 2 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 3
+Cond 75
+Itemdesc ¦wie¿utka szyneczka.
+~
+Comments ~
+Objend
+#Vnum 39578
+Name kielbasa~
+Odmiana kielbasy~kielbasie~kielbase~kielbasa~kielbasie~
+Short kie³basa~
+Descr Dobrusia kie³basiunia pachnie ¶licznie.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 7 12 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 6
+Cond 75
+Itemdesc ¦wie¿a kie³ba.
+~
+Comments ~
+Objend
+#Vnum 39579
+Name gigantyczny tasak~
+Odmiana gigantycznego tasaka~gigantycznemu tasakowi~gigantyczny tasak~gigantycznym tasakiem~gigantycznym tasaku~
+Short gigantyczny tasak~
+Descr Gigantyczny tasak le¿y tutaj.~
+Material stal~
+Type weapon
+ExtraExt 0|HMPU
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 4 5 1 32 0 0
+Repair 0 0 0 0
+Weight 300
+Cost 27000
+Cond 75
+Itemdesc Wielki wyszczerbiony tasak wykonany ze stali. Rêkoje¶æ owiniêta jest
+skórzanym rzemieniem dla zapewnienia pewniejszego chwytu. Ostrze, mimo ¿e
+wyszczerbione, wydaje siê ostre jak brzytwa. 
+~
+Comments ~
+Objend
+#Vnum 39580
+Name stalowe skorzane buty~
+Odmiana stalowych butów~stalowym butom~stalowe buty~stalowymi butami~stalowych butach~
+Short stalowe buty~
+Descr Skórzane buty obite stal± le¿± na ziemi.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0|ALM
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 6 7 6 10 4 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 1500
+Cond 100
+Itemdesc S± to zwyk³e skórzane buty które kto¶ wzmocni³ stalowymi p³tkami. Zosta³e
+one te¿ odpowiednio podkute. Wygl±daj± na dosyæ solidn± konstrukcjê. 
+~
 Comments ~
 Objend
 #Vnum 39581
@@ -1036,7 +1234,6 @@ LiczbaMnoga 0
 Gender 0
 Value 1 0 9362 50 100 0 0
 Repair 0 0 0 0
-Length 0
 Weight 350
 Cost 1
 Cond 75
@@ -1062,17 +1259,209 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 14
 Cost 1
 Cond 75
 Aff 1 12 4 3 0 0
 Aff 1 24 -1 0 0 0
+Objprog prewear rz_pas 100~
 Itemdesc Ju¿ na pierwszy rzut oka widzisz, ¿e nie jest to zwyczajna bransoleta.
 Ca³a pokryta jest ¶ladami zakrzep³ej krwi, na sam widok robi ci siê
 niedobrze. Po chwili zdajesz sobie sprawê, ¿e to, co przed chwil± wzi±³e¶ za
 posplatane skórzane rzemienie, to tak naprawdê wnêtrzno¶ci jakiego¶
 ogromnego zwierzêcia. 
+~
+Comments ~
+Objend
+#Vnum 39583
+Name {Bniebieska szata{x~
+Odmiana {Bniebieskiej szaty{x~{Bniebieskiej szacie{x~{Bniebiesk± szate{x~{Bniebiesk± szat±{x~{Bniebieskiej szacie{x~
+Short {Bniebieska szata{x~
+Descr Jakas {Bniebieska szata{x le¿y tutaj, porzucona przez kogo¶.~
+Material len~
+Type clothing
+ExtraExt 0
+Wear AK
+Wear2Ext 0|O
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 20
+Cond 100
+Itemdesc Szata ta wygl±da naprawdê wspaniale. Wykonano j± z niebieskiego
+materia³u, który jest niezwykle delikatny w dotyku. Na plecach wyszytko
+bia³a gwiazdê, która dodaje nieco magi. Szata jest jednak dosyæ d³uga i
+napewno bedziê przeszkadzaæ w walce. Doskonale nadaje siê jednak dla magów,
+gdy¿ w niej bed± wygl±daæ nieco mistycznie. 
+~
+Comments ~
+Objend
+#Vnum 39584
+Name kostur~
+Odmiana kostura~kosturowi~kostur~kosturem~kosturze~
+Short kostur~
+Descr D³ugi, drewniany kostur le¿y na ziemi.~
+Material drewno~
+Type weapon
+ExtraExt 0
+Wear AN
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 9 2 3 27 32 -1 0
+Repair 0 0 0 0
+Weight 20
+Cost 120
+Cond 50
+Itemdesc Zwyk³y drewniany kostur, nic szczególnego. Mo¿na go u¿yæ jako broni,
+jednak smoka tym nie powalisz. 
+~
+Comments ~
+Objend
+#Vnum 39585
+Name ogrodniczy no¿yk~
+Odmiana ogrodniczego no¿yka~ogrodniczemu no¿ykowi~ogrodniczy no¿yk~ogrodniczym no¿ykiem~ogrodniczym no¿yku~
+Short ogrodniczy no¿yk~
+Descr Malutki no¿yk le¿y na ziemi.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 2 2 2 34 0 1 0
+Repair 0 0 0 0
+Weight 5
+Cost 300
+Cond 100
+Itemdesc Jest to bardzo ma³y nóz u¿ywany g³ównie przez ogrodników w celu
+upiêkszania ogrodów. Mo¿na nim uci±æ kwiaty przy samej ziemi, które
+nastêpnie siê sprzeda. Mo¿e te¿ pos³u¿yæ jako prowizoryczna broñ do walki. 
+~
+Comments ~
+Objend
+#Vnum 39586
+Name stalowy he³m z herbem~
+Odmiana stalowego he³mu z herbem~stalowemu he³mowi z herbem~stalowy he³m z herbem~stalowym he³mem z herbem~stalowym he³mie z herbem~
+Short stalowy he³m z herbem~
+Descr Ciê¿ki he³m z herbem b³yszczy na ziemi.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AE
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 45
+Cost 2880
+Cond 100
+Objprog prewear rz_item 100~
+Itemdesc Ciê¿ki he³m z hartowanej stali. Stanowi doskona³a ochronê g³owy. Gdy siê
+przyjrzysz dok³adniej spostrze¿esz herb z dwoma skrzy¿owanymi toporami. 
+~
+Comments ~
+Objend
+#Vnum 39587
+Name buty podkute skórzane~
+Odmiana podkutych butów~podkutym butom~podkute buty~podkutymi butami~podkutych butach~
+Short podkute buty~
+Descr Para butów uszytych z grubej skory i podkutych stal± stoi tutaj.~
+Material stal~
+Type armor
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 4 5 4 10 11 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 2100
+Cond 100
+Comments ~
+Objend
+#Vnum 39588
+Name stalowe nagolenice z herbem~
+Odmiana stalowych nagolenic z herbem~stalowym nagolenicom z herbem~stalowe nagolenice z herbem~stalowymi nagolenicami z herbem~stalowych nagolenicach z herbem~
+Short stalowe nagolenice z herbem~
+Descr Stalowe nagolenice z jakim¶ herbem spoczywaj± tutaj.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 55
+Cost 2880
+Cond 90
+Objprog prewear rz_item 100~
+Itemdesc D³ugie, stalowe nagolenice wykonane z hartowanej stali. Doskona³a ochrona
+nóg. W miejscu kolan wygrawerowano herb przedstawiaj±cy dwa skrzy¿owane
+topory. 
+~
+Comments ~
+Objend
+#Vnum 39589
+Name rekawice bojowe ciê¿kie stalowe okute z herbem~
+Odmiana stalowych rêkawic z herbem~stalowym rêkawicom z herbem~stalowe rêkawice z herbem~stalowymi rêkawicami z herbem~stalowych rêkawicach z herbem~
+Short stalowe rêkawice z herbem~
+Descr Okute stal±, ciê¿kie rêkawice z wygrawerowanym herbem le¿± na ziemi.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AH
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 5
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 2280
+Cond 100
+Objprog prewear rz_item 100~
+Itemdesc Du¿e i ciê¿kie rêkawice wykonane ze stali. S± jedn± z najlepszych form
+ochrony d³oni przed ciosami. Nie pomagaj± jednak utrzymaæ ciê¿szej broni. Na
+nadgarstku kto¶ wygrawerowa³ herb przedstawiaj±cy dwa skrzy¿owane topory. 
+~
+Comments ~
+Objend
+#Vnum 39590
+Name stalowy pancerz z herbem~
+Odmiana stalowego pancerza z herbem~stalowemu pancerzowi z herbem~stalowy pancerz z herbem~stalowym pancerzem z herbem~stalowym pancerzu z herbem~
+Short stalowy pancerz z herbem~
+Descr Stalowy pancerz z wygrawerowanym herbem wala siê na ziemi.~
+Material doskona³a stal~
+Type armor
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 3 3 3 8 12 0 0
+Repair 0 0 0 0
+Weight 190
+Cost 5400
+Cond 100
+Objprog prewear rz_item 100~
+Itemdesc Stalowy pancerz wykonany z doskona³ej stali. ¦wietnie chroni t³ów przed
+wiêkszo¶ci± ciosów. Na ¶rodku wygrawerowano du¿y herb przedstawiaj±æy dwa
+skrzy¿owane topory. 
 ~
 Comments ~
 Objend
@@ -1091,10 +1480,391 @@ LiczbaMnoga 0
 Gender 0
 Value 10 9 8 10 1 0 0
 Repair 0 0 0 0
-Length 0
 Weight 40
 Cost 480
 Cond 100
+Comments ~
+Objend
+#Vnum 39593
+Name krótkie spodenki~
+Odmiana krótkich spodenek~krótkimi spodenkami~krótkie spodenki~krótkimi spodenkami~krótkich spodenkach~
+Short krótkie spodenki~
+Descr Krótkie spodenki le¿± tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AF
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 3
+Cond 75
+Itemdesc S± to zwyk³e p³ócienne spodenki. uszyte pewnie dla ma³ego ch³opca.
+~
+Identdesc S± to zwyk³e p³ócienne spodenki. uszyte pewnie dla ma³ego ch³opca.
+~
+Comments ~
+Objend
+#Vnum 39594
+Name bluza szara~
+Odmiana szarej bluzy~szarej bluzie~szar± bluzê~szar± bluz±~szarej  bluzie~
+Short szara bluza~
+Descr Szara kupka p³ótna le¿y tutaj.~
+Material p³ótno~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 4
+Cond 75
+Itemdesc Zwyk³a, do¶æ ciep³a bluza, która pozwala na du¿± swobodê w czasie pracy,
+a jednocze¶nie zapewnia pewn± ochronê. 
+~
+Comments ~
+Objend
+#Vnum 39596
+Name gustowne sanda³y~
+Odmiana gustownych sanda³ów~gustownym sanda³om~gustowne sanda³y~gustownymi sanda³ami~gustownych sanda³ach~
+Short gustowne sanda³y~
+Descr Le¿y tutaj para gustownie zdobionych sanda³ów.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AG
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 1
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 11
+Cost 2
+Cond 70
+Itemdesc Sanda³y te, pomimo faktu, ¿e s± kiepskim obuwiem, je¿eli chodzi o podró¿e
+i jakiekolwiek eskapady nale¿± do wysokiego gatunku butów. S± naprawdê
+misternie zrobione i zapewne nie bêdzie wstydem pokazanie siê w nich w
+jakim¶ du¿ym mie¶cie pokroju Arras czy Carrallak. 
+~
+Comments ~
+Objend
+#Vnum 39597
+Name kwiecista sukienka~
+Odmiana kwiecistej sukienki~kwiecistej sukience~kwiecist± sukienkê~kwiecist± sukienk±~kwiecistej sukience~
+Short kwiecista sukienka~
+Descr Z³o¿ona w kostkê suknia tworzy do¶æ poka¼ny tobo³ek.~
+Material len~
+Type clothing
+ExtraExt 0|S
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 10
+Cond 98
+Itemdesc D³uga zielona sukienka wykonana z lnu, przyozdobiona haftowanymi
+ró¿nokolorowymi niæmi, przecudnymi kwiatami. Do¶æ du¿y, prosty dekolt
+pozwoli nosz±cej t± sukienkê kobiecie na prezentowanie swoich wdziêków, choæ
+jednocze¶nie nie powinno to byæ ani pretensjonalne, ani nachalne. Srebrna
+lamówka okalaj±ca spód sukienki zosta³a doskonale wkomponowana w ro¶linne
+motywy zdobi±ce ca³± sukienkê. W³a¶nie z tej lamówki bior± pocz±tek wszystkich
+wyhaftowane ³ody¿ki, by potem dyskretnie wspi±æ siê wy¿ej i rozkwitn±æ
+kielichami wielokolorowych kwiatów. T± sam± lamówk± obszyte s± niewielkie
+mankiety rêkawów. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 39598
+Name p³aszcz~
+Odmiana {Dciemnego p³aszcza z du¿ym kapturem{x~{Dciemnemu p³aszczowi z du¿ym kapturem{x~{Dciemny p³aszcz z du¿ym kapturem{x~{Dciemnym p³aszczem z du¿ym kapturem{x~{Dciemnym p³aszczu z du¿ym kapturem{x~
+Short {Dciemny p³aszcz z du¿ym kapturem{x~
+Descr {DCiemny p³aszcz z du¿ym kapturem le¿y na ziemi.{x~
+Material we³na~
+Type clothing
+ExtraExt 1|A
+Wear ACET
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 10
+Cond 75
+Comments ~
+Objend
+#Vnum 39600
+Name lada~
+Odmiana lady~ladzie~lade~lad±~ladzie~
+Short lada~
+Descr Drewniana lada stoi przy jednej ze ¶cian.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 3
+Value 5 1000 8 100 100 0 0
+Repair 0 0 0 0
+Weight 3000
+Cost 1
+Cond 75
+Itemdesc Jest to du¿a, dêbowa lada. S³u¿y jako stó³ przy którym mozna usi±¶æ i
+napiæ siê tutejszych trunków. Na ladzie le¿y pe³no pustych kufli i
+kieliszków, które tylko czekaj± na kolejnych klijentów. 
+~
+Comments ~
+Objend
+#Vnum 39601
+Name d³ugi nó¿~
+Odmiana d³ugiego no¿u~d³ugiemu no¿owi~d³ugi nó¿~d³ugim no¿em~d³ugim no¿u~
+Short d³ugi nó¿~
+Descr D³ugi, cienki nó¿ elfiej roboty le¿y na ziemi.~
+Material elfia stal~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 2 2 4 2 0 1 0
+Repair 0 0 0 0
+Weight 20
+Cost 1200
+Cond 100
+Itemdesc Ten sztylet doskonale nadaje siê jako broñ do zadawania zabójczych
+ciosów. D³ugie ostrze wykonano z elfiej stali która poradzi sobie bez
+problemu z l¿ejszymi pancerzami. Jest równie¿ doskonale wywa¿one przez co
+naprawdê ³atwi nim siê w³ada. 
+~
+Comments ~
+Objend
+#Vnum 39602
+Name ostry tasak~
+Odmiana ostrego tasaka~ostremu tasakowi~ostry tasak~ostrym tasakiem~ostrym tasaku~
+Short ostry tasak~
+Descr Ostry tasak s³u¿±cy do krojenia miêsa poniewiera siê tu.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0
+Wear ANO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 5 2 2 0 0 0 0
+Repair 0 0 0 0
+Weight 40
+Cost 1200
+Cond 75
+Itemdesc Ostry tasak s³u¿±cy do krojenia miêsa.
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 39603
+Name skórzany fotel~
+Odmiana skórzanego fotela~skórzanemu fotelowi~skórzany fotel~skórzanym fotelem~skórzanym fotelu~
+Short Skórzany fotel~
+Descr Skórzany fotel stoi tutaj.~
+Material skóra~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 1 100 144 110 100 0 0
+Repair 0 0 0 0
+Weight 400
+Cost 1
+Cond 75
+Itemdesc Sporych rozmiarów fotel ob³o¿ony ciemn± skór±. Wygl±da na bardzo wygodne
+siedzisko. Na szczycie oparcia dostrzegasz wyhaftowany herb arrasyjskiego
+cechu rze¼ników - bycz± g³owê a pod ni± dwa skrzy¿owane topory. 
+~
+Comments ~
+Objend
+#Vnum 39604
+Name naszyjnik z byczym rogiem~
+Odmiana naszyjnika z byczym {yrogiem{x~naszyjnikowi z byczym {yrogiem{x~naszyjnik z byczym {yrogiem{x~naszyjnikiem z byczym {yrogiem{x~naszyjniku z byczym {yrogiem{x~
+Short naszyjnik z byczym {yrogiem{x~
+Descr Naszyjnik z byczym {yrogiem{S emanuje magiczna moca.~
+Material ko¶æ~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 1200
+Cond 75
+Objprog get 39604 100~
+Itemdesc Jest to piêkny naszyjnik, który zrobiony jest ze sznurka i rogu byka.
+Patrz±c na ten naszyjnik wyczuwasz wokó³ niego jaka¶ dziwna enegiê skupion±
+w rogu byka. 
+ 
+~
+Comments ~
+Objend
+#Vnum 39605
+Name naszyjnik z byczym rogiem~
+Odmiana naszyjnika z byczym {yrogiem{S~naszyjnikowi z byczym {yrogiem{S~naszyjnik z byczym {yrogiem{S~naszyjnikiem z byczym {yrogiem{S~naszyjniku z byczym {yrogiem{S~
+Short naszyjnik z byczym {yrogiem{x~
+Descr Naszyjnikiem z byczym {yrogiem{x b³yszczy siê.~
+Material ko¶æ~
+Type jewelry
+ExtraExt 0
+Wear AC
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 3
+Cost 1200
+Cond 75
+Aff 1 14 4 0 0 0
+Itemdesc Jest to piêkny naszyjnik , którego zrobiono ze sznurka i byczego rogu.
+Widaæ, ¿e nie jest taki b³yszcz±cy jak kiedy¶. Jednak jest w nim skupiona
+odrobina mocy. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 39607
+Name z³ota liberia~
+Odmiana liberii~liberii~liberiê~liberi±~liberii~
+Short {Yz³ota{x liberia~
+Descr Piêknie ozdobiona, wykonana ze {Yz³otej{x tkaniny liberia le¿y tutaj.~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 20
+Cost 20
+Cond 90
+Itemdesc Ta piêkna, szlachecka liberia jest ca³a w kolorze z³ota. Zauwa¿asz, ¿e ma
+ona wyhaftowany na sobie wielki herb rodziny Levenów z Arras. Zapewne
+w³a¶nie z tamt±d pochodzi ta liberia. 
+~
+Comments ~
+Objend
+#Vnum 39609
+Name rze¼nicki fartuch~
+Odmiana rze¼nickiego fartucha~rze¼nickiemu fartuchowi~rze¼nicki fartuch~rze¼nickim fartuchem~rze¼nickim fartuchu~
+Short rze¼nicki fartuch~
+Descr Rze¼nicki fartuch, lekko zaplamiony krwi± le¿y tutaj~
+Material skóra~
+Type clothing
+ExtraExt 0
+Wear AD
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 30
+Cost 30
+Cond 75
+Itemdesc Rze¼nicki fartuch, lekko zaplamiony krwi±.
+~
+Comments ~
+Objend
+#Vnum 39610
+Name pajda chleba~
+Odmiana pajdy chleba~pajdzie chleba~pajde chleba~pajd± chleba~pajdzie chleba~
+Short pajda chleba~
+Descr Pajda chleba lêzy na ziemi.~
+Material jedzenie~
+Type food
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 3 10 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 2
+Cond 75
+Itemdesc Sporej wielko¶ci pajda chleba, dok³adnie wysmarowana mas³em. 
+~
+Comments ~
+Objend
+#Vnum 39611
+Name miód pitny~
+Odmiana kufla miodu pitnego~kuflowi miodu pitnego~kufel miodu pitnego~kuflem miodu pitnego~kuflu miodu pitnego~
+Short miód pitny~
+Descr Kufel z miodem pitnym le¿y na ziemi.~
+Material unused~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 2 20 0 39612 0 0
+Repair 0 0 0 0
+Weight 10
+Cost 10
+Cond 75
+Comments ~
+Objend
+#Vnum 39612
+Name kufel~
+Odmiana kufla~kuflowi~kufel~kuflem~kuflu~
+Short kufel~
+Descr Drewniany, pusty kufel lezy na ziemi~
+Material unused~
+Type drink
+ExtraExt 0
+Wear AO
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 1
+Cond 75
+Itemdesc Jest to drewniany kufel który s³u¿y jako naczynie do picia róznego
+rodzaju trunków. 
+~
 Comments ~
 Objend
 #Vnum 39613
@@ -1112,7 +1882,6 @@ LiczbaMnoga 0
 Gender 0
 Value 2 2 35 0 39612 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 30
 Cond 75
@@ -1136,7 +1905,6 @@ LiczbaMnoga 0
 Gender 0
 Value 8 10 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 30
 Cost 20
 Cond 75
@@ -1144,6 +1912,31 @@ Itemdesc Sporej wielko¶ci wo³owy udziec. Zosta³ dok³adnie uwêdzony i napweno
 smakuje wy¶mienicie. Pachnie równie¿ bosko. 
 ~
 Identdesc ~
+Comments ~
+Objend
+#Vnum 39615
+Name mahoniowe biurko~
+Odmiana mahoniowego biurka~mahoniowemu biurkowi~mahoniowe biurko~mahoniowym biurkiem~mahoniowym biurku~
+Short mahoniowe biurko~
+Descr Potê¿ne mahoniowe biurko stoi na ¶rodku komnaty.~
+Material drewno~
+Type furniture
+ExtraExt 0
+Wear 0
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 20 8192 100 100 0 0
+Repair 0 0 0 0
+Weight 2000
+Cost 1
+Cond 100
+Itemdesc Wielkie biurko stoj±ce na ¶rodku komnaty mistrza zawiera zapewne wiele
+cennych informacji dotycz±cych gildi rze¼ników. Na biurku piêtrz± siê stosy
+w³asnie takich dokumentów. Jest ich tak wiele, ¿e znalezienie czego¶ cennego
+wydaje siê byæ niemo¿liwe 
+~
 Comments ~
 Objend
 #Vnum 39616
@@ -1161,10 +1954,88 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 1 0 0 -2 1
 Repair 0 0 0 0
-Length 0
 Weight 240
 Cost 2400
 Cond 75
+Comments ~
+Objend
+#Vnum 39617
+Name Kufer ociekaj±cy krwi±~
+Odmiana {Dkufra {Rociekaj±cego {rkrwi±{x~{Dkufrowi {Rociekaj±cemu {rkrwi±{x~{Dkufer {Rociekaj±cy{r krwi±{x~{Dkufrem {Rociekaj±cym {rkrwi±{x~{Dkufrze {Rociekaj±cym {rkrwi±{x~
+Short {Dkufer {Rociekaj±cy {rkrwi±{x~
+Descr Ciemny i dziwny kufer le¿y na ziemi.~
+Material adamantyt~
+Type container
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 40 1 0 25 100 0 -1
+Repair 0 0 0 0
+Weight 100
+Cost 3000
+Cond 100
+Itemdesc Poka¼nych rozmiarów kufer wykonany z czarnego metalu, prawdopodobnie
+adamantytu. Ca³a powierzchnia pokryta jest ciemnoczerwon±, gêst± i
+po³owicznie zakrzepniêt± krwi±. Mimo obrzydzenia, perwersyjna ciekawo¶æ pcha
+ciê do bli¿szych oglêdzin skrzyni. Jej powierzchnia jest do¶æ szorstka, a
+pod palcami czujesz wiele nierówno¶ci. No có¿, twórcy tego kufra raczej nie
+zale¿a³o na walorach estetycznych. Na wieku wygrawerowany jest jaki¶ symbol.
+Wytê¿asz wzrok i po chwili dostrzegasz ³eb byka, a pod nim dwa skrzy¿owane
+topory. Przechodz± ciê dreszcze, bo doskonale rozpoznajesz ten symbol. To
+herb znanego na ca³± Tamerê Arrasyjskiego cechu rze¼ników, a kufer, na który
+w³a¶nie patrzysz s³u¿y prawdopodobnie do przechowywania narzêdzi krwawej
+pracy rze¼ników. 
+~
+Comments ~
+Objend
+#Vnum 39618
+Name plaster ¶wie¿ego miêsa~
+Odmiana {rplastra ¶wie¿ego miêsa{x~{rplastrowi ¶wie¿ego miêsa{x~{rplaster ¶wie¿ego miêsa{x~{rplastrem ¶wie¿ego miêsa{x~{rplastrze ¶wie¿ego miêsa{x~
+Short {rplaster ¶wie¿ego miêsa{x~
+Descr {rPlaster ¶wie¿ego miêsa{x le¿y na ziemi.~
+Material unused~
+Type food
+ExtraExt 0
+Wear A
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 2 60 0 0 0 0 0
+Repair 0 0 0 0
+Weight 5
+Cost 2
+Cond 75
+Objprog consume 39571 100~
+Itemdesc Plaster ¶wie¿ej, krwistej wo³owiny. 
+~
+Identdesc ~
+Comments ~
+Objend
+#Vnum 39619
+Name kropla smoczej krwi~
+Odmiana {rkr{Ro{rpli sm{Ro{rczej k{Rr{rwi{x~{rkr{Ro{rpli sm{Ro{rczej k{Rr{rwi{x~{rkr{Ro{rple sm{Ro{rczej k{Rr{rwi{x~{rkr{Ro{rpl± sm{Ro{rczej k{Rr{rwi{x~{rkr{Ro{rpli sm{Ro{rczej k{Rr{rwi{x~
+Short {rkr{Ro{rpla sm{Ro{rczej k{Rrwi{x~
+Descr {rKr{Ro{rpla sm{Ro{rczej k{Rr{rwi{x unosi siê lekko w powietrzu.~
+Material unused~
+Type light
+ExtraExt 0
+Wear AQ
+Wear2Ext 0
+Bonus 0
+LiczbaMnoga 0
+Gender 0
+Value 0 5 24 0 0 100 100
+Repair 0 0 0 0
+Weight 5
+Cost 10
+Cond 75
+Itemdesc Kropla krwi smoka, która w jaki¶ magiczny sposób nie krzepnie i
+promieniuje lekko upiornym, karmazynowym blaskiem. 
+~
 Comments ~
 Objend
 #Vnum 39620
@@ -1182,7 +2053,6 @@ LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20000
 Cost 1000
 Cond 100
@@ -1595,6 +2465,7 @@ Exit 4
 ~
 ~
 19 0 39578
+Roomprog exit 39592 n~
 Resources 0 0 0 0 0 0 0 0 
 Capacity 0
 Roomend
@@ -3055,125 +3926,126 @@ S
 #RESETS
 O 100 39571 0 39571
 M 100 39573 1 39573 2
-E 100 3010 0 8
-E 100 3029 0 5
-E 100 3077 0 9
-E 100 3061 0 7
-E 100 3045 0 6
+E 100 39587 0 8
+E 100 39590 0 5
+E 100 39589 0 9
+E 100 39588 0 7
+E 100 39586 0 6
 E 100 3149 0 16
 M 100 39571 1 39577 1
 E 100 39591 0 5
-E 100 4413 0 7
-E 100 3001 0 8
+E 100 3091 0 7
+E 100 3380 0 8
 M 100 39580 1 39577 1
-E 100 4392 0 5
-E 100 3001 0 8
-E 100 4409 0 7
+E 100 39594 0 5
+E 100 3380 0 8
+E 100 39593 0 7
 O 100 39620 0 39577
 M 100 39578 1 39578 1
-G 100 2460 0
-G 100 6122 0
+G 100 39532 0
+G 100 39577 0
 G 100 39614 0
 M 100 39579 1 39579 1
-E 100 3352 0 16
+E 100 39579 0 16
+E 100 39604 0 3
 M 100 39581 1 39581 1
 O 100 39581 0 39581
-E 100 4396 0 5
-E 100 3001 0 8
-E 100 3172 0 16
+E 100 39609 0 5
+E 100 3380 0 8
+E 100 39602 0 16
 M 100 39582 1 39582 1
 G 100 39582 0
-G 100 3380 0
-G 100 2461 0
-G 100 3215 0
-E 100 4418 0 8
-E 100 4396 0 5
-E 100 3172 0 16
-G 100 3029 0
-G 100 3077 0
-G 100 3061 0
-G 100 3045 0
-G 100 3016 0
-O 100 2351 0 39584
-O 100 2350 0 39584
+G 100 39619 0
+G 100 39618 0
+G 100 39617 0
+E 100 3087 0 8
+E 100 39609 0 5
+E 100 39602 0 16
+G 100 39590 0
+G 100 39589 0
+G 100 39588 0
+G 100 39586 0
+G 100 39580 0
+O 100 39603 0 39584
+O 100 39615 0 39584
 M 100 39592 1 39585 1
-E 100 4377 0 12
-E 100 3010 0 8
-E 100 3061 0 7
-E 100 3029 0 5
+E 100 3128 0 12
+E 100 39587 0 8
+E 100 39588 0 7
+E 100 39590 0 5
 M 100 39591 1 39587 1
 M 100 39586 1 39588 1
-E 100 4416 0 8
-E 100 4388 0 5
+E 100 39596 0 8
+E 100 39597 0 5
 M 100 39573 2 39591 3
 E 100 3149 0 16
-E 100 3029 0 5
-E 100 3077 0 9
-E 100 3061 0 7
-E 100 3010 0 8
-E 100 3045 0 6
-O 100 2351 0 39592
-O 100 2350 0 39592
+E 100 39590 0 5
+E 100 39589 0 9
+E 100 39588 0 7
+E 100 39587 0 8
+E 100 39586 0 6
+O 100 39603 0 39592
+O 100 39572 0 39592
 M 100 39572 1 39592 1
-E 100 3001 0 8
-E 100 3050 0 7
-E 100 4383 0 5
+E 100 3380 0 8
+E 100 3089 0 7
+E 100 39607 0 5
 M 100 39587 1 39593 1
-E 100 4378 0 12
-E 100 4416 0 8
-E 100 3385 0 16
+E 100 39583 0 12
+E 100 3013 0 8
+E 100 39584 0 16
 G 65 1400 0
 M 100 39576 1 39596 3
-E 100 4364 0 5
-E 100 4413 0 7
-E 100 4418 0 8
+E 100 3015 0 5
+E 100 3091 0 7
+E 100 3087 0 8
 M 100 39577 1 39597 1
 G 100 3149 0
-G 100 3010 0
-G 100 3352 0
-G 100 3329 0
-G 100 3016 0
+G 100 39587 0
+G 100 39576 0
+G 100 39575 0
+G 100 39580 0
 E 100 39616 0 16
 M 100 39588 1 39600 1
-G 100 3333 0
-G 100 4411 0
-G 100 246 0
-G 100 2495 0
+G 100 39522 0
+G 100 3090 0
+G 100 39524 0
+G 100 39611 0
 G 100 39613 0
-G 100 11804 0
-G 100 2465 0
-O 100 2363 0 39600
+G 100 39525 0
+G 100 39610 0
+O 100 39600 0 39600
 M 100 39583 1 39605 1
-E 100 3029 0 5
-E 100 3077 0 9
-E 100 3061 0 7
-E 100 3010 0 8
-E 100 3045 0 6
+E 100 39590 0 5
+E 100 39589 0 9
+E 100 39588 0 7
+E 100 39587 0 8
+E 100 39586 0 6
 E 100 3149 0 16
 M 100 39584 1 39606 1
-E 100 3352 0 16
-E 100 3329 0 5
-E 100 3016 0 8
-O 100 2352 0 39607
-O 100 2352 0 39608
+E 100 39576 0 16
+E 100 39575 0 5
+E 100 39580 0 8
+O 100 39574 0 39607
+O 100 39574 0 39608
 M 100 39575 1 39610 1
 M 100 39574 1 39611 1
-E 100 3001 0 8
-E 100 4409 0 7
-E 100 4363 0 5
-E 100 6158 0 16
+E 100 39526 0 8
+E 100 3093 0 7
+E 100 39528 0 5
+E 100 39529 0 16
 M 100 39590 1 39613 1
-E 100 3002 0 8
-E 100 4426 0 12
-E 100 3171 0 16
+E 100 3098 0 8
+E 100 39598 0 12
+E 100 39601 0 16
 M 100 39585 1 39615 1
-E 100 3057 0 7
-E 100 4370 0 5
-E 100 3001 0 8
+E 100 8217 0 7
+E 100 587 0 5
+E 100 560 0 8
 M 100 39589 1 39616 1
-E 100 4426 0 12
-E 100 4416 0 8
-E 100 3157 0 16
+E 100 39530 0 12
+E 100 39531 0 8
+E 100 39585 0 16
 S
 
 
@@ -3202,12 +4074,152 @@ if clan $n 'Rze¼nik'
   sayto $n Witam.
 endif
 ~
+#39604
+~
+mob echo Byk umiera wydaj±c z siebie potworny ryk i zmienia siê spowrotem w naszyjnik z byczym {yrogiem{S.
+mob oload 39605 r
+~
+#rz_jelita
+~
+if clan $n 'RZEZNIK'
+  if wears $n 39582
+    mob echoat $n Chcia³by¶ drugi pasek za³o¿yæ?
+  else
+    obj wear 
+    mob echoat $n Z pewnym chorobliwym u¶mieszkiem oplatasz siê jelitami smoka.
+    if isnpc $n mob echoaround $n $i zpewyn chorobliwym u¶mieszkiem oplata siê jelitami smoka. 
+    else
+      mob echoaround $n $n z pewnym chorobliwym u¶mieszkiem oplata siê jelitami smoka.
+    endif 
+  endif
+else
+  mob echoat $n Powoli oplatasz siê jelitami smoka, gdy nagle twoje cia³o przeszywa ogromny ból. Jelita rozb³yskuj± i znikaj±.
+  obj remove
+endif
+~
+#rz_zdrajca
+~
+mob setflag $n rzeznicy_killer 40
+~
+#rz_zdrajca_atak
+~
+if hasflag $n rzeznicy_killer
+  sayto $n Morderca!
+  kill $n
+endif
+~
+#rzez_brama_ent
+~
+if room $i == 39579
+  stand
+  if hasflag $n rzeznicy_killer
+    sayto $n Morderca!
+    charge $n
+  else
+    if clan $n 'RZEZNIK'
+      das $n
+    else
+      if hasflag $n rzeznik_try_2
+        tell $n Sprawiê, ¿e zapachniesz zgni³ym mienhem !
+        charge $n
+      else
+        if hasflag $n rzeznik_try_1
+          tell $n jeszcze raz sprobujesz a przerobie cie na mienho !         
+          mob setflag $n rzeznik_try_2 92
+        else
+          tell $n Nie pachniesz mienhem !
+          tell $n Odejd¼ st±d !
+          mob setflag $n rzeznik_try_1 92
+        endif
+      endif
+    endif
+  endif
+endif
+~
+#rzez_brama_exit
+~
+if clan $n 'RZEZNIK'
+  mob echoat $n $i pozwala ci przej¶æ.
+  mob echoaround $n $i pozwala $n przej¶æ.
+mob transfer $n 39580
+else
+  mob echoat $n $i zagradza ci drogê.
+endif
+~
 #0
 
 #OBJPROGSNEW
+#39571
+~
+if !objhere 39618
+mob echoat $n Wbijasz zêby w plaster ¶wie¿ego miêsa, z przyjemno¶ci± odgryzasz kawa³ek, a po brodzie p³yn± ci stru¿ki krwi.
+mob echoaround $n $n wbija zêby w plaster ¶wie¿ego miêsa, z przyjemno¶ci± odgryza kawa³ek, a po brodzie p³yn± mu stru¿ki krwi.
+endif
+~
+#39604
+~
+mob echoat $n Podnosisz naszyjnik i czujesz jak zaczyna wibrowaæ, upuszczasz go na ziemie. Naszyjnik rozblyskuje ¶wiat³em, widzisz jak róg przemienia sie w BYKA. 
+mob echoaround $n $n  Podnosi naszyjnik i dzieje siê co¶ dziwnego, upuszcza go na ziemie. Naszyjnik rozb³yskujê ¶wiat³em, widzisz jak róg przemienia siê w BYKA. 
+mob mload 39593
+obj remove $n 39604
+kil $n
+~
+#39605
+~
+~
+#rz_item
+~
+if clan $n 'RZEZNIK'
+  mob echoat $n Zak³adasz $o na cia³o.
+  mob echoaround $n $n zak³ada $o na cia³o.
+  obj wear
+else
+  mob echoat $n Próbujesz za³o¿yæ $ob, lecz co¶ nie pozwala ci tego zrobiæ.
+  mob echoaround $n $n próbuje za³o¿yæ $ob, lecz co¶ nie pozwala mu tego zrobiæ.
+endif
+~
+#rz_pas
+~
+if clan $n 'RZEZNIK'
+  if wears $n 39582
+    mob echoat $n Chcia³by¶ drugi pasek za³o¿yæ?
+  else
+    obj wear 
+    mob echoat $n Z pewnym chorobliwym u¶mieszkiem oplatasz siê jelitami smoka.
+    mob echoaround $n $n z pewnym chorobliwym u¶mieszkiem oplata siê jelitami smoka.
+  endif 
+else
+  mob echoat $n Powoli oplatasz siê jelitami smoka, gdy nagle twoje cia³o przeszywa ogromny ból. Jelita rozb³yskuj± i znikaj±.
+  obj remove
+endif
+~
 #0
 
 #ROOMPROGSNEW
+#39592
+Runy w wejsciu do siedziby
+~
+foreachingroup $n
+  if isnpc $n
+    nextfor
+  endif
+  if !clan $n 'R¯E¬NIK'
+    if !hasflag $n 39580_r_runy
+      mob echoat $n Spogl±dasz na dziwny napis nad wej¶ciem. Jest napisany w nieznanym jêzyku i ocieka krwi±, powoli kapi±c± na pod³ogê. Gdy przechodzisz pod nim, jedna z takich kropel upada ci na ³okieæ. Czujesz parali¿uj±cy ból. Chyba nie jeste¶ tutaj mile widziany.
+      mob damage $n 20 50
+      mob setflag $n 39580_r_runy 12
+    endif
+  endif
+  mob echoaround $n $n wchodzi do jaskini.
+  mob transfer $n 39580
+  mob at $n mob echoaround $n $n w³a¶nie przyszed³ z po³udnia.
+endfor
+~
+#czit
+~
+if objexists 43561
+mob echo HIHIHIHI
+~
 #0
 
 #TRAPS

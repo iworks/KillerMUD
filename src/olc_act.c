@@ -27,7 +27,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -39,8 +39,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: olc_act.c 11987 2013-01-23 13:56:44Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/olc_act.c $
+ * $Id: olc_act.c 11015 2012-02-23 08:45:48Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/olc_act.c $
  *
  */
 #if defined(macintosh)
@@ -682,7 +682,7 @@ REDIT( redit_links )
 	char		buf  [ MAX_STRING_LENGTH   ];
 	BUFFER		*buf1;
 	bool found;
-	unsigned int vnum;
+	ush_int vnum;
 	int door;
 
 	pArea = ch->in_room->area;
@@ -734,7 +734,7 @@ REDIT( redit_progs )
 	char		buf  [ MAX_STRING_LENGTH   ];
 	BUFFER		*buffer;
 	bool found;
-	unsigned int vnum;
+	ush_int vnum;
 	PROG_LIST  *prg;
 
 	pArea	= ch->in_room->area;
@@ -1123,7 +1123,7 @@ bool check_range( int lower, int upper )
 	return TRUE;
 }
 
-AREA_DATA *get_vnum_area( unsigned int vnum )
+AREA_DATA *get_vnum_area( ush_int vnum )
 {
 	AREA_DATA *pArea;
 
@@ -1562,10 +1562,9 @@ AEDIT( aedit_vnum )
 		return FALSE;
 	}
 
-	if( ilower < 1 || iupper > MAX_VNUM )
+	if( ilower <= 0 || iupper > 65535)
 	{
-        sprintf( buf, "AEdit:  Range must be from 0 - %d.\n\r", MAX_VNUM );
-        send_to_char( buf ,ch );
+		send_to_char( "AEdit:  Range must be from 0 - 65535.\n\r", ch );
 		return FALSE;
 	}
 
@@ -3383,50 +3382,33 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
 			return;
 			break;
 
-        case ITEM_LIGHT:
-            // czy ¶wiat³o ¶wieci pod wod±?
-            sprintf( buf, "[v0] ¦wiat³o podwodne: %s{x\n\r", obj->value[0] == 1 ? "{GTak" : "{RNie" );
-            send_to_char( buf, ch );
-            if ( obj->value[1] == 0 )
-            {
-                send_to_char( "[v1] Sposob zamocowania: nie mozna zamocowac\n\r", ch );
-            }
-            else
-            {
-                if ( IS_SET(obj->value[1], LIGHT_LIE ) )
-                {
-                    send_to_char( "[v1] Sposob zamocowania: mozna polozyc na ziemi\n\r", ch );
-                }
-                if ( IS_SET(obj->value[1], LIGHT_HANG ) )
-                {
-                    send_to_char( "[v1] Sposob zamocowania: mozna powiesic\n\r", ch );
-                }
-                if ( IS_SET(obj->value[1], LIGHT_STICK ) )
-                {
-                    send_to_char( "[v1] Sposob zamocowania: mozna wbic w ziemie\n\r", ch );
-                }
-            }
-            if ( obj->value[2] == -1 || obj->value[2] == 999 ) /* ROM OLC */
-            {
-                send_to_char( "[v2] Czas ¶wiecenia:   nieskoñczony[-1]\n\r", ch );
-            }
-            else
-            {
-                sprintf( buf, "[v2] Czas ¶wiecenie:   [%d]\n\r", obj->value[2] );
-            }
-            if ( obj->value[3] == VUL_NONE )
-            {
-                send_to_char( "[v3] Wrazliwe na: nic\n\r", ch );
-            }
-            if ( obj->value[3] == VUL_RAIN )
-            {
-                send_to_char( "[v3] Wrazliwe na: deszcz\n\r", ch );
-            }
-            if ( obj->value[3] == VUL_WIND )
-            {
-                send_to_char( "[v3] Wrazliwe na: wiatr\n\r", ch );
-            }
-            break;
+		case ITEM_LIGHT:
+			// czy ¶wiat³o ¶wieci pod wod±?
+			sprintf( buf, "[v0] ¦wiat³o podwodne: %s{x\n\r", obj->value[0] == 1 ? "{GTak" : "{RNie" );
+			send_to_char( buf, ch );
+
+			if ( obj->value[2] == -1 || obj->value[2] == 999 ) /* ROM OLC */
+			{
+				send_to_char( "[v2] Czas ¶wiecenia:   nieskoñczony[-1]\n\r", ch );
+			} else {
+				sprintf( buf, "[v2] Czas ¶wiecenie:   [%d]\n\r", obj->value[2] );
+			}
+			if ( obj->value[1] == 0 )
+				send_to_char( "[v1] Sposob zamocowania: nie mozna zamocowac\n\r", ch );
+			if ( IS_SET(obj->value[1], LIGHT_LIE ) )
+				send_to_char( "[v1] Sposob zamocowania: mozna polozyc na ziemi\n\r", ch );
+			if ( IS_SET(obj->value[1], LIGHT_HANG ) )
+				send_to_char( "[v1] Sposob zamocowania: mozna powiesic\n\r", ch );
+			if ( IS_SET(obj->value[1], LIGHT_STICK ) )
+				send_to_char( "[v1] Sposob zamocowania: mozna wbic w ziemie\n\r", ch );
+			if ( obj->value[3] == VUL_NONE )
+				send_to_char( "[v3] Wrazliwe na: nic\n\r", ch );
+			if ( obj->value[3] == VUL_RAIN )
+				send_to_char( "[v3] Wrazliwe na: deszcz\n\r", ch );
+			if ( obj->value[3] == VUL_WIND )
+				send_to_char( "[v3] Wrazliwe na: wiatr\n\r", ch );
+			send_to_char( "[v4] ZAREZERWOWANE\n\r", ch );
+			break;
 
 		case ITEM_STAFF:
 			sprintf( buf,
@@ -3473,20 +3455,19 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
 			       );
 			break;
 
-        case ITEM_FURNITURE:
-            sprintf
-                (
-                 buf,
-                 "[v0] Max u¿ytkowników:  [%d]\n\r"
-                 "[v1] Max obci±¿enie:    [%d]\n\r"
-                 "[v2] Flagi mebla:       %s   {Y? furniture{x\n\r"
-                 "[v3] Bonus do leczenia: [%d]   {rpodajemy w procentach 100 - oznacza normalne leczenie{x\n\r",
-                 obj->value[0],
-                 obj->value[1],
-                 flag_string( furniture_flags, obj->value[2]),
-                 obj->value[3]
-                );
-            break;
+		case ITEM_FURNITURE:
+			sprintf( buf,
+					"[v0] Max u¿ytkowników:  [%d]\n\r"
+					"[v1] Max obci±¿enie:    [%d]\n\r"
+					"[v2] Flagi mebla:       %s   {Y? furniture{x\n\r"
+					"[v3] Bonus do leczenia: [%d]   {rpodajemy w procentach 100 - oznacza normalne leczenie{x\n\r"
+					"[v4] Bonus do many:     [%d]   {rna killerze parametr nieu¿ywany{x\n\r",
+					obj->value[0],
+					obj->value[1],
+					flag_string( furniture_flags, obj->value[2]),
+					obj->value[3],
+					obj->value[4] );
+			break;
 
 		case ITEM_CORPSE_NPC:
 			sprintf( buf,
@@ -3662,50 +3643,24 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
 			/* WEAPON changed in ROM: */
 			/* I had to split the output here, I have no idea why, but it helped -- Hugin */
 			/* It somehow fixed a bug in showing scroll/pill/potions too ?! */
-        case ITEM_WEAPON:
-            if ( IS_SET( obj->value[ 4 ], WEAPON_RANDOM_MAGIC_PLUS ) )
-            {
-                sprintf
-                    (
-                     buf,
-                     "[v0] Klasa broni:               %s   {Y? wclass{x\n\r"
-                     "[v1] Liczba kostek:             [%d]\n\r"
-                     "[v2] Liczba ¶cian kostki:       [%d]\n\r"
-                     "[v3] Rodzaj zadawanych obra¿eñ: %s   {Y? weapon{x\n\r"
-                     "[v4] W³a¶ciwo¶ci specjalne:     %s   {Y? wtype{x\n\r"
-                     "[v5] Dolna granica losowania:   [%d]{r - obiekt ma ustawiona flage: WEAPON_RANDOM_MAGIC_PLUS{x\n\r"
-                     "[v6] Gorna granica losowania:   [%d]{r - bonus bedzie ustawiany w czasie ladowania przedmiotu{x\n\r",
-                     flag_string( weapon_class, obj->value[0] ),
-                     obj->value[1],
-                     obj->value[2],
-                     attack_table[obj->value[3]].name,
-                     flag_string( weapon_type2, obj->value[4] ),
-                     obj->value[5],
-                     obj->value[6]
-                    );
-            }
-            else
-            {
-                sprintf
-                    (
-                     buf,
-                     "[v0] Klasa broni:               %s   {Y? wclass{x\n\r"
-                     "[v1] Liczba kostek:             [%d]\n\r"
-                     "[v2] Liczba ¶cian kostki:       [%d]\n\r"
-                     "[v3] Rodzaj zadawanych obra¿eñ: %s   {Y? weapon{x\n\r"
-                     "[v4] W³a¶ciwo¶ci specjalne:     %s   {Y? wtype{x\n\r"
-                     "[v5] Bonus do trafienia:        [%d]\n\r"
-                     "[v6] Bonus do obra¿eñ:          [%d]\n\r",
-                     flag_string( weapon_class, obj->value[0] ),
-                     obj->value[1],
-                     obj->value[2],
-                     attack_table[obj->value[3]].name,
-                     flag_string( weapon_type2, obj->value[4] ),
-                     obj->value[5],
-                     obj->value[6]
-                    );
-            }
-            break;
+		case ITEM_WEAPON:
+			sprintf( buf,
+					"[v0] Klasa broni:               %s   {Y? wclass{x\n\r"
+					"[v1] Liczba kostek:             [%d]\n\r"
+					"[v2] Liczba ¶cian kostki:       [%d]\n\r"
+					"[v3] Rodzaj zadawanych obra¿eñ: %s   {Y? weapon{x\n\r"
+					"[v4] W³a¶ciwo¶ci specjalne:     %s   {Y? wtype{x\n\r"
+					"[v5] Bonus do trafienia:        [%d]\n\r"
+					"[v6] Bonus do obra¿eñ:          [%d]\n\r",
+					flag_string( weapon_class, obj->value[0] ),
+					obj->value[1],
+					obj->value[2],
+					attack_table[obj->value[3]].name,
+					flag_string( weapon_type2, obj->value[4] ),
+					obj->value[5],
+					obj->value[6]
+			       );
+			break;
 
 		case ITEM_MUSICAL_INSTRUMENT:
 			sprintf( buf,
@@ -3745,7 +3700,7 @@ void show_obj_values( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
 						"[v1] Flagi:                                       [%s]   {Y? container{x\n\r"
 						"[v2] Klucz:                                       [%d] %s\n\r"
 						"[v3] Maks. waga pojedynczego przedmiotu:          [%d kg]\n\r"
-						"[v4] Waga przedmiotu/¿ywotno¶æ komponentów        [%d%%]\n\r"
+						"[v4] Waga przedmiotu po w³o¿eniu:                 [%d%%]\n\r"
 						"[v5] Typ lub vnum przedmiotu, który mo¿na w³o¿yæ: [%s]   {Y? type{x\n\r",
 						obj->value[0],
 						flag_string( container_flags, obj->value[1] ),
@@ -5142,14 +5097,6 @@ OEDIT( oedit_show )
     sprintf( buf, "{GWeight{x:       [%5d] ({G%.2f kg{x)\n\r", pObj->weight, kg );
     send_to_char( buf, ch );
     /**
-     * length - pokazywany tylko dla broni
-     */
-    if( pObj->item_type == ITEM_WEAPON )
-    {
-        sprintf( buf, "{GLength{x:       [%5d]\n\r", pObj->length ); 
-        send_to_char( buf, ch );
-    }
-    /**
      * cost
      */
     sprintf( buf, "{GCost{x:         [%5d] %s\n\r", pObj->cost, money_string_short( pObj->cost ) );
@@ -5894,24 +5841,6 @@ OEDIT( oedit_weight )
 	pObj->weight = UMAX(1, atoi( argument ) );
 	kg = (float) pObj->weight / 22.05;
 	print_char( ch, "Waga ustawiona na %.2f kg.\n\r", kg );
-	return TRUE;
-}
-
-OEDIT( oedit_length )
-{
-	OBJ_INDEX_DATA *pObj;
-	EDIT_OBJ(ch, pObj);
-	if ( pObj->item_type != ITEM_WEAPON )
-	{
-	    return FALSE;
-	}
-	if ( argument[0] == '\0' || !is_number( argument ) )
-	{
-		send_to_char( "Sk³adnia: length [number]\n\r", ch );
-		return FALSE;
-	}
-	pObj->length = UMAX(0, atoi( argument ) );
-        send_to_char( "Length set.\n\r", ch);
 	return TRUE;
 }
 
@@ -10663,3 +10592,4 @@ char * jewlery2hands (int type)
 	}
 	return "noszona pod";
 }
+

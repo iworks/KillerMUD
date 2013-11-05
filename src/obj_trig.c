@@ -46,7 +46,7 @@ bool op_put_trigger( OBJ_DATA *obj, CHAR_DATA *ch, void *arg1, BITVECT_DATA *typ
 {
 	PROG_LIST * prg;
 	OBJ_DATA *obj2 = NULL;
-	unsigned int vnum = -1;
+	ush_int vnum = -1;
 
 	if ( arg1 == NULL )
 		return ( FALSE );
@@ -303,11 +303,6 @@ void op_act_trigger( char *argument, CHAR_DATA *ch, bool room_enabled )
 {
 	PROG_LIST * prg;
 	OBJ_DATA *obj;
-
-	if( !ch || !ch->in_room )
-	{
-		return;
-	}
 
 	/*najpierw graty w roomie*/
 	if ( room_enabled )

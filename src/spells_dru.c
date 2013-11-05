@@ -15,7 +15,7 @@
  *                                                                     *
  ***********************************************************************
  *                                                                     *
- * KILLER MUD is copyright 1999-2013 Killer MUD Staff (alphabetical)   *
+ * KILLER MUD is copyright 1999-2012 Killer MUD Staff (alphabetical)   *
  *                                                                     *
  * Andrzejczak Dominik   (kainti@go2.pl                 ) [Kainti    ] *
  * Jaron Krzysztof       (chris.jaron@gmail.com         ) [Razor     ] *
@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: spells_dru.c 12233 2013-04-09 09:54:32Z illi $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/spells_dru.c $
+ * $Id: spells_dru.c 11502 2012-07-27 10:34:29Z grunai $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/branches/12.02/src/spells_dru.c $
  *
  */
 #if defined(macintosh)
@@ -272,7 +272,7 @@ void spell_produce_fire( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 
 		if ( !is_same_group( ch, vch ) && !is_safe_spell( ch, vch, TRUE ) && !IS_AFFECTED( vch, AFF_FLYING ) && !IS_AFFECTED( vch, AFF_FLOAT ) && ( vch->master != ch ) && ( vch->leader != ch ) )
 		{
-			if ( IS_AFFECTED( vch, AFF_MINOR_GLOBE ) || IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) )
+			if ( IS_AFFECTED( vch, AFF_MINOR_GLOBE ) || IS_AFFECTED( vch, AFF_GLOBE ) || IS_AFFECTED( vch, AFF_MAJOR_GLOBE ) || IS_AFFECTED( vch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
 			{
 				act( "Jêzor ognia znika przy zetkniêciu ze sfer± otaczaj±c± $c.", vch, NULL, NULL, TO_ROOM );
 				act( "Jêzor ognia znika przy zetkniêciu z otaczaj±c± ciê sfer±.\n\r", ch, NULL, vch, TO_VICT );
@@ -561,6 +561,12 @@ void spell_freezing_rain( int sn, int level, CHAR_DATA *ch, void *vo, int target
 			vch_next = vch->next_in_room;
 			if ( vch != ch && !is_safe_spell( ch, vch, TRUE ) && !is_same_group( ch, vch ) )
 			{
+				if ( IS_AFFECTED( vch, AFF_ABSOLUTE_MAGIC_PROTECTION ) )
+				{
+					act( "Lodowe kule znikaj± przy zetkniêciu z otaczaj±c± ciê sfer±.\n\r", ch, NULL, vch, TO_VICT );
+					act( "Lodowe kule znikaj± przy zetkniêciu z otaczaj±c± $c sfer±.", vch, NULL, NULL, TO_ROOM );
+					return;
+				}
 
 				if ( IS_AFFECTED( vch, AFF_REFLECT_SPELL ) )
 				{
@@ -702,7 +708,7 @@ void spell_charm_animal( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 	if ( !IS_NPC( ch ) && IS_IMMORTAL( victim ) )
 		return;
 
-	if ( is_safe( ch, victim, TRUE ) )
+	if ( is_safe( ch, victim ) )
 		return;
 
 	if ( victim == ch )
@@ -1370,7 +1376,7 @@ void spell_summon_animals( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 {
 	CHAR_DATA * monster;
 	AFFECT_DATA af;
-	unsigned int vnum = 50;
+	ush_int vnum = 50;
 	int animal_level, animal_hit, charisma, duration;
 	int luck = get_curr_stat_deprecated( ch, STAT_LUC ), wis = get_curr_stat_deprecated( ch, STAT_WIS );
 	char buf [ MAX_STRING_LENGTH ];
@@ -1457,21 +1463,21 @@ void spell_summon_animals( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 	switch ( animal_level )
 	{
 		case 1:
-			vnum = MOB_VNUM_SQUIRREL;
+			vnum = MOB_VNUM_WIEWIORKA;
 			break;
 		case 2:
-			vnum = MOB_VNUM_RAWEN;
+			vnum = MOB_VNUM_KRUK;
 			break;
 		case 3:
 		case 4:
-			vnum = MOB_VNUM_BADGER;
+			vnum = MOB_VNUM_BORSUK;
 			break;
 		case 5:
 		case 6:
-			vnum = MOB_VNUM_SQUIRREL_M;
+			vnum = MOB_VNUM_WIEWIORKA_M;
 			break;
 		case 7:
-			vnum = MOB_VNUM_BOAR;
+			vnum = MOB_VNUM_DZIK;
 			break;
 		case 8:
 		case 9:
@@ -1485,22 +1491,22 @@ void spell_summon_animals( int sn, int level, CHAR_DATA *ch, void *vo, int targe
 			vnum = MOB_VNUM_TIGER;
 			break;
 		case 13:
-			vnum = MOB_VNUM_EAGLE_M;
+			vnum = MOB_VNUM_ORZEL_M;
 			break;
 		case 14:
-			vnum = MOB_VNUM_WOLF_M;
+			vnum = MOB_VNUM_WILK_M;
 			break;
 		case 15:
 		case 16:
 			vnum = MOB_VNUM_BEAR_M;
 			break;
 		case 17:
-			vnum = MOB_VNUM_TIGER_M;
+			vnum = MOB_VNUM_TYGRYS_M;
 			break;
 		case 18:
 		case 19:
 		case 20:
-			vnum = MOB_VNUM_CONSTRICTOR_M;
+			vnum = MOB_VNUM_DUSICIEL_M;
 			break;
 	}
 
@@ -1863,7 +1869,7 @@ void spell_ice_bolt ( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	else
 	{
 		af.where = TO_AFFECTS;
-		af.type = gsn_slow;
+		af.type = 90;
 		af.level = level;
 		af.duration = duration_modifier_by_spell_type( dice( 2, 2 ), SECT_COLD, ch );
         af.rt_duration = 0;
@@ -2049,8 +2055,6 @@ void spell_wind_charger( int sn, int level, CHAR_DATA *ch, void *vo, int target 
 		send_to_char( "Nic z tego, nie pofruniesz sobie.\n\r", ch);
 		return;
 	}
-
-	WAIT_STATE( victim, 1 ); //zabezpieczenie przed ucieczka wimpami mimo przewrocenia
 
 	if( IS_AFFECTED(victim, AFF_STONE_SKIN ) )
 	{
@@ -2974,6 +2978,7 @@ void spell_corrode( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	     IS_AFFECTED( victim, AFF_MINOR_GLOBE ) ||
 	     IS_AFFECTED( victim, AFF_GLOBE ) ||
 	     IS_AFFECTED( victim, AFF_MAJOR_GLOBE ) ||
+	     IS_AFFECTED( victim, AFF_ABSOLUTE_MAGIC_PROTECTION ) ||
 	     ( !IS_NPC( ch ) && 2 * victim->level > 3 * level )
 	   )
 	{
@@ -3426,7 +3431,7 @@ void spell_nature_ally_Nth( int sn, int level, CHAR_DATA *ch, void *vo, int targ
 {
 	CHAR_DATA * monster;
 	AFFECT_DATA af;
-	unsigned int vnum = 50;
+	ush_int vnum = 50;
 	int animal_level, animal_hit, charisma, duration;
 	int luck = get_curr_stat( ch, STAT_LUC ), wis = get_curr_stat( ch, STAT_WIS );
 	char buf [ MAX_STRING_LENGTH ];
@@ -3589,11 +3594,11 @@ void spell_nature_ally_Nth( int sn, int level, CHAR_DATA *ch, void *vo, int targ
 
 void spell_nature_ally_I( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-  const int tab[] = { MOB_VNUM_SQUIRREL,
-		      MOB_VNUM_RAWEN,
-		      MOB_VNUM_BADGER, MOB_VNUM_BADGER,
-		      MOB_VNUM_SQUIRREL_M, MOB_VNUM_SQUIRREL_M,
-		      MOB_VNUM_BOAR };
+  const int tab[] = { MOB_VNUM_WIEWIORKA,
+		      MOB_VNUM_KRUK,
+		      MOB_VNUM_BORSUK, MOB_VNUM_BORSUK,
+		      MOB_VNUM_WIEWIORKA_M, MOB_VNUM_WIEWIORKA_M,
+		      MOB_VNUM_DZIK };
 
   spell_nature_ally_Nth( sn, level, ch, vo, target, 138, 72,  10, "I", 16, TRUE, 1, 7, tab, 18, 10, 14 );
 }
@@ -3602,18 +3607,18 @@ void spell_nature_ally_II( int sn, int level, CHAR_DATA *ch, void *vo, int targe
   const int tab[] = { MOB_VNUM_WOLF, MOB_VNUM_WOLF,
 		      MOB_VNUM_BEAR,
 		      MOB_VNUM_TIGER,
-		      MOB_VNUM_EAGLE_M };
+		      MOB_VNUM_ORZEL_M };
 
   spell_nature_ally_Nth( sn, level, ch, vo, target, 144, 1000, 16, "II", 20, TRUE, 7, 11, tab, 18, 11, 15 );
 }
 void spell_nature_ally_III( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {
-  const int tab[] = { MOB_VNUM_EAGLE_M,
-		      MOB_VNUM_WOLF_M, MOB_VNUM_WOLF_M,
+  const int tab[] = { MOB_VNUM_ORZEL_M,
+		      MOB_VNUM_WILK_M, MOB_VNUM_WILK_M,
 		      MOB_VNUM_BEAR_M,
-		      MOB_VNUM_TIGER_M,
-		      MOB_VNUM_CONSTRICTOR_M,
-		      MOB_VNUM_SPIDER_M };
+		      MOB_VNUM_TYGRYS_M,
+		      MOB_VNUM_DUSICIEL_M,
+		      MOB_VNUM_PAJAK_M };
 
   spell_nature_ally_Nth( sn, level, ch, vo, target, 150, 1000, 22, "III", 24, TRUE, 11, 16, tab, 18, 12, 16 );
 }
@@ -3765,6 +3770,117 @@ void spell_wildthorn( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 	       18, 22,
 	       MOB_VNUM_WILDTHORN );
 }
+
+/* Tener: refaktoring czarów lecz±cych i poprawienie komunikatów [20080523] */
+
+void heal_specific_race_type( int sn, int level, CHAR_DATA *ch, void *vo, int target,
+			      const char comm_bad_race[], int target_type,
+			      int dice_rolls, int dice_sides, int level_mod,
+			      const char heal_msg_table[6][MAX_STRING_LENGTH] )
+{
+
+	CHAR_DATA * victim = ( CHAR_DATA * ) vo;
+	int luck = get_curr_stat_deprecated( ch, STAT_LUC ), heal_value;
+	int heal_percent;
+
+	if ( !IS_SET( race_table[ GET_RACE( victim ) ].type , target_type ) )
+	{
+		act( comm_bad_race, ch, NULL, victim, TO_CHAR );
+		return;
+	}
+
+	heal_value = dice( dice_rolls, dice_sides ) + level*level_mod;
+
+	if ( level > 30 ) heal_value += 10;
+
+	// modyfikator zale¿ny od szczê¶cia dodatni
+	if ( number_range( 0, luck ) > 15 ) heal_value = ( heal_value * 105 ) / 100;
+	// modyfikator zale¿ny od szczê¶cia ujemny
+	if ( number_range( 0, luck + LUCK_BASE_MOD ) < 3 ) heal_value = ( heal_value * 9 ) / 10;
+	// modyfikator dla strasznego pecha
+	if ( number_range( 0, luck + LUCK_BASE_MOD ) == 0 )
+	{
+		send_to_char( "Nie uda³o ci siê.\n\r", ch );
+		return;
+	}
+
+
+	if( victim->hit == get_max_hp( victim ) )
+	   return;
+
+	heal_percent = UMIN( get_max_hp( victim ) + 11 - victim->hit, heal_value );
+	heal_percent = 100 * heal_percent / get_max_hp( victim );
+
+	victim->hit = UMIN( victim->hit + heal_value, get_max_hp( victim ) );
+
+
+	if ( victim->hit == victim->max_hit )
+	{
+		switch (victim->sex)
+		{
+			case 0:
+				act( "$z wygl±da na w pe³ni zdrowe.", victim, NULL, NULL, TO_ROOM );
+				break;
+			case 1:
+				act( "$z wygl±da na w pe³ni zdrowego.", victim, NULL, NULL, TO_ROOM );
+				break;
+			default:
+			case 2:
+				act( "$z wygl±da na w pe³ni zdrow±.", victim, NULL, NULL, TO_ROOM );
+				break;
+		}
+	}
+	else if ( heal_percent > 75 )
+	{
+		act( heal_msg_table[0], victim, NULL, NULL, TO_ROOM );
+	}
+	else if ( heal_percent > 50 )
+	{
+		act( heal_msg_table[1], victim, NULL, NULL, TO_ROOM );
+	}
+	else if ( heal_percent > 35 )
+	{
+		act( heal_msg_table[2], victim, NULL, NULL, TO_ROOM );
+	}
+	else if ( heal_percent > 20 )
+	{
+		act( heal_msg_table[3], victim, NULL, NULL, TO_ROOM );
+	}
+	else if ( heal_percent > 5 )
+	{
+		act( heal_msg_table[4], victim, NULL, NULL, TO_ROOM );
+	}
+	else if ( heal_percent > 0 )
+	{
+		act( heal_msg_table[5], victim, NULL, NULL, TO_ROOM );
+	}
+
+	update_pos( victim );
+	return;
+
+}
+
+/* komunikaty wykorzystywane w leczeniach. ma byæ ich tyle, ile wynika z kodu w heal_specific_race_type */
+
+const char heal_plant_msg_table [6][MAX_STRING_LENGTH] = {
+   "Niemal wszystkie uszkodzenia $z goj± siê",
+   "Wiekszo¶æ masywnych zniszczeñ $z goi siê.",
+   "Kilka du¿ych uszkodzeñ $z goi siê.",
+   "Kilka uszkodzeñ $z goi siê.",
+   "Kilka zranieñ $z znika.",
+   "Niektóre z zadrapañ $z znikaj±."
+};
+
+const char heal_animal_msg_table [6][MAX_STRING_LENGTH] = {
+   "Prawie wszystkie rany $z goj± siê.",
+   "Wiêkszo¶æ ran $z goi siê.",
+   "Kilka g³êbokich ran $z goi siê.",
+   "Kilka ran $z goi siê.",
+   "Kilka zranieñ $z znika.",
+   "Niektóre z siniaków $z znikaj±."
+};
+
+
 
 void spell_cure_animal( int sn, int level, CHAR_DATA *ch, void *vo, int target )
 {

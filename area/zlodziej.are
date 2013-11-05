@@ -457,11 +457,11 @@ ExtraExt 0|d
 Wear AO
 Wear2Ext 0
 Bonus 0
+Rent 0
 LiczbaMnoga 0
 Gender 1
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
@@ -478,11 +478,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 3
 Value 1955 1955 1954 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 0
 Cost 0
 Cond 75
@@ -500,11 +500,11 @@ ExtraExt 0|d
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 10
 LiczbaMnoga 0
 Gender 3
 Value 1956 1956 1955 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 0
 Cond 75
@@ -521,11 +521,11 @@ ExtraExt 0|d
 Wear 0
 Wear2Ext 0
 Bonus 0
+Rent 1
 LiczbaMnoga 0
 Gender 2
 Value 1000 5 0 1000 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 10
 Cost 600
 Cond 75
@@ -542,11 +542,11 @@ ExtraExt 0
 Wear AL
 Wear2Ext 0
 Bonus 1961
+Rent 55
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 1
 Cost 5
 Cond 75
@@ -563,11 +563,11 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 1961
+Rent 90
 LiczbaMnoga 0
 Gender 2
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 5
 Cond 75
@@ -584,15 +584,39 @@ ExtraExt 0
 Wear AG
 Wear2Ext 0
 Bonus 1961
+Rent 75
 LiczbaMnoga 1
 Gender 5
 Value 9 9 9 10 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 20
 Cost 360
 Cond 75
 Comments ~
+Objend
+#Vnum 1962
+Name pier¶cieñ Vaniona~
+Odmiana pier¶cienia Vaniona~pier¶cieniowi Vaniona~pier¶cien Vaniona~pier¶cieniem Vaniona~pier¶cieniu Vaniona~
+Short pier¶cieñ Vaniona~
+Descr Srebrno-z³oty pier¶cieñ Vaniona.~
+Material z³oto~
+Type jewelry
+ExtraExt 0
+Wear AB
+Wear2Ext 0
+Bonus 1961
+Rent 95
+LiczbaMnoga 0
+Gender 2
+Value 0 0 0 0 0 0 0
+Repair 0 0 0 0
+Weight 1
+Cost 1800
+Cond 75
+Itemdesc ~
+Identdesc ~
+Comments Poprawilem - byl material skora i type clothing. - {RGarloop{x ({CWed Feb 5 10:59:16 2003{x)
+~
 Objend
 #Vnum 1963
 Name szara ksiega~
@@ -605,11 +629,11 @@ ExtraExt 0|T
 Wear A
 Wear2Ext 0
 Bonus 0
+Rent 20
 LiczbaMnoga 0
 Gender 0
 Value 1 2 77 138 172 96 0
 Repair 0 0 0 0
-Length 0
 Weight 45
 Cost 3600
 Cond 50
@@ -628,15 +652,44 @@ ExtraExt 0
 Wear AK
 Wear2Ext 0
 Bonus 0
+Rent 3
 LiczbaMnoga 0
 Gender 0
 Value 0 0 0 0 0 0 0
 Repair 0 0 0 0
-Length 0
 Weight 15
 Cost 0
 Cond 100
 Comments ~
+Objend
+#Vnum 1966
+Name obosieczny toporek~
+Odmiana obosiecznego toporka~obosiecznemu toporkowi~obosieczny toporek~obosiecznym toporkiem~obosiecznym toporku~
+Short obosieczny toporek~
+Descr Obosieczny, ¿elazny toporek le¿y tutaj na ziemi.~
+Material ¿elazo~
+Type weapon
+ExtraExt 0|G
+Wear ANZ
+Wear2Ext 0
+Bonus 0
+Rent 25
+LiczbaMnoga 0
+Gender 2
+Value 5 2 5 25 0 1 1
+Repair 0 0 0 0
+Weight 120
+Cost 4500
+Cond 100
+Itemdesc Ten niewielki, obosieczny toporek jest - co zadzwiaj±ce - dobrej jako¶ci.
+Musia³ byæ chlub± i dum± swojego by³ego w³a¶ciciela. 
+~
+Identdesc Ten toporek zosta³ umagiczniony, i jest traktowany jako broñ +1. Oprócz
+tego dodatkowo istoty z³e zadaj± nim wiêksze rany, a istoty dobre mniejsze. 
+~
+Comments ~
+SpecDamExt 3 100 -100 0 -100 0 1 0
+SpecDamExt 3 100 -100 1 -100 0 -1 0
 Objend
 #Vnum 0
 
@@ -1502,22 +1555,22 @@ mob force $r s
 ~
 #1952
 ~
-mob equip self 3171
-mob equip self 3157 hold
-mob equip self 3066
-mob equip self 3001
-mob equip self 3082
-mob equip self 3050
-mob equip self 3017
+mob equip self 3094
+mob equip self 3071 hold
+mob equip self 3378
+mob equip self 3380
+mob equip self 6028
+mob equip self 3382
+mob equip self 3008
 ~
 #1953
 ~
-mob equip self 3157
-mob equip self 3066
-mob equip self 3001
-mob equip self 3082
-mob equip self 3050
-mob equip self 3017
+mob equip self 3071
+mob equip self 3378
+mob equip self 3380
+mob equip self 6028
+mob equip self 3382
+mob equip self 3008
 ~
 #1954
 ~
@@ -1561,51 +1614,56 @@ mob aload 1960 r
 break
 endif
 endif
-mob equip self 3066
-mob equip self 3001
-mob equip self 3082
-mob equip self 3050
-mob equip self 3017
-mob equip self 3179
-mob equip self 3171 hold
+if rand 95
+if canloadarte 1962
+mob aload 1962 r
+endif
+endif
+mob equip self 3378
+mob equip self 3380
+mob equip self 6028
+mob equip self 3382
+mob equip self 3008
+mob equip self 3022
+mob equip self 3094 hold
 ~
 #1958_onload
 ~
 if rand 20
-  mob oload shield 3
+mob oload shield 3
 else
-  mob oload shield 2
+mob oload shield 2
 endif
 wear all
-mob equip self 3066
-mob equip self 3001
-mob equip self 3082
-mob equip self 3050
-mob equip self 3017
+mob equip self 3378
+mob equip self 3380
+mob equip self 6028
+mob equip self 3382
+mob equip self 3008
 if rand 50
-  mob equip self 3172
+mob equip self 1966
 else
-  mob equip self 3152
+mob equip self 56
 endif
 ~
 #kapl_sha_onload
 ~
-mob equip self 3179
-mob equip self 3033
-mob equip self 3081
-mob equip self 3049
-mob equip self 3017
-mob equip self 3001
+mob equip self 3022
+mob equip self 3054
+mob equip self 3053
+mob equip self 3052
+mob equip self 3051
+mob equip self 3380
 mob equip self 11810
-mob equip self 3066
+mob equip self 3378
 ~
 #0
 
 #OBJPROGSNEW
 #1951
 ~
-mob equip self 3171
-mob equip self 3157 hold
+mob equip self 3094
+mob equip self 3071 hold
 ~
 #0
 

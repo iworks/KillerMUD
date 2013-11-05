@@ -27,8 +27,8 @@
  *                                                                     *
  ***********************************************************************
  *
- * $Id: comm.c 11439 2012-06-18 19:26:06Z grunai $
- * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/trunk/src/comm.c $
+ * $Id: comm.c 10701 2011-12-02 16:03:39Z illi $
+ * $HeadURL: http://svn.iworks.pl/svn/clients/illi/killer/tags/12.02/src/comm.c $
  *
  */
 /*********************************************************************
@@ -261,7 +261,7 @@ int main( int argc, char **argv )
 	}
 
 	boot_db();
-	init_signals();
+	/*init_signals();*/
 	sprintf( log_buf, "Killer is ready to rock on port: %d.", port );
 	log_string( log_buf );
 
@@ -1128,7 +1128,7 @@ bool process_output( DESCRIPTOR_DATA *d, bool fPrompt )
 
 			ch = d->original ? d->original : d->character;
 
-			if ( ch && !get_spirit( ch ) )
+			if ( ch )
 			{
 				if ( !IS_SET( ch->comm, COMM_COMPACT ) )
 					write_to_buffer( d, "\n\r", 2 );
@@ -2843,7 +2843,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 							for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 							{
-								if ( iClass == CLASS_MONK || iClass == CLASS_BARD )
+								if ( iClass == CLASS_MONK || iClass == CLASS_BARD || iClass == CLASS_SHAMAN )
 									continue;
 								if ( IS_SET( pc_race_table[ race ].class_flag, ( 1 << iClass ) ) )
 								{
@@ -2960,7 +2960,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 					for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
 					{
-						if ( iClass == CLASS_MONK || iClass == CLASS_BARD )
+						if ( iClass == CLASS_MONK || iClass == CLASS_BARD || iClass == CLASS_SHAMAN )
 							continue;
 						if ( IS_SET( pc_race_table[ race ].class_flag, ( 1 << iClass ) ) )
 						{
@@ -3037,7 +3037,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 			for ( race = 1, iClass = 0; iClass < MAX_CLASS; iClass++ )
 			{
-				if ( iClass == CLASS_MONK || iClass == CLASS_BARD )
+				if ( iClass == CLASS_MONK || iClass == CLASS_BARD || iClass == CLASS_SHAMAN )
 					continue;
 
 				if ( class_ok( ch, iClass ) )
@@ -3067,7 +3067,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 				{
 					for ( i = 1, iClass = 0; iClass < MAX_CLASS; iClass++ )
 					{
-						if ( iClass == CLASS_MONK || iClass == CLASS_BARD )
+						if ( iClass == CLASS_MONK || iClass == CLASS_BARD || iClass == CLASS_SHAMAN )
 							continue;
 
 						if ( class_ok( ch, iClass ) && i++ == new_class )
@@ -3095,7 +3095,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 				}
 			}
 
-			if ( iClass == CLASS_MONK || iClass == CLASS_BARD )
+			if ( iClass == CLASS_MONK || iClass == CLASS_BARD || iClass == CLASS_SHAMAN )
 				iClass = -1;
 
 			if ( iClass == -1 )
@@ -3711,8 +3711,7 @@ void stop_idling( CHAR_DATA *ch )
 	     || ch->desc == NULL
 	     || ch->desc->connected != CON_PLAYING
 	     || ch->was_in_room == NULL
-	     || ch->in_room != get_room_index( ROOM_VNUM_LIMBO ) 
-	     || get_spirit( ch ) )
+	     || ch->in_room != get_room_index( ROOM_VNUM_LIMBO ) )
 		return ;
 
 	ch->timer = 0;
@@ -4390,7 +4389,6 @@ void act_new( const char *format, CHAR_DATA *ch, void *arg1,
 	bool	fColour = FALSE;
 	bool	roomenabled = TRUE;
 	int minds = 0;
-	SPIRIT_DATA * duch = spirits;
 	/*
 	 * Discard null and zero-length messages.
 	 */
@@ -4438,22 +4436,6 @@ void act_new( const char *format, CHAR_DATA *ch, void *arg1,
 			minds = 1;
 		}
 
-		if( duch && !next_in_room )
-		{
-			OBJ_DATA * in_obj;
-			int room;
-       	 	        for ( in_obj = duch->corpse; in_obj->in_obj != NULL; in_obj = in_obj->in_obj )
-		                       ;
-       	         	if ( in_obj && in_obj->carried_by != NULL  && in_obj->carried_by->in_room != NULL )
-				room = in_obj->carried_by->in_room->vnum;
-			else if ( in_obj && in_obj->in_room )
-				room = in_obj->in_room->vnum;	
-
-			if( ch->in_room->vnum == room ) 
-	                        next_in_room = duch->ch;
-                        duch = duch->next;
-		}
-
 		if ( ( !IS_NPC( to ) && !to->desc )
 		     || ( IS_NPC( to ) && !HAS_TRIGGER( to, TRIG_ACT ) && !to->desc )
 		     || to->position < min_pos )
@@ -4462,8 +4444,6 @@ void act_new( const char *format, CHAR_DATA *ch, void *arg1,
 		if ( !IS_NPC( to ) && to->pcdata->mind_in && minds < 2 )
 			continue;
 		if ( !IS_NPC( to ) && to->pcdata->mind_in && ( type == TO_CHAR || type == TO_VICT ) )
-			continue;
-		if ( get_spirit( to ) && ( type == TO_CHAR || type == TO_VICT ) )
 			continue;
 		if ( ( type == TO_CHAR ) && to != ch )
 			continue;
