@@ -6,7 +6,7 @@ ifdef INSANE_OPT
 	COMMON += -Wall -Wp,-D_FORTIFY_SOURCE=2 -mtune=native -march=native -O2 -Wextra
 endif
 
-C_FLAGS = $(COMMON) -DHASHSTR -DMCCP 
+C_FLAGS = $(COMMON) -DHASHSTR -DMCCP -std=gnu89
 L_FLAGS =  $(COMMON) -lpcre -pthread
 CYG_C_FLAGS = $(COMMON) -DHASHSTR -DCYGWIN
 CYG_L_FLAGS = $(COMMON) /bin/pcre.dll
@@ -25,7 +25,8 @@ CYG_O_FILES := $(addprefix $(CYG),$(patsubst %.c,%.o,$(wildcard *.c)))
 
 rom:  $(EXTRA_TARGETS) $(O_FILES)
 	rm -f rom
-	$(CC) $(L_FLAGS) -o rom $(O_FILES) $(L_FILES) $(STATIC_LIBS)
+	#$(CC) $(L_FLAGS) -o rom $(O_FILES) $(L_FILES) $(STATIC_LIBS)
+	$(CC) -o rom $(O_FILES) $(L_FILES) $(L_FLAGS) $(STATIC_LIBS)
 
 rom-tc:  $(EXTRA_TARGETS) $(O_FILES)
 	rm -f rom-tc

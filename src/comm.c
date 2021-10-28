@@ -109,11 +109,11 @@ pthread_mutex_t lookup_mutex = PTHREAD_MUTEX_INITIALIZER;
 #endif
 
 #if	defined(linux)
-int	close		args( ( int fd ) );
-int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
-int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
-				fd_set *exceptfds, struct timeval *timeout ) );
-int	socket		args( ( int domain, int type, int protocol ) );
+//int	close		args( ( int fd ) );
+//int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
+//int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
+//				fd_set *exceptfds, struct timeval *timeout ) );
+//int	socket		args( ( int domain, int type, int protocol ) );
 #endif
 
 /*
